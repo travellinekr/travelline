@@ -158,3 +158,81 @@ export const MAJOR_AIRPORTS = [
     { name: "멜버른국제공항", code: "MEL" },        // 멜버른
     { name: "오클랜드국제공항", code: "AKL" },      // 오클랜드
 ];
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// 📍 도시별 공항 그룹 (드롭다운용)
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// 도착 공항 드롭다운에서 도시별로 공항을 그룹화하여 표시
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+export interface AirportOption {
+    name: string;
+    code: string;
+}
+
+export interface CityAirportGroup {
+    city: string;
+    airports: AirportOption[];
+}
+
+export const CITY_AIRPORT_GROUPS: CityAirportGroup[] = [
+    {
+        city: "오사카",
+        airports: [
+            { name: "간사이국제공항", code: "KIX" }
+        ]
+    },
+    {
+        city: "도쿄",
+        airports: [
+            { name: "나리타국제공항", code: "NRT" },
+            { name: "하네다공항", code: "HND" }
+        ]
+    },
+    {
+        city: "나고야",
+        airports: [
+            { name: "주부국제공항", code: "NGO" }
+        ]
+    },
+    {
+        city: "후쿠오카",
+        airports: [
+            { name: "후쿠오카공항", code: "FUK" }
+        ]
+    },
+    {
+        city: "삿포로",
+        airports: [
+            { name: "신치토세공항", code: "CTS" }
+        ]
+    },
+    {
+        city: "오키나와",
+        airports: [
+            { name: "나하공항", code: "OKA" }
+        ]
+    },
+    {
+        city: "베이징",
+        airports: [
+            { name: "수도국제공항", code: "PEK" },
+            { name: "다싱국제공항", code: "PKX" }
+        ]
+    },
+    {
+        city: "상하이",
+        airports: [
+            { name: "푸둥국제공항", code: "PVG" },
+            { name: "훙차오국제공항", code: "SHA" }
+        ]
+    },
+    {
+        city: "방콕",
+        airports: [
+            { name: "수완나품국제공항", code: "BKK" },
+            { name: "돈므앙국제공항", code: "DMK" }
+        ]
+    }
+];
+

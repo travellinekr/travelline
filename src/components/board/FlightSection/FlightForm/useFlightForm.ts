@@ -18,17 +18,27 @@ export function useFlightForm(
 
     // Outbound states
     const [outboundDepartureAirport, setOutboundDepartureAirport] = useState(`${KOREAN_AIRPORTS[0].name} (${KOREAN_AIRPORTS[0].code})`);
+    const [outboundDepartureTerminal, setOutboundDepartureTerminal] = useState('');
+    const [outboundDepartureDate, setOutboundDepartureDate] = useState('');
     const [outboundArrivalAirport, setOutboundArrivalAirport] = useState('');
+    const [outboundArrivalTerminal, setOutboundArrivalTerminal] = useState('');
+    const [outboundArrivalDate, setOutboundArrivalDate] = useState('');
     const [outboundHour, setOutboundHour] = useState('');
     const [outboundMinute, setOutboundMinute] = useState('');
     const [outboundArrivalHour, setOutboundArrivalHour] = useState('');
     const [outboundArrivalMinute, setOutboundArrivalMinute] = useState('');
     const [outboundAirline, setOutboundAirline] = useState('');
+    const [isOutboundArrivalCustom, setIsOutboundArrivalCustom] = useState(false);
 
     // Return states
     const [returnDepartureAirport, setReturnDepartureAirport] = useState('');
+    const [returnDepartureTerminal, setReturnDepartureTerminal] = useState('');
+    const [returnDepartureDate, setReturnDepartureDate] = useState('');
     const [returnArrivalAirport, setReturnArrivalAirport] = useState('');
+    const [returnArrivalTerminal, setReturnArrivalTerminal] = useState('');
+    const [returnArrivalDate, setReturnArrivalDate] = useState('');
     const [isReturnDepartureCustom, setIsReturnDepartureCustom] = useState(false);
+    const [isReturnArrivalCustom, setIsReturnArrivalCustom] = useState(false);
     const [returnHour, setReturnHour] = useState('');
     const [returnMinute, setReturnMinute] = useState('');
     const [returnArrivalHour, setReturnArrivalHour] = useState('');
@@ -38,7 +48,11 @@ export function useFlightForm(
     // Stopover states
     const [outboundStopovers, setOutboundStopovers] = useState<Array<{
         departureAirport: string;
+        departureTerminal: string;
+        departureDate: string;
         arrivalAirport: string;
+        arrivalTerminal: string;
+        arrivalDate: string;
         hour: string;
         minute: string;
         arrivalHour: string;
@@ -48,7 +62,11 @@ export function useFlightForm(
 
     const [returnStopovers, setReturnStopovers] = useState<Array<{
         departureAirport: string;
+        departureTerminal: string;
+        departureDate: string;
         arrivalAirport: string;
+        arrivalTerminal: string;
+        arrivalDate: string;
         hour: string;
         minute: string;
         arrivalHour: string;
@@ -61,18 +79,40 @@ export function useFlightForm(
 
     // Reset all flight form fields
     const resetFlightForm = () => {
+        // Dates
         setDepartureDate(null);
         setArrivalDate(null);
+
+        // Outbound flight
+        setOutboundDepartureAirport(`${KOREAN_AIRPORTS[0].name} (${KOREAN_AIRPORTS[0].code})`);
+        setOutboundDepartureTerminal('');
+        setOutboundDepartureDate('');
+        setOutboundArrivalAirport('');
+        setOutboundArrivalTerminal('');
+        setOutboundArrivalDate('');
         setOutboundHour('');
         setOutboundMinute('');
         setOutboundArrivalHour('');
         setOutboundArrivalMinute('');
         setOutboundAirline('');
+        setIsOutboundArrivalCustom(false);
+
+        // Return flight
+        setReturnDepartureAirport('');
+        setReturnDepartureTerminal('');
+        setReturnDepartureDate('');
+        setReturnArrivalAirport('');
+        setReturnArrivalTerminal('');
+        setReturnArrivalDate('');
         setReturnHour('');
         setReturnMinute('');
         setReturnArrivalHour('');
         setReturnArrivalMinute('');
         setReturnAirline('');
+        setIsReturnDepartureCustom(false);
+        setIsReturnArrivalCustom(false);
+
+        // Stopovers
         setOutboundStopovers([]);
         setReturnStopovers([]);
     };
@@ -195,7 +235,11 @@ export function useFlightForm(
         }
         setOutboundStopovers([...outboundStopovers, {
             departureAirport: '',
+            departureTerminal: '',
+            departureDate: '',
             arrivalAirport: '',
+            arrivalTerminal: '',
+            arrivalDate: '',
             hour: '',
             minute: '',
             arrivalHour: '',
@@ -221,7 +265,11 @@ export function useFlightForm(
         }
         setReturnStopovers([...returnStopovers, {
             departureAirport: '',
+            departureTerminal: '',
+            departureDate: '',
             arrivalAirport: '',
+            arrivalTerminal: '',
+            arrivalDate: '',
             hour: '',
             minute: '',
             arrivalHour: '',
@@ -383,41 +431,61 @@ export function useFlightForm(
         // Outbound
         outbound: {
             departureAirport: outboundDepartureAirport,
+            departureTerminal: outboundDepartureTerminal,
+            departureDate: outboundDepartureDate,
             arrivalAirport: outboundArrivalAirport,
+            arrivalTerminal: outboundArrivalTerminal,
+            arrivalDate: outboundArrivalDate,
             hour: outboundHour,
             minute: outboundMinute,
             arrivalHour: outboundArrivalHour,
             arrivalMinute: outboundArrivalMinute,
             airline: outboundAirline,
+            isCustomArrival: isOutboundArrivalCustom,
         },
         // Return
         return: {
             departureAirport: returnDepartureAirport,
+            departureTerminal: returnDepartureTerminal,
+            departureDate: returnDepartureDate,
             arrivalAirport: returnArrivalAirport,
+            arrivalTerminal: returnArrivalTerminal,
+            arrivalDate: returnArrivalDate,
             hour: returnHour,
             minute: returnMinute,
             arrivalHour: returnArrivalHour,
             arrivalMinute: returnArrivalMinute,
             airline: returnAirline,
             isCustomDeparture: isReturnDepartureCustom,
+            isCustomArrival: isReturnArrivalCustom,
         },
         // Setters
         setters: {
             setOutboundDepartureAirport,
+            setOutboundDepartureTerminal,
+            setOutboundDepartureDate,
             setOutboundArrivalAirport,
+            setOutboundArrivalTerminal,
+            setOutboundArrivalDate,
             setOutboundHour,
             setOutboundMinute,
             setOutboundArrivalHour,
             setOutboundArrivalMinute,
             setOutboundAirline,
             setReturnDepartureAirport,
+            setReturnDepartureTerminal,
+            setReturnDepartureDate,
             setReturnArrivalAirport,
+            setReturnArrivalTerminal,
+            setReturnArrivalDate,
             setReturnHour,
             setReturnMinute,
             setReturnArrivalHour,
             setReturnArrivalMinute,
             setReturnAirline,
             setIsReturnDepartureCustom,
+            setIsOutboundArrivalCustom,
+            setIsReturnArrivalCustom,
         },
         // Stopovers
         stopovers: {

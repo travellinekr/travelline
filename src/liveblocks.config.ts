@@ -20,7 +20,9 @@ export type Card = {
 export type FlightInfo = {
   outbound: {
     departureAirport: string;
+    departureTerminal?: string; // 출발 터미널 (텍스트 입력)
     arrivalAirport: string;
+    arrivalTerminal?: string; // 도착 터미널 (텍스트 입력)
     date: string; // 출발 일자 ISO format
     time: string; // 출발 시간
     arrivalDate: string; // 도착 일자 ISO format
@@ -28,7 +30,9 @@ export type FlightInfo = {
     airline: string;
     stopovers?: Array<{
       departureAirport: string;
+      departureTerminal?: string;
       arrivalAirport: string;
+      arrivalTerminal?: string;
       date: string;
       time: string;
       arrivalDate: string;
@@ -38,14 +42,18 @@ export type FlightInfo = {
   };
   return: {
     departureAirport: string;
+    departureTerminal?: string; // 출발 터미널 (텍스트 입력)
     arrivalAirport: string;
+    arrivalTerminal?: string; // 도착 터미널 (텍스트 입력)
     date: string; // 출발 일자 ISO format
     time: string; // 출발 시간
     arrivalDate: string; // 도착 일자 ISO format
     arrivalTime: string; // 도착 시간
     stopovers?: Array<{
       departureAirport: string;
+      departureTerminal?: string;
       arrivalAirport: string;
+      arrivalTerminal?: string;
       date: string;
       time: string;
       arrivalDate: string;

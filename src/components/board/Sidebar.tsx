@@ -69,7 +69,7 @@ export function Sidebar({
     })() : [];
 
     return (
-        <nav className="w-14 md:w-20 bg-white border-r border-gray-100 flex flex-col shrink-0 h-full z-20">
+        <nav className="hidden md:flex w-20 bg-white border-r border-gray-100 flex-col shrink-0 h-full z-20">
             {/* Fixed Header: Destination + Flight */}
             <div className="flex-none py-2 space-y-2">
                 {/* Destination Section */}
@@ -106,7 +106,7 @@ export function Sidebar({
                         <Plane className={`w-5 h-5 ${flightInfo ? 'text-purple-600' : 'text-slate-400'}`} />
                     </div>
                     <span className={`block text-[10px] md:text-xs font-normal mt-1 ${activeDay === 'flights' ? 'text-slate-700' :
-                            flightInfo ? 'text-purple-600' : 'text-slate-400'
+                        flightInfo ? 'text-purple-600' : 'text-slate-400'
                         }`}>항공편</span>
                 </div>
             </div>

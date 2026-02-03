@@ -27,7 +27,11 @@ export function FlightCardView({ flightInfo, isOver }: FlightCardViewProps) {
                             <span className="text-[10px] text-slate-400">{flightInfo.outbound.airline}</span>
                         </div>
                         <p className="text-sm font-medium text-slate-700 truncate mb-0.5">
-                            {flightInfo.outbound.departureAirport.split('(')[0].trim()} → {flightInfo.outbound.arrivalAirport.split('(')[0].trim()}
+                            {flightInfo.outbound.departureAirport.split('(')[0].trim()}
+                            {flightInfo.outbound.departureTerminal && ` ${flightInfo.outbound.departureTerminal}`}
+                            {' → '}
+                            {flightInfo.outbound.arrivalAirport.split('(')[0].trim()}
+                            {flightInfo.outbound.arrivalTerminal && ` ${flightInfo.outbound.arrivalTerminal}`}
                         </p>
                         <p className="text-xs text-slate-500">
                             {new Date(flightInfo.outbound.date).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' })} {flightInfo.outbound.time} → {flightInfo.outbound.arrivalDate ? new Date(flightInfo.outbound.arrivalDate).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) + ' ' : ''}{flightInfo.outbound.arrivalTime || ''}
@@ -49,7 +53,11 @@ export function FlightCardView({ flightInfo, isOver }: FlightCardViewProps) {
                             <span className="text-[10px] text-slate-400">{flightInfo.return.airline}</span>
                         </div>
                         <p className="text-sm font-medium text-slate-700 truncate mb-0.5">
-                            {flightInfo.return.departureAirport.split('(')[0].trim()} → {flightInfo.return.arrivalAirport.split('(')[0].trim()}
+                            {flightInfo.return.departureAirport.split('(')[0].trim()}
+                            {flightInfo.return.departureTerminal && ` ${flightInfo.return.departureTerminal}`}
+                            {' → '}
+                            {flightInfo.return.arrivalAirport.split('(')[0].trim()}
+                            {flightInfo.return.arrivalTerminal && ` ${flightInfo.return.arrivalTerminal}`}
                         </p>
                         <p className="text-xs text-slate-500">
                             {new Date(flightInfo.return.date).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' })} {flightInfo.return.time} → {flightInfo.return.arrivalDate ? new Date(flightInfo.return.arrivalDate).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) + ' ' : ''}{flightInfo.return.arrivalTime || ''}

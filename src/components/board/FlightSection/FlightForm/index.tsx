@@ -1,4 +1,3 @@
-import { DateSelector } from "./DateSelector";
 import { FlightSegmentForm } from "./FlightSegmentForm";
 import type { useFlightForm } from "./useFlightForm";
 
@@ -28,16 +27,6 @@ export function FlightForm(props: FlightFormProps) {
                 }`}
         >
             <div className="space-y-6">
-                {/* 날짜 선택 */}
-                <DateSelector
-                    departureDate={dates.departureDate}
-                    arrivalDate={dates.arrivalDate}
-                    showDatePicker={dates.showDatePicker}
-                    onShowDatePicker={() => dates.setShowDatePicker(true)}
-                    onConfirm={handleDateConfirm}
-                    onClose={() => dates.setShowDatePicker(false)}
-                />
-
                 {/* 가는편 */}
                 <FlightSegmentForm
                     type="outbound"
@@ -45,21 +34,31 @@ export function FlightForm(props: FlightFormProps) {
                     hasMultipleAirports={hasMultipleAirports}
                     values={{
                         departureAirport: outbound.departureAirport,
+                        departureTerminal: outbound.departureTerminal,
+                        departureDate: outbound.departureDate,
                         arrivalAirport: outbound.arrivalAirport,
+                        arrivalTerminal: outbound.arrivalTerminal,
+                        arrivalDate: outbound.arrivalDate,
                         hour: outbound.hour,
                         minute: outbound.minute,
                         arrivalHour: outbound.arrivalHour,
                         arrivalMinute: outbound.arrivalMinute,
                         airline: outbound.airline,
+                        isCustomArrival: outbound.isCustomArrival,
                     }}
                     onChange={{
                         setDepartureAirport: setters.setOutboundDepartureAirport,
+                        setDepartureTerminal: setters.setOutboundDepartureTerminal,
+                        setDepartureDate: setters.setOutboundDepartureDate,
                         setArrivalAirport: setters.setOutboundArrivalAirport,
+                        setArrivalTerminal: setters.setOutboundArrivalTerminal,
+                        setArrivalDate: setters.setOutboundArrivalDate,
                         setHour: setters.setOutboundHour,
                         setMinute: setters.setOutboundMinute,
                         setArrivalHour: setters.setOutboundArrivalHour,
                         setArrivalMinute: setters.setOutboundArrivalMinute,
                         setAirline: setters.setOutboundAirline,
+                        setIsCustomArrival: setters.setIsOutboundArrivalCustom,
                     }}
                 />
 
@@ -94,7 +93,11 @@ export function FlightForm(props: FlightFormProps) {
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateOutbound(index, 'departureAirport', value),
+                                setDepartureTerminal: (value) => stopovers.updateOutbound(index, 'departureTerminal', value),
+                                setDepartureDate: (value) => stopovers.updateOutbound(index, 'departureDate', value),
                                 setArrivalAirport: (value) => stopovers.updateOutbound(index, 'arrivalAirport', value),
+                                setArrivalTerminal: (value) => stopovers.updateOutbound(index, 'arrivalTerminal', value),
+                                setArrivalDate: (value) => stopovers.updateOutbound(index, 'arrivalDate', value),
                                 setHour: (value) => stopovers.updateOutbound(index, 'hour', value),
                                 setMinute: (value) => stopovers.updateOutbound(index, 'minute', value),
                                 setArrivalHour: (value) => stopovers.updateOutbound(index, 'arrivalHour', value),
@@ -114,23 +117,33 @@ export function FlightForm(props: FlightFormProps) {
                     hasMultipleAirports={hasMultipleAirports}
                     values={{
                         departureAirport: returnFlight.departureAirport,
+                        departureTerminal: returnFlight.departureTerminal,
+                        departureDate: returnFlight.departureDate,
                         arrivalAirport: returnFlight.arrivalAirport,
+                        arrivalTerminal: returnFlight.arrivalTerminal,
+                        arrivalDate: returnFlight.arrivalDate,
                         hour: returnFlight.hour,
                         minute: returnFlight.minute,
                         arrivalHour: returnFlight.arrivalHour,
                         arrivalMinute: returnFlight.arrivalMinute,
                         airline: returnFlight.airline,
                         isCustomDeparture: returnFlight.isCustomDeparture,
+                        isCustomArrival: returnFlight.isCustomArrival,
                     }}
                     onChange={{
                         setDepartureAirport: setters.setReturnDepartureAirport,
+                        setDepartureTerminal: setters.setReturnDepartureTerminal,
+                        setDepartureDate: setters.setReturnDepartureDate,
                         setArrivalAirport: setters.setReturnArrivalAirport,
+                        setArrivalTerminal: setters.setReturnArrivalTerminal,
+                        setArrivalDate: setters.setReturnArrivalDate,
                         setHour: setters.setReturnHour,
                         setMinute: setters.setReturnMinute,
                         setArrivalHour: setters.setReturnArrivalHour,
                         setArrivalMinute: setters.setReturnArrivalMinute,
                         setAirline: setters.setReturnAirline,
                         setIsCustomDeparture: setters.setIsReturnDepartureCustom,
+                        setIsCustomArrival: setters.setIsReturnArrivalCustom,
                     }}
                 />
 
@@ -165,7 +178,11 @@ export function FlightForm(props: FlightFormProps) {
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateReturn(index, 'departureAirport', value),
+                                setDepartureTerminal: (value) => stopovers.updateReturn(index, 'departureTerminal', value),
+                                setDepartureDate: (value) => stopovers.updateReturn(index, 'departureDate', value),
                                 setArrivalAirport: (value) => stopovers.updateReturn(index, 'arrivalAirport', value),
+                                setArrivalTerminal: (value) => stopovers.updateReturn(index, 'arrivalTerminal', value),
+                                setArrivalDate: (value) => stopovers.updateReturn(index, 'arrivalDate', value),
                                 setHour: (value) => stopovers.updateReturn(index, 'hour', value),
                                 setMinute: (value) => stopovers.updateReturn(index, 'minute', value),
                                 setArrivalHour: (value) => stopovers.updateReturn(index, 'arrivalHour', value),

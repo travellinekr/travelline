@@ -4,9 +4,10 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 interface DateRangePickerProps {
     onConfirm: (startDate: Date, endDate: Date) => void;
     onClose: () => void;
+    singleDateMode?: boolean;  // 단일 날짜 선택 모드
 }
 
-export function DateRangePicker({ onConfirm, onClose }: DateRangePickerProps) {
+export function DateRangePicker({ onConfirm, onClose, singleDateMode = false }: DateRangePickerProps) {
     const [currentMonth, setCurrentMonth] = useState(new Date());
     const [startDate, setStartDate] = useState<Date | null>(null);
     const [endDate, setEndDate] = useState<Date | null>(null);
@@ -15,17 +16,26 @@ export function DateRangePicker({ onConfirm, onClose }: DateRangePickerProps) {
     const dayNames = ['일', '월', '화', '수', '목', '금', '토'];
 
     const handleDateClick = (date: Date) => {
-        if (!startDate || (startDate && endDate)) {
-            // 시작 날짜 선택
+        if (singleDateMode) {
+            // 단일 날짜 모드: 클릭 즉시 선택하고 확인
             setStartDate(date);
-            setEndDate(null);
-        } else if (date >= startDate) {
-            // 종료 날짜 선택
             setEndDate(date);
+            onConfirm(date, date);
+            onClose();
         } else {
-            // 시작 날짜보다 이전 날짜 클릭 시 새로 시작
-            setStartDate(date);
-            setEndDate(null);
+            // 범위 선택 모드
+            if (!startDate || (startDate && endDate)) {
+                // 시작 날짜 선택
+                setStartDate(date);
+                setEndDate(null);
+            } else if (date >= startDate) {
+                // 종료 날짜 선택
+                setEndDate(date);
+            } else {
+                // 시작 날짜보다 이전 날짜 클릭 시 새로 시작
+                setStartDate(date);
+                setEndDate(null);
+            }
         }
     };
 
@@ -153,24 +163,26 @@ export function DateRangePicker({ onConfirm, onClose }: DateRangePickerProps) {
                     </div>
 
                     {/* Selected Dates Display */}
-                    <div className="flex gap-4 mt-4 text-sm">
-                        <div className="flex-1">
-                            <span className="text-slate-500 block mb-1">출발</span>
-                            <div className="px-3 py-2 border border-blue-500 rounded-lg bg-blue-50">
-                                <span className="font-semibold text-blue-700">
-                                    {startDate ? startDate.toLocaleDateString('ko-KR') : '날짜 선택'}
-                                </span>
+                    {!singleDateMode && (
+                        <div className="flex gap-4 mt-4 text-sm">
+                            <div className="flex-1">
+                                <span className="text-slate-500 block mb-1">출발</span>
+                                <div className="px-3 py-2 border border-blue-500 rounded-lg bg-blue-50">
+                                    <span className="font-semibold text-blue-700">
+                                        {startDate ? startDate.toLocaleDateString('ko-KR') : '날짜 선택'}
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <span className="text-slate-500 block mb-1">귀국</span>
+                                <div className="px-3 py-2 border border-gray-300 rounded-lg">
+                                    <span className="font-semibold text-slate-800">
+                                        {endDate ? endDate.toLocaleDateString('ko-KR') : '날짜 선택'}
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                        <div className="flex-1">
-                            <span className="text-slate-500 block mb-1">귀국</span>
-                            <div className="px-3 py-2 border border-gray-300 rounded-lg">
-                                <span className="font-semibold text-slate-800">
-                                    {endDate ? endDate.toLocaleDateString('ko-KR') : '날짜 선택'}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                    )}
                 </div>
 
                 {/* Calendar Grid - 2개월 표시 */}
@@ -181,22 +193,24 @@ export function DateRangePicker({ onConfirm, onClose }: DateRangePickerProps) {
                     </div>
                 </div>
 
-                {/* Footer Buttons */}
-                <div className="sticky bottom-0 bg-white border-t border-gray-200 flex gap-3 px-4 md:px-6 py-4">
-                    <button
-                        onClick={onClose}
-                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg text-slate-700 font-medium hover:bg-gray-50 transition-colors"
-                    >
-                        취소
-                    </button>
-                    <button
-                        onClick={handleConfirm}
-                        disabled={!startDate || !endDate}
-                        className="flex-1 px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        확인
-                    </button>
-                </div>
+                {/* Footer Buttons - 단일 날짜 모드에서는 숨김 */}
+                {!singleDateMode && (
+                    <div className="sticky bottom-0 bg-white border-t border-gray-200 flex gap-3 px-4 md:px-6 py-4">
+                        <button
+                            onClick={onClose}
+                            className="flex-1 px-4 py-3 border border-gray-300 rounded-lg text-slate-700 font-medium hover:bg-gray-50 transition-colors"
+                        >
+                            취소
+                        </button>
+                        <button
+                            onClick={handleConfirm}
+                            disabled={!startDate || !endDate}
+                            className="flex-1 px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                            확인
+                        </button>
+                    </div>
+                )}
             </div>
         </div>
     );
