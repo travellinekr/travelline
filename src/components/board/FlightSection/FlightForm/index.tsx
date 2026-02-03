@@ -90,6 +90,7 @@ export function FlightForm(props: FlightFormProps) {
                             type="outbound"
                             airports={destinationAirports}
                             hasMultipleAirports={hasMultipleAirports}
+                            isStopover={true}
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateOutbound(index, 'departureAirport', value),
@@ -103,6 +104,7 @@ export function FlightForm(props: FlightFormProps) {
                                 setArrivalHour: (value) => stopovers.updateOutbound(index, 'arrivalHour', value),
                                 setArrivalMinute: (value) => stopovers.updateOutbound(index, 'arrivalMinute', value),
                                 setAirline: (value) => stopovers.updateOutbound(index, 'airline', value),
+                                setIsCustomArrival: (value) => stopovers.updateOutbound(index, 'isCustomArrival', value),
                             }}
                         />
                     </div>
@@ -175,6 +177,7 @@ export function FlightForm(props: FlightFormProps) {
                             type="return"
                             airports={destinationAirports}
                             hasMultipleAirports={hasMultipleAirports}
+                            isStopover={true}
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateReturn(index, 'departureAirport', value),
@@ -188,6 +191,7 @@ export function FlightForm(props: FlightFormProps) {
                                 setArrivalHour: (value) => stopovers.updateReturn(index, 'arrivalHour', value),
                                 setArrivalMinute: (value) => stopovers.updateReturn(index, 'arrivalMinute', value),
                                 setAirline: (value) => stopovers.updateReturn(index, 'airline', value),
+                                setIsCustomArrival: (value) => stopovers.updateReturn(index, 'isCustomArrival', value),
                             }}
                         />
                     </div>

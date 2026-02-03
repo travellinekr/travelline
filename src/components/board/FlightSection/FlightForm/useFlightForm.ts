@@ -58,6 +58,7 @@ export function useFlightForm(
         arrivalHour: string;
         arrivalMinute: string;
         airline: string;
+        isCustomArrival?: boolean;
     }>>([]);
 
     const [returnStopovers, setReturnStopovers] = useState<Array<{
@@ -72,6 +73,7 @@ export function useFlightForm(
         arrivalHour: string;
         arrivalMinute: string;
         airline: string;
+        isCustomArrival?: boolean;
     }>>([]);
 
     const destinationAirports = destinationCard?.airports || [];
@@ -233,18 +235,34 @@ export function useFlightForm(
             addToast('경유지는 최대 2개까지만 추가할 수 있습니다.', 'warning');
             return;
         }
+
+        // 이전 구간 정보 가져오기
+        const previousSegment = outboundStopovers.length === 0
+            ? {
+                arrivalAirport: outboundArrivalAirport,
+                arrivalTerminal: outboundArrivalTerminal,
+                arrivalDate: outboundArrivalDate,
+                arrivalHour: outboundArrivalHour,
+                arrivalMinute: outboundArrivalMinute
+            }
+            : outboundStopovers[outboundStopovers.length - 1];
+
+        console.log('🔍 경유지 추가 - 이전 도착공항:', previousSegment.arrivalAirport);
+        console.log('🔍 outboundArrivalAirport:', outboundArrivalAirport);
+
         setOutboundStopovers([...outboundStopovers, {
-            departureAirport: '',
-            departureTerminal: '',
-            departureDate: '',
+            departureAirport: previousSegment.arrivalAirport,      // 자동 설정
+            departureTerminal: previousSegment.arrivalTerminal,    // 자동 설정
+            departureDate: previousSegment.arrivalDate,            // 자동 설정
             arrivalAirport: '',
             arrivalTerminal: '',
             arrivalDate: '',
-            hour: '',
-            minute: '',
+            hour: previousSegment.arrivalHour,                     // 자동 설정
+            minute: previousSegment.arrivalMinute,                 // 자동 설정
             arrivalHour: '',
             arrivalMinute: '',
-            airline: ''
+            airline: '',
+            isCustomArrival: false
         }]);
     };
 
@@ -252,7 +270,7 @@ export function useFlightForm(
         setOutboundStopovers(outboundStopovers.filter((_, i) => i !== index));
     };
 
-    const updateOutboundStopover = (index: number, field: string, value: string) => {
+    const updateOutboundStopover = (index: number, field: string, value: any) => {
         const updated = [...outboundStopovers];
         (updated[index] as any)[field] = value;
         setOutboundStopovers(updated);
@@ -263,18 +281,31 @@ export function useFlightForm(
             addToast('경유지는 최대 2개까지만 추가할 수 있습니다.', 'warning');
             return;
         }
+
+        // 이전 구간 정보 가져오기
+        const previousSegment = returnStopovers.length === 0
+            ? {
+                arrivalAirport: returnArrivalAirport,
+                arrivalTerminal: returnArrivalTerminal,
+                arrivalDate: returnArrivalDate,
+                arrivalHour: returnArrivalHour,
+                arrivalMinute: returnArrivalMinute
+            }
+            : returnStopovers[returnStopovers.length - 1];
+
         setReturnStopovers([...returnStopovers, {
-            departureAirport: '',
-            departureTerminal: '',
-            departureDate: '',
+            departureAirport: previousSegment.arrivalAirport,      // 자동 설정
+            departureTerminal: previousSegment.arrivalTerminal,    // 자동 설정
+            departureDate: previousSegment.arrivalDate,            // 자동 설정
             arrivalAirport: '',
             arrivalTerminal: '',
             arrivalDate: '',
-            hour: '',
-            minute: '',
+            hour: previousSegment.arrivalHour,                     // 자동 설정
+            minute: previousSegment.arrivalMinute,                 // 자동 설정
             arrivalHour: '',
             arrivalMinute: '',
-            airline: ''
+            airline: '',
+            isCustomArrival: false
         }]);
     };
 
@@ -282,7 +313,7 @@ export function useFlightForm(
         setReturnStopovers(returnStopovers.filter((_, i) => i !== index));
     };
 
-    const updateReturnStopover = (index: number, field: string, value: string) => {
+    const updateReturnStopover = (index: number, field: string, value: any) => {
         const updated = [...returnStopovers];
         (updated[index] as any)[field] = value;
         setReturnStopovers(updated);

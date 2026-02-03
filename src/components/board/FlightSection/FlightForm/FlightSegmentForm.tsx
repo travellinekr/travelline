@@ -10,6 +10,7 @@ interface FlightSegmentFormProps {
     type: 'outbound' | 'return';
     airports: Array<{ name: string; code: string }>;
     hasMultipleAirports: boolean;
+    isStopover?: boolean;  // 경유지 여부
     values: {
         departureAirport: string;
         departureTerminal: string;
@@ -46,6 +47,7 @@ export function FlightSegmentForm({
     type,
     airports,
     hasMultipleAirports,
+    isStopover = false,
     values,
     onChange
 }: FlightSegmentFormProps) {
@@ -68,7 +70,16 @@ export function FlightSegmentForm({
                 {/* 출발 공항 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">출발 공항</label>
-                    {isOutbound ? (
+                    {isStopover ? (
+                        // 경유지는 항상 Autocomplete
+                        <Autocomplete
+                            value={values.departureAirport}
+                            onChange={onChange.setDepartureAirport}
+                            suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
+                            placeholder="공항명 입력"
+                            className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                        />
+                    ) : isOutbound ? (
                         <select
                             value={values.departureAirport}
                             onChange={(e) => onChange.setDepartureAirport(e.target.value)}
@@ -88,7 +99,7 @@ export function FlightSegmentForm({
                                     onChange={onChange.setDepartureAirport}
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
-                                    className="w-full px-3 py-2 pr-20 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
                                     autoFocus
                                 />
                                 <button
@@ -171,7 +182,11 @@ export function FlightSegmentForm({
                 <DateRangePicker
                     singleDateMode={true}
                     onConfirm={(start, end) => {
-                        onChange.setDepartureDate(start.toISOString().split('T')[0]);
+                        // 로컬 타임존 기준으로 날짜 포맷
+                        const year = start.getFullYear();
+                        const month = String(start.getMonth() + 1).padStart(2, '0');
+                        const day = String(start.getDate()).padStart(2, '0');
+                        onChange.setDepartureDate(`${year}-${month}-${day}`);
                         setShowDepartureDatePicker(false);
                     }}
                     onClose={() => setShowDepartureDatePicker(false)}
@@ -183,7 +198,8 @@ export function FlightSegmentForm({
                 {/* 도착 공항 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">도착 공항</label>
-                    {isOutbound ? (
+                    {isStopover ? (
+                        // 경유지는 드롭다운 + 직접입력
                         values.isCustomArrival ? (
                             <div className="relative">
                                 <Autocomplete
@@ -191,7 +207,49 @@ export function FlightSegmentForm({
                                     onChange={onChange.setArrivalAirport}
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
-                                    className="w-full px-3 py-2 pr-20 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    autoFocus
+                                />
+                                <button
+                                    type="button"
+                                    onClick={() => onChange.setIsCustomArrival?.(false)}
+                                    className="absolute right-2 top-1/2 -translate-y-1/2 text-xs text-purple-600 hover:text-purple-700 font-medium"
+                                >
+                                    목록선택
+                                </button>
+                            </div>
+                        ) : (
+                            <select
+                                value={values.arrivalAirport}
+                                onChange={(e) => {
+                                    if (e.target.value === '__CUSTOM__') {
+                                        onChange.setIsCustomArrival?.(true);
+                                        onChange.setArrivalAirport('');
+                                    } else {
+                                        onChange.setArrivalAirport(e.target.value);
+                                    }
+                                }}
+                                className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 bg-white"
+                            >
+                                <option value="">선택하세요</option>
+                                {/* 오는편 경유지는 한국 공항, 가는편 경유지는 목적지 공항 */}
+                                {(isOutbound ? airports : KOREAN_AIRPORTS).map(airport => (
+                                    <option key={airport.code} value={`${airport.name} (${airport.code})`}>
+                                        {airport.name} ({airport.code})
+                                    </option>
+                                ))}
+                                <option value="__CUSTOM__">직접입력</option>
+                            </select>
+                        )
+                    ) : isOutbound ? (
+                        values.isCustomArrival ? (
+                            <div className="relative">
+                                <Autocomplete
+                                    value={values.arrivalAirport}
+                                    onChange={onChange.setArrivalAirport}
+                                    suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
+                                    placeholder="공항명 입력"
+                                    className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
                                     autoFocus
                                 />
                                 <button
@@ -232,7 +290,7 @@ export function FlightSegmentForm({
                                     onChange={onChange.setArrivalAirport}
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
-                                    className="w-full px-3 py-2 pr-20 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
                                     autoFocus
                                 />
                                 <button
@@ -315,7 +373,11 @@ export function FlightSegmentForm({
                 <DateRangePicker
                     singleDateMode={true}
                     onConfirm={(start, end) => {
-                        onChange.setArrivalDate(start.toISOString().split('T')[0]);
+                        // 로컬 타임존 기준으로 날짜 포맷
+                        const year = start.getFullYear();
+                        const month = String(start.getMonth() + 1).padStart(2, '0');
+                        const day = String(start.getDate()).padStart(2, '0');
+                        onChange.setArrivalDate(`${year}-${month}-${day}`);
                         setShowArrivalDatePicker(false);
                     }}
                     onClose={() => setShowArrivalDatePicker(false)}
