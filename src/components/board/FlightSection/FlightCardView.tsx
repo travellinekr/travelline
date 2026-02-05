@@ -7,6 +7,11 @@ interface FlightCardViewProps {
 }
 
 export function FlightCardView({ flightInfo, isOver }: FlightCardViewProps) {
+    // 날짜 포맷 헬퍼 함수 (M. D. 형식으로 통일)
+    const formatDate = (dateStr: string) => {
+        return new Date(dateStr).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' });
+    };
+
     return (
         <div
             className={`min-h-[72px] rounded-xl transition-all duration-200 ease-in-out flex flex-col overflow-hidden ${isOver
@@ -34,14 +39,42 @@ export function FlightCardView({ flightInfo, isOver }: FlightCardViewProps) {
                             {flightInfo.outbound.arrivalTerminal && ` ${flightInfo.outbound.arrivalTerminal}`}
                         </p>
                         <p className="text-xs text-slate-500">
-                            {new Date(flightInfo.outbound.date).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' })} {flightInfo.outbound.time} → {flightInfo.outbound.arrivalDate ? new Date(flightInfo.outbound.arrivalDate).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) + ' ' : ''}{flightInfo.outbound.arrivalTime || ''}
+                            {formatDate(flightInfo.outbound.date)} {flightInfo.outbound.time} → {flightInfo.outbound.arrivalDate ? formatDate(flightInfo.outbound.arrivalDate) + ' ' : ''}{flightInfo.outbound.arrivalTime || ''}
                         </p>
                     </div>
                 </div>
             </div>
 
+            {/* 가는편 경유지들 */}
+            {flightInfo.outbound.stopovers && flightInfo.outbound.stopovers.map((stopover, index) => (
+                <div key={`outbound-${index}`} className="flex items-center gap-0 border-b border-gray-100 h-[72px] relative">
+                    <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-purple-300"></div>
+                    <div className="flex items-center gap-3 p-4 flex-1">
+                        <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center shrink-0">
+                            <Plane className="w-4 h-4 text-purple-400" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-0.5">
+                                <span className="text-xs font-semibold text-purple-400">경유 {index + 1}</span>
+                                <span className="text-[10px] text-slate-400">{stopover.airline}</span>
+                            </div>
+                            <p className="text-sm font-medium text-slate-700 truncate mb-0.5">
+                                {stopover.departureAirport.split('(')[0].trim()}
+                                {stopover.departureTerminal && ` ${stopover.departureTerminal}`}
+                                {' → '}
+                                {stopover.arrivalAirport.split('(')[0].trim()}
+                                {stopover.arrivalTerminal && ` ${stopover.arrivalTerminal}`}
+                            </p>
+                            <p className="text-xs text-slate-500">
+                                {formatDate(stopover.date)} {stopover.time} → {stopover.arrivalDate ? formatDate(stopover.arrivalDate) + ' ' : ''}{stopover.arrivalTime || ''}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            ))}
+
             {/* 오는편 카드 */}
-            <div className="flex items-center gap-0 h-[72px] relative">
+            <div className="flex items-center gap-0 border-b border-gray-100 h-[72px] relative">
                 <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-purple-500"></div>
                 <div className="flex items-center gap-3 p-4 flex-1">
                     <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center shrink-0">
@@ -60,11 +93,39 @@ export function FlightCardView({ flightInfo, isOver }: FlightCardViewProps) {
                             {flightInfo.return.arrivalTerminal && ` ${flightInfo.return.arrivalTerminal}`}
                         </p>
                         <p className="text-xs text-slate-500">
-                            {new Date(flightInfo.return.date).toLocaleDateString('ko-KR', { month: 'long', day: 'numeric' })} {flightInfo.return.time} → {flightInfo.return.arrivalDate ? new Date(flightInfo.return.arrivalDate).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) + ' ' : ''}{flightInfo.return.arrivalTime || ''}
+                            {formatDate(flightInfo.return.date)} {flightInfo.return.time} → {flightInfo.return.arrivalDate ? formatDate(flightInfo.return.arrivalDate) + ' ' : ''}{flightInfo.return.arrivalTime || ''}
                         </p>
                     </div>
                 </div>
             </div>
+
+            {/* 오는편 경유지들 */}
+            {flightInfo.return.stopovers && flightInfo.return.stopovers.map((stopover, index) => (
+                <div key={`return-${index}`} className="flex items-center gap-0 h-[72px] relative">
+                    <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-purple-300"></div>
+                    <div className="flex items-center gap-3 p-4 flex-1">
+                        <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center shrink-0">
+                            <Plane className="w-4 h-4 text-purple-400 rotate-180" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-0.5">
+                                <span className="text-xs font-semibold text-purple-400">경유 {index + 1}</span>
+                                <span className="text-[10px] text-slate-400">{stopover.airline}</span>
+                            </div>
+                            <p className="text-sm font-medium text-slate-700 truncate mb-0.5">
+                                {stopover.departureAirport.split('(')[0].trim()}
+                                {stopover.departureTerminal && ` ${stopover.departureTerminal}`}
+                                {' → '}
+                                {stopover.arrivalAirport.split('(')[0].trim()}
+                                {stopover.arrivalTerminal && ` ${stopover.arrivalTerminal}`}
+                            </p>
+                            <p className="text-xs text-slate-500">
+                                {formatDate(stopover.date)} {stopover.time} → {stopover.arrivalDate ? formatDate(stopover.arrivalDate) + ' ' : ''}{stopover.arrivalTime || ''}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            ))}
         </div>
     );
 }

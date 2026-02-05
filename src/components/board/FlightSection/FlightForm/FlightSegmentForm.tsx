@@ -11,6 +11,7 @@ interface FlightSegmentFormProps {
     airports: Array<{ name: string; code: string }>;
     hasMultipleAirports: boolean;
     isStopover?: boolean;  // 경유지 여부
+    destinationMonth?: number;  // destination 카드의 month (1-12)
     values: {
         departureAirport: string;
         departureTerminal: string;
@@ -48,6 +49,7 @@ export function FlightSegmentForm({
     airports,
     hasMultipleAirports,
     isStopover = false,
+    destinationMonth,
     values,
     onChange
 }: FlightSegmentFormProps) {
@@ -100,7 +102,6 @@ export function FlightSegmentForm({
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
                                     className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-                                    autoFocus
                                 />
                                 <button
                                     type="button"
@@ -181,6 +182,7 @@ export function FlightSegmentForm({
             {showDepartureDatePicker && (
                 <DateRangePicker
                     singleDateMode={true}
+                    initialMonth={destinationMonth ? new Date(new Date().getFullYear(), destinationMonth - 1) : undefined}
                     onConfirm={(start, end) => {
                         // 로컬 타임존 기준으로 날짜 포맷
                         const year = start.getFullYear();
@@ -208,7 +210,6 @@ export function FlightSegmentForm({
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
                                     className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-                                    autoFocus
                                 />
                                 <button
                                     type="button"
@@ -250,7 +251,6 @@ export function FlightSegmentForm({
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
                                     className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-                                    autoFocus
                                 />
                                 <button
                                     type="button"
@@ -291,7 +291,6 @@ export function FlightSegmentForm({
                                     suggestions={MAJOR_AIRPORTS.map(a => `${a.name} (${a.code})`)}
                                     placeholder="공항명 입력"
                                     className="w-full px-3 py-2 pr-13 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-                                    autoFocus
                                 />
                                 <button
                                     type="button"
@@ -372,6 +371,7 @@ export function FlightSegmentForm({
             {showArrivalDatePicker && (
                 <DateRangePicker
                     singleDateMode={true}
+                    initialMonth={destinationMonth ? new Date(new Date().getFullYear(), destinationMonth - 1) : undefined}
                     onConfirm={(start, end) => {
                         // 로컬 타임존 기준으로 날짜 포맷
                         const year = start.getFullYear();

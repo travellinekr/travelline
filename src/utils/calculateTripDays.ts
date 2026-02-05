@@ -30,7 +30,10 @@ export function calculateTripDays(
     tripEndDate.setHours(0, 0, 0, 0);
 
     // 전체 일수 계산 (출발일부터 도착일까지)
-    const dayCount = Math.ceil((tripEndDate.getTime() - tripStartDate.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+    // 날짜 차이를 일 단위로 계산하고 +1 (출발일 포함)
+    const diffInMs = tripEndDate.getTime() - tripStartDate.getTime();
+    const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+    const dayCount = diffInDays + 1;
 
     return dayCount;
 }

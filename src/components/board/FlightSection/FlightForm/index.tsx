@@ -5,6 +5,7 @@ type FlightFormData = ReturnType<typeof useFlightForm>;
 
 interface FlightFormProps extends FlightFormData {
     isOver: boolean;
+    onConfirmClick?: () => void;
 }
 
 export function FlightForm(props: FlightFormProps) {
@@ -18,7 +19,9 @@ export function FlightForm(props: FlightFormProps) {
         handleConfirm,
         destinationAirports,
         hasMultipleAirports,
-        isOver
+        destinationMonth,
+        isOver,
+        onConfirmClick
     } = props;
 
     return (
@@ -32,6 +35,7 @@ export function FlightForm(props: FlightFormProps) {
                     type="outbound"
                     airports={destinationAirports}
                     hasMultipleAirports={hasMultipleAirports}
+                    destinationMonth={destinationMonth}
                     values={{
                         departureAirport: outbound.departureAirport,
                         departureTerminal: outbound.departureTerminal,
@@ -91,6 +95,7 @@ export function FlightForm(props: FlightFormProps) {
                             airports={destinationAirports}
                             hasMultipleAirports={hasMultipleAirports}
                             isStopover={true}
+                            destinationMonth={destinationMonth}
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateOutbound(index, 'departureAirport', value),
@@ -117,6 +122,7 @@ export function FlightForm(props: FlightFormProps) {
                     type="return"
                     airports={destinationAirports}
                     hasMultipleAirports={hasMultipleAirports}
+                    destinationMonth={destinationMonth}
                     values={{
                         departureAirport: returnFlight.departureAirport,
                         departureTerminal: returnFlight.departureTerminal,
@@ -178,6 +184,7 @@ export function FlightForm(props: FlightFormProps) {
                             airports={destinationAirports}
                             hasMultipleAirports={hasMultipleAirports}
                             isStopover={true}
+                            destinationMonth={destinationMonth}
                             values={stopover}
                             onChange={{
                                 setDepartureAirport: (value) => stopovers.updateReturn(index, 'departureAirport', value),
@@ -202,7 +209,7 @@ export function FlightForm(props: FlightFormProps) {
                 {/* 확정 버튼 */}
                 <div className="flex justify-center pt-2">
                     <button
-                        onClick={handleConfirm}
+                        onClick={onConfirmClick || handleConfirm}
                         className="px-6 py-2.5 bg-purple-500 hover:bg-purple-600 text-white rounded-lg font-semibold transition-colors shadow-sm"
                     >
                         확정하기

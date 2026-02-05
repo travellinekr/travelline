@@ -58,15 +58,21 @@ export function Sidebar({
         addToast('✈️ 항공편을 먼저 등록해주세요', 'warning');
     };
 
-    // Calculate days if flight is registered
-    const days = flightInfo ? (() => {
-        const dayCount = calculateTripDaysFromFlightInfo(flightInfo);
+    // Calculate days - always show day0, add more if flight is registered
+    const days = (() => {
+        // Always include day0
+        const baseDays = [{ id: 'day0', label: '0', sublabel: '준비' }];
 
-        return Array.from({ length: dayCount }, (_, i) => {
-            if (i === 0) return { id: 'day0', label: '0', sublabel: '준비' };
-            return { id: `day${i}`, label: `${i}`, sublabel: '일차' };
-        });
-    })() : [];
+        // If flight registered, add remaining days
+        if (flightInfo) {
+            const dayCount = calculateTripDaysFromFlightInfo(flightInfo);
+            for (let i = 1; i < dayCount; i++) {
+                baseDays.push({ id: `day${i}`, label: `${i}`, sublabel: '일차' });
+            }
+        }
+
+        return baseDays;
+    })();
 
     return (
         <nav className="hidden md:flex w-20 bg-white border-r border-gray-100 flex-col shrink-0 h-full z-20">
@@ -112,21 +118,8 @@ export function Sidebar({
             </div>
             {/* Scrollable Itinerary Section */}
             <div className="flex-1 overflow-y-auto custom-scrollbar py-2 space-y-2">
-                {/* If no flight, show Itinerary placeholder */}
-                {!flightInfo && (
-                    <div
-                        onClick={handleItineraryClick}
-                        className="h-16 flex items-center justify-center font-bold tracking-wide cursor-pointer transition-all duration-200 text-slate-300 hover:bg-slate-50 border-l-4 border-transparent"
-                    >
-                        <div className="text-center leading-tight">
-                            <span className="block text-xl">📅</span>
-                            <span className="text-[10px] md:text-xs font-normal opacity-60">일정</span>
-                        </div>
-                    </div>
-                )}
-
-                {/* Day schedule (only if flight registered) */}
-                {flightInfo && days.map(({ id, label, sublabel }) => {
+                {/* Day schedule (always show day0, more if flight registered) */}
+                {days.map(({ id, label, sublabel }) => {
                     const isActive = activeDay === id;
                     return (
                         <div

@@ -42,8 +42,10 @@ export function FlightSection({ destinationCard, addToast, onConfirm }: FlightSe
 
     // Switch to card view after successful confirmation
     const handleConfirmWrapper = () => {
-        flightForm.handleConfirm();
-        setIsEditMode(false);
+        const success = flightForm.handleConfirm();
+        if (success) {
+            setIsEditMode(false);
+        }
     };
 
     return (
@@ -74,7 +76,7 @@ export function FlightSection({ destinationCard, addToast, onConfirm }: FlightSe
                     {flightInfo && !isEditMode ? (
                         <FlightCardView flightInfo={flightInfo} isOver={isOver} />
                     ) : (
-                        <FlightForm {...flightForm} isOver={isOver} handleConfirm={handleConfirmWrapper} />
+                        <FlightForm {...flightForm} isOver={isOver} onConfirmClick={handleConfirmWrapper} />
                     )}
                 </>
             ) : (

@@ -5,10 +5,11 @@ interface DateRangePickerProps {
     onConfirm: (startDate: Date, endDate: Date) => void;
     onClose: () => void;
     singleDateMode?: boolean;  // 단일 날짜 선택 모드
+    initialMonth?: Date;  // 초기 표시 월 (destination 카드의 month 기반)
 }
 
-export function DateRangePicker({ onConfirm, onClose, singleDateMode = false }: DateRangePickerProps) {
-    const [currentMonth, setCurrentMonth] = useState(new Date());
+export function DateRangePicker({ onConfirm, onClose, singleDateMode = false, initialMonth }: DateRangePickerProps) {
+    const [currentMonth, setCurrentMonth] = useState(initialMonth || new Date());
     const [startDate, setStartDate] = useState<Date | null>(null);
     const [endDate, setEndDate] = useState<Date | null>(null);
 

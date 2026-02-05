@@ -436,6 +436,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 date: draggedCard.date,
                 imageUrl: draggedCard.imageUrl,
                 airports: draggedCard.airports,
+                month: draggedCard.month,  // 🎯 캘린더 초기 월 설정에 필요
+                city: draggedCard.city,    // 🎯 도시 식별자
+                timezone: draggedCard.timezone,
                 targetColumnId: targetColumnId,
                 targetIndex: 0
             });

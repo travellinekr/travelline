@@ -3,7 +3,7 @@ import { useMutation } from "@liveblocks/react/suspense";
 import { LiveObject, LiveList } from "@liveblocks/client";
 import type { Card, FlightInfo } from "@/liveblocks.config";
 import { KOREAN_AIRPORTS } from "@/data/airports";
-import { calculateTripDays } from "@/utils/calculateTripDays";
+import { calculateTripDays, calculateTripDaysFromFlightInfo } from "@/utils/calculateTripDays";
 
 export function useFlightForm(
     destinationCard: Card | null | undefined,
@@ -133,10 +133,12 @@ export function useFlightForm(
     }, [destinationCard?.id, destinationAirports.length]);
 
     // Auto-update return airports based on outbound
-    useEffect(() => {
-        setReturnDepartureAirport(outboundArrivalAirport);
-        setReturnArrivalAirport(outboundDepartureAirport);
-    }, [outboundDepartureAirport, outboundArrivalAirport]);
+    // ⚠️ DISABLED: This causes UI/state sync issues when airports are not in the dropdown list
+    // Users should manually select return airports
+    // useEffect(() => {
+    //     setReturnDepartureAirport(outboundArrivalAirport);
+    //     setReturnArrivalAirport(outboundDepartureAirport);
+    // }, [outboundDepartureAirport, outboundArrivalAirport, flightInfo]);
 
     // Auto-connect segments: outbound → stopovers → return
     useEffect(() => {
@@ -207,9 +209,12 @@ export function useFlightForm(
 
         if ((columns as any).get(dayId)) return;
 
+        // Sidebar와 동일한 라벨 사용
+        const title = dayNum === 0 ? '준비' : `${dayNum}일차`;
+
         (columns as any).set(dayId, new LiveObject({
             id: dayId,
-            title: `Day ${dayNum}`,
+            title: title,
             cardIds: new LiveList([])
         }));
 
@@ -319,27 +324,214 @@ export function useFlightForm(
         setReturnStopovers(updated);
     };
 
-    const handleConfirm = () => {
-        // Validation
-        if (!departureDate || !arrivalDate ||
-            !outboundDepartureAirport || !outboundArrivalAirport ||
-            !outboundHour || !outboundMinute || !outboundArrivalHour || !outboundArrivalMinute || !outboundAirline ||
-            !returnHour || !returnMinute || !returnArrivalHour || !returnArrivalMinute || !returnAirline) {
-            addToast('모든 항공편 정보를 입력해주세요.', 'warning');
-            return;
+    // Helper function to focus on invalid field
+    const focusField = (fieldName: string) => {
+        setTimeout(() => {
+            // Try to find the field by various selectors
+            const selectors = [
+                `input[name="${fieldName}"]`,
+                `select[name="${fieldName}"]`,
+                `input[placeholder*="${fieldName}"]`,
+                `select`,
+                `input[type="text"]`,
+            ];
+
+            for (const selector of selectors) {
+                const element = document.querySelector(selector) as HTMLElement;
+                if (element) {
+                    element.focus();
+                    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    break;
+                }
+            }
+        }, 100);
+    };
+
+    const handleConfirm = (): boolean => {
+        // ========================================
+        // 항공편 정보 validation (터미널은 선택사항)
+        // ========================================
+
+
+        // 2. 가는편(outbound) 체크
+        if (!outboundDepartureAirport) {
+            addToast('가는편 출발 공항을 입력해주세요.', 'warning');
+            focusField('출발 공항');
+            return false;
+        }
+        if (!outboundDepartureDate) {
+            addToast('가는편 출발 날짜를 입력해주세요.', 'warning');
+            focusField('출발 날짜');
+            return false;
+        }
+        if (!outboundArrivalAirport) {
+            addToast('가는편 도착 공항을 입력해주세요.', 'warning');
+            focusField('도착 공항');
+            return false;
+        }
+        if (!outboundArrivalDate) {
+            addToast('가는편 도착 날짜를 입력해주세요.', 'warning');
+            focusField('도착 날짜');
+            return false;
+        }
+        if (!outboundHour || !outboundMinute) {
+            addToast('가는편 출발 시간을 입력해주세요.', 'warning');
+            focusField('출발 시간');
+            return false;
+        }
+        if (!outboundArrivalHour || !outboundArrivalMinute) {
+            addToast('가는편 도착 시간을 입력해주세요.', 'warning');
+            focusField('도착 시간');
+            return false;
+        }
+        if (!outboundAirline) {
+            addToast('가는편 항공사를 입력해주세요.', 'warning');
+            focusField('항공사');
+            return false;
+        }
+
+        // 3. 오는편(return) 체크
+        if (!returnDepartureAirport) {
+            addToast('오는편 출발 공항을 입력해주세요.', 'warning');
+            focusField('출발 공항');
+            return false;
+        }
+        if (!returnDepartureDate) {
+            addToast('오는편 출발 날짜를 입력해주세요.', 'warning');
+            focusField('출발 날짜');
+            return false;
+        }
+        if (!returnArrivalAirport) {
+            addToast('오는편 도착 공항을 입력해주세요.', 'warning');
+            focusField('도착 공항');
+            return false;
+        }
+        if (!returnArrivalDate) {
+            addToast('오는편 도착 날짜를 입력해주세요.', 'warning');
+            focusField('도착 날짜');
+            return false;
+        }
+        if (!returnHour || !returnMinute) {
+            addToast('오는편 출발 시간을 입력해주세요.', 'warning');
+            focusField('출발 시간');
+            return false;
+        }
+        if (!returnArrivalHour || !returnArrivalMinute) {
+            addToast('오는편 도착 시간을 입력해주세요.', 'warning');
+            focusField('도착 시간');
+            return false;
+        }
+        if (!returnAirline) {
+            addToast('오는편 항공사를 입력해주세요.', 'warning');
+            focusField('항공사');
+            return false;
+        }
+
+        // 4. 가는편 경유지 체크
+        for (let i = 0; i < outboundStopovers.length; i++) {
+            const stopover = outboundStopovers[i];
+            if (!stopover.departureAirport) {
+                addToast(`가는편 경유지 ${i + 1} 출발 공항을 입력해주세요.`, 'warning');
+                focusField('출발 공항');
+                return false;
+            }
+            if (!stopover.departureDate) {
+                addToast(`가는편 경유지 ${i + 1} 출발 날짜를 입력해주세요.`, 'warning');
+                focusField('출발 날짜');
+                return false;
+            }
+            if (!stopover.arrivalAirport) {
+                addToast(`가는편 경유지 ${i + 1} 도착 공항을 입력해주세요.`, 'warning');
+                focusField('도착 공항');
+                return false;
+            }
+            if (!stopover.arrivalDate) {
+                addToast(`가는편 경유지 ${i + 1} 도착 날짜를 입력해주세요.`, 'warning');
+                focusField('도착 날짜');
+                return false;
+            }
+            if (!stopover.hour || !stopover.minute) {
+                addToast(`가는편 경유지 ${i + 1} 출발 시간을 입력해주세요.`, 'warning');
+                focusField('출발 시간');
+                return false;
+            }
+            if (!stopover.arrivalHour || !stopover.arrivalMinute) {
+                addToast(`가는편 경유지 ${i + 1} 도착 시간을 입력해주세요.`, 'warning');
+                focusField('도착 시간');
+                return false;
+            }
+            if (!stopover.airline) {
+                addToast(`가는편 경유지 ${i + 1} 항공사를 입력해주세요.`, 'warning');
+                focusField('항공사');
+                return false;
+            }
+        }
+
+        // 5. 오는편 경유지 체크
+        for (let i = 0; i < returnStopovers.length; i++) {
+            const stopover = returnStopovers[i];
+            if (!stopover.departureAirport) {
+                addToast(`오는편 경유지 ${i + 1} 출발 공항을 입력해주세요.`, 'warning');
+                focusField('출발 공항');
+                return false;
+            }
+            if (!stopover.departureDate) {
+                addToast(`오는편 경유지 ${i + 1} 출발 날짜를 입력해주세요.`, 'warning');
+                focusField('출발 날짜');
+                return false;
+            }
+            if (!stopover.arrivalAirport) {
+                addToast(`오는편 경유지 ${i + 1} 도착 공항을 입력해주세요.`, 'warning');
+                focusField('도착 공항');
+                return false;
+            }
+            if (!stopover.arrivalDate) {
+                addToast(`오는편 경유지 ${i + 1} 도착 날짜를 입력해주세요.`, 'warning');
+                focusField('도착 날짜');
+                return false;
+            }
+            if (!stopover.hour || !stopover.minute) {
+                addToast(`오는편 경유지 ${i + 1} 출발 시간을 입력해주세요.`, 'warning');
+                focusField('출발 시간');
+                return false;
+            }
+            if (!stopover.arrivalHour || !stopover.arrivalMinute) {
+                addToast(`오는편 경유지 ${i + 1} 도착 시간을 입력해주세요.`, 'warning');
+                focusField('도착 시간');
+                return false;
+            }
+            if (!stopover.airline) {
+                addToast(`오는편 경유지 ${i + 1} 항공사를 입력해주세요.`, 'warning');
+                focusField('항공사');
+                return false;
+            }
+        }
+
+
+        // ========================================
+        // 날짜 파싱 및 계산 (segment 날짜 사용)
+        // ========================================
+
+        // outboundDepartureDate와 returnDepartureDate에서 Date 객체 생성
+        const parsedDepartureDate = outboundDepartureDate ? new Date(outboundDepartureDate) : null;
+        const parsedReturnDepartureDate = returnDepartureDate ? new Date(returnDepartureDate) : null;
+
+        if (!parsedDepartureDate || !parsedReturnDepartureDate) {
+            addToast('출발 날짜를 입력해주세요.', 'warning');
+            return false;
         }
 
         // Calculate arrival dates
         const outboundDepartureTime = parseInt(outboundHour) * 60 + parseInt(outboundMinute);
         const outboundArrivalTimeMinutes = parseInt(outboundArrivalHour) * 60 + parseInt(outboundArrivalMinute);
-        const calculatedOutboundArrivalDate = new Date(departureDate);
+        const calculatedOutboundArrivalDate = new Date(parsedDepartureDate);
         if (outboundArrivalTimeMinutes < outboundDepartureTime) {
             calculatedOutboundArrivalDate.setDate(calculatedOutboundArrivalDate.getDate() + 1);
         }
 
         const returnDepartureTime = parseInt(returnHour) * 60 + parseInt(returnMinute);
         const returnArrivalTimeMinutes = parseInt(returnArrivalHour) * 60 + parseInt(returnArrivalMinute);
-        const calculatedReturnArrivalDate = new Date(arrivalDate);
+        const calculatedReturnArrivalDate = new Date(parsedReturnDepartureDate);
         if (returnArrivalTimeMinutes < returnDepartureTime) {
             calculatedReturnArrivalDate.setDate(calculatedReturnArrivalDate.getDate() + 1);
         }
@@ -347,37 +539,45 @@ export function useFlightForm(
         // Save to Liveblocks
         const flightData: FlightInfo = {
             outbound: {
-                date: departureDate.toISOString(),
+                date: parsedDepartureDate.toISOString(),
                 departureAirport: outboundDepartureAirport,
+                departureTerminal: outboundDepartureTerminal || undefined,
                 arrivalAirport: outboundArrivalAirport,
+                arrivalTerminal: outboundArrivalTerminal || undefined,
                 time: `${outboundHour}:${outboundMinute}`,
                 arrivalDate: calculatedOutboundArrivalDate.toISOString(),
                 arrivalTime: `${outboundArrivalHour}:${outboundArrivalMinute}`,
                 airline: outboundAirline,
                 stopovers: outboundStopovers.length > 0 ? outboundStopovers.map((stopover) => ({
                     departureAirport: stopover.departureAirport,
+                    departureTerminal: stopover.departureTerminal || undefined,
                     arrivalAirport: stopover.arrivalAirport,
-                    date: departureDate.toISOString(), // TODO: Calculate proper date
+                    arrivalTerminal: stopover.arrivalTerminal || undefined,
+                    date: stopover.departureDate,
                     time: `${stopover.hour}:${stopover.minute}`,
-                    arrivalDate: departureDate.toISOString(), // TODO: Calculate proper date
+                    arrivalDate: stopover.arrivalDate,
                     arrivalTime: `${stopover.arrivalHour}:${stopover.arrivalMinute}`,
                     airline: stopover.airline
                 })) : undefined
             },
             return: {
-                date: arrivalDate.toISOString(),
+                date: parsedReturnDepartureDate.toISOString(),
                 departureAirport: returnDepartureAirport,
+                departureTerminal: returnDepartureTerminal || undefined,
                 arrivalAirport: returnArrivalAirport,
+                arrivalTerminal: returnArrivalTerminal || undefined,
                 time: `${returnHour}:${returnMinute}`,
                 arrivalDate: calculatedReturnArrivalDate.toISOString(),
                 arrivalTime: `${returnArrivalHour}:${returnArrivalMinute}`,
                 airline: returnAirline,
                 stopovers: returnStopovers.length > 0 ? returnStopovers.map((stopover) => ({
                     departureAirport: stopover.departureAirport,
+                    departureTerminal: stopover.departureTerminal || undefined,
                     arrivalAirport: stopover.arrivalAirport,
-                    date: arrivalDate.toISOString(), // TODO: Calculate proper date
+                    arrivalTerminal: stopover.arrivalTerminal || undefined,
+                    date: stopover.departureDate,
                     time: `${stopover.hour}:${stopover.minute}`,
-                    arrivalDate: arrivalDate.toISOString(), // TODO: Calculate proper date
+                    arrivalDate: stopover.arrivalDate,
                     arrivalTime: `${stopover.arrivalHour}:${stopover.arrivalMinute}`,
                     airline: stopover.airline
                 })) : undefined
@@ -386,10 +586,10 @@ export function useFlightForm(
 
         saveFlightInfo(flightData);
 
-        // Calculate trip days
-        const dayCount = calculateTripDays(departureDate, arrivalDate, `${returnHour}:${returnMinute}`);
+        // Calculate trip days using the same logic as Sidebar
+        const dayCount = calculateTripDaysFromFlightInfo(flightData);
 
-        // Create day columns
+        // Create day columns (day0는 초기 storage에 이미 존재, 1부터 생성)
         for (let i = 1; i < dayCount; i++) {
             createDayColumn(i);
         }
@@ -397,14 +597,14 @@ export function useFlightForm(
         // Call original onConfirm
         onConfirm({
             outbound: {
-                date: departureDate,
+                date: parsedDepartureDate,
                 departureAirport: outboundDepartureAirport,
                 arrivalAirport: outboundArrivalAirport,
                 time: `${outboundHour}:${outboundMinute}`,
                 airline: outboundAirline
             },
             return: {
-                date: arrivalDate,
+                date: parsedReturnDepartureDate,
                 departureAirport: returnDepartureAirport,
                 arrivalAirport: returnArrivalAirport,
                 time: `${returnHour}:${returnMinute}`,
@@ -422,32 +622,127 @@ export function useFlightForm(
                 timelineScrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
             }
         }, 100);
+
+        // ✅ Validation 성공
+        return true;
     };
 
     // Load existing data when in edit mode
     const loadFlightData = (isEditMode: boolean) => {
         if (isEditMode && flightInfo) {
+            // 전역 날짜 설정
             setDepartureDate(new Date(flightInfo.outbound.date));
+            setArrivalDate(new Date(flightInfo.return.date));
+
+            // ========================================
+            // 가는편 (Outbound)
+            // ========================================
             setOutboundDepartureAirport(flightInfo.outbound.departureAirport);
+            setOutboundDepartureDate(flightInfo.outbound.date);
+            setOutboundDepartureTerminal(flightInfo.outbound.departureTerminal || '');
+
             setOutboundArrivalAirport(flightInfo.outbound.arrivalAirport);
+            setOutboundArrivalDate(flightInfo.outbound.arrivalDate);
+            setOutboundArrivalTerminal(flightInfo.outbound.arrivalTerminal || '');
+
             const [outHour, outMin] = flightInfo.outbound.time.split(':');
             setOutboundHour(outHour);
             setOutboundMinute(outMin);
+
             const [outArrHour, outArrMin] = (flightInfo.outbound.arrivalTime || '00:00').split(':');
             setOutboundArrivalHour(outArrHour);
             setOutboundArrivalMinute(outArrMin);
+
             setOutboundAirline(flightInfo.outbound.airline);
 
-            setArrivalDate(new Date(flightInfo.return.date));
+            // Check if arrival airport is in destination list, else use custom mode
+            const isArrivalInDestinations = destinationAirports.some(
+                airport => `${airport.name} (${airport.code})` === flightInfo.outbound.arrivalAirport
+            );
+            setIsOutboundArrivalCustom(!isArrivalInDestinations);
+
+            // ========================================
+            // 오는편 (Return)
+            // ========================================
             setReturnDepartureAirport(flightInfo.return.departureAirport);
+            setReturnDepartureDate(flightInfo.return.date);
+            setReturnDepartureTerminal(flightInfo.return.departureTerminal || '');
+
             setReturnArrivalAirport(flightInfo.return.arrivalAirport);
+            setReturnArrivalDate(flightInfo.return.arrivalDate);
+            setReturnArrivalTerminal(flightInfo.return.arrivalTerminal || '');
+
             const [retHour, retMin] = flightInfo.return.time.split(':');
             setReturnHour(retHour);
             setReturnMinute(retMin);
+
             const [retArrHour, retArrMin] = (flightInfo.return.arrivalTime || '00:00').split(':');
             setReturnArrivalHour(retArrHour);
             setReturnArrivalMinute(retArrMin);
+
             setReturnAirline(flightInfo.return.airline);
+
+            // Check if departure airport is in destination list, else use custom mode
+            const isDepartureInDestinations = destinationAirports.some(
+                airport => `${airport.name} (${airport.code})` === flightInfo.return.departureAirport
+            );
+            setIsReturnDepartureCustom(!isDepartureInDestinations);
+
+            // Check if arrival airport is KOREAN airport, else use custom mode  
+            const isArrivalKorean = KOREAN_AIRPORTS.some(
+                airport => `${airport.name} (${airport.code})` === flightInfo.return.arrivalAirport
+            );
+            setIsReturnArrivalCustom(!isArrivalKorean);
+
+            // ========================================
+            // 가는편 경유지 (Outbound Stopovers)
+            // ========================================
+            if (flightInfo.outbound.stopovers && flightInfo.outbound.stopovers.length > 0) {
+                const loadedOutboundStopovers = flightInfo.outbound.stopovers.map(stopover => {
+                    const [hour, minute] = stopover.time.split(':');
+                    const [arrivalHour, arrivalMinute] = (stopover.arrivalTime || '00:00').split(':');
+                    return {
+                        departureAirport: stopover.departureAirport,
+                        departureTerminal: stopover.departureTerminal || '',
+                        departureDate: stopover.date,
+                        arrivalAirport: stopover.arrivalAirport,
+                        arrivalTerminal: stopover.arrivalTerminal || '',
+                        arrivalDate: stopover.arrivalDate,
+                        hour,
+                        minute,
+                        arrivalHour,
+                        arrivalMinute,
+                        airline: stopover.airline,
+                        isCustomArrival: false
+                    };
+                });
+                setOutboundStopovers(loadedOutboundStopovers);
+            }
+
+            // ========================================
+            // 오는편 경유지 (Return Stopovers)
+            // ========================================
+            if (flightInfo.return.stopovers && flightInfo.return.stopovers.length > 0) {
+                const loadedReturnStopovers = flightInfo.return.stopovers.map(stopover => {
+                    const [hour, minute] = stopover.time.split(':');
+                    const [arrivalHour, arrivalMinute] = (stopover.arrivalTime || '00:00').split(':');
+                    return {
+                        departureAirport: stopover.departureAirport,
+                        departureTerminal: stopover.departureTerminal || '',
+                        departureDate: stopover.date,
+                        arrivalAirport: stopover.arrivalAirport,
+                        arrivalTerminal: stopover.arrivalTerminal || '',
+                        arrivalDate: stopover.arrivalDate,
+                        hour,
+                        minute,
+                        arrivalHour,
+                        arrivalMinute,
+                        airline: stopover.airline,
+                        isCustomArrival: false
+                    };
+                });
+                setReturnStopovers(loadedReturnStopovers);
+            }
         }
     };
 
@@ -536,5 +831,6 @@ export function useFlightForm(
         // Meta
         destinationAirports,
         hasMultipleAirports,
+        destinationMonth: destinationCard?.month,
     };
 }

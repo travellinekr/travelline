@@ -124,12 +124,11 @@ function DraggableCityCard({ city, imageUrl, insight, selectedMonth }: {
         id: `picker-${city.engName}`,
         text: city.name,
         category: 'destination' as const,
-        description: insight ? `${selectedMonth}월 여행 • ${insight.text}` : `${selectedMonth}월 여행`,
-        date: `${selectedMonth}월`,
+        month: selectedMonth || undefined,  // 🎯 필수: 캘린더 초기 월 설정에 사용
+        city: city.engName.toLowerCase(),  // 🎯 필수: 도시 식별자
         imageUrl: imageUrl,
         airports: city.airports,
         timezone: city.timezone,
-        type: 'travel' as const,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
