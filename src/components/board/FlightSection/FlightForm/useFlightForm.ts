@@ -4,6 +4,7 @@ import { LiveObject, LiveList } from "@liveblocks/client";
 import type { Card, FlightInfo } from "@/liveblocks.config";
 import { KOREAN_AIRPORTS } from "@/data/airports";
 import { calculateTripDays, calculateTripDaysFromFlightInfo } from "@/utils/calculateTripDays";
+import { useCardMutations } from "@/hooks/useCardMutations";
 
 export function useFlightForm(
     destinationCard: Card | null | undefined,
@@ -11,6 +12,8 @@ export function useFlightForm(
     addToast: (message: string, type: 'info' | 'warning') => void,
     onConfirm: (data: any) => void
 ) {
+    // Card mutations for creating flight cards
+    const { createCardToColumn } = useCardMutations();
     // Date states
     const [showDatePicker, setShowDatePicker] = useState(false);
     const [departureDate, setDepartureDate] = useState<Date | null>(null);
@@ -196,6 +199,40 @@ export function useFlightForm(
     // Save flight info mutation
     const saveFlightInfo = useMutation(({ storage }, flightData: FlightInfo) => {
         storage.set('flightInfo', new LiveObject(flightData));
+    }, []);
+
+    // Delete all existing flight cards mutation
+    const deleteAllFlightCards = useMutation(({ storage }) => {
+        const cards = storage.get('cards');
+        const columns = storage.get('columns');
+
+        if (!cards || !columns) return;
+
+        // Find all flight cards
+        const flightCardIds: string[] = [];
+        for (const [cardId, card] of (cards as any).entries()) {
+            if (card.get('category') === 'flight') {
+                flightCardIds.push(cardId);
+            }
+        }
+
+        // Remove flight cards from all columns
+        for (const column of (columns as any).values()) {
+            const cardIds = column.get('cardIds');
+            if (!cardIds) continue;
+
+            // Remove all flight card IDs from this column
+            for (let i = cardIds.length - 1; i >= 0; i--) {
+                if (flightCardIds.includes(cardIds.get(i))) {
+                    cardIds.delete(i);
+                }
+            }
+        }
+
+        // Delete flight cards from storage
+        for (const cardId of flightCardIds) {
+            (cards as any).delete(cardId);
+        }
     }, []);
 
     // Create day column mutation
@@ -590,7 +627,8 @@ export function useFlightForm(
         const dayCount = calculateTripDaysFromFlightInfo(flightData);
 
         // Create day columns (day0는 초기 storage에 이미 존재, 1부터 생성)
-        for (let i = 1; i < dayCount; i++) {
+        // 🔥 dayCount까지 생성 (i <= dayCount로 수정)
+        for (let i = 1; i <= dayCount; i++) {
             createDayColumn(i);
         }
 
@@ -611,6 +649,105 @@ export function useFlightForm(
                 airline: returnAirline
             }
         });
+
+        // ========================================
+        // 항공편 카드 자동 생성
+        // ========================================
+
+        // 🔥 먼저 기존 항공 카드 모두 삭제
+        deleteAllFlightCards();
+
+        // 여행 시작일 계산 (가는편 출발일)
+        const tripStartDate = new Date(parsedDepartureDate);
+        tripStartDate.setHours(0, 0, 0, 0);
+
+        // Helper: 날짜로부터 Day 번호 계산 (1-based)
+        const getDayNumber = (dateStr: string): number => {
+            const date = new Date(dateStr);
+            date.setHours(0, 0, 0, 0);
+            const diffInMs = date.getTime() - tripStartDate.getTime();
+            const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+            return diffInDays + 1;
+        };
+
+        // Helper: 카드 생성 함수
+        const createFlightCard = (
+            type: 'departure' | 'arrival',
+            airport: string,
+            terminal: string | undefined,
+            dateStr: string,
+            time: string,
+            airline: string,
+            isOutbound: boolean // 가는편 여부
+        ) => {
+            const dayNum = getDayNumber(dateStr);
+            const columnId = `day${dayNum}`;
+
+            // 공항명에서 "(코드)" 제거
+            const airportName = airport.replace(/\s*\([^)]*\)\s*$/, '');
+
+            const emoji = type === 'departure' ? '✈️' : '🛬';
+            const action = type === 'departure' ? '출발' : '도착';
+            const title = `${emoji} ${airportName} ${action}`;
+
+            // 상세 정보 구성
+            const terminalInfo = terminal ? ` T${terminal}` : '';
+            const description = `${airportName}${terminalInfo}\n${time} ${action}\n${airline}`;
+
+            // 🎯 가는편은 맨 위(0), 오는편은 맨 아래(undefined)
+            const targetIndex = isOutbound ? 0 : undefined;
+
+            createCardToColumn({
+                title,
+                category: 'flight' as const,
+                type: 'travel' as const,
+                description,
+                date: dateStr,
+                imageUrl: '',
+                targetColumnId: columnId,
+                targetIndex
+            });
+        };
+
+        // ========================================
+        // 🎯 가는편 카드 생성 (시간 순서대로)
+        // ========================================
+
+        // 1-1. 가는편 첫 출발
+        createFlightCard('departure', outboundDepartureAirport, outboundDepartureTerminal, flightData.outbound.date, flightData.outbound.time, outboundAirline, true);
+
+        // 1-2. 가는편 경유지들
+        if (flightData.outbound.stopovers && flightData.outbound.stopovers.length > 0) {
+            flightData.outbound.stopovers.forEach((stopover) => {
+                // 경유지 도착 (arrivalAirport = 경유지 공항)
+                createFlightCard('arrival', stopover.arrivalAirport, stopover.arrivalTerminal, stopover.arrivalDate, stopover.arrivalTime, stopover.airline, true);
+                // 경유지 출발 (departureAirport = 경유지 공항)
+                createFlightCard('departure', stopover.departureAirport, stopover.departureTerminal, stopover.date, stopover.time, stopover.airline, true);
+            });
+        }
+
+        // 1-3. 가는편 최종 도착
+        createFlightCard('arrival', outboundArrivalAirport, outboundArrivalTerminal, flightData.outbound.arrivalDate, flightData.outbound.arrivalTime, outboundAirline, true);
+
+        // ========================================
+        // 🎯 오는편 카드 생성 (시간 순서대로)
+        // ========================================
+
+        // 2-1. 오는편 첫 출발
+        createFlightCard('departure', returnDepartureAirport, returnDepartureTerminal, flightData.return.date, flightData.return.time, returnAirline, false);
+
+        // 2-2. 오는편 경유지들
+        if (flightData.return.stopovers && flightData.return.stopovers.length > 0) {
+            flightData.return.stopovers.forEach((stopover) => {
+                // 경유지 도착 (arrivalAirport = 경유지 공항)
+                createFlightCard('arrival', stopover.arrivalAirport, stopover.arrivalTerminal, stopover.arrivalDate, stopover.arrivalTime, stopover.airline, false);
+                // 경유지 출발 (departureAirport = 경유지 공항)
+                createFlightCard('departure', stopover.departureAirport, stopover.departureTerminal, stopover.date, stopover.time, stopover.airline, false);
+            });
+        }
+
+        // 2-3. 오는편 최종 도착
+        createFlightCard('arrival', returnArrivalAirport, returnArrivalTerminal, flightData.return.arrivalDate, flightData.return.arrivalTime, returnAirline, false);
 
         // Scroll to top of timeline
         setTimeout(() => {

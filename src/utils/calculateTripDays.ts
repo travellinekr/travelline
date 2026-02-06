@@ -40,14 +40,27 @@ export function calculateTripDays(
 
 /**
  * FlightInfo 타입에서 직접 일수를 계산합니다.
+ * 오는편 도착 날짜까지 포함하여 정확한 일수를 산출합니다.
  */
 export function calculateTripDaysFromFlightInfo(flightInfo: {
     outbound: { date: string };
-    return: { date: string; time: string };
+    return: { arrivalDate: string }; // 도착 날짜 사용
 }): number {
     const outboundDate = new Date(flightInfo.outbound.date);
-    const returnDate = new Date(flightInfo.return.date);
-    const returnTime = flightInfo.return.time;
+    const returnArrivalDate = new Date(flightInfo.return.arrivalDate);
 
-    return calculateTripDays(outboundDate, returnDate, returnTime);
+    // 출발일
+    const tripStartDate = new Date(outboundDate);
+    tripStartDate.setHours(0, 0, 0, 0);
+
+    // 귀국 도착일
+    const tripEndDate = new Date(returnArrivalDate);
+    tripEndDate.setHours(0, 0, 0, 0);
+
+    // 전체 일수 계산 (출발일부터 도착일까지)
+    const diffInMs = tripEndDate.getTime() - tripStartDate.getTime();
+    const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+    const dayCount = diffInDays + 1;
+
+    return dayCount;
 }

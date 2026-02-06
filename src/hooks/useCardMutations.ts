@@ -120,7 +120,9 @@ export function useCardMutations() {
             }));
         }
 
-        const newCardId = `card-${Date.now()}`;
+        // 중복 방지: Date.now() + 랜덤 문자열
+        const randomSuffix = Math.random().toString(36).substring(2, 9);
+        const newCardId = `card-${Date.now()}-${randomSuffix}`;
         const newCard = new LiveObject({
             id: newCardId,
             text: title,
@@ -129,10 +131,10 @@ export function useCardMutations() {
             description,
             date,
             imageUrl,
-            ...(airports && { airports }),
-            ...(month !== undefined && { month }),  // 🎯 캘린더 초기 월
-            ...(city && { city }),  // 🎯 도시 식별자
-            ...(timezone !== undefined && { timezone })  // 시차
+            airports,
+            month,
+            city,
+            timezone
         });
 
         cards.set(newCardId, newCard);
