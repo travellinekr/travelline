@@ -8,7 +8,7 @@ export function FlightCard({ card, ...props }: any) {
       <div className="flex flex-col justify-center w-full">
         <div className="flex justify-between items-center w-full mb-0.5">
           <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-            {card.title || "항공편 정보"}
+            {card.text || "항공편 정보"}
           </h4>
           <span className="shrink-0 text-[11px] font-bold text-sky-600 bg-sky-50 px-1.5 py-0.5 rounded">
             {card.time || "00:00"}

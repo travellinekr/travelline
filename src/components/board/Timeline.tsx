@@ -3,6 +3,8 @@ import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable"
 import { DraggableCard } from "./DraggableCard";
 import { memo } from "react";
 import { FlightSection } from "./FlightSection";
+import { MapPin } from "lucide-react";
+import { useStorage } from "@liveblocks/react/suspense";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
 const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards }: any) {
@@ -70,7 +72,12 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           <span className={`w-1.5 h-5 rounded-full ${dotColor}`}></span>
           {title}
         </h3>
-        <span className="text-[11px] text-slate-400 font-medium">{date}</span>
+        {date && (
+          <div className="flex items-center gap-1.5">
+            <span className="text-[11px] text-slate-400 font-medium">{date}</span>
+            <MapPin className="w-3.5 h-3.5 text-slate-400" />
+          </div>
+        )}
       </div>
 
       <SortableContext items={[...cards.map((c: any) => c.id)]} strategy={verticalListSortingStrategy}>
@@ -126,9 +133,15 @@ export const Timeline = memo(function Timeline({
   // 드래그 중이면 그 카드를 제외하고 계산 (드래그 = 빠진 상태)
   const effectiveHeaderCount = isDraggingFromHeader ? destHeaderCards.length - 1 : destHeaderCards.length;
 
+  // 항공편 정보 가져오기
+  const flightInfo = useStorage((root) => root.flightInfo) as any;
+
   // Dynamic day detection from columns
   const getDayColumns = () => {
     const dayColumns: Array<{ id: string; title: string; date: string; cards: any[] }> = [];
+
+    // 항공편 정보에서 출발 날짜 가져오기
+    const departureDate = flightInfo?.outbound?.date;
 
     // Check columns for day1, day2, day3, etc.
     for (let i = 1; i <= 20; i++) { // Check up to day20
@@ -137,10 +150,19 @@ export const Timeline = memo(function Timeline({
 
       if (dayColumn) {
         const dayCards = dayColumn.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
+
+        // 날짜 계산
+        let dateStr = '';
+        if (departureDate) {
+          const date = new Date(departureDate);
+          date.setDate(date.getDate() + (i - 1)); // i일차는 출발일 + (i-1)일
+          dateStr = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+        }
+
         dayColumns.push({
           id: dayId,
           title: `${i}일차`,
-          date: '', // Date will be calculated from flight info
+          date: dateStr,
           cards: dayCards
         });
       } else {

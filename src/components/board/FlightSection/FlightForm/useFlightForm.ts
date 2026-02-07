@@ -13,9 +13,22 @@ function extractAirportCode(airportString: string): string {
     return match ? match[1] : airportString.split('(')[0].trim();
 }
 
+// 공항 표시용 포맷팅 헬퍼 함수
+function formatAirportDisplay(airportString: string): string {
+    // "인천국제공항 1 (ICN)" → "인천국제공항(ICN)"
+    // "홍콩국제공항" → "홍콩국제공항" (코드 없으면 원본)
+    const match = airportString.match(/^(.+?)\s*\d*\s*\(([A-Z]{3})\)/);
+    if (match) {
+        const airportName = match[1].trim();
+        const code = match[2];
+        return `${airportName}(${code})`;
+    }
+    return airportString;
+}
+
 // 터미널 정보 포맷팅 헬퍼 함수
 function formatTerminal(terminal: string | undefined, prefix: string): string {
-    if (!terminal) return '';
+    if (!terminal) return prefix;
     return `${terminal} ${prefix}`;
 }
 
@@ -245,9 +258,51 @@ export function useFlightForm(
         }
     }, []);
 
+    // Delete existing flight cards mutation
+    const deleteExistingFlightCards = useMutation(({ storage }) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+
+        // 모든 컬럼을 순회하며 flight 카테고리 카드 찾기
+        for (const [columnId, column] of columns.entries()) {
+            if (columnId.startsWith('day')) {
+                const cardIds = column.get("cardIds");
+                const flightCardIds: string[] = [];
+
+                // flight 카드 ID 수집
+                for (let i = 0; i < cardIds.length; i++) {
+                    const cardId = cardIds.get(i);
+                    const card = cards.get(cardId);
+                    if (card && card.get('category') === 'flight') {
+                        flightCardIds.push(cardId);
+                    }
+                }
+
+                // 역순으로 삭제 (인덱스 변경 방지)
+                for (let i = cardIds.length - 1; i >= 0; i--) {
+                    const cardId = cardIds.get(i);
+                    if (flightCardIds.includes(cardId)) {
+                        cardIds.delete(i);
+                        cards.delete(cardId);
+                    }
+                }
+            }
+        }
+    }, []);
+
     const handleDateConfirm = (start: Date, end: Date) => {
+        // Date를 로컬 날짜 문자열로 변환 (UTC 변환 없이)
+        const formatLocalDateString = (date: Date) => {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        };
+
         setDepartureDate(start);
         setArrivalDate(end);
+        setOutboundDepartureDate(formatLocalDateString(start));
+        setReturnDepartureDate(formatLocalDateString(end));
     };
 
     // Stopover handlers
@@ -528,9 +583,17 @@ export function useFlightForm(
         // 날짜 파싱 및 계산 (segment 날짜 사용)
         // ========================================
 
+
         // outboundDepartureDate와 returnDepartureDate에서 Date 객체 생성
-        const parsedDepartureDate = outboundDepartureDate ? new Date(outboundDepartureDate) : null;
-        const parsedReturnDepartureDate = returnDepartureDate ? new Date(returnDepartureDate) : null;
+        // YYYY-MM-DD 문자열을 로컬 시간대 기준으로 파싱 (UTC 변환 방지)
+        const parseLocalDate = (dateStr: string): Date | null => {
+            if (!dateStr) return null;
+            const [year, month, day] = dateStr.split('-').map(Number);
+            return new Date(year, month - 1, day); // month는 0-based
+        };
+
+        const parsedDepartureDate = parseLocalDate(outboundDepartureDate);
+        const parsedReturnDepartureDate = parseLocalDate(returnDepartureDate);
 
         if (!parsedDepartureDate || !parsedReturnDepartureDate) {
             addToast('출발 날짜를 입력해주세요.', 'warning');
@@ -552,16 +615,25 @@ export function useFlightForm(
             calculatedReturnArrivalDate.setDate(calculatedReturnArrivalDate.getDate() + 1);
         }
 
+        // 날짜를 YYYY-MM-DD 형식으로 변환 (UTC 변환 없이 로컬 날짜 유지)
+        const formatLocalDate = (date: Date) => {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        };
+
         // Save to Liveblocks
         const flightData: FlightInfo = {
             outbound: {
-                date: parsedDepartureDate.toISOString(),
+                date: formatLocalDate(parsedDepartureDate),
                 departureAirport: outboundDepartureAirport,
                 departureTerminal: outboundDepartureTerminal || undefined,
                 arrivalAirport: outboundArrivalAirport,
                 arrivalTerminal: outboundArrivalTerminal || undefined,
                 time: `${outboundHour}:${outboundMinute}`,
-                arrivalDate: calculatedOutboundArrivalDate.toISOString(),
+                // 사용자가 직접 입력한 도착일이 있으면 사용, 없으면 자동 계산
+                arrivalDate: outboundArrivalDate || formatLocalDate(calculatedOutboundArrivalDate),
                 arrivalTime: `${outboundArrivalHour}:${outboundArrivalMinute}`,
                 airline: outboundAirline,
                 stopovers: outboundStopovers.length > 0 ? outboundStopovers.map((stopover) => ({
@@ -577,13 +649,14 @@ export function useFlightForm(
                 })) : undefined
             },
             return: {
-                date: parsedReturnDepartureDate.toISOString(),
+                date: formatLocalDate(parsedReturnDepartureDate),
                 departureAirport: returnDepartureAirport,
                 departureTerminal: returnDepartureTerminal || undefined,
                 arrivalAirport: returnArrivalAirport,
                 arrivalTerminal: returnArrivalTerminal || undefined,
                 time: `${returnHour}:${returnMinute}`,
-                arrivalDate: calculatedReturnArrivalDate.toISOString(),
+                // 사용자가 직접 입력한 도착일이 있으면 사용, 없으면 자동 계산
+                arrivalDate: returnArrivalDate || formatLocalDate(calculatedReturnArrivalDate),
                 arrivalTime: `${returnArrivalHour}:${returnArrivalMinute}`,
                 airline: returnAirline,
                 stopovers: returnStopovers.length > 0 ? returnStopovers.map((stopover) => ({
@@ -615,6 +688,11 @@ export function useFlightForm(
         // ✈️ 항공 카드 자동 생성
         // ========================================
 
+        // 🔄 기존 항공 카드 삭제 (리셋)
+        deleteExistingFlightCards();
+
+
+
         // 날짜로 Day 컬럼 ID 찾기 헬퍼 함수
         const findDayColumnByDate = (dateStr: string): string | null => {
             const targetDate = new Date(dateStr);
@@ -640,7 +718,7 @@ export function useFlightForm(
         }) => {
             const { airline, time, airport, terminal, isDeparture, date, isOutbound } = params;
 
-            const airportCode = extractAirportCode(airport);
+            const airportDisplay = formatAirportDisplay(airport);
             const terminalStr = formatTerminal(terminal, isDeparture ? '출발' : '도착');
 
             const dayColumnId = findDayColumnByDate(date);
@@ -656,7 +734,7 @@ export function useFlightForm(
             createCardToColumn({
                 title: airline,
                 time: time,
-                route: `${isDeparture ? '🛫' : '🛬'} ${airportCode}`,
+                route: `${isDeparture ? '🛫' : '🛬'} ${airportDisplay}`,
                 description: terminalStr,
                 category: 'flight',
                 type: 'travel',
