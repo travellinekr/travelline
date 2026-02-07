@@ -66,7 +66,7 @@ export function Sidebar({
         // If flight registered, add remaining days
         if (flightInfo) {
             const dayCount = calculateTripDaysFromFlightInfo(flightInfo);
-            for (let i = 1; i < dayCount; i++) {
+            for (let i = 1; i <= dayCount; i++) {
                 baseDays.push({ id: `day${i}`, label: `${i}`, sublabel: '일차' });
             }
         }
