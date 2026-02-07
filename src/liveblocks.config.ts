@@ -15,6 +15,8 @@ export type Card = {
   imageUrl?: string; // 이미지 URL (Unsplash)
   timezone?: number; // 시차 (UTC 기준, 예: 일본 +9, 태국 +7, 파리 +1)
   airports?: Array<{ name: string; code: string }>; // 공항 정보
+  time?: string; // 항공편 시간 (예: "21:50")
+  route?: string; // 항공편 경로 (예: "🛫 ICN")
 };
 
 export type FlightInfo = {
