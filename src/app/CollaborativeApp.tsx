@@ -485,6 +485,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
+        // 🎯 항공카드는 원래 일차에만 머물러야 함 (다른 일차, Inbox, 최종여행지 등으로 이동 불가)
+        if (draggedCard?.category === 'flight') {
+            // sourceColumnId가 day1, day2 등인지 확인
+            const isDayColumn = sourceColumnId && /^day[1-9]\d*$/.test(sourceColumnId);
+
+            if (isDayColumn) {
+                // 같은 일차 내에서만 재정렬 허용, 다른 곳으로 이동 시도 시 차단
+                if (targetColumnId !== sourceColumnId) {
+                    addToast('항공카드는 다른 위치로 이동할 수 없습니다.', 'warning');
+                    setActiveDragItem(null);
+                    return;
+                }
+            }
+        }
+
         // =========================================
         // STEP 4: 액션 실행 (source와 target 조합에 따라 분기)
         // =========================================
