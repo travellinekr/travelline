@@ -100,7 +100,7 @@ export function useCardMutations() {
             inboxCol.get("cardIds").insert(newCardId, 0);
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, targetColumnId, targetIndex = 0 }) => {
+    const createCardToColumn = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, targetColumnId, targetIndex = 0 }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -136,7 +136,8 @@ export function useCardMutations() {
             city,
             timezone,
             time,
-            route
+            route,
+            coordinates  // GPS 좌표 추가
         });
 
         cards.set(newCardId, newCard);

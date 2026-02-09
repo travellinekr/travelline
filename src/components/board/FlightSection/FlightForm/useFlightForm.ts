@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useMutation, useStorage } from "@liveblocks/react/suspense";
 import { LiveObject, LiveList } from "@liveblocks/client";
 import type { Card, FlightInfo } from "@/liveblocks.config";
-import { KOREAN_AIRPORTS } from "@/data/airports";
+import { KOREAN_AIRPORTS, MAJOR_AIRPORTS } from "@/data/airports";
 import { calculateTripDays, calculateTripDaysFromFlightInfo } from "@/utils/calculateTripDays";
 import { useCardMutations } from "@/hooks/useCardMutations";
 // 공항 코드 추출 헬퍼 함수
@@ -12,6 +12,26 @@ function extractAirportCode(airportString: string): string {
     const match = airportString.match(/\(([A-Z]{3})\)/);
     return match ? match[1] : airportString.split('(')[0].trim();
 }
+
+// 공항 코드로 GPS 좌표 찾기 헬퍼 함수
+function getAirportCoordinates(airportString: string): { lat: number; lng: number } | undefined {
+    const code = extractAirportCode(airportString);
+
+    // 한국 공항에서 찾기
+    const koreanAirport = KOREAN_AIRPORTS.find(a => a.code === code);
+    if (koreanAirport) {
+        return { lat: koreanAirport.lat, lng: koreanAirport.lng };
+    }
+
+    // 해외 공항에서 찾기
+    const majorAirport = MAJOR_AIRPORTS.find(a => a.code === code);
+    if (majorAirport) {
+        return { lat: majorAirport.lat, lng: majorAirport.lng };
+    }
+
+    return undefined;
+}
+
 
 // 공항 표시용 포맷팅 헬퍼 함수
 function formatAirportDisplay(airportString: string): string {
@@ -720,6 +740,7 @@ export function useFlightForm(
 
             const airportDisplay = formatAirportDisplay(airport);
             const terminalStr = formatTerminal(terminal, isDeparture ? '출발' : '도착');
+            const coordinates = getAirportCoordinates(airport); // GPS 좌표 조회
 
             const dayColumnId = findDayColumnByDate(date);
             if (!dayColumnId) {
@@ -739,6 +760,7 @@ export function useFlightForm(
                 category: 'flight',
                 type: 'travel',
                 date: date,
+                coordinates: coordinates, // GPS 좌표 전달
                 targetColumnId: dayColumnId,
                 targetIndex: targetIndex
             });

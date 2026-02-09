@@ -17,6 +17,7 @@ export type Card = {
   airports?: Array<{ name: string; code: string }>; // 공항 정보
   time?: string; // 항공편 시간 (예: "21:50")
   route?: string; // 항공편 경로 (예: "🛫 ICN")
+  coordinates?: { lat: number; lng: number }; // GPS 좌표 (항공카드용)
 };
 
 export type FlightInfo = {
