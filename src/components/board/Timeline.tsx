@@ -1,10 +1,11 @@
 import { useDroppable, useDndContext } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { DraggableCard } from "./DraggableCard";
-import { memo } from "react";
+import { memo, useState, useMemo } from "react";
 import { FlightSection } from "./FlightSection";
-import { MapPin } from "lucide-react";
+import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
+import { DayMapModal } from "./DayMapModal";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
 const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards }: any) {
@@ -45,8 +46,10 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards 
 
 const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald" }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
-
   const { active, over } = useDndContext();
+  const allCards = useStorage((root) => root.cards);
+
+  const [isMapOpen, setIsMapOpen] = useState(false);
 
   const isOverCard = over ? cards.some((c: any) => c.id === over.id) : false;
   const isSectionActive = (isOver || isOverCard) && active;
@@ -55,6 +58,43 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
   const dotColor = isBlue ? "bg-blue-500" : "bg-emerald-500";
   const textColor = isBlue ? "text-blue-500" : "text-emerald-500";
   const borderColor = isBlue ? "border-blue-200" : "border-emerald-200";
+
+  // 이 일차의 카드들에서 좌표 추출 (useMemo로 메모이제이션하여 깜빡임 방지)
+  const markers = useMemo(() => {
+    console.log(`[${title}] allCards:`, allCards);
+    console.log(`[${title}] cards:`, cards);
+
+    if (!allCards) {
+      console.log(`[${title}] allCards가 없음`);
+      return [];
+    }
+
+    const result = cards
+      .map((card: any, index: number) => {
+        console.log(`[${title}][${index}] 카드 확인:`, card);
+        const fullCard = (allCards as any).get?.(card.id);
+        console.log(`[${title}][${index}] fullCard:`, fullCard);
+
+        if (!fullCard?.coordinates) {
+          console.log(`[${title}][${index}] 좌표 없음`);
+          return null;
+        }
+
+        console.log(`[${title}][${index}] 좌표 있음:`, fullCard.coordinates);
+        return {
+          id: card.id,
+          title: card.text || fullCard.route || '위치',
+          coordinates: fullCard.coordinates,
+          category: fullCard.category || 'unknown',
+        };
+      })
+      .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null);
+
+    console.log(`[${title}] 최종 마커 개수:`, result.length);
+    return result;
+  }, [allCards, cards, title]);
+
+  const dayNumber = parseInt(dayId.replace('day', ''));
 
   // 활성화 시 스타일 (리스트 전체를 감싸는 박스가 강조됨)
   const activeClass = isBlue
@@ -72,12 +112,34 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           <span className={`w-1.5 h-5 rounded-full ${dotColor}`}></span>
           {title}
         </h3>
-        {date && (
-          <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-2">
+          {date && (
             <span className="text-[11px] text-slate-400 font-medium">{date}</span>
-            <MapPin className="w-3.5 h-3.5 text-slate-400" />
-          </div>
-        )}
+          )}
+          {/* 지도 버튼 (Day 0 제외, 항상 표시하되 좌표 있을 때만 활성화) */}
+          {dayNumber > 0 && (
+            <button
+              onClick={() => markers.length > 0 && setIsMapOpen(true)}
+              className={`p-1.5 rounded-lg transition-colors ${markers.length > 0
+                  ? 'hover:bg-emerald-50 group cursor-pointer'
+                  : 'cursor-not-allowed opacity-40'
+                }`}
+              title={
+                markers.length > 0
+                  ? `지도 보기 (${markers.length}개 위치)`
+                  : '표시할 위치가 없습니다'
+              }
+              disabled={markers.length === 0}
+            >
+              <Map
+                className={`w-4 h-4 ${markers.length > 0
+                    ? 'text-slate-400 group-hover:text-emerald-600'
+                    : 'text-slate-300'
+                  }`}
+              />
+            </button>
+          )}
+        </div>
       </div>
 
       <SortableContext items={[...cards.map((c: any) => c.id)]} strategy={verticalListSortingStrategy}>
@@ -110,6 +172,14 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           })}
         </div>
       </SortableContext>
+
+      {/* Google Maps Modal */}
+      <DayMapModal
+        dayNumber={dayNumber}
+        markers={markers}
+        isOpen={isMapOpen}
+        onClose={() => setIsMapOpen(false)}
+      />
     </div>
   );
 });
