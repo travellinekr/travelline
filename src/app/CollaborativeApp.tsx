@@ -5,7 +5,7 @@ import { throttle } from "lodash";
 import { useStorage, useMyPresence, useMutation } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
-import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin } from "lucide-react";
+import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel } from "lucide-react";
 import Link from "next/link";
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
@@ -15,6 +15,7 @@ import { supabase } from "@/lib/supabaseClient";
 import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
 import { DraggableCard, renderCardInternal } from "../components/board/DraggableCard";
+import { BaseCard } from "../components/board/cards/BaseCard";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
@@ -394,7 +395,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             // 🔥 CRITICAL: self-drop 체크 (같은 위치에 드롭)
             if (sourceColumnId === 'destination-header') {
-                console.log('[DRAG] 🔄 destination-header self-drop detected - ignoring');
                 setActiveDragItem(null);
                 return;
             }
@@ -407,49 +407,71 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // Picker 카드(DestinationPicker에서 드래그)인 경우: 새 카드 생성하여 타임라인에 추가
-        // destination-candidates 또는 destination-header에 드롭 가능
-        if (String(activeId).startsWith('picker-') && (targetColumnId === 'destination-candidates' || targetColumnId === 'destination-header')) {
-            // 여행지 후보에 넣을 때만 중복 체크
-            if (targetColumnId === 'destination-candidates') {
-                const candidatesCol = (columns as any).get('destination-candidates');
-                if (candidatesCol) {
-                    const existingCardIds = candidatesCol.cardIds;
-                    for (const cardId of existingCardIds) {
-                        const existingCard = (cards as any).get(cardId);
-                        if (existingCard &&
-                            existingCard.text === draggedCard.text &&
-                            existingCard.date === draggedCard.date) {
-                            addToast(`${draggedCard.date} ${draggedCard.text} 카드는 들어가 있습니다.`, 'warning');
-                            setActiveDragItem(null);
-                            return;
+        // Picker 카드 처리: DestinationPicker 또는 AccommodationPicker에서 드래그
+        if (String(activeId).startsWith('picker-')) {
+            // Destination Picker 카드 → destination-candidates 또는 destination-header
+            if (draggedCard?.category === 'destination' && (targetColumnId === 'destination-candidates' || targetColumnId === 'destination-header')) {
+                // 여행지 후보에 넣을 때만 중복 체크
+                if (targetColumnId === 'destination-candidates') {
+                    const candidatesCol = (columns as any).get('destination-candidates');
+                    if (candidatesCol) {
+                        const existingCardIds = candidatesCol.cardIds;
+                        for (const cardId of existingCardIds) {
+                            const existingCard = (cards as any).get(cardId);
+                            if (existingCard &&
+                                existingCard.text === draggedCard.text &&
+                                existingCard.date === draggedCard.date) {
+                                addToast(`${draggedCard.date} ${draggedCard.text} 카드는 들어가 있습니다.`, 'warning');
+                                setActiveDragItem(null);
+                                return;
+                            }
                         }
                     }
                 }
+
+                createCardToColumn({
+                    title: draggedCard.text,
+                    category: draggedCard.category,
+                    type: draggedCard.type || 'travel',
+                    description: draggedCard.description,
+                    date: draggedCard.date,
+                    imageUrl: draggedCard.imageUrl,
+                    airports: draggedCard.airports,
+                    month: draggedCard.month,  // 🎯 캘린더 초기 월 설정에 필요
+                    city: draggedCard.city,    // 🎯 도시 식별자
+                    timezone: draggedCard.timezone,
+                    targetColumnId: targetColumnId,
+                    targetIndex: 0
+                });
+
+                // destination-header에 카드를 추가하면 candidates 숨김
+                if (targetColumnId === 'destination-header') {
+                    addToast('여행지가 등록되어 여행지 후보는 사라집니다.', 'info');
+                }
+
+                return;
             }
 
-            createCardToColumn({
-                title: draggedCard.text,
-                category: draggedCard.category,
-                type: draggedCard.type || 'travel',
-                description: draggedCard.description,
-                date: draggedCard.date,
-                imageUrl: draggedCard.imageUrl,
-                airports: draggedCard.airports,
-                month: draggedCard.month,  // 🎯 캘린더 초기 월 설정에 필요
-                city: draggedCard.city,    // 🎯 도시 식별자
-                timezone: draggedCard.timezone,
-                targetColumnId: targetColumnId,
-                targetIndex: 0
-            });
+            // Hotel Picker 카드 → Day 컬럼 (day1, day2, ...)
+            if (draggedCard?.category === 'hotel' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                createCardToColumn({
+                    title: draggedCard.title,
+                    category: draggedCard.category,
+                    accommodationType: draggedCard.accommodationType,
+                    checkInTime: draggedCard.checkInTime,
+                    checkOutTime: draggedCard.checkOutTime,
+                    city: draggedCard.city,
+                    coordinates: draggedCard.coordinates,
+                    description: draggedCard.description,
+                    tags: draggedCard.tags,
+                    targetColumnId: targetColumnId,
+                    targetIndex: targetIndex
+                });
 
-            // destination-header에 카드를 추가하면 candidates 숨김
-            if (targetColumnId === 'destination-header') {
-                addToast('여행지가 등록되어 여행지 후보는 사라집니다.', 'info');
+                return;
             }
-
-            return;
         }
+
 
         if (targetColumnId === 'day0') {
             if (draggedCard?.category !== 'preparation') {
@@ -508,7 +530,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         if (sourceColumnId === 'destination-header' && targetColumnId !== 'destination-header') {
             // flightInfo가 있으면 confirm 창 띄우기
             if (flightInfo) {
-                console.log('[DRAG] ✈️ flightInfo exists - showing confirm dialog');
                 setPendingDestinationDrop({
                     activeId: String(activeId),
                     draggedCard,
@@ -674,7 +695,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 onDayClick={scrollToDay}
                                 onFlightRegisterClick={() => {
                                     // TODO: Open flight modal
-                                    console.log('Open flight modal');
                                 }}
                                 addToast={addToast}
                                 columns={columns as any}
@@ -761,6 +781,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             activeDragItem={activeDragItem}
                                             onCreateCard={createCard}
                                             onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
+                                            destinationCard={destinationCard}
                                         />
                                     </div>
                                 </div>
@@ -769,8 +790,42 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                         <DragOverlay dropAnimation={null}>
                             {activeDragItem ? (
-                                String(activeDragItem.id).startsWith('picker-') ? (
-                                    // DestinationPicker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
+                                String(activeDragItem.id).startsWith('picker-hotel-') ? (
+                                    // Hotel Picker 카드: BaseCard 스타일
+                                    <div className="w-full max-w-md">
+                                        <BaseCard
+                                            colorClass="bg-rose-400"
+                                            icon={Hotel}
+                                            category={activeDragItem.accommodationType === 'resort' ? 'Resort' : 'Hotel'}
+                                            className="h-[72px] shadow-xl"
+                                        >
+                                            <div className="flex flex-col justify-center w-full">
+                                                <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
+                                                    {activeDragItem.title || "호텔 이름"}
+                                                </h4>
+                                                <div className="flex items-center gap-2 mt-0.5">
+                                                    <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100">
+                                                        Check-in
+                                                    </span>
+                                                    <span className="text-[11px] text-gray-500">
+                                                        {activeDragItem.checkInTime || "15:00"}
+                                                    </span>
+                                                    {activeDragItem.tags && activeDragItem.tags.length > 0 && (
+                                                        <>
+                                                            <span className="text-gray-300">|</span>
+                                                            {activeDragItem.tags.slice(0, 3).map((tag: string, index: number) => (
+                                                                <span key={index} className="text-[9px] text-gray-600 bg-gray-100 px-1.5 py-0.5 rounded">
+                                                                    {tag}
+                                                                </span>
+                                                            ))}
+                                                        </>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        </BaseCard>
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-') ? (
+                                    // Destination Picker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
                                     <div className="bg-white hover:bg-slate-50 border border-gray-100 flex items-center gap-0 relative h-[72px] min-w-[320px] transition-all overflow-hidden w-full rounded-lg shadow-xl">
                                         {/* Left: Image (Fixed 80px width) */}
                                         <div className="w-20 h-full relative flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50">
