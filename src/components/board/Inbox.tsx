@@ -3,8 +3,9 @@ import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo } from "react";
 import { DestinationPicker } from "./DestinationPicker";
+import { AccommodationPicker } from "./AccommodationPicker";
 
-export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard }: any) {
+export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
 
@@ -77,6 +78,10 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           {activeCategory === 'destination' ? (
             <>
               <DestinationPicker onConfirm={handleCreateDestination} />
+            </>
+          ) : activeCategory === 'hotel' ? (
+            <>
+              <AccommodationPicker destinationCity={destinationCard?.city} />
             </>
           ) : (
             <>

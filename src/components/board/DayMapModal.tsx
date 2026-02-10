@@ -18,40 +18,31 @@ interface DayMapModalProps {
 }
 
 export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModalProps) {
+
     const mapRef = useRef<HTMLDivElement>(null);
     const googleMapRef = useRef<google.maps.Map | null>(null);
-    const markersRef = useRef<google.maps.Marker[]>([]);
+    const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
     const infoWindowsRef = useRef<google.maps.InfoWindow[]>([]);
     const previousMarkersStringRef = useRef<string>('');
 
-    // 지도 초기화 (한 번만)
+    // 지도 초기화 - 모달이 열릴 때마다 새로 생성
     useEffect(() => {
         if (!isOpen || !mapRef.current) return;
 
         // Google Maps가 로드될 때까지 대기
         if (typeof google === 'undefined' || !google.maps) {
-            console.warn('Google Maps API가 아직 로드되지 않았습니다.');
+            console.error('❌ [DayMapModal] Google Maps API가 아직 로드되지 않았습니다.');
             return;
         }
 
-        // 이미 지도가 생성되어 있으면, resize 이벤트만 트리거
-        if (googleMapRef.current) {
-            // 모달이 열릴 때마다 지도 크기 재계산 (회색 화면 방지)
-            setTimeout(() => {
-                if (googleMapRef.current) {
-                    google.maps.event.trigger(googleMapRef.current, 'resize');
-                }
-            }, 100);
-            return;
-        }
-
-        // Google Maps 초기화 (한 번만)
+        // Google Maps 초기화 - mapId 추가 (Advanced Markers 필수)
         const map = new google.maps.Map(mapRef.current, {
             center: { lat: 37.5665, lng: 126.978 }, // 서울 기본 좌표
             zoom: 12,
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
+            mapId: 'MINDFLOWS_MAP', // Advanced Markers를 위한 Map ID
         });
 
         googleMapRef.current = map;
@@ -62,16 +53,14 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
         }, 100);
 
         return () => {
-            // 모달이 완전히 닫힐 때만 지도 인스턴스 제거
-            if (!isOpen) {
-                // 마커들도 정리
-                markersRef.current.forEach(m => m.setMap(null));
-                infoWindowsRef.current.forEach(iw => iw.close());
-                markersRef.current = [];
-                infoWindowsRef.current = [];
-                googleMapRef.current = null;
-                previousMarkersStringRef.current = '';
-            }
+            // cleanup: 모달이 닫힐 때 지도 인스턴스와 마커들 완전히 제거
+            // 마커들도 정리
+            markersRef.current.forEach(m => m.map = null);
+            infoWindowsRef.current.forEach(iw => iw.close());
+            markersRef.current = [];
+            infoWindowsRef.current = [];
+            googleMapRef.current = null;
+            previousMarkersStringRef.current = '';
         };
     }, [isOpen]);
 
@@ -89,7 +78,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
         const map = googleMapRef.current;
 
         // 기존 마커들 제거
-        markersRef.current.forEach(m => m.setMap(null));
+        markersRef.current.forEach(m => m.map = null);
         infoWindowsRef.current.forEach(iw => iw.close());
         markersRef.current = [];
         infoWindowsRef.current = [];
@@ -98,35 +87,44 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
         const bounds = new google.maps.LatLngBounds();
 
         markers.forEach((marker, index) => {
-            const mapMarker = new google.maps.Marker({
-                position: marker.coordinates,
-                map: map,
-                title: marker.title,
-                label: {
-                    text: `${index + 1}`,
-                    color: 'white',
-                    fontWeight: 'bold',
-                },
-            });
+            try {
+                // Google PinElement로 깔끔한 마커 생성
+                const pinElement = new google.maps.marker.PinElement({
+                    glyph: `${index + 1}`,
+                    glyphColor: 'white',
+                    background: '#10b981', // emerald-500
+                    borderColor: '#059669', // emerald-600
+                    scale: 1.3,
+                });
 
-            markersRef.current.push(mapMarker);
-            bounds.extend(marker.coordinates);
+                const advancedMarker = new google.maps.marker.AdvancedMarkerElement({
+                    map: map,
+                    position: marker.coordinates,
+                    title: marker.title,
+                    content: pinElement.element,
+                });
 
-            // 마커 클릭 시 정보 표시
-            const infoWindow = new google.maps.InfoWindow({
-                content: `<div style="padding: 8px;">
+                markersRef.current.push(advancedMarker);
+                bounds.extend(marker.coordinates);
+
+                // 마커 클릭 시 정보 표시
+                const infoWindow = new google.maps.InfoWindow({
+                    content: `<div style="padding: 8px;">
           <strong style="font-size: 14px;">${marker.title}</strong><br/>
           <span style="color: #666; font-size: 12px;">${getCategoryLabel(marker.category)}</span>
         </div>`,
-            });
+                });
 
-            infoWindowsRef.current.push(infoWindow);
+                infoWindowsRef.current.push(infoWindow);
 
-            mapMarker.addListener('click', () => {
-                // 다른 InfoWindow 닫기
-                infoWindowsRef.current.forEach(iw => iw.close());
-                infoWindow.open(map, mapMarker);
-            });
+                advancedMarker.addListener('gmp-click', () => {
+                    // 다른 InfoWindow 닫기
+                    infoWindowsRef.current.forEach(iw => iw.close());
+                    infoWindow.open(map, advancedMarker);
+                });
+            } catch (error) {
+                console.error(`❌ [DayMapModal] 마커 ${index + 1} 생성 실패:`, error);
+            }
         });
 
         // 모든 마커가 보이도록 화면 조정

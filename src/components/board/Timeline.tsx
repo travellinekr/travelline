@@ -44,12 +44,10 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards 
   );
 });
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald" }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
   const allCards = useStorage((root) => root.cards);
-
-  const [isMapOpen, setIsMapOpen] = useState(false);
 
   const isOverCard = over ? cards.some((c: any) => c.id === over.id) : false;
   const isSectionActive = (isOver || isOverCard) && active;
@@ -61,26 +59,18 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   // 이 일차의 카드들에서 좌표 추출 (useMemo로 메모이제이션하여 깜빡임 방지)
   const markers = useMemo(() => {
-    console.log(`[${title}] allCards:`, allCards);
-    console.log(`[${title}] cards:`, cards);
-
     if (!allCards) {
-      console.log(`[${title}] allCards가 없음`);
       return [];
     }
 
     const result = cards
-      .map((card: any, index: number) => {
-        console.log(`[${title}][${index}] 카드 확인:`, card);
+      .map((card: any) => {
         const fullCard = (allCards as any).get?.(card.id);
-        console.log(`[${title}][${index}] fullCard:`, fullCard);
 
         if (!fullCard?.coordinates) {
-          console.log(`[${title}][${index}] 좌표 없음`);
           return null;
         }
 
-        console.log(`[${title}][${index}] 좌표 있음:`, fullCard.coordinates);
         return {
           id: card.id,
           title: card.text || fullCard.route || '위치',
@@ -90,9 +80,8 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
       })
       .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null);
 
-    console.log(`[${title}] 최종 마커 개수:`, result.length);
     return result;
-  }, [allCards, cards, title]);
+  }, [allCards, cards]);
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
@@ -119,10 +108,16 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           {/* 지도 버튼 (Day 0 제외, 항상 표시하되 좌표 있을 때만 활성화) */}
           {dayNumber > 0 && (
             <button
-              onClick={() => markers.length > 0 && setIsMapOpen(true)}
+              onClick={() => {
+                if (markers.length > 0) {
+                  onMapClick?.(dayNumber, markers);
+                } else {
+                  // 마커가 없을 때는 아무 동작 안 함
+                }
+              }}
               className={`p-1.5 rounded-lg transition-colors ${markers.length > 0
-                  ? 'hover:bg-emerald-50 group cursor-pointer'
-                  : 'cursor-not-allowed opacity-40'
+                ? 'hover:bg-emerald-50 group cursor-pointer'
+                : 'cursor-not-allowed opacity-40'
                 }`}
               title={
                 markers.length > 0
@@ -133,8 +128,8 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
             >
               <Map
                 className={`w-4 h-4 ${markers.length > 0
-                    ? 'text-slate-400 group-hover:text-emerald-600'
-                    : 'text-slate-300'
+                  ? 'text-slate-400 group-hover:text-emerald-600'
+                  : 'text-slate-300'
                   }`}
               />
             </button>
@@ -172,14 +167,6 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           })}
         </div>
       </SortableContext>
-
-      {/* Google Maps Modal */}
-      <DayMapModal
-        dayNumber={dayNumber}
-        markers={markers}
-        isOpen={isMapOpen}
-        onClose={() => setIsMapOpen(false)}
-      />
     </div>
   );
 });
@@ -205,6 +192,9 @@ export const Timeline = memo(function Timeline({
 
   // 항공편 정보 가져오기
   const flightInfo = useStorage((root) => root.flightInfo) as any;
+
+  // 지도 모달 state (전체 Timeline에서 하나만 관리)
+  const [selectedDayForMap, setSelectedDayForMap] = useState<{ dayNumber: number; markers: any[] } | null>(null);
 
   // Dynamic day detection from columns
   const getDayColumns = () => {
@@ -283,7 +273,6 @@ export const Timeline = memo(function Timeline({
                   destinationCard={destHeaderCards[0] || null}
                   addToast={addToast}
                   onConfirm={(data) => {
-                    console.log('Flight data confirmed:', data);
                     // TODO: 항공편 데이터 저장 및 자동 Day 생성 로직
                   }}
                 />
@@ -297,6 +286,9 @@ export const Timeline = memo(function Timeline({
                   date="Check List"
                   cards={day0Cards}
                   color="blue"
+                  onMapClick={(dayNumber: number, markers: any[]) => {
+                    setSelectedDayForMap({ dayNumber, markers });
+                  }}
                 />
 
                 {dayColumns.map(day => (
@@ -306,8 +298,19 @@ export const Timeline = memo(function Timeline({
                     title={day.title}
                     date={day.date}
                     cards={day.cards}
+                    onMapClick={(dayNumber: number, markers: any[]) => {
+                      setSelectedDayForMap({ dayNumber, markers });
+                    }}
                   />
                 ))}
+
+                {/* 통합 지도 모달 (Timeline 레벨에서 하나만) */}
+                <DayMapModal
+                  dayNumber={selectedDayForMap?.dayNumber || 0}
+                  markers={selectedDayForMap?.markers || []}
+                  isOpen={selectedDayForMap !== null}
+                  onClose={() => setSelectedDayForMap(null)}
+                />
               </>
             )}
           </div>
