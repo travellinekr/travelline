@@ -34,8 +34,16 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
             return;
         }
 
-        // 이미 지도가 생성되어 있으면 생성하지 않음
-        if (googleMapRef.current) return;
+        // 이미 지도가 생성되어 있으면, resize 이벤트만 트리거
+        if (googleMapRef.current) {
+            // 모달이 열릴 때마다 지도 크기 재계산 (회색 화면 방지)
+            setTimeout(() => {
+                if (googleMapRef.current) {
+                    google.maps.event.trigger(googleMapRef.current, 'resize');
+                }
+            }, 100);
+            return;
+        }
 
         // Google Maps 초기화 (한 번만)
         const map = new google.maps.Map(mapRef.current, {
@@ -47,6 +55,11 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
         });
 
         googleMapRef.current = map;
+
+        // 지도가 완전히 렌더링된 후 resize 이벤트 트리거 (회색 화면 방지)
+        setTimeout(() => {
+            google.maps.event.trigger(map, 'resize');
+        }, 100);
 
         return () => {
             // 모달이 완전히 닫힐 때만 지도 인스턴스 제거

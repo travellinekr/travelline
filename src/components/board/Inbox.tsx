@@ -12,11 +12,11 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
 
   const topTabs = [
     { id: 'destination', label: '여행지', icon: MapPin },
-    // { id: 'flight', label: '항공', icon: Plane }, // TODO: API 연계 후 활성화
+    // { id: 'flight', label: '항공', icon: Plane },
+    { id: 'preparation', label: '여행준비', icon: CheckSquare },
   ];
 
   const bottomTabs = [
-    { id: 'preparation', label: '여행준비', icon: CheckSquare },
     { id: 'hotel', label: '숙소', icon: Hotel },
     { id: 'food', label: '맛집', icon: Utensils },
     { id: 'shopping', label: '쇼핑', icon: ShoppingBag },
