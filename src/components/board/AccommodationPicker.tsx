@@ -2,7 +2,7 @@
 
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { Hotel } from 'lucide-react';
+import { Hotel, Plus } from 'lucide-react';
 import { ACCOMMODATIONS_DATA } from '@/data/accommodations';
 import { BaseCard } from './cards/BaseCard';
 
@@ -142,6 +142,12 @@ export function AccommodationPicker({ destinationCity }: { destinationCity?: str
                             index={index}
                         />
                     ))}
+
+                    {/* 직접 추가하기 버튼 */}
+                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-rose-400 hover:text-rose-500 hover:bg-rose-50 transition-all gap-2 mt-2">
+                        <Plus className="w-5 h-5" />
+                        <span className="font-medium text-sm">직접 추가하기</span>
+                    </button>
                 </div>
             </div>
         </div>

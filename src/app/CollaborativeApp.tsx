@@ -5,7 +5,7 @@ import { throttle } from "lodash";
 import { useStorage, useMyPresence, useMutation } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
-import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel } from "lucide-react";
+import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car } from "lucide-react";
 import Link from "next/link";
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
@@ -16,6 +16,7 @@ import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
 import { DraggableCard, renderCardInternal } from "../components/board/DraggableCard";
 import { BaseCard } from "../components/board/cards/BaseCard";
+import { TransportCard } from "../components/board/cards/TransportCard";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
@@ -474,6 +475,32 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                 return;
             }
+
+            // Transport Picker 카드 → Day 컬럼 (day1, day2, ...)
+            if (draggedCard?.category === 'transport' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+                const targetCol = (columns as any).get(targetColumnId);
+                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+
+                createCardToColumn({
+                    text: draggedCard.text,
+                    title: draggedCard.title,
+                    category: draggedCard.category,
+                    transportationType: draggedCard.transportationType,
+                    city: draggedCard.city,
+                    description: draggedCard.description,
+                    priceRange: draggedCard.priceRange,
+                    availability: draggedCard.availability,
+                    features: draggedCard.features,
+                    appRequired: draggedCard.appRequired,
+                    appName: draggedCard.appName,
+                    icon: draggedCard.icon,
+                    targetColumnId: targetColumnId,
+                    targetIndex: finalTargetIndex
+                });
+
+                return;
+            }
         }
 
 
@@ -840,6 +867,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                                 </div>
                                             </div>
                                         </BaseCard>
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-transport-') ? (
+                                    // Transport Picker 카드: TransportCard 스타일
+                                    <div className="w-full max-w-md">
+                                        <TransportCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-') ? (
                                     // Destination Picker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
