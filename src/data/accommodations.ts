@@ -128,7 +128,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 발리 타워 오사카 텐노지",
             type: "hotel",
-            coordinates: { lat: 34.6479861, lng: 135.5162612 },
+            coordinates: { lat: 34.647204, lng: 135.511924 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Osaka",
@@ -144,7 +144,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "파크 하얏트 도쿄",
             type: "hotel",
-            coordinates: { lat: 35.6857, lng: 139.6938 },
+            coordinates: { lat: 35.6861125, lng: 139.6904007 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Tokyo",
@@ -154,7 +154,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아만 도쿄",
             type: "hotel",
-            coordinates: { lat: 35.6812, lng: 139.7642 },
+            coordinates: { lat: 35.6854775, lng: 139.7656705 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Tokyo",
@@ -164,7 +164,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "불가리 호텔 도쿄",
             type: "hotel",
-            coordinates: { lat: 35.6812, lng: 139.7671 },
+            coordinates: { lat: 35.6788388, lng: 139.7683266 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Tokyo",
@@ -174,7 +174,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "미츠이 가든 호텔 우에노",
             type: "hotel",
-            coordinates: { lat: 35.7101, lng: 139.7742 },
+            coordinates: { lat: 35.7118567, lng: 139.7781079 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -184,7 +184,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "신주쿠 워싱턴 호텔",
             type: "hotel",
-            coordinates: { lat: 35.6910, lng: 139.6982 },
+            coordinates: { lat: 35.6869153, lng: 139.6932758 },
             checkInTime: "14:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -194,7 +194,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아사쿠사 뷰 호텔",
             type: "hotel",
-            coordinates: { lat: 35.7148, lng: 139.8015 },
+            coordinates: { lat: 35.715464, lng: 139.7918707 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -204,7 +204,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 더 셀레스틴 도쿄 시바",
             type: "hotel",
-            coordinates: { lat: 35.6545, lng: 139.7474 },
+            coordinates: { lat: 35.650874, lng: 139.748867 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -214,7 +214,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "솔라리아 니시테츠 호텔 긴자",
             type: "hotel",
-            coordinates: { lat: 35.6724, lng: 139.7640 },
+            coordinates: { lat: 35.6707725, lng: 139.7672454 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -224,7 +224,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "온센 료칸 유엔 신주쿠",
             type: "hotel",
-            coordinates: { lat: 35.6938, lng: 139.7036 },
+            coordinates: { lat: 35.69291279999999, lng: 139.709008 },
             checkInTime: "15:00",
             checkOutTime: "10:00",
             city: "Tokyo",
@@ -234,7 +234,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "시부야 엑셀 호텔 도큐",
             type: "hotel",
-            coordinates: { lat: 35.6580, lng: 139.7016 },
+            coordinates: { lat: 35.6585773, lng: 139.6998213 },
             checkInTime: "14:00",
             checkOutTime: "11:00",
             city: "Tokyo",
@@ -250,7 +250,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "JR 큐슈 호텔 블로썸 하카타",
             type: "hotel",
-            coordinates: { lat: 33.5904, lng: 130.4206 },
+            coordinates: { lat: 33.59015249999999, lng: 130.414029 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Fukuoka",
@@ -260,7 +260,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 닛코 후쿠오카",
             type: "hotel",
-            coordinates: { lat: 33.5909, lng: 130.4215 },
+            coordinates: { lat: 33.5913235, lng: 130.4172277 },
             checkInTime: "14:00",
             checkOutTime: "12:00",
             city: "Fukuoka",
@@ -270,7 +270,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "더 블로썸 텐진",
             type: "hotel",
-            coordinates: { lat: 33.5920, lng: 130.3994 },
+            coordinates: { lat: 33.5901838, lng: 130.4016888 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Fukuoka",
@@ -280,7 +280,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "원 후쿠오카 호텔",
             type: "hotel",
-            coordinates: { lat: 33.5905, lng: 130.3985 },
+            coordinates: { lat: 33.5908005, lng: 130.4000978 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Fukuoka",
@@ -290,7 +290,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "더 리츠칼튼 후쿠오카",
             type: "hotel",
-            coordinates: { lat: 33.5917, lng: 130.3996 },
+            coordinates: { lat: 33.5897405, lng: 130.3947638 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Fukuoka",
@@ -300,7 +300,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "솔라리아 니시테츠 호텔 후쿠오카",
             type: "hotel",
-            coordinates: { lat: 33.5913, lng: 130.3989 },
+            coordinates: { lat: 33.5890853, lng: 130.3988213 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Fukuoka",
@@ -320,7 +320,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "미쓰이 가든 호텔 후쿠오카 기온",
             type: "hotel",
-            coordinates: { lat: 33.5940, lng: 130.4089 },
+            coordinates: { lat: 33.5904295, lng: 130.4135396 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Fukuoka",
@@ -336,7 +336,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "그랜드 하얏트 타이베이",
             type: "hotel",
-            coordinates: { lat: 25.0339, lng: 121.5645 },
+            coordinates: { lat: 25.0351708, lng: 121.5628669 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Taipei",
@@ -346,7 +346,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "리젠트 타이베이 호텔",
             type: "hotel",
-            coordinates: { lat: 25.0521, lng: 121.5233 },
+            coordinates: { lat: 25.054158, lng: 121.524288 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Taipei",
@@ -356,7 +356,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "코스모스 호텔 타이베이",
             type: "hotel",
-            coordinates: { lat: 25.0478, lng: 121.5170 },
+            coordinates: { lat: 25.0463786, lng: 121.5182543 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Taipei",
@@ -366,7 +366,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "소테츠 그랜드 프레사 타이베이",
             type: "hotel",
-            coordinates: { lat: 25.0421, lng: 121.5075 },
+            coordinates: { lat: 25.0329636, lng: 121.5654268 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Taipei",
@@ -376,7 +376,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 로얄 닛코 타이베이",
             type: "hotel",
-            coordinates: { lat: 25.0627, lng: 121.5234 },
+            coordinates: { lat: 25.053857, lng: 121.52291 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Taipei",
@@ -386,7 +386,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "유나이티드 호텔",
             type: "hotel",
-            coordinates: { lat: 25.0513, lng: 121.5168 },
+            coordinates: { lat: 25.0329636, lng: 121.5654268 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Taipei",
@@ -402,7 +402,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "신라모노그램 다낭",
             type: "resort",
-            coordinates: { lat: 16.0401, lng: 108.2500 },
+            coordinates: { lat: 15.9629566, lng: 108.2889999 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -412,7 +412,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "다낭 메리어트 리조트 & 스파",
             type: "resort",
-            coordinates: { lat: 16.0407, lng: 108.2498 },
+            coordinates: { lat: 16.0544563, lng: 108.0717219 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -422,7 +422,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "라디슨 레드 다낭",
             type: "hotel",
-            coordinates: { lat: 16.0398, lng: 108.2485 },
+            coordinates: { lat: 16.0544563, lng: 108.0717219 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -442,7 +442,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "다이아몬드 씨 호텔 다낭",
             type: "hotel",
-            coordinates: { lat: 16.0395, lng: 108.2490 },
+            coordinates: { lat: 16.0664686, lng: 108.2451072 },
             checkInTime: "14:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -452,7 +452,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "골든 로터스 럭셔리 호텔 다낭",
             type: "hotel",
-            coordinates: { lat: 16.0392, lng: 108.2488 },
+            coordinates: { lat: 16.0523169, lng: 108.2466746 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Da Nang",
@@ -462,7 +462,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "벨 메종 파로산드 다낭 호텔",
             type: "hotel",
-            coordinates: { lat: 16.0403, lng: 108.2492 },
+            coordinates: { lat: 16.0675871, lng: 108.2448052 },
             checkInTime: "14:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -472,7 +472,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "하이안 비치 호텔 & 스파",
             type: "hotel",
-            coordinates: { lat: 16.0405, lng: 108.2495 },
+            coordinates: { lat: 16.0530442, lng: 108.2475282 },
             checkInTime: "14:00",
             checkOutTime: "12:00",
             city: "Da Nang",
@@ -488,7 +488,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "JR 타워 호텔 닛코 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0686, lng: 141.3506 },
+            coordinates: { lat: 43.0684388, lng: 141.3523648 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -498,7 +498,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "인터컨티넨탈 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0636, lng: 141.3530 },
+            coordinates: { lat: 43.0617713, lng: 141.3544506 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Sapporo",
@@ -508,7 +508,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 소세이 삿포로 엠갤러리",
             type: "hotel",
-            coordinates: { lat: 43.0627, lng: 141.3512 },
+            coordinates: { lat: 43.0650191, lng: 141.3606067 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -518,7 +518,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "그랑벨 호텔 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0534, lng: 141.3582 },
+            coordinates: { lat: 43.0550034, lng: 141.3565401 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -528,7 +528,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "포르자 호텔 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0692, lng: 141.3510 },
+            coordinates: { lat: 43.065455, lng: 141.3526763 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -538,7 +538,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "도미인 프리미엄 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0570, lng: 141.3540 },
+            coordinates: { lat: 43.057061, lng: 141.34884 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -548,7 +548,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "크로스 호텔 삿포로",
             type: "hotel",
-            coordinates: { lat: 43.0620, lng: 141.3510 },
+            coordinates: { lat: 43.06404, lng: 141.3532757 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -558,7 +558,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "베셀 호텔 캄파나 스스키노",
             type: "hotel",
-            coordinates: { lat: 43.0540, lng: 141.3570 },
+            coordinates: { lat: 43.0542308, lng: 141.3492526 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Sapporo",
@@ -574,7 +574,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "할레쿨라니 오키나와",
             type: "resort",
-            coordinates: { lat: 26.4985, lng: 127.8540 },
+            coordinates: { lat: 26.5265784, lng: 127.9231466 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Okinawa",
@@ -584,7 +584,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 몬토레 오키나와 스파 앤 리조트",
             type: "resort",
-            coordinates: { lat: 26.4900, lng: 127.8500 },
+            coordinates: { lat: 26.4537478, lng: 127.8058024 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Okinawa",
@@ -594,7 +594,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "더 부세나 테라스",
             type: "resort",
-            coordinates: { lat: 26.5350, lng: 127.9270 },
+            coordinates: { lat: 26.5404329, lng: 127.9357986 },
             checkInTime: "14:00",
             checkOutTime: "11:00",
             city: "Okinawa",
@@ -604,7 +604,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 닛코 아리비라",
             type: "resort",
-            coordinates: { lat: 26.3920, lng: 127.7870 },
+            coordinates: { lat: 26.4150328, lng: 127.7155444 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Okinawa",
@@ -614,7 +614,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "오리엔탈 호텔 오키나와",
             type: "resort",
-            coordinates: { lat: 26.5600, lng: 127.9320 },
+            coordinates: { lat: 26.5301784, lng: 127.9339101 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Okinawa",
@@ -624,7 +624,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "서던 비치 호텔 앤 리조트",
             type: "resort",
-            coordinates: { lat: 26.1980, lng: 127.6780 },
+            coordinates: { lat: 26.1320273, lng: 127.6529371 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Okinawa",
@@ -634,7 +634,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "히요리 오션 리조트",
             type: "resort",
-            coordinates: { lat: 26.4920, lng: 127.8520 },
+            coordinates: { lat: 26.3343533, lng: 127.8056058 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Okinawa",
@@ -644,7 +644,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호시노야 오키나와",
             type: "resort",
-            coordinates: { lat: 26.3700, lng: 127.7960 },
+            coordinates: { lat: 26.4203689, lng: 127.7148038 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Okinawa",
@@ -660,7 +660,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "콘래드 상하이",
             type: "hotel",
-            coordinates: { lat: 31.2407, lng: 121.4920 },
+            coordinates: { lat: 31.230416, lng: 121.473701 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Shanghai",
@@ -670,7 +670,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "시클루시브 호텔",
             type: "hotel",
-            coordinates: { lat: 31.2150, lng: 121.4440 },
+            coordinates: { lat: 31.230416, lng: 121.473701 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Shanghai",
@@ -680,7 +680,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "더 페닌슐라 상하이",
             type: "hotel",
-            coordinates: { lat: 31.2400, lng: 121.4890 },
+            coordinates: { lat: 31.230416, lng: 121.473701 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Shanghai",
@@ -690,7 +690,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "파크 하얏트 상하이",
             type: "hotel",
-            coordinates: { lat: 31.2380, lng: 121.5010 },
+            coordinates: { lat: 31.234732, lng: 121.50764 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Shanghai",
@@ -700,7 +700,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "페어몬트 피스 호텔",
             type: "hotel",
-            coordinates: { lat: 31.2350, lng: 121.4730 },
+            coordinates: { lat: 31.2390388, lng: 121.4895427 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Shanghai",
@@ -710,7 +710,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "푸시 인터컨티넨탈",
             type: "hotel",
-            coordinates: { lat: 31.2420, lng: 121.4910 },
+            coordinates: { lat: 31.230416, lng: 121.473701 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Shanghai",
@@ -726,7 +726,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "파크 하얏트 방콕",
             type: "hotel",
-            coordinates: { lat: 13.7563, lng: 100.5410 },
+            coordinates: { lat: 13.743764, lng: 100.54729 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bangkok",
@@ -736,7 +736,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "페닌슐라 방콕",
             type: "hotel",
-            coordinates: { lat: 13.7210, lng: 100.5110 },
+            coordinates: { lat: 13.7231212, lng: 100.5108006 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bangkok",
@@ -746,7 +746,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "시암 켐핀스키",
             type: "hotel",
-            coordinates: { lat: 13.7465, lng: 100.5350 },
+            coordinates: { lat: 13.7484011, lng: 100.5348436 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bangkok",
@@ -756,7 +756,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "하얏트 플레이스 수쿰윗",
             type: "hotel",
-            coordinates: { lat: 13.7321, lng: 100.5563 },
+            coordinates: { lat: 13.7563309, lng: 100.5017651 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Bangkok",
@@ -766,7 +766,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "목시 방콕 라차프라송",
             type: "hotel",
-            coordinates: { lat: 13.7453, lng: 100.5387 },
+            coordinates: { lat: 13.7563309, lng: 100.5017651 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Bangkok",
@@ -776,7 +776,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "그랜드 센터 포인트 룸피니",
             type: "hotel",
-            coordinates: { lat: 13.7305, lng: 100.5420 },
+            coordinates: { lat: 13.7245888, lng: 100.5475271 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Bangkok",
@@ -786,7 +786,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "머큐어 방콕 수라웡",
             type: "hotel",
-            coordinates: { lat: 13.7210, lng: 100.5290 },
+            coordinates: { lat: 13.7273198, lng: 100.522248 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Bangkok",
@@ -796,7 +796,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "인터컨티넨탈 수쿰윗 59",
             type: "hotel",
-            coordinates: { lat: 13.7260, lng: 100.5820 },
+            coordinates: { lat: 13.7563309, lng: 100.5017651 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bangkok",
@@ -812,7 +812,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "디 아푸르바 켐핀스키",
             type: "resort",
-            coordinates: { lat: -8.8050, lng: 115.2260 },
+            coordinates: { lat: -8.4095178, lng: 115.188916 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -822,7 +822,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "소피텔 발리 누사두아",
             type: "resort",
-            coordinates: { lat: -8.8000, lng: 115.2300 },
+            coordinates: { lat: -8.7916892, lng: 115.2299236 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -832,7 +832,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "만다파 리츠칼튼 리저브",
             type: "resort",
-            coordinates: { lat: -8.5104, lng: 115.2620 },
+            coordinates: { lat: -8.3405389, lng: 115.0919509 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -842,7 +842,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "세인트 레지스 발리",
             type: "resort",
-            coordinates: { lat: -8.8020, lng: 115.2280 },
+            coordinates: { lat: -8.8128275, lng: 115.2264772 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -852,7 +852,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "포시즌스 사얀",
             type: "resort",
-            coordinates: { lat: -8.5000, lng: 115.2550 },
+            coordinates: { lat: -8.5003995, lng: 115.2415196 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -862,7 +862,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "우마나 발리 LXR",
             type: "resort",
-            coordinates: { lat: -8.8400, lng: 115.1200 },
+            coordinates: { lat: -8.3405389, lng: 115.0919509 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -872,7 +872,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아야나 리조트 앤 스파",
             type: "resort",
-            coordinates: { lat: -8.7970, lng: 115.1620 },
+            coordinates: { lat: -8.7862171, lng: 115.1392725 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -882,7 +882,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "힐튼 발리 리조트",
             type: "resort",
-            coordinates: { lat: -8.8040, lng: 115.2290 },
+            coordinates: { lat: -8.8256848, lng: 115.2186745 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Bali",
@@ -898,7 +898,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "알마 리조트",
             type: "resort",
-            coordinates: { lat: 12.1780, lng: 109.1970 },
+            coordinates: { lat: 12.2941855, lng: 109.229089 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -908,7 +908,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "그란 멜리아 나트랑",
             type: "resort",
-            coordinates: { lat: 12.2680, lng: 109.1920 },
+            coordinates: { lat: 12.076636, lng: 109.192766 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -918,7 +918,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아미아나 리조트 나트랑",
             type: "resort",
-            coordinates: { lat: 12.3043, lng: 109.2118 },
+            coordinates: { lat: 12.295209, lng: 109.2338719 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -928,7 +928,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아미아나 리조트 깜란",
             type: "resort",
-            coordinates: { lat: 12.0155, lng: 109.1645 },
+            coordinates: { lat: 12.1050356, lng: 109.1912295 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -938,7 +938,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "빈펄 리조트",
             type: "resort",
-            coordinates: { lat: 12.2200, lng: 109.1950 },
+            coordinates: { lat: 12.220935, lng: 109.2473572 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -948,7 +948,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "하바나 나트랑 호텔",
             type: "hotel",
-            coordinates: { lat: 12.2480, lng: 109.1940 },
+            coordinates: { lat: 12.2433961, lng: 109.195842 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Nha Trang",
@@ -958,7 +958,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "퓨전 리조트 깜 라인",
             type: "resort",
-            coordinates: { lat: 12.1320, lng: 109.1910 },
+            coordinates: { lat: 12.0500142, lng: 109.2040205 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -968,7 +968,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "식스센스 닌반 베이",
             type: "resort",
-            coordinates: { lat: 12.3700, lng: 109.1300 },
+            coordinates: { lat: 12.3589397, lng: 109.2776855 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Nha Trang",
@@ -984,7 +984,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "샹그릴라 막탄",
             type: "resort",
-            coordinates: { lat: 10.3070, lng: 123.9490 },
+            coordinates: { lat: 10.3081301, lng: 124.0200301 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -994,7 +994,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "크림슨 리조트 앤 스파",
             type: "resort",
-            coordinates: { lat: 10.2920, lng: 123.9630 },
+            coordinates: { lat: 10.2966371, lng: 124.0140605 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1004,7 +1004,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "제이파크 아일랜드 리조트",
             type: "resort",
-            coordinates: { lat: 10.3050, lng: 123.9510 },
+            coordinates: { lat: 10.282778, lng: 123.9955854 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1014,7 +1014,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "뫼벤픽 호텔 막탄",
             type: "resort",
-            coordinates: { lat: 10.3010, lng: 123.9520 },
+            coordinates: { lat: 10.3105249, lng: 124.0234039 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1024,7 +1024,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "블루워터 마리바고",
             type: "resort",
-            coordinates: { lat: 10.2980, lng: 123.9540 },
+            coordinates: { lat: 10.2867261, lng: 124.0011428 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1034,7 +1034,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "두짓 타니 막탄",
             type: "resort",
-            coordinates: { lat: 10.3040, lng: 123.9500 },
+            coordinates: { lat: 10.3303929, lng: 124.0393159 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1044,7 +1044,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "바이 호텔 세부",
             type: "hotel",
-            coordinates: { lat: 10.3167, lng: 123.9103 },
+            coordinates: { lat: 10.3118418, lng: 123.9212061 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1054,7 +1054,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "플랜테이션 베이",
             type: "resort",
-            coordinates: { lat: 10.2950, lng: 123.9550 },
+            coordinates: { lat: 10.2605254, lng: 123.9828074 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Cebu",
@@ -1070,7 +1070,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "센사이 호텔 님만",
             type: "hotel",
-            coordinates: { lat: 18.8020, lng: 98.9677 },
+            coordinates: { lat: 18.795158, lng: 98.968226 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Chiang Mai",
@@ -1080,7 +1080,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "아난타라 치앙마이",
             type: "resort",
-            coordinates: { lat: 18.7877, lng: 98.9932 },
+            coordinates: { lat: 18.7815954, lng: 99.003714 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Chiang Mai",
@@ -1090,7 +1090,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "부리라타나 호텔",
             type: "hotel",
-            coordinates: { lat: 18.7910, lng: 98.9950 },
+            coordinates: { lat: 18.7879397, lng: 98.9887655 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Chiang Mai",
@@ -1100,7 +1100,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "멜리아 치앙마이",
             type: "hotel",
-            coordinates: { lat: 18.7820, lng: 99.0030 },
+            coordinates: { lat: 18.7852997, lng: 99.0027877 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Chiang Mai",
@@ -1110,7 +1110,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "라야 헤리티지",
             type: "hotel",
-            coordinates: { lat: 18.7770, lng: 98.9820 },
+            coordinates: { lat: 18.8486074, lng: 98.98525769999999 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Chiang Mai",
@@ -1120,7 +1120,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "크로스 치앙마이 리버사이드",
             type: "hotel",
-            coordinates: { lat: 18.7850, lng: 98.9900 },
+            coordinates: { lat: 18.7661385, lng: 99.0048216 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Chiang Mai",
@@ -1130,7 +1130,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "포시즌스 리조트",
             type: "resort",
-            coordinates: { lat: 18.8680, lng: 98.9260 },
+            coordinates: { lat: 18.7883439, lng: 98.98530079999999 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Chiang Mai",
@@ -1146,7 +1146,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "더 츠바키 타워",
             type: "hotel",
-            coordinates: { lat: 13.5126, lng: 144.8014 },
+            coordinates: { lat: 13.5216166, lng: 144.8058334 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Guam",
@@ -1156,7 +1156,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "두짓타니 괌",
             type: "resort",
-            coordinates: { lat: 13.5150, lng: 144.8030 },
+            coordinates: { lat: 13.5137475, lng: 144.8051339 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Guam",
@@ -1166,7 +1166,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 닛코 괌",
             type: "resort",
-            coordinates: { lat: 13.5290, lng: 144.8170 },
+            coordinates: { lat: 13.5219545, lng: 144.8048848 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Guam",
@@ -1176,7 +1176,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "하얏트 리젠시 괌",
             type: "resort",
-            coordinates: { lat: 13.5130, lng: 144.8020 },
+            coordinates: { lat: 13.5121598, lng: 144.8043393 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Guam",
@@ -1186,7 +1186,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "롯데호텔 괌",
             type: "hotel",
-            coordinates: { lat: 13.5110, lng: 144.7990 },
+            coordinates: { lat: 13.5201894, lng: 144.8072708 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Guam",
@@ -1196,7 +1196,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "괌 리프 호텔",
             type: "hotel",
-            coordinates: { lat: 13.5140, lng: 144.8010 },
+            coordinates: { lat: 13.516843, lng: 144.806098 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Guam",
@@ -1206,7 +1206,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 타노 괌",
             type: "hotel",
-            coordinates: { lat: 13.5120, lng: 144.8000 },
+            coordinates: { lat: 13.3823791, lng: 144.6972774 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Guam",
@@ -1222,7 +1222,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "르 브리스톨 파리",
             type: "hotel",
-            coordinates: { lat: 48.8706, lng: 2.3160 },
+            coordinates: { lat: 48.87168639999999, lng: 2.3147996 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Paris",
@@ -1242,7 +1242,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 르 들뤼스",
             type: "hotel",
-            coordinates: { lat: 48.8606, lng: 2.3418 },
+            coordinates: { lat: 48.8575475, lng: 2.3513765 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Paris",
@@ -1252,7 +1252,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "풀먼 파리 투르 에펠",
             type: "hotel",
-            coordinates: { lat: 48.8556, lng: 2.2986 },
+            coordinates: { lat: 48.8556488, lng: 2.2928584 },
             checkInTime: "15:00",
             checkOutTime: "12:00",
             city: "Paris",
@@ -1262,7 +1262,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "이비스 파리 에펠 타워",
             type: "hotel",
-            coordinates: { lat: 48.8500, lng: 2.3010 },
+            coordinates: { lat: 48.85837009999999, lng: 2.2944813 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Paris",
@@ -1272,7 +1272,7 @@ export const ACCOMMODATIONS_DATA: Record<string, AccommodationData[]> = {
         {
             name: "호텔 R 드 파리",
             type: "hotel",
-            coordinates: { lat: 48.8760, lng: 2.3260 },
+            coordinates: { lat: 48.879942, lng: 2.329001 },
             checkInTime: "15:00",
             checkOutTime: "11:00",
             city: "Paris",

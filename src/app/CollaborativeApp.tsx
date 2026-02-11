@@ -454,6 +454,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             // Hotel Picker 카드 → Day 컬럼 (day1, day2, ...)
             if (draggedCard?.category === 'hotel' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+                const targetCol = (columns as any).get(targetColumnId);
+                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+
                 createCardToColumn({
                     title: draggedCard.title,
                     category: draggedCard.category,
@@ -465,7 +469,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                     description: draggedCard.description,
                     tags: draggedCard.tags,
                     targetColumnId: targetColumnId,
-                    targetIndex: targetIndex
+                    targetIndex: finalTargetIndex
                 });
 
                 return;
@@ -544,7 +548,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         if (sourceColumnId === 'inbox' && targetColumnId !== 'inbox') {
-            copyCardToTimeline({ originalCardId: activeId, targetColumnId, targetIndex: targetIndex ?? 0 });
+            // 맨 뒤에 추가: targetIndex가 없으면 기존 카드 개수를 사용
+            let finalTargetIndex = targetIndex;
+            if (typeof targetIndex !== 'number') {
+                const targetCol = (columns as any).get(targetColumnId);
+                finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+            }
+            copyCardToTimeline({ originalCardId: activeId, targetColumnId, targetIndex: finalTargetIndex });
         } else if (sourceColumnId !== 'inbox' && targetColumnId === 'inbox') {
             removeCardFromTimeline({ cardId: activeId, sourceColumnId });
             // 보관함에서 해당 카테고리 활성화
@@ -565,7 +575,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                     addToast('여행지가 등록되어 여행지 후보는 사라집니다.', 'info');
                 }
 
-                moveCard({ cardId: activeId, targetColumnId, targetIndex: targetIndex ?? 0 });
+                // 맨 뒤에 추가: targetIndex가 없으면 기존 카드 개수를 사용
+                let finalTargetIndex = targetIndex;
+                if (typeof targetIndex !== 'number') {
+                    const targetCol = (columns as any).get(targetColumnId);
+                    finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+                }
+
+                moveCard({ cardId: activeId, targetColumnId, targetIndex: finalTargetIndex });
             }
         }
 

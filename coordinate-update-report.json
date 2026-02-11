@@ -1,0 +1,1421 @@
+{
+  "timestamp": "2026-02-11T01:30:40.151Z",
+  "totalProcessed": 116,
+  "updated": [
+    {
+      "city": "Osaka",
+      "name": "호텔 발리 타워 오사카 텐노지",
+      "oldCoordinates": {
+        "lat": 34.6479861,
+        "lng": 135.5162612
+      },
+      "newCoordinates": {
+        "lat": 34.647204,
+        "lng": 135.511924
+      },
+      "formattedAddress": "1-chōme-4-11 Abenosuji, Abeno Ward, Osaka, 545-0052, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "파크 하얏트 도쿄",
+      "oldCoordinates": {
+        "lat": 35.6857,
+        "lng": 139.6938
+      },
+      "newCoordinates": {
+        "lat": 35.6861125,
+        "lng": 139.6904007
+      },
+      "formattedAddress": "2, 3-chōme-7-1 Nishishinjuku, Shinjuku City, Tokyo 163-1055, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "아만 도쿄",
+      "oldCoordinates": {
+        "lat": 35.6812,
+        "lng": 139.7642
+      },
+      "newCoordinates": {
+        "lat": 35.6854775,
+        "lng": 139.7656705
+      },
+      "formattedAddress": "The Otemachi Tower, 1-chōme-5-6 Ōtemachi, Chiyoda City, Tokyo 100-0004, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "불가리 호텔 도쿄",
+      "oldCoordinates": {
+        "lat": 35.6812,
+        "lng": 139.7671
+      },
+      "newCoordinates": {
+        "lat": 35.6788388,
+        "lng": 139.7683266
+      },
+      "formattedAddress": "2-chōme-2-1 Yaesu, Chuo City, Tokyo 104-0028, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "미츠이 가든 호텔 우에노",
+      "oldCoordinates": {
+        "lat": 35.7101,
+        "lng": 139.7742
+      },
+      "newCoordinates": {
+        "lat": 35.7118567,
+        "lng": 139.7781079
+      },
+      "formattedAddress": "3-chōme-19-7 Higashiueno, Taito City, Tokyo 110-0015, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "신주쿠 워싱턴 호텔",
+      "oldCoordinates": {
+        "lat": 35.691,
+        "lng": 139.6982
+      },
+      "newCoordinates": {
+        "lat": 35.6869153,
+        "lng": 139.6932758
+      },
+      "formattedAddress": "3-chōme-2-9 Nishishinjuku, Shinjuku City, Tokyo 160-8336, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "아사쿠사 뷰 호텔",
+      "oldCoordinates": {
+        "lat": 35.7148,
+        "lng": 139.8015
+      },
+      "newCoordinates": {
+        "lat": 35.715464,
+        "lng": 139.7918707
+      },
+      "formattedAddress": "3-chōme-17-1 Nishiasakusa, Taito City, Tokyo 111-8765, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "호텔 더 셀레스틴 도쿄 시바",
+      "oldCoordinates": {
+        "lat": 35.6545,
+        "lng": 139.7474
+      },
+      "newCoordinates": {
+        "lat": 35.650874,
+        "lng": 139.748867
+      },
+      "formattedAddress": "3-chōme-23-1 Shiba, Minato City, Tokyo 105-0014, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "솔라리아 니시테츠 호텔 긴자",
+      "oldCoordinates": {
+        "lat": 35.6724,
+        "lng": 139.764
+      },
+      "newCoordinates": {
+        "lat": 35.6707725,
+        "lng": 139.7672454
+      },
+      "formattedAddress": "4-chōme-9-2 Ginza, Chuo City, Tokyo 104-0061, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "온센 료칸 유엔 신주쿠",
+      "oldCoordinates": {
+        "lat": 35.6938,
+        "lng": 139.7036
+      },
+      "newCoordinates": {
+        "lat": 35.69291279999999,
+        "lng": 139.709008
+      },
+      "formattedAddress": "Shinjuku, Shinjuku City, Tokyo 160-0022, Japan"
+    },
+    {
+      "city": "Tokyo",
+      "name": "시부야 엑셀 호텔 도큐",
+      "oldCoordinates": {
+        "lat": 35.658,
+        "lng": 139.7016
+      },
+      "newCoordinates": {
+        "lat": 35.6585773,
+        "lng": 139.6998213
+      },
+      "formattedAddress": "1-chōme-12-2 Dōgenzaka, Shibuya, Tokyo 150-0043, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "JR 큐슈 호텔 블로썸 하카타",
+      "oldCoordinates": {
+        "lat": 33.5904,
+        "lng": 130.4206
+      },
+      "newCoordinates": {
+        "lat": 33.59015249999999,
+        "lng": 130.414029
+      },
+      "formattedAddress": "2-chōme-8-12 Hakata Ekimae, Hakata Ward, Fukuoka, 812-0011, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "호텔 닛코 후쿠오카",
+      "oldCoordinates": {
+        "lat": 33.5909,
+        "lng": 130.4215
+      },
+      "newCoordinates": {
+        "lat": 33.5913235,
+        "lng": 130.4172277
+      },
+      "formattedAddress": "2-chōme-18-25 Hakata Ekimae, Hakata Ward, Fukuoka, 812-0011, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "더 블로썸 텐진",
+      "oldCoordinates": {
+        "lat": 33.592,
+        "lng": 130.3994
+      },
+      "newCoordinates": {
+        "lat": 33.5901838,
+        "lng": 130.4016888
+      },
+      "formattedAddress": "Fukuoka, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "원 후쿠오카 호텔",
+      "oldCoordinates": {
+        "lat": 33.5905,
+        "lng": 130.3985
+      },
+      "newCoordinates": {
+        "lat": 33.5908005,
+        "lng": 130.4000978
+      },
+      "formattedAddress": "Japan, 〒810-0001 Fukuoka, Chuo Ward, Tenjin, 1-chōme−11−１ ONE FUKUOKA BLDG 18-19F"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "더 리츠칼튼 후쿠오카",
+      "oldCoordinates": {
+        "lat": 33.5917,
+        "lng": 130.3996
+      },
+      "newCoordinates": {
+        "lat": 33.5897405,
+        "lng": 130.3947638
+      },
+      "formattedAddress": "2-chōme-6-50 Daimyō, Chuo Ward, Fukuoka, 810-0041, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "솔라리아 니시테츠 호텔 후쿠오카",
+      "oldCoordinates": {
+        "lat": 33.5913,
+        "lng": 130.3989
+      },
+      "newCoordinates": {
+        "lat": 33.5890853,
+        "lng": 130.3988213
+      },
+      "formattedAddress": "2-chōme-2-43 Tenjin, Chuo Ward, Fukuoka, 810-0001, Japan"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "미쓰이 가든 호텔 후쿠오카 기온",
+      "oldCoordinates": {
+        "lat": 33.594,
+        "lng": 130.4089
+      },
+      "newCoordinates": {
+        "lat": 33.5904295,
+        "lng": 130.4135396
+      },
+      "formattedAddress": "Japan, 〒812-0011 Fukuoka, Hakata Ward, Hakata Ekimae, 2-chōme−8−１５ 三井ガーデンホテル福岡祇園 １階"
+    },
+    {
+      "city": "Taipei",
+      "name": "그랜드 하얏트 타이베이",
+      "oldCoordinates": {
+        "lat": 25.0339,
+        "lng": 121.5645
+      },
+      "newCoordinates": {
+        "lat": 25.0351708,
+        "lng": 121.5628669
+      },
+      "formattedAddress": "No. 2號, Songshou Rd, Xinyi District, Taipei City, Taiwan 110061"
+    },
+    {
+      "city": "Taipei",
+      "name": "리젠트 타이베이 호텔",
+      "oldCoordinates": {
+        "lat": 25.0521,
+        "lng": 121.5233
+      },
+      "newCoordinates": {
+        "lat": 25.054158,
+        "lng": 121.524288
+      },
+      "formattedAddress": "No. 3號, Lane 39, Section 2, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104"
+    },
+    {
+      "city": "Taipei",
+      "name": "코스모스 호텔 타이베이",
+      "oldCoordinates": {
+        "lat": 25.0478,
+        "lng": 121.517
+      },
+      "newCoordinates": {
+        "lat": 25.0463786,
+        "lng": 121.5182543
+      },
+      "formattedAddress": "100, Taiwan, Taipei City, Zhongzheng District, 忠孝西路一段43號"
+    },
+    {
+      "city": "Taipei",
+      "name": "소테츠 그랜드 프레사 타이베이",
+      "oldCoordinates": {
+        "lat": 25.0421,
+        "lng": 121.5075
+      },
+      "newCoordinates": {
+        "lat": 25.0329636,
+        "lng": 121.5654268
+      },
+      "formattedAddress": "Taipei City, Taiwan"
+    },
+    {
+      "city": "Taipei",
+      "name": "호텔 로얄 닛코 타이베이",
+      "oldCoordinates": {
+        "lat": 25.0627,
+        "lng": 121.5234
+      },
+      "newCoordinates": {
+        "lat": 25.053857,
+        "lng": 121.52291
+      },
+      "formattedAddress": "No. 37-1號, Section 2, Zhongshan N Rd, Zhongshan District, Taipei City, Taiwan 104"
+    },
+    {
+      "city": "Taipei",
+      "name": "유나이티드 호텔",
+      "oldCoordinates": {
+        "lat": 25.0513,
+        "lng": 121.5168
+      },
+      "newCoordinates": {
+        "lat": 25.0329636,
+        "lng": 121.5654268
+      },
+      "formattedAddress": "Taipei City, Taiwan"
+    },
+    {
+      "city": "Da Nang",
+      "name": "신라모노그램 다낭",
+      "oldCoordinates": {
+        "lat": 16.0401,
+        "lng": 108.25
+      },
+      "newCoordinates": {
+        "lat": 15.9629566,
+        "lng": 108.2889999
+      },
+      "formattedAddress": "Lạc Long Quân, Điện Ngọc, Điện Bàn, Quảng Nam, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "다낭 메리어트 리조트 & 스파",
+      "oldCoordinates": {
+        "lat": 16.0407,
+        "lng": 108.2498
+      },
+      "newCoordinates": {
+        "lat": 16.0544563,
+        "lng": 108.0717219
+      },
+      "formattedAddress": "Da Nang, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "라디슨 레드 다낭",
+      "oldCoordinates": {
+        "lat": 16.0398,
+        "lng": 108.2485
+      },
+      "newCoordinates": {
+        "lat": 16.0544563,
+        "lng": 108.0717219
+      },
+      "formattedAddress": "Da Nang, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "다이아몬드 씨 호텔 다낭",
+      "oldCoordinates": {
+        "lat": 16.0395,
+        "lng": 108.249
+      },
+      "newCoordinates": {
+        "lat": 16.0664686,
+        "lng": 108.2451072
+      },
+      "formattedAddress": "232 Võ Nguyên Giáp, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "골든 로터스 럭셔리 호텔 다낭",
+      "oldCoordinates": {
+        "lat": 16.0392,
+        "lng": 108.2488
+      },
+      "newCoordinates": {
+        "lat": 16.0523169,
+        "lng": 108.2466746
+      },
+      "formattedAddress": "198B Trần Bạch Đằng, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 50000, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "벨 메종 파로산드 다낭 호텔",
+      "oldCoordinates": {
+        "lat": 16.0403,
+        "lng": 108.2492
+      },
+      "newCoordinates": {
+        "lat": 16.0675871,
+        "lng": 108.2448052
+      },
+      "formattedAddress": "216 Võ Nguyên Giáp, An Hải, Sơn Trà, Đà Nẵng 550000, Vietnam"
+    },
+    {
+      "city": "Da Nang",
+      "name": "하이안 비치 호텔 & 스파",
+      "oldCoordinates": {
+        "lat": 16.0405,
+        "lng": 108.2495
+      },
+      "newCoordinates": {
+        "lat": 16.0530442,
+        "lng": 108.2475282
+      },
+      "formattedAddress": "278 Võ Nguyên Giáp, Bắc Mỹ Phú, Ngũ Hành Sơn, Đà Nẵng 550000, Vietnam"
+    },
+    {
+      "city": "Sapporo",
+      "name": "JR 타워 호텔 닛코 삿포로",
+      "oldCoordinates": {
+        "lat": 43.0686,
+        "lng": 141.3506
+      },
+      "newCoordinates": {
+        "lat": 43.0684388,
+        "lng": 141.3523648
+      },
+      "formattedAddress": "2 Chome Kita 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0005, Japan"
+    },
+    {
+      "city": "Sapporo",
+      "name": "인터컨티넨탈 삿포로",
+      "oldCoordinates": {
+        "lat": 43.0636,
+        "lng": 141.353
+      },
+      "newCoordinates": {
+        "lat": 43.0617713,
+        "lng": 141.3544506
+      },
+      "formattedAddress": "Sapporo, Hokkaido, Japan"
+    },
+    {
+      "city": "Sapporo",
+      "name": "호텔 소세이 삿포로 엠갤러리",
+      "oldCoordinates": {
+        "lat": 43.0627,
+        "lng": 141.3512
+      },
+      "newCoordinates": {
+        "lat": 43.0650191,
+        "lng": 141.3606067
+      },
+      "formattedAddress": "Higashi, Sapporo Factory West Hall, ３丁目 Kita 2 Jo, 中央区 札幌市 北海道 060-0032, Japan"
+    },
+    {
+      "city": "Sapporo",
+      "name": "그랑벨 호텔 삿포로",
+      "oldCoordinates": {
+        "lat": 43.0534,
+        "lng": 141.3582
+      },
+      "newCoordinates": {
+        "lat": 43.0550034,
+        "lng": 141.3565401
+      },
+      "formattedAddress": "Japan, 〒064-0805 Hokkaido, Sapporo, Chuo Ward, Minami 5 Jōnishi, 2-chōme−６−２"
+    },
+    {
+      "city": "Sapporo",
+      "name": "포르자 호텔 삿포로",
+      "oldCoordinates": {
+        "lat": 43.0692,
+        "lng": 141.351
+      },
+      "newCoordinates": {
+        "lat": 43.065455,
+        "lng": 141.3526763
+      },
+      "formattedAddress": "Japan, 〒060-0003 Hokkaido, Sapporo, Chuo Ward, Kita 3 Jōnishi, 2-chōme−１−１"
+    },
+    {
+      "city": "Sapporo",
+      "name": "도미인 프리미엄 삿포로",
+      "oldCoordinates": {
+        "lat": 43.057,
+        "lng": 141.354
+      },
+      "newCoordinates": {
+        "lat": 43.057061,
+        "lng": 141.34884
+      },
+      "formattedAddress": "6-chōme-4-1 Minami 2 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0062, Japan"
+    },
+    {
+      "city": "Sapporo",
+      "name": "크로스 호텔 삿포로",
+      "oldCoordinates": {
+        "lat": 43.062,
+        "lng": 141.351
+      },
+      "newCoordinates": {
+        "lat": 43.06404,
+        "lng": 141.3532757
+      },
+      "formattedAddress": "2-chōme-23 Kita 2 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0002, Japan"
+    },
+    {
+      "city": "Sapporo",
+      "name": "베셀 호텔 캄파나 스스키노",
+      "oldCoordinates": {
+        "lat": 43.054,
+        "lng": 141.357
+      },
+      "newCoordinates": {
+        "lat": 43.0542308,
+        "lng": 141.3492526
+      },
+      "formattedAddress": "6-chōme-16番地1 Minami 5 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0805, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "할레쿨라니 오키나와",
+      "oldCoordinates": {
+        "lat": 26.4985,
+        "lng": 127.854
+      },
+      "newCoordinates": {
+        "lat": 26.5265784,
+        "lng": 127.9231466
+      },
+      "formattedAddress": "1967-1 Nakama, Onna, Kunigami District, Okinawa 904-0401, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "호텔 몬토레 오키나와 스파 앤 리조트",
+      "oldCoordinates": {
+        "lat": 26.49,
+        "lng": 127.85
+      },
+      "newCoordinates": {
+        "lat": 26.4537478,
+        "lng": 127.8058024
+      },
+      "formattedAddress": "1550番地1 Fuchaku, Onna, Kunigami District, Okinawa 904-0413, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "더 부세나 테라스",
+      "oldCoordinates": {
+        "lat": 26.535,
+        "lng": 127.927
+      },
+      "newCoordinates": {
+        "lat": 26.5404329,
+        "lng": 127.9357986
+      },
+      "formattedAddress": "1808 Kise, Nago, Okinawa 905-0026, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "호텔 닛코 아리비라",
+      "oldCoordinates": {
+        "lat": 26.392,
+        "lng": 127.787
+      },
+      "newCoordinates": {
+        "lat": 26.4150328,
+        "lng": 127.7155444
+      },
+      "formattedAddress": "600 Gima, Yomitan, Nakagami District, Okinawa 904-0393, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "오리엔탈 호텔 오키나와",
+      "oldCoordinates": {
+        "lat": 26.56,
+        "lng": 127.932
+      },
+      "newCoordinates": {
+        "lat": 26.5301784,
+        "lng": 127.9339101
+      },
+      "formattedAddress": "1490-1 Kise, Nago, Okinawa 905-0026, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "서던 비치 호텔 앤 리조트",
+      "oldCoordinates": {
+        "lat": 26.198,
+        "lng": 127.678
+      },
+      "newCoordinates": {
+        "lat": 26.1320273,
+        "lng": 127.6529371
+      },
+      "formattedAddress": "1-chōme-6-1 Nishizakichō, Itoman, Okinawa 901-0306, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "히요리 오션 리조트",
+      "oldCoordinates": {
+        "lat": 26.492,
+        "lng": 127.852
+      },
+      "newCoordinates": {
+        "lat": 26.3343533,
+        "lng": 127.8056058
+      },
+      "formattedAddress": "Okinawa, Japan"
+    },
+    {
+      "city": "Okinawa",
+      "name": "호시노야 오키나와",
+      "oldCoordinates": {
+        "lat": 26.37,
+        "lng": 127.796
+      },
+      "newCoordinates": {
+        "lat": 26.4203689,
+        "lng": 127.7148038
+      },
+      "formattedAddress": "474 Gima, Yomitan, Nakagami District, Okinawa 904-0327, Japan"
+    },
+    {
+      "city": "Shanghai",
+      "name": "콘래드 상하이",
+      "oldCoordinates": {
+        "lat": 31.2407,
+        "lng": 121.492
+      },
+      "newCoordinates": {
+        "lat": 31.230416,
+        "lng": 121.473701
+      },
+      "formattedAddress": "Shanghai, China"
+    },
+    {
+      "city": "Shanghai",
+      "name": "시클루시브 호텔",
+      "oldCoordinates": {
+        "lat": 31.215,
+        "lng": 121.444
+      },
+      "newCoordinates": {
+        "lat": 31.230416,
+        "lng": 121.473701
+      },
+      "formattedAddress": "Shanghai, China"
+    },
+    {
+      "city": "Shanghai",
+      "name": "더 페닌슐라 상하이",
+      "oldCoordinates": {
+        "lat": 31.24,
+        "lng": 121.489
+      },
+      "newCoordinates": {
+        "lat": 31.230416,
+        "lng": 121.473701
+      },
+      "formattedAddress": "Shanghai, China"
+    },
+    {
+      "city": "Shanghai",
+      "name": "파크 하얏트 상하이",
+      "oldCoordinates": {
+        "lat": 31.238,
+        "lng": 121.501
+      },
+      "newCoordinates": {
+        "lat": 31.234732,
+        "lng": 121.50764
+      },
+      "formattedAddress": "100 Shi Ji Da Dao, Lujiazui, Pu Dong Xin Qu, Shang Hai Shi, China, 200120"
+    },
+    {
+      "city": "Shanghai",
+      "name": "페어몬트 피스 호텔",
+      "oldCoordinates": {
+        "lat": 31.235,
+        "lng": 121.473
+      },
+      "newCoordinates": {
+        "lat": 31.2390388,
+        "lng": 121.4895427
+      },
+      "formattedAddress": "20 Nan Jing Dong Lu, Waitan, Huang Pu Qu, Shang Hai Shi, China, 200002"
+    },
+    {
+      "city": "Shanghai",
+      "name": "푸시 인터컨티넨탈",
+      "oldCoordinates": {
+        "lat": 31.242,
+        "lng": 121.491
+      },
+      "newCoordinates": {
+        "lat": 31.230416,
+        "lng": 121.473701
+      },
+      "formattedAddress": "Shanghai, China"
+    },
+    {
+      "city": "Bangkok",
+      "name": "파크 하얏트 방콕",
+      "oldCoordinates": {
+        "lat": 13.7563,
+        "lng": 100.541
+      },
+      "newCoordinates": {
+        "lat": 13.743764,
+        "lng": 100.54729
+      },
+      "formattedAddress": "Central Embassy, 88 Thanon Witthayu, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "페닌슐라 방콕",
+      "oldCoordinates": {
+        "lat": 13.721,
+        "lng": 100.511
+      },
+      "newCoordinates": {
+        "lat": 13.7231212,
+        "lng": 100.5108006
+      },
+      "formattedAddress": "333 Charoen Nakhon Rd, Khwaeng Khlong Ton Sai, Khet Khlong San, Krung Thep Maha Nakhon 10600, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "시암 켐핀스키",
+      "oldCoordinates": {
+        "lat": 13.7465,
+        "lng": 100.535
+      },
+      "newCoordinates": {
+        "lat": 13.7484011,
+        "lng": 100.5348436
+      },
+      "formattedAddress": "991, 9 Rama I Rd, Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "하얏트 플레이스 수쿰윗",
+      "oldCoordinates": {
+        "lat": 13.7321,
+        "lng": 100.5563
+      },
+      "newCoordinates": {
+        "lat": 13.7563309,
+        "lng": 100.5017651
+      },
+      "formattedAddress": "Bangkok, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "목시 방콕 라차프라송",
+      "oldCoordinates": {
+        "lat": 13.7453,
+        "lng": 100.5387
+      },
+      "newCoordinates": {
+        "lat": 13.7563309,
+        "lng": 100.5017651
+      },
+      "formattedAddress": "Bangkok, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "그랜드 센터 포인트 룸피니",
+      "oldCoordinates": {
+        "lat": 13.7305,
+        "lng": 100.542
+      },
+      "newCoordinates": {
+        "lat": 13.7245888,
+        "lng": 100.5475271
+      },
+      "formattedAddress": "1188 Thanon Rama IV, Khwaeng Thung Maha Mek, Khet Sathon, Krung Thep Maha Nakhon 10120, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "머큐어 방콕 수라웡",
+      "oldCoordinates": {
+        "lat": 13.721,
+        "lng": 100.529
+      },
+      "newCoordinates": {
+        "lat": 13.7273198,
+        "lng": 100.522248
+      },
+      "formattedAddress": "262 Surawong Rd, Khwaeng Si Phraya, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand"
+    },
+    {
+      "city": "Bangkok",
+      "name": "인터컨티넨탈 수쿰윗 59",
+      "oldCoordinates": {
+        "lat": 13.726,
+        "lng": 100.582
+      },
+      "newCoordinates": {
+        "lat": 13.7563309,
+        "lng": 100.5017651
+      },
+      "formattedAddress": "Bangkok, Thailand"
+    },
+    {
+      "city": "Bali",
+      "name": "디 아푸르바 켐핀스키",
+      "oldCoordinates": {
+        "lat": -8.805,
+        "lng": 115.226
+      },
+      "newCoordinates": {
+        "lat": -8.4095178,
+        "lng": 115.188916
+      },
+      "formattedAddress": "Bali, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "소피텔 발리 누사두아",
+      "oldCoordinates": {
+        "lat": -8.8,
+        "lng": 115.23
+      },
+      "newCoordinates": {
+        "lat": -8.7916892,
+        "lng": 115.2299236
+      },
+      "formattedAddress": "Itdc Tourism Complex, Jl. Nusa Dua Lot N5, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80363, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "만다파 리츠칼튼 리저브",
+      "oldCoordinates": {
+        "lat": -8.5104,
+        "lng": 115.262
+      },
+      "newCoordinates": {
+        "lat": -8.3405389,
+        "lng": 115.0919509
+      },
+      "formattedAddress": "Bali, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "세인트 레지스 발리",
+      "oldCoordinates": {
+        "lat": -8.802,
+        "lng": 115.228
+      },
+      "newCoordinates": {
+        "lat": -8.8128275,
+        "lng": 115.2264772
+      },
+      "formattedAddress": "Jl. Raya Nusa Dua Selatan, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80363, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "포시즌스 사얀",
+      "oldCoordinates": {
+        "lat": -8.5,
+        "lng": 115.255
+      },
+      "newCoordinates": {
+        "lat": -8.5003995,
+        "lng": 115.2415196
+      },
+      "formattedAddress": "Jl. Raya Sayan, Sayan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "우마나 발리 LXR",
+      "oldCoordinates": {
+        "lat": -8.84,
+        "lng": 115.12
+      },
+      "newCoordinates": {
+        "lat": -8.3405389,
+        "lng": 115.0919509
+      },
+      "formattedAddress": "Bali, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "아야나 리조트 앤 스파",
+      "oldCoordinates": {
+        "lat": -8.797,
+        "lng": 115.162
+      },
+      "newCoordinates": {
+        "lat": -8.7862171,
+        "lng": 115.1392725
+      },
+      "formattedAddress": "647Q+GP, Jimbaran, South Kuta, Badung Regency, Bali, Indonesia"
+    },
+    {
+      "city": "Bali",
+      "name": "힐튼 발리 리조트",
+      "oldCoordinates": {
+        "lat": -8.804,
+        "lng": 115.229
+      },
+      "newCoordinates": {
+        "lat": -8.8256848,
+        "lng": 115.2186745
+      },
+      "formattedAddress": "Jl. Raya Nusa Dua Selatan, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80361, Indonesia"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "알마 리조트",
+      "oldCoordinates": {
+        "lat": 12.178,
+        "lng": 109.197
+      },
+      "newCoordinates": {
+        "lat": 12.2941855,
+        "lng": 109.229089
+      },
+      "formattedAddress": "Phạm Văn Đồng, Đường Đệ, Nha Trang, Khánh Hòa, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "그란 멜리아 나트랑",
+      "oldCoordinates": {
+        "lat": 12.268,
+        "lng": 109.192
+      },
+      "newCoordinates": {
+        "lat": 12.076636,
+        "lng": 109.192766
+      },
+      "formattedAddress": "Lô D6B2 - D7A1, Cam Hải Đông, Cam Lâm, Khánh Hòa 650000, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "아미아나 리조트 나트랑",
+      "oldCoordinates": {
+        "lat": 12.3043,
+        "lng": 109.2118
+      },
+      "newCoordinates": {
+        "lat": 12.295209,
+        "lng": 109.2338719
+      },
+      "formattedAddress": "Phạm Văn Đồng, Tổ 14, Nha Trang, Khánh Hòa 650000, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "아미아나 리조트 깜란",
+      "oldCoordinates": {
+        "lat": 12.0155,
+        "lng": 109.1645
+      },
+      "newCoordinates": {
+        "lat": 12.1050356,
+        "lng": 109.1912295
+      },
+      "formattedAddress": "Lô D2C - Khu 1 - Khu Du Lịch Bắc Bán Đảo Cam Ranh, Cam Hải Đông, Cam Lâm, Khánh Hòa 57600, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "빈펄 리조트",
+      "oldCoordinates": {
+        "lat": 12.22,
+        "lng": 109.195
+      },
+      "newCoordinates": {
+        "lat": 12.220935,
+        "lng": 109.2473572
+      },
+      "formattedAddress": "Đảo Hòn Tre, Vĩnh Nguyên, Nha Trang, Khánh Hòa 65000, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "하바나 나트랑 호텔",
+      "oldCoordinates": {
+        "lat": 12.248,
+        "lng": 109.194
+      },
+      "newCoordinates": {
+        "lat": 12.2433961,
+        "lng": 109.195842
+      },
+      "formattedAddress": "38 Trần Phú, Lộc Thọ, Khánh Hòa, 650000, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "퓨전 리조트 깜 라인",
+      "oldCoordinates": {
+        "lat": 12.132,
+        "lng": 109.191
+      },
+      "newCoordinates": {
+        "lat": 12.0500142,
+        "lng": 109.2040205
+      },
+      "formattedAddress": "Lot D10B, Nguyễn Tất Thành, Street Bãi Đông, Cam Lâm, Khánh Hòa 650000, Vietnam"
+    },
+    {
+      "city": "Nha Trang",
+      "name": "식스센스 닌반 베이",
+      "oldCoordinates": {
+        "lat": 12.37,
+        "lng": 109.13
+      },
+      "newCoordinates": {
+        "lat": 12.3589397,
+        "lng": 109.2776855
+      },
+      "formattedAddress": "Ninh Phước, Ninh Hoa, Khánh Hòa, Vietnam"
+    },
+    {
+      "city": "Cebu",
+      "name": "샹그릴라 막탄",
+      "oldCoordinates": {
+        "lat": 10.307,
+        "lng": 123.949
+      },
+      "newCoordinates": {
+        "lat": 10.3081301,
+        "lng": 124.0200301
+      },
+      "formattedAddress": "Punta Engaño Rd, Lapu-Lapu City, Cebu, 6015 Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "크림슨 리조트 앤 스파",
+      "oldCoordinates": {
+        "lat": 10.292,
+        "lng": 123.963
+      },
+      "newCoordinates": {
+        "lat": 10.2966371,
+        "lng": 124.0140605
+      },
+      "formattedAddress": "Seascapes Resort Town Mactan Island, Lapu-Lapu, 6015 Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "제이파크 아일랜드 리조트",
+      "oldCoordinates": {
+        "lat": 10.305,
+        "lng": 123.951
+      },
+      "newCoordinates": {
+        "lat": 10.282778,
+        "lng": 123.9955854
+      },
+      "formattedAddress": "M.L. Quezon National Highway, Maribago, Lapu-Lapu, Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "뫼벤픽 호텔 막탄",
+      "oldCoordinates": {
+        "lat": 10.301,
+        "lng": 123.952
+      },
+      "newCoordinates": {
+        "lat": 10.3105249,
+        "lng": 124.0234039
+      },
+      "formattedAddress": "Mactan Island, Punta Engaño Rd, Lapu-Lapu, 6015 Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "블루워터 마리바고",
+      "oldCoordinates": {
+        "lat": 10.298,
+        "lng": 123.954
+      },
+      "newCoordinates": {
+        "lat": 10.2867261,
+        "lng": 124.0011428
+      },
+      "formattedAddress": "72P2+MFR Bluewater Garden, Maribago, Lapu-Lapu, Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "두짓 타니 막탄",
+      "oldCoordinates": {
+        "lat": 10.304,
+        "lng": 123.95
+      },
+      "newCoordinates": {
+        "lat": 10.3303929,
+        "lng": 124.0393159
+      },
+      "formattedAddress": "Punta Engaño Rd, Mactan Island, Lapu-Lapu, 6015 Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "바이 호텔 세부",
+      "oldCoordinates": {
+        "lat": 10.3167,
+        "lng": 123.9103
+      },
+      "newCoordinates": {
+        "lat": 10.3118418,
+        "lng": 123.9212061
+      },
+      "formattedAddress": "North Reclamation Area, Kaohsiung St, Cebu City, 6000 Cebu, Philippines"
+    },
+    {
+      "city": "Cebu",
+      "name": "플랜테이션 베이",
+      "oldCoordinates": {
+        "lat": 10.295,
+        "lng": 123.955
+      },
+      "newCoordinates": {
+        "lat": 10.2605254,
+        "lng": 123.9828074
+      },
+      "formattedAddress": "Marigondon, Mactan Island, Lapu-Lapu, 6015 Cebu, Philippines"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "센사이 호텔 님만",
+      "oldCoordinates": {
+        "lat": 18.802,
+        "lng": 98.9677
+      },
+      "newCoordinates": {
+        "lat": 18.795158,
+        "lng": 98.968226
+      },
+      "formattedAddress": "19 Nimmanahaeminda Road, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "아난타라 치앙마이",
+      "oldCoordinates": {
+        "lat": 18.7877,
+        "lng": 98.9932
+      },
+      "newCoordinates": {
+        "lat": 18.7815954,
+        "lng": 99.003714
+      },
+      "formattedAddress": "123, 1 Charoen Prathet Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "부리라타나 호텔",
+      "oldCoordinates": {
+        "lat": 18.791,
+        "lng": 98.995
+      },
+      "newCoordinates": {
+        "lat": 18.7879397,
+        "lng": 98.9887655
+      },
+      "formattedAddress": "115 1-5 Rachadamnoen Rd, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "멜리아 치앙마이",
+      "oldCoordinates": {
+        "lat": 18.782,
+        "lng": 99.003
+      },
+      "newCoordinates": {
+        "lat": 18.7852997,
+        "lng": 99.0027877
+      },
+      "formattedAddress": "46, 48 Charoen Prathet Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "라야 헤리티지",
+      "oldCoordinates": {
+        "lat": 18.777,
+        "lng": 98.982
+      },
+      "newCoordinates": {
+        "lat": 18.8486074,
+        "lng": 98.98525769999999
+      },
+      "formattedAddress": "157, Tambon Don Kaeo, Amphoe Mae Rim, Chang Wat Chiang Mai 50180, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "크로스 치앙마이 리버사이드",
+      "oldCoordinates": {
+        "lat": 18.785,
+        "lng": 98.99
+      },
+      "newCoordinates": {
+        "lat": 18.7661385,
+        "lng": 99.0048216
+      },
+      "formattedAddress": "318, ตําบล, 1 Thanon Chiang Mai-Lamphun, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000, Thailand"
+    },
+    {
+      "city": "Chiang Mai",
+      "name": "포시즌스 리조트",
+      "oldCoordinates": {
+        "lat": 18.868,
+        "lng": 98.926
+      },
+      "newCoordinates": {
+        "lat": 18.7883439,
+        "lng": 98.98530079999999
+      },
+      "formattedAddress": "Chiang Mai, Mueang Chiang Mai District, Chiang Mai, Thailand"
+    },
+    {
+      "city": "Guam",
+      "name": "더 츠바키 타워",
+      "oldCoordinates": {
+        "lat": 13.5126,
+        "lng": 144.8014
+      },
+      "newCoordinates": {
+        "lat": 13.5216166,
+        "lng": 144.8058334
+      },
+      "formattedAddress": "241 Gun Beach Road 27 th floor, Tumon, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "두짓타니 괌",
+      "oldCoordinates": {
+        "lat": 13.515,
+        "lng": 144.803
+      },
+      "newCoordinates": {
+        "lat": 13.5137475,
+        "lng": 144.8051339
+      },
+      "formattedAddress": "1227 Pale San Vitores Rd, Tumon, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "호텔 닛코 괌",
+      "oldCoordinates": {
+        "lat": 13.529,
+        "lng": 144.817
+      },
+      "newCoordinates": {
+        "lat": 13.5219545,
+        "lng": 144.8048848
+      },
+      "formattedAddress": "245 Gun Beach Road, Tumon, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "하얏트 리젠시 괌",
+      "oldCoordinates": {
+        "lat": 13.513,
+        "lng": 144.802
+      },
+      "newCoordinates": {
+        "lat": 13.5121598,
+        "lng": 144.8043393
+      },
+      "formattedAddress": "1155 Pale San Vitores Road Tumon, 4206, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "롯데호텔 괌",
+      "oldCoordinates": {
+        "lat": 13.511,
+        "lng": 144.799
+      },
+      "newCoordinates": {
+        "lat": 13.5201894,
+        "lng": 144.8072708
+      },
+      "formattedAddress": "185 Gun Beach Road, Tumon, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "괌 리프 호텔",
+      "oldCoordinates": {
+        "lat": 13.514,
+        "lng": 144.801
+      },
+      "newCoordinates": {
+        "lat": 13.516843,
+        "lng": 144.806098
+      },
+      "formattedAddress": "1317 Pale San Vitores Rd, Tumon, 96913, Guam"
+    },
+    {
+      "city": "Guam",
+      "name": "호텔 타노 괌",
+      "oldCoordinates": {
+        "lat": 13.512,
+        "lng": 144.8
+      },
+      "newCoordinates": {
+        "lat": 13.3823791,
+        "lng": 144.6972774
+      },
+      "formattedAddress": "Guam"
+    },
+    {
+      "city": "Paris",
+      "name": "르 브리스톨 파리",
+      "oldCoordinates": {
+        "lat": 48.8706,
+        "lng": 2.316
+      },
+      "newCoordinates": {
+        "lat": 48.87168639999999,
+        "lng": 2.3147996
+      },
+      "formattedAddress": "112 Rue du Faubourg Saint-Honoré, 75008 Paris, France"
+    },
+    {
+      "city": "Paris",
+      "name": "호텔 르 들뤼스",
+      "oldCoordinates": {
+        "lat": 48.8606,
+        "lng": 2.3418
+      },
+      "newCoordinates": {
+        "lat": 48.8575475,
+        "lng": 2.3513765
+      },
+      "formattedAddress": "Paris, France"
+    },
+    {
+      "city": "Paris",
+      "name": "풀먼 파리 투르 에펠",
+      "oldCoordinates": {
+        "lat": 48.8556,
+        "lng": 2.2986
+      },
+      "newCoordinates": {
+        "lat": 48.8556488,
+        "lng": 2.2928584
+      },
+      "formattedAddress": "18 Avenue De Suffren, 22 Rue Jean Rey Entrée Au, 75015 Paris, France"
+    },
+    {
+      "city": "Paris",
+      "name": "이비스 파리 에펠 타워",
+      "oldCoordinates": {
+        "lat": 48.85,
+        "lng": 2.301
+      },
+      "newCoordinates": {
+        "lat": 48.85837009999999,
+        "lng": 2.2944813
+      },
+      "formattedAddress": "Av. Gustave Eiffel, 75007 Paris, France"
+    },
+    {
+      "city": "Paris",
+      "name": "호텔 R 드 파리",
+      "oldCoordinates": {
+        "lat": 48.876,
+        "lng": 2.326
+      },
+      "newCoordinates": {
+        "lat": 48.879942,
+        "lng": 2.329001
+      },
+      "formattedAddress": "41 Rue de Clichy, 75009 Paris, France"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "city": "Osaka",
+      "name": "센타라 그랜드 호텔 오사카",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "스위소텔 난카이 오사카",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "호텔 한큐 리스파이어 오사카",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "더 파크 프론트 호텔 앳 유니버설 스튜디오 재팬",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "호텔 뉴 오타니 오사카",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "포시즌스 호텔 오사카",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "칸데오 호텔 오사카 더 타워",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "카락사 호텔 오사카 난바",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Osaka",
+      "name": "호텔 유니버설 포트",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Fukuoka",
+      "name": "힐튼 후쿠오카 씨 호크",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Da Nang",
+      "name": "풀먼 다낭 비치 리조트",
+      "reason": "coordinates_match"
+    },
+    {
+      "city": "Paris",
+      "name": "리츠 파리",
+      "reason": "coordinates_match"
+    }
+  ]
+}
