@@ -1,11 +1,16 @@
 import { Hotel } from "lucide-react";
 import { BaseCard } from "./BaseCard";
-import { useState } from "react";
 
-export function HotelCard({ card, ...props }: any) {
-  // 💥 [수정됨] bg-rose-500 -> bg-rose-400 (채도 낮춤)
+export function HotelCard({ card, onUpdateCard, ...props }: any) {
   const displayTags = card.tags?.slice(0, 3) || [];
-  const [showCheckOut, setShowCheckOut] = useState(false);
+  const showCheckOut = card.showCheckOut || false;
+
+  const handleToggle = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (onUpdateCard) {
+      onUpdateCard({ showCheckOut: !showCheckOut });
+    }
+  };
 
   return (
     <BaseCard {...props} colorClass="bg-rose-400" icon={Hotel} category={card.accommodationType === 'resort' ? 'Resort' : 'Hotel'} className="h-[72px]">
@@ -14,10 +19,7 @@ export function HotelCard({ card, ...props }: any) {
         <div className="flex items-center gap-2 mt-0.5">
           <span
             className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100 cursor-pointer hover:bg-rose-100 transition-colors"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowCheckOut(!showCheckOut);
-            }}
+            onClick={handleToggle}
           >
             {showCheckOut ? 'Check-out' : 'Check-in'}
           </span>

@@ -236,7 +236,7 @@ export function renderCardInternal(card: any, props: any = {}) {
 }
 
 export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any, onRemove?: () => void, variant?: 'default' | 'compact', isHeader?: boolean }) {
-  const { toggleVote } = useCardMutations();
+  const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
 
   const {
@@ -261,6 +261,10 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
   const handleVoteToggle = (cardId: string) => {
     if (!userId) return; // Skip if userId not yet loaded
     toggleVote({ cardId, userId });
+  };
+
+  const handleUpdateCard = (updates: Record<string, any>) => {
+    updateCard({ cardId: card.id, updates });
   };
 
   if (isDragging) {
@@ -288,6 +292,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
     onRemove,
     variant,
     onVoteToggle: handleVoteToggle,
+    onUpdateCard: handleUpdateCard,
     isHeader
   });
 }

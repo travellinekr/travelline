@@ -19,14 +19,15 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
     { id: 'destination', label: '여행지', icon: MapPin },
     // { id: 'flight', label: '항공', icon: Plane },
     { id: 'preparation', label: '여행준비', icon: CheckSquare },
+    { id: 'hotel', label: '숙소', icon: Hotel },
   ];
 
   const bottomTabs = [
-    { id: 'hotel', label: '숙소', icon: Hotel },
     { id: 'food', label: '맛집', icon: Utensils },
     { id: 'shopping', label: '쇼핑', icon: ShoppingBag },
     { id: 'transport', label: '교통', icon: Bus },
     { id: 'tourspa', label: '투어&스파', icon: Palmtree },
+    { id: 'other', label: '기타', icon: Plus },
   ];
 
   const renderTab = (tab: any) => {

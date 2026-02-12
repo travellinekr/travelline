@@ -36,7 +36,14 @@ export function TourSpaCard({ card, ...props }: any) {
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{tourSpaName}</h4>
                 </div>
                 <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-                    {card.description && (
+                    {/* 주소 표시 (최우선) */}
+                    {card.address && (
+                        <span className="text-[11px] text-gray-600 truncate">
+                            {card.address}
+                        </span>
+                    )}
+                    {/* 주소가 없으면 설명 표시 */}
+                    {!card.address && card.description && (
                         <span className="text-[11px] text-gray-600 truncate">
                             {card.description}
                         </span>

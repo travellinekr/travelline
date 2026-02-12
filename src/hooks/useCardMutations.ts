@@ -314,6 +314,17 @@ export function useCardMutations() {
         card.set("votes", votesArray);
     }, []);
 
+    const updateCard = useMutation(({ storage }, { cardId, updates }: { cardId: string; updates: Record<string, any> }) => {
+        const cards = storage.get("cards") as any;
+        const card = cards.get(cardId);
+        if (!card) return;
+
+        // 카드의 필드들을 업데이트
+        Object.keys(updates).forEach(key => {
+            card.set(key, updates[key]);
+        });
+    }, []);
+
     return {
         reorderCard,
         copyCardToTimeline,
@@ -321,6 +332,7 @@ export function useCardMutations() {
         moveCard,
         createCard,
         createCardToColumn,
-        toggleVote
+        toggleVote,
+        updateCard
     };
 }

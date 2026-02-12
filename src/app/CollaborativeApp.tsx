@@ -375,10 +375,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             console.log('🗑️ [TourSpa Delete] 카드 삭제 시작:', activeId);
 
             // 카드가 어느 컬럼에 있는지 찾기
-            let foundColumnId = null;
+            let foundColumnId: string | null = null;
             if (columns) {
                 for (const col of (columns as any).values()) {
-                    const list = col.get("cardIds");
+                    const list = col.cardIds;  // col.get("cardIds") 대신 직접 접근
                     const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
                     if (cardIdsArray.includes(activeId)) {
                         foundColumnId = col.id;
