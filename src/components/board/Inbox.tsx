@@ -1,9 +1,13 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo } from "react";
 import { DestinationPicker } from "./DestinationPicker";
 import { AccommodationPicker } from "./AccommodationPicker";
+import { TransportationPicker } from "./TransportationPicker";
+import { FoodPicker } from "./FoodPicker";
+import { ShoppingPicker } from "./ShoppingPicker";
+import { TourSpaPicker } from "./TourSpaPicker";
 
 export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard }: any) {
 
@@ -22,6 +26,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
     { id: 'food', label: '맛집', icon: Utensils },
     { id: 'shopping', label: '쇼핑', icon: ShoppingBag },
     { id: 'transport', label: '교통', icon: Bus },
+    { id: 'tourspa', label: '투어&스파', icon: Palmtree },
   ];
 
   const renderTab = (tab: any) => {
@@ -83,6 +88,25 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
             <>
               <AccommodationPicker destinationCity={destinationCard?.city} />
             </>
+          ) : activeCategory === 'transport' ? (
+            <>
+              <TransportationPicker destinationCity={destinationCard?.city} />
+            </>
+          ) : activeCategory === 'food' ? (
+            <>
+              <FoodPicker destinationCity={destinationCard?.city} />
+            </>
+          ) : activeCategory === 'shopping' ? (
+            <>
+              <ShoppingPicker destinationCity={destinationCard?.city} />
+            </>
+          ) : activeCategory === 'tourspa' ? (
+            <TourSpaPicker
+              destinationCity={destinationCard?.city}
+              onAddCard={onCreateCard}
+              onDeleteCard={onRemoveCard}
+              createdCards={filteredCards}
+            />
           ) : (
             <>
               {filteredCards.length === 0 && !isOver ? (

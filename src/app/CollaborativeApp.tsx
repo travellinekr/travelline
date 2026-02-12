@@ -17,6 +17,9 @@ import { Timeline } from "../components/board/Timeline";
 import { DraggableCard, renderCardInternal } from "../components/board/DraggableCard";
 import { BaseCard } from "../components/board/cards/BaseCard";
 import { TransportCard } from "../components/board/cards/TransportCard";
+import { FoodCard } from "../components/board/cards/FoodCard";
+import { ShoppingCard } from "../components/board/cards/ShoppingCard";
+import { TourSpaCard } from "../components/board/cards/TourSpaCard";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
@@ -82,6 +85,22 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     });
 
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
+
+    // createCard wrapper for debugging
+    const handleCreateCard = (data: any) => {
+        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+        console.log('📍 [4단계] CollaborativeApp → createCard mutation');
+        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+        console.log('받은 데이터:', JSON.stringify(data, null, 2));
+
+        try {
+            createCard(data);
+            console.log('✅ createCard 호출 완료');
+        } catch (error) {
+            console.error('❌ createCard 에러:', error);
+        }
+    };
+
 
     // Cleanup mutation: removes flight info and all Day 1+ columns when destination is removed
     const cleanupFlightAndDays = useMutation(({ storage }) => {
@@ -327,6 +346,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragEnd = (event: any) => {
         const { active, over } = event;
 
+        console.log('🎯 [handleDragEnd] Called with:', { activeId: active?.id, overId: over?.id });
+
         setActiveDragItem(null);
 
         if (!over || !columns) return;
@@ -349,6 +370,33 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             targetColumnId = String(overId).replace('-timeline', '');
         } else if (overId === 'inbox-dropzone') {
             targetColumnId = 'inbox';
+        } else if (overId === 'tourspa-delete-zone') {
+            // 투어&스파 삭제 영역에 드롭하면 카드 삭제
+            console.log('🗑️ [TourSpa Delete] 카드 삭제 시작:', activeId);
+
+            // 카드가 어느 컬럼에 있는지 찾기
+            let foundColumnId = null;
+            if (columns) {
+                for (const col of (columns as any).values()) {
+                    const list = col.get("cardIds");
+                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
+                    if (cardIdsArray.includes(activeId)) {
+                        foundColumnId = col.id;
+                        console.log('🔍 카드를 찾았습니다. Column:', foundColumnId);
+                        break;
+                    }
+                }
+            }
+
+            if (foundColumnId) {
+                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+                console.log('✅ 카드 삭제 완료');
+            } else {
+                console.warn('⚠️ 카드를 찾을 수 없습니다:', activeId);
+            }
+
+            setActiveDragItem(null);
+            return;
         } else {
             for (const col of (columns as any).values()) {
                 const list = col.cardIds;
@@ -494,6 +542,88 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                     features: draggedCard.features,
                     appRequired: draggedCard.appRequired,
                     appName: draggedCard.appName,
+                    icon: draggedCard.icon,
+                    targetColumnId: targetColumnId,
+                    targetIndex: finalTargetIndex
+                });
+
+                return;
+            }
+
+            // Food Picker 카드 → Day 컬럼 (day1, day2, ...)
+            if (draggedCard?.category === 'food' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+                const targetCol = (columns as any).get(targetColumnId);
+                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+
+                createCardToColumn({
+                    title: draggedCard.title,
+                    category: draggedCard.category,
+                    restaurantType: draggedCard.restaurantType,
+                    city: draggedCard.city,
+                    coordinates: draggedCard.coordinates,
+                    cuisine: draggedCard.cuisine,
+                    specialty: draggedCard.specialty,
+                    priceRange: draggedCard.priceRange,
+                    michelin: draggedCard.michelin,
+                    reservation: draggedCard.reservation,
+                    openingHours: draggedCard.openingHours,
+                    features: draggedCard.features,
+                    icon: draggedCard.icon,
+                    description: draggedCard.description,
+                    targetColumnId: targetColumnId,
+                    targetIndex: finalTargetIndex
+                });
+
+                return;
+            }
+
+            // Shopping Picker 카드 → Day 컬럼 (day1, day2, ...)
+            if (draggedCard?.category === 'shopping' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+                const targetCol = (columns as any).get(targetColumnId);
+                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+
+                createCardToColumn({
+                    title: draggedCard.title,
+                    category: draggedCard.category,
+                    shoppingType: draggedCard.shoppingType,
+                    city: draggedCard.city,
+                    coordinates: draggedCard.coordinates,
+                    shoppingCategory: draggedCard.shoppingCategory,
+                    specialItems: draggedCard.specialItems,
+                    priceRange: draggedCard.priceRange,
+                    openingHours: draggedCard.openingHours,
+                    taxRefund: draggedCard.taxRefund,
+                    features: draggedCard.features,
+                    icon: draggedCard.icon,
+                    description: draggedCard.description,
+                    targetColumnId: targetColumnId,
+                    targetIndex: finalTargetIndex
+                });
+
+                return;
+            }
+
+            // TourSpa Picker 카드 → Day 컬럼 (day1, day2, ...)
+            if (draggedCard?.category === 'tourspa' && /^day[1-9]\d*$/.test(targetColumnId)) {
+                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+                const targetCol = (columns as any).get(targetColumnId);
+                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+
+                createCardToColumn({
+                    title: draggedCard.title,
+                    category: draggedCard.category,
+                    tourSpaType: draggedCard.tourSpaType,
+                    description: draggedCard.description,
+                    duration: draggedCard.duration,
+                    priceRange: draggedCard.priceRange,
+                    pickupAvailable: draggedCard.pickupAvailable,
+                    coordinates: draggedCard.coordinates,
+                    reservationRequired: draggedCard.reservationRequired,
+                    openingHours: draggedCard.openingHours,
+                    features: draggedCard.features,
+                    rating: draggedCard.rating,
                     icon: draggedCard.icon,
                     targetColumnId: targetColumnId,
                     targetIndex: finalTargetIndex
@@ -667,7 +797,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     if (!columns || !cards) return <LoadingSkeleton />;
 
-    const inboxCards = useMemo(() => (columns as any).get("inbox")?.cardIds.map((id: string) => (cards as any).get(id)).filter(Boolean) || [], [columns, cards]);
+    // useStorage로 직접 inboxCards를 가져와서 반응형 업데이트 활성화
+    const inboxCards = useStorage((root) => {
+        const inboxCol = (root.columns as any)?.get("inbox");
+        if (!inboxCol) return [];
+
+        const cardIds = inboxCol.cardIds || [];
+        return cardIds.map((id: string) => (root.cards as any)?.get(id)).filter(Boolean);
+    });
 
 
 
@@ -823,7 +960,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             activeCategory={activeCategory}
                                             setActiveCategory={setActiveCategory}
                                             activeDragItem={activeDragItem}
-                                            onCreateCard={createCard}
+                                            onCreateCard={handleCreateCard}
                                             onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
                                             destinationCard={destinationCard}
                                         />
@@ -872,6 +1009,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     // Transport Picker 카드: TransportCard 스타일
                                     <div className="w-full max-w-md">
                                         <TransportCard card={activeDragItem} className="shadow-xl" />
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-food-') ? (
+                                    // Food Picker 카드: FoodCard 스타일
+                                    <div className="w-full max-w-md">
+                                        <FoodCard card={activeDragItem} className="shadow-xl" />
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-shopping-') ? (
+                                    // Shopping Picker 카드: ShoppingCard 스타일
+                                    <div className="w-full max-w-md">
+                                        <ShoppingCard card={activeDragItem} className="shadow-xl" />
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-tourspa-') ? (
+                                    // TourSpa Picker 카드: TourSpaCard 스타일
+                                    <div className="w-full max-w-md">
+                                        <TourSpaCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-') ? (
                                     // Destination Picker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
