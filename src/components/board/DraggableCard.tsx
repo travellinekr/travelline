@@ -8,6 +8,8 @@ import { HotelCard } from "./cards/HotelCard";
 import { FoodCard } from "./cards/FoodCard";
 import { PreparationCard } from "./cards/PreparationCard";
 import { ShoppingCard } from "./cards/ShoppingCard";
+import { TourSpaCard } from "./cards/TourSpaCard";
+import { TransportCard } from "./cards/TransportCard";
 import { DefaultCard } from "./cards/DefaultCard";
 import { useCardMutations } from "@/hooks/useCardMutations";
 
@@ -227,6 +229,8 @@ export function renderCardInternal(card: any, props: any = {}) {
     case 'flight': return <FlightCard key={card.id} card={card} {...props} />;
     case 'hotel': return <HotelCard key={card.id} card={card} {...props} />;
     case 'food': return <FoodCard key={card.id} card={card} {...props} />;
+    case 'tourspa': return <TourSpaCard key={card.id} card={card} {...props} />;
+    case 'transport': return <TransportCard key={card.id} card={card} {...props} />;
     default: return <DefaultCard key={card.id} card={card} {...props} />;
   }
 }
