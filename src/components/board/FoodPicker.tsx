@@ -29,6 +29,69 @@ function getRestaurantsByCity(cityName: string) {
     return cityKey ? RESTAURANTS_DATA[cityKey] : [];
 }
 
+// 드래그 가능한 호텔 조식 카드 컴포넌트
+function DraggableHotelBreakfastCard() {
+    const cardData = {
+        id: 'picker-hotel-breakfast',
+        title: '호텔&리조트 조식',
+        category: 'food' as const,
+        restaurantType: 'local',
+        icon: '🏨',
+        specialty: '숙소 조식 포함',
+        description: '호텔 또는 리조트 조식',
+    };
+
+    const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+        id: 'picker-hotel-breakfast',
+        data: cardData,
+    });
+
+    const style = transform ? {
+        transform: CSS.Translate.toString(transform),
+    } : undefined;
+
+    // 드래그 중일 때 빈 placeholder 표시
+    if (isDragging) {
+        return (
+            <div
+                ref={setNodeRef}
+                className="w-full h-[72px] border-2 border-dashed border-orange-300 bg-orange-50/50 rounded-lg"
+            />
+        );
+    }
+
+    return (
+        <div
+            ref={setNodeRef}
+            style={style}
+            {...listeners}
+            {...attributes}
+            className="cursor-grab active:cursor-grabbing"
+        >
+            <BaseCard
+                colorClass="bg-orange-400"
+                icon={Utensils}
+                category="호텔 조식"
+                className="h-[72px]"
+            >
+                <div className="flex flex-col justify-center w-full">
+                    <div className="flex items-center gap-2">
+                        <span className="text-base">🏨</span>
+                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
+                            호텔&리조트 조식
+                        </h4>
+                    </div>
+                    <div className="flex items-center gap-2 mt-0.5 flex-wrap">
+                        <span className="text-[11px] text-gray-600 truncate">
+                            숙소 조식 포함
+                        </span>
+                    </div>
+                </div>
+            </BaseCard>
+        </div>
+    );
+}
+
 // 드래그 가능한 맛집 카드 컴포넌트
 function DraggableFoodCard({ restaurant, index }: { restaurant: any; index: number }) {
     const cardData = {
@@ -166,6 +229,10 @@ export function FoodPicker({ destinationCity }: { destinationCity?: string }) {
             {/* 맛집 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto p-4">
                 <div className="flex flex-col gap-3">
+                    {/* 호텔&리조트 조식 고정 카드 */}
+                    <DraggableHotelBreakfastCard />
+
+                    {/* 맛집 목록 */}
                     {restaurants.map((restaurant, index) => (
                         <DraggableFoodCard
                             key={index}
