@@ -160,13 +160,15 @@ export function CardEditorModal({
                                 box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
                                 user-select: none;
                                 overflow: visible;
-                                transition: bottom 0.2s ease-out;
+                                transition: bottom 0.2s ease-out, opacity 0.2s ease-out, visibility 0.2s ease-out;
+                                opacity: ${keyboardHeight > 0 ? 1 : 0};
+                                visibility: ${keyboardHeight > 0 ? 'visible' : 'hidden'};
                             }
                             .editor-wrapper .bn-editor {
                                 flex: 1;
                                 overflow-y: auto;
                                 padding-top: 16px;
-                                padding-bottom: 60px; /* 툴바 높이만큼 여백 */
+                                padding-bottom: ${keyboardHeight > 0 ? '60px' : '16px'}; /* 툴바 보이면 여백 추가 */
                             }
                         }
                         
