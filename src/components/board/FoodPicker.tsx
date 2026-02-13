@@ -3,8 +3,10 @@
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Utensils, Plus } from 'lucide-react';
+import { useState } from 'react';
 import { RESTAURANTS_DATA, RestaurantType } from '@/data/restaurants';
 import { BaseCard } from './cards/BaseCard';
+import { FoodAddModal } from './FoodAddModal';
 
 // 음식 타입별 한글 레이블
 const RESTAURANT_TYPE_LABELS: Record<RestaurantType, string> = {
@@ -186,7 +188,8 @@ function DraggableFoodCard({ restaurant, index }: { restaurant: any; index: numb
 }
 
 // FoodPicker 메인 컴포넌트
-export function FoodPicker({ destinationCity }: { destinationCity?: string }) {
+export function FoodPicker({ destinationCity, onCreateCard }: { destinationCity?: string; onCreateCard?: (data: any) => void }) {
+    const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
         return (
@@ -242,12 +245,29 @@ export function FoodPicker({ destinationCity }: { destinationCity?: string }) {
                     ))}
 
                     {/* 직접 추가하기 버튼 */}
-                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50 transition-all gap-2 mt-2">
+                    <button
+                        onClick={() => setIsAddModalOpen(true)}
+                        className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50 transition-all gap-2 mt-2"
+                    >
                         <Plus className="w-5 h-5" />
                         <span className="font-medium text-sm">직접 추가하기</span>
                     </button>
                 </div>
             </div>
+
+            {/* 직접 추가하기 모달 */}
+            {isAddModalOpen && (
+                <FoodAddModal
+                    destinationCity={destinationCity}
+                    onClose={() => setIsAddModalOpen(false)}
+                    onCreate={(data) => {
+                        if (onCreateCard) {
+                            onCreateCard(data);
+                        }
+                        setIsAddModalOpen(false);
+                    }}
+                />
+            )}
         </div>
     );
 }

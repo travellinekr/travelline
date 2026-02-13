@@ -87,7 +87,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
             </>
           ) : activeCategory === 'hotel' ? (
             <>
-              <AccommodationPicker destinationCity={destinationCard?.city} />
+              <AccommodationPicker destinationCity={destinationCard?.city} onCreateCard={onCreateCard} />
             </>
           ) : activeCategory === 'transport' ? (
             <>
@@ -95,11 +95,11 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
             </>
           ) : activeCategory === 'food' ? (
             <>
-              <FoodPicker destinationCity={destinationCard?.city} />
+              <FoodPicker destinationCity={destinationCard?.city} onCreateCard={onCreateCard} />
             </>
           ) : activeCategory === 'shopping' ? (
             <>
-              <ShoppingPicker destinationCity={destinationCard?.city} />
+              <ShoppingPicker destinationCity={destinationCard?.city} onCreateCard={onCreateCard} />
             </>
           ) : activeCategory === 'tourspa' ? (
             <TourSpaPicker

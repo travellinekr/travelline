@@ -3,8 +3,10 @@
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Hotel, Plus } from 'lucide-react';
+import { useState } from 'react';
 import { ACCOMMODATIONS_DATA } from '@/data/accommodations';
 import { BaseCard } from './cards/BaseCard';
+import { AccommodationAddModal } from './AccommodationAddModal';
 
 // 도시별 숙소 목록 필터링 함수
 function getAccommodationsByCity(cityName: string) {
@@ -92,7 +94,8 @@ function DraggableHotelCard({ accommodation, index }: { accommodation: any; inde
 }
 
 // AccommodationPicker 메인 컴포넌트
-export function AccommodationPicker({ destinationCity }: { destinationCity?: string }) {
+export function AccommodationPicker({ destinationCity, onCreateCard }: { destinationCity?: string; onCreateCard?: (data: any) => void }) {
+    const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
         return (
@@ -144,12 +147,29 @@ export function AccommodationPicker({ destinationCity }: { destinationCity?: str
                     ))}
 
                     {/* 직접 추가하기 버튼 */}
-                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-rose-400 hover:text-rose-500 hover:bg-rose-50 transition-all gap-2 mt-2">
+                    <button
+                        onClick={() => setIsAddModalOpen(true)}
+                        className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-rose-400 hover:text-rose-500 hover:bg-rose-50 transition-all gap-2 mt-2"
+                    >
                         <Plus className="w-5 h-5" />
                         <span className="font-medium text-sm">직접 추가하기</span>
                     </button>
                 </div>
             </div>
+
+            {/* 직접 추가하기 모달 */}
+            {isAddModalOpen && (
+                <AccommodationAddModal
+                    destinationCity={destinationCity}
+                    onClose={() => setIsAddModalOpen(false)}
+                    onCreate={(data) => {
+                        if (onCreateCard) {
+                            onCreateCard(data);
+                        }
+                        setIsAddModalOpen(false);
+                    }}
+                />
+            )}
         </div>
     );
 }

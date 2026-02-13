@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 
 interface CardMarker {
@@ -138,8 +139,8 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
 
     if (!isOpen) return null;
 
-    return (
-        <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-0 md:p-4">
+    const modalContent = (
+        <div className="fixed inset-0 z-[9999] bg-black/50 flex items-center justify-center p-0 md:p-4">
             <div className="bg-white w-full h-full md:w-[90vw] md:h-[80vh] md:max-w-5xl md:rounded-2xl overflow-hidden shadow-2xl flex flex-col">
                 {/* Header */}
                 <div className="flex items-center justify-between p-4 border-b bg-white">
@@ -170,6 +171,8 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
             </div>
         </div>
     );
+
+    return typeof window !== 'undefined' ? createPortal(modalContent, document.body) : null;
 }
 
 // 카테고리 한글 라벨

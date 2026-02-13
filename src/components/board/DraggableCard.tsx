@@ -12,6 +12,7 @@ import { TourSpaCard } from "./cards/TourSpaCard";
 import { TransportCard } from "./cards/TransportCard";
 import { DefaultCard } from "./cards/DefaultCard";
 import { useCardMutations } from "@/hooks/useCardMutations";
+import { CardEditorModal } from "./CardEditorModal";
 
 // 임시 사용자 ID Hook (TODO: 실제 인증 시스템으로 대체 필요)
 function useTempUserId() {
@@ -239,6 +240,9 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
 
+  // 메모 모달 상태 관리
+  const [isNotesOpen, setIsNotesOpen] = useState(false);
+
   const {
     attributes,
     listeners,
@@ -284,15 +288,30 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
     );
   }
 
-  return renderCardInternal(card, {
-    onRef: setNodeRef,
-    style,
-    listeners,
-    attributes,
-    onRemove,
-    variant,
-    onVoteToggle: handleVoteToggle,
-    onUpdateCard: handleUpdateCard,
-    isHeader
-  });
+  return (
+    <>
+      {renderCardInternal(card, {
+        onRef: setNodeRef,
+        style,
+        listeners,
+        attributes,
+        onRemove,
+        variant,
+        onVoteToggle: handleVoteToggle,
+        onUpdateCard: handleUpdateCard,
+        onOpenNotes: () => setIsNotesOpen(true),
+        isHeader
+      })}
+
+      {/* 카드 에디터 모달 */}
+      {isNotesOpen && (
+        <CardEditorModal
+          cardId={card.id}
+          cardTitle={card.title || card.text || '카드'}
+          isOpen={isNotesOpen}
+          onClose={() => setIsNotesOpen(false)}
+        />
+      )}
+    </>
+  );
 }
