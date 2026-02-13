@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import { createPortal } from 'react-dom';
 import '@blocknote/core/fonts/inter.css';
@@ -25,6 +26,30 @@ export function CardEditorModal({
     const editor = useCreateBlockNote({
         dictionary: ko,
     });
+
+    // 키보드 높이 추적 (모바일 전용)
+    const [keyboardHeight, setKeyboardHeight] = useState(0);
+
+    useEffect(() => {
+        // visualViewport API가 없으면 (데스크톱) 아무것도 하지 않음
+        if (!window.visualViewport) return;
+
+        const handleResize = () => {
+            // 전체 높이와 visualViewport 높이 차이로 키보드 높이 계산
+            const windowHeight = window.innerHeight;
+            const viewportHeight = window.visualViewport?.height || windowHeight;
+            const calculatedKeyboardHeight = Math.max(0, windowHeight - viewportHeight);
+            setKeyboardHeight(calculatedKeyboardHeight);
+        };
+
+        window.visualViewport.addEventListener('resize', handleResize);
+        window.visualViewport.addEventListener('scroll', handleResize);
+
+        return () => {
+            window.visualViewport?.removeEventListener('resize', handleResize);
+            window.visualViewport?.removeEventListener('scroll', handleResize);
+        };
+    }, []);
 
     if (!isOpen) return null;
 
@@ -57,27 +82,59 @@ export function CardEditorModal({
                             display: flex;
                             flex-direction: column-reverse;
                         }
-                        .editor-wrapper .bn-formatting-toolbar {
-                            position: sticky;
-                            top: 0;
-                            z-index: 10;
-                            width: 100%;
-                            border-bottom: 1px solid #e5e7eb;
-                            background-color: #f9fafb;
-                            padding: 8px 16px;
-                            box-sizing: border-box;
-                            margin: 0;
-                            box-shadow: none !important;
-                            user-select: none;
-                            overflow: visible;
+                        
+                        /* 데스크톱: 기존 상단 고정 툴바 */
+                        @media (min-width: 768px) {
+                            .editor-wrapper .bn-formatting-toolbar {
+                                position: sticky;
+                                top: 0;
+                                z-index: 10;
+                                width: 100%;
+                                border-bottom: 1px solid #e5e7eb;
+                                background-color: #f9fafb;
+                                padding: 8px 16px;
+                                box-sizing: border-box;
+                                margin: 0;
+                                box-shadow: none !important;
+                                user-select: none;
+                                overflow: visible;
+                            }
+                            .editor-wrapper .bn-editor {
+                                flex: 1;
+                                overflow-y: auto;
+                                padding-top: 16px;
+                            }
                         }
+                        
+                        /* 모바일: 하단 플로팅 툴바 */
+                        @media (max-width: 767px) {
+                            .editor-wrapper .bn-formatting-toolbar {
+                                position: fixed;
+                                bottom: ${keyboardHeight}px;
+                                left: 0;
+                                right: 0;
+                                z-index: 10;
+                                width: 100%;
+                                border-top: 1px solid #e5e7eb;
+                                background-color: #f9fafb;
+                                padding: 8px 16px;
+                                box-sizing: border-box;
+                                margin: 0;
+                                box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+                                user-select: none;
+                                overflow: visible;
+                                transition: bottom 0.2s ease-out;
+                            }
+                            .editor-wrapper .bn-editor {
+                                flex: 1;
+                                overflow-y: auto;
+                                padding-top: 16px;
+                                padding-bottom: 60px; /* 툴바 높이만큼 여백 */
+                            }
+                        }
+                        
                         .editor-wrapper .bn-formatting-toolbar * {
                             user-select: none;
-                        }
-                        .editor-wrapper .bn-editor {
-                            flex: 1;
-                            overflow-y: auto;
-                            padding-top: 16px;
                         }
                         /* 이탤릭체와 밑줄 버튼 숨기기 */
                         .editor-wrapper .bn-formatting-toolbar button[aria-label*="Italic"],
@@ -131,7 +188,16 @@ export function CardEditorModal({
                             padding-left: 28px !important;
                         }
                     `}</style>
-                    <div className="editor-wrapper">
+                    <div
+                        className="editor-wrapper"
+                        onMouseDown={(e) => {
+                            // 툴바를 클릭해도 에디터 focus를 유지하여 키보드가 내려가지 않도록
+                            const target = e.target as HTMLElement;
+                            if (target.closest('.bn-formatting-toolbar')) {
+                                e.preventDefault();
+                            }
+                        }}
+                    >
                         <BlockNoteView
                             editor={editor}
                             theme="light"
