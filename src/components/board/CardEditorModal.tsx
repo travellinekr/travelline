@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { X } from 'lucide-react';
 import { createPortal } from 'react-dom';
 import '@blocknote/core/fonts/inter.css';
@@ -8,6 +8,7 @@ import '@blocknote/mantine/style.css';
 import { useCreateBlockNote, FormattingToolbar } from '@blocknote/react';
 import { BlockNoteView } from '@blocknote/mantine';
 import { ko } from '@blocknote/core/locales';
+import { useStorage, useMutation } from '../../liveblocks.config';
 
 interface CardEditorModalProps {
     cardId: string;
@@ -22,10 +23,46 @@ export function CardEditorModal({
     isOpen,
     onClose,
 }: CardEditorModalProps) {
-    // BlockNote 에디터 생성
+    // LiveBlocks에서 현재 카드의 notes 가져오기
+    const cardNotes = useStorage((root) => root.cards.get(cardId)?.notes);
+
+    // 디바운스를 위한 타이머 ref
+    const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+    // BlockNote 에디터 생성 (초기값 설정)
     const editor = useCreateBlockNote({
         dictionary: ko,
+        initialContent: cardNotes || undefined,
     });
+
+    // notes 업데이트 mutation
+    const updateNotes = useMutation(({ storage }, newNotes: any) => {
+        const cards = storage.get('cards');
+        const card = cards.get(cardId);
+        if (card) {
+            // LiveObject의 .set() 메서드로 notes 필드 업데이트
+            (card as any).set('notes', newNotes);
+        }
+    }, [cardId]);
+
+    // 자동 저장 함수 (디바운스 500ms)
+    const handleEditorChange = useCallback(() => {
+        if (saveTimerRef.current) {
+            clearTimeout(saveTimerRef.current);
+        }
+
+        saveTimerRef.current = setTimeout(() => {
+            const blocks = editor.document;
+            updateNotes(blocks);
+        }, 500);
+    }, [editor, updateNotes]);
+
+    // 에디터 변경 감지
+    useEffect(() => {
+        if (!isOpen) return;
+
+        return editor.onChange(handleEditorChange);
+    }, [editor, handleEditorChange, isOpen]);
 
     // 키보드 높이 추적 (모바일 전용)
     const [keyboardHeight, setKeyboardHeight] = useState(0);
@@ -212,15 +249,9 @@ export function CardEditorModal({
                 <div className="flex items-center justify-end gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
                     <button
                         onClick={onClose}
-                        className="px-4 py-2 text-gray-700 hover:bg-gray-200 rounded-lg transition-colors font-medium text-sm"
-                    >
-                        취소
-                    </button>
-                    <button
-                        onClick={onClose}
                         className="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors font-medium text-sm"
                     >
-                        저장
+                        닫기
                     </button>
                 </div>
             </div>

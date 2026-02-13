@@ -18,6 +18,7 @@ export type Card = {
   time?: string; // 항공편 시간 (예: "21:50")
   route?: string; // 항공편 경로 (예: "🛫 ICN")
   coordinates?: { lat: number; lng: number }; // GPS 좌표 (항공카드용)
+  notes?: any; // BlockNote 에디터 콘텐츠 (JSON 형식)
 };
 
 export type FlightInfo = {
