@@ -91,7 +91,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
             try {
                 // Google PinElement로 깔끔한 마커 생성
                 const pinElement = new google.maps.marker.PinElement({
-                    glyph: `${index + 1}`,
+                    glyphText: `${index + 1}`,
                     glyphColor: 'white',
                     background: '#10b981', // emerald-500
                     borderColor: '#059669', // emerald-600

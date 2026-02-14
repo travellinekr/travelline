@@ -32,7 +32,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
     const mapRef = useRef<HTMLDivElement>(null);
     const googleMapRef = useRef<google.maps.Map | null>(null);
-    const markersRef = useRef<google.maps.Marker[]>([]);
+    const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
 
     // Google Maps API 스크립트 로드
     useEffect(() => {
@@ -97,18 +97,27 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
         }
 
         // 기존 마커 제거
-        markersRef.current.forEach(marker => marker.setMap(null));
+        markersRef.current.forEach(marker => marker.map = null);
         markersRef.current = [];
 
         if (places.length === 0) return;
 
         const bounds = new google.maps.LatLngBounds();
 
-        places.forEach((place) => {
-            const marker = new google.maps.Marker({
+        places.forEach((place, index) => {
+            const pinElement = new google.maps.marker.PinElement({
+                glyphText: `${index + 1}`,
+                glyphColor: 'white',
+                background: '#ef4444', // red-500 (음식점용 색상)
+                borderColor: '#dc2626', // red-600
+                scale: 1.2,
+            });
+
+            const marker = new google.maps.marker.AdvancedMarkerElement({
                 position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
+                content: pinElement.element,
             });
 
             // InfoWindow 생성
@@ -122,7 +131,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
         `,
             });
 
-            marker.addListener('click', () => {
+            marker.addListener('gmp-click', () => {
                 setSelectedPlace(place);
                 infoWindow.open(googleMapRef.current, marker);
             });

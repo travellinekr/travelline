@@ -31,7 +31,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
 
     const mapRef = useRef<HTMLDivElement>(null);
     const googleMapRef = useRef<google.maps.Map | null>(null);
-    const markersRef = useRef<google.maps.Marker[]>([]);
+    const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
 
     // Google Maps API 스크립트 로드 (한 번만)
     useEffect(() => {
@@ -111,7 +111,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         }
 
         // 기존 마커 제거
-        markersRef.current.forEach(marker => marker.setMap(null));
+        markersRef.current.forEach(marker => marker.map = null);
         markersRef.current = [];
 
         if (places.length === 0) return;
@@ -119,11 +119,20 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         // 새 마커 추가
         const bounds = new google.maps.LatLngBounds();
 
-        places.forEach((place) => {
-            const marker = new google.maps.Marker({
+        places.forEach((place, index) => {
+            const pinElement = new google.maps.marker.PinElement({
+                glyphText: `${index + 1}`,
+                glyphColor: 'white',
+                background: '#06b6d4', // cyan-500 (관광지/스파용 색상)
+                borderColor: '#0891b2', // cyan-600
+                scale: 1.2,
+            });
+
+            const marker = new google.maps.marker.AdvancedMarkerElement({
                 position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
+                content: pinElement.element,
             });
 
             // InfoWindow
@@ -137,7 +146,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         `,
             });
 
-            marker.addListener('click', () => {
+            marker.addListener('gmp-click', () => {
                 setSelectedPlace(place);
                 infoWindow.open(googleMapRef.current, marker);
             });

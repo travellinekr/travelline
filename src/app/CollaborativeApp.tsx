@@ -341,7 +341,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragEnd = (event: any) => {
         const { active, over } = event;
 
-
         setActiveDragItem(null);
 
         if (!over || !columns) return;
@@ -414,8 +413,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         // sourceColumnId를 찾지 못하면 (유효하지 않은 드래그) 중단
-        // 단, picker 카드는 예외 (DestinationPicker에서 오는 카드는 sourceColumnId가 없음)
-        if (!sourceColumnId && !String(activeId).startsWith('picker-')) {
+        // 단, picker/sample 카드는 예외 (Picker에서 오는 카드는 sourceColumnId가 없음)
+        if (!sourceColumnId && !String(activeId).startsWith('picker-') && !String(activeId).startsWith('sample-')) {
             setActiveDragItem(null);
             return;
         }
@@ -446,8 +445,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // Picker 카드 처리: DestinationPicker 또는 AccommodationPicker에서 드래그
-        if (String(activeId).startsWith('picker-')) {
+        // Picker 카드 처리: DestinationPicker, AccommodationPicker, ShoppingPicker 등에서 드래그
+        // picker- 또는 sample-로 시작하는 카드
+        if (String(activeId).startsWith('picker-') || String(activeId).startsWith('sample-')) {
             // Destination Picker 카드 → destination-candidates 또는 destination-header
             if (draggedCard?.category === 'destination' && (targetColumnId === 'destination-candidates' || targetColumnId === 'destination-header')) {
                 // 여행지 후보에 넣을 때만 중복 체크
