@@ -106,7 +106,6 @@ const fetchUnsplashImage = async (city: CityData, month: number | null) => {
             return data.results[0].urls.regular;
         }
     } catch (e) {
-        console.error("Unsplash API Error:", e);
     }
 
     // Fallback if API fails or no results

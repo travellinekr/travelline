@@ -70,7 +70,6 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 setSearchResults([]);
             }
         } catch (error) {
-            console.error('Search error:', error);
             alert('검색 중 오류가 발생했습니다');
         } finally {
             setIsSearching(false);
@@ -84,7 +83,6 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         // 지도가 없으면 먼저 초기화
         if (!googleMapRef.current) {
             if (typeof google === 'undefined' || !google.maps) {
-                console.error('Google Maps API가 로드되지 않았습니다');
                 return;
             }
 
@@ -168,13 +166,9 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
             pickupAvailable,
             coordinates: selectedPlace ? { lat: selectedPlace.lat, lng: selectedPlace.lng } : undefined,
             rating: selectedPlace?.rating,
+            isUserCreated: true  // 🔑 사용자 생성 카드 표시
         };
 
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('📍 [1단계] TourSpaAddModal → onCreate');
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('카드 데이터:', JSON.stringify(cardData, null, 2));
-        console.log('전달할 함수:', onCreate);
 
         onCreate(cardData);
         onClose();

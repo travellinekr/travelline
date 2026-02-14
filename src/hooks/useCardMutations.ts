@@ -79,24 +79,10 @@ export function useCardMutations() {
     }, []);
 
     const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address }) => {
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('📍 [5단계] useCardMutations → createCard (최종 실행)');
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('받은 파라미터:');
-        console.log('  - title:', title);
-        console.log('  - category:', category);
-        console.log('  - tourSpaType:', tourSpaType);
-        console.log('  - description:', description);
-        console.log('  - address:', address);
-        console.log('  - coordinates:', coordinates);
-        console.log('  - pickupAvailable:', pickupAvailable);
-        console.log('  - rating:', rating);
-
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
         const newCardId = `card-${Date.now()}`;
-        console.log('🔍 생성될 카드 ID:', newCardId);
 
         const newCard = new LiveObject({
             id: newCardId,
@@ -139,34 +125,20 @@ export function useCardMutations() {
             pickupAvailable,
             reservationRequired,
             rating,
-            address
+            address,
+            isUserCreated: true,  // 사용자가 직접 추가한 카드
         });
 
-        console.log('💾 LiveObject에 저장되는 데이터:');
-        console.log('  - text (title):', title);
-        console.log('  - tourSpaType:', tourSpaType);
-        console.log('  - description:', description);
-        console.log('  - address:', address);
-        console.log('  - coordinates:', coordinates);
-        console.log('  - pickupAvailable:', pickupAvailable);
-        console.log('  - rating:', rating);
-
         cards.set(newCardId, newCard);
-        console.log('🔍 [createCard] card added to cards map');
 
         const inboxCol = columns.get("inbox");
-        console.log('🔍 [createCard] inboxCol:', inboxCol ? 'exists' : 'null');
 
         if (inboxCol) {
             const cardIds = inboxCol.get("cardIds");
-            console.log('🔍 [createCard] cardIds before insert:', cardIds ? cardIds.toArray() : 'null');
 
-            inboxCol.get("cardIds").insert(newCardId, 0);
-
-            console.log('🔍 [createCard] cardIds after insert:', inboxCol.get("cardIds").toArray());
-            console.log('✅ [createCard] 카드 생성 완료!');
+            // 맨 뒤에 추가
+            inboxCol.get("cardIds").insert(newCardId, cardIds.length);
         } else {
-            console.error('❌ [createCard] inbox column이 없습니다!');
         }
     }, []);
     const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, targetColumnId, targetIndex = 0 }) => {

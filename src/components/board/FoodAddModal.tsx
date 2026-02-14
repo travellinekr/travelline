@@ -70,7 +70,6 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 setSearchResults([]);
             }
         } catch (error) {
-            console.error('Search error:', error);
             alert('검색 중 오류가 발생했습니다');
         } finally {
             setIsSearching(false);
@@ -83,7 +82,6 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
         if (!googleMapRef.current) {
             if (typeof google === 'undefined' || !google.maps) {
-                console.error('Google Maps API가 로드되지 않았습니다');
                 return;
             }
 
@@ -106,28 +104,31 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
         const bounds = new google.maps.LatLngBounds();
 
-        places.forEach((place, index) => {
-            const position = { lat: place.lat, lng: place.lng };
-
+        places.forEach((place) => {
             const marker = new google.maps.Marker({
-                position,
+                position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
-                label: {
-                    text: String(index + 1),
-                    color: 'white',
-                    fontSize: '14px',
-                    fontWeight: 'bold'
-                }
+            });
+
+            // InfoWindow 생성
+            const infoWindow = new google.maps.InfoWindow({
+                content: `
+          <div style="padding: 8px;">
+            <div style="font-weight: bold; margin-bottom: 4px;">${place.name}</div>
+            <div style="font-size: 12px; color: #666;">${place.address}</div>
+            ${place.rating ? `<div style="font-size: 12px; color: #ca8a04; margin-top: 4px;">⭐ ${place.rating}</div>` : ''}
+          </div>
+        `,
             });
 
             marker.addListener('click', () => {
                 setSelectedPlace(place);
-                console.log('선택된 맛집:', place);
+                infoWindow.open(googleMapRef.current, marker);
             });
 
             markersRef.current.push(marker);
-            bounds.extend(position);
+            bounds.extend({ lat: place.lat, lng: place.lng });
         });
 
         googleMapRef.current.fitBounds(bounds);
@@ -145,8 +146,9 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
             return;
         }
 
+
         const cardData = {
-            title: selectedPlace.name,
+            title: selectedPlace.name,  // ✅ title 필드 추가
             text: selectedPlace.name,
             category: 'food' as const,
             restaurantType,
@@ -156,10 +158,10 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 lat: selectedPlace.lat,
                 lng: selectedPlace.lng
             },
-            rating: selectedPlace.rating
+            rating: selectedPlace.rating,
+            isUserCreated: true  // 🔑 사용자 생성 카드 표시
         };
 
-        console.log('맛집 카드 생성:', cardData);
         onCreate(cardData);
     };
 

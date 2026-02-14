@@ -88,14 +88,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // createCard wrapper for debugging
     const handleCreateCard = (data: any) => {
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('📍 [4단계] CollaborativeApp → createCard mutation');
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('받은 데이터:', JSON.stringify(data, null, 2));
 
         try {
             createCard(data);
-            console.log('✅ createCard 호출 완료');
         } catch (error) {
             console.error('❌ createCard 에러:', error);
         }
@@ -346,7 +341,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragEnd = (event: any) => {
         const { active, over } = event;
 
-        console.log('🎯 [handleDragEnd] Called with:', { activeId: active?.id, overId: over?.id });
 
         setActiveDragItem(null);
 
@@ -372,7 +366,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             targetColumnId = 'inbox';
         } else if (overId === 'tourspa-delete-zone') {
             // 투어&스파 삭제 영역에 드롭하면 카드 삭제
-            console.log('🗑️ [TourSpa Delete] 카드 삭제 시작:', activeId);
 
             // 카드가 어느 컬럼에 있는지 찾기
             let foundColumnId: string | null = null;
@@ -382,7 +375,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                     const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
                     if (cardIdsArray.includes(activeId)) {
                         foundColumnId = col.id;
-                        console.log('🔍 카드를 찾았습니다. Column:', foundColumnId);
                         break;
                     }
                 }
@@ -390,9 +382,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             if (foundColumnId) {
                 removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
-                console.log('✅ 카드 삭제 완료');
             } else {
-                console.warn('⚠️ 카드를 찾을 수 없습니다:', activeId);
             }
 
             setActiveDragItem(null);

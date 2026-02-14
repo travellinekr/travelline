@@ -22,9 +22,10 @@ export async function GET(request: NextRequest) {
             );
         }
 
-        // Google Places Text Search API
+        // Google Places Text Search API (한글 결과)
         const searchQuery = city ? `${query} in ${city}` : query;
-        const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(searchQuery)}&key=${apiKey}`;
+        const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(searchQuery)}&language=ko&key=${apiKey}`;
+
 
         const response = await fetch(url);
         const data = await response.json();

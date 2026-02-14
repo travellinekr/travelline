@@ -22,10 +22,10 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
             ref={setNodeRef}
             onClick={!isDragging ? onAdd : undefined}
             className={`h-16 border-2 border-dashed rounded-2xl flex items-center justify-center transition-all gap-2 mt-2 ${isDragging
-                    ? isOver
-                        ? 'bg-red-100 border-red-500 text-red-700'
-                        : 'bg-red-50 border-red-300 text-red-500'
-                    : 'border-gray-200 text-gray-400 hover:border-teal-400 hover:text-teal-500 hover:bg-teal-50'
+                ? isOver
+                    ? 'bg-red-100 border-red-500 text-red-700'
+                    : 'bg-red-50 border-red-300 text-red-500'
+                : 'border-gray-200 text-gray-400 hover:border-teal-400 hover:text-teal-500 hover:bg-teal-50'
                 }`}
         >
             {isDragging ? (
@@ -77,6 +77,7 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
         features: tourSpa.features,
         rating: tourSpa.rating,
         icon: tourSpa.icon,
+        isUserCreated: tourSpa.isUserCreated,  // 삭제 검증용
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
@@ -152,17 +153,24 @@ export function TourSpaPicker({
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
     const handleCreateCard = (data: any) => {
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('📍 [2단계] TourSpaPicker → onAddCard');
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('받은 데이터:', JSON.stringify(data, null, 2));
-        console.log('onAddCard 함수:', onAddCard);
 
         if (onAddCard) {
             onAddCard(data);
         }
         setIsAddModalOpen(false);
     };
+
+    // 도시가 선택되지 않은 경우
+    if (!destinationCity) {
+        return (
+            <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
+                <Palmtree className="w-12 h-12 text-slate-300 mb-3" />
+                <p className="text-sm text-slate-500">
+                    먼저 여행지를 선택해주세요
+                </p>
+            </div>
+        );
+    }
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
@@ -191,7 +199,6 @@ export function TourSpaPicker({
 
                     {/* 생성된 카드들 (샘플 카드 아래) */}
                     {createdCards.map((card: any) => {
-                        console.log('🎨 [TourSpaPicker] 카드 렌더링:', card);
 
                         // 타입에 따른 아이콘 매핑
                         const getIcon = (type: string) => {
