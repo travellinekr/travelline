@@ -26,8 +26,24 @@ export function TourSpaCard({ card, ...props }: any) {
         ? TOUR_SPA_TYPE_LABELS[card.tourSpaType] || card.tourSpaType
         : "투어&스파";
 
+    // 메모가 있는지 확인 (BlockNote 블록 배열 체크)
+    const hasNotes = Boolean(
+        card.notes &&
+        Array.isArray(card.notes) &&
+        card.notes.length > 0 &&
+        // 빈 블록만 있는지 확인 (content가 비어있지 않은 블록이 하나라도 있으면 true)
+        card.notes.some((block: any) => {
+            // paragraph 블록의 경우 content 배열이 있고, 내용이 있는지 확인
+            if (block.type === 'paragraph' && Array.isArray(block.content)) {
+                return block.content.length > 0 && block.content.some((item: any) => item.text && item.text.trim().length > 0);
+            }
+            // 다른 타입의 블록(heading, list 등)은 존재하면 true
+            return block.type !== 'paragraph';
+        })
+    );
+
     return (
-        <BaseCard {...props} colorClass="bg-teal-400" icon={Palmtree} category={category} className="h-[72px]">
+        <BaseCard {...props} colorClass="bg-teal-400" icon={Palmtree} category={category} className="h-[72px]" hasNotes={hasNotes}>
             <div className="flex flex-col justify-center w-full">
                 <div className="flex items-center gap-2">
                     {card.icon && (

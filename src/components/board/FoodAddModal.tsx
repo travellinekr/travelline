@@ -22,6 +22,18 @@ interface FoodAddModalProps {
     onCreate: (data: any) => void;
 }
 
+// 도시별 좌표 매핑
+const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
+    'Bangkok': { lat: 13.7563, lng: 100.5018 },
+    'Tokyo': { lat: 35.6762, lng: 139.6503 },
+    'Osaka': { lat: 34.6937, lng: 135.5023 },
+    'Paris': { lat: 48.8566, lng: 2.3522 },
+    'London': { lat: 51.5074, lng: -0.1278 },
+    'New York': { lat: 40.7128, lng: -74.0060 },
+    'Singapore': { lat: 1.3521, lng: 103.8198 },
+    'Hong Kong': { lat: 22.3193, lng: 114.1694 },
+};
+
 export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModalProps) {
     const [restaurantName, setRestaurantName] = useState('');
     const [restaurantType, setRestaurantType] = useState<RestaurantType>('local');
@@ -36,14 +48,83 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
     // Google Maps API 스크립트 로드
     useEffect(() => {
-        if (typeof google !== 'undefined' && google.maps) return;
-
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`;
-        script.async = true;
-        script.defer = true;
-        document.head.appendChild(script);
+        if (typeof google === 'undefined' || !google.maps) {
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places,marker&loading=async`;
+            script.async = true;
+            document.head.appendChild(script);
+        }
     }, []);
+
+    // 🆕 모달 오픈 시 지도 즉시 초기화
+    useEffect(() => {
+        const initMap = () => {
+            if (!mapRef.current || googleMapRef.current) return;
+            if (typeof google === 'undefined' || !google.maps) {
+                setTimeout(initMap, 100);
+                return;
+            }
+
+            // 도시 중심 좌표 설정 (대소문자 무시)
+            let cityCoords = { lat: 13.7563, lng: 100.5018 };
+            if (destinationCity) {
+                const cityKey = Object.keys(CITY_COORDINATES).find(
+                    key => key.toLowerCase() === destinationCity.toLowerCase()
+                );
+                if (cityKey) {
+                    cityCoords = CITY_COORDINATES[cityKey];
+                }
+            }
+
+            googleMapRef.current = new google.maps.Map(mapRef.current, {
+                center: cityCoords,
+                zoom: 13,
+                mapTypeControl: false,
+                streetViewControl: false,
+                fullscreenControl: false,
+                zoomControl: true,
+                mapId: 'MINDFLOWS_SEARCH_MAP',
+            });
+
+            // 지도 클릭 이벤트 리스너 추가
+            googleMapRef.current.addListener('click', async (event: google.maps.MapMouseEvent) => {
+                if (!event.latLng) return;
+
+                const lat = event.latLng.lat();
+                const lng = event.latLng.lng();
+
+                try {
+                    const response = await fetch(
+                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=500`
+                    );
+                    const data = await response.json();
+
+                    if (data.status === 'success' && data.places.length > 0) {
+                        const newPlace = data.places[0];
+                        setSearchResults([newPlace]);
+                        setSelectedPlace(newPlace);
+                        setRestaurantName(newPlace.name);
+
+                        // ✅ 맛집 타입 자동 선택
+                        autoSelectRestaurantType(newPlace.types);
+                    } else {
+                        alert('이 위치 주변에 장소를 찾을 수 없습니다.');
+                    }
+                } catch (error) {
+                    console.error('Nearby search error:', error);
+                }
+            });
+        };
+
+        initMap();
+    }, [destinationCity]);
+
+    // 검색 결과가 있을 때 마커 표시
+    useEffect(() => {
+        if (searchResults.length > 0) {
+            displayMarkers(searchResults);
+        }
+    }, [searchResults]);
 
     // 검색 함수
     const handleSearch = async () => {
@@ -51,6 +132,11 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
             alert('맛집 이름을 입력해주세요');
             return;
         }
+
+        // 검색 전 마커만 리셋 (지도 인스턴스는 유지)
+        markersRef.current.forEach(marker => marker.map = null);
+        markersRef.current = [];
+        // googleMapRef.current = null; // ✅ 제거: 지도 인스턴스를 유지하여 이벤트 리스너 보존
 
         setIsSearching(true);
         try {
@@ -78,21 +164,73 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
     // 마커 표시
     const displayMarkers = async (places: Place[]) => {
-        if (!mapRef.current) return;
+        if (!mapRef.current || places.length === 0) return;
+
+        // 도시 중심 좌표 설정 (대소문자 무시)
+        let cityCoords = { lat: 13.7563, lng: 100.5018 }; // 기본값: 방콕
+        if (destinationCity) {
+            const cityKey = Object.keys(CITY_COORDINATES).find(
+                key => key.toLowerCase() === destinationCity.toLowerCase()
+            );
+            if (cityKey) {
+                cityCoords = CITY_COORDINATES[cityKey];
+            }
+        }
+
 
         if (!googleMapRef.current) {
             if (typeof google === 'undefined' || !google.maps) {
+                console.error('Google Maps API not loaded.');
                 return;
             }
 
             googleMapRef.current = new google.maps.Map(mapRef.current, {
-                center: { lat: 13.7563, lng: 100.5018 },
+                center: cityCoords,
                 zoom: 13,
                 mapTypeControl: false,
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP',
+                mapId: 'MINDFLOWS_SEARCH_MAP', // Original mapId
+            });
+
+            // 🆕 지도 클릭 이벤트 리스너 추가
+            googleMapRef.current.addListener('click', async (event: google.maps.MapMouseEvent) => {
+                if (!event.latLng) return;
+
+                const lat = event.latLng.lat();
+                const lng = event.latLng.lng();
+
+                try {
+                    // 주변 장소 검색
+                    const response = await fetch(
+                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=50`
+                    );
+
+                    const data = await response.json();
+
+                    if (data.status === 'success' && data.places.length > 0) {
+                        const newPlace = data.places[0];
+
+                        // 검색 결과에 추가 (중복 체크)
+                        setSearchResults(prev => {
+                            const exists = prev.some(p => p.id === newPlace.id);
+                            if (exists) return prev;
+                            return [...prev, newPlace];
+                        });
+
+                        // 자동으로 선택
+                        setSelectedPlace(newPlace);
+
+                        // ✅ 맛집 카테고리 자동 선택
+                        autoSelectRestaurantType(newPlace.types);
+                    } else {
+                        alert('이 위치 주변에 장소를 찾을 수 없습니다.');
+                    }
+                } catch (error) {
+                    console.error('[FoodMap] Nearby search error:', error);
+                    alert('장소 검색 중 오류가 발생했습니다.');
+                }
             });
         }
 
@@ -143,6 +281,28 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
         googleMapRef.current.fitBounds(bounds);
     };
 
+    // ✅ 맛집 카테고리 자동 선택
+    const autoSelectRestaurantType = (types: string[]) => {
+        if (types.includes('restaurant')) {
+            // 더 세부적인 타입 확인
+            if (types.includes('japanese_restaurant')) {
+                setRestaurantType('japanese');
+            } else if (types.includes('chinese_restaurant')) {
+                setRestaurantType('chinese');
+            } else if (types.includes('korean_restaurant')) {
+                setRestaurantType('korean');
+            } else if (types.includes('seafood_restaurant')) {
+                setRestaurantType('seafood');
+            } else {
+                setRestaurantType('local'); // 기본값
+            }
+        } else if (types.includes('cafe')) {
+            setRestaurantType('cafe');
+        } else if (types.includes('bar')) {
+            setRestaurantType('western');
+        }
+    };
+
     // 확인 버튼 핸들러
     const handleConfirm = () => {
         if (!restaurantName.trim()) {
@@ -175,8 +335,8 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
     };
 
     const modalContent = (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50">
-            <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center md:p-4 bg-black/50">
+            <div className="bg-white md:rounded-2xl shadow-2xl w-full md:max-w-2xl h-full md:max-h-[90vh] flex flex-col">
                 {/* 헤더 */}
                 <div className="flex items-center justify-between p-6 border-b border-gray-200 shrink-0">
                     <h2 className="text-xl font-bold text-slate-800">맛집 직접 추가하기</h2>
@@ -224,6 +384,33 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                         </div>
                     </div>
 
+                    {/* 🗺️ 지도 영역 - 맨 위로 이동 */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700">
+                            지도에서 선택 (클릭 또는 검색)
+                        </label>
+                        <div
+                            ref={mapRef}
+                            className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
+                        />
+
+                        {/* 선택된 장소 표시 */}
+                        {selectedPlace && (
+                            <div className="p-3 bg-orange-50 border border-orange-200 rounded-lg">
+                                <div className="flex items-start gap-2">
+                                    <MapPin className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
+                                    <div className="flex-1">
+                                        <div className="font-medium text-slate-800">{selectedPlace.name}</div>
+                                        <div className="text-sm text-gray-600">{selectedPlace.address}</div>
+                                        {selectedPlace.rating && (
+                                            <div className="text-sm text-yellow-600 mt-1">⭐ {selectedPlace.rating}</div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
                     {/* 타입 선택 */}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -257,34 +444,6 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
                         />
                     </div>
-
-                    {/* 지도 영역 */}
-                    {searchResults.length > 0 && (
-                        <div className="space-y-2">
-                            <label className="block text-sm font-medium text-gray-700">
-                                검색 결과 ({searchResults.length}개)
-                            </label>
-                            <div
-                                ref={mapRef}
-                                className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
-                            />
-
-                            {selectedPlace && (
-                                <div className="p-3 bg-orange-50 border border-orange-200 rounded-lg">
-                                    <div className="flex items-start gap-2">
-                                        <MapPin className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
-                                        <div className="flex-1">
-                                            <div className="font-medium text-slate-800">{selectedPlace.name}</div>
-                                            <div className="text-sm text-gray-600">{selectedPlace.address}</div>
-                                            {selectedPlace.rating && (
-                                                <div className="text-sm text-yellow-600 mt-1">⭐ {selectedPlace.rating}</div>
-                                            )}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                    )}
                 </div>
 
                 {/* 푸터 */}

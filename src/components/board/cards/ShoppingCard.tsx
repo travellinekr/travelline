@@ -24,8 +24,21 @@ export function ShoppingCard({ card, ...props }: any) {
     ? SHOPPING_TYPE_LABELS[card.shoppingType] || card.shoppingType
     : "Shopping";
 
+  // 메모가 있는지 확인 (BlockNote 블록 배열 체크)
+  const hasNotes = Boolean(
+    card.notes &&
+    Array.isArray(card.notes) &&
+    card.notes.length > 0 &&
+    card.notes.some((block: any) => {
+      if (block.type === 'paragraph' && Array.isArray(block.content)) {
+        return block.content.length > 0 && block.content.some((item: any) => item.text && item.text.trim().length > 0);
+      }
+      return block.type !== 'paragraph';
+    })
+  );
+
   return (
-    <BaseCard {...props} colorClass="bg-purple-400" icon={ShoppingBag} category={category} className="h-[72px]">
+    <BaseCard {...props} colorClass="bg-purple-400" icon={ShoppingBag} category={category} className="h-[72px]" hasNotes={hasNotes}>
       <div className="flex flex-col justify-center w-full">
         <div className="flex items-center gap-2">
           {card.icon && (

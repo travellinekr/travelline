@@ -1,6 +1,6 @@
-import { GripVertical, MoreVertical } from "lucide-react";
+import { GripVertical, MoreVertical, NotebookPen } from "lucide-react";
 
-export function BaseCard({ children, colorClass, icon: Icon, category, onRef, style, listeners, attributes, className, onOpenNotes }: any) {
+export function BaseCard({ children, colorClass, icon: Icon, category, onRef, style, listeners, attributes, className, onOpenNotes, hasNotes }: any) {
   return (
     <div
       ref={onRef}
@@ -26,13 +26,16 @@ export function BaseCard({ children, colorClass, icon: Icon, category, onRef, st
         </div>
       </div>
 
-      {/* 우측 드래그 핸들 (클릭 시 메모 모달) */}
+      {/* 우측 메모 아이콘 */}
       <div
         className="shrink-0 w-8 h-full flex items-center justify-center relative"
         {...(onOpenNotes ? {} : listeners)}
       >
-        <GripVertical
-          className="w-4 h-4 text-gray-300 group-hover:text-emerald-500 cursor-grab"
+        <NotebookPen
+          className={`w-4 h-4 transition-colors ${hasNotes
+            ? 'text-green-500 group-hover:text-blue-500'
+            : 'text-gray-300 group-hover:text-blue-400'
+            } cursor-pointer`}
         />
         {onOpenNotes && (
           <button
@@ -41,8 +44,8 @@ export function BaseCard({ children, colorClass, icon: Icon, category, onRef, st
               onOpenNotes();
             }}
             className="absolute inset-0 opacity-0 hover:opacity-0 cursor-pointer"
-            title="메모 & 체크리스트"
-            aria-label="메모 & 체크리스트"
+            title="메모"
+            aria-label="메모"
           />
         )}
       </div>

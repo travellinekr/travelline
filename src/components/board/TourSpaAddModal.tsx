@@ -21,8 +21,20 @@ interface TourSpaAddModalProps {
     onCreate: (data: any) => void;
 }
 
+// 도시별 좌표 매핑
+const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
+    'Bangkok': { lat: 13.7563, lng: 100.5018 },
+    'Tokyo': { lat: 35.6762, lng: 139.6503 },
+    'Osaka': { lat: 34.6937, lng: 135.5023 },
+    'Paris': { lat: 48.8566, lng: 2.3522 },
+    'London': { lat: 51.5074, lng: -0.1278 },
+    'New York': { lat: 40.7128, lng: -74.0060 },
+    'Singapore': { lat: 1.3521, lng: 103.8198 },
+    'Hong Kong': { lat: 22.3193, lng: 114.1694 },
+};
+
 export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaAddModalProps) {
-    const [shopName, setShopName] = useState('');
+    const [activityName, setActivityName] = useState('');
     const [tourSpaType, setTourSpaType] = useState<TourSpaType>('massage');
     const [pickupAvailable, setPickupAvailable] = useState(false);
     const [searchResults, setSearchResults] = useState<Place[]>([]);
@@ -33,28 +45,102 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
     const googleMapRef = useRef<google.maps.Map | null>(null);
     const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
 
-    // Google Maps API 스크립트 로드 (한 번만)
+    // Google Maps API 스크립트 로드
     useEffect(() => {
-        if (typeof google !== 'undefined' && google.maps) return;
-
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`;
-        script.async = true;
-        script.defer = true;
-        document.head.appendChild(script);
+        if (typeof google === 'undefined' || !google.maps) {
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places,marker&loading=async`;
+            script.async = true;
+            document.head.appendChild(script);
+        }
     }, []);
+
+    // 🆕 모달 오픈 시 지도 즉시 초기화
+    useEffect(() => {
+        const initMap = () => {
+            if (!mapRef.current || googleMapRef.current) return;
+            if (typeof google === 'undefined' || !google.maps) {
+                setTimeout(initMap, 100);
+                return;
+            }
+
+            // 도시 중심 좌표 설정 (대소문자 무시)
+            let cityCoords = { lat: 13.7563, lng: 100.5018 };
+            if (destinationCity) {
+                const cityKey = Object.keys(CITY_COORDINATES).find(
+                    key => key.toLowerCase() === destinationCity.toLowerCase()
+                );
+                if (cityKey) {
+                    cityCoords = CITY_COORDINATES[cityKey];
+                }
+            }
+
+            googleMapRef.current = new google.maps.Map(mapRef.current, {
+                center: cityCoords,
+                zoom: 13,
+                mapTypeControl: false,
+                streetViewControl: false,
+                fullscreenControl: false,
+                zoomControl: true,
+                mapId: 'MINDFLOWS_SEARCH_MAP',
+            });
+
+            // 지도 클릭 이벤트 리스너 추가
+            googleMapRef.current.addListener('click', async (event: google.maps.MapMouseEvent) => {
+                if (!event.latLng) return;
+
+                const lat = event.latLng.lat();
+                const lng = event.latLng.lng();
+
+                try {
+                    const response = await fetch(
+                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=500`
+                    );
+                    const data = await response.json();
+
+                    if (data.status === 'success' && data.places.length > 0) {
+                        const newPlace = data.places[0];
+                        setSearchResults([newPlace]);
+                        setSelectedPlace(newPlace);
+                        setActivityName(newPlace.name); // Added this line
+
+                        // ✅ 투어&스파 타입 자동 선택
+                        autoSelectTourSpaType(newPlace.types);
+                    } else {
+                        alert('이 위치 주변에 장소를 찾을 수 없습니다.');
+                    }
+                } catch (error) {
+                    console.error('Nearby search error:', error);
+                }
+            });
+        };
+
+        initMap();
+    }, [destinationCity]);
+
+    // 검색 결과가 있을 때 마커 표시
+    useEffect(() => {
+        if (searchResults.length > 0) {
+            displayMarkers(searchResults);
+        }
+    }, [searchResults]);
 
     // 검색 함수
     const handleSearch = async () => {
-        if (!shopName.trim()) {
+        if (!activityName.trim()) {
             alert('장소 이름을 입력해주세요');
             return;
         }
 
+        // 검색 전 마커만 리셋 (지도 인스턴스는 유지)
+        markersRef.current.forEach(marker => marker.map = null);
+        markersRef.current = [];
+        // googleMapRef.current = null; // ✅ 제거: 지도 인스턴스를 유지하여 이벤트 리스너 보존
+
         setIsSearching(true);
         try {
             const response = await fetch(
-                `/api/places/search?query=${encodeURIComponent(shopName)}&city=${destinationCity || ''}`
+                `/api/places/search?query=${encodeURIComponent(activityName)}&city=${destinationCity || ''}`
             );
 
             const data = await response.json();
@@ -86,14 +172,61 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 return;
             }
 
+            // 도시 중심 좌표 설정 (대소문자 무시)
+            let cityCoords = { lat: 13.7563, lng: 100.5018 }; // 기본값: 방콕
+            if (destinationCity) {
+                const cityKey = Object.keys(CITY_COORDINATES).find(
+                    key => key.toLowerCase() === destinationCity.toLowerCase()
+                );
+                if (cityKey) {
+                    cityCoords = CITY_COORDINATES[cityKey];
+                }
+            }
+
             googleMapRef.current = new google.maps.Map(mapRef.current, {
-                center: { lat: 13.7563, lng: 100.5018 },
+                center: cityCoords,
                 zoom: 13,
                 mapTypeControl: false,
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
                 mapId: 'MINDFLOWS_SEARCH_MAP',
+            });
+
+            // 🆕 지도 클릭 이벤트 리스너 추가
+            googleMapRef.current.addListener('click', async (event: google.maps.MapMouseEvent) => {
+                if (!event.latLng) return;
+
+                const lat = event.latLng.lat();
+                const lng = event.latLng.lng();
+
+                try {
+                    const response = await fetch(
+                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=50`
+                    );
+                    const data = await response.json();
+
+                    if (data.status === 'success' && data.places.length > 0) {
+                        const newPlace = data.places[0];
+
+                        setSearchResults(prev => {
+                            const exists = prev.some(p => p.id === newPlace.id);
+                            if (exists) return prev;
+                            return [...prev, newPlace];
+                        });
+
+                        // 자동으로 선택
+                        setSelectedPlace(newPlace);
+
+                        // ✅ 투어&스파 타입 자동 선택
+                        autoSelectTourSpaType(newPlace.types);
+                    } else {
+                        alert('이 위치 주변에 장소를 찾을 수 없습니다.');
+                    }
+                } catch (error) {
+                    console.error('[TourSpaMap] Nearby search error:', error);
+                    alert('장소 검색 중 오류가 발생했습니다.');
+                }
             });
 
             // 지도가 완전히 로드될 때까지 기다림
@@ -159,6 +292,23 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         googleMapRef.current.fitBounds(bounds);
     };
 
+    // ✅ 투어&스파 타입 자동 선택
+    const autoSelectTourSpaType = (types: string[]) => {
+        if (types.includes('spa') || types.includes('beauty_salon')) {
+            setTourSpaType('massage');
+        } else if (types.includes('tourist_attraction') || types.includes('museum')) {
+            setTourSpaType('city-tour');
+        } else if (types.includes('amusement_park') || types.includes('aquarium') || types.includes('zoo')) {
+            setTourSpaType('theme-park');
+        } else if (types.includes('night_club') || types.includes('bar')) {
+            setTourSpaType('show');
+        } else if (types.includes('art_gallery')) {
+            setTourSpaType('cultural');
+        } else if (types.includes('travel_agency')) {
+            setTourSpaType('island-hopping');
+        }
+    };
+
     // 확인 버튼
     const handleConfirm = () => {
         if (!selectedPlace && !pickupAvailable) {
@@ -167,7 +317,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         }
 
         const cardData = {
-            title: selectedPlace?.name || shopName,
+            title: selectedPlace?.name || activityName,
             category: 'tourspa',
             tourSpaType,
             description: pickupAvailable ? '호텔에서 픽업하는 투어/체험' : '현지 집합 투어/체험',
@@ -207,8 +357,8 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                         <div className="flex gap-2">
                             <input
                                 type="text"
-                                value={shopName}
-                                onChange={(e) => setShopName(e.target.value)}
+                                value={activityName}
+                                onChange={(e) => setActivityName(e.target.value)}
                                 placeholder="예: 타이 마사지, 아일랜드 호핑 투어"
                                 className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
@@ -231,6 +381,33 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                                 )}
                             </button>
                         </div>
+                    </div>
+
+                    {/* 🗺️ 지도 영역 - 맨 위로 이동 */}
+                    <div className="space-y-2">
+                        <label className="block text-sm font-medium text-gray-700">
+                            지도에서 선택 (클릭 또는 검색)
+                        </label>
+                        <div
+                            ref={mapRef}
+                            className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
+                        />
+
+                        {/* 선택된 장소 표시 */}
+                        {selectedPlace && (
+                            <div className="p-3 bg-teal-50 border border-teal-200 rounded-lg">
+                                <div className="flex items-start gap-2">
+                                    <MapPin className="w-5 h-5 text-teal-600 mt-0.5 flex-shrink-0" />
+                                    <div className="flex-1">
+                                        <div className="font-medium text-slate-800">{selectedPlace.name}</div>
+                                        <div className="text-sm text-gray-600">{selectedPlace.address}</div>
+                                        {selectedPlace.rating && (
+                                            <div className="text-sm text-yellow-600 mt-1">⭐ {selectedPlace.rating}</div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        )}
                     </div>
 
                     {/* 타입 선택 */}
@@ -270,53 +447,24 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                             픽업 가능 (호텔에서 픽업하는 투어/체험)
                         </label>
                     </div>
-
-                    {/* 지도 영역 */}
-                    {searchResults.length > 0 && (
-                        <div className="space-y-2">
-                            <label className="block text-sm font-medium text-gray-700">
-                                검색 결과 ({searchResults.length}개)
-                            </label>
-                            <div
-                                ref={mapRef}
-                                className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
-                            />
-
-                            {/* 선택된 장소 표시 */}
-                            {selectedPlace && (
-                                <div className="p-3 bg-teal-50 border border-teal-200 rounded-lg">
-                                    <div className="flex items-start gap-2">
-                                        <MapPin className="w-5 h-5 text-teal-600 mt-0.5 flex-shrink-0" />
-                                        <div className="flex-1">
-                                            <div className="font-medium text-slate-800">{selectedPlace.name}</div>
-                                            <div className="text-sm text-gray-600">{selectedPlace.address}</div>
-                                            {selectedPlace.rating && (
-                                                <div className="text-sm text-yellow-600 mt-1">⭐ {selectedPlace.rating}</div>
-                                            )}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                    )}
                 </div>
+            </div>
 
-                {/* 푸터 - 고정 */}
-                <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
-                    <button
-                        onClick={onClose}
-                        className="px-6 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
-                    >
-                        취소
-                    </button>
-                    <button
-                        onClick={handleConfirm}
-                        disabled={!shopName.trim() || (!selectedPlace && !pickupAvailable)}
-                        className="px-6 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                        확인
-                    </button>
-                </div>
+            {/* 푸터 - 고정 */}
+            <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
+                <button
+                    onClick={onClose}
+                    className="px-6 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                >
+                    취소
+                </button>
+                <button
+                    onClick={handleConfirm}
+                    disabled={!activityName.trim() || (!selectedPlace && !pickupAvailable)}
+                    className="px-6 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                    확인
+                </button>
             </div>
         </div>
     );

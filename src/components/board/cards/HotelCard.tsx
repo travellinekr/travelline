@@ -12,8 +12,21 @@ export function HotelCard({ card, onUpdateCard, ...props }: any) {
     }
   };
 
+  // 메모가 있는지 확인 (BlockNote 블록 배열 체크)
+  const hasNotes = Boolean(
+    card.notes &&
+    Array.isArray(card.notes) &&
+    card.notes.length > 0 &&
+    card.notes.some((block: any) => {
+      if (block.type === 'paragraph' && Array.isArray(block.content)) {
+        return block.content.length > 0 && block.content.some((item: any) => item.text && item.text.trim().length > 0);
+      }
+      return block.type !== 'paragraph';
+    })
+  );
+
   return (
-    <BaseCard {...props} colorClass="bg-rose-400" icon={Hotel} category={card.accommodationType === 'resort' ? 'Resort' : 'Hotel'} className="h-[72px]">
+    <BaseCard {...props} colorClass="bg-rose-400" icon={Hotel} category={card.accommodationType === 'resort' ? 'Resort' : 'Hotel'} className="h-[72px]" hasNotes={hasNotes}>
       <div className="flex flex-col justify-center w-full">
         <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{card.text || "호텔 이름"}</h4>
         <div className="flex items-center gap-2 mt-0.5">
