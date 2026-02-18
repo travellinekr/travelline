@@ -19,7 +19,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards 
     <SortableContext items={cards.map((c: any) => c.id)} strategy={verticalListSortingStrategy}>
       <div
         ref={setNodeRef}
-        className={`px-4 py-3 md:px-6 md:py-4 min-h-[100px] md:min-h-[100px] flex flex-col justify-center transition-all ${shouldHighlight
+        className={`px-4 md:px-6 h-[100px] flex flex-col justify-center overflow-hidden transition-all ${shouldHighlight
           ? 'bg-rose-50 border-2 border-dashed border-rose-300'
           : cards.length === 0
             ? 'bg-rose-50/30 border-2 border-dashed border-rose-100'

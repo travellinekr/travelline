@@ -90,7 +90,7 @@ export function Room({ children, roomId }: { children: ReactNode, roomId: string
           columnOrder: new LiveList(["destination-header", "destination-candidates", "flights", "day0", "inbox"]),
           cards: new LiveMap<string, LiveObject<Card>>([
             // 1. 여행준비
-            ["p1", new LiveObject({ id: "p1", text: "여권 유효기간 확인", type: "travel", category: "preparation" } as any)],
+            ["p1", new LiveObject({ id: "p1", text: "입국심사&필요사항", type: "travel", category: "preparation", isEntryCard: true } as any)],
             ["p2", new LiveObject({ id: "p2", text: "여행자 보험 가입", type: "travel", category: "preparation" } as any)],
             ["p3", new LiveObject({ id: "p3", text: "환전 및 트래블로그 카드", type: "travel", category: "preparation" } as any)],
             // 2. 항공

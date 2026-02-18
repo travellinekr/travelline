@@ -11,6 +11,7 @@ import { ShoppingCard } from "./cards/ShoppingCard";
 import { TourSpaCard } from "./cards/TourSpaCard";
 import { TransportCard } from "./cards/TransportCard";
 import { DefaultCard } from "./cards/DefaultCard";
+import { EtcCard } from "./cards/EtcCard";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { CardEditorModal } from "./CardEditorModal";
 
@@ -232,6 +233,7 @@ export function renderCardInternal(card: any, props: any = {}) {
     case 'food': return <FoodCard key={card.id} card={card} {...props} />;
     case 'tourspa': return <TourSpaCard key={card.id} card={card} {...props} />;
     case 'transport': return <TransportCard key={card.id} card={card} {...props} />;
+    case 'other': return <EtcCard key={card.id} card={card} {...props} />;
     default: return <DefaultCard key={card.id} card={card} {...props} />;
   }
 }
@@ -300,6 +302,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
         onVoteToggle: handleVoteToggle,
         onUpdateCard: handleUpdateCard,
         onOpenNotes: () => setIsNotesOpen(true),
+        hasNotes: !!(card.notes && Array.isArray(card.notes) && card.notes.length > 0),
         isHeader
       })}
 

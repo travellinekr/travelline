@@ -1,4 +1,4 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo } from "react";
@@ -8,6 +8,7 @@ import { TransportationPicker } from "./TransportationPicker";
 import { FoodPicker } from "./FoodPicker";
 import { ShoppingPicker } from "./ShoppingPicker";
 import { TourSpaPicker } from "./TourSpaPicker";
+import { EtcPicker } from "./EtcPicker";
 
 export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard }: any) {
 
@@ -27,7 +28,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
     { id: 'shopping', label: '쇼핑', icon: ShoppingBag },
     { id: 'transport', label: '교통', icon: Bus },
     { id: 'tourspa', label: '투어&스파', icon: Palmtree },
-    { id: 'other', label: '기타', icon: Plus },
+    { id: 'other', label: '기타', icon: MoreHorizontal },
   ];
 
   const renderTab = (tab: any) => {
@@ -117,6 +118,39 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               onDeleteCard={onRemoveCard}
               createdCards={filteredCards}
             />
+          ) : activeCategory === 'other' ? (
+            <EtcPicker
+              destinationCity={destinationCard?.city}
+              onAddCard={onCreateCard}
+              onDeleteCard={onRemoveCard}
+              createdCards={filteredCards}
+            />
+          ) : activeCategory === 'preparation' ? (
+            <>
+              {!destinationCard ? (
+                <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
+                  <CheckSquare className="w-12 h-12 text-slate-300 mb-3" />
+                  <p className="text-sm text-slate-500">먼저 여행지를 선택해주세요</p>
+                </div>
+              ) : (
+                <>
+                  {filteredCards.length === 0 && !isOver ? (
+                    <div className="text-center text-gray-400 py-20 flex flex-col items-center gap-2">
+                      <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">📭</div>
+                      <p>보관함이 비었습니다</p>
+                    </div>
+                  ) : (
+                    filteredCards.map((card: any) => (
+                      <DraggableCard key={card.id} card={card} />
+                    ))
+                  )}
+                  <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
+                    <Plus className="w-5 h-5" />
+                    <span className="font-medium text-sm">직접 추가하기</span>
+                  </button>
+                </>
+              )}
+            </>
           ) : (
             <>
               {filteredCards.length === 0 && !isOver ? (

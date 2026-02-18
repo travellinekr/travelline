@@ -5,8 +5,11 @@ import { throttle } from "lodash";
 import { useStorage, useMyPresence, useMutation } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
-import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car } from "lucide-react";
+import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
 import Link from "next/link";
+import { useAuth } from "@/hooks/useAuth";
+import { useRouter } from "next/navigation";
+import { getEntryCardBlocks } from "@/data/entryCardGuide";
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 
@@ -28,6 +31,83 @@ import { Confirm } from "@/components/board/Confirm";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 type InboxStateType = 'closed' | 'half' | 'full';
+
+// 사용자 아바타 + 팝업 메뉴 컴포넌트
+function UserAvatarMenu() {
+    const { user, signOut } = useAuth();
+    const router = useRouter();
+    const [open, setOpen] = useState(false);
+    const ref = useRef<HTMLDivElement>(null);
+
+    const email = user?.email || '';
+    const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
+
+    // 이니셜 추출
+    const getInitials = () => {
+        const name = user?.user_metadata?.full_name;
+        if (name) {
+            const parts = name.trim().split(' ');
+            if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
+            return name[0].toUpperCase();
+        }
+        return email ? email[0].toUpperCase() : '?';
+    };
+
+    // 이메일 기반 고정 색상
+    const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500', 'bg-cyan-500'];
+    const avatarColor = email ? colors[email.charCodeAt(0) % colors.length] : 'bg-slate-400';
+
+    // 외부 클릭 시 닫기
+    useEffect(() => {
+        const handleClickOutside = (e: MouseEvent) => {
+            if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+        };
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    const handleSignOut = async () => {
+        await signOut();
+        router.push('/login');
+    };
+
+    return (
+        <div className="relative" ref={ref}>
+            <button
+                onClick={() => setOpen(!open)}
+                className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+            >
+                <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
+                    {getInitials()}
+                </div>
+                <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
+            </button>
+
+            {open && (
+                <div className="absolute right-0 top-12 w-56 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 z-50">
+                    <div className="px-4 py-3 border-b border-gray-50">
+                        <div className="flex items-center gap-3">
+                            <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
+                                {getInitials()}
+                            </div>
+                            <div className="min-w-0">
+                                <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>
+                                <p className="text-xs text-slate-400 truncate">{email}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        onClick={handleSignOut}
+                        className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-red-500 hover:bg-red-50 transition-colors"
+                    >
+                        <LogOut className="w-4 h-4" />
+                        로그아웃
+                    </button>
+                </div>
+            )}
+        </div>
+    );
+}
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const columns = useStorage((root) => root.columns);
@@ -191,6 +271,45 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Track previous destination card ID to detect removal
     const prevDestinationCardId = useRef<string | null>(null);
 
+    // p1 카드(입국심사&필요사항) 메모 업데이트 mutation
+    const updateEntryCardNotes = useMutation(({ storage }, notes: any[]) => {
+        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+        if (!cardsMap) return;
+        const p1Card = cardsMap.get('p1');
+        if (p1Card) {
+            (p1Card as any).set('notes', notes);
+        }
+    }, []);
+
+    // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트)
+    const migrateP1Card = useMutation(({ storage }) => {
+        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+        if (!cardsMap) return;
+        const p1Card = cardsMap.get('p1');
+        if (p1Card) {
+            const currentText = (p1Card as any).get('text');
+            // 구버전 텍스트면 업데이트
+            if (currentText !== '입국심사&필요사항') {
+                (p1Card as any).set('text', '입국심사&필요사항');
+            }
+            // isEntryCard 플래그가 없으면 추가
+            if (!(p1Card as any).get('isEntryCard')) {
+                (p1Card as any).set('isEntryCard', true);
+            }
+            // 기존 잘못된 notes(빈 배열 등) 초기화
+            const existingNotes = (p1Card as any).get('notes');
+            if (Array.isArray(existingNotes) && existingNotes.length === 0) {
+                (p1Card as any).set('notes', undefined);
+            }
+        }
+    }, []);
+
+    // 앱 마운트 시 p1 카드 마이그레이션 실행
+    useEffect(() => {
+        migrateP1Card();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
     // Cleanup flight info and Day columns when destination is removed
     useEffect(() => {
         const currentId = destinationCard?.id || null;
@@ -199,11 +318,28 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // Detect removal: had a destination before, now it's gone
         if (prevId && !currentId) {
             cleanupFlightAndDays();
+            // 입국심사 카드 메모 초기화
+            updateEntryCardNotes([]);
         }
 
         // Update ref for next render
         prevDestinationCardId.current = currentId;
-    }, [destinationCard, cleanupFlightAndDays]);
+    }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes]);
+
+    // 여행지 변경 시 입국심사&필요사항 카드 메모 자동 삽입
+    const prevDestCityRef = useRef<string | null>(null);
+    useEffect(() => {
+        const cityName = destinationCard?.text || destinationCard?.title || null;
+        const prevCity = prevDestCityRef.current;
+
+        if (cityName && cityName !== prevCity) {
+            // 새 도시가 설정됨 → 해당 국가 입국신고서 블록 삽입
+            const blocks = getEntryCardBlocks(cityName);
+            updateEntryCardNotes(blocks);
+        }
+
+        prevDestCityRef.current = cityName;
+    }, [destinationCard, updateEntryCardNotes]);
 
     const handlePointerMove = (e: React.PointerEvent) => {
         if (isMobileDragging) return;
@@ -386,6 +522,52 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             setActiveDragItem(null);
             return;
+        } else if (overId === 'etc-delete-zone') {
+            // 기타 삭제 영역에 드롭하면 카드 삭제
+            let foundColumnId: string | null = null;
+            if (columns) {
+                for (const col of (columns as any).values()) {
+                    const list = col.cardIds;
+                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
+                    if (cardIdsArray.includes(activeId)) {
+                        foundColumnId = col.id;
+                        break;
+                    }
+                }
+            }
+
+            if (foundColumnId) {
+                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+            }
+
+            setActiveDragItem(null);
+            return;
+
+        } else if (
+            overId === 'shopping-delete-zone' ||
+            overId === 'hotel-delete-zone' ||
+            overId === 'food-delete-zone'
+        ) {
+            // 쇼핑 / 숙소 / 맛집 삭제 영역에 드롭하면 카드 삭제
+            let foundColumnId: string | null = null;
+            if (columns) {
+                for (const col of (columns as any).values()) {
+                    const list = col.cardIds;
+                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
+                    if (cardIdsArray.includes(activeId)) {
+                        foundColumnId = col.id;
+                        break;
+                    }
+                }
+            }
+
+            if (foundColumnId) {
+                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+            }
+
+            setActiveDragItem(null);
+            return;
+
         } else {
             for (const col of (columns as any).values()) {
                 const list = col.cardIds;
@@ -850,12 +1032,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-3">
-                                <div className="flex -space-x-2">
-                                    <div className="w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center border-2 border-white font-bold text-sm">나</div>
-                                    <div className="w-8 h-8 rounded-full bg-rose-400 text-white flex items-center justify-center border-2 border-white font-bold text-sm">J</div>
-                                </div>
-                            </div>
+                            <UserAvatarMenu />
                         </header>
 
                         <main className="flex-1 flex overflow-hidden relative">

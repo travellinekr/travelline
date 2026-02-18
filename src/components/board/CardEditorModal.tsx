@@ -30,9 +30,19 @@ export function CardEditorModal({
     const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
 
     // BlockNote 에디터 생성 (초기값 설정)
+    // 빈 배열이거나 유효하지 않은 형식이면 undefined로 처리
+    const safeInitialContent = (() => {
+        if (!cardNotes || !Array.isArray(cardNotes) || cardNotes.length === 0) return undefined;
+        // 각 블록에 content가 있고 유효한지 확인
+        const valid = cardNotes.every((block: any) =>
+            block && block.type && Array.isArray(block.content) && block.content.length > 0
+        );
+        return valid ? cardNotes : undefined;
+    })();
+
     const editor = useCreateBlockNote({
         dictionary: ko,
-        initialContent: cardNotes || undefined,
+        initialContent: safeInitialContent,
     });
 
     // notes 업데이트 mutation
