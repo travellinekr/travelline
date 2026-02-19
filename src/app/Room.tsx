@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 import { LiveblocksProvider, RoomProvider, ClientSideSuspense } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { type Card } from "../liveblocks.config";
+import { supabase } from "@/lib/supabaseClient";
 
 // ✨ [수정됨] 메인 앱과 동일한 레이아웃(1000px 중앙 정렬)을 가진 스켈레톤
 function LoadingSkeleton() {
@@ -76,7 +77,19 @@ export function Room({ children, roomId }: { children: ReactNode, roomId: string
   ];
 
   return (
-    <LiveblocksProvider publicApiKey="pk_dev_jkTYSaS6FeHPjxNrP79_uDGgtMtBMXph5W7puIETGoLZDV0hVI8jyQHGWJlWXZuQ">
+    <LiveblocksProvider authEndpoint={async (room) => {
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      const response = await fetch('/api/liveblocks-auth', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify({ room }),
+      });
+      return await response.json();
+    }}>
       <RoomProvider
         id={roomId}
         initialStorage={{

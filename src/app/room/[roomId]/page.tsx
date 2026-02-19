@@ -1,6 +1,7 @@
 import { Room } from "../../Room";
 import { CollaborativeApp } from "../../CollaborativeApp";
 import { supabase } from "@/lib/supabaseClient";
+import { redirect } from "next/navigation";
 
 export default async function RoomPage({
   params,
@@ -9,14 +10,19 @@ export default async function RoomPage({
 }) {
   const { roomId } = await params;
 
-  // DB에서 미리 제목 가져오기 (Server-side Fetching)
+  // DB에서 프로젝트 존재 여부 확인
   const { data } = await supabase
     .from('projects')
     .select('title')
     .eq('id', roomId)
     .single();
 
-  const projectTitle = data?.title || "내 프로젝트";
+  // 삭제된 프로젝트 or 잘못된 URL → 메인 페이지로 리다이렉트
+  if (!data) {
+    redirect('/');
+  }
+
+  const projectTitle = data.title || "내 프로젝트";
 
   return (
     <Room roomId={roomId}>

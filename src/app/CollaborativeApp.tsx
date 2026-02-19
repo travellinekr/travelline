@@ -5,9 +5,11 @@ import { throttle } from "lodash";
 import { useStorage, useMyPresence, useMutation } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
+import { createPortal } from "react-dom";
 import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
+import { useRole } from "@/hooks/useRole";
 import { useRouter } from "next/navigation";
 import { getEntryCardBlocks } from "@/data/entryCardGuide";
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
@@ -32,12 +34,104 @@ import { Confirm } from "@/components/board/Confirm";
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 type InboxStateType = 'closed' | 'half' | 'full';
 
+// 공유 모달 컴포넌트
+function ShareModal({ shareUrl, onClose, addToast }: { shareUrl: string; onClose: () => void; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
+    const handleKakao = () => {
+        const kakaoUrl = `kakaotalk://msg/send?text=${encodeURIComponent(shareUrl)}`;
+        window.location.href = kakaoUrl;
+        setTimeout(() => {
+            // 앱이 없으면 클립보드에 복사 안내
+        }, 1500);
+    };
+
+    const handleLine = () => {
+        window.open(`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(shareUrl)}`, '_blank');
+    };
+
+    const handleCopy = async () => {
+        try {
+            await navigator.clipboard.writeText(shareUrl);
+            addToast('링크가 복사되었습니다!', 'info');
+            onClose();
+        } catch {
+            addToast('복사에 실패했습니다.', 'warning');
+        }
+    };
+
+    return createPortal(
+        <div
+            style={{ position: 'fixed', inset: 0, zIndex: 9999999 }}
+            className="flex items-center justify-center bg-black/40 backdrop-blur-sm"
+            onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+        >
+            <div className="bg-white rounded-3xl shadow-2xl w-80 overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+                {/* 헤더 */}
+                <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+                    <h2 className="text-base font-bold text-slate-800">공유하기</h2>
+                    <button onClick={onClose} className="w-7 h-7 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors text-slate-400 hover:text-slate-600">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
+                    </button>
+                </div>
+
+                {/* 공유 버튼들 */}
+                <div className="flex justify-center gap-8 py-6 px-4">
+                    {/* 카카오톡 */}
+                    <button onClick={handleKakao} className="flex flex-col items-center gap-2 group">
+                        <div className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform" style={{ backgroundColor: '#FEE500' }}>
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M12 3C7.03 3 3 6.36 3 10.5c0 2.64 1.65 4.97 4.13 6.32l-1.05 3.87c-.08.3.25.54.5.36L11.1 18c.29.03.59.05.9.05 4.97 0 9-3.36 9-7.5S16.97 3 12 3z" fill="#3C1E1E" />
+                            </svg>
+                        </div>
+                        <span className="text-xs text-slate-600 font-medium">카카오톡</span>
+                    </button>
+
+                    {/* LINE */}
+                    <button onClick={handleLine} className="flex flex-col items-center gap-2 group">
+                        <div className="w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform" style={{ backgroundColor: '#06C755' }}>
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+                                <path d="M19.365 9.089c.19 0 .343.153.343.342v1.69a.342.342 0 01-.343.342h-2.55v1.066h2.55c.19 0 .343.153.343.342v1.69a.342.342 0 01-.343.342h-4.583a.342.342 0 01-.341-.342V9.431c0-.189.152-.342.341-.342h4.583zm-6.7 0c.189 0 .342.153.342.342v5.32a.342.342 0 01-.342.342h-1.69a.342.342 0 01-.342-.342V9.431c0-.189.153-.342.342-.342h1.69zm-3.404 0c.16 0 .302.106.337.264l1.26 5.32a.341.341 0 01-.337.42h-1.69a.342.342 0 01-.337-.264L7.23 11.44l-.745 3.389a.342.342 0 01-.337.264h-1.69a.341.341 0 01-.337-.42l1.26-5.32a.342.342 0 01.337-.264h3.543zM12 2C6.477 2 2 5.925 2 10.765c0 3.717 2.503 6.942 6.165 8.424l-.43 1.597a.465.465 0 00.683.524L11.9 19.5c.032.002.065.003.1.003 5.523 0 10-3.925 10-8.738C22 5.925 17.523 2 12 2z" />
+                            </svg>
+                        </div>
+                        <span className="text-xs text-slate-600 font-medium">LINE</span>
+                    </button>
+
+                    {/* 링크 복사 */}
+                    <button onClick={handleCopy} className="flex flex-col items-center gap-2 group">
+                        <div className="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#64748b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" />
+                                <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" />
+                            </svg>
+                        </div>
+                        <span className="text-xs text-slate-600 font-medium">링크 복사</span>
+                    </button>
+                </div>
+
+                {/* URL 표시 + 복사 */}
+                <div className="mx-4 mb-4 flex items-center gap-2 bg-slate-50 rounded-xl px-3 py-2.5 border border-slate-100">
+                    <span className="flex-1 text-xs text-slate-500 truncate font-mono">{shareUrl}</span>
+                    <button
+                        onClick={handleCopy}
+                        className="shrink-0 text-xs font-semibold text-emerald-600 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-3 py-1 rounded-lg transition-colors"
+                    >
+                        복사
+                    </button>
+                </div>
+            </div>
+        </div>,
+        document.body
+    );
+}
+
 // 사용자 아바타 + 팝업 메뉴 컴포넌트
-function UserAvatarMenu() {
+function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
     const { user, signOut } = useAuth();
     const router = useRouter();
     const [open, setOpen] = useState(false);
+    const [showShare, setShowShare] = useState(false);
+    const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
     const ref = useRef<HTMLDivElement>(null);
+    const buttonRef = useRef<HTMLButtonElement>(null);
 
     const email = user?.email || '';
     const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
@@ -60,21 +154,60 @@ function UserAvatarMenu() {
     // 외부 클릭 시 닫기
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
-            if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+            if (ref.current && !ref.current.contains(e.target as Node) &&
+                buttonRef.current && !buttonRef.current.contains(e.target as Node)) {
+                setOpen(false);
+            }
         };
         document.addEventListener('mousedown', handleClickOutside);
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
+
+    const handleToggle = () => {
+        if (!open && buttonRef.current) {
+            const rect = buttonRef.current.getBoundingClientRect();
+            setPopupPos({ top: rect.bottom + 8, right: window.innerWidth - rect.right });
+        }
+        setOpen(!open);
+    };
 
     const handleSignOut = async () => {
         await signOut();
         router.push('/login');
     };
 
+    // ─── 비로그인 사용자: 회원가입 버튼 표시 ───
+    if (!user) {
+        // shareUrl에서 경로만 추출 (예: /room/abc-123)
+        const boardPath = (() => {
+            try { return new URL(shareUrl).pathname; } catch { return '/'; }
+        })();
+        const loginUrl = `/login?redirect=${encodeURIComponent(boardPath)}`;
+
+        return (
+            <div className="flex items-center gap-2">
+                <button
+                    onClick={() => router.push(loginUrl)}
+                    className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
+                >
+                    로그인
+                </button>
+                <button
+                    onClick={() => router.push(loginUrl)}
+                    className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+                >
+                    회원가입
+                </button>
+            </div>
+        );
+    }
+
+
     return (
-        <div className="relative" ref={ref}>
+        <>
             <button
-                onClick={() => setOpen(!open)}
+                ref={buttonRef}
+                onClick={handleToggle}
                 className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
             >
                 <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
@@ -83,8 +216,13 @@ function UserAvatarMenu() {
                 <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
             </button>
 
-            {open && (
-                <div className="absolute right-0 top-12 w-56 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 z-50">
+            {open && typeof document !== 'undefined' && createPortal(
+                <div
+                    ref={ref}
+                    style={{ top: popupPos.top, right: popupPos.right, position: 'fixed', zIndex: 999999 }}
+                    className="w-56 bg-white rounded-2xl shadow-xl border border-gray-100 py-2"
+                >
+                    {/* 사용자 정보 */}
                     <div className="px-4 py-3 border-b border-gray-50">
                         <div className="flex items-center gap-3">
                             <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
@@ -96,6 +234,18 @@ function UserAvatarMenu() {
                             </div>
                         </div>
                     </div>
+                    {/* 공유하기 */}
+                    <button
+                        onClick={() => { setShowShare(true); setOpen(false); }}
+                        className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-emerald-600 hover:bg-emerald-50 transition-colors"
+                    >
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" /><line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                        </svg>
+                        공유하기
+                    </button>
+                    {/* 로그아웃 */}
                     <button
                         onClick={handleSignOut}
                         className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-red-500 hover:bg-red-50 transition-colors"
@@ -103,10 +253,21 @@ function UserAvatarMenu() {
                         <LogOut className="w-4 h-4" />
                         로그아웃
                     </button>
-                </div>
+                </div>,
+                document.body
             )}
-        </div>
+
+            {/* 공유 모달 */}
+            {showShare && typeof document !== 'undefined' && (
+                <ShareModal
+                    shareUrl={shareUrl}
+                    onClose={() => setShowShare(false)}
+                    addToast={addToast}
+                />
+            )}
+        </>
     );
+
 }
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
@@ -122,6 +283,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }, 50),
         [updateMyPresence]
     );
+
+    // 권한 체크
+    const { canEdit, loading: roleLoading } = useRole(roomId);
 
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");
     const [activeDragItem, setActiveDragItem] = useState<any>(null);
@@ -254,11 +418,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     }, []);
 
-    const publicUrl = "https://bistred-nylah-subcrenately.ngrok-free.app";
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
+    const publicUrl = `${baseUrl}/room/${roomId}`;
 
     const sensors = useSensors(
-        useSensor(MouseSensor, { activationConstraint: { distance: 15 } }),
-        useSensor(TouchSensor, { activationConstraint: { delay: 250, tolerance: 5 } })
+        useSensor(MouseSensor, { activationConstraint: canEdit ? { distance: 15 } : { distance: 999999 } }),
+        useSensor(TouchSensor, { activationConstraint: canEdit ? { delay: 250, tolerance: 5 } : { distance: 999999 } })
     );
 
     const destinationCard = useMemo(() => {
@@ -304,11 +469,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     }, []);
 
-    // 앱 마운트 시 p1 카드 마이그레이션 실행
+    // 앱 마운트 시 p1 카드 마이그레이션 실행 (editor/owner만)
     useEffect(() => {
+        if (roleLoading || !canEdit) return; // 로딩 중이거나 viewer는 write 불가
         migrateP1Card();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [canEdit, roleLoading]);
 
     // Cleanup flight info and Day columns when destination is removed
     useEffect(() => {
@@ -316,7 +482,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const prevId = prevDestinationCardId.current;
 
         // Detect removal: had a destination before, now it's gone
-        if (prevId && !currentId) {
+        if (prevId && !currentId && canEdit && !roleLoading) {
             cleanupFlightAndDays();
             // 입국심사 카드 메모 초기화
             updateEntryCardNotes([]);
@@ -324,11 +490,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         // Update ref for next render
         prevDestinationCardId.current = currentId;
-    }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes]);
+    }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes, canEdit, roleLoading]);
 
-    // 여행지 변경 시 입국심사&필요사항 카드 메모 자동 삽입
+    // 여행지 변경 시 입국심사&필요사항 카드 메모 자동 삽입 (editor/owner만)
     const prevDestCityRef = useRef<string | null>(null);
     useEffect(() => {
+        if (roleLoading || !canEdit) return; // 로딩 중이거나 viewer는 write 불가
         const cityName = destinationCard?.text || destinationCard?.title || null;
         const prevCity = prevDestCityRef.current;
 
@@ -339,7 +506,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         prevDestCityRef.current = cityName;
-    }, [destinationCard, updateEntryCardNotes]);
+    }, [destinationCard, updateEntryCardNotes, canEdit, roleLoading]);
 
     const handlePointerMove = (e: React.PointerEvent) => {
         if (isMobileDragging) return;
@@ -982,7 +1149,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <>
-            <DndContext sensors={sensors} collisionDetection={customCollisionDetection} onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
+            <DndContext sensors={sensors} collisionDetection={customCollisionDetection} onDragStart={canEdit ? handleDragStart : undefined} onDragEnd={canEdit ? handleDragEnd : undefined}>
                 <style>{`
         body { overscroll-behavior-y: none; background-color: #ffffff; }
         * { touch-action: manipulation; }
@@ -1025,14 +1192,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 <Link href="/" className="w-10 h-10 flex items-center justify-center rounded-lg bg-emerald-500 text-white font-black text-xl hover:bg-emerald-600 transition-all shadow-sm">M</Link>
                                 <div className="flex flex-col">
                                     <h1 className="font-bold text-lg md:text-2xl tracking-tight text-slate-700 flex items-center gap-2">{projectTitle}</h1>
-                                    <div className="flex items-center gap-1 text-[10px] md:text-xs text-slate-400 mt-0.5">
-                                        <LinkIcon className="w-3 h-3" />
-                                        <span>초대 링크: </span>
-                                        <span className="font-mono bg-emerald-50 text-emerald-600 px-1 rounded select-all cursor-pointer truncate max-w-[150px] md:max-w-none">{publicUrl}</span>
-                                    </div>
                                 </div>
                             </div>
-                            <UserAvatarMenu />
+                            <UserAvatarMenu shareUrl={publicUrl} addToast={addToast} />
                         </header>
 
                         <main className="flex-1 flex overflow-hidden relative">
@@ -1057,12 +1219,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                     {/* 🎯 Fixed Destination Header - No Scroll */}
                                     <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
-                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} />
+                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} />
                                     </div>
 
                                     {/* 📜 Scrollable Main Timeline */}
                                     <div className="flex-1 overflow-y-auto custom-scrollbar">
-                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} />
+                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} canEdit={canEdit} />
                                     </div>
                                 </section>
 
@@ -1130,6 +1292,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             onCreateCard={handleCreateCard}
                                             onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
                                             destinationCard={destinationCard}
+                                            canEdit={canEdit}
                                         />
                                     </div>
                                 </div>

@@ -15,6 +15,7 @@ interface CardEditorModalProps {
     cardTitle: string;
     isOpen: boolean;
     onClose: () => void;
+    canEdit?: boolean;
 }
 
 export function CardEditorModal({
@@ -22,6 +23,7 @@ export function CardEditorModal({
     cardTitle,
     isOpen,
     onClose,
+    canEdit = true,
 }: CardEditorModalProps) {
     // LiveBlocks에서 현재 카드의 notes 가져오기
     const cardNotes = useStorage((root) => root.cards.get(cardId)?.notes);
@@ -55,8 +57,9 @@ export function CardEditorModal({
         }
     }, [cardId]);
 
-    // 자동 저장 함수 (디바운스 500ms)
+    // 자동 저장 함수 (디바운스 500ms) - editor/owner만 저장
     const handleEditorChange = useCallback(() => {
+        if (!canEdit) return; // viewer는 저장 불가
         if (saveTimerRef.current) {
             clearTimeout(saveTimerRef.current);
         }
@@ -65,7 +68,7 @@ export function CardEditorModal({
             const blocks = editor.document;
             updateNotes(blocks);
         }, 500);
-    }, [editor, updateNotes]);
+    }, [editor, updateNotes, canEdit]);
 
     // 에디터 변경 감지
     useEffect(() => {

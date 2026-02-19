@@ -8,7 +8,7 @@ import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
-const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards }: any) {
+const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: 'destination-header' });
   const { active } = useDndContext();
 
@@ -29,7 +29,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards 
         {cards.length > 0 ? (
           cards.map((card: any) => {
             if (!card) return null;
-            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} />;
+            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} canEdit={canEdit} />;
           })
         ) : (
           <div className="w-full h-[50px] flex items-center justify-center">
@@ -44,7 +44,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards 
   );
 });
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
   const allCards = useStorage((root) => root.cards);
@@ -163,7 +163,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           {/* 카드 리스트 렌더링 */}
           {cards.map((card: any) => {
             if (!card) return null;
-            return <DraggableCard key={card.id} card={card} variant="compact" />;
+            return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} />;
           })}
         </div>
       </SortableContext>
@@ -175,7 +175,8 @@ export const Timeline = memo(function Timeline({
   columns,
   cards,
   addToast,
-  sections = ['destination-header', 'candidates', 'days'] // default: render all
+  sections = ['destination-header', 'candidates', 'days'],
+  canEdit = true,
 }: any) {
   const { active } = useDndContext();
   const day0Column = columns.get("day0");
@@ -245,7 +246,7 @@ export const Timeline = memo(function Timeline({
 
       {shouldRenderDestinationHeader && (
         <div className="sticky top-0 z-20 bg-white shadow-sm overflow-hidden">
-          <DestinationHeaderSection cards={destHeaderCards} />
+          <DestinationHeaderSection cards={destHeaderCards} canEdit={canEdit} />
         </div>
       )}
 
@@ -262,6 +263,7 @@ export const Timeline = memo(function Timeline({
                   date="Candidates"
                   cards={columns.get("destination-candidates")?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || []}
                   color="emerald"
+                  canEdit={canEdit}
                 />
               </div>
             )}
@@ -286,6 +288,7 @@ export const Timeline = memo(function Timeline({
                   date="Check List"
                   cards={day0Cards}
                   color="blue"
+                  canEdit={canEdit}
                   onMapClick={(dayNumber: number, markers: any[]) => {
                     setSelectedDayForMap({ dayNumber, markers });
                   }}
@@ -298,6 +301,7 @@ export const Timeline = memo(function Timeline({
                     title={day.title}
                     date={day.date}
                     cards={day.cards}
+                    canEdit={canEdit}
                     onMapClick={(dayNumber: number, markers: any[]) => {
                       setSelectedDayForMap({ dayNumber, markers });
                     }}

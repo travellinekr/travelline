@@ -9,7 +9,20 @@ export default function DashboardHeader() {
   const { user, signOut } = useAuth();
   const router = useRouter();
   const [popupOpen, setPopupOpen] = useState(false);
+  const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
   const popupRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  const handleTogglePopup = () => {
+    if (!popupOpen && buttonRef.current) {
+      const rect = buttonRef.current.getBoundingClientRect();
+      setPopupPos({
+        top: rect.bottom + 8,
+        right: window.innerWidth - rect.right,
+      });
+    }
+    setPopupOpen(!popupOpen);
+  };
 
   const handleSignOut = async () => {
     await signOut();
@@ -47,54 +60,60 @@ export default function DashboardHeader() {
   }, []);
 
   return (
-    <header className="h-20 bg-white border-b flex items-center justify-between px-8 shadow-sm shrink-0">
-      <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-        <span className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white text-lg font-sans">
-          M
-        </span>
-        MindFlows
-      </h1>
+    <>
+      <header className="h-20 bg-white border-b flex items-center justify-between px-8 shadow-sm shrink-0">
+        <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+          <span className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white text-lg font-sans">
+            M
+          </span>
+          MindFlows
+        </h1>
 
-      {/* 사용자 아바타 + 팝업 */}
-      <div className="relative" ref={popupRef}>
-        <button
-          onClick={() => setPopupOpen(!popupOpen)}
-          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+        {/* 사용자 아바타 */}
+        <div>
+          <button
+            ref={buttonRef}
+            onClick={handleTogglePopup}
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+          >
+            <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
+              {getInitials()}
+            </div>
+            <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
+          </button>
+        </div>
+      </header>
+
+      {/* 팝업 - fixed로 모든 레이어 위에 렌더링 */}
+      {popupOpen && (
+        <div
+          ref={popupRef}
+          style={{ top: popupPos.top, right: popupPos.right }}
+          className="fixed w-60 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 z-[9999] animate-in fade-in slide-in-from-top-2 duration-150"
         >
-          {/* 이니셜 아바타 */}
-          <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
-            {getInitials()}
-          </div>
-          <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
-        </button>
-
-        {/* 팝업 */}
-        {popupOpen && (
-          <div className="absolute right-0 top-12 w-60 bg-white rounded-2xl shadow-xl border border-gray-100 py-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-            {/* 사용자 정보 */}
-            <div className="px-4 py-3 border-b border-gray-50">
-              <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
-                  {getInitials()}
-                </div>
-                <div className="min-w-0">
-                  <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>
-                  <p className="text-xs text-slate-400 truncate">{email}</p>
-                </div>
+          {/* 사용자 정보 */}
+          <div className="px-4 py-3 border-b border-gray-50">
+            <div className="flex items-center gap-3">
+              <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
+                {getInitials()}
+              </div>
+              <div className="min-w-0">
+                <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>
+                <p className="text-xs text-slate-400 truncate">{email}</p>
               </div>
             </div>
-
-            {/* 로그아웃 */}
-            <button
-              onClick={handleSignOut}
-              className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-red-500 hover:bg-red-50 transition-colors"
-            >
-              <LogOut className="w-4 h-4" />
-              로그아웃
-            </button>
           </div>
-        )}
-      </div>
-    </header>
+
+          {/* 로그아웃 */}
+          <button
+            onClick={handleSignOut}
+            className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-red-500 hover:bg-red-50 transition-colors"
+          >
+            <LogOut className="w-4 h-4" />
+            로그아웃
+          </button>
+        </div>
+      )}
+    </>
   );
 }

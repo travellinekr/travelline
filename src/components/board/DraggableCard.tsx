@@ -238,7 +238,7 @@ export function renderCardInternal(card: any, props: any = {}) {
   }
 }
 
-export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any, onRemove?: () => void, variant?: 'default' | 'compact', isHeader?: boolean }) {
+export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true }: { card: any, onRemove?: () => void, variant?: 'default' | 'compact', isHeader?: boolean, canEdit?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
 
@@ -254,6 +254,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
     isDragging
   } = useSortable({
     id: card.id,
+    disabled: !canEdit, // viewer면 드래그 비활성화
     data: card,
   });
 
@@ -264,12 +265,16 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
     position: 'relative' as const,
   };
 
+  // viewer면 listeners 무효화 (드래그 핸들 제거)
+  const dragListeners = canEdit ? listeners : {};
+
   const handleVoteToggle = (cardId: string) => {
-    if (!userId) return; // Skip if userId not yet loaded
+    if (!userId) return;
     toggleVote({ cardId, userId });
   };
 
   const handleUpdateCard = (updates: Record<string, any>) => {
+    if (!canEdit) return; // viewer는 수정 불가
     updateCard({ cardId: card.id, updates });
   };
 
@@ -295,15 +300,16 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
       {renderCardInternal(card, {
         onRef: setNodeRef,
         style,
-        listeners,
+        listeners: dragListeners,
         attributes,
-        onRemove,
+        onRemove: canEdit ? onRemove : undefined, // viewer면 삭제 비활성화
         variant,
         onVoteToggle: handleVoteToggle,
         onUpdateCard: handleUpdateCard,
         onOpenNotes: () => setIsNotesOpen(true),
         hasNotes: !!(card.notes && Array.isArray(card.notes) && card.notes.length > 0),
-        isHeader
+        isHeader,
+        canEdit,
       })}
 
       {/* 카드 에디터 모달 */}
@@ -313,6 +319,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader }: { card: any
           cardTitle={card.title || card.text || '카드'}
           isOpen={isNotesOpen}
           onClose={() => setIsNotesOpen(false)}
+          canEdit={canEdit}
         />
       )}
     </>

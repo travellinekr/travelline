@@ -10,7 +10,7 @@ import { ShoppingPicker } from "./ShoppingPicker";
 import { TourSpaPicker } from "./TourSpaPicker";
 import { EtcPicker } from "./EtcPicker";
 
-export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard }: any) {
+export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
 
@@ -89,8 +89,8 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           ) : activeCategory === 'hotel' ? (
             <AccommodationPicker
               destinationCity={destinationCard?.city}
-              onAddCard={onCreateCard}
-              onDeleteCard={onRemoveCard}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
             />
           ) : activeCategory === 'transport' ? (
@@ -100,29 +100,29 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           ) : activeCategory === 'food' ? (
             <FoodPicker
               destinationCity={destinationCard?.city}
-              onAddCard={onCreateCard}
-              onDeleteCard={onRemoveCard}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
             />
           ) : activeCategory === 'shopping' ? (
             <ShoppingPicker
               destinationCity={destinationCard?.city}
-              onAddCard={onCreateCard}
-              onDeleteCard={onRemoveCard}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
             />
           ) : activeCategory === 'tourspa' ? (
             <TourSpaPicker
               destinationCity={destinationCard?.city}
-              onAddCard={onCreateCard}
-              onDeleteCard={onRemoveCard}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
             />
           ) : activeCategory === 'other' ? (
             <EtcPicker
               destinationCity={destinationCard?.city}
-              onAddCard={onCreateCard}
-              onDeleteCard={onRemoveCard}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
             />
           ) : activeCategory === 'preparation' ? (
@@ -136,18 +136,20 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
                 <>
                   {filteredCards.length === 0 && !isOver ? (
                     <div className="text-center text-gray-400 py-20 flex flex-col items-center gap-2">
-                      <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">📭</div>
+                      <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">💭</div>
                       <p>보관함이 비었습니다</p>
                     </div>
                   ) : (
                     filteredCards.map((card: any) => (
-                      <DraggableCard key={card.id} card={card} />
+                      <DraggableCard key={card.id} card={card} canEdit={canEdit} />
                     ))
                   )}
-                  <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
-                    <Plus className="w-5 h-5" />
-                    <span className="font-medium text-sm">직접 추가하기</span>
-                  </button>
+                  {canEdit && (
+                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
+                      <Plus className="w-5 h-5" />
+                      <span className="font-medium text-sm">직접 추가하기</span>
+                    </button>
+                  )}
                 </>
               )}
             </>
@@ -155,19 +157,21 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
             <>
               {filteredCards.length === 0 && !isOver ? (
                 <div className="text-center text-gray-400 py-20 flex flex-col items-center gap-2">
-                  <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">📭</div>
+                  <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">💭</div>
                   <p>보관함이 비었습니다</p>
                 </div>
               ) : (
                 filteredCards.map((card: any) => (
-                  <DraggableCard key={card.id} card={card} />
+                  <DraggableCard key={card.id} card={card} canEdit={canEdit} />
                 ))
               )}
 
-              <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
-                <Plus className="w-5 h-5" />
-                <span className="font-medium text-sm">직접 추가하기</span>
-              </button>
+              {canEdit && (
+                <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
+                  <Plus className="w-5 h-5" />
+                  <span className="font-medium text-sm">직접 추가하기</span>
+                </button>
+              )}
             </>
           )}
 

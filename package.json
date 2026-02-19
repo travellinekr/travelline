@@ -20,6 +20,7 @@
     "@liveblocks/client": "^3.12.1",
     "@liveblocks/node": "^3.12.1",
     "@liveblocks/react": "^3.12.1",
+    "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.90.1",
     "@types/lodash": "^4.17.23",
     "ai": "^6.0.33",

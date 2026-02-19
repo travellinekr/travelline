@@ -1,22 +1,36 @@
 'use client';
 
 import { useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
 
 export default function LoginPage() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
     const [error, setError] = useState('');
+    const searchParams = useSearchParams();
+    const redirectPath = searchParams.get('redirect') || '/'; // 로그인 후 돌아갈 경로
 
     const handleSocialLogin = async (provider: 'google' | 'kakao') => {
         setLoadingProvider(provider);
         setError('');
+
+        // next 파라미터를 callback URL에 포함시켜 로그인 완료 후 원래 페이지로 이동
+        const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
+        console.log(`[Login] OAuth Redirect URL: ${callbackUrl}`);
+
         const { error } = await supabase.auth.signInWithOAuth({
             provider,
             options: {
-                redirectTo: `${window.location.origin}/auth/callback`,
+                redirectTo: callbackUrl,
                 ...(provider === 'kakao' && {
                     scopes: 'profile_nickname profile_image',
+                }),
+                ...(provider === 'google' && {
+                    queryParams: {
+                        access_type: 'offline',
+                        prompt: 'consent',
+                    },
                 }),
             },
         });
@@ -25,6 +39,7 @@ export default function LoginPage() {
             setLoadingProvider(null);
         }
     };
+
 
     return (
         <div className="min-h-screen bg-white flex items-center justify-center p-4">
