@@ -173,7 +173,7 @@ function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (m
 
     const handleSignOut = async () => {
         await signOut();
-        router.push('/login');
+        router.push('/');
     };
 
     // ─── 비로그인 사용자: 회원가입 버튼 표시 ───

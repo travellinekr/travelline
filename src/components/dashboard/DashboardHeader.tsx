@@ -26,7 +26,7 @@ export default function DashboardHeader() {
 
   const handleSignOut = async () => {
     await signOut();
-    router.push('/login');
+    router.push('/');
   };
 
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || '사용자';
@@ -58,6 +58,36 @@ export default function DashboardHeader() {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  // 비로그인 상태: 로그인/회원가입 버튼 표시
+  if (!user) {
+    return (
+      <header className="h-20 bg-white border-b flex items-center justify-between px-8 shadow-sm shrink-0">
+        <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+          <span className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white text-lg font-sans">
+            M
+          </span>
+          MindFlows
+        </h1>
+
+        {/* 로그인/회원가입 버튼 */}
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => router.push('/login')}
+            className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
+          >
+            로그인
+          </button>
+          <button
+            onClick={() => router.push('/login')}
+            className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+          >
+            회원가입
+          </button>
+        </div>
+      </header>
+    );
+  }
 
   return (
     <>
