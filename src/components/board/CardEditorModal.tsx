@@ -254,6 +254,7 @@ export function CardEditorModal({
                         }
                         .editor-wrapper .ProseMirror {
                             padding-left: 28px !important;
+                            padding-right: 8px !important;
                         }
                     `}</style>
                     <div
