@@ -193,7 +193,7 @@ export function AccommodationAddModal({ destinationCity, onClose, onCreate }: Ac
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_SEARCH_MAP',
             });
 
             // 🆕 지도 클릭 이벤트 리스너 추가

@@ -83,7 +83,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_SEARCH_MAP',
             });
 
             // 지도 클릭 이벤트 리스너 추가
@@ -191,7 +191,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP', // Original mapId
+                mapId: 'TRIPTIMELINE_SEARCH_MAP', // Original mapId
             });
 
             // 🆕 지도 클릭 이벤트 리스너 추가

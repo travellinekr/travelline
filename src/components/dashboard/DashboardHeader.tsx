@@ -65,9 +65,9 @@ export default function DashboardHeader() {
       <header className="h-20 bg-white border-b flex items-center justify-between px-8 shadow-sm shrink-0">
         <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
           <span className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white text-lg font-sans">
-            M
+            T
           </span>
-          MindFlows
+          TripTimeline
         </h1>
 
         {/* 로그인/회원가입 버튼 */}
@@ -94,9 +94,9 @@ export default function DashboardHeader() {
       <header className="h-20 bg-white border-b flex items-center justify-between px-8 shadow-sm shrink-0">
         <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
           <span className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white text-lg font-sans">
-            M
+            T
           </span>
-          MindFlows
+          TripTimeline
         </h1>
 
         {/* 사용자 아바타 */}

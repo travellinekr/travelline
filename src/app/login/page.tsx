@@ -53,9 +53,9 @@ export default function LoginPage() {
                 {/* 로고 */}
                 <div className="text-center mb-10">
                     <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-500 rounded-2xl mb-4 shadow-lg shadow-emerald-200">
-                        <span className="text-white text-3xl font-bold font-sans">M</span>
+                        <span className="text-white text-3xl font-bold font-sans">T</span>
                     </div>
-                    <h1 className="text-3xl font-bold text-slate-800">MindFlows</h1>
+                    <h1 className="text-3xl font-bold text-slate-800">TripTimeline</h1>
                     <p className="text-slate-500 mt-2 text-sm">여행 계획을 더 스마트하게</p>
                 </div>
 

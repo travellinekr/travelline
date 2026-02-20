@@ -43,7 +43,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
-            mapId: 'MINDFLOWS_MAP', // Advanced Markers를 위한 Map ID
+            mapId: 'TRIPTIMELINE_MAP', // Advanced Markers를 위한 Map ID
         });
 
         googleMapRef.current = map;

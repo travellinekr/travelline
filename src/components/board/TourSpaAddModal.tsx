@@ -82,7 +82,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_SEARCH_MAP',
             });
 
             // 지도 클릭 이벤트 리스너 추가
@@ -190,7 +190,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'MINDFLOWS_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_SEARCH_MAP',
             });
 
             // 🆕 지도 클릭 이벤트 리스너 추가
