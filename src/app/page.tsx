@@ -25,23 +25,41 @@ export default function Dashboard() {
     }
     const fetchProjects = async () => {
       setProjectsLoading(true);
-      const { data, error } = await supabase
-        .from('projects')
-        .select('*')
-        .eq('user_id', user.id)  // 내 프로젝트만
-        .order('created_at', { ascending: false });
 
-      if (data) {
-        const formattedData: Project[] = data.map((item: any) => ({
-          id: item.id,
-          title: item.title,
-          type: item.type,
-          desc: item.description || "새로운 계획입니다.",
-          date: new Date(item.created_at).toLocaleDateString(),
-        }));
-        setProjects(formattedData);
-      }
-      if (error) console.error("Error loading projects:", error);
+      // 내가 만든 프로젝트 + project_members에 등록된 공유 프로젝트 모두 조회
+      const [{ data: myProjects }, { data: sharedMembers }] = await Promise.all([
+        supabase
+          .from('projects')
+          .select('*')
+          .eq('user_id', user.id)
+          .order('created_at', { ascending: false }),
+        supabase
+          .from('project_members')
+          .select('project_id, role, projects(*)')
+          .eq('user_id', user.id)
+          .neq('role', 'owner'), // owner는 위에서 이미 포함됨
+      ]);
+
+      // 공유 프로젝트에서 projects 데이터 추출 (중복 제거)
+      const myIds = new Set((myProjects || []).map((p: any) => p.id));
+      const sharedProjects = (sharedMembers || [])
+        .map((m: any) => m.projects)
+        .filter((p: any) => p && !myIds.has(p.id));
+
+      // 합치고 생성일 기준 내림차순 정렬
+      const all = [...(myProjects || []), ...sharedProjects]
+        .sort((a: any, b: any) =>
+          new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+        );
+
+      const formattedData: Project[] = all.map((item: any) => ({
+        id: item.id,
+        title: item.title,
+        type: item.type,
+        desc: item.description || "새로운 계획입니다.",
+        date: new Date(item.created_at).toLocaleDateString(),
+      }));
+      setProjects(formattedData);
       setProjectsLoading(false);
     };
 

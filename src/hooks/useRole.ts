@@ -38,7 +38,18 @@ export function useRole(projectId: string | null): UseRoleResult {
                 .eq('user_id', user.id)
                 .single();
 
-            setRole((data?.role as Role) ?? 'viewer');
+            if (data?.role) {
+                // 이미 등록된 멤버
+                setRole(data.role as Role);
+            } else {
+                // 미등록 사용자 → viewer로 자동 등록 (공유 링크 진입)
+                try {
+                    await fetch(`/api/projects/${projectId}/join`, { method: 'POST' });
+                } catch {
+                    // 등록 실패해도 viewer로 처리 (보드 조회는 허용)
+                }
+                setRole('viewer');
+            }
             setLoading(false);
         };
 

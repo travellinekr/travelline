@@ -34,6 +34,13 @@ export async function GET(request: NextRequest) {
                 console.error('[auth/callback] 세션 교환 오류:', error.message);
                 return NextResponse.redirect(new URL(`/login?error=${encodeURIComponent(error.message)}`, origin));
             }
+
+            // 공유 링크 진입 시 viewer 자동 등록 (/room/[roomId] 패턴 감지)
+            const roomMatch = next?.match(/^\/room\/([^/?]+)/);
+            if (roomMatch) {
+                const roomId = roomMatch[1];
+                await fetch(new URL(`/api/projects/${roomId}/join`, origin), { method: 'POST' });
+            }
         } catch (err) {
             console.error('[auth/callback] 예외:', err);
             return NextResponse.redirect(new URL('/login?error=unexpected', origin));

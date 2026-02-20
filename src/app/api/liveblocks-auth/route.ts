@@ -60,8 +60,9 @@ export async function POST(request: NextRequest) {
 
         // 3. project_members에서 role 조회
         let role = 'viewer'; // 기본값
+        let memberData: { role: string } | null = null;
         if (room) {
-            const { data: memberData, error: memberError } = await supabaseAdmin
+            const { data, error: memberError } = await supabaseAdmin
                 .from('project_members')
                 .select('role')
                 .eq('project_id', room)
@@ -71,8 +72,9 @@ export async function POST(request: NextRequest) {
             if (memberError) {
                 console.log('[liveblocks-auth] 멤버 조회 없음 (viewer 처리):', room, user.id);
             }
-            if (memberData) {
-                role = memberData.role;
+            if (data) {
+                memberData = data;
+                role = data.role;
             }
         }
 
@@ -82,11 +84,12 @@ export async function POST(request: NextRequest) {
         const canWrite = role === 'owner' || role === 'editor';
 
         // 5. Liveblocks 세션 생성
+        const isGuest = !memberData; // project_members에 없으면 손님
         const session = liveblocks.prepareSession(user.id, {
             userInfo: {
-                name: user.user_metadata?.full_name || user.email || '사용자',
-                email: user.email || '',
-                avatar: user.user_metadata?.avatar_url || '',
+                name: isGuest ? '손님' : (user.user_metadata?.full_name || user.email || '사용자'),
+                email: isGuest ? '' : (user.email || ''),
+                avatar: isGuest ? '' : (user.user_metadata?.avatar_url || ''),
                 color: `hsl(${Math.abs(user.id.charCodeAt(0) * 137) % 360}, 70%, 50%)`,
             },
         });

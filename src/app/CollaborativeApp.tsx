@@ -2,7 +2,7 @@
 
 import { throttle } from "lodash";
 
-import { useStorage, useMyPresence, useMutation } from "@liveblocks/react/suspense";
+import { useStorage, useMyPresence, useMutation, useOthers, useSelf } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
@@ -35,7 +35,28 @@ type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" 
 type InboxStateType = 'closed' | 'half' | 'full';
 
 // 공유 모달 컴포넌트
-function ShareModal({ shareUrl, onClose, addToast }: { shareUrl: string; onClose: () => void; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
+function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: string; roomId: string; onClose: () => void; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
+    const others = useOthers();
+    const self = useSelf();
+    const [members, setMembers] = useState<any[]>([]);
+
+    // Supabase에서 전체 멤버 목록 조회
+    useEffect(() => {
+        supabase
+            .from('project_members')
+            .select('user_id, role, users:user_id(email, raw_user_meta_data)')
+            .eq('project_id', roomId)
+            .then(({ data }) => {
+                if (data) setMembers(data);
+            });
+    }, [roomId]);
+
+    // Liveblocks에서 현재 접속 중인 userInfo 목록 (connectionId 기준)
+    const onlineUserIds = new Set([
+        ...(self ? [self.id] : []),
+        ...others.map((o) => o.id),
+    ]);
+
     const handleKakao = () => {
         const kakaoUrl = `kakaotalk://msg/send?text=${encodeURIComponent(shareUrl)}`;
         window.location.href = kakaoUrl;
@@ -56,6 +77,13 @@ function ShareModal({ shareUrl, onClose, addToast }: { shareUrl: string; onClose
         } catch {
             addToast('복사에 실패했습니다.', 'warning');
         }
+    };
+
+    // 역할 한글 라벨
+    const roleLabel = (role: string) => {
+        if (role === 'owner') return { text: '소유자', color: 'text-emerald-600 bg-emerald-50' };
+        if (role === 'editor') return { text: '편집자', color: 'text-blue-600 bg-blue-50' };
+        return { text: '뷰어', color: 'text-slate-500 bg-slate-100' };
     };
 
     return createPortal(
@@ -107,6 +135,46 @@ function ShareModal({ shareUrl, onClose, addToast }: { shareUrl: string; onClose
                     </button>
                 </div>
 
+                {/* 멤버 목록 */}
+                {members.length > 0 && (
+                    <div className="mx-4 mb-3 border border-slate-100 rounded-2xl overflow-hidden">
+                        <div className="px-3 py-2 bg-slate-50 border-b border-slate-100">
+                            <span className="text-xs font-semibold text-slate-400 uppercase tracking-wide">멤버 {members.length}명</span>
+                        </div>
+                        <div className="max-h-40 overflow-y-auto divide-y divide-slate-50">
+                            {members.map((m: any) => {
+                                const isOnline = onlineUserIds.has(m.user_id);
+                                const meta = m.users?.raw_user_meta_data;
+                                const name = meta?.full_name || meta?.name || m.users?.email?.split('@')[0] || '사용자';
+                                const avatar = meta?.avatar_url || meta?.picture || '';
+                                const rl = roleLabel(m.role);
+                                const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500'];
+                                const avatarColor = colors[m.user_id.charCodeAt(0) % colors.length];
+                                return (
+                                    <div key={m.user_id} className="flex items-center gap-2.5 px-3 py-2">
+                                        {/* 아바타 */}
+                                        <div className="relative shrink-0">
+                                            {avatar ? (
+                                                <img src={avatar} alt={name} className="w-7 h-7 rounded-full object-cover" />
+                                            ) : (
+                                                <div className={`w-7 h-7 ${avatarColor} rounded-full flex items-center justify-center text-white text-xs font-bold`}>
+                                                    {name[0]?.toUpperCase()}
+                                                </div>
+                                            )}
+                                            {/* 온/오프라인 뱃지 */}
+                                            <span className={`absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2 border-white ${isOnline ? 'bg-emerald-400' : 'bg-slate-300'}`} />
+                                        </div>
+                                        {/* 이름 */}
+                                        <span className="flex-1 text-xs font-medium text-slate-700 truncate">{name}</span>
+                                        {/* 역할 뱃지 */}
+                                        <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md ${rl.color}`}>{rl.text}</span>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
+
                 {/* URL 표시 + 복사 */}
                 <div className="mx-4 mb-4 flex items-center gap-2 bg-slate-50 rounded-xl px-3 py-2.5 border border-slate-100">
                     <span className="flex-1 text-xs text-slate-500 truncate font-mono">{shareUrl}</span>
@@ -123,18 +191,41 @@ function ShareModal({ shareUrl, onClose, addToast }: { shareUrl: string; onClose
     );
 }
 
+
 // 사용자 아바타 + 팝업 메뉴 컴포넌트
-function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
+function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: string; roomId: string; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
     const { user, signOut } = useAuth();
     const router = useRouter();
+    const others = useOthers();
+    const self = useSelf();
     const [open, setOpen] = useState(false);
     const [showShare, setShowShare] = useState(false);
     const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
+    const [members, setMembers] = useState<any[]>([]);
     const ref = useRef<HTMLDivElement>(null);
     const buttonRef = useRef<HTMLButtonElement>(null);
 
     const email = user?.email || '';
     const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
+
+    // roomId가 있을 때 멤버 목록 로드 (이름/이메일/아바타 포함)
+    useEffect(() => {
+        if (!roomId) return;
+        fetch(`/api/projects/${roomId}/members`)
+            .then((res) => res.json())
+            .then(({ members: data }) => {
+                if (data) setMembers(data);
+            })
+            .catch((err) => console.error('[UserAvatarMenu] members fetch error:', err));
+    }, [roomId]);
+
+    // 현재 Liveblocks 접속 중인 user_id 목록
+    const onlineIds = new Set([
+        ...(self ? [self.id] : []),
+        ...others.map((o) => o.id),
+    ]);
+    // project_members에 등록된 user_id 목록
+    const memberIds = new Set(members.map((m) => m.user_id));
 
     // 이니셜 추출
     const getInitials = () => {
@@ -210,10 +301,21 @@ function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (m
                 onClick={handleToggle}
                 className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
             >
-                <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
-                    {getInitials()}
+                {/* 내 아바타 - 타인 접속 시 온라인 뱃지 표시 */}
+                <div className="relative">
+                    <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
+                        {getInitials()}
+                    </div>
+                    {others.length > 0 && (
+                        <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-400 rounded-full border-2 border-white" />
+                    )}
                 </div>
-                <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
+                {/* 혼자면 화살표, 타인 있으면 접속자 수 */}
+                {others.length > 0 ? (
+                    <span className="text-xs font-bold text-slate-500">{others.length}</span>
+                ) : (
+                    <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
+                )}
             </button>
 
             {open && typeof document !== 'undefined' && createPortal(
@@ -234,6 +336,101 @@ function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (m
                             </div>
                         </div>
                     </div>
+                    {/* ── 접속자 목록 ── */}
+                    {(others.length > 0 || members.length > 0) && (
+                        <div className="border-t border-gray-50 pt-1 pb-1">
+                            <p className="px-4 py-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-wide">멤버</p>
+                            <div className="max-h-40 overflow-y-auto">
+                                {/* 현재 접속 중인 다른 사람들 */}
+                                {(() => {
+                                    // 손님(미등록) 번호 사전 계산
+                                    let guestIdx = 1;
+                                    const guestNumMap = new Map<number, number>();
+                                    others.forEach((o) => {
+                                        if (!members.find((m) => m.user_id === o.id)) {
+                                            guestNumMap.set(o.connectionId, guestIdx++);
+                                        }
+                                    });
+                                    const totalGuests = guestIdx - 1;
+
+                                    return others.map((other) => {
+                                        const info = other.info as any;
+                                        const name = info?.name || '사용자';
+                                        const infoEmail = info?.email || '';
+                                        const avatar = info?.avatar || '';
+                                        const color = info?.color || '#94a3b8';
+                                        const memberRecord = members.find((m) => m.user_id === other.id);
+                                        const isGuest = !memberRecord;
+                                        const guestNum = guestNumMap.get(other.connectionId);
+                                        // 손님이 2명 이상이면 번호 부여, 1명이면 그냥 손님
+                                        const guestLabel = totalGuests > 1 ? `손님 ${guestNum}` : '손님';
+                                        const role = memberRecord?.role || null;
+                                        const roleLabel = role === 'owner' ? { text: '소유자', cls: 'text-emerald-600 bg-emerald-50' }
+                                            : role === 'editor' ? { text: '편집자', cls: 'text-blue-600 bg-blue-50' }
+                                                : role === 'viewer' ? { text: '뷰어', cls: 'text-slate-500 bg-slate-100' }
+                                                    : { text: '손님', cls: 'text-orange-500 bg-orange-50' };
+                                        return (
+                                            <div key={other.connectionId} className="flex items-center gap-2.5 px-4 py-2">
+                                                <div className="relative shrink-0">
+                                                    {avatar && !isGuest ? (
+                                                        <img src={avatar} alt={name} className="w-7 h-7 rounded-full object-cover" />
+                                                    ) : (
+                                                        <div className="w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold" style={{ backgroundColor: color }}>
+                                                            {isGuest ? '게' : name[0]?.toUpperCase()}
+                                                        </div>
+                                                    )}
+                                                    <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="text-xs font-medium text-slate-700 truncate">{isGuest ? guestLabel : name}</p>
+                                                    {!isGuest && infoEmail && (
+                                                        <p className="text-[10px] text-slate-400 truncate">{infoEmail}</p>
+                                                    )}
+                                                </div>
+                                                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 ${roleLabel.cls}`}>
+                                                    {roleLabel.text}
+                                                </span>
+                                            </div>
+                                        );
+                                    });
+                                })()}
+
+                                {/* 등록됐지만 미접속인 멤버(오프라인) */}
+                                {members
+                                    .filter((m) => !onlineIds.has(m.user_id) && m.user_id !== self?.id)
+                                    .map((m) => {
+                                        const role = m.role || 'viewer';
+                                        const roleLabel = role === 'owner' ? { text: '소유자', cls: 'text-emerald-600 bg-emerald-50' }
+                                            : role === 'editor' ? { text: '편집자', cls: 'text-blue-600 bg-blue-50' }
+                                                : { text: '뷰어', cls: 'text-slate-500 bg-slate-100' };
+                                        const mName = m.name || '사용자';
+                                        const mEmail = m.email || '';
+                                        const mAvatar = m.avatar || '';
+                                        return (
+                                            <div key={m.user_id} className="flex items-center gap-2.5 px-4 py-2 opacity-50">
+                                                <div className="relative shrink-0">
+                                                    {mAvatar ? (
+                                                        <img src={mAvatar} alt={mName} className="w-7 h-7 rounded-full object-cover grayscale" />
+                                                    ) : (
+                                                        <div className="w-7 h-7 bg-slate-300 rounded-full flex items-center justify-center text-white text-xs font-bold">
+                                                            {mName[0]?.toUpperCase()}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="text-xs font-medium text-slate-500 truncate">{mName}</p>
+                                                    {mEmail && <p className="text-[10px] text-slate-400 truncate">{mEmail}</p>}
+                                                </div>
+                                                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 ${roleLabel.cls}`}>
+                                                    {roleLabel.text}
+                                                </span>
+                                            </div>
+                                        );
+                                    })
+                                }
+                            </div>
+                        </div>
+                    )}
                     {/* 공유하기 */}
                     <button
                         onClick={() => { setShowShare(true); setOpen(false); }}
@@ -261,6 +458,7 @@ function UserAvatarMenu({ shareUrl, addToast }: { shareUrl: string; addToast: (m
             {showShare && typeof document !== 'undefined' && (
                 <ShareModal
                     shareUrl={shareUrl}
+                    roomId={roomId}
                     onClose={() => setShowShare(false)}
                     addToast={addToast}
                 />
@@ -1207,7 +1405,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     <h1 className="font-bold text-lg md:text-2xl tracking-tight text-slate-700 flex items-center gap-2">{projectTitle}</h1>
                                 </div>
                             </div>
-                            <UserAvatarMenu shareUrl={publicUrl} addToast={addToast} />
+                            {/* 우측: 내 메뉴 (접속자 정보는 팝업에서 표시) */}
+                            <UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />
                         </header>
 
                         <main className="flex-1 flex overflow-hidden relative">
