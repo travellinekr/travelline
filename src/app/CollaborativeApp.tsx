@@ -436,7 +436,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Track previous destination card ID to detect removal
     const prevDestinationCardId = useRef<string | null>(null);
 
-    // p1 카드(입국심사&필요사항) 메모 업데이트 mutation
+    // p1 카드(입국심사&필요사항) 메모 업데이트 mutation (여행지 삭제 시 초기화용)
     const updateEntryCardNotes = useMutation(({ storage }, notes: any[]) => {
         const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
         if (!cardsMap) return;
@@ -444,6 +444,18 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         if (p1Card) {
             (p1Card as any).set('notes', notes);
         }
+    }, []);
+
+    // p1 카드 메모가 비어있을 때만 초기값 삽입 (기존 메모 보호)
+    const setEntryCardNotesIfEmpty = useMutation(({ storage }, notes: any[]) => {
+        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+        if (!cardsMap) return;
+        const p1Card = cardsMap.get('p1');
+        if (!p1Card) return;
+        // 이미 유효한 notes가 있으면 덮어쓰지 않음
+        const existingNotes = (p1Card as any).get('notes');
+        if (Array.isArray(existingNotes) && existingNotes.length > 0) return;
+        (p1Card as any).set('notes', notes);
     }, []);
 
     // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트)
@@ -493,6 +505,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes, canEdit, roleLoading]);
 
     // 여행지 변경 시 입국심사&필요사항 카드 메모 자동 삽입 (editor/owner만)
+    // ⚠️ 이미 메모가 있으면 덮어쓰지 않음 (기존 작성 내용 보호)
     const prevDestCityRef = useRef<string | null>(null);
     useEffect(() => {
         if (roleLoading || !canEdit) return; // 로딩 중이거나 viewer는 write 불가
@@ -500,13 +513,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const prevCity = prevDestCityRef.current;
 
         if (cityName && cityName !== prevCity) {
-            // 새 도시가 설정됨 → 해당 국가 입국신고서 블록 삽입
+            // 새 도시가 설정됨 → 기존 메모가 없을 때만 초기 블록 삽입
             const blocks = getEntryCardBlocks(cityName);
-            updateEntryCardNotes(blocks);
+            setEntryCardNotesIfEmpty(blocks);
         }
 
         prevDestCityRef.current = cityName;
-    }, [destinationCard, updateEntryCardNotes, canEdit, roleLoading]);
+    }, [destinationCard, setEntryCardNotesIfEmpty, canEdit, roleLoading]);
 
     const handlePointerMove = (e: React.PointerEvent) => {
         if (isMobileDragging) return;

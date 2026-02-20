@@ -30,15 +30,15 @@ export function CardEditorModal({
 
     // 디바운스를 위한 타이머 ref
     const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
+    // 에디터가 마운트된 직후 자동 onChange를 무시하기 위한 플래그
+    const isEditorReady = useRef(false);
 
     // BlockNote 에디터 생성 (초기값 설정)
-    // 빈 배열이거나 유효하지 않은 형식이면 undefined로 처리
+    // ✅ block.type만 있으면 유효 (이미지, 체크리스트 등은 content가 빈 배열일 수 있음)
     const safeInitialContent = (() => {
         if (!cardNotes || !Array.isArray(cardNotes) || cardNotes.length === 0) return undefined;
-        // 각 블록에 content가 있고 유효한지 확인
-        const valid = cardNotes.every((block: any) =>
-            block && block.type && Array.isArray(block.content) && block.content.length > 0
-        );
+        // block.type이 있으면 유효한 블록으로 처리 (content 존재 여부 무관)
+        const valid = cardNotes.every((block: any) => block && block.type);
         return valid ? cardNotes : undefined;
     })();
 
@@ -60,6 +60,9 @@ export function CardEditorModal({
     // 자동 저장 함수 (디바운스 500ms) - editor/owner만 저장
     const handleEditorChange = useCallback(() => {
         if (!canEdit) return; // viewer는 저장 불가
+        // ✅ 에디터 마운트 직후 자동 트리거되는 onChange 무시 (빈 내용으로 덮어쓰기 방지)
+        if (!isEditorReady.current) return;
+
         if (saveTimerRef.current) {
             clearTimeout(saveTimerRef.current);
         }
@@ -74,7 +77,20 @@ export function CardEditorModal({
     useEffect(() => {
         if (!isOpen) return;
 
-        return editor.onChange(handleEditorChange);
+        // ✅ 에디터가 완전히 초기화된 후 100ms 뒤부터 저장 허용
+        // (마운트 시 자동 트리거되는 onChange로 메모가 덮어씌워지는 버그 방지)
+        isEditorReady.current = false;
+        const readyTimer = setTimeout(() => {
+            isEditorReady.current = true;
+        }, 100);
+
+        const unsubscribe = editor.onChange(handleEditorChange);
+
+        return () => {
+            clearTimeout(readyTimer);
+            isEditorReady.current = false;
+            unsubscribe();
+        };
     }, [editor, handleEditorChange, isOpen]);
 
     // 키보드 높이 추적 (모바일 전용)
