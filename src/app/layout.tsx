@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TripTimeline",
+  title: "Travelline",
   description: "여행 타임라인으로 더 스마트하게 여행 계획을 세우세요",
 };
 

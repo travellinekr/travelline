@@ -9,10 +9,21 @@ import { Confirm } from "@/components/board/Confirm";
 interface ProjectCardProps {
   project: Project;
   onDelete?: (projectId: string) => void;
+  colorIndex?: number; // 0~4 순환 색상 인덱스
 }
 
-export default function ProjectCard({ project, onDelete }: ProjectCardProps) {
+// 5가지 색상 팔레트 (순환)
+const COLOR_PALETTES = [
+  { bar: "bg-orange-400", icon: "bg-orange-50 text-orange-500", badge: "bg-orange-100 text-orange-600", hover: "group-hover:text-orange-500" }, // 오렌지
+  { bar: "bg-teal-400", icon: "bg-teal-50 text-teal-600", badge: "bg-teal-100 text-teal-700", hover: "group-hover:text-teal-500" }, // 틸
+  { bar: "bg-violet-400", icon: "bg-violet-50 text-violet-600", badge: "bg-violet-100 text-violet-700", hover: "group-hover:text-violet-500" }, // 바이올렛
+  { bar: "bg-rose-400", icon: "bg-rose-50 text-rose-500", badge: "bg-rose-100 text-rose-600", hover: "group-hover:text-rose-500" }, // 로즈
+  { bar: "bg-sky-400", icon: "bg-sky-50 text-sky-600", badge: "bg-sky-100 text-sky-700", hover: "group-hover:text-sky-500" }, // 스카이
+];
+
+export default function ProjectCard({ project, onDelete, colorIndex = 0 }: ProjectCardProps) {
   const isTravel = project.type === "travel";
+  const palette = isTravel ? COLOR_PALETTES[colorIndex % COLOR_PALETTES.length] : { bar: "bg-purple-500", icon: "bg-purple-50 text-purple-600", badge: "bg-purple-100 text-purple-700", hover: "group-hover:text-purple-500" };
   const [menuOpen, setMenuOpen] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
   const [deleting, setDeleting] = useState(false);
@@ -63,12 +74,12 @@ export default function ProjectCard({ project, onDelete }: ProjectCardProps) {
         <div className={`bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all cursor-pointer group flex relative overflow-hidden h-[180px] ${deleting ? 'opacity-50 pointer-events-none' : ''}`}>
 
           {/* 좌측 포인트 바 */}
-          <div className={`w-1.5 h-full ${isTravel ? "bg-blue-600" : "bg-purple-600"}`} />
+          <div className={`w-1.5 h-full ${palette.bar}`} />
 
           <div className="p-5 flex flex-col flex-1">
             <div className="flex justify-between items-start mb-3">
               <div className="flex items-center gap-2">
-                <div className={`p-2 rounded-lg ${isTravel ? "bg-blue-50 text-blue-600" : "bg-purple-50 text-purple-600"}`}>
+                <div className={`p-2 rounded-lg ${palette.icon}`}>
                   {isTravel ? <Plane className="w-5 h-5" /> : <Briefcase className="w-5 h-5" />}
                 </div>
                 <span className="text-[10px] font-black tracking-widest text-slate-400 uppercase">
@@ -100,7 +111,7 @@ export default function ProjectCard({ project, onDelete }: ProjectCardProps) {
               </div>
             </div>
 
-            <h3 className="text-xl font-bold text-slate-700 mb-2 group-hover:text-blue-600 transition-colors line-clamp-1">
+            <h3 className={`text-xl font-bold text-slate-700 mb-2 ${palette.hover} transition-colors line-clamp-1`}>
               {project.title}
             </h3>
 
@@ -109,8 +120,7 @@ export default function ProjectCard({ project, onDelete }: ProjectCardProps) {
             </p>
 
             <div className="mt-auto flex justify-between items-center">
-              <div className={`px-3 py-1 rounded-md text-[11px] font-bold ${isTravel ? "bg-blue-100 text-blue-700" : "bg-purple-100 text-purple-700"
-                }`}>
+              <div className={`px-3 py-1 rounded-md text-[11px] font-bold ${palette.badge}`}>
                 {isTravel ? "D-Day 체크" : "진행중"}
               </div>
               <div className="flex items-center text-slate-400 text-[12px]">

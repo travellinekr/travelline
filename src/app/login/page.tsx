@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
+import TravellineLogo from '@/components/TravellineLogo';
 
 export default function LoginPage() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
@@ -52,10 +53,10 @@ export default function LoginPage() {
             <div className="relative w-full max-w-sm">
                 {/* 로고 */}
                 <div className="text-center mb-10">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-500 rounded-2xl mb-4 shadow-lg shadow-emerald-200">
-                        <span className="text-white text-3xl font-bold font-sans">T</span>
+                    <div className="inline-flex items-center justify-center mb-4">
+                        <TravellineLogo size={56} />
                     </div>
-                    <h1 className="text-3xl font-bold text-slate-800">TripTimeline</h1>
+                    <h1 className="text-3xl font-bold text-slate-800">Travelline</h1>
                     <p className="text-slate-500 mt-2 text-sm">여행 계획을 더 스마트하게</p>
                 </div>
 

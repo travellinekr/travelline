@@ -30,6 +30,7 @@ import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
+import TravellineLogo from "@/components/TravellineLogo";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 type InboxStateType = 'closed' | 'half' | 'full';
@@ -1400,7 +1401,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                         <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-4 md:px-8 shadow-sm z-10 shrink-0">
                             <div className="flex items-center gap-4">
-                                <Link href="/" className="w-10 h-10 flex items-center justify-center rounded-lg bg-emerald-500 text-white font-black text-xl hover:bg-emerald-600 transition-all shadow-sm">M</Link>
+                                <Link href="/" className="flex items-center justify-center hover:opacity-80 transition-opacity">
+                                    <TravellineLogo size={32} />
+                                </Link>
                                 <div className="flex flex-col">
                                     <h1 className="font-bold text-lg md:text-2xl tracking-tight text-slate-700 flex items-center gap-2">{projectTitle}</h1>
                                 </div>
