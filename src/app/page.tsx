@@ -64,9 +64,23 @@ const ROLLING_CARDS = [
   },
 ];
 
-// ─── 둘러보기 배너 컴포넌트 (3칸 그리드) ─────────────────
+// ─── 둘러보기 배너 컴포넌트 (3칸 롤링 그리드) ────────────
 function RollingBanner() {
-  const displayCards = ROLLING_CARDS.slice(0, 3);
+  const [idx, setIdx] = useState(0);
+  const total = ROLLING_CARDS.length; // 5
+
+  // 3초마다 1칸씩 전진
+  useEffect(() => {
+    const t = setInterval(() => {
+      setIdx((prev) => (prev + 1) % total);
+    }, 3000);
+    return () => clearInterval(t);
+  }, [total]);
+
+  // 데스크탑: 3장 슬라이싱 (순환)
+  const desktopCards = [0, 1, 2].map((offset) => ROLLING_CARDS[(idx + offset) % total]);
+  // 모바일: 1장
+  const mobileCard = ROLLING_CARDS[idx];
 
   return (
     <section className="w-full bg-white border-b border-slate-100">
@@ -83,27 +97,66 @@ function RollingBanner() {
           </button>
         </div>
 
-        {/* 3칸 그리드 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {displayCards.map((card) => (
+        {/* 데스크탑: 3칸 롤링 그리드 */}
+        <div className="hidden md:grid grid-cols-3 gap-5">
+          {desktopCards.map((card, i) => (
             <div
-              key={card.id}
-              className={`bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[180px] flex flex-col justify-between cursor-pointer hover:scale-[1.02] hover:shadow-lg transition-all duration-200`}
+              key={`${card.id}-${idx}-${i}`}
+              className={`bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[140px] flex flex-col justify-between cursor-pointer hover:scale-[1.02] hover:shadow-lg transition-all duration-200 animate-in fade-in duration-500`}
             >
               <div className="flex items-start justify-between">
                 <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
                   {card.icon}
                   {card.badge}
                 </div>
-                <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">
-                  {card.tag}
-                </span>
+                <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{card.tag}</span>
               </div>
               <div>
                 <h3 className="text-base font-bold mb-1 line-clamp-1">{card.title}</h3>
                 <p className="text-white/80 text-xs leading-relaxed line-clamp-2">{card.desc}</p>
               </div>
             </div>
+          ))}
+        </div>
+
+        {/* 모바일: 1장 롤링 */}
+        <div className="md:hidden">
+          <div
+            key={`mobile-${idx}`}
+            className={`bg-gradient-to-br ${mobileCard.color} rounded-2xl p-5 text-white h-[120px] flex flex-col justify-between animate-in fade-in duration-500`}
+          >
+            <div className="flex items-start justify-between">
+              <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                {mobileCard.icon}
+                {mobileCard.badge}
+              </div>
+              <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{mobileCard.tag}</span>
+            </div>
+            <div>
+              <h3 className="text-base font-bold mb-1">{mobileCard.title}</h3>
+              <p className="text-white/80 text-xs line-clamp-2">{mobileCard.desc}</p>
+            </div>
+          </div>
+          {/* 인디케이터 */}
+          <div className="flex justify-center gap-1.5 mt-3">
+            {ROLLING_CARDS.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setIdx(i)}
+                className={`h-1.5 rounded-full transition-all duration-300 ${i === idx ? "w-5 bg-slate-600" : "w-1.5 bg-slate-300"}`}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* 데스크탑 인디케이터 */}
+        <div className="hidden md:flex justify-center gap-1.5 mt-4">
+          {ROLLING_CARDS.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setIdx(i)}
+              className={`h-1.5 rounded-full transition-all duration-300 ${i === idx ? "w-5 bg-slate-600" : "w-1.5 bg-slate-300"}`}
+            />
           ))}
         </div>
       </div>
@@ -181,6 +234,7 @@ export default function Dashboard() {
   const { user, loading } = useAuth();
   const router = useRouter();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [editTarget, setEditTarget] = useState<{ id: string; title: string } | null>(null);
   const [projects, setProjects] = useState<Project[]>([]);
   const [projectsLoading, setProjectsLoading] = useState(false);
 
@@ -227,6 +281,18 @@ export default function Dashboard() {
         ...projects,
       ]);
     }
+  };
+
+  // 프로젝트 이름 수정
+  const handleEditProject = async (newTitle: string) => {
+    if (!editTarget) return;
+    const { error } = await supabase
+      .from("projects")
+      .update({ name: newTitle })
+      .eq("id", editTarget.id);
+    if (error) { console.error("수정 실패:", error.message); return; }
+    setProjects((prev) => prev.map((p) => p.id === editTarget.id ? { ...p, title: newTitle } : p));
+    setEditTarget(null);
   };
 
   if (loading) {
@@ -344,7 +410,7 @@ export default function Dashboard() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {projectsLoading
               ? Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="h-[180px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
+                <div key={i} className="h-[140px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
               ))
               : (
                 <>
@@ -354,11 +420,12 @@ export default function Dashboard() {
                       project={project}
                       colorIndex={idx}
                       onDelete={(id) => setProjects((prev) => prev.filter((p) => p.id !== id))}
+                      onEdit={(id, title) => setEditTarget({ id, title })}
                     />
                   ))}
                   <button
                     onClick={() => setIsModalOpen(true)}
-                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[180px]"
+                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[140px]"
                   >
                     <div className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center mb-3 group-hover:bg-white group-hover:scale-110 transition-transform shadow-sm">
                       <Plus className="w-6 h-6" />
@@ -378,6 +445,16 @@ export default function Dashboard() {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         onCreate={handleCreateProject}
+      />
+
+      {/* 수정 모달 */}
+      <CreateProjectModal
+        isOpen={!!editTarget}
+        onClose={() => setEditTarget(null)}
+        onCreate={handleCreateProject}
+        editMode
+        initialTitle={editTarget?.title}
+        onSave={handleEditProject}
       />
     </div>
   );
