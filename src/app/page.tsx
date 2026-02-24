@@ -265,7 +265,7 @@ export default function Dashboard() {
     if (!user) { router.push("/login"); return; }
     const { data, error } = await supabase
       .from("projects")
-      .insert([{ title, type, description: "새로운 계획입니다.", user_id: user.id }])
+      .insert([{ title, type, user_id: user.id }])
       .select();
     if (error) { console.error("프로젝트 생성 실패:", error); alert("저장에 실패했습니다."); return; }
     if (data && data[0]) {
