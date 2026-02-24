@@ -605,7 +605,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            const containerWidth = Math.min(window.innerWidth, 1000);
+            const containerWidth = Math.min(window.innerWidth, 1152);
             const initX = containerWidth - 80;
             const initY = window.innerHeight - 200;
 
@@ -1373,7 +1373,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
       `}</style>
 
                 <div className="h-screen w-full flex flex-col items-center bg-white font-sans text-slate-700 relative overflow-hidden">
-                    <div ref={containerRef} className="w-full h-full max-w-[1000px] bg-white flex flex-col border-x border-gray-100 shadow-xl relative" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
+                    <div ref={containerRef} className="w-full h-full max-w-6xl bg-white flex flex-col border-x border-gray-100 shadow-xl relative" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
                         <LiveCursors />
 
                         {/* Confirm Dialog */}
