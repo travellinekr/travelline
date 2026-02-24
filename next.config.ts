@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   experimental: {
     serverActions: {
       allowedOrigins: [
-        "bistred-nylah-subcrenately.ngrok-free.dev",
         "travelline.co.kr",
         "www.travelline.co.kr",
+        "travelline-eta.vercel.app",
       ],
     },
   },
