@@ -1,24 +1,23 @@
 'use client';
 
-// 정적 prerender 비활성화 → useSearchParams 빌드 오류 방지
-export const dynamic = 'force-dynamic';
-
-import { Suspense, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
 import TravellineLogo from '@/components/TravellineLogo';
 
-// useSearchParams를 사용하는 컴포넌트를 분리 (Suspense 필수)
-function LoginPageContent() {
+export default function LoginPage() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
     const [error, setError] = useState('');
-    const searchParams = useSearchParams();
-    const redirectPath = searchParams.get('redirect') || '/';
 
     const handleSocialLogin = async (provider: 'google' | 'kakao') => {
         setLoadingProvider(provider);
         setError('');
+
+        // window.location.search로 redirect 파라미터 추출 (useSearchParams 대체)
+        const params = typeof window !== 'undefined'
+            ? new URLSearchParams(window.location.search)
+            : new URLSearchParams();
+        const redirectPath = params.get('redirect') || '/';
 
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
         console.log(`[Login] OAuth Redirect URL: ${callbackUrl}`);
@@ -124,18 +123,5 @@ function LoginPageContent() {
                 </div>
             </div>
         </div>
-    );
-}
-
-// Suspense로 감싸서 빌드 오류 해결
-export default function LoginPage() {
-    return (
-        <Suspense fallback={
-            <div className="min-h-screen bg-white flex items-center justify-center">
-                <Loader2 className="w-8 h-8 animate-spin text-slate-400" />
-            </div>
-        }>
-            <LoginPageContent />
-        </Suspense>
     );
 }
