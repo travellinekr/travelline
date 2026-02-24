@@ -1,5 +1,8 @@
 'use client';
 
+// 정적 prerender 비활성화 → useSearchParams 빌드 오류 방지
+export const dynamic = 'force-dynamic';
+
 import { Suspense, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { supabase } from '@/lib/supabaseClient';
