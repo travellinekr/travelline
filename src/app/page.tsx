@@ -293,7 +293,7 @@ export default function Dashboard() {
       <RollingBanner />
 
       {/* ③ 나의 여행 계획 */}
-      <main className="flex-1 max-w-6xl w-full mx-auto py-10 px-6">
+      <main className="flex-1 max-w-6xl w-full mx-auto py-8 md:py-10 px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
             <h2 className="text-2xl font-bold text-slate-800 mb-1">나의 여행 계획</h2>
@@ -309,22 +309,80 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* 비로그인 */}
+        {/* 비로그인 - 히어로 랜딩 섹션 */}
         {!user && (
-          <div className="flex flex-col items-center justify-center py-20 gap-5">
-            <div className="w-16 h-16 bg-orange-50 rounded-full flex items-center justify-center">
-              <LogIn className="w-8 h-8 text-orange-400" />
+          <div className="flex flex-col items-center gap-12 py-10 md:py-16">
+            {/* 히어로 */}
+            <div className="text-center max-w-2xl mx-auto px-2">
+              <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-orange-500 text-xs font-bold px-4 py-1.5 rounded-full mb-6">
+                ✈️ 새로운 여행 계획의 시작
+              </div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4">
+                여행을 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose-400">타임라인</span>으로<br className="hidden sm:block" /> 함께 계획하세요
+              </h2>
+              <p className="text-slate-500 text-base md:text-lg leading-relaxed mb-8">
+                드래그&드롭으로 쉽게 일정 구성, 친구와 실시간 협업, 지도 연동까지.<br className="hidden md:block" />
+                여행의 모든 순간을 Travelline으로 완성하세요.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <button
+                  onClick={() => router.push("/login")}
+                  className="w-full sm:w-auto bg-slate-900 text-white px-8 py-3.5 rounded-2xl font-bold text-base hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95 flex items-center justify-center gap-2"
+                >
+                  <Plane className="w-4 h-4" /> 무료로 시작하기
+                </button>
+                <button
+                  onClick={() => router.push("/login")}
+                  className="w-full sm:w-auto bg-white text-slate-700 px-8 py-3.5 rounded-2xl font-bold text-base border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all shadow-sm flex items-center justify-center gap-2"
+                >
+                  <LogIn className="w-4 h-4" /> 로그인
+                </button>
+              </div>
             </div>
+
+            {/* 피처 카드 3개 */}
+            <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[
+                {
+                  emoji: "🗓️",
+                  color: "bg-orange-50 border-orange-100",
+                  iconColor: "text-orange-500",
+                  title: "드래그&드롭 타임라인",
+                  desc: "항공, 호텔, 맛집, 교통 카드를 끌어다 놓기만 하면 완성",
+                },
+                {
+                  emoji: "👥",
+                  color: "bg-teal-50 border-teal-100",
+                  iconColor: "text-teal-500",
+                  title: "실시간 협업",
+                  desc: "링크 하나로 친구, 가족과 함께 보드를 실시간으로 편집",
+                },
+                {
+                  emoji: "🗺️",
+                  color: "bg-violet-50 border-violet-100",
+                  iconColor: "text-violet-500",
+                  title: "지도 연동",
+                  desc: "Google Maps로 장소 검색하고 카드에 바로 위치 저장",
+                },
+              ].map((f) => (
+                <div key={f.title} className={`${f.color} border rounded-2xl p-6 flex flex-col gap-3`}>
+                  <div className="text-3xl">{f.emoji}</div>
+                  <h3 className={`font-bold text-base ${f.iconColor}`}>{f.title}</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed">{f.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* 하단 CTA */}
             <div className="text-center">
-              <h3 className="text-lg font-bold text-slate-700 mb-1">로그인하면 나의 여행 계획을 볼 수 있어요</h3>
-              <p className="text-slate-400 text-sm">여행 보드, 실시간 협업 등 모든 기능을 이용하려면 로그인이 필요해요.</p>
+              <p className="text-slate-400 text-sm mb-3">지금 바로 무료로 사용해보세요</p>
+              <button
+                onClick={() => router.push("/login")}
+                className="text-sm font-semibold text-[#FF6B47] hover:underline flex items-center gap-1 mx-auto"
+              >
+                Google로 1초 로그인 <ChevronRight className="w-4 h-4" />
+              </button>
             </div>
-            <button
-              onClick={() => router.push("/login")}
-              className="bg-slate-800 text-white px-7 py-2.5 rounded-xl font-bold hover:bg-slate-900 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 text-sm"
-            >
-              로그인 / 회원가입
-            </button>
           </div>
         )}
 

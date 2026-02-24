@@ -63,11 +63,11 @@ export default function DashboardHeader() {
   // 비로그인 상태: 로그인/회원가입 버튼 표시
   if (!user) {
     return (
-      <header className="h-20 bg-white border-b shadow-sm shrink-0">
-        <div className="max-w-6xl w-full mx-auto px-6 h-full flex items-center justify-between">
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+      <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
+        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
             <TravellineLogo size={32} />
-            Travelline
+            <span className="hidden sm:inline">Travelline</span>
           </h1>
 
           {/* 로그인/회원가입 버튼 */}
@@ -92,11 +92,11 @@ export default function DashboardHeader() {
 
   return (
     <>
-      <header className="h-20 bg-white border-b shadow-sm shrink-0">
-        <div className="max-w-6xl w-full mx-auto px-6 h-full flex items-center justify-between">
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+      <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
+        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
             <TravellineLogo size={32} />
-            Travelline
+            <span className="hidden sm:inline">Travelline</span>
           </h1>
 
           {/* 사용자 아바타 */}
