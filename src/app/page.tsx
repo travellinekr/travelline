@@ -250,9 +250,9 @@ export default function Dashboard() {
       setProjects(
         all.map((item: any) => ({
           id: item.id,
-          title: item.title,
-          type: item.type,
-          desc: item.description || "새로운 계획입니다.",
+          title: item.name,
+          type: (item.type as "travel" | "work") || "travel",
+          desc: "새로운 계획입니다.",
           date: new Date(item.created_at).toLocaleDateString(),
         }))
       );
@@ -265,12 +265,12 @@ export default function Dashboard() {
     if (!user) { router.push("/login"); return; }
     const { data, error } = await supabase
       .from("projects")
-      .insert([{ title, type, user_id: user.id }])
+      .insert([{ name: title, user_id: user.id }])
       .select();
-    if (error) { console.error("프로젝트 생성 실패:", error); alert("저장에 실패했습니다."); return; }
+    if (error) { console.error("프로젝트 생성 실패:", error.message); alert(`저장 실패: ${error.message}`); return; }
     if (data && data[0]) {
       setProjects([
-        { id: data[0].id, title: data[0].title, type: data[0].type, desc: data[0].description, date: new Date(data[0].created_at).toLocaleDateString() },
+        { id: data[0].id, title: data[0].name, type: "travel", desc: "새로운 계획입니다.", date: new Date(data[0].created_at).toLocaleDateString() },
         ...projects,
       ]);
     }

@@ -13,7 +13,7 @@ export default async function RoomPage({
   // DB에서 프로젝트 존재 여부 확인
   const { data } = await supabase
     .from('projects')
-    .select('title')
+    .select('name')
     .eq('id', roomId)
     .single();
 
@@ -22,7 +22,7 @@ export default async function RoomPage({
     redirect('/');
   }
 
-  const projectTitle = data.title || "내 프로젝트";
+  const projectTitle = data.name || "내 프로젝트";
 
   return (
     <Room roomId={roomId}>
