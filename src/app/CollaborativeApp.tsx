@@ -30,7 +30,7 @@ import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
-import TravellineLogo from "@/components/TravellineLogo";
+import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 type InboxStateType = 'closed' | 'half' | 'full';
@@ -557,8 +557,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         for (let i = 0; i < orderArray.length; i++) {
             const colId = orderArray[i];
-            // Match day1, day2, day3, etc. but NOT day0
-            if (/^day[1-9]\d*$/.test(colId)) {
+            // Match day0, day1, day2, day3, etc. (여행준비 포함 전체 초기화)
+            if (/^day\d+$/.test(colId)) {
                 dayColumnsToRemove.push(colId);
             }
         }
@@ -986,6 +986,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         // 최종 여행지(destination-header)에는 도시 카드만, 딱 1개만 허용
         if (targetColumnId === 'destination-header') {
+            // 🔒 항공편이 이미 등록된 경우 여행지 변경 불가
+            if (flightInfo) {
+                addToast('항공편이 등록된 경우 여행지를 변경할 수 없습니다.', 'warning');
+                setActiveDragItem(null);
+                return;
+            }
+
             if (draggedCard?.category !== 'destination') {
                 addToast('여행지 카드만 넣을 수 있습니다.', 'warning');
                 setActiveDragItem(null);
@@ -1372,8 +1379,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         .custom-scrollbar:hover::-webkit-scrollbar-thumb { background: #E2E8F0; }
       `}</style>
 
-                <div className="h-screen w-full flex flex-col items-center bg-white font-sans text-slate-700 relative overflow-hidden">
-                    <div ref={containerRef} className="w-full h-full max-w-6xl bg-white flex flex-col border-x border-gray-100 shadow-xl relative" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
+                <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
+                    <DashboardHeader title={projectTitle} rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />} />
+                    <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
                         <LiveCursors />
 
                         {/* Confirm Dialog */}
@@ -1399,18 +1407,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             <Mouse className="w-8 h-8 text-white fill-white/20 -rotate-12" strokeWidth={1.5} />
                         </div>
 
-                        <header className="h-16 bg-white border-b border-gray-200 flex items-center justify-between px-4 md:px-8 shadow-sm z-10 shrink-0">
-                            <div className="flex items-center gap-4">
-                                <Link href="/" className="flex items-center justify-center hover:opacity-80 transition-opacity">
-                                    <TravellineLogo size={32} />
-                                </Link>
-                                <div className="flex flex-col">
-                                    <h1 className="font-bold text-lg md:text-2xl tracking-tight text-slate-700 flex items-center gap-2">{projectTitle}</h1>
-                                </div>
-                            </div>
-                            {/* 우측: 내 메뉴 (접속자 정보는 팝업에서 표시) */}
-                            <UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />
-                        </header>
 
                         <main className="flex-1 flex overflow-hidden relative">
                             <Sidebar

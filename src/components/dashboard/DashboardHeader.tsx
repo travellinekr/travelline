@@ -5,8 +5,9 @@ import { useAuth } from '@/hooks/useAuth';
 import { useRouter } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import TravellineLogo from '@/components/TravellineLogo';
+import Link from 'next/link';
 
-export default function DashboardHeader() {
+export default function DashboardHeader({ title, rightSlot }: { title?: string; rightSlot?: React.ReactNode }) {
   const { user, signOut } = useAuth();
   const router = useRouter();
   const [popupOpen, setPopupOpen] = useState(false);
@@ -66,25 +67,29 @@ export default function DashboardHeader() {
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-            <TravellineLogo size={32} />
-            <span className="hidden sm:inline">Travelline</span>
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
+              <TravellineLogo size={32} />
+              <span className="hidden sm:inline">{title ?? 'Travelline'}</span>
+            </Link>
           </h1>
 
           {/* 로그인/회원가입 버튼 */}
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => router.push('/login')}
-              className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
-            >
-              로그인
-            </button>
-            <button
-              onClick={() => router.push('/login')}
-              className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
-            >
-              회원가입
-            </button>
-          </div>
+          {rightSlot ?? (
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => router.push('/login')}
+                className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
+              >
+                로그인
+              </button>
+              <button
+                onClick={() => router.push('/login')}
+                className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+              >
+                회원가입
+              </button>
+            </div>
+          )}
         </div>
       </header>
     );
@@ -95,23 +100,27 @@ export default function DashboardHeader() {
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-            <TravellineLogo size={32} />
-            <span className="hidden sm:inline">Travelline</span>
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
+              <TravellineLogo size={32} />
+              <span className="hidden sm:inline">{title ?? 'Travelline'}</span>
+            </Link>
           </h1>
 
           {/* 사용자 아바타 */}
-          <div>
-            <button
-              ref={buttonRef}
-              onClick={handleTogglePopup}
-              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-            >
-              <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
-                {getInitials()}
-              </div>
-              <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
-            </button>
-          </div>
+          {rightSlot ?? (
+            <div>
+              <button
+                ref={buttonRef}
+                onClick={handleTogglePopup}
+                className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+              >
+                <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
+                  {getInitials()}
+                </div>
+                <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
+              </button>
+            </div>
+          )}
         </div>
       </header>
 
