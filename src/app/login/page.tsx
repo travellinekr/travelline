@@ -1,22 +1,22 @@
 'use client';
 
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
 import TravellineLogo from '@/components/TravellineLogo';
 
-export default function LoginPage() {
+// useSearchParams를 사용하는 컴포넌트를 분리 (Suspense 필수)
+function LoginPageContent() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
     const [error, setError] = useState('');
     const searchParams = useSearchParams();
-    const redirectPath = searchParams.get('redirect') || '/'; // 로그인 후 돌아갈 경로
+    const redirectPath = searchParams.get('redirect') || '/';
 
     const handleSocialLogin = async (provider: 'google' | 'kakao') => {
         setLoadingProvider(provider);
         setError('');
 
-        // next 파라미터를 callback URL에 포함시켜 로그인 완료 후 원래 페이지로 이동
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
         console.log(`[Login] OAuth Redirect URL: ${callbackUrl}`);
 
@@ -40,7 +40,6 @@ export default function LoginPage() {
             setLoadingProvider(null);
         }
     };
-
 
     return (
         <div className="min-h-screen bg-white flex items-center justify-center p-4">
@@ -122,5 +121,18 @@ export default function LoginPage() {
                 </div>
             </div>
         </div>
+    );
+}
+
+// Suspense로 감싸서 빌드 오류 해결
+export default function LoginPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-white flex items-center justify-center">
+                <Loader2 className="w-8 h-8 animate-spin text-slate-400" />
+            </div>
+        }>
+            <LoginPageContent />
+        </Suspense>
     );
 }
