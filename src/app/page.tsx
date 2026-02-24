@@ -64,34 +64,13 @@ const ROLLING_CARDS = [
   },
 ];
 
-// ─── 롤링 배너 컴포넌트 ───────────────────────────────────
+// ─── 둘러보기 배너 컴포넌트 (3칸 그리드) ─────────────────
 function RollingBanner() {
-  const [current, setCurrent] = useState(0);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
-
-  const startInterval = () => {
-    intervalRef.current = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % ROLLING_CARDS.length);
-    }, 4000);
-  };
-
-  useEffect(() => {
-    startInterval();
-    return () => { if (intervalRef.current) clearInterval(intervalRef.current); };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const goTo = (idx: number) => {
-    setCurrent(idx);
-    if (intervalRef.current) clearInterval(intervalRef.current);
-    startInterval();
-  };
-
-  const card = ROLLING_CARDS[current];
+  const displayCards = ROLLING_CARDS.slice(0, 3);
 
   return (
     <section className="w-full bg-white border-b border-slate-100">
-      <div className="max-w-6xl mx-auto px-6 py-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         {/* 섹션 헤더 */}
         <div className="flex items-center justify-between mb-5">
           <div>
@@ -104,53 +83,27 @@ function RollingBanner() {
           </button>
         </div>
 
-        {/* 롤링 카드 */}
-        <div className="relative overflow-hidden rounded-2xl">
-          <div
-            key={card.id}
-            className={`bg-gradient-to-br ${card.color} p-6 text-white min-h-[140px] flex flex-col justify-between animate-in fade-in slide-in-from-right-4 duration-500`}
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
-                {card.icon}
-                {card.badge}
-              </div>
-              <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">
-                {card.tag}
-              </span>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold mb-1">{card.title}</h3>
-              <p className="text-white/80 text-sm leading-relaxed">{card.desc}</p>
-            </div>
-          </div>
-
-          {/* 인디케이터 */}
-          <div className="absolute bottom-4 right-4 flex gap-1.5">
-            {ROLLING_CARDS.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => goTo(i)}
-                className={`h-1.5 rounded-full transition-all duration-300 ${i === current ? "w-5 bg-white" : "w-1.5 bg-white/40"
-                  }`}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* 미리보기 썸네일s */}
-        <div className="flex gap-3 mt-4 overflow-x-auto pb-1 scrollbar-hide">
-          {ROLLING_CARDS.map((c, i) => (
-            <button
-              key={c.id}
-              onClick={() => goTo(i)}
-              className={`flex-shrink-0 px-3 py-2 rounded-xl text-xs font-semibold transition-all border ${i === current
-                ? "bg-slate-800 text-white border-slate-800"
-                : "bg-white text-slate-500 border-slate-200 hover:border-slate-300"
-                }`}
+        {/* 3칸 그리드 */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {displayCards.map((card) => (
+            <div
+              key={card.id}
+              className={`bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[180px] flex flex-col justify-between cursor-pointer hover:scale-[1.02] hover:shadow-lg transition-all duration-200`}
             >
-              {c.badge.split(" ")[0]} {c.title.length > 12 ? c.title.slice(0, 12) + "…" : c.title}
-            </button>
+              <div className="flex items-start justify-between">
+                <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                  {card.icon}
+                  {card.badge}
+                </div>
+                <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">
+                  {card.tag}
+                </span>
+              </div>
+              <div>
+                <h3 className="text-base font-bold mb-1 line-clamp-1">{card.title}</h3>
+                <p className="text-white/80 text-xs leading-relaxed line-clamp-2">{card.desc}</p>
+              </div>
+            </div>
           ))}
         </div>
       </div>
