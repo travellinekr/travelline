@@ -66,10 +66,10 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
     return (
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2 min-w-0">
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2 min-w-0">
               <TravellineLogo size={32} />
-              <span className="hidden sm:inline">{title ?? 'Travelline'}</span>
+              <span className="truncate">{title ?? 'Travelline'}</span>
             </Link>
           </h1>
 
@@ -99,10 +99,10 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
     <>
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2 min-w-0">
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2 min-w-0">
               <TravellineLogo size={32} />
-              <span className="hidden sm:inline">{title ?? 'Travelline'}</span>
+              <span className="truncate">{title ?? 'Travelline'}</span>
             </Link>
           </h1>
 
