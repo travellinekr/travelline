@@ -136,7 +136,7 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
             style={style}
             {...listeners}
             {...attributes}
-            className="cursor-grab active:cursor-grabbing"
+            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
         >
             <BaseCard
                 colorClass="bg-orange-400"
@@ -222,7 +222,7 @@ export function FoodPicker({
                     {sampleRestaurants.map((restaurant: RestaurantData, index: number) => (
                         <DraggableFoodCard
                             key={`sample-${index}`}
-                            cardId={`sample-food-${index}`}
+                            cardId={`picker-food-${index}`}
                             card={{
                                 text: restaurant.name,
                                 title: restaurant.name,

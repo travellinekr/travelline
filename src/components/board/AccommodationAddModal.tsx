@@ -85,7 +85,7 @@ export function AccommodationAddModal({ destinationCity, onClose, onCreate }: Ac
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'DEMO_MAP_ID',
+                mapId: 'TRIPTIMELINE_MAP',
             });
 
             // 지도 클릭 이벤트 리스너 추가
@@ -193,7 +193,7 @@ export function AccommodationAddModal({ destinationCity, onClose, onCreate }: Ac
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'TRIPTIMELINE_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_MAP',
             });
 
             // 🆕 지도 클릭 이벤트 리스너 추가

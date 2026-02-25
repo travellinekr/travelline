@@ -1514,7 +1514,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             {activeDragItem ? (
                                 String(activeDragItem.id).startsWith('picker-hotel-') ? (
                                     // Hotel Picker 카드: BaseCard 스타일
-                                    <div className="w-full max-w-md">
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <BaseCard
                                             colorClass="bg-rose-400"
                                             icon={Hotel}
@@ -1548,22 +1548,22 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-transport-') ? (
                                     // Transport Picker 카드: TransportCard 스타일
-                                    <div className="w-full max-w-md">
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <TransportCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-food-') ? (
                                     // Food Picker 카드: FoodCard 스타일
-                                    <div className="w-full max-w-md">
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <FoodCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-shopping-') ? (
                                     // Shopping Picker 카드: ShoppingCard 스타일
-                                    <div className="w-full max-w-md">
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <ShoppingCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-tourspa-') ? (
                                     // TourSpa Picker 카드: TourSpaCard 스타일
-                                    <div className="w-full max-w-md">
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <TourSpaCard card={activeDragItem} className="shadow-xl" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-') ? (
@@ -1603,8 +1603,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         </div>
                                     </div>
                                 ) : (
-                                    // 일반 카드: Compact 스타일
-                                    renderCardInternal(activeDragItem, { variant: 'compact' })
+                                    // 일반 카드: Compact 스타일 + 테두리 wrapper
+                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                        {renderCardInternal(activeDragItem, { variant: 'compact' })}
+                                    </div>
                                 )
                             ) : null}
                         </DragOverlay>

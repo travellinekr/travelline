@@ -84,7 +84,7 @@ function DraggableEtcCard({ card, index, cardId }: { card: any; index: number; c
                 style={style}
                 {...listeners}
                 {...attributes}
-                className="cursor-grab active:cursor-grabbing"
+                className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
             >
                 <BaseCard
                     colorClass="bg-violet-400"

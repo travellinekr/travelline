@@ -24,14 +24,40 @@ export async function GET(request: NextRequest) {
 
         // 도시별 좌표 매핑 (대소문자 무시)
         const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
+            // 영문 (소문자)
             'bangkok': { lat: 13.7563, lng: 100.5018 },
+            'nha trang': { lat: 12.2388, lng: 109.1967 },
+            'nhatrang': { lat: 12.2388, lng: 109.1967 },
+            'ho chi minh': { lat: 10.8231, lng: 106.6297 },
+            'hanoi': { lat: 21.0278, lng: 105.8342 },
+            'da nang': { lat: 16.0544, lng: 108.2022 },
+            'danang': { lat: 16.0544, lng: 108.2022 },
+            'phuket': { lat: 7.8804, lng: 98.3923 },
+            'bali': { lat: -8.3405, lng: 115.0920 },
             'tokyo': { lat: 35.6762, lng: 139.6503 },
             'osaka': { lat: 34.6937, lng: 135.5023 },
+            'kyoto': { lat: 35.0116, lng: 135.7681 },
             'paris': { lat: 48.8566, lng: 2.3522 },
             'london': { lat: 51.5074, lng: -0.1278 },
             'new york': { lat: 40.7128, lng: -74.0060 },
             'singapore': { lat: 1.3521, lng: 103.8198 },
             'hong kong': { lat: 22.3193, lng: 114.1694 },
+            // 한국어
+            '방콕': { lat: 13.7563, lng: 100.5018 },
+            '나트랑': { lat: 12.2388, lng: 109.1967 },
+            '나트항': { lat: 12.2388, lng: 109.1967 },
+            '호치민': { lat: 10.8231, lng: 106.6297 },
+            '하노이': { lat: 21.0278, lng: 105.8342 },
+            '다낭': { lat: 16.0544, lng: 108.2022 },
+            '푸켓': { lat: 7.8804, lng: 98.3923 },
+            '발리': { lat: -8.3405, lng: 115.0920 },
+            '도쿄': { lat: 35.6762, lng: 139.6503 },
+            '오사카': { lat: 34.6937, lng: 135.5023 },
+            '교토': { lat: 35.0116, lng: 135.7681 },
+            '파리': { lat: 48.8566, lng: 2.3522 },
+            '런던': { lat: 51.5074, lng: -0.1278 },
+            '싱가포르': { lat: 1.3521, lng: 103.8198 },
+            '홍콩': { lat: 22.3193, lng: 114.1694 },
         };
 
         // 도시 좌표 찾기 (대소문자 무시)

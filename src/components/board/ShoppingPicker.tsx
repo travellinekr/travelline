@@ -130,7 +130,7 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
             style={style}
             {...listeners}
             {...attributes}
-            className="cursor-grab active:cursor-grabbing"
+            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
         >
             <BaseCard
                 colorClass="bg-purple-400"
@@ -216,7 +216,7 @@ export function ShoppingPicker({
                     {sampleShopping.map((shopping: ShoppingData, index: number) => (
                         <DraggableShoppingCard
                             key={`sample-${index}`}
-                            cardId={`sample-shopping-${index}`}
+                            cardId={`picker-shopping-${index}`}
                             card={{
                                 text: shopping.name,
                                 title: shopping.name,

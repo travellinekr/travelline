@@ -125,7 +125,7 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
             style={style}
             {...listeners}
             {...attributes}
-            className="cursor-grab active:cursor-grabbing"
+            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
         >
             <BaseCard
                 colorClass="bg-rose-400"
@@ -211,7 +211,7 @@ export function AccommodationPicker({
                     {sampleAccommodations.map((accommodation: AccommodationData, index: number) => (
                         <DraggableHotelCard
                             key={`sample-${index}`}
-                            cardId={`sample-hotel-${index}`}
+                            cardId={`picker-hotel-${index}`}
                             card={{
                                 text: accommodation.name,
                                 title: accommodation.name,

@@ -96,7 +96,7 @@ function DraggableTransportCard({ transportation, index }: { transportation: any
             style={style}
             {...listeners}
             {...attributes}
-            className="cursor-grab active:cursor-grabbing"
+            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
         >
             <BaseCard
                 colorClass={colorClass}

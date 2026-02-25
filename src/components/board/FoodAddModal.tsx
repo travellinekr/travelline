@@ -24,14 +24,40 @@ interface FoodAddModalProps {
 
 // 도시별 좌표 매핑
 const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
+    // 영문
     'Bangkok': { lat: 13.7563, lng: 100.5018 },
+    'Nha Trang': { lat: 12.2388, lng: 109.1967 },
+    'Nhatrang': { lat: 12.2388, lng: 109.1967 },
+    'Ho Chi Minh': { lat: 10.8231, lng: 106.6297 },
+    'Hanoi': { lat: 21.0278, lng: 105.8342 },
+    'Da Nang': { lat: 16.0544, lng: 108.2022 },
+    'Danang': { lat: 16.0544, lng: 108.2022 },
+    'Phuket': { lat: 7.8804, lng: 98.3923 },
+    'Bali': { lat: -8.3405, lng: 115.0920 },
     'Tokyo': { lat: 35.6762, lng: 139.6503 },
     'Osaka': { lat: 34.6937, lng: 135.5023 },
+    'Kyoto': { lat: 35.0116, lng: 135.7681 },
     'Paris': { lat: 48.8566, lng: 2.3522 },
     'London': { lat: 51.5074, lng: -0.1278 },
     'New York': { lat: 40.7128, lng: -74.0060 },
     'Singapore': { lat: 1.3521, lng: 103.8198 },
     'Hong Kong': { lat: 22.3193, lng: 114.1694 },
+    // 한국어
+    '방콕': { lat: 13.7563, lng: 100.5018 },
+    '나트랑': { lat: 12.2388, lng: 109.1967 },
+    '나트항': { lat: 12.2388, lng: 109.1967 },
+    '호치민': { lat: 10.8231, lng: 106.6297 },
+    '하노이': { lat: 21.0278, lng: 105.8342 },
+    '다낭': { lat: 16.0544, lng: 108.2022 },
+    '푸켓': { lat: 7.8804, lng: 98.3923 },
+    '발리': { lat: -8.3405, lng: 115.0920 },
+    '도쿄': { lat: 35.6762, lng: 139.6503 },
+    '오사카': { lat: 34.6937, lng: 135.5023 },
+    '교토': { lat: 35.0116, lng: 135.7681 },
+    '파리': { lat: 48.8566, lng: 2.3522 },
+    '런던': { lat: 51.5074, lng: -0.1278 },
+    '싱가포르': { lat: 1.3521, lng: 103.8198 },
+    '홍콩': { lat: 22.3193, lng: 114.1694 },
 };
 
 export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModalProps) {
@@ -65,8 +91,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 return;
             }
 
-            // 도시 중심 좌표 설정 (대소문자 무시)
-            let cityCoords = { lat: 13.7563, lng: 100.5018 };
+            let cityCoords = { lat: 12.2388, lng: 109.1967 }; // 기본값: 나트랑
             if (destinationCity) {
                 const cityKey = Object.keys(CITY_COORDINATES).find(
                     key => key.toLowerCase() === destinationCity.toLowerCase()
@@ -83,7 +108,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'TRIPTIMELINE_SEARCH_MAP',
+                mapId: 'TRIPTIMELINE_MAP',
             });
 
             // 지도 클릭 이벤트 리스너 추가
@@ -191,7 +216,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
-                mapId: 'TRIPTIMELINE_SEARCH_MAP', // Original mapId
+                mapId: 'TRIPTIMELINE_MAP', // Original mapId
             });
 
             // 🆕 지도 클릭 이벤트 리스너 추가
