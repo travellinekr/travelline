@@ -80,3 +80,24 @@ div[style*="bottom: 12px"][style*="right: 12px"][style*="z-index: 9999"] {
     background-color: rgba(107, 114, 128, 0.8);
   }
 }
+
+/* =========================================
+   🖱️ 글로벌 커서 포인터 규칙
+   클릭 가능한 모든 요소에 손 모양 커서 적용
+   기존 cursor-grab / cursor-not-allowed 등은
+   Tailwind 유틸리티가 우선 적용되어 그대로 유지됨
+   ========================================= */
+button:not([disabled]):not(.cursor-grab):not(.cursor-not-allowed),
+a,
+[role="button"],
+[role="link"],
+[role="tab"],
+[role="menuitem"],
+[role="option"],
+select,
+label[for],
+summary,
+[onClick],
+.cursor-pointer {
+  cursor: pointer;
+}

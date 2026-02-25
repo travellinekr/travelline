@@ -44,6 +44,53 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
   );
 });
 
+// 🛫 IATA 공항 코드 → 좌표/이름 매핑 테이블
+const AIRPORT_LOOKUP: Record<string, { lat: number; lng: number; name: string }> = {
+  // 베트남
+  'CXR': { lat: 11.9982, lng: 109.2192, name: '깜란국제공항(CXR)' },
+  'SGN': { lat: 10.8188, lng: 106.6519, name: '탄손녓국제공항(SGN)' },
+  'HAN': { lat: 21.2212, lng: 105.8072, name: '노이바이국제공항(HAN)' },
+  'DAD': { lat: 16.0439, lng: 108.1993, name: '다낭국제공항(DAD)' },
+  'PQC': { lat: 10.2270, lng: 103.9671, name: '푸꾸억국제공항(PQC)' },
+  // 태국
+  'BKK': { lat: 13.6900, lng: 100.7501, name: '수완나품국제공항(BKK)' },
+  'DMK': { lat: 13.9126, lng: 100.6069, name: '돈므앙국제공항(DMK)' },
+  'HKT': { lat: 8.1132, lng: 98.3169, name: '푸켓국제공항(HKT)' },
+  // 한국
+  'ICN': { lat: 37.4602, lng: 126.4407, name: '인천국제공항(ICN)' },
+  'GMP': { lat: 37.5583, lng: 126.7906, name: '김포국제공항(GMP)' },
+  'PUS': { lat: 35.1795, lng: 128.9385, name: '김해국제공항(PUS)' },
+  'CJU': { lat: 33.5113, lng: 126.4930, name: '제주국제공항(CJU)' },
+  // 일본
+  'NRT': { lat: 35.7627, lng: 140.3864, name: '나리타국제공항(NRT)' },
+  'HND': { lat: 35.5494, lng: 139.7798, name: '하네다공항(HND)' },
+  'KIX': { lat: 34.4347, lng: 135.2440, name: '간사이국제공항(KIX)' },
+  'OKA': { lat: 26.1958, lng: 127.6460, name: '나하공항(OKA)' },
+  // 기타
+  'HKG': { lat: 22.3080, lng: 113.9185, name: '홍콩국제공항(HKG)' },
+  'SIN': { lat: 1.3644, lng: 103.9915, name: '창이국제공항(SIN)' },
+  'DPS': { lat: -8.7482, lng: 115.1672, name: '응우라라이국제공항(DPS)' },
+};
+
+// 텍스트에서 IATA 코드 추출 (예: 깜란국제공항(CXR) → CXR)
+function extractIATA(text: string): string | null {
+  const match = text?.match(/\(([A-Z]{3})\)/);
+  if (match) return match[1];
+  // 한국어 공항명 직접 매핑
+  const nameMap: Record<string, string> = {
+    '깜란': 'CXR', '깜라인': 'CXR', '나트랑': 'CXR', '캄란': 'CXR',
+    '인천': 'ICN', '김포': 'GMP', '김해': 'PUS', '제주': 'CJU',
+    '탄손녓': 'SGN', '호치민': 'SGN', '노이바이': 'HAN', '하노이': 'HAN',
+    '다낭': 'DAD', '수완나품': 'BKK', '방콕': 'BKK', '푸켓': 'HKT',
+    '나리타': 'NRT', '하네다': 'HND', '간사이': 'KIX', '오사카': 'KIX',
+    '홍콩': 'HKG', '창이': 'SIN', '싱가포르': 'SIN', '발리': 'DPS',
+  };
+  for (const [keyword, iata] of Object.entries(nameMap)) {
+    if (text?.includes(keyword)) return iata;
+  }
+  return null;
+}
+
 const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
@@ -59,23 +106,39 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   // 이 일차의 카드들에서 좌표 추출 (useMemo로 메모이제이션하여 깜빡임 방지)
   const markers = useMemo(() => {
-    if (!allCards) {
-      return [];
-    }
+    if (!allCards) return [];
 
     const result = cards
       .map((card: any) => {
         const fullCard = (allCards as any).get?.(card.id);
+        if (!fullCard) return null;
 
-        if (!fullCard?.coordinates) {
-          return null;
+        const cat = fullCard.category || 'unknown';
+        const cardText = card.text || fullCard.route || '';
+
+        // 🛫 transport 카드: IATA 코드로 정확한 공항 좌표/이름 사용 시도
+        if (cat === 'transport' || cat === 'flight') {
+          // route 또는 text에서 도착 공항 IATA 추출
+          const routeText = fullCard.route || fullCard.arrivalAirport || cardText;
+          const iata = extractIATA(routeText);
+          if (iata && AIRPORT_LOOKUP[iata]) {
+            const airport = AIRPORT_LOOKUP[iata];
+            return {
+              id: card.id,
+              title: airport.name,
+              coordinates: { lat: airport.lat, lng: airport.lng },
+              category: cat,
+            };
+          }
         }
 
+        // 일반 카드: 저장된 좌표 사용
+        if (!fullCard.coordinates) return null;
         return {
           id: card.id,
-          title: card.text || fullCard.route || '위치',
+          title: cardText || '위치',
           coordinates: fullCard.coordinates,
-          category: fullCard.category || 'unknown',
+          category: cat,
         };
       })
       .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null);
