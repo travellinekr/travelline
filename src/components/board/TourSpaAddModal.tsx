@@ -82,6 +82,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 
@@ -190,6 +191,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 

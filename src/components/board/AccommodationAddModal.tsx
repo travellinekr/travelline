@@ -85,6 +85,7 @@ export function AccommodationAddModal({ destinationCity, onClose, onCreate }: Ac
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 
@@ -193,6 +194,7 @@ export function AccommodationAddModal({ destinationCity, onClose, onCreate }: Ac
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 

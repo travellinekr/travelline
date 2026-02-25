@@ -108,6 +108,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 
@@ -216,6 +217,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP', // Original mapId
             });
 

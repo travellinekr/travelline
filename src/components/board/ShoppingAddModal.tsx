@@ -105,6 +105,7 @@ export function ShoppingAddModal({ destinationCity, onClose, onCreate }: Shoppin
                 streetViewControl: false,
                 fullscreenControl: false,
                 zoomControl: true,
+                gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
 
@@ -218,6 +219,7 @@ export function ShoppingAddModal({ destinationCity, onClose, onCreate }: Shoppin
                     streetViewControl: false,
                     fullscreenControl: false,
                     zoomControl: true,
+                gestureHandling: 'greedy',
                     mapId: 'TRIPTIMELINE_MAP',
                 });
 
