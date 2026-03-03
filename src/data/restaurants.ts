@@ -111,6 +111,19 @@ export const RESTAURANTS_DATA: Record<string, RestaurantData[]> = {
             reservation: true,
             features: ["인스타그래머블", "예약 필수"],
             icon: "🥞"
+        },
+        {
+            name: "미미우 쿠시카츠",
+            type: "local",
+            city: "Osaka",
+            coordinates: { lat: 34.6697, lng: 135.5064 },
+            cuisine: "쿠시카츠",
+            specialty: "오사카식 꼬치튀김",
+            priceRange: "¥2,000~4,000",
+            openingHours: "11:00~22:00",
+            reservation: false,
+            features: ["소스 2번 금지", "오사카 원조", "현지 인기"],
+            icon: "🍢"
         }
     ],
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

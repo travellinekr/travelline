@@ -1,10 +1,15 @@
 "use client";
 
-import { useState } from "react";
-import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X, Plus, Check, Loader2 } from "lucide-react";
 import { DESTINATION_DATA, FALLBACK_IMAGES, type RegionKey, type CityData } from "@/data/destinations";
 import { RESTAURANTS_DATA, type RestaurantData } from "@/data/restaurants";
 import { ACCOMMODATIONS_DATA, type AccommodationData } from "@/data/accommodations";
+import { supabase } from "@/lib/supabaseClient";
+import { useAuth } from "@/hooks/useAuth";
+import { useToast } from "@/hooks/useToast";
+import { ToastContainer } from "@/components/common/ToastContainer";
+import { useRouter } from "next/navigation";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey; label: string; icon: string }[] = [
@@ -192,14 +197,49 @@ function HotelAccordion({ item }: { item: AccommodationData }) {
     );
 }
 
+// ── 카드 큐 타입 ─────────────────────────────────────
+export type ExploreCardQueue = {
+    category: 'food' | 'accommodation';
+    name: string;
+    city: string;
+    icon?: string;
+    coordinates?: { lat: number; lng: number };
+    description?: string;
+    priceRange?: string;
+    openingHours?: string;
+    michelin?: string;
+    specialty?: string;
+    features?: string[];
+    reservation?: boolean;
+    restaurantType?: string;
+    cuisine?: string;
+    accommodationType?: string;
+    checkInTime?: string;
+    checkOutTime?: string;
+    tags?: string[];
+};
+
 // ── 메인 페이지 ───────────────────────────────────────
 export default function ExplorePage() {
+    const { user } = useAuth();
+    const router = useRouter();
+    const menuRef = useRef<HTMLDivElement>(null);
+
     const [activeRegion, setActiveRegion] = useState<RegionKey>("japan");
     const [selectedCity, setSelectedCity] = useState<CityData | null>(null);
     const [activeCategory, setActiveCategory] = useState("food");
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
+
+    // ── 체크 & 여행계획 추가 ─────────────────────────
+    const [checkedCards, setCheckedCards] = useState<Map<string, ExploreCardQueue>>(new Map());
+    const [showProjectMenu, setShowProjectMenu] = useState(false);
+    const [activeProjects, setActiveProjects] = useState<{ id: string; name: string }[]>([]);
+    const [projectsLoading, setProjectsLoading] = useState(false);
+    const { toasts, addToast, removeToast } = useToast();
+    // projectId → 목적지 도시 (null = 미설정, undefined = 아직 모름)
+    const [projectCityMap, setProjectCityMap] = useState<Record<string, string | null>>({});
 
     const regionData = DESTINATION_DATA[activeRegion];
     const cityKey = selectedCity?.engName ?? "";
@@ -227,12 +267,107 @@ export default function ExplorePage() {
     const selectedFood = selectedFoodIdx !== null ? filteredFoodList[selectedFoodIdx] : null;
     const selectedHotel = selectedHotelIdx !== null ? filteredHotelList[selectedHotelIdx] : null;
 
+    // 플로팅 메뉴 외부 클릭 시 닫기
+    useEffect(() => {
+        const handler = (e: MouseEvent) => {
+            if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+                setShowProjectMenu(false);
+            }
+        };
+        if (showProjectMenu) document.addEventListener('mousedown', handler);
+        return () => document.removeEventListener('mousedown', handler);
+    }, [showProjectMenu]);
+
+
+    // ── 카드 체크 핸들러 ─────────────────────────────
+    const toggleCardCheck = (key: string, card: ExploreCardQueue, e: React.MouseEvent) => {
+        e.stopPropagation(); // 카드 클릭 이벤트 전파 방지
+        setCheckedCards(prev => {
+            const next = new Map(prev);
+            if (next.has(key)) next.delete(key);
+            else next.set(key, card);
+            return next;
+        });
+    };
+
+    // ── 프로젝트 목록 fetch & 메뉴 열기 ─────────────
+    const handleOpenProjectMenu = async () => {
+        if (!user) { router.push('/login'); return; }
+        if (checkedCards.size === 0) return;
+        setShowProjectMenu(v => !v);
+        if (activeProjects.length > 0) return; // 이미 로드됨
+        setProjectsLoading(true);
+        try {
+            const [{ data: myProjects }, { data: sharedMembers }] = await Promise.all([
+                supabase.from('projects').select('id, name').eq('user_id', user.id).order('created_at', { ascending: false }),
+                supabase.from('project_members').select('project_id, role, projects(id, name)').eq('user_id', user.id).neq('role', 'owner'),
+            ]);
+            const myIds = new Set((myProjects || []).map((p: any) => p.id));
+            const shared = (sharedMembers || []).map((m: any) => m.projects).filter((p: any) => p && !myIds.has(p.id));
+            const all = [...(myProjects || []), ...shared] as { id: string; name: string }[];
+            setActiveProjects(all);
+
+            // 백그라운드: 각 프로젝트의 목적지 도시 조회
+            if (all.length > 0 && selectedCity) {
+                const { data: sessionData } = await supabase.auth.getSession();
+                const token = sessionData?.session?.access_token;
+                if (token) {
+                    fetch('/api/projects/match-city', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+                        body: JSON.stringify({ city: selectedCity.engName, projectIds: all.map(p => p.id) }),
+                    })
+                        .then(r => r.ok ? r.json() : null)
+                        .then((data: { cityMap?: Record<string, string | null> } | null) => {
+                            if (data?.cityMap) setProjectCityMap(data.cityMap);
+                        })
+                        .catch(() => { });
+                }
+            }
+        } finally {
+            setProjectsLoading(false);
+        }
+    };
+
+    // ── 특정 프로젝트에 카드 추가 (도시 검증 포함) ──────
+    const handleAddToProject = (project: { id: string; name: string }) => {
+        // 도시 검증 (cityMap이 로드된 경우에만)
+        if (project.id in projectCityMap) {
+            const projectCity = projectCityMap[project.id];
+            if (projectCity === null) {
+                // 목적지 미설정
+                addToast('먼저 여행지를 선택하세요.', 'warning');
+                return;
+            }
+            if (selectedCity) {
+                const normalize = (s: string) => s.toLowerCase().replace(/\s/g, '');
+                const match = normalize(projectCity).includes(normalize(selectedCity.engName))
+                    || normalize(selectedCity.engName).includes(normalize(projectCity));
+                if (!match) {
+                    addToast('여행지와 다른 카드는 추가되지 않습니다.', 'warning');
+                    return;
+                }
+            }
+        }
+
+        const cards = Array.from(checkedCards.values());
+        const existing = JSON.parse(localStorage.getItem(`explore_queue_${project.id}`) || '[]') as ExploreCardQueue[];
+        localStorage.setItem(`explore_queue_${project.id}`, JSON.stringify([...existing, ...cards]));
+        setShowProjectMenu(false);
+        setCheckedCards(new Map());
+        addToast(`${cards.length}개 카드를 「${project.name}」에 추가했어요! 보드를 열어보세요.`, 'info');
+    };
+
     const handleCitySelect = (city: CityData) => {
         setSelectedCity(city);
         setActiveCategory("food");
         setSelectedFoodIdx(null);
         setSelectedHotelIdx(null);
         setSearchQuery("");
+        setCheckedCards(new Map());
+        setActiveProjects([]);
+        setProjectCityMap({});           // 도시 변경 시 cityMap 초기화
+        setShowProjectMenu(false);
     };
 
     const handleCategoryChange = (cat: string) => {
@@ -250,6 +385,9 @@ export default function ExplorePage() {
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
+
+            {/* ── 토스트 (공용 컴포넌트) ── */}
+            <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-right" />
 
             {/* ── 지역 탭 (고정, shrink-0) ── */}
             <div className="shrink-0 bg-white border-b border-slate-100 z-20">
@@ -363,22 +501,79 @@ export default function ExplorePage() {
                         {/* 좌: 검색바(고정) + 카드 리스트(독립 스크롤) */}
                         <div className="w-full md:w-1/2 flex flex-col min-h-0">
 
-                            {/* 검색바 (고정) */}
+                            {/* 검색바 + 여행계획 추가 버튼 */}
                             <div className="shrink-0 pb-2.5">
-                                <div className="relative">
-                                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                                    <input
-                                        type="text"
-                                        value={searchQuery}
-                                        onChange={(e) => handleSearchChange(e.target.value)}
-                                        placeholder={activeCategory === "food" ? "맛집 이름, 메뉴 검색..." : activeCategory === "hotel" ? "숙소 이름, 특징 검색..." : "검색..."}
-                                        className="w-full pl-9 pr-8 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-orange-300 focus:bg-white transition-colors"
-                                    />
-                                    {searchQuery && (
-                                        <button onClick={() => handleSearchChange("")}
-                                            className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
-                                            <X className="w-3.5 h-3.5" />
-                                        </button>
+                                <div className="flex gap-2 items-center">
+                                    {/* 검색바 — 모바일에서는 버튼 업쓰로 줄어들 */}
+                                    <div className="relative flex-1 min-w-0">
+                                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+                                        <input
+                                            type="text"
+                                            value={searchQuery}
+                                            onChange={(e) => handleSearchChange(e.target.value)}
+                                            placeholder={activeCategory === "food" ? "맛집 검색..." : activeCategory === "hotel" ? "숙소 검색..." : "검색..."}
+                                            className="w-full pl-9 pr-8 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-orange-300 focus:bg-white transition-colors"
+                                        />
+                                        {searchQuery && (
+                                            <button onClick={() => handleSearchChange("")}
+                                                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
+                                                <X className="w-3.5 h-3.5" />
+                                            </button>
+                                        )}
+                                    </div>
+
+                                    {/* + 내 여행계획 추가 버튼 + 플로팅 메뉴 */}
+                                    {(activeCategory === "food" || activeCategory === "hotel") && (
+                                        <div className="relative shrink-0" ref={menuRef}>
+                                            <button
+                                                onClick={handleOpenProjectMenu}
+                                                disabled={checkedCards.size === 0}
+                                                className={`flex items-center gap-1.5 px-3 py-2.5 rounded-xl text-xs font-bold whitespace-nowrap border transition-all duration-150 ${checkedCards.size > 0
+                                                    ? "bg-orange-500 border-orange-500 text-white shadow-sm hover:bg-orange-600"
+                                                    : "bg-slate-50 border-slate-200 text-slate-300 cursor-not-allowed"
+                                                    }`}
+                                            >
+                                                <Plus className="w-3.5 h-3.5 shrink-0" />
+                                                <span>내 여행계획</span>
+                                                {checkedCards.size > 0 && (
+                                                    <span className="bg-white text-orange-500 rounded-full w-4 h-4 flex items-center justify-center text-[10px] font-black shrink-0">
+                                                        {checkedCards.size}
+                                                    </span>
+                                                )}
+                                            </button>
+
+                                            {/* 플로팅 메뉴 */}
+                                            {showProjectMenu && (
+                                                <div className="absolute right-0 top-full mt-1.5 w-56 bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                                                    <div className="px-3 py-2.5 border-b border-slate-50">
+                                                        <p className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">여행계획 선택</p>
+                                                    </div>
+                                                    {projectsLoading ? (
+                                                        <div className="flex items-center justify-center py-6">
+                                                            <Loader2 className="w-4 h-4 text-orange-400 animate-spin" />
+                                                        </div>
+                                                    ) : activeProjects.length === 0 ? (
+                                                        <div className="px-4 py-5 text-center">
+                                                            <p className="text-xs text-slate-400">여행 계획이 없어요</p>
+                                                            <p className="text-[10px] text-slate-300 mt-0.5">홈에서 새로 만들어보세요!</p>
+                                                        </div>
+                                                    ) : (
+                                                        <div className="max-h-56 overflow-y-auto always-scrollbar">
+                                                            {activeProjects.map((project) => (
+                                                                <button
+                                                                    key={project.id}
+                                                                    onClick={() => handleAddToProject(project)}
+                                                                    className="w-full text-left px-4 py-3 text-sm font-medium text-slate-700 hover:bg-orange-50 hover:text-orange-600 transition-colors flex items-center gap-2.5"
+                                                                >
+                                                                    <span className="text-base">✈️</span>
+                                                                    <span className="truncate">{project.name}</span>
+                                                                </button>
+                                                            ))}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+                                        </div>
                                     )}
                                 </div>
                             </div>
@@ -387,24 +582,76 @@ export default function ExplorePage() {
                             <div className="flex-1 min-h-0 overflow-y-auto always-scrollbar flex flex-col gap-2 pr-3">
                                 {activeCategory === "food" && (
                                     filteredFoodList.length > 0
-                                        ? filteredFoodList.map((item, idx) => (
-                                            <div key={idx}>
-                                                <ExploreFood item={item} isSelected={selectedFoodIdx === idx}
-                                                    onClick={() => setSelectedFoodIdx(idx === selectedFoodIdx ? null : idx)} />
-                                                {selectedFoodIdx === idx && <FoodAccordion item={item} />}
-                                            </div>
-                                        ))
+                                        ? filteredFoodList.map((item, idx) => {
+                                            const cardKey = `food-${item.name}-${item.city}`;
+                                            const isChecked = checkedCards.has(cardKey);
+                                            return (
+                                                <div key={idx} className="relative">
+                                                    <ExploreFood item={item} isSelected={selectedFoodIdx === idx}
+                                                        onClick={() => setSelectedFoodIdx(idx === selectedFoodIdx ? null : idx)} />
+                                                    {/* 체크 버튼 */}
+                                                    <button
+                                                        onClick={(e) => toggleCardCheck(cardKey, {
+                                                            category: 'food',
+                                                            name: item.name,
+                                                            city: item.city,
+                                                            icon: item.icon,
+                                                            coordinates: item.coordinates,
+                                                            priceRange: item.priceRange,
+                                                            openingHours: item.openingHours,
+                                                            michelin: item.michelin,
+                                                            specialty: item.specialty,
+                                                            features: item.features,
+                                                            reservation: item.reservation,
+                                                            restaurantType: item.type,
+                                                            cuisine: item.cuisine,
+                                                        }, e)}
+                                                        className={`absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-150 ${isChecked
+                                                            ? "bg-orange-500 border-orange-500"
+                                                            : "bg-white border-slate-200 hover:border-orange-300"
+                                                            }`}
+                                                    >
+                                                        {isChecked && <Check className="w-3.5 h-3.5 text-white" />}
+                                                    </button>
+                                                    {selectedFoodIdx === idx && <FoodAccordion item={item} />}
+                                                </div>
+                                            );
+                                        })
                                         : <EmptyState category="food" />
                                 )}
                                 {activeCategory === "hotel" && (
                                     filteredHotelList.length > 0
-                                        ? filteredHotelList.map((item, idx) => (
-                                            <div key={idx}>
-                                                <ExploreHotel item={item} isSelected={selectedHotelIdx === idx}
-                                                    onClick={() => setSelectedHotelIdx(idx === selectedHotelIdx ? null : idx)} />
-                                                {selectedHotelIdx === idx && <HotelAccordion item={item} />}
-                                            </div>
-                                        ))
+                                        ? filteredHotelList.map((item, idx) => {
+                                            const cardKey = `hotel-${item.name}-${item.city}`;
+                                            const isChecked = checkedCards.has(cardKey);
+                                            return (
+                                                <div key={idx} className="relative">
+                                                    <ExploreHotel item={item} isSelected={selectedHotelIdx === idx}
+                                                        onClick={() => setSelectedHotelIdx(idx === selectedHotelIdx ? null : idx)} />
+                                                    {/* 체크 버튼 */}
+                                                    <button
+                                                        onClick={(e) => toggleCardCheck(cardKey, {
+                                                            category: 'accommodation',
+                                                            name: item.name,
+                                                            city: item.city,
+                                                            coordinates: item.coordinates,
+                                                            description: item.description,
+                                                            accommodationType: item.type,
+                                                            checkInTime: item.checkInTime,
+                                                            checkOutTime: item.checkOutTime,
+                                                            tags: item.tags,
+                                                        }, e)}
+                                                        className={`absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-150 ${isChecked
+                                                            ? "bg-orange-500 border-orange-500"
+                                                            : "bg-white border-slate-200 hover:border-orange-300"
+                                                            }`}
+                                                    >
+                                                        {isChecked && <Check className="w-3.5 h-3.5 text-white" />}
+                                                    </button>
+                                                    {selectedHotelIdx === idx && <HotelAccordion item={item} />}
+                                                </div>
+                                            );
+                                        })
                                         : <EmptyState category="hotel" />
                                 )}
                                 {!["food", "hotel"].includes(activeCategory) && <EmptyState category={activeCategory} />}

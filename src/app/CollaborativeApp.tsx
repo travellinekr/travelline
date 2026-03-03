@@ -10,6 +10,8 @@ import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Tr
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
+import { useToast } from "@/hooks/useToast";
+import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
 import { getEntryCardBlocks } from "@/data/entryCardGuide";
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
@@ -509,19 +511,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const [inboxState, setInboxState] = useState<InboxStateType>('closed');
     const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
-    const [toasts, setToasts] = useState<Array<{ id: number; message: string; type: 'info' | 'warning' }>>([]);
-    const toastIdRef = useRef(0);
+
+    const { toasts, addToast, removeToast } = useToast();
 
     const containerRef = useRef<HTMLDivElement>(null);
-
-    // Toast helper function
-    const addToast = (message: string, type: 'info' | 'warning' = 'info') => {
-        const id = toastIdRef.current++;
-        setToasts(prev => [...prev, { id, message, type }]);
-        setTimeout(() => {
-            setToasts(prev => prev.filter(t => t.id !== id));
-        }, 3000);
-    };
+    // Liveblocks cards 최신값 참조 (stale closure 방지)
+    const cardsRef = useRef<ReadonlyMap<string, any> | null>(null);
+    useEffect(() => { cardsRef.current = cards as ReadonlyMap<string, any> | null; }, [cards]);
 
     const { setNodeRef: setInboxClosedHeaderRef } = useDroppable({
         id: 'inbox-closed-header',
@@ -576,6 +572,82 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
     }, []);
+
+    // ── Explore에서 추가된 카드 큐 처리 (중복 체크 포함) ─────────────
+    useEffect(() => {
+        const queueKey = `explore_queue_${roomId}`;
+        const raw = localStorage.getItem(queueKey);
+        if (!raw) return;
+
+        let queued: any[] = [];
+        try { queued = JSON.parse(raw); } catch { return; }
+        if (!queued.length) return;
+
+        // 딘레이 후 처리 (Liveblocks 스토리지 준비 대기)
+        const timer = setTimeout(() => {
+            // 현재 보관함에 있는 카드들의 title+city 세트 (O(1) 중복 검색)
+            const existingKeys = new Set<string>();
+            if (cardsRef.current) {
+                cardsRef.current.forEach((c: any) => {
+                    if (c?.text && c?.city) {
+                        existingKeys.add(`${c.text}__${c.city}`);
+                    }
+                });
+            }
+
+            let addedCount = 0;
+            let skippedCount = 0;
+
+            queued.forEach((card) => {
+                const dupKey = `${card.name}__${card.city || ''}`;
+                if (existingKeys.has(dupKey)) {
+                    skippedCount++;
+                    return; // 중복 skip
+                }
+                try {
+                    handleCreateCard({
+                        title: card.name,
+                        category: card.category === 'food' ? 'food' : 'hotel',
+                        type: 'place',
+                        city: card.city || '',
+                        icon: card.icon || '',
+                        coordinates: card.coordinates,
+                        description: card.description || '',
+                        priceRange: card.priceRange || '',
+                        openingHours: card.openingHours || '',
+                        michelin: card.michelin || '',
+                        specialty: card.specialty || '',
+                        features: card.features || [],
+                        reservation: card.reservation || false,
+                        restaurantType: card.restaurantType || '',
+                        cuisine: card.cuisine || '',
+                        accommodationType: card.accommodationType || '',
+                        checkInTime: card.checkInTime || '',
+                        checkOutTime: card.checkOutTime || '',
+                        tags: card.tags || [],
+                    });
+                    existingKeys.add(dupKey); // 방금 추가한 카드도 키에 등록
+                    addedCount++;
+                } catch (e) {
+                    console.error('[explore_queue] 카드 추가 실패:', e);
+                }
+            });
+
+            localStorage.removeItem(queueKey);
+
+            // 결과 토스트
+            if (addedCount > 0 && skippedCount > 0) {
+                addToast(`✈️ ${addedCount}개 카드가 추가되었고, ${skippedCount}개는 중복 스킵했습니다.`, 'info');
+            } else if (addedCount > 0) {
+                addToast(`✈️ Explore에서 ${addedCount}개 카드가 보관함에 추가됐어요!`, 'info');
+            } else if (skippedCount > 0) {
+                addToast(`모든 카드가 이미 보관함에 있어요. (${skippedCount}개 중복 스킵)`, 'warning');
+            }
+        }, 1200); // Liveblocks 연결 대기
+
+        return () => clearTimeout(timer);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [roomId]);
 
     // 모바일 키보드 감지
     useEffect(() => {
@@ -1614,37 +1686,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 </div>
             </DndContext >
 
-
-            {/* 토스트 메시지들 - 오른쪽 아래 스택 */}
-            <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col-reverse gap-2">
-                {toasts.map((toast, index) => (
-                    <div
-                        key={toast.id}
-                        className={`flex items-center gap-3 md:gap-4 pl-3 pr-4 md:pl-4 md:pr-5 py-2.5 md:py-3 rounded-full shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-300 ${toast.type === 'warning'
-                            ? 'bg-rose-100 text-rose-800 border border-rose-300/50'
-                            : 'bg-emerald-100 text-emerald-800 border border-emerald-300/50'
-                            }`}
-                    >
-                        <div className={`w-7 h-7 md:w-8 md:h-8 rounded-full flex items-center justify-center shrink-0 ${toast.type === 'warning'
-                            ? 'bg-rose-200 border border-rose-400/50'
-                            : 'bg-emerald-200 border border-emerald-400/50'
-                            }`}>
-                            <span className={`text-sm md:text-base ${toast.type === 'warning' ? 'text-rose-700' : 'text-emerald-700'}`}>
-                                {toast.type === 'warning' ? '⚠' : '✓'}
-                            </span>
-                        </div>
-                        <div className="flex flex-col flex-1">
-                            <span className={`text-xs md:text-sm font-semibold ${toast.type === 'warning' ? 'text-rose-800' : 'text-emerald-800'}`}>{toast.message}</span>
-                        </div>
-                        <button
-                            onClick={() => setToasts(prev => prev.filter(t => t.id !== toast.id))}
-                            className={`ml-2 transition-colors ${toast.type === 'warning' ? 'text-rose-500 hover:text-rose-700' : 'text-emerald-500 hover:text-emerald-700'}`}
-                        >
-                            <span className="text-lg">×</span>
-                        </button>
-                    </div>
-                ))}
-            </div>
+            {/* 토스트 메시지들 */}
+            <ToastContainer toasts={toasts} onClose={removeToast} />
         </>
     );
 }
