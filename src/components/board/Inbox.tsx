@@ -79,7 +79,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         </div>
       </div>
 
-      <div className="flex-1 overflow-y-auto p-4 md:p-6 bg-transparent custom-scrollbar">
+      <div className="flex-1 min-h-0 overflow-y-auto p-4 md:p-6 bg-transparent custom-scrollbar">
         <div className="flex flex-col gap-3 max-w-xl mx-auto pb-20">
 
           {activeCategory === 'destination' ? (

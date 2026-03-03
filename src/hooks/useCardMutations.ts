@@ -78,7 +78,7 @@ export function useCardMutations() {
         }
     }, []);
 
-    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address }) => {
+    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address, etcItem = '' }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -127,6 +127,7 @@ export function useCardMutations() {
             rating,
             address,
             isUserCreated: true,  // 사용자가 직접 추가한 카드
+            etcItem: etcItem || '',  // 기타 카드 항목
         });
 
         cards.set(newCardId, newCard);

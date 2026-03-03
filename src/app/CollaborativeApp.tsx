@@ -1370,7 +1370,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         <>
             <DndContext sensors={sensors} collisionDetection={customCollisionDetection} onDragStart={canEdit ? handleDragStart : undefined} onDragEnd={canEdit ? handleDragEnd : undefined}>
                 <style>{`
-        body { overscroll-behavior-y: none; background-color: #ffffff; }
+        body { overscroll-behavior-y: none; background-color: #ffffff; overflow: hidden; }
         * { touch-action: manipulation; }
         .custom-scrollbar { overflow-y: auto; overscroll-behavior-y: contain; }
         .custom-scrollbar::-webkit-scrollbar { width: 4px; }
@@ -1434,7 +1434,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
 
                                     {/* 📜 Scrollable Main Timeline */}
-                                    <div className="flex-1 overflow-y-auto custom-scrollbar">
+                                    <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
                                         <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} canEdit={canEdit} />
                                     </div>
                                 </section>
@@ -1494,7 +1494,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         )}
                                     </div>
 
-                                    <div className="flex-1 overflow-hidden bg-gray-50 md:bg-transparent">
+                                    <div className="flex-1 flex flex-col min-h-0 bg-gray-50 md:bg-transparent">
                                         <Inbox
                                             cards={inboxCards}
                                             activeCategory={activeCategory}

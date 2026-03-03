@@ -8,7 +8,7 @@ const client = createClient({
 export type Card = {
   id: string;
   text: string;
-  category: 'destination' | 'flight' | 'accommodation' | 'restaurant' | 'preparation';
+  category: 'destination' | 'flight' | 'accommodation' | 'restaurant' | 'preparation' | 'hotel' | 'food' | 'shopping' | 'transport' | 'tourspa' | 'other';
   votes?: string[]; // Array of user IDs who voted for this card
   month?: number; // 월 정보 (1-12)
   city?: string; // 도시명 (영문, 예: "osaka")
@@ -19,6 +19,7 @@ export type Card = {
   route?: string; // 항공편 경로 (예: "🛫 ICN")
   coordinates?: { lat: number; lng: number }; // GPS 좌표 (항공카드용)
   notes?: any; // BlockNote 에디터 콘텐츠 (JSON 형식)
+  etcItem?: string; // 기타 카드 항목 (3단 표시용)
 };
 
 export type FlightInfo = {

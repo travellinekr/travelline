@@ -20,15 +20,13 @@ export function EtcCard({ card, onRef, style, listeners, attributes, onOpenNotes
             onOpenNotes={onOpenNotes}
             hasNotes={hasNotes}
         >
-            <div className="flex flex-col justify-center w-full min-w-0">
+            <div className="flex flex-col w-full min-w-0">
                 <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
                     {title}
                 </h4>
-                {item && (
-                    <p className="text-[11px] text-gray-400 mt-0.5 truncate">
-                        {item}
-                    </p>
-                )}
+                <p className="text-[11px] text-gray-400 mt-0.5 truncate">
+                    {item || '—'}
+                </p>
             </div>
         </BaseCard>
     );

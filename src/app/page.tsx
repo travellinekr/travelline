@@ -68,6 +68,7 @@ const ROLLING_CARDS = [
 function RollingBanner() {
   const [idx, setIdx] = useState(0);
   const total = ROLLING_CARDS.length; // 5
+  const router = useRouter();
 
   // 3초마다 1칸씩 전진
   useEffect(() => {
@@ -91,7 +92,10 @@ function RollingBanner() {
             <h2 className="text-lg font-bold text-slate-700">둘러보기</h2>
             <p className="text-sm text-slate-400">공유된 여행 플랜과 사용 가이드를 확인하세요</p>
           </div>
-          <button className="flex items-center gap-1 text-sm font-semibold text-slate-400 hover:text-orange-500 transition-colors group">
+          <button
+            onClick={() => router.push('/explore')}
+            className="flex items-center gap-1 text-sm font-semibold text-slate-400 hover:text-orange-500 transition-colors group"
+          >
             더보기
             <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </button>

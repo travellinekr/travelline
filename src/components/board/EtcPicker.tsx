@@ -94,15 +94,13 @@ function DraggableEtcCard({ card, index, cardId }: { card: any; index: number; c
                     onOpenNotes={() => setIsNotesOpen(true)}
                     hasNotes={hasNotes}
                 >
-                    <div className="flex flex-col justify-center w-full min-w-0">
+                    <div className="flex flex-col w-full min-w-0">
                         <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
                             {card.title || card.text}
                         </h4>
-                        {card.etcItem && (
-                            <p className="text-[11px] text-gray-400 mt-0.5 truncate">
-                                {card.etcItem}
-                            </p>
-                        )}
+                        <p className="text-[11px] text-gray-400 mt-0.5 truncate">
+                            {card.etcItem || '—'}
+                        </p>
                     </div>
                 </BaseCard>
             </div>
