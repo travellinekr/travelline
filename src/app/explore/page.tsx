@@ -129,7 +129,7 @@ function FoodAccordion({ item }: { item: RestaurantData }) {
         <div className="md:hidden mt-1 rounded-xl border border-orange-200 bg-white overflow-hidden animate-in slide-in-from-top-2 duration-200">
             <div className="h-44">
                 <iframe
-                    src={`https://maps.google.com/maps?q=${item.coordinates.lat},${item.coordinates.lng}&z=15&output=embed&hl=ko`}
+                    src={`https://maps.google.com/maps?q=${encodeURIComponent(item.name + ' ' + item.city)}&z=16&output=embed&hl=ko`}
                     className="w-full h-full border-0" loading="lazy" allowFullScreen title={item.name}
                 />
             </div>
@@ -166,7 +166,7 @@ function HotelAccordion({ item }: { item: AccommodationData }) {
         <div className="md:hidden mt-1 rounded-xl border border-rose-200 bg-white overflow-hidden animate-in slide-in-from-top-2 duration-200">
             <div className="h-44">
                 <iframe
-                    src={`https://maps.google.com/maps?q=${item.coordinates.lat},${item.coordinates.lng}&z=15&output=embed&hl=ko`}
+                    src={`https://maps.google.com/maps?q=${encodeURIComponent(item.name + ' ' + item.city)}&z=16&output=embed&hl=ko`}
                     className="w-full h-full border-0" loading="lazy" allowFullScreen title={item.name}
                 />
             </div>
@@ -231,6 +231,7 @@ export default function ExplorePage() {
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
+    const [showInfoModal, setShowInfoModal] = useState(false);
 
     // ── 체크 & 여행계획 추가 ─────────────────────────
     const [checkedCards, setCheckedCards] = useState<Map<string, ExploreCardQueue>>(new Map());
@@ -666,12 +667,12 @@ export default function ExplorePage() {
                                 <div className="h-64 mx-3 mt-3 rounded-xl overflow-hidden">
                                     {(activeCategory === "food" && selectedFood) ? (
                                         <iframe
-                                            src={`https://maps.google.com/maps?q=${selectedFood.coordinates.lat},${selectedFood.coordinates.lng}&z=15&output=embed&hl=ko`}
+                                            src={`https://maps.google.com/maps?q=${encodeURIComponent(selectedFood.name + ' ' + selectedFood.city)}&z=16&output=embed&hl=ko`}
                                             className="w-full h-full border-0" loading="lazy" allowFullScreen title={selectedFood.name}
                                         />
                                     ) : (activeCategory === "hotel" && selectedHotel) ? (
                                         <iframe
-                                            src={`https://maps.google.com/maps?q=${selectedHotel.coordinates.lat},${selectedHotel.coordinates.lng}&z=15&output=embed&hl=ko`}
+                                            src={`https://maps.google.com/maps?q=${encodeURIComponent(selectedHotel.name + ' ' + selectedHotel.city)}&z=16&output=embed&hl=ko`}
                                             className="w-full h-full border-0" loading="lazy" allowFullScreen title={selectedHotel.name}
                                         />
                                     ) : (
@@ -688,12 +689,19 @@ export default function ExplorePage() {
                                 <div className="px-4 pr-6 py-4">
                                     {activeCategory === "food" && selectedFood ? (
                                         <div className="space-y-3">
-                                            <div className="flex items-center gap-2">
-                                                <span className="text-xl">{selectedFood.icon || "🍴"}</span>
-                                                <div>
+                                            <div className="flex items-start gap-2">
+                                                <span className="text-xl mt-0.5">{selectedFood.icon || "🍴"}</span>
+                                                <div className="flex-1 min-w-0">
                                                     <p className="font-black text-slate-800 text-sm">{selectedFood.name}</p>
                                                     <p className="text-[11px] text-slate-400">{selectedFood.city}</p>
                                                 </div>
+                                                <button
+                                                    onClick={() => setShowInfoModal(true)}
+                                                    className="shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-slate-100 hover:bg-orange-100 hover:text-orange-500 text-slate-400 transition-colors"
+                                                    title="정보 더보기"
+                                                >
+                                                    <BookOpen className="w-3.5 h-3.5" />
+                                                </button>
                                             </div>
                                             {selectedFood.priceRange && <div className="flex items-center gap-1.5 text-xs text-slate-600"><DollarSign className="w-3.5 h-3.5 text-green-500" /> {selectedFood.priceRange}</div>}
                                             {selectedFood.openingHours && <div className="flex items-center gap-1.5 text-xs text-slate-600"><Clock className="w-3.5 h-3.5 text-blue-500" /> {selectedFood.openingHours}</div>}
@@ -713,12 +721,19 @@ export default function ExplorePage() {
                                         </div>
                                     ) : activeCategory === "hotel" && selectedHotel ? (
                                         <div className="space-y-3">
-                                            <div className="flex items-center gap-2">
-                                                <span className="text-xl">{selectedHotel.type === "resort" ? "🏖️" : "🏨"}</span>
-                                                <div>
+                                            <div className="flex items-start gap-2">
+                                                <span className="text-xl mt-0.5">{selectedHotel.type === "resort" ? "🏖️" : "🏨"}</span>
+                                                <div className="flex-1 min-w-0">
                                                     <p className="font-black text-slate-800 text-sm">{selectedHotel.name}</p>
                                                     <p className="text-[11px] text-slate-400">{selectedHotel.city}</p>
                                                 </div>
+                                                <button
+                                                    onClick={() => setShowInfoModal(true)}
+                                                    className="shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-slate-100 hover:bg-orange-100 hover:text-orange-500 text-slate-400 transition-colors"
+                                                    title="정보 더보기"
+                                                >
+                                                    <BookOpen className="w-3.5 h-3.5" />
+                                                </button>
                                             </div>
                                             {selectedHotel.description && (
                                                 <div className="p-2.5 bg-blue-50 rounded-lg">
@@ -746,6 +761,50 @@ export default function ExplorePage() {
                         </div>{/* 우측 패널 끝 */}
 
                     </div>{/* 카드+지도 영역 끝 */}
+                </div>
+            )}
+
+            {/* ── 정보 더보기 모달 (메모장 스타일) ── */}
+            {showInfoModal && (activeCategory === 'food' ? selectedFood : selectedHotel) && (
+                <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4" onClick={() => setShowInfoModal(false)}>
+                    <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
+                    <div className="relative w-full max-w-sm bg-white rounded-2xl shadow-2xl overflow-hidden animate-in slide-in-from-bottom-4 duration-300" onClick={(e) => e.stopPropagation()}>
+                        <div className="h-1.5 w-full bg-gradient-to-r from-orange-400 to-amber-400" />
+                        <div className="flex items-center justify-between px-5 pt-4 pb-3 border-b border-slate-100">
+                            <div className="flex items-center gap-2.5">
+                                <span className="text-2xl">{activeCategory === 'food' ? (selectedFood?.icon || '🍴') : (selectedHotel?.type === 'resort' ? '🏖️' : '🏨')}</span>
+                                <div>
+                                    <p className="font-black text-slate-800 text-base leading-tight">{activeCategory === 'food' ? selectedFood?.name : selectedHotel?.name}</p>
+                                    <p className="text-xs text-slate-400">{activeCategory === 'food' ? selectedFood?.city : selectedHotel?.city}</p>
+                                </div>
+                            </div>
+                            <button onClick={() => setShowInfoModal(false)} className="w-7 h-7 flex items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 transition-colors"><X className="w-4 h-4" /></button>
+                        </div>
+                        <div className="px-5 py-4 space-y-3 max-h-[55vh] overflow-y-auto">
+                            {activeCategory === 'food' && selectedFood ? (<>
+                                {selectedFood.priceRange && <div className="flex items-center gap-2 text-sm text-slate-700"><DollarSign className="w-4 h-4 text-green-500 shrink-0" /><span>{selectedFood.priceRange}</span></div>}
+                                {selectedFood.openingHours && <div className="flex items-center gap-2 text-sm text-slate-700"><Clock className="w-4 h-4 text-blue-500 shrink-0" /><span>{selectedFood.openingHours}</span></div>}
+                                {selectedFood.michelin && <div className="flex items-center gap-2 text-sm text-amber-600 font-semibold"><Star className="w-4 h-4 shrink-0" /><span>미슐랭 {selectedFood.michelin}</span></div>}
+                                {selectedFood.cuisine && <div className="flex items-center gap-2 text-sm text-slate-700"><Utensils className="w-4 h-4 text-orange-400 shrink-0" /><span>{selectedFood.cuisine}</span></div>}
+                                {selectedFood.specialty && <div className="p-3 bg-orange-50 rounded-xl"><p className="text-[11px] font-bold text-orange-600 mb-1">대표 메뉴</p><p className="text-sm text-slate-700">{selectedFood.specialty}</p></div>}
+                                {selectedFood.features && selectedFood.features.length > 0 && <div className="flex flex-wrap gap-1.5">{selectedFood.features.map((f) => <span key={f} className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full">{f}</span>)}</div>}
+                                {selectedFood.reservation && <p className="text-sm text-rose-500 font-semibold">📅 예약 필수</p>}
+                            </>) : activeCategory === 'hotel' && selectedHotel ? (<>
+                                {selectedHotel.description && <div className="p-3 bg-blue-50 rounded-xl"><p className="text-sm text-slate-700">{selectedHotel.description}</p></div>}
+                                <div className="flex gap-4 text-sm text-slate-700">
+                                    <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-blue-500 shrink-0" /><span>체크인 {selectedHotel.checkInTime}</span></div>
+                                    <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-slate-400 shrink-0" /><span>체크아웃 {selectedHotel.checkOutTime}</span></div>
+                                </div>
+                                {selectedHotel.tags && selectedHotel.tags.length > 0 && <div className="flex flex-wrap gap-1.5">{selectedHotel.tags.map((t) => <span key={t} className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full">{t}</span>)}</div>}
+                            </>) : null}
+                        </div>
+                        <div className="px-5 pb-5 pt-2">
+                            <a href={`https://www.google.com/search?q=${encodeURIComponent((activeCategory === 'food' ? selectedFood?.name : selectedHotel?.name) + ' ' + (activeCategory === 'food' ? selectedFood?.city : selectedHotel?.city))}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white text-sm font-semibold transition-colors">
+                                <BookOpen className="w-4 h-4" />
+                                구글에서 자세히 보기
+                            </a>
+                        </div>
+                    </div>
                 </div>
             )}
         </div>

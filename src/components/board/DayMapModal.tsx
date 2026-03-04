@@ -55,7 +55,6 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
 
         return () => {
             // cleanup: 모달이 닫힐 때 지도 인스턴스와 마커들 완전히 제거
-            // 마커들도 정리
             markersRef.current.forEach(m => m.map = null);
             infoWindowsRef.current.forEach(iw => iw.close());
             markersRef.current = [];
@@ -68,6 +67,9 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
     // 마커 업데이트 (markers가 실제로 변경되었을 때만)
     useEffect(() => {
         if (!isOpen || !googleMapRef.current || markers.length === 0) return;
+
+        // marker 라이브러리 로드 확인 (RefererNotAllowedMapError 등으로 미로드 시 방어)
+        if (!google?.maps?.marker?.AdvancedMarkerElement) return;
 
         // 마커 배열이 실제로 변경되었는지 확인 (깜빡임 방지)
         const currentMarkersString = JSON.stringify(markers.map(m => ({ id: m.id, lat: m.coordinates.lat, lng: m.coordinates.lng })));

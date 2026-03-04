@@ -35,6 +35,9 @@ export default function RootLayout({
           {children}
         </Suspense>
 
+        {/* Google Maps 인증 실패 시 에러 억제 (개발 환경 RefererNotAllowedMapError 방지) */}
+        <script dangerouslySetInnerHTML={{ __html: 'window.gm_authFailure = function() { console.warn("[Maps] API 키 도메인 설정을 확인하세요."); };' }} />
+
         {/* Google Maps API */}
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places,marker&loading=async`}
