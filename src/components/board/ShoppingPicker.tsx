@@ -109,6 +109,7 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
     );
 }
 
+
 // ShoppingPicker 메인 컴포넌트
 export function ShoppingPicker({
     destinationCity,

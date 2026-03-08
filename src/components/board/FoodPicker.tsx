@@ -110,6 +110,7 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
     );
 }
 
+
 // FoodPicker 메인 컴포넌트
 export function FoodPicker({
     destinationCity,

@@ -83,11 +83,8 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         data: cardData,
     });
 
-    const style = transform ? {
-        transform: CSS.Translate.toString(transform),
-    } : undefined;
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
 
-    // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
             <div
@@ -97,7 +94,6 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         );
     }
 
-    // HotelCard에 drag props 직접 전달 → 고스트 카드와 동일한 컴포넌트 사용
     return (
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             <HotelCard
@@ -111,6 +107,7 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         </div>
     );
 }
+
 
 // AccommodationPicker 메인 컴포넌트
 export function AccommodationPicker({

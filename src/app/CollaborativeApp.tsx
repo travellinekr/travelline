@@ -13,7 +13,7 @@ import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
-import { getEntryCardBlocks } from "@/data/entryCardGuide";
+
 import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 
@@ -718,38 +718,32 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     }, []);
 
-    // p1 카드 메모가 비어있을 때만 초기값 삽입 (기존 메모 보호)
-    const setEntryCardNotesIfEmpty = useMutation(({ storage }, notes: any[]) => {
+    // p1 카드의 city 필드만 업데이트 (notes 자동 채우기 안 함 - 메모는 사용자가 직접 입력)
+    const setEntryCardCity = useMutation(({ storage }, city: string) => {
         const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
         if (!cardsMap) return;
         const p1Card = cardsMap.get('p1');
         if (!p1Card) return;
-        // 이미 유효한 notes가 있으면 덮어쓰지 않음
-        const existingNotes = (p1Card as any).get('notes');
-        if (Array.isArray(existingNotes) && existingNotes.length > 0) return;
-        (p1Card as any).set('notes', notes);
+        (p1Card as any).set('city', city);
     }, []);
 
-    // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트)
+    // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트 + notes 초기화)
     const migrateP1Card = useMutation(({ storage }) => {
         const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
         if (!cardsMap) return;
         const p1Card = cardsMap.get('p1');
         if (p1Card) {
             const currentText = (p1Card as any).get('text');
-            // 구버전 텍스트면 업데이트
             if (currentText !== '입국심사&필요사항') {
                 (p1Card as any).set('text', '입국심사&필요사항');
             }
-            // isEntryCard 플래그가 없으면 추가
             if (!(p1Card as any).get('isEntryCard')) {
                 (p1Card as any).set('isEntryCard', true);
             }
-            // 기존 잘못된 notes(빈 배열 등) 초기화
-            const existingNotes = (p1Card as any).get('notes');
-            if (Array.isArray(existingNotes) && existingNotes.length === 0) {
-                (p1Card as any).set('notes', undefined);
-            }
+            // Info/메모 분리: 기존 자동 입력된 notes 전부 초기화
+            // 메모는 사용자가 직접 작성, 입국 정보는 Info 모달(data/ 파일)에서 제공
+            // ⚠️ undefined 대신 [] 사용 (Liveblocks는 undefined를 직렬화하지 않아 무시됨)
+            (p1Card as any).set('notes', []);
         }
     }, []);
 
@@ -768,30 +762,28 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // Detect removal: had a destination before, now it's gone
         if (prevId && !currentId && canEdit && !roleLoading) {
             cleanupFlightAndDays();
-            // 입국심사 카드 메모 초기화
-            updateEntryCardNotes([]);
+            // 입국심사 카드 city 초기화
+            setEntryCardCity('');
         }
 
         // Update ref for next render
         prevDestinationCardId.current = currentId;
     }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes, canEdit, roleLoading]);
 
-    // 여행지 변경 시 입국심사&필요사항 카드 메모 자동 삽입 (editor/owner만)
-    // ⚠️ 이미 메모가 있으면 덮어쓰지 않음 (기존 작성 내용 보호)
+    // 여행지 변경 시 입국심사 카드의 city 필드만 업데이트 (메모 자동 채우기 ❌)
     const prevDestCityRef = useRef<string | null>(null);
     useEffect(() => {
-        if (roleLoading || !canEdit) return; // 로딩 중이거나 viewer는 write 불가
+        if (roleLoading || !canEdit) return;
         const cityName = destinationCard?.text || destinationCard?.title || null;
         const prevCity = prevDestCityRef.current;
 
         if (cityName && cityName !== prevCity) {
-            // 새 도시가 설정됨 → 기존 메모가 없을 때만 초기 블록 삽입
-            const blocks = getEntryCardBlocks(cityName);
-            setEntryCardNotesIfEmpty(blocks);
+            // 도시명만 저장 → Info 모달이 이 city로 data/ 파일에서 실시간 로드
+            setEntryCardCity(cityName);
         }
 
         prevDestCityRef.current = cityName;
-    }, [destinationCard, setEntryCardNotesIfEmpty, canEdit, roleLoading]);
+    }, [destinationCard, setEntryCardCity, canEdit, roleLoading]);
 
     const handlePointerMove = (e: React.PointerEvent) => {
         if (isMobileDragging) return;

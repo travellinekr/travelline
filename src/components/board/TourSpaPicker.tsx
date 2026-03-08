@@ -99,6 +99,7 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
     );
 }
 
+
 // TourSpaPicker 메인 컴포넌트
 export function TourSpaPicker({
     destinationCity,
