@@ -3,15 +3,16 @@ import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { Calendar, MapPin, X } from "lucide-react";
 
-import { FlightCard } from "./cards/FlightCard";
-import { HotelCard } from "./cards/HotelCard";
-import { FoodCard } from "./cards/FoodCard";
-import { PreparationCard } from "./cards/PreparationCard";
-import { ShoppingCard } from "./cards/ShoppingCard";
-import { TourSpaCard } from "./cards/TourSpaCard";
-import { TransportCard } from "./cards/TransportCard";
-import { DefaultCard } from "./cards/DefaultCard";
-import { EtcCard } from "./cards/EtcCard";
+import { FlightCard } from "@/components/cards/FlightCard";
+import { HotelCard } from "@/components/cards/HotelCard";
+import { FoodCard } from "@/components/cards/FoodCard";
+import { PreparationCard } from "@/components/cards/PreparationCard";
+import { ShoppingCard } from "@/components/cards/ShoppingCard";
+import { TourSpaCard } from "@/components/cards/TourSpaCard";
+import { TransportCard } from "@/components/cards/TransportCard";
+import { DefaultCard } from "@/components/cards/DefaultCard";
+import { EtcCard } from "@/components/cards/EtcCard";
+import type { CardVariant } from "@/components/cards/types";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { CardEditorModal } from "./CardEditorModal";
 
@@ -223,18 +224,18 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
   );
 }
 
-export function renderCardInternal(card: any, props: any = {}) {
+export function renderCardInternal(card: any, props: any = {}, variant: CardVariant = 'inbox') {
   switch (card.category) {
     case 'destination': return <DestinationCard key={card.id} card={card} {...props} />;
-    case 'preparation': return <PreparationCard key={card.id} card={card} {...props} />;
-    case 'shopping': return <ShoppingCard key={card.id} card={card} {...props} />;
-    case 'flight': return <FlightCard key={card.id} card={card} {...props} />;
-    case 'hotel': return <HotelCard key={card.id} card={card} {...props} />;
-    case 'food': return <FoodCard key={card.id} card={card} {...props} />;
-    case 'tourspa': return <TourSpaCard key={card.id} card={card} {...props} />;
-    case 'transport': return <TransportCard key={card.id} card={card} {...props} />;
-    case 'other': return <EtcCard key={card.id} card={card} {...props} />;
-    default: return <DefaultCard key={card.id} card={card} {...props} />;
+    case 'preparation': return <PreparationCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'shopping': return <ShoppingCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'flight': return <FlightCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'hotel': return <HotelCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'food': return <FoodCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'tourspa': return <TourSpaCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'transport': return <TransportCard key={card.id} card={card} variant={variant} {...props} />;
+    case 'other': return <EtcCard key={card.id} card={card} variant={variant} {...props} />;
+    default: return <DefaultCard key={card.id} card={card} variant={variant} {...props} />;
   }
 }
 
@@ -279,18 +280,14 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   };
 
   if (isDragging) {
-    const isDestination = card.category === 'destination';
+    // 드래그 중 원본 자리: 반투명 빈 박스로 자리만 표시 (실제 카드 높이 유지)
     const isCompact = variant === 'compact';
-
     return (
       <div
         ref={setNodeRef}
         style={style}
-        className={`w-full min-w-[320px] flex-shrink-0 border-2 border-dashed rounded-lg bg-slate-50/50 
-          ${isDestination
-            ? (isCompact ? 'h-[72px] border-emerald-300 bg-emerald-50/50' : 'h-[54px] border-rose-300 bg-rose-50/50')
-            : 'h-[72px] border-slate-300'}
-        `}
+        className={`w-full opacity-30 rounded-lg bg-slate-100 border border-slate-200 ${isCompact ? 'h-[72px]' : 'h-[88px]'
+          }`}
       />
     );
   }

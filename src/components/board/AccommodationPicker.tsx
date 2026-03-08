@@ -5,7 +5,7 @@ import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Hotel, Plus, Trash2 } from 'lucide-react';
 import { ACCOMMODATIONS_DATA, AccommodationData } from '@/data/accommodations';
-import { BaseCard } from './cards/BaseCard';
+import { HotelCard } from '@/components/cards/HotelCard';
 import { AccommodationAddModal } from './AccommodationAddModal';
 
 // 직접 추가하기 / 삭제 영역 버튼
@@ -45,14 +45,7 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
     );
 }
 
-// 숙소 타입 정의 (데이터와 일치)
-type AccommodationType = 'hotel' | 'resort';
 
-// 숙소 타입별 한글 레이블
-const ACCOMMODATION_TYPE_LABELS: Record<AccommodationType, string> = {
-    hotel: '호텔',
-    resort: '리조트',
-};
 
 // 도시별 숙소 목록 필터링 함수 (대소문자 무시)
 function getAccommodationsByCity(cityName: string) {
@@ -68,6 +61,7 @@ function getAccommodationsByCity(cityName: string) {
 function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
     const cardData = {
         id: cardId || `picker-hotel-${Date.now()}`,
+        text: card.text || card.title,
         title: card.text || card.title,
         category: 'hotel' as const,
         accommodationType: card.accommodationType,
@@ -81,7 +75,7 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         icon: card.icon,
         rating: card.rating,
         address: card.address,
-        isUserCreated: card.isUserCreated,  // 삭제 검증용
+        isUserCreated: card.isUserCreated,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
@@ -93,8 +87,6 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         transform: CSS.Translate.toString(transform),
     } : undefined;
 
-    const typeLabel = ACCOMMODATION_TYPE_LABELS[card.accommodationType as AccommodationType] || card.accommodationType;
-
     // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
@@ -105,51 +97,17 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         );
     }
 
-    // 아이콘 매핑
-    const getIcon = (type: string) => {
-        const iconMap: { [key: string]: string } = {
-            'hotel': '🏨',
-            'resort': '🏖️',
-            'airbnb': '🏠',
-            'hostel': '🛏️',
-            'guesthouse': '🏡',
-            'villa': '🏘️',
-            'apartment': '🏢',
-        };
-        return card.icon || iconMap[type] || '🏨';
-    };
-
+    // HotelCard에 drag props 직접 전달 → 고스트 카드와 동일한 컴포넌트 사용
     return (
-        <div
-            ref={setNodeRef}
-            style={style}
-            {...listeners}
-            {...attributes}
-            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-        >
-            <BaseCard
-                colorClass="bg-rose-400"
-                icon={Hotel}
-                category={typeLabel}
-                className="h-[72px]"
-            >
-                <div className="flex flex-col justify-center w-full">
-                    <div className="flex items-center gap-2">
-                        <span className="text-base">{getIcon(card.accommodationType)}</span>
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {card.text || card.title}
-                        </h4>
-                    </div>
-                    {/* 셋째줄: 주소만 표시 */}
-                    {card.address && (
-                        <div className="mt-0.5">
-                            <span className="text-[11px] text-gray-500 truncate block">
-                                {card.address}
-                            </span>
-                        </div>
-                    )}
-                </div>
-            </BaseCard>
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <HotelCard
+                card={cardData}
+                variant="inbox"
+                onRef={setNodeRef}
+                style={style}
+                listeners={listeners}
+                attributes={attributes}
+            />
         </div>
     );
 }

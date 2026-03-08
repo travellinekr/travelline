@@ -5,7 +5,7 @@ import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Utensils, Plus, Trash2 } from 'lucide-react';
 import { RestaurantType, RestaurantData, RESTAURANTS_DATA } from '@/data/restaurants';
-import { BaseCard } from './cards/BaseCard';
+import { FoodCard } from '@/components/cards/FoodCard';
 import { FoodAddModal } from './FoodAddModal';
 
 // 직접 추가하기 / 삭제 영역 버튼
@@ -45,19 +45,7 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
     );
 }
 
-// 음식 타입별 한글 레이블
-const RESTAURANT_TYPE_LABELS: Record<RestaurantType, string> = {
-    korean: '한식',
-    japanese: '일식',
-    chinese: '중식',
-    western: '양식',
-    italian: '이탈리안',
-    french: '프렌치',
-    cafe: '카페',
-    'street-food': '길거리음식',
-    fusion: '퓨전',
-    local: '현지음식',
-};
+
 
 // 도시별 맛집 목록 필터링 함수 (대소문자 무시)
 function getRestaurantsByCity(cityName: string) {
@@ -73,6 +61,7 @@ function getRestaurantsByCity(cityName: string) {
 function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
     const cardData = {
         id: cardId || `picker-food-${Date.now()}`,
+        text: card.text || card.title,
         title: card.text || card.title,
         category: 'food' as const,
         restaurantType: card.restaurantType,
@@ -88,7 +77,7 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
         icon: card.icon,
         rating: card.rating,
         address: card.address,
-        isUserCreated: card.isUserCreated,  // 삭제 검증용
+        isUserCreated: card.isUserCreated,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
@@ -96,13 +85,8 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
         data: cardData,
     });
 
-    const style = transform ? {
-        transform: CSS.Translate.toString(transform),
-    } : undefined;
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
 
-    const typeLabel = RESTAURANT_TYPE_LABELS[card.restaurantType as RestaurantType] || card.restaurantType;
-
-    // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
             <div
@@ -112,55 +96,16 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
         );
     }
 
-    // 아이콘 매핑
-    const getIcon = (type: string) => {
-        const iconMap: { [key: string]: string } = {
-            'korean': '🇰🇷',
-            'japanese': '🍱',
-            'chinese': '🥟',
-            'western': '🍔',
-            'italian': '🍝',
-            'french': '🥐',
-            'cafe': '☕',
-            'street-food': '🍢',
-            'fusion': '🍽️',
-            'local': '🌶️',
-            'seafood': '🦞',
-        };
-        return card.icon || iconMap[type] || '🍴';
-    };
-
     return (
-        <div
-            ref={setNodeRef}
-            style={style}
-            {...listeners}
-            {...attributes}
-            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-        >
-            <BaseCard
-                colorClass="bg-orange-400"
-                icon={Utensils}
-                category={typeLabel}
-                className="h-[72px]"
-            >
-                <div className="flex flex-col justify-center w-full">
-                    <div className="flex items-center gap-2">
-                        <span className="text-base">{getIcon(card.restaurantType)}</span>
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {card.text || card.title}
-                        </h4>
-                    </div>
-                    {/* 셋째줄: 주소만 표시 */}
-                    {card.address && (
-                        <div className="mt-0.5">
-                            <span className="text-[11px] text-gray-500 truncate block">
-                                {card.address}
-                            </span>
-                        </div>
-                    )}
-                </div>
-            </BaseCard>
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <FoodCard
+                card={cardData}
+                variant="inbox"
+                onRef={setNodeRef}
+                style={style}
+                listeners={listeners}
+                attributes={attributes}
+            />
         </div>
     );
 }

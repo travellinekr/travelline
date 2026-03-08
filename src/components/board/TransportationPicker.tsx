@@ -4,7 +4,7 @@ import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Bus, Train, Car, Plus } from 'lucide-react';
 import { TRANSPORTATIONS_DATA, TransportationType } from '@/data/transportations';
-import { BaseCard } from './cards/BaseCard';
+import { TransportCard } from '@/components/cards/TransportCard';
 
 // 교통 타입별 아이콘 매핑
 const TRANSPORT_ICONS: Record<TransportationType, any> = {
@@ -70,17 +70,8 @@ function DraggableTransportCard({ transportation, index }: { transportation: any
         data: cardData,
     });
 
-    const style = transform ? {
-        transform: CSS.Translate.toString(transform),
-    } : undefined;
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
 
-    const transportType = transportation.type as TransportationType;
-    const TransportIcon = TRANSPORT_ICONS[transportType] || Bus;
-    const colorClass = TRANSPORT_COLOR;
-    const labelColorClass = TRANSPORT_LABEL_COLOR;
-    const typeLabel = TRANSPORT_TYPE_LABELS[transportType] || transportation.type;
-
-    // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
             <div
@@ -91,53 +82,15 @@ function DraggableTransportCard({ transportation, index }: { transportation: any
     }
 
     return (
-        <div
-            ref={setNodeRef}
-            style={style}
-            {...listeners}
-            {...attributes}
-            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-        >
-            <BaseCard
-                colorClass={colorClass}
-                icon={TransportIcon}
-                category={typeLabel}
-                className="h-[72px]"
-            >
-                <div className="flex flex-col justify-center w-full">
-                    <div className="flex items-center gap-2">
-                        {transportation.icon && (
-                            <span className="text-base">{transportation.icon}</span>
-                        )}
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {transportation.name}
-                        </h4>
-                    </div>
-                    <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-                        {transportation.description && (
-                            <span className="text-[11px] text-gray-600 truncate">
-                                {transportation.description}
-                            </span>
-                        )}
-                        {transportation.appRequired && transportation.appName && (
-                            <>
-                                <span className="text-gray-300">|</span>
-                                <span className="text-[9px] text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
-                                    📱 {transportation.appName}
-                                </span>
-                            </>
-                        )}
-                        {transportation.priceRange && (
-                            <>
-                                <span className="text-gray-300">|</span>
-                                <span className="text-[9px] text-emerald-600 bg-emerald-50 px-1.5 py-0.5 rounded">
-                                    {transportation.priceRange}
-                                </span>
-                            </>
-                        )}
-                    </div>
-                </div>
-            </BaseCard>
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <TransportCard
+                card={cardData}
+                variant="inbox"
+                onRef={setNodeRef}
+                style={style}
+                listeners={listeners}
+                attributes={attributes}
+            />
         </div>
     );
 }

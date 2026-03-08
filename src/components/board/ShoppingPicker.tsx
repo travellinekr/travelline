@@ -5,7 +5,7 @@ import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { ShoppingBag, Plus, Trash2 } from 'lucide-react';
 import { ShoppingType, ShoppingData, SHOPPING_DATA } from '@/data/shopping';
-import { BaseCard } from './cards/BaseCard';
+import { ShoppingCard } from '@/components/cards/ShoppingCard';
 import { ShoppingAddModal } from './ShoppingAddModal';
 
 // 직접 추가하기 / 삭제 영역 버튼
@@ -45,19 +45,7 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
     );
 }
 
-// 쇼핑 타입별 한글 레이블
-const SHOPPING_TYPE_LABELS: Record<ShoppingType, string> = {
-    'department-store': '백화점',
-    mall: '쇼핑몰',
-    market: '재래시장',
-    outlet: '아울렛',
-    'duty-free': '면세점',
-    convenience: '편의점',
-    supermarket: '슈퍼마켓',
-    specialty: '전문점',
-    boutique: '부티크',
-    souvenir: '기념품점',
-};
+
 
 // 도시별 쇼핑 목록 필터링 함수 (대소문자 무시)
 function getShoppingByCity(cityName: string) {
@@ -73,6 +61,7 @@ function getShoppingByCity(cityName: string) {
 function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string }) {
     const cardData = {
         id: cardId || `picker-shopping-${Date.now()}`,
+        text: card.text || card.title,
         title: card.text || card.title,
         category: 'shopping' as const,
         shoppingType: card.shoppingType,
@@ -87,7 +76,7 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
         icon: card.icon,
         rating: card.rating,
         address: card.address,
-        isUserCreated: card.isUserCreated,  // 삭제 검증용
+        isUserCreated: card.isUserCreated,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
@@ -95,13 +84,8 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
         data: cardData,
     });
 
-    const style = transform ? {
-        transform: CSS.Translate.toString(transform),
-    } : undefined;
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
 
-    const typeLabel = SHOPPING_TYPE_LABELS[card.shoppingType as ShoppingType] || card.shoppingType;
-
-    // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
             <div
@@ -111,50 +95,16 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
         );
     }
 
-    // 아이콘 매핑
-    const getIcon = (type: string) => {
-        const iconMap: { [key: string]: string } = {
-            'mall': '🛍️',
-            'department': '🏬',
-            'market': '🏪',
-            'boutique': '👗',
-            'duty-free': '✈️',
-            'outlet': '🏷️',
-        };
-        return card.icon || iconMap[type] || '🛒';
-    };
-
     return (
-        <div
-            ref={setNodeRef}
-            style={style}
-            {...listeners}
-            {...attributes}
-            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-        >
-            <BaseCard
-                colorClass="bg-purple-400"
-                icon={ShoppingBag}
-                category={typeLabel}
-                className="h-[72px]"
-            >
-                <div className="flex flex-col justify-center w-full">
-                    <div className="flex items-center gap-2">
-                        <span className="text-base">{getIcon(card.shoppingType)}</span>
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {card.text || card.title}
-                        </h4>
-                    </div>
-                    {/* 셋째줄: 주소만 표시 */}
-                    {card.address && (
-                        <div className="mt-0.5">
-                            <span className="text-[11px] text-gray-500 truncate block">
-                                {card.address}
-                            </span>
-                        </div>
-                    )}
-                </div>
-            </BaseCard>
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <ShoppingCard
+                card={cardData}
+                variant="inbox"
+                onRef={setNodeRef}
+                style={style}
+                listeners={listeners}
+                attributes={attributes}
+            />
         </div>
     );
 }
