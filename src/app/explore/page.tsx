@@ -10,6 +10,8 @@ import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
+import { FoodCard } from "@/components/cards/FoodCard";
+import { HotelCard } from "@/components/cards/HotelCard";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey; label: string; icon: string }[] = [
@@ -41,73 +43,6 @@ const FOOD_TYPE_LABEL: Record<string, string> = {
     fusion: "퓨전", local: "현지음식",
 };
 
-// ── BaseCard 스타일 정적 카드 ─────────────────────────
-function StaticBaseCard({
-    colorClass, Icon, category, children, isSelected, onClick,
-}: {
-    colorClass: string;
-    Icon: any;
-    category: string;
-    children: React.ReactNode;
-    isSelected?: boolean;
-    onClick?: () => void;
-}) {
-    return (
-        <button
-            onClick={onClick}
-            className={`group w-full bg-white hover:bg-slate-50 border-b flex items-center gap-3 relative h-[72px] px-3 transition-colors overflow-hidden text-left rounded-xl ${isSelected
-                ? "border-2 border-orange-400 bg-orange-50/50 shadow-sm"
-                : "border border-gray-100 hover:border-slate-200"
-                }`}
-        >
-            <div className={`absolute left-0 top-2 bottom-2 w-1 rounded-r-full ${colorClass}`} />
-            <div className="ml-1 w-8 h-8 rounded-full flex items-center justify-center shrink-0 bg-black/5">
-                <Icon className="w-4 h-4 text-slate-600" />
-            </div>
-            <div className="flex-1 min-w-0 flex flex-col justify-center">
-                <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider leading-none mb-0.5">{category}</span>
-                {children}
-            </div>
-            {isSelected && <div className="shrink-0 w-2 h-2 rounded-full bg-orange-400 mr-1" />}
-        </button>
-    );
-}
-
-function ExploreFood({ item, isSelected, onClick }: { item: RestaurantData; isSelected: boolean; onClick: () => void }) {
-    const icon = item.icon || FOOD_ICON_MAP[item.type] || "🍴";
-    const category = FOOD_TYPE_LABEL[item.type] || item.type;
-    return (
-        <StaticBaseCard colorClass="bg-orange-400" Icon={Utensils} category={category} isSelected={isSelected} onClick={onClick}>
-            <div className="flex flex-col w-full">
-                <div className="flex items-center gap-1.5">
-                    <span className="text-base leading-none">{icon}</span>
-                    <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{item.name}</h4>
-                </div>
-                <div className="flex items-center gap-2 mt-0.5 flex-wrap">
-                    {item.specialty && <span className="text-[11px] text-gray-600 truncate">{item.specialty}</span>}
-                    {item.priceRange && <><span className="text-gray-300">|</span><span className="text-[11px] text-gray-500">{item.priceRange}</span></>}
-                    {item.michelin && <><span className="text-gray-300">|</span><span className="text-[9px] text-orange-600 bg-orange-50 px-1.5 py-0.5 rounded border border-orange-100 font-bold">⭐ {item.michelin}</span></>}
-                </div>
-            </div>
-        </StaticBaseCard>
-    );
-}
-
-function ExploreHotel({ item, isSelected, onClick }: { item: AccommodationData; isSelected: boolean; onClick: () => void }) {
-    const category = item.type === "resort" ? "Resort" : "Hotel";
-    return (
-        <StaticBaseCard colorClass="bg-rose-400" Icon={Hotel} category={category} isSelected={isSelected} onClick={onClick}>
-            <div className="flex flex-col w-full">
-                <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{item.name}</h4>
-                <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
-                    {item.tags?.slice(0, 3).map((t) => (
-                        <span key={t} className="text-[9px] text-gray-600 bg-gray-100 px-1.5 py-0.5 rounded">{t}</span>
-                    ))}
-                </div>
-            </div>
-        </StaticBaseCard>
-    );
-}
 
 function EmptyState({ category }: { category: string }) {
     const tab = CATEGORY_TABS.find((t) => t.id === category);
@@ -586,13 +521,26 @@ export default function ExplorePage() {
                                         ? filteredFoodList.map((item, idx) => {
                                             const cardKey = `food-${item.name}-${item.city}`;
                                             const isChecked = checkedCards.has(cardKey);
+                                            // 음식 카드용 card 객체 생성
+                                            const foodCardData = {
+                                                id: cardKey,
+                                                category: 'food',
+                                                text: item.name,
+                                                icon: item.icon || FOOD_ICON_MAP[item.type] || '🍴',
+                                                restaurantType: item.type,
+                                                specialty: item.specialty,
+                                                priceRange: item.priceRange,
+                                                michelin: item.michelin,
+                                            };
                                             return (
                                                 <div key={idx} className="relative">
-                                                    <ExploreFood item={item} isSelected={selectedFoodIdx === idx}
-                                                        onClick={() => setSelectedFoodIdx(idx === selectedFoodIdx ? null : idx)} />
-                                                    {/* 체크 버튼 */}
-                                                    <button
-                                                        onClick={(e) => toggleCardCheck(cardKey, {
+                                                    <FoodCard
+                                                        card={foodCardData}
+                                                        variant="explore"
+                                                        isSelected={selectedFoodIdx === idx}
+                                                        isChecked={isChecked}
+                                                        onClick={() => setSelectedFoodIdx(idx === selectedFoodIdx ? null : idx)}
+                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
                                                             category: 'food',
                                                             name: item.name,
                                                             city: item.city,
@@ -607,13 +555,7 @@ export default function ExplorePage() {
                                                             restaurantType: item.type,
                                                             cuisine: item.cuisine,
                                                         }, e)}
-                                                        className={`absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-150 ${isChecked
-                                                            ? "bg-orange-500 border-orange-500"
-                                                            : "bg-white border-slate-200 hover:border-orange-300"
-                                                            }`}
-                                                    >
-                                                        {isChecked && <Check className="w-3.5 h-3.5 text-white" />}
-                                                    </button>
+                                                    />
                                                     {selectedFoodIdx === idx && <FoodAccordion item={item} />}
                                                 </div>
                                             );
@@ -625,13 +567,25 @@ export default function ExplorePage() {
                                         ? filteredHotelList.map((item, idx) => {
                                             const cardKey = `hotel-${item.name}-${item.city}`;
                                             const isChecked = checkedCards.has(cardKey);
+                                            // 숙소 카드용 card 객체 생성
+                                            const hotelCardData = {
+                                                id: cardKey,
+                                                category: 'hotel',
+                                                text: item.name,
+                                                accommodationType: item.type,
+                                                checkInTime: item.checkInTime,
+                                                checkOutTime: item.checkOutTime,
+                                                tags: item.tags,
+                                            };
                                             return (
                                                 <div key={idx} className="relative">
-                                                    <ExploreHotel item={item} isSelected={selectedHotelIdx === idx}
-                                                        onClick={() => setSelectedHotelIdx(idx === selectedHotelIdx ? null : idx)} />
-                                                    {/* 체크 버튼 */}
-                                                    <button
-                                                        onClick={(e) => toggleCardCheck(cardKey, {
+                                                    <HotelCard
+                                                        card={hotelCardData}
+                                                        variant="explore"
+                                                        isSelected={selectedHotelIdx === idx}
+                                                        isChecked={isChecked}
+                                                        onClick={() => setSelectedHotelIdx(idx === selectedHotelIdx ? null : idx)}
+                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
                                                             category: 'accommodation',
                                                             name: item.name,
                                                             city: item.city,
@@ -642,13 +596,7 @@ export default function ExplorePage() {
                                                             checkOutTime: item.checkOutTime,
                                                             tags: item.tags,
                                                         }, e)}
-                                                        className={`absolute right-2 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-150 ${isChecked
-                                                            ? "bg-orange-500 border-orange-500"
-                                                            : "bg-white border-slate-200 hover:border-orange-300"
-                                                            }`}
-                                                    >
-                                                        {isChecked && <Check className="w-3.5 h-3.5 text-white" />}
-                                                    </button>
+                                                    />
                                                     {selectedHotelIdx === idx && <HotelAccordion item={item} />}
                                                 </div>
                                             );

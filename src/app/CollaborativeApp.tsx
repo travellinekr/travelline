@@ -22,11 +22,11 @@ import { supabase } from "@/lib/supabaseClient";
 import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
 import { DraggableCard, renderCardInternal } from "../components/board/DraggableCard";
-import { BaseCard } from "../components/board/cards/BaseCard";
-import { TransportCard } from "../components/board/cards/TransportCard";
-import { FoodCard } from "../components/board/cards/FoodCard";
-import { ShoppingCard } from "../components/board/cards/ShoppingCard";
-import { TourSpaCard } from "../components/board/cards/TourSpaCard";
+import { HotelCard } from "@/components/cards/HotelCard";
+import { TransportCard } from "@/components/cards/TransportCard";
+import { FoodCard } from "@/components/cards/FoodCard";
+import { ShoppingCard } from "@/components/cards/ShoppingCard";
+import { TourSpaCard } from "@/components/cards/TourSpaCard";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
@@ -490,6 +490,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");
     const [activeDragItem, setActiveDragItem] = useState<any>(null);
+    const [activeDragSourceColumn, setActiveDragSourceColumn] = useState<string | null>(null);
     const [activeDay, setActiveDay] = useState("day1");
     const [projectTitle, setProjectTitle] = useState<string>(initialTitle);
 
@@ -871,6 +872,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const card = event.active.data.current;
         setActiveDragItem(card);
         if (card && card.category) setActiveCategory(card.category as CategoryType);
+
+        // 드래그 출발 컬럼 추적: 고스트 카드 variant 결정에 사용
+        if (columns && card) {
+            let foundCol: string | null = null;
+            for (const col of (columns as any).values()) {
+                const cardIds = Array.isArray(col.cardIds) ? col.cardIds : (col.cardIds?.toArray?.() ?? []);
+                if (cardIds.includes(String(card.id))) {
+                    foundCol = col.id;
+                    break;
+                }
+            }
+            setActiveDragSourceColumn(foundCol);
+        } else {
+            setActiveDragSourceColumn(null);
+        }
     };
 
     // 커스텀 충돌 감지: 모바일 닫힌 보관함 특별 처리
@@ -1585,58 +1601,33 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         <DragOverlay dropAnimation={null}>
                             {activeDragItem ? (
                                 String(activeDragItem.id).startsWith('picker-hotel-') ? (
-                                    // Hotel Picker 카드: BaseCard 스타일
+                                    // Hotel Picker 카드: HotelCard 스타일
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <BaseCard
-                                            colorClass="bg-rose-400"
-                                            icon={Hotel}
-                                            category={activeDragItem.accommodationType === 'resort' ? 'Resort' : 'Hotel'}
-                                            className="h-[72px] shadow-xl"
-                                        >
-                                            <div className="flex flex-col justify-center w-full">
-                                                <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                                                    {activeDragItem.title || "호텔 이름"}
-                                                </h4>
-                                                <div className="flex items-center gap-2 mt-0.5">
-                                                    <span className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100">
-                                                        Check-in
-                                                    </span>
-                                                    <span className="text-[11px] text-gray-500">
-                                                        {activeDragItem.checkInTime || "15:00"}
-                                                    </span>
-                                                    {activeDragItem.tags && activeDragItem.tags.length > 0 && (
-                                                        <>
-                                                            <span className="text-gray-300">|</span>
-                                                            {activeDragItem.tags.slice(0, 3).map((tag: string, index: number) => (
-                                                                <span key={index} className="text-[9px] text-gray-600 bg-gray-100 px-1.5 py-0.5 rounded">
-                                                                    {tag}
-                                                                </span>
-                                                            ))}
-                                                        </>
-                                                    )}
-                                                </div>
-                                            </div>
-                                        </BaseCard>
+                                        <HotelCard
+                                            card={{ ...activeDragItem, text: activeDragItem.title }}
+                                            variant="inbox"
+                                        />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-transport-') ? (
                                     // Transport Picker 카드: TransportCard 스타일
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <TransportCard card={activeDragItem} className="shadow-xl" />
+                                        <TransportCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
+
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-food-') ? (
                                     // Food Picker 카드: FoodCard 스타일
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <FoodCard card={activeDragItem} className="shadow-xl" />
+                                        <FoodCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-shopping-') ? (
                                     // Shopping Picker 카드: ShoppingCard 스타일
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <ShoppingCard card={activeDragItem} className="shadow-xl" />
+                                        <ShoppingCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-tourspa-') ? (
                                     // TourSpa Picker 카드: TourSpaCard 스타일
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <TourSpaCard card={activeDragItem} className="shadow-xl" />
+                                        <TourSpaCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-') ? (
                                     // Destination Picker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
@@ -1675,9 +1666,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         </div>
                                     </div>
                                 ) : (
-                                    // 일반 카드: Compact 스타일 + 테두리 wrapper
+                                    // 일반 카드: 출발 컬럼 기반 variant로 고스트 렌더링
                                     <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        {renderCardInternal(activeDragItem, { variant: 'compact' })}
+                                        {renderCardInternal(
+                                            activeDragItem,
+                                            {
+                                                // 고스트 카드용 더미 props: 실제 카드와 동일한 스타일 유지
+                                                listeners: {},
+                                                attributes: {},
+                                                onRemove: undefined,
+                                                canEdit: false,
+                                            },
+                                            activeDragSourceColumn === 'inbox' || activeDragSourceColumn === null
+                                                ? 'inbox'
+                                                : 'timeline'
+                                        )}
                                     </div>
                                 )
                             ) : null}

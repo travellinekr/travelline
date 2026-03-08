@@ -5,7 +5,7 @@ import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Palmtree, Plus, Trash2 } from 'lucide-react';
 import { TOUR_SPA_SAMPLES, TourSpaType } from '@/data/tourSpa';
-import { BaseCard } from './cards/BaseCard';
+import { TourSpaCard } from '@/components/cards/TourSpaCard';
 import { TourSpaAddModal } from './TourSpaAddModal';
 
 // 직접 추가하기 / 삭제 영역 버튼
@@ -45,25 +45,14 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
     );
 }
 
-// 투어&스파 타입별 한글 레이블
-const TOUR_SPA_TYPE_LABELS: Record<TourSpaType, string> = {
-    'island-hopping': '아일랜드 호핑',
-    'city-tour': '시티 투어',
-    'spa': '스파',
-    'massage': '마사지',
-    'theme-park': '테마파크',
-    'cultural': '문화 체험',
-    'water-sports': '수상 스포츠',
-    'adventure': '어드벤처',
-    'cruise': '크루즈',
-    'show': '공연/쇼',
-    'workshop': '워크샵/클래스',
-};
+
 
 // 드래그 가능한 투어&스파 카드 컴포넌트
 function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index: number; cardId?: string }) {
+    const id = cardId || `picker-tourspa-${index}`;
     const cardData = {
-        id: cardId || `picker-tourspa-${index}`,
+        id,
+        text: tourSpa.name,
         title: tourSpa.name,
         category: 'tourspa' as const,
         tourSpaType: tourSpa.type,
@@ -77,21 +66,16 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
         features: tourSpa.features,
         rating: tourSpa.rating,
         icon: tourSpa.icon,
-        isUserCreated: tourSpa.isUserCreated,  // 삭제 검증용
+        isUserCreated: tourSpa.isUserCreated,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
-        id: cardId || `picker-tourspa-${index}`,  // cardId가 있으면 우선 사용
+        id,
         data: cardData,
     });
 
-    const style = transform ? {
-        transform: CSS.Translate.toString(transform),
-    } : undefined;
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
 
-    const typeLabel = TOUR_SPA_TYPE_LABELS[tourSpa.type as TourSpaType] || tourSpa.type;
-
-    // 드래그 중일 때 빈 placeholder 표시
     if (isDragging) {
         return (
             <div
@@ -102,38 +86,15 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
     }
 
     return (
-        <div
-            ref={setNodeRef}
-            style={style}
-            {...listeners}
-            {...attributes}
-            className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-        >
-            <BaseCard
-                colorClass="bg-teal-400"
-                icon={Palmtree}
-                category={typeLabel}
-                className="h-[72px]"
-            >
-                <div className="flex flex-col justify-center w-full">
-                    <div className="flex items-center gap-2">
-                        {tourSpa.icon && (
-                            <span className="text-base">{tourSpa.icon}</span>
-                        )}
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {tourSpa.name}
-                        </h4>
-                    </div>
-                    {/* 셋째줄: 주소만 표시 */}
-                    {tourSpa.address && (
-                        <div className="mt-0.5">
-                            <span className="text-[11px] text-gray-500 truncate block">
-                                {tourSpa.address}
-                            </span>
-                        </div>
-                    )}
-                </div>
-            </BaseCard>
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <TourSpaCard
+                card={cardData}
+                variant="inbox"
+                onRef={setNodeRef}
+                style={style}
+                listeners={listeners}
+                attributes={attributes}
+            />
         </div>
     );
 }

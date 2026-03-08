@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { MoreHorizontal, Plus, Trash2 } from 'lucide-react';
-import { BaseCard } from './cards/BaseCard';
+import { EtcCard } from '@/components/cards/EtcCard';
 import { EtcAddModal } from './EtcAddModal';
 import { CardEditorModal } from './CardEditorModal';
 
@@ -56,6 +56,7 @@ function DraggableEtcCard({ card, index, cardId }: { card: any; index: number; c
         text: card.title || card.text,
         category: 'other' as const,
         etcItem: card.etcItem || '',
+        notes: card.notes,
         isUserCreated: true,
     };
 
@@ -79,30 +80,17 @@ function DraggableEtcCard({ card, index, cardId }: { card: any; index: number; c
 
     return (
         <>
-            <div
-                ref={setNodeRef}
-                style={style}
-                {...listeners}
-                {...attributes}
-                className="rounded-xl overflow-hidden border border-gray-200 shadow-sm cursor-grab active:cursor-grabbing"
-            >
-                <BaseCard
-                    colorClass="bg-violet-400"
-                    icon={MoreHorizontal}
-                    category="ETC"
-                    className="h-[72px]"
-                    onOpenNotes={() => setIsNotesOpen(true)}
+            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                <EtcCard
+                    card={cardData}
+                    variant="inbox"
+                    onRef={setNodeRef}
+                    style={style}
+                    listeners={listeners}
+                    attributes={attributes}
                     hasNotes={hasNotes}
-                >
-                    <div className="flex flex-col w-full min-w-0">
-                        <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                            {card.title || card.text}
-                        </h4>
-                        <p className="text-[11px] text-gray-400 mt-0.5 truncate">
-                            {card.etcItem || '—'}
-                        </p>
-                    </div>
-                </BaseCard>
+                    onOpenNotes={() => setIsNotesOpen(true)}
+                />
             </div>
 
             {/* 메모 모달 */}
