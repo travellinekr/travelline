@@ -28,7 +28,7 @@ export function PreparationCard({ card, variant, ...props }: CommonCardProps) {
             colorClass="bg-indigo-400"
             icon={icon}
             category="Prep"
-            className="h-[72px]"
+            className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
         >
             <div className="flex flex-col justify-center w-full">

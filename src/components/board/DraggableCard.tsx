@@ -239,7 +239,7 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
   }
 }
 
-export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true }: { card: any, onRemove?: () => void, variant?: 'default' | 'compact', isHeader?: boolean, canEdit?: boolean }) {
+export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
 

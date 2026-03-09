@@ -142,7 +142,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
                   ) : (
                     filteredCards.map((card: any) => (
                       <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-                        <DraggableCard card={card} canEdit={canEdit} />
+                        <DraggableCard card={card} canEdit={canEdit} variant="inbox" />
                       </div>
                     ))
                   )}
@@ -165,7 +165,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               ) : (
                 filteredCards.map((card: any) => (
                   <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-                    <DraggableCard card={card} canEdit={canEdit} />
+                    <DraggableCard card={card} canEdit={canEdit} variant="inbox" />
                   </div>
                 ))
               )}

@@ -36,7 +36,7 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
             colorClass="bg-rose-400"
             icon={Hotel}
             category={card.accommodationType === 'resort' ? 'Resort' : 'Hotel'}
-            className="h-[72px]"
+            className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
             onUpdateCard={onUpdateCard}
         >

@@ -914,7 +914,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             if (pointerCoords) {
                 const windowHeight = window.innerHeight;
                 // 하단 80px 영역 (닫힌 보관함)
-                if (pointerCoords.y > windowHeight - 80) {
+                if (pointerCoords.y > windowHeight - 58) {
                     // droppableContainers에서 inbox-closed-header 찾기
                     const inboxContainer = args.droppableContainers.find(
                         (container: any) => container.id === 'inbox-closed-header'
@@ -1393,10 +1393,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const getInboxHeightClass = () => {
         switch (inboxState) {
-            case 'closed': return 'h-[80px]';
+            case 'closed': return 'h-[58px]';
             case 'half': return 'h-[50vh]';
             case 'full': return 'h-[100dvh] top-0 rounded-none';
-            default: return 'h-[80px]';
+            default: return 'h-[58px]';
         }
     };
 
@@ -1503,7 +1503,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                             <div className="flex-1 flex flex-col md:flex-row h-full overflow-hidden relative">
 
-                                <section className={`w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger ${inboxState === 'closed' ? 'pb-[80px] md:pb-0' :
+                                <section className={`w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger ${inboxState === 'closed' ? 'pb-[58px] md:pb-0' :
                                     inboxState === 'half' ? 'pb-[50vh] md:pb-0' :
                                         'md:pb-0'
                                     }`}>
@@ -1528,7 +1528,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         `}
                                 >
                                     <div
-                                        className="md:hidden w-full min-h-[80px] flex items-center justify-center bg-white border-b border-gray-100 shrink-0 rounded-t-3xl relative"
+                                        className="md:hidden w-full min-h-[58px] flex items-center justify-center bg-white border-b border-gray-100 shrink-0 rounded-t-3xl relative"
                                     >
                                         {inboxState === 'closed' && (
                                             <div

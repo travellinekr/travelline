@@ -16,7 +16,7 @@ export function EtcCard({ card, variant, ...props }: CommonCardProps) {
             colorClass="bg-violet-400"
             icon={MoreHorizontal}
             category="ETC"
-            className="h-[72px]"
+            className="h-[58px] md:h-[72px]"
         >
             <div className="flex flex-col w-full min-w-0">
                 <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{title}</h4>

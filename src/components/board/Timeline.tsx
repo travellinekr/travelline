@@ -204,7 +204,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
         <div
           ref={setNodeRef}
           // 💥 [수정됨] space-y-0 (간격 없음, 리스트처럼 연결), overflow-hidden (둥근 모서리 안으로 내용 자르기)
-          className={`min-h-[72px] rounded-xl transition-all duration-200 ease-in-out flex flex-col overflow-hidden ${isSectionActive ? activeClass : defaultClass
+          className={`min-h-[58px] md:min-h-[72px] rounded-xl transition-all duration-200 ease-in-out flex flex-col overflow-hidden ${isSectionActive ? activeClass : defaultClass
             }`}
         >
           {/* 빈 상태 안내 */}
@@ -216,7 +216,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
           {/* 드래그 오버 안내 */}
           {(cards.length === 0 && isSectionActive) && (
-            <div className="h-[72px] flex items-center justify-center pointer-events-none animate-pulse">
+            <div className="h-[58px] md:h-[72px] flex items-center justify-center pointer-events-none animate-pulse">
               <p className={`text-xs font-bold ${textColor} flex items-center gap-2`}>
                 ✨ 여기에 놓기
               </p>

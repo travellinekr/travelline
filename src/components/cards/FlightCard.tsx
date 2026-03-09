@@ -27,7 +27,7 @@ export function FlightCard({ card, variant, ...props }: CommonCardProps) {
             colorClass="bg-sky-400"
             icon={Plane}
             category="Flight"
-            className="h-[72px]"
+            className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
         >
             <div className="flex flex-col justify-center w-full">

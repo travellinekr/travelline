@@ -36,7 +36,7 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
             colorClass="bg-teal-400"
             icon={Palmtree}
             category={category}
-            className="h-[72px]"
+            className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
         >
             <div className="flex flex-col justify-center w-full">

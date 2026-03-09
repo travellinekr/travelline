@@ -47,6 +47,7 @@ export function CardShell({
     className?: string;
 }) {
     const isExplore = variant === 'explore';
+    const isInbox = variant === 'inbox';
     const supportsInfo = INFO_CATEGORIES.includes(card?.category ?? '');
 
     // Info 모달 상태: CardShell 내부에서만 관리
@@ -76,8 +77,8 @@ export function CardShell({
             )}
 
             {/* 컨텐츠 */}
-            <div className={`flex-1 min-w-0 flex flex-col justify-center ${isExplore ? '' : 'h-full pt-1'}`}>
-                <span className="text-[9px] font-bold text-gray-400 uppercase tracking-wider leading-none mb-0.5">
+            <div className={`flex-1 min-w-0 flex flex-col justify-center ${isExplore ? '' : 'h-full md:pt-1'}`}>
+                <span className="hidden md:block text-[9px] font-bold text-gray-400 uppercase tracking-wider leading-none mb-0.5">
                     {category}
                 </span>
                 {isExplore ? children : <div className="w-full">{children}</div>}
@@ -94,8 +95,8 @@ export function CardShell({
                             onClick={onToggleCheck}
                             onKeyDown={(e) => e.key === 'Enter' && onToggleCheck(e as any)}
                             className={`shrink-0 w-7 h-7 rounded-full border-2 flex items-center justify-center transition-all duration-150 cursor-pointer ${isChecked
-                                    ? "bg-orange-500 border-orange-500"
-                                    : "bg-white border-slate-200 hover:border-orange-300"
+                                ? "bg-orange-500 border-orange-500"
+                                : "bg-white border-slate-200 hover:border-orange-300"
                                 }`}
                         >
                             {isChecked && <Check className="w-3.5 h-3.5 text-white" />}
@@ -131,15 +132,17 @@ export function CardShell({
                     {/* 메모 버튼 */}
                     <div
                         className="w-8 h-full flex items-center justify-center relative"
-                        {...(onOpenNotes ? {} : listeners)}
+                        {...(onOpenNotes && !isInbox ? {} : listeners)}
                     >
                         <NotebookPen
-                            className={`w-4 h-4 transition-colors ${hasNotes
-                                ? "text-green-500 group-hover:text-blue-500"
-                                : "text-gray-300 group-hover:text-blue-400"
-                                } cursor-pointer`}
+                            className={`w-4 h-4 transition-colors ${isInbox
+                                ? "text-gray-200 cursor-not-allowed"
+                                : hasNotes
+                                    ? "text-green-500 group-hover:text-blue-500"
+                                    : "text-gray-300 group-hover:text-blue-400 cursor-pointer"
+                                }`}
                         />
-                        {onOpenNotes && (
+                        {onOpenNotes && !isInbox && (
                             <button
                                 onClick={(e) => {
                                     e.stopPropagation();
@@ -179,7 +182,7 @@ export function CardShell({
                 style={style}
                 {...listeners}
                 {...attributes}
-                className={`group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-3 relative touch-none select-none h-[72px] px-3 transition-colors overflow-hidden cursor-grab active:cursor-grabbing ${className ?? ""}`}
+                className={`group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-colors overflow-hidden cursor-grab active:cursor-grabbing ${className ?? ""}`}
             >
                 {innerContent}
             </div>

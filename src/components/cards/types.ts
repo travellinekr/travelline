@@ -4,7 +4,7 @@
  * - timeline: 여행보드 타임라인 (드래그 가능, 날짜 표시)
  * - explore: 익스플로러 보드 (정적, 체크박스 포함)
  */
-export type CardVariant = 'inbox' | 'timeline' | 'explore';
+export type CardVariant = 'inbox' | 'timeline' | 'explore' | 'compact';
 
 /**
  * 모든 카드가 공통으로 받는 props
