@@ -491,6 +491,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");
     const [activeDragItem, setActiveDragItem] = useState<any>(null);
     const [activeDragSourceColumn, setActiveDragSourceColumn] = useState<string | null>(null);
+    const [dragOverlayWidth, setDragOverlayWidth] = useState<number | undefined>(undefined);
     const [activeDay, setActiveDay] = useState("day1");
     const [projectTitle, setProjectTitle] = useState<string>(initialTitle);
 
@@ -879,6 +880,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         } else {
             setActiveDragSourceColumn(null);
         }
+        // 드래그 시작 시 원본 카드 폭 캡처 (DragOverlay 크기 동기화용)
+        const initialWidth = event.active.rect.current?.initial?.width;
+        if (initialWidth) setDragOverlayWidth(initialWidth);
     };
 
     // 커스텀 충돌 감지: 모바일 닫힌 보관함 특별 처리
@@ -1590,11 +1594,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             </div>
                         </main>
 
-                        <DragOverlay dropAnimation={null}>
+                        <DragOverlay dropAnimation={null} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
                             {activeDragItem ? (
                                 String(activeDragItem.id).startsWith('picker-hotel-') ? (
                                     // Hotel Picker 카드: HotelCard 스타일
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <HotelCard
                                             card={{ ...activeDragItem, text: activeDragItem.title }}
                                             variant="inbox"
@@ -1602,23 +1606,22 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-transport-') ? (
                                     // Transport Picker 카드: TransportCard 스타일
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <TransportCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-food-') ? (
                                     // Food Picker 카드: FoodCard 스타일
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <FoodCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-shopping-') ? (
                                     // Shopping Picker 카드: ShoppingCard 스타일
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <ShoppingCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-tourspa-') ? (
                                     // TourSpa Picker 카드: TourSpaCard 스타일
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <TourSpaCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
                                     </div>
                                 ) : String(activeDragItem.id).startsWith('picker-') ? (
@@ -1659,11 +1662,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
                                 ) : (
                                     // 일반 카드: 출발 컬럼 기반 variant로 고스트 렌더링
-                                    <div className="w-full max-w-md rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         {renderCardInternal(
                                             activeDragItem,
                                             {
-                                                // 고스트 카드용 더미 props: 실제 카드와 동일한 스타일 유지
                                                 listeners: {},
                                                 attributes: {},
                                                 onRemove: undefined,
