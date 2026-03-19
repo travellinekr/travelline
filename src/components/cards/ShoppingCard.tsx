@@ -39,27 +39,25 @@ export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
             className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
         >
-            <div className="flex flex-col justify-center w-full">
-                <div className="flex items-center gap-2">
-                    {card.icon && <span className="text-base">{card.icon}</span>}
+            <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
+                <div className="flex items-center gap-1.5 min-w-0">
+                    {card.icon && <span className="text-base shrink-0">{card.icon}</span>}
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{shoppingName}</h4>
                 </div>
-                <div className="flex items-center gap-2 mt-0.5 flex-wrap">
+                <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
                     {card.specialItems && (
-                        <span className="text-[11px] text-gray-600 truncate">{card.specialItems}</span>
+                        <span className="text-[11px] text-gray-600 truncate min-w-0 shrink">{card.specialItems}</span>
                     )}
                     {card.priceRange && (
                         <>
-                            <span className="text-gray-300">|</span>
-                            <span className="text-[11px] text-gray-500">{card.priceRange}</span>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className="text-[11px] text-gray-500 truncate min-w-0">{card.priceRange}</span>
                         </>
                     )}
                     {card.taxRefund && (
                         <>
-                            <span className="text-gray-300">|</span>
-                            <span className="text-[9px] text-purple-600 bg-purple-50 px-1.5 py-0.5 rounded border border-purple-100 font-bold">
-                                면세
-                            </span>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className="text-[11px] text-purple-600 font-bold shrink-0">면세</span>
                         </>
                     )}
                 </div>

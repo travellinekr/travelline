@@ -161,8 +161,8 @@ export function ShoppingPicker({
             </div>
 
             {/* 쇼핑 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto p-4">
-                <div className="flex flex-col gap-3">
+            <div className="flex-1 overflow-y-auto">
+                <div className="flex flex-col">
                     {/* 샘플 쇼핑 카드들 (destinationCity 기반 필터링) */}
                     {sampleShopping.map((shopping: ShoppingData, index: number) => (
                         <DraggableShoppingCard

@@ -8,8 +8,9 @@ export async function GET(request: NextRequest) {
     const code = requestUrl.searchParams.get('code');
     const next = requestUrl.searchParams.get('next'); // 로그인 후 이동할 경로
 
-    // 🛑 중요: ngrok 환경에서 request.origin이 localhost로 잡힐 수 있으므로 환경변수 우선 사용
-    const origin = process.env.NEXT_PUBLIC_SITE_URL || requestUrl.origin;
+    // 개발 환경에서는 requestUrl.origin(localhost)를 사용, 프로덕션에서만 SITE_URL 사용
+    const isDev = process.env.NODE_ENV === 'development';
+    const origin = isDev ? requestUrl.origin : (process.env.NEXT_PUBLIC_SITE_URL || requestUrl.origin);
 
     console.log(`[Auth Callback] Code: ${code ? 'Yes' : 'No'}, Next: ${next}, Origin: ${origin}`);
 

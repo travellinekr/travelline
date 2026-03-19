@@ -44,24 +44,22 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
                 <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
                     {card.text || "호텔 이름"}
                 </h4>
-                <div className="flex items-center gap-2 mt-0.5">
+            <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
                     <span
-                        className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100 cursor-pointer hover:bg-rose-100 transition-colors"
+                        className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100 cursor-pointer hover:bg-rose-100 transition-colors shrink-0"
                         onClick={handleToggle}
                     >
                         {showCheckOut ? 'Check-out' : 'Check-in'}
                     </span>
-                    <span className="text-[11px] text-gray-500">
+                    <span className="text-[11px] text-gray-500 shrink-0">
                         {showCheckOut ? (card.checkOutTime || "11:00") : (card.checkInTime || "15:00")}
                     </span>
                     {displayTags.length > 0 && (
                         <>
-                            <span className="text-gray-300">|</span>
-                            {displayTags.map((tag: string, index: number) => (
-                                <span key={index} className="text-[9px] text-gray-600 bg-gray-100 px-1.5 py-0.5 rounded">
-                                    {tag}
-                                </span>
-                            ))}
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className="text-[11px] text-gray-500 truncate min-w-0">
+                                {displayTags.join(' · ')}
+                            </span>
                         </>
                     )}
                 </div>

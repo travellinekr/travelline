@@ -39,29 +39,27 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
             className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
         >
-            <div className="flex flex-col justify-center w-full">
-                <div className="flex items-center gap-2">
-                    {card.icon && <span className="text-base">{card.icon}</span>}
+            <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
+                <div className="flex items-center gap-1.5 min-w-0">
+                    {card.icon && <span className="text-base shrink-0">{card.icon}</span>}
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{tourSpaName}</h4>
                 </div>
-                <div className="flex items-center gap-2 mt-0.5 flex-wrap">
+                <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
                     {card.address ? (
-                        <span className="text-[11px] text-gray-600 truncate">{card.address}</span>
+                        <span className="text-[11px] text-gray-600 truncate min-w-0 shrink">{card.address}</span>
                     ) : card.description ? (
-                        <span className="text-[11px] text-gray-600 truncate">{card.description}</span>
+                        <span className="text-[11px] text-gray-600 truncate min-w-0 shrink">{card.description}</span>
                     ) : null}
                     {card.duration && (
                         <>
-                            <span className="text-gray-300">|</span>
-                            <span className="text-[11px] text-gray-500">{card.duration}</span>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className="text-[11px] text-gray-500 shrink-0">{card.duration}</span>
                         </>
                     )}
                     {card.pickupAvailable && (
                         <>
-                            <span className="text-gray-300">|</span>
-                            <span className="text-[9px] text-teal-600 bg-teal-50 px-1.5 py-0.5 rounded border border-teal-100 font-bold">
-                                픽업
-                            </span>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className="text-[11px] text-teal-600 font-bold shrink-0">픽업</span>
                         </>
                     )}
                 </div>

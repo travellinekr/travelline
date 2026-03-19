@@ -512,6 +512,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cachedContainerRect = useRef<DOMRect | null>(null);
 
     const [inboxState, setInboxState] = useState<InboxStateType>('closed');
+    const prevInboxStateRef = useRef<InboxStateType>('closed');
+    const timelineScrollRef = useRef<HTMLDivElement>(null);
+    const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
     const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
 
     const { toasts, addToast, removeToast } = useToast();
@@ -883,6 +886,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // 드래그 시작 시 원본 카드 폭 캡처 (DragOverlay 크기 동기화용)
         const initialWidth = event.active.rect.current?.initial?.width;
         if (initialWidth) setDragOverlayWidth(initialWidth);
+
+        // 📱 모바일: 드래그 시작 시 인박스 자동 숨김 → 타임라인 풀스크린
+        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+            prevInboxStateRef.current = inboxState;
+            setInboxState('closed');
+        }
     };
 
     // 커스텀 충돌 감지: 모바일 닫힌 보관함 특별 처리
@@ -937,10 +946,50 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         return closestCenter(args);
     };
 
+    // 📱 모바일 드래그 중 하단 영역 감지 → 타임라인 자동 스크롤
+    const handleDragMove = (event: any) => {
+        if (typeof window === 'undefined' || window.innerWidth >= 768) return;
+        if (!timelineScrollRef.current) return;
+
+        const pointerY = event.activatorEvent?.clientY
+            ?? (event.activatorEvent as TouchEvent)?.touches?.[0]?.clientY
+            ?? 0;
+
+        const windowHeight = window.innerHeight;
+        const scrollThreshold = windowHeight - 80; // 하단 80px = 스크롤 트리거 존
+
+        if (pointerY > scrollThreshold) {
+            // 하단에 가까울수록 스크롤 빠르게
+            const speed = Math.min(20, Math.round((pointerY - scrollThreshold) / 3) + 5);
+            if (!autoScrollRef.current) {
+                autoScrollRef.current = setInterval(() => {
+                    timelineScrollRef.current?.scrollBy({ top: speed, behavior: 'instant' });
+                }, 40);
+            }
+        } else {
+            if (autoScrollRef.current) {
+                clearInterval(autoScrollRef.current);
+                autoScrollRef.current = null;
+            }
+        }
+    };
+
     const handleDragEnd = (event: any) => {
+
         const { active, over } = event;
 
         setActiveDragItem(null);
+
+        // 📱 모바일: 드래그 종료 후 인박스 이전 상태로 복원
+        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+            setInboxState(prevInboxStateRef.current);
+        }
+
+        // auto-scroll 정리
+        if (autoScrollRef.current) {
+            clearInterval(autoScrollRef.current);
+            autoScrollRef.current = null;
+        }
 
         if (!over || !columns) return;
 
@@ -1452,7 +1501,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <>
-            <DndContext sensors={sensors} collisionDetection={customCollisionDetection} onDragStart={canEdit ? handleDragStart : undefined} onDragEnd={canEdit ? handleDragEnd : undefined}>
+            <DndContext
+                sensors={sensors}
+                collisionDetection={customCollisionDetection}
+                onDragStart={canEdit ? handleDragStart : undefined}
+                onDragEnd={canEdit ? handleDragEnd : undefined}
+                onDragMove={canEdit ? handleDragMove : undefined}
+            >
                 <style>{`
         body { overscroll-behavior-y: none; background-color: #ffffff; overflow: hidden; }
         * { touch-action: manipulation; }
@@ -1518,7 +1573,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
 
                                     {/* 📜 Scrollable Main Timeline */}
-                                    <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
+                                    <div ref={timelineScrollRef} className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
                                         <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} canEdit={canEdit} />
                                     </div>
                                 </section>
