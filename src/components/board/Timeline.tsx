@@ -208,11 +208,11 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           {title}
           {/* ☀️ 날씨 표시 (예보 있을 때만 타이틀 바로 옆) */}
           {weather && (
-            <span className="text-[11px] text-slate-400 font-normal flex items-center gap-0.5 ml-0.5">
+            <span className="text-[13px] text-slate-500 font-normal flex items-center gap-1 ml-1.5">
               <span>{weather.emoji}</span>
               <span>{weather.temp}°</span>
               {weather.precipProb > 0 && (
-                <span>· {weather.precipProb}%</span>
+                <span className="text-slate-400">· {weather.precipProb}%</span>
               )}
             </span>
           )}

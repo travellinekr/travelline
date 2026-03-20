@@ -46,7 +46,7 @@ export async function GET(request: Request) {
       const data = await res.json();
       const daily = data.daily;
 
-      if (!daily?.weathercode?.[0]) return NextResponse.json({ noData: true });
+      if (daily?.weathercode?.[0] == null) return NextResponse.json({ noData: true });
 
       const weatherInfo = getWeatherInfo(daily.weathercode[0]);
       const maxTemp = Math.round(daily.temperature_2m_max[0]);
