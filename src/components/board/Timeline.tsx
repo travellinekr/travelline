@@ -148,10 +148,59 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
-  // ☀️ 날씨 조회: 1일차=출발 공항, 2일차+=도착 공항
+  // 💡 사용자 요청: "일차 타임라인에 2개의 도시가 있으면 여행지 날씨, 1개면 그냥 그 도시 날씨"
+  // 카드의 위치(마커)를 분석하여 날씨를 보여줄 최종 좌표를 결정합니다.
+  const weatherKey = useMemo(() => {
+    if (!flightInfo || dayNumber <= 0) return null;
+
+    const arrCode = flightInfo.outbound?.arrivalAirport;
+    const arrIATA = arrCode ? extractIATA(arrCode) : null;
+    const arrCoords = arrIATA && AIRPORT_LOOKUP[arrIATA]
+      ? { lat: AIRPORT_LOOKUP[arrIATA].lat, lng: AIRPORT_LOOKUP[arrIATA].lng }
+      : null;
+
+    let coords: { lat: number; lng: number } | null = null;
+
+    if (markers && markers.length > 0) {
+      // 마커(카드) 중에 목적지(도착 공항) 주변 좌표가 하나라도 있는지 확인 (위경도 차이 1도 이내면 같은 도시 권역)
+      const hasDestination = arrCoords && markers.some((m: any) => 
+        Math.abs(m.coordinates.lat - arrCoords.lat) < 1 &&
+        Math.abs(m.coordinates.lng - arrCoords.lng) < 1
+      );
+
+      if (hasDestination) {
+        // 일차 내에 2개의 도시가 있든 1개의 도시(목적지)가 있든 목적지 일정이 포함되어 있으면 목적지 날씨
+        coords = arrCoords;
+      } else {
+        // 목적지 일정이 전혀 없으면 (예: 한국 스케줄로만 100% 채워진 날) 해당 도시 날씨 적용
+        coords = markers[0].coordinates;
+      }
+    } else {
+      // 빈 일차(카드가 없는 경우)에는 기본 로직으로 폴백
+      if (arrCoords && dayNumber > 1) {
+        coords = arrCoords; // 2일차 이상은 목적지 우선
+      } else if (dayNumber === 1) {
+        // 1일차는 기본적으로 출발 공항(한국)
+        const depCode = flightInfo.outbound?.departureAirport;
+        const depIATA = depCode ? extractIATA(depCode) : null;
+        coords = depIATA && AIRPORT_LOOKUP[depIATA]
+          ? { lat: AIRPORT_LOOKUP[depIATA].lat, lng: AIRPORT_LOOKUP[depIATA].lng }
+          : AIRPORT_LOOKUP['ICN']; // 기본값 인천
+      }
+    }
+
+    return coords ? `${coords.lat},${coords.lng}` : null;
+  }, [markers, flightInfo, dayNumber]);
+
+  // ☀️ 날씨 조회 (weatherKey 변경 시 혹은 날짜 변경 시 호출)
   const [weather, setWeather] = useState<{ emoji: string; temp: number; precipProb: number } | null>(null);
+  
   useEffect(() => {
-    if (!flightInfo || dayNumber <= 0) return;
+    if (!weatherKey || !flightInfo || dayNumber <= 0) return;
+
+    const [latStr, lngStr] = weatherKey.split(',');
+    const lat = parseFloat(latStr);
+    const lng = parseFloat(lngStr);
 
     // 날짜 계산 (1일차 = outbound.date, 2일차 = +1일, ...)
     const outboundDate = flightInfo.outbound?.date;
@@ -160,28 +209,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
     targetDate.setDate(targetDate.getDate() + (dayNumber - 1));
     const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
 
-    // 좌표 결정: 여행지 도착 공항 우선 → 없으면 출발 공항(한국)
-    const arrCode = flightInfo.outbound?.arrivalAirport;
-    const arrIATA = arrCode ? extractIATA(arrCode) : null;
-    const arrCoords = arrIATA && AIRPORT_LOOKUP[arrIATA]
-      ? { lat: AIRPORT_LOOKUP[arrIATA].lat, lng: AIRPORT_LOOKUP[arrIATA].lng }
-      : null;
-
-    let coords: { lat: number; lng: number } | null = null;
-    if (arrCoords) {
-      // 여행지 도착 공항이 있으면 → 항상 여행지 날씨 (1일차 포함)
-      coords = arrCoords;
-    } else if (dayNumber === 1) {
-      // 도착 공항 없는 1일차 → 출발 공항(한국) 날씨
-      const depCode = flightInfo.outbound?.departureAirport;
-      const depIATA = depCode ? extractIATA(depCode) : null;
-      coords = depIATA && AIRPORT_LOOKUP[depIATA]
-        ? { lat: AIRPORT_LOOKUP[depIATA].lat, lng: AIRPORT_LOOKUP[depIATA].lng }
-        : AIRPORT_LOOKUP['ICN']; // 기본값 인천
-    }
-    if (!coords) return;
-
-    fetch(`/api/weather?lat=${coords.lat}&lng=${coords.lng}&date=${dateStr}`)
+    fetch(`/api/weather?lat=${lat}&lng=${lng}&date=${dateStr}`)
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         if (d && !d.error && !d.noData) {
