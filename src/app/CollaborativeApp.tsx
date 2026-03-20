@@ -867,7 +867,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragStart = (event: any) => {
         const card = event.active.data.current;
         setActiveDragItem(card);
-        if (card && card.category) setActiveCategory(card.category as CategoryType);
+        // 🚫 [항공카드 드래그 차단] flight 카드는 FlightSection에서만 관리되므로
+        // 드래그 시 Inbox 카테고리를 flight으로 전환하지 않음
+        if (card && card.category && card.category !== 'flight') setActiveCategory(card.category as CategoryType);
 
         // 드래그 출발 컬럼 추적: 고스트 카드 variant 결정에 사용
         if (columns && card) {
