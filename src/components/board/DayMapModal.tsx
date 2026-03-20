@@ -142,8 +142,8 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
     if (!isOpen) return null;
 
     const modalContent = (
-        <div className="fixed inset-0 z-[9999] bg-black/50 flex items-center justify-center p-0 md:p-4">
-            <div className="bg-white w-full h-full md:w-[90vw] md:h-[80vh] md:max-w-5xl md:rounded-2xl overflow-hidden shadow-2xl flex flex-col">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-0 md:p-4 pointer-events-none">
+            <div className="bg-white w-full h-full md:w-[90vw] md:h-[80vh] md:max-w-5xl md:rounded-2xl overflow-hidden shadow-2xl flex flex-col pointer-events-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between p-4 border-b bg-white">
                     <h2 className="text-lg font-bold text-slate-800">

@@ -1,7 +1,7 @@
 import { useDroppable, useDndContext } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { DraggableCard } from "./DraggableCard";
-import { memo, useState, useMemo } from "react";
+import { memo, useState, useMemo, useCallback } from "react";
 import { FlightSection } from "./FlightSection";
 import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
@@ -242,11 +242,20 @@ export const Timeline = memo(function Timeline({
   canEdit = true,
 }: any) {
   const { active } = useDndContext();
-  const day0Column = columns.get("day0");
-  const day0Cards = day0Column?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
 
-  // destination-header 카드
-  const destHeaderCards = columns.get("destination-header")?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
+  // 항공편 정보 가져오기
+  const flightInfo = useStorage((root) => root.flightInfo) as any;
+
+  // ✅ [성능개선] destHeaderCards, day0Cards useMemo 적용
+  const destHeaderCards = useMemo(
+    () => columns.get("destination-header")?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [],
+    [columns, cards]
+  );
+
+  const day0Cards = useMemo(() => {
+    const day0Column = columns.get("day0");
+    return day0Column?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
+  }, [columns, cards]);
 
   // 드래그 중인 카드가 destination-header에서 나온 것인지 확인
   const isDraggingFromHeader = active?.id && destHeaderCards.some((card: any) => card.id === active.id);
@@ -254,28 +263,26 @@ export const Timeline = memo(function Timeline({
   // 드래그 중이면 그 카드를 제외하고 계산 (드래그 = 빠진 상태)
   const effectiveHeaderCount = isDraggingFromHeader ? destHeaderCards.length - 1 : destHeaderCards.length;
 
-  // 항공편 정보 가져오기
-  const flightInfo = useStorage((root) => root.flightInfo) as any;
-
   // 지도 모달 state (전체 Timeline에서 하나만 관리)
   const [selectedDayForMap, setSelectedDayForMap] = useState<{ dayNumber: number; markers: any[] } | null>(null);
 
-  // Dynamic day detection from columns
-  const getDayColumns = () => {
-    const dayColumns: Array<{ id: string; title: string; date: string; cards: any[] }> = [];
+  // ✅ [성능개선] onMapClick useCallback으로 안정화 → DaySection 불필요 리렌더 방지
+  const handleMapClick = useCallback((dayNumber: number, markers: any[]) => {
+    setSelectedDayForMap({ dayNumber, markers });
+  }, []);
 
-    // 항공편 정보에서 출발 날짜 가져오기
+  // ✅ [성능개선] getDayColumns useMemo 적용 → 드래그 중 불필요한 재계산 방지
+  const dayColumns = useMemo(() => {
+    const result: Array<{ id: string; title: string; date: string; cards: any[] }> = [];
     const departureDate = flightInfo?.outbound?.date;
 
-    // Check columns for day1, day2, day3, etc.
-    for (let i = 1; i <= 20; i++) { // Check up to day20
+    for (let i = 1; i <= 20; i++) {
       const dayId = `day${i}`;
       const dayColumn = columns.get(dayId);
 
       if (dayColumn) {
         const dayCards = dayColumn.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
 
-        // 날짜 계산
         let dateStr = '';
         if (departureDate) {
           const date = new Date(departureDate);
@@ -283,26 +290,18 @@ export const Timeline = memo(function Timeline({
           dateStr = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
         }
 
-        dayColumns.push({
-          id: dayId,
-          title: `${i}일차`,
-          date: dateStr,
-          cards: dayCards
-        });
+        result.push({ id: dayId, title: `${i}일차`, date: dateStr, cards: dayCards });
       } else {
-        // Stop when we don't find the next day
         break;
       }
     }
-
-    return dayColumns;
-  };
-
-  const dayColumns = getDayColumns();
+    return result;
+  }, [columns, cards, flightInfo]);
 
   const shouldRenderDestinationHeader = sections.includes('destination-header');
   const shouldRenderCandidates = sections.includes('candidates');
   const shouldRenderDays = sections.includes('days');
+
 
   return (
     <div className="w-full h-full">
@@ -352,9 +351,7 @@ export const Timeline = memo(function Timeline({
                   cards={day0Cards}
                   color="blue"
                   canEdit={canEdit}
-                  onMapClick={(dayNumber: number, markers: any[]) => {
-                    setSelectedDayForMap({ dayNumber, markers });
-                  }}
+                  onMapClick={handleMapClick}
                 />
 
                 {dayColumns.map(day => (
@@ -365,9 +362,7 @@ export const Timeline = memo(function Timeline({
                     date={day.date}
                     cards={day.cards}
                     canEdit={canEdit}
-                    onMapClick={(dayNumber: number, markers: any[]) => {
-                      setSelectedDayForMap({ dayNumber, markers });
-                    }}
+                    onMapClick={handleMapClick}
                   />
                 ))}
 

@@ -1,7 +1,7 @@
 import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
-import { memo } from "react";
+import { memo, useMemo } from "react";
 import { DestinationPicker } from "./DestinationPicker";
 import { AccommodationPicker } from "./AccommodationPicker";
 import { TransportationPicker } from "./TransportationPicker";
@@ -14,7 +14,11 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
 
-  const filteredCards = cards.filter((c: any) => c.category === activeCategory);
+  // ✅ [성능개선] filteredCards useMemo 적용 → 탭 전환 외 불필요한 재계산 방지
+  const filteredCards = useMemo(
+    () => cards.filter((c: any) => c.category === activeCategory),
+    [cards, activeCategory]
+  );
 
   const topTabs = [
     { id: 'destination', label: '여행지', icon: MapPin },

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useCallback, memo } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
 import { Calendar, MapPin, X } from "lucide-react";
@@ -17,18 +17,17 @@ import { useCardMutations } from "@/hooks/useCardMutations";
 import { CardEditorModal } from "./CardEditorModal";
 
 // 임시 사용자 ID Hook (TODO: 실제 인증 시스템으로 대체 필요)
+// ✅ [성능개선] useState 초기값 함수로 localStorage를 최초 1회만 읽음 (useEffect 제거)
 function useTempUserId() {
-  const [userId, setUserId] = useState<string>('');
-
-  useEffect(() => {
+  const [userId] = useState<string>(() => {
+    if (typeof window === 'undefined') return '';
     let id = localStorage.getItem('temp-user-id');
     if (!id) {
       id = `user-${Math.random().toString(36).substr(2, 9)}`;
       localStorage.setItem('temp-user-id', id);
     }
-    setUserId(id);
-  }, []);
-
+    return id;
+  });
   return userId;
 }
 
