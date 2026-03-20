@@ -1,7 +1,7 @@
 import { useDroppable, useDndContext } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { DraggableCard } from "./DraggableCard";
-import { memo, useState, useMemo, useCallback } from "react";
+import { memo, useState, useMemo, useCallback, useEffect } from "react";
 import { FlightSection } from "./FlightSection";
 import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
@@ -91,7 +91,7 @@ function extractIATA(text: string): string | null {
   return null;
 }
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
   const allCards = useStorage((root) => root.cards);
@@ -148,6 +148,49 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
+  // ☀️ 날씨 조회: 1일차=출발 공항, 2일차+=도착 공항
+  const [weather, setWeather] = useState<{ emoji: string; temp: number; precipProb: number } | null>(null);
+  useEffect(() => {
+    if (!flightInfo || dayNumber <= 0) return;
+
+    // 날짜 계산 (1일차 = outbound.date, 2일차 = +1일, ...)
+    const outboundDate = flightInfo.outbound?.date;
+    if (!outboundDate) return;
+    const targetDate = new Date(outboundDate);
+    targetDate.setDate(targetDate.getDate() + (dayNumber - 1));
+    const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
+
+    // 좌표 결정: 여행지 도착 공항 우선 → 없으면 출발 공항(한국)
+    const arrCode = flightInfo.outbound?.arrivalAirport;
+    const arrIATA = arrCode ? extractIATA(arrCode) : null;
+    const arrCoords = arrIATA && AIRPORT_LOOKUP[arrIATA]
+      ? { lat: AIRPORT_LOOKUP[arrIATA].lat, lng: AIRPORT_LOOKUP[arrIATA].lng }
+      : null;
+
+    let coords: { lat: number; lng: number } | null = null;
+    if (arrCoords) {
+      // 여행지 도착 공항이 있으면 → 항상 여행지 날씨 (1일차 포함)
+      coords = arrCoords;
+    } else if (dayNumber === 1) {
+      // 도착 공항 없는 1일차 → 출발 공항(한국) 날씨
+      const depCode = flightInfo.outbound?.departureAirport;
+      const depIATA = depCode ? extractIATA(depCode) : null;
+      coords = depIATA && AIRPORT_LOOKUP[depIATA]
+        ? { lat: AIRPORT_LOOKUP[depIATA].lat, lng: AIRPORT_LOOKUP[depIATA].lng }
+        : AIRPORT_LOOKUP['ICN']; // 기본값 인천
+    }
+    if (!coords) return;
+
+    fetch(`/api/weather?lat=${coords.lat}&lng=${coords.lng}&date=${dateStr}`)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => {
+        if (d && !d.error && !d.noData) {
+          setWeather({ emoji: d.emoji, temp: d.temp, precipProb: d.precipProb ?? 0 });
+        }
+      })
+      .catch(() => {});
+  }, [flightInfo, dayNumber]);
+
   // 활성화 시 스타일 (리스트 전체를 감싸는 박스가 강조됨)
   const activeClass = isBlue
     ? "border-blue-500 bg-blue-50/50 ring-2 ring-blue-100 border-dashed"
@@ -163,6 +206,16 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
         <h3 className="font-bold text-lg text-slate-800 flex items-center gap-2">
           <span className={`w-1.5 h-5 rounded-full ${dotColor}`}></span>
           {title}
+          {/* ☀️ 날씨 표시 (예보 있을 때만 타이틀 바로 옆) */}
+          {weather && (
+            <span className="text-[11px] text-slate-400 font-normal flex items-center gap-0.5 ml-0.5">
+              <span>{weather.emoji}</span>
+              <span>{weather.temp}°</span>
+              {weather.precipProb > 0 && (
+                <span>· {weather.precipProb}%</span>
+              )}
+            </span>
+          )}
         </h3>
         <div className="flex items-center gap-2">
           {date && (
@@ -363,6 +416,7 @@ export const Timeline = memo(function Timeline({
                     cards={day.cards}
                     canEdit={canEdit}
                     onMapClick={handleMapClick}
+                    flightInfo={flightInfo}
                   />
                 ))}
 
