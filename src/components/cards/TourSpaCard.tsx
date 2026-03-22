@@ -33,7 +33,7 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
             {...props}
             card={card}
             variant={variant}
-            colorClass="bg-teal-400"
+            colorClass="bg-cyan-400"
             icon={Palmtree}
             category={category}
             className="h-[58px] md:h-[72px]"

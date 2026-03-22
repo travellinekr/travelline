@@ -13,7 +13,7 @@ export function EtcCard({ card, variant, ...props }: CommonCardProps) {
             {...props}
             card={card}
             variant={variant}
-            colorClass="bg-violet-400"
+            colorClass="bg-amber-400"
             icon={MoreHorizontal}
             category="ETC"
             className="h-[58px] md:h-[72px]"

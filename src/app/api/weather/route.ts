@@ -5,7 +5,7 @@ function getWeatherInfo(code: number): { emoji: string; label: string } {
   if (code === 0) return { emoji: '☀️', label: '맑음' };
   if (code <= 2) return { emoji: '🌤', label: '구름 조금' };
   if (code === 3) return { emoji: '☁️', label: '흐림' };
-  if (code <= 49) return { emoji: '🌫', label: '안개' };
+  if (code <= 49) return { emoji: '⛅', label: '안개/구름' };
   if (code <= 59) return { emoji: '🌦', label: '이슬비' };
   if (code <= 69) return { emoji: '🌧', label: '비' };
   if (code <= 79) return { emoji: '❄️', label: '눈' };

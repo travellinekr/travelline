@@ -9,6 +9,7 @@ import { FoodPicker } from "./FoodPicker";
 import { ShoppingPicker } from "./ShoppingPicker";
 import { TourSpaPicker } from "./TourSpaPicker";
 import { EtcPicker } from "./EtcPicker";
+import { PreparationPicker } from "./PreparationPicker";
 
 export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true }: any) {
 
@@ -35,6 +36,22 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
     { id: 'other', label: '기타', icon: MoreHorizontal },
   ];
 
+  const getTabIconColor = (id: string, isActive: boolean) => {
+    if (!isActive) return 'text-slate-400 group-hover:text-slate-600';
+    switch (id) {
+      case 'destination': return 'text-emerald-400';
+      case 'flight': return 'text-sky-400';
+      case 'preparation': return 'text-indigo-400';
+      case 'hotel': return 'text-rose-400';
+      case 'food': return 'text-orange-400';
+      case 'shopping': return 'text-purple-400';
+      case 'transport': return 'text-blue-400';
+      case 'tourspa': return 'text-cyan-400';
+      case 'other': return 'text-amber-400';
+      default: return 'text-emerald-400';
+    }
+  };
+
   const renderTab = (tab: any) => {
     const isActive = activeCategory === tab.id;
     return (
@@ -46,7 +63,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           : 'bg-white border-slate-200 text-slate-500 shadow-sm hover:border-slate-300 hover:text-slate-700 hover:shadow-md'
           }`}
       >
-        {tab.icon && <tab.icon className={`w-3.5 h-3.5 md:w-4 md:h-4 transition-colors ${isActive ? 'text-emerald-400' : 'text-slate-400 group-hover:text-slate-600'}`} />}
+        {tab.icon && <tab.icon className={`w-3.5 h-3.5 md:w-4 md:h-4 transition-colors ${getTabIconColor(tab.id, isActive)}`} />}
         {tab.label}
       </button>
     );
@@ -130,35 +147,13 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               createdCards={filteredCards}
             />
           ) : activeCategory === 'preparation' ? (
-            <>
-              {!destinationCard ? (
-                <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
-                  <CheckSquare className="w-12 h-12 text-slate-300 mb-3" />
-                  <p className="text-sm text-slate-500">먼저 여행지를 선택해주세요</p>
-                </div>
-              ) : (
-                <>
-                  {filteredCards.length === 0 && !isOver ? (
-                    <div className="text-center text-gray-400 py-20 flex flex-col items-center gap-2">
-                      <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">💭</div>
-                      <p>보관함이 비었습니다</p>
-                    </div>
-                  ) : (
-                    filteredCards.map((card: any) => (
-                      <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
-                        <DraggableCard card={card} canEdit={canEdit} variant="inbox" />
-                      </div>
-                    ))
-                  )}
-                  {canEdit && (
-                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50 transition-all gap-2 mt-2">
-                      <Plus className="w-5 h-5" />
-                      <span className="font-medium text-sm">직접 추가하기</span>
-                    </button>
-                  )}
-                </>
-              )}
-            </>
+            <PreparationPicker
+              destinationCity={destinationCard?.city}
+              onAddCard={canEdit ? onCreateCard : undefined}
+              onDeleteCard={canEdit ? onRemoveCard : undefined}
+              createdCards={filteredCards}
+              canEdit={canEdit}
+            />
           ) : (
             <>
               {filteredCards.length === 0 && !isOver ? (

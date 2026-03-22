@@ -160,8 +160,8 @@ export function AccommodationPicker({
             </div>
 
             {/* 숙소 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto">
-                <div className="flex flex-col">
+            <div className="flex-1 overflow-y-auto p-4">
+                <div className="flex flex-col gap-3">
                     {/* 샘플 카드들 (destinationCity 기반 필터링) */}
                     {sampleAccommodations.map((accommodation: AccommodationData, index: number) => (
                         <DraggableHotelCard

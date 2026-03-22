@@ -1457,11 +1457,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const handleInboxResize = (direction: 'up' | 'down') => {
         if (direction === 'up') {
-            if (inboxState === 'closed') setInboxState('half');
-            else if (inboxState === 'half') setInboxState('full');
+            setInboxState('full');
         } else {
-            if (inboxState === 'full') setInboxState('half');
-            else if (inboxState === 'half') setInboxState('closed');
+            setInboxState('closed');
         }
     };
 
@@ -1594,7 +1592,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         {inboxState === 'closed' && (
                                             <div
                                                 ref={setInboxClosedHeaderRef}
-                                                onClick={() => setInboxState('half')}
+                                                onClick={() => setInboxState('full')}
                                                 className={`w-full h-full flex items-center justify-between px-6 cursor-pointer rounded-t-3xl transition-all ${activeDragItem
                                                     ? 'bg-emerald-50 border-2 border-dashed border-emerald-400'
                                                     : 'active:bg-gray-50'

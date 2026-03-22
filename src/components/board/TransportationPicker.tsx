@@ -21,8 +21,8 @@ const TRANSPORT_ICONS: Record<TransportationType, any> = {
 };
 
 // 교통 카테고리 고유 색상 (통일)
-const TRANSPORT_COLOR = 'bg-teal-500';
-const TRANSPORT_LABEL_COLOR = 'text-teal-600 bg-teal-50 border-teal-100';
+const TRANSPORT_COLOR = 'bg-blue-400';
+const TRANSPORT_LABEL_COLOR = 'text-blue-600 bg-blue-50 border-blue-100';
 
 // 교통 타입별 한글 레이블
 const TRANSPORT_TYPE_LABELS: Record<TransportationType, string> = {
@@ -128,7 +128,7 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
             {/* 헤더 */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
                 <div className="flex items-center gap-2">
-                    <Bus className="w-5 h-5 text-blue-500" />
+                    <Bus className="w-5 h-5 text-blue-400" />
                     <h3 className="font-bold text-slate-800">교통 수단</h3>
                 </div>
                 <span className="text-xs text-slate-500">
@@ -148,7 +148,7 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
                     ))}
 
                     {/* 직접 추가하기 버튼 */}
-                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-blue-400 hover:text-blue-500 hover:bg-blue-50 transition-all gap-2 mt-2">
+                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-blue-400 hover:text-blue-400 hover:bg-blue-50 transition-all gap-2 mt-2">
                         <Plus className="w-5 h-5" />
                         <span className="font-medium text-sm">직접 추가하기</span>
                     </button>

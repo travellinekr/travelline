@@ -265,8 +265,8 @@ export function DestinationPicker({ onConfirm }: Props) {
 
     if (step === "month") {
         return (
-            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300">
-                <div className="text-center mb-4">
+            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 p-4">
+                <div className="text-center mb-6 mt-4">
                     <h3 className="text-lg font-bold text-slate-800">언제 떠나시나요?</h3>
                     <p className="text-xs text-slate-400">여행 시기를 먼저 선택해주세요</p>
                 </div>
@@ -289,8 +289,8 @@ export function DestinationPicker({ onConfirm }: Props) {
 
     if (step === "region") {
         return (
-            <div className="flex flex-col gap-4 p-2 animate-in fade-in slide-in-from-right-4 duration-300">
-                <div className="flex items-center gap-2 mb-2 px-1">
+            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 p-4">
+                <div className="flex items-center gap-2 mb-6 mt-4">
                     <button onClick={handleBack} className="p-2 -ml-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
                         <ArrowLeft className="w-5 h-5" />
                     </button>
@@ -300,7 +300,7 @@ export function DestinationPicker({ onConfirm }: Props) {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-3">
+                <div className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-8">
                     {Object.entries(DESTINATION_DATA).map(([key, data]) => (
                         <button
                             key={key}
@@ -328,8 +328,8 @@ export function DestinationPicker({ onConfirm }: Props) {
     if (step === "city" && selectedRegion) {
         const regionData = DESTINATION_DATA[selectedRegion];
         return (
-            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300">
-                <div className="flex items-center gap-2 mb-4 px-1">
+            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 p-4">
+                <div className="flex items-center gap-2 mb-6 mt-4">
                     <button onClick={handleBack} className="p-2 -ml-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
                         <ArrowLeft className="w-5 h-5" />
                     </button>
@@ -339,7 +339,7 @@ export function DestinationPicker({ onConfirm }: Props) {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-3 pb-20 justify-items-center">
+                <div className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-20 justify-items-center">
                     {regionData.cities.map((city) => {
                         const insight = selectedMonth ? getCityInsight(city.name, selectedMonth) : null;
                         const imageUrl = cityImages[city.name] || FALLBACK_IMAGES[city.engName];

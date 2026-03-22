@@ -38,7 +38,7 @@ export function TransportCard({ card, variant, ...props }: CommonCardProps) {
             {...props}
             card={card}
             variant={variant}
-            colorClass="bg-teal-500"
+            colorClass="bg-blue-400"
             icon={TransportIcon}
             category={typeLabel}
             className="h-[58px] md:h-[72px]"
