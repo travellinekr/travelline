@@ -95,13 +95,13 @@ export function PreparationPicker({
                         </div>
                     ))}
 
-                    {/* 직접 추가하기 / 삭제 영역 */}
-                    {canEdit && (
+                    {/* 직접 추가하기 / 삭제 영역 (임시 숨김) */}
+                    {/* {canEdit && (
                         <AddOrDeleteButton
-                            onAdd={() => { /* 추후 일정 추가 기능 연동 */ }}
+                            onAdd={() => { }}
                             onDelete={onDeleteCard}
                         />
-                    )}
+                    )} */}
                 </div>
             </div>
         </div>

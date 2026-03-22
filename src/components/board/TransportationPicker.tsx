@@ -147,11 +147,11 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
                         />
                     ))}
 
-                    {/* 직접 추가하기 버튼 */}
-                    <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-blue-400 hover:text-blue-400 hover:bg-blue-50 transition-all gap-2 mt-2">
+                    {/* 직접 추가하기 버튼 (임시 숨김) */}
+                    {/* <button className="h-16 border-2 border-dashed border-gray-200 rounded-2xl flex items-center justify-center text-gray-400 hover:border-blue-400 hover:text-blue-400 hover:bg-blue-50 transition-all gap-2 mt-2">
                         <Plus className="w-5 h-5" />
                         <span className="font-medium text-sm">직접 추가하기</span>
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

@@ -450,10 +450,9 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                         </label>
                     </div>
                 </div>
-            </div>
 
-            {/* 푸터 - 고정 */}
-            <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
+                {/* 푸터 - 고정 */}
+                <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
                 <button
                     onClick={onClose}
                     className="px-6 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
@@ -469,6 +468,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 </button>
             </div>
         </div>
+    </div>
     );
 
     // Portal을 사용하여 document.body에 직접 렌더링
