@@ -86,18 +86,19 @@ function RollingBanner() {
 
   return (
     <section className="w-full bg-white border-b border-slate-100">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+        {/* 데스크탑 및 모바일 여백 조절 */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-4 md:pt-8 md:pb-6">
         {/* 섹션 헤더 */}
         <div className="flex items-center justify-between mb-5">
           <div>
-            <h2 className="text-lg font-bold text-slate-700">둘러보기</h2>
-            <p className="text-sm text-slate-400">공유된 여행 플랜과 사용 가이드를 확인하세요</p>
+            <h2 className="text-2xl font-bold text-slate-800 mb-1">여행 쇼핑</h2>
+            <p className="text-sm text-slate-400">마음에 드는 여행지, 숙소, 투어를 쇼핑하듯 담아보세요</p>
           </div>
           <button
             onClick={() => router.push('/explore')}
             className="flex items-center gap-1 text-sm font-semibold text-slate-400 hover:text-orange-500 transition-colors group"
           >
-            더보기
+            쇼핑하러 가기
             <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </button>
         </div>
@@ -172,62 +173,21 @@ function RollingBanner() {
 // ─── 푸터 컴포넌트 ────────────────────────────────────────
 function Footer() {
   return (
-    <footer className="w-full mt-auto py-6 px-6">
-      <div className="max-w-6xl mx-auto bg-slate-300 text-slate-700 rounded-2xl px-8 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* 브랜드 */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-white font-black text-xl tracking-tight">Travelline</span>
-            </div>
-            <p className="text-sm leading-relaxed text-slate-500">
-              여행 타임라인으로 더 스마트하게,<br />
-              친구와 실시간으로 함께 계획하세요.
-            </p>
-          </div>
-
-          {/* 회사 정보 */}
-          <div>
-            <h4 className="text-white font-bold text-sm mb-4">회사 정보</h4>
-            <ul className="space-y-2.5 text-sm">
-              <li className="flex items-center gap-2">
-                <Globe className="w-4 h-4 text-slate-500 shrink-0" />
-                <span>YoonTech (윤테크)</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
-                <span>서울특별시 강남구 테헤란로 427</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-slate-500 shrink-0" />
-                <span>contact@yoontech.kr</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-slate-500 shrink-0" />
-                <span>02-1234-5678</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* 링크 */}
-          <div>
-            <h4 className="text-white font-bold text-sm mb-4">서비스</h4>
-            <ul className="space-y-2.5 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">이용약관</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">개인정보처리방침</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">고객문의</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">공지사항</a></li>
-            </ul>
-          </div>
+    <footer className="w-full border-t border-slate-100 bg-white mt-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        {/* 브랜딩 및 Copyright */}
+        <div className="flex flex-col items-center md:items-start gap-1 text-center md:text-left">
+          <span className="font-extrabold text-slate-800 text-lg tracking-tight">Travelline</span>
+          <p className="text-xs text-slate-400">© 2026 YoonTech. All rights reserved.</p>
         </div>
-
-        <div className="border-t border-slate-400 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-slate-600">
-            © 2026 YoonTech (윤테크). All rights reserved.
-          </p>
-          <p className="text-xs text-slate-600">
-            사업자등록번호: 123-45-67890 | 통신판매업신고: 제2026-서울강남-0001호
-          </p>
+        
+        {/* 간략한 정보 및 바로가기 */}
+        <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-xs font-medium text-slate-400">
+          <a href="#" className="hover:text-slate-600 transition-colors">이용약관</a>
+          <a href="#" className="hover:text-slate-600 transition-colors">개인정보처리방침</a>
+          <span className="hidden sm:inline text-slate-200">|</span>
+          <a href="#" className="hover:text-slate-600 transition-colors">고객문의</a>
+          <a href="#" className="hover:text-slate-600 transition-colors">contact@yoontech.kr</a>
         </div>
       </div>
     </footer>
@@ -320,7 +280,7 @@ export default function Dashboard() {
       <RollingBanner />
 
       {/* ③ 나의 여행 계획 */}
-      <main className="flex-1 max-w-6xl w-full mx-auto py-8 md:py-10 px-4 sm:px-6">
+      <main className="flex-1 max-w-6xl w-full mx-auto pt-4 pb-8 md:pt-6 md:pb-10 px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
             <h2 className="text-2xl font-bold text-slate-800 mb-1">나의 여행 계획</h2>
