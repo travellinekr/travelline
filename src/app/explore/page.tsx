@@ -14,7 +14,8 @@ import { FoodCard } from "@/components/cards/FoodCard";
 import { HotelCard } from "@/components/cards/HotelCard";
 
 // ── 지역 탭 ────────────────────────────────────────────
-const REGION_TABS: { key: RegionKey; label: string; icon: string }[] = [
+const REGION_TABS: { key: RegionKey | "main"; label: string; icon: string }[] = [
+    { key: "main", label: "여행쇼핑메인", icon: "💎" },
     { key: "japan", label: "일본", icon: "🏯" },
     { key: "china_taiwan", label: "중국·대만", icon: "🏮" },
     { key: "se_asia", label: "동남아", icon: "🌴" },
@@ -160,7 +161,7 @@ export default function ExplorePage() {
     const router = useRouter();
     const menuRef = useRef<HTMLDivElement>(null);
 
-    const [activeRegion, setActiveRegion] = useState<RegionKey>("japan");
+    const [activeRegion, setActiveRegion] = useState<RegionKey | "main">("main");
     const [selectedCity, setSelectedCity] = useState<CityData | null>(null);
     const [activeCategory, setActiveCategory] = useState("food");
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
@@ -177,7 +178,7 @@ export default function ExplorePage() {
     // projectId → 목적지 도시 (null = 미설정, undefined = 아직 모름)
     const [projectCityMap, setProjectCityMap] = useState<Record<string, string | null>>({});
 
-    const regionData = DESTINATION_DATA[activeRegion];
+    const regionData = activeRegion !== "main" ? DESTINATION_DATA[activeRegion] : null;
     const cityKey = selectedCity?.engName ?? "";
     const foodList: RestaurantData[] = cityKey ? (RESTAURANTS_DATA[cityKey] || []) : [];
     const hotelList: AccommodationData[] = cityKey ? (ACCOMMODATIONS_DATA[cityKey] || []) : [];
@@ -293,7 +294,6 @@ export default function ExplorePage() {
         setCheckedCards(new Map());
         addToast(`${cards.length}개 카드를 「${project.name}」에 추가했어요! 보드를 열어보세요.`, 'info');
     };
-
     const handleCitySelect = (city: CityData) => {
         setSelectedCity(city);
         setActiveCategory("food");
@@ -319,26 +319,85 @@ export default function ExplorePage() {
         setSelectedHotelIdx(null);
     };
 
+    // --- 여행쇼핑 메인 모의 데이터 (TODO: 향후 백엔드 API 연동) ---
+    const topCities = [
+        DESTINATION_DATA.japan?.cities.find(c => c.engName === "Osaka"),
+        DESTINATION_DATA.japan?.cities.find(c => c.engName === "Tokyo"),
+        DESTINATION_DATA.se_asia?.cities.find(c => c.engName === "Bangkok"),
+        DESTINATION_DATA.se_asia?.cities.find(c => c.engName === "Da Nang"),
+        DESTINATION_DATA.long_haul?.cities.find(c => c.engName === "Paris"),
+        DESTINATION_DATA.china_taiwan?.cities.find(c => c.engName === "Taipei"),
+    ].filter(Boolean) as CityData[];
+
+    const newCards = [
+        { type: "food", item: RESTAURANTS_DATA["Osaka"]?.[0] },
+        { type: "hotel", item: ACCOMMODATIONS_DATA["Tokyo"]?.[0] },
+        { type: "food", item: RESTAURANTS_DATA["Bangkok"]?.[1] },
+        { type: "hotel", item: ACCOMMODATIONS_DATA["Da Nang"]?.[0] },
+    ].filter(c => c.item) as { type: "food" | "hotel", item: any }[];
+
+    const sharedPlans = [
+        { id: 1, title: "오사카 3박4일 완벽 가이드", desc: "도톤보리, 유니버셜 스튜디오", tag: "일본" },
+        { id: 2, title: "방콕 4박5일 호캉스", desc: "고급 수영장, 타이 마사지", tag: "태국" },
+        { id: 3, title: "타이베이 먹부림 코스", desc: "풍부한 야시장 투어", tag: "대만" },
+        { id: 4, title: "파리 낭만 신혼여행", desc: "에펠탑과 매운 닭발의 조화", tag: "프랑스" },
+    ];
+
     return (
         <div className="flex flex-col h-full overflow-hidden">
 
             {/* ── 토스트 (공용 컴포넌트) ── */}
             <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-right" />
 
-            {/* ── 지역 탭 (고정, shrink-0) ── */}
+            {/* ── 상단 헤더 (2단 구조) ── */}
             <div className="shrink-0 bg-white border-b border-slate-100 z-20">
-                <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                    <div className="flex gap-0.5 overflow-x-auto no-scrollbar">
+                <div className="max-w-6xl mx-auto">
+                    {/* 1단: 제목 & 장바구니 */}
+                    <div className="flex items-center justify-between px-4 sm:px-6 py-3">
+                        <h1 className="text-xl sm:text-2xl font-black text-slate-800 tracking-tight">여행 쇼핑</h1>
+                        <button 
+                            onClick={handleOpenProjectMenu}
+                            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 text-white rounded-full text-xs font-bold hover:bg-slate-800 transition-colors shadow-sm shrink-0 group"
+                        >
+                            <ShoppingBag className="w-4 h-4" />
+                            <span className="hidden sm:inline">장바구니</span>
+                            {checkedCards.size > 0 ? (
+                                <span className="bg-orange-500 text-white min-w-[18px] h-[18px] px-1 rounded-full flex items-center justify-center text-[9px] font-black ml-0.5">
+                                    {checkedCards.size}
+                                </span>
+                            ) : (
+                                <span className="bg-slate-700 text-slate-300 min-w-[18px] h-[18px] px-1 rounded-full flex items-center justify-center text-[9px] font-black ml-0.5 transition-colors group-hover:bg-slate-600">
+                                    0
+                                </span>
+                            )}
+                        </button>
+                    </div>
+
+                    {/* 2단: 지역 칩 필터 (인박스 스타일) */}
+                    <div className="flex gap-2 overflow-x-auto no-scrollbar px-4 sm:px-6 pb-3 pt-1">
                         {REGION_TABS.map((tab) => {
                             const isActive = activeRegion === tab.key && !selectedCity;
+                            // 모바일에서는 '여행쇼핑메인' 대신 '홈' 또는 '전체'로 표시 제안
+                            const displayLabel = tab.key === 'main' ? '홈' : tab.label;
+                            
                             return (
                                 <button
                                     key={tab.key}
-                                    onClick={() => { setActiveRegion(tab.key); setSelectedCity(null); setSelectedFoodIdx(null); setSelectedHotelIdx(null); setSearchQuery(""); }}
-                                    className={`flex items-center gap-1.5 px-5 py-4 text-sm font-semibold border-b-2 whitespace-nowrap transition-all duration-150 ${isActive ? "border-orange-500 text-orange-500" : "border-transparent text-slate-400 hover:text-slate-600 hover:border-slate-200"
-                                        }`}
+                                    onClick={() => { 
+                                        setActiveRegion(tab.key); 
+                                        setSelectedCity(null); 
+                                        setSelectedFoodIdx(null); 
+                                        setSelectedHotelIdx(null); 
+                                        setSearchQuery(""); 
+                                    }}
+                                    className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[13px] font-bold whitespace-nowrap transition-all duration-200 shadow-sm border ${
+                                        isActive 
+                                        ? "bg-orange-500 text-white border-orange-500 shadow-orange-100" 
+                                        : "bg-white text-slate-500 border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                                    }`}
                                 >
-                                    <span>{tab.icon}</span>{tab.label}
+                                    <span>{tab.icon}</span>
+                                    {displayLabel}
                                 </button>
                             );
                         })}
@@ -346,8 +405,122 @@ export default function ExplorePage() {
                 </div>
             </div>
 
-            {/* ── 도시 미선택: 그리드 (스크롤 가능) ── */}
-            {!selectedCity && (
+            {/* ── 여행쇼핑 메인 탭 (기본화면) ── */}
+            {!selectedCity && activeRegion === "main" && (
+                <div className="flex-1 min-h-0 overflow-y-auto always-scrollbar bg-slate-50 relative pb-10">
+                    <div className="max-w-6xl mx-auto flex flex-col gap-10 pt-6 animate-in fade-in duration-500">
+                        
+
+
+                        {/* 1. 상단 광고 영역 (당분간 주석 처리)
+                        <div className="px-4 sm:px-6">
+                            <div className="w-full bg-gradient-to-r from-orange-400 to-rose-400 rounded-2xl p-6 sm:p-8 text-white flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-md bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] hover:scale-[1.01] transition-transform cursor-pointer">
+                                <div>
+                                    <span className="inline-block px-2.5 py-1 mb-2 bg-white/20 rounded-full text-[11px] font-bold backdrop-blur-sm tracking-wide">
+                                        💰 스페셜 프로모션
+                                    </span>
+                                    <h2 className="text-xl sm:text-2xl font-black mb-1">지금 예약하면 숙소 최대 30% 할인!</h2>
+                                    <p className="text-white/80 text-sm">트래블라인 전용 쿠폰팩을 받아가세요.</p>
+                                </div>
+                                <button className="shrink-0 px-5 py-2.5 bg-white text-rose-500 rounded-xl font-bold text-sm shadow-sm hover:shadow-md transition-shadow">
+                                    쿠폰 받기
+                                </button>
+                            </div>
+                        </div>
+                        */}
+
+                        {/* 2. 최근 6개월 여행지 TOP 6 */}
+                        <div>
+                            <div className="px-4 sm:px-6 mb-4 flex items-center justify-between">
+                                <div>
+                                    <h3 className="text-lg font-extrabold text-slate-800">최근 6개월 인기 여행지 TOP 6</h3>
+                                    <p className="text-xs text-slate-400 mt-0.5">트래블라인 유저들이 가장 많이 담은 도시들</p>
+                                </div>
+                            </div>
+                            <div className="px-4 sm:px-6 scroll-px-4 sm:scroll-px-6 flex gap-3 overflow-x-auto no-scrollbar pb-3 snap-x snap-mandatory">
+                                {topCities.map((city) => (
+                                    <button
+                                        key={city.engName}
+                                        onClick={() => handleCitySelect(city)}
+                                        className="shrink-0 w-36 sm:w-44 snap-start group relative rounded-2xl overflow-hidden aspect-[3/4] bg-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                                    >
+                                        <img src={FALLBACK_IMAGES[city.engName]} alt={city.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                                        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
+                                        <div className="absolute bottom-3 left-3 text-left">
+                                            <p className="text-white font-black text-lg drop-shadow">{city.name}</p>
+                                            <p className="text-white/80 text-[10px] mt-0.5 font-medium">{city.country}</p>
+                                        </div>
+                                    </button>
+                                ))}
+                                {/* 모바일 우측 여백 확보용 더미 */}
+                                <div className="shrink-0 w-1 sm:w-2" aria-hidden="true" />
+                            </div>
+                        </div>
+
+                        {/* 3. 카테고리별 신규 등록 카드 */}
+                        <div className="px-4 sm:px-6">
+                            <div className="mb-4 flex items-center justify-between">
+                                <div>
+                                    <h3 className="text-lg font-extrabold text-slate-800">새롭게 떠오르는 맛집 & 숙소</h3>
+                                    <p className="text-xs text-slate-400 mt-0.5">가장 최근에 추가(등록)된 검증된 카드들이에요</p>
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                                {newCards.map((card, idx) => (
+                                    <div key={idx} className="relative bg-white rounded-2xl border border-slate-100 shadow-sm p-3 hover:shadow-md transition-shadow cursor-default list-none select-none">
+                                        <div className="flex items-start justify-between">
+                                            <div className="flex items-center gap-2">
+                                                <span className="text-2xl">{card.type === 'food' ? (card.item.icon || '🍽️') : (card.item.type === 'resort' ? '🏖️' : '🏨')}</span>
+                                                <div className="min-w-0 pr-2">
+                                                    <p className="font-bold text-slate-800 text-sm line-clamp-1">{card.item.name}</p>
+                                                    <p className="text-[10px] text-slate-400">{card.item.city}</p>
+                                                </div>
+                                            </div>
+                                            <span className="shrink-0 px-2 py-0.5 bg-orange-50 text-orange-500 text-[10px] font-bold rounded-full">New</span>
+                                        </div>
+                                        <div className="mt-2 text-xs text-slate-500 line-clamp-1">
+                                            {card.type === 'food' ? card.item.specialty || card.item.cuisine : card.item.description || "이색 숙소를 확인해보세요"}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* 4. 최근 공유 여행계획 */}
+                        <div>
+                            <div className="px-4 sm:px-6 mb-4 flex items-center justify-between">
+                                <div>
+                                    <h3 className="text-lg font-extrabold text-slate-800">여행자들의 핫한 일정 엿보기</h3>
+                                    <p className="text-xs text-slate-400 mt-0.5">다른 사람들의 잘 짜여진 계흭을 참고하여 빠르게 쇼핑을 시작하세요</p>
+                                </div>
+                            </div>
+                            <div className="px-4 sm:px-6 scroll-px-4 sm:scroll-px-6 flex gap-4 overflow-x-auto no-scrollbar pb-3 snap-x snap-mandatory">
+                                {sharedPlans.map((plan, i) => {
+                                    const gradients = ["from-teal-400 to-emerald-400", "from-blue-400 to-indigo-400", "from-purple-400 to-fuchsia-400", "from-amber-400 to-orange-400"];
+                                    return (
+                                        <div key={plan.id} className={`shrink-0 w-64 snap-start relative bg-gradient-to-br ${gradients[i % gradients.length]} rounded-2xl p-5 text-white hover:-translate-y-1 transition-transform shadow-sm hover:shadow-lg cursor-pointer flex flex-col justify-between h-[130px]`}>
+                                            <div className="flex items-start justify-between mb-3">
+                                                <span className="px-2.5 py-1 bg-white/20 backdrop-blur-md rounded-full text-[10px] font-bold">{plan.tag}</span>
+                                                <Users className="w-4 h-4 text-white/70" />
+                                            </div>
+                                            <div>
+                                                <h4 className="font-black text-sm mb-1 line-clamp-1">{plan.title}</h4>
+                                                <p className="text-[11px] text-white/80 line-clamp-1">{plan.desc}</p>
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+                                {/* 모바일 우측 여백 확보용 더미 */}
+                                <div className="shrink-0 w-1 sm:w-2" aria-hidden="true" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            )}
+
+            {/* ── 도시 미선택: 일반 지역 그리드 (스크롤 가능) ── */}
+            {!selectedCity && activeRegion !== "main" && regionData && (
                 <div className="flex-1 min-h-0 overflow-y-auto always-scrollbar">
                     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 animate-in fade-in slide-in-from-bottom-3 duration-300">
                         <div className="mb-6">
@@ -755,6 +928,9 @@ export default function ExplorePage() {
                     </div>
                 </div>
             )}
+
+            {/* Toast 메시지 */}
+            <ToastContainer toasts={toasts} onClose={removeToast} />
         </div>
     );
 }

@@ -378,7 +378,7 @@ export default function Dashboard() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {projectsLoading
               ? Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="h-[140px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
+                <div key={i} className="h-[120px] md:h-[140px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
               ))
               : (
                 <>
@@ -393,7 +393,7 @@ export default function Dashboard() {
                   ))}
                   <button
                     onClick={() => setIsModalOpen(true)}
-                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[140px]"
+                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[120px] md:h-[140px]"
                   >
                     <div className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center mb-3 group-hover:bg-white group-hover:scale-110 transition-transform shadow-sm">
                       <Plus className="w-6 h-6" />

@@ -154,7 +154,7 @@ export function EtcPicker({
             </div>
 
             {/* 카드 목록 */}
-            <div className="flex-1 overflow-y-auto p-4">
+            <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {createdCards.map((card: any, index: number) => (
                         <DraggableEtcCard

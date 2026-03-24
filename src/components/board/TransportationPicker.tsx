@@ -137,7 +137,7 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
             </div>
 
             {/* 교통 수단 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto p-4">
+            <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {transportations.map((transportation, index) => (
                         <DraggableTransportCard

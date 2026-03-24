@@ -72,7 +72,7 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0 
       )}
 
       <Link href={`/room/${project.id}`} className="block">
-        <div className={`bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all cursor-pointer group flex relative overflow-hidden h-[140px] ${deleting ? 'opacity-50 pointer-events-none' : ''}`}>
+        <div className={`bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-all cursor-pointer group flex relative overflow-hidden h-[120px] md:h-[140px] ${deleting ? 'opacity-50 pointer-events-none' : ''}`}>
 
           {/* 좌측 포인트 바 */}
           <div className={`w-1.5 h-full ${palette.bar}`} />

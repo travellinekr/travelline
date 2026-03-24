@@ -162,7 +162,7 @@ export function FoodPicker({
             </div>
 
             {/* 맛집 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto p-4">
+            <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {/* 샘플 맛집 카드들 (destinationCity 기반 필터링) */}
                     {sampleRestaurants.map((restaurant: RestaurantData, index: number) => (

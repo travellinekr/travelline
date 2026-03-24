@@ -148,7 +148,7 @@ export function TourSpaPicker({
             </div>
 
             {/* 투어&스파 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto p-4">
+            <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {/* 샘플 카드 비활성화 */}
                     {/* {TOUR_SPA_SAMPLES.map((tourSpa, index) => (

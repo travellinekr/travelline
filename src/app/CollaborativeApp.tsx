@@ -2,7 +2,7 @@
 
 import { throttle } from "lodash";
 
-import { useStorage, useMyPresence, useMutation, useOthers, useSelf } from "@liveblocks/react/suspense";
+import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorListener } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
@@ -472,6 +472,14 @@ function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: string; room
 }
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
+    const router = useRouter();
+
+    useErrorListener((error) => {
+        if (error.message.toLowerCase().includes("auth") || error.message.toLowerCase().includes("unauthorized")) {
+            alert("세션이 만료되었습니다. 다시 로그인해 주세요.");
+            router.push("/");
+        }
+    });
     const columns = useStorage((root) => root.columns);
     const cards = useStorage((root) => root.cards);
     const flightInfo = useStorage((root) => root.flightInfo);
