@@ -44,7 +44,6 @@ export async function POST(request: NextRequest) {
         const { data: { user }, error: userError } = await supabaseAdmin.auth.getUser(token);
         if (userError || !user) {
             console.error('[liveblocks-auth] 유저 확인 실패:', userError);
-            // 토큰이 있지만 유효하지 않은 경우도 뷰어로 허용
             const anonId = `anon_${crypto.randomUUID()}`;
             const session = liveblocks.prepareSession(anonId, {
                 userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8' },
@@ -59,7 +58,7 @@ export async function POST(request: NextRequest) {
         }
 
         // 3. project_members에서 role 조회
-        let role = 'viewer'; // 기본값
+        let role = 'viewer';
         let memberData: { role: string } | null = null;
         if (room) {
             const { data, error: memberError } = await supabaseAdmin
@@ -84,7 +83,7 @@ export async function POST(request: NextRequest) {
         const canWrite = role === 'owner' || role === 'editor';
 
         // 5. Liveblocks 세션 생성
-        const isGuest = !memberData; // project_members에 없으면 손님
+        const isGuest = !memberData;
         const session = liveblocks.prepareSession(user.id, {
             userInfo: {
                 name: isGuest ? '손님' : (user.user_metadata?.full_name || user.email || '사용자'),

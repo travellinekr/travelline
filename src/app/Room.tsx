@@ -1,10 +1,10 @@
 "use client";
 
 import { ReactNode } from "react";
-import { ClientSideSuspense } from "@liveblocks/react/suspense";
-import { RoomProvider } from "../liveblocks.config";
+import { LiveblocksProvider, RoomProvider, ClientSideSuspense } from "@liveblocks/react/suspense";
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { type Card } from "../liveblocks.config";
+import { supabase } from "@/lib/supabaseClient";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 
 export function Room({ children, roomId }: { children: ReactNode, roomId: string }) {
@@ -18,7 +18,20 @@ export function Room({ children, roomId }: { children: ReactNode, roomId: string
   ];
 
   return (
-    <RoomProvider
+    <LiveblocksProvider authEndpoint={async (room) => {
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      const response = await fetch('/api/liveblocks-auth', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
+        body: JSON.stringify({ room }),
+      });
+      return await response.json();
+    }}>
+      <RoomProvider
         id={roomId}
         initialStorage={{
           columns: new LiveMap([
@@ -53,5 +66,6 @@ export function Room({ children, roomId }: { children: ReactNode, roomId: string
           {children}
         </ClientSideSuspense>
       </RoomProvider>
+    </LiveblocksProvider>
   );
 }
