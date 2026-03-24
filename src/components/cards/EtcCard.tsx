@@ -18,7 +18,7 @@ export function EtcCard({ card, variant, ...props }: CommonCardProps) {
             category="ETC"
             className="h-[58px] md:h-[72px]"
         >
-            <div className="flex flex-col w-full min-w-0">
+            <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
                 <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{title}</h4>
                 <p className="text-[11px] text-gray-400 mt-0.5 truncate">{item || '—'}</p>
             </div>

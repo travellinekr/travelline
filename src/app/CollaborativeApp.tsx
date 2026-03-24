@@ -2,8 +2,8 @@
 
 import { throttle } from "lodash";
 
-import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorListener } from "@liveblocks/react/suspense";
-import { LiveList, LiveMap } from "@liveblocks/client";
+import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorListener } from "../liveblocks.config";
+import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
 import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
@@ -484,6 +484,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cards = useStorage((root) => root.cards);
     const flightInfo = useStorage((root) => root.flightInfo);
 
+
     const [myPresence, updateMyPresence] = useMyPresence();
 
     const throttledUpdateMyPresence = useMemo(
@@ -586,6 +587,68 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     }, []);
 
+    // [긴급 복구] 데이터가 로드되었으나 필수 컬럼이 비어있을 경우 자동 초기화
+    const autoRestore = useMutation(({ storage }) => {
+        const columnsMap = storage.get('columns') as LiveMap<string, any>;
+        const cardsMap = storage.get('cards') as LiveMap<string, any>;
+        const columnOrder = storage.get('columnOrder') as LiveList<string>;
+
+        if (!columnsMap || !cardsMap) return;
+
+        // 1. 기본 컬럼 확인 및 생성
+        const requiredCols = [
+            { id: "destination-header", title: "최종 여행지" },
+            { id: "destination-candidates", title: "여행지 후보" },
+            { id: "flights", title: "항공" },
+            { id: "day0", title: "0일차 (준비)" },
+            { id: "inbox", title: "보관함" }
+        ];
+
+        requiredCols.forEach(col => {
+            if (!columnsMap.has(col.id)) {
+                columnsMap.set(col.id, new LiveObject({ id: col.id, title: col.title, cardIds: new LiveList([]) }));
+            }
+        });
+
+        // 2. 컬럼 순서 복구
+        if (columnOrder.length === 0) {
+            requiredCols.forEach(col => columnOrder.push(col.id));
+        }
+
+
+        // 4. 나머지 샘플 카드 복구 (인박스가 비었을 경우만)
+        const inbox = columnsMap.get("inbox");
+        if (inbox && inbox.get("cardIds").length === 0) {
+            const samples = [
+                { id: "p1", text: "입국심사&필요사항", type: "travel", category: "preparation" },
+                { id: "f1", text: "대한항공 KE467 (09:00)", type: "travel", category: "flight" },
+                { id: "h1", text: "아미아나 리조트 (오션뷰)", type: "travel", category: "hotel" }
+            ];
+            samples.forEach(s => {
+                if (!cardsMap.has(s.id)) {
+                    cardsMap.set(s.id, new LiveObject(s));
+                    inbox.get("cardIds").push(s.id);
+                }
+            });
+        }
+        console.log('✅ 보드 데이터 자동 복구 완료');
+        addToast("기본 여행 데이터를 복구했습니다.", "info");
+    }, []);
+
+    const autoRestoreRef = useRef(autoRestore);
+    autoRestoreRef.current = autoRestore;
+
+    useEffect(() => {
+        if (columns && columns.size > 0) {
+            const requiredCols = ["destination-header", "destination-candidates", "flights", "day0", "inbox"];
+            const missingCol = requiredCols.some(id => !(columns as any).get(id));
+            if (missingCol) {
+                console.log('⚠️ 보드 데이터 부재 감지 - 자동 복구 시도');
+                autoRestoreRef.current();
+            }
+        }
+    }, [columns]);
+
     // ── Explore에서 추가된 카드 큐 처리 (중복 체크 포함) ─────────────
     useEffect(() => {
         const queueKey = `explore_queue_${roomId}`;
@@ -596,7 +659,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         try { queued = JSON.parse(raw); } catch { return; }
         if (!queued.length) return;
 
-        // 딘레이 후 처리 (Liveblocks 스토리지 준비 대기)
+        // 딜레이 후 처리 (Liveblocks 스토리지 준비 대기)
         const timer = setTimeout(() => {
             // 현재 보관함에 있는 카드들의 title+city 세트 (O(1) 중복 검색)
             const existingKeys = new Set<string>();
@@ -743,8 +806,16 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const migrateP1Card = useMutation(({ storage }) => {
         const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
         if (!cardsMap) return;
-        const p1Card = cardsMap.get('p1');
+        let p1Card = cardsMap.get('p1');
         if (p1Card) {
+            // [Resilience] p1Card가 LiveObject가 아닌 일반 객체로 저장되어 있을 경우를 대비한 체크
+            if (typeof (p1Card as any).get !== 'function') {
+                console.log('⚠️ p1Card is a plain object, converting to LiveObject');
+                const plainData = JSON.parse(JSON.stringify(p1Card)); // 깊은 복사
+                cardsMap.set('p1', new LiveObject(plainData));
+                p1Card = cardsMap.get('p1');
+            }
+
             const currentText = (p1Card as any).get('text');
             if (currentText !== '입국심사&필요사항') {
                 (p1Card as any).set('text', '입국심사&필요사항');
@@ -1736,7 +1807,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             },
                                             activeDragSourceColumn === 'inbox' || activeDragSourceColumn === null
                                                 ? 'inbox'
-                                                : 'timeline'
+                                                : activeDragSourceColumn === 'destination-candidates'
+                                                    ? 'compact'
+                                                    : 'timeline'
                                         )}
                                     </div>
                                 )

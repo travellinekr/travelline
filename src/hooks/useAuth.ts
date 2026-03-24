@@ -10,7 +10,14 @@ export function useAuth() {
 
     useEffect(() => {
         // 현재 세션 확인
-        supabase.auth.getSession().then(({ data: { session } }) => {
+        supabase.auth.getSession().then(({ data: { session }, error }) => {
+            if (error) {
+                console.warn('[Auth] 세션 로드 오류:', error.message);
+                // 리프레시 토큰이 없거나 유효하지 않은 경우 세션을 강제로 비워 무한 루프 방지
+                if (error.message.includes('Refresh Token') || error.message.includes('invalid_grant')) {
+                    supabase.auth.signOut();
+                }
+            }
             setUser(session?.user ?? null);
             setLoading(false);
         });

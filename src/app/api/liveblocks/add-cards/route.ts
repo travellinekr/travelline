@@ -6,12 +6,14 @@ const liveblocks = new Liveblocks({
     secret: process.env.LIVEBLOCKS_SECRET_KEY!,
 });
 
-const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 export async function POST(request: NextRequest) {
+    if (!supabaseUrl || !supabaseServiceRoleKey) {
+        return NextResponse.json({ error: '환경 변수가 설정되지 않았습니다.' }, { status: 500 });
+    }
+    const supabaseAdmin = createClient(supabaseUrl, supabaseServiceRoleKey);
     try {
         // 1. 인증 확인
         const authHeader = request.headers.get('Authorization');

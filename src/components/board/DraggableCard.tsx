@@ -106,7 +106,7 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
         style={style}
         {...listeners}
         {...attributes}
-        className="group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-0 relative touch-none select-none h-[72px] transition-colors overflow-hidden w-full cursor-grab active:cursor-grabbing"
+        className="group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-0 relative touch-none select-none h-[58px] md:h-[72px] transition-colors overflow-hidden w-full cursor-grab active:cursor-grabbing"
       >
         {/* Left: Image (Fixed 80px width) */}
         <div
@@ -134,7 +134,7 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
         </div>
 
         {/* Right: Content - 3 rows layout */}
-        <div className="flex-1 min-w-0 flex flex-col justify-between h-full pl-3 pr-1 py-2">
+        <div className="flex-1 min-w-0 overflow-hidden flex flex-col justify-between h-full pl-3 pr-1 py-2">
           {/* Row 1: Title + Badge */}
           <div className="flex justify-between items-center pointer-events-none gap-2">
             <span className="font-bold text-slate-800 text-sm group-hover:text-emerald-600 leading-none truncate flex-1 min-w-0">
@@ -225,7 +225,7 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
 
 export function renderCardInternal(card: any, props: any = {}, variant: CardVariant = 'inbox') {
   switch (card.category) {
-    case 'destination': return <DestinationCard key={card.id} card={card} {...props} />;
+    case 'destination': return <DestinationCard key={card.id} card={card} variant={variant} {...props} />;
     case 'preparation': return <PreparationCard key={card.id} card={card} variant={variant} {...props} />;
     case 'shopping': return <ShoppingCard key={card.id} card={card} variant={variant} {...props} />;
     case 'flight': return <FlightCard key={card.id} card={card} variant={variant} {...props} />;
