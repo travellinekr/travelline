@@ -77,8 +77,8 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0 
           {/* 좌측 포인트 바 */}
           <div className={`w-1.5 h-full ${palette.bar}`} />
 
-          <div className="p-4 flex flex-col flex-1">
-            <div className="flex justify-between items-start mb-2">
+          <div className="p-3 md:p-4 flex flex-col flex-1">
+            <div className="flex justify-between items-start mb-1.5 md:mb-2">
               <div className="flex items-center gap-2">
                 <div className={`p-2 rounded-lg ${palette.icon}`}>
                   {isTravel ? <Plane className="w-5 h-5" /> : <Briefcase className="w-5 h-5" />}
