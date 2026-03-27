@@ -40,10 +40,16 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        // 2. 토큰으로 유저 확인
-        const { data: { user }, error: userError } = await supabaseAdmin.auth.getUser(token);
-        if (userError || !user) {
-            console.error('[liveblocks-auth] 유저 확인 실패:', userError);
+        // 2. 토큰으로 유저 확인 (2초 타임아웃 - 초과 시 anon 폴백으로 빠르게 응답)
+        const getUserResult = await Promise.race([
+            supabaseAdmin.auth.getUser(token),
+            new Promise<never>((_, reject) =>
+                setTimeout(() => reject(new Error('getUser timeout')), 2000)
+            ),
+        ]).catch(() => null);
+
+        const user = getUserResult?.data?.user ?? null;
+        if (!user) {
             const anonId = `anon_${crypto.randomUUID()}`;
             const session = liveblocks.prepareSession(anonId, {
                 userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8' },
@@ -57,23 +63,25 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        // 3. project_members에서 role 조회
+        // 3. project_members에서 role 조회 (2초 타임아웃 - 초과 시 viewer 처리)
         let role = 'viewer';
         let memberData: { role: string } | null = null;
         if (room) {
-            const { data, error: memberError } = await supabaseAdmin
-                .from('project_members')
-                .select('role')
-                .eq('project_id', room)
-                .eq('user_id', user.id)
-                .single();
+            const memberResult = await Promise.race([
+                supabaseAdmin
+                    .from('project_members')
+                    .select('role')
+                    .eq('project_id', room)
+                    .eq('user_id', user.id)
+                    .single(),
+                new Promise<never>((_, reject) =>
+                    setTimeout(() => reject(new Error('memberQuery timeout')), 2000)
+                ),
+            ]).catch(() => null);
 
-            if (memberError) {
-                console.log('[liveblocks-auth] 멤버 조회 없음 (viewer 처리):', room, user.id);
-            }
-            if (data) {
-                memberData = data;
-                role = data.role;
+            if (memberResult?.data) {
+                memberData = memberResult.data;
+                role = memberResult.data.role;
             }
         }
 
@@ -100,11 +108,11 @@ export async function POST(request: NextRequest) {
             : session.READ_ACCESS
         );
 
-        // 10초 타임아웃 적용
+        // 6초 타임아웃 적용
         const authorizeWithTimeout = Promise.race([
             session.authorize(),
             new Promise<never>((_, reject) =>
-                setTimeout(() => reject(new Error('Liveblocks authorize timeout')), 10000)
+                setTimeout(() => reject(new Error('Liveblocks authorize timeout')), 6000)
             ),
         ]);
 

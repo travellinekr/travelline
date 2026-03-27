@@ -720,7 +720,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             } else if (skippedCount > 0) {
                 addToast(`모든 카드가 이미 보관함에 있어요. (${skippedCount}개 중복 스킵)`, 'warning');
             }
-        }, 1200); // Liveblocks 연결 대기
+        }, 500); // Liveblocks 연결 대기 (ClientSideSuspense 내부라 이미 연결됨)
 
         return () => clearTimeout(timer);
         // eslint-disable-next-line react-hooks/exhaustive-deps
