@@ -216,6 +216,68 @@ Open-Meteo 모델을 좌표 + 데이터 유무에 따라 선택:
 
 ---
 
+## 여행보드 로딩 속도 최적화
+
+### 병목 분석 결과
+
+| 병목 | 원인 | 조치 |
+|---|---|---|
+| `explore_queue` 강제 딜레이 | `CollaborativeApp`에 1200ms 하드코딩 | 500ms로 단축 (ClientSideSuspense 내부라 이미 연결됨) |
+| `liveblocks-auth` 타임아웃 과대 | getUser 3s + memberQuery 3s + authorize 10s 순차 최대 16s | 각각 2s / 2s / 6s로 단축 |
+| 서버 DB 쿼리 중 빈 화면 | `page.tsx` 서버 쿼리 동안 로딩 UI 없음 | `loading.tsx` 추가 (Next.js App Router) |
+
+### Liveblocks 인증 타임아웃 폴백 구조
+```
+getUser(2s 타임아웃) → 실패 시 anon READ_ACCESS 즉시 반환
+memberQuery(2s 타임아웃) → 실패 시 viewer 권한으로 처리
+session.authorize(6s 타임아웃) → 실패 시 500 에러
+```
+폴백 시 Liveblocks가 빠르게 재인증 시도 → 정상 권한으로 복구됨
+
+### 로딩 스켈레톤 (`LoadingSkeleton.tsx`)
+- 상단 에메랄드 진행 바 애니메이션
+- "여행 보드 불러오는 중..." 텍스트 + 바운싱 점
+- 모바일: 하단 인박스 핸들 표시
+- 데스크톱: 우측 인박스 카테고리 탭 + 카드 스켈레톤
+- 카드 높이를 실제(`58px/72px`)와 동일하게 → 로딩 완료 시 레이아웃 점프 최소화
+
+---
+
+## 타임라인 일차 스크롤 (`scrollToDay`)
+
+### 스크롤 방식
+`scrollIntoView` 대신 `timelineScrollRef` 직접 제어:
+```ts
+const containerTop = container.getBoundingClientRect().top;
+const elementTop = element.getBoundingClientRect().top;
+const offset = elementTop - containerTop + container.scrollTop - 16; // 16px 상단 여백
+container.scrollTo({ top: Math.max(0, offset), behavior: 'smooth' });
+```
+**이유**: `scrollIntoView`는 스크롤 컨테이너를 정확히 제어하지 못함
+
+### 여행 중 현재 일차 자동 스크롤
+`CollaborativeApp.tsx`의 `autoScrolledRef` useEffect:
+- `flightInfo.outbound.date`와 오늘 날짜 비교 → 현재 일차 계산
+- `diffDays < 0` 이면 출발 전 → 스크롤 안 함
+- **double requestAnimationFrame** 으로 React 페인트 완료 후 실행
+- `autoScrolledRef.current = true`로 최초 1회만 실행
+
+```ts
+// 핵심 패턴
+requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+        scrollToDay(dayId); // 사이드바 클릭과 동일한 함수 호출
+    });
+});
+```
+
+**실패했던 방법들**:
+- `setTimeout(600ms)` + `columns.get(dayId)` 체크 → flightInfo 레퍼런스 변경 시 cleanup이 타이머 취소
+- retry 루프 → 타이머 배열 cleanup 복잡, 첫 타이머만 정리되는 버그
+- `[flightInfo, columns]` 의존성 → columns 변경 시 effect 재실행, autoScrolledRef 설정 후 타이머 취소 경합
+
+---
+
 ## Liveblocks WebSocket 연결 오류 코드
 
 - **1006**: 비정상 종료 (네트워크 불안정). 자동 재연결되므로 정상 동작
