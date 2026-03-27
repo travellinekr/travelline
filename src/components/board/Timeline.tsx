@@ -412,7 +412,7 @@ export const Timeline = memo(function Timeline({
             )}
 
             {/* 항공편 섹션 */}
-            {shouldRenderDays && (
+            {shouldRenderDays && destHeaderCards.length > 0 && (
               <div id="flights-section">
                 <FlightSection
                   destinationCard={destHeaderCards[0] || null}

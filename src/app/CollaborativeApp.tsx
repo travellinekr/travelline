@@ -28,6 +28,7 @@ import { FoodCard } from "@/components/cards/FoodCard";
 import { ShoppingCard } from "@/components/cards/ShoppingCard";
 import { TourSpaCard } from "@/components/cards/TourSpaCard";
 import { LiveCursors } from "../components/board/LiveCursors";
+import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { Sidebar } from "@/components/board/Sidebar";
@@ -473,11 +474,11 @@ function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: string; room
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const router = useRouter();
+    const [showSessionExpired, setShowSessionExpired] = useState(false);
 
     useErrorListener((error) => {
         if (error.message.toLowerCase().includes("auth") || error.message.toLowerCase().includes("unauthorized")) {
-            alert("세션이 만료되었습니다. 다시 로그인해 주세요.");
-            router.push("/");
+            setShowSessionExpired(true);
         }
     });
     const columns = useStorage((root) => root.columns);
@@ -1061,9 +1062,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         setActiveDragItem(null);
 
-        // 📱 모바일: 드래그 종료 후 인박스 이전 상태로 복원
+        // 📱 모바일: 드래그 종료 후 인박스 이전 상태로 복원 (딜레이로 카드 안착 확인 후 열림)
         if (typeof window !== 'undefined' && window.innerWidth < 768) {
-            setInboxState(prevInboxStateRef.current);
+            setTimeout(() => {
+                setInboxState(prevInboxStateRef.current);
+            }, 500);
         }
 
         // auto-scroll 정리
@@ -1267,7 +1270,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                 // destination-header에 카드를 추가하면 candidates 숨김
                 if (targetColumnId === 'destination-header') {
-                    addToast('여행지가 등록되어 여행지 후보는 사라집니다.', 'info');
+                    addToast('항공편을 등록하세요.', 'info');
+                    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+                        prevInboxStateRef.current = 'closed';
+                    }
                 }
 
                 return;
@@ -1474,6 +1480,16 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
 
             addToast('여행지 후보가 나타납니다.', 'info');
+
+            // 항공편 없이 여행지를 빼면 0일차 카드도 제거
+            const day0Col = (columns as any).get('day0');
+            if (day0Col) {
+                const list = day0Col.cardIds;
+                const day0CardIds: string[] = Array.isArray(list) ? list : (list?.toArray ? list.toArray() : []);
+                [...day0CardIds].forEach((cardId: string) => {
+                    removeCardFromTimeline({ cardId, sourceColumnId: 'day0' });
+                });
+            }
         }
 
         if (sourceColumnId === 'inbox' && targetColumnId !== 'inbox') {
@@ -1501,7 +1517,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         const existingCardId = destCol.cardIds[0];
                         removeCardFromTimeline({ cardId: existingCardId, sourceColumnId: 'destination-header' });
                     }
-                    addToast('여행지가 등록되어 여행지 후보는 사라집니다.', 'info');
+                    addToast('항공편을 등록하세요.', 'info');
+                    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+                        setInboxState('closed');
+                    }
                 }
 
                 // 맨 뒤에 추가: targetIndex가 없으면 기존 카드 개수를 사용
@@ -1580,6 +1599,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <>
+            {showSessionExpired && (
+                <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
+            )}
             <DndContext
                 sensors={sensors}
                 collisionDetection={customCollisionDetection}
@@ -1641,10 +1663,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                             <div className="flex-1 flex flex-col md:flex-row h-full overflow-hidden relative">
 
-                                <section className={`w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger ${inboxState === 'closed' ? 'pb-[58px] md:pb-0' :
-                                    inboxState === 'half' ? 'pb-[50vh] md:pb-0' :
-                                        'md:pb-0'
-                                    }`}>
+                                <section className={`w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger ${inboxState === 'closed' ? 'pb-[58px] md:pb-0' : 'md:pb-0'}`}>
 
                                     {/* 🎯 Fixed Destination Header - No Scroll */}
                                     <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
@@ -1659,10 +1678,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                 <div
                                     className={`
-                            fixed bottom-0 left-0 right-0 z-50 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] rounded-t-3xl transition-all duration-300 ease-out flex flex-col
-                            md:static md:z-auto md:shadow-none md:rounded-none md:w-1/2 md:h-full md:bg-gray-50 scrollbar-trigger
+                            fixed bottom-0 left-0 right-0 z-50 h-[100dvh] bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] rounded-t-3xl flex flex-col
+                            ${activeDragItem ? '' : 'transition-transform duration-500 [transition-timing-function:cubic-bezier(0.32,0.72,0,1)]'}
+                            ${inboxState === 'closed' ? 'translate-y-[calc(100%-58px)]' : 'translate-y-0'}
+                            md:static md:z-auto md:shadow-none md:rounded-none md:w-1/2 md:h-full md:bg-gray-50 md:translate-y-0 scrollbar-trigger
                             ${isKeyboardVisible ? 'hidden md:flex' : ''}
-                            ${getInboxHeightClass()}
                         `}
                                 >
                                     <div
@@ -1804,12 +1824,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                                 attributes: {},
                                                 onRemove: undefined,
                                                 canEdit: false,
+                                                ...(activeDragSourceColumn === 'destination-header' ? { isHeader: true } : {}),
                                             },
                                             activeDragSourceColumn === 'inbox' || activeDragSourceColumn === null
                                                 ? 'inbox'
-                                                : activeDragSourceColumn === 'destination-candidates'
+                                                : activeDragSourceColumn === 'destination-header'
                                                     ? 'compact'
-                                                    : 'timeline'
+                                                    : activeDragSourceColumn === 'destination-candidates'
+                                                        ? 'compact'
+                                                        : 'timeline'
                                         )}
                                     </div>
                                 )

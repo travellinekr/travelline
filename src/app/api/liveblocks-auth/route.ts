@@ -100,7 +100,26 @@ export async function POST(request: NextRequest) {
             : session.READ_ACCESS
         );
 
-        const { status, body: responseBody } = await session.authorize();
+        // 10초 타임아웃 적용
+        const authorizeWithTimeout = Promise.race([
+            session.authorize(),
+            new Promise<never>((_, reject) =>
+                setTimeout(() => reject(new Error('Liveblocks authorize timeout')), 10000)
+            ),
+        ]);
+
+        const { status, body: responseBody } = await authorizeWithTimeout;
+
+        // responseBody가 유효한 JSON인지 확인
+        try {
+            JSON.parse(responseBody);
+        } catch {
+            console.error('[liveblocks-auth] authorize 응답이 JSON이 아님:', responseBody);
+            return NextResponse.json(
+                { error: 'forbidden', reason: 'Liveblocks 인증 응답 오류' },
+                { status: 500 }
+            );
+        }
 
         return new NextResponse(responseBody, {
             status,

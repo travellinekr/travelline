@@ -2,6 +2,7 @@ import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin,
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo, useMemo } from "react";
+import Link from "next/link";
 import { DestinationPicker } from "./DestinationPicker";
 import { AccommodationPicker } from "./AccommodationPicker";
 import { TransportationPicker } from "./TransportationPicker";
@@ -91,8 +92,15 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
       {/* 2단 탭 필터 (정밀 높이 조정 100px) */}
       <div className="sticky top-0 z-30 flex flex-col border-b border-gray-200 bg-white shrink-0 w-full min-h-[100px] md:min-h-[100px] justify-center shadow-sm">
         {/* 1단 */}
-        <div className="flex px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
+        <div className="flex items-center px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {topTabs.map(renderTab)}
+          <Link
+            href="/explore"
+            className="ml-auto shrink-0 px-3 py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 transition-all duration-300 ease-out border bg-orange-400 border-orange-400 text-white shadow-lg shadow-orange-200/50 hover:bg-orange-500 hover:border-orange-500"
+          >
+            <ShoppingBag className="w-3.5 h-3.5 md:w-4 md:h-4" />
+            여행쇼핑
+          </Link>
         </div>
         {/* 2단 */}
         <div className="flex px-4 pt-1 pb-3 md:pb-3 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">

@@ -126,6 +126,142 @@ storage
 
 ---
 
+## Liveblocks Mutation 패턴 (중요)
+
+### LiveObject 속성 접근
+- **mutation 컨텍스트** (`useMutation` 내부): 반드시 `.get('propertyName')` 사용
+  ```ts
+  const col = columns.get(columnId);
+  const list = col.get("cardIds"); // ✅ 올바름
+  const list = col.cardIds;        // ❌ mutation 내에서 undefined 될 수 있음
+  ```
+- **React 렌더/이벤트 핸들러** (`useStorage` 값): 직접 접근 가능
+  ```ts
+  const list = col.cardIds; // ✅ useStorage로 가져온 값은 직접 접근 가능
+  ```
+
+### 카드 제거 뮤테이션 (`useCardMutations.ts`)
+- `removeCardFromTimeline({ cardId, sourceColumnId })`: 카드를 컬럼 cardIds에서 제거 + `cards` LiveMap에서 완전 삭제
+- `moveCard({ cardId, targetColumnId, targetIndex })`: 카드를 다른 컬럼으로 이동
+- `copyCardToTimeline(...)`: 인박스→타임라인 복사 (원본 유지)
+
+### cleanupFlightAndDays 동작
+- `flightInfo` 삭제 + 모든 `day*` 컬럼 삭제
+- **주의**: 카드 객체는 `cards` LiveMap에 고아(orphan) 상태로 남음 (컬럼만 삭제)
+- `autoRestore`가 즉시 빈 day0 재생성
+
+---
+
+## 여행지 제거 시 day0 카드 정리 로직
+
+**구현 위치**: `handleDragEnd` 내 `sourceColumnId === 'destination-header'` + `!flightInfo` 경로
+
+**핵심 원칙**: useEffect 타이밍 의존 금지 → 드래그 이벤트에서 직접 처리
+
+```ts
+// handleDragEnd에서 destination-header → 외부로 드래그, 항공편 없을 때
+const day0Col = (columns as any).get('day0');
+if (day0Col) {
+    const list = day0Col.cardIds;
+    const day0CardIds: string[] = Array.isArray(list) ? list : (list?.toArray ? list.toArray() : []);
+    [...day0CardIds].forEach((cardId: string) => {
+        removeCardFromTimeline({ cardId, sourceColumnId: 'day0' });
+    });
+}
+```
+
+**실패했던 방법**: `cleanupFlightAndDays` useMutation 내부에서 카드 삭제 시도
+- `col.get('cardIds')` 패턴을 사용해도 useEffect 타이밍 문제로 실제 동작 불안정
+- useEffect는 렌더 이후 비동기 실행이라 storage 상태와 타이밍 불일치 가능
+
+---
+
+## 날씨 API 모델 선택 로직 (`/api/weather/route.ts`)
+
+Open-Meteo 모델을 좌표 + 데이터 유무에 따라 선택:
+
+| 조건 | 모델 |
+|---|---|
+| 한국 (lat 33~38°N, lng 124~132°E) | `kma_seamless` (기상청, 10일+) |
+| 해외 예보 - `icon_seamless` 시도 후 데이터 있음 | `icon_seamless` (독일 DWD, 단기 고정밀) |
+| 해외 예보 - `icon_seamless` noData | `gfs_seamless` (미국 NOAA, 16일 커버) 폴백 |
+| 현재 날씨 (날짜 없음) | 한국 `kma_seamless`, 해외 `icon_seamless` |
+
+**폴백 패턴**: `icon_seamless` 결과의 `weathercode[0] == null` 이면 `gfs_seamless`로 재시도
+**이유**: ICON 모델은 약 7~8일 이후 데이터 없음 → 장거리 여행 일정 후반부 날씨 공백 발생
+
+---
+
+## 타임라인 날씨 표시 로직 (`Timeline.tsx` > `DaySection`)
+
+각 일차(DaySection)에서 `weatherKey`(좌표)를 계산하여 날씨 fetch:
+
+1. 마커(카드 좌표) 중 도착 공항 주변(1도 이내) 카드가 있으면 → 목적지 날씨
+2. 목적지 카드가 없으면 → 첫 번째 마커 좌표 날씨
+3. 빈 일차(카드 없음) + 2일차 이상 → 도착 공항(`arrCoords`) 날씨
+4. 빈 일차 + 1일차 → 출발 공항(기본 ICN) 날씨
+
+**주의**: `useEffect` deps가 `[flightInfo, dayNumber]`이므로 `weatherKey`가 deps에 없음. 마커 변화로 weatherKey가 바뀌어도 재fetch 안 됨 (현재 동작상 문제 없으나 향후 개선 가능)
+
+---
+
+## 세션 만료 처리
+
+**파일**: `src/components/auth/SessionExpiredModal.tsx` (공통 모달)
+**사용처**:
+- `GlobalSessionWatcher.tsx`: Supabase `SIGNED_OUT` / `TOKEN_REFRESH_FAILED` 감지 시 모달 표시
+- `CollaborativeApp.tsx`: `useErrorListener`에서 auth 관련 오류 감지 시 모달 표시
+
+기존 브라우저 `alert()` → 커스텀 모달로 교체. 배경 블러 + 🔐 아이콘 + "로그인 페이지로 이동" 버튼
+
+---
+
+## Liveblocks WebSocket 연결 오류 코드
+
+- **1006**: 비정상 종료 (네트워크 불안정). 자동 재연결되므로 정상 동작
+- **4100 Expired**: 토큰 만료. SDK가 자동으로 `/api/liveblocks-auth` 재호출 → 정상 사이클
+- **4100 Timed out**: auth 엔드포인트 10초 초과. Supabase 느릴 때 발생. 재시도로 복구
+
+---
+
+## 인박스 카테고리 탭 구조 (`Inbox.tsx`)
+
+**1단** (topTabs): 여행지, 여행준비, 숙소 + **여행쇼핑 버튼** (주황색, `/explore` 이동)
+**2단** (bottomTabs): 맛집, 쇼핑, 교통, 투어&스파, 기타
+
+여행쇼핑 버튼은 `ml-auto`로 1단 오른쪽 끝 고정. 탭이 많아져도 버튼은 항상 우측 고정.
+
+---
+
+## 여행보드 에러 경계 (`src/app/room/[roomId]/error.tsx`)
+
+Next.js `error.tsx` 파일로 room 라우트 에러 바운더리 구현.
+네트워크/서버 오류 시 오류 페이지 대신 "연결에 문제가 생겼어요" 안내 UI + 다시 시도/메인으로 이동 버튼 표시.
+
+---
+
+## 모바일 인박스(Inbox) 슬라이드 동작
+
+**상태**: `inboxState: 'closed' | 'half' | 'full'`
+- `closed` → h-[58px] (핸들바만 표시)
+- `half` → h-[50vh]
+- `full` → h-[100dvh]
+
+**드래그 중 동작**:
+- 드래그 시작: `prevInboxStateRef.current = inboxState` 저장 후 `setInboxState('closed')` (즉시, transition 없음)
+- 드래그 종료: 500ms 딜레이 후 `setInboxState(prevInboxStateRef.current)` (부드럽게 올라옴)
+- transition 클래스: `activeDragItem` 있으면 제거 → 드래그 중 즉시 닫힘, 드래그 후 슬라이드업
+
+**도시카드 → destination-header 드롭 시 예외**:
+- 인박스 다시 열리지 않음
+- `prevInboxStateRef.current = 'closed'` 로 덮어씌워 timeout 복원 차단
+- 토스트: "항공편을 등록하세요."
+
+**항공편 섹션 표시 조건**:
+- `Timeline.tsx`: `destHeaderCards.length > 0` 일 때만 FlightSection 렌더
+
+---
+
 ## API 키 (.env.local)
 - `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY`
 - `GEMINI_API_KEY`

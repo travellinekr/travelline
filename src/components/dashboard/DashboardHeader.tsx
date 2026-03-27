@@ -66,8 +66,8 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
     return (
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2 min-w-0">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2 min-w-0">
+          <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
               <TravellineLogo size={32} />
               <span className="truncate">{title ?? 'Travelline'}</span>
             </Link>
@@ -78,7 +78,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
             <div className="flex items-center gap-2">
               <button
                 onClick={() => router.push('/login')}
-                className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
+                className="text-sm font-medium text-slate-700 hover:text-slate-700 transition-colors px-3 py-1.5"
               >
                 로그인
               </button>
@@ -99,8 +99,8 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
     <>
       <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 flex items-center gap-2 min-w-0">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-2 min-w-0">
+          <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
+            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
               <TravellineLogo size={32} />
               <span className="truncate">{title ?? 'Travelline'}</span>
             </Link>
@@ -133,7 +133,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
         >
           {/* 사용자 정보 */}
           <div className="px-4 py-3 border-b border-gray-50">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
               <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
                 {getInitials()}
               </div>

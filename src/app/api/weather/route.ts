@@ -25,7 +25,13 @@ export async function GET(request: Request) {
   }
 
   try {
-    let url: string;
+    let url = '';
+
+    // 한국 범위 판단 (위도 33~38°N, 경도 124~132°E) → KMA 모델
+    // 해외: 7일 이내 → icon_seamless (고정밀), 8일 이상 → gfs_seamless (16일 커버)
+    const latNum = parseFloat(lat);
+    const lngNum = parseFloat(lng);
+    const isKorea = latNum >= 33 && latNum <= 38 && lngNum >= 124 && lngNum <= 132;
 
     if (dateStr) {
       // 예보: 16일 이내 날짜 조회
@@ -38,13 +44,26 @@ export async function GET(request: Request) {
         return NextResponse.json({ noData: true });
       }
 
-      // 일별 예보 조회
-      url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&start_date=${dateStr}&end_date=${dateStr}`;
-      const res = await fetch(url, { next: { revalidate: 3600 } });
-      if (!res.ok) throw new Error('API 오류');
+      // 모델 선택: 한국 → kma_seamless, 해외 → icon_seamless 시도 후 noData면 gfs_seamless로 폴백
+      const primaryModel = isKorea ? 'kma_seamless' : 'icon_seamless';
+      const fallbackModel = isKorea ? null : 'gfs_seamless';
 
-      const data = await res.json();
-      const daily = data.daily;
+      const fetchDaily = async (model: string) => {
+        const u = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&models=${model}&start_date=${dateStr}&end_date=${dateStr}`;
+        const r = await fetch(u, { next: { revalidate: 3600 } });
+        if (!r.ok) throw new Error('API 오류');
+        return r.json();
+      };
+
+      // 일별 예보 조회
+      let data = await fetchDaily(primaryModel);
+      let daily = data.daily;
+
+      // 해외에서 icon_seamless 데이터 없으면 gfs_seamless로 재시도
+      if (daily?.weathercode?.[0] == null && fallbackModel) {
+        data = await fetchDaily(fallbackModel);
+        daily = data.daily;
+      }
 
       if (daily?.weathercode?.[0] == null) return NextResponse.json({ noData: true });
 
@@ -63,8 +82,9 @@ export async function GET(request: Request) {
       });
 
     } else {
-      // 현재 날씨
-      url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,weathercode,precipitation_probability&timezone=auto`;
+      // 현재 날씨 (항상 단기 모델 사용)
+      const model = isKorea ? 'kma_seamless' : 'icon_seamless';
+      url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,weathercode,precipitation_probability&timezone=auto&models=${model}`;
       const res = await fetch(url, { next: { revalidate: 1800 } }); // 30분 캐시
       if (!res.ok) throw new Error('API 오류');
 
