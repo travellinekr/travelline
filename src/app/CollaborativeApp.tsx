@@ -726,6 +726,35 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [roomId]);
 
+    // ── 여행 중 현재 일차로 자동 스크롤 (최초 1회) ─────────────────────
+    const autoScrolledRef = useRef(false);
+    useEffect(() => {
+        if (autoScrolledRef.current || !flightInfo) return;
+
+        const outboundDate = (flightInfo as any)?.outbound?.date;
+        if (!outboundDate) return;
+
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const departure = new Date(outboundDate);
+        departure.setHours(0, 0, 0, 0);
+
+        const diffDays = Math.round((today.getTime() - departure.getTime()) / (1000 * 60 * 60 * 24));
+        if (diffDays < 0) return; // 아직 출발 전
+
+        const dayNumber = diffDays + 1;
+        const dayId = `day${dayNumber}`;
+
+        autoScrolledRef.current = true;
+
+        // 화면이 다 그려진 후 사이드바 클릭과 동일하게 실행 (double RAF = paint 이후 보장)
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                scrollToDay(dayId);
+            });
+        });
+    }, [flightInfo]); // eslint-disable-line react-hooks/exhaustive-deps
+
     // 모바일 키보드 감지
     useEffect(() => {
         if (typeof window === 'undefined' || !window.visualViewport) return;
@@ -1541,7 +1570,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const scrollToDay = (dayId: string) => {
         setActiveDay(dayId);
         const element = document.getElementById(`${dayId}-section`);
-        if (element) { element.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        const container = timelineScrollRef.current;
+        if (element && container) {
+            const containerTop = container.getBoundingClientRect().top;
+            const elementTop = element.getBoundingClientRect().top;
+            const offset = elementTop - containerTop + container.scrollTop - 16;
+            container.scrollTo({ top: Math.max(0, offset), behavior: 'smooth' });
+        }
     };
 
     const getInboxHeightClass = () => {
