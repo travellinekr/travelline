@@ -1,7 +1,7 @@
 import { Bus, Train, Car } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
-import { TransportationType } from "@/data/transportations";
+import { TransportationType } from "@/data/cities";
 
 const TRANSPORT_ICONS: Record<TransportationType, any> = {
     subway: Train, bus: Bus, tram: Train, taxi: Car,

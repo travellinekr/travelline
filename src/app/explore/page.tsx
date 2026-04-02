@@ -3,8 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X, Plus, Check, Loader2 } from "lucide-react";
 import { DESTINATION_DATA, FALLBACK_IMAGES, type RegionKey, type CityData } from "@/data/destinations";
-import { RESTAURANTS_DATA, type RestaurantData } from "@/data/restaurants";
-import { ACCOMMODATIONS_DATA, type AccommodationData } from "@/data/accommodations";
+import { type RestaurantData, type AccommodationData, CITY_DATA } from "@/data/cities";
 import { supabase } from "@/lib/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/useToast";
@@ -180,8 +179,8 @@ export default function ExplorePage() {
 
     const regionData = activeRegion !== "main" ? DESTINATION_DATA[activeRegion] : null;
     const cityKey = selectedCity?.engName ?? "";
-    const foodList: RestaurantData[] = cityKey ? (RESTAURANTS_DATA[cityKey] || []) : [];
-    const hotelList: AccommodationData[] = cityKey ? (ACCOMMODATIONS_DATA[cityKey] || []) : [];
+    const foodList: RestaurantData[] = cityKey ? (CITY_DATA[cityKey]?.restaurants || []) : [];
+    const hotelList: AccommodationData[] = cityKey ? (CITY_DATA[cityKey]?.accommodations || []) : [];
 
     // 검색 필터링
     const q = searchQuery.toLowerCase();
@@ -330,10 +329,10 @@ export default function ExplorePage() {
     ].filter(Boolean) as CityData[];
 
     const newCards = [
-        { type: "food", item: RESTAURANTS_DATA["Osaka"]?.[0] },
-        { type: "hotel", item: ACCOMMODATIONS_DATA["Tokyo"]?.[0] },
-        { type: "food", item: RESTAURANTS_DATA["Bangkok"]?.[1] },
-        { type: "hotel", item: ACCOMMODATIONS_DATA["Da Nang"]?.[0] },
+        { type: "food", item: CITY_DATA["Osaka"]?.restaurants?.[0] },
+        { type: "hotel", item: CITY_DATA["Tokyo"]?.accommodations?.[0] },
+        { type: "food", item: CITY_DATA["Bangkok"]?.restaurants?.[1] },
+        { type: "hotel", item: CITY_DATA["Da Nang"]?.accommodations?.[0] },
     ].filter(c => c.item) as { type: "food" | "hotel", item: any }[];
 
     const sharedPlans = [

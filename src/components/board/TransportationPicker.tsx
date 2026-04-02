@@ -3,7 +3,7 @@
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Bus, Train, Car, Plus } from 'lucide-react';
-import { TRANSPORTATIONS_DATA, TransportationType } from '@/data/transportations';
+import { TransportationType, CITY_DATA } from '@/data/cities';
 import { TransportCard } from '@/components/cards/TransportCard';
 
 // 교통 타입별 아이콘 매핑
@@ -41,10 +41,10 @@ const TRANSPORT_TYPE_LABELS: Record<TransportationType, string> = {
 // 도시별 교통 수단 목록 필터링 함수
 function getTransportationsByCity(cityName: string) {
     const normalizedCity = cityName.toLowerCase();
-    const cityKey = Object.keys(TRANSPORTATIONS_DATA).find(
+    const cityKey = Object.keys(CITY_DATA).find(
         key => key.toLowerCase() === normalizedCity
     );
-    return cityKey ? TRANSPORTATIONS_DATA[cityKey] : [];
+    return cityKey ? CITY_DATA[cityKey].transport : [];
 }
 
 // 드래그 가능한 교통 카드 컴포넌트

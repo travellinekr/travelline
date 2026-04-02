@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { ShoppingBag, Plus, Trash2 } from 'lucide-react';
-import { ShoppingType, ShoppingData, SHOPPING_DATA } from '@/data/shopping';
+import { ShoppingType, ShoppingData, CITY_DATA } from '@/data/cities';
 import { ShoppingCard } from '@/components/cards/ShoppingCard';
 import { ShoppingAddModal } from './ShoppingAddModal';
 
@@ -50,10 +50,10 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
 // 도시별 쇼핑 목록 필터링 함수 (대소문자 무시)
 function getShoppingByCity(cityName: string) {
     const normalizedCity = cityName.toLowerCase();
-    const cityKey = Object.keys(SHOPPING_DATA).find(
+    const cityKey = Object.keys(CITY_DATA).find(
         key => key.toLowerCase() === normalizedCity
     );
-    return cityKey ? SHOPPING_DATA[cityKey] : [];
+    return cityKey ? CITY_DATA[cityKey].shopping : [];
 }
 
 

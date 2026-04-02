@@ -324,6 +324,155 @@ Next.js `error.tsx` 파일로 room 라우트 에러 바운더리 구현.
 
 ---
 
+## 인박스(Inbox) 구조 및 Picker 컴포넌트
+
+### Inbox.tsx 탭 → Picker 매핑
+
+**1단 탭** (topTabs):
+| 탭 | category | Picker 컴포넌트 | 색상 |
+|---|---|---|---|
+| 여행지 | `destination` | `DestinationPicker` | emerald |
+| 여행준비 | `preparation` | `PreparationPicker` | indigo |
+| 숙소 | `hotel` | `AccommodationPicker` | rose |
+| (여행쇼핑) | — | `/explore` 링크 이동 | orange |
+
+**2단 탭** (bottomTabs):
+| 탭 | category | Picker 컴포넌트 | 색상 |
+|---|---|---|---|
+| 맛집 | `food` | `FoodPicker` | orange |
+| 쇼핑 | `shopping` | `ShoppingPicker` | purple |
+| 교통 | `transport` | `TransportationPicker` | blue |
+| 투어&스파 | `tourspa` | `TourSpaPicker` | cyan |
+| 기타 | `other` | `EtcPicker` | amber |
+
+### Picker 공통 패턴
+
+모든 Picker는 `destinationCity` prop을 받음 (Inbox → `destinationCard?.city`에서 전달):
+- `destinationCity` 없으면 → "먼저 여행지를 선택해주세요" 빈 상태 렌더
+- 있으면 → `src/data` 파일에서 해당 도시 데이터를 **대소문자 무시** 필터링 후 렌더
+
+카드 목록 구성 (순서):
+1. **샘플 카드** (`src/data`에서 조회, `isUserCreated: false` → 삭제 불가)
+2. **유저 생성 카드** (`createdCards` prop, Liveblocks storage에 저장됨)
+3. **직접 추가하기 버튼** → AddModal 열기 / 드래그 중에는 삭제 드롭존으로 전환
+
+```ts
+// Picker props 공통 인터페이스
+{
+    destinationCity?: string;   // destinations.ts의 engName과 일치해야 함
+    onAddCard?: (data) => void; // canEdit=false면 undefined 전달 (뷰어 권한)
+    onDeleteCard?: (id) => void;
+    createdCards?: any[];       // Liveblocks storage에서 category 필터링된 카드
+}
+```
+
+### Picker별 특이사항
+
+**AccommodationPicker** (`accommodations.ts` 사용)
+- `AccommodationAddModal`로 직접 추가 가능
+
+**FoodPicker** (`restaurants.ts` 사용)
+- `FoodAddModal`로 직접 추가 가능
+
+**ShoppingPicker** (`shopping.ts` 사용)
+- `ShoppingAddModal`로 직접 추가 가능
+
+**TourSpaPicker** (`tourSpa.ts` 사용)
+- `TOUR_SPA_SAMPLES` 샘플 데이터 표시 코드 **주석 처리됨** → 샘플 없음, 유저 생성 카드만
+- `TourSpaAddModal`로 직접 추가 가능
+
+**TransportationPicker** (`transportations.ts` 사용)
+- 샘플 데이터만 표시 (직접 추가 버튼 **주석 처리됨**)
+- `onAddCard`, `onDeleteCard`, `createdCards` props 없음 (읽기 전용)
+
+**PreparationPicker**
+- `src/data` 미사용 → 유저 생성 카드만 표시
+- 직접 추가 버튼 **주석 처리됨** → 현재 preparation 카드는 UI에서 직접 추가 불가
+- `canEdit` prop 있음 (뷰어 차단 지원)
+
+**EtcPicker**
+- `src/data` 미사용 → 유저 생성 카드만
+- `EtcAddModal`로 직접 추가 가능
+- EtcCard에 메모 기능 → `CardEditorModal` 연동
+
+---
+
+## 여행쇼핑 (`/explore`)
+
+**진입**: Inbox 1단 탭 우측 주황색 "여행쇼핑" 버튼 → `/explore` 이동 (보드 바깥 별도 페이지)
+
+### explore/page.tsx 구조
+
+**지역 탭**: main(여행쇼핑메인), japan, china_taiwan, se_asia, long_haul (= `DESTINATION_DATA` RegionKey)
+
+**카테고리 탭**: 맛집, 숙소, 쇼핑, 투어&스파, 공유플랜, 여행가이드
+
+**사용 데이터**:
+- `DESTINATION_DATA`, `FALLBACK_IMAGES` — 지역/도시 목록
+- `RESTAURANTS_DATA` — 맛집 카드 (FoodCard 컴포넌트)
+- `ACCOMMODATIONS_DATA` — 숙소 카드 (HotelCard 컴포넌트)
+- Supabase 연동 — 공유플랜 기능
+
+**모바일 UX**: 카드 클릭 → 아코디언 펼쳐지며 구글맵 embed + 상세 정보 표시
+**데스크톱 UX**: 카드 선택 → 우측 상세 패널에 표시
+
+### explore/[city]/page.tsx
+
+- 도시별 상세 페이지 (`/explore/osaka`, `/explore/nha-trang` 등)
+- URL slug: `engName.toLowerCase().replace(/\s+/g, "-")`
+- 현재 카드 목록은 `EmptyState` (미구현 상태)
+- 상단 도시 헤더 이미지 → `FALLBACK_IMAGES[city.engName]` 사용
+
+---
+
+## src/data 정적 데이터 파일
+
+Picker 컴포넌트들에서 사용하는 정적 데이터 모음. 모두 순수 TypeScript 상수 파일 (API 호출 없음).
+
+### 공통 패턴
+- 도시별 데이터는 `Record<string, Data[]>` 구조 (키는 `destinations.ts`의 `engName`과 매칭)
+- 각 파일에 타입 정의 포함 (인터페이스 + 유니온 타입)
+
+### 파일별 요약
+
+| 파일 | export 주요 상수 | 용도 |
+|---|---|---|
+| `colors.ts` | `CURSOR_COLORS` (15색 HEX 배열) | Liveblocks 멀티유저 커서 색상 (`connectionId % length`) |
+| `airlines.ts` | `KOREAN_AIRLINES`, `MAJOR_AIRLINES`, `ALL_AIRLINES` + 헬퍼 함수 | FlightForm 항공사 자동완성. `Airline { name, code, category: FSC\|LCC }` |
+| `airports.ts` | `KOREAN_AIRPORTS`, `MAJOR_AIRPORTS`, `CITY_AIRPORT_GROUPS` | FlightForm 공항 선택. 좌표(lat/lng) 포함. `CITY_AIRPORT_GROUPS`는 도시별 다중 공항 그룹핑 |
+| `destinations.ts` | `DESTINATION_DATA`, `FALLBACK_IMAGES` | DestinationPicker. 4개 지역(`japan`, `china_taiwan`, `se_asia`, `long_haul`), ~19개 도시. Unsplash 실패 시 Wikimedia fallback 이미지 |
+| `accommodations.ts` | `ACCOMMODATIONS_DATA` | AccommodationPicker. 도시별 호텔/리조트 목록. `AccommodationData { name, type, coordinates, checkInTime, checkOutTime, city, ... }` |
+| `restaurants.ts` | `RESTAURANTS_DATA` | FoodPicker. 도시별 맛집. 현재 Osaka/Tokyo 데이터. 미슐랭, 예약 여부, 좌표 포함 |
+| `restaurants_partial.ts` | `RESTAURANTS_DATA` (동일 구조) | restaurants.ts와 동일 타입/구조. 추가 도시 데이터 분리 관리용으로 추정 |
+| `shopping.ts` | `SHOPPING_DATA` | ShoppingPicker. 도시별 쇼핑 장소. `ShoppingData { name, type, taxRefund, ... }` |
+| `transportations.ts` | `TRANSPORTATIONS_DATA` | TransportationPicker. 도시별 교통수단. `TransportationType`: subway/bus/taxi/ride-hailing 등 |
+| `tourSpa.ts` | `TOUR_SPA_SAMPLES` | TourSpaPicker (샘플 데이터만 있음, 본 데이터 미구현). 픽업형(좌표 없음) vs 방문형(좌표 있음) 구분 |
+| `entryCardGuide.ts` | `ENTRY_CARD_DATA` | 여행준비 카드 - 국가별 입국신고서/비자 정보. 외교부 링크 포함. 2025-2026 기준 |
+| `foodCardGuide.ts` | `FOOD_GUIDE: GuideItem[]` (빈 배열) | 맛집 카드 여행 정보 가이드 (준비중) |
+| `hotelCardGuide.ts` | `HOTEL_GUIDE: GuideItem[]` (빈 배열) | 숙소 카드 여행 정보 가이드 (준비중) |
+
+### destinations.ts CityData 구조
+```ts
+interface CityData {
+    name: string;        // 한글명 (예: "오사카")
+    engName: string;     // 영문명 (FALLBACK_IMAGES 키, 타 데이터 Record 키와 매칭)
+    country: string;
+    desc: string;
+    tags: string[];
+    airports: Array<{ name: string; code: string }>;
+    timezone: number;    // UTC 오프셋
+    hemisphere?: 'north' | 'south'; // 남반구면 계절 반대 (발리 등)
+    landmark?: string;   // Unsplash 검색 키워드
+}
+```
+
+### 데이터 추가 시 주의사항
+- 새 도시 추가 시 `destinations.ts` + 관련 Picker 데이터 파일 동시 업데이트 필요
+- `engName` 이 모든 `Record<string, Data[]>` 의 키로 사용됨 → 철자 일관성 유지 필수
+- `tourSpa.ts`, `foodCardGuide.ts`, `hotelCardGuide.ts`는 미완성 상태
+
+---
+
 ## API 키 (.env.local)
 - `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY`
 - `GEMINI_API_KEY`

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Hotel, Plus, Trash2 } from 'lucide-react';
-import { ACCOMMODATIONS_DATA, AccommodationData } from '@/data/accommodations';
+import { AccommodationData, CITY_DATA } from '@/data/cities';
 import { HotelCard } from '@/components/cards/HotelCard';
 import { AccommodationAddModal } from './AccommodationAddModal';
 
@@ -50,10 +50,10 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
 // 도시별 숙소 목록 필터링 함수 (대소문자 무시)
 function getAccommodationsByCity(cityName: string) {
     const normalizedCity = cityName.toLowerCase();
-    const cityKey = Object.keys(ACCOMMODATIONS_DATA).find(
+    const cityKey = Object.keys(CITY_DATA).find(
         key => key.toLowerCase() === normalizedCity
     );
-    return cityKey ? ACCOMMODATIONS_DATA[cityKey] : [];
+    return cityKey ? CITY_DATA[cityKey].accommodations : [];
 }
 
 

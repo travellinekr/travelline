@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Utensils, Plus, Trash2 } from 'lucide-react';
-import { RestaurantType, RestaurantData, RESTAURANTS_DATA } from '@/data/restaurants';
+import { RestaurantType, RestaurantData, CITY_DATA } from '@/data/cities';
 import { FoodCard } from '@/components/cards/FoodCard';
 import { FoodAddModal } from './FoodAddModal';
 
@@ -50,10 +50,10 @@ function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: 
 // 도시별 맛집 목록 필터링 함수 (대소문자 무시)
 function getRestaurantsByCity(cityName: string) {
     const normalizedCity = cityName.toLowerCase();
-    const cityKey = Object.keys(RESTAURANTS_DATA).find(
+    const cityKey = Object.keys(CITY_DATA).find(
         key => key.toLowerCase() === normalizedCity
     );
-    return cityKey ? RESTAURANTS_DATA[cityKey] : [];
+    return cityKey ? CITY_DATA[cityKey].restaurants : [];
 }
 
 
