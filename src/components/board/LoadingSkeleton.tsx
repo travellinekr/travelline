@@ -45,17 +45,27 @@ export function LoadingSkeleton() {
                                 <div className="w-full h-[58px] md:h-[72px] bg-rose-50 border border-rose-100 rounded-xl animate-pulse" />
                             </div>
 
+                            {/* 모바일 로딩 텍스트 - 데스크톱에선 숨김 */}
+                            <div className="md:hidden flex flex-col items-center justify-center gap-3 py-8 shrink-0">
+                                <div className="flex gap-1.5">
+                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:0ms]" />
+                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:150ms]" />
+                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:300ms]" />
+                                </div>
+                                <p className="text-sm text-slate-500 font-medium">여행일정을 불러오고 있습니다.</p>
+                            </div>
+
                             {/* 로딩 텍스트 + 타임라인 카드 스켈레톤 */}
                             <div className="flex-1 overflow-y-auto p-3 md:p-6 space-y-6">
 
-                                {/* 로딩 안내 텍스트 */}
-                                <div className="flex items-center justify-center gap-2 py-2">
+                                {/* 데스크톱 로딩 안내 텍스트 */}
+                                <div className="hidden md:flex items-center justify-center gap-2 py-2">
                                     <div className="flex gap-1">
                                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:0ms]" />
                                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:150ms]" />
                                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:300ms]" />
                                     </div>
-                                    <p className="text-xs text-slate-400 font-medium">여행 보드 불러오는 중...</p>
+                                    <p className="text-xs text-slate-400 font-medium">여행일정을 불러오고 있습니다.</p>
                                 </div>
 
                                 {[0, 1, 2].map((day) => (
