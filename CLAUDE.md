@@ -322,6 +322,20 @@ Next.js `error.tsx` 파일로 room 라우트 에러 바운더리 구현.
 **항공편 섹션 표시 조건**:
 - `Timeline.tsx`: `destHeaderCards.length > 0` 일 때만 FlightSection 렌더
 
+**모바일: 타임라인 카드 → 보관함 드롭 (customCollisionDetection)**:
+- `inbox-closed-header` droppable은 조건부 렌더링(`{inboxState === 'closed' && ...}`) 탓에 dnd-kit에 등록이 안 됨 → **절대 사용하지 말 것**
+- `inbox-dropzone` (Inbox `<aside>`)은 항상 등록됨 → 이걸 사용
+- 구현: pointer Y > `window.innerHeight - 58` 이면 `inbox-dropzone`을 반환하도록 `customCollisionDetection`에서 처리
+```ts
+// CollaborativeApp.tsx - customCollisionDetection 내부
+if (window.innerWidth < 768 && inboxState === 'closed') {
+    if (pointerCoords && pointerCoords.y > window.innerHeight - 58) {
+        const inboxDropzone = args.droppableContainers.find(c => c.id === 'inbox-dropzone');
+        if (inboxDropzone) return [{ id: inboxDropzone.id, data: inboxDropzone.data }];
+    }
+}
+```
+
 ---
 
 ## 인박스(Inbox) 구조 및 Picker 컴포넌트

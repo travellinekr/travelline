@@ -1033,19 +1033,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // 모바일이고 보관함이 닫혀있을 때
+        // 모바일이고 보관함이 닫혀있을 때: pointer가 하단 58px 안에 들어오면 inbox-dropzone으로 처리
         if (typeof window !== 'undefined' && window.innerWidth < 768 && inboxState === 'closed') {
-            if (pointerCoords) {
-                const windowHeight = window.innerHeight;
-                // 하단 80px 영역 (닫힌 보관함)
-                if (pointerCoords.y > windowHeight - 58) {
-                    // droppableContainers에서 inbox-closed-header 찾기
-                    const inboxContainer = args.droppableContainers.find(
-                        (container: any) => container.id === 'inbox-closed-header'
-                    );
-                    if (inboxContainer) {
-                        return [{ id: inboxContainer.id, data: inboxContainer.data }];
-                    }
+            if (pointerCoords && pointerCoords.y > window.innerHeight - 58) {
+                const inboxDropzone = args.droppableContainers.find(
+                    (container: any) => container.id === 'inbox-dropzone'
+                );
+                if (inboxDropzone) {
+                    return [{ id: inboxDropzone.id, data: inboxDropzone.data }];
                 }
             }
         }
