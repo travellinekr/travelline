@@ -8,6 +8,7 @@ export type AccommodationData = {
     city: string;
     description?: string;
     tags?: string[];
+    showInInbox?: boolean;
 };
 
 // 맛집
@@ -28,6 +29,7 @@ export type RestaurantData = {
     openingHours?: string;
     features?: string[];
     icon?: string;
+    showInInbox?: boolean;
 };
 
 // 쇼핑
@@ -47,6 +49,7 @@ export type ShoppingData = {
     taxRefund?: boolean;
     features?: string[];
     icon?: string;
+    showInInbox?: boolean;
 };
 
 // 교통
@@ -66,6 +69,7 @@ export type TransportationData = {
     appName?: string;
     paymentMethods?: string[];
     icon?: string;
+    showInInbox?: boolean;
 };
 
 

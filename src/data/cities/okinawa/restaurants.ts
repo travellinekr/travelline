@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "우미카지 테라스",
+        showInInbox: true,
         type: "fusion",
         city: "Okinawa",
         coordinates: { lat: 26.1946, lng: 127.6464 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "제이크스 스테이크하우스",
+        showInInbox: true,
         type: "western",
         city: "Okinawa",
         coordinates: { lat: 26.3358, lng: 127.8011 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "나하 공설시장",
+        showInInbox: true,
         type: "local",
         city: "Okinawa",
         coordinates: { lat: 26.216, lng: 127.6774 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "C&C 브렉퍼스트",
+        showInInbox: false,
         type: "cafe",
         city: "Okinawa",
         coordinates: { lat: 26.415, lng: 127.7155 },
@@ -47,6 +51,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "나키진 소키소바",
+        showInInbox: false,
         type: "local",
         city: "Okinawa",
         coordinates: { lat: 26.688, lng: 127.929 },

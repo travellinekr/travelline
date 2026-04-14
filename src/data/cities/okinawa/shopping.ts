@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "국제거리",
+        showInInbox: true,
         type: "market",
         city: "Okinawa",
         coordinates: { lat: 26.2139, lng: 127.6792 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "아웃렛몰 아시비나",
+        showInInbox: true,
         type: "outlet",
         city: "Okinawa",
         coordinates: { lat: 26.2019, lng: 127.6474 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "미하마 아메리칸 빌리지",
+        showInInbox: true,
         type: "mall",
         city: "Okinawa",
         coordinates: { lat: 26.3148, lng: 127.7593 },

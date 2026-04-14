@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Tokyo Metro",
+        showInInbox: true,
         type: "subway",
         city: "Tokyo",
         description: "9개 노선, 가장 편리한 이동 수단",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "JR 야마노테선",
+        showInInbox: true,
         type: "subway",
         city: "Tokyo",
         description: "순환선, 주요 역 연결",
@@ -20,6 +22,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "GO Taxi",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Tokyo",
         description: "일본 대표 택시 앱",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber Taxi",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Tokyo",
         description: "택시 연결 서비스",
@@ -40,6 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "DiDi",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Tokyo",
         description: "택시 호출 앱",
@@ -50,6 +55,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (나리타/하네다)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Tokyo",
         description: "Blacklane, Tokyo MK, Private Van",

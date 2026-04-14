@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "담시장",
+        showInInbox: true,
         type: "market",
         city: "Nha Trang",
         coordinates: { lat: 12.2451, lng: 109.1899 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "빈컴 플라자 나트랑",
+        showInInbox: true,
         type: "mall",
         city: "Nha Trang",
         coordinates: { lat: 12.2497, lng: 109.1902 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "나트랑 센터",
+        showInInbox: true,
         type: "mall",
         city: "Nha Trang",
         coordinates: { lat: 12.2388, lng: 109.1967 },

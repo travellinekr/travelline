@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "할레쿨라니 오키나와",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 26.5265784, lng: 127.9231466 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 몬토레 오키나와 스파 앤 리조트",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 26.4537478, lng: 127.8058024 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "더 부세나 테라스",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 26.5404329, lng: 127.9357986 },
         checkInTime: "14:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 닛코 아리비라",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 26.4150328, lng: 127.7155444 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "오리엔탈 호텔 오키나와",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 26.5301784, lng: 127.9339101 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "서던 비치 호텔 앤 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 26.1320273, lng: 127.6529371 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "히요리 오션 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 26.3343533, lng: 127.8056058 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호시노야 오키나와",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 26.4203689, lng: 127.7148038 },
         checkInTime: "15:00",

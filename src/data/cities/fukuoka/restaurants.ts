@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "하카타 잇푸도",
+        showInInbox: true,
         type: "japanese",
         city: "Fukuoka",
         coordinates: { lat: 33.5904, lng: 130.4016 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "모츠나베 야마나카",
+        showInInbox: true,
         type: "local",
         city: "Fukuoka",
         coordinates: { lat: 33.5895, lng: 130.399 },
@@ -26,6 +28,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "야타이 거리",
+        showInInbox: true,
         type: "street-food",
         city: "Fukuoka",
         coordinates: { lat: 33.5892, lng: 130.4021 },
@@ -37,6 +40,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "텐진 호르몬",
+        showInInbox: false,
         type: "japanese",
         city: "Fukuoka",
         coordinates: { lat: 33.59, lng: 130.4005 },
@@ -48,6 +52,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "미조레 우동",
+        showInInbox: false,
         type: "local",
         city: "Fukuoka",
         coordinates: { lat: 33.5885, lng: 130.4033 },

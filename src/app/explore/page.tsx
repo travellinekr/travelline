@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X, Plus, Check, Loader2 } from "lucide-react";
 import { DESTINATION_DATA, FALLBACK_IMAGES, type RegionKey, type CityData } from "@/data/destinations";
-import { type RestaurantData, type AccommodationData, CITY_DATA } from "@/data/cities";
+import { type RestaurantData, type AccommodationData, type ShoppingData, CITY_DATA } from "@/data/cities";
 import { supabase } from "@/lib/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/useToast";
@@ -11,6 +11,7 @@ import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
 import { FoodCard } from "@/components/cards/FoodCard";
 import { HotelCard } from "@/components/cards/HotelCard";
+import { ShoppingCard } from "@/components/cards/ShoppingCard";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey | "main"; label: string; icon: string }[] = [
@@ -134,7 +135,7 @@ function HotelAccordion({ item }: { item: AccommodationData }) {
 
 // ── 카드 큐 타입 ─────────────────────────────────────
 export type ExploreCardQueue = {
-    category: 'food' | 'accommodation';
+    category: 'food' | 'accommodation' | 'shopping';
     name: string;
     city: string;
     icon?: string;
@@ -152,6 +153,10 @@ export type ExploreCardQueue = {
     checkInTime?: string;
     checkOutTime?: string;
     tags?: string[];
+    shoppingType?: string;
+    shoppingCategory?: string;
+    specialItems?: string;
+    taxRefund?: boolean;
 };
 
 // ── 메인 페이지 ───────────────────────────────────────
@@ -165,6 +170,7 @@ export default function ExplorePage() {
     const [activeCategory, setActiveCategory] = useState("food");
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
+    const [selectedShoppingIdx, setSelectedShoppingIdx] = useState<number | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
     const [showInfoModal, setShowInfoModal] = useState(false);
 
@@ -181,6 +187,7 @@ export default function ExplorePage() {
     const cityKey = selectedCity?.engName ?? "";
     const foodList: RestaurantData[] = cityKey ? (CITY_DATA[cityKey]?.restaurants || []) : [];
     const hotelList: AccommodationData[] = cityKey ? (CITY_DATA[cityKey]?.accommodations || []) : [];
+    const shoppingList: ShoppingData[] = cityKey ? (CITY_DATA[cityKey]?.shopping || []) : [];
 
     // 검색 필터링
     const q = searchQuery.toLowerCase();
@@ -200,8 +207,17 @@ export default function ExplorePage() {
         )
         : hotelList;
 
+    const filteredShoppingList = q
+        ? shoppingList.filter((s) =>
+            s.name.toLowerCase().includes(q) ||
+            (s.category || "").toLowerCase().includes(q) ||
+            (s.specialItems || "").toLowerCase().includes(q)
+        )
+        : shoppingList;
+
     const selectedFood = selectedFoodIdx !== null ? filteredFoodList[selectedFoodIdx] : null;
     const selectedHotel = selectedHotelIdx !== null ? filteredHotelList[selectedHotelIdx] : null;
+    const selectedShopping = selectedShoppingIdx !== null ? filteredShoppingList[selectedShoppingIdx] : null;
 
     // 플로팅 메뉴 외부 클릭 시 닫기
     useEffect(() => {
@@ -298,6 +314,7 @@ export default function ExplorePage() {
         setActiveCategory("food");
         setSelectedFoodIdx(null);
         setSelectedHotelIdx(null);
+        setSelectedShoppingIdx(null);
         setSearchQuery("");
         setCheckedCards(new Map());
         setActiveProjects([]);
@@ -309,6 +326,7 @@ export default function ExplorePage() {
         setActiveCategory(cat);
         setSelectedFoodIdx(null);
         setSelectedHotelIdx(null);
+        setSelectedShoppingIdx(null);
         setSearchQuery("");
     };
 
@@ -316,6 +334,7 @@ export default function ExplorePage() {
         setSearchQuery(val);
         setSelectedFoodIdx(null);
         setSelectedHotelIdx(null);
+        setSelectedShoppingIdx(null);
     };
 
     // --- 여행쇼핑 메인 모의 데이터 (TODO: 향후 백엔드 API 연동) ---
@@ -619,7 +638,7 @@ export default function ExplorePage() {
                                             type="text"
                                             value={searchQuery}
                                             onChange={(e) => handleSearchChange(e.target.value)}
-                                            placeholder={activeCategory === "food" ? "맛집 검색..." : activeCategory === "hotel" ? "숙소 검색..." : "검색..."}
+                                            placeholder={activeCategory === "food" ? "맛집 검색..." : activeCategory === "hotel" ? "숙소 검색..." : activeCategory === "shopping" ? "쇼핑 검색..." : "검색..."}
                                             className="w-full pl-9 pr-8 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-orange-300 focus:bg-white transition-colors"
                                         />
                                         {searchQuery && (
@@ -631,7 +650,7 @@ export default function ExplorePage() {
                                     </div>
 
                                     {/* + 내 여행계획 추가 버튼 + 플로팅 메뉴 */}
-                                    {(activeCategory === "food" || activeCategory === "hotel") && (
+                                    {(activeCategory === "food" || activeCategory === "hotel" || activeCategory === "shopping") && (
                                         <div className="relative shrink-0" ref={menuRef}>
                                             <button
                                                 onClick={handleOpenProjectMenu}
@@ -775,7 +794,51 @@ export default function ExplorePage() {
                                         })
                                         : <EmptyState category="hotel" />
                                 )}
-                                {!["food", "hotel"].includes(activeCategory) && <EmptyState category={activeCategory} />}
+                                {activeCategory === "shopping" && (
+                                    filteredShoppingList.length > 0
+                                        ? filteredShoppingList.map((item, idx) => {
+                                            const cardKey = `shopping-${item.name}-${item.city}`;
+                                            const isChecked = checkedCards.has(cardKey);
+                                            const shoppingCardData = {
+                                                id: cardKey,
+                                                category: 'shopping',
+                                                text: item.name,
+                                                icon: item.icon,
+                                                shoppingType: item.type,
+                                                shoppingCategory: item.category,
+                                                specialItems: item.specialItems,
+                                                priceRange: item.priceRange,
+                                                taxRefund: item.taxRefund,
+                                            };
+                                            return (
+                                                <div key={idx} className="relative">
+                                                    <ShoppingCard
+                                                        card={shoppingCardData}
+                                                        variant="explore"
+                                                        isSelected={selectedShoppingIdx === idx}
+                                                        isChecked={isChecked}
+                                                        onClick={() => setSelectedShoppingIdx(idx === selectedShoppingIdx ? null : idx)}
+                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
+                                                            category: 'shopping',
+                                                            name: item.name,
+                                                            city: item.city,
+                                                            icon: item.icon,
+                                                            coordinates: item.coordinates,
+                                                            priceRange: item.priceRange,
+                                                            openingHours: item.openingHours,
+                                                            features: item.features,
+                                                            shoppingType: item.type,
+                                                            shoppingCategory: item.category,
+                                                            specialItems: item.specialItems,
+                                                            taxRefund: item.taxRefund,
+                                                        }, e)}
+                                                    />
+                                                </div>
+                                            );
+                                        })
+                                        : <EmptyState category="shopping" />
+                                )}
+                                {!["food", "hotel", "shopping"].includes(activeCategory) && <EmptyState category={activeCategory} />}
                             </div>
                         </div>{/* 좌측 패널 끝 */}
 
@@ -794,6 +857,11 @@ export default function ExplorePage() {
                                         <iframe
                                             src={`https://maps.google.com/maps?q=${encodeURIComponent(selectedHotel.name + ' ' + selectedHotel.city)}&z=16&output=embed&hl=ko`}
                                             className="w-full h-full border-0" loading="lazy" allowFullScreen title={selectedHotel.name}
+                                        />
+                                    ) : (activeCategory === "shopping" && selectedShopping) ? (
+                                        <iframe
+                                            src={`https://maps.google.com/maps?q=${encodeURIComponent(selectedShopping.name + ' ' + selectedShopping.city)}&z=16&output=embed&hl=ko`}
+                                            className="w-full h-full border-0" loading="lazy" allowFullScreen title={selectedShopping.name}
                                         />
                                     ) : (
                                         <div className="w-full h-full bg-slate-50 flex flex-col items-center justify-center gap-2 text-slate-300">
@@ -867,6 +935,31 @@ export default function ExplorePage() {
                                             {selectedHotel.tags && (
                                                 <div className="flex flex-wrap gap-1">
                                                     {selectedHotel.tags.map((t) => <span key={t} className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{t}</span>)}
+                                                </div>
+                                            )}
+                                        </div>
+                                    ) : activeCategory === "shopping" && selectedShopping ? (
+                                        <div className="space-y-3">
+                                            <div className="flex items-start gap-2">
+                                                <span className="text-xl mt-0.5">{selectedShopping.icon || "🛍️"}</span>
+                                                <div className="flex-1 min-w-0">
+                                                    <p className="font-black text-slate-800 text-sm">{selectedShopping.name}</p>
+                                                    <p className="text-[11px] text-slate-400">{selectedShopping.city}</p>
+                                                </div>
+                                            </div>
+                                            {selectedShopping.category && (
+                                                <div className="p-2.5 bg-purple-50 rounded-lg">
+                                                    <p className="text-[10px] font-bold text-purple-700 mb-1">카테고리</p>
+                                                    <p className="text-xs text-slate-700">{selectedShopping.category}</p>
+                                                </div>
+                                            )}
+                                            {selectedShopping.specialItems && <div className="flex items-center gap-1.5 text-xs text-slate-600"><ShoppingBag className="w-3.5 h-3.5 text-purple-500" /> {selectedShopping.specialItems}</div>}
+                                            {selectedShopping.priceRange && <div className="flex items-center gap-1.5 text-xs text-slate-600"><DollarSign className="w-3.5 h-3.5 text-green-500" /> {selectedShopping.priceRange}</div>}
+                                            {selectedShopping.openingHours && <div className="flex items-center gap-1.5 text-xs text-slate-600"><Clock className="w-3.5 h-3.5 text-blue-500" /> {selectedShopping.openingHours}</div>}
+                                            {selectedShopping.taxRefund && <p className="text-[11px] text-purple-600 font-semibold">✅ 세금 환급 가능</p>}
+                                            {selectedShopping.features && (
+                                                <div className="flex flex-wrap gap-1">
+                                                    {selectedShopping.features.map((f) => <span key={f} className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">{f}</span>)}
                                                 </div>
                                             )}
                                         </div>

@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "알마 리조트",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 12.2941855, lng: 109.229089 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "그란 멜리아 나트랑",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 12.076636, lng: 109.192766 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "아미아나 리조트 나트랑",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 12.295209, lng: 109.2338719 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "아미아나 리조트 깜란",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 12.1050356, lng: 109.1912295 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "빈펄 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 12.220935, lng: 109.2473572 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "하바나 나트랑 호텔",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 12.2433961, lng: 109.195842 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "퓨전 리조트 깜 라인",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 12.0500142, lng: 109.2040205 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "식스센스 닌반 베이",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 12.3589397, lng: 109.2776855 },
         checkInTime: "15:00",

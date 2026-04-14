@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Grab",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Bali",
         description: "그랩카, 그랩바이크",
@@ -13,6 +14,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "GoJek",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Bali",
         description: "고카, 고라이드",
@@ -22,6 +24,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Bluebird Taxi",
+        showInInbox: true,
         type: "taxi",
         city: "Bali",
         description: "가장 신뢰받는 택시",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "스쿠터 렌탈",
+        showInInbox: false,
         type: "rental-car",
         city: "Bali",
         description: "가장 인기있는 이동 수단",
@@ -38,6 +42,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (덴파사르)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Bali",
         description: "응우라라이 공항 픽업/센딩",

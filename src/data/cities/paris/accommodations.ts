@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "르 브리스톨 파리",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 48.8732, lng: 2.3117 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 리츠 파리",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 48.8682, lng: 2.3298 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "그랜드 호텔 뒤 팔레 루아얄",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 48.8648, lng: 2.3370 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 파리 생 빅토르",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 48.8502, lng: 2.3510 },
         checkInTime: "14:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "시티즌M 파리 오페라",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 48.8720, lng: 2.3430 },
         checkInTime: "14:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 줄리안 파리",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 48.8660, lng: 2.3550 },
         checkInTime: "14:00",

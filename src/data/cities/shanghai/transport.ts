@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Shanghai Metro",
+        showInInbox: true,
         type: "subway",
         city: "Shanghai",
         description: "19개 노선, 세계 최대 규모",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "시내버스",
+        showInInbox: true,
         type: "bus",
         city: "Shanghai",
         description: "2,000개 노선",
@@ -21,6 +23,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "DiDi",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Shanghai",
         description: "중국 대표 라이드셰어",
@@ -31,6 +34,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Maglev",
+        showInInbox: false,
         type: "subway",
         city: "Shanghai",
         description: "자기부상열차, 공항 연결",
@@ -40,6 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (푸둥)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Shanghai",
         description: "푸둥 공항 픽업/센딩",

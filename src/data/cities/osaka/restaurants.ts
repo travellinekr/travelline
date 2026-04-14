@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "이치란 라멘 도톤보리",
+        showInInbox: true,
         type: "japanese",
         city: "Osaka",
         coordinates: { lat: 34.6686, lng: 135.5014 },
@@ -15,6 +16,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "키지 오코노미야키",
+        showInInbox: true,
         type: "local",
         city: "Osaka",
         coordinates: { lat: 34.6954, lng: 135.497 },
@@ -28,6 +30,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "쿠쿠루 타코야키",
+        showInInbox: true,
         type: "street-food",
         city: "Osaka",
         coordinates: { lat: 34.6692, lng: 135.5012 },
@@ -40,6 +43,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "하루코마 스시",
+        showInInbox: false,
         type: "japanese",
         city: "Osaka",
         coordinates: { lat: 34.6943, lng: 135.4998 },
@@ -52,6 +56,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "쿠로몬 시장",
+        showInInbox: false,
         type: "local",
         city: "Osaka",
         coordinates: { lat: 34.6662, lng: 135.5061 },
@@ -64,6 +69,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "쇼우벤탕고 카페",
+        showInInbox: false,
         type: "cafe",
         city: "Osaka",
         coordinates: { lat: 34.6951, lng: 135.4995 },
@@ -77,6 +83,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "미미우 쿠시카츠",
+        showInInbox: false,
         type: "local",
         city: "Osaka",
         coordinates: { lat: 34.6697, lng: 135.5064 },
@@ -90,6 +97,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "마츠사카규 야키니쿠 M",
+        showInInbox: false,
         type: "japanese",
         city: "Osaka",
         coordinates: { lat: 34.7013, lng: 135.494 },
@@ -104,6 +112,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "쿠시카츠 다루마",
+        showInInbox: false,
         type: "local",
         city: "Osaka",
         coordinates: { lat: 34.6668, lng: 135.5031 },

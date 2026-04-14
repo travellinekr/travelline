@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "난징루",
+        showInInbox: true,
         type: "market",
         city: "Shanghai",
         coordinates: { lat: 31.2353, lng: 121.4786 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "신천지",
+        showInInbox: true,
         type: "boutique",
         city: "Shanghai",
         coordinates: { lat: 31.2194, lng: 121.4778 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "티엔즈팡",
+        showInInbox: true,
         type: "market",
         city: "Shanghai",
         coordinates: { lat: 31.2089, lng: 121.4632 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "난징루 제1백화점",
+        showInInbox: false,
         type: "department-store",
         city: "Shanghai",
         coordinates: { lat: 31.2354, lng: 121.4839 },

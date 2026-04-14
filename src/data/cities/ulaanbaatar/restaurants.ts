@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "모던 노마즈",
+        showInInbox: true,
         type: "local",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9070, lng: 106.9177 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "몽골리안 바비큐",
+        showInInbox: true,
         type: "local",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9080, lng: 106.9150 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "버드나무 카페",
+        showInInbox: true,
         type: "cafe",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9065, lng: 106.9170 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "칸 브루어리",
+        showInInbox: false,
         type: "western",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9090, lng: 106.9200 },

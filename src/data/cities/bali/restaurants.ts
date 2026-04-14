@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "로카보어",
+        showInInbox: true,
         type: "western",
         city: "Bali",
         coordinates: { lat: -8.5069, lng: 115.2625 },
@@ -15,6 +16,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "워룽 마데",
+        showInInbox: true,
         type: "local",
         city: "Bali",
         coordinates: { lat: -8.65, lng: 115.2167 },
@@ -26,6 +28,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "메라키 셰프",
+        showInInbox: true,
         type: "italian",
         city: "Bali",
         coordinates: { lat: -8.5101, lng: 115.2631 },
@@ -37,6 +40,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "씨 서커스",
+        showInInbox: false,
         type: "fusion",
         city: "Bali",
         coordinates: { lat: -8.6815, lng: 115.1344 },
@@ -48,6 +52,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "나시 아얌 끄둘",
+        showInInbox: false,
         type: "street-food",
         city: "Bali",
         coordinates: { lat: -8.7185, lng: 115.1713 },

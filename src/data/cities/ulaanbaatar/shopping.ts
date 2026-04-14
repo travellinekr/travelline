@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "나란툴 마켓",
+        showInInbox: true,
         type: "market",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.8990, lng: 106.9350 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "몽골 캐시미어 부티크",
+        showInInbox: true,
         type: "specialty",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9075, lng: 106.9180 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "수흐바타르 광장 기념품",
+        showInInbox: true,
         type: "specialty",
         city: "Ulaanbaatar",
         coordinates: { lat: 47.9087, lng: 106.9177 },

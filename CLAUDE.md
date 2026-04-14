@@ -176,6 +176,43 @@ if (day0Col) {
 
 ---
 
+## 지난 일차 카드 잠금 로직
+
+**구현 위치**: `CollaborativeApp.tsx` > `handleDragEnd` STEP 2.5
+
+여행 중 이미 지난 일차에 대해 카드 이동/삭제/추가를 차단하고 토스트로 안내.
+
+### 판단 함수
+
+```ts
+const isPastDayColumn = (columnId: string): boolean => {
+    const match = /^day([1-9]\d*)$/.exec(columnId);
+    if (!match) return false;
+    const dayNum = parseInt(match[1]);
+    if (!flightInfo?.outbound?.date) return false;
+    const dayDate = new Date(flightInfo.outbound.date);
+    dayDate.setDate(dayDate.getDate() + (dayNum - 1));
+    dayDate.setHours(0, 0, 0, 0);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return dayDate < today;
+};
+```
+
+### 차단 케이스
+
+| 상황 | 조건 | 토스트 메시지 |
+|---|---|---|
+| 지난 일차 카드 이동/삭제 | `isPastDayColumn(sourceColumnId) && targetColumnId !== sourceColumnId` | "지난 일정의 카드는 이동하거나 삭제할 수 없어요." |
+| 지난 일차로 카드 추가 | `isPastDayColumn(targetColumnId) && targetColumnId !== sourceColumnId` | "지난 일정에는 카드를 추가할 수 없어요." |
+
+**핵심**: `canEdit=false`로 드래그 자체를 막으면 토스트를 띄울 수 없음 → `handleDragEnd`에서 drop 시점에 차단하는 방식 채택
+- 드래그는 가능 (카드 집어들기), 드롭 시 차단 + 토스트 + 원위치 복귀
+- `day0` (0일차 준비)는 `/^day[1-9]\d*$/` 패턴에 해당 없음 → 영향 없음
+- `flightInfo` 없으면 (여행 미등록) → `isPastDayColumn` 항상 false → 제한 없음
+
+---
+
 ## 날씨 API 모델 선택 로직 (`/api/weather/route.ts`)
 
 Open-Meteo 모델을 좌표 + 데이터 유무에 따라 선택:

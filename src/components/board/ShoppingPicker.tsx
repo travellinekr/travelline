@@ -144,8 +144,8 @@ export function ShoppingPicker({
         );
     }
 
-    // 샘플 데이터 필터링
-    const sampleShopping = destinationCity ? getShoppingByCity(destinationCity) : [];
+    const allShopping = destinationCity ? getShoppingByCity(destinationCity) : [];
+    const sampleShopping = allShopping.filter(s => s.showInInbox);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">

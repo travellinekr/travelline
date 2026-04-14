@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "DanaBus",
+        showInInbox: true,
         type: "bus",
         city: "Da Nang",
         description: "시내버스, DanaBus 앱",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Da Nang",
         description: "그랩카, 그랩바이크",
@@ -22,6 +24,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Xanh SM Taxi",
+        showInInbox: true,
         type: "taxi",
         city: "Da Nang",
         description: "전기 택시",
@@ -32,6 +35,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (다낭)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Da Nang",
         description: "다낭 공항 픽업/센딩",

@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "VinBus",
+        showInInbox: true,
         type: "bus",
         city: "Nha Trang",
         description: "전기버스",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Nha Trang",
         description: "그랩카, 그랩바이크",
@@ -21,6 +23,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Xanh SM Taxi",
+        showInInbox: true,
         type: "taxi",
         city: "Nha Trang",
         description: "전기 택시",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "관광버스",
+        showInInbox: false,
         type: "shuttle",
         city: "Nha Trang",
         description: "Hop-on Hop-off",
@@ -38,6 +42,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (캄란)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Nha Trang",
         description: "캄란 공항 픽업/센딩",

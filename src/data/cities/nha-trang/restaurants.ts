@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "랜턴스 레스토랑",
+        showInInbox: true,
         type: "local",
         city: "Nha Trang",
         coordinates: { lat: 12.2388, lng: 109.1967 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "옌스 레스토랑",
+        showInInbox: true,
         type: "local",
         city: "Nha Trang",
         coordinates: { lat: 12.245, lng: 109.1943 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "세일링 클럽",
+        showInInbox: true,
         type: "western",
         city: "Nha Trang",
         coordinates: { lat: 12.2487, lng: 109.1926 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "락 깐",
+        showInInbox: false,
         type: "local",
         city: "Nha Trang",
         coordinates: { lat: 12.2415, lng: 109.1976 },
@@ -47,6 +51,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "관응온",
+        showInInbox: false,
         type: "street-food",
         city: "Nha Trang",
         coordinates: { lat: 12.2456, lng: 109.195 },

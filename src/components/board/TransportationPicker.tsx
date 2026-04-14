@@ -110,7 +110,7 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
     }
 
     // 해당 도시의 교통 수단 목록 가져오기
-    const transportations = getTransportationsByCity(destinationCity);
+    const transportations = getTransportationsByCity(destinationCity).filter(t => t.showInInbox);
 
     if (transportations.length === 0) {
         return (

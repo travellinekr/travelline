@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "레촌 벨리",
+        showInInbox: true,
         type: "local",
         city: "Cebu",
         coordinates: { lat: 10.3156, lng: 123.8854 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "라파스 라파스",
+        showInInbox: true,
         type: "local",
         city: "Cebu",
         coordinates: { lat: 10.2935, lng: 123.9022 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "하우스 오브 레촌",
+        showInInbox: true,
         type: "local",
         city: "Cebu",
         coordinates: { lat: 10.3113, lng: 123.8925 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "지코스 레촌",
+        showInInbox: false,
         type: "local",
         city: "Cebu",
         coordinates: { lat: 10.3081, lng: 123.8948 },
@@ -47,6 +51,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "수툴릴 시장",
+        showInInbox: false,
         type: "street-food",
         city: "Cebu",
         coordinates: { lat: 10.3074, lng: 123.8926 },

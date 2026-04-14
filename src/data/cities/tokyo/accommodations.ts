@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "파크 하얏트 도쿄",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 35.6861125, lng: 139.6904007 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "아만 도쿄",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 35.6854775, lng: 139.7656705 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "불가리 호텔 도쿄",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 35.6788388, lng: 139.7683266 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "미츠이 가든 호텔 우에노",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.7118567, lng: 139.7781079 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "신주쿠 워싱턴 호텔",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.6869153, lng: 139.6932758 },
         checkInTime: "14:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "아사쿠사 뷰 호텔",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.715464, lng: 139.7918707 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 더 셀레스틴 도쿄 시바",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.650874, lng: 139.748867 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "솔라리아 니시테츠 호텔 긴자",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.6707725, lng: 139.7672454 },
         checkInTime: "15:00",
@@ -83,6 +91,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "온센 료칸 유엔 신주쿠",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.69291279999999, lng: 139.709008 },
         checkInTime: "15:00",
@@ -93,6 +102,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "시부야 엑셀 호텔 도큐",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 35.6585773, lng: 139.6998213 },
         checkInTime: "14:00",

@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "난징 소롱보",
+        showInInbox: true,
         type: "chinese",
         city: "Shanghai",
         coordinates: { lat: 31.2363, lng: 121.4806 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "양스 덤플링",
+        showInInbox: true,
         type: "chinese",
         city: "Shanghai",
         coordinates: { lat: 31.2259, lng: 121.475 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "M 온 더 번드",
+        showInInbox: true,
         type: "western",
         city: "Shanghai",
         coordinates: { lat: 31.2401, lng: 121.49 },
@@ -37,6 +40,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "푸춘 샤오롱",
+        showInInbox: false,
         type: "chinese",
         city: "Shanghai",
         coordinates: { lat: 31.2314, lng: 121.4753 },
@@ -48,6 +52,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "난징동루 먹자거리",
+        showInInbox: false,
         type: "street-food",
         city: "Shanghai",
         coordinates: { lat: 31.2357, lng: 121.4821 },

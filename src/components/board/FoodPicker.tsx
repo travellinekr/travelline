@@ -145,8 +145,8 @@ export function FoodPicker({
         );
     }
 
-    // 샘플 데이터 필터링
-    const sampleRestaurants = destinationCity ? getRestaurantsByCity(destinationCity) : [];
+    const allRestaurants = destinationCity ? getRestaurantsByCity(destinationCity) : [];
+    const sampleRestaurants = allRestaurants.filter(r => r.showInInbox);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">

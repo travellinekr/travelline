@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "짜뚜짝 주말시장",
+        showInInbox: true,
         type: "market",
         city: "Bangkok",
         coordinates: { lat: 13.7999, lng: 100.5496 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "시암 파라곤",
+        showInInbox: true,
         type: "mall",
         city: "Bangkok",
         coordinates: { lat: 13.7465, lng: 100.5348 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "터미널21",
+        showInInbox: true,
         type: "mall",
         city: "Bangkok",
         coordinates: { lat: 13.7378, lng: 100.5601 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "플래티넘 패션 몰",
+        showInInbox: false,
         type: "mall",
         city: "Bangkok",
         coordinates: { lat: 13.7515, lng: 100.5400 },

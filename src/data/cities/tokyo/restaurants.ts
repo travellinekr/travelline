@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "스키야바시 지로",
+        showInInbox: true,
         type: "japanese",
         city: "Tokyo",
         coordinates: { lat: 35.6654, lng: 135.7632 },
@@ -17,6 +18,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "이치란 시부야",
+        showInInbox: true,
         type: "japanese",
         city: "Tokyo",
         coordinates: { lat: 35.6595, lng: 139.7004 },
@@ -29,6 +31,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "츠키지 장외시장",
+        showInInbox: true,
         type: "local",
         city: "Tokyo",
         coordinates: { lat: 35.6654, lng: 139.7707 },
@@ -41,6 +44,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "나리사와",
+        showInInbox: false,
         type: "fusion",
         city: "Tokyo",
         coordinates: { lat: 35.6655, lng: 139.7235 },
@@ -55,6 +59,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "아후리 라멘",
+        showInInbox: false,
         type: "japanese",
         city: "Tokyo",
         coordinates: { lat: 35.647, lng: 139.7095 },
@@ -67,6 +72,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "긴자 코쥬",
+        showInInbox: false,
         type: "japanese",
         city: "Tokyo",
         coordinates: { lat: 35.6731, lng: 139.764 },
@@ -81,6 +87,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "빌즈 오모테산도",
+        showInInbox: false,
         type: "cafe",
         city: "Tokyo",
         coordinates: { lat: 35.6653, lng: 139.7125 },
@@ -93,6 +100,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "규카츠 모토무라",
+        showInInbox: false,
         type: "japanese",
         city: "Tokyo",
         coordinates: { lat: 35.6897, lng: 139.6922 },

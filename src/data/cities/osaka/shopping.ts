@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "한큐 우메다 본점",
+        showInInbox: true,
         type: "department-store",
         city: "Osaka",
         coordinates: { lat: 34.7024, lng: 135.4959 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "도톤보리 쇼핑 거리",
+        showInInbox: true,
         type: "market",
         city: "Osaka",
         coordinates: { lat: 34.6686, lng: 135.5010 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "구로몬 시장",
+        showInInbox: true,
         type: "market",
         city: "Osaka",
         coordinates: { lat: 34.6660, lng: 135.5065 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "난바 파크스",
+        showInInbox: false,
         type: "mall",
         city: "Osaka",
         coordinates: { lat: 34.6610, lng: 135.5020 },
@@ -55,6 +59,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "돈키호테 도톤보리점",
+        showInInbox: false,
         type: "specialty",
         city: "Osaka",
         coordinates: { lat: 34.6688, lng: 135.5015 },

@@ -684,7 +684,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 try {
                     handleCreateCard({
                         title: card.name,
-                        category: card.category === 'food' ? 'food' : 'hotel',
+                        category: card.category === 'food' ? 'food' : card.category === 'shopping' ? 'shopping' : 'hotel',
                         type: 'place',
                         city: card.city || '',
                         icon: card.icon || '',
@@ -702,6 +702,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         checkInTime: card.checkInTime || '',
                         checkOutTime: card.checkOutTime || '',
                         tags: card.tags || [],
+                        shoppingType: card.shoppingType || '',
+                        shoppingCategory: card.shoppingCategory || '',
+                        specialItems: card.specialItems || '',
+                        taxRefund: card.taxRefund || false,
                     });
                     existingKeys.add(dupKey); // 방금 추가한 카드도 키에 등록
                     addedCount++;
@@ -1217,6 +1221,36 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // sourceColumnId를 찾지 못하면 (유효하지 않은 드래그) 중단
         // 단, picker/sample 카드는 예외 (Picker에서 오는 카드는 sourceColumnId가 없음)
         if (!sourceColumnId && !String(activeId).startsWith('picker-') && !String(activeId).startsWith('sample-')) {
+            setActiveDragItem(null);
+            return;
+        }
+
+        // =========================================
+        // STEP 2.5: 지난 일차 제한
+        // =========================================
+        const isPastDayColumn = (columnId: string): boolean => {
+            const match = /^day([1-9]\d*)$/.exec(columnId);
+            if (!match) return false;
+            const dayNum = parseInt(match[1]);
+            if (!flightInfo?.outbound?.date) return false;
+            const dayDate = new Date(flightInfo.outbound.date);
+            dayDate.setDate(dayDate.getDate() + (dayNum - 1));
+            dayDate.setHours(0, 0, 0, 0);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            return dayDate < today;
+        };
+
+        // 지난 일차 카드를 다른 컬럼으로 이동/삭제 시도
+        if (sourceColumnId && isPastDayColumn(sourceColumnId) && targetColumnId !== sourceColumnId) {
+            addToast('지난 일정의 카드는 이동하거나 삭제할 수 없어요.', 'warning');
+            setActiveDragItem(null);
+            return;
+        }
+
+        // 지난 일차로 카드 추가 시도
+        if (isPastDayColumn(targetColumnId) && targetColumnId !== sourceColumnId) {
+            addToast('지난 일정에는 카드를 추가할 수 없어요.', 'warning');
             setActiveDragItem(null);
             return;
         }

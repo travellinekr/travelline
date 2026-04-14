@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "SM 시티 세부",
+        showInInbox: true,
         type: "mall",
         city: "Cebu",
         coordinates: { lat: 10.3114, lng: 123.9183 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "아얄라 센터 세부",
+        showInInbox: true,
         type: "mall",
         city: "Cebu",
         coordinates: { lat: 10.3180, lng: 123.9059 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "카본 마켓",
+        showInInbox: true,
         type: "market",
         city: "Cebu",
         coordinates: { lat: 10.2934, lng: 123.9013 },

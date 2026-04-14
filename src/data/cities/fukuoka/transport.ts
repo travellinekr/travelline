@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Fukuoka City Subway",
+        showInInbox: true,
         type: "subway",
         city: "Fukuoka",
         description: "공항선 포함 3개 노선",
@@ -11,6 +12,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Nishitetsu Bus",
+        showInInbox: true,
         type: "bus",
         city: "Fukuoka",
         description: "시내 전역 커버",
@@ -19,6 +21,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber Taxi",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Fukuoka",
         description: "택시 연결",
@@ -28,6 +31,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "DiDi",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Fukuoka",
         description: "일본식 라이드셰어",
@@ -37,6 +41,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (후쿠오카)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Fukuoka",
         description: "후쿠오카 공항 픽업/센딩",

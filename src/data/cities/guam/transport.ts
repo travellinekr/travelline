@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "렌터카",
+        showInInbox: true,
         type: "rental-car",
         city: "Guam",
         description: "공항 렌터카, 국제면허 필요",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "괌 트롤리",
+        showInInbox: true,
         type: "bus",
         city: "Guam",
         description: "투몬 - 주요 쇼핑몰 순환",
@@ -21,6 +23,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
+        showInInbox: true,
         type: "taxi",
         city: "Guam",
         description: "미터 택시",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "우버",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Guam",
         description: "우버 앱 사용 가능",
@@ -40,6 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 셔틀",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Guam",
         description: "호텔 픽업 셔틀",

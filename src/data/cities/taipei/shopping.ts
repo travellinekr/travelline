@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "시먼딩",
+        showInInbox: true,
         type: "market",
         city: "Taipei",
         coordinates: { lat: 25.0444, lng: 121.5067 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "타이베이 101 쇼핑몰",
+        showInInbox: true,
         type: "mall",
         city: "Taipei",
         coordinates: { lat: 25.0340, lng: 121.5645 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "랴오허 야시장",
+        showInInbox: true,
         type: "market",
         city: "Taipei",
         coordinates: { lat: 25.0536, lng: 121.5165 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "화시가 관광야시장",
+        showInInbox: false,
         type: "market",
         city: "Taipei",
         coordinates: { lat: 25.0454, lng: 121.5005 },

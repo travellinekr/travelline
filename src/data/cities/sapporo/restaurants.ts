@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "스프 카레 가루다",
+        showInInbox: true,
         type: "local",
         city: "Sapporo",
         coordinates: { lat: 43.0621, lng: 141.3545 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "스시젠 본점",
+        showInInbox: true,
         type: "japanese",
         city: "Sapporo",
         coordinates: { lat: 43.065, lng: 141.353 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "라멘 요코초",
+        showInInbox: true,
         type: "street-food",
         city: "Sapporo",
         coordinates: { lat: 43.0546, lng: 141.3505 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "징기스칸 다루마",
+        showInInbox: false,
         type: "local",
         city: "Sapporo",
         coordinates: { lat: 43.0557, lng: 141.3492 },
@@ -47,6 +51,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "니조 시장",
+        showInInbox: false,
         type: "local",
         city: "Sapporo",
         coordinates: { lat: 43.0668, lng: 141.3551 },

@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "딘타이펑",
+        showInInbox: true,
         type: "chinese",
         city: "Taipei",
         coordinates: { lat: 25.0418, lng: 121.543 },
@@ -16,6 +17,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "스린 야시장",
+        showInInbox: true,
         type: "street-food",
         city: "Taipei",
         coordinates: { lat: 25.0875, lng: 121.5242 },
@@ -27,6 +29,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "아종 면선",
+        showInInbox: true,
         type: "local",
         city: "Taipei",
         coordinates: { lat: 25.0441, lng: 121.5133 },
@@ -38,6 +41,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "영캉지에 망고빙수",
+        showInInbox: false,
         type: "cafe",
         city: "Taipei",
         coordinates: { lat: 25.0331, lng: 121.5286 },
@@ -49,6 +53,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "진펑 육포",
+        showInInbox: false,
         type: "local",
         city: "Taipei",
         coordinates: { lat: 25.0458, lng: 121.515 },

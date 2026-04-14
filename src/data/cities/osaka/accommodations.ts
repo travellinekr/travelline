@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "센타라 그랜드 호텔 오사카",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 34.660291, lng: 135.5022983 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "스위소텔 난카이 오사카",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 34.6641574, lng: 135.5011441 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 한큐 리스파이어 오사카",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 34.7047014, lng: 135.4961473 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "더 파크 프론트 호텔 앳 유니버설 스튜디오 재팬",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6678977, lng: 135.4372576 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 뉴 오타니 오사카",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6908166, lng: 135.5335447 },
         checkInTime: "14:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "포시즌스 호텔 오사카",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6961363, lng: 135.4935424 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "칸데오 호텔 오사카 더 타워",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6954318, lng: 135.5005214 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "카락사 호텔 오사카 난바",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6705808, lng: 135.4989305 },
         checkInTime: "15:00",
@@ -83,6 +91,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 유니버설 포트",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.6663662, lng: 135.4380851 },
         checkInTime: "15:00",
@@ -93,6 +102,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 발리 타워 오사카 텐노지",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 34.647204, lng: 135.511924 },
         checkInTime: "15:00",

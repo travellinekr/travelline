@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "달랏 야시장",
+        showInInbox: true,
         type: "market",
         city: "Da Lat",
         coordinates: { lat: 11.9396, lng: 108.4327 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "호아 빈 광장",
+        showInInbox: true,
         type: "market",
         city: "Da Lat",
         coordinates: { lat: 11.9400, lng: 108.4335 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "달랏 실크 마켓",
+        showInInbox: true,
         type: "specialty",
         city: "Da Lat",
         coordinates: { lat: 11.9410, lng: 108.4350 },

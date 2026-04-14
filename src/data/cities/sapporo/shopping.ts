@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "스스키노 상점가",
+        showInInbox: true,
         type: "market",
         city: "Sapporo",
         coordinates: { lat: 43.0532, lng: 141.3553 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "삿포로 공장",
+        showInInbox: true,
         type: "mall",
         city: "Sapporo",
         coordinates: { lat: 43.0707, lng: 141.3677 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "탄키리샤",
+        showInInbox: true,
         type: "specialty",
         city: "Sapporo",
         coordinates: { lat: 43.0642, lng: 141.3545 },

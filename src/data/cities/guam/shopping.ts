@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "마이크로네시아 몰",
+        showInInbox: true,
         type: "mall",
         city: "Guam",
         coordinates: { lat: 13.4720, lng: 144.7680 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "GPO (괌 프리미어 아울렛)",
+        showInInbox: true,
         type: "outlet",
         city: "Guam",
         coordinates: { lat: 13.4690, lng: 144.7660 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "투몬 샌즈 플라자",
+        showInInbox: true,
         type: "mall",
         city: "Guam",
         coordinates: { lat: 13.5190, lng: 144.8010 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "DFS T 갤러리아",
+        showInInbox: false,
         type: "duty-free",
         city: "Guam",
         coordinates: { lat: 13.5175, lng: 144.7988 },

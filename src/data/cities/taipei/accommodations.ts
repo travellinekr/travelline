@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "그랜드 하얏트 타이베이",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 25.0351708, lng: 121.5628669 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "리젠트 타이베이 호텔",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 25.054158, lng: 121.524288 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "코스모스 호텔 타이베이",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 25.0463786, lng: 121.5182543 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "소테츠 그랜드 프레사 타이베이",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 25.0329636, lng: 121.5654268 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 로얄 닛코 타이베이",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 25.053857, lng: 121.52291 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "유나이티드 호텔",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 25.0329636, lng: 121.5654268 },
         checkInTime: "15:00",

@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "러시아 풍정 거리",
+        showInInbox: true,
         type: "market",
         city: "Dalian",
         coordinates: { lat: 38.9140, lng: 121.6380 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "승리광장",
+        showInInbox: true,
         type: "mall",
         city: "Dalian",
         coordinates: { lat: 38.9188, lng: 121.6296 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "시안루",
+        showInInbox: true,
         type: "market",
         city: "Dalian",
         coordinates: { lat: 38.9147, lng: 121.6311 },

@@ -3,6 +3,7 @@ import type { ShoppingData } from '../index';
 const shopping: ShoppingData[] = [
     {
         name: "팔마 구시가지 쇼핑",
+        showInInbox: true,
         type: "specialty",
         city: "Mallorca",
         coordinates: { lat: 39.5696, lng: 2.6502 },
@@ -16,6 +17,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "라 레이나 마켓",
+        showInInbox: true,
         type: "market",
         city: "Mallorca",
         coordinates: { lat: 39.5705, lng: 2.6515 },
@@ -29,6 +31,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "살레나스 소금 기념품",
+        showInInbox: true,
         type: "specialty",
         city: "Mallorca",
         coordinates: { lat: 39.3400, lng: 3.0500 },
@@ -42,6 +45,7 @@ const shopping: ShoppingData[] = [
     },
     {
         name: "아베니다 하이메 III",
+        showInInbox: false,
         type: "specialty",
         city: "Mallorca",
         coordinates: { lat: 39.5720, lng: 2.6470 },

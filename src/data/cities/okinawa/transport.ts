@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Yui Rail",
+        showInInbox: true,
         type: "tram",
         city: "Okinawa",
         description: "나하 공항-Tedako-Uranishi",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "시내버스",
+        showInInbox: true,
         type: "bus",
         city: "Okinawa",
         description: "4개 주요 버스회사",
@@ -20,6 +22,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "렌터카",
+        showInInbox: true,
         type: "rental-car",
         city: "Okinawa",
         description: "섬 탐험 필수",
@@ -28,6 +31,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
+        showInInbox: false,
         type: "taxi",
         city: "Okinawa",
         description: "일반 택시, Uber",
@@ -36,6 +40,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (나하)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Okinawa",
         description: "나하 공항 픽업/센딩",

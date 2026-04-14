@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "두짓 비치 리조트 괌",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 13.5144, lng: 144.7960 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "하얏트 리젠시 괌",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 13.5178, lng: 144.7996 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "힐튼 괌 리조트 앤 스파",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 13.5210, lng: 144.8021 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "웨스틴 리조트 괌",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 13.5165, lng: 144.7980 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "온워드 비치 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 13.5130, lng: 144.7950 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "괌 플라자 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 13.5200, lng: 144.8010 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "로열 오차드 괌",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.5190, lng: 144.8000 },
         checkInTime: "15:00",

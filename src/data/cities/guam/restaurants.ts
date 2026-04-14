@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "피시아이 마린 파크",
+        showInInbox: true,
         type: "western",
         city: "Guam",
         coordinates: { lat: 13.4385, lng: 144.7980 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "자레타오 파밀리아",
+        showInInbox: true,
         type: "local",
         city: "Guam",
         coordinates: { lat: 13.5140, lng: 144.7960 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "투몬 베이 카페",
+        showInInbox: true,
         type: "western",
         city: "Guam",
         coordinates: { lat: 13.5170, lng: 144.7990 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "아웃백 스테이크하우스",
+        showInInbox: false,
         type: "western",
         city: "Guam",
         coordinates: { lat: 13.5200, lng: 144.8020 },

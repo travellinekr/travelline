@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "Osaka Metro",
+        showInInbox: true,
         type: "subway",
         city: "Osaka",
         description: "8개 노선, 깨끗하고 편리",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Osaka Metro Bus",
+        showInInbox: true,
         type: "bus",
         city: "Osaka",
         description: "시내 전역 커버",
@@ -20,6 +22,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber Taxi",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Osaka",
         description: "택시 연결 서비스",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "LUUP",
+        showInInbox: false,
         type: "micromobility",
         city: "Osaka",
         description: "전동 킥보드/자전거",
@@ -40,6 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (KIX)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Osaka",
         description: "간사이 공항 픽업/센딩",

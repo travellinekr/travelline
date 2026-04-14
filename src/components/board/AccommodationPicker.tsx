@@ -131,8 +131,8 @@ export function AccommodationPicker({
         setIsAddModalOpen(false);
     };
 
-    // 🔍 디버깅: 샘플 데이터 로딩 확인
-    const sampleAccommodations = destinationCity ? getAccommodationsByCity(destinationCity) : [];
+    const allAccommodations = destinationCity ? getAccommodationsByCity(destinationCity) : [];
+    const sampleAccommodations = allAccommodations.filter(a => a.showInInbox);
 
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {

@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "센사이 호텔 님만",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 18.795158, lng: 98.968226 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "아난타라 치앙마이",
+        showInInbox: true,
         type: "resort",
         coordinates: { lat: 18.7815954, lng: 99.003714 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "부리라타나 호텔",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 18.7879397, lng: 98.9887655 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "멜리아 치앙마이",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 18.7852997, lng: 99.0027877 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "라야 헤리티지",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 18.8486074, lng: 98.98525769999999 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "크로스 치앙마이 리버사이드",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 18.7661385, lng: 99.0048216 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "포시즌스 리조트",
+        showInInbox: false,
         type: "resort",
         coordinates: { lat: 18.7883439, lng: 98.98530079999999 },
         checkInTime: "15:00",

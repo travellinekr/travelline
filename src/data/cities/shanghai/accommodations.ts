@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "콘래드 상하이",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 31.230416, lng: 121.473701 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "시클루시브 호텔",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 31.230416, lng: 121.473701 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "더 페닌슐라 상하이",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 31.230416, lng: 121.473701 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "파크 하얏트 상하이",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 31.234732, lng: 121.50764 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "페어몬트 피스 호텔",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 31.2390388, lng: 121.4895427 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "푸시 인터컨티넨탈",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 31.230416, lng: 121.473701 },
         checkInTime: "15:00",

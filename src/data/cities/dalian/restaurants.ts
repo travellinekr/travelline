@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "텐텐 위위안",
+        showInInbox: true,
         type: "chinese",
         city: "Dalian",
         coordinates: { lat: 38.9135, lng: 121.6147 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "러시아 풍경거리",
+        showInInbox: true,
         type: "western",
         city: "Dalian",
         coordinates: { lat: 38.9189, lng: 121.6445 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "톈진제 간식거리",
+        showInInbox: true,
         type: "street-food",
         city: "Dalian",
         coordinates: { lat: 38.9151, lng: 121.6221 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "달리안 만두",
+        showInInbox: false,
         type: "chinese",
         city: "Dalian",
         coordinates: { lat: 38.9168, lng: 121.6185 },

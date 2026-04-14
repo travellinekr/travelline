@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "메트로 (지하철)",
+        showInInbox: true,
         type: "subway",
         city: "Paris",
         description: "파리 지하철 1~14호선",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "RER",
+        showInInbox: true,
         type: "tram",
         city: "Paris",
         description: "광역 급행 철도, 공항 연결",
@@ -21,6 +23,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "버스",
+        showInInbox: true,
         type: "bus",
         city: "Paris",
         description: "시내 버스, 나이트버스",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
+        showInInbox: false,
         type: "taxi",
         city: "Paris",
         description: "파리 시내 택시",
@@ -39,6 +43,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Paris",
         description: "우버 프랑스",
@@ -49,6 +54,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Vélib' (공유 자전거)",
+        showInInbox: false,
         type: "micromobility",
         city: "Paris",
         description: "파리 시내 공유 자전거",
@@ -58,6 +64,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업 (CDG/ORY)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Paris",
         description: "샤를 드골 / 오를리 공항",

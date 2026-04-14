@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "JR 타워 호텔 닛코 삿포로",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 43.0684388, lng: 141.3523648 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "인터컨티넨탈 삿포로",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 43.0617713, lng: 141.3544506 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "호텔 소세이 삿포로 엠갤러리",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 43.0650191, lng: 141.3606067 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "그랑벨 호텔 삿포로",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 43.0550034, lng: 141.3565401 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "포르자 호텔 삿포로",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 43.065455, lng: 141.3526763 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "도미인 프리미엄 삿포로",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 43.057061, lng: 141.34884 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "크로스 호텔 삿포로",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 43.06404, lng: 141.3532757 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "베셀 호텔 캄파나 스스키노",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 43.0542308, lng: 141.3492526 },
         checkInTime: "15:00",

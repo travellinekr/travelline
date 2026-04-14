@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "지프니",
+        showInInbox: true,
         type: "traditional",
         city: "Cebu",
         description: "필리핀 전통 교통수단",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Cebu",
         description: "그랩카, 그랩택시",
@@ -22,6 +24,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Angkas",
+        showInInbox: true,
         type: "ride-hailing",
         city: "Cebu",
         description: "오토바이 택시",
@@ -32,6 +35,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
+        showInInbox: false,
         type: "taxi",
         city: "Cebu",
         description: "White/Yellow Taxi",
@@ -41,6 +45,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (막탄)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Cebu",
         description: "막탄 공항 픽업/센딩",

@@ -3,6 +3,7 @@ import type { AccommodationData } from '../index';
 const accommodations: AccommodationData[] = [
     {
         name: "파크 하얏트 방콕",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 13.743764, lng: 100.54729 },
         checkInTime: "15:00",
@@ -13,6 +14,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "페닌슐라 방콕",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 13.7231212, lng: 100.5108006 },
         checkInTime: "15:00",
@@ -23,6 +25,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "시암 켐핀스키",
+        showInInbox: true,
         type: "hotel",
         coordinates: { lat: 13.7484011, lng: 100.5348436 },
         checkInTime: "15:00",
@@ -33,6 +36,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "하얏트 플레이스 수쿰윗",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.7563309, lng: 100.5017651 },
         checkInTime: "15:00",
@@ -43,6 +47,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "목시 방콕 라차프라송",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.7563309, lng: 100.5017651 },
         checkInTime: "15:00",
@@ -53,6 +58,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "그랜드 센터 포인트 룸피니",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.7245888, lng: 100.5475271 },
         checkInTime: "15:00",
@@ -63,6 +69,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "머큐어 방콕 수라웡",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.7273198, lng: 100.522248 },
         checkInTime: "15:00",
@@ -73,6 +80,7 @@ const accommodations: AccommodationData[] = [
     },
     {
         name: "인터컨티넨탈 수쿰윗 59",
+        showInInbox: false,
         type: "hotel",
         coordinates: { lat: 13.7563309, lng: 100.5017651 },
         checkInTime: "15:00",

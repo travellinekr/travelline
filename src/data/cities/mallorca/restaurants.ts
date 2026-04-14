@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "까 나 마르크",
+        showInInbox: true,
         type: "local",
         city: "Mallorca",
         coordinates: { lat: 39.5696, lng: 2.6502 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "팔마 올드 마켓 타파스",
+        showInInbox: true,
         type: "local",
         city: "Mallorca",
         coordinates: { lat: 39.5690, lng: 2.6510 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "포르트 드 소예르 씨푸드",
+        showInInbox: true,
         type: "local",
         city: "Mallorca",
         coordinates: { lat: 39.7940, lng: 2.6960 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "히믈로 테라스 카페",
+        showInInbox: false,
         type: "cafe",
         city: "Mallorca",
         coordinates: { lat: 39.5700, lng: 2.6490 },

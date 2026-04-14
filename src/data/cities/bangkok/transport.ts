@@ -3,6 +3,7 @@ import type { TransportationData } from '../index';
 const transport: TransportationData[] = [
     {
         name: "BTS Skytrain",
+        showInInbox: true,
         type: "subway",
         city: "Bangkok",
         description: "스카이트레인, Sukhumvit/Silom Line",
@@ -12,6 +13,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "MRT",
+        showInInbox: true,
         type: "subway",
         city: "Bangkok",
         description: "지하철, Blue/Purple Line 등",
@@ -21,6 +23,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "BMTA Bus",
+        showInInbox: true,
         type: "bus",
         city: "Bangkok",
         description: "100개 이상 노선",
@@ -30,6 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Bangkok",
         description: "그랩카, 그랩바이크",
@@ -40,6 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Bolt",
+        showInInbox: false,
         type: "ride-hailing",
         city: "Bangkok",
         description: "라이드셰어",
@@ -49,6 +54,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (수완나품)",
+        showInInbox: false,
         type: "airport-transfer",
         city: "Bangkok",
         description: "수완나품/돈므앙 공항 픽업/센딩",

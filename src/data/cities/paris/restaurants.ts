@@ -3,6 +3,7 @@ import type { RestaurantData } from '../index';
 const restaurants: RestaurantData[] = [
     {
         name: "르 쥘 베른",
+        showInInbox: true,
         type: "french",
         city: "Paris",
         coordinates: { lat: 48.8579, lng: 2.2942 },
@@ -14,6 +15,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "레 두 마고",
+        showInInbox: true,
         type: "cafe",
         city: "Paris",
         coordinates: { lat: 48.8541, lng: 2.3332 },
@@ -25,6 +27,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "라뒤레 샹제리제",
+        showInInbox: true,
         type: "cafe",
         city: "Paris",
         coordinates: { lat: 48.8715, lng: 2.3085 },
@@ -36,6 +39,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "오베르주 니콜라 플라멜",
+        showInInbox: false,
         type: "french",
         city: "Paris",
         coordinates: { lat: 48.8604, lng: 2.3518 },
@@ -47,6 +51,7 @@ const restaurants: RestaurantData[] = [
     },
     {
         name: "르 팔라스 디네",
+        showInInbox: false,
         type: "western",
         city: "Paris",
         coordinates: { lat: 48.8720, lng: 2.3380 },
