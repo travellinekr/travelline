@@ -14,8 +14,25 @@ import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
 
-import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable } from "@dnd-kit/core";
+import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable, type Modifier } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import { getEventCoordinates } from "@dnd-kit/utilities";
+
+// DragOverlay가 항상 포인터 중심에 붙도록 강제 (모바일 인박스 슬라이드로 인한 포지션 틀어짐 방지)
+const snapCenterToCursor: Modifier = ({ activatorEvent, draggingNodeRect, transform }) => {
+    if (draggingNodeRect && activatorEvent) {
+        const activatorCoordinates = getEventCoordinates(activatorEvent);
+        if (!activatorCoordinates) return transform;
+        const offsetX = activatorCoordinates.x - draggingNodeRect.left;
+        const offsetY = activatorCoordinates.y - draggingNodeRect.top;
+        return {
+            ...transform,
+            x: transform.x + offsetX - draggingNodeRect.width / 2,
+            y: transform.y + offsetY - draggingNodeRect.height / 2,
+        };
+    }
+    return transform;
+};
 
 import { supabase } from "@/lib/supabaseClient";
 
@@ -1000,7 +1017,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
         // 드래그 시작 시 원본 카드 폭 캡처 (DragOverlay 크기 동기화용)
         const initialWidth = event.active.rect.current?.initial?.width;
-        if (initialWidth) setDragOverlayWidth(initialWidth);
+        if (initialWidth) {
+            setDragOverlayWidth(initialWidth);
+        } else if (typeof window !== 'undefined') {
+            // 모바일 TouchSensor에서 rect 측정 실패 시 폴백: 뷰포트 기반 기본값
+            setDragOverlayWidth(window.innerWidth < 768 ? window.innerWidth - 32 : 448);
+        }
 
         // 📱 모바일: 드래그 시작 시 인박스 자동 숨김 → 타임라인 풀스크린
         if (typeof window !== 'undefined' && window.innerWidth < 768) {
@@ -1812,9 +1834,41 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             </div>
                         </main>
 
-                        <DragOverlay dropAnimation={null} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
+                        <DragOverlay dropAnimation={null} modifiers={[snapCenterToCursor]} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
                             {activeDragItem ? (
-                                String(activeDragItem.id).startsWith('picker-hotel-') ? (
+                                (String(activeDragItem.id).startsWith('picker-') && !String(activeDragItem.id).startsWith('picker-hotel-') && !String(activeDragItem.id).startsWith('picker-transport-') && !String(activeDragItem.id).startsWith('picker-food-') && !String(activeDragItem.id).startsWith('picker-shopping-') && !String(activeDragItem.id).startsWith('picker-tourspa-')) || (activeDragSourceColumn === 'destination-header' && activeDragItem?.category === 'destination') ? (
+                                    // Destination 카드 (picker 또는 최종여행지에서 드래그): 인박스 스타일 고정 (소스 폭 유지)
+                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl w-full bg-white">
+                                        <div className="bg-white flex items-center gap-0 relative h-[72px] w-full overflow-hidden">
+                                            <div className="w-20 h-full relative flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50">
+                                                {activeDragItem.imageUrl ? (
+                                                    <img
+                                                        src={activeDragItem.imageUrl}
+                                                        alt={activeDragItem.text}
+                                                        className="w-full h-full object-cover"
+                                                    />
+                                                ) : (
+                                                    <div className="w-full h-full bg-slate-100 flex items-center justify-center">
+                                                        <MapPin className="w-6 h-6 text-emerald-500 opacity-50" />
+                                                    </div>
+                                                )}
+                                                <div className="absolute top-1 right-1 bg-emerald-500 text-white text-[9px] font-bold px-1 py-0.5 rounded shadow-sm z-10">
+                                                    추천
+                                                </div>
+                                            </div>
+                                            <div className="flex-1 min-w-0 flex flex-col justify-center h-full px-3 py-1">
+                                                <div className="flex justify-between items-center mb-0.5">
+                                                    <span className="font-bold text-slate-800 text-sm leading-none truncate pr-2">
+                                                        {activeDragItem.text || activeDragItem.title}
+                                                    </span>
+                                                    <span className="text-[9px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded shrink-0">
+                                                        여행지
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ) : String(activeDragItem.id).startsWith('picker-hotel-') ? (
                                     // Hotel Picker 카드: HotelCard 스타일
                                     <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <HotelCard
@@ -1841,42 +1895,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     // TourSpa Picker 카드: TourSpaCard 스타일
                                     <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
                                         <TourSpaCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-') ? (
-                                    // Destination Picker 도시 카드: 타임라인 compact 스타일 (72px 가로 배치)
-                                    <div className="bg-white hover:bg-slate-50 border border-gray-100 flex items-center gap-0 relative h-[72px] min-w-[320px] transition-all overflow-hidden w-full rounded-lg shadow-xl">
-                                        {/* Left: Image (Fixed 80px width) */}
-                                        <div className="w-20 h-full relative flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50">
-                                            {activeDragItem.imageUrl ? (
-                                                <img
-                                                    src={activeDragItem.imageUrl}
-                                                    alt={activeDragItem.text}
-                                                    className="w-full h-full object-cover"
-                                                />
-                                            ) : (
-                                                <div className="w-full h-full bg-slate-100 flex items-center justify-center">
-                                                    <MapPin className="w-6 h-6 text-emerald-500 opacity-50" />
-                                                </div>
-                                            )}
-                                            <div className="absolute top-1 right-1 bg-emerald-500 text-white text-[9px] font-bold px-1 py-0.5 rounded shadow-sm z-10">
-                                                추천
-                                            </div>
-                                        </div>
-
-                                        {/* Right: Content */}
-                                        <div className="flex-1 min-w-0 flex flex-col justify-center h-full px-3 py-1">
-                                            <div className="flex justify-between items-center mb-0.5">
-                                                <span className="font-bold text-slate-800 text-sm leading-none truncate pr-2">
-                                                    {activeDragItem.text}
-                                                </span>
-                                                <span className="text-[9px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded shrink-0">
-                                                    여행지
-                                                </span>
-                                            </div>
-                                            <p className="text-[10px] text-slate-500 line-clamp-1 leading-tight">
-                                                {activeDragItem.description}
-                                            </p>
-                                        </div>
                                     </div>
                                 ) : (
                                     // 일반 카드: 출발 컬럼 기반 variant로 고스트 렌더링

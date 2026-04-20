@@ -43,3 +43,7 @@ next-env.d.ts
 # docs (워크스루 등 로컬 문서)
 /doc/
 package-lock.json
+
+# claude agent 로컬 생성 파일
+/.agent/
+/.claude/
