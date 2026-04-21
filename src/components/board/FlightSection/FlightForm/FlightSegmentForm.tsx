@@ -68,7 +68,7 @@ export function FlightSegmentForm({
             </div>
 
             {/* 1️⃣ 출발 공항 | 터미널 */}
-            <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
                 {/* 출발 공항 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">출발 공항</label>
@@ -150,7 +150,7 @@ export function FlightSegmentForm({
             </div>
 
             {/* 2️⃣ 출발일자 | 출발시간 */}
-            <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
                 {/* 출발 일자 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">출발 일자</label>
@@ -196,7 +196,7 @@ export function FlightSegmentForm({
             )}
 
             {/* 3️⃣ 도착 공항 | 터미널 */}
-            <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
                 {/* 도착 공항 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">도착 공항</label>
@@ -339,7 +339,7 @@ export function FlightSegmentForm({
             </div>
 
             {/* 4️⃣ 도착일자 | 도착시간 */}
-            <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
                 {/* 도착 일자 */}
                 <div>
                     <label className="block text-xs text-slate-500 mb-1">도착 일자</label>
