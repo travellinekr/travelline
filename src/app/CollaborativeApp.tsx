@@ -6,7 +6,7 @@ import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorLis
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
-import { Link as LinkIcon, Mouse, ChevronUp, ChevronDown, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
+import { Link as LinkIcon, Mouse, ChevronDown, ChevronLeft, ChevronRight, Package, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
@@ -53,7 +53,31 @@ import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
-type InboxStateType = 'closed' | 'half' | 'full';
+type InboxStateType = 'closed' | 'open';
+
+// 📱 모바일 우측 드래그 삭제 드롭존
+function RightDeleteZone({ isActive }: { isActive: boolean }) {
+    const { setNodeRef } = useDroppable({ id: 'right-delete-zone' });
+    return (
+        <div
+            ref={setNodeRef}
+            className={`md:hidden fixed right-0 top-0 bottom-0 w-[20%] z-40 flex items-center justify-center pointer-events-none transition-colors duration-150 ${
+                isActive
+                    ? 'bg-red-500/50 border-l-4 border-red-500'
+                    : 'bg-red-500/20'
+            }`}
+        >
+            <span
+                style={{ writingMode: 'vertical-rl' }}
+                className={`font-bold tracking-widest ${
+                    isActive ? 'text-white text-base' : 'text-red-600/70 text-sm'
+                }`}
+            >
+                드롭하면 삭제 됩니다
+            </span>
+        </div>
+    );
+}
 
 // 공유 모달 컴포넌트
 function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: string; roomId: string; onClose: () => void; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
@@ -540,6 +564,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const [inboxState, setInboxState] = useState<InboxStateType>('closed');
     const prevInboxStateRef = useRef<InboxStateType>('closed');
+    const [isDeleteZoneActive, setIsDeleteZoneActive] = useState(false);
     const timelineScrollRef = useRef<HTMLDivElement>(null);
     const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
     const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
@@ -550,10 +575,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Liveblocks cards 최신값 참조 (stale closure 방지)
     const cardsRef = useRef<ReadonlyMap<string, any> | null>(null);
     useEffect(() => { cardsRef.current = cards as ReadonlyMap<string, any> | null; }, [cards]);
-
-    const { setNodeRef: setInboxClosedHeaderRef } = useDroppable({
-        id: 'inbox-closed-header',
-    });
 
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
 
@@ -969,8 +990,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             const relativeY = touch.clientY - rect.top;
 
             const isMobile = windowWidth < 768;
-            const inboxTopThreshold = inboxState === 'half' ? windowHeight * 0.5 : (inboxState === 'full' ? 0 : windowHeight);
-            const isOverMobileInbox = isMobile && inboxState !== 'closed' && touch.clientY > inboxTopThreshold;
+            const inboxTopThreshold = inboxState === 'open' ? 0 : windowHeight;
+            const isOverMobileInbox = isMobile && inboxState === 'open' && touch.clientY > inboxTopThreshold;
 
             if (isOverMobileInbox) {
                 const normalizedX = touch.clientX / windowWidth;
@@ -1059,14 +1080,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // 모바일이고 보관함이 닫혀있을 때: pointer가 하단 58px 안에 들어오면 inbox-dropzone으로 처리
-        if (typeof window !== 'undefined' && window.innerWidth < 768 && inboxState === 'closed') {
-            if (pointerCoords && pointerCoords.y > window.innerHeight - 58) {
-                const inboxDropzone = args.droppableContainers.find(
-                    (container: any) => container.id === 'inbox-dropzone'
+        // 📱 모바일: 드래그 중 카드 우측 끝이 화면 폭의 80%를 넘으면 right-delete-zone으로 처리
+        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+            const cardRect = args.collisionRect ?? args.active?.rect?.current?.translated;
+            if (cardRect && cardRect.right > window.innerWidth * 0.8) {
+                const deleteZone = args.droppableContainers.find(
+                    (container: any) => container.id === 'right-delete-zone'
                 );
-                if (inboxDropzone) {
-                    return [{ id: inboxDropzone.id, data: inboxDropzone.data }];
+                if (deleteZone) {
+                    return [{ id: deleteZone.id, data: deleteZone.data }];
                 }
             }
         }
@@ -1078,9 +1100,17 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         return closestCenter(args);
     };
 
-    // 📱 모바일 드래그 중 하단 영역 감지 → 타임라인 자동 스크롤
+    // 📱 모바일 드래그 중 하단 영역 감지 → 타임라인 자동 스크롤 + 우측 삭제존 활성화 추적
     const handleDragMove = (event: any) => {
         if (typeof window === 'undefined' || window.innerWidth >= 768) return;
+
+        // 우측 삭제존 시각 강조 활성화: 드래그 카드 우측 끝이 화면폭 80% 초과
+        const cardRect = event.active?.rect?.current?.translated;
+        if (cardRect) {
+            const active = cardRect.right > window.innerWidth * 0.8;
+            setIsDeleteZoneActive(prev => (prev === active ? prev : active));
+        }
+
         if (!timelineScrollRef.current) return;
 
         const pointerY = event.activatorEvent?.clientY
@@ -1125,6 +1155,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             autoScrollRef.current = null;
         }
 
+        // 우측 삭제존 시각 강조 리셋
+        setIsDeleteZoneActive(false);
+
         if (!over || !columns) return;
 
         const activeId = active.id;
@@ -1134,13 +1167,29 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         let targetColumnId = null;
         let targetIndex = undefined;
 
+        if (overId === 'right-delete-zone') {
+            // 📱 모바일 우측 삭제존: 타임라인 카드 완전 삭제 (인박스 카드 제외)
+            let foundColumnId: string | null = null;
+            if (columns) {
+                for (const col of (columns as any).values()) {
+                    const list = col.cardIds;
+                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
+                    if (cardIdsArray.includes(activeId)) {
+                        foundColumnId = col.id;
+                        break;
+                    }
+                }
+            }
+            if (foundColumnId && foundColumnId !== 'inbox') {
+                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+            }
+            return;
+        }
+
         if (overId === 'destination-candidates-timeline') {
             targetColumnId = 'destination-candidates';
         } else if (overId === 'destination-header') {
             targetColumnId = 'destination-header';
-        } else if (overId === 'inbox-closed-header') {
-            // 닫힌 보관함 헤더에 드롭하면 보관함으로 이동
-            targetColumnId = 'inbox';
         } else if (String(overId).includes('timeline')) {
             targetColumnId = String(overId).replace('-timeline', '');
         } else if (overId === 'inbox-dropzone') {
@@ -1630,21 +1679,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     };
 
-    const getInboxHeightClass = () => {
-        switch (inboxState) {
-            case 'closed': return 'h-[58px]';
-            case 'half': return 'h-[50vh]';
-            case 'full': return 'h-[100dvh] top-0 rounded-none';
-            default: return 'h-[58px]';
-        }
+    const getInboxSlideClass = () => {
+        return inboxState === 'closed' ? 'translate-x-full' : 'translate-x-0';
     };
 
-    const handleInboxResize = (direction: 'up' | 'down') => {
-        if (direction === 'up') {
-            setInboxState('full');
-        } else {
-            setInboxState('closed');
-        }
+    const toggleInbox = () => {
+        setInboxState(prev => prev === 'closed' ? 'open' : 'closed');
     };
 
     // Confirm handlers for destination change
@@ -1749,7 +1789,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                             <div className="flex-1 flex flex-col md:flex-row h-full overflow-hidden relative">
 
-                                <section className={`w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger ${inboxState === 'closed' ? 'pb-[58px] md:pb-0' : 'md:pb-0'}`}>
+                                <section className="w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger">
 
                                     {/* 🎯 Fixed Destination Header - No Scroll */}
                                     <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
@@ -1762,62 +1802,38 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </div>
                                 </section>
 
+                                {/* 📱 모바일 우측 드래그 삭제 드롭존 (타임라인 카드 드래그 중에만) */}
+                                {activeDragItem && activeDragSourceColumn && activeDragSourceColumn !== 'inbox' && (
+                                    <RightDeleteZone isActive={isDeleteZoneActive} />
+                                )}
+
+                                {/* 모바일 우측 토글 버튼 (드래그 중이 아닐 때 항상 표시 — 양방향 개폐) */}
+                                {!activeDragItem && (
+                                    <button
+                                        onClick={toggleInbox}
+                                        aria-label={inboxState === 'closed' ? '보관함 열기' : '보관함 닫기'}
+                                        className="md:hidden fixed right-0 top-[62%] -translate-y-1/2 z-[60] w-8 h-20 rounded-l-lg bg-emerald-500 text-white shadow-lg flex flex-col items-center justify-center gap-1 active:bg-emerald-600 transition-colors"
+                                    >
+                                        {inboxState === 'closed' ? (
+                                            <>
+                                                <ChevronLeft className="w-4 h-4" />
+                                                <Package className="w-4 h-4" />
+                                            </>
+                                        ) : (
+                                            <ChevronRight className="w-5 h-5" />
+                                        )}
+                                    </button>
+                                )}
+
                                 <div
                                     className={`
-                            fixed bottom-0 left-0 right-0 z-50 h-[100dvh] bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.15)] rounded-t-3xl flex flex-col
+                            fixed top-0 right-0 bottom-0 z-50 w-full h-[100dvh] bg-white shadow-[-4px_0_20px_rgba(0,0,0,0.15)] flex flex-col
                             ${activeDragItem ? '' : 'transition-transform duration-500 [transition-timing-function:cubic-bezier(0.32,0.72,0,1)]'}
-                            ${inboxState === 'closed' ? 'translate-y-[calc(100%-58px)]' : 'translate-y-0'}
-                            md:static md:z-auto md:shadow-none md:rounded-none md:w-1/2 md:h-full md:bg-gray-50 md:translate-y-0 scrollbar-trigger
+                            ${getInboxSlideClass()}
+                            md:static md:z-auto md:shadow-none md:w-1/2 md:h-full md:bg-gray-50 md:translate-x-0 scrollbar-trigger
                             ${isKeyboardVisible ? 'hidden md:flex' : ''}
                         `}
                                 >
-                                    <div
-                                        className="md:hidden w-full min-h-[58px] flex items-center justify-center bg-white border-b border-gray-100 shrink-0 rounded-t-3xl relative"
-                                    >
-                                        {inboxState === 'closed' && (
-                                            <div
-                                                ref={setInboxClosedHeaderRef}
-                                                onClick={() => setInboxState('full')}
-                                                className={`w-full h-full flex items-center justify-between px-6 cursor-pointer rounded-t-3xl transition-all ${activeDragItem
-                                                    ? 'bg-emerald-50 border-2 border-dashed border-emerald-400'
-                                                    : 'active:bg-gray-50'
-                                                    }`}
-                                            >
-                                                <div className="flex flex-col items-center gap-1 flex-1">
-                                                    <div className="w-10 h-1 bg-gray-300 rounded-full"></div>
-                                                    <span className={`text-[10px] font-bold ${activeDragItem ? 'text-emerald-600' : 'text-gray-400'}`}>
-                                                        {activeDragItem ? '여기에 놓으면 보관함으로 이동' : '보관함 열기'}
-                                                    </span>
-                                                </div>
-                                                <ChevronUp className={`w-5 h-5 ${activeDragItem ? 'text-emerald-600' : 'text-gray-400'}`} />
-                                            </div>
-                                        )}
-
-                                        {inboxState !== 'closed' && (
-                                            <div className="w-full h-full flex items-center justify-between px-6">
-                                                <button
-                                                    onClick={() => handleInboxResize('down')}
-                                                    className="p-2 text-gray-400 hover:text-slate-700 hover:bg-gray-100 rounded-full transition-colors"
-                                                >
-                                                    <ChevronDown className="w-5 h-5" />
-                                                </button>
-
-                                                <div className="flex flex-col items-center gap-1" onClick={() => handleInboxResize('down')}>
-                                                    <div className="w-10 h-1 bg-gray-300 rounded-full"></div>
-                                                    <span className="text-sm font-bold text-slate-700">보관함</span>
-                                                </div>
-
-                                                <button
-                                                    onClick={() => handleInboxResize('up')}
-                                                    disabled={inboxState === 'full'}
-                                                    className={`p-2 rounded-full transition-colors ${inboxState === 'full' ? 'text-gray-200 cursor-default' : 'text-gray-400 hover:text-slate-700 hover:bg-gray-100'}`}
-                                                >
-                                                    <ChevronUp className="w-5 h-5" />
-                                                </button>
-                                            </div>
-                                        )}
-                                    </div>
-
                                     <div className="flex-1 flex flex-col min-h-0 bg-gray-50 md:bg-transparent">
                                         <Inbox
                                             cards={inboxCards}
