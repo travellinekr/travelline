@@ -573,8 +573,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const containerRef = useRef<HTMLDivElement>(null);
     // Liveblocks cards 최신값 참조 (stale closure 방지)
-    const cardsRef = useRef<ReadonlyMap<string, any> | null>(null);
-    useEffect(() => { cardsRef.current = cards as ReadonlyMap<string, any> | null; }, [cards]);
+    const cardsRef = useRef<any>(null);
+    useEffect(() => { cardsRef.current = cards; }, [cards]);
 
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
 
