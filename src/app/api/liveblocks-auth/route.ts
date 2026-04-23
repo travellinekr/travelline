@@ -2,17 +2,25 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Liveblocks } from '@liveblocks/node';
 import { createClient } from '@supabase/supabase-js';
 
-const liveblocks = new Liveblocks({
-    secret: process.env.LIVEBLOCKS_SECRET_KEY!,
-});
+// 빌드 타임 환경변수 오류 방지 → 런타임(요청 시)에 생성
+function getLiveblocks() {
+    const secret = process.env.LIVEBLOCKS_SECRET_KEY;
+    if (!secret) throw new Error('LIVEBLOCKS_SECRET_KEY 환경변수가 없습니다.');
+    return new Liveblocks({ secret });
+}
 
-const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
+function getSupabaseAdmin() {
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (!url || !key) throw new Error('Supabase 환경변수가 없습니다.');
+    return createClient(url, key);
+}
 
 export async function POST(request: NextRequest) {
     try {
+        const liveblocks = getLiveblocks();
+        const supabaseAdmin = getSupabaseAdmin();
+
         const body = await request.json();
         const { room } = body;
 
