@@ -34,7 +34,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Maglev",
-        showInInbox: false,
+        showInInbox: true,
         type: "subway",
         city: "Shanghai",
         description: "자기부상열차, 공항 연결",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (푸둥)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Shanghai",
         description: "푸둥 공항 픽업/센딩",

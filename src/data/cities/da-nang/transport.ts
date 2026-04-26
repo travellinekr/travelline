@@ -35,7 +35,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (다낭)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Da Nang",
         description: "다낭 공항 픽업/센딩",

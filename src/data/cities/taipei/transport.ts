@@ -34,7 +34,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "LINE Taxi",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Taipei",
         description: "인기 택시 앱",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (타오위안)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Taipei",
         description: "타오위안 공항 픽업/센딩",

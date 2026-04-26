@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber Taxi",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Tokyo",
         description: "택시 연결 서비스",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "DiDi",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Tokyo",
         description: "택시 호출 앱",
@@ -55,7 +55,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (나리타/하네다)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Tokyo",
         description: "Blacklane, Tokyo MK, Private Van",

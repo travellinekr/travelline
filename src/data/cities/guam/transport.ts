@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "우버",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Guam",
         description: "우버 앱 사용 가능",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 셔틀",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Guam",
         description: "호텔 픽업 셔틀",

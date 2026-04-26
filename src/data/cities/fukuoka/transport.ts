@@ -31,7 +31,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "DiDi",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Fukuoka",
         description: "일본식 라이드셰어",
@@ -41,7 +41,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (후쿠오카)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Fukuoka",
         description: "후쿠오카 공항 픽업/센딩",

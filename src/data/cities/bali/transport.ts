@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "스쿠터 렌탈",
-        showInInbox: false,
+        showInInbox: true,
         type: "rental-car",
         city: "Bali",
         description: "가장 인기있는 이동 수단",
@@ -42,7 +42,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (덴파사르)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Bali",
         description: "응우라라이 공항 픽업/센딩",

@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Chiang Mai",
         description: "그랩카, 그랩바이크",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Bolt",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Chiang Mai",
         description: "Grab 대안 앱",
@@ -55,7 +55,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Chiang Mai",
         description: "치앙마이 국제공항 픽업/센딩",

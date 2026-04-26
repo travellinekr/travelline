@@ -32,7 +32,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber Taxi",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Sapporo",
         description: "택시 연결",
@@ -42,7 +42,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (신치토세)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Sapporo",
         description: "신치토세 공항 픽업/센딩",

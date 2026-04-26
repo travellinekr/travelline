@@ -31,7 +31,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
-        showInInbox: false,
+        showInInbox: true,
         type: "taxi",
         city: "Okinawa",
         description: "일반 택시, Uber",
@@ -40,7 +40,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (나하)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Okinawa",
         description: "나하 공항 픽업/센딩",

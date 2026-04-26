@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
-        showInInbox: false,
+        showInInbox: true,
         type: "taxi",
         city: "Paris",
         description: "파리 시내 택시",
@@ -43,7 +43,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Uber",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Paris",
         description: "우버 프랑스",
@@ -54,7 +54,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Vélib' (공유 자전거)",
-        showInInbox: false,
+        showInInbox: true,
         type: "micromobility",
         city: "Paris",
         description: "파리 시내 공유 자전거",
@@ -64,7 +64,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업 (CDG/ORY)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Paris",
         description: "샤를 드골 / 오를리 공항",

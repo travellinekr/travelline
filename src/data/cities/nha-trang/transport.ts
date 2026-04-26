@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "관광버스",
-        showInInbox: false,
+        showInInbox: true,
         type: "shuttle",
         city: "Nha Trang",
         description: "Hop-on Hop-off",
@@ -42,7 +42,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (캄란)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Nha Trang",
         description: "캄란 공항 픽업/센딩",

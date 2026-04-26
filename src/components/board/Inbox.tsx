@@ -17,8 +17,14 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
 
   // ✅ [성능개선] filteredCards useMemo 적용 → 탭 전환 외 불필요한 재계산 방지
+  // showInInbox 필터는 cities/ 정적 데이터가 있는 카테고리에만 적용 (hotel/food/shopping)
+  // 나머지(preparation/tourspa/other)는 사용자 카드 그대로 표시
+  const CITY_DATA_CATEGORIES = ['hotel', 'food', 'shopping'];
   const filteredCards = useMemo(
-    () => cards.filter((c: any) => c.category === activeCategory),
+    () => cards.filter((c: any) =>
+      c.category === activeCategory &&
+      (!CITY_DATA_CATEGORIES.includes(activeCategory) || c.isUserCreated === true)
+    ),
     [cards, activeCategory]
   );
 

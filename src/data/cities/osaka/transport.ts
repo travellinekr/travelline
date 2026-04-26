@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "LUUP",
-        showInInbox: false,
+        showInInbox: true,
         type: "micromobility",
         city: "Osaka",
         description: "전동 킥보드/자전거",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (KIX)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Osaka",
         description: "간사이 공항 픽업/센딩",

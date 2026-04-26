@@ -35,7 +35,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "택시",
-        showInInbox: false,
+        showInInbox: true,
         type: "taxi",
         city: "Cebu",
         description: "White/Yellow Taxi",
@@ -45,7 +45,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (막탄)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Cebu",
         description: "막탄 공항 픽업/센딩",

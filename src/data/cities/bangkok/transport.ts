@@ -33,7 +33,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Grab",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Bangkok",
         description: "그랩카, 그랩바이크",
@@ -44,7 +44,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "Bolt",
-        showInInbox: false,
+        showInInbox: true,
         type: "ride-hailing",
         city: "Bangkok",
         description: "라이드셰어",
@@ -54,7 +54,7 @@ const transport: TransportationData[] = [
     },
     {
         name: "공항 픽업/센딩 (수완나품)",
-        showInInbox: false,
+        showInInbox: true,
         type: "airport-transfer",
         city: "Bangkok",
         description: "수완나품/돈므앙 공항 픽업/센딩",
