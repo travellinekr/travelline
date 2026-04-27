@@ -1080,10 +1080,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // 📱 모바일: 드래그 중 카드 너비의 40% 이상이 화면 우측 밖으로 벗어나면 right-delete-zone으로 처리
-        if (typeof window !== 'undefined' && window.innerWidth < 768) {
-            const cardRect = args.collisionRect ?? args.active?.rect?.current?.translated;
-            if (cardRect && (cardRect.right - window.innerWidth) > cardRect.width * 0.4) {
+        // 📱 모바일: 드래그 오버레이의 40% 이상이 화면 우측 밖으로 벗어나면 right-delete-zone으로 처리
+        // (snapCenterToCursor로 오버레이 중심이 포인터에 위치 → 오버레이 우측 끝 = pointerX + overlayWidth/2)
+        if (typeof window !== 'undefined' && window.innerWidth < 768 && pointerCoords) {
+            const overlayWidth = window.innerWidth - 32;
+            const overlayRight = pointerCoords.x + overlayWidth / 2;
+            if ((overlayRight - window.innerWidth) > overlayWidth * 0.4) {
                 const deleteZone = args.droppableContainers.find(
                     (container: any) => container.id === 'right-delete-zone'
                 );
@@ -1104,12 +1106,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragMove = (event: any) => {
         if (typeof window === 'undefined' || window.innerWidth >= 768) return;
 
-        // 우측 삭제존 시각 강조 활성화: 카드 너비의 40% 이상이 화면 우측 밖으로 벗어남
-        const cardRect = event.active?.rect?.current?.translated;
-        if (cardRect) {
-            const active = (cardRect.right - window.innerWidth) > cardRect.width * 0.4;
-            setIsDeleteZoneActive(prev => (prev === active ? prev : active));
-        }
+        // 우측 삭제존 시각 강조: customCollisionDetection 결과(over)와 동기화
+        const active = event.over?.id === 'right-delete-zone';
+        setIsDeleteZoneActive(prev => (prev === active ? prev : active));
 
         if (!timelineScrollRef.current) return;
 
