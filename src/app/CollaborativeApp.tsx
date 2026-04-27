@@ -1080,10 +1080,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-        // 📱 모바일: 드래그 중 카드 우측 끝이 화면 폭의 80%를 넘으면 right-delete-zone으로 처리
+        // 📱 모바일: 드래그 중 카드 너비의 40% 이상이 화면 우측 밖으로 벗어나면 right-delete-zone으로 처리
         if (typeof window !== 'undefined' && window.innerWidth < 768) {
             const cardRect = args.collisionRect ?? args.active?.rect?.current?.translated;
-            if (cardRect && cardRect.right > window.innerWidth * 0.8) {
+            if (cardRect && (cardRect.right - window.innerWidth) > cardRect.width * 0.4) {
                 const deleteZone = args.droppableContainers.find(
                     (container: any) => container.id === 'right-delete-zone'
                 );
@@ -1104,10 +1104,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleDragMove = (event: any) => {
         if (typeof window === 'undefined' || window.innerWidth >= 768) return;
 
-        // 우측 삭제존 시각 강조 활성화: 드래그 카드 우측 끝이 화면폭 80% 초과
+        // 우측 삭제존 시각 강조 활성화: 카드 너비의 40% 이상이 화면 우측 밖으로 벗어남
         const cardRect = event.active?.rect?.current?.translated;
         if (cardRect) {
-            const active = cardRect.right > window.innerWidth * 0.8;
+            const active = (cardRect.right - window.innerWidth) > cardRect.width * 0.4;
             setIsDeleteZoneActive(prev => (prev === active ? prev : active));
         }
 
