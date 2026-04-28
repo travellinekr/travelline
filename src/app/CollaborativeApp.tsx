@@ -64,13 +64,13 @@ function RightDeleteZone({ isActive }: { isActive: boolean }) {
             className={`md:hidden fixed right-0 top-0 bottom-0 w-[20%] z-40 flex items-center justify-center pointer-events-none transition-colors duration-150 ${
                 isActive
                     ? 'bg-red-500/50 border-l-4 border-red-500'
-                    : 'bg-red-500/20'
+                    : 'bg-red-500/5'
             }`}
         >
             <span
                 style={{ writingMode: 'vertical-rl' }}
                 className={`font-bold tracking-widest ${
-                    isActive ? 'text-white text-base' : 'text-red-600/70 text-sm'
+                    isActive ? 'text-white text-base' : 'text-red-600/25 text-sm'
                 }`}
             >
                 드롭하면 삭제 됩니다

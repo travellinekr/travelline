@@ -122,11 +122,8 @@ export function LoadingSkeleton() {
                             </div>
                         </div>
 
-                        {/* 모바일 하단 인박스 핸들 */}
-                        <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white rounded-t-3xl shadow-[0_-4px_20px_rgba(0,0,0,0.1)] h-[58px] flex flex-col items-center justify-center gap-1">
-                            <div className="w-10 h-1 bg-gray-200 rounded-full" />
-                            <p className="text-[11px] text-slate-300 font-medium">보관함</p>
-                        </div>
+                        {/* 모바일 우측 인박스 토글 버튼 (스켈레톤) */}
+                        <div className="md:hidden fixed right-0 top-[62%] -translate-y-1/2 z-[60] w-8 h-20 rounded-l-lg bg-emerald-200 shadow-lg animate-pulse" />
 
                     </div>
                 </main>
