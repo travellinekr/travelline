@@ -15,6 +15,7 @@ import { EtcCard } from "@/components/cards/EtcCard";
 import type { CardVariant } from "@/components/cards/types";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { CardEditorModal } from "./CardEditorModal";
+import { useAnchor } from "@/contexts/AnchorContext";
 
 // 임시 사용자 ID Hook (TODO: 실제 인증 시스템으로 대체 필요)
 // ✅ [성능개선] useState 초기값 함수로 localStorage를 최초 1회만 읽음 (useEffect 제거)
@@ -241,9 +242,15 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
 export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
+  const { selectedAnchorId, toggleAnchor } = useAnchor();
 
   // 메모 모달 상태 관리
   const [isNotesOpen, setIsNotesOpen] = useState(false);
+
+  // anchor 후보: 타임라인 변형(compact) + 헤더 아님 + 좌표 보유
+  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates;
+  const isAnchor = isAnchorCandidate && selectedAnchorId === card.id;
+  const handleAnchorClick = isAnchorCandidate ? () => toggleAnchor(card.id, card) : undefined;
 
   const {
     attributes,
@@ -306,6 +313,8 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
         hasNotes: !!(card.notes && Array.isArray(card.notes) && card.notes.length > 0),
         isHeader,
         canEdit,
+        isAnchor,
+        onClick: handleAnchorClick,
       })}
 
       {/* 카드 에디터 모달 */}

@@ -365,7 +365,7 @@ export default function ExplorePage() {
         <div className="flex flex-col h-full overflow-hidden">
 
             {/* ── 토스트 (공용 컴포넌트) ── */}
-            <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-right" />
+            <ToastContainer toasts={toasts} onClose={removeToast} />
 
             {/* ── 상단 헤더 (2단 구조) ── */}
             <div className="shrink-0 bg-white border-b border-slate-100 z-20">

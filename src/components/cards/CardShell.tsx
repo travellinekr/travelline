@@ -18,6 +18,9 @@ import { CardInfoModal } from "./CardInfoModal";
 
 const INFO_CATEGORIES = ['preparation', 'hotel', 'food', 'shopping', 'tourspa'];
 
+// Tailwind safelist (런타임 colorClass.replace('bg-', 'ring-') 결과를 빌드 타임에 노출)
+// ring-rose-400 ring-orange-400 ring-purple-400 ring-blue-400 ring-cyan-400 ring-indigo-400 ring-amber-400 ring-emerald-400 ring-sky-400
+
 export function CardShell({
     children,
     colorClass,
@@ -38,6 +41,8 @@ export function CardShell({
     isChecked,
     onToggleCheck,
     onClick,
+    // anchor (거리 정렬 기준)
+    isAnchor,
 }: Omit<CommonCardProps, 'card'> & {
     card?: any;
     children: React.ReactNode;
@@ -182,7 +187,8 @@ export function CardShell({
                 style={style}
                 {...listeners}
                 {...attributes}
-                className={`group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-colors overflow-hidden cursor-grab active:cursor-grabbing ${className ?? ""}`}
+                onClick={onClick}
+                className={`group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-colors overflow-hidden cursor-grab active:cursor-grabbing ${isAnchor ? `ring-2 ring-inset ${colorClass.replace('bg-', 'ring-')}` : ''} ${className ?? ""}`}
             >
                 {innerContent}
             </div>

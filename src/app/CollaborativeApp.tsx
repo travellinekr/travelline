@@ -4,7 +4,8 @@ import { throttle } from "lodash";
 
 import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorListener } from "../liveblocks.config";
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
-import { useState, useRef, useEffect, useMemo } from "react";
+import { useState, useRef, useEffect, useMemo, useCallback } from "react";
+import { AnchorContext } from "@/contexts/AnchorContext";
 import { createPortal } from "react-dom";
 import { Link as LinkIcon, Mouse, ChevronDown, ChevronLeft, ChevronRight, Package, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
 import Link from "next/link";
@@ -570,6 +571,22 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
 
     const { toasts, addToast, removeToast } = useToast();
+
+    // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
+    const [selectedAnchorId, setSelectedAnchorId] = useState<string | null>(null);
+    const toggleAnchor = useCallback((cardId: string, card: any) => {
+        if (!card?.coordinates) return; // 좌표 없는 카드는 anchor 불가
+        if (selectedAnchorId === cardId) {
+            setSelectedAnchorId(null);
+        } else {
+            setSelectedAnchorId(cardId);
+            addToast('선택한 카드 기준으로 보관함에서 조회 됩니다.', 'info');
+        }
+    }, [selectedAnchorId, addToast]);
+    const anchorContextValue = useMemo(
+        () => ({ selectedAnchorId, toggleAnchor }),
+        [selectedAnchorId, toggleAnchor]
+    );
 
     const containerRef = useRef<HTMLDivElement>(null);
     // Liveblocks cards 최신값 참조 (stale closure 방지)
@@ -1723,7 +1740,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
 
     return (
-        <>
+        <AnchorContext.Provider value={anchorContextValue}>
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
@@ -1940,7 +1957,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             </DndContext >
 
             {/* 토스트 메시지들 */}
-            <ToastContainer toasts={toasts} onClose={removeToast} />
-        </>
+            <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
+        </AnchorContext.Provider>
     );
 }

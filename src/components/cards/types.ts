@@ -34,4 +34,7 @@ export interface CommonCardProps {
     isChecked?: boolean;
     onToggleCheck?: (e: React.MouseEvent) => void;
     onClick?: () => void;
+
+    // 거리 정렬 기준 카드 (타임라인 단일 탭으로 활성)
+    isAnchor?: boolean;
 }

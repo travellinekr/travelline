@@ -5,7 +5,7 @@ import { ToastItem } from '@/hooks/useToast';
 interface ToastContainerProps {
     toasts: ToastItem[];
     onClose: (id: number) => void;
-    /** 화면에서 토스트 위치. 기본값: 오른쪽 아래 (board 스타일) */
+    /** 화면에서 토스트 위치. 기본값: 하단 중앙 */
     position?: 'bottom-right' | 'bottom-center';
 }
 
@@ -17,7 +17,7 @@ interface ToastContainerProps {
  * const { toasts, addToast, removeToast } = useToast();
  * <ToastContainer toasts={toasts} onClose={removeToast} />
  */
-export function ToastContainer({ toasts, onClose, position = 'bottom-right' }: ToastContainerProps) {
+export function ToastContainer({ toasts, onClose, position = 'bottom-center' }: ToastContainerProps) {
     if (toasts.length === 0) return null;
 
     const posClass = position === 'bottom-center'
