@@ -21,7 +21,7 @@ export function ToastContainer({ toasts, onClose, position = 'bottom-center' }: 
     if (toasts.length === 0) return null;
 
     const posClass = position === 'bottom-center'
-        ? 'fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col-reverse gap-2'
+        ? 'fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-[calc(100vw-24px)] md:w-auto flex flex-col-reverse gap-2'
         : 'fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col-reverse gap-2';
 
     return (
@@ -29,7 +29,7 @@ export function ToastContainer({ toasts, onClose, position = 'bottom-center' }: 
             {toasts.map((toast) => (
                 <div
                     key={toast.id}
-                    className={`flex items-center gap-3 md:gap-4 pl-3 pr-4 md:pl-4 md:pr-5 py-2.5 md:py-3 rounded-full shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-300 ${toast.type === 'warning'
+                    className={`w-full md:w-auto flex items-center gap-3 md:gap-4 pl-3 pr-4 md:pl-4 md:pr-5 py-2.5 md:py-3 rounded-full shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-300 ${toast.type === 'warning'
                             ? 'bg-rose-100 text-rose-800 border border-rose-300/50'
                             : 'bg-emerald-100 text-emerald-800 border border-emerald-300/50'
                         }`}
