@@ -7,7 +7,7 @@ import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
 import { createPortal } from "react-dom";
-import { Link as LinkIcon, Mouse, ChevronDown, ChevronLeft, ChevronRight, Package, MapPin, Hotel, Bus, Train, Car, LogOut } from "lucide-react";
+import { Link as LinkIcon, Mouse, ChevronDown, ChevronLeft, ChevronRight, Package, MapPin, Hotel, Bus, Train, Car, LogOut, Lock, LockOpen } from "lucide-react";
 import Link from "next/link";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
@@ -565,6 +565,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const [inboxState, setInboxState] = useState<InboxStateType>('closed');
     const prevInboxStateRef = useRef<InboxStateType>('closed');
+    const [isInboxLocked, setIsInboxLocked] = useState(false);
+    // 인박스 닫힘 시 잠금 자동 해제
+    useEffect(() => {
+        if (inboxState === 'closed') setIsInboxLocked(false);
+    }, [inboxState]);
     const [isDeleteZoneActive, setIsDeleteZoneActive] = useState(false);
     const timelineScrollRef = useRef<HTMLDivElement>(null);
     const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
@@ -1059,7 +1064,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         // 📱 모바일: 드래그 시작 시 인박스 자동 숨김 → 타임라인 풀스크린
-        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+        // (인박스 잠금 상태면 유지하여 AddOrDeleteButton 등 인박스 내부 드롭존 사용 가능)
+        if (typeof window !== 'undefined' && window.innerWidth < 768 && !isInboxLocked) {
             prevInboxStateRef.current = inboxState;
             setInboxState('closed');
         }
@@ -1155,7 +1161,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         setActiveDragItem(null);
 
         // 📱 모바일: 드래그 종료 후 인박스 이전 상태로 복원 (딜레이로 카드 안착 확인 후 열림)
-        if (typeof window !== 'undefined' && window.innerWidth < 768) {
+        // (잠금 상태였으면 close/open 토글이 일어나지 않았으므로 복원 불필요)
+        if (typeof window !== 'undefined' && window.innerWidth < 768 && !isInboxLocked) {
             setTimeout(() => {
                 setInboxState(prevInboxStateRef.current);
             }, 500);
@@ -1858,6 +1865,19 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         ) : (
                                             <ChevronRight className="w-5 h-5" />
                                         )}
+                                    </button>
+                                )}
+
+                                {/* 모바일 인박스 잠금 토글 (인박스 열렸을 때만, 우측 토글 바로 아래) */}
+                                {inboxState === 'open' && !activeDragItem && (
+                                    <button
+                                        type="button"
+                                        onClick={() => setIsInboxLocked(prev => !prev)}
+                                        aria-label={isInboxLocked ? '인박스 고정 해제' : '인박스 고정'}
+                                        title={isInboxLocked ? '드래그해도 인박스 유지 중 (탭하면 해제)' : '드래그 시 인박스 자동 닫힘 (탭하면 고정)'}
+                                        className={`md:hidden fixed right-0 top-[calc(62%+44px)] z-[60] w-8 h-12 rounded-l-lg shadow-lg flex items-center justify-center transition-colors ${isInboxLocked ? 'bg-emerald-500 text-white active:bg-emerald-600' : 'bg-white text-slate-400 border border-r-0 border-slate-200 active:bg-slate-50'}`}
+                                    >
+                                        {isInboxLocked ? <Lock className="w-4 h-4" /> : <LockOpen className="w-4 h-4" />}
                                     </button>
                                 )}
 
