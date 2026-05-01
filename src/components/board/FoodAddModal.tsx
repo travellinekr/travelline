@@ -18,6 +18,7 @@ interface Place {
 
 interface FoodAddModalProps {
     destinationCity?: string;
+    anchorCoordinates?: { lat: number; lng: number } | null;
     onClose: () => void;
     onCreate: (data: any) => void;
 }
@@ -60,7 +61,7 @@ const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
     '홍콩': { lat: 22.3193, lng: 114.1694 },
 };
 
-export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModalProps) {
+export function FoodAddModal({ destinationCity, anchorCoordinates, onClose, onCreate }: FoodAddModalProps) {
     const [restaurantName, setRestaurantName] = useState('');
     const [restaurantType, setRestaurantType] = useState<RestaurantType>('local');
     const [specialty, setSpecialty] = useState('');
@@ -92,7 +93,9 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
             }
 
             let cityCoords = { lat: 12.2388, lng: 109.1967 }; // 기본값: 나트랑
-            if (destinationCity) {
+            if (anchorCoordinates) {
+                cityCoords = anchorCoordinates;
+            } else if (destinationCity) {
                 const cityKey = Object.keys(CITY_COORDINATES).find(
                     key => key.toLowerCase() === destinationCity.toLowerCase()
                 );
@@ -103,7 +106,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
 
             googleMapRef.current = new google.maps.Map(mapRef.current, {
                 center: cityCoords,
-                zoom: 13,
+                zoom: anchorCoordinates ? 15 : 13,
                 mapTypeControl: false,
                 streetViewControl: false,
                 fullscreenControl: false,
@@ -143,7 +146,7 @@ export function FoodAddModal({ destinationCity, onClose, onCreate }: FoodAddModa
         };
 
         initMap();
-    }, [destinationCity]);
+    }, [destinationCity, anchorCoordinates]);
 
     // 검색 결과가 있을 때 마커 표시
     useEffect(() => {

@@ -7,6 +7,8 @@ import { Utensils, Plus, Trash2 } from 'lucide-react';
 import { RestaurantType, RestaurantData, CITY_DATA } from '@/data/cities';
 import { FoodCard } from '@/components/cards/FoodCard';
 import { FoodAddModal } from './FoodAddModal';
+import { useAnchor } from '@/contexts/AnchorContext';
+import { sortByAnchorDistance } from '@/utils/distance';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -145,8 +147,11 @@ export function FoodPicker({
         );
     }
 
+    const { anchorCard } = useAnchor();
+    const anchorCoords = anchorCard?.coordinates ?? null;
     const allRestaurants = destinationCity ? getRestaurantsByCity(destinationCity) : [];
-    const sampleRestaurants = allRestaurants.filter(r => r.showInInbox);
+    const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
+    const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
@@ -186,8 +191,8 @@ export function FoodPicker({
                         />
                     ))}
 
-                    {/* 생성된 카드들 */}
-                    {createdCards.map((card: any) => {
+                    {/* 생성된 카드들 (anchor 시 거리순) */}
+                    {sortedCreatedCards.map((card: any) => {
 
                         return (
                             <DraggableFoodCard
@@ -210,6 +215,7 @@ export function FoodPicker({
             {isAddModalOpen && (
                 <FoodAddModal
                     destinationCity={destinationCity}
+                    anchorCoordinates={anchorCoords}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />

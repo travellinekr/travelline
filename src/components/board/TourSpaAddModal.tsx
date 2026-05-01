@@ -17,6 +17,7 @@ interface Place {
 
 interface TourSpaAddModalProps {
     destinationCity?: string;
+    anchorCoordinates?: { lat: number; lng: number } | null;
     onClose: () => void;
     onCreate: (data: any) => void;
 }
@@ -33,7 +34,7 @@ const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
     'Hong Kong': { lat: 22.3193, lng: 114.1694 },
 };
 
-export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaAddModalProps) {
+export function TourSpaAddModal({ destinationCity, anchorCoordinates, onClose, onCreate }: TourSpaAddModalProps) {
     const [activityName, setActivityName] = useState('');
     const [tourSpaType, setTourSpaType] = useState<TourSpaType>('massage');
     const [pickupAvailable, setPickupAvailable] = useState(false);
@@ -64,9 +65,11 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
                 return;
             }
 
-            // 도시 중심 좌표 설정 (대소문자 무시)
+            // anchor 좌표 우선 → 없으면 도시 중심 (대소문자 무시)
             let cityCoords = { lat: 13.7563, lng: 100.5018 };
-            if (destinationCity) {
+            if (anchorCoordinates) {
+                cityCoords = anchorCoordinates;
+            } else if (destinationCity) {
                 const cityKey = Object.keys(CITY_COORDINATES).find(
                     key => key.toLowerCase() === destinationCity.toLowerCase()
                 );
@@ -77,7 +80,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
 
             googleMapRef.current = new google.maps.Map(mapRef.current, {
                 center: cityCoords,
-                zoom: 13,
+                zoom: anchorCoordinates ? 15 : 13,
                 mapTypeControl: false,
                 streetViewControl: false,
                 fullscreenControl: false,
@@ -117,7 +120,7 @@ export function TourSpaAddModal({ destinationCity, onClose, onCreate }: TourSpaA
         };
 
         initMap();
-    }, [destinationCity]);
+    }, [destinationCity, anchorCoordinates]);
 
     // 검색 결과가 있을 때 마커 표시
     useEffect(() => {

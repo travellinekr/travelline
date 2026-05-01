@@ -7,6 +7,8 @@ import { Palmtree, Plus, Trash2 } from 'lucide-react';
 import { TOUR_SPA_SAMPLES, TourSpaType } from '@/data/tourSpa';
 import { TourSpaCard } from '@/components/cards/TourSpaCard';
 import { TourSpaAddModal } from './TourSpaAddModal';
+import { useAnchor } from '@/contexts/AnchorContext';
+import { sortByAnchorDistance } from '@/utils/distance';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -114,6 +116,10 @@ export function TourSpaPicker({
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
 
+    const { anchorCard } = useAnchor();
+    const anchorCoords = anchorCard?.coordinates ?? null;
+    const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
+
     const handleCreateCard = (data: any) => {
 
         if (onAddCard) {
@@ -159,8 +165,8 @@ export function TourSpaPicker({
                         />
                     ))} */}
 
-                    {/* 생성된 카드들 (샘플 카드 아래) */}
-                    {createdCards.map((card: any) => {
+                    {/* 생성된 카드들 (anchor 시 거리순) */}
+                    {sortedCreatedCards.map((card: any) => {
 
                         // 타입에 따른 아이콘 매핑
                         const getIcon = (type: string) => {
@@ -208,6 +214,7 @@ export function TourSpaPicker({
             {isAddModalOpen && (
                 <TourSpaAddModal
                     destinationCity={destinationCity}
+                    anchorCoordinates={anchorCoords}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />

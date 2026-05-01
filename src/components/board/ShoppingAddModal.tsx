@@ -18,6 +18,7 @@ interface Place {
 
 interface ShoppingAddModalProps {
     destinationCity?: string;
+    anchorCoordinates?: { lat: number; lng: number } | null;
     onClose: () => void;
     onCreate: (data: any) => void;
 }
@@ -56,7 +57,7 @@ const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
     '홍콩': { lat: 22.3193, lng: 114.1694 },
 };
 
-export function ShoppingAddModal({ destinationCity, onClose, onCreate }: ShoppingAddModalProps) {
+export function ShoppingAddModal({ destinationCity, anchorCoordinates, onClose, onCreate }: ShoppingAddModalProps) {
     const [shopName, setShopName] = useState('');
     const [shoppingType, setShoppingType] = useState<ShoppingType>('mall');
     const [hours, setHours] = useState('');
@@ -87,9 +88,11 @@ export function ShoppingAddModal({ destinationCity, onClose, onCreate }: Shoppin
                 return;
             }
 
-            // 도시 중심 좌표 설정 (대소문자 무시)
+            // anchor 좌표 우선 → 없으면 도시 중심 (대소문자 무시)
             let cityCoords = { lat: 13.7563, lng: 100.5018 };
-            if (destinationCity) {
+            if (anchorCoordinates) {
+                cityCoords = anchorCoordinates;
+            } else if (destinationCity) {
                 const cityKey = Object.keys(CITY_COORDINATES).find(
                     key => key.toLowerCase() === destinationCity.toLowerCase()
                 );
@@ -100,7 +103,7 @@ export function ShoppingAddModal({ destinationCity, onClose, onCreate }: Shoppin
 
             googleMapRef.current = new google.maps.Map(mapRef.current, {
                 center: cityCoords,
-                zoom: 13,
+                zoom: anchorCoordinates ? 15 : 13,
                 mapTypeControl: false,
                 streetViewControl: false,
                 fullscreenControl: false,
@@ -140,7 +143,7 @@ export function ShoppingAddModal({ destinationCity, onClose, onCreate }: Shoppin
         };
 
         initMap();
-    }, [destinationCity]);
+    }, [destinationCity, anchorCoordinates]);
 
     // 검색 결과가 있을 때 마커 표시
     useEffect(() => {

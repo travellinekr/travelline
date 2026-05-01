@@ -7,6 +7,8 @@ import { Hotel, Plus, Trash2 } from 'lucide-react';
 import { AccommodationData, CITY_DATA } from '@/data/cities';
 import { HotelCard } from '@/components/cards/HotelCard';
 import { AccommodationAddModal } from './AccommodationAddModal';
+import { useAnchor } from '@/contexts/AnchorContext';
+import { sortByAnchorDistance } from '@/utils/distance';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -131,8 +133,11 @@ export function AccommodationPicker({
         setIsAddModalOpen(false);
     };
 
+    const { anchorCard } = useAnchor();
+    const anchorCoords = anchorCard?.coordinates ?? null;
     const allAccommodations = destinationCity ? getAccommodationsByCity(destinationCity) : [];
-    const sampleAccommodations = allAccommodations.filter(a => a.showInInbox);
+    const sampleAccommodations = sortByAnchorDistance(allAccommodations.filter(a => a.showInInbox), anchorCoords);
+    const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
@@ -182,8 +187,8 @@ export function AccommodationPicker({
                         />
                     ))}
 
-                    {/* 생성된 카드들 (샘플 카드 아래) */}
-                    {createdCards.map((card: any) => {
+                    {/* 생성된 카드들 (샘플 카드 아래, anchor 시 거리순) */}
+                    {sortedCreatedCards.map((card: any) => {
 
                         return (
                             <DraggableHotelCard
@@ -206,6 +211,7 @@ export function AccommodationPicker({
             {isAddModalOpen && (
                 <AccommodationAddModal
                     destinationCity={destinationCity}
+                    anchorCoordinates={anchorCoords}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />

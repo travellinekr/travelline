@@ -27,6 +27,21 @@ export function formatDistance(meters: number): string {
 }
 
 /**
+ * anchor 좌표 기준 거리순 정렬 (좌표 없는 항목은 끝으로)
+ */
+export function sortByAnchorDistance<T extends { coordinates?: { lat: number; lng: number } | null }>(
+  items: T[],
+  anchor: { lat: number; lng: number } | null | undefined
+): T[] {
+  if (!anchor) return items;
+  return [...items].sort((a, b) => {
+    const aD = a.coordinates ? haversineMeters(anchor, a.coordinates) : Infinity;
+    const bD = b.coordinates ? haversineMeters(anchor, b.coordinates) : Infinity;
+    return aD - bD;
+  });
+}
+
+/**
  * 거리 단계별 원색 구분
  *  0~500m: 초록 (가까움)
  *  500m~2km: 주황 (보통)

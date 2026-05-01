@@ -7,6 +7,8 @@ import { ShoppingBag, Plus, Trash2 } from 'lucide-react';
 import { ShoppingType, ShoppingData, CITY_DATA } from '@/data/cities';
 import { ShoppingCard } from '@/components/cards/ShoppingCard';
 import { ShoppingAddModal } from './ShoppingAddModal';
+import { useAnchor } from '@/contexts/AnchorContext';
+import { sortByAnchorDistance } from '@/utils/distance';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -144,8 +146,11 @@ export function ShoppingPicker({
         );
     }
 
+    const { anchorCard } = useAnchor();
+    const anchorCoords = anchorCard?.coordinates ?? null;
     const allShopping = destinationCity ? getShoppingByCity(destinationCity) : [];
-    const sampleShopping = allShopping.filter(s => s.showInInbox);
+    const sampleShopping = sortByAnchorDistance(allShopping.filter(s => s.showInInbox), anchorCoords);
+    const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
@@ -184,8 +189,8 @@ export function ShoppingPicker({
                         />
                     ))}
 
-                    {/* 생성된 카드들 */}
-                    {createdCards.map((card: any) => {
+                    {/* 생성된 카드들 (anchor 시 거리순) */}
+                    {sortedCreatedCards.map((card: any) => {
 
                         return (
                             <DraggableShoppingCard
@@ -208,6 +213,7 @@ export function ShoppingPicker({
             {isAddModalOpen && (
                 <ShoppingAddModal
                     destinationCity={destinationCity}
+                    anchorCoordinates={anchorCoords}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />
