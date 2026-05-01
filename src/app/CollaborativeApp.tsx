@@ -1872,7 +1872,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 {inboxState === 'open' && !activeDragItem && (
                                     <button
                                         type="button"
-                                        onClick={() => setIsInboxLocked(prev => !prev)}
+                                        onClick={() => {
+                                            const next = !isInboxLocked;
+                                            setIsInboxLocked(next);
+                                            addToast(next ? '인박스를 고정합니다.' : '카드를 드래그할때 인박스가 닫힙니다', 'info');
+                                        }}
                                         aria-label={isInboxLocked ? '인박스 고정 해제' : '인박스 고정'}
                                         title={isInboxLocked ? '드래그해도 인박스 유지 중 (탭하면 해제)' : '드래그 시 인박스 자동 닫힘 (탭하면 고정)'}
                                         className={`md:hidden fixed right-0 top-[calc(62%+44px)] z-[60] w-8 h-12 rounded-l-lg shadow-lg flex items-center justify-center transition-colors ${isInboxLocked ? 'bg-emerald-500 text-white active:bg-emerald-600' : 'bg-white text-slate-400 border border-r-0 border-slate-200 active:bg-slate-50'}`}
