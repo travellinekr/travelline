@@ -1,6 +1,8 @@
 import { Utensils } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
+import { useAnchor } from "@/contexts/AnchorContext";
+import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
 // 음식 타입별 한글 레이블
 const RESTAURANT_TYPE_LABELS: Record<string, string> = {
@@ -39,6 +41,13 @@ export function FoodCard({ card, variant, ...props }: CommonCardProps) {
         : "Food";
     const hasNotes = checkHasNotes(card.notes);
 
+    const { anchorCard } = useAnchor();
+    const anchorDist =
+        anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
+            ? haversineMeters(anchorCard.coordinates, card.coordinates)
+            : null;
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
+
     return (
         <CardShell
             {...props}
@@ -70,6 +79,14 @@ export function FoodCard({ card, variant, ...props }: CommonCardProps) {
                             <span className="text-gray-300 shrink-0">|</span>
                             <span className="text-[11px] text-yellow-600 shrink-0">
                                 ⭐ {card.michelin}
+                            </span>
+                        </>
+                    )}
+                    {showDist && anchorDist !== null && (
+                        <>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className={`text-[11px] shrink-0 ${getDistanceColorClass(anchorDist)}`}>
+                                {formatDistance(anchorDist)}
                             </span>
                         </>
                     )}

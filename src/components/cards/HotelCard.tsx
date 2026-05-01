@@ -1,6 +1,8 @@
 import { Hotel } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
+import { useAnchor } from "@/contexts/AnchorContext";
+import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
 function checkHasNotes(notes: any): boolean {
     return Boolean(
@@ -20,6 +22,13 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
     const displayTags = card.tags?.slice(0, 3) || [];
     const showCheckOut = card.showCheckOut || false;
     const hasNotes = checkHasNotes(card.notes);
+
+    const { anchorCard } = useAnchor();
+    const anchorDist =
+        anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
+            ? haversineMeters(anchorCard.coordinates, card.coordinates)
+            : null;
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
 
     const handleToggle = (e: React.MouseEvent) => {
         e.stopPropagation();
@@ -59,6 +68,14 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
                             <span className="text-gray-300 shrink-0">|</span>
                             <span className="text-[11px] text-gray-500 truncate min-w-0">
                                 {displayTags.join(' · ')}
+                            </span>
+                        </>
+                    )}
+                    {showDist && anchorDist !== null && (
+                        <>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className={`text-[11px] shrink-0 ${getDistanceColorClass(anchorDist)}`}>
+                                {formatDistance(anchorDist)}
                             </span>
                         </>
                     )}

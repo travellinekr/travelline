@@ -1,8 +1,9 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo, useMemo } from "react";
 import Link from "next/link";
+import { useAnchor } from "@/contexts/AnchorContext";
 import { DestinationPicker } from "./DestinationPicker";
 import { AccommodationPicker } from "./AccommodationPicker";
 import { TransportationPicker } from "./TransportationPicker";
@@ -12,9 +13,22 @@ import { TourSpaPicker } from "./TourSpaPicker";
 import { EtcPicker } from "./EtcPicker";
 import { PreparationPicker } from "./PreparationPicker";
 
+// anchor 카테고리별 배너 컬러
+// safelist (런타임 카테고리 키 매핑): bg-rose-50 bg-orange-50 bg-purple-50 bg-blue-50 bg-cyan-50
+//                                     border-rose-200 border-orange-200 border-purple-200 border-blue-200 border-cyan-200
+//                                     text-rose-800 text-orange-800 text-purple-800 text-blue-800 text-cyan-800
+const ANCHOR_BANNER_COLORS: Record<string, string> = {
+  hotel: 'bg-rose-50 border-rose-200 text-rose-800',
+  food: 'bg-orange-50 border-orange-200 text-orange-800',
+  shopping: 'bg-purple-50 border-purple-200 text-purple-800',
+  transport: 'bg-blue-50 border-blue-200 text-blue-800',
+  tourspa: 'bg-cyan-50 border-cyan-200 text-cyan-800',
+};
+
 export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
+  const { anchorCard, toggleAnchor, scrollToAnchor } = useAnchor();
 
   // ✅ [성능개선] filteredCards useMemo 적용 → 탭 전환 외 불필요한 재계산 방지
   // showInInbox 필터는 cities/ 정적 데이터가 있는 카테고리에만 적용 (hotel/food/shopping)
@@ -95,8 +109,10 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
       ref={setNodeRef}
       className={`w-full flex flex-col h-full shadow-xl shadow-gray-200 z-0 relative transition-colors ${isOver ? 'bg-indigo-50/50' : 'bg-white'}`}
     >
-      {/* 2단 탭 필터 (정밀 높이 조정 100px) */}
-      <div className="sticky top-0 z-30 flex flex-col border-b border-gray-200 bg-white shrink-0 w-full min-h-[100px] md:min-h-[100px] justify-center shadow-sm">
+      {/* 헤더 영역: 탭 + anchor 배너 (sticky로 묶음) */}
+      <div className="sticky top-0 z-30 bg-white shrink-0 shadow-sm">
+        {/* 2단 탭 필터 (정밀 높이 조정 100px) */}
+        <div className="flex flex-col border-b border-gray-200 w-full min-h-[100px] md:min-h-[100px] justify-center">
         {/* 1단 */}
         <div className="flex items-center px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {topTabs.map(renderTab)}
@@ -112,6 +128,29 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         <div className="flex px-4 pt-1 pb-3 md:pb-3 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {bottomTabs.map(renderTab)}
         </div>
+        </div>
+        {/* 거리 정렬 기준점 배너 (탭 하단) */}
+        {anchorCard && (
+          <div className={`flex items-center justify-between gap-2 px-4 py-2 border-b text-sm ${ANCHOR_BANNER_COLORS[anchorCard.category] ?? 'bg-slate-50 border-slate-200 text-slate-800'}`}>
+            <button
+              type="button"
+              onClick={scrollToAnchor}
+              className="flex items-center gap-1.5 min-w-0 flex-1 text-left"
+            >
+              <MapPin className="w-4 h-4 shrink-0" />
+              <span className="font-semibold truncate">{anchorCard.text || anchorCard.title || '카드'}</span>
+              <span className="text-xs opacity-70 shrink-0">기준 거리순</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => toggleAnchor(anchorCard.id, anchorCard)}
+              aria-label="기준점 해제"
+              className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center hover:bg-black/5"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">

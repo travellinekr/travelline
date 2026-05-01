@@ -188,6 +188,7 @@ export function CardShell({
                 {...listeners}
                 {...attributes}
                 onClick={onClick}
+                data-card-id={card?.id}
                 className={`group bg-white hover:bg-slate-50 border-b border-gray-100 flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-colors overflow-hidden cursor-grab active:cursor-grabbing ${isAnchor ? `ring-2 ring-inset ${colorClass.replace('bg-', 'ring-')}` : ''} ${className ?? ""}`}
             >
                 {innerContent}

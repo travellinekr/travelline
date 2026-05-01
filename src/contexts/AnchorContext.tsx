@@ -3,10 +3,14 @@ import { createContext, useContext } from "react";
 // 거리 정렬 기준 카드(anchor) Context — 타임라인 카드 단일 탭으로 선택
 export const AnchorContext = createContext<{
     selectedAnchorId: string | null;
+    anchorCard: any | null;
     toggleAnchor: (cardId: string, card: any) => void;
+    scrollToAnchor: () => void;
 }>({
     selectedAnchorId: null,
+    anchorCard: null,
     toggleAnchor: () => {},
+    scrollToAnchor: () => {},
 });
 
 export const useAnchor = () => useContext(AnchorContext);

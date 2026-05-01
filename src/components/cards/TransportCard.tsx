@@ -2,6 +2,8 @@ import { Bus, Train, Car } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { TransportationType } from "@/data/cities";
+import { useAnchor } from "@/contexts/AnchorContext";
+import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
 const TRANSPORT_ICONS: Record<TransportationType, any> = {
     subway: Train, bus: Bus, tram: Train, taxi: Car,
@@ -32,6 +34,13 @@ export function TransportCard({ card, variant, ...props }: CommonCardProps) {
     const TransportIcon = TRANSPORT_ICONS[transportType] || Bus;
     const typeLabel = TRANSPORT_TYPE_LABELS[transportType] || card.transportationType;
     const hasNotes = checkHasNotes(card.notes);
+
+    const { anchorCard } = useAnchor();
+    const anchorDist =
+        anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
+            ? haversineMeters(anchorCard.coordinates, card.coordinates)
+            : null;
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
 
     return (
         <CardShell
@@ -68,6 +77,14 @@ export function TransportCard({ card, variant, ...props }: CommonCardProps) {
                             <span className="text-gray-300 shrink-0">|</span>
                             <span className="text-[11px] text-emerald-600 shrink-0">
                                 {card.priceRange}
+                            </span>
+                        </>
+                    )}
+                    {showDist && anchorDist !== null && (
+                        <>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className={`text-[11px] shrink-0 ${getDistanceColorClass(anchorDist)}`}>
+                                {formatDistance(anchorDist)}
                             </span>
                         </>
                     )}

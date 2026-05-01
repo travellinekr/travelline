@@ -1,6 +1,8 @@
 import { Palmtree } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
+import { useAnchor } from "@/contexts/AnchorContext";
+import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
 const TOUR_SPA_TYPE_LABELS: Record<string, string> = {
     'island-hopping': '아일랜드 호핑', 'city-tour': '시티 투어', 'nature-tour': '자연 관광',
@@ -27,6 +29,13 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
         ? TOUR_SPA_TYPE_LABELS[card.tourSpaType] || card.tourSpaType
         : "투어&스파";
     const hasNotes = checkHasNotes(card.notes);
+
+    const { anchorCard } = useAnchor();
+    const anchorDist =
+        anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
+            ? haversineMeters(anchorCard.coordinates, card.coordinates)
+            : null;
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
 
     return (
         <CardShell
@@ -60,6 +69,14 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
                         <>
                             <span className="text-gray-300 shrink-0">|</span>
                             <span className="text-[11px] text-teal-600 font-bold shrink-0">픽업</span>
+                        </>
+                    )}
+                    {showDist && anchorDist !== null && (
+                        <>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className={`text-[11px] shrink-0 ${getDistanceColorClass(anchorDist)}`}>
+                                {formatDistance(anchorDist)}
+                            </span>
                         </>
                     )}
                 </div>

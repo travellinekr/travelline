@@ -1,6 +1,8 @@
 import { ShoppingBag } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
+import { useAnchor } from "@/contexts/AnchorContext";
+import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
 const SHOPPING_TYPE_LABELS: Record<string, string> = {
     'department-store': '백화점', 'mall': '쇼핑몰', 'market': '재래시장',
@@ -27,6 +29,13 @@ export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
         ? SHOPPING_TYPE_LABELS[card.shoppingType] || card.shoppingType
         : "Shopping";
     const hasNotes = checkHasNotes(card.notes);
+
+    const { anchorCard } = useAnchor();
+    const anchorDist =
+        anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
+            ? haversineMeters(anchorCard.coordinates, card.coordinates)
+            : null;
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
 
     return (
         <CardShell
@@ -58,6 +67,14 @@ export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
                         <>
                             <span className="text-gray-300 shrink-0">|</span>
                             <span className="text-[11px] text-purple-600 font-bold shrink-0">면세</span>
+                        </>
+                    )}
+                    {showDist && anchorDist !== null && (
+                        <>
+                            <span className="text-gray-300 shrink-0">|</span>
+                            <span className={`text-[11px] shrink-0 ${getDistanceColorClass(anchorDist)}`}>
+                                {formatDistance(anchorDist)}
+                            </span>
                         </>
                     )}
                 </div>

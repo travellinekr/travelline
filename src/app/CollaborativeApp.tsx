@@ -583,10 +583,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             addToast('선택한 카드 기준으로 보관함에서 조회 됩니다.', 'info');
         }
     }, [selectedAnchorId, addToast]);
-    const anchorContextValue = useMemo(
-        () => ({ selectedAnchorId, toggleAnchor }),
-        [selectedAnchorId, toggleAnchor]
-    );
 
     const containerRef = useRef<HTMLDivElement>(null);
     // Liveblocks cards 최신값 참조 (stale closure 방지)
@@ -1698,6 +1694,30 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const getInboxSlideClass = () => {
         return inboxState === 'closed' ? 'translate-x-full' : 'translate-x-0';
     };
+
+    // anchor 카드 객체 + 배너 클릭 시 타임라인 카드로 스크롤
+    const anchorCard = useMemo(
+        () => (selectedAnchorId ? (cards as any)?.get?.(selectedAnchorId) ?? null : null),
+        [selectedAnchorId, cards]
+    );
+    // anchor 카드가 storage에서 사라지면 자동 해제
+    useEffect(() => {
+        if (selectedAnchorId && !anchorCard) setSelectedAnchorId(null);
+    }, [selectedAnchorId, anchorCard]);
+    const scrollToAnchor = useCallback(() => {
+        if (!selectedAnchorId) return;
+        const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+        if (isMobile) setInboxState('closed'); // 모바일은 인박스 닫고 타임라인 노출
+        // 인박스 닫힘 애니메이션 후 스크롤
+        setTimeout(() => {
+            const el = document.querySelector(`[data-card-id="${selectedAnchorId}"]`);
+            el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, isMobile ? 350 : 0);
+    }, [selectedAnchorId]);
+    const anchorContextValue = useMemo(
+        () => ({ selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor }),
+        [selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor]
+    );
 
     const toggleInbox = () => {
         setInboxState(prev => prev === 'closed' ? 'open' : 'closed');
