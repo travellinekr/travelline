@@ -50,6 +50,7 @@ import { useCardMutations } from "@/hooks/useCardMutations";
 import { useMobileInbox } from "@/hooks/useMobileInbox";
 import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { usePresenceCursor } from "@/hooks/usePresenceCursor";
+import { useAnchorLogic } from "@/hooks/useAnchorLogic";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -575,16 +576,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const { toasts, addToast, removeToast } = useToast();
 
     // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
-    const [selectedAnchorId, setSelectedAnchorId] = useState<string | null>(null);
-    const toggleAnchor = useCallback((cardId: string, card: any) => {
-        if (!card?.coordinates) return; // 좌표 없는 카드는 anchor 불가
-        if (selectedAnchorId === cardId) {
-            setSelectedAnchorId(null);
-        } else {
-            setSelectedAnchorId(cardId);
-            addToast('선택한 카드 기준으로 보관함에서 조회 됩니다.', 'info');
-        }
-    }, [selectedAnchorId, addToast]);
+    const anchorContextValue = useAnchorLogic({ cards, addToast, setInboxState });
 
     const containerRef = useRef<HTMLDivElement>(null);
     const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
@@ -1612,30 +1604,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // 모든 경우에 드래그 상태 초기화
         setActiveDragItem(null);
     };
-
-    // anchor 카드 객체 + 배너 클릭 시 타임라인 카드로 스크롤
-    const anchorCard = useMemo(
-        () => (selectedAnchorId ? (cards as any)?.get?.(selectedAnchorId) ?? null : null),
-        [selectedAnchorId, cards]
-    );
-    // anchor 카드가 storage에서 사라지면 자동 해제
-    useEffect(() => {
-        if (selectedAnchorId && !anchorCard) setSelectedAnchorId(null);
-    }, [selectedAnchorId, anchorCard]);
-    const scrollToAnchor = useCallback(() => {
-        if (!selectedAnchorId) return;
-        const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
-        if (isMobile) setInboxState('closed'); // 모바일은 인박스 닫고 타임라인 노출
-        // 인박스 닫힘 애니메이션 후 스크롤
-        setTimeout(() => {
-            const el = document.querySelector(`[data-card-id="${selectedAnchorId}"]`);
-            el?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, isMobile ? 350 : 0);
-    }, [selectedAnchorId]);
-    const anchorContextValue = useMemo(
-        () => ({ selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor }),
-        [selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor]
-    );
 
     // Confirm handlers for destination change
     const handleConfirmDestinationChange = () => {
