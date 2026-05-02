@@ -51,6 +51,8 @@ import { useMobileInbox } from "@/hooks/useMobileInbox";
 import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { useAnchorLogic } from "@/hooks/useAnchorLogic";
+import { isPastDayColumn } from "@/utils/timeline";
+import { findSourceColumn, isInRightDeleteZone } from "@/utils/dnd";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -1019,11 +1021,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         // 📱 모바일: 드래그 오버레이의 40% 이상이 화면 우측 밖으로 벗어나면 right-delete-zone으로 처리
-        // (snapCenterToCursor로 오버레이 중심이 포인터에 위치 → 오버레이 우측 끝 = pointerX + overlayWidth/2)
         if (typeof window !== 'undefined' && window.innerWidth < 768 && pointerCoords) {
-            const overlayWidth = window.innerWidth - 32;
-            const overlayRight = pointerCoords.x + overlayWidth / 2;
-            if ((overlayRight - window.innerWidth) > overlayWidth * 0.4) {
+            if (isInRightDeleteZone(pointerCoords.x, window.innerWidth)) {
                 const deleteZone = args.droppableContainers.find(
                     (container: any) => container.id === 'right-delete-zone'
                 );
@@ -1218,14 +1217,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // =========================================
         // STEP 2: sourceColumnId 찾기 (어디서 드래그했는지)
         // =========================================
-        let sourceColumnId = null;
-        let oldIndex = -1;
-        for (const col of (columns as any).values()) {
-            const list = col.cardIds;
-            const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-            const idx = cardIdsArray.indexOf(activeId);
-            if (idx !== -1) { sourceColumnId = col.id; oldIndex = idx; break; }
-        }
+        const { sourceColumnId, oldIndex } = findSourceColumn(activeId, columns);
 
         // sourceColumnId를 찾지 못하면 (유효하지 않은 드래그) 중단
         // 단, picker/sample 카드는 예외 (Picker에서 오는 카드는 sourceColumnId가 없음)
@@ -1237,28 +1229,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // =========================================
         // STEP 2.5: 지난 일차 제한
         // =========================================
-        const isPastDayColumn = (columnId: string): boolean => {
-            const match = /^day([1-9]\d*)$/.exec(columnId);
-            if (!match) return false;
-            const dayNum = parseInt(match[1]);
-            if (!flightInfo?.outbound?.date) return false;
-            const dayDate = new Date(flightInfo.outbound.date);
-            dayDate.setDate(dayDate.getDate() + (dayNum - 1));
-            dayDate.setHours(0, 0, 0, 0);
-            const today = new Date();
-            today.setHours(0, 0, 0, 0);
-            return dayDate < today;
-        };
-
         // 지난 일차 카드를 다른 컬럼으로 이동/삭제 시도
-        if (sourceColumnId && isPastDayColumn(sourceColumnId) && targetColumnId !== sourceColumnId) {
+        if (sourceColumnId && isPastDayColumn(sourceColumnId, flightInfo) && targetColumnId !== sourceColumnId) {
             addToast('지난 일정의 카드는 이동하거나 삭제할 수 없어요.', 'warning');
             setActiveDragItem(null);
             return;
         }
 
         // 지난 일차로 카드 추가 시도
-        if (isPastDayColumn(targetColumnId) && targetColumnId !== sourceColumnId) {
+        if (isPastDayColumn(targetColumnId, flightInfo) && targetColumnId !== sourceColumnId) {
             addToast('지난 일정에는 카드를 추가할 수 없어요.', 'warning');
             setActiveDragItem(null);
             return;
