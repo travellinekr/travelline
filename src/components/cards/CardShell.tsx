@@ -140,7 +140,7 @@ export function CardShell({
                         {...(onOpenNotes && !isInbox ? {} : listeners)}
                     >
                         <NotebookPen
-                            className={`w-4 h-4 transition-colors ${isInbox
+                            className={`w-4 h-4 transition-colors ${isInbox || !onOpenNotes
                                 ? "text-gray-200 cursor-not-allowed"
                                 : hasNotes
                                     ? "text-green-500 group-hover:text-blue-500"

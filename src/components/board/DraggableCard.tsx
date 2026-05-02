@@ -247,8 +247,8 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   // 메모 모달 상태 관리
   const [isNotesOpen, setIsNotesOpen] = useState(false);
 
-  // anchor 후보: 타임라인 변형(compact) + 헤더 아님 + 좌표 보유
-  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates;
+  // anchor 후보: 타임라인 변형(compact) + 헤더 아님 + 좌표 보유 (viewer는 선택 불가)
+  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates && canEdit;
   const isAnchor = isAnchorCandidate && selectedAnchorId === card.id;
   const handleAnchorClick = isAnchorCandidate ? () => toggleAnchor(card.id, card) : undefined;
 
@@ -309,7 +309,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
         variant,
         onVoteToggle: handleVoteToggle,
         onUpdateCard: handleUpdateCard,
-        onOpenNotes: () => setIsNotesOpen(true),
+        onOpenNotes: canEdit ? () => setIsNotesOpen(true) : undefined,
         hasNotes: !!(card.notes && Array.isArray(card.notes) && card.notes.length > 0),
         isHeader,
         canEdit,
