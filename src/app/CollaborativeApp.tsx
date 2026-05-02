@@ -51,6 +51,7 @@ import { useDragDrop } from "@/hooks/useDragDrop";
 import { isPastDayColumn } from "@/utils/timeline";
 import { findSourceColumn } from "@/utils/dnd";
 import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
+import { validateDragDrop } from "@/utils/dragValidation";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -231,6 +232,19 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         if (overId === 'right-delete-zone') {
             // 📱 모바일 우측 삭제존: 타임라인 카드 완전 삭제 (인박스 카드 제외)
             const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
+
+            // 🔒 destination-header 카드 + 항공편 등록 상태에서는 confirm 후 처리
+            // (데스크톱에서 destination-header → 다른 곳 드래그 시 confirm 뜨는 것과 동일 흐름)
+            if (foundColumnId === 'destination-header' && flightInfo) {
+                setPendingDestinationDrop({
+                    activeId: String(activeId),
+                    draggedCard,
+                    targetColumnId: 'destination-candidates',
+                });
+                setShowConfirm(true);
+                return;
+            }
+
             if (foundColumnId && foundColumnId !== 'inbox') {
                 removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
             }
@@ -305,29 +319,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // =========================================
         // STEP 3: 카테고리별 검증 (올바른 카드 타입인지)
         // =========================================
+        const validation = validateDragDrop({ draggedCard, targetColumnId, sourceColumnId, flightInfo });
+        if (!validation.ok) {
+            if ('reason' in validation) addToast(validation.reason, 'warning');
+            setActiveDragItem(null);
+            return;
+        }
 
-        // 최종 여행지(destination-header)에는 도시 카드만, 딱 1개만 허용
+        // 최종 여행지에 기존 카드가 있으면 자동으로 교체 (validation 통과 후만)
         if (targetColumnId === 'destination-header') {
-            // 🔒 항공편이 이미 등록된 경우 여행지 변경 불가
-            if (flightInfo) {
-                addToast('항공편이 등록된 경우 여행지를 변경할 수 없습니다.', 'warning');
-                setActiveDragItem(null);
-                return;
-            }
-
-            if (draggedCard?.category !== 'destination') {
-                addToast('여행지 카드만 넣을 수 있습니다.', 'warning');
-                setActiveDragItem(null);
-                return;
-            }
-
-            // 🔥 CRITICAL: self-drop 체크 (같은 위치에 드롭)
-            if (sourceColumnId === 'destination-header') {
-                setActiveDragItem(null);
-                return;
-            }
-
-            // 기존 카드가 있으면 자동으로 교체 (self-drop이 아닌 경우만)
             const destCol = (columns as any).get('destination-header');
             if (destCol && destCol.cardIds.length >= 1) {
                 const existingCardId = destCol.cardIds[0];
@@ -399,55 +399,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
         }
 
-
-        if (targetColumnId === 'day0') {
-            if (draggedCard?.category !== 'preparation') {
-                addToast('여행준비에는 여행준비 카드만 들어갑니다.', 'warning');
-                setActiveDragItem(null);
-                return;
-            }
-        }
-
-        // 항공 섹션에는 항공 카드만
-        if (targetColumnId === 'flights') {
-            if (draggedCard?.category !== 'flight') {
-                addToast('항공에는 항공 카드만 들어걡니다.', 'warning');
-                setActiveDragItem(null);
-                return;
-            }
-        }
-
-        // 여행지 후보에는 여행지 카드만
-        if (targetColumnId === 'destination-candidates') {
-            if (draggedCard?.category !== 'destination') {
-                addToast('여행지 후보에는 여행지 카드만 들어갑니다.', 'warning');
-                setActiveDragItem(null);
-                return;
-            }
-        }
-
-        // 도시(destination) 카드는 여행지 후보, 최종 여행지, 보관함에만 드롭 가능
-        if (draggedCard?.category === 'destination') {
-            if (targetColumnId !== 'destination-candidates' && targetColumnId !== 'destination-header' && targetColumnId !== 'inbox') {
-                setActiveDragItem(null);
-                return;
-            }
-        }
-
-        // 🎯 항공카드는 원래 일차에만 머물러야 함 (다른 일차, Inbox, 최종여행지 등으로 이동 불가)
-        if (draggedCard?.category === 'flight') {
-            // sourceColumnId가 day1, day2 등인지 확인
-            const isDayColumn = sourceColumnId && /^day[1-9]\d*$/.test(sourceColumnId);
-
-            if (isDayColumn) {
-                // 같은 일차 내에서만 재정렬 허용, 다른 곳으로 이동 시도 시 차단
-                if (targetColumnId !== sourceColumnId) {
-                    addToast('항공카드는 다른 위치로 이동할 수 없습니다.', 'warning');
-                    setActiveDragItem(null);
-                    return;
-                }
-            }
-        }
 
         // =========================================
         // STEP 4: 액션 실행 (source와 target 조합에 따라 분기)
@@ -533,6 +484,20 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         if (!pendingDestinationDrop) return;
 
         const { activeId, targetColumnId } = pendingDestinationDrop;
+
+        // day 컬럼의 카드들을 직접 삭제 (cleanupFlightAndDays는 컬럼만 삭제하고
+        // 카드 객체는 orphan으로 남기므로, 사용자 의도(완전 초기화)에 맞게 직접 정리)
+        if (columns) {
+            for (const col of (columns as any).values()) {
+                if (/^day\d+$/.test(col.id)) {
+                    const list = col.cardIds;
+                    const cardIds: string[] = Array.isArray(list) ? list : (list?.toArray ? list.toArray() : []);
+                    [...cardIds].forEach((cardId: string) => {
+                        removeCardFromTimeline({ cardId, sourceColumnId: col.id });
+                    });
+                }
+            }
+        }
 
         // 항공편/일정 리셋
         cleanupFlightAndDays();
