@@ -50,6 +50,7 @@ import { useAnchorLogic } from "@/hooks/useAnchorLogic";
 import { useDragDrop } from "@/hooks/useDragDrop";
 import { isPastDayColumn } from "@/utils/timeline";
 import { findSourceColumn } from "@/utils/dnd";
+import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -383,135 +384,18 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 return;
             }
 
-            // Hotel Picker 카드 → Day 컬럼 (day1, day2, ...)
-            if (draggedCard?.category === 'hotel' && /^day[1-9]\d*$/.test(targetColumnId)) {
-                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
+            // 5개 카테고리 Picker 카드 (hotel/transport/food/shopping/tourspa) → Day 컬럼
+            if (
+                /^day[1-9]\d*$/.test(targetColumnId) &&
+                ['hotel', 'transport', 'food', 'shopping', 'tourspa'].includes(draggedCard?.category)
+            ) {
                 const targetCol = (columns as any).get(targetColumnId);
                 const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-
-                createCardToColumn({
-                    title: draggedCard.title,
-                    category: draggedCard.category,
-                    accommodationType: draggedCard.accommodationType,
-                    checkInTime: draggedCard.checkInTime,
-                    checkOutTime: draggedCard.checkOutTime,
-                    city: draggedCard.city,
-                    coordinates: draggedCard.coordinates,
-                    description: draggedCard.description,
-                    tags: draggedCard.tags,
-                    targetColumnId: targetColumnId,
-                    targetIndex: finalTargetIndex
-                });
-
-                return;
-            }
-
-            // Transport Picker 카드 → Day 컬럼 (day1, day2, ...)
-            if (draggedCard?.category === 'transport' && /^day[1-9]\d*$/.test(targetColumnId)) {
-                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
-                const targetCol = (columns as any).get(targetColumnId);
-                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-
-                createCardToColumn({
-                    text: draggedCard.text,
-                    title: draggedCard.title,
-                    category: draggedCard.category,
-                    transportationType: draggedCard.transportationType,
-                    city: draggedCard.city,
-                    description: draggedCard.description,
-                    priceRange: draggedCard.priceRange,
-                    availability: draggedCard.availability,
-                    features: draggedCard.features,
-                    appRequired: draggedCard.appRequired,
-                    appName: draggedCard.appName,
-                    icon: draggedCard.icon,
-                    targetColumnId: targetColumnId,
-                    targetIndex: finalTargetIndex
-                });
-
-                return;
-            }
-
-            // Food Picker 카드 → Day 컬럼 (day1, day2, ...)
-            if (draggedCard?.category === 'food' && /^day[1-9]\d*$/.test(targetColumnId)) {
-                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
-                const targetCol = (columns as any).get(targetColumnId);
-                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-
-                createCardToColumn({
-                    title: draggedCard.title,
-                    category: draggedCard.category,
-                    restaurantType: draggedCard.restaurantType,
-                    city: draggedCard.city,
-                    coordinates: draggedCard.coordinates,
-                    cuisine: draggedCard.cuisine,
-                    specialty: draggedCard.specialty,
-                    priceRange: draggedCard.priceRange,
-                    michelin: draggedCard.michelin,
-                    reservation: draggedCard.reservation,
-                    openingHours: draggedCard.openingHours,
-                    features: draggedCard.features,
-                    icon: draggedCard.icon,
-                    description: draggedCard.description,
-                    targetColumnId: targetColumnId,
-                    targetIndex: finalTargetIndex
-                });
-
-                return;
-            }
-
-            // Shopping Picker 카드 → Day 컬럼 (day1, day2, ...)
-            if (draggedCard?.category === 'shopping' && /^day[1-9]\d*$/.test(targetColumnId)) {
-                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
-                const targetCol = (columns as any).get(targetColumnId);
-                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-
-                createCardToColumn({
-                    title: draggedCard.title,
-                    category: draggedCard.category,
-                    shoppingType: draggedCard.shoppingType,
-                    city: draggedCard.city,
-                    coordinates: draggedCard.coordinates,
-                    shoppingCategory: draggedCard.shoppingCategory,
-                    specialItems: draggedCard.specialItems,
-                    priceRange: draggedCard.priceRange,
-                    openingHours: draggedCard.openingHours,
-                    taxRefund: draggedCard.taxRefund,
-                    features: draggedCard.features,
-                    icon: draggedCard.icon,
-                    description: draggedCard.description,
-                    targetColumnId: targetColumnId,
-                    targetIndex: finalTargetIndex
-                });
-
-                return;
-            }
-
-            // TourSpa Picker 카드 → Day 컬럼 (day1, day2, ...)
-            if (draggedCard?.category === 'tourspa' && /^day[1-9]\d*$/.test(targetColumnId)) {
-                // 맨 뒤에 추가: 기존 카드 개수를 targetIndex로 사용
-                const targetCol = (columns as any).get(targetColumnId);
-                const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-
-                createCardToColumn({
-                    title: draggedCard.title,
-                    category: draggedCard.category,
-                    tourSpaType: draggedCard.tourSpaType,
-                    description: draggedCard.description,
-                    duration: draggedCard.duration,
-                    priceRange: draggedCard.priceRange,
-                    pickupAvailable: draggedCard.pickupAvailable,
-                    coordinates: draggedCard.coordinates,
-                    reservationRequired: draggedCard.reservationRequired,
-                    openingHours: draggedCard.openingHours,
-                    features: draggedCard.features,
-                    rating: draggedCard.rating,
-                    icon: draggedCard.icon,
-                    targetColumnId: targetColumnId,
-                    targetIndex: finalTargetIndex
-                });
-
-                return;
+                const payload = buildPickerCardPayload(draggedCard, targetColumnId, finalTargetIndex);
+                if (payload) {
+                    createCardToColumn(payload);
+                    return;
+                }
             }
         }
 
