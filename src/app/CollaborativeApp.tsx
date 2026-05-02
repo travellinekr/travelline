@@ -13,7 +13,7 @@ import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
 
-import { DndContext, DragOverlay, useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter, useDroppable, type Modifier } from "@dnd-kit/core";
+import { DndContext, DragOverlay, useDroppable, type Modifier } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { getEventCoordinates } from "@dnd-kit/utilities";
 
@@ -51,8 +51,9 @@ import { useMobileInbox } from "@/hooks/useMobileInbox";
 import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { useAnchorLogic } from "@/hooks/useAnchorLogic";
+import { useDragDrop } from "@/hooks/useDragDrop";
 import { isPastDayColumn } from "@/utils/timeline";
-import { findSourceColumn, isInRightDeleteZone } from "@/utils/dnd";
+import { findSourceColumn } from "@/utils/dnd";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -535,9 +536,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const { canEdit, loading: roleLoading } = useRole(roomId);
 
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");
-    const [activeDragItem, setActiveDragItem] = useState<any>(null);
-    const [activeDragSourceColumn, setActiveDragSourceColumn] = useState<string | null>(null);
-    const [dragOverlayWidth, setDragOverlayWidth] = useState<number | undefined>(undefined);
     const [projectTitle, setProjectTitle] = useState<string>(initialTitle);
 
     // Confirm dialog state
@@ -573,7 +571,28 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         autoScrollRef,
         scrollToDay,
     } = useTimelineScroll({ flightInfo });
-    const [isDeleteZoneActive, setIsDeleteZoneActive] = useState(false);
+    const {
+        activeDragItem,
+        setActiveDragItem,
+        activeDragSourceColumn,
+        dragOverlayWidth,
+        isDeleteZoneActive,
+        setIsDeleteZoneActive,
+        sensors,
+        handleDragStart,
+        handleDragMove,
+        customCollisionDetection,
+    } = useDragDrop<CategoryType>({
+        canEdit,
+        columns,
+        isInboxLocked,
+        inboxState,
+        setInboxState,
+        prevInboxStateRef,
+        setActiveCategory,
+        timelineScrollRef,
+        autoScrollRef,
+    });
 
     const { toasts, addToast, removeToast } = useToast();
 
@@ -799,11 +818,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
     const publicUrl = `${baseUrl}/room/${roomId}`;
 
-    const sensors = useSensors(
-        useSensor(MouseSensor, { activationConstraint: canEdit ? { distance: 15 } : { distance: 999999 } }),
-        useSensor(TouchSensor, { activationConstraint: canEdit ? { delay: 250, tolerance: 5 } : { distance: 999999 } })
-    );
-
     const destinationCard = useMemo(() => {
         const destCol = (columns as any)?.get('destination-header');
         if (!destCol || destCol.cardIds.length === 0) return null;
@@ -950,124 +964,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             const match = transform.match(/translate3d\(([^p]+)px,\s*([^p]+)px/);
             if (match) {
                 setMobileCursorPos({ x: parseFloat(match[1]), y: parseFloat(match[2]) });
-            }
-        }
-    };
-
-    const handleDragStart = (event: any) => {
-        const card = event.active.data.current;
-        setActiveDragItem(card);
-        // 🚫 [항공카드 드래그 차단] flight 카드는 FlightSection에서만 관리되므로
-        // 드래그 시 Inbox 카테고리를 flight으로 전환하지 않음
-        if (card && card.category && card.category !== 'flight') setActiveCategory(card.category as CategoryType);
-
-        // 드래그 출발 컬럼 추적: 고스트 카드 variant 결정에 사용
-        if (columns && card) {
-            let foundCol: string | null = null;
-            for (const col of (columns as any).values()) {
-                const cardIds = Array.isArray(col.cardIds) ? col.cardIds : (col.cardIds?.toArray?.() ?? []);
-                if (cardIds.includes(String(card.id))) {
-                    foundCol = col.id;
-                    break;
-                }
-            }
-            setActiveDragSourceColumn(foundCol);
-        } else {
-            setActiveDragSourceColumn(null);
-        }
-        // 드래그 시작 시 원본 카드 폭 캡처 (DragOverlay 크기 동기화용)
-        const initialWidth = event.active.rect.current?.initial?.width;
-        if (initialWidth) {
-            setDragOverlayWidth(initialWidth);
-        } else if (typeof window !== 'undefined') {
-            // 모바일 TouchSensor에서 rect 측정 실패 시 폴백: 뷰포트 기반 기본값
-            setDragOverlayWidth(window.innerWidth < 768 ? window.innerWidth - 32 : 448);
-        }
-
-        // 📱 모바일: 드래그 시작 시 인박스 자동 숨김 → 타임라인 풀스크린
-        // (인박스 잠금 상태면 유지하여 AddOrDeleteButton 등 인박스 내부 드롭존 사용 가능)
-        if (typeof window !== 'undefined' && window.innerWidth < 768 && !isInboxLocked) {
-            prevInboxStateRef.current = inboxState;
-            setInboxState('closed');
-        }
-    };
-
-    // 커스텀 충돌 감지: 모바일 닫힌 보관함 특별 처리
-    const customCollisionDetection = (args: any) => {
-        // 🎯 **PRIORITY 1**: destination-header - 중앙 영역만 감지
-        const pointerCoords = args.pointerCoordinates;
-        if (pointerCoords) {
-            const destHeaderContainer = args.droppableContainers.find(
-                (container: any) => container.id === 'destination-header'
-            );
-            if (destHeaderContainer && destHeaderContainer.rect.current) {
-                const rect = destHeaderContainer.rect.current;
-
-                // 중앙 80% 영역만 드롭존으로 인정 (좌우 10%씩 여백)
-                const margin = (rect.right - rect.left) * 0.1;
-                const centerLeft = rect.left + margin;
-                const centerRight = rect.right - margin;
-
-                // 포인터가 destination-header 중앙 영역 안에 있는지 확인
-                if (
-                    pointerCoords.x >= centerLeft &&
-                    pointerCoords.x <= centerRight &&
-                    pointerCoords.y >= rect.top &&
-                    pointerCoords.y <= rect.bottom
-                ) {
-                    return [{ id: destHeaderContainer.id, data: destHeaderContainer.data }];
-                }
-            }
-        }
-
-        // 📱 모바일: 드래그 오버레이의 40% 이상이 화면 우측 밖으로 벗어나면 right-delete-zone으로 처리
-        if (typeof window !== 'undefined' && window.innerWidth < 768 && pointerCoords) {
-            if (isInRightDeleteZone(pointerCoords.x, window.innerWidth)) {
-                const deleteZone = args.droppableContainers.find(
-                    (container: any) => container.id === 'right-delete-zone'
-                );
-                if (deleteZone) {
-                    return [{ id: deleteZone.id, data: deleteZone.data }];
-                }
-            }
-        }
-
-        const pointerCollisions = pointerWithin(args);
-        if (pointerCollisions.length > 0) {
-            return pointerCollisions;
-        }
-        return closestCenter(args);
-    };
-
-    // 📱 모바일 드래그 중 하단 영역 감지 → 타임라인 자동 스크롤 + 우측 삭제존 활성화 추적
-    const handleDragMove = (event: any) => {
-        if (typeof window === 'undefined' || window.innerWidth >= 768) return;
-
-        // 우측 삭제존 시각 강조: customCollisionDetection 결과(over)와 동기화
-        const active = event.over?.id === 'right-delete-zone';
-        setIsDeleteZoneActive(prev => (prev === active ? prev : active));
-
-        if (!timelineScrollRef.current) return;
-
-        const pointerY = event.activatorEvent?.clientY
-            ?? (event.activatorEvent as TouchEvent)?.touches?.[0]?.clientY
-            ?? 0;
-
-        const windowHeight = window.innerHeight;
-        const scrollThreshold = windowHeight - 80; // 하단 80px = 스크롤 트리거 존
-
-        if (pointerY > scrollThreshold) {
-            // 하단에 가까울수록 스크롤 빠르게
-            const speed = Math.min(20, Math.round((pointerY - scrollThreshold) / 3) + 5);
-            if (!autoScrollRef.current) {
-                autoScrollRef.current = setInterval(() => {
-                    timelineScrollRef.current?.scrollBy({ top: speed, behavior: 'instant' });
-                }, 40);
-            }
-        } else {
-            if (autoScrollRef.current) {
-                clearInterval(autoScrollRef.current);
-                autoScrollRef.current = null;
             }
         }
     };
