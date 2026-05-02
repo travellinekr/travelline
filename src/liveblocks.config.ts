@@ -89,6 +89,7 @@ type UserMeta = {
   info?: {
     name?: string;
     avatar?: string;
+    role?: 'owner' | 'editor' | 'viewer';
   };
 };
 

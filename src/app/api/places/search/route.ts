@@ -77,7 +77,8 @@ export async function GET(request: NextRequest) {
         const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(searchQuery)}&language=ko${locationBias}&key=${apiKey}`;
 
 
-        const response = await fetch(url);
+        // 같은 검색어/도시 조합이면 1일 캐시
+        const response = await fetch(url, { next: { revalidate: 86400 } });
         const data = await response.json();
 
         if (data.status !== 'OK' && data.status !== 'ZERO_RESULTS') {

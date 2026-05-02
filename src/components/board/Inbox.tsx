@@ -3,15 +3,26 @@ import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo, useMemo } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
-import { DestinationPicker } from "./DestinationPicker";
-import { AccommodationPicker } from "./AccommodationPicker";
-import { TransportationPicker } from "./TransportationPicker";
-import { FoodPicker } from "./FoodPicker";
-import { ShoppingPicker } from "./ShoppingPicker";
-import { TourSpaPicker } from "./TourSpaPicker";
-import { EtcPicker } from "./EtcPicker";
-import { PreparationPicker } from "./PreparationPicker";
+
+// 카테고리 탭 클릭 시점에 chunk 로드. 보드 진입 메인 청크에서 picker 코드 + CITY_DATA(~120KB) 분리.
+const PickerLoading = () => (
+    <div className="flex items-center justify-center h-[200px] text-slate-300 text-xs">
+        불러오는 중...
+    </div>
+);
+const dyn = <T extends Record<string, any>>(loader: () => Promise<T>, key: keyof T) =>
+    dynamic(() => loader().then((m) => m[key]), { ssr: false, loading: PickerLoading });
+
+const DestinationPicker = dyn(() => import("./DestinationPicker"), "DestinationPicker") as any;
+const AccommodationPicker = dyn(() => import("./AccommodationPicker"), "AccommodationPicker") as any;
+const TransportationPicker = dyn(() => import("./TransportationPicker"), "TransportationPicker") as any;
+const FoodPicker = dyn(() => import("./FoodPicker"), "FoodPicker") as any;
+const ShoppingPicker = dyn(() => import("./ShoppingPicker"), "ShoppingPicker") as any;
+const TourSpaPicker = dyn(() => import("./TourSpaPicker"), "TourSpaPicker") as any;
+const EtcPicker = dyn(() => import("./EtcPicker"), "EtcPicker") as any;
+const PreparationPicker = dyn(() => import("./PreparationPicker"), "PreparationPicker") as any;
 
 // anchor 카테고리별 배너 컬러
 // safelist (런타임 카테고리 키 매핑): bg-rose-50 bg-orange-50 bg-purple-50 bg-blue-50 bg-cyan-50

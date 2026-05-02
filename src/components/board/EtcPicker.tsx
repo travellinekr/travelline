@@ -165,10 +165,12 @@ export function EtcPicker({
                         />
                     ))}
 
-                    {/* 직접 추가하기 / 삭제 영역 */}
-                    <AddOrDeleteButton
-                        onAdd={() => setIsAddModalOpen(true)}
-                    />
+                    {/* 직접 추가하기 / 삭제 영역 (viewer는 숨김) */}
+                    {onAddCard && (
+                        <AddOrDeleteButton
+                            onAdd={() => setIsAddModalOpen(true)}
+                        />
+                    )}
                 </div>
             </div>
 

@@ -94,7 +94,6 @@ function extractIATA(text: string): string | null {
 const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
-  const allCards = useStorage((root) => root.cards);
 
   const isOverCard = over ? cards.some((c: any) => c.id === over.id) : false;
   const isSectionActive = (isOver || isOverCard) && active;
@@ -104,13 +103,13 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
   const textColor = isBlue ? "text-blue-500" : "text-emerald-500";
   const borderColor = isBlue ? "border-blue-200" : "border-emerald-200";
 
-  // 이 일차의 카드들에서 좌표 추출 (useMemo로 메모이제이션하여 깜빡임 방지)
+  // 이 일차의 카드들에서 좌표 추출 (useMemo로 메모이제이션하여 깜빡임 방지).
+  // cards prop은 부모 Timeline이 이미 root.cards에서 lookup한 fullCard 배열이므로
+  // useStorage(root.cards)로 다시 구독할 필요 없음 (다른 컬럼 변경 시 불필요한 리렌더 방지).
   const markers = useMemo(() => {
-    if (!allCards) return [];
-
     const result = cards
       .map((card: any) => {
-        const fullCard = (allCards as any).get?.(card.id);
+        const fullCard = card;
         if (!fullCard) return null;
 
         const cat = fullCard.category || 'unknown';
@@ -144,7 +143,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
       .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null);
 
     return result;
-  }, [allCards, cards]);
+  }, [cards]);
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
@@ -420,6 +419,7 @@ export const Timeline = memo(function Timeline({
                   onConfirm={(data) => {
                     // TODO: 항공편 데이터 저장 및 자동 Day 생성 로직
                   }}
+                  canEdit={canEdit}
                 />
               </div>
             )}

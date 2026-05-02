@@ -71,6 +71,31 @@ const getSeason = (month: number, hemisphere: 'north' | 'south') => {
     return 'autumn';
 };
 
+// localStorage 7일 TTL 캐시. 같은 (city, month)는 매 진입마다 Unsplash fetch 안 함.
+const UNSPLASH_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7일
+
+const readUnsplashCache = (city: string, month: number): string | null => {
+    if (typeof window === 'undefined') return null;
+    try {
+        const raw = localStorage.getItem(`unsplash_${city}_${month}`);
+        if (!raw) return null;
+        const { url, ts } = JSON.parse(raw);
+        if (Date.now() - ts > UNSPLASH_CACHE_TTL) return null;
+        return typeof url === 'string' ? url : null;
+    } catch {
+        return null;
+    }
+};
+
+const writeUnsplashCache = (city: string, month: number, url: string) => {
+    if (typeof window === 'undefined') return;
+    try {
+        localStorage.setItem(`unsplash_${city}_${month}`, JSON.stringify({ url, ts: Date.now() }));
+    } catch {
+        // quota 초과 등은 무시
+    }
+};
+
 // API Fetch Function
 const fetchUnsplashImage = async (city: CityData, month: number | null) => {
     // Check for local images first (Osaka January only for now)
@@ -83,6 +108,10 @@ const fetchUnsplashImage = async (city: CityData, month: number | null) => {
 
     // If no key or no month, return fallback immediately
     if (!accessKey || !month) return FALLBACK_IMAGES[city.engName];
+
+    // localStorage 캐시 hit → 즉시 반환 (Unsplash fetch 스킵)
+    const cached = readUnsplashCache(city.engName, month);
+    if (cached) return cached;
 
     // Restore Smart Logic: Use Season for Query
     const season = getSeason(month, city.hemisphere || 'north');
@@ -102,8 +131,9 @@ const fetchUnsplashImage = async (city: CityData, month: number | null) => {
         const data = await response.json();
 
         if (data.results && data.results.length > 0) {
-            // Return the high-quality regular URL
-            return data.results[0].urls.regular;
+            const url = data.results[0].urls.regular;
+            writeUnsplashCache(city.engName, month, url);
+            return url;
         }
     } catch (e) {
     }

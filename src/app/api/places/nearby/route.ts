@@ -27,7 +27,8 @@ export async function GET(request: NextRequest) {
         const location = `${lat},${lng}`;
         const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${encodeURIComponent(location)}&radius=${radius}&language=ko&key=${apiKey}`;
 
-        const response = await fetch(url);
+        // 같은 좌표/반경이면 1일 캐시 (Google Places 결과는 거의 변하지 않음)
+        const response = await fetch(url, { next: { revalidate: 86400 } });
         const data = await response.json();
 
         if (data.status !== 'OK' && data.status !== 'ZERO_RESULTS') {
@@ -109,7 +110,7 @@ export async function GET(request: NextRequest) {
             const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${nearestPlace.id}&fields=name,formatted_address&language=ko&key=${apiKey}`;
             console.log('[Nearby API] Place Details 요청:', detailsUrl.replace(apiKey, 'API_KEY'));
 
-            const detailsResponse = await fetch(detailsUrl);
+            const detailsResponse = await fetch(detailsUrl, { next: { revalidate: 86400 } });
             const detailsData = await detailsResponse.json();
 
             console.log('[Nearby API] Place Details 응답:', {

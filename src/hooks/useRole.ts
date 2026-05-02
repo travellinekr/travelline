@@ -1,64 +1,29 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
-import { useAuth } from './useAuth';
+import { useSelf } from '@/liveblocks.config';
 
 type Role = 'owner' | 'editor' | 'viewer' | null;
 
 interface UseRoleResult {
     role: Role;
     loading: boolean;
-    canEdit: boolean;   // owner 또는 editor
+    canEdit: boolean;
     isOwner: boolean;
     isViewer: boolean;
 }
 
-export function useRole(projectId: string | null): UseRoleResult {
-    const { user, loading: authLoading } = useAuth();
-    const [role, setRole] = useState<Role>(null);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        if (authLoading) return;
-
-        // 로그인 안 되어 있으면 viewer 처리
-        if (!user || !projectId) {
-            setRole('viewer');
-            setLoading(false);
-            return;
-        }
-
-        const fetchRole = async () => {
-            setLoading(true);
-            const { data } = await supabase
-                .from('project_members')
-                .select('role')
-                .eq('project_id', projectId)
-                .eq('user_id', user.id)
-                .single();
-
-            if (data?.role) {
-                // 이미 등록된 멤버
-                setRole(data.role as Role);
-            } else {
-                // 미등록 사용자 → viewer로 자동 등록 (공유 링크 진입)
-                try {
-                    await fetch(`/api/projects/${projectId}/join`, { method: 'POST' });
-                } catch {
-                    // 등록 실패해도 viewer로 처리 (보드 조회는 허용)
-                }
-                setRole('viewer');
-            }
-            setLoading(false);
-        };
-
-        fetchRole();
-    }, [user, authLoading, projectId]);
+// liveblocks-auth가 prepareSession.userInfo.role로 권한을 내려주므로
+// 별도 Supabase 쿼리 없이 useSelf에서 즉시 읽음. ClientSideSuspense 안에서
+// 호출되므로 항상 동기적으로 값이 존재 → loading 항상 false.
+//
+// projectId 인자는 기존 시그니처 호환용. 실제로는 RoomProvider id로 결정됨.
+export function useRole(_projectId: string | null): UseRoleResult {
+    const self = useSelf();
+    const role = (self?.info?.role as Role) ?? 'viewer';
 
     return {
         role,
-        loading,
+        loading: false,
         canEdit: role === 'owner' || role === 'editor',
         isOwner: role === 'owner',
         isViewer: role === 'viewer',

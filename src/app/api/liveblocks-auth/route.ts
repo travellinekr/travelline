@@ -67,6 +67,7 @@ export async function POST(request: NextRequest) {
                     email: '',
                     avatar: '',
                     color: `hsl(${Math.floor(Math.random() * 360)}, 60%, 55%)`,
+                    role: 'viewer',
                 },
             });
             const targetRoom = room || '*';
@@ -103,7 +104,7 @@ export async function POST(request: NextRequest) {
         if (!user) {
             const anonId = `anon_${crypto.randomUUID()}`;
             const session = liveblocks.prepareSession(anonId, {
-                userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8' },
+                userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8', role: 'viewer' },
             });
             const targetRoom = room || '*';
             session.allow(targetRoom, session.READ_ACCESS);
@@ -141,6 +142,20 @@ export async function POST(request: NextRequest) {
             }
         }
 
+        // 비회원 로그인 사용자 → viewer로 자동 등록 (공유 링크 진입 케이스).
+        // 응답 차단 안 하도록 fire-and-forget. 다음 토큰 갱신부터 정상 멤버로 인식.
+        if (room && !memberData) {
+            supabaseAdmin
+                .from('project_members')
+                .upsert(
+                    { project_id: room, user_id: user.id, role: 'viewer' },
+                    { onConflict: 'project_id,user_id', ignoreDuplicates: true }
+                )
+                .then(({ error }) => {
+                    if (error) console.error('[liveblocks-auth] auto-join 실패:', error.message);
+                });
+        }
+
         console.log(`[liveblocks-auth] user=${user.id} room=${room} role=${role}`);
 
         // 4. Liveblocks 권한 결정
@@ -154,6 +169,7 @@ export async function POST(request: NextRequest) {
                 email: isGuest ? '' : (user.email || ''),
                 avatar: isGuest ? '' : (user.user_metadata?.avatar_url || ''),
                 color: `hsl(${Math.abs(user.id.charCodeAt(0) * 137) % 360}, 70%, 50%)`,
+                role: role as 'owner' | 'editor' | 'viewer',
             },
         });
 

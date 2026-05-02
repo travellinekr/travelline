@@ -26,9 +26,10 @@ interface FlightSectionProps {
             airline: string;
         };
     }) => void;
+    canEdit?: boolean;
 }
 
-export function FlightSection({ destinationCard, addToast, onConfirm }: FlightSectionProps) {
+export function FlightSection({ destinationCard, addToast, onConfirm, canEdit = true }: FlightSectionProps) {
     const { setNodeRef, isOver } = useDroppable({ id: 'flights-timeline' });
     const flightInfo = useStorage((root) => root.flightInfo) as FlightInfo | null;
     const [isEditMode, setIsEditMode] = useState(false);
@@ -58,7 +59,7 @@ export function FlightSection({ destinationCard, addToast, onConfirm }: FlightSe
                 </h3>
                 <div className="flex items-center gap-2">
                     <span className="text-[11px] text-slate-400 font-medium">Flights</span>
-                    {flightInfo && !isEditMode && (
+                    {flightInfo && !isEditMode && canEdit && (
                         <button
                             onClick={() => setIsEditMode(true)}
                             className="flex items-center gap-1 px-3 py-1 text-xs font-medium text-purple-600 hover:text-purple-700 hover:bg-purple-50 rounded-lg transition-colors"
@@ -75,8 +76,12 @@ export function FlightSection({ destinationCard, addToast, onConfirm }: FlightSe
                 <>
                     {flightInfo && !isEditMode ? (
                         <FlightCardView flightInfo={flightInfo} isOver={isOver} />
-                    ) : (
+                    ) : canEdit ? (
                         <FlightForm {...flightForm} isOver={isOver} onConfirmClick={handleConfirmWrapper} />
+                    ) : (
+                        <div className="min-h-[72px] rounded-xl border shadow-sm bg-white border-gray-200 text-center py-6 flex items-center justify-center">
+                            <p className="text-xs text-slate-300 font-medium">항공편이 등록되지 않았습니다</p>
+                        </div>
                     )}
                 </>
             ) : (
