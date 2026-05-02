@@ -49,12 +49,12 @@ import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
+import { useMobileInbox } from "@/hooks/useMobileInbox";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
-type InboxStateType = 'closed' | 'open';
 
 // 📱 모바일 우측 드래그 삭제 드롭존
 function RightDeleteZone({ isActive }: { isActive: boolean }) {
@@ -563,17 +563,19 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const floatingBtnRef = useRef<HTMLDivElement>(null);
     const cachedContainerRect = useRef<DOMRect | null>(null);
 
-    const [inboxState, setInboxState] = useState<InboxStateType>('closed');
-    const prevInboxStateRef = useRef<InboxStateType>('closed');
-    const [isInboxLocked, setIsInboxLocked] = useState(false);
-    // 인박스 닫힘 시 잠금 자동 해제
-    useEffect(() => {
-        if (inboxState === 'closed') setIsInboxLocked(false);
-    }, [inboxState]);
+    const {
+        inboxState,
+        setInboxState,
+        prevInboxStateRef,
+        isInboxLocked,
+        setIsInboxLocked,
+        isKeyboardVisible,
+        toggleInbox,
+        getInboxSlideClass,
+    } = useMobileInbox();
     const [isDeleteZoneActive, setIsDeleteZoneActive] = useState(false);
     const timelineScrollRef = useRef<HTMLDivElement>(null);
     const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
-    const [isKeyboardVisible, setIsKeyboardVisible] = useState(false);
 
     const { toasts, addToast, removeToast } = useToast();
 
@@ -814,32 +816,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             });
         });
     }, [flightInfo]); // eslint-disable-line react-hooks/exhaustive-deps
-
-    // 모바일 키보드 감지
-    useEffect(() => {
-        if (typeof window === 'undefined' || !window.visualViewport) return;
-
-        const handleViewportChange = () => {
-            const viewport = window.visualViewport;
-            if (!viewport) return;
-
-            // 키보드가 올라오면 viewport 높이가 줄어듦 (모바일)
-            const viewportHeight = viewport.height;
-            const windowHeight = window.innerHeight;
-            const heightDiff = windowHeight - viewportHeight;
-
-            // 높이 차이가 150px 이상이면 키보드가 올라온 것으로 판단
-            setIsKeyboardVisible(heightDiff > 150);
-        };
-
-        window.visualViewport.addEventListener('resize', handleViewportChange);
-        window.visualViewport.addEventListener('scroll', handleViewportChange);
-
-        return () => {
-            window.visualViewport?.removeEventListener('resize', handleViewportChange);
-            window.visualViewport?.removeEventListener('scroll', handleViewportChange);
-        };
-    }, []);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -1698,10 +1674,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     };
 
-    const getInboxSlideClass = () => {
-        return inboxState === 'closed' ? 'translate-x-full' : 'translate-x-0';
-    };
-
     // anchor 카드 객체 + 배너 클릭 시 타임라인 카드로 스크롤
     const anchorCard = useMemo(
         () => (selectedAnchorId ? (cards as any)?.get?.(selectedAnchorId) ?? null : null),
@@ -1725,10 +1697,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         () => ({ selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor }),
         [selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor]
     );
-
-    const toggleInbox = () => {
-        setInboxState(prev => prev === 'closed' ? 'open' : 'closed');
-    };
 
     // Confirm handlers for destination change
     const handleConfirmDestinationChange = () => {
