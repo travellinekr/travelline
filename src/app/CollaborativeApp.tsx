@@ -4,14 +4,15 @@ import { useStorage, useMutation, useErrorListener } from "../liveblocks.config"
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
-import { Mouse, ChevronLeft, ChevronRight, Package, MapPin, Hotel, Lock, LockOpen } from "lucide-react";
+import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
 import { useRouter } from "next/navigation";
 import { UserAvatarMenu } from "@/components/header/UserAvatarMenu";
+import { RightDeleteZone } from "@/components/board/RightDeleteZone";
 
-import { DndContext, DragOverlay, useDroppable, type Modifier } from "@dnd-kit/core";
+import { DndContext, DragOverlay, type Modifier } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { getEventCoordinates } from "@dnd-kit/utilities";
 
@@ -33,12 +34,10 @@ const snapCenterToCursor: Modifier = ({ activatorEvent, draggingNodeRect, transf
 
 import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
-import { DraggableCard, renderCardInternal } from "../components/board/DraggableCard";
-import { HotelCard } from "@/components/cards/HotelCard";
-import { TransportCard } from "@/components/cards/TransportCard";
-import { FoodCard } from "@/components/cards/FoodCard";
-import { ShoppingCard } from "@/components/cards/ShoppingCard";
-import { TourSpaCard } from "@/components/cards/TourSpaCard";
+import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
+import { useExploreQueue } from "@/hooks/useExploreQueue";
+import { useEntryCardSync } from "@/hooks/useEntryCardSync";
+import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
@@ -55,31 +54,6 @@ import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
-
-// 📱 모바일 우측 드래그 삭제 드롭존
-function RightDeleteZone({ isActive }: { isActive: boolean }) {
-    const { setNodeRef } = useDroppable({ id: 'right-delete-zone' });
-    return (
-        <div
-            ref={setNodeRef}
-            className={`md:hidden fixed right-0 top-0 bottom-0 w-[20%] z-40 flex items-center justify-center pointer-events-none transition-colors duration-150 ${
-                isActive
-                    ? 'bg-red-500/50 border-l-4 border-red-500'
-                    : 'bg-red-500/5'
-            }`}
-        >
-            <span
-                style={{ writingMode: 'vertical-rl' }}
-                className={`font-bold tracking-widest ${
-                    isActive ? 'text-white text-base' : 'text-red-600/25 text-sm'
-                }`}
-            >
-                드롭하면 삭제 됩니다
-            </span>
-        </div>
-    );
-}
-
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const router = useRouter();
@@ -284,85 +258,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     }, [columns]);
 
-    // ── Explore에서 추가된 카드 큐 처리 (중복 체크 포함) ─────────────
-    useEffect(() => {
-        const queueKey = `explore_queue_${roomId}`;
-        const raw = localStorage.getItem(queueKey);
-        if (!raw) return;
-
-        let queued: any[] = [];
-        try { queued = JSON.parse(raw); } catch { return; }
-        if (!queued.length) return;
-
-        // 딜레이 후 처리 (Liveblocks 스토리지 준비 대기)
-        const timer = setTimeout(() => {
-            // 현재 보관함에 있는 카드들의 title+city 세트 (O(1) 중복 검색)
-            const existingKeys = new Set<string>();
-            if (cardsRef.current) {
-                cardsRef.current.forEach((c: any) => {
-                    if (c?.text && c?.city) {
-                        existingKeys.add(`${c.text}__${c.city}`);
-                    }
-                });
-            }
-
-            let addedCount = 0;
-            let skippedCount = 0;
-
-            queued.forEach((card) => {
-                const dupKey = `${card.name}__${card.city || ''}`;
-                if (existingKeys.has(dupKey)) {
-                    skippedCount++;
-                    return; // 중복 skip
-                }
-                try {
-                    handleCreateCard({
-                        title: card.name,
-                        category: card.category === 'food' ? 'food' : card.category === 'shopping' ? 'shopping' : 'hotel',
-                        type: 'place',
-                        city: card.city || '',
-                        icon: card.icon || '',
-                        coordinates: card.coordinates,
-                        description: card.description || '',
-                        priceRange: card.priceRange || '',
-                        openingHours: card.openingHours || '',
-                        michelin: card.michelin || '',
-                        specialty: card.specialty || '',
-                        features: card.features || [],
-                        reservation: card.reservation || false,
-                        restaurantType: card.restaurantType || '',
-                        cuisine: card.cuisine || '',
-                        accommodationType: card.accommodationType || '',
-                        checkInTime: card.checkInTime || '',
-                        checkOutTime: card.checkOutTime || '',
-                        tags: card.tags || [],
-                        shoppingType: card.shoppingType || '',
-                        shoppingCategory: card.shoppingCategory || '',
-                        specialItems: card.specialItems || '',
-                        taxRefund: card.taxRefund || false,
-                    });
-                    existingKeys.add(dupKey); // 방금 추가한 카드도 키에 등록
-                    addedCount++;
-                } catch (e) {
-                    console.error('[explore_queue] 카드 추가 실패:', e);
-                }
-            });
-
-            localStorage.removeItem(queueKey);
-
-            // 결과 토스트
-            if (addedCount > 0 && skippedCount > 0) {
-                addToast(`✈️ ${addedCount}개 카드가 추가되었고, ${skippedCount}개는 중복 스킵했습니다.`, 'info');
-            } else if (addedCount > 0) {
-                addToast(`✈️ Explore에서 ${addedCount}개 카드가 보관함에 추가됐어요!`, 'info');
-            } else if (skippedCount > 0) {
-                addToast(`모든 카드가 이미 보관함에 있어요. (${skippedCount}개 중복 스킵)`, 'warning');
-            }
-        }, 500); // Liveblocks 연결 대기 (ClientSideSuspense 내부라 이미 연결됨)
-
-        return () => clearTimeout(timer);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [roomId]);
+    // Explore에서 추가된 카드 큐 처리 (중복 체크 포함)
+    useExploreQueue({ roomId, cardsRef, handleCreateCard, addToast });
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -388,93 +285,19 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         return (cards as any)?.get(cardId) || null;
     }, [columns, cards]);
 
-    // Track previous destination card ID to detect removal
-    const prevDestinationCardId = useRef<string | null>(null);
+    // p1(입국심사) 카드 라이프사이클 + city 동기화
+    const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
 
-    // p1 카드(입국심사&필요사항) 메모 업데이트 mutation (여행지 삭제 시 초기화용)
-    const updateEntryCardNotes = useMutation(({ storage }, notes: any[]) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        const p1Card = cardsMap.get('p1');
-        if (p1Card) {
-            (p1Card as any).set('notes', notes);
-        }
-    }, []);
-
-    // p1 카드의 city 필드만 업데이트 (notes 자동 채우기 안 함 - 메모는 사용자가 직접 입력)
-    const setEntryCardCity = useMutation(({ storage }, city: string) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        const p1Card = cardsMap.get('p1');
-        if (!p1Card) return;
-        (p1Card as any).set('city', city);
-    }, []);
-
-    // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트 + notes 초기화)
-    const migrateP1Card = useMutation(({ storage }) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        let p1Card = cardsMap.get('p1');
-        if (p1Card) {
-            // [Resilience] p1Card가 LiveObject가 아닌 일반 객체로 저장되어 있을 경우를 대비한 체크
-            if (typeof (p1Card as any).get !== 'function') {
-                console.log('⚠️ p1Card is a plain object, converting to LiveObject');
-                const plainData = JSON.parse(JSON.stringify(p1Card)); // 깊은 복사
-                cardsMap.set('p1', new LiveObject(plainData));
-                p1Card = cardsMap.get('p1');
-            }
-
-            const currentText = (p1Card as any).get('text');
-            if (currentText !== '입국심사&필요사항') {
-                (p1Card as any).set('text', '입국심사&필요사항');
-            }
-            if (!(p1Card as any).get('isEntryCard')) {
-                (p1Card as any).set('isEntryCard', true);
-            }
-            // Info/메모 분리: 기존 자동 입력된 notes 전부 초기화
-            // 메모는 사용자가 직접 작성, 입국 정보는 Info 모달(data/ 파일)에서 제공
-            // ⚠️ undefined 대신 [] 사용 (Liveblocks는 undefined를 직렬화하지 않아 무시됨)
-            (p1Card as any).set('notes', []);
-        }
-    }, []);
-
-    // 앱 마운트 시 p1 카드 마이그레이션 실행 (editor/owner만)
-    useEffect(() => {
-        if (roleLoading || !canEdit) return; // 로딩 중이거나 viewer는 write 불가
-        migrateP1Card();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [canEdit, roleLoading]);
-
-    // Cleanup flight info and Day columns when destination is removed
-    useEffect(() => {
-        const currentId = destinationCard?.id || null;
-        const prevId = prevDestinationCardId.current;
-
-        // Detect removal: had a destination before, now it's gone
-        if (prevId && !currentId && canEdit && !roleLoading) {
+    // 여행지 제거 감지 → 항공편/일차 정리 + 입국 카드 city 초기화
+    useDestinationSync({
+        canEdit,
+        roleLoading,
+        destinationCard,
+        onDestinationRemoved: useCallback(() => {
             cleanupFlightAndDays();
-            // 입국심사 카드 city 초기화
             setEntryCardCity('');
-        }
-
-        // Update ref for next render
-        prevDestinationCardId.current = currentId;
-    }, [destinationCard, cleanupFlightAndDays, updateEntryCardNotes, canEdit, roleLoading]);
-
-    // 여행지 변경 시 입국심사 카드의 city 필드만 업데이트 (메모 자동 채우기 ❌)
-    const prevDestCityRef = useRef<string | null>(null);
-    useEffect(() => {
-        if (roleLoading || !canEdit) return;
-        const cityName = destinationCard?.text || destinationCard?.title || null;
-        const prevCity = prevDestCityRef.current;
-
-        if (cityName && cityName !== prevCity) {
-            // 도시명만 저장 → Info 모달이 이 city로 data/ 파일에서 실시간 로드
-            setEntryCardCity(cityName);
-        }
-
-        prevDestCityRef.current = cityName;
-    }, [destinationCard, setEntryCardCity, canEdit, roleLoading]);
+        }, [cleanupFlightAndDays, setEntryCardCity]),
+    });
 
     const handleFloatingButtonTouchStart = (e: React.TouchEvent) => {
         e.stopPropagation();
@@ -1159,90 +982,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         </main>
 
                         <DragOverlay dropAnimation={null} modifiers={[snapCenterToCursor]} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
-                            {activeDragItem ? (
-                                (String(activeDragItem.id).startsWith('picker-') && !String(activeDragItem.id).startsWith('picker-hotel-') && !String(activeDragItem.id).startsWith('picker-transport-') && !String(activeDragItem.id).startsWith('picker-food-') && !String(activeDragItem.id).startsWith('picker-shopping-') && !String(activeDragItem.id).startsWith('picker-tourspa-')) || (activeDragSourceColumn === 'destination-header' && activeDragItem?.category === 'destination') ? (
-                                    // Destination 카드 (picker 또는 최종여행지에서 드래그): 인박스 스타일 고정 (소스 폭 유지)
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl w-full bg-white">
-                                        <div className="bg-white flex items-center gap-0 relative h-[72px] w-full overflow-hidden">
-                                            <div className="w-20 h-full relative flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50">
-                                                {activeDragItem.imageUrl ? (
-                                                    <img
-                                                        src={activeDragItem.imageUrl}
-                                                        alt={activeDragItem.text}
-                                                        className="w-full h-full object-cover"
-                                                    />
-                                                ) : (
-                                                    <div className="w-full h-full bg-slate-100 flex items-center justify-center">
-                                                        <MapPin className="w-6 h-6 text-emerald-500 opacity-50" />
-                                                    </div>
-                                                )}
-                                                <div className="absolute top-1 right-1 bg-emerald-500 text-white text-[9px] font-bold px-1 py-0.5 rounded shadow-sm z-10">
-                                                    추천
-                                                </div>
-                                            </div>
-                                            <div className="flex-1 min-w-0 flex flex-col justify-center h-full px-3 py-1">
-                                                <div className="flex justify-between items-center mb-0.5">
-                                                    <span className="font-bold text-slate-800 text-sm leading-none truncate pr-2">
-                                                        {activeDragItem.text || activeDragItem.title}
-                                                    </span>
-                                                    <span className="text-[9px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded shrink-0">
-                                                        여행지
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-hotel-') ? (
-                                    // Hotel Picker 카드: HotelCard 스타일
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <HotelCard
-                                            card={{ ...activeDragItem, text: activeDragItem.title }}
-                                            variant="inbox"
-                                        />
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-transport-') ? (
-                                    // Transport Picker 카드: TransportCard 스타일
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <TransportCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-food-') ? (
-                                    // Food Picker 카드: FoodCard 스타일
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <FoodCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-shopping-') ? (
-                                    // Shopping Picker 카드: ShoppingCard 스타일
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <ShoppingCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-                                    </div>
-                                ) : String(activeDragItem.id).startsWith('picker-tourspa-') ? (
-                                    // TourSpa Picker 카드: TourSpaCard 스타일
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        <TourSpaCard card={{ ...activeDragItem, text: activeDragItem.title }} variant="inbox" />
-                                    </div>
-                                ) : (
-                                    // 일반 카드: 출발 컬럼 기반 variant로 고스트 렌더링
-                                    <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
-                                        {renderCardInternal(
-                                            activeDragItem,
-                                            {
-                                                listeners: {},
-                                                attributes: {},
-                                                onRemove: undefined,
-                                                canEdit: false,
-                                                ...(activeDragSourceColumn === 'destination-header' ? { isHeader: true } : {}),
-                                            },
-                                            activeDragSourceColumn === 'inbox' || activeDragSourceColumn === null
-                                                ? 'inbox'
-                                                : activeDragSourceColumn === 'destination-header'
-                                                    ? 'compact'
-                                                    : activeDragSourceColumn === 'destination-candidates'
-                                                        ? 'compact'
-                                                        : 'timeline'
-                                        )}
-                                    </div>
-                                )
-                            ) : null}
+                            <DraggedCardOverlay
+                                activeDragItem={activeDragItem}
+                                activeDragSourceColumn={activeDragSourceColumn}
+                            />
                         </DragOverlay>
                     </div>
                 </div>
