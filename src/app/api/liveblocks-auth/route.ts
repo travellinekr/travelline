@@ -16,6 +16,36 @@ function getSupabaseAdmin() {
     return createClient(url, key);
 }
 
+// JWT의 sub claim을 verify 없이 로컬에서 추출.
+// 보안: 토큰 검증은 supabaseAdmin.auth.getUser()가 담당. 여기서는 단지
+// memberQuery를 getUser와 병렬로 시작하기 위한 가설값. user.id != sub인
+// 경우(JWT 위조)에는 검증된 user.id로 memberQuery를 다시 실행.
+function getJwtSubject(token: string): string | null {
+    try {
+        const parts = token.split('.');
+        if (parts.length !== 3) return null;
+        const payload = parts[1];
+        const padded = payload + '='.repeat((4 - payload.length % 4) % 4);
+        const json = Buffer.from(
+            padded.replace(/-/g, '+').replace(/_/g, '/'),
+            'base64'
+        ).toString();
+        const decoded = JSON.parse(json);
+        return typeof decoded.sub === 'string' ? decoded.sub : null;
+    } catch {
+        return null;
+    }
+}
+
+function withTimeout<T>(promise: PromiseLike<T>, ms: number, label: string): Promise<T> {
+    return Promise.race([
+        Promise.resolve(promise),
+        new Promise<never>((_, reject) =>
+            setTimeout(() => reject(new Error(`${label} timeout`)), ms)
+        ),
+    ]);
+}
+
 export async function POST(request: NextRequest) {
     try {
         const liveblocks = getLiveblocks();
@@ -48,13 +78,26 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        // 2. 토큰으로 유저 확인 (2초 타임아웃 - 초과 시 anon 폴백으로 빠르게 응답)
-        const getUserResult = await Promise.race([
-            supabaseAdmin.auth.getUser(token),
-            new Promise<never>((_, reject) =>
-                setTimeout(() => reject(new Error('getUser timeout')), 2000)
-            ),
-        ]).catch(() => null);
+        // 2. JWT에서 sub(user_id)를 추출하여 memberQuery를 getUser와 병렬 실행.
+        //    토큰 검증은 getUser가 담당하므로 안전. sub 추출 실패 시 memberQuery는
+        //    getUser 완료 후 직렬로 실행 (기존 동작).
+        const tentativeUserId = getJwtSubject(token);
+
+        const [getUserResult, earlyMemberResult] = await Promise.all([
+            withTimeout(supabaseAdmin.auth.getUser(token), 2000, 'getUser').catch(() => null),
+            (room && tentativeUserId)
+                ? withTimeout(
+                    supabaseAdmin
+                        .from('project_members')
+                        .select('role')
+                        .eq('project_id', room)
+                        .eq('user_id', tentativeUserId)
+                        .single(),
+                    2000,
+                    'memberQuery'
+                ).catch(() => null)
+                : Promise.resolve(null),
+        ]);
 
         const user = getUserResult?.data?.user ?? null;
         if (!user) {
@@ -71,25 +114,30 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        // 3. project_members에서 role 조회 (2초 타임아웃 - 초과 시 viewer 처리)
+        // 3. memberQuery 결과 검증 + 필요 시 재조회
         let role = 'viewer';
         let memberData: { role: string } | null = null;
-        if (room) {
-            const memberResult = await Promise.race([
+
+        if (earlyMemberResult?.data && tentativeUserId === user.id) {
+            // JWT sub가 검증된 user.id와 일치 → 병렬 결과 사용 (정상 경로)
+            memberData = earlyMemberResult.data;
+            role = earlyMemberResult.data.role;
+        } else if (room) {
+            // sub 추출 실패 또는 user.id 불일치(위조 가능성) → 검증된 id로 재조회
+            const verifiedMemberResult = await withTimeout(
                 supabaseAdmin
                     .from('project_members')
                     .select('role')
                     .eq('project_id', room)
                     .eq('user_id', user.id)
                     .single(),
-                new Promise<never>((_, reject) =>
-                    setTimeout(() => reject(new Error('memberQuery timeout')), 2000)
-                ),
-            ]).catch(() => null);
+                2000,
+                'memberQuery'
+            ).catch(() => null);
 
-            if (memberResult?.data) {
-                memberData = memberResult.data;
-                role = memberResult.data.role;
+            if (verifiedMemberResult?.data) {
+                memberData = verifiedMemberResult.data;
+                role = verifiedMemberResult.data.role;
             }
         }
 
@@ -116,15 +164,11 @@ export async function POST(request: NextRequest) {
             : session.READ_ACCESS
         );
 
-        // 6초 타임아웃 적용
-        const authorizeWithTimeout = Promise.race([
+        const { status, body: responseBody } = await withTimeout(
             session.authorize(),
-            new Promise<never>((_, reject) =>
-                setTimeout(() => reject(new Error('Liveblocks authorize timeout')), 6000)
-            ),
-        ]);
-
-        const { status, body: responseBody } = await authorizeWithTimeout;
+            6000,
+            'Liveblocks authorize'
+        );
 
         // responseBody가 유효한 JSON인지 확인
         try {
