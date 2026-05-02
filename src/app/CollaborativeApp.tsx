@@ -50,6 +50,7 @@ import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { useMobileInbox } from "@/hooks/useMobileInbox";
+import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -544,7 +545,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const [activeDragItem, setActiveDragItem] = useState<any>(null);
     const [activeDragSourceColumn, setActiveDragSourceColumn] = useState<string | null>(null);
     const [dragOverlayWidth, setDragOverlayWidth] = useState<number | undefined>(undefined);
-    const [activeDay, setActiveDay] = useState("day1");
     const [projectTitle, setProjectTitle] = useState<string>(initialTitle);
 
     // Confirm dialog state
@@ -573,9 +573,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         toggleInbox,
         getInboxSlideClass,
     } = useMobileInbox();
+    const {
+        activeDay,
+        setActiveDay,
+        timelineScrollRef,
+        autoScrollRef,
+        scrollToDay,
+    } = useTimelineScroll({ flightInfo });
     const [isDeleteZoneActive, setIsDeleteZoneActive] = useState(false);
-    const timelineScrollRef = useRef<HTMLDivElement>(null);
-    const autoScrollRef = useRef<NodeJS.Timeout | null>(null);
 
     const { toasts, addToast, removeToast } = useToast();
 
@@ -787,35 +792,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         return () => clearTimeout(timer);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [roomId]);
-
-    // ── 여행 중 현재 일차로 자동 스크롤 (최초 1회) ─────────────────────
-    const autoScrolledRef = useRef(false);
-    useEffect(() => {
-        if (autoScrolledRef.current || !flightInfo) return;
-
-        const outboundDate = (flightInfo as any)?.outbound?.date;
-        if (!outboundDate) return;
-
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        const departure = new Date(outboundDate);
-        departure.setHours(0, 0, 0, 0);
-
-        const diffDays = Math.round((today.getTime() - departure.getTime()) / (1000 * 60 * 60 * 24));
-        if (diffDays < 0) return; // 아직 출발 전
-
-        const dayNumber = diffDays + 1;
-        const dayId = `day${dayNumber}`;
-
-        autoScrolledRef.current = true;
-
-        // 화면이 다 그려진 후 사이드바 클릭과 동일하게 실행 (double RAF = paint 이후 보장)
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                scrollToDay(dayId);
-            });
-        });
-    }, [flightInfo]); // eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -1660,18 +1636,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         // 모든 경우에 드래그 상태 초기화
         setActiveDragItem(null);
-    };
-
-    const scrollToDay = (dayId: string) => {
-        setActiveDay(dayId);
-        const element = document.getElementById(`${dayId}-section`);
-        const container = timelineScrollRef.current;
-        if (element && container) {
-            const containerTop = container.getBoundingClientRect().top;
-            const elementTop = element.getBoundingClientRect().top;
-            const offset = elementTop - containerTop + container.scrollTop - 16;
-            container.scrollTo({ top: Math.max(0, offset), behavior: 'smooth' });
-        }
     };
 
     // anchor 카드 객체 + 배너 클릭 시 타임라인 카드로 스크롤
