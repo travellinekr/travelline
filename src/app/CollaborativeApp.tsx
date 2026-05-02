@@ -1,8 +1,6 @@
 "use client";
 
-import { throttle } from "lodash";
-
-import { useStorage, useMyPresence, useMutation, useOthers, useSelf, useErrorListener } from "../liveblocks.config";
+import { useStorage, useMutation, useOthers, useSelf, useErrorListener } from "../liveblocks.config";
 import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
@@ -51,6 +49,7 @@ import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { useMobileInbox } from "@/hooks/useMobileInbox";
 import { useTimelineScroll } from "@/hooks/useTimelineScroll";
+import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -529,15 +528,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const flightInfo = useStorage((root) => root.flightInfo);
 
 
-    const [myPresence, updateMyPresence] = useMyPresence();
-
-    const throttledUpdateMyPresence = useMemo(
-        () => throttle((cursor: { x: number, y: number }) => {
-            updateMyPresence({ cursor });
-        }, 50),
-        [updateMyPresence]
-    );
-
     // 권한 체크
     const { canEdit, loading: roleLoading } = useRole(roomId);
 
@@ -597,6 +587,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     }, [selectedAnchorId, addToast]);
 
     const containerRef = useRef<HTMLDivElement>(null);
+    const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
+        containerRef,
+        isMobileDragging,
+        activeDragItem,
+    });
     // Liveblocks cards 최신값 참조 (stale closure 방지)
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
@@ -909,26 +904,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         prevDestCityRef.current = cityName;
     }, [destinationCard, setEntryCardCity, canEdit, roleLoading]);
-
-    const handlePointerMove = (e: React.PointerEvent) => {
-        if (isMobileDragging) return;
-        e.preventDefault();
-
-        if (containerRef.current) {
-            const rect = containerRef.current.getBoundingClientRect();
-            const x = Math.round(e.clientX - rect.left);
-            const y = Math.round(e.clientY - rect.top);
-            // 드래그 중일 때는 cursor 업데이트 스킵 (draggingCardId 보존)
-            if (!activeDragItem) {
-                throttledUpdateMyPresence({ x, y });
-            }
-        }
-    };
-
-    const handlePointerLeave = () => {
-        if (isMobileDragging) return;
-        updateMyPresence({ cursor: null });
-    };
 
     const handleFloatingButtonTouchStart = (e: React.TouchEvent) => {
         e.stopPropagation();
