@@ -38,6 +38,7 @@ import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
 import { useExploreQueue } from "@/hooks/useExploreQueue";
 import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
+import { useFloatingButton } from "@/hooks/useFloatingButton";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
@@ -86,10 +87,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // React State는 초기 위치용
     const [mobileCursorPos, setMobileCursorPos] = useState({ x: 0, y: 0 });
     const [isMobileDragging, setIsMobileDragging] = useState(false);
-
-    // 플로팅 버튼 Ref
-    const floatingBtnRef = useRef<HTMLDivElement>(null);
-    const cachedContainerRect = useRef<DOMRect | null>(null);
 
     const {
         inboxState,
@@ -261,19 +258,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Explore에서 추가된 카드 큐 처리 (중복 체크 포함)
     useExploreQueue({ roomId, cardsRef, handleCreateCard, addToast });
 
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const containerWidth = Math.min(window.innerWidth, 1152);
-            const initX = containerWidth - 80;
-            const initY = window.innerHeight - 200;
-
-            setMobileCursorPos({ x: initX, y: initY });
-
-            if (floatingBtnRef.current) {
-                floatingBtnRef.current.style.transform = `translate3d(${initX}px, ${initY}px, 0)`;
-            }
-        }
-    }, []);
+    // 모바일 플로팅 버튼 (가짜 마우스 커서)
+    const { floatingBtnRef, handleTouchStart, handleTouchMove, handleTouchEnd } = useFloatingButton({
+        containerRef,
+        inboxState,
+        throttledUpdateMyPresence,
+        setIsMobileDragging,
+        setMobileCursorPos,
+    });
 
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
     const publicUrl = `${baseUrl}/room/${roomId}`;
@@ -298,61 +290,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             setEntryCardCity('');
         }, [cleanupFlightAndDays, setEntryCardCity]),
     });
-
-    const handleFloatingButtonTouchStart = (e: React.TouchEvent) => {
-        e.stopPropagation();
-        setIsMobileDragging(true);
-        if (containerRef.current) {
-            cachedContainerRect.current = containerRef.current.getBoundingClientRect();
-        }
-    };
-
-    const handleFloatingButtonTouchMove = (e: React.TouchEvent) => {
-        e.stopPropagation();
-
-        const touch = e.touches[0];
-        const newX = touch.clientX - 28;
-        const newY = touch.clientY - 28;
-
-        if (floatingBtnRef.current) {
-            floatingBtnRef.current.style.transform = `translate3d(${newX}px, ${newY}px, 0)`;
-        }
-
-        if (containerRef.current) {
-            // Use cached rect if available, otherwise fallback
-            const rect = cachedContainerRect.current || containerRef.current.getBoundingClientRect();
-            const containerWidth = rect.width;
-            const windowWidth = typeof window !== 'undefined' ? window.innerWidth : 1000;
-            const windowHeight = typeof window !== 'undefined' ? window.innerHeight : 800;
-
-            let relativeX = touch.clientX - rect.left;
-            const relativeY = touch.clientY - rect.top;
-
-            const isMobile = windowWidth < 768;
-            const inboxTopThreshold = inboxState === 'open' ? 0 : windowHeight;
-            const isOverMobileInbox = isMobile && inboxState === 'open' && touch.clientY > inboxTopThreshold;
-
-            if (isOverMobileInbox) {
-                const normalizedX = touch.clientX / windowWidth;
-                relativeX = (containerWidth / 2) + (normalizedX * (containerWidth / 2));
-            }
-
-            throttledUpdateMyPresence({ x: Math.round(relativeX), y: Math.round(relativeY) });
-        }
-    }
-    const handleFloatingButtonTouchEnd = (e: React.TouchEvent) => {
-        e.stopPropagation();
-        setIsMobileDragging(false);
-        cachedContainerRect.current = null;
-
-        if (floatingBtnRef.current) {
-            const transform = floatingBtnRef.current.style.transform;
-            const match = transform.match(/translate3d\(([^p]+)px,\s*([^p]+)px/);
-            if (match) {
-                setMobileCursorPos({ x: parseFloat(match[1]), y: parseFloat(match[2]) });
-            }
-        }
-    };
 
     const handleDragEnd = (event: any) => {
 
@@ -880,9 +817,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             ref={floatingBtnRef}
                             className="md:hidden fixed z-50 w-14 h-14 bg-emerald-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white cursor-grab active:cursor-grabbing touch-none active:scale-95"
 
-                            onTouchStart={handleFloatingButtonTouchStart}
-                            onTouchEnd={handleFloatingButtonTouchEnd}
-                            onTouchMove={handleFloatingButtonTouchMove}
+                            onTouchStart={handleTouchStart}
+                            onTouchEnd={handleTouchEnd}
+                            onTouchMove={handleTouchMove}
                         >
                             <Mouse className="w-8 h-8 text-white fill-white/20 -rotate-12" strokeWidth={1.5} />
                         </div>
