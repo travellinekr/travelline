@@ -1002,17 +1002,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         if (overId === 'right-delete-zone') {
             // 📱 모바일 우측 삭제존: 타임라인 카드 완전 삭제 (인박스 카드 제외)
-            let foundColumnId: string | null = null;
-            if (columns) {
-                for (const col of (columns as any).values()) {
-                    const list = col.cardIds;
-                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-                    if (cardIdsArray.includes(activeId)) {
-                        foundColumnId = col.id;
-                        break;
-                    }
-                }
-            }
+            const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
             if (foundColumnId && foundColumnId !== 'inbox') {
                 removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
             }
@@ -1027,81 +1017,26 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             targetColumnId = String(overId).replace('-timeline', '');
         } else if (overId === 'inbox-dropzone') {
             targetColumnId = 'inbox';
-        } else if (overId === 'tourspa-delete-zone') {
-            // 투어&스파 삭제 영역에 드롭하면 카드 삭제
-
-            // 카드가 어느 컬럼에 있는지 찾기
-            let foundColumnId: string | null = null;
-            if (columns) {
-                for (const col of (columns as any).values()) {
-                    const list = col.cardIds;  // col.get("cardIds") 대신 직접 접근
-                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-                    if (cardIdsArray.includes(activeId)) {
-                        foundColumnId = col.id;
-                        break;
-                    }
-                }
-            }
-
-            if (foundColumnId) {
-                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
-            } else {
-            }
-
-            setActiveDragItem(null);
-            return;
-        } else if (overId === 'etc-delete-zone') {
-            // 기타 삭제 영역에 드롭하면 카드 삭제
-            let foundColumnId: string | null = null;
-            if (columns) {
-                for (const col of (columns as any).values()) {
-                    const list = col.cardIds;
-                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-                    if (cardIdsArray.includes(activeId)) {
-                        foundColumnId = col.id;
-                        break;
-                    }
-                }
-            }
-
-            if (foundColumnId) {
-                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
-            }
-
-            setActiveDragItem(null);
-            return;
-
         } else if (
+            overId === 'tourspa-delete-zone' ||
+            overId === 'etc-delete-zone' ||
             overId === 'shopping-delete-zone' ||
             overId === 'hotel-delete-zone' ||
             overId === 'food-delete-zone'
         ) {
-            // 쇼핑 / 숙소 / 맛집 삭제 영역에 드롭하면 카드 삭제
-            let foundColumnId: string | null = null;
-            if (columns) {
-                for (const col of (columns as any).values()) {
-                    const list = col.cardIds;
-                    const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-                    if (cardIdsArray.includes(activeId)) {
-                        foundColumnId = col.id;
-                        break;
-                    }
-                }
-            }
-
+            // Picker 카테고리별 삭제 영역 (투어&스파/기타/쇼핑/숙소/맛집): 카드 삭제
+            const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
             if (foundColumnId) {
                 removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
             }
-
             setActiveDragItem(null);
             return;
-
         } else {
-            for (const col of (columns as any).values()) {
-                const list = col.cardIds;
-                const cardIdsArray = Array.isArray(list) ? list : (list.toArray ? list.toArray() : []);
-                const idx = cardIdsArray.indexOf(String(overId));
-                if (idx !== -1) { targetColumnId = col.id; targetIndex = idx; break; }
+            // overId가 카드 ID인 경우: 그 카드가 들어있는 컬럼을 찾아 target으로 사용
+            const targetMatch = findSourceColumn(String(overId), columns);
+            if (targetMatch.sourceColumnId) {
+                targetColumnId = targetMatch.sourceColumnId;
+                targetIndex = targetMatch.oldIndex;
             }
         }
 
