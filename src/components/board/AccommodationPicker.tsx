@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { Hotel, Plus, Trash2 } from 'lucide-react';
+import { Hotel, Plus, Trash2, Map } from 'lucide-react';
 import { AccommodationData, CITY_DATA } from '@/data/cities';
 import { HotelCard } from '@/components/cards/HotelCard';
 import { AccommodationAddModal } from './AccommodationAddModal';
+import { InboxMapModal } from './InboxMapModal';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
 
@@ -124,6 +125,7 @@ export function AccommodationPicker({
     createdCards?: any[]
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+    const [isMapOpen, setIsMapOpen] = useState(false);
 
     const handleCreateCard = (data: any) => {
 
@@ -138,6 +140,20 @@ export function AccommodationPicker({
     const allAccommodations = destinationCity ? getAccommodationsByCity(destinationCity) : [];
     const sampleAccommodations = sortByAnchorDistance(allAccommodations.filter(a => a.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
+
+    const mapMarkers = useMemo(() => {
+        const markers: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
+        if (anchorCard?.coordinates) {
+            markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
+        }
+        sampleAccommodations.forEach((a: any, i: number) => {
+            if (a.coordinates) markers.push({ id: `sample-${i}-${a.name}`, title: a.name, coordinates: a.coordinates });
+        });
+        sortedCreatedCards.forEach((c: any) => {
+            if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
+        });
+        return markers;
+    }, [anchorCard, sampleAccommodations, sortedCreatedCards]);
 
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
@@ -158,6 +174,15 @@ export function AccommodationPicker({
                 <div className="flex items-center gap-2">
                     <Hotel className="w-5 h-5 text-rose-500" />
                     <h3 className="font-bold text-slate-800">숙소</h3>
+                    <button
+                        type="button"
+                        onClick={() => setIsMapOpen(true)}
+                        disabled={mapMarkers.length === 0}
+                        title={mapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
+                        className={`p-1 rounded-md transition-colors ${mapMarkers.length > 0 ? 'text-rose-500 hover:bg-rose-50' : 'text-slate-300 cursor-not-allowed'}`}
+                    >
+                        <Map className="w-4 h-4" />
+                    </button>
                 </div>
                 <span className="text-xs text-slate-500">
                     {sampleAccommodations.length + createdCards.length}개
@@ -214,10 +239,18 @@ export function AccommodationPicker({
                 <AccommodationAddModal
                     destinationCity={destinationCity}
                     anchorCoordinates={anchorCoords}
+                    anchorTitle={anchorCard?.text || anchorCard?.title || null}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />
             )}
+
+            <InboxMapModal
+                title="숙소 지도"
+                markers={mapMarkers}
+                isOpen={isMapOpen}
+                onClose={() => setIsMapOpen(false)}
+            />
         </div>
     );
 }

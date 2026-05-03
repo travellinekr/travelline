@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { Utensils, Plus, Trash2 } from 'lucide-react';
+import { Utensils, Plus, Trash2, Map } from 'lucide-react';
 import { RestaurantType, RestaurantData, CITY_DATA } from '@/data/cities';
 import { FoodCard } from '@/components/cards/FoodCard';
 import { FoodAddModal } from './FoodAddModal';
+import { InboxMapModal } from './InboxMapModal';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
 
@@ -126,6 +127,7 @@ export function FoodPicker({
     createdCards?: any[]
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+    const [isMapOpen, setIsMapOpen] = useState(false);
 
     const handleCreateCard = (data: any) => {
 
@@ -153,6 +155,26 @@ export function FoodPicker({
     const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
+    // 지도 마커: 인박스 표시 카드 + anchor (있으면). 좌표 없는 카드는 제외.
+    const mapMarkers = useMemo(() => {
+        const markers: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
+        if (anchorCard?.coordinates) {
+            markers.push({
+                id: `anchor-${anchorCard.id}`,
+                title: anchorCard.text || anchorCard.title || '기준 카드',
+                coordinates: anchorCard.coordinates,
+                isAnchor: true,
+            });
+        }
+        sampleRestaurants.forEach((r: any, i: number) => {
+            if (r.coordinates) markers.push({ id: `sample-${i}-${r.name}`, title: r.name, coordinates: r.coordinates });
+        });
+        sortedCreatedCards.forEach((c: any) => {
+            if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
+        });
+        return markers;
+    }, [anchorCard, sampleRestaurants, sortedCreatedCards]);
+
     return (
         <div className="flex flex-col h-full overflow-hidden">
             {/* 헤더 */}
@@ -160,6 +182,18 @@ export function FoodPicker({
                 <div className="flex items-center gap-2">
                     <Utensils className="w-5 h-5 text-orange-500" />
                     <h3 className="font-bold text-slate-800">맛집</h3>
+                    <button
+                        type="button"
+                        onClick={() => setIsMapOpen(true)}
+                        disabled={mapMarkers.length === 0}
+                        title={mapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
+                        className={`p-1 rounded-md transition-colors ${mapMarkers.length > 0
+                            ? 'text-orange-500 hover:bg-orange-50'
+                            : 'text-slate-300 cursor-not-allowed'
+                            }`}
+                    >
+                        <Map className="w-4 h-4" />
+                    </button>
                 </div>
                 <span className="text-xs text-slate-500">
                     {sampleRestaurants.length + createdCards.length}개
@@ -218,10 +252,18 @@ export function FoodPicker({
                 <FoodAddModal
                     destinationCity={destinationCity}
                     anchorCoordinates={anchorCoords}
+                    anchorTitle={anchorCard?.text || anchorCard?.title || null}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />
             )}
+
+            <InboxMapModal
+                title="맛집 지도"
+                markers={mapMarkers}
+                isOpen={isMapOpen}
+                onClose={() => setIsMapOpen(false)}
+            />
         </div>
     );
 }

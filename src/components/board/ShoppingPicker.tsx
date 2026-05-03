@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { ShoppingBag, Plus, Trash2 } from 'lucide-react';
+import { ShoppingBag, Plus, Trash2, Map } from 'lucide-react';
 import { ShoppingType, ShoppingData, CITY_DATA } from '@/data/cities';
 import { ShoppingCard } from '@/components/cards/ShoppingCard';
 import { ShoppingAddModal } from './ShoppingAddModal';
+import { InboxMapModal } from './InboxMapModal';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
 
@@ -125,6 +126,7 @@ export function ShoppingPicker({
     createdCards?: any[]
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+    const [isMapOpen, setIsMapOpen] = useState(false);
 
     const handleCreateCard = (data: any) => {
 
@@ -152,6 +154,20 @@ export function ShoppingPicker({
     const sampleShopping = sortByAnchorDistance(allShopping.filter(s => s.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
+    const mapMarkers = useMemo(() => {
+        const markers: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
+        if (anchorCard?.coordinates) {
+            markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
+        }
+        sampleShopping.forEach((s: any, i: number) => {
+            if (s.coordinates) markers.push({ id: `sample-${i}-${s.name}`, title: s.name, coordinates: s.coordinates });
+        });
+        sortedCreatedCards.forEach((c: any) => {
+            if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
+        });
+        return markers;
+    }, [anchorCard, sampleShopping, sortedCreatedCards]);
+
     return (
         <div className="flex flex-col h-full overflow-hidden">
             {/* 헤더 */}
@@ -159,6 +175,15 @@ export function ShoppingPicker({
                 <div className="flex items-center gap-2">
                     <ShoppingBag className="w-5 h-5 text-purple-500" />
                     <h3 className="font-bold text-slate-800">쇼핑</h3>
+                    <button
+                        type="button"
+                        onClick={() => setIsMapOpen(true)}
+                        disabled={mapMarkers.length === 0}
+                        title={mapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
+                        className={`p-1 rounded-md transition-colors ${mapMarkers.length > 0 ? 'text-purple-500 hover:bg-purple-50' : 'text-slate-300 cursor-not-allowed'}`}
+                    >
+                        <Map className="w-4 h-4" />
+                    </button>
                 </div>
                 <span className="text-xs text-slate-500">
                     {sampleShopping.length + createdCards.length}개
@@ -216,10 +241,18 @@ export function ShoppingPicker({
                 <ShoppingAddModal
                     destinationCity={destinationCity}
                     anchorCoordinates={anchorCoords}
+                    anchorTitle={anchorCard?.text || anchorCard?.title || null}
                     onClose={() => setIsAddModalOpen(false)}
                     onCreate={handleCreateCard}
                 />
             )}
+
+            <InboxMapModal
+                title="쇼핑 지도"
+                markers={mapMarkers}
+                isOpen={isMapOpen}
+                onClose={() => setIsMapOpen(false)}
+            />
         </div>
     );
 }

@@ -18,6 +18,7 @@ interface Place {
 interface TourSpaAddModalProps {
     destinationCity?: string;
     anchorCoordinates?: { lat: number; lng: number } | null;
+    anchorTitle?: string | null;
     onClose: () => void;
     onCreate: (data: any) => void;
 }
@@ -34,7 +35,7 @@ const CITY_COORDINATES: Record<string, { lat: number; lng: number }> = {
     'Hong Kong': { lat: 22.3193, lng: 114.1694 },
 };
 
-export function TourSpaAddModal({ destinationCity, anchorCoordinates, onClose, onCreate }: TourSpaAddModalProps) {
+export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitle, onClose, onCreate }: TourSpaAddModalProps) {
     const [activityName, setActivityName] = useState('');
     const [tourSpaType, setTourSpaType] = useState<TourSpaType>('massage');
     const [pickupAvailable, setPickupAvailable] = useState(false);
@@ -88,6 +89,29 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, onClose, o
                 gestureHandling: 'greedy',
                 mapId: 'TRIPTIMELINE_MAP',
             });
+
+            // anchor 좌표가 있으면 기준점 마커 표시 (인디고 핀 + 위에 이름 라벨)
+            if (anchorCoordinates && google.maps.marker?.AdvancedMarkerElement) {
+                const anchorPin = new google.maps.marker.PinElement({
+                    background: '#6366f1',
+                    borderColor: '#4338ca',
+                    glyphColor: '#4338ca',
+                    scale: 1.2,
+                });
+                const wrapper = document.createElement('div');
+                wrapper.style.cssText = 'display:flex;flex-direction:column;align-items:center;cursor:pointer;';
+                const label = document.createElement('span');
+                label.textContent = anchorTitle || '기준 위치';
+                label.style.cssText = 'margin-bottom:2px;background:#4338ca;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600;color:white;box-shadow:0 2px 4px rgba(0,0,0,0.25);max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
+                wrapper.appendChild(label);
+                wrapper.appendChild(anchorPin.element);
+                new google.maps.marker.AdvancedMarkerElement({
+                    map: googleMapRef.current,
+                    position: anchorCoordinates,
+                    title: anchorTitle || '기준 위치',
+                    content: wrapper,
+                });
+            }
 
             // 지도 클릭 이벤트 리스너 추가
             googleMapRef.current.addListener('click', async (event: google.maps.MapMouseEvent) => {
