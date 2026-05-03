@@ -2,6 +2,15 @@ import { useEffect, useRef } from 'react';
 import { LiveMap, LiveObject } from '@liveblocks/client';
 import { useMutation } from '@/liveblocks.config';
 
+// Liveblocks read-only 에러 무시 헬퍼.
+// 노트북 sleep 등으로 Supabase 토큰이 만료되면 liveblocks-auth가 anon(viewer)으로
+// 재발급하는데, 클라이언트 useSelf().info.role은 이전 'owner' 값을 잠시 캐시 →
+// canEdit=true로 평가되어 mutation 시도 → 실제 토큰은 viewer라 에러.
+// 이 race는 다음 토큰 갱신 또는 새로고침에서 자연 회복됨. silent skip이 안전.
+function isReadOnlyError(e: unknown): boolean {
+    return e instanceof Error && e.message.toLowerCase().includes('read only');
+}
+
 // p1(입국심사) 카드의 라이프사이클 관리.
 // - 마운트 시 마이그레이션 (text/isEntryCard 보정 + notes 초기화)
 // - 여행지 변경 시 city 필드 동기화
@@ -17,48 +26,63 @@ export function useEntryCardSync({
 }) {
     // p1 카드(입국심사&필요사항) 메모 업데이트 mutation
     const updateEntryCardNotes = useMutation(({ storage }, notes: any[]) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        const p1Card = cardsMap.get('p1');
-        if (p1Card) {
-            (p1Card as any).set('notes', notes);
+        try {
+            const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+            if (!cardsMap) return;
+            const p1Card = cardsMap.get('p1');
+            if (p1Card) {
+                (p1Card as any).set('notes', notes);
+            }
+        } catch (e) {
+            if (isReadOnlyError(e)) return;
+            throw e;
         }
     }, []);
 
     // p1 카드의 city 필드만 업데이트 (notes 자동 채우기 안 함 - 메모는 사용자가 직접 입력)
     const setEntryCardCity = useMutation(({ storage }, city: string) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        const p1Card = cardsMap.get('p1');
-        if (!p1Card) return;
-        (p1Card as any).set('city', city);
+        try {
+            const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+            if (!cardsMap) return;
+            const p1Card = cardsMap.get('p1');
+            if (!p1Card) return;
+            (p1Card as any).set('city', city);
+        } catch (e) {
+            if (isReadOnlyError(e)) return;
+            throw e;
+        }
     }, []);
 
     // 기존 룸의 p1 카드 마이그레이션 (text, isEntryCard 업데이트 + notes 초기화)
     const migrateP1Card = useMutation(({ storage }) => {
-        const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
-        if (!cardsMap) return;
-        let p1Card = cardsMap.get('p1');
-        if (p1Card) {
-            // [Resilience] p1Card가 LiveObject가 아닌 일반 객체로 저장되어 있을 경우를 대비한 체크
-            if (typeof (p1Card as any).get !== 'function') {
-                console.log('⚠️ p1Card is a plain object, converting to LiveObject');
-                const plainData = JSON.parse(JSON.stringify(p1Card)); // 깊은 복사
-                cardsMap.set('p1', new LiveObject(plainData));
-                p1Card = cardsMap.get('p1');
-            }
+        try {
+            const cardsMap = storage.get('cards') as LiveMap<string, any> | null;
+            if (!cardsMap) return;
+            let p1Card = cardsMap.get('p1');
+            if (p1Card) {
+                // [Resilience] p1Card가 LiveObject가 아닌 일반 객체로 저장되어 있을 경우를 대비한 체크
+                if (typeof (p1Card as any).get !== 'function') {
+                    console.log('⚠️ p1Card is a plain object, converting to LiveObject');
+                    const plainData = JSON.parse(JSON.stringify(p1Card)); // 깊은 복사
+                    cardsMap.set('p1', new LiveObject(plainData));
+                    p1Card = cardsMap.get('p1');
+                }
 
-            const currentText = (p1Card as any).get('text');
-            if (currentText !== '입국심사&필요사항') {
-                (p1Card as any).set('text', '입국심사&필요사항');
+                const currentText = (p1Card as any).get('text');
+                if (currentText !== '입국심사&필요사항') {
+                    (p1Card as any).set('text', '입국심사&필요사항');
+                }
+                if (!(p1Card as any).get('isEntryCard')) {
+                    (p1Card as any).set('isEntryCard', true);
+                }
+                // Info/메모 분리: 기존 자동 입력된 notes 전부 초기화
+                // 메모는 사용자가 직접 작성, 입국 정보는 Info 모달(data/ 파일)에서 제공
+                // ⚠️ undefined 대신 [] 사용 (Liveblocks는 undefined를 직렬화하지 않아 무시됨)
+                (p1Card as any).set('notes', []);
             }
-            if (!(p1Card as any).get('isEntryCard')) {
-                (p1Card as any).set('isEntryCard', true);
-            }
-            // Info/메모 분리: 기존 자동 입력된 notes 전부 초기화
-            // 메모는 사용자가 직접 작성, 입국 정보는 Info 모달(data/ 파일)에서 제공
-            // ⚠️ undefined 대신 [] 사용 (Liveblocks는 undefined를 직렬화하지 않아 무시됨)
-            (p1Card as any).set('notes', []);
+        } catch (e) {
+            if (isReadOnlyError(e)) return;
+            throw e;
         }
     }, []);
 
