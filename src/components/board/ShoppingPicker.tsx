@@ -8,6 +8,7 @@ import { ShoppingType, ShoppingData, CITY_DATA } from '@/data/cities';
 import { ShoppingCard } from '@/components/cards/ShoppingCard';
 import { ShoppingAddModal } from './ShoppingAddModal';
 import { InboxMapModal } from './InboxMapModal';
+import { EmptyState } from './EmptyState';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
 
@@ -139,12 +140,11 @@ export function ShoppingPicker({
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
         return (
-            <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
-                <ShoppingBag className="w-12 h-12 text-slate-300 mb-3" />
-                <p className="text-sm text-slate-500">
-                    먼저 여행지를 선택해주세요
-                </p>
-            </div>
+            <EmptyState
+                icon={<ShoppingBag className="w-12 h-12" />}
+                title="먼저 여행지를 선택해주세요"
+                size="lg"
+            />
         );
     }
 

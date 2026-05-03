@@ -6,6 +6,7 @@ import { FlightSection } from "./FlightSection";
 import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
+import { EmptyState } from "./EmptyState";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
 const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true }: any) {
@@ -289,8 +290,8 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
         >
           {/* 빈 상태 안내 */}
           {cards.length === 0 && !isSectionActive && (
-            <div className="text-center py-6 pointer-events-none">
-              <p className="text-xs text-slate-300 font-medium">일정을 추가하세요</p>
+            <div className="pointer-events-none">
+              <EmptyState title="일정을 추가하세요" size="sm" />
             </div>
           )}
 

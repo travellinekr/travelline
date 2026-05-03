@@ -5,6 +5,7 @@ import { memo, useMemo } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
+import { EmptyState } from "./EmptyState";
 
 // 카테고리 탭 클릭 시점에 chunk 로드. 보드 진입 메인 청크에서 picker 코드 + CITY_DATA(~120KB) 분리.
 const PickerLoading = () => (
@@ -221,10 +222,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           ) : (
             <>
               {filteredCards.length === 0 && !isOver ? (
-                <div className="text-center text-gray-400 py-20 flex flex-col items-center gap-2">
-                  <div className="w-12 h-12 rounded-full bg-gray-50 flex items-center justify-center text-2xl">💭</div>
-                  <p>보관함이 비었습니다</p>
-                </div>
+                <EmptyState icon="💭" title="보관함이 비었습니다" size="md" />
               ) : (
                 filteredCards.map((card: any) => (
                   <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">

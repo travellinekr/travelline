@@ -3,6 +3,7 @@
 import { useDroppable, useDndContext } from '@dnd-kit/core';
 import { CheckSquare, Plus, Trash2 } from 'lucide-react';
 import { DraggableCard } from './DraggableCard';
+import { EmptyState } from './EmptyState';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -58,12 +59,11 @@ export function PreparationPicker({
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
         return (
-            <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
-                <CheckSquare className="w-12 h-12 text-slate-300 mb-3" />
-                <p className="text-sm text-slate-500">
-                    먼저 여행지를 선택해주세요
-                </p>
-            </div>
+            <EmptyState
+                icon={<CheckSquare className="w-12 h-12" />}
+                title="먼저 여행지를 선택해주세요"
+                size="lg"
+            />
         );
     }
 

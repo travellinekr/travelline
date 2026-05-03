@@ -7,6 +7,7 @@ import { MoreHorizontal, Plus, Trash2 } from 'lucide-react';
 import { EtcCard } from '@/components/cards/EtcCard';
 import { EtcAddModal } from './EtcAddModal';
 import { CardEditorModal } from './CardEditorModal';
+import { EmptyState } from './EmptyState';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd }: { onAdd: () => void }) {
@@ -131,12 +132,11 @@ export function EtcPicker({
     // 여행지 없을 때
     if (!destinationCity) {
         return (
-            <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
-                <MoreHorizontal className="w-12 h-12 text-slate-300 mb-3" />
-                <p className="text-sm text-slate-500">
-                    먼저 여행지를 선택해주세요
-                </p>
-            </div>
+            <EmptyState
+                icon={<MoreHorizontal className="w-12 h-12" />}
+                title="먼저 여행지를 선택해주세요"
+                size="lg"
+            />
         );
     }
 

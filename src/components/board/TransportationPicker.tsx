@@ -5,6 +5,7 @@ import { CSS } from '@dnd-kit/utilities';
 import { Bus, Train, Car, Plus } from 'lucide-react';
 import { TransportationType, CITY_DATA } from '@/data/cities';
 import { TransportCard } from '@/components/cards/TransportCard';
+import { EmptyState } from './EmptyState';
 
 // 교통 타입별 아이콘 매핑
 const TRANSPORT_ICONS: Record<TransportationType, any> = {
@@ -100,12 +101,11 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {
         return (
-            <div className="flex flex-col items-center justify-center h-[400px] text-center px-6">
-                <Bus className="w-12 h-12 text-slate-300 mb-3" />
-                <p className="text-sm text-slate-500">
-                    먼저 여행지를 선택해주세요
-                </p>
-            </div>
+            <EmptyState
+                icon={<Bus className="w-12 h-12" />}
+                title="먼저 여행지를 선택해주세요"
+                size="lg"
+            />
         );
     }
 
