@@ -41,6 +41,7 @@ import { useFloatingButton } from "@/hooks/useFloatingButton";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
+import { ConnectionLostModal } from "@/components/auth/ConnectionLostModal";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { useMobileInbox } from "@/hooks/useMobileInbox";
@@ -61,9 +62,17 @@ type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const router = useRouter();
     const [showSessionExpired, setShowSessionExpired] = useState(false);
+    const [showConnectionLost, setShowConnectionLost] = useState(false);
 
     useErrorListener((error) => {
-        if (error.message.toLowerCase().includes("auth") || error.message.toLowerCase().includes("unauthorized")) {
+        const msg = error.message.toLowerCase();
+        // 슬립 복귀/네트워크 일시 단절: 새로고침으로 복구
+        if (msg.includes("timed out") || msg.includes("failed to fetch") || msg.includes("unexpected token")) {
+            setShowConnectionLost(true);
+            return;
+        }
+        // 진짜 인증 실패 (세션 만료 등): 로그인 페이지로
+        if (msg.includes("auth") || msg.includes("unauthorized")) {
             setShowSessionExpired(true);
         }
     });
@@ -532,6 +541,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
+            {showConnectionLost && <ConnectionLostModal />}
             <DndContext
                 sensors={sensors}
                 collisionDetection={customCollisionDetection}
