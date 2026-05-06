@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
+import Link from 'next/link';
 import { ShoppingBag, Plus, Trash2, Map } from 'lucide-react';
 import { ShoppingType, ShoppingData, CITY_DATA } from '@/data/cities';
 import { ShoppingCard } from '@/components/cards/ShoppingCard';
@@ -11,6 +12,7 @@ import { InboxMapModal } from './InboxMapModal';
 import { EmptyState } from './EmptyState';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+import { citySlugFromName } from '@/data/destinations';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -184,6 +186,22 @@ export function ShoppingPicker({
                     >
                         <Map className="w-4 h-4" />
                     </button>
+                    {(() => {
+                        const slug = destinationCity ? citySlugFromName(destinationCity) : null;
+                        return (
+                            <Link
+                                href={slug ? `/explore?city=${slug}&category=shopping` : '#'}
+                                onClick={slug ? undefined : (e) => e.preventDefault()}
+                                title={slug ? '여행쇼핑에서 보기' : '여행쇼핑에서 볼 수 없는 도시'}
+                                className={`p-1 rounded-md transition-colors ${slug
+                                    ? 'text-purple-500 hover:bg-purple-50'
+                                    : 'text-slate-300 cursor-not-allowed'}`}
+                                aria-disabled={!slug}
+                            >
+                                <ShoppingBag className="w-4 h-4" />
+                            </Link>
+                        );
+                    })()}
                 </div>
                 <span className="text-xs text-slate-500">
                     {sampleShopping.length + createdCards.length}개

@@ -3,18 +3,7 @@
 import { useState, use } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, MapPin, Hotel, Utensils, ShoppingBag, Palmtree, FileText } from "lucide-react";
-import { DESTINATION_DATA, FALLBACK_IMAGES, type CityData } from "@/data/destinations";
-
-// ── 모든 도시 플랫하게 찾기 ───────────────────────────────
-function findCityBySlug(slug: string): CityData | null {
-    for (const region of Object.values(DESTINATION_DATA)) {
-        const city = region.cities.find(
-            (c) => c.engName.toLowerCase().replace(/\s+/g, "-") === slug
-        );
-        if (city) return city;
-    }
-    return null;
-}
+import { FALLBACK_IMAGES, findCityByEngSlug } from "@/data/destinations";
 
 // ── 카테고리 탭 정의 (inbox bottomTabs 기준) ─────────────
 const CATEGORY_TABS = [
@@ -45,7 +34,7 @@ export default function CityExplorePage({ params }: { params: Promise<{ city: st
     const [activeTab, setActiveTab] = useState("all");
     const [selectedCard, setSelectedCard] = useState<null | { id: string; title: string; desc: string }>(null);
 
-    const city = findCityBySlug(citySlug);
+    const city = findCityByEngSlug(citySlug)?.city ?? null;
 
     if (!city) {
         return (

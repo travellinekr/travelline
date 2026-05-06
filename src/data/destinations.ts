@@ -340,3 +340,38 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
         ]
     }
 };
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// 🔎 도시 조회 헬퍼
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+export function citySlug(engName: string): string {
+    return engName.toLowerCase().replace(/\s+/g, "-");
+}
+
+export function findCityByEngSlug(slug: string): { city: CityData; region: RegionKey } | null {
+    for (const [region, regionData] of Object.entries(DESTINATION_DATA) as [RegionKey, RegionData][]) {
+        const city = regionData.cities.find(c => citySlug(c.engName) === slug);
+        if (city) return { city, region };
+    }
+    return null;
+}
+
+export function findCityByName(name: string): { city: CityData; region: RegionKey } | null {
+    for (const [region, regionData] of Object.entries(DESTINATION_DATA) as [RegionKey, RegionData][]) {
+        const city = regionData.cities.find(c => c.name === name);
+        if (city) return { city, region };
+    }
+    return null;
+}
+
+// destinationCard.city 는 경로에 따라 한글명("파리") 또는 영문 lowercase("paris", "da nang") 둘 다 가능.
+// 두 형식 모두 매칭해서 URL slug("paris", "da-nang") 로 반환.
+export function citySlugFromName(input: string): string | null {
+    if (!input) return null;
+    const byName = findCityByName(input);
+    if (byName) return citySlug(byName.city.engName);
+    const slug = input.toLowerCase().replace(/\s+/g, "-");
+    if (findCityByEngSlug(slug)) return slug;
+    return null;
+}

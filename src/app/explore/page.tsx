@@ -8,10 +8,11 @@ import { supabase } from "@/lib/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { FoodCard } from "@/components/cards/FoodCard";
 import { HotelCard } from "@/components/cards/HotelCard";
 import { ShoppingCard } from "@/components/cards/ShoppingCard";
+import { findCityByEngSlug } from "@/data/destinations";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey | "main"; label: string; icon: string }[] = [
@@ -163,11 +164,25 @@ export type ExploreCardQueue = {
 export default function ExplorePage() {
     const { user } = useAuth();
     const router = useRouter();
+    const searchParams = useSearchParams();
     const menuRef = useRef<HTMLDivElement>(null);
 
-    const [activeRegion, setActiveRegion] = useState<RegionKey | "main">("main");
-    const [selectedCity, setSelectedCity] = useState<CityData | null>(null);
-    const [activeCategory, setActiveCategory] = useState("food");
+    // query param: ?city=<engSlug>&category=<food|hotel|shopping|tourspa>
+    // 인박스 picker 헤더의 "여행쇼핑 보기" 버튼에서 컨텍스트 가지고 진입.
+    const initialFromParams = (() => {
+        const citySlug = searchParams.get("city");
+        const category = searchParams.get("category");
+        const found = citySlug ? findCityByEngSlug(citySlug) : null;
+        return {
+            region: (found?.region ?? "main") as RegionKey | "main",
+            city: found?.city ?? null,
+            category: category ?? "food",
+        };
+    })();
+
+    const [activeRegion, setActiveRegion] = useState<RegionKey | "main">(initialFromParams.region);
+    const [selectedCity, setSelectedCity] = useState<CityData | null>(initialFromParams.city);
+    const [activeCategory, setActiveCategory] = useState(initialFromParams.category);
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
     const [selectedShoppingIdx, setSelectedShoppingIdx] = useState<number | null>(null);
