@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X, Plus, Check, Loader2 } from "lucide-react";
+import { useState, useEffect, useRef, useMemo } from "react";
+import { ArrowLeft, Hotel, Utensils, ShoppingBag, Palmtree, Users, BookOpen, Clock, DollarSign, Star, Search, X, Plus, Check, Loader2, Map as MapIcon } from "lucide-react";
 import { DESTINATION_DATA, FALLBACK_IMAGES, type RegionKey, type CityData } from "@/data/destinations";
 import { type RestaurantData, type AccommodationData, type ShoppingData, CITY_DATA } from "@/data/cities";
 import { supabase } from "@/lib/supabaseClient";
@@ -13,6 +13,8 @@ import { FoodCard } from "@/components/cards/FoodCard";
 import { HotelCard } from "@/components/cards/HotelCard";
 import { ShoppingCard } from "@/components/cards/ShoppingCard";
 import { findCityByEngSlug } from "@/data/destinations";
+import { sortByAnchorDistance } from "@/utils/distance";
+import { InboxMapModal } from "@/components/board/InboxMapModal";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey | "main"; label: string; icon: string }[] = [
@@ -167,8 +169,8 @@ export default function ExplorePage() {
     const searchParams = useSearchParams();
     const menuRef = useRef<HTMLDivElement>(null);
 
-    // query param: ?city=<engSlug>&category=<food|hotel|shopping|tourspa>
-    // 인박스 picker 헤더의 "여행쇼핑 보기" 버튼에서 컨텍스트 가지고 진입.
+    // query param: ?city=<engSlug>&category=<food|hotel|shopping|tourspa>&from=<roomId>&anchorLat=&anchorLng=&anchorTitle=
+    // 인박스 picker 헤더의 "여행쇼핑 보기" 버튼에서 컨텍스트(룸 + anchor 카드) 가지고 진입.
     const initialFromParams = (() => {
         const citySlug = searchParams.get("city");
         const category = searchParams.get("category");
@@ -180,9 +182,23 @@ export default function ExplorePage() {
         };
     })();
 
+    // 인박스 → /explore 호출 시 같이 들어오는 컨텍스트 (옵션)
+    const fromRoomId = searchParams.get("from");
+    const anchorLat = searchParams.get("anchorLat");
+    const anchorLng = searchParams.get("anchorLng");
+    const anchorTitle = searchParams.get("anchorTitle");
+    const anchor = useMemo(() => {
+        if (!anchorLat || !anchorLng) return null;
+        const lat = Number(anchorLat);
+        const lng = Number(anchorLng);
+        if (Number.isNaN(lat) || Number.isNaN(lng)) return null;
+        return { lat, lng, title: anchorTitle || "기준 카드" };
+    }, [anchorLat, anchorLng, anchorTitle]);
+
     const [activeRegion, setActiveRegion] = useState<RegionKey | "main">(initialFromParams.region);
     const [selectedCity, setSelectedCity] = useState<CityData | null>(initialFromParams.city);
     const [activeCategory, setActiveCategory] = useState(initialFromParams.category);
+    const [isExploreMapOpen, setIsExploreMapOpen] = useState(false);
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
     const [selectedShoppingIdx, setSelectedShoppingIdx] = useState<number | null>(null);
@@ -204,31 +220,54 @@ export default function ExplorePage() {
     const hotelList: AccommodationData[] = cityKey ? (CITY_DATA[cityKey]?.accommodations || []) : [];
     const shoppingList: ShoppingData[] = cityKey ? (CITY_DATA[cityKey]?.shopping || []) : [];
 
-    // 검색 필터링
+    // 검색 필터링 + anchor 좌표 기준 거리순 정렬 (anchor 없으면 원본 순서)
     const q = searchQuery.toLowerCase();
-    const filteredFoodList = q
-        ? foodList.filter((r) =>
-            r.name.toLowerCase().includes(q) ||
-            (r.specialty || "").toLowerCase().includes(q) ||
-            (r.cuisine || "").toLowerCase().includes(q) ||
-            (r.type || "").toLowerCase().includes(q)
-        )
-        : foodList;
-    const filteredHotelList = q
-        ? hotelList.filter((h) =>
-            h.name.toLowerCase().includes(q) ||
-            (h.description || "").toLowerCase().includes(q) ||
-            (h.tags || []).some((t) => t.toLowerCase().includes(q))
-        )
-        : hotelList;
+    const anchorCoords = anchor ? { lat: anchor.lat, lng: anchor.lng } : null;
+    const filteredFoodList = sortByAnchorDistance(
+        q
+            ? foodList.filter((r) =>
+                r.name.toLowerCase().includes(q) ||
+                (r.specialty || "").toLowerCase().includes(q) ||
+                (r.cuisine || "").toLowerCase().includes(q) ||
+                (r.type || "").toLowerCase().includes(q)
+            )
+            : foodList,
+        anchorCoords,
+    );
+    const filteredHotelList = sortByAnchorDistance(
+        q
+            ? hotelList.filter((h) =>
+                h.name.toLowerCase().includes(q) ||
+                (h.description || "").toLowerCase().includes(q) ||
+                (h.tags || []).some((t) => t.toLowerCase().includes(q))
+            )
+            : hotelList,
+        anchorCoords,
+    );
+    const filteredShoppingList = sortByAnchorDistance(
+        q
+            ? shoppingList.filter((s) =>
+                s.name.toLowerCase().includes(q) ||
+                (s.category || "").toLowerCase().includes(q) ||
+                (s.specialItems || "").toLowerCase().includes(q)
+            )
+            : shoppingList,
+        anchorCoords,
+    );
 
-    const filteredShoppingList = q
-        ? shoppingList.filter((s) =>
-            s.name.toLowerCase().includes(q) ||
-            (s.category || "").toLowerCase().includes(q) ||
-            (s.specialItems || "").toLowerCase().includes(q)
-        )
-        : shoppingList;
+    // 지도 마커 (현재 카테고리의 가시 카드 + anchor)
+    const exploreMapMarkers = useMemo(() => {
+        const arr: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
+        if (anchor) arr.push({ id: 'anchor', title: anchor.title, coordinates: { lat: anchor.lat, lng: anchor.lng }, isAnchor: true });
+        const visible: any[] = activeCategory === 'food' ? filteredFoodList
+            : activeCategory === 'hotel' ? filteredHotelList
+                : activeCategory === 'shopping' ? filteredShoppingList
+                    : [];
+        visible.forEach((c: any, i: number) => {
+            if (c.coordinates) arr.push({ id: `${activeCategory}-${i}-${c.name}`, title: c.name, coordinates: c.coordinates });
+        });
+        return arr;
+    }, [anchor, activeCategory, filteredFoodList, filteredHotelList, filteredShoppingList]);
 
     const selectedFood = selectedFoodIdx !== null ? filteredFoodList[selectedFoodIdx] : null;
     const selectedHotel = selectedHotelIdx !== null ? filteredHotelList[selectedHotelIdx] : null;
@@ -720,6 +759,38 @@ export default function ExplorePage() {
                                 </div>
                             </div>
 
+                            {/* 뒤로가기 / 지도 / anchor 정보 (인박스에서 컨텍스트 가지고 진입한 경우) */}
+                            <div className="flex items-center gap-2 pb-2.5 shrink-0 flex-wrap">
+                                {fromRoomId && (
+                                    <button
+                                        type="button"
+                                        onClick={() => router.push(`/room/${fromRoomId}?inbox=${activeCategory}`)}
+                                        title="원래 여행보드로"
+                                        className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold border border-slate-200 text-slate-600 hover:bg-slate-50 transition-colors"
+                                    >
+                                        <ArrowLeft className="w-3.5 h-3.5" /> 여행보드로
+                                    </button>
+                                )}
+                                <button
+                                    type="button"
+                                    onClick={() => setIsExploreMapOpen(true)}
+                                    disabled={exploreMapMarkers.length === 0}
+                                    title={exploreMapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
+                                    className={`p-1.5 rounded-md transition-colors ${exploreMapMarkers.length > 0
+                                        ? 'text-orange-500 hover:bg-orange-50'
+                                        : 'text-slate-300 cursor-not-allowed'}`}
+                                >
+                                    <MapIcon className="w-4 h-4" />
+                                </button>
+                                {anchor && (
+                                    <span className="ml-auto flex items-center gap-1 px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[11px] font-bold border border-indigo-100 max-w-[220px]">
+                                        <span className="shrink-0">📍</span>
+                                        <span className="truncate min-w-0">{anchor.title}</span>
+                                        <span className="shrink-0">기준 거리순</span>
+                                    </span>
+                                )}
+                            </div>
+
                             {/* 카드 리스트 (독립 스크롤) */}
                             <div className="flex-1 min-h-0 overflow-y-auto always-scrollbar flex flex-col gap-2 pr-3">
                                 {activeCategory === "food" && (
@@ -1038,6 +1109,14 @@ export default function ExplorePage() {
 
             {/* Toast 메시지 */}
             <ToastContainer toasts={toasts} onClose={removeToast} />
+
+            {/* 지도 모달 (현재 카테고리 가시 카드 + anchor) */}
+            <InboxMapModal
+                title={`${selectedCity?.name ?? ''} ${activeCategory === 'food' ? '맛집' : activeCategory === 'hotel' ? '숙소' : activeCategory === 'shopping' ? '쇼핑' : activeCategory === 'tourspa' ? '투어&스파' : ''} 지도`}
+                markers={exploreMapMarkers}
+                isOpen={isExploreMapOpen}
+                onClose={() => setIsExploreMapOpen(false)}
+            />
         </div>
     );
 }

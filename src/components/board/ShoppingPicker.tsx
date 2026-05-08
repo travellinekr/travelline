@@ -121,12 +121,14 @@ export function ShoppingPicker({
     destinationCity,
     onAddCard,
     onDeleteCard,
-    createdCards = []
+    createdCards = [],
+    roomId
 }: {
     destinationCity?: string;
     onAddCard?: (data: any) => void;
     onDeleteCard?: (cardId: string) => void;
-    createdCards?: any[]
+    createdCards?: any[];
+    roomId?: string;
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
@@ -188,9 +190,20 @@ export function ShoppingPicker({
                     </button>
                     {(() => {
                         const slug = destinationCity ? citySlugFromName(destinationCity) : null;
+                        const params = new URLSearchParams();
+                        if (slug) {
+                            params.set('city', slug);
+                            params.set('category', 'shopping');
+                            if (roomId) params.set('from', roomId);
+                            if (anchorCard?.coordinates) {
+                                params.set('anchorLat', String(anchorCard.coordinates.lat));
+                                params.set('anchorLng', String(anchorCard.coordinates.lng));
+                                params.set('anchorTitle', anchorCard.text || anchorCard.title || '');
+                            }
+                        }
                         return (
                             <Link
-                                href={slug ? `/explore?city=${slug}&category=shopping` : '#'}
+                                href={slug ? `/explore?${params.toString()}` : '#'}
                                 onClick={slug ? undefined : (e) => e.preventDefault()}
                                 title={slug ? '여행쇼핑에서 보기' : '여행쇼핑에서 볼 수 없는 도시'}
                                 className={`p-1 rounded-md transition-colors ${slug

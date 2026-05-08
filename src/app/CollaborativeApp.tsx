@@ -7,7 +7,7 @@ import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucid
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { UserAvatarMenu } from "@/components/header/UserAvatarMenu";
 import { RightDeleteZone } from "@/components/board/RightDeleteZone";
 
@@ -61,6 +61,7 @@ type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" 
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const router = useRouter();
+    const searchParams = useSearchParams();
     const [showSessionExpired, setShowSessionExpired] = useState(false);
     const [showConnectionLost, setShowConnectionLost] = useState(false);
 
@@ -153,6 +154,26 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Liveblocks cards 최신값 참조 (stale closure 방지)
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
+
+    // /explore 에서 "여행보드로" 뒤로가기 시 ?inbox=<category> 받아 인박스 자동 펼침 + 카테고리 복원
+    const inboxParamHandledRef = useRef(false);
+    useEffect(() => {
+        if (inboxParamHandledRef.current) return;
+        const inboxParam = searchParams.get('inbox');
+        if (!inboxParam) return;
+        const validCategories = ['destination', 'preparation', 'flight', 'hotel', 'food', 'shopping', 'transport', 'tourspa', 'other'];
+        if (validCategories.includes(inboxParam)) {
+            setActiveCategory(inboxParam as CategoryType);
+            if (typeof window !== 'undefined' && window.innerWidth < 768) {
+                setInboxState('open');
+            }
+        }
+        // URL 정리 (재진입/새로고침 시 깨끗하게)
+        if (typeof window !== 'undefined') {
+            window.history.replaceState({}, '', `/room/${roomId}`);
+        }
+        inboxParamHandledRef.current = true;
+    }, [searchParams, roomId, setInboxState]);
 
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
 
@@ -675,6 +696,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
                                             destinationCard={destinationCard}
                                             canEdit={canEdit}
+                                            roomId={roomId}
                                         />
                                     </div>
                                 </div>

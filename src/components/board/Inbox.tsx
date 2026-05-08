@@ -37,7 +37,7 @@ const ANCHOR_BANNER_COLORS: Record<string, string> = {
   tourspa: 'bg-cyan-50 border-cyan-200 text-cyan-800',
 };
 
-export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true }: any) {
+export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true, roomId }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
   const { anchorCard, toggleAnchor, scrollToAnchor } = useAnchor();
@@ -178,6 +178,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               onAddCard={canEdit ? onCreateCard : undefined}
               onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
+              roomId={roomId}
             />
           ) : activeCategory === 'transport' ? (
             <>
@@ -189,6 +190,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               onAddCard={canEdit ? onCreateCard : undefined}
               onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
+              roomId={roomId}
             />
           ) : activeCategory === 'shopping' ? (
             <ShoppingPicker
@@ -196,6 +198,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               onAddCard={canEdit ? onCreateCard : undefined}
               onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
+              roomId={roomId}
             />
           ) : activeCategory === 'tourspa' ? (
             <TourSpaPicker
@@ -203,6 +206,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               onAddCard={canEdit ? onCreateCard : undefined}
               onDeleteCard={canEdit ? onRemoveCard : undefined}
               createdCards={filteredCards}
+              roomId={roomId}
             />
           ) : activeCategory === 'other' ? (
             <EtcPicker
