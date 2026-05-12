@@ -3,16 +3,15 @@
 import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import Link from 'next/link';
-import { Hotel, Plus, Trash2, Map, ShoppingBag } from 'lucide-react';
+import { Hotel, Plus, Trash2 } from 'lucide-react';
 import { AccommodationData, CITY_DATA } from '@/data/cities';
 import { HotelCard } from '@/components/cards/HotelCard';
 import { AccommodationAddModal } from './AccommodationAddModal';
 import { InboxMapModal } from './InboxMapModal';
 import { EmptyState } from './EmptyState';
+import { PickerHeader } from './PickerHeader';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
-import { citySlugFromName } from '@/data/destinations';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -174,51 +173,17 @@ export function AccommodationPicker({
     return (
         <div className="flex flex-col h-full overflow-hidden">
             {/* 헤더 */}
-            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
-                <div className="flex items-center gap-2">
-                    <Hotel className="w-5 h-5 text-rose-500" />
-                    <h3 className="font-bold text-slate-800">숙소</h3>
-                    <button
-                        type="button"
-                        onClick={() => setIsMapOpen(true)}
-                        disabled={mapMarkers.length === 0}
-                        title={mapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
-                        className={`p-1 rounded-md transition-colors ${mapMarkers.length > 0 ? 'text-rose-500 hover:bg-rose-50' : 'text-slate-300 cursor-not-allowed'}`}
-                    >
-                        <Map className="w-4 h-4" />
-                    </button>
-                    {(() => {
-                        const slug = destinationCity ? citySlugFromName(destinationCity) : null;
-                        const params = new URLSearchParams();
-                        if (slug) {
-                            params.set('city', slug);
-                            params.set('category', 'hotel');
-                            if (roomId) params.set('from', roomId);
-                            if (anchorCard?.coordinates) {
-                                params.set('anchorLat', String(anchorCard.coordinates.lat));
-                                params.set('anchorLng', String(anchorCard.coordinates.lng));
-                                params.set('anchorTitle', anchorCard.text || anchorCard.title || '');
-                            }
-                        }
-                        return (
-                            <Link
-                                href={slug ? `/explore?${params.toString()}` : '#'}
-                                onClick={slug ? undefined : (e) => e.preventDefault()}
-                                title={slug ? '여행쇼핑에서 보기' : '여행쇼핑에서 볼 수 없는 도시'}
-                                className={`p-1 rounded-md transition-colors ${slug
-                                    ? 'text-rose-500 hover:bg-rose-50'
-                                    : 'text-slate-300 cursor-not-allowed'}`}
-                                aria-disabled={!slug}
-                            >
-                                <ShoppingBag className="w-4 h-4" />
-                            </Link>
-                        );
-                    })()}
-                </div>
-                <span className="text-xs text-slate-500">
-                    {sampleAccommodations.length + createdCards.length}개
-                </span>
-            </div>
+            <PickerHeader
+                title="숙소"
+                icon={Hotel}
+                color="rose"
+                count={sampleAccommodations.length + createdCards.length}
+                destinationCity={destinationCity}
+                roomId={roomId}
+                category="hotel"
+                onMapClick={() => setIsMapOpen(true)}
+                mapDisabled={mapMarkers.length === 0}
+            />
 
             {/* 숙소 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto py-4">

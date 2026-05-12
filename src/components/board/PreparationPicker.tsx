@@ -4,6 +4,7 @@ import { useDroppable, useDndContext } from '@dnd-kit/core';
 import { CheckSquare, Plus, Trash2 } from 'lucide-react';
 import { DraggableCard } from './DraggableCard';
 import { EmptyState } from './EmptyState';
+import { PickerHeader } from './PickerHeader';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -69,16 +70,12 @@ export function PreparationPicker({
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
-            {/* 헤더 */}
-            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
-                <div className="flex items-center gap-2">
-                    <CheckSquare className="w-5 h-5 text-indigo-500" />
-                    <h3 className="font-bold text-slate-800">여행준비</h3>
-                </div>
-                <span className="text-xs text-slate-500">
-                    {createdCards.length}개
-                </span>
-            </div>
+            <PickerHeader
+                title="여행준비"
+                icon={CheckSquare}
+                color="indigo"
+                count={createdCards.length}
+            />
 
             {/* 카드 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto custom-scrollbar">

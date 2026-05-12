@@ -6,6 +6,7 @@ import { Bus, Train, Car, Plus } from 'lucide-react';
 import { TransportationType, CITY_DATA } from '@/data/cities';
 import { TransportCard } from '@/components/cards/TransportCard';
 import { EmptyState } from './EmptyState';
+import { PickerHeader } from './PickerHeader';
 
 // 교통 타입별 아이콘 매핑
 const TRANSPORT_ICONS: Record<TransportationType, any> = {
@@ -125,16 +126,12 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
-            {/* 헤더 */}
-            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
-                <div className="flex items-center gap-2">
-                    <Bus className="w-5 h-5 text-blue-400" />
-                    <h3 className="font-bold text-slate-800">교통 수단</h3>
-                </div>
-                <span className="text-xs text-slate-500">
-                    {transportations.length}개
-                </span>
-            </div>
+            <PickerHeader
+                title="교통 수단"
+                icon={Bus}
+                color="blue"
+                count={transportations.length}
+            />
 
             {/* 교통 수단 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto py-4">

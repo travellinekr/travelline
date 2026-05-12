@@ -28,7 +28,7 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
         anchorCard && anchorCard.id !== card.id && card.coordinates && anchorCard.coordinates
             ? haversineMeters(anchorCard.coordinates, card.coordinates)
             : null;
-    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact');
+    const showDist = anchorDist !== null && (variant === 'inbox' || variant === 'compact' || variant === 'explore');
 
     const handleToggle = (e: React.MouseEvent) => {
         e.stopPropagation();

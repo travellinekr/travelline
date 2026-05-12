@@ -8,6 +8,7 @@ import { EtcCard } from '@/components/cards/EtcCard';
 import { EtcAddModal } from './EtcAddModal';
 import { CardEditorModal } from './CardEditorModal';
 import { EmptyState } from './EmptyState';
+import { PickerHeader } from './PickerHeader';
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd }: { onAdd: () => void }) {
@@ -142,16 +143,12 @@ export function EtcPicker({
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
-            {/* 헤더 */}
-            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
-                <div className="flex items-center gap-2">
-                    <MoreHorizontal className="w-5 h-5 text-amber-500" />
-                    <h3 className="font-bold text-slate-800">기타</h3>
-                </div>
-                <span className="text-xs text-slate-500">
-                    {createdCards.length}개
-                </span>
-            </div>
+            <PickerHeader
+                title="기타"
+                icon={MoreHorizontal}
+                color="amber"
+                count={createdCards.length}
+            />
 
             {/* 카드 목록 */}
             <div className="flex-1 overflow-y-auto py-4">

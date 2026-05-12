@@ -3,6 +3,8 @@
 import { useStorage, useErrorListener } from "../liveblocks.config";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
+import { ExploreOverlayContext, type ExploreOverlayState } from "@/contexts/ExploreOverlayContext";
+import { ExploreContent } from "@/components/explore/ExploreContent";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
@@ -64,17 +66,23 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const searchParams = useSearchParams();
     const [showSessionExpired, setShowSessionExpired] = useState(false);
     const [showConnectionLost, setShowConnectionLost] = useState(false);
+    // useErrorListener 콜백 클로저 stale 방지 — 이미 모달 뜬 후 같은 에러 반복 시 setState 스킵
+    const connectionLostShownRef = useRef(false);
 
     useErrorListener((error) => {
+        if (connectionLostShownRef.current) return;
         const msg = error.message.toLowerCase();
-        // 슬립 복귀/네트워크 일시 단절: 새로고침으로 복구
-        if (msg.includes("timed out") || msg.includes("failed to fetch") || msg.includes("unexpected token")) {
+        // Liveblocks 인증/네트워크 오류 전부 ConnectionLostModal로 통합
+        // (모달이 [새로고침] + [로그인 페이지로 이동] 두 버튼 모두 제공)
+        if (
+            msg.includes("auth") ||
+            msg.includes("unauthorized") ||
+            msg.includes("timed out") ||
+            msg.includes("failed to fetch") ||
+            msg.includes("unexpected token")
+        ) {
+            connectionLostShownRef.current = true;
             setShowConnectionLost(true);
-            return;
-        }
-        // 진짜 인증 실패 (세션 만료 등): 로그인 페이지로
-        if (msg.includes("auth") || msg.includes("unauthorized")) {
-            setShowSessionExpired(true);
         }
     });
     const columns = useStorage((root) => root.columns);
@@ -144,6 +152,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
     const anchorContextValue = useAnchorLogic({ cards, addToast, setInboxState });
+
+    // 여행쇼핑 모달 오버레이 — 룸 위에 ExploreContent 띄움 (URL 변경 없이)
+    const [exploreOverlay, setExploreOverlay] = useState<ExploreOverlayState | null>(null);
+    const exploreOverlayContextValue = useMemo(() => ({ open: setExploreOverlay }), []);
+    const overlayAnchor = useMemo(() => {
+        const ac = exploreOverlay?.anchorCard;
+        if (!ac?.coordinates) return null;
+        return { lat: ac.coordinates.lat, lng: ac.coordinates.lng, title: ac.text || ac.title || '기준 카드' };
+    }, [exploreOverlay]);
 
     const containerRef = useRef<HTMLDivElement>(null);
     const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
@@ -559,10 +576,26 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <AnchorContext.Provider value={anchorContextValue}>
+        <ExploreOverlayContext.Provider value={exploreOverlayContextValue}>
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
             {showConnectionLost && <ConnectionLostModal />}
+            {exploreOverlay && (
+                <div className="fixed inset-0 z-[9000] bg-white">
+                    <ExploreContent
+                        initialCity={exploreOverlay.city}
+                        initialRegion={exploreOverlay.region}
+                        initialCategory={exploreOverlay.category}
+                        anchor={overlayAnchor}
+                        onBack={(category) => {
+                            setExploreOverlay(null);
+                            setActiveCategory(category as CategoryType);
+                            if (typeof window !== 'undefined' && window.innerWidth < 768) setInboxState('open');
+                        }}
+                    />
+                </div>
+            )}
             <DndContext
                 sensors={sensors}
                 collisionDetection={customCollisionDetection}
@@ -715,6 +748,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             {/* 토스트 메시지들 */}
             <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
+        </ExploreOverlayContext.Provider>
         </AnchorContext.Provider>
     );
 }

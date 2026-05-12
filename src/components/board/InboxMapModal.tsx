@@ -75,18 +75,22 @@ export function InboxMapModal({ title, markers, isOpen, onClose }: InboxMapModal
 
         const bounds = new google.maps.LatLngBounds();
 
-        markers.forEach((marker, index) => {
+        // anchor 마커가 제일 위로 오도록 정렬 (z-order — 동일 좌표 근처 일반 핀에 가려지지 않게)
+        const sortedMarkers = [...markers].sort((a, b) => (a.isAnchor ? 1 : 0) - (b.isAnchor ? 1 : 0));
+        // 일반 핀 번호용 — anchor 제외하고 1부터
+        let nonAnchorIndex = 0;
+        sortedMarkers.forEach((marker) => {
             try {
-                // PinElement — 일반/anchor 동일 모양·크기, 색만 분기 (anchor=인디고, 일반=오렌지)
+                // PinElement — anchor 는 더 크고 흰색 점 (시각 구분), 일반 핀은 번호 + 오렌지
                 const pinElement = marker.isAnchor
                     ? new google.maps.marker.PinElement({
                         background: '#6366f1',
                         borderColor: '#4338ca',
-                        glyphColor: '#4338ca',
-                        scale: 1.2,
+                        glyphColor: '#ffffff',
+                        scale: 1.6,
                     })
                     : new google.maps.marker.PinElement({
-                        glyphText: `${index + 1}`,
+                        glyphText: `${++nonAnchorIndex}`,
                         glyphColor: 'white',
                         background: '#f97316',
                         borderColor: '#c2410c',
