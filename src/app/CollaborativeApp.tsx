@@ -37,6 +37,7 @@ import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
 import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
 import { useExploreQueue } from "@/hooks/useExploreQueue";
+import { applyExploreCards, type ApplyResult } from "@/utils/applyExploreCards";
 import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useFloatingButton } from "@/hooks/useFloatingButton";
@@ -229,6 +230,23 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const cardId = destCol.cardIds[0];
         return (cards as any)?.get(cardId) || null;
     }, [columns, cards]);
+
+    // 모달 오버레이에서 카드 추가 → 현재 룸 보관함에 즉시 반영 (localStorage 우회)
+    // 도시 매칭 검증/결과 토스트는 ExploreContent 측에서 처리 (모달 뒤 가려짐 회피)
+    const handleExploreAddCards = useCallback((incoming: any[]): ApplyResult => {
+        return applyExploreCards(incoming, { cardsRef, handleCreateCard });
+    }, [handleCreateCard]);
+
+    // 모달에서 "이미 보관함에 있는 카드" 표시용 키 set (`${name}__${city}`)
+    const existingCardKeys = useMemo(() => {
+        const set = new Set<string>();
+        if (cards) {
+            (cards as any).forEach((c: any) => {
+                if (c?.text && c?.city) set.add(`${c.text}__${c.city}`);
+            });
+        }
+        return set;
+    }, [cards]);
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
@@ -588,6 +606,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         initialRegion={exploreOverlay.region}
                         initialCategory={exploreOverlay.category}
                         anchor={overlayAnchor}
+                        onAddCards={handleExploreAddCards}
+                        destinationCity={destinationCard?.city}
+                        existingCardKeys={existingCardKeys}
                         onBack={(category) => {
                             setExploreOverlay(null);
                             setActiveCategory(category as CategoryType);

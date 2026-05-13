@@ -15,6 +15,7 @@ import { ShoppingCard } from "@/components/cards/ShoppingCard";
 import { sortByAnchorDistance } from "@/utils/distance";
 import { InboxMapModal } from "@/components/board/InboxMapModal";
 import { AnchorContext } from "@/contexts/AnchorContext";
+import { toastForApplyResult, type ApplyResult } from "@/utils/applyExploreCards";
 
 // ── 지역 탭 ────────────────────────────────────────────
 const REGION_TABS: { key: RegionKey | "main"; label: string; icon: string }[] = [
@@ -169,6 +170,12 @@ export type ExploreCardQueue = {
 // onBack 옵션:
 //   있으면 — "여행보드로" 클릭 시 onBack(activeCategory) 호출 (모달 닫기)
 //   없으면 — fromRoomId 가 있으면 router.push(/room/[id]?inbox=...) fallback
+//
+// onAddCards 옵션:
+//   있으면 — 모달 모드. 카드 추가 시 프로젝트 선택 메뉴 없이 즉시 현재 룸에 반영
+//   없으면 — 스탠드얼론 모드. localStorage 큐에 쌓아두고 useExploreQueue가 처리
+// destinationCity:
+//   모달 모드에서 현재 룸의 최종여행지. 모달 안 selectedCity 와 매칭 검증에 사용.
 export interface ExploreContentProps {
     initialCity: CityData | null;
     initialRegion: RegionKey | "main";
@@ -176,6 +183,11 @@ export interface ExploreContentProps {
     anchor: { lat: number; lng: number; title: string } | null;
     fromRoomId?: string;
     onBack?: (category: string) => void;
+    onAddCards?: (cards: ExploreCardQueue[]) => ApplyResult;
+    destinationCity?: string;
+    // 모달 모드에서 룸 보관함에 이미 있는 카드 키 set (`${name}__${city}`).
+    // 해당 카드는 체크박스를 미리 체크된 상태로 표시 + 클릭 비활성화.
+    existingCardKeys?: Set<string>;
 }
 
 export function ExploreContent({
@@ -185,6 +197,9 @@ export function ExploreContent({
     anchor,
     fromRoomId,
     onBack,
+    onAddCards,
+    destinationCity,
+    existingCardKeys,
 }: ExploreContentProps) {
     const { user } = useAuth();
     const router = useRouter();
@@ -312,6 +327,29 @@ export function ExploreContent({
     const handleOpenProjectMenu = async () => {
         if (!user) { router.push('/login'); return; }
         if (checkedCards.size === 0) return;
+        // 모달 모드: 프로젝트 선택 메뉴 우회 → 현재 룸 보관함에 즉시 반영
+        if (onAddCards) {
+            // 도시 매칭 검증 (standalone handleAddToProject 정책과 동일)
+            if (!destinationCity) {
+                addToast('먼저 여행지를 선택하세요.', 'warning');
+                return;
+            }
+            if (selectedCity) {
+                const normalize = (s: string) => s.toLowerCase().replace(/\s/g, '');
+                const dest = normalize(destinationCity);
+                const sel = normalize(selectedCity.engName);
+                const match = dest.includes(sel) || sel.includes(dest);
+                if (!match) {
+                    addToast('여행지와 다른 카드는 추가되지 않습니다.', 'warning');
+                    return;
+                }
+            }
+            const cards = Array.from(checkedCards.values());
+            const result = onAddCards(cards);
+            toastForApplyResult(result, addToast);
+            setCheckedCards(new Map());
+            return;
+        }
         setShowProjectMenu(v => !v);
         if (activeProjects.length > 0) return; // 이미 로드됨
         setProjectsLoading(true);
@@ -458,7 +496,8 @@ export function ExploreContent({
                         </button>
                     </div>
 
-                    {/* 2단: 지역 칩 필터 (인박스 스타일) */}
+                    {/* 2단: 지역 칩 필터 (인박스 스타일) — 모달 모드에선 숨김 (룸 destination 고정) */}
+                    {!onAddCards && (
                     <div className="flex gap-2 overflow-x-auto no-scrollbar px-4 sm:px-6 pb-3 pt-1">
                         {REGION_TABS.map((tab) => {
                             const isActive = activeRegion === tab.key && !selectedCity;
@@ -487,6 +526,7 @@ export function ExploreContent({
                             );
                         })}
                     </div>
+                    )}
                 </div>
             </div>
 
@@ -813,7 +853,8 @@ export function ExploreContent({
                                     filteredFoodList.length > 0
                                         ? filteredFoodList.map((item, idx) => {
                                             const cardKey = `food-${item.name}-${item.city}`;
-                                            const isChecked = checkedCards.has(cardKey);
+                                            const isExisting = existingCardKeys?.has(`${item.name}__${item.city}`) ?? false;
+                                            const isChecked = isExisting || checkedCards.has(cardKey);
                                             // 음식 카드용 card 객체 생성
                                             const foodCardData = {
                                                 id: cardKey,
@@ -834,21 +875,23 @@ export function ExploreContent({
                                                         isSelected={selectedFoodIdx === idx}
                                                         isChecked={isChecked}
                                                         onClick={() => setSelectedFoodIdx(idx === selectedFoodIdx ? null : idx)}
-                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
-                                                            category: 'food',
-                                                            name: item.name,
-                                                            city: item.city,
-                                                            icon: item.icon,
-                                                            coordinates: item.coordinates,
-                                                            priceRange: item.priceRange,
-                                                            openingHours: item.openingHours,
-                                                            michelin: item.michelin,
-                                                            specialty: item.specialty,
-                                                            features: item.features,
-                                                            reservation: item.reservation,
-                                                            restaurantType: item.type,
-                                                            cuisine: item.cuisine,
-                                                        }, e)}
+                                                        onToggleCheck={isExisting
+                                                            ? (e) => e.stopPropagation()
+                                                            : (e) => toggleCardCheck(cardKey, {
+                                                                category: 'food',
+                                                                name: item.name,
+                                                                city: item.city,
+                                                                icon: item.icon,
+                                                                coordinates: item.coordinates,
+                                                                priceRange: item.priceRange,
+                                                                openingHours: item.openingHours,
+                                                                michelin: item.michelin,
+                                                                specialty: item.specialty,
+                                                                features: item.features,
+                                                                reservation: item.reservation,
+                                                                restaurantType: item.type,
+                                                                cuisine: item.cuisine,
+                                                            }, e)}
                                                     />
                                                     {selectedFoodIdx === idx && <FoodAccordion item={item} />}
                                                 </div>
@@ -860,7 +903,8 @@ export function ExploreContent({
                                     filteredHotelList.length > 0
                                         ? filteredHotelList.map((item, idx) => {
                                             const cardKey = `hotel-${item.name}-${item.city}`;
-                                            const isChecked = checkedCards.has(cardKey);
+                                            const isExisting = existingCardKeys?.has(`${item.name}__${item.city}`) ?? false;
+                                            const isChecked = isExisting || checkedCards.has(cardKey);
                                             // 숙소 카드용 card 객체 생성
                                             const hotelCardData = {
                                                 id: cardKey,
@@ -880,17 +924,19 @@ export function ExploreContent({
                                                         isSelected={selectedHotelIdx === idx}
                                                         isChecked={isChecked}
                                                         onClick={() => setSelectedHotelIdx(idx === selectedHotelIdx ? null : idx)}
-                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
-                                                            category: 'accommodation',
-                                                            name: item.name,
-                                                            city: item.city,
-                                                            coordinates: item.coordinates,
-                                                            description: item.description,
-                                                            accommodationType: item.type,
-                                                            checkInTime: item.checkInTime,
-                                                            checkOutTime: item.checkOutTime,
-                                                            tags: item.tags,
-                                                        }, e)}
+                                                        onToggleCheck={isExisting
+                                                            ? (e) => e.stopPropagation()
+                                                            : (e) => toggleCardCheck(cardKey, {
+                                                                category: 'accommodation',
+                                                                name: item.name,
+                                                                city: item.city,
+                                                                coordinates: item.coordinates,
+                                                                description: item.description,
+                                                                accommodationType: item.type,
+                                                                checkInTime: item.checkInTime,
+                                                                checkOutTime: item.checkOutTime,
+                                                                tags: item.tags,
+                                                            }, e)}
                                                     />
                                                     {selectedHotelIdx === idx && <HotelAccordion item={item} />}
                                                 </div>
@@ -902,7 +948,8 @@ export function ExploreContent({
                                     filteredShoppingList.length > 0
                                         ? filteredShoppingList.map((item, idx) => {
                                             const cardKey = `shopping-${item.name}-${item.city}`;
-                                            const isChecked = checkedCards.has(cardKey);
+                                            const isExisting = existingCardKeys?.has(`${item.name}__${item.city}`) ?? false;
+                                            const isChecked = isExisting || checkedCards.has(cardKey);
                                             const shoppingCardData = {
                                                 id: cardKey,
                                                 category: 'shopping',
@@ -923,20 +970,22 @@ export function ExploreContent({
                                                         isSelected={selectedShoppingIdx === idx}
                                                         isChecked={isChecked}
                                                         onClick={() => setSelectedShoppingIdx(idx === selectedShoppingIdx ? null : idx)}
-                                                        onToggleCheck={(e) => toggleCardCheck(cardKey, {
-                                                            category: 'shopping',
-                                                            name: item.name,
-                                                            city: item.city,
-                                                            icon: item.icon,
-                                                            coordinates: item.coordinates,
-                                                            priceRange: item.priceRange,
-                                                            openingHours: item.openingHours,
-                                                            features: item.features,
-                                                            shoppingType: item.type,
-                                                            shoppingCategory: item.category,
-                                                            specialItems: item.specialItems,
-                                                            taxRefund: item.taxRefund,
-                                                        }, e)}
+                                                        onToggleCheck={isExisting
+                                                            ? (e) => e.stopPropagation()
+                                                            : (e) => toggleCardCheck(cardKey, {
+                                                                category: 'shopping',
+                                                                name: item.name,
+                                                                city: item.city,
+                                                                icon: item.icon,
+                                                                coordinates: item.coordinates,
+                                                                priceRange: item.priceRange,
+                                                                openingHours: item.openingHours,
+                                                                features: item.features,
+                                                                shoppingType: item.type,
+                                                                shoppingCategory: item.category,
+                                                                specialItems: item.specialItems,
+                                                                taxRefund: item.taxRefund,
+                                                            }, e)}
                                                     />
                                                 </div>
                                             );
