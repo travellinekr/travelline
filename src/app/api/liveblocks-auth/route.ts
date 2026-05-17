@@ -46,6 +46,41 @@ function withTimeout<T>(promise: PromiseLike<T>, ms: number, label: string): Pro
     ]);
 }
 
+// session.authorize() 호출 → JSON 검증 → NextResponse 반환.
+// Liveblocks 백엔드가 슬로우 응답 시 plain text("Call to /v2/.../authorize timed out") 를
+// 반환하는 경우가 있어 모든 경로에서 JSON 검증 필수.
+async function authorizeAndRespond(
+    session: ReturnType<ReturnType<typeof getLiveblocks>['prepareSession']>,
+    context: string,
+): Promise<NextResponse> {
+    try {
+        const { status, body: responseBody } = await withTimeout(
+            session.authorize(),
+            5000,
+            `Liveblocks authorize (${context})`,
+        );
+        try {
+            JSON.parse(responseBody);
+        } catch {
+            console.error(`[liveblocks-auth/${context}] authorize 응답이 JSON 아님:`, responseBody);
+            return NextResponse.json(
+                { error: 'forbidden', reason: 'Liveblocks 인증 응답 오류' },
+                { status: 500 },
+            );
+        }
+        return new NextResponse(responseBody, {
+            status,
+            headers: { 'Content-Type': 'application/json' },
+        });
+    } catch (err) {
+        console.error(`[liveblocks-auth/${context}] authorize 실패:`, err);
+        return NextResponse.json(
+            { error: 'forbidden', reason: '인증 처리 시간이 초과되었습니다.' },
+            { status: 500 },
+        );
+    }
+}
+
 export async function POST(request: NextRequest) {
     try {
         const liveblocks = getLiveblocks();
@@ -72,11 +107,7 @@ export async function POST(request: NextRequest) {
             });
             const targetRoom = room || '*';
             session.allow(targetRoom, session.READ_ACCESS);
-            const { status, body: responseBody } = await session.authorize();
-            return new NextResponse(responseBody, {
-                status,
-                headers: { 'Content-Type': 'application/json' },
-            });
+            return authorizeAndRespond(session, 'anon-no-token');
         }
 
         // 2. JWT에서 sub(user_id)를 추출하여 memberQuery를 getUser와 병렬 실행.
@@ -108,11 +139,7 @@ export async function POST(request: NextRequest) {
             });
             const targetRoom = room || '*';
             session.allow(targetRoom, session.READ_ACCESS);
-            const { status, body: responseBody } = await session.authorize();
-            return new NextResponse(responseBody, {
-                status,
-                headers: { 'Content-Type': 'application/json' },
-            });
+            return authorizeAndRespond(session, 'anon-no-user');
         }
 
         // 3. memberQuery 결과 검증 + 필요 시 재조회
@@ -180,27 +207,7 @@ export async function POST(request: NextRequest) {
             : session.READ_ACCESS
         );
 
-        const { status, body: responseBody } = await withTimeout(
-            session.authorize(),
-            6000,
-            'Liveblocks authorize'
-        );
-
-        // responseBody가 유효한 JSON인지 확인
-        try {
-            JSON.parse(responseBody);
-        } catch {
-            console.error('[liveblocks-auth] authorize 응답이 JSON이 아님:', responseBody);
-            return NextResponse.json(
-                { error: 'forbidden', reason: 'Liveblocks 인증 응답 오류' },
-                { status: 500 }
-            );
-        }
-
-        return new NextResponse(responseBody, {
-            status,
-            headers: { 'Content-Type': 'application/json' },
-        });
+        return authorizeAndRespond(session, 'authenticated');
 
     } catch (err) {
         console.error('[liveblocks-auth] 오류:', err);

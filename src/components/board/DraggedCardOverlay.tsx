@@ -32,7 +32,7 @@ export function DraggedCardOverlay({
     if (isDestinationPicker) {
         // Destination 카드 (picker 또는 최종여행지에서 드래그): 인박스 스타일 고정
         return (
-            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl w-full bg-white">
+            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl bg-white">
                 <div className="bg-white flex items-center gap-0 relative h-[72px] w-full overflow-hidden">
                     <div className="w-20 h-full relative flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50">
                         {activeDragItem.imageUrl ? (

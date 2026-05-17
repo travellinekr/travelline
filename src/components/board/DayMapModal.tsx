@@ -109,7 +109,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
                 label.style.cssText = 'margin-bottom:2px;background:#059669;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600;color:white;box-shadow:0 2px 4px rgba(0,0,0,0.25);max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
 
                 wrapper.appendChild(label);
-                wrapper.appendChild(pinElement.element);
+                wrapper.appendChild(pinElement);
 
                 const advancedMarker = new google.maps.marker.AdvancedMarkerElement({
                     map: map,

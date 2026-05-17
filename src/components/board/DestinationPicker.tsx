@@ -174,7 +174,7 @@ function DraggableCityCard({ city, imageUrl, insight, selectedMonth }: {
         return (
             <div
                 ref={setNodeRef}
-                className="w-full min-w-[320px] h-[72px] border-2 border-dashed border-emerald-300 bg-emerald-50/50 rounded-lg"
+                className="w-full h-[72px] border-2 border-dashed border-emerald-300 bg-emerald-50/50 rounded-lg"
             />
         );
     }
@@ -185,7 +185,7 @@ function DraggableCityCard({ city, imageUrl, insight, selectedMonth }: {
             style={style}
             {...listeners}
             {...attributes}
-            className="group bg-white hover:bg-slate-50 border border-gray-100 hover:border-emerald-500 flex items-center gap-0 relative touch-none select-none h-[72px] transition-all overflow-hidden w-full max-w-md cursor-grab active:cursor-grabbing rounded-lg shadow-sm hover:shadow-md"
+            className="group bg-white hover:bg-slate-50 border border-gray-100 hover:border-emerald-500 flex items-center gap-0 relative touch-none select-none h-[72px] transition-all overflow-hidden w-full cursor-grab active:cursor-grabbing rounded-lg shadow-sm hover:shadow-md"
         >
             {/* Left: Image (Fixed 80px width) */}
             <div className="w-20 h-full relative group-hover:opacity-90 transition-opacity flex items-center justify-center overflow-hidden shrink-0 border-r border-gray-50 pointer-events-none">
@@ -319,8 +319,8 @@ export function DestinationPicker({ onConfirm }: Props) {
 
     if (step === "region") {
         return (
-            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 p-4">
-                <div className="flex items-center gap-2 mb-6 mt-4">
+            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 py-4">
+                <div className="flex items-center gap-2 mb-6 mt-4 px-4">
                     <button onClick={handleBack} className="p-2 -ml-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
                         <ArrowLeft className="w-5 h-5" />
                     </button>
@@ -358,8 +358,8 @@ export function DestinationPicker({ onConfirm }: Props) {
     if (step === "city" && selectedRegion) {
         const regionData = DESTINATION_DATA[selectedRegion];
         return (
-            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 p-4">
-                <div className="flex items-center gap-2 mb-6 mt-4">
+            <div className="flex flex-col h-full animate-in fade-in slide-in-from-right-4 duration-300 py-4">
+                <div className="flex items-center gap-2 mb-6 mt-4 px-4">
                     <button onClick={handleBack} className="p-2 -ml-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
                         <ArrowLeft className="w-5 h-5" />
                     </button>
@@ -369,7 +369,7 @@ export function DestinationPicker({ onConfirm }: Props) {
                     </div>
                 </div>
 
-                <div className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-20 justify-items-center">
+                <div className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-20">
                     {regionData.cities.map((city) => {
                         const insight = selectedMonth ? getCityInsight(city.name, selectedMonth) : null;
                         const imageUrl = cityImages[city.name] || FALLBACK_IMAGES[city.engName];

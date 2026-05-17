@@ -48,21 +48,25 @@ export async function GET(request: Request) {
       const primaryModel = isKorea ? 'kma_seamless' : 'icon_seamless';
       const fallbackModel = isKorea ? null : 'gfs_seamless';
 
+      // 일별 예보 조회. 실패(non-ok) 시 null 반환해서 호출 측에서 폴백 결정.
       const fetchDaily = async (model: string) => {
         const u = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&daily=weathercode,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&models=${model}&start_date=${dateStr}&end_date=${dateStr}`;
-        const r = await fetch(u, { next: { revalidate: 3600 } });
-        if (!r.ok) throw new Error('API 오류');
-        return r.json();
+        try {
+          const r = await fetch(u, { next: { revalidate: 3600 } });
+          if (!r.ok) return null;
+          return await r.json();
+        } catch {
+          return null;
+        }
       };
 
-      // 일별 예보 조회
+      // primary 시도 → 실패(non-ok/throw) 또는 null 데이터면 fallback 시도
       let data = await fetchDaily(primaryModel);
-      let daily = data.daily;
+      let daily = data?.daily;
 
-      // 해외에서 icon_seamless 데이터 없으면 gfs_seamless로 재시도
-      if (daily?.weathercode?.[0] == null && fallbackModel) {
+      if ((!data || daily?.weathercode?.[0] == null) && fallbackModel) {
         data = await fetchDaily(fallbackModel);
-        daily = data.daily;
+        daily = data?.daily;
       }
 
       if (daily?.weathercode?.[0] == null) return NextResponse.json({ noData: true });

@@ -309,7 +309,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                 position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
-                content: pinElement.element,
+                content: pinElement,
             });
 
             // InfoWindow 생성

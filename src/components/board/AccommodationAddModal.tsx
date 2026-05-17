@@ -287,7 +287,7 @@ export function AccommodationAddModal({ destinationCity, anchorCoordinates, anch
                 position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
-                content: pinElement.element,
+                content: pinElement,
             });
 
             // InfoWindow 생성

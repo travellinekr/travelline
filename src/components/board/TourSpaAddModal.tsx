@@ -294,7 +294,7 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
                 position: { lat: place.lat, lng: place.lng },
                 map: googleMapRef.current,
                 title: place.name,
-                content: pinElement.element,
+                content: pinElement,
             });
 
             // InfoWindow
