@@ -229,6 +229,7 @@ export function ExploreContent({
     const [selectedFoodIdx, setSelectedFoodIdx] = useState<number | null>(null);
     const [selectedHotelIdx, setSelectedHotelIdx] = useState<number | null>(null);
     const [selectedShoppingIdx, setSelectedShoppingIdx] = useState<number | null>(null);
+    const [selectedSharedPlanId, setSelectedSharedPlanId] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
     const [showInfoModal, setShowInfoModal] = useState(false);
 
@@ -240,6 +241,43 @@ export function ExploreContent({
     const { toasts, addToast, removeToast } = useToast();
     // projectId → 목적지 도시 (null = 미설정, undefined = 아직 모름)
     const [projectCityMap, setProjectCityMap] = useState<Record<string, string | null>>({});
+
+    // 공유플랜 — 현재 선택된 도시 + 공유플랜 탭일 때만 fetch
+    interface SharedPlanItem {
+        id: string;
+        title: string;
+        city: string;
+        duration_nights: number;
+        duration_days: number;
+        created_at: string;
+    }
+    const [sharedPlansForCity, setSharedPlansForCity] = useState<SharedPlanItem[]>([]);
+    const [sharedPlansLoading, setSharedPlansLoading] = useState(false);
+
+    useEffect(() => {
+        if (activeCategory !== 'shared' || !selectedCity) {
+            setSharedPlansForCity([]);
+            return;
+        }
+        let cancelled = false;
+        setSharedPlansLoading(true);
+        (async () => {
+            try {
+                const res = await fetch(
+                    `/api/shared-plans?city=${encodeURIComponent(selectedCity.engName)}&limit=20`,
+                    { cache: 'no-store' },
+                );
+                if (!res.ok) return;
+                const data = await res.json();
+                if (!cancelled) setSharedPlansForCity(data.items ?? []);
+            } catch {
+                // silent
+            } finally {
+                if (!cancelled) setSharedPlansLoading(false);
+            }
+        })();
+        return () => { cancelled = true; };
+    }, [activeCategory, selectedCity]);
 
     const regionData = activeRegion !== "main" ? DESTINATION_DATA[activeRegion] : null;
     const cityKey = selectedCity?.engName ?? "";
@@ -745,7 +783,7 @@ export function ExploreContent({
                                             type="text"
                                             value={searchQuery}
                                             onChange={(e) => handleSearchChange(e.target.value)}
-                                            placeholder={activeCategory === "food" ? "맛집 검색..." : activeCategory === "hotel" ? "숙소 검색..." : activeCategory === "shopping" ? "쇼핑 검색..." : "검색..."}
+                                            placeholder={activeCategory === "food" ? "맛집 검색..." : activeCategory === "hotel" ? "숙소 검색..." : activeCategory === "shopping" ? "쇼핑 검색..." : activeCategory === "shared" ? "여행계획명 검색..." : "검색..."}
                                             className="w-full pl-9 pr-8 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-orange-300 focus:bg-white transition-colors"
                                         />
                                         {searchQuery && (
@@ -827,17 +865,19 @@ export function ExploreContent({
                                         <ArrowLeft className="w-3.5 h-3.5" /> 여행보드로
                                     </button>
                                 )}
-                                <button
-                                    type="button"
-                                    onClick={() => setIsExploreMapOpen(true)}
-                                    disabled={exploreMapMarkers.length === 0}
-                                    title={exploreMapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
-                                    className={`p-1.5 rounded-md transition-colors ${exploreMapMarkers.length > 0
-                                        ? 'text-orange-500 hover:bg-orange-50'
-                                        : 'text-slate-300 cursor-not-allowed'}`}
-                                >
-                                    <MapIcon className="w-4 h-4" />
-                                </button>
+                                {activeCategory !== 'shared' && (
+                                    <button
+                                        type="button"
+                                        onClick={() => setIsExploreMapOpen(true)}
+                                        disabled={exploreMapMarkers.length === 0}
+                                        title={exploreMapMarkers.length > 0 ? '지도에서 보기' : '표시할 위치 없음'}
+                                        className={`p-1.5 rounded-md transition-colors ${exploreMapMarkers.length > 0
+                                            ? 'text-orange-500 hover:bg-orange-50'
+                                            : 'text-slate-300 cursor-not-allowed'}`}
+                                    >
+                                        <MapIcon className="w-4 h-4" />
+                                    </button>
+                                )}
                                 {anchor && (
                                     <span className="ml-auto flex items-center gap-1 px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[11px] font-bold border border-indigo-100 max-w-[220px]">
                                         <span className="shrink-0">📍</span>
@@ -992,7 +1032,46 @@ export function ExploreContent({
                                         })
                                         : <EmptyState category="shopping" />
                                 )}
-                                {!["food", "hotel", "shopping"].includes(activeCategory) && <EmptyState category={activeCategory} />}
+                                {activeCategory === "shared" && (() => {
+                                    const filtered = q
+                                        ? sharedPlansForCity.filter((p) => p.title.toLowerCase().includes(q))
+                                        : sharedPlansForCity;
+                                    if (sharedPlansLoading) {
+                                        return <div className="py-16 text-center text-xs text-slate-400">불러오는 중…</div>;
+                                    }
+                                    if (filtered.length === 0) {
+                                        return <EmptyState category="shared" />;
+                                    }
+                                    return filtered.map((plan) => {
+                                        const dateLabel = new Date(plan.created_at).toLocaleDateString('ko-KR', { year: '2-digit', month: '2-digit', day: '2-digit' });
+                                        const isSelected = selectedSharedPlanId === plan.id;
+                                        return (
+                                            <button
+                                                key={plan.id}
+                                                type="button"
+                                                onClick={() => setSelectedSharedPlanId(isSelected ? null : plan.id)}
+                                                className={`group w-full flex items-center gap-3 relative h-[72px] px-3 transition-colors overflow-hidden text-left rounded-xl shadow-sm hover:shadow-md ${isSelected
+                                                    ? "border-2 border-emerald-500 bg-emerald-50 shadow-sm"
+                                                    : "border border-emerald-200 hover:border-emerald-300 bg-gradient-to-r from-emerald-50 to-teal-50 hover:from-emerald-100 hover:to-teal-100"
+                                                    }`}
+                                            >
+                                                <div className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-emerald-500 flex items-center justify-center shadow-sm">
+                                                    <Users className="w-5 h-5 text-white" />
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <div className="flex items-center gap-1.5">
+                                                        <h4 className="font-bold text-sm text-slate-800 line-clamp-1">{plan.title}</h4>
+                                                        <span className="shrink-0 px-1.5 py-0.5 bg-white text-emerald-600 text-[10px] font-bold rounded-full border border-emerald-200">
+                                                            {plan.duration_nights}박 {plan.duration_days}일
+                                                        </span>
+                                                    </div>
+                                                    <p className="text-[11px] text-slate-500 line-clamp-1 mt-0.5">{plan.city} · {dateLabel}</p>
+                                                </div>
+                                            </button>
+                                        );
+                                    });
+                                })()}
+                                {!["food", "hotel", "shopping", "shared"].includes(activeCategory) && <EmptyState category={activeCategory} />}
                             </div>
                         </div>{/* 좌측 패널 끝 */}
 

@@ -682,7 +682,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                     {/* 🎯 Fixed Destination Header - No Scroll */}
                                     <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
-                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} />
+                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} roomId={roomId} projectTitle={projectTitle} />
                                     </div>
 
                                     {/* 📜 Scrollable Main Timeline */}

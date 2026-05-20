@@ -7,14 +7,59 @@ import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
 import { EmptyState } from "./EmptyState";
+import { buildSharedPlanSnapshot, calcDuration } from "@/utils/sharedPlanSnapshot";
+import { supabase } from "@/lib/supabaseClient";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
-const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true }: any) {
+const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true, addToast, columns, cardsMap, roomId, projectTitle }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: 'destination-header' });
   const { active } = useDndContext();
+  const flightInfo = useStorage((root) => root.flightInfo) as any;
 
   const isDestinationCard = active?.data?.current?.category === 'destination';
   const shouldHighlight = isOver && isDestinationCard;
+
+  const handleShare = async () => {
+    if (!roomId || !projectTitle) {
+      addToast?.('공유에 필요한 정보가 부족해요.', 'warning');
+      return;
+    }
+    const snapshot = buildSharedPlanSnapshot({ columns, cards: cardsMap, flightInfo });
+    if (!snapshot) {
+      addToast?.('여행지가 선택되지 않았어요.', 'warning');
+      return;
+    }
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      if (!token) {
+        addToast?.('로그인이 필요해요.', 'warning');
+        return;
+      }
+      const duration = calcDuration(snapshot.flightInfo);
+      const res = await fetch('/api/shared-plans', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          projectId: roomId,
+          title: projectTitle,
+          city: snapshot.destination.city || snapshot.destination.text,
+          durationNights: duration.nights,
+          durationDays: duration.days,
+          snapshot,
+        }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        addToast?.(data?.error || '발행에 실패했어요.', 'warning');
+        return;
+      }
+      addToast?.('공유하신 여행계획은 여행쇼핑에 등록됩니다.', 'info');
+    } catch (e) {
+      console.error('[share]', e);
+      addToast?.('발행 중 오류가 발생했어요.', 'warning');
+    }
+  };
 
   return (
     <SortableContext items={cards.map((c: any) => c.id)} strategy={verticalListSortingStrategy}>
@@ -30,7 +75,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
         {cards.length > 0 ? (
           cards.map((card: any) => {
             if (!card) return null;
-            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} canEdit={canEdit} />;
+            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} canEdit={canEdit} onShareClick={handleShare} />;
           })
         ) : (
           <div className="w-full h-[50px] flex items-center justify-center">
@@ -321,6 +366,8 @@ export const Timeline = memo(function Timeline({
   addToast,
   sections = ['destination-header', 'candidates', 'days'],
   canEdit = true,
+  roomId,
+  projectTitle,
 }: any) {
   const { active } = useDndContext();
 
@@ -389,7 +436,7 @@ export const Timeline = memo(function Timeline({
 
       {shouldRenderDestinationHeader && (
         <div className="sticky top-0 z-20 bg-white shadow-sm overflow-hidden">
-          <DestinationHeaderSection cards={destHeaderCards} canEdit={canEdit} />
+          <DestinationHeaderSection cards={destHeaderCards} canEdit={canEdit} addToast={addToast} columns={columns} cardsMap={cards} roomId={roomId} projectTitle={projectTitle} />
         </div>
       )}
 

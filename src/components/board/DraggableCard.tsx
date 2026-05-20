@@ -1,7 +1,7 @@
 import { useState, useCallback, memo } from "react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import { Calendar, MapPin, X } from "lucide-react";
+import { Calendar, MapPin, X, Share2 } from "lucide-react";
 
 import { FlightCard } from "@/components/cards/FlightCard";
 import { HotelCard } from "@/components/cards/HotelCard";
@@ -33,7 +33,7 @@ function useTempUserId() {
 }
 
 // 여행지 카드
-function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, variant, onVoteToggle, isHeader }: any) {
+function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, variant, onVoteToggle, isHeader, onShareClick }: any) {
   const isCompact = variant === 'compact';
 
   // Header View (destination-header) - 타이틀 강조
@@ -81,8 +81,20 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
           )}
         </div>
 
-        {/* Remove Button */}
-        <div className="shrink-0 w-8 h-full flex items-center justify-center">
+        {/* Share + Remove Buttons */}
+        <div className="shrink-0 h-full flex items-center justify-center gap-1 pr-2">
+          {onShareClick && (
+            <button
+              type="button"
+              onPointerDown={(e) => e.stopPropagation()}
+              onClick={(e) => { e.stopPropagation(); onShareClick(); }}
+              title="여행쇼핑에 공유"
+              aria-label="여행쇼핑에 공유"
+              className="w-6 h-6 flex items-center justify-center rounded-full hover:bg-rose-200 text-rose-400 hover:text-rose-600 transition-colors pointer-events-auto"
+            >
+              <Share2 className="w-3.5 h-3.5" />
+            </button>
+          )}
           {onRemove && (
             <button
               onPointerDown={(e) => e.stopPropagation()}
@@ -239,7 +251,7 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
   }
 }
 
-export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean }) {
+export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
   const { selectedAnchorId, toggleAnchor } = useAnchor();
@@ -315,6 +327,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
         canEdit,
         isAnchor,
         onClick: handleAnchorClick,
+        onShareClick: canEdit ? onShareClick : undefined,
       })}
 
       {/* 카드 에디터 모달 */}
