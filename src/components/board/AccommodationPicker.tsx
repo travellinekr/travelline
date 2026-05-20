@@ -100,7 +100,7 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
     }
 
     return (
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-rose-500 hover:shadow-md transition-all">
             <HotelCard
                 card={cardData}
                 variant="inbox"

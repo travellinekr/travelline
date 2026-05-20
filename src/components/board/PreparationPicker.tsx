@@ -87,7 +87,7 @@ export function PreparationPicker({
                         </div>
                     )}
                     {createdCards.map((card: any) => (
-                        <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+                        <div key={card.id} className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-indigo-500 hover:shadow-md transition-all">
                             <DraggableCard card={card} canEdit={canEdit} variant="inbox" />
                         </div>
                     ))}

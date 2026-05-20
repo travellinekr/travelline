@@ -82,7 +82,7 @@ function DraggableEtcCard({ card, index, cardId }: { card: any; index: number; c
 
     return (
         <>
-            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-amber-500 hover:shadow-md transition-all">
                 <EtcCard
                     card={cardData}
                     variant="inbox"

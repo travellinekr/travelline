@@ -84,7 +84,7 @@ function DraggableTransportCard({ transportation, index }: { transportation: any
     }
 
     return (
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-blue-400 hover:shadow-md transition-all">
             <TransportCard
                 card={cardData}
                 variant="inbox"

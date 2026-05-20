@@ -101,7 +101,7 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
     }
 
     return (
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-purple-500 hover:shadow-md transition-all">
             <ShoppingCard
                 card={cardData}
                 variant="inbox"

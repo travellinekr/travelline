@@ -91,7 +91,7 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
     }
 
     return (
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:border-cyan-500 hover:shadow-md transition-all">
             <TourSpaCard
                 card={cardData}
                 variant="inbox"
