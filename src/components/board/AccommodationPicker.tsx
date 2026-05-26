@@ -178,8 +178,6 @@ export function AccommodationPicker({
                 icon={Hotel}
                 color="rose"
                 count={sampleAccommodations.length + createdCards.length}
-                destinationCity={destinationCity}
-                roomId={roomId}
                 category="hotel"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}

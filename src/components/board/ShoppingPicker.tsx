@@ -179,8 +179,6 @@ export function ShoppingPicker({
                 icon={ShoppingBag}
                 color="purple"
                 count={sampleShopping.length + createdCards.length}
-                destinationCity={destinationCity}
-                roomId={roomId}
                 category="shopping"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}

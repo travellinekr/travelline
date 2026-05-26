@@ -164,8 +164,6 @@ export function TourSpaPicker({
                 icon={Palmtree}
                 color="cyan"
                 count={createdCards.length}
-                destinationCity={destinationCity}
-                roomId={roomId}
                 category="tourspa"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}

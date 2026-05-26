@@ -69,7 +69,6 @@ const ROLLING_CARDS = [
 function RollingBanner() {
   const [idx, setIdx] = useState(0);
   const total = ROLLING_CARDS.length; // 5
-  const router = useRouter();
 
   // 3초마다 1칸씩 전진
   useEffect(() => {
@@ -91,16 +90,9 @@ function RollingBanner() {
         {/* 섹션 헤더 */}
         <div className="flex items-center justify-between mb-5">
           <div>
-            <h2 className="text-2xl font-bold text-slate-800 mb-1">여행 쇼핑</h2>
-            <p className="text-sm text-slate-400">마음에 드는 여행지, 숙소, 투어를 쇼핑하듯 담아보세요</p>
+            <h2 className="text-2xl font-bold text-slate-800 mb-1">즐거운 여행 떠나보세요</h2>
+            <p className="text-sm text-slate-400">여행지, 숙소, 투어 아이디어를 둘러보고 나만의 일정으로 담아보세요</p>
           </div>
-          <button
-            onClick={() => router.push('/explore')}
-            className="flex items-center gap-1 text-sm font-semibold text-slate-400 hover:text-orange-500 transition-colors group"
-          >
-            쇼핑하러 가기
-            <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-          </button>
         </div>
 
         {/* 데스크탑: 3칸 롤링 그리드 */}
