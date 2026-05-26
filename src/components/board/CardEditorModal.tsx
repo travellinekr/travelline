@@ -26,7 +26,7 @@ export function CardEditorModal({
     canEdit = true,
 }: CardEditorModalProps) {
     // LiveBlocks에서 현재 카드의 notes 가져오기
-    const cardNotes = useStorage((root) => root.cards.get(cardId)?.notes);
+    const cardNotes = useStorage((root) => (root.cards as any).get(cardId)?.notes);
 
     // 디바운스를 위한 타이머 ref
     const saveTimerRef = useRef<NodeJS.Timeout | null>(null);
