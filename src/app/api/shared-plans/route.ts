@@ -17,6 +17,25 @@ export async function GET(request: NextRequest) {
 
     try {
         const { searchParams } = new URL(request.url);
+        const idFilter = searchParams.get('id');
+
+        // 단건 조회 — snapshot 포함
+        if (idFilter) {
+            const { data, error } = await supabaseAdmin
+                .from('shared_plans')
+                .select('id, title, city, duration_nights, duration_days, created_at, owner_id, snapshot')
+                .eq('id', idFilter)
+                .maybeSingle();
+            if (error) {
+                console.error('[shared-plans GET] single query error:', error);
+                return NextResponse.json({ error: '조회 중 오류가 발생했어요.' }, { status: 500 });
+            }
+            return NextResponse.json(
+                { item: data ?? null },
+                { headers: { 'Cache-Control': 'no-store' } },
+            );
+        }
+
         const cityFilter = searchParams.get('city');
         const limit = Math.min(Math.max(parseInt(searchParams.get('limit') || '20'), 1), 100);
 

@@ -19,6 +19,47 @@ export function DraggedCardOverlay({
 }) {
     if (!activeDragItem) return null;
 
+    // 공유플랜 카드 드래그: single → 카드 그대로, bulk → 스택+갯수 뱃지
+    if (activeDragItem.__sharedPlan) {
+        const bulkCards: any[] = Array.isArray(activeDragItem.cards) ? activeDragItem.cards : [];
+        const isBulk = activeDragItem.bulk && bulkCards.length > 1;
+        const topCard = isBulk ? bulkCards[0] : activeDragItem.card;
+        if (!topCard) return null;
+
+        if (isBulk) {
+            return (
+                <div className="relative">
+                    {bulkCards.length >= 3 && (
+                        <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-xl border border-orange-200 bg-white opacity-60 shadow-sm" />
+                    )}
+                    {bulkCards.length >= 2 && (
+                        <div className="absolute inset-0 translate-x-1 translate-y-1 rounded-xl border border-orange-200 bg-white opacity-80 shadow-md" />
+                    )}
+                    <div className="relative rounded-xl overflow-hidden border-2 border-orange-400 shadow-xl">
+                        {renderCardInternal(
+                            topCard,
+                            { listeners: {}, attributes: {}, canEdit: false },
+                            'inbox'
+                        )}
+                    </div>
+                    <div className="absolute -top-2 -right-2 z-10 bg-orange-500 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-lg min-w-[28px] text-center">
+                        +{bulkCards.length}
+                    </div>
+                </div>
+            );
+        }
+
+        return (
+            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-xl">
+                {renderCardInternal(
+                    topCard,
+                    { listeners: {}, attributes: {}, canEdit: false },
+                    'inbox'
+                )}
+            </div>
+        );
+    }
+
     const id = String(activeDragItem.id);
     const isDestinationPicker =
         (id.startsWith('picker-') &&

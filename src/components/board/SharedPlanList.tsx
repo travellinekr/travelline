@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { Share2 } from 'lucide-react';
 import { EmptyState } from './EmptyState';
 import { PickerHeader } from './PickerHeader';
+import { SharedPlanDetail } from './SharedPlanDetail';
 
 interface SharedPlanItem {
   id: string;
@@ -17,13 +18,13 @@ interface SharedPlanItem {
 
 interface SharedPlanListProps {
   city: string;
-  onSelectPlan?: (plan: SharedPlanItem) => void;
 }
 
-export function SharedPlanList({ city, onSelectPlan }: SharedPlanListProps) {
+export function SharedPlanList({ city }: SharedPlanListProps) {
   const [items, setItems] = useState<SharedPlanItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedPlanId, setSelectedPlanId] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -46,6 +47,15 @@ export function SharedPlanList({ city, onSelectPlan }: SharedPlanListProps) {
       cancelled = true;
     };
   }, [city]);
+
+  if (selectedPlanId) {
+    return (
+      <SharedPlanDetail
+        planId={selectedPlanId}
+        onBack={() => setSelectedPlanId(null)}
+      />
+    );
+  }
 
   return (
     <div className="flex flex-col h-full overflow-hidden">
@@ -70,7 +80,7 @@ export function SharedPlanList({ city, onSelectPlan }: SharedPlanListProps) {
             <button
               key={plan.id}
               type="button"
-              onClick={() => onSelectPlan?.(plan)}
+              onClick={() => setSelectedPlanId(plan.id)}
               className="w-full h-[58px] md:h-[72px] rounded-xl border border-orange-100 bg-white hover:border-orange-300 hover:bg-orange-50/40 transition-colors flex items-center gap-3 px-3 text-left"
             >
               <div className="w-9 h-9 md:w-10 md:h-10 rounded-lg bg-orange-50 text-orange-500 flex items-center justify-center shrink-0">

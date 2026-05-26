@@ -304,8 +304,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const { sourceColumnId, oldIndex } = findSourceColumn(activeId, columns);
 
         // sourceColumnId를 찾지 못하면 (유효하지 않은 드래그) 중단
-        // 단, picker/sample 카드는 예외 (Picker에서 오는 카드는 sourceColumnId가 없음)
-        if (!sourceColumnId && !String(activeId).startsWith('picker-') && !String(activeId).startsWith('sample-')) {
+        // 단, picker/sample/shared 카드는 예외 (외부에서 오는 카드는 sourceColumnId가 없음)
+        if (!sourceColumnId && !String(activeId).startsWith('picker-') && !String(activeId).startsWith('sample-') && !String(activeId).startsWith('shared-')) {
             setActiveDragItem(null);
             return;
         }
@@ -323,6 +323,34 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // 지난 일차로 카드 추가 시도
         if (isPastDayColumn(targetColumnId, flightInfo) && targetColumnId !== sourceColumnId) {
             addToast('지난 일정에는 카드를 추가할 수 없어요.', 'warning');
+            setActiveDragItem(null);
+            return;
+        }
+
+        // 공유플랜 카드 드롭 처리 (single 또는 bulk) — 카테고리 검증/picker 분기 우회
+        if (draggedCard?.__sharedPlan) {
+            const cardsToAdd: any[] = draggedCard.bulk ? (draggedCard.cards || []) : [draggedCard.card];
+            if (cardsToAdd.length === 0) {
+                setActiveDragItem(null);
+                return;
+            }
+            if (!/^day\d+$/.test(targetColumnId) && targetColumnId !== 'inbox') {
+                addToast('일차 또는 보관함에만 추가할 수 있어요.', 'warning');
+                setActiveDragItem(null);
+                return;
+            }
+            const targetCol = (columns as any).get(targetColumnId);
+            const startIndex = targetCol?.cardIds?.length ?? 0;
+            cardsToAdd.forEach((c: any, idx: number) => {
+                if (!c) return;
+                createCardToColumn({
+                    ...c,
+                    title: c.text || c.title,
+                    targetColumnId,
+                    targetIndex: startIndex + idx,
+                });
+            });
+            addToast(`${cardsToAdd.length}개 카드를 추가했어요.`, 'info');
             setActiveDragItem(null);
             return;
         }
