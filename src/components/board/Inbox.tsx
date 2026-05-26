@@ -1,8 +1,7 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X, Share2 } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
-import { memo, useMemo } from "react";
-import Link from "next/link";
+import { memo, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
@@ -24,6 +23,7 @@ const ShoppingPicker = dyn(() => import("./ShoppingPicker"), "ShoppingPicker") a
 const TourSpaPicker = dyn(() => import("./TourSpaPicker"), "TourSpaPicker") as any;
 const EtcPicker = dyn(() => import("./EtcPicker"), "EtcPicker") as any;
 const PreparationPicker = dyn(() => import("./PreparationPicker"), "PreparationPicker") as any;
+const SharedPlanList = dyn(() => import("./SharedPlanList"), "SharedPlanList") as any;
 
 // anchor 카테고리별 배너 컬러
 // safelist (런타임 카테고리 키 매핑): bg-rose-50 bg-orange-50 bg-purple-50 bg-blue-50 bg-cyan-50
@@ -37,10 +37,11 @@ const ANCHOR_BANNER_COLORS: Record<string, string> = {
   tourspa: 'bg-cyan-50 border-cyan-200 text-cyan-800',
 };
 
-export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, activeDragItem, canEdit = true, roomId }: any) {
+export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, flightInfo, activeDragItem, canEdit = true, roomId }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
   const { anchorCard, toggleAnchor, scrollToAnchor } = useAnchor();
+  const [showSharedPlans, setShowSharedPlans] = useState(false);
 
   // ✅ [성능개선] filteredCards useMemo 적용 → 탭 전환 외 불필요한 재계산 방지
   // showInInbox 필터는 cities/ 정적 데이터가 있는 카테고리에만 적용 (hotel/food/shopping)
@@ -86,11 +87,14 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
   };
 
   const renderTab = (tab: any) => {
-    const isActive = activeCategory === tab.id;
+    const isActive = !showSharedPlans && activeCategory === tab.id;
     return (
       <button
         key={tab.id}
-        onClick={() => setActiveCategory(tab.id)}
+        onClick={() => {
+          setShowSharedPlans(false);
+          setActiveCategory(tab.id);
+        }}
         className={`group px-3 py-1.5 md:px-3 md:py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 md:gap-2 transition-all duration-300 ease-out whitespace-nowrap shrink-0 border ${isActive
           ? 'bg-slate-800 border-slate-800 text-white shadow-lg shadow-slate-200/50 scale-105'
           : 'bg-white border-slate-200 text-slate-500 shadow-sm hover:border-slate-300 hover:text-slate-700 hover:shadow-md'
@@ -128,13 +132,32 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         {/* 1단 */}
         <div className="flex items-center px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {topTabs.map(renderTab)}
-          <Link
-            href="/explore"
-            className="ml-auto shrink-0 px-3 py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 transition-all duration-300 ease-out border bg-orange-400 border-orange-400 text-white shadow-lg shadow-orange-200/50 hover:bg-orange-500 hover:border-orange-500"
-          >
-            <ShoppingBag className="w-3.5 h-3.5 md:w-4 md:h-4" />
-            여행쇼핑
-          </Link>
+          {(() => {
+            const canShare = !!destinationCard?.city && !!flightInfo?.outbound?.date;
+            const disabledTitle = !destinationCard?.city
+              ? '여행지를 먼저 등록해주세요'
+              : !flightInfo?.outbound?.date
+                ? '항공편을 먼저 등록해주세요'
+                : '';
+            return (
+              <button
+                type="button"
+                disabled={!canShare}
+                title={disabledTitle || undefined}
+                onClick={() => setShowSharedPlans((v) => !v)}
+                className={`ml-auto shrink-0 px-3 py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 transition-all duration-300 ease-out border ${
+                  !canShare
+                    ? 'bg-slate-100 border-slate-200 text-slate-400 cursor-not-allowed'
+                    : showSharedPlans
+                      ? 'bg-orange-500 border-orange-500 text-white shadow-lg shadow-orange-200/50 scale-105'
+                      : 'bg-orange-400 border-orange-400 text-white shadow-lg shadow-orange-200/50 hover:bg-orange-500 hover:border-orange-500'
+                }`}
+              >
+                <Share2 className="w-3.5 h-3.5 md:w-4 md:h-4" />
+                공유플랜
+              </button>
+            );
+          })()}
         </div>
         {/* 2단 */}
         <div className="flex px-4 pt-1 pb-3 md:pb-3 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
@@ -168,7 +191,9 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
       <div className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">
         <div className="flex flex-col px-3 pb-20">
 
-          {activeCategory === 'destination' ? (
+          {showSharedPlans ? (
+            <SharedPlanList city={destinationCard?.city || ''} />
+          ) : activeCategory === 'destination' ? (
             <>
               <DestinationPicker onConfirm={handleCreateDestination} />
             </>

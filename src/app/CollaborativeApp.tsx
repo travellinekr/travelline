@@ -3,13 +3,11 @@
 import { useStorage, useErrorListener } from "../liveblocks.config";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
-import { ExploreOverlayContext, type ExploreOverlayState } from "@/contexts/ExploreOverlayContext";
-import { ExploreContent } from "@/components/explore/ExploreContent";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { UserAvatarMenu } from "@/components/header/UserAvatarMenu";
 import { RightDeleteZone } from "@/components/board/RightDeleteZone";
 
@@ -36,8 +34,6 @@ const snapCenterToCursor: Modifier = ({ activatorEvent, draggingNodeRect, transf
 import { Inbox } from "../components/board/Inbox";
 import { Timeline } from "../components/board/Timeline";
 import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
-import { useExploreQueue } from "@/hooks/useExploreQueue";
-import { applyExploreCards, type ApplyResult } from "@/utils/applyExploreCards";
 import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useFloatingButton } from "@/hooks/useFloatingButton";
@@ -64,7 +60,6 @@ type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" 
 
 export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; initialTitle: string }) {
     const router = useRouter();
-    const searchParams = useSearchParams();
     const [showSessionExpired, setShowSessionExpired] = useState(false);
     const [showConnectionLost, setShowConnectionLost] = useState(false);
     // useErrorListener 콜백 클로저 stale 방지 — 이미 모달 뜬 후 같은 에러 반복 시 setState 스킵
@@ -154,15 +149,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
     const anchorContextValue = useAnchorLogic({ cards, addToast, setInboxState });
 
-    // 여행쇼핑 모달 오버레이 — 룸 위에 ExploreContent 띄움 (URL 변경 없이)
-    const [exploreOverlay, setExploreOverlay] = useState<ExploreOverlayState | null>(null);
-    const exploreOverlayContextValue = useMemo(() => ({ open: setExploreOverlay }), []);
-    const overlayAnchor = useMemo(() => {
-        const ac = exploreOverlay?.anchorCard;
-        if (!ac?.coordinates) return null;
-        return { lat: ac.coordinates.lat, lng: ac.coordinates.lng, title: ac.text || ac.title || '기준 카드' };
-    }, [exploreOverlay]);
-
     const containerRef = useRef<HTMLDivElement>(null);
     const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
         containerRef,
@@ -172,26 +158,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // Liveblocks cards 최신값 참조 (stale closure 방지)
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
-
-    // /explore 에서 "여행보드로" 뒤로가기 시 ?inbox=<category> 받아 인박스 자동 펼침 + 카테고리 복원
-    const inboxParamHandledRef = useRef(false);
-    useEffect(() => {
-        if (inboxParamHandledRef.current) return;
-        const inboxParam = searchParams.get('inbox');
-        if (!inboxParam) return;
-        const validCategories = ['destination', 'preparation', 'flight', 'hotel', 'food', 'shopping', 'transport', 'tourspa', 'other'];
-        if (validCategories.includes(inboxParam)) {
-            setActiveCategory(inboxParam as CategoryType);
-            if (typeof window !== 'undefined' && window.innerWidth < 768) {
-                setInboxState('open');
-            }
-        }
-        // URL 정리 (재진입/새로고침 시 깨끗하게)
-        if (typeof window !== 'undefined') {
-            window.history.replaceState({}, '', `/room/${roomId}`);
-        }
-        inboxParamHandledRef.current = true;
-    }, [searchParams, roomId, setInboxState]);
 
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
 
@@ -208,9 +174,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // 보드 스토리지 관리 (자동 복구 + 여행지 제거 시 cleanup)
     const { cleanupFlightAndDays } = useBoardStorage({ columns, addToast });
-
-    // Explore에서 추가된 카드 큐 처리 (중복 체크 포함)
-    useExploreQueue({ roomId, cardsRef, handleCreateCard, addToast });
 
     // 모바일 플로팅 버튼 (가짜 마우스 커서)
     const { floatingBtnRef, handleTouchStart, handleTouchMove, handleTouchEnd } = useFloatingButton({
@@ -230,23 +193,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const cardId = destCol.cardIds[0];
         return (cards as any)?.get(cardId) || null;
     }, [columns, cards]);
-
-    // 모달 오버레이에서 카드 추가 → 현재 룸 보관함에 즉시 반영 (localStorage 우회)
-    // 도시 매칭 검증/결과 토스트는 ExploreContent 측에서 처리 (모달 뒤 가려짐 회피)
-    const handleExploreAddCards = useCallback((incoming: any[]): ApplyResult => {
-        return applyExploreCards(incoming, { cardsRef, handleCreateCard });
-    }, [handleCreateCard]);
-
-    // 모달에서 "이미 보관함에 있는 카드" 표시용 키 set (`${name}__${city}`)
-    const existingCardKeys = useMemo(() => {
-        const set = new Set<string>();
-        if (cards) {
-            (cards as any).forEach((c: any) => {
-                if (c?.text && c?.city) set.add(`${c.text}__${c.city}`);
-            });
-        }
-        return set;
-    }, [cards]);
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
@@ -594,29 +540,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <AnchorContext.Provider value={anchorContextValue}>
-        <ExploreOverlayContext.Provider value={exploreOverlayContextValue}>
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
             {showConnectionLost && <ConnectionLostModal />}
-            {exploreOverlay && (
-                <div className="fixed inset-0 z-[9000] bg-white">
-                    <ExploreContent
-                        initialCity={exploreOverlay.city}
-                        initialRegion={exploreOverlay.region}
-                        initialCategory={exploreOverlay.category}
-                        anchor={overlayAnchor}
-                        onAddCards={handleExploreAddCards}
-                        destinationCity={destinationCard?.city}
-                        existingCardKeys={existingCardKeys}
-                        onBack={(category) => {
-                            setExploreOverlay(null);
-                            setActiveCategory(category as CategoryType);
-                            if (typeof window !== 'undefined' && window.innerWidth < 768) setInboxState('open');
-                        }}
-                    />
-                </div>
-            )}
             <DndContext
                 sensors={sensors}
                 collisionDetection={customCollisionDetection}
@@ -749,6 +676,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             onCreateCard={handleCreateCard}
                                             onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
                                             destinationCard={destinationCard}
+                                            flightInfo={flightInfo}
                                             canEdit={canEdit}
                                             roomId={roomId}
                                         />
@@ -769,7 +697,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             {/* 토스트 메시지들 */}
             <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
-        </ExploreOverlayContext.Provider>
         </AnchorContext.Provider>
     );
 }

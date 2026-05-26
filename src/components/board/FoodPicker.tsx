@@ -186,8 +186,6 @@ export function FoodPicker({
                 icon={Utensils}
                 color="orange"
                 count={sampleRestaurants.length + createdCards.length}
-                destinationCity={destinationCity}
-                roomId={roomId}
                 category="food"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}
