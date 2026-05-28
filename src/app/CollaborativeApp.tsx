@@ -208,6 +208,22 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }, [cleanupFlightAndDays, setEntryCardCity]),
     });
 
+    // 여행지 + 항공편 모두 등록 완료 시점에 인박스 카테고리 자동 전환: '맛집'
+    // (양쪽 다 갖춰지면 사용자가 다음으로 맛집 카드를 살펴보는 흐름이 자연스러움)
+    // 둘 중 하나라도 빠지면 ref 리셋 → 다시 둘 다 갖춰질 때 재트리거. 그 사이 사용자 수동 탭 선택은 유지.
+    const foodAutoSelectedRef = useRef(false);
+    useEffect(() => {
+        const bothSet = !!(destinationCard?.city && flightInfo?.outbound?.date);
+        if (bothSet) {
+            if (!foodAutoSelectedRef.current) {
+                setActiveCategory('food');
+                foodAutoSelectedRef.current = true;
+            }
+        } else {
+            foodAutoSelectedRef.current = false;
+        }
+    }, [destinationCard, flightInfo]);
+
     const handleDragEnd = (event: any) => {
 
         const { active, over } = event;
