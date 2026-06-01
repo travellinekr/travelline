@@ -5,6 +5,14 @@ const client = createClient({
   publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY!,
 });
 
+export type CardPhoto = {
+  id: string;              // 고유 ID (Date.now() + random)
+  originalUrl: string;     // 원본 Supabase Storage signed URL
+  thumbnailUrl: string;    // 썸네일 signed URL
+  capturedAt: number;      // 업로드 timestamp
+  uploaderId: string;      // userId
+};
+
 export type Card = {
   id: string;
   text: string;
@@ -20,6 +28,7 @@ export type Card = {
   coordinates?: { lat: number; lng: number }; // GPS 좌표 (항공카드용)
   notes?: any; // BlockNote 에디터 콘텐츠 (JSON 형식)
   etcItem?: string; // 기타 카드 항목 (3단 표시용)
+  photos?: CardPhoto[]; // 카드에 첨부된 사진 목록 (Supabase Storage 업로드 + signed URL)
 };
 
 export type FlightInfo = {
