@@ -47,6 +47,13 @@ function getDayColumns(input: BuildSnapshotInput): Column[] {
     return result;
 }
 
+// 공유플랜에 포함하면 안 되는 개인 데이터 — photos 등을 제거
+function sanitizeCardForSnapshot(card: Card): Card {
+    if (!card) return card;
+    const { photos, ...rest } = card as any;
+    return rest as Card;
+}
+
 export function buildSharedPlanSnapshot(input: BuildSnapshotInput): SharedPlanSnapshot | null {
     const dest = getDestinationCard(input);
     if (!dest) return null;
@@ -56,7 +63,8 @@ export function buildSharedPlanSnapshot(input: BuildSnapshotInput): SharedPlanSn
         const cardIds = Array.isArray(col.cardIds) ? col.cardIds : (col as any).cardIds?.toArray?.() ?? [];
         const cards: Card[] = cardIds
             .map((id: string) => input.cards?.get?.(id) ?? input.cards?.[id])
-            .filter(Boolean);
+            .filter(Boolean)
+            .map(sanitizeCardForSnapshot);
         return { id: col.id, title: col.title, cards };
     });
 
