@@ -298,6 +298,24 @@ export function useCardMutations() {
         });
     }, []);
 
+    // 카드에 사진 추가 — 최신 사진이 배열 앞쪽(왼쪽 슬롯)에 오도록 prepend
+    const addCardPhoto = useMutation(({ storage }, { cardId, photo }: { cardId: string; photo: any }) => {
+        const cards = storage.get("cards") as any;
+        const card = cards.get(cardId);
+        if (!card) return;
+        const existing = card.get("photos") || [];
+        card.set("photos", [photo, ...existing]);
+    }, []);
+
+    // 카드에서 사진 제거 (id로 매칭)
+    const removeCardPhoto = useMutation(({ storage }, { cardId, photoId }: { cardId: string; photoId: string }) => {
+        const cards = storage.get("cards") as any;
+        const card = cards.get(cardId);
+        if (!card) return;
+        const existing = card.get("photos") || [];
+        card.set("photos", existing.filter((p: any) => p?.id !== photoId));
+    }, []);
+
     return {
         reorderCard,
         copyCardToTimeline,
@@ -306,6 +324,8 @@ export function useCardMutations() {
         createCard,
         createCardToColumn,
         toggleVote,
-        updateCard
+        updateCard,
+        addCardPhoto,
+        removeCardPhoto
     };
 }

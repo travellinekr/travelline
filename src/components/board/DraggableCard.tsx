@@ -15,6 +15,7 @@ import { EtcCard } from "@/components/cards/EtcCard";
 import type { CardVariant } from "@/components/cards/types";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { CardEditorModal } from "./CardEditorModal";
+import { CardPhotoStrip } from "./CardPhotoStrip";
 import { useAnchor } from "@/contexts/AnchorContext";
 
 // 임시 사용자 ID Hook (TODO: 실제 인증 시스템으로 대체 필요)
@@ -310,6 +311,11 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
     );
   }
 
+  // 사진 스트립 노출 조건: timeline 카드 + 헤더 아님 + (anchor 활성 OR 사진 1장 이상 보유)
+  // 사진이 한 장이라도 있으면 anchor 해제해도 닫히지 않음
+  const photoCount = Array.isArray(card?.photos) ? card.photos.length : 0;
+  const showPhotoStrip = variant === 'compact' && !isHeader && (isAnchor || photoCount > 0);
+
   return (
     <>
       {renderCardInternal(card, {
@@ -329,6 +335,14 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
         onClick: handleAnchorClick,
         onShareClick: canEdit ? onShareClick : undefined,
       })}
+
+      {showPhotoStrip && (
+        <CardPhotoStrip
+          cardId={card.id}
+          photos={Array.isArray(card.photos) ? card.photos : []}
+          canEdit={canEdit}
+        />
+      )}
 
       {/* 카드 에디터 모달 */}
       {isNotesOpen && (
