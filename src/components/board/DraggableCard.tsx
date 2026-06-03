@@ -252,7 +252,7 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
   }
 }
 
-export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void }) {
+export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick, isFutureDay = false }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void, isFutureDay?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
   const { selectedAnchorId, toggleAnchor } = useAnchor();
@@ -311,10 +311,11 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
     );
   }
 
-  // 사진 스트립 노출 조건: timeline 카드 + 헤더 아님 + (anchor 활성 OR 사진 1장 이상 보유)
+  // 사진 스트립 노출 조건: timeline 카드 + 헤더 아님 + 미래 일차 아님 + (anchor 활성 OR 사진 1장 이상 보유)
   // 사진이 한 장이라도 있으면 anchor 해제해도 닫히지 않음
+  // 미래 일차(아직 출발 전 날)는 사진 영역 자체를 숨김 — 당일/지난 일차에만 노출
   const photoCount = Array.isArray(card?.photos) ? card.photos.length : 0;
-  const showPhotoStrip = variant === 'compact' && !isHeader && (isAnchor || photoCount > 0);
+  const showPhotoStrip = variant === 'compact' && !isHeader && !isFutureDay && (isAnchor || photoCount > 0);
 
   return (
     <>
