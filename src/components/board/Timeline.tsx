@@ -193,6 +193,17 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
+  // 미래 일차 판정 — 사진 추가는 당일 이후(=오늘 이하)부터만 노출
+  const isFutureDay = useMemo(() => {
+    if (!flightInfo?.outbound?.date || !(dayNumber >= 1)) return false;
+    const dayDate = new Date(flightInfo.outbound.date);
+    dayDate.setDate(dayDate.getDate() + (dayNumber - 1));
+    dayDate.setHours(0, 0, 0, 0);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return dayDate.getTime() > today.getTime();
+  }, [flightInfo, dayNumber]);
+
   // 💡 사용자 요청: "일차 타임라인에 2개의 도시가 있으면 여행지 날씨, 1개면 그냥 그 도시 날씨"
   // 카드의 위치(마커)를 분석하여 날씨를 보여줄 최종 좌표를 결정합니다.
   const weatherKey = useMemo(() => {
@@ -352,7 +363,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           {/* 카드 리스트 렌더링 */}
           {cards.map((card: any) => {
             if (!card) return null;
-            return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} />;
+            return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} isFutureDay={isFutureDay} />;
           })}
         </div>
       </SortableContext>

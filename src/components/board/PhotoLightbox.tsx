@@ -107,40 +107,10 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
         >
-            {/* 상단 바: 인덱스 + 닫기/삭제 */}
-            <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3 bg-gradient-to-b from-black/60 to-transparent">
+            {/* 상단 바: 인덱스만 */}
+            <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-center px-4 py-3 bg-gradient-to-b from-black/60 to-transparent">
                 <div className="text-white text-sm font-semibold tabular-nums">
                     {index + 1} / {photos.length}
-                </div>
-                <div className="flex items-center gap-1">
-                    <button
-                        type="button"
-                        onClick={handleDownload}
-                        disabled={isDownloading}
-                        aria-label="원본 다운로드"
-                        title="원본 다운로드"
-                        className="p-2 rounded-full text-white/90 hover:text-white hover:bg-white/10 disabled:opacity-50 transition-colors"
-                    >
-                        {isDownloading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Download className="w-5 h-5" />}
-                    </button>
-                    {canEdit && onDelete && (
-                        <button
-                            type="button"
-                            onClick={() => setPendingDelete(true)}
-                            aria-label="삭제"
-                            className="p-2 rounded-full text-white/90 hover:text-white hover:bg-white/10 transition-colors"
-                        >
-                            <Trash2 className="w-5 h-5" />
-                        </button>
-                    )}
-                    <button
-                        type="button"
-                        onClick={onClose}
-                        aria-label="닫기"
-                        className="p-2 rounded-full text-white/90 hover:text-white hover:bg-white/10 transition-colors"
-                    >
-                        <X className="w-6 h-6" />
-                    </button>
                 </div>
             </div>
 
@@ -172,12 +142,12 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
                 src={current.originalUrl || current.thumbnailUrl}
                 alt={`photo-${index + 1}`}
                 draggable={false}
-                className="max-w-[95vw] max-h-[90vh] object-contain select-none"
+                className="max-w-[95vw] max-h-[80vh] object-contain select-none"
             />
 
-            {/* 하단 인디케이터 (점) */}
+            {/* 하단 인디케이터 (점) — 액션 바 위쪽 */}
             {photos.length > 1 && (
-                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+                <div className="absolute bottom-20 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
                     {photos.map((_, i) => (
                         <button
                             key={i}
@@ -189,6 +159,40 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
                     ))}
                 </div>
             )}
+
+            {/* 하단 액션 바: 다운로드 / 삭제 / 닫기 */}
+            <div className="absolute bottom-0 left-0 right-0 z-10 flex items-center justify-center gap-2 px-4 py-4 bg-gradient-to-t from-black/70 to-transparent">
+                <button
+                    type="button"
+                    onClick={handleDownload}
+                    disabled={isDownloading}
+                    aria-label="원본 다운로드"
+                    title="원본 다운로드"
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white disabled:opacity-50 transition-colors"
+                >
+                    {isDownloading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Download className="w-5 h-5" />}
+                </button>
+                {canEdit && onDelete && (
+                    <button
+                        type="button"
+                        onClick={() => setPendingDelete(true)}
+                        aria-label="삭제"
+                        title="삭제"
+                        className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-red-500/80 text-white transition-colors"
+                    >
+                        <Trash2 className="w-5 h-5" />
+                    </button>
+                )}
+                <button
+                    type="button"
+                    onClick={onClose}
+                    aria-label="닫기"
+                    title="닫기"
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                >
+                    <X className="w-6 h-6" />
+                </button>
+            </div>
 
             {pendingDelete && (
                 <Confirm
