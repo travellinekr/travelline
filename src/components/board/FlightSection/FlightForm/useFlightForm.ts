@@ -278,6 +278,45 @@ export function useFlightForm(
         }
     }, []);
 
+    // 일정 단축 시 dayCount 초과 day 컬럼 정리 — 카드는 inbox 로 이동 후 컬럼 삭제
+    // 반환값: inbox 로 이동된 카드 개수 (토스트 안내용)
+    const pruneExcessDayColumns = useMutation(({ storage }, maxDayNum: number): number => {
+        const columns = storage.get('columns') as any;
+        const columnOrder = storage.get('columnOrder') as any;
+        const inboxCol = columns.get('inbox');
+        if (!inboxCol) return 0;
+
+        const inboxList = inboxCol.get('cardIds');
+        const toRemove: string[] = [];
+        let moved = 0;
+
+        for (const [colId, col] of columns.entries()) {
+            const match = /^day([1-9]\d*)$/.exec(colId);
+            if (!match) continue;
+            const dayNum = parseInt(match[1]);
+            if (dayNum <= maxDayNum) continue;
+
+            // 잘려나간 day 컬럼의 카드들을 inbox 로 이동 (cards LiveMap 은 그대로 유지)
+            const list = col.get('cardIds');
+            const cardIds: string[] = list.toArray ? list.toArray() : [];
+            for (const cardId of cardIds) {
+                inboxList.push(cardId);
+                moved++;
+            }
+            toRemove.push(colId);
+        }
+
+        // 컬럼 + columnOrder 에서 제거
+        for (const colId of toRemove) {
+            const orderArray = columnOrder.toArray();
+            const idx = orderArray.indexOf(colId);
+            if (idx !== -1) columnOrder.delete(idx);
+            columns.delete(colId);
+        }
+
+        return moved;
+    }, []);
+
     // Delete existing flight cards mutation
     const deleteExistingFlightCards = useMutation(({ storage }) => {
         const cards = storage.get("cards") as any;
@@ -711,7 +750,11 @@ export function useFlightForm(
         // 🔄 기존 항공 카드 삭제 (리셋)
         deleteExistingFlightCards();
 
-
+        // 🧹 일정 단축 시 잘려나간 day 컬럼 정리 — non-flight 카드는 inbox 로 이동
+        const movedCount = pruneExcessDayColumns(dayCount);
+        if (movedCount > 0) {
+            addToast(`일정이 줄어 ${movedCount}개의 카드가 보관함으로 이동됐어요.`, 'info');
+        }
 
         // 날짜로 Day 컬럼 ID 찾기 헬퍼 함수
         const findDayColumnByDate = (dateStr: string): string | null => {
