@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { X } from 'lucide-react';
 
 interface MapMarker {
     id: string;
@@ -41,6 +40,7 @@ export function InboxMapModal({ title, markers, isOpen, onClose }: InboxMapModal
             streetViewControl: false,
             fullscreenControl: true,
             mapId: 'TRIPTIMELINE_MAP',
+            gestureHandling: 'greedy', // 모바일 한 손가락 pan + 데스크탑 휠 줌
         });
         googleMapRef.current = map;
 
@@ -147,14 +147,8 @@ export function InboxMapModal({ title, markers, isOpen, onClose }: InboxMapModal
     const modalContent = (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center p-0 md:p-4 pointer-events-none">
             <div className="bg-white w-full h-full md:w-[90vw] md:h-[80vh] md:max-w-5xl md:rounded-2xl overflow-hidden shadow-2xl flex flex-col pointer-events-auto">
-                <div className="flex items-center justify-between p-4 border-b bg-white">
+                <div className="flex items-center p-4 border-b bg-white">
                     <h2 className="text-lg font-bold text-slate-800">{title}</h2>
-                    <button
-                        onClick={onClose}
-                        className="p-2 hover:bg-slate-100 rounded-full transition-colors"
-                    >
-                        <X className="w-5 h-5 text-slate-600" />
-                    </button>
                 </div>
 
                 {markers.length === 0 ? (
@@ -165,9 +159,17 @@ export function InboxMapModal({ title, markers, isOpen, onClose }: InboxMapModal
                     <div ref={mapRef} className="flex-1 w-full" />
                 )}
 
-                <div className="p-3 border-t bg-slate-50 text-sm text-slate-600">
-                    총 {markers.filter(m => !m.isAnchor).length}개 위치 표시
-                    {markers.some(m => m.isAnchor) && ' · 보라색 핀: 기준점'}
+                <div className="flex items-center justify-between gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
+                    <span className="text-sm text-slate-600">
+                        총 {markers.filter(m => !m.isAnchor).length}개 위치 표시
+                        {markers.some(m => m.isAnchor) && ' · 보라색 핀: 기준점'}
+                    </span>
+                    <button
+                        onClick={onClose}
+                        className="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors font-medium text-sm"
+                    >
+                        닫기
+                    </button>
                 </div>
             </div>
         </div>
