@@ -73,22 +73,14 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
             </Link>
           </h1>
 
-          {/* 로그인/회원가입 버튼 */}
+          {/* 시작하기 버튼 */}
           {rightSlot ?? (
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => router.push('/login')}
-                className="text-sm font-medium text-slate-700 hover:text-slate-700 transition-colors px-3 py-1.5"
-              >
-                로그인
-              </button>
-              <button
-                onClick={() => router.push('/login')}
-                className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
-              >
-                회원가입
-              </button>
-            </div>
+            <button
+              onClick={() => router.push('/login')}
+              className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+            >
+              시작하기
+            </button>
           )}
         </div>
       </header>
