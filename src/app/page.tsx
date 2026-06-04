@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Plus, LogIn, ChevronRight, MapPin, Users, Lightbulb, Plane, Star, Globe, Mail, Phone } from "lucide-react";
+import { Plus, MapPin, Users, Lightbulb, Plane, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import ProjectCard from "@/components/dashboard/ProjectCard";
@@ -273,29 +273,26 @@ export default function Dashboard() {
 
       {/* ③ 나의 여행 계획 */}
       <main className="flex-1 max-w-6xl w-full mx-auto pt-4 pb-8 md:pt-6 md:pb-10 px-4 sm:px-6">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
-          <div>
-            <h2 className="text-2xl font-bold text-slate-800 mb-1">나의 여행 계획</h2>
-            <p className="text-sm text-slate-400">진행 중인 여행 계획을 확인하고 새로운 여행을 시작하세요.</p>
-          </div>
-          {user && (
+        {user && (
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-800 mb-1">나의 여행 계획</h2>
+              <p className="text-sm text-slate-400">진행 중인 여행 계획을 확인하고 새로운 여행을 시작하세요.</p>
+            </div>
             <button
               onClick={() => setIsModalOpen(true)}
               className="bg-slate-800 text-white px-5 py-2.5 rounded-xl font-bold flex items-center gap-2 hover:bg-slate-900 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:scale-95 text-sm"
             >
               <Plus className="w-4 h-4" /> 새 여행 계획
             </button>
-          )}
-        </div>
+          </div>
+        )}
 
         {/* 비로그인 - 히어로 랜딩 섹션 */}
         {!user && (
           <div className="flex flex-col items-center gap-12 py-10 md:py-16">
             {/* 히어로 */}
             <div className="text-center max-w-2xl mx-auto px-2">
-              <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 text-orange-500 text-xs font-bold px-4 py-1.5 rounded-full mb-6">
-                ✈️ 새로운 여행 계획의 시작
-              </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-4">
                 여행을 <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose-400">타임라인</span>으로<br className="hidden sm:block" /> 함께 계획하세요
               </h2>
@@ -303,20 +300,17 @@ export default function Dashboard() {
                 드래그&드롭으로 쉽게 일정 구성, 친구와 실시간 협업, 지도 연동까지.<br className="hidden md:block" />
                 여행의 모든 순간을 Travelline으로 완성하세요.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <div className="flex justify-center">
                 <button
                   onClick={() => router.push("/login")}
-                  className="w-full sm:w-auto bg-slate-900 text-white px-8 py-3.5 rounded-2xl font-bold text-base hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95 flex items-center justify-center gap-2"
+                  className="w-full sm:w-auto bg-slate-900 text-white px-8 py-3.5 rounded-2xl font-bold text-base hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95"
                 >
-                  <Plane className="w-4 h-4" /> 무료로 시작하기
-                </button>
-                <button
-                  onClick={() => router.push("/login")}
-                  className="w-full sm:w-auto bg-white text-slate-700 px-8 py-3.5 rounded-2xl font-bold text-base border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all shadow-sm flex items-center justify-center gap-2"
-                >
-                  <LogIn className="w-4 h-4" /> 로그인
+                  시작하기
                 </button>
               </div>
+              <p className="text-slate-400 text-sm mt-5">
+                이메일 주소 외에는 어떤 개인정보도 받지 않습니다.
+              </p>
             </div>
 
             {/* 피처 카드 3개 */}
@@ -352,16 +346,6 @@ export default function Dashboard() {
               ))}
             </div>
 
-            {/* 하단 CTA */}
-            <div className="text-center">
-              <p className="text-slate-400 text-sm mb-3">지금 바로 무료로 사용해보세요</p>
-              <button
-                onClick={() => router.push("/login")}
-                className="text-sm font-semibold text-[#FF6B47] hover:underline flex items-center gap-1 mx-auto"
-              >
-                Google로 1초 로그인 <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
           </div>
         )}
 
