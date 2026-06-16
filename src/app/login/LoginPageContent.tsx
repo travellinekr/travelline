@@ -4,12 +4,25 @@ import { useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
 import TravellineLogo from '@/components/TravellineLogo';
+import { detectInAppBrowser, InAppKind } from '@/utils/inAppBrowser';
+import { InAppBrowserModal } from '@/components/auth/InAppBrowserModal';
 
 export default function LoginPageContent() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
     const [error, setError] = useState('');
+    const [inAppKind, setInAppKind] = useState<InAppKind>(null);
 
     const handleSocialLogin = async (provider: 'google' | 'kakao') => {
+        // Google 은 인앱 브라우저(카톡·네이버앱 등) 차단 정책이라 사전 게이트.
+        // 카카오·네이버는 차단 정책이 없어 인앱에서도 진행 가능.
+        if (provider === 'google') {
+            const kind = detectInAppBrowser();
+            if (kind) {
+                setInAppKind(kind);
+                return;
+            }
+        }
+
         setLoadingProvider(provider);
         setError('');
 
@@ -99,6 +112,8 @@ export default function LoginPageContent() {
                     </p>
                 </div>
             </div>
+
+            <InAppBrowserModal kind={inAppKind} onClose={() => setInAppKind(null)} />
         </div>
     );
 }
