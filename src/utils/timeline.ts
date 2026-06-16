@@ -13,3 +13,15 @@ export function isPastDayColumn(columnId: string, flightInfo: any): boolean {
     today.setHours(0, 0, 0, 0);
     return dayDate < today;
 }
+
+// 여행이 시작됐는지 판정 — 출발일이 오늘 이하이면 true.
+// 일정 시작 후에는 최종여행지 변경이 데이터 불일치를 일으키므로 잠금에 사용.
+// flightInfo 미등록이면 false (제한 없음).
+export function isTripStarted(flightInfo: any): boolean {
+    if (!flightInfo?.outbound?.date) return false;
+    const depDate = new Date(flightInfo.outbound.date);
+    depDate.setHours(0, 0, 0, 0);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return depDate.getTime() <= today.getTime();
+}
