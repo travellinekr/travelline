@@ -10,8 +10,32 @@ import { ShoppingAddModal } from './ShoppingAddModal';
 import { InboxMapModal } from './InboxMapModal';
 import { EmptyState } from './EmptyState';
 import { PickerHeader } from './PickerHeader';
+import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+
+// 드롭다운 그룹 — 의미 단위로 묶어 7개로 압축
+const SHOPPING_TYPE_GROUPS: Array<{ value: string; label: string; types: ShoppingType[] | null }> = [
+    { value: 'all', label: '전체', types: null },
+    { value: 'department', label: '백화점·쇼핑몰', types: ['department-store', 'mall'] },
+    { value: 'market', label: '전통시장', types: ['market'] },
+    { value: 'supermarket', label: '마트·편의점', types: ['supermarket', 'convenience'] },
+    { value: 'outlet', label: '아울렛', types: ['outlet'] },
+    { value: 'duty-free', label: '면세점', types: ['duty-free'] },
+    { value: 'souvenir', label: '기념품·특산품', types: ['souvenir', 'specialty', 'boutique'] },
+];
+
+function matchesShoppingFilter(card: any, selectedValue: string, searchText: string): boolean {
+    const cardType = card.type || card.shoppingType;
+    const group = SHOPPING_TYPE_GROUPS.find(g => g.value === selectedValue);
+    if (group?.types && !(cardType && group.types.includes(cardType))) return false;
+    if (searchText.trim()) {
+        const q = searchText.trim().toLowerCase();
+        const name = (card.name || card.text || card.title || '').toLowerCase();
+        if (!name.includes(q)) return false;
+    }
+    return true;
+}
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -131,6 +155,8 @@ export function ShoppingPicker({
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
+    const [selectedType, setSelectedType] = useState('all');
+    const [searchText, setSearchText] = useState('');
 
     const handleCreateCard = (data: any) => {
 
@@ -157,6 +183,15 @@ export function ShoppingPicker({
     const sampleShopping = sortByAnchorDistance(allShopping.filter(s => s.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
+    const filteredSample = useMemo(
+        () => sampleShopping.filter((s: any) => matchesShoppingFilter(s, selectedType, searchText)),
+        [sampleShopping, selectedType, searchText],
+    );
+    const filteredCreated = useMemo(
+        () => sortedCreatedCards.filter((c: any) => matchesShoppingFilter(c, selectedType, searchText)),
+        [sortedCreatedCards, selectedType, searchText],
+    );
+
     const mapMarkers = useMemo(() => {
         const markers: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
         if (anchorCard?.coordinates) {
@@ -178,17 +213,27 @@ export function ShoppingPicker({
                 title="쇼핑"
                 icon={ShoppingBag}
                 color="purple"
-                count={sampleShopping.length + createdCards.length}
+                count={filteredSample.length + filteredCreated.length}
                 category="shopping"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}
+            />
+
+            {/* 필터 바 */}
+            <PickerFilterBar
+                color="purple"
+                typeOptions={SHOPPING_TYPE_GROUPS.map(g => ({ value: g.value, label: g.label }))}
+                selectedType={selectedType}
+                onTypeChange={setSelectedType}
+                searchText={searchText}
+                onSearchChange={setSearchText}
             />
 
             {/* 쇼핑 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {/* 샘플 쇼핑 카드들 (destinationCity 기반 필터링) */}
-                    {sampleShopping.map((shopping: ShoppingData, index: number) => (
+                    {filteredSample.map((shopping: ShoppingData, index: number) => (
                         <DraggableShoppingCard
                             key={`sample-${index}`}
                             cardId={`picker-shopping-${index}`}
@@ -209,7 +254,7 @@ export function ShoppingPicker({
                     ))}
 
                     {/* 생성된 카드들 (anchor 시 거리순) */}
-                    {sortedCreatedCards.map((card: any) => {
+                    {filteredCreated.map((card: any) => {
 
                         return (
                             <DraggableShoppingCard

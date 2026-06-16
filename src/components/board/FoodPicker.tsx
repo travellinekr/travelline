@@ -10,8 +10,32 @@ import { FoodAddModal } from './FoodAddModal';
 import { InboxMapModal } from './InboxMapModal';
 import { EmptyState } from './EmptyState';
 import { PickerHeader } from './PickerHeader';
+import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+
+// 드롭다운 그룹 — 데이터 type 을 의미 단위로 묶어 7개로 압축
+const FOOD_TYPE_GROUPS: Array<{ value: string; label: string; types: RestaurantType[] | null }> = [
+    { value: 'all', label: '전체', types: null },
+    { value: 'korean', label: '한식', types: ['korean'] },
+    { value: 'japanese', label: '일식', types: ['japanese'] },
+    { value: 'western', label: '양식', types: ['western', 'italian', 'french'] },
+    { value: 'cafe', label: '카페', types: ['cafe'] },
+    { value: 'local', label: '로컬·길거리', types: ['local', 'street-food'] },
+    { value: 'other', label: '기타', types: ['chinese', 'fusion'] },
+];
+
+function matchesFoodFilter(card: any, selectedValue: string, searchText: string): boolean {
+    const cardType = card.type || card.restaurantType;
+    const group = FOOD_TYPE_GROUPS.find(g => g.value === selectedValue);
+    if (group?.types && !(cardType && group.types.includes(cardType))) return false;
+    if (searchText.trim()) {
+        const q = searchText.trim().toLowerCase();
+        const name = (card.name || card.text || card.title || '').toLowerCase();
+        if (!name.includes(q)) return false;
+    }
+    return true;
+}
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -132,6 +156,8 @@ export function FoodPicker({
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
+    const [selectedType, setSelectedType] = useState('all');
+    const [searchText, setSearchText] = useState('');
 
     const handleCreateCard = (data: any) => {
 
@@ -157,6 +183,16 @@ export function FoodPicker({
     const allRestaurants = destinationCity ? getRestaurantsByCity(destinationCity) : [];
     const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
+
+    // 필터 적용 (드롭다운 type 그룹 AND 이름 검색)
+    const filteredSample = useMemo(
+        () => sampleRestaurants.filter((r: any) => matchesFoodFilter(r, selectedType, searchText)),
+        [sampleRestaurants, selectedType, searchText],
+    );
+    const filteredCreated = useMemo(
+        () => sortedCreatedCards.filter((c: any) => matchesFoodFilter(c, selectedType, searchText)),
+        [sortedCreatedCards, selectedType, searchText],
+    );
 
     // 지도 마커: 인박스 표시 카드 + anchor (있으면). 좌표 없는 카드는 제외.
     const mapMarkers = useMemo(() => {
@@ -185,17 +221,27 @@ export function FoodPicker({
                 title="맛집"
                 icon={Utensils}
                 color="orange"
-                count={sampleRestaurants.length + createdCards.length}
+                count={filteredSample.length + filteredCreated.length}
                 category="food"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}
+            />
+
+            {/* 필터 바 */}
+            <PickerFilterBar
+                color="orange"
+                typeOptions={FOOD_TYPE_GROUPS.map(g => ({ value: g.value, label: g.label }))}
+                selectedType={selectedType}
+                onTypeChange={setSelectedType}
+                searchText={searchText}
+                onSearchChange={setSearchText}
             />
 
             {/* 맛집 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
                     {/* 샘플 맛집 카드들 (destinationCity 기반 필터링) */}
-                    {sampleRestaurants.map((restaurant: RestaurantData, index: number) => (
+                    {filteredSample.map((restaurant: RestaurantData, index: number) => (
                         <DraggableFoodCard
                             key={`sample-${index}`}
                             cardId={`picker-food-${index}`}
@@ -217,7 +263,7 @@ export function FoodPicker({
                     ))}
 
                     {/* 생성된 카드들 (anchor 시 거리순) */}
-                    {sortedCreatedCards.map((card: any) => {
+                    {filteredCreated.map((card: any) => {
 
                         return (
                             <DraggableFoodCard

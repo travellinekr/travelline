@@ -11,6 +11,14 @@ const SHOPPING_TYPE_LABELS: Record<string, string> = {
     'souvenir': '기념품점',
 };
 
+// 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
+const SHOPPING_TYPE_ICONS: Record<string, string> = {
+    'department-store': '🏬', 'mall': '🛍️', 'market': '🛒',
+    'outlet': '🏷️', 'duty-free': '🛂', 'convenience': '🏪',
+    'supermarket': '🥫', 'specialty': '🎁', 'boutique': '👗',
+    'souvenir': '🧸',
+};
+
 function checkHasNotes(notes: any): boolean {
     return Boolean(
         notes && Array.isArray(notes) && notes.length > 0 &&
@@ -28,6 +36,7 @@ export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
     const category = card.shoppingType
         ? SHOPPING_TYPE_LABELS[card.shoppingType] || card.shoppingType
         : "Shopping";
+    const displayIcon = card.icon || (card.shoppingType && SHOPPING_TYPE_ICONS[card.shoppingType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 
     const { anchorCard } = useAnchor();
@@ -50,7 +59,7 @@ export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
         >
             <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
                 <div className="flex items-center gap-1.5 min-w-0">
-                    {card.icon && <span className="text-base shrink-0">{card.icon}</span>}
+                    {displayIcon && <span className="text-base shrink-0">{displayIcon}</span>}
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{shoppingName}</h4>
                 </div>
                 <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">

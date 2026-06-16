@@ -6,9 +6,19 @@ import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/
 
 const TOUR_SPA_TYPE_LABELS: Record<string, string> = {
     'island-hopping': '아일랜드 호핑', 'city-tour': '시티 투어', 'nature-tour': '자연 관광',
-    'cultural-tour': '문화 투어', 'adventure': '액티비티', 'water-sports': '수상 스포츠',
-    'diving': '다이빙', 'snorkeling': '스노클링', 'massage': '마사지',
-    'spa': '스파', 'wellness': '웰니스', 'hot-spring': '온천',
+    'cultural-tour': '문화 투어', 'cultural': '문화 체험', 'adventure': '액티비티',
+    'water-sports': '수상 스포츠', 'diving': '다이빙', 'snorkeling': '스노클링',
+    'massage': '마사지', 'spa': '스파', 'wellness': '웰니스', 'hot-spring': '온천',
+    'theme-park': '테마파크', 'cruise': '크루즈', 'show': '공연·쇼', 'workshop': '워크샵',
+};
+
+// 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
+const TOUR_SPA_TYPE_ICONS: Record<string, string> = {
+    'island-hopping': '🏝️', 'city-tour': '🚌', 'nature-tour': '🌳',
+    'cultural-tour': '🏛️', 'cultural': '🏛️', 'adventure': '🧗',
+    'water-sports': '🏄', 'diving': '🤿', 'snorkeling': '🐠',
+    'massage': '💆', 'spa': '🧖', 'wellness': '🧘', 'hot-spring': '♨️',
+    'theme-park': '🎢', 'cruise': '🛳️', 'show': '🎭', 'workshop': '🎨',
 };
 
 function checkHasNotes(notes: any): boolean {
@@ -28,6 +38,7 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
     const category = card.tourSpaType
         ? TOUR_SPA_TYPE_LABELS[card.tourSpaType] || card.tourSpaType
         : "투어&스파";
+    const displayIcon = card.icon || (card.tourSpaType && TOUR_SPA_TYPE_ICONS[card.tourSpaType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 
     const { anchorCard } = useAnchor();
@@ -50,7 +61,7 @@ export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
         >
             <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
                 <div className="flex items-center gap-1.5 min-w-0">
-                    {card.icon && <span className="text-base shrink-0">{card.icon}</span>}
+                    {displayIcon && <span className="text-base shrink-0">{displayIcon}</span>}
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{tourSpaName}</h4>
                 </div>
                 <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
