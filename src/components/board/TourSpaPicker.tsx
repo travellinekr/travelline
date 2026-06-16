@@ -10,8 +10,32 @@ import { TourSpaAddModal } from './TourSpaAddModal';
 import { InboxMapModal } from './InboxMapModal';
 import { EmptyState } from './EmptyState';
 import { PickerHeader } from './PickerHeader';
+import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+
+// 드롭다운 그룹 — 의미 단위로 묶어 7개로 압축
+const TOURSPA_TYPE_GROUPS: Array<{ value: string; label: string; types: TourSpaType[] | null }> = [
+    { value: 'all', label: '전체', types: null },
+    { value: 'sightseeing', label: '관광지', types: ['city-tour', 'cultural'] },
+    { value: 'tour', label: '투어', types: ['island-hopping', 'adventure', 'cruise'] },
+    { value: 'spa', label: '스파·마사지', types: ['spa', 'massage'] },
+    { value: 'theme-park', label: '테마파크', types: ['theme-park'] },
+    { value: 'activity', label: '액티비티', types: ['water-sports'] },
+    { value: 'show', label: '공연·체험', types: ['show', 'workshop'] },
+];
+
+function matchesTourSpaFilter(card: any, selectedValue: string, searchText: string): boolean {
+    const cardType = card.type || card.tourSpaType;
+    const group = TOURSPA_TYPE_GROUPS.find(g => g.value === selectedValue);
+    if (group?.types && !(cardType && group.types.includes(cardType))) return false;
+    if (searchText.trim()) {
+        const q = searchText.trim().toLowerCase();
+        const name = (card.name || card.text || card.title || '').toLowerCase();
+        if (!name.includes(q)) return false;
+    }
+    return true;
+}
 
 // 직접 추가하기 / 삭제 영역 버튼
 function AddOrDeleteButton({ onAdd, onDelete }: { onAdd: () => void; onDelete?: (cardId: string) => void }) {
@@ -121,10 +145,17 @@ export function TourSpaPicker({
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
+    const [selectedType, setSelectedType] = useState('all');
+    const [searchText, setSearchText] = useState('');
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
+
+    const filteredCreated = useMemo(
+        () => sortedCreatedCards.filter((c: any) => matchesTourSpaFilter(c, selectedType, searchText)),
+        [sortedCreatedCards, selectedType, searchText],
+    );
 
     const mapMarkers = useMemo(() => {
         const markers: Array<{ id: string; title: string; coordinates: { lat: number; lng: number }; isAnchor?: boolean }> = [];
@@ -163,10 +194,20 @@ export function TourSpaPicker({
                 title="투어&스파"
                 icon={Palmtree}
                 color="cyan"
-                count={createdCards.length}
+                count={filteredCreated.length}
                 category="tourspa"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}
+            />
+
+            {/* 필터 바 */}
+            <PickerFilterBar
+                color="cyan"
+                typeOptions={TOURSPA_TYPE_GROUPS.map(g => ({ value: g.value, label: g.label }))}
+                selectedType={selectedType}
+                onTypeChange={setSelectedType}
+                searchText={searchText}
+                onSearchChange={setSearchText}
             />
 
             {/* 투어&스파 목록 (스크롤 가능) */}
@@ -182,7 +223,7 @@ export function TourSpaPicker({
                     ))} */}
 
                     {/* 생성된 카드들 (anchor 시 거리순) */}
-                    {sortedCreatedCards.map((card: any) => {
+                    {filteredCreated.map((card: any) => {
 
                         // 타입에 따른 아이콘 매핑
                         const getIcon = (type: string) => {

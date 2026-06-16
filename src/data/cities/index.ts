@@ -1,7 +1,9 @@
 // 숙소
+export type AccommodationType = 'hotel' | 'resort' | 'airbnb' | 'hostel' | 'guesthouse';
+
 export type AccommodationData = {
     name: string;
-    type: 'hotel' | 'resort';
+    type: AccommodationType;
     coordinates: { lat: number; lng: number };
     checkInTime: string;
     checkOutTime: string;

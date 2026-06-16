@@ -4,6 +4,15 @@ import type { CommonCardProps } from "./types";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
 
+// 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
+const ACCOMMODATION_TYPE_ICONS: Record<string, string> = {
+    hotel: '🏨',
+    resort: '🏖️',
+    airbnb: '🏠',
+    hostel: '🛏️',
+    guesthouse: '🏡',
+};
+
 function checkHasNotes(notes: any): boolean {
     return Boolean(
         notes &&
@@ -21,6 +30,7 @@ function checkHasNotes(notes: any): boolean {
 export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardProps) {
     const displayTags = card.tags?.slice(0, 3) || [];
     const showCheckOut = card.showCheckOut || false;
+    const displayIcon = card.icon || (card.accommodationType && ACCOMMODATION_TYPE_ICONS[card.accommodationType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 
     const { anchorCard } = useAnchor();
@@ -49,10 +59,13 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
             hasNotes={hasNotes}
             onUpdateCard={onUpdateCard}
         >
-            <div className="flex flex-col justify-center w-full">
-                <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
-                    {card.text || "호텔 이름"}
-                </h4>
+            <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
+                <div className="flex items-center gap-1.5 min-w-0">
+                    {displayIcon && <span className="text-base shrink-0">{displayIcon}</span>}
+                    <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
+                        {card.text || "호텔 이름"}
+                    </h4>
+                </div>
             <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
                     <span
                         className="text-[10px] font-bold text-rose-600 bg-rose-50 px-1.5 py-0.5 rounded border border-rose-100 cursor-pointer hover:bg-rose-100 transition-colors shrink-0"

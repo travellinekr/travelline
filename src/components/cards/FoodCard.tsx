@@ -19,6 +19,21 @@ const RESTAURANT_TYPE_LABELS: Record<string, string> = {
     seafood: '해산물',
 };
 
+// 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
+const RESTAURANT_TYPE_ICONS: Record<string, string> = {
+    korean: '🍚',
+    japanese: '🍣',
+    chinese: '🥡',
+    western: '🍴',
+    italian: '🍝',
+    french: '🥐',
+    cafe: '☕',
+    'street-food': '🌭',
+    fusion: '🍽️',
+    local: '🥘',
+    seafood: '🦐',
+};
+
 // BlockNote 형식 메모 존재 여부 확인
 function checkHasNotes(notes: any): boolean {
     return Boolean(
@@ -39,6 +54,7 @@ export function FoodCard({ card, variant, ...props }: CommonCardProps) {
     const category = card.restaurantType
         ? RESTAURANT_TYPE_LABELS[card.restaurantType] || card.restaurantType
         : "Food";
+    const displayIcon = card.icon || (card.restaurantType && RESTAURANT_TYPE_ICONS[card.restaurantType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 
     const { anchorCard } = useAnchor();
@@ -61,7 +77,7 @@ export function FoodCard({ card, variant, ...props }: CommonCardProps) {
         >
             <div className="flex flex-col justify-center w-full min-w-0 overflow-hidden">
                 <div className="flex items-center gap-1.5 min-w-0">
-                    {card.icon && <span className="text-base shrink-0">{card.icon}</span>}
+                    {displayIcon && <span className="text-base shrink-0">{displayIcon}</span>}
                     <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">{restaurantName}</h4>
                 </div>
                 <div className="flex items-center gap-1.5 mt-0.5 min-w-0 overflow-hidden">
