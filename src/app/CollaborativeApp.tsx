@@ -48,7 +48,7 @@ import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { useAnchorLogic } from "@/hooks/useAnchorLogic";
 import { useDragDrop } from "@/hooks/useDragDrop";
-import { isPastDayColumn } from "@/utils/timeline";
+import { isPastDayColumn, isTripStarted } from "@/utils/timeline";
 import { findSourceColumn } from "@/utils/dnd";
 import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
 import { validateDragDrop } from "@/utils/dragValidation";
@@ -260,6 +260,20 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             // 📱 모바일 우측 삭제존: 타임라인 카드 완전 삭제 (인박스 카드 제외)
             const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
 
+            // 🔒 일정 시작 후 최종여행지는 변경 불가
+            if (foundColumnId === 'destination-header' && isTripStarted(flightInfo)) {
+                addToast('여행이 시작되어 여행지를 변경할 수 없어요.', 'warning');
+                setActiveDragItem(null);
+                return;
+            }
+
+            // 🔒 지난 일차 카드는 삭제 불가
+            if (foundColumnId && isPastDayColumn(foundColumnId, flightInfo)) {
+                addToast('지난 일정의 카드는 변경할 수 없어요.', 'warning');
+                setActiveDragItem(null);
+                return;
+            }
+
             // 🔒 destination-header 카드 + 항공편 등록 상태에서는 confirm 후 처리
             // (데스크톱에서 destination-header → 다른 곳 드래그 시 confirm 뜨는 것과 동일 흐름)
             if (foundColumnId === 'destination-header' && flightInfo) {
@@ -329,9 +343,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // =========================================
         // STEP 2.5: 지난 일차 제한
         // =========================================
-        // 지난 일차 카드를 다른 컬럼으로 이동/삭제 시도
-        if (sourceColumnId && isPastDayColumn(sourceColumnId, flightInfo) && targetColumnId !== sourceColumnId) {
-            addToast('지난 일정의 카드는 이동하거나 삭제할 수 없어요.', 'warning');
+        // 지난 일차 카드는 어떤 액션이든 (이동/삭제/같은 컬럼 내 순서 변경) 차단
+        if (sourceColumnId && isPastDayColumn(sourceColumnId, flightInfo)) {
+            addToast('지난 일정의 카드는 변경할 수 없어요.', 'warning');
             setActiveDragItem(null);
             return;
         }
@@ -461,6 +475,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         // 🔥 CRITICAL: destination-header에서 나가는 경우 먼저 체크 (항공편 정보 확인)
         if (sourceColumnId === 'destination-header' && targetColumnId !== 'destination-header') {
+            // 🔒 일정 시작 후에는 최종여행지 변경 불가
+            if (isTripStarted(flightInfo)) {
+                addToast('여행이 시작되어 여행지를 변경할 수 없어요.', 'warning');
+                setActiveDragItem(null);
+                return;
+            }
+
             // flightInfo가 있으면 confirm 창 띄우기
             if (flightInfo) {
                 setPendingDestinationDrop({
