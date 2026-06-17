@@ -729,7 +729,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             ${activeDragItem ? '' : 'transition-transform duration-500 [transition-timing-function:cubic-bezier(0.32,0.72,0,1)]'}
                             ${getInboxSlideClass()}
                             md:static md:z-auto md:shadow-none md:w-1/2 md:h-full md:bg-gray-50 md:translate-x-0 scrollbar-trigger
-                            ${isKeyboardVisible ? 'hidden md:flex' : ''}
+                            ${isKeyboardVisible && inboxState === 'closed' ? 'hidden md:flex' : ''}
                         `}
                                 >
                                     <div className="flex-1 flex flex-col min-h-0 bg-gray-50 md:bg-transparent">
