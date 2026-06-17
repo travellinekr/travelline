@@ -32,7 +32,6 @@ export default function LoginPageContent() {
         const redirectPath = params.get('redirect') || '/';
 
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
-        console.log(`[Login] OAuth Redirect URL: ${callbackUrl}`);
 
         const { error } = await supabase.auth.signInWithOAuth({
             provider,

@@ -62,7 +62,6 @@ export function useEntryCardSync({
             if (p1Card) {
                 // [Resilience] p1Card가 LiveObject가 아닌 일반 객체로 저장되어 있을 경우를 대비한 체크
                 if (typeof (p1Card as any).get !== 'function') {
-                    console.log('⚠️ p1Card is a plain object, converting to LiveObject');
                     const plainData = JSON.parse(JSON.stringify(p1Card)); // 깊은 복사
                     cardsMap.set('p1', new LiveObject(plainData));
                     p1Card = cardsMap.get('p1');
