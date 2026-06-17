@@ -382,9 +382,6 @@ export function useFlightForm(
             }
             : outboundStopovers[outboundStopovers.length - 1];
 
-        console.log('🔍 경유지 추가 - 이전 도착공항:', previousSegment.arrivalAirport);
-        console.log('🔍 outboundArrivalAirport:', outboundArrivalAirport);
-
         setOutboundStopovers([...outboundStopovers, {
             departureAirport: previousSegment.arrivalAirport,      // 자동 설정
             departureTerminal: previousSegment.arrivalTerminal,    // 자동 설정

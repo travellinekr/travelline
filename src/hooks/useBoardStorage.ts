@@ -94,7 +94,6 @@ export function useBoardStorage({
                 }
             });
         }
-        console.log('✅ 보드 데이터 자동 복구 완료');
         addToast("기본 여행 데이터를 복구했습니다.", "info");
     }, []);
 
@@ -106,7 +105,6 @@ export function useBoardStorage({
             const requiredCols = ["destination-header", "destination-candidates", "flights", "day0", "inbox"];
             const missingCol = requiredCols.some(id => !(columns as any).get(id));
             if (missingCol) {
-                console.log('⚠️ 보드 데이터 부재 감지 - 자동 복구 시도');
                 autoRestoreRef.current();
             }
         }
