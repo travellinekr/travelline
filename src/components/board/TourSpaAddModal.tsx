@@ -156,7 +156,6 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
     // 검색 함수
     const handleSearch = async () => {
         if (!activityName.trim()) {
-            alert('장소 이름을 입력해주세요');
             return;
         }
 
@@ -189,6 +188,16 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
             setIsSearching(false);
         }
     };
+
+    // 입력 디바운스 자동 검색 (500ms 후, 2자 이상)
+    useEffect(() => {
+        if (activityName.trim().length < 2) return;
+        const timer = setTimeout(() => {
+            handleSearch();
+        }, 500);
+        return () => clearTimeout(timer);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [activityName]);
 
     // 마커 표시 (지도 초기화 포함)
     const displayMarkers = async (places: Place[]) => {
@@ -366,11 +375,11 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[9999] p-0 md:p-4">
             <div className="bg-white w-full h-full md:w-[90vw] md:h-[90vh] md:max-w-2xl md:rounded-2xl flex flex-col overflow-hidden shadow-2xl">
                 {/* 헤더 - 고정 */}
-                <div className="flex items-center justify-between p-4 md:p-6 border-b border-gray-200 shrink-0">
-                    <h2 className="text-xl font-bold text-slate-800">투어&스파 직접 추가하기</h2>
+                <div className="flex items-center justify-between px-6 py-2.5 border-b border-gray-100 shrink-0">
+                    <h2 className="text-lg font-bold text-slate-800">투어&스파 직접 추가하기</h2>
                     <button
                         onClick={onClose}
-                        className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                        className="p-1.5 hover:bg-gray-100 rounded-full transition-colors"
                     >
                         <X className="w-5 h-5" />
                     </button>
@@ -380,35 +389,19 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
                 <div className="flex-1 overflow-y-auto p-6 space-y-4">
                     {/* 장소 이름 입력 */}
                     <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            장소 이름
-                        </label>
-                        <div className="flex gap-2">
+                        <div className="relative">
+                            <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
                             <input
                                 type="text"
                                 value={activityName}
                                 onChange={(e) => setActivityName(e.target.value)}
                                 placeholder="예: 타이 마사지, 아일랜드 호핑 투어"
-                                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
+                                className="w-full pl-9 pr-9 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
                                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
                             />
-                            <button
-                                onClick={handleSearch}
-                                disabled={isSearching}
-                                className="px-4 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors disabled:opacity-50 flex items-center gap-2"
-                            >
-                                {isSearching ? (
-                                    <>
-                                        <Loader2 className="w-4 h-4 animate-spin" />
-                                        검색중...
-                                    </>
-                                ) : (
-                                    <>
-                                        <Search className="w-4 h-4" />
-                                        검색
-                                    </>
-                                )}
-                            </button>
+                            {isSearching && (
+                                <Loader2 className="w-4 h-4 text-teal-500 absolute right-3 top-1/2 -translate-y-1/2 animate-spin" />
+                            )}
                         </div>
                     </div>
 
@@ -419,7 +412,7 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
                         </label>
                         <div
                             ref={mapRef}
-                            className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
+                            className="w-full h-64 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
                         />
 
                         {/* 선택된 장소 표시 */}
@@ -479,7 +472,7 @@ export function TourSpaAddModal({ destinationCity, anchorCoordinates, anchorTitl
                 </div>
 
                 {/* 푸터 - 고정 */}
-                <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
+                <div className="flex justify-end gap-3 px-6 py-2.5 border-t border-gray-100 shrink-0 bg-white">
                 <button
                     onClick={onClose}
                     className="px-6 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
