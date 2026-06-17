@@ -182,7 +182,6 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
     // 검색 함수
     const handleSearch = async () => {
         if (!restaurantName.trim()) {
-            alert('맛집 이름을 입력해주세요');
             return;
         }
 
@@ -214,6 +213,16 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
             setIsSearching(false);
         }
     };
+
+    // 입력 디바운스 자동 검색 (500ms 후, 2자 이상)
+    useEffect(() => {
+        if (restaurantName.trim().length < 2) return;
+        const timer = setTimeout(() => {
+            handleSearch();
+        }, 500);
+        return () => clearTimeout(timer);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [restaurantName]);
 
     // 마커 표시
     const displayMarkers = async (places: Place[]) => {
@@ -392,11 +401,11 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
         <div className="fixed inset-0 z-[9999] flex items-center justify-center md:p-4 bg-black/50">
             <div className="bg-white md:rounded-2xl shadow-2xl w-full md:max-w-2xl h-full md:max-h-[90vh] flex flex-col">
                 {/* 헤더 */}
-                <div className="flex items-center justify-between p-6 border-b border-gray-200 shrink-0">
-                    <h2 className="text-xl font-bold text-slate-800">맛집 직접 추가하기</h2>
+                <div className="flex items-center justify-between px-6 py-2.5 border-b border-gray-100 shrink-0">
+                    <h2 className="text-lg font-bold text-slate-800">맛집 직접 추가하기</h2>
                     <button
                         onClick={onClose}
-                        className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                        className="p-1.5 hover:bg-gray-100 rounded-lg transition-colors"
                     >
                         <X className="w-5 h-5 text-gray-500" />
                     </button>
@@ -406,35 +415,19 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                 <div className="flex-1 overflow-y-auto p-6 space-y-4">
                     {/* 맛집 이름 입력 */}
                     <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
-                            맛집 이름
-                        </label>
-                        <div className="flex gap-2">
+                        <div className="relative">
+                            <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
                             <input
                                 type="text"
                                 value={restaurantName}
                                 onChange={(e) => setRestaurantName(e.target.value)}
                                 placeholder="예: 페퍼 런치, 솜분 씨푸드"
-                                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                                className="w-full pl-9 pr-9 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
                                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
                             />
-                            <button
-                                onClick={handleSearch}
-                                disabled={isSearching}
-                                className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors disabled:opacity-50 flex items-center gap-2"
-                            >
-                                {isSearching ? (
-                                    <>
-                                        <Loader2 className="w-4 h-4 animate-spin" />
-                                        검색중...
-                                    </>
-                                ) : (
-                                    <>
-                                        <Search className="w-4 h-4" />
-                                        검색
-                                    </>
-                                )}
-                            </button>
+                            {isSearching && (
+                                <Loader2 className="w-4 h-4 text-orange-500 absolute right-3 top-1/2 -translate-y-1/2 animate-spin" />
+                            )}
                         </div>
                     </div>
 
@@ -445,7 +438,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                         </label>
                         <div
                             ref={mapRef}
-                            className="w-full h-80 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
+                            className="w-full h-64 rounded-lg overflow-hidden border border-gray-300 bg-gray-100"
                         />
 
                         {/* 선택된 장소 표시 */}
@@ -501,7 +494,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                 </div>
 
                 {/* 푸터 */}
-                <div className="flex justify-end gap-3 p-6 border-t border-gray-200 shrink-0 bg-white">
+                <div className="flex justify-end gap-3 px-6 py-2.5 border-t border-gray-100 shrink-0 bg-white">
                     <button
                         onClick={onClose}
                         className="px-6 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
