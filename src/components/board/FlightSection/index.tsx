@@ -6,6 +6,7 @@ import type { Card, FlightInfo } from "@/liveblocks.config";
 import { useFlightForm } from "./FlightForm/useFlightForm";
 import { FlightCardView } from "./FlightCardView";
 import { FlightForm } from "./FlightForm";
+import { isTripEnded } from "@/utils/timeline";
 
 interface FlightSectionProps {
     destinationCard?: Card | null;
@@ -62,7 +63,8 @@ export function FlightSection({ destinationCard, addToast, onConfirm, canEdit = 
                     {flightInfo && !isEditMode && canEdit && (
                         <button
                             onClick={() => setIsEditMode(true)}
-                            className="flex items-center gap-1 px-3 py-1 text-xs font-medium text-purple-600 hover:text-purple-700 hover:bg-purple-50 rounded-lg transition-colors"
+                            disabled={isTripEnded(flightInfo)}
+                            className="flex items-center gap-1 px-3 py-1 text-xs font-medium text-purple-600 hover:text-purple-700 hover:bg-purple-50 rounded-lg transition-colors disabled:text-slate-300 disabled:hover:bg-transparent disabled:cursor-not-allowed"
                         >
                             <Edit2 className="w-3.5 h-3.5" />
                             변경
