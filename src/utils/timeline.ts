@@ -25,3 +25,16 @@ export function isTripStarted(flightInfo: any): boolean {
     today.setHours(0, 0, 0, 0);
     return depDate.getTime() <= today.getTime();
 }
+
+// 여행이 종료됐는지 판정 — 귀국 도착일(없으면 출발일)이 오늘보다 과거이면 true.
+// 종료 후에는 항공편 변경이 의미 없으므로 잠금에 사용.
+// flightInfo 미등록이면 false (제한 없음).
+export function isTripEnded(flightInfo: any): boolean {
+    const endStr = flightInfo?.return?.arrivalDate || flightInfo?.return?.date;
+    if (!endStr) return false;
+    const endDate = new Date(endStr);
+    endDate.setHours(0, 0, 0, 0);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    return endDate.getTime() < today.getTime();
+}
