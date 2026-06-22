@@ -316,6 +316,29 @@ export function useCardMutations() {
         card.set("photos", existing.filter((p: any) => p?.id !== photoId));
     }, []);
 
+    // 도시간 항공편 미등록 카드 생성 — id prefix `intercity-flight-*` 로 IntercityFlightCard 라우팅
+    const createIntercityFlightCard = useMutation(({ storage }, { targetColumnId, targetIndex }: { targetColumnId: string; targetIndex?: number }) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+        const newCardId = `intercity-flight-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
+        const newCard = new LiveObject({
+            id: newCardId,
+            text: '도시간 항공편',
+            category: 'flight',
+        });
+        cards.set(newCardId, newCard);
+
+        const targetCol = columns.get(targetColumnId);
+        if (targetCol) {
+            const targetList = targetCol.get("cardIds");
+            if (typeof targetIndex === 'number' && targetIndex >= 0) {
+                targetList.insert(newCardId, targetIndex);
+            } else {
+                targetList.push(newCardId);
+            }
+        }
+    }, []);
+
     return {
         reorderCard,
         copyCardToTimeline,
@@ -326,6 +349,7 @@ export function useCardMutations() {
         toggleVote,
         updateCard,
         addCardPhoto,
-        removeCardPhoto
+        removeCardPhoto,
+        createIntercityFlightCard
     };
 }

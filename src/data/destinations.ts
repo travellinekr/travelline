@@ -33,6 +33,15 @@
 export type RegionKey = "japan" | "china_taiwan" | "se_asia" | "long_haul";
 
 /**
+ * 서브 도시 정의 — 다중 도시 여행에서 한 destination 안의 도시별 데이터 필터링/도시간 항공편 모달 기본값용
+ */
+export interface SubCityData {
+    name: string;        // 한글 도시명 (예: "시드니")
+    engName: string;     // 영문 lowercase (예: "sydney") — picker 카드 city 필드와 매칭
+    airport?: { name: string; code: string };
+}
+
+/**
  * 도시 데이터 타입
  */
 export interface CityData {
@@ -45,6 +54,7 @@ export interface CityData {
     landmark?: string;         // 랜드마크 키워드 (Unsplash 검색용)
     airports?: Array<{ name: string; code: string }>; // 공항 정보
     timezone: number;          // UTC 기준 시차 (예: 일본 +9, 태국 +7, 파리 +1)
+    subCities?: SubCityData[]; // 다중 도시 여행용 (예: 호주 = 시드니/멜버른)
 }
 
 /**

@@ -3,6 +3,8 @@
 import { useStorage, useErrorListener } from "../liveblocks.config";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
+import { IntercityFlightContext } from "@/contexts/IntercityFlightContext";
+import { IntercityFlightModal } from "@/components/board/IntercityFlightModal";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
@@ -48,7 +50,8 @@ import { useTimelineScroll } from "@/hooks/useTimelineScroll";
 import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { useAnchorLogic } from "@/hooks/useAnchorLogic";
 import { useDragDrop } from "@/hooks/useDragDrop";
-import { isPastDayColumn, isTripStarted } from "@/utils/timeline";
+import { isPastDayColumn, isTripStarted, isTripEnded } from "@/utils/timeline";
+import { getEffectiveSubCities } from "@/utils/citySources";
 import { findSourceColumn } from "@/utils/dnd";
 import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
 import { validateDragDrop } from "@/utils/dragValidation";
@@ -159,7 +162,50 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
 
-    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn } = useCardMutations();
+    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, updateCard, createIntercityFlightCard } = useCardMutations();
+
+    // 도시간 항공편 모달 — 등록/수정 대상 카드 id
+    const [editingIntercityCardId, setEditingIntercityCardId] = useState<string | null>(null);
+    const editingIntercityCard = useMemo(() => {
+        if (!editingIntercityCardId) return null;
+        return (cards as any)?.get(editingIntercityCardId) || null;
+    }, [editingIntercityCardId, cards]);
+
+    // 편집 대상 카드가 속한 day 컬럼의 실제 날짜 (등록 모달 기본값)
+    const editingIntercityDefaultDate = useMemo(() => {
+        if (!editingIntercityCardId || !flightInfo?.outbound?.date) return '';
+        // 카드가 속한 컬럼 찾기
+        let foundColId: string | null = null;
+        (columns as any)?.forEach((col: any, key: string) => {
+            if (foundColId) return;
+            const ids = col?.cardIds || [];
+            if (ids.indexOf(editingIntercityCardId) !== -1) foundColId = key;
+        });
+        if (!foundColId) return '';
+        const m = /^day([1-9]\d*)$/.exec(foundColId);
+        if (!m) return '';
+        const dayNum = parseInt(m[1]);
+        const base = new Date(flightInfo.outbound.date);
+        base.setDate(base.getDate() + (dayNum - 1));
+        return base.toISOString().slice(0, 10);
+    }, [editingIntercityCardId, columns, flightInfo]);
+
+    const handleSaveIntercityFlight = useCallback((data: any) => {
+        if (!editingIntercityCardId) return;
+        updateCard({
+            cardId: editingIntercityCardId,
+            updates: {
+                intercityFlight: data,
+                text: `${data.airline} (${data.depAirport}→${data.arrAirport})`,
+            },
+        });
+        setEditingIntercityCardId(null);
+    }, [editingIntercityCardId, updateCard]);
+
+    const intercityFlightContextValue = useMemo(() => ({
+        openIntercityModal: (cardId: string) => setEditingIntercityCardId(cardId),
+        isTripEnded: isTripEnded(flightInfo),
+    }), [flightInfo]);
 
     // createCard wrapper for debugging
     const handleCreateCard = (data: any) => {
@@ -193,6 +239,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const cardId = destCol.cardIds[0];
         return (cards as any)?.get(cardId) || null;
     }, [columns, cards]);
+
+    // 다중 도시 — picker 서브 도시 chips 옵션 (destinations.ts subCities + 사용자 항공편 도시)
+    const subCities = useMemo(
+        () => getEffectiveSubCities(destinationCard, cards),
+        [destinationCard, cards]
+    );
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
@@ -381,6 +433,18 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 });
             });
             addToast(`${cardsToAdd.length}개 카드를 추가했어요.`, 'info');
+            setActiveDragItem(null);
+            return;
+        }
+
+        // =========================================
+        // STEP 2.9: 도시간 항공편 picker 카드 → day 컬럼 드롭
+        //   - 미등록 카드 생성만 하고 종료. 모달은 카드의 "등록" 버튼 클릭 시 띄움.
+        // =========================================
+        if (draggedCard?.__intercityFlightTrigger && /^day\d+$/.test(targetColumnId)) {
+            const targetCol = (columns as any).get(targetColumnId);
+            const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+            createIntercityFlightCard({ targetColumnId, targetIndex: finalTargetIndex });
             setActiveDragItem(null);
             return;
         }
@@ -605,6 +669,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <AnchorContext.Provider value={anchorContextValue}>
+        <IntercityFlightContext.Provider value={intercityFlightContextValue}>
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
@@ -744,6 +809,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             flightInfo={flightInfo}
                                             canEdit={canEdit}
                                             roomId={roomId}
+                                            subCities={subCities}
                                         />
                                     </div>
                                 </div>
@@ -762,6 +828,16 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
             {/* 토스트 메시지들 */}
             <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
+
+            {/* 도시간 항공편 등록/수정 모달 */}
+            <IntercityFlightModal
+                isOpen={!!editingIntercityCardId}
+                onClose={() => setEditingIntercityCardId(null)}
+                onSave={handleSaveIntercityFlight}
+                initialData={editingIntercityCard?.intercityFlight}
+                defaultDate={editingIntercityDefaultDate}
+            />
+        </IntercityFlightContext.Provider>
         </AnchorContext.Provider>
     );
 }
