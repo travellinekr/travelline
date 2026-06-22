@@ -25,7 +25,7 @@ const SHOPPING_TYPE_GROUPS: Array<{ value: string; label: string; types: Shoppin
     { value: 'souvenir', label: '기념품·특산품', types: ['souvenir', 'specialty', 'boutique'] },
 ];
 
-function matchesShoppingFilter(card: any, selectedValue: string, searchText: string): boolean {
+function matchesShoppingFilter(card: any, selectedValue: string, searchText: string, selectedSubCity: string): boolean {
     const cardType = card.type || card.shoppingType;
     const group = SHOPPING_TYPE_GROUPS.find(g => g.value === selectedValue);
     if (group?.types && !(cardType && group.types.includes(cardType))) return false;
@@ -33,6 +33,10 @@ function matchesShoppingFilter(card: any, selectedValue: string, searchText: str
         const q = searchText.trim().toLowerCase();
         const name = (card.name || card.text || card.title || '').toLowerCase();
         if (!name.includes(q)) return false;
+    }
+    if (selectedSubCity !== 'all') {
+        const cardCity = String(card.city || '').toLowerCase();
+        if (cardCity !== selectedSubCity.toLowerCase()) return false;
     }
     return true;
 }
@@ -145,18 +149,21 @@ export function ShoppingPicker({
     onAddCard,
     onDeleteCard,
     createdCards = [],
-    roomId
+    roomId,
+    subCities = [],
 }: {
     destinationCity?: string;
     onAddCard?: (data: any) => void;
     onDeleteCard?: (cardId: string) => void;
     createdCards?: any[];
     roomId?: string;
+    subCities?: Array<{ name: string; engName: string }>;
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
     const [selectedType, setSelectedType] = useState('all');
     const [searchText, setSearchText] = useState('');
+    const [selectedSubCity, setSelectedSubCity] = useState('all');
 
     const handleCreateCard = (data: any) => {
 
@@ -184,12 +191,12 @@ export function ShoppingPicker({
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     const filteredSample = useMemo(
-        () => sampleShopping.filter((s: any) => matchesShoppingFilter(s, selectedType, searchText)),
-        [sampleShopping, selectedType, searchText],
+        () => sampleShopping.filter((s: any) => matchesShoppingFilter(s, selectedType, searchText, selectedSubCity)),
+        [sampleShopping, selectedType, searchText, selectedSubCity],
     );
     const filteredCreated = useMemo(
-        () => sortedCreatedCards.filter((c: any) => matchesShoppingFilter(c, selectedType, searchText)),
-        [sortedCreatedCards, selectedType, searchText],
+        () => sortedCreatedCards.filter((c: any) => matchesShoppingFilter(c, selectedType, searchText, selectedSubCity)),
+        [sortedCreatedCards, selectedType, searchText, selectedSubCity],
     );
 
     const mapMarkers = useMemo(() => {
@@ -227,6 +234,9 @@ export function ShoppingPicker({
                 onTypeChange={setSelectedType}
                 searchText={searchText}
                 onSearchChange={setSearchText}
+                subCities={subCities}
+                selectedSubCity={selectedSubCity}
+                onSubCityChange={setSelectedSubCity}
             />
 
             {/* 쇼핑 목록 (스크롤 가능) */}

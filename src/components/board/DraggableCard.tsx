@@ -4,6 +4,7 @@ import { CSS } from "@dnd-kit/utilities";
 import { Calendar, MapPin, X, Share2 } from "lucide-react";
 
 import { FlightCard } from "@/components/cards/FlightCard";
+import { IntercityFlightCard } from "@/components/cards/IntercityFlightCard";
 import { HotelCard } from "@/components/cards/HotelCard";
 import { FoodCard } from "@/components/cards/FoodCard";
 import { PreparationCard } from "@/components/cards/PreparationCard";
@@ -237,7 +238,16 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
   );
 }
 
+// 도시간 항공편 카드 식별 — id prefix 또는 intercityFlight 필드 존재
+function isIntercityFlightCard(card: any): boolean {
+  return card?.category === 'flight'
+    && (typeof card.id === 'string' && card.id.startsWith('intercity-flight-'));
+}
+
 export function renderCardInternal(card: any, props: any = {}, variant: CardVariant = 'inbox') {
+  if (isIntercityFlightCard(card)) {
+    return <IntercityFlightCard key={card.id} card={card} variant={variant} {...props} />;
+  }
   switch (card.category) {
     case 'destination': return <DestinationCard key={card.id} card={card} variant={variant} {...props} />;
     case 'preparation': return <PreparationCard key={card.id} card={card} variant={variant} {...props} />;

@@ -23,7 +23,7 @@ const HOTEL_TYPE_GROUPS: Array<{ value: string; label: string; types: Accommodat
     { value: 'hostel', label: '호스텔·게스트하우스', types: ['hostel', 'guesthouse'] },
 ];
 
-function matchesHotelFilter(card: any, selectedValue: string, searchText: string): boolean {
+function matchesHotelFilter(card: any, selectedValue: string, searchText: string, selectedSubCity: string): boolean {
     const cardType = card.type || card.accommodationType;
     const group = HOTEL_TYPE_GROUPS.find(g => g.value === selectedValue);
     if (group?.types && !(cardType && group.types.includes(cardType))) return false;
@@ -31,6 +31,10 @@ function matchesHotelFilter(card: any, selectedValue: string, searchText: string
         const q = searchText.trim().toLowerCase();
         const name = (card.name || card.text || card.title || '').toLowerCase();
         if (!name.includes(q)) return false;
+    }
+    if (selectedSubCity !== 'all') {
+        const cardCity = String(card.city || '').toLowerCase();
+        if (cardCity !== selectedSubCity.toLowerCase()) return false;
     }
     return true;
 }
@@ -142,18 +146,21 @@ export function AccommodationPicker({
     onAddCard,
     onDeleteCard,
     createdCards = [],
-    roomId
+    roomId,
+    subCities = [],
 }: {
     destinationCity?: string;
     onAddCard?: (data: any) => void;
     onDeleteCard?: (cardId: string) => void;
     createdCards?: any[];
     roomId?: string;
+    subCities?: Array<{ name: string; engName: string }>;
 }) {
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const [isMapOpen, setIsMapOpen] = useState(false);
     const [selectedType, setSelectedType] = useState('all');
     const [searchText, setSearchText] = useState('');
+    const [selectedSubCity, setSelectedSubCity] = useState('all');
 
     const handleCreateCard = (data: any) => {
 
@@ -170,12 +177,12 @@ export function AccommodationPicker({
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     const filteredSample = useMemo(
-        () => sampleAccommodations.filter((a: any) => matchesHotelFilter(a, selectedType, searchText)),
-        [sampleAccommodations, selectedType, searchText],
+        () => sampleAccommodations.filter((a: any) => matchesHotelFilter(a, selectedType, searchText, selectedSubCity)),
+        [sampleAccommodations, selectedType, searchText, selectedSubCity],
     );
     const filteredCreated = useMemo(
-        () => sortedCreatedCards.filter((c: any) => matchesHotelFilter(c, selectedType, searchText)),
-        [sortedCreatedCards, selectedType, searchText],
+        () => sortedCreatedCards.filter((c: any) => matchesHotelFilter(c, selectedType, searchText, selectedSubCity)),
+        [sortedCreatedCards, selectedType, searchText, selectedSubCity],
     );
 
     const mapMarkers = useMemo(() => {
@@ -224,6 +231,9 @@ export function AccommodationPicker({
                 onTypeChange={setSelectedType}
                 searchText={searchText}
                 onSearchChange={setSearchText}
+                subCities={subCities}
+                selectedSubCity={selectedSubCity}
+                onSubCityChange={setSelectedSubCity}
             />
 
             {/* 숙소 목록 (스크롤 가능) */}

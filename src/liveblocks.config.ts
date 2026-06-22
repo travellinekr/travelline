@@ -13,6 +13,19 @@ export type CardPhoto = {
   uploaderId: string;      // userId
 };
 
+// 도시간 항공편 — picker '도시간 항공편' 카드를 일차에 드롭 → 등록 모달로 입력
+export type IntercityFlightData = {
+  depAirport: string;   // 출발 공항 IATA 코드 (예: "SYD")
+  depCity: string;      // 출발 도시 lowercase (예: "sydney")
+  arrAirport: string;
+  arrCity: string;
+  depDate: string;      // ISO date
+  depTime: string;      // HH:MM
+  arrDate: string;      // ISO date (당일 또는 익일)
+  arrTime: string;      // HH:MM
+  airline: string;
+};
+
 export type Card = {
   id: string;
   text: string;
@@ -29,6 +42,7 @@ export type Card = {
   notes?: any; // BlockNote 에디터 콘텐츠 (JSON 형식)
   etcItem?: string; // 기타 카드 항목 (3단 표시용)
   photos?: CardPhoto[]; // 카드에 첨부된 사진 목록 (Supabase Storage 업로드 + signed URL)
+  intercityFlight?: IntercityFlightData; // 도시간 항공편 등록 정보 (없으면 미등록 상태)
 };
 
 export type FlightInfo = {
