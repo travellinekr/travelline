@@ -1,6 +1,6 @@
 // 다중 도시 여행에서 picker 서브 도시 chips 의 데이터 소스 통합.
 //  1) destinations.ts CityData.subCities (기본 정의)
-//  2) 사용자가 도시간 항공편으로 등록한 도착 도시 (cards 의 intercityFlight.arrCity / depCity)
+//  2) 사용자가 등록한 도시간 항공편 카드 (isIntercityFlight 마커) 의 city 필드
 //
 // 두 소스를 합집합 (engName lowercase 기준 중복 제거) 으로 반환.
 // 결과가 비어 있으면 picker chips 자체가 미렌더 (단일 도시 회귀 없음).
@@ -58,19 +58,17 @@ export function getEffectiveSubCities(destinationCard: any, cards: any): SubCity
         }
     }
 
-    // 2) 사용자 항공편 등록 도시 (dep/arr 모두 후보)
+    // 2) 도시간 항공편으로 생성된 항공 카드 (isIntercityFlight) 의 city
     if (cards && typeof cards.forEach === 'function') {
         cards.forEach((c: any) => {
-            const info = c?.intercityFlight;
-            if (!info) return;
-            for (const candidate of [info.depCity, info.arrCity]) {
-                if (!candidate) continue;
-                const key = String(candidate).trim().toLowerCase();
-                if (!key || seen.has(key)) continue;
-                const koreanName = lookupKoreanName(key) ?? key;
-                out.push({ name: koreanName, engName: key });
-                seen.add(key);
-            }
+            if (!c?.isIntercityFlight) return;
+            const cityVal = c.city;
+            if (!cityVal) return;
+            const key = String(cityVal).trim().toLowerCase();
+            if (!key || seen.has(key)) return;
+            const koreanName = lookupKoreanName(key) ?? key;
+            out.push({ name: koreanName, engName: key });
+            seen.add(key);
         });
     }
 

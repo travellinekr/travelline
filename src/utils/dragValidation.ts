@@ -60,7 +60,9 @@ export function validateDragDrop({
         return { ok: false, silent: true };
     }
 
-    // ── 항공 카드는 원래 일차에만 머물러야 함 ───────────────────────
+    // ── 항공 카드 이동 제약 ─────────────────────────────────────────
+    //  - 같은 day 내 reorder 만 허용 (sourceColumnId === targetColumnId)
+    //  - 다른 day, inbox, flights 등 어디로도 이동 불가
     if (draggedCard?.category === 'flight') {
         const isDayColumn = sourceColumnId && /^day[1-9]\d*$/.test(sourceColumnId);
         if (isDayColumn && targetColumnId !== sourceColumnId) {

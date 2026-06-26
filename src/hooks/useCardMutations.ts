@@ -142,7 +142,7 @@ export function useCardMutations() {
         } else {
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, targetColumnId, targetIndex = 0 }) => {
+    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0 }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -208,7 +208,11 @@ export function useCardMutations() {
             duration,
             pickupAvailable,
             reservationRequired,
-            rating
+            rating,
+            // 도시간 항공편 마커
+            isIntercityFlight,
+            airportCode,
+            parentIntercityCardId
         });
 
         cards.set(newCardId, newCard);
@@ -316,6 +320,52 @@ export function useCardMutations() {
         card.set("photos", existing.filter((p: any) => p?.id !== photoId));
     }, []);
 
+    // 도시간 항공편 자식 항공 카드만 삭제 (메타 카드는 유지) — 재등록(수정) 시 사용
+    const removeIntercityFlightChildren = useMutation(({ storage }, metaCardId: string) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+        if (!cards || !columns) return;
+
+        const childIds: string[] = [];
+        cards.forEach((c: any, id: string) => {
+            const parent = c?.get ? c.get('parentIntercityCardId') : c?.parentIntercityCardId;
+            if (parent === metaCardId) childIds.push(id);
+        });
+
+        childIds.forEach(cardId => {
+            columns.forEach((col: any) => {
+                const list = col.get("cardIds");
+                const idx = list.indexOf(cardId);
+                if (idx !== -1) list.delete(idx);
+            });
+            cards.delete(cardId);
+        });
+    }, []);
+
+    // 도시간 항공편 메타 카드 + 자식 항공 카드(parentIntercityCardId 일치) 일괄 삭제
+    const removeIntercityFlightGroup = useMutation(({ storage }, metaCardId: string) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+        if (!cards || !columns) return;
+
+        // 1) 자식 항공 카드 id 수집
+        const childIds: string[] = [];
+        cards.forEach((c: any, id: string) => {
+            const parent = c?.get ? c.get('parentIntercityCardId') : c?.parentIntercityCardId;
+            if (parent === metaCardId) childIds.push(id);
+        });
+
+        // 2) 메타 + 자식 모두 컬럼/cards 에서 제거
+        [metaCardId, ...childIds].forEach(cardId => {
+            columns.forEach((col: any) => {
+                const list = col.get("cardIds");
+                const idx = list.indexOf(cardId);
+                if (idx !== -1) list.delete(idx);
+            });
+            cards.delete(cardId);
+        });
+    }, []);
+
     // 도시간 항공편 미등록 카드 생성 — id prefix `intercity-flight-*` 로 IntercityFlightCard 라우팅
     const createIntercityFlightCard = useMutation(({ storage }, { targetColumnId, targetIndex }: { targetColumnId: string; targetIndex?: number }) => {
         const cards = storage.get("cards") as any;
@@ -350,6 +400,8 @@ export function useCardMutations() {
         updateCard,
         addCardPhoto,
         removeCardPhoto,
-        createIntercityFlightCard
+        createIntercityFlightCard,
+        removeIntercityFlightGroup,
+        removeIntercityFlightChildren
     };
 }

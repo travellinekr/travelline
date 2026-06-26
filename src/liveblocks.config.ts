@@ -42,7 +42,10 @@ export type Card = {
   notes?: any; // BlockNote 에디터 콘텐츠 (JSON 형식)
   etcItem?: string; // 기타 카드 항목 (3단 표시용)
   photos?: CardPhoto[]; // 카드에 첨부된 사진 목록 (Supabase Storage 업로드 + signed URL)
-  intercityFlight?: IntercityFlightData; // 도시간 항공편 등록 정보 (없으면 미등록 상태)
+  intercityFlight?: IntercityFlightData; // (deprecated) 도시간 항공편 메타 카드 인라인 데이터 — 미사용
+  isIntercityFlight?: boolean; // 도시간 항공편 등록으로 생성된 항공 카드 마커
+  airportCode?: string; // 도시간 항공편 카드의 공항 IATA 코드 (chain 기본값 lookup용)
+  parentIntercityCardId?: string; // 자식 항공 카드가 가리키는 메타 카드 id (cascade 삭제용)
 };
 
 export type FlightInfo = {
