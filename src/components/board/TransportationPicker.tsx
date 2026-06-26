@@ -70,7 +70,7 @@ function DraggableIntercityFlightPickerCard() {
         return (
             <div
                 ref={setNodeRef}
-                className="w-full h-[72px] border-2 border-dashed border-sky-300 bg-sky-50/50 rounded-lg"
+                className="w-full h-[72px] border-2 border-dashed border-blue-300 bg-blue-50/50 rounded-lg"
             />
         );
     }
@@ -81,15 +81,15 @@ function DraggableIntercityFlightPickerCard() {
             style={style}
             {...listeners}
             {...attributes}
-            className="group bg-white hover:bg-slate-50 border border-sky-200 hover:border-sky-400 rounded-xl flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-all cursor-grab active:cursor-grabbing shadow-sm hover:shadow-md overflow-hidden"
+            className="group bg-white hover:bg-slate-50 border border-gray-200 hover:border-blue-400 rounded-xl flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-all cursor-grab active:cursor-grabbing shadow-sm hover:shadow-md overflow-hidden"
         >
-            <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-sky-400" />
-            <div className="w-8 h-8 rounded-full bg-sky-50 text-sky-500 flex items-center justify-center shrink-0">
+            <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-blue-400" />
+            <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center shrink-0">
                 <Plane className="w-4 h-4" />
             </div>
             <div className="flex-1 min-w-0">
                 <span className="hidden md:block text-[9px] font-bold text-gray-400 uppercase tracking-wider leading-none mb-0.5">
-                    Flight
+                    Transport
                 </span>
                 <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
                     도시간 항공편
