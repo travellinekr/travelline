@@ -172,7 +172,11 @@ export function AccommodationPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    const allAccommodations = destinationCity ? getAccommodationsByCity(destinationCity) : [];
+    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 숙소 모두 로드
+    const citiesToLoad = subCities.length > 0
+        ? subCities.map(c => c.engName)
+        : (destinationCity ? [destinationCity] : []);
+    const allAccommodations = citiesToLoad.flatMap(city => getAccommodationsByCity(city));
     const sampleAccommodations = sortByAnchorDistance(allAccommodations.filter(a => a.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 

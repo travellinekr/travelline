@@ -389,6 +389,38 @@ export function useCardMutations() {
         }
     }, []);
 
+    // 도시간 이동(육로) 메타 카드 생성. 자식 카드는 없음 — 카드 자체에 targetCity 저장.
+    const createIntercityMoveCard = useMutation(({ storage }, { targetColumnId, targetIndex }: { targetColumnId: string; targetIndex?: number }) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+        const newCardId = `intercity-move-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
+        const newCard = new LiveObject({
+            id: newCardId,
+            text: '도시간 이동',
+            category: 'transport',
+            isIntercityMove: true,
+        });
+        cards.set(newCardId, newCard);
+
+        const targetCol = columns.get(targetColumnId);
+        if (targetCol) {
+            const targetList = targetCol.get("cardIds");
+            if (typeof targetIndex === 'number' && targetIndex >= 0) {
+                targetList.insert(newCardId, targetIndex);
+            } else {
+                targetList.push(newCardId);
+            }
+        }
+    }, []);
+
+    // 도시간 항공편/이동 메타 카드 모두에서 사용 가능한 generic targetCity setter.
+    const setCardTargetCity = useMutation(({ storage }, { cardId, targetCity }: { cardId: string; targetCity: string }) => {
+        const cards = storage.get("cards") as any;
+        const card = cards.get(cardId);
+        if (!card) return;
+        card.set('targetCity', targetCity);
+    }, []);
+
     return {
         reorderCard,
         copyCardToTimeline,
@@ -402,6 +434,8 @@ export function useCardMutations() {
         removeCardPhoto,
         createIntercityFlightCard,
         removeIntercityFlightGroup,
-        removeIntercityFlightChildren
+        removeIntercityFlightChildren,
+        createIntercityMoveCard,
+        setCardTargetCity,
     };
 }

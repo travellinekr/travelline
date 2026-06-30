@@ -186,7 +186,11 @@ export function ShoppingPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    const allShopping = destinationCity ? getShoppingByCity(destinationCity) : [];
+    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 쇼핑 모두 로드
+    const citiesToLoad = subCities.length > 0
+        ? subCities.map(c => c.engName)
+        : (destinationCity ? [destinationCity] : []);
+    const allShopping = citiesToLoad.flatMap(city => getShoppingByCity(city));
     const sampleShopping = sortByAnchorDistance(allShopping.filter(s => s.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 

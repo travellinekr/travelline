@@ -187,7 +187,11 @@ export function FoodPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    const allRestaurants = destinationCity ? getRestaurantsByCity(destinationCity) : [];
+    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 맛집 모두 로드
+    const citiesToLoad = subCities.length > 0
+        ? subCities.map(c => c.engName)
+        : (destinationCity ? [destinationCity] : []);
+    const allRestaurants = citiesToLoad.flatMap(city => getRestaurantsByCity(city));
     const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 

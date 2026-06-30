@@ -62,10 +62,17 @@ export function validateDragDrop({
 
     // ── 항공 카드 이동 제약 ─────────────────────────────────────────
     //  - 같은 day 내 reorder 만 허용 (sourceColumnId === targetColumnId)
-    //  - 다른 day, inbox, flights 등 어디로도 이동 불가
+    //  - 다른 day, flights 등 어디로도 이동 불가
+    //  - 예외: 도시간 항공편 메타 카드 (intercity-flight-*) → inbox 드롭 허용 (cascade 삭제 경로)
     if (draggedCard?.category === 'flight') {
         const isDayColumn = sourceColumnId && /^day[1-9]\d*$/.test(sourceColumnId);
+        const isIntercityMeta = typeof draggedCard?.id === 'string'
+            && draggedCard.id.startsWith('intercity-flight-');
         if (isDayColumn && targetColumnId !== sourceColumnId) {
+            // 메타 카드를 inbox 로 드롭 → 삭제 경로 허용
+            if (isIntercityMeta && targetColumnId === 'inbox') {
+                return { ok: true };
+            }
             return { ok: false, reason: '항공카드는 다른 위치로 이동할 수 없습니다.' };
         }
     }

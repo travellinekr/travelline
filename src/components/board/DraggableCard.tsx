@@ -5,6 +5,7 @@ import { Calendar, MapPin, X, Share2 } from "lucide-react";
 
 import { FlightCard } from "@/components/cards/FlightCard";
 import { IntercityFlightCard } from "@/components/cards/IntercityFlightCard";
+import { IntercityMoveCard } from "@/components/cards/IntercityMoveCard";
 import { HotelCard } from "@/components/cards/HotelCard";
 import { FoodCard } from "@/components/cards/FoodCard";
 import { PreparationCard } from "@/components/cards/PreparationCard";
@@ -244,9 +245,18 @@ function isIntercityFlightCard(card: any): boolean {
     && (typeof card.id === 'string' && card.id.startsWith('intercity-flight-'));
 }
 
+// 도시간 이동(육로) 카드 식별 — id prefix 기반
+function isIntercityMoveCard(card: any): boolean {
+  return card?.category === 'transport'
+    && (typeof card.id === 'string' && card.id.startsWith('intercity-move-'));
+}
+
 export function renderCardInternal(card: any, props: any = {}, variant: CardVariant = 'inbox') {
   if (isIntercityFlightCard(card)) {
     return <IntercityFlightCard key={card.id} card={card} variant={variant} {...props} />;
+  }
+  if (isIntercityMoveCard(card)) {
+    return <IntercityMoveCard key={card.id} card={card} variant={variant} {...props} />;
   }
   switch (card.category) {
     case 'destination': return <DestinationCard key={card.id} card={card} variant={variant} {...props} />;
