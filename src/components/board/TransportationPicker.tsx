@@ -102,6 +102,59 @@ function DraggableIntercityFlightPickerCard() {
     );
 }
 
+// "도시간 이동" 메타 카드 — 일차에 드롭 시 미등록 이동 카드 생성 (자동차/육로 이동용)
+function DraggableIntercityMovePickerCard() {
+    const cardData = {
+        id: 'picker-intercity-move',
+        text: '도시간 이동',
+        title: '도시간 이동',
+        category: 'transport' as const,
+        __intercityMoveTrigger: true,
+    };
+
+    const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+        id: 'picker-intercity-move',
+        data: cardData,
+    });
+
+    const style = transform ? { transform: CSS.Translate.toString(transform) } : undefined;
+
+    if (isDragging) {
+        return (
+            <div
+                ref={setNodeRef}
+                className="w-full h-[72px] border-2 border-dashed border-blue-300 bg-blue-50/50 rounded-lg"
+            />
+        );
+    }
+
+    return (
+        <div
+            ref={setNodeRef}
+            style={style}
+            {...listeners}
+            {...attributes}
+            className="group bg-white hover:bg-slate-50 border border-gray-200 hover:border-blue-400 rounded-xl flex items-center gap-3 relative touch-none select-none h-[58px] md:h-[72px] px-3 transition-all cursor-grab active:cursor-grabbing shadow-sm hover:shadow-md overflow-hidden"
+        >
+            <div className="absolute left-0 top-2 bottom-2 w-1 rounded-r-full bg-blue-400" />
+            <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center shrink-0">
+                <Car className="w-4 h-4" />
+            </div>
+            <div className="flex-1 min-w-0">
+                <span className="hidden md:block text-[9px] font-bold text-gray-400 uppercase tracking-wider leading-none mb-0.5">
+                    Transport
+                </span>
+                <h4 className="font-bold text-slate-800 text-[15px] truncate leading-tight">
+                    도시간 이동
+                </h4>
+                <div className="text-[11px] text-slate-500 truncate">
+                    자동차·기차 등 육로 이동
+                </div>
+            </div>
+        </div>
+    );
+}
+
 // 드래그 가능한 교통 카드 컴포넌트
 function DraggableTransportCard({ transportation, index }: { transportation: any; index: number }) {
     const cardData = {
@@ -165,7 +218,7 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
 
     // 해당 도시의 교통 수단 목록 가져오기
     const transportations = getTransportationsByCity(destinationCity).filter(t => t.showInInbox);
-    const totalCount = transportations.length + 1; // 도시간 항공편 메타 카드 +1
+    const totalCount = transportations.length + 2; // 도시간 항공편 + 도시간 이동 메타 카드 +2
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
@@ -181,6 +234,9 @@ export function TransportationPicker({ destinationCity }: { destinationCity?: st
                 <div className="flex flex-col gap-3">
                     {/* 도시간 항공편 메타 카드 — 항상 상단 고정 */}
                     <DraggableIntercityFlightPickerCard />
+
+                    {/* 도시간 이동(육로) 메타 카드 — 항공편 아래 고정 */}
+                    <DraggableIntercityMovePickerCard />
 
                     {transportations.length === 0 ? (
                         <p className="text-center text-xs text-slate-400 py-4">

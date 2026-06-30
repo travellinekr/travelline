@@ -9,7 +9,7 @@ import { DateRangePicker } from './DateRangePicker';
 import { KOREAN_AIRPORTS, MAJOR_AIRPORTS, CITY_AIRPORT_GROUPS } from '@/data/airports';
 import { ALL_AIRLINE_NAMES } from '@/data/airlines';
 import { DESTINATION_DATA } from '@/data/destinations';
-import { getEffectiveSubCities } from '@/utils/citySources';
+import { getCityAutocompletePool, koreanToEngName, engNameToKorean } from '@/utils/citySources';
 import type { IntercityFlightData, FlightInfo } from '@/liveblocks.config';
 
 interface IntercityFlightModalProps {
@@ -21,22 +21,6 @@ interface IntercityFlightModalProps {
     cards?: any;                  // Liveblocks cards LiveMap (이전 항공편 탐색용 + 도시 후보)
     destinationCard?: any;
     flightInfo?: FlightInfo | null;
-}
-
-// 한글 → engName lowercase 변환 (subCityOptions 매칭 우선, 없으면 lowercase 그대로)
-function koreanToEngName(input: string, subCityOptions: Array<{ name: string; engName: string }>): string {
-    const trimmed = input.trim();
-    if (!trimmed) return '';
-    const matched = subCityOptions.find(s => s.name === trimmed);
-    if (matched) return matched.engName.toLowerCase();
-    return trimmed.toLowerCase();
-}
-
-// engName lowercase → 한글명 (subCityOptions 매칭, 없으면 원본)
-function engNameToKorean(engName: string, subCityOptions: Array<{ name: string; engName: string }>): string {
-    if (!engName) return '';
-    const matched = subCityOptions.find(s => s.engName.toLowerCase() === engName.toLowerCase());
-    return matched ? matched.name : engName;
 }
 
 // 도시명 입력값(한글/영문 모두 허용) → 그 도시의 공항 목록
@@ -206,7 +190,7 @@ export function IntercityFlightModal({
 
     // 등록된 도시 후보 — 기존 도시간 항공편 카드 + destinations.ts subCities
     const subCityOptions = useMemo(
-        () => getEffectiveSubCities(destinationCard, cards),
+        () => getCityAutocompletePool(destinationCard, cards),
         [destinationCard, cards]
     );
     const citySuggestions = useMemo(
@@ -305,7 +289,7 @@ export function IntercityFlightModal({
 
     const modalContent = (
         <div className="fixed inset-0 z-[9999] flex items-center justify-center md:p-4 bg-black/50">
-            <div className="bg-white md:rounded-2xl shadow-2xl w-full md:max-w-2xl h-full md:max-h-[90vh] flex flex-col">
+            <div className="bg-white md:rounded-2xl md:overflow-hidden shadow-2xl w-full md:max-w-2xl h-full md:max-h-[90vh] flex flex-col">
                 {/* 헤더 */}
                 <div className="flex items-center justify-between px-6 py-2.5 border-b border-gray-100 shrink-0">
                     <h2 className="text-lg font-bold text-slate-800 flex items-center gap-2">

@@ -60,6 +60,28 @@ export function PickerFilterBar({
 
     return (
         <div className="border-b border-slate-100 bg-white shrink-0">
+            {showSubCities && (
+                <div className="flex gap-2 pt-2 overflow-x-auto">
+                    <button
+                        type="button"
+                        onClick={() => onSubCityChange!('all')}
+                        className={`shrink-0 text-xs font-medium px-3 py-1 rounded-full border transition-colors ${selectedSubCity === 'all' ? chipActiveClass : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300'}`}
+                    >
+                        전체
+                    </button>
+                    {subCities!.map(sc => (
+                        <button
+                            key={sc.engName}
+                            type="button"
+                            onClick={() => onSubCityChange!(sc.engName)}
+                            className={`shrink-0 text-xs font-medium px-3 py-1 rounded-full border transition-colors ${selectedSubCity === sc.engName ? chipActiveClass : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300'}`}
+                        >
+                            {sc.name}
+                        </button>
+                    ))}
+                </div>
+            )}
+
             <div className="flex items-center gap-2 py-2">
                 <select
                     value={selectedType}
@@ -84,28 +106,6 @@ export function PickerFilterBar({
                     />
                 </div>
             </div>
-
-            {showSubCities && (
-                <div className="flex gap-2 pb-2 overflow-x-auto">
-                    <button
-                        type="button"
-                        onClick={() => onSubCityChange!('all')}
-                        className={`shrink-0 text-xs font-medium px-3 py-1 rounded-full border transition-colors ${selectedSubCity === 'all' ? chipActiveClass : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300'}`}
-                    >
-                        전체
-                    </button>
-                    {subCities!.map(sc => (
-                        <button
-                            key={sc.engName}
-                            type="button"
-                            onClick={() => onSubCityChange!(sc.engName)}
-                            className={`shrink-0 text-xs font-medium px-3 py-1 rounded-full border transition-colors ${selectedSubCity === sc.engName ? chipActiveClass : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300'}`}
-                        >
-                            {sc.name}
-                        </button>
-                    ))}
-                </div>
-            )}
         </div>
     );
 }

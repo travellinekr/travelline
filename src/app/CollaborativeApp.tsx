@@ -5,6 +5,8 @@ import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
 import { IntercityFlightContext } from "@/contexts/IntercityFlightContext";
 import { IntercityFlightModal } from "@/components/board/IntercityFlightModal";
+import { IntercityMoveContext } from "@/contexts/IntercityMoveContext";
+import { IntercityMoveModal } from "@/components/board/IntercityMoveModal";
 import { KOREAN_AIRPORTS, MAJOR_AIRPORTS } from "@/data/airports";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
@@ -52,7 +54,7 @@ import { usePresenceCursor } from "@/hooks/usePresenceCursor";
 import { useAnchorLogic } from "@/hooks/useAnchorLogic";
 import { useDragDrop } from "@/hooks/useDragDrop";
 import { isPastDayColumn, isTripStarted, isTripEnded } from "@/utils/timeline";
-import { getEffectiveSubCities } from "@/utils/citySources";
+import { getPickerCityChips } from "@/utils/citySources";
 import { findSourceColumn } from "@/utils/dnd";
 import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
 import { validateDragDrop } from "@/utils/dragValidation";
@@ -163,7 +165,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
 
-    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren } = useCardMutations();
+    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity } = useCardMutations();
 
     // 도시간 항공편 모달 — 클릭한 메타 카드 id (등록 후 메타 카드는 그대로 유지)
     const [editingIntercityCardId, setEditingIntercityCardId] = useState<string | null>(null);
@@ -262,11 +264,30 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             addToast(`${data.arrDate} 에 해당하는 일차가 없어요`, 'warning');
         }
 
+        // 메타 카드에 도착 도시 기록 (타이틀에 도시명 표시용)
+        if (parentId && data.arrCity) {
+            setCardTargetCity({ cardId: parentId, targetCity: data.arrCity });
+        }
+
         setEditingIntercityCardId(null);
-    }, [flightInfo, createCardToColumn, addToast, editingIntercityCardId, removeIntercityFlightChildren]);
+    }, [flightInfo, createCardToColumn, addToast, editingIntercityCardId, removeIntercityFlightChildren, setCardTargetCity]);
 
     const intercityFlightContextValue = useMemo(() => ({
         openIntercityModal: (cardId: string) => setEditingIntercityCardId(cardId),
+        isTripEnded: isTripEnded(flightInfo),
+    }), [flightInfo]);
+
+    // 도시간 이동(육로) 모달 — 클릭한 메타 카드 id
+    const [editingMoveCardId, setEditingMoveCardId] = useState<string | null>(null);
+
+    const handleSaveIntercityMove = useCallback((_cityKorean: string, cityEngName: string) => {
+        if (!editingMoveCardId) return;
+        setCardTargetCity({ cardId: editingMoveCardId, targetCity: cityEngName });
+        setEditingMoveCardId(null);
+    }, [editingMoveCardId, setCardTargetCity]);
+
+    const intercityMoveContextValue = useMemo(() => ({
+        openIntercityMoveModal: (cardId: string) => setEditingMoveCardId(cardId),
         isTripEnded: isTripEnded(flightInfo),
     }), [flightInfo]);
 
@@ -303,9 +324,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         return (cards as any)?.get(cardId) || null;
     }, [columns, cards]);
 
-    // 다중 도시 — picker 서브 도시 chips 옵션 (destinations.ts subCities + 사용자 항공편 도시)
+    // 다중 도시 — picker 서브 도시 chips 옵션.
+    // 도시간 이동(항공편/육로) 카드가 있을 때만 [최종여행지, ...이동도시] 반환, 없으면 빈 배열.
     const subCities = useMemo(
-        () => getEffectiveSubCities(destinationCard, cards),
+        () => getPickerCityChips(destinationCard, cards),
         [destinationCard, cards]
     );
 
@@ -440,7 +462,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             // Picker 카테고리별 삭제 영역 (투어&스파/기타/쇼핑/숙소/맛집): 카드 삭제
             const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
             if (foundColumnId) {
-                removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+                // 도시간 항공편 메타 카드 → 자식 항공 카드까지 cascade 삭제
+                if (typeof activeId === 'string' && activeId.startsWith('intercity-flight-')) {
+                    removeIntercityFlightGroup(String(activeId));
+                } else {
+                    removeCardFromTimeline({ cardId: activeId, sourceColumnId: foundColumnId });
+                }
             }
             setActiveDragItem(null);
             return;
@@ -523,6 +550,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             const targetCol = (columns as any).get(targetColumnId);
             const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
             createIntercityFlightCard({ targetColumnId, targetIndex: finalTargetIndex });
+            setActiveDragItem(null);
+            return;
+        }
+
+        // 도시간 이동(육로) picker 카드 → day 컬럼 드롭
+        if (draggedCard?.__intercityMoveTrigger && /^day\d+$/.test(targetColumnId)) {
+            const targetCol = (columns as any).get(targetColumnId);
+            const finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+            createIntercityMoveCard({ targetColumnId, targetIndex: finalTargetIndex });
             setActiveDragItem(null);
             return;
         }
@@ -658,10 +694,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             }
             copyCardToTimeline({ originalCardId: activeId, targetColumnId, targetIndex: finalTargetIndex });
         } else if (sourceColumnId !== 'inbox' && targetColumnId === 'inbox') {
-            removeCardFromTimeline({ cardId: activeId, sourceColumnId });
-            // 보관함에서 해당 카테고리 활성화
-            if (draggedCard?.category) {
-                setActiveCategory(draggedCard.category as CategoryType);
+            // 도시간 항공편 메타 카드 → 자식 항공 카드까지 cascade 삭제 (메타 자체도 제거)
+            if (typeof activeId === 'string' && activeId.startsWith('intercity-flight-')) {
+                removeIntercityFlightGroup(String(activeId));
+            } else {
+                removeCardFromTimeline({ cardId: activeId, sourceColumnId });
+                // 보관함에서 해당 카테고리 활성화
+                if (draggedCard?.category) {
+                    setActiveCategory(draggedCard.category as CategoryType);
+                }
             }
         } else if (sourceColumnId !== 'inbox' && targetColumnId !== 'inbox') {
             if (sourceColumnId === targetColumnId) {
@@ -748,6 +789,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     return (
         <AnchorContext.Provider value={anchorContextValue}>
         <IntercityFlightContext.Provider value={intercityFlightContextValue}>
+        <IntercityMoveContext.Provider value={intercityMoveContextValue}>
             {showSessionExpired && (
                 <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
             )}
@@ -918,6 +960,17 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 destinationCard={destinationCard}
                 flightInfo={flightInfo}
             />
+
+            {/* 도시간 이동(육로) 등록 모달 — 도시명만 입력, 메타 카드의 targetCity 에 저장 */}
+            <IntercityMoveModal
+                isOpen={!!editingMoveCardId}
+                onClose={() => setEditingMoveCardId(null)}
+                onSave={handleSaveIntercityMove}
+                currentCardId={editingMoveCardId ?? undefined}
+                cards={cards}
+                destinationCard={destinationCard}
+            />
+        </IntercityMoveContext.Provider>
         </IntercityFlightContext.Provider>
         </AnchorContext.Provider>
     );
