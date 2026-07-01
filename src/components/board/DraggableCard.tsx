@@ -16,7 +16,12 @@ import { DefaultCard } from "@/components/cards/DefaultCard";
 import { EtcCard } from "@/components/cards/EtcCard";
 import type { CardVariant } from "@/components/cards/types";
 import { useCardMutations } from "@/hooks/useCardMutations";
-import { CardEditorModal } from "./CardEditorModal";
+import dynamic from "next/dynamic";
+// CardEditorModal 은 BlockNote(@blocknote/*) 전체 번들(~수백KB) 의존 → 메모 모달 열 때만 청크 로드
+const CardEditorModal = dynamic(
+    () => import("./CardEditorModal").then(m => m.CardEditorModal),
+    { ssr: false, loading: () => null }
+);
 import { CardPhotoStrip } from "./CardPhotoStrip";
 import { useAnchor } from "@/contexts/AnchorContext";
 

@@ -27,18 +27,27 @@ function findCityDataByDestinationCard(destinationCard: any) {
     return null;
 }
 
-// 도시명 한글 매핑 — destinations.ts 의 도시 (서브 포함) 에서 engName lowercase → 한글명 검색.
-function lookupKoreanName(engNameLower: string): string | null {
+// engName(lowercase) → 한글명 모듈 레벨 캐시 (lazy init, 한 번만 빌드).
+// destinations.ts 전체 region × city × subCity 순회를 O(1) lookup 으로 전환.
+let _engToKoreanMap: Map<string, string> | null = null;
+function getEngToKoreanMap(): Map<string, string> {
+    if (_engToKoreanMap) return _engToKoreanMap;
+    const m = new Map<string, string>();
     for (const region of Object.values(DESTINATION_DATA)) {
         for (const city of region.cities) {
-            if (city.engName.toLowerCase() === engNameLower) return city.name;
-            if (city.subCities) {
-                const sub = city.subCities.find((s: SubCityData) => s.engName.toLowerCase() === engNameLower);
-                if (sub) return sub.name;
-            }
+            m.set(city.engName.toLowerCase(), city.name);
+            city.subCities?.forEach((sc: SubCityData) =>
+                m.set(sc.engName.toLowerCase(), sc.name)
+            );
         }
     }
-    return null;
+    _engToKoreanMap = m;
+    return m;
+}
+
+// 도시명 한글 매핑 — engName lowercase → 한글명.
+function lookupKoreanName(engNameLower: string): string | null {
+    return getEngToKoreanMap().get(engNameLower) ?? null;
 }
 
 // 카드 LiveMap (또는 Map) 에서 intercityFlight 카드의 dep/arrCity 를 추출해 chip 옵션으로 변환.
@@ -105,6 +114,26 @@ export function getPickerCityChips(destinationCard: any, cards: any): SubCityOpt
     return out;
 }
 
+// destinations.ts 의 모든 도시(+subCities) 옵션 모듈 레벨 캐시 — 한 번만 빌드.
+let _destinationPool: SubCityOption[] | null = null;
+function getDestinationPool(): SubCityOption[] {
+    if (_destinationPool) return _destinationPool;
+    const out: SubCityOption[] = [];
+    const seen = new Set<string>();
+    for (const region of Object.values(DESTINATION_DATA)) {
+        for (const city of region.cities) {
+            const k = city.engName.toLowerCase();
+            if (!seen.has(k)) { out.push({ name: city.name, engName: k }); seen.add(k); }
+            city.subCities?.forEach((sc: SubCityData) => {
+                const sk = sc.engName.toLowerCase();
+                if (!seen.has(sk)) { out.push({ name: sc.name, engName: sk }); seen.add(sk); }
+            });
+        }
+    }
+    _destinationPool = out;
+    return out;
+}
+
 // 모달 "이동할 도시" Autocomplete 풀.
 //  - destinations.ts 의 모든 도시 (한글명) + 등록된 도시간 이동/항공편 도시
 //  - 중복 제거 (engName lowercase 기준)
@@ -113,27 +142,15 @@ export function getCityAutocompletePool(
     destinationCard: any,
     cards: any
 ): SubCityOption[] {
+    const selfKey = ((destinationCard?.city as string) || '').trim().toLowerCase();
     const out: SubCityOption[] = [];
     const seen = new Set<string>();
-    const selfKey = ((destinationCard?.city as string) || '').trim().toLowerCase();
 
-    const tryPush = (name: string, engName: string) => {
-        const key = engName.trim().toLowerCase();
-        if (!key || key === selfKey || seen.has(key)) return;
-        out.push({ name, engName: key });
-        seen.add(key);
-    };
-
-    // 1) destinations.ts 모든 도시 + 그 subCities
-    for (const region of Object.values(DESTINATION_DATA)) {
-        for (const city of region.cities) {
-            tryPush(city.name, city.engName);
-            if (city.subCities) {
-                for (const sc of city.subCities) {
-                    tryPush(sc.name, sc.engName);
-                }
-            }
-        }
+    // 1) 모듈 캐시된 destinations 풀에서 self 제외 (얕은 복사 한 번)
+    for (const opt of getDestinationPool()) {
+        if (opt.engName === selfKey) continue;
+        out.push(opt);
+        seen.add(opt.engName);
     }
 
     // 2) 등록된 도시간 이동/항공편 도시 (intercity 도시 — 사용자가 이전에 직접 입력한 경우)
@@ -142,9 +159,10 @@ export function getCityAutocompletePool(
             const cityVal = c?.targetCity || (c?.isIntercityFlight && c?.city);
             if (!cityVal) return;
             const key = String(cityVal).trim().toLowerCase();
-            if (!key) return;
+            if (!key || key === selfKey || seen.has(key)) return;
             const koreanName = lookupKoreanName(key) ?? key;
-            tryPush(koreanName, key);
+            out.push({ name: koreanName, engName: key });
+            seen.add(key);
         });
     }
 

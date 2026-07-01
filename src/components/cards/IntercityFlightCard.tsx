@@ -2,7 +2,6 @@ import { Plane } from "lucide-react";
 import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { useIntercityFlight } from "@/contexts/IntercityFlightContext";
-import { useStorage } from "@/liveblocks.config";
 import { engNameToKorean } from "@/utils/citySources";
 
 // 도시간 항공편 메타 카드.
@@ -14,30 +13,16 @@ export function IntercityFlightCard({
     canEdit = true,
     ...props
 }: CommonCardProps) {
-    const { openIntercityModal, isTripEnded } = useIntercityFlight();
+    const { openIntercityModal, isTripEnded, childInfoMap } = useIntercityFlight();
     const isInbox = variant === 'inbox';
 
-    // 이 메타 카드를 부모로 가진 자식 카드 탐색.
-    //  - isRegistered: 자식 카드 존재 여부 (등록 완료 판정)
-    //  - childArrCity: 자식 도착 카드의 city — 기존(targetCity 저장 전) 등록 카드의 도시명 fallback
-    const { isRegistered, childArrCity } = useStorage((root) => {
-        const cards = root.cards as any;
-        if (!cards || typeof cards.forEach !== 'function') {
-            return { isRegistered: false, childArrCity: '' };
-        }
-        let found = false;
-        let arrCity = '';
-        cards.forEach((c: any) => {
-            if (c?.parentIntercityCardId !== card.id) return;
-            found = true;
-            const route: string = c.route || '';
-            if (route.startsWith('🛬') && c.city) arrCity = c.city;
-        });
-        return { isRegistered: found, childArrCity: arrCity };
-    });
+    // Context 의 통합 Map 에서 이 메타 카드의 자식 정보 lookup.
+    //  - 카드 1장당 useStorage 등록을 막아 N×O(cards) → 1×O(cards) 회귀 해소.
+    const childInfo = childInfoMap.get(card.id);
+    const isRegistered = childInfo?.isRegistered ?? false;
+    const childArrCity = childInfo?.childArrCity ?? '';
 
     // 도시명 우선순위: 메타 카드 targetCity > 자식 도착 카드 city.
-    // 기존 카드(targetCity 없이 등록됨)는 자식 카드 city 로 fallback.
     const cityEngName = card.targetCity || childArrCity;
     const cityKorean = cityEngName ? engNameToKorean(cityEngName) : null;
     const hasAnyRegistration = isRegistered || !!cityKorean;
