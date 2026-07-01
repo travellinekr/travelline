@@ -4,9 +4,18 @@ import { useStorage, useErrorListener } from "../liveblocks.config";
 import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import { AnchorContext } from "@/contexts/AnchorContext";
 import { IntercityFlightContext } from "@/contexts/IntercityFlightContext";
-import { IntercityFlightModal } from "@/components/board/IntercityFlightModal";
 import { IntercityMoveContext } from "@/contexts/IntercityMoveContext";
-import { IntercityMoveModal } from "@/components/board/IntercityMoveModal";
+import dynamic from "next/dynamic";
+
+// 도시간 항공편/이동 모달은 진입 직후엔 거의 안 쓰임 + 내부 정적 데이터(airports/airlines/destinations)가 무거움 → 청크 분리
+const IntercityFlightModal = dynamic(
+    () => import("@/components/board/IntercityFlightModal").then(m => m.IntercityFlightModal),
+    { ssr: false, loading: () => null }
+);
+const IntercityMoveModal = dynamic(
+    () => import("@/components/board/IntercityMoveModal").then(m => m.IntercityMoveModal),
+    { ssr: false, loading: () => null }
+);
 import { KOREAN_AIRPORTS, MAJOR_AIRPORTS } from "@/data/airports";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useRole } from "@/hooks/useRole";
@@ -165,6 +174,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
 
+    // 도시간 항공편/이동 모달 청크 idle prefetch — 첫 클릭 지연 해소
+    useEffect(() => {
+        const win = window as any;
+        const idle = (cb: () => void) =>
+            win.requestIdleCallback?.(cb, { timeout: 3000 }) ?? setTimeout(cb, 1500);
+        const handle = idle(() => {
+            import("@/components/board/IntercityFlightModal");
+            import("@/components/board/IntercityMoveModal");
+        });
+        return () => {
+            if (typeof handle === 'number' && win.cancelIdleCallback) win.cancelIdleCallback(handle);
+            else clearTimeout(handle as any);
+        };
+    }, []);
+
     const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity } = useCardMutations();
 
     // 도시간 항공편 모달 — 클릭한 메타 카드 id (등록 후 메타 카드는 그대로 유지)
@@ -272,10 +296,31 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         setEditingIntercityCardId(null);
     }, [flightInfo, createCardToColumn, addToast, editingIntercityCardId, removeIntercityFlightChildren, setCardTargetCity]);
 
+    // 도시간 항공편/이동 메타 카드의 자식 카드 정보 — 1회 selector 로 전체 cards 1회 순회 후 Map 빌드.
+    // 카드 1장당 useStorage 등록을 막아 N×O(cards) → 1×O(cards) 로 줄임.
+    const intercityChildInfoMap = useStorage((root) => {
+        const map = new Map<string, { isRegistered: boolean; childArrCity: string }>();
+        const c = (root as any).cards;
+        if (!c?.forEach) return map;
+        c.forEach((card: any) => {
+            const parentId = card?.parentIntercityCardId;
+            if (!parentId) return;
+            const prev = map.get(parentId) ?? { isRegistered: false, childArrCity: '' };
+            prev.isRegistered = true;
+            const route: string = card.route || '';
+            if (route.startsWith('🛬') && card.city && !prev.childArrCity) {
+                prev.childArrCity = card.city;
+            }
+            map.set(parentId, prev);
+        });
+        return map;
+    });
+
     const intercityFlightContextValue = useMemo(() => ({
         openIntercityModal: (cardId: string) => setEditingIntercityCardId(cardId),
         isTripEnded: isTripEnded(flightInfo),
-    }), [flightInfo]);
+        childInfoMap: intercityChildInfoMap as Map<string, { isRegistered: boolean; childArrCity: string }>,
+    }), [flightInfo, intercityChildInfoMap]);
 
     // 도시간 이동(육로) 모달 — 클릭한 메타 카드 id
     const [editingMoveCardId, setEditingMoveCardId] = useState<string | null>(null);
@@ -775,14 +820,27 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     if (!columns || !cards) return <LoadingSkeleton />;
 
-    // useStorage로 직접 inboxCards를 가져와서 반응형 업데이트 활성화
-    const inboxCards = useStorage((root) => {
-        const inboxCol = (root.columns as any)?.get("inbox");
-        if (!inboxCol) return [];
-
-        const cardIds = inboxCol.cardIds || [];
-        return cardIds.map((id: string) => (root.cards as any)?.get(id)).filter(Boolean);
-    });
+    // useStorage로 직접 inboxCards를 가져와서 반응형 업데이트 활성화.
+    // shallow compare 두 번째 인자 — 배열 내용(id 순서, 각 카드 immutable reference)이 동일하면 이전 배열 유지.
+    // 다른 컬럼(day1, day2 등) 카드 변경 시 selector 는 재실행되지만 결과 shallow 동일 → reference 유지 →
+    //  Inbox(memo)가 불필요 리렌더 안 함. 배열 내용은 이전과 완전 동일 → 표시 동작 100% 유지.
+    const inboxCards = useStorage(
+        (root) => {
+            const inboxCol = (root.columns as any)?.get("inbox");
+            if (!inboxCol) return [];
+            const cardIds = inboxCol.cardIds || [];
+            return cardIds.map((id: string) => (root.cards as any)?.get(id)).filter(Boolean);
+        },
+        (prev, curr) => {
+            if (prev === curr) return true;
+            if (!prev || !curr) return false;
+            if (prev.length !== curr.length) return false;
+            for (let i = 0; i < prev.length; i++) {
+                if (prev[i] !== curr[i]) return false;
+            }
+            return true;
+        }
+    );
 
 
 
@@ -949,27 +1007,31 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             {/* 토스트 메시지들 */}
             <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
 
-            {/* 도시간 항공편 등록 모달 — 메타 카드는 유지, 별도 항공 카드 2장 생성 */}
-            <IntercityFlightModal
-                isOpen={!!editingIntercityCardId}
-                onClose={() => setEditingIntercityCardId(null)}
-                onSave={handleSaveIntercityFlight}
-                defaultDate={editingIntercityDefaultDate}
-                currentCardId={editingIntercityCardId ?? undefined}
-                cards={cards}
-                destinationCard={destinationCard}
-                flightInfo={flightInfo}
-            />
+            {/* 도시간 항공편 등록 모달 — 메타 카드는 유지, 별도 항공 카드 2장 생성. 조건부 마운트로 청크 로드 지연 */}
+            {editingIntercityCardId && (
+                <IntercityFlightModal
+                    isOpen={true}
+                    onClose={() => setEditingIntercityCardId(null)}
+                    onSave={handleSaveIntercityFlight}
+                    defaultDate={editingIntercityDefaultDate}
+                    currentCardId={editingIntercityCardId}
+                    cards={cards}
+                    destinationCard={destinationCard}
+                    flightInfo={flightInfo}
+                />
+            )}
 
             {/* 도시간 이동(육로) 등록 모달 — 도시명만 입력, 메타 카드의 targetCity 에 저장 */}
-            <IntercityMoveModal
-                isOpen={!!editingMoveCardId}
-                onClose={() => setEditingMoveCardId(null)}
-                onSave={handleSaveIntercityMove}
-                currentCardId={editingMoveCardId ?? undefined}
-                cards={cards}
-                destinationCard={destinationCard}
-            />
+            {editingMoveCardId && (
+                <IntercityMoveModal
+                    isOpen={true}
+                    onClose={() => setEditingMoveCardId(null)}
+                    onSave={handleSaveIntercityMove}
+                    currentCardId={editingMoveCardId}
+                    cards={cards}
+                    destinationCard={destinationCard}
+                />
+            )}
         </IntercityMoveContext.Provider>
         </IntercityFlightContext.Provider>
         </AnchorContext.Provider>

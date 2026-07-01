@@ -265,14 +265,28 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
     targetDate.setDate(targetDate.getDate() + (dayNumber - 1));
     const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
 
-    fetch(`/api/weather?lat=${lat}&lng=${lng}&date=${dateStr}`)
-      .then(r => r.ok ? r.json() : null)
-      .then(d => {
-        if (d && !d.error && !d.noData) {
-          setWeather({ emoji: d.emoji, temp: d.temp, precipProb: d.precipProb ?? 0 });
-        }
-      })
-      .catch(() => {});
+    // 진입 직후 N일차가 동시에 weather fetch 를 발화하면 첫 페인트가 느려짐 → idle 까지 미룸.
+    let cancelled = false;
+    const win = window as any;
+    const idle = (cb: () => void) =>
+        win.requestIdleCallback?.(cb, { timeout: 2500 }) ?? setTimeout(cb, 0);
+    const handle = idle(() => {
+      if (cancelled) return;
+      fetch(`/api/weather?lat=${lat}&lng=${lng}&date=${dateStr}`)
+        .then(r => r.ok ? r.json() : null)
+        .then(d => {
+          if (cancelled) return;
+          if (d && !d.error && !d.noData) {
+            setWeather({ emoji: d.emoji, temp: d.temp, precipProb: d.precipProb ?? 0 });
+          }
+        })
+        .catch(() => {});
+    });
+    return () => {
+      cancelled = true;
+      if (typeof handle === 'number' && win.cancelIdleCallback) win.cancelIdleCallback(handle);
+      else clearTimeout(handle as any);
+    };
   }, [flightInfo, dayNumber]);
 
   // 활성화 시 스타일 (리스트 전체를 감싸는 박스가 강조됨)
