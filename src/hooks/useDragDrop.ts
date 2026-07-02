@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useSensors, useSensor, MouseSensor, TouchSensor, pointerWithin, closestCenter } from '@dnd-kit/core';
 import { isInRightDeleteZone } from '@/utils/dnd';
 
@@ -36,7 +36,7 @@ export function useDragDrop<TCategory extends string>({
         useSensor(TouchSensor, { activationConstraint: canEdit ? { delay: 250, tolerance: 5 } : { distance: 999999 } })
     );
 
-    const handleDragStart = (event: any) => {
+    const handleDragStart = useCallback((event: any) => {
         const card = event.active.data.current;
         setActiveDragItem(card);
         // 🚫 [항공카드 드래그 차단] flight 카드는 FlightSection에서만 관리되므로
@@ -72,10 +72,10 @@ export function useDragDrop<TCategory extends string>({
             prevInboxStateRef.current = inboxState;
             setInboxState('closed');
         }
-    };
+    }, [columns, setActiveCategory, isInboxLocked, inboxState, setInboxState, prevInboxStateRef]);
 
     // 커스텀 충돌 감지: destination-header 중앙만 + 모바일 우측 삭제존 + 기본 fallback
-    const customCollisionDetection = (args: any) => {
+    const customCollisionDetection = useCallback((args: any) => {
         // 🎯 PRIORITY 1: destination-header - 중앙 영역만 감지
         const pointerCoords = args.pointerCoordinates;
         if (pointerCoords) {
@@ -118,10 +118,10 @@ export function useDragDrop<TCategory extends string>({
             return pointerCollisions;
         }
         return closestCenter(args);
-    };
+    }, []);
 
     // 📱 모바일 드래그 중: 하단 자동 스크롤 + 우측 삭제존 시각 강조 동기화
-    const handleDragMove = (event: any) => {
+    const handleDragMove = useCallback((event: any) => {
         if (typeof window === 'undefined' || window.innerWidth >= 768) return;
 
         const active = event.over?.id === 'right-delete-zone';
@@ -150,7 +150,7 @@ export function useDragDrop<TCategory extends string>({
                 autoScrollRef.current = null;
             }
         }
-    };
+    }, [timelineScrollRef, autoScrollRef]);
 
     return {
         activeDragItem,

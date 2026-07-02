@@ -10,12 +10,24 @@ interface PhotoLightboxProps {
     photos: any[];
     initialIndex: number;
     canEdit?: boolean;
+    tripEndDate?: string | null;   // 여행 종료일 (YYYY-MM-DD). 종료+14일 지난 사진 원본은 서버가 삭제 → "만료됨" 표시
     onClose: () => void;
     onDelete?: (photoId: string) => void;
 }
 
+// 여행 종료 + 14일 지나면 원본이 서버에서 삭제되므로 클라 렌더 시점에도 만료로 판정.
+const ORIGINAL_RETENTION_DAYS = 14;
+function isOriginalExpired(tripEndDate?: string | null): boolean {
+    if (!tripEndDate) return false;
+    const deadline = new Date(tripEndDate);
+    if (isNaN(deadline.getTime())) return false;
+    deadline.setDate(deadline.getDate() + ORIGINAL_RETENTION_DAYS);
+    return Date.now() > deadline.getTime();
+}
+
 // 풀스크린 사진 뷰어 — 원본 이미지 표시, 좌우 탐색, 삭제 확인
-export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, onClose, onDelete }: PhotoLightboxProps) {
+export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, tripEndDate, onClose, onDelete }: PhotoLightboxProps) {
+    const originalExpired = isOriginalExpired(tripEndDate);
     const [index, setIndex] = useState(initialIndex);
     const [pendingDelete, setPendingDelete] = useState(false);
     const [isDownloading, setIsDownloading] = useState(false);
@@ -80,6 +92,7 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
 
     // 원본 다운로드 — cross-origin signed URL은 download 속성이 무시되므로 blob 경유
     const handleDownload = async () => {
+        if (originalExpired) return; // 만료 후에는 다운로드 불가
         if (!current?.originalUrl || isDownloading) return;
         setIsDownloading(true);
         try {
@@ -107,11 +120,19 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
             onTouchStart={handleTouchStart}
             onTouchEnd={handleTouchEnd}
         >
-            {/* 상단 바: 인덱스만 */}
-            <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-center px-4 py-3 bg-gradient-to-b from-black/60 to-transparent">
+            {/* 상단 바: 인덱스 + 만료 뱃지 (원본 삭제된 경우) */}
+            <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-b from-black/60 to-transparent">
                 <div className="text-white text-sm font-semibold tabular-nums">
                     {index + 1} / {photos.length}
                 </div>
+                {originalExpired && (
+                    <span
+                        className="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-amber-500/90 text-white"
+                        title="여행 종료 후 14일이 지나 원본이 삭제되었습니다. 썸네일만 표시됩니다."
+                    >
+                        만료됨
+                    </span>
+                )}
             </div>
 
             {/* 좌/우 탐색 (데스크톱) */}
@@ -136,10 +157,10 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
                 </button>
             )}
 
-            {/* 메인 이미지 */}
+            {/* 메인 이미지 — 만료된 경우 썸네일로 fallback */}
             <img
                 key={current.id || index}
-                src={current.originalUrl || current.thumbnailUrl}
+                src={originalExpired ? (current.thumbnailUrl || current.originalUrl) : (current.originalUrl || current.thumbnailUrl)}
                 alt={`photo-${index + 1}`}
                 draggable={false}
                 className="max-w-[95vw] max-h-[80vh] object-contain select-none"
@@ -165,10 +186,10 @@ export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, on
                 <button
                     type="button"
                     onClick={handleDownload}
-                    disabled={isDownloading}
+                    disabled={isDownloading || originalExpired}
                     aria-label="원본 다운로드"
-                    title="원본 다운로드"
-                    className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white disabled:opacity-50 transition-colors"
+                    title={originalExpired ? '원본이 만료되어 다운로드할 수 없어요' : '원본 다운로드'}
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                 >
                     {isDownloading ? <Loader2 className="w-5 h-5 animate-spin" /> : <Download className="w-5 h-5" />}
                 </button>

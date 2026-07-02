@@ -421,6 +421,51 @@ export function useCardMutations() {
         card.set('targetCity', targetCity);
     }, []);
 
+    // 도시간 항공편 자식 카드 2장(출발/도착)을 한 mutation 안에서 원자 생성.
+    //  - Liveblocks mutation 은 성공 시 전체 커밋 / 예외 시 롤백 → 부분 실패로 orphan 카드가 남지 않음
+    //  - 두 컬럼 존재 여부를 미리 검증한 후 두 카드 모두 생성 (부분 성공 방지)
+    //  - depDayCol / arrDayCol 이 없으면 해당 카드는 skip (호출측이 addToast 로 알림)
+    const createIntercityFlightPair = useMutation(({ storage }, {
+        depCardData, arrCardData, depDayCol, arrDayCol,
+    }: {
+        depCardData: any | null;    // depDayCol 이 있을 때만 세팅됨
+        arrCardData: any | null;
+        depDayCol: string | null;
+        arrDayCol: string | null;
+    }) => {
+        const cards = storage.get("cards") as any;
+        const columns = storage.get("columns") as any;
+
+        const insertOne = (data: any, colId: string) => {
+            const newCardId = `card-${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
+            const newCard = new LiveObject({ id: newCardId, ...data });
+            cards.set(newCardId, newCard);
+            const col = columns.get(colId);
+            if (!col) { cards.delete(newCardId); return false; }
+            const list = col.get("cardIds");
+            // flight 카테고리는 날짜/시간순 자동 정렬 — createCardToColumn 와 동일 규칙
+            let insertIndex = list.length;
+            if (data.category === 'flight' && data.date) {
+                for (let i = 0; i < list.length; i++) {
+                    const existingId = list.get(i);
+                    const existing = cards.get(existingId);
+                    if (existing && existing.get('category') === 'flight') {
+                        const eDate = existing.get('date') || '';
+                        const eTime = existing.get('time') || '';
+                        const newKey = `${data.date} ${data.time || ''}`;
+                        const eKey = `${eDate} ${eTime}`;
+                        if (newKey < eKey) { insertIndex = i; break; }
+                    }
+                }
+            }
+            list.insert(newCardId, insertIndex);
+            return true;
+        };
+
+        if (depDayCol && depCardData) insertOne(depCardData, depDayCol);
+        if (arrDayCol && arrCardData) insertOne(arrCardData, arrDayCol);
+    }, []);
+
     return {
         reorderCard,
         copyCardToTimeline,
@@ -437,5 +482,6 @@ export function useCardMutations() {
         removeIntercityFlightChildren,
         createIntercityMoveCard,
         setCardTargetCity,
+        createIntercityFlightPair,
     };
 }

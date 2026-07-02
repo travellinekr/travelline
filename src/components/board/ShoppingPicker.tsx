@@ -13,6 +13,7 @@ import { PickerHeader } from './PickerHeader';
 import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+import { useSubCityFilteredData } from '@/hooks/useSubCityFilteredData';
 
 // 드롭다운 그룹 — 의미 단위로 묶어 7개로 압축
 const SHOPPING_TYPE_GROUPS: Array<{ value: string; label: string; types: ShoppingType[] | null }> = [
@@ -186,11 +187,8 @@ export function ShoppingPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 쇼핑 모두 로드
-    const citiesToLoad = subCities.length > 0
-        ? subCities.map(c => c.engName)
-        : (destinationCity ? [destinationCity] : []);
-    const allShopping = citiesToLoad.flatMap(city => getShoppingByCity(city));
+    // 다중 도시 — subCities 있으면 그 도시들 데이터 통합 로드, 없으면 destinationCity 하나만
+    const allShopping = useSubCityFilteredData(getShoppingByCity, subCities, destinationCity);
     const sampleShopping = sortByAnchorDistance(allShopping.filter(s => s.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 

@@ -8,13 +8,14 @@ import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
 import { EmptyState } from "./EmptyState";
 import { buildSharedPlanSnapshot, calcDuration } from "@/utils/sharedPlanSnapshot";
-import { supabase } from "@/lib/supabaseClient";
+import { useSessionContext, getCachedAccessToken } from "@/contexts/SessionContext";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
 const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true, addToast, columns, cardsMap, roomId, projectTitle }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: 'destination-header' });
   const { active } = useDndContext();
   const flightInfo = useStorage((root) => root.flightInfo) as any;
+  const sessionCtx = useSessionContext();
 
   const isDestinationCard = active?.data?.current?.category === 'destination';
   const shouldHighlight = isOver && isDestinationCard;
@@ -30,8 +31,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
       return;
     }
     try {
-      const { data: { session } } = await supabase.auth.getSession();
-      const token = session?.access_token;
+      const token = await getCachedAccessToken(sessionCtx);
       if (!token) {
         addToast?.('로그인이 필요해요.', 'warning');
         return;

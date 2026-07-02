@@ -4,5 +4,11 @@
     "installCommand": "npm install --legacy-peer-deps",
     "env": {
         "NEXT_TURBOPACK": "0"
-    }
+    },
+    "crons": [
+        {
+            "path": "/api/cron/cleanup-photos",
+            "schedule": "0 3 * * *"
+        }
+    ]
 }

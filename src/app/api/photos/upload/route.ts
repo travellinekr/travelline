@@ -34,10 +34,15 @@ export async function POST(request: NextRequest) {
         const cardId = form.get('cardId');
         const original = form.get('original');
         const thumbnail = form.get('thumbnail');
+        const tripEndDateRaw = form.get('tripEndDate'); // 여행 종료일 (YYYY-MM-DD) — 없으면 null
 
         if (typeof projectId !== 'string' || typeof cardId !== 'string') {
             return NextResponse.json({ error: 'projectId / cardId 누락' }, { status: 400 });
         }
+        // YYYY-MM-DD 형식만 허용 (그 외는 null 처리 → 크론 대상 제외)
+        const tripEndDate = typeof tripEndDateRaw === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(tripEndDateRaw)
+            ? tripEndDateRaw
+            : null;
         if (!(original instanceof Blob) || !(thumbnail instanceof Blob)) {
             return NextResponse.json({ error: 'original / thumbnail 파일이 필요해요.' }, { status: 400 });
         }
@@ -97,6 +102,23 @@ export async function POST(request: NextRequest) {
         if (signErr1 || signErr2 || !urlOrig || !urlThumb) {
             console.error('[photos/upload] sign url error:', signErr1, signErr2);
             return NextResponse.json({ error: 'URL 발급 실패' }, { status: 500 });
+        }
+
+        // photos 테이블에 라이프사이클 관리용 레코드 저장.
+        // 크론이 여기서 storage_path_original 을 조회해 여행 종료 + 14일 지난 원본만 삭제.
+        // 실패해도 업로드 자체는 성공 반환 (로그만 남김) — 사용자 경험 우선, 크론 대상에서 빠질 뿐.
+        const { error: insertErr } = await supabaseAdmin.from('photos').insert({
+            id: photoId,
+            project_id: projectId,
+            card_id: cardId,
+            storage_path_original: originalPath,
+            storage_path_thumb: thumbnailPath,
+            trip_end_date: tripEndDate,
+            original_deleted: false,
+            uploader_id: user.id,
+        });
+        if (insertErr) {
+            console.warn('[photos/upload] photos row insert warn:', insertErr.message);
         }
 
         return NextResponse.json({

@@ -16,8 +16,10 @@ const IntercityMoveModal = dynamic(
     () => import("@/components/board/IntercityMoveModal").then(m => m.IntercityMoveModal),
     { ssr: false, loading: () => null }
 );
-import { KOREAN_AIRPORTS, MAJOR_AIRPORTS } from "@/data/airports";
 import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
+import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
+import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
+import { useModalPrefetch } from "@/hooks/useModalPrefetch";
 import { useRole } from "@/hooks/useRole";
 import { useToast } from "@/hooks/useToast";
 import { ToastContainer } from "@/components/common/ToastContainer";
@@ -67,6 +69,15 @@ import { getPickerCityChips } from "@/utils/citySources";
 import { findSourceColumn } from "@/utils/dnd";
 import { buildPickerCardPayload } from "@/utils/pickerCardPayload";
 import { validateDragDrop } from "@/utils/dragValidation";
+
+// Picker 카테고리별 삭제 드롭존 (드래그 중 카드 삭제) — 문자열 상수 배열
+const PICKER_DELETE_ZONES = [
+    'tourspa-delete-zone',
+    'etc-delete-zone',
+    'shopping-delete-zone',
+    'hotel-delete-zone',
+    'food-delete-zone',
+] as const;
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
@@ -174,177 +185,45 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const cardsRef = useRef<any>(null);
     useEffect(() => { cardsRef.current = cards; }, [cards]);
 
-    // 도시간 항공편/이동 모달 청크 idle prefetch — 첫 클릭 지연 해소
-    useEffect(() => {
-        const win = window as any;
-        const idle = (cb: () => void) =>
-            win.requestIdleCallback?.(cb, { timeout: 3000 }) ?? setTimeout(cb, 1500);
-        const handle = idle(() => {
-            import("@/components/board/IntercityFlightModal");
-            import("@/components/board/IntercityMoveModal");
-        });
-        return () => {
-            if (typeof handle === 'number' && win.cancelIdleCallback) win.cancelIdleCallback(handle);
-            else clearTimeout(handle as any);
-        };
-    }, []);
+    // 도시간 항공편/이동 모달 청크 idle prefetch
+    useModalPrefetch();
 
-    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity } = useCardMutations();
+    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity, createIntercityFlightPair } = useCardMutations();
 
-    // 도시간 항공편 모달 — 클릭한 메타 카드 id (등록 후 메타 카드는 그대로 유지)
-    const [editingIntercityCardId, setEditingIntercityCardId] = useState<string | null>(null);
-
-    // 메타 카드가 속한 day 컬럼의 실제 날짜 (등록 모달 기본값)
-    const editingIntercityDefaultDate = useMemo(() => {
-        if (!editingIntercityCardId || !flightInfo?.outbound?.date) return '';
-        let foundColId: string | null = null;
-        (columns as any)?.forEach((col: any, key: string) => {
-            if (foundColId) return;
-            const ids = col?.cardIds || [];
-            if (ids.indexOf(editingIntercityCardId) !== -1) foundColId = key;
-        });
-        if (!foundColId) return '';
-        const m = /^day([1-9]\d*)$/.exec(foundColId);
-        if (!m) return '';
-        const dayNum = parseInt(m[1]);
-        const base = new Date(flightInfo.outbound.date);
-        base.setDate(base.getDate() + (dayNum - 1));
-        return base.toISOString().slice(0, 10);
-    }, [editingIntercityCardId, columns, flightInfo]);
-
-    // 등록/수정 → 메타 카드는 그대로 두고 출발/도착 항공 카드 2장 생성.
-    //  - 기존 자식 카드가 있으면 먼저 제거 (수정 케이스) → 그 후 새 카드 생성
-    //  - 생성된 자식 카드는 parentIntercityCardId 로 메타 카드 id 를 가리켜, 메타 삭제 시 cascade.
-    const handleSaveIntercityFlight = useCallback((data: any) => {
-        if (!flightInfo?.outbound?.date) return;
-        const parentId = editingIntercityCardId ?? undefined;
-
-        // 기존 자식 카드 정리 (수정 시 중복 방지)
-        if (parentId) removeIntercityFlightChildren(parentId);
-
-        // 날짜 → day 컬럼 ID (useFlightForm 의 동일 로직)
-        const findDayColumnByDate = (dateStr: string): string | null => {
-            const target = new Date(dateStr);
-            const start = new Date(flightInfo.outbound.date);
-            const diffDays = Math.floor((target.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
-            const dayNum = diffDays + 1;
-            return dayNum >= 1 ? `day${dayNum}` : null;
-        };
-
-        // 공항 코드 → 정보 (좌표·이름)
-        const lookupAirport = (code: string) =>
-            KOREAN_AIRPORTS.find(a => a.code === code) || MAJOR_AIRPORTS.find(a => a.code === code) || null;
-
-        const depInfo = lookupAirport(data.depAirport);
-        const arrInfo = lookupAirport(data.arrAirport);
-        const depDisplay = depInfo ? `${depInfo.name}(${depInfo.code})` : data.depAirport;
-        const arrDisplay = arrInfo ? `${arrInfo.name}(${arrInfo.code})` : data.arrAirport;
-        const depCoords = depInfo ? { lat: depInfo.lat, lng: depInfo.lng } : undefined;
-        const arrCoords = arrInfo ? { lat: arrInfo.lat, lng: arrInfo.lng } : undefined;
-
-        // 출발 카드 (출발일 day 컬럼)
-        const depDayCol = findDayColumnByDate(data.depDate);
-        if (depDayCol) {
-            createCardToColumn({
-                title: data.airline,
-                time: data.depTime,
-                route: `🛫 ${depDisplay}`,
-                description: '출발',
-                category: 'flight',
-                type: 'travel',
-                date: data.depDate,
-                coordinates: depCoords,
-                city: data.depCity || undefined,
-                isIntercityFlight: true,
-                airportCode: data.depAirport,
-                parentIntercityCardId: parentId,
-                targetColumnId: depDayCol,
-                targetIndex: 0,
-            });
-        } else {
-            addToast(`${data.depDate} 에 해당하는 일차가 없어요`, 'warning');
-        }
-
-        // 도착 카드 (도착일 day 컬럼)
-        const arrDayCol = findDayColumnByDate(data.arrDate);
-        if (arrDayCol) {
-            createCardToColumn({
-                title: data.airline,
-                time: data.arrTime,
-                route: `🛬 ${arrDisplay}`,
-                description: '도착',
-                category: 'flight',
-                type: 'travel',
-                date: data.arrDate,
-                coordinates: arrCoords,
-                city: data.arrCity || undefined,
-                isIntercityFlight: true,
-                airportCode: data.arrAirport,
-                parentIntercityCardId: parentId,
-                targetColumnId: arrDayCol,
-                targetIndex: 0,
-            });
-        } else {
-            addToast(`${data.arrDate} 에 해당하는 일차가 없어요`, 'warning');
-        }
-
-        // 메타 카드에 도착 도시 기록 (타이틀에 도시명 표시용)
-        if (parentId && data.arrCity) {
-            setCardTargetCity({ cardId: parentId, targetCity: data.arrCity });
-        }
-
-        setEditingIntercityCardId(null);
-    }, [flightInfo, createCardToColumn, addToast, editingIntercityCardId, removeIntercityFlightChildren, setCardTargetCity]);
-
-    // 도시간 항공편/이동 메타 카드의 자식 카드 정보 — 1회 selector 로 전체 cards 1회 순회 후 Map 빌드.
-    // 카드 1장당 useStorage 등록을 막아 N×O(cards) → 1×O(cards) 로 줄임.
-    const intercityChildInfoMap = useStorage((root) => {
-        const map = new Map<string, { isRegistered: boolean; childArrCity: string }>();
-        const c = (root as any).cards;
-        if (!c?.forEach) return map;
-        c.forEach((card: any) => {
-            const parentId = card?.parentIntercityCardId;
-            if (!parentId) return;
-            const prev = map.get(parentId) ?? { isRegistered: false, childArrCity: '' };
-            prev.isRegistered = true;
-            const route: string = card.route || '';
-            if (route.startsWith('🛬') && card.city && !prev.childArrCity) {
-                prev.childArrCity = card.city;
-            }
-            map.set(parentId, prev);
-        });
-        return map;
+    // 도시간 항공편 등록/수정/자식 정보 (state + handler + Context value 통합 hook)
+    const {
+        editingIntercityCardId,
+        setEditingIntercityCardId,
+        editingIntercityDefaultDate,
+        handleSaveIntercityFlight,
+        intercityFlightContextValue,
+    } = useIntercityFlightRegistration({
+        cards, columns, flightInfo,
+        createCardToColumn, createIntercityFlightPair,
+        removeIntercityFlightChildren, setCardTargetCity, addToast,
     });
 
-    const intercityFlightContextValue = useMemo(() => ({
-        openIntercityModal: (cardId: string) => setEditingIntercityCardId(cardId),
-        isTripEnded: isTripEnded(flightInfo),
-        childInfoMap: intercityChildInfoMap as Map<string, { isRegistered: boolean; childArrCity: string }>,
-    }), [flightInfo, intercityChildInfoMap]);
-
-    // 도시간 이동(육로) 모달 — 클릭한 메타 카드 id
-    const [editingMoveCardId, setEditingMoveCardId] = useState<string | null>(null);
-
-    const handleSaveIntercityMove = useCallback((_cityKorean: string, cityEngName: string) => {
-        if (!editingMoveCardId) return;
-        setCardTargetCity({ cardId: editingMoveCardId, targetCity: cityEngName });
-        setEditingMoveCardId(null);
-    }, [editingMoveCardId, setCardTargetCity]);
-
-    const intercityMoveContextValue = useMemo(() => ({
-        openIntercityMoveModal: (cardId: string) => setEditingMoveCardId(cardId),
-        isTripEnded: isTripEnded(flightInfo),
-    }), [flightInfo]);
+    // 도시간 이동(육로) 등록/수정 (state + handler + Context value 통합 hook)
+    const {
+        editingMoveCardId,
+        setEditingMoveCardId,
+        handleSaveIntercityMove,
+        intercityMoveContextValue,
+    } = useIntercityMoveRegistration({ flightInfo, setCardTargetCity });
 
     // createCard wrapper for debugging
-    const handleCreateCard = (data: any) => {
-
+    const handleCreateCard = useCallback((data: any) => {
         try {
             createCard(data);
         } catch (error) {
             console.error('❌ createCard 에러:', error);
         }
-    };
+    }, [createCard]);
+
+    // Inbox 로 내려주는 카드 삭제 콜백 — 인라인 화살표 함수 대신 useCallback 으로 안정화
+    const handleInboxRemoveCard = useCallback((cardId: string) => {
+        removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' });
+    }, [removeCardFromTimeline]);
 
 
     // 보드 스토리지 관리 (자동 복구 + 여행지 제거 시 cleanup)
@@ -414,11 +293,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         // 📱 모바일: 드래그 종료 후 인박스 이전 상태로 복원 (딜레이로 카드 안착 확인 후 열림)
         // (잠금 상태였으면 close/open 토글이 일어나지 않았으므로 복원 불필요)
-        if (typeof window !== 'undefined' && window.innerWidth < 768 && !isInboxLocked) {
-            setTimeout(() => {
-                setInboxState(prevInboxStateRef.current);
-            }, 500);
-        }
+        // ⚠️ 2026-07-02: 사용자 요청으로 드롭 후 자동 복원 비활성 — 필요시 아래 블록 주석 해제.
+        //   (인박스 열린 상태에서 드롭하면 다시 스르륵 열리는 동작을 막기 위함)
+        // if (typeof window !== 'undefined' && window.innerWidth < 768 && !isInboxLocked) {
+        //     setTimeout(() => {
+        //         setInboxState(prevInboxStateRef.current);
+        //     }, 500);
+        // }
 
         // auto-scroll 정리
         if (autoScrollRef.current) {
@@ -497,13 +378,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             targetColumnId = String(overId).replace('-timeline', '');
         } else if (overId === 'inbox-dropzone') {
             targetColumnId = 'inbox';
-        } else if (
-            overId === 'tourspa-delete-zone' ||
-            overId === 'etc-delete-zone' ||
-            overId === 'shopping-delete-zone' ||
-            overId === 'hotel-delete-zone' ||
-            overId === 'food-delete-zone'
-        ) {
+        } else if (PICKER_DELETE_ZONES.includes(overId as any)) {
             // Picker 카테고리별 삭제 영역 (투어&스파/기타/쇼핑/숙소/맛집): 카드 삭제
             const { sourceColumnId: foundColumnId } = findSourceColumn(activeId, columns);
             if (foundColumnId) {
@@ -982,7 +857,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                             setActiveCategory={setActiveCategory}
                                             activeDragItem={activeDragItem}
                                             onCreateCard={handleCreateCard}
-                                            onRemoveCard={(cardId: string) => removeCardFromTimeline({ cardId, sourceColumnId: 'inbox' })}
+                                            onRemoveCard={handleInboxRemoveCard}
                                             destinationCard={destinationCard}
                                             flightInfo={flightInfo}
                                             canEdit={canEdit}
