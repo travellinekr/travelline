@@ -13,6 +13,7 @@ import { PickerHeader } from './PickerHeader';
 import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+import { useSubCityFilteredData } from '@/hooks/useSubCityFilteredData';
 
 // 드롭다운 그룹 — 호텔/리조트/에어비앤비/호스텔·게스트하우스
 const HOTEL_TYPE_GROUPS: Array<{ value: string; label: string; types: AccommodationType[] | null }> = [
@@ -172,11 +173,8 @@ export function AccommodationPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 숙소 모두 로드
-    const citiesToLoad = subCities.length > 0
-        ? subCities.map(c => c.engName)
-        : (destinationCity ? [destinationCity] : []);
-    const allAccommodations = citiesToLoad.flatMap(city => getAccommodationsByCity(city));
+    // 다중 도시 — subCities 있으면 그 도시들 데이터 통합 로드, 없으면 destinationCity 하나만
+    const allAccommodations = useSubCityFilteredData(getAccommodationsByCity, subCities, destinationCity);
     const sampleAccommodations = sortByAnchorDistance(allAccommodations.filter(a => a.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 

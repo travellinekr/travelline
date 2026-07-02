@@ -2,10 +2,10 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { Plus, Loader2 } from 'lucide-react';
-import { useRoom } from '../../liveblocks.config';
+import { useRoom, useStorage } from '../../liveblocks.config';
 import { useCardMutations } from '@/hooks/useCardMutations';
 import { buildOriginalAndThumbnail } from '@/utils/imageResize';
-import { supabase } from '@/lib/supabaseClient';
+import { useSessionContext, getCachedAccessToken } from '@/contexts/SessionContext';
 import { PhotoActionSheet } from './PhotoActionSheet';
 import { PhotoLightbox } from './PhotoLightbox';
 
@@ -22,6 +22,14 @@ interface CardPhotoStripProps {
 export function CardPhotoStrip({ cardId, photos, canEdit = true, onToast, onSelectPhoto }: CardPhotoStripProps) {
     const room = useRoom();
     const { addCardPhoto, removeCardPhoto } = useCardMutations();
+    const sessionCtx = useSessionContext();
+
+    // 여행 종료일 — 사진 원본 라이프사이클 판정용 (업로드 시 photos 테이블에 함께 저장)
+    // return.arrivalDate(도착일) 우선, 없으면 return.date(출발일), 둘 다 없으면 null → 크론 삭제 대상 제외
+    const tripEndDate = useStorage((root) => {
+        const fi = (root as any).flightInfo;
+        return fi?.return?.arrivalDate || fi?.return?.date || null;
+    });
 
     const [isUploading, setIsUploading] = useState(false);
     const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -103,8 +111,7 @@ export function CardPhotoStrip({ cardId, photos, canEdit = true, onToast, onSele
         setIsUploading(true);
         try {
             const { original, thumbnail } = await buildOriginalAndThumbnail(file);
-            const { data: { session } } = await supabase.auth.getSession();
-            const token = session?.access_token;
+            const token = await getCachedAccessToken(sessionCtx);
             if (!token) {
                 onToast?.('로그인이 필요해요.', 'warning');
                 return;
@@ -114,6 +121,8 @@ export function CardPhotoStrip({ cardId, photos, canEdit = true, onToast, onSele
             form.append('cardId', cardId);
             form.append('original', original.blob, 'original.jpg');
             form.append('thumbnail', thumbnail.blob, 'thumbnail.jpg');
+            // 여행 종료일 (업로드 시점) — 서버가 photos 테이블에 저장, 크론이 종료+14일 이후 원본 삭제
+            if (tripEndDate) form.append('tripEndDate', tripEndDate);
             const res = await fetch('/api/photos/upload', {
                 method: 'POST',
                 headers: { Authorization: `Bearer ${token}` },
@@ -238,6 +247,7 @@ export function CardPhotoStrip({ cardId, photos, canEdit = true, onToast, onSele
                 photos={photos}
                 initialIndex={lightboxIndex ?? 0}
                 canEdit={canEdit}
+                tripEndDate={tripEndDate}
                 onClose={() => setLightboxIndex(null)}
                 onDelete={handleDeleteFromLightbox}
             />

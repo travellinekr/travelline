@@ -6,6 +6,7 @@ import { LiveList, LiveMap, LiveObject } from "@liveblocks/client";
 import { type Card } from "../liveblocks.config";
 import { supabase } from "@/lib/supabaseClient";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
+import { SessionProvider } from "@/contexts/SessionContext";
 
 export function Room({ children, roomId }: { children: ReactNode, roomId: string }) {
   return (
@@ -38,7 +39,9 @@ export function Room({ children, roomId }: { children: ReactNode, roomId: string
         }}
       >
         <ClientSideSuspense fallback={<LoadingSkeleton />}>
-          {children}
+          <SessionProvider>
+            {children}
+          </SessionProvider>
         </ClientSideSuspense>
       </RoomProvider>
     </LiveblocksProvider>

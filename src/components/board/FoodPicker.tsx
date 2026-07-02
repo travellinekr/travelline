@@ -13,6 +13,7 @@ import { PickerHeader } from './PickerHeader';
 import { PickerFilterBar } from './PickerFilterBar';
 import { useAnchor } from '@/contexts/AnchorContext';
 import { sortByAnchorDistance } from '@/utils/distance';
+import { useSubCityFilteredData } from '@/hooks/useSubCityFilteredData';
 
 // 드롭다운 그룹 — 데이터 type 을 의미 단위로 묶어 7개로 압축
 const FOOD_TYPE_GROUPS: Array<{ value: string; label: string; types: RestaurantType[] | null }> = [
@@ -187,11 +188,8 @@ export function FoodPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
-    // 다중 도시 — 도시간 이동 chips 가 있으면 그 도시들의 맛집 모두 로드
-    const citiesToLoad = subCities.length > 0
-        ? subCities.map(c => c.engName)
-        : (destinationCity ? [destinationCity] : []);
-    const allRestaurants = citiesToLoad.flatMap(city => getRestaurantsByCity(city));
+    // 다중 도시 — subCities 있으면 그 도시들 데이터 통합 로드, 없으면 destinationCity 하나만
+    const allRestaurants = useSubCityFilteredData(getRestaurantsByCity, subCities, destinationCity);
     const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
