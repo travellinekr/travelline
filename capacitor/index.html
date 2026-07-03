@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#059669" />
+    <title>Travelline</title>
+    <style>
+        /* 서버 모드에서 첫 로드 실패 시(오프라인) 표시되는 fallback.
+           통상적으로는 곧바로 travelline.co.kr 로 이동하므로 잠깐만 보인다. */
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+        html, body {
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, #ecfdf5 0%, #ffffff 100%);
+            color: #0f172a;
+            overscroll-behavior: none;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            text-align: center;
+            padding-top: env(safe-area-inset-top);
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: #059669;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 32px;
+        }
+        .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid #d1fae5;
+            border-top-color: #059669;
+            border-radius: 50%;
+            animation: spin 0.9s linear infinite;
+            margin-bottom: 24px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .status {
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        .retry {
+            display: none;
+            margin-top: 24px;
+            padding: 12px 24px;
+            background: #059669;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .retry:active { opacity: 0.7; }
+        .offline .spinner { display: none; }
+        .offline .status { color: #dc2626; }
+        .offline .retry { display: block; }
+    </style>
+</head>
+<body id="root">
+    <div class="logo">Travelline</div>
+    <div class="subtitle">여행 타임라인을 준비하고 있어요</div>
+    <div class="spinner" aria-hidden="true"></div>
+    <div class="status" id="status">연결 중...</div>
+    <button class="retry" id="retry" type="button">다시 시도</button>
+    <script>
+        // 오프라인 감지 및 재시도. Capacitor 서버 모드는 자동으로 server.url 로 이동하므로
+        // 이 스크립트는 네트워크 실패 시에만 유효하다.
+        (function () {
+            var statusEl = document.getElementById('status');
+            var retryEl = document.getElementById('retry');
+            var body = document.getElementById('root');
+            function showOffline() {
+                body.classList.add('offline');
+                statusEl.textContent = '네트워크 연결을 확인해주세요';
+            }
+            function tryReload() {
+                statusEl.textContent = '다시 연결 중...';
+                body.classList.remove('offline');
+                setTimeout(function () {
+                    if (navigator.onLine) {
+                        window.location.href = 'https://travelline.co.kr';
+                    } else {
+                        showOffline();
+                    }
+                }, 500);
+            }
+            retryEl.addEventListener('click', tryReload);
+            window.addEventListener('online', tryReload);
+            window.addEventListener('offline', showOffline);
+            if (!navigator.onLine) showOffline();
+        })();
+    </script>
+</body>
+</html>
