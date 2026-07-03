@@ -19,8 +19,11 @@ export const FREE_TIER = {
         monthly_credit_usd: 200, // $200 free credit / month (모든 Google Maps Platform 공통)
     },
     liveblocks: {
-        mau: 100,          // Starter free plan
-        connections: 10,   // 동시 연결
+        // 2026 기준 실제 무료 플랜 한도 (MAU 개념 폐기 · 총 room 수 무제한).
+        // 아래 값들은 Liveblocks REST 로 실측 불가 — Dashboard 만 가능.
+        anonymous_connections_monthly: 3_000, // 월별 리셋
+        connections_per_room: 10,             // 실시간 상한
+        storage_mb_per_room: 10,              // 누적
     },
 } as const;
 

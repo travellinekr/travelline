@@ -75,9 +75,10 @@ export async function GET(request: NextRequest) {
             },
             liveblocks: {
                 totalRooms: liveblocksRooms,
-                mau_limit: FREE_TIER.liveblocks.mau,
-                connection_limit: FREE_TIER.liveblocks.connections,
-                note: 'MAU 실측값은 Liveblocks Dashboard 에서만 조회',
+                anonymous_connections_monthly_limit: FREE_TIER.liveblocks.anonymous_connections_monthly,
+                connections_per_room_limit: FREE_TIER.liveblocks.connections_per_room,
+                storage_mb_per_room_limit: FREE_TIER.liveblocks.storage_mb_per_room,
+                note: 'Room 수는 무제한. 월 익명 연결·room 당 연결/스토리지 실측은 Liveblocks Dashboard 만 조회 가능',
                 lastCheckedAt: liveblocks?.lastCheckedAt ?? null,
             },
         },
