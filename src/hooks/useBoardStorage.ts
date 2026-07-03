@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { LiveList, LiveMap, LiveObject } from '@liveblocks/client';
+import { LiveList, LiveObject } from '@liveblocks/client';
 import { useMutation } from '@/liveblocks.config';
 
 // Liveblocks 스토리지의 보드 구조 관리:
@@ -20,13 +20,14 @@ export function useBoardStorage({
         storage.delete('flightInfo');
 
         // Get columns and columnOrder
-        const columnsMap = storage.get('columns') as LiveMap<string, any>;
-        const columnOrderList = storage.get('columnOrder') as LiveList<string>;
+        // 로컬/Vercel 타입 추론 차이 회피 위해 any 로 캐스팅 (memory: feedback_vercel_local_build_drift)
+        const columnsMap = storage.get('columns') as any;
+        const columnOrderList = storage.get('columnOrder') as any;
 
         if (!columnsMap || !columnOrderList) return;
 
         // Find and remove all Day 1+ columns (day1, day2, day3, etc.)
-        const orderArray = columnOrderList.toArray();
+        const orderArray: string[] = columnOrderList.toArray();
         const dayColumnsToRemove: string[] = [];
 
         for (let i = 0; i < orderArray.length; i++) {
@@ -53,9 +54,9 @@ export function useBoardStorage({
 
     // [긴급 복구] 데이터가 로드되었으나 필수 컬럼이 비어있을 경우 자동 초기화
     const autoRestore = useMutation(({ storage }) => {
-        const columnsMap = storage.get('columns') as LiveMap<string, any>;
-        const cardsMap = storage.get('cards') as LiveMap<string, any>;
-        const columnOrder = storage.get('columnOrder') as LiveList<string>;
+        const columnsMap = storage.get('columns') as any;
+        const cardsMap = storage.get('cards') as any;
+        const columnOrder = storage.get('columnOrder') as any;
 
         if (!columnsMap || !cardsMap) return;
 
