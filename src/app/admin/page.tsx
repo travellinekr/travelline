@@ -22,7 +22,13 @@ interface SummaryData {
         gemini: { rpm_limit: number; rpd_limit: number };
         unsplash: { used_hourly: number; limit_hourly: number; remaining: number | null; lastCheckedAt: number | null };
         googleMaps: { monthly_credit_usd: number };
-        liveblocks: { totalRooms: number; mau_limit: number; connection_limit: number; lastCheckedAt: number | null };
+        liveblocks: {
+            totalRooms: number;
+            anonymous_connections_monthly_limit: number;
+            connections_per_room_limit: number;
+            storage_mb_per_room_limit: number;
+            lastCheckedAt: number | null;
+        };
     };
 }
 
@@ -61,13 +67,7 @@ export default function AdminMainPage() {
             detail: `시간당 ${a.unsplash.used_hourly}/${a.unsplash.limit_hourly}`,
         });
     }
-    if (computeStatus(a.liveblocks.totalRooms, a.liveblocks.mau_limit) === 'danger') {
-        risks.push({
-            apiName: 'Liveblocks',
-            ratio: a.liveblocks.totalRooms / a.liveblocks.mau_limit,
-            detail: `${a.liveblocks.totalRooms} rooms`,
-        });
-    }
+    // Liveblocks 는 실측 가능한 임계값이 없음 (room 무제한, 나머지는 Dashboard 만) → risk 판정 제외
 
     return (
         <div className="space-y-6 max-w-6xl">
@@ -140,14 +140,11 @@ export default function AdminMainPage() {
                         note="$200 무료 크레딧 · Console 조회"
                         forcedStatus="normal"
                     />
-                    <UsageCard
-                        apiName="Liveblocks Rooms"
-                        used={a.liveblocks.totalRooms}
-                        limit={a.liveblocks.mau_limit}
-                        unit="rooms"
-                        detailHref="/admin/liveblocks"
-                        note={`MAU 한도 ${a.liveblocks.mau_limit}`}
-                        lastCheckedAt={a.liveblocks.lastCheckedAt ?? undefined}
+                    {/* Liveblocks 는 room 무제한 · 실측 임계 없음 → StatCard 참고용 */}
+                    <StatCard
+                        label="Liveblocks Rooms"
+                        value={a.liveblocks.totalRooms.toLocaleString('ko-KR')}
+                        sublabel="총 room 수 (무제한)"
                     />
                 </div>
             </section>
