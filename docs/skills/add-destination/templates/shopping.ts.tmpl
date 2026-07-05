@@ -1,0 +1,106 @@
+import type { ShoppingData } from '../index';
+
+// 이 파일 위치: src/data/cities/<slug>/shopping.ts
+// 치환할 자리: <engName>  — destinations.ts 의 CityData.engName
+//
+// ═══════════════════════════════════════════════════════════════════════
+// 필드 상세 (왜 수집하는가 · 없으면 어떻게 되는가 · 어떤 값을 넣나)
+// ═══════════════════════════════════════════════════════════════════════
+//
+// ▸ name : string   [필수]
+//    · 어디에 뜨나: ShoppingCard 상단 제목
+//    · 미제공 시: 사실상 필수
+//
+// ▸ type : ShoppingType   [필수]
+//    · 어디에 뜨나: 카드 좌측 이모지 fallback + 카테고리 라벨
+//    · 유효값 10개 (ShoppingCard.tsx:7-20 기준):
+//        department-store → 백화점    🏬
+//        mall             → 쇼핑몰     🛍️
+//        market           → 재래시장   🛒
+//        outlet           → 아울렛     🏷️
+//        duty-free        → 면세점     🛂
+//        convenience      → 편의점     🏪
+//        supermarket      → 슈퍼마켓   🥫
+//        specialty        → 전문점     🎁
+//        boutique         → 부티크     👗
+//        souvenir         → 기념품점   🧸
+//    · 미제공 시: 카테고리 라벨 · 아이콘 fallback 실패
+//    · 애매할 때 프로젝트 정책 fallback: **`specialty`** (전문점)
+//
+// ▸ city : string   [필수]
+//    · 어디에 뜨나: 표시 안 됨 (필터 전용). ShoppingPicker 가 이 값으로 매칭
+//    · 미제공 시: 픽커 목록에서 제외
+//    · 어떤 값: destinations.ts 의 engName **정확 일치**
+//
+// ▸ coordinates : { lat, lng }   [강력 권장]
+//    · 어디에 뜨나: 지도 마커 + 앵커 거리
+//    · 미제공 시: 지도 미표시, 거리 정보 없음
+//    · **수집 절차 (구글지도 원본 매칭 필수)**:
+//        1. Google Maps 에서 대상 장소 검색
+//        2. 마커 지점 우클릭 → 팝업 최상단 좌표 클릭 → 클립보드 복사
+//        3. 형식: `34.6686, 135.5014` → `{ lat: 34.6686, lng: 135.5014 }` 로 옮김
+//        4. 자릿수 원본 그대로 유지 (반올림·절삭 금지)
+//        5. 검증: Google Maps 검색창에 `<lat>, <lng>` 붙여넣어 원 장소 마커 재확인
+//    · 금지: AI 좌표 답변, 위키/블로그 인용, 위성뷰 대충 클릭
+//
+// ▸ category? : string   [선택]
+//    · 어디에 뜨나: 현재 카드에서 직접 렌더 없음 (필터/검색 예약)
+//    · 미제공 시: 무영향
+//    · 어떤 값: "종합 백화점", "명품 쇼핑몰" 등 세분류
+//
+// ▸ specialItems? : string   [선택]
+//    · 어디에 뜨나: ShoppingCard 하단
+//    · 미제공 시: 섹션 생략
+//    · 어떤 값: "명품, 화장품, 식품관" 처럼 콤마 구분 자유 텍스트
+//
+// ▸ priceRange? : string   [선택]
+//    · 어디에 뜨나: 카드 하단 텍스트 (구현에 따라)
+//    · 미제공 시: 섹션 생략
+//    · 어떤 값: 현지 통화 (예: "¥1,000~100,000+", "$10~1,000")
+//
+// ▸ openingHours? : string   [선택]
+//    · 어디에 뜨나: 향후 타임라인 통합용, 현재 미렌더
+//    · 어떤 값: "10:00-22:00"
+//
+// ▸ taxRefund? : boolean   [선택]
+//    · 어디에 뜨나: ShoppingCard 하단에 "면세" 라벨로 표시
+//    · 미제공 시: 라벨 미표시
+//    · 값 의미:
+//        true  → 택스 리펀드/면세 지원 (관광객 세금 환급)
+//        false → 미지원
+//    · **프로젝트 정책: 확인 불가 시 필드 자체 생략** (false 대신)
+//
+// ▸ features? : string[]   [선택]
+//    · 어디에 뜨나: 카드에서 직접 렌더 없음 (검색용)
+//    · 어떤 값: ["택스 리펀드", "명품관", "역세권"]
+//
+// ▸ icon? : string   [선택]
+//    · 어디에 뜨나: 카드 좌측 이모지 (커스텀)
+//    · 미제공 시: type 기반 fallback (SHOPPING_TYPE_ICONS)
+//
+// ▸ showInInbox? : boolean   [사실상 필수]
+//    · 어디에 뜨나: ShoppingPicker 필터
+//    · 미제공 시: undefined → falsy → 픽커에 안 뜸
+//    · **프로젝트 정책: 모든 카드에 `true`** (인박스에 전부 노출)
+//
+// ═══════════════════════════════════════════════════════════════════════
+
+const shopping: ShoppingData[] = [
+    // 예시 (주석 해제해서 도시 값에 맞게 편집):
+    // {
+    //     name: "<상점 이름>",
+    //     showInInbox: true,
+    //     type: "mall",                                   // 위 10개 enum 중
+    //     city: "<engName>",
+    //     coordinates: { lat: 0.0000, lng: 0.0000 },
+    //     category: "<분류>",
+    //     specialItems: "<특판 품목>",
+    //     priceRange: "<가격대>",
+    //     openingHours: "<영업시간>",
+    //     taxRefund: false,
+    //     features: ["<특징1>", "<특징2>"],
+    //     icon: "🛍️"
+    // },
+];
+
+export default shopping;

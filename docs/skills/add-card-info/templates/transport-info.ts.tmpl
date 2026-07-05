@@ -1,0 +1,41 @@
+import type { TransportInfo } from '@/data/card-info-types';
+
+// 파일 위치: src/data/cities/<slug>/info/transport.ts
+// 키: cities/<slug>/transport.ts 의 각 카드 name 과 정확 일치.
+// 원본 데이터 항목에 hasInfo: true 세팅 필수.
+
+const info: Record<string, TransportInfo> = {
+
+    // "카드의 name 필드 그대로": {
+    //     summary: "<한 줄 소개>",
+    //     highlights: ["<핵심1>"],
+    //     tips: ["<팁1>"],
+    //     warnings: ["<경고>"],
+    //     photos: ["<이미지 URL>"],
+    //     links: [{ label: "공식 사이트", url: "<URL>", type: "official" }],
+    //     updatedAt: "2026-07-05",
+    //
+    //     fare: {
+    //         base: "¥180~",
+    //         note: "거리비례",
+    //         ranges: [
+    //             { from: "우메다", to: "난바", price: "¥240" },
+    //         ],
+    //     },
+    //     app: {
+    //         required: false,
+    //         name: "Osaka Metro Group Pass",
+    //         url: "<URL>",
+    //         downloadUrl: "<앱스토어 URL>",
+    //     },
+    //     payment: ["ICOCA", "Suica", "현금"],
+    //     hours: "5:00-24:00",
+    //     frequency: "3~5분 간격 (첨두시)",
+    //     route: [
+    //         { name: "미도스지선", stations: ["우메다", "난바", "덴노지"] },
+    //     ],
+    // },
+
+};
+
+export default info;
