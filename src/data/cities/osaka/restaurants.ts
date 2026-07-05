@@ -4,6 +4,7 @@ const restaurants: RestaurantData[] = [
     {
         name: "이치란 라멘 도톤보리",
         showInInbox: true,
+        hasInfo: true,
         type: "japanese",
         city: "Osaka",
         coordinates: { lat: 34.6686, lng: 135.5014 },

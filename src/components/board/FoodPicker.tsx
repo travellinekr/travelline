@@ -112,6 +112,7 @@ function DraggableFoodCard({ card, cardId }: { card: any; cardId?: string }) {
         rating: card.rating,
         address: card.address,
         isUserCreated: card.isUserCreated,
+        hasInfo: card.hasInfo,
     };
 
     const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
@@ -270,6 +271,7 @@ export function FoodPicker({
                                 features: restaurant.features,
                                 icon: restaurant.icon,
                                 isUserCreated: false,  // 샘플 카드는 삭제 불가
+                                hasInfo: restaurant.hasInfo,
                             }}
                         />
                     ))}

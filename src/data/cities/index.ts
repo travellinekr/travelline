@@ -11,6 +11,7 @@ export type AccommodationData = {
     description?: string;
     tags?: string[];
     showInInbox?: boolean;
+    hasInfo?: boolean;  // true 면 cities/<slug>/info/accommodations.ts 에 상세 인포 존재
 };
 
 // 맛집
@@ -32,6 +33,7 @@ export type RestaurantData = {
     features?: string[];
     icon?: string;
     showInInbox?: boolean;
+    hasInfo?: boolean;  // true 면 cities/<slug>/info/restaurants.ts 에 상세 인포 존재
 };
 
 // 쇼핑
@@ -52,6 +54,7 @@ export type ShoppingData = {
     features?: string[];
     icon?: string;
     showInInbox?: boolean;
+    hasInfo?: boolean;  // true 면 cities/<slug>/info/shopping.ts 에 상세 인포 존재
 };
 
 // 교통
@@ -72,6 +75,7 @@ export type TransportationData = {
     paymentMethods?: string[];
     icon?: string;
     showInInbox?: boolean;
+    hasInfo?: boolean;  // true 면 cities/<slug>/info/transport.ts 에 상세 인포 존재
 };
 
 
