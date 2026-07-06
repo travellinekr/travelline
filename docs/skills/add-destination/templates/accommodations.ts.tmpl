@@ -1,0 +1,87 @@
+import type { AccommodationData } from '../index';
+
+// 이 파일 위치: src/data/cities/<slug>/accommodations.ts
+// 치환할 자리: <engName>  — destinations.ts 의 CityData.engName
+//
+// ═══════════════════════════════════════════════════════════════════════
+// 필드 상세 (왜 수집하는가 · 없으면 어떻게 되는가 · 어떤 값을 넣나)
+// ═══════════════════════════════════════════════════════════════════════
+//
+// ▸ name : string   [필수]
+//    · 어디에 뜨나: HotelCard 상단 제목, AccommodationPicker 카드 title
+//    · 미제공 시: "호텔 이름" 기본값 (사실상 필수 — 없으면 식별 불가)
+//    · 예시 값: "호텔 그라시엘라 뉴욕"
+//
+// ▸ type : 'hotel' | 'resort' | 'airbnb' | 'hostel' | 'guesthouse'   [필수]
+//    · 어디에 뜨나: 카드 좌측 이모지 fallback (icon 필드 없을 때)
+//    · 이모지 매핑 (HotelCard.tsx:8-14):
+//        hotel      → 🏨
+//        resort     → 🏖️
+//        airbnb     → 🏠
+//        hostel     → 🛏️
+//        guesthouse → 🏡
+//    · 미제공 시: 아이콘 미표시 (다만 타입 없이 실제 필터가 어려워짐)
+//    · 어느 값을 고르나: 실제 시설 형태에 맞춰 하나만
+//
+// ▸ coordinates : { lat, lng }   [강력 권장]
+//    · 어디에 뜨나: 지도 마커, 앵커 카드 기준 거리 계산 (haversine)
+//    · 미제공 시: 지도에서 숨김 + 거리순 정렬 제외
+//    · 유효 범위: lat -90~90, lng -180~180
+//    · **수집 절차 (구글지도 원본 매칭 필수)**:
+//        1. Google Maps 에서 대상 장소 검색
+//        2. 마커 지점 우클릭 → 팝업 최상단 좌표 클릭 → 클립보드 복사
+//        3. 형식: `34.6686, 135.5014` → `{ lat: 34.6686, lng: 135.5014 }` 로 옮김
+//        4. 자릿수 원본 그대로 유지 (반올림·절삭 금지)
+//        5. 검증: Google Maps 검색창에 `<lat>, <lng>` 붙여넣어 원 장소 마커 재확인
+//    · 금지: AI 좌표 답변, 위키/블로그 인용, 위성뷰 대충 클릭
+//
+// ▸ checkInTime : string   [필수]
+//    · 어디에 뜨나: HotelCard 하단 토글 "Check-in HH:MM"
+//    · 실제 시설 값 확인이 원칙. 확인 불가 시 프로젝트 정책상 "15:00" 사용
+//    · 형식: "HH:MM" 24시간제
+//
+// ▸ checkOutTime : string   [필수]
+//    · 어디에 뜨나: HotelCard 하단 토글 "Check-out HH:MM"
+//    · 실제 시설 값 확인이 원칙. 확인 불가 시 프로젝트 정책상 "11:00" 사용
+//    · 형식: "HH:MM"
+//
+// ▸ city : string   [필수]
+//    · 어디에 뜨나: 표시 안 됨 (필터 전용). AccommodationPicker 가 이 값으로
+//      해당 도시 데이터인지 판정
+//    · 미제공 시: 픽커 필터에서 제외됨 → 목록에 안 뜸
+//    · 어떤 값: destinations.ts 의 engName 과 **정확히 일치** (예: "Hong Kong")
+//
+// ▸ description? : string   [선택]
+//    · 어디에 뜨나: 현재 미렌더 (Inbox 카드 메모 기능 예약)
+//    · 미제공 시: 완전 무영향
+//    · 어떤 값: "지하철역 도보 3분" 같은 짧은 소개
+//
+// ▸ tags? : string[]   [선택]
+//    · 어디에 뜨나: HotelCard 하단, 최대 3개까지 표시
+//    · 미제공 시: 태그 영역 자체 미표시
+//    · 어떤 값: ["지역명", "특징"] (예: ["신주쿠", "역세권"])
+//
+// ▸ showInInbox? : boolean   [사실상 필수]
+//    · 어디에 뜨나: AccommodationPicker 필터 (filter(a => a.showInInbox))
+//    · 미제공 시: undefined → falsy → **픽커에 안 뜸**
+//    · **프로젝트 정책: 모든 카드에 `true`** (인박스에 전부 노출)
+//    · false 는 특별한 이유가 있을 때만 (예: 폐업 후 참고용 데이터)
+//
+// ═══════════════════════════════════════════════════════════════════════
+
+const accommodations: AccommodationData[] = [
+    // 예시 (주석 해제해서 도시 값에 맞게 편집):
+    // {
+    //     name: "<시설 이름>",
+    //     showInInbox: true,
+    //     type: "hotel",                                 // hotel|resort|airbnb|hostel|guesthouse
+    //     coordinates: { lat: 0.0000, lng: 0.0000 },     // Google Maps 우클릭으로
+    //     checkInTime: "15:00",                          // 실제 확인 원칙, 불명이면 15:00
+    //     checkOutTime: "11:00",                         // 실제 확인 원칙, 불명이면 11:00
+    //     city: "<engName>",                             // destinations.ts engName 정확 일치
+    //     description: "<한 줄 설명>",
+    //     tags: ["<지역>", "<특징>"]
+    // },
+];
+
+export default accommodations;

@@ -1,0 +1,38 @@
+import type { AccommodationInfo } from '@/data/card-info-types';
+
+// 파일 위치: src/data/cities/<slug>/info/accommodations.ts
+// 키: cities/<slug>/accommodations.ts 의 각 카드 name 과 정확 일치
+//
+// 하나 등록할 때마다 원본 데이터 항목에 hasInfo: true 도 세팅해야 CardShell 이 ⓘ 버튼을 렌더.
+
+const info: Record<string, AccommodationInfo> = {
+
+    // "카드의 name 필드 그대로": {
+    //     summary: "<한 줄 소개>",                           // [필수] 헤더 아래 큰 텍스트
+    //     highlights: ["<핵심1>", "<핵심2>"],                // ✓ 불릿 리스트
+    //     tips: ["<팁1>"],                                   // 💡 불릿 리스트
+    //     warnings: ["<경고>"],                              // 노란 박스
+    //     photos: ["<이미지 URL>"],                          // 3열 갤러리
+    //     links: [{ label: "<라벨>", url: "<URL>", type: "official", description: "<선택>" }],
+    //     updatedAt: "2026-07-05",
+    //
+    //     checkIn:  { time: "15:00", note: "얼리 체크인 가능(공석 시)" },
+    //     checkOut: { time: "11:00" },
+    //     breakfast: { included: true, price: "¥3,000", time: "6:30-10:00", menu: "일식/양식 뷔페" },
+    //     amenities: [
+    //         { icon: "🏊", label: "실내 수영장", note: "6:00-22:00" },
+    //         { icon: "💆", label: "스파" },
+    //     ],
+    //     roomTypes: [
+    //         { name: "디럭스 트윈", price: "¥25,000~", capacity: "2인", note: "22㎡" },
+    //     ],
+    //     location: {
+    //         transit: "지하철 도보 3분",
+    //         landmark: "메인 랜드마크 도보 5분",
+    //         airport: "공항 리무진 40분",
+    //     },
+    // },
+
+};
+
+export default info;

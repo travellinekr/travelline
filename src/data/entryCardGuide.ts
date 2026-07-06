@@ -694,6 +694,7 @@ export const CITY_TO_COUNTRY: Record<string, string> = {
     "청두": "china", "시안": "china", "항저우": "china", "충칭": "china",
     "쿤밍": "china", "장가계": "china", "계림": "china", "하이난": "china",
     "삼아": "china", "우한": "china", "난징": "china", "칭다오": "china",
+    "다롄": "china",
     // 터키
     "이스탄불": "turkey", "앙카라": "turkey", "카파도키아": "turkey",
     "안탈리아": "turkey", "보드룸": "turkey", "이즈미르": "turkey",
@@ -706,6 +707,7 @@ export const CITY_TO_COUNTRY: Record<string, string> = {
     // 스페인
     "마드리드": "spain", "바르셀로나": "spain", "세비야": "spain",
     "그라나다": "spain", "발렌시아": "spain", "말라가": "spain",
+    "마요르카": "spain",
     // 이탈리아
     "로마": "italy", "밀라노": "italy", "베네치아": "italy", "피렌체": "italy",
     "나폴리": "italy", "시칠리아": "italy", "아말피": "italy",

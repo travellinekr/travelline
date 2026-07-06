@@ -1,0 +1,40 @@
+import type { RestaurantInfo } from '@/data/card-info-types';
+
+// 파일 위치: src/data/cities/<slug>/info/restaurants.ts
+// 키: cities/<slug>/restaurants.ts 의 각 카드 name 과 정확 일치
+//
+// 원본 데이터 항목에 hasInfo: true 도 세팅 필수.
+
+const info: Record<string, RestaurantInfo> = {
+
+    // "카드의 name 필드 그대로": {
+    //     summary: "<한 줄 소개>",
+    //     highlights: ["<핵심1>", "<핵심2>"],
+    //     tips: ["<팁1>"],
+    //     warnings: ["<경고>"],
+    //     photos: ["<이미지 URL>"],
+    //     links: [{ label: "네이버 페이지", url: "<URL>", type: "guide" }],
+    //     updatedAt: "2026-07-05",
+    //
+    //     reservation: {
+    //         required: true,
+    //         method: "네이버 예약",
+    //         url: "<예약 URL>",
+    //         note: "1주일 전부터 오픈",
+    //     },
+    //     menu: {
+    //         signature: "돈코츠 라멘 (¥1,200)",
+    //         items: [
+    //             { name: "돈코츠 라멘", price: "¥1,200" },
+    //             { name: "차슈 추가", price: "¥300", note: "3장" },
+    //         ],
+    //     },
+    //     hours: "11:30-22:00 (라스트오더 21:30)",
+    //     payment: ["카드", "현금", "PayPay"],
+    //     dressCode: "스마트 캐주얼",
+    //     waitTime: "평일 30분, 주말 1~2시간",
+    // },
+
+};
+
+export default info;

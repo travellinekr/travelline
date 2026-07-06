@@ -12,11 +12,21 @@ import { CardInfoModal } from "./CardInfoModal";
  * - inbox / timeline : <div> (드래그) + Info버튼 + 메모버튼
  * - explore          : <button> (클릭) + 체크박스
  *
- * Info 지원 카테고리: preparation, hotel, food, shopping, tourspa
+ * Info 지원 카테고리: preparation, hotel, food, shopping, tourspa, transport
  * Info 상태(isInfoOpen)는 CardShell 내부에서만 관리 - 외부 prop 불필요
+ *
+ * 버튼 노출 규칙:
+ *   preparation : isEntryCard === true 이면 표시 (입국 정보 팝업)
+ *   그 외       : hasInfo === true 이면 표시 (cities/<slug>/info/*.ts 에 매칭 데이터 있음)
  */
 
-const INFO_CATEGORIES = ['preparation', 'hotel', 'food', 'shopping', 'tourspa'];
+const INFO_CATEGORIES = ['preparation', 'hotel', 'food', 'shopping', 'tourspa', 'transport'];
+
+// 카테고리별 툴팁·aria 라벨
+function getInfoLabel(category: string): string {
+    if (category === 'preparation') return '입국 정보 보기';
+    return '상세 정보 보기';
+}
 
 // Tailwind safelist (런타임 colorClass.replace('bg-', 'ring-') 결과를 빌드 타임에 노출)
 // ring-rose-400 ring-orange-400 ring-purple-400 ring-blue-400 ring-cyan-400 ring-indigo-400 ring-amber-400 ring-emerald-400 ring-sky-400
@@ -53,7 +63,18 @@ export function CardShell({
 }) {
     const isExplore = variant === 'explore';
     const isInbox = variant === 'inbox';
-    const supportsInfo = INFO_CATEGORIES.includes(card?.category ?? '');
+    const cardCategory = card?.category ?? '';
+    // 버튼 표시 규칙 (silent failure 방지 - 클릭했는데 팝업 없는 상황 차단):
+    //   preparation : isEntryCard === true (입국심사 팝업) 또는 hasInfo === true (per-city 인포 - 향후 확장)
+    //   transport   : hasInfo === true
+    //   hotel/food/shopping/tourspa : 기존 동작 유지 (항상 표시)
+    // p2~p6 (여권/보험/환전/유심/국제운전면허) 는 아직 인포 데이터 없음 → 버튼 미표시.
+    // per-city 인포 등록 시 해당 카드에 hasInfo: true + info 데이터 파일 추가하면 자동 활성.
+    const supportsInfo = INFO_CATEGORIES.includes(cardCategory) && (() => {
+        if (cardCategory === 'preparation') return card?.isEntryCard === true || card?.hasInfo === true;
+        if (cardCategory === 'transport') return card?.hasInfo === true;
+        return true;
+    })();
 
     // Info 모달 상태: CardShell 내부에서만 관리
     const [isInfoOpen, setIsInfoOpen] = useState(false);
@@ -128,8 +149,8 @@ export function CardShell({
                                     setIsInfoOpen(true);
                                 }}
                                 className="absolute inset-0 cursor-pointer"
-                                title="입국 정보 보기"
-                                aria-label="입국 정보 보기"
+                                title={getInfoLabel(cardCategory)}
+                                aria-label={getInfoLabel(cardCategory)}
                             />
                         </div>
                     )}

@@ -1,0 +1,101 @@
+import type { TransportationData } from '../index';
+
+// 이 파일 위치: src/data/cities/<slug>/transport.ts
+// 치환할 자리: <engName>  — destinations.ts 의 CityData.engName
+//
+// ═══════════════════════════════════════════════════════════════════════
+// 필드 상세 (왜 수집하는가 · 없으면 어떻게 되는가 · 어떤 값을 넣나)
+// ═══════════════════════════════════════════════════════════════════════
+//
+// ⚠️ 다른 데이터와 달리 TransportationData 는 coordinates 필드 없음.
+//    이유: 지하철·버스·택시 등은 특정 위치가 아닌 서비스 개념 (지도 마커 불필요).
+//
+// ▸ name : string   [필수]
+//    · 어디에 뜨나: TransportCard 상단 제목
+//    · 어떤 값: 서비스명 (예: "MTR", "Uber", "홍콩 트램")
+//
+// ▸ type : TransportationType   [필수]
+//    · 어디에 뜨나: 카드 좌측 아이콘 (lucide-react) + 카테고리 라벨
+//    · 유효값 10개 (TransportCard.tsx:8-18 기준):
+//        subway            → 지하철     Train 아이콘
+//        bus               → 버스       Bus 아이콘
+//        tram              → 트램       Train 아이콘
+//        taxi              → 택시       Car 아이콘
+//        ride-hailing      → 라이드셰어  Car (Uber/Grab)
+//        rental-car        → 렌터카      Car
+//        shuttle           → 셔틀       Bus
+//        airport-transfer  → 공항픽업    Bus
+//        traditional       → 전통교통    Bus (인력거 등)
+//        micromobility     → 킥보드      Car (전동킥보드/자전거)
+//    · 미제공 시: 기본 Bus 아이콘 + "교통수단" 라벨
+//    · 애매할 때 프로젝트 정책 fallback: **`traditional`** (전통교통)
+//
+// ▸ city : string   [필수]
+//    · 어디에 뜨나: 표시 안 됨 (필터 전용). TransportationPicker 매칭
+//    · 어떤 값: destinations.ts engName **정확 일치**
+//
+// ▸ description? : string   [권장]
+//    · 어디에 뜨나: TransportCard 하단
+//    · 미제공 시: 섹션 생략
+//    · 어떤 값: "8개 노선, 시내 전역 커버" 같은 짧은 소개
+//
+// ▸ priceRange? : string   [선택]
+//    · 어디에 뜨나: TransportCard 하단 (emerald-600 색상 강조)
+//    · 미제공 시: 섹션 생략
+//    · 어떤 값: 현지 통화 (예: "HK$5~40", "₩1,250~2,000")
+//
+// ▸ availability? : string   [선택]
+//    · 어디에 뜨나: 데이터에 포함되지만 현재 카드에서 직접 렌더 없음
+//    · 미제공 시: 무영향
+//    · 어떤 값: "5:30AM - 1:00AM" / "24시간" / "출퇴근 시간 혼잡"
+//
+// ▸ features? : string[]   [선택]
+//    · 어디에 뜨나: 현재 렌더 없음 (검색용)
+//    · 어떤 값: ["에어컨", "IC카드", "일일권"] 같은 짧은 태그
+//
+// ▸ appRequired? : boolean   [권장]
+//    · 어디에 뜨나: TransportCard 하단 📱 아이콘 + appName 조합으로 표시
+//    · 미제공 시: 섹션 생략
+//    · 값 의미:
+//        true  → 전용 앱 필수 (택시콜/라이드셰어 등)
+//        false → 앱 없이도 이용 가능 (지하철·버스 등)
+//    · true 로 설정하면 아래 appName 을 함께 채우는 것이 일반적
+//    · **프로젝트 정책: 확인 불가 시 필드 자체 생략** (false 대신)
+//
+// ▸ appName? : string   [권장 — appRequired: true 인 경우]
+//    · 어디에 뜨나: TransportCard 에 appRequired 라벨과 함께 표시
+//    · 미제공 시: appRequired 만 있으면 "앱 필요" 만 표시
+//    · 어떤 값: 앱 이름 (예: "Uber", "Grab", "Kakao T", "DiDi")
+//
+// ▸ paymentMethods? : string[]   [선택]
+//    · 어디에 뜨나: 현재 미사용 (향후 확장)
+//    · 어떤 값: ["교통카드명", "현금", "신용카드"] (예: ["Octopus", "현금"])
+//
+// ▸ icon? : string   [선택]
+//    · 어디에 뜨나: (현재 카드는 lucide-react 아이콘 우선, icon 필드는 예약)
+//    · 어떤 값: 이모지 (🚇🚌🚕 등)
+//
+// ▸ showInInbox? : boolean   [사실상 필수]
+//    · 어디에 뜨나: TransportationPicker 필터
+//    · 미제공 시: undefined → falsy → 픽커에 안 뜸
+//    · **프로젝트 정책: 모든 카드에 `true`** (인박스에 전부 노출)
+//
+// ═══════════════════════════════════════════════════════════════════════
+
+const transport: TransportationData[] = [
+    // 예시 (주석 해제해서 도시 값에 맞게 편집):
+    // {
+    //     name: "<수단 이름>",
+    //     showInInbox: true,
+    //     type: "subway",                                 // 위 10개 enum 중
+    //     city: "<engName>",
+    //     description: "<한 줄 소개>",
+    //     availability: "<운영 시간>",
+    //     priceRange: "<가격대>",
+    //     features: ["<특징1>", "<특징2>"],
+    //     paymentMethods: ["<교통카드명>", "현금"],
+    //     icon: "🚇"
+    // },
+];
+
+export default transport;

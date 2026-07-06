@@ -1,0 +1,110 @@
+# cities/index.ts 등록 스니펫
+
+## 치환 규칙 (SKILL.md 참조)
+
+- `<engName>` — destinations.ts CityData.engName (공백 포함, 대소문자 정확히)
+- `<slug>` — 폴더명 = engName.toLowerCase().replace(/\s+/g, '-')
+- `<slugCamel>` — import alias 접두어 = slug 에서 하이픈 제거한 lowercase
+
+## 1) 상단 import 블록 (다른 도시 import 들 아래 이어붙임)
+
+```ts
+import <slugCamel>Accommodations from './<slug>/accommodations';
+import <slugCamel>Restaurants from './<slug>/restaurants';
+import <slugCamel>Shopping from './<slug>/shopping';
+import <slugCamel>Transport from './<slug>/transport';
+```
+
+## 2) CITY_DATA 엔트리 (기존 도시들 사이 아무 위치, 관례상 지역별 그룹 유지)
+
+```ts
+    "<engName>": {
+        accommodations: <slugCamel>Accommodations,
+        restaurants: <slugCamel>Restaurants,
+        shopping: <slugCamel>Shopping,
+        transport: <slugCamel>Transport,
+    },
+```
+
+---
+
+## 치환 예시
+
+### 예 1) 단어 하나 도시 — Osaka
+
+- `engName` = `Osaka`
+- `slug` = `osaka`
+- `slugCamel` = `osaka`
+
+```ts
+// import
+import osakaAccommodations from './osaka/accommodations';
+import osakaRestaurants from './osaka/restaurants';
+import osakaShopping from './osaka/shopping';
+import osakaTransport from './osaka/transport';
+
+// CITY_DATA
+    "Osaka": {
+        accommodations: osakaAccommodations,
+        restaurants: osakaRestaurants,
+        shopping: osakaShopping,
+        transport: osakaTransport,
+    },
+```
+
+### 예 2) 공백 포함 도시 — Hong Kong
+
+- `engName` = `Hong Kong`
+- `slug` = `hong-kong`
+- `slugCamel` = `hongkong`
+
+```ts
+// import
+import hongkongAccommodations from './hong-kong/accommodations';
+import hongkongRestaurants from './hong-kong/restaurants';
+import hongkongShopping from './hong-kong/shopping';
+import hongkongTransport from './hong-kong/transport';
+
+// CITY_DATA
+    "Hong Kong": {
+        accommodations: hongkongAccommodations,
+        restaurants: hongkongRestaurants,
+        shopping: hongkongShopping,
+        transport: hongkongTransport,
+    },
+```
+
+### 예 3) 공백 포함 도시 — New York
+
+- `engName` = `New York`
+- `slug` = `new-york`
+- `slugCamel` = `newyork`
+
+```ts
+// import
+import newyorkAccommodations from './new-york/accommodations';
+import newyorkRestaurants from './new-york/restaurants';
+import newyorkShopping from './new-york/shopping';
+import newyorkTransport from './new-york/transport';
+
+// CITY_DATA
+    "New York": {
+        accommodations: newyorkAccommodations,
+        restaurants: newyorkRestaurants,
+        shopping: newyorkShopping,
+        transport: newyorkTransport,
+    },
+```
+
+---
+
+## 기존 코드 참조 (2026-07-05 시점)
+
+| 도시 | slug | slugCamel | 위치 (grep 기준) |
+|---|---|---|---|
+| Osaka | `osaka` | `osaka` | cities/index.ts (상단 import 부근) |
+| Da Nang | `da-nang` | `danang` | (공백 → 하이픈 → 하이픈 제거) |
+| Nha Trang | `nha-trang` | `nhatrang` | (동일 패턴) |
+| Chiang Mai | `chiang-mai` | `chiangmai` | (동일 패턴) |
+
+**공식 요약**: `slugCamel = engName.toLowerCase().replace(/\s+/g, '')` — 즉 slug 에서 하이픈만 뺀 형태.
