@@ -16,6 +16,22 @@ const nextConfig: NextConfig = {
       ],
     },
   },
+
+  // Universal Links / App Links 판정 파일 서빙 (Phase 2 딥링크).
+  // apple-app-site-association: 확장자 없음 → Vercel 기본 Content-Type 이슈 대비 명시.
+  // assetlinks.json: 확장자로 자동 매핑되지만 명시적으로 고정.
+  async headers() {
+    return [
+      {
+        source: '/.well-known/apple-app-site-association',
+        headers: [{ key: 'Content-Type', value: 'application/json' }],
+      },
+      {
+        source: '/.well-known/assetlinks.json',
+        headers: [{ key: 'Content-Type', value: 'application/json' }],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
