@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { Suspense } from "react";
 import { GlobalSessionWatcher } from "@/components/auth/GlobalSessionWatcher";
+import { AppUrlOpenWatcher } from "@/components/AppUrlOpenWatcher";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -32,6 +33,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <GlobalSessionWatcher />
+        <AppUrlOpenWatcher />
         {/* Suspense: Turbopack SSR 빌드 시 useSearchParams 오류 방지 */}
         <Suspense fallback={null}>
           {children}
