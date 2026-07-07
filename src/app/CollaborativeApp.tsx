@@ -52,6 +52,7 @@ import { Timeline } from "../components/board/Timeline";
 import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
 import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
+import { useTripStartDateSync } from "@/hooks/useTripStartDateSync";
 import { useFloatingButton } from "@/hooks/useFloatingButton";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
 import { LiveCursors } from "../components/board/LiveCursors";
@@ -257,6 +258,14 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
+
+    // Phase 3: flightInfo.outbound.date 를 Supabase projects.trip_start_date 로 동기화 (D-1 크론 대상 선정용)
+    useTripStartDateSync({
+        roomId,
+        canEdit,
+        roleLoading,
+        outboundDate: flightInfo?.outbound?.date,
+    });
 
     // 여행지 제거 감지 → 항공편/일차 정리 + 입국 카드 city 초기화
     useDestinationSync({

@@ -28,6 +28,7 @@
     "@types/lodash": "^4.17.23",
     "ai": "^6.0.33",
     "clsx": "^2.1.1",
+    "firebase-admin": "^14.1.0",
     "leaflet": "^1.9.4",
     "lodash": "^4.17.21",
     "lucide-react": "^0.562.0",

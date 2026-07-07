@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createServerClient } from '@supabase/ssr';
 import { createClient } from '@supabase/supabase-js';
 import { cookies } from 'next/headers';
+import { sendPushToUsers } from '@/lib/server/fcm';
 
 // Service Role로 RLS 우회
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -40,10 +41,10 @@ export async function POST(
             return NextResponse.json({ error: '로그인이 필요합니다.' }, { status: 401 });
         }
 
-        // 프로젝트 존재 여부 확인
+        // 프로젝트 존재 확인 + owner_id/name 조회 (푸시 발송용)
         const { data: project } = await supabaseAdmin
             .from('projects')
-            .select('id')
+            .select('id, user_id, name')
             .eq('id', projectId)
             .single();
 
@@ -51,21 +52,37 @@ export async function POST(
             return NextResponse.json({ error: '존재하지 않는 프로젝트입니다.' }, { status: 404 });
         }
 
-        // viewer로 등록 (이미 등록된 경우 무시 - UNIQUE 제약 활용)
-        const { error } = await supabaseAdmin
+        // 기존 멤버 여부 사전 확인 → 신규 insert 판정 (upsert ignoreDuplicates 에선 판별 불가)
+        const { data: existing } = await supabaseAdmin
             .from('project_members')
-            .upsert(
-                {
-                    project_id: projectId,
-                    user_id: user.id,
-                    role: 'viewer',
-                },
-                { onConflict: 'project_id,user_id', ignoreDuplicates: true }
-            );
+            .select('user_id')
+            .eq('project_id', projectId)
+            .eq('user_id', user.id)
+            .maybeSingle();
 
-        if (error && !error.message.includes('duplicate')) {
-            console.error('[join] DB 오류:', error.message);
-            return NextResponse.json({ error: error.message }, { status: 500 });
+        const isNewMember = !existing;
+
+        if (isNewMember) {
+            // viewer 로 신규 등록
+            const { error } = await supabaseAdmin
+                .from('project_members')
+                .insert({ project_id: projectId, user_id: user.id, role: 'viewer' });
+
+            if (error && !error.message.includes('duplicate')) {
+                console.error('[join] DB 오류:', error.message);
+                return NextResponse.json({ error: error.message }, { status: 500 });
+            }
+        }
+
+        // 신규 참여 + 오너 아닐 때만 오너에게 푸시 발송 (best-effort · 실패해도 join 성공)
+        if (isNewMember && project.user_id && project.user_id !== user.id) {
+            const joinerName = user.user_metadata?.full_name || user.email?.split('@')[0] || '새 멤버';
+            const projectTitle = project.name || '여행보드';
+            sendPushToUsers([project.user_id], {
+                title: '새 멤버가 참여했어요',
+                body: `${joinerName} 님이 "${projectTitle}" 여행보드에 참여했어요.`,
+                data: { projectId, kind: 'member_joined' },
+            }).catch((e) => console.warn('[join] push 발송 실패 (무시):', e));
         }
 
         return NextResponse.json({ success: true, role: 'viewer' });
