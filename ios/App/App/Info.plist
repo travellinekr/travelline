@@ -47,5 +47,12 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<!-- Phase 4 카메라·사진 라이브러리 접근 (심사 필수 usage description) -->
+	<key>NSCameraUsageDescription</key>
+	<string>여행 카드에 사진을 첨부하기 위해 카메라를 사용합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>여행 카드에 사진을 첨부하기 위해 사진 라이브러리에 접근합니다.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>여행 카드에 첨부한 사진을 저장하기 위해 사진 라이브러리에 접근합니다.</string>
 </dict>
 </plist>

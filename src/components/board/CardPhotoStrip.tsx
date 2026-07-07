@@ -8,6 +8,7 @@ import { buildOriginalAndThumbnail } from '@/utils/imageResize';
 import { useSessionContext, getCachedAccessToken } from '@/contexts/SessionContext';
 import { PhotoActionSheet } from './PhotoActionSheet';
 import { PhotoLightbox } from './PhotoLightbox';
+import { isNativeCameraAvailable, captureNativePhoto } from '@/lib/native/camera';
 
 export const MAX_PHOTOS_PER_CARD = 20;
 
@@ -90,8 +91,22 @@ export function CardPhotoStrip({ cardId, photos, canEdit = true, onToast, onSele
     const limitReached = photos.length >= MAX_PHOTOS_PER_CARD;
     const canAdd = canEdit && !isUploading && !limitReached;
 
-    const triggerPicker = (mode: 'camera' | 'library') => {
+    const triggerPicker = async (mode: 'camera' | 'library') => {
         if (!canAdd) return;
+        // Phase 4: Capacitor 네이티브 앱이면 카메라·갤러리 API 로 진입.
+        // 웹 브라우저 · 미네이티브 환경은 여기 조건이 false → 아래 기존 <input> 트리거 100% 유지.
+        if (isNativeCameraAvailable()) {
+            const file = await captureNativePhoto(mode);
+            if (file) {
+                if (file.size > 5 * 1024 * 1024) {
+                    onToast?.('5MB 이하 사진만 추가할 수 있어요.', 'warning');
+                    return;
+                }
+                await uploadPhoto(file);
+            }
+            return; // 네이티브에선 유저 취소·실패도 여기서 종료 (input 폴백 X — 이중 UI 방지)
+        }
+        // 기존 웹 경로 (변경 없음)
         if (mode === 'camera') cameraInputRef.current?.click();
         else fileInputRef.current?.click();
     };
