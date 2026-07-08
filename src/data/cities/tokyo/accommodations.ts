@@ -2,114 +2,114 @@ import type { AccommodationData } from '../index';
 
 const accommodations: AccommodationData[] = [
     {
-        name: "파크 하얏트 도쿄",
+        name: "호텔 메트로폴리탄 도쿄 마루노우치",
         showInInbox: true,
         type: "hotel",
-        coordinates: { lat: 35.6861125, lng: 139.6904007 },
+        coordinates: { lat: 35.6838969, lng: 139.7685697 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         city: "Tokyo",
-        description: "2025년 리뉴얼 예정, 클래식 럭셔리",
-        tags: ["신주쿠", "럭셔리"]
+        description: "도쿄역 직결급 접근성, 마루노우치 비즈니스·관광 거점",
+        tags: ["도쿄역", "교통"]
     },
     {
-        name: "아만 도쿄",
+        name: "JR 큐슈 호텔 블라섬 신주쿠",
         showInInbox: true,
         type: "hotel",
-        coordinates: { lat: 35.6854775, lng: 139.7656705 },
-        checkInTime: "15:00",
-        checkOutTime: "12:00",
-        city: "Tokyo",
-        description: "30m 아트리움, 루프탑 수영장",
-        tags: ["오테마치", "럭셔리"]
-    },
-    {
-        name: "불가리 호텔 도쿄",
-        showInInbox: true,
-        type: "hotel",
-        coordinates: { lat: 35.6788388, lng: 139.7683266 },
-        checkInTime: "15:00",
-        checkOutTime: "12:00",
-        city: "Tokyo",
-        description: "도쿄역 근처, 이탈리아 디자인",
-        tags: ["도쿄역", "럭셔리"]
-    },
-    {
-        name: "미츠이 가든 호텔 우에노",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.7118567, lng: 139.7781079 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Tokyo",
-        description: "팬더 테마 객실, 아메요코 근처",
-        tags: ["우에노", "테마"]
-    },
-    {
-        name: "신주쿠 워싱턴 호텔",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.6869153, lng: 139.6932758 },
+        coordinates: { lat: 35.6878345, lng: 139.6984943 },
         checkInTime: "14:00",
         checkOutTime: "11:00",
         city: "Tokyo",
-        description: "신주쿠역 직결, 한국인 직원",
-        tags: ["신주쿠", "역직결"]
+        description: "신주쿠역 남쪽, 한국 여행자 후기 많은 역세권 호텔",
+        tags: ["신주쿠", "역세권"]
     },
     {
-        name: "아사쿠사 뷰 호텔",
-        showInInbox: false,
+        name: "호텔 그레이스리 신주쿠",
+        showInInbox: true,
         type: "hotel",
-        coordinates: { lat: 35.715464, lng: 139.7918707 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Tokyo",
-        description: "스카이트리 뷰, 26층 조식",
-        tags: ["아사쿠사", "전망"]
-    },
-    {
-        name: "호텔 더 셀레스틴 도쿄 시바",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.650874, lng: 139.748867 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Tokyo",
-        description: "도쿄타워 뷰",
-        tags: ["미나토", "전망"]
-    },
-    {
-        name: "솔라리아 니시테츠 호텔 긴자",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.6707725, lng: 139.7672454 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Tokyo",
-        description: "긴자 5분, 넓은 객실",
-        tags: ["긴자", "쇼핑"]
-    },
-    {
-        name: "온센 료칸 유엔 신주쿠",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.69291279999999, lng: 139.709008 },
-        checkInTime: "15:00",
-        checkOutTime: "10:00",
-        city: "Tokyo",
-        description: "도심 온천, 하코네 온천물",
-        tags: ["신주쿠", "온천"]
-    },
-    {
-        name: "시부야 엑셀 호텔 도큐",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 35.6585773, lng: 139.6998213 },
+        coordinates: { lat: 35.6953583, lng: 139.7020345 },
         checkInTime: "14:00",
         checkOutTime: "11:00",
         city: "Tokyo",
-        description: "스크램블 교차로 2분",
-        tags: ["시부야", "중심"]
+        description: "가부키초 중심, 고질라 헤드로 유명한 신주쿠 대표 호텔",
+        tags: ["신주쿠", "번화가"]
+    },
+    {
+        name: "미츠이 가든 호텔 긴자 프리미어",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.6671058, lng: 139.7632279 },
+        checkInTime: "15:00",
+        checkOutTime: "11:00",
+        city: "Tokyo",
+        description: "긴자·신바시 사이, 야경과 쇼핑 접근성이 좋은 고층 호텔",
+        tags: ["긴자", "전망"]
+    },
+    {
+        name: "리치몬드 호텔 프리미어 아사쿠사",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.7141245, lng: 139.7936921 },
+        checkInTime: "14:00",
+        checkOutTime: "11:00",
+        city: "Tokyo",
+        description: "센소지·스카이트리 관광 동선에 좋은 아사쿠사 인기 호텔",
+        tags: ["아사쿠사", "관광"]
+    },
+    {
+        name: "NOHGA HOTEL UENO TOKYO",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.7101686, lng: 139.7782184 },
+        checkInTime: "15:00",
+        checkOutTime: "11:00",
+        city: "Tokyo",
+        description: "우에노역 도보권, 감각적인 로컬 라이프스타일 호텔",
+        tags: ["우에노", "감성"]
+    },
+    {
+        name: "더 게이트 호텔 도쿄 바이 휴릭",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.6729489, lng: 139.7615741 },
+        checkInTime: "14:00",
+        checkOutTime: "11:00",
+        city: "Tokyo",
+        description: "긴자·히비야 접근성, 도쿄 도심 야경과 루프탑 라운지",
+        tags: ["긴자", "루프탑"]
+    },
+    {
+        name: "다이와 로이넷 호텔 니시신주쿠 프리미어",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.6943105, lng: 139.6893742 },
+        checkInTime: "14:00",
+        checkOutTime: "11:00",
+        city: "Tokyo",
+        description: "니시신주쿠 조용한 위치, 장기 숙박과 가족 여행에 무난한 호텔",
+        tags: ["니시신주쿠", "가족"]
+    },
+    {
+        name: "호텔 메트로폴리탄 도쿄 이케부쿠로",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.7285233, lng: 139.7080017 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        city: "Tokyo",
+        description: "이케부쿠로역 인접, 북서부 도쿄 이동과 쇼핑에 편리",
+        tags: ["이케부쿠로", "교통"]
+    },
+    {
+        name: "sequence MIYASHITA PARK",
+        showInInbox: true,
+        type: "hotel",
+        coordinates: { lat: 35.6633113, lng: 139.7018839 },
+        checkInTime: "17:00",
+        checkOutTime: "14:00",
+        city: "Tokyo",
+        description: "시부야 미야시타파크 직결, 젊은 여행자 후기가 많은 감성 호텔",
+        tags: ["시부야", "감성"]
     }
 ];
 
