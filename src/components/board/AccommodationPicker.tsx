@@ -107,6 +107,7 @@ function DraggableHotelCard({ card, cardId }: { card: any; cardId?: string }) {
         icon: card.icon,
         rating: card.rating,
         address: card.address,
+        hasInfo: card.hasInfo,
         isUserCreated: card.isUserCreated,
     };
 
@@ -256,6 +257,7 @@ export function AccommodationPicker({
                                 checkOutTime: accommodation.checkOutTime,
                                 description: accommodation.description,
                                 tags: accommodation.tags,
+                                hasInfo: accommodation.hasInfo,
                                 isUserCreated: false,  // 샘플 카드는 삭제 불가
                             }}
                         />
