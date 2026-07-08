@@ -78,12 +78,14 @@ export type TransportationData = {
     hasInfo?: boolean;  // true 면 cities/<slug>/info/transport.ts 에 상세 인포 존재
 };
 
+import type { TourSpaData } from '@/data/tourSpa';
 
 export interface CityBundle {
     accommodations: AccommodationData[];
     restaurants: RestaurantData[];
     shopping: ShoppingData[];
     transport: TransportationData[];
+    tourSpa?: TourSpaData[];
 }
 
 import osakaAccommodations from './osaka/accommodations';
@@ -95,6 +97,7 @@ import tokyoAccommodations from './tokyo/accommodations';
 import tokyoRestaurants from './tokyo/restaurants';
 import tokyoShopping from './tokyo/shopping';
 import tokyoTransport from './tokyo/transport';
+import tokyoTourSpa from './tokyo/tourSpa';
 
 import fukuokaAccommodations from './fukuoka/accommodations';
 import fukuokaRestaurants from './fukuoka/restaurants';
@@ -193,6 +196,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: tokyoRestaurants,
         shopping: tokyoShopping,
         transport: tokyoTransport,
+        tourSpa: tokyoTourSpa,
     },
     "Fukuoka": {
         accommodations: fukuokaAccommodations,

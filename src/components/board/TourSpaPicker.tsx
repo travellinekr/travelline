@@ -4,7 +4,8 @@ import { useState, useMemo } from 'react';
 import { useDraggable, useDroppable, useDndContext } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Palmtree, Plus, Trash2 } from 'lucide-react';
-import { TOUR_SPA_SAMPLES, TourSpaType } from '@/data/tourSpa';
+import { TourSpaType } from '@/data/tourSpa';
+import { CITY_DATA } from '@/data/cities';
 import { TourSpaCard } from '@/components/cards/TourSpaCard';
 import { TourSpaAddModal } from './TourSpaAddModal';
 import { InboxMapModal } from './InboxMapModal';
@@ -39,6 +40,25 @@ function matchesTourSpaFilter(card: any, selectedValue: string, searchText: stri
         if (cardCity !== selectedSubCity.toLowerCase()) return false;
     }
     return true;
+}
+
+function getTourSpaByCity(cityName: string) {
+    const normalizedCity = cityName.toLowerCase();
+    const cityKey = Object.keys(CITY_DATA).find(
+        key => key.toLowerCase() === normalizedCity
+    );
+    return cityKey ? (CITY_DATA[cityKey].tourSpa ?? []) : [];
+}
+
+function getCityList(destinationCity?: string, subCities: Array<{ name: string; engName: string }> = []) {
+    if (subCities.length > 0) return subCities.map(c => c.engName || c.name).filter(Boolean);
+    return destinationCity ? [destinationCity] : [];
+}
+
+function getStaticTourSpaCards(destinationCity?: string, subCities: Array<{ name: string; engName: string }> = []) {
+    return getCityList(destinationCity, subCities).flatMap(city =>
+        getTourSpaByCity(city).map(item => ({ ...item, city }))
+    );
 }
 
 // 직접 추가하기 / 삭제 영역 버튼
@@ -89,6 +109,7 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
         title: tourSpa.name,
         category: 'tourspa' as const,
         tourSpaType: tourSpa.type,
+        city: tourSpa.city,
         description: tourSpa.description,
         duration: tourSpa.duration,
         priceRange: tourSpa.priceRange,
@@ -157,8 +178,13 @@ export function TourSpaPicker({
 
     const { anchorCard } = useAnchor();
     const anchorCoords = anchorCard?.coordinates ?? null;
+    const sampleTourSpaCards = sortByAnchorDistance(getStaticTourSpaCards(destinationCity, subCities), anchorCoords);
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
+    const filteredSample = useMemo(
+        () => sampleTourSpaCards.filter((c: any) => matchesTourSpaFilter(c, selectedType, searchText, selectedSubCity)),
+        [sampleTourSpaCards, selectedType, searchText, selectedSubCity],
+    );
     const filteredCreated = useMemo(
         () => sortedCreatedCards.filter((c: any) => matchesTourSpaFilter(c, selectedType, searchText, selectedSubCity)),
         [sortedCreatedCards, selectedType, searchText, selectedSubCity],
@@ -169,11 +195,14 @@ export function TourSpaPicker({
         if (anchorCard?.coordinates) {
             markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
         }
+        sampleTourSpaCards.forEach((c: any, i: number) => {
+            if (c.coordinates) markers.push({ id: `sample-${i}-${c.name}`, title: c.name, coordinates: c.coordinates });
+        });
         sortedCreatedCards.forEach((c: any) => {
             if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
         });
         return markers;
-    }, [anchorCard, sortedCreatedCards]);
+    }, [anchorCard, sampleTourSpaCards, sortedCreatedCards]);
 
     const handleCreateCard = (data: any) => {
 
@@ -201,7 +230,7 @@ export function TourSpaPicker({
                 title="투어&스파"
                 icon={Palmtree}
                 color="cyan"
-                count={filteredCreated.length}
+                count={filteredSample.length + filteredCreated.length}
                 category="tourspa"
                 onMapClick={() => setIsMapOpen(true)}
                 mapDisabled={mapMarkers.length === 0}
@@ -223,14 +252,30 @@ export function TourSpaPicker({
             {/* 투어&스파 목록 (스크롤 가능) */}
             <div className="flex-1 overflow-y-auto py-4">
                 <div className="flex flex-col gap-3">
-                    {/* 샘플 카드 비활성화 */}
-                    {/* {TOUR_SPA_SAMPLES.map((tourSpa, index) => (
+                    {/* 도시별 추천 관광 카드 */}
+                    {filteredSample.map((tourSpa: any, index: number) => (
                         <DraggableTourSpaCard
-                            key={index}
-                            tourSpa={tourSpa}
+                            key={`sample-${index}`}
+                            cardId={`picker-tourspa-${index}`}
+                            tourSpa={{
+                                name: tourSpa.name,
+                                type: tourSpa.type,
+                                icon: tourSpa.icon,
+                                description: tourSpa.description,
+                                duration: tourSpa.duration,
+                                priceRange: tourSpa.priceRange,
+                                pickupAvailable: tourSpa.pickupAvailable,
+                                coordinates: tourSpa.coordinates,
+                                reservationRequired: tourSpa.reservationRequired,
+                                openingHours: tourSpa.openingHours,
+                                features: tourSpa.features,
+                                rating: tourSpa.rating,
+                                city: tourSpa.city,
+                                isUserCreated: false,
+                            }}
                             index={index}
                         />
-                    ))} */}
+                    ))}
 
                     {/* 생성된 카드들 (anchor 시 거리순) */}
                     {filteredCreated.map((card: any) => {
