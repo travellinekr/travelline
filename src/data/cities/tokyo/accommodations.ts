@@ -4,6 +4,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "호텔 메트로폴리탄 도쿄 마루노우치",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6838969, lng: 139.7685697 },
         checkInTime: "15:00",
@@ -15,6 +16,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "JR 큐슈 호텔 블라섬 신주쿠",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6878345, lng: 139.6984943 },
         checkInTime: "14:00",
@@ -26,6 +28,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "호텔 그레이스리 신주쿠",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6953583, lng: 139.7020345 },
         checkInTime: "14:00",
@@ -37,6 +40,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "미츠이 가든 호텔 긴자 프리미어",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6671058, lng: 139.7632279 },
         checkInTime: "15:00",
@@ -48,6 +52,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "리치몬드 호텔 프리미어 아사쿠사",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.7141245, lng: 139.7936921 },
         checkInTime: "14:00",
@@ -59,6 +64,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "NOHGA HOTEL UENO TOKYO",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.7101686, lng: 139.7782184 },
         checkInTime: "15:00",
@@ -70,6 +76,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "더 게이트 호텔 도쿄 바이 휴릭",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6729489, lng: 139.7615741 },
         checkInTime: "14:00",
@@ -81,6 +88,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "다이와 로이넷 호텔 니시신주쿠 프리미어",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6943105, lng: 139.6893742 },
         checkInTime: "14:00",
@@ -92,6 +100,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "호텔 메트로폴리탄 도쿄 이케부쿠로",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.7285233, lng: 139.7080017 },
         checkInTime: "15:00",
@@ -103,6 +112,7 @@ const accommodations: AccommodationData[] = [
     {
         name: "sequence MIYASHITA PARK",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
         coordinates: { lat: 35.6633113, lng: 139.7018839 },
         checkInTime: "17:00",
