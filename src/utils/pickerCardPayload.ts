@@ -74,6 +74,7 @@ export function buildPickerCardPayload(
                 ...base,
                 title: draggedCard.title,
                 tourSpaType: draggedCard.tourSpaType,
+                city: draggedCard.city,
                 description: draggedCard.description,
                 duration: draggedCard.duration,
                 priceRange: draggedCard.priceRange,

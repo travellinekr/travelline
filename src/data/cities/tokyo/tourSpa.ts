@@ -1,0 +1,162 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "센소지",
+        type: "cultural",
+        description: "아사쿠사 대표 사찰, 나카미세도리와 함께 걷기 좋은 전통 명소",
+        duration: "1-2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.7147651, lng: 139.7966553 },
+        reservationRequired: false,
+        openingHours: "06:00-17:00",
+        features: ["아사쿠사", "전통", "초보 여행 필수"],
+        icon: "🏮"
+    },
+    {
+        name: "메이지 신궁",
+        type: "cultural",
+        description: "하라주쿠 옆 숲길과 신궁을 함께 둘러보는 조용한 문화 명소",
+        duration: "1-2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.6763976, lng: 139.6993259 },
+        reservationRequired: false,
+        openingHours: "일출-일몰",
+        features: ["하라주쿠", "숲길", "신사"],
+        icon: "⛩️"
+    },
+    {
+        name: "도쿄 타워",
+        type: "city-tour",
+        description: "도쿄의 클래식 랜드마크, 야경과 사진 코스로 넣기 좋은 전망 명소",
+        duration: "1-2시간",
+        priceRange: "¥1,200~3,000",
+        pickupAvailable: false,
+        coordinates: { lat: 35.6585805, lng: 139.7454329 },
+        reservationRequired: false,
+        openingHours: "09:00-23:00",
+        features: ["야경", "전망대", "랜드마크"],
+        icon: "🗼"
+    },
+    {
+        name: "도쿄 스카이트리",
+        type: "city-tour",
+        description: "스미다·아사쿠사 동선과 묶기 좋은 초고층 전망대",
+        duration: "2-3시간",
+        priceRange: "¥2,100~3,400",
+        pickupAvailable: false,
+        coordinates: { lat: 35.7100627, lng: 139.8107004 },
+        reservationRequired: false,
+        openingHours: "10:00-22:00",
+        features: ["전망대", "스미다", "쇼핑몰 연결"],
+        icon: "🏙️"
+    },
+    {
+        name: "시부야 스카이",
+        type: "city-tour",
+        description: "시부야 상공에서 도쿄 전경을 보는 인기 전망 명소",
+        duration: "1-2시간",
+        priceRange: "¥2,500~3,000",
+        pickupAvailable: false,
+        coordinates: { lat: 35.658447, lng: 139.701647 },
+        reservationRequired: true,
+        openingHours: "10:00-22:30",
+        features: ["예약 권장", "노을", "시부야"],
+        icon: "🌇"
+    },
+    {
+        name: "황거 동쪽 정원",
+        type: "cultural",
+        description: "도쿄역·마루노우치 동선에 넣기 좋은 역사 산책 코스",
+        duration: "1-2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.685175, lng: 139.75649 },
+        reservationRequired: false,
+        openingHours: "09:00-16:30",
+        features: ["역사", "산책", "도쿄역 근처"],
+        icon: "🏯"
+    },
+    {
+        name: "우에노 공원",
+        type: "city-tour",
+        description: "박물관·미술관·동물원까지 묶을 수 있는 우에노 대표 산책지",
+        duration: "1-3시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.715625, lng: 139.773065 },
+        reservationRequired: false,
+        openingHours: "상시 개방",
+        features: ["박물관 밀집", "산책", "벚꽃"],
+        icon: "🌳"
+    },
+    {
+        name: "도쿄 국립박물관",
+        type: "cultural",
+        description: "일본 미술·역사 유물을 한 번에 보기 좋은 우에노 핵심 실내 명소",
+        duration: "2-3시간",
+        priceRange: "¥1,000 전후",
+        pickupAvailable: false,
+        coordinates: { lat: 35.7188351, lng: 139.7765215 },
+        reservationRequired: false,
+        openingHours: "09:30-17:00",
+        features: ["실내", "역사", "우천 대안"],
+        icon: "🏛️"
+    },
+    {
+        name: "하마리큐 은사정원",
+        type: "city-tour",
+        description: "긴자·신바시·츠키지 동선과 잘 맞는 도심 일본식 정원",
+        duration: "1-2시간",
+        priceRange: "¥300 전후",
+        pickupAvailable: false,
+        coordinates: { lat: 35.6601675, lng: 139.7636995 },
+        reservationRequired: false,
+        openingHours: "09:00-17:00",
+        features: ["정원", "긴자 근처", "산책"],
+        icon: "🌿"
+    },
+    {
+        name: "teamLab Borderless Azabudai Hills",
+        type: "theme-park",
+        description: "아자부다이 힐스의 몰입형 디지털 아트 전시, 실내 일정으로 유용",
+        duration: "2-3시간",
+        priceRange: "¥3,800~4,800",
+        pickupAvailable: false,
+        coordinates: { lat: 35.660238, lng: 139.740024 },
+        reservationRequired: true,
+        openingHours: "09:00-21:00",
+        features: ["실내", "예약 권장", "디지털아트"],
+        icon: "✨"
+    },
+    {
+        name: "도쿄도청 전망대",
+        type: "city-tour",
+        description: "신주쿠에서 무료로 도쿄 전경을 볼 수 있는 전망대",
+        duration: "1시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.6896342, lng: 139.6921007 },
+        reservationRequired: false,
+        openingHours: "09:30-22:00",
+        features: ["무료 전망대", "신주쿠", "야경"],
+        icon: "🏢"
+    },
+    {
+        name: "오다이바 해변공원",
+        type: "city-tour",
+        description: "레인보우브릿지 야경과 쇼핑몰 동선을 함께 잡기 좋은 베이사이드 명소",
+        duration: "1-2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 35.630066, lng: 139.777782 },
+        reservationRequired: false,
+        openingHours: "상시 개방",
+        features: ["야경", "해변 산책", "오다이바"],
+        icon: "🌉"
+    }
+];
+
+export default tourSpa;
