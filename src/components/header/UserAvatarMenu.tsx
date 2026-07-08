@@ -1,30 +1,48 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { ChevronDown, LogOut } from "lucide-react";
-import { useOthers, useSelf } from "@/liveblocks.config";
+import { ChevronDown, LogOut, Crown, UserMinus } from "lucide-react";
+import { useOthers, useSelf, useBroadcastEvent, useEventListener } from "@/liveblocks.config";
 import { useAuth } from "@/hooks/useAuth";
+import { useRole } from "@/hooks/useRole";
+import { supabase } from "@/lib/supabaseClient";
 import { ShareModal } from "@/components/modals/ShareModal";
+import { ConfirmOwnerTransferModal } from "@/components/modals/ConfirmOwnerTransferModal";
+
+type Role = 'owner' | 'editor' | 'viewer';
+
+interface MemberRecord {
+    user_id: string;
+    role: Role;
+    name?: string;
+    email?: string;
+    avatar?: string;
+}
 
 export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: string; roomId: string; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
     const { user, signOut } = useAuth();
     const router = useRouter();
     const others = useOthers();
     const self = useSelf();
+    const { isOwner: iAmOwner } = useRole(roomId);
+    const broadcast = useBroadcastEvent();
     const [open, setOpen] = useState(false);
     const [showShare, setShowShare] = useState(false);
     const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
-    const [members, setMembers] = useState<any[]>([]);
+    const [members, setMembers] = useState<MemberRecord[]>([]);
+    const [openActionsFor, setOpenActionsFor] = useState<string | null>(null);
+    const [transferTarget, setTransferTarget] = useState<MemberRecord | null>(null);
+    const [pendingUserId, setPendingUserId] = useState<string | null>(null);
     const ref = useRef<HTMLDivElement>(null);
     const buttonRef = useRef<HTMLButtonElement>(null);
 
     const email = user?.email || '';
     const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
 
-    // roomId가 있을 때 멤버 목록 로드 (이름/이메일/아바타 포함)
-    useEffect(() => {
+    // 멤버 목록 재조회 (마운트 시 + 플로팅 메뉴 열릴 때마다)
+    const fetchMembers = useCallback(() => {
         if (!roomId) return;
         fetch(`/api/projects/${roomId}/members`)
             .then((res) => res.json())
@@ -34,13 +52,23 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             .catch((err) => console.error('[UserAvatarMenu] members fetch error:', err));
     }, [roomId]);
 
+    useEffect(() => { fetchMembers(); }, [fetchMembers]);
+
+    // 역할 변경 이벤트: 실시간으로 members 재조회 (본인이 대상이면 안내 토스트 추가)
+    useEventListener(({ event }) => {
+        if (event.type === 'ROLE_CHANGED') {
+            fetchMembers();
+            if (event.userId === self?.id) {
+                addToast('내 권한이 변경되었어요. 새로고침해주세요.', 'info');
+            }
+        }
+    });
+
     // 현재 Liveblocks 접속 중인 user_id 목록
     const onlineIds = new Set([
         ...(self ? [self.id] : []),
         ...others.map((o) => o.id),
     ]);
-    // project_members에 등록된 user_id 목록
-    const memberIds = new Set(members.map((m) => m.user_id));
 
     // 이니셜 추출
     const getInitials = () => {
@@ -63,6 +91,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             if (ref.current && !ref.current.contains(e.target as Node) &&
                 buttonRef.current && !buttonRef.current.contains(e.target as Node)) {
                 setOpen(false);
+                setOpenActionsFor(null);
             }
         };
         document.addEventListener('mousedown', handleClickOutside);
@@ -73,6 +102,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         if (!open && buttonRef.current) {
             const rect = buttonRef.current.getBoundingClientRect();
             setPopupPos({ top: rect.bottom + 8, right: window.innerWidth - rect.right });
+            fetchMembers(); // 열 때마다 최신화
         }
         setOpen(!open);
     };
@@ -80,6 +110,89 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const handleSignOut = async () => {
         await signOut();
         router.push('/');
+    };
+
+    // API 호출 헬퍼
+    const patchMemberRole = async (targetUserId: string, role: Role): Promise<boolean> => {
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+        if (!token) {
+            addToast('로그인이 필요해요.', 'warning');
+            return false;
+        }
+        const res = await fetch(`/api/projects/${roomId}/members/${targetUserId}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ role }),
+        });
+        if (!res.ok) {
+            const j = await res.json().catch(() => ({}));
+            addToast(j?.error || '변경에 실패했어요.', 'warning');
+            return false;
+        }
+        return true;
+    };
+
+    const deleteMember = async (targetUserId: string): Promise<boolean> => {
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+        if (!token) {
+            addToast('로그인이 필요해요.', 'warning');
+            return false;
+        }
+        const res = await fetch(`/api/projects/${roomId}/members/${targetUserId}`, {
+            method: 'DELETE',
+            headers: { Authorization: `Bearer ${token}` },
+        });
+        if (!res.ok) {
+            const j = await res.json().catch(() => ({}));
+            addToast(j?.error || '내보내기에 실패했어요.', 'warning');
+            return false;
+        }
+        return true;
+    };
+
+    const handleRoleChange = async (targetUserId: string, newRole: 'editor' | 'viewer') => {
+        setPendingUserId(targetUserId);
+        const ok = await patchMemberRole(targetUserId, newRole);
+        if (ok) {
+            setMembers((prev) => prev.map((m) => (m.user_id === targetUserId ? { ...m, role: newRole } : m)));
+            addToast(newRole === 'editor' ? '편집자로 변경되었어요.' : '뷰어로 변경되었어요.', 'info');
+            broadcast({ type: 'ROLE_CHANGED', userId: targetUserId });
+        }
+        setOpenActionsFor(null);
+        setPendingUserId(null);
+    };
+
+    const handleOwnerTransfer = async () => {
+        if (!transferTarget) return;
+        setPendingUserId(transferTarget.user_id);
+        const ok = await patchMemberRole(transferTarget.user_id, 'owner');
+        if (ok) {
+            setMembers((prev) => prev.map((m) => {
+                if (m.user_id === transferTarget.user_id) return { ...m, role: 'owner' };
+                if (m.user_id === self?.id) return { ...m, role: 'editor' };
+                return m;
+            }));
+            addToast('소유자를 위임했어요. 새로고침 후 반영됩니다.', 'info');
+            broadcast({ type: 'ROLE_CHANGED', userId: transferTarget.user_id });
+        }
+        setTransferTarget(null);
+        setOpenActionsFor(null);
+        setPendingUserId(null);
+    };
+
+    const handleRemove = async (target: MemberRecord) => {
+        if (!confirm(`${target.name || '사용자'} 님을 내보낼까요?`)) return;
+        setPendingUserId(target.user_id);
+        const ok = await deleteMember(target.user_id);
+        if (ok) {
+            setMembers((prev) => prev.filter((m) => m.user_id !== target.user_id));
+            addToast('내보냈어요.', 'info');
+            broadcast({ type: 'ROLE_CHANGED', userId: target.user_id });
+        }
+        setOpenActionsFor(null);
+        setPendingUserId(null);
     };
 
     // ─── 비로그인 사용자: 회원가입 버튼 표시 ───
@@ -108,6 +221,96 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         );
     }
 
+    // 역할 라벨/색상
+    const roleMeta = (role: Role | null) => {
+        if (role === 'owner') return { text: '소유자', cls: 'text-emerald-600 bg-emerald-50' };
+        if (role === 'editor') return { text: '편집자', cls: 'text-blue-600 bg-blue-50' };
+        if (role === 'viewer') return { text: '뷰어', cls: 'text-slate-500 bg-slate-100' };
+        return { text: '손님', cls: 'text-orange-500 bg-orange-50' };
+    };
+
+    // 역할 뱃지 렌더 (owner 만 클릭 가능. 자기 자신 · owner 대상 제외)
+    const renderRoleBadge = (target: { user_id: string; role: Role | null; name?: string }) => {
+        const meta = roleMeta(target.role);
+        const isSelf = target.user_id === self?.id;
+        const isTargetOwner = target.role === 'owner';
+        const canManage = iAmOwner && !isSelf && !isTargetOwner && target.role !== null;
+
+        if (!canManage) {
+            return (
+                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 flex items-center gap-1 ${meta.cls}`}>
+                    {isTargetOwner && <Crown className="w-2.5 h-2.5" />}
+                    {meta.text}
+                </span>
+            );
+        }
+
+        const isOpen = openActionsFor === target.user_id;
+        const isPending = pendingUserId === target.user_id;
+
+        return (
+            <div className="relative shrink-0">
+                <button
+                    type="button"
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        setOpenActionsFor(isOpen ? null : target.user_id);
+                    }}
+                    disabled={isPending}
+                    className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md flex items-center gap-0.5 hover:opacity-80 transition-opacity ${meta.cls} ${isPending ? 'opacity-50' : ''}`}
+                >
+                    {meta.text}
+                    <ChevronDown className="w-2.5 h-2.5" />
+                </button>
+                {isOpen && (
+                    <div className="absolute right-0 top-full mt-1 w-32 bg-white rounded-lg shadow-xl border border-gray-100 py-1 z-[1000000]">
+                        {target.role !== 'editor' && (
+                            <button
+                                type="button"
+                                onClick={() => handleRoleChange(target.user_id, 'editor')}
+                                className="w-full text-left px-3 py-1.5 text-xs text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                            >
+                                편집자로 변경
+                            </button>
+                        )}
+                        {target.role !== 'viewer' && (
+                            <button
+                                type="button"
+                                onClick={() => handleRoleChange(target.user_id, 'viewer')}
+                                className="w-full text-left px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-100 transition-colors"
+                            >
+                                뷰어로 변경
+                            </button>
+                        )}
+                        <div className="my-1 border-t border-gray-100" />
+                        <button
+                            type="button"
+                            onClick={() => {
+                                const rec = members.find((m) => m.user_id === target.user_id);
+                                if (rec) setTransferTarget(rec);
+                            }}
+                            className="w-full text-left px-3 py-1.5 text-xs text-amber-600 hover:bg-amber-50 transition-colors flex items-center gap-1.5"
+                        >
+                            <Crown className="w-3 h-3" />
+                            소유자 위임
+                        </button>
+                        <div className="my-1 border-t border-gray-100" />
+                        <button
+                            type="button"
+                            onClick={() => {
+                                const rec = members.find((m) => m.user_id === target.user_id);
+                                if (rec) handleRemove(rec);
+                            }}
+                            className="w-full text-left px-3 py-1.5 text-xs text-red-500 hover:bg-red-50 transition-colors flex items-center gap-1.5"
+                        >
+                            <UserMinus className="w-3 h-3" />
+                            내보내기
+                        </button>
+                    </div>
+                )}
+            </div>
+        );
+    };
 
     return (
         <>
@@ -137,7 +340,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                 <div
                     ref={ref}
                     style={{ top: popupPos.top, right: popupPos.right, position: 'fixed', zIndex: 999999 }}
-                    className="w-56 bg-white rounded-2xl shadow-xl border border-gray-100 py-2"
+                    className="w-64 bg-white rounded-2xl shadow-xl border border-gray-100 py-2"
                 >
                     {/* 사용자 정보 */}
                     <div className="px-4 py-3 border-b border-gray-50">
@@ -155,7 +358,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     {(others.length > 0 || members.length > 0) && (
                         <div className="border-t border-gray-50 pt-1 pb-1">
                             <p className="px-4 py-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-wide">멤버</p>
-                            <div className="max-h-40 overflow-y-auto">
+                            <div className="max-h-52 overflow-y-auto overflow-x-visible">
                                 {/* 현재 접속 중인 다른 사람들 */}
                                 {(() => {
                                     // 손님(미등록) 번호 사전 계산
@@ -177,13 +380,8 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                                         const memberRecord = members.find((m) => m.user_id === other.id);
                                         const isGuest = !memberRecord;
                                         const guestNum = guestNumMap.get(other.connectionId);
-                                        // 손님이 2명 이상이면 번호 부여, 1명이면 그냥 손님
                                         const guestLabel = totalGuests > 1 ? `손님 ${guestNum}` : '손님';
-                                        const role = memberRecord?.role || null;
-                                        const roleLabel = role === 'owner' ? { text: '소유자', cls: 'text-emerald-600 bg-emerald-50' }
-                                            : role === 'editor' ? { text: '편집자', cls: 'text-blue-600 bg-blue-50' }
-                                                : role === 'viewer' ? { text: '뷰어', cls: 'text-slate-500 bg-slate-100' }
-                                                    : { text: '손님', cls: 'text-orange-500 bg-orange-50' };
+                                        const targetName = isGuest ? guestLabel : (memberRecord?.name || name);
                                         return (
                                             <div key={other.connectionId} className="flex items-center gap-2.5 px-4 py-2">
                                                 <div className="relative shrink-0">
@@ -197,14 +395,16 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                                                     <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-white" />
                                                 </div>
                                                 <div className="flex-1 min-w-0">
-                                                    <p className="text-xs font-medium text-slate-700 truncate">{isGuest ? guestLabel : name}</p>
+                                                    <p className="text-xs font-medium text-slate-700 truncate">{targetName}</p>
                                                     {!isGuest && infoEmail && (
                                                         <p className="text-[10px] text-slate-400 truncate">{infoEmail}</p>
                                                     )}
                                                 </div>
-                                                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 ${roleLabel.cls}`}>
-                                                    {roleLabel.text}
-                                                </span>
+                                                {renderRoleBadge({
+                                                    user_id: other.id || '',
+                                                    role: (memberRecord?.role as Role) ?? null,
+                                                    name: targetName,
+                                                })}
                                             </div>
                                         );
                                     });
@@ -214,15 +414,11 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                                 {members
                                     .filter((m) => !onlineIds.has(m.user_id) && m.user_id !== self?.id)
                                     .map((m) => {
-                                        const role = m.role || 'viewer';
-                                        const roleLabel = role === 'owner' ? { text: '소유자', cls: 'text-emerald-600 bg-emerald-50' }
-                                            : role === 'editor' ? { text: '편집자', cls: 'text-blue-600 bg-blue-50' }
-                                                : { text: '뷰어', cls: 'text-slate-500 bg-slate-100' };
                                         const mName = m.name || '사용자';
                                         const mEmail = m.email || '';
                                         const mAvatar = m.avatar || '';
                                         return (
-                                            <div key={m.user_id} className="flex items-center gap-2.5 px-4 py-2 opacity-50">
+                                            <div key={m.user_id} className="flex items-center gap-2.5 px-4 py-2 opacity-60">
                                                 <div className="relative shrink-0">
                                                     {mAvatar ? (
                                                         <img src={mAvatar} alt={mName} className="w-7 h-7 rounded-full object-cover grayscale" />
@@ -236,9 +432,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                                                     <p className="text-xs font-medium text-slate-500 truncate">{mName}</p>
                                                     {mEmail && <p className="text-[10px] text-slate-400 truncate">{mEmail}</p>}
                                                 </div>
-                                                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 ${roleLabel.cls}`}>
-                                                    {roleLabel.text}
-                                                </span>
+                                                {renderRoleBadge({ user_id: m.user_id, role: m.role, name: mName })}
                                             </div>
                                         );
                                     })
@@ -276,6 +470,16 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     roomId={roomId}
                     onClose={() => setShowShare(false)}
                     addToast={addToast}
+                />
+            )}
+
+            {/* 소유자 위임 확인 모달 */}
+            {transferTarget && (
+                <ConfirmOwnerTransferModal
+                    targetName={transferTarget.name || '사용자'}
+                    onConfirm={handleOwnerTransfer}
+                    onClose={() => setTransferTarget(null)}
+                    loading={pendingUserId === transferTarget.user_id}
                 />
             )}
         </>
