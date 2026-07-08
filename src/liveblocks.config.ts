@@ -121,7 +121,7 @@ type UserMeta = {
   };
 };
 
-type RoomEvent = {};
+type RoomEvent = { type: 'ROLE_CHANGED'; userId: string };
 
 export type ThreadMetadata = {};
 

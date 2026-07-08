@@ -69,7 +69,7 @@ export function PreparationPicker({
     }
 
     return (
-        <div className="flex flex-col h-full overflow-hidden">
+        <div className="flex flex-col">
             <PickerHeader
                 title="여행준비"
                 icon={CheckSquare}
@@ -77,8 +77,8 @@ export function PreparationPicker({
                 count={createdCards.length}
             />
 
-            {/* 카드 목록 (스크롤 가능) */}
-            <div className="flex-1 overflow-y-auto custom-scrollbar">
+            {/* 카드 목록 (상위 Inbox 스크롤에 위임) */}
+            <div>
                 <div className="flex flex-col gap-3 py-4">
                     {createdCards.length === 0 && (
                         <div className="text-center text-gray-400 py-10 flex flex-col items-center gap-2">
