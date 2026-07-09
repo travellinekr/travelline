@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { ChevronDown, LogOut, Crown, UserMinus } from "lucide-react";
+import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw } from "lucide-react";
 import { useOthers, useSelf, useBroadcastEvent, useEventListener } from "@/liveblocks.config";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
@@ -26,7 +26,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const router = useRouter();
     const others = useOthers();
     const self = useSelf();
-    const { isOwner: iAmOwner } = useRole(roomId);
+    const { isOwner: iAmOwner, role: sessionRole } = useRole(roomId);
     const broadcast = useBroadcastEvent();
     const [open, setOpen] = useState(false);
     const [showShare, setShowShare] = useState(false);
@@ -71,6 +71,18 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         ...(self ? [self.id] : []),
         ...others.map((o) => o.id),
     ]);
+
+    // 아바타 옆 접속자 뱃지·목록 카운트 — self.id 제외 + user_id/게스트 기준 dedupe (같은 계정 다기기 1로 카운트)
+    const otherUserCount = (() => {
+        const seen = new Set<string>();
+        others.forEach((o) => {
+            if (o.id && o.id === self?.id) return;
+            const key = o.id || `guest-${o.connectionId}`;
+            if (seen.has(key)) return;
+            seen.add(key);
+        });
+        return seen.size;
+    })();
 
     // 이니셜 추출
     const getInitials = () => {
@@ -349,13 +361,13 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
                         {getInitials()}
                     </div>
-                    {others.length > 0 && (
+                    {otherUserCount > 0 && (
                         <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-400 rounded-full border-2 border-white" />
                     )}
                 </div>
                 {/* 혼자면 화살표, 타인 있으면 접속자 수 */}
-                {others.length > 0 ? (
-                    <span className="text-xs font-bold text-slate-500">{others.length}</span>
+                {otherUserCount > 0 ? (
+                    <span className="text-xs font-bold text-slate-500">{otherUserCount}</span>
                 ) : (
                     <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
                 )}
@@ -379,8 +391,29 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                             </div>
                         </div>
                     </div>
+                    {/* ── 권한 동기화 배너 (DB role 과 현재 세션 role 이 다르면 표시) ── */}
+                    {(() => {
+                        const myRecord = members.find((m) => m.user_id === self?.id);
+                        if (!myRecord || !sessionRole || myRecord.role === sessionRole) return null;
+                        return (
+                            <div className="mx-3 my-2 px-3 py-2 rounded-lg bg-amber-50 border border-amber-200 flex items-center gap-2">
+                                <div className="flex-1 min-w-0">
+                                    <p className="text-[11px] font-semibold text-amber-800">권한이 최신 상태가 아니에요</p>
+                                    <p className="text-[10px] text-amber-600 truncate">현재: {sessionRole} · 실제: {myRecord.role}</p>
+                                </div>
+                                <button
+                                    type="button"
+                                    onClick={() => window.location.reload()}
+                                    className="shrink-0 px-2 py-1 rounded-md bg-amber-500 hover:bg-amber-600 text-white text-[10px] font-semibold flex items-center gap-1"
+                                >
+                                    <RefreshCw className="w-3 h-3" />
+                                    새로고침
+                                </button>
+                            </div>
+                        );
+                    })()}
                     {/* ── 접속자 목록 ── */}
-                    {(others.length > 0 || members.length > 0) && (
+                    {(otherUserCount > 0 || members.length > 0) && (
                         <div className="border-t border-gray-50 pt-1 pb-1">
                             <div className="px-4 py-1.5 flex items-center justify-between">
                                 <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wide">멤버</p>
