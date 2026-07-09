@@ -33,10 +33,12 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
     const [members, setMembers] = useState<MemberRecord[]>([]);
     const [openActionsFor, setOpenActionsFor] = useState<string | null>(null);
+    const [actionsPos, setActionsPos] = useState<{ top: number; right: number } | null>(null);
     const [transferTarget, setTransferTarget] = useState<MemberRecord | null>(null);
     const [pendingUserId, setPendingUserId] = useState<string | null>(null);
     const ref = useRef<HTMLDivElement>(null);
     const buttonRef = useRef<HTMLButtonElement>(null);
+    const actionsPopoverRef = useRef<HTMLDivElement>(null);
 
     const email = user?.email || '';
     const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
@@ -85,13 +87,16 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500', 'bg-cyan-500'];
     const avatarColor = email ? colors[email.charCodeAt(0) % colors.length] : 'bg-slate-400';
 
-    // 외부 클릭 시 닫기
+    // 외부 클릭 시 닫기 (액션 팝오버 내부는 무시 — body 로 portal 되어 ref.current 밖으로 판정되기 때문)
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
-            if (ref.current && !ref.current.contains(e.target as Node) &&
-                buttonRef.current && !buttonRef.current.contains(e.target as Node)) {
+            const target = e.target as Node;
+            if (actionsPopoverRef.current && actionsPopoverRef.current.contains(target)) return;
+            if (ref.current && !ref.current.contains(target) &&
+                buttonRef.current && !buttonRef.current.contains(target)) {
                 setOpen(false);
                 setOpenActionsFor(null);
+                setActionsPos(null);
             }
         };
         document.addEventListener('mousedown', handleClickOutside);
@@ -254,61 +259,81 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     type="button"
                     onClick={(e) => {
                         e.stopPropagation();
-                        setOpenActionsFor(isOpen ? null : target.user_id);
+                        if (isOpen) {
+                            setOpenActionsFor(null);
+                            setActionsPos(null);
+                        } else {
+                            const rect = (e.currentTarget as HTMLButtonElement).getBoundingClientRect();
+                            setActionsPos({ top: rect.bottom + 4, right: window.innerWidth - rect.right });
+                            setOpenActionsFor(target.user_id);
+                        }
                     }}
                     disabled={isPending}
-                    className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md flex items-center gap-0.5 hover:opacity-80 transition-opacity ${meta.cls} ${isPending ? 'opacity-50' : ''}`}
+                    title="권한 변경"
+                    className={`text-[11px] font-semibold pl-2 pr-1 py-1 rounded-md border border-current/30 flex items-center gap-1 hover:brightness-95 hover:shadow-sm active:scale-95 transition-all ring-1 ring-transparent hover:ring-current/20 ${meta.cls} ${isOpen ? 'ring-current/40 shadow-sm' : ''} ${isPending ? 'opacity-50' : ''}`}
                 >
                     {meta.text}
-                    <ChevronDown className="w-2.5 h-2.5" />
+                    <ChevronDown className={`w-3 h-3 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
                 </button>
-                {isOpen && (
-                    <div className="absolute right-0 top-full mt-1 w-32 bg-white rounded-lg shadow-xl border border-gray-100 py-1 z-[1000000]">
-                        {target.role !== 'editor' && (
-                            <button
-                                type="button"
-                                onClick={() => handleRoleChange(target.user_id, 'editor')}
-                                className="w-full text-left px-3 py-1.5 text-xs text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                            >
-                                편집자로 변경
-                            </button>
-                        )}
-                        {target.role !== 'viewer' && (
-                            <button
-                                type="button"
-                                onClick={() => handleRoleChange(target.user_id, 'viewer')}
-                                className="w-full text-left px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-100 transition-colors"
-                            >
-                                뷰어로 변경
-                            </button>
-                        )}
-                        <div className="my-1 border-t border-gray-100" />
-                        <button
-                            type="button"
-                            onClick={() => {
-                                const rec = members.find((m) => m.user_id === target.user_id);
-                                if (rec) setTransferTarget(rec);
-                            }}
-                            className="w-full text-left px-3 py-1.5 text-xs text-amber-600 hover:bg-amber-50 transition-colors flex items-center gap-1.5"
-                        >
-                            <Crown className="w-3 h-3" />
-                            소유자 위임
-                        </button>
-                        <div className="my-1 border-t border-gray-100" />
-                        <button
-                            type="button"
-                            onClick={() => {
-                                const rec = members.find((m) => m.user_id === target.user_id);
-                                if (rec) handleRemove(rec);
-                            }}
-                            className="w-full text-left px-3 py-1.5 text-xs text-red-500 hover:bg-red-50 transition-colors flex items-center gap-1.5"
-                        >
-                            <UserMinus className="w-3 h-3" />
-                            내보내기
-                        </button>
-                    </div>
-                )}
             </div>
+        );
+    };
+
+    // 뱃지 액션 팝오버 — body 로 portal 해 최상위 z-index 로 띄움 (부모 overflow 클리핑 회피)
+    const actionsTarget = openActionsFor ? members.find((m) => m.user_id === openActionsFor) ?? { user_id: openActionsFor, role: null as Role | null } : null;
+    const renderActionsPopover = () => {
+        if (!openActionsFor || !actionsPos || !actionsTarget || typeof document === 'undefined') return null;
+        const role = (actionsTarget as any).role as Role | null;
+        return createPortal(
+            <div
+                ref={actionsPopoverRef}
+                style={{ position: 'fixed', top: actionsPos.top, right: actionsPos.right, zIndex: 9999999 }}
+                className="w-36 bg-white rounded-lg shadow-2xl border border-gray-100 py-1"
+            >
+                {role !== 'editor' && (
+                    <button
+                        type="button"
+                        onClick={() => handleRoleChange(openActionsFor, 'editor')}
+                        className="w-full text-left px-3 py-2 text-xs text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                        편집자로 변경
+                    </button>
+                )}
+                {role !== 'viewer' && (
+                    <button
+                        type="button"
+                        onClick={() => handleRoleChange(openActionsFor, 'viewer')}
+                        className="w-full text-left px-3 py-2 text-xs text-slate-700 hover:bg-slate-100 transition-colors"
+                    >
+                        뷰어로 변경
+                    </button>
+                )}
+                <div className="my-1 border-t border-gray-100" />
+                <button
+                    type="button"
+                    onClick={() => {
+                        const rec = members.find((m) => m.user_id === openActionsFor);
+                        if (rec) setTransferTarget(rec);
+                    }}
+                    className="w-full text-left px-3 py-2 text-xs text-amber-600 hover:bg-amber-50 transition-colors flex items-center gap-1.5"
+                >
+                    <Crown className="w-3 h-3" />
+                    소유자 위임
+                </button>
+                <div className="my-1 border-t border-gray-100" />
+                <button
+                    type="button"
+                    onClick={() => {
+                        const rec = members.find((m) => m.user_id === openActionsFor);
+                        if (rec) handleRemove(rec);
+                    }}
+                    className="w-full text-left px-3 py-2 text-xs text-red-500 hover:bg-red-50 transition-colors flex items-center gap-1.5"
+                >
+                    <UserMinus className="w-3 h-3" />
+                    내보내기
+                </button>
+            </div>,
+            document.body,
         );
     };
 
@@ -357,21 +382,37 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     {/* ── 접속자 목록 ── */}
                     {(others.length > 0 || members.length > 0) && (
                         <div className="border-t border-gray-50 pt-1 pb-1">
-                            <p className="px-4 py-1.5 text-[10px] font-semibold text-slate-400 uppercase tracking-wide">멤버</p>
+                            <div className="px-4 py-1.5 flex items-center justify-between">
+                                <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-wide">멤버</p>
+                                {iAmOwner && (
+                                    <p className="text-[10px] text-emerald-600">뱃지 탭 → 권한 변경</p>
+                                )}
+                            </div>
                             <div className="max-h-52 overflow-y-auto overflow-x-visible">
-                                {/* 현재 접속 중인 다른 사람들 */}
+                                {/* 현재 접속 중인 다른 사람들 (user_id 중복 제거 — 같은 계정이 여러 기기로 접속해도 1개만) */}
                                 {(() => {
+                                    // user_id(비로그인은 connectionId 로 대체) 기준 dedupe. 첫 connection 유지.
+                                    // self.id 와 같으면 제외 (같은 계정이 다른 기기로 접속한 나 자신 → 상단 사용자 정보 섹션에 이미 표시됨)
+                                    const seen = new Set<string>();
+                                    const uniqueOthers = others.filter((o) => {
+                                        if (o.id && o.id === self?.id) return false;
+                                        const key = o.id || `guest-${o.connectionId}`;
+                                        if (seen.has(key)) return false;
+                                        seen.add(key);
+                                        return true;
+                                    });
+
                                     // 손님(미등록) 번호 사전 계산
                                     let guestIdx = 1;
                                     const guestNumMap = new Map<number, number>();
-                                    others.forEach((o) => {
+                                    uniqueOthers.forEach((o) => {
                                         if (!members.find((m) => m.user_id === o.id)) {
                                             guestNumMap.set(o.connectionId, guestIdx++);
                                         }
                                     });
                                     const totalGuests = guestIdx - 1;
 
-                                    return others.map((other) => {
+                                    return uniqueOthers.map((other) => {
                                         const info = other.info as any;
                                         const name = info?.name || '사용자';
                                         const infoEmail = info?.email || '';
@@ -462,6 +503,9 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                 </div>,
                 document.body
             )}
+
+            {/* 뱃지 액션 팝오버 (portal → body 로 최상위 렌더) */}
+            {renderActionsPopover()}
 
             {/* 공유 모달 */}
             {showShare && typeof document !== 'undefined' && (

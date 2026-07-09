@@ -812,7 +812,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                 {/* 📱 모바일 우측 드롭존 — 타임라인 카드: 삭제 / 그 외(인박스·picker·shared): 변경 없이 인박스만 재오픈 (사실상 취소) */}
                                 {activeDragItem && (
-                                    <RightDeleteZone isActive={isDeleteZoneActive} />
+                                    <RightDeleteZone isActive={isDeleteZoneActive} inboxOpen={inboxState === 'open'} />
                                 )}
 
                                 {/* 모바일 우측 토글 버튼 (드래그 중이 아닐 때 항상 표시 — 양방향 개폐) */}
