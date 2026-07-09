@@ -78,7 +78,7 @@ export function useCardMutations() {
         }
     }, []);
 
-    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address, etcItem = '' }) => {
+    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address, hasInfo, etcItem = '' }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -126,6 +126,7 @@ export function useCardMutations() {
             reservationRequired,
             rating,
             address,
+            hasInfo,
             isUserCreated: true,  // 사용자가 직접 추가한 카드
             etcItem: etcItem || '',  // 기타 카드 항목
         });
@@ -142,7 +143,7 @@ export function useCardMutations() {
         } else {
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0 }) => {
+    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0 }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -209,6 +210,7 @@ export function useCardMutations() {
             pickupAvailable,
             reservationRequired,
             rating,
+            hasInfo,
             // 도시간 항공편 마커
             isIntercityFlight,
             airportCode,

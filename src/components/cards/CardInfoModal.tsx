@@ -5,6 +5,7 @@ import { AccommodationInfoView } from './info/AccommodationInfoView';
 import { RestaurantInfoView } from './info/RestaurantInfoView';
 import { ShoppingInfoView } from './info/ShoppingInfoView';
 import { TransportInfoView } from './info/TransportInfoView';
+import { TourSpaInfoView } from './info/TourSpaInfoView';
 
 interface CardInfoModalProps {
     card: any;
@@ -41,6 +42,8 @@ export function CardInfoModal({ card, isOpen, onClose }: CardInfoModalProps) {
                 return <ShoppingInfoView card={card} isOpen={isOpen} onClose={onClose} />;
             case 'transport':
                 return <TransportInfoView card={card} isOpen={isOpen} onClose={onClose} />;
+            case 'tourspa':
+                return <TourSpaInfoView card={card} isOpen={isOpen} onClose={onClose} />;
             default:
                 return null;
         }

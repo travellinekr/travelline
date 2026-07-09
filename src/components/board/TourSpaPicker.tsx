@@ -120,6 +120,7 @@ function DraggableTourSpaCard({ tourSpa, index, cardId }: { tourSpa: any; index:
         features: tourSpa.features,
         rating: tourSpa.rating,
         icon: tourSpa.icon,
+        hasInfo: tourSpa.hasInfo,
         isUserCreated: tourSpa.isUserCreated,
     };
 
@@ -271,6 +272,7 @@ export function TourSpaPicker({
                                 features: tourSpa.features,
                                 rating: tourSpa.rating,
                                 city: tourSpa.city,
+                                hasInfo: tourSpa.hasInfo,
                                 isUserCreated: false,
                             }}
                             index={index}
