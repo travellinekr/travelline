@@ -4,6 +4,7 @@ import type { AccommodationInfo } from '@/data/card-info-types';
 // 기준: 2026-07-08, 최근 한국어 후기/예약 페이지에서 반복 확인되는 객실 상태·위치·조식 포인트 중심으로 간결 정리.
 const info: Record<string, AccommodationInfo> = {
     "호텔 메트로폴리탄 도쿄 마루노우치": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tokyo_Station_Marunouchi_Building_2021.jpg/640px-Tokyo_Station_Marunouchi_Building_2021.jpg"],
         summary: "도쿄역 접근성이 핵심인 고층 비즈니스형 호텔로, 짧은 일정과 이동 많은 여행에 편합니다.",
         updatedAt: "2026-07-08",
         highlights: ["도쿄역·마루노우치 이동이 매우 편리", "객실은 깔끔하지만 도쿄 도심 호텔답게 크기는 아담한 편", "고층 뷰와 조용한 분위기 선호 여행자에게 적합"],
@@ -18,6 +19,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://tokyomarunouchi.metropolitan.jp/", type: "official", description: "호텔 공식 객실·조식 정보" }]
     },
     "JR 큐슈 호텔 블라섬 신주쿠": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Shinjuku_skyline_south_side_2020.jpg/640px-Shinjuku_skyline_south_side_2020.jpg"],
         summary: "신주쿠역 남쪽 동선이 좋아 한국 여행자 후기에서 위치 만족도가 자주 언급되는 호텔입니다.",
         updatedAt: "2026-07-08",
         highlights: ["신주쿠역·버스터미널 접근이 쉬움", "객실·욕실 관리가 깔끔하다는 후기가 많음", "첫 도쿄 여행자도 동선 잡기 쉬운 위치"],
@@ -31,6 +33,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://www.jrk-hotels.co.jp/Shinjuku/en/", type: "official" }]
     },
     "호텔 그레이스리 신주쿠": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kabukicho_2023.jpg/640px-Kabukicho_2023.jpg"],
         summary: "가부키초 중심의 대형 호텔로, 번화가 접근성과 고질라 헤드로 인지도가 높습니다.",
         updatedAt: "2026-07-08",
         highlights: ["신주쿠 야간 동선이 편리", "객실은 실용적이고 기본 시설 위주", "관광·쇼핑 후 늦게 들어오는 일정에 맞음"],
@@ -45,6 +48,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://gracery.com/shinjuku/", type: "official" }]
     },
     "미츠이 가든 호텔 긴자 프리미어": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ginza_at_Night%2C_Tokyo.jpg/640px-Ginza_at_Night%2C_Tokyo.jpg"],
         summary: "긴자·신바시 사이 고층 호텔로, 객실 전망과 쇼핑 동선이 장점입니다.",
         updatedAt: "2026-07-08",
         highlights: ["긴자 쇼핑과 신바시 교통을 함께 쓰기 좋음", "고층 뷰와 차분한 객실 분위기", "커플·성인 여행 후기가 많은 편"],
@@ -58,6 +62,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://www.gardenhotels.co.jp/ginzapremier/eng/", type: "official" }]
     },
     "리치몬드 호텔 프리미어 아사쿠사": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sensoji_2023.jpg/640px-Sensoji_2023.jpg"],
         summary: "센소지와 스카이트리 관광 동선이 좋은 아사쿠사권 실속형 호텔입니다.",
         updatedAt: "2026-07-08",
         highlights: ["아사쿠사 관광지 도보 접근", "객실 컨디션 대비 가격 만족도 후기가 많음", "가족·커플 여행 모두 무난"],
@@ -71,6 +76,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://richmondhotel.jp/asakusa-international/", type: "official" }]
     },
     "NOHGA HOTEL UENO TOKYO": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ueno_park.jpg/640px-Ueno_park.jpg"],
         summary: "우에노역 도보권의 감각적인 라이프스타일 호텔로, 객실 상태와 조식 만족도가 자주 언급됩니다.",
         updatedAt: "2026-07-08",
         highlights: ["우에노·아메요코·공원 동선이 좋음", "깔끔하고 현대적인 객실 분위기", "조식과 로컬 감성 공간 선호 후기가 많음"],
@@ -84,6 +90,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://nohgahotel.com/ueno/en/", type: "official" }]
     },
     "더 게이트 호텔 도쿄 바이 휴릭": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ginza_at_Night%2C_Tokyo.jpg/640px-Ginza_at_Night%2C_Tokyo.jpg"],
         summary: "긴자·히비야·유라쿠초를 한 번에 쓰기 좋은 도심형 호텔입니다.",
         updatedAt: "2026-07-08",
         highlights: ["긴자 쇼핑과 히비야 산책 동선이 좋음", "루프탑·라운지 분위기 만족 후기가 있음", "객실은 깔끔하고 성인 여행에 적합"],
@@ -97,6 +104,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://www.gate-hotel.jp/tokyo/en/", type: "official" }]
     },
     "다이와 로이넷 호텔 니시신주쿠 프리미어": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Tokyo_Metropolitan_Government_Building_2024.jpg/640px-Tokyo_Metropolitan_Government_Building_2024.jpg"],
         summary: "신주쿠 중심부보다 차분한 니시신주쿠에 있어 가족·장기 일정에 무난합니다.",
         updatedAt: "2026-07-08",
         highlights: ["주변이 비교적 조용하고 정돈된 분위기", "객실 상태와 욕실 편의성 후기가 무난", "신주쿠 접근성과 휴식감을 같이 원하는 일정에 적합"],
@@ -110,6 +118,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://www.daiwaroynet.jp/nishishinjuku-premier/", type: "official" }]
     },
     "호텔 메트로폴리탄 도쿄 이케부쿠로": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ikebukuro_Station_West_Exit_2023.jpg/640px-Ikebukuro_Station_West_Exit_2023.jpg"],
         summary: "이케부쿠로역 인접 대형 호텔로, 북서부 도쿄와 쇼핑 동선이 편합니다.",
         updatedAt: "2026-07-08",
         highlights: ["이케부쿠로역 접근성이 좋음", "대형 호텔이라 기본 서비스가 안정적인 편", "신주쿠·시부야 외 지역 이동 계획에 유리"],
@@ -123,6 +132,7 @@ const info: Record<string, AccommodationInfo> = {
         links: [{ label: "공식 사이트", url: "https://ikebukuro.metropolitan.jp/", type: "official" }]
     },
     "sequence MIYASHITA PARK": {
+        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Miyashita_Park_2020.jpg/640px-Miyashita_Park_2020.jpg"],
         summary: "시부야 미야시타파크와 연결된 감성 호텔로, 젊은 여행자와 쇼핑·카페 일정에 잘 맞습니다.",
         updatedAt: "2026-07-08",
         highlights: ["시부야 중심부와 미야시타파크 접근성", "객실은 컴팩트하지만 디자인 만족 후기가 많음", "체크아웃 시간이 늦어 여유로운 일정에 좋음"],

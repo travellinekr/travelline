@@ -85,6 +85,7 @@ export function buildPickerCardPayload(
                 features: draggedCard.features,
                 rating: draggedCard.rating,
                 icon: draggedCard.icon,
+                hasInfo: draggedCard.hasInfo,
             };
         default:
             return null;

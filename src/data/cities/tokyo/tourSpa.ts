@@ -3,6 +3,7 @@ import type { TourSpaData } from '@/data/tourSpa';
 const tourSpa: TourSpaData[] = [
     {
         name: "센소지",
+        hasInfo: true,
         type: "cultural",
         description: "아사쿠사 대표 사찰, 나카미세도리와 함께 걷기 좋은 전통 명소",
         duration: "1-2시간",
@@ -16,6 +17,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "메이지 신궁",
+        hasInfo: true,
         type: "cultural",
         description: "하라주쿠 옆 숲길과 신궁을 함께 둘러보는 조용한 문화 명소",
         duration: "1-2시간",
@@ -29,6 +31,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "도쿄 타워",
+        hasInfo: true,
         type: "city-tour",
         description: "도쿄의 클래식 랜드마크, 야경과 사진 코스로 넣기 좋은 전망 명소",
         duration: "1-2시간",
@@ -42,6 +45,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "도쿄 스카이트리",
+        hasInfo: true,
         type: "city-tour",
         description: "스미다·아사쿠사 동선과 묶기 좋은 초고층 전망대",
         duration: "2-3시간",
@@ -55,6 +59,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "시부야 스카이",
+        hasInfo: true,
         type: "city-tour",
         description: "시부야 상공에서 도쿄 전경을 보는 인기 전망 명소",
         duration: "1-2시간",
@@ -68,6 +73,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "황거 동쪽 정원",
+        hasInfo: true,
         type: "cultural",
         description: "도쿄역·마루노우치 동선에 넣기 좋은 역사 산책 코스",
         duration: "1-2시간",
@@ -81,6 +87,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "우에노 공원",
+        hasInfo: true,
         type: "city-tour",
         description: "박물관·미술관·동물원까지 묶을 수 있는 우에노 대표 산책지",
         duration: "1-3시간",
@@ -94,6 +101,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "도쿄 국립박물관",
+        hasInfo: true,
         type: "cultural",
         description: "일본 미술·역사 유물을 한 번에 보기 좋은 우에노 핵심 실내 명소",
         duration: "2-3시간",
@@ -107,6 +115,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "하마리큐 은사정원",
+        hasInfo: true,
         type: "city-tour",
         description: "긴자·신바시·츠키지 동선과 잘 맞는 도심 일본식 정원",
         duration: "1-2시간",
@@ -120,6 +129,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "teamLab Borderless Azabudai Hills",
+        hasInfo: true,
         type: "theme-park",
         description: "아자부다이 힐스의 몰입형 디지털 아트 전시, 실내 일정으로 유용",
         duration: "2-3시간",
@@ -133,6 +143,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "도쿄도청 전망대",
+        hasInfo: true,
         type: "city-tour",
         description: "신주쿠에서 무료로 도쿄 전경을 볼 수 있는 전망대",
         duration: "1시간",
@@ -146,6 +157,7 @@ const tourSpa: TourSpaData[] = [
     },
     {
         name: "오다이바 해변공원",
+        hasInfo: true,
         type: "city-tour",
         description: "레인보우브릿지 야경과 쇼핑몰 동선을 함께 잡기 좋은 베이사이드 명소",
         duration: "1-2시간",

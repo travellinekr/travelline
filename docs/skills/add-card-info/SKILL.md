@@ -9,8 +9,8 @@
 ## 1. 언제 이 스킬을 쓰는가
 
 - 이미 등록된 카드(예: cities/osaka/restaurants.ts 의 "이치란 라멘 도톤보리") 에 상세 정보 팝업을 붙일 때
-- 대상: hotel · food · shopping · transport (4 카테고리)
-- 대상 아님: preparation(입국 카드) — 별도 스킬 `add-entry-info` 사용, tourspa — 미지원
+- 대상: hotel · food · shopping · transport · tourspa (5 카테고리)
+- 대상 아님: preparation(입국 카드) — 별도 스킬 `add-entry-info` 사용
 
 ---
 
@@ -21,7 +21,8 @@ src/data/cities/<slug>/info/
 ├── accommodations.ts    ← Record<카드 name, AccommodationInfo>
 ├── restaurants.ts       ← Record<카드 name, RestaurantInfo>
 ├── shopping.ts          ← Record<카드 name, ShoppingInfo>
-└── transport.ts         ← Record<카드 name, TransportInfo>
+├── transport.ts         ← Record<카드 name, TransportInfo>
+└── tourSpa.ts           ← Record<카드 name, TourSpaInfo>
 ```
 
 **왜 이 위치**:
@@ -143,7 +144,7 @@ export default info;
 | `highlights?: string[]` | ✓ 초록 체크 불릿 |
 | `tips?: string[]` | 💡 인디고 불릿 |
 | `warnings?: string[]` | 노란 경고 박스 (배열 개수만큼) |
-| `photos?: string[]` | 3열 썸네일 (클릭 → 새 탭 원본) |
+| `photos?: string[]` | 3열 썸네일 (클릭 → 새 탭 원본). 숙소·맛집·tourspa 인포 팝업은 첫 번째 이미지를 상단 대표 hero 이미지로 사용하고, 두 번째 이미지부터 하단 갤러리에 표시 |
 | `links?: InfoLink[]` | 색상 3종 (`official` 초록 · `blog` 주황 · `guide` 남색) |
 | `updatedAt?: string` | 우측 회색 작은 텍스트 "YYYY-MM-DD 기준" |
 

@@ -27,6 +27,7 @@ export interface TourSpaData {
     features?: string[];      // 특징
     rating?: number;          // 평점 (1-5)
     icon?: string;           // 이모지
+    hasInfo?: boolean;        // true 면 cities/<slug>/info/tourSpa.ts 에 상세 인포 존재
 }
 
 // 예제 샘플 데이터 (직접 추가하기 참고용)

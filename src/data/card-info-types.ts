@@ -63,6 +63,16 @@ export interface TransportInfo extends InfoBase {
     route?: { name: string; stations: string[] }[];
 }
 
+// 투어&스파 / 관광지
+export interface TourSpaInfo extends InfoBase {
+    hours?: string;
+    duration?: string;
+    price?: string;
+    reservation?: { required: boolean; method?: string; url?: string; note?: string };
+    access?: { station?: string; area?: string; note?: string };
+    bestTime?: string;
+}
+
 // 카테고리 → 데이터 파일명 매핑 (dynamic import 경로 계산용)
 // 카드의 category 필드는 'hotel' 등이지만 파일명은 'accommodations' 등이므로 매핑 필요
 export const CATEGORY_TO_INFO_FILE: Record<string, string> = {
@@ -70,4 +80,5 @@ export const CATEGORY_TO_INFO_FILE: Record<string, string> = {
     food: 'restaurants',
     shopping: 'shopping',
     transport: 'transport',
+    tourspa: 'tourSpa',
 };
