@@ -191,7 +191,11 @@ export function FoodPicker({
     const anchorCoords = anchorCard?.coordinates ?? null;
     // 다중 도시 — subCities 있으면 그 도시들 데이터 통합 로드, 없으면 destinationCity 하나만
     const allRestaurants = useSubCityFilteredData(getRestaurantsByCity, subCities, destinationCity);
-    const sampleRestaurants = sortByAnchorDistance(allRestaurants.filter(r => r.showInInbox), anchorCoords);
+    const inboxRestaurants = allRestaurants.filter(r => r.showInInbox);
+    // pinTop 은 앵커/거리순과 무관하게 항상 최상단. 나머지만 앵커 거리순 정렬.
+    const pinnedRestaurants = inboxRestaurants.filter(r => r.pinTop);
+    const regularRestaurants = sortByAnchorDistance(inboxRestaurants.filter(r => !r.pinTop), anchorCoords);
+    const sampleRestaurants = [...pinnedRestaurants, ...regularRestaurants];
     const sortedCreatedCards = sortByAnchorDistance(createdCards, anchorCoords);
 
     // 필터 적용 (드롭다운 type 그룹 AND 이름 검색 AND 서브 도시)

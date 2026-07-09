@@ -34,6 +34,7 @@ export type RestaurantData = {
     icon?: string;
     showInInbox?: boolean;
     hasInfo?: boolean;  // true 면 cities/<slug>/info/restaurants.ts 에 상세 인포 존재
+    pinTop?: boolean;   // true 면 인박스 맛집 목록에서 앵커/거리순 정렬과 무관하게 항상 최상단
 };
 
 // 쇼핑
