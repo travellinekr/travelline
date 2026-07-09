@@ -96,8 +96,8 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
               type="button"
               onPointerDown={(e) => e.stopPropagation()}
               onClick={(e) => { e.stopPropagation(); onShareClick(); }}
-              title="여행쇼핑에 공유"
-              aria-label="여행쇼핑에 공유"
+              title="공유플랜으로 공유"
+              aria-label="공유플랜으로 공유"
               className="w-6 h-6 flex items-center justify-center rounded-full hover:bg-rose-200 text-rose-400 hover:text-rose-600 transition-colors pointer-events-auto"
             >
               <Share2 className="w-3.5 h-3.5" />

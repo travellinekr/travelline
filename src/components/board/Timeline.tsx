@@ -30,6 +30,12 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
       addToast?.('여행지가 선택되지 않았어요.', 'warning');
       return;
     }
+    // 일차 컬럼 중 카드가 하나라도 있어야 공유 가능 (빈 일정 공유 방지)
+    const hasAnyDayCard = snapshot.days.some((d) => d.cards.length > 0);
+    if (!hasAnyDayCard) {
+      addToast?.('일차에 카드를 하나 이상 추가한 후 공유해주세요.', 'warning');
+      return;
+    }
     try {
       const token = await getCachedAccessToken(sessionCtx);
       if (!token) {
@@ -54,7 +60,12 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
         addToast?.(data?.error || '발행에 실패했어요.', 'warning');
         return;
       }
-      addToast?.('공유하신 여행계획은 여행쇼핑에 등록됩니다.', 'info');
+      const data = await res.json().catch(() => ({}));
+      if (data?.updated) {
+        addToast?.('공유플랜이 업데이트되었어요.', 'info');
+      } else {
+        addToast?.('공유되었어요. 인박스 공유플랜에서 확인할 수 있어요.', 'info');
+      }
     } catch (e) {
       console.error('[share]', e);
       addToast?.('발행 중 오류가 발생했어요.', 'warning');
