@@ -170,6 +170,9 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     };
 
     const handleRoleChange = async (targetUserId: string, newRole: 'editor' | 'viewer') => {
+        // 드롭다운 먼저 닫기 (API 응답 대기 UI 감춤)
+        setOpenActionsFor(null);
+        setActionsPos(null);
         setPendingUserId(targetUserId);
         const ok = await patchMemberRole(targetUserId, newRole);
         if (ok) {
@@ -177,30 +180,35 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             addToast(newRole === 'editor' ? '편집자로 변경되었어요.' : '뷰어로 변경되었어요.', 'info');
             broadcast({ type: 'ROLE_CHANGED', userId: targetUserId });
         }
-        setOpenActionsFor(null);
         setPendingUserId(null);
     };
 
     const handleOwnerTransfer = async () => {
         if (!transferTarget) return;
+        // 드롭다운·모달 먼저 닫기
+        setOpenActionsFor(null);
+        setActionsPos(null);
         setPendingUserId(transferTarget.user_id);
-        const ok = await patchMemberRole(transferTarget.user_id, 'owner');
+        const targetId = transferTarget.user_id;
+        const ok = await patchMemberRole(targetId, 'owner');
         if (ok) {
             setMembers((prev) => prev.map((m) => {
-                if (m.user_id === transferTarget.user_id) return { ...m, role: 'owner' };
+                if (m.user_id === targetId) return { ...m, role: 'owner' };
                 if (m.user_id === self?.id) return { ...m, role: 'editor' };
                 return m;
             }));
             addToast('소유자를 위임했어요. 새로고침 후 반영됩니다.', 'info');
-            broadcast({ type: 'ROLE_CHANGED', userId: transferTarget.user_id });
+            broadcast({ type: 'ROLE_CHANGED', userId: targetId });
         }
         setTransferTarget(null);
-        setOpenActionsFor(null);
         setPendingUserId(null);
     };
 
     const handleRemove = async (target: MemberRecord) => {
         if (!confirm(`${target.name || '사용자'} 님을 내보낼까요?`)) return;
+        // 드롭다운 먼저 닫기
+        setOpenActionsFor(null);
+        setActionsPos(null);
         setPendingUserId(target.user_id);
         const ok = await deleteMember(target.user_id);
         if (ok) {
@@ -208,7 +216,6 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             addToast('내보냈어요.', 'info');
             broadcast({ type: 'ROLE_CHANGED', userId: target.user_id });
         }
-        setOpenActionsFor(null);
         setPendingUserId(null);
     };
 
