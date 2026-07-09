@@ -110,6 +110,7 @@ function DraggableShoppingCard({ card, cardId }: { card: any; cardId?: string })
         icon: card.icon,
         rating: card.rating,
         address: card.address,
+        hasInfo: card.hasInfo,
         isUserCreated: card.isUserCreated,
     };
 
@@ -260,6 +261,7 @@ export function ShoppingPicker({
                                 coordinates: shopping.coordinates,
                                 features: shopping.features,
                                 icon: shopping.icon,
+                                hasInfo: shopping.hasInfo,
                                 isUserCreated: false,  // 샘플 카드는 삭제 불가
                             }}
                         />

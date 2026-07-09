@@ -2,7 +2,7 @@ import type { TourSpaInfo } from '@/data/card-info-types';
 
 const info: Record<string, TourSpaInfo> = {
     "센소지": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sensoji_2023.jpg/330px-Sensoji_2023.jpg"],
+        photos: ["/images/tokyo/info/tourspa/sensoji.jpg"],
         summary: "아사쿠사 전통 동선의 핵심 사찰로, 나카미세도리와 함께 짧고 밀도 있게 둘러보기 좋습니다.",
         highlights: ["가미나리몬·나카미세도리·본당을 한 번에 연결", "초행 도쿄 여행자 후기에서 반복적으로 추천", "스카이트리·스미다 강 동선과 묶기 좋음"],
         tips: ["오전 일찍 가면 단체 관광객이 적어 사진 찍기 수월합니다.", "나카미세도리는 폐점 시간이 빠른 편이라 쇼핑은 낮 시간대가 안전합니다."],
@@ -19,7 +19,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "메이지 신궁": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Meiji_Jingu_2023-3.jpg/330px-Meiji_Jingu_2023-3.jpg"],
+        photos: ["/images/tokyo/info/tourspa/meiji-jingu.jpg"],
         summary: "하라주쿠 옆 숲길을 따라 걷는 조용한 신궁 코스로, 도심 속 산책형 일정에 적합합니다.",
         highlights: ["숲길 산책 만족도가 높은 코스", "하라주쿠·오모테산도와 연결 쉬움", "센소지와 대비되는 차분한 분위기"],
         tips: ["입구에서 본전까지 거리가 있어 편한 신발이 좋습니다.", "하라주쿠 쇼핑 전후로 1시간 정도 배정하면 무난합니다."],
@@ -36,7 +36,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "도쿄 타워": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tokyo_Tower_2023.jpg/330px-Tokyo_Tower_2023.jpg"],
+        photos: ["/images/tokyo/info/tourspa/tokyo-tower.jpg"],
         summary: "도쿄의 클래식 랜드마크로, 야경·사진 코스와 전망대 일정을 함께 잡기 좋습니다.",
         highlights: ["도쿄 대표 상징물", "야간 사진 만족도가 높음", "롯폰기·아자부다이 동선과 연결 가능"],
         tips: ["전망대 목적이면 온라인 티켓 가격과 운영 시간을 먼저 확인하세요.", "외관 사진만 찍을 경우 시바공원·조조지 방향이 무난합니다."],
@@ -53,7 +53,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "도쿄 스카이트리": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/330px-Tokyo_Skytree_2014_%E2%85%A2.jpg"],
+        photos: ["/images/tokyo/info/tourspa/tokyo-skytree.jpg"],
         summary: "아사쿠사·스미다 동선과 잘 맞는 초고층 전망대로, 쇼핑몰까지 한 번에 해결하기 좋습니다.",
         highlights: ["634m 전망대", "소라마치 쇼핑몰 연결", "센소지와 묶는 후기가 많음"],
         tips: ["날씨 영향을 크게 받으므로 방문 전 시야 상태를 확인하세요.", "아사쿠사 오전 방문 후 오후 스카이트리 동선이 효율적입니다."],
@@ -70,7 +70,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "시부야 스카이": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg/330px-SHIBUYA_SCRAMBLE_SQUARE_East_Tower.jpg"],
+        photos: ["/images/tokyo/info/tourspa/shibuya-sky.jpg"],
         summary: "시부야 상공에서 도쿄 전경과 노을을 보는 인기 전망대라 사전 예약 만족도가 높습니다.",
         highlights: ["노을·야경 후기 만족도가 높음", "도쿄타워·스카이트리 조망 가능", "시부야 쇼핑·식사와 연결 쉬움"],
         tips: ["노을 시간대는 빨리 매진되므로 미리 예약하세요.", "루프탑은 날씨와 강풍에 따라 제한될 수 있습니다."],
@@ -88,7 +88,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "황거 동쪽 정원": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Seimon_Ishibashi.JPG/330px-Seimon_Ishibashi.JPG"],
+        photos: ["/images/tokyo/info/tourspa/imperial-palace-garden.jpg"],
         summary: "도쿄역 근처에서 역사 유적과 정원을 가볍게 걷는 무료 산책 코스입니다.",
         highlights: ["도쿄역·마루노우치와 가까움", "무료 입장", "에도성 유적과 정원 산책 가능"],
         tips: ["휴원일이 있으므로 방문 전 공식 일정을 확인하세요.", "도쿄역 주변 일정 사이 1~2시간 넣기 좋습니다."],
@@ -105,7 +105,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "우에노 공원": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ueno_park.jpg/330px-Ueno_park.jpg"],
+        photos: ["/images/tokyo/info/tourspa/ueno-park.jpg"],
         summary: "박물관·미술관·동물원까지 묶을 수 있는 우에노 대표 산책지입니다.",
         highlights: ["도쿄국립박물관과 같은 날 동선", "벚꽃 시즌 대표 명소", "나리타 공항 이동 전후 거점으로도 편리"],
         tips: ["공원만 보면 짧고, 박물관까지 넣으면 반나절 일정으로 잡으세요.", "아메요코 시장과 함께 묶으면 식사·쇼핑 동선이 편합니다."],
@@ -122,7 +122,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "도쿄 국립박물관": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tokyo_National_Museum%2C_Honkan_2010.jpg/330px-Tokyo_National_Museum%2C_Honkan_2010.jpg"],
+        photos: ["/images/tokyo/info/tourspa/tokyo-national-museum.jpg"],
         summary: "일본 미술·역사 유물을 폭넓게 볼 수 있는 우에노 핵심 실내 명소입니다.",
         highlights: ["우천 대안으로 좋음", "우에노 공원과 자연스럽게 연결", "본관·정원 관람 후기가 많음"],
         tips: ["상설전만 봐도 2시간 이상 잡는 것이 좋습니다.", "특별전은 별도 티켓·혼잡 여부를 확인하세요."],
@@ -139,7 +139,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "하마리큐 은사정원": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hamarikyu_Garden_as_seen_from_Shiodome.jpg/330px-Hamarikyu_Garden_as_seen_from_Shiodome.jpg"],
+        photos: ["/images/tokyo/info/tourspa/hamarikyu-garden.jpg"],
         summary: "도심 빌딩과 전통 정원이 함께 보이는 긴자·신바시권 산책 명소입니다.",
         highlights: ["전통과 현대가 공존하는 풍경", "츠키지·신바시·긴자와 동선 좋음", "혼잡한 도심 일정 중 쉬어가기 좋음"],
         tips: ["츠키지 식사 후 산책 코스로 넣으면 자연스럽습니다.", "정원 내 찻집 운영 여부는 방문 전 확인하세요."],
@@ -156,7 +156,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "teamLab Borderless Azabudai Hills": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Azabudai_Hills_%28Garden_Plaza_B%2C_towers%2C_and_sign%3B_2025-11-06%29.jpg/330px-Azabudai_Hills_%28Garden_Plaza_B%2C_towers%2C_and_sign%3B_2025-11-06%29.jpg"],
+        photos: ["/images/tokyo/info/tourspa/teamlab-borderless.jpg"],
         summary: "아자부다이 힐스의 몰입형 디지털 아트 전시로, 사전 예약형 실내 일정에 적합합니다.",
         highlights: ["예약 후 방문 후기가 많음", "비 오는 날·더운 날 실내 대안", "아자부다이 힐스 구경과 연결 가능"],
         tips: ["늦은 시간대는 관람 시간이 짧게 느껴질 수 있어 여유 있게 예약하세요.", "짐은 락커에 맡기고 움직이는 편이 편합니다."],
@@ -174,7 +174,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "도쿄도청 전망대": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Tokyo_Metropolitan_Government_Building_2024.jpg/330px-Tokyo_Metropolitan_Government_Building_2024.jpg"],
+        photos: ["/images/tokyo/info/tourspa/tmg-observation.jpg"],
         summary: "신주쿠에서 무료로 도쿄 전경을 볼 수 있는 실속형 전망대입니다.",
         highlights: ["무료 전망대", "신주쿠 숙소·쇼핑 동선과 가까움", "도쿄타워·스카이트리 대안으로 좋음"],
         tips: ["유료 전망대 전후 비교 코스로 넣기 좋습니다.", "입장 대기와 운영 전망실 변경 여부를 확인하세요."],
@@ -191,7 +191,7 @@ const info: Record<string, TourSpaInfo> = {
         updatedAt: "2026-07-09"
     },
     "오다이바 해변공원": {
-        photos: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Odaiba_close_up_-_2025_Jan_14_01-27PM.jpeg/330px-Odaiba_close_up_-_2025_Jan_14_01-27PM.jpeg"],
+        photos: ["/images/tokyo/info/tourspa/odaiba-seaside-park.jpg"],
         summary: "레인보우브릿지와 베이사이드 야경을 보며 산책하기 좋은 오다이바 대표 명소입니다.",
         highlights: ["야경·해변 산책", "쇼핑몰·실내 시설과 연결 쉬움", "하마리큐·수상버스 동선과도 연계 가능"],
         tips: ["해질 무렵부터 야경까지 보는 일정이 가장 무난합니다.", "바람이 강한 날이 있어 외투를 준비하면 좋습니다."],

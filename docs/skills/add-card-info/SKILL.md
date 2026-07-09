@@ -144,7 +144,7 @@ export default info;
 | `highlights?: string[]` | ✓ 초록 체크 불릿 |
 | `tips?: string[]` | 💡 인디고 불릿 |
 | `warnings?: string[]` | 노란 경고 박스 (배열 개수만큼) |
-| `photos?: string[]` | 3열 썸네일 (클릭 → 새 탭 원본). 숙소·맛집·tourspa 인포 팝업은 첫 번째 이미지를 상단 대표 hero 이미지로 사용하고, 두 번째 이미지부터 하단 갤러리에 표시 |
+| `photos?: string[]` | 3열 썸네일 (클릭 → 새 탭 원본). 숙소·맛집·쇼핑·tourspa 인포 팝업은 첫 번째 이미지를 상단 대표 hero 이미지로 사용하고, 두 번째 이미지부터 하단 갤러리에 표시 |
 | `links?: InfoLink[]` | 색상 3종 (`official` 초록 · `blog` 주황 · `guide` 남색) |
 | `updatedAt?: string` | 우측 회색 작은 텍스트 "YYYY-MM-DD 기준" |
 
