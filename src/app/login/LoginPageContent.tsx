@@ -1,18 +1,44 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 import { Loader2 } from 'lucide-react';
 import TravellineLogo from '@/components/TravellineLogo';
 import { detectInAppBrowser, InAppKind } from '@/utils/inAppBrowser';
 import { InAppBrowserModal } from '@/components/auth/InAppBrowserModal';
 
+// URL ?error=<code> → 사용자 친화 메시지
+const ERROR_MESSAGES: Record<string, string> = {
+    naver_email_required: '네이버 이메일 제공 동의가 필요합니다. 다시 로그인 후 이메일 항목을 체크해주세요.',
+    naver_denied: '네이버 로그인이 취소되었습니다.',
+    naver_invalid_response: '네이버 응답이 올바르지 않습니다. 다시 시도해주세요.',
+    naver_token_failed: '네이버 인증에 실패했습니다. 다시 시도해주세요.',
+    naver_profile_failed: '네이버 프로필 조회에 실패했습니다.',
+    naver_not_configured: '네이버 로그인이 아직 설정되지 않았습니다.',
+    state_mismatch: '보안 검증에 실패했습니다. 다시 로그인해주세요.',
+    supabase_not_configured: '서버 설정에 문제가 있습니다.',
+    supabase_lookup_failed: '사용자 조회에 실패했습니다.',
+    supabase_create_failed: '계정 생성에 실패했습니다.',
+    supabase_link_failed: '세션 발급에 실패했습니다.',
+    unexpected: '예기치 못한 오류가 발생했습니다.',
+};
+
 export default function LoginPageContent() {
     const [loadingProvider, setLoadingProvider] = useState<string | null>(null);
     const [error, setError] = useState('');
     const [inAppKind, setInAppKind] = useState<InAppKind>(null);
 
-    const handleSocialLogin = async (provider: 'google' | 'kakao') => {
+    // URL ?error=X 감지 → 안내 문구 세팅
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        const params = new URLSearchParams(window.location.search);
+        const errCode = params.get('error');
+        if (errCode) {
+            setError(ERROR_MESSAGES[errCode] || errCode);
+        }
+    }, []);
+
+    const handleSocialLogin = async (provider: 'google' | 'kakao' | 'naver') => {
         // Google 은 인앱 브라우저(카톡·네이버앱 등) 차단 정책이라 사전 게이트.
         // 카카오·네이버는 차단 정책이 없어 인앱에서도 진행 가능.
         if (provider === 'google') {
@@ -31,13 +57,20 @@ export default function LoginPageContent() {
             : new URLSearchParams();
         const redirectPath = params.get('redirect') || '/';
 
+        // 네이버는 Supabase 기본 지원이 없어 자체 라우트 사용.
+        if (provider === 'naver') {
+            const nextQuery = redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : '';
+            window.location.href = `/api/auth/naver/login${nextQuery}`;
+            return;
+        }
+
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
 
         const { error } = await supabase.auth.signInWithOAuth({
             provider,
             options: {
                 redirectTo: callbackUrl,
-                ...(provider === 'kakao' && { scopes: 'profile_nickname profile_image' }),
+                ...(provider === 'kakao' && { scopes: 'profile_nickname profile_image account_email' }),
                 ...(provider === 'google' && { queryParams: { access_type: 'offline', prompt: 'consent' } }),
             },
         });
@@ -71,7 +104,7 @@ export default function LoginPageContent() {
                         <button
                             onClick={() => handleSocialLogin('google')}
                             disabled={loadingProvider !== null}
-                            className="w-full flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3.5 px-4 rounded-2xl transition-all hover:shadow-lg active:scale-95 disabled:opacity-60"
+                            className="w-full flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-gray-700 font-semibold py-3.5 px-4 rounded-2xl border border-slate-800 transition-all hover:shadow-lg active:scale-95 disabled:opacity-60"
                         >
                             {loadingProvider === 'google' ? (
                                 <Loader2 className="w-5 h-5 animate-spin text-gray-400" />
@@ -86,18 +119,34 @@ export default function LoginPageContent() {
                             Google로 로그인
                         </button>
 
-                        <button disabled className="w-full flex items-center justify-center gap-3 bg-[#FEE500]/40 text-[#191919]/40 font-semibold py-3.5 px-4 rounded-2xl cursor-not-allowed">
-                            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 3C6.477 3 2 6.477 2 10.8c0 2.7 1.636 5.08 4.1 6.52L5.2 21l4.32-2.84c.81.12 1.64.18 2.48.18 5.523 0 10-3.477 10-7.76C22 6.477 17.523 3 12 3z" />
-                            </svg>
-                            카카오로 로그인 (준비중)
+                        <button
+                            onClick={() => handleSocialLogin('kakao')}
+                            disabled={loadingProvider !== null}
+                            className="w-full flex items-center justify-center gap-3 bg-[#FEE500] hover:bg-[#f5dc00] text-[#191919] font-semibold py-3.5 px-4 rounded-2xl transition-all hover:shadow-lg active:scale-95 disabled:opacity-60"
+                        >
+                            {loadingProvider === 'kakao' ? (
+                                <Loader2 className="w-5 h-5 animate-spin" />
+                            ) : (
+                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 3C6.477 3 2 6.477 2 10.8c0 2.7 1.636 5.08 4.1 6.52L5.2 21l4.32-2.84c.81.12 1.64.18 2.48.18 5.523 0 10-3.477 10-7.76C22 6.477 17.523 3 12 3z" />
+                                </svg>
+                            )}
+                            카카오로 로그인
                         </button>
 
-                        <button disabled className="w-full flex items-center justify-center gap-3 bg-[#03C75A]/30 text-[#03C75A]/50 font-semibold py-3.5 px-4 rounded-2xl cursor-not-allowed">
-                            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z" />
-                            </svg>
-                            네이버로 로그인 (준비중)
+                        <button
+                            onClick={() => handleSocialLogin('naver')}
+                            disabled={loadingProvider !== null}
+                            className="w-full flex items-center justify-center gap-3 bg-[#03C75A] hover:bg-[#02b350] text-white font-semibold py-3.5 px-4 rounded-2xl transition-all hover:shadow-lg active:scale-95 disabled:opacity-60"
+                        >
+                            {loadingProvider === 'naver' ? (
+                                <Loader2 className="w-5 h-5 animate-spin" />
+                            ) : (
+                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z" />
+                                </svg>
+                            )}
+                            네이버로 로그인
                         </button>
                     </div>
 
