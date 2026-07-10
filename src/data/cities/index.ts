@@ -23,7 +23,7 @@ export type RestaurantData = {
     name: string;
     type: RestaurantType;
     city: string;
-    coordinates: { lat: number; lng: number };
+    coordinates?: { lat: number; lng: number };
     cuisine?: string;
     specialty?: string;
     priceRange?: string;
