@@ -9,6 +9,7 @@ import { DayMapModal } from "./DayMapModal";
 import { EmptyState } from "./EmptyState";
 import { buildSharedPlanSnapshot, calcDuration } from "@/utils/sharedPlanSnapshot";
 import { useSessionContext, getCachedAccessToken } from "@/contexts/SessionContext";
+import { ShareConfirmModal } from "@/components/modals/ShareConfirmModal";
 
 // 🎯 destination-header 전용 컴포넌트 (분홍 점선, 최대 1개)
 const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards, canEdit = true, addToast, columns, cardsMap, roomId, projectTitle }: any) {
@@ -19,8 +20,10 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
 
   const isDestinationCard = active?.data?.current?.category === 'destination';
   const shouldHighlight = isOver && isDestinationCard;
+  const [shareModalOpen, setShareModalOpen] = useState(false);
 
-  const handleShare = async () => {
+  // 공유 버튼 클릭 → 사전 검증 후 확인 모달 오픈
+  const handleShareClick = () => {
     if (!roomId || !projectTitle) {
       addToast?.('공유에 필요한 정보가 부족해요.', 'warning');
       return;
@@ -30,12 +33,18 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
       addToast?.('여행지가 선택되지 않았어요.', 'warning');
       return;
     }
-    // 일차 컬럼 중 카드가 하나라도 있어야 공유 가능 (빈 일정 공유 방지)
     const hasAnyDayCard = snapshot.days.some((d) => d.cards.length > 0);
     if (!hasAnyDayCard) {
       addToast?.('일차에 카드를 하나 이상 추가한 후 공유해주세요.', 'warning');
       return;
     }
+    setShareModalOpen(true);
+  };
+
+  // 실제 발행 (등록/재게시) — 모달에서 호출
+  const publishSharedPlan = async () => {
+    const snapshot = buildSharedPlanSnapshot({ columns, cards: cardsMap, flightInfo });
+    if (!snapshot) return;
     try {
       const token = await getCachedAccessToken(sessionCtx);
       if (!token) {
@@ -61,14 +70,41 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
         return;
       }
       const data = await res.json().catch(() => ({}));
+      setShareModalOpen(false);
       if (data?.updated) {
-        addToast?.('공유플랜이 업데이트되었어요.', 'info');
+        addToast?.('공유플랜이 재게시되었어요.', 'info');
       } else {
         addToast?.('공유되었어요. 인박스 공유플랜에서 확인할 수 있어요.', 'info');
       }
     } catch (e) {
-      console.error('[share]', e);
+      console.error('[share publish]', e);
       addToast?.('발행 중 오류가 발생했어요.', 'warning');
+    }
+  };
+
+  // 삭제 — 모달에서 호출
+  const deleteSharedPlan = async () => {
+    try {
+      const token = await getCachedAccessToken(sessionCtx);
+      if (!token) {
+        addToast?.('로그인이 필요해요.', 'warning');
+        return;
+      }
+      const res = await fetch('/api/shared-plans', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ projectId: roomId }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        addToast?.(data?.error || '삭제에 실패했어요.', 'warning');
+        return;
+      }
+      setShareModalOpen(false);
+      addToast?.('공유플랜이 삭제되었어요.', 'info');
+    } catch (e) {
+      console.error('[share delete]', e);
+      addToast?.('삭제 중 오류가 발생했어요.', 'warning');
     }
   };
 
@@ -86,7 +122,7 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
         {cards.length > 0 ? (
           cards.map((card: any) => {
             if (!card) return null;
-            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} canEdit={canEdit} onShareClick={handleShare} />;
+            return <DraggableCard key={card.id} card={card} variant="compact" isHeader={true} canEdit={canEdit} onShareClick={handleShareClick} />;
           })
         ) : (
           <div className="w-full h-[50px] flex items-center justify-center">
@@ -97,6 +133,15 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
           </div>
         )}
       </div>
+      {shareModalOpen && roomId && (
+        <ShareConfirmModal
+          roomId={roomId}
+          onPublish={publishSharedPlan}
+          onDelete={deleteSharedPlan}
+          onClose={() => setShareModalOpen(false)}
+          getToken={async () => await getCachedAccessToken(sessionCtx)}
+        />
+      )}
     </SortableContext>
   );
 });
@@ -197,7 +242,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           category: cat,
         };
       })
-      .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null);
+      .filter((marker: any): marker is NonNullable<typeof marker> => marker !== null && !!marker.coordinates);
 
     return result;
   }, [cards]);

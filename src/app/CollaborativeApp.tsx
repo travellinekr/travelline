@@ -58,6 +58,8 @@ import { useBoardStorage } from "@/hooks/useBoardStorage";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
 import { ConnectionLostModal } from "@/components/auth/ConnectionLostModal";
+import { OfflineModal } from "@/components/auth/OfflineModal";
+import { useOnlineStatus } from "@/hooks/useOnlineStatus";
 import { LoadingSkeleton } from "@/components/board/LoadingSkeleton";
 import { useCardMutations } from "@/hooks/useCardMutations";
 import { useMobileInbox } from "@/hooks/useMobileInbox";
@@ -89,6 +91,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const router = useRouter();
     const [showSessionExpired, setShowSessionExpired] = useState(false);
     const [showConnectionLost, setShowConnectionLost] = useState(false);
+    // navigator.onLine 기반 즉시 감지 (Liveblocks auth 실패 4회 누적 전에 UX 확보)
+    const online = useOnlineStatus();
     // useErrorListener 콜백 클로저 stale 방지 — 이미 모달 뜬 후 같은 에러 반복 시 setState 스킵
     const connectionLostShownRef = useRef(false);
 
@@ -730,20 +734,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     return (
         <AnchorContext.Provider value={anchorContextValue}>
-        <IntercityFlightContext.Provider value={intercityFlightContextValue}>
-        <IntercityMoveContext.Provider value={intercityMoveContextValue}>
-            {showSessionExpired && (
-                <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
-            )}
+            <IntercityFlightContext.Provider value={intercityFlightContextValue}>
+                <IntercityMoveContext.Provider value={intercityMoveContextValue}>
+                    {showSessionExpired && (
+                        <SessionExpiredModal onClose={() => setShowSessionExpired(false)} />
+                    )}
+                    {!online && <OfflineModal />}
             {showConnectionLost && <ConnectionLostModal />}
-            <DndContext
-                sensors={sensors}
-                collisionDetection={customCollisionDetection}
-                onDragStart={canEdit ? handleDragStart : undefined}
-                onDragEnd={canEdit ? handleDragEnd : undefined}
-                onDragMove={canEdit ? handleDragMove : undefined}
-            >
-                <style>{`
+                    <DndContext
+                        sensors={sensors}
+                        collisionDetection={customCollisionDetection}
+                        onDragStart={canEdit ? handleDragStart : undefined}
+                        onDragEnd={canEdit ? handleDragEnd : undefined}
+                        onDragMove={canEdit ? handleDragMove : undefined}
+                    >
+                        <style>{`
         body { overscroll-behavior-y: none; background-color: #ffffff; overflow: hidden; }
         * { touch-action: manipulation; }
         .custom-scrollbar { overflow-y: auto; overscroll-behavior-y: contain; }
@@ -753,171 +758,171 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         .custom-scrollbar:hover::-webkit-scrollbar-thumb { background: #E2E8F0; }
       `}</style>
 
-                <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
-                    <DashboardHeader title={projectTitle} rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />} />
-                    <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
-                        <LiveCursors />
+                        <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
+                            <DashboardHeader title={projectTitle} rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />} />
+                            <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
+                                <LiveCursors />
 
-                        {/* Confirm Dialog */}
-                        {showConfirm && (
-                            <Confirm
-                                onConfirm={handleConfirmDestinationChange}
-                                onCancel={handleCancelDestinationChange}
-                            >
-                                항공편 정보가 있습니다. 항공편과 일정이 리셋됩니다.
-                                <br />
-                                변경하시겠습니까?
-                            </Confirm>
-                        )}
-
-                        <div
-                            ref={floatingBtnRef}
-                            className="md:hidden fixed z-50 w-14 h-14 bg-emerald-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white cursor-grab active:cursor-grabbing touch-none active:scale-95"
-
-                            onTouchStart={handleTouchStart}
-                            onTouchEnd={handleTouchEnd}
-                            onTouchMove={handleTouchMove}
-                        >
-                            <Mouse className="w-8 h-8 text-white fill-white/20 -rotate-12" strokeWidth={1.5} />
-                        </div>
-
-
-                        <main className="flex-1 flex overflow-hidden relative">
-                            <Sidebar
-                                destinationCard={destinationCard}
-                                flightInfo={flightInfo as any}
-                                activeDay={activeDay}
-                                onDayClick={scrollToDay}
-                                onFlightRegisterClick={() => {
-                                    // TODO: Open flight modal
-                                }}
-                                addToast={addToast}
-                                columns={columns as any}
-                            />
-
-                            <div className="flex-1 flex flex-col md:flex-row h-full overflow-hidden relative">
-
-                                <section className="w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger">
-
-                                    {/* 🎯 Fixed Destination Header - No Scroll */}
-                                    <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
-                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} roomId={roomId} projectTitle={projectTitle} />
-                                    </div>
-
-                                    {/* 📜 Scrollable Main Timeline */}
-                                    <div ref={timelineScrollRef} className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
-                                        <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} canEdit={canEdit} />
-                                    </div>
-                                </section>
-
-                                {/* 📱 모바일 우측 드롭존 — 타임라인 카드: 삭제 / 그 외(인박스·picker·shared): 변경 없이 인박스만 재오픈 (사실상 취소) */}
-                                {activeDragItem && (
-                                    <RightDeleteZone isActive={isDeleteZoneActive} inboxOpen={inboxState === 'open'} />
-                                )}
-
-                                {/* 모바일 우측 토글 버튼 (드래그 중이 아닐 때 항상 표시 — 양방향 개폐) */}
-                                {!activeDragItem && (
-                                    <button
-                                        onClick={toggleInbox}
-                                        aria-label={inboxState === 'closed' ? '보관함 열기' : '보관함 닫기'}
-                                        className="md:hidden fixed right-0 top-[62%] -translate-y-1/2 z-[60] w-8 h-20 rounded-l-lg bg-emerald-500 text-white shadow-lg flex flex-col items-center justify-center gap-1 active:bg-emerald-600 transition-colors"
+                                {/* Confirm Dialog */}
+                                {showConfirm && (
+                                    <Confirm
+                                        onConfirm={handleConfirmDestinationChange}
+                                        onCancel={handleCancelDestinationChange}
                                     >
-                                        {inboxState === 'closed' ? (
-                                            <>
-                                                <ChevronLeft className="w-4 h-4" />
-                                                <Package className="w-4 h-4" />
-                                            </>
-                                        ) : (
-                                            <ChevronRight className="w-5 h-5" />
-                                        )}
-                                    </button>
-                                )}
-
-                                {/* 모바일 인박스 잠금 토글 (인박스 열렸을 때만, 우측 토글 바로 아래) */}
-                                {inboxState === 'open' && !activeDragItem && (
-                                    <button
-                                        type="button"
-                                        onClick={() => {
-                                            const next = !isInboxLocked;
-                                            setIsInboxLocked(next);
-                                            addToast(next ? '인박스를 고정합니다.' : '카드를 드래그할때 인박스가 닫힙니다', 'info');
-                                        }}
-                                        aria-label={isInboxLocked ? '인박스 고정 해제' : '인박스 고정'}
-                                        title={isInboxLocked ? '드래그해도 인박스 유지 중 (탭하면 해제)' : '드래그 시 인박스 자동 닫힘 (탭하면 고정)'}
-                                        className={`md:hidden fixed right-0 top-[calc(62%+44px)] z-[60] w-8 h-12 rounded-l-lg shadow-lg flex items-center justify-center transition-colors ${isInboxLocked ? 'bg-emerald-500 text-white active:bg-emerald-600' : 'bg-white text-slate-400 border border-r-0 border-slate-200 active:bg-slate-50'}`}
-                                    >
-                                        {isInboxLocked ? <Lock className="w-4 h-4" /> : <LockOpen className="w-4 h-4" />}
-                                    </button>
+                                        항공편 정보가 있습니다. 항공편과 일정이 리셋됩니다.
+                                        <br />
+                                        변경하시겠습니까?
+                                    </Confirm>
                                 )}
 
                                 <div
-                                    className={`
+                                    ref={floatingBtnRef}
+                                    className="md:hidden fixed z-50 w-14 h-14 bg-emerald-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white cursor-grab active:cursor-grabbing touch-none active:scale-95"
+
+                                    onTouchStart={handleTouchStart}
+                                    onTouchEnd={handleTouchEnd}
+                                    onTouchMove={handleTouchMove}
+                                >
+                                    <Mouse className="w-8 h-8 text-white fill-white/20 -rotate-12" strokeWidth={1.5} />
+                                </div>
+
+
+                                <main className="flex-1 flex overflow-hidden relative">
+                                    <Sidebar
+                                        destinationCard={destinationCard}
+                                        flightInfo={flightInfo as any}
+                                        activeDay={activeDay}
+                                        onDayClick={scrollToDay}
+                                        onFlightRegisterClick={() => {
+                                            // TODO: Open flight modal
+                                        }}
+                                        addToast={addToast}
+                                        columns={columns as any}
+                                    />
+
+                                    <div className="flex-1 flex flex-col md:flex-row h-full overflow-hidden relative">
+
+                                        <section className="w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger">
+
+                                            {/* 🎯 Fixed Destination Header - No Scroll */}
+                                            <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
+                                                <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} roomId={roomId} projectTitle={projectTitle} />
+                                            </div>
+
+                                            {/* 📜 Scrollable Main Timeline */}
+                                            <div ref={timelineScrollRef} className="flex-1 min-h-0 overflow-y-auto custom-scrollbar">
+                                                <Timeline columns={columns} cards={cards} addToast={addToast} sections={['candidates', 'days']} canEdit={canEdit} />
+                                            </div>
+                                        </section>
+
+                                        {/* 📱 모바일 우측 드롭존 — 타임라인 카드: 삭제 / 그 외(인박스·picker·shared): 변경 없이 인박스만 재오픈 (사실상 취소) */}
+                                        {activeDragItem && (
+                                            <RightDeleteZone isActive={isDeleteZoneActive} inboxOpen={inboxState === 'open'} />
+                                        )}
+
+                                        {/* 모바일 우측 토글 버튼 (드래그 중이 아닐 때 항상 표시 — 양방향 개폐) */}
+                                        {!activeDragItem && (
+                                            <button
+                                                onClick={toggleInbox}
+                                                aria-label={inboxState === 'closed' ? '보관함 열기' : '보관함 닫기'}
+                                                className="md:hidden fixed right-0 top-[62%] -translate-y-1/2 z-[60] w-8 h-20 rounded-l-lg bg-emerald-500 text-white shadow-lg flex flex-col items-center justify-center gap-1 active:bg-emerald-600 transition-colors"
+                                            >
+                                                {inboxState === 'closed' ? (
+                                                    <>
+                                                        <ChevronLeft className="w-4 h-4" />
+                                                        <Package className="w-4 h-4" />
+                                                    </>
+                                                ) : (
+                                                    <ChevronRight className="w-5 h-5" />
+                                                )}
+                                            </button>
+                                        )}
+
+                                        {/* 모바일 인박스 잠금 토글 (인박스 열렸을 때만, 우측 토글 바로 아래) */}
+                                        {inboxState === 'open' && !activeDragItem && (
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    const next = !isInboxLocked;
+                                                    setIsInboxLocked(next);
+                                                    addToast(next ? '인박스를 고정합니다.' : '카드를 드래그할때 인박스가 닫힙니다', 'info');
+                                                }}
+                                                aria-label={isInboxLocked ? '인박스 고정 해제' : '인박스 고정'}
+                                                title={isInboxLocked ? '드래그해도 인박스 유지 중 (탭하면 해제)' : '드래그 시 인박스 자동 닫힘 (탭하면 고정)'}
+                                                className={`md:hidden fixed right-0 top-[calc(62%+44px)] z-[60] w-8 h-12 rounded-l-lg shadow-lg flex items-center justify-center transition-colors ${isInboxLocked ? 'bg-emerald-500 text-white active:bg-emerald-600' : 'bg-white text-slate-400 border border-r-0 border-slate-200 active:bg-slate-50'}`}
+                                            >
+                                                {isInboxLocked ? <Lock className="w-4 h-4" /> : <LockOpen className="w-4 h-4" />}
+                                            </button>
+                                        )}
+
+                                        <div
+                                            className={`
                             fixed top-0 right-0 bottom-0 z-50 w-full h-[100dvh] bg-white shadow-[-4px_0_20px_rgba(0,0,0,0.15)] flex flex-col
                             ${activeDragItem ? '' : 'transition-transform duration-500 [transition-timing-function:cubic-bezier(0.32,0.72,0,1)]'}
                             ${getInboxSlideClass()}
                             md:static md:z-auto md:shadow-none md:w-1/2 md:h-full md:bg-gray-50 md:translate-x-0 scrollbar-trigger
                             ${isKeyboardVisible && inboxState === 'closed' ? 'hidden md:flex' : ''}
                         `}
-                                >
-                                    <div className="flex-1 flex flex-col min-h-0 bg-gray-50 md:bg-transparent">
-                                        <Inbox
-                                            cards={inboxCards}
-                                            activeCategory={activeCategory}
-                                            setActiveCategory={setActiveCategory}
-                                            activeDragItem={activeDragItem}
-                                            onCreateCard={handleCreateCard}
-                                            onRemoveCard={handleInboxRemoveCard}
-                                            destinationCard={destinationCard}
-                                            flightInfo={flightInfo}
-                                            canEdit={canEdit}
-                                            roomId={roomId}
-                                            subCities={subCities}
-                                        />
+                                        >
+                                            <div className="flex-1 flex flex-col min-h-0 bg-gray-50 md:bg-transparent">
+                                                <Inbox
+                                                    cards={inboxCards}
+                                                    activeCategory={activeCategory}
+                                                    setActiveCategory={setActiveCategory}
+                                                    activeDragItem={activeDragItem}
+                                                    onCreateCard={handleCreateCard}
+                                                    onRemoveCard={handleInboxRemoveCard}
+                                                    destinationCard={destinationCard}
+                                                    flightInfo={flightInfo}
+                                                    canEdit={canEdit}
+                                                    roomId={roomId}
+                                                    subCities={subCities}
+                                                />
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </main>
+
+                                <DragOverlay dropAnimation={null} modifiers={[snapCenterToCursor]} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
+                                    <DraggedCardOverlay
+                                        activeDragItem={activeDragItem}
+                                        activeDragSourceColumn={activeDragSourceColumn}
+                                    />
+                                </DragOverlay>
                             </div>
-                        </main>
+                        </div>
+                    </DndContext >
 
-                        <DragOverlay dropAnimation={null} modifiers={[snapCenterToCursor]} style={dragOverlayWidth ? { width: dragOverlayWidth } : undefined}>
-                            <DraggedCardOverlay
-                                activeDragItem={activeDragItem}
-                                activeDragSourceColumn={activeDragSourceColumn}
-                            />
-                        </DragOverlay>
-                    </div>
-                </div>
-            </DndContext >
+                    {/* 토스트 메시지들 */}
+                    <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
 
-            {/* 토스트 메시지들 */}
-            <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
+                    {/* 도시간 항공편 등록 모달 — 메타 카드는 유지, 별도 항공 카드 2장 생성. 조건부 마운트로 청크 로드 지연 */}
+                    {editingIntercityCardId && (
+                        <IntercityFlightModal
+                            isOpen={true}
+                            onClose={() => setEditingIntercityCardId(null)}
+                            onSave={handleSaveIntercityFlight}
+                            defaultDate={editingIntercityDefaultDate}
+                            currentCardId={editingIntercityCardId}
+                            cards={cards}
+                            destinationCard={destinationCard}
+                            flightInfo={flightInfo}
+                        />
+                    )}
 
-            {/* 도시간 항공편 등록 모달 — 메타 카드는 유지, 별도 항공 카드 2장 생성. 조건부 마운트로 청크 로드 지연 */}
-            {editingIntercityCardId && (
-                <IntercityFlightModal
-                    isOpen={true}
-                    onClose={() => setEditingIntercityCardId(null)}
-                    onSave={handleSaveIntercityFlight}
-                    defaultDate={editingIntercityDefaultDate}
-                    currentCardId={editingIntercityCardId}
-                    cards={cards}
-                    destinationCard={destinationCard}
-                    flightInfo={flightInfo}
-                />
-            )}
-
-            {/* 도시간 이동(육로) 등록 모달 — 도시명만 입력, 메타 카드의 targetCity 에 저장 */}
-            {editingMoveCardId && (
-                <IntercityMoveModal
-                    isOpen={true}
-                    onClose={() => setEditingMoveCardId(null)}
-                    onSave={handleSaveIntercityMove}
-                    currentCardId={editingMoveCardId}
-                    cards={cards}
-                    destinationCard={destinationCard}
-                />
-            )}
-        </IntercityMoveContext.Provider>
-        </IntercityFlightContext.Provider>
+                    {/* 도시간 이동(육로) 등록 모달 — 도시명만 입력, 메타 카드의 targetCity 에 저장 */}
+                    {editingMoveCardId && (
+                        <IntercityMoveModal
+                            isOpen={true}
+                            onClose={() => setEditingMoveCardId(null)}
+                            onSave={handleSaveIntercityMove}
+                            currentCardId={editingMoveCardId}
+                            cards={cards}
+                            destinationCard={destinationCard}
+                        />
+                    )}
+                </IntercityMoveContext.Provider>
+            </IntercityFlightContext.Provider>
         </AnchorContext.Provider>
     );
 }

@@ -36,6 +36,24 @@ export async function GET(request: NextRequest) {
             );
         }
 
+        // sourceProjectId 필터 — 특정 프로젝트의 발행 상태 조회 (있으면 item 반환, 없으면 null)
+        const sourceProjectId = searchParams.get('sourceProjectId');
+        if (sourceProjectId) {
+            const { data, error } = await supabaseAdmin
+                .from('shared_plans')
+                .select('id, title, city, duration_nights, duration_days, created_at, owner_id')
+                .eq('source_project_id', sourceProjectId)
+                .maybeSingle();
+            if (error) {
+                console.error('[shared-plans GET] sourceProjectId query error:', error);
+                return NextResponse.json({ error: '조회 중 오류가 발생했어요.' }, { status: 500 });
+            }
+            return NextResponse.json(
+                { item: data ?? null },
+                { headers: { 'Cache-Control': 'no-store' } },
+            );
+        }
+
         const cityFilter = searchParams.get('city');
         const limit = Math.min(Math.max(parseInt(searchParams.get('limit') || '20'), 1), 100);
 
@@ -174,5 +192,66 @@ export async function POST(request: NextRequest) {
     } catch (err) {
         console.error('[shared-plans POST] 오류:', err);
         return NextResponse.json({ error: '발행 중 오류가 발생했어요.' }, { status: 500 });
+    }
+}
+
+// DELETE: 공유플랜 삭제. 발행자(owner/editor) 만 가능.
+// Body: { projectId: string }
+export async function DELETE(request: NextRequest) {
+    if (!supabaseUrl || !supabaseServiceRoleKey) {
+        return NextResponse.json({ error: '환경 변수가 설정되지 않았습니다.' }, { status: 500 });
+    }
+    const supabaseAdmin = createClient(supabaseUrl, supabaseServiceRoleKey);
+
+    try {
+        const authHeader = request.headers.get('Authorization');
+        const token = authHeader?.replace('Bearer ', '');
+        if (!token) {
+            return NextResponse.json({ error: '로그인이 필요합니다.' }, { status: 401 });
+        }
+        const { data: { user }, error: userError } = await supabaseAdmin.auth.getUser(token);
+        if (userError || !user) {
+            return NextResponse.json({ error: '유효하지 않은 토큰입니다.' }, { status: 401 });
+        }
+
+        const { projectId } = (await request.json()) as { projectId?: string };
+        if (!projectId) {
+            return NextResponse.json({ error: 'projectId 가 필요합니다.' }, { status: 400 });
+        }
+
+        // 권한 — owner/editor 만 삭제 가능
+        const { data: member } = await supabaseAdmin
+            .from('project_members')
+            .select('role')
+            .eq('project_id', projectId)
+            .eq('user_id', user.id)
+            .single();
+        const isOwner = member?.role === 'owner';
+        const isEditor = member?.role === 'editor';
+        if (!isOwner && !isEditor) {
+            const { data: project } = await supabaseAdmin
+                .from('projects')
+                .select('user_id')
+                .eq('id', projectId)
+                .single();
+            if (project?.user_id !== user.id) {
+                return NextResponse.json({ error: '삭제 권한이 없어요.' }, { status: 403 });
+            }
+        }
+
+        const { error: deleteError } = await supabaseAdmin
+            .from('shared_plans')
+            .delete()
+            .eq('source_project_id', projectId);
+
+        if (deleteError) {
+            console.error('[shared-plans DELETE] error:', deleteError);
+            return NextResponse.json({ error: `삭제 중 오류: ${deleteError.message}` }, { status: 500 });
+        }
+
+        return NextResponse.json({ ok: true });
+    } catch (err) {
+        console.error('[shared-plans DELETE] 예외:', err);
+        return NextResponse.json({ error: '삭제 중 오류가 발생했어요.' }, { status: 500 });
     }
 }

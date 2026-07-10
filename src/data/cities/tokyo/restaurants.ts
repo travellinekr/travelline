@@ -7,7 +7,6 @@ const restaurants: RestaurantData[] = [
         showInInbox: true,
         type: "fusion",
         city: "Tokyo",
-        coordinates: { lat: 35.6762, lng: 139.6503 },
         cuisine: "조식",
         specialty: "숙소 조식",
         priceRange: "숙소 요금 포함/별도",
