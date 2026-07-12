@@ -154,6 +154,7 @@ import cebuAccommodations from './cebu/accommodations';
 import cebuRestaurants from './cebu/restaurants';
 import cebuShopping from './cebu/shopping';
 import cebuTransport from './cebu/transport';
+import cebuTourSpa from './cebu/tourSpa';
 
 import chiangmaiAccommodations from './chiang-mai/accommodations';
 import chiangmaiRestaurants from './chiang-mai/restaurants';
@@ -264,6 +265,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: cebuRestaurants,
         shopping: cebuShopping,
         transport: cebuTransport,
+        tourSpa: cebuTourSpa,
     },
     "Chiang Mai": {
         accommodations: chiangmaiAccommodations,
