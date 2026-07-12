@@ -22,6 +22,30 @@ interface SummaryData {
         gemini: { rpm_limit: number; rpd_limit: number };
         unsplash: { used_hourly: number; limit_hourly: number; remaining: number | null; lastCheckedAt: number | null };
         googleMaps: { monthly_credit_usd: number };
+        codex: {
+            authMode: string | null;
+            hasCodexCliAuth: boolean;
+            hasHermesCodexCredential: boolean;
+            hermesCredentialCount: number;
+            usageAvailable: boolean;
+            localUsage: {
+                today_tokens: number;
+                last7Days_tokens: number;
+                month_tokens: number;
+                daily_limit_tokens: number | null;
+                weekly_limit_tokens: number | null;
+                monthly_limit_tokens: number | null;
+                daily_remaining_tokens: number | null;
+                weekly_remaining_tokens: number | null;
+                monthly_remaining_tokens: number | null;
+                daily_usage_pct: number | null;
+                weekly_usage_pct: number | null;
+                monthly_usage_pct: number | null;
+                lastUsedAt: string | null;
+            };
+            note: string;
+            lastCheckedAt: number | null;
+        };
         liveblocks: {
             totalRooms: number;
             anonymous_connections_monthly_limit: number;
@@ -139,6 +163,16 @@ export default function AdminMainPage() {
                         detailHref="/admin/google-maps"
                         note="$200 무료 크레딧 · Console 조회"
                         forcedStatus="normal"
+                    />
+                    <UsageCard
+                        apiName="Codex"
+                        used={a.codex.localUsage.month_tokens}
+                        limit={a.codex.localUsage.monthly_limit_tokens ?? Math.max(1, a.codex.localUsage.month_tokens)}
+                        unit="tokens/월"
+                        detailHref="/admin/codex"
+                        note={a.codex.localUsage.monthly_limit_tokens ? 'Hermes 로그 집계 · 수동 한도 기준' : 'Hermes 로그 집계 · 한도 미설정'}
+                        lastCheckedAt={a.codex.lastCheckedAt ?? undefined}
+                        forcedStatus={a.codex.localUsage.monthly_limit_tokens ? undefined : 'normal'}
                     />
                     {/* Liveblocks 는 room 무제한 · 실측 임계 없음 → StatCard 참고용 */}
                     <StatCard
