@@ -1,0 +1,111 @@
+import type { TourSpaInfo } from '@/data/card-info-types';
+
+const info: Record<string, TourSpaInfo> = {
+    "날루수안 아일랜드 호핑": {
+        photos: ["/images/cebu/info/tourSpa/nalusuan-island-hopping.jpg"],
+        summary: "막탄 인근 섬에서 즐기는 대표적인 호핑투어로 스노클링과 해상 식사가 함께 제공됩니다.",
+        highlights: ["막탄 출발 대표 호핑투어", "스노클링 및 해상 식사"],
+        tips: ["날씨와 조류에 따른 일정 변경 가능성 확인"],
+        warnings: [],
+        hours: "해상 상황별 변동",
+        duration: "반나절~1일",
+        price: "투어 상품별 상이",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "막탄 인근 섬", note: "이동 시간과 픽업 장소를 사전에 확인하세요." },
+        reservation: { required: true, method: "투어 상품 사전 예약 권장", note: "픽업·장비·입장료 포함 여부를 확인하세요." },
+        links: [{"label": "Google Maps", "url": "https://maps.google.com/?cid=15822065647823308049", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EB%82%A0%EB%A3%A8%EC%88%98%EC%95%88+%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C+%ED%98%B8%ED%95%91+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "오슬롭 고래상어 투어": {
+        photos: ["/images/cebu/info/tourSpa/oslob-whale-shark-watching.jpg"],
+        summary: "세부 남부를 대표하는 액티비티로 고래상어를 관찰할 수 있는 투어입니다.",
+        highlights: ["세부 남부 대표 액티비티", "고래상어 투어"],
+        tips: ["이른 새벽 출발을 고려한 전날 일정 여유 확보", "투어사 픽업 포함 상품 이용 추천"],
+        warnings: [],
+        hours: "월요일: 오전 6:00 ~ 오후 12:00; 화요일: 오전 6:00 ~ 오후 12:00",
+        duration: "반나절~1일",
+        price: "투어 상품별 상이",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "오슬롭", note: "이동 시간과 픽업 장소를 사전에 확인하세요." },
+        reservation: { required: true, method: "투어 상품 사전 예약 권장", note: "픽업·장비·입장료 포함 여부를 확인하세요." },
+        links: [{"label": "공식 사이트", "url": "http://www.oslobwhalesharks.com/", "type": "official", "description": "운영 정보 확인"}, {"label": "Google Maps", "url": "https://maps.google.com/?cid=4917107982817371095", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EC%98%A4%EC%8A%AC%EB%A1%AD+%EA%B3%A0%EB%9E%98%EC%83%81%EC%96%B4+%ED%88%AC%EC%96%B4+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "모알보알 정어리떼 스노클링": {
+        photos: ["/images/cebu/info/tourSpa/moalboal-sardine-run.jpg"],
+        summary: "정어리떼와 거북이를 관찰할 수 있는 모알보알의 스노클링 투어입니다.",
+        highlights: ["정어리떼 및 거북이 스노클링", "오슬롭·캐녀닝과 연계 가능"],
+        tips: ["파도와 시야에 따른 만족도 차이 유의"],
+        warnings: [],
+        hours: "월요일: 오전 8:00 ~ 오후 3:00; 화요일: 오전 8:00 ~ 오후 3:00",
+        duration: "반나절~1일",
+        price: "투어 상품별 상이",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "모알보알", note: "이동 시간과 픽업 장소를 사전에 확인하세요." },
+        reservation: { required: true, method: "투어 상품 사전 예약 권장", note: "픽업·장비·입장료 포함 여부를 확인하세요." },
+        links: [{"label": "공식 사이트", "url": "https://blurangetours.com/trip/moalboal-sardines-run-private-tour/", "type": "official", "description": "운영 정보 확인"}, {"label": "Google Maps", "url": "https://maps.google.com/?cid=7505367752978782264", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EB%AA%A8%EC%95%8C%EB%B3%B4%EC%95%8C+%EC%A0%95%EC%96%B4%EB%A6%AC%EB%96%BC+%EC%8A%A4%EB%85%B8%ED%81%B4%EB%A7%81+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "카와산 폭포 캐녀닝": {
+        photos: ["/images/cebu/info/tourSpa/kawasan-falls-canyoneering.jpg"],
+        summary: "점프와 수영을 포함하여 즐길 수 있는 바디안 지역의 액티브한 코스입니다.",
+        highlights: ["점프 및 수영 포함 액티브 코스", "바디안 지역 투어"],
+        tips: ["아쿠아슈즈와 방수팩 준비 추천", "안전 장비와 가이드 포함 여부 확인 필요"],
+        warnings: [],
+        hours: "월요일: 오전 6:00 ~ 오후 2:00; 화요일: 오전 6:00 ~ 오후 2:00",
+        duration: "반나절~1일",
+        price: "투어 상품별 상이",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "바디안", note: "이동 시간과 픽업 장소를 사전에 확인하세요." },
+        reservation: { required: true, method: "투어 상품 사전 예약 권장", note: "픽업·장비·입장료 포함 여부를 확인하세요." },
+        links: [{"label": "공식 사이트", "url": "http://www.phkawasancanyoneering.com/", "type": "official", "description": "운영 정보 확인"}, {"label": "Google Maps", "url": "https://maps.google.com/?cid=2211686965865139828", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EC%B9%B4%EC%99%80%EC%82%B0+%ED%8F%AD%ED%8F%AC+%EC%BA%90%EB%85%80%EB%8B%9D+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "시라오 가든": {
+        photos: ["/images/cebu/info/tourSpa/sirao-garden.jpg"],
+        summary: "꽃밭과 포토존 중심의 세부 고지대 명소 (1~2시간 소요)",
+        highlights: ["꽃밭과 포토존 중심", "레아 신전·탑스와 시티투어로 묶기 좋음"],
+        tips: ["햇빛이 강해 오전 방문 추천"],
+        warnings: [],
+        hours: "월요일: 오전 8:00 ~ 오후 5:30; 화요일: 오전 8:00 ~ 오후 5:30",
+        duration: "1~2시간",
+        price: "입장료 현장 확인",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "세부 고지대", note: "시티투어 동선과 묶기 좋습니다." },
+        reservation: { required: false, method: "현장 방문 가능", note: "운영 시간과 휴무를 확인하세요." },
+        links: [{"label": "공식 사이트", "url": "https://www.facebook.com/siraogarden/", "type": "official", "description": "운영 정보 확인"}, {"label": "Google Maps", "url": "https://maps.google.com/?cid=6526454421455249265", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EC%8B%9C%EB%9D%BC%EC%98%A4+%EA%B0%80%EB%93%A0+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "산토니뇨 성당": {
+        photos: ["/images/cebu/info/tourSpa/santo-nino-basilica.jpg"],
+        summary: "마젤란의 십자가 바로 옆 세부 시티 구도심 역사 명소 (30분~1시간 소요)",
+        highlights: ["마젤란의 십자가 바로 옆", "세부 시티 구도심 위치"],
+        tips: ["복장과 예절 준수 필요", "행사·미사 시간 이동 제한 주의"],
+        warnings: [],
+        hours: "월요일: 오전 8:00~11:45, 오후 1:30~4:45; 화요일: 오전 8:00~11:45, 오후 1:30~4:45",
+        duration: "30분~1시간",
+        price: "무료",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "세부 시티 구도심", note: "시티투어 동선과 묶기 좋습니다." },
+        reservation: { required: false, method: "현장 방문 가능", note: "운영 시간과 휴무를 확인하세요." },
+        links: [{"label": "공식 사이트", "url": "https://santoninodecebubasilica.org/", "type": "official", "description": "운영 정보 확인"}, {"label": "Google Maps", "url": "https://maps.google.com/?cid=1583756090320591852", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%EC%82%B0%ED%86%A0%EB%8B%88%EB%87%A8+%EC%84%B1%EB%8B%B9+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    },
+    "탑스 전망대": {
+        photos: ["/images/cebu/info/tourSpa/tops-cebu.jpg"],
+        summary: "야경과 식사를 즐기기 좋은 부사이의 전망 명소 (1~2시간 소요)",
+        highlights: ["야경과 식사 동선에 적합", "부사이 지역 전망 명소"],
+        tips: ["차량 이동 동선 확보 필요", "흐린 날은 전망 만족도 저하 주의"],
+        warnings: [],
+        hours: "오후~야간",
+        duration: "1~2시간",
+        price: "입장료 현장 확인",
+        bestTime: "오전 또는 투어 지정 시간",
+        access: { area: "부사이", note: "시티투어 동선과 묶기 좋습니다." },
+        reservation: { required: false, method: "현장 방문 가능", note: "운영 시간과 휴무를 확인하세요." },
+        links: [{"label": "Google Maps", "url": "https://maps.google.com/?cid=7302151955472151865", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%ED%83%91%EC%8A%A4+%EC%A0%84%EB%A7%9D%EB%8C%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
+        updatedAt: "2026-07-12"
+    }
+};
+
+export default info;
