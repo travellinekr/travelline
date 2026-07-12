@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { Suspense } from "react";
@@ -20,6 +20,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Travelline",
   description: "여행 타임라인으로 더 스마트하게 여행 계획을 세우세요",
+};
+
+// viewport-fit=cover: iOS 노치/펀치홀 대응. 이게 있어야 env(safe-area-inset-*)가 실제 값으로 계산됨.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
