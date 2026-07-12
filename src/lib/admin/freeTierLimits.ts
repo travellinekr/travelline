@@ -18,6 +18,10 @@ export const FREE_TIER = {
     googleMaps: {
         monthly_credit_usd: 200, // $200 free credit / month (모든 Google Maps Platform 공통)
     },
+    codex: {
+        // Codex CLI / ChatGPT 계정 한도는 공개 사용량 API가 없어 실측 불가.
+        usage_api_available: false,
+    },
     liveblocks: {
         // 2026 기준 실제 무료 플랜 한도 (MAU 개념 폐기 · 총 room 수 무제한).
         // 아래 값들은 Liveblocks REST 로 실측 불가 — Dashboard 만 가능.

@@ -4,6 +4,7 @@ import { FREE_TIER } from '@/lib/admin/freeTierLimits';
 import { getUserStats, getProjectStats, getStorageStats } from '@/lib/admin/supabaseStats';
 import { getLiveblocksStats } from '@/lib/admin/liveblocksStats';
 import { getUnsplashStats } from '@/lib/admin/unsplashStats';
+import { getCodexStats } from '@/lib/admin/codexStats';
 import { getSupportedDestinationCityCount } from '@/lib/admin/travellineStats';
 
 // AI 브리핑용 통합 엔드포인트.
@@ -34,6 +35,7 @@ export async function GET(request: NextRequest) {
     const unsplashLimit = unsplash?.limit ?? FREE_TIER.unsplash.hourly;
 
     const liveblocksRooms = liveblocks?.totalRooms ?? 0;
+    const codex = getCodexStats();
 
     return NextResponse.json({
         generatedAt: new Date().toISOString(),
@@ -72,6 +74,30 @@ export async function GET(request: NextRequest) {
             googleMaps: {
                 monthly_credit_usd: FREE_TIER.googleMaps.monthly_credit_usd,
                 note: '월 $200 크레딧, 실시간 사용량은 Google Cloud Console 참조',
+            },
+            codex: {
+                authMode: codex.authMode,
+                hasCodexCliAuth: codex.hasCodexCliAuth,
+                hasHermesCodexCredential: codex.hasHermesCodexCredential,
+                hermesCredentialCount: codex.hermesCredentialCount,
+                usageAvailable: codex.usageAvailable,
+                localUsage: {
+                    today_tokens: codex.hermesUsage.today.total_tokens,
+                    last7Days_tokens: codex.hermesUsage.last7Days.total_tokens,
+                    month_tokens: codex.hermesUsage.month.total_tokens,
+                    daily_limit_tokens: codex.limits.daily.limitTokens,
+                    weekly_limit_tokens: codex.limits.weekly.limitTokens,
+                    monthly_limit_tokens: codex.limits.monthly.limitTokens,
+                    daily_remaining_tokens: codex.limits.daily.remainingTokens,
+                    weekly_remaining_tokens: codex.limits.weekly.remainingTokens,
+                    monthly_remaining_tokens: codex.limits.monthly.remainingTokens,
+                    daily_usage_pct: codex.limits.daily.usagePct,
+                    weekly_usage_pct: codex.limits.weekly.usagePct,
+                    monthly_usage_pct: codex.limits.monthly.usagePct,
+                    lastUsedAt: codex.hermesUsage.lastUsedAt,
+                },
+                note: codex.usageUnavailableReason,
+                lastCheckedAt: codex.checkedAt,
             },
             liveblocks: {
                 totalRooms: liveblocksRooms,

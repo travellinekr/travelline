@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, LayoutDashboard, Compass, Database, Sparkles, Image as ImageIcon, Map, Users2 } from 'lucide-react';
+import { Menu, X, LayoutDashboard, Compass, Database, Sparkles, Image as ImageIcon, Map, Users2, Bot } from 'lucide-react';
 
 interface MenuItem {
     href: string;
@@ -22,6 +22,7 @@ const APIS: MenuItem[] = [
     { href: '/admin/gemini', label: 'Gemini', icon: <Sparkles className="w-4 h-4" />, dotColor: 'bg-blue-500' },
     { href: '/admin/unsplash', label: 'Unsplash', icon: <ImageIcon className="w-4 h-4" />, dotColor: 'bg-slate-800' },
     { href: '/admin/google-maps', label: 'Google Maps', icon: <Map className="w-4 h-4" />, dotColor: 'bg-red-500' },
+    { href: '/admin/codex', label: 'Codex', icon: <Bot className="w-4 h-4" />, dotColor: 'bg-zinc-900' },
     { href: '/admin/liveblocks', label: 'Liveblocks', icon: <Users2 className="w-4 h-4" />, dotColor: 'bg-purple-500' },
 ];
 
