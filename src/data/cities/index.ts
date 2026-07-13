@@ -140,6 +140,7 @@ import bangkokAccommodations from './bangkok/accommodations';
 import bangkokRestaurants from './bangkok/restaurants';
 import bangkokShopping from './bangkok/shopping';
 import bangkokTransport from './bangkok/transport';
+import bangkokTourSpa from './bangkok/tourSpa';
 
 import nhatrangAccommodations from './nha-trang/accommodations';
 import nhatrangRestaurants from './nha-trang/restaurants';
@@ -249,6 +250,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: bangkokRestaurants,
         shopping: bangkokShopping,
         transport: bangkokTransport,
+        tourSpa: bangkokTourSpa,
     },
     "Nha Trang": {
         accommodations: nhatrangAccommodations,
