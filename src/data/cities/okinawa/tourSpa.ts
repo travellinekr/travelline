@@ -1,0 +1,92 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "슈리성",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Okinawa",
+        description: "류큐 왕국 역사를 대표하는 오키나와 핵심 문화 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 26.2170449, lng: 127.7194833 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 8:30 ~ 오후 7:00; 화요일: 오전 8:30 ~ 오후 7:00",
+        features: ["류큐 왕국 역사를 대표하는 오키나와 핵심 문화 명소입니다.", "평점 4.2", "오키나와 여행 동선에 넣기 좋음"],
+        rating: 4.2,
+        icon: "🏯"
+    },
+    {
+        name: "오키나와 츄라우미 수족관",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Okinawa",
+        description: "대형 수조와 고래상어로 유명한 북부 대표 수족관입니다.",
+        duration: "2~3시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 26.694338, lng: 127.8780131 },
+        reservationRequired: true,
+        openingHours: "월요일: 오전 8:30 ~ 오후 6:30; 화요일: 오전 8:30 ~ 오후 6:30",
+        features: ["대형 수조와 고래상어로 유명한 북부 대표 수족관입니다.", "평점 4.6", "오키나와 여행 동선에 넣기 좋음"],
+        rating: 4.6,
+        icon: "🐋"
+    },
+    {
+        name: "코우리섬",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Okinawa",
+        description: "드라이브와 바다 전망, 하트록 동선을 함께 즐기기 좋은 섬입니다.",
+        duration: "반나절",
+        priceRange: "무료 구역 중심",
+        pickupAvailable: false,
+        coordinates: { lat: 26.7072982, lng: 128.0181686 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["드라이브와 바다 전망, 하트록 동선을 함께 즐기기 좋은 섬입니다.", "평점 4.6", "오키나와 여행 동선에 넣기 좋음"],
+        rating: 4.6,
+        icon: "🏝️"
+    },
+    {
+        name: "만좌모",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Okinawa",
+        description: "코끼리 바위 절벽과 해안 전망으로 유명한 오키나와 대표 경관지입니다.",
+        duration: "1시간",
+        priceRange: "입장료 현장 확인",
+        pickupAvailable: false,
+        coordinates: { lat: 26.5052353, lng: 127.8504781 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        features: ["코끼리 형상의 독특한 바위 절벽", "푸른 바다와 어우러진 환상적인 해안 전망"],
+        rating: 4.2,
+        icon: "🌊"
+    },
+    {
+        name: "오키나와 푸른동굴",
+        showInInbox: true,
+        hasInfo: true,
+        type: "water-sports",
+        city: "Okinawa",
+        description: "스노클링과 다이빙으로 인기 있는 온나손 대표 해양 액티비티입니다.",
+        duration: "2~3시간",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 26.4425977, lng: 127.7734662 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["에메랄드빛 바다와 신비로운 동굴 내부", "스노클링 및 스쿠버 다이빙 명소"],
+        rating: 4.6,
+        icon: "🤿"
+    },
+];
+
+export default tourSpa;

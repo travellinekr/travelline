@@ -93,6 +93,7 @@ import osakaAccommodations from './osaka/accommodations';
 import osakaRestaurants from './osaka/restaurants';
 import osakaShopping from './osaka/shopping';
 import osakaTransport from './osaka/transport';
+import osakaTourSpa from './osaka/tourSpa';
 
 import tokyoAccommodations from './tokyo/accommodations';
 import tokyoRestaurants from './tokyo/restaurants';
@@ -104,16 +105,19 @@ import fukuokaAccommodations from './fukuoka/accommodations';
 import fukuokaRestaurants from './fukuoka/restaurants';
 import fukuokaShopping from './fukuoka/shopping';
 import fukuokaTransport from './fukuoka/transport';
+import fukuokaTourSpa from './fukuoka/tourSpa';
 
 import sapporoAccommodations from './sapporo/accommodations';
 import sapporoRestaurants from './sapporo/restaurants';
 import sapporoShopping from './sapporo/shopping';
 import sapporoTransport from './sapporo/transport';
+import sapporoTourSpa from './sapporo/tourSpa';
 
 import okinawaAccommodations from './okinawa/accommodations';
 import okinawaRestaurants from './okinawa/restaurants';
 import okinawaShopping from './okinawa/shopping';
 import okinawaTransport from './okinawa/transport';
+import okinawaTourSpa from './okinawa/tourSpa';
 
 import taipeiAccommodations from './taipei/accommodations';
 import taipeiRestaurants from './taipei/restaurants';
@@ -198,6 +202,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: osakaRestaurants,
         shopping: osakaShopping,
         transport: osakaTransport,
+        tourSpa: osakaTourSpa,
     },
     "Tokyo": {
         accommodations: tokyoAccommodations,
@@ -211,18 +216,21 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: fukuokaRestaurants,
         shopping: fukuokaShopping,
         transport: fukuokaTransport,
+        tourSpa: fukuokaTourSpa,
     },
     "Sapporo": {
         accommodations: sapporoAccommodations,
         restaurants: sapporoRestaurants,
         shopping: sapporoShopping,
         transport: sapporoTransport,
+        tourSpa: sapporoTourSpa,
     },
     "Okinawa": {
         accommodations: okinawaAccommodations,
         restaurants: okinawaRestaurants,
         shopping: okinawaShopping,
         transport: okinawaTransport,
+        tourSpa: okinawaTourSpa,
     },
     "Taipei": {
         accommodations: taipeiAccommodations,
