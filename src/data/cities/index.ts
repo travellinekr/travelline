@@ -152,6 +152,7 @@ import baliAccommodations from './bali/accommodations';
 import baliRestaurants from './bali/restaurants';
 import baliShopping from './bali/shopping';
 import baliTransport from './bali/transport';
+import baliTourSpa from './bali/tourSpa';
 
 import cebuAccommodations from './cebu/accommodations';
 import cebuRestaurants from './cebu/restaurants';
@@ -163,11 +164,13 @@ import chiangmaiAccommodations from './chiang-mai/accommodations';
 import chiangmaiRestaurants from './chiang-mai/restaurants';
 import chiangmaiShopping from './chiang-mai/shopping';
 import chiangmaiTransport from './chiang-mai/transport';
+import chiangmaiTourSpa from './chiang-mai/tourSpa';
 
 import dalatAccommodations from './da-lat/accommodations';
 import dalatRestaurants from './da-lat/restaurants';
 import dalatShopping from './da-lat/shopping';
 import dalatTransport from './da-lat/transport';
+import dalatTourSpa from './da-lat/tourSpa';
 
 import guamAccommodations from './guam/accommodations';
 import guamRestaurants from './guam/restaurants';
@@ -265,6 +268,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: baliRestaurants,
         shopping: baliShopping,
         transport: baliTransport,
+        tourSpa: baliTourSpa,
     },
     "Cebu": {
         accommodations: cebuAccommodations,
@@ -278,12 +282,14 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: chiangmaiRestaurants,
         shopping: chiangmaiShopping,
         transport: chiangmaiTransport,
+        tourSpa: chiangmaiTourSpa,
     },
     "Da Lat": {
         accommodations: dalatAccommodations,
         restaurants: dalatRestaurants,
         shopping: dalatShopping,
         transport: dalatTransport,
+        tourSpa: dalatTourSpa,
     },
     "Guam": {
         accommodations: guamAccommodations,

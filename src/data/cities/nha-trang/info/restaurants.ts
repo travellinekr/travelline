@@ -4,10 +4,10 @@ import type { RestaurantInfo } from '@/data/card-info-types';
 const info: Record<string, RestaurantInfo> = {
     "락깐 레스토랑": {
         photos: ["/images/nha-trang/info/restaurants/lac-canh-restaurant-nha-trang.jpg"],
-        summary: "숯불 향이 가득한 소고기 구이를 맛볼 수 있는 곳입니다.",
+        summary: "락깐 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["육즙 가득한 숯불 소고기", "현지 분위기 물씬"],
-        tips: ["가성비 있게 고기를 즐기고 싶을 때 추천해요"],
+        highlights: ["숯불 소고기 구이", "평점 3.7", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "숯불 소고기 구이", items: [{ name: "대표 메뉴", price: "₫100,000~400,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 9:30 ~ 오후 9:00; 화요일: 오전 9:30 ~ 오후 9:00",
@@ -21,10 +21,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "넴느엉 당반꾸엔": {
         photos: ["/images/nha-trang/info/restaurants/nem-nuong-dang-van-quyen-nha-trang.jpg"],
-        summary: "나트랑 현지인들이 자주 찾는 넴느엉 맛집입니다.",
+        summary: "넴 느엉 당 반꾸엔 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["바삭하고 고소한 넴느엉", "신선한 야채와 특제 소스"],
-        tips: ["로컬의 진짜 맛을 느끼고 싶다면 꼭 가보세요"],
+        highlights: ["넴느엉", "평점 4.1", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "넴느엉", items: [{ name: "대표 메뉴", price: "₫50,000~200,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 7:30 ~ 오후 8:30; 화요일: 오전 7:30 ~ 오후 8:30",
@@ -38,10 +38,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "넴느엉 닌호아": {
         photos: ["/images/nha-trang/info/restaurants/nem-nuong-ninh-hoa-nha-trang.jpg"],
-        summary: "평점이 매우 높은 믿고 먹는 넴느엉 전문점입니다.",
+        summary: "Nem chua Nha Trang Nem Chua Ninh Hoa ngon 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["실패 없는 완벽한 맛", "높은 만족도"],
-        tips: ["평점이 아주 높으니 방문 전 확인 필수!"],
+        highlights: ["넴느엉", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "넴느엉", items: [{ name: "대표 메뉴", price: "₫50,000~200,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 6:00 ~ 오후 10:30; 화요일: 오전 6:00 ~ 오후 10:30",
@@ -54,10 +54,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "분까 응우옌 로안": {
         photos: ["/images/nha-trang/info/restaurants/bun-ca-nguyen-loan-nha-trang.jpg"],
-        summary: "시원하고 담백한 국물이 일품인 생선쌀국수 맛집",
+        summary: "분 까 응우옌 로안 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["깊은 풍미의 생선 육수", "현지 분위기 물씬"],
-        tips: ["생선 향에 민감하다면 참고하세요."],
+        highlights: ["생선쌀국수", "평점 4", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "생선쌀국수", items: [{ name: "대표 메뉴", price: "₫40,000~150,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 5:00 ~ 오후 10:00; 화요일: 오전 5:00 ~ 오후 10:00",
@@ -70,10 +70,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "반깐 51": {
         photos: ["/images/nha-trang/info/restaurants/banh-can-51-nha-trang.jpg"],
-        summary: "바삭한 식감이 매력적인 로컬 반깐 전문점",
+        summary: "반깐 51 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["겉바속촉 반깐", "가성비 좋은 현지 맛집"],
-        tips: ["소박한 현지 식당 분위기예요."],
+        highlights: ["반깐", "평점 3.2", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "반깐", items: [{ name: "대표 메뉴", price: "₫40,000~150,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
@@ -86,10 +86,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "반쎄오 차오 85": {
         photos: ["/images/nha-trang/info/restaurants/banh-xeo-chao-85-nha-trang.jpg"],
-        summary: "높은 평점으로 검증된 바삭하고 고소한 반쎄오 맛집",
+        summary: "반 쎄오 짜오 85 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["바삭함이 살아있는 반쎄오", "검증된 현지인 맛집"],
-        tips: ["웨이팅이 있을 수 있으니 참고하세요."],
+        highlights: ["반쎄오", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "반쎄오", items: [{ name: "대표 메뉴", price: "₫50,000~200,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 10:00 ~ 오후 9:30; 화요일: 오전 10:00 ~ 오후 9:30",
@@ -152,10 +152,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "옌스 레스토랑": {
         photos: ["/images/nha-trang/info/restaurants/nha-hang-yen-restaurant-nha-trang.jpg"],
-        summary: "현지 느낌 가득한 정갈한 베트남 가정식을 맛볼 수 있는 곳",
+        summary: "Tiệm Yến 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["따뜻하고 정성스러운 로컬 가정식 메뉴", "높은 평점으로 검증된 현지인 맛집"],
-        tips: ["진정한 베트남 로컬의 맛을 느끼고 싶을 때 추천해요"],
+        highlights: ["베트남 가정식", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "베트남 가정식", items: [{ name: "대표 메뉴", price: "₫100,000~400,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
@@ -168,10 +168,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "랜턴스 베트남 레스토랑": {
         photos: ["/images/nha-trang/info/restaurants/lanterns-vietnamese-restaurant-nha-trang.jpg"],
-        summary: "빈컴 플라자에서 즐기는 풍성한 베트남 핫팟 요리",
+        summary: "Hotpot Story Vincom Trần Phú Nha Trang Restaurant 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["다양한 종류의 샤브샤브 메뉴", "쇼핑몰 내 위치해 뛰어난 접근성"],
-        tips: ["쇼핑 후 깔끔하고 편리하게 식사하기 좋아요"],
+        highlights: ["베트남 요리", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "베트남 요리", items: [{ name: "대표 메뉴", price: "₫150,000~500,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
@@ -185,10 +185,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "세일링 클럽 나트랑": {
         photos: ["/images/nha-trang/info/restaurants/sailing-club-nha-trang.jpg"],
-        summary: "나트랑 해변의 낭만을 즐길 수 있는 비치 다이닝 명소",
+        summary: "Sailing Club 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["환상적인 오션뷰와 트렌디한 분위기", "칵테일과 함께 즐기는 저녁 식사"],
-        tips: ["노을이 예쁜 일몰 시간에 맞춰 방문하면 인생샷 가능!"],
+        highlights: ["해변 다이닝·칵테일", "평점 4.2", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "해변 다이닝·칵테일", items: [{ name: "대표 메뉴", price: "₫200,000~800,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 7:00 ~ 오전 2:00; 화요일: 오전 7:00 ~ 오전 2:00",
@@ -252,10 +252,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "알파카 홈스타일 카페": {
         photos: ["/images/nha-trang/info/restaurants/alpaca-homestyle-cafe-nha-trang.jpg"],
-        summary: "나트랑에서 여유로운 아침을 즐기기 좋은 감성 브런치 카페",
+        summary: "알파카 홈스타일 카페 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["다양하고 맛있는 브런치 메뉴", "아늑하고 편안한 홈스타일 인테리어"],
-        tips: ["여유로운 오전 시간에 방문하는 것을 추천해요"],
+        highlights: ["브런치·커피", "평점 4.8", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "브런치·커피", items: [{ name: "대표 메뉴", price: "₫100,000~400,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 8:00 ~ 오후 9:30; 화요일: 오전 8:00 ~ 오후 9:30",
@@ -269,10 +269,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "레인포레스트 나트랑": {
         photos: ["/images/nha-trang/info/restaurants/rainforest-nha-trang.jpg"],
-        summary: "정글 속에 온 듯한 이색적인 분위기의 테마 카페",
+        summary: "Рейнфорест 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["인생샷 건지기 좋은 정글 컨셉 인테리어", "압도적인 비주얼의 공간 구성"],
-        tips: ["사진 찍기 좋은 스팟이 많으니 카메라 준비 필수!"],
+        highlights: ["정글 콘셉트 카페", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "정글 콘셉트 카페", items: [{ name: "대표 메뉴", price: "₫80,000~300,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "방문 전 확인 권장",
@@ -285,10 +285,10 @@ const info: Record<string, RestaurantInfo> = {
     },
     "아이스드 커피 심플리 오리지널": {
         photos: ["/images/nha-trang/info/restaurants/iced-coffee-simply-original-nha-trang.jpg"],
-        summary: "베트남 현지의 맛을 그대로 느낄 수 있는 시원한 아이스 커피 전문점",
+        summary: "아이스드 커피 기준으로 확인한 나트랑 추천 장소입니다.",
         updatedAt: "2026-07-13",
-        highlights: ["진하고 깔끔한 베트남식 커피 맛", "더위를 날려줄 시원한 메뉴"],
-        tips: ["나트랑의 더운 오후, 갈증 해소용으로 딱이에요"],
+        highlights: ["베트남 커피", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
         reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
         menu: { signature: "베트남 커피", items: [{ name: "대표 메뉴", price: "₫50,000~200,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
         hours: "월요일: 오전 6:30 ~ 오후 10:30; 화요일: 오전 6:30 ~ 오후 10:30",
@@ -330,6 +330,173 @@ const info: Record<string, RestaurantInfo> = {
         links: [
             { label: "Google Maps", url: "https://maps.google.com/?cid=9632974259285349130", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%94%EC%8A%A4%ED%83%80+%EC%94%A8%ED%91%B8%EB%93%9C+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "스카이라이트 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/skylight-nha-trang.jpg"],
+        summary: "스카이라이트 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["루프톱 바·전망", "평점 4.6", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "루프톱 바·전망", items: [{ name: "대표 메뉴", price: "₫200,000~800,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 휴무일; 화요일: 오후 5:00 ~ 오전 12:45",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://skylightnhatrang.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4237274364947283575", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "응온 갤러리 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/nha-hang-ngon-gallery-nha-trang.jpg"],
+        summary: "응온 갤러리 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["베트남 요리 뷔페", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "베트남 요리 뷔페", items: [{ name: "대표 메뉴", price: "₫300,000~800,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 6:30~9:45, 오전 11:30 ~ 오후 1:45, 오후 5:00~9:45; 화요일: 오전 6:30~9:45, 오전 11:30 ~ 오후 1:45, 오후 5:00~9:45",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://ngongalleryvn.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6007473449932114950", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%91%EC%98%A8+%EA%B0%A4%EB%9F%AC%EB%A6%AC+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "스위스 하우스 라 카세롤": {
+        photos: ["/images/nha-trang/info/restaurants/swiss-house-la-casserole-nha-trang.jpg"],
+        summary: "안토이 2 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["스위스·유럽 요리", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "스위스·유럽 요리", items: [{ name: "대표 메뉴", price: "₫200,000~900,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 10:30 ~ 오후 9:30; 화요일: 오전 10:30 ~ 오후 9:30",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/anthoi.vietnam/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8616602372252073345", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%9C%84%EC%8A%A4+%ED%95%98%EC%9A%B0%EC%8A%A4+%EB%9D%BC+%EC%B9%B4%EC%84%B8%EB%A1%A4+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "그릭 수블라키 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/greek-souvlaki-nha-trang.jpg"],
+        summary: "그릭 수블라키 냐짱 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["수블라키·기로스", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "수블라키·기로스", items: [{ name: "대표 메뉴", price: "₫100,000~400,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 9:30 ~ 오후 11:00; 화요일: 오전 9:30 ~ 오후 11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9890417582479538679", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%AD+%EC%88%98%EB%B8%94%EB%9D%BC%ED%82%A4+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "그릴 가든 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/grill-garden-nha-trang.jpg"],
+        summary: "Vườn Nướng Grill Garden 2 (BBQ Buffet) 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["해산물·고기 그릴", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "해산물·고기 그릴", items: [{ name: "대표 메뉴", price: "₫200,000~800,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오후 5:00~10:00; 화요일: 오후 5:00~10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://facebook.com/grillgarden.vn", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10700388266070131444", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%B4+%EA%B0%80%EB%93%A0+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "피스트 뷔페 쉐라톤 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/feast-buffet-nha-trang-sheraton.jpg"],
+        summary: "Feast Restaurant Nha Trang 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["해산물 뷔페", "평점 4.8", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "해산물 뷔페", items: [{ name: "대표 메뉴", price: "₫500,000~1,200,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 6:30~11:00, 오후 5:00~9:00; 화요일: 오전 6:30~11:00, 오후 5:00~9:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.feastnhatrang.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7964546402146594343", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%BC%EC%8A%A4%ED%8A%B8+%EB%B7%94%ED%8E%98+%EC%89%90%EB%9D%BC%ED%86%A4+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "스팀 앤 스파이스 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/steam-n-spice-nha-trang.jpg"],
+        summary: "Steam n' Spice 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["딤섬·중식", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "딤섬·중식", items: [{ name: "대표 메뉴", price: "₫200,000~800,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.marriott.com/en-us/hotels/nhasi-sheraton-nha-trang-hotel-and-spa/dining/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10699755168041702025", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%8C%80+%EC%95%A4+%EC%8A%A4%ED%8C%8C%EC%9D%B4%EC%8A%A4+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "키와미 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/kiwami-nha-trang.jpg"],
+        summary: "키와미 초밥 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["스시·일식", "평점 4.6", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "스시·일식", items: [{ name: "대표 메뉴", price: "₫200,000~900,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 11:30 ~ 오후 1:30, 오후 5:00~10:00; 화요일: 휴무일",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://m.facebook.com/kiwamijapaneserestaurant/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1586440162826281117", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%99%80%EB%AF%B8+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "아키라 BBQ 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/akira-bbq-nha-trang.jpg"],
+        summary: "AKIRA SUSHI - Japanese Cuisine 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["야키니쿠·뷔페", "평점 4.1", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "야키니쿠·뷔페", items: [{ name: "대표 메뉴", price: "₫250,000~700,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "방문 전 확인 권장",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2594852421515355193", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%ED%82%A4%EB%9D%BC+BBQ+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "옌 스시 나트랑": {
+        photos: ["/images/nha-trang/info/restaurants/yen-sushi-nha-trang.jpg"],
+        summary: "Ya! Japanese Dining & Cafe 기준으로 확인한 나트랑 추천 장소입니다.",
+        updatedAt: "2026-07-13",
+        highlights: ["스시·롤", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "스시·롤", items: [{ name: "대표 메뉴", price: "₫150,000~600,000", note: "메뉴와 가격은 지점/시점별 변동 가능" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4993998049791800181", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%8C+%EC%8A%A4%EC%8B%9C+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
 };

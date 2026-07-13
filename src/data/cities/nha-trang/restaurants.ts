@@ -14,7 +14,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫100,000~400,000",
         openingHours: "월요일: 오전 9:30 ~ 오후 9:00; 화요일: 오전 9:30 ~ 오후 9:00",
         reservation: false,
-        features: ["육즙 가득한 숯불 소고기", "현지 분위기 물씬"],
+        features: ["숯불 소고기 구이", "평점 3.7", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🥩"
     },
     {
@@ -29,7 +29,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫50,000~200,000",
         openingHours: "월요일: 오전 7:30 ~ 오후 8:30; 화요일: 오전 7:30 ~ 오후 8:30",
         reservation: false,
-        features: ["바삭하고 고소한 넴느엉", "신선한 야채와 특제 소스"],
+        features: ["넴느엉", "평점 4.1", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🌯"
     },
     {
@@ -44,7 +44,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫50,000~200,000",
         openingHours: "월요일: 오전 6:00 ~ 오후 10:30; 화요일: 오전 6:00 ~ 오후 10:30",
         reservation: false,
-        features: ["실패 없는 완벽한 맛", "높은 만족도"],
+        features: ["넴느엉", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🌯"
     },
     {
@@ -59,7 +59,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫40,000~150,000",
         openingHours: "월요일: 오전 5:00 ~ 오후 10:00; 화요일: 오전 5:00 ~ 오후 10:00",
         reservation: false,
-        features: ["깊은 풍미의 생선 육수", "현지 분위기 물씬"],
+        features: ["생선쌀국수", "평점 4", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🍜"
     },
     {
@@ -74,7 +74,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫40,000~150,000",
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
-        features: ["겉바속촉 반깐", "가성비 좋은 현지 맛집"],
+        features: ["반깐", "평점 3.2", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🥞"
     },
     {
@@ -89,7 +89,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫50,000~200,000",
         openingHours: "월요일: 오전 10:00 ~ 오후 9:30; 화요일: 오전 10:00 ~ 오후 9:30",
         reservation: false,
-        features: ["바삭함이 살아있는 반쎄오", "검증된 현지인 맛집"],
+        features: ["반쎄오", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🥘"
     },
     {
@@ -149,7 +149,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫100,000~400,000",
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         reservation: false,
-        features: ["따뜻하고 정성스러운 로컬 가정식 메뉴", "높은 평점으로 검증된 현지인 맛집"],
+        features: ["베트남 가정식", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🍚"
     },
     {
@@ -164,7 +164,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫150,000~500,000",
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
-        features: ["다양한 종류의 샤브샤브 메뉴", "쇼핑몰 내 위치해 뛰어난 접근성"],
+        features: ["베트남 요리", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🏮"
     },
     {
@@ -179,7 +179,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫200,000~800,000",
         openingHours: "월요일: 오전 7:00 ~ 오전 2:00; 화요일: 오전 7:00 ~ 오전 2:00",
         reservation: false,
-        features: ["환상적인 오션뷰와 트렌디한 분위기", "칵테일과 함께 즐기는 저녁 식사"],
+        features: ["해변 다이닝·칵테일", "평점 4.2", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🍹"
     },
     {
@@ -239,7 +239,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫100,000~400,000",
         openingHours: "월요일: 오전 8:00 ~ 오후 9:30; 화요일: 오전 8:00 ~ 오후 9:30",
         reservation: false,
-        features: ["다양하고 맛있는 브런치 메뉴", "아늑하고 편안한 홈스타일 인테리어"],
+        features: ["브런치·커피", "평점 4.8", "나트랑 여행 동선에 넣기 좋음"],
         icon: "☕"
     },
     {
@@ -254,7 +254,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫80,000~300,000",
         openingHours: "방문 전 확인 권장",
         reservation: false,
-        features: ["인생샷 건지기 좋은 정글 컨셉 인테리어", "압도적인 비주얼의 공간 구성"],
+        features: ["정글 콘셉트 카페", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🌿"
     },
     {
@@ -269,7 +269,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "₫50,000~200,000",
         openingHours: "월요일: 오전 6:30 ~ 오후 10:30; 화요일: 오전 6:30 ~ 오후 10:30",
         reservation: false,
-        features: ["진하고 깔끔한 베트남식 커피 맛", "더위를 날려줄 시원한 메뉴"],
+        features: ["베트남 커피", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
         icon: "☕"
     },
     {
@@ -301,6 +301,156 @@ const restaurants: RestaurantData[] = [
         reservation: false,
         features: ["프리미엄 해산물", "평점 4.1", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🦞"
+    },
+    {
+        name: "스카이라이트 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "western",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2433961, lng: 109.195842 },
+        cuisine: "루프톱 바",
+        specialty: "루프톱 바·전망",
+        priceRange: "₫200,000~800,000",
+        openingHours: "월요일: 휴무일; 화요일: 오후 5:00 ~ 오전 12:45",
+        reservation: false,
+        features: ["루프톱 바·전망", "평점 4.6", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🌃"
+    },
+    {
+        name: "응온 갤러리 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "local",
+        city: "Nha Trang",
+        coordinates: { lat: 12.236219, lng: 109.1968544 },
+        cuisine: "베트남식",
+        specialty: "베트남 요리 뷔페",
+        priceRange: "₫300,000~800,000",
+        openingHours: "월요일: 오전 6:30~9:45, 오전 11:30 ~ 오후 1:45, 오후 5:00~9:45; 화요일: 오전 6:30~9:45, 오전 11:30 ~ 오후 1:45, 오후 5:00~9:45",
+        reservation: false,
+        features: ["베트남 요리 뷔페", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🍽️"
+    },
+    {
+        name: "스위스 하우스 라 카세롤",
+        showInInbox: true,
+        hasInfo: true,
+        type: "western",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2378215, lng: 109.1902234 },
+        cuisine: "유럽식",
+        specialty: "스위스·유럽 요리",
+        priceRange: "₫200,000~900,000",
+        openingHours: "월요일: 오전 10:30 ~ 오후 9:30; 화요일: 오전 10:30 ~ 오후 9:30",
+        reservation: false,
+        features: ["스위스·유럽 요리", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🧀"
+    },
+    {
+        name: "그릭 수블라키 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "western",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2377955, lng: 109.1938344 },
+        cuisine: "그리스식",
+        specialty: "수블라키·기로스",
+        priceRange: "₫100,000~400,000",
+        openingHours: "월요일: 오전 9:30 ~ 오후 11:00; 화요일: 오전 9:30 ~ 오후 11:00",
+        reservation: false,
+        features: ["수블라키·기로스", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🥙"
+    },
+    {
+        name: "그릴 가든 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "western",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2297843, lng: 109.1985323 },
+        cuisine: "그릴·BBQ",
+        specialty: "해산물·고기 그릴",
+        priceRange: "₫200,000~800,000",
+        openingHours: "월요일: 오후 5:00~10:00; 화요일: 오후 5:00~10:00",
+        reservation: false,
+        features: ["해산물·고기 그릴", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🔥"
+    },
+    {
+        name: "피스트 뷔페 쉐라톤 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "western",
+        city: "Nha Trang",
+        coordinates: { lat: 12.24639, lng: 109.1958309 },
+        cuisine: "호텔 뷔페",
+        specialty: "해산물 뷔페",
+        priceRange: "₫500,000~1,200,000",
+        openingHours: "월요일: 오전 6:30~11:00, 오후 5:00~9:00; 화요일: 오전 6:30~11:00, 오후 5:00~9:00",
+        reservation: false,
+        features: ["해산물 뷔페", "평점 4.8", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🍽️"
+    },
+    {
+        name: "스팀 앤 스파이스 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "chinese",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2464395, lng: 109.1957627 },
+        cuisine: "중식",
+        specialty: "딤섬·중식",
+        priceRange: "₫200,000~800,000",
+        openingHours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00",
+        reservation: false,
+        features: ["딤섬·중식", "평점 4.7", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🥟"
+    },
+    {
+        name: "키와미 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "japanese",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2392283, lng: 109.1910633 },
+        cuisine: "일식",
+        specialty: "스시·일식",
+        priceRange: "₫200,000~900,000",
+        openingHours: "월요일: 오전 11:30 ~ 오후 1:30, 오후 5:00~10:00; 화요일: 휴무일",
+        reservation: false,
+        features: ["스시·일식", "평점 4.6", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🍣"
+    },
+    {
+        name: "아키라 BBQ 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "japanese",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2431084, lng: 109.1966423 },
+        cuisine: "일식·BBQ",
+        specialty: "야키니쿠·뷔페",
+        priceRange: "₫250,000~700,000",
+        openingHours: "방문 전 확인 권장",
+        reservation: false,
+        features: ["야키니쿠·뷔페", "평점 4.1", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🥩"
+    },
+    {
+        name: "옌 스시 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "japanese",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2369243, lng: 109.1940763 },
+        cuisine: "일식",
+        specialty: "스시·롤",
+        priceRange: "₫150,000~600,000",
+        openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        reservation: false,
+        features: ["스시·롤", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🍣"
     },
 ];
 
