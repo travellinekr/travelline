@@ -146,6 +146,7 @@ import nhatrangAccommodations from './nha-trang/accommodations';
 import nhatrangRestaurants from './nha-trang/restaurants';
 import nhatrangShopping from './nha-trang/shopping';
 import nhatrangTransport from './nha-trang/transport';
+import nhatrangTourSpa from './nha-trang/tourSpa';
 
 import baliAccommodations from './bali/accommodations';
 import baliRestaurants from './bali/restaurants';
@@ -257,6 +258,7 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: nhatrangRestaurants,
         shopping: nhatrangShopping,
         transport: nhatrangTransport,
+        tourSpa: nhatrangTourSpa,
     },
     "Bali": {
         accommodations: baliAccommodations,
