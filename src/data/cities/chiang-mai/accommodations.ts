@@ -1,83 +1,187 @@
 import type { AccommodationData } from '../index';
 
+
 const accommodations: AccommodationData[] = [
     {
-        name: "센사이 호텔 님만",
+        name: "포시즌스 리조트 치앙마이",
         showInInbox: true,
-        type: "hotel",
-        coordinates: { lat: 18.795158, lng: 98.968226 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
+        hasInfo: true,
+        type: "resort",
         city: "Chiang Mai",
-        description: "5성급 부티크, 전통 란나 스타일",
-        tags: ["님만", "부티크"]
+        coordinates: { lat: 18.9161783, lng: 98.9316048 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "논밭 풍경과 럭셔리 휴식에 강점이 있는 리조트입니다.",
+        tags: ["럭셔리", "휴양"]
     },
     {
-        name: "아난타라 치앙마이",
+        name: "아난타라 치앙마이 리조트",
         showInInbox: true,
+        hasInfo: true,
         type: "resort",
+        city: "Chiang Mai",
         coordinates: { lat: 18.7815954, lng: 99.003714 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
-        city: "Chiang Mai",
-        description: "5성급, 다양한 액티비티",
-        tags: ["올드타운", "럭셔리"]
+        description: "강변 위치와 조용한 분위기가 좋은 고급 리조트입니다.",
+        tags: ["리버사이드", "럭셔리"]
     },
     {
-        name: "부리라타나 호텔",
+        name: "137 필라스 하우스",
         showInInbox: true,
+        hasInfo: true,
         type: "hotel",
-        coordinates: { lat: 18.7879397, lng: 98.9887655 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
         city: "Chiang Mai",
-        description: "올드타운, 가성비, 선데이 마켓",
-        tags: ["올드타운", "가성비"]
+        coordinates: { lat: 18.7919289, lng: 99.0041676 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "부티크 감성과 고급 서비스가 강점인 숙소입니다.",
+        tags: ["부티크", "럭셔리"]
+    },
+    {
+        name: "라차만카 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7871825, lng: 98.9799994 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "올드타운 안의 조용한 란나 스타일 부티크 호텔입니다.",
+        tags: ["올드타운", "부티크"]
+    },
+    {
+        name: "타마린드 빌리지",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7885472, lng: 98.9897558 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "올드타운 중심 접근성과 전통 분위기가 장점입니다.",
+        tags: ["올드타운", "부티크"]
+    },
+    {
+        name: "르 메르디앙 치앙마이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7845828, lng: 98.99991179999999 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "나이트바자 접근성이 좋은 대형 호텔입니다.",
+        tags: ["나이트바자", "가족 여행"]
     },
     {
         name: "멜리아 치앙마이",
-        showInInbox: false,
+        showInInbox: true,
+        hasInfo: true,
         type: "hotel",
+        city: "Chiang Mai",
         coordinates: { lat: 18.7852997, lng: 99.0027877 },
         checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Chiang Mai",
-        description: "2022년 오픈, 나이트 바자 근처",
-        tags: ["나이트바자", "신상"]
+        checkOutTime: "12:00",
+        description: "신축급 시설과 시내 접근성이 좋은 호텔입니다.",
+        tags: ["시내", "신축급"]
     },
     {
-        name: "라야 헤리티지",
-        showInInbox: false,
+        name: "샹그릴라 치앙마이",
+        showInInbox: true,
+        hasInfo: true,
         type: "hotel",
-        coordinates: { lat: 18.8486074, lng: 98.98525769999999 },
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7783217, lng: 99.0002224 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
-        city: "Chiang Mai",
-        description: "강변 럭셔리 부티크",
-        tags: ["강변", "부티크"]
+        description: "가족 여행과 수영장 시설에 강점이 있는 대형 호텔입니다.",
+        tags: ["가족 여행", "수영장"]
     },
     {
-        name: "크로스 치앙마이 리버사이드",
-        showInInbox: false,
+        name: "인터컨티넨탈 치앙마이 매핑",
+        showInInbox: true,
+        hasInfo: true,
         type: "hotel",
-        coordinates: { lat: 18.7661385, lng: 99.0048216 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
         city: "Chiang Mai",
-        description: "현대적 디자인, 스위트룸",
-        tags: ["강변", "모던"]
-    },
-    {
-        name: "포시즌스 리조트",
-        showInInbox: false,
-        type: "resort",
-        coordinates: { lat: 18.7883439, lng: 98.98530079999999 },
+        coordinates: { lat: 18.78291, lng: 98.99801 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
+        description: "시내 중심 접근성과 브랜드 시설을 갖춘 호텔입니다.",
+        tags: ["시내", "브랜드호텔"]
+    },
+    {
+        name: "유 님만 치앙마이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
         city: "Chiang Mai",
-        description: "매림 외곽, 전통 북부 스타일",
-        tags: ["매림", "럭셔리"]
-    }
+        coordinates: { lat: 18.8006605, lng: 98.96801889999999 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "님만 중심 위치와 쇼핑 동선이 좋은 호텔입니다.",
+        tags: ["님만", "쇼핑"]
+    },
+    {
+        name: "이스틴 탄 호텔 치앙마이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.8013783, lng: 98.967174 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "마야몰·님만 접근성이 좋은 실용적인 호텔입니다.",
+        tags: ["님만", "가성비"]
+    },
+    {
+        name: "아키라 매너 치앙마이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.797249, lng: 98.96948239999999 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "님만 지역의 디자인 부티크 호텔입니다.",
+        tags: ["님만", "부티크"]
+    },
+    {
+        name: "아트 마이 갤러리 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7991237, lng: 98.96884120000001 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "예술 콘셉트와 님만 접근성이 장점입니다.",
+        tags: ["님만", "디자인"]
+    },
+    {
+        name: "프라싱 빌리지",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7870981, lng: 98.98114199999999 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "올드타운 사원 동선에 좋은 부티크 호텔입니다.",
+        tags: ["올드타운", "부티크"]
+    },
+    {
+        name: "찰라 넘버 6",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.7867018, lng: 98.98818039999999 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "올드타운 중심부에서 걷기 좋은 위치의 호텔입니다.",
+        tags: ["올드타운", "위치"]
+    },
 ];
 
 export default accommodations;

@@ -14,7 +14,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 5:00 ~ 오후 6:30; 화요일: 오전 5:00 ~ 오후 6:30",
         taxRefund: false,
-        features: ["저렴한 기념품 쇼핑", "다양한 건어물 종류", "활기찬 현지 분위기"],
+        features: ["기념품, 건어물, 로컬 쇼핑", "평점 3.9", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🛍️"
     },
     {
@@ -29,7 +29,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
         taxRefund: true,
-        features: ["깔끔한 쇼핑 환경", "다양한 식당가 입점", "시원한 에어컨 동선"],
+        features: ["쇼핑, 식당가, 실내 동선", "평점 4.2", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🏬"
     },
     {
@@ -44,7 +44,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 8:30 ~ 오후 10:00; 화요일: 오전 8:30 ~ 오후 10:00",
         taxRefund: false,
-        features: ["다양한 과자와 간식", "여행 중 필요한 생필품", "깔끔하고 편리한 쇼핑"],
+        features: ["과자, 기념품, 생필품", "평점 4.5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🛒"
     },
     {
@@ -59,7 +59,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
-        features: ["다양한 패션 브랜드", "쾌적한 마트와 식당가"],
+        features: ["패션, 마트, 식당가", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🏢"
     },
     {
@@ -74,7 +74,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         taxRefund: false,
-        features: ["가성비 좋은 간식류", "다양한 생활용품"],
+        features: ["마트 쇼핑, 식료품", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🛒"
     },
     {
@@ -89,7 +89,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 6:00 ~ 오후 5:00; 화요일: 오전 6:00 ~ 오후 5:00",
         taxRefund: false,
-        features: ["신선한 로컬 식재료", "저렴한 생활용품"],
+        features: ["로컬 식재료, 생활용품", "평점 4", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🥬"
     },
     {
@@ -104,7 +104,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오후 3:00~11:00; 화요일: 오후 3:00~11:30",
         taxRefund: false,
-        features: ["다양한 의류와 액세서리", "현지 분위기 가득한 야식"],
+        features: ["기념품, 의류, 야식", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🌙"
     },
     {
@@ -119,7 +119,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
-        features: ["쾌적한 실내 환경", "다양한 맛집이 모인 푸드코트"],
+        features: ["마트, 생활용품, 식당가", "평점 4.5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🏬"
     },
     {
@@ -134,7 +134,7 @@ const shopping: ShoppingData[] = [
         priceRange: "฿50~100,000+",
         openingHours: "월요일: 오전 7:00 ~ 오후 11:00; 화요일: 오전 7:00 ~ 오후 11:00",
         taxRefund: false,
-        features: ["베트남 로컬 과자와 음료", "가성비 좋은 기념품 쇼핑"],
+        features: ["간식, 음료, 생활용품", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🛒"
     },
     {
@@ -151,6 +151,156 @@ const shopping: ShoppingData[] = [
         taxRefund: false,
         features: ["해산물, 로컬 시장", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
         icon: "🐟"
+    },
+    {
+        name: "코옵마트 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2427916, lng: 109.1821128 },
+        category: "슈퍼마켓",
+        specialItems: "로컬 마트, 생필품",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["로컬 마트, 생필품", "평점 4.2", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🛒"
+    },
+    {
+        name: "AB 센트럴 스퀘어",
+        showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2409905, lng: 109.1961624 },
+        category: "쇼핑몰",
+        specialItems: "쇼핑, 식당가, 시내 동선",
+        priceRange: "฿50~100,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: true,
+        features: ["쇼핑, 식당가, 시내 동선", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    },
+    {
+        name: "골드코스트 몰 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2478331, lng: 109.194989 },
+        category: "쇼핑몰",
+        specialItems: "롯데마트, 쇼핑, 다이닝",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        taxRefund: true,
+        features: ["롯데마트, 쇼핑, 다이닝", "평점 4.3", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    },
+    {
+        name: "빈컴 플라자 레탄톤",
+        showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2428376, lng: 109.1936529 },
+        category: "쇼핑몰",
+        specialItems: "패션, 마트, 영화관",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        taxRefund: true,
+        features: ["패션, 마트, 영화관", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🏢"
+    },
+    {
+        name: "메가마켓 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2574658, lng: 109.1346809 },
+        category: "창고형 마트",
+        specialItems: "대용량 식료품, 생활용품",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 7:30 ~ 오후 10:00; 화요일: 오전 7:30 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["대용량 식료품, 생활용품", "평점 4.5", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🛒"
+    },
+    {
+        name: "사파이어 나트랑 센터",
+        showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Nha Trang",
+        coordinates: { lat: 12.236525, lng: 109.1964595 },
+        category: "쇼핑센터",
+        specialItems: "시내 쇼핑, 식당가",
+        priceRange: "฿50~100,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: true,
+        features: ["시내 쇼핑, 식당가", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    },
+    {
+        name: "프엉사이 시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2532726, lng: 109.1821045 },
+        category: "로컬 시장",
+        specialItems: "생활용품, 식재료",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 6:00 ~ 오후 4:30; 화요일: 오전 6:00 ~ 오후 4:30",
+        taxRefund: false,
+        features: ["생활용품, 식재료", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🥬"
+    },
+    {
+        name: "혼로 시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2001671, lng: 109.193858 },
+        category: "해산물 시장",
+        specialItems: "해산물, 로컬 시장",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 3:58 ~ 오후 6:58; 화요일: 오전 3:58 ~ 오후 6:58",
+        taxRefund: false,
+        features: ["해산물, 로컬 시장", "평점 3.9", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🐟"
+    },
+    {
+        name: "미니소 나트랑 센터",
+        showInInbox: true,
+        hasInfo: true,
+        type: "souvenir",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2330135, lng: 109.1976896 },
+        category: "라이프스타일숍",
+        specialItems: "잡화, 여행 소품",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["잡화, 여행 소품", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🎁"
+    },
+    {
+        name: "윈마트 나트랑 센터",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2481602, lng: 109.1871569 },
+        category: "슈퍼마켓",
+        specialItems: "간식, 음료, 생필품",
+        priceRange: "฿50~100,000+",
+        openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["간식, 음료, 생필품", "평점 4.8", "나트랑 여행 동선에 넣기 좋음"],
+        icon: "🛒"
     },
 ];
 

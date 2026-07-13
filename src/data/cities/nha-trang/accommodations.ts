@@ -8,7 +8,7 @@ const accommodations: AccommodationData[] = [
         hasInfo: true,
         type: "hotel",
         city: "Nha Trang",
-        coordinates: { lat: 12.2445911, lng: 109.1960166 },
+        coordinates: { lat: 12.2445295, lng: 109.1961774 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쩐푸 해변 중심부에 위치한 글로벌 체인 호텔입니다.",
@@ -181,6 +181,66 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         description: "캄란 해변권의 고급 휴양 리조트입니다.",
         tags: ["리조트", "캄란"]
+    },
+    {
+        name: "알마 리조트 캄란",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Nha Trang",
+        coordinates: { lat: 12.0722157, lng: 109.19439 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "가족형 시설과 넓은 리조트 동선이 강점입니다.",
+        tags: ["가족 여행", "캄란"]
+    },
+    {
+        name: "보톤 블루 호텔 앤 스파",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2848053, lng: 109.2038867 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "북부 해변권 전망과 루프톱 시설이 장점인 호텔입니다.",
+        tags: ["전망", "스파"]
+    },
+    {
+        name: "디쿠아 호텔 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2515278, lng: 109.192413 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "시내 접근성과 객실 컨디션 균형이 좋은 호텔입니다.",
+        tags: ["시내", "가성비"]
+    },
+    {
+        name: "므엉탄 럭셔리 나트랑 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Nha Trang",
+        coordinates: { lat: 12.258977, lng: 109.1974389 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "해변 접근성과 대형 호텔 시설이 장점입니다.",
+        tags: ["해변", "대형 호텔"]
+    },
+    {
+        name: "시타딘 베이프론트 나트랑",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Nha Trang",
+        coordinates: { lat: 12.23609, lng: 109.196887 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "비치프론트 위치와 레지던스형 편의성이 장점입니다.",
+        tags: ["비치프론트", "레지던스"]
     },
 ];
 
