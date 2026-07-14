@@ -137,6 +137,12 @@ import dalianShopping from './dalian/shopping';
 import dalianTransport from './dalian/transport';
 import dalianTourSpa from './dalian/tourSpa';
 
+import hongkongAccommodations from './hong-kong/accommodations';
+import hongkongRestaurants from './hong-kong/restaurants';
+import hongkongShopping from './hong-kong/shopping';
+import hongkongTransport from './hong-kong/transport';
+import hongkongTourSpa from './hong-kong/tourSpa';
+
 import danangAccommodations from './da-nang/accommodations';
 import danangRestaurants from './da-nang/restaurants';
 import danangShopping from './da-nang/shopping';
@@ -257,6 +263,13 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: dalianShopping,
         transport: dalianTransport,
         tourSpa: dalianTourSpa,
+    },
+    "Hong Kong": {
+        accommodations: hongkongAccommodations,
+        restaurants: hongkongRestaurants,
+        shopping: hongkongShopping,
+        transport: hongkongTransport,
+        tourSpa: hongkongTourSpa,
     },
     "Da Nang": {
         accommodations: danangAccommodations,

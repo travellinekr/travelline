@@ -82,6 +82,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Taipei": "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei_101_from_Xiangshan_20240729.jpg?width=800",
     "Shanghai": "https://commons.wikimedia.org/wiki/Special:FilePath/Shanghai_skyline_from_the_bund.jpg?width=800",
     "Dalian": "https://commons.wikimedia.org/wiki/Special:FilePath/Dalian_Castle_Hotel_2015.jpg?width=800",
+    "Hong Kong": "https://commons.wikimedia.org/wiki/Special:FilePath/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg?width=800",
     "Da Nang": "https://commons.wikimedia.org/wiki/Special:FilePath/2020_Da_Nang_Dragon_Bridge_IMG_3897.jpg?width=800",
     "Bangkok": "https://commons.wikimedia.org/wiki/Special:FilePath/Wat_arun_bangkok.jpg?width=800",
     "Nha Trang": "https://commons.wikimedia.org/wiki/Special:FilePath/Nha_Trang_Beach,_Vietnam.jpg?width=800",
@@ -214,6 +215,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 tags: ["이색", "가성비"],
                 landmark: "Dalian Xinghai Square",
                 airports: [{ name: "다롄저우수이쯔국제공항", code: "DLC" }],
+                timezone: 8
+            },
+            {
+                name: "홍콩",
+                engName: "Hong Kong",
+                country: "홍콩",
+                desc: "야경과 딤섬의 도시",
+                tags: ["미식", "야경"],
+                landmark: "Victoria Harbour Hong Kong",
+                airports: [{ name: "홍콩국제공항", code: "HKG" }],
                 timezone: 8
             },
         ]
