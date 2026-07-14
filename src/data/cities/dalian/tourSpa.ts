@@ -1,0 +1,92 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "싱하이 광장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Dalian",
+        description: "바다와 광장 풍경을 함께 즐기는 다롄 대표 산책 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 38.882345, lng: 121.578776 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["시원한 바다 전망", "웅장한 광장 야경"],
+        rating: 4.8,
+        icon: "tour"
+    },
+    {
+        name: "방추이다오 풍경구",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Dalian",
+        description: "해안 풍경과 조용한 산책을 즐기기 좋은 다롄 대표 해변 명소입니다.",
+        duration: "2~3시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 38.88922220000001, lng: 121.702453 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["아름다운 해안 산책로", "조용한 힐링 스팟"],
+        rating: 4.4,
+        icon: "tour"
+    },
+    {
+        name: "다롄 삼림동물원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "theme-park",
+        city: "Dalian",
+        description: "가족 여행에서 반나절 일정으로 넣기 좋은 대형 동물원입니다.",
+        duration: "3~5시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 38.88376299999999, lng: 121.602394 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["다양한 동물 관람", "가족 나들이 최적지"],
+        rating: 4.4,
+        icon: "tour"
+    },
+    {
+        name: "라오후탄 해양공원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "theme-park",
+        city: "Dalian",
+        description: "해양 동물 전시와 공연을 함께 볼 수 있는 다롄 대표 가족 명소입니다.",
+        duration: "3~5시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 38.87677, lng: 121.676903 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["해양 동물 전시와 공연을 함께 볼 수 있는 다롄 대표 가족 명소입니다.", "평점 4.4", "다롄 여행 동선에 넣기 좋음"],
+        rating: 4.4,
+        icon: "tour"
+    },
+    {
+        name: "뤼순항",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Dalian",
+        description: "근대사 유적과 항구 풍경을 함께 둘러보는 다롄 근교 코스입니다.",
+        duration: "반나절",
+        priceRange: "교통·입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 38.8512899, lng: 121.26208 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["근대사 유적과 항구 풍경을 함께 둘러보는 다롄 근교 코스입니다.", "평점 None", "다롄 여행 동선에 넣기 좋음"],
+        rating: 4.3,
+        icon: "tour"
+    },
+];
+
+export default tourSpa;

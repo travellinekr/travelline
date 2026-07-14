@@ -1,48 +1,82 @@
 import type { ShoppingData } from '../index';
 
+
 const shopping: ShoppingData[] = [
     {
-        name: "러시아 풍정 거리",
+        name: "파빌리온 다롄",
         showInInbox: true,
-        type: "market",
-        city: "Dalian",
-        coordinates: { lat: 38.9140, lng: 121.6380 },
-        category: "쇼핑 거리",
-        specialItems: "러시아 기념품, 의류",
-        priceRange: "¥50~5,000",
-        openingHours: "09:00~21:00",
-        taxRefund: false,
-        features: ["유럽풍 건물", "기념품", "사진 명소"],
-        icon: "🏛️"
-    },
-    {
-        name: "승리광장",
-        showInInbox: true,
+        hasInfo: true,
         type: "mall",
         city: "Dalian",
-        coordinates: { lat: 38.9188, lng: 121.6296 },
-        category: "복합 쇼핑몰",
-        specialItems: "패션, 전자제품",
-        priceRange: "¥100~30,000",
-        openingHours: "10:00~22:00",
+        coordinates: { lat: 39.0095808, lng: 121.5956376 },
+        category: "쇼핑몰",
+        specialItems: "패션, 식당가, 도심 쇼핑",
+        priceRange: "¥300~8,000+",
+        openingHours: "방문 전 확인 권장",
         taxRefund: true,
-        features: ["대형 광장", "다양한 매장", "레스토랑"],
-        icon: "🏢"
+        features: ["패션, 식당가, 도심 쇼핑", "평점 4.7", "다롄 여행 동선에 넣기 좋음"],
+        icon: "shop"
     },
     {
-        name: "시안루",
+        name: "올림피아 66 다롄",
         showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Dalian",
+        coordinates: { lat: 38.90877, lng: 121.60792 },
+        category: "대형 쇼핑몰",
+        specialItems: "브랜드 쇼핑, 레스토랑, 영화관",
+        priceRange: "¥300~8,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: true,
+        features: ["브랜드 쇼핑, 레스토랑, 영화관", "평점 4.3", "다롄 여행 동선에 넣기 좋음"],
+        icon: "shop"
+    },
+    {
+        name: "뉴마트 쇼핑 플라자 다롄",
+        showInInbox: true,
+        hasInfo: true,
+        type: "department-store",
+        city: "Dalian",
+        coordinates: { lat: 38.916433, lng: 121.633147 },
+        category: "백화점",
+        specialItems: "백화점 쇼핑, 생활용품, 식당가",
+        priceRange: "¥300~8,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: true,
+        features: ["백화점 쇼핑, 생활용품, 식당가", "평점 4.7", "다롄 여행 동선에 넣기 좋음"],
+        icon: "shop"
+    },
+    {
+        name: "승리광장 지하상가",
+        showInInbox: true,
+        hasInfo: true,
         type: "market",
         city: "Dalian",
-        coordinates: { lat: 38.9147, lng: 121.6311 },
-        category: "쇼핑 거리",
-        specialItems: "의류, 잡화, 먹거리",
-        priceRange: "¥20~10,000",
-        openingHours: "09:00~22:00",
+        coordinates: { lat: 38.91953, lng: 121.63394 },
+        category: "지하상가",
+        specialItems: "잡화, 의류, 로컬 쇼핑",
+        priceRange: "¥300~8,000+",
+        openingHours: "방문 전 확인 권장",
         taxRefund: false,
-        features: ["저렴한 가격", "로컬 상품", "다양한 매장"],
-        icon: "🛍️"
-    }
+        features: ["잡화, 의류, 로컬 쇼핑", "평점 5", "다롄 여행 동선에 넣기 좋음"],
+        icon: "shop"
+    },
+    {
+        name: "카이더 허핑 플라자",
+        showInInbox: true,
+        hasInfo: true,
+        type: "mall",
+        city: "Dalian",
+        coordinates: { lat: 38.896582, lng: 121.588098 },
+        category: "쇼핑몰",
+        specialItems: "가족 쇼핑, 식당가, 생활 브랜드",
+        priceRange: "¥300~8,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: true,
+        features: ["가족 쇼핑, 식당가, 생활 브랜드", "평점 4.8", "다롄 여행 동선에 넣기 좋음"],
+        icon: "shop"
+    },
 ];
 
 export default shopping;
