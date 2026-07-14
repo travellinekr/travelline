@@ -1,0 +1,92 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "사랑의 절벽",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Guam",
+        description: "투몬 북쪽 절벽에서 바다 전망과 사진 포인트를 즐기는 괌 대표 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "입장료 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 13.534971, lng: 144.8024949 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        features: ["투몬 북쪽 절벽에서 바다 전망과 사진 포인트를 즐기는 괌 대표 명소입니다.", "평점 4.3", "괌 여행 동선에 넣기 좋음"],
+        rating: 4.3,
+        icon: "🌊"
+    },
+    {
+        name: "투몬 비치",
+        showInInbox: true,
+        hasInfo: true,
+        type: "water-sports",
+        city: "Guam",
+        description: "호텔 접근성이 좋고 해변 산책, 스노클링, 선셋 감상에 적합한 중심 해변입니다.",
+        duration: "반나절",
+        priceRange: "무료·액티비티 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 13.5154175, lng: 144.8048687 },
+        reservationRequired: false,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["호텔 접근성이 좋고 해변 산책, 스노클링, 선셋 감상에 적합한 중심 해변입니다.", "평점 4.6", "괌 여행 동선에 넣기 좋음"],
+        rating: 4.6,
+        icon: "🏖️"
+    },
+    {
+        name: "피시 아이 마린 파크",
+        showInInbox: true,
+        hasInfo: true,
+        type: "water-sports",
+        city: "Guam",
+        description: "해중 전망대와 스노클링, 디너쇼를 결합하기 좋은 해양 액티비티 명소입니다.",
+        duration: "2~4시간",
+        priceRange: "상품별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 13.469304, lng: 144.7052028 },
+        reservationRequired: true,
+        openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        features: ["해중 전망대와 스노클링, 디너쇼를 결합하기 좋은 해양 액티비티 명소입니다.", "평점 4.2", "괌 여행 동선에 넣기 좋음"],
+        rating: 4.2,
+        icon: "🐠"
+    },
+    {
+        name: "밸리 오브 더 라테 어드벤처 파크",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Guam",
+        description: "강 보트와 차모로 문화 체험을 묶어 가족 여행에 좋은 투어 코스입니다.",
+        duration: "반나절",
+        priceRange: "투어별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 13.339306, lng: 144.7618772 },
+        reservationRequired: true,
+        openingHours: "월요일: 휴무일; 화요일: 오전 8:30 ~ 오후 1:30",
+        features: ["강 보트와 차모로 문화 체험을 묶어 가족 여행에 좋은 투어 코스입니다.", "평점 4.7", "괌 여행 동선에 넣기 좋음"],
+        rating: 4.7,
+        icon: "🛶"
+    },
+    {
+        name: "코코스 아일랜드",
+        showInInbox: true,
+        hasInfo: true,
+        type: "island-hopping",
+        city: "Guam",
+        description: "괌 남쪽의 작은 섬에서 해양 액티비티와 휴양을 즐기는 하루 코스입니다.",
+        duration: "하루",
+        priceRange: "투어별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 13.2394243, lng: 144.6540605 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["괌 남쪽의 작은 섬에서 해양 액티비티와 휴양을 즐기는 하루 코스입니다.", "평점 4", "괌 여행 동선에 넣기 좋음"],
+        rating: 4,
+        icon: "🏝️"
+    },
+];
+
+export default tourSpa;

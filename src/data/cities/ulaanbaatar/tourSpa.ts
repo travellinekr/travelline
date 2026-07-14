@@ -1,0 +1,92 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "간단테그친렌 사원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Ulaanbaatar",
+        description: "울란바토르 대표 불교 사원으로 도심에서 몽골 종교문화를 접하기 좋은 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "입장료 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 47.9231136, lng: 106.8949841 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        features: ["도심 속 평온한 사찰 분위기", "웅장한 불교 건축물"],
+        rating: 4.4,
+        icon: "🛕"
+    },
+    {
+        name: "수흐바타르 광장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Ulaanbaatar",
+        description: "정부청사와 칭기즈칸 동상이 있는 도심 핵심 광장으로 시내 산책 출발점입니다.",
+        duration: "30분~1시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 47.9185125, lng: 106.9176719 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["거대한 칭기즈칸 동상", "시내 산책의 시작점"],
+        rating: 4.7,
+        icon: "🏛️"
+    },
+    {
+        name: "몽골 국립박물관",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Ulaanbaatar",
+        description: "몽골 역사와 유목문화를 한 번에 이해하기 좋은 대표 박물관입니다.",
+        duration: "1~2시간",
+        priceRange: "입장료 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 47.92065909999999, lng: 106.9154042 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 오전 9:00 ~ 오후 8:00",
+        features: ["몽골 역사의 흐름을 담은 전시", "유목 문화 체험"],
+        rating: 4.4,
+        icon: "🏺"
+    },
+    {
+        name: "자이승 전망대",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Ulaanbaatar",
+        description: "울란바토르 시내 전경을 조망하기 좋은 전망 포인트입니다.",
+        duration: "1시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 47.8840748, lng: 106.9153758 },
+        reservationRequired: false,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["탁 트인 도시 파노라마 뷰", "아름다운 일몰 명소"],
+        rating: 4.4,
+        icon: "🌆"
+    },
+    {
+        name: "테를지 국립공원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Ulaanbaatar",
+        description: "초원, 기암, 승마 체험을 묶어 울란바토르 근교 하루 코스로 많이 찾는 자연 명소입니다.",
+        duration: "하루",
+        priceRange: "투어별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 48.1660429, lng: 107.7359485 },
+        reservationRequired: true,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["대자연의 기암괴석", "이색적인 초원 승마"],
+        rating: 4.6,
+        icon: "🐎"
+    },
+];
+
+export default tourSpa;

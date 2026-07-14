@@ -1,5 +1,6 @@
 import type { ShoppingData } from '../index';
 
+
 const shopping: ShoppingData[] = [
     {
         name: "돈키호테 신주쿠 가부키초점",
@@ -9,12 +10,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6937755, lng: 139.7017873 },
         category: "종합 할인점",
-        specialItems: "화장품, 과자, 의약품, 캐릭터 굿즈",
+        specialItems: "종합 할인점",
         priceRange: "¥100~100,000",
         openingHours: "24시간",
-        taxRefund: true,
-        features: ["24시간", "면세", "기념품 쇼핑"],
-        icon: "🎪"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "아키하바라 전자상가",
@@ -24,12 +25,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6996473, lng: 139.7713703 },
         category: "전자·애니메이션 거리",
-        specialItems: "전자제품, 피규어, 게임, 애니 굿즈",
+        specialItems: "전자·애니메이션 거리",
         priceRange: "¥500~300,000+",
         openingHours: "11:00~20:00 전후",
-        taxRefund: true,
-        features: ["전자상가", "애니 굿즈", "중고 매장"],
-        icon: "🎮"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "시부야 109",
@@ -39,12 +40,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6595771, lng: 139.698728 },
         category: "패션 몰",
-        specialItems: "트렌디 패션, 액세서리, 뷰티",
+        specialItems: "패션 몰",
         priceRange: "¥1,000~30,000",
         openingHours: "10:00~21:00",
-        taxRefund: true,
-        features: ["젊은 패션", "시부야 랜드마크", "뷰티"],
-        icon: "👗"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "갓파바시 도구거리",
@@ -54,12 +55,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.7105797, lng: 139.7879645 },
         category: "주방용품 거리",
-        specialItems: "그릇, 칼, 조리도구, 식품 샘플",
+        specialItems: "주방용품 거리",
         priceRange: "¥300~50,000+",
         openingHours: "10:00~17:00 전후",
         taxRefund: false,
-        features: ["주방용품", "식품 샘플", "전문 상점가"],
-        icon: "🍳"
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "다케시타도리",
@@ -69,12 +70,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6710335, lng: 139.7051821 },
         category: "하라주쿠 쇼핑 거리",
-        specialItems: "스트리트 패션, 잡화, 디저트",
+        specialItems: "하라주쿠 쇼핑 거리",
         priceRange: "¥500~20,000",
         openingHours: "11:00~20:00 전후",
         taxRefund: false,
-        features: ["하라주쿠", "스트리트 패션", "간식"],
-        icon: "🌈"
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "이세탄 신주쿠",
@@ -84,12 +85,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.691574, lng: 139.7046466 },
         category: "프리미엄 백화점",
-        specialItems: "명품, 화장품, 식품관, 패션",
+        specialItems: "프리미엄 백화점",
         priceRange: "¥2,000~500,000+",
         openingHours: "10:00~20:00",
-        taxRefund: true,
-        features: ["백화점", "식품관", "면세"],
-        icon: "🏬"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "긴자 미츠코시",
@@ -99,12 +100,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6712864, lng: 139.7657382 },
         category: "럭셔리 백화점",
-        specialItems: "명품, 화장품, 일본 전통 공예품",
+        specialItems: "럭셔리 백화점",
         priceRange: "¥5,000~500,000+",
         openingHours: "10:00~20:00",
-        taxRefund: true,
-        features: ["명품관", "전통 공예", "식품관"],
-        icon: "👜"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "긴자 로프트",
@@ -114,12 +115,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6741115, lng: 139.766261 },
         category: "라이프스타일 편집샵",
-        specialItems: "문구, 잡화, 디자인 상품, 기념품",
+        specialItems: "라이프스타일 편집샵",
         priceRange: "¥500~20,000",
         openingHours: "11:00~21:00",
-        taxRefund: true,
-        features: ["문구", "디자인 잡화", "선물"],
-        icon: "📝"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "나카미세도리",
@@ -129,12 +130,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.7118413, lng: 139.7964542 },
         category: "아사쿠사 기념품 거리",
-        specialItems: "기념품, 전통 과자, 부채, 유카타 소품",
+        specialItems: "아사쿠사 기념품 거리",
         priceRange: "¥300~10,000",
         openingHours: "10:00~18:00 전후",
         taxRefund: false,
-        features: ["센소지 동선", "전통 기념품", "간식"],
-        icon: "🎎"
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "아메요코 시장",
@@ -144,12 +145,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.7094072, lng: 139.7746888 },
         category: "전통 시장",
-        specialItems: "식품, 잡화, 의류, 과자",
+        specialItems: "전통 시장",
         priceRange: "¥100~10,000",
         openingHours: "10:00~20:00",
         taxRefund: false,
-        features: ["저렴한 가격", "시장 분위기", "간식"],
-        icon: "🏪"
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "도쿄역 캐릭터 스트리트",
@@ -159,12 +160,12 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6820335, lng: 139.7686549 },
         category: "캐릭터 굿즈 거리",
-        specialItems: "캐릭터 굿즈, 한정 상품, 과자 선물",
+        specialItems: "캐릭터 굿즈 거리",
         priceRange: "¥500~20,000",
         openingHours: "10:00~20:30",
-        taxRefund: true,
-        features: ["도쿄역", "캐릭터 굿즈", "선물"],
-        icon: "🧸"
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
     },
     {
         name: "도쿄 솔라마치",
@@ -174,11 +175,11 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.7102333, lng: 139.8115747 },
         category: "스카이트리 복합 쇼핑몰",
-        specialItems: "기념품, 캐릭터 굿즈, 식품관, 패션",
+        specialItems: "스카이트리 복합 쇼핑몰",
         priceRange: "¥500~50,000",
         openingHours: "10:00~21:00",
-        taxRefund: true,
-        features: ["스카이트리 동선", "기념품", "식당가"],
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
         icon: "🛍️"
     },
     {
@@ -189,13 +190,28 @@ const shopping: ShoppingData[] = [
         city: "Tokyo",
         coordinates: { lat: 35.6247851, lng: 139.7758551 },
         category: "오다이바 복합 쇼핑몰",
-        specialItems: "패션, 건담 굿즈, 잡화, 식당가",
+        specialItems: "오다이바 복합 쇼핑몰",
         priceRange: "¥500~50,000",
         openingHours: "11:00~20:00 전후",
-        taxRefund: true,
-        features: ["실물대 건담", "오다이바", "복합몰"],
-        icon: "🤖"
-    }
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
+    },
+    {
+        name: "시부야 사쿠라 스테이지",
+        hasInfo: true,
+        showInInbox: true,
+        type: "mall",
+        city: "Tokyo",
+        coordinates: { lat: 35.6565877, lng: 139.7023707 },
+        category: "복합 쇼핑몰",
+        specialItems: "복합 쇼핑몰",
+        priceRange: "매장별 상이",
+        openingHours: "매장별 상이",
+        taxRefund: false,
+        features: ["도쿄", "쇼핑"],
+        icon: "🛍️"
+    },
 ];
 
 export default shopping;
