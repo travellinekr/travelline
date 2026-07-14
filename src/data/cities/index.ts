@@ -183,11 +183,13 @@ import guamAccommodations from './guam/accommodations';
 import guamRestaurants from './guam/restaurants';
 import guamShopping from './guam/shopping';
 import guamTransport from './guam/transport';
+import guamTourSpa from './guam/tourSpa';
 
 import ulaanbaatarAccommodations from './ulaanbaatar/accommodations';
 import ulaanbaatarRestaurants from './ulaanbaatar/restaurants';
 import ulaanbaatarShopping from './ulaanbaatar/shopping';
 import ulaanbaatarTransport from './ulaanbaatar/transport';
+import ulaanbaatarTourSpa from './ulaanbaatar/tourSpa';
 
 import parisAccommodations from './paris/accommodations';
 import parisRestaurants from './paris/restaurants';
@@ -310,12 +312,14 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: guamRestaurants,
         shopping: guamShopping,
         transport: guamTransport,
+        tourSpa: guamTourSpa,
     },
     "Ulaanbaatar": {
         accommodations: ulaanbaatarAccommodations,
         restaurants: ulaanbaatarRestaurants,
         shopping: ulaanbaatarShopping,
         transport: ulaanbaatarTransport,
+        tourSpa: ulaanbaatarTourSpa,
     },
     "Paris": {
         accommodations: parisAccommodations,

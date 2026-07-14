@@ -1,18 +1,20 @@
 import type { RestaurantData } from '../index';
 
+
 const restaurants: RestaurantData[] = [
     {
         name: "호텔,리조트 조식",
-        pinTop: true,
         showInInbox: true,
+        hasInfo: true,
         type: "fusion",
         city: "Tokyo",
+
         cuisine: "조식",
         specialty: "숙소 조식",
         priceRange: "숙소 요금 포함/별도",
         openingHours: "숙소마다 상이",
-        features: ["호텔·리조트", "뷔페/세트"],
-        icon: "🍳",
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "로쿠린샤 도쿄역점",
@@ -25,8 +27,8 @@ const restaurants: RestaurantData[] = [
         specialty: "츠케멘",
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-23:00",
-        features: ["도쿄역", "라멘스트리트", "웨이팅"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "이치란 시부야점",
@@ -39,8 +41,8 @@ const restaurants: RestaurantData[] = [
         specialty: "돈코츠 라멘",
         priceRange: "¥1,000~1,500",
         openingHours: "24시간",
-        features: ["1인 좌석", "한국어 주문지", "야식"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "우오베이 시부야 도겐자카점",
@@ -53,8 +55,8 @@ const restaurants: RestaurantData[] = [
         specialty: "고속 레일 초밥",
         priceRange: "¥1,500~3,000",
         openingHours: "11:00-22:00",
-        features: ["가성비", "태블릿 주문", "회전초밥"],
-        icon: "🍣"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "규카츠 모토무라 신주쿠 미나미구치점",
@@ -67,8 +69,8 @@ const restaurants: RestaurantData[] = [
         specialty: "소고기 카츠",
         priceRange: "¥1,500~2,500",
         openingHours: "11:00-22:00",
-        features: ["직접 굽기", "웨이팅", "신주쿠"],
-        icon: "🥩"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "긴자 바이린 본점",
@@ -81,8 +83,8 @@ const restaurants: RestaurantData[] = [
         specialty: "가츠동·돈카츠",
         priceRange: "¥1,500~3,000",
         openingHours: "11:30-20:30",
-        features: ["긴자", "돈카츠", "노포"],
-        icon: "🐷"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "츠지한 니혼바시 본점",
@@ -95,8 +97,8 @@ const restaurants: RestaurantData[] = [
         specialty: "제이타쿠동",
         priceRange: "¥1,500~2,500",
         openingHours: "11:00-21:00",
-        features: ["카이센동", "웨이팅", "가성비"],
-        icon: "🐟"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "스시노미도리 시부야점",
@@ -109,8 +111,8 @@ const restaurants: RestaurantData[] = [
         specialty: "초밥 세트",
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-22:00",
-        features: ["가성비 스시", "시부야", "대기"],
-        icon: "🍣"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "네무로 하나마루 KITTE 마루노우치점",
@@ -123,8 +125,8 @@ const restaurants: RestaurantData[] = [
         specialty: "홋카이도 회전초밥",
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-22:00",
-        features: ["KITTE", "회전초밥", "도쿄역"],
-        icon: "🍣"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "돈카츠 마이센 아오야마 본점",
@@ -137,8 +139,8 @@ const restaurants: RestaurantData[] = [
         specialty: "쿠로부타 돈카츠",
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-21:00",
-        features: ["오모테산도", "가족", "돈카츠"],
-        icon: "🐷"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "AFURI 하라주쿠점",
@@ -151,8 +153,8 @@ const restaurants: RestaurantData[] = [
         specialty: "유자시오 라멘",
         priceRange: "¥1,200~2,000",
         openingHours: "10:30-22:00",
-        features: ["유자라멘", "하라주쿠", "가벼운 국물"],
-        icon: "🍋"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "멘야 무사시 신주쿠 본점",
@@ -165,8 +167,8 @@ const restaurants: RestaurantData[] = [
         specialty: "츠케멘·라멘",
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-22:30",
-        features: ["신주쿠", "진한 국물", "관광객 인기"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "풍운아 신주쿠",
@@ -179,8 +181,8 @@ const restaurants: RestaurantData[] = [
         specialty: "닭백탕 츠케멘",
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-21:00",
-        features: ["츠케멘", "신주쿠", "웨이팅"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "츠키지 스시세이 본점",
@@ -193,8 +195,8 @@ const restaurants: RestaurantData[] = [
         specialty: "니기리 세트",
         priceRange: "¥3,000~6,000",
         openingHours: "10:30-21:30",
-        features: ["츠키지", "스시", "시장 동선"],
-        icon: "🍣"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "츠키지 이타도리 별관",
@@ -207,8 +209,8 @@ const restaurants: RestaurantData[] = [
         specialty: "카이센동",
         priceRange: "¥2,000~4,000",
         openingHours: "07:00-15:00",
-        features: ["아침식사", "해산물", "츠키지"],
-        icon: "🐟"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "아사쿠사 규카츠",
@@ -221,8 +223,8 @@ const restaurants: RestaurantData[] = [
         specialty: "규카츠 정식",
         priceRange: "¥1,800~2,800",
         openingHours: "11:00-22:00",
-        features: ["아사쿠사", "직접 굽기", "관광 동선"],
-        icon: "🥩"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "다이코쿠야 텐푸라 본점",
@@ -235,8 +237,8 @@ const restaurants: RestaurantData[] = [
         specialty: "텐동",
         priceRange: "¥2,000~3,500",
         openingHours: "11:10-20:30",
-        features: ["아사쿠사", "텐동", "노포"],
-        icon: "🍤"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "긴자 카가리 본점",
@@ -249,8 +251,8 @@ const restaurants: RestaurantData[] = [
         specialty: "토리파이탄 소바",
         priceRange: "¥1,200~2,000",
         openingHours: "11:00-22:00",
-        features: ["긴자", "닭백탕", "깔끔한 라멘"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "츠루톤탄 신주쿠점",
@@ -263,8 +265,8 @@ const restaurants: RestaurantData[] = [
         specialty: "크림 우동",
         priceRange: "¥1,500~3,000",
         openingHours: "11:00-23:00",
-        features: ["대형 그릇", "우동", "신주쿠"],
-        icon: "🍲"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "토리키조쿠 시부야 센터가이점",
@@ -277,8 +279,8 @@ const restaurants: RestaurantData[] = [
         specialty: "균일가 꼬치",
         priceRange: "¥2,000~3,500",
         openingHours: "17:00-04:00",
-        features: ["이자카야", "가성비", "시부야"],
-        icon: "🍢"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "카츠쿠라 신주쿠 타카시마야점",
@@ -291,8 +293,8 @@ const restaurants: RestaurantData[] = [
         specialty: "돈카츠 정식",
         priceRange: "¥1,800~3,000",
         openingHours: "11:00-22:00",
-        features: ["백화점", "가족", "신주쿠"],
-        icon: "🐷"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "몬자 쿠라 츠키시마",
@@ -305,8 +307,8 @@ const restaurants: RestaurantData[] = [
         specialty: "명란치즈 몬자",
         priceRange: "¥2,000~3,500",
         openingHours: "11:00-22:00",
-        features: ["츠키시마", "몬자야키", "현지 분위기"],
-        icon: "🥘"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "소메타로 아사쿠사",
@@ -319,8 +321,8 @@ const restaurants: RestaurantData[] = [
         specialty: "오코노미야키",
         priceRange: "¥1,500~3,000",
         openingHours: "12:00-22:00",
-        features: ["아사쿠사", "노포", "직접 조리"],
-        icon: "🥘"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "카라시비 미소라멘 키칸보 칸다 본점",
@@ -333,8 +335,8 @@ const restaurants: RestaurantData[] = [
         specialty: "매운 미소라멘",
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-21:30",
-        features: ["매운맛", "칸다", "라멘"],
-        icon: "🌶️"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "긴자 우카이테이",
@@ -346,10 +348,9 @@ const restaurants: RestaurantData[] = [
         cuisine: "철판요리",
         specialty: "와규 철판 코스",
         priceRange: "¥20,000~40,000",
-        reservation: true,
         openingHours: "12:00-22:00",
-        features: ["예약 권장", "기념일", "철판요리"],
-        icon: "🥩"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "나리사와",
@@ -361,11 +362,9 @@ const restaurants: RestaurantData[] = [
         cuisine: "이노베이티브",
         specialty: "사토야마 코스",
         priceRange: "¥35,000~60,000",
-        michelin: "★★",
-        reservation: true,
         openingHours: "12:00-23:00",
-        features: ["파인다이닝", "예약 필수", "미식"],
-        icon: "🌿"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "긴자 코쥬",
@@ -377,11 +376,9 @@ const restaurants: RestaurantData[] = [
         cuisine: "카이세키",
         specialty: "계절 카이세키",
         priceRange: "¥30,000~50,000",
-        michelin: "★★",
-        reservation: true,
         openingHours: "12:00-22:00",
-        features: ["카이세키", "예약 필수", "긴자"],
-        icon: "🍱"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "bills 오모테산도",
@@ -394,8 +391,8 @@ const restaurants: RestaurantData[] = [
         specialty: "리코타 핫케이크",
         priceRange: "¥2,000~4,000",
         openingHours: "08:30-22:00",
-        features: ["브런치", "오모테산도", "팬케이크"],
-        icon: "🥞"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "행복한 팬케이크 오모테산도점",
@@ -408,8 +405,8 @@ const restaurants: RestaurantData[] = [
         specialty: "수플레 팬케이크",
         priceRange: "¥1,500~2,500",
         openingHours: "10:00-20:00",
-        features: ["수플레", "카페", "웨이팅"],
-        icon: "🥞"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "잇푸도 긴자점",
@@ -422,8 +419,8 @@ const restaurants: RestaurantData[] = [
         specialty: "하카타 돈코츠",
         priceRange: "¥1,000~1,800",
         openingHours: "11:00-23:00",
-        features: ["돈코츠", "긴자", "안정적"],
-        icon: "🍜"
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
     },
     {
         name: "오니기리 봉고",
@@ -436,9 +433,23 @@ const restaurants: RestaurantData[] = [
         specialty: "수제 오니기리",
         priceRange: "¥1,000~2,000",
         openingHours: "11:30-23:00",
-        features: ["오니기리", "웨이팅", "현지 인기"],
-        icon: "🍙"
-    }
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
+    },
+    {
+        name: "긴자 하치고",
+        showInInbox: true,
+        hasInfo: true,
+        type: "japanese",
+        city: "Tokyo",
+        coordinates: { lat: 35.6705477, lng: 139.77015 },
+        cuisine: "라멘",
+        specialty: "미쉐린 라멘·맑은 국물",
+        priceRange: "¥1,500~2,500",
+        openingHours: "방문 전 공식 확인",
+        features: ["도쿄", "최근 업데이트"],
+        icon: "🍽️"
+    },
 ];
 
 export default restaurants;

@@ -1,83 +1,127 @@
 import type { AccommodationData } from '../index';
 
+
 const accommodations: AccommodationData[] = [
     {
-        name: "두짓 비치 리조트 괌",
+        name: "두짓타니 괌 리조트",
         showInInbox: true,
+        hasInfo: true,
         type: "resort",
-        coordinates: { lat: 13.5144, lng: 144.7960 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
         city: "Guam",
-        description: "투몬 비치, 5성급 리조트",
+        coordinates: { lat: 13.5136803, lng: 144.8052572 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "투몬 중심 해변과 쇼핑 접근성이 좋은 고급 리조트입니다.",
         tags: ["투몬", "럭셔리"]
+    },
+    {
+        name: "더 츠바키 타워 괌",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Guam",
+        coordinates: { lat: 13.5216166, lng: 144.8058334 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "넓은 객실과 바다 전망, 고급 부대시설이 강점인 신축급 리조트입니다.",
+        tags: ["투몬", "오션뷰"]
     },
     {
         name: "하얏트 리젠시 괌",
         showInInbox: true,
+        hasInfo: true,
         type: "resort",
-        coordinates: { lat: 13.5178, lng: 144.7996 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
         city: "Guam",
-        description: "투몬 중심, 비치프런트",
-        tags: ["투몬", "럭셔리"]
+        coordinates: { lat: 13.513064, lng: 144.8037083 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "투몬 비치 바로 앞 위치와 수영장 동선이 좋은 가족형 리조트입니다.",
+        tags: ["투몬", "가족"]
     },
     {
         name: "힐튼 괌 리조트 앤 스파",
         showInInbox: true,
+        hasInfo: true,
         type: "resort",
-        coordinates: { lat: 13.5210, lng: 144.8021 },
+        city: "Guam",
+        coordinates: { lat: 13.5053049, lng: 144.7860059 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
-        city: "Guam",
-        description: "대형 워터파크, 가족 추천",
-        tags: ["투몬", "가족"]
+        description: "이파오 비치 인근에서 조용한 휴양과 스노클링 동선이 좋은 리조트입니다.",
+        tags: ["이파오", "스파"]
     },
     {
-        name: "웨스틴 리조트 괌",
-        showInInbox: false,
+        name: "괌 리프 호텔",
+        showInInbox: true,
+        hasInfo: true,
         type: "resort",
-        coordinates: { lat: 13.5165, lng: 144.7980 },
+        city: "Guam",
+        coordinates: { lat: 13.516843, lng: 144.806098 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
-        city: "Guam",
-        description: "인피니티 풀, 스파",
-        tags: ["투몬", "럭셔리"]
-    },
-    {
-        name: "온워드 비치 리조트",
-        showInInbox: false,
-        type: "resort",
-        coordinates: { lat: 13.5130, lng: 144.7950 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
-        city: "Guam",
-        description: "워터파크, 가성비 리조트",
+        description: "투몬 중심가와 해변 접근성이 좋아 쇼핑·식당 이동이 편합니다.",
         tags: ["투몬", "가성비"]
     },
     {
-        name: "괌 플라자 리조트",
-        showInInbox: false,
+        name: "롯데 호텔 괌",
+        showInInbox: true,
+        hasInfo: true,
         type: "resort",
-        coordinates: { lat: 13.5200, lng: 144.8010 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
         city: "Guam",
-        description: "투몬 비치 근처, 가성비",
-        tags: ["투몬", "가성비"]
+        coordinates: { lat: 13.5201894, lng: 144.8072708 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "투몬 북쪽의 바다 전망과 한국인 여행자 편의성이 좋은 리조트입니다.",
+        tags: ["투몬", "오션뷰"]
     },
     {
-        name: "로열 오차드 괌",
-        showInInbox: false,
-        type: "hotel",
-        coordinates: { lat: 13.5190, lng: 144.8000 },
-        checkInTime: "15:00",
-        checkOutTime: "11:00",
+        name: "호텔 닛코 괌",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
         city: "Guam",
-        description: "부티크 호텔, 모던 디자인",
-        tags: ["투몬", "부티크"]
-    }
+        coordinates: { lat: 13.5219545, lng: 144.8048848 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "건비치 방향의 조용한 해변과 워터슬라이드가 있는 가족형 리조트입니다.",
+        tags: ["건비치", "가족"]
+    },
+    {
+        name: "퍼시픽 아일랜드 클럽 괌",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Guam",
+        coordinates: { lat: 13.5038362, lng: 144.7933855 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "워터파크와 액티비티가 강점인 아이 동반 가족 여행 리조트입니다.",
+        tags: ["가족", "액티비티"]
+    },
+    {
+        name: "크라운 플라자 리조트 괌",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Guam",
+        coordinates: { lat: 13.5060977, lng: 144.7985382 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "투몬 해변과 중심 상권 사이에서 균형 잡힌 위치의 리조트입니다.",
+        tags: ["투몬", "해변"]
+    },
+    {
+        name: "리가 로얄 라구나 괌 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Guam",
+        coordinates: { lat: 13.496598, lng: 144.7712767 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "라군 전망과 조용한 분위기를 원하는 여행자에게 맞는 리조트입니다.",
+        tags: ["라군", "휴양"]
+    },
 ];
 
 export default accommodations;
