@@ -1,0 +1,92 @@
+import type { TourSpaData } from '@/data/tourSpa';
+
+
+const tourSpa: TourSpaData[] = [
+    {
+        name: "와이탄",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Shanghai",
+        description: "상하이 야경과 역사적 건축을 한 번에 볼 수 있는 대표 산책 코스입니다.",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 31.237576, lng: 121.495524 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["상하이 야경과 역사적 건축을 한 번에 볼 수 있는 대표 산책 코스입니다.", "평점 4.8", "상하이 여행 동선에 넣기 좋음"],
+        rating: 4.8,
+        icon: "🌃"
+    },
+    {
+        name: "예원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Shanghai",
+        description: "전통 정원과 상점가를 함께 둘러보기 좋은 상하이 대표 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.2272355, lng: 121.492094 },
+        reservationRequired: false,
+        openingHours: "월요일: 휴무일; 화요일: 오전 9:00 ~ 오후 4:30",
+        features: ["전통 정원과 상점가를 함께 둘러보기 좋은 상하이 대표 명소입니다.", "평점 4.5", "상하이 여행 동선에 넣기 좋음"],
+        rating: 4.5,
+        icon: "🏮"
+    },
+    {
+        name: "상하이 타워 전망대",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Shanghai",
+        description: "루자쭈이 고층 빌딩 숲과 도시 전경을 조망하는 전망대입니다.",
+        duration: "1~2시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.233518, lng: 121.505618 },
+        reservationRequired: true,
+        openingHours: "월요일: 오전 8:30 ~ 오후 9:30; 화요일: 오전 8:30 ~ 오후 9:30",
+        features: ["루자쭈이 고층 빌딩 숲과 도시 전경을 조망하는 전망대입니다.", "평점 4.6", "상하이 여행 동선에 넣기 좋음"],
+        rating: 4.6,
+        icon: "🏙️"
+    },
+    {
+        name: "상하이 디즈니랜드",
+        showInInbox: true,
+        hasInfo: true,
+        type: "theme-park",
+        city: "Shanghai",
+        description: "가족 여행과 하루 일정으로 잡기 좋은 대형 테마파크입니다.",
+        duration: "하루",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.1433969, lng: 121.6578713 },
+        reservationRequired: true,
+        openingHours: "월요일: 오전 8:30 ~ 오후 9:30; 화요일: 오전 8:30 ~ 오후 9:30",
+        features: ["짜릿한 트론 라이트사이클", "밤하늘을 수놓는 성 프로젝션 쇼"],
+        rating: 4.5,
+        icon: "🎢"
+    },
+    {
+        name: "주자자오 수향마을",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Shanghai",
+        description: "상하이 근교에서 운하와 오래된 골목 분위기를 즐기는 반나절 코스입니다.",
+        duration: "반나절",
+        priceRange: "교통·입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.11083, lng: 121.05511 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["나룻배 타고 즐기는 여유로운 수로 투어", "고즈넉한 골목길 산책"],
+        rating: 4.7,
+        icon: "🚤"
+    },
+];
+
+export default tourSpa;

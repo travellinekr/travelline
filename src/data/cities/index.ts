@@ -123,16 +123,19 @@ import taipeiAccommodations from './taipei/accommodations';
 import taipeiRestaurants from './taipei/restaurants';
 import taipeiShopping from './taipei/shopping';
 import taipeiTransport from './taipei/transport';
+import taipeiTourSpa from './taipei/tourSpa';
 
 import shanghaiAccommodations from './shanghai/accommodations';
 import shanghaiRestaurants from './shanghai/restaurants';
 import shanghaiShopping from './shanghai/shopping';
 import shanghaiTransport from './shanghai/transport';
+import shanghaiTourSpa from './shanghai/tourSpa';
 
 import dalianAccommodations from './dalian/accommodations';
 import dalianRestaurants from './dalian/restaurants';
 import dalianShopping from './dalian/shopping';
 import dalianTransport from './dalian/transport';
+import dalianTourSpa from './dalian/tourSpa';
 
 import danangAccommodations from './da-nang/accommodations';
 import danangRestaurants from './da-nang/restaurants';
@@ -237,18 +240,21 @@ export const CITY_DATA: Record<string, CityBundle> = {
         restaurants: taipeiRestaurants,
         shopping: taipeiShopping,
         transport: taipeiTransport,
+        tourSpa: taipeiTourSpa,
     },
     "Shanghai": {
         accommodations: shanghaiAccommodations,
         restaurants: shanghaiRestaurants,
         shopping: shanghaiShopping,
         transport: shanghaiTransport,
+        tourSpa: shanghaiTourSpa,
     },
     "Dalian": {
         accommodations: dalianAccommodations,
         restaurants: dalianRestaurants,
         shopping: dalianShopping,
         transport: dalianTransport,
+        tourSpa: dalianTourSpa,
     },
     "Da Nang": {
         accommodations: danangAccommodations,
