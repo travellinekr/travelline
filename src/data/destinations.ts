@@ -90,6 +90,9 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Cebu": "https://commons.wikimedia.org/wiki/Special:FilePath/Taoist_Temple,_Cebu.jpg?width=800",
     "Chiang Mai": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang_Mai_View_from_Doi_Suthep.jpg?width=800",
     "Da Lat": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Lat_Flower_Park_01.jpg?width=800",
+    "Phu Quoc": "https://commons.wikimedia.org/wiki/Special:FilePath/Phu_Quoc_beach.jpg?width=800",
+    "Kota Kinabalu": "https://commons.wikimedia.org/wiki/Special:FilePath/Kota_Kinabalu_city_skyline.jpg?width=800",
+    "Singapore": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Bay_Sands_in_the_evening_-_20101120.jpg?width=800",
     "Guam": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_of_Tumon_Bay,_Guam,_USA_(8532198983).jpg?width=800",
     "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800",
     "Paris": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_01.jpg?width=800",
@@ -307,6 +310,36 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 landmark: "Xuan Huong Lake",
                 airports: [{ name: "리엔크엉국제공항", code: "DLI" }],
                 timezone: 7
+            },
+            {
+                name: "푸꾸옥",
+                engName: "Phu Quoc",
+                country: "베트남",
+                desc: "해변과 리조트의 섬 휴양지",
+                tags: ["휴양", "해변"],
+                landmark: "Phu Quoc beach",
+                airports: [{ name: "푸꾸옥국제공항", code: "PQC" }],
+                timezone: 7
+            },
+            {
+                name: "코타키나발루",
+                engName: "Kota Kinabalu",
+                country: "말레이시아",
+                desc: "선셋과 섬 투어의 보르네오 관문",
+                tags: ["선셋", "섬투어"],
+                landmark: "Kota Kinabalu waterfront",
+                airports: [{ name: "코타키나발루국제공항", code: "BKI" }],
+                timezone: 8
+            },
+            {
+                name: "싱가포르",
+                engName: "Singapore",
+                country: "싱가포르",
+                desc: "미식과 야경의 도시국가",
+                tags: ["미식", "야경"],
+                landmark: "Marina Bay Sands",
+                airports: [{ name: "싱가포르 창이국제공항", code: "SIN" }],
+                timezone: 8
             },
         ]
     },

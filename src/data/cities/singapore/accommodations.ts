@@ -1,0 +1,187 @@
+import type { AccommodationData } from '../index';
+
+
+const accommodations: AccommodationData[] = [
+    {
+        name: "마리나 베이 샌즈",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2837575, lng: 103.8591065 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "래플스 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2949324, lng: 103.8547012 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "더 풀러턴 호텔 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2863532, lng: 103.8530671 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "리츠칼튼 밀레니아 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2909392, lng: 103.8599895 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "만다린 오리엔탈 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2913368, lng: 103.8574746 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "팬 퍼시픽 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2924176, lng: 103.8585852 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "파크로얄 컬렉션 피커링",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2857588, lng: 103.8460409 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "카펠라 싱가포르 센토사",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2497222, lng: 103.8241667 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "샹그릴라 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.310965, lng: 103.8264894 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "안다즈 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2992646, lng: 103.8581702 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "오아시아 호텔 다운타운",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.275835, lng: 103.8442824 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "호텔 보스 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.3056188, lng: 103.8603467 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "빌리지 호텔 센토사",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2523958, lng: 103.8201982 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "요텔 싱가포르 오차드",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.3062156, lng: 103.8311493 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+    {
+        name: "라이프 푸난 싱가포르",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Singapore",
+        coordinates: { lat: 1.2917357, lng: 103.8494682 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "싱가포르 주요 숙소",
+        tags: ["싱가포르"]
+    },
+];
+
+export default accommodations;

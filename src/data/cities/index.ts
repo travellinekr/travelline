@@ -185,6 +185,24 @@ import dalatShopping from './da-lat/shopping';
 import dalatTransport from './da-lat/transport';
 import dalatTourSpa from './da-lat/tourSpa';
 
+import phuquocAccommodations from './phu-quoc/accommodations';
+import phuquocRestaurants from './phu-quoc/restaurants';
+import phuquocShopping from './phu-quoc/shopping';
+import phuquocTransport from './phu-quoc/transport';
+import phuquocTourSpa from './phu-quoc/tourSpa';
+
+import kotakinabaluAccommodations from './kota-kinabalu/accommodations';
+import kotakinabaluRestaurants from './kota-kinabalu/restaurants';
+import kotakinabaluShopping from './kota-kinabalu/shopping';
+import kotakinabaluTransport from './kota-kinabalu/transport';
+import kotakinabaluTourSpa from './kota-kinabalu/tourSpa';
+
+import singaporeAccommodations from './singapore/accommodations';
+import singaporeRestaurants from './singapore/restaurants';
+import singaporeShopping from './singapore/shopping';
+import singaporeTransport from './singapore/transport';
+import singaporeTourSpa from './singapore/tourSpa';
+
 import guamAccommodations from './guam/accommodations';
 import guamRestaurants from './guam/restaurants';
 import guamShopping from './guam/shopping';
@@ -319,6 +337,27 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: dalatShopping,
         transport: dalatTransport,
         tourSpa: dalatTourSpa,
+    },
+    "Phu Quoc": {
+        accommodations: phuquocAccommodations,
+        restaurants: phuquocRestaurants,
+        shopping: phuquocShopping,
+        transport: phuquocTransport,
+        tourSpa: phuquocTourSpa,
+    },
+    "Kota Kinabalu": {
+        accommodations: kotakinabaluAccommodations,
+        restaurants: kotakinabaluRestaurants,
+        shopping: kotakinabaluShopping,
+        transport: kotakinabaluTransport,
+        tourSpa: kotakinabaluTourSpa,
+    },
+    "Singapore": {
+        accommodations: singaporeAccommodations,
+        restaurants: singaporeRestaurants,
+        shopping: singaporeShopping,
+        transport: singaporeTransport,
+        tourSpa: singaporeTourSpa,
     },
     "Guam": {
         accommodations: guamAccommodations,
