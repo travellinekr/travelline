@@ -203,6 +203,30 @@ import singaporeShopping from './singapore/shopping';
 import singaporeTransport from './singapore/transport';
 import singaporeTourSpa from './singapore/tourSpa';
 
+import hanoiAccommodations from './hanoi/accommodations';
+import hanoiRestaurants from './hanoi/restaurants';
+import hanoiShopping from './hanoi/shopping';
+import hanoiTransport from './hanoi/transport';
+import hanoiTourSpa from './hanoi/tourSpa';
+
+import hochiminhAccommodations from './ho-chi-minh/accommodations';
+import hochiminhRestaurants from './ho-chi-minh/restaurants';
+import hochiminhShopping from './ho-chi-minh/shopping';
+import hochiminhTransport from './ho-chi-minh/transport';
+import hochiminhTourSpa from './ho-chi-minh/tourSpa';
+
+import boracayAccommodations from './boracay/accommodations';
+import boracayRestaurants from './boracay/restaurants';
+import boracayShopping from './boracay/shopping';
+import boracayTransport from './boracay/transport';
+import boracayTourSpa from './boracay/tourSpa';
+
+import pattayaAccommodations from './pattaya/accommodations';
+import pattayaRestaurants from './pattaya/restaurants';
+import pattayaShopping from './pattaya/shopping';
+import pattayaTransport from './pattaya/transport';
+import pattayaTourSpa from './pattaya/tourSpa';
+
 import guamAccommodations from './guam/accommodations';
 import guamRestaurants from './guam/restaurants';
 import guamShopping from './guam/shopping';
@@ -358,6 +382,34 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: singaporeShopping,
         transport: singaporeTransport,
         tourSpa: singaporeTourSpa,
+    },
+    "Hanoi": {
+        accommodations: hanoiAccommodations,
+        restaurants: hanoiRestaurants,
+        shopping: hanoiShopping,
+        transport: hanoiTransport,
+        tourSpa: hanoiTourSpa,
+    },
+    "Ho Chi Minh": {
+        accommodations: hochiminhAccommodations,
+        restaurants: hochiminhRestaurants,
+        shopping: hochiminhShopping,
+        transport: hochiminhTransport,
+        tourSpa: hochiminhTourSpa,
+    },
+    "Boracay": {
+        accommodations: boracayAccommodations,
+        restaurants: boracayRestaurants,
+        shopping: boracayShopping,
+        transport: boracayTransport,
+        tourSpa: boracayTourSpa,
+    },
+    "Pattaya": {
+        accommodations: pattayaAccommodations,
+        restaurants: pattayaRestaurants,
+        shopping: pattayaShopping,
+        transport: pattayaTransport,
+        tourSpa: pattayaTourSpa,
     },
     "Guam": {
         accommodations: guamAccommodations,

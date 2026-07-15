@@ -1,0 +1,187 @@
+import type { AccommodationData } from '../index';
+
+
+const accommodations: AccommodationData[] = [
+    {
+        name: "파크 하얏트 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7776323, lng: 106.7033778 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "더 레버리 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7736811, lng: 106.7046523 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "카라벨 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7762465, lng: 106.7036139 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "호텔 마제스틱 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7729884, lng: 106.7060725 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "인터컨티넨탈 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7768949, lng: 106.7025025 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "뉴월드 사이공 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7708719, lng: 106.6951897 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "롯데 호텔 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7786426, lng: 106.7067745 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "르네상스 리버사이드 호텔 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7744, lng: 106.70618 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "리버티 센트럴 사이공 시티포인트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7746323, lng: 106.700627 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "실버랜드 벤탄 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7716221, lng: 106.6972693 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "퓨전 스위트 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7725654, lng: 106.6899727 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "오락 샤르네 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.772125, lng: 106.703525 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "호텔 닛코 사이공",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.764387, lng: 106.682954 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "미아 사이공 럭셔리 부티크 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.8100904, lng: 106.7508858 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+    {
+        name: "마이 하우스 사이공 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Ho Chi Minh",
+        coordinates: { lat: 10.7821369, lng: 106.6916561 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "호치민 주요 숙소",
+        tags: ["호치민"]
+    },
+];
+
+export default accommodations;
