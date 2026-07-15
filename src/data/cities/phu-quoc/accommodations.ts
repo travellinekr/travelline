@@ -1,0 +1,187 @@
+import type { AccommodationData } from '../index';
+
+
+const accommodations: AccommodationData[] = [
+    {
+        name: "JW 메리어트 푸꾸옥 에메랄드 베이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.0332622, lng: 104.0284082 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "켐 비치의 대표 럭셔리 리조트",
+        tags: ["럭셔리", "비치"]
+    },
+    {
+        name: "인터컨티넨탈 푸꾸옥 롱비치",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.112443, lng: 103.983512 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "롱비치 대형 리조트",
+        tags: ["가족", "비치"]
+    },
+    {
+        name: "리젠트 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1106806, lng: 103.9856668 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "프라이빗 풀빌라형 럭셔리 리조트",
+        tags: ["럭셔리", "풀빌라"]
+    },
+    {
+        name: "프리미어 빌리지 푸꾸옥 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.0159773, lng: 104.0392224 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "남부 곶의 빌라형 리조트",
+        tags: ["풀빌라", "가족"]
+    },
+    {
+        name: "살린다 리조트 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1827677, lng: 103.9681934 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "공항 접근성 좋은 부티크 리조트",
+        tags: ["부티크", "비치"]
+    },
+    {
+        name: "뫼벤픽 리조트 웨이벌리 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.2821905, lng: 103.9230444 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "옹랑권 가족형 리조트",
+        tags: ["가족", "수영장"]
+    },
+    {
+        name: "라 베란다 리조트 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1937212, lng: 103.9647539 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "프렌치 콜로니얼 분위기의 해변 리조트",
+        tags: ["부티크", "조용함"]
+    },
+    {
+        name: "뉴월드 푸꾸옥 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.0393884, lng: 104.0274382 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "켐 비치 빌라형 리조트",
+        tags: ["가족", "풀빌라"]
+    },
+    {
+        name: "쉐라톤 푸꾸옥 롱비치 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.3375335, lng: 103.8501254 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "빈원더스 접근 좋은 북부 리조트",
+        tags: ["가족", "북부"]
+    },
+    {
+        name: "빈펄 리조트 앤 스파 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.3318494, lng: 103.8513924 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "북부 복합 리조트 단지",
+        tags: ["가족", "테마파크"]
+    },
+    {
+        name: "두짓 프린세스 문라이즈 비치 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1811188, lng: 103.9676829 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "롱비치 가성비 리조트",
+        tags: ["가성비", "비치"]
+    },
+    {
+        name: "카시아 코티지 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1983729, lng: 103.9641675 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "정원형 부티크 비치 리조트",
+        tags: ["부티크", "휴양"]
+    },
+    {
+        name: "라하나 리조트 푸꾸옥",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.2065569, lng: 103.965395 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "즈엉동 접근 좋은 언덕형 리조트",
+        tags: ["가성비", "수영장"]
+    },
+    {
+        name: "시쉘스 푸꾸옥 호텔 앤 스파",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.2152252, lng: 103.9581551 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "즈엉동 중심의 해변 호텔",
+        tags: ["중심가", "비치"]
+    },
+    {
+        name: "풀만 푸꾸옥 비치 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.120146, lng: 103.9834602 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "롱비치 신식 대형 리조트",
+        tags: ["가족", "비치"]
+    },
+];
+
+export default accommodations;
