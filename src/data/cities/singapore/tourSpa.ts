@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         features: ["슈퍼트리 야경", "클라우드 포레스트", "플라워 돔"],
         rating: 4.8,
-        icon: "🎟️"
+        icon: "🌳"
     },
     {
         name: "마리나 베이 샌즈 스카이파크",
@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 4:30, 오후 5:00~10:00; 화요일: 오전 10:00 ~ 오후 4:30, 오후 5:00~10:00",
         features: ["파노라마 시티뷰", "인피니티 풀 뷰", "일몰 명소"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🌆"
     },
     {
         name: "센토사 섬",
@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["유니버설 스튜디오", "루지 체험", "실로소 비치"],
         rating: 4.7,
-        icon: "🎟️"
+        icon: "🏝️"
     },
     {
         name: "유니버설 스튜디오 싱가포르",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         features: ["스릴 넘치는 롤러코스터", "다양한 캐릭터 퍼레이드"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🎢"
     },
     {
         name: "싱가포르 동물원",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:30 ~ 오후 6:00; 화요일: 오전 8:30 ~ 오후 6:00",
         features: ["자연 친화적인 관람 환경", "희귀 동물 관찰"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🦁"
     },
     {
         name: "나이트 사파리",
@@ -102,7 +102,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오후 6:00 ~ 오전 12:00; 화요일: 오후 6:00 ~ 오전 12:00",
         features: ["트램을 타고 즐기는 야간 투어", "야행성 동물의 생동감"],
         rating: 4.3,
-        icon: "🎟️"
+        icon: "🦁"
     },
     {
         name: "싱가포르 플라이어",
@@ -119,7 +119,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["탁 트인 파노라마 뷰", "싱가포르 주요 명소 조망"],
         rating: 5,
-        icon: "🎟️"
+        icon: "🎡"
     },
     {
         name: "멀라이언 파크",
@@ -136,7 +136,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         features: ["멀라이언 동상 인증샷 필수", "마리나 베이 야경 명소"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🗽"
     },
     {
         name: "싱가포르 내셔널 갤러리",
@@ -153,7 +153,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 7:00; 화요일: 오전 10:00 ~ 오후 7:00",
         features: ["웅장한 건축물", "다양한 동남아시아 예술 작품"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "클라키 키",
@@ -170,7 +170,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["싱가포르 대표 명소", "평점 4.5", "싱가포르 여행 동선에 넣기 좋음"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🌃"
     },
 ];
 

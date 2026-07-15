@@ -28,7 +28,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-23:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "이치란 시부야점",
@@ -42,7 +42,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,500",
         openingHours: "24시간",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "우오베이 시부야 도겐자카점",
@@ -56,7 +56,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~3,000",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍣"
     },
     {
         name: "규카츠 모토무라 신주쿠 미나미구치점",
@@ -70,7 +70,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~2,500",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥩"
     },
     {
         name: "긴자 바이린 본점",
@@ -84,7 +84,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~3,000",
         openingHours: "11:30-20:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍤"
     },
     {
         name: "츠지한 니혼바시 본점",
@@ -98,7 +98,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~2,500",
         openingHours: "11:00-21:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🐟"
     },
     {
         name: "스시노미도리 시부야점",
@@ -112,7 +112,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍣"
     },
     {
         name: "네무로 하나마루 KITTE 마루노우치점",
@@ -126,7 +126,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍣"
     },
     {
         name: "돈카츠 마이센 아오야마 본점",
@@ -140,7 +140,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~4,000",
         openingHours: "11:00-21:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍤"
     },
     {
         name: "AFURI 하라주쿠점",
@@ -154,7 +154,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,200~2,000",
         openingHours: "10:30-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "멘야 무사시 신주쿠 본점",
@@ -168,7 +168,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-22:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "풍운아 신주쿠",
@@ -182,7 +182,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-21:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "츠키지 스시세이 본점",
@@ -196,7 +196,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥3,000~6,000",
         openingHours: "10:30-21:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍣"
     },
     {
         name: "츠키지 이타도리 별관",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~4,000",
         openingHours: "07:00-15:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🐟"
     },
     {
         name: "아사쿠사 규카츠",
@@ -224,7 +224,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,800~2,800",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥩"
     },
     {
         name: "다이코쿠야 텐푸라 본점",
@@ -238,7 +238,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~3,500",
         openingHours: "11:10-20:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍤"
     },
     {
         name: "긴자 카가리 본점",
@@ -252,7 +252,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,200~2,000",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "츠루톤탄 신주쿠점",
@@ -266,7 +266,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~3,000",
         openingHours: "11:00-23:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "토리키조쿠 시부야 센터가이점",
@@ -280,7 +280,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~3,500",
         openingHours: "17:00-04:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍢"
     },
     {
         name: "카츠쿠라 신주쿠 타카시마야점",
@@ -294,7 +294,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,800~3,000",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍤"
     },
     {
         name: "몬자 쿠라 츠키시마",
@@ -308,7 +308,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~3,500",
         openingHours: "11:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥞"
     },
     {
         name: "소메타로 아사쿠사",
@@ -322,7 +322,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~3,000",
         openingHours: "12:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥞"
     },
     {
         name: "카라시비 미소라멘 키칸보 칸다 본점",
@@ -336,7 +336,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,500",
         openingHours: "11:00-21:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "긴자 우카이테이",
@@ -350,7 +350,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥20,000~40,000",
         openingHours: "12:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥩"
     },
     {
         name: "나리사와",
@@ -392,7 +392,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥2,000~4,000",
         openingHours: "08:30-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥞"
     },
     {
         name: "행복한 팬케이크 오모테산도점",
@@ -406,7 +406,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~2,500",
         openingHours: "10:00-20:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🥞"
     },
     {
         name: "잇푸도 긴자점",
@@ -420,7 +420,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~1,800",
         openingHours: "11:00-23:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "오니기리 봉고",
@@ -434,7 +434,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,000~2,000",
         openingHours: "11:30-23:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍙"
     },
     {
         name: "긴자 하치고",
@@ -448,7 +448,7 @@ const restaurants: RestaurantData[] = [
         priceRange: "¥1,500~2,500",
         openingHours: "방문 전 공식 확인",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🍽️"
+        icon: "🍜"
     },
 ];
 

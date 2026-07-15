@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: true,
         features: ["로컬 쇼핑몰, 생활용품", "평점 4.1", "치앙마이 여행 동선에 넣기 좋음"],
-        icon: "🏢"
+        icon: "🛍️"
     },
     {
         name: "림핑 슈퍼마켓 님시티",

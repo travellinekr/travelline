@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["프리미엄 브랜드 입점", "빅토리아 하버 전망"],
-        icon: "🏙️"
+        icon: "🛍️"
     },
     {
         name: "퍼시픽 플레이스",

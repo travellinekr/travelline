@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         taxRefund: true,
         features: ["아뮤플라자, 도큐핸즈, 식당가", "평점 4.3", "후쿠오카 여행 동선에 넣기 좋음"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "아뮤플라자 하카타",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["패션, 카페, 비 오는 날 동선", "평점 4.1", "후쿠오카 여행 동선에 넣기 좋음"],
-        icon: "🚇"
+        icon: "🛍️"
     },
     {
         name: "솔라리아 플라자",
@@ -120,7 +120,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:30; 화요일: 오전 10:00 ~ 오후 8:30",
         taxRefund: true,
         features: ["식당가, 잡화, 교통 동선", "평점 3.9", "후쿠오카 여행 동선에 넣기 좋음"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "후쿠오카 파르코",

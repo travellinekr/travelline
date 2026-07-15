@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "타이베이 101과 신이 상권 접근성이 뛰어난 대형 호텔입니다.",
-        tags: ["신이", "럭셔리"]
+        tags: ["신이", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "W 타이베이",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "신이 쇼핑 동선과 야간 분위기가 강한 라이프스타일 호텔입니다.",
-        tags: ["신이", "디자인"]
+        tags: ["신이", "디자인"],
+        icon: "🏨"
     },
     {
         name: "험블 하우스 타이베이",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "신이권 쇼핑몰과 연결 동선이 편한 고급 호텔입니다.",
-        tags: ["신이", "쇼핑"]
+        tags: ["신이", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "에슬라이트 호텔",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "송산문화창의원구와 디자인 상점가를 즐기기 좋은 호텔입니다.",
-        tags: ["송산", "디자인"]
+        tags: ["송산", "디자인"],
+        icon: "🏨"
     },
     {
         name: "킴튼 다안 타이베이",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "다안 지역 카페와 식당 동선이 좋은 부티크 호텔입니다.",
-        tags: ["다안", "부티크"]
+        tags: ["다안", "부티크"],
+        icon: "🏨"
     },
     {
         name: "호텔 프로버브스 타이베이",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "동구 쇼핑과 레스토랑 접근성이 좋은 감각적인 호텔입니다.",
-        tags: ["동구", "부티크"]
+        tags: ["동구", "부티크"],
+        icon: "🏨"
     },
     {
         name: "만다린 오리엔탈 타이베이",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "조용한 럭셔리 체류와 고급 다이닝을 원하는 여행자에게 적합합니다.",
-        tags: ["럭셔리", "송산"]
+        tags: ["럭셔리", "송산"],
+        icon: "🏨"
     },
     {
         name: "오쿠라 프레스티지 타이베이",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "중산역 주변 쇼핑과 식당 접근성이 좋은 고급 호텔입니다.",
-        tags: ["중산", "럭셔리"]
+        tags: ["중산", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "리젠트 타이베이",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "중산 상권 중심에서 쇼핑과 미식을 즐기기 좋은 클래식 호텔입니다.",
-        tags: ["중산", "쇼핑"]
+        tags: ["중산", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "팔레 드 쉰 호텔 타이베이",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "타이베이역과 공항철도 접근성이 좋은 편리한 호텔입니다.",
-        tags: ["타이베이역", "교통"]
+        tags: ["타이베이역", "교통"],
+        icon: "🏨"
     },
     {
         name: "시저 파크 호텔 타이베이",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "타이베이역 바로 앞 위치가 강점인 실속형 대형 호텔입니다.",
-        tags: ["타이베이역", "교통"]
+        tags: ["타이베이역", "교통"],
+        icon: "🏨"
     },
     {
         name: "시티즌M 타이베이 노스 게이트",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시먼딩과 타이베이역 사이 이동이 편한 현대적 호텔입니다.",
-        tags: ["시먼딩", "교통"]
+        tags: ["시먼딩", "교통"],
+        icon: "🏨"
     },
     {
         name: "암바 타이베이 시먼딩",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시먼딩 한가운데에서 쇼핑과 야식을 즐기기 좋은 호텔입니다.",
-        tags: ["시먼딩", "쇼핑"]
+        tags: ["시먼딩", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "로더스 호텔 타이베이",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시먼딩과 북문 동선이 좋은 개성 있는 가성비 호텔입니다.",
-        tags: ["시먼딩", "가성비"]
+        tags: ["시먼딩", "가성비"],
+        icon: "🏨"
     },
     {
         name: "스위오 호텔 다안",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "다안 카페거리와 MRT 접근성이 좋은 부티크 호텔입니다.",
-        tags: ["다안", "부티크"]
+        tags: ["다안", "부티크"],
+        icon: "🏨"
     },
     {
         name: "매디슨 타이베이 호텔",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "다안의 조용한 주거지 분위기와 시내 접근성을 함께 갖춘 호텔입니다.",
-        tags: ["다안", "조용함"]
+        tags: ["다안", "조용함"],
+        icon: "🏨"
     },
     {
         name: "댄디 호텔 다안 파크",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "다안공원 앞 산책과 MRT 이용이 편한 실속형 호텔입니다.",
-        tags: ["다안공원", "가성비"]
+        tags: ["다안공원", "가성비"],
+        icon: "🏨"
     },
     {
         name: "호텔 레조넌스 타이베이",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "산다오쓰역 인근에서 깔끔한 체류와 교통 편의가 좋은 호텔입니다.",
-        tags: ["교통", "깔끔함"]
+        tags: ["교통", "깔끔함"],
+        icon: "🏨"
     },
     {
         name: "베이터우 핫스프링 리조트",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "베이터우 온천 지역에서 휴식 중심 일정을 잡기 좋은 숙소입니다.",
-        tags: ["베이터우", "온천"]
+        tags: ["베이터우", "온천"],
+        icon: "♨️"
     },
     {
         name: "그랜드 뷰 리조트 베이터우",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "온천과 조용한 휴양 분위기를 원하는 여행자에게 맞는 고급 리조트입니다.",
-        tags: ["온천", "럭셔리"]
+        tags: ["온천", "럭셔리"],
+        icon: "♨️"
     },
 ];
 

@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["다양한 길거리 음식", "합리적인 가격의 소품"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "무스타파 센터",
@@ -120,7 +120,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["쇼핑·식당·기념품", "평점 4.4", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "하지 레인",
@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: true,
         features: ["쇼핑·식당·기념품", "평점 4.6", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "👗"
     },
     {
         name: "다카시마야 싱가포르",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:30; 화요일: 오전 10:00 ~ 오후 9:30",
         taxRefund: true,
         features: ["쇼핑·식당·기념품", "평점 4.5", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🏬"
     },
 ];
 

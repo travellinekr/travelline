@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "논밭 풍경과 럭셔리 휴식에 강점이 있는 리조트입니다.",
-        tags: ["럭셔리", "휴양"]
+        tags: ["럭셔리", "휴양"],
+        icon: "🏖️"
     },
     {
         name: "아난타라 치앙마이 리조트",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "강변 위치와 조용한 분위기가 좋은 고급 리조트입니다.",
-        tags: ["리버사이드", "럭셔리"]
+        tags: ["리버사이드", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "137 필라스 하우스",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "부티크 감성과 고급 서비스가 강점인 숙소입니다.",
-        tags: ["부티크", "럭셔리"]
+        tags: ["부티크", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "라차만카 호텔",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "올드타운 안의 조용한 란나 스타일 부티크 호텔입니다.",
-        tags: ["올드타운", "부티크"]
+        tags: ["올드타운", "부티크"],
+        icon: "🏨"
     },
     {
         name: "타마린드 빌리지",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "올드타운 중심 접근성과 전통 분위기가 장점입니다.",
-        tags: ["올드타운", "부티크"]
+        tags: ["올드타운", "부티크"],
+        icon: "🏨"
     },
     {
         name: "르 메르디앙 치앙마이",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나이트바자 접근성이 좋은 대형 호텔입니다.",
-        tags: ["나이트바자", "가족 여행"]
+        tags: ["나이트바자", "가족 여행"],
+        icon: "🏨"
     },
     {
         name: "멜리아 치앙마이",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "신축급 시설과 시내 접근성이 좋은 호텔입니다.",
-        tags: ["시내", "신축급"]
+        tags: ["시내", "신축급"],
+        icon: "🏨"
     },
     {
         name: "샹그릴라 치앙마이",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "가족 여행과 수영장 시설에 강점이 있는 대형 호텔입니다.",
-        tags: ["가족 여행", "수영장"]
+        tags: ["가족 여행", "수영장"],
+        icon: "🏨"
     },
     {
         name: "인터컨티넨탈 치앙마이 매핑",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심 접근성과 브랜드 시설을 갖춘 호텔입니다.",
-        tags: ["시내", "브랜드호텔"]
+        tags: ["시내", "브랜드호텔"],
+        icon: "🏨"
     },
     {
         name: "유 님만 치앙마이",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "님만 중심 위치와 쇼핑 동선이 좋은 호텔입니다.",
-        tags: ["님만", "쇼핑"]
+        tags: ["님만", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "이스틴 탄 호텔 치앙마이",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "마야몰·님만 접근성이 좋은 실용적인 호텔입니다.",
-        tags: ["님만", "가성비"]
+        tags: ["님만", "가성비"],
+        icon: "🏨"
     },
     {
         name: "아키라 매너 치앙마이",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "님만 지역의 디자인 부티크 호텔입니다.",
-        tags: ["님만", "부티크"]
+        tags: ["님만", "부티크"],
+        icon: "🏨"
     },
     {
         name: "아트 마이 갤러리 호텔",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "예술 콘셉트와 님만 접근성이 장점입니다.",
-        tags: ["님만", "디자인"]
+        tags: ["님만", "디자인"],
+        icon: "🏨"
     },
     {
         name: "프라싱 빌리지",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "올드타운 사원 동선에 좋은 부티크 호텔입니다.",
-        tags: ["올드타운", "부티크"]
+        tags: ["올드타운", "부티크"],
+        icon: "🏨"
     },
     {
         name: "찰라 넘버 6",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "올드타운 중심부에서 걷기 좋은 위치의 호텔입니다.",
-        tags: ["올드타운", "위치"]
+        tags: ["올드타운", "위치"],
+        icon: "🏨"
     },
 ];
 

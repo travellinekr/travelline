@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "홍콩의 역사를 간직한 클래식하고 품격 있는 럭셔리 호텔",
-        tags: ["침사추이", "럭셔리"]
+        tags: ["침사추이", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "포시즌스 호텔 홍콩",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "빅토리아 하버의 환상적인 뷰를 품은 현대적인 럭셔리 숙소",
-        tags: ["센트럴", "럭셔리"]
+        tags: ["센트럴", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "만다린 오리엔탈 홍콩",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "세련된 서비스와 미식의 정점을 경험할 수 있는 상징적인 호텔",
-        tags: ["센트럴", "클래식"]
+        tags: ["센트럴", "클래식"],
+        icon: "🏨"
     },
     {
         name: "로즈우드 홍콩",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "빅토리아 하버가 한눈에 들어오는 침사추이 최고의 럭셔리 호텔",
-        tags: ["침사추이", "하버뷰"]
+        tags: ["침사추이", "하버뷰"],
+        icon: "🏨"
     },
     {
         name: "더 어퍼 하우스",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 속 프라이빗한 휴식을 선사하는 어드미럴티의 세련된 호텔",
-        tags: ["애드미럴티", "부티크"]
+        tags: ["애드미럴티", "부티크"],
+        icon: "🏨"
     },
     {
         name: "리츠칼튼 홍콩",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "구름 위에서 즐기는 압도적인 스카이라인 뷰와 초고층의 매력",
-        tags: ["구룡역", "전망"]
+        tags: ["구룡역", "전망"],
+        icon: "🏨"
     },
     {
         name: "W 홍콩",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "힙한 감성과 화려한 분위기를 만끽할 수 있는 홍콩의 핫플레이스",
-        tags: ["구룡역", "트렌디"]
+        tags: ["구룡역", "트렌디"],
+        icon: "🏨"
     },
     {
         name: "케리 호텔 홍콩",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "빅토리아 하버의 탁 트인 전망을 마주하며 여유로운 휴식을 즐기는 곳",
-        tags: ["홍함", "하버뷰"]
+        tags: ["홍함", "하버뷰"],
+        icon: "🏨"
     },
     {
         name: "호텔 아이콘 홍콩",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "모던하고 세련된 디자인이 돋보이는 프리미엄 호텔",
-        tags: ["침사추이", "가성비 럭셔리"]
+        tags: ["침사추이", "가성비 럭셔리"],
+        icon: "🏨"
     },
     {
         name: "코디스 홍콩",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쇼핑의 중심 몽콕에서 즐기는 럭셔리한 휴식",
-        tags: ["몽콕", "쇼핑"]
+        tags: ["몽콕", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "하얏트 센트릭 빅토리아 하버",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "빅토리아 하버의 환상적인 전망을 품은 세련된 호텔",
-        tags: ["노스포인트", "하버뷰"]
+        tags: ["노스포인트", "하버뷰"],
+        icon: "🏨"
     },
     {
         name: "이튼 HK",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "홍콩의 힙한 감성을 그대로 느낄 수 있는 가성비 숙소",
-        tags: ["조던", "로컬"]
+        tags: ["조던", "로컬"],
+        icon: "🏨"
     },
     {
         name: "더 미라 홍콩",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "침사추이 중심가에 위치해 쇼핑과 맛집 탐방하기 최적화된 트렌디한 호텔이에요.",
-        tags: ["침사추이", "쇼핑"]
+        tags: ["침사추이", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "페이지148 홍콩",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "감각적인 인테리어와 힙한 분위기로 사진 찍기 좋은 부티크 호텔입니다.",
-        tags: ["조던", "부티크"]
+        tags: ["조던", "부티크"],
+        icon: "🏨"
     },
     {
         name: "더 플레밍 홍콩",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "완차이의 매력을 담은 세련되고 독특한 컨셉의 프리미엄 호텔이에요.",
-        tags: ["완차이", "부티크"]
+        tags: ["완차이", "부티크"],
+        icon: "🏨"
     },
     {
         name: "미라 문 홍콩",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "코즈웨이 베이의 트렌디한 감성을 담은 디자인 호텔입니다.",
-        tags: ["코즈웨이베이", "부티크"]
+        tags: ["코즈웨이베이", "부티크"],
+        icon: "🏨"
     },
     {
         name: "호텔 스테이지",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "조던 지역의 깔끔하고 모던한 분위기를 자랑하는 숙소입니다.",
-        tags: ["조던", "실속"]
+        tags: ["조던", "실속"],
+        icon: "🏨"
     },
     {
         name: "더 포팅거 홍콩",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "센트럴 중심가에서 즐기는 세련된 어반 라이프스타일 호텔입니다.",
-        tags: ["센트럴", "소호"]
+        tags: ["센트럴", "소호"],
+        icon: "🏨"
     },
     {
         name: "오볼로 사우스사이드",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "감각적인 디자인과 힙한 분위기가 매력적인 부티크 호텔",
-        tags: ["사우스사이드", "디자인"]
+        tags: ["사우스사이드", "디자인"],
+        icon: "🏨"
     },
     {
         name: "도르셋 몽콕 홍콩",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "몽콕의 활기를 즐기기에 최적화된 가성비 좋은 숙소",
-        tags: ["몽콕", "실속"]
+        tags: ["몽콕", "실속"],
+        icon: "🏨"
     },
 ];
 

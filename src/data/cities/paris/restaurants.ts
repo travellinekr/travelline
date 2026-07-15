@@ -59,7 +59,7 @@ const restaurants: RestaurantData[] = [
         specialty: "스테이크 프리트, 홍합",
         priceRange: "€25~60",
         features: ["오페라 지구", "전통 브라세리"],
-        icon: "🥐"
+        icon: "🥩"
     }
 ];
 

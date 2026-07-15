@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카노시마 고층 전망과 럭셔리 서비스가 강점인 호텔입니다.",
-        tags: ["럭셔리", "전망"]
+        tags: ["럭셔리", "전망"],
+        icon: "🏨"
     },
     {
         name: "W 오사카",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "신사이바시 동선과 디자인 감도가 강한 라이프스타일 호텔입니다.",
-        tags: ["신사이바시", "디자인"]
+        tags: ["신사이바시", "디자인"],
+        icon: "🏨"
     },
     {
         name: "리츠칼튼 오사카",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "우메다 권역의 클래식 럭셔리 호텔입니다.",
-        tags: ["우메다", "럭셔리"]
+        tags: ["우메다", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "세인트 레지스 오사카",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "혼마치 중심부의 고급 호텔로 난바·우메다 이동 균형이 좋습니다.",
-        tags: ["혼마치", "럭셔리"]
+        tags: ["혼마치", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "인터컨티넨탈 오사카",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "그랜드 프론트와 연결되는 우메다 대표 럭셔리 호텔입니다.",
-        tags: ["우메다", "쇼핑 연결"]
+        tags: ["우메다", "쇼핑 연결"],
+        icon: "🏨"
     },
     {
         name: "호텔 한큐 레스파이어 오사카",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "우메다역과 쇼핑몰 접근성이 좋은 대형 호텔입니다.",
-        tags: ["우메다", "교통"]
+        tags: ["우메다", "교통"],
+        icon: "🏨"
     },
     {
         name: "호텔 그란비아 오사카",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "JR 오사카역 직결 동선이 강점인 교통형 호텔입니다.",
-        tags: ["역 직결", "교통"]
+        tags: ["역 직결", "교통"],
+        icon: "🏨"
     },
     {
         name: "스위소텔 난카이 오사카",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "난바역 직결로 공항·난바 동선이 편한 호텔입니다.",
-        tags: ["난바", "역 직결"]
+        tags: ["난바", "역 직결"],
+        icon: "🏨"
     },
     {
         name: "센타라 그랜드 호텔 오사카",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "난바파크스 인근의 신상급 고층 호텔입니다.",
-        tags: ["난바", "전망"]
+        tags: ["난바", "전망"],
+        icon: "🏨"
     },
     {
         name: "크로스 호텔 오사카",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도톤보리와 신사이바시 도보 접근이 좋은 위치형 호텔입니다.",
-        tags: ["도톤보리", "위치"]
+        tags: ["도톤보리", "위치"],
+        icon: "🏨"
     },
     {
         name: "호텔 로열 클래식 오사카",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "난바 중심부에서 쇼핑과 식사 동선이 편한 호텔입니다.",
-        tags: ["난바", "쇼핑"]
+        tags: ["난바", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "시타딘 난바 오사카",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "가족·장기 숙박에 좋은 레지던스형 난바 호텔입니다.",
-        tags: ["난바", "가족"]
+        tags: ["난바", "가족"],
+        icon: "🏠"
     },
     {
         name: "더 라이블리 오사카 혼마치",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "혼마치권의 감각적인 라이프스타일 호텔입니다.",
-        tags: ["혼마치", "라이프스타일"]
+        tags: ["혼마치", "라이프스타일"],
+        icon: "🏨"
     },
     {
         name: "목시 오사카 혼마치",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "캐주얼하고 젊은 분위기의 혼마치권 호텔입니다.",
-        tags: ["혼마치", "캐주얼"]
+        tags: ["혼마치", "캐주얼"],
+        icon: "🏨"
     },
     {
         name: "OMO7 오사카 바이 호시노 리조트",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "신이마미야·신세카이 동선과 로컬 체험 콘셉트가 있는 호텔입니다.",
-        tags: ["신세카이", "가족"]
+        tags: ["신세카이", "가족"],
+        icon: "🏨"
     },
     {
         name: "호텔 유니버설 포트",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "USJ 방문객에게 편한 유니버설시티 권역 호텔입니다.",
-        tags: ["USJ", "가족"]
+        tags: ["USJ", "가족"],
+        icon: "🏨"
     },
     {
         name: "더 파크 프론트 호텔 앳 USJ",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "USJ 입구 접근성이 매우 좋은 공식급 호텔입니다.",
-        tags: ["USJ", "위치"]
+        tags: ["USJ", "위치"],
+        icon: "🏨"
     },
     {
         name: "리베르 호텔 오사카",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "USJ와 베이 에어리어 동선에 좋은 온천형 대형 호텔입니다.",
-        tags: ["USJ", "온천"]
+        tags: ["USJ", "온천"],
+        icon: "♨️"
     },
     {
         name: "미마루 오사카 난바 노스",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "가족·그룹 여행에 적합한 아파트먼트형 숙소입니다.",
-        tags: ["난바", "가족"]
+        tags: ["난바", "가족"],
+        icon: "🏠"
     },
     {
         name: "프레이저 레지던스 난카이 오사카",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "난바역 인근 장기 숙박과 가족 여행에 편한 레지던스입니다.",
-        tags: ["난바", "레지던스"]
+        tags: ["난바", "레지던스"],
+        icon: "🏠"
     },
 ];
 

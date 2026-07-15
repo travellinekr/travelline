@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호이안과 다낭 사이 해변권에 위치한 한국 여행자 선호 리조트입니다.",
-        tags: ["비치 리조트", "가족 여행"]
+        tags: ["비치 리조트", "가족 여행"],
+        icon: "🏖️"
     },
     {
         name: "하얏트 리젠시 다낭 리조트 앤 스파",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "논느억 비치와 오행산 접근성이 좋은 대형 비치 리조트입니다.",
-        tags: ["비치", "가족 여행"]
+        tags: ["비치", "가족 여행"],
+        icon: "🏖️"
     },
     {
         name: "인터컨티넨탈 다낭 선 페닌슐라 리조트",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "선짜반도에 위치한 고급 럭셔리 리조트입니다.",
-        tags: ["럭셔리", "프라이빗"]
+        tags: ["럭셔리", "프라이빗"],
+        icon: "🏖️"
     },
     {
         name: "TIA 웰니스 리조트 다낭",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스파와 웰니스 프로그램에 강점이 있는 비치 리조트입니다.",
-        tags: ["웰니스", "스파"]
+        tags: ["웰니스", "스파"],
+        icon: "🏖️"
     },
     {
         name: "푸라마 리조트 다낭",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "미케비치권에 가까운 클래식한 대형 리조트입니다.",
-        tags: ["비치", "리조트"]
+        tags: ["비치", "리조트"],
+        icon: "🏖️"
     },
     {
         name: "풀만 다낭 비치 리조트",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "비치 접근성과 시내 이동 균형이 좋은 리조트입니다.",
-        tags: ["비치", "시내 접근"]
+        tags: ["비치", "시내 접근"],
+        icon: "🏖️"
     },
     {
         name: "힐튼 다낭",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "한강변 시내 동선에 편한 글로벌 체인 호텔입니다.",
-        tags: ["시내", "한강변"]
+        tags: ["시내", "한강변"],
+        icon: "🏨"
     },
 ];
 

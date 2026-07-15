@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 2:00, 오후 5:00~10:30; 화요일: 오전 10:00 ~ 오후 2:00, 오후 5:00~10:30",
         reservation: false,
         features: ["대표 메뉴", "평점 4.9", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🐟"
     },
     {
         name: "반미25",
@@ -90,7 +90,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 9:00; 화요일: 오전 7:00 ~ 오후 9:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.5", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🥖"
     },
     {
         name: "분보남보 바익프엉",
@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.4", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "에센스 레스토랑 하노이",
@@ -240,7 +240,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 10:00; 화요일: 오전 11:30 ~ 오후 10:00",
         reservation: false,
         features: ["정갈한 플레이팅", "현지 식재료를 활용한 고급스러운 맛"],
-        icon: "🍜"
+        icon: "🍽️"
     },
     {
         name: "피자 포피스 짱띠엔",
@@ -255,7 +255,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
         reservation: false,
         features: ["신선한 부라타 치즈", "화덕에서 갓 구운 도우"],
-        icon: "🍜"
+        icon: "🍕"
     },
     {
         name: "라 바디안 하노이",
@@ -270,7 +270,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 1:30, 오후 6:00~9:30; 화요일: 오전 11:30 ~ 오후 1:30, 오후 6:00~9:30",
         reservation: false,
         features: ["프렌치 스타일의 정교한 요리", "차분하고 고급스러운 인테리어"],
-        icon: "🍜"
+        icon: "🥐"
     },
     {
         name: "코토 반미에우",
@@ -285,7 +285,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         reservation: false,
         features: ["겉바속촉의 정석인 반미", "현지 분위기 물씬 풍기는 식당"],
-        icon: "🍜"
+        icon: "🥖"
     },
     {
         name: "카페 지앙",
@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 10:30; 화요일: 오전 7:00 ~ 오후 10:30",
         reservation: false,
         features: ["부드럽고 달콤한 에그 크림", "하노이 여행 필수 코스"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "카페 딘",
@@ -315,7 +315,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
         reservation: false,
         features: ["빈티지한 인테리어와 여유로운 분위기", "에그 커피 맛집"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "로딩 티 카페",
@@ -330,7 +330,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
         reservation: false,
         features: ["고즈넉한 분위기", "감성적인 인테리어"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "소파 카페 하노이",
@@ -345,7 +345,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         reservation: false,
         features: ["푹신한 소파 좌석", "여유로운 휴식 가능"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "하노이 기찻길 카페",
@@ -360,7 +360,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         reservation: false,
         features: ["스릴 넘치는 기차 풍경", "인생샷 명소"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "꽌 곡다",

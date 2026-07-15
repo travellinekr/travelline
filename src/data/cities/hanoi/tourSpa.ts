@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["평화로운 호숫가 산책로", "밤이면 더 화려해지는 야경"],
         rating: 4.7,
-        icon: "🎟️"
+        icon: "🏞️"
     },
     {
         name: "문묘",
@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
         features: ["전통적인 건축미", "역사적 가치가 높은 공간"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "호치민 묘소",
@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 휴무일; 화요일: 오전 7:30~10:30",
         features: ["웅장한 건축물", "베트남 역사의 상징성"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "탕롱 황성",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
         features: ["웅장한 고대 성벽", "하노이의 오랜 역사 탐방"],
         rating: 4.4,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "호아로 수용소",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
         features: ["실제 수용 시설 관람", "가슴 먹먹한 역사적 기록"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "베트남 민족학 박물관",
@@ -102,7 +102,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 휴무일; 화요일: 오전 8:30 ~ 오후 5:30",
         features: ["다양한 종족의 전통 가옥", "생동감 넘치는 문화 전시"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "성 요셉 성당",
@@ -119,7 +119,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00~11:00, 오후 2:00~5:00; 화요일: 오전 8:00~11:00, 오후 2:00~5:00",
         features: ["프랑스식 고딕 양식의 웅장한 건축물", "성당 앞 활기찬 카페 거리와 분위기"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "⛪"
     },
     {
         name: "못꼿 사원",
@@ -136,7 +136,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
         features: ["연꽃 위에 떠 있는 듯한 아름다운 건축미", "베트남의 역사를 간직한 상징적 명소"],
         rating: 4.3,
-        icon: "🎟️"
+        icon: "🙏"
     },
     {
         name: "하노이 오페라하우스",
@@ -153,7 +153,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 5:00; 화요일: 오전 7:00 ~ 오후 5:00",
         features: ["고전적인 유럽풍 건축 양식", "야경이 아름다운 도시의 랜드마크"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🎭"
     },
     {
         name: "탕롱 수상인형극장",
@@ -170,7 +170,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:30 ~ 오후 8:00; 화요일: 오전 8:30 ~ 오후 8:00",
         features: ["하노이 대표 명소", "평점 4.4", "하노이 여행 동선에 넣기 좋음"],
         rating: 4.4,
-        icon: "🎟️"
+        icon: "🎭"
     },
 ];
 

@@ -45,7 +45,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
         reservation: false,
         features: ["입안 가득 차는 풍성한 토핑", "바삭하고 고소한 바게트"],
-        icon: "🍜"
+        icon: "🥖"
     },
     {
         name: "반미 호아마",
@@ -60,7 +60,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00~11:00; 화요일: 오전 6:00~11:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.3", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🥖"
     },
     {
         name: "런치 레이디",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 6:00~10:00; 화요일: 오후 6:00~10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.6", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🥗"
     },
     {
         name: "벱메인",
@@ -270,7 +270,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.9", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🥩"
     },
     {
         name: "피자 포피스 벤탄",
@@ -285,7 +285,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
         reservation: false,
         features: ["신선한 부라타 치즈", "쫄깃한 화덕 도우"],
-        icon: "🍜"
+        icon: "🍕"
     },
     {
         name: "루진 레러이",
@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["감각적인 플레이팅", "세련된 인테리어"],
-        icon: "🍜"
+        icon: "🍽️"
     },
     {
         name: "더 워크숍 커피",
@@ -315,7 +315,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 8:30; 화요일: 오전 8:00 ~ 오후 8:30",
         reservation: false,
         features: ["깊은 풍미의 핸드드립", "전문적인 커피 맛"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "콩카페 호치민",
@@ -330,7 +330,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.7", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "응우옌후에 카페 아파트먼트",
@@ -345,7 +345,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.9", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "☕"
     },
     {
         name: "벤탄 스트리트 푸드 마켓",
@@ -375,7 +375,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🍜"
+        icon: "🦐"
     },
 ];
 

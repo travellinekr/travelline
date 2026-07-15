@@ -10,7 +10,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Paris",
         description: "5성급, 샹제리제 근처 팔라스 호텔",
-        tags: ["샹제리제", "럭셔리"]
+        tags: ["샹제리제", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "호텔 리츠 파리",
@@ -21,7 +22,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Paris",
         description: "방돔 광장, 파리 최고급 호텔",
-        tags: ["방돔", "럭셔리"]
+        tags: ["방돔", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "그랜드 호텔 뒤 팔레 루아얄",
@@ -32,7 +34,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Paris",
         description: "팔레 루아얄 맞은편, 부티크",
-        tags: ["루브르", "부티크"]
+        tags: ["루브르", "부티크"],
+        icon: "🏨"
     },
     {
         name: "호텔 파리 생 빅토르",
@@ -43,7 +46,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Paris",
         description: "노트르담 근처, 가성비 부티크",
-        tags: ["노트르담", "가성비"]
+        tags: ["노트르담", "가성비"],
+        icon: "🏨"
     },
     {
         name: "시티즌M 파리 오페라",
@@ -54,7 +58,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Paris",
         description: "오페라 가르니에 근처, 모던",
-        tags: ["오페라", "모던"]
+        tags: ["오페라", "모던"],
+        icon: "🏨"
     },
     {
         name: "호텔 줄리안 파리",
@@ -65,7 +70,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Paris",
         description: "마레 지구, 디자인 호텔",
-        tags: ["마레", "디자인"]
+        tags: ["마레", "디자인"],
+        icon: "🏨"
     }
 ];
 

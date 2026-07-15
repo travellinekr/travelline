@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["최신 유행 패션 아이템", "다양한 테마의 식당가", "JR 타워와 바로 연결된 편리함"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "에스타 삿포로",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["패션 아이템", "아기자기한 카페"],
-        icon: "🚇"
+        icon: "🛍️"
     },
     {
         name: "오로라타운",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["오도리역 직결", "쾌적한 지하 통로"],
-        icon: "🚇"
+        icon: "🛍️"
     },
     {
         name: "노르베사",

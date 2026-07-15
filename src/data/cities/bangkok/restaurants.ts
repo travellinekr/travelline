@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         reservation: false,
         features: ["중독성 강한 태국 현지의 맛", "신선한 해산물이 가득 들어간 국수"],
-        icon: "🍤"
+        icon: "🍲"
     },
     {
         name: "쩨오쭐라",
@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 12:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 3:00, 오후 5:00~10:00",
         reservation: false,
         features: ["낭만적인 왓아룬 파노라마 뷰", "분위기 있는 다이닝 경험"],
-        icon: "🌅"
+        icon: "🍽️"
     },
     {
         name: "블루 엘리펀트 방콕",

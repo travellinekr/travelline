@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["명품, 레스토랑, 루자쭈이 쇼핑", "평점 4.4", "상하이 여행 동선에 넣기 좋음"],
-        icon: "🏙️"
+        icon: "🛍️"
     },
     {
         name: "IAPM 몰",

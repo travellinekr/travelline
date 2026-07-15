@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타역 바로 앞 입지와 대욕장이 강점인 고급 호텔입니다.",
-        tags: ["하카타역", "대욕장"]
+        tags: ["하카타역", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 닛코 후쿠오카",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타역 접근성과 안정적인 서비스가 장점인 클래식 호텔입니다.",
-        tags: ["하카타역", "비즈니스"]
+        tags: ["하카타역", "비즈니스"],
+        icon: "🏨"
     },
     {
         name: "그랜드 하얏트 후쿠오카",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "캐널시티와 연결되어 쇼핑과 식사가 편한 호텔입니다.",
-        tags: ["캐널시티", "쇼핑"]
+        tags: ["캐널시티", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "더 블라썸 하카타 프리미어",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타·기온 사이 도보 동선과 대욕장이 좋은 호텔입니다.",
-        tags: ["하카타", "대욕장"]
+        tags: ["하카타", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "니시테츠 호텔 크룸 하카타",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타역 도보권과 대욕장 이용이 편한 실속형 호텔입니다.",
-        tags: ["하카타역", "대욕장"]
+        tags: ["하카타역", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "JR 큐슈 호텔 블라썸 하카타 센트럴",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타역 도보권으로 공항·기차 이동이 편한 호텔입니다.",
-        tags: ["하카타역", "교통"]
+        tags: ["하카타역", "교통"],
+        icon: "🏨"
     },
     {
         name: "오리엔탈 호텔 후쿠오카 하카타 스테이션",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하카타역 치쿠시구치 인근의 위치형 호텔입니다.",
-        tags: ["하카타역", "교통"]
+        tags: ["하카타역", "교통"],
+        icon: "🏨"
     },
     {
         name: "미쓰이 가든 호텔 후쿠오카 기온",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "기온·캐널시티 동선과 대욕장이 장점인 호텔입니다.",
-        tags: ["기온", "대욕장"]
+        tags: ["기온", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "미쓰이 가든 호텔 후쿠오카 나카스",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카스 강변과 텐진 접근성이 좋은 도심 호텔입니다.",
-        tags: ["나카스", "대욕장"]
+        tags: ["나카스", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 레솔 트리니티 하카타",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카스카와바타역 인근 대욕장 있는 도심 호텔입니다.",
-        tags: ["나카스", "대욕장"]
+        tags: ["나카스", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "도큐스테이 후쿠오카 텐진",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "객실 내 세탁기와 텐진·나카스 접근성이 장점입니다.",
-        tags: ["텐진", "장기 숙박"]
+        tags: ["텐진", "장기 숙박"],
+        icon: "🏨"
     },
     {
         name: "솔라리아 니시테츠 호텔 후쿠오카",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "텐진역·쇼핑몰 연결성이 강점인 위치형 호텔입니다.",
-        tags: ["텐진", "쇼핑"]
+        tags: ["텐진", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "니시테츠 그랜드 호텔",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "텐진 중심부의 클래식 호텔로 쇼핑 동선이 좋습니다.",
-        tags: ["텐진", "클래식"]
+        tags: ["텐진", "클래식"],
+        icon: "🏨"
     },
     {
         name: "호텔 몬토레 라 스루 후쿠오카",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "텐진·아카사카 사이 이동이 편한 합리적 호텔입니다.",
-        tags: ["텐진", "가성비"]
+        tags: ["텐진", "가성비"],
+        icon: "🏨"
     },
     {
         name: "더 라이블리 후쿠오카 하카타",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카스 인근 감각적인 라이프스타일 호텔입니다.",
-        tags: ["나카스", "라이프스타일"]
+        tags: ["나카스", "라이프스타일"],
+        icon: "🏨"
     },
     {
         name: "라이프 텐진 후쿠오카",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "젊고 캐주얼한 분위기의 텐진권 호텔입니다.",
-        tags: ["텐진", "캐주얼"]
+        tags: ["텐진", "캐주얼"],
+        icon: "🏨"
     },
     {
         name: "힐튼 후쿠오카 씨호크",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "모모치 해변·페이페이돔 동선에 좋은 대형 호텔입니다.",
-        tags: ["모모치", "오션뷰"]
+        tags: ["모모치", "오션뷰"],
+        icon: "🏨"
     },
     {
         name: "더 레지덴셜 스위트 후쿠오카",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "모모치권 가족·장기 숙박에 적합한 넓은 객실 호텔입니다.",
-        tags: ["모모치", "가족"]
+        tags: ["모모치", "가족"],
+        icon: "🏠"
     },
     {
         name: "호텔 오쿠라 후쿠오카",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카스카와바타와 리버레인 접근성이 좋은 고급 호텔입니다.",
-        tags: ["나카스", "럭셔리"]
+        tags: ["나카스", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "호텔 일 팔라초",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카스·하루요시권의 디자인 감도 높은 호텔입니다.",
-        tags: ["나카스", "디자인"]
+        tags: ["나카스", "디자인"],
+        icon: "🏨"
     },
 ];
 

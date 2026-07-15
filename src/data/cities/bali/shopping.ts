@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: true,
         features: ["쇼핑, 식당가, 꾸따 해변", "평점 5", "발리 여행 동선에 넣기 좋음"],
-        icon: "🏢"
+        icon: "🏬"
     },
     {
         name: "몰 발리 갤러리아",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["패션, 영화관, 식당가", "평점 4.6", "발리 여행 동선에 넣기 좋음"],
-        icon: "🏢"
+        icon: "🏬"
     },
     {
         name: "리빙월드 덴파사르",

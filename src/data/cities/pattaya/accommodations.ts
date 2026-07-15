@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "그란데 센터 포인트 스페이스 파타야",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "센타라 그랜드 미라지 비치 리조트",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏖️"
     },
     {
         name: "홀리데이 인 파타야",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "두짓타니 파타야",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "로열 클리프 비치 호텔",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏖️"
     },
     {
         name: "케이프 다라 리조트",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏖️"
     },
     {
         name: "인터컨티넨탈 파타야 리조트",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏖️"
     },
     {
         name: "아마리 파타야",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "시암 베이쇼어 리조트",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏖️"
     },
     {
         name: "아버 호텔 앤 레지던스",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "아바니 파타야 리조트",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "뫼벤픽 시암 호텔 나 좀티엔",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "풀만 파타야 호텔 G",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
     {
         name: "더 자인 호텔 파타야",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "파타야 주요 숙소",
-        tags: ["파타야"]
+        tags: ["파타야"],
+        icon: "🏨"
     },
 ];
 

@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "디스커버리 쇼어스 보라카이",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "더 린드 보라카이",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "크림슨 리조트 앤 스파 보라카이",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "뫼벤픽 리조트 앤 스파 보라카이",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "헤난 크리스탈 샌즈 리조트",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "헤난 팜 비치 리조트",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "헤난 리젠시 리조트 앤 스파",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "헤난 프라임 비치 리조트",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "코스트 보라카이",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "아스토리아 커런트 보라카이",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "아쿠아 보라카이",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "앰배서더 인 파라다이스",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "투 시즌스 보라카이",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
     {
         name: "만다린 베이 리조트 앤 스파",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보라카이 주요 숙소",
-        tags: ["보라카이"]
+        tags: ["보라카이"],
+        icon: "🏖️"
     },
 ];
 

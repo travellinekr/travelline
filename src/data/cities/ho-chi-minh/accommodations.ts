@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "더 레버리 사이공",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "카라벨 사이공",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "호텔 마제스틱 사이공",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "인터컨티넨탈 사이공",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "뉴월드 사이공 호텔",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "롯데 호텔 사이공",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "르네상스 리버사이드 호텔 사이공",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "리버티 센트럴 사이공 시티포인트",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "실버랜드 벤탄 호텔",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "퓨전 스위트 사이공",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "오락 샤르네 호텔",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "호텔 닛코 사이공",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "미아 사이공 럭셔리 부티크 호텔",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
     {
         name: "마이 하우스 사이공 호텔",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호치민 주요 숙소",
-        tags: ["호치민"]
+        tags: ["호치민"],
+        icon: "🏨"
     },
 ];
 

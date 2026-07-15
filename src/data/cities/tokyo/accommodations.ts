@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "도쿄역 직결급 접근성, 마루노우치 비즈니스·관광 거점",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "JR 큐슈 호텔 블라섬 신주쿠",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "신주쿠역 남쪽, 한국 여행자 후기 많은 역세권 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "호텔 그레이스리 신주쿠",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "가부키초 중심, 고질라 헤드로 유명한 신주쿠 대표 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "미츠이 가든 호텔 긴자 프리미어",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "긴자·신바시 사이, 야경과 쇼핑 접근성이 좋은 고층 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "리치몬드 호텔 프리미어 아사쿠사",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "센소지·스카이트리 관광 동선에 좋은 아사쿠사 인기 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "NOHGA HOTEL UENO TOKYO",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "우에노역 도보권, 감각적인 로컬 라이프스타일 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "더 게이트 호텔 도쿄 바이 휴릭",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "긴자·히비야 접근성, 도쿄 도심 야경과 루프탑 라운지",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "다이와 로이넷 호텔 니시신주쿠 프리미어",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "니시신주쿠 조용한 위치, 장기 숙박과 가족 여행에 무난한 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "호텔 메트로폴리탄 도쿄 이케부쿠로",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "이케부쿠로역 인접, 북서부 도쿄 이동과 쇼핑에 편리",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "sequence MIYASHITA PARK",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "시부야 미야시타파크 직결, 젊은 여행자 후기가 많은 감성 호텔",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
     {
         name: "자누 도쿄",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "11:00",
         city: "Tokyo",
         description: "아자부다이 힐스의 신규 럭셔리 호텔로 도심 미식·전망 동선이 좋은 숙소",
-        tags: ["도쿄", "업데이트"]
+        tags: ["도쿄", "업데이트"],
+        icon: "🏨"
     },
 ];
 

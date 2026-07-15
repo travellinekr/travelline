@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:00",
         reservation: false,
         features: ["히바치 스타일 바비큐·해산물", "평점 4", "괌 여행 동선에 넣기 좋음"],
-        icon: "🔥"
+        icon: "🍖"
     },
     {
         name: "피카스 카페",

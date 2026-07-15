@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:30; 화요일: 오전 11:00 ~ 오후 9:30",
         taxRefund: true,
         features: ["명품, 전망대 동선, 식당가", "평점 4.4", "타이베이 여행 동선에 넣기 좋음"],
-        icon: "🏙️"
+        icon: "🛍️"
     },
     {
         name: "신콩 미츠코시 신이점",
@@ -240,7 +240,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:30; 화요일: 오전 11:00 ~ 오후 9:30",
         taxRefund: true,
         features: ["다양한 잡화 및 피규어", "귀여운 우산과 기념품"],
-        icon: "🚇"
+        icon: "🧸"
     },
     {
         name: "큐 스퀘어",
@@ -300,7 +300,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:30; 화요일: 오전 11:00 ~ 오후 9:30",
         taxRefund: true,
         features: ["송산역 연결로 편리한 접근성", "다양한 맛집이 모인 푸드코트"],
-        icon: "🚉"
+        icon: "🛍️"
     },
 ];
 

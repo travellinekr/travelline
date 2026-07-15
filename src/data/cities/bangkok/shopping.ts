@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["명품 브랜드 스토어", "실내 수상시장 쑥시암", "다양한 테마 다이닝"],
-        icon: "✨"
+        icon: "🛍️"
     },
     {
         name: "시암 파라곤",
@@ -45,7 +45,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["패션, 식당가, 라이프스타일", "평점 4.5", "방콕 여행 동선에 넣기 좋음"],
-        icon: "🌐"
+        icon: "🛍️"
     },
     {
         name: "MBK 센터",
@@ -75,7 +75,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["패션, 푸드코트, 역 연결", "평점 4.6", "방콕 여행 동선에 넣기 좋음"],
-        icon: "✈️"
+        icon: "🛍️"
     },
     {
         name: "짜뚜짝 주말시장",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
         taxRefund: false,
         features: ["야시장, 강변 식사, 기념품", "평점 4.4", "방콕 여행 동선에 넣기 좋음"],
-        icon: "🎡"
+        icon: "🌃"
     },
 ];
 

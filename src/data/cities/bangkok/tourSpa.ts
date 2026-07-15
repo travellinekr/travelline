@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["짜오프라야 강변 전망과 야경으로 유명한 방콕 랜드마크입니다.", "평점 4.8", "방콕 여행 동선에 넣기 좋음"],
         rating: 4.8,
-        icon: "🛕"
+        icon: "🙏"
     },
     {
         name: "마하나콘 스카이워크",

@@ -14,7 +14,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["브랜드 매장", "정원형 공간"],
-        icon: "🌳"
+        icon: "🛍️"
     },
     {
         name: "파크몰",
@@ -29,7 +29,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["반려동물 친화", "캐주얼 식당가"],
-        icon: "🐾"
+        icon: "🛍️"
     },
     {
         name: "가이사노 그랜드 몰 막탄",
@@ -59,7 +59,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["대규모 쇼핑·식사 동선", "영화관"],
-        icon: "🌊"
+        icon: "🛍️"
     },
     {
         name: "SM 시티 세부",
@@ -89,7 +89,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["IT파크 숙소 접근성 우수", "다양한 식당가와 카페"],
-        icon: "🏢"
+        icon: "🛍️"
     },
     {
         name: "아일랜드 센트럴 막탄",
@@ -104,7 +104,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["막탄공항 인근 위치", "출도착 전후 이용 편리"],
-        icon: "✈️"
+        icon: "🛍️"
     },
     {
         name: "카본 마켓",
@@ -134,7 +134,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: false,
         features: ["프리미엄 쇼핑 동선", "고급 다이닝"],
-        icon: "✨"
+        icon: "🛍️"
     },
     {
         name: "로빈슨 갤러리아 세부",

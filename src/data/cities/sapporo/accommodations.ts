@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역 직결과 고층 전망, 온천 시설이 강점인 호텔입니다.",
-        tags: ["역 직결", "전망"]
+        tags: ["역 직결", "전망"],
+        icon: "🏨"
     },
     {
         name: "삿포로 그랜드 호텔",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "오도리와 삿포로역 사이의 클래식한 대표 호텔입니다.",
-        tags: ["오도리", "클래식"]
+        tags: ["오도리", "클래식"],
+        icon: "🏨"
     },
     {
         name: "게이오 플라자 호텔 삿포로",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역 도보권의 안정적인 대형 호텔입니다.",
-        tags: ["삿포로역", "대형 호텔"]
+        tags: ["삿포로역", "대형 호텔"],
+        icon: "🏨"
     },
     {
         name: "크로스 호텔 삿포로",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역·오도리 사이 위치와 대욕장이 장점인 호텔입니다.",
-        tags: ["도심", "대욕장"]
+        tags: ["도심", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 몬토레 에델호프 삿포로",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "유럽풍 인테리어와 스파 시설이 있는 도심 호텔입니다.",
-        tags: ["도심", "스파"]
+        tags: ["도심", "스파"],
+        icon: "🏨"
     },
     {
         name: "미쓰이 가든 호텔 삿포로 웨스트",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역 도보권과 깔끔한 객실 컨디션이 장점입니다.",
-        tags: ["삿포로역", "대욕장"]
+        tags: ["삿포로역", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 포르자 삿포로 스테이션",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역과 오도리 사이 접근성이 좋은 실속형 호텔입니다.",
-        tags: ["삿포로역", "가성비"]
+        tags: ["삿포로역", "가성비"],
+        icon: "🏨"
     },
     {
         name: "솔라리아 니시테츠 호텔 삿포로",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역과 도청 근처 동선이 좋은 신상급 호텔입니다.",
-        tags: ["삿포로역", "대욕장"]
+        tags: ["삿포로역", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 그레이서리 삿포로",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "삿포로역 바로 앞 입지로 이동이 편한 호텔입니다.",
-        tags: ["역 앞", "교통"]
+        tags: ["역 앞", "교통"],
+        icon: "🏨"
     },
     {
         name: "도큐스테이 삿포로 오도리",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "객실 내 세탁기와 오도리·스스키노 접근성이 장점입니다.",
-        tags: ["오도리", "장기 숙박"]
+        tags: ["오도리", "장기 숙박"],
+        icon: "🏨"
     },
     {
         name: "카라쿠사 호텔 삿포로",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "다누키코지와 스스키노 동선이 편한 가족·쇼핑형 호텔입니다.",
-        tags: ["다누키코지", "가족"]
+        tags: ["다누키코지", "가족"],
+        icon: "🏨"
     },
     {
         name: "더 로열 파크 캔버스 삿포로 오도리 파크",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "오도리공원 앞 디자인 감도와 루프톱이 강점인 호텔입니다.",
-        tags: ["오도리", "디자인"]
+        tags: ["오도리", "디자인"],
+        icon: "🏨"
     },
     {
         name: "머큐어 호텔 삿포로",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스스키노·다누키코지 접근성이 좋은 위치형 호텔입니다.",
-        tags: ["스스키노", "위치"]
+        tags: ["스스키노", "위치"],
+        icon: "🏨"
     },
     {
         name: "퀸테사 호텔 삿포로 스스키노",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스스키노 중심부 접근이 편한 합리적 호텔입니다.",
-        tags: ["스스키노", "가성비"]
+        tags: ["스스키노", "가성비"],
+        icon: "🏨"
     },
     {
         name: "베셀 호텔 캄파나 스스키노",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "대욕장과 스스키노 접근성이 좋은 호텔입니다.",
-        tags: ["스스키노", "대욕장"]
+        tags: ["스스키노", "대욕장"],
+        icon: "🏨"
     },
     {
         name: "호텔 마이스테이스 프리미어 삿포로 파크",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나카지마공원 인근 온천 대욕장이 있는 대형 호텔입니다.",
-        tags: ["나카지마공원", "온천"]
+        tags: ["나카지마공원", "온천"],
+        icon: "🏨"
     },
     {
         name: "프리미어 호텔 나카지마공원 삿포로",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "공원 전망과 조용한 숙박을 원하는 여행자에게 좋은 호텔입니다.",
-        tags: ["공원 전망", "조용함"]
+        tags: ["공원 전망", "조용함"],
+        icon: "🏨"
     },
     {
         name: "삿포로 프린스 호텔",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "원형 타워 구조와 온천 시설이 있는 대형 호텔입니다.",
-        tags: ["타워 호텔", "온천"]
+        tags: ["타워 호텔", "온천"],
+        icon: "🏨"
     },
     {
         name: "OMO3 삿포로 스스키노 by 호시노 리조트",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스스키노 먹거리 동선에 특화된 캐주얼 호텔입니다.",
-        tags: ["스스키노", "캐주얼"]
+        tags: ["스스키노", "캐주얼"],
+        icon: "🏨"
     },
     {
         name: "온센 료칸 유엔 삿포로",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심에서 료칸 감성과 온천 분위기를 즐기기 좋은 숙소입니다.",
-        tags: ["온천", "료칸 감성"]
+        tags: ["온천", "료칸 감성"],
+        icon: "♨️"
     },
 ];
 

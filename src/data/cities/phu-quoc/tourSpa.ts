@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 6:00; 화요일: 오전 6:00 ~ 오후 6:00",
         features: ["바다 전망이 좋은 남동부 사원", "평점 4.7", "푸꾸옥 여행 동선에 넣기 좋음"],
         rating: 4.7,
-        icon: "🛕"
+        icon: "🙏"
     },
     {
         name: "사오 비치",
@@ -136,7 +136,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         features: ["북부 해변과 불가사리 포인트", "평점 3.7", "푸꾸옥 여행 동선에 넣기 좋음"],
         rating: 3.7,
-        icon: "⭐"
+        icon: "🏖️"
     },
     {
         name: "푸꾸옥 국립공원",

@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 7:00; 화요일: 오전 6:00 ~ 오후 7:00",
         taxRefund: false,
         features: ["재래시장", "평점 3.9", "다낭 여행 동선에 맞추기 좋음"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "꼰시장",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오후 5:00~11:00; 화요일: 오후 5:00~11:00",
         taxRefund: false,
         features: ["야시장", "평점 4.1", "다낭 여행 동선에 맞추기 좋음"],
-        icon: "🌙"
+        icon: "🌃"
     },
     {
         name: "선짜 야시장",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["리버사이드 몰", "평점 3.9", "다낭 여행 동선에 맞추기 좋음"],
-        icon: "🏢"
+        icon: "🏬"
     },
 ];
 

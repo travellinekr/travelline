@@ -330,7 +330,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오전 6:00; 화요일: 오전 11:00 ~ 오전 6:00",
         reservation: false,
         features: ["대형 그릇 우동", "평점 4", "오사카 여행 동선에 넣기 좋음"],
-        icon: "🍲"
+        icon: "🍜"
     },
     {
         name: "도톤보리 이마이 본점",
@@ -345,7 +345,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 9:00; 화요일: 오전 11:30 ~ 오후 9:00",
         reservation: false,
         features: ["키츠네 우동", "평점 4.3", "오사카 여행 동선에 넣기 좋음"],
-        icon: "🍲"
+        icon: "🍜"
     },
     {
         name: "텐푸라 다이키치 난바",
@@ -375,7 +375,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 휴무일; 화요일: 오전 11:00 ~ 오후 3:00, 오후 5:30~8:00",
         reservation: false,
         features: ["사누키 우동", "평점 4.2", "오사카 여행 동선에 넣기 좋음"],
-        icon: "🍲"
+        icon: "🍜"
     },
     {
         name: "교자오 도톤보리",

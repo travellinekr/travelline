@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: false,
         features: ["쇼핑·기념품", "평점 4", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "사이공 센터 다카시마야",
@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:30 ~ 오후 9:30; 화요일: 오전 9:30 ~ 오후 9:30",
         taxRefund: false,
         features: ["쇼핑·기념품", "평점 4.5", "호치민 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🏬"
     },
     {
         name: "빈컴센터 동커이",
@@ -75,7 +75,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 6:00; 화요일: 오전 6:00 ~ 오후 6:00",
         taxRefund: false,
         features: ["가성비 좋은 의류 쇼핑", "다양한 생활 잡화"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "빈떠이 시장",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
         taxRefund: false,
         features: ["전통적인 시장 분위기", "다양한 식료품 및 생필품"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "응우옌짜이 쇼핑거리",

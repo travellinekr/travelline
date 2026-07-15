@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["패션, 마트, 식당가", "평점 4.9", "나트랑 여행 동선에 넣기 좋음"],
-        icon: "🏢"
+        icon: "🏬"
     },
     {
         name: "GO! 나트랑",
@@ -210,7 +210,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["패션, 마트, 영화관", "평점 5", "나트랑 여행 동선에 넣기 좋음"],
-        icon: "🏢"
+        icon: "🏬"
     },
     {
         name: "메가마켓 나트랑",

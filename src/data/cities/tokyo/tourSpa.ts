@@ -15,7 +15,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "06:00-17:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🙏"
     },
     {
         name: "메이지 신궁",
@@ -30,7 +30,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "일출-일몰",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "⛩️"
     },
     {
         name: "도쿄 타워",
@@ -45,7 +45,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:00-23:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🗼"
     },
     {
         name: "도쿄 스카이트리",
@@ -60,7 +60,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "10:00-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌆"
     },
     {
         name: "시부야 스카이",
@@ -75,7 +75,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "10:00-22:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌆"
     },
     {
         name: "황거 동쪽 정원",
@@ -90,7 +90,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:00-16:30",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌳"
     },
     {
         name: "우에노 공원",
@@ -105,7 +105,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "상시 개방",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌳"
     },
     {
         name: "도쿄 국립박물관",
@@ -120,7 +120,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:30-17:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "하마리큐 은사정원",
@@ -135,7 +135,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:00-17:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌳"
     },
     {
         name: "teamLab Borderless Azabudai Hills",
@@ -150,7 +150,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:00-21:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🎨"
     },
     {
         name: "도쿄도청 전망대",
@@ -165,7 +165,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "09:30-22:00",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌆"
     },
     {
         name: "오다이바 해변공원",
@@ -180,7 +180,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "상시 개방",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "🌉"
     },
     {
         name: "도쿄 도요스 만요클럽",
@@ -195,7 +195,7 @@ const tourSpa: TourSpaData[] = [
         reservationRequired: false,
         openingHours: "방문 전 공식 확인",
         features: ["도쿄", "최근 업데이트"],
-        icon: "🎟️"
+        icon: "♨️"
     },
 ];
 

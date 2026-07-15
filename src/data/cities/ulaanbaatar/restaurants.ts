@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
         reservation: false,
         features: ["철판 그릴·고기 요리", "평점 4.3", "울란바토르 여행 동선에 넣기 좋음"],
-        icon: "🔥"
+        icon: "🍖"
     },
     {
         name: "베란다",

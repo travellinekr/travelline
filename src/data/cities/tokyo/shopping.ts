@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "24시간",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "아키하바라 전자상가",
@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "11:00~20:00 전후",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🔌"
     },
     {
         name: "시부야 109",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~20:00",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🏬"
     },
     {
         name: "긴자 미츠코시",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~20:00",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🏬"
     },
     {
         name: "긴자 로프트",
@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~18:00 전후",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🎁"
     },
     {
         name: "아메요코 시장",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~20:00",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "도쿄역 캐릭터 스트리트",
@@ -165,7 +165,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~20:30",
         taxRefund: false,
         features: ["도쿄", "쇼핑"],
-        icon: "🛍️"
+        icon: "🧸"
     },
     {
         name: "도쿄 솔라마치",

@@ -45,7 +45,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
         taxRefund: true,
         features: ["패션, 식당가, 옥상정원", "평점 4", "오사카 여행 동선에 넣기 좋음"],
-        icon: "🌿"
+        icon: "🛍️"
     },
     {
         name: "난바 시티",
@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["다양한 패션 브랜드와 잡화", "편리한 식당가"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "다카시마야 오사카점",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         taxRefund: true,
         features: ["감각적인 패션 및 라이프스타일 숍", "세련된 식당가"],
-        icon: "🏙️"
+        icon: "🛍️"
     },
     {
         name: "루쿠아 오사카",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:30 ~ 오후 8:30; 화요일: 오전 10:30 ~ 오후 8:30",
         taxRefund: true,
         features: ["최신 유행 브랜드", "감각적인 뷰티 아이템", "입맛 저격 맛집"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "한큐 우메다 본점",
@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["알찬 구성의 식품관", "달콤한 디저트 맛집", "여행 기념품 추천"],
-        icon: "🍰"
+        icon: "🏬"
     },
     {
         name: "요도바시카메라 우메다",
@@ -165,7 +165,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         taxRefund: false,
         features: ["다양한 일본 간식 및 과자류", "인기 화장품 및 잡화"],
-        icon: "🛒"
+        icon: "🧸"
     },
     {
         name: "구로몬시장",
@@ -195,7 +195,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         taxRefund: false,
         features: ["현지 분위기 가득한 맛집 투어", "다양한 잡화 및 드럭스토어"],
-        icon: "🏮"
+        icon: "🛒"
     },
     {
         name: "아메리카무라",
@@ -240,7 +240,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["명품 브랜드 입점", "탁 트인 전망대", "퀄리티 높은 식품관"],
-        icon: "🏙️"
+        icon: "🏬"
     },
     {
         name: "덴노지 미오",
@@ -255,7 +255,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:30 ~ 오후 8:30; 화요일: 오전 10:30 ~ 오후 8:30",
         taxRefund: true,
         features: ["트렌디한 패션 잡화", "다양한 식당가", "편리한 접근성"],
-        icon: "🚉"
+        icon: "🛍️"
     },
     {
         name: "린쿠 프리미엄 아울렛",

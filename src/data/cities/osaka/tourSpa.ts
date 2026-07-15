@@ -102,7 +102,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["역사적인 사찰", "조용한 산책 코스"],
         rating: 4.5,
-        icon: "🛕"
+        icon: "🙏"
     },
     {
         name: "아베노 하루카스 300",
@@ -119,7 +119,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
         features: ["탁 트인 파노라마 뷰", "일몰과 야경 명소"],
         rating: 4.6,
-        icon: "🏙️"
+        icon: "🌆"
     },
     {
         name: "스파월드",
@@ -153,7 +153,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오후 7:45~9:30; 화요일: 오후 7:45~9:30",
         features: ["몽환적인 야간 미디어아트", "인생샷 명소"],
         rating: 3.9,
-        icon: "✨"
+        icon: "🎨"
     },
     {
         name: "나카노시마 리버 크루즈",
@@ -170,7 +170,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오후 5:00~9:00; 화요일: 오후 5:00~9:00",
         features: ["도심 수변과 야경을 짧게 둘러보는 오사카 리버 크루즈입니다.", "평점 4", "오사카 여행 동선에 넣기 좋음"],
         rating: 4,
-        icon: "🚢"
+        icon: "🛳️"
     },
 ];
 

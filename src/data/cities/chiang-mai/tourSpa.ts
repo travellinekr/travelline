@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 5:00 ~ 오후 10:30; 화요일: 오전 5:00 ~ 오후 10:30",
         features: ["올드타운 중심의 대표 고대 사원입니다.", "평점 4.7", "치앙마이 여행 동선에 넣기 좋음"],
         rating: 4.7,
-        icon: "🏯"
+        icon: "🙏"
     },
     {
         name: "왓 프라싱",

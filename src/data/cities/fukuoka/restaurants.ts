@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 3:00; 화요일: 오전 11:00 ~ 오후 3:00",
         reservation: false,
         features: ["고보텐 우동", "평점 4.4", "후쿠오카 여행 동선에 넣기 좋음"],
-        icon: "🍲"
+        icon: "🍜"
     },
     {
         name: "다이치노 우동 하카타역",
@@ -315,7 +315,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 3:30, 오후 5:00~9:00; 화요일: 오전 10:00 ~ 오후 3:30, 오후 5:00~9:00",
         reservation: false,
         features: ["고보텐 우동", "평점 4.2", "후쿠오카 여행 동선에 넣기 좋음"],
-        icon: "🍲"
+        icon: "🍜"
     },
     {
         name: "하카타 다루마",

@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "투몬 중심 해변과 쇼핑 접근성이 좋은 고급 리조트입니다.",
-        tags: ["투몬", "럭셔리"]
+        tags: ["투몬", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "더 츠바키 타워 괌",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "넓은 객실과 바다 전망, 고급 부대시설이 강점인 신축급 리조트입니다.",
-        tags: ["투몬", "오션뷰"]
+        tags: ["투몬", "오션뷰"],
+        icon: "🏖️"
     },
     {
         name: "하얏트 리젠시 괌",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "투몬 비치 바로 앞 위치와 수영장 동선이 좋은 가족형 리조트입니다.",
-        tags: ["투몬", "가족"]
+        tags: ["투몬", "가족"],
+        icon: "🏖️"
     },
     {
         name: "힐튼 괌 리조트 앤 스파",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "이파오 비치 인근에서 조용한 휴양과 스노클링 동선이 좋은 리조트입니다.",
-        tags: ["이파오", "스파"]
+        tags: ["이파오", "스파"],
+        icon: "🏖️"
     },
     {
         name: "괌 리프 호텔",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "투몬 중심가와 해변 접근성이 좋아 쇼핑·식당 이동이 편합니다.",
-        tags: ["투몬", "가성비"]
+        tags: ["투몬", "가성비"],
+        icon: "🏖️"
     },
     {
         name: "롯데 호텔 괌",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "투몬 북쪽의 바다 전망과 한국인 여행자 편의성이 좋은 리조트입니다.",
-        tags: ["투몬", "오션뷰"]
+        tags: ["투몬", "오션뷰"],
+        icon: "🏖️"
     },
     {
         name: "호텔 닛코 괌",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "건비치 방향의 조용한 해변과 워터슬라이드가 있는 가족형 리조트입니다.",
-        tags: ["건비치", "가족"]
+        tags: ["건비치", "가족"],
+        icon: "🏖️"
     },
     {
         name: "퍼시픽 아일랜드 클럽 괌",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "워터파크와 액티비티가 강점인 아이 동반 가족 여행 리조트입니다.",
-        tags: ["가족", "액티비티"]
+        tags: ["가족", "액티비티"],
+        icon: "🏖️"
     },
     {
         name: "크라운 플라자 리조트 괌",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "투몬 해변과 중심 상권 사이에서 균형 잡힌 위치의 리조트입니다.",
-        tags: ["투몬", "해변"]
+        tags: ["투몬", "해변"],
+        icon: "🏖️"
     },
     {
         name: "리가 로얄 라구나 괌 리조트",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "라군 전망과 조용한 분위기를 원하는 여행자에게 맞는 리조트입니다.",
-        tags: ["라군", "휴양"]
+        tags: ["라군", "휴양"],
+        icon: "🏖️"
     },
 ];
 

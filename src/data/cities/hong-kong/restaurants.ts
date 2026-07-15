@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 12:00~2:30, 오후 6:00~9:00; 화요일: 오후 12:00~2:30, 오후 6:00~9:00",
         reservation: false,
         features: ["최고급 식재료로 완성한 정통 광둥 요리", "전망 좋은 곳에서 즐기는 럭셔리 다이닝"],
-        icon: "⭐"
+        icon: "🥢"
     },
     {
         name: "야드버드 홍콩",
@@ -435,7 +435,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 6:00 ~ 오전 12:00; 화요일: 오후 6:00 ~ 오전 12:00",
         reservation: false,
         features: ["감각적인 플레이팅", "창의적인 중식 메뉴"],
-        icon: "⭐"
+        icon: "🥢"
     },
     {
         name: "만와 만다린 오리엔탈",

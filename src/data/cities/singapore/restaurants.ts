@@ -15,7 +15,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["부드러운 닭고기와 고소한 밥의 완벽한 조화", "진한 풍미를 자랑하는 특제 간장 소스"],
-        icon: "🍽️"
+        icon: "🍗"
     },
     {
         name: "호커찬",
@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:30 ~ 오후 3:30; 화요일: 오전 10:30 ~ 오후 3:30",
         reservation: false,
         features: ["달콤 짭조름한 소스가 배어든 소이 치킨", "부담 없는 가격으로 즐기는 현지식 식사"],
-        icon: "🍽️"
+        icon: "🍗"
     },
     {
         name: "점보 씨푸드 리버사이드",
@@ -45,7 +45,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 11:00; 화요일: 오전 11:30 ~ 오후 11:00",
         reservation: false,
         features: ["중독성 강한 매콤달콤한 시그니처 칠리 소스", "신선하고 푸짐한 해산물 요리"],
-        icon: "🍽️"
+        icon: "🦀"
     },
     {
         name: "노사인보드 씨푸드",
@@ -60,7 +60,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오전 12:30; 화요일: 오전 11:00 ~ 오전 12:30",
         reservation: false,
         features: ["대표 메뉴", "평점 4.2", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "송파 바쿠테 뉴브리지로드",
@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:30 ~ 오후 9:30; 화요일: 오전 9:30 ~ 오후 9:30",
         reservation: false,
         features: ["대표 메뉴", "평점 4.4", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🍲"
     },
     {
         name: "328 카통 락사",
@@ -90,7 +90,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:30 ~ 오후 10:00; 화요일: 오전 9:30 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.2", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "라우파삿 사테 스트리트",
@@ -105,7 +105,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 7:00 ~ 오전 3:00; 화요일: 오후 7:00 ~ 오전 3:00",
         reservation: false,
         features: ["불맛 가득한 꼬치 요리 사테", "도심 속 이색적인 노천 분위기"],
-        icon: "🍽️"
+        icon: "🍢"
     },
     {
         name: "뉴턴 푸드센터",
@@ -120,7 +120,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["칠리 크랩과 다양한 해산물 요리", "다양한 종류의 로컬 스트릿 푸드"],
-        icon: "🍽️"
+        icon: "🦀"
     },
     {
         name: "채터박스 싱가포르",
@@ -135,7 +135,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 3:30, 오후 5:30~9:30; 화요일: 오전 11:30 ~ 오후 3:30, 오후 5:30~9:30",
         reservation: false,
         features: ["입안에서 녹는 부드러운 치킨 라이스", "센토사 여행 중 즐기는 고급스러운 한 끼"],
-        icon: "🍽️"
+        icon: "🍗"
     },
     {
         name: "바이올렛 운 내셔널 키친",
@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 휴무일; 화요일: 오후 6:00~11:00",
         reservation: false,
         features: ["불맛 가득한 수준 높은 그릴 요리", "싱가포르에서 가장 핫한 다이닝 경험"],
-        icon: "🍽️"
+        icon: "🥩"
     },
     {
         name: "딘타이펑 파라곤",
@@ -195,7 +195,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         reservation: false,
         features: ["샤오롱바오", "깔끔하고 고급스러운 분위기"],
-        icon: "🍽️"
+        icon: "🥟"
     },
     {
         name: "야쿤 카야토스트",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:30 ~ 오후 7:00; 화요일: 오전 7:30 ~ 오후 7:00",
         reservation: false,
         features: ["바삭한 토스트와 달콤한 카야 잼", "부드러운 반숙 계란"],
-        icon: "🍽️"
+        icon: "🥪"
     },
     {
         name: "킬리니 코피티암",
@@ -225,7 +225,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 8:00; 화요일: 오전 7:00 ~ 오후 8:00",
         reservation: false,
         features: ["깊은 풍미의 전통 커피", "가성비 좋은 메뉴 구성"],
-        icon: "🍽️"
+        icon: "☕"
     },
     {
         name: "잠잠 레스토랑",
@@ -240,7 +240,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 11:00; 화요일: 오전 7:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.2", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🍛"
     },
     {
         name: "테카 센터",
@@ -255,7 +255,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["대표 메뉴", "평점 4.2", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🥡"
     },
     {
         name: "맥스웰 푸드센터",
@@ -270,7 +270,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.4", "싱가포르 여행 동선에 넣기 좋음"],
-        icon: "🍽️"
+        icon: "🥡"
     },
     {
         name: "이스트코스트 라군 푸드빌리지",
@@ -285,7 +285,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 4:00 ~ 오전 10:30; 화요일: 오후 4:00~10:45",
         reservation: false,
         features: ["싱싱한 씨푸드와 다양한 로컬 메뉴", "야외 노천 식당의 낭만적인 분위기"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "PS 카페 하딩로드",
@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
         reservation: false,
         features: ["숲속에 온 듯한 아름다운 인테리어", "인생샷을 남기기 좋은 분위기 맛집"],
-        icon: "🍽️"
+        icon: "☕"
     },
 ];
 

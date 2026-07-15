@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "온나손 해변에 자리한 럭셔리 리조트입니다.",
-        tags: ["럭셔리", "비치"]
+        tags: ["럭셔리", "비치"],
+        icon: "🏖️"
     },
     {
         name: "리츠칼튼 오키나와",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "나고 숲과 골프장 전망이 어우러진 고급 리조트입니다.",
-        tags: ["럭셔리", "나고"]
+        tags: ["럭셔리", "나고"],
+        icon: "🏖️"
     },
     {
         name: "하얏트 리젠시 나하 오키나와",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "국제거리와 도심 동선이 편한 나하 고급 호텔입니다.",
-        tags: ["나하", "도심"]
+        tags: ["나하", "도심"],
+        icon: "🏨"
     },
     {
         name: "호텔 컬렉티브 나하",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "국제거리 중심부 위치와 넓은 객실이 장점인 호텔입니다.",
-        tags: ["국제거리", "도심"]
+        tags: ["국제거리", "도심"],
+        icon: "🏨"
     },
     {
         name: "머큐어 호텔 오키나와 나하",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "유이레일 역 접근성이 좋은 실속형 나하 호텔입니다.",
-        tags: ["나하", "교통"]
+        tags: ["나하", "교통"],
+        icon: "🏨"
     },
     {
         name: "호텔 몬토레 오키나와 스파 앤 리조트",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "타이거비치 앞 가족 여행에 좋은 대형 리조트입니다.",
-        tags: ["온나손", "비치"]
+        tags: ["온나손", "비치"],
+        icon: "🏖️"
     },
     {
         name: "르네상스 오키나와 리조트",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "해양 액티비티와 가족 시설이 강점인 온나손 리조트입니다.",
-        tags: ["가족", "액티비티"]
+        tags: ["가족", "액티비티"],
+        icon: "🏖️"
     },
     {
         name: "카후 리조트 후차쿠 콘도 호텔",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "넓은 객실과 콘도형 편의성이 좋은 리조트입니다.",
-        tags: ["콘도형", "가족"]
+        tags: ["콘도형", "가족"],
+        icon: "🏖️"
     },
     {
         name: "ANA 인터컨티넨탈 만자 비치 리조트",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "만자 해변과 해양 액티비티 동선이 좋은 리조트입니다.",
-        tags: ["비치", "액티비티"]
+        tags: ["비치", "액티비티"],
+        icon: "🏖️"
     },
     {
         name: "호텔 닛코 알리빌라",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "요미탄 해변의 남유럽풍 분위기가 강점인 리조트입니다.",
-        tags: ["요미탄", "비치"]
+        tags: ["요미탄", "비치"],
+        icon: "🏖️"
     },
 ];
 

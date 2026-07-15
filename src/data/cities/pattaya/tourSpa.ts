@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["정교한 목조 조각 예술", "바다와 어우러진 건축미"],
         rating: 4.7,
-        icon: "tour"
+        icon: "🏛️"
     },
     {
         name: "농눅 빌리지",
@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
         features: ["아름다운 식물원 산책로", "화려한 정원 풍경"],
         rating: 4.6,
-        icon: "tour"
+        icon: "🌳"
     },
     {
         name: "꼬란 섬",
@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:30 ~ 오후 6:00; 화요일: 오전 8:30 ~ 오후 6:00",
         features: ["투명한 바닷물과 화이트 샌드", "스노클링 및 해양 액티비티"],
         rating: 5,
-        icon: "tour"
+        icon: "🏝️"
     },
     {
         name: "파타야 비치",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["파타야 대표 명소/액티비티", "평점 4.4", "파타야 여행 동선에 넣기 좋음"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🏖️"
     },
     {
         name: "좀티엔 비치",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["파타야 대표 명소/액티비티", "평점 4.4", "파타야 여행 동선에 넣기 좋음"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🏖️"
     },
     {
         name: "파타야 수상시장",
@@ -102,7 +102,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
         features: ["파타야 대표 명소/액티비티", "평점 4", "파타야 여행 동선에 넣기 좋음"],
         rating: 4,
-        icon: "tour"
+        icon: "🛶"
     },
     {
         name: "컬럼비아 픽처스 아쿠아버스",
@@ -119,7 +119,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
         features: ["영화 캐릭터 테마의 스릴 넘치는 슬라이드", "가족, 친구와 함께 즐기기 좋은 다양한 풀장"],
         rating: 4.3,
-        icon: "tour"
+        icon: "🎢"
     },
     {
         name: "라마야나 워터파크",
@@ -136,7 +136,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 6:00; 화요일: 오전 11:00 ~ 오후 6:00",
         features: ["대형 파도풀과 스릴 만점의 다양한 슬라이드", "쾌적하고 넓은 시설로 여유로운 물놀이 가능"],
         rating: 4.6,
-        icon: "tour"
+        icon: "🎢"
     },
     {
         name: "타이거 파크 파타야",
@@ -153,7 +153,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
         features: ["호랑이와 함께하는 짜릿한 사진 촬영", "가이드와 함께하는 안전한 호랑이 교감"],
         rating: 4.3,
-        icon: "tour"
+        icon: "🦁"
     },
     {
         name: "아트 인 파라다이스",
@@ -170,7 +170,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
         features: ["파타야 대표 명소/액티비티", "평점 4.4", "파타야 여행 동선에 넣기 좋음"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🎨"
     },
 ];
 

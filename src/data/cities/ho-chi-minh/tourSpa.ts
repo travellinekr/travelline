@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:30 ~ 오후 5:30; 화요일: 오전 7:30 ~ 오후 5:30",
         features: ["전쟁 당시의 기록과 유물 전시", "베트남 현대사의 아픔을 담은 공간"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "통일궁",
@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
         features: ["프랑스식 건축 양식의 아름다움", "베트남 현대사의 주요 현장"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "사이공 노트르담 대성당",
@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["붉은 벽돌의 고딕 양식 성당", "호치민 여행의 대표 포토존"],
         rating: 4.4,
-        icon: "🎟️"
+        icon: "⛪"
     },
     {
         name: "사이공 중앙우체국",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:30 ~ 오후 6:00; 화요일: 오전 7:30 ~ 오후 6:00",
         features: ["고전적인 프랑스식 건축 양식", "빈티지한 분위기의 내부 인테리어"],
         rating: 4.4,
-        icon: "🎟️"
+        icon: "🏛️"
     },
     {
         name: "벤탄 시장",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["다양한 기념품 쇼핑", "로컬 길거리 음식 체험"],
         rating: 4,
-        icon: "🎟️"
+        icon: "🛒"
     },
     {
         name: "비텍스코 사이공 스카이덱",
@@ -102,7 +102,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:30 ~ 오후 9:30; 화요일: 오전 9:30 ~ 오후 9:30",
         features: ["환상적인 파노라마 시티 뷰", "아름다운 도시 야경"],
         rating: 4.5,
-        icon: "🎟️"
+        icon: "🌆"
     },
     {
         name: "응우옌후에 워킹스트리트",
@@ -119,7 +119,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["화려한 야경", "길거리 먹거리"],
         rating: 4.8,
-        icon: "🎟️"
+        icon: "🚶"
     },
     {
         name: "호치민 오페라하우스",
@@ -136,7 +136,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
         features: ["클래식한 외관", "근처 카페 투어"],
         rating: 4.6,
-        icon: "🎟️"
+        icon: "🎭"
     },
     {
         name: "옥황사",
@@ -153,7 +153,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
         features: ["정교한 불상", "평화로운 분위기"],
         rating: 4.7,
-        icon: "🎟️"
+        icon: "🙏"
     },
     {
         name: "구찌 터널 투어",
@@ -170,7 +170,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:30 ~ 오후 6:00; 화요일: 오전 8:30 ~ 오후 6:00",
         features: ["호치민 대표 명소", "평점 5", "호치민 여행 동선에 넣기 좋음"],
         rating: 5,
-        icon: "🎟️"
+        icon: "🏛️"
     },
 ];
 

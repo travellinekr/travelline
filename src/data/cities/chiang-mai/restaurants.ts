@@ -90,7 +90,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
         reservation: false,
         features: ["북부식 구이·딥", "평점 4.2", "치앙마이 여행 동선에 넣기 좋음"],
-        icon: "🔥"
+        icon: "🍖"
     },
     {
         name: "청도이 로스트 치킨",

@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["도시별 컨셉이 뚜렷한 독특한 인테리어", "다양한 글로벌 패션 및 잡화 브랜드 입점"],
-        icon: "shop"
+        icon: "🛍️"
     },
     {
         name: "센트럴 파타야",
@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["대규모 브랜드와 대형 마트 입점", "다양한 의류 및 라이프스타일 아이템"],
-        icon: "shop"
+        icon: "🏬"
     },
     {
         name: "파타야 수상시장",
@@ -45,7 +45,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
         taxRefund: true,
         features: ["전통 배를 타고 즐기는 이색적인 풍경", "아기자기한 수공예품과 현지 간식"],
-        icon: "shop"
+        icon: "🛒"
     },
     {
         name: "로열 가든 플라자",
@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["다양한 브랜드 매장", "쾌적한 실내 환경"],
-        icon: "shop"
+        icon: "🛍️"
     },
     {
         name: "마이크 쇼핑몰",
@@ -75,7 +75,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         taxRefund: true,
         features: ["아기자기한 소품", "캐주얼한 쇼핑 분위기"],
-        icon: "shop"
+        icon: "🛍️"
     },
     {
         name: "텝쁘라싯 야시장",
@@ -90,7 +90,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오후 5:00~10:30; 화요일: 오후 5:00~10:30",
         taxRefund: true,
         features: ["저렴하고 맛있는 길거리 음식", "현지 분위기 물씬"],
-        icon: "shop"
+        icon: "🌃"
     },
     {
         name: "좀티엔 야시장",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오후 5:00~11:00; 화요일: 오후 5:00~11:00",
         taxRefund: true,
         features: ["쇼핑·기념품", "평점 4.4", "파타야 여행 동선에 넣기 좋음"],
-        icon: "shop"
+        icon: "🌃"
     },
     {
         name: "하버 파타야",
@@ -120,7 +120,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: true,
         features: ["쇼핑·기념품", "평점 4.9", "파타야 여행 동선에 넣기 좋음"],
-        icon: "shop"
+        icon: "🛍️"
     },
     {
         name: "아울렛 몰 파타야",
@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["쇼핑·기념품", "평점 4", "파타야 여행 동선에 넣기 좋음"],
-        icon: "shop"
+        icon: "🏷️"
     },
     {
         name: "빅씨 엑스트라 파타야",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
         taxRefund: true,
         features: ["태국 국민 과자와 다양한 간식거리 가득", "드럭스토어 및 각종 생필품 쇼핑 가능"],
-        icon: "shop"
+        icon: "🛒"
     },
 ];
 

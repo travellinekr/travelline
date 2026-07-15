@@ -15,7 +15,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["다롄식 해산물 요리", "평점 4.5", "다롄 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🦐"
     },
     {
         name: "핀하이러우",
@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["해삼·전복·해산물 코스", "평점 5", "다롄 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🦪"
     },
     {
         name: "톈톈위강",
@@ -45,7 +45,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["생선·조개 해산물 요리", "평점 3.9", "다롄 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🐟"
     },
     {
         name: "시딩 성게만두",
@@ -60,7 +60,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["성게 만두", "평점 4.7", "다롄 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🥟"
     },
     {
         name: "위양 해산물",
@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["신선 해산물 요리", "평점 5", "다롄 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🦐"
     },
     {
         name: "스타벅스 리저브 다롄 중산",
@@ -90,7 +90,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["커피·휴식", "평점 5", "다롄 여행 동선에 넣기 좋음"],
-        icon: "cafe"
+        icon: "☕"
     },
     {
         name: "만커피 다롄",
@@ -105,7 +105,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["바삭한 와플", "다양한 커피 메뉴"],
-        icon: "cafe"
+        icon: "☕"
     },
     {
         name: "렌바흐 레스토랑 앤 바",
@@ -120,7 +120,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["신선한 생맥주", "다양한 그릴 메뉴"],
-        icon: "food"
+        icon: "🍺"
     },
     {
         name: "우노메 일식 다롄",
@@ -135,7 +135,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["신선한 제철 스시", "품격 있는 일식 코스"],
-        icon: "food"
+        icon: "🍣"
     },
     {
         name: "다디 춘빙 다롄",
@@ -150,7 +150,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["겉바속촉 춘빙", "다양한 동북식 밑반찬"],
-        icon: "food"
+        icon: "🥡"
     },
     {
         name: "첸리허 일식 다롄",
@@ -165,7 +165,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["퀄리티 높은 제철 스시", "정갈한 플레이팅"],
-        icon: "food"
+        icon: "🍣"
     },
     {
         name: "다롄 중산 훠궈 레스토랑",
@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["풍성한 훠궈 재료", "중독성 있는 육수"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "샹 팰리스 다롄",
@@ -195,7 +195,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 2:30, 오후 5:30~10:00; 화요일: 오전 11:30 ~ 오후 2:30, 오후 5:30~10:00",
         reservation: false,
         features: ["부드러운 식감의 프리미엄 딤섬", "고급스러운 분위기의 호텔 다이닝"],
-        icon: "food"
+        icon: "🥢"
     },
     {
         name: "카페 코펜하겐 다롄",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["다양한 메뉴의 브런치 플레이트", "분위기 좋은 인테리어와 향긋한 커피"],
-        icon: "cafe"
+        icon: "☕"
     },
     {
         name: "블루프로그 다롄",
@@ -225,7 +225,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["두툼하고 맛있는 수제 버거", "캐주얼하게 즐기는 맥주 한 잔"],
-        icon: "food"
+        icon: "🍔"
     },
 ];
 

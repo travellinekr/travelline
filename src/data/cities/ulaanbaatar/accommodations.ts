@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 쇼핑몰과 연결되어 비즈니스·관광 동선이 모두 편한 고급 호텔입니다.",
-        tags: ["도심", "럭셔리"]
+        tags: ["도심", "럭셔리"],
+        icon: "🏨"
     },
     {
         name: "블루스카이 호텔 앤 타워",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수흐바타르 광장 인근의 랜드마크급 고층 호텔로 전망과 위치가 좋습니다.",
-        tags: ["광장", "전망"]
+        tags: ["광장", "전망"],
+        icon: "🏨"
     },
     {
         name: "켐핀스키 호텔 칸 팰리스",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "조용한 위치와 안정적인 서비스가 강점인 고급 호텔입니다.",
-        tags: ["비즈니스", "고급"]
+        tags: ["비즈니스", "고급"],
+        icon: "🏨"
     },
     {
         name: "베스트웨스턴 프리미어 투신 호텔",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수흐바타르 광장과 박물관 접근성이 좋은 중심부 호텔입니다.",
-        tags: ["중심가", "교통"]
+        tags: ["중심가", "교통"],
+        icon: "🏨"
     },
     {
         name: "홀리데이 인 울란바토르",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "국영백화점과 도심 이동이 편한 안정적인 체인 호텔입니다.",
-        tags: ["도심", "체인"]
+        tags: ["도심", "체인"],
+        icon: "🏨"
     },
     {
         name: "노보텔 울란바토르",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "깔끔한 객실과 도심 접근성을 갖춘 가족·비즈니스 여행용 호텔입니다.",
-        tags: ["도심", "체인"]
+        tags: ["도심", "체인"],
+        icon: "🏨"
     },
     {
         name: "라마다 울란바토르 시티센터",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쇼핑센터와 연결되어 실용적인 도심 체류에 적합한 호텔입니다.",
-        tags: ["쇼핑", "가성비"]
+        tags: ["쇼핑", "가성비"],
+        icon: "🏨"
     },
     {
         name: "호텔 나인 울란바토르",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수흐바타르 광장 근처에서 주요 명소를 걸어서 이동하기 좋은 호텔입니다.",
-        tags: ["광장", "도보"]
+        tags: ["광장", "도보"],
+        icon: "🏨"
     },
     {
         name: "제이 호텔 울란바토르",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "합리적인 가격대와 중심부 접근성이 장점인 실속형 호텔입니다.",
-        tags: ["가성비", "도심"]
+        tags: ["가성비", "도심"],
+        icon: "🏨"
     },
     {
         name: "스프링스 호텔 울란바토르",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 주요 업무·관광지 이동이 편한 중급 호텔입니다.",
-        tags: ["도심", "중급"]
+        tags: ["도심", "중급"],
+        icon: "🏨"
     },
 ];
 

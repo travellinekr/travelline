@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["와이탄 전망 다이닝", "평점 4.1", "상하이 여행 동선에 넣기 좋음"],
-        icon: "🌃"
+        icon: "🍽️"
     },
     {
         name: "에그 상하이",

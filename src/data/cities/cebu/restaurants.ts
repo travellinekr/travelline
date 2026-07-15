@@ -15,7 +15,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 1위", "short dish/category", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "하우스 오브 레촌",
@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 2위", "short dish/category", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "레드크랩 세부",
@@ -45,7 +45,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 3위", "정보 없음", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🦀"
     },
     {
         name: "란타우 플로팅 네이티브 레스토랑",
@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 5위", "short dish/category", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "파롤라 씨뷰 레스토랑",
@@ -120,7 +120,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 8위", "정보 없음", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "버킷 쉬림프",
@@ -135,7 +135,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~10:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~10:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 9위", "새우 요리", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍤"
     },
     {
         name: "오이스터 베이",
@@ -150,7 +150,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 3:00, 오후 6:00~10:00; 화요일: 오전 11:00 ~ 오후 3:00, 오후 6:00~10:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 10위", "굴 요리", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🦪"
     },
     {
         name: "게리스 그릴",
@@ -165,7 +165,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 11위", "정보 없음", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "피라미드",
@@ -195,7 +195,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 11:00; 화요일: 오전 10:00 ~ 오후 11:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 13위", "short dish/category", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🥐"
     },
     {
         name: "라 비에 파리지엔",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오전 1:00; 화요일: 오전 6:00 ~ 오전 1:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 14위", "short dish/category", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🥐"
     },
     {
         name: "일라푸티",
@@ -255,7 +255,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 17위", "정보 없음", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "마리바고 그릴",
@@ -270,7 +270,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["네이버 최근 1년 후보 18위", "정보 없음", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🍖"
     },
     {
         name: "초비초비",
@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["네이버 최근 1년 후보 20위", "세부 맛집", "Google Places 검증"],
-        icon: "🍽️"
+        icon: "🥟"
     },
 ];
 

@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스미냑 해변 접근성과 선셋 동선이 좋은 리조트입니다.",
-        tags: ["스미냑", "비치프런트"]
+        tags: ["스미냑", "비치프런트"],
+        icon: "🏖️"
     },
     {
         name: "W 발리 스미냑",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "스미냑 비치클럽 분위기와 풀 시설이 강점인 리조트입니다.",
-        tags: ["럭셔리", "스미냑"]
+        tags: ["럭셔리", "스미냑"],
+        icon: "🏖️"
     },
     {
         name: "알릴라 스미냑",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "해변 바로 앞 위치와 모던한 시설이 장점입니다.",
-        tags: ["비치프런트", "럭셔리"]
+        tags: ["비치프런트", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "더 레기안 스미냑",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "조용한 럭셔리 휴식에 강점이 있는 스미냑 리조트입니다.",
-        tags: ["럭셔리", "비치프런트"]
+        tags: ["럭셔리", "비치프런트"],
+        icon: "🏖️"
     },
     {
         name: "포테이토 헤드 스위트",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "비치클럽과 디자인 감성이 강점인 스미냑 숙소입니다.",
-        tags: ["디자인", "비치클럽"]
+        tags: ["디자인", "비치클럽"],
+        icon: "🏨"
     },
     {
         name: "코모 우마 짱구",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "짱구 해변과 웰니스 분위기를 함께 즐기기 좋습니다.",
-        tags: ["짱구", "웰니스"]
+        tags: ["짱구", "웰니스"],
+        icon: "🏖️"
     },
     {
         name: "아메티스 빌라 짱구",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "프라이빗 빌라형 휴식에 강점이 있는 짱구 숙소입니다.",
-        tags: ["풀빌라", "짱구"]
+        tags: ["풀빌라", "짱구"],
+        icon: "🏝️"
     },
     {
         name: "더아나 빌라 앤 스파 짱구",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "짱구 중심 접근성과 풀빌라 구성이 장점입니다.",
-        tags: ["풀빌라", "짱구"]
+        tags: ["풀빌라", "짱구"],
+        icon: "🏝️"
     },
     {
         name: "파드마 리조트 우붓",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "정글 뷰와 대형 수영장이 강점인 우붓 리조트입니다.",
-        tags: ["우붓", "정글뷰"]
+        tags: ["우붓", "정글뷰"],
+        icon: "🏨"
     },
     {
         name: "마야 우붓 리조트 앤 스파",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "숲과 강변 분위기의 우붓 휴양 리조트입니다.",
-        tags: ["우붓", "스파"]
+        tags: ["우붓", "스파"],
+        icon: "🏨"
     },
     {
         name: "알릴라 우붓",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "정글 뷰와 조용한 휴식에 강점이 있습니다.",
-        tags: ["우붓", "정글뷰"]
+        tags: ["우붓", "정글뷰"],
+        icon: "🏨"
     },
     {
         name: "행잉 가든스 오브 발리",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "정글 인피니티풀로 유명한 럭셔리 리조트입니다.",
-        tags: ["럭셔리", "정글뷰"]
+        tags: ["럭셔리", "정글뷰"],
+        icon: "🏨"
     },
     {
         name: "만다파 리츠칼튼 리저브",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "우붓 강변의 최상급 럭셔리 리조트입니다.",
-        tags: ["럭셔리", "우붓"]
+        tags: ["럭셔리", "우붓"],
+        icon: "🏨"
     },
     {
         name: "포시즌스 리조트 발리 앳 사얀",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "우붓 사얀 계곡의 대표 럭셔리 리조트입니다.",
-        tags: ["럭셔리", "우붓"]
+        tags: ["럭셔리", "우붓"],
+        icon: "🏨"
     },
     {
         name: "아야나 리조트 발리 짐바란",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "짐바란 절벽 전망과 락바로 유명한 대형 리조트입니다.",
-        tags: ["짐바란", "럭셔리"]
+        tags: ["짐바란", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "림바 바이 아야나 발리",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "아야나 단지 내 가족 여행에 좋은 리조트입니다.",
-        tags: ["짐바란", "가족 여행"]
+        tags: ["짐바란", "가족 여행"],
+        icon: "🏖️"
     },
     {
         name: "인터컨티넨탈 발리 리조트 짐바란",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "짐바란 해변과 가족 여행 동선에 좋은 리조트입니다.",
-        tags: ["짐바란", "비치"]
+        tags: ["짐바란", "비치"],
+        icon: "🏖️"
     },
     {
         name: "아푸르바 켐핀스키 발리",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "누사두아 절벽형 대형 럭셔리 리조트입니다.",
-        tags: ["누사두아", "럭셔리"]
+        tags: ["누사두아", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "세인트 레지스 발리 리조트",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "누사두아 비치프런트 최상급 리조트입니다.",
-        tags: ["누사두아", "럭셔리"]
+        tags: ["누사두아", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "콘래드 발리",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "누사두아 가족 여행과 휴양에 좋은 대형 리조트입니다.",
-        tags: ["누사두아", "가족 여행"]
+        tags: ["누사두아", "가족 여행"],
+        icon: "🏖️"
     },
 ];
 

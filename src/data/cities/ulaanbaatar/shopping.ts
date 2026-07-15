@@ -45,7 +45,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         taxRefund: true,
         features: ["브랜드, 레스토랑, 영화관", "평점 4.5", "울란바토르 여행 동선에 넣기 좋음"],
-        icon: "🏙️"
+        icon: "🛍️"
     },
     {
         name: "나란툴 시장",
@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 휴무일",
         taxRefund: false,
         features: ["전통 의류 및 생활용품", "활기찬 현지 마켓 체험"],
-        icon: "🧥"
+        icon: "🛒"
     },
     {
         name: "고비 캐시미어",

@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
         taxRefund: false,
         features: ["브랜드 할인 쇼핑, 푸드코트", "평점 4.1", "괌 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🏷️"
     },
     {
         name: "마이크로네시아 몰",
@@ -45,7 +45,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: true,
         features: ["명품, 화장품, 기념품", "평점 4", "괌 여행 동선에 넣기 좋음"],
-        icon: "🛒"
+        icon: "🛂"
     },
     {
         name: "투몬 샌즈 플라자",
@@ -60,7 +60,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
         taxRefund: true,
         features: ["다양한 브랜드 입점", "쾌적한 쇼핑 환경"],
-        icon: "🏝️"
+        icon: "🛍️"
     },
     {
         name: "괌 K마트",

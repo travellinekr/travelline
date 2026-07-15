@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["시원한 바다 전망", "웅장한 광장 야경"],
         rating: 4.8,
-        icon: "tour"
+        icon: "🌆"
     },
     {
         name: "방추이다오 풍경구",
@@ -34,7 +34,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["아름다운 해안 산책로", "조용한 힐링 스팟"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🌳"
     },
     {
         name: "다롄 삼림동물원",
@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["다양한 동물 관람", "가족 나들이 최적지"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🦁"
     },
     {
         name: "라오후탄 해양공원",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["해양 동물 전시와 공연을 함께 볼 수 있는 다롄 대표 가족 명소입니다.", "평점 4.4", "다롄 여행 동선에 넣기 좋음"],
         rating: 4.4,
-        icon: "tour"
+        icon: "🐠"
     },
     {
         name: "뤼순항",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["근대사 유적과 항구 풍경을 함께 둘러보는 다롄 근교 코스입니다.", "평점 None", "다롄 여행 동선에 넣기 좋음"],
         rating: 4.3,
-        icon: "tour"
+        icon: "🏛️"
     },
 ];
 

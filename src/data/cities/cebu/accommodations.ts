@@ -11,7 +11,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "세부 시티 중심부에 위치하여 접근성이 뛰어난 가성비 좋은 호텔입니다.",
-        tags: ["세부시티", "가성비", "접근성"]
+        tags: ["세부시티", "가성비", "접근성"],
+        icon: "🏨"
     },
     {
         name: "퀘스트 호텔 세부",
@@ -23,7 +24,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "현대적이고 깔끔한 시설을 갖춘 세부 시티의 인기 비즈니스 호텔입니다.",
-        tags: ["세부시티", "깔끔함", "비즈니스"]
+        tags: ["세부시티", "깔끔함", "비즈니스"],
+        icon: "🏨"
     },
     {
         name: "바이 호텔 세부",
@@ -35,7 +37,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "세부 시내 접근성이 좋은 깔끔한 가성비 호텔",
-        tags: ["가성비", "시내 중심", "깔끔함"]
+        tags: ["가성비", "시내 중심", "깔끔함"],
+        icon: "🏨"
     },
     {
         name: "코스타벨라 트로피컬 비치 호텔",
@@ -47,7 +50,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "아름다운 해변과 함께 즐기는 휴양형 리조트",
-        tags: ["비치프론트", "휴양", "가족여행"]
+        tags: ["비치프론트", "휴양", "가족여행"],
+        icon: "🏖️"
     },
     {
         name: "세부 파크레인 인터내셔널 호텔",
@@ -59,7 +63,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "세부 시티 중심에 위치하여 접근성이 뛰어난 가성비 좋은 비즈니스 호텔",
-        tags: ["가성비", "시티뷰", "접근성"]
+        tags: ["가성비", "시티뷰", "접근성"],
+        icon: "🏨"
     },
     {
         name: "필리 호텔 세부",
@@ -71,7 +76,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "깔끔하고 현대적인 시설을 갖춘 여행객들에게 인기 있는 숙소",
-        tags: ["현대적", "쾌적함", "여행객추천"]
+        tags: ["현대적", "쾌적함", "여행객추천"],
+        icon: "🏨"
     },
     {
         name: "사보이 호텔 막탄",
@@ -83,7 +89,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "막탄 해변 근처의 가성비 좋은 숙소",
-        tags: ["막탄", "가성비", "해변근처"]
+        tags: ["막탄", "가성비", "해변근처"],
+        icon: "🏨"
     },
     {
         name: "벨몬트 호텔 막탄",
@@ -95,7 +102,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "깔끔하고 편안한 휴식을 제공하는 호텔",
-        tags: ["막탄", "호텔", "휴양"]
+        tags: ["막탄", "호텔", "휴양"],
+        icon: "🏨"
     },
     {
         name: "더 리프 아일랜드 리조트 막탄",
@@ -107,7 +115,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "막탄의 아름다운 해변을 품은 여유로운 휴양 리조트",
-        tags: ["해변", "리조트", "휴양"]
+        tags: ["해변", "리조트", "휴양"],
+        icon: "🏖️"
     },
     {
         name: "플랜테이션 베이 리조트 앤 스파",
@@ -119,7 +128,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "대규모 수영장과 스파 시설을 갖춘 프리미엄 리조트",
-        tags: ["스파", "수영장", "가족여행"]
+        tags: ["스파", "수영장", "가족여행"],
+        icon: "🏖️"
     },
     {
         name: "제이파크 아일랜드 리조트",
@@ -131,7 +141,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "워터파크와 다양한 액티비티를 즐길 수 있는 가족 친화적 리조트",
-        tags: ["워터파크", "가족여행", "풀빌라"]
+        tags: ["워터파크", "가족여행", "풀빌라"],
+        icon: "🏖️"
     },
     {
         name: "크림슨 리조트 앤 스파",
@@ -143,7 +154,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "프라이빗한 휴식과 고급스러운 스파를 즐길 수 있는 리조트",
-        tags: ["스파", "커플여행", "럭셔리"]
+        tags: ["스파", "커플여행", "럭셔리"],
+        icon: "🏖️"
     },
     {
         name: "쉐라톤 세부 막탄 리조트",
@@ -155,7 +167,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "막탄 섬의 아름다운 해변과 럭셔리한 시설을 갖춘 프리미엄 리조트",
-        tags: ["럭셔리", "해변뷰", "가족여행"]
+        tags: ["럭셔리", "해변뷰", "가족여행"],
+        icon: "🏖️"
     },
     {
         name: "두짓타니 막탄 세부",
@@ -167,7 +180,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "세련된 디자인과 프라이빗 비치를 자랑하는 고급 리조트",
-        tags: ["프라이빗비치", "호캉스", "커플여행"]
+        tags: ["프라이빗비치", "호캉스", "커플여행"],
+        icon: "🏖️"
     },
     {
         name: "세다 아얄라 센터 세부",
@@ -179,7 +193,8 @@ const accommodations: AccommodationData[] = [
         checkOutTime: "12:00",
         city: "Cebu",
         description: "아얄라 센터 세부 쇼핑몰과 인접하여 쇼핑과 식사가 매우 편리한 호텔입니다.",
-        tags: ["쇼핑몰 인접", "시내 중심", "가성비"]
+        tags: ["쇼핑몰 인접", "시내 중심", "가성비"],
+        icon: "🏨"
     },
 ];
 

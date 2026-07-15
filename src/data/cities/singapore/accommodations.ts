@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "래플스 싱가포르",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "더 풀러턴 호텔 싱가포르",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "리츠칼튼 밀레니아 싱가포르",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "만다린 오리엔탈 싱가포르",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "팬 퍼시픽 싱가포르",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "파크로얄 컬렉션 피커링",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "카펠라 싱가포르 센토사",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏖️"
     },
     {
         name: "샹그릴라 싱가포르",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "안다즈 싱가포르",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "오아시아 호텔 다운타운",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "호텔 보스 싱가포르",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "빌리지 호텔 센토사",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏖️"
     },
     {
         name: "요텔 싱가포르 오차드",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏨"
     },
     {
         name: "라이프 푸난 싱가포르",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "싱가포르 주요 숙소",
-        tags: ["싱가포르"]
+        tags: ["싱가포르"],
+        icon: "🏠"
     },
 ];
 

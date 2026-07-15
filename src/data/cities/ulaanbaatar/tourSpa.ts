@@ -17,7 +17,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
         features: ["도심 속 평온한 사찰 분위기", "웅장한 불교 건축물"],
         rating: 4.4,
-        icon: "🛕"
+        icon: "🙏"
     },
     {
         name: "수흐바타르 광장",

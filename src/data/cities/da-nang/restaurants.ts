@@ -29,7 +29,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00~10:30, 오후 3:00~8:00; 화요일: 오전 6:00~10:30, 오후 3:00~8:00",
         reservation: false,
         features: ["어묵 요리", "로컬 맛집"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "미꽝 바무아",
@@ -44,7 +44,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
         reservation: false,
         features: ["현지 맛집", "가성비"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "넨 레스토랑",
@@ -74,7 +74,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오전 12:00; 화요일: 오전 9:00 ~ 오전 12:00",
         reservation: false,
         features: ["신선한 해산물", "현지 맛집"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "남단 씨푸드",
@@ -89,7 +89,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["현지 스타일", "신선한 재료"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "미한 씨푸드",
@@ -104,7 +104,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 11:00; 화요일: 오전 9:00 ~ 오후 11:00",
         reservation: false,
         features: ["높은 평점", "다양한 메뉴"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "목 씨푸드",
@@ -119,7 +119,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:30 ~ 오후 10:30; 화요일: 오전 10:30 ~ 오후 10:30",
         reservation: false,
         features: ["해산물", "현지식"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "콴웃 분보후에",
@@ -134,7 +134,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 1:30; 화요일: 오전 6:00 ~ 오후 1:30",
         reservation: false,
         features: ["분보후에", "로컬"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "바흐엉 반짱꾸온",
@@ -149,7 +149,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
         reservation: false,
         features: ["현지식", "가성비"],
-        icon: "🍽️"
+        icon: "🥬"
     },
     {
         name: "껌냐린",
@@ -164,7 +164,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["현지식", "정갈함"],
-        icon: "🍽️"
+        icon: "🍚"
     },
     {
         name: "피자 4P's",
@@ -179,7 +179,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         reservation: false,
         features: ["Pizza", "Pasta"],
-        icon: "🍽️"
+        icon: "🍕"
     },
     {
         name: "버거 브로스",
@@ -194,7 +194,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:30; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~9:30",
         reservation: false,
         features: ["Burger", "Fries"],
-        icon: "🍽️"
+        icon: "🍔"
     },
     {
         name: "더 컵스 커피 다낭",
@@ -209,7 +209,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:30 ~ 오후 10:30; 화요일: 오전 6:30 ~ 오후 10:30",
         reservation: false,
         features: ["로컬", "카페"],
-        icon: "🍽️"
+        icon: "☕"
     },
     {
         name: "꾸아 도 레스토랑 다낭",
@@ -224,7 +224,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:30 ~ 오후 11:00; 화요일: 오전 11:30 ~ 오후 11:00",
         reservation: false,
         features: ["신선한 해산물", "현지 맛집"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "하이 산 포 다낭",
@@ -239,7 +239,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오전 12:00; 화요일: 오전 9:00 ~ 오전 12:00",
         reservation: false,
         features: ["가성비 해산물", "현지 분위기"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "포박하이",
@@ -254,7 +254,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         reservation: false,
         features: ["현지식", "쌀국수 전문"],
-        icon: "🍽️"
+        icon: "🍜"
     },
     {
         name: "바토이 해산물",
@@ -269,7 +269,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 11:00; 화요일: 오전 9:00 ~ 오후 11:00",
         reservation: false,
         features: ["해산물 요리", "현지 맛집"],
-        icon: "🍽️"
+        icon: "🦐"
     },
     {
         name: "마담 란",

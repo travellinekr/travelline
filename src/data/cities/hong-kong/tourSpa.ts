@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "방문 전 확인 권장",
         features: ["빅토리아 하버의 환상적인 야경", "홍콩 영화 스타들의 핸드프린팅"],
         rating: 4.3,
-        icon: "⭐"
+        icon: "🎬"
     },
     {
         name: "홍콩 디즈니랜드",

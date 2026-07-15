@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "카펠라 하노이",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "페리도 그랜드 럭셔리 부티크 호텔",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "라 시에스타 클래식 마마이",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "애프리콧 호텔 하노이",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "인터컨티넨탈 하노이 웨스트레이크",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "롯데 호텔 하노이",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "JW 메리어트 호텔 하노이",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "팬 퍼시픽 하노이",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "디 오리엔탈 제이드 호텔",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "하노이 티란트 호텔",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "실크 패스 호텔 하노이",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "뫼벤픽 호텔 하노이 센터",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "그랜드 호텔 뒤 락 하노이",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
     {
         name: "호텔 드 로페라 하노이",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "하노이 주요 숙소",
-        tags: ["하노이"]
+        tags: ["하노이"],
+        icon: "🏨"
     },
 ];
 

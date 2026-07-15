@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쩐푸 해변 중심부에 위치한 글로벌 체인 호텔입니다.",
-        tags: ["해변", "중심가"]
+        tags: ["해변", "중심가"],
+        icon: "🏨"
     },
     {
         name: "쉐라톤 나트랑 호텔 앤 스파",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "해변과 시내 접근성이 좋은 대형 호텔입니다.",
-        tags: ["해변", "루프톱"]
+        tags: ["해변", "루프톱"],
+        icon: "🏨"
     },
     {
         name: "아미아나 리조트 나트랑",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "프라이빗 비치와 조용한 휴식에 강점이 있는 리조트입니다.",
-        tags: ["리조트", "프라이빗 비치"]
+        tags: ["리조트", "프라이빗 비치"],
+        icon: "🏖️"
     },
     {
         name: "미아 리조트 나트랑",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "캄란 방향 해안 절벽권의 휴양형 리조트입니다.",
-        tags: ["럭셔리", "휴양"]
+        tags: ["럭셔리", "휴양"],
+        icon: "🏖️"
     },
     {
         name: "식스센스 닌반베이",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "보트 접근형 럭셔리 프라이빗 리조트입니다.",
-        tags: ["럭셔리", "프라이빗"]
+        tags: ["럭셔리", "프라이빗"],
+        icon: "🏖️"
     },
     {
         name: "라알리아 닌반베이",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "닌반베이 자연 속 빌라형 휴양 리조트입니다.",
-        tags: ["빌라", "휴양"]
+        tags: ["빌라", "휴양"],
+        icon: "🏝️"
     },
     {
         name: "빈펄 리조트 나트랑",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "혼쩨섬에서 리조트와 테마파크 동선을 함께 잡기 좋습니다.",
-        tags: ["섬 리조트", "가족 여행"]
+        tags: ["섬 리조트", "가족 여행"],
+        icon: "🏖️"
     },
     {
         name: "빈펄 비치프론트 나트랑",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쩐푸 해변 도심권의 비치프론트 호텔입니다.",
-        tags: ["비치프론트", "중심가"]
+        tags: ["비치프론트", "중심가"],
+        icon: "🏨"
     },
     {
         name: "리브라 나트랑 호텔",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심 이동과 가성비가 좋은 호텔입니다.",
-        tags: ["가성비", "시내"]
+        tags: ["가성비", "시내"],
+        icon: "🏨"
     },
     {
         name: "노보텔 나트랑",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "해변 길 건너편 중심부에 위치한 안정적인 체인 호텔입니다.",
-        tags: ["해변", "체인 호텔"]
+        tags: ["해변", "체인 호텔"],
+        icon: "🏨"
     },
     {
         name: "하바나 나트랑 호텔",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쩐푸 해변 접근성과 전망이 장점인 대형 호텔입니다.",
-        tags: ["해변", "전망"]
+        tags: ["해변", "전망"],
+        icon: "🏨"
     },
     {
         name: "레갈리아 골드 호텔 나트랑",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 접근성과 루프톱 시설이 장점인 호텔입니다.",
-        tags: ["루프톱", "시내"]
+        tags: ["루프톱", "시내"],
+        icon: "🏨"
     },
     {
         name: "멜리아 빈펄 나트랑 엠파이어",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심부의 장기투숙형 객실 구성이 있는 호텔입니다.",
-        tags: ["시내", "가족 여행"]
+        tags: ["시내", "가족 여행"],
+        icon: "🏨"
     },
     {
         name: "포티크 호텔 나트랑",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "부티크 감성과 중심가 접근성이 좋은 호텔입니다.",
-        tags: ["부티크", "중심가"]
+        tags: ["부티크", "중심가"],
+        icon: "🏨"
     },
     {
         name: "더 아남 캄란",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "캄란 해변권의 고급 휴양 리조트입니다.",
-        tags: ["리조트", "캄란"]
+        tags: ["리조트", "캄란"],
+        icon: "🏖️"
     },
     {
         name: "알마 리조트 캄란",
@@ -192,7 +207,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "가족형 시설과 넓은 리조트 동선이 강점입니다.",
-        tags: ["가족 여행", "캄란"]
+        tags: ["가족 여행", "캄란"],
+        icon: "🏖️"
     },
     {
         name: "보톤 블루 호텔 앤 스파",
@@ -204,7 +220,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "북부 해변권 전망과 루프톱 시설이 장점인 호텔입니다.",
-        tags: ["전망", "스파"]
+        tags: ["전망", "스파"],
+        icon: "🏨"
     },
     {
         name: "디쿠아 호텔 나트랑",
@@ -216,7 +233,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 접근성과 객실 컨디션 균형이 좋은 호텔입니다.",
-        tags: ["시내", "가성비"]
+        tags: ["시내", "가성비"],
+        icon: "🏨"
     },
     {
         name: "므엉탄 럭셔리 나트랑 호텔",
@@ -228,7 +246,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "해변 접근성과 대형 호텔 시설이 장점입니다.",
-        tags: ["해변", "대형 호텔"]
+        tags: ["해변", "대형 호텔"],
+        icon: "🏨"
     },
     {
         name: "시타딘 베이프론트 나트랑",
@@ -240,7 +259,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "비치프론트 위치와 레지던스형 편의성이 장점입니다.",
-        tags: ["비치프론트", "레지던스"]
+        tags: ["비치프론트", "레지던스"],
+        icon: "🏠"
     },
 ];
 

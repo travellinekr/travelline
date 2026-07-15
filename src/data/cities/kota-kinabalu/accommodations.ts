@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "탄중아루 선셋으로 유명한 가족형 리조트",
-        tags: ["선셋", "가족"]
+        tags: ["선셋", "가족"],
+        icon: "🏖️"
     },
     {
         name: "마젤란 수트라 리조트",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수트라 하버권 럭셔리 리조트",
-        tags: ["리조트", "수영장"]
+        tags: ["리조트", "수영장"],
+        icon: "🏖️"
     },
     {
         name: "퍼시픽 수트라 호텔",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수트라 하버 접근 좋은 호텔형 리조트",
-        tags: ["하버", "가족"]
+        tags: ["하버", "가족"],
+        icon: "🏖️"
     },
     {
         name: "하얏트 센트릭 코타키나발루",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심 신식 호텔",
-        tags: ["시내", "루프탑"]
+        tags: ["시내", "루프탑"],
+        icon: "🏨"
     },
     {
         name: "코타키나발루 메리어트 호텔",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "워터프런트 접근 좋은 대형 호텔",
-        tags: ["시내", "오션뷰"]
+        tags: ["시내", "오션뷰"],
+        icon: "🏨"
     },
     {
         name: "르메르디앙 코타키나발루",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "야시장·워터프런트 접근성 좋은 호텔",
-        tags: ["중심가", "야시장"]
+        tags: ["중심가", "야시장"],
+        icon: "🏨"
     },
     {
         name: "힐튼 코타키나발루",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 이동 편한 비즈니스급 호텔",
-        tags: ["시내", "루프탑"]
+        tags: ["시내", "루프탑"],
+        icon: "🏨"
     },
     {
         name: "그란디스 호텔 코타키나발루",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "수리아 사바 연결형 시내 호텔",
-        tags: ["쇼핑", "시내"]
+        tags: ["쇼핑", "시내"],
+        icon: "🏨"
     },
     {
         name: "호텔 식스티3",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "가야 스트리트 접근 좋은 부티크 호텔",
-        tags: ["가야스트리트", "가성비"]
+        tags: ["가야스트리트", "가성비"],
+        icon: "🏨"
     },
     {
         name: "더 루마 호텔 코타키나발루",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "이마고몰 근처 감성 호텔",
-        tags: ["감성", "쇼핑"]
+        tags: ["감성", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "머큐어 코타키나발루 시티 센터",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "제셀톤 포인트 가까운 실속 호텔",
-        tags: ["가성비", "항구"]
+        tags: ["가성비", "항구"],
+        icon: "🏨"
     },
     {
         name: "홀리데이 인 익스프레스 코타키나발루",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "깔끔한 시내 실속 호텔",
-        tags: ["가성비", "시내"]
+        tags: ["가성비", "시내"],
+        icon: "🏨"
     },
     {
         name: "가야 아일랜드 리조트",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "섬 휴양형 럭셔리 리조트",
-        tags: ["섬", "휴양"]
+        tags: ["섬", "휴양"],
+        icon: "🏖️"
     },
     {
         name: "붕아라야 아일랜드 리조트",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "툰쿠 압둘 라만 해양공원 섬 리조트",
-        tags: ["섬", "스노클링"]
+        tags: ["섬", "스노클링"],
+        icon: "🏖️"
     },
     {
         name: "시타딘 워터프런트 코타키나발루",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "워터프런트권 레지던스형 호텔",
-        tags: ["레지던스", "시내"]
+        tags: ["레지던스", "시내"],
+        icon: "🏠"
     },
 ];
 

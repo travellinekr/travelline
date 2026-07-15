@@ -27,7 +27,7 @@ const shopping: ShoppingData[] = [
         openingHours: "10:00~20:00",
         taxRefund: true,
         features: ["세계 최초 백화점", "고급 식품관", "명품"],
-        icon: "🛍️"
+        icon: "🏬"
     },
     {
         name: "생또노레 거리",

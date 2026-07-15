@@ -51,7 +51,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
         features: ["성수 정화 의식으로 유명한 발리 힌두 사원입니다.", "평점 4.6", "발리 여행 동선에 넣기 좋음"],
         rating: 4.6,
-        icon: "🙏"
+        icon: "🛕"
     },
     {
         name: "울루와뚜 사원",
@@ -68,7 +68,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 7:00; 화요일: 오전 7:00 ~ 오후 7:00",
         features: ["절벽 사원과 선셋, 케착댄스로 유명한 남부 대표 명소입니다.", "평점 4.6", "발리 여행 동선에 넣기 좋음"],
         rating: 4.6,
-        icon: "🌅"
+        icon: "🛕"
     },
     {
         name: "따나롯 사원",
@@ -85,7 +85,7 @@ const tourSpa: TourSpaData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 7:00; 화요일: 오전 6:00 ~ 오후 7:00",
         features: ["바다 위 사원 풍경과 석양으로 유명한 발리 랜드마크입니다.", "평점 4.7", "발리 여행 동선에 넣기 좋음"],
         rating: 4.7,
-        icon: "🌊"
+        icon: "🛕"
     },
     {
         name: "바투르산 일출 트레킹",

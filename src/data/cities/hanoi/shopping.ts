@@ -15,7 +15,7 @@ const shopping: ShoppingData[] = [
         openingHours: "방문 전 확인 권장",
         taxRefund: false,
         features: ["다양한 로컬 아이템", "현지 분위기 가득한 골목"],
-        icon: "🛍️"
+        icon: "🛒"
     },
     {
         name: "하노이 올드쿼터 야시장",
@@ -30,7 +30,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         taxRefund: false,
         features: ["길거리 먹거리와 소품", "북적이는 야시장 분위기"],
-        icon: "🛍️"
+        icon: "🌃"
     },
     {
         name: "짱띠엔 플라자",
@@ -105,7 +105,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
         taxRefund: false,
         features: ["쇼핑·기념품", "평점 4.8", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "💐"
     },
     {
         name: "이온몰 롱비엔",
@@ -135,7 +135,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오후 6:00~11:30; 화요일: 오후 6:00~11:30",
         taxRefund: false,
         features: ["쇼핑·기념품", "평점 4.5", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🌃"
     },
     {
         name: "항다 시장",
@@ -150,7 +150,7 @@ const shopping: ShoppingData[] = [
         openingHours: "월요일: 오전 5:00 ~ 오후 8:00; 화요일: 오전 5:00 ~ 오후 8:00",
         taxRefund: false,
         features: ["쇼핑·기념품", "평점 3.8", "하노이 여행 동선에 넣기 좋음"],
-        icon: "🛍️"
+        icon: "🛒"
     },
 ];
 

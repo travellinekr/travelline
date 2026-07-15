@@ -15,7 +15,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["부드러운 게살 요리", "신선한 제철 해산물"],
-        icon: "food"
+        icon: "🦀"
     },
     {
         name: "더 글래스 하우스 파타야",
@@ -30,7 +30,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
         reservation: false,
         features: ["환상적인 오션뷰", "감성적인 인테리어"],
-        icon: "food"
+        icon: "🦐"
     },
     {
         name: "더 스카이 갤러리",
@@ -45,7 +45,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
         reservation: false,
         features: ["아름다운 일몰 명소", "인생샷 가능한 뷰 맛집"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "캐비지스 앤 콘돔스 파타야",
@@ -60,7 +60,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 11:00; 화요일: 오전 7:00 ~ 오후 11:00",
         reservation: false,
         features: ["독특한 인테리어", "푸짐한 태국식 메뉴", "아름다운 가든 뷰"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "서프 앤 터프 비치 클럽",
@@ -75,7 +75,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 9:00 ~ 오후 11:00; 화요일: 오전 9:00 ~ 오후 11:00",
         reservation: false,
         features: ["환상적인 오션뷰", "일몰 명소", "다양한 칵테일과 해산물"],
-        icon: "food"
+        icon: "🍺"
     },
     {
         name: "라 바게트 파타야",
@@ -90,7 +90,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
         reservation: false,
         features: ["갓 구운 베이커리", "깔끔하고 아늑한 분위기", "가벼운 브런치 메뉴"],
-        icon: "food"
+        icon: "🥐"
     },
     {
         name: "자스민 카페 파타야",
@@ -105,7 +105,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["감성적인 인테리어", "여유로운 분위기"],
-        icon: "food"
+        icon: "☕"
     },
     {
         name: "메이스 파타야",
@@ -120,7 +120,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 12:00~11:00; 화요일: 오후 12:00~11:00",
         reservation: false,
         features: ["검증된 맛", "트렌디한 공간"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "카페 데자미",
@@ -135,7 +135,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 5:00~11:00; 화요일: 오후 5:00~11:00",
         reservation: false,
         features: ["고급스러운 코스 요리", "최상급 서비스"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "만트라 레스토랑 앤 바",
@@ -150,7 +150,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["해변 테라스석", "신선한 씨푸드 요리"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "홉스 브루하우스",
@@ -165,7 +165,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 4:00 ~ 오전 12:00; 화요일: 오후 4:00 ~ 오전 12:00",
         reservation: false,
         features: ["다양한 크래프트 비어", "캐주얼한 무드"],
-        icon: "food"
+        icon: "🍺"
     },
     {
         name: "호라이즌 루프탑 레스토랑",
@@ -180,7 +180,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 4:00 ~ 오전 1:00; 화요일: 오후 4:00 ~ 오전 1:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.5", "파타야 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🍺"
     },
     {
         name: "킹 씨푸드 파타야",
@@ -195,7 +195,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 3:00 ~ 오전 1:00; 화요일: 오후 3:00 ~ 오전 1:00",
         reservation: false,
         features: ["신선한 해산물 요리", "가성비 좋은 메뉴 구성"],
-        icon: "food"
+        icon: "🦐"
     },
     {
         name: "렝키 레스토랑",
@@ -210,7 +210,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
         reservation: false,
         features: ["태국 현지식 맛집", "부담 없는 가격대"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "댕덤 파타야",
@@ -225,7 +225,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
         reservation: false,
         features: ["다양한 태국 요리", "친근하고 편안한 분위기"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "재토 비프누들 파타야",
@@ -240,7 +240,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 7:00 ~ 오후 4:00; 화요일: 오전 7:00 ~ 오후 4:00",
         reservation: false,
         features: ["깊은 풍미의 비프 누들", "현지 로컬 분위기"],
-        icon: "food"
+        icon: "🍜"
     },
     {
         name: "매스리루언 파타야",
@@ -255,7 +255,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.3", "파타야 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "수땅락 파타야",
@@ -270,7 +270,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "방문 전 확인 권장",
         reservation: false,
         features: ["대표 메뉴", "평점 4.1", "파타야 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "쏨땀 빌라 파타야",
@@ -285,7 +285,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
         reservation: false,
         features: ["정통 태국식 쏨땀", "다양한 로컬 메뉴"],
-        icon: "food"
+        icon: "🥗"
     },
     {
         name: "르언타이 레스토랑",
@@ -300,7 +300,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
         reservation: false,
         features: ["깔끔한 태국 전통 음식", "가족 식사에 추천"],
-        icon: "food"
+        icon: "🍲"
     },
     {
         name: "인디언 바이 네이처",
@@ -315,7 +315,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오후 5:30~10:30; 화요일: 오후 5:30~10:30",
         reservation: false,
         features: ["진한 커리와 난의 조화", "고급스러운 분위기"],
-        icon: "food"
+        icon: "🍛"
     },
     {
         name: "카사 파스칼",
@@ -330,7 +330,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 8:00 ~ 오후 2:00, 오후 6:00~11:00; 화요일: 오전 8:00 ~ 오후 2:00, 오후 6:00~11:00",
         reservation: false,
         features: ["깔끔하고 세련된 분위기", "높은 평점의 검증된 맛"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "빅 피시 파타야",
@@ -345,7 +345,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 6:00 ~ 오후 12:00; 화요일: 오전 6:00 ~ 오후 12:00",
         reservation: false,
         features: ["다양하고 풍성한 해산물 구성", "가족 여행객에게 추천하는 가성비 맛집"],
-        icon: "food"
+        icon: "🦐"
     },
     {
         name: "팻 벨리 파타야",
@@ -360,7 +360,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
         reservation: false,
         features: ["현지 느낌 가득한 식사 공간", "믿고 먹는 높은 평점"],
-        icon: "food"
+        icon: "🍽️"
     },
     {
         name: "더 초콜릿 팩토리 파타야",
@@ -375,7 +375,7 @@ const restaurants: RestaurantData[] = [
         openingHours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
         reservation: false,
         features: ["대표 메뉴", "평점 4.5", "파타야 여행 동선에 넣기 좋음"],
-        icon: "food"
+        icon: "🍰"
     },
 ];
 

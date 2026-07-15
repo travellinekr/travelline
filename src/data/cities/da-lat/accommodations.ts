@@ -12,7 +12,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "프렌치 빌라 감성과 조용한 휴식이 좋은 리조트입니다.",
-        tags: ["리조트", "부티크"]
+        tags: ["리조트", "부티크"],
+        icon: "🏨"
     },
     {
         name: "달랏 팰리스 헤리티지 호텔",
@@ -24,7 +25,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호수 근처의 클래식한 헤리티지 호텔입니다.",
-        tags: ["헤리티지", "중심지"]
+        tags: ["헤리티지", "중심지"],
+        icon: "🏨"
     },
     {
         name: "뒤 파크 호텔 달랏",
@@ -36,7 +38,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "고전적인 분위기와 도심 접근성이 좋은 호텔입니다.",
-        tags: ["헤리티지", "가성비"]
+        tags: ["헤리티지", "가성비"],
+        icon: "🏨"
     },
     {
         name: "콜린 달랏 호텔",
@@ -48,7 +51,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "달랏 시장과 도심 접근성이 좋은 현대식 호텔입니다.",
-        tags: ["중심지", "쇼핑"]
+        tags: ["중심지", "쇼핑"],
+        icon: "🏨"
     },
     {
         name: "테라코타 호텔 앤 리조트 달랏",
@@ -60,7 +64,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "뚜옌럼 호수 근처의 조용한 리조트입니다.",
-        tags: ["호수", "휴양"]
+        tags: ["호수", "휴양"],
+        icon: "🏨"
     },
     {
         name: "달랏 에덴시 레이크 리조트",
@@ -72,7 +77,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호수 전망과 휴양 분위기가 강점인 리조트입니다.",
-        tags: ["호수", "리조트"]
+        tags: ["호수", "리조트"],
+        icon: "🏨"
     },
     {
         name: "스위스 벨리조트 뚜옌럼 달랏",
@@ -84,7 +90,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "골프장과 산 전망이 좋은 외곽 리조트입니다.",
-        tags: ["골프", "리조트"]
+        tags: ["골프", "리조트"],
+        icon: "🏨"
     },
     {
         name: "머펄 달랏 호텔",
@@ -96,7 +103,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "깔끔한 시설과 가족 여행 동선에 좋은 호텔입니다.",
-        tags: ["가족 여행", "호텔"]
+        tags: ["가족 여행", "호텔"],
+        icon: "🏨"
     },
     {
         name: "골프 밸리 호텔 달랏",
@@ -108,7 +116,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 접근성과 현대적인 객실이 장점입니다.",
-        tags: ["중심지", "호텔"]
+        tags: ["중심지", "호텔"],
+        icon: "🏨"
     },
     {
         name: "TTC 호텔 프리미엄 응옥란",
@@ -120,7 +129,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쑤언흐엉 호수와 시장 접근성이 좋은 호텔입니다.",
-        tags: ["호수", "중심지"]
+        tags: ["호수", "중심지"],
+        icon: "🏨"
     },
     {
         name: "라달랏 호텔",
@@ -132,7 +142,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "사랑의 계곡 방면 동선에 좋은 대형 호텔입니다.",
-        tags: ["가족 여행", "외곽"]
+        tags: ["가족 여행", "외곽"],
+        icon: "🏨"
     },
     {
         name: "킹스 호텔 달랏",
@@ -144,7 +155,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시장과 호수 접근성이 좋은 실용적인 호텔입니다.",
-        tags: ["중심지", "가성비"]
+        tags: ["중심지", "가성비"],
+        icon: "🏨"
     },
     {
         name: "므엉탄 홀리데이 달랏",
@@ -156,7 +168,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심 동선과 기본 시설이 무난한 호텔입니다.",
-        tags: ["중심지", "가성비"]
+        tags: ["중심지", "가성비"],
+        icon: "🏨"
     },
     {
         name: "빈안 빌리지 리조트 달랏",
@@ -168,7 +181,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호숫가 빌리지 분위기의 조용한 휴양 리조트입니다.",
-        tags: ["호수", "리조트"]
+        tags: ["호수", "리조트"],
+        icon: "🏨"
     },
     {
         name: "샘 뚜옌럼 리조트 달랏",
@@ -180,7 +194,8 @@ const accommodations: AccommodationData[] = [
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "뚜옌럼 호수 근처에서 조용히 쉬기 좋은 리조트입니다.",
-        tags: ["호수", "휴양"]
+        tags: ["호수", "휴양"],
+        icon: "🏨"
     },
 ];
 

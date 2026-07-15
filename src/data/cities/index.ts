@@ -10,6 +10,7 @@ export type AccommodationData = {
     city: string;
     description?: string;
     tags?: string[];
+    icon?: string;
     showInInbox?: boolean;
     hasInfo?: boolean;  // true 면 cities/<slug>/info/accommodations.ts 에 상세 인포 존재
 };
