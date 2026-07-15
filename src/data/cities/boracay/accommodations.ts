@@ -1,0 +1,187 @@
+import type { AccommodationData } from '../index';
+
+
+const accommodations: AccommodationData[] = [
+    {
+        name: "샹그릴라 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9874249, lng: 121.9062288 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "디스커버리 쇼어스 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9719168, lng: 121.9166074 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "더 린드 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9730882, lng: 121.915787 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "크림슨 리조트 앤 스파 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9823584, lng: 121.908534 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "뫼벤픽 리조트 앤 스파 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9841135, lng: 121.9086821 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "헤난 크리스탈 샌즈 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9629214, lng: 121.9238356 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "헤난 팜 비치 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9563169, lng: 121.9276477 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "헤난 리젠시 리조트 앤 스파",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.95913, lng: 121.927131 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "헤난 프라임 비치 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9713691, lng: 121.917953 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "코스트 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9578125, lng: 121.9271875 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "아스토리아 커런트 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9533224, lng: 121.9294401 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "아쿠아 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9613523, lng: 121.9293846 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "앰배서더 인 파라다이스",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9717355, lng: 121.9171504 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "투 시즌스 보라카이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9707491, lng: 121.9174447 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+    {
+        name: "만다린 베이 리조트 앤 스파",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        city: "Boracay",
+        coordinates: { lat: 11.9584095, lng: 121.9274011 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "보라카이 주요 숙소",
+        tags: ["보라카이"]
+    },
+];
+
+export default accommodations;

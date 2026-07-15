@@ -91,8 +91,12 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Chiang Mai": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang_Mai_View_from_Doi_Suthep.jpg?width=800",
     "Da Lat": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Lat_Flower_Park_01.jpg?width=800",
     "Phu Quoc": "https://commons.wikimedia.org/wiki/Special:FilePath/Phu_Quoc_beach.jpg?width=800",
+    "Pattaya": "https://commons.wikimedia.org/wiki/Special:FilePath/Pattaya_Beach.jpg?width=800",
     "Kota Kinabalu": "https://commons.wikimedia.org/wiki/Special:FilePath/Kota_Kinabalu_city_skyline.jpg?width=800",
     "Singapore": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Bay_Sands_in_the_evening_-_20101120.jpg?width=800",
+    "Hanoi": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi_Opera_House_2021.jpg?width=800",
+    "Ho Chi Minh": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City_Skyline_(night).jpg?width=800",
+    "Boracay": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay_White_Beach.png?width=800",
     "Guam": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_of_Tumon_Bay,_Guam,_USA_(8532198983).jpg?width=800",
     "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800",
     "Paris": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_01.jpg?width=800",
@@ -241,6 +245,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
         subtitle: "휴양과 힐링의 천국",
         cities: [
             {
+                name: "파타야",
+                engName: "Pattaya",
+                country: "태국",
+                desc: "해변과 액티비티가 가까운 방콕 근교 휴양지",
+                tags: ["해변", "액티비티"],
+                landmark: "Pattaya Beach",
+                airports: [{ name: "우타파오국제공항", code: "UTP" }, { name: "방콕 수완나품국제공항", code: "BKK" }],
+                timezone: 7
+            },
+            {
                 name: "다낭",
                 engName: "Da Nang",
                 country: "베트남",
@@ -339,6 +353,36 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 tags: ["미식", "야경"],
                 landmark: "Marina Bay Sands",
                 airports: [{ name: "싱가포르 창이국제공항", code: "SIN" }],
+                timezone: 8
+            },
+            {
+                name: "하노이",
+                engName: "Hanoi",
+                country: "베트남",
+                desc: "구시가지와 미식의 베트남 수도",
+                tags: ["미식", "역사"],
+                landmark: "Hoan Kiem Lake",
+                airports: [{ name: "노이바이국제공항", code: "HAN" }],
+                timezone: 7
+            },
+            {
+                name: "호치민",
+                engName: "Ho Chi Minh",
+                country: "베트남",
+                desc: "활기찬 미식과 야경의 남부 대도시",
+                tags: ["미식", "도시"],
+                landmark: "Ben Thanh Market",
+                airports: [{ name: "호치민 떤선녓국제공항", code: "SGN" }],
+                timezone: 7
+            },
+            {
+                name: "보라카이",
+                engName: "Boracay",
+                country: "필리핀",
+                desc: "화이트 비치와 해양 액티비티의 섬 휴양지",
+                tags: ["해변", "휴양"],
+                landmark: "White Beach Boracay",
+                airports: [{ name: "보라카이 카티클란공항", code: "MPH" }, { name: "칼리보국제공항", code: "KLO" }],
                 timezone: 8
             },
         ]

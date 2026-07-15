@@ -1,0 +1,187 @@
+import type { AccommodationData } from '../index';
+
+
+const accommodations: AccommodationData[] = [
+    {
+        name: "소피텔 레전드 메트로폴 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.025628, lng: 105.8555758 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "카펠라 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0257164, lng: 105.8566886 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "페리도 그랜드 럭셔리 부티크 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0329875, lng: 105.8463034 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "라 시에스타 클래식 마마이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0342503, lng: 105.8532333 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "애프리콧 호텔 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0282089, lng: 105.8508662 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "인터컨티넨탈 하노이 웨스트레이크",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0588067, lng: 105.8323596 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "롯데 호텔 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0320526, lng: 105.8130247 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "JW 메리어트 호텔 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0069564, lng: 105.783168 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "팬 퍼시픽 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0499731, lng: 105.839611 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "디 오리엔탈 제이드 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0296357, lng: 105.8501373 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "하노이 티란트 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0331527, lng: 105.8523247 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "실크 패스 호텔 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0255737, lng: 105.8524211 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "뫼벤픽 호텔 하노이 센터",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.024698, lng: 105.8440815 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "그랜드 호텔 뒤 락 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0306722, lng: 105.8496657 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+    {
+        name: "호텔 드 로페라 하노이",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        city: "Hanoi",
+        coordinates: { lat: 21.0244007, lng: 105.8555913 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "하노이 주요 숙소",
+        tags: ["하노이"]
+    },
+];
+
+export default accommodations;
