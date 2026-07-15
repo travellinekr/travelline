@@ -53,7 +53,7 @@ export default function BetaPopup() {
                     </div>
 
                     <h2 className="text-2xl font-black text-white leading-tight mb-2">
-                        6월 그랜드 오픈
+                        8월 그랜드 오픈
                     </h2>
                     <p className="text-slate-400 text-sm leading-relaxed">
                         현재 내부 테스트 중입니다.<br />
