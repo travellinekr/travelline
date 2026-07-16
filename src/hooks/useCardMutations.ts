@@ -143,7 +143,7 @@ export function useCardMutations() {
         } else {
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0 }) => {
+    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0, flightPlacement }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -223,22 +223,33 @@ export function useCardMutations() {
         if (targetCol) {
             const targetList = targetCol.get("cardIds");
 
-            // 🎯 flight 카테고리는 날짜/시간순으로 자동 정렬
+            // 🎯 flight 카테고리 배치
             if (category === 'flight' && date) {
-                // 현재 컬럼의 모든 카드 확인
-                let insertIndex = targetList.length; // 기본값: 맨 뒤
+                let insertIndex: number;
 
-                for (let i = 0; i < targetList.length; i++) {
-                    const existingCardId = targetList.get(i);
-                    const existingCard = cards.get(existingCardId);
-
-                    if (existingCard && existingCard.get('category') === 'flight') {
-                        const existingDate = existingCard.get('date') || '';
-
-                        // 날짜 비교 (같은 날짜면 생성 순서대로)
-                        if (new Date(date) < new Date(existingDate)) {
-                            insertIndex = i;
-                            break;
+                if (flightPlacement === 'top') {
+                    // 가는편: 일반(비-flight) 카드보다 위. 앞쪽의 연속된 flight 카드 클러스터 뒤에 삽입
+                    //  → 기존 항공 카드(출발 등) 뒤·일반 카드 앞 → 생성 순서(출발→도착) 유지하며 최상단 고정
+                    insertIndex = 0;
+                    while (insertIndex < targetList.length) {
+                        const c = cards.get(targetList.get(insertIndex));
+                        if (c && c.get('category') === 'flight') insertIndex++;
+                        else break;
+                    }
+                } else if (flightPlacement === 'bottom') {
+                    // 오는편: 항상 맨 아래 (일반 카드 아래, 생성 순서 유지)
+                    insertIndex = targetList.length;
+                } else {
+                    // 기본(도시간 항공편 등): flight 카드끼리 날짜순 정렬, 같은 날짜면 생성 순서대로
+                    insertIndex = targetList.length;
+                    for (let i = 0; i < targetList.length; i++) {
+                        const existingCard = cards.get(targetList.get(i));
+                        if (existingCard && existingCard.get('category') === 'flight') {
+                            const existingDate = existingCard.get('date') || '';
+                            if (new Date(date) < new Date(existingDate)) {
+                                insertIndex = i;
+                                break;
+                            }
                         }
                     }
                 }

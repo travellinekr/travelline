@@ -115,7 +115,15 @@ export function useDragDrop<TCategory extends string>({
 
         const pointerCollisions = pointerWithin(args);
         if (pointerCollisions.length > 0) {
-            return pointerCollisions;
+            // 카드 위에 드롭하면 그 카드 위치에 삽입되도록, 일차 컨테이너(-timeline)보다
+            // 카드 충돌을 우선 반환. (인박스→타임라인 드롭이 항상 맨 아래로 가던 문제 해결)
+            // 빈 영역에 드롭하면 카드 충돌이 없어 컨테이너가 그대로 잡힘 → 기존처럼 맨 뒤 append.
+            const cardFirst = [...pointerCollisions].sort((a, b) => {
+                const aIsContainer = String(a.id).includes('timeline') ? 1 : 0;
+                const bIsContainer = String(b.id).includes('timeline') ? 1 : 0;
+                return aIsContainer - bIsContainer;
+            });
+            return cardFirst;
         }
         return closestCenter(args);
     }, []);

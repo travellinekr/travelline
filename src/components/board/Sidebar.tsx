@@ -1,5 +1,4 @@
 import { Card, FlightInfo } from "@/liveblocks.config";
-import { calculateTripDaysFromFlightInfo } from "@/utils/calculateTripDays";
 import { Plane, MapPin } from "lucide-react";
 
 interface SidebarProps {
@@ -53,22 +52,15 @@ export function Sidebar({
         }
     };
 
-    // Handle itinerary click (before flight registration)
-    const handleItineraryClick = () => {
-        addToast('✈️ 항공편을 먼저 등록해주세요', 'warning');
-    };
-
-    // Calculate days - always show day0, add more if flight is registered
+    // Calculate days - day0 + 실제 존재하는 day1.. 컬럼 기준 (항공편 유무와 무관)
+    // 항공편 없이 "미리 일정 만들기"로 생성한 일차도 사이드바에 노출된다.
+    // Timeline 과 동일하게 첫 빈 day 에서 멈춤(연속 구간만 노출).
     const days = (() => {
-        // Always include day0
         const baseDays = [{ id: 'day0', label: '0', sublabel: '준비' }];
 
-        // If flight registered, add remaining days
-        if (flightInfo) {
-            const dayCount = calculateTripDaysFromFlightInfo(flightInfo);
-            for (let i = 1; i <= dayCount; i++) {
-                baseDays.push({ id: `day${i}`, label: `${i}`, sublabel: '일차' });
-            }
+        for (let i = 1; i <= 30; i++) {
+            if (!columns?.get(`day${i}`)) break;
+            baseDays.push({ id: `day${i}`, label: `${i}`, sublabel: '일차' });
         }
 
         return baseDays;

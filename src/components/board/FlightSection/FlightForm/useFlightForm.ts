@@ -278,17 +278,14 @@ export function useFlightForm(
         }
     }, []);
 
-    // 일정 단축 시 dayCount 초과 day 컬럼 정리 — 카드는 inbox 로 이동 후 컬럼 삭제
-    // 반환값: inbox 로 이동된 카드 개수 (토스트 안내용)
+    // 일정 단축 시 dayCount 초과 day 컬럼 정리 — 카드는 "확정되지 않은 일정"(unconfirmed) 으로 이동 후 컬럼 삭제
+    // 반환값: 이동된 카드 개수 (토스트 안내용)
     const pruneExcessDayColumns = useMutation(({ storage }, maxDayNum: number): number => {
         const columns = storage.get('columns') as any;
         const columnOrder = storage.get('columnOrder') as any;
-        const inboxCol = columns.get('inbox');
-        if (!inboxCol) return 0;
 
-        const inboxList = inboxCol.get('cardIds');
         const toRemove: string[] = [];
-        let moved = 0;
+        const pending: string[] = []; // 먼저 수집 후 이동 (순회 중 컬럼 추가 방지)
 
         for (const [colId, col] of columns.entries()) {
             const match = /^day([1-9]\d*)$/.exec(colId);
@@ -296,14 +293,29 @@ export function useFlightForm(
             const dayNum = parseInt(match[1]);
             if (dayNum <= maxDayNum) continue;
 
-            // 잘려나간 day 컬럼의 카드들을 inbox 로 이동 (cards LiveMap 은 그대로 유지)
+            // 잘려나간 day 컬럼의 카드들 수집 (cards LiveMap 은 그대로 유지 → 메모 등 보존)
             const list = col.get('cardIds');
             const cardIds: string[] = list.toArray ? list.toArray() : [];
-            for (const cardId of cardIds) {
-                inboxList.push(cardId);
+            pending.push(...cardIds);
+            toRemove.push(colId);
+        }
+
+        let moved = 0;
+        if (pending.length > 0) {
+            let unconfirmedCol = columns.get('unconfirmed');
+            if (!unconfirmedCol) {
+                columns.set('unconfirmed', new LiveObject({
+                    id: 'unconfirmed',
+                    title: '확정되지 않은 일정',
+                    cardIds: new LiveList<string>([]),
+                }));
+                unconfirmedCol = columns.get('unconfirmed');
+            }
+            const unconfirmedList = unconfirmedCol.get('cardIds');
+            for (const cardId of pending) {
+                unconfirmedList.push(cardId);
                 moved++;
             }
-            toRemove.push(colId);
         }
 
         // 컬럼 + columnOrder 에서 제거
@@ -750,7 +762,7 @@ export function useFlightForm(
         // 🧹 일정 단축 시 잘려나간 day 컬럼 정리 — non-flight 카드는 inbox 로 이동
         const movedCount = pruneExcessDayColumns(dayCount);
         if (movedCount > 0) {
-            addToast(`일정이 줄어 ${movedCount}개의 카드가 보관함으로 이동됐어요.`, 'info');
+            addToast(`일정이 줄어 ${movedCount}개의 카드가 '확정되지 않은 일정'으로 이동됐어요.`, 'info');
         }
 
         // 날짜로 Day 컬럼 ID 찾기 헬퍼 함수
@@ -788,10 +800,8 @@ export function useFlightForm(
                 return;
             }
 
-            // 가는편 계열인지 오는편 계열인지에 따라 targetIndex 결정
-            // 가는편: 맨 위 (0), 오는편: 맨 아래 (undefined = push)
-            const targetIndex = isOutbound ? 0 : undefined;
-
+            // 가는편: day1 최상단 고정 / 오는편: 마지막날 최하단 고정
+            // (일반 일정 카드가 이미 있어도 위/아래로 배치 — flightPlacement 로 createCardToColumn 이 처리)
             createCardToColumn({
                 title: airline,
                 time: time,
@@ -802,7 +812,7 @@ export function useFlightForm(
                 date: date,
                 coordinates: coordinates, // GPS 좌표 전달
                 targetColumnId: dayColumnId,
-                targetIndex: targetIndex
+                flightPlacement: isOutbound ? 'top' : 'bottom'
             });
         };
 

@@ -593,8 +593,20 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 return;
             }
 
-            // flightInfo가 있으면 confirm 창 띄우기
-            if (flightInfo) {
+            // flightInfo, 작성된 일차(day1+), 또는 "확정되지 않은 일정" 카드가 있으면 confirm 창 띄우기
+            // (항공편 없이 "미리 일정 만들기"로 짠 일정 / 밀려나 있는 카드도 초기화 전에 물어봄)
+            const hasItineraryDays = (() => {
+                for (const col of (columns as any).values()) {
+                    if (/^day[1-9]\d*$/.test(col.id)) return true;
+                    if (col.id === 'unconfirmed') {
+                        const list = col.cardIds;
+                        const len = Array.isArray(list) ? list.length : (list?.length ?? 0);
+                        if (len > 0) return true;
+                    }
+                }
+                return false;
+            })();
+            if (flightInfo || hasItineraryDays) {
                 setPendingDestinationDrop({
                     activeId: String(activeId),
                     draggedCard,
@@ -619,13 +631,15 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
 
         if (sourceColumnId === 'inbox' && targetColumnId !== 'inbox') {
-            // 맨 뒤에 추가: targetIndex가 없으면 기존 카드 개수를 사용
-            let finalTargetIndex = targetIndex;
-            if (typeof targetIndex !== 'number') {
-                const targetCol = (columns as any).get(targetColumnId);
-                finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
-            }
-            copyCardToTimeline({ originalCardId: activeId, targetColumnId, targetIndex: finalTargetIndex });
+            // ❌ (기존) targetIndex 없으면 맨 아래로 강제 → 드롭 위치가 무시되던 원인. 주석 처리.
+            // let finalTargetIndex = targetIndex;
+            // if (typeof targetIndex !== 'number') {
+            //     const targetCol = (columns as any).get(targetColumnId);
+            //     finalTargetIndex = targetCol ? targetCol.cardIds.length : 0;
+            // }
+            // ✅ 드롭한 카드 위치(targetIndex)에 그대로 삽입.
+            //    빈 영역에 드롭하면 targetIndex=undefined → 뮤테이션이 맨 뒤에 push (기존 동작 유지).
+            copyCardToTimeline({ originalCardId: activeId, targetColumnId, targetIndex });
         } else if (sourceColumnId !== 'inbox' && targetColumnId === 'inbox') {
             // 도시간 항공편 메타 카드 → 자식 항공 카드까지 cascade 삭제 (메타 자체도 제거)
             if (typeof activeId === 'string' && activeId.startsWith('intercity-flight-')) {
@@ -769,7 +783,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         onConfirm={handleConfirmDestinationChange}
                                         onCancel={handleCancelDestinationChange}
                                     >
-                                        항공편 정보가 있습니다. 항공편과 일정이 리셋됩니다.
+                                        {flightInfo
+                                            ? '항공편 정보가 있습니다. 항공편과 일정이 리셋됩니다.'
+                                            : '작성한 일정이 초기화됩니다.'}
                                         <br />
                                         변경하시겠습니까?
                                     </Confirm>

@@ -3,6 +3,8 @@ import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable"
 import { DraggableCard } from "./DraggableCard";
 import { memo, useState, useMemo, useCallback, useEffect } from "react";
 import { FlightSection } from "./FlightSection";
+import { PrePlanControl } from "./PrePlanControl";
+import { UnconfirmedSection } from "./UnconfirmedSection";
 import { MapPin, Map } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
@@ -28,6 +30,11 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
       addToast?.('공유에 필요한 정보가 부족해요.', 'warning');
       return;
     }
+    // 🚫 항공편 미등록('미리 일정 만들기'로만 짠 일정) → 공유 불가
+    if (!flightInfo?.outbound?.date || !flightInfo?.return?.date) {
+      addToast?.('항공편을 등록한 여행만 공유할 수 있어요.', 'warning');
+      return;
+    }
     const snapshot = buildSharedPlanSnapshot({ columns, cards: cardsMap, flightInfo });
     if (!snapshot) {
       addToast?.('여행지가 선택되지 않았어요.', 'warning');
@@ -36,6 +43,16 @@ const DestinationHeaderSection = memo(function DestinationHeaderSection({ cards,
     const hasAnyDayCard = snapshot.days.some((d) => d.cards.length > 0);
     if (!hasAnyDayCard) {
       addToast?.('일차에 카드를 하나 이상 추가한 후 공유해주세요.', 'warning');
+      return;
+    }
+    // 🚫 여행이 끝난(일정이 지난) 후에만 공유 허용 — 종료일이 오늘 이후면 차단
+    const endStr = flightInfo.return.arrivalDate || flightInfo.return.date;
+    const tripEnd = new Date(endStr);
+    tripEnd.setHours(0, 0, 0, 0);
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    if (tripEnd.getTime() >= today.getTime()) {
+      addToast?.('여행이 끝난 후에 공유할 수 있어요.', 'warning');
       return;
     }
     setShareModalOpen(true);
@@ -251,7 +268,11 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
   // 미래 일차 판정 — 사진 추가는 당일 이후(=오늘 이하)부터만 노출
   const isFutureDay = useMemo(() => {
-    if (!flightInfo?.outbound?.date || !(dayNumber >= 1)) return false;
+    // day0(준비) 등 날짜 개념 없는 컬럼은 미래로 보지 않음(사진 영역 노출 허용)
+    if (!(dayNumber >= 1)) return false;
+    // 항공편(날짜) 미등록 = "미리 일정 만들기"로 만든 일차 → 실제 달력 날짜가 없어
+    // '당일 이후'를 판정할 수 없음. 아직 확정 안 된 계획이므로 미래로 간주해 사진 업로드 숨김.
+    if (!flightInfo?.outbound?.date) return true;
     const dayDate = new Date(flightInfo.outbound.date);
     dayDate.setDate(dayDate.getDate() + (dayNumber - 1));
     dayDate.setHours(0, 0, 0, 0);
@@ -466,6 +487,12 @@ export const Timeline = memo(function Timeline({
     return day0Column?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
   }, [columns, cards]);
 
+  // "확정되지 않은 일정" — 일정 축소로 밀려난 카드들이 모이는 임시 영역 (카드 있을 때만 렌더)
+  const unconfirmedCards = useMemo(() => {
+    const col = columns.get("unconfirmed");
+    return col?.cardIds?.map((id: string) => cards.get(id)).filter(Boolean) || [];
+  }, [columns, cards]);
+
   // 드래그 중인 카드가 destination-header에서 나온 것인지 확인
   const isDraggingFromHeader = active?.id && destHeaderCards.some((card: any) => card.id === active.id);
 
@@ -554,6 +581,16 @@ export const Timeline = memo(function Timeline({
             )}
             {shouldRenderDays && (
               <>
+                {/* 미리 일정 만들기 — 항공편 바로 아래 고정. 여행지 선택 + 항공편 미등록 시에만 노출(등록되면 사라짐).
+                    반영 시 아래 day0/일차들이 생성/갱신된다. */}
+                {!flightInfo && canEdit && destHeaderCards.length > 0 && (
+                  <PrePlanControl
+                    currentDayCount={dayColumns.length}
+                    hasItineraryCards={dayColumns.some(d => d.cards.length > 0)}
+                    addToast={addToast}
+                  />
+                )}
+
                 <DaySection
                   dayId="day0"
                   title="0일차 (준비)"
@@ -576,6 +613,11 @@ export const Timeline = memo(function Timeline({
                     flightInfo={flightInfo}
                   />
                 ))}
+
+                {/* 확정되지 않은 일정 — 타임라인 맨 아래, 밀려난 카드 있을 때만 노출 */}
+                {unconfirmedCards.length > 0 && (
+                  <UnconfirmedSection cards={unconfirmedCards} canEdit={canEdit} />
+                )}
 
                 {/* 통합 지도 모달 (Timeline 레벨에서 하나만) */}
                 <DayMapModal

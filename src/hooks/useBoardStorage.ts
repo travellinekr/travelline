@@ -50,6 +50,19 @@ export function useBoardStorage({
                 columnOrderList.delete(i);
             }
         }
+
+        // "확정되지 않은 일정"(unconfirmed) 도 전체 리셋에 포함 — 컬럼 + 카드 객체까지 삭제
+        // (columnOrder 에는 없지만 방어적으로 함께 제거)
+        const unconfirmedCol = columnsMap.get('unconfirmed');
+        if (unconfirmedCol) {
+            const cardsMap = storage.get('cards') as any;
+            const list = unconfirmedCol.get('cardIds');
+            const ids: string[] = list?.toArray ? list.toArray() : [];
+            if (cardsMap) ids.forEach((id: string) => cardsMap.delete(id));
+            columnsMap.delete('unconfirmed');
+            const uIdx = columnOrderList.toArray().indexOf('unconfirmed');
+            if (uIdx !== -1) columnOrderList.delete(uIdx);
+        }
     }, []);
 
     // [긴급 복구] 데이터가 로드되었으나 필수 컬럼이 비어있을 경우 자동 초기화
