@@ -6,7 +6,7 @@ import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/
 
 // 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
 const ACCOMMODATION_TYPE_ICONS: Record<string, string> = {
-    hotel: '🏨',
+    hotel: '🌆',
     resort: '🏖️',
     airbnb: '🏠',
     hostel: '🛏️',
@@ -27,11 +27,21 @@ function checkHasNotes(notes: any): boolean {
     );
 }
 
+// 숙소 가격 등급 → 라벨/별/색(테두리). 별: 럭셔리 3 · 고급 2 · 가성비/저가 1
+const TIER: Record<string, { label: string; stars: string; cls: string }> = {
+    luxury:  { label: '럭셔리', stars: '★★★', cls: 'text-amber-600 bg-amber-50 border-amber-200' },
+    upscale: { label: '고급',   stars: '★★',   cls: 'text-violet-600 bg-violet-50 border-violet-200' },
+    value:   { label: '가성비', stars: '★',    cls: 'text-emerald-600 bg-emerald-50 border-emerald-200' },
+    budget:  { label: '저가',   stars: '★',    cls: 'text-slate-500 bg-slate-50 border-slate-200' },
+};
+
 export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardProps) {
     const displayTags = card.tags?.slice(0, 3) || [];
     const showCheckOut = card.showCheckOut || false;
     const displayIcon = card.icon || (card.accommodationType && ACCOMMODATION_TYPE_ICONS[card.accommodationType]) || null;
     const hasNotes = checkHasNotes(card.notes);
+    // 가격 등급(있으면 라벨/별 표시). 없으면 기존 Hotel/Resort 라벨로 폴백.
+    const tierInfo = card.priceTier ? TIER[card.priceTier] : null;
 
     const { anchorCard } = useAnchor();
     const anchorDist =
@@ -76,9 +86,21 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
                     <span className="text-[11px] text-gray-500 shrink-0">
                         {showCheckOut ? (card.checkOutTime || "11:00") : (card.checkInTime || "15:00")}
                     </span>
-                    {displayTags.length > 0 && (
+                    {/* 등급 별 (예산 등급) — 설명 앞, 등급별 색 테두리 */}
+                    {tierInfo && (
                         <>
                             <span className="text-gray-300 shrink-0">|</span>
+                            <span
+                                className={`text-[10px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${tierInfo.cls}`}
+                                title={`${tierInfo.label} 등급`}
+                            >
+                                {tierInfo.stars}
+                            </span>
+                        </>
+                    )}
+                    {displayTags.length > 0 && (
+                        <>
+                            {!tierInfo && <span className="text-gray-300 shrink-0">|</span>}
                             <span className="text-[11px] text-gray-500 truncate min-w-0">
                                 {displayTags.join(' · ')}
                             </span>

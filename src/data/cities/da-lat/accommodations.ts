@@ -7,195 +7,210 @@ const accommodations: AccommodationData[] = [
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "luxury",
         city: "Da Lat",
         coordinates: { lat: 11.944039, lng: 108.4236 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "프렌치 빌라 감성과 조용한 휴식이 좋은 리조트입니다.",
         tags: ["리조트", "부티크"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "달랏 팰리스 헤리티지 호텔",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9376173, lng: 108.4403766 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호수 근처의 클래식한 헤리티지 호텔입니다.",
         tags: ["헤리티지", "중심지"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "뒤 파크 호텔 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9366386, lng: 108.4389673 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "고전적인 분위기와 도심 접근성이 좋은 호텔입니다.",
         tags: ["헤리티지", "가성비"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "콜린 달랏 호텔",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9439482, lng: 108.4381016 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "달랏 시장과 도심 접근성이 좋은 현대식 호텔입니다.",
         tags: ["중심지", "쇼핑"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "테라코타 호텔 앤 리조트 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "upscale",
         city: "Da Lat",
         coordinates: { lat: 11.8948927, lng: 108.4380538 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "뚜옌럼 호수 근처의 조용한 리조트입니다.",
         tags: ["호수", "휴양"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "달랏 에덴시 레이크 리조트",
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "upscale",
         city: "Da Lat",
         coordinates: { lat: 11.8868268, lng: 108.4235015 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호수 전망과 휴양 분위기가 강점인 리조트입니다.",
         tags: ["호수", "리조트"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "스위스 벨리조트 뚜옌럼 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "upscale",
         city: "Da Lat",
         coordinates: { lat: 11.8824243, lng: 108.4518585 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "골프장과 산 전망이 좋은 외곽 리조트입니다.",
         tags: ["골프", "리조트"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "머펄 달랏 호텔",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9411183, lng: 108.4583036 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "깔끔한 시설과 가족 여행 동선에 좋은 호텔입니다.",
         tags: ["가족 여행", "호텔"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "골프 밸리 호텔 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9475322, lng: 108.4405789 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "도심 접근성과 현대적인 객실이 장점입니다.",
         tags: ["중심지", "호텔"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "TTC 호텔 프리미엄 응옥란",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9407891, lng: 108.4365157 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "쑤언흐엉 호수와 시장 접근성이 좋은 호텔입니다.",
         tags: ["호수", "중심지"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "라달랏 호텔",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9777592, lng: 108.4512095 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "사랑의 계곡 방면 동선에 좋은 대형 호텔입니다.",
         tags: ["가족 여행", "외곽"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "킹스 호텔 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.943505, lng: 108.4405111 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시장과 호수 접근성이 좋은 실용적인 호텔입니다.",
         tags: ["중심지", "가성비"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "므엉탄 홀리데이 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
+        priceTier: "value",
         city: "Da Lat",
         coordinates: { lat: 11.9438404, lng: 108.4399551 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "시내 중심 동선과 기본 시설이 무난한 호텔입니다.",
         tags: ["중심지", "가성비"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "빈안 빌리지 리조트 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "upscale",
         city: "Da Lat",
         coordinates: { lat: 11.8877595, lng: 108.4176396 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "호숫가 빌리지 분위기의 조용한 휴양 리조트입니다.",
         tags: ["호수", "리조트"],
-        icon: "🏨"
+        icon: "🌆"
     },
     {
         name: "샘 뚜옌럼 리조트 달랏",
         showInInbox: true,
         hasInfo: true,
         type: "resort",
+        priceTier: "upscale",
         city: "Da Lat",
         coordinates: { lat: 11.8851579, lng: 108.4298873 },
         checkInTime: "15:00",
         checkOutTime: "12:00",
         description: "뚜옌럼 호수 근처에서 조용히 쉬기 좋은 리조트입니다.",
         tags: ["호수", "휴양"],
-        icon: "🏨"
+        icon: "🌆"
     },
 ];
 

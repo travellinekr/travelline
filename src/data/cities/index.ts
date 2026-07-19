@@ -1,9 +1,12 @@
 // 숙소
 export type AccommodationType = 'hotel' | 'resort' | 'airbnb' | 'hostel' | 'guesthouse';
+// 가격 등급: budget(저가) < value(가성비) < upscale(고급) < luxury(럭셔리)
+export type PriceTier = 'budget' | 'value' | 'upscale' | 'luxury';
 
 export type AccommodationData = {
     name: string;
     type: AccommodationType;
+    priceTier?: PriceTier;   // 예산 매칭용 가격 등급 (AI 플래너)
     coordinates: { lat: number; lng: number };
     checkInTime: string;
     checkOutTime: string;

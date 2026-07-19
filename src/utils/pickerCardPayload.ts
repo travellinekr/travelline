@@ -14,6 +14,7 @@ export function buildPickerCardPayload(
                 ...base,
                 title: draggedCard.title,
                 accommodationType: draggedCard.accommodationType,
+                priceTier: draggedCard.priceTier,
                 checkInTime: draggedCard.checkInTime,
                 checkOutTime: draggedCard.checkOutTime,
                 city: draggedCard.city,

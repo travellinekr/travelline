@@ -12,15 +12,22 @@ export function useFloatingButton({
     throttledUpdateMyPresence,
     setIsMobileDragging,
     setMobileCursorPos,
+    onTap,
 }: {
     containerRef: React.RefObject<HTMLDivElement | null>;
     inboxState: 'closed' | 'open';
     throttledUpdateMyPresence: (cursor: { x: number; y: number }) => void;
     setIsMobileDragging: (v: boolean) => void;
     setMobileCursorPos: (pos: { x: number; y: number }) => void;
+    // 드래그가 아닌 "탭"(짧게 터치했다 뗌)일 때 호출 — AI 팝업 오픈용
+    onTap?: () => void;
 }) {
     const floatingBtnRef = useRef<HTMLDivElement>(null);
     const cachedContainerRect = useRef<DOMRect | null>(null);
+    // 탭/드래그 구분용: 터치 시작 지점 + 이동 임계 초과 여부
+    const touchStartPos = useRef<{ x: number; y: number } | null>(null);
+    const movedBeyondThreshold = useRef(false);
+    const TAP_MOVE_THRESHOLD = 8; // px
 
     // 마운트 시 초기 위치 세팅
     useEffect(() => {
@@ -41,6 +48,10 @@ export function useFloatingButton({
     const handleTouchStart = (e: React.TouchEvent) => {
         e.stopPropagation();
         setIsMobileDragging(true);
+        // 탭 판정 초기화
+        const t = e.touches[0];
+        touchStartPos.current = { x: t.clientX, y: t.clientY };
+        movedBeyondThreshold.current = false;
         if (containerRef.current) {
             cachedContainerRect.current = containerRef.current.getBoundingClientRect();
         }
@@ -50,6 +61,12 @@ export function useFloatingButton({
         e.stopPropagation();
 
         const touch = e.touches[0];
+        // 시작 지점에서 임계 이상 벗어나면 드래그로 간주(탭 아님)
+        if (touchStartPos.current) {
+            const dx = touch.clientX - touchStartPos.current.x;
+            const dy = touch.clientY - touchStartPos.current.y;
+            if (Math.hypot(dx, dy) > TAP_MOVE_THRESHOLD) movedBeyondThreshold.current = true;
+        }
         const newX = touch.clientX - 28;
         const newY = touch.clientY - 28;
 
@@ -92,6 +109,13 @@ export function useFloatingButton({
                 setMobileCursorPos({ x: parseFloat(match[1]), y: parseFloat(match[2]) });
             }
         }
+
+        // 이동이 거의 없었으면 탭 → AI 팝업 오픈 (드래그면 무시)
+        if (!movedBeyondThreshold.current) {
+            onTap?.();
+        }
+        touchStartPos.current = null;
+        movedBeyondThreshold.current = false;
     };
 
     return {

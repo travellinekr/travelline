@@ -1,10 +1,11 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X, Share2 } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X, Share2, Sparkles } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
 import { memo, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
+import { AiAssistantPanel } from "./AiAssistant/AiAssistantPanel";
 
 // 카테고리 탭 클릭 시점에 chunk 로드. 보드 진입 메인 청크에서 picker 코드 + CITY_DATA(~120KB) 분리.
 const PickerLoading = () => (
@@ -37,7 +38,7 @@ const ANCHOR_BANNER_COLORS: Record<string, string> = {
   tourspa: 'bg-cyan-50 border-cyan-200 text-cyan-800',
 };
 
-export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, flightInfo, activeDragItem, canEdit = true, roomId, subCities = [] }: any) {
+export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCategory, onCreateCard, onRemoveCard, destinationCard, flightInfo, activeDragItem, canEdit = true, roomId, subCities = [], aiPanelOpen = false, onOpenAiPanel, onCloseAiPanel, onAiGenerate, onAiRecommend, aiBusy, aiController }: any) {
 
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
   const { anchorCard, toggleAnchor, scrollToAnchor } = useAnchor();
@@ -132,32 +133,34 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         {/* 1단 */}
         <div className="flex items-center px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {topTabs.map(renderTab)}
-          {(() => {
-            const canShare = !!destinationCard?.city && !!flightInfo?.outbound?.date;
-            const disabledTitle = !destinationCard?.city
-              ? '여행지를 먼저 등록해주세요'
-              : !flightInfo?.outbound?.date
-                ? '항공편을 먼저 등록해주세요'
-                : '';
-            return (
-              <button
-                type="button"
-                disabled={!canShare}
-                title={disabledTitle || undefined}
-                onClick={() => setShowSharedPlans((v) => !v)}
-                className={`ml-auto shrink-0 px-3 py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 transition-all duration-300 ease-out border ${
-                  !canShare
-                    ? 'bg-slate-100 border-slate-200 text-slate-400 cursor-not-allowed'
-                    : showSharedPlans
-                      ? 'bg-orange-500 border-orange-500 text-white shadow-lg shadow-orange-200/50 scale-105'
-                      : 'bg-orange-400 border-orange-400 text-white shadow-lg shadow-orange-200/50 hover:bg-orange-500 hover:border-orange-500'
-                }`}
-              >
-                <Share2 className="w-3.5 h-3.5 md:w-4 md:h-4" />
-                공유플랜
-              </button>
-            );
-          })()}
+          <div className="ml-auto flex items-center gap-1.5 md:gap-2 shrink-0">
+            {(() => {
+              const canShare = !!destinationCard?.city && !!flightInfo?.outbound?.date;
+              const disabledTitle = !destinationCard?.city
+                ? '여행지를 먼저 등록해주세요'
+                : !flightInfo?.outbound?.date
+                  ? '항공편을 먼저 등록해주세요'
+                  : '';
+              return (
+                <button
+                  type="button"
+                  disabled={!canShare}
+                  title={disabledTitle || undefined}
+                  onClick={() => setShowSharedPlans((v) => !v)}
+                  className={`shrink-0 px-3 py-1.5 rounded-full text-xs md:text-sm font-semibold flex items-center gap-1.5 transition-all duration-300 ease-out border ${
+                    !canShare
+                      ? 'bg-slate-100 border-slate-200 text-slate-400 cursor-not-allowed'
+                      : showSharedPlans
+                        ? 'bg-orange-500 border-orange-500 text-white shadow-lg shadow-orange-200/50 scale-105'
+                        : 'bg-orange-400 border-orange-400 text-white shadow-lg shadow-orange-200/50 hover:bg-orange-500 hover:border-orange-500'
+                  }`}
+                >
+                  <Share2 className="w-3.5 h-3.5 md:w-4 md:h-4" />
+                  공유플랜
+                </button>
+              );
+            })()}
+          </div>
         </div>
         {/* 2단 */}
         <div className="flex px-4 pt-1 pb-3 md:pb-3 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
@@ -275,6 +278,35 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
 
         </div>
       </div>
+
+      {/* 데스크톱 전용 AI 플래너 플로팅 버튼 — 인박스 영역 우하단 고정 (모바일은 타임라인 플로팅 버튼) */}
+      {canEdit && onOpenAiPanel && !aiPanelOpen && (
+        <button
+          type="button"
+          onClick={onOpenAiPanel}
+          title="AI 플래너"
+          aria-label="AI 플래너 열기"
+          className="hidden md:flex absolute bottom-10 right-10 z-30 w-14 h-14 rounded-2xl items-center justify-center cursor-pointer active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"
+        >
+          {/* 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 (모바일 버튼과 동일) */}
+          <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />
+          <span className="relative flex items-center justify-center">
+            <Sparkles className="absolute w-8 h-8 text-white/45" strokeWidth={1.6} fill="currentColor" fillOpacity={0.2} />
+            <span className="relative text-white font-extrabold text-base tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)]">AI</span>
+          </span>
+        </button>
+      )}
+
+      {/* AI 플래너 패널 (데스크톱) — 인박스 영역 전체를 덮는 오버레이. 모바일은 최상위에서 독립 렌더. */}
+      <AiAssistantPanel
+        open={aiPanelOpen}
+        onClose={onCloseAiPanel}
+        containerClassName="absolute inset-0 z-40 hidden md:flex"
+        controller={aiController}
+        onGenerate={onAiGenerate}
+        onRecommend={onAiRecommend}
+        busy={aiBusy}
+      />
     </aside>
   );
 });

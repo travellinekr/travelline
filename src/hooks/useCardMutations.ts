@@ -78,7 +78,7 @@ export function useCardMutations() {
         }
     }, []);
 
-    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address, hasInfo, etcItem = '' }) => {
+    const createCard = useMutation(({ storage }, { title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, priceTier, checkInTime, checkOutTime, showCheckOut, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, address, hasInfo, etcItem = '' }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -100,8 +100,10 @@ export function useCardMutations() {
             route,
             coordinates,
             accommodationType,
+            priceTier,
             checkInTime,
             checkOutTime,
+            showCheckOut, // 숙소: true=체크아웃 카드, false/undefined=체크인 카드
             tags,
             transportationType,
             priceRange,
@@ -143,7 +145,7 @@ export function useCardMutations() {
         } else {
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, checkInTime, checkOutTime, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0, flightPlacement }) => {
+    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, priceTier, checkInTime, checkOutTime, showCheckOut, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0, flightPlacement }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -182,8 +184,10 @@ export function useCardMutations() {
             route,
             coordinates,
             accommodationType,
+            priceTier,
             checkInTime,
             checkOutTime,
+            showCheckOut, // 숙소: true=체크아웃 카드, false/undefined=체크인 카드
             tags,
             transportationType,
             priceRange,

@@ -16,7 +16,7 @@ const IntercityMoveModal = dynamic(
     () => import("@/components/board/IntercityMoveModal").then(m => m.IntercityMoveModal),
     { ssr: false, loading: () => null }
 );
-import { Mouse, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
+import { Sparkles, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
 import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
 import { useModalPrefetch } from "@/hooks/useModalPrefetch";
@@ -54,6 +54,9 @@ import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useTripStartDateSync } from "@/hooks/useTripStartDateSync";
 import { useFloatingButton } from "@/hooks/useFloatingButton";
+import { AiAssistantPanel } from "@/components/board/AiAssistant/AiAssistantPanel";
+import { useAiPlannerChat } from "@/components/ai/useAiPlannerChat";
+import { useApplyAiPlan } from "@/hooks/useApplyAiPlan";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
 import { LiveCursors } from "../components/board/LiveCursors";
 import { SessionExpiredModal } from "@/components/auth/SessionExpiredModal";
@@ -134,6 +137,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // React State는 초기 위치용
     const [mobileCursorPos, setMobileCursorPos] = useState({ x: 0, y: 0 });
     const [isMobileDragging, setIsMobileDragging] = useState(false);
+
+    // AI 플래너 패널 열림 상태 (플로팅 버튼 탭 / 데스크톱 인박스 헤더 버튼으로 오픈)
+    const [aiPanelOpen, setAiPanelOpen] = useState(false);
+    const [aiBusy, setAiBusy] = useState(false);
+    // 기존 일차 카드가 있을 때 배치 방식(추가/새로) 확인용 대기 plan
+    const [pendingAiPlan, setPendingAiPlan] = useState<{ plan: any; warnings: string[] } | null>(null);
 
     const {
         inboxState,
@@ -241,6 +250,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         throttledUpdateMyPresence,
         setIsMobileDragging,
         setMobileCursorPos,
+        // 탭(드래그 아님) 시 AI 패널 오픈. 모바일은 인박스와 무관하게 독립 팝업으로 뜸.
+        onTap: () => setAiPanelOpen(true),
     });
 
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
@@ -259,6 +270,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         () => getPickerCityChips(destinationCard, cards),
         [destinationCard, cards]
     );
+
+    // AI 플래너 — 대화용 여행지 이름 + 공유 대화 컨트롤러(패널 개폐와 무관하게 대화 유지)
+    const aiDestinationName = (destinationCard as any)?.text || (destinationCard as any)?.city || undefined;
+    const aiChat = useAiPlannerChat({ destinationName: aiDestinationName });
+    const { applyPlan } = useApplyAiPlan();
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
@@ -744,7 +760,113 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         }
     );
 
+    // ── AI 플래너: 배치 실행 ──────────────────────────────
+    // 실제 적용(복사 배치). 패널 닫고 토스트로 결과 안내.
+    const doApplyAiPlan = (plan: any, mode: 'replace' | 'append', warnings: string[] = []) => {
+        const placed = applyPlan(plan, { mode });
+        setPendingAiPlan(null);
+        setAiPanelOpen(false);
+        let msg = placed > 0 ? `${placed}개 카드를 일정에 배치했어요.` : '배치할 카드가 없었어요.';
+        const unassigned = Array.isArray(plan?.unassigned) ? plan.unassigned.length : 0;
+        if (unassigned > 0) msg += ` 남은 카드 ${unassigned}개는 인박스에 그대로 있어요.`;
+        addToast(msg, 'info');
+    };
 
+    // 요약 확인 → (여행지 카탈로그로) generate 호출 → (기존 일차 있으면) 추가/새로 모달
+    const handleAiGenerate = async (req: any) => {
+        const destEng = (destinationCard as any)?.city;
+        if (!destEng) {
+            addToast('먼저 최종 여행지를 선택해주세요.', 'warning');
+            return;
+        }
+
+        setAiBusy(true);
+        try {
+            const res = await fetch('/api/ai-planner', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ phase: 'generate', destinationEngName: destEng, destinationName: aiDestinationName, requirements: req }),
+            });
+            const data = await res.json();
+            if (!res.ok || data.error) {
+                addToast(data.error || '배치 생성에 실패했어요.', 'warning');
+                return;
+            }
+            const plan = data.plan;
+            if (!plan?.days?.length) {
+                addToast('배치할 일정을 만들지 못했어요. 대화로 조건을 조금 더 알려주세요.', 'warning');
+                return;
+            }
+
+            // 기존 일차(day1+)에 카드가 있으면 추가/새로 물어보기
+            const hasDayCards = (() => {
+                for (let i = 1; i <= 30; i++) {
+                    const col = (columns as any)?.get(`day${i}`);
+                    if (!col) continue;
+                    const ids = col.cardIds || [];
+                    if ((ids.length ?? 0) > 0) return true;
+                }
+                return false;
+            })();
+
+            if (hasDayCards) {
+                setPendingAiPlan({ plan, warnings: data.warnings || [] });
+            } else {
+                doApplyAiPlan(plan, 'replace', data.warnings || []);
+            }
+        } catch {
+            addToast('배치 중 오류가 발생했어요. 잠시 후 다시 시도해 주세요.', 'warning');
+        } finally {
+            setAiBusy(false);
+        }
+    };
+
+    // 여행지 미정 → 시기·취향으로 도시 추천 → "여행지 후보" 컬럼에 카드로 담기 (사용자가 최종여행지로 올려 확정)
+    const handleAiRecommend = async (req: any) => {
+        setAiBusy(true);
+        try {
+            const res = await fetch('/api/ai-planner', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ phase: 'recommend-destination', requirements: req }),
+            });
+            const data = await res.json();
+            if (!res.ok || data.error) {
+                addToast(data.error || '여행지 추천에 실패했어요.', 'warning');
+                return;
+            }
+            const dests: any[] = Array.isArray(data.destinations) ? data.destinations : [];
+            if (!dests.length) {
+                addToast('추천할 여행지를 찾지 못했어요. 조건을 조금 더 알려주세요.', 'warning');
+                return;
+            }
+
+            const candCol = (columns as any)?.get('destination-candidates');
+            const startIndex = candCol?.cardIds?.length ?? 0;
+            dests.forEach((d, i) => {
+                createCardToColumn({
+                    title: d.name,           // 표시 = 한글 도시명
+                    text: d.name,
+                    category: 'destination',
+                    type: 'travel',
+                    city: d.engName,         // 식별자 = engName (승격 후 배치 모드 연결)
+                    month: req?.month || undefined,
+                    timezone: d.timezone,
+                    description: d.reason || d.desc || '',
+                    imageUrl: d.imageUrl || '',
+                    targetColumnId: 'destination-candidates',
+                    targetIndex: startIndex + i,
+                });
+            });
+
+            setAiPanelOpen(false);
+            addToast(`여행지 후보에 ${dests.length}곳을 담았어요. 마음에 드는 곳을 최종 여행지로 올려 확정해주세요.`, 'info');
+        } catch {
+            addToast('추천 중 오류가 발생했어요. 잠시 후 다시 시도해 주세요.', 'warning');
+        } finally {
+            setAiBusy(false);
+        }
+    };
 
     return (
         <AnchorContext.Provider value={anchorContextValue}>
@@ -793,14 +915,29 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                 <div
                                     ref={floatingBtnRef}
-                                    className="md:hidden fixed z-50 w-14 h-14 bg-emerald-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white cursor-grab active:cursor-grabbing touch-none active:scale-95"
-
+                                    className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"
                                     onTouchStart={handleTouchStart}
                                     onTouchEnd={handleTouchEnd}
                                     onTouchMove={handleTouchMove}
                                 >
-                                    <Mouse className="w-8 h-8 text-white fill-white/20 -rotate-12" strokeWidth={1.5} />
+                                    {/* AI 플래너 진입 — 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 */}
+                                    <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />
+                                    <span className="relative flex items-center justify-center">
+                                        <Sparkles className="absolute w-8 h-8 text-white/45" strokeWidth={1.6} fill="currentColor" fillOpacity={0.2} />
+                                        <span className="relative text-white font-extrabold text-base tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)]">AI</span>
+                                    </span>
                                 </div>
+
+                                {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업 */}
+                                <AiAssistantPanel
+                                    open={aiPanelOpen}
+                                    onClose={() => setAiPanelOpen(false)}
+                                    containerClassName="fixed inset-0 z-[70] flex md:hidden"
+                                    controller={aiChat}
+                                    onGenerate={handleAiGenerate}
+                                    onRecommend={handleAiRecommend}
+                                    busy={aiBusy}
+                                />
 
 
                                 <main className="flex-1 flex overflow-hidden relative">
@@ -893,6 +1030,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                                     canEdit={canEdit}
                                                     roomId={roomId}
                                                     subCities={subCities}
+                                                    aiPanelOpen={aiPanelOpen}
+                                                    onOpenAiPanel={() => setAiPanelOpen(true)}
+                                                    onCloseAiPanel={() => setAiPanelOpen(false)}
+                                                    aiController={aiChat}
+                                                    onAiGenerate={handleAiGenerate}
+                                                    onAiRecommend={handleAiRecommend}
+                                                    aiBusy={aiBusy}
                                                 />
                                             </div>
                                         </div>
@@ -908,6 +1052,42 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                             </div>
                         </div>
                     </DndContext >
+
+                    {/* AI 배치 방식 선택 (기존 일차에 카드가 있을 때) */}
+                    {pendingAiPlan && (
+                        <div className="fixed inset-0 z-[80] flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+                            <div className="bg-white rounded-2xl shadow-2xl max-w-sm w-full p-5 flex flex-col gap-3">
+                                <h3 className="font-bold text-slate-800 text-lg">일정을 어떻게 배치할까요?</h3>
+                                <p className="text-sm text-slate-500 leading-relaxed">
+                                    이미 일차에 카드가 있어요. 기존 일정에 이어붙일지, 새로 만들지 선택하세요.
+                                </p>
+                                <div className="flex flex-col gap-2 mt-1">
+                                    <button
+                                        type="button"
+                                        onClick={() => doApplyAiPlan(pendingAiPlan.plan, 'append', pendingAiPlan.warnings)}
+                                        className="w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm transition"
+                                    >
+                                        기존에 추가
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => doApplyAiPlan(pendingAiPlan.plan, 'replace', pendingAiPlan.warnings)}
+                                        className="w-full py-2.5 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-sm transition"
+                                    >
+                                        새로 생성
+                                        <span className="block text-[11px] text-slate-400 font-normal mt-0.5">기존 일정 카드는 '확정되지 않은 일정'으로 이동돼요</span>
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setPendingAiPlan(null)}
+                                        className="w-full py-2 text-slate-400 hover:text-slate-600 font-medium text-sm transition"
+                                    >
+                                        취소
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
 
                     {/* 토스트 메시지들 */}
                     <ToastContainer toasts={toasts} onClose={removeToast} position="bottom-center" />
