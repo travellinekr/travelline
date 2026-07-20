@@ -1,8 +1,12 @@
 'use client';
 
+import { useState } from 'react';
 import { useDroppable, useDndContext } from '@dnd-kit/core';
 import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
+import { Trash2 } from 'lucide-react';
 import { DraggableCard } from './DraggableCard';
+import { Confirm } from './Confirm';
+import { useCardMutations } from '@/hooks/useCardMutations';
 
 interface UnconfirmedSectionProps {
     cards: any[];
@@ -23,9 +27,16 @@ interface UnconfirmedSectionProps {
 export function UnconfirmedSection({ cards, canEdit = true }: UnconfirmedSectionProps) {
     const { setNodeRef, isOver } = useDroppable({ id: 'unconfirmed-timeline' });
     const { active, over } = useDndContext();
+    const { clearColumnCards } = useCardMutations();
+    const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
     const isOverCard = over ? cards.some((c: any) => c.id === over.id) : false;
     const isSectionActive = (isOver || isOverCard) && active;
+
+    const handleDeleteAll = () => {
+        clearColumnCards('unconfirmed');
+        setShowDeleteConfirm(false);
+    };
 
     const activeClass = 'border-amber-500 bg-amber-50/50 ring-2 ring-amber-100 border-dashed';
     const defaultClass = 'bg-white border-gray-200 border shadow-sm';
@@ -39,7 +50,16 @@ export function UnconfirmedSection({ cards, canEdit = true }: UnconfirmedSection
                     확정되지 않은 일정
                     <span className="text-[13px] text-slate-400 font-normal">({cards.length})</span>
                 </h3>
-                <span className="text-[11px] text-slate-400 font-medium">Unscheduled</span>
+                {canEdit && cards.length > 0 && (
+                    <button
+                        type="button"
+                        onClick={() => setShowDeleteConfirm(true)}
+                        className="flex items-center gap-1 px-2.5 py-1 text-slate-500 hover:text-rose-600 hover:bg-rose-50 border border-gray-200 rounded-lg text-xs font-medium transition-colors"
+                    >
+                        <Trash2 className="w-3.5 h-3.5" />
+                        전체 삭제
+                    </button>
+                )}
             </div>
 
             <SortableContext items={[...cards.map((c: any) => c.id)]} strategy={verticalListSortingStrategy}>
@@ -57,10 +77,18 @@ export function UnconfirmedSection({ cards, canEdit = true }: UnconfirmedSection
                     {/* 카드 리스트 */}
                     {cards.map((card: any) => {
                         if (!card) return null;
-                        return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} />;
+                        return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} disablePhoto />;
                     })}
                 </div>
             </SortableContext>
+
+            {showDeleteConfirm && (
+                <Confirm onConfirm={handleDeleteAll} onCancel={() => setShowDeleteConfirm(false)}>
+                    확정되지 않은 일정의 카드 {cards.length}개를 모두 삭제하시겠습니까?
+                    <br />
+                    삭제한 카드는 복구할 수 없습니다.
+                </Confirm>
+            )}
         </div>
     );
 }

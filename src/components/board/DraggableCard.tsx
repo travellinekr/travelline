@@ -277,7 +277,7 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
   }
 }
 
-export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick, isFutureDay = false }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void, isFutureDay?: boolean }) {
+export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick, isFutureDay = false, disablePhoto = false }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void, isFutureDay?: boolean, disablePhoto?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
   const userId = useTempUserId();
   const { selectedAnchorId, toggleAnchor } = useAnchor();
@@ -286,7 +286,8 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   const [isNotesOpen, setIsNotesOpen] = useState(false);
 
   // anchor 후보: 타임라인 변형(compact) + 헤더 아님 + 좌표 보유 (viewer는 선택 불가)
-  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates && canEdit;
+  // disablePhoto(확정되지 않은 일정 등 임시 보관 영역)면 클릭 anchor·사진 비활성
+  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates && canEdit && !disablePhoto;
   const isAnchor = isAnchorCandidate && selectedAnchorId === card.id;
   const handleAnchorClick = isAnchorCandidate ? () => toggleAnchor(card.id, card) : undefined;
 
@@ -340,7 +341,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   // 사진이 한 장이라도 있으면 anchor 해제해도 닫히지 않음
   // 미래 일차(아직 출발 전 날)는 사진 영역 자체를 숨김 — 당일/지난 일차에만 노출
   const photoCount = Array.isArray(card?.photos) ? card.photos.length : 0;
-  const showPhotoStrip = variant === 'compact' && !isHeader && !isFutureDay && (isAnchor || photoCount > 0);
+  const showPhotoStrip = !disablePhoto && variant === 'compact' && !isHeader && !isFutureDay && (isAnchor || photoCount > 0);
 
   return (
     <>

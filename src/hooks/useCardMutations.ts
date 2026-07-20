@@ -46,6 +46,18 @@ export function useCardMutations() {
         cards.delete(cardId);
     }, []);
 
+    // 컬럼의 모든 카드 제거 (cardIds 비우기 + cards LiveMap 에서 삭제) — 단일 원자 mutation
+    const clearColumnCards = useMutation(({ storage }, columnId: string) => {
+        const columns = storage.get("columns") as any;
+        const cards = storage.get("cards") as any;
+        const col = columns.get(columnId);
+        if (!col) return;
+        const list = col.get("cardIds");
+        const ids: string[] = list?.toArray ? list.toArray() : [];
+        for (const id of ids) cards.delete(id);
+        while (list.length > 0) list.delete(0);
+    }, []);
+
     const moveCard = useMutation(({ storage }, { cardId, targetColumnId, targetIndex }) => {
         const columns = storage.get("columns") as any;
 
@@ -487,6 +499,7 @@ export function useCardMutations() {
         reorderCard,
         copyCardToTimeline,
         removeCardFromTimeline,
+        clearColumnCards,
         moveCard,
         createCard,
         createCardToColumn,
