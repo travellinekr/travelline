@@ -244,9 +244,10 @@ function buildGeneratePrompt(destinationName: string | undefined, req: Requireme
         lines.push(planText);
         lines.push(
             `\n사용자 요청: "${req?.notes || '일정 보완'}"\n` +
-            `위 요청에 따라 "추가하거나 바꿀 장소만" 출력하세요.\n` +
+            `위 요청에 따라 "추가하거나 바꿀 장소만" 출력하세요. 전체 일정을 다시 만들지 마세요.\n` +
             `- 이미 배치된 장소는 절대 다시 출력하지 마세요(중복 금지).\n` +
             `- 요청이 특정 N일차에 관한 것이면 그 일차(day=N)에만 배치하세요.\n` +
+            `- 요청에 명시된 개수만 추가하세요. "하나/맛집 하나"면 딱 1곳만. (특별한 수량 언급이 없으면 1~2곳)\n` +
             `- 추가할 게 없으면 days 를 빈 배열로 두세요.`
         );
     } else {
@@ -443,9 +444,11 @@ export async function POST(req: Request) {
                       : '');
 
             // 이미 짜인 일정이 있으면: 기간 재질문 금지 + 부분수정 인식 (배치 모드에서만)
+            let chatThinking = 0; // 단순 수집 대화는 0(저비용), 편집 의도 판단이 필요할 때만 추론 활성
             if (!recommendMode) {
                 const planText = buildCurrentPlanText(currentPlan);
                 if (planText) {
+                    chatThinking = 512; // 부분수정/추가 의도 파악엔 약간의 추론이 큰 도움
                     const dc = currentPlan!.dayCount;
                     system +=
                         `\n\n[현재 저장된 일정] 총 ${dc}일 일정이 이미 있습니다:\n${planText}\n\n` +
@@ -457,7 +460,7 @@ export async function POST(req: Request) {
                 }
             }
 
-            const raw = await callModelRetry({ system, messages, json: true, temperature: 0.5 });
+            const raw = await callModelRetry({ system, messages, json: true, temperature: 0.5, thinkingBudget: chatThinking });
             const parsed = parseChatEnvelope(raw);
 
             return NextResponse.json({ mode: recommendMode ? 'recommend' : 'ask', ...parsed });
@@ -476,6 +479,7 @@ export async function POST(req: Request) {
                 json: true,
                 temperature: 0.6,
                 maxOutputTokens: 1024,
+                thinkingBudget: 768, // 시기·취향에 맞는 도시 선별엔 추론이 필요
             });
             if (!parsed) {
                 return NextResponse.json({ error: 'AI 응답을 이해하지 못했어요. 다시 시도해 주세요.' }, { status: 502 });
@@ -516,6 +520,7 @@ export async function POST(req: Request) {
                 json: true,
                 temperature: 0.5,
                 maxOutputTokens: 4096,
+                thinkingBudget: 1024, // 동선·카테고리 균형·예산 매칭 등 다단계 추론 필요
             });
             if (!parsed) {
                 return NextResponse.json({ error: 'AI 응답을 이해하지 못했어요. 다시 시도해 주세요.' }, { status: 502 });

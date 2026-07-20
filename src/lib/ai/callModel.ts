@@ -18,6 +18,11 @@ interface CallModelOpts {
     json?: boolean;
     temperature?: number;
     maxOutputTokens?: number;
+    /**
+     * 사고(thinking) 토큰 예산. 0=비활성(빠름·저비용), >0=추론 활성(맥락·동선 품질↑).
+     * 어려운 단계(generate/recommend/편집 의도 판단)에만 부여해 비용을 아낀다.
+     */
+    thinkingBudget?: number;
 }
 
 const GEMINI_MODEL = 'gemini-flash-latest';
@@ -26,7 +31,7 @@ const GEMINI_MODEL = 'gemini-flash-latest';
  * 모델을 호출해 원문 텍스트를 반환한다. (JSON 파싱은 호출측 책임)
  * 실패 시 throw.
  */
-export async function callModel({ system, messages, json = true, temperature = 0.5, maxOutputTokens = 2048 }: CallModelOpts): Promise<string> {
+export async function callModel({ system, messages, json = true, temperature = 0.5, maxOutputTokens = 2048, thinkingBudget = 0 }: CallModelOpts): Promise<string> {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) throw new Error('GEMINI_API_KEY 가 설정되지 않았습니다.');
 
@@ -44,9 +49,10 @@ export async function callModel({ system, messages, json = true, temperature = 0
         contents,
         generationConfig: {
             temperature,
-            maxOutputTokens,
-            // 사고(thinking) 토큰 비활성화 → 응답이 곧바로 JSON, 잘림/지연 감소
-            thinkingConfig: { thinkingBudget: 0 },
+            // thinkingBudget>0 이면 사고 토큰만큼 여유가 필요 → 출력 상한을 함께 키움
+            maxOutputTokens: maxOutputTokens + (thinkingBudget > 0 ? thinkingBudget : 0),
+            // 사고(thinking) 토큰 예산. 0=즉시 JSON(빠름), >0=추론 활성(품질↑)
+            thinkingConfig: { thinkingBudget },
             ...(json ? { responseMimeType: 'application/json' } : {}),
         },
     };

@@ -801,8 +801,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             return;
         }
 
-        // 부분 수정 의도 + 현재 일정 존재 → 편집 모드(기존 유지, 추가분만)
-        const editing = req?.intent === 'edit' && !!aiCurrentPlan?.days?.length;
+        // 편집 모드 판정 — 모델의 intent 플래그에만 의존하지 않는다(flash 가 자주 누락).
+        // 이미 일차 카드가 있으면 "기본이 편집(추가)": 모델이 명시적으로 'create'(=처음부터 새로)를
+        // 낼 때만 전체 새 일정으로 간주. → 추가 요청이 전체 재생성+append 로 카드가 두 배 되는 문제 방지.
+        const hasExistingPlan = !!aiCurrentPlan?.days?.some((d) => d.items.length > 0);
+        const editing = hasExistingPlan && req?.intent !== 'create';
 
         setAiBusy(true);
         try {
