@@ -209,6 +209,25 @@ export default [
         ],
     },
     {
+        name: '1일차 도착: 공항 교통이 호텔 체크인보다 위',
+        phase: 'generate',
+        request: {
+            phase: 'generate', destinationEngName: NHA_TRANG,
+            requirements: { dayCount: 4, pace: 'relaxed' },
+        },
+        checks: [
+            ['1일차에 교통+체크인 있으면 교통이 먼저', (d) => {
+                const day1 = (d.plan?.days || []).find((x) => x.day === 1);
+                if (!day1) return '1일차 없음';
+                const items = day1.items || [];
+                const tIdx = items.findIndex((i) => i.category === 'transport');
+                const hIdx = items.findIndex((i) => i.category === 'hotel' && !i.showCheckOut);
+                if (tIdx < 0 || hIdx < 0) return true; // 둘 다 있을 때만 순서 검사
+                return tIdx < hIdx || `교통(#${tIdx})이 체크인(#${hIdx})보다 아래`;
+            }],
+        ],
+    },
+    {
         name: '예산 luxury → 고급/럭셔리 숙소 선택',
         phase: 'generate',
         request: {

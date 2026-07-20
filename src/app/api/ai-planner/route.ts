@@ -410,19 +410,27 @@ function validateCatalogPlan(raw: any, cityKey: string, dayCount: number, existi
         stays[i].checkOutDay = Math.min(co, dayCount);
     }
 
-    // 숙소 스테이 → 체크인 카드(해당 일차 앞) + 체크아웃 카드(체크아웃 일차 앞) 2장 전개
-    // 같은 날의 정렬: 체크아웃(아침) → 체크인(오후) → 나머지 일정 순으로 상단 고정
+    // 숙소 스테이 → 체크인 카드 + 체크아웃 카드 2장 전개
+    // 같은 날 정렬: 체크아웃(아침, 최상단) → [도착 교통·공항픽업] → 체크인(오후) → 나머지 일정
     const prepend = (day: number, card: any) => {
         const list = byDay.get(day) ?? [];
         list.unshift(card);
         byDay.set(day, list);
     };
-    // 1단계: 체크인 카드 먼저 전개.
+    // 체크인은 "맨 앞의 교통(공항 픽업 등) 카드 뒤"에 배치 → 1일차 공항픽업 → 체크인 순 유지
+    const insertCheckIn = (day: number, card: any) => {
+        const list = byDay.get(day) ?? [];
+        let idx = 0;
+        while (idx < list.length && list[idx]?.category === 'transport') idx++;
+        list.splice(idx, 0, card);
+        byDay.set(day, list);
+    };
+    // 1단계: 체크인 카드 전개 (도착 교통 뒤).
     for (const s of stays) {
         const base = placeToCardPayload(s.place, 'hotel');
-        prepend(s.checkInDay, { ...base, showCheckOut: false, time: s.time, note: s.note });
+        insertCheckIn(s.checkInDay, { ...base, showCheckOut: false, time: s.time, note: s.note });
     }
-    // 2단계: 체크아웃 카드를 나중에 전개 → 체크인 위에 얹혀 이동일에 "체크아웃(아침) → 체크인(오후)" 순서가 됨.
+    // 2단계: 체크아웃 카드를 나중에 최상단으로 전개 → 이동일에 "체크아웃(아침) → … → 체크인(오후)" 순서.
     for (const s of stays) {
         if (s.checkOutDay === s.checkInDay) continue;
         const base = placeToCardPayload(s.place, 'hotel');

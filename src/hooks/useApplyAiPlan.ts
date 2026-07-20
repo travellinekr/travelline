@@ -164,11 +164,25 @@ export function useApplyAiPlan() {
                 return newId;
             };
 
+            // 맨 앞 교통(공항 픽업 등) 카드 뒤 index — 체크인이 도착 교통보다 위로 안 가게
+            const afterLeadingTransport = (list: any): number => {
+                let idx = 0;
+                while (idx < list.length) {
+                    const c = cards.get(list.get(idx));
+                    if (c && c.get('category') === 'transport') idx++;
+                    else break;
+                }
+                return idx;
+            };
+
             // 3) 새 카드 삽입
             if (isHotelStay) {
-                // 숙소: 체크인(min일차) + 체크아웃(max일차) 2장, 각 일차 상단
+                // 숙소: 체크인(min일차, 도착교통 뒤) + 체크아웃(max일차, 최상단)
                 const inCol = columns.get(`day${checkInDay}`);
-                if (inCol) inCol.get('cardIds').insert(makeCard({ showCheckOut: false }), 0);
+                if (inCol) {
+                    const list = inCol.get('cardIds');
+                    list.insert(makeCard({ showCheckOut: false }), afterLeadingTransport(list));
+                }
                 const outCol = columns.get(`day${checkOutDay}`);
                 if (outCol) outCol.get('cardIds').insert(makeCard({ showCheckOut: true, time: null, note: null }), 0);
             } else {
