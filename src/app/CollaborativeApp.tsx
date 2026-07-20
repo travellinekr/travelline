@@ -933,6 +933,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     open={aiPanelOpen}
                                     onClose={() => setAiPanelOpen(false)}
                                     containerClassName="fixed inset-0 z-[70] flex md:hidden"
+                                    mobile
                                     controller={aiChat}
                                     onGenerate={handleAiGenerate}
                                     onRecommend={handleAiRecommend}

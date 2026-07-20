@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import { Sparkles, X } from 'lucide-react';
 import { AiChat } from '@/components/ai/AiChat';
 import type { AiRequirements } from '@/components/ai/AiPlannerForm';
@@ -10,6 +11,8 @@ interface AiAssistantPanelProps {
     onClose: () => void;
     /** 루트 컨테이너 위치/표시 클래스. 데스크톱=인박스 내부 absolute, 모바일=최상위 fixed 로 분기 */
     containerClassName?: string;
+    /** true 면 모바일 전체화면 팝업 — 소프트 키보드가 올라와도 입력창이 키보드 위로 뜨도록 VisualViewport 로 높이 보정 */
+    mobile?: boolean;
     /** 상위에서 공유되는 대화 컨트롤러(패널 개폐와 무관하게 유지) */
     controller: AiChatController;
     /** (배치 모드) 요약 확인 후 "이 내용으로 배치" 클릭 시 호출 */
@@ -28,13 +31,37 @@ interface AiAssistantPanelProps {
  * 1단계(골격): 열기/닫기 + 헤더 + 플레이스홀더.
  * 다음 단계에서 본문에 AiChat(대화 UI)을 임베드한다.
  */
-export function AiAssistantPanel({ open, onClose, containerClassName = 'absolute inset-0 z-40 flex', controller, onGenerate, onRecommend, busy }: AiAssistantPanelProps) {
+export function AiAssistantPanel({ open, onClose, containerClassName = 'absolute inset-0 z-40 flex', mobile = false, controller, onGenerate, onRecommend, busy }: AiAssistantPanelProps) {
+    const rootRef = useRef<HTMLDivElement>(null);
+
+    // 모바일: 소프트 키보드가 올라오면 VisualViewport 높이가 줄어듦 → 패널을 그 높이에 맞춰
+    // (헤더+대화+입력이 flex-col 이므로 입력창이 자연히 키보드 위에 위치). 데스크톱은 미적용.
+    useEffect(() => {
+        if (!mobile || !open) return;
+        const vv = window.visualViewport;
+        if (!vv) return;
+        const apply = () => {
+            const el = rootRef.current;
+            if (!el) return;
+            el.style.height = `${vv.height}px`;
+            el.style.top = `${vv.offsetTop}px`;
+            el.style.bottom = 'auto';
+        };
+        apply();
+        vv.addEventListener('resize', apply);
+        vv.addEventListener('scroll', apply);
+        return () => {
+            vv.removeEventListener('resize', apply);
+            vv.removeEventListener('scroll', apply);
+        };
+    }, [mobile, open]);
+
     if (!open) return null;
 
     const subtitle = controller.mode === 'recommend' ? '어디로 갈지 추천해드려요' : '일정을 자동으로 짜드려요';
 
     return (
-        <div className={`flex-col bg-white ${containerClassName}`}>
+        <div ref={rootRef} className={`flex-col bg-white ${containerClassName}`}>
             {/* 헤더 */}
             <div className="shrink-0 flex items-center justify-between gap-2 px-4 h-[60px] border-b border-slate-100 bg-white">
                 <div className="flex items-center gap-2.5 min-w-0">
