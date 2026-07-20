@@ -787,6 +787,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         const placed = applyPlan(plan, { mode });
         setPendingAiPlan(null);
         setAiPanelOpen(false);
+        aiChat.markApplied();
         let msg = placed > 0 ? `${placed}개 카드를 일정에 배치했어요.` : '배치할 카드가 없었어요.';
         const unassigned = Array.isArray(plan?.unassigned) ? plan.unassigned.length : 0;
         if (unassigned > 0) msg += ` 남은 카드 ${unassigned}개는 인박스에 그대로 있어요.`;
@@ -806,41 +807,51 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // 낼 때만 전체 새 일정으로 간주. → 추가 요청이 전체 재생성+append 로 카드가 두 배 되는 문제 방지.
         const hasExistingPlan = !!aiCurrentPlan?.days?.some((d) => d.items.length > 0);
 
-        // 장소 교체(swap): 기존 장소 제거 + 새 장소를 같은 자리에 삽입 (모든 카테고리)
-        if (req?.intent === 'swap' && hasExistingPlan) {
+        // 장소 교체(swap) 판정 — 모델 intent 에만 의존하지 않고 "바꿀 대상이 현재 일정에 실제로 있는지"로 결정.
+        // (긴 대화로 intent 가 오염돼도, swapTo 가 있고 바꿀 대상이 현재 일정에 존재하면 교체로 처리)
+        if (hasExistingPlan && req?.swapTo && req?.intent !== 'create') {
+            const items = aiCurrentPlan!.days.flatMap((d) => d.items);
             // swapFrom 없으면: swapCategory 의 장소가 현재 일정에 하나뿐일 때 자동 추론
             let fromName: string | undefined = req.swapFrom || undefined;
             if (!fromName) {
-                const items = aiCurrentPlan!.days.flatMap((d) => d.items);
                 const pool = req.swapCategory ? items.filter((i) => i.category === req.swapCategory) : items;
                 const distinct = [...new Set(pool.map((i) => i.name))];
                 if (distinct.length === 1) fromName = distinct[0];
             }
-            if (!fromName || !req.swapTo) {
-                addToast('어떤 장소를 무엇으로 바꿀지 정확히 알려주세요.', 'warning');
+            const fromExists = !!fromName && items.some((i) => i.name === fromName);
+
+            if (fromName && fromExists) {
+                setAiBusy(true);
+                try {
+                    const res = await fetch('/api/ai-planner', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ phase: 'swap', destinationEngName: destEng, destinationName: aiDestinationName, swapTo: req.swapTo, swapCategory: req.swapCategory }),
+                    });
+                    const data = await res.json();
+                    if (!res.ok || data.error || !data.place) {
+                        addToast(data.error || '장소 교체에 실패했어요.', 'warning');
+                        return;
+                    }
+                    const swapped = swapPlace(fromName, data.place);
+                    aiChat.markApplied();
+                    setAiPanelOpen(false);
+                    addToast(swapped > 0 ? `'${fromName}' → '${req.swapTo}'(으)로 변경했어요.` : '바꿀 기존 장소를 찾지 못했어요.', swapped > 0 ? 'info' : 'warning');
+                } catch {
+                    addToast('장소 교체 중 오류가 발생했어요.', 'warning');
+                } finally {
+                    setAiBusy(false);
+                }
                 return;
             }
-            setAiBusy(true);
-            try {
-                const res = await fetch('/api/ai-planner', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ phase: 'swap', destinationEngName: destEng, destinationName: aiDestinationName, swapTo: req.swapTo, swapCategory: req.swapCategory }),
-                });
-                const data = await res.json();
-                if (!res.ok || data.error || !data.place) {
-                    addToast(data.error || '장소 교체에 실패했어요.', 'warning');
-                    return;
-                }
-                const swapped = swapPlace(fromName, data.place);
-                setAiPanelOpen(false);
-                addToast(swapped > 0 ? `'${fromName}' → '${req.swapTo}'(으)로 변경했어요.` : '바꿀 기존 장소를 찾지 못했어요.', swapped > 0 ? 'info' : 'warning');
-            } catch {
-                addToast('장소 교체 중 오류가 발생했어요.', 'warning');
-            } finally {
-                setAiBusy(false);
+
+            // swapTo 는 있는데 바꿀 대상을 현재 일정에서 못 찾음(이미 바뀜/이름 불일치 등):
+            // 명시적 교체 의도면 전체 재생성으로 빠지지 않도록 안내 후 중단.
+            if (req?.intent === 'swap') {
+                addToast('바꿀 장소를 현재 일정에서 찾지 못했어요. 다시 말씀해 주세요.', 'warning');
+                return;
             }
-            return;
+            // 그 외(stale swap 필드 + 편집 의도 등)는 아래 일반 흐름으로 진행
         }
 
         const editing = hasExistingPlan && req?.intent !== 'create';

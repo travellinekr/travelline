@@ -28,6 +28,8 @@ const greetingFor = (mode: AiChatMode, plan?: any) =>
  */
 export interface AiChatController {
     mode: AiChatMode;
+    /** 보드에 이미 일차 카드가 있는지 — 버튼 라벨(전체배치 vs 요청반영) 구분용 */
+    hasPlan: boolean;
     messages: ChatMsg[];
     input: string;
     setInput: (v: string) => void;
@@ -38,6 +40,8 @@ export interface AiChatController {
     setView: (v: 'chat' | 'form') => void;
     send: () => Promise<void>;
     reset: () => void;
+    /** 배치/교체 실행 후 호출 — 요약·버튼 숨기고 액션 필드(intent/swap*)를 비워 다음 요청에 stale 로 안 남게 함 */
+    markApplied: () => void;
 }
 
 export function useAiPlannerChat({ destinationName, currentPlan }: { destinationName?: string; currentPlan?: any }): AiChatController {
@@ -65,6 +69,16 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
         setRequirements(null);
         setReady(false);
         setView('chat');
+    }, []);
+
+    // 배치/교체 실행 후: 요약·버튼 숨김(ready=false) + 액션 필드 제거(다음 요청에 stale swap 방지)
+    const markApplied = useCallback(() => {
+        setReady(false);
+        setRequirements((prev) => {
+            if (!prev) return prev;
+            const { intent, swapFrom, swapTo, swapCategory, notes, ...rest } = prev as any;
+            return rest;
+        });
     }, []);
 
     // 모드 전환(여행지 확정/해제) 시 대화 초기화 → 알맞은 인사말/흐름으로 재시작
@@ -100,10 +114,18 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
                 setMessages((m) => [...m, { role: 'assistant', content: data.error || '문제가 생겼어요. 다시 시도해 주세요.' }]);
             } else {
                 setMessages((m) => [...m, { role: 'assistant', content: data.message || '...' }]);
-                // 턴마다 "누적 병합" — 모델이 일부 필드만 돌려줘도 앞서 모은 값(예: swap 후보)을 잃지 않음.
-                // (교체하면 확정 턴에서 requirements={} 가 오면 후보가 날아가는 문제가 있었음)
+                // 턴마다 "누적 병합" — 단, null/undefined/빈배열은 기존값을 덮지 않는다.
+                // (확정 턴에서 모델이 intent=null 이나 일부만 돌려줘도 앞서 잡은 swap 후보/의도가 유지됨)
                 if (data.requirements && typeof data.requirements === 'object') {
-                    setRequirements((prev) => ({ ...(prev || {}), ...data.requirements }));
+                    setRequirements((prev) => {
+                        const merged: any = { ...(prev || {}) };
+                        for (const [k, v] of Object.entries(data.requirements)) {
+                            if (v === null || v === undefined) continue;
+                            if (Array.isArray(v) && v.length === 0) continue;
+                            merged[k] = v;
+                        }
+                        return merged;
+                    });
                 }
                 setReady(!!data.ready);
             }
@@ -114,5 +136,5 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
         }
     }, [input, loading, messages]);
 
-    return { mode, messages, input, setInput, loading, requirements, ready, view, setView, send, reset };
+    return { mode, hasPlan: hasPlanDays(currentPlan), messages, input, setInput, loading, requirements, ready, view, setView, send, reset, markApplied };
 }

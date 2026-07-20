@@ -139,20 +139,55 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
                 )}
 
                 {/* 요약 + 실행 버튼 (모드별) */}
-                {ready && requirements && !loading && (
-                    <div className="mt-1 flex flex-col gap-2">
-                        <RequirementSummary req={requirements} />
-                        <button
-                            type="button"
-                            onClick={() => (isRecommend ? onRecommend?.(requirements) : onGenerate?.(requirements))}
-                            disabled={busy}
-                            className="flex items-center justify-center gap-1.5 w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 disabled:opacity-60 text-white font-bold text-sm shadow-sm transition"
-                        >
-                            {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <Check className="w-4 h-4" />}
-                            {isRecommend ? '여행지 추천받기' : '이 내용으로 배치'}
-                        </button>
-                    </div>
-                )}
+                {ready && requirements && !loading && (() => {
+                    const intent = (requirements as any)?.intent;
+                    // 요청 유형 구분:
+                    //  - swap: 특정 장소 교체 → 로즈 "이 장소로 변경"
+                    //  - edit: 기존 일정에 부분 수정/추가(계획 있음 + create 아님) → 인디고 "요청 반영"
+                    //  - place: 초기 전체 일정 배치(또는 처음부터 새로) → 에메랄드 "이 내용으로 배치"
+                    const isSwapReady = !isRecommend && intent === 'swap' && !!(requirements as any)?.swapTo;
+                    const isEdit = !isRecommend && !isSwapReady && controller.hasPlan && intent !== 'create';
+                    const kind = isRecommend ? 'recommend' : isSwapReady ? 'swap' : isEdit ? 'edit' : 'place';
+                    const btnCls =
+                        kind === 'swap' ? 'bg-rose-500 hover:bg-rose-600'
+                        : kind === 'edit' ? 'bg-indigo-500 hover:bg-indigo-600'
+                        : 'bg-emerald-500 hover:bg-emerald-600';
+                    const btnLabel =
+                        kind === 'recommend' ? '여행지 추천받기'
+                        : kind === 'swap' ? '이 장소로 변경'
+                        : kind === 'edit' ? '요청 반영'
+                        : '이 내용으로 배치';
+                    return (
+                        <div className="mt-1 flex flex-col gap-2">
+                            {isSwapReady ? (
+                                <div className="rounded-xl border border-rose-200 bg-rose-50/60 p-3 text-sm">
+                                    <div className="text-[12px] font-bold text-rose-600 mb-1.5">장소 변경</div>
+                                    <div className="flex items-center gap-1.5 flex-wrap">
+                                        <span className="line-through text-slate-400">{(requirements as any).swapFrom || '현재 장소'}</span>
+                                        <span className="text-slate-400">→</span>
+                                        <span className="font-bold text-slate-800">{(requirements as any).swapTo}</span>
+                                    </div>
+                                </div>
+                            ) : isEdit ? (
+                                <div className="rounded-xl border border-indigo-200 bg-indigo-50/60 p-3 text-sm">
+                                    <div className="text-[12px] font-bold text-indigo-600 mb-1.5">일정 수정 요청</div>
+                                    <div className="text-slate-700">{(requirements as any).notes || '현재 일정에 요청하신 내용을 반영해요.'}</div>
+                                </div>
+                            ) : (
+                                <RequirementSummary req={requirements} />
+                            )}
+                            <button
+                                type="button"
+                                onClick={() => (isRecommend ? onRecommend?.(requirements) : onGenerate?.(requirements))}
+                                disabled={busy}
+                                className={`flex items-center justify-center gap-1.5 w-full py-2.5 rounded-xl disabled:opacity-60 text-white font-bold text-sm shadow-sm transition ${btnCls}`}
+                            >
+                                {busy ? <Loader2 className="w-4 h-4 animate-spin" /> : <Check className="w-4 h-4" />}
+                                {btnLabel}
+                            </button>
+                        </div>
+                    );
+                })()}
             </div>
 
             {/* 입력 */}

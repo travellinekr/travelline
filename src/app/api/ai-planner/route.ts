@@ -117,8 +117,10 @@ const GENERATE_SYSTEM = `당신은 여행 일정 큐레이터입니다.
   예산 정보가 없으면 value·upscale 중심으로 무난하게 고르세요.
 - 하루 동선을 고려해 비슷한 지역끼리 묶으세요. 맛집은 식사 시간대에 두세요.
 - 숙소(hotel)는 "체크인하는 일차"에 배치하고, 그 숙소에서 체크아웃하는 일차 번호를 checkOutDay 로 함께 지정하세요.
-  · 여행 내내 숙소 1곳이면: 1일차에 배치 + checkOutDay 는 마지막 일차(dayCount).
-  · 숙소를 옮기면: 각 숙소를 체크인 일차에 배치 + checkOutDay 는 다음 숙소 체크인 전날(마지막 숙소는 dayCount).
+  · 여행 내내 숙소 1곳이면: 1일차 체크인 + checkOutDay = 마지막 일차(dayCount).
+  · 숙소를 옮기면(중간 이동): 이전 숙소의 checkOutDay 와 다음 숙소의 "체크인 일차"를 반드시 "같은 날"로 맞추세요(그 날 아침 체크아웃 → 오후 체크인). 그래야 매일 밤 묵을 숙소가 비지 않습니다(빈 밤 절대 금지).
+    예) 5일차부터 새 숙소로 옮기면 → 이전 숙소 checkOutDay=5, 새 숙소 체크인=5. (전날 4로 하지 말 것)
+  · 첫 숙소는 1일차 체크인, 마지막 숙소의 checkOutDay 는 dayCount 로 하세요.
   · 같은 숙소를 여러 번 넣지 말고, 한 숙소당 한 번만 배치하세요(체크인/체크아웃 카드는 시스템이 자동 생성).
 - 각 날에 최소 2곳 이상 채우고, 하루 최대 8개까지.
 - [부분 수정 모드] "이미 배치된 일정"이 함께 주어지면, 전체를 다시 만들지 말고 사용자 요청에 맞는 "추가/변경분만" 출력하세요. 이미 있는 장소는 다시 출력하지 마세요.
@@ -127,6 +129,59 @@ const GENERATE_SYSTEM = `당신은 여행 일정 큐레이터입니다.
 {
   "days": [ { "day": <1..dayCount>, "items": [ { "name": "<카탈로그 name 그대로>", "category": "<food|hotel|shopping|tourspa|transport>", "checkOutDay": <hotel 일 때만, 체크아웃 일차 번호>, "time": <"HH:MM"|null>, "note": <"짧은 한국어 메모"|null> } ] } ]
 }`;
+
+// 장소 교체 전용(focused) 시스템 — 계획 대화 오염 없이 교체만 처리 → 분류 신뢰도↑
+const SWAP_FOCUS_SYSTEM = `당신은 여행 일정의 "장소 교체(swap)"만 처리하는 어시스턴트입니다. 사용자는 이미 배치된 장소를 카탈로그의 다른 장소로 바꾸려 합니다.
+규칙:
+- [지금까지 대화]의 마지막 사용자 요청을 보고 판단하세요.
+- 아직 무엇으로 바꿀지 확정 안 됐으면: [장소 카탈로그]에서 "같은 카테고리"의 적절한 대안 1곳을 골라 "현재 '<현재 장소>' 대신 '<추천 장소>'는 어떠세요? <한 줄 이유>. 이걸로 바꿀까요?" 라고 제안하고 ready=false.
+- 사용자가 확정("응/좋아/그걸로/바꿔줘" 등)했으면 같은 후보로 ready=true.
+- swapFrom 은 [현재 일정]에 실제로 있는 정확한 이름, swapTo 는 [장소 카탈로그]에 있는 정확한 이름을 쓰세요(지어내지 말 것).
+- 같은 카테고리끼리만 교체(숙소→숙소, 맛집→맛집). 예산/등급 요청이면 tier(budget<value<upscale<luxury)를 참고.
+반드시 아래 JSON 만 응답: { "message": "<한국어>", "requirements": { "intent": "swap", "swapFrom": "<현재 장소명>", "swapTo": "<새 장소명>", "swapCategory": "<food|hotel|shopping|tourspa|transport>" }, "ready": <boolean> }`;
+
+// 교체 요청 신호(사용자 메시지) / 직전 어시스턴트의 교체 제안 신호
+const SWAP_KW = /바꿔|바꾸|변경|교체|다른\s*(곳|데|호텔|숙소|맛집|장소|리조트)|말고|대신|업그레이드|한\s*(단계|등급)|더\s*(좋은|저렴|높은|비싼|나은|가까운|고급)/;
+const SWAP_PROPOSAL = /대신[\s\S]*?(어떠|추천)|바꿀까요|바꿔\s*드릴까요|어떠세요\?|어떠신가요/;
+const SWAP_CONFIRM = /^(응|어|네|예|그래|좋아|좋습니다|오케이|ok|그걸로|그거로?|그거|바꿔|변경|해줘|맞아|진행)/i;
+
+// focused swap 처리 — 검증(현재일정 존재 이름 + 카탈로그 존재 이름)까지 마쳐 반환
+async function focusedSwapChat(cityKey: string, currentPlan: CurrentPlan, messages: ChatMessage[]) {
+    const listing = buildCatalogListing(cityKey, currentPlan.dayCount);
+    const planText = buildCurrentPlanText(currentPlan);
+    const convo = messages.map((m) => `${m.role === 'user' ? '사용자' : '어시스턴트'}: ${m.content}`).join('\n');
+    const userPrompt = `[현재 일정]\n${planText}\n\n[장소 카탈로그] (# 는 카테고리)\n${listing}\n\n[지금까지 대화]\n${convo}\n\n위 대화의 마지막 사용자 요청(장소 교체)을 처리해줘.`;
+    const parsed = await callModelJson({
+        system: SWAP_FOCUS_SYSTEM,
+        messages: [{ role: 'user', content: userPrompt }],
+        json: true, temperature: 0.4, thinkingBudget: 512,
+    });
+    const r = parsed?.requirements ?? {};
+    const cat = typeof r.swapCategory === 'string' ? r.swapCategory : null;
+
+    // swapFrom 검증 — 현재 일정에 실제 있는 이름. 불일치 시 해당 카테고리 장소가 1곳뿐이면 그것으로 보정.
+    const planItems = currentPlan.days.flatMap((d) => (Array.isArray(d.items) ? d.items : []));
+    const planNames = new Set(planItems.map((i) => String(i.name ?? '').toLowerCase()));
+    let swapFrom: string | null = typeof r.swapFrom === 'string' && r.swapFrom.trim() ? r.swapFrom.trim() : null;
+    if (!swapFrom || !planNames.has(swapFrom.toLowerCase())) {
+        const pool = planItems.filter((i) => !cat || i.category === cat);
+        const distinct = [...new Set(pool.map((i) => i.name))];
+        swapFrom = distinct.length === 1 ? distinct[0] : (swapFrom && planNames.has(swapFrom.toLowerCase()) ? swapFrom : null);
+    }
+
+    // swapTo 검증 — 카탈로그의 정식 이름으로 정규화, 없으면 null
+    let swapTo: string | null = typeof r.swapTo === 'string' && r.swapTo.trim() ? r.swapTo.trim() : null;
+    if (swapTo) {
+        const match = findCatalogPlace(cityKey, swapTo, cat ?? undefined);
+        swapTo = match ? match.place.name : null;
+    }
+
+    return {
+        message: typeof parsed?.message === 'string' && parsed.message.trim() ? parsed.message : '어떤 곳으로 바꿔드릴까요?',
+        requirements: { intent: 'swap' as const, swapFrom, swapTo, swapCategory: cat, dayCount: currentPlan.dayCount },
+        ready: !!parsed?.ready && !!swapTo, // 유효한 새 장소가 있어야 확정
+    };
+}
 
 const MAX_PER_DAY = 8;
 
@@ -180,24 +235,28 @@ function buildCurrentPlanText(currentPlan?: CurrentPlan): string {
 }
 
 // 사용자 발화에서 여행 일수(dayCount)를 결정적으로 추출. (flash 가 requirements 에 자주 누락 → 서버 보정)
-// "N박M일"→M · "M일"(일차 제외)→M · "M박" 단독→M+1. 가장 최근 언급 우선.
+// 우선순위: "N박M일"→M(명확한 기간) > "M박"단독→M+1 > 날짜 제거 후 남은 "M일"→M. 가장 최근 언급 우선.
+// ⚠️ 날짜("7월 10일", "이번달 15일")를 기간으로 오해하지 않도록, 날짜 표현을 먼저 제거한다.
 function extractDayCount(messages: ChatMessage[]): number | null {
     const text = (messages || []).filter((m) => m.role === 'user').map((m) => m.content).join('\n');
-    const last = (re: RegExp, group: number, adj = 0): number | null => {
-        const all = [...text.matchAll(re)];
+    const lastNum = (re: RegExp, group: number, src: string, adj = 0): number | null => {
+        const all = [...src.matchAll(re)];
         if (!all.length) return null;
         const n = parseInt(all[all.length - 1][group], 10);
         return Number.isFinite(n) ? n + adj : null;
     };
-    // "N박M일" (박+일 동시) → 일 수
-    const nm = last(/(\d+)\s*박\s*(\d+)\s*일/g, 2);
+    // 1) "N박M일" (박+일 동시) → 일 수 (가장 명확한 기간 표현)
+    const nm = lastNum(/(\d+)\s*박\s*(\d+)\s*일/g, 2, text);
     if (nm) return nm;
-    // "M일" — 단, "3일차" 같은 표현은 제외(일차)
-    const d = last(/(\d+)\s*일(?!\s*차)/g, 1);
-    if (d) return d;
-    // "M박" 단독 → M+1
-    const n = last(/(\d+)\s*박/g, 1, 1);
+    // 2) "M박" 단독 → M+1 (박 = 숙박 수 = 기간)
+    const n = lastNum(/(\d+)\s*박/g, 1, text, 1);
     if (n) return n;
+    // 3) 날짜("N월 M일", "이번달/다음달 M일")를 제거한 뒤 남은 "M일"(일차 제외)을 기간으로.
+    const noDates = text
+        .replace(/\d+\s*월\s*\d+\s*일/g, ' ')
+        .replace(/(?:이번|다음|담|이|저|매)\s*달\s*\d+\s*일/g, ' ');
+    const d = lastNum(/(\d+)\s*일(?!\s*차)/g, 1, noDates);
+    if (d) return d;
     return null;
 }
 
@@ -340,6 +399,17 @@ function validateCatalogPlan(raw: any, cityKey: string, dayCount: number, existi
         }
     }
 
+    // 숙소 스테이 정규화 — 모델의 checkOutDay 를 신뢰하지 않고 서버가 확정한다.
+    // 체크인 일차 순 정렬 → 각 숙소의 체크아웃 = "다음 숙소의 체크인 일차"(같은 날 이동), 마지막 숙소 = dayCount.
+    // → 숙소 없는 밤(빈 밤) 방지 + 마지막 체크아웃이 dayCount 보다 이른 오차 보정.
+    stays.sort((a, b) => a.checkInDay - b.checkInDay);
+    for (let i = 0; i < stays.length; i++) {
+        const next = stays[i + 1];
+        let co = next ? next.checkInDay : dayCount;
+        if (co <= stays[i].checkInDay) co = dayCount; // 역전/동일 일차 방어
+        stays[i].checkOutDay = Math.min(co, dayCount);
+    }
+
     // 숙소 스테이 → 체크인 카드(해당 일차 앞) + 체크아웃 카드(체크아웃 일차 앞) 2장 전개
     // 같은 날의 정렬: 체크아웃(아침) → 체크인(오후) → 나머지 일정 순으로 상단 고정
     const prepend = (day: number, card: any) => {
@@ -347,14 +417,16 @@ function validateCatalogPlan(raw: any, cityKey: string, dayCount: number, existi
         list.unshift(card);
         byDay.set(day, list);
     };
+    // 1단계: 체크인 카드 먼저 전개.
     for (const s of stays) {
         const base = placeToCardPayload(s.place, 'hotel');
-        // 체크인 카드
         prepend(s.checkInDay, { ...base, showCheckOut: false, time: s.time, note: s.note });
-        // 체크아웃 카드 (체크인 일차와 다를 때만)
-        if (s.checkOutDay !== s.checkInDay) {
-            prepend(s.checkOutDay, { ...base, showCheckOut: true, time: null, note: null });
-        }
+    }
+    // 2단계: 체크아웃 카드를 나중에 전개 → 체크인 위에 얹혀 이동일에 "체크아웃(아침) → 체크인(오후)" 순서가 됨.
+    for (const s of stays) {
+        if (s.checkOutDay === s.checkInDay) continue;
+        const base = placeToCardPayload(s.place, 'hotel');
+        prepend(s.checkOutDay, { ...base, showCheckOut: true, time: null, note: null });
     }
 
     const days = Array.from(byDay.keys())
@@ -465,6 +537,22 @@ export async function POST(req: Request) {
             const { messages = [], destinationName, hasDestination, currentPlan } = body as ChatBody;
             // 여행지 유무로 모드 분기: 있으면 일정 요구사항 수집, 없으면 여행지 추천 정보 수집
             const recommendMode = hasDestination === false || (!destinationName && hasDestination !== true);
+
+            // ── 결정적 스왑 라우팅 ──────────────────────────────────
+            // 배치 모드 + 일정 있음 + (사용자 교체 키워드 OR 직전 어시스턴트 교체 제안에 대한 확정)이면
+            // 계획 대화 오염이 없는 "전용 swap 핸들러"로 보내 매 턴 swap 필드를 확실히 산출.
+            if (!recommendMode && currentPlan && Array.isArray(currentPlan.days) && currentPlan.days.length) {
+                const swapCityKey = resolveCityKey(destinationName);
+                const lastUser = [...messages].reverse().find((m) => m.role === 'user')?.content ?? '';
+                const lastAssistant = [...messages].reverse().find((m) => m.role === 'assistant')?.content ?? '';
+                const swapSignal =
+                    SWAP_KW.test(lastUser) ||
+                    (SWAP_PROPOSAL.test(lastAssistant) && SWAP_CONFIRM.test(lastUser.trim()));
+                if (swapCityKey && swapSignal) {
+                    const parsed = await focusedSwapChat(swapCityKey, currentPlan, messages);
+                    return NextResponse.json({ mode: 'ask', ...parsed });
+                }
+            }
             let system = recommendMode
                 ? CHAT_SYSTEM_RECOMMEND
                 : CHAT_SYSTEM +
@@ -483,11 +571,12 @@ export async function POST(req: Request) {
                     const placeList = cityKey ? buildCatalogListing(cityKey, dc) : '';
                     system +=
                         `\n\n[현재 저장된 일정] 총 ${dc}일 일정이 이미 있습니다:\n${planText}\n\n` +
-                        `[매우 중요 — 이미 일정이 있을 때의 규칙]\n` +
-                        `- 기간은 이미 ${dc}일로 정해져 있습니다. "며칠/몇박몇일"을 절대 다시 묻지 말고 requirements.dayCount 를 ${dc} 로 채우세요.\n` +
-                        `- 사용자가 "N일차에 ~ 추가/빼줘/더 넣어줘/근처 맛집" 처럼 부분 추가를 요청하면: 되묻지 말고 그 요청을 requirements.notes 에 구체적으로 담고, requirements.intent="edit", ready=true 로 즉시 응답하세요.\n` +
-                        `- 사용자가 "처음부터 새로/전체 다시 짜줘"라고 명시할 때만 requirements.intent="create" 로 두고 새로 구성하세요.\n` +
-                        `- 이미 배치된 장소나 일정에 대해 물어보면 위 현재 일정을 참고해 친절히 답하세요.`;
+                        `[매우 중요 — 이미 일정이 있을 때는 "요청 분류"를 아래 우선순위로 먼저 판단하세요]\n` +
+                        `(A) 이미 배치된 특정 장소를 "다른 것으로 바꿔/교체/변경" 요청 → intent="swap" (교체 규칙 따름). 트리거 키워드: 바꿔, 변경, 교체, 다른 곳, ○○ 말고, 대신, 한 등급/단계, 더 좋은/저렴한/높은, 업그레이드. ★ 계획을 짜던 중이라도 이 신호가 있으면 "절대 create/edit 로 두지 말고 반드시 intent=swap" 으로 분류하세요.\n` +
+                        `(B) 특정 일차에 장소를 "추가/더 넣어" → intent="edit", notes 에 요청 담고 ready=true.\n` +
+                        `(C) "처음부터/전체 새로 짜줘" 명시 → intent="create".\n` +
+                        `그 외 단순 문의는 현재 일정을 참고해 친절히 답만 하세요.\n` +
+                        `- 기간은 이미 ${dc}일로 정해져 있습니다. "며칠/몇박몇일"을 다시 묻지 말고 requirements.dayCount=${dc} 로 채우세요.`;
 
                     if (placeList) {
                         system +=

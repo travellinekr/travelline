@@ -23,8 +23,17 @@ const days = (d) => d?.plan?.days || [];
 const allItems = (d) => days(d).flatMap((x) => x.items || []);
 const names = (d) => allItems(d).map((i) => (i.text || i.title || '').toLowerCase());
 const has = (re) => (s) => re.test(String(s || ''));
-// 클라이언트가 턴마다 requirements 를 "누적 병합"하므로, 확정 턴 검증도 제안 턴(req1)과 병합해서 본다.
-const mergedReq = (d, m) => ({ ...(m?.setup?.req1 || {}), ...(d?.requirements || {}) });
+// 클라이언트가 턴마다 requirements 를 "누적 병합(null/빈값은 기존 유지)"하므로, 확정 턴 검증도 동일하게 병합해서 본다.
+const mergeIgnoreNull = (prev, next) => {
+    const out = { ...(prev || {}) };
+    for (const [k, v] of Object.entries(next || {})) {
+        if (v === null || v === undefined) continue;
+        if (Array.isArray(v) && v.length === 0) continue;
+        out[k] = v;
+    }
+    return out;
+};
+const mergedReq = (d, m) => mergeIgnoreNull(m?.setup?.req1 || {}, d?.requirements || {});
 
 // 오사카/나트랑은 카탈로그가 충분한 도시(고정 fixture 로 사용)
 const OSAKA = 'Osaka';
@@ -56,6 +65,40 @@ export default [
         checks: [
             ['dayCount=4 로 파싱', (d) => d.requirements?.dayCount === 4 || `dayCount=${d.requirements?.dayCount}`],
             ['바로 배치 준비(ready=true)', (d) => d.ready === true, { soft: true }],
+        ],
+    },
+    {
+        name: '"5일 일정" → dayCount=5 (기간 표현)',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '오사카', hasDestination: true,
+            messages: [{ role: 'user', content: '오사카 5일 일정으로 짜줘' }],
+        },
+        checks: [
+            ['dayCount=5 로 파싱', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
+        ],
+    },
+    {
+        name: '날짜 오탐 방지: "7월 10일에 갈래"를 dayCount=10 으로 오해하지 않음',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '오사카', hasDestination: true,
+            messages: [{ role: 'user', content: '오사카 7월 10일에 갈래' }],
+        },
+        checks: [
+            // 날짜일 뿐 기간이 아니므로 서버가 dayCount=10 으로 강제하면 안 됨
+            ['dayCount 을 10 으로 오설정하지 않음', (d) => d.requirements?.dayCount !== 10 || `dayCount=${d.requirements?.dayCount} (날짜 오탐)`],
+        ],
+    },
+    {
+        name: '날짜+기간 혼합: "7월 10일부터 4박5일" → dayCount=5',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '오사카', hasDestination: true,
+            messages: [{ role: 'user', content: '오사카 7월 10일부터 4박5일로 갈래' }],
+        },
+        checks: [
+            ['dayCount=5 (날짜 아닌 기간을 사용)', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
         ],
     },
     {
@@ -225,6 +268,52 @@ export default [
             ['맛집(food) 포함', (d) => allItems(d).some((i) => i.category === 'food'), { soft: true }],
         ],
     },
+    {
+        name: '중간 숙박 이동: 빈 밤 없이 체인 연결 + 마지막 체크아웃=dayCount',
+        phase: 'generate',
+        request: {
+            phase: 'generate', destinationEngName: NHA_TRANG,
+            requirements: { dayCount: 6, notes: '앞 3일은 시내 호텔, 뒤 3일은 해변 리조트로 숙소를 나눠줘' },
+        },
+        checks: [
+            ['숙소 있음', (d) => allItems(d).some((i) => i.category === 'hotel') || '숙소 없음'],
+            ['숙박 체인 연결(빈 밤 없음) + 마지막 체크아웃=dayCount', (d) => {
+                const hotels = {};
+                for (const day of (d.plan?.days || [])) {
+                    for (const it of (day.items || [])) {
+                        if (it.category !== 'hotel') continue;
+                        const k = it.text || it.title;
+                        (hotels[k] ??= { inn: 99, out: 0 });
+                        hotels[k].inn = Math.min(hotels[k].inn, day.day);
+                        hotels[k].out = Math.max(hotels[k].out, day.day);
+                    }
+                }
+                const stays = Object.values(hotels).sort((a, b) => a.inn - b.inn);
+                if (!stays.length) return '숙소 없음';
+                const dc = d.plan?.dayCount || 6;
+                for (let i = 0; i < stays.length - 1; i++) {
+                    if (stays[i].out !== stays[i + 1].inn) return `체인 끊김(빈 밤): ${stays[i].out} ≠ ${stays[i + 1].inn}`;
+                }
+                if (stays[stays.length - 1].out !== dc) return `마지막 체크아웃 ${stays[stays.length - 1].out} ≠ dayCount ${dc}`;
+                return true;
+            }],
+            ['서로 다른 숙소 2곳 이상(요청상 분리)', (d) => {
+                const names = new Set(allItems(d).filter((i) => i.category === 'hotel').map((i) => i.text || i.title));
+                return names.size >= 2;
+            }, { soft: true }],
+            ['이동일 순서: 체크아웃이 체크인보다 위', (d) => {
+                for (const day of (d.plan?.days || [])) {
+                    const items = day.items || [];
+                    const outIdx = items.findIndex((i) => i.category === 'hotel' && i.showCheckOut === true);
+                    const inIdx = items.findIndex((i) => i.category === 'hotel' && !i.showCheckOut);
+                    // 같은 날에 체크아웃+체크인이 모두 있으면(이동일) 체크아웃이 위(작은 index)여야 함
+                    if (outIdx >= 0 && inIdx >= 0 && outIdx > inIdx) return `Day${day.day}: 체크인(#${inIdx})이 체크아웃(#${outIdx})보다 위`;
+                }
+                return true;
+            }],
+        ],
+    },
+
     // ─────────────────────────────────────────────
     // SWAP — 장소 교체 (모든 카테고리: 대안 제시 → 확인 → 교체)
     // ─────────────────────────────────────────────
@@ -304,6 +393,33 @@ export default [
             ['ready=true', (d) => d.ready === true],
             ['swapCategory=hotel (병합)', (d, m) => mergedReq(d, m).swapCategory === 'hotel', { soft: true }],
             ['swapFrom 지정됨 (병합)', (d, m) => !!mergedReq(d, m).swapFrom, { soft: true }],
+        ],
+    },
+    {
+        name: '긴 계획 대화 후 숙소 교체 확인 → intent=swap 유지(전체배치로 안 샘)',
+        phase: 'chat',
+        setup: async (h) => {
+            const currentPlan = await h.planFor(OSAKA, 8);
+            // 1) 계획 요구사항이 쌓인 대화 문맥(오염) 재현
+            const planMsgs = [{ role: 'user', content: '오사카 8일 커플 여행, 예산 중간, 쇼핑·온천·힐링 위주로 그냥 짜줘' }];
+            const p = await h.post({ phase: 'chat', destinationName: '오사카', hasDestination: true, currentPlan, messages: planMsgs });
+            const planAssistant = p.data.message || '알겠습니다!';
+            let req1 = p.data.requirements || {};
+            // 2) 숙소 교체 제안 턴
+            const sugMsgs = [...planMsgs, { role: 'assistant', content: planAssistant }, { role: 'user', content: '숙소를 한 등급 높은 곳으로 바꿔줘' }];
+            const s = await h.post({ phase: 'chat', destinationName: '오사카', hasDestination: true, currentPlan, messages: sugMsgs });
+            req1 = mergeIgnoreNull(req1, s.data.requirements || {}); // 클라 누적 병합 재현
+            return { currentPlan, planAssistant, sug: s.data.message || '이 숙소는 어떠세요?', req1, sugMsgs };
+        },
+        request: (s) => ({
+            phase: 'chat', destinationName: '오사카', hasDestination: true, currentPlan: s.currentPlan,
+            messages: [...s.sugMsgs, { role: 'assistant', content: s.sug }, { role: 'user', content: '응 그걸로 변경해줘' }],
+        }),
+        checks: [
+            // 병합 결과가 여전히 swap 이어야 함(전체배치로 안 새는 핵심 불변식)
+            ['병합 intent=swap 유지', (d, m) => mergedReq(d, m).intent === 'swap' || `intent=${mergedReq(d, m).intent}`],
+            ['swapTo 유지', (d, m) => !!mergedReq(d, m).swapTo || 'swapTo 없음'],
+            ['swapCategory=hotel', (d, m) => mergedReq(d, m).swapCategory === 'hotel', { soft: true }],
         ],
     },
     {
