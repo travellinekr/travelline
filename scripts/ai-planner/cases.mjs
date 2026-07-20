@@ -23,6 +23,8 @@ const days = (d) => d?.plan?.days || [];
 const allItems = (d) => days(d).flatMap((x) => x.items || []);
 const names = (d) => allItems(d).map((i) => (i.text || i.title || '').toLowerCase());
 const has = (re) => (s) => re.test(String(s || ''));
+// 클라이언트가 턴마다 requirements 를 "누적 병합"하므로, 확정 턴 검증도 제안 턴(req1)과 병합해서 본다.
+const mergedReq = (d, m) => ({ ...(m?.setup?.req1 || {}), ...(d?.requirements || {}) });
 
 // 오사카/나트랑은 카탈로그가 충분한 도시(고정 fixture 로 사용)
 const OSAKA = 'Osaka';
@@ -37,21 +39,23 @@ export default [
         phase: 'chat',
         request: {
             phase: 'chat', destinationName: '오사카', hasDestination: true,
+            // 값을 말하면 즉시 requirements 에 반영해야 함(질문을 이어가더라도)
             messages: [{ role: 'user', content: '오사카 4박5일로 갈거야' }],
         },
         checks: [
-            ['dayCount=5 로 파싱', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
+            ['dayCount=5 로 즉시 반영', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
         ],
     },
     {
-        name: '"3박4일" → dayCount=4',
+        name: '"3박4일 그냥 짜줘" → dayCount=4 + ready',
         phase: 'chat',
         request: {
             phase: 'chat', destinationName: '오사카', hasDestination: true,
-            messages: [{ role: 'user', content: '3박4일 정도 생각해' }],
+            messages: [{ role: 'user', content: '오사카 3박4일, 나머지는 그냥 알아서 짜줘' }],
         },
         checks: [
             ['dayCount=4 로 파싱', (d) => d.requirements?.dayCount === 4 || `dayCount=${d.requirements?.dayCount}`],
+            ['바로 배치 준비(ready=true)', (d) => d.ready === true, { soft: true }],
         ],
     },
     {
@@ -221,6 +225,114 @@ export default [
             ['맛집(food) 포함', (d) => allItems(d).some((i) => i.category === 'food'), { soft: true }],
         ],
     },
+    // ─────────────────────────────────────────────
+    // SWAP — 장소 교체 (모든 카테고리: 대안 제시 → 확인 → 교체)
+    // ─────────────────────────────────────────────
+    {
+        name: 'swap phase(숙소): 새 숙소명 → 카드 payload 로 해석',
+        phase: 'swap',
+        setup: async (h) => {
+            const cp = await h.planFor(NHA_TRANG, 4);
+            const hotel = cp.days.flatMap((d) => d.items).find((i) => i.category === 'hotel');
+            return { name: hotel?.name };
+        },
+        request: (s) => ({ phase: 'swap', destinationEngName: NHA_TRANG, swapTo: s.name, swapCategory: 'hotel' }),
+        checks: [
+            ['숙소 payload 반환', (d) => !!d.place && d.category === 'hotel' || `place=${JSON.stringify(d.place)}`],
+            ['tier 포함', (d) => !!d.place?.priceTier, { soft: true }],
+        ],
+    },
+    {
+        name: 'swap phase(맛집): 카테고리 무관하게 교체 대상 해석',
+        phase: 'swap',
+        setup: async (h) => {
+            const cp = await h.planFor(OSAKA, 4);
+            const food = cp.days.flatMap((d) => d.items).find((i) => i.category === 'food');
+            return { name: food?.name };
+        },
+        request: (s) => ({ phase: 'swap', destinationEngName: OSAKA, swapTo: s.name, swapCategory: 'food' }),
+        checks: [
+            ['맛집 payload 반환', (d) => !!d.place && d.category === 'food' || `place=${JSON.stringify(d.place)}, cat=${d.category}`],
+        ],
+    },
+    {
+        name: 'swap phase: 목록에 없는 이름 → 거부(502)',
+        phase: 'swap',
+        request: { phase: 'swap', destinationEngName: NHA_TRANG, swapTo: '존재하지않는가짜장소ZZZ' },
+        checks: [
+            ['목록에 없으면 거부', (d, m) => m.status === 502 || `status=${m.status}`],
+        ],
+    },
+    {
+        name: '장소 변경 요청 → 대안 제시(확정 전, ready=false)',
+        phase: 'chat',
+        setup: async (h) => ({ currentPlan: await h.planFor(NHA_TRANG, 4, { budget: 'luxury' }) }),
+        request: (s) => ({
+            phase: 'chat', destinationName: '나트랑', hasDestination: true,
+            currentPlan: s.currentPlan,
+            messages: [{ role: 'user', content: '숙소를 더 가성비 좋은 곳으로 바꿔줘' }],
+        }),
+        checks: [
+            ['빈 응답 아님', (d) => (d.message || '').length > 5],
+            ['확정 전(ready=false)이거나 바로 swap', (d) => d.ready === false || d.requirements?.intent === 'swap', { soft: true }],
+        ],
+    },
+    {
+        name: '숙소 변경 확인 → intent=swap + swapTo 지정',
+        phase: 'chat',
+        setup: async (h) => {
+            const currentPlan = await h.planFor(NHA_TRANG, 4, { budget: 'luxury' });
+            const first = {
+                phase: 'chat', destinationName: '나트랑', hasDestination: true, currentPlan,
+                messages: [{ role: 'user', content: '숙소를 더 가성비 좋은 곳으로 바꿔줘' }],
+            };
+            const { data } = await h.post(first);
+            return { currentPlan, suggestion: data.message || '추천 숙소는 어떠세요?', req1: data.requirements || {} };
+        },
+        request: (s) => ({
+            phase: 'chat', destinationName: '나트랑', hasDestination: true, currentPlan: s.currentPlan,
+            messages: [
+                { role: 'user', content: '숙소를 더 가성비 좋은 곳으로 바꿔줘' },
+                { role: 'assistant', content: s.suggestion },
+                { role: 'user', content: '응 그걸로 바꿔줘' },
+            ],
+        }),
+        // 클라이언트 병합 기준(제안 턴 + 확정 턴)으로 검증 — 실제 앱 동작과 동일
+        checks: [
+            ['intent=swap (병합)', (d, m) => mergedReq(d, m).intent === 'swap' || `intent=${mergedReq(d, m).intent}`],
+            ['swapTo 지정됨 (병합)', (d, m) => !!mergedReq(d, m).swapTo || 'swapTo 없음'],
+            ['ready=true', (d) => d.ready === true],
+            ['swapCategory=hotel (병합)', (d, m) => mergedReq(d, m).swapCategory === 'hotel', { soft: true }],
+            ['swapFrom 지정됨 (병합)', (d, m) => !!mergedReq(d, m).swapFrom, { soft: true }],
+        ],
+    },
+    {
+        name: '맛집 교체 확인 → intent=swap (호텔 아님)',
+        phase: 'chat',
+        setup: async (h) => {
+            const currentPlan = await h.planFor(OSAKA, 4);
+            const first = {
+                phase: 'chat', destinationName: '오사카', hasDestination: true, currentPlan,
+                messages: [{ role: 'user', content: '2일차 맛집 말고 다른 맛집으로 바꿔줘' }],
+            };
+            const { data } = await h.post(first);
+            return { currentPlan, suggestion: data.message || '이 맛집은 어떠세요?', req1: data.requirements || {} };
+        },
+        request: (s) => ({
+            phase: 'chat', destinationName: '오사카', hasDestination: true, currentPlan: s.currentPlan,
+            messages: [
+                { role: 'user', content: '2일차 맛집 말고 다른 맛집으로 바꿔줘' },
+                { role: 'assistant', content: s.suggestion },
+                { role: 'user', content: '응 그걸로 바꿔줘' },
+            ],
+        }),
+        checks: [
+            ['intent=swap (병합)', (d, m) => mergedReq(d, m).intent === 'swap' || `intent=${mergedReq(d, m).intent}`],
+            ['swapCategory=food (병합)', (d, m) => mergedReq(d, m).swapCategory === 'food' || `cat=${mergedReq(d, m).swapCategory}`],
+            ['swapTo 지정됨 (병합)', (d, m) => !!mergedReq(d, m).swapTo, { soft: true }],
+        ],
+    },
+
     {
         name: '편집: 기존 장소 중복 배치 안 함(dedup)',
         phase: 'generate',

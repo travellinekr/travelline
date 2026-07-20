@@ -28,6 +28,7 @@ const CHAT_SYSTEM = `당신은 친근한 한국어 여행 일정 어시스턴트
 - 사용자가 "그냥 짜줘/알아서 해줘" 같이 진행을 원하면 더 묻지 말고 ready 를 true 로.
 - dayCount 만 정해지면 ready 를 true 로 할 수 있습니다(나머지는 선택). 다만 2~4번을 한두 개 더 받으면 더 좋은 일정이 되니, 급해 보이지 않으면 1~2개 더 물어보세요.
 - 값을 못 받은 항목은 비워둡니다(null 또는 빈 배열).
+- ★매우 중요: 사용자가 말한 값은 "그 즉시" requirements 에 채우세요. 추가로 질문을 하더라도, 이미 파악한 값(특히 dayCount)은 "이번 응답의 requirements 에 반드시 포함"하세요. 질문만 하고 requirements 를 비워서 보내지 마세요. (예: "4박5일" 을 들으면 이번 응답에서 곧바로 dayCount=5 를 채운 뒤 다음 항목을 물어보세요.)
 
 반드시 아래 JSON 형식으로만 응답하세요(그 외 텍스트 금지):
 {
@@ -39,7 +40,10 @@ const CHAT_SYSTEM = `당신은 친근한 한국어 여행 일정 어시스턴트
     "pace": <"packed"|"relaxed"|null>,
     "style": <string[]>,
     "notes": <string|null>,
-    "intent": <"create"|"edit"|null>
+    "intent": <"create"|"edit"|"swap"|null>,
+    "swapFrom": <string|null>,
+    "swapTo": <string|null>,
+    "swapCategory": <"food"|"hotel"|"shopping"|"tourspa"|"transport"|null>
   },
   "ready": <boolean>
 }`;
@@ -149,7 +153,10 @@ interface Requirements {
     pace?: string | null;
     style?: string[];
     notes?: string | null;
-    intent?: 'create' | 'edit' | null; // edit=기존 일정에 부분 추가/수정, create=전체 새 일정
+    intent?: 'create' | 'edit' | 'swap' | null; // edit=부분 추가, create=전체 새 일정, swap=장소 교체
+    swapFrom?: string | null;     // swap: 현재 장소명(제거 대상)
+    swapTo?: string | null;       // swap: 새 장소명(카탈로그)
+    swapCategory?: string | null; // swap: 교체 카테고리(food|hotel|shopping|tourspa|transport)
 }
 
 const CATEGORY_LABEL: Record<string, string> = {
@@ -170,6 +177,28 @@ function buildCurrentPlanText(currentPlan?: CurrentPlan): string {
             return `${d.day}일차: ${names || '(비어있음)'}`;
         })
         .join('\n');
+}
+
+// 사용자 발화에서 여행 일수(dayCount)를 결정적으로 추출. (flash 가 requirements 에 자주 누락 → 서버 보정)
+// "N박M일"→M · "M일"(일차 제외)→M · "M박" 단독→M+1. 가장 최근 언급 우선.
+function extractDayCount(messages: ChatMessage[]): number | null {
+    const text = (messages || []).filter((m) => m.role === 'user').map((m) => m.content).join('\n');
+    const last = (re: RegExp, group: number, adj = 0): number | null => {
+        const all = [...text.matchAll(re)];
+        if (!all.length) return null;
+        const n = parseInt(all[all.length - 1][group], 10);
+        return Number.isFinite(n) ? n + adj : null;
+    };
+    // "N박M일" (박+일 동시) → 일 수
+    const nm = last(/(\d+)\s*박\s*(\d+)\s*일/g, 2);
+    if (nm) return nm;
+    // "M일" — 단, "3일차" 같은 표현은 제외(일차)
+    const d = last(/(\d+)\s*일(?!\s*차)/g, 1);
+    if (d) return d;
+    // "M박" 단독 → M+1
+    const n = last(/(\d+)\s*박/g, 1, 1);
+    if (n) return n;
+    return null;
 }
 
 // 현재 일정에 이미 배치된 장소 name 집합(소문자) — 배치 중복 방지용
@@ -450,18 +479,47 @@ export async function POST(req: Request) {
                 if (planText) {
                     chatThinking = 512; // 부분수정/추가 의도 파악엔 약간의 추론이 큰 도움
                     const dc = currentPlan!.dayCount;
+                    const cityKey = resolveCityKey(destinationName);
+                    const placeList = cityKey ? buildCatalogListing(cityKey, dc) : '';
                     system +=
                         `\n\n[현재 저장된 일정] 총 ${dc}일 일정이 이미 있습니다:\n${planText}\n\n` +
                         `[매우 중요 — 이미 일정이 있을 때의 규칙]\n` +
                         `- 기간은 이미 ${dc}일로 정해져 있습니다. "며칠/몇박몇일"을 절대 다시 묻지 말고 requirements.dayCount 를 ${dc} 로 채우세요.\n` +
-                        `- 사용자가 "N일차에 ~ 추가/빼줘/바꿔줘/더 넣어줘/근처 맛집" 처럼 부분 수정을 요청하면: 되묻지 말고 그 요청을 requirements.notes 에 구체적으로 담고, requirements.intent="edit", ready=true 로 즉시 응답하세요.\n` +
+                        `- 사용자가 "N일차에 ~ 추가/빼줘/더 넣어줘/근처 맛집" 처럼 부분 추가를 요청하면: 되묻지 말고 그 요청을 requirements.notes 에 구체적으로 담고, requirements.intent="edit", ready=true 로 즉시 응답하세요.\n` +
                         `- 사용자가 "처음부터 새로/전체 다시 짜줘"라고 명시할 때만 requirements.intent="create" 로 두고 새로 구성하세요.\n` +
                         `- 이미 배치된 장소나 일정에 대해 물어보면 위 현재 일정을 참고해 친절히 답하세요.`;
+
+                    if (placeList) {
+                        system +=
+                            `\n\n[이 도시의 장소 카탈로그] (# 는 카테고리 food/hotel/shopping/tourspa/transport. 교체는 반드시 이 목록에서만 대안을 고르세요. 숙소 tier=budget<value<upscale<luxury)\n${placeList}\n\n` +
+                            `[장소 교체(swap) 대화 규칙 — 숙소·맛집·쇼핑·투어 등 모든 카테고리]\n` +
+                            `- 사용자가 "그 호텔/맛집/장소를 ~하게 바꿔줘/변경/다른 곳/○○ 말고 다른 걸/더 저렴/더 좋은" 처럼 "이미 배치된 특정 장소를 다른 것으로 교체"해달라고 하면:\n` +
+                            `  1) 현재 일정에서 대상 장소가 무엇인지(그리고 몇 일차인지) 파악하고,\n` +
+                            `  2) 위 카탈로그에서 "같은 카테고리"의 대안 1곳을 요청(예산·위치·분위기·취향)에 맞게 골라 "현재 '<지금 장소>' 대신 '<추천 장소>'는 어떠세요? <한 줄 이유>. 이걸로 바꿀까요?" 라고 물어보세요.\n` +
+                            `     ★ 이 제안 단계에서 이미 requirements.intent="swap", requirements.swapFrom="<현재 장소명 그대로>", requirements.swapTo="<추천 장소명, 카탈로그 name 그대로>", requirements.swapCategory="<food|hotel|shopping|tourspa|transport>" 를 반드시 채우세요. 단 ready=false (아직 사용자 확정 전).\n` +
+                            `  3) 사용자가 확정("응/좋아/그걸로/바꿔줘")하면: 위 swap 필드를 그대로 유지한 채 ready=true 로만 바꿔 응답하세요. (자연어로만 답하지 말고 requirements 를 반드시 채울 것)\n` +
+                            `  4) 사용자가 마음에 안 들어 하면 requirements.swapTo 를 다른 후보로 바꿔 다시 제시하세요(ready=false).\n` +
+                            `  - 교체는 "같은 카테고리"끼리만(맛집→맛집, 숙소→숙소). swapFrom/swapTo 이름은 반드시 목록/현재 일정에 있는 정확한 이름을 사용하세요(지어내지 말 것).\n` +
+                            `  - "추가"가 아니라 "교체/바꿔"인 점에 유의: 새로 더하는 게 아니라 기존 것을 대체하는 것이면 swap 입니다.`;
+                    }
                 }
             }
 
             const raw = await callModelRetry({ system, messages, json: true, temperature: 0.5, thinkingBudget: chatThinking });
             const parsed = parseChatEnvelope(raw);
+
+            // dayCount 결정적 보정 (배치 모드) — flash 누락에 의존하지 않도록 서버가 확정.
+            if (!recommendMode) {
+                if (currentPlan && Array.isArray(currentPlan.days) && currentPlan.days.length) {
+                    // 편집 문맥: 기간은 기존 일수로 고정
+                    parsed.requirements = { ...(parsed.requirements || {}), dayCount: currentPlan.dayCount };
+                } else {
+                    const dc = extractDayCount(messages);
+                    if (dc && dc >= 1 && dc <= 30) {
+                        parsed.requirements = { ...(parsed.requirements || {}), dayCount: dc };
+                    }
+                }
+            }
 
             return NextResponse.json({ mode: recommendMode ? 'recommend' : 'ask', ...parsed });
         }
@@ -535,6 +593,25 @@ export async function POST(req: Request) {
                 return NextResponse.json({ error: '일정을 만들지 못했어요. 조건을 바꿔 다시 시도해 주세요.' }, { status: 502 });
             }
             return NextResponse.json({ plan, warnings, edit: editMode });
+        }
+
+        if (phase === 'swap') {
+            // 장소 교체: swapTo(새 장소명)를 카탈로그에서 찾아 카드 payload 로 반환. (모든 카테고리)
+            // 실제 제거/삽입은 클라이언트(swapPlace)에서 기존 장소 위치에 맞춰 처리.
+            const { destinationEngName, destinationName, swapTo, swapCategory } = body as {
+                destinationEngName?: string; destinationName?: string; swapTo?: string; swapCategory?: string;
+            };
+            const cityKey = resolveCityKey(destinationEngName) || resolveCityKey(destinationName);
+            if (!cityKey) {
+                return NextResponse.json({ error: '이 여행지는 아직 지원하지 않아요.' }, { status: 400 });
+            }
+            const name = String(swapTo ?? '').trim();
+            // swapCategory 가 있으면 그 카테고리 우선, 없으면 전체 탐색
+            const match = name ? findCatalogPlace(cityKey, name, swapCategory) : null;
+            if (!match) {
+                return NextResponse.json({ error: '바꿀 장소를 목록에서 찾지 못했어요.' }, { status: 502 });
+            }
+            return NextResponse.json({ place: placeToCardPayload(match.place, match.category), category: match.category });
         }
 
         return NextResponse.json({ error: '알 수 없는 요청이에요.' }, { status: 400 });

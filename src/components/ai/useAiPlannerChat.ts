@@ -100,7 +100,11 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
                 setMessages((m) => [...m, { role: 'assistant', content: data.error || '문제가 생겼어요. 다시 시도해 주세요.' }]);
             } else {
                 setMessages((m) => [...m, { role: 'assistant', content: data.message || '...' }]);
-                if (data.requirements) setRequirements(data.requirements);
+                // 턴마다 "누적 병합" — 모델이 일부 필드만 돌려줘도 앞서 모은 값(예: swap 후보)을 잃지 않음.
+                // (교체하면 확정 턴에서 requirements={} 가 오면 후보가 날아가는 문제가 있었음)
+                if (data.requirements && typeof data.requirements === 'object') {
+                    setRequirements((prev) => ({ ...(prev || {}), ...data.requirements }));
+                }
                 setReady(!!data.ready);
             }
         } catch {

@@ -295,7 +295,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     }, [columns, cards]);
 
     const aiChat = useAiPlannerChat({ destinationName: aiDestinationName, currentPlan: aiCurrentPlan });
-    const { applyPlan } = useApplyAiPlan();
+    const { applyPlan, swapPlace } = useApplyAiPlan();
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
     const { setEntryCardCity } = useEntryCardSync({ canEdit, roleLoading, destinationCard });
@@ -805,6 +805,44 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         // 이미 일차 카드가 있으면 "기본이 편집(추가)": 모델이 명시적으로 'create'(=처음부터 새로)를
         // 낼 때만 전체 새 일정으로 간주. → 추가 요청이 전체 재생성+append 로 카드가 두 배 되는 문제 방지.
         const hasExistingPlan = !!aiCurrentPlan?.days?.some((d) => d.items.length > 0);
+
+        // 장소 교체(swap): 기존 장소 제거 + 새 장소를 같은 자리에 삽입 (모든 카테고리)
+        if (req?.intent === 'swap' && hasExistingPlan) {
+            // swapFrom 없으면: swapCategory 의 장소가 현재 일정에 하나뿐일 때 자동 추론
+            let fromName: string | undefined = req.swapFrom || undefined;
+            if (!fromName) {
+                const items = aiCurrentPlan!.days.flatMap((d) => d.items);
+                const pool = req.swapCategory ? items.filter((i) => i.category === req.swapCategory) : items;
+                const distinct = [...new Set(pool.map((i) => i.name))];
+                if (distinct.length === 1) fromName = distinct[0];
+            }
+            if (!fromName || !req.swapTo) {
+                addToast('어떤 장소를 무엇으로 바꿀지 정확히 알려주세요.', 'warning');
+                return;
+            }
+            setAiBusy(true);
+            try {
+                const res = await fetch('/api/ai-planner', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ phase: 'swap', destinationEngName: destEng, destinationName: aiDestinationName, swapTo: req.swapTo, swapCategory: req.swapCategory }),
+                });
+                const data = await res.json();
+                if (!res.ok || data.error || !data.place) {
+                    addToast(data.error || '장소 교체에 실패했어요.', 'warning');
+                    return;
+                }
+                const swapped = swapPlace(fromName, data.place);
+                setAiPanelOpen(false);
+                addToast(swapped > 0 ? `'${fromName}' → '${req.swapTo}'(으)로 변경했어요.` : '바꿀 기존 장소를 찾지 못했어요.', swapped > 0 ? 'info' : 'warning');
+            } catch {
+                addToast('장소 교체 중 오류가 발생했어요.', 'warning');
+            } finally {
+                setAiBusy(false);
+            }
+            return;
+        }
+
         const editing = hasExistingPlan && req?.intent !== 'create';
 
         setAiBusy(true);
