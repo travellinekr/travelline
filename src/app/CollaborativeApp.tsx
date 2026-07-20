@@ -273,7 +273,28 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // AI 플래너 — 대화용 여행지 이름 + 공유 대화 컨트롤러(패널 개폐와 무관하게 대화 유지)
     const aiDestinationName = (destinationCard as any)?.text || (destinationCard as any)?.city || undefined;
-    const aiChat = useAiPlannerChat({ destinationName: aiDestinationName });
+
+    // 현재 보드에 배치된 일정(일차별 카드 name/category) — AI 컨텍스트용(기간 재질문 방지 + 부분수정).
+    // day1..연속 일차만(첫 빈 번호에서 중단, Timeline 규칙과 동일).
+    const aiCurrentPlan = useMemo(() => {
+        const cols = columns as any;
+        if (!cols) return null;
+        const days: Array<{ day: number; items: Array<{ name: string; category?: string }> }> = [];
+        for (let i = 1; i <= 20; i++) {
+            const col = cols.get(`day${i}`);
+            if (!col) break;
+            const ids: string[] = Array.isArray(col.cardIds) ? col.cardIds : (col.cardIds?.toArray?.() ?? []);
+            const items = ids
+                .map((id) => (cards as any)?.get(id))
+                .filter(Boolean)
+                .map((c: any) => ({ name: c.text || c.title || '', category: c.category }))
+                .filter((it: any) => it.name);
+            days.push({ day: i, items });
+        }
+        return days.length ? { dayCount: days.length, days } : null;
+    }, [columns, cards]);
+
+    const aiChat = useAiPlannerChat({ destinationName: aiDestinationName, currentPlan: aiCurrentPlan });
     const { applyPlan } = useApplyAiPlan();
 
     // p1(입국심사) 카드 라이프사이클 + city 동기화
@@ -780,12 +801,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             return;
         }
 
+        // 부분 수정 의도 + 현재 일정 존재 → 편집 모드(기존 유지, 추가분만)
+        const editing = req?.intent === 'edit' && !!aiCurrentPlan?.days?.length;
+
         setAiBusy(true);
         try {
             const res = await fetch('/api/ai-planner', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ phase: 'generate', destinationEngName: destEng, destinationName: aiDestinationName, requirements: req }),
+                body: JSON.stringify({
+                    phase: 'generate',
+                    destinationEngName: destEng,
+                    destinationName: aiDestinationName,
+                    requirements: req,
+                    currentPlan: editing ? aiCurrentPlan : undefined,
+                }),
             });
             const data = await res.json();
             if (!res.ok || data.error) {
@@ -793,6 +823,17 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                 return;
             }
             const plan = data.plan;
+
+            // 편집 모드: 추가분만 그대로 append (기존 카드 보존, 모달 없이 바로 반영)
+            if (data.edit) {
+                if (data.empty || !plan?.days?.length) {
+                    addToast('추가할 만한 장소를 찾지 못했어요. 조금 더 구체적으로 말씀해 주세요.', 'info');
+                    return;
+                }
+                doApplyAiPlan(plan, 'append', data.warnings || []);
+                return;
+            }
+
             if (!plan?.days?.length) {
                 addToast('배치할 일정을 만들지 못했어요. 대화로 조건을 조금 더 알려주세요.', 'warning');
                 return;

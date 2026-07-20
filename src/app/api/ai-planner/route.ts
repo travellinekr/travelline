@@ -38,7 +38,8 @@ const CHAT_SYSTEM = `당신은 친근한 한국어 여행 일정 어시스턴트
     "budget": <"budget"|"mid"|"luxury"|null>,
     "pace": <"packed"|"relaxed"|null>,
     "style": <string[]>,
-    "notes": <string|null>
+    "notes": <string|null>,
+    "intent": <"create"|"edit"|null>
   },
   "ready": <boolean>
 }`;
@@ -116,6 +117,7 @@ const GENERATE_SYSTEM = `당신은 여행 일정 큐레이터입니다.
   · 숙소를 옮기면: 각 숙소를 체크인 일차에 배치 + checkOutDay 는 다음 숙소 체크인 전날(마지막 숙소는 dayCount).
   · 같은 숙소를 여러 번 넣지 말고, 한 숙소당 한 번만 배치하세요(체크인/체크아웃 카드는 시스템이 자동 생성).
 - 각 날에 최소 2곳 이상 채우고, 하루 최대 8개까지.
+- [부분 수정 모드] "이미 배치된 일정"이 함께 주어지면, 전체를 다시 만들지 말고 사용자 요청에 맞는 "추가/변경분만" 출력하세요. 이미 있는 장소는 다시 출력하지 마세요.
 
 반드시 아래 JSON 형식으로만 응답하세요(그 외 텍스트 금지):
 {
@@ -124,11 +126,18 @@ const GENERATE_SYSTEM = `당신은 여행 일정 큐레이터입니다.
 
 const MAX_PER_DAY = 8;
 
+// 현재 보드에 이미 배치된 일정 요약(일차별 카드 name/category). 대화·배치 모두에 컨텍스트로 주입.
+interface CurrentPlan {
+    dayCount: number;
+    days: Array<{ day: number; items: Array<{ name: string; category?: string }> }>;
+}
+
 interface ChatBody {
     phase: 'chat';
     messages: ChatMessage[];
     destinationName?: string;
     hasDestination?: boolean; // false 면 여행지 추천 모드로 대화
+    currentPlan?: CurrentPlan; // 이미 짜인 일정(있으면 기간 재질문 금지 + 부분수정 인식)
 }
 
 interface Requirements {
@@ -140,6 +149,40 @@ interface Requirements {
     pace?: string | null;
     style?: string[];
     notes?: string | null;
+    intent?: 'create' | 'edit' | null; // edit=기존 일정에 부분 추가/수정, create=전체 새 일정
+}
+
+const CATEGORY_LABEL: Record<string, string> = {
+    food: '맛집', hotel: '숙소', shopping: '쇼핑', tourspa: '투어/스파',
+    transport: '교통', destination: '여행지', flight: '항공', preparation: '준비', other: '기타',
+};
+
+// 현재 일정을 프롬프트용 텍스트로 ("1일차: 맛집:A, 숙소:B" 형태). 없으면 빈 문자열.
+function buildCurrentPlanText(currentPlan?: CurrentPlan): string {
+    const days = Array.isArray(currentPlan?.days) ? currentPlan!.days : [];
+    if (!days.length) return '';
+    return days
+        .map((d) => {
+            const items = Array.isArray(d.items) ? d.items : [];
+            const names = items
+                .map((it) => `${CATEGORY_LABEL[it.category ?? ''] ?? it.category ?? ''}:${it.name}`)
+                .join(', ');
+            return `${d.day}일차: ${names || '(비어있음)'}`;
+        })
+        .join('\n');
+}
+
+// 현재 일정에 이미 배치된 장소 name 집합(소문자) — 배치 중복 방지용
+function existingPlaceNames(currentPlan?: CurrentPlan): Set<string> {
+    const set = new Set<string>();
+    const days = Array.isArray(currentPlan?.days) ? currentPlan!.days : [];
+    for (const d of days) {
+        for (const it of Array.isArray(d.items) ? d.items : []) {
+            const n = String(it?.name ?? '').trim().toLowerCase();
+            if (n) set.add(n);
+        }
+    }
+    return set;
 }
 
 // 코드값 → 프롬프트용 한글 라벨
@@ -151,6 +194,7 @@ interface GenerateBody {
     destinationEngName?: string; // destination 카드의 city (engName 소문자 등)
     destinationName?: string;    // 표시용 한글명(선택)
     requirements?: Requirements;
+    currentPlan?: CurrentPlan;   // 있으면 "부분 수정(추가)" 모드 — 기존 장소는 유지, 추가분만 산출
 }
 
 // 모델의 chat 응답을 안전하게 파싱. 파싱 실패해도 "원본 JSON을 사용자에게 절대 노출하지 않음".
@@ -180,7 +224,7 @@ function parseChatEnvelope(raw: string): { message: string; requirements: any; r
     return { message: '죄송해요, 한 번만 다시 말씀해 주시겠어요?', requirements: {}, ready: false };
 }
 
-function buildGeneratePrompt(destinationName: string | undefined, req: Requirements | undefined, listing: string, dayCount: number): string {
+function buildGeneratePrompt(destinationName: string | undefined, req: Requirements | undefined, listing: string, dayCount: number, currentPlan?: CurrentPlan): string {
     const lines: string[] = [];
     if (destinationName) lines.push(`[여행지] ${destinationName}`);
     const reqParts: string[] = [`기간 ${dayCount}일`];
@@ -192,16 +236,32 @@ function buildGeneratePrompt(destinationName: string | undefined, req: Requireme
     lines.push(`[요구사항] ${reqParts.join(' / ')}`);
     lines.push('[장소 카탈로그] (# 는 카테고리, 각 줄: name | type | 설명)');
     lines.push(listing);
-    lines.push(`\n위 카탈로그의 장소만 사용해 ${dayCount}일 일정을 구성해줘.`);
+
+    const planText = buildCurrentPlanText(currentPlan);
+    if (planText) {
+        // 부분 수정(추가) 모드 — 기존 배치는 그대로 두고 "추가/변경할 장소만" 산출
+        lines.push('\n[현재 이미 배치된 일정] (이 장소들은 그대로 유지됩니다 — 다시 출력하지 마세요)');
+        lines.push(planText);
+        lines.push(
+            `\n사용자 요청: "${req?.notes || '일정 보완'}"\n` +
+            `위 요청에 따라 "추가하거나 바꿀 장소만" 출력하세요.\n` +
+            `- 이미 배치된 장소는 절대 다시 출력하지 마세요(중복 금지).\n` +
+            `- 요청이 특정 N일차에 관한 것이면 그 일차(day=N)에만 배치하세요.\n` +
+            `- 추가할 게 없으면 days 를 빈 배열로 두세요.`
+        );
+    } else {
+        lines.push(`\n위 카탈로그의 장소만 사용해 ${dayCount}일 일정을 구성해줘.`);
+    }
     return lines.join('\n');
 }
 
 // 모델 산출물을 카탈로그 화이트리스트/일수 범위/상한으로 엄격 검증 → 카드 payload 로 변환
 // 숙소(hotel)는 "체크인 카드 + 체크아웃 카드" 2장으로 전개(각 장소당 1박 스테이 기준).
-function validateCatalogPlan(raw: any, cityKey: string, dayCount: number): { plan: any; warnings: string[] } {
+function validateCatalogPlan(raw: any, cityKey: string, dayCount: number, existing?: Set<string>): { plan: any; warnings: string[] } {
     const warnings: string[] = [];
-    const used = new Set<string>();      // 같은 장소 중복 방지 (name 기준, 비-숙소)
-    const usedHotel = new Set<string>(); // 같은 숙소 스테이 중복 방지
+    // 이미 보드에 있는 장소는 재배치 금지 → used/usedHotel 을 기존 name 으로 미리 채움
+    const used = new Set<string>(existing ?? []);      // 같은 장소 중복 방지 (name 기준, 비-숙소)
+    const usedHotel = new Set<string>(existing ?? []); // 같은 숙소 스테이 중복 방지
     const byDay = new Map<number, any[]>();
     // 숙소 스테이: 체크인 일차 + 체크아웃 일차를 모아 마지막에 2장으로 전개
     const stays: Array<{ place: any; checkInDay: number; checkOutDay: number; time: any; note: any }> = [];
@@ -372,15 +432,30 @@ export async function POST(req: Request) {
 
     try {
         if (phase === 'chat') {
-            const { messages = [], destinationName, hasDestination } = body as ChatBody;
+            const { messages = [], destinationName, hasDestination, currentPlan } = body as ChatBody;
             // 여행지 유무로 모드 분기: 있으면 일정 요구사항 수집, 없으면 여행지 추천 정보 수집
             const recommendMode = hasDestination === false || (!destinationName && hasDestination !== true);
-            const system = recommendMode
+            let system = recommendMode
                 ? CHAT_SYSTEM_RECOMMEND
                 : CHAT_SYSTEM +
                   (destinationName
                       ? `\n\n[여행지] ${destinationName} — 여행지는 이미 정해졌으니 목적지는 묻지 마세요.`
                       : '');
+
+            // 이미 짜인 일정이 있으면: 기간 재질문 금지 + 부분수정 인식 (배치 모드에서만)
+            if (!recommendMode) {
+                const planText = buildCurrentPlanText(currentPlan);
+                if (planText) {
+                    const dc = currentPlan!.dayCount;
+                    system +=
+                        `\n\n[현재 저장된 일정] 총 ${dc}일 일정이 이미 있습니다:\n${planText}\n\n` +
+                        `[매우 중요 — 이미 일정이 있을 때의 규칙]\n` +
+                        `- 기간은 이미 ${dc}일로 정해져 있습니다. "며칠/몇박몇일"을 절대 다시 묻지 말고 requirements.dayCount 를 ${dc} 로 채우세요.\n` +
+                        `- 사용자가 "N일차에 ~ 추가/빼줘/바꿔줘/더 넣어줘/근처 맛집" 처럼 부분 수정을 요청하면: 되묻지 말고 그 요청을 requirements.notes 에 구체적으로 담고, requirements.intent="edit", ready=true 로 즉시 응답하세요.\n` +
+                        `- 사용자가 "처음부터 새로/전체 다시 짜줘"라고 명시할 때만 requirements.intent="create" 로 두고 새로 구성하세요.\n` +
+                        `- 이미 배치된 장소나 일정에 대해 물어보면 위 현재 일정을 참고해 친절히 답하세요.`;
+                }
+            }
 
             const raw = await callModelRetry({ system, messages, json: true, temperature: 0.5 });
             const parsed = parseChatEnvelope(raw);
@@ -414,7 +489,7 @@ export async function POST(req: Request) {
         }
 
         if (phase === 'generate') {
-            const { requirements, destinationEngName, destinationName } = body as GenerateBody;
+            const { requirements, destinationEngName, destinationName, currentPlan } = body as GenerateBody;
 
             const cityKey = resolveCityKey(destinationEngName) || resolveCityKey(destinationName);
             if (!cityKey) {
@@ -424,13 +499,16 @@ export async function POST(req: Request) {
                 );
             }
 
-            // 일수: 요구사항 우선, 없으면 3일. 1~14 클램프.
-            let dayCount = Number(requirements?.dayCount);
-            if (!Number.isInteger(dayCount) || dayCount < 1) dayCount = 3;
-            dayCount = Math.min(14, dayCount);
+            // 부분 수정 모드: currentPlan 이 오면 기존 일정 유지 + 추가분만 산출
+            const editMode = !!(currentPlan && Array.isArray(currentPlan.days) && currentPlan.days.length);
+
+            // 일수: 편집 모드면 기존 일수 우선, 아니면 요구사항 → 없으면 3일. 1~14 클램프.
+            let dayCount = Number(editMode ? currentPlan!.dayCount : requirements?.dayCount);
+            if (!Number.isInteger(dayCount) || dayCount < 1) dayCount = Number(requirements?.dayCount) || 3;
+            dayCount = Math.min(14, Math.max(1, dayCount));
 
             const listing = buildCatalogListing(cityKey, dayCount);
-            const userPrompt = buildGeneratePrompt(destinationName || cityKey, requirements, listing, dayCount);
+            const userPrompt = buildGeneratePrompt(destinationName || cityKey, requirements, listing, dayCount, editMode ? currentPlan : undefined);
 
             const parsed = await callModelJson({
                 system: GENERATE_SYSTEM,
@@ -443,11 +521,15 @@ export async function POST(req: Request) {
                 return NextResponse.json({ error: 'AI 응답을 이해하지 못했어요. 다시 시도해 주세요.' }, { status: 502 });
             }
 
-            const { plan, warnings } = validateCatalogPlan(parsed, cityKey, dayCount);
+            const { plan, warnings } = validateCatalogPlan(parsed, cityKey, dayCount, editMode ? existingPlaceNames(currentPlan) : undefined);
             if (!plan.days.length) {
+                // 편집 모드에서 추가분이 없으면 에러가 아니라 "추가할 게 없음" 안내
+                if (editMode) {
+                    return NextResponse.json({ plan, warnings, edit: true, empty: true });
+                }
                 return NextResponse.json({ error: '일정을 만들지 못했어요. 조건을 바꿔 다시 시도해 주세요.' }, { status: 502 });
             }
-            return NextResponse.json({ plan, warnings });
+            return NextResponse.json({ plan, warnings, edit: editMode });
         }
 
         return NextResponse.json({ error: '알 수 없는 요청이에요.' }, { status: 400 });

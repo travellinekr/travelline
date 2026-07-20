@@ -12,10 +12,14 @@ export type AiChatMode = 'plan' | 'recommend';
 
 const PLAN_GREETING =
     '안녕하세요! 여행지에 맞춰 일정을 짜드릴게요. 🙂\n며칠 일정인지, 어떤 스타일을 원하시는지 알려주세요.';
+const PLAN_EDIT_GREETING =
+    '이미 짜인 일정이 있네요! ✏️\n수정하거나 추가할 내용을 말씀해 주세요. (예: "3일차에 맛집 하나 더 추가해줘")';
 const RECOMMEND_GREETING =
     '안녕하세요! 어디로 떠날지 함께 정해볼까요? 🌏\n언제쯤 여행을 계획하고 계세요? (여행 시기를 알려주시면 딱 맞는 곳을 추천해드려요)';
 
-const greetingFor = (mode: AiChatMode) => (mode === 'recommend' ? RECOMMEND_GREETING : PLAN_GREETING);
+const hasPlanDays = (plan?: any) => !!(plan && Array.isArray(plan.days) && plan.days.some((d: any) => (d?.items?.length ?? 0) > 0));
+const greetingFor = (mode: AiChatMode, plan?: any) =>
+    mode === 'recommend' ? RECOMMEND_GREETING : hasPlanDays(plan) ? PLAN_EDIT_GREETING : PLAN_GREETING;
 
 /**
  * AI 플래너 대화 상태 + 로직.
@@ -36,10 +40,10 @@ export interface AiChatController {
     reset: () => void;
 }
 
-export function useAiPlannerChat({ destinationName }: { destinationName?: string }): AiChatController {
+export function useAiPlannerChat({ destinationName, currentPlan }: { destinationName?: string; currentPlan?: any }): AiChatController {
     const mode: AiChatMode = destinationName ? 'plan' : 'recommend';
 
-    const [messages, setMessages] = useState<ChatMsg[]>([{ role: 'assistant', content: greetingFor(mode) }]);
+    const [messages, setMessages] = useState<ChatMsg[]>([{ role: 'assistant', content: greetingFor(mode, currentPlan) }]);
     const [input, setInput] = useState('');
     const [loading, setLoading] = useState(false);
     const [requirements, setRequirements] = useState<AiRequirements | null>(null);
@@ -50,8 +54,12 @@ export function useAiPlannerChat({ destinationName }: { destinationName?: string
     const destRef = useRef(destinationName);
     destRef.current = destinationName;
 
+    // 최신 현재 일정 참조(대화 중 보드가 바뀌어도 최신값 전송)
+    const planRef = useRef(currentPlan);
+    planRef.current = currentPlan;
+
     const reset = useCallback(() => {
-        setMessages([{ role: 'assistant', content: greetingFor(destRef.current ? 'plan' : 'recommend') }]);
+        setMessages([{ role: 'assistant', content: greetingFor(destRef.current ? 'plan' : 'recommend', planRef.current) }]);
         setInput('');
         setLoading(false);
         setRequirements(null);
@@ -83,6 +91,7 @@ export function useAiPlannerChat({ destinationName }: { destinationName?: string
                     phase: 'chat',
                     destinationName: destRef.current,
                     hasDestination: !!destRef.current,
+                    currentPlan: planRef.current ?? undefined,
                     messages: next,
                 }),
             });
