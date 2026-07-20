@@ -8,6 +8,7 @@ interface CardMarker {
     title: string;
     coordinates: { lat: number; lng: number };
     category: string;
+    isLodging?: boolean; // true 면 "머무는 숙소" — 0번 + 로즈색으로 구분
 }
 
 interface DayMapModalProps {
@@ -89,15 +90,22 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
         // 새로운 마커 추가
         const bounds = new google.maps.LatLngBounds();
 
-        markers.forEach((marker, index) => {
+        let seq = 0; // 숙소(0번)를 제외한 실제 방문 순번
+        markers.forEach((marker) => {
             try {
+                const isLodging = marker.isLodging === true;
+                // 숙소(머무는 곳)는 0번 + 로즈색(숙소 카드 색)으로 구분, 나머지는 방문 순서 1..N 에메랄드
+                const glyph = isLodging ? '0' : `${++seq}`;
+                const bg = isLodging ? '#f43f5e' : '#10b981';       // rose-500 / emerald-500
+                const border = isLodging ? '#e11d48' : '#059669';   // rose-600 / emerald-600
+
                 // Google PinElement로 깔끔한 마커 생성
                 const pinElement = new google.maps.marker.PinElement({
-                    glyphText: `${index + 1}`,
+                    glyphText: glyph,
                     glyphColor: 'white',
-                    background: '#10b981', // emerald-500
-                    borderColor: '#059669', // emerald-600
-                    scale: 1.3,
+                    background: bg,
+                    borderColor: border,
+                    scale: isLodging ? 1.4 : 1.3,
                 });
 
                 // 핀 위에 이름 라벨
@@ -105,8 +113,8 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
                 wrapper.style.cssText = 'display:flex;flex-direction:column;align-items:center;cursor:pointer;';
 
                 const label = document.createElement('span');
-                label.textContent = marker.title;
-                label.style.cssText = 'margin-bottom:2px;background:#059669;padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600;color:white;box-shadow:0 2px 4px rgba(0,0,0,0.25);max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;';
+                label.textContent = isLodging ? `🛏 ${marker.title}` : marker.title;
+                label.style.cssText = `margin-bottom:2px;background:${border};padding:3px 8px;border-radius:6px;font-size:11px;font-weight:600;color:white;box-shadow:0 2px 4px rgba(0,0,0,0.25);max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;`;
 
                 wrapper.appendChild(label);
                 wrapper.appendChild(pinElement);
@@ -125,7 +133,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
                 const infoWindow = new google.maps.InfoWindow({
                     content: `<div style="padding: 8px;">
           <strong style="font-size: 14px;">${marker.title}</strong><br/>
-          <span style="color: #666; font-size: 12px;">${getCategoryLabel(marker.category)}</span>
+          <span style="color: #666; font-size: 12px;">${isLodging ? '숙소 · 동선 기준' : getCategoryLabel(marker.category)}</span>
         </div>`,
                 });
 
@@ -137,7 +145,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
                     infoWindow.open(map, advancedMarker);
                 });
             } catch (error) {
-                console.error(`❌ [DayMapModal] 마커 ${index + 1} 생성 실패:`, error);
+                console.error(`❌ [DayMapModal] 마커 "${marker.title}" 생성 실패:`, error);
             }
         });
 
@@ -193,7 +201,12 @@ function getCategoryLabel(category: string): string {
     const labels: Record<string, string> = {
         flight: '항공',
         accommodation: '숙소',
+        hotel: '숙소',
+        food: '맛집',
         restaurant: '식당',
+        shopping: '쇼핑',
+        tourspa: '투어·스파',
+        transport: '교통',
         destination: '여행지',
         preparation: '준비사항',
     };

@@ -5,7 +5,7 @@ import { memo, useState, useMemo, useCallback, useEffect } from "react";
 import { FlightSection } from "./FlightSection";
 import { PrePlanControl } from "./PrePlanControl";
 import { UnconfirmedSection } from "./UnconfirmedSection";
-import { MapPin, Map } from "lucide-react";
+import { MapPin, Map as MapIcon } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
 import { DayMapModal } from "./DayMapModal";
 import { EmptyState } from "./EmptyState";
@@ -210,7 +210,7 @@ function extractIATA(text: string): string | null {
   return null;
 }
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo, lodgingMarker = null }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
 
@@ -263,6 +263,19 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
 
     return result;
   }, [cards]);
+
+  // 지도용 마커: 이 일차에 숙소 카드가 없으면 "머무는 숙소"를 0번(anchor)으로 맨 앞에 추가.
+  // 동선은 숙박 기준(자고 일어나 그 숙소에서 일정 시작)이므로 기준점으로 표시.
+  // ⚠️ weather 계산용 markers 와 분리 — markers 를 바꾸면 날씨 로직에 부작용이 생김.
+  const mapMarkers = useMemo(() => {
+    if (lodgingMarker?.coordinates) {
+      return [
+        { id: `lodging-${dayId}`, title: lodgingMarker.title || '숙소', coordinates: lodgingMarker.coordinates, category: 'hotel', isLodging: true },
+        ...markers,
+      ];
+    }
+    return markers;
+  }, [markers, lodgingMarker, dayId]);
 
   const dayNumber = parseInt(dayId.replace('day', ''));
 
@@ -400,25 +413,25 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
           {dayNumber > 0 && (
             <button
               onClick={() => {
-                if (markers.length > 0) {
-                  onMapClick?.(dayNumber, markers);
+                if (mapMarkers.length > 0) {
+                  onMapClick?.(dayNumber, mapMarkers);
                 } else {
                   // 마커가 없을 때는 아무 동작 안 함
                 }
               }}
-              className={`p-1.5 rounded-lg transition-colors ${markers.length > 0
+              className={`p-1.5 rounded-lg transition-colors ${mapMarkers.length > 0
                 ? 'hover:bg-emerald-50 group cursor-pointer'
                 : 'cursor-not-allowed opacity-40'
                 }`}
               title={
-                markers.length > 0
-                  ? `지도 보기 (${markers.length}개 위치)`
+                mapMarkers.length > 0
+                  ? `지도 보기 (${mapMarkers.length}개 위치)`
                   : '표시할 위치가 없습니다'
               }
-              disabled={markers.length === 0}
+              disabled={mapMarkers.length === 0}
             >
-              <Map
-                className={`w-4 h-4 ${markers.length > 0
+              <MapIcon
+                className={`w-4 h-4 ${mapMarkers.length > 0
                   ? 'text-slate-400 group-hover:text-emerald-600'
                   : 'text-slate-300'
                   }`}
@@ -534,6 +547,42 @@ export const Timeline = memo(function Timeline({
     return result;
   }, [columns, cards, flightInfo]);
 
+  // 숙소 스테이(체크인~체크아웃 일차 범위) 계산 — 일차별 "머무는 숙소" 좌표 결정에 사용.
+  // 같은 숙소(이름+좌표)는 체크인/체크아웃 카드가 나뉘어 있어도 하나의 스테이로 합침.
+  const hotelStays = useMemo(() => {
+    const byKey = new Map<string, { title: string; coordinates: any; checkIn: number; checkOut: number }>();
+    for (let i = 1; i <= 20; i++) {
+      const col = columns.get(`day${i}`);
+      if (!col) continue;
+      const ids: string[] = col.cardIds || [];
+      for (const id of ids) {
+        const c: any = cards.get(id);
+        if (!c || c.category !== 'hotel' || !c.coordinates) continue;
+        const key = `${c.text || c.title || 'hotel'}|${c.coordinates.lat},${c.coordinates.lng}`;
+        const prev = byKey.get(key);
+        if (prev) { prev.checkIn = Math.min(prev.checkIn, i); prev.checkOut = Math.max(prev.checkOut, i); }
+        else byKey.set(key, { title: c.text || c.title || '숙소', coordinates: c.coordinates, checkIn: i, checkOut: i });
+      }
+    }
+    return Array.from(byKey.values());
+  }, [columns, cards]);
+
+  // 일차별 "머무는 숙소" 마커 — 그 일차에 숙소 카드가 이미 있으면 제외(이미 지도에 표시됨).
+  // 1) 이 날을 포함하는 스테이(체크인~체크아웃) → 2) 없으면 이 날 이전 마지막 체크인 숙소.
+  const lodgingByDay = useMemo(() => {
+    const map = new Map<number, { title: string; coordinates: any }>();
+    if (hotelStays.length === 0) return map;
+    for (const day of dayColumns) {
+      const dayNum = parseInt(day.id.replace('day', ''), 10);
+      const hasHotel = day.cards.some((c: any) => c && c.category === 'hotel' && c.coordinates);
+      if (hasHotel) continue;
+      let stay = hotelStays.find((s) => s.checkIn <= dayNum && dayNum <= s.checkOut);
+      if (!stay) stay = hotelStays.filter((s) => s.checkIn <= dayNum).sort((a, b) => b.checkIn - a.checkIn)[0];
+      if (stay) map.set(dayNum, { title: stay.title, coordinates: stay.coordinates });
+    }
+    return map;
+  }, [dayColumns, hotelStays]);
+
   const shouldRenderDestinationHeader = sections.includes('destination-header');
   const shouldRenderCandidates = sections.includes('candidates');
   const shouldRenderDays = sections.includes('days');
@@ -611,6 +660,7 @@ export const Timeline = memo(function Timeline({
                     canEdit={canEdit}
                     onMapClick={handleMapClick}
                     flightInfo={flightInfo}
+                    lodgingMarker={lodgingByDay.get(parseInt(day.id.replace('day', ''), 10)) || null}
                   />
                 ))}
 
