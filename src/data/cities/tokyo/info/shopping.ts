@@ -239,6 +239,70 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EB%B6%80%EC%95%BC+%EC%82%AC%EC%BF%A0%EB%9D%BC+%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
         ]
     },
+    "긴자 식스": {
+        photos: ["/images/tokyo/info/shopping/ginza-six.jpg"],
+        summary: "명품 브랜드와 예술 전시를 동시에 즐길 수 있는 프리미엄 쇼핑 공간입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["럭셔리 브랜드 플래그십 스토어", "옥상 정원 및 아트 갤러리"],
+        tips: ["주말에는 인파가 매우 많으니 여유로운 평일 방문을 추천합니다."],
+        warnings: [],
+        hours: "Monday: 10:30 AM – 8:30 PM; Tuesday: 10:30 AM – 8:30 PM",
+        taxRefund: { available: true, method: "매장별 확인", note: "면세 가능 매장과 최소 구매금액은 매장별로 다릅니다." },
+        payment: ["현금", "카드", "간편결제 가능 여부 매장별 확인"],
+        floors: "복합 쇼핑몰",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6697688,139.7641762&query_place_id=ChIJAQAsR--LGGAR_AmB8WMDy88", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B8%B4%EC%9E%90%20%EC%8B%9D%EC%8A%A4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "오모테산도 힐즈": {
+        photos: ["/images/tokyo/info/shopping/omotesando-hills.jpg"],
+        summary: "안도 타다오가 설계한 건축미와 트렌디한 브랜드가 모인 곳입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["감각적인 건축 디자인", "트렌디한 패션 및 라이프스타일 숍"],
+        tips: ["주변 오모테산도 거리와 함께 산책하기 좋습니다."],
+        warnings: [],
+        hours: "Monday: 11:00 AM – 8:00 PM; Tuesday: 11:00 AM – 8:00 PM",
+        taxRefund: { available: true, method: "매장별 확인", note: "면세 가능 매장과 최소 구매금액은 매장별로 다릅니다." },
+        payment: ["현금", "카드", "간편결제 가능 여부 매장별 확인"],
+        floors: "패션 쇼핑몰",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6672869,139.7086162&query_place_id=ChIJCx6jgqGMGGARpfB5UIap15k", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%AA%A8%ED%85%8C%EC%82%B0%EB%8F%84%20%ED%9E%90%EC%A6%88%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "도요스 센캬쿠반라이": {
+        photos: ["/images/tokyo/info/shopping/toyosu-senkyaku-banrai.jpg"],
+        summary: "도요스 시장 인근의 먹거리와 볼거리가 가득한 테마 거리입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["신선한 해산물 먹거리", "에도 시대풍의 전통 건축물"],
+        tips: ["인기 식당은 대기가 길 수 있으니 오픈 시간에 맞춰 방문하세요."],
+        warnings: [],
+        hours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        taxRefund: { available: true, method: "매장별 확인", note: "면세 가능 매장과 최소 구매금액은 매장별로 다릅니다." },
+        payment: ["현금", "카드", "간편결제 가능 여부 매장별 확인"],
+        floors: "먹거리·쇼핑 복합시설",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6457275,139.7836383&query_place_id=ChIJJ1XphGeJGGARK0BhX9lYd7Y", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%9A%94%EC%8A%A4%20%EC%84%BC%EC%BA%AC%EC%BF%A0%EB%B0%98%EB%9D%BC%EC%9D%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "이케부쿠로 선샤인시티": {
+        photos: ["/images/tokyo/info/shopping/ikebukuro-sunshine-city.jpg"],
+        summary: "수족관부터 전망대까지 다양한 즐길 거리가 가득한 이케부쿠로의 랜드마크",
+        updatedAt: "2026-07-21",
+        highlights: ["선샤인 수족관", "포켓몬 센터 메가 도쿄", "다양한 테마 쇼핑몰"],
+        tips: ["주말에는 인파가 많으니 평일 방문을 추천합니다."],
+        warnings: [],
+        hours: "Monday: 10:00 AM – 8:00 PM; Tuesday: 10:00 AM – 8:00 PM",
+        taxRefund: { available: true, method: "매장별 확인", note: "면세 가능 매장과 최소 구매금액은 매장별로 다릅니다." },
+        payment: ["현금", "카드", "간편결제 가능 여부 매장별 확인"],
+        floors: "복합 쇼핑몰",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.7289709,139.7195415&query_place_id=ChIJU9ZPE2-NGGARwiJyx0Id61E", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%BC%80%EB%B6%80%EC%BF%A0%EB%A1%9C%20%EC%84%A0%EC%83%A4%EC%9D%B8%EC%8B%9C%ED%8B%B0%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    }
 };
 
 export default info;

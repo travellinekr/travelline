@@ -450,6 +450,20 @@ const restaurants: RestaurantData[] = [
         features: ["도쿄", "최근 업데이트"],
         icon: "🍜"
     },
+    {
+        name: "오모이데요코초",
+        showInInbox: true,
+        hasInfo: true,
+        type: "japanese",
+        city: "Tokyo",
+        coordinates: { lat: 35.6927011, lng: 139.6995778 },
+        cuisine: "이자카야 거리",
+        specialty: "야키토리",
+        priceRange: "¥1,500~5,000",
+        openingHours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        features: ["야키토리", "평점 4.2", "도쿄 여행 동선에 넣기 좋음"],
+        icon: "🍢"
+    }
 ];
 
 export default restaurants;

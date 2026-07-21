@@ -247,6 +247,169 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84+%EB%8F%84%EC%9A%94%EC%8A%A4+%EB%A7%8C%EC%9A%94%ED%81%B4%EB%9F%BD+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
         ]
     },
+    "도쿄역": {
+        photos: ["/images/tokyo/info/tourSpa/tokyo-station.jpg"],
+        summary: "역사적인 건축물과 다양한 상점이 모여 있는 도쿄 교통의 허브입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["웅장한 붉은 벽돌 역사", "캐릭터 스트리트 쇼핑"],
+        tips: ["매우 넓으므로 이동 시간을 충분히 확보하세요."],
+        warnings: [],
+        hours: "방문 전 확인 권장",
+        duration: "30분~1시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "1 Chome-9 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6812996,139.7670658&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84%EC%97%AD%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "시부야 스크램블 교차로": {
+        photos: ["/images/tokyo/info/tourSpa/shibuya-scramble-crossing.jpg"],
+        summary: "수많은 인파가 동시에 건너는 도쿄를 상징하는 교차로입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["세계 최대 규모의 교차로 경험", "시부야의 활기찬 분위기"],
+        tips: ["주변 전망대(시부야 스카이 등)에서 내려다보는 뷰를 추천합니다."],
+        warnings: [],
+        hours: "방문 전 확인 권장",
+        duration: "30분~1시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "21 Udagawacho, Shibuya, Tokyo 150-0042, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.659482,139.7005596&query_place_id=ChIJK9EM68qLGGARacmu4KJj5SA", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EB%B6%80%EC%95%BC%20%EC%8A%A4%ED%81%AC%EB%9E%A8%EB%B8%94%20%EA%B5%90%EC%B0%A8%EB%A1%9C%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "도쿄 디즈니랜드": {
+        photos: ["/images/tokyo/info/tourSpa/tokyo-disneyland.jpg"],
+        summary: "전 세계적으로 사랑받는 클래식한 디즈니 테마파크입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["디즈니 캐릭터 퍼레이드", "다양한 어트랙션"],
+        tips: ["사전 입장권 구매와 앱을 통한 DPA 예약이 필수적입니다."],
+        warnings: [],
+        hours: "Monday: 9:00 AM – 9:00 PM; Tuesday: 9:00 AM – 9:00 PM",
+        duration: "하루",
+        price: "일자별 티켓 상이",
+        reservation: { required: true, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "1-1 Maihama, Urayasu, Chiba 279-0031, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84%20%EB%94%94%EC%A6%88%EB%8B%88%EB%9E%9C%EB%93%9C%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "신주쿠 교엔": {
+        photos: ["/images/tokyo/info/tourSpa/shinjuku-gyoen.jpg"],
+        summary: "다양한 양식의 정원이 어우러진 도쿄의 대표적인 휴식처입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["아름다운 일본식/영식 정원", "계절별 꽃과 나무"],
+        tips: ["입장 시 신분증 확인이나 예약 여부를 체크하세요 (시즌별 상이)."],
+        warnings: [],
+        hours: "Monday: Closed; Tuesday: 9:00 AM – 7:00 PM",
+        duration: "1~2시간",
+        price: "입장료 현장 확인",
+        reservation: { required: false, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "11 Naitōmachi, Shinjuku City, Tokyo 160-0014, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.68517629999999,139.7100517&query_place_id=ChIJPyOTG8KMGGARh_IXobWxHmo", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%A0%EC%A3%BC%EC%BF%A0%20%EA%B5%90%EC%97%94%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "팀랩 플래닛 도쿄": {
+        photos: ["/images/tokyo/info/tourSpa/teamlab-planets-tokyo.jpg"],
+        summary: "물과 빛을 이용한 환상적인 인터랙티브 예술 체험 공간입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["오감을 자극하는 미디어 아트", "맨발로 즐기는 전시 경험"],
+        tips: ["방문 전 반드시 사전 예약이 필요하며, 물에 젖을 수 있는 의상을 고려하세요."],
+        warnings: [],
+        hours: "Monday: 8:00 AM – 10:00 PM; Tuesday: 8:00 AM – 10:00 PM",
+        duration: "1~2시간",
+        price: "티켓/시즌별 상이",
+        reservation: { required: true, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "6-chōme-1-16 Toyosu, Koto City, Tokyo 135-0061, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6491207,139.7897739&query_place_id=ChIJSeco5wiJGGARItbTS8lQ5G0", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%80%EB%9E%A9%20%ED%94%8C%EB%9E%98%EB%8B%9B%20%EB%8F%84%EC%BF%84%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "도쿄 디즈니씨": {
+        photos: ["/images/tokyo/info/tourSpa/tokyo-disneysea.jpg"],
+        summary: "전 세계 유일한 바다 컨셉의 디즈니 테마파크입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["독특한 항구 도시 분위기", "스릴 넘치는 어트랙션"],
+        tips: ["인기 어트랙션 이용을 위해 공식 앱 활용이 필수입니다."],
+        warnings: [],
+        hours: "Monday: 9:00 AM – 9:00 PM; Tuesday: 9:00 AM – 9:00 PM",
+        duration: "하루",
+        price: "일자별 티켓 상이",
+        reservation: { required: true, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "1-13 Maihama, Urayasu, Chiba 279-8511, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6267108,139.8850779&query_place_id=ChIJszdHEQN9GGARJS23SnAdR0E", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84%20%EB%94%94%EC%A6%88%EB%8B%88%EC%94%A8%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "가와구치코": {
+        photos: ["/images/tokyo/info/tourSpa/lake-kawaguchi.jpg"],
+        summary: "후지산을 가장 아름답게 감상할 수 있는 호수 마을입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["호수에 비친 후지산 절경", "아름다운 산책로"],
+        tips: ["날씨에 따라 후지산이 안 보일 수 있으니 맑은 날을 노리세요."],
+        warnings: [],
+        hours: "방문 전 확인 권장",
+        duration: "반나절~1일",
+        price: "교통/투어별 상이",
+        reservation: { required: false, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "Lake Kawaguchi, Fujikawaguchiko, Minamitsuru District, Yamanashi, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.5170946,138.7517787&query_place_id=ChIJTz8EpbRfGWARR30zHkuyyyk", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B0%80%EC%99%80%EA%B5%AC%EC%B9%98%EC%BD%94%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "후지산 일일투어": {
+        photos: ["/images/tokyo/info/tourSpa/mount-fuji-day-tour.jpg"],
+        summary: "전문 가이드와 함께 후지산과 인근 명소를 둘러보는 프로그램입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["효율적인 이동 경로", "주요 명소 집중 관람"],
+        tips: ["투어 일정과 미팅 포인트를 사전에 반드시 확인하세요."],
+        warnings: [],
+        hours: "Monday: 9:00 AM – 5:00 PM; Tuesday: 9:00 AM – 5:00 PM",
+        duration: "하루",
+        price: "투어 상품별 상이",
+        reservation: { required: true, method: "공식 사이트/현장 확인", note: "주말·성수기 사전 예매 권장" },
+        access: { area: "7069-6, Narusawa, Minamitsuru District, Yamanashi 401-0320, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.4739914,138.6987194&query_place_id=ChIJe7nS6IRfGWARMlCJtwaFAV4", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9B%84%EC%A7%80%EC%82%B0%20%EC%9D%BC%EC%9D%BC%ED%88%AC%EC%96%B4%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "마루노우치": {
+        photos: ["/images/tokyo/info/tourSpa/marunouchi.jpg"],
+        summary: "도쿄역 서쪽에서 나카도리 거리와 쇼핑·카페를 함께 걷기 좋은 세련된 산책 구역입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["마루노우치 나카도리 산책", "도쿄역·긴자 연결 동선", "카페와 쇼핑을 함께 즐기기 좋음"],
+        tips: ["도쿄역·긴자 일정 사이에 30분~1시간 산책 코스로 넣기 좋습니다.", "야간 조명과 계절 장식이 있는 시기에는 저녁 방문도 좋습니다."],
+        warnings: [],
+        hours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        duration: "30분~1시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/현장 확인", note: "주말·성수기 혼잡 가능" },
+        access: { area: "2 Chome-5 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan", note: "대중교통 동선 확인 권장" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6804909,139.7630081&query_place_id=ChIJAVgJ6zmLGGAR99WBL5-fomQ", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A3%A8%EB%85%B8%EC%9A%B0%EC%B9%98%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+
 };
 
 export default info;

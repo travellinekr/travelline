@@ -672,6 +672,23 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B8%B4%EC%9E%90+%ED%95%98%EC%B9%98%EA%B3%A0+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
         ]
     },
+    "오모이데요코초": {
+        photos: ["/images/tokyo/info/restaurants/omoide-yokocho.jpg"],
+        summary: "신주쿠의 정취를 느낄 수 있는 작은 선술집들이 모인 곳입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["레트로한 일본 감성", "다양한 야키토리 맛집"],
+        tips: ["좌석이 매우 협소하므로 1~2인 방문을 권장합니다."],
+        warnings: [],
+        menu: { signature: "야키토리", items: [{ name: "야키토리", price: "¥1,500~5,000" }] },
+        reservation: { required: false, method: "공식/매장 안내 확인", note: "인기 시간대 대기 가능" },
+        hours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 현장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=35.6927011,139.6995778&query_place_id=ChIJP9eKBdeMGGAR0zzBXJNVj5A", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%AA%A8%EC%9D%B4%EB%8D%B0%EC%9A%94%EC%BD%94%EC%B4%88%20%EB%8F%84%EC%BF%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    }
 };
 
 export default info;

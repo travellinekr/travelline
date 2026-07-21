@@ -1,0 +1,2629 @@
+[
+  {
+    "id": "tokyo-3n4d-solo-001",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 도착",
+            "category": "flight",
+            "area": "도쿄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "이케부쿠로 선샤인시티",
+            "category": "shopping",
+            "area": "이케부쿠로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "이케부쿠로"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워너 브라더스 스튜디오 투어 도쿄",
+            "category": "tourspa",
+            "area": "네리마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니씨",
+            "category": "tourspa",
+            "area": "마이하마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "신주쿠 오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "이케부쿠로 선샤인시티",
+            "category": "shopping",
+            "area": "이케부쿠로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 출국",
+            "category": "flight",
+            "area": "도쿄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/banjjak_banjjak_/224327676234",
+      "title": "2025 도쿄 혼자여행 3박4일 일정 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "tokyo-3n4d-solo-002",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 3,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "우에노 숙소 체크인",
+            "category": "hotel",
+            "area": "우에노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "아메요코 시장",
+            "category": "shopping",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우에노 공원",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카미세도리",
+            "category": "shopping",
+            "area": "아사쿠사"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 국립박물관",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ssdalog/224000132670",
+      "title": "일본 도쿄 3박 4일 일정 혼자 여행 경비 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "tokyo-4n5d-solo-003",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 2,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "도쿄역"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후지산 일일투어",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가와구치코",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신주쿠 복귀",
+            "category": "transport",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "팀랩 플래닛 도쿄",
+            "category": "tourspa",
+            "area": "도요스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도요스 센캬쿠반라이",
+            "category": "shopping",
+            "area": "도요스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오다이바 해변공원",
+            "category": "tourspa",
+            "area": "오다이바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/purinaru/224302047502",
+      "title": "도쿄 시즈오카 후지산 투어 4박5일 자유여행 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "tokyo-4n5d-solo-004",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카미세도리",
+            "category": "shopping",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오모테산도 힐즈",
+            "category": "shopping",
+            "area": "오모테산도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신주쿠 교엔",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄도청 전망대",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yimsswon/224011265429",
+      "title": "일본 도쿄 자유여행 4박5일 일정 코스 핫플 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "tokyo-3n4d-couple-005",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 도착",
+            "category": "flight",
+            "area": "도쿄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "팀랩 플래닛 도쿄",
+            "category": "tourspa",
+            "area": "도요스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 출국",
+            "category": "flight",
+            "area": "도쿄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/darongjin/223940435814",
+      "title": "도쿄 자유 여행 3박 4일 코스, 커플여행 일정 및 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-couple-006",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "긴자"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마루노우치",
+            "category": "tourspa",
+            "area": "도쿄역"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오모테산도 힐즈",
+            "category": "shopping",
+            "area": "오모테산도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "긴자"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cheeseaksen/224340922839",
+      "title": "도쿄 3박 4일 커플여행 실제 일정 맛집 호텔 후기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-couple-007",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "도쿄역"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마루노우치",
+            "category": "tourspa",
+            "area": "도쿄역"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니랜드",
+            "category": "tourspa",
+            "area": "마이하마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "신주쿠 복귀",
+            "category": "transport",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lovelyj9123/224344467709",
+      "title": "2026년 6월 도쿄 4박5일 마루노우치 시부야",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-couple-008",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카미세도리",
+            "category": "shopping",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니씨",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/creativetraveller/224240412232",
+      "title": "도쿄 4박 5일 여행 일정 추천 시부야 아사쿠사 긴자 디즈니랜드",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-family-009",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니씨",
+            "category": "tourspa",
+            "area": "마이하마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "마이하마 숙소 휴식",
+            "category": "hotel",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우에노 공원",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아메요코 시장",
+            "category": "shopping",
+            "area": "우에노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마이하마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/goangyu8/224314927526",
+      "title": "도쿄 3박4일 가족여행 일정 공개 디즈니씨 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-family-010",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "긴자 숙소 체크인",
+            "category": "hotel",
+            "area": "긴자"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니랜드",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "긴자"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dneyppah/224070814411",
+      "title": "아이와 일본 도쿄여행 3박4일 긴자 시부야 디즈니랜드",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-family-011",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "우에노 숙소 체크인",
+            "category": "hotel",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우에노 공원",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 국립박물관",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아메요코 시장",
+            "category": "shopping",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카미세도리",
+            "category": "shopping",
+            "area": "아사쿠사"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니랜드",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/01192533440/224030866888",
+      "title": "도쿄 자유여행 4박5일 코스 아이와 가족여행 일정추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-family-012",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신주쿠 교엔",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄도청 전망대",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오다이바 해변공원",
+            "category": "tourspa",
+            "area": "오다이바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "팀랩 플래닛 도쿄",
+            "category": "tourspa",
+            "area": "도요스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도요스 센캬쿠반라이",
+            "category": "shopping",
+            "area": "도요스"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kmjbsh110612/223989902979",
+      "title": "도쿄 4박5일 초등학생 아들과 가족여행 일정과 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-family-013",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 도착",
+            "category": "flight",
+            "area": "도쿄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니랜드",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타/하네다 공항 출국",
+            "category": "flight",
+            "area": "도쿄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kwonakong/224323898045",
+      "title": "일본 도쿄 여행 3박4일 일정 코스 가족 여행 패키지 후기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-family-014",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 8,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아메요코 시장",
+            "category": "shopping",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "팀랩 플래닛 도쿄",
+            "category": "tourspa",
+            "area": "도요스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도요스 센캬쿠반라이",
+            "category": "shopping",
+            "area": "도요스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오다이바 해변공원",
+            "category": "tourspa",
+            "area": "오다이바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후지산 일일투어",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가와구치코",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신주쿠 복귀",
+            "category": "transport",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/trip_tory/224349781765",
+      "title": "일본 도쿄 여행코스 3박4일 4박5일 후지산 투어 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-friends-015",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "신주쿠 숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "팀랩 플래닛 도쿄",
+            "category": "tourspa",
+            "area": "도요스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도요스 센캬쿠반라이",
+            "category": "shopping",
+            "area": "도요스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오다이바 해변공원",
+            "category": "tourspa",
+            "area": "오다이바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yimsswon/224253006032",
+      "title": "도쿄 여행 코스 3박4일 일정 신주쿠 시부야 포함 놀거리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-friends-016",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "우에노 숙소 체크인",
+            "category": "hotel",
+            "area": "우에노"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우에노 공원",
+            "category": "tourspa",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "롯폰기 힐즈",
+            "category": "tourspa",
+            "area": "롯폰기"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오모테산도 힐즈",
+            "category": "shopping",
+            "area": "오모테산도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "우에노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/nomadism-/224240459666",
+      "title": "도쿄 여행 코스 3박4일 실제 일정 신주쿠 시부야",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-friends-017",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "신주쿠 숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신주쿠 교엔",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오모테산도 힐즈",
+            "category": "shopping",
+            "area": "오모테산도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 타워",
+            "category": "tourspa",
+            "area": "미나토"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니씨",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/creativetraveller/224304658166",
+      "title": "도쿄 여행 4박5일 신주쿠 오모테산도 시부야",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-friends-018",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센소지",
+            "category": "tourspa",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카미세도리",
+            "category": "shopping",
+            "area": "아사쿠사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도쿄 스카이트리",
+            "category": "tourspa",
+            "area": "스미다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신주쿠 교엔",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도쿄도청 전망대",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메이지 신궁",
+            "category": "tourspa",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스크램블 교차로",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/orolstar11/224310904774",
+      "title": "2026년 도쿄 4박5일 신주쿠 시부야 아사쿠사",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-3n4d-friends-019",
+    "city": "Tokyo",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 도착",
+            "category": "flight",
+            "area": "하네다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시부야 파르코",
+            "category": "shopping",
+            "area": "시부야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다케시타도리",
+            "category": "shopping",
+            "area": "하라주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오모테산도 힐즈",
+            "category": "shopping",
+            "area": "오모테산도"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신주쿠 교엔",
+            "category": "tourspa",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오모이데요코초",
+            "category": "food",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "시부야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하네다 공항 출국",
+            "category": "flight",
+            "area": "하네다"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/junging126/223743995511",
+      "title": "도쿄 3박4일 자유여행 신주쿠 시부야 오모테산도 하라주쿠 쇼핑",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "tokyo-4n5d-friends-020",
+    "city": "Tokyo",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "도쿄"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 도착",
+            "category": "flight",
+            "area": "나리타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄 디즈니랜드",
+            "category": "tourspa",
+            "area": "마이하마"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후지산 일일투어",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가와구치코",
+            "category": "tourspa",
+            "area": "후지산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신주쿠 복귀",
+            "category": "transport",
+            "area": "신주쿠"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도쿄역",
+            "category": "tourspa",
+            "area": "마루노우치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "긴자 식스",
+            "category": "shopping",
+            "area": "긴자"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시부야 스카이",
+            "category": "tourspa",
+            "area": "시부야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돈키호테 신주쿠 가부키초점",
+            "category": "shopping",
+            "area": "신주쿠"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나리타 공항 출국",
+            "category": "flight",
+            "area": "나리타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도쿄는 신주쿠·시부야·아사쿠사처럼 구역별로 묶으면 이동 피로가 줄어듭니다.",
+      "디즈니·후지산·해리포터 스튜디오는 하루 단위로 분리해 예약 시간을 먼저 고정하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sugarbia/224162606806",
+      "title": "일본 도쿄 4박5일 일정 여행 코스 디즈니 후지산 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]

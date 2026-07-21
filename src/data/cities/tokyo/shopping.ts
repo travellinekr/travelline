@@ -212,6 +212,66 @@ const shopping: ShoppingData[] = [
         features: ["도쿄", "쇼핑"],
         icon: "🛍️"
     },
+    {
+        name: "긴자 식스",
+        hasInfo: true,
+        showInInbox: true,
+        type: "mall",
+        city: "Tokyo",
+        coordinates: { lat: 35.6697688, lng: 139.7641762 },
+        category: "복합 쇼핑몰",
+        specialItems: "패션, 뷰티, 라이프스타일, 식당가",
+        priceRange: "¥1,000~100,000+",
+        openingHours: "Monday: 10:30 AM – 8:30 PM; Tuesday: 10:30 AM – 8:30 PM",
+        taxRefund: true,
+        features: ["복합 쇼핑몰", "평점 4", "도쿄 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    },
+    {
+        name: "오모테산도 힐즈",
+        hasInfo: true,
+        showInInbox: true,
+        type: "mall",
+        city: "Tokyo",
+        coordinates: { lat: 35.6672869, lng: 139.7086162 },
+        category: "패션 쇼핑몰",
+        specialItems: "디자이너 브랜드, 카페, 라이프스타일 숍",
+        priceRange: "¥1,000~100,000+",
+        openingHours: "Monday: 11:00 AM – 8:00 PM; Tuesday: 11:00 AM – 8:00 PM",
+        taxRefund: true,
+        features: ["패션 쇼핑몰", "평점 4", "도쿄 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    },
+    {
+        name: "도요스 센캬쿠반라이",
+        hasInfo: true,
+        showInInbox: true,
+        type: "market",
+        city: "Tokyo",
+        coordinates: { lat: 35.6457275, lng: 139.7836383 },
+        category: "먹거리·쇼핑 복합시설",
+        specialItems: "해산물 먹거리, 기념품, 온천 연계 상가",
+        priceRange: "¥1,000~20,000",
+        openingHours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        taxRefund: true,
+        features: ["먹거리·쇼핑 복합시설", "평점 3.7", "도쿄 여행 동선에 넣기 좋음"],
+        icon: "🛍️"
+    },
+    {
+        name: "이케부쿠로 선샤인시티",
+        hasInfo: true,
+        showInInbox: true,
+        type: "mall",
+        city: "Tokyo",
+        coordinates: { lat: 35.7289709, lng: 139.7195415 },
+        category: "복합 쇼핑몰",
+        specialItems: "쇼핑, 캐릭터숍, 전망대·수족관 연계 시설",
+        priceRange: "¥1,000~50,000+",
+        openingHours: "Monday: 10:00 AM – 8:00 PM; Tuesday: 10:00 AM – 8:00 PM",
+        taxRefund: true,
+        features: ["복합 쇼핑몰", "평점 4.1", "도쿄 여행 동선에 넣기 좋음"],
+        icon: "🏬"
+    }
 ];
 
 export default shopping;
