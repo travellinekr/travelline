@@ -68,6 +68,65 @@ export default [
         ],
     },
     {
+        // 기본만(일수+동행) 주면 아직 남은 기본 항목이 많으므로 → 바로 배치하지 않고 대화를 이어감
+        name: '기본만(일수+동행) → 바로 ready 하지 않음',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '다낭', hasDestination: true,
+            messages: [{ role: 'user', content: '다낭 4박5일 커플로 갈거야' }],
+        },
+        checks: [
+            ['dayCount=5 반영', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
+            ['바로 ready 하지 않음', (d) => d.ready !== true, { soft: true }],
+        ],
+    },
+    {
+        // 기본(일수·동행·예산·페이스·스타일)이 대체로 찼고 notes 없음 → 배치 직전 "구체 요청" 한 번 물어봐야 함
+        name: '배치 직전 구체화 질문: 기본이 다 차면 구체 요청을 한 번 물어봄',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '다낭', hasDestination: true,
+            messages: [
+                { role: 'user', content: '다낭 4박5일 커플' },
+                { role: 'assistant', content: '예산대는 어느 정도로 생각하세요?' },
+                { role: 'user', content: '중간 정도, 페이스는 여유롭게, 해변이랑 미식 위주로' },
+            ],
+        },
+        checks: [
+            ['바로 ready 하지 않음(구체화 먼저)', (d) => d.ready !== true, { soft: true }],
+            ['구체 요청을 묻는 메시지', (d) => /구체|특정|가보고|가고\s*싶|하고\s*싶|원하시|피하고|꼭/.test(d.message || ''), { soft: true }],
+        ],
+    },
+    {
+        // 구체화 질문을 이미 한 뒤 "없어/그냥 짜줘" → 그때 ready=true (반복 질문 금지)
+        name: '구체화 질문 후 "없어 그냥 짜줘" → ready=true',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '다낭', hasDestination: true,
+            messages: [
+                { role: 'user', content: '다낭 4박5일 커플로 갈거야' },
+                { role: 'assistant', content: '혹시 꼭 가보고 싶은 곳이나 특정 지역·활동 등 더 구체적으로 원하시는 게 있으신가요? 없으면 이대로 짜드릴게요.' },
+                { role: 'user', content: '특별히 없어. 그냥 짜줘' },
+            ],
+        },
+        checks: [
+            ['이번엔 ready=true', (d) => d.ready === true, { soft: true }],
+        ],
+    },
+    {
+        // 회귀 방지: 첫 메시지에 "그냥 짜줘"가 있으면 구체화 질문 없이 즉시 ready
+        name: '회귀: "그냥 알아서 짜줘"는 구체화 질문 없이 즉시 ready',
+        phase: 'chat',
+        request: {
+            phase: 'chat', destinationName: '다낭', hasDestination: true,
+            messages: [{ role: 'user', content: '다낭 4박5일 커플, 나머지는 그냥 알아서 짜줘' }],
+        },
+        checks: [
+            ['dayCount=5 반영', (d) => d.requirements?.dayCount === 5 || `dayCount=${d.requirements?.dayCount}`],
+            ['즉시 ready=true', (d) => d.ready === true, { soft: true }],
+        ],
+    },
+    {
         name: '"5일 일정" → dayCount=5 (기간 표현)',
         phase: 'chat',
         request: {
