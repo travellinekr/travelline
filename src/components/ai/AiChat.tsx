@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useCallback } from 'react';
 import { Send, Loader2, SlidersHorizontal, MessageCircle, Check, RotateCcw } from 'lucide-react';
 import { AiPlannerForm, type AiRequirements } from './AiPlannerForm';
 import type { AiChatController, ChatMsg } from './useAiPlannerChat';
@@ -65,9 +65,19 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
     const isRecommend = mode === 'recommend';
     const scrollRef = useRef<HTMLDivElement>(null);
 
+    // 맨 아래로 스크롤. double rAF 로 새 메시지 레이아웃(페인트) 완료 후 실행 → 덜 내려가는 문제 방지.
+    const scrollToBottom = useCallback((smooth = true) => {
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                const el = scrollRef.current;
+                if (el) el.scrollTo({ top: el.scrollHeight, behavior: smooth ? 'smooth' : 'auto' });
+            });
+        });
+    }, []);
+
     useEffect(() => {
-        scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
-    }, [messages, loading, ready, view]);
+        scrollToBottom();
+    }, [messages, loading, ready, view, scrollToBottom]);
 
     const onKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
         // 한글 등 IME 조합 중(isComposing)에는 Enter 를 전송으로 처리하지 않음
@@ -196,6 +206,7 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={onKeyDown}
+                    onFocus={() => scrollToBottom()}
                     rows={1}
                     placeholder="메시지를 입력하세요…"
                     className="flex-1 resize-none max-h-24 rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"
