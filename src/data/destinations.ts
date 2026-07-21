@@ -87,6 +87,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Bangkok": "https://commons.wikimedia.org/wiki/Special:FilePath/Wat_arun_bangkok.jpg?width=800",
     "Nha Trang": "https://commons.wikimedia.org/wiki/Special:FilePath/Nha_Trang_Beach,_Vietnam.jpg?width=800",
     "Bali": "https://commons.wikimedia.org/wiki/Special:FilePath/Bali_Pura_Lempuyang_Luhur.jpg?width=800",
+    "Manado": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunaken_diving.jpg?width=800",
     "Cebu": "https://commons.wikimedia.org/wiki/Special:FilePath/Taoist_Temple,_Cebu.jpg?width=800",
     "Chiang Mai": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang_Mai_View_from_Doi_Suthep.jpg?width=800",
     "Da Lat": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Lat_Flower_Park_01.jpg?width=800",
@@ -97,6 +98,8 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Hanoi": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi_Opera_House_2021.jpg?width=800",
     "Ho Chi Minh": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City_Skyline_(night).jpg?width=800",
     "Siem Reap": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat_temple.jpg?width=800",
+    "Krabi": "https://commons.wikimedia.org/wiki/Special:FilePath/Railay_Beach.jpg?width=800",
+    "Kuala Lumpur": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuala_Lumpur_Skyline_at_dusk_1.jpg?width=800",
     "Boracay": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay_White_Beach.png?width=800",
     "Guam": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_of_Tumon_Bay,_Guam,_USA_(8532198983).jpg?width=800",
     "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800",
@@ -286,6 +289,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 timezone: 7
             },
             {
+                name: "마나도",
+                engName: "Manado",
+                country: "인도네시아",
+                desc: "부나켄 다이빙과 화산·열대 자연을 품은 술라웨시 관문",
+                tags: ["다이빙", "자연"],
+                landmark: "Bunaken National Marine Park",
+                airports: [{ name: "마나도 삼 라투랑이국제공항", code: "MDC" }],
+                timezone: 8
+            },
+            {
                 name: "발리",
                 engName: "Bali",
                 country: "인도네시아",
@@ -385,6 +398,26 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 landmark: "Angkor Wat",
                 airports: [{ name: "씨엠립 앙코르국제공항", code: "REP" }],
                 timezone: 7
+            },
+            {
+                name: "끄라비",
+                engName: "Krabi",
+                country: "태국",
+                desc: "라일레이 절벽과 섬투어가 매력적인 남부 휴양지",
+                tags: ["섬투어", "해변"],
+                landmark: "Railay Beach",
+                airports: [{ name: "끄라비국제공항", code: "KBV" }],
+                timezone: 7
+            },
+            {
+                name: "쿠알라룸푸르",
+                engName: "Kuala Lumpur",
+                country: "말레이시아",
+                desc: "트윈타워 야경과 쇼핑·미식이 강한 말레이시아 수도",
+                tags: ["야경", "쇼핑"],
+                landmark: "Petronas Twin Towers",
+                airports: [{ name: "쿠알라룸푸르국제공항", code: "KUL" }],
+                timezone: 8
             },
             {
                 name: "보라카이",

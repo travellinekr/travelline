@@ -165,6 +165,12 @@ import nhatrangShopping from './nha-trang/shopping';
 import nhatrangTransport from './nha-trang/transport';
 import nhatrangTourSpa from './nha-trang/tourSpa';
 
+import manadoAccommodations from './manado/accommodations';
+import manadoRestaurants from './manado/restaurants';
+import manadoShopping from './manado/shopping';
+import manadoTransport from './manado/transport';
+import manadoTourSpa from './manado/tourSpa';
+
 import baliAccommodations from './bali/accommodations';
 import baliRestaurants from './bali/restaurants';
 import baliShopping from './bali/shopping';
@@ -224,6 +230,18 @@ import siemreapRestaurants from './siem-reap/restaurants';
 import siemreapShopping from './siem-reap/shopping';
 import siemreapTransport from './siem-reap/transport';
 import siemreapTourSpa from './siem-reap/tourSpa';
+
+import krabiAccommodations from './krabi/accommodations';
+import krabiRestaurants from './krabi/restaurants';
+import krabiShopping from './krabi/shopping';
+import krabiTransport from './krabi/transport';
+import krabiTourSpa from './krabi/tourSpa';
+
+import kualalumpurAccommodations from './kuala-lumpur/accommodations';
+import kualalumpurRestaurants from './kuala-lumpur/restaurants';
+import kualalumpurShopping from './kuala-lumpur/shopping';
+import kualalumpurTransport from './kuala-lumpur/transport';
+import kualalumpurTourSpa from './kuala-lumpur/tourSpa';
 
 import boracayAccommodations from './boracay/accommodations';
 import boracayRestaurants from './boracay/restaurants';
@@ -344,6 +362,13 @@ export const CITY_DATA: Record<string, CityBundle> = {
         transport: nhatrangTransport,
         tourSpa: nhatrangTourSpa,
     },
+    "Manado": {
+        accommodations: manadoAccommodations,
+        restaurants: manadoRestaurants,
+        shopping: manadoShopping,
+        transport: manadoTransport,
+        tourSpa: manadoTourSpa,
+    },
     "Bali": {
         accommodations: baliAccommodations,
         restaurants: baliRestaurants,
@@ -413,6 +438,20 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: siemreapShopping,
         transport: siemreapTransport,
         tourSpa: siemreapTourSpa,
+    },
+    "Krabi": {
+        accommodations: krabiAccommodations,
+        restaurants: krabiRestaurants,
+        shopping: krabiShopping,
+        transport: krabiTransport,
+        tourSpa: krabiTourSpa,
+    },
+    "Kuala Lumpur": {
+        accommodations: kualalumpurAccommodations,
+        restaurants: kualalumpurRestaurants,
+        shopping: kualalumpurShopping,
+        transport: kualalumpurTransport,
+        tourSpa: kualalumpurTourSpa,
     },
     "Boracay": {
         accommodations: boracayAccommodations,

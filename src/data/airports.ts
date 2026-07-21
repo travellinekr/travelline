@@ -104,6 +104,7 @@ export const MAJOR_AIRPORTS = [
     { name: "우타파오국제공항", code: "UTP", lat: 12.6799, lng: 101.0050 }, // 파타야
     { name: "방콕 돈므앙국제공항", code: "DMK", lat: 13.9126, lng: 100.6067 },   // 방콕 (저비용)
     { name: "푸켓국제공항", code: "HKT", lat: 8.1132, lng: 98.3169 },          // 푸켓
+    { name: "끄라비국제공항", code: "KBV", lat: 8.0991, lng: 98.9862 }, // 끄라비
     { name: "치앙마이국제공항", code: "CNX", lat: 18.7668, lng: 98.9628 },      // 치앙마이
     { name: "다낭국제공항", code: "DAD", lat: 16.0439, lng: 108.1995 },          // 다낭
     { name: "나트랑 캄란국제공항", code: "CXR", lat: 12.2275, lng: 109.1924 },   // 나트랑
@@ -116,6 +117,7 @@ export const MAJOR_AIRPORTS = [
     { name: "칼리보국제공항", code: "KLO", lat: 11.6794, lng: 122.3763 }, // 보라카이 보조
     { name: "발리 응우라라이국제공항", code: "DPS", lat: -8.7467, lng: 115.1670 }, // 발리
     { name: "자카르타 수카르노하타국제공항", code: "CGK", lat: -6.1256, lng: 106.6559 }, // 자카르타
+    { name: "마나도 삼 라투랑이국제공항", code: "MDC", lat: 1.5493, lng: 124.9259 }, // 마나도
     { name: "쿠알라룸푸르국제공항", code: "KUL", lat: 2.7456, lng: 101.7099 },  // 쿠알라룸푸르
     { name: "코타키나발루국제공항", code: "BKI", lat: 5.9372, lng: 116.0513 }, // 코타키나발루
     { name: "씨엠립 앙코르국제공항", code: "REP", lat: 13.3692, lng: 104.2231 }, // 씨엠립
