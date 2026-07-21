@@ -1,0 +1,2851 @@
+[
+  {
+    "id": "nha-trang-3n5d-couple-001",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 9,
+    "pace": "packed",
+    "themes": [
+      "호캉스",
+      "해양액티비티",
+      "미식",
+      "야간액티비티"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "깜란 → 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "투이 블루 나트랑 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내",
+            "note": "0.5박용 시내 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트 호캉스와 야경",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투이 블루 조식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더웨스틴 리조트앤스파 깜란",
+            "category": "hotel",
+            "area": "깜란",
+            "note": "리조트 호캉스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "포티크 호텔 시푸드 디너",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "스카이라이트",
+            "category": "tourspa",
+            "area": "나트랑 시내",
+            "note": "루프탑 야경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑투어와 빈원더스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "포티크 호텔 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "나트랑 호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "빈원더스 나트랑",
+            "category": "tourspa",
+            "area": "혼쩨섬"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "응온갤러리",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "판랑 사막투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "포티크 호텔 조식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "판랑 사막투어",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "케이하우스",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "출국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "인천국제공항 도착",
+            "category": "flight",
+            "area": "인천"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "밤 도착 3박5일은 첫날을 가볍게 잡고 2일차부터 본격 일정을 시작하는 패턴이 자연스럽다.",
+      "시내 숙소와 깜란 리조트를 섞으면 호캉스와 시내 맛집·야경을 함께 넣기 좋다.",
+      "호핑투어와 빈원더스처럼 체력 소모가 큰 일정은 같은 날 묶을 경우 저녁 식사를 단순하게 잡는 편이 좋다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sourceyu/224048953701",
+      "title": "나트랑 3박5일 자유여행 일정 호텔 맛집 투어 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.86
+    }
+  },
+  {
+    "id": "nha-trang-4n6d-couple-002",
+    "city": "Nha Trang",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "호핑투어",
+      "시내쇼핑",
+      "마사지",
+      "해산물"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "새벽 도착과 시내 체크인",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "베나자 공항 라운지",
+            "category": "other",
+            "area": "깜란공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "BIDV ATM 환전",
+            "category": "other",
+            "area": "깜란공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "깜란 → 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "디셈버 호텔 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "79마켓",
+            "category": "shopping",
+            "area": "나트랑 시내",
+            "note": "새벽 간식·필수품 보충"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "호핑투어와 야시장",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디셈버 호텔 조식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "나트랑 호핑투어",
+            "category": "tourspa",
+            "area": "혼못·혼문섬·미니비치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "호텔 복귀 후 재정비",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "짜오마오 씨푸드",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "나트랑 야시장",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "나트랑 로컬마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내",
+            "note": "호핑투어 후 피로 회복"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "시내 쇼핑과 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디셈버 호텔 조식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나트랑 시내 카페",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "담시장",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "시내 맛집",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "깜란 리조트 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시내 호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란 리조트 이동",
+            "category": "transport",
+            "area": "시내 → 깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "깜란 리조트 체크인",
+            "category": "hotel",
+            "area": "깜란"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "리조트 저녁",
+            "category": "food",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "깜란 호캉스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 조식",
+            "category": "hotel",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리조트 수영장·비치",
+            "category": "other",
+            "area": "깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리조트 휴식",
+            "category": "hotel",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "새벽 출국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 이동",
+            "category": "transport",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "한국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "4박6일은 시내 2박 후 깜란 리조트 2박으로 나누면 쇼핑·맛집과 호캉스 균형이 좋다.",
+      "새벽 도착일은 환전·픽업·체크인·간식 구매 정도로 제한하는 편이 무리가 없다.",
+      "호핑투어 당일 저녁은 해산물 식사, 야시장, 마사지 순서가 실제 여행 흐름에 잘 맞는다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/amor0919/224221016823",
+      "title": "나트랑 4박6일 자유여행 호핑투어 시내 쇼핑 일정 추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-couple-003",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "themes": [
+      "호캉스",
+      "호핑투어",
+      "마사지",
+      "쇼핑",
+      "머드온천"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "공항 도착과 리조트 체크인",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "패스트트랙",
+            "category": "transport",
+            "area": "깜란공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "깜란 → 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "라냐 점심",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "로얄살롱",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "더웨스틴 리조트 체크인",
+            "category": "hotel",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "해적호핑과 마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "베나자 해적호핑 투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랜드스파",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오마오",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "카페·마사지·야시장",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "더웨스틴 리조트",
+            "category": "hotel",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "냐벱",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "카페 제시",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "망고스파",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "라이씨푸드",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "나트랑 야시장",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "머드온천과 출국 전 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 인터컨티넨탈",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이리조트 머드온천",
+            "category": "tourspa",
+            "area": "나트랑 시내 외곽"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "라운지 스파",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "롯데마트 골드코스트",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "안키친",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 이동",
+            "category": "transport",
+            "area": "시내 → 깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "한국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "3박5일이라도 아침 도착이면 첫날부터 마사지와 리조트 체크인을 넣어 여행감을 만들 수 있다.",
+      "호핑투어 다음에는 스파와 해산물 저녁을 붙이면 이동 낭비가 적다.",
+      "마지막 실사용일에는 머드온천, 스파, 마트 쇼핑, 저녁, 공항 이동 순서가 출국 전 동선으로 적합하다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bonniegets/223812116681",
+      "title": "나트랑 자유여행 3박5일 코스 투어 쇼핑 포함 가볼만한곳",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.84
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-family-004",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "가족",
+      "판랑사막",
+      "호핑투어",
+      "시내관광"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업 후 시내 호텔 체크인",
+            "category": "transport",
+            "area": "깜란 → 나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "판랑 사막투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판랑 사막투어",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "양떼목장·사원 방문",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시내 복귀 후 저녁식사",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스노클링·미니비치 휴식",
+            "category": "tourspa",
+            "area": "미니비치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "시내관광",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "포나가르 사원",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "담시장·롯데마트 쇼핑",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "가족 저녁식사",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "3박5일 가족 일정은 사막투어·호핑투어·시내관광을 하루씩 나누면 무리가 적다.",
+      "부모님 동반이면 사막투어 후 저녁은 가볍게 잡는 편이 좋다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/challiya/224135879808",
+      "title": "나트랑 가족여행 3박5일 4박6일 일정 코스 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.86
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-family-005",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "가족",
+      "빈원더스",
+      "호핑투어",
+      "쇼핑",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "빈원더스와 야시장",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "티엣냐 점심",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 나트랑",
+            "category": "tourspa",
+            "area": "혼쩨섬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "엣히엠 저녁",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "콩카페",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "마사지 후 야시장",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "아일랜드 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스피드보트 탑승",
+            "category": "transport",
+            "area": "선착장"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "아일랜드 호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "미니비치 자유시간",
+            "category": "tourspa",
+            "area": "미니비치"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "전신마사지와 저녁식사",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "시내투어와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "촌촌킴 점심",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "포나가르 사원",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "담시장",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "대성당·룽선사",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "롯데마트 쇼핑 후 씨푸드 저녁",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "전신마사지 후 공항드롭",
+            "category": "transport",
+            "area": "나트랑 시내 → 깜란"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "귀국 준비",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "한국 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "한국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "가족 단독투어형은 빈원더스·호핑·시내투어를 3일에 나눠 배치하는 패턴이 많다.",
+      "담시장과 롯데마트를 같은 날 묶으면 기념품 쇼핑을 한 번에 끝내기 좋다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hihihim1/224346243412",
+      "title": "베트남 나트랑 가족여행 가성비 패키지 3박5일 일정 호핑투어",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.9
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-family-006",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "4인가족",
+      "부모님",
+      "마사지",
+      "빈원더스",
+      "가성비숙소"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "늦은 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파나마 호텔 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "시내 호텔 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하바나 호텔 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "가족 저녁식사",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "빈원더스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈원더스 나트랑",
+            "category": "tourspa",
+            "area": "혼쩨섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 자유시간",
+            "category": "tourspa",
+            "area": "혼쩨섬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호텔 휴식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "쇼핑과 마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롯데마트 골드코스트",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠우쿠우 골드코스트점",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드스파 마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 샌딩",
+            "category": "transport",
+            "area": "나트랑 시내 → 깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "한국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "부모님 동반 가족은 호핑을 빼고 호텔·빈원더스·마사지 중심으로 구성해도 만족도가 높다.",
+      "밤비행기 전에는 2시간 마사지와 공항샌딩을 붙이면 대기 시간이 줄어든다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jibi1108/224343276551",
+      "title": "2026년 베트남나트랑여행, 3박 5일 4인가족 총 경비 결산",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.84
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-family-007",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "단독투어",
+      "빈원더스",
+      "호핑투어",
+      "시티투어"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "도착일",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "나트랑 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "빈원더스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 픽업",
+            "category": "transport",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 자유시간",
+            "category": "tourspa",
+            "area": "혼쩨섬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "전신마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소이비치",
+            "category": "tourspa",
+            "area": "해변"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "가족 저녁식사",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "시티투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "롱선사·대성당",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "담시장·롯데마트",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "야시장 후 공항드롭",
+            "category": "transport",
+            "area": "나트랑 시내 → 깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "가족 단독투어는 숙소 픽업 시간이 늦어 첫날 여독을 풀고 시작하기 좋다.",
+      "빈원더스·호핑·시티투어를 각각 하루 테마로 잡으면 일정 설명이 쉽다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/eattang/224260234158",
+      "title": "나트랑 3박 5일 일정 가족여행 단독투어 호핑투어, 빈원더스 등",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.83
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-friends-008",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 11,
+    "pace": "packed",
+    "themes": [
+      "친구여행",
+      "판랑사막",
+      "호핑투어",
+      "머드스파",
+      "쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "판랑 사막투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판랑 사막투어",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사막 포토스팟",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시내 복귀 후 저녁",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "호핑과 머드스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소이비치 점심",
+            "category": "food",
+            "area": "소이비치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "머드스파",
+            "category": "tourspa",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "자유선택 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카페·맛집 자유일정",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "담시장",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데마트 골드코스트",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "해산물 저녁",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구 단체는 사막·호핑 같은 사진/액티비티 일정을 앞쪽에 배치하면 만족도가 높다.",
+      "쇼핑은 담시장보다 롯데마트가 편한 경우가 많아 두 곳을 비교용으로 묶기 좋다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/mee1202/224352774558",
+      "title": "나트랑 자유여행 코스 호핑투어 항공권 숙소 나트랑 가볼만한곳 정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-friends-009",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "우정여행",
+      "판랑사막",
+      "1일1마사지",
+      "부산출발"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "부산 출발과 체크인",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "부산 출발",
+            "category": "flight",
+            "area": "부산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "시타딘 베이프런트 나트랑 체크인",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "판랑 사막투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판랑 사막투어",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사막 포토타임",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호핑투어",
+            "category": "tourspa",
+            "area": "해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호텔 휴식",
+            "category": "hotel",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "저녁식사와 마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "시티투어와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 시티투어",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "담시장·롯데마트 쇼핑",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "나트랑 시내 → 깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "우정여행은 판랑 사막투어처럼 사진 남기기 좋은 일정을 하루 테마로 잡기 좋다.",
+      "시내 접근 숙소를 잡으면 야시장·카페·마사지 이동이 쉽다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gj30603/224327284765",
+      "title": "나트랑 가족 여행 판랑 사막투어 부산출발 자유여행 패키지 여행일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "nha-trang-3n4d-friends-010",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "친구여행",
+      "혼총곶",
+      "판랑사막",
+      "아이리조트",
+      "쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "인천 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "베나자 픽업 후 Aaron Boutique Hotel 체크인",
+            "category": "transport",
+            "area": "깜란 → 나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "시내와 혼총곶",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아이리조트 머드스파",
+            "category": "tourspa",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "혼총곶",
+            "category": "tourspa",
+            "area": "나트랑 북부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "담시장 쇼핑",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "저녁식사·해변 산책·마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "판랑투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판랑투어 호텔 픽업",
+            "category": "transport",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "판랑 사막",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "포룽자이 사원",
+            "category": "tourspa",
+            "area": "판랑"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "리조트 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "마지막날 쇼핑과 출국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 수영장",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데마트 쇼핑",
+            "category": "shopping",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시내 저녁식사와 마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 이동 후 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구 여행에서 인생샷 목적이면 혼총곶과 판랑사막을 분리 배치하는 편이 좋다.",
+      "마지막날 밤비행기 전에는 롯데마트·저녁·마사지·공항 이동 순서가 효율적이다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/stjhero/224211372408",
+      "title": "나트랑 3박4일 자유여행 일정 공유｜혼총곶·판랑사막",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-solo-011",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 시내관광",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쇼핑 또는 투어",
+            "category": "shopping",
+            "area": "나트랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "저녁식사와 마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 시내관광",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쇼핑 또는 투어",
+            "category": "shopping",
+            "area": "나트랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "저녁식사와 마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 시내관광",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쇼핑 또는 투어",
+            "category": "shopping",
+            "area": "나트랑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "저녁식사와 마사지",
+            "category": "food",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도착·출국일은 가볍게 배치하세요.",
+      "투어 다음에는 마사지나 휴식 시간을 확보하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/himawari_tw/224134303329",
+      "title": "나트랑여행시기 지금이 최적 3박5일 나트랑 여행일정 어떻게",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.76
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-solo-012",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "나트랑시내투어",
+      "가성비맛집",
+      "스파마사지",
+      "기념품쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "시내 도착 및 힐링 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "아만 헤리티지 스파",
+            "category": "tourspa",
+            "area": "나트랑 시내",
+            "note": "카톡 예약 시 20% 할인 가능"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "안토이 2호점",
+            "category": "food",
+            "area": "나트랑 시내",
+            "note": "쌀국수, 분짜 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "아다마스 부티크 호텔",
+            "category": "hotel",
+            "area": "나트랑 시내",
+            "note": "가성비 좋은 신상 호텔"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "맛집과 카페 도장깨기",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "65번 과일가게",
+            "category": "food",
+            "area": "나트랑 시내",
+            "note": "손질된 망고 추천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "CCCP 커피",
+            "category": "food",
+            "area": "나트랑 시내",
+            "note": "코코넛 커피와 과일 요거트 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라이 씨푸드",
+            "category": "food",
+            "area": "나트랑 시내",
+            "note": "해산물 요리 전문점"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "기념품 쇼핑 및 야시장 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "슈렉 베트남",
+            "category": "shopping",
+            "area": "나트랑 시내",
+            "note": "기념품 편집샵"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "씨클로 체험",
+            "category": "other",
+            "area": "나트랑 시내",
+            "note": "밤에 타는 것을 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "나이트 마켓",
+            "category": "shopping",
+            "area": "나트랑 시내",
+            "note": "가볍게 둘러보기 좋음"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "롯데마트 대량 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "롯데마트 나트랑점",
+            "category": "shopping",
+            "area": "나트랑 시내",
+            "note": "리조트용 먹거리 구매 적합"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "깜란 리조트로 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "깜란 리조트 체크인",
+            "category": "hotel",
+            "area": "깜란",
+            "note": "시내에서 차로 약 1시간 소요"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "공항에서 시내 이동 시 그랩보다 사전 예약 차량 이용 권장",
+      "씨클로 탑승 전 반드시 1인당 가격인지 대당 가격인지 확인하기"
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/wou1103/224304087801",
+      "title": "첫 나트랑 자유여행 시내 필수 코스, 맛집 쇼핑 마사지 알짜배기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.76
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-couple-013",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도착·출국일은 가볍게 배치하세요.",
+      "투어 다음에는 마사지나 휴식 시간을 확보하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sweet9308/224288300654",
+      "title": "나트랑 3박 5일 커플 여행 총정리 일정 경비 환전 준비물",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-4n6d-couple-014",
+    "city": "Nha Trang",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도착·출국일은 가볍게 배치하세요.",
+      "투어 다음에는 마사지나 휴식 시간을 확보하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hwung_travel/224271075189",
+      "title": "나트랑 자유여행 코스 호캉스부터 맛집까지 4박 6일 완벽 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-3n5d-friends-015",
+    "city": "Nha Trang",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "깜란국제공항 도착",
+            "category": "flight",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "나트랑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식과 휴식",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시내 카페와 쇼핑",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "나트랑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란국제공항 출국",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "도착·출국일은 가볍게 배치하세요.",
+      "투어 다음에는 마사지나 휴식 시간을 확보하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gkdbsgml4307/224230228801",
+      "title": "2026 나트랑 3박5일 둘이서",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-4n6d-family-016",
+    "city": "Nha Trang",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "나트랑 가족여행",
+      "아이리조트 머드스파",
+      "빈원더스 워터파크",
+      "호핑투어"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "첫째 날: 나트랑 도착 및 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "나트랑 공항 도착",
+            "category": "flight",
+            "area": "깜란",
+            "note": "예약된 픽업 차량 이용 이동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "리조트 체크인 및 야식",
+            "category": "hotel",
+            "area": "깜란",
+            "note": "리조트 편의점 간식 타임"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "둘째 날: 빈원더스 어드벤처",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 조식",
+            "category": "food",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 (구 빈펄랜드)",
+            "category": "tourspa",
+            "area": "나트랑 섬",
+            "note": "케이블카 이용, 워터파크 및 놀이기구"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "셋째 날: 시내 관광 및 머드스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나트랑 시내 투어",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "롱선사, 담시장 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이리조트 머드스파",
+            "category": "tourspa",
+            "area": "시내 인근",
+            "note": "머드스파 및 온천 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "넷째 날: 해상 호핑투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "해적섬 호핑투어",
+            "category": "tourspa",
+            "area": "나트랑 앞바다",
+            "note": "스노클링 및 섬 투어"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펀아일랜드 방문",
+            "category": "tourspa",
+            "area": "나트랑 앞바다"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "다섯째 날: 마지막 쇼핑 및 귀국 준비",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 수영 및 체크아웃",
+            "category": "other",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데마트 쇼핑",
+            "category": "shopping",
+            "area": "시내",
+            "note": "기념품 및 선물 구매"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "야시장 구경 및 발마사지",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 이동 및 출국",
+            "category": "transport",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "여섯째 날: 한국 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "부산/인천",
+            "note": "비행시간 약 5시간 20분"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "환전은 나트랑 공항이나 시내 환전소가 유리할 수 있음",
+      "팁 문화는 없으나 마사지 등에서 5만동 정도 준비하면 좋음"
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hewtbylvv/223813318252",
+      "title": "베트남 나트랑 가족여행 일정 코스 4박 6일 아이리조트 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "nha-trang-4n6d-friends-017",
+    "city": "Nha Trang",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 8,
+    "pace": "packed",
+    "themes": [
+      "나트랑호캉스",
+      "호핑투어",
+      "시내맛집",
+      "가성비여행"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "나트랑 도착 및 시내 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "깜란 공항 도착",
+            "category": "flight",
+            "area": "깜란",
+            "note": "호텔 픽업 서비스 이용 권장"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데마트 쇼핑",
+            "category": "shopping",
+            "area": "나트랑 시내",
+            "note": "리조트용 간식 및 음료 구매"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "씀모이 가든",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "로라 스파 & 낸시 네일",
+            "category": "tourspa",
+            "area": "나트rans 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "윈덤가든 리조트 체크인",
+            "category": "hotel",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트 휴양",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "윈덤가든 조식",
+            "category": "food",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리조트 수영 및 휴식",
+            "category": "other",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑 투어 즐기기",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산티아고 미니비치 투어",
+            "category": "tourspa",
+            "area": "혼문섬/미니비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스노클링 및 해양 스포츠",
+            "category": "other",
+            "area": "혼문섬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "윈덤가든 브리즈 레스토랑",
+            "category": "food",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "리조트 자유 시간",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프라이빗 풀빌라 즐기기",
+            "category": "other",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리조트 메인풀 수영",
+            "category": "other",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "마지막 시내 나들이",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "티스파 마사지",
+            "category": "tourspa",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "현지 쌀국수 맛집",
+            "category": "food",
+            "area": "나트랑 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리조트 치킨 배달",
+            "category": "food",
+            "area": "깜란"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국 준비",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 체크아웃 및 공항 이동",
+            "category": "transport",
+            "area": "깜란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깜란 공항 출발",
+            "category": "flight",
+            "area": "깜란"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "공항 이동 시 그랩보다 미리 예약된 호텔 픽업 서비스가 빠르고 편리함",
+      "현지 결제는 현금과 트래블월렛을 병행하여 사용하면 유용함"
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gongjak_sso/223542703307",
+      "title": "베트남 나트랑 자유여행 코스 4박 6일 일정 및 총 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]

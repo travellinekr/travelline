@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { callModel, type ChatMessage } from '@/lib/ai/callModel';
 import { resolveCityKey, buildCatalogListing, findCatalogPlace, placeToCardPayload } from '@/lib/ai/catalog';
 import { listRecommendableCities, buildDestinationListing, findRecommendableCity, cityImage } from '@/lib/ai/destinations';
+import { loadReferenceItineraries, buildReferenceBlock } from '@/lib/ai/referenceItineraries';
 
 // AI 여행 플래너 라우트 (무상태). 요청 본문의 phase 로 분기.
 // - phase:"chat"                 → 요구사항 수집 대화 (여행지 유무로 모드 분기)
@@ -312,7 +313,7 @@ function parseChatEnvelope(raw: string): { message: string; requirements: any; r
     return { message: '죄송해요, 한 번만 다시 말씀해 주시겠어요?', requirements: {}, ready: false };
 }
 
-function buildGeneratePrompt(destinationName: string | undefined, req: Requirements | undefined, listing: string, dayCount: number, currentPlan?: CurrentPlan): string {
+function buildGeneratePrompt(destinationName: string | undefined, req: Requirements | undefined, listing: string, dayCount: number, currentPlan?: CurrentPlan, referenceBlock?: string): string {
     const lines: string[] = [];
     if (destinationName) lines.push(`[여행지] ${destinationName}`);
     const reqParts: string[] = [`기간 ${dayCount}일`];
@@ -339,6 +340,10 @@ function buildGeneratePrompt(destinationName: string | undefined, req: Requireme
             `- 추가할 게 없으면 days 를 빈 배열로 두세요.`
         );
     } else {
+        // 참조 사례(실제 여행자 동선)는 신규 생성 시에만 주입 — 패턴 참고용
+        if (referenceBlock) {
+            lines.push('\n' + referenceBlock);
+        }
         lines.push(`\n위 카탈로그의 장소만 사용해 ${dayCount}일 일정을 구성해줘.`);
     }
     return lines.join('\n');
@@ -667,7 +672,15 @@ export async function POST(req: Request) {
             dayCount = Math.min(14, Math.max(1, dayCount));
 
             const listing = buildCatalogListing(cityKey, dayCount);
-            const userPrompt = buildGeneratePrompt(destinationName || cityKey, requirements, listing, dayCount, editMode ? currentPlan : undefined);
+
+            // 실제 여행 사례 주입(신규 생성 시에만). harness A/B 용 disableReference 토글.
+            let referenceBlock = '';
+            if (!editMode && !(body as any).disableReference) {
+                const refs = await loadReferenceItineraries(destinationEngName || destinationName || undefined);
+                referenceBlock = buildReferenceBlock(refs, dayCount, requirements?.companions ?? undefined);
+            }
+
+            const userPrompt = buildGeneratePrompt(destinationName || cityKey, requirements, listing, dayCount, editMode ? currentPlan : undefined, referenceBlock);
 
             const parsed = await callModelJson({
                 system: GENERATE_SYSTEM,
