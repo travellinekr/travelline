@@ -62,7 +62,37 @@ export function buildCatalogListing(cityKey: string, dayCount: number): string {
     return lines.join('\n');
 }
 
-/** 카탈로그에서 name 으로 장소 찾기 (카테고리 우선, 없으면 전체 탐색). 대소문자 무시. */
+// 외래어 표기 흔들림 보정: 모델이 같은 장소를 한글/영문/일본어로 섞어 쓰는 경우
+// (예: "레스토랑"↔"レストラン"↔"restaurant", "클럽"↔"club")를 같은 이름으로 매칭.
+// 각 그룹의 변형을 대표 토큰으로 치환 + 공백 제거 후 비교.
+const LOANWORD_GROUPS: string[][] = [
+    ['레스토랑', 'restaurant', 'レストラン', '레스또랑'],
+    ['클럽', 'club', 'クラブ'],
+    ['카페', 'cafe', 'café', 'カフェ'],
+    ['스파', 'spa', 'スパ'],
+    ['호텔', 'hotel', 'ホテル'],
+    ['리조트', 'resort', 'リゾート'],
+    ['비치', 'beach', 'ビーチ'],
+    ['마켓', 'market', 'マーケット'],
+    ['마트', 'mart'],
+    ['센터', 'center', 'centre', 'センター'],
+    ['몰', 'mall', 'モール'],
+    ['하우스', 'house', 'ハウス'],
+    ['가든', 'garden'],
+    ['브루하우스', 'brewhouse'],
+];
+function canon(s: string): string {
+    let t = (s || '').trim().toLowerCase();
+    for (const grp of LOANWORD_GROUPS) {
+        const canonical = grp[0];
+        for (let i = 1; i < grp.length; i++) {
+            t = t.split(grp[i].toLowerCase()).join(canonical);
+        }
+    }
+    return t.replace(/\s+/g, '');
+}
+
+/** 카탈로그에서 name 으로 장소 찾기 (카테고리 우선, 없으면 전체 탐색). 대소문자·외래어 표기 흔들림 무시. */
 export function findCatalogPlace(
     cityKey: string,
     name: string,
@@ -71,17 +101,60 @@ export function findCatalogPlace(
     const bundle: any = CITY_DATA[cityKey] || {};
     const norm = (s: string) => (s || '').trim().toLowerCase();
     const target = norm(name);
+    const ctarget = canon(name);
 
     const order = category
         ? [BUCKETS.find((b) => b.category === category), ...BUCKETS].filter(Boolean)
         : BUCKETS;
 
+    // 1차: 정확 일치(소문자·트림)
     for (const b of order as typeof BUCKETS) {
         const items: any[] = Array.isArray(bundle[b.bucket]) ? bundle[b.bucket] : [];
         const found = items.find((it) => norm(it?.name) === target);
         if (found) return { place: found, category: b.category };
     }
+    // 2차: 표기 흔들림 보정(외래어 변형 + 공백 무시) — 1차 실패 시에만
+    for (const b of order as typeof BUCKETS) {
+        const items: any[] = Array.isArray(bundle[b.bucket]) ? bundle[b.bucket] : [];
+        const found = items.find((it) => canon(it?.name) === ctarget);
+        if (found) return { place: found, category: b.category };
+    }
+    // 3차(최후): 한 글자 깨짐(예: "레"→"レ") 같은 미세 오타 → 유사도 매칭.
+    // 오검출 방지: 카테고리가 명시된 경우에만, 충분히 긴 이름에, 높은 유사도(≥0.8)일 때만.
+    if (category && ctarget.length >= 5) {
+        const bucket = BUCKETS.find((b) => b.category === category);
+        if (bucket) {
+            const items: any[] = Array.isArray(bundle[bucket.bucket]) ? bundle[bucket.bucket] : [];
+            let best: { place: any; ratio: number } | null = null;
+            for (const it of items) {
+                const c = canon(it?.name);
+                if (!c) continue;
+                const dist = levenshtein(ctarget, c);
+                const ratio = 1 - dist / Math.max(ctarget.length, c.length);
+                if (ratio > (best?.ratio ?? 0)) best = { place: it, ratio };
+            }
+            if (best && best.ratio >= 0.8) return { place: best.place, category: bucket.category };
+        }
+    }
     return null;
+}
+
+// 소형 Levenshtein 편집거리 (유사도 폴백용)
+function levenshtein(a: string, b: string): number {
+    const m = a.length, n = b.length;
+    if (!m) return n;
+    if (!n) return m;
+    let prev = Array.from({ length: n + 1 }, (_, i) => i);
+    let cur = new Array(n + 1).fill(0);
+    for (let i = 1; i <= m; i++) {
+        cur[0] = i;
+        for (let j = 1; j <= n; j++) {
+            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+            cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+        }
+        [prev, cur] = [cur, prev];
+    }
+    return prev[n];
 }
 
 /** 카탈로그 장소 → createCardToColumn payload (카테고리별 필드 매핑). picker 매핑과 동일 규칙. */
