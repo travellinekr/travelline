@@ -331,6 +331,22 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD+%EB%B2%B1%EA%BE%B8%EC%98%A8+%EB%8B%A4%EB%82%AD+%EB%A7%9B%EC%A7%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "콩카페 다낭": {
+        photos: ["/images/da-nang/info/restaurants/cong-caphe-da-nang.jpg"],
+        summary: "다낭 여행 중 꼭 들러야 할 필수 코스, 달콤하고 시원한 코코넛 스무디 커피를 즐길 수 있는 카페입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["시그니처 코코넛 커피", "빈티지한 매력의 인테리어"],
+        tips: ["피크 타임에는 웨이팅이 있을 수 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "코코넛 스무디 커피", items: [{ name: "대표 메뉴", price: "₫40,000~150,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 7:00 AM – 11:30 PM; Tuesday: 7:00 AM – 11:30 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=16.0690486,108.2248767&query_place_id=ChIJi0bpGjIYQjERRodYRF89PH8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%A9%EC%B9%B4%ED%8E%98%20%EB%8B%A4%EB%82%AD%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    }
 };
 
 export default info;

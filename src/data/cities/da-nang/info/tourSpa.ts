@@ -295,6 +295,58 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Han%20Spa%20Massage%20%26%20Nail%20%EB%8B%A4%EB%82%AD%20%ED%95%9C%EC%8B%9C%EC%9E%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%84%A4%EC%9D%BC%20%ED%95%9C%EC%8A%A4%ED%8C%8C%20%EB%B3%B8%EC%A0%90&query_place_id=ChIJc_yfNIsZQjERw9mgb8dNH0Y", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%20%ED%95%9C%EC%8B%9C%EC%9E%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%8B%A4%EB%82%AD%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "호이안 소원배": {
+        photos: ["/images/da-nang/info/tourSpa/hoi-an-lantern-boat.jpg"],
+        summary: "소원 초를 켜서 강물에 띄우며 특별한 추억을 만들 수 있는 호이안의 대표 액티비티입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["강 위에서 보는 야경", "소원등 띄우기 체험"],
+        tips: ["해 질 녘 일몰 시간대에 맞춰 탑승하는 것을 추천합니다."],
+        hours: "Monday: 8:00 AM – 9:00 PM; Tuesday: 8:00 AM – 9:00 PM",
+        duration: "30~60분",
+        price: "현장/상품별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "24 Lưu Qúy Kỳ, An Hội, Hội An, Đà Nẵng, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=15.875072,108.3273525&query_place_id=ChIJh2YNprUPQjER4bfhFcuQ37A", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%9D%B4%EC%95%88%20%EC%86%8C%EC%9B%90%EB%B0%B0%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "호이안 올드타운": {
+        photos: ["/images/da-nang/info/tourSpa/hoi-an-ancient-town.jpg"],
+        summary: "베트남 전통 건축물과 노란 벽들이 어우러진 아름다운 옛 거리입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["고즈넉한 옛 거리 풍경", "전통 가옥 및 사찰 탐방"],
+        tips: ["낮보다 밤에 등불이 켜진 모습이 훨씬 아름답습니다."],
+        hours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        duration: "반나절",
+        price: "입장권/현장 확인",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "Old Town, Hoi An, Da Nang, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=15.8783812,108.3324215&query_place_id=ChIJE3yuYgAPQjERnAMwgxxwoN4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%9D%B4%EC%95%88%20%EC%98%AC%EB%93%9C%ED%83%80%EC%9A%B4%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+
+    "다낭 대성당": {
+        photos: ["/images/da-nang/info/tourSpa/da-nang-cathedral.jpg"],
+        summary: "일명 '핑크 성당'으로 불리는 아름다운 프랑스식 고딕 양식의 성당입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["인생샷 명소 분홍색 외벽", "고딕 양식의 건축미"],
+        tips: ["성당 내부 미사 시간에는 정숙해야 합니다."],
+        hours: "Monday: 8:00 – 11:30 AM, 1:30 – 4:30 PM; Tuesday: 8:00 – 11:30 AM, 1:30 – 4:30 PM",
+        duration: "30~60분",
+        price: "무료 또는 현장 확인",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "156 Trần Phú, Hải Châu, Đà Nẵng 550000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=16.0670448,108.223186&query_place_id=ChIJ75pYOI8ZQjEReb8Mw6ThCZQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%20%EB%8C%80%EC%84%B1%EB%8B%B9%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
     }
 };
 

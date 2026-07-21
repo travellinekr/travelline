@@ -146,6 +146,20 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B8%EB%8F%84%EC%B0%A8%EC%9D%B4%EB%82%98+%EB%A6%AC%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C+%EB%AA%B0+%EB%8B%A4%EB%82%AD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "호이안 야시장": {
+        photos: ["/images/da-nang/info/shopping/hoi-an-night-market.jpg"],
+        summary: "다양한 길거리 음식과 아기자기한 기념품을 구경하며 호이안의 밤 분위기를 만끽할 수 있는 시장입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["화려한 등불 거리", "다양한 로컬 길거리 음식"],
+        tips: ["소지품 관리에 유의하세요."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=15.875503,108.3262087&query_place_id=ChIJLUlfw30OQjER32jWkRuwRAo", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%9D%B4%EC%95%88%20%EC%95%BC%EC%8B%9C%EC%9E%A5%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    }
 };
 
 export default info;

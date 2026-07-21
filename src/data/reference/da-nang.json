@@ -1,0 +1,2923 @@
+[
+  {
+    "id": "da-nang-3n5d-solo-001",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/soulyukari/224287355844",
+      "title": "베트남 다낭 자유 여행- 혼여 경비 + 3박 5일 일정표",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "da-nang-3n5d-solo-002",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 12,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/99833852/224212962075",
+      "title": "여자 혼자 베트남 다낭&호이안 여행 일정 3일차 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "da-nang-3n5d-couple-003",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chochocho_o/224301190130",
+      "title": "다낭 3박5일 자유여행 코스 총정리｜가볼만한곳 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-couple-004",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/seara0212/223867209412",
+      "title": "다낭 3박 5일 패키지 자유여행 호캉스 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-couple-005",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chochocho_o/223805327282",
+      "title": "베트남 자유여행 다낭 호이안 4박 6일 여행 일정 후기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-couple-006",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sangil00/224144631330",
+      "title": "다낭 호이안 자유여행 호이안 바나힐 일일투어 솔직 후기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-family-007",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hyuny127/224345324954",
+      "title": "베트남 다낭 가족여행 아이랑 7월 3박5일 자유여행 일정 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-family-008",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/adeyblog/224262718072",
+      "title": "다낭 가족 여행 아이와 다낭 호이안 3박5일 자유여행 일정 추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-family-009",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bonniegets/224331077403",
+      "title": "동남아 여행 부모님과 떠난 베트남 다낭 가족여행 4박 6일 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-family-010",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chooravel/224278184294",
+      "title": "아이와 다낭 호이안 가족여행 4박 5일 일정 코스 숙소 공유",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-family-011",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/eattang/224340719654",
+      "title": "다낭 호이안 투어 가족여행 바나힐 시내 핵심 코스 3박 5일",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-friends-012",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/qqq86/224351750399",
+      "title": "다낭 여행 3박5일 코스 바나힐 호이안 포함 경비까지 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-3n5d-friends-013",
+    "city": "Da Nang",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/fromrei8/224345552980",
+      "title": "베트남 다낭 여행 코스 여유롭게 3박5일 일정 가볼만한곳",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-friends-014",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/somix/223888937557",
+      "title": "베트남 다낭&호이안 4박6일 여행일정 및 여행경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-friends-015",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "콩카페 다낭",
+            "category": "food",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "퀸스파 다낭",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "마담 란",
+            "category": "food",
+            "area": "다낭 시내"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/winwinrn/223619717752",
+      "title": "다낭자유여행 호이안 4박6일 일정표 공유해요",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "da-nang-4n6d-friends-016",
+    "city": "Da Nang",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "다낭"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "다낭국제공항 도착",
+            "category": "flight",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바나힐 썬월드",
+            "category": "tourspa",
+            "area": "바나힐"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "허벌스파 다낭",
+            "category": "tourspa",
+            "area": "다낭"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다낭 대성당",
+            "category": "tourspa",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "한시장",
+            "category": "shopping",
+            "area": "다낭 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한강 야경 크루즈",
+            "category": "tourspa",
+            "area": "한강"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호이안 이동",
+            "category": "transport",
+            "area": "다낭 → 호이안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호이안 올드타운",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호이안 소원배",
+            "category": "tourspa",
+            "area": "호이안"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호이안 야시장",
+            "category": "shopping",
+            "area": "호이안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "다낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다낭국제공항 출국",
+            "category": "flight",
+            "area": "다낭"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "바나힐과 호이안은 각각 반나절 이상을 확보하세요.",
+      "출국 전에는 마사지와 공항 이동 시간을 넉넉히 두세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/myhearttj/223735114750",
+      "title": "2025 다낭호이안여행 4박6일 숙소 일정 경비 유용한 팁 공유",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]

@@ -301,6 +301,21 @@ const restaurants: RestaurantData[] = [
         features: ["다낭 시내", "현지식"],
         icon: "🍽️"
     },
+    {
+        name: "콩카페 다낭",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cafe",
+        city: "Da Nang",
+        coordinates: { lat: 16.0690486, lng: 108.2248767 },
+        cuisine: "카페",
+        specialty: "코코넛 스무디 커피",
+        priceRange: "₫40,000~150,000",
+        openingHours: "Monday: 7:00 AM – 11:30 PM; Tuesday: 7:00 AM – 11:30 PM",
+        reservation: false,
+        features: ["코코넛 스무디 커피", "평점 4.1", "다낭 여행 동선에 넣기 좋음"],
+        icon: "☕"
+    }
 ];
 
 export default restaurants;

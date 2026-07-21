@@ -290,6 +290,57 @@ const tourSpa: TourSpaData[] = [
         features: [],
         rating: 4.7,
         icon: "💆"
+    },
+    {
+        name: "호이안 소원배",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Da Nang",
+        description: "투본강 위에서 즐기는 낭만적인 소원등 띄우기",
+        duration: "30~60분",
+        priceRange: "현장/상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 15.875072, lng: 108.3273525 },
+        reservationRequired: true,
+        openingHours: "Monday: 8:00 AM – 9:00 PM; Tuesday: 8:00 AM – 9:00 PM",
+        features: ["강 위에서 보는 야경", "소원등 띄우기 체험", "평점 4.7"],
+        rating: 4.7,
+        icon: "🚣"
+    },
+    {
+        name: "호이안 올드타운",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Da Nang",
+        description: "유네스코 세계문화유산으로 지정된 역사적인 거리",
+        duration: "반나절",
+        priceRange: "입장권/현장 확인",
+        pickupAvailable: true,
+        coordinates: { lat: 15.8783812, lng: 108.3324215 },
+        reservationRequired: true,
+        openingHours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        features: ["유네스코 고도 거리", "노란 벽과 등불 야경", "평점 4.7"],
+        rating: 4.7,
+        icon: "🏘️"
+    },
+    {
+        name: "다낭 대성당",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Da Nang",
+        description: "분홍빛 외관이 매력적인 다낭의 랜드마크",
+        duration: "30~60분",
+        priceRange: "무료 또는 현장 확인",
+        pickupAvailable: false,
+        coordinates: { lat: 16.0670448, lng: 108.223186 },
+        reservationRequired: true,
+        openingHours: "Monday: 8:00 – 11:30 AM, 1:30 – 4:30 PM; Tuesday: 8:00 – 11:30 AM, 1:30 – 4:30 PM",
+        features: ["인생샷 명소 분홍색 외벽", "고딕 양식의 건축미", "평점 4.3"],
+        rating: 4.3,
+        icon: "⛪"
     }
 ];
 

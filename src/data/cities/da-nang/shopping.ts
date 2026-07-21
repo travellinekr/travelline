@@ -152,6 +152,21 @@ const shopping: ShoppingData[] = [
         features: ["리버사이드 몰", "평점 3.9", "다낭 여행 동선에 맞추기 좋음"],
         icon: "🏬"
     },
+    {
+        name: "호이안 야시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Da Nang",
+        coordinates: { lat: 15.875503, lng: 108.3262087 },
+        category: "야시장",
+        specialItems: "기념품, 등불, 길거리 간식",
+        priceRange: "₫30,000~500,000",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: false,
+        features: ["야시장", "평점 4.4", "다낭·호이안 일정에 넣기 좋음"],
+        icon: "🏮"
+    }
 ];
 
 export default shopping;
