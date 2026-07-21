@@ -348,6 +348,42 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Paraiso%20Massage%20%26%20Spa%20%ED%8C%8C%EB%9D%BC%EC%9D%B4%EC%86%8C%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJ3xqv392XAjERPbv3W2EZRPg", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EB%9D%BC%EC%9D%B4%EC%86%8C%20%EC%8A%A4%ED%8C%8C%20%ED%8C%8C%ED%83%80%EC%95%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "알카자쇼": {
+        photos: ["/images/pattaya/info/tourSpa/alcazar-cabaret-show.jpg"],
+        summary: "세계적인 수준의 퍼포먼스를 감상할 수 있는 파타야 필수 관람 코스",
+        updatedAt: "2026-07-21",
+        highlights: ["눈을 뗄 수 없는 화려한 무대 연출", "다채로운 테마의 의상과 안무"],
+        tips: ["공연 시작 전 미리 도착하여 좌석 확보하기", "공연 종료 후 배우들과 기념사진 촬영 가능"],
+        warnings: [],
+        hours: "Monday: 9:00 AM – 9:30 PM; Tuesday: 9:00 AM – 9:30 PM",
+        duration: "1~2시간",
+        price: "상품별 상이",
+        reservation: { required: true, method: "공식 사이트/예약처 확인", note: "성수기·피크타임에는 사전 예약을 권장합니다." },
+        access: { area: "78, 14 หมู่ที่ 9 Thanon Pattayasaisong, ตำบล หนองปรือ, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand", note: "Google Maps 위치 기준" },
+        bestTime: "운영 시간과 혼잡도를 확인해 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.9431331,100.8887535&query_place_id=ChIJxYf1agCWAjERSpuP5_nSV84", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%8C%EC%B9%B4%EC%9E%90%EC%87%BC%20%ED%8C%8C%ED%83%80%EC%95%BC%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "파타야 워킹스트리트": {
+        photos: ["/images/pattaya/info/tourSpa/pattaya-walking-street.jpg"],
+        summary: "다양한 클럽, 바, 레스토랑이 모여 있는 파타야 최고의 유흥가",
+        updatedAt: "2026-07-21",
+        highlights: ["파타야의 역동적인 밤 문화 체험", "다양한 먹거리와 즐길 거리"],
+        tips: ["소지품 분실에 주의하며 안전하게 관람하기", "늦은 밤에는 인파가 매우 많으므로 이동 경로 확인 필수"],
+        warnings: [],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/예약처 확인", note: "성수기·피크타임에는 사전 예약을 권장합니다." },
+        access: { area: "Walking St, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150, Thailand", note: "Google Maps 위치 기준" },
+        bestTime: "운영 시간과 혼잡도를 확인해 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.9262746,100.8729478&query_place_id=ChIJNfm2ehSWAjER9YgMLV21zzs", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%ED%83%80%EC%95%BC%20%EC%9B%8C%ED%82%B9%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8%20%ED%8C%8C%ED%83%80%EC%95%BC%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
     }
 };
 

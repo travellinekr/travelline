@@ -341,6 +341,40 @@ const tourSpa: TourSpaData[] = [
         features: ["가성비 우수", "리모델링 후 쾌적한 환경", "단체 및 가족 여행 적합"],
         rating: 4.9,
         icon: "💆"
+    },
+    {
+        name: "알카자쇼",
+        showInInbox: true,
+        hasInfo: true,
+        type: "show",
+        city: "Pattaya",
+        description: "화려한 의상과 조명으로 펼쳐지는 파타야의 대표적인 카바레 쇼입니다.",
+        duration: "1~2시간",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 12.9431331, lng: 100.8887535 },
+        reservationRequired: true,
+        openingHours: "Monday: 9:00 AM – 9:30 PM; Tuesday: 9:00 AM – 9:30 PM",
+        features: ["눈을 뗄 수 없는 화려한 무대 연출", "다채로운 테마의 의상과 안무", "평점 4.5"],
+        rating: 4.5,
+        icon: "🎭"
+    },
+    {
+        name: "파타야 워킹스트리트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Pattaya",
+        description: "화려한 네온사인과 활기찬 에너지가 넘치는 파타야의 밤거리입니다.",
+        duration: "1~3시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 12.9262746, lng: 100.8729478 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["파타야의 역동적인 밤 문화 체험", "다양한 먹거리와 즐길 거리", "평점 4.4"],
+        rating: 4.4,
+        icon: "🌃"
     }
 ];
 

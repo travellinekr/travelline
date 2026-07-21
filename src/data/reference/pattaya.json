@@ -1,0 +1,2671 @@
+[
+  {
+    "id": "pattaya-3n5d-solo-001",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rsshinhwa1234/224246320447",
+      "title": "여행 2026년 태국파타야골프패키지 중급 3색 3박 5일 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "pattaya-3n5d-solo-002",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 1,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/coolestlove/224214280305",
+      "title": "방콕 파타야 여행 3박 5일 일정 코스 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "pattaya-4n6d-solo-003",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 11,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/itbgear/223648944712",
+      "title": "방콕 파타야 혼자 자유여행 3박5일&4박6일 일정 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "pattaya-4n6d-solo-004",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/usimstory/224297022066",
+      "title": "방콕 파타야 자유여행 4박5일 코스 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "pattaya-3n5d-couple-005",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 9,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hanyafc/224353371512",
+      "title": "파타야 3박 5일 여행 5성급 호텔부터 산호섬 전신마사지",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-couple-006",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 12,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/coolestlove/224214280305",
+      "title": "방콕 파타야 여행 3박 5일 일정 코스 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-4n6d-couple-007",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bahna2/223790554582",
+      "title": "태국 방콕 여행 파타야 4박6일 일정 코스 방콕 항공권 가격",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-4n6d-couple-008",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 3,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/h1230k_/224279392163",
+      "title": "방콕·파타야 4박 6일 여행 리조트 산호섬 투어",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-family-009",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/msjh1012/224252545922",
+      "title": "방콕 여행 파타야 3박5일 가족여행 일정 및 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-family-010",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/mhjkmk/224181013738",
+      "title": "태국 파타야 가족여행 코스 추천 농눅빌리지 백만년 바위공원",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-4n6d-family-011",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hug387/224086883268",
+      "title": "태국 방콕 파타야 여행 일정 추천 4박6일 가족여행",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-4n6d-family-012",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/zooyenzzang/224275513660",
+      "title": "태국/방콕 4박6일 대가족여행 파타야 당일치기 산호섬",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-family-013",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/danzzak78/224256934065",
+      "title": "방콕 파타야 여행 대가족 여행코스 경비 3박5일 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-friends-014",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/skli0612/224154752639",
+      "title": "태국 방콕 여행 3박 5일 일정 파타야 포함 준비물 날씨",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-3n5d-friends-015",
+    "city": "Pattaya",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "좀티엔 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "뿌펜 씨푸드",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "서프 앤 터프 비치 클럽",
+            "category": "food",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dongi0508/224202706455",
+      "title": "태국 방콕 여행 코스 준비물 파타야 산호섬 호핑투어 경비 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "pattaya-4n6d-friends-016",
+    "city": "Pattaya",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "파타야"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/우타파오 공항 도착",
+            "category": "flight",
+            "area": "태국"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "파타야 숙소 체크인",
+            "category": "hotel",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "꼬란 섬",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파타야 비치",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그레이스 스파",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "진리의 성전",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "농눅 빌리지",
+            "category": "tourspa",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알카자쇼",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파타야 수상시장",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "파타야 워킹스트리트",
+            "category": "tourspa",
+            "area": "파타야"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "파타야"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "터미널21 파타야",
+            "category": "shopping",
+            "area": "파타야"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/우타파오 공항 출국",
+            "category": "flight",
+            "area": "태국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "파타야는 방콕 이동 시간을 고려해 투어일과 휴식일을 분리하세요.",
+      "꼬란 섬·쇼·스파는 예약 시간을 먼저 고정하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/zadf/223850427262",
+      "title": "5월 연휴 태국 방콕/파타야 4박 6일 자유여행 일정 공유",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]
