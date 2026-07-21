@@ -96,6 +96,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Singapore": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Bay_Sands_in_the_evening_-_20101120.jpg?width=800",
     "Hanoi": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi_Opera_House_2021.jpg?width=800",
     "Ho Chi Minh": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City_Skyline_(night).jpg?width=800",
+    "Siem Reap": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat_temple.jpg?width=800",
     "Boracay": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay_White_Beach.png?width=800",
     "Guam": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_of_Tumon_Bay,_Guam,_USA_(8532198983).jpg?width=800",
     "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800",
@@ -373,6 +374,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 tags: ["미식", "도시"],
                 landmark: "Ben Thanh Market",
                 airports: [{ name: "호치민 떤선녓국제공항", code: "SGN" }],
+                timezone: 7
+            },
+            {
+                name: "씨엠립",
+                engName: "Siem Reap",
+                country: "캄보디아",
+                desc: "앙코르 유적과 크메르 미식의 관문",
+                tags: ["유적", "미식"],
+                landmark: "Angkor Wat",
+                airports: [{ name: "씨엠립 앙코르국제공항", code: "REP" }],
                 timezone: 7
             },
             {

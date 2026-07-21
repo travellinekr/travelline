@@ -219,6 +219,12 @@ import hochiminhShopping from './ho-chi-minh/shopping';
 import hochiminhTransport from './ho-chi-minh/transport';
 import hochiminhTourSpa from './ho-chi-minh/tourSpa';
 
+import siemreapAccommodations from './siem-reap/accommodations';
+import siemreapRestaurants from './siem-reap/restaurants';
+import siemreapShopping from './siem-reap/shopping';
+import siemreapTransport from './siem-reap/transport';
+import siemreapTourSpa from './siem-reap/tourSpa';
+
 import boracayAccommodations from './boracay/accommodations';
 import boracayRestaurants from './boracay/restaurants';
 import boracayShopping from './boracay/shopping';
@@ -400,6 +406,13 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: hochiminhShopping,
         transport: hochiminhTransport,
         tourSpa: hochiminhTourSpa,
+    },
+    "Siem Reap": {
+        accommodations: siemreapAccommodations,
+        restaurants: siemreapRestaurants,
+        shopping: siemreapShopping,
+        transport: siemreapTransport,
+        tourSpa: siemreapTourSpa,
     },
     "Boracay": {
         accommodations: boracayAccommodations,
