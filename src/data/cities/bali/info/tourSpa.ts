@@ -263,6 +263,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%98%EB%B4%89%EC%95%88+%EC%84%AC+%EB%8D%B0%EC%9D%B4+%ED%8A%B8%EB%A6%BD+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "카르사 스파 우붓": {
+        photos: ["/images/bali/info/tourSpa/spa-vn0iljqe.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Keliki, Jl. Bangkiang Sidem, Ubud, Kec. Tegallalang, Kabupaten Gianyar, Bali 80571 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EC%B9%B4%EB%A5%B4%EC%82%AC%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJoaVdxDU90i0R1Dvvn0iLJqE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EB%A5%B4%EC%82%AC%20%EC%8A%A4%ED%8C%8C%20%EC%9A%B0%EB%B6%93%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "자 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-jf3la9zu.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Raya Basangkasa No.21, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Jari%20Menari&query_place_id=ChIJN9zBbCJH0i0RqvvJF3La9zU", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9E%90%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "골드러스트 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-ev1upi08.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Pantai Batu Bolong Gg. Nyepi, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=GOLDUST%20SPA&query_place_id=ChIJM_jXA3k40i0Rv3rEV1Upi08", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B3%A8%EB%93%9C%EB%9F%AC%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "바디웍스 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-1gr5umi8.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Lebak Sari Jl. Petitenget No.3, Seminyak, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Bodyworks%20Spa&query_place_id=ChIJNUk3KhBH0i0RrIQ1gR5Umi8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EB%94%94%EC%9B%8D%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스프링 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-wkg-t9i8.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Pantai Batu Bolong No.83C, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80351 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Spring%20Spa%20Canggu&query_place_id=ChIJ8_2ZUXg40i0RKC8wkg-T9I8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "프라나 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-iwmgeveq.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Kunti I No.118X, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Prana%20Spa&query_place_id=ChIJD7io6sVG0i0RSp1iWmgEVEQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%9D%BC%EB%82%98%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타만 에어 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-smvkvbek.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Sunset Road No.88, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Taman%20Air%20Spa&query_place_id=ChIJZxcJp85G0i0Rh93sMVkVBek", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%EB%A7%8C%20%EC%97%90%EC%96%B4%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우붓 전통 마사지": {
+        photos: ["/images/bali/info/tourSpa/massage-0h-geupk.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. RSI Markandya II, Payogan, Kedewatan, Kec. Gianyar, Kabupaten Gianyar, Bali 80571 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Ubud%20Traditional%20Spa&query_place_id=ChIJt7JRMM8i0i0RKob0H-gEuPk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%B6%93%20%EC%A0%84%ED%86%B5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스미냑 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-zbcct9h8.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "at Villa Seminyak Estate & Spa, Jl. Nakula Gg. Baik-Baik, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Lagoon%20Spa%20Seminyak&query_place_id=ChIJAYO-29hG0i0RWW4zbCCt9H8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EB%AF%B8%EB%83%91%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "누사두아 스파 발리": {
+        photos: ["/images/bali/info/tourSpa/spa-bali-zytefy8q.jpg"],
+        summary: "발리 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Jl. Nusa Dua, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80361 인도네시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Zahra%20Spa%20Nusa%20Dua&query_place_id=ChIJWyomITtD0i0RvhGZyTEFy8Q", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%88%84%EC%82%AC%EB%91%90%EC%95%84%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

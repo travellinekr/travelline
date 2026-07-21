@@ -176,6 +176,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%95%EB%A1%B1+%EC%88%98%EC%83%81%EC%9D%B8%ED%98%95%EA%B7%B9%EC%9E%A5+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "라비엔 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-xrqlz9ui.jpg"],
+        summary: "다양한 마사지 코스를 갖춘 하노이의 유명 마사지 명소",
+        updatedAt: "2026-07-20",
+        highlights: ["오일 마사지 및 타이거밤", "키즈 마사지 운영", "아로마 및 핫스톤 서비스"],
+        tips: ["할인 예약 방법 미리 확인하기"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "48 P. Lương Văn Can, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=La%20Belle%20Vie%20Spa&query_place_id=ChIJJ8OibsCrNTERHFrXRQlZ9UI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%B9%84%EC%97%94%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "웰터치 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-eytkjjm0.jpg"],
+        summary: "공항 샌딩 서비스와 쾌적한 시설을 자랑하는 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 샌딩 서비스 제공", "짐 보관 가능", "청결한 시설 및 공기청정기 완비"],
+        tips: ["여행 마지막 날 이용하기 매우 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "A5, Five star, Đ. Đình Thôn, Đình Thôn, Từ Liêm, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Well%20Touch%20spa&query_place_id=ChIJHw07rR5VNDER33jEytkJJm0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%B0%ED%84%B0%EC%B9%98%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "욜로 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-3tvbskwa.jpg"],
+        summary: "가성비가 뛰어나고 샤워가 가능한 로컬 마사지샵",
+        updatedAt: "2026-07-20",
+        highlights: ["샤워 가능", "한국어 소통 가능", "팁 없는 합리적인 가격"],
+        tips: ["구시가지 번화가에 위치하여 접근성 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "P. Bát Đàn/45a P. Cửa Đông, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%B2%A0%ED%8A%B8%EB%82%A8%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%9A%9C%EB%A1%9C%EC%8A%A4%ED%8C%8C%20Hanoi%20Massage%20Yolo%20Spa&query_place_id=ChIJFesc4DerNTEROYJ3tvBskWA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%9C%EB%A1%9C%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "어반 오아시스 스파": {
+        photos: ["/images/hanoi/info/tourSpa/oasis-spa-hanoi.jpg"],
+        summary: "호안끼엠 근처 시내 중심부에 위치한 편안한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["호안끼엠 인근 위치", "응이아툭 광장 근처"],
+        tips: ["식사 전후 산책하며 들르기 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "39A Ng. Hàng Hành, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Urban%20Oasis%20Spa&query_place_id=ChIJ7Z8l0b-rNTERGpjAHM17ULE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%96%B4%EB%B0%98%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa--skm1qee.jpg"],
+        summary: "올드쿼터에서 즐길 수 있는 고퀄리티 스파 서비스",
+        updatedAt: "2026-07-20",
+        highlights: ["올드쿼터 위치", "호텔 스파 서비스 가능", "뛰어난 마사지 압과 가격"],
+        tips: ["팁이 발생할 수 있으니 참고"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "3rd floor, No. 4- 6 P. Bà Triệu, Cửa Nam, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=La%20Spa%20Lakeside&query_place_id=ChIJbcrqZ7irNTERApw-sKM1qeE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쓰리따봉 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-vpwzjztc.jpg"],
+        summary: "미딩 지역의 대규모 프리미엄 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["압도적인 규모와 고급 인테리어", "키즈 마사지 가능", "높은 고객 평점"],
+        tips: ["하노이 교민들이 추천하는 핫플레이스"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Tầng 1, TTTM The Garden, Đ. Mễ Trì, Từ Liêm, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=THREE%20TABOM%20SPA&query_place_id=ChIJNfOcWE5VNDERi2QvpwZJZTc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%93%B0%EB%A6%AC%EB%94%B0%EB%B4%89%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "미도 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-5rw5-h9w.jpg"],
+        summary: "호안끼엠 시내에서 편리하게 이용 가능한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["호안끼엠 시내 위치", "숙소 픽드랍 서비스 가능", "공항 샌딩 서비스 제공"],
+        tips: ["1일 1스파 코스로 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "11 P. Hàng Mành, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 10000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%AF%B8%EB%8F%84%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJjdPZPb6rNTERDrB5Rw5-H9w", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AF%B8%EB%8F%84%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "궁스파": {
+        photos: ["/images/hanoi/info/tourSpa/gungspa-hanoi.jpg"],
+        summary: "한국인 사장님이 운영하여 예약이 편리한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 픽업 및 샌딩 서비스", "무료 짐 보관 가능", "샤워 시설 완비"],
+        tips: ["카카오톡으로 간편하게 예약 가능"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "45a P. Đào Duy Từ, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EB%85%B8%EC%9D%B4%20%EA%B6%81%EC%8A%A4%ED%8C%8C%20GOONG%20SPA&query_place_id=ChIJ44Wpez2rNTERhabpiszA-oM", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B6%81%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파라곤 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-ynazxoz8.jpg"],
+        summary: "깔끔한 시설과 네일 서비스를 함께 즐길 수 있는 곳",
+        updatedAt: "2026-07-20",
+        highlights: ["네일아트 서비스 제공", "수준 높은 마사지 실력", "깔끔하고 쾌적한 시설"],
+        tips: ["마사지와 네일을 동시에 이용하기 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Tầng 3, Tháp A, P. Dương Đình Nghệ, Keangnam, Yên Hòa, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Paragon%20Spa&query_place_id=ChIJJZAqSwCrNTERIdYYnaZXOz8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EB%9D%BC%EA%B3%A4%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에스테바 스파": {
+        photos: ["/images/hanoi/info/tourSpa/spa-tpu4h6rk.jpg"],
+        summary: "팁 부담 없이 샤워까지 가능한 가성비 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["팁 없는 합리적인 가격", "샤워 가능"],
+        tips: ["여행 중 쌓인 피로를 풀기에 적합함"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "75 P. Lò Sũ, French Quarter, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Estheva%20Spa&query_place_id=ChIJT4awjAWrNTER1Z4tPu4h6Rk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%8A%A4%ED%85%8C%EB%B0%94%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

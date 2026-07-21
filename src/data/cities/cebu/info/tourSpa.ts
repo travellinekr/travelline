@@ -105,6 +105,176 @@ const info: Record<string, TourSpaInfo> = {
         reservation: { required: false, method: "현장 방문 가능", note: "운영 시간과 휴무를 확인하세요." },
         links: [{"label": "Google Maps", "url": "https://maps.google.com/?cid=7302151955472151865", "type": "guide", "description": "위치·운영시간 확인"}, {"label": "네이버 후기 검색", "url": "https://search.naver.com/search.naver?where=blog&query=%ED%83%91%EC%8A%A4+%EC%A0%84%EB%A7%9D%EB%8C%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", "type": "blog", "description": "최근 여행 후기 확인"}],
         updatedAt: "2026-07-12"
+    },
+    "엘스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-lgmiouug.jpg"],
+        summary: "막탄 공항 근처에서 0.5박 이용이 가능한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["5년 이상 숙련된 테라피스트 보유", "매주 진행되는 정기적인 트레이닝 및 평가", "공항 픽업 및 드랍 서비스 제공"],
+        tips: ["새벽 도착 시 0.5박 패키지 이용 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "The El, Inc Bldg, Lapu-Lapu Airport Rd, Lapu-Lapu, Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EC%97%98%EC%8A%A4%ED%8C%8C&query_place_id=ChIJ163PmDaZqTMRQvhLgMIouUg", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%98%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오아시스 스파": {
+        photos: ["/images/cebu/info/tourSpa/oasis-spa-cebu.jpg"],
+        summary: "막탄 지역의 입국 및 출국팩 전문 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["입국팩 및 출국팩 운영", "오일, 스톤, 임산부, 성장 마사지 등 다양한 프로그램", "공항 픽업 및 드랍 서비스 제공"],
+        tips: ["가족 여행객에게 특히 추천하는 코스"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "OASIS SPA, The Promenade Mactan, Punta Engaño Rd, Lapu-Lapu, 6015 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=OASIS%20SPA%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJF0cqFNWXqTMR7P2SGvcR3Sk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "바안스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-s4m11kli.jpg"],
+        summary: "막탄 뉴타운에 위치한 가성비 좋은 로컬 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["가성비 좋은 가격대", "네일 서비스 함께 이용 가능", "공항 샌딩 서비스 제공"],
+        tips: ["막탄 뉴타운 메인 거리 스타벅스 근처에 위치"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "필리핀 세부 라푸-라푸 마리바고", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%88%EC%8A%A4%ED%8C%8C%28%EB%A7%88%EB%A6%AC%EB%B0%94%EA%B3%A0%EC%A0%90%29&query_place_id=ChIJzetI-PqXqTMRrNoS4m11kLI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EC%95%88%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "플라워트리 스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-cmdesni8.jpg"],
+        summary: "막탄 내 깔끔하고 전문적인 분위기의 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["입국팩 서비스 운영", "아늑하고 전문적인 매장 분위기", "여행 피로 회복에 특화"],
+        tips: ["출국 전 마지막 마사지 코스로 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "필리핀 6015 세부 라푸-라푸 마리바고 7XPX+F4R", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%94%8C%EB%9D%BC%EC%9B%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8C%8C&query_place_id=ChIJSaxSAn-XqTMRyi2CMDEsni8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%8C%EB%9D%BC%EC%9B%8C%ED%8A%B8%EB%A6%AC%20%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "카라스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-e-s7-yg4.jpg"],
+        summary: "제이파크 리조트 인근의 편안한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["제이파크 리조트 근처 위치", "부모님 동반 여행객에게 적합한 분위기"],
+        tips: ["리조트 이용 시 함께 방문하기 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "M.L. Quezon National Highway, Maribago, Lapu-Lapu, 6015 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Cara%20Spa%20%28%EC%B9%B4%EB%9D%BC%EC%8A%A4%ED%8C%8C%29%20at%20Jpark%20Resort&query_place_id=ChIJNW0GwrWQqTMRd6pE-s7-yG4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EB%9D%BC%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "원스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-oilhvwx8.jpg"],
+        summary: "공항 픽업과 수면이 가능한 0.5박 전문 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 픽업 서비스 제공", "수면 이용 가능", "베이비 시터 서비스 운영"],
+        tips: ["새벽 도착 후 휴식이 필요한 여행객에게 유용"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Unit 4, ESY bldg, MP Yap st, cor Juana Osmeña St, Cebu City, 6000 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=The%20First%20Spa%20and%20Asian%20Healing&query_place_id=ChIJg9Cjw2iZqTMRHM-oILhVWx8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%90%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "노아스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-ye5s9zce.jpg"],
+        summary: "제이파크 근처의 입국팩 전문 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 픽업 및 샌딩 서비스", "90분 마사지, 샤워, 리조트 샌딩 포함 패키지", "합리적인 가격 구성"],
+        tips: ["새벽 도착 후 샤워와 휴식이 동시에 필요할 때 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Pajac-Maribago Rd, Lapu-Lapu, 6015 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%85%B8%EC%95%84%EC%8A%A4%ED%8C%8C&query_place_id=ChIJGZNs8k6XqTMR1v1Ye5S9ZcE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%85%B8%EC%95%84%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "트리쉐이드 스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-li0kcv7e.jpg"],
+        summary: "세부 시내 주변의 차분한 분위기 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["임산부 마사지 가능", "친절한 직원 서비스", "차분하고 조용한 매장 분위기"],
+        tips: ["시내 관광 중 방문하기 좋은 위치"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Salinas Dr, Cebu City, 6000 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%8A%B8%EB%A6%AC%EC%89%90%EC%9D%B4%EB%93%9C&query_place_id=ChIJm3obnyOZqTMR_nxlI0kcv7E", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%A6%AC%EC%89%90%EC%9D%B4%EB%93%9C%20%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "반얀스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-9a4ha5he.jpg"],
+        summary: "세부 공항 근처의 출국팩 전문 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["출국팩 운영", "무제한 체류 가능", "샤워 시설 완비"],
+        tips: ["공항 바로 앞이라 시간 관리에 매우 용이"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "3rd floor, Raja Park Hotel, Fuente Osmeña, Cebu City, Cebu City, 6000 Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Banyan%20Tree%20Spa&query_place_id=ChIJye3O_E6ZqTMRCmQ9a4hA5hE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%EC%96%80%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "씨엘로 스파": {
+        photos: ["/images/cebu/info/tourSpa/spa-ezhu8y70.jpg"],
+        summary: "호핑 투어 후 이용하기 좋은 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["짐 보관 서비스 제공", "가족 여행객에게 적합한 환경", "호핑 투어 후 피로 회복에 최적"],
+        tips: ["새벽 비행기 이용 전 방문을 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Sitio Buot, Lapu-Lapu, Cebu, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Cielo%20Spa&query_place_id=ChIJZV1eJgCXqTMRMWQEZHU8y70", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%94%A8%EC%97%98%EB%A1%9C%20%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

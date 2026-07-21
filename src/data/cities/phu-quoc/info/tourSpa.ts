@@ -244,7 +244,7 @@ const info: Record<string, TourSpaInfo> = {
         ]
     },
     "세일링 클럽 스파 푸꾸옥": {
-        photos: ["/images/phu-quoc/info/tourSpa/sailing-club-signature-resort-phu-quoc-spa.jpg"],
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-rdkl5nri.jpg"],
         summary: "롱비치의 여유를 만끽하며 즐기는 프리미엄 리조트 스파",
         updatedAt: "2026-07-15",
         highlights: ["럭셔리한 분위기의 힐링 타임", "롱비치 인근의 완벽한 휴식"],
@@ -253,14 +253,167 @@ const info: Record<string, TourSpaInfo> = {
         duration: "1~2시간",
         price: "코스별 상이",
         reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
-        access: { area: "City, Group 6, Hamlet Commune, Đường Bào, Phú Quốc, An Giang 920000 베트남", note: "Google Maps 위치 기준" },
+        access: { area: "Tổ 6, Ấp, Huyện, Đường Bào, Phú Quốc, An Giang 70000 베트남", note: "Google Place Details place_id 기반 좌표" },
         bestTime: "날씨와 운영 상황 확인 후 방문 권장",
         links: [
             { label: "공식 사이트", url: "https://sc-signaturephuquoc.com/", type: "official", description: "공식/대표 링크" },
-            { label: "Google Maps", url: "https://maps.google.com/?cid=9019971226754622219", type: "guide", description: "지도에서 위치 보기" },
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Spa%20at%20Sailing%20Club%20Signature%20Resort%20Phu%20Quoc&query_place_id=ChIJE4A7lA6TpzERKEwRdkL5nrI", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EC%9D%BC%EB%A7%81+%ED%81%B4%EB%9F%BD+%EC%8A%A4%ED%8C%8C+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "갈리나스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-nm3qbdww.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Tổ 2, Ấp, Đường Trần Hưng Đạo, Cửa Lấp, Phú Quốc, An Giang 720000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%B2%A0%EB%A5%B4%EC%83%A4%EC%9C%A0%20%EB%A8%B8%EB%93%9C%EC%8A%A4%ED%8C%8C&query_place_id=ChIJTbkC7KGNpzERoI2NM3qBdww", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B0%88%EB%A6%AC%EB%82%98%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "심스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-3iyy7emq.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "SS12 Chợ đêm Sonasea, Đường Bào, Phú Quốc, An Giang, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Sim%20spa&query_place_id=ChIJD1y1OwCTpzERv6C3IYy7emQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%AC%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라베란다스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-a5rul98q.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "New World, Khem Beach Resort, B125, Phú Quốc, An Giang 92513 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Lala%20Spa%20Phu%20Quoc&query_place_id=ChIJ_9_EJR6XpzERop2a5Rul98Q", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%B2%A0%EB%9E%80%EB%8B%A4%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "센스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/senspa-phu-quoc-phu-quoc.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "R171 Bãi Khem, Phú Quốc, An Giang, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Sen%20Spa&query_place_id=ChIJYxv1Go6XpzERi9cGmo5tovk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%BC%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸꾸옥 머드스파": {
+        photos: ["/images/phu-quoc/info/tourSpa/phu-quoc-spa-phu-quoc.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "TH2-09, Grand World, Đường Thượng Hải 2, Phú Quốc, An Giang 92500 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Mer%20Spa%20Phu%20Quoc&query_place_id=ChIJrdeRavwfCDEREeDCRgtiXio", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A8%B8%EB%93%9C%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "망고베이스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-tw_culqi.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "91/5B, Đường Trần Hưng Đạo, Duong Dong, Phú Quốc, An Giang, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=MANGO%20SPA%20%26%20NAIL&query_place_id=ChIJYWVqP52NpzERraYTW_cuLQI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%9D%EA%B3%A0%EB%B2%A0%EC%9D%B4%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베르데스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc--murm3g0.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "108 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Glow%20Day%20Spa%20Massage%201%20%28%20%EB%B0%9C%20%EB%A7%88%EC%82%AC%EC%A7%80%2C%20%EB%B0%94%EB%94%94%20%EB%A7%88%EC%82%AC%EC%A7%80%2C%ED%95%AB%EC%8A%A4%ED%86%A4%20%ED%85%8C%EB%9D%BC%ED%94%BC%29&query_place_id=ChIJE8hQn1ONpzER1K6-murM3g0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EB%A5%B4%EB%8D%B0%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오마모리스파 푸꾸옥": {
+        photos: ["/images/phu-quoc/info/tourSpa/spa-phu-quoc-hh3zwsa8.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "48 Ng. Huyện, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Omamori%20Spa%20Old%20Quarter&query_place_id=ChIJLWup7_erNTERSqbhh3zWSa8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%A7%88%EB%AA%A8%EB%A6%AC%EC%8A%A4%ED%8C%8C%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸꾸옥 풋마사지": {
+        photos: ["/images/phu-quoc/info/tourSpa/phu-quoc-massage-phu-quoc.jpg"],
+        summary: "푸꾸옥 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: [],
+        tips: [],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "1A Đường Trần Hưng Đạo, Khu 1, Phú Quốc, An Giang, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Golden%20Foot%20Massage%20Ph%C3%BA%20Qu%E1%BB%91c&query_place_id=ChIJ_QHQ2eWNpzER0VcwkboktMU", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%91%B8%EA%BE%B8%EC%98%A5%20%ED%92%8B%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%91%B8%EA%BE%B8%EC%98%A5%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

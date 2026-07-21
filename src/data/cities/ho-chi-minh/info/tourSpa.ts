@@ -175,6 +175,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B5%AC%EC%B0%8C+%ED%84%B0%EB%84%90+%ED%88%AC%EC%96%B4+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "디엘로스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-hs1czkkk.jpg"],
+        summary: "호치민 1군에 위치한 마사지 및 네일샵으로 공항 무료 샌딩 서비스가 매우 유용한 곳입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 무료 샌딩 서비스 제공", "샤워 시설 이용 가능", "프라이빗한 공간 구성"],
+        tips: ["밤 비행기 탑승객에게 강력 추천", "예약 시 샌딩 조건 미리 확인하기"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "18Bis Hẻm 12 Nguyễn Thị Minh Khai, P, Sài Gòn, Hồ Chí Minh 70000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Massage%20the%20elo%20spa%20%26%20Nail%20%EB%94%94%EC%97%98%EB%A1%9C%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%84%A4%EC%9D%BC%20%E8%83%A1%E5%BF%97%E6%98%8E%E6%8C%89%E6%91%A9&query_place_id=ChIJVbd2BIcvdTERxHiHS1czKkk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94%EC%97%98%EB%A1%9C%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "모모스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-kizcrbqg.jpg"],
+        summary: "벤탄시장 근처에 위치하여 접근성이 좋고 두피 마사지가 유명한 가성비 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["두피 마사지 전문", "벤탄시장 인근 위치", "짐 보관 및 공항 픽업/샌딩 지원"],
+        tips: ["그랩을 통한 편리한 이동 가능", "가성비 좋은 메뉴 위주로 예약하기"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "227 Lê Thánh Tôn, Bến Thành, Hồ Chí Minh, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Momo%20Spa%20massage%20%26%20nails%20%EB%AA%A8%EB%AA%A8%EB%A7%88%EC%82%AC%EC%A7%80&query_place_id=ChIJdxflKCwvdTEReSVKIzCrBqg", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AA%A8%EB%AA%A8%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "미도 럭셔리스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-a9me2s3e.jpg"],
+        summary: "벤탄시장 근처에서 청결하고 깔끔하게 관리되는 것으로 유명한 프리미엄 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["청결하고 위생적인 시설", "다양한 룸 타입(2인실~6인실)", "커플 및 가족 여행객 적합"],
+        tips: ["가족 단위 방문 시 넓은 룸 예약 권장", "벤탄시장 관광 동선에 포함하기 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "122 Yersin, Bến Thành, Hồ Chí Minh 70000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=MIDO%20LUXURY%20SPA&query_place_id=ChIJpdvzWOUvdTERQuaA9me2S3E", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AF%B8%EB%8F%84%20%EB%9F%AD%EC%85%94%EB%A6%AC%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "유주스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-tyvtd-se.jpg"],
+        summary: "마사지와 네일/패디 서비스를 동시에 즐길 수 있는 1군 소재의 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네일 및 패디 서비스 전문", "전신 및 하체 관리 메뉴 보유", "키즈 메뉴 운영"],
+        tips: ["한국어로 디테일한 요청 가능", "네일과 마사지를 함께 예약하여 시간 절약하기"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "38 Lê Lai, Bến Thành, Hồ Chí Minh, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=YUJU%20SPA%20%26%20NAIL%20%7C%20Ben%20Thanh%20Market&query_place_id=ChIJZRcY1McvdTER9IyTyvtD-SE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9C%A0%EC%A3%BC%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-iakawou0.jpg"],
+        summary: "관광객용 샵보다는 현지인들이 많이 찾는 로컬 감성의 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["현지 느낌 물씬 나는 분위기", "로컬 마사지의 매력 보유", "1군 위치"],
+        tips: ["진짜 베트남 현지 스타일을 경험하고 싶은 분들께 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "49 Phạm Viết Chánh, Cầu Ông Lãnh, Hồ Chí Minh, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=HA%20SPA&query_place_id=ChIJHW16QcUvdTERm0lIAkAWOU0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 목 스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-ou6dl6x0.jpg"],
+        summary: "1군 부이비엔 근처에 위치한 시설과 실력이 검증된 로컬 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["VIP Deep Massage 프로그램", "깔끔하고 쾌적한 내부 시설", "부이비엔 인근 접근성"],
+        tips: ["내돈내산 리뷰가 많은 검증된 곳", "인기 메뉴는 사전 예약 권장"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "15 Lê Thị Riêng, Bến Thành, Hồ Chí Minh 700000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%AA%A9%EC%8A%A4%ED%8C%8C&query_place_id=ChIJH6JgzTAvdTERQiCOU6Dl6X0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94%20%EB%AA%A9%20%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "온스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-dpsi6sta.jpg"],
+        summary: "1군 중심지에 위치하여 접근성이 매우 뛰어나고 가격이 저렴한 가성비 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["1군 중심지 위치로 높은 접근성", "짐 보관 및 샤워 서비스 가능", "저렴하고 합리적인 가격"],
+        tips: ["여행 중 짧은 시간 피로를 풀기에 최적"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "153 Ký Con, Bến Thành, Hồ Chí Minh, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=On%20Spa%20-%20Arum%20K%20Spa&query_place_id=ChIJz778NwAvdTER7x-dpsi6STA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A8%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "22스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/22spa-ho-chi-minh.jpg"],
+        summary: "가성비가 매우 뛰어나며 핫스톤 등 다양한 코스를 제공하는 로컬 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["핫스톤 및 허브베개 포함 코스", "매우 뛰어난 가성비", "1군 위치"],
+        tips: ["골목 안쪽에 위치해 있으므로 그랩 이용 권장"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "100 Đề Thám, Cầu Ông Lãnh, Hồ Chí Minh 700000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=22Spa%20%26%20Massage&query_place_id=ChIJs6IqGwcvdTERLkHgWg6Tk3M", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=22%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "샘샘뷰티": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/place-0uykqema.jpg"],
+        summary: "두피 마사지와 헤드스파로 유명한 뷰티 전문 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["두피 마사지(헤드스파) 특화", "예약제 운영", "친구와 함께 방문하기 좋은 분위기"],
+        tips: ["헤드스파 집중 관리를 위해 사전 예약 필수"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "234 Tân Sơn Nhì, P, Tân Sơn Nhì, Hồ Chí Minh 700000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Sam%20Sam%20Beauty%20-%20Skincare%20and%20Wellness&query_place_id=ChIJU-PL0qkpdTER83l0UYkQEMA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%98%EC%83%98%EB%B7%B0%ED%8B%B0%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "화이트스파": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/spa-w0tzksxq.jpg"],
+        summary: "최근 시설을 새로 이전하여 매우 쾌적하고 깔끔한 환경을 자랑하는 스파입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["새로 이전한 깨끗한 시설", "6층 규모의 대형 건물", "픽업 서비스 제공"],
+        tips: ["시설의 청결도를 중요하게 생각한다면 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "카카오톡/공식 채널 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "39 Ngô Đức Kế, Sài Gòn, Hồ Chí Minh 700000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Black%20%26%20White%20Beauty%20Salon%20%26%20Spa&query_place_id=ChIJ0aCGfwAvdTERbzMW0tZKsXQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%94%EC%9D%B4%ED%8A%B8%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

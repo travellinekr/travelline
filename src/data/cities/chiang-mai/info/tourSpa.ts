@@ -124,6 +124,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9E%80%EB%82%98+%EB%AF%BC%EC%86%8D+%EB%B0%95%EB%AC%BC%EA%B4%80+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "막카 헬스 앤 스파": {
+        photos: ["/images/chiang-mai/info/tourSpa/spa-qry-ppyq.jpg"],
+        summary: "올드타운 내 위치한 깔끔하고 시설 좋은 고급 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["아로마 오일 마사지 전문", "깔끔한 샤워 시설 완비", "올드타운 내 접근성 좋음"],
+        tips: ["마이리얼트립 등 예약 사이트를 통해 할인 혜택 확인 가능"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "38/1 Soi Ratchamanka 8 Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Makkha%20Health%20%26%20Spa%20Chiang%20Mai%20%28Ancient%20House%29&query_place_id=ChIJGV4FvZw62jARNmHqRY-PPyQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%89%EC%B9%B4%20%ED%97%AC%EC%8A%A4%20%EC%95%A4%20%EC%8A%A4%ED%8C%8C%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "치바 스파": {
+        photos: ["/images/chiang-mai/info/tourSpa/spa--ewyrja0.jpg"],
+        summary: "프라이빗하게 관리받을 수 있는 치앙마이 감성의 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["프라이빗한 개별 룸 운영", "치앙마이 특유의 감성적인 인테리어", "120분 코스 추천"],
+        tips: ["고와비로 할인 등을 활용해 예약하면 경제적임"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "4/2 ถนน หัสดิเสวี, Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Cheeva%20Spa&query_place_id=ChIJcaa2GY462jAR1Wv-EwyRjA0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EB%B0%94%20%EC%8A%A4%ED%8C%8C%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "지라 스파": {
+        photos: ["/images/chiang-mai/info/tourSpa/spa-ulomat4e.jpg"],
+        summary: "시설, 실력, 서비스의 밸런스가 뛰어난 프리미엄 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["공항 샌딩 서비스 가능", "캐리어 보관 서비스 제공", "친절한 직원 서비스"],
+        tips: ["KKday 등을 통해 미리 예약하면 편리함"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "8, 1 Ratvithi Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Zira%20Spa&query_place_id=ChIJyyGI5aI62jARNyUulomat4E", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A7%80%EB%9D%BC%20%EC%8A%A4%ED%8C%8C%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오아시스 스파 란나": {
+        photos: ["/images/chiang-mai/info/tourSpa/oasis-spa-chiang-mai.jpg"],
+        summary: "올드타운과 님만해민 근처에서 만날 수 있는 고품격 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["픽업 및 공항 샌딩 서비스 제공", "가족 및 커플 여행객에게 인기", "고급스러운 분위기"],
+        tips: ["위치에 맞춰 올드타운점 또는 님만해민점 선택 가능"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "4 Samlarn Rd Old City Tambon Phra Sing, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Oasis%20Spa%20%28Lanna%2C%20Wat%20Prasing%29&query_place_id=ChIJsV6Ge5s62jAR7ibtBb29FeA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EB%9E%80%EB%82%98%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "헬스랜드 스파": {
+        photos: ["/images/chiang-mai/info/tourSpa/health-land-spa-chiang-mai.jpg"],
+        summary: "아이와 함께 방문하기 좋은 가족 친화적 고급 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["프라이빗 룸 운영", "쾌적하고 넓은 시설", "가족 단위 여행객에게 적합"],
+        tips: ["한 달 살기 등 장기 여행객들에게도 추천되는 곳"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "288, 55 Changklan Rd, Tambon Chang Khlan, อำเภอ เมือง, Chang Wat Chiang Mai 50100 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Health%20Land%20Chiang%20Mai&query_place_id=ChIJG8NTiEc72jARbmtmkD4ESyI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%97%AC%EC%8A%A4%EB%9E%9C%EB%93%9C%20%EC%8A%A4%ED%8C%8C%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파란나 스파": {
+        photos: ["/images/chiang-mai/info/tourSpa/spa-1iymwnvc.jpg"],
+        summary: "님만해민 지역에서 높은 만족도를 자랑하는 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["님만해민 위치", "전문적인 마사지 관리", "높은 재방문율"],
+        tips: ["인기가 많아 사전 예약이 필수적임"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "57, 57/1 Wiang Kaew Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%8C%8C%20%EB%9E%80%EB%82%98%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%98%AC%EB%93%9C%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJ6Te0WZc62jAR8zv1iYmwNvc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EB%9E%80%EB%82%98%20%EC%8A%A4%ED%8C%8C%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "DN Wellness": {
+        photos: ["/images/chiang-mai/info/tourSpa/dn-wellness-chiang-mai.jpg"],
+        summary: "귀국 전 일정으로 이용하기 좋은 님만해민의 마사지 샵",
+        updatedAt: "2026-07-20",
+        highlights: ["님만해민 위치", "캐리어 보관 서비스 제공", "귀국 전 휴식에 최적화"],
+        tips: ["여행 마지막 날 공항 가기 전 일정으로 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "95/42 Nimmanhaemin Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=DN%20Wellness%20Massage&query_place_id=ChIJj8ocFKsj2jARvSPGwzTISuQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=DN%20Wellness%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "NETNIMID MASSAGE": {
+        photos: ["/images/chiang-mai/info/tourSpa/netnimid-massage-chiang-mai.jpg"],
+        summary: "강한 압의 마사지를 선호하는 분들을 위한 스파",
+        updatedAt: "2026-07-20",
+        highlights: ["깔끔하고 쾌적한 시설", "압이 강한 전문적인 마사지", "시내 위치"],
+        tips: ["강력한 전신 마사지를 찾는 여행객에게 강력 추천"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "38/1 Rachadamnoen Rd Soi 1 Old City Tambon Si Phum, เมือง Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=NETNIMID%20MASSAGE&query_place_id=ChIJWbxGBv072jARnPWVe4IVC2Q", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=NETNIMID%20MASSAGE%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라차야마 마사지": {
+        photos: ["/images/chiang-mai/info/tourSpa/massage-b5blf6he.jpg"],
+        summary: "님만해민 근처에서 편하게 이용할 수 있는 마사지 샵",
+        updatedAt: "2026-07-20",
+        highlights: ["님만해민 지역 위치", "공항 이동 전 일정으로 적합", "주변 카페와 연계 가능"],
+        tips: ["근처 바트커피 등과 함께 방문하기 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "177/1 Ratchamanka Rd Old City Tambon Phra Sing, Muang, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Rachamaya%20Retreat%20Massage%20%26%20Spa&query_place_id=ChIJpZrQzKc72jARZqgB5Blf6hE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%B0%A8%EC%95%BC%EB%A7%88%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "치놀라 마사지": {
+        photos: ["/images/chiang-mai/info/tourSpa/massage-kc6ktfbi.jpg"],
+        summary: "올드타운에서 즐길 수 있는 알찬 마사지 샵",
+        updatedAt: "2026-07-20",
+        highlights: ["올드타운 위치", "여행 마무리 일정으로 적합", "호텔 체크아웃 후 이용 용이"],
+        tips: ["원님만 등 인근 호텔 투숙객에게 접근성 좋음"],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "179/2 Ratchamanka Rd Old City Tambon Phra Sing, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Chinola%20Massage&query_place_id=ChIJtShuP4M62jARvldkC6ktFBI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EB%86%80%EB%9D%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

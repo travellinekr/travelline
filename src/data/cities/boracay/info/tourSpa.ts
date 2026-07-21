@@ -175,6 +175,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A4%EC%A7%81+%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "벨라 이사 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-5rjrxwsg.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Casa Camilla Boat Station 3, White Beach Path, Angol Road, Boracay Island, Malay, Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Bella%20Isa%20Spa&query_place_id=ChIJ_____zw8pTMRkyE5RJrXWSg", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A8%EB%9D%BC%20%EC%9D%B4%EC%82%AC%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "만달라 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-zthipk7g.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Station 3, Boracay Island, Malay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Mandala%20Spa%20%26%20Resort%20Villas&query_place_id=ChIJh1UL2xc8pTMRd-YZTHiPk7g", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EB%8B%AC%EB%9D%BC%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "카이 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-uu0ofrow.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "PH, BORACAY Malay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=KABAYAN%20SPA%28%EC%B9%B4%EB%B0%94%EC%96%80%EC%8A%A4%ED%8C%8C%29%20MASSAGE&query_place_id=ChIJP3CNhXU9pTMRp5KUu0Ofrow", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%9D%B4%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "티르타 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-4ikqyyyo.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Barangay Manocmanoc, Malay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Tirta%20Spa%20Boracay&query_place_id=ChIJI6GBrIM-pTMROGD4IKqYYYo", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8B%B0%EB%A5%B4%ED%83%80%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "포세이돈 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-czmquesk.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "필리핀 어클란 말레이", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=POSEIDON%20SPA%20Waiting%20Area&query_place_id=ChIJcXzt0CI8pTMRSsMczMqueSk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8F%AC%EC%84%B8%EC%9D%B4%EB%8F%88%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "야사이 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-u_qahcdw.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Station 3 White Beach Path, Angol Boracay Island, Malay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%88%98%EB%9D%BC%EA%B8%B0&query_place_id=ChIJW-JvdZw-pTMRcqNu_QahcDw", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%BC%EC%82%AC%EC%9D%B4%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "화이트비치 마사지 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/massage-boracay-a3ztluii.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "2nd floor of, Borasky hotel, mainroad, Balabag, Malay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Emily%20Massage%20%26%20Spa%20Boracay&query_place_id=ChIJgxusNvg9pTMR-nZA3zTlUiI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B9%84%EC%B9%98%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "디몰 마사지 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/massage-boracay-7jyat1we.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "D Mall phase 4, Malay, Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=D%27Spa%20Boracay&query_place_id=ChIJb1upoiI8pTMRC1K7Jyat1wE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94%EB%AA%B0%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "헬리오스 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-vsc6x7zc.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Bantud, Manoc Manoc, Boracay, 5608 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8A%A4%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJEUZlAoM-pTMRS71Vsc6x7Zc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아리엘 스파 보라카이": {
+        photos: ["/images/boracay/info/tourSpa/spa-boracay-dhemekly.jpg"],
+        summary: "보라카이 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Batason, Buruanga, 5609 Aklan, 필리핀", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Ariel%27s%20Point&query_place_id=ChIJ-9AVGmpHpTMRs7BdHEmEklY", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%A6%AC%EC%97%98%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

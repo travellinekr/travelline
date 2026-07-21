@@ -265,6 +265,176 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%B0%EC%82%AC+%EB%8D%B0%EC%96%B4%EB%A6%AC+%ED%8C%9C+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "헬렌 뷰티 리플렉솔로지 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/kota-kinabalu-kota-kinabalu.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Warisan Square, Jln Tun Fuad Stephens, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Helen%20Beauty%20Reflexology%20Massage%20%26%20Spa&query_place_id=ChIJdz3vDhRpOzIRcfLq6tpge8w", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%97%AC%EB%A0%8C%20%EB%B7%B0%ED%8B%B0%20%EB%A6%AC%ED%94%8C%EB%A0%89%EC%86%94%EB%A1%9C%EC%A7%80%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "자스민 마사지 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/massage-kota-kinabalu-m7opc6ia.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Unit A-G-01, Block A (Ground Floor, Warisan Square, Jln Tun Fuad Stephens, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%9E%90%EC%8A%A4%EB%AF%BC%EB%A7%88%EC%82%AC%EC%A7%80&query_place_id=ChIJ9xSP1ZNpOzIRCA9m7opC6iA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9E%90%EC%8A%A4%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타이 오디세이 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/kota-kinabalu-kota-kinabalu.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "1-47/48, 1st Floor, KK Times Square, Imago Shopping Mall, Phase 2, Off Coastal Highway, 88100 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%83%80%EC%9D%B4%20%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4&query_place_id=ChIJYeGa7r9pOzIRWmlnDEVxRCM", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%EC%9D%B4%20%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "센스 스파 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/spa-kota-kinabalu-s_vzhtwa.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Unit A-1-13, Block A, First Floor, Warisan Square, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Sense%20Garden%20Reflexology%20%26%20Spa%20Centre%20%E6%B2%99%E5%BC%8F%E6%8C%89%E6%91%A9%20%EB%A7%88%EC%82%AC%EC%A7%80&query_place_id=ChIJO0lHrPxpOzIRi3gs_VZHtwA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%BC%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "만다라 스파 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/mandala-spa-kota-kinabalu-kota-kinabalu.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "LOT 4 1/F BLK C WARISAN SQUARE JLN TUN FUAD STEPHENS ,88000 KOTA KINABALU, SABAH 헬로마켓 2층 파라다이스 마사지, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=paradise%20massage%20%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4%20%EB%A7%88%EC%82%AC%EC%A7%80&query_place_id=ChIJmVk3_ZVrOzIRSHxPs0FDdxM", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EB%8B%A4%EB%9D%BC%20%EC%8A%A4%ED%8C%8C%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보르네오 스파 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/spa-kota-kinabalu-mklw8l-8.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Lot 9, 2nd Floor, Block B, Warisan Square, Jln Tun Fuad Stephens, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=New%20borneo%20family%20Reflexology&query_place_id=ChIJ4cy_q51pOzIRRkUmKlW8L-8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%A5%B4%EB%84%A4%EC%98%A4%20%EC%8A%A4%ED%8C%8C%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "와라산 스파 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/spa-kota-kinabalu-wuu4sy_i.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "A-3-17 , 3rd Floor, Jalan off coastal highway, Sutera Avenue, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Rama%20Rama%20Spa&query_place_id=ChIJ_wS2C7BpOzIRr1PwUu4sy_I", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%99%80%EB%9D%BC%EC%82%B0%20%EC%8A%A4%ED%8C%8C%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "KK 워터프론트 마사지": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/kk-massage-kota-kinabalu.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Warisan Square, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Outcall%20Massage%20Kota%20Kinabalu%20-%20Chillax&query_place_id=ChIJIVlTgdZpOzIROxKQBNaBqtA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=KK%20%EC%9B%8C%ED%84%B0%ED%94%84%EB%A1%A0%ED%8A%B8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "수트라하버 스파 코타키나발루": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/spa-kota-kinabalu-ezkra3j0.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Unit Nos. A-3-10, A-3-11, A-3A-11 Lot 10 and Lot 11, Block A, Level 3 and 4 Lorong Lebuh Sutera, Sutera Avenue, 88100 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Sea%20Spa%20%26%20Massage%20%28%EC%94%A8%EC%8A%A4%ED%8C%8C%20%EB%A7%88%EC%82%AC%EC%A7%80%29&query_place_id=ChIJ4fE_vl5pOzIR1jEEZKRa3j0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%88%98%ED%8A%B8%EB%9D%BC%ED%95%98%EB%B2%84%20%EC%8A%A4%ED%8C%8C%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코타키나발루 풋마사지": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/kota-kinabalu-footmassage-kota-kinabalu.jpg"],
+        summary: "코타키나발루 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Lot 3-32, 3rd floor car park, Star City 88000, Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Kama%27A%20Rejuvenation%20%26%20Wellbeing%20Spa&query_place_id=ChIJucDmv5ZpOzIRKCMolLf6qIc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%ED%92%8B%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

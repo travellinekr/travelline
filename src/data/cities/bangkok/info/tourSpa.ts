@@ -111,7 +111,7 @@ const info: Record<string, TourSpaInfo> = {
         ]
     },
     "렛츠 릴렉스 스파 통로": {
-        photos: ["/images/bangkok/info/tourSpa/let-s-relax-spa-thonglor-bangkok.jpg"],
+        photos: ["/images/bangkok/info/tourSpa/relax-spa-bangkok.jpg"],
         summary: "여행자 이용이 많은 방콕 스파 체인 지점입니다.",
         updatedAt: "2026-07-13",
         highlights: ["여행자 이용이 많은 방콕 스파 체인 지점입니다.", "평점 4.6", "방콕 여행 동선에 넣기 좋음"],
@@ -120,14 +120,167 @@ const info: Record<string, TourSpaInfo> = {
         duration: "1~2시간",
         price: "코스별 상이",
         reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
-        access: { area: "27 Soi Sukhumvit55, Thonglor, ถ. สุขุมวิท Klongton, เขตวัฒนา กรุงเทพมหานคร 10110 태국", note: "Google Maps 위치 기준" },
+        access: { area: "27 Soi Sukhumvit55, Thonglor, ถ. สุขุมวิท Klongton, เขตวัฒนา กรุงเทพมหานคร 10110 태국", note: "Google Place Details place_id 기반 좌표" },
         bestTime: "날씨와 운영 상황 확인 후 방문 권장",
         links: [
             { label: "공식 사이트", url: "https://letsrelaxspa.com/", type: "official", description: "공식/대표 링크" },
-            { label: "Google Maps", url: "https://maps.google.com/?cid=11704493004637818830", type: "guide", description: "지도에서 위치 보기" },
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Let%27s%20Relax%20Spa%20-%20Ginza%20Thonglor&query_place_id=ChIJXfVlTHOf4jARzk976V-2bqI", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%9B%EC%B8%A0+%EB%A6%B4%EB%A0%89%EC%8A%A4+%EC%8A%A4%ED%8C%8C+%ED%86%B5%EB%A1%9C+%EB%B0%A9%EC%BD%95+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "렛츠 릴렉스 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/lets-relax-spa-bangkok-bangkok.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "300 Soi Thong Lo, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%A0%9B%EC%B8%A0%EB%A6%B4%EB%9E%99%EC%8A%A4%20%EC%98%A8%EC%B2%9C%EA%B3%BC%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJx1Gw3Kyf4jARbN6fGLcSEyE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%9B%EC%B8%A0%20%EB%A6%B4%EB%A0%89%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "헬스랜드 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/health-land-spa-bangkok-bangkok.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "55, Sukhumvit 21 Soi 1, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%ED%97%AC%EC%8A%A4%EB%9E%9C%EB%93%9C%EC%95%84%EC%86%8D&query_place_id=ChIJNz1Q9OSe4jARTFpSkCWBabw", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%97%AC%EC%8A%A4%EB%9E%9C%EB%93%9C%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "디바나 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/spa-bangkok-z4y3ojwa.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "16, 15 Soi Somkid, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B0%94%EB%82%98%20%EC%84%BC%EC%B8%84%EC%95%84%EB%9D%BC%20%EC%8A%A4%ED%8C%8C&query_place_id=ChIJHbMoLP2e4jARUM_z4y3OjWA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94%EB%B0%94%EB%82%98%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오아시스 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/oasis-spa-bangkok-bangkok.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "64 Sukhumvit 31 Yaek 4, Khwaeng Khlong Tan Nuea, Watthana, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Oasis%20Spa%20%28Bangkok%2C%20Sukhumvit%2031%29&query_place_id=ChIJx_Ufxfue4jARAqAsjT-w07w", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "바와 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/spa-bangkok-mfv16_z8.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "34/1 Soi Sukhumvit 8, Khwaeng Khlong Toei, Khet Khlong Toei, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%99%80%EC%8A%A4%ED%8C%8C&query_place_id=ChIJr33MEgmf4jAR3hXmfv16_z8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EC%99%80%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "판퓨리 웰니스 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/bangkok-bangkok.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "12nd floor, Gaysorn Urban Resort, 127 Thanon Ratchadamri, Khwaeng Lumphini, Pathum Wan, Krung Thep Maha Nakhon 10330 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=PA%C3%91PURI%20WELLNESS%20Gaysorn%20Tower&query_place_id=ChIJ54pGWVKf4jARB9CilWy5VJc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%90%ED%93%A8%EB%A6%AC%20%EC%9B%B0%EB%8B%88%EC%8A%A4%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "어반 리트리트 스파 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/spa-bangkok-cguluzzu.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "348, 1 Sukhumvit Rd, Khwaeng Khlong Toei Nuea, Watthana, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Urban%20Retreat&query_place_id=ChIJC8cLAeOe4jARwoXcgulUZZU", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%96%B4%EB%B0%98%20%EB%A6%AC%ED%8A%B8%EB%A6%AC%ED%8A%B8%20%EC%8A%A4%ED%8C%8C%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아시아 허브 어소시에이션 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/bangkok-bangkok.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "Soi Sukhumvit 24, Klongton-Nua, Watthana, Krung Thep Maha Nakhon 10110 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%8B%9C%EC%95%84%20%ED%97%88%EB%B8%8C%20%EC%96%B4%EC%8F%98%EC%8B%9C%EC%97%90%EC%9D%B4%EC%85%98&query_place_id=ChIJOwsnQASf4jAR_no5JyVXV1s", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%8B%9C%EC%95%84%20%ED%97%88%EB%B8%8C%20%EC%96%B4%EC%86%8C%EC%8B%9C%EC%97%90%EC%9D%B4%EC%85%98%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "카오산 마사지 방콕": {
+        photos: ["/images/bangkok/info/tourSpa/massage-bangkok-4koogx2m.jpg"],
+        summary: "방콕 여행 후기에 자주 등장하는 마사지·스파 후보입니다.",
+        updatedAt: "2026-07-20",
+        highlights: ["네이버 후기에서 반복 언급", "Google Places 대표사진 확인", "예약 전 조건 확인 권장"],
+        tips: ["공항 픽업·샌딩·샤워 가능 여부를 예약 전 확인하세요.", "팁 포함 여부와 원하는 강도를 미리 말하는 편이 좋습니다."],
+        hours: "방문 전 예약처 확인 권장",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "공식 채널/예약처 또는 네이버 후기 링크로 최신 예약 조건 확인" },
+        access: { area: "110 Tani, Khwaeng Talat Yot, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200 태국", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "여행 마지막 날 또는 장거리 이동 전후",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Thailanta%20massage&query_place_id=ChIJkaeHwtqZ4jARDEo4kOOgx2M", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%98%A4%EC%82%B0%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;
