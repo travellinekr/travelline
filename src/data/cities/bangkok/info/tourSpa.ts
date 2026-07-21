@@ -280,6 +280,42 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Thailanta%20massage&query_place_id=ChIJkaeHwtqZ4jARDEo4kOOgx2M", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%98%A4%EC%82%B0%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EB%B0%A9%EC%BD%95%20%EB%B0%A9%EC%BD%95%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "매끌렁 철길시장": {
+        photos: ["/images/bangkok/info/tourSpa/maeklong-railway-market.jpg"],
+        summary: "철로 바로 옆에서 상인들이 장사를 하는 독특한 풍경을 볼 수 있는 신비로운 시장입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["기차 통과 시 펼쳐지는 놀라운 상점 정리 퍼포먼스", "신선한 해산물과 농산물을 직접 구경하는 재미"],
+        tips: ["기차 시간표를 미리 확인하고 방문해야 퍼포먼스를 놓치지 않습니다.", "방콕 시내에서 거리가 있으므로 투어 상품 이용을 추천합니다."],
+        warnings: [],
+        hours: "Monday: 7:00 AM – 4:00 PM; Tuesday: 7:00 AM – 4:00 PM",
+        duration: "1~2시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/투어 예약처 확인", note: "근교 투어는 이동 시간을 고려해 예약 권장" },
+        access: { area: "Mae Klong, Mueang Samut Songkhram District, Samut Songkhram 75000, Thailand", note: "Google Maps 위치 기준" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=13.4074289,99.9985032&query_place_id=ChIJ10pbl47T4jAR7qFFA1HY2Ds", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A4%EB%81%8C%EB%A0%81%20%EC%B2%A0%EA%B8%B8%EC%8B%9C%EC%9E%A5%20%EB%B0%A9%EC%BD%95%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "카오산로드": {
+        photos: ["/images/bangkok/info/tourSpa/khaosan-road.jpg"],
+        summary: "낮보다 밤이 더 화려한 곳으로, 활기찬 음악과 길거리 음식이 가득한 여행자의 중심지입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["길거리에서 즐기는 팟타이와 맥주 한 잔", "전 세계 여행자들과 교류할 수 있는 자유로운 분위기"],
+        tips: ["소음과 인파가 많으므로 소지품 관리에 유의하세요.", "마사지를 받고 휴식을 취하기에도 좋습니다."],
+        warnings: [],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "무료",
+        reservation: { required: false, method: "공식 사이트/투어 예약처 확인", note: "근교 투어는 이동 시간을 고려해 예약 권장" },
+        access: { area: "Thanon Khao San, Khwaeng Talat Yot, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200, Thailand", note: "Google Maps 위치 기준" },
+        bestTime: "오전 이른 시간 또는 해질녘 전후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=13.7589206,100.4972578&query_place_id=ChIJDR23yhKZ4jARdqd5AHsct0A", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%98%A4%EC%82%B0%EB%A1%9C%EB%93%9C%20%EB%B0%A9%EC%BD%95%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
     }
 };
 

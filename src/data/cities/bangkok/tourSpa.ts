@@ -273,6 +273,40 @@ const tourSpa: TourSpaData[] = [
         features: ["네이버 후기에서 반복 언급", "Google Place Details 좌표·대표사진 확인", "예약 전 픽업·샤워·팁 조건 확인 권장"],
         rating: 4.7,
         icon: "💆"
+    },
+    {
+        name: "매끌렁 철길시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Bangkok",
+        description: "기차가 지나갈 때 상점 천막이 접히는 이색적인 시장",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 13.4074289, lng: 99.9985032 },
+        reservationRequired: false,
+        openingHours: "Monday: 7:00 AM – 4:00 PM; Tuesday: 7:00 AM – 4:00 PM",
+        features: ["기차 통과 시 펼쳐지는 놀라운 상점 정리 퍼포먼스", "신선한 해산물과 농산물을 직접 구경하는 재미", "평점 4.5"],
+        rating: 4.5,
+        icon: "🚂"
+    },
+    {
+        name: "카오산로드",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Bangkok",
+        description: "전 세계 배낭여행자들의 성지",
+        duration: "1~3시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 13.7589206, lng: 100.4972578 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["길거리에서 즐기는 팟타이와 맥주 한 잔", "전 세계 여행자들과 교류할 수 있는 자유로운 분위기", "평점 4.2"],
+        rating: 4.2,
+        icon: "🌃"
     }
 ];
 

@@ -147,6 +147,36 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%8B%9C%EC%95%84%ED%8B%B0%ED%81%AC+%EB%8D%94+%EB%A6%AC%EB%B2%84%ED%94%84%EB%A1%A0%ED%8A%B8+%EB%B0%A9%EC%BD%95+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "담넌사두억 수상시장": {
+        photos: ["/images/bangkok/info/shopping/damnoen-saduak-floating-market.jpg"],
+        summary: "나룻배 위에서 다양한 먹거리와 기념품을 구매할 수 있는 방콕 근교의 대표적인 관광 명소입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["배 위에서 바로 맛보는 신선한 열대 과일", "태국 전통 분위기를 느낄 수 있는 수상 상점 구경"],
+        tips: ["이른 아침에 방문해야 가장 활기찬 모습을 볼 수 있습니다.", "흥정은 필수입니다."],
+        warnings: [],
+        taxRefund: { available: false, note: "시장·노점은 면세 적용이 어렵습니다." },
+        hours: "Monday: 7:00 AM – 1:00 PM; Tuesday: 7:00 AM – 1:00 PM",
+        payment: ["현금", "QR/카드 가능 여부 매장별 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=13.5201684,99.9586044&query_place_id=ChIJUR_9ybjX4jAR2-EHiTbQTlg", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%B4%EB%84%8C%EC%82%AC%EB%91%90%EC%96%B5%20%EC%88%98%EC%83%81%EC%8B%9C%EC%9E%A5%20%EB%B0%A9%EC%BD%95%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    },
+    "조드페어 야시장": {
+        photos: ["/images/bangkok/info/shopping/jodd-fairs-night-market.jpg"],
+        summary: "다양한 길거리 음식과 세련된 소품들을 만날 수 있는 방콕의 대표적인 밤 문화 명소입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["랭쌥 등 화려한 비주얼의 태국 로컬 푸드", "트렌디한 의류 및 액세서리 쇼핑"],
+        tips: ["저녁 시간대에는 인파가 매우 많으니 여유 있게 방문하세요.", "현금과 트래블로그/월렛 카드를 모두 준비하면 편리합니다."],
+        warnings: [],
+        taxRefund: { available: false, note: "시장·노점은 면세 적용이 어렵습니다." },
+        hours: "Monday: 5:00 PM – 1:00 AM; Tuesday: 5:00 PM – 1:00 AM",
+        payment: ["현금", "QR/카드 가능 여부 매장별 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=13.76792,100.5711979&query_place_id=ChIJk31AdLKf4jARXwt8iVGkqwI", type: "guide", description: "지도와 최근 리뷰 확인" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A1%B0%EB%93%9C%ED%8E%98%EC%96%B4%20%EC%95%BC%EC%8B%9C%EC%9E%A5%20%EB%B0%A9%EC%BD%95%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
+        ]
+    }
 };
 
 export default info;

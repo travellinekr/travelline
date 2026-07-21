@@ -1,0 +1,2734 @@
+[
+  {
+    "id": "bangkok-3n5d-solo-001",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 4,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hoff_/223826402692",
+      "title": "태국 방콕3박5일일정 자유여행 가볼만한곳 왕궁 야시장 투어",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-solo-002",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 9,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hyrin0208/224347524391",
+      "title": "혼자 방콕 3박5일 쇼핑리스트 마사지 수영",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-solo-003",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ruri0722/224137950806",
+      "title": "2025 태국 방콕 건기 4박 6일 자유여행 1일차",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-solo-004",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kmji955/224081681061",
+      "title": "방콕 자유여행 4박6일 일정 2일차 코스 추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-couple-005",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/messier1212/224311534208",
+      "title": "태국 방콕 여행 3박 5일 일정 가볼만한곳 쇼핑 리스트",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-couple-006",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ojirap1004/224233740293",
+      "title": "태국 여행 방콕 3박5일 일정 추천 송크란축제 2026 준비물",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-couple-007",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/eun_1160/224348893553",
+      "title": "방콕 특집 4박 6일 여행 스파이어 루프탑바 맛집",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-couple-008",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bahna2/223790554582",
+      "title": "태국 방콕 여행 파타야 4박6일 일정 코스 방콕 항공권 가격",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-family-009",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 8,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/nookytory/223960428052",
+      "title": "방콕 여행 코스 추천 3박5일 아이와 함께 가족여행 일정 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-family-010",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/obh1680/223895397399",
+      "title": "아이와 방콕 여행 3박5일 동선 및 예산 가족여행 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-family-011",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/saemyi0319/224206319304",
+      "title": "태국 방콕 4박6일 가족자유여행 일정추천 경비 왓아룬",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-family-012",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/harulog428/224153220778",
+      "title": "4박6일 일정 가족여행 방콕사파리 짜뚜짝 아이콘시암",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-family-013",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 10,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/4bubuss/224268745083",
+      "title": "방콕 여행 추천 3박 5일 가족여행 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-friends-014",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ojirap1004/224310026311",
+      "title": "방콕 자유여행 코스 3박5일 왕궁 왓아룬 카오산로드",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-3n5d-friends-015",
+    "city": "Bangkok",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짐 톰슨 하우스",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엠쿼티어",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시암 파라곤",
+            "category": "food",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시암 파라곤",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "렛츠 릴렉스 스파 방콕",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴월드",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/romantichs/223573427236",
+      "title": "태국 여행 방콕 3박5일 아이콘시암 카오산로드 왓포",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "bangkok-4n6d-friends-016",
+    "city": "Bangkok",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "방콕"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "수완나품/돈므앙 공항 도착",
+            "category": "flight",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "방콕 숙소 체크인",
+            "category": "hotel",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방콕 왕궁",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 포",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "왓 아룬",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "카오산로드",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "담넌사두억 수상시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "매끌렁 철길시장",
+            "category": "tourspa",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "조드페어 야시장",
+            "category": "shopping",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "짜뚜짝 주말시장",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "방콕"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "짜오프라야 프린세스 크루즈",
+            "category": "tourspa",
+            "area": "방콕"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "방콕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이콘시암",
+            "category": "shopping",
+            "area": "리버사이드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "수완나품/돈므앙 공항 출국",
+            "category": "flight",
+            "area": "방콕"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "방콕은 강변·시암·수쿰윗 동선을 나누면 이동 피로가 줄어듭니다.",
+      "사원 일정은 오전에, 쇼핑몰·마사지는 더운 오후에 배치하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dada-01/224062938402",
+      "title": "태국방콕여행 후기 4박 6일 자유여행 코스 쇼핑 맛집",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.8
+    }
+  }
+]

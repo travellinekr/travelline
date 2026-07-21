@@ -152,6 +152,36 @@ const shopping: ShoppingData[] = [
         features: ["야시장, 강변 식사, 기념품", "평점 4.4", "방콕 여행 동선에 넣기 좋음"],
         icon: "🌃"
     },
+    {
+        name: "담넌사두억 수상시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Bangkok",
+        coordinates: { lat: 13.5201684, lng: 99.9586044 },
+        category: "수상시장",
+        specialItems: "보트 투어, 로컬 간식, 기념품",
+        priceRange: "฿50~3,000+",
+        openingHours: "Monday: 7:00 AM – 1:00 PM; Tuesday: 7:00 AM – 1:00 PM",
+        taxRefund: false,
+        features: ["배 위에서 바로 맛보는 신선한 열대 과일", "태국 전통 분위기를 느낄 수 있는 수상 상점 구경", "평점 3.8"],
+        icon: "🛶"
+    },
+    {
+        name: "조드페어 야시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Bangkok",
+        coordinates: { lat: 13.76792, lng: 100.5711979 },
+        category: "야시장",
+        specialItems: "길거리 음식, 기념품, 야식",
+        priceRange: "฿50~2,000+",
+        openingHours: "Monday: 5:00 PM – 1:00 AM; Tuesday: 5:00 PM – 1:00 AM",
+        taxRefund: false,
+        features: ["랭쌥 등 화려한 비주얼의 태국 로컬 푸드", "트렌디한 의류 및 액세서리 쇼핑", "평점 4.2"],
+        icon: "🌃"
+    }
 ];
 
 export default shopping;
