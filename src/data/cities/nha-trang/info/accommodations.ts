@@ -335,6 +335,54 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%ED%83%80%EB%94%98+%EB%B2%A0%EC%9D%B4%ED%94%84%EB%A1%A0%ED%8A%B8+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "더웨스틴 리조트앤스파 깜란": {
+        photos: ["/images/nha-trang/info/accommodations/the-westin-resort-spa-cam-ranh.jpg"],
+        summary: "최고급 시설과 스파를 갖춘 완벽한 호캉스 명소",
+        updatedAt: "2026-07-21",
+        highlights: ["프라이빗 비치 접근성", "럭셔리 스파 서비스"],
+        tips: ["리조트 내 부대시설 이용 시 사전 예약 권장"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🏊", label: "수영장/피트니스", note: "시설별 운영 여부 확인" }, { icon: "🍽️", label: "조식/레스토랑", note: "상품별 상이" }],
+        location: { landmark: "Lot D14a Northern Peninsula, Ward, Cam Lâm, Khánh Hòa 650000, Vietnam", airport: "깜란공항 이동 시간은 교통상황별 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.0328933,109.212667", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94%EC%9B%A8%EC%8A%A4%ED%8B%B4%20%EB%A6%AC%EC%A1%B0%ED%8A%B8%EC%95%A4%EC%8A%A4%ED%8C%8C%20%EA%B9%9C%EB%9E%80%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "디셈버 호텔": {
+        photos: ["/images/nha-trang/info/accommodations/december-hotel-nha-trang.jpg"],
+        summary: "가성비와 청결함을 모두 잡은 여행객 추천 숙소",
+        updatedAt: "2026-07-21",
+        highlights: ["시내 중심가 위치", "현대적이고 쾌적한 객실"],
+        tips: ["주변 맛집과 카페 이동이 매우 편리함"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🏊", label: "수영장/피트니스", note: "시설별 운영 여부 확인" }, { icon: "🍽️", label: "조식/레스토랑", note: "상품별 상이" }],
+        location: { landmark: "289 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 650000, Vietnam", airport: "깜란공항 이동 시간은 교통상황별 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.232546,109.1951742", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94%EC%85%88%EB%B2%84%20%ED%98%B8%ED%85%94%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "아다마스 부티크 호텔": {
+        photos: ["/images/nha-trang/info/accommodations/adamas-boutique-hotel-nha-trang.jpg"],
+        summary: "높은 평점과 깔끔한 시설을 자랑하는 나트랑 숙소로, 도심 접근성이 뛰어난 고급스러운 휴식처입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["모던하고 세련된 객실 인테리어", "친절한 서비스와 높은 청결도"],
+        tips: ["주변 맛집과 이동하기 편리한 위치입니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🏊", label: "수영장/피트니스", note: "시설별 운영 여부 확인" }, { icon: "🍽️", label: "조식/레스토랑", note: "상품별 상이" }],
+        location: { landmark: "20A Trần Quang Khải, Phường, Nha Trang, Khánh Hòa 100000, Vietnam", airport: "깜란공항 이동 시간은 교통상황별 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2335651,109.1959629&query_place_id=ChIJv10Eza9ncDERzx38GIYx608", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%8B%A4%EB%A7%88%EC%8A%A4%20%EB%B6%80%ED%8B%B0%ED%81%AC%20%ED%98%B8%ED%85%94%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    }
 };
 
 export default info;

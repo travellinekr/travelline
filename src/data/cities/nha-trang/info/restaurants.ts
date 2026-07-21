@@ -499,6 +499,150 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%8C+%EC%8A%A4%EC%8B%9C+%EB%82%98%ED%8A%B8%EB%9E%91+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "짜오마오 씨푸드": {
+        photos: ["/images/nha-trang/info/restaurants/chao-mao-seafood-nha-trang.jpg"],
+        summary: "나트랑에서 꼭 가봐야 할 인기 해산물 레스토랑",
+        updatedAt: "2026-07-21",
+        highlights: ["신선한 제철 해산물 요리", "베트남 현지 분위기"],
+        tips: ["인기가 많아 저녁 시간대 예약 필수"],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "해산물 요리", items: [{ name: "대표 메뉴", price: "₫150,000~600,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 12:00 – 11:00 PM; Tuesday: 12:00 – 11:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2406793,109.1924411", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A7%9C%EC%98%A4%EB%A7%88%EC%98%A4%20%EC%94%A8%ED%91%B8%EB%93%9C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "냐벱": {
+        photos: ["/images/nha-trang/info/restaurants/nha-bep-nha-trang.jpg"],
+        summary: "깔끔하고 담백한 로컬 음식을 선호한다면 추천",
+        updatedAt: "2026-07-21",
+        highlights: ["정성 가득한 현지식 메뉴", "쾌적한 식사 환경"],
+        tips: ["가족 단위 여행객에게 특히 추천"],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "베트남 가정식", items: [{ name: "대표 메뉴", price: "₫80,000~300,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 11:00 AM – 10:30 PM; Tuesday: 11:00 AM – 10:30 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2417798,109.1917081", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%83%90%EB%B2%B1%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "라이씨푸드": {
+        photos: ["/images/nha-trang/info/restaurants/lai-seafood-nha-trang.jpg"],
+        summary: "현지 느낌 물씬 나는 가성비 해산물 전문점",
+        updatedAt: "2026-07-21",
+        highlights: ["신선도 높은 해산물", "부담 없는 가격대"],
+        tips: ["다양한 소스를 곁들여 드셔보세요"],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "해산물 요리", items: [{ name: "대표 메뉴", price: "₫150,000~700,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 3:00 – 10:00 PM; Tuesday: 3:00 – 10:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2341867,109.1947213", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9D%B4%EC%94%A8%ED%91%B8%EB%93%9C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "안키친": {
+        photos: ["/images/nha-trang/info/restaurants/an-kitchen-nha-trang.jpg"],
+        summary: "나트랑의 맛을 느낄 수 있는 깔끔한 레스토랑",
+        updatedAt: "2026-07-21",
+        highlights: ["다양한 베트남 메뉴", "깔끔하고 세련된 인테리어"],
+        tips: ["현지 식재료를 활용한 요리가 일품"],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "베트남 로컬 푸드", items: [{ name: "대표 메뉴", price: "₫80,000~300,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 11:00 AM – 10:00 PM; Tuesday: 11:00 AM – 10:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2417827,109.1914829", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%88%ED%82%A4%EC%B9%9C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "콩카페": {
+        photos: ["/images/nha-trang/info/restaurants/cong-caphe-nha-trang.jpg"],
+        summary: "코코넛 커피로 유명한 나트랑 필수 코스",
+        updatedAt: "2026-07-21",
+        highlights: ["시그니처 코코넛 커피", "빈티지한 베트남 분위기"],
+        tips: ["코코넛 스무디 커피는 꼭 주문하세요"],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "코코넛 커피", items: [{ name: "대표 메뉴", price: "₫40,000~150,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 7:30 AM – 11:00 PM; Tuesday: 7:30 AM – 11:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2382683,109.1937485", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%A9%EC%B9%B4%ED%8E%98%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "안토이 2호점": {
+        photos: ["/images/nha-trang/info/restaurants/an-toi-2-nha-trang.jpg"],
+        summary: "나트랑 여행객들에게 사랑받는 곳으로, 정갈하고 맛있는 베트남 전통 요리를 즐길 수 있습니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["깔끔한 현지식 메뉴 구성", "한국인 입맛에 잘 맞는 감칠맛"],
+        tips: ["피크 타임에는 웨이팅이 있을 수 있으니 미리 방문하세요."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "베트남 가정식 요리", items: [{ name: "대표 메뉴", price: "₫80,000~300,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 10:30 AM – 9:30 PM; Tuesday: 10:30 AM – 9:30 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2416163,109.19164&query_place_id=ChIJh4Bjsw1ncDER3mheVtJlHtA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%88%ED%86%A0%EC%9D%B4%202%ED%98%B8%EC%A0%90%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "CCCP 커피": {
+        photos: ["/images/nha-trang/info/restaurants/cccp-coffee-nha-trang.jpg"],
+        summary: "시원한 코코넛 스무디 커피로 유명한 나트랑의 대표적인 카페입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["중독성 있는 코코넛 커피", "여유로운 카페 분위기"],
+        tips: ["더운 낮 시간에 시원하게 휴식하기 좋습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "코코넛 스무디 커피", items: [{ name: "대표 메뉴", price: "₫40,000~150,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 6:00 AM – 11:00 PM; Tuesday: 6:00 AM – 11:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2400149,109.1921561&query_place_id=ChIJx5EjOw5ncDERCXpVpE-lRSI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=CCCP%20%EC%BB%A4%ED%94%BC%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "카페 제시": {
+        photos: ["/images/nha-trang/info/restaurants/cafe-jessie-nha-trang.jpg"],
+        summary: "다양한 생과일 메뉴와 달콤한 디저트로 힐링할 수 있는 공간입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["신선한 제철 과일 음료", "아기자기하고 깔끔한 분위기"],
+        tips: ["과일 주스 메뉴를 추천합니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "생과일 주스", items: [{ name: "대표 메뉴", price: "₫50,000~180,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 7:00 AM – 10:00 PM; Tuesday: 7:00 AM – 10:00 PM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2418473,109.191583&query_place_id=ChIJI96DayFncDERUDxdJFJl8MQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98%20%EC%A0%9C%EC%8B%9C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "케이하우스": {
+        photos: ["/images/nha-trang/info/restaurants/k-house-nha-trang.jpg"],
+        summary: "높은 평점을 자랑하는 곳으로, 정성 가득한 현지 요리를 맛볼 수 있습니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["검증된 맛과 높은 서비스 품질", "쾌적하고 고급스러운 식사 환경"],
+        tips: ["가족 단위 방문객에게도 추천합니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "베트남 로컬 요리", items: [{ name: "대표 메뉴", price: "₫100,000~350,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "Monday: 11:00 AM – 2:00 AM; Tuesday: 11:00 AM – 2:00 AM",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.23059,109.19912&query_place_id=ChIJTQBISo9ncDERyPcP3aY9kI4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BC%80%EC%9D%B4%ED%95%98%EC%9A%B0%EC%8A%A4%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    }
 };
 
 export default info;

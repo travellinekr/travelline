@@ -282,6 +282,48 @@ const accommodations: AccommodationData[] = [
         tags: ["비치프론트", "레지던스"],
         icon: "🏠"
     },
+    {
+        name: "더웨스틴 리조트앤스파 깜란",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        priceTier: "luxury",
+        city: "Nha Trang",
+        coordinates: { lat: 12.0328933, lng: 109.212667 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "깜란 해변의 럭셔리한 휴식을 선사하는 프리미엄 리조트",
+        tags: ["깜란", "리조트"],
+        icon: "🏖️"
+    },
+    {
+        name: "디셈버 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        priceTier: "value",
+        city: "Nha Trang",
+        coordinates: { lat: 12.232546, lng: 109.1951742 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "나트랑 시내 접근성이 뛰어난 깔끔한 호텔",
+        tags: ["시내", "가성비"],
+        icon: "🏨"
+    },
+    {
+        name: "아다마스 부티크 호텔",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        priceTier: "value",
+        city: "Nha Trang",
+        coordinates: { lat: 12.2335651, lng: 109.1959629 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "나트랑의 세련된 감성을 담은 프리미엄 부티크 호텔",
+        tags: ["시내", "부티크"],
+        icon: "🏨"
+    }
 ];
 
 export default accommodations;

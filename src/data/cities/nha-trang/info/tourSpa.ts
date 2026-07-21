@@ -402,6 +402,142 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?cid=7676973866910180906", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=100+%EC%97%90%EA%B7%B8+%EB%A8%B8%EB%93%9C%EC%98%A8%EC%B2%9C+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
+    },
+    "판랑 사막투어": {
+        photos: ["/images/nha-trang/info/tourSpa/phan-rang-sand-dunes-tour.jpg"],
+        summary: "나트랑 근교에서 즐기는 특별한 사막 경험",
+        updatedAt: "2026-07-21",
+        highlights: ["지프차 사막 탐험", "인생샷 명소"],
+        tips: ["강한 햇빛에 대비해 선크림과 모자 필수"],
+        hours: "Monday: Open 24 hours; Tuesday: Open 24 hours",
+        duration: "반나절~1일",
+        price: "상품별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "Thôn Tuấn Tú, Phước Dinh, Khánh Hòa, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=11.5087904,108.9971041", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%90%EB%9E%91%20%EC%82%AC%EB%A7%89%ED%88%AC%EC%96%B4%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "로얄살롱": {
+        photos: ["/images/nha-trang/info/tourSpa/royal-salon-nha-trang.jpg"],
+        summary: "전문적인 테라피로 힐링할 수 있는 마사지 샵",
+        updatedAt: "2026-07-21",
+        highlights: ["체계적인 마사지 프로그램", "편안한 휴식 공간"],
+        tips: ["원하는 시간대에 방문하려면 사전 예약 권장"],
+        hours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "4A Đ. Ng. Đức Kế, Nha Trang, Khánh Hòa 650000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2416878,109.1914417", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EC%96%84%EC%82%B4%EB%A1%B1%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "혼총곶": {
+        photos: ["/images/nha-trang/info/tourSpa/hon-chong-promontory-nha-trang.jpg"],
+        summary: "나트랑의 자연 경관을 한눈에 담는 문화 명소",
+        updatedAt: "2026-07-21",
+        highlights: ["웅장한 바위와 파도", "탁 트인 오션뷰"],
+        tips: ["일몰 시간대에 방문하면 더욱 아름다움"],
+        hours: "Monday: 6:00 AM – 6:00 PM; Tuesday: 6:00 AM – 6:00 PM",
+        duration: "1~2시간",
+        price: "입장권 확인",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "Bac NHA Trang, Khanh Hoa 650000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.27292,109.2064934", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%BC%EC%B4%9D%EA%B3%B6%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "아만 헤리티지 스파": {
+        photos: ["/images/nha-trang/info/tourSpa/aman-heritage-spa-nha-trang.jpg"],
+        summary: "나트랑에서 전문적인 테라피를 경험할 수 있는 고품격 스파 시설입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["전문적인 마사지 프로그램", "차분하고 고급스러운 분위기"],
+        tips: ["사전 예약 후 방문하는 것을 권장합니다."],
+        hours: "Monday: 10:00 AM – 10:00 PM; Tuesday: 10:00 AM – 10:00 PM",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "83 Tô Hiến Thành, Nha Trang, Khánh Hòa 65000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2387525,109.1924055&query_place_id=ChIJF2tkw87cXaYRex6nauPji3Y", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%A7%8C%20%ED%97%A4%EB%A6%AC%ED%8B%B0%EC%A7%80%20%EC%8A%A4%ED%8C%8C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "망고스파": {
+        photos: ["/images/nha-trang/info/tourSpa/mango-spa-nha-trang.jpg"],
+        summary: "마사지와 네일 케어를 동시에 즐길 수 있는 가성비 좋은 스파입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["깔끔한 마사지 서비스", "네일 아트 동시 이용 가능"],
+        tips: ["마사지 후 네일 서비스를 함께 예약하면 편리합니다."],
+        hours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "17 Tô Hiến Thành, Nha Trang, Khánh Hòa 650000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2414424,109.1923547&query_place_id=ChIJI14nh2dncDERM6knnm1NOgQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%9D%EA%B3%A0%EC%8A%A4%ED%8C%8C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "라운지 스파": {
+        photos: ["/images/nha-trang/info/tourSpa/lounge-spa-nha-trang.jpg"],
+        summary: "도심 속에서 여유롭게 피로를 풀 수 있는 깔끔한 스파 공간입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["아늑하고 편안한 분위기", "숙련된 테라피스트의 관리"],
+        tips: ["여행 중 쌓인 피로를 풀기에 적합합니다."],
+        hours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "73 Đ. Võ Trứ, Nha Trang, Khánh Hòa 650000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2413642,109.1916403&query_place_id=ChIJ2VlEwsNncDERYIBbqHiTMB8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EC%8A%A4%ED%8C%8C%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "로라 스파 & 낸시 네일": {
+        photos: ["/images/nha-trang/info/tourSpa/laura-spa-nancy-nail-nha-trang.jpg"],
+        summary: "정성스러운 마사지와 트렌디한 네일 서비스를 제공하는 곳입니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["꼼꼼한 스파 서비스", "감각적인 네일 디자인"],
+        tips: ["원하는 시간대에 맞춰 미리 예약하세요."],
+        hours: "Monday: 9:00 AM – 10:00 PM; Tuesday: 9:00 AM – 10:00 PM",
+        duration: "60~120분",
+        price: "코스별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "120C Trịnh Phong, Nha Trang, Khánh Hòa 650000, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.2381387,109.1913339&query_place_id=ChIJl3NcKOpncDERVOZ0v6Y3stw", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EB%9D%BC%20%EC%8A%A4%ED%8C%8C%20%26%20%EB%82%B8%EC%8B%9C%20%EB%84%A4%EC%9D%BC%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "소이비치": {
+        photos: ["/images/nha-trang/info/tourSpa/soi-beach-nha-trang.jpg"],
+        summary: "소이섬에서 다양한 해양 액티비티와 여유로운 해변 분위기를 만끽할 수 있습니다.",
+        updatedAt: "2026-07-21",
+        highlights: ["다채로운 워터 스포츠 체험", "아름다운 섬 풍경과 휴식"],
+        tips: ["물놀이 후 사용할 수건이나 여벌 옷을 준비하세요."],
+        hours: "Monday: 7:30 AM – 4:30 PM; Tuesday: 7:30 AM – 4:30 PM",
+        duration: "반나절",
+        price: "상품별 상이",
+        reservation: { required: true, method: "성수기·투어 상품은 사전 예약 권장" },
+        access: { area: "56VJ+5R, Nha Trang, Khanh Hoa, Vietnam", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=12.1929269,109.2320194&query_place_id=ChIJNRWQFKphcDERS23b1bQKsYU", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%8C%EC%9D%B4%EB%B9%84%EC%B9%98%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
     }
 };
 
