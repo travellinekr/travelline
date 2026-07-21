@@ -89,6 +89,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Bali": "https://commons.wikimedia.org/wiki/Special:FilePath/Bali_Pura_Lempuyang_Luhur.jpg?width=800",
     "Manado": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunaken_diving.jpg?width=800",
     "Cebu": "https://commons.wikimedia.org/wiki/Special:FilePath/Taoist_Temple,_Cebu.jpg?width=800",
+    "Bohol": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocolate_Hills_overview.JPG?width=800",
     "Chiang Mai": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang_Mai_View_from_Doi_Suthep.jpg?width=800",
     "Da Lat": "https://commons.wikimedia.org/wiki/Special:FilePath/Da_Lat_Flower_Park_01.jpg?width=800",
     "Phu Quoc": "https://commons.wikimedia.org/wiki/Special:FilePath/Phu_Quoc_beach.jpg?width=800",
@@ -98,6 +99,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Hanoi": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanoi_Opera_House_2021.jpg?width=800",
     "Ho Chi Minh": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho_Chi_Minh_City_Skyline_(night).jpg?width=800",
     "Siem Reap": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor_Wat_temple.jpg?width=800",
+    "Vientiane": "https://commons.wikimedia.org/wiki/Special:FilePath/Patuxai,_Vientiane,_Laos.jpg?width=800",
     "Krabi": "https://commons.wikimedia.org/wiki/Special:FilePath/Railay_Beach.jpg?width=800",
     "Kuala Lumpur": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuala_Lumpur_Skyline_at_dusk_1.jpg?width=800",
     "Boracay": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay_White_Beach.png?width=800",
@@ -320,6 +322,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 timezone: 8
             },
             {
+                name: "보홀",
+                engName: "Bohol",
+                country: "필리핀",
+                desc: "초콜릿힐과 발리카삭 호핑, 팡라오 휴양을 함께 즐기는 섬 여행지",
+                tags: ["호핑투어", "휴양"],
+                landmark: "Chocolate Hills",
+                airports: [{ name: "보홀 팡라오국제공항", code: "TAG" }],
+                timezone: 8
+            },
+            {
                 name: "치앙마이",
                 engName: "Chiang Mai",
                 country: "태국",
@@ -397,6 +409,16 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 tags: ["유적", "미식"],
                 landmark: "Angkor Wat",
                 airports: [{ name: "씨엠립 앙코르국제공항", code: "REP" }],
+                timezone: 7
+            },
+            {
+                name: "비엔티안",
+                engName: "Vientiane",
+                country: "라오스",
+                desc: "메콩강 야시장과 황금사원, 느긋한 카페 여행이 어울리는 라오스 수도",
+                tags: ["사원", "야시장"],
+                landmark: "Patuxay Monument",
+                airports: [{ name: "비엔티안 왓따이국제공항", code: "VTE" }],
                 timezone: 7
             },
             {

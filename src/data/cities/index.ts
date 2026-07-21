@@ -183,6 +183,12 @@ import cebuShopping from './cebu/shopping';
 import cebuTransport from './cebu/transport';
 import cebuTourSpa from './cebu/tourSpa';
 
+import boholAccommodations from './bohol/accommodations';
+import boholRestaurants from './bohol/restaurants';
+import boholShopping from './bohol/shopping';
+import boholTransport from './bohol/transport';
+import boholTourSpa from './bohol/tourSpa';
+
 import chiangmaiAccommodations from './chiang-mai/accommodations';
 import chiangmaiRestaurants from './chiang-mai/restaurants';
 import chiangmaiShopping from './chiang-mai/shopping';
@@ -230,6 +236,12 @@ import siemreapRestaurants from './siem-reap/restaurants';
 import siemreapShopping from './siem-reap/shopping';
 import siemreapTransport from './siem-reap/transport';
 import siemreapTourSpa from './siem-reap/tourSpa';
+
+import vientianeAccommodations from './vientiane/accommodations';
+import vientianeRestaurants from './vientiane/restaurants';
+import vientianeShopping from './vientiane/shopping';
+import vientianeTransport from './vientiane/transport';
+import vientianeTourSpa from './vientiane/tourSpa';
 
 import krabiAccommodations from './krabi/accommodations';
 import krabiRestaurants from './krabi/restaurants';
@@ -383,6 +395,13 @@ export const CITY_DATA: Record<string, CityBundle> = {
         transport: cebuTransport,
         tourSpa: cebuTourSpa,
     },
+    "Bohol": {
+        accommodations: boholAccommodations,
+        restaurants: boholRestaurants,
+        shopping: boholShopping,
+        transport: boholTransport,
+        tourSpa: boholTourSpa,
+    },
     "Chiang Mai": {
         accommodations: chiangmaiAccommodations,
         restaurants: chiangmaiRestaurants,
@@ -438,6 +457,13 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: siemreapShopping,
         transport: siemreapTransport,
         tourSpa: siemreapTourSpa,
+    },
+    "Vientiane": {
+        accommodations: vientianeAccommodations,
+        restaurants: vientianeRestaurants,
+        shopping: vientianeShopping,
+        transport: vientianeTransport,
+        tourSpa: vientianeTourSpa,
     },
     "Krabi": {
         accommodations: krabiAccommodations,
