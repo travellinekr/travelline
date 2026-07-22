@@ -1,0 +1,3030 @@
+[
+  {
+    "id": "bali-3n5d-solo-001",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "우붓",
+      "액티비티",
+      "로컬맛집"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "더 스미냑 비치 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 핵심 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓 북부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "발리 스윙 우붓",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "남부 절벽과 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비치워크 쇼핑센터",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "누사페니다 데이 트립",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사페니다 섬 투어",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "켈링킹 비치",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마데스 와룽 스미냑",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "더 스미냑 비치 리조트 앤 스파",
+            "category": "hotel",
+            "area": "스미냑",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "남부·우붓·누사페니다 이동일은 차량투어로 묶는 편이 안전합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/trueloveu/224106904950",
+      "title": "인도네시아 발리 자유여행 3박5일 코스 경비까지",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-solo-002",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "휴양",
+      "카페",
+      "스파"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "포테이토 헤드 스위트 체크인",
+            "category": "hotel",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "스미냑 카페와 해변",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시스터필즈 스미냑",
+            "category": "food",
+            "area": "스미냑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스미냑 빌리지",
+            "category": "shopping",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라 루치올라",
+            "category": "food",
+            "area": "스미냑 해변"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "바디웍스 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 반나절",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 아트 마켓",
+            "category": "shopping",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클리어 카페 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "호텔 중심 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "포테이토 헤드 스위트 조식",
+            "category": "hotel",
+            "area": "스미냑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메라 푸티",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스미냑 해변 산책",
+            "category": "tourspa",
+            "area": "스미냑",
+            "note": "해변 산책"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "혼자 일정은 밤 이동을 줄이고 스미냑·우붓 중심으로 압축합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ddoddine/224333409184",
+      "title": "아이랑 발리여행 4박 6일 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-solo-003",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "우붓",
+      "화산",
+      "남부"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "마야 우붓 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 자연 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓 북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "띠르따 엠풀 사원",
+            "category": "tourspa",
+            "area": "탐팍시링"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "베벡 벵길 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "바투르와 낀따마니",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바투르산 일출 트레킹",
+            "category": "tourspa",
+            "area": "바투르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "낀따마니 화산 투어",
+            "category": "tourspa",
+            "area": "낀따마니"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "스미냑 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마야 우붓 리조트 앤 스파 체크아웃",
+            "category": "hotel",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스미냑 스퀘어",
+            "category": "shopping",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "너티 누리스 스미냑",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "남부 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비치워크 쇼핑센터",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "우붓 숙박 후 남부로 이동하면 새벽·장거리 동선을 분리할 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/eunjihello/224344514243",
+      "title": "발리 패키지여행 단독투어 4박6일 코스 일정 공유",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-solo-004",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 9,
+    "pace": "relaxed",
+    "themes": [
+      "사누르",
+      "우붓",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "콘래드 발리 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "사누르와 로컬 식사",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하디스 사누르",
+            "category": "shopping",
+            "area": "사누르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "와룽 막벵 사누르",
+            "category": "food",
+            "area": "사누르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 가볍게",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 전통 마사지",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이부 오카 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "누사두아 휴양",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리 조식",
+            "category": "hotel",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "누사두아 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "붐부 발리 누사두아",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "기념품 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디스커버리 쇼핑몰",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "선셋로드"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마시모 사누르",
+            "category": "food",
+            "area": "사누르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "여유 일정은 지역을 넓히기보다 누사두아·사누르·우붓으로 제한합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ay5870/224270942747",
+      "title": "발리 여행 준비 비용 우붓 스윙 4박 6일 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-couple-001",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "신혼여행",
+      "남부투어",
+      "스파"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "아야나 리조트 발리 짐바란 체크인",
+            "category": "hotel",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 스윙과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리 스윙 우붓",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "띠르따 엠풀 사원",
+            "category": "tourspa",
+            "area": "탐팍시링"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "로카보어 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "남부 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키식 씨푸드 바 앤 그릴",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "누사페니다 포토 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사페니다 섬 투어",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "켈링킹 비치",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메네가 카페 짐바란",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아야나 리조트 발리 짐바란",
+            "category": "hotel",
+            "area": "짐바란",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "커플·신혼여행은 선셋 식사와 스파를 마지막 밤에 배치하면 만족도가 높습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jeongwon84/224298850738",
+      "title": "발리 신혼여행 4박6일 남부투어 포함 일정 경비",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-couple-002",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "호캉스",
+      "선셋",
+      "미식"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "더 레기안 스미냑 체크인",
+            "category": "hotel",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "스미냑 호캉스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "더 레기안 스미냑 조식",
+            "category": "hotel",
+            "area": "스미냑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스미냑 빌리지",
+            "category": "shopping",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라 루치올라",
+            "category": "food",
+            "area": "스미냑 해변"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "바디웍스 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 아트 마켓",
+            "category": "shopping",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "따나롯 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "더 레기안 스미냑",
+            "category": "hotel",
+            "area": "스미냑",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "따나롯 사원",
+            "category": "tourspa",
+            "area": "따나롯"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메라 푸티",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "스미냑 숙박은 식당·스파·쇼핑 접근성이 좋아 짧은 커플 일정에 적합합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jeongwon84/224333145632",
+      "title": "발리 여행 비용 우붓투어 4박6일 패키지 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-couple-003",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "우붓",
+      "누사페니다",
+      "짐바란"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "알릴라 우붓 체크인",
+            "category": "hotel",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 북부",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓 북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "띠르따 엠풀 사원",
+            "category": "tourspa",
+            "area": "탐팍시링"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "베벡 벵길 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 ATV 체험",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아융강 래프팅",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클리어 카페 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "남부 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "알릴라 우붓 체크아웃",
+            "category": "hotel",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아야나 리조트 발리 짐바란 체크인",
+            "category": "hotel",
+            "area": "짐바란"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키식 씨푸드 바 앤 그릴",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "누사페니다와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사페니다 섬 투어",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "켈링킹 비치",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비치워크 쇼핑센터",
+            "category": "shopping",
+            "area": "꾸따"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "액티비티 2개를 하루에 묶을 때는 우붓 숙박 기준이 무리 없습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/muse36/224096475879",
+      "title": "발리여행지 가족여행 3박 5일 단독투어 추천 일정 시간",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-couple-004",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 10,
+    "pace": "relaxed",
+    "themes": [
+      "럭셔리",
+      "누사두아",
+      "스파"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "아푸르바 켐핀스키 발리 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아푸르바 켐핀스키 발리 조식",
+            "category": "hotel",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "누사두아 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "누사두아 비치 그릴",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 하루",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "발리 스윙 우붓",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "남부 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아푸르바 켐핀스키 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "쇼핑과 마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "몰 발리 갤러리아",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "붐부 발리 누사두아",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아푸르바 켐핀스키 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "누사두아 기반 일정은 이동이 긴 우붓·울루와뚜를 각각 하루씩 분리합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kongmistar/224079739223",
+      "title": "발리 가족여행 3박5일 일정표, 12월 겨울 해외여행지 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-family-001",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "아이동반",
+      "워터파크",
+      "누사페니다"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "콘래드 발리 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "워터파크와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터봄 발리",
+            "category": "tourspa",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "디스커버리 쇼핑몰",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마데스 와룽 스미냑",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 가족 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓 북부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "베벡 벵길 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "남부 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메네가 카페 짐바란",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "아이 동반은 워터봄·우붓·남부 선셋처럼 성격이 다른 날로 나누면 피로가 줄어듭니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/forblog1234/224086456260",
+      "title": "발리 가족여행 일정 추천 아이와 갈만한곳 3박5일 코스 숙소",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-family-002",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 1,
+    "pace": "relaxed",
+    "themes": [
+      "키즈",
+      "리조트",
+      "사누르"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "세인트 레지스 발리 리조트 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트와 사누르",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "세인트 레지스 발리 리조트 조식",
+            "category": "hotel",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하디스 사누르",
+            "category": "shopping",
+            "area": "사누르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마시모 사누르",
+            "category": "food",
+            "area": "사누르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 반나절",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 아트 마켓",
+            "category": "shopping",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이부 오카 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "물놀이와 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터봄 발리",
+            "category": "tourspa",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "세인트 레지스 발리 리조트",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "누사두아 비치 그릴",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사두아 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "가족 relaxed 일정은 숙소 수영장 시간을 일정표에 명시해 과밀을 막습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dydals1wj/224304039311",
+      "title": "발리 자유여행 4박6일 경비 명소 맛집 마사지 등 모음",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-family-003",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 2,
+    "pace": "packed",
+    "themes": [
+      "우붓",
+      "남부",
+      "액티비티"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "파드마 리조트 우붓 체크인",
+            "category": "hotel",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 자연",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "뜨갈랄랑 라이스 테라스",
+            "category": "tourspa",
+            "area": "우붓 북부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "베벡 벵길 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아융강 래프팅",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 전통 마사지",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "누사두아 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파드마 리조트 우붓 체크아웃",
+            "category": "hotel",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "콘래드 발리 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "붐부 발리 누사두아",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "꾸따와 울루와뚜",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터봄 발리",
+            "category": "tourspa",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "우붓 2박 후 누사두아 2박은 가족 여행의 대표적인 분할 숙박 패턴입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/wks0102/224350238425",
+      "title": "중년의 세 친구 첫 발리 자유여행 4박 6일 엿보기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-family-004",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "사누르",
+      "해변",
+      "문화"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "콘래드 발리 체크인",
+            "category": "hotel",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "누사두아 휴양",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리 조식",
+            "category": "hotel",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "누사두아 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "누사두아 비치 그릴",
+            "category": "food",
+            "area": "누사두아"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "사누르 산책",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하디스 사누르",
+            "category": "shopping",
+            "area": "사누르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "와룽 막벵 사누르",
+            "category": "food",
+            "area": "사누르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마시모 사누르",
+            "category": "food",
+            "area": "사누르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "우붓 문화",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 아트 마켓",
+            "category": "shopping",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클리어 카페 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "선셋 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "따나롯 사원",
+            "category": "tourspa",
+            "area": "따나롯"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키식 씨푸드 바 앤 그릴",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "콘래드 발리",
+            "category": "hotel",
+            "area": "누사두아",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "아이 동반 여유 일정은 바다·쇼핑·문화일을 분리합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/polaris876/224322499924",
+      "title": "발리 4박6일 자유여행 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-family-005",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "겨울방학",
+      "남부",
+      "우붓"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "림바 바이 아야나 발리 체크인",
+            "category": "hotel",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 인기 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "발리 스윙 우붓",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "베벡 벵길 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "워터봄과 꾸따",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터봄 발리",
+            "category": "tourspa",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비치워크 쇼핑센터",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마데스 와룽 스미냑",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "남부 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자 스파 발리",
+            "category": "tourspa",
+            "area": "누사두아"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메네가 카페 짐바란",
+            "category": "food",
+            "area": "짐바란"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아야나 리조트 발리 짐바란",
+            "category": "hotel",
+            "area": "짐바란",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "3박5일 가족 packed 일정은 이동시간을 고려해 누사페니다보다 남부·우붓 중심이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/forblog1234/224086456260",
+      "title": "발리 가족여행 일정 추천 아이와 갈만한곳 3박5일 코스 숙소",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-friends-001",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "친구여행",
+      "맛집",
+      "액티비티"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "W 발리 스미냑 체크인",
+            "category": "hotel",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "우붓 액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 ATV 체험",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아융강 래프팅",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "누사페니다",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사페니다 섬 투어",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "켈링킹 비치",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "모텔 멕시콜라",
+            "category": "food",
+            "area": "스미냑"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "꾸따와 울루와뚜",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비치워크 쇼핑센터",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구여행은 액티비티와 밤 식사 동선을 같은 권역으로 묶어야 이동 스트레스가 적습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yimsswon/224227777204",
+      "title": "발리 여행 코스 아야나 리조트 포함 4박6일 자유여행 패키지",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-3n5d-friends-002",
+    "city": "Bali",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "스미냑",
+      "쇼핑",
+      "스파"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "더 스미냑 비치 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "스미냑 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리볼버 에스프레소",
+            "category": "food",
+            "area": "스미냑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스미냑 빌리지",
+            "category": "shopping",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "스미냑 플리마켓",
+            "category": "shopping",
+            "area": "스미냑"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "모텔 멕시콜라",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 하루",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 원숭이 숲",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우붓 아트 마켓",
+            "category": "shopping",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이부 오카 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "마사지와 선셋",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "더 스미냑 비치 리조트 앤 스파",
+            "category": "hotel",
+            "area": "스미냑",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바디웍스 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "따나롯 사원",
+            "category": "tourspa",
+            "area": "따나롯"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따/선셋로드",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구 relaxed 일정은 쇼핑·스파 시간을 넉넉히 잡고 원거리 투어를 하루만 둡니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ay5870/224270942747",
+      "title": "발리 여행 준비 비용 우붓 스윙 4박 6일 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "bali-4n6d-friends-003",
+    "city": "Bali",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "우붓",
+      "짱구",
+      "남부"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "발리 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 도착",
+            "category": "flight",
+            "area": "덴파사르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "코모 우마 짱구 체크인",
+            "category": "hotel",
+            "area": "짱구"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "짱구 카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크레이트 카페 짱구",
+            "category": "food",
+            "area": "짱구"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러브 앵커 짱구",
+            "category": "shopping",
+            "area": "짱구"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메이슨 짱구",
+            "category": "food",
+            "area": "짱구"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "우붓 액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우붓 ATV 체험",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아융강 래프팅",
+            "category": "tourspa",
+            "area": "우붓"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후잔 로칼 우붓",
+            "category": "food",
+            "area": "우붓"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "누사페니다",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "누사페니다 섬 투어",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "켈링킹 비치",
+            "category": "tourspa",
+            "area": "누사페니다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바비굴링 팍 말렌",
+            "category": "food",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "남부 선셋과 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "몰 발리 갤러리아",
+            "category": "shopping",
+            "area": "꾸따"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "울루와뚜 사원",
+            "category": "tourspa",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱글핀 울루와투",
+            "category": "food",
+            "area": "울루와뚜"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "스프링 스파 발리",
+            "category": "tourspa",
+            "area": "스미냑"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크리스나 올레올레 선셋로드",
+            "category": "shopping",
+            "area": "꾸따",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "응우라라이 국제공항 출발",
+            "category": "flight",
+            "area": "덴파사르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "짱구 기반 친구 일정은 카페·쇼핑을 묶고 장거리 투어는 별도 일자로 둡니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/wks0102/224350238425",
+      "title": "중년의 세 친구 첫 발리 자유여행 4박 6일 엿보기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  }
+]

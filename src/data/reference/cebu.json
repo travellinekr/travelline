@@ -1,0 +1,2976 @@
+[
+  {
+    "id": "cebu-3n5d-solo-001",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "호핑",
+      "시티투어",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "퀘스트 호텔 세부 체크인",
+            "category": "hotel",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "시티투어와 전망",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카본 마켓",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "하우스 오브 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "막탄 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오아시스 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "오슬롭 데이투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "세부 파크레인 인터내셔널 호텔",
+            "category": "hotel",
+            "area": "세부시티",
+            "note": "호텔 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오슬롭·카와산은 새벽 출발이라 전날 세부시티 숙박이 편합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/projsh77/224310461284",
+      "title": "세부 자유여행 3박5일 일정 오슬롭 고래상어 호핑투어 시티투어",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-solo-002",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "세부시티",
+      "카페",
+      "스파"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "세다 아얄라 센터 세부 체크인",
+            "category": "hotel",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "세부시티 여유",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라 비에 파리지엔",
+            "category": "food",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "막탄 반나절",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "노아스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "쇼핑과 로컬푸드",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "SM 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "주부촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "세다 아얄라 센터 세부",
+            "category": "hotel",
+            "area": "세부시티",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "혼자 일정은 세부시티 기반으로 호핑 하루만 넣으면 이동 부담이 적습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lovelyon35/224345927671",
+      "title": "세부 여행 3박 5일 자유여행 투어 일정 가족여행 후기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-solo-003",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "오슬롭",
+      "모알보알",
+      "호핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "워터프론트 세부 시티 호텔 체크인",
+            "category": "hotel",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "오슬롭과 캐녀닝",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "모알보알 바다",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "모알보알 정어리떼 스노클링",
+            "category": "tourspa",
+            "area": "모알보알"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "막탄 이동",
+            "category": "transport",
+            "area": "모알보알 → 막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "막탄 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바안스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "시티투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "SM 씨사이드 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터프론트 세부 시티 호텔",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오슬롭·모알보알을 모두 넣는 일정은 packed로 분류합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/danzzak78/224303275832",
+      "title": "세부 여행 후기 3박5일 가족 자유여행 일정 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-solo-004",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 9,
+    "pace": "relaxed",
+    "themes": [
+      "막탄",
+      "휴양",
+      "쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "사보이 호텔 막탄 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "막탄 리조트 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사보이 호텔 막탄",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아일랜드 센트럴 막탄",
+            "category": "shopping",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑과 마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엘로 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "파롤라 씨뷰 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "세부시티 하루",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피라미드",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "막탄 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사보이 호텔 막탄",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반얀스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사보이 호텔 막탄",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "relaxed 일정은 막탄 체류를 길게 잡고 세부시티를 하루만 다녀옵니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hotlovly/224286150006",
+      "title": "세부 3박5일 자유여행 아이랑 가족여행 코스 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-couple-001",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "커플",
+      "호핑",
+      "야경"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "크림슨 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "막탄 호핑과 스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카라스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "오슬롭 데이투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "시티투어와 전망",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크림슨 리조트 앤 스파",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "커플 packed 일정은 호핑·오슬롭·야경을 각각 하루로 나눕니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hjk8427_/223815841874",
+      "title": "세부 자유여행 3박5일 일정 패키지 투어 후기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-couple-002",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "리조트",
+      "마사지",
+      "미식"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "쉐라톤 세부 막탄 리조트 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트와 막탄 맛집",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쉐라톤 세부 막탄 리조트 조식",
+            "category": "hotel",
+            "area": "막탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오아시스 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑 반나절",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쉐라톤 세부 막탄 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "쇼핑과 야경",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "트리쉐이드 스파",
+            "category": "tourspa",
+            "area": "막탄",
+            "note": "스파/마사지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "리조트 중심 커플 일정은 오슬롭을 빼고 호핑과 마사지에 집중합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rambo3/223942523139",
+      "title": "필리핀 세부 호핑투어 오슬롭 고래상어 등 4박 6일 일정 만들기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-couple-003",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "오슬롭",
+      "모알보알",
+      "호핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "두짓타니 막탄 세부 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "호핑과 스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "플라워트리 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "파롤라 씨뷰 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "오슬롭과 캐녀닝",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하우스 오브 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "모알보알",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "모알보알 정어리떼 스노클링",
+            "category": "tourspa",
+            "area": "모알보알"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "세부시티 이동",
+            "category": "transport",
+            "area": "모알보알 → 세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라 비에 파리지엔",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "쇼핑과 전망",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "SM 씨사이드 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시라오 가든",
+            "category": "tourspa",
+            "area": "세부시티 외곽"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "두짓타니 막탄 세부",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "남부 투어 2개와 호핑을 모두 넣으면 4박6일 이상이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/17_bom/224189298696",
+      "title": "세부 4박 6일 커플 여행 호핑투어 마사지 후기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-couple-004",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 10,
+    "pace": "relaxed",
+    "themes": [
+      "휴양",
+      "스파",
+      "쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "제이파크 아일랜드 리조트 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "워터파크 리조트 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "제이파크 아일랜드 리조트 조식",
+            "category": "hotel",
+            "area": "막탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "제이파크 아일랜드 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "세부시티 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피라미드",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "막탄 여유",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "제이파크 아일랜드 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바안스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "제이파크 아일랜드 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "제이파크·막탄 기반은 리조트 휴식과 호핑을 분리하면 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/coolestlove/224210375249",
+      "title": "세부 자유 여행 현실 예산 4박 6일 일정 추천 코스 총정리판",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-family-001",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "가족",
+      "호핑",
+      "시티투어"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "제이파크 아일랜드 리조트 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "단독 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엘스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "리조트 휴식과 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "제이파크 아일랜드 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아일랜드 센트럴 막탄",
+            "category": "shopping",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "세부시티 가족 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "SM 씨사이드 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "제이파크 아일랜드 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "아이 동반 3박5일은 호핑·리조트·시티투어를 하루씩 분리합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bmsm98/224353048839",
+      "title": "6월 세부 4박 6일 자유여행 코스 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-family-002",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 2,
+    "pace": "relaxed",
+    "themes": [
+      "리조트",
+      "키즈",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "플랜테이션 베이 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트 중심",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "플랜테이션 베이 리조트 앤 스파 조식",
+            "category": "hotel",
+            "area": "막탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "플랜테이션 베이 리조트 앤 스파",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑 반나절",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오아시스 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "가벼운 시티투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "플랜테이션 베이 리조트 앤 스파",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "가족 relaxed 일정은 오슬롭처럼 새벽 이동이 필요한 코스를 제외합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/wkwmd81/224315279669",
+      "title": "필리핀 세부여행 3박 5일 일정 가족여행 세부 호핑투어 추천 코스",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-family-003",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "가족",
+      "오슬롭",
+      "호핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "크림슨 리조트 앤 스파 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카라스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "오슬롭",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하우스 오브 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "리조트 회복일",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크림슨 리조트 앤 스파",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아일랜드 센트럴 막탄",
+            "category": "shopping",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "시티투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시라오 가든",
+            "category": "tourspa",
+            "area": "세부시티 외곽"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "크림슨 리조트 앤 스파",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "가족 packed 일정에서도 오슬롭 다음 날은 리조트 회복일을 두는 편이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/plesure1014/224337927470",
+      "title": "세부여행 단독 호핑투어 패키지 가족여행 일정 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-family-004",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "휴양",
+      "쇼핑",
+      "호핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "쉐라톤 세부 막탄 리조트 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "리조트 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쉐라톤 세부 막탄 리조트 조식",
+            "category": "hotel",
+            "area": "막탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쉐라톤 세부 막탄 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "파롤라 씨뷰 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "단독 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "플라워트리 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "세부시티 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "SM 씨사이드 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "막탄 여유",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쉐라톤 세부 막탄 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "노아스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쉐라톤 세부 막탄 리조트",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "4박6일 가족 relaxed 일정은 리조트 기반으로 하루 한 권역만 이동합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bonniegets/224291623098",
+      "title": "세부 여행 3박 5일 샹그릴라 리조트 가족여행 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-family-005",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "겨울방학",
+      "호핑",
+      "전망"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "두짓타니 막탄 세부 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "호핑과 마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엘로 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "오슬롭 또는 리조트 선택형",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "시티투어와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "두짓타니 막탄 세부",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "리조트 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "3박5일 packed 가족 일정은 컨디션에 따라 오슬롭 대신 리조트 휴식으로 조정 가능합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/aslsh2013/224350915231",
+      "title": "세부 가족 여행 3박 숙소부터 호핑투어까지",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-friends-001",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "친구여행",
+      "호핑",
+      "맛집"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "바이 호텔 세부 체크인",
+            "category": "hotel",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "오슬롭과 캐녀닝",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "리코스 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호핑과 막탄 맛집",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "노아스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "쇼핑과 전망",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "SM 씨사이드 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시라오 가든",
+            "category": "tourspa",
+            "area": "세부시티 외곽"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티",
+            "note": "출국 전 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구 packed 일정은 오슬롭·호핑·시티투어를 모두 넣되 밤 비행 전 쇼핑 시간을 둡니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hanke/223995771446",
+      "title": "세부 자유여행 4박 6일 여행코스 가족여행",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-3n5d-friends-002",
+    "city": "Cebu",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "막탄",
+      "스파",
+      "쇼핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "사보이 호텔 막탄 체크인",
+            "category": "hotel",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "막탄 호핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바안스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "골드망고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "세부시티 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카본 마켓",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피라미드",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "리조트 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사보이 호텔 막탄",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오아시스 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란타우 플로팅 네이티브 레스토랑",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "체크아웃과 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 센트럴 막탄",
+            "category": "shopping",
+            "area": "막탄",
+            "note": "출국 전 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아얄라 센터 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "친구 relaxed 일정은 새벽 투어를 제외하고 쇼핑·스파 시간을 넉넉히 둡니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ramrami__/224302420082",
+      "title": "세부 여행 경비 물가 3박5일 4박6일 자유여행 현실 예산",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "cebu-4n6d-friends-003",
+    "city": "Cebu",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "오슬롭",
+      "모알보알",
+      "호핑"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "세부 밤 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 도착",
+            "category": "flight",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "워터프론트 세부 시티 호텔 체크인",
+            "category": "hotel",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "오슬롭과 캐녀닝",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오슬롭 고래상어 투어",
+            "category": "tourspa",
+            "area": "오슬롭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카와산 폭포 캐녀닝",
+            "category": "tourspa",
+            "area": "바디안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하우스 오브 레촌",
+            "category": "food",
+            "area": "세부시티"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "모알보알",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "모알보알 정어리떼 스노클링",
+            "category": "tourspa",
+            "area": "모알보알"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "막탄 이동",
+            "category": "transport",
+            "area": "모알보알 → 막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리바고 그릴",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "막탄 호핑과 스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "날루수안 아일랜드 호핑",
+            "category": "tourspa",
+            "area": "막탄 해상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트리쉐이드 스파",
+            "category": "tourspa",
+            "area": "막탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "레드크랩 세부",
+            "category": "food",
+            "area": "막탄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "시티투어와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "산토니뇨 성당",
+            "category": "tourspa",
+            "area": "세부시티"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "SM 시티 세부",
+            "category": "shopping",
+            "area": "세부시티"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탑스 전망대",
+            "category": "tourspa",
+            "area": "부사이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "워터프론트 세부 시티 호텔",
+            "category": "hotel",
+            "area": "막탄",
+            "note": "숙소 내 휴식/조식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "막탄 세부 국제공항 출발",
+            "category": "flight",
+            "area": "막탄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오슬롭·모알보알·막탄 호핑을 모두 넣는 친구 일정은 4박6일 packed가 적합합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/coolestlove/224210375249",
+      "title": "세부 자유 여행 현실 예산 4박 6일 일정 추천 코스 총정리판",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  }
+]

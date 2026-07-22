@@ -1,0 +1,2537 @@
+[
+  {
+    "themes": [
+      "Nature & Waterfalls",
+      "Cafe Hopping",
+      "Night Market Food",
+      "French Colonial Architecture"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Arrival & City Introduction",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat City Center",
+            "category": "hotel",
+            "area": "City Center"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Lakes & Night Market Vibes",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "City Center"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Da Lat Cafe Tour",
+            "category": "tourspa",
+            "area": "City Center"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "Night Market Area"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Adventure & Architecture",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "Outskirts"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "City Center"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "Nature Peaks & Relaxation",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "랑비앙산",
+            "category": "tourspa",
+            "area": "Outskirts"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Cafe Hopping",
+            "category": "tourspa",
+            "area": "City Center"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "Local Dinner",
+            "category": "food",
+            "area": "City Center"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "Souvenirs & Departure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Brunch",
+            "category": "food",
+            "area": "City Center"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Souvenir Shopping",
+            "category": "shopping",
+            "area": "City Center"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "Airport Transfer",
+            "category": "transport",
+            "area": "Airport"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-3n5d-solo-001",
+    "companion": "solo",
+    "nights": 3,
+    "days": 5,
+    "pace": "packed",
+    "month": 1,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/mellowtriplog/224341885429",
+      "title": "달랏 3박 5일 자유여행 코스 카페 야시장 폭포",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "themes": [
+      "Relaxed Coastal & Highland Escape",
+      "Water Activities & Nature"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Arrival & Settling In",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Cam Ranh"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Hotel Check-in",
+            "category": "hotel",
+            "area": "Nha Trang/Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Island Hopping & Marine Adventure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang Islands"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Mud Bath Experience",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Da Lat Exploration & Leisure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat Sightseeing",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Local Food Experience",
+            "category": "food",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "사원과 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "랑팜 스토어 달랏",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-3n5d-solo-002",
+    "companion": "solo",
+    "nights": 3,
+    "days": 5,
+    "pace": "relaxed",
+    "month": 2,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rockbeertravel/224059297082",
+      "title": "베트남 나트랑 패키지 여행 달랏 3박5일 자유여행 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "id": "da-lat-4n6d-solo-003",
+    "city": "Da Lat",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 11,
+    "pace": "packed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "라달랏호텔 체크인",
+            "category": "hotel",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "달랏 랜드마크 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달лот"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쓰엉흐엉호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "텅룽덴카페",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "인생샷 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 천국의계단",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏야시장",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "반짠느엉 시식",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "자연과 미식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "두리안 맛보기",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "MZ계단 산책",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "여유로운 달랏 즐기기",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 시내 카페 투어",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "현지 기념품 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "여행 마무리 및 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chailos/224018363120",
+      "title": "달랏 4박 6일 패키지 라달랏호텔 달랏야시장 MZ계단",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "id": "da-lat-4n6d-solo-004",
+    "city": "Da Lat",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 12,
+    "pace": "relaxed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페",
+      "야시장"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "리엔호아 베이커리",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "폭포와 도심 명소",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라우가 라에",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 자연 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "랑비앙산",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텅룽덴 카페",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "사원과 차밭",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "꺼우닷 차밭",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 메모리쇼",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/saichino1/224097329368",
+      "title": "베트남 달랏 4박 6일 숲 호수 카페 야시장",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "da-lat-3n5d-couple-001",
+    "city": "Da Lat",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 시내 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "자연과 폭포 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 맛집",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 카페 거리",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장 재방문",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "여유로운 달랏 산책",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "죽림 선원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 바베큐",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "여행 마무리 및 출발",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 기념품 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/pinkyluv83/224336659147",
+      "title": "베트남 나트랑 달랏 여행 코스 3박 5일 단독 투어",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "themes": [
+      "Relaxed Couple Getaway",
+      "Private Guided Exploration",
+      "Scenic Mountain Landscapes"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Nha Trang Coastal Adventure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Coral Island (Hon Cor) & Mini Beach Hopping Tour",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Da Lat Scenic Escape",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Private Transfer to Da Lat",
+            "category": "transport",
+            "area": "Nha Trang to Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Da Lat Private Tour",
+            "category": "tourspa",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Leisure & Return",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat Local Exploration",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Da Lat to Nha Trang"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "사원과 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "랑팜 스토어 달랏",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-3n5d-couple-002",
+    "companion": "couple",
+    "nights": 3,
+    "days": 5,
+    "pace": "relaxed",
+    "month": 3,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/skli0612/224188574381",
+      "title": "베트남 나트랑 달랏 여행 3박 5일 일정 경비 준비물",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "themes": [
+      "Coastal Relaxation",
+      "Highland Nature",
+      "Cultural Heritage",
+      "Culinary Exploration"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Arrival & Coastal Settling",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Horizon Hotel Check-in",
+            "category": "hotel",
+            "area": "Nha Trang"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Nha Trang Exploration & Spa",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "I-Resort Mud Bath Spa",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Ot Hiem",
+            "category": "food",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "CCCP Coffee",
+            "category": "food",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "Dam Market & Long Son Pagoda",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "오후",
+            "name": "Louisana Brewhouse",
+            "category": "food",
+            "area": "Nha Trang Beach"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Transition to Da Lat",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Goc Hanoi Bun Cha",
+            "category": "food",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "Transfer to Da Lat",
+            "category": "transport",
+            "area": "Highlands"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "Da Lat Scenic Wonders",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Heaven's Stairs (Da Lat)",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "텅룽덴 카페",
+            "category": "food",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "사원과 차밭",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "꺼우닷 차밭",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 메모리쇼",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-4n6d-couple-003",
+    "companion": "couple",
+    "nights": 4,
+    "days": 6,
+    "pace": "packed",
+    "month": 7,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chailos/224042813342",
+      "title": "달랏 4박 6일 패키지 여행코스 가볼만한곳 일정공유",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "id": "da-lat-4n6d-couple-004",
+    "city": "Da Lat",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페",
+      "야시장"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "리엔호아 베이커리",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "폭포와 도심 명소",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라우가 라에",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 자연 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "랑비앙산",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텅룽덴 카페",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "사원과 차밭",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "꺼우닷 차밭",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 메모리쇼",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gks4155/223799023075",
+      "title": "나트랑 달랏 패키지여행 4박6일 마지막 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "themes": [
+      "Coastal Relaxation",
+      "Island Hopping",
+      "Cultural Exploration",
+      "Nature & Scenic Views"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Nha Trang Coastal Adventure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Hon Miu Island"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Mini Beach",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Da Lat Nature & Scenery",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Dalat Scenic Tour",
+            "category": "tourspa",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Final Exploration & Departure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "City Sightseeing",
+            "category": "tourspa",
+            "area": "Nha Trang/Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Airport Drop-off",
+            "category": "transport",
+            "area": "Nha Trang Airport"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "사원과 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "랑팜 스토어 달랏",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-3n5d-family-001",
+    "companion": "family",
+    "nights": 3,
+    "days": 5,
+    "pace": "packed",
+    "month": 1,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gftravel/224168038190",
+      "title": "베트남 나트랑 달랏 가족여행 3박5일 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "id": "da-lat-3n5d-family-002",
+    "city": "Da Lat",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 2,
+    "pace": "relaxed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 시내 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 도착",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "자연과 폭포 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "현지 식당",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 카페 투어",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 숙소",
+            "category": "hotel",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "꽃과 정원 산책",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 꽃 정원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바오다이 여름 별장",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 맛집",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "여행 마무리 및 이동",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "기념품 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나트랑으로 이동",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/art_de4/224339867556",
+      "title": "3박5일 나트랑 가족여행 달랏 가성비 패키지",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "id": "da-lat-4n6d-family-003",
+    "city": "Da Lat",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 공항 도착",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏 시내 호텔 체크인",
+            "category": "hotel",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "달랏 랜드마크 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달𝗹랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바오다이 황제 여름 별장",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "자연과 폭포 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "죽림 선원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지식 저녁 식사",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "호수와 카페 여유",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수 산책",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 감성 카페 투어",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 시내 맛집",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "꽃과 정원 나들이",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 꽃 정원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "로컬 식당",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "여행 마무리 및 출발",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "기념품 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동 및 출국",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/gks4155/223796056959",
+      "title": "나트랑달랏 패키지 4박6일 가족여행 3일차",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "id": "da-lat-4n6d-family-004",
+    "city": "Da Lat",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페",
+      "야시장"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "리엔호아 베이커리",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "폭포와 도심 명소",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라우가 라에",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 자연 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "랑비앙산",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텅룽덴 카페",
+            "category": "food",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "사원과 차밭",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "린푸옥 사원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "꺼우닷 차밭",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 메모리쇼",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/webtourlove/224070977469",
+      "title": "베트남 나트랑 가족여행 달랏 노옵션 패키지 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "da-lat-3n5d-family-005",
+    "city": "Da Lat",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 시내 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "자연과 폭포 체험",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 식당",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 카페 거리",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장 맛집",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "꽃과 정원 나들이",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 꽃 정원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바오다이 황제 여름 별장",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 바비큐 식당",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "마지막 여정 및 귀가",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 시장 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ongonee/223497656381",
+      "title": "나트랑 가족여행 코스 3박5일 아이와 달랏 패키지",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "themes": [
+      "Private Group Travel",
+      "Nha Trang & Da Lat Combo",
+      "Customized Itinerary"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Arrival & Nha Trang Base",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Airport Pickup & Transfer",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Nha Trang Highlights & Da Lat Transfer",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Hopping Tour",
+            "category": "tourspa",
+            "area": "Nha Trang Coast"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "Transfer to Da Lat",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Da Lat Exploration",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat Sightseeing",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Da Lat Local Attractions",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "Da Lat Wrap-up & Departure Prep",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat Sightseeing",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Final Da Lat Tour Stops",
+            "category": "tourspa",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "Departure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Airport Drop-off",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-3n5d-friends-001",
+    "companion": "friends",
+    "nights": 3,
+    "days": 5,
+    "pace": "packed",
+    "month": 3,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/art_de4/224246907734",
+      "title": "나트랑 달랏여행 3박5일 패키지 단독 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  },
+  {
+    "id": "da-lat-3n5d-friends-002",
+    "city": "Da Lat",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 11,
+    "pace": "relaxed",
+    "themes": [
+      "폭포",
+      "호수",
+      "카페"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "달랏 도착 및 시내 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "자연과 폭포 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다딴라 폭포",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "크레이지 하우스",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 맛집",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "호수와 카페 휴식",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쑤언흐엉 호수",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 카페 거리",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "달랏 야시장 재방문",
+            "category": "shopping",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "사원 및 정원 투어",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "죽림 선원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다랏 꽃 정원",
+            "category": "tourspa",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "현지 바베큐",
+            "category": "food",
+            "area": "달랏"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "마지막 여정 및 출발",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "달랏 기념품 쇼핑",
+            "category": "shopping",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youn_dh/224065654235",
+      "title": "나트랑 달랏 자유여행 코스 추천 3박5일 후기",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    }
+  },
+  {
+    "themes": [
+      "Premium Semi-Package",
+      "Relaxation & Healing",
+      "Adventure & Activity"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "Arrival & Nha Trang Exploration",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "달랏 기차역",
+            "category": "tourspa",
+            "area": "Nha Trang Islands"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "Healing & Relaxation",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Mud Bath Spa",
+            "category": "tourspa",
+            "area": "Nha Trang"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Free Time",
+            "category": "other",
+            "area": "Nha Trang"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "Transition to Da Lat",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Transfer to Da Lat",
+            "category": "transport",
+            "area": "Nha Trang to Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "랑비앙산",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "달랏 야시장",
+            "category": "shopping",
+            "area": "Da Lat Center"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "Da Lat Leisure & Culture",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Da Lat Sightseeing",
+            "category": "tourspa",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Free Time / Local Cafe Tour",
+            "category": "other",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "Final Exploration & Departure",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "Local Shopping",
+            "category": "shopping",
+            "area": "Da Lat"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Departure Preparation",
+            "category": "transport",
+            "area": "Da Lat"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "달랏"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "달랏"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "리엔크엉 국제공항 출발",
+            "category": "flight",
+            "area": "달랏"
+          }
+        ]
+      }
+    ],
+    "id": "da-lat-4n6d-friends-003",
+    "companion": "friends",
+    "nights": 4,
+    "days": 6,
+    "pace": "packed",
+    "month": 10,
+    "city": "Da Lat",
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dldlsgh9398/224338603876",
+      "title": "달랏 4박 6일 패키지 추천 야시장 자수박물관",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    },
+    "tips": [
+      "고원 도시라 아침·밤 기온차가 있어 겉옷을 준비하세요."
+    ]
+  }
+]

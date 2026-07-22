@@ -302,6 +302,21 @@ const restaurants: RestaurantData[] = [
         features: ["코스 요리", "평점 4.4", "치앙마이 여행 동선에 넣기 좋음"],
         icon: "🍽️"
     },
+    {
+        name: "단테와다",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cafe",
+        city: "Chiang Mai",
+        coordinates: { lat: 19.1232017, lng: 98.9420572 },
+        cuisine: "카페·테마파크",
+        specialty: "폭포 정원 카페·사진 명소",
+        priceRange: "฿100~500",
+        openingHours: "방문 전 운영시간 확인 권장",
+        reservation: false,
+        features: ["폭포 정원 포토스팟", "평점 4.5", "매림 근교 코스와 연계"],
+        icon: "🌿"
+    }
 ];
 
 export default restaurants;

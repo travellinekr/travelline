@@ -301,7 +301,21 @@ const restaurants: RestaurantData[] = [
         reservation: false,
         features: ["로컬 전골·구이", "평점 3.8", "달랏 여행 동선에 넣기 좋음"],
         icon: "🍲"
-    },
+    },    {
+        name: "텅룽덴 카페",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cafe",
+        city: "Da Lat",
+        coordinates: { lat: 11.9430292, lng: 108.4880973 },
+        cuisine: "카페·BBQ",
+        specialty: "카페·BBQ",
+        priceRange: "₫50,000~250,000",
+        openingHours: "방문 전 확인 권장",
+        reservation: false,
+        features: ["야경과 계곡 전망을 함께 즐기는 달랏 외곽 감성 카페 겸 BBQ 레스토랑입니다.", "평점 4.2", "달랏 여행 동선에 넣기 좋음"],
+        icon: "☕"
+    }
 ];
 
 export default restaurants;

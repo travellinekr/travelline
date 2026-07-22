@@ -293,6 +293,24 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Chinola%20Massage&query_place_id=ChIJtShuP4M62jARvldkC6ktFBI", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EB%86%80%EB%9D%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "반캉왓": {
+        photos: ["/images/chiang-mai/info/tourSpa/baan-kang-wat-chiang-mai.jpg"],
+        summary: "수공예 공방, 작은 갤러리, 카페가 모인 치앙마이 감성 예술 마을입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["공방·디자인숍 산책", "카페와 사진 스팟", "반나절 여유 코스"],
+        tips: ["더운 시간대는 카페 휴식과 묶어 방문하세요.", "일부 매장은 휴무가 다를 수 있어 운영 확인이 필요합니다."],
+        hours: "방문 전 운영시간 확인 권장",
+        duration: "1~2시간",
+        price: "입장 무료, 매장별 구매 별도",
+        reservation: { required: false, method: "별도 예약 불필요" },
+        access: { area: "191-197 ซอย วัดอุโมงค์ Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200, Thailand", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 늦게 또는 오후 카페 타임",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/Baankangwat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Baan%20Kang%20Wat&query_place_id=ChIJdxPPqzUx2jARn86GcuRsD1s", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%EC%BA%89%EC%99%93%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

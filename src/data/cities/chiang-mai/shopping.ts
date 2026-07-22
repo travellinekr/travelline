@@ -152,6 +152,21 @@ const shopping: ShoppingData[] = [
         features: ["식료품, 수입식품, 간식", "평점 4.6", "치앙마이 여행 동선에 넣기 좋음"],
         icon: "🛒"
     },
+    {
+        name: "찡짜이 마켓",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Chiang Mai",
+        coordinates: { lat: 18.8077462, lng: 98.9949123 },
+        category: "주말·로컬 마켓",
+        specialItems: "수공예품, 로컬 푸드, 빈티지 소품",
+        priceRange: "฿50~2,000+",
+        openingHours: "방문 전 운영시간 확인 권장",
+        taxRefund: false,
+        features: ["수공예품 쇼핑", "평점 4.4", "주말 오전 방문 추천"],
+        icon: "🛍️"
+    }
 ];
 
 export default shopping;

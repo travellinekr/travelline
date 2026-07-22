@@ -1,0 +1,2671 @@
+[
+  {
+    "id": "manado-3n5d-solo-001",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tripmates/224303187058",
+      "title": "마나도 여행 후기 3박5일 추천 일정 부나켄 호핑투어부터 토모혼까지",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "manado-3n5d-solo-002",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bian258/224276843373",
+      "title": "인도네시아 마나도 여행 3박 5일 일정 코스 자유여행 총정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "manado-4n6d-solo-003",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/seoyoojin96/224347657452",
+      "title": "마나도 4박 6일 자유여행 2인 총경비 정산",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "manado-4n6d-solo-004",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lgdeveloper/224278515963",
+      "title": "마나도 자유여행 완벽 가이드 2026 부나켄 다이빙 4박5일 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "manado-3n5d-couple-005",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tripmates/224303187058",
+      "title": "마나도 여행 후기 3박5일 추천 일정 부나켄 호핑투어부터 토모혼까지",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-couple-006",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/best_sleep/224330456455",
+      "title": "여행 3박5일 추천 일정 동선·예산 총정리 부나켄·토모혼",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-4n6d-couple-007",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ranomad/224099120311",
+      "title": "4박6일 마나도여행 직항타고 토모혼&부나켄 호핑투어 후기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-4n6d-couple-008",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/likez2/224343862028",
+      "title": "마나도 4박 6일 자유여행 원하는대로투어 NDC 리조트 호텔",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-family-009",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/challiya/224281377176",
+      "title": "인도네시아 마나도자유여행 3박5일 일정 코스 추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-family-010",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/challiya/224286010759",
+      "title": "마나도가족여행 루마알람 어드벤처 와루가 아이와 함께",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-4n6d-family-011",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/likez2/224343862028",
+      "title": "마나도 4박 6일 자유여행 NDC 리조트 호텔 가족여행",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-4n6d-family-012",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/99hi88/224348071326",
+      "title": "마나도 자유여행 4박 6일 NDC 리조트 가족여행 일정·비용",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-family-013",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/labbodang/224347413528",
+      "title": "마나도 3박5일 가족여행 총정리 항공권 숙소 토모혼 투어",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-friends-014",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hook_jjeong/224345793424",
+      "title": "프리다이빙 투어 후기 부나켄에서 보낸 3박 5일 힐링 여행",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-3n5d-friends-015",
+    "city": "Manado",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/live_in_clov/224341670225",
+      "title": "인도네시아 마나도 여행 항공권 자유여행 3박 5일 일정 경비",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "manado-4n6d-friends-016",
+    "city": "Manado",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "마나도"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로콘산",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리노우 호수",
+            "category": "tourspa",
+            "area": "토모혼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "토모혼 전통시장",
+            "category": "shopping",
+            "area": "토모혼"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "예수 축복상",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수카르노 브리지",
+            "category": "tourspa",
+            "area": "마나도 시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탕코코 자연보호구역",
+            "category": "tourspa",
+            "area": "탕코코"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "풀리산 비치",
+            "category": "tourspa",
+            "area": "북술라웨시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시티 엑스트라 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부나켄 섬",
+            "category": "tourspa",
+            "area": "부나켄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "실라덴 섬",
+            "category": "tourspa",
+            "area": "실라덴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "위사타 바하리 씨푸드",
+            "category": "food",
+            "area": "마나도"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "hotel",
+            "area": "마나도"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메가몰 마나도",
+            "category": "shopping",
+            "area": "마나도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "마나도 삼 라투랑이국제공항",
+            "category": "flight",
+            "area": "마나도"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마나도는 바다 투어와 토모혼·탕코코 근교 투어를 날별로 분리하세요.",
+      "부나켄 이동은 날씨와 보트 시간을 먼저 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/challiya/224311057478",
+      "title": "마나도여행 일정 코스 추천 비용 투어 3곳 정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]
