@@ -294,6 +294,125 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Spa%20massage%20%C4%91%C3%A0%20l%E1%BA%A1t%20Ngu%E1%BB%93n%20S%C3%A1ng%20-%20%EB%8B%AC%EB%9E%8F%20%EB%A7%88%EC%82%AC%EC%A7%80&query_place_id=ChIJA-b4rykTcTERx_uBQ-9FHYQ", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F%20%EC%8A%A4%ED%8C%8C%20%EB%8B%AC%EB%9E%8F%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "달랏 기차역": {
+        photos: ["/images/da-lat/info/tourSpa/dalat-railway-station-da-lat.jpg"],
+        summary: "프랑스풍 역사 건물과 빈티지 열차 포토존으로 유명한 달랏 대표 명소입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["Dalat Railway Station 기준 Google Places 검증", "평점 4.1", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1시간 내외",
+        price: "입장료 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "Quang Trung, Phường 9, Thành phố Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJjQ3XIBkTcTER3YL5ffLfru4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F%20%EA%B8%B0%EC%B0%A8%EC%97%AD%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "쑤언흐엉 호수": {
+        photos: ["/images/da-lat/info/tourSpa/xuan-huong-lake-da-lat.jpg"],
+        summary: "달랏 도심을 감싸는 호수 산책 코스로 카페·야시장 동선과 묶기 좋습니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["Xuan Huong Lake 기준 Google Places 검증", "평점 4.7", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "무료",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "Xuan Huong Lake, Lam Dong, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJL9Ajjd8ScTERNAPClxAZWEY", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%91%A4%EC%96%B8%ED%9D%90%EC%97%89%20%ED%98%B8%EC%88%98%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "달랏 메모리쇼": {
+        photos: ["/images/da-lat/info/tourSpa/dalat-memory-show-da-lat.jpg"],
+        summary: "달랏의 역사와 문화를 무대 연출로 보여주는 야간 공연 콘텐츠입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["달랏 메모리쇼 기준 Google Places 검증", "평점 4.5", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "티켓 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "1 Đ. Trần Quốc Toản, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJuUl1zH4TcTERyKAc4GoKEbI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%87%BC%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "달랏 꽃 정원": {
+        photos: ["/images/da-lat/info/tourSpa/dalat-flower-garden-da-lat.jpg"],
+        summary: "꽃의 도시 달랏 분위기를 가장 쉽게 느낄 수 있는 대형 정원 산책 코스입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["달랏 꽃밭 (꽃정원) 기준 Google Places 검증", "평점 4.2", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "입장료 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "02 Đ. Trần Nhân Tông, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJZ0qug8wTcTER0m4S0SZkp2I", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F%20%EA%BD%83%20%EC%A0%95%EC%9B%90%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "죽림 선원": {
+        photos: ["/images/da-lat/info/tourSpa/truc-lam-zen-monastery-da-lat.jpg"],
+        summary: "뚜옌럼 호수 인근의 선종 사원으로 케이블카·호수 코스와 함께 묶기 좋습니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["Truc Lam Zen Buddhist Temple 기준 Google Places 검증", "평점 4.6", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "무료 또는 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "WC3M+7MG, Trúc Lâm Yên Tử, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJkXq2pDgVcTERV-WGDk9NtRQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A3%BD%EB%A6%BC%20%EC%84%A0%EC%9B%90%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "달랏 클레이 터널": {
+        photos: ["/images/da-lat/info/tourSpa/clay-tunnel-da-lat.jpg"],
+        summary: "점토 조형물과 포토존이 이어지는 달랏 근교 테마 관광지입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["KDL Duong Ham Dieu Khac 기준 Google Places 검증", "평점 4.2", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "입장료 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "Thành phố Đà Lạt, Lâm Đồng 66000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJv2dGwzhrcTERWbixSfB_mD0", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F%20%ED%81%B4%EB%A0%88%EC%9D%B4%20%ED%84%B0%EB%84%90%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "바오다이 여름궁전": {
+        photos: ["/images/da-lat/info/tourSpa/bao-dai-summer-palace-da-lat.jpg"],
+        summary: "베트남 마지막 황제의 별장으로 달랏의 근대사와 건축을 함께 볼 수 있습니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["바오다이 황제 제 3궁 기준 Google Places 검증", "평점 4.2", "달랏 여행 동선에 넣기 좋음"],
+        tips: ["방문 전 운영시간과 휴무를 확인하세요.", "성수기·피크타임에는 대기 가능성이 있습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1시간 내외",
+        price: "입장료 현장 확인",
+        reservation: { required: false, method: "성수기·투어 상품은 사전 확인 권장" },
+        access: { area: "1 Đường Triệu Việt Vương, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJD6_GOjUTcTERT0qgP1esodo", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EC%98%A4%EB%8B%A4%EC%9D%B4%20%EC%97%AC%EB%A6%84%EA%B6%81%EC%A0%84%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
     }
 };
 

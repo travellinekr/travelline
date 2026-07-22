@@ -1,0 +1,2916 @@
+[
+  {
+    "id": "chiang-mai-3n5d-solo-001",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/5fiona/224054505359",
+      "title": "치앙마이 자유여행 코스 여자 혼자여행 3박5일 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-solo-002",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 2,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/castle_star/224280169122",
+      "title": "치앙마이 3박 5일 혼자 자유여행 일정",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-solo-003",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 11,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/travelra/223652544426",
+      "title": "치앙마이 혼자 여행 3박 5일 자유여행 일정 코스",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-solo-004",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 12,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/maum7b/223567454539",
+      "title": "치앙마이 혼자 여행 3박 5일 자유여행 코스",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-couple-001",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/qlrtmwjdfpdh4/224339291121",
+      "title": "치앙마이 3박5일 자유 커플여행 일정 2인 경비 총정리",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-couple-002",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 3,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/uni7741/224346466439",
+      "title": "태국 치앙마이 여행 패키지 3박5일 코스 투어 가볼만한곳",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-couple-003",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hewtbylvv/224263317156",
+      "title": "태국 치앙마이 여행 4박6일 도이수텝 올드타운 카페 가볼만한곳",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-couple-004",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/muse36/223574276957",
+      "title": "태국 치앙마이 4박6일 자유여행 야시장 올드타운 여행",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-family-001",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 1,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/danzzak78/224314445660",
+      "title": "치앙마이 여행 3박5일 일정 패키지여행 도이수텝 코끼리",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-family-002",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 2,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/skli0612/224157575269",
+      "title": "태국 치앙마이 여행 날씨 야시장 3박 5일 가족 단독 투어",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-family-003",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hn_bong/224267101982",
+      "title": "태국 치앙마이 패키지여행 올드타운 포함 4박6일 가족여행",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-4n6d-family-004",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 8,
+    "pace": "relaxed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "근교 감성 코스",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "자연/액티비티",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선데이 워킹 스트리트",
+            "category": "shopping",
+            "area": "올드타운"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hn_bong/224313769817",
+      "title": "태국 치앙마이 여행 가볼만한곳 올드타운 반캉왓",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-family-005",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 12,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hand4444/223912857753",
+      "title": "태국 치앙마이 가족여행 3박5일 패키지 여행사 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-friends-001",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 3,
+    "pace": "packed",
+    "themes": [
+      "사원",
+      "야시장",
+      "카페",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항 출발",
+            "category": "flight",
+            "area": "인천"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "공항 → 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "올드타운과 사원",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 체디루앙",
+            "category": "tourspa",
+            "area": "올드타운"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "도이수텝과 님만",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "카오소이 매싸이",
+            "category": "food",
+            "area": "님만"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "카페와 쇼핑",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "올드타운·님만·나이트바자 권역을 나눠 이동하면 동선이 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/uni7741/224284315063",
+      "title": "태국 치앙마이 패키지 3박5일 핫플 야시장 치앙마이 여행 코스",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.62
+    },
+    "_fallback": true
+  },
+  {
+    "id": "chiang-mai-3n5d-friends-002",
+    "city": "Chiang Mai",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 11,
+    "pace": "relaxed",
+    "themes": [
+      "친구여행",
+      "야시장",
+      "카페",
+      "쇼핑",
+      "도이수텝"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "치앙마이 도착과 숙소 체크인",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 국제공항 도착",
+            "category": "flight",
+            "area": "치앙마이",
+            "note": "인천 출발 후 치앙마이 도착"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "Peppery Hills Hotel",
+            "category": "hotel",
+            "area": "공항 인근",
+            "note": "공항 근처 숙소 체크인"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "카페·시장·나이트바자",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식 및 휴식",
+            "category": "other",
+            "area": "숙소"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Fuel Coffee",
+            "category": "food",
+            "area": "치앙마이",
+            "note": "친구 여행 카페 타임"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "nail.roomm",
+            "category": "tourspa",
+            "area": "치앙마이",
+            "note": "네일아트 체험"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "와로롯 시장",
+            "category": "shopping",
+            "area": "올드타운 동쪽",
+            "note": "과일과 로컬 간식 쇼핑"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자",
+            "note": "야시장 구경과 기념품 쇼핑"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "NETNIMID MASSAGE",
+            "category": "tourspa",
+            "area": "치앙마이",
+            "note": "야시장 후 발마사지"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "님만 쇼핑과 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 조식 및 휴식",
+            "category": "other",
+            "area": "숙소"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "청도이 로스트 치킨",
+            "category": "food",
+            "area": "님만",
+            "note": "까이양 점심"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "리스트레토",
+            "category": "food",
+            "area": "님만",
+            "note": "커피 타임"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "원 님만",
+            "category": "shopping",
+            "area": "님만",
+            "note": "쇼핑몰과 편집숍 구경"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "마야 라이프스타일 쇼핑센터",
+            "category": "shopping",
+            "area": "님만",
+            "note": "쇼핑과 휴식"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "Chiang Mai University Night Market",
+            "category": "shopping",
+            "area": "치앙마이 대학교 인근",
+            "note": "대학교 야시장 저녁과 간식"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "도이수텝과 근교 자연",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이수텝 사원",
+            "category": "tourspa",
+            "area": "도이수텝",
+            "note": "사원 방문과 전망 감상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림",
+            "note": "코끼리 보호 체험"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부",
+            "note": "감성 마을 산책과 카페"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "현지에서는 현금과 GLN(스캔 결제)을 주로 사용하세요. 신용카드는 거의 안 되는 곳이 많으니 트래블월렛 외에 80% 정도는 현금을 준비하는 것이 좋습니다.",
+      "바트가 부족할 경우를 대비해 한화 5만원권을 1~2장 챙겨가면 추가 환전 시 유용합니다.",
+      "스파 이용 시 오일 마사지를 원하지 않는다면 발마사지만 받는 것을 추천합니다 (건식은 아플 수 있음).",
+      "GLN 결제 시 가맹점이 아니면 오류가 발생할 수 있으니 주의하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rwg5410/223654874229",
+      "title": "태국 치앙마이 친구랑 자유여행 11월 4박6일 경비",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "chiang-mai-4n6d-friends-003",
+    "city": "Chiang Mai",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 10,
+    "pace": "packed",
+    "themes": [
+      "친구여행",
+      "자연",
+      "카페",
+      "야시장",
+      "마사지"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "코끼리 체험과 야시장",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "엘리펀트 네이처 파크",
+            "category": "tourspa",
+            "area": "매림",
+            "note": "코끼리 보호 체험"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "단테와다",
+            "category": "food",
+            "area": "매림",
+            "note": "폭포 정원형 카페 휴식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헬스랜드 스파",
+            "category": "tourspa",
+            "area": "치앙마이",
+            "note": "전통 마사지"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "더 하우스 바이 진저",
+            "category": "food",
+            "area": "올드타운",
+            "note": "친구 여행 저녁 식사"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "치앙마이 나이트 바자",
+            "category": "shopping",
+            "area": "나이트바자",
+            "note": "기념품 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "도이인타논과 핑강 저녁",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도이인타논 국립공원",
+            "category": "tourspa",
+            "area": "도이인타논",
+            "note": "국립공원·폭포·전망 코스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "리버사이드 바 앤 레스토랑",
+            "category": "food",
+            "area": "핑강",
+            "note": "강변 저녁 식사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "툭툭이 시내 투어",
+            "category": "transport",
+            "area": "올드타운",
+            "note": "툭툭으로 성곽과 올드타운 이동"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "와로롯 시장",
+            "category": "shopping",
+            "area": "올드타운 동쪽",
+            "note": "열대 과일과 로컬 시장 구경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "올드타운 맛집과 카페",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 프라싱",
+            "category": "tourspa",
+            "area": "올드타운",
+            "note": "올드타운 대표 사원"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우 카페",
+            "category": "food",
+            "area": "핑강",
+            "note": "카페와 브런치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "대시 레스토랑 앤 바",
+            "category": "food",
+            "area": "올드타운",
+            "note": "친구 여행 저녁 식사"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "사원·카페·마사지",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "블루 누들",
+            "category": "food",
+            "area": "올드타운",
+            "note": "현지식 면요리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "왓 프라탓 도이캄",
+            "category": "tourspa",
+            "area": "치앙마이 남서부",
+            "note": "황금 불상과 전망"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "No.39 Cafe",
+            "category": "food",
+            "area": "치앙마이 서부",
+            "note": "호수 배경 카페"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "반캉왓",
+            "category": "tourspa",
+            "area": "치앙마이 서부",
+            "note": "예술가 마을 산책"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "NETNIMID MASSAGE",
+            "category": "tourspa",
+            "area": "치앙마이",
+            "note": "발마사지"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "통템토",
+            "category": "food",
+            "area": "님만",
+            "note": "북부 태국식 저녁"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "여유 쇼핑과 스파",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "찡짜이 마켓",
+            "category": "shopping",
+            "area": "치앙마이",
+            "note": "로컬 마켓과 소품 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오아시스 스파 란나",
+            "category": "tourspa",
+            "area": "치앙마이",
+            "note": "마지막 저녁 스파"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "숙소 휴식",
+            "category": "other",
+            "area": "치앙마이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "숙소 → 공항"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "치앙마이 국제공항 출발",
+            "category": "flight",
+            "area": "치앙마이"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "10월은 우기 끝자락으로 스콜이 내릴 수 있으나 금방 맑아짐",
+      "프라이빗 차량과 가이드 투어를 이용하면 대기 없이 효율적인 동선 가능",
+      "코끼리 체험 시 동물 복지를 존중하는 보호소 형태의 프로그램을 추천"
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kongmistar/224014485940",
+      "title": "자유여행 4박6일 코스 태국 치앙마이 여행 맛집 카페 추천",
+      "collectedAt": "2026-07-22",
+      "reliability": 0.78
+    }
+  }
+]

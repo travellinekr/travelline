@@ -129,7 +129,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
       {/* 헤더 영역: 탭 + anchor 배너 (sticky로 묶음) */}
       <div className="sticky top-0 z-30 bg-white shrink-0 shadow-sm">
         {/* 2단 탭 필터 (정밀 높이 조정 100px) */}
-        <div className="flex flex-col border-b border-gray-200 w-full min-h-[100px] md:min-h-[100px] justify-center">
+        <div data-tour="inbox-tabs" className="flex flex-col border-b border-gray-200 w-full min-h-[100px] md:min-h-[100px] justify-center">
         {/* 1단 */}
         <div className="flex items-center px-4 pt-3 pb-1 md:pt-3 md:pb-1 gap-1.5 md:gap-2 overflow-x-auto no-scrollbar">
           {topTabs.map(renderTab)}
@@ -144,6 +144,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
               return (
                 <button
                   type="button"
+                  data-tour="shared-plan"
                   disabled={!canShare}
                   title={disabledTitle || undefined}
                   onClick={() => setShowSharedPlans((v) => !v)}
@@ -191,7 +192,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         )}
       </div>
 
-      <div className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">
+      <div data-tour="inbox-content" className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">
         <div className="flex flex-col px-3 pb-20">
 
           {showSharedPlans ? (
@@ -284,6 +285,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         <button
           type="button"
           onClick={onOpenAiPanel}
+          data-tour="ai"
           title="AI 플래너"
           aria-label="AI 플래너 열기"
           className="hidden md:flex absolute bottom-10 right-10 z-30 w-14 h-14 rounded-2xl items-center justify-center cursor-pointer active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"

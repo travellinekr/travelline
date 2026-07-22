@@ -146,6 +146,20 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A6%BC%ED%95%91+%EC%8A%88%ED%8D%BC%EB%A7%88%EC%BC%93+%EB%8B%98%EC%8B%9C%ED%8B%B0+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "찡짜이 마켓": {
+        photos: ["/images/chiang-mai/info/shopping/jing-jai-market-chiang-mai.jpg"],
+        summary: "수공예품, 로컬 푸드, 빈티지 소품을 둘러보기 좋은 치앙마이 로컬 마켓입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["수공예품·디자인 소품", "로컬 푸드와 간식", "주말 오전 산책 코스"],
+        tips: ["주말 오전에 가장 활기가 좋습니다.", "작은 현금을 준비하면 편합니다."],
+        taxRefund: { available: false, note: "시장형 매장이라 일반적으로 택스리펀드 대상이 아닙니다." },
+        hours: "방문 전 운영시간 확인 권장",
+        payment: ["현금", "일부 매장 카드/QR 가능 여부 확인"],
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&query_place_id=ChIJA4BmCAA72jARyJhdjYLGdtc", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B0%A1%EC%A7%9C%EC%9D%B4%20%EB%A7%88%EC%BC%93%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

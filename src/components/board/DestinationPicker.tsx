@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { ArrowLeft, MapPin } from "lucide-react";
 import { useDraggable } from "@dnd-kit/core";
 import { getCityImage } from "@/utils/cityImages";
@@ -143,11 +143,12 @@ const fetchUnsplashImage = async (city: CityData, month: number | null) => {
 };
 
 // Draggable City Card Component
-function DraggableCityCard({ city, imageUrl, insight, selectedMonth }: {
+function DraggableCityCard({ city, imageUrl, insight, selectedMonth, dataTour }: {
     city: CityData;
     imageUrl: string;
     insight: { type: string; text: string } | null;
     selectedMonth: number | null;
+    dataTour?: string;
 }) {
     const cardData = {
         id: `picker-${city.engName}`,
@@ -183,6 +184,7 @@ function DraggableCityCard({ city, imageUrl, insight, selectedMonth }: {
         <div
             ref={setNodeRef}
             style={style}
+            data-tour={dataTour}
             {...listeners}
             {...attributes}
             className="group bg-white hover:bg-slate-50 border border-gray-100 hover:border-emerald-500 flex items-center gap-0 relative touch-none select-none h-[72px] transition-all overflow-hidden w-full cursor-grab active:cursor-grabbing rounded-lg shadow-sm hover:shadow-md"
@@ -260,6 +262,54 @@ export function DestinationPicker({ onConfirm }: Props) {
             });
         }
     }, [selectedMonth, step, selectedRegion]);
+
+    // 온보딩 시연: 월 → (딜레이) → 지역 → (딜레이) → 도시카드 순으로 단계적으로 재생.
+    // 순식간에 넘어가지 않도록 각 단계 사이에 텀을 둔다.
+    const demoRunningRef = useRef(false);
+    const demoTimersRef = useRef<number[]>([]);
+    useEffect(() => {
+        const handler = () => {
+            if (demoRunningRef.current) return; // 이미 시연 중이면 무시(중복 발사 방지)
+            demoRunningRef.current = true;
+            // 0) 월 선택 화면부터
+            setCityImages({});
+            setSelectedMonth(null);
+            setSelectedRegion(null);
+            setStep("month");
+            // 1) 9월 선택 → 지역 화면
+            demoTimersRef.current.push(
+                window.setTimeout(() => {
+                    setSelectedMonth(9);
+                    setStep("region");
+                }, 900)
+            );
+            // 2) 동남아시아 선택 → 도시 카드 등장
+            demoTimersRef.current.push(
+                window.setTimeout(() => {
+                    setSelectedRegion("se_asia");
+                    setStep("city");
+                    demoRunningRef.current = false; // 재실행 가능하도록 해제
+                }, 2000)
+            );
+        };
+        // 온보딩 종료 시 초기(월 선택) 화면으로 되돌림
+        const reset = () => {
+            demoTimersRef.current.forEach(clearTimeout);
+            demoTimersRef.current = [];
+            demoRunningRef.current = false;
+            setSelectedMonth(null);
+            setSelectedRegion(null);
+            setCityImages({});
+            setStep("month");
+        };
+        window.addEventListener("travelline:onb-dest-demo", handler);
+        window.addEventListener("travelline:onb-dest-reset", reset);
+        return () => {
+            window.removeEventListener("travelline:onb-dest-demo", handler);
+            window.removeEventListener("travelline:onb-dest-reset", reset);
+            demoTimersRef.current.forEach(clearTimeout);
+        };
+    }, []);
 
     const handleMonthSelect = (month: number) => {
         setSelectedMonth(month);
@@ -369,7 +419,7 @@ export function DestinationPicker({ onConfirm }: Props) {
                     </div>
                 </div>
 
-                <div className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-20">
+                <div data-tour="destination-cards" className="flex-1 overflow-y-auto grid grid-cols-1 gap-3 pb-20">
                     {regionData.cities.map((city) => {
                         const insight = selectedMonth ? getCityInsight(city.name, selectedMonth) : null;
                         const imageUrl = cityImages[city.name] || FALLBACK_IMAGES[city.engName];
@@ -381,6 +431,7 @@ export function DestinationPicker({ onConfirm }: Props) {
                                 imageUrl={imageUrl}
                                 insight={insight}
                                 selectedMonth={selectedMonth}
+                                dataTour={city.engName.toLowerCase() === "bali" ? "destination-card-demo" : undefined}
                             />
                         );
                     })}

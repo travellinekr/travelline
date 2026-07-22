@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Nanum_Pen_Script } from "next/font/google";
 import Script from "next/script";
 import { Suspense } from "react";
 import { GlobalSessionWatcher } from "@/components/auth/GlobalSessionWatcher";
@@ -15,6 +15,15 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+// 온보딩 코치마크 손글씨체 (칠판 필기 느낌).
+// subsets 에 'korean' 이 타입에 없어 preload:false 로 두고 전체 글리프(한글 포함) 로드.
+const nanumPen = Nanum_Pen_Script({
+  variable: "--font-hand",
+  weight: "400",
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -37,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${nanumPen.variable} antialiased`}
         suppressHydrationWarning
       >
         <GlobalSessionWatcher />

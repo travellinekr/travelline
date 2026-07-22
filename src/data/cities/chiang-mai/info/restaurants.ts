@@ -337,6 +337,23 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A5%EC%8B%9C%EC%A0%A0+%EB%8B%A4%EC%9D%B4%EB%8B%9D%EB%A3%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "단테와다": {
+        photos: ["/images/chiang-mai/info/restaurants/dantewada-chiang-mai.jpg"],
+        summary: "매림 근교 동선에서 자주 묶이는 폭포 정원형 카페·테마 공간입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["폭포 정원 포토스팟", "가족·커플 근교 코스에 적합", "단테와다 카페 동선"],
+        tips: ["시내에서 거리가 있어 차량 이동 코스와 묶는 편이 좋습니다.", "사진 촬영 목적이면 밝은 시간대 방문이 좋습니다."],
+        reservation: { required: false, method: "단체 방문은 사전 확인 권장" },
+        menu: { signature: "카페·디저트·간단 식사", items: [{ name: "대표 메뉴", price: "฿100~500", note: "메뉴와 가격은 현장 기준 변동 가능" }] },
+        hours: "방문 전 운영시간 확인 권장",
+        waitTime: "주말·피크타임 혼잡 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/104346961421347/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Dantewada%20Chiang%20Mai&query_place_id=ChIJEf2-gm8R2jARBALXYKKmJUU", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A8%ED%85%8C%EC%99%80%EB%8B%A4%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

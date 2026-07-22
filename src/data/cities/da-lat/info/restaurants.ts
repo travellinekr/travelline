@@ -331,7 +331,22 @@ const info: Record<string, RestaurantInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?cid=15828614088724680640", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%BE%B8%EC%95%88%EC%95%88+%EA%BE%B8%EB%93%9D+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
-    },
+    },    "텅룽덴 카페": {
+        photos: ["/images/da-lat/info/restaurants/thung-lung-den-coffee-da-lat.jpg"],
+        summary: "야경과 계곡 전망을 함께 즐기는 달랏 외곽 감성 카페 겸 BBQ 레스토랑입니다.",
+        updatedAt: "2026-07-22",
+        highlights: ["Thung Lũng Đèn Coffee - BBQ 기준 Google Places 검증", "평점 4.2", "야경·카페 동선에 적합"],
+        tips: ["외곽 언덕길 이동이 있어 그랩/차량 이동을 권장합니다.", "저녁 피크타임에는 대기 가능성이 있습니다."],
+        reservation: { required: false, method: "성수기·단체 방문은 사전 확인 권장" },
+        menu: { signature: "카페·BBQ", items: [{ name: "대표 메뉴", price: "₫50,000~250,000", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "방문 전 확인 권장",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJxXeB6mgTcTERDLE2SDp-jxY", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%85%85%EB%A3%BD%EB%8D%B4%20%EC%B9%B4%ED%8E%98%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    }
 };
 
 export default info;

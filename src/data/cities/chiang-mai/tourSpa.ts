@@ -290,6 +290,23 @@ const tourSpa: TourSpaData[] = [
         features: ["올드타운 위치", "여행 마무리 일정으로 적합", "호텔 체크아웃 후 이용 용이"],
         rating: 4.8,
         icon: "💆"
+    },
+    {
+        name: "반캉왓",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Chiang Mai",
+        description: "수공예 공방과 카페를 함께 둘러보는 치앙마이 감성 예술 마을입니다.",
+        duration: "1~2시간",
+        priceRange: "입장 무료, 매장별 구매 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 18.7763256, lng: 98.9487285 },
+        reservationRequired: false,
+        openingHours: "방문 전 운영시간 확인 권장",
+        features: ["수공예 공방과 카페", "평점 4.5", "반나절 감성 산책 코스"],
+        rating: 4.5,
+        icon: "🎨"
     }
 ];
 
