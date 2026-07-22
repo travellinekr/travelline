@@ -87,6 +87,9 @@ const PICKER_DELETE_ZONES = [
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import { OnboardingTour, type OnboardingStep } from "@/components/onboarding/OnboardingTour";
+import { useOnboarding } from "@/hooks/useOnboarding";
+import { DESTINATION_DATA, FALLBACK_IMAGES } from "@/data/destinations";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 
@@ -121,7 +124,12 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
 
     // 권한 체크
-    const { canEdit, loading: roleLoading } = useRole(roomId);
+    const { canEdit, isOwner, loading: roleLoading } = useRole(roomId);
+
+    // 온보딩: "여행 계획을 만든 사람(소유자)이 처음 들어왔을 때"만 자동 노출.
+    //  "한 번 본 사람"은 useOnboarding 내부의 사용자 단위 seen 플래그로 관리.
+    const onboardingEnabled = !!columns && !!cards && isOwner;
+    const onboarding = useOnboarding({ enabled: onboardingEnabled });
 
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");
     const [projectTitle, setProjectTitle] = useState<string>(initialTitle);
@@ -154,6 +162,155 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         toggleInbox,
         getInboxSlideClass,
     } = useMobileInbox();
+
+    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity, createIntercityFlightPair, resetBoard } = useCardMutations();
+
+    // 여행지 필터 시연 트리거: 인박스 열고 여행지 탭으로 전환 + DestinationPicker 데모 이벤트 발사
+    const fireDestinationDemo = useCallback(() => {
+        setInboxState("open");
+        setActiveCategory("destination");
+        // 피커가 (재)마운트되어 리스너를 등록하기 전 발사되는 경우 대비 → 즉시 + 지연 재발사
+        const fire = () => window.dispatchEvent(new Event("travelline:onb-dest-demo"));
+        if (typeof window !== "undefined") {
+            fire();
+            setTimeout(fire, 380);
+        }
+    }, [setInboxState]);
+
+    // 온보딩 시연: 발리 카드를 최종여행지에 실제로 넣어 항공편/미리 일정 만들기 UI 를 노출.
+    //  (공유 스토리지에 쓰이므로 온보딩 종료 시 handleOnboardingFinish 에서 되돌림)
+    const createdDemoDestRef = useRef(false);
+    const placeDemoDestination = useCallback(() => {
+        setInboxState("closed"); // 모바일: 타임라인(항공편 섹션)이 보이도록 인박스 닫기
+        const destCol = (columns as any)?.get("destination-header");
+        if (destCol && destCol.cardIds.length > 0) return; // 이미 여행지가 있으면 건드리지 않음
+        const bali = DESTINATION_DATA.se_asia.cities.find((c) => c.engName === "Bali");
+        if (!bali) return;
+        createCardToColumn({
+            title: bali.name,
+            text: bali.name,
+            category: "destination",
+            type: "travel",
+            description: bali.desc,
+            date: "9월",
+            city: bali.engName.toLowerCase(),
+            month: 9,
+            timezone: bali.timezone,
+            airports: bali.airports,
+            imageUrl: FALLBACK_IMAGES[bali.engName],
+            targetColumnId: "destination-header",
+            targetIndex: 0,
+        });
+        createdDemoDestRef.current = true;
+    }, [columns, createCardToColumn, setInboxState]);
+
+    // 온보딩 종료(마지막 스텝 "다음" 또는 "그만 보기"):
+    //  - 인트로(최초 자동): 데모로 채워진 보드를 신규 상태로 완전 초기화
+    //  - 재시청(사용법 다시 보기): 실제 보드를 지우면 안 되므로, 데모로 넣은 여행지만 정리
+    const handleOnboardingFinish = useCallback(() => {
+        if (onboarding.isIntro()) {
+            resetBoard(); // 인트로: 데모로 채워진 보드를 신규 상태로 초기화 (seen 플래그는 onboarding.finish 가 저장)
+            createdDemoDestRef.current = false;
+        } else if (createdDemoDestRef.current) {
+            const destCol = (columns as any)?.get("destination-header");
+            const id = destCol?.cardIds?.[0];
+            if (id) removeCardFromTimeline({ cardId: id, sourceColumnId: "destination-header" });
+            createdDemoDestRef.current = false;
+        }
+        if (typeof window !== "undefined") window.dispatchEvent(new Event("travelline:onb-dest-reset"));
+        onboarding.finish();
+    }, [columns, removeCardFromTimeline, resetBoard, onboarding]);
+
+    // 온보딩 코치마크 스텝 — 화면 폭(768px) 기준 모바일/데스크탑 분기.
+    //  (Fold 펼침 등 태블릿 폭은 데스크탑 시나리오로 처리됨 → OnboardingTour 내부 필터)
+    //  모바일 인박스 스텝은 onEnter 로 실제 인박스를 열고/닫아 보여준다.
+    const onboardingSteps = useMemo<OnboardingStep[]>(() => [
+        {
+            key: "timeline",
+            heading: "✏️ 사용 가이드 미리보기",
+            target: "day0",
+            placement: "top",
+            body: "여기가 여행 일정표!\n항공편만 넣으면\n날짜가 쫙 생겨요",
+        },
+        // 📱 모바일: 보관함(인박스) 열기 안내 → 다음 스텝에서 실제로 열어 보여줌
+        {
+            key: "inbox-toggle",
+            target: "inbox-toggle",
+            platform: "mobile",
+            placement: "left",
+            body: "여기 눌러서\n보관함 열기 👆",
+            onEnter: () => setInboxState("closed"),
+        },
+        {
+            key: "inbox-open-mobile",
+            target: "inbox-tabs",
+            platform: "mobile",
+            placement: "auto",
+            body: "숙소·맛집·쇼핑·교통...\n카테고리별 카드가 여기!",
+            onEnter: () => setInboxState("open"),
+        },
+        // 🖥 데스크탑: 오른쪽 인박스 카테고리 설명
+        {
+            key: "inbox-desktop",
+            target: "inbox-tabs",
+            platform: "desktop",
+            placement: "left",
+            body: "숙소·맛집·쇼핑·교통...\n카테고리별 카드가 여기!",
+        },
+        // 여행지 필터 시연: 9월 + 동남아시아 선택 → 여행지 카드 등장
+        // 🖥 데스크탑: 오른쪽 인박스에 카드 등장, 문구는 왼쪽에서 오른쪽 화살표
+        {
+            key: "destination-demo-desktop",
+            target: "inbox-content",
+            platform: "desktop",
+            placement: "left",
+            body: "여행 시기와 여행지 분류를\n선택하면 여행지 카드가 나와요",
+            onEnter: fireDestinationDemo,
+        },
+        // 📱 모바일: 전체화면 인박스 → 카테고리 메뉴는 딤, 문구는 위 / 화살표는 아래(카드 영역)로
+        {
+            key: "destination-demo-mobile",
+            target: "inbox-content",
+            platform: "mobile",
+            placement: "top",
+            body: "여행 시기와 여행지 분류를\n선택하면 여행지 카드가 나와요",
+            onEnter: fireDestinationDemo,
+        },
+        // 카드 하나(발리)를 짚어 넣는 방법 안내 — 플랫폼별 조작법이 달라 문구 분리
+        {
+            key: "card-demo-desktop",
+            target: "destination-card-demo",
+            platform: "desktop",
+            placement: "left",
+            body: "마음에 드는 카드를\n끌어서 여행 계획에 넣어요",
+        },
+        {
+            key: "card-demo-mobile",
+            target: "destination-card-demo",
+            platform: "mobile",
+            placement: "top",
+            body: "마음에 드는 카드를\n꾹 눌러 여행 계획에 넣어요",
+        },
+        // 여행지를 최종여행지에 넣은 뒤 → 항공편/미리 일정 만들기로 일정 생성 안내
+        {
+            key: "make-itinerary-desktop",
+            target: ["destination", "flight-section", "preplan"],
+            platform: "desktop",
+            placement: "right",
+            body: "항공편 또는 미리 일정 만들기로\n일정을 만드세요",
+            onEnter: placeDemoDestination,
+            cta: "이제 시작해볼까요? →",
+        },
+        {
+            key: "make-itinerary-mobile",
+            target: ["destination", "flight-section", "preplan"],
+            platform: "mobile",
+            placement: "bottom",
+            body: "항공편 또는 미리 일정 만들기로\n일정을 만드세요",
+            onEnter: placeDemoDestination,
+            cta: "이제 시작해볼까요? →",
+        },
+    ], [fireDestinationDemo, placeDemoDestination]);
     const {
         activeDay,
         setActiveDay,
@@ -201,8 +358,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // 도시간 항공편/이동 모달 청크 idle prefetch
     useModalPrefetch();
-
-    const { reorderCard, copyCardToTimeline, removeCardFromTimeline, moveCard, createCard, createCardToColumn, createIntercityFlightCard, removeIntercityFlightGroup, removeIntercityFlightChildren, createIntercityMoveCard, setCardTargetCity, createIntercityFlightPair } = useCardMutations();
 
     // 도시간 항공편 등록/수정/자식 정보 (state + handler + Context value 통합 hook)
     const {
@@ -1008,6 +1163,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
                                 <div
                                     ref={floatingBtnRef}
+                                    data-tour="ai"
                                     className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"
                                     onTouchStart={handleTouchStart}
                                     onTouchEnd={handleTouchEnd}
@@ -1052,7 +1208,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         <section className="w-full h-full md:w-1/2 md:h-full shrink-0 border-b md:border-b-0 md:border-r border-gray-200 bg-white relative flex flex-col scrollbar-trigger">
 
                                             {/* 🎯 Fixed Destination Header - No Scroll */}
-                                            <div className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
+                                            <div data-tour="destination" className="shrink-0 bg-white border-b border-gray-200 h-[100px]">
                                                 <Timeline columns={columns} cards={cards} addToast={addToast} sections={['destination-header']} canEdit={canEdit} roomId={roomId} projectTitle={projectTitle} />
                                             </div>
 
@@ -1071,6 +1227,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         {!activeDragItem && (
                                             <button
                                                 onClick={toggleInbox}
+                                                data-tour="inbox-toggle"
                                                 aria-label={inboxState === 'closed' ? '보관함 열기' : '보관함 닫기'}
                                                 className="md:hidden fixed right-0 top-[62%] -translate-y-1/2 z-[60] w-8 h-20 rounded-l-lg bg-emerald-500 text-white shadow-lg flex flex-col items-center justify-center gap-1 active:bg-emerald-600 transition-colors"
                                             >
@@ -1181,6 +1338,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 </div>
                             </div>
                         </div>
+                    )}
+
+                    {/* 온보딩 코치마크 (실제 UI 요소를 스포트라이트로 안내) */}
+                    {onboarding.active && (
+                        <OnboardingTour steps={onboardingSteps} onFinish={handleOnboardingFinish} />
                     )}
 
                     {/* 토스트 메시지들 */}

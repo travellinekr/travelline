@@ -210,7 +210,7 @@ function extractIATA(text: string): string | null {
   return null;
 }
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo, lodgingMarker = null }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo, lodgingMarker = null, dataTour }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
 
@@ -388,7 +388,7 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
   const defaultClass = "bg-white border-gray-200 border shadow-sm";
 
   return (
-    <div id={`${dayId}-section`} className="mb-6 scroll-mt-28">
+    <div id={`${dayId}-section`} data-tour={dataTour} className="mb-6 scroll-mt-28">
       {/* 헤더 영역 (날짜) */}
       <div className="flex items-center justify-between mb-2 px-1">
         <h3 className="font-bold text-lg text-slate-800 flex items-center gap-2">
@@ -617,7 +617,7 @@ export const Timeline = memo(function Timeline({
 
             {/* 항공편 섹션 */}
             {shouldRenderDays && destHeaderCards.length > 0 && (
-              <div id="flights-section">
+              <div id="flights-section" data-tour="flight-section">
                 <FlightSection
                   destinationCard={destHeaderCards[0] || null}
                   addToast={addToast}
@@ -633,11 +633,13 @@ export const Timeline = memo(function Timeline({
                 {/* 미리 일정 만들기 — 항공편 바로 아래 고정. 여행지 선택 + 항공편 미등록 시에만 노출(등록되면 사라짐).
                     반영 시 아래 day0/일차들이 생성/갱신된다. */}
                 {!flightInfo && canEdit && destHeaderCards.length > 0 && (
-                  <PrePlanControl
-                    currentDayCount={dayColumns.length}
-                    hasItineraryCards={dayColumns.some(d => d.cards.length > 0)}
-                    addToast={addToast}
-                  />
+                  <div data-tour="preplan">
+                    <PrePlanControl
+                      currentDayCount={dayColumns.length}
+                      hasItineraryCards={dayColumns.some(d => d.cards.length > 0)}
+                      addToast={addToast}
+                    />
+                  </div>
                 )}
 
                 <DaySection
@@ -648,6 +650,7 @@ export const Timeline = memo(function Timeline({
                   color="blue"
                   canEdit={canEdit}
                   onMapClick={handleMapClick}
+                  dataTour="day0"
                 />
 
                 {dayColumns.map(day => (

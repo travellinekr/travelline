@@ -3,7 +3,8 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw } from "lucide-react";
+import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw, HelpCircle } from "lucide-react";
+import { ONBOARDING_START_EVENT } from "@/hooks/useOnboarding";
 import { useOthers, useSelf, useBroadcastEvent, useEventListener } from "@/liveblocks.config";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
@@ -531,6 +532,17 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                             <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" /><line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
                         </svg>
                         공유하기
+                    </button>
+                    {/* 사용법 다시 보기 (온보딩 코치마크 재실행) */}
+                    <button
+                        onClick={() => {
+                            setOpen(false);
+                            window.dispatchEvent(new Event(ONBOARDING_START_EVENT));
+                        }}
+                        className="w-full flex items-center gap-2.5 px-4 py-2.5 text-sm text-slate-600 hover:text-emerald-600 hover:bg-emerald-50 transition-colors"
+                    >
+                        <HelpCircle className="w-4 h-4" />
+                        사용법 다시 보기
                     </button>
                     {/* 로그아웃 */}
                     <button

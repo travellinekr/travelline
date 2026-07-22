@@ -495,7 +495,44 @@ export function useCardMutations() {
         if (arrDayCol && arrCardData) insertOne(arrCardData, arrDayCol);
     }, []);
 
+    // 보드 전체 초기화 — 신규 보드(initialStorage) 상태로 되돌림.
+    //  (온보딩 인트로 종료 시 데모로 만든 여행지/항공편/일차/카드 등을 모두 정리)
+    const resetBoard = useMutation(({ storage }) => {
+        const columns = storage.get("columns") as any;
+        const cards = storage.get("cards") as any;
+        const columnOrder = storage.get("columnOrder") as any;
+
+        // 1) 모든 카드 삭제
+        Array.from(cards.keys()).forEach((k: any) => cards.delete(k));
+
+        // 2) 기본 5개 컬럼만 남기고(빈 상태로) 나머지(day1+, unconfirmed 등) 삭제
+        const BASE = ["destination-header", "destination-candidates", "flights", "day0", "inbox"];
+        const BASE_TITLE: Record<string, string> = {
+            "destination-header": "최종 여행지",
+            "destination-candidates": "여행지 후보",
+            "flights": "항공",
+            "day0": "0일차 (준비)",
+            "inbox": "보관함",
+        };
+        Array.from(columns.keys()).forEach((colId: any) => {
+            if (!BASE.includes(colId)) columns.delete(colId);
+        });
+        BASE.forEach((id) => {
+            const col = columns.get(id);
+            if (col) col.set("cardIds", new LiveList<string>([]));
+            else columns.set(id, new LiveObject({ id, title: BASE_TITLE[id], cardIds: new LiveList<string>([]) }));
+        });
+
+        // 3) columnOrder 를 기본 순서로 리셋
+        while (columnOrder.length > 0) columnOrder.delete(0);
+        BASE.forEach((id) => columnOrder.push(id));
+
+        // 4) 항공 정보 제거
+        storage.set("flightInfo", null);
+    }, []);
+
     return {
+        resetBoard,
         reorderCard,
         copyCardToTimeline,
         removeCardFromTimeline,
