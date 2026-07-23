@@ -344,7 +344,75 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Black%20%26%20White%20Beauty%20Salon%20%26%20Spa&query_place_id=ChIJ0aCGfwAvdTERbzMW0tZKsXQ", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%94%EC%9D%B4%ED%8A%B8%EC%8A%A4%ED%8C%8C%20%ED%98%B8%EC%B9%98%EB%AF%BC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "부이비엔 워킹 스트리트": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/bui-vien-walking-street.jpg"],
+        summary: "다양한 먹거리와 즐길 거리가 가득한 호치민 대표 야시장 거리",
+        updatedAt: "2026-07-23",
+        highlights: ["화려한 네온사인과 활기찬 거리 분위기", "다채로운 길거리 음식과 시원한 맥주 한 잔"],
+        tips: ["저녁 시간대에 방문해야 진정한 밤의 열기를 느낄 수 있습니다"],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "무료~개별 소비",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "Bùi Viện Phạm Ngũ Lão, phường, Bến Thành, Hồ Chí Minh, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%EB%B6%80%EC%9D%B4%EB%B9%84%EC%97%94%20%EC%9B%8C%ED%82%B9%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8&query_place_id=ChIJCdzLBRYvdTERpsMyNScNwPE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B6%80%EC%9D%B4%EB%B9%84%EC%97%94%20%EC%9B%8C%ED%82%B9%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "무이네 사막투어": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/mui-ne-sand-dunes-tour.jpg"],
+        summary: "사막의 일출과 일몰을 만끽하는 무이네 지프 투어 및 ATV 체험",
+        updatedAt: "2026-07-23",
+        highlights: ["ATV를 타고 달리는 스릴 넘치는 사막 주행", "지프차로 이동하며 즐기는 이색적인 사막 풍경", "오전과 저녁 시간대 맞춤형 투어 프로그램"],
+        tips: ["일출 또는 일몰 시간에 맞춰 예약하면 인생샷 가능"],
+        hours: "방문 전 확인 권장",
+        duration: "반일~1일",
+        price: "상품별 상이",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "79 Nguyễn Đình Chiểu, khu phố 1, Mũi Né, Lâm Đồng 670000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 또는 저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Mui%20Ne%20ATV%20Tour%20-%20Sand%20Dunes%20Jeep%20Tour%20%26%20Day%20Trips&query_place_id=ChIJlbCflwWFdjERY5dX19MSLaY", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%9D%B4%EB%84%A4%20%EC%82%AC%EB%A7%89%ED%88%AC%EC%96%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "사이공 리버크루즈": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/saigon-river-cruise.jpg"],
+        summary: "사이공 강의 화려한 저녁 풍경을 만끽할 수 있는 시티 투어 코스입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["반짝이는 호치민 야경 감상", "여유로운 강변 드라이브"],
+        tips: ["저녁 시간대 탑승 권장", "상품별로 이용 시간이 다르니 사전 확인 필수"],
+        hours: "방문 전 확인 권장",
+        duration: "45~90분",
+        price: "상품별 상이",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "10B Tôn Đức Thắng, Sài Gòn, Hồ Chí Minh 70000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Saigon%20River%20Sightseeing&query_place_id=ChIJxyDco-wE86ERnNXvPq9utjI", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EC%9D%B4%EA%B3%B5%20%EB%A6%AC%EB%B2%84%ED%81%AC%EB%A3%A8%EC%A6%88%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "메콩 델타 투어": {
+        photos: ["/images/ho-chi-minh/info/tourSpa/mekong-delta-tour.jpg"],
+        summary: "메콩 델타의 자연과 문화를 체험하는 반일~1일 코스 투어",
+        updatedAt: "2026-07-23",
+        highlights: ["메콩 델타의 이색적인 풍경 감상", "현지 문화와 자연을 즐기는 어드벤처"],
+        tips: ["오전 시간대를 활용해 알찬 일정 계획하기"],
+        hours: "방문 전 확인 권장",
+        duration: "반일~1일",
+        price: "상품별 상이",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "87 Ba Mươi Tháng Tư, Mỹ Tho, Đồng Tháp, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Mekong%20Tour%20%28Vietphong%20Mekong%29&query_place_id=ChIJ8357GnCvCjER47OmgoG3804", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A9%94%EC%BD%A9%20%EB%8D%B8%ED%83%80%20%ED%88%AC%EC%96%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

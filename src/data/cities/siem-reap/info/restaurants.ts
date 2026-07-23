@@ -253,6 +253,22 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%99%80%EC%9D%BC%EB%93%9C+%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%ED%8B%B0%EB%B8%8C+%EB%B0%94+%26+%EC%9D%B4%ED%84%B0%EB%A6%AC+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "더 레드 피아노": {
+        photos: ["/images/siem-reap/info/restaurants/the-red-piano.jpg"],
+        summary: "씨엠립의 분위기 좋은 레스토랑 더 레드 피아노",
+        updatedAt: "2026-07-23",
+        highlights: ["씨엠립 중심가 위치", "오후와 저녁 모두 어울리는 분위기"],
+        tips: ["저녁 시간 방문 추천"],
+        reservation: { required: false, method: "피크타임은 현장 대기 가능" },
+        menu: { signature: "씨엠립 현지 맛집", items: [{ name: "대표 메뉴", price: "$8~25", note: "메뉴와 가격은 변동 가능" }] },
+        hours: "방문 전 확인 권장",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%EB%A0%88%EB%93%9C%20%ED%94%BC%EC%95%84%EB%85%B8&query_place_id=ChIJIyEve2UXEDERmXDokRBFoPE", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94%20%EB%A0%88%EB%93%9C%20%ED%94%BC%EC%95%84%EB%85%B8%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

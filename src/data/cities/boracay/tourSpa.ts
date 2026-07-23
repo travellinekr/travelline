@@ -341,7 +341,24 @@ const tourSpa: TourSpaData[] = [
         features: ["네이버 후기에서 반복 언급", "Google Place Details 좌표·대표사진 확인", "예약 전 픽업·샤워·팁 조건 확인 권장"],
         rating: 4.7,
         icon: "💆"
-    }
+    },
+    {
+        name: "보라카이 선셋 세일링",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Boracay",
+        description: "화이트 비치의 아름다운 노을을 감상하며 즐기는 낭만적인 세일링 투어",
+        duration: "30~60분",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 11.952444, lng: 121.929614 },
+        reservationRequired: true,
+        openingHours: "해질 무렵 출항 상품 중심",
+        features: ["낭만적인 저녁 분위기", "화이트 비치 출발 코스"],
+        rating: 4.6,
+        icon: "Sail"
+    },
 ];
 
 export default tourSpa;

@@ -227,6 +227,21 @@ const restaurants: RestaurantData[] = [
         features: ["독창적인 메뉴 구성", "감각적인 칵테일"],
         icon: "🍹"
     },
+    {
+        name: "더 레드 피아노",
+        showInInbox: true,
+        hasInfo: true,
+        type: "fusion",
+        city: "Siem Reap",
+        coordinates: { lat: 13.3547202, lng: 103.8543302 },
+        cuisine: "크메르·인터내셔널",
+        specialty: "씨엠립 현지 맛집",
+        priceRange: "$8~25",
+        openingHours: "방문 전 확인 권장",
+        reservation: false,
+        features: ["편안한 식사 환경", "다양한 메뉴 구성"],
+        icon: "🍽️"
+    },
 ];
 
 export default restaurants;

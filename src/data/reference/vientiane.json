@@ -1,0 +1,1921 @@
+[
+  {
+    "id": "vientiane-3n5d-solo-001",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "비엔티안",
+      "solo",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 비엔티안 3박5일 자유여행 일정 관광지 추천",
+      "url": "https://blog.naver.com/doho0513/224312658526",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-solo-002",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 3박5일 자유여행 비엔티안 방비엥 일정",
+      "url": "https://blog.naver.com/aga2202/224200366495",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "남푸 분수",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-solo-001",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 자유여행 비엔티안 루앙프라방 4박6일 추천 코스",
+      "url": "https://blog.naver.com/rhksgn/224082435525",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-solo-002",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 여행 루앙프라방 방비엥 비엔티안 4박6일 자유여행",
+      "url": "https://blog.naver.com/dbs375/223806330464",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-couple-001",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 3박5일 비엔티안 탓루앙 빠뚜사이 팍슨",
+      "url": "https://blog.naver.com/cocoy_a/223982805280",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-couple-002",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 여행 2일차 비엔티안 오토바이 렌탈 부다파크",
+      "url": "https://blog.naver.com/torry22_wa/223498189630",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "비엔티안 왓따이국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "택시/호출차",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "방비엥 블루라군",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "왓 씨므앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "비엔티안 왓따이국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-couple-001",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 4박6일 비엔티안 방비엥 루앙프라방 자유 여행 일정",
+      "url": "https://blog.naver.com/charmge0332/224245132320",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "transport",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "남푸 분수",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "transport",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-couple-002",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 자유여행 비엔티안 방비엥 3박5일 일정",
+      "url": "https://blog.naver.com/jznwkzbhe7670/224208967440",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-family-001",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 비엔티안 빠뚜사이 부다파크 소금마을 3박5일",
+      "url": "https://blog.naver.com/sallydics/110184686036",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-family-002",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 가족여행 비엔티안 방비엥 3박5일 단독패키지",
+      "url": "https://blog.naver.com/only_tour/221515120207",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부다 파크",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 센터",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부다 파크",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 센터",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부다 파크",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 센터",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "부다 파크",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "왓 씨사켓",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 센터",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-family-001",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "비엔티안 대표 투어 부다파크 빠뚜싸이 라오스 문화 체험",
+      "url": "https://blog.naver.com/realhebuli/224101870888",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "비엔티안 왓따이국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "만다리나 마사지 비엔티안",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "방비엥 블루라군",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "남푸 분수",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "부다 파크",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-family-002",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 비엔티안 방비엥 4박6일 가족 부부 관광 일정",
+      "url": "https://blog.naver.com/lotion3884/224352921445",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-family-003",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "비엔티안 탓루앙 빠뚜사이 팍슨 가족 여행",
+      "url": "https://blog.naver.com/cocoy_a/223982805280",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "남푸 분수",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-friends-001",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 자유여행 3박5일 방비엥 루앙프라방 비엔티안",
+      "url": "https://blog.naver.com/doa_pic/223503418672",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파 탓 루앙",
+            "category": "tourspa",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "남푸 분수",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-3n5d-friends-002",
+    "city": "Vientiane",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 4박6일 자유여행 비엔티안 야시장 카페",
+      "url": "https://blog.naver.com/charmge0332/224245132320",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠뚜사이 독립기념문",
+            "category": "tourspa",
+            "area": "비엔티안"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비엔티안 메콩 야시장",
+            "category": "shopping",
+            "area": "비엔티안"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "비엔티안 국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "vientiane-4n6d-friends-001",
+    "city": "Vientiane",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "라오스 4박6일 루앙프라방 방비엥 비엔티안 자유여행",
+      "url": "https://blog.naver.com/dbs375/223806330464",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "비엔티안",
+      "friends"
+    ]
+  }
+]

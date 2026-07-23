@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "singapore-3n5d-solo-001",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 혼자 자유여행 코스 3박 5일 일정 경비",
+      "url": "https://blog.naver.com/ssibar1188/223688977748",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-3n5d-solo-002",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "송파 바쿠테 뉴브리지로드",
+            "category": "food",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "2025 싱가포르 자유여행 추천 일정 3박 5일 리얼코스",
+      "url": "https://blog.naver.com/lovepink-/223885397076",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-4n6d-solo-001",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "버드 파라다이스",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 4박6일 여행 일정 패스로 경비 절약하기",
+      "url": "https://blog.naver.com/trueloveu/224343411789",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-4n6d-solo-002",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "불아사",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "동방미식",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 4박6일 여행 1일차 차이나타운 불아사 동방미식 클락키보트",
+      "url": "https://blog.naver.com/el-viaje_ami/223831570318",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-3n5d-couple-001",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "윙스 오브 타임 공연",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "차이나타운 스트리트 마켓",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "싱가포르"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 3박 5일 일정 자유여행 코스 추천",
+      "url": "https://blog.naver.com/sk3374/224307042391",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-3n5d-couple-002",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "V 호텔 라벤더",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라우파삿 사테 스트리트",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "더 케이 호텔",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "차이나타운 스트리트 마켓",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "맥스웰 푸드센터",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "호텔 보스 싱가포르",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 내셔널 갤러리",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이온 오차드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "점보 씨푸드 리버사이드",
+            "category": "food",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "그랩",
+            "category": "transport",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "싱가포르"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 여행 자유여행 3박 5일 준비물 가볼만한곳 숙소 추천",
+      "url": "https://blog.naver.com/webtourlove/224246719446",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-4n6d-couple-001",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "칼튼 호텔 싱가포르",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "래플스 호텔 스파 부티크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아랍 스트리트",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "하지 레인",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "차이나타운 스트리트 마켓",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "점보 씨푸드 리버사이드",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "밤",
+            "name": "리버 크루즈",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "팔라완 비치",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "보타닉 가든",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "슈퍼트리 쇼",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쥬얼 창이 레인 보텍스 쇼",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천 공항 도착",
+            "category": "flight",
+            "area": "싱가포르"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 4박 6일 자유여행 직접 다녀온 알짜 코스와 일정",
+      "url": "https://blog.naver.com/kslee0691/224190043766",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-4n6d-couple-002",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "비보시티",
+            "category": "shopping",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "굿올드데이즈",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "오후",
+            "name": "미스터코코넛",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "밤",
+            "name": "페어프라이스",
+            "category": "shopping",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "아이온 오차드",
+            "category": "shopping",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "싱가포르 내셔널 갤러리",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 자유여행 후기 비보시티에서 센토사섬 가는법",
+      "url": "https://blog.naver.com/02030_/224343286263",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-3n5d-family-001",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사이언스센터 싱가포르",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "싱가포르"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 가족여행 3박5일 총정리",
+      "url": "https://blog.naver.com/schoolgaid/224351056628",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-3n5d-family-002",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "싱가포르 도착 및 호텔 체크인",
+            "category": "hotel",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "버드 파라다이스 탐방",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "싱가포르"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 여행 코스 아이와 가볼만한곳 버드파라다이스 후기",
+      "url": "https://blog.naver.com/jamjma98/224327741875",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-4n6d-family-001",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "싱가포르항공 SQ605",
+            "category": "flight",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쥬라직 네스트",
+            "category": "other",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "점보 씨푸드 리버사이드",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "리버 크루즈",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "2025 싱가포르 21개월 아기와 해외여행 4박 6일 일정",
+      "url": "https://blog.naver.com/ydy7405/223910515971",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-4n6d-family-002",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나우미호텔",
+            "category": "hotel",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "GOOD OLD DAYS",
+            "category": "food",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 동물원",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아이온 오차드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "야쿤 카야토스트",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "리버크루즈",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "나우미호텔",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나우미호텔",
+            "category": "hotel",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보타닉 가든",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "차이나타운 스트리트 마켓",
+            "category": "shopping",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 4박5일 초등학생 딸아이와 가족여행계획 일정",
+      "url": "https://blog.naver.com/whitenaruto/224147164623",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-3n5d-family-003",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천공항",
+            "category": "flight",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "머큐어 싱가포르 부기스",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보타닉 가든",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 힐",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "싱가포르 야시장",
+            "category": "food",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버셜 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센토사 섬",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "차이나타운 스트리트 마켓",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "에스플러네이트",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "야쿤 카야토스트",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "머큐어 싱가포르 부기스",
+            "category": "hotel",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "2025년 싱가포르 3박 5일 패키지 여행 가족여행 일정",
+      "url": "https://blog.naver.com/haha9661/224313771389",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-3n5d-friends-001",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "송파 바쿠테 뉴브리지로드",
+            "category": "food",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유니버설 스튜디오 싱가포르",
+            "category": "tourspa",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "클라키 키",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "2025 싱가포르 자유여행 추천 일정 3박 5일 리얼코스",
+      "url": "https://blog.naver.com/lovepink-/223885397076",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "singapore-3n5d-friends-002",
+    "city": "Singapore",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "싱가포르",
+      "friends",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리나 베이 샌즈 스카이파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "비보시티",
+            "category": "shopping",
+            "area": "센토사/하버프론트"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "센토사 익스프레스",
+            "category": "transport",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "굿올드데이즈",
+            "category": "food",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "오후",
+            "name": "실로소 비치",
+            "category": "other",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비보시티",
+            "category": "shopping",
+            "area": "센토사/하버프론트"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비보시티",
+            "category": "shopping",
+            "area": "센토사/하버프론트"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 자유여행 후기 비보시티 센토사 맛집 쇼핑",
+      "url": "https://blog.naver.com/02030_/224343286263",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "singapore-4n6d-friends-001",
+    "city": "Singapore",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "싱가포르",
+      "friends",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쥬얼 창이공항",
+            "category": "shopping",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가든스 바이 더 베이",
+            "category": "tourspa",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "멀라이언 파크",
+            "category": "tourspa",
+            "area": "싱가포르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오차드 로드",
+            "category": "shopping",
+            "area": "싱가포르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "싱가포르 창이국제공항",
+            "category": "flight",
+            "area": "창이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "싱가포르 4박6일 자유여행 짐배송 벤쿨렌 맛집 센토사",
+      "url": "https://blog.naver.com/miyu47/223533273358",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  }
+]

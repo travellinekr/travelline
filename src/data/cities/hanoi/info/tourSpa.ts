@@ -345,7 +345,58 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Estheva%20Spa&query_place_id=ChIJT4awjAWrNTER1Z4tPu4h6Rk", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%8A%A4%ED%85%8C%EB%B0%94%20%EC%8A%A4%ED%8C%8C%20%ED%95%98%EB%85%B8%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "하롱베이 크루즈": {
+        photos: ["/images/hanoi/info/tourSpa/halong-bay-cruise.jpg"],
+        summary: "웅장한 하롱베이의 자연 경관을 크루즈 위에서 만끽하는 특별한 경험",
+        updatedAt: "2026-07-23",
+        highlights: ["에메랄드빛 바다와 기암괴석의 절경", "크루즈에서 즐기는 낭만적인 식사"],
+        tips: ["상품별로 소요 시간이 다르니 일정에 맞춰 예약하세요"],
+        hours: "방문 전 확인 권장",
+        duration: "4~8시간",
+        price: "상품별 상이",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "Nhà ga - Cảng tàu khách quốc tế, Hạ Long, Bãi Cháy, Quảng Ninh 200000 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 또는 오후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Ambassador%20Cruise%20Halong%20Bay&query_place_id=ChIJV-lLrr5fSjERTXIdtxSl2vA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%A1%B1%EB%B2%A0%EC%9D%B4%20%ED%81%AC%EB%A3%A8%EC%A6%88%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "깟깟마을": {
+        photos: ["/images/hanoi/info/tourSpa/cat-cat-village.jpg"],
+        summary: "사파의 자연 경관과 소수민족 문화를 체험할 수 있는 깟깟마을",
+        updatedAt: "2026-07-23",
+        highlights: ["아름다운 계단식 논 풍경", "소수민족 전통 의상 체험", "시원한 폭포와 산책로"],
+        tips: ["전통 의상을 대여해 인생샷 남기기", "입장료 별도 확인 필수"],
+        hours: "방문 전 확인 권장",
+        duration: "2~3시간",
+        price: "입장료 별도",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "Cat Cat Village, San Sả Hồ, Ta Van, Lao Cai, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 또는 오후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Cat%20Cat%20Village&query_place_id=ChIJRXU9ykJBzTYRjrK3LB07du8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B9%9F%EA%B9%9F%EB%A7%88%EC%9D%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "판시판 케이블카": {
+        photos: ["/images/hanoi/info/tourSpa/fansipan-cable-car.jpg"],
+        summary: "썬월드 케이블카를 타고 구름 위 판시판 산맥의 절경을 만끽하세요.",
+        updatedAt: "2026-07-23",
+        highlights: ["구름 위를 가르는 압도적인 케이블카 뷰", "인도차이나 최고봉 판시판 정상 정복"],
+        tips: ["오전 시간대에 방문하여 맑은 풍경 감상하기", "기온 변화에 대비해 따뜻한 외투 준비하기"],
+        hours: "방문 전 확인 권장",
+        duration: "3~5시간",
+        price: "티켓 요금 변동",
+        reservation: { required: true, method: "투어/입장권 상품별 조건 확인" },
+        access: { area: "8RPF+QM, Nguyễn Chí Thanh, Sa Pa, Lào Cai, 베트남", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%ED%8C%90%EC%8B%9C%ED%8C%90%20%EC%8D%AC%EC%9B%94%EB%93%9C%20%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4%20%EC%97%AD&query_place_id=ChIJ3dK8gGFBzTYRuJAsl36EwJ4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%90%EC%8B%9C%ED%8C%90%20%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

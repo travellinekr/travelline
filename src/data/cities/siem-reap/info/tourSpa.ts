@@ -221,6 +221,51 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%9E%91%EC%A7%80%ED%8C%8C%EB%8B%88+%EC%8A%A4%ED%8C%8C+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "펍 스트리트": {
+        photos: ["/images/siem-reap/info/tourSpa/pub-street-siem-reap.jpg"],
+        summary: "다양한 먹거리와 즐길 거리가 가득한 씨엠립 최고의 밤문화 명소",
+        updatedAt: "2026-07-23",
+        highlights: ["활기 넘치는 거리 분위기", "다채로운 맛집과 바"],
+        tips: ["밤 시간대에 방문하면 더욱 화려한 야경을 즐길 수 있습니다"],
+        duration: "1~2시간",
+        price: "무료~개별 소비",
+        access: { area: "Street 08, Krong Siem Reap, 캄보디아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁~밤",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Street%2008&query_place_id=ChIJ9Vw0ZWUXEDER6lQnAxPmNIs", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8E%8D%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "프레 룹": {
+        photos: ["/images/siem-reap/info/tourSpa/pre-rup-temple.jpg"],
+        summary: "앙코르 유적지의 정취를 느낄 수 있는 프레 룹 사원",
+        updatedAt: "2026-07-23",
+        highlights: ["환상적인 일출 및 일몰 명소", "고대 힌두교 사원의 신비로운 분위기"],
+        tips: ["일출이나 일몰 시간대에 맞춰 방문하기", "앙코르 패스 별도 구매 필요"],
+        duration: "45~90분",
+        price: "앙코르 패스 별도",
+        access: { area: "CWMC+X6F Angkor Archaeological Park, ក្រុងសៀមរាប 17000 캄보디아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 또는 오후 일몰 시간대",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%ED%94%84%EB%A0%88%20%EB%A3%B9&query_place_id=ChIJG5DHtQY-EDERCd_FEDL3ir8", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%A0%88%20%EB%A3%B9%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "프놈 바켕": {
+        photos: ["/images/siem-reap/info/tourSpa/phnom-bakheng.jpg"],
+        summary: "앙코르 유적지의 환상적인 저녁 노을을 만끽하는 명소",
+        updatedAt: "2026-07-23",
+        highlights: ["언덕 위에서 내려다보는 탁 트인 전망", "낭만적인 일몰 포인트"],
+        tips: ["일몰 시간에 맞춰 방문하기", "앙코르 패스 사전 준비 필수"],
+        duration: "1~2시간",
+        price: "앙코르 패스 별도",
+        access: { area: "CVF4+GCW Angkor Archaeological Park, ក្រុងសៀមរាប 17000 캄보디아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%ED%94%84%EB%86%88%20%EB%B0%94%EA%BB%AD%20%EC%82%AC%EC%9B%90&query_place_id=ChIJy7ghs5oWEDERVEH3b4fDIUk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%86%88%20%EB%B0%94%EC%BC%95%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

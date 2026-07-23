@@ -1,0 +1,2266 @@
+[
+  {
+    "id": "kota-kinabalu-3n5d-solo-001",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "비오비 하우스 코타키나발루",
+            "category": "hotel",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "가야 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선셋뷰 레스토랑",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루 메리어트 호텔",
+            "category": "hotel",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루 시립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사바 주청사",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 여행 3박5일 항공권 숙소 자유여행 일정",
+      "url": "https://blog.naver.com/neweunha/224348277182",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-solo-002",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "보르네오 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "이마고 쇼핑몰",
+            "category": "shopping",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "선상호핑투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "마리마리 문화마을",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 패키지 3박5일 일정 업체추천",
+      "url": "https://blog.naver.com/hyesun0305/223720888719",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-solo-001",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마무틱 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "사바 주립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "만다라 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "공항 드랍 서비스",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 4박 6일 투어 코스 비용",
+      "url": "https://blog.naver.com/godhunting/224313362553",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-solo-002",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "코타스윗",
+            "category": "hotel",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "세팡가르섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Jamilah jewellery",
+            "category": "shopping",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "만다라 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "Hello Kotakinabalu",
+            "category": "shopping",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "그랩",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 여행일기 4박 6일 자유여행",
+      "url": "https://blog.naver.com/jullia5485/224340417103",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-couple-001",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마젤란 수트라 리조트",
+            "category": "hotel",
+            "area": "수트라 하버"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "스부트라하버 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마무틱 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파라세일링",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "반딧불 투어 석식",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 일정 3박5일 패키지 가족여행 호핑투어 후기",
+      "url": "https://blog.naver.com/tjdnfgh/224215128888",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-couple-002",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "포레하우스",
+            "category": "hotel",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마린팩 호핑투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마리마리 문화마을",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "코콜 힐",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "수앙타인 씨푸드",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마리마리 문화마을",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "ZING Sunset & Bar",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "공항 샌딩 서비스",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "말레이시아 코타키나발루 자유여행 3박 5일 패키지 일정 숙소",
+      "url": "https://blog.naver.com/live_in_clov/224029682389",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-couple-001",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "프로미네이드 호텔",
+            "category": "hotel",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사바 주립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코콜 힐",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아피아피 야시장",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가야섬 호핑투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "코타트래블 낚시투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마무틱 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쁘리 반딧불투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "만다라 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 비용 4박6일 투어 일정 코스 총정리",
+      "url": "https://blog.naver.com/jiwoo242712/224170107432",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-couple-002",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "수앙타인 씨푸드",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "퍼시픽 수트라 호텔",
+            "category": "hotel",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "이펑 락사",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보르네오 스파 코타키나발루",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "매드벤 카페",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루 시립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이펑 커피숍",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "코타키나발루 풋마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "귀국",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "도착",
+            "category": "other",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 패키지여행 반딧불투어 탄중아루 선셋 일정 후기",
+      "url": "https://blog.naver.com/projsh77/224351910207",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-family-001",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "마리마리 문화마을",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "코콜 힐",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루 시립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사바 주립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "귀국",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 3박5일 반딧불투어 섬투어 일정",
+      "url": "https://blog.naver.com/everclearsky/223676054310",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-family-002",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "웰컴 씨푸드 레스토랑",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "KK 워터프론트 마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "이펑 락사",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루 시립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 가족여행 3박5일 코스 반딧불투어 추천",
+      "url": "https://blog.naver.com/withou122/224119154651",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-family-001",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "인천국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "그랩",
+            "category": "transport",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "이마고몰 레지던스 아파트",
+            "category": "hotel",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도조(Dojo)",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코타키나발루 시립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "코타선셋마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "쌍천 해산물",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "필리피노 야시장",
+            "category": "shopping",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "툰쿠 압둘 라만 해양공원",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "이마고 쇼핑몰",
+            "category": "shopping",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "키홍(Kee Hong)",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 4박6일 가족여행 입국부터 2일차까지 후기",
+      "url": "https://blog.naver.com/lmy726/224319611085",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-family-002",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "웰컴 씨푸드 레스토랑",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "KK 워터프론트 마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "바자우족 체험",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "낚시 투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사바 주립 모스크",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "UMS 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삼겹살집",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 수영장",
+            "category": "other",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이펑 락사",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "이마고 쇼핑몰",
+            "category": "shopping",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "코타키나발루 풋마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 4박6일 가족여행 단독 호핑투어 예약 선셋",
+      "url": "https://blog.naver.com/muse36/223877977300",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-family-003",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "family",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 패키지 3박 5일 단독 일정 가족여행 추천",
+      "url": "https://blog.naver.com/skli0612/224349627260",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-friends-001",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "웰컴 씨푸드 레스토랑",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "KK 워터프론트 마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨워킹 및 파라세일링",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "시티투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이펑 락사",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "가야 스트리트 선데이 마켓",
+            "category": "shopping",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "샹그릴라 탄중아루 코타키나발루",
+            "category": "hotel",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 여행 호핑투어 반딧불투어 섬투어 가족여행",
+      "url": "https://blog.naver.com/fantapixx/224112442744",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-3n5d-friends-002",
+    "city": "Kota Kinabalu",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "코타키나발루",
+      "friends",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "마젤란 수트라 리조트",
+            "category": "hotel",
+            "area": "수트라 하버"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "KK 워터프론트 마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마무틱 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사피 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마젤란 수트라 리조트",
+            "category": "hotel",
+            "area": "수트라 하버"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마리마리 문화마을",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "스마일 KK투어 제공 식사",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 사바 쇼핑몰",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "탄중아루 비치",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "웰컴 씨푸드 레스토랑",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 3박5일 호핑투어 자유여행 후기",
+      "url": "https://blog.naver.com/tjdnfgh/224215128888",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "kota-kinabalu-4n6d-friends-001",
+    "city": "Kota Kinabalu",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "코타키나발루",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "코타키나발루 호텔",
+            "category": "hotel",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "필리피노 마켓",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "키나발루 시티 투어",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "코타키나발루 풋마사지",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "해산물 디너",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마누칸 섬",
+            "category": "tourspa",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "BBQ",
+            "category": "food",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "봉가완 반딧불 투어",
+            "category": "tourspa",
+            "area": "근교"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "코타키나발루 마켓",
+            "category": "shopping",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리조트 수영장",
+            "category": "other",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "엘리트 웨스턴",
+            "category": "food",
+            "area": "코타키나발루"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "코타키나발루국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "코타키나발루"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "코타키나발루 자유여행 4박6일 사피섬 호핑투어 코스 추천",
+      "url": "https://blog.naver.com/lovely0477/223892843248",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  }
+]

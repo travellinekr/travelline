@@ -152,6 +152,21 @@ const shopping: ShoppingData[] = [
         features: ["쇼핑·기념품", "평점 3.8", "하노이 여행 동선에 넣기 좋음"],
         icon: "🛒"
     },
+    {
+        name: "하롱베이 야시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Hanoi",
+        coordinates: { lat: 20.9433636, lng: 107.0309215 },
+        category: "쇼핑",
+        specialItems: "기념품·야시장 먹거리",
+        priceRange: "₫50,000~2,000,000+",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: false,
+        features: ["쇼핑과 먹거리가 결합된 복합 공간", "현지 문화를 체험할 수 있는 명소"],
+        icon: "🛍"
+    },
 ];
 
 export default shopping;

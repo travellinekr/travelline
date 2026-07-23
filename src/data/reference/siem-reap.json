@@ -1,0 +1,2219 @@
+[
+  {
+    "id": "siem-reap-3n5d-solo-001",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "씨엠립",
+      "solo",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캄퐁 플럭 수상마을",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캄퐁 플럭 수상마을",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캄퐁 플럭 수상마을",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 앙코르와트 자유여행 3박5일 일정 정리",
+      "url": "https://blog.naver.com/cruiserlaw/221183061861",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-solo-002",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "시엠립 앙코르와트 3박5일 최소 일정과 투어 팁",
+      "url": "https://blog.naver.com/wjddnjstkfkd2023/224291194122",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "앙코르 유적"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "앙코르 유적"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "프레 룹",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 레드 피아노",
+            "category": "food",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아티산 앙코르",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-4n6d-solo-001",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 시엠립 앙코르와트 4박6일 자유여행 일정",
+      "url": "https://blog.naver.com/qumduuu/223403838104",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-4n6d-solo-002",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 시엠립여행 앙코르와트 투어와 Grab 팁",
+      "url": "https://blog.naver.com/whoau80/223858653047",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-couple-001",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "4박6일 캄보디아 시엠립 앙코르와트 여행기",
+      "url": "https://blog.naver.com/myungcopyda/222995095441",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반띠아이 스레이",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프놈 바켕",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캄퐁 플럭 수상마을",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반띠아이 스레이",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프놈 바켕",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-couple-002",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 시엠립 앙코르와트 빅투어 프놈바켕 일몰",
+      "url": "https://blog.naver.com/jina0676/223636311000",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "couple"
+    ]
+  },
+  {
+    "id": "siem-reap-4n6d-couple-001",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "씨엠립",
+      "couple",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 앙코르와트 자유여행 외곽투어 그랜드투어",
+      "url": "https://blog.naver.com/yyyy_1988/224328999726",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프레 룹",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프레 룹",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프레 룹",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프레 룹",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-4n6d-couple-002",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "시엠립 앙코르와트 4박6일 자유여행 일정 날씨 비자 팁",
+      "url": "https://blog.naver.com/qumduuu/223403838104",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-family-001",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "아이와 함께 캄보디아 씨엠립 자유여행 4박6일 일정 비용",
+      "url": "https://blog.naver.com/jina_1104/220923262549",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-family-002",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "2025 2026 캄보디아 프놈펜 씨엠립 앙코르와트 자유여행 가족여행",
+      "url": "https://blog.naver.com/yyyy_1988/224216095215",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "family"
+    ]
+  },
+  {
+    "id": "siem-reap-4n6d-family-001",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "씨엠립",
+      "family",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "프놈펜 씨엠립 앙코르와트 자유여행 가족여행 배낭여행",
+      "url": "https://blog.naver.com/yyyy_1988/224335306613",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-4n6d-family-002",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "프놈펜 앙코르와트 톤레삽호수 관광 3박5일",
+      "url": "https://blog.naver.com/orangetravel3636/223531905186",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "바이욘 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "타프롬 사원",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-family-003",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "캄보디아 앙코르와트 자유여행 가족여행 투어예약",
+      "url": "https://blog.naver.com/yyyy_1988/224350255218",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-friends-001",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "시엠립 여행 앙코르와트 그랩 야시장 펍스트리트",
+      "url": "https://blog.naver.com/whoau80/223858653047",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "더 레드 피아노",
+            "category": "food",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "앙코르 톰",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "펍 스트리트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-3n5d-friends-002",
+    "city": "Siem Reap",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "시엠립 펍스트리트와 앙코르 유적 여행기",
+      "url": "https://blog.naver.com/myungcopyda/222995095441",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반띠아이 스레이",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프놈 바켕",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캄퐁 플럭 수상마을",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "올드 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반띠아이 스레이",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프놈 바켕",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 와트",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "반띠아이 스레이",
+            "category": "tourspa",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프놈 바켕",
+            "category": "tourspa",
+            "area": "씨엠립"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앙코르 나이트 마켓",
+            "category": "shopping",
+            "area": "씨엠립"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "씨엠립 앙코르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "siem-reap-4n6d-friends-001",
+    "city": "Siem Reap",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "시엠립 앙코르와트 빅투어 프놈바켕 야시장",
+      "url": "https://blog.naver.com/jina0676/223636311000",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "씨엠립",
+      "friends"
+    ]
+  }
+]

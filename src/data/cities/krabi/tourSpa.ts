@@ -342,6 +342,23 @@ const tourSpa: TourSpaData[] = [
         rating: 4.8,
         icon: "💆"
     },
+    {
+        name: "아오낭 비치",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Krabi",
+        description: "끄라비 여행의 중심지이자 아름다운 해변 산책을 즐길 수 있는 아오낭 비치",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 8.0312944, lng: 98.8216633 },
+        reservationRequired: false,
+        openingHours: "상시 개방",
+        features: ["여유로운 해변 산책로", "활기찬 저녁 분위기"],
+        rating: 4.4,
+        icon: "🏖️"
+    },
 ];
 
 export default tourSpa;

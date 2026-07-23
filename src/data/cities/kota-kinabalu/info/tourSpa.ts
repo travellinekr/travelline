@@ -434,7 +434,24 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Kama%27A%20Rejuvenation%20%26%20Wellbeing%20Spa&query_place_id=ChIJucDmv5ZpOzIRKCMolLf6qIc", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%ED%92%8B%EB%A7%88%EC%82%AC%EC%A7%80%20%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "봉가완 반딧불 투어": {
+        photos: ["/images/kota-kinabalu/info/tourSpa/bongawan-firefly-tour-kota-kinabalu.jpg"],
+        summary: "봉가완 강 맹그로브 숲에서 선셋과 반딧불을 함께 즐기는 코타키나발루 대표 근교 투어입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["맹그로브 숲을 따라 이동하는 보트 투어", "날씨가 맞으면 선셋과 반딧불을 한 일정에서 감상", "가족·커플 일정에 넣기 좋은 저녁 액티비티"],
+        tips: ["반딧불은 날씨와 현장 상황에 따라 보이는 정도가 달라질 수 있어요."],
+        hours: "투어 예약처 확인 권장",
+        duration: "반나절",
+        price: "투어별 상이",
+        reservation: { required: true, method: "픽업 포함 투어 상품 사전 예약 권장" },
+        access: { area: "89709 Bongawan, Sabah, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "해질녘~밤",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3682894580132078262", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B4%89%EA%B0%80%EC%99%84+%EB%B0%98%EB%94%A7%EB%B6%88+%ED%88%AC%EC%96%B4+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

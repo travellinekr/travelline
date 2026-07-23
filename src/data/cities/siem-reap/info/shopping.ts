@@ -77,6 +77,20 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%99%EC%BD%94%EB%A5%B4+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%93%9C+%EC%84%BC%ED%84%B0+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "앙코르 나이트 마켓": {
+        photos: ["/images/siem-reap/info/shopping/angkor-night-market.jpg"],
+        summary: "다양한 기념품과 현지 물건을 구경할 수 있는 앙코르 야시장",
+        updatedAt: "2026-07-23",
+        highlights: ["현지 분위기가 가득한 쇼핑 거리", "다채로운 기념품과 소품 탐방"],
+        tips: ["매장마다 가격이 다르니 흥정은 필수"],
+        taxRefund: { available: false, note: "시장형 쇼핑지는 현장 가격 확인이 중요" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장별 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%EC%95%99%EC%BD%94%EB%A5%B4%20%EC%95%BC%EC%8B%9C%EC%9E%A5&query_place_id=ChIJo13OXm8XEDERzIMm-OWvAXA", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%99%EC%BD%94%EB%A5%B4%20%EB%82%98%EC%9D%B4%ED%8A%B8%20%EB%A7%88%EC%BC%93%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

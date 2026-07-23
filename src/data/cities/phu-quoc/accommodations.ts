@@ -212,6 +212,20 @@ const accommodations: AccommodationData[] = [
         tags: ["가족", "비치"],
         icon: "🏖️"
     },
+    {
+        name: "노보텔 푸꾸옥 리조트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "resort",
+        priceTier: "value",
+        city: "Phu Quoc",
+        coordinates: { lat: 10.1288141, lng: 103.9807506 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "중부 롱비치와 공항 접근성이 좋은 가족형 리조트",
+        tags: ["가족", "비치", "가성비"],
+        icon: "🏨"
+    },
 ];
 
 export default accommodations;

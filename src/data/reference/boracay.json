@@ -1,0 +1,2136 @@
+[
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-solo-001",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 3박5일 자유여행 화이트비치 호핑투어 선셋세일링",
+      "url": "https://blog.naver.com/mellowtriplog/224337964477",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-solo-002",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 3박5일 자유여행 디몰 맛집 화이트비치",
+      "url": "https://blog.naver.com/jinique_/224345471348",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천국제공항 마티나 라운지",
+            "category": "flight",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "헤난 팜 비치 리조트",
+            "category": "hotel",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "조나스 프룻쉐이크",
+            "category": "food",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-solo-001",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 자유여행 4박6일 칼리보공항 화이트비치",
+      "url": "https://blog.naver.com/mirrrrrrr/223203747000",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-solo-002",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 4박5일 화이트비치 호핑투어 자유여행 후기",
+      "url": "https://blog.naver.com/kwjeong1606/224340524565",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-couple-001",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 여행 4박5일 일정 맛집 디몰투어 마사지",
+      "url": "https://blog.naver.com/plesure1014/224293166087",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "timeOfDay": "저녁",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "화이트 비치",
+            "seq": 1
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "버짓마트 스테이션2",
+            "category": "shopping",
+            "area": "보라카이"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-couple-002",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 선셋세일링 보라스파 디몰맛집 자유여행",
+      "url": "https://blog.naver.com/flowerdidu/223674012296",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "보라카이 선셋 세일링",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "날카 씨푸드",
+            "category": "food",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "아리아 쿠치나 이탈리아나",
+            "category": "food",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보트/페리",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "칼리보국제공항",
+            "category": "flight",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-couple-001",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 4박5일 가볼만한곳 단독 호핑투어 세일링보트",
+      "url": "https://blog.naver.com/i1214/224330985444",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "불라복 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-couple-002",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 4박5일 자유여행 화이트비치 디몰 마사지",
+      "url": "https://blog.naver.com/qqq86/224144306870",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-family-001",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 가족여행 4박5일 호핑투어 액티비티 픽업샌딩",
+      "url": "https://blog.naver.com/mi1891/224254302022",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-family-001",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 가족 커플 여행 4박5일 디몰 호핑 세일링",
+      "url": "https://blog.naver.com/i1214/224330985444",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "불라복 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-family-002",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 가족여행 화이트비치 디몰 마사지 패키지",
+      "url": "https://blog.naver.com/qqq86/224144306870",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이",
+            "seq": 1
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "timeOfDay": "오후",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이",
+            "seq": 1
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-family-003",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 3박4일 호핑투어 마사지 화이트비치 선셋",
+      "url": "https://blog.naver.com/fanypink82/224349032373",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-friends-001",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 친구 자유여행 디몰 맛집 화이트비치",
+      "url": "https://blog.naver.com/jinique_/224345471348",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-friends-002",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 자유여행 화이트비치 디몰 쇼핑 할로망고",
+      "url": "https://blog.naver.com/kyjin1126/223663357000",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "노니스 레스토랑",
+            "category": "food",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "보라카이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-4n6d-friends-001",
+    "city": "Boracay",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 4박5일 화이트비치 선셋 스노클링 친구여행",
+      "url": "https://blog.naver.com/azure-j/222973529903",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보라카이 호핑투어",
+            "category": "tourspa",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "불라복 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "트라이시클",
+            "category": "transport",
+            "area": "보라카이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "화이트 비치",
+            "category": "tourspa",
+            "area": "보라카이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "디몰 보라카이",
+            "category": "shopping",
+            "area": "화이트비치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보라카이 카티클란공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "boracay-3n5d-family-002",
+    "city": "Boracay",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "보라카이 가족여행 화이트비치 디몰 마사지 패키지",
+      "url": "https://blog.naver.com/qqq86/224144306870",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "보라카이",
+      "family"
+    ]
+  }
+]

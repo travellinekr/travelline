@@ -289,6 +289,21 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%82%AC%EC%A7%80+%EC%BD%94%EB%84%88+%EC%95%84%EC%98%A4%EB%82%AD+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "아오낭 비치": {
+        photos: ["/images/krabi/info/tourSpa/ao-nang-beach.jpg"],
+        summary: "저녁 산책과 끄라비 투어의 베이스캠프로 완벽한 아오낭 해변",
+        updatedAt: "2026-07-23",
+        highlights: ["아름다운 저녁 해변 산책", "끄라비 투어의 주요 거점"],
+        tips: ["저녁 시간대 방문을 추천합니다"],
+        duration: "1~2시간",
+        price: "무료",
+        access: { area: "태국 81180 크래비 Mueang Krabi District, 아오낭 2RJC+GM7", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Ao%20Nang%20beach&query_place_id=ChIJ5S2NTL3BUTARcYtz75iKsXk", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%98%A4%EB%82%AD%20%EB%B9%84%EC%B9%98%20%EB%81%84%EB%9D%BC%EB%B9%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

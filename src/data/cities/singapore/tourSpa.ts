@@ -341,7 +341,41 @@ const tourSpa: TourSpaData[] = [
         features: ["차이나타운 인근 위치", "발 마사지 특화"],
         rating: 4.7,
         icon: "💆"
-    }
+    },
+    {
+        name: "보타닉 가든",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Singapore",
+        description: "유네스코 세계유산으로 산책과 자연 관람을 즐기기 좋은 싱가포르 대표 정원",
+        duration: "2~3시간",
+        priceRange: "무료~유료 구역 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 1.3138397, lng: 103.8159136 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["유네스코 세계유산", "오키드 가든", "가족 산책 코스"],
+        rating: 4.7,
+        icon: "🌿"
+    },
+    {
+        name: "리버 크루즈",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Singapore",
+        description: "클락키에서 출발해 마리나 베이 야경을 물 위에서 보는 인기 크루즈",
+        duration: "40~60분",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 1.289952, lng: 103.8462453 },
+        reservationRequired: true,
+        openingHours: "방문 전 운항 시간 확인 권장",
+        features: ["마리나 베이 야경", "클락키 출발", "가족·커플 야간 코스"],
+        rating: 4.4,
+        icon: "🚤"
+    },
 ];
 
 export default tourSpa;

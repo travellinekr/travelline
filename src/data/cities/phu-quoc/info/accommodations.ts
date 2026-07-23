@@ -253,6 +253,23 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%92%80%EB%A7%8C+%ED%91%B8%EA%BE%B8%EC%98%A5+%EB%B9%84%EC%B9%98+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "노보텔 푸꾸옥 리조트": {
+        photos: ["/images/phu-quoc/info/accommodations/novotel-phu-quoc-resort.jpg"],
+        summary: "롱비치 라인과 공항 접근성이 좋아 짧은 푸꾸옥 일정에 넣기 좋은 리조트입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["공항과 중부 동선 접근성이 좋아 3박5일 일정에 효율적", "가족 여행자가 쓰기 좋은 대형 리조트 시설", "롱비치와 야시장·킹콩마트 이동을 함께 잡기 좋은 위치"],
+        tips: ["푸꾸옥 북부·남부 투어를 모두 넣는 일정이라면 중부 숙소 베이스로 쓰기 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🏊", label: "수영장/피트니스", note: "시설별 운영 여부 확인" }, { icon: "🍽️", label: "조식/레스토랑", note: "상품별 상이" }],
+        location: { landmark: "Hamlet Commune, Đường Bào, Phú Quốc, An Giang 920000 베트남", airport: "푸꾸옥국제공항에서 차량 이동권" },
+        links: [
+            { label: "공식 사이트", url: "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=9770&merchantid=seo-maps-VN-9770&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5550088012463318041", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%85%B8%EB%B3%B4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

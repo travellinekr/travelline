@@ -1,0 +1,2294 @@
+[
+  {
+    "id": "phu-quoc-3n5d-solo-001",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "선셋타운",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키스오브더씨",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "노보텔 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 푸꾸옥 자유여행 3박 5일 국민코스 일정",
+      "url": "https://blog.naver.com/bian258/224344134056",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-solo-002",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "썬월드 남부투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중부 시티투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "소나시 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "노보텔 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 푸꾸옥 자유여행 3박5일 단독투어 일정",
+      "url": "https://blog.naver.com/doa_pic/224315796863",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-solo-001",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "즈엉동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "4박6일 푸꾸옥자유여행일정 2일차",
+      "url": "https://blog.naver.com/anne1342/224285667271",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-solo-002",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프리미어레지던스",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "서울이발관",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "분짜99",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "엠어이 반미",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "그랩",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "밤",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "즈엉동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "4박6일 푸꾸옥자유여행일정 5일차",
+      "url": "https://blog.naver.com/anne1342/224297896059",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-couple-001",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "무엉 탄 럭셔리 호텔",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "3섬 호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킴 부띠끄 스파",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키스 브릿지",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "선셋쇼",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "껌냐",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "추온추온 비스트로 앤 스카이바",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마사지샵",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 푸꾸옥 자유여행 3박5일 일정 코스 경비",
+      "url": "https://blog.naver.com/kcwcw/224255389852",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-couple-002",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "피오나스파",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "티라",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "루아스파",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빈산",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "리조트 산책",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 커플여행 마사지부터 맛집까지",
+      "url": "https://blog.naver.com/kemono23/224341291778",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-couple-001",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랩",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "남부 3섬 호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "혼똔섬 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선셋타운",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "키스 브릿지",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "인터컨티넨탈 푸꾸옥 롱비치",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선셋타운 씨푸드 레스토랑",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "분꽈이 끼엔싸이",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥국제공항",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 커플 여행 4박5일 일정 예산 총정리",
+      "url": "https://blog.naver.com/sbgii29/224351155167",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-couple-002",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인터컨티넨탈 푸꾸옥 롱비치 리조트",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "델루나스파 즈엉동점",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메오키친",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "킹콩 카페",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "즈엉동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 태교여행 델루나스파 임산부 마사지",
+      "url": "https://blog.naver.com/haniyamyam/224278691716",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-family-001",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "앵그리크랩",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 워터파크",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "페퍼스파",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 리조트 앤 스파 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 리조트 앤 스파 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비행기 탑승",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 가족여행 3박 5일 빈펄 사파리 빈원더스",
+      "url": "https://blog.naver.com/pinkhut/223620619459",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-family-002",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "JMT",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "소나시 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장 해산물",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 3박 5일 가족여행 빈원더스 빈펄 사파리",
+      "url": "https://blog.naver.com/coolestlove/223659829617",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-family-001",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "명성 주차장",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "베스트웨스턴 프리미어 소나씨아 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "소나시 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "가네쉬 인도 레스토랑 푸꾸옥",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "갈리나스파 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이룻 섬",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사오 비치",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "안터이 시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "김해공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 4박 6일 가족 해외여행 후기",
+      "url": "https://blog.naver.com/simsuldiary/224181671310",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-family-002",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "냐항센",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장 해산물",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사오 비치",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 샌딩",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "즈엉동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 대가족 여행 패키지 3박5일 코스",
+      "url": "https://blog.naver.com/muse36/223724093036",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-family-003",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "선셋타운 키스브릿지",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "스파 90분",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "그랜드월드 현지식 맛집",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "그랜드월드 딘화쇼 및 분수쇼",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "스파 90분",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사오 비치",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "루프탑 카페",
+            "category": "food",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "공항 드랍",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도착",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 빈원더스 빈펄사파리 3박5일 추천코스",
+      "url": "https://blog.naver.com/lifeofbliss/224336523786",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-friends-001",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "뫼벤픽 리조트 웨이벌리 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 보물섬 스노클링 호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "뫼벤픽 리조트 웨이벌리 푸꾸옥",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "혼똠 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "세일링 클럽 스파 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "푸꾸옥 자유여행 패키지 3박5일 호핑투어 빈펄",
+      "url": "https://blog.naver.com/kyena200/224208028929",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-3n5d-friends-002",
+    "city": "Phu Quoc",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "푸꾸옥",
+      "friends",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "가이드맨 푸꾸옥 패키지 식사",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "갈리나스파 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키스 브리지",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "심포니 오브 더 씨",
+            "category": "food",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "썬월드 푸꾸옥",
+            "category": "other",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "푸꾸옥 야시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 드롭",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 푸꾸옥 자유여행 단독 호핑투어 패키지",
+      "url": "https://blog.naver.com/skli0612/224340740217",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json"
+    }
+  },
+  {
+    "id": "phu-quoc-4n6d-friends-001",
+    "city": "Phu Quoc",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "푸꾸옥",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "flight",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "라페스타 힐튼",
+            "category": "hotel",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "푸꾸옥 호핑투어",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오션펄 아일랜드",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "스파더엘",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "부이페스트 야시장",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "혼똔섬 케이블카",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "혼똔섬 워터파크",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "키스오브더씨",
+            "category": "other",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈펄 사파리 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "그랜드월드 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빈원더스 푸꾸옥",
+            "category": "tourspa",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "킹콩마트 푸꾸옥",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "즈엉동 시장",
+            "category": "shopping",
+            "area": "푸꾸옥"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "푸꾸옥국제공항",
+            "category": "transport",
+            "area": "푸꾸옥"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 푸꾸옥 호핑투어 스노쿨링 자유여행 코스",
+      "url": "https://blog.naver.com/daisy1505/224220653860",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex"
+    }
+  }
+]
