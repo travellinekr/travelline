@@ -157,7 +157,7 @@ export function useCardMutations() {
         } else {
         }
     }, []);
-    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, priceTier, checkInTime, checkOutTime, showCheckOut, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, targetColumnId, targetIndex = 0, flightPlacement }) => {
+    const createCardToColumn = useMutation(({ storage }, { text, title, category, type = "place", description = "", date = "", imageUrl = "", airports, month, city, timezone, time, route, coordinates, accommodationType, priceTier, checkInTime, checkOutTime, showCheckOut, tags, transportationType, priceRange, availability, features, appRequired, appName, icon, restaurantType, cuisine, specialty, michelin, reservation, openingHours, shoppingType, shoppingCategory, specialItems, taxRefund, tourSpaType, duration, pickupAvailable, reservationRequired, rating, hasInfo, isIntercityFlight, airportCode, parentIntercityCardId, votes, targetColumnId, targetIndex = 0, flightPlacement }) => {
         const cards = storage.get("cards") as any;
         const columns = storage.get("columns") as any;
 
@@ -230,7 +230,8 @@ export function useCardMutations() {
             // 도시간 항공편 마커
             isIntercityFlight,
             airportCode,
-            parentIntercityCardId
+            parentIntercityCardId,
+            votes, // 투표한 사용자 id 배열 (여행지 후보용, 없으면 undefined)
         });
 
         cards.set(newCardId, newCard);
