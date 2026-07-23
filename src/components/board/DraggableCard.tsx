@@ -16,6 +16,7 @@ import { DefaultCard } from "@/components/cards/DefaultCard";
 import { EtcCard } from "@/components/cards/EtcCard";
 import type { CardVariant } from "@/components/cards/types";
 import { useCardMutations } from "@/hooks/useCardMutations";
+import { useSelf } from "@/liveblocks.config";
 import dynamic from "next/dynamic";
 // CardEditorModal 은 BlockNote(@blocknote/*) 전체 번들(~수백KB) 의존 → 메모 모달 열 때만 청크 로드
 const CardEditorModal = dynamic(
@@ -25,23 +26,8 @@ const CardEditorModal = dynamic(
 import { CardPhotoStrip } from "./CardPhotoStrip";
 import { useAnchor } from "@/contexts/AnchorContext";
 
-// 임시 사용자 ID Hook (TODO: 실제 인증 시스템으로 대체 필요)
-// ✅ [성능개선] useState 초기값 함수로 localStorage를 최초 1회만 읽음 (useEffect 제거)
-function useTempUserId() {
-  const [userId] = useState<string>(() => {
-    if (typeof window === 'undefined') return '';
-    let id = localStorage.getItem('temp-user-id');
-    if (!id) {
-      id = `user-${Math.random().toString(36).substr(2, 9)}`;
-      localStorage.setItem('temp-user-id', id);
-    }
-    return id;
-  });
-  return userId;
-}
-
 // 여행지 카드
-function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, variant, onVoteToggle, isHeader, onShareClick }: any) {
+function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, variant, onVoteToggle, canVote, hasVoted, isHeader, onShareClick }: any) {
   const isCompact = variant === 'compact';
 
   // Header View (destination-header) - 타이틀 강조
@@ -181,13 +167,13 @@ function DestinationCard({ card, style, onRef, listeners, attributes, onRemove, 
               onClick={(e) => {
                 e.stopPropagation();
                 e.preventDefault();
-                if (onVoteToggle) {
-                  onVoteToggle(card.id);
-                }
+                if (canVote && onVoteToggle) onVoteToggle(card.id);
               }}
-              className="flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-pink-50 hover:bg-pink-100 border border-pink-200 transition-colors cursor-pointer"
+              disabled={!canVote}
+              title={canVote ? (hasVoted ? "투표 취소" : "이 여행지에 투표") : "로그인하면 투표할 수 있어요"}
+              className={`flex items-center gap-1 px-1.5 py-0.5 rounded-full border bg-pink-50 border-pink-200 transition-colors ${canVote ? 'hover:bg-pink-100 cursor-pointer' : 'opacity-60 cursor-default'}`}
             >
-              <span className="text-xs">💗</span>
+              <span className="text-xs">{hasVoted ? '❤️' : '💗'}</span>
               <span className="text-[10px] font-semibold text-pink-600">{voteCount}</span>
             </button>
           </div>
@@ -279,7 +265,10 @@ export function renderCardInternal(card: any, props: any = {}, variant: CardVari
 
 export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = true, onShareClick, isFutureDay = false, disablePhoto = false }: { card: any, onRemove?: () => void, variant?: CardVariant, isHeader?: boolean, canEdit?: boolean, onShareClick?: () => void, isFutureDay?: boolean, disablePhoto?: boolean }) {
   const { toggleVote, updateCard } = useCardMutations();
-  const userId = useTempUserId();
+  // 투표 신원 = 실제 로그인 유저(useSelf().id). 게스트(anon_ 접두사)는 투표 불가.
+  const self = useSelf();
+  const userId = self?.id ?? '';
+  const isLoggedIn = !!userId && !userId.startsWith('anon_');
   const { selectedAnchorId, toggleAnchor } = useAnchor();
 
   // 메모 모달 상태 관리
@@ -315,7 +304,7 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   const dragListeners = canEdit ? listeners : {};
 
   const handleVoteToggle = (cardId: string) => {
-    if (!userId) return;
+    if (!isLoggedIn) return; // 로그인 사용자만 투표 가능
     toggleVote({ cardId, userId });
   };
 
@@ -353,6 +342,8 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
         onRemove: canEdit ? onRemove : undefined, // viewer면 삭제 비활성화
         variant,
         onVoteToggle: handleVoteToggle,
+        canVote: isLoggedIn,
+        hasVoted: Array.isArray(card?.votes) && card.votes.includes(userId),
         onUpdateCard: handleUpdateCard,
         onOpenNotes: canEdit ? () => setIsNotesOpen(true) : undefined,
         hasNotes: !!(card.notes && Array.isArray(card.notes) && card.notes.length > 0),
