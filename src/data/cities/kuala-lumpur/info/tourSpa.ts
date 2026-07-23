@@ -292,6 +292,21 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%EC%96%80%ED%8A%B8%EB%A6%AC+%EC%8A%A4%ED%8C%8C+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "메르데카 광장": {
+        photos: ["/images/kuala-lumpur/info/tourSpa/merdeka-square.jpg"],
+        summary: "쿠알라룸푸르의 역사를 느낄 수 있는 상징적인 광장",
+        updatedAt: "2026-07-23",
+        highlights: ["술탄 압둘 사마드 빌딩 근처의 역사적 명소", "쿠알라룸푸르 시내 중심의 랜드마크"],
+        tips: ["저녁 시간대에 방문하여 야경 즐기기"],
+        duration: "30~60분",
+        price: "무료",
+        access: { area: "Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur, 말레이시아", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%EB%AF%80%EB%A5%B4%EB%8D%B0%EC%B9%B4%20%EA%B4%91%EC%9E%A5&query_place_id=ChIJORWImM1JzDERWTN2vAb5CzQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A9%94%EB%A5%B4%EB%8D%B0%EC%B9%B4%20%EA%B4%91%EC%9E%A5%20%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

@@ -344,7 +344,22 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Ariel%27s%20Point&query_place_id=ChIJ-9AVGmpHpTMRs7BdHEmEklY", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%A6%AC%EC%97%98%20%EC%8A%A4%ED%8C%8C%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "보라카이 선셋 세일링": {
+        photos: ["/images/boracay/info/tourSpa/boracay-sunset-sailing.jpg"],
+        summary: "보라카이 화이트 비치에서 만나는 환상적인 선셋 세일링 체험",
+        updatedAt: "2026-07-23",
+        highlights: ["화이트 비치의 황홀한 일몰 감상", "바다 위에서 즐기는 여유로운 항해"],
+        tips: ["해가 지기 전 미리 예약하여 명당 확보하기"],
+        duration: "30~60분",
+        price: "상품별 상이",
+        access: { area: "White Beach, Boracay, Aklan, 필리핀", note: "Google Place Details place_id 기반 화이트비치 집결축 좌표" },
+        bestTime: "오후~저녁",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B9%84%EC%B9%98&query_place_id=ChIJa0aowyI8pTMRsvScrmZRPkQ", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EC%84%A0%EC%85%8B%20%EC%84%B8%EC%9D%BC%EB%A7%81%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

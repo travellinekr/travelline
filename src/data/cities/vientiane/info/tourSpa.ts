@@ -287,6 +287,21 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%85%98+%ED%8C%8C%ED%81%AC+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "방비엥 블루라군": {
+        photos: ["/images/vientiane/info/tourSpa/vang-vieng-blue-lagoon.jpg"],
+        summary: "방비엥 여행의 필수 코스, 시원한 물놀이를 즐길 수 있는 블루라군",
+        updatedAt: "2026-07-23",
+        highlights: ["에메랄드빛 맑은 천연 수영장", "짜릿한 다이빙과 물놀이"],
+        tips: ["오후 시간대 방문 추천"],
+        duration: "반일~1일",
+        price: "투어/입장 조건별 상이",
+        access: { area: "W9GW+G5G, Naka, 라오스", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오후",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=%EB%B8%94%EB%A3%A8%EB%9D%BC%EA%B5%B0&query_place_id=ChIJn-6b-wjtJTERvMrsiVT5Gn4", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%A9%EB%B9%84%EC%97%A5%20%EB%B8%94%EB%A3%A8%EB%9D%BC%EA%B5%B0%20%EB%9D%BC%EC%98%A4%EC%8A%A4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

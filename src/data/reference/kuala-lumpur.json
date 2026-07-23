@@ -1,0 +1,2283 @@
+[
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLIA 익스프레스",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "겐팅 하이랜드",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아쿠아리아 KLCC",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "차이나타운 페탈링 스트리트",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 샌딩",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-solo-001",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 3박5일 자유여행 코스 총정리",
+      "url": "https://blog.naver.com/waugmagazine/224350887059",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-solo-002",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 3박5일 4박6일 일정 추천",
+      "url": "https://blog.naver.com/kuku_bin/224333090200",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-solo-001",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 4박5일 일정 추천 코스",
+      "url": "https://blog.naver.com/sugarbia/224227740669",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-solo-002",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 가볼만한곳 KLCC 부킷빈탕 바투동굴",
+      "url": "https://blog.naver.com/kuku_bin/224333061422",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-couple-001",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 부킷빈탕 파빌리온 페트로나스",
+      "url": "https://blog.naver.com/wl0607/224042302458",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숭아이 왕 플라자",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "말레이시아 국립 모스크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "미쓰이 아울렛 파크 KLIA",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-couple-002",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 차이나타운 센트럴마켓 파빌리온 잘란알로",
+      "url": "https://blog.naver.com/kamome_89/223192093668",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-couple-001",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 4박6일 자유여행 차이나타운 잘란알로",
+      "url": "https://blog.naver.com/ssong-0060/223007190667",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "페탈링 스트리트 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "겐팅 하이랜드",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "반얀트리 스파 쿠알라룸푸르",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-couple-002",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 4박6일 겐팅하이랜드 말라카 일정",
+      "url": "https://blog.naver.com/kuku_bin/224333090200",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-family-001",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 3박4일 가족여행 트윈타워 바투동굴",
+      "url": "https://blog.naver.com/dental_n1/223955506647",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "술탄 압둘 사마드 빌딩",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-family-002",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 가족여행 KLCC 바투동굴 지역별 코스",
+      "url": "https://blog.naver.com/kuku_bin/224333061422",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-family-001",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "말레이시아 쿠알라룸푸르 4박6일 가족여행 코스",
+      "url": "https://blog.naver.com/alpano/224352086835",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-family-002",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 이동방법 공항 시내 바투동굴 가족여행",
+      "url": "https://blog.naver.com/kuku_bin/224333109236",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아쿠아리아 KLCC",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수리아 KLCC",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-family-003",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 3박5일 반딧불 바투동굴 투어",
+      "url": "https://blog.naver.com/waugmagazine/224350887059",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-friends-001",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 친구여행 파빌리온 Lot10 잘란알로",
+      "url": "https://blog.naver.com/alpano/224352086835",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "잘란 알로 야시장",
+            "category": "food",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-3n5d-friends-002",
+    "city": "Kuala Lumpur",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 차이나타운 센트럴마켓 친구여행",
+      "url": "https://blog.naver.com/kamome_89/223192093668",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "바투 동굴",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "메르데카 광장",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "센트럴 마켓",
+            "category": "shopping",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "페트로나스 트윈타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "KLCC 파크",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "KL 타워",
+            "category": "tourspa",
+            "area": "쿠알라룸푸르"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 쿠알라룸푸르",
+            "category": "shopping",
+            "area": "부킷빈탕"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠알라룸푸르국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "kuala-lumpur-4n6d-friends-001",
+    "city": "Kuala Lumpur",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "쿠알라룸푸르 4박5일 부킷빈탕 파빌리온 잘란알로",
+      "url": "https://blog.naver.com/sugarbia/224227740669",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "쿠알라룸푸르",
+      "friends"
+    ]
+  }
+]

@@ -337,6 +337,22 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=PS+%EC%B9%B4%ED%8E%98+%ED%95%98%EB%94%A9%EB%A1%9C%EB%93%9C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "굿올드데이즈": {
+        photos: ["/images/singapore/info/restaurants/good-old-days-sentosa-singapore.jpg"],
+        summary: "센토사와 유니버설 스튜디오 동선에 맞춰 넣기 좋은 캐주얼 레스토랑입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["센토사 관광 동선과 가까운 위치", "가족 여행 식사로 무난한 메뉴", "유니버설 전후 식사 후보"],
+        tips: ["센토사 일정 중 식사 시간을 짧게 잡고 싶을 때 활용하기 좋습니다."],
+        reservation: { required: false, method: "방문 전 운영시간 확인 권장" },
+        menu: { signature: "센토사 캐주얼 식사", items: [{ name: "대표 메뉴", price: "S$10~40", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "방문 전 확인 권장",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14733286010222219629", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B5%BF%EC%98%AC%EB%93%9C%EB%8D%B0%EC%9D%B4%EC%A6%88+%EC%84%BC%ED%86%A0%EC%82%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

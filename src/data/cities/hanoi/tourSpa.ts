@@ -341,7 +341,58 @@ const tourSpa: TourSpaData[] = [
         features: ["팁 없는 합리적인 가격", "샤워 가능"],
         rating: 4.8,
         icon: "💆"
-    }
+    },
+    {
+        name: "하롱베이 크루즈",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Hanoi",
+        description: "하롱베이의 비경을 감상하며 여유를 즐기는 크루즈 투어",
+        duration: "4~8시간",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 20.9536861, lng: 107.055974 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["4~8시간 코스의 다양한 투어 프로그램", "하노이 근교 여행의 필수 코스"],
+        rating: 4.9,
+        icon: "📍"
+    },
+    {
+        name: "깟깟마을",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Hanoi",
+        description: "베트남 사파의 전통적인 매력을 느낄 수 있는 아름다운 소수민족 마을",
+        duration: "2~3시간",
+        priceRange: "입장료 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 22.3301416, lng: 103.8324947 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["문화 체험형 관광지", "2~3시간 소요되는 가벼운 트레킹"],
+        rating: 4.5,
+        icon: "📍"
+    },
+    {
+        name: "판시판 케이블카",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Hanoi",
+        description: "베트남의 지붕, 판시판 정상으로 향하는 환상적인 케이블카 여정",
+        duration: "3~5시간",
+        priceRange: "티켓 요금 변동",
+        pickupAvailable: false,
+        coordinates: { lat: 22.3369375, lng: 103.8241875 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["3~5시간 소요되는 짜릿한 어드벤처", "썬월드 케이블카 시스템 이용"],
+        rating: 4.5,
+        icon: "📍"
+    },
 ];
 
 export default tourSpa;

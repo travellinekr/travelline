@@ -345,7 +345,41 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=%E6%80%A1%E5%92%8C%E5%A0%82%E6%A1%A5%E5%8C%97%E8%B7%AF%E5%BA%97%20Yi%20He%20Tang%20North%20Bridge&query_place_id=ChIJsX-MA_wZ2jERiCnpRhti-nA", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=yk%ED%92%8B%EC%8A%A4%ED%8C%8C%20%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "보타닉 가든": {
+        photos: ["/images/singapore/info/tourSpa/singapore-botanic-gardens.jpg"],
+        summary: "싱가포르 도심에서 자연과 여유를 함께 즐길 수 있는 유네스코 세계유산 정원입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["넓은 산책로와 열대 정원", "오키드 가든 등 가족 관람 포인트", "더운 낮에도 쉬어가기 좋은 녹지 코스"],
+        tips: ["오키드 가든 등 일부 구역은 별도 요금이나 운영시간을 확인하세요."],
+        hours: "방문 전 확인 권장",
+        duration: "2~3시간",
+        price: "무료~유료 구역 별도",
+        reservation: { required: false, method: "특별 전시·유료 구역은 사전 확인" },
+        access: { area: "1 Cluny Rd, Singapore 259569", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "오전 또는 해질녘",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16876812000428083584", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%83%80%EB%8B%89+%EA%B0%80%EB%93%A0+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
+    "리버 크루즈": {
+        photos: ["/images/singapore/info/tourSpa/singapore-river-cruise.jpg"],
+        summary: "클락키에서 출발해 싱가포르 강과 마리나 베이 야경을 감상하는 크루즈입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["마리나 베이 야경 감상", "클락키와 강변 분위기", "짧은 일정에 넣기 쉬운 야간 액티비티"],
+        tips: ["야경을 보려면 해가 진 뒤 시간대를 선택하는 편이 좋습니다."],
+        hours: "방문 전 운항 시간 확인 권장",
+        duration: "40~60분",
+        price: "상품별 상이",
+        reservation: { required: true, method: "성수기·야간 시간대 사전 예약 권장" },
+        access: { area: "CLARK QUAY, JETTY, Singapore 058282", note: "Google Place Details place_id 기반 좌표" },
+        bestTime: "저녁~밤",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12128610364800667418", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EB%A6%AC%EB%B2%84+%ED%81%AC%EB%A3%A8%EC%A6%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;

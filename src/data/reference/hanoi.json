@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "hanoi-3n5d-solo-001",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "제주항공",
+            "category": "flight",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "분짜 닥킴",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "하노이 올드쿼터 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "항승솟 동굴",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "한식 레스토랑",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "하노이 주말 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "관상어 카페",
+            "category": "other",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이 공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 자유여행 3박5일 노팁 가성비 패키지 경비 일정 정리",
+      "url": "https://blog.naver.com/youn_dh/224263934251",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-solo-002",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "분짜 닥킴",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "카페 지앙",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "저녁",
+            "name": "동쑤언 시장",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 8,
+            "timeOfDay": "밤",
+            "name": "하노이 올드쿼터 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 단독 유람선 투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라비엔 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하롱베이 시내 전동카 투어",
+            "category": "other",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "하롱베이 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "로딩 티 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어반 오아시스 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자유 일정",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이여행 3박5일 하롱베이 자유여행 패키지 일정",
+      "url": "https://blog.naver.com/hwung_travel/224252609494",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-solo-001",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "solo",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하노이 항공권",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투어 셔틀",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "판시판 정상",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "깟깟마을",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "무제한 삼겹살",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사파 풍경 감상",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "사파 야시장",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투어 셔틀",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하롱베이 유람 데이투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "분짜 맛집",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 관광지",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 자유여행 4박6일 항공권 사파 하롱베이 단독 패키지 투어",
+      "url": "https://blog.naver.com/charla1005/224204996484",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-solo-002",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "solo",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "사파 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "사파 나이트마켓",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판시판 케이블카",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깟깟마을",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 자유여행 코스 하롱베이 사파 4박6일 후기",
+      "url": "https://blog.naver.com/charla1005/224094403442",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-couple-001",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "couple",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 사파 자유여행 3박5일 코스 판시판 깟깟마을",
+      "url": "https://blog.naver.com/my50cent/224347961370",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "hanoi-3n5d-couple-002",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "노이바이국제공항",
+            "category": "flight",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 주말 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "노이바이국제공항",
+            "category": "flight",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 주말 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 사파 여행 일정 3박5일 자유여행 경비",
+      "url": "https://blog.naver.com/jiwoo242712/224273305963",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-couple-001",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "couple",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이 시내 숙소 체크인",
+            "category": "hotel",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 맛집 탐방",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈 데이투어",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사파로 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "사파 야시장 구경",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판시판 모노레일 및 케이블카 투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깟깟마을 트래킹 및 전통의상 체험",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이로 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 샌딩",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 자유여행 하롱베이 사파 4박6일 패키지 단독 코스",
+      "url": "https://blog.naver.com/charla1005/224172645864",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-couple-002",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "couple",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "꽌안응온 하노이",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "쓰리따봉 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "피자 포피스 짱띠엔",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호치민 묘소",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카페 지앙",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동쑤언 시장",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "반미25",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 소셜 클럽",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 미딩 마사지 맛집 쇼핑 4박6일 일정",
+      "url": "https://blog.naver.com/andlstjs/224347743865",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-family-001",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "글라우드 호텔",
+            "category": "hotel",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앰버서더 시그니처 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "쿠킹클래스 및 태극권 수업",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "앰버서더 시그니처 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "라비엔 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "닌빈 투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "짱안 보트투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "항무아 전망대",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "공항 드랍 서비스",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "한국 도착",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 가족여행 하롱베이 닌빈 3박 5일 추천",
+      "url": "https://blog.naver.com/cjh3445/223664256729",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-family-002",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "카페 지앙",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "하노이 올드쿼터 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈 투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "티톱섬",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "항승솟 동굴",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라비엔 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "분짜 닥킴",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이 공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 가족여행 하롱베이 포함 3박5일 패키지 일정",
+      "url": "https://blog.naver.com/eunjihello/224028436866",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-family-001",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "family",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "그랜드 호텔 뒤 락 하노이",
+            "category": "hotel",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "카페 지앙",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "분짜 닥킴",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하롱베이 시티",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 올드쿼터 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "라비엔 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 호텔 레스토랑",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "카페 딘",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "단독 차량",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "어반 오아시스 스파",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 하롱베이 가족여행 한국어 가이드 3박5일 일정",
+      "url": "https://blog.naver.com/likez2/224264566894",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-family-002",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "family",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "에센스 레스토랑 하노이",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "닌빈 보트투어",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하롱베이 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호치민 묘소",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "분짜 닥킴",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동쑤언 시장",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "꽌안응온 하노이",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호안끼엠 호수",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "노이바이국제공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 하롱베이 닌빈 3박5일 패키지 솔직후기 일정 장단점",
+      "url": "https://blog.naver.com/enfj_yeong/224163034047",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-family-003",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "family",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "성 요셉 성당",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하노이국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 가족 여행 3박 5일 코스 닌빈 준비물",
+      "url": "https://blog.naver.com/coolestlove/223631254640",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "hanoi-3n5d-friends-001",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "사파 야시장",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판시판 케이블카",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사파 카페",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "깟깟마을",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "전용 차량",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "꽌넴",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "꽌안응온 하노이",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이 공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "베트남 하노이 사파 자유여행 3박 5일 패키지 일정 후기",
+      "url": "https://blog.naver.com/skli0612/223974862547",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "json_repair"
+    }
+  },
+  {
+    "id": "hanoi-3n5d-friends-002",
+    "city": "Hanoi",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "하노이",
+      "friends",
+      "relaxed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "제주항공",
+            "category": "flight",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "문묘",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "분짜 흐엉리엔",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "카페 지앙",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "하노이 올드쿼터 야시장",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "관상어 카페",
+            "category": "other",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이온몰 롱비엔",
+            "category": "shopping",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "transport",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 3박5일 하롱베이 자유여행 일정",
+      "url": "https://blog.naver.com/youn_dh/224263934251",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  },
+  {
+    "id": "hanoi-4n6d-friends-001",
+    "city": "Hanoi",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "하노이",
+      "friends",
+      "packed",
+      "gemma26-raw-recovered"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "인천 국제공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하롱베이 크루즈",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이에서 사파로 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사파 현지 식당",
+            "category": "food",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "사파 나이트마켓",
+            "category": "other",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "판시판 모노레일",
+            "category": "tourspa",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "깟깟마을 트래킹",
+            "category": "tourspa",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사파에서 하노이로 이동",
+            "category": "transport",
+            "area": "하노이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "롯데센터 하노이",
+            "category": "shopping",
+            "area": "하노이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하노이 기찻길 카페",
+            "category": "food",
+            "area": "하노이"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하노이 공항",
+            "category": "flight",
+            "area": "하노이"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "하노이 자유여행 코스 하롱베이 사파 4박6일 후기",
+      "url": "https://blog.naver.com/charla1005/224094403442",
+      "retrievedAt": "2026-07-23",
+      "recoveredFromGemma26Raw": "regex_days"
+    }
+  }
+]

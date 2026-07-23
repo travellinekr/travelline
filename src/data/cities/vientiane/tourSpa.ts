@@ -342,6 +342,23 @@ const tourSpa: TourSpaData[] = [
         rating: 3.7,
         icon: "🌊"
     },
+    {
+        name: "방비엥 블루라군",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Vientiane",
+        description: "비엔티안 근교 방비엥에서 즐기는 에메랄드빛 천연 수영장",
+        duration: "반일~1일",
+        priceRange: "투어/입장 조건별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 18.9263038, lng: 102.3954544 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["비엔티안 근교 데이 투어 코스", "천연 휴양지"],
+        rating: 4,
+        icon: "💧"
+    },
 ];
 
 export default tourSpa;

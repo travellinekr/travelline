@@ -426,7 +426,24 @@ const tourSpa: TourSpaData[] = [
         features: ["네이버 후기에서 반복 언급", "Google Place Details 좌표·대표사진 확인", "예약 전 픽업·샤워·팁 조건 확인 권장"],
         rating: 4.8,
         icon: "💆"
-    }
+    },
+    {
+        name: "봉가완 반딧불 투어",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Kota Kinabalu",
+        description: "봉가완 강 맹그로브 숲에서 선셋과 반딧불을 함께 보는 근교 투어",
+        duration: "반나절",
+        priceRange: "투어별 상이",
+        pickupAvailable: true,
+        coordinates: { lat: 5.5441671, lng: 115.8391647 },
+        reservationRequired: true,
+        openingHours: "투어 예약처 확인 권장",
+        features: ["맹그로브 보트 투어", "선셋 감상", "반딧불 관찰"],
+        rating: 4.4,
+        icon: "✨"
+    },
 ];
 
 export default tourSpa;

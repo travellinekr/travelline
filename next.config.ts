@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // 개발 모드 하단 Next.js 인디케이터("N" 마크) 숨김 (운영에는 원래 안 보임)
+  devIndicators: false,
   // 빌드 시 ESLint 오류 무시 (liveblocks.config.ts 타입 이슈)
   eslint: { ignoreDuringBuilds: true },
   // @supabase/ssr을 서버 전용 패키지로 지정 → 클라이언트 번들에 포함 금지

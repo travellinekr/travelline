@@ -342,6 +342,23 @@ const tourSpa: TourSpaData[] = [
         rating: 5,
         icon: "💆"
     },
+    {
+        name: "메르데카 광장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Kuala Lumpur",
+        description: "술탄 압둘 사마드 빌딩 인근의 역사적인 광장",
+        duration: "30~60분",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 3.1490605, lng: 101.6936592 },
+        reservationRequired: false,
+        openingHours: "상시 개방",
+        features: ["역사적인 분위기", "도심 속 휴식 공간"],
+        rating: 4.5,
+        icon: "🏛️"
+    },
 ];
 
 export default tourSpa;

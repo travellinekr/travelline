@@ -1,0 +1,2189 @@
+[
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-solo-001",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "태국 끄라비 방콕 3박5일 자유여행 후기",
+      "url": "https://blog.naver.com/seung-on/224284755614",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-solo-002",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "혼자 떠난 끄라비 4박5일 자유여행 아오낭 라일레이",
+      "url": "https://blog.naver.com/naina0925/221403426457",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "solo"
+    ]
+  },
+  {
+    "id": "krabi-4n6d-solo-001",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "끄라비",
+      "solo",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "태국 끄라비 자유여행 4박6일 총정리",
+      "url": "https://blog.naver.com/baba581/224098841320",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-4n6d-solo-002",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "태국 끄라비 자유여행 코스 4박5일 5박6일",
+      "url": "https://blog.naver.com/kimnanseolheon/224279671618",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "solo"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-couple-001",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 방콕 여행 1일차 아오낭 라일레이",
+      "url": "https://blog.naver.com/hgdokyung/223714858062",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-couple-002",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "태국 여행지 추천 끄라비 피피섬",
+      "url": "https://blog.naver.com/staygold__/224354737979",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "couple"
+    ]
+  },
+  {
+    "id": "krabi-4n6d-couple-001",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "끄라비",
+      "couple",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "4박6일 끄라비 방콕 자유여행 일정 공유",
+      "url": "https://blog.naver.com/seung-on/224305625431",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-4n6d-couple-002",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 홍섬 vs 피피섬 호핑투어 비교",
+      "url": "https://blog.naver.com/walksetp/224342719911",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "couple"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "transport",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "씨 시커 끄라비 리조트",
+            "category": "hotel",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "에메랄드 풀",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "클롱톰 온천",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "롱테일보트",
+            "category": "transport",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "샌드 씨 리조트 라일레이",
+            "category": "hotel",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프라낭 케이브 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-family-001",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "아이와 태국 끄라비 7박8일 여행코스",
+      "url": "https://blog.naver.com/jina0079/224175997745",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "프라낭 케이브 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비 타운 워킹스트리트 야시장",
+            "category": "shopping",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-family-002",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 대표 섬투어 홍섬 피피섬 에메랄드풀",
+      "url": "https://blog.naver.com/myrealtrip/224351156120",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-4n6d-family-001",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 5박6일 자유여행 아오낭 야시장",
+      "url": "https://blog.naver.com/ujae514/224299839284",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-4n6d-family-002",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 5박6일 일정 라일레이 홍섬 마사지",
+      "url": "https://blog.naver.com/kimnanseolheon/224279671618",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "피피섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-family-003",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 3박5일 4섬투어 라일레이",
+      "url": "https://blog.naver.com/seung-on/224284755614",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "family"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-friends-001",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 친구 여행 아오낭 라일레이 야시장",
+      "url": "https://blog.naver.com/hgdokyung/223714858062",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-3n5d-friends-002",
+    "city": "Krabi",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "pace": "relaxed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 자유여행 마사지 아오낭 라일레이 야시장",
+      "url": "https://blog.naver.com/naina0925/221403426457",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "friends"
+    ]
+  },
+  {
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라일레이 비치",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍섬",
+            "category": "tourspa",
+            "area": "끄라비"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "끄라비 4섬 투어",
+            "category": "tourspa",
+            "area": "끄라비"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아오낭 랜드마크 나이트 마켓",
+            "category": "shopping",
+            "area": "아오낭"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "끄라비국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "id": "krabi-4n6d-friends-001",
+    "city": "Krabi",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "pace": "packed",
+    "source": {
+      "platform": "naver_blog",
+      "title": "끄라비 4박6일 아오낭 비치 투어 마사지",
+      "url": "https://blog.naver.com/baba581/224098841320",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    },
+    "month": 7,
+    "themes": [
+      "끄라비",
+      "friends"
+    ]
+  }
+]

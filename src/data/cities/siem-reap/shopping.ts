@@ -77,6 +77,21 @@ const shopping: ShoppingData[] = [
         features: ["다양한 기념품 및 특산물 판매", "올드 마켓 인근의 편리한 접근성"],
         icon: "🏬"
     },
+    {
+        name: "앙코르 나이트 마켓",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Siem Reap",
+        coordinates: { lat: 13.355357, lng: 103.8519752 },
+        category: "야시장",
+        specialItems: "기념품, 의류, 길거리 간식",
+        priceRange: "매장별 상이",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: false,
+        features: ["씨엠립 대표 야시장", "가벼운 산책과 쇼핑에 적합"],
+        icon: "🌙"
+    },
 ];
 
 export default shopping;

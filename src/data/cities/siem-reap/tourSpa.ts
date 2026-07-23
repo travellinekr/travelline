@@ -257,6 +257,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4.8,
         icon: "💆"
     },
+    {
+        name: "펍 스트리트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Siem Reap",
+        description: "씨엠립의 활기찬 밤을 책임지는 펍 스트리트",
+        duration: "1~2시간",
+        priceRange: "무료~개별 소비",
+        pickupAvailable: false,
+        coordinates: { lat: 13.3548051, lng: 103.8547351 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["씨엠립 대표 관광 코스", "개별 소비로 자유로운 여행 가능"],
+        rating: 4.4,
+        icon: "🍻"
+    },
+    {
+        name: "프레 룹",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Siem Reap",
+        description: "씨엠립의 아름다운 일출과 일몰을 감상할 수 있는 고대 사원",
+        duration: "45~90분",
+        priceRange: "앙코르 패스 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 13.4349337, lng: 103.9205357 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["씨엠립 대표 투어 코스", "45~90분 소요되는 관람 시간"],
+        rating: 4.7,
+        icon: "🏛️"
+    },
+    {
+        name: "프놈 바켕",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Siem Reap",
+        description: "씨엠립의 아름다운 일몰을 감상할 수 있는 언덕 위 힌두 사원",
+        duration: "1~2시간",
+        priceRange: "앙코르 패스 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 13.423858, lng: 103.8560916 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["힌두교 사원 유적", "씨엠립 대표 뷰포인트"],
+        rating: 4.6,
+        icon: "🌄"
+    },
 ];
 
 export default tourSpa;

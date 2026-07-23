@@ -302,6 +302,21 @@ const restaurants: RestaurantData[] = [
         features: ["숲속에 온 듯한 아름다운 인테리어", "인생샷을 남기기 좋은 분위기 맛집"],
         icon: "☕"
     },
+    {
+        name: "굿올드데이즈",
+        showInInbox: true,
+        hasInfo: true,
+        type: "local",
+        city: "Singapore",
+        coordinates: { lat: 1.2516525, lng: 103.8171855 },
+        cuisine: "싱가포르식",
+        specialty: "센토사 캐주얼 식사",
+        priceRange: "S$10~40",
+        openingHours: "방문 전 확인 권장",
+        reservation: false,
+        features: ["센토사 동선에 넣기 쉬운 위치", "가족 여행 식사", "유니버설 전후 식사 후보"],
+        icon: "🍽️"
+    },
 ];
 
 export default restaurants;

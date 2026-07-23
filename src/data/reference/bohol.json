@@ -1,0 +1,2171 @@
+[
+  {
+    "id": "bohol-3n5d-solo-001",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "solo",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 자유여행 호핑투어 패키지 3박5일 일정 추천",
+      "url": "https://blog.naver.com/hjk8427_/223939307301",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-solo-002",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 호핑투어",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "버진 아일랜드 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 자유여행 비용 3박 5일 투어 일정",
+      "url": "https://blog.naver.com/jerryman84/224258755360",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-solo-001",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "브라더스 다이빙",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오토바이 대여",
+            "category": "transport",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파한곡 폭포",
+            "category": "tourspa",
+            "area": "디미아오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파한곡 폭포",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파한곡 폭포",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 4박 6일 자유여행 파한곡 폭포 투어",
+      "url": "https://blog.naver.com/leesangmii/224243472546",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-solo-002",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "solo",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "알로나 비치",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "돌조비치 스노클링",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "알로나 비치",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "알로나비치 상점가",
+            "category": "shopping",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "육상 투어",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "라벨라 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 자유여행 4박6일 일정 코스 경비 총정리",
+      "url": "https://blog.naver.com/heepal_/224337104259",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-couple-001",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오 국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "버진 아일랜드 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "필리핀 안경원숭이 보호구역",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "아바탄강 반딧불 투어",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 드롭",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 자유여행 패키지 3박5일 일정 가격 공유",
+      "url": "https://blog.naver.com/bian258/223966712500",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-couple-002",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "라메디리조트",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "프리다이빙 체험",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 호핑투어",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "SPA",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfday": "오전",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "로복",
+            "timeOfDay": "오후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "로복 에코 어드벤처 파크",
+            "category": "tourspa",
+            "area": "로복"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "필리핀 안경원숭이 보호구역",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "필리핀 보홀 자유여행 3박5일 일정 현지 투어",
+      "url": "https://blog.naver.com/wlsgml850/224097847661",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-couple-001",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "버진아일랜드 리조트",
+            "category": "hotel",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "dt": "저녁",
+            "name": "Toto e Peppino",
+            "category": "food",
+            "area": "팡라오",
+            "timeOfDay": "오후"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "헤난 프리미어 코스트",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "게리스그릴",
+            "category": "food",
+            "area": "알로나 비치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "궁스파",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "우베코 보홀",
+            "category": "food",
+            "area": "알로나 비치"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "알로나 비치",
+            "category": "tourspa",
+            "area": "알로나 비치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빠우",
+            "category": "food",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 커플 여행 4박 6일 일정 경비 총정리",
+      "url": "https://blog.naver.com/dawooo_ni/223767494686",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-couple-002",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "couple",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "전용 차량 투어",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "필리핀 안경원숭이 보호구역",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seg": 4,
+            "timeOfDay": "오후",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "보홀",
+            "seq": 2
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "버진 아일랜드 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사우스 팜스 리조트 팡라오",
+            "category": "hotel",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "두말루안 비치",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 4,
+            "tmeOfDay": "저녁",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오",
+            "timeOfDay": "오후"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 헤난 vs 솔리아 리조트 4박6일 패키지",
+      "url": "https://blog.naver.com/linemn88353/224231563811",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-family-001",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라 라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "전용 차량 투어",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빠우",
+            "category": "food",
+            "area": "팡라오"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "도도 스파 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 여행 코스 3박 5일 가족여행 후기",
+      "url": "https://blog.naver.com/pinkyluv83/224351486314",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-family-002",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "family",
+      "relaxed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아바탄강 반딧불 투어",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아바탄강 반딧불 투어",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아바탄강 반딧불 투어",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀가족여행 3박 5일 반딧불 육상투어",
+      "url": "https://blog.naver.com/eattang/224351921790",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-family-001",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오 국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "ary": "오전",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "로복",
+            "timeOfDay": "오후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "필리핀 안경원숭이 보호구역",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "블루워터 팡라오 비치 리조트",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "버진 아일랜드 보홀",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "아바탄강 반딧불 투어",
+            "category": "tourspa",
+            "area": "로복"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "우베코 보홀",
+            "category": "food",
+            "area": "알로나 비치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사우스 팜스 리조트 팡라오",
+            "category": "hotel",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "두말루안 비치",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "전용 차량 투어",
+            "category": "transport",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오 국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 4박6일 가족여행 후기",
+      "url": "https://blog.naver.com/hp0210/224130759319",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-family-002",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "family",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오 공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "공항 픽업",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나팔링 리프",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "히낙다난 동굴",
+            "category": "tourspa",
+            "area": "팡라오"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "단독 단체 풀빌라 D타입",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "ing": "오전",
+            "name": "단독 단체 풀빌라 D타입 수영장",
+            "category": "hotel",
+            "area": "팡라오",
+            "timeOfDay": "오후"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "헤난 리조트 알로나 비치",
+            "category": "hotel",
+            "area": "보홀"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "초콜릿 힐",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 샌딩 서비스",
+            "category": "transport",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 3박 5일 가족여행 패키지 독채 숙소 후기",
+      "url": "https://blog.naver.com/narsyus/224164245020",
+      "retrievedAt": "2026-07-23",
+      "repairedFromGemma26": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-family-003",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "family",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "family",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "발리카삭 섬",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "필리핀 보홀 패키지 가족여행 3박 5일 일정 총정리",
+      "url": "https://blog.naver.com/eo59173/224319868793",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-friends-001",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "friends",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "굿스파",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "굿스파",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "로복강 크루즈",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "굿스파",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "필리핀 보홀 자유여행 3박5일 숙소 투어 일정 총정리",
+      "url": "https://blog.naver.com/ay5870/224354828482",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "bohol-3n5d-friends-002",
+    "city": "Bohol",
+    "nights": 3,
+    "days": 5,
+    "companion": "friends",
+    "month": 7,
+    "pace": "relaxed",
+    "themes": [
+      "보홀",
+      "friends",
+      "relaxed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시칠리",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시칠리",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "빌라르 맨메이드 포레스트",
+            "category": "tourspa",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시칠리",
+            "category": "tourspa",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀여행 3박5일 자유여행 패키지 호핑투어 예약",
+      "url": "https://blog.naver.com/uni7741/224307042346",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  },
+  {
+    "id": "bohol-4n6d-friends-001",
+    "city": "Bohol",
+    "nights": 4,
+    "days": 6,
+    "companion": "friends",
+    "month": 7,
+    "pace": "packed",
+    "themes": [
+      "보홀",
+      "friends",
+      "packed",
+      "fallback-from-evidence"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "숙소 체크인",
+            "category": "hotel",
+            "area": "팡라오"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "졸리비",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "점보크랩",
+            "category": "flight",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "졸리비",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "점보크랩",
+            "category": "flight",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "졸리비",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "점보크랩",
+            "category": "flight",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "졸리비",
+            "category": "flight",
+            "area": "보홀"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "점보크랩",
+            "category": "flight",
+            "area": "보홀"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "label": "6일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "아일랜드 시티몰",
+            "category": "shopping",
+            "area": "타그빌라란"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "보홀 팡라오국제공항",
+            "category": "flight",
+            "area": "팡라오"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "title": "보홀 4박 6일 자유여행 일정 총정리",
+      "url": "https://blog.naver.com/yumlog1218/224351617303",
+      "retrievedAt": "2026-07-23",
+      "fallback": true
+    }
+  }
+]

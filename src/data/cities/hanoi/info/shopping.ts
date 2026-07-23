@@ -144,6 +144,20 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%AD%EB%8B%A4+%EC%8B%9C%EC%9E%A5+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "하롱베이 야시장": {
+        photos: ["/images/hanoi/info/shopping/halong-night-market.jpg"],
+        summary: "현지 분위기를 만끽하며 쇼핑과 길거리 음식을 즐길 수 있는 야시장",
+        updatedAt: "2026-07-23",
+        highlights: ["다채로운 베트남 길거리 음식", "가성비 좋은 기념품 쇼핑"],
+        tips: ["저녁 시간대에 방문하여 활기찬 분위기를 즐기세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?q=Halong%20Night%20Market&query_place_id=ChIJaeVtefRYSjER8mZ1BjqlgzM", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%A1%B1%EB%B2%A0%EC%9D%B4%20%EC%95%BC%EC%8B%9C%EC%9E%A5%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
+        ]
+    },
 };
 
 export default info;
