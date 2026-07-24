@@ -183,8 +183,6 @@ export async function POST(request: NextRequest) {
                 });
         }
 
-        console.log(`[liveblocks-auth] user=${user.id} room=${room} role=${role}`);
-
         // 4. Liveblocks 권한 결정
         const canWrite = role === 'owner' || role === 'editor';
 

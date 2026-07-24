@@ -44,8 +44,6 @@ export async function POST(req: Request) {
   try {
     if (!apiKey) throw new Error("키가 없습니다");
 
-    console.log(`[API] ${month}월 요청 (언어: ${config.outputLang})`);
-
     // 💥 [핵심] 언어 설정에 따라 프롬프트가 동적으로 바뀝니다.
     const promptText = `
       ${config.role}
@@ -91,8 +89,7 @@ export async function POST(req: Request) {
     const result = await response.json();
     let text = result.candidates[0].content.parts[0].text;
     text = text.replace(/```json/g, "").replace(/```/g, "").trim();
-    
-    console.log(`🎉 ${config.outputLang} 응답 성공!`);
+
     return NextResponse.json(JSON.parse(text));
 
   } catch (error) {

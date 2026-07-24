@@ -83,15 +83,6 @@ export async function GET(request: NextRequest) {
             return !hasOnlyExcludedTypes;
         });
 
-        console.log('[Nearby API] 전체 결과:', allPlaces.length, '개');
-        console.log('[Nearby API] 필터링 후:', validPlaces.length, '개');
-
-        if (validPlaces.length > 0) {
-            validPlaces.forEach((place: any, index: number) => {
-                console.log(`[Nearby API] ${index + 1}. ${place.name} (types: ${place.types.join(', ')})`);
-            });
-        }
-
         // 가장 가까운 유효한 장소 선택
         if (validPlaces.length === 0) {
             return NextResponse.json({
@@ -108,24 +99,14 @@ export async function GET(request: NextRequest) {
         // Place Details API로 한글 이름 가져오기
         try {
             const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${nearestPlace.id}&fields=name,formatted_address&language=ko&key=${apiKey}`;
-            console.log('[Nearby API] Place Details 요청:', detailsUrl.replace(apiKey, 'API_KEY'));
 
             const detailsResponse = await fetch(detailsUrl, { next: { revalidate: 86400 } });
             const detailsData = await detailsResponse.json();
-
-            console.log('[Nearby API] Place Details 응답:', {
-                status: detailsData.status,
-                name: detailsData.result?.name,
-                address: detailsData.result?.formatted_address,
-                originalName: nearestPlace.name
-            });
 
             if (detailsData.status === 'OK' && detailsData.result) {
                 // 한글 이름으로 업데이트
                 const newName = detailsData.result.name || nearestPlace.name;
                 const newAddress = detailsData.result.formatted_address || nearestPlace.address;
-
-                console.log('[Nearby API] 이름 업데이트:', nearestPlace.name, '→', newName);
 
                 nearestPlace.name = newName;
                 nearestPlace.address = newAddress;

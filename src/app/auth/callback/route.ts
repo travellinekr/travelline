@@ -12,8 +12,6 @@ export async function GET(request: NextRequest) {
     const isDev = process.env.NODE_ENV === 'development';
     const origin = isDev ? requestUrl.origin : (process.env.NEXT_PUBLIC_SITE_URL || requestUrl.origin);
 
-    console.log(`[Auth Callback] Code: ${code ? 'Yes' : 'No'}, Next: ${next}, Origin: ${origin}`);
-
     if (code) {
         try {
             const cookieStore = await cookies();
