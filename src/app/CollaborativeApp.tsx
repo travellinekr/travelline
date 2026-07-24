@@ -1164,7 +1164,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 <div
                                     ref={floatingBtnRef}
                                     data-tour="ai"
-                                    className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"
+                                    className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 shadow-xl shadow-orange-400/40 ring-1 ring-white/50"
                                     onTouchStart={handleTouchStart}
                                     onTouchEnd={handleTouchEnd}
                                     onTouchMove={handleTouchMove}
