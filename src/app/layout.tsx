@@ -65,6 +65,12 @@ export default function RootLayout({
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places,marker&loading=async`}
           strategy="afterInteractive"
         />
+
+        {/* Kakao JS SDK (공유하기) — init 은 사용처(ShareModal)에서 지연 실행 */}
+        <Script
+          src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
