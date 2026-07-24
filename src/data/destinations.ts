@@ -104,9 +104,7 @@ export const FALLBACK_IMAGES: Record<string, string> = {
     "Kuala Lumpur": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuala_Lumpur_Skyline_at_dusk_1.jpg?width=800",
     "Boracay": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay_White_Beach.png?width=800",
     "Guam": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_of_Tumon_Bay,_Guam,_USA_(8532198983).jpg?width=800",
-    "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800",
-    "Paris": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_01.jpg?width=800",
-    "Mallorca": "https://commons.wikimedia.org/wiki/Special:FilePath/Kathedrale_von_Palma_II.jpg?width=800"
+    "Ulaanbaatar": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukhbaatar_Square_-_Ulan_Bator_Ulaanbaatar,_Mongolia_-_Улаанбатар_(6246770744).jpg?width=800"
 };
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -480,26 +478,6 @@ export const DESTINATION_DATA: Record<RegionKey, RegionData> = {
                 landmark: "Genghis Khan Statue Complex",
                 airports: [{ name: "칭기스칸국제공항", code: "UBN" }],
                 timezone: 8
-            },
-            {
-                name: "파리",
-                engName: "Paris",
-                country: "프랑스",
-                desc: "낭만의 도시",
-                tags: ["예술", "로맨틱"],
-                landmark: "Eiffel Tower",
-                airports: [{ name: "샤를드골공항", code: "CDG" }],
-                timezone: 1
-            },
-            {
-                name: "마요르카",
-                engName: "Mallorca",
-                country: "스페인",
-                desc: "지중해의 보석",
-                tags: ["휴양", "인생샷"],
-                landmark: "Palma Cathedral",
-                airports: [{ name: "팔마데마요르카공항", code: "PMI" }],
-                timezone: 1
             },
         ]
     }

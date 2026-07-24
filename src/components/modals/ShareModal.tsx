@@ -27,12 +27,37 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
         ...others.map((o) => o.id),
     ]);
 
-    const handleKakao = () => {
-        const kakaoUrl = `kakaotalk://msg/send?text=${encodeURIComponent(shareUrl)}`;
-        window.location.href = kakaoUrl;
-        setTimeout(() => {
-            // 앱이 없으면 클립보드에 복사 안내
-        }, 1500);
+    // SDK/키 미준비 시 링크 복사로 폴백 (조용히 복사 후 안내)
+    const fallbackCopy = async (msg: string) => {
+        try {
+            await navigator.clipboard.writeText(shareUrl);
+            addToast(msg, 'info');
+        } catch {
+            addToast('복사에 실패했습니다.', 'warning');
+        }
+    };
+
+    const handleKakao = async () => {
+        const key = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
+        const Kakao = typeof window !== 'undefined' ? (window as any).Kakao : undefined;
+
+        // 키 미설정 또는 SDK 미로드 → 링크 복사 폴백
+        if (!key || !Kakao) {
+            await fallbackCopy('카카오 공유 준비 전이라 링크를 복사했어요.');
+            return;
+        }
+        try {
+            if (!Kakao.isInitialized()) Kakao.init(key);
+            Kakao.Share.sendDefault({
+                objectType: 'text',
+                text: '함께 여행 계획을 짜요 ✈️\nTravelline에서 실시간으로 같이 편집할 수 있어요.',
+                link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
+                buttonTitle: '여행 보드 열기',
+            });
+        } catch {
+            // 도메인 미등록 등 실패 시에도 링크 복사로 폴백
+            await fallbackCopy('카카오 공유에 실패해 링크를 복사했어요.');
+        }
     };
 
     const handleLine = () => {

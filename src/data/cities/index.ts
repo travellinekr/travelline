@@ -279,16 +279,6 @@ import ulaanbaatarShopping from './ulaanbaatar/shopping';
 import ulaanbaatarTransport from './ulaanbaatar/transport';
 import ulaanbaatarTourSpa from './ulaanbaatar/tourSpa';
 
-import parisAccommodations from './paris/accommodations';
-import parisRestaurants from './paris/restaurants';
-import parisShopping from './paris/shopping';
-import parisTransport from './paris/transport';
-
-import mallorcaAccommodations from './mallorca/accommodations';
-import mallorcaRestaurants from './mallorca/restaurants';
-import mallorcaShopping from './mallorca/shopping';
-import mallorcaTransport from './mallorca/transport';
-
 export const CITY_DATA: Record<string, CityBundle> = {
     "Osaka": {
         accommodations: osakaAccommodations,
@@ -506,17 +496,5 @@ export const CITY_DATA: Record<string, CityBundle> = {
         shopping: ulaanbaatarShopping,
         transport: ulaanbaatarTransport,
         tourSpa: ulaanbaatarTourSpa,
-    },
-    "Paris": {
-        accommodations: parisAccommodations,
-        restaurants: parisRestaurants,
-        shopping: parisShopping,
-        transport: parisTransport,
-    },
-    "Mallorca": {
-        accommodations: mallorcaAccommodations,
-        restaurants: mallorcaRestaurants,
-        shopping: mallorcaShopping,
-        transport: mallorcaTransport,
     },
 };

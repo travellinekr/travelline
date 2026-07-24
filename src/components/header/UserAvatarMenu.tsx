@@ -220,7 +220,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         setPendingUserId(null);
     };
 
-    // ─── 비로그인 사용자: 회원가입 버튼 표시 ───
+    // ─── 비로그인 방문자: 단일 "참여하기" 버튼 (앱 컨셉 = 로그인/회원가입 구분 없이 시작) ───
     if (!user) {
         // shareUrl에서 경로만 추출 (예: /room/abc-123)
         const boardPath = (() => {
@@ -229,20 +229,12 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         const loginUrl = `/login?redirect=${encodeURIComponent(boardPath)}`;
 
         return (
-            <div className="flex items-center gap-2">
-                <button
-                    onClick={() => router.push(loginUrl)}
-                    className="text-sm font-medium text-slate-500 hover:text-slate-700 transition-colors px-3 py-1.5"
-                >
-                    로그인
-                </button>
-                <button
-                    onClick={() => router.push(loginUrl)}
-                    className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
-                >
-                    회원가입
-                </button>
-            </div>
+            <button
+                onClick={() => router.push(loginUrl)}
+                className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+            >
+                참여하기
+            </button>
         );
     }
 

@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Plus, MapPin, Users, Lightbulb, Plane, Star } from "lucide-react";
+import { Plus, MapPin, Lightbulb, Plane, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import ProjectCard from "@/components/dashboard/ProjectCard";
 import CreateProjectModal from "@/components/dashboard/CreateProjectModal";
@@ -14,24 +15,24 @@ import { useAuth } from "@/hooks/useAuth";
 // ─── 롤링 배너 카드 데이터 ────────────────────────────────
 const ROLLING_CARDS = [
   {
-    id: "shared-1",
-    type: "shared",
-    icon: <Users className="w-5 h-5" />,
-    badge: "✈️ 공유 플랜",
-    title: "오사카 3박4일 완벽 가이드",
-    desc: "도톤보리, 유니버셜 스튜디오, 나라 당일치기까지!",
+    id: "region-japan",
+    type: "region",
+    icon: <MapPin className="w-5 h-5" />,
+    badge: "🗾 일본",
+    title: "일본, 도시별로 계획하기",
+    desc: "오사카·도쿄·후쿠오카·삿포로·오키나와 — 가고 싶은 도시를 골라 나만의 일정으로",
     tag: "일본",
-    color: "from-orange-400 to-rose-400",
+    color: "from-rose-400 to-red-400",
   },
   {
-    id: "shared-2",
-    type: "shared",
+    id: "region-china-taiwan",
+    type: "region",
     icon: <MapPin className="w-5 h-5" />,
-    badge: "🗺️ 공유 플랜",
-    title: "파리 신혼여행 5박6일",
-    desc: "에펠탑, 루브르 박물관, 베르사유 궁전 완벽 코스",
-    tag: "프랑스",
-    color: "from-pink-400 to-purple-400",
+    badge: "🏮 중국·대만",
+    title: "중화권, 도시별로 계획하기",
+    desc: "타이베이·홍콩·상하이·다롄 — 도시부터 골라 여행 일정을 짜보세요",
+    tag: "중국·대만",
+    color: "from-amber-400 to-orange-400",
   },
   {
     id: "how-1",
@@ -44,14 +45,24 @@ const ROLLING_CARDS = [
     color: "from-teal-400 to-cyan-400",
   },
   {
-    id: "shared-3",
-    type: "shared",
+    id: "region-se-asia",
+    type: "region",
+    icon: <MapPin className="w-5 h-5" />,
+    badge: "🌴 동남아시아",
+    title: "동남아, 도시별로 계획하기",
+    desc: "다낭·방콕·발리·나트랑·세부·푸꾸옥 등 20개 도시를 골라 일정으로",
+    tag: "동남아",
+    color: "from-teal-400 to-emerald-400",
+  },
+  {
+    id: "region-long-haul",
+    type: "region",
     icon: <Plane className="w-5 h-5" />,
-    badge: "✈️ 공유 플랜",
-    title: "제주도 가족여행 4박5일",
-    desc: "한라산 트레킹, 성산일출봉, 협재해수욕장 코스",
-    tag: "제주",
-    color: "from-emerald-400 to-teal-400",
+    badge: "✈️ 이색·장거리",
+    title: "이색·장거리, 도시별로 계획하기",
+    desc: "괌·울란바토르부터 시작 — 파리 등 유럽 도시는 곧 추가돼요",
+    tag: "장거리",
+    color: "from-sky-400 to-blue-500",
   },
   {
     id: "how-2",
@@ -70,11 +81,11 @@ function RollingBanner() {
   const [idx, setIdx] = useState(0);
   const total = ROLLING_CARDS.length; // 5
 
-  // 3초마다 1칸씩 전진
+  // 8초마다 1칸씩 전진 (기존 3초 → 5초 더 늦춤)
   useEffect(() => {
     const t = setInterval(() => {
       setIdx((prev) => (prev + 1) % total);
-    }, 3000);
+    }, 8000);
     return () => clearInterval(t);
   }, [total]);
 
@@ -97,44 +108,59 @@ function RollingBanner() {
 
         {/* 데스크탑: 3칸 롤링 그리드 */}
         <div className="hidden md:grid grid-cols-3 gap-5">
-          {desktopCards.map((card, i) => (
-            <div
-              key={`${card.id}-${idx}-${i}`}
-              className={`bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[140px] flex flex-col justify-between cursor-pointer hover:scale-[1.02] hover:shadow-lg transition-all duration-200 animate-in fade-in duration-500`}
-            >
-              <div className="flex items-start justify-between">
-                <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
-                  {card.icon}
-                  {card.badge}
+          {desktopCards.map((card, i) => {
+            const key = `${card.id}-${idx}-${i}`;
+            const interactive = card.type === "guide";
+            const cls = `bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[140px] flex flex-col justify-between transition-all duration-200 animate-in fade-in duration-500 ${interactive ? "cursor-pointer hover:scale-[1.02] hover:shadow-lg" : ""}`;
+            const content = (
+              <>
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                    {card.icon}
+                    {card.badge}
+                  </div>
+                  <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{card.tag}</span>
                 </div>
-                <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{card.tag}</span>
-              </div>
-              <div>
-                <h3 className="text-base font-bold mb-1 line-clamp-1">{card.title}</h3>
-                <p className="text-white/80 text-xs leading-relaxed line-clamp-2">{card.desc}</p>
-              </div>
-            </div>
-          ))}
+                <div>
+                  <h3 className="text-base font-bold mb-1 line-clamp-1">{card.title}</h3>
+                  <p className="text-white/80 text-xs leading-relaxed line-clamp-2">{card.desc}</p>
+                </div>
+              </>
+            );
+            return card.type === "guide" ? (
+              <Link key={key} href="/guide" className={cls}>{content}</Link>
+            ) : (
+              <div key={key} className={cls}>{content}</div>
+            );
+          })}
         </div>
 
         {/* 모바일: 1장 롤링 */}
         <div className="md:hidden">
-          <div
-            key={`mobile-${idx}`}
-            className={`bg-gradient-to-br ${mobileCard.color} rounded-2xl p-5 text-white h-[120px] flex flex-col justify-between animate-in fade-in duration-500`}
-          >
-            <div className="flex items-start justify-between">
-              <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
-                {mobileCard.icon}
-                {mobileCard.badge}
-              </div>
-              <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{mobileCard.tag}</span>
-            </div>
-            <div>
-              <h3 className="text-base font-bold mb-1">{mobileCard.title}</h3>
-              <p className="text-white/80 text-xs line-clamp-2">{mobileCard.desc}</p>
-            </div>
-          </div>
+          {(() => {
+            const interactive = mobileCard.type === "guide";
+            const cls = `bg-gradient-to-br ${mobileCard.color} rounded-2xl p-5 text-white h-[120px] flex flex-col justify-between animate-in fade-in duration-500 ${interactive ? "cursor-pointer" : ""}`;
+            const content = (
+              <>
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                    {mobileCard.icon}
+                    {mobileCard.badge}
+                  </div>
+                  <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{mobileCard.tag}</span>
+                </div>
+                <div>
+                  <h3 className="text-base font-bold mb-1">{mobileCard.title}</h3>
+                  <p className="text-white/80 text-xs line-clamp-2">{mobileCard.desc}</p>
+                </div>
+              </>
+            );
+            return mobileCard.type === "guide" ? (
+              <Link key={`mobile-${idx}`} href="/guide" className={cls}>{content}</Link>
+            ) : (
+              <div key={`mobile-${idx}`} className={cls}>{content}</div>
+            );
+          })()}
           {/* 인디케이터 */}
           <div className="flex justify-center gap-1.5 mt-3">
             {ROLLING_CARDS.map((_, i) => (
