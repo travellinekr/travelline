@@ -50,7 +50,7 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
             if (!Kakao.isInitialized()) Kakao.init(key);
             Kakao.Share.sendDefault({
                 objectType: 'text',
-                text: '함께 여행 계획을 짜요 ✈️\nTravelline에서 실시간으로 같이 편집할 수 있어요.',
+                text: '함께 여행 계획을 짜요\nTravelline에서 실시간으로 같이 편집할 수 있어요.',
                 link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
                 buttonTitle: '여행 보드 열기',
             });
