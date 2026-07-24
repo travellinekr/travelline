@@ -452,6 +452,21 @@ const restaurants: RestaurantData[] = [
         features: ["정통 딤섬의 진수", "최고급 해산물 요리"],
         icon: "🥢"
     },
+    {
+        name: "몽콕 야시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "chinese",
+        city: "Hong Kong",
+        coordinates: { lat: 22.3180557, lng: 114.1708472 },
+        cuisine: "야시장 먹거리",
+        specialty: "계란 와플(Gai Dan Jai), 어묵 꼬치, 커리 피쉬볼 등 홍콩 전통 길거리 간식",
+        priceRange: "HK$30~120",
+        openingHours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        reservation: false,
+        features: ["로컬 푸드 체험", "가성비 쇼핑", "야간 관광 명소"],
+        icon: "N"
+    }
 ];
 
 export default restaurants;

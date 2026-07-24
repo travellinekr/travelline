@@ -172,6 +172,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4.5,
         icon: "⛲"
     },
+    {
+        name: "나카스 야타이 거리",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Fukuoka",
+        description: "후쿠오카 나카스 강변을 따라 늘어선 낭만적인 포장마차 거리로, 현지 분위기를 만끽하며 다양한 길거리 음식을 즐길 수 있는 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "무료 산책·식사 별도",
+        pickupAvailable: false,
+        coordinates: { lat: 33.5903982, lng: 130.4082999 },
+        reservationRequired: false,
+        openingHours: "월요일: 오후 6:00 ~ 오전 12:00; 화요일: 오후 6:00 ~ 오전 12:00",
+        features: ["야간 산책", "로컬 푸드 체험", "강변 야경"],
+        rating: 3.5,
+        icon: "Y"
+    },
+    {
+        name: "유후인 당일치기",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Fukuoka",
+        description: "영국의 코츠월드를 모티브로 조성된 테마파크로, 아기자기한 동화 속 마을을 그대로 옮겨놓은 듯한 이국적인 분위기를 느낄 수 있는 곳입니다.",
+        duration: "하루",
+        priceRange: "교통·상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 33.2674871, lng: 131.3655357 },
+        reservationRequired: true,
+        openingHours: "월요일: 오전 9:30 ~ 오후 5:00; 화요일: 오전 9:30 ~ 오후 5:00",
+        features: ["동화 테마", "이국적 풍경", "사진 명소"],
+        rating: 4.1,
+        icon: "Y"
+    },
+    {
+        name: "벳푸 지옥온천",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Fukuoka",
+        description: "오이타현 벳푸시에 위치한 신비로운 온천 명소로, 마치 지옥을 연상시키는 독특한 색과 열기를 가진 여러 개의 온천 호수를 차례로 둘러보는 코스입니다.",
+        duration: "반나절~하루",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 33.3158833, lng: 131.4696745 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        features: ["자연 경관 감상", "이색적인 사진 촬영", "온천 체험"],
+        rating: 4.2,
+        icon: "B"
+    }
 ];
 
 export default tourSpa;

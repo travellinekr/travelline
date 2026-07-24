@@ -1,0 +1,2287 @@
+[
+  {
+    "id": "guam-3n4d-solo-001",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cafe412/224138796248",
+      "title": "괌 3박4일 투몬 남부 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-solo-002",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/reallygoodchoice/224183421929",
+      "title": "괌 3박4일 투몬 중심 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-solo-003",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리티디안 비치",
+            "category": "tourspa",
+            "area": "북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/heabara/224305154334",
+      "title": "괌 4박5일 렌트카 K마트 GPO 사랑의절벽 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-solo-004",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬",
+            "note": "숙소 인근 투몬 비치에서 휴양 시작"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "T 갤러리아 DFS 괌",
+            "category": "shopping",
+            "area": "투몬",
+            "note": "시내 쇼핑 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "렌터카 대여",
+            "category": "transport",
+            "area": "공항/투몬",
+            "note": "머스탱 등 오픈카로 드라이브 준비"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부",
+            "note": "예쁜 비치와 해중 전망대 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "북부 투어",
+            "category": "tourspa",
+            "area": "북부",
+            "note": "렌터카를 이용한 북부 지역 드라이브"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "여행 마무리 기념품 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "대중교통보다는 렌터카를 이용해 남부 투어를 하는 것을 추천합니다.",
+      "남부 지역에 볼거리가 더 많으므로 일정 계획 시 참고하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cruiserlaw/224230048646",
+      "title": "괌 4박5일 렌터카 북부 남부 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-couple-005",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "밤",
+            "name": "두짓타니 괌 리조트",
+            "category": "hotel",
+            "area": "투몬",
+            "note": "도착 후 체크인 및 휴식"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피시 아이 마린 파크",
+            "category": "tourspa",
+            "area": "피티",
+            "note": "돌핀 크루즈 투어 진행"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "투몬 샌즈 플라자",
+            "category": "shopping",
+            "area": "투몬",
+            "note": "저녁 식사 및 쇼핑 자유시간"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬",
+            "note": "렌트카로 해안도로 드라이브 및 전망 코스 방문"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "렌트카 이용 쇼핑몰 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬",
+            "note": "낮 시간 숙소 및 해변에서 여유로운 휴식"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "밤",
+            "name": "괌 별빛투어",
+            "category": "tourspa",
+            "area": "남부",
+            "note": "로맨틱한 밤하늘 사진 촬영"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "숙소를 한 곳에 고정하면 짐 이동 없이 투어에 집중하기 좋습니다.",
+      "별빛투어 시 사진이 깔끔하게 나오도록 밝은 색 옷이나 심플한 커플룩을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/43dsdio8sdf/224340663640",
+      "title": "커플 3박4일 신혼 돌핀 별빛 렌트카 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-couple-006",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/davi-kim/224310465091",
+      "title": "커플 3박4일 돌핀크루즈 호텔 휴식 별빛 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-couple-007",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리티디안 비치",
+            "category": "tourspa",
+            "area": "북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/doa_pic/223882422881",
+      "title": "커플 4박5일 돌핀크루즈 별빛투어 남부 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-couple-008",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이파오 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/uni7741/223749049333",
+      "title": "커플 4박5일 투몬비치 쇼핑 맛집 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-family-009",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ha7ai1010/224352900298",
+      "title": "가족 3박4일 돌핀크루즈 경비 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-family-010",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/5fiona/224316506642",
+      "title": "가족 3박4일 돌핀 에메랄드밸리 K마트 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-family-011",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리티디안 비치",
+            "category": "tourspa",
+            "area": "북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cafe412/224138796248",
+      "title": "가족 4박5일 투몬 남부 북부 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-family-012",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이파오 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lovelyyenii/224190489791",
+      "title": "가족 태교 3박4일 건비치 선셋 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-family-013",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "힐튼 괌 리조트 앤 스파",
+            "category": "hotel",
+            "area": "투몬",
+            "note": "호텔 체크인"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "괌 별빛투어",
+            "category": "tourspa",
+            "area": "남부",
+            "note": "밤하늘 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓",
+            "note": "돌고래 와칭 및 스노쿨링"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부",
+            "note": "에메랄드빛 물색 감상"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "투러버스포인트",
+            "category": "tourspa",
+            "area": "괌",
+            "note": "전망대 방문"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "리티디안 비치",
+            "category": "tourspa",
+            "area": "북부",
+            "note": "경치 구경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피시 아이 마린 파크",
+            "category": "tourspa",
+            "area": "피티",
+            "note": "수중 전망대 관람"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "탈리팍다리",
+            "category": "tourspa",
+            "area": "괌",
+            "note": "산책 및 사진 촬영"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "메리조공원",
+            "category": "tourspa",
+            "area": "괌",
+            "note": "공원 산책"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "쇼핑 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "other",
+            "area": "괌",
+            "note": "체크아웃 후 귀국 준비"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "돌핀크루즈 이용 시 멀미약과 자외선 차단제를 꼭 챙기세요.",
+      "투어 예약 시 돌핀크루즈와 별빛투어를 패키지로 이용하면 비용을 절약할 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/easy_zero/224236875771",
+      "title": "가족 보강 돌핀크루즈 코스 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-friends-014",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "괌는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youqing2/223239518479",
+      "title": "친구 3박4일 마이크로네시아몰 K마트 GPO packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-3n4d-friends-015",
+    "city": "Guam",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "괌",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도",
+            "note": "메이시스 백화점 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬",
+            "note": "멋진 바다 풍경 감상"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "타미 힐링 쇼핑"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "빌리지 오브 돈키",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "기념품 및 간식 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "타미 힐링을 원한다면 GPO 세일 기간을 노려보세요.",
+      "마그넷 예쁜 것을 찾으려면 K마트를 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chodudal/224078476994",
+      "title": "친구 3박4일 마이크로네시아몰 사랑의절벽 GPO relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "guam-4n5d-friends-016",
+    "city": "Guam",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "괌",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "파란 렌터카",
+            "category": "other",
+            "area": "괌 공항",
+            "note": "공항 도착 후 차량 픽업"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "괌 리프 호텔",
+            "category": "hotel",
+            "area": "투몬",
+            "note": "체크인 및 휴식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "마낭 피카",
+            "category": "food",
+            "area": "타무닝",
+            "note": "현지인 추천 타코 맛집"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "GPO 쇼핑"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "로스 드레스 포 레스",
+            "category": "shopping",
+            "area": "타무닝",
+            "note": "아기 옷 및 의류 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "투몬 비치",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사랑의 절벽",
+            "category": "tourspa",
+            "area": "투몬"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 K마트",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "돌핀 크루즈",
+            "category": "tourspa",
+            "area": "아갓"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "에메랄드 밸리",
+            "category": "tourspa",
+            "area": "남부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 남부투어",
+            "category": "tourspa",
+            "area": "남부"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "리티디안 비치",
+            "category": "tourspa",
+            "area": "북부"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마이크로네시아 몰",
+            "category": "shopping",
+            "area": "데데도"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌 프리미어 아울렛",
+            "category": "shopping",
+            "area": "타무닝"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "괌"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "더 비치 바",
+            "category": "food",
+            "area": "괌"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "괌국제공항",
+            "category": "flight",
+            "area": "공항"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "마낭 피카 방문 시 고수를 싫어한다면 주문 시 꼭 빼달라고 요청하세요.",
+      "ROSS에서 아기 옷이나 브랜드 의류를 득템하려면 오전 방문을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cea1222/224341550036",
+      "title": "친구 4박5일 타코 GPO ROSS 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

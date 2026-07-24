@@ -503,6 +503,19 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EC%99%80+%EB%A7%8C%EB%8B%A4%EB%A6%B0+%EC%98%A4%EB%A6%AC%EC%97%94%ED%83%88+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "몽콕 야시장": {
+        photos: ["/images/hong-kong/info/restaurants/mong-kok-night-market.jpg"],
+        summary: "다양한 로컬 간식과 쇼핑을 동시에 즐길 수 있는 홍콩 대표 야시장",
+        updatedAt: "2026-07-23",
+        highlights: ["화려한 홍콩 스타일의 길거리 음식 탐방", "저렴하고 다양한 기념품 쇼핑", "현지 분위기가 물씬 풍기는 활기찬 밤거리"],
+        tips: ["인기 있는 간식은 대기 줄이 길 수 있으니 여유 있게 방문하세요. 현금 결제가 필요한 경우가 많으니 잔돈을 준비하는 것이 좋습니다."],
+        reservation: { required: false, method: "피크타임 방문 전 현지 상황 확인 권장" },
+        menu: { signature: "계란 와플(Gai Dan Jai), 어묵 꼬치, 커리 피쉬볼 등 홍콩 전통 길거리 간식", items: [{ name: "대표 먹거리", price: "HK$30~120", note: "메뉴와 가격은 현지 상황에 따라 변동 가능" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "현지 결제수단 확인"],
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=12672619749188803694", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=12672619749188803694", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

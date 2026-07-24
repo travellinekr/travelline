@@ -87,6 +87,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4.7,
         icon: "🚤"
     },
+    {
+        name: "황푸강 유람선",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cruise",
+        city: "Shanghai",
+        description: "황푸강의 물결을 따라 상하이의 화려한 스카이라인을 한눈에 담을 수 있는 크루즈 투어입니다. 와이탄의 고전적인 건축물과 푸동의 현대적인 마천루가 만들어내는 환상적인 야경을 감상하며 낭만적인 시간을 보낼 수 있습니다.",
+        duration: "1~2시간",
+        priceRange: "티켓별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.2314, lng: 121.4943 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["1~2시간", "티켓별 상이", "True"],
+        rating: 4.5,
+        icon: "C"
+    },
+    {
+        name: "우캉루",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Shanghai",
+        description: "상하이 프랑스 조계지의 정취를 그대로 간직한 우캉루는 아름다운 플라타너스 가로수길과 유럽풍 건축물이 어우러진 상하이의 대표적인 산책 코스입니다. 역사적인 우캉맨션을 배경으로 이국적인 풍경을 만끽할 수 있습니다.",
+        duration: "1~2시간",
+        priceRange: "무료 구역 중심",
+        pickupAvailable: false,
+        coordinates: { lat: 31.20844, lng: 121.4404 },
+        reservationRequired: false,
+        openingHours: "방문 전 확인 권장",
+        features: ["city-tour", "1~2시간", "무료 구역 중심"],
+        rating: 4.3,
+        icon: "W"
+    },
+    {
+        name: "상하이 서커스 월드",
+        showInInbox: true,
+        hasInfo: true,
+        type: "show",
+        city: "Shanghai",
+        description: "전통적인 서커스 기술과 현대적인 미디어 아트를 결합하여 눈을 뗄 수 없는 화려한 퍼포먼스를 선보이는 상하이의 대표 공연장입니다.",
+        duration: "2시간",
+        priceRange: "공연 티켓별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 31.3065, lng: 121.4479 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["약 2시간", "티켓 종류별 상이", "True"],
+        rating: 4.5,
+        icon: "S"
+    }
 ];
 
 export default tourSpa;

@@ -1,0 +1,2137 @@
+[
+  {
+    "id": "ulaanbaatar-3n4d-solo-001",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "칭기즈칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르",
+            "note": "몽골 도착 및 가이드 미팅"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마트",
+            "category": "shopping",
+            "area": "울란바토르",
+            "note": "게르 캠프에서 먹을 간식 및 식재료 구매"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "칭기즈칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르",
+            "note": "웅장한 세계 최대 규모의 기마상 관람"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "삼겹살 식당",
+            "category": "food",
+            "area": "테를지 국립공원",
+            "note": "첫날 저녁 한식 메뉴로 식사"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "테를지 게르 캠프",
+            "category": "other",
+            "area": "테를지",
+            "note": "히터가 완비된 현대식 게르 숙박"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 게르 캠프",
+            "category": "food",
+            "area": "테를지",
+            "note": "뷔페식 조식 식사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "거북바위",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "테를지의 명소 거북바위 관람"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "국립공원 내 자연 경관 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "칭기즈칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르",
+            "note": "여행 마무리 및 출국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "겨울 몽골 여행 시 히트텍, 목티, 핫팩 등 방한용품을 철저히 준비하세요.",
+      "게르 캠프에서 먹을 간식이나 음료는 미리 마트에서 장을 봐두는 것이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ssg_mj/224334721272",
+      "title": "울란바토르 3박4일 테를지 칭기즈칸 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-solo-002",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "울란바토르 시내를 한눈에 볼 수 있는 곳"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "복드 칸 겨울궁전",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "몽골의 마지막 궁전과 박물관 관람"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내",
+            "note": "선물용 목도리와 장갑 쇼핑하기 좋은 곳"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "한식당",
+            "category": "food",
+            "area": "울란바토르",
+            "note": "현지에서 즐기는 냉삼 등 한식 식사"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "울란바토르 중심부의 역사적인 광장"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "몽골의 자연을 느낄 수 있는 코스"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "면세점",
+            "category": "shopping",
+            "area": "공항",
+            "note": "남은 투그릭으로 마지막 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "고비 캐시미어는 한국보다 훨씬 저렴하여 선물용으로 추천합니다.",
+      "몽골 내에서는 트래블월렛 사용이 편리하며 현지 물가에 맞춰 환전하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/heelog_o/224122690270",
+      "title": "울란바토르 자이승 복트칸 고비캐시미어 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-solo-003",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "몽골 독립운동가 이름을 딴 광장에서 기념사진 촬영"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내",
+            "note": "합리적인 가격의 스웨터와 목도리 쇼핑"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "호쇼르 맛집",
+            "category": "food",
+            "area": "테를지 국립공원",
+            "note": "양고기 향이 적어 먹기 편한 몽골식 튀김만두"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "밤",
+            "name": "테를지 게르 캠프",
+            "category": "other",
+            "area": "테를지",
+            "note": "바닥난방과 화장실이 완비된 편안한 숙소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "이태준 기념공원",
+            "category": "tourspa",
+            "area": "울란바토르",
+            "note": "몽골인들을 도운 한국 독립운동가 의사 이태준 기념"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "동상 위에서 광활한 초원을 한눈에 조망"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "거북바위 앞에서 기념사진 촬영"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "칭기즈칸 국제공항",
+            "category": "other",
+            "area": "울란바토르",
+            "note": "면세점에서 캐시미어 및 초콜릿 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "Nova100 Hotel",
+            "category": "hotel",
+            "area": "울란바토르",
+            "note": "맛있는 조식 샐러드와 함께 하루 시작"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "현지 마트나 음식점은 트래블카드 사용이 가능하므로 큰 금액을 환전할 필요는 없습니다.",
+      "기념품은 면세점보다 현지 매장에서 구입하는 것이 훨씬 저렴합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rrremonade21/224345405375",
+      "title": "몽골 3박4일 게르 테를지 거북바위 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-solo-004",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내",
+            "note": "4층 환전소에서 한국 돈으로 환전 가능"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "광장 근처에서 식사 후 산책"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "블랙 버거 팩토리",
+            "category": "food",
+            "area": "울란바토르 시내",
+            "note": "블랙 버거와 음료로 점심 식사"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내",
+            "note": "장갑 등 캐시미어 제품 쇼핑"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "전쟁 기념탑과 아름다운 도시 야경 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "자연 경관 감상"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "몽골 국립박물관",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "역사 탐방"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간단테그친렌 사원",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "사원 관람"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나란툴 시장",
+            "category": "shopping",
+            "area": "시내",
+            "note": "현지 시장 구경"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "국영백화점 4층 환전소는 영업시간(11:00~20:00)을 확인하세요.",
+      "자이승 전망대는 야경을 보기에 매우 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/su_taenggu/223774967973",
+      "title": "울란바토르 환전 수흐바타르 고비 자이승 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-couple-005",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rifel/224339785522",
+      "title": "커플 칭기즈칸 동상 테를지 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-couple-006",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "몽골 국립박물관",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "간단테그친렌 사원",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/twolimlim/223963588935",
+      "title": "커플 고비 캐시미어 자이승 수흐바타르 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-couple-007",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "엘승타사르하이 미니사막",
+            "category": "tourspa",
+            "area": "엘승타사르하이",
+            "note": "미니 사막 체험"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "후이덜러호닥 노마딕 체험",
+            "category": "tourspa",
+            "area": "몽골",
+            "note": "노마딕 문화 체험 및 전통 게르 숙박"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "40m 높이의 거대 조각상 관람"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "샤머니즘 돌무더기에서 소원 빌기"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "톨강",
+            "category": "tourspa",
+            "area": "테를지 국립공원",
+            "note": "나무다리를 건너며 즐기는 강변 산책"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "현지 식당",
+            "category": "food",
+            "area": "테를지 국립공원",
+            "note": "몽골 전통 요리 허르헉 시식"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "전통 게르 숙박"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "거북바위",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "칭기즈칸 마상 동상 내부 관람은 별도의 선택 관광 비용이 발생할 수 있습니다.",
+      "승마 체험 시 웅덩이를 지날 수 있으므로 버려도 되는 편한 옷을 준비하는 것이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yinhaeun/224349558300",
+      "title": "커플 4박5일 칭기즈칸 마상 테를지 승마 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-couple-008",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "몽골 국립박물관",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "간단테그친렌 사원",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "거북바위",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ann_shenghuo/223610450367",
+      "title": "커플 캐시미어 칭기즈칸 테를지 게르 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-family-009",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/taelovestar/224037746392",
+      "title": "가족 3박4일 칭기즈칸 자이승 수흐바타르 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-family-010",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "몽골 국립박물관",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "간단테그친렌 사원",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/junghj9569/224130659381",
+      "title": "가족 테를지 자이승 수흐바타르 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-family-011",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "거북바위",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dkdud6267/224295211884",
+      "title": "가족 4박5일 테를지 칭기즈칸 거북바위 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-family-012",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "몽골 국립박물관",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "간단테그친렌 사원",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "거북바위",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yeaj_22/224326272465",
+      "title": "가족 4박5일 울란바토르 테를지 게르 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-family-013",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/bigibi_/224348002188",
+      "title": "가족 보강 거북바위 독수리 징기스칸 박물관 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-friends-014",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 국제공항",
+            "category": "flight",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "자이승 전망대",
+            "category": "tourspa",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "울란바토르"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "칭기즈 칸 국제공항 출국",
+            "category": "flight",
+            "area": "울란바토르"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "울란바토르는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/buzzerrbeate/224310301595",
+      "title": "친구 3박4일 근교 국영백화점 고비 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-3n4d-friends-015",
+    "city": "Ulaanbaatar",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "울란바토르",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "어기 호수",
+            "category": "tourspa",
+            "area": "어기",
+            "note": "낚시와 자전거 라이딩을 즐길 수 있는 람사르 협약 등록 습지"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "엘승타사르하이 미니사막",
+            "category": "tourspa",
+            "area": "엘승타사르하이",
+            "note": "모래 썰매와 낙타 트래킹이 가능한 미니사막"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "승마와 자이언트 독수리 체험 가능"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내",
+            "note": "시내 투어 중 즐기는 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내",
+            "note": "캐시미어 아울렛 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "연차 1-2일만 사용해도 몽골 중부의 핵심을 만끽할 수 있는 알찬 코스입니다.",
+      "아이 동반 가족 여행객에게 적합한 차량 이동 시간이 짧은 코스입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/myrealtrip/224271829113",
+      "title": "친구 3박4일 어기호수 미니사막 울란바토르 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "ulaanbaatar-4n5d-friends-016",
+    "city": "Ulaanbaatar",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "울란바토르",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "어기 호수",
+            "category": "tourspa",
+            "area": "어기",
+            "note": "넓은 호수를 바라보며 즐기는 힐링"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "카라코룸",
+            "category": "tourspa",
+            "area": "하르호린",
+            "note": "옛 수도의 흔적과 역사 탐방"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "엘승 타사르해",
+            "category": "tourspa",
+            "area": "Bulgan",
+            "note": "미니 고비사막에서 낙타 타기와 모래썰매 체험"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "테를지 국립공원",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "거북바위 구경 및 승마 체험"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "칭기즈 칸 기마상",
+            "category": "tourspa",
+            "area": "테를지",
+            "note": "독수리 체험 가능"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "고비 캐시미어",
+            "category": "shopping",
+            "area": "시내",
+            "note": "몽골 여행 필수 기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "국영백화점",
+            "category": "shopping",
+            "area": "시내",
+            "note": "마트 장보기 및 간식 구매"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "수흐바타르 광장",
+            "category": "tourspa",
+            "area": "시내",
+            "note": "울란바토르 시내 중심지 둘러보기"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "현지 마트에서 맥주나 간식은 카드 결제가 가능합니다.",
+      "몽골 오지는 이동이 쉽지 않으므로 전문 투어사를 통한 예약이 안전합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/live_in_clov/224334545970",
+      "title": "친구 4박5일 어기호수 카라코룸 미니사막 테를지 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

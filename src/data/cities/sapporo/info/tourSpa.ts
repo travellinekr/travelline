@@ -181,6 +181,48 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%8B%EC%B9%B4%EC%9D%B4%EB%8F%84+%EA%B0%9C%EC%B2%99%EC%B4%8C+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "오타루 운하": {
+        photos: ["/images/sapporo/info/tourSpa/otaru-canal.jpg"],
+        summary: "낭만적인 야경과 옛 항구 도시의 정취를 느낄 수 있는 산책 코스",
+        updatedAt: "2026-07-23",
+        highlights: ["가스등이 켜지는 환상적인 야경", "역사적인 붉은 벽돌 창고군", "운하를 따라 이어지는 로맨틱한 산책로"],
+        tips: ["해질녘과 야경 시간대 방문을 추천합니다."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~2시간",
+        price: "무료",
+        reservation: { required: false, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "5 Minatomachi, Otaru, Hokkaido 047-0007 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://www.city.otaru.lg.jp/docs/2020100900367/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=355229862189438753", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "비에이 후라노 투어": {
+        photos: ["/images/sapporo/info/tourSpa/biei-furano-tour.jpg"],
+        summary: "패치워크 로드라 불리는 아름다운 언덕과 나무들이 펼쳐진 비에이의 상징적인 산책로",
+        updatedAt: "2026-07-23",
+        highlights: ["계절마다 변하는 다채로운 꽃밭과 농작물 풍경", "세븐다운의 나무, 켄과 메리의 나무 등 유명 포토존", "끝없이 펼쳐지는 완만한 구릉지의 파노라마 뷰"],
+        tips: ["렌터카나 일일투어로 동선을 묶으면 이동 부담을 줄일 수 있습니다."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "하루",
+        price: "상품별 상이",
+        reservation: { required: true, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "北海道上川郡美瑛町大久保協生, Asahi, Biei, Kamikawa District, Hokkaido 071-0216 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=15789700945580453148", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=15789700945580453148", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "청의 호수": {
+        photos: ["/images/sapporo/info/tourSpa/blue-pond-biei.jpg"],
+        summary: "신비로운 푸른 빛을 띠는 비에이의 대표적인 자연 경관",
+        updatedAt: "2026-07-23",
+        highlights: ["에메랄드빛 투명한 호수 물빛", "물속에 잠긴 신비로운 자작나무 군락", "사계절 변화하는 아름다운 풍경"],
+        tips: ["날씨와 계절에 따라 물빛이 달라져 맑은 날 방문을 추천합니다."],
+        hours: "월요일: 오전 7:00 ~ 오후 7:00; 화요일: 오전 7:00 ~ 오후 7:00",
+        duration: "1시간",
+        price: "무료",
+        reservation: { required: false, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "일본 〒071-0235 홋카이도 Kamikawa District, 비에이조 시로가네", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://www.biei-hokkaido.jp/ja/sightseeing/shirogane-blue-pond/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=345959270472972190", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

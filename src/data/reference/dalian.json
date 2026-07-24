@@ -1,0 +1,2225 @@
+[
+  {
+    "id": "dalian-3n4d-solo-001",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/uulldd/224310627651",
+      "title": "다롄 3박4일 성해광장 라오후탄 방추이다오 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-solo-002",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ainihs/224350514245",
+      "title": "대련 3박4일 자유여행 중산광장 동방수성 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-solo-003",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "공항",
+            "note": "인천에서 출발"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "루왕자이",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "교통대야시장",
+            "category": "shopping",
+            "area": "다롄"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "사계창펀",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어린이공원",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "남산로",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "시안루 야시장",
+            "category": "food",
+            "area": "시안루"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "도원시장",
+            "category": "shopping",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "파빌리온 다롄",
+            "category": "shopping",
+            "area": "다롄",
+            "note": "모어요거트, 미니소 등 쇼핑"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "라오지에 야시장",
+            "category": "shopping",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "파빌리온 다롄",
+            "category": "shopping",
+            "area": "다롄",
+            "note": "더트리, 모어요거트"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "시안루 야시장",
+            "category": "food",
+            "area": "시안루"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "뉴마트 쇼핑 플라자 다롄",
+            "category": "shopping",
+            "area": "다롄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "공항",
+            "note": "인천으로 출발"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "중국 항공권은 트립닷컴을 이용하면 저렴하게 예약 가능합니다.",
+      "가성비 좋은 4성급 호텔을 활용하면 여행 경비를 절약할 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/travelinghyun/224201669626",
+      "title": "다롄 4박5일 파빌리온 연화산 성해광장 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-solo-004",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "저녁",
+            "name": "포커 다더우후이 IMAX 쥐무 영화관 호텔",
+            "category": "hotel",
+            "area": "중산광장",
+            "note": "첫날 숙소로 이용"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "프레이저 스위트 다롄",
+            "category": "hotel",
+            "area": "다롄",
+            "note": "연박 및 이동"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "뉴마트 쇼핑 플라자 다롄",
+            "category": "shopping",
+            "area": "다롄",
+            "note": "쇼핑 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "other",
+            "area": "공항",
+            "note": "출국 준비"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 시내",
+            "category": "other",
+            "area": "다롄",
+            "note": "여행 마무리"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "알리페이와 위챗페이를 미리 설치하고 카드를 등록해두면 현금 없이 편리하게 결제 가능합니다.",
+      "디디택시를 이용하면 저렴한 비용으로 편안하게 이동할 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yeonsu24/224084052344",
+      "title": "대련 4일 경비 라오지에 야시장 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-couple-005",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/challiya/224229975967",
+      "title": "커플 3박4일 러시아거리 동방수성 어인부두 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-couple-006",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/mezzz819/224148411220",
+      "title": "커플 3박4일 동방수성 성해광장 해산물 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-couple-007",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 삼림동물원",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라오후탄 해양공원",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시안루 야시장",
+            "category": "food",
+            "area": "다롄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/heycg82/223661658089",
+      "title": "커플 4박5일 중산광장 러시아거리 동방수성 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-couple-008",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강",
+            "note": "베네치아 거리 분위기 즐기기"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "시딩 성게만두",
+            "category": "food",
+            "area": "중산",
+            "note": "성게만두와 새우 누룽지 죽 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이",
+            "note": "바닷가 산책과 갈매기 구경"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오",
+            "note": "여유로운 산책"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다롄 삼림동물원",
+            "category": "tourspa",
+            "area": "싱하이",
+            "note": "동물들과의 만남"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "라오후탄 해양공원",
+            "category": "tourspa",
+            "area": "라오후탄",
+            "note": "해양 생물 관찰"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "승리광장 지하상가",
+            "category": "shopping",
+            "area": "다롄",
+            "note": "마지막 기념품 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "동방수성에서는 성게만두와 새우 누룽지 죽을 꼭 드셔보세요.",
+      "성해광장은 바닷바람이 강할 수 있으니 겉옷을 준비하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/twenties_house_owner/224223360809",
+      "title": "커플 4박5일 동방수성 시딩 성해광장 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-family-009",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lovely__ban/224347029156",
+      "title": "가족 3박4일 다롄 삼림동물원 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-family-010",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/yosozz0650/224311412592",
+      "title": "가족 3박4일 노동공원 성아해양세계 성해광장 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-family-011",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 삼림동물원",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라오후탄 해양공원",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시안루 야시장",
+            "category": "food",
+            "area": "다롄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/lhill1/223874298618",
+      "title": "가족 4박5일 라오후탄 뤼순 성해광장 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-family-012",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "노동공원",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "파빌리온 다롄",
+            "category": "shopping",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "라오지에 야시장",
+            "category": "food",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jas01025/223870160131",
+      "title": "가족 4박5일 노동공원 삼림동물원 성해광장 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-family-013",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "중산",
+            "note": "19-20세기 러시아 건축 양식을 볼 수 있는 거리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이",
+            "note": "저녁 7:30, 8:30 레이저 분수쇼 관람"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "라오후탄 해양공원",
+            "category": "tourspa",
+            "area": "라오후탄",
+            "note": "펭귄, 북극곰 등 극지 해양동물 관람"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "뤼순항",
+            "category": "tourspa",
+            "area": "뤼순",
+            "note": "안중근 의사 등 독립운동가의 역사가 담긴 뤼순감옥 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "transport",
+            "area": "공항",
+            "note": "여행 마무리 및 귀국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "성해광장 레이저쇼 시간(19:30, 20:30)을 미리 확인하세요.",
+      "다롄은 5월에서 10월 사이가 여행하기 가장 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/doodaebari/223844245348",
+      "title": "가족 보강 성해광장 라오후탄 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-friends-014",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jiwoo_archive_/224166323156",
+      "title": "친구 3박4일 중산광장 동관지에 동방수성 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-3n4d-friends-015",
+    "city": "Dalian",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "다롄",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "러시아풍정가",
+            "category": "tourspa",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "연화산 전망대",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sonakbi16/223743977352",
+      "title": "친구 3박4일 완다플라자 성해광장 중산광장 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "dalian-4n5d-friends-016",
+    "city": "Dalian",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "다롄",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 저우수이쯔국제공항",
+            "category": "flight",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "중산광장",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동관가 역사문화거리",
+            "category": "tourspa",
+            "area": "중산"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "방추이다오 풍경구",
+            "category": "tourspa",
+            "area": "방추이다오"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "어인부두",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "싱하이 광장",
+            "category": "tourspa",
+            "area": "싱하이"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다롄 삼림동물원",
+            "category": "tourspa",
+            "area": "싱하이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "라오후탄 해양공원",
+            "category": "tourspa",
+            "area": "라오후탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "시안루 야시장",
+            "category": "food",
+            "area": "다롄"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "다롄"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동방수성",
+            "category": "tourspa",
+            "area": "동강"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다롄 저우수이쯔국제공항 출국",
+            "category": "flight",
+            "area": "다롄"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다롄는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tangerine0814/224292897274",
+      "title": "친구 4박5일 동관지에 남산로 성해공원 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

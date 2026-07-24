@@ -1,0 +1,2219 @@
+[
+  {
+    "id": "fukuoka-3n4d-solo-001",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하카타 복귀",
+            "category": "transport",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chama_e/223759908468",
+      "title": "후쿠오카 3박4일 하카타 텐진 다자이후 유후인 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-solo-002",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/videotaepe/223738286984",
+      "title": "후쿠오카 3박4일 텐진 하카타 가챠 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-solo-003",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다이묘거리",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "패션 브랜드와 카페가 몰려있는 쇼핑 스팟"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "분수쇼와 지브리샵 구경하기"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후",
+            "note": "아침 일찍 방문하여 여유롭게 둘러보기"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인",
+            "note": "버스투어를 이용한 온천 마을 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "벳푸 지옥온천",
+            "category": "tourspa",
+            "area": "벳푸",
+            "note": "버스투어 코스에 포함된 일정"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "마지막 쇼핑 및 공항 이동 준비"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "다자이후 텐만구는 황소 동상 머리를 만지면 좋아진다는 속설이 있음",
+      "유후인, 벳푸 등 먼 거리는 버스투어를 이용하면 교통 걱정 없이 편리함"
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hwung_travel/224014875468",
+      "title": "후쿠오카 혼자 4박5일 유후인 버스투어 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-solo-004",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오호리 공원",
+            "category": "tourspa",
+            "area": "오호리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이치란 본사총본점",
+            "category": "food",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sep_feb/224228974728",
+      "title": "후쿠오카 4박5일 텐진 하카타 고쿠라 모지코 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-couple-005",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "겨울 분위기를 느낄 수 있는 크리스마스 마켓 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "벳푸 지옥온천",
+            "category": "tourspa",
+            "area": "벳푸",
+            "note": "도시의 야경을 감상할 수 있는 전망대"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인",
+            "note": "긴린코 호수 산책 및 마을 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후",
+            "note": "해 질 녘 방문하기 좋은 관광 명소"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치",
+            "note": "높은 곳에서 즐기는 후쿠오카 야경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마린월드 우미노나카미치",
+            "category": "tourspa",
+            "area": "우미노나카미치",
+            "note": "돌고래쇼와 펭귄 먹이주기 관람"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하우스텐보스",
+            "category": "tourspa",
+            "area": "사세보",
+            "note": "미피 월드 등 볼거리가 가득한 테마파크"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "일본식 대창 전골로 저녁 식사"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "이토시마 반나절 투어",
+            "category": "tourspa",
+            "area": "이토시마",
+            "note": "부부바위와 하얀 도리이 구경"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "겨울 여행 시 텐진 크리스마스 마켓의 머그컵을 기념품으로 추천합니다.",
+      "하우스텐보스는 봄이나 가을에 방문하면 더 아름다운 풍경을 볼 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dongi0508/224101475442",
+      "title": "커플 3박4일 다자이후 텐만구 시내 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-couple-006",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/daisukitokyo/223281724147",
+      "title": "커플 3박4일 다자이후 유후인 포함 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-couple-007",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하카타 복귀",
+            "category": "transport",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마린월드 우미노나카미치",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우미노나카미치 해변공원",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dhhj919503/223717858668",
+      "title": "커플 4박5일 유후인 모모치 텐진 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-couple-008",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오호리 공원",
+            "category": "tourspa",
+            "area": "오호리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이치란 본사총본점",
+            "category": "food",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kittylsm/224233085207",
+      "title": "커플 4박5일 유후인 텐진 하카타 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-family-009",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하카타 복귀",
+            "category": "transport",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/malesmile/224208015104",
+      "title": "가족 3박4일 마린월드 다자이후 유후인 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-family-010",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sweety1009/224346073111",
+      "title": "가족 3박4일 우미노나카미치 마린월드 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-family-011",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하카타 복귀",
+            "category": "transport",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마린월드 우미노나카미치",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우미노나카미치 해변공원",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ri1ey/224203697840",
+      "title": "가족 4박5일 마린월드 다자이후 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-family-012",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "구시다 신사",
+            "category": "tourspa",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오호리 공원",
+            "category": "tourspa",
+            "area": "오호리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이치란 본사총본점",
+            "category": "food",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ay5870/224300351104",
+      "title": "가족 4박5일 유후인 다자이후 벳푸 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-family-013",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "도착 후 하카타 시내 구경 및 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "텐진 지하상가 및 쇼핑몰 탐방"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하카타항",
+            "category": "other",
+            "area": "하카타",
+            "note": "페리 탑승을 위해 하카타항으로 이동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "마린월드 우미노나카미치",
+            "category": "tourspa",
+            "area": "우미노나카미치",
+            "note": "돌고래 쇼 관람 및 물범 먹이주기 체험"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "Reilly",
+            "category": "food",
+            "area": "우미노나카미치",
+            "note": "수조를 보며 즐기는 레스토랑 식사"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "JR 하카타시티",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "마지막 기념품 쇼핑 및 공항 이동 준비"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "하카타항에서 마린월드행 페리는 현금 결제만 가능하니 꼭 현금을 준비하세요.",
+      "돌고래 쇼 관람 시 물이 튈 수 있으니 아이들에게 우비를 입히는 것을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/su1029/224338947839",
+      "title": "가족 보강 3박4일 마린월드 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-friends-014",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "인공운하와 캐릭터 굿즈샵 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "매 정시와 30분마다 진행되는 무료 쇼"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스",
+            "note": "강변 포장마차에서 즐기는 야키토리와 맥주"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인",
+            "note": "일일 버스투어를 이용한 소도시 여행"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "벳푸 지옥온천",
+            "category": "tourspa",
+            "area": "벳푸",
+            "note": "버스투어 코스에 포함된 온천 도시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "히타",
+            "category": "tourspa",
+            "area": "히타",
+            "note": "버스투어로 방문하는 고즈넉한 마을"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후",
+            "note": "학문의 신을 모시는 유명한 신사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "다양한 상점이 입점된 쇼핑 성지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "후쿠오카 파르코",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "일본 캐릭터 굿즈샵이 모여있는 백화점"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오호리 공원",
+            "category": "tourspa",
+            "area": "오호리",
+            "note": "여유로운 산책과 오리배 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "모모치 해변공원",
+            "category": "tourspa",
+            "area": "모모치",
+            "note": "이국적인 분위기의 해변 산책"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치",
+            "note": "일본에서 가장 높은 해안 전망대"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "일일 버스투어는 마이리얼트립 등을 통해 미리 예약하면 편리합니다.",
+      "후쿠오카 타워 입장권은 한국에서 미리 예매하여 QR코드로 입장하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kittylsm/224233085207",
+      "title": "친구 3박4일 유후인 텐진 하카타 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-3n4d-friends-015",
+    "city": "Fukuoka",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "후쿠오카",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "DELIBAG",
+            "category": "other",
+            "area": "후쿠오카 공항",
+            "note": "공항에서 호텔로 짐 배송 서비스 이용"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스시사카바사시스 하카타 마잉구점",
+            "category": "food",
+            "area": "하카타",
+            "note": "참치뱃살김마리와 새우육회 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "미쓰이 가든 호텔 후쿠오카 기온",
+            "category": "hotel",
+            "area": "기온",
+            "note": "대욕장이 있는 깨끗한 숙소"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스",
+            "note": "오뎅, 꼬치, 교자 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후",
+            "note": "여유로운 산책"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타",
+            "note": "쇼핑 및 분수쇼 관람"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진",
+            "note": "마지막 기념품 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "DELIBAG 서비스를 이용하면 공항에서 호텔로 짐을 바로 보낼 수 있어 편리합니다.",
+      "나카스 포장마차는 위생 상태가 좋은 곳을 선택하는 것이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/juheemon0819/224282984880",
+      "title": "친구 3박4일 하카타 나카스 텐진 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "fukuoka-4n5d-friends-016",
+    "city": "Fukuoka",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "후쿠오카",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "캐널시티 하카타",
+            "category": "shopping",
+            "area": "하카타"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "텐진 지하상가",
+            "category": "shopping",
+            "area": "텐진"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "다자이후 텐만구",
+            "category": "tourspa",
+            "area": "다자이후"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "유후인 당일치기",
+            "category": "tourspa",
+            "area": "유후인"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하카타 복귀",
+            "category": "transport",
+            "area": "후쿠오카"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "마린월드 우미노나카미치",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우미노나카미치 해변공원",
+            "category": "tourspa",
+            "area": "우미노나카미치"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카 타워",
+            "category": "tourspa",
+            "area": "모모치"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "후쿠오카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "나카스 야타이 거리",
+            "category": "tourspa",
+            "area": "나카스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "후쿠오카공항",
+            "category": "flight",
+            "area": "하카타"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "후쿠오카는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/juyeon922/224316961474",
+      "title": "친구 4박5일 하카타 텐진 나카스 유후인 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

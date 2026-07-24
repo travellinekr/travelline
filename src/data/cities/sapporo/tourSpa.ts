@@ -172,6 +172,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4.4,
         icon: "🏛️"
     },
+    {
+        name: "오타루 운하",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Sapporo",
+        description: "과거 물류 운송의 중심지였던 오타루 운하는 현재 붉은 벽돌 창고와 가스등이 어우러져 고즈넉한 분위기를 자아내는 오타루의 대표적인 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 43.199041, lng: 141.0021176 },
+        reservationRequired: false,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["무료 입장", "도보 관광 가능", "야경 명소"],
+        rating: 4.4,
+        icon: "O"
+    },
+    {
+        name: "비에이 후라노 투어",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Sapporo",
+        description: "다채로운 색상의 언덕과 나무들이 어우러져 마치 한 폭의 수채화 같은 풍경을 선사하는 비에이의 대표적인 드라이브 코스입니다.",
+        duration: "하루",
+        priceRange: "상품별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 43.6306405, lng: 142.4283172 },
+        reservationRequired: true,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["아름다운 자연 경관 감상", "인생 사진 촬영 명소", "비에이/후라노 여행 필수 코스"],
+        rating: 4.3,
+        icon: "B"
+    },
+    {
+        name: "청의 호수",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Sapporo",
+        description: "비에이의 상징적인 명소로, 신비로운 에메랄드빛 물결과 고사한 자작나무가 어우러져 환상적인 분위기를 자아내는 호수입니다.",
+        duration: "1시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 43.4934738, lng: 142.6142144 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 7:00 ~ 오후 7:00; 화요일: 오전 7:00 ~ 오후 7:00",
+        features: ["무료 입장", "비에이 지역 위치", "사진 촬영 명소"],
+        rating: 4.3,
+        icon: "P"
+    }
 ];
 
 export default tourSpa;

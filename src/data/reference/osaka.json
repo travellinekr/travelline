@@ -1,0 +1,2943 @@
+[
+  {
+    "id": "osaka-3n4d-solo-001",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/plesure1014/224246814115",
+      "title": "오사카 교토 자유여행 3박4일 일정 난바역 짐보관",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "osaka-3n4d-solo-002",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tripinstyle/224350450836",
+      "title": "일본 오사카 교토 자유여행 3박4일 코스 정리",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "osaka-4n5d-solo-003",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 4,
+    "pace": "packed",
+    "themes": [
+      "solo",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "유니버설 시티워크 오사카",
+            "category": "shopping",
+            "area": "USJ"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kmint515/223781048306",
+      "title": "오사카 교토 3박4일 일정 4박5일 자유여행 엑셀 일정 공유",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "osaka-4n5d-solo-004",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "solo",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "교토 당일치기",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "기요미즈데라",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/heewon1032/223709197281",
+      "title": "오사카 교토 4박5일 5박6일 자유여행 일정 엑셀 공유",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.78
+    }
+  },
+  {
+    "id": "osaka-3n4d-couple-005",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ohayo11/224110483491",
+      "title": "일본여행 오사카 교토 3박4일 일정 코스 추천 유니버설 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-couple-006",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/1124mumu/224348353369",
+      "title": "여행코스 크로스 호텔 오사카 기준 3박4일 자유여행 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-couple-007",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "couple",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "유니버설 시티워크 오사카",
+            "category": "shopping",
+            "area": "USJ"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/choonsik-99/224335910195",
+      "title": "일본 오사카 교토 4박 5일 커플 여행 유니버셜 포함 일정 추천",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-couple-008",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "couple",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "교토 당일치기",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "기요미즈데라",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ducky777/223848152818",
+      "title": "25년 4월 오사카 교토 고베 4박5일 여행 일정 한번에 보기",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-family-009",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/seincyan/224328438018",
+      "title": "260524~27 3박4일 오사카 교토 가족 여행",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-family-010",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hongsue_/223926136954",
+      "title": "오사카 3박4일 자유 일정 가족 여행 코스 일본 교토 나라 포함",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-family-011",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "유니버설 시티워크 오사카",
+            "category": "shopping",
+            "area": "USJ"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/happywoo06/224349159955",
+      "title": "2026 일본 오사카 4박5일 가족여행 일정 초등학생과 함께",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-family-012",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "family",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "교토 당일치기",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "기요미즈데라",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/4893698/224293696092",
+      "title": "아이와 함께 오사카 도톤보리 USJ 교토 나라 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-family-013",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/cielso/224342619360",
+      "title": "일본 오사카 3박4일 가족여행 Day2 오사카 근교 교토 나라",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-family-014",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 4,
+    "pace": "packed",
+    "themes": [
+      "family",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "유니버설 시티워크 오사카",
+            "category": "shopping",
+            "area": "USJ"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/everclearsky/224348397761",
+      "title": "일본 오사카 가족 여행 패키지 3박4일 오사카 여행 일정 단독",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-friends-015",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/aruaur/224302851297",
+      "title": "6월 오사카 나라 고베 교토 3박4일 4박5일 일정",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-friends-016",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 5,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sm011sm/224316147439",
+      "title": "오사카 난바에서 고베 당일치기 자유여행 코스",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-friends-017",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "오사카 자유여행",
+      "교토 기온거리",
+      "나라 사슴공원",
+      "USJ 닌텐도월드"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "오사카 입국 및 도톤보리 탐방",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "스위소텔 난카이 오사카",
+            "category": "hotel",
+            "area": "난바",
+            "note": "숙소 체크인"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바",
+            "note": "글리코상 인증샷 및 맛집 탐방"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "교토의 정취 느끼기",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "기온 하나미코지",
+            "category": "tourspa",
+            "area": "교토",
+            "note": "전통 목조 거리 산책"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "사슴과 함께하는 나라 여행",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라",
+            "note": "사슴 먹이주기 체험"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "동대사 대불전",
+            "category": "tourspa",
+            "area": "나라",
+            "note": "거대 불상 관람"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "유니버설 스튜디오 재팬 올데이",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ",
+            "note": "입장 및 어트랙션 이용"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "슈퍼 닌텐도 월드",
+            "category": "tourspa",
+            "area": "USJ",
+            "note": "요시 어드벤처 및 마리오 세계 체험"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "오사카 역사 탐방 및 귀국",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성",
+            "note": "천수각 및 해자 관광선 탑승"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "간사이 국제공항",
+            "category": "transport",
+            "area": "공항",
+            "note": "출국 준비"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "USJ 슈퍼 닌텐도 월드는 인기 어트랙션 대기가 길 수 있으니 주의하세요.",
+      "오사카성에서는 해자를 따라 운행하는 관광선을 타보는 것을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/uk7517/224313949828",
+      "title": "자유여행 코스 총정리 도톤보리 교토 나라 유니버설 스튜디오",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-friends-018",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 4,
+    "pace": "relaxed",
+    "themes": [
+      "friends",
+      "relaxed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "구로몬시장",
+            "category": "shopping",
+            "area": "난바"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신사이바시스지 상점가",
+            "category": "shopping",
+            "area": "신사이바시"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "그랜드 프론트 오사카",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "교토 당일치기",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "기요미즈데라",
+            "category": "tourspa",
+            "area": "교토"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/reverse_vibration/224257024973",
+      "title": "일본 오사카 여행 후기 우메다 난바 고베 교토 우메다홀릭 호텔",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-3n4d-friends-019",
+    "city": "Osaka",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kuku_bin/224182340212",
+      "title": "오사카 3박4일 자유여행 일정 추천 난바 유니버셜 교토",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  },
+  {
+    "id": "osaka-4n5d-friends-020",
+    "city": "Osaka",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 5,
+    "pace": "packed",
+    "themes": [
+      "friends",
+      "packed",
+      "오사카"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "간사이국제공항 도착",
+            "category": "flight",
+            "area": "오사카"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "난바/우메다",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오사카성",
+            "category": "tourspa",
+            "area": "오사카성"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우메다 스카이 빌딩",
+            "category": "tourspa",
+            "area": "우메다"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "헵파이브",
+            "category": "shopping",
+            "area": "우메다"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나라공원",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도다이지",
+            "category": "tourspa",
+            "area": "나라"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "난바 복귀",
+            "category": "transport",
+            "area": "난바"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "유니버설 스튜디오 재팬",
+            "category": "tourspa",
+            "area": "USJ"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "유니버설 시티워크 오사카",
+            "category": "shopping",
+            "area": "USJ"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오사카",
+            "note": "숙소명 불명확, 일정 활동으로만 유지"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "도톤보리",
+            "category": "tourspa",
+            "area": "난바"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "간사이국제공항 출국",
+            "category": "flight",
+            "area": "오사카"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오사카는 구역별로 묶어 이동 시간을 줄이세요.",
+      "디즈니·교토 투어는 하루 단위로 분리하면 안정적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/adayoneday/224321849294",
+      "title": "오사카 여행코스 일정 총정리 2박3일 3박4일 4박5일 교토 고베 나라",
+      "collectedAt": "2026-07-21",
+      "reliability": 0.82
+    }
+  }
+]

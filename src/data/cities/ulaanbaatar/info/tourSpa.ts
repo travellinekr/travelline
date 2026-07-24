@@ -88,6 +88,62 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%85%8C%EB%A5%BC%EC%A7%80+%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90+%EC%9A%B8%EB%9E%80%EB%B0%94%ED%86%A0%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "칭기즈 칸 기마상": {
+        photos: ["/images/ulaanbaatar/info/tourSpa/genghis-khan-equestrian-statue.jpg"],
+        summary: "40m 높이의 거대한 기마상 위에서 내려다보는 끝없는 초원과 압도적인 스케일을 자랑하는 몽골의 필수 관광 코스입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["동상 꼭대기 전망대에서 조망하는 탁 트인 테를지 초원 뷰", "칭기즈 칸의 역사와 전설을 느낄 수 있는 거대한 스테인리스 구조물", "독수리 체험 등 현지 문화를 경험할 수 있는 특별한 기회"],
+        tips: ["동상 내부 전망대까지 올라가 광활한 초원을 한눈에 담아보세요.", "테를지 국립공원 투어 일정에 포함하여 방문하면 동선이 효율적입니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "입장권별 상이",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Ulaanbaatar Chinggis Khaan Statue, ND - 5 khoroo, Nalaikh, Ulaanbaatar 12593 몽골", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=18109312195979863666", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=18109312195979863666", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "거북바위": {
+        photos: ["/images/ulaanbaatar/info/tourSpa/turtle-rock-terelj.jpg"],
+        summary: "거북이를 닮은 신비로운 형상의 거대 암석이 있는 테를지의 대표 랜드마크",
+        updatedAt: "2026-07-23",
+        highlights: ["거북이 모양의 독특한 화강암 바위 관람", "테를지 국립공원의 아름다운 자연 경관", "가벼운 트레킹과 사진 촬영 명소"],
+        tips: ["주변에 승마 체험 코스가 많으니 함께 즐겨보세요.", "바위 근처는 그늘이 부족할 수 있으니 선크림을 준비하세요."],
+        hours: "방문 전 확인 권장",
+        duration: "30분~1시간",
+        price: "무료 구역 중심",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Turtle Rock, ND - 6 khoroo, Ulaanbaatar 12739 몽골", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=13239495705609639877", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=13239495705609639877", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "엘승타사르하이 미니사막": {
+        photos: ["/images/ulaanbaatar/info/tourSpa/elsen-tasarkhai-mini-gobi.jpg"],
+        summary: "몽골의 고비 사막을 대신해 만날 수 있는 매력적인 미니 사막으로, 낙타 체험과 모래 썰매가 가능한 어드벤처 명소입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["낙타를 타고 즐기는 평화로운 사막 트래킹", "모래 언덕에서 스릴 넘치는 모래 썰매 체험", "사막과 초원이 공존하는 이색적인 자연 경관"],
+        tips: ["강한 햇빛에 대비해 선크림, 선글라스, 모자를 반드시 준비하세요.", "모래가 옷이나 신발에 들어갈 수 있으니 편안한 복장을 권장합니다."],
+        hours: "방문 전 확인 권장",
+        duration: "반나절~1일",
+        price: "투어별 상이",
+        reservation: { required: true, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "8MJQ+GRF, Högönö-Taranaiin-Hüree, Bulgan, 몽골", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=16783227041181929718", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=16783227041181929718", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "어기 호수": {
+        photos: ["/images/ulaanbaatar/info/tourSpa/ugii-lake.jpg"],
+        summary: "자연의 평온함이 가득한 어기 호수에서 즐기는 힐링과 액티비티",
+        updatedAt: "2026-07-23",
+        highlights: ["람사르 협약 등록 습지의 아름다운 생태계", "호숫가에서의 여유로운 낚시 체험", "탁 트인 풍경을 배경으로 하는 자전거 라이딩"],
+        tips: ["현지 투어 프로그램을 이용하면 더욱 알찬 액티비티를 즐길 수 있으며, 사전 예약이 권장됩니다."],
+        hours: "방문 전 확인 권장",
+        duration: "반나절~1일",
+        price: "투어별 상이",
+        reservation: { required: true, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Ugii Lake, Arkhangai, 몽골", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=2379905929651484755", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=2379905929651484755", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;
