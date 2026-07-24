@@ -288,7 +288,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
           data-tour="ai"
           title="AI 플래너"
           aria-label="AI 플래너 열기"
-          className="hidden md:flex absolute bottom-10 right-10 z-30 w-14 h-14 rounded-2xl items-center justify-center cursor-pointer active:scale-95 transition-transform bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 shadow-xl shadow-emerald-500/40 ring-1 ring-white/50"
+          className="hidden md:flex absolute bottom-10 right-10 z-30 w-14 h-14 rounded-2xl items-center justify-center cursor-pointer active:scale-95 transition-transform bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 shadow-xl shadow-orange-400/40 ring-1 ring-white/50"
         >
           {/* 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 (모바일 버튼과 동일) */}
           <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />

@@ -65,17 +65,17 @@ export function AiAssistantPanel({ open, onClose, containerClassName = 'absolute
             {/* 헤더 */}
             <div className="shrink-0 flex items-center justify-between gap-2 px-4 h-[60px] border-b border-slate-100 bg-white">
                 <div className="flex items-center gap-2.5 min-w-0">
-                    <span className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-600 flex items-center justify-center shadow-md shadow-emerald-500/30 ring-1 ring-white/50">
+                    <span className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 flex items-center justify-center shadow-md shadow-orange-400/30 ring-1 ring-white/50">
                         <span className="absolute inset-0 rounded-xl bg-gradient-to-t from-transparent to-white/25" />
                         <Sparkles className="relative w-[18px] h-[18px] text-white" strokeWidth={2.2} />
                     </span>
                     <div className="flex flex-col leading-tight min-w-0">
                         <span className="text-[15px] tracking-tight flex items-center gap-1.5">
                             <span>
-                                <span className="font-extrabold bg-gradient-to-br from-emerald-500 to-teal-600 bg-clip-text text-transparent">AI</span>
+                                <span className="font-extrabold bg-gradient-to-br from-orange-500 to-amber-600 bg-clip-text text-transparent">AI</span>
                                 <span className="font-bold text-slate-800"> 플래너</span>
                             </span>
-                            <span className="px-1.5 py-0.5 rounded-md bg-emerald-50 text-emerald-600 text-[10px] font-bold tracking-wide">BETA</span>
+                            <span className="px-1.5 py-0.5 rounded-md bg-orange-50 text-orange-600 text-[10px] font-bold tracking-wide">BETA</span>
                         </span>
                         <span className="text-[11px] text-slate-400 truncate">{subtitle}</span>
                     </div>
