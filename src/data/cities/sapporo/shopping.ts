@@ -302,6 +302,51 @@ const shopping: ShoppingData[] = [
         features: ["공항 근교 아울렛", "평점 3.4", "삿포로 여행 동선에 넣기 좋음"],
         icon: "🏷️"
     },
+    {
+        name: "닝구르테라스",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Sapporo",
+        coordinates: { lat: 43.3233257, lng: 142.3558861 },
+        category: "공예 상점가",
+        specialItems: "수공예품, 기념품",
+        priceRange: "¥500~",
+        openingHours: "월요일: 오전 11:00 ~ 오후 7:45; 화요일: 오전 11:00 ~ 오후 7:45",
+        taxRefund: false,
+        features: ["수공예 기념품 쇼핑", "포토존 명소", "산책 코스"],
+        icon: "N"
+    },
+    {
+        name: "사카이마치도리 상점가",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Sapporo",
+        coordinates: { lat: 43.1915229, lng: 141.0068248 },
+        category: "상점가",
+        specialItems: "기념품, 유리공예, 디저트",
+        priceRange: "¥500~",
+        openingHours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        taxRefund: false,
+        features: ["유리공예", "디저트", "기념품"],
+        icon: "S"
+    },
+    {
+        name: "오타루 오르골당 본관",
+        showInInbox: true,
+        hasInfo: true,
+        type: "specialty",
+        city: "Sapporo",
+        coordinates: { lat: 43.1905288, lng: 141.0079732 },
+        category: "기념품샵",
+        specialItems: "오르골, 기념품",
+        priceRange: "¥1,000~",
+        openingHours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        taxRefund: false,
+        features: ["카테고리: 기념품샵", "주요 품목: 오르골, 기념품", "가격대: ¥1,000부터"],
+        icon: "M"
+    }
 ];
 
 export default shopping;

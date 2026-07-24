@@ -180,6 +180,57 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%82%98%EC%B9%B4%EB%85%B8%EC%8B%9C%EB%A7%88+%EB%A6%AC%EB%B2%84+%ED%81%AC%EB%A3%A8%EC%A6%88+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "나라공원": {
+        photos: ["/images/osaka/info/tourSpa/nara-park.jpg"],
+        summary: "귀여운 사슴들과 함께 산책하며 여유를 즐길 수 있는 나라의 대표 명소입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["귀여운 사슴과의 교감", "평화로운 산책로", "주변 역사 유적지 탐방"],
+        tips: ["사슴 전용 센베를 구매해 직접 먹이를 줄 수 있습니다.", "사슴이 갑자기 달려들 수 있으니 주의하세요."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "2~3시간",
+        price: "무료",
+        reservation: { required: false, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "일본 나라현 나라시", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식/지도", url: "https://www3.pref.nara.jp/park/", type: "official", description: "공식 또는 지도 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17972930374069941334", type: "guide", description: "지도에서 위치 보기" }
+        ]
+    },
+    "도다이지": {
+        photos: ["/images/osaka/info/tourSpa/todai-ji.jpg"],
+        summary: "세계 최대 규모의 청동 불상이 안치된 나라의 상징적인 사찰입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["거대한 청동 대불", "세계 최대 목조 건축물"],
+        tips: ["사찰 주변 사슴들과 교감하기", "입장권 가격은 구역별로 다를 수 있음"],
+        hours: "월요일: 오전 7:30 ~ 오후 5:30; 화요일: 오전 7:30 ~ 오후 5:30",
+        duration: "1~2시간",
+        price: "입장권별 상이",
+        reservation: { required: false, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "406-1 Zōshichō, Nara, 630-8587 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식/지도", url: "https://www.todaiji.or.jp/", type: "official", description: "공식 또는 지도 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17911005107283377295", type: "guide", description: "지도에서 위치 보기" }
+        ]
+    },
+    "기요미즈데라": {
+        photos: ["/images/osaka/info/tourSpa/kiyomizu-dera.jpg"],
+        summary: "교토 히가시야마의 상징적인 사찰로 탁 트인 전망을 자랑합니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["탁 트인 교토 전경", "웅장한 본당 무대", "아름다운 사계절 풍경"],
+        tips: ["오전 일찍 방문해야 인파를 피할 수 있습니다.", "주변 산넨자카, 니넨자카 거리와 함께 둘러보세요."],
+        hours: "월요일: 오전 6:00 ~ 오후 6:00; 화요일: 오전 6:00 ~ 오후 6:00",
+        duration: "1~2시간",
+        price: "입장권별 상이",
+        reservation: { required: false, method: "방문 전 운영·입장 정보를 확인하세요" },
+        access: { area: "1-chōme-294 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식/지도", url: "https://www.kiyomizudera.or.jp/", type: "official", description: "공식 또는 지도 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7111013964196361402", type: "guide", description: "지도에서 위치 보기" }
+        ]
+    }
 };
 
 export default info;

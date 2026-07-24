@@ -299,6 +299,39 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%ED%86%A0%EC%84%B8+%EC%95%84%EC%9A%B8%EB%A0%9B%EB%AA%B0+%EB%A0%88%EB%9D%BC+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "닝구르테라스": {
+        photos: ["/images/sapporo/info/shopping/ningle-terrace.jpg"],
+        summary: "후라노 숲길 사이 펼쳐진 아기자기한 수공예품 상점가",
+        updatedAt: "2026-07-23",
+        highlights: ["동화 같은 통나무집 마을 풍경", "작가들의 정성이 담긴 수공예 소품", "야간 조명이 만드는 환상적인 야경"],
+        tips: ["해질녘 조명과 산책 동선을 함께 잡으면 좋습니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 11:00 ~ 오후 7:45; 화요일: 오전 11:00 ~ 오후 7:45",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [{ label: "공식/지도", url: "https://www.princehotels.co.jp/shinfurano/facility/ningle_terrace/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=12084578554544908332", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "사카이마치도리 상점가": {
+        photos: ["/images/sapporo/info/shopping/sakaimachi-dori-shopping-street.jpg"],
+        summary: "유리공예와 달콤한 디저트가 가득한 오타루의 대표적인 산책 코스",
+        updatedAt: "2026-07-23",
+        highlights: ["정교한 유리공예품 구경", "오타루 명물 디저트 맛보기", "아기자기한 기념품 쇼핑"],
+        tips: ["상점별 영업시간이 달라 늦은 시간 방문 전 확인을 추천합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [{ label: "공식/지도", url: "https://otaru-sakaimachi.com/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=10168121066734803839", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "오타루 오르골당 본관": {
+        photos: ["/images/sapporo/info/shopping/otaru-music-box-museum.jpg"],
+        summary: "다양한 종류의 오르골과 아기자기한 기념품을 만날 수 있는 오타루 대표 쇼핑 스팟",
+        updatedAt: "2026-07-23",
+        highlights: ["수만 점의 다채로운 오르골 컬렉션", "클래식하고 낭만적인 매장 분위기", "여행 추억을 간직할 특별한 기념품 쇼핑"],
+        tips: ["오르골 소리를 감상하며 천천히 둘러보는 것을 추천합니다.", "오타루 산책 코스와 함께 방문하기 좋습니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [{ label: "공식/지도", url: "https://www.otaru-orgel.co.jp/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=13013518922636518855", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

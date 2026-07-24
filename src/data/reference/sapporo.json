@@ -1,0 +1,2247 @@
+[
+  {
+    "id": "sapporo-3n4d-solo-001",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/aboutclaire/224113583702",
+      "title": "삿포로 3박4일 오타루 비에이 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-solo-002",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rkdalswl129/224281785084",
+      "title": "삿포로 3박4일 시내 오타루 조잔케이 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-solo-003",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/thelimslog/224106957409",
+      "title": "삿포로 4박5일 오타루 비에이 후라노 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-solo-004",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "시내 산책"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 시계탑",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "랜드마크 구경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "일몰 시간 방문 추천"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루",
+            "note": "낭만적인 운하 산책"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사카이마치도리 상점가",
+            "category": "shopping",
+            "area": "오타루",
+            "note": "거리 구경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오타루 오르골당 본관",
+            "category": "shopping",
+            "area": "오타루",
+            "note": "다양한 오르골 구경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "패치워크로드",
+            "category": "tourspa",
+            "area": "비에이",
+            "note": "버스 투어 코스"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "청의 호수",
+            "category": "tourspa",
+            "area": "비에이",
+            "note": "아름다운 에메랄드빛 호수"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "흰수염폭포",
+            "category": "tourspa",
+            "area": "비에이",
+            "note": "웅장한 폭포 감상"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다이마루 삿포로",
+            "category": "shopping",
+            "area": "삿포로역",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 스텔라 플레이스",
+            "category": "shopping",
+            "area": "삿포로역",
+            "note": "쇼핑몰 투어"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "에스타 삿포로",
+            "category": "shopping",
+            "area": "삿포로역",
+            "note": "마지막 쇼핑 후 공항 이동"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오타루행 JR 기차는 진행 방향 오른쪽 좌석에 앉으면 경치를 보기 좋습니다.",
+      "비에이/후라노 투어는 버스 투어를 이용하면 렌트 없이 하루 만에 편하게 둘러볼 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sohee_0221/224044346707",
+      "title": "삿포로 4박5일 시내 오타루 비에이 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-couple-005",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로",
+            "note": "삿포로 시내로 JR 열차 이동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홋카이도청 구 본청사",
+            "category": "tourspa",
+            "area": "삿포로",
+            "note": "붉은 벽돌 건물의 이국적인 풍경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "도심 속 산책과 축제 즐기기"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "나카지마 공원",
+            "category": "tourspa",
+            "area": "삿포로",
+            "note": "평화로운 호수와 숲 산책"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "밤",
+            "name": "스스키노",
+            "category": "other",
+            "area": "스스키노",
+            "note": "니카 상 인증샷 및 징기스칸 저녁 식사"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루",
+            "note": "낭만적인 항구 도시 산책"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "기타이치 가라스관 공방거리",
+            "category": "shopping",
+            "area": "오타루",
+            "note": "유리공예품 및 오르골 구경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루",
+            "note": "신선한 해산물 점심 식사"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노",
+            "note": "아름다운 자연 경관 감상"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "삿포로 시내 쇼핑",
+            "category": "shopping",
+            "area": "삿포로",
+            "note": "기념품 및 마지막 자유시간"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로",
+            "note": "출국 준비 및 귀국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "신치토세 공항에서 삿포로 시내까지는 JR 공항철도를 이용하면 약 40분 만에 도착할 수 있습니다.",
+      "비에이와 후라노 지역은 대중교통보다 버스 투어를 이용하는 것이 훨씬 효율적입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/naeiltour/224345531207",
+      "title": "커플 3박4일 오타루 비에이 후라노 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-couple-006",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rkdalswl129/224281785084",
+      "title": "커플 3박4일 시내 조잔케이 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-couple-007",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/aboutclaire/224113583702",
+      "title": "커플 4박5일 오타루 비에이 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-couple-008",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홋카이도 신궁",
+            "category": "tourspa",
+            "area": "마루야마"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "시로이 코이비토 파크",
+            "category": "tourspa",
+            "area": "미야노사와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "스스키노",
+            "category": "tourspa",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sohee_0221/224044346707",
+      "title": "커플 4박5일 근교 균형 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-family-009",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/thelimslog/224106957409",
+      "title": "가족 3박4일 오타루 비에이 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-family-010",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rkdalswl129/224281785084",
+      "title": "가족 3박4일 시내 오타루 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-family-011",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/naeiltour/224345531207",
+      "title": "가족 4박5일 오타루 비에이 후라노 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-family-012",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "시내 산책 및 여유로운 시작"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 시계탑",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "역사적인 건축물 구경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리",
+            "note": "일몰 시간에 맞춰 전망 감상 추천"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루",
+            "note": "낭만적인 소도시 산책"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "사카이마치도리 상점가",
+            "category": "shopping",
+            "area": "오타루",
+            "note": "아기자기한 상점가 구경"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "오타루 오르골당 본관",
+            "category": "shopping",
+            "area": "오타루",
+            "note": "다양한 오르골 감상 및 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노",
+            "note": "버스 투어를 이용한 편안한 이동"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "청의 호수",
+            "category": "tourspa",
+            "area": "비에이",
+            "note": "여름철 아름다운 풍경 감상"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "다이마루 삿포로",
+            "category": "shopping",
+            "area": "삿포로역",
+            "note": "기념품 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 스텔라 플레이스",
+            "category": "shopping",
+            "area": "삿포록역",
+            "note": "다양한 브랜드 쇼핑몰 구경"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "에스타 삿포로",
+            "category": "shopping",
+            "area": "삿포로역",
+            "note": "마지막 쇼핑 후 공항 이동 준비"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오타루행 기차는 진행 방향 오른쪽 좌석에 앉아야 바다 풍경을 보기 좋습니다.",
+      "비에이/후라노 투어는 버스 투어를 이용하면 렌트 없이 하루 만에 편하게 둘러볼 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sohee_0221/224044346707",
+      "title": "가족 4박5일 조잔케이 포함 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-family-013",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/aboutclaire/224113583702",
+      "title": "가족 보강 3박4일 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-friends-014",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/thelimslog/224106957409",
+      "title": "친구 3박4일 비에이 오타루 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-3n4d-friends-015",
+    "city": "Sapporo",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "삿포로",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rkdalswl129/224281785084",
+      "title": "친구 3박4일 시내 오타루 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "sapporo-4n5d-friends-016",
+    "city": "Sapporo",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "삿포로",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "비에이 후라노 투어",
+            "category": "tourspa",
+            "area": "비에이/후라노"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "닝구르테라스",
+            "category": "shopping",
+            "area": "삿포로"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 복귀",
+            "category": "transport",
+            "area": "삿포로"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오도리 공원",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "삿포로 TV타워",
+            "category": "tourspa",
+            "area": "오도리"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "삿포로 맥주박물관",
+            "category": "tourspa",
+            "area": "히가시구"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오타루 운하",
+            "category": "tourspa",
+            "area": "오타루"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "삿포로"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "다누키코지 상점가",
+            "category": "shopping",
+            "area": "스스키노"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "신치토세공항",
+            "category": "flight",
+            "area": "삿포로"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "삿포로는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/sohee_0221/224044346707",
+      "title": "친구 4박5일 비에이 후라노 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

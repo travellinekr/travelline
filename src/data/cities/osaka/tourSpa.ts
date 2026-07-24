@@ -172,6 +172,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4,
         icon: "🛳️"
     },
+    {
+        name: "나라공원",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Osaka",
+        description: "오사카 근교 여행의 필수 코스로, 자유롭게 노니는 사슴들을 만날 수 있는 넓은 공원입니다.",
+        duration: "2~3시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 34.685047, lng: 135.843012 },
+        reservationRequired: false,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["무료 입장 가능", "가족 및 커플 여행 추천", "오사카 근교 당일치기 코스"],
+        rating: 4.6,
+        icon: "D"
+    },
+    {
+        name: "도다이지",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Osaka",
+        description: "웅장한 대불전과 거대한 불상을 통해 압도적인 역사적 가치를 느낄 수 있는 곳입니다.",
+        duration: "1~2시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 34.6889851, lng: 135.8398158 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 7:30 ~ 오후 5:30; 화요일: 오전 7:30 ~ 오후 5:30",
+        features: ["유네스코 세계문화유산", "나라 여행 필수 코스", "웅장한 역사적 건축미"],
+        rating: 4.7,
+        icon: "T"
+    },
+    {
+        name: "기요미즈데라",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Osaka",
+        description: "절벽 위에 세워진 본당 무대에서 교토 시내를 한눈에 내려다볼 수 있는 유네스코 세계문화유산입니다.",
+        duration: "1~2시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 34.9946662, lng: 135.784661 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 6:00 ~ 오후 6:00; 화요일: 오전 6:00 ~ 오후 6:00",
+        features: ["유네스코 세계문화유산", "전통적인 일본 건축미", "교토 필수 방문 코스"],
+        rating: 4.6,
+        icon: "K"
+    }
 ];
 
 export default tourSpa;

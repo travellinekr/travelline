@@ -172,6 +172,40 @@ const tourSpa: TourSpaData[] = [
         rating: 4.6,
         icon: "🐼"
     },
+    {
+        name: "스펀 폭포",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Taipei",
+        description: "대만 북부의 '대만 나이아가라'로 불리는 스펀 폭포는 웅장한 물줄기와 시원한 물보라를 자랑하는 신베이의 대표적인 자연 명소입니다.",
+        duration: "1~2시간",
+        priceRange: "무료 구역 중심",
+        pickupAvailable: false,
+        coordinates: { lat: 25.0489711, lng: 121.7874553 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:00 ~ 오후 4:30; 화요일: 오전 9:00 ~ 오후 4:30",
+        features: ["1~2시간", "무료 구역 중심", "False"],
+        rating: 4.5,
+        icon: "W"
+    },
+    {
+        name: "홍마오청",
+        showInInbox: true,
+        hasInfo: true,
+        type: "cultural",
+        city: "Taipei",
+        description: "스페인과 네덜란드의 통치를 거친 역사가 깃든 단수이의 상징적인 요새로, 붉은 벽돌 건물이 이국적인 분위기를 자아냅니다.",
+        duration: "1시간",
+        priceRange: "입장권별 상이",
+        pickupAvailable: false,
+        coordinates: { lat: 25.1754267, lng: 121.4329366 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:30 ~ 오후 5:00; 화요일: 오전 9:30 ~ 오후 5:00",
+        features: ["약 1시간", "입장권별 상이", "False"],
+        rating: 4.4,
+        icon: "F"
+    }
 ];
 
 export default tourSpa;

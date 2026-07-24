@@ -87,6 +87,57 @@ const tourSpa: TourSpaData[] = [
         rating: 4.6,
         icon: "🤿"
     },
+    {
+        name: "미하마 아메리칸 빌리지",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Okinawa",
+        description: "미국 서부 해안의 정취를 느낄 수 있는 이국적인 복합 쇼핑몰로, 화려한 색감의 건물과 다양한 맛집이 모여 있는 오키나와의 대표 명소입니다.",
+        duration: "2~3시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 26.3158768, lng: 127.7540067 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        features: ["무료 입장", "쇼핑 및 식사 가능", "야경 명소"],
+        rating: 4.3,
+        icon: "A"
+    },
+    {
+        name: "오키나와 차탄 선셋비치",
+        showInInbox: true,
+        hasInfo: true,
+        type: "adventure",
+        city: "Okinawa",
+        description: "차탄 미하마 지역에 위치한 선셋비치는 이름 그대로 환상적인 일몰을 감상할 수 있는 오키나와의 대표적인 해변입니다. 부드러운 모래사장과 함께 로맨틱한 노을을 즐기며 하루를 마무리하기 좋습니다.",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 26.313503, lng: 127.7553015 },
+        reservationRequired: false,
+        openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        features: ["무료 입장", "산책 및 휴식", "해변 접근성 우수"],
+        rating: 4.4,
+        icon: "S"
+    },
+    {
+        name: "비세후쿠길",
+        showInInbox: true,
+        hasInfo: true,
+        type: "city-tour",
+        city: "Okinawa",
+        description: "푸른 바다와 울창한 후쿠기 나무가 어우러진 고즈넉한 산책로입니다. 마을을 둘러싼 나무 터널이 시원한 그늘을 만들어주어 평화로운 분위기 속에서 힐링할 수 있습니다.",
+        duration: "1~2시간",
+        priceRange: "무료",
+        pickupAvailable: false,
+        coordinates: { lat: 26.7015874, lng: 127.8802247 },
+        reservationRequired: false,
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        features: ["1~2시간", "무료", "관광/스파"],
+        rating: 4.3,
+        icon: "F"
+    }
 ];
 
 export default tourSpa;

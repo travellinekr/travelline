@@ -1,0 +1,2815 @@
+[
+  {
+    "id": "hong-kong-3n4d-solo-001",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/mellowtriplog/224338407858",
+      "title": "홍콩 3박4일 침사추이 피크 디즈니 야시장 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-solo-002",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/john_24/224138821991",
+      "title": "홍콩 3박4일 침사추이 빅토리아 피크 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-solo-003",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란콰이펑",
+            "category": "tourspa",
+            "area": "센트럴"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chochocho_o/224181546111",
+      "title": "홍콩 혼자 3박4일 디즈니 센트럴 피크 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-solo-004",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "센트럴",
+            "category": "food",
+            "area": "홍콩섬",
+            "note": "에그타르트 맛보기"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "Silk",
+            "category": "food",
+            "area": "센트럴",
+            "note": "유명한 버블티 맛집"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "세계 최장 야외 에스컬레이터 체험"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "센트럴",
+            "category": "shopping",
+            "area": "홍콩섬",
+            "note": "가볍게 구경하기 좋은 곳"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "피크트램",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "전망대로 이동하는 트램 탑승"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "아름다운 노을과 야경 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "대형 쇼핑몰 구경"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "더 킴벌리 호텔",
+            "category": "hotel",
+            "area": "침사추이",
+            "note": "숙소 체크인 및 휴식"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "마지막 여행지 산책"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 출발",
+            "category": "other",
+            "area": "공항",
+            "note": "여행 마무리 및 귀국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "센트럴에서 트램을 탈 때는 2층 맨 앞자리를 노려보세요.",
+      "미드레벨 에스컬레이터 근처 Silk 버블티는 당도 조절이 가능합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chochocho_o/223948004730",
+      "title": "홍콩 혼자 피크트램 하버시티 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-solo-005",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/zinizio/224330479974",
+      "title": "홍콩 혼자 홍콩섬 하버크루즈 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-couple-006",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rndhdhdh80/224136998433",
+      "title": "커플 3박4일 디즈니 마카오 센트럴 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-couple-007",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ramrami__/224130203309",
+      "title": "커플 3박4일 센트럴 소호 피크트램 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-couple-008",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란콰이펑",
+            "category": "tourspa",
+            "area": "센트럴"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/everclearsky/224270868310",
+      "title": "커플 4박5일 스타의거리 피크트램 란콰이펑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-couple-009",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "K11 뮤제아",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타 페리",
+            "category": "transport",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "심포니 오브 라이트",
+            "category": "tourspa",
+            "area": "빅토리아 하버"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kmint515/223695475158",
+      "title": "커플 4박5일 마카오 하버시티 쇼핑 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-couple-010",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "영화 중경삼림 감성을 느낄 수 있는 곳"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "벽화 골목에서 인생샷 남기기"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "food",
+            "area": "센트럴",
+            "note": "에그타르트 필수 구매"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "카우키",
+            "category": "food",
+            "area": "센트럴",
+            "note": "카레 소고기 국수 맛집"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "타이쿤",
+            "category": "shopping",
+            "area": "센트럴",
+            "note": "옛 교도소를 개조한 복합 문화 공간"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "밤",
+            "name": "피크트램",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "리뉴얼된 트램 타고 야경 감상"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "밤",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "100만 불짜리 홍콩 야경 명소"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "겨울왕국 테마 구역 방문"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "서구룡 문화지구",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "바다 보며 피크닉 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 첵랍콕 공항",
+            "category": "other",
+            "area": "란타우 섬",
+            "note": "에어포트 익스프레스로 이동"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "디지털 옥토퍼스 카드를 미리 준비하면 대중교통 이용이 편리합니다.",
+      "베이크하우스 에그타르트는 웨이팅이 있을 수 있으니 오픈런을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/baba581/224322025219",
+      "title": "커플 보강 디즈니 서구룡 문화지구 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-family-011",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "조기 입장 패스를 활용해 여유로운 어트랙션 이용"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "피크트램을 타고 홍콩 스카이라인 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "옹핑 360 케이블카",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "케이블카를 타고 천단대불과 포린사 관람"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "IFC 몰",
+            "category": "shopping",
+            "area": "센트럴",
+            "note": "쇼핑몰 리워드 혜택 확인 후 쇼핑"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "타임스 스퀘어 홍콩",
+            "category": "shopping",
+            "area": "코즈웨이베이",
+            "note": "다양한 브랜드 쇼핑 및 리워드 활용"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "빅토리아 하버 야경 감상"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "K11 뮤제아",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "마지막 쇼핑 및 문화 공간 즐기기"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩 서머 펀 캠페인을 통해 관광지 입장권과 교통패스를 최대 50% 할인받으세요.",
+      "피크트램 이용 시 성수기 대기 시간을 줄이기 위해 우선 탑승권을 예약하는 것이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/suyeonnii_j/224344449939",
+      "title": "가족 3박4일 피크트램 옹핑 디즈니 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-family-012",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "피크트램",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "오른쪽 좌석에 앉아야 전망이 좋음"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "낮 시간 방문 추천"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "핀들레이 로드",
+            "category": "tourspa",
+            "area": "빅토리아 피크",
+            "note": "뤼가드 로드 산책로 초입 코스"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "컵누들 뮤지엄 홍콩",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "나만의 컵누들 만들기 체험"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "아이와 함께하기 좋은 테마파크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "대형 쇼핑몰 구경"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "산책하며 홍콩 풍경 감상"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "피크트램 이용 시 클룩 등 플랫폼을 통해 사전 예매하면 대기 시간을 줄일 수 있습니다.",
+      "피크트램 탑승 시 진행 방향 오른쪽 좌석에 앉아야 빅토리아 하버를 잘 볼 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/hhjoh0302/224303598402",
+      "title": "가족 3박4일 빅토리아 피크 컵누들 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-family-013",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란콰이펑",
+            "category": "tourspa",
+            "area": "센트럴"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/rndhdhdh80/224136998433",
+      "title": "가족 4박5일 디즈니 마카오 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-family-014",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "K11 뮤제아",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타 페리",
+            "category": "transport",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "심포니 오브 라이트",
+            "category": "tourspa",
+            "area": "빅토리아 하버"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/ksksbs/224355777690",
+      "title": "가족 4박5일 디즈니 오션파크 옹핑 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-family-015",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/everclearsky/224270868310",
+      "title": "가족 보강 초이홍 디즈니 마카오 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-friends-016",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "쇼핑 및 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "산책로 즐기기"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "K11 뮤제아",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "새로 생긴 쇼핑몰"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "구룡공원",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "도심 속 공원 산책"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "오후",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡",
+            "note": "알록달록한 사진 명소"
+          },
+          {
+            "seq": 6,
+            "timeOfDay": "저녁",
+            "name": "심포니 오브 라이트",
+            "category": "tourspa",
+            "area": "빅토리아 하버",
+            "note": "야경 레이저 쇼 관람"
+          },
+          {
+            "seq": 7,
+            "timeOfDay": "밤",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕",
+            "note": "스냅사진 촬영 및 야경"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오스트레일리아 데어리 컴퍼니",
+            "category": "food",
+            "area": "침사추이",
+            "note": "차찬탱 조식 투어"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "소호",
+            "category": "food",
+            "area": "센트럴",
+            "note": "베이커리 투어"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "하루 종일 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "익청빌딩",
+            "category": "tourspa",
+            "area": "홍콩섬",
+            "note": "영화 촬영지 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미드레벨 에스컬레이터",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "에스컬레이터 탑승"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "벽화 거리 및 산책"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "오후",
+            "name": "피크트램",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "전망대 이동"
+          },
+          {
+            "seq": 5,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "홍콩 야경 감상"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오스트레일리아 데어리 컴퍼니",
+            "category": "food",
+            "area": "침사추이",
+            "note": "마지막 차찬탱 식사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오전",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "출국 전 마지막 쇼핑"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "몽콕 스냅사진은 미리 예약하는 것을 추천합니다.",
+      "심포니 오브 라이트는 지나가다 가볍게 관람하는 것이 좋습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/chochocho_o/224181546111",
+      "title": "친구 3박4일 하버시티 K11 몽콕 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-friends-017",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "쇼핑몰 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "K11 뮤제아",
+            "category": "shopping",
+            "area": "침사추이",
+            "note": "예술적인 쇼핑 공간"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "밤",
+            "name": "스타의 거리",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "야경 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "하루 종일 즐기기"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "피크트램",
+            "category": "tourspa",
+            "area": "센트럴",
+            "note": "스카이 테라스 428 포함 추천"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "IFC 몰",
+            "category": "shopping",
+            "area": "센트럴",
+            "note": "쇼핑 및 센트럴마켓 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크",
+            "note": "홍콩 야경의 정점"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡",
+            "note": "SNS 사진 스팟"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "익청빌딩",
+            "category": "tourspa",
+            "area": "홍콩섬",
+            "note": "영화 촬영지 구경"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "피크트램 이용 시 스카이 테라스 428 포함 티켓을 추천합니다.",
+      "디즈니랜드는 예약 필수 티켓보다 입장 예약이 필요 없는 티켓이 편리할 수 있습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/jjingutravel/224355639230",
+      "title": "친구 3박4일 맛집 쇼핑 야경 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-friends-018",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "센트럴",
+            "category": "tourspa",
+            "area": "홍콩섬"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "소호",
+            "category": "tourspa",
+            "area": "센트럴"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "란콰이펑",
+            "category": "tourspa",
+            "area": "센트럴"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kmint515/223695475158",
+      "title": "친구 4박5일 하버시티 마카오 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-4n5d-friends-019",
+    "city": "Hong Kong",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "홍콩",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "디즈니랜드 리조트 체크인 및 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우",
+            "note": "디즈니랜드 2일권 활용"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "익청빌딩",
+            "category": "tourspa",
+            "area": "홍콩섬",
+            "note": "트램 투어로 홍콩섬 관람"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "코즈웨이베이",
+            "category": "shopping",
+            "area": "코즈웨이 베이",
+            "note": "쇼핑 및 거리 구경"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "타이쿠싱 시티플라자",
+            "category": "shopping",
+            "area": "코즈웨이 베이",
+            "note": "쇼핑몰 방문"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이",
+            "note": "홍콩섬에서 침사추이로 이동"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩 국제 공항",
+            "category": "other",
+            "area": "란타우 섬",
+            "note": "AEL 이용하여 이동"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "귀국",
+            "category": "other",
+            "area": "홍콩",
+            "note": "여행 마무리"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "2인 이상 여행 시 공항에서 호텔 이동은 택시가 더 경제적이고 편리합니다.",
+      "디즈니랜드 방문 시 1일권보다 2일권을 구매하는 것이 가격 면에서 유리합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/zinizio/224330479974",
+      "title": "친구 4박5일 홍콩섬 하버크루즈 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "hong-kong-3n4d-friends-020",
+    "city": "Hong Kong",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "홍콩",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "홍콩국제공항",
+            "category": "flight",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "침사추이 산책로",
+            "category": "tourspa",
+            "area": "침사추이"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "빅토리아 피크",
+            "category": "tourspa",
+            "area": "피크"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "초이홍 아파트",
+            "category": "tourspa",
+            "area": "구룡"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "홍콩 디즈니랜드",
+            "category": "tourspa",
+            "area": "란타우"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "몽콕 야시장",
+            "category": "food",
+            "area": "몽콕"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "홍콩"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "하버시티",
+            "category": "shopping",
+            "area": "침사추이"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "홍콩국제공항 출국",
+            "category": "flight",
+            "area": "홍콩"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "홍콩는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/kys2909/224237669745",
+      "title": "친구 보강 별빛투어 피크 스타페리 야시장 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

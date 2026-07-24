@@ -1,0 +1,2166 @@
+[
+  {
+    "id": "okinawa-3n4d-solo-001",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dlwndud1974/224275538286",
+      "title": "오키나와 3박4일 나하 국제거리 츄라우미 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-solo-002",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "잭스 스테이크 하우스",
+            "category": "food",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/vlfldk/224346747791",
+      "title": "오키나와 3박4일 만좌모 아메리칸빌리지 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-solo-003",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "solo",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "렌터카 픽업",
+            "category": "other",
+            "area": "나하 공항",
+            "note": "공항 도착 후 차량 수령"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "A&W 마키미나토",
+            "category": "food",
+            "area": "나하",
+            "note": "햄버거로 점심 식사"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 바위 구경"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "호텔 BEB5",
+            "category": "hotel",
+            "area": "중부",
+            "note": "숙소 체크인 및 휴식"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진",
+            "note": "코우리 대교 드라이브"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "고래상어 관람"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "미국식 거리 구경 및 식사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "기념품 쇼핑 및 나하 시내 구경"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "이토만 수산시장",
+            "category": "food",
+            "area": "남부",
+            "note": "신선한 해산물 식사"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "우미카지 테라스",
+            "category": "shopping",
+            "area": "세나가섬",
+            "note": "공항 근처 산책 및 구경"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "other",
+            "area": "나하",
+            "note": "렌터카 반납 및 출국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 섬이 커서 렌터카 이용을 강력 추천합니다.",
+      "만좌모는 노을지는 시간에 방문하면 더욱 아름답습니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youn_dh/224181947140",
+      "title": "오키나와 4박5일 렌터카 북부 중부 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-solo-004",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "solo",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "solo",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "이국적인 감성의 사진 명소와 일몰 감상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "예쁜 소품샵 쇼핑과 해변 맥주 한잔"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 모양의 절벽 관람 (입장료 100엔 준비)"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "대형 수족관 관람 및 돌고래쇼 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하",
+            "note": "남부 투어 코스 중 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "다양한 맛집과 쇼핑 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "공항 이동",
+            "category": "other",
+            "area": "Naha",
+            "note": "여행 마무리 및 귀국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "만좌모 입장 시 빠른 입장을 위해 100엔을 미리 준비하세요.",
+      "오키나와 명소 간 거리가 멀기 때문에 렌트카 이용을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youliyan/223933461290",
+      "title": "오키나와 4박5일 만좌모 츄라우미 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-couple-005",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tbeige/224090361942",
+      "title": "커플 3박4일 츄라우미 만좌모 아메리칸 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-couple-006",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "유이레일로 이동 가능하며 시내 중심가 구경"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "국제거리 포장마차 마을",
+            "category": "food",
+            "area": "나하",
+            "note": "선선한 밤공기와 함께 오리온 생맥주 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 코 모양 바위 배경으로 인생샷 남기기"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이온몰 오키나와 라이카무",
+            "category": "shopping",
+            "area": "기타나카구스쿠",
+            "note": "더운 낮 시간에는 시원한 쇼핑몰에서 휴식"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "오후",
+            "name": "블루씰 마키미나토",
+            "category": "food",
+            "area": "자탄",
+            "note": "이국적인 매장의 블루씰 아이스크림 맛보기"
+          },
+          {
+            "seq": 4,
+            "timeOfDay": "저녁",
+            "name": "오키나와 차탄 선셋비치",
+            "category": "tourspa",
+            "area": "자탄",
+            "note": "로맨틱한 노을을 보며 하루 마무리"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진",
+            "note": "코우리 대교를 지나며 에메랄드빛 바다 드라이브"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "거대한 고래상어를 볼 수 있는 시원한 실내 코스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비세후쿠길",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "나무 그늘 아래서 즐기는 고즈넉한 산책"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우미카지 테라스",
+            "category": "shopping",
+            "area": "세나가섬",
+            "note": "하얀 건물과 바다가 어우러진 예쁜 카페 투어"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "한낮의 무더위를 피해 실내 관광지와 쇼핑몰을 적절히 섞으세요.",
+      "8월은 태풍 영향권일 수 있으니 여행 전 날씨 확인이 필수입니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/vlfldk/224346747791",
+      "title": "커플 3박4일 여름 휴양 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-couple-007",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "couple",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 푸른동굴",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이온몰 오키나와 라이카무",
+            "category": "shopping",
+            "area": "기타나카구스쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youn_dh/224181947140",
+      "title": "커플 4박5일 렌터카 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-couple-008",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "couple",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "couple",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "이국적인 감성의 사진 명소와 일몰 감상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "예쁜 소품샵 쇼핑과 해변 맥주 한잔"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 모양의 절벽 관람 (입장료 100엔 준비)"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "대형 수족관 탐방 및 돌고래쇼 관람"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하",
+            "note": "남부 투어 코스 중 방문"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "다양한 먹거리와 쇼핑 즐기기"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "공항 이동",
+            "category": "other",
+            "area": "Naha",
+            "note": "여행 마무리 및 귀국"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "만좌모 입장 시 빠른 입장을 위해 100엔을 미리 준비하세요.",
+      "오키나와 명소 간 거리가 멀기 때문에 렌트카 이용을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youliyan/223933461290",
+      "title": "커플 4박5일 대표 코스 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-family-009",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tbeige/224090361942",
+      "title": "가족 3박4일 수족관 만좌모 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-family-010",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "잭스 스테이크 하우스",
+            "category": "food",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/dlwndud1974/224275538286",
+      "title": "가족 3박4일 국제거리 츄라우미 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-family-011",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 푸른동굴",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이온몰 오키나와 라이카무",
+            "category": "shopping",
+            "area": "기타나카구스쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youn_dh/224181947140",
+      "title": "가족 4박5일 북부 중부 남부 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-family-012",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "family",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "family",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "잭스 스테이크 하우스",
+            "category": "food",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "우미카지 테라스",
+            "category": "shopping",
+            "area": "세나가섬"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/vlfldk/224346747791",
+      "title": "가족 4박5일 만좌모 아메리칸 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-family-013",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "family",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "family",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 모양의 절벽이 유명한 명소"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄",
+            "note": "이국적인 분위기와 아름다운 일몰 감상"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "대형 수조와 돌고래쇼 관람"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하",
+            "note": "오키나와 남부 투어 코스"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "쇼핑과 맛집 탐방"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "만좌모 입장 시 빠른 입장을 위해 100엔을 미리 준비하세요.",
+      "명소 간 거리가 멀기 때문에 렌터카 이용을 추천합니다."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youliyan/223933461290",
+      "title": "가족 보강 3박4일 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-friends-014",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/youn_dh/224181947140",
+      "title": "친구 3박4일 렌터카 쇼핑 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-3n4d-friends-015",
+    "city": "Okinawa",
+    "nights": 3,
+    "days": 4,
+    "companion": "friends",
+    "month": 6,
+    "pace": "relaxed",
+    "themes": [
+      "오키나와",
+      "friends",
+      "relaxed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하",
+            "note": "유이레일로 이동 후 시내 구경 및 쇼핑"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "저녁",
+            "name": "국제거리 포장마차 마을",
+            "category": "food",
+            "area": "나하",
+            "note": "선선한 밤공기와 함께 즐기는 오리온 생맥주"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손",
+            "note": "코끼리 코 모양 바위 배경으로 인생샷 남기기"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "이온몰 오키나와 라이카무",
+            "category": "shopping",
+            "area": "기타나카구스쿠",
+            "note": "시원한 실내 쇼핑과 블루씰 아이스크림 즐기기"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "오키나와 차탄 선셋비치",
+            "category": "tourspa",
+            "area": "자탄",
+            "note": "로맨틱한 노을 감상하며 하루 마무리"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진",
+            "note": "코우리 대교 드라이브로 에메랄드빛 바다 감상"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "거대한 고래상어를 볼 수 있는 시원한 실내 코스"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "비세후쿠길",
+            "category": "tourspa",
+            "area": "모토부",
+            "note": "나무 그늘 아래 고즈넉한 산책과 힐링"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "우미카지 테라스",
+            "category": "shopping",
+            "area": "세나가섬",
+            "note": "하얀 건물과 바다가 어우러진 카페에서 여유"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "한낮에는 더위를 피해 에어컨이 있는 실내 관광지나 쇼핑몰 위주로 일정을 짜세요.",
+      "8월은 태풍의 영향권일 수 있으니 여행 전 기상 정보를 꼭 확인하세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/vlfldk/224346747791",
+      "title": "친구 3박4일 해변 야경 relaxed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  },
+  {
+    "id": "okinawa-4n5d-friends-016",
+    "city": "Okinawa",
+    "nights": 4,
+    "days": 5,
+    "companion": "friends",
+    "month": 6,
+    "pace": "packed",
+    "themes": [
+      "오키나와",
+      "friends",
+      "packed"
+    ],
+    "plan": [
+      {
+        "day": 1,
+        "label": "1일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "label": "2일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "만좌모",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 츄라우미 수족관",
+            "category": "tourspa",
+            "area": "모토부"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "미하마 아메리칸 빌리지",
+            "category": "tourspa",
+            "area": "차탄"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "label": "3일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "슈리성",
+            "category": "tourspa",
+            "area": "나하"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "국제거리",
+            "category": "shopping",
+            "area": "나하"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "T 갤러리아 오키나와 by DFS",
+            "category": "shopping",
+            "area": "나하"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "label": "4일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "코우리섬",
+            "category": "tourspa",
+            "area": "나키진"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "오키나와 푸른동굴",
+            "category": "tourspa",
+            "area": "온나손"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "이온몰 오키나와 라이카무",
+            "category": "shopping",
+            "area": "기타나카구스쿠"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "label": "5일차",
+        "items": [
+          {
+            "seq": 1,
+            "timeOfDay": "오전",
+            "name": "호텔 체크아웃",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 2,
+            "timeOfDay": "오후",
+            "name": "숙소 체크인",
+            "category": "other",
+            "area": "오키나와"
+          },
+          {
+            "seq": 3,
+            "timeOfDay": "저녁",
+            "name": "나하공항",
+            "category": "flight",
+            "area": "나하"
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "오키나와는 구역별로 동선을 묶으세요."
+    ],
+    "source": {
+      "platform": "naver_blog",
+      "url": "https://blog.naver.com/tbeige/224090361942",
+      "title": "친구 4박5일 북부 중부 packed",
+      "collectedAt": "2026-07-23",
+      "reliability": 0.8
+    }
+  }
+]

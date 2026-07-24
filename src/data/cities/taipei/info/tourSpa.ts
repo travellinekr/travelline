@@ -180,6 +180,34 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%EB%8F%99%EB%AC%BC%EC%9B%90+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "스펀 폭포": {
+        photos: ["/images/taipei/info/tourSpa/shifen-waterfall.jpg"],
+        summary: "시원한 물줄기가 압권인 대만의 나이아가라, 스펀 폭포",
+        updatedAt: "2026-07-23",
+        highlights: ["웅장하고 거대한 규모의 폭포 경관", "주변 산책로를 따라 즐기는 시원한 자연 풍경", "스펀 천등 날리기 체험과 연계 가능한 코스"],
+        tips: ["폭포 근처는 물보라로 인해 옷이 젖을 수 있으니 주의하세요.", "스펀 마을의 천등 날리기 체험과 함께 방문하면 더욱 알찬 여행이 됩니다."],
+        hours: "월요일: 오전 9:00 ~ 오후 4:30; 화요일: 오전 9:00 ~ 오후 4:30",
+        duration: "1~2시간",
+        price: "무료 구역 중심",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "226 대만 New Taipei City, Pingxi District, Nanshan Village, 乾坑10號", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=12687194182303361353", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=12687194182303361353", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "홍마오청": {
+        photos: ["/images/taipei/info/tourSpa/fort-san-domingo.jpg"],
+        summary: "단수이 여행의 필수 코스로, 역사적 가치와 아름다운 풍경을 동시에 즐길 수 있는 문화 명소입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["스페인과 네덜란드 양식이 혼합된 이국적인 건축물", "붉은 벽돌과 초록빛 나무가 어우러진 인생샷 포토존", "단수이 강변의 평화로운 풍경을 조망할 수 있는 전망"],
+        tips: ["주변 단수이 라오제 거리와 함께 둘러보며 길거리 음식을 즐기기에 좋습니다."],
+        hours: "월요일: 오전 9:30 ~ 오후 5:00; 화요일: 오전 9:30 ~ 오후 5:00",
+        duration: "1시간",
+        price: "입장권별 상이",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "251 대만 New Taipei City, Tamsui District, Wenhua Village, 中正路28巷1號", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://www.tshs.ntpc.gov.tw/xmdoc/cont?xsmsid=0L271515544528923536&sid=0L271521471889545285", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=17282740888371650269", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

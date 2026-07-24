@@ -176,6 +176,76 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EB%AA%A8%EC%82%AC%EC%9B%90+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "초이홍 아파트": {
+        photos: ["/images/hong-kong/info/tourSpa/choi-hung-estate.jpg"],
+        summary: "알록달록한 무지개색 외벽으로 유명한 홍콩의 대표적인 사진 명소이자 로컬 감성 가득한 아파트 단지입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["무지개 빛깔의 아름다운 아파트 외벽", "인생샷을 남길 수 있는 최고의 포토 스팟", "홍콩 특유의 레트로한 주거 문화 체험"],
+        tips: ["햇빛이 잘 드는 낮 시간에 방문하면 더욱 선명하고 화려한 색감을 담을 수 있습니다. 주변의 로컬 식당에서 간단한 간식을 즐겨보세요."],
+        hours: "방문 전 확인 권장",
+        duration: "30분~1시간",
+        price: "무료 구역 중심",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Choi Hung Estate, 홍콩", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=18131227921015818786", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=18131227921015818786", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "미드레벨 에스컬레이터": {
+        photos: ["/images/hong-kong/info/tourSpa/mid-levels-escalator.jpg"],
+        summary: "영화 속 한 장면처럼 홍콩 도심의 정취를 만끽할 수 있는 세계 최장 야외 에스컬레이터",
+        updatedAt: "2026-07-23",
+        highlights: ["세계 최장 길이의 야외 에스컬레이터 체험", "영화 '중경삼림'의 감성을 느낄 수 있는 로맨틱한 코스", "센트럴 소호 거리와 연결되어 주변 맛집 및 카페 탐방 용이"],
+        tips: ["에스컬레이터는 상행 방향으로만 운행되므로, 내려올 때는 계단을 이용하거나 반대편 경로를 확인하세요."],
+        hours: "월요일: 오전 6:00 ~ 오전 12:00; 화요일: 오전 6:00 ~ 오전 12:00",
+        duration: "30분~1시간",
+        price: "무료",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Jubilee St, Central, 홍콩", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=2797888173960283504", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=2797888173960283504", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "란콰이펑": {
+        photos: ["/images/hong-kong/info/tourSpa/lan-kwai-fong.jpg"],
+        summary: "홍콩의 밤을 책임지는 화려한 클럽과 바가 모여 있는 센트럴의 대표적인 나이트라이프 명소",
+        updatedAt: "2026-07-23",
+        highlights: ["다양한 테마의 펍과 클럽 밀집", "전 세계 여행객들과 어우러지는 글로벌한 분위기", "홍콩 밤문화의 정수를 느낄 수 있는 활기찬 거리"],
+        tips: ["주말 저녁에는 인파가 매우 많으므로 여유 있게 방문하세요.", "매장마다 입장료나 드레스 코드가 다를 수 있으니 미리 확인하는 것이 좋습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "매장별 상이",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Lan Kwai Fong, Central, 홍콩", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=12643130716378474702", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=12643130716378474702", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "심포니 오브 라이트": {
+        photos: ["/images/hong-kong/info/tourSpa/symphony-of-lights.jpg"],
+        summary: "홍콩의 밤을 수놓는 환상적인 멀티미디어 레이저 쇼",
+        updatedAt: "2026-07-23",
+        highlights: ["빅토리아 하버 스카이라인을 배경으로 한 화려한 레이저 연출", "무료로 즐길 수 있는 홍콩 최고의 야경 명소", "침사추이 해변 산책로에서 감상하는 로맨틱한 분위기"],
+        tips: ["쇼 시작 15~20분 전에 도착하여 좋은 자리를 확보하세요.", "침사추이 해변 산책로(Avenue of Stars) 쪽에서 관람하는 것이 가장 좋습니다."],
+        hours: "방문 전 확인 권장",
+        duration: "20~30분",
+        price: "무료",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Kowloon Public Pier, Tsim Sha Tsui, 홍콩", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=16554577365569407464", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=16554577365569407464", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "익청빌딩": {
+        photos: ["/images/hong-kong/info/tourSpa/yick-cheong-building.jpg"],
+        summary: "홍콩의 영화적 감성을 담은 초고층 밀집 아파트 단지",
+        updatedAt: "2026-07-23",
+        highlights: ["영화 '트랜스포머' 촬영지", "압도적인 스케일의 건축미", "홍콩 특유의 도시 경관"],
+        tips: ["실제 주민들이 거주하는 공간이므로 소음 발생에 주의하며 에티켓을 지켜 관람해야 합니다."],
+        hours: "방문 전 확인 권장",
+        duration: "30분~1시간",
+        price: "무료 구역 중심",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Yick Cheong Building, King's Rd, Quarry Bay, 홍콩", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=11782631859400842717", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=11782631859400842717", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

@@ -182,6 +182,48 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BA%90%EB%84%90%EC%8B%9C%ED%8B%B0+%ED%95%98%EC%B9%B4%ED%83%80+%EB%B6%84%EC%88%98%EC%87%BC+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "나카스 야타이 거리": {
+        photos: ["/images/fukuoka/info/tourSpa/nakasu-yatai-street.jpg"],
+        summary: "나카스 강변의 정취와 함께 라멘, 꼬치구이 등 일본식 포장마차 요리를 맛볼 수 있는 후쿠한 야시장 분위기의 거리입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["나카스 강변의 아름다운 야경", "라멘, 야키토리 등 다양한 로컬 메뉴", "현지인과 여행객이 어우러지는 활기찬 분위기"],
+        tips: ["인기 있는 곳은 대기가 길 수 있으니 여유 있게 방문하세요.", "1인 식사도 가능하지만 공간이 협소할 수 있습니다."],
+        hours: "월요일: 오후 6:00 ~ 오전 12:00; 화요일: 오후 6:00 ~ 오전 12:00",
+        duration: "1~2시간",
+        price: "무료 산책·식사 별도",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "일본 〒810-0801 Fukuoka, Hakata Ward, Nakasu, 1-chōme−8, 那珂川 通り", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=8299763336248263788", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=8299763336248263788", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "유후인 당일치기": {
+        photos: ["/images/fukuoka/info/tourSpa/yufuin-day-trip.jpg"],
+        summary: "동화 속 풍경을 만끽할 수 있는 유후인의 작은 유럽 테마 마을",
+        updatedAt: "2026-07-23",
+        highlights: ["영국 코츠월드 스타일의 아기자기한 건물과 정원", "귀여운 동물들과 교감할 수 있는 체험 공간", "유후인 마을 산책과 연계하기 좋은 코스"],
+        tips: ["유후인 긴린코 호수 및 마을 상점가와 가까워 당일치기 버스 투어 일정에 포함하기 좋습니다."],
+        hours: "월요일: 오전 9:30 ~ 오후 5:00; 화요일: 오전 9:30 ~ 오후 5:00",
+        duration: "하루",
+        price: "교통·상품별 상이",
+        reservation: { required: true, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "1503-3 Yufuinchō Kawakami, Yufu, Oita 879-5102 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "http://floral-village.com/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=2696757303103107704", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "벳푸 지옥온천": {
+        photos: ["/images/fukuoka/info/tourSpa/beppu-jigoku-meguri.jpg"],
+        summary: "다양한 색채와 뜨거운 증기가 매력적인 벳푸의 상징적인 온천 순례 코스",
+        updatedAt: "2026-07-23",
+        highlights: ["바다처럼 푸른 우미지옥", "피처럼 붉은 치노이케지옥", "신비로운 연기 가득한 칸나와 온천 마을"],
+        tips: ["각 지옥마다 입장권이 다르므로 통합권을 확인하세요.", "온천 계란과 라무네 음료를 맛보는 재미를 놓치지 마세요."],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "반나절~하루",
+        price: "입장권별 상이",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "559-1 Kannawa, Beppu, Oita 874-0000 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://www.beppu-jigoku.com/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=10078155660208967922", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

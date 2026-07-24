@@ -227,6 +227,21 @@ const restaurants: RestaurantData[] = [
         features: ["생동감 넘치는 민요 라이브", "다양한 오키나와 향토 음식"],
         icon: "🎶"
     },
+    {
+        name: "국제거리 포장마차 마을",
+        showInInbox: true,
+        hasInfo: true,
+        type: "local",
+        city: "Okinawa",
+        coordinates: { lat: 26.2167026, lng: 127.690478 },
+        cuisine: "오키나와 이자카야",
+        specialty: "오키나와 안주·오리온 맥주",
+        priceRange: "¥1,500~3,500",
+        openingHours: "월요일: 오후 12:00 ~ 오전 12:00; 화요일: 오후 12:00 ~ 오전 12:00",
+        reservation: false,
+        features: ["오키나와 이자카야", "로컬 푸드", "나하 중심가"],
+        icon: "Y"
+    }
 ];
 
 export default restaurants;

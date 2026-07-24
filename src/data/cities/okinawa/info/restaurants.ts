@@ -254,6 +254,19 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%ED%85%8C%EB%A3%A8%EB%A7%88+%EA%B5%AD%EC%A0%9C%EA%B1%B0%EB%A6%AC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "국제거리 포장마차 마을": {
+        photos: ["/images/okinawa/info/restaurants/kokusai-dori-yataimura.jpg"],
+        summary: "오리온 생맥주와 다양한 현지 안주가 가득한 나하의 대표적인 야시장 명소",
+        updatedAt: "2026-07-23",
+        highlights: ["오키나와 스타일 이자카야 메뉴", "시원한 오리온 생맥주", "활기찬 포장마차 거리 분위기"],
+        tips: ["선선한 밤공기와 함께 즐기는 시원한 맥주 한 잔을 추천합니다.", "다양한 안주를 조금씩 여러 가게에서 맛보는 재미가 있습니다."],
+        reservation: { required: false, method: "인기 시간대·단체 방문은 사전 확인 권장" },
+        menu: { signature: "오키나와 안주·오리온 맥주", items: [{ name: "대표 메뉴", price: "¥1,500~3,500", note: "메뉴와 가격은 시점별 변동 가능" }] },
+        hours: "월요일: 오후 12:00 ~ 오전 12:00; 화요일: 오후 12:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [{ label: "공식/지도", url: "https://kokusaidoori-yataimura.okinawa/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=4055004008214392115", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

@@ -88,6 +88,48 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A3%BC%EC%9E%90%EC%9E%90%EC%98%A4+%EC%88%98%ED%96%A5%EB%A7%88%EC%9D%84+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "황푸강 유람선": {
+        photos: ["/images/shanghai/info/tourSpa/huangpu-river-cruise.jpg"],
+        summary: "황푸강 위에서 즐기는 상하이 최고의 야경 명소",
+        updatedAt: "2026-07-23",
+        highlights: ["와이탄과 푸동의 대조적인 스카이라인 관람", "상하이의 밤을 완성하는 화려한 조명 쇼", "강바람과 함께 즐기는 낭만적인 크루즈 항해"],
+        tips: ["일몰 직후나 야경이 가장 밝은 시간에 탑승하는 것을 추천합니다.", "인기가 많으므로 방문 전 사전 예약이 필수입니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "티켓별 상이",
+        reservation: { required: true, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "153 or 291Zhongshan Dong Er Lu (Zhongshan East2nd Rd), 外滩黄浦区 중국 200120", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://www.chinahighlights.com/shanghai/attraction/huangpu-river-night-cruise.htm", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=15291995811876603287", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "우캉루": {
+        photos: ["/images/shanghai/info/tourSpa/wukang-road.jpg"],
+        summary: "상하이 프랑스 조계지의 낭만을 느낄 수 있는 가로수길 산책 및 우캉맨션 관람",
+        updatedAt: "2026-07-23",
+        highlights: ["랜드마크인 우캉맨션(Wukang Mansion) 인증샷 촬영", "프랑스 조계지 특유의 이국적인 유럽풍 건축물 감상", "플라타너스 가로수 아래 여유로운 거리 산책"],
+        tips: ["주변에 예쁜 카페와 소품샵이 많으니 중간중간 휴식을 즐기세요.", "우캉맨션의 독특한 외관을 담으려면 건물 모퉁이에서 촬영하는 것을 추천합니다."],
+        hours: "방문 전 확인 권장",
+        duration: "1~2시간",
+        price: "무료 구역 중심",
+        reservation: { required: false, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "Wu Kang Lu, Xu Hui Qu, Shang Hai Shi, 중국 200031", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=12702381232704087663", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=12702381232704087663", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "상하이 서커스 월드": {
+        photos: ["/images/shanghai/info/tourSpa/shanghai-circus-world.jpg"],
+        summary: "뮤지컬처럼 화려하고 역동적인 연출이 돋보이는 상하이 필수 관람 코스",
+        updatedAt: "2026-07-23",
+        highlights: ["전통 서커스와 첨단 미디어 아트의 환상적인 조화", "중력을 거스르는 듯한 고난도 아크로바틱 기술", "눈과 귀를 동시에 사로잡는 웅장한 무대 연출"],
+        tips: ["인기 공연은 매진이 빠르므로 사전 예약 필수", "공연 시작 최소 30분 전 도착하여 분위기 만끽하기"],
+        hours: "방문 전 확인 권장",
+        duration: "2시간",
+        price: "공연 티켓별 상이",
+        reservation: { required: true, method: "방문 전 운영·교통 정보를 확인하세요" },
+        access: { area: "2266 Gong He Xin Lu, Zhabei Qu, Shang Hai Shi, 중국 200435", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [{ label: "공식/지도", url: "http://www.shanghaimaxicheng.com/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=17249157065934424875", type: "guide", description: "지도에서 위치 보기" }]
+    }
 };
 
 export default info;

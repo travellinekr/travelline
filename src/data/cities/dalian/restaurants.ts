@@ -227,6 +227,21 @@ const restaurants: RestaurantData[] = [
         features: ["두툼하고 맛있는 수제 버거", "캐주얼하게 즐기는 맥주 한 잔"],
         icon: "🍔"
     },
+    {
+        name: "시안루 야시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "chinese",
+        city: "Dalian",
+        coordinates: { lat: 38.915375, lng: 121.588223 },
+        cuisine: "야시장 먹거리",
+        specialty: "꼬치구이, 만두, 탕후루 등 다채로운 중국식 로컬 스낵",
+        priceRange: "¥20~80",
+        openingHours: "방문 전 확인 권장",
+        reservation: false,
+        features: ["다양한 먹거리", "저렴한 가격대", "활기찬 야시장 분위기"],
+        icon: "N"
+    }
 ];
 
 export default restaurants;

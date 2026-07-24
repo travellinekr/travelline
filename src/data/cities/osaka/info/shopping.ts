@@ -299,6 +299,20 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%9D%BC%ED%8F%AC%ED%8A%B8+%EC%97%91%EC%8A%A4%ED%8F%AC%EC%8B%9C%ED%8B%B0+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "신사이바시스지 상점가": {
+        photos: ["/images/osaka/info/shopping/shinsaibashi-suji-shopping-street.jpg"],
+        summary: "패션부터 먹거리까지 한곳에서 즐기는 오사카 최대 규모의 쇼핑 아케이드입니다.",
+        updatedAt: "2026-07-23",
+        highlights: ["트렌디한 패션 및 잡화 쇼핑", "길거리 간식과 다양한 먹거리 탐방", "날씨 걱정 없는 아케이드 구조"],
+        tips: ["주변 도톤보리와 연계하여 방문하기 좋습니다.", "편한 신발을 신고 여유 있게 둘러보세요."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식/지도", url: "https://www.shinsaibashi.or.jp/", type: "official", description: "공식 또는 지도 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7087755665176380195", type: "guide", description: "지도에서 위치 보기" }
+        ]
+    }
 };
 
 export default info;
