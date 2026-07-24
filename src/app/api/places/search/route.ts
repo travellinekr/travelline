@@ -68,7 +68,6 @@ export async function GET(request: NextRequest) {
             if (coords) {
                 // location bias를 추가하여 특정 좌표 근처에서 검색
                 locationBias = `&location=${coords.lat},${coords.lng}&radius=50000`;
-                console.log(`[Places Search] Using location bias for ${city}:`, coords);
             }
         }
 

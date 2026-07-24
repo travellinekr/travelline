@@ -1196,9 +1196,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         flightInfo={flightInfo as any}
                                         activeDay={activeDay}
                                         onDayClick={scrollToDay}
-                                        onFlightRegisterClick={() => {
-                                            // TODO: Open flight modal
-                                        }}
+                                        onFlightRegisterClick={() => scrollToDay('flights')}
                                         addToast={addToast}
                                         columns={columns as any}
                                     />
