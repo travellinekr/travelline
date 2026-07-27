@@ -51,8 +51,10 @@ export async function callModel({ system, messages, json = true, temperature = 0
             temperature,
             // thinkingBudget>0 이면 사고 토큰만큼 여유가 필요 → 출력 상한을 함께 키움
             maxOutputTokens: maxOutputTokens + (thinkingBudget > 0 ? thinkingBudget : 0),
-            // 사고(thinking) 토큰 예산. 0=즉시 JSON(빠름), >0=추론 활성(품질↑)
-            thinkingConfig: { thinkingBudget },
+            // 사고(thinking) 토큰 예산. >0 일 때만 전달.
+            // gemini-3.x flash 는 thinkingBudget:0(사고 끄기)을 거부(400)하므로,
+            // 0/미지정이면 thinkingConfig 를 아예 생략해 모델 기본값(자동 사고)에 맡긴다.
+            ...(thinkingBudget > 0 ? { thinkingConfig: { thinkingBudget } } : {}),
             ...(json ? { responseMimeType: 'application/json' } : {}),
         },
     };
