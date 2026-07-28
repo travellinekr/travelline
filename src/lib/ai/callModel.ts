@@ -25,7 +25,21 @@ interface CallModelOpts {
     thinkingBudget?: number;
 }
 
-const GEMINI_MODEL = 'gemini-flash-latest';
+// 모델 폴백 체인: 앞에서부터 시도해 성공하는 첫 모델을 사용.
+// Google이 특정 버전을 회수(404)/롤오버해도 다음 모델로 자동 대체 → AI 전체가 멈추지 않음.
+//
+// 순서 근거(2026-07 기준, 현재 키 실측):
+//  - gemini-flash-latest : 유일하게 확실히 작동(현재 gemini-3.6-flash 로 해석) → 1순위
+//  - gemini-2.5-flash    : 이 신규 프로젝트 키에선 '신규 사용자 제공 종료(404)'. 다른(구) 키/유료 키에선
+//                          접근될 수 있어 폴백으로 남겨둠(되면 사용, 안 되면 자동 skip).
+//  - gemini-2.0-flash    : 최후 폴백.
+// 특정 버전으로 진짜 고정하고 싶으면 이 배열 맨 앞을 그 버전으로 바꾸면 됨(단, 그 버전이 키에서 404면 전멸).
+const GEMINI_MODELS = ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.0-flash'];
+
+// gemini-3.x flash 는 사고(thinking)를 끌 수 없다(thinkingBudget:0 → 400).
+// thinkingConfig 를 생략하면 '자동 사고'로 빠져 "안녕" 한 마디에도 사고 200토큰+ 를 낭비한다.
+// → 저비용 경로(thinkingBudget<=0)는 이 낮은 캡으로 대체: 단순 요청은 사고 0, 필요 시 캡까지만 사용.
+const MIN_THINKING_BUDGET = 128;
 
 /**
  * 모델을 호출해 원문 텍스트를 반환한다. (JSON 파싱은 호출측 책임)
@@ -45,38 +59,77 @@ export async function callModel({ system, messages, json = true, temperature = 0
         parts: [{ text: m.content }],
     }));
 
-    const body: any = {
-        contents,
-        generationConfig: {
-            temperature,
-            // thinkingBudget>0 이면 사고 토큰만큼 여유가 필요 → 출력 상한을 함께 키움
-            maxOutputTokens: maxOutputTokens + (thinkingBudget > 0 ? thinkingBudget : 0),
-            // 사고(thinking) 토큰 예산. >0 일 때만 전달.
-            // gemini-3.x flash 는 thinkingBudget:0(사고 끄기)을 거부(400)하므로,
-            // 0/미지정이면 thinkingConfig 를 아예 생략해 모델 기본값(자동 사고)에 맡긴다.
-            ...(thinkingBudget > 0 ? { thinkingConfig: { thinkingBudget } } : {}),
-            ...(json ? { responseMimeType: 'application/json' } : {}),
-        },
-    };
-    if (system) body.systemInstruction = { parts: [{ text: system }] };
+    // 저비용 경로(0)는 낮은 캡으로 대체(생략 시 자동사고로 토큰 낭비). 어려운 단계(>0)는 요청값 그대로.
+    const effThinkingBudget = thinkingBudget > 0 ? thinkingBudget : MIN_THINKING_BUDGET;
+    const sys = system ? { systemInstruction: { parts: [{ text: system }] } } : {};
+    const jsonCfg = json ? { responseMimeType: 'application/json' } : {};
 
-    const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
+    // 바디 단계적 축약(graceful degradation).
+    // 신규 모델이 특정 인자(예: thinkingConfig)를 거부(400)해도, 문제 인자를 떼고 재시도 →
+    // "파라미터 하나로 전 모델이 동시에 400" 나는 완전 먹통을 방지. (저번 thinkingBudget:0 사태 대응)
+    //   L0 전체 → L1 thinkingConfig/temperature 제거(JSON 모드 유지) → L2 generationConfig 완전 제거(최후 보루)
+    const bodyVariants: any[] = [
         {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(body),
+            contents, ...sys,
+            generationConfig: {
+                temperature,
+                maxOutputTokens: maxOutputTokens + effThinkingBudget,
+                thinkingConfig: { thinkingBudget: effThinkingBudget },
+                ...jsonCfg,
+            },
+        },
+        { contents, ...sys, generationConfig: { ...jsonCfg } },
+        { contents, ...sys },
+    ];
+
+    const parseText = (data: any): string => {
+        // 방어적 파싱: 사고(thought) 파트를 제외하고 text 가 있는 파트만 이어붙임
+        // (thinking 모델이 사고 파트를 parts[0] 에 넣어도 본문을 놓치지 않도록 — parts[0].text 직접 접근 지양)
+        const parts: any[] = data?.candidates?.[0]?.content?.parts ?? [];
+        return parts
+            .filter((p) => typeof p?.text === 'string' && p?.thought !== true)
+            .map((p) => p.text)
+            .join('')
+            .trim();
+    };
+
+    let lastErr: Error | null = null;
+    for (const model of GEMINI_MODELS) {
+        for (const body of bodyVariants) {
+            try {
+                const res = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(body),
+                    }
+                );
+
+                if (res.status === 404) {
+                    // 모델 자체가 없음 → 바디 축약해도 소용없음. 다음 모델로.
+                    lastErr = new Error(`Gemini ${model} 404 (모델 없음)`);
+                    break;
+                }
+                if (!res.ok) {
+                    // 400(인자 거부) 등 → 더 축약한 바디로 재시도(다음 variant)
+                    const detail = await res.text().catch(() => '');
+                    lastErr = new Error(`Gemini ${model} ${res.status}: ${detail.slice(0, 160)}`);
+                    continue;
+                }
+
+                const text = parseText(await res.json());
+                if (!text) {
+                    lastErr = new Error(`Gemini ${model}: 빈 응답`);
+                    continue; // 축약 바디로 재시도
+                }
+                // 혹시 남아있는 코드펜스 제거
+                return text.replace(/```json/g, '').replace(/```/g, '').trim();
+            } catch (e: unknown) {
+                lastErr = e instanceof Error ? e : new Error(String(e));
+                continue; // 네트워크 오류 등 → 다음 variant
+            }
         }
-    );
-
-    if (!res.ok) {
-        const detail = await res.text().catch(() => '');
-        throw new Error(`Gemini ${res.status}: ${detail.slice(0, 300)}`);
     }
-
-    const data = await res.json();
-    let text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
-    // 혹시 남아있는 코드펜스 제거
-    text = text.replace(/```json/g, '').replace(/```/g, '').trim();
-    return text;
+    throw lastErr ?? new Error('Gemini 호출 실패 (모든 모델·바디 실패)');
 }

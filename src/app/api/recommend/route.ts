@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { callModel } from "@/lib/ai/callModel";
 
 // 언어별 프롬프트 설정 (확장성을 위해 객체로 관리)
 const PROMPT_CONFIG: any = {
@@ -71,24 +72,12 @@ export async function POST(req: Request) {
       }
     `;
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: promptText }] }]
-        })
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`Google Error: ${response.status}`);
-    }
-
-    const result = await response.json();
-    let text = result.candidates[0].content.parts[0].text;
-    text = text.replace(/```json/g, "").replace(/```/g, "").trim();
+    // 공용 callModel 사용 → 모델 폴백 체인 + 방어적 파싱 + JSON 강제 를 그대로 상속
+    const text = await callModel({
+      messages: [{ role: "user", content: promptText }],
+      json: true,
+      thinkingBudget: 0,
+    });
 
     return NextResponse.json(JSON.parse(text));
 
