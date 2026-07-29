@@ -3,12 +3,14 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
+import dynamic from "next/dynamic";
 import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw } from "lucide-react";
 import { useOthers, useSelf, useBroadcastEvent, useEventListener } from "@/liveblocks.config";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
 import { supabase } from "@/lib/supabaseClient";
-import { ShareModal } from "@/components/modals/ShareModal";
+// 공유 모달은 공유 클릭 시에만 열림 → 메인 청크에서 분리(카카오/멤버조회 코드 지연)
+const ShareModal = dynamic(() => import("@/components/modals/ShareModal").then((m) => m.ShareModal), { ssr: false, loading: () => null });
 import { ConfirmOwnerTransferModal } from "@/components/modals/ConfirmOwnerTransferModal";
 
 type Role = 'owner' | 'editor' | 'viewer';

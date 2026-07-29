@@ -5,6 +5,32 @@ import { createPortal } from "react-dom";
 import { useOthers, useSelf } from "@/liveblocks.config";
 import { supabase } from "@/lib/supabaseClient";
 
+// 카카오 JS SDK 를 전역(layout)에서 안 받고, 공유 모달이 열릴 때만 1회 주입한다.
+// (룸/메인 로딩에서 카카오 스크립트 비용 제거 — 공유 동작은 그대로)
+const KAKAO_SDK_SRC = "https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js";
+let kakaoSdkPromise: Promise<void> | null = null;
+function ensureKakaoSdk(): Promise<void> {
+    if (typeof window === "undefined") return Promise.resolve();
+    if ((window as any).Kakao) return Promise.resolve();
+    if (kakaoSdkPromise) return kakaoSdkPromise;
+    kakaoSdkPromise = new Promise<void>((resolve, reject) => {
+        const existing = document.querySelector<HTMLScriptElement>(`script[src="${KAKAO_SDK_SRC}"]`);
+        if (existing) {
+            existing.addEventListener("load", () => resolve());
+            existing.addEventListener("error", () => reject(new Error("kakao sdk load error")));
+            if ((window as any).Kakao) resolve();
+            return;
+        }
+        const s = document.createElement("script");
+        s.src = KAKAO_SDK_SRC;
+        s.async = true;
+        s.onload = () => resolve();
+        s.onerror = () => { kakaoSdkPromise = null; reject(new Error("kakao sdk load error")); };
+        document.head.appendChild(s);
+    });
+    return kakaoSdkPromise;
+}
+
 export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: string; roomId: string; onClose: () => void; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
     const others = useOthers();
     const self = useSelf();
@@ -20,6 +46,9 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
                 if (data) setMembers(data);
             });
     }, [roomId]);
+
+    // 공유 모달이 열리면 카카오 SDK 를 미리 주입 → 카카오 버튼 누를 때 준비 완료 (전역 로드 대체)
+    useEffect(() => { ensureKakaoSdk().catch(() => {}); }, []);
 
     // Liveblocks에서 현재 접속 중인 userInfo 목록 (connectionId 기준)
     const onlineUserIds = new Set([
@@ -39,10 +68,14 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
 
     const handleKakao = async () => {
         const key = process.env.NEXT_PUBLIC_KAKAO_JS_KEY;
+        if (!key) {
+            await fallbackCopy('카카오 공유 준비 전이라 링크를 복사했어요.');
+            return;
+        }
+        // SDK 온디맨드 로드 보장(모달 마운트 시 미리 주입되지만, 아직 로딩 중일 수 있어 한 번 더 대기)
+        try { await ensureKakaoSdk(); } catch { /* 아래에서 폴백 */ }
         const Kakao = typeof window !== 'undefined' ? (window as any).Kakao : undefined;
-
-        // 키 미설정 또는 SDK 미로드 → 링크 복사 폴백
-        if (!key || !Kakao) {
+        if (!Kakao) {
             await fallbackCopy('카카오 공유 준비 전이라 링크를 복사했어요.');
             return;
         }

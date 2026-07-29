@@ -16,6 +16,11 @@ const IntercityMoveModal = dynamic(
     () => import("@/components/board/IntercityMoveModal").then(m => m.IntercityMoveModal),
     { ssr: false, loading: () => null }
 );
+// AI 플래너 패널은 버튼 탭 후에만 열림 → 메인 청크에서 분리(진입 로딩 가벼워짐)
+const AiAssistantPanel = dynamic(
+    () => import("@/components/board/AiAssistant/AiAssistantPanel").then(m => m.AiAssistantPanel),
+    { ssr: false, loading: () => null }
+);
 import { Sparkles, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
 import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
@@ -54,7 +59,6 @@ import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useTripStartDateSync } from "@/hooks/useTripStartDateSync";
 import { useFloatingButton } from "@/hooks/useFloatingButton";
-import { AiAssistantPanel } from "@/components/board/AiAssistant/AiAssistantPanel";
 import { useAiPlannerChat } from "@/components/ai/useAiPlannerChat";
 import { useApplyAiPlan } from "@/hooks/useApplyAiPlan";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
@@ -87,7 +91,9 @@ const PICKER_DELETE_ZONES = [
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
-import { OnboardingTour, type OnboardingStep } from "@/components/onboarding/OnboardingTour";
+import type { OnboardingStep } from "@/components/onboarding/OnboardingTour";
+// 온보딩 코치마크는 최초 소유자만 봄 → 메인 청크 + 한글 손글씨 폰트 트리거를 지연
+const OnboardingTour = dynamic(() => import("@/components/onboarding/OnboardingTour").then((m) => m.OnboardingTour), { ssr: false, loading: () => null });
 import { useOnboarding } from "@/hooks/useOnboarding";
 import { DESTINATION_DATA, FALLBACK_IMAGES } from "@/data/destinations";
 
@@ -1177,17 +1183,20 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </span>
                                 </div>
 
-                                {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업 */}
-                                <AiAssistantPanel
-                                    open={aiPanelOpen}
-                                    onClose={() => setAiPanelOpen(false)}
-                                    containerClassName="fixed inset-0 z-[70] flex md:hidden"
-                                    mobile
-                                    controller={aiChat}
-                                    onGenerate={handleAiGenerate}
-                                    onRecommend={handleAiRecommend}
-                                    busy={aiBusy}
-                                />
+                                {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업.
+                                    열릴 때만 렌더 → dynamic 청크가 탭 후 로드됨(패널은 !open 시 null 이라 동작 동일) */}
+                                {aiPanelOpen && (
+                                    <AiAssistantPanel
+                                        open={aiPanelOpen}
+                                        onClose={() => setAiPanelOpen(false)}
+                                        containerClassName="fixed inset-0 z-[70] flex md:hidden"
+                                        mobile
+                                        controller={aiChat}
+                                        onGenerate={handleAiGenerate}
+                                        onRecommend={handleAiRecommend}
+                                        busy={aiBusy}
+                                    />
+                                )}
 
 
                                 <main className="flex-1 flex overflow-hidden relative">
