@@ -25,8 +25,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="travelline.co.kr" android:pathPattern="/room/.*" />
-                <data android:scheme="https" android:host="travelline.co.kr" android:pathPrefix="/auth/callback" />
+                <data android:scheme="https" android:host="www.travelline.co.kr" android:pathPattern="/room/.*" />
+                <data android:scheme="https" android:host="www.travelline.co.kr" android:pathPrefix="/auth/callback" />
             </intent-filter>
         </activity>
 

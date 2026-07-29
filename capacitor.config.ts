@@ -14,7 +14,9 @@ const config: CapacitorConfig = {
     appName: 'Travelline',
     webDir: 'capacitor',
     server: {
-        url: 'https://travelline.co.kr',
+        // canonical 도메인(www)로 직접 로드. apex(travelline.co.kr)는 www 로 308 리다이렉트되므로
+        // apex 로 두면 매 실행 리다이렉트 + OAuth 딥링크 복귀 URL 이 www 로 튕겨 App Link 불일치.
+        url: 'https://www.travelline.co.kr',
         cleartext: false,
         allowNavigation: [
             '*.travelline.co.kr',
