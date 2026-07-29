@@ -2,12 +2,14 @@ import { useDroppable, useDndContext } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
 import { DraggableCard } from "./DraggableCard";
 import { memo, useState, useMemo, useCallback, useEffect } from "react";
+import dynamic from "next/dynamic";
 import { FlightSection } from "./FlightSection";
 import { PrePlanControl } from "./PrePlanControl";
 import { UnconfirmedSection } from "./UnconfirmedSection";
 import { MapPin, Map as MapIcon } from "lucide-react";
 import { useStorage } from "@liveblocks/react/suspense";
-import { DayMapModal } from "./DayMapModal";
+// 일차 지도 모달은 지도 버튼 클릭 시에만 열림 → 메인 청크에서 분리 (google.maps 사용부 지연)
+const DayMapModal = dynamic(() => import("./DayMapModal").then((m) => m.DayMapModal), { ssr: false, loading: () => null });
 import { EmptyState } from "./EmptyState";
 import { buildSharedPlanSnapshot, calcDuration } from "@/utils/sharedPlanSnapshot";
 import { useSessionContext, getCachedAccessToken } from "@/contexts/SessionContext";
@@ -672,13 +674,15 @@ export const Timeline = memo(function Timeline({
                   <UnconfirmedSection cards={unconfirmedCards} canEdit={canEdit} />
                 )}
 
-                {/* 통합 지도 모달 (Timeline 레벨에서 하나만) */}
-                <DayMapModal
-                  dayNumber={selectedDayForMap?.dayNumber || 0}
-                  markers={selectedDayForMap?.markers || []}
-                  isOpen={selectedDayForMap !== null}
-                  onClose={() => setSelectedDayForMap(null)}
-                />
+                {/* 통합 지도 모달 (Timeline 레벨에서 하나만) — 열릴 때만 렌더(모달은 !isOpen 시 null 이라 동작 동일) */}
+                {selectedDayForMap !== null && (
+                  <DayMapModal
+                    dayNumber={selectedDayForMap?.dayNumber || 0}
+                    markers={selectedDayForMap?.markers || []}
+                    isOpen={selectedDayForMap !== null}
+                    onClose={() => setSelectedDayForMap(null)}
+                  />
+                )}
               </>
             )}
           </div>

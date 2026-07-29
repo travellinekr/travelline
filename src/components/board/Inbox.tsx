@@ -5,7 +5,8 @@ import { memo, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
-import { AiAssistantPanel } from "./AiAssistant/AiAssistantPanel";
+// AI 패널은 버튼 클릭 후에만 열림 → 메인 청크에서 분리
+const AiAssistantPanel = dynamic(() => import("./AiAssistant/AiAssistantPanel").then((m) => m.AiAssistantPanel), { ssr: false, loading: () => null });
 
 // 카테고리 탭 클릭 시점에 chunk 로드. 보드 진입 메인 청크에서 picker 코드 + CITY_DATA(~120KB) 분리.
 const PickerLoading = () => (
@@ -299,16 +300,19 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         </button>
       )}
 
-      {/* AI 플래너 패널 (데스크톱) — 인박스 영역 전체를 덮는 오버레이. 모바일은 최상위에서 독립 렌더. */}
-      <AiAssistantPanel
-        open={aiPanelOpen}
-        onClose={onCloseAiPanel}
-        containerClassName="absolute inset-0 z-40 hidden md:flex"
-        controller={aiController}
-        onGenerate={onAiGenerate}
-        onRecommend={onAiRecommend}
-        busy={aiBusy}
-      />
+      {/* AI 플래너 패널 (데스크톱) — 인박스 영역 전체를 덮는 오버레이. 모바일은 최상위에서 독립 렌더.
+          열릴 때만 렌더 → dynamic 청크가 클릭 후 로드됨(패널은 !open 시 null 이라 동작 동일) */}
+      {aiPanelOpen && (
+        <AiAssistantPanel
+          open={aiPanelOpen}
+          onClose={onCloseAiPanel}
+          containerClassName="absolute inset-0 z-40 hidden md:flex"
+          controller={aiController}
+          onGenerate={onAiGenerate}
+          onRecommend={onAiRecommend}
+          busy={aiBusy}
+        />
+      )}
     </aside>
   );
 });
