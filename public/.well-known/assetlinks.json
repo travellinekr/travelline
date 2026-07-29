@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "kr.travelline.app",
-      "sha256_cert_fingerprints": ["SHA256_PLACEHOLDER"]
+      "sha256_cert_fingerprints": ["CC:66:D6:EA:B5:78:F4:AC:F1:D3:12:9F:B6:8F:4E:AB:A5:16:80:47:5E:AA:0D:28:19:29:B2:FA:23:CA:AD:F5"]
     }
   }
 ]

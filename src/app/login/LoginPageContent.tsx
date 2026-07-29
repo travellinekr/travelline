@@ -66,6 +66,34 @@ export default function LoginPageContent() {
 
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
 
+        // 네이티브 앱(Capacitor): 구글은 임베디드 WebView OAuth 가 차단되므로
+        // 시스템 브라우저(Custom Tabs)로 열고 /auth/callback 딥링크로 세션을 되돌려받는다
+        // (복귀 처리는 useAppUrlOpen). 웹/브라우저는 아래 기존 흐름 그대로.
+        const cap = typeof window !== 'undefined' ? (window as any).Capacitor : undefined;
+        const isNative = !!cap?.isNativePlatform?.();
+        if (provider === 'google' && isNative) {
+            const { data, error } = await supabase.auth.signInWithOAuth({
+                provider: 'google',
+                options: {
+                    redirectTo: callbackUrl,
+                    skipBrowserRedirect: true,
+                    queryParams: { access_type: 'offline', prompt: 'consent' },
+                },
+            });
+            if (error || !data?.url) {
+                setError(error?.message || '구글 로그인 준비에 실패했어요. 다시 시도해주세요.');
+                setLoadingProvider(null);
+                return;
+            }
+            const Browser = cap?.Plugins?.Browser;
+            if (Browser?.open) {
+                await Browser.open({ url: data.url });
+            } else {
+                window.location.href = data.url;
+            }
+            return;
+        }
+
         const { error } = await supabase.auth.signInWithOAuth({
             provider,
             options: {
