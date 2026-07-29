@@ -84,7 +84,9 @@ export function useAppUrlOpen() {
         const handleUrl = async (rawUrl: string) => {
             let u: URL;
             try { u = new URL(rawUrl); } catch { return; }
-            if (u.hostname !== 'travelline.co.kr') return;
+            // apex/www 모두 허용 (server.url=www canonical, 딥링크/OAuth 복귀가 www 로 옴)
+            const host = u.hostname.replace(/^www\./, '');
+            if (host !== 'travelline.co.kr') return;
 
             if (u.pathname.startsWith('/auth/callback')) {
                 const next = await handleAuthCallback(u);
