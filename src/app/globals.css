@@ -121,3 +121,10 @@ summary,
 .cursor-pointer {
   cursor: pointer;
 }
+/* ── 네이티브 앱 세이프에어리어 (노치/펀치홀/상태바) ──────────────────────
+   Capacitor 앱에서만 <html> 에 .cap-native 가 붙는다(NativeAppClass).
+   웹(모바일/데스크톱)은 이 클래스가 없어 아래 규칙이 전혀 적용되지 않음 → 웹 레이아웃 영향 0.
+   전체화면 오버레이(인박스·AI패널·지도모달 등)는 모바일에서만 뜨므로 max-width:767px 로 한정. */
+@media (max-width: 767px) {
+  html.cap-native .pt-safe { padding-top: env(safe-area-inset-top); }
+}
