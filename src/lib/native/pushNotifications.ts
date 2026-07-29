@@ -44,6 +44,11 @@ function getPlatform(): 'ios' | 'android' | null {
  * 반복 호출 안전 — 기존 리스너 유지, 서버는 upsert 로 중복 안전.
  */
 export async function initPushNotifications(accessToken: string): Promise<void> {
+    // 푸시는 Firebase(google-services.json / GoogleService-Info.plist) 설정 후에만 동작한다.
+    // 미설정 상태에서 register() 호출 시 네이티브가 크래시 → 앱 멈춤.
+    // Firebase 세팅 완료 후 Vercel 환경변수 NEXT_PUBLIC_ENABLE_PUSH=true 로 켠다.
+    if (process.env.NEXT_PUBLIC_ENABLE_PUSH !== 'true') return;
+
     const plugin = getPlugin();
     const platform = getPlatform();
     if (!plugin || !platform) return; // 웹·미네이티브 no-op
