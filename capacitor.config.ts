@@ -26,8 +26,15 @@ const config: CapacitorConfig = {
             'api.unsplash.com',
             'images.unsplash.com',
             '*.unsplash.com',
-            // Google OAuth
+            // Google OAuth (참고: 구글은 WebView OAuth 를 차단 → 앱에선 시스템 브라우저 필요)
             'accounts.google.com',
+            // 카카오 OAuth — WebView 허용. 미등록 시 외부 브라우저로 튕겨 세션이 앱에 안 남음
+            'kauth.kakao.com',
+            '*.kakao.com',
+            'accounts.kakao.com',
+            // 네이버 OAuth — WebView 허용
+            'nid.naver.com',
+            '*.naver.com',
         ],
     },
     ios: {
