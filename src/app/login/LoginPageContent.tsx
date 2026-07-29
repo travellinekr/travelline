@@ -38,6 +38,16 @@ export default function LoginPageContent() {
         }
     }, []);
 
+    // 앱(Custom Tabs)에서 OAuth 후 포그라운드로 복귀하면 버튼 스피너 리셋
+    // (성공 시엔 로그인 완료로 화면이 넘어가고, 취소 시엔 스피너가 멈춘 채 남지 않도록).
+    useEffect(() => {
+        const onVisible = () => {
+            if (document.visibilityState === 'visible') setLoadingProvider(null);
+        };
+        document.addEventListener('visibilitychange', onVisible);
+        return () => document.removeEventListener('visibilitychange', onVisible);
+    }, []);
+
     const handleSocialLogin = async (provider: 'google' | 'kakao' | 'naver') => {
         // Google 은 인앱 브라우저(카톡·네이버앱 등) 차단 정책이라 사전 게이트.
         // 카카오·네이버는 차단 정책이 없어 인앱에서도 진행 가능.
