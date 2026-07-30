@@ -127,8 +127,11 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
       ref={setNodeRef}
       className={`w-full flex flex-col h-full shadow-xl shadow-gray-200 z-0 relative transition-colors ${isOver ? 'bg-indigo-50/50' : 'bg-white'}`}
     >
-      {/* 헤더 영역: 탭 + anchor 배너 (sticky로 묶음) */}
-      <div className="sticky top-0 z-30 bg-white shrink-0 shadow-sm">
+      {/* 헤더 영역: 탭 + anchor 배너.
+          스크롤은 아래 카드 영역(overflow-y-auto)에서만 일어나고 이 헤더는 그 바깥이라
+          sticky 는 원래 no-op → iOS(fixed 드로어+safe-area)에서 sticky 요소가 떠 보이는(detached)
+          렌더 버그만 유발 → sticky 제거하고 일반 흐름으로 최상단 고정. 그림자/레이어는 유지. */}
+      <div className="z-30 bg-white shrink-0 shadow-sm">
         {/* 2단 탭 필터 (정밀 높이 조정 100px) */}
         <div data-tour="inbox-tabs" className="flex flex-col border-b border-gray-200 w-full min-h-[100px] md:min-h-[100px] justify-center">
         {/* 1단 */}
