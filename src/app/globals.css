@@ -128,9 +128,3 @@ summary,
 @media (max-width: 767px) {
   html.cap-native .pt-safe { padding-top: env(safe-area-inset-top); }
 }
-/* 스크롤 흐름 요소(sticky 헤더 등)의 상단 세이프에어리어.
-   iOS 는 contentInset:'automatic' 이 스크롤 콘텐츠를 이미 인셋하므로 CSS 로 또 주면 이중(+iOS 스크롤 시 누적) →
-   Android(자동 인셋 없음)에서만 적용. fixed 오버레이(.pt-safe)와 달리 여기는 iOS 제외가 핵심. */
-@media (max-width: 767px) {
-  html.cap-android .pt-safe-scroll { padding-top: env(safe-area-inset-top); }
-}

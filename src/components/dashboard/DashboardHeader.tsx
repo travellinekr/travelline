@@ -8,9 +8,10 @@ import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
 
 export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
-  // 비-sticky: 기존 그대로 pt-[env] (룸 등). sticky: 상단 고정 + 펀치홀 여백은 검증된 pt-safe(globals.css, 앱 전용).
+  // 펀치홀 여백은 sticky 여부와 무관하게 CSS env() 로 통일(iOS 앱/Safari/Android 동일 경로).
+  // iOS contentInset='never' 라 env() 이중 적용 없음 → 스크롤 시 여백 누적 안 됨.
   const headerClass = sticky
-    ? 'bg-white border-b shadow-sm shrink-0 sticky top-0 z-40 pt-safe-scroll'
+    ? 'bg-white border-b shadow-sm shrink-0 sticky top-0 z-40 pt-[env(safe-area-inset-top)]'
     : 'bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]';
   const { user, signOut } = useAuth();
   const router = useRouter();
