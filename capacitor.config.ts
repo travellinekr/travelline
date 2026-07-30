@@ -40,8 +40,11 @@ const config: CapacitorConfig = {
         ],
     },
     ios: {
-        // iOS 노치/홈인디케이터 자동 safe-area 처리
-        contentInset: 'automatic',
+        // safe-area 는 CSS env(safe-area-inset-*) 로 일원화한다(웹/Safari 와 동일).
+        // 'automatic' 은 window 스크롤(메인 페이지)에서 position:sticky 헤더와 충돌 →
+        // 스크롤 시 상단 여백 누적 + Safari(자동 인셋 없음)와 동작 불일치.
+        // 'never' 로 두면 iOS·Android·Safari 모두 env() 한 경로로 통일됨.
+        contentInset: 'never',
         // 스크롤 바운스 활성 (네이티브 느낌)
         scrollEnabled: true,
     },
