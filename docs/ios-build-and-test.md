@@ -137,6 +137,7 @@ Xcode에서:
 | 증상 | 원인 / 해결 |
 |---|---|
 | `npx cap sync` 에서 `@capacitor/*` 경로 없음 | **2-2 미실행**. capacitor 의존성 재설치 후 다시 sync |
+| **네이티브 설정 바꿨는데 재빌드해도 반영 안 됨** (예: `contentInset`, safe-area 이중여백, 아이콘, 버전) | ⚠️ `capacitor.config.ts` / `Info.plist` 는 **소스**일 뿐. `ios/App/App/capacitor.config.json` 은 **gitignore된 자동생성 파일**이라 pull 로 안 옴. **재빌드 전에 반드시 `npx cap copy ios`(설정만) 또는 `npx cap sync ios`(플러그인 포함) 를 먼저 돌려야** 네이티브에 반영됨 |
 | Xcode 서명 오류 (Signing) | Team 미선택 / Apple ID 미로그인. Signing & Capabilities에서 Team 지정 |
 | "Untrusted Developer" (기기) | 설정 → 일반 → VPN 및 기기 관리 → 개발자 신뢰 |
 | 웹 코드 수정이 앱에 반영 안 됨 | 앱은 라이브 사이트 로드 → **Vercel 배포 후 앱 재실행** 필요 (재빌드 아님) |
