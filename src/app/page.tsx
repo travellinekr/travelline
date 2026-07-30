@@ -291,8 +291,8 @@ export default function Dashboard() {
       {/* 베타 접근 팝업 */}
       <BetaPopup />
 
-      {/* ① 헤더 */}
-      <DashboardHeader />
+      {/* ① 헤더 (스크롤 시 상단 고정) */}
+      <DashboardHeader sticky />
 
       {/* ② 광고 / 공유카드 롤링 배너 */}
       <RollingBanner />

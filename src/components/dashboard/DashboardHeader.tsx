@@ -7,7 +7,7 @@ import { useState, useRef, useEffect } from 'react';
 import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
 
-export default function DashboardHeader({ title, rightSlot }: { title?: string; rightSlot?: React.ReactNode }) {
+export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
   const { user, signOut } = useAuth();
   const router = useRouter();
   const [popupOpen, setPopupOpen] = useState(false);
@@ -64,7 +64,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
   // 비로그인 상태: 로그인/회원가입 버튼 표시
   if (!user) {
     return (
-      <header className="bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]">
+      <header className={`bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]${sticky ? ' sticky top-0 z-40' : ''}`}>
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
           <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
             <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
@@ -89,7 +89,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
 
   return (
     <>
-      <header className="bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]">
+      <header className={`bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]${sticky ? ' sticky top-0 z-40' : ''}`}>
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
           <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
             <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
