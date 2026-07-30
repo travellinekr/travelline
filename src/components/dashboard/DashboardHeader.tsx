@@ -7,7 +7,11 @@ import { useState, useRef, useEffect } from 'react';
 import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
 
-export default function DashboardHeader({ title, rightSlot }: { title?: string; rightSlot?: React.ReactNode }) {
+export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
+  // 비-sticky: 기존 그대로 pt-[env] (룸 등). sticky: 상단 고정 + 펀치홀 여백은 검증된 pt-safe(globals.css, 앱 전용).
+  const headerClass = sticky
+    ? 'bg-white border-b shadow-sm shrink-0 sticky top-0 z-40 pt-safe'
+    : 'bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]';
   const { user, signOut } = useAuth();
   const router = useRouter();
   const [popupOpen, setPopupOpen] = useState(false);
@@ -64,7 +68,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
   // 비로그인 상태: 로그인/회원가입 버튼 표시
   if (!user) {
     return (
-      <header className="bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]">
+      <header className={headerClass}>
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
           <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
             <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
@@ -89,7 +93,7 @@ export default function DashboardHeader({ title, rightSlot }: { title?: string; 
 
   return (
     <>
-      <header className="bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]">
+      <header className={headerClass}>
         <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
           <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
             <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
