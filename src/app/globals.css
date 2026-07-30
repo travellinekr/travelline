@@ -127,4 +127,7 @@ summary,
    전체화면 오버레이(인박스·AI패널·지도모달 등)는 모바일에서만 뜨므로 max-width:767px 로 한정. */
 @media (max-width: 767px) {
   html.cap-native .pt-safe { padding-top: env(safe-area-inset-top); }
+  /* 인박스 컨테이너 등 Android 만 노치 여백이 필요한 곳.
+     iOS 는 노치 아래 공간이 남아 시각적 여백이 이중으로 느껴져 제외. */
+  html.cap-android .pt-safe-android { padding-top: env(safe-area-inset-top); }
 }
