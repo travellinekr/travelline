@@ -28,6 +28,14 @@
                 <data android:scheme="https" android:host="www.travelline.co.kr" android:pathPattern="/room/.*" />
                 <data android:scheme="https" android:host="www.travelline.co.kr" android:pathPrefix="/auth/callback" />
             </intent-filter>
+
+            <!-- 커스텀 scheme: travelline://auth-callback → 구글 OAuth 복귀 (Custom Tabs 리다이렉트를 앱으로 확실히 인계) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="travelline" />
+            </intent-filter>
         </activity>
 
         <provider

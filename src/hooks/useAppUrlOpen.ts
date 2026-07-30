@@ -84,7 +84,15 @@ export function useAppUrlOpen() {
         const handleUrl = async (rawUrl: string) => {
             let u: URL;
             try { u = new URL(rawUrl); } catch { return; }
-            // apex/www 모두 허용 (server.url=www canonical, 딥링크/OAuth 복귀가 www 로 옴)
+
+            // 커스텀 scheme(travelline://auth-callback…) = 네이티브 OAuth 복귀 (iOS/Android 공통, 리다이렉트로도 확실히 앱에 옴)
+            if (u.protocol === 'travelline:') {
+                const next = await handleAuthCallback(u);
+                if (next) router.push(next);
+                return;
+            }
+
+            // https://(www.)travelline.co.kr/... — 공유 링크/기존 App Link
             const host = u.hostname.replace(/^www\./, '');
             if (host !== 'travelline.co.kr') return;
 
