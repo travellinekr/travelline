@@ -54,3 +54,6 @@ android/travelline-release.jks
 android/keystore.properties
 *.jks
 *.keystore
+
+# Xcode SPM 로컬 캐시
+ios/**/xcshareddata/swiftpm/
