@@ -10,7 +10,7 @@ import Link from 'next/link';
 export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
   // 비-sticky: 기존 그대로 pt-[env] (룸 등). sticky: 상단 고정 + 펀치홀 여백은 검증된 pt-safe(globals.css, 앱 전용).
   const headerClass = sticky
-    ? 'bg-white border-b shadow-sm shrink-0 sticky top-0 z-40 pt-safe'
+    ? 'bg-white border-b shadow-sm shrink-0 sticky top-0 z-40 pt-safe-scroll'
     : 'bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]';
   const { user, signOut } = useAuth();
   const router = useRouter();

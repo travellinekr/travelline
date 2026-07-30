@@ -77,15 +77,18 @@ export default function LoginPageContent() {
         const callbackUrl = `${window.location.origin}/auth/callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
 
         // 네이티브 앱(Capacitor): 구글은 임베디드 WebView OAuth 가 차단되므로
-        // 시스템 브라우저(Custom Tabs)로 열고 /auth/callback 딥링크로 세션을 되돌려받는다
-        // (복귀 처리는 useAppUrlOpen). 웹/브라우저는 아래 기존 흐름 그대로.
+        // 시스템 브라우저(iOS SFSafariViewController / Android Custom Tabs)로 열고,
+        // 커스텀 URL scheme(travelline://auth-callback)으로 앱에 세션을 되돌려받는다.
+        // (https Universal Link 는 iOS SFSafariViewController 가 리다이렉트로는 앱에 안 넘겨줌 → 커스텀 scheme 필수)
+        // 복귀 처리는 useAppUrlOpen. 웹/브라우저는 아래 기존 흐름 그대로.
         const cap = typeof window !== 'undefined' ? (window as any).Capacitor : undefined;
         const isNative = !!cap?.isNativePlatform?.();
         if (provider === 'google' && isNative) {
+            const nativeRedirect = `travelline://auth-callback${redirectPath !== '/' ? `?next=${encodeURIComponent(redirectPath)}` : ''}`;
             const { data, error } = await supabase.auth.signInWithOAuth({
                 provider: 'google',
                 options: {
-                    redirectTo: callbackUrl,
+                    redirectTo: nativeRedirect,
                     skipBrowserRedirect: true,
                     queryParams: { access_type: 'offline', prompt: 'consent' },
                 },
