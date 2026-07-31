@@ -1,5 +1,28 @@
 import React from "react";
 
+/**
+ * 로딩용 Travelline 로고 조립 애니메이션.
+ * 주황(T 가로획 + 왼쪽 3줄)은 고정, 초록(틸) 3줄이 오른쪽에서 하나씩 미끄러져 들어와 완성 → 반복.
+ * 순수 CSS/SVG (keyframe 은 LoadingSkeleton 하단 <style> 참고). reduced-motion 존중.
+ */
+function AssemblingLogo({ size = 60 }: { size?: number }) {
+    const orange = '#FF6B47';
+    const teal = '#5BBFAD';
+    return (
+        <svg width={size} height={Math.round(size * 36 / 40)} viewBox="0 0 40 36" fill="none" aria-hidden="true">
+            {/* 주황 — 고정 */}
+            <rect x="0" y="0" width="40" height="8" rx="2" fill={orange} />
+            <rect x="0" y="12" width="14" height="7" rx="1.5" fill={orange} />
+            <rect x="0" y="21" width="14" height="7" rx="1.5" fill={orange} />
+            <rect x="0" y="30" width="14" height="6" rx="1.5" fill={orange} />
+            {/* 초록(틸) — 오른쪽에서 하나씩 슬라이드-인 */}
+            <rect className="tl-tb tl-tb1" x="16" y="12" width="24" height="7" rx="1.5" fill={teal} />
+            <rect className="tl-tb tl-tb2" x="16" y="21" width="24" height="7" rx="1.5" fill={teal} />
+            <rect className="tl-tb tl-tb3" x="16" y="30" width="24" height="6" rx="1.5" fill={teal} />
+        </svg>
+    );
+}
+
 export function LoadingSkeleton() {
     return (
         <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
@@ -9,9 +32,10 @@ export function LoadingSkeleton() {
                 <div className="h-full bg-emerald-400 animate-[loading-bar_1.8s_ease-in-out_infinite]" />
             </div>
 
-            {/* 헤더 스켈레톤 */}
-            <header className="h-16 sm:h-20 bg-white border-b shadow-sm shrink-0">
-                <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
+            {/* 헤더 스켈레톤 — 실제 DashboardHeader 와 동일하게 상단 세이프에어리어(노치/펀치홀) 반영.
+                env 는 데스크톱/비노치 웹에서 0 → 무영향, 앱·노치 기기에서만 헤더가 노치 아래로 내려감. */}
+            <header className="bg-white border-b shadow-sm shrink-0 pt-[env(safe-area-inset-top)]">
+                <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
                     <div className="flex items-center gap-4">
                         <div className="w-8 h-[29px] bg-gray-200 rounded animate-pulse" />
                         <div className="hidden sm:block w-32 h-5 bg-gray-200 rounded animate-pulse" />
@@ -45,27 +69,19 @@ export function LoadingSkeleton() {
                                 <div className="w-full h-[58px] md:h-[72px] bg-rose-50 border border-rose-100 rounded-xl animate-pulse" />
                             </div>
 
-                            {/* 모바일 로딩 텍스트 - 데스크톱에선 숨김 */}
-                            <div className="md:hidden flex flex-col items-center justify-center gap-3 py-8 shrink-0">
-                                <div className="flex gap-1.5">
-                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:0ms]" />
-                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:150ms]" />
-                                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-bounce [animation-delay:300ms]" />
-                                </div>
-                                <p className="text-sm text-slate-500 font-medium">여행일정을 불러오고 있습니다.</p>
+                            {/* 모바일 로딩 - 문구 + 그 아래 로고 조립 애니메이션 (데스크톱에선 숨김) */}
+                            <div className="md:hidden flex flex-col items-center justify-center gap-4 py-10 shrink-0">
+                                <p className="text-sm text-slate-500 font-medium">여행일정을 불러오고 있습니다</p>
+                                <AssemblingLogo size={64} />
                             </div>
 
                             {/* 로딩 텍스트 + 타임라인 카드 스켈레톤 */}
                             <div className="flex-1 overflow-y-auto p-3 md:p-6 space-y-6">
 
-                                {/* 데스크톱 로딩 안내 텍스트 */}
-                                <div className="hidden md:flex items-center justify-center gap-2 py-2">
-                                    <div className="flex gap-1">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:0ms]" />
-                                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:150ms]" />
-                                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce [animation-delay:300ms]" />
-                                    </div>
-                                    <p className="text-xs text-slate-400 font-medium">여행일정을 불러오고 있습니다.</p>
+                                {/* 데스크톱 로딩 - 문구 + 그 아래 로고 조립 애니메이션 */}
+                                <div className="hidden md:flex flex-col items-center justify-center gap-3 py-4">
+                                    <p className="text-xs text-slate-400 font-medium">여행일정을 불러오고 있습니다</p>
+                                    <AssemblingLogo size={52} />
                                 </div>
 
                                 {[0, 1, 2].map((day) => (
@@ -134,6 +150,22 @@ export function LoadingSkeleton() {
                     0% { width: 0%; margin-left: 0%; }
                     50% { width: 60%; margin-left: 20%; }
                     100% { width: 0%; margin-left: 100%; }
+                }
+                /* 로고 조립: 초록(틸) 3줄이 오른쪽에서 하나씩 미끄러져 들어옴 */
+                @keyframes tl-slot {
+                    0%   { transform: translateX(48px); opacity: 0; }
+                    20%  { transform: translateX(-1.5px); opacity: 1; }
+                    26%  { transform: translateX(0); }
+                    76%  { transform: translateX(0); opacity: 1; }
+                    86%  { transform: translateX(0); opacity: 0; }
+                    100% { transform: translateX(48px); opacity: 0; }
+                }
+                .tl-tb  { animation: tl-slot 5.5s cubic-bezier(.22,.9,.3,1) infinite; }
+                .tl-tb1 { animation-delay: 0s; }
+                .tl-tb2 { animation-delay: .5s; }
+                .tl-tb3 { animation-delay: 1s; }
+                @media (prefers-reduced-motion: reduce) {
+                    .tl-tb { animation: none; transform: none; opacity: 1; }
                 }
             `}</style>
         </div>
