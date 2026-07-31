@@ -45,7 +45,7 @@ export function InfoModalShell({ isOpen, title, subtitle, onClose, children, foo
 
                 {/* 푸터 */}
                 {footer ?? (
-                    <div className="flex items-center justify-between gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
+                    <div className="flex items-center justify-between gap-3 px-6 py-3 pb-safe border-t border-gray-200 bg-gray-50 shrink-0">
                         <p className="text-xs text-gray-400">📅 실제 여행 전 최신 정보를 반드시 확인하세요</p>
                         <button
                             onClick={onClose}

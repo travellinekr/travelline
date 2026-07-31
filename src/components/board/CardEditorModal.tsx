@@ -278,7 +278,7 @@ export function CardEditorModal({
                 </div>
 
                 {/* 푸터 */}
-                <div className="flex items-center justify-end gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
+                <div className="flex items-center justify-end gap-3 px-6 py-3 pb-safe border-t border-gray-200 bg-gray-50 shrink-0">
                     <button
                         onClick={onClose}
                         className="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors font-medium text-sm"

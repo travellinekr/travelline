@@ -159,7 +159,7 @@ export function InboxMapModal({ title, markers, isOpen, onClose }: InboxMapModal
                     <div ref={mapRef} className="flex-1 w-full" />
                 )}
 
-                <div className="flex items-center justify-between gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
+                <div className="flex items-center justify-between gap-3 px-6 py-3 pb-safe border-t border-gray-200 bg-gray-50 shrink-0">
                     <span className="text-sm text-slate-600">
                         총 {markers.filter(m => !m.isAnchor).length}개 위치 표시
                         {markers.some(m => m.isAnchor) && ' · 보라색 핀: 기준점'}

@@ -128,3 +128,9 @@ summary,
 @media (max-width: 767px) {
   html.cap-native .pt-safe { padding-top: env(safe-area-inset-top); }
 }
+/* 하단 세이프에어리어(홈인디케이터) — pt-safe 와 대칭, 앱 전용.
+   전체화면 모달의 하단 닫기 푸터(py-3)가 홈인디케이터에 가리지 않도록 바닥 여백 확장.
+   웹/데스크톱은 이 규칙 미적용 → py-3 그대로(영향 0). unlayered 라 Tailwind py-3 의 bottom 을 덮음. */
+@media (max-width: 767px) {
+  html.cap-native .pb-safe { padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
+}

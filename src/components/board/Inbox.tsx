@@ -1,7 +1,7 @@
-import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X, Share2, Sparkles } from "lucide-react";
+import { Plane, Hotel, Utensils, Search, Plus, CheckSquare, ShoppingBag, MapPin, Bus, Palmtree, MoreHorizontal, X, Share2, Sparkles, ArrowUp } from "lucide-react";
 import { DraggableCard } from "./DraggableCard";
 import { useDroppable } from "@dnd-kit/core";
-import { memo, useMemo, useState } from "react";
+import { memo, useMemo, useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
@@ -44,6 +44,20 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
   const { setNodeRef, isOver } = useDroppable({ id: 'inbox-dropzone' });
   const { anchorCard, toggleAnchor, scrollToAnchor } = useAnchor();
   const [showSharedPlans, setShowSharedPlans] = useState(false);
+
+  // 카드 리스트 스크롤 영역 "맨 위로" 플로팅 버튼
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  const handleContentScroll = () => {
+    const el = scrollRef.current;
+    if (el) setShowScrollTop(el.scrollTop > 240); // 값 동일하면 React 가 리렌더 스킵
+  };
+  const scrollContentToTop = () => scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+  // 카테고리/공유플랜 전환 시 맨 위로 + 버튼 숨김 (새 목록은 상단부터)
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ top: 0 });
+    setShowScrollTop(false);
+  }, [activeCategory, showSharedPlans]);
 
   // ✅ [성능개선] filteredCards useMemo 적용 → 탭 전환 외 불필요한 재계산 방지
   // showInInbox 필터는 cities/ 정적 데이터가 있는 카테고리에만 적용 (hotel/food/shopping)
@@ -196,7 +210,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         )}
       </div>
 
-      <div data-tour="inbox-content" className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">
+      <div ref={scrollRef} onScroll={handleContentScroll} data-tour="inbox-content" className="flex-1 min-h-0 overflow-y-auto bg-transparent custom-scrollbar">
         <div className="flex flex-col px-3 pb-20">
 
           {showSharedPlans ? (
@@ -283,6 +297,18 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
 
         </div>
       </div>
+
+      {/* 카드 리스트 "맨 위로" 플로팅 버튼 — 스크롤 내리면 나타남. 데스크톱은 AI 버튼 위에 배치 */}
+      <button
+        type="button"
+        onClick={scrollContentToTop}
+        aria-label="맨 위로"
+        className={`absolute right-4 bottom-4 md:right-12 md:bottom-28 z-20 w-10 h-10 rounded-full bg-white/95 backdrop-blur border border-slate-200 text-slate-600 shadow-lg flex items-center justify-center hover:bg-slate-50 active:scale-95 transition-all duration-200 ${
+          showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2 pointer-events-none'
+        }`}
+      >
+        <ArrowUp className="w-5 h-5" />
+      </button>
 
       {/* 데스크톱 전용 AI 플래너 플로팅 버튼 — 인박스 영역 우하단 고정 (모바일은 타임라인 플로팅 버튼) */}
       {canEdit && onOpenAiPanel && !aiPanelOpen && (
