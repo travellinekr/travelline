@@ -303,7 +303,7 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         type="button"
         onClick={scrollContentToTop}
         aria-label="맨 위로"
-        className={`absolute right-4 bottom-4 md:right-12 md:bottom-28 z-20 w-10 h-10 rounded-full bg-white/95 backdrop-blur border border-slate-200 text-slate-600 shadow-lg flex items-center justify-center hover:bg-slate-50 active:scale-95 transition-all duration-200 ${
+        className={`absolute right-4 bottom-[calc(1.5rem+env(safe-area-inset-bottom))] md:right-12 md:bottom-28 z-20 w-10 h-10 rounded-full bg-white/95 backdrop-blur border border-slate-200 text-slate-600 shadow-lg flex items-center justify-center hover:bg-slate-50 active:scale-95 transition-all duration-200 ${
           showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2 pointer-events-none'
         }`}
       >
