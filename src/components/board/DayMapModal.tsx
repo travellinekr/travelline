@@ -180,7 +180,7 @@ export function DayMapModal({ dayNumber, markers, isOpen, onClose }: DayMapModal
                 )}
 
                 {/* Footer - Marker Count + 닫기 */}
-                <div className="flex items-center justify-between gap-3 px-6 py-3 border-t border-gray-200 bg-gray-50 shrink-0">
+                <div className="flex items-center justify-between gap-3 px-6 py-3 pb-safe border-t border-gray-200 bg-gray-50 shrink-0">
                     <span className="text-sm text-slate-600">총 {markers.length}개 위치 표시</span>
                     <button
                         onClick={onClose}
