@@ -79,6 +79,17 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
         scrollToBottom();
     }, [messages, loading, ready, view, scrollToBottom]);
 
+    // 앱/모바일: 입력 포커스로 키패드가 올라오면 VisualViewport 높이가 줄어듦(리사이즈 연쇄 발생).
+    // onFocus 의 즉시 스크롤은 키패드 애니메이션 이전이라 부족 → 리사이즈될 때마다 맨 아래로 재고정해
+    // 최신 메시지가 입력창 바로 위에 보이도록 한다. (instant 스크롤: 애니메이션 중 튐 방지)
+    useEffect(() => {
+        const vv = typeof window !== 'undefined' ? window.visualViewport : null;
+        if (!vv) return;
+        const onResize = () => scrollToBottom(false);
+        vv.addEventListener('resize', onResize);
+        return () => vv.removeEventListener('resize', onResize);
+    }, [scrollToBottom]);
+
     const onKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
         // 한글 등 IME 조합 중(isComposing)에는 Enter 를 전송으로 처리하지 않음
         // → 조합 마무리용 Enter 가 전송을 유발해 마지막 글자가 남는 문제 방지
@@ -201,12 +212,12 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
             </div>
 
             {/* 입력 */}
-            <div className="shrink-0 border-t border-slate-100 p-3 flex items-end gap-2">
+            <div className="shrink-0 border-t border-slate-100 p-3 pb-safe flex items-end gap-2">
                 <textarea
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={onKeyDown}
-                    onFocus={() => scrollToBottom()}
+                    onFocus={() => { scrollToBottom(false); setTimeout(() => scrollToBottom(false), 350); }}
                     rows={1}
                     placeholder="메시지를 입력하세요…"
                     className="flex-1 resize-none max-h-24 rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"

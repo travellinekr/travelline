@@ -42,6 +42,8 @@ export interface AiChatController {
     reset: () => void;
     /** 배치/교체 실행 후 호출 — 요약·버튼 숨기고 액션 필드(intent/swap*)를 비워 다음 요청에 stale 로 안 남게 함 */
     markApplied: () => void;
+    /** 어시스턴트 안내 메시지를 대화에 추가(예: 요청한 종류가 목록에 없을 때 직접 추가 안내) */
+    notify: (text: string) => void;
 }
 
 export function useAiPlannerChat({ destinationName, currentPlan }: { destinationName?: string; currentPlan?: any }): AiChatController {
@@ -69,6 +71,11 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
         setRequirements(null);
         setReady(false);
         setView('chat');
+    }, []);
+
+    // 어시스턴트 안내 메시지 추가(빈 결과 안내 등)
+    const notify = useCallback((text: string) => {
+        if (text) setMessages((m) => [...m, { role: 'assistant', content: text }]);
     }, []);
 
     // 배치/교체 실행 후: 요약·버튼 숨김(ready=false) + 액션 필드 제거(다음 요청에 stale swap 방지)
@@ -107,6 +114,8 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
                     hasDestination: !!destRef.current,
                     currentPlan: planRef.current ?? undefined,
                     messages: next,
+                    // 지금까지 누적한 슬롯을 함께 전송 → 서버가 "확정 항목 재질문 금지"로 주입(모델 누락 보완)
+                    requirements: requirements ?? undefined,
                 }),
             });
             const data = await res.json();
@@ -134,7 +143,7 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
         } finally {
             setLoading(false);
         }
-    }, [input, loading, messages]);
+    }, [input, loading, messages, requirements]);
 
-    return { mode, hasPlan: hasPlanDays(currentPlan), messages, input, setInput, loading, requirements, ready, view, setView, send, reset, markApplied };
+    return { mode, hasPlan: hasPlanDays(currentPlan), messages, input, setInput, loading, requirements, ready, view, setView, send, reset, markApplied, notify };
 }

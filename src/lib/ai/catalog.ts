@@ -15,6 +15,31 @@ const BUCKETS = [
 
 export type CardCategory = 'food' | 'hotel' | 'shopping' | 'tourspa' | 'transport';
 
+// 카테고리별 데이터 type → 사용자용 서브카테고리 라벨 (각 Picker 그룹 기준과 동일).
+// 한 버킷에 여러 서브카테고리가 섞여 있어(예: 투어&스파=관광지/투어/스파·마사지/…), 니즈에 맞는 것만 고르기 위함.
+export const SUBCAT_LABEL: Record<CardCategory, Record<string, string>> = {
+    food: {
+        korean: '한식', japanese: '일식', western: '양식', italian: '양식', french: '양식',
+        cafe: '카페', local: '로컬·길거리', 'street-food': '로컬·길거리', chinese: '중식', fusion: '퓨전',
+    },
+    hotel: {
+        hotel: '호텔', resort: '리조트', airbnb: '에어비앤비', hostel: '호스텔·게스트하우스', guesthouse: '호스텔·게스트하우스',
+    },
+    shopping: {
+        'department-store': '백화점·쇼핑몰', mall: '백화점·쇼핑몰', market: '전통시장',
+        supermarket: '마트·편의점', convenience: '마트·편의점', outlet: '아울렛', 'duty-free': '면세점',
+        souvenir: '기념품·특산품', specialty: '기념품·특산품', boutique: '기념품·특산품',
+    },
+    tourspa: {
+        'city-tour': '관광지', 'cultural': '관광지',
+        'island-hopping': '투어', 'adventure': '투어', 'cruise': '투어',
+        'spa': '스파·마사지', 'massage': '스파·마사지',
+        'theme-park': '테마파크', 'water-sports': '액티비티',
+        'show': '공연·체험', 'workshop': '공연·체험',
+    },
+    transport: {},
+};
+
 /**
  * destination 카드의 city 로 CITY_DATA 키를 찾는다.
  * city 는 경로에 따라 영문("Nha Trang"/"nha trang") 또는 한글("나트랑") 둘 다 가능하므로 모두 처리.
@@ -40,6 +65,14 @@ export function hasCatalog(name?: string): boolean {
     return resolveCityKey(name) !== null;
 }
 
+/** 특정 카테고리의 카탈로그 장소 원본 배열. 결정적 편집(예: "매일 마사지" 반복 추가)에 사용. */
+export function listCatalogPlaces(cityKey: string, category: CardCategory): any[] {
+    const bundle: any = CITY_DATA[cityKey] || {};
+    const b = BUCKETS.find((x) => x.category === category);
+    if (!b) return [];
+    return Array.isArray(bundle[b.bucket]) ? bundle[b.bucket] : [];
+}
+
 /** 프롬프트에 넣을 카탈로그 목록(카테고리별 트림). 좌표는 넣지 않음(클라 재부착). */
 export function buildCatalogListing(cityKey: string, dayCount: number): string {
     const maxPerCat = Math.min(16, Math.max(8, dayCount * 3));
@@ -56,7 +89,9 @@ export function buildCatalogListing(cityKey: string, dayCount: number): string {
         for (const it of picked) {
             const desc = (it?.description || it?.specialItems || '').toString().slice(0, 40);
             const tier = it?.priceTier ? ` | tier:${it.priceTier}` : ''; // 숙소 등급(예산 매칭용)
-            lines.push(`- ${it.name} | ${it.type ?? ''}${tier} | ${desc}`);
+            // 서브카테고리(한식/리조트/면세점/스파·마사지/…)를 한글 라벨로 노출 → 모델이 니즈 매칭 정확도↑
+            const typeLabel = SUBCAT_LABEL[category]?.[it?.type] ?? it?.type ?? '';
+            lines.push(`- ${it.name} | ${typeLabel}${tier} | ${desc}`);
         }
     }
     return lines.join('\n');
