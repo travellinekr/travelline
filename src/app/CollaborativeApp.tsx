@@ -440,7 +440,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const aiCurrentPlan = useMemo(() => {
         const cols = columns as any;
         if (!cols) return null;
-        const days: Array<{ day: number; items: Array<{ name: string; category?: string }> }> = [];
+        const days: Array<{ day: number; items: Array<{ name: string; category?: string; coordinates?: { lat: number; lng: number }; subType?: string }> }> = [];
         for (let i = 1; i <= 20; i++) {
             const col = cols.get(`day${i}`);
             if (!col) break;
@@ -448,7 +448,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             const items = ids
                 .map((id) => (cards as any)?.get(id))
                 .filter(Boolean)
-                .map((c: any) => ({ name: c.text || c.title || '', category: c.category }))
+                // coordinates: 거리 계산용, subType: 서브카테고리(한식/리조트/스파·마사지 등) 판정용 → 서버가 니즈 맞춰 추가
+                .map((c: any) => ({
+                    name: c.text || c.title || '',
+                    category: c.category,
+                    coordinates: c.coordinates,
+                    subType: c.restaurantType || c.accommodationType || c.shoppingType || c.tourSpaType || c.type,
+                }))
                 .filter((it: any) => it.name);
             days.push({ day: i, items });
         }
@@ -1040,7 +1046,10 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             // 편집 모드: 추가분만 그대로 append (기존 카드 보존, 모달 없이 바로 반영)
             if (data.edit) {
                 if (data.empty || !plan?.days?.length) {
-                    addToast('추가할 만한 장소를 찾지 못했어요. 조금 더 구체적으로 말씀해 주세요.', 'info');
+                    // 반영할 장소가 없을 때: 요약·버튼은 숨기되(markApplied) 패널은 열어둔 채
+                    // "없다고 + 직접 추가하기 안내"를 친절히 대화 메시지로 보여준다.
+                    aiChat.markApplied();
+                    aiChat.notify(data.message || '요청하신 장소를 목록에서 찾지 못했어요 😅 보관함(인박스)에서 원하는 탭의 \'직접 추가하기\'로 직접 만들어 넣으실 수 있어요! 🙂');
                     return;
                 }
                 doApplyAiPlan(plan, 'append', data.warnings || []);

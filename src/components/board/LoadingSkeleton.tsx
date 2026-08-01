@@ -23,6 +23,27 @@ function AssemblingLogo({ size = 60 }: { size?: number }) {
     );
 }
 
+/**
+ * 로딩 문구를 글자 단위로 순차 웨이브(살짝 떠오르며 볼드) 처리.
+ * 접근성: 컨테이너 aria-label 로 전체 문구 읽고, 개별 글자 span 은 aria-hidden.
+ */
+function WavyText({ text, className = '' }: { text: string; className?: string }) {
+    return (
+        <p className={className} aria-label={text}>
+            {Array.from(text).map((ch, i) => (
+                <span
+                    key={i}
+                    aria-hidden="true"
+                    className="tl-wave"
+                    style={{ animationDelay: `${(i * 0.07).toFixed(2)}s` }}
+                >
+                    {ch === ' ' ? ' ' : ch}
+                </span>
+            ))}
+        </p>
+    );
+}
+
 export function LoadingSkeleton() {
     return (
         <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
@@ -69,19 +90,19 @@ export function LoadingSkeleton() {
                                 <div className="w-full h-[58px] md:h-[72px] bg-rose-50 border border-rose-100 rounded-xl animate-pulse" />
                             </div>
 
-                            {/* 모바일 로딩 - 문구 + 그 아래 로고 조립 애니메이션 (데스크톱에선 숨김) */}
+                            {/* 모바일 로딩 - 로고 조립 애니메이션 + 그 아래 웨이브 문구 (데스크톱에선 숨김) */}
                             <div className="md:hidden flex flex-col items-center justify-center gap-4 py-10 shrink-0">
-                                <p className="text-sm text-slate-500 font-medium">여행일정을 불러오고 있습니다</p>
                                 <AssemblingLogo size={64} />
+                                <WavyText text="여행일정을 불러오고 있습니다" className="text-sm text-slate-500 font-medium" />
                             </div>
 
                             {/* 로딩 텍스트 + 타임라인 카드 스켈레톤 */}
                             <div className="flex-1 overflow-y-auto p-3 md:p-6 space-y-6">
 
-                                {/* 데스크톱 로딩 - 문구 + 그 아래 로고 조립 애니메이션 */}
+                                {/* 데스크톱 로딩 - 로고 조립 애니메이션 + 그 아래 웨이브 문구 */}
                                 <div className="hidden md:flex flex-col items-center justify-center gap-3 py-4">
-                                    <p className="text-xs text-slate-400 font-medium">여행일정을 불러오고 있습니다</p>
                                     <AssemblingLogo size={52} />
+                                    <WavyText text="여행일정을 불러오고 있습니다" className="text-xs text-slate-400 font-medium" />
                                 </div>
 
                                 {[0, 1, 2].map((day) => (
@@ -164,8 +185,15 @@ export function LoadingSkeleton() {
                 .tl-tb1 { animation-delay: 0s; }
                 .tl-tb2 { animation-delay: .5s; }
                 .tl-tb3 { animation-delay: 1s; }
+                /* 로딩 문구: 글자마다 순차로 살짝 떠오르며 볼드 — 웨이브 */
+                @keyframes tl-wave {
+                    0%, 55%, 100% { transform: translateY(0); font-weight: 500; }
+                    18% { transform: translateY(-3px); font-weight: 800; }
+                }
+                .tl-wave { display: inline-block; animation: tl-wave 1.9s ease-in-out infinite; }
                 @media (prefers-reduced-motion: reduce) {
                     .tl-tb { animation: none; transform: none; opacity: 1; }
+                    .tl-wave { animation: none; }
                 }
             `}</style>
         </div>
