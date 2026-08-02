@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
+import HeaderNav from '@/components/nav/HeaderNav';
 
 export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
   // 펀치홀 여백은 sticky 여부와 무관하게 CSS env() 로 통일(iOS 앱/Safari/Android 동일 경로).
@@ -70,13 +71,16 @@ export default function DashboardHeader({ title, rightSlot, sticky = false }: { 
   if (!user) {
     return (
       <header className={headerClass}>
-        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-          <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
-              <TravellineLogo size={32} />
-              <span className="truncate">{title ?? 'Travelline'}</span>
-            </Link>
-          </h1>
+        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-5 min-w-0">
+            <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
+              <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
+                <TravellineLogo size={32} />
+                <span className="truncate">{title ?? 'Travelline'}</span>
+              </Link>
+            </h1>
+            <HeaderNav />
+          </div>
 
           {/* 시작하기 버튼 */}
           {rightSlot ?? (
@@ -95,13 +99,16 @@ export default function DashboardHeader({ title, rightSlot, sticky = false }: { 
   return (
     <>
       <header className={headerClass}>
-        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-          <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
-            <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
-              <TravellineLogo size={32} />
-              <span className="truncate">{title ?? 'Travelline'}</span>
-            </Link>
-          </h1>
+        <div className="max-w-6xl w-full mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-5 min-w-0">
+            <h1 className="text-lg sm:text-xl font-bold tracking-tight text-slate-700 flex items-center gap-4 min-w-0">
+              <Link href="/" className="hover:opacity-80 transition-opacity flex items-center gap-4 min-w-0">
+                <TravellineLogo size={32} />
+                <span className="truncate">{title ?? 'Travelline'}</span>
+              </Link>
+            </h1>
+            <HeaderNav />
+          </div>
 
           {/* 사용자 아바타 */}
           {rightSlot ?? (

@@ -91,6 +91,7 @@ const PICKER_DELETE_ZONES = [
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import BottomNav from "@/components/nav/BottomNav";
 import type { OnboardingStep } from "@/components/onboarding/OnboardingTour";
 // 온보딩 코치마크는 최초 소유자만 봄 → 메인 청크 + 한글 손글씨 폰트 트리거를 지연
 const OnboardingTour = dynamic(() => import("@/components/onboarding/OnboardingTour").then((m) => m.OnboardingTour), { ssr: false, loading: () => null });
@@ -1202,6 +1203,9 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         </span>
                                     </div>
                                 )}
+
+                                {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/AI. 홈+AI만 실동작. */}
+                                <BottomNav onAiClick={isTripEnded(flightInfo) ? undefined : () => setAiPanelOpen(true)} />
 
                                 {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업.
                                     열릴 때만 렌더 → dynamic 청크가 탭 후 로드됨(패널은 !open 시 null 이라 동작 동일) */}
