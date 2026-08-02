@@ -132,9 +132,17 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // 권한 체크
     const { canEdit, isOwner, loading: roleLoading } = useRole(roomId);
 
-    // 온보딩: "여행 계획을 만든 사람(소유자)이 처음 들어왔을 때"만 자동 노출.
-    //  "한 번 본 사람"은 useOnboarding 내부의 사용자 단위 seen 플래그로 관리.
-    const onboardingEnabled = !!columns && !!cards && isOwner;
+    // 온보딩: "여행 계획을 만든 사람(소유자)이 신규 보드에 처음 들어왔을 때"만 자동 노출.
+    //  "한 번 본 사람"은 useOnboarding 내부의 사용자 단위 seen 플래그(Supabase user_metadata)로 관리.
+    //  ⚠️ 신규 보드 조건 필수 — 인트로 종료 시 resetBoard 로 storage 를 통째로 지워서
+    //     이미 채워진 보드에서 인트로가 뜨면 최종여행지·항공편·전체 카드가 사라진다.
+    const isBrandNewBoard = useMemo(() => {
+        if (!columns || !cards) return false;
+        // cards LiveMap 이 완전히 비어있어야 신규. (destination-header 카드도 여기 포함되므로 하나로 판정 가능)
+        const cardCount = (cards as any)?.size ?? 0;
+        return cardCount === 0;
+    }, [columns, cards]);
+    const onboardingEnabled = !!columns && !!cards && isOwner && isBrandNewBoard;
     const onboarding = useOnboarding({ enabled: onboardingEnabled });
 
     const [activeCategory, setActiveCategory] = useState<CategoryType>("destination");

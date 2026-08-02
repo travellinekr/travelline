@@ -498,10 +498,43 @@ export function useCardMutations() {
 
     // 보드 전체 초기화 — 신규 보드(initialStorage) 상태로 되돌림.
     //  (온보딩 인트로 종료 시 데모로 만든 여행지/항공편/일차/카드 등을 모두 정리)
+    //  🔒 안전장치 3중:
+    //    1) 여행이 시작된(오늘 이후 출발) 보드는 절대 초기화 금지
+    //    2) day1+ 컬럼에 카드가 하나라도 있으면 초기화 금지 (실제 일정이 짜인 상태)
+    //    3) unconfirmed 컬럼에 카드가 있으면 초기화 금지
+    //  → 온보딩 데모(발리 카드 1개 + day0 없음) 상태에서만 통과.
     const resetBoard = useMutation(({ storage }) => {
         const columns = storage.get("columns") as any;
         const cards = storage.get("cards") as any;
         const columnOrder = storage.get("columnOrder") as any;
+
+        // 가드 1: 여행 시작 후 절대 리셋 불가 (지난 여행 · 진행 중 여행 모두 포함)
+        const flightInfo = storage.get("flightInfo") as any;
+        const outbound = flightInfo?.get?.('outbound') ?? flightInfo?.outbound;
+        const outboundDate = outbound?.date ?? outbound?.get?.('date');
+        if (outboundDate) {
+            const dep = new Date(outboundDate);
+            dep.setHours(0, 0, 0, 0);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            if (dep.getTime() <= today.getTime()) {
+                console.warn('[resetBoard] blocked — 여행이 이미 시작된 보드는 초기화할 수 없습니다.');
+                return;
+            }
+        }
+        // 가드 2/3: 실제 일정(day1+) 또는 미확정 카드가 있으면 리셋 불가
+        for (const col of columns.values()) {
+            const colId = col.get?.('id') ?? col.id;
+            const isRealDay = typeof colId === 'string' && /^day[1-9]\d*$/.test(colId);
+            const isUnconfirmed = colId === 'unconfirmed';
+            if (!isRealDay && !isUnconfirmed) continue;
+            const ids = col.get?.('cardIds') ?? col.cardIds;
+            const len = Array.isArray(ids) ? ids.length : (ids?.length ?? 0);
+            if (len > 0) {
+                console.warn(`[resetBoard] blocked — ${colId} 에 카드가 있어 초기화할 수 없습니다.`);
+                return;
+            }
+        }
 
         // 1) 모든 카드 삭제
         Array.from(cards.keys()).forEach((k: any) => cards.delete(k));
