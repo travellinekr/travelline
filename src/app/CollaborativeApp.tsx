@@ -1176,21 +1176,24 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </Confirm>
                                 )}
 
-                                <div
-                                    ref={floatingBtnRef}
-                                    data-tour="ai"
-                                    className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 shadow-xl shadow-orange-400/40 ring-1 ring-white/50"
-                                    onTouchStart={handleTouchStart}
-                                    onTouchEnd={handleTouchEnd}
-                                    onTouchMove={handleTouchMove}
-                                >
-                                    {/* AI 플래너 진입 — 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 */}
-                                    <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />
-                                    <span className="relative flex items-center justify-center">
-                                        <Sparkles className="absolute w-8 h-8 text-white/45" strokeWidth={1.6} fill="currentColor" fillOpacity={0.2} />
-                                        <span className="relative text-white font-extrabold text-base tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)]">AI</span>
-                                    </span>
-                                </div>
+                                {/* 여행 종료(오늘 이후) 보드에서는 AI 플로팅 버튼 숨김 — 계획 수정 의미 없음. */}
+                                {!isTripEnded(flightInfo) && (
+                                    <div
+                                        ref={floatingBtnRef}
+                                        data-tour="ai"
+                                        className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 shadow-xl shadow-orange-400/40 ring-1 ring-white/50"
+                                        onTouchStart={handleTouchStart}
+                                        onTouchEnd={handleTouchEnd}
+                                        onTouchMove={handleTouchMove}
+                                    >
+                                        {/* AI 플래너 진입 — 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 */}
+                                        <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />
+                                        <span className="relative flex items-center justify-center">
+                                            <Sparkles className="absolute w-8 h-8 text-white/45" strokeWidth={1.6} fill="currentColor" fillOpacity={0.2} />
+                                            <span className="relative text-white font-extrabold text-base tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)]">AI</span>
+                                        </span>
+                                    </div>
+                                )}
 
                                 {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업.
                                     열릴 때만 렌더 → dynamic 청크가 탭 후 로드됨(패널은 !open 시 null 이라 동작 동일) */}

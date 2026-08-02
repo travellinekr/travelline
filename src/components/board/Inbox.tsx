@@ -5,6 +5,7 @@ import { memo, useMemo, useState, useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
+import { isTripEnded } from "@/utils/timeline";
 // AI 패널은 버튼 클릭 후에만 열림 → 메인 청크에서 분리
 const AiAssistantPanel = dynamic(() => import("./AiAssistant/AiAssistantPanel").then((m) => m.AiAssistantPanel), { ssr: false, loading: () => null });
 
@@ -310,8 +311,9 @@ export const Inbox = memo(function Inbox({ cards, activeCategory, setActiveCateg
         <ArrowUp className="w-5 h-5" />
       </button>
 
-      {/* 데스크톱 전용 AI 플래너 플로팅 버튼 — 인박스 영역 우하단 고정 (모바일은 타임라인 플로팅 버튼) */}
-      {canEdit && onOpenAiPanel && !aiPanelOpen && (
+      {/* 데스크톱 전용 AI 플래너 플로팅 버튼 — 인박스 영역 우하단 고정 (모바일은 타임라인 플로팅 버튼)
+          여행 종료 후에는 계획 수정 의미 없어 숨김. */}
+      {canEdit && onOpenAiPanel && !aiPanelOpen && !isTripEnded(flightInfo) && (
         <button
           type="button"
           onClick={onOpenAiPanel}
