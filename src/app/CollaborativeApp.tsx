@@ -21,7 +21,7 @@ const AiAssistantPanel = dynamic(
     () => import("@/components/board/AiAssistant/AiAssistantPanel").then(m => m.AiAssistantPanel),
     { ssr: false, loading: () => null }
 );
-import { Sparkles, ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
+import { ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
 import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
 import { useModalPrefetch } from "@/hooks/useModalPrefetch";
@@ -58,7 +58,6 @@ import { DraggedCardOverlay } from "@/components/board/DraggedCardOverlay";
 import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useTripStartDateSync } from "@/hooks/useTripStartDateSync";
-import { useFloatingButton } from "@/hooks/useFloatingButton";
 import { useAiPlannerChat } from "@/components/ai/useAiPlannerChat";
 import { useApplyAiPlan } from "@/hooks/useApplyAiPlan";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
@@ -158,8 +157,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     } | null>(null);
 
     // React State는 초기 위치용
-    const [mobileCursorPos, setMobileCursorPos] = useState({ x: 0, y: 0 });
-    const [isMobileDragging, setIsMobileDragging] = useState(false);
 
     // AI 플래너 패널 열림 상태 (플로팅 버튼 탭 / 데스크톱 인박스 헤더 버튼으로 오픈)
     const [aiPanelOpen, setAiPanelOpen] = useState(false);
@@ -364,7 +361,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const containerRef = useRef<HTMLDivElement>(null);
     const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
         containerRef,
-        isMobileDragging,
         activeDragItem,
     });
     // Liveblocks cards 최신값 참조 (stale closure 방지)
@@ -412,17 +408,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // 보드 스토리지 관리 (자동 복구 + 여행지 제거 시 cleanup)
     const { cleanupFlightAndDays } = useBoardStorage({ columns, addToast });
-
-    // 모바일 플로팅 버튼 (가짜 마우스 커서)
-    const { floatingBtnRef, handleTouchStart, handleTouchMove, handleTouchEnd } = useFloatingButton({
-        containerRef,
-        inboxState,
-        throttledUpdateMyPresence,
-        setIsMobileDragging,
-        setMobileCursorPos,
-        // 탭(드래그 아님) 시 AI 패널 오픈. 모바일은 인박스와 무관하게 독립 팝업으로 뜸.
-        onTap: () => setAiPanelOpen(true),
-    });
 
     const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== 'undefined' ? window.location.origin : '');
     const publicUrl = `${baseUrl}/room/${roomId}`;
@@ -1183,25 +1168,6 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                         <br />
                                         변경하시겠습니까?
                                     </Confirm>
-                                )}
-
-                                {/* 여행 종료(오늘 이후) 보드에서는 AI 플로팅 버튼 숨김 — 계획 수정 의미 없음. */}
-                                {!isTripEnded(flightInfo) && (
-                                    <div
-                                        ref={floatingBtnRef}
-                                        data-tour="ai"
-                                        className="md:hidden fixed z-50 w-14 h-14 rounded-2xl flex items-center justify-center cursor-grab active:cursor-grabbing touch-none active:scale-95 transition-transform bg-gradient-to-br from-orange-300 via-orange-400 to-amber-500 shadow-xl shadow-orange-400/40 ring-1 ring-white/50"
-                                        onTouchStart={handleTouchStart}
-                                        onTouchEnd={handleTouchEnd}
-                                        onTouchMove={handleTouchMove}
-                                    >
-                                        {/* AI 플래너 진입 — 은은한 광택 + 원래 크기 반짝임 위에 "AI" 겹치기 */}
-                                        <span className="absolute inset-0 rounded-2xl bg-gradient-to-t from-transparent to-white/25 pointer-events-none" />
-                                        <span className="relative flex items-center justify-center">
-                                            <Sparkles className="absolute w-8 h-8 text-white/45" strokeWidth={1.6} fill="currentColor" fillOpacity={0.2} />
-                                            <span className="relative text-white font-extrabold text-base tracking-tight drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)]">AI</span>
-                                        </span>
-                                    </div>
                                 )}
 
                                 {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/AI. 홈+AI만 실동작. */}

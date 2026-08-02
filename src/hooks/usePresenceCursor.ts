@@ -4,11 +4,9 @@ import { useMyPresence } from '../liveblocks.config';
 
 export function usePresenceCursor({
     containerRef,
-    isMobileDragging,
     activeDragItem,
 }: {
     containerRef: React.RefObject<HTMLDivElement | null>;
-    isMobileDragging: boolean;
     activeDragItem: any;
 }) {
     const [myPresence, updateMyPresence] = useMyPresence();
@@ -21,7 +19,6 @@ export function usePresenceCursor({
     );
 
     const handlePointerMove = (e: React.PointerEvent) => {
-        if (isMobileDragging) return;
         e.preventDefault();
 
         if (containerRef.current) {
@@ -36,7 +33,6 @@ export function usePresenceCursor({
     };
 
     const handlePointerLeave = () => {
-        if (isMobileDragging) return;
         updateMyPresence({ cursor: null });
     };
 
