@@ -96,6 +96,18 @@ export function CardEditorModal({
     // 키보드 높이 추적 (모바일 전용)
     const [keyboardHeight, setKeyboardHeight] = useState(0);
 
+    // Android 네이티브 앱 판정. 안드로이드 WebView 는 adjustResize 로 viewport 자체가 줄어들어
+    // visualViewport 로 키보드 높이 감지 불가 (windowHeight = visualViewport.height).
+    // → 툴바 bottom 오프셋에 푸터 높이(~60px) 만큼 더 얹어서 푸터 위에 표시.
+    const [isAndroidNative, setIsAndroidNative] = useState(false);
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        setIsAndroidNative(
+            document.documentElement.classList.contains('cap-native') &&
+            /android/i.test(navigator.userAgent)
+        );
+    }, []);
+
     useEffect(() => {
         // visualViewport API가 없으면 (데스크톱) 아무것도 하지 않음
         if (!window.visualViewport) return;
@@ -198,6 +210,17 @@ export function CardEditorModal({
                                 overflow-y: auto;
                                 padding-top: 16px;
                                 padding-bottom: ${keyboardHeight > 0 ? '60px' : '16px'}; /* 툴바 보이면 여백 추가 */
+                            }
+                            /* 네이티브 앱(cap-native): pb-safe 로 확장된 푸터가 툴바 가림 + 안드로이드 adjustResize 로
+                               visualViewport 부정확 → 툴바 강제 표시 + safe-area 만큼 위로 올림.
+                               Android 는 keyboardHeight = 0 상태로도 키보드 위에 있어야 하므로 푸터 높이(60px) 추가. */
+                            html.cap-native .editor-wrapper .bn-formatting-toolbar {
+                                bottom: calc(${keyboardHeight}px + ${isAndroidNative ? '60px + ' : ''}env(safe-area-inset-bottom)) !important;
+                                opacity: 1 !important;
+                                visibility: visible !important;
+                            }
+                            html.cap-native .editor-wrapper .bn-editor {
+                                padding-bottom: calc(60px + env(safe-area-inset-bottom)) !important;
                             }
                         }
                         
