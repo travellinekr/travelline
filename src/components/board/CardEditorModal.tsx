@@ -108,6 +108,10 @@ export function CardEditorModal({
         );
     }, []);
 
+    // 에디터 포커스 상태 — 모바일 툴바 표시/숨김의 소스 오브 트루스.
+    // (Android 는 keyboardHeight 감지 실패 · iOS/웹도 focus 가 키보드보다 먼저 오는 게 자연스러움)
+    const [isEditorFocused, setIsEditorFocused] = useState(false);
+
     useEffect(() => {
         // visualViewport API가 없으면 (데스크톱) 아무것도 하지 않음
         if (!window.visualViewport) return;
@@ -184,7 +188,7 @@ export function CardEditorModal({
                             }
                         }
                         
-                        /* 모바일: 하단 플로팅 툴바 */
+                        /* 모바일: 하단 플로팅 툴바 — 에디터 포커스 시에만 표시 (웹/앱 통일) */
                         @media (max-width: 767px) {
                             .editor-wrapper .bn-formatting-toolbar {
                                 position: fixed;
@@ -202,25 +206,22 @@ export function CardEditorModal({
                                 user-select: none;
                                 overflow: visible;
                                 transition: bottom 0.2s ease-out, opacity 0.2s ease-out, visibility 0.2s ease-out;
-                                opacity: ${keyboardHeight > 0 ? 1 : 0};
-                                visibility: ${keyboardHeight > 0 ? 'visible' : 'hidden'};
+                                opacity: ${isEditorFocused ? 1 : 0};
+                                visibility: ${isEditorFocused ? 'visible' : 'hidden'};
                             }
                             .editor-wrapper .bn-editor {
                                 flex: 1;
                                 overflow-y: auto;
                                 padding-top: 16px;
-                                padding-bottom: ${keyboardHeight > 0 ? '60px' : '16px'}; /* 툴바 보이면 여백 추가 */
+                                padding-bottom: ${isEditorFocused ? '60px' : '16px'};
                             }
-                            /* 네이티브 앱(cap-native): pb-safe 로 확장된 푸터가 툴바 가림 + 안드로이드 adjustResize 로
-                               visualViewport 부정확 → 툴바 강제 표시 + safe-area 만큼 위로 올림.
-                               Android 는 keyboardHeight = 0 상태로도 키보드 위에 있어야 하므로 푸터 높이(60px) 추가. */
+                            /* 네이티브 앱(cap-native): Android 는 keyboardHeight=0 이라 푸터 높이(60px) 추가 필요.
+                               iOS 는 keyboardHeight > 0 로 키보드 위에 자연 배치. safe-area 는 홈인디케이터 여백. */
                             html.cap-native .editor-wrapper .bn-formatting-toolbar {
                                 bottom: calc(${keyboardHeight}px + ${isAndroidNative ? '60px + ' : ''}env(safe-area-inset-bottom)) !important;
-                                opacity: 1 !important;
-                                visibility: visible !important;
                             }
                             html.cap-native .editor-wrapper .bn-editor {
-                                padding-bottom: calc(60px + env(safe-area-inset-bottom)) !important;
+                                padding-bottom: ${isEditorFocused ? 'calc(60px + env(safe-area-inset-bottom))' : '16px'} !important;
                             }
                         }
                         
@@ -288,6 +289,12 @@ export function CardEditorModal({
                             if (target.closest('.bn-formatting-toolbar')) {
                                 e.preventDefault();
                             }
+                        }}
+                        onFocus={() => setIsEditorFocused(true)}
+                        onBlur={(e) => {
+                            // 포커스가 editor-wrapper 내부(툴바 버튼 등)에 남으면 유지, 밖으로 나가면 hide
+                            if (e.currentTarget.contains(e.relatedTarget as Node)) return;
+                            setIsEditorFocused(false);
                         }}
                     >
                         <BlockNoteView
