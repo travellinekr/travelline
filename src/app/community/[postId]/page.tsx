@@ -168,7 +168,7 @@ export default function CommunityPostPage({ params }: { params: Promise<{ postId
             <DashboardHeader title="커뮤니티" />
             <main className="flex-1 max-w-3xl w-full mx-auto px-4 sm:px-6 py-6 md:py-8 pb-24 md:pb-8">
                 <div className="mb-3">
-                    <Link href="/community" className="text-xs text-slate-500 hover:text-slate-700">← 목록</Link>
+                    <Link href="/community" className="text-xs md:text-sm text-slate-500 hover:text-slate-700">← 목록</Link>
                 </div>
 
                 {loading ? (

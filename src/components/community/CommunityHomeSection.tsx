@@ -21,12 +21,12 @@ export default function CommunityHomeSection() {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-3 pb-4 md:pt-4 md:pb-5">
                 <div className="flex items-end justify-between mb-3">
                     <div>
-                        <h2 className="text-xl font-bold text-slate-800 mb-0.5">커뮤니티</h2>
-                        <p className="text-xs text-slate-400">여행정보를 서로 나눠보세요</p>
+                        <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-0.5">커뮤니티</h2>
+                        <p className="text-xs md:text-sm text-slate-400">여행정보를 서로 나눠보세요</p>
                     </div>
                     <Link
                         href="/community"
-                        className="text-xs text-slate-500 hover:text-emerald-600 whitespace-nowrap"
+                        className="text-xs md:text-sm text-slate-500 hover:text-emerald-600 whitespace-nowrap"
                     >
                         전체보기 →
                     </Link>
