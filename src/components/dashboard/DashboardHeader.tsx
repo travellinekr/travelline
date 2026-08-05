@@ -8,7 +8,7 @@ import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
 import HeaderNav from '@/components/nav/HeaderNav';
 
-export default function DashboardHeader({ title, rightSlot, sticky = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean }) {
+export default function DashboardHeader({ title, rightSlot, sticky = false, destinationCity }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean; destinationCity?: string | null }) {
   // 펀치홀 여백은 sticky 여부와 무관하게 CSS env() 로 통일(iOS 앱/Safari/Android 동일 경로).
   // iOS contentInset='never' 라 env() 이중 적용 없음 → 스크롤 시 여백 누적 안 됨.
   const headerClass = sticky
@@ -79,7 +79,7 @@ export default function DashboardHeader({ title, rightSlot, sticky = false }: { 
                 <span className="truncate">{title ?? 'Travelline'}</span>
               </Link>
             </h1>
-            <HeaderNav />
+            <HeaderNav destinationCity={destinationCity} />
           </div>
 
           {/* 시작하기 버튼 */}
@@ -107,7 +107,7 @@ export default function DashboardHeader({ title, rightSlot, sticky = false }: { 
                 <span className="truncate">{title ?? 'Travelline'}</span>
               </Link>
             </h1>
-            <HeaderNav />
+            <HeaderNav destinationCity={destinationCity} />
           </div>
 
           {/* 사용자 아바타 */}

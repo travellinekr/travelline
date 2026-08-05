@@ -1152,7 +1152,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
       `}</style>
 
                         <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
-                            <DashboardHeader title={projectTitle} rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />} />
+                            <DashboardHeader
+                                title={projectTitle}
+                                rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />}
+                                destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
+                            />
                             <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
                                 <LiveCursors />
 
@@ -1170,8 +1174,11 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </Confirm>
                                 )}
 
-                                {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/AI. 홈+AI만 실동작. */}
-                                <BottomNav onAiClick={isTripEnded(flightInfo) ? undefined : () => setAiPanelOpen(true)} />
+                                {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/AI. 문의&요청은 최종여행지 있을 때만 활성. */}
+                                <BottomNav
+                                    onAiClick={isTripEnded(flightInfo) ? undefined : () => setAiPanelOpen(true)}
+                                    destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
+                                />
 
                                 {/* AI 플래너 패널 (모바일) — 인박스와 무관한 최상위 독립 팝업.
                                     열릴 때만 렌더 → dynamic 청크가 탭 후 로드됨(패널은 !open 시 null 이라 동작 동일) */}

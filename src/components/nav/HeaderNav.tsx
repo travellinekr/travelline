@@ -1,13 +1,36 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
+import { useAuth } from '@/hooks/useAuth';
+import { findCountryByCity, findCityNameKo } from '@/data/destinations';
 
 // 데스크톱 헤더 우측 nav — 삼성 브라우저 톤(텍스트만·명료).
-// 홈만 실제 링크. 커뮤니티/문의&요청은 페이지 준비 전이라 비활성.
-export default function HeaderNav() {
+// destinationCity: 여행보드에서 DashboardHeader → HeaderNav 로 전달. 최종여행지 있을 때만 문의&요청 활성.
+function HeaderNavInner({ destinationCity }: { destinationCity?: string | null }) {
   const pathname = usePathname();
+  const search = useSearchParams();
+  const { user } = useAuth();
+  const type = search.get('type');
+
   const isHome = pathname === '/';
+  const isCommunityRoot = pathname.startsWith('/community') && type !== 'inquiry';
+  const isInquiry = pathname.startsWith('/community') && type === 'inquiry';
+  const isBoard = pathname.startsWith('/room/');
+  // destinationCity 는 영문 slug("osaka") 로 들어오므로 한글로 정규화 (게시글 city 필드는 한글로 저장됨).
+  const boardCity = destinationCity ? findCityNameKo(destinationCity.trim()) : '';
+  // 해외안전정보(notice) 는 나라 단위 필터라 country 파라미터도 함께 부착 → 커뮤니티 페이지가 탭에 맞게 사용.
+  const boardCountry = boardCity ? (findCountryByCity(boardCity) || '') : '';
+  const boardQs = boardCity
+    ? `from=board&city=${encodeURIComponent(boardCity)}${boardCountry ? `&country=${encodeURIComponent(boardCountry)}` : ''}`
+    : '';
+  const communityHref = isBoard && boardCity ? `/community?type=notice&${boardQs}` : '/community';
+  const inquiryHref = isBoard
+    ? (boardCity ? `/community?type=inquiry&${boardQs}` : null)
+    : '/community?type=inquiry';
+  const inquiryEnabled = !!user && !!inquiryHref;
+  const inquiryTitle = isBoard && !boardCity ? '최종여행지 등록 후 이용 가능' : (!user ? '로그인 후 이용 가능' : undefined);
 
   return (
     <nav className="hidden md:flex items-center gap-5 text-sm font-medium">
@@ -18,22 +41,37 @@ export default function HeaderNav() {
       >
         홈
       </Link>
-      <button
-        type="button"
-        disabled
-        className="text-slate-400 cursor-not-allowed"
-        title="곧 만나요"
+      <Link
+        href={communityHref}
+        className={`transition-colors ${isCommunityRoot ? 'text-emerald-600' : 'text-slate-600 hover:text-emerald-600'}`}
       >
         커뮤니티
-      </button>
-      <button
-        type="button"
-        disabled
-        className="text-slate-400 cursor-not-allowed"
-        title="곧 만나요"
-      >
-        문의&요청
-      </button>
+      </Link>
+      {inquiryEnabled ? (
+        <Link
+          href={inquiryHref!}
+          className={`transition-colors ${isInquiry ? 'text-emerald-600' : 'text-slate-600 hover:text-emerald-600'}`}
+        >
+          문의&요청
+        </Link>
+      ) : (
+        <button
+          type="button"
+          disabled
+          className="text-slate-300 cursor-not-allowed"
+          title={inquiryTitle}
+        >
+          문의&요청
+        </button>
+      )}
     </nav>
+  );
+}
+
+export default function HeaderNav({ destinationCity }: { destinationCity?: string | null } = {}) {
+  return (
+    <Suspense fallback={<nav className="hidden md:flex items-center gap-5" />}>
+      <HeaderNavInner destinationCity={destinationCity} />
+    </Suspense>
   );
 }

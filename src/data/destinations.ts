@@ -517,3 +517,45 @@ export function citySlugFromName(input: string): string | null {
     if (findCityByEngSlug(slug)) return slug;
     return null;
 }
+
+// 도시명(한글 또는 영문 slug) → 국가명(한글). 매칭 실패 시 null.
+// 커뮤니티 해외안전정보(notice) 필터가 나라 단위(발리 → 인도네시아)이므로 사용.
+export function findCountryByCity(input: string): string | null {
+    if (!input) return null;
+    const byName = findCityByName(input);
+    if (byName) return byName.city.country;
+    const slug = input.toLowerCase().replace(/\s+/g, "-");
+    const bySlug = findCityByEngSlug(slug);
+    if (bySlug) return bySlug.city.country;
+    return null;
+}
+
+// 도시명(한글 또는 영문 slug) → 한글 도시명. 매칭 실패 시 원본 유지.
+// destinationCard.city 는 영문 slug("osaka") 인데 커뮤니티 city 필드는 한글("오사카") 로 저장되므로 정규화 필요.
+export function findCityNameKo(input: string): string {
+    if (!input) return '';
+    const byName = findCityByName(input);
+    if (byName) return byName.city.name;
+    const slug = input.toLowerCase().replace(/\s+/g, "-");
+    const bySlug = findCityByEngSlug(slug);
+    if (bySlug) return bySlug.city.name;
+    return input;
+}
+
+// 모든 도시명(한글) 목록 — 커뮤니티 필터 드롭다운용. 중복 제거 + 가나다순.
+export function getAllCityNames(): string[] {
+    const set = new Set<string>();
+    for (const region of Object.values(DESTINATION_DATA)) {
+        for (const c of region.cities) set.add(c.name);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b, "ko"));
+}
+
+// 모든 국가명(한글) 목록 — 커뮤니티 해외안전정보 드롭다운용. 중복 제거 + 가나다순.
+export function getAllCountryNames(): string[] {
+    const set = new Set<string>();
+    for (const region of Object.values(DESTINATION_DATA)) {
+        for (const c of region.cities) set.add(c.country);
+    }
+    return Array.from(set).sort((a, b) => a.localeCompare(b, "ko"));
+}
