@@ -116,19 +116,23 @@ function CommunityPageInner() {
     }, [activeTab, page, isInquiryTab, isNoticeTab, user, cityFilter, countryFilter, searchQuery]);
 
 
+    // 팝업 모드(fromBoard) 안에서의 탭/필터 조작은 replace 로 히스토리 오염 방지 → "닫기" 한 번에 여행보드 복귀.
+    // 일반 모드는 push 로 브라우저 뒤로가기 UX 유지.
+    const navigateInternal = (path: string) => fromBoard ? router.replace(path) : router.push(path);
+
     const handleTabClick = (key: BoardType) => {
         const qs = new URLSearchParams({ type: key });
         if (cityFilter) qs.set('city', cityFilter);
         if (countryFilter) qs.set('country', countryFilter);
         if (fromBoard) qs.set('from', 'board');
-        router.push(`/community?${qs.toString()}`);
+        navigateInternal(`/community?${qs.toString()}`);
     };
 
     // 필터 해제 — 현재 탭 유지, city/country 제거. from=board 는 팝업 모드 유지 위해 보존.
     const handleClearFilter = () => {
         const qs = new URLSearchParams({ type: activeTab });
         if (fromBoard) qs.set('from', 'board');
-        router.push(`/community?${qs.toString()}`);
+        navigateInternal(`/community?${qs.toString()}`);
     };
 
     // 드롭다운 옵션 — 정적 데이터라 한 번만 계산.
@@ -144,7 +148,7 @@ function CommunityPageInner() {
             if (value) qs.set('city', value);
         }
         if (fromBoard) qs.set('from', 'board'); // 팝업 모드 유지
-        router.push(`/community?${qs.toString()}`);
+        navigateInternal(`/community?${qs.toString()}`);
     };
 
     // 커스텀 드롭다운 상태 — 네이티브 <select> 는 모바일에서 OS picker 로 뜨고 5줄 제한 불가. 커스텀으로 통일.
