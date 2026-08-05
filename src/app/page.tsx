@@ -10,14 +10,36 @@ import CreateProjectModal from "@/components/dashboard/CreateProjectModal";
 import { Project } from "@/types/project";
 import { supabase } from "@/lib/supabaseClient";
 import BetaPopup from "@/components/dashboard/BetaPopup";
+import CommunityHomeSection from "@/components/community/CommunityHomeSection";
 import { useAuth } from "@/hooks/useAuth";
 
 // ─── 롤링 배너 카드 데이터 ────────────────────────────────
+// 순서: 사용 가이드(how-*) 를 맨 앞으로 → 페이지 첫 진입 시 가이드 먼저 노출.
 const ROLLING_CARDS = [
+  {
+    id: "how-1",
+    type: "guide",
+    icon: <Lightbulb className="w-4 h-4" />,
+    badge: "💡 사용 가이드",
+    title: "Travelline 시작하기",
+    desc: "여행 카드를 드래그&드롭으로 타임라인에 배치해보세요. 친구와 실시간 협업도 가능해요!",
+    tag: "튜토리얼",
+    color: "from-teal-400 to-cyan-400",
+  },
+  {
+    id: "how-2",
+    type: "guide",
+    icon: <Star className="w-4 h-4" />,
+    badge: "💡 사용 가이드",
+    title: "실시간 협업으로 함께 계획하기",
+    desc: "링크 공유만으로 친구, 가족과 함께 여행 보드를 편집할 수 있어요.",
+    tag: "협업",
+    color: "from-violet-400 to-indigo-400",
+  },
   {
     id: "region-japan",
     type: "region",
-    icon: <MapPin className="w-5 h-5" />,
+    icon: <MapPin className="w-4 h-4" />,
     badge: "🗾 일본",
     title: "일본, 도시별로 계획하기",
     desc: "오사카·도쿄·후쿠오카·삿포로·오키나와 — 가고 싶은 도시를 골라 나만의 일정으로",
@@ -27,7 +49,7 @@ const ROLLING_CARDS = [
   {
     id: "region-china-taiwan",
     type: "region",
-    icon: <MapPin className="w-5 h-5" />,
+    icon: <MapPin className="w-4 h-4" />,
     badge: "🏮 중국·대만",
     title: "중화권, 도시별로 계획하기",
     desc: "타이베이·홍콩·상하이·다롄 — 도시부터 골라 여행 일정을 짜보세요",
@@ -35,19 +57,9 @@ const ROLLING_CARDS = [
     color: "from-amber-400 to-orange-400",
   },
   {
-    id: "how-1",
-    type: "guide",
-    icon: <Lightbulb className="w-5 h-5" />,
-    badge: "💡 사용 가이드",
-    title: "Travelline 시작하기",
-    desc: "여행 카드를 드래그&드롭으로 타임라인에 배치해보세요. 친구와 실시간 협업도 가능해요!",
-    tag: "튜토리얼",
-    color: "from-teal-400 to-cyan-400",
-  },
-  {
     id: "region-se-asia",
     type: "region",
-    icon: <MapPin className="w-5 h-5" />,
+    icon: <MapPin className="w-4 h-4" />,
     badge: "🌴 동남아시아",
     title: "동남아, 도시별로 계획하기",
     desc: "다낭·방콕·발리·나트랑·세부·푸꾸옥 등 20개 도시를 골라 일정으로",
@@ -57,22 +69,12 @@ const ROLLING_CARDS = [
   {
     id: "region-long-haul",
     type: "region",
-    icon: <Plane className="w-5 h-5" />,
+    icon: <Plane className="w-4 h-4" />,
     badge: "✈️ 이색·장거리",
     title: "이색·장거리, 도시별로 계획하기",
     desc: "괌·울란바토르부터 시작 — 파리 등 유럽 도시는 곧 추가돼요",
     tag: "장거리",
     color: "from-sky-400 to-blue-500",
-  },
-  {
-    id: "how-2",
-    type: "guide",
-    icon: <Star className="w-5 h-5" />,
-    badge: "💡 사용 가이드",
-    title: "실시간 협업으로 함께 계획하기",
-    desc: "링크 공유만으로 친구, 가족과 함께 여행 보드를 편집할 수 있어요.",
-    tag: "협업",
-    color: "from-violet-400 to-indigo-400",
   },
 ];
 
@@ -97,33 +99,33 @@ function RollingBanner() {
   return (
     <section className="w-full bg-white border-b border-slate-100">
         {/* 데스크탑 및 모바일 여백 조절 */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-4 md:pt-8 md:pb-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-4 pb-3 md:pt-5 md:pb-4">
         {/* 섹션 헤더 */}
-        <div className="flex items-center justify-between mb-5">
+        <div className="flex items-center justify-between mb-3">
           <div>
-            <h2 className="text-2xl font-bold text-slate-800 mb-1">즐거운 여행 떠나보세요</h2>
-            <p className="text-sm text-slate-400">여행지, 숙소, 투어 아이디어를 둘러보고 나만의 일정으로 담아보세요</p>
+            <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-0.5">즐거운 여행 떠나보세요</h2>
+            <p className="text-xs md:text-sm text-slate-400">여행지, 숙소, 투어 아이디어를 둘러보고 나만의 일정으로 담아보세요</p>
           </div>
         </div>
 
         {/* 데스크탑: 3칸 롤링 그리드 */}
-        <div className="hidden md:grid grid-cols-3 gap-5">
+        <div className="hidden md:grid grid-cols-3 gap-4">
           {desktopCards.map((card, i) => {
             const key = `${card.id}-${idx}-${i}`;
             const interactive = card.type === "guide";
-            const cls = `bg-gradient-to-br ${card.color} rounded-2xl p-5 text-white h-[140px] flex flex-col justify-between transition-all duration-200 animate-in fade-in duration-500 ${interactive ? "cursor-pointer hover:scale-[1.02] hover:shadow-lg" : ""}`;
+            const cls = `bg-gradient-to-br ${card.color} rounded-2xl px-4 py-3 text-white h-[110px] flex flex-col justify-between transition-all duration-200 animate-in fade-in duration-500 ${interactive ? "cursor-pointer hover:scale-[1.02] hover:shadow-lg" : ""}`;
             const content = (
               <>
                 <div className="flex items-start justify-between">
-                  <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                  <div className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-2.5 py-1 rounded-full text-[11px] font-bold">
                     {card.icon}
                     {card.badge}
                   </div>
-                  <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{card.tag}</span>
+                  <span className="text-[11px] font-bold bg-white/20 px-2 py-0.5 rounded-full">{card.tag}</span>
                 </div>
                 <div>
-                  <h3 className="text-base font-bold mb-1 line-clamp-1">{card.title}</h3>
-                  <p className="text-white/80 text-xs leading-relaxed line-clamp-2">{card.desc}</p>
+                  <h3 className="text-sm font-bold mb-0.5 line-clamp-1">{card.title}</h3>
+                  <p className="text-white/80 text-[11px] leading-snug line-clamp-2">{card.desc}</p>
                 </div>
               </>
             );
@@ -139,19 +141,19 @@ function RollingBanner() {
         <div className="md:hidden">
           {(() => {
             const interactive = mobileCard.type === "guide";
-            const cls = `bg-gradient-to-br ${mobileCard.color} rounded-2xl p-5 text-white h-[120px] flex flex-col justify-between animate-in fade-in duration-500 ${interactive ? "cursor-pointer" : ""}`;
+            const cls = `bg-gradient-to-br ${mobileCard.color} rounded-2xl px-4 py-3 text-white h-[100px] flex flex-col justify-between animate-in fade-in duration-500 ${interactive ? "cursor-pointer" : ""}`;
             const content = (
               <>
                 <div className="flex items-start justify-between">
-                  <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold">
+                  <div className="flex items-center gap-1.5 bg-white/20 backdrop-blur-sm px-2.5 py-1 rounded-full text-[11px] font-bold">
                     {mobileCard.icon}
                     {mobileCard.badge}
                   </div>
-                  <span className="text-xs font-bold bg-white/20 px-2.5 py-1 rounded-full">{mobileCard.tag}</span>
+                  <span className="text-[11px] font-bold bg-white/20 px-2 py-0.5 rounded-full">{mobileCard.tag}</span>
                 </div>
                 <div>
-                  <h3 className="text-base font-bold mb-1">{mobileCard.title}</h3>
-                  <p className="text-white/80 text-xs line-clamp-2">{mobileCard.desc}</p>
+                  <h3 className="text-sm font-bold mb-0.5 line-clamp-1">{mobileCard.title}</h3>
+                  <p className="text-white/80 text-[11px] leading-snug line-clamp-2">{mobileCard.desc}</p>
                 </div>
               </>
             );
@@ -162,7 +164,7 @@ function RollingBanner() {
             );
           })()}
           {/* 인디케이터 */}
-          <div className="flex justify-center gap-1.5 mt-3">
+          <div className="flex justify-center gap-1.5 mt-2">
             {ROLLING_CARDS.map((_, i) => (
               <button
                 key={i}
@@ -174,7 +176,7 @@ function RollingBanner() {
         </div>
 
         {/* 데스크탑 인디케이터 */}
-        <div className="hidden md:flex justify-center gap-1.5 mt-4">
+        <div className="hidden md:flex justify-center gap-1.5 mt-3">
           {ROLLING_CARDS.map((_, i) => (
             <button
               key={i}
@@ -297,17 +299,20 @@ export default function Dashboard() {
       {/* ② 광고 / 공유카드 롤링 배너 */}
       <RollingBanner />
 
-      {/* ③ 나의 여행 계획 */}
-      <main className="flex-1 max-w-6xl w-full mx-auto pt-4 pb-8 md:pt-6 md:pb-10 px-4 sm:px-6">
+      {/* ③ 커뮤니티 최신글 진입 섹션 */}
+      <CommunityHomeSection />
+
+      {/* ④ 나의 여행 계획 */}
+      <main className="flex-1 max-w-6xl w-full mx-auto pt-3 pb-6 md:pt-4 md:pb-7 px-4 sm:px-6">
         {user && (
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-3">
             <div>
-              <h2 className="text-2xl font-bold text-slate-800 mb-1">나의 여행 계획</h2>
-              <p className="text-sm text-slate-400">진행 중인 여행 계획을 확인하고 새로운 여행을 시작하세요.</p>
+              <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-0.5">나의 여행 계획</h2>
+              <p className="text-xs md:text-sm text-slate-400">진행 중인 여행 계획을 확인하고 새로운 여행을 시작하세요.</p>
             </div>
             <button
               onClick={() => setIsModalOpen(true)}
-              className="bg-slate-800 text-white px-5 py-2.5 rounded-xl font-bold flex items-center gap-2 hover:bg-slate-900 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:scale-95 text-sm"
+              className="bg-slate-800 text-white px-4 py-2 rounded-xl font-bold flex items-center gap-2 hover:bg-slate-900 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:scale-95 text-sm"
             >
               <Plus className="w-4 h-4" /> 새 여행 계획
             </button>
@@ -377,10 +382,10 @@ export default function Dashboard() {
 
         {/* 로그인 상태: 프로젝트 목록 */}
         {user && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {projectsLoading
               ? Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="h-[120px] md:h-[140px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
+                <div key={i} className="h-[100px] md:h-[120px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
               ))
               : (
                 <>
@@ -395,12 +400,12 @@ export default function Dashboard() {
                   ))}
                   <button
                     onClick={() => setIsModalOpen(true)}
-                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[120px] md:h-[140px]"
+                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[100px] md:h-[120px]"
                   >
-                    <div className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center mb-3 group-hover:bg-white group-hover:scale-110 transition-transform shadow-sm">
-                      <Plus className="w-6 h-6" />
+                    <div className="w-8 h-8 md:w-10 md:h-10 bg-slate-50 rounded-full flex items-center justify-center mb-1.5 group-hover:bg-white group-hover:scale-110 transition-transform shadow-sm">
+                      <Plus className="w-4 h-4 md:w-5 md:h-5" />
                     </div>
-                    <span className="font-bold text-sm">새로운 계획 만들기</span>
+                    <span className="font-bold text-xs md:text-sm">새로운 계획 만들기</span>
                   </button>
                 </>
               )}
