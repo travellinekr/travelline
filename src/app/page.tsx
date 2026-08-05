@@ -11,6 +11,7 @@ import { Project } from "@/types/project";
 import { supabase } from "@/lib/supabaseClient";
 import BetaPopup from "@/components/dashboard/BetaPopup";
 import CommunityHomeSection from "@/components/community/CommunityHomeSection";
+import LegalModal, { type LegalKind } from "@/components/legal/LegalModal";
 import { useAuth } from "@/hooks/useAuth";
 
 // ─── 롤링 배너 카드 데이터 ────────────────────────────────
@@ -192,6 +193,7 @@ function RollingBanner() {
 
 // ─── 푸터 컴포넌트 ────────────────────────────────────────
 function Footer() {
+  const [legalOpen, setLegalOpen] = useState<LegalKind | null>(null);
   return (
     <footer className="w-full border-t border-slate-100 bg-white mt-auto">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -200,16 +202,26 @@ function Footer() {
           <span className="font-extrabold text-slate-800 text-lg tracking-tight">Travelline</span>
           <p className="text-xs text-slate-400">© 2026 YoonTech. All rights reserved.</p>
         </div>
-        
-        {/* 간략한 정보 및 바로가기 */}
+
+        {/* 약관/방침 팝업 트리거 */}
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-xs font-medium text-slate-400">
-          <a href="#" className="hover:text-slate-600 transition-colors">이용약관</a>
-          <a href="#" className="hover:text-slate-600 transition-colors">개인정보처리방침</a>
-          <span className="hidden sm:inline text-slate-200">|</span>
-          <a href="#" className="hover:text-slate-600 transition-colors">고객문의</a>
-          <a href="#" className="hover:text-slate-600 transition-colors">contact@yoontech.kr</a>
+          <button
+            type="button"
+            onClick={() => setLegalOpen('terms')}
+            className="hover:text-slate-600 transition-colors"
+          >
+            이용약관
+          </button>
+          <button
+            type="button"
+            onClick={() => setLegalOpen('privacy')}
+            className="hover:text-slate-600 transition-colors"
+          >
+            개인정보처리방침
+          </button>
         </div>
       </div>
+      {legalOpen && <LegalModal kind={legalOpen} onClose={() => setLegalOpen(null)} />}
     </footer>
   );
 }
