@@ -2,16 +2,25 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { BOARD_LABEL, BOARD_BADGE, type CommunityPost, formatDate, shortAuthor } from './types';
+import { BOARD_LABEL, BOARD_BADGE, type CommunityPost } from './types';
 
+// 메인 페이지 커뮤니티 프리뷰 — 여행정보공유(info) · 여행후기(review) 각 최근 1건만 노출 (총 2건).
 export default function CommunityHomeSection() {
     const [posts, setPosts] = useState<CommunityPost[]>([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/api/community?limit=6')
-            .then(r => r.json())
-            .then(({ posts }) => setPosts(posts ?? []))
+        // 두 카테고리 병렬 fetch 후 최신 1건씩만 취합
+        Promise.all([
+            fetch('/api/community?type=info&limit=1').then(r => r.json()).catch(() => ({ posts: [] })),
+            fetch('/api/community?type=review&limit=1').then(r => r.json()).catch(() => ({ posts: [] })),
+        ])
+            .then(([info, review]) => {
+                const combined: CommunityPost[] = [];
+                if (info?.posts?.[0]) combined.push(info.posts[0]);
+                if (review?.posts?.[0]) combined.push(review.posts[0]);
+                setPosts(combined);
+            })
             .catch(() => setPosts([]))
             .finally(() => setLoading(false));
     }, []);
@@ -54,17 +63,12 @@ export default function CommunityHomeSection() {
                                             {post.country || post.city}
                                         </span>
                                     )}
-                                    <div className="flex-1 min-w-0">
-                                        <p className="text-sm font-medium text-slate-800 truncate">
-                                            {post.title}
-                                            {post.reply_count > 0 && (
-                                                <span className="ml-1.5 text-xs text-emerald-600">[{post.reply_count}]</span>
-                                            )}
-                                        </p>
-                                        <p className="text-[11px] text-slate-400 mt-0.5 truncate">
-                                            {shortAuthor(post.author_email)} · {formatDate(post.created_at)}
-                                        </p>
-                                    </div>
+                                    <p className="flex-1 min-w-0 text-sm font-medium text-slate-800 truncate">
+                                        {post.title}
+                                        {post.reply_count > 0 && (
+                                            <span className="ml-1.5 text-xs text-emerald-600">[{post.reply_count}]</span>
+                                        )}
+                                    </p>
                                 </Link>
                             </li>
                         ))}
