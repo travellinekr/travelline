@@ -1,8 +1,10 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
+import { useAuth } from '@/hooks/useAuth';
+import DeleteAccountConfirm from './DeleteAccountConfirm';
 
 export type LegalKind = 'terms' | 'privacy';
 
@@ -62,6 +64,36 @@ export default function LegalModal({ kind, onClose }: Props) {
 
     if (typeof window === 'undefined') return null;
     return createPortal(content, document.body);
+}
+
+// PrivacyBody 안 셀프 탈퇴 카드 — 로그인 사용자에게만 즉시 탈퇴 버튼 노출. 비로그인은 이메일 안내.
+function SelfDeleteCard() {
+    const { user } = useAuth();
+    const [confirmOpen, setConfirmOpen] = useState(false);
+    return (
+        <div className="mt-4 border border-red-100 bg-red-50/50 rounded-lg p-4">
+            <p className="text-sm font-semibold text-red-700 mb-1">회원 탈퇴</p>
+            {user ? (
+                <>
+                    <p className="text-xs text-slate-600 mb-3">
+                        본인 계정과 관련 데이터(여행 계획·게시글 등)를 즉시 삭제합니다. 삭제 후 복구할 수 없어요.
+                    </p>
+                    <button
+                        type="button"
+                        onClick={() => setConfirmOpen(true)}
+                        className="px-4 py-1.5 text-xs font-semibold text-white bg-red-500 hover:bg-red-600 rounded-md transition-colors"
+                    >
+                        지금 탈퇴하기
+                    </button>
+                    {confirmOpen && <DeleteAccountConfirm onCancel={() => setConfirmOpen(false)} />}
+                </>
+            ) : (
+                <p className="text-xs text-slate-600">
+                    비로그인 상태에서는 셀프 탈퇴가 불가합니다. 로그인 후 이 화면에서 진행하거나, <span className="font-mono">travelline.kr@gmail.com</span> 으로 요청해주세요.
+                </p>
+            )}
+        </div>
+    );
 }
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
@@ -186,8 +218,9 @@ function PrivacyBody() {
             <ul className="list-disc pl-5 space-y-1">
                 <li>열람 요청 — 계정 설정 화면 또는 이메일 요청</li>
                 <li>정정 요청 — 닉네임은 계정 설정에서 직접 수정 가능</li>
-                <li>삭제(탈퇴) 요청 — 이메일 요청으로 즉시 처리</li>
+                <li>삭제(탈퇴) 요청 — 아래 버튼으로 즉시 셀프 처리 또는 이메일 요청</li>
             </ul>
+            <SelfDeleteCard />
 
             <SectionTitle>8. 개인정보 보호책임자 및 문의</SectionTitle>
             <p>개인정보 관련 문의는 아래로 접수해 주세요.</p>
