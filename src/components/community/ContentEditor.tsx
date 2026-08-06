@@ -164,9 +164,23 @@ export default function ContentEditor({ initialContent, onChange, readonly = fal
                     padding-right: 8px !important;
                     min-height: 200px;
                 }
+                .community-editor-wrapper.readonly .ProseMirror {
+                    padding-left: 6px !important;
+                    padding-right: 6px !important;
+                    min-height: 0;
+                }
+                .community-editor-wrapper.readonly .bn-editor {
+                    padding-top: 0;
+                }
+                .community-editor-wrapper.readonly table tr:first-child td,
+                .community-editor-wrapper.readonly table tr:first-child th {
+                    background-color: #f0fdf4 !important;
+                    color: #166534 !important;
+                    font-weight: 700 !important;
+                }
             `}</style>
             <div
-                className="community-editor-wrapper"
+                className={`community-editor-wrapper${readonly ? ' readonly' : ''}`}
                 onMouseDown={(e) => {
                     const target = e.target as HTMLElement;
                     if (target.closest('.bn-formatting-toolbar')) e.preventDefault();
