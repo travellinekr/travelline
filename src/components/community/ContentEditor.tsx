@@ -191,6 +191,15 @@ export default function ContentEditor({ initialContent, onChange, readonly = fal
                     overflow-wrap: anywhere;
                     word-break: break-word;
                 }
+                /* 안전정보 2열 표: 구분은 약 8글자 폭, 내용은 나머지 폭을 사용한다. */
+                .community-editor-wrapper.readonly table tr > :first-child {
+                    width: 8em;
+                    min-width: 8em;
+                    max-width: 8em;
+                }
+                .community-editor-wrapper.readonly table tr > :nth-child(2) {
+                    width: auto;
+                }
                 .community-editor-wrapper.readonly table tr:first-child td,
                 .community-editor-wrapper.readonly table tr:first-child th {
                     background-color: #f0fdf4 !important;
