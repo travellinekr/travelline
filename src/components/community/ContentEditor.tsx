@@ -172,6 +172,25 @@ export default function ContentEditor({ initialContent, onChange, readonly = fal
                 .community-editor-wrapper.readonly .bn-editor {
                     padding-top: 0;
                 }
+                /* 읽기 화면: 표만 BlockNote 기본 여백으로 안쪽에 밀리지 않게 본문 폭에 맞춘다. */
+                .community-editor-wrapper.readonly .tableWrapper {
+                    width: 100% !important;
+                    padding: 0 !important;
+                    box-sizing: border-box;
+                }
+                .community-editor-wrapper.readonly .tableWrapper-inner,
+                .community-editor-wrapper.readonly table {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                }
+                .community-editor-wrapper.readonly table {
+                    table-layout: fixed;
+                }
+                .community-editor-wrapper.readonly td,
+                .community-editor-wrapper.readonly th {
+                    overflow-wrap: anywhere;
+                    word-break: break-word;
+                }
                 .community-editor-wrapper.readonly table tr:first-child td,
                 .community-editor-wrapper.readonly table tr:first-child th {
                     background-color: #f0fdf4 !important;
