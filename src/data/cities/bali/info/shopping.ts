@@ -296,6 +296,79 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EB%AF%B8%EB%83%91+%ED%94%8C%EB%A6%AC%EB%A7%88%EC%BC%93+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "발리 밀레니아 팩토리 아울렛": {
+        photos: ["/images/bali/info/shopping/bali-millenia-factory-outlet.jpg"],
+        summary: "저렴한 가격과 편리한 쇼핑 환경을 제공하는 아울렛입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["저렴한 가격", "편리한 쇼핑", "좋은 품질"],
+        tips: ["가성비 좋은 쇼핑", "편리한 위치"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=197855115704330507", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%9C%EB%A6%AC+%EB%B0%80%EB%A0%88%EB%8B%88%EC%95%84+%ED%8C%A9%ED%86%A0%EB%A6%AC+%EC%95%84%EC%9A%B8%EB%A0%9B+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오리지널 서프 아울렛 (OSO)": {
+        photos: ["/images/bali/info/shopping/original-surf-outlet-oso-store-bali.jpg"],
+        summary: "다양한 상품 구성과 저렴한 가격으로 재방문율이 높은 아울렛입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["다양한 상품", "저렴한 가격", "높은 재방문율"],
+        tips: ["사이즈 재고 확인", "다양한 상품 탐색"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:30 ~ 오후 10:00; 화요일: 오전 8:30 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1337749957911794704", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90+%EC%84%9C%ED%94%84+%EC%95%84%EC%9A%B8%EB%A0%9B+%28OSO%29+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "발리 듀티 프리 (Dufry)": {
+        photos: ["/images/bali/info/shopping/bali-duty-free-by-dufry.jpg"],
+        summary: "공항 내 위치하여 다양한 기념품과 초콜릿, 향수 등을 구매할 수 있는 면세점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["공항 내 위치", "다양한 기념품", "친절한 직원"],
+        tips: ["할인 혜택 확인", "기념품 구매"],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://bali.shopdutyfree.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5676622273430935618", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%9C%EB%A6%AC+%EB%93%80%ED%8B%B0+%ED%94%84%EB%A6%AC+%28Dufry%29+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "DFS 발리 에어포트": {
+        photos: ["/images/bali/info/shopping/dfs-bali-airport.jpg"],
+        summary: "공항 내 위치한 주요 면세점으로 이용객이 많은 곳입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["공항 내 위치", "주요 면세점", "쾌적한 환경"],
+        tips: ["정품 확인", "쇼핑 리스트 준비"],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 5:00 ~ 오전 1:00; 화요일: 오전 5:00 ~ 오전 1:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.dfs.com/en/bali/stores/dfs-bali-ngurah-rai-international-airport?utm_source=google-maps&utm_medium=organic", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12262717155818042552", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=DFS+%EB%B0%9C%EB%A6%AC+%EC%97%90%EC%96%B4%ED%8F%AC%ED%8A%B8+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 케랑장 발리": {
+        photos: ["/images/bali/info/shopping/the-keranjang-bali.jpg"],
+        summary: "매우 높은 평점을 보유한 발리의 대표적인 기념품 전문점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["독특한 기념품", "대규모 매장", "다양한 상품"],
+        tips: ["3층 매장 탐색", "기념품 쇼핑"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://thekeranjangbali.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16207318227159565426", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%BC%80%EB%9E%91%EC%9E%A5+%EB%B0%9C%EB%A6%AC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;
