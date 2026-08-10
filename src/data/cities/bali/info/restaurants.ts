@@ -505,6 +505,140 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%8C%EC%9A%B8+%EC%9D%B8+%EC%96%B4+%EB%B3%BC+%EC%82%AC%EB%88%84%EB%A5%B4+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "서울 소울 프로젝트": {
+        photos: ["/images/bali/info/restaurants/seoul-soul-project.jpg"],
+        summary: "떡볶이와 제육볶음 등 한국의 옛 맛을 느낄 수 있는 곳입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["포장마차 스타일 떡볶이", "제육볶음", "KFC 치킨"],
+        tips: ["비빔밥 고기 선택 가능", "직접 만든 김치"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오전 2:00; 화요일: 오전 11:00 ~ 오전 2:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://instagram.com/seoulsoulproject/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3156755933826949360", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8+%EC%86%8C%EC%9A%B8+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마리당": {
+        photos: ["/images/bali/info/restaurants/maridang-korean-cuisine.jpg"],
+        summary: "높은 평점과 친절한 서비스를 제공하는 한식 전문점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["정통 한국 음식", "친절한 서비스", "높은 재방문 의사"],
+        tips: ["한국 음식이 생각날 때 방문", "사장님이 친절함"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5488120888148092279", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A6%AC%EB%8B%B9+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비빔밥 레스토랑 - 쿠타": {
+        photos: ["/images/bali/info/restaurants/bibimbap-restaurant-kuta.jpg"],
+        summary: "삼겹살, 순두부찌개 등 다양한 한식을 제공하는 쿠타의 맛집입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["다양한 한식 메뉴", "친절한 직원", "깔끔한 매장"],
+        tips: ["반찬 리필 가능", "삼겹살과 순두부찌개 추천"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 12:00 ~ 오전 12:00; 화요일: 오후 12:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10657751219847436147", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84%EB%B9%94%EB%B0%A5+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91+-+%EC%BF%A0%ED%83%80+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Rayjin Teppanyaki": {
+        photos: ["/images/bali/info/restaurants/rayjin-teppanyaki.jpg"],
+        summary: "훌륭한 음식과 분위기를 갖춘 테판야끼 전문점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["테판야끼 경험", "치킨 난반", "멜티크 스테이크"],
+        tips: ["치킨 난반 추천", "멜티크 스테이크 추천"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "일본식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 12:00~10:00; 화요일: 오후 12:00~10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://kaminarigroup.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3216255476085524256", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Rayjin+Teppanyaki+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Tsune Japanese Restaurant Sanur": {
+        photos: ["/images/bali/info/restaurants/tsune-japanese-restaurant-sanur-by-wonderspace.jpg"],
+        summary: "음식과 분위기에 대한 만족도가 높은 일본식 레스토랑입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["맛있는 음식", "따뜻한 분위기", "높은 만족도"],
+        tips: ["분위기 좋은 곳", "추천 레스토랑"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "일본식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://thewonderspace.com/tsunesanur/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profileTsune_Sanur", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14458588880120110853", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tsune+Japanese+Restaurant+Sanur+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Takumi 匠 Japanese Fine Dining": {
+        photos: ["/images/bali/info/restaurants/takumi-japanese-fine-dining.jpg"],
+        summary: "신선한 재료를 사용하는 정통 일본식 파인 다이닝입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["최고의 오마카세", "신선한 재료", "정통 일본 음식"],
+        tips: ["오마카세 추천", "신선한 재료 확인"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "일본식 파인 다이닝", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://takumibali.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9872434452779801191", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Takumi+%E5%8C%A0+Japanese+Fine+Dining+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Wong Fei Hung Sunset": {
+        photos: ["/images/bali/info/restaurants/wong-fei-hung-sunset-hong-kong-cuisine-bbq-dim-sum-sunset.jpg"],
+        summary: "맛있는 음식과 서비스를 제공하는 홍콩 요리 전문점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["홍콩식 BBQ", "딤섬", "맛있는 음식"],
+        tips: ["바비(BBQ) 메뉴 추천", "인기 메뉴 확인"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "홍콩식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://lynk.id/wfhsunset", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1836544053682003518", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Wong+Fei+Hung+Sunset+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Fu House | Seminyak": {
+        photos: ["/images/bali/info/restaurants/fu-house-seminyak.jpg"],
+        summary: "세렝겟에서 꼭 가봐야 할 맛있는 퓨전 요리 전문점입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["훌륭한 음식", "친절한 서비스", "멋진 인테리어"],
+        tips: ["세렝겟 방문 시 추천", "친절한 직원"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "퓨전", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 6:00 ~ 오전 12:00; 화요일: 오후 6:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.fuhousebali.com/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4959728084946833852", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Fu+House+%7C+Seminyak+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

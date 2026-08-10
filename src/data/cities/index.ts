@@ -21,7 +21,7 @@ export type AccommodationData = {
 // 맛집
 export type RestaurantType =
     | 'korean' | 'japanese' | 'chinese' | 'western' | 'italian'
-    | 'french' | 'cafe' | 'street-food' | 'fusion' | 'local';
+    | 'french' | 'cafe' | 'street-food' | 'fusion' | 'local' | 'seafood';
 
 export type RestaurantData = {
     name: string;

@@ -432,6 +432,114 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Zahra%20Spa%20Nusa%20Dua&query_place_id=ChIJWyomITtD0i0RvhGZyTEFy8Q", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%88%84%EC%82%AC%EB%91%90%EC%95%84%20%EC%8A%A4%ED%8C%8C%20%EB%B0%9C%EB%A6%AC%20%EB%B0%9C%EB%A6%AC%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "트랜스 스튜디오 테마파크 발리": {
+        photos: ["/images/bali/info/tourSpa/trans-studio-theme-park-bali.jpg"],
+        summary: "다양한 즐길 거리가 가득한 발리의 대표적인 테마파크입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["Cinema XXI 서비스", "대형 테마파크", "다양한 어트랙션"],
+        tips: ["주말에는 운영 시간이 연장됩니다."],
+        hours: "월요일: 오전 11:00 ~ 오후 6:00; 화요일: 오전 11:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Imam Bonjol No.440, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.transstudiobali.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1394065596085709344", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%9E%9C%EC%8A%A4+%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4+%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC+%EB%B0%9C%EB%A6%AC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "발리 워터 스포츠 탄중 베노아": {
+        photos: ["/images/bali/info/tourSpa/bali-water-sport-tanjung-benoa.jpg"],
+        summary: "다양한 수상 스포츠를 저렴하고 즐겁게 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["수상 스포츠", "친절한 서비스", "다양한 액티비티"],
+        tips: ["적극 추천하는 액티비티 명소입니다."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Pratama, Tj. Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80361 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.bali-watersport.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5379923272918002207", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%9C%EB%A6%AC+%EC%9B%8C%ED%84%B0+%EC%8A%A4%ED%8F%AC%EC%B8%A0+%ED%83%84%EC%A4%91+%EB%B2%A0%EB%85%B8%EC%95%84+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세가라 워터스포츠 발리": {
+        photos: ["/images/bali/info/tourSpa/segara-watersports-bali-nusa-dua.jpg"],
+        summary: "패러세일링, 도넛 보트, 제트스키 등 다양한 액티비티를 제공합니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["패러세일링", "도넛 보트", "제트스키"],
+        tips: ["액티비티 전 설명을 잘 들어보세요."],
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Segara Samuh, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80361 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://segarawatersportsbali.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1190893961065355949", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EA%B0%80%EB%9D%BC+%EC%9B%8C%ED%84%B0%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EB%B0%9C%EB%A6%AC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "데브단 쇼": {
+        photos: ["/images/bali/info/tourSpa/devdan-show-at-bali-nusa-dua-theatre.jpg"],
+        summary: "모든 연령대가 즐길 수 있는 화려하고 매력적인 문화 공연입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["인도네시아 문화", "화려한 퍼포먼스", "가족 친화적"],
+        tips: ["예상보다 훨씬 더 멋진 공연입니다."],
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Komplek, Jl. ITDC Nusa Dua, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80363 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.devdanshow.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7939409943856507395", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%B0%EB%B8%8C%EB%8B%A8+%EC%87%BC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "케착 & 피르 댄스": {
+        photos: ["/images/bali/info/tourSpa/da39a3ee5e6b.jpg"],
+        summary: "전통 케착 노래와 화려한 불춤을 감상할 수 있는 특별한 공연입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["케착 댄스", "불춤 공연", "전통 문화"],
+        tips: ["발리 문화를 느끼기에 완벽한 공연입니다."],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Suweta No.32, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://ablink.ma.linktr.ee/ls/click?upn=u001.AqkInIYcuLwsVomnGFXy6TGE7uwOcWF9rhuDBYqpOWVN3vaqfkF8AUzVGzCQy7bQtOeK4PHxgsRXsQuiXQKzIKLKhxJgEAgktXI6W136YY8KJYHBZVO7yxvykG0a-2B5i6LTjwfhScbFErlgWaIQhRIAFxbgRb4WL9GZBlo1ExsUOkvwPtHD7wDYUCjGQAE-2FwvUe2x7528wiei8aq-2FFB6GbJqARsUn5UCLKWpsNb9alhickqtotC7Xs66NgRqo7aeUX1WlZuGcUJFPA32BiFKwybP1luLaeKX7fixwbrwtM49CiY8XW0hwgGZjbmy6iMWU7TVs_8SXrxLs7NjyqB2ha80MhIECC0DR-2BpcUtCjVIYlsl0m7Ow5Eqho3-2FPWe2fr2F4adom-2BX2HzEGGzu22HSv9uWqkubomAdz8ewQ8-2Fj0gCyiOt6vW1q4eV3OqmQumj5fB9-2BGBzS3Lm7wD13a9tAtv0w00LOe-2FF7aYttZBkbPFn0-2BgkcRoMXgcTLEY5s0NAtXNQciR-2BazwAqWJggxW5v9pOrgKu85qLawElNN6xYZN-2FFiBge-2FOH8MEU1F3KWo8PuQwC8sFgz6-2FWgMUBYKAxS9Gx3le2n6HPenmggdxBKQFsD-2B-2FsT-2FECo0LOw3Nb6I22EWYHU38PDwWhWSy4k2FPvHVQJ-2FNsBaDVN-2B1zatyTd8N2MbAgUX96NFdxsA1qmH4e8QxbUF713378jXlqynK0h66E8uNNNgJ2OReJGLgHG9-2FP0sgbWowY4uxUXQrRmamamkEdLM2Ui9tSICDGCfRQFRvyzAvGKUfbgCKEzZCF9rBcM7jMLQJlZEunqF0wuW9xLpeZtf-2BVDZ4JjbUaMX7S4xcqGlsNv2dd1B-2Bq8TgZUPoED1FABqYiDQQWVnJn7STmtOnHAJyHRFdK1mBv1AIg-2FijYkyUC4bO5JQ717i2l04Yan-2FH-2FgGEUXuM5OFh9-2FfvNdMDtvRTDmIwxYBfYzjrGtS7jsHltbeGHJ75LBxd3To1sw2S8u4KDEX0AAcob4qKf0Y5Rw0fcHk-2Fy-2FN8KycXmZ9cATUPo5VCRX7iSXL6gEBSSpaXP8-3D", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8854678620401481050", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BC%80%EC%B0%A9+%26+%ED%94%BC%EB%A5%B4+%EB%8C%84%EC%8A%A4+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "케투트 발리 쿠킹 클래스": {
+        photos: ["/images/bali/info/tourSpa/ketuts-bali-cooking-class.jpg"],
+        summary: "셰프와 함께 다양한 요리를 직접 만들고 맛볼 수 있는 클래스입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["요리 클래스", "가족 친화적", "직접 요리하기"],
+        tips: ["아이와 함께 참여하기 매우 좋습니다."],
+        hours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: false, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jalan Laplapan Banjar Laplapan Ubud, Pejeng Kawan, Kec. Tampaksiring, Kabupaten Gianyar, Bali 80571 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.ketutsbalicookingclass.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12009776288027628322", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BC%80%ED%88%AC%ED%8A%B8+%EB%B0%9C%EB%A6%AC+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

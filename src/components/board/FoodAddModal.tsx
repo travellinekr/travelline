@@ -3,8 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { X, Search, MapPin, Loader2 } from 'lucide-react';
-
-type RestaurantType = 'korean' | 'japanese' | 'chinese' | 'western' | 'seafood' | 'cafe' | 'local';
+import type { RestaurantType } from '@/data/cities';
 
 interface Place {
     id: string;
@@ -473,6 +472,10 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                             <option value="japanese">일식</option>
                             <option value="chinese">중식</option>
                             <option value="western">양식</option>
+                            <option value="italian">이탈리안</option>
+                            <option value="french">프렌치</option>
+                            <option value="street-food">길거리음식</option>
+                            <option value="fusion">퓨전</option>
                             <option value="seafood">해산물</option>
                             <option value="cafe">카페</option>
                         </select>

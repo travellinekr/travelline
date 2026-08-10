@@ -338,6 +338,141 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%98%EB%9E%98%EB%93%9C+%EB%B0%9C%EB%A6%AC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "벨라자르 발리 부티크 호텔": {
+        photos: ["/images/bali/info/accommodations/belajar-bali-boutique-hotel-retreat.jpg"],
+        summary: "친절한 서비스와 훌륭한 편의시설을 갖춘 평화로운 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["아름다운 공용 공간", "친절한 직원 서비스", "도보 거리의 다양한 편의시설"],
+        tips: ["수영장에서 칵테일을 즐겨보세요", "주변에 카페와 레스토랑이 많습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Pantai Batu Bolong Gg. Bulan No.4, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아" }],
+        location: { landmark: "Jl. Pantai Batu Bolong Gg. Bulan No.4, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.belajarbali.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6046950790827036020", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A8%EB%9D%BC%EC%9E%90%EB%A5%B4+%EB%B0%9C%EB%A6%AC+%EB%B6%80%ED%8B%B0%ED%81%AC+%ED%98%B8%ED%85%94+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마이사 부티크 호텔 발리": {
+        photos: ["/images/bali/info/accommodations/mysa-boutique-hotel-bali.jpg"],
+        summary: "깨끗하고 아름다운 디자인의 객실과 멋진 수영장을 보유하고 있습니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["세심한 고객 서비스", "아름다운 객실 디자인", "편리한 스미냑 위치"],
+        tips: ["시티뷰를 원하시면 2층 객실을 예약하세요", "해변에서 일몰을 감상해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Gg. Mekar Sari No.1, Kerobokan Kelod, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아" }],
+        location: { landmark: "Gg. Mekar Sari No.1, Kerobokan Kelod, Kec. Kuta Utara, Kabupaten Badung, Bali 80361 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mysaboutiquehotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4028300019185849871", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4%EC%82%AC+%EB%B6%80%ED%8B%B0%ED%81%AC+%ED%98%B8%ED%85%94+%EB%B0%9C%EB%A6%AC+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Holl Villa": {
+        photos: ["/images/bali/info/accommodations/holl-villa-family-two-bedroom-private-pool-villa-in-legian.jpg"],
+        summary: "높은 평점을 자랑하는 아늑한 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["프라이빗 풀", "가족 친화적", "레기안 위치"],
+        tips: ["가족 여행객에게 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Kresna No.89, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아" }],
+        location: { landmark: "Jl. Kresna No.89, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.hollvilla.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6794298096750867716", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Holl+Villa+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Asvara Villa Keliki": {
+        photos: ["/images/bali/info/accommodations/asvara-villa-keliki-by-ini-vie-hospitality.jpg"],
+        summary: "매우 높은 평점과 많은 리뷰로 검증된 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["친절한 직원", "깔끔한 객실", "우붓 위치"],
+        tips: ["전문적인 마사지 서비스를 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Bangkiang Sidem No.88 A, Keliki, Kec. Tegallalang, Kabupaten Gianyar, Bali 80571 인도네시아" }],
+        location: { landmark: "Jl. Bangkiang Sidem No.88 A, Keliki, Kec. Tegallalang, Kabupaten Gianyar, Bali 80571 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://inivie.com/asvaravilla/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5146888517557127826", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Asvara+Villa+Keliki+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Lushy Hostels": {
+        photos: ["/images/bali/info/accommodations/lushy-hostels.jpg"],
+        summary: "친절한 직원들과 활기찬 분위기를 느낄 수 있는 곳입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["활기찬 분위기", "친절한 직원", "Pererenan 위치"],
+        tips: ["새로운 사람들을 만나기에 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Munduk Tengah Br. Pengembungan No.11B, Pererenan, Kec. Mengwi, Kabupaten Badung, Bali 80351 인도네시아" }],
+        location: { landmark: "Jl. Munduk Tengah Br. Pengembungan No.11B, Pererenan, Kec. Mengwi, Kabupaten Badung, Bali 80351 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://lushyhostels.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12381541493516624792", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Lushy+Hostels+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Best Canggu Hostel": {
+        photos: ["/images/bali/info/accommodations/best-canggu-hostel.jpg"],
+        summary: "가족 같은 분위기와 즐거운 밤을 선사하는 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["홈메이드 같은 편안함", "즐거운 밤 분위기", "짱구 위치"],
+        tips: ["빌리어드 테이블을 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Kayu Tulang Perum Puri Sambandha No.A12, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80351 인도네시아" }],
+        location: { landmark: "Jl. Kayu Tulang Perum Puri Sambandha No.A12, Canggu, Kec. Kuta Utara, Kabupaten Badung, Bali 80351 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://bestcangguhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4480437897298579399", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Best+Canggu+Hostel+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Mulia Villas - Nusa Dua": {
+        photos: ["/images/bali/info/accommodations/mulia-villas-nusa-dua-bali.jpg"],
+        summary: "대규모 리뷰가 증명하는 아름답고 훌륭한 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["고급스러운 시설", "누사두아 위치", "높은 평점"],
+        tips: ["고급스러운 휴식을 원하는 분께 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Kawasan Sawangan, Jl. Raya Nusa Dua Selatan Jl. Nusa Dua, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80362 인도네시아" }],
+        location: { landmark: "Kawasan Sawangan, Jl. Raya Nusa Dua Selatan Jl. Nusa Dua, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali 80362 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.themulia.com/bali/mulia-villas", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1247377783062948653", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Mulia+Villas+-+Nusa+Dua+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Bali Komang Guest House Sanur": {
+        photos: ["/images/bali/info/accommodations/bali-komang-guest-house-sanur.jpg"],
+        summary: "친절한 서비스와 깨끗한 시설을 갖춘 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-10",
+        highlights: ["아름다운 정원", "멋진 수영장", "친절한 직원"],
+        tips: ["스쿠터를 빌려 이동하면 편리합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Sekuta Gg. Bambu, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80228 인도네시아" }],
+        location: { landmark: "Jl. Sekuta Gg. Bambu, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80228 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15046116156861954490", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Bali+Komang+Guest+House+Sanur+%EB%B0%9C%EB%A6%AC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

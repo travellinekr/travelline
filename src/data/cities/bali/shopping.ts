@@ -302,6 +302,81 @@ const shopping: ShoppingData[] = [
         features: ["의류, 액세서리, 기념품", "평점 3.7", "발리 여행 동선에 넣기 좋음"],
         icon: "🛍️"
     },
+    {
+        name: "발리 밀레니아 팩토리 아울렛",
+        showInInbox: true,
+        hasInfo: true,
+        type: "outlet",
+        city: "Bali",
+        coordinates: { lat: -8.644780299999999, lng: 115.1584993 },
+        category: "의류",
+        specialItems: "의류",
+        priceRange: "현지 가격 확인",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: false,
+        features: ["저렴한 가격", "편리한 쇼핑", "좋은 품질"],
+        icon: "🛍️"
+    },
+    {
+        name: "오리지널 서프 아울렛 (OSO)",
+        showInInbox: true,
+        hasInfo: true,
+        type: "outlet",
+        city: "Bali",
+        coordinates: { lat: -8.728099, lng: 115.1795383 },
+        category: "서프웨어",
+        specialItems: "서프웨어",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 8:30 ~ 오후 10:00; 화요일: 오전 8:30 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["다양한 상품", "저렴한 가격", "높은 재방문율"],
+        icon: "🏄"
+    },
+    {
+        name: "발리 듀티 프리 (Dufry)",
+        showInInbox: true,
+        hasInfo: true,
+        type: "duty-free",
+        city: "Bali",
+        coordinates: { lat: -8.7447353, lng: 115.1677836 },
+        category: "기념품",
+        specialItems: "기념품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        taxRefund: true,
+        features: ["공항 내 위치", "다양한 기념품", "친절한 직원"],
+        icon: "✈️"
+    },
+    {
+        name: "DFS 발리 에어포트",
+        showInInbox: true,
+        hasInfo: true,
+        type: "duty-free",
+        city: "Bali",
+        coordinates: { lat: -8.7469746, lng: 115.1668057 },
+        category: "면세품",
+        specialItems: "면세품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 5:00 ~ 오전 1:00; 화요일: 오전 5:00 ~ 오전 1:00",
+        taxRefund: true,
+        features: ["공항 내 위치", "주요 면세점", "쾌적한 환경"],
+        icon: "🛂"
+    },
+    {
+        name: "더 케랑장 발리",
+        showInInbox: true,
+        hasInfo: true,
+        type: "souvenir",
+        city: "Bali",
+        coordinates: { lat: -8.7317862, lng: 115.1780003 },
+        category: "기념품",
+        specialItems: "기념품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        taxRefund: false,
+        features: ["독특한 기념품", "대규모 매장", "다양한 상품"],
+        icon: "🎁"
+    }
 ];
 
 export default shopping;
