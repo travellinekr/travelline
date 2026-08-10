@@ -21,6 +21,7 @@ const FOOD_TYPE_GROUPS: Array<{ value: string; label: string; types: RestaurantT
     { value: 'korean', label: '한식', types: ['korean'] },
     { value: 'japanese', label: '일식', types: ['japanese'] },
     { value: 'western', label: '양식', types: ['western', 'italian', 'french'] },
+    { value: 'seafood', label: '해산물', types: ['seafood'] },
     { value: 'cafe', label: '카페', types: ['cafe'] },
     { value: 'local', label: '로컬·길거리', types: ['local', 'street-food'] },
     { value: 'other', label: '기타', types: ['chinese', 'fusion'] },
