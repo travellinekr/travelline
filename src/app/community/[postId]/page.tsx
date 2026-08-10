@@ -48,20 +48,24 @@ export default function CommunityPostPage({ params }: { params: Promise<{ postId
     const [editingReplyId, setEditingReplyId] = useState<string | null>(null);
     const [editReplyContent, setEditReplyContent] = useState('');
 
+    // 본문과 답변을 병렬로 시작하되 각각 독립 렌더 — 본문이 먼저 오면 즉시 표시, 답변은 나중에 붙음.
     useEffect(() => {
         setLoading(true);
         setError(null);
-        Promise.all([
-            fetch(`/api/community/${postId}`).then(r => r.json()),
-            fetch(`/api/community/${postId}/replies`).then(r => r.json()),
-        ])
-            .then(([postRes, repliesRes]) => {
+        // 본문 fetch — 오면 즉시 loading=false
+        fetch(`/api/community/${postId}`)
+            .then(r => r.json())
+            .then(postRes => {
                 if (postRes.error) throw new Error(postRes.error);
                 setPost(postRes.post);
-                setReplies(repliesRes.replies ?? []);
             })
             .catch(e => setError(e?.message ?? '불러오지 못했어요.'))
             .finally(() => setLoading(false));
+        // 답변 fetch — 별도 진행. 실패해도 본문 표시엔 영향 없음.
+        fetch(`/api/community/${postId}/replies`)
+            .then(r => r.json())
+            .then(repliesRes => setReplies(repliesRes.replies ?? []))
+            .catch(() => setReplies([]));
     }, [postId]);
 
     const getToken = async (): Promise<string | null> => {
@@ -72,7 +76,7 @@ export default function CommunityPostPage({ params }: { params: Promise<{ postId
     const startEditPost = () => {
         if (!post) return;
         setEditTitle(post.title);
-        setEditContent(post.content);
+        setEditContent(post.content ?? '');
         setEditingPost(true);
     };
 
@@ -222,12 +226,12 @@ export default function CommunityPostPage({ params }: { params: Promise<{ postId
                                         <span>·</span>
                                         <span>조회 {post.view_count}</span>
                                     </div>
-                                    {isBlockJson(post.content) ? (
+                                    {isBlockJson(post.content ?? '') ? (
                                         <div className="text-sm text-slate-700 leading-relaxed -mx-2">
-                                            <ContentEditor initialContent={post.content} readonly />
+                                            <ContentEditor initialContent={post.content ?? ''} readonly />
                                         </div>
                                     ) : (
-                                        <div className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed">{post.content}</div>
+                                        <div className="text-sm text-slate-700 whitespace-pre-wrap leading-relaxed">{post.content ?? ''}</div>
                                     )}
                                     {(canEditPost || canDeletePost) && (
                                         <div className="flex justify-end gap-2 mt-4 pt-3 border-t border-slate-100">

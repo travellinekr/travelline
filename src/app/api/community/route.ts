@@ -27,9 +27,11 @@ export async function GET(request: NextRequest) {
     const from = (page - 1) * limit;
     const to = from + limit - 1;
 
+    // 목록에는 content 제외 (본문은 상세에서만 로드) → 페이로드 대폭 축소
+    // count: 'estimated' 로 별도 COUNT 쿼리 오버헤드 제거 (Load More 방식이라 근사치로 충분)
     let query = admin
         .from('community_posts')
-        .select('id, post_number, board_type, country, city, title, content, author_id, author_email, view_count, reply_count, created_at, updated_at', { count: 'exact' })
+        .select('id, post_number, board_type, country, city, title, author_id, author_email, view_count, reply_count, created_at, updated_at', { count: 'estimated' })
         .order('created_at', { ascending: false })
         .range(from, to);
 
@@ -57,7 +59,16 @@ export async function GET(request: NextRequest) {
     const { data, error, count } = await query;
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-    return NextResponse.json({ posts: data ?? [], total: count ?? 0, page, limit });
+    // stale-while-revalidate: 재진입 시 이전 응답 즉시 표시 + 백그라운드 갱신 (30초).
+    // inquiry(비공개) 는 개인화 응답이라 private, 그 외는 캐시 공유 가능.
+    const cacheHeader = type === 'inquiry'
+        ? 'private, max-age=0, stale-while-revalidate=30'
+        : 'public, max-age=0, stale-while-revalidate=30';
+
+    return NextResponse.json(
+        { posts: data ?? [], total: count ?? 0, page, limit },
+        { headers: { 'Cache-Control': cacheHeader } }
+    );
 }
 
 // POST /api/community { board_type, country?, city?, title, content }

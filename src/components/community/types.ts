@@ -35,7 +35,7 @@ export interface CommunityPost {
     country: string | null;
     city: string | null;
     title: string;
-    content: string;
+    content?: string; // 목록 API 응답에서는 미포함 (상세 API 에서만 반환)
     author_id: string | null;
     author_email: string;
     view_count: number;

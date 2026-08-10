@@ -43,6 +43,7 @@ function CommunityPageInner() {
     const [posts, setPosts] = useState<CommunityPost[]>([]);
     const [total, setTotal] = useState(0);
     const [loading, setLoading] = useState(true);
+    const [hasFetchedOnce, setHasFetchedOnce] = useState(false); // 첫 fetch 완료 후 true — 이후에는 이전 리스트 유지 (SWR 스타일)
     const [error, setError] = useState<string | null>(null);
     // 검색어 — 로컬 state + debounce 300ms 로 서버 fetch 트리거
     const [searchText, setSearchText] = useState('');
@@ -111,6 +112,7 @@ function CommunityPageInner() {
                 setError(e?.message ?? '목록을 불러오지 못했어요.');
             } finally {
                 setLoading(false);
+                setHasFetchedOnce(true);
             }
         })();
     }, [activeTab, page, isInquiryTab, isNoticeTab, user, cityFilter, countryFilter, searchQuery]);
@@ -334,16 +336,16 @@ function CommunityPageInner() {
                     )}
                 </div>
 
-                {/* 목록 */}
+                {/* 목록 — 첫 로드 전에만 스피너, 이후 재조회는 이전 리스트 유지 + opacity 로 미묘하게 표시 (SWR 톤) */}
                 <div className="bg-white border border-slate-200 rounded-xl overflow-hidden">
-                    {loading ? (
+                    {loading && !hasFetchedOnce ? (
                         <div className="p-8 text-center text-sm text-slate-400">불러오는 중...</div>
                     ) : error ? (
                         <div className="p-8 text-center text-sm text-red-500">{error}</div>
                     ) : posts.length === 0 ? (
                         <div className="p-8 text-center text-sm text-slate-400">아직 등록된 글이 없어요.</div>
                     ) : (
-                        <ul className="divide-y divide-slate-100">
+                        <ul className={`divide-y divide-slate-100 transition-opacity ${loading ? 'opacity-60' : 'opacity-100'}`}>
                             {posts.map(post => (
                                 <li key={post.id}>
                                     <Link
