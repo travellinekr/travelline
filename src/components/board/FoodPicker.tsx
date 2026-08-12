@@ -220,14 +220,14 @@ export function FoodPicker({
                 isAnchor: true,
             });
         }
-        sampleRestaurants.forEach((r: any, i: number) => {
+        filteredSample.forEach((r: any, i: number) => {
             if (r.coordinates) markers.push({ id: `sample-${i}-${r.name}`, title: r.name, coordinates: r.coordinates });
         });
-        sortedCreatedCards.forEach((c: any) => {
+        filteredCreated.forEach((c: any) => {
             if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
         });
         return markers;
-    }, [anchorCard, sampleRestaurants, sortedCreatedCards]);
+    }, [anchorCard, filteredSample, filteredCreated]);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">
