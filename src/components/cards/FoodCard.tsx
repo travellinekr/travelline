@@ -3,21 +3,7 @@ import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
-
-// 음식 타입별 한글 레이블
-const RESTAURANT_TYPE_LABELS: Record<string, string> = {
-    korean: '한식',
-    japanese: '일식',
-    chinese: '중식',
-    western: '양식',
-    italian: '이탈리안',
-    french: '프렌치',
-    cafe: '카페',
-    'street-food': '길거리음식',
-    fusion: '퓨전',
-    local: '현지음식',
-    seafood: '해산물',
-};
+import { getCardSubcategoryLabel } from "@/utils/cardSubcategoryLabels";
 
 // 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
 const RESTAURANT_TYPE_ICONS: Record<string, string> = {
@@ -51,9 +37,7 @@ function checkHasNotes(notes: any): boolean {
 
 export function FoodCard({ card, variant, ...props }: CommonCardProps) {
     const restaurantName = card.text || card.title || "식당 이름";
-    const category = card.restaurantType
-        ? RESTAURANT_TYPE_LABELS[card.restaurantType] || card.restaurantType
-        : "Food";
+    const category = getCardSubcategoryLabel('food', card.restaurantType);
     const displayIcon = card.icon || (card.restaurantType && RESTAURANT_TYPE_ICONS[card.restaurantType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 

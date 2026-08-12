@@ -3,13 +3,7 @@ import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
-
-const SHOPPING_TYPE_LABELS: Record<string, string> = {
-    'department-store': '백화점', 'mall': '쇼핑몰', 'market': '재래시장',
-    'outlet': '아울렛', 'duty-free': '면세점', 'convenience': '편의점',
-    'supermarket': '슈퍼마켓', 'specialty': '전문점', 'boutique': '부티크',
-    'souvenir': '기념품점',
-};
+import { getCardSubcategoryLabel } from "@/utils/cardSubcategoryLabels";
 
 // 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
 const SHOPPING_TYPE_ICONS: Record<string, string> = {
@@ -33,9 +27,7 @@ function checkHasNotes(notes: any): boolean {
 
 export function ShoppingCard({ card, variant, ...props }: CommonCardProps) {
     const shoppingName = card.text || card.title || "쇼핑 장소";
-    const category = card.shoppingType
-        ? SHOPPING_TYPE_LABELS[card.shoppingType] || card.shoppingType
-        : "Shopping";
+    const category = getCardSubcategoryLabel('shopping', card.shoppingType);
     const displayIcon = card.icon || (card.shoppingType && SHOPPING_TYPE_ICONS[card.shoppingType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 

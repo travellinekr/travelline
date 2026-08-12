@@ -3,6 +3,7 @@ import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
+import { getCardSubcategoryLabel } from "@/utils/cardSubcategoryLabels";
 
 // 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
 const ACCOMMODATION_TYPE_ICONS: Record<string, string> = {
@@ -64,7 +65,7 @@ export function HotelCard({ card, variant, onUpdateCard, ...props }: CommonCardP
             variant={variant}
             colorClass="bg-rose-400"
             icon={Hotel}
-            category={card.accommodationType === 'resort' ? 'Resort' : 'Hotel'}
+            category={getCardSubcategoryLabel('accommodation', card.accommodationType)}
             className="h-[58px] md:h-[72px]"
             hasNotes={hasNotes}
             onUpdateCard={onUpdateCard}
