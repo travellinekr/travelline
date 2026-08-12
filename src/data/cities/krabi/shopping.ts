@@ -78,21 +78,6 @@ const shopping: ShoppingData[] = [
         icon: "🏷️"
     },
     {
-        name: "노파랏 타라 플라자",
-        showInInbox: true,
-        hasInfo: true,
-        type: "market",
-        city: "Krabi",
-        coordinates: { lat: 8.0419508, lng: 98.8121991 },
-        category: "상점가",
-        specialItems: "기념품, 레스토랑, 여행용품",
-        priceRange: "매장별 상이",
-        openingHours: "월요일: 오전 10:25 ~ 오전 2:25; 화요일: 오전 10:25 ~ 오전 2:25",
-        taxRefund: false,
-        features: ["다양한 태국 전통 기념품", "아오낭 비치 인근 위치"],
-        icon: "🛍️"
-    },
-    {
         name: "클롱무앙 플라자",
         showInInbox: true,
         hasInfo: true,

@@ -9,13 +9,25 @@ export interface InfoLink {
     description?: string;
 }
 
+// Google Places Photos API 응답을 저장 가능한 형태로 변환한 구조.
+// - photoReference: 영구 토큰 (Google Terms 상 저장 허용). 실제 이미지 URL 은 매번 짧게 만료.
+// - attributions: html_attributions (반드시 이미지 근처에 표시. 링크 포함된 HTML 문자열)
+export interface PlacePhotoData {
+    photoReference: string;
+    width: number;
+    height: number;
+    attributions: string[];
+}
+
 // 모든 인포가 공유하는 기본 필드
 export interface InfoBase {
     summary: string;
     highlights?: string[];
     tips?: string[];
     warnings?: string[];
-    photos?: string[];
+    photos?: string[]; // 레거시 로컬 경로 (fallback). 신규 데이터는 placePhotos 사용
+    placePhotos?: PlacePhotoData[]; // Google Places Photos (photoReference + attribution)
+    placeId?: string; // Google place_id (재수집·검증용)
     links?: InfoLink[];
     updatedAt?: string;
 }

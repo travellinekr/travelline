@@ -143,7 +143,7 @@ export function TransportInfoView({ card, isOpen, onClose }: Props) {
                     )}
 
                     <InfoTips tips={data.tips} />
-                    <InfoPhotoGallery photos={data.photos} />
+                    <InfoPhotoGallery photos={data.photos} placePhotos={data.placePhotos} />
                     <InfoLinksList links={data.links} />
                 </>
             )}

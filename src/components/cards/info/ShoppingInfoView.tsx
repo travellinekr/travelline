@@ -8,6 +8,7 @@ import { InfoHighlights } from './InfoHighlights';
 import { InfoTips } from './InfoTips';
 import { InfoLinksList } from './InfoLinksList';
 import { InfoPhotoGallery } from './InfoPhotoGallery';
+import { PlacePhoto, PlacePhotoAttribution } from '@/components/places/PlacePhoto';
 
 interface Props {
     card: any;
@@ -21,8 +22,11 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
     const { info, loading } = useCardInfo('shopping', cityEng, name);
     const data = info as ShoppingInfo | null;
     const subtitle = `${name}${cityEng ? ` · ${cityEng}` : ''}`;
-    const heroImage = data?.photos?.[0];
-    const galleryPhotos = data?.photos?.slice(1);
+    const placeHero = data?.placePhotos?.[0];
+    const legacyHero = placeHero ? undefined : data?.photos?.[0];
+    const placeGallery = data?.placePhotos?.slice(1);
+    const legacyGallery = placeHero ? undefined : data?.photos?.slice(1);
+    const hasHero = !!placeHero || !!legacyHero;
 
     return (
         <InfoModalShell isOpen={isOpen} title="쇼핑 정보" subtitle={subtitle} onClose={onClose}>
@@ -34,23 +38,43 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
                 </p>
             ) : (
                 <>
-                    {heroImage && (
-                        <button
-                            type="button"
-                            onClick={() => window.open(heroImage, '_blank', 'noopener,noreferrer')}
-                            className="group relative w-full overflow-hidden rounded-2xl border border-gray-100 bg-gray-100 shadow-sm"
-                            aria-label={`${name} 대표 이미지 새 탭에서 보기`}
-                        >
-                            <img
-                                src={heroImage}
-                                alt={`${name} 대표 이미지`}
-                                className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-                                loading="lazy"
-                            />
-                            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 to-transparent px-4 py-3 text-left">
-                                <span className="text-xs font-semibold text-white/90">대표 이미지</span>
-                            </div>
-                        </button>
+                    {hasHero && (
+                        <div>
+                            <button
+                                type="button"
+                                onClick={() => {
+                                    if (placeHero) {
+                                        window.open(`/api/places/photo?ref=${encodeURIComponent(placeHero.photoReference)}&w=800`, '_blank', 'noopener,noreferrer');
+                                    } else if (legacyHero) {
+                                        window.open(legacyHero, '_blank', 'noopener,noreferrer');
+                                    }
+                                }}
+                                className="group relative w-full overflow-hidden rounded-2xl border border-gray-100 bg-gray-100 shadow-sm"
+                                aria-label={`${name} 대표 이미지 새 탭에서 보기`}
+                            >
+                                {placeHero ? (
+                                    <PlacePhoto
+                                        photo={placeHero}
+                                        alt={`${name} 대표 이미지`}
+                                        width={400}
+                                        loading="lazy"
+                                        className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                                    />
+                                ) : (
+                                    /* eslint-disable-next-line @next/next/no-img-element */
+                                    <img
+                                        src={legacyHero}
+                                        alt={`${name} 대표 이미지`}
+                                        className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                                        loading="lazy"
+                                    />
+                                )}
+                                <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 to-transparent px-4 py-3 text-left">
+                                    <span className="text-xs font-semibold text-white/90">대표 이미지</span>
+                                </div>
+                            </button>
+                            {placeHero && <PlacePhotoAttribution attributions={placeHero.attributions} />}
+                        </div>
                     )}
 
                     <div className="flex items-start gap-2">
@@ -118,7 +142,7 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
                     )}
 
                     <InfoTips tips={data.tips} />
-                    <InfoPhotoGallery photos={galleryPhotos} />
+                    <InfoPhotoGallery photos={legacyGallery} placePhotos={placeGallery} />
                     <InfoLinksList links={data.links} />
                 </>
             )}
