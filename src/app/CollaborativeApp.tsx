@@ -1151,7 +1151,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
         .custom-scrollbar:hover::-webkit-scrollbar-thumb { background: #E2E8F0; }
       `}</style>
 
-                        <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
+                        <div className="h-dvh w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
                             <DashboardHeader
                                 title={projectTitle}
                                 rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />}

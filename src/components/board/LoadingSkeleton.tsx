@@ -46,7 +46,7 @@ function WavyText({ text, className = '' }: { text: string; className?: string }
 
 export function LoadingSkeleton() {
     return (
-        <div className="h-screen w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
+        <div className="h-dvh w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
 
             {/* 상단 진행 바 */}
             <div className="fixed top-0 left-0 right-0 z-50 h-0.5 bg-gray-100">
