@@ -460,6 +460,447 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?q=13.7589206,100.4972578&query_place_id=ChIJDR23yhKZ4jARdqd5AHsct0A", type: "guide", description: "지도와 최근 리뷰 확인" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%98%A4%EC%82%B0%EB%A1%9C%EB%93%9C%20%EB%B0%A9%EC%BD%95%20%ED%9B%84%EA%B8%B0", type: "blog", description: "한국어 최근 후기 검색" }
         ]
+    },
+    "싸오 칭차": {
+        photos: [],
+        placeId: "ChIJX49VWsWZ4jARwEYBM0MDXnE",
+        placePhotos: [
+            { photoReference: "AWCwydg0kqc_j9UQYju5G4oIV4cmNpRLYSDk83F4swKGVfwvqwt1Xqxt1iXhV_4dvN5WWi1PffT-aqlykGQaf7KJ8rv8B5BOsJVeBvskA82I5Abo4lCdakpoaMLIEN7Q4JITD8_3_iLAdDMuP_h3ro1rdRKMxtEWUVm19paitEbtjL0LwV0n6S0IXvzmVrRDdOyh47UCG_f6FA9WCZ_YvoBIu0upizfbbgtPDJcCYB0fip3TxcPCVeZGmjRHo6bK84pebkp_yJx4H9YqdihsB77MqEPBmwJkDnAslN71glwzDzPGSWJIJK6HE2gEaQxqiruW1fJNkRARjnmZlF9trstv5Qv503YVIlTiUOftTC0T6DGrG0wsKQX9gk9ZGRVYgNUuQoCygtJ2cobFEIIvC1XsN8kXEEh8_nCPkiRbQnp9hMvc-A", width: 3000, height: 3694, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115338107768284538652\">Jeff Teh</a>"] },
+            { photoReference: "AWCwydh6PraDfx0XW-GVrQvH2yty7v2a2MANEXkiPDktRCmI3YN8xMyQow5A2KTdkZE4YuWqqRyXd7ZYEXmwy9M5O_DO60HYr1DE_3BnFIOeF1NBU-OLCbH8Gdzbtc1o8YIpr5cZ5ApUDR-85vIeE-a2xuyIwBR7UR1WjBfPidiBSLsdBOKCNQsiR7-QVe-rNm7Hreo4yCHbPNc_vm4RBJRGCN8QJ2YSnF-bsAC6pwhg11VKQVacNwVDUp6OkQlrWBXulixrlLbcIboNLXrJfczsQYCj5M4RXlqUpmOtQIARqYs1pp9lznHLMcqzFi0TBM8oB8AuENec9eXKshnMs1_yll_N5w-kPG181nxQx1Ev_OCEcA8YbPX1RM8MkfR-YgQ5aRHkpjwHIQ9sp9B4F8OblvQOmlfNLpCfEeqdrZslZR5fkiqy8LRYZvIBKHJEbOUg", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101422165844497584813\">Golfmashare</a>"] },
+            { photoReference: "AWCwydjwaEwa0jg3w2jQ0gtvReiU55bN-S2MAlIlNlmMTn59QpzMtCvEUAXPmPHu3gtln-F9Ofnir6oG2zm9XkPYPfcBK9JY8q9ebJB-PSwS56L855TPp_IwUwi4scueqrKtIT2AS_O3x__47AAcir-lLzgKA8fC-KpK-nJLsgqwKZ7LUIM9miZzV4V4pWQYA_yAVoqp_jbVfaJdvBDnzQE8upBULeScS35T0HBH9y9ThRxDn2fHHvfatNdveoG_0alv8O5v-PujVlZby2kKPDocqJVQ3DkuNg6kKjYPFyjpiuri6XoNaUtuwyfK43GqUVDQmtxrupiJYOO3q-33N3K8b0YgzVIKjU9eA87xj3x-r1U7AdL_asaKa-KKbAYp2drDpKWnBBfR2qMt8EyIGN-m00PstnDjnDOn782qniiHSmKzxc_s", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108832926416052020476\">Bram Heils</a>"] },
+            { photoReference: "AWCwydhcKqnk62L1iA51wsBR32_JoiImYQrhrSSqscJSDswKwBGoGAq0TGEQHLnKTfNanrKPdjbjLyA0Y91ZC64ALCIxRz6Tj7gXLTYu0iVGhLsPfwzIYmdLLGdcjE1faFvlRL0d-sHnuHg_jpGtvLq7rQvPp6vQsrI9c2EQdM-rhsY0TBaMl3nudNHt3x7wfF4RaAMzgBlbJGfsgF6t_G8WBbqcmnytmjxDT48jToRy79-On_7ipIPHYslT5kJYLfgizP5q3PVHa7--2iLv4-4mgXcElm12C1XJedPshbeHCdV_tz0fLNX8SWOP0-5vphpe5AjnqLtFNfLXThkg7PMl8hDJXtBqNVJWAce6Ekytcp3puSQeBkLibIeisoyQNpsmwyRe_FnL5bD65sk0gWO38AApqdMSxlucA7tJMr8iSTrquiI", width: 4592, height: 3448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108500161472810060511\">Phonlakrit Sunthornhon</a>"] },
+            { photoReference: "AWCwydi6o0i6MRsibhqD-HNMDrL04RATGh6u3021wHL-f91EZ3AL8Uk_4UMTw0i_PnGe-Ecf1wnTnJrs1kLV79rc4fZR45twpEbjRrAHMjqHftOYE7RxkRzZwDKgkjAf4KVgAzCMyAi95mxFFYGKkqMz-2g-m6cBggn-oI9Psm2S7HOW-uECYJXSmbYMGTypljlQP1sCTzuySKEdqjl8XxOHsotjdVjQ89OQAc0u8anBG0-HtNKo5jDry2KYPrmBDowo-sssRJqtmq57YrB4Njj9UqGUXiH14ohPDtcsBiPNgN6HcWhENId-NjyPEkTI5u2RKjl7FzVp9ccor7590Qnmgxlyuz1kpBx69iP-D1Sff21nQOS2H1WqFIky6rG-qUirGeo2nE2eGZYpg-FmfZpJGsxYO7DoRlz70VFQWGkZ7XQq4tF4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110615668420153789839\">Pruch S. Diary</a>"] }
+        ],
+        summary: "현지 맛집이 인접한 왓 수텝 사원 근처의 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["왓 수텝 사원 인근 위치", "차이나타운과 도보 이동 가능"],
+        tips: ["인근 식당에서 푸껫식 꽈배기나 고기 완자탕을 즐겨보세요"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "QG22+PGF, Dinso Rd, แขวง บางขุนพรหม, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8168970361250072256", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%B8%EC%98%A4+%EC%B9%AD%EC%B0%A8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Co van Kessel Bangkok Tours (River City)": {
+        photos: [],
+        placeId: "ChIJV0YZRNmY4jARhoPwJOh_TgM",
+        placePhotos: [
+            { photoReference: "AWCwydhYIS-_doMNp-nBdgq73SEhHdl2ez2LuuqYNW_WOMQ5_KGo16D-nYvAvkG1nSyBIgJKcZEjhQDg4rwmvl5G8OQiHFRMZlDyw-A3qXRaJYX5b8F2Q0mAm_HgKmqCUZGpxruJARwKaXC1wOGHTWsI1X3LJMvau7eBR28G9bQupyvM8ol1yqhf0s32P9ZAlJhOSqvqy3LxKIylcI3LNkhaEIjGTFcjotffjBSKilc4RHMdMb1g9Mr1rwyNRLbBGtpl5eSmr6bSoorcVpHT67qZ6W3aOe6bKZPYQg0dGRsCwt17IFDpQLC0gTVWPZp0NPjJQE96TrgCv-uuej9tHmRMvO-Rsz-oJWTxlF9Y90Xu8U6nzom-wC16gWZHAzDxLf9844y1Hoc6WwM8gxMBRRp94nF1lG4a2joU0V23Dr93dEZuRg", width: 900, height: 506, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108022378067561607963\">Co van Kessel Bangkok Tours (River City)</a>"] },
+            { photoReference: "AWCwydjczqNrB-z1_FbHbo2QuN0qoHAQhMR0PkP12C9TP4dL6t8pjCb9k9Tia5KCTSDRSvrKx8kXFLbmGsLocrsU1QUeNxdboznL1lqtReJNymdPowyRch7m2FDeh3bCHbFEY7oviPfHyNNhAV2yO0Wf1Y6N_tn7K8Ge1WsH-bq_UUnQyP-XlrDrS15W4rPViiBzYujMObTvdBDcwWfUZfevMTfPGXJHWs-i99Rrf05W94eSf9knjMHukew-FQBA3HtIYxT_N9pWUDBgbsO2pUrZYEhRQa8zjdTP4m53UOltVy5zN_aV2upSq_wJKQ7iUOh3aGgToWhObjJyoEGLEfD9ZlwLNkr5V6e9p6iOzfPHy9AZze8ZX-zHgH4t2c6L-aAnAPPTUxFKOblydHgA0vGiO2P8lfcbOp6e4LR-jNVvzUW1bwxJe-3iThF6caYhcFx6", width: 2286, height: 3048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115696904774962917564\">Charlotte RM</a>"] },
+            { photoReference: "AWCwydjJeMB7CduCEr0hn7dVIV7lXrGDKzmA3uyuCyIp_4P-CV-740RUMtNd1Bluw6ns0P9unkwzojEAi27e2frL3Uuk3ukFpaUtJBQTf_1ORRD-wUZn_ScQ4fnZkmGS9xJkm7OFpexbdxJ9yPPVXx7_41tqi-Rf5zylBQYdgtGPLfXmtZkAbMueJatEbGJFYy-z5tI7jMgz9FZyKw2u3cz4D2KpnyFZTIh1szivBAGTlQFunJxlJgoSzhmaPanIzYoim6mvX8FcudSETvCZUPshWAn0mej1gAUczlRKwT4fG6VHzWev9IpLe8LLlsyZXn59JEvtt-CI2VmCi6XvrlZ8dBPRFdphprG0iF5xa6OmvFF7VSR7mGz9CroaBHJMM32lhaahs_duqtoccM383Can3U7-bzwhaqHgnoY0WPVbHAgilBcM8IS4qj1915N_0g", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100241650673862611175\">Lynae Christensen</a>"] },
+            { photoReference: "AWCwydizQtaFU6zCg8F24CKMtAyyqLUetcdyJ881zN3Ek3NDFQOh3SVSABonBWmJf2gxHVb99y0hJTZPezr5sSu7qvvFKmgONJR2aA1pK1KEUf5CP75djUCArb8QOtWDrzwgljvVDaDl5P2XlB1hBoK0K-jIf6UmnCMU_f3BSNsZryVY5fZJFBt6EcSzciVxkNpaJYrSaGbcga11B-rtkJsGVul_EAVbhXOAFqxoJNec_nD9I1NeMHgva8MMwInoJXdKwMGJM0t2GlUPo4TX--3dx9-7mJkby73vHM0A5PhiI3KI0LhdwbMhsgKUBYHDtFD65P9TshYP9KfD_W2VSaJN4kSaSQG2Wn_KFFdSx_RMlm5wNnR9SKw8iLhAxLydPEIjjHkraAmKXZJxlOgI9hzxAovi9L9CeHwx2YyfBvJ3oMn8u-d55brYQrKA3Sxpt0EG", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105615313022400296154\">梁磊</a>"] },
+            { photoReference: "AWCwydiW7ht4ijWQJLzqNT66f9ODCOCId3tJujKi84HTEtuo-H_Gym_TV6_4rKJEHOx9SkJnMx4sy-nm7FwaOtYwxclSaUuDV1WAKyYQe7RgEvJbGy5rnTMR2CPcWn84pnnjdgVgjI4cLTlZkAtiBkc_apqpNE5c2cmMXVzxMs-74G0FtuRCt9qvTMgryX619Yo6mNxPhdwvhnhWuRccnCKr1U2ncXBome88L7ZGO5yESXsjaL0biwKau4l1eXzMsjJkI7JGU5UrnhJ7OTiF11V_yxnlPmf_29iBTt3FTGLGq7oONS79y6u65RvLLINA0m_vqGwFFtX5Nc8emJ7PxDhushQfxcXyiim-3Vd3FSkFMcXnWcW5Ho-ZHnseLgNz0ZhdY1iO76GZYvKCEv-Z-fWyyRk0pF30aGe6RWJMqfGUD7FC75bd98cdQu0svuatFr8y", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114214030058798290621\">Winson</a>"] }
+        ],
+        summary: "방콕의 골목길과 사원, 시장을 탐험하는 매력적인 자전거 투어",
+        updatedAt: "2026-08-12",
+        highlights: ["방콕의 숨겨진 거리와 시장 탐방", "공원부터 차이나타운 골목까지 다양한 코스", "페리를 타고 강을 건너는 특별한 경험"],
+        tips: ["가이드의 유쾌한 설명과 함께 투어를 즐겨보세요", "다양한 시장과 사원을 방문하는 코스를 확인하세요"],
+        hours: "월요일: 오전 6:00 ~ 오후 7:00; 화요일: 오전 6:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "23 Charoen Krung 24, Khwaeng Talat Noi, Khet Samphanthawong, Krung Thep Maha Nakhon 10100 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.covankessel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=238268465326097286", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Co+van+Kessel+Bangkok+Tours+%28River+City%29+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "드림 월드": {
+        photos: [],
+        placeId: "ChIJD_Ph9PF-HTERKo_7Kxa8k0g",
+        placePhotos: [
+            { photoReference: "AWCwydgzltru-8plTAfJDXFnA9coflt7CgV8e1KGRpgBwy1MVG4DayD03damw3JBgunK6FJ_sKr9IXIxRHzGZVVi-2ech9akLCbA86GCt70URuYlHQnzORZ6-BP-B9h2mdsonISHLepz4JHOx1u6O5pcSellYyqLYgozyVt0_o6Si5keRcNzrtv0V4kvloX6Ho4sxIEVRKRBUA-zJgEG01xXoX0exa1VAHaXiNHfgwL4vzdtijnpGNwi3rSqpgYG9NYg_dC7t7XIzmcyGxQZ1WEVfyvo1qhwP01Em7elBJluMFxQ99rglWdT0Wq9MrAhYcZuRpYXLDAkBgRurRH5YiR0r4ZVPeMeUFsN5Ng3CAQy_SrqE1ABlqtXdCIDQEP_mzRfRHaP-_xMFrCTMKgq_WbD-oN_thnnWNc6FISdMNM7HIbh8A", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115011277531309341173\">Валерия Крыжановская</a>"] },
+            { photoReference: "AWCwydjUJYBLXjfO2ciOtey3XI_HMtD_1caYSG1eFDv9vEyYMqR_O1VTgQ6k9wHqnoSgnDbe0DjA66CG9jKJQyC2boZmhuQ8Cx38GDThTHo8o_KAvohzimIFzrmEG01I5RzX0pJ87KzR4qR4QNqLR1cPiEwmQkju3aCgl7Z-wtGMxVt1XkjSPLEarW9261dUBveOOaJ5sgAWBCYPQI2GJoy-Yw4nnqN_eFma-9HyIPHdv_fqlATyIVGM2xvMLmL0vdHcQR3INE_XDCPEL5qJLuqZLxTNU9oAPFO8rEzEgB04dUGHID8lOoucpfOuX2kDiIeHmTb1jqkNcTwyKhBZ8c26d4BK7Qe0z1P8qquzWSeJb388z82IGy5h5yQvkf953TAjBEwXKzaNdxmQNgUtHEZTgCBE8XDabMr0A88t1px4SSwXOA", width: 2048, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101055383617333641997\">jian xun Li</a>"] },
+            { photoReference: "AWCwydj1GLx8IniGlP6kRRlknydhexxuJ-XgtNJyrxYMm8hwC4u1AAVpToGQd7Jm3JmyDWCmfmawj5IV2Z9h7jnc8RFvUzMwIUTmHdJzJd6YJtSDFrhgAJp_mjc1X322jKfybDPEmTBjPZfjJPV6rxcFklpVqipkMzJks-Fy-nEB5tIsKn4Xvi23uDlA77d44038U5jTdVhxVIRCEiBnJuEHGclPmwP9R87fOckU_C2nb5TR7E7H_umzhjz8PTYIV_WSUsfQ2j6gS3fgD40OOG1EVjErB7P9YITXIrwzJY2-z9_LLtQm6mTu7OZt6QTOpZck9MR6xvltalksJUWbvUfHcAsyEn3SLMGR9Vv9QzDzp59ltDJwczeh513uH9VkU-n6iINiMpcXWrueRHojtIb6BC55N3W4ijzVvdYbm2POukyliQ", width: 4800, height: 3270, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115996544643480385921\">Rakim Haque</a>"] },
+            { photoReference: "AWCwydiM2PJtWFjdJeFuPlioIlLWrH_SGTVWy4nTSqXiqWJNk6M-oJeLE2_gE8DXr804ToyICERbjaFNv1-51TqezOcUysstHg1yUMohibpDmiwGpnK6XRQDrrYbWFlHnvppB_KrEwa6mU-ZT4hSHeTc7hDhUWrHMbfrSYHU9nm8FPB46DCRr8m_zo5_AtXRr1iqvVjbiWa865WTokBSzErqyXcwe4uRGlpOu5eap1BXBmUflLJh5B-sWuuFc08wxRc6_BFPKHhHMiJGda1GC6DhZThSZLr9nzgzyHMEs7LQF-K7-A3zwB3z0R7izbX5pbLExIsGxmCrsojb1l6fl-zXfOfdqcVXOh6sP_qJFd6p3GfczGn37wPAitoDlhpyXa2qmbchOXY3qGfoi_iXXk9EG9TMvteuTjwrPVVeAoFVJF8J4pVH", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117476179446780232255\">Nimantha Dissanayake</a>"] },
+            { photoReference: "AWCwydhyv6jIWWaBO2MpcK7W3i9Wbf9HBwjTzXtFbqzW2Zq_vTy4-H4eRlQx49ciCEsBSN8exaImtS9snnyVv_3Z3AJy_CnBVL6_dhwhTopScoQDqVBqlU2V1ps2sXbccR1uK5H4aGqRZCJ3xjcItMAfxglr8dSPD7USj5KzeWiDoqbAG5K9CgR3KeJJ5LB3nBAaMgMquaOfeinrehZetcYxcRR8FAy4D3NwBO-2WMk8L3AyZqzKW8XmcG37U28tiS4_2rkYPYH-Mwpy65iSQeIqMic_9FJycrK5O-n6HASelWDg3OfXq-285Q3qRbkQhUHTFh0u-6uSKD847B5MYxYZz_crN8AmxtsyhlfoztcABIvW9kogY50LBMXYhNYOtdvPkSldT1gPpoqN80rVFHKfgIaJm69R7GOS7qcpVM9x0j8ZrQ", width: 1900, height: 1275, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111428824511099804989\">bhupesh dawadi</a>"] }
+        ],
+        summary: "높은 리뷰 수를 보유한 주요 테마파크입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["풍부한 방문 경험", "다양한 즐길 거리"],
+        tips: ["운영 시간을 미리 확인하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 5:00; 화요일: 오전 10:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "태국 12130 빠툼타니 Thanyaburi District, Bueng Yitho", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.dreamworld.co.th/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5229730395720486698", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%93%9C%EB%A6%BC+%EC%9B%94%EB%93%9C+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "방콕 사파리 월드": {
+        photos: [],
+        placeId: "ChIJc50ygA1jHTERbHsyFbmUFV0",
+        placePhotos: [
+            { photoReference: "AWCwydh-2CONWIi_WnAvrpaFFtyIndxNruxfPe-D3nb4KYvAqEA3pl0WRl2URvVbqUaffAnhfuQ6sfdz9dBg0sAvpAf_9-Wykn3n_CqnC6hOE48ww8NXpgzc0C5lsowZQEjS2WWp6J1F1nLpQ9CC34naiS8EKKKyFywcYl5sP9EryiPkUoMjSqks_-XnjVajze9b7GnTV3mKluaCLa3PVkSWutUKRqU-FAvCznljQ8GaDqyyXmTYiFng446ezekaP7185Flj4uR5wk9UGSmCJ0PAQZCpAXtbnR_3CpFHi8i0JddA5VFXX51k4wdDM-fJIWgh-fOJYl9OeSiTss5_B5J3fXEsmkOgzwE5EaRwBRmosRKDvdAe5Ii1dWxirSzxXmnd8oKrJsA1QehkxBApLrd4_b1O9Jt1qFOBaHYRE5dsdjuEcon9", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105690493131763549065\">vivek R</a>"] },
+            { photoReference: "AWCwydhxuhUJeYSIqAXkphvn1KNyTKkf8WJq1v9ENofQrVXT3PthSQi8OlIKeZQFY8eKq0-_faLl_0KjldtpNBtf_KKxuuaFOMqP7zcA06ySKQ-K8bZyYfimVb57Q1TAeSRqoSKFZtAuapd-QlyQAiYS2Sr83i4afQg9CJgEHxrmLqMMAgVMcnn-iLEU4za7YtEq5NDjiUhRc9zR4F5ayCVnHibwH3Dl8C2E1VmwATbT8PgTPP9cwApyz4wMZhBC5AqWoqP4iCkBgKzmPcuh9ZDhHj7HHmrCbiSgmJrZmnvjIBolyYQvZtimofu7F3ryOQBsEeSGKnw3C2nzD3lrLmT3UmskMXSzWNcpKVfdyecHwQRcVP8lTKn4qhmYl6RTWhcaKpCzQV1s4nsWUsXtG0UPNhO8131LP4MEtwSFCtbGGlPosWXA2Yr6VxwJEAPgkagE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102788181733668776466\">ชิติพัฒธร์ ขันทอง</a>"] },
+            { photoReference: "AWCwydiRTYVn40-YARAVkB4UZYF7tklhHrtOoDCUspqSjtmW9BKPrZZF0pFCqohUg_2s3fOSfIXnx-Vo7gtOsuPBVX_ctp_iP0yQyHzuY9PAYULiBxY0Bucpk2vOrm0p-1W9qiqTWzn0QEWuKxRvJMg3_q9pl7PYIsS54CcKXh2bVmvqXpOzw74xVQUxMb3OZKeRIM82U48knQO_I95SACoWONV_XfnF7RtEb_z5X4sNPwrzRmvilzyzudXHb17ql9dn5xyxlhC10KkvTslc482dkppqsNSirsnFpoEexMAw5dPGZN-6aq9Xx8o0lVooiLeBgzdNaaQb0-2oMlVKM7opgoXnhGlmVzW_QnFT4AQu-coKo0btyXXpCF4gAhtvpmjzD0VfN__U4sYOYmdZcYKS_bMQ7ZI736T7kPV7FJrLC8ZEWcvh", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108697087304832952030\">Pritam Paul</a>"] },
+            { photoReference: "AWCwydiOgUabFxiRlePYIbLwXxMI2n4l-KjLdYKRLSdly10L1b-V-LU1Hab9Kv4HYdSw4UPwP1MLJ76K787p5iNVfu5eWx4pk2I7_dWa6-OmMEIG9pTAmyFAj9XrkPDTFVkG0ahgh2ZpgKDnHB1FFOHadGl_wwvH4c12iQQ_qKOYD-bUd6_zbMgkxCK-tNDdbVY8gMVLnd6teKAR0SwSunbgziQMFcNAttUamP8weqDZF2x1zdYhiqISlfnJ9h8Vmtq0fYYZQxLTBKgTIuLcyCLGELKyduiHzJ3pLhdcDN7YthcqHkjTcweU-0oRw9_XS8694DXeP72sdyBgDyh8VX0CpY_Md-RzjibF7qkWfxJExsq4UO7P26VAb81XBx5Ivkq4CZUDhifEndlFv0GK3U_f2RKwfP-pNar9HbHeVT6OgI71fItv0ENJXbQoBooyMQ", width: 547, height: 365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114680301085613412169\">Shahzad Ali</a>"] },
+            { photoReference: "AWCwydjBZVq_X6Q51su97M4kU_fMqQjpYlFYKsQRYYYyCBvTk1a8-3Mg2bSYhjw6QhtnojmvYjK_RAGDV_TicdWdGH75LA75d10dOWyncwLuN6VTkLoXIX5hinqJOr_RblWWjjbnRsPLp99CJSHaj1RiPiSbG8CG7PymO3_-cU8AoPMwkV_iyJrugZsE7hptHSLNAq7ZC1deVZz-UoosIWnasbdSPcrRWN3AUymCLKd2J_s_II1vEd1oq1PAT_c3cxbRCXp7e17oOQP3xRsMehw3VdWTBkJkLRGcTXBK4AL66kM4of9iCsO7XKJlC9kzJ3qTuDpwA8aj9aZeWzdSgI0YNM0Qop1CGO76vsTdbzP-M_v87BbEU0eeOLbnt4YJdxiS9Uvkidd8sumVWuJzBmX23C5lKlAtUQU2TW5bBq9DUa8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101219014979433858521\">Anandu Shaji</a>"] }
+        ],
+        summary: "높은 평점을 기록 중인 유명 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["높은 방문객 수", "검색 상위 노출 명소"],
+        tips: ["월요일은 휴무이니 방문 시 주의하세요"],
+        hours: "월요일: 휴무일; 화요일: 오전 9:00 ~ 오후 4:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "99 Panya Indra Rd, Khwaeng Sam Wa Tawan Tok, Khet Khlong Sam Wa, Krung Thep Maha Nakhon 10510 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.safariworld.online/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6707430742683712364", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%A9%EC%BD%95+%EC%82%AC%ED%8C%8C%EB%A6%AC+%EC%9B%94%EB%93%9C+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "씨라이프 오션월드 방콕": {
+        photos: [],
+        placeId: "ChIJH4I85c2e4jARUMYLeiqfBd0",
+        placePhotos: [
+            { photoReference: "AWCwydjpZEVJfJqYKYkcG2uXts0a_85LwCu7_9OvuSWym6ORxScMlkQP4qJKXHgX2VizaxyeRcQLozcNhK6r0F7GD_ceT_8x5OxpRBVWv0ZXQ9zND7lplebM1iogOiums0TSQabi35ocSDv_8Yi77LkxWk_5t06P0yqSHIQM9YK3i7S2IFxvZ5ygzurgq7QuhY5mpngUODJzYAa8MgH7kNT5lM7NiUmhvCRY-vugOprooKAeEQCjRIBH-89C0KWrAEBkOZ7PhqCxVZifyw6-8Jb4DgVFiEYln1UNk0YR8Q2p3L1jvQN9LlvjmgtI23JbJPmpgJyKk6EeFi8g_Yst4Itw3Gm3AVjUYD_J5Hp6S5eJMqgBYJBTR5ijTlUXuDGch0SLl9eOv1tyo11Hz3aPiZd1P3Vs3ey0_Lc3TWzu-2uVvoxOLw", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115310611705887520812\">Bank012</a>"] },
+            { photoReference: "AWCwydi7nTS6svpddK66itEI_1rAkvx2uVxW_gPNjPG6fvakukakwLjG4BNMEy3uREVsaImVZxq7SEiuqcX6W4YLKT-4fbjdSYc2-kAEc-hInQBxTdy4AYfEsv8R2Ac4MRn4coDugPfjZkIsCdk3z8DqlWaIItjPBoZDzkw8Vq0UNz-s9dEw1QhNTjZm7dpOTekQ-E7zHirNi-3Nl79wRKlaqG457xxD9QjPoLoQ3hau9vdV3jBp6yBu90X-CEomWUjKzAaOr34NOTqO0h8k0SCMV7swWRFNrlOOks_YuXmfJrL0QqDOgNq91UJzKNvpCeEvFrRmjsuH6yI1OjzAu2kOrdL6Tl8ugyXQjmvhHrTYTqZIlEIuH68vcXfJ73ao-y02DLq3XHNzwWqZj1A0-LV_EIa7tvBa_7hiIbArq7DR2bMhbsB522KCIr4L0l-54Vzd", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118272948067367732742\">Nian Chen</a>"] },
+            { photoReference: "AWCwydgvbeCihZIel4vtQk5JDmDHY--SK2gR0QIh6s41ZAcpZa0HBoyzVjSZivHbO4Khw_UjNEAuF0G-MDhXq4Y7FDUIxPhG6JFceRzryZ3WBBR2Ygss9DCjiMEEyE62pFnv8H9vL-vPKHrUmodBxjuWvGv4z_40o0VO-jUK5M12H_6JHy8eJemTZ8T9Okrw-Xsz0CM0cPiuGXR5mrOZkT6lT0Wm42yjsq7H04jWODt8geKgkCQPfefktmErkipR0JAXSSTVB7sDcJ9JtZ9nD_bMJjEQd3hqehJD5hFEbLpBpk3rwu5Il3vlOZ-ved2zDAb26l0DEMw6yBhgMTSISSearY3PYoVNYTQfMhQRojvBk-HxXfTM757CtLtSUFqUJIiR7e_KakLa-yrNtCI4p-9EdBJSIAORycLSknZjRwKsDnWuaSM", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111425531530118747407\">Billy Christianto</a>"] },
+            { photoReference: "AWCwydgyHR8mc2t7isUIIvxxQ3uJhcgwCcriSkwISomwNxRkGrt-A0uqYNJShVP3zhkIpwDrK-rAKuTFnqUuoEevtiYm4Tzl1rlIXqrYMmm_Pdi7Us_eN0Pd2K8eS_TEQnwA6R0JNNl6ZBc-b1SlxP6bH6EtmZTFGJx4JWcPIr32GWuJVfk-vroaae8xKUKYcvrBagJEHYhUcowo7OEpc5KQdm-xoOtgKNJ3eY4zZ2uSbozj_1AFYgPQvSU7Qf9N32UVNwUCq91TOEDAO_Ae1MmpCKrkyucK3XiAzkPIx-UWDYG9doox3Z4IyQq2KwQb1P3rJiB7-KWbddBZaioGzUr6U9mj5Zw2MwebpwtkjDgeAzA15H7z2820vI_XlsMp_OCE9f41N2wxOPUXL1XSwYG02DJPdfUH5EsMgOBXkRxr-xBC82j-fKVRh56lcSlBEsby", width: 650, height: 433, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118192846124462845970\">Thi Nguyễn Ngọc</a>"] },
+            { photoReference: "AWCwydgylHP1bJFweyQafIviNBE4h5Ee0vRujqdEDytte3QJVdwImx28lnj-BEElV5Jf-RTQhgPzDX31xm6TV0PqvfO_TNJ71vY-GF9skH95YQknQ7pc6-nM0uq_3GmPaLvdh1O-t9TThFj9OyomDRXFUYZ3AWcZuTuDqeiE-ihX-ujIjvITHNRRERp54IbHLzhYGsmSqlIRjlkXKv-6ZWq5mUTlAil4JEEftrTMYmBRIzToDq0xvDIFp2qIGvF5vMNfwKpOauR8AEwBL1UDPpOTOSYPgSUYjeFD5Yapx-5IW81b6VdBQB8KTHg9xAiinAok88gMxR8HGh6Ee0f_n21SjvwYt_a4PMwwgL2snjoTquMmCW4lz_7trMlbimpF-SWZ2BOlA60xxfi9momf3ngHUpnjbaAdNhe2o2VRycEGJH2AcA", width: 4624, height: 3472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107534724889252811614\">YK</a>"] }
+        ],
+        summary: "가족과 함께 즐기기 좋은 인기 테마파크입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["가족 단위 방문객에게 인기", "많은 방문객 수"],
+        tips: ["가족과 함께 방문하기 좋습니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "ชั้น บี1 บี2 สยามพารากอน 991 Rama I Rd, Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.visitsealife.com/bangkok/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15926310662050661968", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%94%A8%EB%9D%BC%EC%9D%B4%ED%94%84+%EC%98%A4%EC%85%98%EC%9B%94%EB%93%9C+%EB%B0%A9%EC%BD%95+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시암 파크시티": {
+        photos: [],
+        placeId: "ChIJrc78zJBjHTERdLG8EciM5Qs",
+        placePhotos: [
+            { photoReference: "AWCwydhyy7Z0TkUyzouLAzm5mxxX8Wn9Woi8rslJMQoJ7LmnKmUykKeq-PkFB_rVWXGlkWE7sVeo-4d5wAs0nl4pL60F4haFcXu3XabWs3A6TWELyfNKuTJFtx3RAHUeFvQn65XdCcmZw6Tu9J9cRiSMBOZeLamS7Egxdm57fhNCJY92MBQ2lsEAlancyRuG_Je0WVGvh6KAlTKkhKhwtMafwfl36myCd0SuhYH62z-y_7F7L5MgPDkyc0Y0j3-B7J_ebidrTaahiKnntAFBE-HGzr1nTc3SQ_3eODUdFW_w3k3d-3KPk3xCpqSmm0TdmNVM53jt5JpsVjcSHUdw4nLy7xmVEeHnFnSQ9d2JlsTgsUIMjZSiupmjCc2iFvCW7paXwUnk7qt1SHRq44Q3vLvlPgDkjb6kOsQ2jHYXqmYOR5094JIwaOwagaOOmwRHneQL", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108680208378188249180\">malsydob Jaengsawang</a>"] },
+            { photoReference: "AWCwydikLpJuXRbo_vpPMEyc8sdbcp1DYjjc5pcbqqXkP2Hpsunhmu9QN80kM7tbl7aapkfpVAcYBNHcZaKw1Ercn9YK4TegpmSXGyBVkYxzvrnXxVx7WeHAMhd9gYnHDtxdAoYQFWWe8o8-Ip04Dlqv_9qFV226ffq3yq44kkEh-xRdM5zM6PtIKppLoL9oLQs7MUyarRB6bXGONSoGk9aq5mmlgG3e6FEQFu3NXDUPD0CqkpvkwuKduzAj5w_KZKYLugAyiCf7pDejcmRMnoU1gj60F36TbmiRl-tTibzdU5iSJ71E2sFpVD1QTcS77aOiLErzZn5MKmII8zL4cRXVcNAmUMIikF_iGtH7pIrNzt6e_NXPKjMHw20jRLVrA0FiZrhaDUcvFtPzHFau3NMPVjvzvWCdLEHbhW43THoCuyIhmYgOjDIBOhA0pnWlqx4n", width: 400, height: 300, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113210597566031687381\">Carlos Alberto do Amaral</a>"] },
+            { photoReference: "AWCwydi4fhEALmwhmOBh3SB-bsYdq_fUUb2KfMbqaxpR4B2xKFK34pNLtKz2Suo0LPjgeg_Hyrqo_9UewHaN95qIp3drv1HugbCj32zChor34W81jWyfDNpjgQ8XPUqoE7OLo93mkPZtCx2QRa8xf2XZoI7CkehW-11BPolOd4Na5nU50b33_7rW6OlWQkf0sVgqd-ChjSWsrAGLX1erOrRJ7Vj0BbUgQLeufSsviAVWsk-qc2dkJdni2d-qfZHteqynWdtCnU_0pEfjiSkUZ3UqMTpt8bRoNWDEYUL9dA32XtZDzJBonPEvOCWqqkJa_JnFYfkmWTYhyk1dgEUd90pP0OcrdNrnV5KyAhPHjJrVjOxBVK1Y8WgR3M-Vd8xu7dnPDorbWsn6JdHDQqkoSqYO1s0rHZyEOiKlSYwWG0CSbzZv8g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113313786680371302143\">FooK aa</a>"] },
+            { photoReference: "AWCwydiSYrDsdh298nZZjVMr6Y8j5V3NlUURJCowPzC1LWt42DkElUehwrVifm42xRc1h_cHiXMjpgKyw2rvYEFZIj5Ra98_X3yHgN-oEyP1pkA5wQok1nN9LbW44WZ0f4kMlmDode91CiIiXjdk_ZpKmrl2W7Ti3yZPwrvqRrFjk1jiT9kcZdTLg9OPAcjCfycdrWpl2osvf01GlHLrWpql1O7QGQ_dY2zBfqhOGDUhzJ9Tnx5MSQYXWAHmDmo77F9QQ5jAN0RxoD4920QDLURcHPKn0wAB5YzB8IbFvBWPsGMa1AiQYpXm1nJQ1hdBVDed6T-YYIYnINZNPHl7kSZsfUWjLRKXcSmTiYukIK4Jqx5QZALWw2KFzOXgO4czyFCDQ16Ky10TrurFVA5jw9agIBoM2468C1341FOg3BLwxkwzcYLRtygw8j4FhR_ndwjq", width: 2048, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113210597566031687381\">Carlos Alberto do Amaral</a>"] },
+            { photoReference: "AWCwydjDyOnMm0HkzZsQQyl8G2YyIGfKKf8oeys8hnYejbxXXbVStABwHND9NCpOzg4Th3Qs4xgoTXlBujVyBass1th58i2xW-DGsv8QVmVvjHm8Ohwakd0M30LQpyNPO7ms_Mn1dVzMSNRmSWeE2Lhbg9Yj6xzCyl2PgMbbfPxqJ-oobDGQaICBrGBQE1W7o4TddLrxc6y8P4v3v5M8yIOTSf7vGmQmR9nArMv8tyT3JAmbQzLdlumtJ3Wsxg-2dIF_dcyNGvWxBNHIIhgf-ifcOB8valvh4S7rwNBLgY9P4ToSmTK8AfbegVQRy7TBT4aCpZdBdCkwM_oHkHYAJ20y03IpSgts-rwYEdS33Aklg4xwglaiX_MhD6ktcNXPurjVLtbgHGSjbtfz_WXPtz2LrIjc5gIcGUSeMLJjkYG2lAZXMQ", width: 720, height: 507, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107357688576297040315\">Mohammed Umair</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 주요 테마파크입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["높은 검색 순위", "많은 리뷰 보유"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "203 Thanon Suan Sayam, Khwaeng Khan Na Yao, Khet Khan Na Yao, Krung Thep Maha Nakhon 10230 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.siamamazingpark.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=857246095002874228", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EC%95%94+%ED%8C%8C%ED%81%AC%EC%8B%9C%ED%8B%B0+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Snow Town": {
+        photos: [],
+        placeId: "ChIJu1aM1vp-HTER1Ci84u6kmZo",
+        placePhotos: [
+            { photoReference: "AWCwydj3rqFG-NT2h95Z5mPlnT3DBteqH9_F1aDfsednDOYjuIP73Uo6jy4GtukoIQ3yaz-j02HSKxZpWXWSrOzYM6hTC7YqF2jsRgxhqjnq5K1HwW4kd-wYPSD4TzZ_LDHo44qOFoOtVn72mj8P2vtsz9X2KphN3ip7HMydbpFjeXOkPBTnfQmFOHQ6B_sqPsNQbgzUYi9esiJEnzavHbhwM3KsSLuCrw2QjnVe4IwV30GDG-L9azxPZMGkt3vEqmr4eeBWiWrAsRI9meYmQc63wKYy-4SUZSmuqeQMm1wo7ZW4XGb_28AP9Q5Ix1FHkIuVpL_n9Sd8TM7fi3JXmIf3wfmQG9bJXCdvBFjEEv1hIvacpzGHB2ra3W-PcwZgybIq37kj2pkJq30QRuG1d5l21r76RoIpD02tNwC08Bv9ooReUQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114977060484228766296\">lin lin</a>"] },
+            { photoReference: "AWCwydgIsHvgmCNMLj2RImz0nrGiFzXT-mE83JekyXiQh_4dYZlHWIuCQGxF0EncQtr0R9PTx4X6PfLKbZ_6HWCYJ1qIJhaApdYbm-0yJYj88_7yflgjJT1u5NaSQefZgGCMnYd3uglZi6HQVsj0JS0U11fZIPSpkLTTPnkYrG2jcQ6Y3O8ItdNfqRK_TtacPQ9xTd9x_kFeNef8uvRepGuVtzJ8VYihKUQrQqNRFeSlth_YGxDLDXXQq67EtJmGT6HAEcXO7RrdvgSy2GbtX8JiGItFcGHkunvTZgV2ae3HW23lXVgEpaOmX-C7qlQEXL-FFkUEWP3rhn4O0Ete4QWtxMQxRyzCkS9Rhb0AYGDLwTCnpXfV0bYc1TGKoz7DelFXjGEYBy4blrxfhcla9MqyeZ32WknafenbMuOqi6YCSXQ", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105687437632037836997\">MaxTew</a>"] },
+            { photoReference: "AWCwydgiwETS4A-kEStxfpUoBoSdjNQt1nrUVDNyc1XfDxh0HAwoIcPMLvWPLe6jZe-sw_RdH1-0QeigzVVTsw25zMKo5fYrbo1i2z6swZ6tLA5-XYjozkYCTO7I5Zg_fg3cFuTWvEhOfhsuzeJVbHpcw3pbH4jk8X7k7OaOk4Yb0gX2hJ5gRuySIIKPLwHLDMThZr3YnKZwi-UudKUc7Z1By_58uh_7bT64wltcijSNmhGbwzbK6SAokkh1WXyC4YE3OIaXSma85-h6OroRJ1ZrayUbxIqzu4gF1BjFInuqqPcqW42cpTtQzzH7_bmwrwCNYKmMlUDC0UXUsr296uhncZA1bXyD7Na6NJ-IpRGOs5XfmJVsFXTZadr_EWlF07ZBEb9tWWTblpijq6h5du7ujWEfQ5V38qHFy_FD2ODSick1DEt4", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105687437632037836997\">MaxTew</a>"] },
+            { photoReference: "AWCwydgpJ5subfFepWCQ7qXU8BQ6fTlUrDD_IFhsezo7pgYnTLesWcLFMlPFGLEvRU0I4MNlml7YLNGXk6P9sEPBAl1DtEOWhZQoR57mPkbq-MQZfV7hv52uSTFj0h6U2HEkqq-QJEi-D9S5Vbz3mf_q0GounmrjHqC5-GbVSl8NMx37F5XqqhbTJvvQv9RE-JQw5VFeGi3nGIw3cK75SsMUYeYcxI9ei4xDfgzmQ8ZjUVN1z2fYOIUv-xu58y3-TM7MK7VylD0tIxLSad46joF-eM6fp5bfL5O-9XJxPB0ZDapBOAYT7H8idTXDF46EpxcuGeM4Nlh7nrXVb81l-Rj7-Cz2-MtioM1DXMom9pKvRo-RQOOylqnesHwVh7lI3FrZnuUCnSdLMvizxAALel6vTmTEj7_rj-7ACkzBwPqgCU1dLBMF", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108929132850180586712\">Jagath Sapumal - Geography &amp; Travels</a>"] },
+            { photoReference: "AWCwydjTNHFJsjpIuLjeqebnGyo5FFc9aoSl72eNYez14vGKle5dbTSghxvoFxvzyjHfP4oYT66_INPJbAO85Py_3h8GLRS4OGFocLyorVMtMqj8RjecFBI6I4Qsb4wYwi5ABJKS3aM5XuB2omHTZOE2SfppYYrkzP3g9P0kX7IFSrK_r6BVgxvqz2-hyM5kQI8x7YknX8hyykNd5BUA3S4QCm7t37bOi2XaiawEEYPzM4EVbOnHJbfHpXzQBwNBOraYC1vyxr6ef8tTO-D4HLWAvpPuQxXVAXnzkIwh1yXLIjNK7Zv3lB6I3YcBoKDJekToLr-lkDQrufJ8tIXGBHHK2vhem9SeZwdGTBeNVInS22Od-xDYH2DdHmyuigQHgDc-c0hKgVqKokAqtAeX1t_thikYuNN6oHUaK6jr0YeIXDAlwsP4v5fm_EQ6UHCI-f4s", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105426544348456490721\">O YUREEWAN</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 테마파크",
+        updatedAt: "2026-08-12",
+        highlights: ["4.4점의 높은 평점", "다양한 어트랙션"],
+        tips: ["주말에는 운영 시간이 오후 5시까지로 평일보다 깁니다."],
+        hours: "월요일: 오전 10:00 ~ 오후 4:00; 화요일: 오전 10:00 ~ 오후 4:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "XMVG+J7C, Bueng Yitho, Thanyaburi District, Pathum Thani 12130 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.dreamworld.co.th/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11140116499190786260", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Snow+Town+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "솜퐁 타이 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJ20B8VtKY4jARtecC9sLeVng",
+        placePhotos: [
+            { photoReference: "AWCwydgQygosQXGsbnuUeYnp8fl0s7O88uBsuYvp7ktc_fyIQDZ2S6QvkvP3uV4aEkkJVLX_0l6EjaefRBan2QGgV2RT1QWzuuy9GQtEgCa9vR29UqaVd3QOx1WNjHEVEmGw43uytYC1tHGIh468pzesr3IhxqAK3y8qVqQJlKJOSHrwkJihlW7yw207qiQaTikmiNu7sa9yX8ahERSHs5JZzNALkvoF4Y5JCTaRNPZ-r0v5xL73RwDli2vWaZ8FbFELsvgfuueZbMVQmFhf9pb9mMj4MMSWQTbuKdfkWmx2jrNEnJJRAX_vj91f203Cm27Fxief-oDDSJ-zEA_t-Mbvty-AXokJdfiNck45OgPovtWZhHfYMvVKuSeDdvU8_z6YlGobbOpTLg43rz2mqQYPiS3VymyJfHLyZtw7QGLLvbSFireA70pgrC6gB7jn9A", width: 1179, height: 664, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108221902828255414479\">Sompong Thai Cooking School</a>"] },
+            { photoReference: "AWCwydjvY-RktUn4IARwhnJmnrIeM_wIE_nmpqpyCUqAgKiPknDkHn-KCs1n-utmZ-NefGS0VhUX9wjHkA-mQCBXg5ZHOtPElr52c4KfbV5fsIdixQ9g1EzDBTib5_QFbTZNydXhWe_skMhMlMy_-XbauTaKtlkRADbGiPh4YIOviaiFdtBj0MdVdJdX13xo5Fp9xWa9EgIyxpUphuRNIR5rwoVCcUZgjkfd_IWKOuikHwmyrXxQjr-1048j9gtuxNA7u2JTsjYxCGA5l-41pXaUL_800gpcs_JrRuUm8B-uY7qzVXViqgFT8uBF5WTbrFxUB11V-pWfl1gZp2S328lVxPYq2qLbdQHPnhq1-OIXS772PVhPfnAzmQ5yG7u3nmYN_GBOMT2y5ATp6N5yhRByAYrR7iz201k8aaTn_Tp4MINVrKfo", width: 2048, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108221902828255414479\">Sompong Thai Cooking School</a>"] },
+            { photoReference: "AWCwydibcHAAvRtYE_Y7TqAkhHLW_bZ2_U0_d-iQprHSL1HDzV6mc_YylLzotqUFdT55Bh1AC8NMFGjKHjLY4QdreIYC1I9B7iiWVIsvqb4-yy5zAL_vJab9fWeBTkZ1nOf4rr2yPjhZY3oPJGU3hbAUvLWwNGB6IcGgTGFIHnczazgiRvFsDL7K9l9caePgYR55sKZblJHhklZN2cUyKHfDzBxo5EESYuNglflDvuFyjPc1KWwzzx85phl6fwuGjxLy4j9dMx9ttNyKXrkr8Sz31-UlLZ17DSfdFovYUkRBdTMm9qHxxd1aLin6kWemYZWoTl39H7kKAZt7Jf95eyS1O2aRnKanx1-21Cg7QVcOix0qH3vE_xsPygh-Zl6gx0Ri9ZZD_kJLBt2Ir0k7U42Fh4poIK8XvbULuGEgXuK7KYNjJ0DFO7J5WdDO-9BiQw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105763923364285257160\">Nathalie tsi</a>"] },
+            { photoReference: "AWCwydh3nD4leaf9wBZUENkphGdK2tYpxFiM_HFIv-zY1eGZnJzX_dCpRgL0wyCgeHLldSaq842qhcySBOxQLstthVqV4m-xZ3dWSdQ2sBEJBII0ezUUQsMbo3WU93pihThlPyZM1Z9MqYZz2-xEKi_KQxLnjJm7ejuYopfr0f_mlbC0Mf6kQoohL1TS6DYKeK3RX6jn5SBs0ZsTNe0e4B-rnfbjVbHzzZYS59-YnfXdJ44j-5prr9RK89BXgqBcpC3rUFQSlgae0Q7yAzma7U6JQZoPhMMEreY2zjrJsg3E_dLoShyweSYU3_nTgz3fr02QnIFNIiEqQBQyvfWsHF4MUXlnPaIH6HlaFjq-eKIPCRHy7UNjntZKvNf-faQtszzQEZJvmQ0nJxi7E3FWYblha9Yz3curnuZit2Qkz0TSb9NBWINJ", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104040761724265592108\">뜌블리</a>"] },
+            { photoReference: "AWCwydglG1FOb5tQ53eQo3xeADfjeWG1ThtdxFa0lEoauBj0bIdjaq0sN4qSiWFI1E8nE4FGv6_RpMIQsougrrNvQ5gBquG6Oz1LCKN1wbqNhrJEEOkezMWQH0chs32wHLfOyVLMkGXoOpjiN1TdZL4mCG1MFy9cNej9tXTBrIpchwFAVgkYc712B9-TM6plILQjf58BHsjce5ryMWP_RlSvaoqxPqb9gzzycLz07waRDtlQ1BUgpjDuq2LIE6Zq6hluvqXGoWUyC-nuHuVRjd3NQ2x1qKG7FDW4XJApg_PjxMz1n64NwPGtDx8KMtnJ-ohjS3aEKTVBRltvqc4P3-FMwTMkz7V5FKuWM9YzyL9772SK5mKq3nNNtCU5tvIEtaqm36Zu3-4yJOdNFZqc_g0DPfVMur9kOLWBUdDzNS7gin5dwG-ayQA2QDvvK5NDTscW", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100220955741629206465\">María Blanco Garrido</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰가 증명하는 즐거운 요리 체험 공간입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 재미있는 강사진", "맛있는 음식 제공", "흥미로운 수업 내용"],
+        tips: ["매일 밤 진행되는 수업을 추천합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 8:30; 화요일: 오전 9:00 ~ 오후 8:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2, 6-2/7 Si Lom soi 13, Si Lom, Khet Bang Rak, Krung Thep Maha Nakhon 10500 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.sompongthaicookingschool.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8671363061480875957", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%9C%ED%90%81+%ED%83%80%EC%9D%B4+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "House of Taste Thai Cooking School, Sukhumvit 4": {
+        photos: [],
+        placeId: "ChIJj-u99g-f4jAR7jxddIUq5Hg",
+        placePhotos: [
+            { photoReference: "AWCwydjaIjFamo6vk1kuGa0AmOmdXdCFvLpe1dfoz8IAj3ML1jTF3fwedNO75Hc_LEf0h3EOdb-Pp6ridOdZchXoVPHAwyMZhkv_wk7TdbX4LpS4xwGw_kY0MjLr5cERofpb2zLfEqqTq2X0oEyzQQ5LHAnBPu0Gbcy3eUuiU8-laC7mq2q-kHnii255R8xUNml7RbrODDFzAj2JdyPTnNj6DV3ZGGN-dxtoY2uf9ajy2At7WBqcCXiUIe960cOdI8RGmk1IRH9vcagkKaHFLyGu7MMg0nS6tmrv_-yNsl4R1_IHjwhEH6S_wHRIzBLH7bdPJKbviM4baHqvZbLsKRfRLUtSaBWZpmfw1M8S4WI9537nZoRCT4m7X7a33_hzmuzeA7ygvZoQE_voWO5zOgLsIJIAMbBZ8oerzKi0hsRmA269MWSYk5AFJwcw6_gH4swc", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112222708593713283389\">House of Taste Thai Cooking School, Sukhumvit 4</a>"] },
+            { photoReference: "AWCwydhKdJmEe04K65qJZhOa1thTFldrymAggMilXkk75IxyrE3a4E0Qw9YHRPB_1EJfS1dQ4fcj88-6tlCbTtClmmUdFaOm-RqYj9ELYZuf7UFlpa1u5QKpQpFxJPozPk4hW3xjs-bZjbrYaCYAd_HhXlCJBybbkCCxHCCwegwDttrfHHpK0CtSDC7NB-Sut8ebttsawzTSC9ChQJULCymRirk4VaeNVO6wLBVpWFYi1CznVYZaZHA6sCvJfrVz62_UWA4XSsALse4GNT7lICRNqlmvLgYgE8dvgdNcTTPDGT2GhPUS7m5QaqEq9AdVGRxaEb08veGhJ-RoUArg6gJjB-TZ6GgFk6BY-78k7GWi5cQO8AXacn4dTH4RKS-VRD_6vVu2yR-QBDUBWm16iC6oholv2dA08CD9AHtgtCVHCylFVC9gtiebvDgnsMK4J_n8", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104175695714925387105\">Charnia Rogers</a>"] },
+            { photoReference: "AWCwydjsQVbzLuJZV6fJQdWahYSrWTVle-d27UKhli4XFtx3p_ilarKbLEvRBBrzOwquf1m8p-GA8djaOV8ERKE-MfGNISdvNcqOdfsHvHqb50TXFZB5-Rrh3wfL-5Zryvokf1P-hdo510uGCUutHczKE13CmqNHyBeGCtspdq62-dmkjXQyvxmFVfUo4pc8SPE22jWnoLU-hKJOELbPWRTLO6PkQTlBw5gxuDH-LSRZFb2BHcvxx6cvM51-3GBEFv-YBwn_rFlL5AgRLe6JKC2N71OoAGhc-hee2EBi6DP12qn5S_yHJkl7WVoicBLM778D9kwAfow9T8YBtscg_OSAowPPCvIV5ypaA7WZMSrnO6zvVyTXvh-09Zy0dUXtAD3vkBT3guGKN_Dx2W4mGydJFNCP2lX_1C654a5DFiH9nkq9t9yRJGMpUgUIX9tDdQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111319962890058405588\">Oli Carpintero</a>"] },
+            { photoReference: "AWCwydh2uYiip0U4uezyziSINKwpCR_8SmUAQ0JGlcSSisJRXDJQ9eUBr0mH5a1UphlSNOZdaUi0aeA44tHG-Tu2-ea04uRFfcwYdlJzVFxHCYJKnqPC_7nMf0NTkSkX-4JXpAlWIyPfOLwZoQFs8BMhbBoe6_zgnpMjbGRX8KnaDMuNW_vgucBa0ZKDmHQ_4yqVBFxzzy73uCiF94CfSueEwnFo8mS6Z3Wua61dgCAco8qCxvLPGmFLY5LIgOeldznuhQjLKbDybMWRhnMfGR0a3o2qa9i37tgJT7DuP7gQpZCBlDwbnzrjUYbnA_ef0iYrqXFHZElafw_Rzdq3viFvdbaXBxz-ohMaQwVQXUgQKs3IPlC1r82N9FmH_0oY572sbsDzRAZejOQ54-fWmmKf4Sxxc23d6dZPSfrF3MdroExg98lKjwD1HM-vYjKxtaL6", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115389588155655112985\">Manar Alteneiji</a>"] },
+            { photoReference: "AWCwydhWtuZ6y25gPgi-j6r9hKDh_P9nsbR5VbIeivXeEUxFfOGx7CfeQcmQfPGu-XRYabTWbO_vjmYJMT_MT9dMrJEBSetow-A7CHGKZhaSZgacp0E1pqP6eCTHr_YC2GTjKKZH7zSHl0HtP1WQE6P6IrD0DpBefsDfFXoHgY2aDu7psxgkw80MEZIFKuzCvWT8zxXy15eWZVIlF6552TbOs7sVhUaKIbUE5KjcaGFE6yjKcjk5E2-Q5Idz6egj0ns9HAo7wo7HDHJS2pvyBblxMhTk3jEzcWWVDl9OSd42PZRuaJ2cN9xHbP-ws7jXHDqvnIwWfZyZSsZuC41rpKSZfeHsBvZOe0DOrSyZ7kHXa3tj1kHd90vwk2fYpXr5A1CZ8sERFQQq5-SiEjTwRldiUy1SroWOR0LZr6GGR2xmkisM2XxIIUO-sJP3OP8xkr_b", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109420294069046606114\">Shivam Patel</a>"] }
+        ],
+        summary: "에너지 넘치는 강사와 맛있는 태국 음식을 즐길 수 있는 최고의 활동입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 재미있는 가이드", "맛있는 태국 음식", "에너지 넘치는 강사"],
+        tips: ["태국 음식에 대해 배울 수 있는 기회", "강사의 열정적인 수업 참여"],
+        hours: "월요일: 오전 8:30 ~ 오후 9:00; 화요일: 오전 8:30 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "147/4, Sukhumvit 4, ซอย สมาหาร แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร 10110 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.houseoftastecooking.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8711134331912666350", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=House+of+Taste+Thai+Cooking+School%2C+Sukhumvit+4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Tingly Thai Cooking School Bangkok": {
+        photos: [],
+        placeId: "ChIJ25g-hISZ4jARhRtwhsfC4HM",
+        placePhotos: [
+            { photoReference: "AWCwydgXRw25X9WaXz6WFLzMqupnURAGc8HiZEiWo99RGZfpqNapYW-_rL8eNwidSpTa-0PB3UByNbhyi0BHHoLt4sTBqxDeEhNpvHDXfSKe-c27HgtmHrMNupNHyCq6fElkkTDumTHuZWedyLDNVSMBukCCPzSOBizURwMUtvwXLCBI4dh8ottimr8A_VE7OaWtqHkOej5bzM-rXkqsflbXouHzIdxb_ePHnWXl-nS9I9bD_f_cVI82C6fhoytczpz3Tn6OU5XyFMNJ9dsfAkYsgkalN1DNZmAPa9zd0WX_aTSy9B5vAx9Y89ypn0RWIYpLfFkJLN_HBowiEfCLNvSzQGENW2kHDOEPwIirzgtbenf9GNd3udB_0aTQrMk1dZL-JuBPeglcnbMkr3jZhLBmbfA0g0VJbzOfzJYzEyh3FME", width: 2048, height: 1153, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115892979234629440600\">Tingly Thai Cooking School Bangkok</a>"] },
+            { photoReference: "AWCwydj1hohipEEjW312bfs7nFHuEntZf5J3OHA3yxkbbPlQDulkiYttRZyWUqcRnKFzhdoOOMDruM9yY6zxSSvhaRxKNmxtfOUwY6axJoKdyaheoG98Cx5ZaEKXb0nhaL6DxHMws1gp9ZoNv_yu43RwRjlmJDSzVCkJzv9g-Dt4JifaZj0lLpFged6XkWQCoRU5y7qUEkL5mWFbAcYk2nhNCDZ3MEu7x1gZqq6SqzddbGOALCEn-Au8_bYCBiki6kuYXghg5OFPe8vjQ_sh6LB-rgM_m_EfwTkASKWH7BG4rp6aukr5YwTKii57fAEtkaEGwKnv3phY7hDYqnxrEHAOnHqzOFEzB6ujIy8HX7F49NsE62OwIu-XF4PegpcHjMCu8tIZNIleT_tn5-v5Ou32feSGp9bmIS8m7eadkJSx28IK2i1vCmoqvA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112483492466049879536\">nathan bailey</a>"] },
+            { photoReference: "AWCwydh1YswLcG0BGPo_iJT4orhuQ9IM7TlXbNETqqmNbDCkTlU2chEAxIE3GUTV4wdWM7kgsus7Wcyj7rSqZkjEpW4CJJOH7cfU5ogwHIN7Z-Q0mIMAryX0Kr4V53hXTMpHQ_OpXjhTj6HZkpceLA4jo2wgL3_XUJpCcxr_xshk9pd4wpqu6yHdTx36plclqMb3wnnSk5oeRDBjwOocOANuhzURdCCMSnkDPaWdKnpBw2cNKWH8D9AYnBq_6nUeo4_GbUKOi7marIrmrEw96jSamNCqUmC4JJXQIgC_IYp1yT9tkVoloFZY-ussKK1HwmMKGN1fhTX66XRT0d-woa5P17Ct8yygyJx0WZHLeKnfow3RudT8ncNqYdVXhV1c98URu3fJZO01cTZ7iUA0ijYB_N1x6WVQD4A81r2gOjZd_8Gm9P8Faku7U9LUj6dhhjZv", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112353846866581082106\">张竹</a>"] },
+            { photoReference: "AWCwydibgDmHVuUgpQOVuoLUUnXdTzYHz1mjDjy_lVs8QaAE3Eb1peh5J1eW8Z6dgMPD5eELfbWb-dwo-Hgee5Uln_XJllj2XyixoIaNRFhOc1tfJHpKAZecw7traIebEnH-gy2WATSBIPNgpGyXZaf-y7XTM8e3GCe43Kc0yhZBeCT1hKQWTc0o32WKLFGZqOW26DJFhsqUeES2j0pZVmmcMI-dQ70sEwXjt_GIbIs55PwRiPohiq0rTV-qjLE-Yb7XYaZAKupPXymEMjyiRM4cSCKOIAfsIdmoOLmjK3Rrs6RLZqKEhpSCgvdIKRWKmjqroNdkvIWPI0BKRn_jNVohGxcJFv8r9pk305W_ad4QLZqBQPxRegvE7M_d7z3I84wcabnmOwWwQMKrSmBnSmM495Jw6zfv9ZePhxKDCJaMQFq4MZW73epiXepW5J7_Qkrc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102814356921010877406\">Javid Abdullayev</a>"] },
+            { photoReference: "AWCwydgKDkvsn_Un7JbDcrN-846g_0xskYmx4SmPU2ODu4--Pp5QHjYuh7Rb7b-G2ZtLrjesrtMJWWZF-D25F_ixBhwbENByhkygdmaGUwj6m8eyCdC12HMonWHx6kZZEBkyRRTSpduRDs7ixQiXVoHI_TkggAgbVEZ_oBvK5Q85OjkxE8MKQ4gvyQl-EgtjvOog2GlRexhblH4piJ2Svum_9eFHut3TUZ23p9J3-CtfUKhzA9yEoVLAOXzPX5-5B8eE86d5vYAr2XTLNuEGc-ulUjK1RV0ufzG-8lxPqvv7mNjtuIMUd8SRz407NiCF3XH8IF1u1kLPpOlsh0Kn1HrCYC618sYD8hi7RymrsRqSV7KOiZv5-LAskEB6sDnpP69HZw8Uaz8jsthqhkYtc-xIz0Jy6EchHq0Djpznmuj1oCjeoWE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103674208236131240900\">Godfrey Ma</a>"] }
+        ],
+        summary: "전문적인 지도 아래 알레르기 맞춤형 식단까지 가능한 고품격 태국 요리 체험입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["신선한 식재료 직접 선택", "알레르기 및 셀리악병 대응 가능", "전문 강사의 친절한 지도"],
+        tips: ["알레르기가 있는 경우 미리 요청하여 맞춤형 수업을 즐기세요", "직접 재료를 고르는 과정을 통해 요리의 즐거움을 느껴보세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Suriyawong 17/1 Soi Prachum, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.tinglythaicookingschool.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8349887871354674053", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tingly+Thai+Cooking+School+Bangkok+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "White Lotus Thai Cooking and Flower Garland Class in Bangkok": {
+        photos: [],
+        placeId: "ChIJE2p4AReZ4jARY4KCfKUGRPk",
+        placePhotos: [
+            { photoReference: "AWCwydi_bppaueafANsBOcLK0XoJr5ZKu3BK0WlwNXEiudd43wynGsyHTTOv7qputZwp4oChSrf9hSJHUOk07qxTn64RZbRo5895LM6srxflGFMb3yYP3fiPBRb6no265emPHVCeDgVP1VJWDLDZNPMoAVhSKR3W0YBiBDGi-SWtN6utStTWyDHCL_vNyvtnFDii4G4SgQONMrjccmqknUlqVflgw7pQfLlk8UoQZLQ9o_-1t9olJ9zdJGexLvmcaERbKcNj7x1oLMQEc2NjhoX_Mma5H5R7u6yhYbULX7bq7snSGNz8_e2hi2JMEOIkX0RLwcwmhC-bQLHV3tLVMF0yL9qukJ3Lu6g3TaojFXM00-DktBBZeLt4YoOzDkgW9lklF9gIZe-Agji2G-h7xrgbehMsojenKeeh-FOG1gMOtNQKzbb8oKA10f-L4zVF-hqV", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104828859823464833205\">Pierre Rouchaleon</a>"] },
+            { photoReference: "AWCwydjinAQJHHWkcBemZ7xbl3uu3bzsLl1HT1TsCox--JfN9JiKiRJqlBu3XTN8-uwRPWAo1LXLOhZDQhQdVnrP_9o_RmjhhA6PjFQizSx7Wvu6JoD1qL96dXvl4Z40O1aH-I046FWDVCSYM5Bq6IylJr-xI9P7RACYvYH4z4ssTLWyWJjK2gXNG0uizDBjFuxktPB5pG3p_gVlfPO-qskbqEOYzPuHP2zy8YILlnPWXA-yIMo5WZEp6JHpX3nn7gzkFvhkEiL97b1bQe5ylnoJ2pOZ4z-E-hF_2fFRLpjXKUgIdsHBmGRyorYEmpehsDreDExo8hrqUHntuqHw6mPJAQWc9dlnR7rfruexENB3PWyCTFsawBMMO0yyMoZHoSHBcLFeSFmZsxZl-VhqR5AnU5-JzvUEOuI8-ZTEYb20cQRIBqoqU230hr_3tAUhTg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106642030664323687351\">valeria ballarin</a>"] },
+            { photoReference: "AWCwydjin2gM-7RT_YPXUl8ajvHT04wN2ACObwpf2qmyzDVdkCVtcYX4veOm1SRc0-YEH7B_u6EFJI9Z7m7hYWl-2Li5UlpWcUqlUpuPt3JOQRlocwSbEBzyTltfjRCpRL5H5MK-7lM696FYN8dP0tNjAQP9fabVQylNJ7NohkATqsRdIfZD9db5V-9aQmdIDn1pVPALpFf056MN1iT74GALE_Sea0_zBfaR1eoHIUmT_K8ztInAdd2jy0rocIfrA2eKWtuGor2iILKzKpiIp95c2UpbK3AmlaTooTXtAp5IhIdna-xjwgG8kAdZqpAqh3NRGBB45QgBrdVfx1AuTmwgy6GSpl4q94U8ALZNA0RYHo57ffZRHZnquzATU8pibmbXl0re_Hn1BG460AAxdejX-AkkputuCRTXOBiE1TNdw07edQx_kAAKLgGJ7SkVsYeH", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102802549825911617013\">Spaghetti Aldente</a>"] },
+            { photoReference: "AWCwydhlZSnY8XnFaQdH0L_cIq4X62ih2DjmMQtUdRe6UTXyqdyVs5ofdpSvJeJ5mZd1ZsaPdUN87czpwjT4sHYXYZiNmkcCBdaHFoXgN_22A2LK5lzqChi2qInsterDwvK-4UNlWsdakZcPHAGW81i5esyIJ13kYFPXMgZFzl_CMdODznFBRgy-oODya6kZljYGaENIQB5MaEq-IFoP3jAhs9hvL1FfByFQTIS5TvxHB19NOnW51LCSmRfSR93Db7zERDz4M7lPVwKdRd5ifL_slRQZjFM8FAYl2KgbwALHonpCGMUnhVanZnEEwPabzCMiDf44Zy3D9wHzgggKh6ffvHMKo26U3nMHhRD_qigNprwW0YmzKlHacJTjwgSv_Tm3fIesbAcOAPtVYfEVDWzgBCOdOW70EXCcvM2zCsFyvWDfRIYwWyUeLeImRJodMA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106734992559114051787\">John R</a>"] },
+            { photoReference: "AWCwydiz8nTfaiwrQusHRqETmfvvMlhkIy38WdpDunn8X_Hd7vitr2FoAp_r14HN-Vabf4QPYVNn_P5pYp8IH4ghn0e0f26W5ZgrfjUJmzcVribinGCM1gW6YDJRwbflXUdPsiJcU4VHXHNLk85d_lZePZt_HFuevcAe9lgIJjRikiP6chENvrzIAcPZWKt1ezrO5jPG9c7XfJwGrVx-IXto6Ks2oCbhGGmKD8-Ypo-_J042rIozk14f7fma7X_mZM23ru3t4SUvOIcCla-4XvOE7dc1K6B6xSkfUVRKTQLekUntzLcs5hYFXDoU5FGt0bZdI2Z41GY2q78PQwvdQLfwRNm6yBnuuGAGe5vHb-jcvrTybTxfud4AA_oHw-d3w-IGetLB1R0UX1tgkOW-nHYccxXkITZfyq-uKTpENmcQlZCb2KuClQeWbFowN-mHOA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110119530158163900747\">Stephen Chua</a>"] }
+        ],
+        summary: "시장 재료 구매부터 요리 완성까지 즐기는 태국 요리 클래스입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["현지 시장 재료 구매", "태국 대표 요리 4종 조리", "열정적인 강사진", "깔끔하고 맛있는 음식"],
+        tips: ["아침 시장 투어가 포함되어 있습니다", "똠얌꿍, 팟타이 등 다양한 메뉴를 배울 수 있습니다"],
+        hours: "월요일: 오전 8:30 ~ 오후 9:00; 화요일: 오전 8:30 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Pak Klong Talad, ชั้นที่ 2 390/18 Thanon Ban Mo, Khwaeng Wang Burapha Phirom, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://lotusthai3.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17961488521688679011", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=White+Lotus+Thai+Cooking+and+Flower+Garland+Class+in+Bangkok+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "실롬타이쿠킹클래스": {
+        photos: [],
+        placeId: "ChIJn-AoPI-Z4jARtt9oYpx6AXE",
+        placePhotos: [
+            { photoReference: "AWCwydhTkmvwX-veJgc2ONCkKhNJu6FIMAfKExx-0BHgyRJu_d3J_IsI_guW0sWhqvDSX_Zi-BlCe0bvs7jfYmfwyD-wnc_wJaIzl4vmez7q1ScAjduWKgaqeC1NWHpshINk9cWFDWVl7uzPYON9neo5BdPGJBeDPUNgE8inJqY9lLaJHeHBwHMIgSnoE8PViyH2OmnT16jUn0s5_7EFh97byA9MNyghgu02gSqHkj4owfzpn76ZIrJx4WlZnDjPbYFKUa_XLO-HQtQfd4WvjjjD0BTbqtwm-36bgh30qcFeJ-xwv_MPXR3HoUJXqsnaATblhnUAX1F1--ink2UKQQ53Oq1w7WY3cmQReEGWrhv6VKUFq8nrn7wOAm-L04j_fkusjgnh541kLUwDOSDRuCIBovaQpSDF0ZxmItMKfEM1WfcpaWYt", width: 640, height: 359, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116358421534887738544\">Silom Thai Cooking School</a>"] },
+            { photoReference: "AWCwydjZLtcwPNHTdUd4yi3H9HwIZ0u4jQpE0Gb8qNXDOEpn9qXt54IUcwjRxUYK_xaUSB2wCkqaEZ9GHX_Ao4wWnevph5fWqEltCxnZBGX45tNLMHee_hRNJKNbCDA_K0_jlNy2HBIxri8alDJUiz_FM3s_YCet_cIFjahXnAih_r5q8y0ySZfd3M5qXdzYa9l2KhfLYFawFcy-Qvo6_IJV-wAgO2mmA0hTWu3kqnBgXMEU2QVTXvMK8tqVw3jyhAU5yJr6GngtswmZiR5eSZv49xcmdR8DwtnDJt03VhBPKcrEJ4CA3EW86-7dpZfLoWXIvnZwY3ghpKZEJ2FsUg8X0afOfA4qZXQi0HSxNG1nENGThE8qZllWqb60B8ZwANQG6oGL3s057EFJh-wR-0TZ4Nec-5t82sX6XyTPLKL1Am8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115674050904072947701\">Youwei Teng</a>"] },
+            { photoReference: "AWCwydhIj1fpYKAyPeoD8R7gCdy05JSpgWQ4u3on0K-rpgyS3tndnS_V7mYqPTJk3luNqieZs4Fhzg5JUnzb5DOMpUhUp-rV3gkbD6FUHlHwPs3Szjcdzik-OCrh90CQEj5yLNQ7OahdSS09EUYxLIxJSzC_9SFoHgZAG-j0S944vRgFaHYvHRSMFdhHDBcpVN5YIeAE22DW5ylry7xVrWBbMCOR4n8YiU5YD7TsbgZz5hirlMO2Q1flOeCf9IcWaX00RdkPAFnDsjYx7Ps7_3wl4px_sLg5z4mKfkZWszy7dNSl1JzsJ00TAhXsWF598_AS51Oo3gOn_HyCi4C1cOCMePsAWtb3AVIsfCMAaxrRaRKZ_4YutUQ0mHNMJmatOe01ZfeIo6xIfLxtQQu7xpgRYyL7IVMjHrDollqabX2QLP1CKA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103837016195844902067\">김현빈</a>"] },
+            { photoReference: "AWCwydiU5ez3qShYCSJ2G_GfpTRFY7rz19yRgunwT08mEu_EgJerKWvQHlvjN4ZApJSkFTpXJO8Zwb9780k2e0YiDR2JsbeAehiBoKzN1PUPIkaYKwB79tBeFNyOllx43_qit1Zw8gv5gk63k9doMDtu6LQWbyHq4Eu9Pdkv96ZkS0V7_eo5m-c6MzTPo7Hu7ezElU-EITO-8ecowmlxzUmwbEAsg10x_lgZldjBGkRK4muxxsSeW56Y4psa2N5RM6mfXbNdUPP8-DlpAcqSEkOzfmOUfWzaUCFEQkV5fuLh4vkzl7JpWN2za3-XOWM0g0dcu_YayyRj5mU_EVBSDwu7-_Nbp-di4kXeG7FWuo1NqczKjgrQrlimV88NDHcxNj1kmJg_TyBr7P5mmtoCumcyQI_oLLIzFl8c6n35P2_bhoQ", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105472589096454516548\">Raluca Gavrila</a>"] },
+            { photoReference: "AWCwydiIYae5pvmTThExEMokkzd2b1J0SZj7nCPl4-p1w2f2rrLCmQO1fhmS6DGhS0czgNeklUuuhJkhdaMIw_Ax_63R-_2dKuqHs-aOwnADYVKPh1reS-0YiN-d_UtK92ebzGqsy01aBt1ihcsmX_s72rtlMgbNlTW81h6e6wB5a5YuPe_f7dkgEFAZeAT4eM6ad-K1DaHaaisS5n8DXIkfu2x2GKk3Pk5mOPgwpe21HWOA6KgSdPfoNt1tdjGcwJXFLJPOF4zkb5zdnjwnuzNBrw2mKskyqEAtnTtFx4lgO1MDlSU7JblQUIAjdpJ2YyhUxY4-N59P02QPNfxyzO5ZCgVoutFaDbjxDOH9ofNd_3wuaf_4uLahhwXlGUTcHX9HdNPD6vAHv93VlWKWCDUKlLIrnub-IcmPlTKOfAbVatBsA8e7", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107267837311844825374\">Chaehyeok Lim</a>"] }
+        ],
+        summary: "친절한 직원들이 최고의 편안함을 제공하는 검증된 장소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절한 직원", "혼자 여행객에게 최적화된 편안함"],
+        tips: ["혼자 방문해도 부담 없이 이용 가능합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "เลขที่ 6/14 Decho Rd, Khwaeng Suriya Wong, Khet Bang Rak, Krung Thep Maha Nakhon 10500 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.silomthaicooking.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8142924413347094454", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%A4%EB%A1%AC%ED%83%80%EC%9D%B4%EC%BF%A0%ED%82%B9%ED%81%B4%EB%9E%98%EC%8A%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "방콕 카바레 칼립소 쇼": {
+        photos: [],
+        placeId: "ChIJC_6rVr-Y4jARvCOE1WrWCKU",
+        placePhotos: [
+            { photoReference: "AWCwydj4IoA1-NoRA_uc0rTXOux3JYrmB0U4n7sfKxFnPiJV3Plpy6KoP7sHJtkBA_JZ-U0ZC1AJa67X17zLGc9TTVpNOVLYbiHKdVfvFAV4zFJzhA8vsLhpfWWJ06sJ7t1Rx5kXLOnRRxCu7npKw7x8TNr8jPbPk12n1_Q6Bfce83vxM27hJM6Ht_o2DyZcRU8eviL8wEH_HK0XJjFoHWlncRvScnBhx33mOjO777QK0jVKR-h4T434PhwrPQ5MlqEFEEsbrqco9kKZcjCcqPwZ6T6A665KWWAdAC527sIxQ-ucPZAiljxOpFB7-jtxvCbYXSZ6Tp7ye4dDwIx5rvBKdmKgwNwJlGsgcsM3Ybr4vmvmiYbfRbu3R9oUiiuEzhGAJBWEfKtaeJqfz4w_m5gCnpI9_aQ0K4mgloEKE7P_Qia9WQ", width: 750, height: 600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117589214298690899426\">Aakash Sharma</a>"] },
+            { photoReference: "AWCwydgiqchRwJdaSgtlVX90OvEyCCEbMTn9lu--jk0MVycsYrA0cLXWHTBcpkF8lgJK3MmdW5GI9VHwMGDEcKZ3DgSdm8ZqY7Bo5jfq_Dng53S3l8xpvxI2YrsXr0nk2PnCi5kUT1IBPg_tA4GWQ94UXhakC9zqarZXb79aW5GkwZ1-H1IdwVjeDndimLHEAW35db_-OcuIA4nuRGb7WtoiVyFudHck4-ReosL8tk4HZ6SIh64KOrRgFwmKFHuNNzw90_Dg5WXKxyrh5BW7UVY-Jxmm3WjVTC-B8FtMJz61qPFlVZW1cmHvyyuKpMo88FtaoxmeeNBDWvJQJlNQRrd_CNOkRwxGdoHFhSExBrdAtU-LBa9ra68kGLF2mXtWKWlSenHwU5dTGFLVqCbSvE9qwVeVTx_i58QCI-TD9LGIS_P3qQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112411343963568940525\">Christa</a>"] },
+            { photoReference: "AWCwydhUzCZxVzQrDzuRN20_BQqBGzo0crrtL5F7d1hehsCGn_tL0XeCYr0nTr1k7S4RK1c-N5uAnkhasClDy2ik3Nv3Qvr-wllXqBfmOv3eeoel33wt4kUVso02bXGJKWzDOIFAcohU6EA-3z3LIuHm7JHdFyAVIGFweteHxOeFpiQzgUoZoCzZrKSazrud17uOfmchJfBYwPURUQCvMRCoPw3KSKSt991a4bKnx3viLizzXdYSpjeiHsQESprQ4K4Qw6dSEGXH9p9CN24scCGxZNcXFkMwtem9ixsb_W4zCxfOPTAs3GjZy0BqzMQ-DFWz5KqQ6KxE1tGRYmfESdPlN2pg43qfMisL52Shbwr9ppt4iWJDQiRTAi3Ky-D5VrCuwvhbstO59Q8Yu0qMQ4x7RfHekTMSaCnWNgS6j-otgm22ZHtthztmdXoIY_OvHA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106330727060652516557\">B A</a>"] },
+            { photoReference: "AWCwydjWKlLEYdkGx6xNU6tNBXNrIfLHadZtsbEXN-zG6rYnbY10BXIbuwZXxMpqMSJZO19dD6SxdQCNMyJYS2iJuJi1to71r5XoROdPQCpbMz7dZxoIei0PbqQMi1FYv-P3YI0LUETcZj6C72-rnX1cjG0RPy8H5L8h6DiThQYgRUoGqQusd4xRSUuSFZ7pWyhULFpWFGNwj5wMwMJZEhJdej8S1tf5QQipd8JPF5kDh8kdB8dqm-CsdzrzplNWK3Ygr62Y7ZCI1jhQfDmhju5Q8cxhC5GdA6IhiIJWVwQcsSRxwSNgdSUNxr7yAfXLGRNnHISjfNxyF5WJCNPaH2412e6GdgZZ-G0xh8MBAi3V_E7qlXLAThi4r5udAS-OUMq3_MI-OncB0o3Sw4iCd_Tlgy756Lx0rTVzrIxKkVwXqFobYVr93X7xU4SCl6x7iuBx", width: 4782, height: 3290, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105536450950843905978\">Steve Long</a>"] },
+            { photoReference: "AWCwydgBRl6TAwAsqtKp_RmXAgnKIY432LKqLXJY2XHTCFrKLdwjWWhtdL9MMg1V1-HVBYWzVDN9RO1JGYXz0l1p0Zy5CbbUtAkAazrDafHKSxMMIhPenXVArihwJUsj8QY1n180_PxXgOqM3kwRA41aY1RSjt4fezfMPvbFAhbRtTvV9xhnK_kn4EKWRFbSi8QEV4FZzVBTl3OGoS1Wp5qyP8kcWet7BMQ9bX04XgzUOeKKRWeCpQ8niQWBaEpdnK-cF2gXSOkDUAS0T4CWrwz4y9jBJiv0qljBiS_HbGJFLFl-57xeB6RVWdlKuWxuy-8U5oyMjXbJOcGZEkJrKepNqYX8qoY84AhrPb57J5GE88RDAgNjGEBvP8fV4uzKIAz0LUKPVAOBgrEj4inGRuBJQsWQ1NyBgnm5f_zKJiagg07ZgQ", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112337513787425164537\">유우종 (이과형)</a>"] }
+        ],
+        summary: "전문 공연가들이 펼치는 화려하고 즐거운 볼리우드 스타일 쇼입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["환상적인 의상", "볼리우드 요소 접목", "전문적인 공연", "모두를 위한 즐거움"],
+        tips: ["볼리우드 스타일의 화려한 의상을 감상하세요", "방콕 여행 시 필수 방문 코스로 추천합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 9:30; 화요일: 오전 9:00 ~ 오후 9:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2194 ถ. เจริญกรุง Khwaeng Wat Phraya Krai, Khet Bang Kho Laem, Krung Thep Maha Nakhon 10120 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://calypsocabaret.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11891990570408879036", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%A9%EC%BD%95+%EC%B9%B4%EB%B0%94%EB%A0%88+%EC%B9%BC%EB%A6%BD%EC%86%8C+%EC%87%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쌀라 찰럼끄룽 왕립극장": {
+        photos: [],
+        placeId: "ChIJeR-fcxqZ4jARO_rS9c-yJ_0",
+        placePhotos: [
+            { photoReference: "AWCwydh4k2ztclolklZ1efhtkEr3joQS5WMQw18o6FXFyl-P5LdnmB4XAW57JotccH-Hl2ctGZrVYCrA5Ptm5RrryJm_GknFzkJc9wSwHpB9TpUu01Vw4OSsdAcaMMKxvAdG95rsf2edjDhsi_8TbEKjRvOC5HmUX4Q8oCbw-CByaQjExvPlyfcnRHyIxojEUzCZq-3iCselDebtTvJGwSO550tmfWmsvJgWZJMLOPw01iMZqiCGTI46j3obKNxAvTc_Uefk236asziuabk7nUHsL8QXAkThjbs3PBq-gxTc8B13iZBOGJawhQPotSljKivewEpmRLuPLO-qj5jPwF1tSNGhV0k_2LIgzwP-99fC9pEKDdraxBInasn5-ndoN7B6igRKpo-JDgsSEx02r7x2uu6UCBO2bSns2dF10Xpze9U6y539", width: 3000, height: 2314, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115728372314224986331\">Aey SrirathSomsawat</a>"] },
+            { photoReference: "AWCwydhVW-CjIJGk3we2gvDdlL_qi4de9huq2SnW-ZJzR1Ozp75z1BW-tVWwQQKaGgGY7upd2XzS9qnL12xJ-9j8uxvr33yob9PRFKy67-fjQ5tmMCUbV6Jg9kVIYakeZen8kj3J_gufj-TcymLDjpM9Pb7H3q-Uboc4YvLgWYzk9pOKaUqRaJ1Fu4cv7X2lGE09HQ_xVgvcPbD-ZmxerDT3lhioVgKROibtOhaqCVM_3jSsvk6r__u2D-i8B_dGJZ-Ep2qxRFahelHUKme8_NWJM2_kmre_XYMAD2tpbcidkTHclug1ufIBr8k-fpBUWmSYr6kVY1qaKuC_iVYXXBUuWsOytgUtqQkaQDTr_RPUX-WdddAismT7d5Pfpufd80XXKCtmi1gzZP1Jo302KbgbRsTQ8cwKe09FD4ELs0bM2iwIRso", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105740770023487636796\">Lisa Baker</a>"] },
+            { photoReference: "AWCwydizEraapgnE8Jl8opiSj1nSa2ZiL1G6gNubOXBZKzdl4FnDHx4gw4f6GKzp9GAuLjQWwM3FZ6yh_mpsmFjNRlZHf6aa98UMXIZvol1zDCWdUQPBVf79dNDlAHLTx5tr3m_Ag8I9UAh5qmH27CNrjg6WAfjwWjzdVt_ZXLUYZNd5zo6Rs_GjBrX8hxqeyWXzk5m5rSW-_rbR-5zBZsSyh_wZDHW72Gl9asa0ntQ0tspcHEDPv026melHIH2yPpewDwEWCRfWhNktTzd6cnXixC_Q5kkWEMwmC5x0vNXsgDMN2ob21C8ZmhewFTyM9PwJLFsJIPhyBfr_YQ36EWhLccIJStPDn5YAF870UlYwUFscPx6rhkJC1X8PtGbS1_2NvWAVIeLTZLlkaty73dwHzjQylAprRvi-uzc1wFzLsBHw3A", width: 807, height: 605, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116311997732393207918\">Himapan</a>"] },
+            { photoReference: "AWCwydjvu6ZlDg7zwGmpX9kAn4JzpYfLeecs2vSB4MtfWVtYQMxjIWcSXDtqxjeMMCERo__oV5s84ihwaiNacy1f9IuGmnQSRuwh7lLDHFpY27BKNZDhMigJuy_Z050whan5aeCnwa-YncGii7q8q7-0sflHC84EJjsQb0O_6Hp53BoTbVh7L6aGeLKQbfIfMLPfFFas7rZcRFbk4CX6zkauNEGaxvIhaPJXPJM1vcoaLYhvAyqotpwB5TNLCS0Du9Hptbk0c8_EI6RhKJ2mLT4HCTE7i0hdBd_TL32TyrV8HNRrW7EHHexDynNFpafVf5-vyf_dmhLcSaQk3lP6sZJaOk9cfVlhgJ-XRESwp3kEWh4Sl-z5uK2MDvS65nProUBEUw_WOJ0DAz-JvKF3vRCH8ifhXJL1NWamHhe2kPUPdDm7jkDkEAF7IwQGZ2z8KA", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109076098331425505681\">Phach Tang</a>"] },
+            { photoReference: "AWCwydg078Ue3Qb8XwSx6xeRxsu_KIZ8amzC_mSdk2EaeFgaLd_NQatPNHYPFB5zlmECIyF8gGMgwhVSJ0cMvoVBWPrzmB-fg2Ol1Swe9bImHGkEoh5-anSTU85ht-1GFn6_ZWHJvzi5UlKzE5MdVCYTJk3dQAU4f4JNujwIjuQTpV664ZqmN231HzV7-NrXpzGv9JnepzC9hRfNs79bnc6WVBbsBCjJC6bUNyzLfaYGfO1wy8ZxBtq3pT9GbZMugqRt0PLIglvJgkz96_GhDImUTCch7HnTttpJ7AKCHDdxQ9nW650DGKX_f7JbYUC4IUkolSgXsLE9A7dqI8vr706WaqCUELKmKaFMIWPOV39IyWjnrKx8vUnP-b3yIG5a1r-k7_Yz_82m37nykSWOar9YYPc2mHFb_afb1Y67R1FwPwwS_5ozMmm1dQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108400904194768016223\">Unna Channel</a>"] }
+        ],
+        summary: "3,500개 이상의 리뷰와 높은 평점을 보유한 방콕의 대표적인 공연장입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["웅장한 무대와 음향", "화려한 의상"],
+        tips: ["언어별 스토리 구성 차이를 확인하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "66 ถ. เจริญกรุง Khwaeng Wang Burapha Phirom, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.salachalermkrung.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18241745421939702331", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8C%80%EB%9D%BC+%EC%B0%B0%EB%9F%BC%EB%81%84%EB%A3%BD+%EC%99%95%EB%A6%BD%EA%B7%B9%EC%9E%A5+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "국립극장": {
+        photos: [],
+        placeId: "ChIJ0Y5O1QyZ4jARwRjXvzchHsA",
+        placePhotos: [
+            { photoReference: "AWCwydgk9v7pyeOjYyOxMmnJRU-E0f5hxeRdxi586jtU0b13bVOJYVM16hXrrBsBJxl_cROso0HAd5DDFlHfojRjilMe2SpcAv4G4hu_cYn1CqKL5nZtjQIAF7mbGax2thZEqEAVdtUYC-Z314F378AaHuhwB9_2OSHNHfZ0_aYCVo5wJrcyx4dkJdp6vOonpMmd5byhF_T23FiOnU5NU4ZAwFRMU0kp4YmxDaj7XeWaAN6wK-IyjJkQUST50sQwWQXSPlml9fNlQRNjaPbO0RAFhOnvClFbuzD7v4n7tMsjc5igRftL76i6ODCI_GTH0H2cr_6iRDqeyIT_JF58Jdv8uyQetDhQ1yQ72NO02-pltcDF4cSsJ1k2BWPxtqnbsdAOO9rspQq9dWD4selmGQVTRbMdLr2Et0mxQrJan5XnKhuGhRK5", width: 3000, height: 2003, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115728372314224986331\">Aey SrirathSomsawat</a>"] },
+            { photoReference: "AWCwydg2YEwgZdz2KorWCdmY8BJX7fkvZUgKOgit7U9FFKyOdgz7FZkW-nySlRtLhcLHnEf64hbIJMDY0_ev5Gb12GTZvAY9XTXMgoqSSwgj_wpfcREl4ROfR0EpmAydjkBnEP9c5ZYGqrUkPoIOcUo-KVORpOoLGXcV_k3p9lia-zdL9FDoPCTuvJYrcGTyWBSCQ_QSlvzvPdNB3G8oeaoVOeElLQWeBjdeH5gn3QLJ0UJ4crqIYkLxEZQOsRclxuq_zwxmfLdKglkX0DXPK0WM8HG759LsHV_UEoofwDcbF2VdKkCe4ug9_7cb8Q08t68-bC0fMwjpwKDuyIHLHHaIcB6Yv3kCWJwN8Vbr7fvFpF8JvtzS5ORTCkHkOmlE4WzTQYozKsWpsptzsu0vtvc01RtLnzjYiFY7Hb8RBbbYs5x5Eg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104324476371490691076\">Buffet Chanin</a>"] },
+            { photoReference: "AWCwydjaAzv_904rKzEz-vIeKy38buhw0B5DsFJXX5rTJpoGOx4eHk3qNI5Giuw7ZGTZPdTPIM8h0JxxhJL7ieD7QvDJNMjLlBIovT1IhwRfoobS3nNatketwchCDhUpvB1ZdY_4s1Y2jAYuD3NKtNQ4AWPTMBN3UVJI1kfhlWpDHfLlnFjFK-Rbe2f-n3XLe6jKY8iqNU2k3wPahsRuGqGQZEUTaUI0qPpJ2KL0tGeRcaWK_9nlWOuoxBe3yddSiVXRbelm56EHqoIL30JXqdLnNnYv4tB2PaRqX9OEWELB267p05Uf3cTdzkvqQaXwPhKoLC6LX0mhjL3aLtBMNYJBr7t38tH5YOrjHM4aEth4KHVXEv91eVSSu_QAFvKtCXNMEqIR7M_BI5awb8OyFZ-c8HqZfTqYH4HGG110zYVlIWHu2p0", width: 4569, height: 3046, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101796861001134206408\">Darryl Hobbins</a>"] },
+            { photoReference: "AWCwydjbdpURiaxz59mPlxW6GY8R7ZEaVQNBjYSBeC_stZfvP_N9wOk2sAExSiIEy78vipsSX8eo6fMpMSpItlFkXrY-6uho7lUJJkp9NXgqQm5zvqs319vuYbacqXUOAKjNj7YVpPo9eYUHVcfI21i6i0500rm5l2lDrhvPsEqwUMH2g41J1IcS9rafzLtC0FZw_uTM4iJAeAcZVUvrg3IBZmNM22GLA5wh-LGiui_20NzwtLqyIG1EArSC9BR9Wfw5FzCgJad6RDHQPnhaf98fr6G7aevpUNm7xqo4FIfh5EC1mxE1b2daWznYftMLha9NxbQKDs7wJ4Gygy2J2is8hbdxZUm6TOMx51ry9vGsbnLS-8zKBhaceEUXlzkBCtKh0X6jMOFD_7EN79ThHBw4sAmi79anmd0lPpeusyGNL23jCtEu", width: 2934, height: 1956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112738605546046578709\">Yury Kravchuk (OkoGuide)</a>"] },
+            { photoReference: "AWCwydj7fo4D5tJrwmo2v2Frhh3_X_SY46QW4Z3JfTFiQav_bYDZeq9ycv_bfaH-JI7MmYUr2Q8HwVziG6H1PeB3fcObqplxgFkmIp45xTdkRsAZsEpHKDlXW6WsoKnUpqLBS2CLzj3p5i7hlmymWwcYiQdcxKyvGCWR5fMw5u6IyduOGpiJ33GnIf1-1qkwVG0sEgGrH3JIoR65bMMfM8HeXHcDq-UI79NIUswzFBzT9PxGpgz-Vq92cwQIFcKeCd7a_MzJUI_9N414Wdq7VPxrk2dv5mypK7t263osBKcVQk0Iq71OmClu-f27cdvWUOazmaXjYOgsAnl5yehd4pdtg404pF0NIpbPqrSLWPRa2JeN1ySfEzhcowJ4iueic-jSMygTeeVPknp2ZVnSBKGlp2691Q54KzcNjuLa7PgbptAOmA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101588444792502134779\">amnaj wongyara</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 보유한 매력적인 장소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["아름다운 건물", "철저한 관리", "독특한 개성"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 4:00; 화요일: 오전 9:00 ~ 오후 4:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "4 Thanon Rachini, Khwaeng Phra Borom Maha Ratchawang, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://ntt.finearts.go.th/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13843538827908946113", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B5%AD%EB%A6%BD%EA%B7%B9%EC%9E%A5+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Aksra Theatre": {
+        photos: [],
+        placeId: "ChIJ33mMA7ee4jARRbcTlCLdEDs",
+        placePhotos: [
+            { photoReference: "AWCwydhO3RnivmrCcOeHla6bJgjKokE70wHTDDj1EvhhMFsdpfxGhE9or5im4Ru6ybzZRKaWkr2NJCdkqUCP44zcbTCIslbwAiaQcgH6414iNQFeFgv5GkGxsQ9OuTwJH2H3rs3V658258bugkQ2opAqcvk94Y6djxNhHLKdZQ1d_Oy9j1lQohRvifGs9AME-tdB_Vn_DAQFoXPwlR4vtOTUpTUCw-lJIouyom2G7sphMe2yotfohxJ9jPPsxsuGG8SYJObFkKXcf6EYUFJYQL7koVwPNFoz49mjF0_Y8hVXYbkklhWaLBZYL1XB8_tQuUvgQGR40q-dtoNwmI8-RZdA6OyBXgtK843FP72TsRmrEMz2zbXrfmELPRtwlhMrzpGUFGLbiRyHhPcmMxxPJT-9gaPON2HCKAJYtRdIykSvv0gUB_kk", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115728372314224986331\">Aey SrirathSomsawat</a>"] },
+            { photoReference: "AWCwydg3rqCNrfpmFoGtETTptxqZn4uXsUvKdLC0zb8DBl3wqVqztOo1tQEzYCGuoxy1LZkmAp3A8h3t2KHKfbpIbvapg8IecPn6BARFquVnUfHsmjbyAhYJnbTeE2p8YXDQ4R7RNxZGQG3MbKQXuZSJNXkq_qKWj5CSNXy09zkCDlOyEoCZoi_67UeeD-xsQxDdeveuB9c7vXziDxpZQWNEQPuT3z2GzCUvaKOzZQTT_xCVLH6BLO3bKaN4FRn4fqrOiNWBjh2FolU3ajik4Ii4AybXGKmDuLrwJoLRDP-ytdgfqfFC12Upd5BVj0Ovn25aINiVdFgz_EELoibpX1kBspa3VV7eVw61YncHlKVSCoxTKSg59nZTbIVRaN7EkyvPMH425n1WP-2APPRVIpM5EFt2SlkcuqpuoVnthDh-z0AV6q3JdmG4hGCj4stWPg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111421658597968477053\">จักรพงษ์ ต่างเมือง</a>"] },
+            { photoReference: "AWCwydgcGH5nkzVNXciaTkybJy7vSWNMEkjGv79aw63ev054MgDcxJ55mIHZavyY3KKisjvZB2ylum8C99Y_8hePd3bB_yKWQeQfUvUfHUE4Fcgqjyz466Qm4iObCIHManp2mOTB0qwODxmcKw14G9kswhf4tS0Iq_tb7hZi_XFCMOYa8bPYxqhpcVdKgvef1cCl6YbJug7wp3KuLKJmqr69VmmTh0BWAWlP-rHyGSdIrSnlu-Cn-3fV7C6cBDIfccWOidZRUOZs3TvF9q1OmdWlWp5W5T51dc1DlM2oJpx-zfXHW4Qa1sxLYE0QDAd2F5Ooe7USP9TvKNeOZbORvO9tmKPDUtdAe6knoU2Ws3V4UvpGddQ4IeY2W1akD6udnLNb5TlN3GX_3aW7dLElMEzOCKMk1e_662j4mVdsSQDm2lPx61IF", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115004303638094859180\">by us modeling</a>"] },
+            { photoReference: "AWCwydjSH2wNgKDgg8c6u2W4PQeVh5NbR1BO_WRMU6AVS44mEDDuh5pwXcqoyks9SkW4wytdF0WmaJCKiHfHSHF68ljo7FMTIg50omTKCyS11t62jJ8PNT44ri4omi444rmW5TdAxN9b0gvCf6jd7uwMVpKIacNA_H7ozzs7C05khXIxJpASjSOPOu_juucRo8ubBH0UUAQ-MFOjyUtkpdBJrO9OO9GZe8sWcMnRwomCL6edZ1KiCrpHmNx3GxgRVJMVYPlGYteEAgIGxCzbWsjE2_ZuYfs92Mimmx8cbd6nKFpeK9lMEz44u0m7hEB_yL7bXHjV5IQXEhjMiRmP2JRfPJ64Ml2erA6YjDk_1fyLUuBa23fA5nJvurwoc2EsujZOYnnyDmTBeembd0APK3hfJA68XS8Q3nhDddvRQxFZ0vGWgg9p", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110675387454808468772\">Kij Thangs</a>"] },
+            { photoReference: "AWCwydj7QHyMts891s0Kf6cVBNp9_hq6QE331CIAlLbtZwYC4jecR1pUpSi2pJIDPCM2_xi4Xt-rb0bhNnEWY1g716l3uDwAlqvagEHcLUNDFfYu6ZQ_TIlPjvnkf5JGe5S6ZB5vS6qA6Y7cvu7mMJH2twLWsPvrRZ9_Lf5J_WZaoaf2GDEoenBKTbGeCJeQOEbR0iIrGYOW_xnUfQbenh4B9QszpRGk1Ig0GTJ8cY77RoK4t35eu-6pj6nku21zBFy5laOmXsw7Q8fqghiOFcSbqzI4Q564Y9RwGXKRCR1ZjHVlUO_kZFW1H_2cS9kYoUl6X8eKoOEm_5Yqnj4A5Vi8xToHOsQit35BJJox653ZvLxi6u_VpiG8gGMWU8rRGcLE9MH7WALvtaG1l9tc_Un3_xdcnR03xsvXCJ-LmLAGlSVwZA", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102504083639173938325\">NJ B</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 인기 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["4.7점의 높은 평점", "긍정적인 사용자 리뷰"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "8 Thanon Rang Nam, Khwaeng Thanon Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.pullmanbangkokkingpower.com/th/meetings-and-events/aksra-theatre", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4256144788448065349", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Aksra+Theatre+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "SiamPic Hall": {
+        photos: [],
+        placeId: "ChIJ6RoVE9Ke4jARO0eibuS0dfs",
+        placePhotos: [
+            { photoReference: "AWCwydhW_AbF_NgLLuqgBEfwMk699Y1A9VMIY0rTOCRVqXyw4Aju8GVNyvxqPeCbKP7RviYy-K4KVSAj009oxu4CVsD_ymxzsT8-lAQIUkqLxOQQ-dVik3dWIrzIVU2ch-DnOVomhN6r61HzShDCIG2RcTscxjOdJ_o5qxjobIlLrO-eBE18LlXuzrxQW-0Fat7Cf72qM6jLLu_jzDyBRvz7QNFVTDGgVCYho2xlXe23NgNwpkRmntsMMb1eEjdL9Yz6hT5yQZEoBpl2I5Cfed3AbnIYwvIwMNOoFa0uWTv4hqClD3a1ZzavNO2c8nS6my2q6x0B2v9mOH16ZSNjtU6M0zqxmTCqugFpGNoACk2quOUIVC00wZDFFA_XFFWK3-n1Vyky_NY3MhkRW4eskD9kYl1vF4YXgCxmterJp08qKaUnnw", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107499459063522625033\">Chairat Wongkitrungruang</a>"] },
+            { photoReference: "AWCwydix36aBZgArdu-cFyZ8J9RCczCo-TRAHeNZSUvxQVOQIHIZAI3S-KYS_otTy3BRIYN-XAez0hX3vojTyW9VtkGU4xZV_rWTb_yaSj7HHLht4YNZicQRhqnRI-OZeIK-E-zmAs-jhyN2t-mmZ4HvVXPU56NMSKOe8QjEyj_yzTZkYpdQkV3Rg-OkMOc9iwr7ic75DBEQgZNYhNNp4izstw2mSpLyXSf3mB6qZD5IwOW1c8x6fhwefxxBTipFiPcnht84umXhkxzXWJhhhLUPazzZO6AgNGSva5_jQvi5DEDz3C6e5CoKPqjwpUhSoTc2bUtsEvQ-v0yikY6B2xSbRWEygL2ySBoY37mHMbDwWz6pLiRgD00hL4HM_JESoTorUeTBIoWltQiZKefd-m_CSqJn2BQGCa8B_q6MCVYbuMk_xpbV", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106806103575457667208\">Kritsana Chansathit</a>"] },
+            { photoReference: "AWCwydjsn6BTEhKckIgRmKz1RjmDsIZ1Fns3s3Iv5MxAgfzxEuRs0areLP5aoTizFdVSw5vcc_670OMMc2KyeMUJQWlWZC71INWLK76shPOSawvzUoj2xPDPzDnhK6EgodbTDBNw378ZjvyUm1LmhRlzHCTXWKOxWK7uJIpw_ia_-Y_HuZL59LVpwKnwpB-QDeMUxDJ8kOcfTniHE6syCkRi1_dBnq2lXJg5w30biyyzdXeHCrzCSIwzEfgT2i5z1VjQRl2KK70q0YFtoYoTELLF-Tw0bqboKVsdaZF2Z5KH1fKsZ7FbWtWhwhaCBZStk9l1yYlvQ0RtMblsytMnFb8B9UyyXZVg3iHMR9rkR_8_vYlYYLQ3ylxTvz_cOIZWfzeFK2yyYxpUHfoL1tBlfTTcVPJauhwf-LdrQcTIeVU4e6YaaA", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114300966083337321764\">Chatchon Suwanmanee</a>"] },
+            { photoReference: "AWCwydhRQIlP5I78bd4yEU_CZ-4337jeanjm6bRKMN25L32xT2QmXPh0F-ij2FjVYSj1lEOQkaQ_WLyQoqW8fYcHkin3XmnWr5TkyWUSb5qHYk5YYmkI_Dazs9X7Wy9SkEJ9jUYZqyT3_01RIOrgtD5qzqyXDFVreRyezPl6F2F0UesOggKrG-ROA5--rBa4U5SPf7kMn5lt0NFfVdrRGX7DEDZo3q-PoQHbS0w7KdA6jbqNgOu0zFToubrLlN3ySz6Ak5zryCBay3ItNqMOdiZh8wK_PHTVrTcGWmnM-EhMTMEjh8duHpWDJXXRE2N_mw9ga66-JSi6TEruckJd2YvRr9r6Q96fQqHNhBpZ-Zg71lYBVN5d3EAehaf19sEnmV2Td0ixUamsYAVvnspB_euiVvPseQ-ANCE4KY1lHlAWhgR38A", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116724585388708404495\">Piyanuch Wongsongja</a>"] },
+            { photoReference: "AWCwydigDiC5yY3Kle_3LkI551jeAov6-YeQoI_TxH_wSkJfOnUIrBmjBbOVdremtJdPU8hFX2nWFeFhMK1N66d3eV8yH1VlidRqSREE3-Mz7rA80_kApdVxr3NtrikBirZEZA_y2TCzm61Ody6c1nfzcvBsRGbBMZM93rxd0N5UcnhQA6VR6456T1lggUdxKOgFHXIxS3LifWV_Q5wC3BgFyuQ4zGQRFK0O7aJe7U8b8FDhPIIKa1APEWIKK4dtqST59gfEe4-L13hx367FdOPrRXMGHR5DMajMgNCPWnBGChcAmvBOaN7Ogqw9c4NrneYUJgrFDCOc25ue29kznXrL582fHKag7AtUwk38jss9hT8fbZJ8GSscyZ3cwx1IJDBHT3WS-z-Tvo4W4LPSJ5vZa_NaLCIM_8TBrsgN4XN_DVwUaA", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104621886086625995214\">Joop U.</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 보유한 인기 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["4.5점의 높은 평점", "1,200개 이상의 풍부한 리뷰"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Rm No. PH7001, 388 Rama I Rd, Khwaeng Pathum Wan, Pathum Wan, Krung Thep Maha Nakhon 10330 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.siampicganesha.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18119587568996730683", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=SiamPic+Hall+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 
