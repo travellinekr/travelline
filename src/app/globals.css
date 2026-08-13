@@ -134,3 +134,9 @@ summary,
 @media (max-width: 767px) {
   html.cap-native .pb-safe { padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
 }
+/* Capacitor 네이티브 앱: WKWebView 의 body 오버스크롤(러버밴드) 방지.
+   iOS Safari 웹에서는 이 클래스가 없으므로 규칙 미적용 → 웹 스크롤 동작 그대로. */
+html.cap-native,
+html.cap-native body {
+  overscroll-behavior: none;
+}
