@@ -220,7 +220,8 @@ export function AiChat({ controller, onGenerate, onRecommend, busy }: AiChatProp
                     onFocus={() => { scrollToBottom(false); setTimeout(() => scrollToBottom(false), 350); }}
                     rows={1}
                     placeholder="메시지를 입력하세요…"
-                    className="flex-1 resize-none max-h-24 rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"
+                    /* text-[16px]: iOS 는 16px 미만 입력창 포커스 시 페이지를 강제 확대한다(자동확대 차단용, 축소 금지) */
+                    className="flex-1 resize-none max-h-24 rounded-xl border border-slate-200 px-3 py-2 text-[16px] text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"
                 />
                 <button
                     type="button"

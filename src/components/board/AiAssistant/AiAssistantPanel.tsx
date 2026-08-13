@@ -43,6 +43,16 @@ export function AiAssistantPanel({ open, onClose, containerClassName = 'absolute
         const apply = () => {
             const el = rootRef.current;
             if (!el) return;
+            // iOS: 핀치 확대 또는 16px 미만 입력창 자동확대가 일어나면 scale>1 이 되고
+            // visualViewport 의 height/offsetTop 이 "확대된 화면" 기준으로 바뀐다. 이건 키보드가 아니다.
+            // 이 값을 인라인 style 로 박으면 확대가 풀린 뒤에도 그대로 남아 팝업 레이아웃이 깨짐
+            // → 확대 중에는 인라인 style 을 비워 CSS(fixed inset-0)로 되돌리고 보정을 건너뛴다.
+            if (vv.scale > 1) {
+                el.style.height = '';
+                el.style.top = '';
+                el.style.bottom = '';
+                return;
+            }
             el.style.height = `${vv.height}px`;
             el.style.top = `${vv.offsetTop}px`;
             el.style.bottom = 'auto';

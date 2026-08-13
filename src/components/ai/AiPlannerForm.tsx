@@ -192,7 +192,8 @@ export function AiPlannerForm({ onSubmit, busy, submitLabel = '이 내용으로 
                     onChange={(e) => setNotes(e.target.value)}
                     rows={2}
                     placeholder="예: 둘째 날은 해변 근처 위주로"
-                    className="w-full resize-none rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"
+                    /* text-[16px]: iOS 자동확대 차단 (16px 미만이면 포커스 시 페이지가 확대됨) */
+                    className="w-full resize-none rounded-xl border border-slate-200 px-3 py-2 text-[16px] text-slate-700 placeholder:text-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-100 focus:border-emerald-400"
                 />
             </div>
 
