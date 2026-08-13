@@ -507,6 +507,395 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?q=16.0670448,108.223186&query_place_id=ChIJ75pYOI8ZQjEReb8Mw6ThCZQ", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%20%EB%8C%80%EC%84%B1%EB%8B%B9%20%EB%8B%A4%EB%82%AD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
+    },
+    "Dacotours - Da Nang Tours": {
+        photos: [],
+        placeId: "ChIJBSMTHqEXQjERJ8GbMAYlax4",
+        placePhotos: [
+            { photoReference: "AWCwydh5uqlNJIbQ9-K8AEobXjZE5S-zlZ18GFCE1Nii-4RniKYsUNDAMLGrdVXSZV_gyGj60ARw0-PzhPvrtd68nVxKxuK5P_FttUSRGRRpWP-9x9KAqIrbtkzs-ngJycVJGiCVCVxrbVU3s9iurKRLIqWU9Dc41JaFlSlYJBNt-R_hgl3NE-kZqifU2Ld17LxjUKKWSnKP02K5nQ-Dv83KCf9pOct1Xs1seaO_qdcdXUA7ZUjOHPdSqZw6G6MmMpLaJpC6JRjWjYSLH9acYq7Mwbm62yi3cckIW-11AIpeqUg6kCrtdcSSmUIHceK47P8i2kbOV4CyvRokss3r824zQVBlUKVl_Xn_aIyV2pJ_48QMkFlyfICR0Lbiqn2WUJephEi-nABekh8oomMi6MWlVic_wswZTRv1tMxqMWN1D5zAlg", width: 2568, height: 1512, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113448423025075709253\">Dacotours - Da Nang Tours</a>"] },
+            { photoReference: "AWCwydhKslK1ZIBt8jwc3Ub1toSEZ_UWm_djCtRAno0-GFOEUVsOMTM6MAEDbJXMk1K_N_ayRQQfeZmUT0PNItomjECUkhYcCk2scOO_RLWCh8SVIEUS0CzSgTo4ALb8lmegP1mZ26e5aLzXJdq1WllqVcOdju-SwfRPedrvvHi5bwi7BeDiFzIiYce47OS3b1j4-ugFxjX7o12Lmcdm7SW6TfEqcDxGDvreLO0Lmn0Yrq3XEgzMh-ZXalIFPgd5q3CiwFgz2vpWzgi_YugykO5soECcD6cuTK4qtEuAoBr67AORPhOMWakVJDssv_qe0jtPK7nv2a_V8GFE4GnqGu0RWGIAnLcow6pBsBadIQ8PLgNZVoFO6LfuJcgNTMGORlvaW3Wzywl-ya067QkksapmTlEdFcf-VO7JN3JNQrxJ0NPg1t5t1D2zDaKW5waoww", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107861125730383485092\">강원식</a>"] },
+            { photoReference: "AWCwyditnwpd5_gHmtHBO8bgeuXfL8F3yIbQ8hvS-9H4PYeQ934o2kgANKc1asfZMcl3PDf6v8NSkZ7opwYIiQ2EXlLqQekGsdv5uf1MM1vhMiJscib-T6oHGG-7MjbVWE0lk_50A2CK8UUDe6_OvKuASjGSfzsTI7Zd1vygole3hMnUKp3vfbXaTE2eU4m1YmRiXJa0ANjcdUC4HXUNYayQTt6j-3s2k1d8CmceI-bBTdOtirs4f64g7kl0epXgmZwMzhCY7nbZ483QnIeZ_l-J_Efmof54LCap71DEh-c7Eu5anij-BAVOCmUqo5cf1RDMVTDY2HWowNlpwNNiund-63qk-M9DtMorUxsN_ti-3cmQNe5FpTbN9uW1XxT0ekFSOXEulGhP2MLNuvg5qDwLvj47gGKvZ5jWU_lqJcfJmemZqDQSI_6BfVZoa7Zz3APi", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101722386235941604683\">ポールジェイソン</a>"] },
+            { photoReference: "AWCwydgJBcYHXzkDqkl-gXRug19_Js69Oye1xl8N69ymIJBhCRuhXbcmBWVdA2-cYzNTlv1YrmCCVZPqocCSA_UlpAWg_JOz5toMulaMc7nUaaLFC--iSdXJcy667FOaBliIyCn0Y1SoZAAAN7KSyMMh8o0QV1jTN-UB1MjBFyL0UKxu6hZekpF4jG1fSSmMtgqTvs7AysvwHx42Ml44j52vAsWiFx2UqnsmoVEOrNhZeFzafzbiap1L3juR8RiouQu-jZCXTQFo_e6O_-897zzjD9AtxkV7ACAqH2Apw5i-I8pinEA81nb70_iSWSyCPqiQOi51pYYFD9PES6uvbuj1wyfT188vWB0HHHAcxQD1t-5WW-34BbybsFusyRfMoHaeLa2pmTroZRz4zM2MoofihkYrTeJxUHagiA7nM74aDzNX9YRfYRsLgY1gCAaPn1lI", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107823802356008555312\">Kim Tran</a>"] },
+            { photoReference: "AWCwydiEpOB9j0NJXSKTP2TFX6E6EJSzZOBsQ38y-5pZosyYZMAVL2v1kjdO6w9GtAyc67_UvoAujYo-xqRU8M-dieie6xkp7TFGYPpAIpBn7DFEaedXXh1Ljwok29F0_IEysv5h-AwC-8OSFlQwlNZfN9i8ks1sfJX3fx4ucQ49AKzXxwrKLDQTkzb9lKsK9GuFkCX0MCOlwSfWHtb7edrXfXKk83drfW6vrpLkIGSoca6P7Gu3TemKPWx98C_8WUEclc3szze47s3cf4HceT5dSVfZR9mtQxcD7FRxoHueayVGb3c0ZDDvhdxGLcnFffxhU-Pi7ah3U912PwiPyLNcI4ALcw2l1TRTtW2IfAVW6fADOLD8YmhcHGIw1ITZ4e3dbhUWsuUIqtrDGUKzYXo9d1RCHv0fOonNrAHaQC225jNpaRulcSefB4GOu7xC7jBR", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110303347685551880973\">Mandeep Sandhu</a>"] }
+        ],
+        summary: "높은 평점과 수많은 리뷰가 증명하는 다낭의 대표 어드벤처 투어입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 세심한 가이드 서비스", "검증된 높은 만족도"],
+        tips: ["가이드의 세심한 배려를 경험해보세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 12:00, 오후 1:30~5:30; 화요일: 오전 8:00 ~ 오후 12:00, 오후 1:30~5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "195 Đặng Vũ Hỷ, An Hải, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://dacotours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2191886352161423655", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Dacotours+-+Da+Nang+Tours+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Venus Travel - Vietnam Tour Operator & DMC": {
+        photos: [],
+        placeId: "ChIJSwa3-TgZQjERS1tYH6J8KPI",
+        placePhotos: [
+            { photoReference: "AWCwydiPk3464I65atCgyvD8dCjLG2fAB6E6Akr7_8lZWsjJqT10c20h5NSlcj0p5efBathjGdYJj6aWiBV73Gq3143Alk1wBk_EcpE4cyycQClGs83Y5mwR0Sev7k34zaWmZkHlZFa6OhRN-luxljsI8Clr0ShJwLCrFq7ix5Bw4ljnpskiu-6s6p5dGPYSc4Ek_2gKiUdyRn9nMyCYujUUaOk8baynB_cOo2oHcWiQp7NodscbYa8Pk5a-J7ks1KCrHZDhCqqlZ5ML9mxGvjI7T7WRy4tiZTXfuNpUYySyzrkjXlOBtjuHcq2sNYEny9tC8yapv43lngwv8Gu9SuWeRYgMLIBt3TyIPO3WkGvIczkkuVIPfl6khru82rktYDdKqdgKKC2QI2WPfHn-9pFzOPXSnzTMIqhGAUNHtW8_8cZoO9SKRuzQx6JeeO8GyQ", width: 4724, height: 3143, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115789136585418222918\">Venus Travel - Vietnam Tour Operator &amp; DMC</a>"] },
+            { photoReference: "AWCwydhZXvY33yDSaJCZqhSB5Loqn11iWaqpJuB6aSX7tys1F5rZQY5DWHXWKrozrMgfXn-n0sWJrveN4voO9YuTUbPSysPHvVFzjDlm66UH-MeckTNde3iWESq2DzRSePKFGQ46BujNHMeUU0qEXXHbZ04kWG0xYyKgr8UxSLhmW-Q6qTBSdb0JAvFb2OhLPrQB3g0Zg3cGoP6danXowROqZMAsBrHpUuxY8oJPjRQiiEVcIjpvRCmHzodRfnceAX1tSfNWSXwz6uyf0nyoXMyxVg352mDVPikAkHS12IqoDb5GAw-nUTaopEOep3Ln3nROnPzg5SZbOXDosxCXRxr78CccscdD52aOdNPBDg0lRNPMwL9xDRMI9C92vZMXXeLK_QBjsLfjIav4fW4_ZMJxPhfL-WfopNQ4pUhOZPA9N_T2eYz6kCrbSVWiQ6qTtFw8", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101558996004371896314\">Georgios Giannopoulos</a>"] },
+            { photoReference: "AWCwydjyTXsMB6VmkKUk9c3yChOh4f4Wwb0sVa6YIDkZ8ADC3RH8NkucTr8EPtIlIpcj9XwO8Gw4tqQvg5ECgrcr2t5wiwl4urbx37Ss9xqNF9MI7D-D278sugGN0XrYP1oRjdO3RXIhQbDc8JBFoISfknzmesUO7jolXq_1w_SXhkZlyKX-C09xf_gB-tYVIC8IUl22EMzDQP6H3BhYfr8AfscAwssEK0rK044GTnX4FbPNld2Jo-WI4Bq8xuxkdiuOEJDoei3QMchHvXrtepMs73fSwyS6iPZoEw9TwDk4MyN8nJL75JYpAlQYHjzFmn6RAtRKt_NvnwDfB4NwOi2-wFBNgm7vAW8aKP7fFxxUSeKn3M4waYhMLrV06Sq9ayMeODt4Vu-noKcFJWw33o2n-DQp-CdCSAx0FNI-wIMx3CcR3lp_EDcMeLRtPtfIJKCH", width: 2514, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106318174183010144230\">Jane Frances</a>"] },
+            { photoReference: "AWCwydgNHrKo3-bvLLTObsdXGpCqQB0I8RZv7unQ1yh0LvlIIK9V5Hntq1SBEPePwcM9LinDufLwSRhwFXHSjrR7WnoUIEDCY87MMFdQJwLNTFgTkGgvepRLsxbgnxHuq8nusWJ8N-2foeYBGyDtQeSsstOpisUDKBsD4IsxVYtjaVMi_54oI2Csat7vl_WUAWp0Po-athtuyY5rhGvCWf6nbH12xBzcNE1ioG8LqNPoB_1wX_WOJGChg72CysbMXmjoPWR7oHenkrGl3SK5SYkJIa-1Lj-90HyR2Rvy5JRcVFa_EZgh3yyNy7f-pw2z_IMoN2Qk5dDugzbHK64oNxwPwzcQSL7t2YFvoeKu7Sao93HNlIRm-u-lGKCld8ZwZ_rVAYxOeFqeCbhpqNKUYrbUmAlStLkWNiUErkNIT77exFr4xvAhZUq64tHaiwFniQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118316613940968623528\">C S</a>"] },
+            { photoReference: "AWCwydhfvk3_E2bI8XO5gqX1aPLjJX5aiuYPBEfLumvrJvi6PdY_BBB0EapiV_Fksr__6VqHbNFYCWTxL_hap0Q3AQcNf5ILqdpNZd6zNRNxmel0SLYWzYbI2N9iz4LHltASx1CZgzsSuc64rHmsZUACq-Z7xOeTl0_anengY3hsprl67QCm2GchDQlsbAK7oPJ46z6RD7o61AnQGb7BHQj-dH_3q5vEGLfX-Hp-mAxnj4O8hoycCBNNErGYfn_LixlNAgsYLk8qHnKR8Znbl0kZDEl6CDjAUMfIxj8wIgbMxJ0FPe6EV5jaehsCxv1kliTdXJPSFCoGKpR5ZnJGmIiT62NyCpkEMnmxdxz2j6BaDoptUnCO3Y79a_5X1W0HhzfAhSkSCFNr_uoY4r-sh32lfy9BqY8jfF3gdQnRB96FgeUnMKE1qHuzdUfze6CKFivE", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101558996004371896314\">Georgios Giannopoulos</a>"] }
+        ],
+        summary: "전문 가이드와 함께하는 모험적인 투어 코스입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["레이디 부다 방문", "대리석 산 탐험", "암푸 동굴 탐험"],
+        tips: ["하이킹을 위해 편안한 복장과 준비물을 갖추세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "14 An Nhơn 10, An Hải, Sơn Trà, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://venusvietnamtravel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17449333791999417163", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Venus+Travel+-+Vietnam+Tour+Operator+%26+DMC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "VM Travel Da Nang - Vietnam Local Tour Operator": {
+        photos: [],
+        placeId: "ChIJGcEHljsZQjER0l86sBO1TIs",
+        placePhotos: [
+            { photoReference: "AWCwydhwtrevM77-8JwqTWs3W3pZQgiTMKES6sO_M64DnX1yRI-6EZXzl6a-VQUYcMORWg6yicJeZFWf_nB1iL6gmz0QGDFvzpORFys_skVhlSysmaaeR9S3926XuND1mCSkpTt39Ngr2N8ClSqYtcMKdfLZwCAtpFhsASZ39MSkQnZASCkUdGHOZb-o56ZwSxkUtuoXm1DR7VsoSCz3FPpdz6nDDc0UHs_ZEq-IPOKVzxxbtgQBiQeOwR1Wj2e63G7qN6bXh8M9uapWapc3O_KwcLOu-23iIMdATiVSofwPt-9GUMYxTk8u88l1xwTEx43Q2-ButwPwASB7pio5aUTNglPQRYF0RBn3lZ7Z3UKH9XkhDEtEE0qiwk_I0vTzK5JxsKEgveOGmfIWtIqGNOkylWvwiuDxKeotwB_bf4p2bgYEDo4", width: 2048, height: 1578, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115798019869834470168\">VM Travel Da Nang - Vietnam Local Tour Operator</a>"] },
+            { photoReference: "AWCwydjAg_ctvgEt68pbRTDwwY7Zo5GR-VBFo-FcCKYuNP_jyEusrracybyrFXYGnKVm1N9LgXq0cVPNIZn0PAP7C3TUyal9BXnw5oXuRn6WYqO9EBGYpEiLE3EpBTRsrveKey-kkdpHey9fl4LXDEp7CWkoTz1uaIyDjGbm2SzYOrmzV-RPcA1QiKL5-OswYj0K3fB-2Gn1xFSue3ivi4Q3RjquYvuMnxm88bAYWGa3LMulGNNUY8CEHC5mJaIoX8_IAiiKudIZkazXcsgRsPs-4QYxN8svoFHhWtp67gjiPsjT3oLZk1ZB3GGUnr_T_ztxcTiQU-kYof0wk7xPXjlqVmowew9ImMrwNXg7auzhiaiIh8_wxCpRtwaP7jFhQE5yXKxHrwP_eccB_HJqxSTwBcPR0ycmgCMT-BwoJCDyBsVQew", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100354790944623515351\">Alex Kong</a>"] },
+            { photoReference: "AWCwydixGkMxbC3xtluyL9NyFunkEjDzv_KPuK6vL2U2CTpElcE8C0JHdu9bm9JwSAFhrLKjRkiD3x-IFAUU-Xv-G5oJXw5YocgNaWw45zpmIISZ8evhoqPZyDQPWYsq5CuWz_5FSqrXChVeX0YcS_OVyC_7fs_hNI7HQPwB7_2fLDqVD7fwgVafe8kDDceSl_Q-mKM-Qtnidpi7Ll_RIuDGxwt9WObXoE-9G-KekLmC2UdiW9WvdwWbMW1aAQIjbi2skq1n2VWGK7OyiuWn_PRDEH_nXKcEClLQH8d5faM3niN2bR3W2scglh5XeUHgBP1f4F0-IZf2FlIkP_ZCLrGtr3f_M4R8ME91_3SoXuK4svRB1utfyjmLEpQHsAw5vRT7hN1eqZpFcwlHOOHQ_onjK8XxSei5S0-DIqbjGWK-NA2n1IxT", width: 2568, height: 1926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115798019869834470168\">VM Travel Da Nang - Vietnam Local Tour Operator</a>"] },
+            { photoReference: "AWCwydjeBKLzy9duXq6NKUAuIG79sohe1yNfBhG7WrVS6iOK665MbhSoJZTFUW0iDsRCPok5oGXCKQMXz8TUXtujM7Awwb-gldvsTonstnkFklfjQq8OXqpY5LY5YPv80B-nQFJdAbAOldAbkNH9O6_PGUxRISsJloSIAy4xGo1gAJWwCGpWB0SJUOp3DOd71WatanMW4XNgUiPhzqCiWHmt4JrCZlvlGSgs7ta5R4vCEU0jq42ryiA6ZOjQo8hQBtH3Y52DJJ_fy9nmAM_ExOEPFFmxseblskocydE3XJzwp35Qyu0mfCm6W058S8XWvKOzSya7yQuo3ESmzKi6hKa8zTqOd-CYJ2jZ7XJg3VEYYCi4q9SUJzCrXvRntCo4_6pua04oEh94ZgWOBalg9JOeo9BW3POFroqhx4ElE93N9VZpMeAWtzlorEcWX-j9MfZ_", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117952234562297800756\">Guowei Zeng</a>"] },
+            { photoReference: "AWCwydgDDqh6QbdKxkRoyBZBobsIMPjAo4YDryS2e5atEKdrJrkXTgvTcIk-Ug2bh4nsMuz6USLOO16jvSmLqDX6M9J9OnX-0Wra4WeR337HJSUaygO4s2t8PmyTtWprncNaa-74kPv3901zDNAhDDDv-H3aGUNFkKPb-ZqX6Zpvdi6gxs-TWqubGBRuOZneupAiq6BBJg0y_b3s-CZDwjiqotLfPC4tIOwtBMbt7IUaNtSz7tomLnZfXTtiGdqX0bk5GiiccAZnyWYZlee1ZTg0kmBgYIgVCzHyqFHHNs-hMzYQ7UBcsYD2SU4q5BWX-mcY3t-bBzoSKaBhSn3vfFgknMH_mzR1rQ-ZoZjKJb_DyHMbyu4n5LHQs9DvBDM-7KumTqhvpOT4MWbdhQUTER1_Fq6wZaua-iu_v49v4pSJFGeoh_Ad", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117575097614535195478\">Cindy Yong</a>"] }
+        ],
+        summary: "전문 지식을 갖춘 가이드와 안전한 차량으로 편안한 베트남 여행을 선사합니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["풍부한 문화적 지식을 갖춘 가이드", "안전하고 책임감 있는 운전 서비스", "쾌적한 차량 상태"],
+        tips: ["웹사이트보다 직접 방문 상담을 통해 더 좋은 조건으로 예약하세요."],
+        hours: "월요일: 오전 8:00 ~ 오후 5:30; 화요일: 오전 8:00 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "34 An Nhơn 1, An Hải, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://vmtravel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10037596765667614674", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=VM+Travel+Da+Nang+-+Vietnam+Local+Tour+Operator+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "헬리오 어뮤즈먼트 센터": {
+        photos: [],
+        placeId: "ChIJK4sVPc0ZQjERdGROWQ8MMg4",
+        placePhotos: [
+            { photoReference: "AWCwydjrkCDs6rRC9BVNI8fjXVk-wCkxqZjsbzsN95g5cTtuO3bRW8CozydJKMgpA_k2Q3d_bdVb_A6rvwOZm3BDe2C7yKFSGu6vcMoMs6OCian3eouTXelCT00Cgxenjtc4RbFVi8zmc8ih42g47IaN0bJ20OFrDaCHcLJ0rcvNVSJCozdiVpIiW_LdhkjWxzoypO3V3SexWd5po8NmXTJNzd4F2RNGwWi8W4CaXxvVEmj1tqDZQw45w_3rZ3L6-3Et8MEa0alaKdrscm6YLPFcLdtrJzXoRSEUC8ZpmRIgnvjtTQb4vKnjIIF3Nj9nQK96qQlZ9F0SbeHAQLmeFcvDumyOb-iNq_V59EIr49xF13aKzPrLacrfbx4kwg_TurZhxJD1wMlA7evwDbCZQXi4jU2blx0VTDGB0lRpNjwOLxE", width: 1200, height: 899, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116660956105199202771\">Tuấn Minh</a>"] },
+            { photoReference: "AWCwydizd80CRlw5QA5eFaz5FQ4on0apqiOAcpOJTR2TAUBPvNOhaW0d15GV7nzuCEHR2b8tQZuSg_oNNzp8tOeIpktZMLFDlTJfhI-CwTG4p-HGd350GfitkfyzwArvkqauvXSF1Iqb_38DQaSQ57B2slgOuFBwHk2xj_DYHwZslTEgySRVj0hryIwNXYcPxM3JsfUy_PtuDAQTborSvQ1RMhynjorkM2IIy2hftO9xvg2B_dR73BWmM7skCieB9_UJlJpFAp3EaZ9n5ZSjz6Y6j__ZnnEUy3eDfvmYtANcij99fwktCuFT5UrXMQfb4sdWvf0yivk_mb0Suv1ASwbBD9F6j8oQw7Ao5ycGUgJNZo6UUcv5dn1mdakbLKZw-CNdK7DrNuxekP2UMPktPtuSq6KMp0waM_ziWaKwnp7aXUc3bg", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100371840484420934752\">Jean Luc Louis Giraudon-Nguyen</a>"] },
+            { photoReference: "AWCwydgYn_xrl4cNA9F9W0lbpYLG2hUaZgt9AMKevE8Oqp1V5aqmkKcoMRPqla-zJ3fI1Cu35XLq4M5cb2wyQaNJp5RDfWuDhwb-4oHOSWQBMxrb9G5CbDSsTLKzC8mEc0AeUyBIXCYbSxJB6oR0EqEpJUhINetku7tUqedBRiuIcB_4Sx8n6pEdM6ylqjgNhqwI0ni8Fnz7UFR-Zafa5lLqK6Y9MUVppfdgQlkmrEjoSIr-dINvOfSKpBmRVbnWeS5pZ3WAI44s0e6b5kkvKgEf7lC7Rqh5XSNnR5DeNXI3BzegKXdlPqmFj5lBkHFnvUWML3xKz4XByBKypLOr0NbGdVOlof_mbNRTFp8uHDR1kYUvOyeXwFI-M0jhV-_B2YQ-KF2TJpDtwSfoOFH2mCWREHLgK6p9tvknOLQAS-6eIqhpGX5F", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108644579881765540402\">안지인</a>"] },
+            { photoReference: "AWCwydjwxHHey9TYVduHL7mtJgNoTzysG1a-R7S1bsrqWelpHuzYFuVWTRTAWRU_IP4IFWu6VBm0IGE7ZDe6NVC20ldLTjUXE4X545vGsi2_RGzHesE09OtBEnL7TOz8wNXWfjyrje1Qj6iRK6aVfSdNIHEO3jYyN1HN-ZkozkV5pfggMDY3XThRVOJCTXfNk7CaSvy70vZiQ5I9ZxjSH1sEuoMb42BXlSe7gMiw8xhbOXS8xK0kBQO6a9bmFWAcY66kHzy26N4I_AVWO_TmTrmndSxR0hkm797aoFGmy4HzgFW04bdshbPKubZbGce9rZ8tl2b9GmkcFlBqr9yUKXhOUhY9SGGq8m4679eBb-2sHPv8zt5g6aigOF8i6Q9Ln2PToe14YPeW3t5n2u_zp4Q0C6Uvqm4wyNWxt0Bu3mzCib-Ljw", width: 4320, height: 2880, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100543234214036568424\">Võ Minh Đạt</a>"] },
+            { photoReference: "AWCwydgDxeCC6gPaEkimGB7zQYKfN0HfhZb9IRY51aHFIITqWfihdR22JhGK5G6QOo0-wh0NsyCXTboMKa03PcuAp0brxM91yFAM02fTtMy_3zecmo4qd9DX9C8Xee-rFO306IQc1LXbzg2qWTsYpjW0LtHfBp8EDVL8vbcAdHmxe-kym4ah0Q0426lNSsrlbQsSIXIei3b62vnSPHpovXv8YuqJcO7MT-vQZ6xYQeDzqVI0Dv5UulMcSEnHfCf9z1ZDHoNY39AntY6Z34Fuijw0xO6vlzAjD-kb4Jtl7QbcLxMOz71RN2VO3omnRGVmktwwFDVJ_iBoQD9evBgsA_W14uIAFOndfuVVNirKUxhb35lw3Tl5_Y_9faXHGKQdxT_2o4gs2DuvhgglqKfXSR0tCcszdyBqnDnBGgh-nHyjotA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111109611419106824570\">Anne S.</a>"] }
+        ],
+        summary: "젊은 층과 아이들이 즐기기 좋은 엔터테인먼트 센터입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["어린이 놀이 공간 보유", "모든 연령대 이용 가능"],
+        tips: ["아이와 함께 방문하기 좋습니다", "청소년보다는 어린이를 위한 시설에 집중되어 있습니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 11:00; 화요일: 오전 7:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Tòa nhà Helio, 01 Đ. 2 Tháng 9, Hòa Cường, Hải Châu, Đà Nẵng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://helio.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1022893325428876404", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%97%AC%EB%A6%AC%EC%98%A4+%EC%96%B4%EB%AE%A4%EC%A6%88%EB%A8%BC%ED%8A%B8+%EC%84%BC%ED%84%B0+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호아 푸 정글": {
+        photos: [],
+        placeId: "ChIJPw6JOQAdQjERXC8EyvmfOaw",
+        placePhotos: [
+            { photoReference: "AWCwydhicM3Zqpgzpt6uUbnNQ4_auEL8W6Qqzz2rG-PKfecS0mFEuvKfrposxvprhSOHel_c40qSu76aaseF6lBWD44XdJeYqg5zl6oBF3ooMIu6mwDW30xcIRTSejNG-S_ucEDU0E218n8Ng09nb9yzWp9ANXI9Ey4JpKI1csz7wDE4Ou2AqUKfr7eogdfBrIX0D9085vTUDI4VqwehChKRZ7vZxI0cwMoJXkpaIi7yk_DbipC0RI0A6TKpaqN4fgaKgEVvN7QCJ5kB-qs85alaGi0um4rqB7IVDBYGZ1Qerd-z1KyEdm350fUZUokQ85pz8Ss0zbEdgZTFvHc1tIeq7-MN42Ln0pGEMhJWd-54nhB430bNiQuxOEX3Y8DXUx1-jE7-GRQMa_T-uEXqNq6ZzXzJqfDJBhU__cvdZ6s5uT8vfhX2UPsuacoL3KxTqHMB", width: 1440, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116791838018406759016\">Tuyết Nhi</a>"] },
+            { photoReference: "AWCwydhTa78Qk9fV8LB1_mrBCMnvYsLafffx06hAmjVhHtitvQ9IQi5cC_uLup13-hCW6FLS3QaJD91W4b5TPcEIYvd-NAtrTmv8o4fCSGKcN2C8nCdrqXOf_gb-guabENVDD3BxhVeT8Xb3wtVtm_S6txldVbARS0AkTlc7l97DeJ8MHPVIbME3meQ3rf2_M2J8vqI951Ry9ymgnRQ2PnScxKbqNK3a6zixg_Rq4RLauvLWkBOOozgUVEcSu1KTszH4CR35GILTxMs3RaLWdQnyaCU757_mypQSjLdW9FZtt5hZ3ucVi3oRIXKz7aYZ06NXe3kPl9zPkxZ89GfevvTgTdZyriQoFg9OrUCs2d88T-4RH-6tmN29VHvjW8AWM6PIBkhb1V2Eaf1RvL5ZahsZGCIIolUJDRtIlpYIcBD9Xjk4lAhJulmPNWTj7rS3xMJc", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107662036017310448795\">Ngọc Trần</a>"] },
+            { photoReference: "AWCwydhSAH6OUbX1podEzBuSzxVLI8pDNtSmjQGObH-yvvCBNm58YJULvoP28Ta3HUx6joniNw1_RrkMnpBGcQ74_rHzJMYImmRdFO640LymiJxDDC0jfNPAkrzSr8ENFM8btfVSnukOwc3fgaUNiWdhl8Ov7IcUI_8co39Hg8yOu7ZnihRlWFPNWgAIFru82RophQqyjJpgZ7hl9uqxE2uR1A5J2kf0sZJHKqqoNK6R2rrQs0amqOJ4SeW8X6r-LbXcJN4AlH7qIQaqWiTaccygwH52Dduw2p11xcG_ac40Uf6sUI2EiqhG0SeOWcXRdfJcRkkbCiAAH3wZB6RM3-NXUjXc772eqnsQSKh1Fj-taheGaJuS2fOPkQ3xpGHSbfh1Ax1iu7E0OXzBiMWML9nVAyRs5JTMNOIOP-264v52mMuZUaSRn60s6qG6kQ8lJ0Ei", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113150660450786138200\">Beergolden</a>"] },
+            { photoReference: "AWCwydigHXEpBVZXZz8egazu-H1DOGHkPE2nA8g7fHhkfXNz52-lHkmDPU3MLbLNDvn92YgGzCZoH4Io8qH1ki5xQnweSqwE_ZhoiJu4SIHtVD4UIdVJahRZqg-_OViPHa9yvIxF57Q8z5aL4QqqkaxogV0rqTwj9M2N4arpsKBI1vJ11C1m_b8_XeLWiQaor3Fxg_79aIQ3T6p9eIZ55bLiZerwVvYVPCHkvKwpjBJB7m_AY-aXXA61_qBw7V9nkgDwppjvoRN1_3A7-6HG4eL9VPhz6ODr53h4jHWIPbyVyze1vOA6gyMFd8bkLxSdpjFD0T9L8-XEJaPWLpiXqFdslrRLplf3Pu5wfcGh89GofxJ7o3UA23TjNoRPAkisD0Kmgsdo_QnF7yi4KIynwyUQZFfKoXfs4QD1S-pLt6me2iQrojVkcYzYNgnARgk5lzN-", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110424931349431654684\">Pham Minh Tuan</a>"] },
+            { photoReference: "AWCwydhnY3UQsA3Xc9QJe-cUIrg8j1bUS2cb7dT8qPVrEvIZdC-ilNOrEz2v7R8G_3jdp0n5LdlFNgcPFG8IDazPYpNdO73Cew8bdON7gyeFDOUxLGmb__LljnQlezmUgnuOV9QvOaTVhu3pqMb3GI7-g_cwfe4pCd8kwp1La9LrDWScDLVJj7w_sz8yLtcdqO4AzNX-97xWk1c6KdTKWPdRvFnh3M4GkignT_XzUfgVoAdLAW5Ic57OLCDw3HvYskyfflyHxKnVQcZGZyO3E9jngNeu4mzPCtTTQ5MA5Tl5tx-SkIJMjdkEmFjsxpYnB6rGMFII5haSNPJfFVjP9fGR7OViSRYf4dmwIoYupS80H00M_3v_or1iXskJXeVNaMZgP1QB6Rgrr9zcmPY863B0ozdgsEACYsjU7nNIl4r018JvLmk_pYRjdhwownPaqg", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102207308844225915366\">Kun Minzi</a>"] }
+        ],
+        summary: "가족 및 친구와 함께 방문하여 다양한 활동을 즐기기 좋은 곳입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["귀여운 반려동물 체험", "가족 친화적 공간"],
+        tips: ["아이들과 함께 방문하기 좋습니다", "사진 찍기 좋은 스팟이 많습니다"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "X3VW+9P, Hòa Phước, Hoa Vang, Da Nang, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12410126143381057372", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%95%84+%ED%91%B8+%EC%A0%95%EA%B8%80+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "3D 뮤지엄 아트 인 파라다이스 다낭": {
+        photos: [],
+        placeId: "ChIJcVJkUPcXQjERsA8_dfySw5E",
+        placePhotos: [
+            { photoReference: "AWCwydjr83gUh87BCTlt953x-byph4Bn4j08Vhd4x1LRzrVuzzJqTppIK6yXl3BIpdvD-ecou60zJZFzRf1Q9YkoaDnVKFzmW6r9uVkQyMTuxv8sxrAV8aqihwDZbnHAJd7GC1kdPXDGwJxL8EVZmQB3987TAIDAWV8CfzzJLUHkALi0wdp7DfLBOC1I8IRqkXkmNLdfcspMlTW2uoKuJom4jPzqwIerDL21yGvIlYML9RX2jYjxbwCu1aSU5YBcr7RDFF0csP83qjDV5LdJxhOoLsWdr72i6Aj3atQ6ah1JzeypN-vfl29YDlUwuNj8IABWfWpb6pjt_0DVZM4VQxgUBw5gMS_H0qVjcI-e-muPm7bJhGOMjok7lfwS8VrO100IKjUBIn-zbmoMy9uDgLCcranW0rKGytcpKe0BAeqKKXBSenY", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102202390316233270681\">3D Museum Art in paradise Da Nang</a>"] },
+            { photoReference: "AWCwydjiHcDW66XlkBX-LQyBwd66obETXOqUcobmDJVIaaTwwXeOxaDQ3Fv4EucvN8x5j4uw34huq5D-oz5KiY8-gXGgExSbYVjJrviZ-KXph2RiY4vndUl5SY5U5xgdZw13fdEW_hdHNT2FVJMmOd3gl39svvHatPt56WrweOVmTyhR0oiv2sIcuAhYluCYplTp7a_JRxwuxCTFWgziQm6ukSV02qQfOWaH7yQOn5H92ODS7gzrMm4_6Au9LrC12b8LQIA7THl3ZctHRg35Or4ufUpY53v9t8lMVklF8J-Ye4K6XJQgTk_r_ERPhiw7_tclsohAEZj3Rec4ZW_2TwIEQqn4rbCU_o5VFnZPj3ByYo1k6r-T-TJ2lU0HUrm0sYBiU0JvfGRuyDa1kYMTDHCdc43LzEjLXK_7z6U6OfttMZ4tPLMB6mErIG4XVDQ2tA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108179837860410175516\">Ngân Nguyễn Thanh</a>"] },
+            { photoReference: "AWCwydiAjpe_Y_MYc4g7QtiEEDolwGX_H_zAXTO0DiFrZE7jCkPNq9GX0_9I1r31lr-dL19N3ku2i2AuoxoFLKfGa4fdENd4_Trj_4iXAsUVpfQgFb-YdAZs3J5PBTf1b7X6FgTfMhly7pC1Ge3FHvnASdIBy2wT-TImiUwivjOM9DXTagn2XAgXfwAiwGTDZujpoDn1gTEci29QHzIgkz8U8ajB1KBHAoNLpHjevAWSSPBpVOAUos2h4wLIgTTip70Q653g1mbUjPZTFq-hrVNv7PlGCPkjmi7mduzmel2bxCljEB_5nZrpA20WkqUxMV6XL0hvbaBQpnTmOE7w2FdE2gj99IxM873MNZh6VtzmN4l9-ocQigwAGWexcfv4UV_VmG_JO_2vkNwjyTzhh06mxKbVqLXPepxaP7czwxM", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115946736659351169043\">Hung Luu Quang</a>"] },
+            { photoReference: "AWCwydjhKo0OIWV2QT0wZAFyEXUc4tzj6O5hEF2aCtrma_ybnb8jt6v6Pap9DM-u5W6UcPCrEzf8Td1TONSOLSaHO1nkXQkweAPhjfeVznCq_Db3v3DNCqatqcSURN2Wv4kM8StV1-T-lUuwFn4eAKMXYnTV5yGUBw8iBH6E4Rzf14ZsZlV4WIPeXFidu37Dm8N8XJdFPndsIRHcEYcjFZFTxtUjTVn19BJnTLCUB79kMbq4ybZn-dabhU1a_KtJ2K7fKnXc-zWY-51cLgGuN8nr4SrpjEtOJ6dUPidahjC-4jfbNMxmnCOvGKtXz4jnKgFg6oy71UcZ28MbS9zL6ZuQPTUILPykooRcN4D64JA-6S6UBv41V5Ufs7PMZkhRdivAtzLY0SzxrgC82c0ms0E35Ga4QRDVtbyrEQbz4U6b1BOsq3QDC_axAt05eGMy7a4h", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110151925030144953616\">Shanny Chiu</a>"] },
+            { photoReference: "AWCwydhj5iJbHfcVjsFw2G9qzE6cjyPcDhJhqjisWe7bY_pW7Sd8MIxrAMGHvqokoF7F_DksTkTsaj0I_9sz_JGf_dSvghgtnpOVgWnEaFaT0sIH3xbf2S7PcFQ_TGTVXU5vCUr8F0-sCF4k_yAy2QFuCAG9t-jTf6_E7H786y4ODHhWBVlBT-Fhf-U_lHBeARzLjtSiQc3CGeAnAG1Vkbeg8ODVm4wz7QlmhxNu1Tzsbm6m-aMLnHSgPDgkt1SZEnQlv1Xuhp8S_RbsFiIwJww2KxRQkVW8J02lEnI3VSR-so0Phgrr86VOFtcI6c5V7PJWkhb-rNip-mmhkXMk1R2QBqgDwto--xFSfbi-cq9bSz2YtkSDTHA0jxsFbbs7yuULboQkZ7s2XhbycN7urH8-VNw9mGLdhKRgES9U3w0sas56qw", width: 1276, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114035188083640039806\">Nguyen Sang</a>"] }
+        ],
+        summary: "다양한 작품과 즐길 거리가 가득한 가족 나들이 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["아이들을 위한 최적의 경험", "작가들의 훌륭한 작품 전시"],
+        tips: ["가족 단위 방문객에게 추천합니다"],
+        hours: "월요일: 오전 8:30 ~ 오후 6:00; 화요일: 오전 8:30 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Lô 10 Trần Nhân Tông, Sơn Trà, Đà Nẵng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://artinparadise.com.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10503400368954609584", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=3D+%EB%AE%A4%EC%A7%80%EC%97%84+%EC%95%84%ED%8A%B8+%EC%9D%B8+%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4+%EB%8B%A4%EB%82%AD+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다낭서핑 홀리데이서프 | Holiday Surf | Danang surfing": {
+        photos: [],
+        placeId: "ChIJv3fBuW8XQjER3OEAAvLbbdY",
+        placePhotos: [
+            { photoReference: "AWCwydgkmK-MvUZYpDU1s0Dimw4F0oh9wtGX6pimskFudrgTDMrp7D1b-Uc2Pu_OfDogj77eb4qeNqTmE-802pQ3N-5NxAC5BGBSECPzdTzakljvzpRMwjROL-nw9Nd6Mu6Yf_LP2hvmKDzfu2BOdXIa0aAngGR_Rqtqz7DYeg2x3CD0WyoIkGAVua_p-53M9uyAJTn0ANEmZUHSBoTtLNrxX-7tAC6XUTJFPUbVKqm6G2q5YtJNZ7iHEEd_KE503ehXPg05exKXFoeF6fJHtYwmCM2UCGca2ut7t4mnOV8DK7RnTy1Rza0IFF6vIIlsPE1sleyyyw1WsbWtixBF4JT4oolF67qAzp8JjOlSZLTJiHMhK0RvuzZUOvEafu5Ovn32jF6eMmPdEahX6VXDXLT5w25toagsEHlpcKBRpwTkDSidvA", width: 4800, height: 2701, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113340833841382366370\">다낭서핑 홀리데이서프 | Holiday Surf | Danang surfing</a>"] },
+            { photoReference: "AWCwydg-Au7PuK6xa6dRcst_mXr2XDtjDrlq7ZGIUCRKXFuGhvnnQLbjT4p2vuEy-fwbyXieMfy82wwjKvmGKGMijM9mucCTihaYVagh76yivaTxdf_PRCvxEWpHQeWy9FYhrFgVf3-7l5VVW8IzuKT2OobyOb5If4NL54_utxnamiC7Az8YjIiKAKoDuA3lmghVS6G9qaEGx9cAjFok7Kh4hAL00Uo7vZWpe69zMIL2gqdt_RG4FJCNm__-u9JFtEv7S0WaIPURfWhLbLPloKq8MGbIw_Jd0GFMStlblc68xDw0NL8SaYvIiAw7Z8epMUfquesquuBYrxzTE3f0CDTs-PCdeI1XHOJiqe4tWge5PH8Jk6fip9HsE7FGSxRvj7O1Gh7M4Gss9T2stxLqHN1Al3HeaaxS-vo8-QWYQW4QKJ5epQ", width: 4800, height: 2701, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113340833841382366370\">다낭서핑 홀리데이서프 | Holiday Surf | Danang surfing</a>"] },
+            { photoReference: "AWCwydi4t-mXWiY3256ib2d3_g83YwwSveVIJBxa4euzP1ZT-xb5mK72ZFydPw0qRZeK7W7PlxCBTKOrgKqXLxiVWUBwPVxKOiMV0lBEWKKdIG9DBrvnAGgkHVsipk2EKIMTd5O3WIPyYwwOPEy6zU5hVAJPqaXHuu5h9tdZ0o2b41oRV_IDmmY557rTz761iVmbPA-mSgR3j2bexpsndqcOili3W1fTKK5Z2Ywj8PZgQ5Byp1TC7Z6nNSrqL12m7zOo6Lbfw_ESNI3ra-zi9tB1aXTwWnQBf6Z8-k5sig506gWXKgii9Bf6LNmrC2cpNVYeDXvnahcX8LrWOvIyI5kdaIAoIC6ZQmr3Fi9Tt7L3MjNpLhRO2NKCVvDj1wZHaKOTEh1T0EoXYrPdAzi4kxaH0ucL6amVG9z3U8R4FhX6IArt-p3CcADe0ZQ4QTGIcw", width: 1062, height: 1770, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113340833841382366370\">다낭서핑 홀리데이서프 | Holiday Surf | Danang surfing</a>"] },
+            { photoReference: "AWCwydj_u4tFYejC8Or5RQDGy4rpX5CV6j6IliYReylRK2bj9KkZXpmt7drOrPPL3vDnV0sJ9_cqCWFskgPJGSUg0q6D71VxSHkBJEk-2mRNulU7P3ZkJxcrABduPmzgexglGTwqeIP0Bt1-1CFI-hYalOIdbgt003EFDb5zDAfwKurCOHx_fTdJ6mcZQOpTHBhBOiP9Ha2xO8L91xbF7L91JroualIyMB-Hdv44QQV5PD_nq9Mibzh4G084DRQVZ4jBfAJ7-FkBUplhQNyHKMv-IOgtzuX3XYzuaEP3wHD4urpIS3H2_gnAyElXQ3uLyFVEj5tzE2HRFbbtgCO3sC0OQJdQAjDjtP8SRAjI4Ms8cgmamkIU-OAqVyhF1MbIUnRhtMmB7_xUy5gKpSmWJQedNHWbmdn_wK1uUnpf-A8EF_E", width: 4212, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101432662762670613744\">ey lreerrr</a>"] },
+            { photoReference: "AWCwydgtoHS0vf7apbN5ee1-yM_shmO7T-Q6uvmgeKg7LnwX7fiefKGbm_se0Q1BMHnrH1533Y9IIThemdR9o-B1tRSQHnek2UM2ZBuLBoVIE2JfMwme0aLzJEuzhuAML_-Pf7yIyaDhifm-WcoXPgiRGwVo1shTBDgFrsEk6oHM08wrprIE9TG0BDGL5IT20Y3Clad9Re4643zsNnU7VfdopV_spxgTUyVI-niSiie6T8FXBLwsol6iYUnpu3TdRQXLtWXJlI8n5DwBkjNuc55-nlB-djcALpMACT39-jFKaQhAZ0P3B-64OsSC7FGiw9UQ_p2AKMC4yclIYZfsNfs3v1QlV80JH3drWL4EhnptmlAtbrKM7AD8hr7DJMw6R6M-CDaP5-rZQ0hX3n68RQyS6nfxRXAKfG3Fpq4RTNpjzOW4E80iGgSEicVasJcx7iri", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113340833841382366370\">다낭서핑 홀리데이서프 | Holiday Surf | Danang surfing</a>"] }
+        ],
+        summary: "초보자도 바로 서핑을 즐길 수 있도록 친절하게 가르쳐주는 서핑 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["하루 만에 배우는 서핑", "한국인 강사 상주"],
+        tips: ["초보자도 즉시 서핑 가능", "한국어 강의 가능"],
+        hours: "월요일: 휴무일; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "9 Lê Thước, An Hải, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://danangsurf.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15451247729040220636", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%EC%84%9C%ED%95%91+%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4%EC%84%9C%ED%94%84+%7C+Holiday+Surf+%7C+Danang+surfing+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Da Nang Outdoor Adventures Company Ltd": {
+        photos: [],
+        placeId: "ChIJtxv69mQXQjERhoWOCBgDRdc",
+        placePhotos: [
+            { photoReference: "AWCwydg2gK2FYhZXdM9kvRz9vI1jQQUN-6ZExN7cAiVXAZjR5Qjikb3jgxyPzBhhoSSJRBhKf-9ClWcWim92ib_-2lcObQnBSIZ9B8TeGMohTKCcEVZlZVtqGNnDQk8asBt-AqUWbpFo_eFTONL4Id2Mfc22Ojyb-9IGiROLF8n8-vL0m5I-XjV-JJy1NL7J-gcyaFubS7DvOMeRpo8w_Tjgf6Bx5OLjOl8hiLOCcqm-6ectJeTLDLB5Q9hpq2PkVLVhd6Zq3YdU8SPk7Vx060kdlGOz5v7FgNhkx-UGqIfVWn1REXOylACJZWd2N2w61XP81qTgQiiy8pqpS1FGgbyEs2fB33HNnW1iJNdZVLDNeJ4ktYipHD5cQVI04hi7BxGYKFJAW57tBw4nAVwlJfr6r4bYfsOpBJews1mM-ywQFTyL-v7j", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105263511583016432766\">금나래</a>"] },
+            { photoReference: "AWCwydj9eQ4x45WuW1--1RK5cg9Y4bUWa-imAIjsirbi4F8jVG2dwXe_BZKuaJm6xoe81qMIvJNM3S7CVgI_CLTaS5O8x2OObB9CNHWBw_hTdpE8xowckEejWp2uVeVjHiruR4h-hhE2TGCNGW3GHp4BJfNcP4tIYFdxUbpCWpHJNhRESJt2YSY2xSFQkjcyITOtTer064atxyC-mERhf-IOw1jKWPwVlK1yyJp474KLtCO5oWlRs25vM9-vAS73V9g5Zgv9vQjCTsUIN4BIpsZf8a6h2_tuAJD52hhBA5sZX3TENOzv2-C5EBV_AXiqDKetCFBqk_eNfKYVqR7uOmRX9QTs9DcO2DYVOPE7BG8bjehvM2pUPXFckRNnIXIgW2GLdOYp3uYEbrWojkBT6BVr9xMNQuVKGG4m0ZcnGWXYjEW1Whq4", width: 2160, height: 3840, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105804148714535604574\">Chaewon Lee</a>"] },
+            { photoReference: "AWCwydilfsTOh-O4La5IuNtRFTiTPJpDXLsP8ZmoXBR64mOpRnmOX2H3wro7yW2dlzFlm90vKc84Z-o4J8tvCgqHfvwac4fOh10LwX-6w87GRYqR8ersgbWXm70HdQqlK95b4JavC5C-VFoVt68pIEovjCyJvKiwb3gw71lrjX7aCDNpww4j6M8x7TLz8oEkOBXjGB-DPk_1NX3lffJO2ix1-rooj_-GOvfY6HY9xGVvUIBhril2Ym6TBpQw5B5ML_8ZehI8a4A1SNF55TvseP2AxWl-YBXYEBkocnW6e5gECEs0ZskLpST64ngRe_2U2KZaS2WaHD2wO72gELsvsqWvik0m5l3bfQwsYPScKKPwNUG4LX0_k3ma6KLxJPfRT4v7FojI6qt7B6MuxUxTwO3CD8jXQ8rlf2U9ZpJqfUEs6QKHCQ", width: 4608, height: 2214, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107902173093051233536\">Da Nang Outdoor Adventures Company Ltd</a>"] },
+            { photoReference: "AWCwydhQxjAzvNkvWKXIE1LwwUbuevNzZXnrwmm7MOOSR3Yoqm1euVp20BvztbqSWpnlD5V2frWTaKdKii90bcdxLHH8PyWCWzFRH52XcXgSH4nHIWy0uEOv7e4OCBoqjofdxO9CHy4EkhirhlzLg7jwXkmWZlYhXI3kAJ-kpYTZ3tqvdm2ja3MtNKl2yzXYObdZh4fEnv8FydD-h3MUIgKRTV8OOsE8OtSRutEZG3pYqMi2maxnmXwqr6fk3s0fmA3TYbyHKzAx-ilCVfJOQE4JXEYucn_KefeaFyUiqeERVtGBDAx_wSCqjGbUeDpKQqRn6fe3KChu8Eg7CQ6HCJAIDwVxPf1eSM9h1XXlN09ElKUwiE5UcqFMAlGYmecVqjNpypIbeI4qYmeo9FDc5irvDwT8dCZ4NEEsTyay-9_F_t9a92Y", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107902173093051233536\">Da Nang Outdoor Adventures Company Ltd</a>"] },
+            { photoReference: "AWCwydi0Ym63U5Q9MIne45c2S4-bRJT-2nGagb2DUMTmFSSzGC66QUmPm7eN6c_lGCOMBI1ki0lF4thLDvJGvcSHIthaiZrfjMW0rBf21XuU2-Hy-WCpVngKQk1QyWEYBJ8WCxe4VE23azOJkD6S6m9YjjNQILQ_o93_INqZ0Eh1QgvAJYsowFBOYxJwN6mIMQGIaCRwYqEwdaHeawXWbVqSsXfeErXF7R3oEp1sLk-FHzZkCUgsSMbSJj7GNLPqN0bj5UxPwQ9lRvnYfMbp5A3JKRHyWJat0NRqRKiTVOGQt-fhwKVuatrrUtyvq_uBmWVpQbzAh3wSBLTXwjG-paiZXVvompNvxoJN_eCwR-Fv70ujFAZtmCJ034jTz-HYkNqpC0XQ83h3bikc6zePKejm7U5hRALOb3GMH2N5qmRL9bxoIw", width: 720, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107902173093051233536\">Da Nang Outdoor Adventures Company Ltd</a>"] }
+        ],
+        summary: "전문적인 강사진과 함께 아이들도 안전하고 즐겁게 배울 수 있는 해양 스포츠 센터입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["서핑, 카약, 볼더링, 양궁 등 다양한 프로그램", "전문적이고 친절한 강사진의 세심한 지도"],
+        tips: ["아이들을 위한 서머 캠프 프로그램 활용", "현장에서 멋진 티셔츠 구매 가능"],
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "38 An Thượng 5, Ngũ Hành Sơn, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.danangadventures.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15511807893305197958", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Da+Nang+Outdoor+Adventures+Company+Ltd+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "CoCo Surf Danang": {
+        photos: [],
+        placeId: "ChIJ-dx4eaUXQjERtSp1RGLMh5g",
+        placePhotos: [
+            { photoReference: "AWCwydgs8jaanhXDg4SJX0f27TZqhFkhOc53Fkkr4M5dWJtKFvafTylPuD2HnQeWo8grclB3T9mp9eTX6WPd22yQDxCUj7p00qlH5nDsgumWUcACN9XMvpZBO65Nh6WG72xKFDzTZhv2Zv30dkD5vFt9QSVNPo9K5Cqpn43Ktn6tdzqeael3o8MtGyHH1JHBZuQ29W8dCvJT09Wu24bclWDZcXMzX4Soso_MIzn7QSYPDqSVKUr_DzTAuuMC-M4d1FanLdxTP9ct1GCd_oQLQK8GsZMJMNcWOxbv3_yx03rG9cq5rOjxsCk_eJZxsfNykByWg8zZy-lrq2Y-uDzlwP11nrnqbp3xZIQ2oRnqkSe17casAMuFKTR3bO9AISPxHMjITVjfEMGd9M7fC5TzQsFNK-aBJoGeyHKXlRsLiAbiQ1AsIqKCdjBabyoESKyQDvng", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106574055250012968573\">CoCo Surf Danang</a>"] },
+            { photoReference: "AWCwydjJUpjp7R2yIpzIkFFDqt94X0kwEGSumW_E3P7yACHqkQOoXVj-ujFrjewvwP9AztTow6GSkwvFVgjGN34LgRbA70MCbp8-50xroHh55ncBCMV9A9ryFnTMur33xd7p9H6zxdLosQ47psdruBohHvYaogIFagptWQ5O0LlMXKx92KkZgmmF178ZjreN3TRfQ5ykTziKDXt-sag_kt12P9psiL7cuk4bVtMtq-AZdLi5lCCJEGWuH-GX6Cvb6PBn5hV-9ReY_-VE3DsMceuAoPyd4SBZbK0rPAYBN-PtzJpCYpjNd__ybzqFtfWMv_ijt_5vqZdDkfgfn0ZA4w9729b-SUmQISlkVILWrLmEy7KkAgzkztSUXksuSQOiKkDV0-SBnUur8LF69kQvSXCRpvsrCrVPT_hEhcCMdOaB-AdJqh2fz5e9SbPeM4QjTNqy", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106574055250012968573\">CoCo Surf Danang</a>"] },
+            { photoReference: "AWCwydi2vErS2rY4XS7Hx6yRvvU9BbXqrDiqH21TrHEZmv5ugJyFgZ3AkL-lNF4dHIN-VHtmEeDK8BzIf_9fcRkWT4uwGLrr5vPJANMIR1wz8zB1WCHAsWMDG6jB-wU3UHBuO3TvhEXjT08APWiz707xb5tTQm7kP8eWrQQh6rCVTO3EOLDnThe_AZj7rhqOvJcGs2nJHe9NAIzibRmAZMyfqVYcCGLi43GKwEwXMDpeeQA_LUDmcItGlWiPQB8J608ra4GpaZBzCSSyGMyiRPvTRWRjSXTpge8V332ZLWd8y4zQjTE2TPFwkmk9BidjFs0akwiS23C_zS2tc4Yug3yp8zwdBcvSncxjqmn87ncWKovbzaNIkiXCFvEGQJkAP1txexfrfbIs75dwaLaah2_ujIBxxh11NYTjWY7Y4b8OjgukXUG2Q8s5zEjfdxcylOxU", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104809243105637190073\">Sophie Liaw</a>"] },
+            { photoReference: "AWCwydhvywkl-pixi760DGqC3gQQGuzAZUZbqM_Wx5BQHZ7V_3iaUmDuUxVezf7QQS-mwQMYVKy8NfGeYurEMzuDMxySPDEcaMH5NtpnxGC0SuX5_EQGdZH-c6_lZ3nqXHRhNSuPKqx6srmB4JXyO9C_qd-KqEPIZZuXJre_ZOQa9MdcVna1Vu0uaByIThxJjI67Wwy9pj_KqMYIptgzdxe-qsOjnINjsBj3tdsNQj-fTjxN6ibsOGws_Q3QZbTLzNVs3j2BB4nTnuWyPZVugpPOO0Oifpz5IGLZbwhrW38AKQ9v_cc-eF1Rp3HueFKB8MOV3T4QM0Zg4hTZ9z2PDswsmqBSGL4BTv0l2TWkItmttPZAfc9j9uRJACgHUdSyeheCKjs1FIcbI64VMXIET4hI5r0g3VVxTW-DTg72LUr40eoBiOtZaNlZy1oHlAmPb5yi", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103755637076588760038\">Thanh Nguyen</a>"] },
+            { photoReference: "AWCwydgNJmNh0t4xYDLBx-evsU4SJ0AvxEBTITmFXFD6jryDiT_XYtcQMek2bv1Ybl4tG20aDdduk1-cRckl1U6K1tVnz9VXgpVI4L6X9QLcAi4lGN0BWtVqxtIPgaBwBCKOR_gCfGW7lybhc0dhsFx-Xyip6-kpeuD0gHqVyJ912FXn7RbSIwI0-2sq__zdXH5BNywNS8yIudRQz0RqOwDbTc3f8QsnCRdKw_bWGACTvpxAVq6eTLhMXEJ2I3wCbaFOBk7nqVHojMke-coBKxMkMi9xKOQWvMWDs37N7QII6ryGyCdvz6FNvkRxcb0lz_Fb27V-82OT52-tBIErlRJezcTEE8BIXAgJ_1V36auO_i0rzUmF7_P8ssie5hdV5yGrxaaWT6Jn7ixkOW83nP0VSyhq6u-VXnnaGF9kKxQzKl50Jw", width: 2023, height: 3597, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102326861322298464932\">友哉（Forest）</a>"] }
+        ],
+        summary: "서핑을 즐기기에 최적화된 높은 평점의 워터 스포츠 장소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["평점 4.9의 높은 만족도", "다양한 워터 스포츠 가능"],
+        tips: ["방문 전 예약 여부를 확인하세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "282 Võ Nguyên Giáp, Ngũ Hành Sơn, Đà Nẵng 55000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://cocosurfdanang.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10990978138048375477", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=CoCo+Surf+Danang+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다낭서핑 다낭판서프 danang pansurf danangsurfing": {
+        photos: [],
+        placeId: "ChIJsUuNWBgXQjERh2zAA6Kn8eI",
+        placePhotos: [
+            { photoReference: "AWCwydiWfZRrxjSqm56nEKBYBrMnwU44jv1Q5aQsMdfSwLKzSe3gqh7pMgeTfr5emuSPVHMmP32fgAe__vs0sBVBjbhwYzrOAXZ0OCwnVN3hoSl5iYRG5xNbjkvxToO8REULruhWhmekYdUCaWd6CftrPrJwetP7ZmzoaJhq1eH3tivbwXJAdDlGgXZUrhmgW8DWZlkR8Hn1Oat00h2uInL7l9OZJsP3DFtBm4JKSWz0-6XaH57od5UhqTHPEgEgpmzDSPoiZQJRhkshiU28Hsltwqdmj9eaAmcpu-fXCZ5f77q9ayouBUG6uN5K-BEr1zBDL4fNB72OC0XdIXuQi7391Wo29zNATMeVnjwSCEmeDmzOI6HyDL_8mfkPoRFlYPuCCuITy_MYrQtyzOuFEVKRKDmCndQVqC39bEk4cBZwhvXU5mrx", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112119080639273483189\">다낭서핑 다낭판서프 danang pansurf danangsurfing</a>"] },
+            { photoReference: "AWCwydhkK7Sqzw4C0X6g4JXRpCceKt2YyDeeZeQL73jry_TyH9VP2Zd_LsWvhry7MU0B0tH-DMQIZCfsmOudKnLId3V6dV8cwcjC4ieYuqXoe3gH11TCaXOqLaeI7sRBdgNDj8GHu9l8aFwDV714FhefKWDvGjQdtrk1GPXY0bRKk73tBYQqftZMvKN_n6jXAg4K6uPtofcdASsGFHZCjEzTOsCJgShnDSZqkWTwdqVKD4nRyfuT2rHVqQ3iaNuZmuBgLjScRA6m7JAHRZZJccOmbX6GES1Ah8akYQN6jD4rCdAIi0wQgOYX1QsWYzIZhQhdHOn11-5dcc2QXt5w_iedDPX5ccJvGMlpm3abh8PF8Lqlk9rMWogEksvZvZjUCNffM0pGKzJ0Td2zFoQoQTptoQgA1EPq_z2i_G8jDYL3nCcdbg", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112119080639273483189\">다낭서핑 다낭판서프 danang pansurf danangsurfing</a>"] },
+            { photoReference: "AWCwydiNIlWj5mtpLEfR5UroqTaR7HDvWilutw6a2-S7kpST9kbGypqnszKIsKvuV-GWvsnhYFzcnpLbawX0dsKWOUkGAfOlwsaL-QkGHQKxmYaEhfwgu8bJpVCwG5KGC8w2IEIivTUBr_0q-hCw4qbybPlGBKaX4dq7vulgAM3JPQYqzBq2-eWA2DbYqElWiTh9-bZ8cYux-_ZoEmt1eMi66HhGrWdR4YtB1BgGHZnbwlh43RK5nOYOhUEJMXXr8iEsYB4XEyfi2FsRoYukaqdSlzP_3H4xcQgi_I2QujSzXqT1bcr5mAIjbDn2kcRflIJIXRJ2_PQSRdQpH1ndQFfu2c9GomUxt5xzbAq-2d8DDsj60xX19f8Q4T1Hb39jTn6XLhdPgD2HqkG0iQYWPTT7Q5qSj3kTCwBVL2tVgKXrDIik_EpWGqhW7M8RP6HABv2I", width: 2252, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116081704623935785655\">이은진</a>"] },
+            { photoReference: "AWCwydh_ruMA7Gh_GDb13egnA50FpiOaPGbJ-t9zkPi5NuAfdFxz4azGVYJAaJeTBqPhOB7ItTzcjcGiK-b8t0ro5pUQ0p2J_w8U3HrLZ4Iy0kUBCfGIm0x6cjsUDr6s1VytJkhnGBadCFwrxU06ggJzx8nLMiop4jRfazgpAgP5NRuzMxH-rT1Ae-nvXg3zIIH2Boekx4L3GuC3JNHeBAxeyo6-PwMaQ6S4iVyMyMjg5D-jb_pUZTZ9qGk-WBirFhX4W0EdfAC_7DtXhPwbkvFGwLJNrKvCUSmWlcNOjkBd4I7mIJd6WlQsh6jrNMG-E1G8atwBou7jU_hjzJPWNubuTc33EP1KoiLZss-XKrYVrxXQQZXwUKlM-IJS9tykSQClNAU4L5DBDyq00wjcZEeamJGBqnutMquPvXfHt90cNV4iqA", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112119080639273483189\">다낭서핑 다낭판서프 danang pansurf danangsurfing</a>"] },
+            { photoReference: "AWCwydgwsqJs40ZkYczhwoTHZw2PkV6a5yMy9-kqrHf0mBHYGsIQjkcNpv3gYvWURgt2tQ4iN-FHAy5IAeEQrFDmML9sI8MKOyQ6P9f4j9nzlhpGqdmbHIJqM1UXUpe4aqtbuChmoElL_PjYdt73x1AdWhhe_ePK5Or9dDeNbd9nR5Prl7XYuAt6HSXSzaox0lOhWcwi7p6LKenczmEGzXhhimwKQLsHp4e4BqWUaY7PFJ_UGGA6cU6GfHjVN0x0FuIgeQWlwYNuKoqnBEC_EL3YpSyXe1k0JOLYDquvO_6a-kFlzyaunt4BRdAU_5SX84EVPjtGdJ0my4SFLT7NmIPeixYNCv-C3cCATbGEeWBWtSWxSZWxUTdyYb-jSWESrBEbbgHyXdR8Wer-mZ4BdJjNCUv8Q2OwhoMXscu7iTieeCg4OuI", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100422707737074770696\">도로롱</a>"] }
+        ],
+        summary: "패들보드 투어와 서핑 강습을 제공하는 평점 높은 수상 스포츠 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["패들보드 위에서 감상하는 멋진 일출", "친절하고 전문적인 서핑 강습", "충분한 프리서핑 시간 제공"],
+        tips: ["아이와 함께하기 좋은 안전한 액티비티", "일출 패들보드 투어를 추천합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "10 Hoàng Sa, Sơn Trà, Đà Nẵng 50502 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.pantago.com/english", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16353036036248464519", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%EC%84%9C%ED%95%91+%EB%8B%A4%EB%82%AD%ED%8C%90%EC%84%9C%ED%94%84+danang+pansurf+danangsurfing+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다낭/ 홈 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJYyr_6ogXQjERoXAq8cGEzcI",
+        placePhotos: [
+            { photoReference: "AWCwydij3ibJsid3ko-9YIA20Q8UmetDjbUmafIbW8v5CoPF5TypMhHoGMpUKhj2OfnaD7SQBx9M3aNwlmR65sJFpGulnTBriEtw9vpF8-7ym6UvFJmjj5wywOgylIWXrFlfpp9fidzzT68f1uC3cOi8d01paOorRQOH2nbtlbFl7gcE9JH9wCqr6vDJZ89MV3RIDS-fLLxZUAxzrLUlVQScK7gXksBYR-UNTMVai29E3YbramINdzgZr_LhXkafKdblrkGJjQtqF-HiKOrhwqn5BQq5A0EIPYso0-3iiGD-xotCEso1bw3CLsF-fbLHpIzn3933XDqDpSvocEB249tBKoTEU0VqJOZU-wt0_kF05sQdATrMj95D3RKKv6ca-hBro5DzxYj3yYXWabBqDJZdqJtoCYu2Lpso9U9oM1Detu83-DU04YxbNFzPLYJ7RA", width: 2568, height: 1926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111889546446305708018\">Da Nang Coffee Workshop</a>"] },
+            { photoReference: "AWCwydiwxMus7C92GISNT_M03xTdWG2O-lztPBQ2ZPPdN5NtdcT4nQbILoQMJw4qtdgf9I4F8hPE36JcqeM2infG82HXIDtFgVuZpc45s_qdIVfkJox2rYEntzW-CiHeaVLaP0iEjud5SoqlGyWz5OEQn6dfNVhnV6Pm9zRXHq5rC7HISzyzw6uXty1HaiJjwqTLsi3NokLrtYMwDGr0_KnSKFMn6hU_HdWqD1cUAodScNabS6AIv9dH6Zm_aWwx0QNj7kfLcLl6phEPeSISXfm_xrqEyARTAOt-ZMl36Dm-EvUAUmwvCZR-6HE-ucYjLjkIAfTYb8reui0N9tJrupoLARA9ceeQG1OBepoXrIZJnNm7xix2SnuGjWUB8APYOgMlp70Lvfp74Lrf2u4z2UygMTtIpqUpiWOqBzDAjSANt1OteAg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114356997386120178049\">Jewel Andrea Pervandos</a>"] },
+            { photoReference: "AWCwydikikvSQ6mot8CnhADiKMmJISq1pG9XmOYZBuAH1dms522t6e6t9MN2OYuDomRJ-oiso-mBiEqlnVyfhrmckhz0D-DS_eizLpVMd5CbeJFZhAqdaJrlPx3L9A7sbB0n5DF-5D3ZV7lLWghXLeasG96UCzv1t8dlt_NUOS_MYuk9PQK8K3UymLlmfzW_62EM3efVrUfKQysKBjIc1IYGAGoJVlv6zvC8FQ8yyxEtuEUlrW9FZYDp0yrauY2EAGA2-0PIDF3n8qpIOdxBag9QzD-RSZdqcrRvU9NFpKxN5OTWC5RorewgD522xFaL_GklfQihL9bCscUQwQ_1TNaKRil0P8eUlLakuxbpumXXu3UPAoEJKN3dv7JFNrsjLu5-KgQCCXeh4_FUufSe7lgu3fMcGe9xRsKCWCY2WKIrPo0IZYC0", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117301558791069501637\">P Chopra</a>"] },
+            { photoReference: "AWCwydhoRHcSVaFNzi8lBCAuWJSVJJ_KaN92ALNrGc2g98gHe4gCJ2rtIOrrXm24GzRN-CYeo_lYI8LFqGaM613eYpopXNBfRYwCWosOboi7EgF9sup-YONeItXNJZV_uknQsR27pdDBbVRpkIafpKpnGWlVLpo5pv72wB_ov29zerHMXNSAUV6TxOqKt_FvNemwQETfaGsJEOGbltdO4IhFo4nfCccfHwReJnuAmTs23-Ds9_KBU0TjytiGDfElQCU-1-xF4GDPxn0yviF5sY6B0AIrw4FVe7ZGv0N_pVXMl1NpRjHh5klO79stYrYLOjjidlbW5LvnKUJkK1rXxytYe6ATkxUOAAi0Ip0rqe8VCGs0wOKJ4dWaC3pOb6KzYM5nAqVW9BwOUAlimCK-nA9gk3REaVJPThliS2krkpx1qEATwQ", width: 1920, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111889546446305708018\">Da Nang Coffee Workshop</a>"] },
+            { photoReference: "AWCwydiXFpWDcykg-KJYGcDiCLDbSD4gm1AJG3LgYTAduS6D-sGsFhEgwQTEfXzUX02bRu5LOz_PqlFBqDHyGaoUepYWy-AZ1nxOw8kGl0T-D16JXpelw9Mtc9U3MzjqbCFpWs5f3gS027LWg3tYWYHismdmFxIWG0tJMJ_lqAC7pBsXkUjDt5daUcSITjqXXBzuEArZpGICsFTF_5DHJrvkfN2iyhtRR3uAtXWZ8JSCdtf72eh1iCR6NLXNnp5J8g8dBc5EqQxrx04mSeAAUEF91ceho4eRdkqxvXMnNV8Dks5wTmjXW8Vjeer7rnZvpd1jIV3Z-C3JtIQM9G4d7nqqpkaNCAgFHRbiUhy6L0Epq7rTO7o4OEQs2mAy8-TIJkCuI4fYeNGguGkdoRAwVJVAmLb80BWsXkVvGNIjd3yM-FKWs7NBCi29JucPZGLyS2w3", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109425420905139034744\">Cecil Lee</a>"] }
+        ],
+        summary: "전문 강사와 함께하는 즐겁고 유익한 베트남 커피 및 요리 클래스입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["베트남 대표 커피 제조법 학습", "전문 강사의 유쾌한 강의", "에그 커피 및 코코넛 커피 체험"],
+        tips: ["더위를 피해 이른 시간에 방문하는 것을 추천합니다", "커피 외에 요리 클래스도 함께 즐길 수 있습니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "146 Đ. Đoàn Khuê, Ngũ Hành Sơn, Đà Nẵng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://danangcooking.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14037021582093349025", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%82%AD%2F+%ED%99%88+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "The Heritage Show": {
+        photos: [],
+        placeId: "ChIJi0Xb0RAZQjERyu0dlz7mgSE",
+        placePhotos: [
+            { photoReference: "AWCwydjK5rA2lft5whe-KR_3Fj5foPDfR252BoK_1ydMaPiP4j7zpUKhcpggSEWrkdX8S7vxLCCbJjRCDDopWZFtzlLeCfIOlSZuGDFErBE2g1jkZPSXU-ufApcajoq2a-fCc3kyAqk5nW4OMzFay4V837lgFn7iA71H2dj16kcR7zIxwkb7ltWNe4jqRX0e05AhnRtg1poIZxfxyEVXsuMybnuV68gkJCWiqLEZMRUISbqExpmelbFN9YYb-cxYD8vI4p0qwsoOSO5keHuI6WFdUOxiYpWseOV3aDV_0ply6zoworrYYJRXvMyrAq8yX6EQ1o1ZSzpiBVaau2Vkw3CQEJJYvK4ue1ADBB7TeYdctod84Q6xNRq6qHKQ2Hnq1wyYjwORC8pDY5YYFSAzTH1XWmo4s58S8pzobK3jimOgf1_9LoUuYMCGgJc_NJxGp4LT", width: 1295, height: 815, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115083550971592681865\">mỹ tiên nguyễn thị</a>"] },
+            { photoReference: "AWCwydjn-gV4aEQ7BryuXfJcVWuRealKda0bBB_LIB34C6WdH-UTidXAm_4gxmfB8p1LuJMBkmXaRAC0qpFuQTZaPKZK2P_Qc5KzVcwJeNCp-RO4KSPuQ85JqaBvJGXLFa2woG5WnsLd-W65GfIRL5RnpJhQ7yS6E7uMMuTck9nGRgZ6QPNMkZcmo-1ZrOyXxcCjx05zu5myK4hl3T-bcnI316EAdxEwPEOYG0-lPFdSKWzdF6VUx9xDXSORAwg1DpzMcw3-xDN4tsGy88YgYW3CWv8JP-yc6Hrbf6VWOL_E5-BqbWIjAe3unYlOL3t5rjFteyp86TIoZcwaI7mPduc6o2KTr8Gkq28IEKNWmG3gOvTRoHdWRX6tZPV0VV8KnZirTVKX16A5zNkTBZTVlTR4IgZH-Q0mvcWJ7pPakZJ4_67dMHVMpfj-NRLa92yWXA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114782108116470759854\">The Heritage Show</a>"] },
+            { photoReference: "AWCwydh0U9hHJ4Tnj4XjjCTG8kNcfU9CVauPAsr0nIG-BhBoM6EFTYlutCW6-LenBvP9ihdL9zX12rnm8MD026srmaXTnsQG-iykxCSN5rXt5nftAvLzSWYjQEtpp4dPnCTwlI6VfahQ1TG_b9S7Nr-O8bKP9axRo18oHS_bP8bSslnrhzTwQU3qKjBXiyb6lNhLFL-ZOUD7SICdeZeIAhQUHugv4ufvgrILfhDh8C13Pa9XBR9gfNEdbDgnkV3aKzrLZZ62VKg6U-gDvHeKci307oepV8Jpwmi8idlTe1bVHcccd396UQ8_DCuEtolG2kNso1llVG7XtPcQJwqWSt6apB9rx7_sfmupCXl0L5n6Nlezjtu90CUzc4F8uGUT2fBGhbWILMbPB5WbOvrNiTuQhhkKJRZm-d_Q4m81bjuPTizjXXbZyANGpVoIsjoVDwMJ", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114782108116470759854\">The Heritage Show</a>"] },
+            { photoReference: "AWCwydhQHepX0TQZwR6tS5ohBkKRbNRvyuo6wUG9DYPkjyHUZqQVOgFmeYOEXJDFdbIzxg5wj6zoCbiYfhMn-Tr1QFgPW9CSfClU3jsJqVKhndyayOwS92oR4fQwHD_dP9HPd6rkqMZBeuDPlo377XklGrzL1abP8YEKNIgLyVLG8crSFWMhzJYdEmhBvk0-Irc1vMcvFixUSYHPNR9RWPiGrSDtptEmvImLPe7NXEsLDn1DBM5DyznDVHYK7aeHqquZoQG0gjXYceYbo3DrV4sGIhUBfxdgR52ANWOttWV8NXOMJn_z4L5DYFRh4SERwZg9nx-hGQtrSCeEwmlvgvyu_mS50E_3EpaWmxLvZdNVZkLToXfVSn3XlwObKzbzgr9GiKkTIJIUU1biM6ldXAVjdLF2jje9Vy6QJwSDxdnM1orniSZ8Zp8dHA-y7jdVg5cs", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114703800557887105727\">Elajean Sayre Salame</a>"] },
+            { photoReference: "AWCwydjHrQQU8krbGDxdcLN6eyVg1FPsUNKKRThFS6ZAmpLsEZ1k3j4eo-kDJcqQjsL9awxRN9Fndco3kAGnR0-1f5U0DzuL-SMcrDBxk2Zb_1GbU52VctX-3uWzE_76HBKwzO33elkrsswAzImRj6Ph5xfey9VfI8N8pTa8a4DnLMp-mNO7ZOyi1jrtfw1Daux83-LSohNSfdfHXEPxJt5iu_0dlpjutwA9Vr-B6l0BPSn5sFJh9OzYdvr1hqnhGYP8-BemVrDnn7fQDVjF4DR8aYISHcKqTxcYOo27hPVck_nSl_8oS9wEipmrsh8fDhBqJ6LK-X3qwJJmaXLT_NwMUyR4LI2z79G45h_LY-n--uslXRAxSQ5Swz6E_eJ2PKwgUZ1el6OM0n03klBW_xyi0WTL11GYVOFWh03uosAjyxZQKLKvy_4lN6Rtx__vsP3E", width: 4096, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117073770785659447139\">Thiên Ngô Bảo</a>"] }
+        ],
+        summary: "관객과 소통하며 베트남의 전통을 한눈에 경험할 수 있는 매력적인 공연입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["베트남 전통 문화 체험", "관객 참여형 공연"],
+        tips: ["관객과의 소통이 활발하니 적극적으로 참여해보세요", "베트남 여행 시 필수 코스로 추천합니다"],
+        hours: "월요일: 휴무일; 화요일: 오후 5:00~6:00, 오후 7:45~8:45",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2 Vũ Văn Dũng, An Hải, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://theheritageshow.com.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2414464031744978378", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Heritage+Show+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아오자이쇼": {
+        photos: [],
+        placeId: "ChIJMyIxfnIXQjERf99UgpeoHe0",
+        placePhotos: [
+            { photoReference: "AWCwydj8Nni6gY_W4BPyTQQdR1yzbfWlwQDZPiXJ7xIxxn2f2eh11CGAwPrHPxBtO8nUuv4LB4WbGG8xHHltf8_o6bytRtMlcwaqg7xx-uS1ZJ4k7qeSpfdJL_4cNVndIrxrFmFfWW5pPGkN9uJPBGJkc-6AFyPNOS77uLjRUSzGBEq_WtItaI_KoR-KsIUGAQUGTOBXuzctLW0PLw6E33YG4_SX2cwQCdrqfyCGzJ7QZCKQ5F0_S_UF5ab3emDLSoH2lu6CVIoImup_UvVK_ON1iQiJuD8RkvNOJzApYt1yJ73hmMRakXMj5huogQlshCT4k4wUjWMLFef9A7ugfEng5sb2wT0IAwjPSgYMERmijtad_oWA0sJAbqxRXvpe5dkJ6gBSqYhe-_J7cNV8oU70LBjfa92qGUkNEkFQfD_wTq0kgg", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105323651856179711115\">김종교</a>"] },
+            { photoReference: "AWCwydjkdLlwWUV0ZHnXkpCiMuIMlrUcrE1PXEMz2DmeuES0Mq0Znq6EntCdQuQKqp2e7VZkCUn1JyCKGb_L9Z1OOU0Ubfi8cGqXPVzSmhkevzH6dRh1LTpMPQgQed9IC84IjYVhmFszMLcf746_ZPSel6fHcKYc-JQnOQvgdaY4ySgnRTTfDcYNq2H_2coe5Pa_oTNEwVH0NoNou1-fBIKx3MA0wHxcytmxbYS-kB26JJSqp3cnccABmZOFODzh61GuMevEWDMm-kHXaj04PZbggHmPeFGjW94t6z5MIUBzXGoKnyTgzEumVscFFeKUouYnfUjcahnACXQmCXHp1mAXRwS9EB3SW_6eeVTH13uJ337_F4W-5dLgcmCggCi-zud-twN7US4rtfBEn0C0JTkS2-Ax8BlZzC-u2FPOmbiOgtY", width: 2568, height: 1926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111702979939182880043\">CONGTY PQ</a>"] },
+            { photoReference: "AWCwydg7BfHLuEalExkpA8PavrD0Ywwr4cKUZoAN0aolTsAncwbZX6j3d6aIlBppOqtx7Z27jtQwOx5Fr8L1Ogu3yolg1g4fjNmuM5gvgv27Oh8e86h45Ez1ejNuLoWK3LbxuQl2TEbeZqvY_4U0AhFxlkDQDJT9oiY9c2WU8mM6JQk49kYJaoM9UZDODfPm8E4N1XowDwtNSUxmc55jQ9oKa8XqXUmpjFKe2KHLmsgKbA1FWEUHUObaZRVaAc2zRWdmJmNz2ZosUjRaUl_wY3FFanL4zAnUWkWXtNrt1tdVgskYb43wT4bcdmzsbO0Kn02mp5NUia_uD2uOovVK1EOZDfbxwESK24FCDMFFDmpXOtSbig-lOCQjGAWOMMU4VxUDrMZysJ1okzQZCs2zOVO-mjAhQxsQEcvMDDFIb4J9erFOFDBboTfzQdDAPR6S7AlS", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111445144263315079608\">Jill Chang</a>"] },
+            { photoReference: "AWCwydiKfNzMMw16wsSw0jOTuQUsNhxnN4BsEOX8glLqKc8gRT36RwCPDujOvIRSaZs_UQ-n1VUXRGVGhxhfGgnOsZEsCbB6TAGkoXuT2HYDFCFI-rwJgybQ7IAz32MpZhgvJRkLfMcL3xZWqxVcaTLhq06v67eJ11qnWei7QfK5v4cfUgQ8iv0U6eQfj7T4cQx2MbiEkXqz0MZPZgkfswr2U-fmslL5-N-k9Zj_pIiRq01SmFikoUXz5aBkXEDGMmoZXKj2IDy4W52XYjQzKXsDh-3cue0H2is_d1QWpNRnkzTI376Eae2fH_DQce6DGcWYoWEeozCJTDtSxzC6_MrxHcJN5Mg-Yu67m6Tu_S1EgIzVEoVj52h3IRyrUIknAKBOxqKQVMwPtno10SANfewVyP9zDqYDM8Sm_bANBklCUT3AWAZm", width: 1080, height: 608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117731939916943781633\">斯波宗典</a>"] },
+            { photoReference: "AWCwydieKhIi_DqQo6GU-Ba_6CTuG0V8wv--HHQBZM-nindOnvEAzesj6nD9QWKtP2hO2UCPA_36FGeaqCMHz1mHG2bD_LkdkLtcitppoJhkUMOKyo5X8EpZyb7SqQaNKs0rC-NqaDDoH4XqmsxgeyjE68rATpveznLkNvcVP6AEksuQcEhtSHpWtOlnq2YEFBhCOSAjCb5vYjo4GvD8pykeaxeLAjDimFBGUxQ_5ec1Cp_rOKXxH_s0Hrqp7vQ7U7Bc2hvDQIcW-FSTATqbnhXRSb2oiI0-VfslPPtxtuVcP4A4_DOhcpVXXPMXFuSdvoM3fh3fpT6S3CbppH6zCvplPspY-5wzAZ3g2NP9TFO90ShiePICmrOQ4MDYloM4Bdbqe93ednHmUafkNIrJL6oaF9xEOrqS-9axoM87P3ZE2ECBnA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115334066474659487564\">Hòa LX</a>"] }
+        ],
+        summary: "다양한 볼거리와 재미를 제공하는 인기 문화 공연 공간입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["재미있는 경험", "풍부한 볼거리"],
+        tips: ["방문 전 운영 시간 확인"],
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1A Trần Văn Đán, Ngũ Hành Sơn, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://aodaishow.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17085997929993658239", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%98%A4%EC%9E%90%EC%9D%B4%EC%87%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Jolie Cooking Class": {
+        photos: [],
+        placeId: "ChIJg2m14V0ZQjERt4DjGOdJDiE",
+        placePhotos: [
+            { photoReference: "AWCwydhj5ZYg5jQ6J3RYx9BlVZ0dqWzoi6BpUEm2bTSiGBI1k_f1Ebjymanq_g1_Wd3qRUnRXFhWd-fCCKTC6XdTqbvcaNLWgknEbWIkvm2YkzXgs-XgofRxrIFruWD30YGc3TXjf8IOvvMWenOJpNvaO6Okp011z86P4rJGhcjGUbYktMZZT7JkNU2t1i71IAQ-m65G0OCK6DNz2zZ3WIJw-DwEJVxS8bj-YsE9RifAJaLbRKzERu5ug8S8qGONmZcrsjcoAepjFVYSgFFRohGYTJ_E3Y5qPAwCA4DLtX_PVnIXAFK8oKHGu1n_9Elflb02O6Yl7X1B4WvbPDeROfqzP_UqkT6uXNQn9DXDf30yhOsUM_MO0Ok3p12spmzaFKO_lIPlqz8KlrO9fm5nGQjWy71g1_42yCewnOUguI90lU1zYLHE", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103183999396511135557\">Jolie Cooking Class</a>"] },
+            { photoReference: "AWCwydhgAFsYgaAL4IJcaJzlwQbCtEaeoBf5Oyir22KHj40TsnOLN0jllfa4xHJj2lj0KfxGPWMCmByK0wwjPXGv6W6csb1wq0lKwib1HyjE6Mi-OR6Vj6ikUgUfI6UJ2x66DWxmMmx2i2bL9Fktn7IMkiX_8chLDbIawF2eRyzcaeQNOnnYDuSjJcIO4xWIxI8LfT35gdHSDR4N1fzEAn2s6-_PNbM3pbiJb4C2gjgPbTjX6kHU-ZvYn-hkQxbnmLXrZukeqKECeCyh8muJOVIkJYEqie-1eyuXI9LsB6PCOvCWqlFtBAoka3Tft5rEunkfzRKoxMT5yVeXhr6hz9fuheSeRyteFEY4gB3Du7ON782S7mfsySXOPWF1S6XU60k-rMNCpUMlHfRIB4xZcvfusg3KcYBOeqFkmC1sWy40FKk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107137825527643885430\">Louise Elleray</a>"] },
+            { photoReference: "AWCwydhTZH8SciH0lTsnw3oN7FvFF155WEkHqE7dT32z2_No_BCuvNNQDeYqnDBdjr1t_CCWf4gYKh5NnnA1e0PETjLDcYlHdrggu6e3IGjXkyxPhVkk7ymxjSanUN1IWlVHzaGmcik_CXmp5O8hCAjutRQJM6Th6IjrxBk1ZT3ONIHphnL84k-YlyOu4u016e0Nj2hbUBJjnRlAkAyJ53XDQhWjB0QEeeC9Pj35ZIq2VvHb8P2CfxuOc780gA2C-GYIdzMNs1_wv46fe_0IDBLY-IlCM0rIOQQ5Qegg_LZrPXKWRCH02oImPzckkjtIGWOJz0Pip2OqCZuOorY6EvGN6TKk7qUXh8D7Ww0y72MGe2zN9gGTcat8WLqeSR_4to6vJ6Xao0X0UL3TdxymY754ZFIKIWr_pzOgxd-CWO86SAqyGiCEzw1zE1UrV47BKw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106521325497453587261\">Andrea Pattihes</a>"] },
+            { photoReference: "AWCwydjwluKEO0YPlvaepcEc4xLUf0iNkG-AZbAqjM6fG7nNG6V0_9ajbNdZCOvDxfGmuUUO7nLZV6Gi4uZjO0avC82zA2-hzsFWXPJNNeL7RzcZj1CsiFrXzhJy2Za8MjhKH0R3QUsN0AqRVEnoPREXmNM9V9P1o5XAMm9a-6vwIxZUgKPChF-EpnXe9chDieOtx7HADdslVHER6MSfXSjKuUf9ajdii14bLoBGJA5ZXLg-14QsCFqve5Q1bDtd0bNableTCoppx9oHDKqlVVaIBOXoE5tVGwCKtoc-f7X_RMbISSLzDQvwkYyAEyGZc4oERr0fMeaq9H3ZEOvctgJG9hrxmBazI33zQRWHpR7ZxYzNHX7tIPXT7RxQLtKWtppKnzEQoMTj716EOEOa3d5bY8AyayeXBTjPsj2FhrfsdrPniRQavszaJlGwnW9O4Ish", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118189456403841217693\">박미진</a>"] },
+            { photoReference: "AWCwydiupaPJGLV2XprxY8XtmIxwucJ6_GVjdB9BB2MMXCvpnBDJZ8294zzFePycquR1mOBsCa-pkVYobj5q3ql8SRk8N67XD5S6gpXRNpcNcYS6rwaAy5HbU8UmpFBNfDQNfp-NbUZQYCbJoExDsC-sGf-1VqpwbTazD5vpNgg1Dxvi_3cNA6ECmmmmDg5wnTZ8VKl2RQegN-te-pJaPfLKvgLAqC8ASpHLE34XPmLIDgyCt26FbUx20R_XcW-BGHvEcf4OJrJbQhXKXvCRf2Gw9ocvyo4Ih2EUXmf8NBzVezksQWgL_qtVZpqLxzLfe5ThRX5pPiXhcxuAJjckPOgKuEGxDKiyoWYCnL8mwguX0Iwo4rAo-06Q9OCyWB8Wh1aY0b9B6JgLCCZqYjivd1KgHhLOX9o4qVCxmFBDMQbpXAsanIogHQaYEcsyYcFPkwP-", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105005608886804945708\">Boriroo보리루</a>"] }
+        ],
+        summary: "친절한 강사진과 함께하는 다낭 최고의 요리 체험",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 유머러스한 강사진", "가족 여행객에게 강력 추천", "높은 만족도의 요리 수업"],
+        tips: ["릴리, 란, 트레이 강사에게 수업을 배워보세요", "친구와 함께 즐거운 시간을 보내기에 좋습니다"],
+        hours: "월요일: 오전 7:30 ~ 오후 7:00; 화요일: 오전 7:30 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "14 An Trung Đông 6, An Hải, Đà Nẵng 55000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://joliecookingclass.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2381922509829406903", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Jolie+Cooking+Class+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Danang Art Class | Art Supplies | Daily Art Workshop | 미술관": {
+        photos: [],
+        placeId: "ChIJubjZavIXQjER2lUDc_zS-fs",
+        placePhotos: [
+            { photoReference: "AWCwydhbaWmJwxMEku5HFYoMsigbkJOJZty8Obnyn7X_yvqqQJfpmXS9dk7cDWfv8pNvHPrpkFpLtluQdRke6dyq3pDHpQY19ks7Y7JpFePhHMCAufvWyx0Ih949lHu76cj796YkKH5a5HK-7dgyKeIL1PBF0BpfeQs7WRKE-eJpZltTqZupNmkxyGQn_jj-0xCYSIjDb20pMJsXO72fMv5BlrhKY7hlfRiCGXoQdJrbd0Ya5SGLv2bhmA6W1m6s_qojOK5qI6539uHdPNJFdPvhvU51JLc6DyNcD-7K0WiL78BgB_z3cONXAy9ePbwvJOVcy5uLXukd4NpSKc6MCn64wxGT7cdoLw0Ysf50OsRVuENQXZi0ahRMt-cfnfgWxag8bqyHpyuDFicNYUGdVS3IjZbICU2MwTkYUQiG-jOYIf1ATQ7pZDMMEwByfFoKTNh8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114217337600724029820\">Elena Usoltsev</a>"] },
+            { photoReference: "AWCwydhfP3wABizwvV3RH9USmkEsLuWdmbmHs9BQZGzF0Q4vEiQP16r53JCS-qCOht1367EvBCBjnEzOXC5-lQ9Ywt6L_EnuZkd5fukbSjQNUcG9UpF7oRoH2XuBeW-Ug42RqFS7RRvM2Bz61LfREwTUG2cigsPqcJG0dtTcleNmnM0CN1VD2_dBaGkAgG4zi_KSyhras5th3ktQ_teb7zmPNjKBSSxMHMdelxjZbUKDu4ee2YOkML_HWSUtXLXqwIVTXJgJ6zygN3j00MkXlB1nKy0CefUOyNYgWZNqbd-lHiXzGDLVJ_O4R6gMEe1M5vhAN8kBkbpFr9ljmw5Yn1bDCXW_JAFeyzNg9mKwbAXKDbOXAL0y4hoNKaX4dOVGedcLd-NPHaoY1_6818kSlo6Cs4ESeLiPf3cIME6SeCZbap2kuH_A8KxIh7zfJPqGJcoy", width: 2316, height: 3088, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100945705951218917824\">Yamilet Martinez</a>"] },
+            { photoReference: "AWCwydgTkowHTJ9XKITbNXXI_JX5z7jy2euU0IOeERTLj9ODEX_c_TnNZJReUTBL3u8NxwlfktrtQVH-kABF0mBYMp2fjqvDQK8Z8iR0RyRXfd7DkZU7FHfLxAB0W_YBfE_bCLtHqE1YGEHUEi39YJVUcdrT6ZjsTBF5bVzuCpKwaL30hu-saoySzr9M99DagXeuqeJxr-K2gDhGBLK81aVfXBGbs0L4WOVd7wFOrgaDYvZxwuiDei-xOv1XPC9OcCRAGIJoc3-BFlUzmg1QY_Vlk5wSkpDyZ8VHTNg6uMzOgmia60VUGt2A7_ksDQgG7mueJm5QOc_n_AchvAvnqPdSEL0kWfJ3UMAcHGyM13qyj_HCWA0FcXQK8s8-GpGWAc6khNBxbfHjgWJr9DgqtN2m1MhzQ4SZBJ7q8N-PuTmBrsngb2u7m8zNmYiOtTiiJx39", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112190023480544892182\">Yoke Hwa Loh</a>"] },
+            { photoReference: "AWCwydiXM6whsJhwj1DZFv-HHpedDysEUR_9BVXx27Io5n8QwBQUc_3p-rHxLfUizoxvsnp9Rv8NeeBtbFkaAgs118nhsUGH1cCzsiWWHftsUBytO-CV6f3YFa4BR575_7Fq8vxxf3nctfXdc309L8LDhTMDK1YXPlngt5ZBv4BgBdGmyrzlgzP4eH58cSbOtch0j2uyfcY5B2pzuyHsOh7nVMUDgZCGiMgTWCx--yviVCgbvC5Nt046Of2Z26eZ_t5L8EmSZ8Z5T3ME-2TmOCMghQskWMN5MMG_Ty7BISQAuUzjJjq9awgGXHscxIv6MQMegbuKigSsso3p1Ek6BGS0K_kvlwuywDcAQ13-2LRuek99P31H2_cKKOsWGiIKztTuKnIWxSiJZIqTc0mGL-NvO77baLYUbs7QZ1ob5khms9GF-NpD9W0S1dYF08DLkcMD", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110330904480474168831\">Cora Oo</a>"] },
+            { photoReference: "AWCwydj_3HJmVmboWsh8Q-DPZefYXB-aWpgdSrIcsLq1nrUpxYjAKSmx8UOBxbewxvplKrGLXZRU3D1Mj040xSxGgCAhH1eyl6M21FpCCKPpPU00rgo93DT1y8GwEAKcMb72VYtrt_90POzCwvGmOc17FpXTh-ToPld892bcfJNUHqOfVLEkyTI_tnoNWHl_pjjU93KI_WCbVV1ZHMfmahiRDpjygPUhB2YMDxZfnqzvVYxDjKVzW0GXVljokzp98jCeNr5YUpSgoeBoWd9RyeZpml9mxpoR83V9QRtS3V3-_3PfEIeri5XR0FmC2QbH8VvfhI_8E8PYCjRp-0dU3mnoEXlqAu4mWd_wZHsY1tFvJnlxTx8bQWNeC4xaHp81Cr-pFqyvMepVjgw1xyVlzPYSK4_xb2X_7cQLMIclZd9WcruoVto3Dgl-eDn2aTHPzg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102652548028314457398\">Quyen Pham Thi</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 예술 도구 전문점입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["다양한 미술 도구 보유", "매력적인 매장 분위기"],
+        tips: ["다양한 예술 용품을 직접 확인해보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "N 23 An Thượng 37, Ngũ Hành Sơn, Đà Nẵng 550000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/danang.art.studio", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18156775354424055258", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Danang+Art+Class+%7C+Art+Supplies+%7C+Daily+Art+Workshop+%7C+%EB%AF%B8%EC%88%A0%EA%B4%80+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 
