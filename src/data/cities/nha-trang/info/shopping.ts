@@ -451,6 +451,185 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9C%88%EB%A7%88%ED%8A%B8+%EB%82%98%ED%8A%B8%EB%9E%91+%EC%84%BC%ED%84%B0+%EB%82%98%ED%8A%B8%EB%9E%91+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "SAGA DU MEKONG ( Factory Outlet )": {
+        photos: [],
+        placeId: "ChIJab0qnLBhcDERzixrcLKecsg",
+        placePhotos: [
+            { photoReference: "AWCwydi7HXsQaFI6G3EPeCKgruFqhbJKXykQbP5LtNrOlJaaSBs7PDXjpeDSWsVDpFyDsl_-mLSvmKCCwZph402ReBW0TlKec-Z7HCWfkqlijOtAlnWz02cffbLNdnPRa0wZ8OZid9PzC6HpjsIPcq7P28RGwej0HCGoLKKZcrPk2I1UsSe7GNkQTvT7Y0Qd4NR096DKQbYXCBO01wxpMihq2IOoi7sB3dWNCzDWzKDh6AeM27OGFi8PMgyANtVWkQ0VDfIFDo0wI6VojDp5zKEOULw21E67f7X3PYSfhixBPBKDl0cT6eQHFM7eQUxUAuCduUdvL5cJ6DeYZUCkxvsmUGNO-ZbJVHHd14k3WciDCFQbTbqF_lUEP6XSuxqg5yVTjvTPlTeobMPkHpdNe6xsyziOdYQVWlVfh_dW9hRoxF_VE94KbH9h4y8cxZHFGTHU", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106315702368871240303\">Hung Dragon</a>"] },
+            { photoReference: "AWCwydh6h2voutY4lbEltt9RakaRGpoS6RsEXas9aqo3dRlTG5HtqxwlEGcGnk0qm0YwG_sD3hK8TLCU8CqqiVQXAUnkRlC5qmjCjN_eokiW79504w9J9_XUlRpqRRGml5rNqxt6txMDoV2mhvdBV3iRZOp3xW17J0TAFpMKeVmsrGyx4xquNkxeibmCwYgq7VA7lD3PPl4Px6QLtBfIRuQKmc5SZWpU3InzT7hPJNSNqxIiABNiV1lfIMGEBKQvUx2XFlwO2MIZaqQ2BW0VmBek8OTOgcAHKb03SfxR6vTxVdtdN7hrhvhxV16wt5poWX8DyJNUUSLAQv2Rj-HEKSG84sQofnKRWdWgk6b4bL6T_9zIATwtOp1Ji84JYdRwj2yvESymXWnraKw8D42orYSrUvqBeyidwEnihIa33Bxty-jHMao1r7Bivoh4jy7M_A", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115823095105010620625\">Raynald Riviere</a>"] },
+            { photoReference: "AWCwydgc_DaO8itKnO0CAjJridArSfy729odrnRV4dypAleRilmEK9AAzqGQokXPkD-ibNl-NSzMD-Rc9HJA2iKed9V7oIbhycgDLgPVfu0OUQqEFHJiwKuC5kYcPDX7m73TivLOsCdn4EzH6eEoyCuHTMwQ652Vo6a-TdfvYTjynQ3SiCrEzKz8BCVAxOPK5aZkjhITuze3GWhMxjaL5J34XhYKAZpDQzl9dT4IugB4cEQvitrqLbhTmvFdEY5JrT2MqvroCJH087Yz_CdMmUSA9wH3-eKWRrFP3Qvp3iU1jvH8TiNzHpitmH79qoWHGOf1xLW8e1dZw9cAWhpkHzjPItuMm5UtnlDpJRRmL5SzKm4pt97xRsWWzFUmT9nSrluqUZzIYHrfeUPTSpHZVlBiEPithJomyF-6v6D5z546dy4ngYZK82Uf3_sgIw8TzE10", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108631649995995831641\">Angel Love</a>"] },
+            { photoReference: "AWCwydh-gGuJGC9sNr1-hHSXCSfPS_4rIDcywMITKRzTW28XnHqNCJ4gQNpig8t7KPWvSwn5c8rVPqKeFrIfrzDP43xyl-Jr85uXJtKFNFCShwch2ls7lPaIrXz8Sd6mGP6DRyE4PfWJwo1-gxtIqPf_9dAaspjzTkqyD3zm97sFe_Mabwt4R9YR3AwMPaKtHAlOA5uoKWDwiYAx9u64DyQzexnVwPxAeLWCxwM4b13v7O0FxPu3cZF2yNj-Vxk_81TnnqFkEvoXAetV3FSVQd-Zgkp21lcJKgc74yZDJZHrnbFx5GKqupE39Or-E2d124oViDRBVer3_4oeO9854e5rM9zzVIwO-ucKA9-q5Vyfb35HhHL2ffqW1VW3BV2w_9F6dGc-A5gxxOMnGfgPAoXdjsoBAl-6TIeublTBr7Whq4R4g1Q_Gx0X6HhjV5qgMDZ_", width: 1276, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101319834928631303488\">Coop Nha Trang Hiền</a>"] },
+            { photoReference: "AWCwydjUGot_xPNfAlxSgzadUQUn9ljpzdWzhRwSkEQlWJqnWclxi35rGTNzvPuVe81gdvPdTierLyQ6sCVQerf6nKnb5m6qG6sUsAxVvkzHmRdd0wyakucIRZmJXKEPbSdIzIjw6psehkjGuueyNxn2nHt6RMeZMy3Xqd_4hjieE8JuMlnhGllT3sCbD5IPm2nICvXm1HFCrR1bCj6ueXmttHOnQyn7cmTgIPBYSkOjaUsIqqbuMcZAXhacl2di9dUiCQzfNFI8uEm9RW9RKgPuBoW_LMwEYAY7vMQaBoRxEOpREafK4lRHDvaMPUBV3Cn2EezUWwDL3xpHUouauZySlluS4mqPl-lbIbHfun1KqH01psgPryv1ecI1FvrV7k1aK74jWY6Cqw48_qP-uiHteQxs2xAxiMPV1LCc3KToslOQfApQqGh_hWmWcY6xs1mY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115823095105010620625\">Raynald Riviere</a>"] }
+        ],
+        summary: "품질 좋은 제품과 친절한 서비스를 경험할 수 있는 쇼핑 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 전문적인 직원", "합리적인 가격", "우수한 제품 품질"],
+        tips: ["특별한 아이템을 찾는 분들에게 추천합니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://www.sagadumekong.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14443781444158041294", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=SAGA+DU+MEKONG+%28+Factory+Outlet+%29+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Orange Outlet - Golf": {
+        photos: [],
+        placeId: "ChIJYYISURtncDERw8G58ERQOqA",
+        placePhotos: [
+            { photoReference: "AWCwydiUHTybLi4v7DxsAd9rxHB7ci9OFME4972J0xSZnW0AFodCvwQMAsoO7bMM4mA19vb7cQf2Rb_7HW8iXL2JGYsFe9nFOM_UHzo-_3HUEsGhHIkbcWjesQq06cMhk_VJEzr29eq9MVs6fqjjhHXX8JEw9L9H4lkXuHYB3ZGBHFf-eFMDBBLysqexddWpqAwCF9jzIACDCDXVLTBvds9B6uWY5dTy5k6Pne6zf0wHzprPZuUxk1v3jZEP-B-HCGkXgH34D9IuvLCXgH0_zeLRP6b32YguByoxvwAZrv_JUn-3XAkYRNg0n-mMKV57wsoUtZqAUXDBoGxWIMFAWbyULWFmYpAlLsrSOcb5sDGDmIpPSo0F9FdEWD6b8QpN7iDwW_XERs0zl-EWWiIs845rviTdIntuozSp7ZybR_riPQUC5g", width: 982, height: 734, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112843509424831153984\">a mi</a>"] },
+            { photoReference: "AWCwydjnmCkTyaQH8ey0mXdi4A1hqC532lTIsIEKSqYg-7_bm2vv6vJNmPaq2WUmY1xmWWSl_Emc8d68Sccqthrt86UYMgEuxgveJLleGYm3XL8QjmFhmNyv5f0RR6Y7FQGzFdhMmys9B78PT8NpzgOwM2xTtAzjvbsJAppMr10i0nCi4sVNd0sOBLQw0TRvWNs7HgEu4Vapph0IOoyHZqn-NI_5tS6wei2N2ZcHmq6CWt9RTrNy_RYTyWTlp-grZOu5_uhjRcZsphhc9e79junJkD46BpRhDRpchZf9wI1bXc4GT81uBDyPbBE-JTiaCWtqHTT05_1hweRCVO6WjgddlVe7Sc1zXSYU0lQG6KZ5MHpOPH3Q9ycy9Urulz4fI1LevQwqGS5oLpOVFas75jkBCx4Cv3AFkJ8Q1gCaTvjI7sF_5A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112585856900900747930\">정유경</a>"] },
+            { photoReference: "AWCwydgYccGKlSU-ZZF4TnMr38utVsAVWWlKOcvWAckx_g70Gqeb5xt5Fqkg4OC7zeLmIP22fmx0FOnoUVRyD4nRas0Po9E1Hsr5g5s0PS3MRrz8iSNHsxBeb77xK1dDvascHIHQVz-7mEiTraZE2tlmxWAkmFP6BHoRBS_TmECYmU61Gu6-TqMBx6EvdbW1_hIRsAjpa1niX2K5mk0YK7dSyjxmnluhP7Mtigg-RsDxjZ2j7_rwzlG1cC4KzfxLpotkc3PpxDCmePd9UYpBNZMuMm64mkJ2r_Ku1pVfkkhbLN6m2zLD7o2991UmfdLe2NtFM3at5ddYM-W7FT5nxc7npQ8kUI9VNvFKNBfv_q-7qkgEbWDvZ-jxh1OKBFhAQuRIZyVJWM0vajL1exydhgZVEBs96NdHQjzbyAnxcjPKr0jf3ZEx", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111246874136295505488\">Orange Outlet - Golf</a>"] },
+            { photoReference: "AWCwydg7e2VzmI7IuIIrqb4iWtJ9h3fAnguAPwqDoYwg0l-KPClGo0cF4ln_w5HU7CAidnigO1a2u9jRtqiUHnZjD-U9QFJpE0476jWsKVfoF2VSAAE8vFF90lANEjVJguiv9brNly3KQuORDqLkPG5Apq1xOGDEm-mJzYshKp8DdhNZVPbXiMy4jGskHP60A4AHVeTy7CXd8BNovSNfsRcvo7eh8bvzZ2E8z_0UncPAxEXKKgMJi1J8G1WuFD9HaiycKJcIKEFR6O0o6Pi70WAarexH11DoDOgJmTOXX6rjX1CS77Hat3e8uEWmzQNQTjxc8xilSKs3dX0zO03D8pIAnGI90yIO-rNiIz2eYqvOcE9rvOuV-7lyNNazjqFWapfK61C8uJgFwsEQbvXasKZd_tyczNDiTMDOITbRTgKEs5tjiWb6", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111246874136295505488\">Orange Outlet - Golf</a>"] },
+            { photoReference: "AWCwydj4Rw-5lyDxNlFe9mTRemUJ1xT2o3yiG-YeeqdknoVDSYHm77PITvPJPVDhwqW-wvlV8n4vBx1D6ltVzwc5PSzWhh13j0BKIrf1kyhM87GOiBf4lYkVHh1lCIcIFzYwrYYWVmdwrQ-Z2lm2xPmp7ONyZ4k_132iqTDvGPGQqqtxdOOlmEfrIv24i7vtljf008OWMvOrR8oK8-5yt2oB6KI9PKR1s_GSyVBNzaW94mjfyQuNOybL7D9QhxFT23Yyvzz_05I9VTaTf98E6X00EVu4RIJ28L947-XjFpuCFuWgM5ERGvdq0sd32vUonJdxYqZbV_gH0qeW4b_9ILIATgWBX3hqd7sARUHR39eWPkzDqm9ZO8IKJ02__tHvXFAXOlqL32pJ0HP7K2OfVodaFl83jg6h3Ku1z_a1eF9MTC6JGA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111246874136295505488\">Orange Outlet - Golf</a>"] }
+        ],
+        summary: "다양한 의류와 아이템을 보유한 아울렛입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["다양한 의류 보유", "다양한 아이템 보유"],
+        tips: ["골프 의류 구매 시 방문을 추천합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 10:00 ~ 오후 11:00; 화요일: 오전 10:00 ~ 오후 11:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11545628851744391619", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Orange+Outlet+-+Golf+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "MR.VIET COFFEE OUTLET IN DAM MARKE": {
+        photos: [],
+        placeId: "ChIJyxAPMwBncDERLOkP7IMd-nY",
+        placePhotos: [
+            { photoReference: "AWCwydhtAME9trdcDbTh7kgCAey2YlCfKPcjDTdfRFfGBNr7-RCOsse4Jck4KuWErZoef_S-v0ntbuPUJVxOzstb5zGZmYg1l8uT0MGcFtQ7DIdrJS_aiQ83k2bQq4hQ02NQ6L3i5uHF0uEYh6dfaCJkl3BI9K0hLyj1VLirX1iOyKXSPXFyr5t7HZz5MLw_9sc9pVf6AfdUVtJZbz1Rrdbn2UF_n-3nc4KJaom7Bkr_DZnoUIfF6JY2kn_1BlEPZ3EIBR5h9pBrM_gAkfo1JkDg_q4qD21ir9FYvuG8UoU5TLYuMFzucNcBGets5E674q6vaJLXM9ZCmbITnhGRS60Z2wGye0YhGfk8wDbJ-uszhRhrQtkQ3laD8DZIBrDz9flWGlrCUQG15pAYAyI4oFX2hFc6y5UijOW54CPPFDZVQsubsznYhbWV2dymbHXgl8T_", width: 960, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113809619682430231068\">UYÊN PHƯƠNG LÊ THỊ</a>"] },
+            { photoReference: "AWCwydilyytINPQj4-pPzkfhUbqEsB28IrIO8uUkE1LQ_AEUTiZ1WPR4ajLC2tryorScS8yBzfkUA0XP09xN1S7uDIE8HapguSfH7yrRaxWyroRSomjIJpmiB6o807Qg7BfeO1pKimAq8WHHcTWa23um_8rEPxBAIVKWZ3qEzL9y4cwYjmgQU8j2B0TVVT8c2fZp5K6OQ8KZTrEUWAas5GLCbbz7DvEuNRn9vL4Z-Oik198zGx4sZBR3qx4s_LyE9cOnIyg5DRHRfJhbJoh7MCARkKT9HxX2kpc2LqwzfM0cK0QYSTsb7Y0P0KTKYIXRaadb-Hb1jFnpIqoai5vcDr4QNKccdmAS1YbZMcp7D2vhpwRn6RpwfOuADQsUspLWP6J4BL7KmbY5OGI3akRa2TuwVHE3a8acUaSOhOgd3LOv3Z-BLHo_X60Zax3kTIAxd61d", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105692357562833672854\">MR.VIET COFFEE OUTLET IN DAM MARKE</a>"] },
+            { photoReference: "AWCwydhv_wDKUW5Tnhc4DlP7sdUyWHlwnPQia2IC7YzfCy0GrKd_AFyE9hFxSXOZDf0KyhsTJ94PnmGf2RIXy-uryagQcMDVeU8X056gBcfsqqcOVDdyjs44HITdPwvPpqXcN3JZ82ivdrUHdxjjQ54sMTx-JV5gr3yBMBYHrPPrPC6VqoFIvV7RxQUNpQez0hSNrXVTCITPZt-EL3a_oG6ZH8bhYcfi6CSUgBE9RxSAyklbQQaKYNgJW6xY0A1QSIC6yTcyH7K45kBtlqP3I4OFdP2IJUMoVOcRKc9Leq9UKbG4X11xOh2tJ9OgTYhGImAq15Y83pmFOegALL-ilI0tRRVfcf9YUMlaCnomeSaVjUE32m0CooJzOkZDQTKqqpQVYhT7ImHjtOODUxHo2jQpHrle4T7auXz1aRwkETXVIV8iLvpge675qQOyU0Pahf4x", width: 1926, height: 2568, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105692357562833672854\">MR.VIET COFFEE OUTLET IN DAM MARKE</a>"] },
+            { photoReference: "AWCwydjUI7CU_y9syPg8fC7ynhk-w6jkSKubyVotidoc1Ch21Aj067GfGbq3OBLwfh22c6SKq7vFAX57iMmpH7x5-sNIjjZEcYQEBabDHTyEStsOwGxIQRIPs35sJIwo6RGUzJemf3B5Vo0mCZiizGNePVGECZGCZSaSN_5sON3tPuUteIgM3eX9sqqi8Zs9muOKJzfSb0ZRcyVihPKPm_x0-Kdb7_HKL8KQM7TGDLBm-QwvCKFqk4wYUo3YiVRfSclCDLWHvVDd08Ymo-tOgtKtSPyxMeBYHgBfFmIVGNT8iXmhLLdDDs21Y_T3v-MQnMUMCLkGSIsGgccAkkDva2JSEk9pz7XXij4C3xclptH61QgFmb4h3r8jBqhqUPAeHHoEWPzD1dhhev0tRxtDMNwS4jijBaYjTuqoiWMb-yGvbnSWxavuEGmxOgm3-pG5_f5j", width: 1918, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105692357562833672854\">MR.VIET COFFEE OUTLET IN DAM MARKE</a>"] },
+            { photoReference: "AWCwydiKDWJ-H9bJppVLGCsItf4DXsejeejn8boyqK2AtQnfHIp1n4gKiDA10C6nDh-FeQdoCNVgJyZhKNHJkDq6I5o-74b8SSuikFnBi27c96-pibtXI_AIn9nzW5FoVTw_Q54xlK2MEfud4GC31ifHPievJPpmiMuujKZP2a1yaCo6VS9uo6VJ0sFarVIVE_7US2JnxMQ6s4GKdYeBkS7hcJVJ5nCygyMIAcWOvd0QRYYUan1nI7HFD2pLU86klJMLicxSESOQGaTqLD0hVqwBk2bF-sb__A3Wx03egChQ5U2L8kKpap2bk1A0EOJuHykNm8ia4yoUiAux8pFaoGGHwqC1bKxkR_jf0REKKcDZpo_vNNYtXpmlLfc9uwgdYVBDjh27IK5kEXRxDZC4kXlRFYgHyPseCZK4Puyix-NDLikydP4j-OVVqYM89DzlOpiS", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105692357562833672854\">MR.VIET COFFEE OUTLET IN DAM MARKE</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 커피 맛집입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["맛있는 커피", "친절한 직원"],
+        tips: ["커피를 꼭 드셔보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8573197293091547436", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=MR.VIET+COFFEE+OUTLET+IN+DAM+MARKE+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "롯데면세점 나트랑공항점": {
+        photos: [],
+        placeId: "ChIJi5KddQCNcDER7kqvTrgja_o",
+        placePhotos: [
+            { photoReference: "AWCwydiax9zsK2QH9HD3VLWdFZ3f4yvpzHtBcSnapmrEWTc2u6l1xkUWzwbDINBdts-13iUZE712QDPUuV-EUjUlDk6Xfgfq3RTb9b4eKPOypjITnMdHjdYyDOrIWEpXRZyFlK0BNgk8X5FORuSLejeKTXq9zSzZkLY8PhzQRsBJsJvDlV0poHTmRWFZ2aBM-9GEF9GVgSVFDmZcIMZPuvCnjEcWS_6HnkKRu8K1r6N0BxqgptrOAEkPV5TXZbblC94_SF_g0zUq3qXuuDlydbOFOU5ptV5soy_disNV41cyf0e_vAtbPOyRhlMzOoqNpwcQE21NFKUGjfL0_2vbNtqrCHmFwGLXsG1REWfnWVQ6xbe47X3-UF3snf9M_Dr6PUZ-8sVJLRj1OhDG-k5ltQW0MZhtedWPhssU5DhBK7N54qOvnQ", width: 3094, height: 2320, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103822198011326920119\">Ani Ani</a>"] },
+            { photoReference: "AWCwydjLvg--_0g8GbIfrrt-1RKPAroXpX4EYkQ7qLrFYEarMstQxk73M2TcGwJSF7oZnmvJEyRjNKJVoDIbPVGMSdY9lkvKznBKa_5GovpubI2RqQC0tuUAgBxSY7LL_EZmVNv_UkSQUIp9bz6tVeIL_PA-2tOTYF7Mu2FuwYhS49wSgUwTawBzK7e8SapSd92IC1U1d1MhcX33c-Fbwv4-9cr5bB9Z5UhsREWKqtp74XlsPef6e3d3jSadOYhgXq0U0_u08gQY3aFoLqEpuXrbEILwEIYCXMI6nYxS-jJHWWrKq7TRLfZevfhJo7464YTAKgP1dIQ9_CqwzdN4TAVqJAIyw0JQNsVgDeBJJ9UW0SuRxNUyqYQujfb4PPo4P3Ve0QZHJ4pQW4Yj4cz9kY1A1nIYVZzLaA7TODCmRnwE1OA", width: 1281, height: 961, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117400138607862611875\">Lotte Duty Free Nha Trang Airport Store (롯데면세점 나트랑공항점)</a>"] },
+            { photoReference: "AWCwydh3HXPkyl7SMDDpruG8fX4t6Vz05Atx_X-FTlXQUxH9rKgtCsQo8epwhpheHCooRykI2smu5ToW7vKNOFDaO6yOlc0e00ns_NPzTdnrl3cXFlFXNBxMUOWIy5ACK3GyFkfmnP9ehur0L-rwdthc7pZVh7PFQw9_jtfkgGi09dDTH_KqwG8vcxx5c_eiRkB8d1S23EpAFlTNaHquf8McdB7x-t0TO6klTLeC8dMoOswVmju6gc3gc0gPFk8XIGws6mvFNIO1ESgRiEypL1Opnzf0iJ_hYXg0YoIYvFlNjLn9VNqBC-rkoGBrv46EMA1qprRQAkgZJgcL5UVxR_s57ytLEunYZBpgVUaPTgxRexHNChcL2vsJLEJmV_2TVyyiw-nqndUWomtfOiqAvmi9QqCpjHqbxh-_BbGqkvfBH7hyVg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117400138607862611875\">Lotte Duty Free Nha Trang Airport Store (롯데면세점 나트랑공항점)</a>"] },
+            { photoReference: "AWCwydgX93Ku62_NqBqh8_itj5fDXPof19vz6HtDKL4zkwUp9F1o8d2gpkjc6S4nvQlXGQ9MpbHGkXYlu-Cx3OiiG_PTewMRwJfhaD5lHtbdNttCShk10jYinFljKvm3y8EomTn49Y-iQGiQE8fQgW2CniCTyWdIl1txp49eYAzKLLMJRG7_vqmhz08PAgrurOktubeCtAOXqN29davgeAoSGi-T3ApY-lAOSYA9wqSwXBf0mycraU0Ktxf3h6vmrFNHbV83WPXLaB9EsBKvbEv752MQKU_Aa621b3dW8OesohpOjLCEycZdLn4IIEQE93_0nTaYIz2HYtxR8YnU03PrAujRNU3jvKZg5nbPZhP3yWnVYk-RPS7Gf0fitg5IqQ0C0UZvsroqwe3KfexfB5Px1s-1Ma20SGzOUksFul6-eE4QXlF6bPHdhgXOvlO2YERr", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100821402675556690594\">PaveL Ko</a>"] },
+            { photoReference: "AWCwydiFWiRXp2Z4oesJeSXjH3fHHFQGgmXSQhAeOSOGaXv4S-ZyOZGbZ9DW_fKVptcQugQVKEOtSFPzeoooARGDbyBPeWlBP4-_Y85lnQXiMJZIHtTwM-bwcJVYJpeMgMXrKF6zk5VD-sFqMmSEYezgaLn5x7fgHKHObYlZQ9CSc3KxATwCCDRDrI4s7KKviE0vtd40G204Ma96jhCDKxCf75e5awGOWBkt7KES2GITKtgBP4QRg4IHfeS8nCB-0CXOLoko_lYDB3odVLBG4_8BySp3Pb6eO6UVnI6NEBsJpv7QJRmXPGE_bEUg-YWRJ1NWKBDN0j_FCdU1oXSWwa4ZmRhbl9S_ksEbQudrrcdU__kutg5U1E--uMhGF7zLaMrTqNI1nDlmJ2zAVbmPOrDiGDtMGPnWRpT0hBbtdfdavzEUcg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100700164123651170776\">엄마는외계인</a>"] }
+        ],
+        summary: "공항 내 위치하여 이용이 편리하고 알찬 상품 구성을 자랑하는 면세점입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["공항 내 위치하여 뛰어난 접근성", "열정적인 직원 서비스", "알찬 상품 구성"],
+        tips: ["공항 내 위치하여 이동 시 이용하기 편리함"],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 6:00 ~ 오전 2:00; 화요일: 오전 6:00 ~ 오전 2:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.lottedfs.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18044555606491089646", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90+%EB%82%98%ED%8A%B8%EB%9E%91%EA%B3%B5%ED%95%AD%EC%A0%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "키사 수비니어": {
+        photos: [],
+        placeId: "ChIJQSUAzJZncDERozBJrsi4eTw",
+        placePhotos: [
+            { photoReference: "AWCwydjU9LGDp70k7eDT0iB8_9CGo6iSqfjx9RxMMtWoCrGqfPA02SYdlFj6eXnFaoDTolJ0N7KIj05-4oqlBAiWMj2c6DAyoWkIhqUHmuE8eBjZKqoSJ5uZHxsNg2mhr3hTkeKrrMbfaQPkpM5ZK3BaWQFHrgwHaBvcw1gRlxaBMAPqus51qWTneTyNeo91YvCO5xtosCHxa3XmZvSzYIj0hdrXNpYx6G0lAWtJFfyT5TuEi7lIwa4TtEeaJVuGcIEOkpENgIfo2HZLcFFDrNycdTd5_n1rlcPicF5JRydkOpt-5RTxtEke2UC7Obbxn349jWSfyKEWR3RG83qQ_-_uBrf27ogKA1dUfxxKQFpMD-Kjinbstaoou-nD-MrZg9lQuUS0FCh45w3IDL5_nsq3zPjzAYuw8ckcN9ZwYt4k4EnxkAS-", width: 1125, height: 633, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106914621928301909274\">Kissa Souvenirs Nha Trang</a>"] },
+            { photoReference: "AWCwydg1Kr8jBa_DBZLBvNdoNfO3QjopdJCEJ-EUUyIvqstjv0um9WrmiEETll-i68LW4NHQb5pZJ2mn17Ax-88Y2NMNPpDjQjHmHfzTPrNsfKCAPQxRYid4TBztzYCfipIEvXfWRnA72bWA5QCpSgXbG6Rql-LC-0RdcwWx7DiB3PoHCA8qFKcAI2ktC3AjWvozUIJwRG2PXmp3fhcjbrNmbApTVEsgghO2f9DC0HW6UmsusYvtcbxDkuMds1PYSLEFJJqabR6WxjH4-PUjyi2IoE6LUFFW9P_8CSjZJYkVaYba2MfNZLEhR0fLFQeSuYGAKXPAEl-3GSIVS1nIPg39rys7w9w1WxpgUaI140D9GO-3u-6zKtACp7cMSE5D0cVY4PO8kh-PkoTw0f93tOPNNIWosvdRb6XoLlYN6n5lAVZQ6GQw2vl5yhVeyxMGgQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112260766704331349882\">Leanna Lee</a>"] },
+            { photoReference: "AWCwydjawTa5r0lfddHJpR0mgEl1rIKLteRCnxXMMYGDlLt7l_Y9ACbgIZCtjmqtgKq9RKPiIxmROkG6GrGgPu94dVHKiZT4sNiHv3QT49IDsZTonmZh7g5vKRIIjbuZbW9z_s4FBJBcESQVNhqo1s7cczM285iHp7luIsIxAwkPvKxl6l_Wj9od_BtLhjLyLXsAJCacuGZc-ckbpCdX1UnuJ_pRzI_JvlyGf6EKhfnMpi7nfn7EdC0GKbx_G-CZrMyqpRS8b3f60Cy3lH7F-9YG0mhlPiPHNO18sQH07K8a1GSTZJNuIKFc9PuPGKFkHFpNZ5wcMl_eX1iezUhKd_J0l2TffIvtPytWwuAD976g0oyCIvfprRkEbyaeOCAS6WDX9q5kCkyGaTS-e7iIJ_ImcrFjP-yX65-wRS3TXRRTXPKWtCM2", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106914621928301909274\">Kissa Souvenirs Nha Trang</a>"] },
+            { photoReference: "AWCwydi2WUtlKV6UFAoNv7zBg7h0VPq93Tx_KYNIUVC465xbB_81idRVghDFpnpj-dsH4JRKzz1OYkFp9dytUfneXXoEW8TeaK_BmqTuDzYd--i0pyzQWMRXGsR5ezeycsh2Fy2NDC8vmvx_G8KVstOljRPqtbHwdokv48tJLm0zsABSbFf858pniz4OhJh_bhQbr_2skz69nItkYCFOkdDEW2ErOEyBSfMdKRPD2huDBTMq_8x0tIjtBlSOKTatKp2Gijd8Xa0a1iWQA2hLWNUDrVnUzIU_HLJ2tXUBokibvr6Hd3ZMHjN0gih90JObbTLW-qqr0tQOIZ7ZQ9YPLBOzaJp8csOiNXPlQQmZ8hVLH6n6O4G9GHd2VLervEW-es84ycOD3xw3zD3oET7v8TQFoh5uMLqY28L5soU1AturfZtp11hp0m45byMNdlOtUg", width: 1920, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110087368400061569301\">S Jeon</a>"] },
+            { photoReference: "AWCwydhAH-zeCh6zME2322b-QQEGRZKBupaub8Qu0-qNgd0s2Jhxfp8uCqqkhiiyKryCX7CtWarwGI_C27AaBuIZttJ5njY_DqnkIC5VsWhDf6sHbLOhxAaajVt5sZmr70LZEg0mWu4XC3ugX8JNsgF_guf9cPP5OgZcMYenz982-wnubrDSplGU2-21GYgQbThVDS_o2y2pL7gQm9uTcULyJuFS8MwKT7VyrADWk8mn5wDJzXP-H1dvezQlqNg5wMhRWH5mNOEq9isIgclm0CCgHo4YZNMn1m4zNCIU4RWj6ZF-GL218yFjEkNo6sFf4-JBQKXyprwnbdVDK63wG0OS0li_GGr96r6_qM3cdyah5s4RaHtyi42r3Z70bftGN4u-s0WAAx6iKdbWd8ldh282QKpgMM9I_hV7tesMHxvH_p8syUxk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105713241199329132774\">SATOSHI YOSHIDA</a>"] }
+        ],
+        summary: "높은 평점과 친절한 서비스로 만족도가 높은 기념품 전문점입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["개성 있는 디자인의 기념품", "우수한 제품 품질"],
+        tips: ["유리그릇 구매 시 꼼꼼한 포장 서비스를 받을 수 있습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://kissasouvenirsnhatrang.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4357717286514667683", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%82%AC+%EC%88%98%EB%B9%84%EB%8B%88%EC%96%B4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Nhà Hè Handmade &recycles": {
+        photos: [],
+        placeId: "ChIJHesewrNncDERQlPP58O3lNQ",
+        placePhotos: [
+            { photoReference: "AWCwydjVfO8OqVcAap8xsUVENHG3fMhIxlko8EUa_GymYI9lMU649gMKJ-i8s49hwGgtX5ULh4976Ma5JcXfRfjF6id0m8EdnLoZtP73vYmPXd-YzkWoXWaok2ACEcr4PHUk2PoJXywIsQeLgmffuHKUONK0-4KqzUSZqrafqOCOBr3LAmC9_0mmR-NaP0oaV7vH1xhCKeAWGkr6kImoD0k0OBLdjnCSXKxkWabi-fp3wjs8i-zsibvhlK4npNxNShdeECKZgA7lL87dND-Rv00ULR6U4iVv-UDNHhBgYwM5deAUxoTAiO0X0uCpNFyvZsrVGnU6ykQNvUrW7eiFeLCM-SeNOiu5oyyVIWC6ohKcseaJ516nGZ3haJ1TpWSlcoxCKcTqpdlE7OJqPKDSd8zxmSQ816k8luw4VSZP2ecXxjde6_cytA7o_Vwr0ropKA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109647515248835591051\">Trinh Nguyễn</a>"] },
+            { photoReference: "AWCwydg8GP5h1y3eGjRKpq0auFg9iRjoR_DET9Kutphq3ECEViy0EBT2ACUWRtNZjr8e4mE2dbWPOUeKFAfWe2POU3C1jq6SuGziSYBQn9ovZuQfOPAXDRsbE2TqnLbJW7RI8tCvm48WGqpbJS1lztQYI8PpVtLtRZCDg3hnTHiJGiJF2zKdtMTQjXrMuHd2LwfGBQuO04ifUH_DvWJEVvnbWTWcL2R_0z1JJoKFLgMXz7N2ZyRdNri5_JJ-zDRYEDIPkxH0ESDIqTy626OuvCk1EUvNOq4OKjWJt5PNC1wK_gbkoVDTC9ZcJ1DAc_0e-X8P_zhBmtmwmvptT08sM4GV3c5Hz-7h5TStcGnCxCUQVZcgCszBc-4NRWC1lk-J4WKMuzWsYOLQdKxrxDwatNjMXF9nY0pBeIg-DrgYRHgxDher6qWrA52df1m4OToGdiIM", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107765288293624978159\">김태경</a>"] },
+            { photoReference: "AWCwydgddYNkRdcSVHtbO_UM3HD0Ss0hEcQC6-uwoZW1nkgHMDU5aY5KITSuyuFT4XMFMgfVlepj3nzhEerbd-TkqJhDiVFlaLpOdXlquioGg9CrrAcNN_ta8YVvdAy-1hLml10Pc07smMl692nzhpNg7DZTXGM3IUrFFYNRf0MLHORN_AxLPqZF4RcqCWC8wjQXRbNOeh__0Jg6gQDrLw2yZOo9yk7cr5_CiJcdS-kfa_FsKOlHxojdptHWR_1VpwOeo5KOXGUUuehlGfl1-W50NzZY_QxyZhpEJ7Edp9nCcb9wG3B9vDxwrXYWWlTri6nUTi3YT3vkS52UnXOTudnzvQhBDMClHN5jekGW6v80IeFYV3O0-I_Rnknap_Bp0nwnl9370MMTY-2mVTytYy4tmdvPI_VP-GZjb9PAitNtDgg_ci9R", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112867123256483562227\">Huy</a>"] },
+            { photoReference: "AWCwydj7u0BsJMjwqrnlEBN79sUcb03vOyRw71myVCZISFJne2qKdac82hHi0Z2-QSrtij69FJDhNoL-7G0JBKaqfr--Eeu0M3KWoVkG42PYOVKKS-RFVJoz9DfAyeNDzcUipOGX3t7VThNKIhMODO3VHPG4k957JXDHHxFGlHD5Fym3V-7aULROwhMDOHS0qj3npJJ0jxrzccKfTwL06_Cey58HmcST_Q_kHeFLivTCLYRQ5V8V9nTfaGjs1Cssxja75NW0i-2y-D-Qgb7psbiMPlHz6flMvaYgreWHMbiNV50qhJtbv0_lJz499aR2e58KwNFf2xSq1l5Lc7N8UBa2CPq3uitRT1wbS4gFGC_bW1pO-RabCkmnBF9VmPhAwIIABXoXaR5QzxsFgNzs1YVOfeuxRZAV9eq1X2Y3p_TVktfnzSd9xvXSwNqESVZP5A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103199846330593678903\">Nhật Thi Phạm Thị</a>"] },
+            { photoReference: "AWCwydjfSgTOfi6paFsxaFNqSgB3ZquZlXSd-0zi0EjEAEo0rFi5LP1PkH0ovHr-ftk53zLg6zucaoVKSlF0kktHvhR8ePgjnwps9dXoID-RuTzYKjoLt6jIz-V8ZSnT7RKL0GPBntAp9_z7O_mxsxSUvSlKkSzkbVtDgdZHZGxnGdeBNeL_HnFQ36kOER073JPXQbCAxwF_qT8S1jtbT4jAooXAaZ7y7crITE0Qgv1GA1CtYfwxxOuO8pO958QT5RkKtKHmOQoKebxmY1bZlmHV01ndfTUK9J6aeDJGDxNq4Ou651izPbPOgeDMybQR0JLbdK142JoXALZZrif64zExYgo2FZPQb63ZsTh8GeA3Mjo8Vww_eguzM1_rAqJU4mdbpKReLtNlmVqAaXjgE4wAkdyLn2pxZCwVIYsWOyhEOEpurQ2bm4rU8iC9ov9h_9JF", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103043055718693524725\">박모란</a>"] }
+        ],
+        summary: "예쁜 핸드메이드 액세서리와 니치한 소품이 가득한 수공예품 전문점입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["다양한 수공예품", "예쁜 핸드메이드 액세서리", "니치한 소품"],
+        tips: ["선물용 아이템을 구매하기에 좋습니다", "수공예품 구경을 즐기기에 적합합니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15318070284629529410", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Nh%C3%A0+H%C3%A8+Handmade+%26recycles+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Nha Trang Ngoc Linh speciality": {
+        photos: [],
+        placeId: "ChIJm0fr-O5ncDEReqlmhgBNqH8",
+        placePhotos: [
+            { photoReference: "AWCwydilhY9ed2pA6_5f66wysmXqnBtVPjHwEcFe-p-5eTSVlvbRSbMkTuLAs4F434ES8LRyQZwJWnEOs9qLuheX6F4a8q_BXdiRWZaqPHbj1DccJOLkZ1Y3sZdih3fm1LeXyG5aurm2ewKnkWR0QcY00i63AeAYU8J1kSaiWuVCYUCuSbofX1yHKQfxl-hSHN8elFE4QEkALYQVNieN70HdjR64jmKvf33R-ZzdQalNtCH1FIp0fD6jjV9hQEUPZ_p0R9Fajez-WW6kuR_GAauQ_Vt8TDGhMCiPmHFdyiSk0IVCgQnDq8oQ4qJA3Bkxp6jHW65Pczy4YMLehl4wjkDFYfaCCNWiP-8EWn9j2iz8bGZm2avhX2N_IlpmETuOt04eG1uPKRCKzh6hzpgHCxVQEy55BsmjRjL3ky04TeHmomOSUiWctqs379O7hZe5M-lC", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110806455575666393444\">Đặc Sản Nha Trang Ngọc Linh</a>"] },
+            { photoReference: "AWCwydjBQdJjbquxGFBWhv9RFlEPxFmfGu84Mze0qc-fbnKtUYDfHSrLQaTHcKBrZcgTfVQVFCb3dS3oEO1cy-StdV8Vi2bzXhozv4pFmHK399CkbKMs5W6xBsS-qmc-iCyyUkiYoK-t1dsudK7GA4-hXHNNDCHfdXpvS7PGPrhQhmwKHDpKOjEbS9YoRZt1V-x-cEt2m1XLVbINbem9cG98QueB9S3TKeDfGKjtcC6daNgrt3h1UUrRI08cRz2dUCRjRUgTXDraE2u0AjjuBosFvQGR9dtNsLtXyaXzAUq6NDZ0auUA-i0Zm-ECdXGwwIw9Pcj8hAYtEzNWfx7rNQZarV-oKAwegv4JGgWpCwnw4CeDWlgLid4cUcp1BAfpbjPXqAQDkBUMk2gviBp9pQAtW3kMww1mxSCWJbbNz2IIi8X2cQ", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110806455575666393444\">Đặc Sản Nha Trang Ngọc Linh</a>"] },
+            { photoReference: "AWCwydiH_ReAXSXhreHWHiQO5POBxvHvcHWywkdS5VdWq9SA6ep0HpZr5nbf0jtA6t9fhezDdFPBXVb4pacUhsH-8bTkuLLF3IgHfHmpCp-74s7gaF1GCwxwprw5NXLHj5fgvMkQFsgs8lscgvxRdc7yWRyTJ--C8rfk8ck-kw3V7NtWYdUw9BeLvQqFo7-U1wq0wWA7t1Sw2m2xg9Um4xKM9BHt8rxqwNqLJYR2A_Wc4y-TWfxUO6ME9jmi3L2beu-b1HS1qS9ryhU0GK0SZKWa6XbYDFfWjSJQOdjSXIcrnSYV09unfEfhB-9tuAgFoxoCH47UQRPOI1aKVwp3eouun974bHumuh4l_4b0I5vyBp0Gv0HrPQlnsHApruYOxwWuwmDVIl5DbYNbrOaUrd5boBccG9YwfajWaMi1xY24Av4i-nTACFMGzhbDa_kOlBkD", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110806455575666393444\">Đặc Sản Nha Trang Ngọc Linh</a>"] },
+            { photoReference: "AWCwydhzhzN9Yi_ZeuoL2Gld7fbruqdSIS09vaD6F3n3_yNMRgf745HlwyrLH6KJPZrBj5X2gLweWBWqkgUavt-J60jBW-RkXvMetdOGLb1lsEb0QF7wPBheurukWAQwRu3s5zG7H1hClbmgdDW5_bvYMxMa19zNLbFt5Sm2W5GW6k58V0yUyfC0Ec1al7TpsUQ0Aq3p5mL72EbU_SSjaecWLfWq7-bcFvTExYOJixb_FBZdK3sY48QKKUL6xA2fNZ8q70YrCqOqVnoHOGTqNW-HQ7ElGRoZjw-lDNR6tNZsYrLi5-HRzhVBEpIb317-75fsJzHmHkEfg_cCU0MPakemStu047syYyk5DCNE6rulwG48c-7NGAjayZHNSXxOP8erFf3XKmOCTXCJcCYm7Y-1MO8SbfihNnaWOCe3-p4r18v7gaVxVG0LUTTQwGLFOocn", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110806455575666393444\">Đặc Sản Nha Trang Ngọc Linh</a>"] },
+            { photoReference: "AWCwydjyoquaIM0YQFqRQ4BwITAbaAn6M5rr5-uHxjrVSB0pN4AXO9_B8agGjYO7jY2WO6InIik3dPue8lpzh5Da5ZCCELLIv1ngrqxOEySD6ymIH6EM3iMHt-ze5g2zWeDQy8lmWg7vjQVxwyNwmnXDix5NmPv0BgSBn8isia9G2krLHZgYID9eYq_MF1EKtWME7Ywx5h1470kmLfZ2BhBHntQGFnDnNFjKD0DouwOwrT-xdYNGcZkSB2QE5KpgdxWv9Z4UCl6F7lN7B90QGS1U1Ev9AbT1JSnpgYiSoj2wkQVPBPjg-53NL6mpFtqrOyply3ktXUz-DkQeMkkIcRyC8JoN1pb0lu4k6vyxFVSOfVQ7l1V4ynEkFdxcqrtPWqg0vdUfxjbHtuEqUylbF7K4vycqs7zefAa7x_vUXmYxIU2bEuUrW3xTw8EDxiq2TeHO", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110806455575666393444\">Đặc Sản Nha Trang Ngọc Linh</a>"] }
+        ],
+        summary: "다양한 상품과 친절한 서비스를 제공하는 나트랑 특산물 전문점입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["다양한 상품 구성", "청결한 포장", "친절한 직원", "합리적인 가격"],
+        tips: ["시식 후 구매 가능", "가족 선물용으로 추천"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 5:30 ~ 오후 10:30; 화요일: 오전 5:30 ~ 오후 10:30",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9198686903554451834", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Nha+Trang+Ngoc+Linh+speciality+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스카이 선물집- Sky souvenir": {
+        photos: [],
+        placeId: "ChIJbTbnYspncDER-wqaQMmJfPM",
+        placePhotos: [
+            { photoReference: "AWCwydjI15D9uxIxE6uuCUDSxSfUTqqw8WZIk0XuZ6YdK2I4E2Cdlqj9S9Iz6OYNlGgPT3jGHZsv4o822Xws-aHcCccHyT1EJHQpq4IIwoKe_U77a4fXLtRph46PSol-cFPfXBLocTxacbuOs-LBkVLtjN25bwoTmoY-t-bJUPQgm-jSRtF5Wu9YO6xBjsBVAa7ixaYScLxNL-QvpkT0N1aTPJV3hvvHbyCvL1gv4r8CAxqfQk9SRWf-UDDxR4T0a4fC8nzYdj_4-mNIS6HWJs-vXEb0wLT7dL_hOCfgYpVBKuT-fvPSz5YW2gBD8nHdcGk5Ovtlr1C2WXbhBZT-dFf54TyDlx1zOoSRqmDwi9o4QYEueHrMJH_0jPUB2Y9Td3oDOvaku1JSnvwzXv-5a1GoQ13G7twtgWJOokhEv91FppO3eig", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112208127257493272676\">young Choi</a>"] },
+            { photoReference: "AWCwydiv51y0ymRRcyvpWV6NiM7xxZnpiP0EGFU4CNO5ZoeTSW4jPqBZUZdia-w1rC9vS8xLlD0rx78LxWDMk1nxL5XrjNzHK3yM-RF3A_pTpPMRla46u_Qh5SyC2NSWXvHTSdzssE5JlqsKtF6u6k7Zu9K1RBh7ziRzygSwkya0IXKZL_EPn0_eogg3vMaxaCTIf0Sveejde1cy8eOcfF_ltfGCUmuG6LrA75VxS-QBWOw5g-G--kOW5TFD2IKbKPofEShrHZtfwZeyt6NcJRf797eMITi8bORpbAgmOxeNGR2tIOEk7P8Xwkkp6Xtq_YC3aCAoZgM6wW29EzAHy2bcR0fYT2z93nPI2RGRl-fhmyuD6cgzhpVaJBS-t_DYfujpM1O2THtqMGe72Z06YVchpzMwelCk6SIsz7k7_qnr_zTghWhl4jBA84YCSyIpL2LX", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100827961882812898767\">스넿</a>"] },
+            { photoReference: "AWCwydiT6ZKox96NGkgRv5LErFgI0SvythUKeXd4aLtFnwBE2W8I6XB15tvZskd4QxdrhF_d9ethL9RGKfKCcIjgEkKxO_Fh-0YKDubLPAyCLYZYyJCkAGMrtpRGSpbeTK5as6u1XBIWqh3myEcXgkc1zr7PiTDuX2pxo6u4mIc1FdOVbdCLiTf92gthDTeSpRfoDkXs_OeamdAsVZ74gBw3YxV0ZtKJdw0OdAUj42TLpAuUU2lyrmbJjXF5cSVVqKKuqMqWU6Z2IhcPUMM9ZftGJwCOZwewclwYBlMakS0WBdcRaLkBAVLVVX1q3zzyaLvWA114ENnfBsxW2HJlmSMs8kSR2pJYjx6x3espmuI0BmT7omeRNxQiDLTHf96tWFFEyypVv5rkbuRN8fHzYh-DekFdbyNg_ESftIFYBGxwA7t5OLwk", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113276496420677195916\">지리산담비</a>"] },
+            { photoReference: "AWCwydgDVahwwztlxKJkMSTcpZk7kwJZnL_2O48JoDWRIWEBYJoLqZ4jgCDN256RmJzwit-H_mLHDdfBctUtjdsWQXuk07td2qnuaMWnaGxttL4sRbilizA4fTO6_4NNn0WCdXI-mx6ExgS77f4tKTJIvbcRHvstcuuwz475Mqzqh8CZZtDw5-gYk9LDzcGLvIAnVtJLpxqUPdkHeDU85oorPLJWjIHqA2pdxZtsgyaSk9fSIiwTsDsq4PGK-eLRbHLchw-idZIg7SJDJTLIt4KH5ziooQYDby8zt9tYdb9UapI9dDxEPKFUWNTSnx6Lq_cDDmEgkaK2JshjQBK0sr_I_w9CaM0d99Vm07_lr4hVhwOI7K9ChRHl6NFVCZniC_4VsjL2htZrVqrwROZqUA4H_balmRnzC1WKnQwCysvuRjZkdQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105178162187979852654\">박원원</a>"] },
+            { photoReference: "AWCwydiSfRUW2yKzOEkBvwbnK25hm56FRLgsTq0yiaRdGr9EvVxNtpqX7xTPCXSp87hzBbNsy_-llYwTpMfnIXntFnf16AXkbtzOwDXvKmG6k2uZGZtqZ6u92vdY3Tq5BdW4HF3CHJEAKN9d0_uqJRxblXhunB4upME9MwvqyAEMH6ve8z9nXQs0Giri6JPS2U_wtSzmngolWRU0PkPv808muoBOI-ez3quJu_cBN1Z5_YrZbNkNhs2MigdH4WhJB7JpozyZT_iJ01kUl4P78ZP_prG0I0R7nofGuvUstYIzzWEgnAvQyhoSdHiF1EIc1OypaCqrNzVGeS7DDeRB6_thipKxdtGirFbSVV3poxUY8nut7ElU25IAZLPTfD51cV6x70bSVEt-qg8KxOmwhIPDhe9bdKJlA0oaxjZbVDRGLgUEwVvc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117949881144723220326\">은상한서</a>"] }
+        ],
+        summary: "주변 매장보다 저렴한 가격에 질 좋은 가방과 소품을 구매할 수 있는 곳입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["저렴한 가격의 핸드백 및 니트 가방", "비치백, 토트백, 키체인, 액세서리 등 다양한 품목"],
+        tips: ["주변 다른 매장과 가격을 비교해 보는 것을 추천합니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17545049745793878779", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EC%84%A0%EB%AC%BC%EC%A7%91-+Sky+souvenir+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

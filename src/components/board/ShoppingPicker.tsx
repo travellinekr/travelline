@@ -207,14 +207,14 @@ export function ShoppingPicker({
         if (anchorCard?.coordinates) {
             markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
         }
-        sampleShopping.forEach((s: any, i: number) => {
+        filteredSample.forEach((s: any, i: number) => {
             if (s.coordinates) markers.push({ id: `sample-${i}-${s.name}`, title: s.name, coordinates: s.coordinates });
         });
-        sortedCreatedCards.forEach((c: any) => {
+        filteredCreated.forEach((c: any) => {
             if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
         });
         return markers;
-    }, [anchorCard, sampleShopping, sortedCreatedCards]);
+    }, [anchorCard, filteredSample, filteredCreated]);
 
     return (
         <div className="flex flex-col h-full overflow-hidden">

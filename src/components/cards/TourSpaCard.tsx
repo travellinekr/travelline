@@ -3,14 +3,7 @@ import { CardShell } from "./CardShell";
 import type { CommonCardProps } from "./types";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { haversineMeters, formatDistance, getDistanceColorClass } from "@/utils/distance";
-
-const TOUR_SPA_TYPE_LABELS: Record<string, string> = {
-    'island-hopping': '아일랜드 호핑', 'city-tour': '시티 투어', 'nature-tour': '자연 관광',
-    'cultural-tour': '문화 투어', 'cultural': '문화 체험', 'adventure': '액티비티',
-    'water-sports': '수상 스포츠', 'diving': '다이빙', 'snorkeling': '스노클링',
-    'massage': '마사지', 'spa': '스파', 'wellness': '웰니스', 'hot-spring': '온천',
-    'theme-park': '테마파크', 'cruise': '크루즈', 'show': '공연·쇼', 'workshop': '워크샵',
-};
+import { getCardSubcategoryLabel } from "@/utils/cardSubcategoryLabels";
 
 // 데이터에 icon 이 없는 카드(유저 직접 추가 등)를 위한 type 기반 fallback
 const TOUR_SPA_TYPE_ICONS: Record<string, string> = {
@@ -35,9 +28,7 @@ function checkHasNotes(notes: any): boolean {
 
 export function TourSpaCard({ card, variant, ...props }: CommonCardProps) {
     const tourSpaName = card.text || card.title || "투어 & 스파";
-    const category = card.tourSpaType
-        ? TOUR_SPA_TYPE_LABELS[card.tourSpaType] || card.tourSpaType
-        : "투어&스파";
+    const category = getCardSubcategoryLabel('tourSpa', card.tourSpaType);
     const displayIcon = card.icon || (card.tourSpaType && TOUR_SPA_TYPE_ICONS[card.tourSpaType]) || null;
     const hasNotes = checkHasNotes(card.notes);
 

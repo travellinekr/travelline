@@ -802,6 +802,263 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?q=12.1929269,109.2320194&query_place_id=ChIJNRWQFKphcDERS23b1bQKsYU", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%8C%EC%9D%B4%EB%B9%84%EC%B9%98%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
+    },
+    "장선 공예 마을": {
+        photos: [],
+        placeId: "ChIJQ7B6UUVncDERo0IrOUwWz20",
+        placePhotos: [
+            { photoReference: "AWCwydgS2xN5q4VO4gkBntIKOc4TDb9iUJ7uaaBQXtDv9jrRhOF5KmloYB5s9iY39iieBCyv4VkkKEbTyOcX7g626sHagEqtl8-ispgYb_U-BVUSlXxF1Kx1Vn_6Vw5BTAVC0YJoMR2bQRt7fdG-4jDYwMvKZlu7fAhXpmKmXHya-Jop7qUH_VXAXJyG23S9YHM2Uonvk_ij971CvdGiSoubGBky-ybD2FcM0OB8QSw5z_96cZgfeGxipm4eZDP4BW3ly5TUlRYr81FatuvbQzNK7BZogzesKzDS5gvc-sZ1L4azP4uvJKttqwhCYtGZW3yP5H_eP4cwODBdK5vgszGFJc5cnWeuGPp-qAq22T-3okRGQXCw14PTdAv6lougpFpCtagQP_7LOGfjNHbZwbwE3BFJoRD736GE4n7ccJY2DqgC-9mKN7v9tFGD0W2uQdkC", width: 2568, height: 1926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100567550798150160874\">Làng nghề Trường Sơn - Trường Sơn Craft Village</a>"] },
+            { photoReference: "AWCwydhxOIKbHr-AMwkgMqJVM4p9nP8L_Vvvt98xFDF6xCXiRrMVZg226G2b1_qhpSWoIZu5GtsXiP8R_3rR1auUpsz1BsZvxzfjHVbiNBM5Khc4juDQjuRO3H39XChi95LJaNp3BdhlQKa4OriZQeSA-hMyNf07WyV8sS3dgRw7oqD0uwq0WHH8qRrtusfPqxjfmMGs2F7bpeqP_ZMqap7gMSRni63DyWG0AhdeH2M9KlVRXPmx2edqrdkLTLnLeywxE9wo0GLy20hzpacOqRVjCfHHBxm3fAop6X63By4dCsQcS89W_YoeeqBw0q3bKQi3y6rEDmXFteBw4dJasPgHkgBHeXo0bryHRl5GsQ26R5KETgpg6SU9xEEo9taFEZzDbBEtomN_6v6qopfXt6TKRl3v-tEpROxaavsPKjbLJ4kAoCE", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110090420580468473219\">Tuấn Tử Tế GTO Event (Tuấn Tử Tế)</a>"] },
+            { photoReference: "AWCwydj4pVxwoCC72joeYGt45e6ltlMTMpS7WlC18g0MR5NuQXWWyAqqCiiKcpTxFdmwseWAGlOQKf4C_mokMjbhXjLNRrZZOFxhKi-9Icv8nBOqpHaXLQvFRuaakKxtv4Nvp63qvSu2i7PDQnjZHKOlY_bs1cibyNWww6yPukNe8-Xpg2KD--gy7KfHLiNIIbIp5KhC8gCeVy7r39FO08LYOcqnu-XGgi13_hVO6soi7VS7h0EoNp8WTSw97Z6dgR9iaOihMVo77MTPx5nCKq19qfFr7HuJfT0c0PgMBwwLdV5qUhTYPyJ_DvN-naHwjS7oiBu8DLudxR35Qo-VVN6z6KUz1VfKwJS4Ewr7UnRTayVErDdXxtTLJ-yjPT5nfqh6CXRFUWQPiUv9qzBc9KZmLyIXOZQWCOsI-s8LFEVz8LBB_5M", width: 1080, height: 619, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112521081978549803984\">Van Truong Channel</a>"] },
+            { photoReference: "AWCwydiH7zn6ui9Bg61EUUm_K31pCV1mQEGD-O5kjkYBPcffnrbgLKZ5AH7OEXDwMi03MG3Ne3NwlKxA5eh-kvH9kCzK6nSB7j8UmLZxr3Nv-cmEBic4HfqB9gmmOqSvvJMxA6SdC6ziISzBKuxFDZc0nNTDCmTf46j6o8nphDFNquz_3PoGRQuXxx2cn7MF-5ZuT4Gq3Fp9ql1Brc7Njj3VxnX_uk9cDtmDc9es8FdRZEnkS4OZWMkhH9MoCKNkqRROcJk5unXZsvR3-9YKeeFBLCWpEOOcH2UTbLHl4ZtLki4oFO-Q5GFuTdIEgcdUSBZ304TNbt8tE7KF0kSSWdA24vkEOMnWvqWSKXwzCkrbTSzXS7T13uK0_tIwD7tpf9V7hIX-vzVzZtiJwDqpSmrTl3excuRuByn2gJkpnCR40AMpVg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101784833773634714500\">Phong La</a>"] },
+            { photoReference: "AWCwydjnDytG5ptE2Pz8pZzY59_hFJrBNN2c---bEu_8BajrghnpHMKZLInSHlmuD5YAahsDmbTPgEgaKBUo9jMdiHam8AYRDRbQfIXECJKIUeLr5-88qzj9eQQPGB26nYsnobSwntneSwvkqhZwnfHuEyS7GefnEzq6q7T_buba2qR1teS468IuZEowCriUZiJ-uHjWhgeYdMwFfo2sqduQ_aF0gq4rQudort1qyIlgjpF-qhCIgP-cnEr3H1dYDn_th114aGKBBm1LzWO3uN5ibFtvD88ksdswKa4TWNp1sUG08hczw-toEVRRC4UXPeEJJWUdbEA8j9pUjCBYKBP3sWQ2K9lwh8otSS6eCQgn9Y8b34i5zAvLcvUKrBtGiSRqBGaAPa3YMPY6uddru8tuR55b59mNpyFbvSvuX6TKUMi1Vg", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101252177045327159523\">MANH NGUYEN HUU</a>"] }
+        ],
+        summary: "베트남 수공업 작품을 경험할 수 있는 필수 방문 명소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["베트남 전통 공예 체험", "가족 및 어린이 교육에 적합"],
+        tips: ["주말에 방문하여 전통 기술을 체험해보세요"],
+        hours: "월요일: 오전 7:30 ~ 오후 5:00; 화요일: 오전 7:30 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "08 Trường Sơn, Nha Trang, Khánh Hòa 57129 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/langnghetruongson/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7912567586945712803", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9E%A5%EC%84%A0+%EA%B3%B5%EC%98%88+%EB%A7%88%EC%9D%84+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Big Fun Vincom Trần Phú Nha Trang": {
+        photos: [],
+        placeId: "ChIJgdPCIOVncDERSPs_A0Rwpfo",
+        placePhotos: [
+            { photoReference: "AWCwydiCw4dsRsQ4UA0zwAUMD5o9aCUN_RSuiX0TbtQ0VPdpBO24qrt9B3r4wA9tAvuxlu6SQ0FOpBrDYq7ifX3l9hPXpX_VQ36lZbRWvqlp58w08is4XUcsHBlRAAi5grGsOm4SqDmvLelWd5pQBGhzt5x03V6xVZyw-CCSlLLXIBEMfnWXhqGiMF1JT5d3uur47neH89ZrwMdx90ESWIYxi8W-y82Isi61LVauB4Pr4reCZrl2D9-Ltw8WyKv2stP144xKTD-tcei3YUr6LFJvBmqfe9jJmB7MCMBJSRiC8iHymQO9tfE6EgsyCQo1MtTxSmlj84XrRbo7Giw27fU9nQL6JFxZlkCkMINLowZ4ySzx6FopX6SnKc0Fb-EGk5jX-Z5uwIkcbMKD9qAX_jVWvBft0FbB-_BFKDUQeLVXAr8c6tvCUG2QqXmZ6eOyxYt8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105151765910625199501\">책모바</a>"] },
+            { photoReference: "AWCwydgH5-LMIvn3C_kGgh4DspuR7wcI88QU5DPx3Oxlz2PrEqZqjrPxdLvp62hf_6HYhqPtRCCOsJBTt1RX9xPen0C2lRWfYl8T1HhVzfkkUN_FgDDlMQc2SCCovAfez1qbrBcXBLPjXKsirjPdDqzoCTZN9Q0UckGdf6AGmrs24_VqOScHWzOxLDvXnvf_fV5pvhCKFAgMSrYWicJMknju96ZH4czMKzllj0htDVHzhyF7jcnzZtEIfDKGAPVHydmW1YzeEXWSvgn-wxRcA68XoK3Eukr_Q_iwjCia1nIBahr2fc8IQ37d9CNSLHNSXA9ipKvVGVfw9cZs5vFMTn8n8Q8oRvAGLhIixX02kQ7NYD6Alc7psLQWeEfH07zTYzq3NQvxYTW8IrxGKUui4sw28QzZeUo631lNB-lcKKS2a2A", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105818209451817555839\">Chuon Hong HUYNH</a>"] },
+            { photoReference: "AWCwydgf6Zd8I6-vsXeIhrn-aOlO8QSMenIOwGT7atoT_5c4DoOT5GOaSSIIGbK1bN6zHzzpNJ1KdKWaIpmBh--S0mLb5Kdk16iGWKRqeavwPl7tI6FvI6vhafrbkM80o83Xqi8jqJwdigQYqmPtzKehUL1jjhawy9NTyHD4Vg1u1BY7ho7scD31v3YvyoKlFnenWsaCM33JGyqsAI3wzOf9t-drt8splhEHBpjPRvFS4MALZLs-p7FlseARW2OA0i57hS30jxCImBGKzdI4-XF33P9_cQqyMnA7CGRI1A8kiZ5MN-Pau8hX8gN1KLnqVslzI4sA_u_8ySnv-McAkVG-zdh6AYNnJt2BZLUsOQ3npSmtZkupHvVvNJEfo5J54ad5eiNYDAQrPW9xhmJctDAeAt66qzsFO2S06n55H9WyEHXE2aYWeKwPgvuHCLaTZYpB", width: 720, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104381958750496432162\">Thần Thoại</a>"] },
+            { photoReference: "AWCwydje6cOxLKoczZfV1v4LwuE6Jss_zJhBt-BiIkVrjK8iH3BfqdauRt2Y1qB170UR8UOosyeJKTf9135fYb1lLu_b7LFeubOh68nD_N8adQnS_qjYA5-FQX2BmVVrGmDLldVc-Gpryl490iF3sJgWUpb5y5flSBAOFId3IRrgNlelN7JzNxriQkk1HAyBteNCIkFrYGivgyqlWm6zbnt61hvpDFwtLRBZgqEMJ_35qWymvDzwpZKI3K4Yw7E2pGtBcaxcEOPOLmsBMEAac69Zr_BRqAwEMKjx9NUiHcABUSfbke1u27iJF4LUk_3aZ7p192nFBE3A0yNA07OigEgPEeShqs4qDvip0fsFW5ujpmsJRTGZnPhGJGYEA5FMettOUQXo89PeHswtMatafUzzKxaMIyQTxBUYbeMnhgvktoWM8w", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109889249634452010185\">nguyễn cẩm Sinh</a>"] },
+            { photoReference: "AWCwydjpMeFATCE0w-Rx4Z-tC1GMpCg8mpf1XcBldoUedEOt5ch0rTOMsfFYoDzmT8y9NfA5vPvnvCHg9oMwOY-sr1yupW19RIZIjIzsawAw2Hx3ghcveQx0em6d7jyt84pdpvUb_n2q1EF5pPLdsDBQ0HuZq6eBqftCtWWMzk5xyFqHKTb2Yao44-hxjechi2iDC7D-w2_Q3Sy32SZQhC_Fvk8D98J1zr8r719RzA4a_SJ25EI25PC1BZN4j_CL9ADAeyKifRdpxBvnsXfao1_MpeCFjrCHIqtqdnj_zNQHlJS5rfGTa4PrbHbg1J-TNh3uYzLcMMxzZihGXi4SjDm5aS_lncd1_ybkM_HSu5u1LKmDEE2bBTfyxKeXkd-aOkALTeZ7KjODGZW81iHfDhJk-k8UIgzXB_kSehpKKVLyq3SyEw", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112220964775386208969\">Nguyễn Viết Gia Huy</a>"] }
+        ],
+        summary: "가족 단위 방문객에게 최적화된 놀이 시설과 편의 시설을 갖춘 테마파크입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["무대 위 춤과 게임 공연", "아이들을 위한 깨끗한 놀이터", "편리한 음식 및 음료 판매대"],
+        tips: ["주말 나들이 장소로 추천합니다", "다양한 간식을 즐기며 휴식할 수 있습니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "76-78 Trần Phú, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18060965318053854024", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Big+Fun+Vincom+Tr%E1%BA%A7n+Ph%C3%BA+Nha+Trang+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "플레이타임 빈컴 나트랑": {
+        photos: [],
+        placeId: "ChIJ79TYj99ncDERjXsIYsl8sII",
+        placePhotos: [
+            { photoReference: "AWCwydhXdaWBB-pNrkdnmxmx6CYP3lwWAKEl2ucv8Ja4D8lmBoarCGhaOovHxzZNHHQ2rCklLDa2TffWKd39EcxDv1AmpoRLm6a2Zm0i1huIRcN2okrB2G1xw3nwVwqUx4M-e34W6RAmEMUGk8-7tdx-VIlm7FBfIzY4NyXqsBJ48uG4icVL8jXqjSs5mrYnFzZg1xmrhJEE_H_EvU8pw_O6pOlci-CMUMa8KJ6T3G71YuZpNTEd0HcokwprY-BkC707X2E9DzYeFRzCZIii1AXLFUr8UxgdcztB6xxA3MB2NUu6ZelBhwlufM-rU3STK1Rz6dTbN-Pxx6nIgv3BsjTpSICud4N_Jix9i1Ki2cKqMZlCIt8Jhrurj7y8tWCfHTFomyIaK5K4xrW1uRGU59Wd1I19EgmUlgAHiJVY1WhSgrenEQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100642586349611497815\">VUONG TAT THANG</a>"] },
+            { photoReference: "AWCwydg6UNga1BVUMG0RwOEqn3V_6ltX5FACbkAgrCUG5zQMIUeemdFK9sQFfTPv6BYyhDxUNjKfkPcHU2VJxfMbKJxYQGUddE8nHPDTw9n7yOhZV5e_c0v85IFOaG7Dj3OfkcvIojRdW1xsqFrisZQmtrRkP-0bY5okWtrReGjDWFlpIjfditfeOx8UKUNh4EQlGE3SR01_AhtIMVJzwdq2mfViX5FrfKfd9L95-Pb7UTmifd7RZ-ToHlproG9DG9Xum4CVQy-tgWWH1giiBdhfpLkwQ-NXpwxbLoxnmc7aJbAo1vwDNUWS4lqkLZXD1yOD5xrIMg5om32pQH8NadURQGioPVPm3icT3C35iwXrYbezcSEqDdUnd4GLdO0Xl4t4e4IXLOl7q3tuLWbBD-WSOKxvP8l1fdXW9i-3vVWbNVn2mn7gipYPIfIUoag47n7j", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109905792332077137233\">Gom Góp</a>"] },
+            { photoReference: "AWCwydgoawL11WwOOdO4Zrly1U0Tg3fq8Wp-HHxD9myIjN6Y3wMC5ep_IHOXocHx3j705D8820t7_Bb-t9wfo2v0VOKQTCuadSWZ6v3c-t6bjdQ_MgdPvsiQHAKOkPYaKA0cHUlJRpDdlWL_EswzEwZuobtOo83C9cuCuDygEwqtIvmPZ-80KhHDqfSW4XWpMwbZtRPRcMoCM4U5nTzPwL7If76jbIgxuEjslhAPGSC4Ovk7wLebntuBuHbqUQ9bMWRq1nnqIBlzYQiDbv1YWomJmFoctYY6BaLPnA0Exfvq3sF6oxOs5VqvsXt_LwEEOfJrga-Y0cVsAcVMTvCzCS5wysB71JbHQuUZkHmPqQK6PGh9bVnzqQbBjygempJVGVqfJE59Z1_iim0nYXDL9sSRRS82az49SgejAYu3tDk", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114583568288646184617\">신상철</a>"] },
+            { photoReference: "AWCwydgleIWlZ8tkV_xpzBcb1Nf7bhh9N8a2Uc5J7sgM0YlBhGK0N_UoyOKNOkkjo9CUMVxOGmjGWRKcJoGXoceNHLTZdi2S3GPuftcJfVT-lP7dGPbRyOnpLz6rYb4Xmgzhu9xm-sWsL0tftw3GhuAONbyIgxmnVrjbyzFde14pL-7zoPHEJFnxGsU79OcVbASF2EWX2Hy9XxGk_T_aaBOsvj7NWB781gTp-I6jkBGmKSZRBYzVshA9EdJnevQQg12W6z5_Ym0-s0ppOHxt_YtJ_3TmZQefTtAO-0v_bAH0-26UZFgR72mgDbd0hWkLSAoHsCxz2UjogBgkt2Rd9sf2bMP6AI9DTeT56FWhWd3qVYCio96fXKLijJxRo5OWYQfJ7HWl9qZon70YbFtIsaTUpi-7WfgkxWqQngoLRUIEMbRIig", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101401809669172824335\">Кирилл Крюков</a>"] },
+            { photoReference: "AWCwydiVOSU85vwOWKAvi1D-t6QlBlCH9i3H65W7PTipXGVylz1K5vPb6BPFusBb_3ltALMSPJtadm8ImGe9PvRaF4v-AWkh1ZJbXRPQu5Pnm1sBfl9It70jxptFGOKHCBcA7h728xFrh2wiYS1BCiQpTTFtfX9hqA7xkJQuuPWNxKe3fL1AEEtUOeHFzkIK7rD0-DVlaQfUEvP6WHhlJrfPxZAVsvynlQeFsbr3om4O_8iu5jdZH5BZFk_62TXSDJPQE6OkKsrZPbp1evxdUsrsDNc70VDEGxQsFgu7nL_ZgqACqmHqNcFteF07J4OeX6IyQquG9SMfA0QunhR9vXGk12YUZkyRaxGkt9xBWDg9djA8rvs2vr_YCG8-2588ZyaJY6ToJTOXGTufy_C1gKCkb8Q5EVuX3JBfYQMnFXcgtK1ALsig", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100642586349611497815\">VUONG TAT THANG</a>"] }
+        ],
+        summary: "접근성이 좋은 빈컴 플라자 내 위치한 가성비 좋은 놀이 공간입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["빈컴 플라자 내 위치하여 접근성 우수", "넓고 저렴한 놀이 공간"],
+        tips: ["장난감 상태를 미리 확인하세요", "화장실 위생 상태를 참고하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Tầng 3 TTTM, Vincom Plaza, 44-46 Đ. Lê Thánh Tôn, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9417164025206700941", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%8C%EB%A0%88%EC%9D%B4%ED%83%80%EC%9E%84+%EB%B9%88%EC%BB%B4+%EB%82%98%ED%8A%B8%EB%9E%91+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Sailing Club Divers": {
+        photos: [],
+        placeId: "ChIJny-8w8BncDERzo0gBEEoil8",
+        placePhotos: [
+            { photoReference: "AWCwydgs8QpY2SNaO9T2Lt98Jz7nOxUNvGD35C2SvArolzCJNCO7DLkq825oXW19_9LoDVy-0f8DgXCUHWogDwogJ-9VusTMWkLimB0gupqWHXcI4VrkSZtsUdGGFXuata75fQQei84amDJbFIyQIewDMF_TvOlmEyV8d3wbdrBl9ZIfNVwfmi8cUdG1ick6vB4nC2IwFzMga6wDvflAWr5_iEvADYpXctiIzZqLvWJdvvKtN2HoO2aCiqC4cmBbnFGITFA2jOclopTUZ4Mlm9nvPT36mq3BHwqH4bwc4Lzdp9XPVVNrob_YOCh_4B4zctcPn_DVSk5ORzHuaIRaHrXuWN3LvJL4MEJJGEuZZ8lnk6t2P7c3gO1Imt2Dqp8DxT4_f6DY57x_JD3Cm_0NUchaA85HvKd_g1uHWAPSzLE9zN3E6LB5gbXsJUTnJv3fLoWY", width: 2291, height: 1918, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104075306095694418850\">Sailing Club Divers</a>"] },
+            { photoReference: "AWCwydg0ilLaBN_NQGPZArCnA77mUKe3v7XBQV3GIUkF5ZwD_eIoTj4wqlxs-EO2s2HaLUBO32DfBlrELtdPyEDZ9uT5L0PQNEbpeV8Ju21caGWpY0pBKQ6B7H8Ekvv60deuqNwP1UZAhwTYVUzt1RB_A0i3J-WC0n0Xez4vMyoif9KlEoDGZnyYIuT7oBTDVaSqFiMRswcMQH1zNT3IcUAN23u9Q6uMIZILf9GH8gwU_-nC6BAm6PfiYt3563pS9t2uwYnoeaqM-Z9aSRJ9ExZPe1LOC0wfF1LadgAGKY76iTltz5sXkNhQiG5nmg4v6MAFFh9yH0RXyed4WucCOj9e30jZjbUHdYZNDqv19bDZO5RSlI8Cm2TreeuDPbI5DUXXNl2A3C1m2jp858JODceTFtEzHzxehsSy679JDa-hgOgLyg", width: 2560, height: 1707, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104075306095694418850\">Sailing Club Divers</a>"] },
+            { photoReference: "AWCwydhHLBXaYu7EjyUyYkM3xWoFNfFecIpvgW6vTmoa3yDp5Wn057BLDYBDrIcvT6yfh6dIqCRQMrHh_cUxUTAqj7e2LRgajBrPs6Apcbg1visy91H0AfkbRBU4WWjtyprkqtjM9H7ZYbA0p9hO11FZMIlJs7PXOuG6cfWsHWwPLsbX4MU4j5u6WNPNtWkfcj5xcLEIymVk7fr2UjzUMpu1tlI5LSXSnM3tRz7wINWyxMwzCYH2CWp9efN2Cm3oBrMOXuDOZHzJglTiUFusbjhdfp1mo3cu8VwUNfwI7dy_MYDWSjanP41Rk_1rBV3TcuP6ka9IscEdD7jTAN9dJdQGiisCmFaYJtAQPMJ2ppkHiYRCvJqA5nCz7-0v7YZEgzmbY7Yus7FkCcYTArQ7-34Z8vmiZXgKIkMmNbmx8EhDz58JFfPPIYYUytIVekReQF_M", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104075306095694418850\">Sailing Club Divers</a>"] },
+            { photoReference: "AWCwydg2XosA1hdiHs9DuMbBzjB9XmnK9qUruu6nAGYRhh8dfFp7DtQZjtp8DxGYMkyjiVZ562J39AZwYsQ3P00ioDpHEhH1uhemPRyLX7K5X5wncDP53OEGtUgOuxXzZMgvHe7lMWNjL0sRVPUrFwXG3FGinLKVNoFG3E9YyJ9eGrr58lKx6pvEcelWb9qjxRpH9XH2Air_PKdOa5Yll9E25-blW218qyDOMWAL42Bg3OkrF1x7mUuEe9KXLPC0e7djBIcEmu0-8-4xOGuMoO_NaQ534khjYpyW2bffh5DTBi2oMlehzD-WCUvEV2ez0NPglazrq_MBBYlxsfGS_UyWsQ9TDKJwZAxXRsh98IPGINcAxuVUC9b3CJn0sutNI9PEOoesIodgMzbag5Ey45cvpmHe5rBgXr2JwHzkArazWXQAYSPGxt5vawsLv7SU3IVu", width: 1448, height: 1086, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104075306095694418850\">Sailing Club Divers</a>"] },
+            { photoReference: "AWCwydhLsFuABvujsnvvh0tGsmXcfup9n9OAO7nN6aMR2J8cs5PYONAYqjqLy_GUVak3x-cvJ05nP6njzjX0tLrsiHDefpYUowuO3PtRwPuyH40zJ8zOMJgeEQwrrXysC3F8Qr6TQkHoMlMFNVobd5zlly9Ovxu4DOhewf6j0w1dML_zkSF2bKvBZmfJ-wctMovZ0u31cdADkokrTdcel70fYDY3DfLqE9BsiWRdJMXC2wQ3lEG0wNdNigCvEQqTOpmmpd0Z4XcH6UtTPUlwhRW0B-txT0xgJCe_asyWB3BIexCifYtcUL2487geH8eb0VgVP9GSLd52ZHoxQQ73_QXn0cYiR3ih5D5VfUS2oSfEgzhJfZ-NxOTo9R9hExT68vRRtbJh6mQIhsZoQA0Sxn0fw6I8fPEqmtBWu58zWMlkLqfcKBezQdweUjZ7oBWgGLm3", width: 2560, height: 1444, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104075306095694418850\">Sailing Club Divers</a>"] }
+        ],
+        summary: "높은 만족도를 자랑하는 전문 다이빙 교육 및 투어 서비스",
+        updatedAt: "2026-08-12",
+        highlights: ["전문적인 OWD 교육 프로그램", "해마 및 고스트 파이프피쉬 등 다양한 해양 생물 관찰"],
+        tips: ["전문 강사의 세심한 교육을 통해 다이빙 기술 습득 가능", "다양한 해양 생물을 관찰할 수 있는 다이빙 포인트 보유"],
+        hours: "월요일: 오전 7:00 ~ 오후 8:00; 화요일: 오전 7:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "10 Dã Tượng, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://sailingclubdivers.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6884359240096452046", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Sailing+Club+Divers+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Nha Trang Sea Star Diving Center": {
+        photos: [],
+        placeId: "ChIJtVb3fWhncDERB9Tfv6uOLdc",
+        placePhotos: [
+            { photoReference: "AWCwydj9c7miHQtD4xgfvPkjTcX2q2QLQFejFk_0cmwizAbqcpM2PSXg5Unb6uEn27S3qMpvFQ6fJyVfOABplo1dPDZLEpew0WBhSZ0YMCI51WTFAnvmfYXv7DPSRrmfFWJdI0rrH_PveKAp9uPuWiTrbJ5qVuBmkT6xktOoN4S2-NIvjQE69WBx_Q-xl0lxu_FNqmWOCsiOY2oZpOb333KXyjewzOMhTp2V6OksxAwdpgwMq3GdXVQQ3xRPjh_R7BzjGdKjCldbqGG8H4UgoUuUAQilMSMYgxXEOUoJHogWhyE_PUvdhHJMnH_7XkTuXQk4ioGrPMX4P7sLBW6ZUMyDI_f6v8bh0AZQAlkjkcL7q4aj_3JBjH9asJuMyzxTgQ_30qrK73fxrVGQ2OL_pH1Ms1gmQzc-_Ce0mZb5_dy8Xl8i3HYQ", width: 1952, height: 1099, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116733978509249822048\">Nha Trang Sea Star Diving Center</a>"] },
+            { photoReference: "AWCwydjvpZfubtTrtdvEOJJhVCzXFaontNtshzvt-KbAaPl4liZ4xpZQBfebsJ5gem4XY4RPqJ_TMTc5a_hHDvShD4jo77fiZMlgn4dwhbUsZhV_voYNznJrLeJfDUgwDKrSqS0Cz4QUKp0Ks-tmjy3YKCaUJTlKkAALPfa-cGcxakrlAqvP9Y3FeaAcbFa0fWK1zKPIlSjT8j4Ls9xAM4cKhAQF4scrYvPOA7tmh88dca4snDS8fClq4muW-wZvrjksO20K_1gtYEahGJHQcKvOBlSRadheztb76fFvaHazwk2je2En4aD68uGhj6Ksx6HDNVi-ACnoDArnfdMYWXexUGsOiMzRtzIXHpyRUi5bFZTAgOczK5gzRq-1cmN86JEosARe7kF8wVEmQLb1vfJTMMzoVlYZkZtUo-zZrQracoBSsBrwer1siIMZsFc5pHAL", width: 4800, height: 4200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114977432114018559071\">Matthias Kirschbauer</a>"] },
+            { photoReference: "AWCwydg78rTO_Yk7M9VVH7VLTXoumaiwqF5DIFck0jTZD6ktd7yD_WqKxEyLbh-L5hGOIbolcrn1ltg2CxkyDj78qrBldGdhMkVWzy2ImFHGuS8VjgoyXAA3vb0uaiTWdE_b4-RqsiRFU2t-BtXXP2R1ioeoWzjQhOqUaXr9o-46NdVV718OlXqBDV9Ap3brwnDlAgiG93JGf1khYNPqZP5pvbEF9Jp7T6Gn-7sCrBfnDgqclGxM_vU2K33v2cbpa3VtFos6od6toDEGgA6ecQxYu5kpwknFTZf9qBzovhFRLGToQt-ADLndRl6wVuVVFRZce4PCySOTB6-NUHsa4TLlPD1G3iRoOgP4-klDozh7ddsCr3uKtKgqgFBcCo1gSxsAvUWRhRwAk3LuWAPnizJ-sioPjPo61DL1TE-61J5Uy-9GeJj1D-p6VtjdxtTHnw", width: 1200, height: 802, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106264205947884520790\">김리들</a>"] },
+            { photoReference: "AWCwydjEQooQJqKROBSmaPmLPAAqc23t6j9iZK8KZGIpdwjWOvRKE1yYLkK64dLxo5L-wFQVtt69uIdQnqFRPsUateb_ReFJ2mgcHVlYOW4VfspomaNVW_cTo8IkoBEQM5sMFtOa1MjCzamkABy-zthhJXSuZd9Pku9jqgSgHzSBTqj6q2dvXJDD8vyOU7vGiGFy_iUvGv9nHdBrabGETudwbB2WbW1DyvB_gyLvi8O_2XUiR_BQfQooJqyFpd9UZXTjBjZRfqVmNmvZgRpvw5jIi9VzryhSctmrAre3n3S-aCjqqw_yh2Cg1LOBsVEpehTpMqZ7n6GRdB2aH9RTE9Elu2oXPevkPjxpmIoVY-ulX8ZImOkUbscdWxRlNaxZVZ71GoO2G5VfZzXxY4T0NOGR95SHdcj1K8uUtDOIahfOJ_E", width: 2048, height: 946, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116733978509249822048\">Nha Trang Sea Star Diving Center</a>"] },
+            { photoReference: "AWCwydhuN_ZAlv8UgXRtivh9y_U0Kh-_wpQfpGPjbSEs0Sk0k1_wRMeBl0e_cbN_PuhjqXBcWxjtbO8jJRSwwapIDyOaQEu9U6TzilfzhdHnQbxRG6AfNyvKNAxyVHIJeeKq-cAeAqBucWrwQE8tNjVywgjZDleDwS1ipVQ-Rs-BZq4zJE8enBprq1gbF6yYJZOTnnCo3rjD5f8z4COM_d_K-UJpJvKe1DFQTXwLIQ1hMS0XLdPkYix5uK0__mhTFQesY5XRhIVLV9WgcZUYAw-gAfa5N_82r0WUrgvy6MPKoN4AnftjCE3QloOWBKG7mUHpUZWm1NvFe49iC05Y9Fby99sGRXKa-QOScHqt2RhQTeSZxNnsxLkTyuzVuceT8WoIa5ctsUdz_SWoGwp1zSoFJXUGmcAwhZJHfqQGJDnPzdIA7Qz2", width: 900, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102620312689123006406\">홍댕</a>"] }
+        ],
+        summary: "친절한 강사진과 함께하는 전문적인 다이빙 경험",
+        updatedAt: "2026-08-12",
+        highlights: ["전문적인 일대일 교육", "다양한 해양 생물 관찰", "동굴 다이빙 체험"],
+        tips: ["오픈워터 다이버 과정 수료 가능", "중국어 서비스 제공"],
+        hours: "월요일: 오전 9:00 ~ 오전 12:00; 화요일: 오전 12:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "48A Đ.Mạc Đĩnh Chi, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.nhatrangseastar.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15505205960416154631", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Nha+Trang+Sea+Star+Diving+Center+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Vietnam Active - PADI 5 Star Diving Center & Snorkeling": {
+        photos: [],
+        placeId: "ChIJE4VKgHxncDERzn3dAlZ80RM",
+        placePhotos: [
+            { photoReference: "AWCwydgA1mgjnYyZDmBHKAu2WOz2P4ZhpN3pXiGXftHMabqI93lrnn16mq5cCeNm4DOEw87CLygbl07HeSTPI6d2y7rKKldC76msMW4Pxa_nkxoSjE1lxPgFmCPhPL57LZ682-gNHU2_oXRw8m4hA14lSjF9mCi2K-w0jOUPNDtRP9heoJqGbYkTMyV-iZJiaST7GYMFIbh3Sd-AqfBcXuKmQGAjYlQFqOElapg9QEyxxCXIUOQMpyLfelt7rSKAZLcEh0ALbUCi0ZBBvsLFm-fzRbjYKics8iYYoYQB-IbA4Ekk3os1O2GpxdS1j3bPHFHcjYsnUcBPQ_qnkeNijKA371DCvuQTickKFYeDrbg49ZPn4xW8SHBVO-OLoXuGpAUi5yOiOi643eJddP59IJI6H7zcViAHx0iDWf9LGo8aaRFaHnc", width: 1116, height: 1169, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109311585496673542326\">Vietnam Active - PADI 5 Star Diving Center &amp; Snorkeling</a>"] },
+            { photoReference: "AWCwydgtufm1u1sFOZ0-ai42b88kZ14gViiaQikfz0_dyUADUKnZvzmzlu_sCiKeM9ZtkX8f5zRkcHBDgTEqD7tD2mFp7TSB2qmkW-4F5RRlNL2mxoQlZOKwAlXmr-y-DpLz-NsgxEY8DRlywkfxV6yeiMmIuEeClUptAFDhZESlem5W0AMbWC-UWwoBJROHyTPh4MOJMHuSOwLatplxM-cJvKZWKhsdithFyg8QgzbWT6_zrhccVoHHCWr1HkhcdoJSsCdBMjasz1Q-dEEOSlZyfmmzdPNYorUAXWqEakue_V9LnjFLDTc_ZRH4eDIqy0RX3iAgfhOUFuNe4YMmxMeS55WvJ8ycK98NkS4aET2EfQB97dr6yCJIwS1eq83QspsJDEKvfMWK_rpeNCVPJnhHznVaQfwG23SlJc2890RC6j4", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110960781768900207557\">AntiLABA Education</a>"] },
+            { photoReference: "AWCwydh9mh7VlNKun7XJN1g9NIxjV1AN7evR4gd9O8Ee3PJbA8XL4mBQn3QN7-loVwb87r8Z7fUvzWnnsjXneCwHpncza1tp5YvF6skeBiuv8Jg2PRjwGZV1Lv76YMTSstW3eANwuepVjOQrCF4cpXSbA23rSrmomyRQeCSwdFH9EvLJEg46XoypR-1oaXX2-Z8XbTG7AnuaHHaKyfOTmEjuXra90rAgecinM8JvdrYgaOU8Fg3oXakhe0XxetHyOVvwqcyi_xaS4i5qY8oPnh_25J7bwLmN23bxn1T_S3jvHGoRWCeGR0diUu9J53yquoMWqhlYNAmrWNOL_U-PvXXIWaQrc_RgsOerHtU2Dtjjy8vt8ftpRwzhpn-kC1kTo_aiEjNCJ6DfozpIQ2AsrrsKtMigE02LXDCe6A24DjCh3AvXC5it", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107137825527643885430\">Louise Elleray</a>"] },
+            { photoReference: "AWCwydgd61PleZmKmK64-Vd6QeviXwKRkkl1ky1yLBoINoxgJ9MfrMw0Io18U9jUwoZD2-VfYyKILkqcS8a6nJHt7CO9r5WT0Gxtbt9iJmsqj463MFi-5aojOuHRIVm8IxilZYPYgPd15sV3lHXbiJ0ku3mTcrManuzvnUVSwit4cAp8EelZk7vKj8kegxsBNlJWno6CHZVxRCe_oMtG9y2xiNkXJK2eqYf8qjvFdiEMazxRczvsue6SY4C9-zMFTs3fYH3NKLzwoID1uSQl1RkRoOBmtBwfhvc07hewuer8zPRHPebYSNQpNnFKaNM_Rr25Q9j5RgDa66CgWar325SPrLxspmOifrx43LbNwLQ8LD5w8XQ7K7vCcfVyXrD-MpWsTURauIg9kbxMl7HZoN32CY0EQOqO0epTe_rGs0X5nlVP1Fbh", width: 4800, height: 3601, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111328483631738564638\">Raman</a>"] },
+            { photoReference: "AWCwydjE031ZOETqJGLVCTKb8DeHBJ1LIIhnAomR4DnMEFHa_kd9NofhG_Ghp61y8ax9jSJkZbgLjBEz5vUzdpZmHU-1cMjm6bTeXOJkuy_H5kNhDV-KvLT47i91IrgGymGN14DnMMamQwWPPwn6nPU732AqxNT9fvalz2ZFm88gV-5AgTcGb2uPyN4wHDkgIE7zzS0j0LC19_QRFnQva7J7lj3KnwEkl2tVgDNYgy-i9zJq1nP6V4bvg2YQVIRc2qs0uAO4_YE3tcEfJoHGMbIQku3SXLsRhGUL4HcfhqsgBYQYdvG951y0gPKTI3yLRMe-EhrXIKQgoMml9yuUFgUOfPANprLfd_3aU0dsqL6XTIovgbuMrXumVQIH-_AEhb6xnsX2zDXLcpShjz0gMIv0rlrxGOLnmSNHu_k1JUUSYi3M-GBG", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101982934314615211374\">Willy</a>"] }
+        ],
+        summary: "높은 평점과 전문성을 갖춘 다이빙 및 스노클링 전문 센터",
+        updatedAt: "2026-08-12",
+        highlights: ["전문적이고 친절한 강사진", "가족 단위 투어 가능", "다양한 해양 레저 프로그램"],
+        tips: ["강사에게 명확한 설명을 요청하여 학습 효과를 높이세요", "스쿠버 다이빙과 스노클링을 동시에 즐길 수 있습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "15 Đ. Nguyễn Trung Trực, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.vietnamactive.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1428059265710259662", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Vietnam+Active+-+PADI+5+Star+Diving+Center+%26+Snorkeling+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "나트랑 쑤아 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJW5d9BgBdcDERbG6DOKZXN5s",
+        placePhotos: [
+            { photoReference: "AWCwydgDNGjA7_Gnr1k3xWPUKBr6I6YsNbOKfrFIdydtaBggC77wHzAGqbFVF9rplkHeILDhA0vpb25Cxij-xFitQSUzXe6HtYwCc3HlC3J317eS-hO6MggLY20P6AIcgJOyBolYq4l33iGPS4AdQ2avGbSQBkPM49UB7BvOZY7Ki_M6chjk71uMW1T-Me-h4IHsMO6W_lGIAMHZfa4VKvVDmUiwwYe2CT-mP3c4-mCZk6DNrAWn-I0qMGrkAR5V8-5pYDyYHGUvetFsNNlySAi8Cojp7kRcvyCGqxWDDwByEcF7YKvWoQtNukt_TMgVqH7LKQjf_gY5Akd398cqDWUrfAKgq_bgMD-8X8LPO0QVDJqieohBYwNm3rX6Spz5CChCe5ph1d7GSFH8V26V0g9Wv601KqN7-cRyirhveSyh2oEph-dZEOX4lqSDlSent9bZ", width: 840, height: 560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112717796187071503559\">Nha Trang Xưa 아오자이 대여</a>"] },
+            { photoReference: "AWCwydg5lykbyiC7T1Pepk2p6-2M6BdhaMpjUXoyPAkzA3xbpuS1_0r91vFzCMM1_4BSVjmxgFmzgHwK8etocmr3JD3shmPBlLG7_XyOpbkpmT-H8n8H3XoOK5vwmq41oPd7lgIeeqX9O0bhwg_3KxOlrnGsj4uNfmfKEPGjCaCx7GvepE4hTO5YXHZGS3-1Wgaq4HU_JiPQZVmMAjOtRJ-PcMbTb_kl7UGwQVlnXhtqoxLIkl2hVsCXHY-T9APyrTv6itSeiEEbz80srYEI3N8Os-Rpw4B85qkIEekByOJvc3CAVmQP1x9R1q4SdOvhV2PSRMcej59A5urdlUh8r8Tqq2lBPLKDALsOdgPwCdOVQTkXuUbuz7AGPo-6JHxpNNm9MTjPwj8vQM-J45pp9blIiu9dUfsjRIYbopb1mAoOuMihAB_P5JRkDi3l1Zs-Xi6y", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100616645823188697819\">Logan Ahn</a>"] },
+            { photoReference: "AWCwydh5zu0Uj_jxMcE2AAGLaNlaJLk8KGUCPGk-Zg7PIZpXVTPoKRFYDLodqts-yAEKhEJ9j7jg8koXee6MOLR0Cco-mhAaTmQ-2DsOE2E-vXLc82bt45g9ZqKmcsiFbbCTVSHTm2JwxZaqaCcMBnA9qTCMYRbLMCL4kq73ojarpZBUx8DUlYgwsuo2cdd6F-tLRD7Y52_iKEO5P2Az0_CKurqK4narTpZx3dENUEe1pvENjCZGhShvwmBhhN21MHZInC3SaeXAb4TPax83TNjLAt6gk83ZqoMeAtPnSnlOALaxTvlipUQpG49m7phwyF-4V5CFP5ELUZXoZVsjm8ed0OHVDPYn-M3jzv1P9ryUwv_6GgixPmla-kuNnVzQCv2Cb_nBQHRkJdwyF95cvXO1Plnte7xkNfZogf7-W3pvz5rpWnUNONVkvZYpkK50ug", width: 3258, height: 2444, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111433843601216614592\">박채완</a>"] },
+            { photoReference: "AWCwydi3nPTaj36q9QY4whJbSAXZi52lO9pA8QqOuhDQCpn7AyyR7dOyZZ8gp33SLwhTfkscAkr5xhjYpyeyn0JlCCpdy5LmlDQSTehEk3pvZpybAmEM0nUll2v5hUotwCqrYwJIVeTJjX3UlsXTJevJ7H91TwxBBWzCQdqMP8JCntMJ_Z2sqsWe7mIJt30e95Uch6zmLHexvjX0J-wVZ1Pkk9jZ15YX-QE3SY8jpJdpbkIyMgKivvkmDm2BHZnLvKOaBeepnSxyyQy5vMWYL4szZRSM8C2a8hZkU31zs020sDuSn9IHzVq8JYXGbZQsaJA0hvkMPh8BT5QgxiydQM7DtI_wNqntcXy_p0cN1qmB2kzjesg5vcbzg-WEt9f49SgYaWlY53JxRt6pNw4O0_z9IBRNKiaEV0KExddJk9VUyCGtA80ieG1kFj376M3qf92O", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115284259291516308702\">HM K</a>"] },
+            { photoReference: "AWCwydhdwa6uFkSYAA2ZjudoScsj4ECweljbcWE9SuWsIgzNLOXIyNB-qIYdxRFj0Tm8S64DDsMNHtnF_kMkMQKao4nQYcBb0mV73_Ht_Nen6CzhhzOd2OS_k_vwjwDVNH1fYWkpjCqMyMLtgIHvw_sVoHCSTpmTgWmmhVfSQ4ln_LQi9pcFKWBWAuLz06kriajz6IyFSuTAbGM5_YFTCo4A8kLFGfGd6CzLpJcZvnyiwuQtwDFqPc5kegro-lkmeb0hxw2oxsRkr2WO8NtAzIPPuy6byFAP9mUrKp5_5PWRY7-aMzgpmKi27DW_ylWen6skzA3lDE30Lr3afIzihniSIJxKxnqh0jHw6e1HrICHeE00rJbCJOofI7VgGzBmFpLzLtKFz9pZvTGyuSyCcm3stn1YR044XM-HxKlpnW7y7ACs8YFyqL2A0jgLMszjbVua", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100747258076681636592\">Florin B</a>"] }
+        ],
+        summary: "자전거 투어와 시장 방문, 그리고 직접 요리하는 즐거움이 가득한 고품격 쿠킹 클래스입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["자전거를 이용한 시장 투어", "직접 만든 최고의 현지 음식", "친절하고 유능한 호스트 Y"],
+        tips: ["영어와 한국어 모두 지원되어 편리합니다", "사진 촬영하기 좋은 명소들이 포함되어 있습니다"],
+        hours: "월요일: 오전 8:30 ~ 오후 5:30; 화요일: 오전 8:30 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "30, Thái Thông, Nam Nha Trang, Khánh Hòa, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://langnghenhatrangxua.com/workshop/cooking-class", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11184504571022241388", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%82%98%ED%8A%B8%EB%9E%91+%EC%91%A4%EC%95%84+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보이 아트 워크숍": {
+        photos: [],
+        placeId: "ChIJn7swDyRncDERd4KdAo32qbY",
+        placePhotos: [
+            { photoReference: "AWCwydh4Pxp6LlU-MDrvmUHyON6kXnmaOMub7HKRUwQAJNXV7kegTD-SMiBWUCPXL7pHpGajUMFod6GU-J89EWYSac2Tj72fPwZkaFseGjw50N33FN7fTnfTFJMra7a3iAMZB0jM1g1WIrUePdKvBlwEU46j3SGo04pBgZRHUCPfHdDm_kgNDYDqGGyGjPv5D2xAK9jDiYN0GlurNpTwqHpMWFzV9MQGCNRTYhCIrJ1jwOTLqsQbVUbS-zQG_oAJuyF-Nyp7mym_m80T73wlD5c6n0ZmKuZhkGlYyYoI8IUsZg51bSe18QT_XVJvRa656Es-TB8kQdwhRmQA80VhuplZYo6TxVQFRylv0WoWJVEllv20TFvMCOa8-iG1pHP12Yst-31z4GOc8f0I7B5a0uGWnnLK8-TII6Min156d2GNhHHTJb-lsT2jQvJPS0ZiqA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115046764862218704987\">Dieu Thao</a>"] },
+            { photoReference: "AWCwydijQyAi52W4wem0ldCRg-MniTkTy71OAvzHttIPJR2GU88cFVhYk7kTvzRgNT1KI_yarZw9msIJ5fpPBMqLr1b9xGyVCUbwo86vFtJZX9TB-1ATSx8aCvUtVP-MRi8Elom1ZzV-gjhTx8m74zKa0uyIHZyPsA56ZnxuFenstRm_QeC5z4qQPurZxc_1J5YpKWJ82QD0fkhc_rGfUdX02tXa9K_Lk8wLRFwg383oOSMFfpAGyzqIY4IESX43q8Q8q2GmM0KUyKIgQDmaf3BDQc57tiB4h2wRj8iNeUjavcNHxleWi_zHlYtSPGrED4odAAx28v_4fIB0Sb7uh7Zsz3gfokGMhi9t7BK_mPuNlLx86lUVcvsv9NRFMB3LnELCkjxRFP5v6sYCf-r-tEzp5bcUCIrjJPSBkTSk6VseA8OC48M", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102913694205066270711\">anna lim</a>"] },
+            { photoReference: "AWCwydg8KgFv8v0xmoeUn6ERsC3Nws9PqKRKfn64bV1awMjRY7ErcTuLYY6D6TrM2KovJCEh4E1TAJM0OoO4qWWBBkUHreYnc-XUy4AjoiA0NiAGplLc9fjX0BWjUe6WSRAe3ieXNTVGwm7940XPWyyzDfWYNj2zfRstd7HnxPF7ncCryuIth94gXdLi8AQ8aJ-DVgggilMgEN3Q1AMdRKt5FLTc2I1iQRbYpH3kccT0laadrmWF2Zz8mWK60BISszjI089nmAfifm_gayYVfZB9HgN1dNB3x5cMucQeoa3IwMkCvbyVAngwsPsmURo_I1Ih3b9CHElYAwbh9Rv5U9FoQeczhmPWGLcgrSnGFppc4Iz9EPo5zjnDexh7UMr9jVaxEl424Mex7b7l5jMoidhhLoypcL3ozFLp-Ek9zCY_j1GEyJJ6", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108200695990184109466\">ARTHUR GEO</a>"] },
+            { photoReference: "AWCwydis7EQz4yhmNwRs7om2TcqLvz6s75rzPDK4Ppz8X2L5NNB_6R8MhulXatONLJEGt4Z6mW4Q7dyfxIvQNMQ4HgVDhXq2wHRi5Iauf61Msdq4DalxishZprSJIq33ekkUPUdFkcPm4Us_5W3ajSj6qDWGPzDIzTdnjknjPU5kwE4MzjCroLbW44qRh1hPE1-_oR-evJFkTEskoXAKLogsHEtGpl4eiU-q8EKp72pAUDlNUGr3x9cWoKV7FZiI8Cu3XesDVbpUigELUku_MomNLsi6ObOBm83CoiofNl6eKdwL3z0fSHgPYDGr4a1phqBI08K9ySay9qC0NO4pwyP6ZZYBdtfSMQcFJYEIvg28eDVLcB0hIUq7AfzjZRXNXIZzFTjKMG8POTGyt3-A4CYOBIuadlGJ1Oa01b5ny3k2V8Y4mL6X5E3FScIozXbW_g", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105019916707925961433\">Bối Art - Workshop Nha Trang</a>"] },
+            { photoReference: "AWCwydhXrwVBQgccu9Tjb2c8tIpoPLLvEScLigJsbueYnO4mKLpkFDqNwSyLugs6d6bOLX1x-_3a8x7UDj6Az7PxiYG5YtZVB4mH_usUZBXLTM9s_w3G5SCaYYx1YebWfiC-_m0kM0UYaSI2QN91qBYthkWdS2xY0P-dDCR6glogUT_P6Noym3faTqqbc2ON2931GNiNLyAmlvIWEpX7feKl6oSXD94wz_ClPfCS-CvSQw7LJKkDDj9GCWFK8K2Rz79x8sRGJjC_sedOvWpENVS1rZPOl_OdApxhuyvi_vFFGdXW2h-C8kTKwpRCARTTqUlZtoe8Jv-0lKbfIzG7Zc9GF3YNWibGL40kANJsA_WYuPkbud1DMvSvrKVSKvw9Z4uXBMgF01VJnL4TQ_rjNeMDZNYccfVSiByz2nKEkLm3oInxQw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112142260970821061738\">Gyuri Kim</a>"] }
+        ],
+        summary: "다양한 DIY 클래스를 통해 나만의 향수와 소품을 만들 수 있는 창의적인 체험 공간입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["향수 마스터클래스", "캔들 및 도자기 만들기"],
+        tips: ["6살 아이도 참여 가능할 정도로 친절한 안내 제공", "부모님은 같은 테이블에서 차나 커피를 마시며 대기 가능"],
+        hours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "01 Đ. Trần Hưng Đạo, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/boiart.vetranhthugian", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13162322471461683831", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EC%9D%B4+%EC%95%84%ED%8A%B8+%EC%9B%8C%ED%81%AC%EC%88%8D+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타타 쇼": {
+        photos: [],
+        placeId: "ChIJefNOHABncDER9RjSG5wEsQ8",
+        placePhotos: [
+            { photoReference: "AWCwydi0JVMS-pSQjzJu801dab9FnS1F2nfjrDJpKIOgG4ddoHjHI8zszGYOJ2OXO-UnTzKNF9BhgdH8NMir7l_GVVjYdg69qkKMNuxr9Ebj9i9ibuY9RzuqBepYYN-byvtUgAxH2e82cwvIGBtopILWr7zsuikTnJxenYw73DUSD2V_y60QFmPzABcPSw2Fahq87CZaJ6J1jY8_zliNOWhS_E5YnKcPYXYNQQaG1u_l_IXXRsaXHKZwTwdDiF2LfOzghZp4kSIh_t_MgXLbeNLUtmaoLeLh1Y-u93Zd8xInQhvfxMYMT2IlRNNr5lxJDSX3J9iQRUy_tAh7DIAxS0DRo-fYNj3favG3mYGnswSc06pj-y1rztoKm7XlZul_y_hhf6o_ycWl9EMUID6p_u5vhu8pX76S6EJrsaCpyl_N44Y7aTP3V8twXsdedQYJCxHQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117878452673395482382\">Hoàng Sơn</a>"] },
+            { photoReference: "AWCwydhACOGjxmOsFBOIN0RO4smd0tim2oUdemDinHb-vv4PYuYMWOiZducMYYV-6_MP8Knk8l_VMnShrENwuCakQZPpSDhuVMMWoEThBnCgvAmWO2UFrTZRPpc5F3YE4AGGyX5jEYzcjuZDltFvtI8tj_qHRWoqBOJVbCUb9UwijgfJfnz69TjRm1jZrNkX0KI7ttomKjjsHHAVMJcBhNk1USEVhana8QoYfTR6l2-Ud_chIVe1Hk1Cut-_PRVhuxI9LQyDq4Z2omVyznzVs_JUK1Q1qsY7PGe-ouxP55HLIR9mKY189k3w0GRnqgylGLR_mEl5YX16sgr7Ic2ExwPSKeVKntJSW-E_jjh5lUHTKRuzF-d0rn2ojOapUddR3tdiImW-I4fL99ULEfWoA2CqK_ELJzWtIr_EeWJ1D5-b65cGWU1F0mWlxshSHSlrtRi_", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115843445451726370782\">跟著史丹利去旅行</a>"] },
+            { photoReference: "AWCwydijS8dr4rgKAxG3PNkynneObIi_Jj_OALTt-SkvL2viMReH8h_j8kvzZVXMzcEBG8BiVBJfMfMmYI_qXG6ez5SRcu_oJnhrX57-wwrPnWVA4U_cxDkwBk7xxWBc2ZN5UW8PIQp1l9EMSeHq1z2reQ1q_44zGm1UhqYrzc6NHpagXev9y2dahAd_v-BB8Je-pu4o6dqVcbVGz5uriKk9yTYdPQHErKi8I7B3PpmkJWuev5M8LsHkSIPP8Vb71k11fSWgB_mFf3BzEY9G5KK-1hSbWLJcjraLtmJW1x_8pZvycEnQ8Yp_D-Sk1ZShn0Dp4p9wLmDedOr_pkheMe6Z9O5N5wr52ydfX7h2MW56kfHAg44a8pfqmvJ_sfoFuCAapOMqjeDrQAkgdCyUTgJZRghEbXXIMzfocbgi-uTnyXUYlp2ews2BnuRhK9ndloEs", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102810533774666468470\">Наталья Петрова</a>"] },
+            { photoReference: "AWCwydhgraNQMPQyq8IrVoCLoC6dwIS8hO7d-zZO9xJ2_eMiI_2wCJbce4FvHbGyew_Ndw5dySPqz9CsXk13dpZgGIPEZpyMXEBoKYyBJvp1xGd_mC9SXVgrI8GItQMpiSkPK2UHwZwVUZgbI02vqBeFt8PC8Vf074j4fuX1zirmDVARFanTeklPOEEfvkxK8yTi6d5XSBZiByz1QqjlBz5PLvm5uYWNAal38G8C5Ki_9NsknKdDeFPvuknyv_e6-X4eYLKPRKLig47_bpJLHdQZJ8JzZBEPD_2DD0JqekRGN-cLaTqsV5x95FhRznjrHqAuuHPD_Gm8oDFGOGCk9HuH_1gog5ybzSaeU9V7xKQsUdBv9vvCFpuXZXA-RipLogREF0Og0KuFWJo3BAM1sKbTZ9NohqRzMy7Yn6_45sDTI2OoUw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118186214654730830120\">Nguyen Tri Dung</a>"] },
+            { photoReference: "AWCwydj88VArduxIumrd11IQ4xOAtmZ6kwk82yOigoCt3w9SzweIAzPQOZxK3jfwcKlv_osjcL3IX3kWnABvTA7EoJOylNvxHK14FIapFkR9n2Z0gfcLesUvHAwxfRUvgvdDZ08g_1EdeoeKxw-MpYWjgNOetZi2Kf0pwVZ80rNbyQDGR8H-9auW68XjpSmobkGBxyh6T7d4POG6bD2fI92ctCHMrRWoBzkV5HlOLth0xkanjQ6aJLUeq0_cCmm2b7rT069eNhy0H9weGdyAAUV7KDRg8qVBeQ4YRgouHERo4ab9wQQI9iK8wEiFzOsidPmvVrvl5MyrX3u72NUqFQxca_BUhFtfocTimpsVgb87mi3eNhCyNRkFpTBM0xDUeRHR62nnrqvzxZPX3KfMDigqj27rGtL4WOF9KkTTjS4dQTSYAeI9Rhns4ySoIOPuBMNm", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117292552194692204035\">Tuấn Phạm</a>"] }
+        ],
+        summary: "환상적인 빛의 향연과 불꽃놀이를 감상할 수 있는 빈원더스의 필수 코스입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["화려한 조명 쇼", "웅장한 불꽃놀이", "생동감 넘치는 퍼포먼스"],
+        tips: ["공연 시작 전 미리 자리를 확보하세요", "가족 단위 방문객은 공연 시간을 미리 확인하세요"],
+        hours: "월요일: 오후 8:30~9:06; 화요일: 오후 8:30~9:06",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "668R+W2G, Nha Trang, Khanh Hoa, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1130690049974868213", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%ED%83%80+%EC%87%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "워크숍 & 과 탕 바오": {
+        photos: [],
+        placeId: "ChIJMa-UekldcDERuFnbzTj8UqE",
+        placePhotos: [
+            { photoReference: "AWCwydi5EV08g2TTOqPwz5hOfBr-VbQoDvKb78ZFa0Guh5Exilm98X-of6TLSOv7ioJ2jc9qxRyvNRn2qv5PoQzaM3Q5ACJ_OAVKSTFcNUQzHLnuh2ZCMqtz8GYtcD0boQoGcQLEUPAWL3Ii3vkR5OV2xoHpgArd5t-kUaejYrEy5HHUI4og43nRBszmQ88oIUSQv2eej76T1X_3zcMat0yolxWBuxSkdzWpGpprXwP5ZusCu503Eghyl0-Dz9pv8Itemtso_LgI_1bGWlSfLfMZ4n0BbdHHcLGVj8VlSssjAzb2Fhah8kN3W6RvQrLF8cAs14bf2kLjY1YjppOPg0f_9PuJQQ2I8pTMejKClhA2KZhICtNiO_edUtgbejetnomIMa9b-tH81YIv_hbewVimxAjsIhMNQMpa6dqU1GbG1OLfUEBKYAtvpnJ4yKCZs4ij", width: 2560, height: 1441, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103728731276876842357\">WORKSHOP &amp; QUÀ TẶNG BAO</a>"] },
+            { photoReference: "AWCwydg2T_ocFrA58z-D-NP-AqxrISLqAEbqycb5FE-H6VbS546XRQ3fXcpkjXVd5g9k8bxzEzPc8DkpwSV__id1KZ6I4G2Cr5RQCJFR-5lp5a2oajKkUKXlmIyQ5Tzu-GanPG6TyCmgXj2A5ImouIn1LCy0Rbg7wQUSNv921fG1uznd9OY4169ICTX_VNZIayRSelY6ChFWw-flAnJOdJg8zdwybYSx7Y7JmhaEFBkISeBt9XI9DBWStld14Cuq-Tu8JNkXa-ljeJeRly1oSKA5103ks2NJYozb09Sbxefr12QxnCKUHR9WqH1Iva9onqwzGJPwqPxdxre3671y-n4S0XmOCuVccDII2mDAYdoQjNLaLD3UXs9b1SeQH4n6k1uXVq5csq3h9lq-idGqFNOLY8sMpyGeP1rhwCL4dUm_m4h5vXUJ9HZ5uVu-_Z0cnQ", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103728731276876842357\">WORKSHOP &amp; QUÀ TẶNG BAO</a>"] },
+            { photoReference: "AWCwydhJmA4G0-tcHwBeHTnfxtXdYVQDOFKSwGmEkYrAeAQ-mNDeCONde0et2dW5WuDGmPqBGeR0W_QSAKWyj8yh9rl1u9vVJg3fMOk2ehoPEqE7LPQTLu4ClPt3JyFKp_5lXVct2JhUgiDvMYOkLBuAUJ81SYblwDF8eugbKIQFcUiUFeEP__8t2PCf3IQU26WxLRHpB1_5TWKL8KY-SKkK3rEHavG_lzgT2-JqL8egDAXZPOZ3N9CiTILXelJRP-HTsUaeO2L-HZ7HwBRp5g9vZkRakRk5nBAI8wM21oi6KrLyXeNbFMmtwqCXwm9lxfkcmgBYR0pP7ZFPOJmMCSX8f5qjf8QYMSJq6RA1fBb_J8HJ2QYnBFh9CLwiOXWrBquB1ls5bXJMQPjxHif9VPFAKMpE7TVZQSLKUt87iBlNoD9jPiWHn4nNTl2FlsOOQ2oa", width: 2048, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103728731276876842357\">WORKSHOP &amp; QUÀ TẶNG BAO</a>"] },
+            { photoReference: "AWCwydg5c-8ZGuDNrAKmtoqkpgeOW880zq_FL39UFn-7DNdTrwgEKS3FHN9a4MSBqmv5HrEiNPR2g7DLKBsenii3UvSqzPc12HYfBcHe0aZahgXROmtxBiamnZnQyChEHuthQYLcMETH-b_V5fraHkhaShGGuRfBEj7G9H1lp9ZFiYCv69wj57g9_aCR67JkNWW7VcOCOw7Yb6c4bfNA_yCgXyU-uDiPpGEhnaqeSSrhXP5cJGhj6hjiiKF0DDjkLmIafxabRWGUz61BJv7CDXwDZx0n9wSigqBI1WmSS8btKYSyULrlMq9tZZ7t9RyM0_W7QvYyCMuXYrccsjdgSSBLQ6j0EY-6JAjQLcELfgPFqSTWrhQzxO-sNRfs2evfiu7pLApCdSri9xQh0NSNqTHSP_4uSQsS3noju0b_S-K263Cp3NeLYNYEZodvzkYT1GR3", width: 1122, height: 1402, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103728731276876842357\">WORKSHOP &amp; QUÀ TẶNG BAO</a>"] },
+            { photoReference: "AWCwydgy3RbLA8NxpXgDcoIGCwiIUAPIIvRxh3T3tZu0xk-W6-n1UzKA_58KYDpWIigtTcsTVS8nrxna_d3_0MWmKSkYXW8m0YoTiEuieXvbNFJCtLu4KxLjlbhcK33-aZ6iCTFZCpN3Qy-6GBHBGC6Pf3_Wha3sWIoWVH9XvDDQ6kCUlQYD5IzOloJj_Nf34NphmvJmEPC-K9xwa_TEioE44Xe3mc2S0OBm6xqMnljIgw7tPbGdOOGihjHXfIEgCdGphhh0ebDaVFHAo5ihUujMePT456nBrXom3f3GP0z8bEo-bqk8Od7ZIMy-ljCyPKpjGKUoSar6xR8qMkOwl4JHVic3ZaoFtmg6ijpJbQUtJcOi0BKiG4i76C_mb_dpV5xKDjgh-Yw2TIjRyifcP36JOcJQkgDdzEB_6p7BK9iUam4GoehSrtaHm_aK7KkUmnPj", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103728731276876842357\">WORKSHOP &amp; QUÀ TẶNG BAO</a>"] }
+        ],
+        summary: "나트랑 여행 기념품으로 제격인 독특하고 아름다운 맞춤형 향초 워크숍입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["개인 취향에 맞춘 향기 조절", "독특하고 아름다운 디자인", "친절하고 세심한 직원 서비스"],
+        tips: ["나트랑 여행 기념품으로 추천합니다", "자신만의 특별한 향기를 찾아보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 오전 9:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "27 Bạch Đằng, Nha Trang, Khánh Hòa 650000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://baocraftvn.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11624630909098744248", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%8C%ED%81%AC%EC%88%8D+%26+%EA%B3%BC+%ED%83%95+%EB%B0%94%EC%98%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

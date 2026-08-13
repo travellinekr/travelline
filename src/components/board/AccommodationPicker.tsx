@@ -194,14 +194,14 @@ export function AccommodationPicker({
         if (anchorCard?.coordinates) {
             markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
         }
-        sampleAccommodations.forEach((a: any, i: number) => {
+        filteredSample.forEach((a: any, i: number) => {
             if (a.coordinates) markers.push({ id: `sample-${i}-${a.name}`, title: a.name, coordinates: a.coordinates });
         });
-        sortedCreatedCards.forEach((c: any) => {
+        filteredCreated.forEach((c: any) => {
             if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
         });
         return markers;
-    }, [anchorCard, sampleAccommodations, sortedCreatedCards]);
+    }, [anchorCard, filteredSample, filteredCreated]);
 
     // 도시가 선택되지 않은 경우
     if (!destinationCity) {

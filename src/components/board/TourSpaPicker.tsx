@@ -196,14 +196,14 @@ export function TourSpaPicker({
         if (anchorCard?.coordinates) {
             markers.push({ id: `anchor-${anchorCard.id}`, title: anchorCard.text || anchorCard.title || '기준 카드', coordinates: anchorCard.coordinates, isAnchor: true });
         }
-        sampleTourSpaCards.forEach((c: any, i: number) => {
+        filteredSample.forEach((c: any, i: number) => {
             if (c.coordinates) markers.push({ id: `sample-${i}-${c.name}`, title: c.name, coordinates: c.coordinates });
         });
-        sortedCreatedCards.forEach((c: any) => {
+        filteredCreated.forEach((c: any) => {
             if (c.coordinates) markers.push({ id: c.id, title: c.text || c.title || '카드', coordinates: c.coordinates });
         });
         return markers;
-    }, [anchorCard, sampleTourSpaCards, sortedCreatedCards]);
+    }, [anchorCard, filteredSample, filteredCreated]);
 
     const handleCreateCard = (data: any) => {
 

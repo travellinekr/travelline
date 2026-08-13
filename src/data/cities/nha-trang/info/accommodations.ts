@@ -566,6 +566,251 @@ const info: Record<string, AccommodationInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?q=12.2335651,109.1959629&query_place_id=ChIJv10Eza9ncDERzx38GIYx608", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%8B%A4%EB%A7%88%EC%8A%A4%20%EB%B6%80%ED%8B%B0%ED%81%AC%20%ED%98%B8%ED%85%94%20%EB%82%98%ED%8A%B8%EB%9E%91%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
+    },
+    "카사블랑카 빌라": {
+        photos: [],
+        placeId: "ChIJ2aH_JGFncDERI3BdLqO5ng4",
+        placePhotos: [
+            { photoReference: "AWCwydi6gxcc54NS3CYHqX3T8NTw-ciITZZFL5Jr61QRLa6-bCLf44-QWRW0tYXE5oyx0k3SSwNVWIA388jBv-HGdcM5tK6g3SEgGw3WWZfszVIb1has1Nn8zJsvwSf3Z0-VFnX1WxF-i5tmWndjOl4DiYb636TqUMJEYiQqNCdhwZcM_zlGFMaovk9BFToqoGrbGrof67vOGZ_7LbcuZo-NF1tgZJqkl6_yMzBBzvUd3pYkYkcQdY0NQYFaFlwJJle-XvoyAawPgz_-ugnsKGGAwIoRl7fj0Z9grKrRJRepVV4JE7u156END50ZBu3J04M_EXzkNSfoWF4K2d55IwOVPya8RN4iy5uZJhn7tOVdKEhCHx3gbM8G9U-DUTBjNgJwd-KeCdCZi35D1gqObPNfEQxJBjAeKMmqady0t5mJ7JE", width: 3468, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109022294306808767003\">fonok tibor</a>"] },
+            { photoReference: "AWCwydjqxV2qyEGJkTOFna9A8jBe91DGMJ3PHacxEA9tpiQPB-TvlldepPaeI9m4lHW2pt4cMFyZl1XBnxW1H7qsBgq9vzM6ynxlu2mH3k0QBQL_kXVCGYcdApw4woXV5R-dE-6bfZ5EHmHf2Ue-lBpeG6TGhD3pfv9qgyxzUaVcnE8tsEK4YE_tSRuQEQbaoKZuk4qxBtz7c6sy4ksV4C_r38aYr2lmLiyD6UPLppe5tHM4JwYrGv17zlJ7A1oip85rqzmVZC54ZXFMJ_MTDBXXKugoCvgYjBg6Z_KpYHMPisiMK1HKXOoNeUtPp_13vCZ6Aotp9n_cPqQqYIP6Togcnm0p0VeVFhAKCma1b7RRSpANTj0LS-WzN3CZTcDDgeGHHtbzwny_4mOIK9HBX1sZqIMNGN24dLTq4Egi3GPUCx6c2dbn", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105346849169387578516\">Nguyen X Nguyen</a>"] },
+            { photoReference: "AWCwydgUOb0oQr6M22nveoouzyYKNiTMa4AsMcT69dSMQ7WwTTKmYXMb2j63KwKbBycE8qRq1JNVDGqKvGwRxBrnG3yMEdE1qGIMV1zUjp0DpxPWV9LBaEMFdKF6Qxil4Yoa3iHM-w6-23p9qSXDME0yFdJiIy4pnU--_cP6lNedc3RE7Oe6gqWy8PsV1QTqySsXXs5t6YWFcm_WlUZU23xOHqM4G6o-7U7DUv2gv6dQ1KaJfeUnS6VdgEY67C6RsCl2fVluEuZ9BpXIc2CyO-Nier_-CRh8LkU8hE9pqTUVWE3zMziQ-kAuf_oyvXQ4SFCTXWzfH208JRBi58eTwwKdFsUSXcbZnyHcL9-4eJLltK0qDO-WP7vJdq0G9yBW_gWlc9rUeGxD5q6oit9cFjv4QbWun6672yMjtiXVE2pfxeioCQ", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115159791278964855858\">Sami Khan (Sambo)</a>"] },
+            { photoReference: "AWCwydiLQsOfiLI5YWyLhW8lvcANRL8pB-6MZplj9hpvjDZjhd0wQ-ndauDe2My6CcUAK9LLMFP6-tZYrLG1WvPHopTEAzacQlk5Okk9LJGwiSTQ6IV5nIc1_epg6RoyeCLuY4Cu0k-DD85D1ikcQsSiYgI6Y_syUQzeowQV1IAl-ooQorJksmpqVI882zs5jrtozLXlJAQL2hGVFpdHLhc5Kxp1NDT2ZQLeJXz9jD1lu_3l5YxpD0tg30cS0twpoXK35rljJsj3ca6S0YKHTEsudlzbVqTKrJaKE9uK7yHUN22CMAdjpHKCu24AaWlAJf5_4Bl5wOIywCWbe7iqxLu-3_-xa0tgRQxCo1qvKwnolaRK2V32l2RWFGyu2oQmwWkfO18fZHoKuyHAlX8-TmKxYmAmqi1_J5CqgrwBz3VYRaXQpuGYvcDtCrVH7ymi70ZY", width: 2700, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105613050078657134142\">진나래</a>"] },
+            { photoReference: "AWCwydhC4-O6CJP3y5IZC1UILByvxX4Nmzu6bfXgq5AuVj_kauBSQCpjHHeIAewecWYkyTz7lUGsG5eVpyhY0k7Uq7ptBFv4V8WOXS5XYUDlOolXPTg8DTvfAOn5Yha4Galdzi40cabUm28LUegH1sfAfE1xPcI23m1bc1QsHJ0vhWyiRTL6eRuqjDATtAWaS_yFeV-CUpHtQhyMQkUC_40FOpDfduN2xOfHJyIsx6REpnTHwhr3T8rsjt8TE-s5K79AiqO-1S9KyUIY9G3zUODDOpQKH70w4-WOH3xob0bwzFiRQGkfeRjD8OshCtvw9UqqocBPLOAvMpVqUbne9uuyX0EJW1yV3Wu63Cxx5mxlH1DGNNziFRNril_OCE5DV1yhIkctS79_ojlPsCj3UMFTX4c0YmZFC2ABG23TjfnTXYo3zuSfCyIX-4m_ZP0dYNQV", width: 2700, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105613050078657134142\">진나래</a>"] }
+        ],
+        summary: "가족 여행객에게 강력 추천하는 고퀄리티 프라이빗 숙소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["프라이빗한 환경", "훌륭한 조식 퀄리티", "수영장 및 차콜 바베큐 서비스", "친절한 호스트와 서비스"],
+        tips: ["인드라이브 앱을 이용한 이동 추천", "대가족 여행에 적합"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "R12, R14, Anh Nguyễn, Phố Rừng, Nam Nha Trang, Khánh Hòa 57000 베트남" }],
+        location: { landmark: "R12, R14, Anh Nguyễn, Phố Rừng, Nam Nha Trang, Khánh Hòa 57000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1053483473359958051", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%82%AC%EB%B8%94%EB%9E%91%EC%B9%B4+%EB%B9%8C%EB%9D%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Annie House Service Apartment Near Beach Nha Trang": {
+        photos: [],
+        placeId: "ChIJ0aHVw1JncDERFwlZWeZV43k",
+        placePhotos: [
+            { photoReference: "AWCwydgvmKhH9HbPYWjAkbfZl5bwYR7PTB_6KrJTR7NirL9bsYztl810YTvrnegscXjLMQrWdtORRM_d175GvQoWYiyKyVpw_ne580XwHGLZPjwri3cxGXSAm9setn7ROxg9-ArQLo3IylCVBwF5tr7VOltlziWvJ-IPrAUFG1_v3YPy_vti2XBCAwXHdUofONuS893kiDmtM-T_C5HTOh1torcJAXCAbKlEfsDcNGzgkxJX-bXYFJDH9iTJ0KKxA0bZOqDKt3xqvoyzn_hE_qok9Zl0jAA0e8XLus-bPqvxUs3o3iFAxsywki6r4isMFOPuBNhb6QCC4qNCgh7BmNS5uaVF7cXUmqB1wO52bRimwEy9kRmELczfOA8e_QDNxqLRniHzV2Dog2ut_mIf5oVQ-bnFzvMdDf_pKMRh9f21jE1OCQ", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115259731537110494999\">Annie House Nha Trang</a>"] },
+            { photoReference: "AWCwydjZs3uRc8PtpMA6kTUlLHXW37JyYdgRDupU7Ld2gmNAjeHW6np7bMpPNOSA4hZyZfXHoNPtI7sP__7rcI8Yy2am8PiLk1ntdFewXGa8gwoFjRTwE7zGd79HWDADO5kgrPvXENKU-jrQqEIS2uXY3GPllysa8Jx54_vFDUtIFa33FiWAONunDElXJM9E2ljpIhaqGIeMN9MGsQPjeTcVlCC7U8BFabM3wZ19Us5c_KeYtL3dtvrinJ_okgd8ZEn1hV0va-PjRLB6BYO49Y-BgyQzteLCjEmZ_0cl0ynB0blXLiZOb4XSYCB1QjJyzzlBdDgVPJ5J_SaDiDdIpBuBhGRXXQt1k9ZxP2-tiej1CNHfRm-YvA1hJ_MZ0ddl5eKX3ewZbji3CkRdqIf4F5VnSz6yneaHDdsbRzz5pMvBF0P2Uw", width: 2560, height: 1708, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115259731537110494999\">Annie House Nha Trang</a>"] },
+            { photoReference: "AWCwydhF5C1e6-6L27wVBZQf10p8LcOeXIiSt6nTHo2AO6H_D97c4Mjf7jV8d15JjxjmDm7ydstV8TbT0h9Jh3SBY5mQOwu0TozMwNLr3zVocvhicVEyKHdYMrGE5iedtmSQPlUO6AQfyijUcHkfvk44mBXbEv07O7y_PhaRsK88ctvmfgFrAoWey7CcpJ_5uxPhmZhQ9nt3Wr2kxhfk1qWvNA-gNABcZzWoIlgi-xFoDlV-XYC8wsdhF9L8c6C_90pb2zxoond7xa-_G0mayY29EWYkXyE_jsFkHxHahSS7otXmF3sPxP9avZTdoQ76jxSftZEFv87K9SAOTN61gNRR8ujKMWjHfV-P88a6uHwFLUKzBmt1GCtVXT678Vl51-Lo42taZtKlvlAORVEYKQ-Qk-c2LBR4iyH2xPrRL1q-9hgw8q-j", width: 1920, height: 1281, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115259731537110494999\">Annie House Nha Trang</a>"] },
+            { photoReference: "AWCwydga0lr5m6uqWRFnapa_1GqDNaPo-4JcNbM-j2U-LNx8GZ-jr1GkrW9Zma6XzDA1quHe9gvLRdXpW894yk38m4vec2utvnY-wa2GfaGQ9_H0g2BWL1mVWij6Uo0QLhw1AF9qTrJ0uFUj9jI88I9eBZBGSxd488Yfsh-7jfbmin9KgAyj5_c55y8FUNlN5ypAIXoQlRqCHZbf9q2yf74i3j1XgXFrkwNluk0v9lMPDCvc1_rA44qQyt_0r9kvN9mfIwEn9IKwobun6UPW1pmpGCKcEeUNEOWf5PQ4wDN52iXKM98Y8ypj_RBA_U1fr5QEKLgD60BbpKN40DJHEEZxArLqNTOomcO1iyL98bkrjxvTK4FPrS2wRQ1rAtzK3YLkx7q25HR2ZzpczsxgoBV0ktP2m4Y1feT25j_wzNsIttM", width: 1920, height: 1281, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115259731537110494999\">Annie House Nha Trang</a>"] },
+            { photoReference: "AWCwydhxeuFyqrd5NQIU2GnsQyAesSWd3Go0cihczWmADcAi3dXjFL7hQVHIO_eLUXpk0BLJNcJAdrhBNaqoJmmVx2nIBzHbmzMqxaDbmF8MyleXXr0geVElZFILLq69fio3ABGaWWvltNz28oLEJ-m4juPhVd26kHqxaB5X6_tsdQp8Xzxb8PXkXWkFB5QZM8CkBoO0qgiNwP19_koMz5NeC7MOKntTXZudlrQYAdOi616trKNh-aNqq1CekQ30X0_MzNUlcGqjFNZ3kBinAtEjq6ROXF4dIsohM2TDq13n8s4wNWL0jM0QZKeO_94qKe5-oC3XgDyRJ1Y_2qVdO9UfC87Q-C5eEwrzq9FqhCmkhieN5txRZznnA2q-6-BCz5VCC7l0zbj-xn-kEhH7tKaRuYu3dy_gL4XTZTPKjcltGCm-xk3p", width: 1708, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115259731537110494999\">Annie House Nha Trang</a>"] }
+        ],
+        summary: "가족 같은 따뜻한 환대와 완벽한 청결 상태를 자랑하는 해변 근처의 안락한 숙소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["친절하고 세심한 직원 서비스", "해변 도보 3~4분 거리", "매우 청결한 객실 상태"],
+        tips: ["오토바이 이용 시 저녁에 로비까지 안전하게 이동 지원", "주변에 카페, 상점, 세탁소 등 편의시설 밀집"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "61 Tôn Đản, Nha Trang, Khánh Hòa 65000 베트남" }],
+        location: { landmark: "61 Tôn Đản, Nha Trang, Khánh Hòa 65000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/share/15oR5F32vi/?mibextid=wwXIfr", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8782958146132445463", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Annie+House+Service+Apartment+Near+Beach+Nha+Trang+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "The Bridge villa": {
+        photos: [],
+        placeId: "ChIJS1HbxDlncDERojene7I018M",
+        placePhotos: [
+            { photoReference: "AWCwydh5SRtiWzvoI7xvwRdY_U2ZFXgnZ48GJmT22kxS7KQbt4COlZG8l1uf2PuGihOBOEs_20BHRpkUDr1SWerQTk-rsCs58QC6oMLkL_jYgH_Oa6jZyfITvHNCX2amL6YXKQgFFJSHLnqU2G9dHX1R59Yqia9VVETGtbCPE5k-ZQVkNAmXHq5BlOPbZIN_Mvw9IIaK4c8eyWuR0AUf2ogRCnAbJ_VM8IADQTVaELETlhG_ZW8pDoCYoM7oDbWXECa0C36JX5KpVIXyD8HJMvfI-VhMsQ3QGmm6pfG1rXyD--_8_7dJJfDIezrA5U9VIuNAZdUL_6YSCCm0iPW928bwcigv7bSSwM8BLoO5x2XzPLFSSmUcrkBojnGv2de1Ru3PrUJf1qGuI5z_mxxCUnr6Go4dC2PHzY1l_HPSV6uma6OlUk9oHnrwdWk6c8w7Ldlf", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103907557720597392684\">정미선</a>"] },
+            { photoReference: "AWCwydjeQQuf38JfxsXzuUpIOhqJzlDJaLVsBPpGA2ccPuzPT7T4ig9ixUNuyShuamtitkYW-FqvQ7qadvdEEVBUfrH9iHxykhoFMYVCPJjozlntsOWFL_kMaeE3E8uSrlSA7FHJmp57KRyOiO7vnviV-3WPshuXEJ5OiGTtI94i1arTBrTUiX3MSnRlnzE-x1XuPk5zCS9gUoD86m7gSPr5H3hNC5pLDFKOfIo7x-Ed1A4DFmOUKBWC-l1dm0wqXH_d0FFaQJHSVCCEjkCgnFC82xjAxSWxZHqyat9yPfIjUmznCCmb8ar5uykYGdDAID6lz2Zgo9CHlplEpyrTtzyFZ1NhE6HkdcXh54smn9EpkaaipNT0TznwmKIx6ul55ROWZGGjGKQ1fcWxoSNw7s3ZOemlAkK_3MT8OYjypkcoQgH1b1fm", width: 1373, height: 3026, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115445782188489308765\">Cecilia Kwan</a>"] },
+            { photoReference: "AWCwydh0xpVanrReh4wYJqPOufE0Z0n2jGqOfe6mNdYEV4_t8vEB2xKHArudjXCC-3C3lWCPo3lYy3dgZNjj0hWV8XR79qexT2zO8wUQ-PgU920-t2tRPV4WXwiDsu_JKHpatbzmPZm3Ry0JusX8v1ZqEZslw99Vr3UnEa64h7brG0sLmiunzuYW0d_czlanO40cXC1imjM_e36_wwwK_ivC9yk2eNwyDW9I7LfDp5nJ94kduEDW2jZVuT9FzmAo0yW5S3xNFCZ_i0H2800x8s8HBrVin4FVgDbMl8hxjkDYKhMWHt3sGVC_ALrAPugW6kUxQzZhmdbT-JhyqB0PK_M-AMf6P4ip1MVgd4fl8PoOpM1-Bp5bE-gyrDGcpftEqCF6HhVYWtDxhLD2C90p07JqbDAqqCT_KlK9la2YlKxuxXROJF_Kdbrar2M4BknD1g", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105899836288481605571\">Loan Loan</a>"] },
+            { photoReference: "AWCwydjzmckto-2tBzDy4vojhFPreYv24ge1beUUnHNkNiHSPtaVfGcvmeytUrjTGo4ol5PhBu4AWN2_YPjQofH16L2q7cW_vQytoDx4PvM9VT0bI0KJT95-WYx4zhEDyK2ZQz1PMJPkbXCyjpRqlBNdYgkvBXt2IYbVdh_fnR4Xq4nXkAGHAx2ATtLSzrlk98UoWGxiMo7d2qlZpf5NDQ824C-qTX1fwP-rDb-FCiFytSDrVdm-ythB4-Hc3C5bB03WJF0ub6V5W7NFJNRErrtb44zwx-5v3-twmT7N_UgW062lfDF7q4ty-bjhJIK7QDkMjXeC98mSXjG1_JM7n_wGH61Hm4ih1Q8eFj8OhW9bLsAiYcw0KE-btopU_J6VsdxnpNrj1dkHOtOjc4zHm76XRQbDpnzAy6S3EoC-l1euqWGBqwzimknCg8J9R1mVOwdo", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108602112456140762053\">김정석</a>"] },
+            { photoReference: "AWCwydhLvDlD2XnU9pT35_qcgqdVf2ZMhEYLRu2YrgVxQhQnML7gsdv7oS-_iCz4PLgmrvc87ywMJmimuh4MaBZRxl2f860KmxEejrtu5Uej8jPDRtyIKzr7A2NLxZTiQdm8ehSFWjm0U0wpcI-5USsmToSAlyj1dWn0TmQRTOGsODx1-uyNzvQpms9auNK5o-NZh-22QoJcJThN6PH3L48bMuB9_87azMOSGSg6IGE_1PGn8scKC2xDwznZRU1yNUDWZhoHZo3ULAQUAXhWYq1S6QlnR12B6nXBtFwvBfPTTpiqGFGSmhLIsSyS6ZbrCaqg78OMavY1DNryLce3XEmQzdgWGiU0MWkw9f6fUltXyANMQEK2TqxHwO1U6E3033q-FNNRwQcl8vuVzjOGJPdsA4r1xGwQWLq6KpKVVoYIz_yi92XP5DH_fPO4aakd4g", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105899836288481605571\">Loan Loan</a>"] }
+        ],
+        summary: "친절한 서비스와 훌륭한 시설을 갖춘 평점 5점의 고품격 빌라 숙소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["넓고 쾌적한 객실", "친절한 서비스와 세심한 케어", "맛있는 조식과 루왁 커피"],
+        tips: ["생일 등 특별한 날에는 바베큐 준비를 부탁할 수 있습니다.", "조식 서비스가 포함되어 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "biệt thự Anh Nguyễn, R28 Phố Rừng, Nha Trang, Khánh Hòa 75000 베트남" }],
+        location: { landmark: "biệt thự Anh Nguyễn, R28 Phố Rừng, Nha Trang, Khánh Hòa 75000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://thebridge.xtadia.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14111805898572117922", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Bridge+villa+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "NHA TRANG POOL VILLA": {
+        photos: [],
+        placeId: "ChIJmYCPC9tpcDERhaIR3gVc3_4",
+        placePhotos: [
+            { photoReference: "AWCwydjxFQecIHs_Chb-zIHjWYa5J4WYHsgHdE28r52piLiXGGzSUoPxXq7uF3a7jfBb38nf6MIQcBsYZI78X1_PV_3WkBJCICVostTCecTCvDBvM_-niFTjhrZRTul9XN1naHDBtChOi2vWvKaYXC_-cC-R5b-2dRbcc3vZLYGUAagyyKwIQhHMDMH6tnb_NeGGnrzbXzlQ-c-fI6zIAdjO4kzFrhdAgtsgt3_AsW2LosGx94LA9rh35-_7buaVzjZ9YXzYyJA663DSaIEAlyEwmQJojwG0jSyI1f3a3tDDSmOrzINVBSfGfz82JPndtDvV1V7BObi8ALy2_xUckbHBKQhbf0hEcURMltPGn0V4NRXNsIcg6qdQCPqOy14XsAuip3mPeXFT5QP19Q4dCCY_EC0paJKHQYq-GlpPy6gToyDmhv_Lr9upbCfcVNYVpDVO", width: 1365, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117094921811113774174\">NHA TRANG POOL VILLA</a>"] },
+            { photoReference: "AWCwydgNYmuCcUpV7Zvf6eomrCHl9kai-Bh66BWJFhmCzpsufDSrK-mYgQhaRccTa09Ct9GQ3JMDgoaXnrZBUfpvbP4BrftvjvrpyNqCLrMwpdtVRbA3W0bGpDnjNFObSHdQXbugXxeKS6Jrl5NEhiq3Jwhri8_V6Iid3nsbZ1ENZ8i3Og37YBMWF_X-WGXFafR_da_2WhO-zX_6swYgQ89AyODGgB9u10irp4IZUwWdD0OyWFu8TmEOUdMyM3YbHJ7oOwT8xKpda29o7a1PNy84G5DV9thJnzcSyQg_KdMwe_xYMv7FD_tc7z0Up9yjDsa59puSGFY-o85E1Ufda2XDb9BckvDYXgQkifuYQxGPkScx6QFgiUoOwJdLypDdbHs6ozDSth1Z1mmWAZvBhqD5kH5eS0STxidRnLfABNBH0YFJ2RPVfD2cGSFe6DwYf_P0", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117094921811113774174\">NHA TRANG POOL VILLA</a>"] },
+            { photoReference: "AWCwydiulF4AmUW9oS2RB5boPnjFEP7GLt0fLmuarYLXHZtlf6VZ9P54drQrnPzlMPQlVzGeweWU2W-c1pGWiPkLUKWIIuJuh-o5jdWqt1W5AjSy7zx33YXn77cHD15oNymmr8nvXOZOg38LZrKpf7w3fY7Fk__Xw7t-QZFIu8cKd6F0UA2WKJKOIQfrLzJroMGw4BiOQZBOfEd37uU04MEtiT4rqFQOhuN0XC70Vbe4p-C3aQzzCxcCFcWjTUjS35Gb7n2-koeTu3PPGIQESHl_9iTbQCvfEKUhmAF8648fIApNme7BcQ-ZQANLnR6XZIxvVCGDQuQFomM8ZhmYhmWb2djyiMP5CdSRFBpfE2xPUn2Cc2QB0sLx2Di7mszG4aOL5L224qh78sIFG2arCOmT6gfyUdkzdSMqObHXN_u-0zIKhNFzA6XQe-fPsBTdA7fy", width: 1408, height: 940, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117094921811113774174\">NHA TRANG POOL VILLA</a>"] },
+            { photoReference: "AWCwydh6eD3Ll6an6R_sgTzagsy42VAbiyIty_nNVKaLf34CUF3-l469YHEkOv_7aMo9xP31jW5a_x3DPUMwG6HPtpytEzjnyCJdZtyv_QbCv65zE0Blubr2vHPqnXYQvkRR_aZoHUf0-Jv3DX6BNLrAsKyCJT_x951k1vFKmtVXqnxnrPnWL1esk3e8tupIoGtfjbfONaHj3UqlPc-_ObMWffW9k3z-GyCzILf8TThI8VQWK32XA-iGgFfEUKvoiXdnwb3MX3bYsVenzhb2V1p1q8Xpw7TSwbea4qIVx9uvOUvKH6IKX3JxNnRLYsPmCEVmuy_u2DkKU0Mizr-09KRWZ-inh7lAI7aznG9wwR-8Io7ZCJvs-YgsFdzozi96oY34-ngFyo7Cyno1NfmmGiXWEmv0hvffXGN_QqlKs7T5oN6EoTk1wKGIRWwjaaLJV8zq", width: 1408, height: 940, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117094921811113774174\">NHA TRANG POOL VILLA</a>"] },
+            { photoReference: "AWCwydjTj3417Ymf_d7CoZIToaw_VVguUHIyPgedeoL_xwJ1WBkOGhymK2t6Es1bKnvy-VmQEcD0Bw9xGpqjD4RsAPSrIEAWPSS7fIs9SoEyUSr40jfnwSsEP19PYp3q6dlzjonzRs5mJT52xU0m2q6JAXNwmPSfQNDwRjRmORtLPx4g-5DhnD-3O97PmKIxk0c2n6_FMurHAKzNII1owcqJUpnrxOsM8YncZJB-WHgeYBnXMohAGsGnETmYTOkFDLkzkvysASBWmT74wWfmrY-ZZB5bE0uR_GEwTjkFl5bw7ExzPhLmdKk__18frNxvechsPg9XJmyq-tw158Y7zpB6xhEHC4B0zhSEKjZzQPMsQ-oDD6a2F04POcR82flOeT6gCQNkv1aUDPtYA3L6rzWakMgs0hBN5hbvxuEAk11BCoRcVf8KvsXy7soDwew4pCRa", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117094921811113774174\">NHA TRANG POOL VILLA</a>"] }
+        ],
+        summary: "조용하고 쾌적한 환경에서 휴식을 취할 수 있는 시설 완비 빌라입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["실내 수영장 보유", "조용하고 평온한 분위기", "완벽한 주방 및 객실 시설"],
+        tips: ["해변 및 시내로의 이동이 편리한 위치입니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "15/24 Nguyễn Khắc Viện, Ba Làng, Bắc Nha Trang, Khánh Hòa 650000 베트남" }],
+        location: { landmark: "15/24 Nguyễn Khắc Viện, Ba Làng, Bắc Nha Trang, Khánh Hòa 650000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.booking.com/Pulse-UF07gQ", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18365498985710461573", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=NHA+TRANG+POOL+VILLA+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "TSUBAKI VILLA NHA TRANG": {
+        photos: [],
+        placeId: "ChIJF_aUKM5hcDER9q7ED2rG0II",
+        placePhotos: [
+            { photoReference: "AWCwydjHrojYItKKqHQzSWOYJrAEr1UYbc_LxNOo9Qa-e5dWnTG8wJmaiyFxmqWUGUyf7LcmxN0JWjrNX6H-asTJNUreZDHFsQqyod73YeVRkEwKcgRbWLPkXrBkdoBrp7iKb5BHX8t_zJl9FqQCUUO7Cc7byGUv7CnXGXiSIQNv-YWVDfv8DztETJgndKQBMvk3NkDOTToJx-aY8hHjHUmAjjdo27d-an1QfmTQdrR163kHjlOMXfGcIAKMlopm1aHEO6mC8uZbW71rXjKbjJk5QVVKlQkBXa-yaQKWNMXpjFgKvFT8uU7jAYSA02yvzUu-vUm1JTzRDcvHOaccxiauZCQV1dRiB9M3dzCSFYEqqrV9sZt8fp-34vsiwG2Ao6W6ayG2YV_Zm6YGQ3sdZSOuN3pdjrBrgUDi2MTXMbXdY7mvXoFAAnfh9Xf2wVyvp9xm", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105414157606244551496\">TSUBAKI VILLA NHA TRANG</a>"] },
+            { photoReference: "AWCwydjxiP-Hp7HicTa-bgvs79WU7UCSN47ga1Ep_zRj7U_0woOEYrnBzn9fHv2EtQ_tsUXyx4-kjD_jlhWVV1-ew5oqJOouXNBtkMTNxTllzgjIPSX_bog0WtOufDubt-HVgyXbGNEDsWFGxv0w6z3xg6kADJY-RWttBK2ofBWKL6eAYvB1VZGNii0zrzz4_cJBkIG1Ju9hPyozKlFNIZFXblWJSjQ1pP2EoL43BN-O09RMH4s0prPHx0xNuN-JZhalSi41_EQc2fSvg1v1WHiD8hYB75wowsNkvCVD0WfZ3fQ0BDy6U2tqm504AwknpW1-gZpXX4-hRhUV54zweG7gKiJUlSsUuUI-O4w1ZIYQ36-tJuNBiex2EmAzjlLxkcevUWx-XXBriJp2jxjyo6Ht8NcqASp8I2xEhSBM9jqapPkkHxAb7DXRwjoZLLO_4kw9", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105414157606244551496\">TSUBAKI VILLA NHA TRANG</a>"] },
+            { photoReference: "AWCwydiW7NzxbuG5eW663VeuDtNgIoHZtk59dvUjXfND3f2r3JqWk3Y49dQqJexftgOLQem4DgVjDe5GQg2L70bYZasxP7dSqs_86hqWrxFjGOlRjZyTglsJRhrCPo0wEhELnvn49KcbeEKztO1G5jAEjPyJh2DgtvaRyw_rF8jn-HmXClrGXxNrqq2qda6A_n2Hzsuzd1fbivMKyN5RBIxPzeNhi2Y7jDPBBeepdgPumbIGNN0g8eIilIeguPSs0nHsc0ZlbnxrOk9TO-SFXaJnu4O2iSUWYJ22YDnInE7I9GQMt9-XrfuvZApXOb60Xgpxn5VhscZaWslkUXsfrlfEqRIfFXaNO63D8PLJnhKTxl4_GGRPA_zTv4CDgPV8eNxZ97yvKyDV8ecND8-bttrlt9zEuq7yoPNillpL71Oe-URHZKRfjEFp89ImMVWnyphn", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105414157606244551496\">TSUBAKI VILLA NHA TRANG</a>"] },
+            { photoReference: "AWCwydiq4fOoV1vKasYxwDv2EsMu-Fo0SJCCxpOZzw8LCISU-gobsi5uUjjJ0uzzsC2HTI7XyPMkYk8BXfdjRslW8rm54oliUCyb3IaevA-roldy_FKyh2jo2FQznzZxx_qaYiiLKUX4QEvbWv8qTBv_9qUQswkLi8WSoizbTRSAIFeEUaTTuke9650d1eaMyU0iLr0DDkhmKQYcK5wDZYH2a6wV62h39sIhWw5TdOw46xfDG9efgJnBWReKL3j3TirVdRXlxQ473vHzWE5nHWHQKh2FKjsPIkexXNRyHMG7Xmdz42wxEZriIwopQ4JRJ8f4WyWGs2bP9BO-Lim9yNdN44oHS5O6Qz42t-flmpXR8JWHzxLx5__Fcsu0Nlmq2FDfHA_LgCrl46RgBEFj4jo598Ad0UDOgWdmfR-x0jkR-cWBzDa0MVkO_H43BKqqt8nc", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105414157606244551496\">TSUBAKI VILLA NHA TRANG</a>"] },
+            { photoReference: "AWCwydijL6dopAD8iUjDdTRnDUNqSN5p7A7HiT-zLTis5VUMEhSaOB5q_0vn3VLXDYvR2aiWmwVml4mwU4ChohE2jOgvzhOO0Ji1ZGTDd0YbtZeFz9PIDzreNSXoADTziA_MYMK8i1TtrYGHzYO4TqPpiVZzsqK5vBecvJAJ8ovwRXVWDz8msxrG-pf9x5mGaL1O-jhlNNFqETv6T9Iu5LxhCPwdW9tfItc_vkGwjcO_L3kxU5i_-pO-iswlJvIucbHhOP2s_tAiU4J1TtFU56-WVX8pMgcN59nH_K4S2-4OoA6Sa0At4IPx0f3271tnY99AlKEuQli9gpOn2SMLko3oTieytcUmXXvGfM11NRqWFmGPr_00vJu2cvx68ImnOCIDU7xGJwD8on6pSwZqJo-F84BHL_TIN0Ko6HHzgfxIfE5QvdqkI94tbuh-d-bxkyuC", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105414157606244551496\">TSUBAKI VILLA NHA TRANG</a>"] }
+        ],
+        summary: "높은 평점과 실제 사진과 일치하는 모습으로 만족도가 높은 곳입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["사진과 실제 모습이 동일함", "높은 사용자 평점"],
+        tips: ["나트랑 여행 시 방문을 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "lô LKS, 12 Đường 2D, Khu đô thị an viên, Nam Nha Trang, Khánh Hòa 57000 베트남" }],
+        location: { landmark: "lô LKS, 12 Đường 2D, Khu đô thị an viên, Nam Nha Trang, Khánh Hòa 57000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9426252178919829238", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=TSUBAKI+VILLA+NHA+TRANG+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "The Alley Hostel (Nhà nghỉ Hẻm)": {
+        photos: [],
+        placeId: "ChIJ9Yx2FEZncDERDdyqrgsj4Po",
+        placePhotos: [
+            { photoReference: "AWCwydjNLm3cqT5L6pvoM6w1naxvrT4ty75lUKEWa5b2Ho_M_A9w5K8F3Aqbfh0e4POM_pX6tAngtN3YzyST7DXWk8ng6IUrSE_SOevtrkw0OE8a69Ag8nimsApiKi3IuOWU9jWaqLOZbclktJ2C7yJgUhzTuqx3Ui8jLNers7MM2sPxjgPX5sPXSTTpFzC1qstkwpKjqOmZ8VWKf8i_hrBNNzDVDK7pDJ-j5kwpDavIsSH0lpKQFEe92DFaiRZqD-JzctRxGANRQyaFNpnpvSs8hVKG8Kk5pbdSRbIffoStnd1uA5SMNiMsTlONOCOafhxO5K1I0dfjO-iocQ6mGYVPNKVg4fDB3GthztokPodMQ5HktN-Uz2br9yYluKvVdPRH11N4PJcLcOihb-5tvAUP3vGD2L6E_rASmT6BvZaXNHIXCQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106941197700629379233\">The Alley Hostel (Nhà nghỉ Hẻm)</a>"] },
+            { photoReference: "AWCwydgvAX_VL0wDA6buud-XlVSyWBKz33E_tWGf7gKkzB7J9MFKSyDRzZZbDSUGEWqTda8CsrjQHoeup5tLiokLT8STAB7Q-kQA5vM3Wil6VfykDFEFchDi27A_Ft8Mk110rSXgqFhFKaQwcQWUxwLTE107AMW9rGCKEXz-tdbmRjh3OUVzWyUN2oVKJhKBXxRz1ijti0WPAr22jJ19GCk9jcIT-VuAc3rI3BMuavY3R8ypdDR81z_elAtJh96AXskYVUQRp0_0RDVoR60ZiBaQqjyy1fQSurOHRu3Gytbs5wjOirDXc8_IVNp48Lefhdf3NE5vd-wEEdTolaZRfNesHdzzJ1VOLojdWmB1DhSifZgASu3-gHHDO7inBIVWkjxW8ZoEigUBOm5B5GHWKkUq8ujl-EqnrbZ0lEuhRneKV5VGOw", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111023857699897976923\">Htc Senzation</a>"] },
+            { photoReference: "AWCwydgKoAxiWPhIBp4zwPTh2ocCmXMGSM2Bg5LlYc7jKllI9AYtWHek7SgaUg4hAeiaqbyhRo1a0lVgkOwDtDXxzXyAnkbRDdAoolHpiGTDz6nIt6u49dW9EAcplJEx0UEn_wCbETWZexuuoxktqBZy1Feqj8y9LInF12ICCuVcSvvi3gDG9NC3AIpR6IS6ySSafELA5eBxdkXm2Z7YUlypuzWZDZYCsLaGbzG026WRD357_LyWNV5htnMrk4wKe2e05zZMV3TWuVGQxms2E2piV02Q8hY7WcggYuyswCrXfk2by5UXcvHWjwzTxP-l3MUdgshagMHoMaTHp1eAy-EMPjIn4voV50VzrwHMoN0MiNBZzbL2qV2iYNK4MqmBbWkAlgMRA0KSDN_BJt3IvHuFeIwfkj8QhVyrWnyiLtHa0oddhos", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106941197700629379233\">The Alley Hostel (Nhà nghỉ Hẻm)</a>"] },
+            { photoReference: "AWCwydi8eZvSTs674rHkqWLuLFym_mztQG26Zp2cjKjlYLRCPHpwM63ZW5M_W8lTwLgPUxk_MyeUF3GpQ57ht_WzPxB_v9lxz4T54cxpgT7KZrHCLwB8B0OaG3A7pAhWAvOliBKtePiqA3n_yglgHKyRqYGahKhPi7WpPET-wRLgIpmrz5A4imgr-f-WGsfrDlDT6TZXLSpO2wI6JXuWtDoW-B4fRAS9MLppi2CIbBqXAYxSc8xddgSjBfqPWXX0I7-TM6f6uyEYpYyrEZY9-3TFWNkTniGGIpLEXIAwmpUkYgPCvH-4mia2-QAMDKRhxep5WFad05KExrGn0HPw-WeMJApkDJvWJUjVVHnQCw3VNpA9wBvacxV1EcqfJ4pF2SjaxyzulTrOXf3YOiiAJnuQ5Jcnf-VWKP7aruB0HDCTv0al7Vii", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102958063718061466622\">nafi durmuş</a>"] },
+            { photoReference: "AWCwydgRdW3Cs4xr0VEEBK2Qgb3pA5GjSe8S4A_FrbiVGRi31VZQ-bM1ASqfswVzHCppPKDNcicr78NGpr-i3Fba7LD4lcLSipGUo59WQFOwkjxCvypwuTcUtIPdMCnOPWpUprZGhJhg1ClfuHLBzufWLO3b3nSaV2-UX8aPw6RQvmxrVtDciyWdYQbO6HIKE7CF5_T40M_6LjoDqQjsJGbamjoR5Bd6MryyLm4qr_L6D6FCJ6R9227dgbDIA69LlAXr8h_2rfILo_9RmMQUFd2D70nwHgRzPgCx37M9TARKemzloQWd0DSTWCo2HIjzvM_0edhbQLmc1G9vhf6IKZm6p9mIemenCDoaCl65MHWivuivH__0Is6xqDb1ZKFkSE6BPpSDmxasM1c3FuH8_GQd60vTYJGnLzio_BlfwK0-FCmcACmG", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117229851811345110492\">Skip Hodges</a>"] }
+        ],
+        summary: "위치와 위생 상태가 뛰어나며 스텝들이 매우 친절한 숙소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["우수한 청결도와 침구 관리", "바다 인근의 최적의 위치", "친절한 스텝 서비스"],
+        tips: ["커튼이 필요한 경우 요청 시 제공 가능", "침대 밑 사물함 활용 권장"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "239, 239/4 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 650000 베트남" }],
+        location: { landmark: "239, 239/4 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 650000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/thealleyhostelnhatrang", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18077487437347216397", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Alley+Hostel+%28Nh%C3%A0+ngh%E1%BB%89+H%E1%BA%BBm%29+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비타민 시 호스텔 - 냐짱 @다운타운": {
+        photos: [],
+        placeId: "ChIJB6vh7IBncDER1NmNPxTa4Ag",
+        placePhotos: [
+            { photoReference: "AWCwydiq1XtLoroEsASDRXFR8-xljl7BiyxW08bVC9T5HnR0UQ7jHo7G4XrdnmV4oeuZZ9XgQyCLsIMPpTAYHxm4xxfWUlwtyItg1LI2V2mQexCS8ET-SnmHGL23g98b9rmXchJ-X_POM9stSQ1mFXMEQ-as_5wDN0Lxyw4PpBDv4FXpVerstfKwiMJliBSpZQVhzvTMpoQ6M0JOoyEjlHwJ_bJkNAduA0C6gG30B2W_q8Vu5KQe5Fdn1Ipp37dKMYAgtE4RDpTThQhFZbeVg9oZcCfvP5Dr4JsqJ6a6CbLtnn7jhcruiyE3o6tHt3tu_PSrZjd7OCPSg2BV6oJ3vR75s2coF9S3uL3N8IS5kk8rTJ-p180XeGEpXH462M-bjeU7I78ecpXfbzHNObR8Jzq7ldpOgIj8Nab4VslQJNgPXwL1DG3s", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112135324528205529535\">Vitamin Sea Homestay - Nha Trang</a>"] },
+            { photoReference: "AWCwydgf8ZVKOqKm-UG5G4KwU4Q1wGvuS7lCdHJBk6Da1tQ8ZJEsEeJSIdr39ln4ODBLNCw6QsTJD0bX7bukwMdMydlR-P3nOszktcCeRTrBTjBJ7jZh6YNB6hOu0J2kPDCO2LoMYAWl4nHLjkY69yUh4RdfCGpOCKQ97X9bt8pbRIRhNpLru_imbGOFrSsrDsf1iuYzVIt61YQpEa7w86ubSW83-Yh-QPf9FU5aC-2ESlq0Lp_C6nJiBP6bdLZrPsGD8zR6drPMEoLe31RRvqlCYRpA-bQY3bgCIjoPRpI3LgG0D9FUo85pWEGBwXzQbhtkkvuW4PrmRYWQJnytMb3nCvN7xhkzXIKEx8AB8GxFAxGeqCRIU7VmuJ3M0n80Tm01bT85cZLlIR48GjiOcVI982dgzjFqhrJS665tFcHyhpkT4ZEvh2fDOy77xl2ydA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112135324528205529535\">Vitamin Sea Homestay - Nha Trang</a>"] },
+            { photoReference: "AWCwydiy7EF0jly50Di5EBLm3VmdFwqv6IuJlLaU2ESuC8SZFYsmtRWXFvVUJZGAMfMized5DzqYfikcJmH-EMr4cSEEcJbJwVf9cH0UGdUpjlAEfAvamDd2ShyOreogYy_fje22H9eH-wbu_ehrkXar7bFObZ35ZyP8GPSJffLBgyjVN_sj962W2G4U-_M8HxEQ806yEoGT6zrd8A5yb9qj40F3l-wWqDT7in1E4Z8XruJ6JthbLdEBRgWr5CCixTBATJUGznUGEfYoLeBE8z2Ad2rPqjS4EVN7FhmG6Id1hrMb7CnG9GDjIFo7UVOGBf6k2RS-g06bon-bzCnuC8R1oJ8klTbXrwFbkI-zUzUPlvUng2P4icbhHjN6XTBhFJeSzSwctXvFp19hmWSYkhKLlPbL0tjzJ8UJtM0DclfYchDptNn9fTtmvBs8mLmsN2Zi", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111238712215066418533\">Trần Lộc Khoa</a>"] },
+            { photoReference: "AWCwydhEilXaIP1TnD30cI6evy1aRIKpRz1FOpCaTPUFj1aMORM6yeyow_ZbcERz8v2C9SIm-MKlsNidHyBxXmDGpr6gR0sFSnzdkIq21RFrtcYlJF5sKwQtEdE1HtbM62x_XNXV7ZdNZbout-VfKEvZDyxqNDesFRmzb7nha-ghDi3xddxXE4qaGwQfhHvkbW6rujklHfO7ZWKqwizEQyHC_qLCSzCbmEMlw75NzHQPx8ww_2tocyCXbYQbhIy4eR3iohScDhbvLOqFevsHJU8AmO_WTmIa2YLrws-yLDOjBGQm6KoPBg3EpUnzWHZtwhB5vxr_sOLidiedPtWBJM681BC6lXquXOqm7rxIwD7M-WnttwS9UnfjOJLmrN4PP4KZp4GA99jQfJkZtxS5yE_ZzRqQcVc3PuC6h45j5wvyDMGWpIUIrpa3kdUvRA7zQaIg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112135324528205529535\">Vitamin Sea Homestay - Nha Trang</a>"] },
+            { photoReference: "AWCwydjIwSKC_0KIZYEwtndN-G0cq08w_zK56deOGKAKESzqsQggcuGP02WLTAY0MMYQ5qIOgol2nGBpxEmPWns8_Z1TEADRIADa8QGTX4Z_h70cTjcM6Jsg3C5sn__cdTx_s8pZ9ymSCcPPNThB0DEEAJCBdCoEOloe1b1qiyHFtiQY73cXWwxwmQx5TqdTC051NNoS1uw6DtRwI0lP8vRvVfY0-4QEIzUqrUhdExsXGsxMu7b3BSgBSiUEH1IFN-R3Ls3nP2C-7OZbdW484golq2vJJ96a-aZmtBHHda4xNJ6IKDXpd8i7BKTV0RMpW2YvMJkvPJSn4oEGY3u7oyJPEeTVVQcqZCSfyJWjnF3SGqZwAgZImVQr0lNkhPc1FGjcQaAHEFwJH3xZPjZi5HFZhQXpUdxHGa085Wz1lwFUhpw", width: 723, height: 1001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112135324528205529535\">Vitamin Sea Homestay - Nha Trang</a>"] }
+        ],
+        summary: "청결한 시설과 긍정적인 이용 후기를 보유한 호스텔입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["깨끗하고 현대적인 시설", "높은 사용자 평점"],
+        tips: ["엘리베이터가 없으므로 층수가 높은 객실 예약 시 주의가 필요합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "39c Đ. Yết Kiêu, Nha Trang, Khánh Hòa 650000 베트남" }],
+        location: { landmark: "39c Đ. Yết Kiêu, Nha Trang, Khánh Hòa 650000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=639750927587072468", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84%ED%83%80%EB%AF%BC+%EC%8B%9C+%ED%98%B8%EC%8A%A4%ED%85%94+-+%EB%83%90%EC%A7%B1+%40%EB%8B%A4%EC%9A%B4%ED%83%80%EC%9A%B4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Jungle Dorm Nha Trang": {
+        photos: [],
+        placeId: "ChIJucI_pDtncDERQxE4iPW46Dk",
+        placePhotos: [
+            { photoReference: "AWCwydhU0b0qXYo90sC61oyMS2LNmNscsEi7M6q4c7YNXqbJqV727PWa520v7nXEXQfIONyx8Ru-hcextiCb56Qek4wEIObV8l7sicb3Pu_AiWrJvqYoanNaQk1tGpRejXhOG2LYjWLBq7jnDqYT_l9IKj_DawpSu1BAoQurjMNk1LkiKKMTdhVIGDybQ5r5otYgJf1Zl6SzV9FHK0rhhPLP1fcAPE6V8ngriisUkzdNo-0sffjycmV-qUm39YDgWLvqIQIowshrskTp22Cg_q35otF4Fmja5lSKcfgEcAzEr7M1x9Vq4ADB2Cv8F0HzGVBL2YgFLaN6UzbJEI6sy_TXr9enW__ILacnIxM2XvnwlyAfDcxIia-doO5qY7VZOJLi3f8CSUWC2MFV1rRfyMj8JvEAx5ZFOBz1RaQw6mco3UYLid52MpITTlxFEPcopla3", width: 1440, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100686015587801396208\">Công Trình Nguyễn</a>"] },
+            { photoReference: "AWCwydg3EqOhrvcCo23SdgLspzmCxZbckWs75YjcRD6AyLCxPslrWZB2e5fqa89Kqu1D3XXttArzrWtyzYMrqpLVH_K5qHChWAHFGF15L36ZtlWic6BprZC-MwYDyJaGQULLkCSSMZeaW2XtQPI0_Co1zwam7ylTGo_o_1GUZtQvIW6JslMrkGwmRUuj7aXm-htem0bZTw2LqOD-i-VXeOsoQL28dB67ZZrDtqwQ5Gk13hJi8GCazUWKX0pnLZ81u_hqEUlmdJNdNJdl8jE8n52py_kCsCF-jkEW32E9kDDmO3tSopAYXCsFGoQl88ZEU9-n2kc1aE5_-1tRBXgXEOb4Yu362xP7wV1ImWYCBeNZyXyNrR8AlWimoGBeteKFdX_qc6_bkNoXPA1Cal8vAh4dxYXqF-T8wSf98e7pNFHVUCIxVEuT", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112666363473199915803\">Hữu Tịnh Lê</a>"] },
+            { photoReference: "AWCwydh-PdRiymEhKs9cqzr7TTEYNMVFUuPQCyhooPkm5QiC_p5c557_sdemDb94ixfq_O26MaBTVFMoBkOcFOGpaIaHlWdwzIpjrHkaUacopUe1qV4Ue-QFIZRLwhd6usvFsMEmpVEz57P2dA3-LRAAIHMDmgzIww0-E0elrhKoNSiC93JTKiF3vYtNUNpkCFbCJaAu6HNAeBEK1iUsMpomoElFM2X98w7kL9V8jcd5_KsphrggvIYlAQX6vnGP-AJbbOm6BqyNfxGxO0aPkmewiglrw-u3wF_FeMKnFtSrHRslL2ZEkO_pK-8g3CAl9PAPaElG7eiTF_BnxYNwMASb4cV2nAqv_ZYS6qcwpzAiCTgS0UmS9cC6FwD7APtrajg81j_kbvpRIppJhhFD7FhnbX8-yUFPIf3U7gZ9zV4OL4sYUm8A", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112666363473199915803\">Hữu Tịnh Lê</a>"] },
+            { photoReference: "AWCwydjGbg7tUsguuw-2qXZW6i7VEZtzl1FdpLcTEvq7hF8oHlyRRC_4PO9lzU3IpSd38MODoYzq6x_xS4ZowlVOl4bG_zmHKigV5YmeesVSyza3SsiCUMqRbD_01RoRos0Ep093Iql-jBv9MvaJNhZpBrJPO3AhJTLNXwQXqYpq71sOyOVBLcov-3eqm6JQw3BG2ljXl7080F7luUcjdgkbLwXE_FS4YlMYDWl6rWNCM4B59rF4SlZH4sny5DEfH0KdpAV8giRpe-CRPO48kro2lX5Mm4zurcz7CWiw8wpPtte2SXOHTppXLPrCvau37QpdDvj_hVVZnA-TVtzaUb1bKOOIZAwE3qAGfMUOXU6dtoyCMCLWkOitHe9Ps8SqIMpZK_fKdsAg5DMASJgjU-4XGNi_fPirjZ4pkjhXTg0EyHMI5g", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112666363473199915803\">Hữu Tịnh Lê</a>"] },
+            { photoReference: "AWCwydhrabe2Qh7FD9fZRPe1ZaeoSjz85gApCV4wfbNr7PDUSHNhLswlxCzn8sr8Nfb98VepUaFRy4ZNsD7eRTVPm5IU1F_lT58jC45cGSy_noqVScZq61wW0ci5yMkWOQwbViax0kZqCLZhNGx5WfNwe7sc9vUmp6wx_PwetHDWu__5ijx5yUSTiyHvEdeLDYT4cpmnWI2_mu4X2a7Y8Dtfl34za18ABmWjpaAQusu1w2b2IVw0zXKj5mBirYejIMfD6vqzGLs7uOTZsywx60bSYB-UwzgNwvaVfF2255H_ZPrXml-7LVgeQRDl83f8TE74JfoxAVSBCu51aL7z7oQOjB7k7xFaRrrmYaY6cBPirGBeemzHZkE2Nl7wgoxGT9vd4S7xpdJOaevQqTQgG1e3m7rR1uRXk8tseWdn0ul2zZbzI25B", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112666363473199915803\">Hữu Tịnh Lê</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["따뜻한 환영", "가격 대비 편안한 객실"],
+        tips: ["예약 문의를 통해 상세 정보를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8/19, Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 57100 베트남" }],
+        location: { landmark: "8/19, Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 57100 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4172788419450638659", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Jungle+Dorm+Nha+Trang+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Bondi Backpackers Nhatrang": {
+        photos: [],
+        placeId: "ChIJ-XDjnXxncDERtQbLeSlSSpg",
+        placePhotos: [
+            { photoReference: "AWCwydiDlcN0r0r48lfEIY40aOFl0VzwTaLxJt6p6EXyvycPW-l21iLy-7Z3u8LJqSzKvlERAIpvYo1gLNAUwQPHfsjMe3NutYeGdSH8Bk-kuE2kyqE4_jLaWqdKrQBihu7iU-NRRa8qLrNGVWE_9BQENRnSgnWhRkLlnXSTk_UBS2x204Q7dliGuyxnu0IHnfE0kLbHW4RVn8R-XhJxEjy4709C-jg1xLomZO4_99Iw3IPigWe4dVR9tihxRUIFQuLTwTOx_jftnMFy6-KSyQoYZ5DsI5dIK-qoREqFrVjLJ0Jc6pcSJioLXAKSqnvnJWGAC2JSmYVek5q1G5_exE6rf_gzc-gB3sGtUMjT8wSjP9aWt17M9gzDVPYBQAf3dx1NZUX4q7xdVXBYW0YCsrMhX3YSEuKv2AXGjgxs7RNqCiI", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114507703847101021290\">Bondi Backpackers Nhatrang</a>"] },
+            { photoReference: "AWCwydhl1vxNCpHK2BA3dESinAEb9AN8TUcvsAU6U9wE80ZJ_sujHsMMnlG_9G2pQwNtXZt01skqtDry_WEQO7zeCtKSTzeIhz7s13Jz5yiJQVogAiGyXB8J1qLTFdd-6V5YG3jtiuccpPpoGUf72X1lLiU3QlhvC537cPKBcdP7fdIOq8FZP_4EWRGY8MDmvtrnQi5wUpTKw6F5v8KUdvhzup533HEoGAgHaxxQUseTZS2TdkqFpdCeo54-SghPJY8UHiflcAblclAQXB_mhb79xhaBQtO8vOiJeh4XnbXwd0otikVNkO2WbEPTbm9ZAwtnH2IvXjM63sZAGKjrBoZicQKpgl7lWF89QiLEHZZxG3daOf5B_GSkRHY9qnddeM6leYZFpWgw79s2OXWxmL9E60XmhlZTHlNcXnw0H5R2A6E", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114507703847101021290\">Bondi Backpackers Nhatrang</a>"] },
+            { photoReference: "AWCwydgw2C5PomV0FdQaZWe-JYiXH0TLlKkVBGKa_PoklMmj-CYwuwd0lhCaq7PltX_7KendJjkSprYhSlEoZOScot8NCwI4ngOZDGeTqjkC3tO11DEXD7ZtiQGuzMrQ5uDgJkREhaBA85go7YiRxlkABFiGKvTOJPlCGqmvmDbxYuq-z67fu6pUZj_4VnQnSQCOw_8q34nBFNpvHItbr_YTanrfBnpC6bRAt7dKvtUwtaweFgovoBJdW0_bJxUFaR4CT8RtTbBfpJpW1oC9qHK6t5RvvWRqx6G3eB0dIT0RX7DKV0K-CLzEUEVQedU4Wk0IjBq0L5m7XWJK3uXseDi2FFuGj8EnjZoMXVyKyAXwqtCyci2QWz1jKbFzNSb8QkjuqQcQn0CfChgoYshIdg-N8JGdfravDHQWwU1xuGkBuLnq_-9V", width: 1024, height: 574, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104139990227609134837\">Support DZFullStack</a>"] },
+            { photoReference: "AWCwydhZtZRbzU7venNmzRT24Dzj0tJnFaoChXy0I4sYU_2H1zoFp2MjhCmtJ48xzyKL6O9l1amOQOvEbeROFot--Vxv66nF7wru3JygW1KdLGulRXcTQ6xYW-uBEjwu3yMqAZU_OMBjEY51RnWQs3N43zZlEmk10kLl-suzWAXWRIa0Qh8cILrvgksiWyfpR3ztz3nY40jh06tKNO6zTONfPLcRi2uWNruAqLvvBQ7p5SjYYrSnVlGdXU8VgiT1kAONoZX9A5Sb5gLEnBRBIS5dKLRc_RhChwsCaNjT5yWxnw0uWVpM7V4QXnYkbAoKz83TDMI2PQ9nvci8tmYkQJHWDLM8AZNFjE_L_uhfQNGAcocYNUUDeOgNzviveuqGYdSLPkLfxcBSqDE7UhwfvVhFw5yUgzhLpTeV0vOejsiU50c", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114507703847101021290\">Bondi Backpackers Nhatrang</a>"] },
+            { photoReference: "AWCwydji75tCvUaf208cR3IgKQykvgQ-_yDGvSRjDCYcfZxyubeyF3rIVDponDJ1rd7HY-V5x_gt8X1P5RftMd77UPcpSkMvUNsA0GLL4xXsOqE4Ova8zml_jZWTxT9u-SewBDkrmBT7GJnJ7v0oypf7cGI3hQlVicPm2WDAPjYNb5Gw42K1bJaZspnwZbOAUK8_rknBEmJMnXQNBuDdcryLGu2ZhLOc_AmpW6wDiRkA-eamMsBwSayzhXAu4pP95gQlIKel29ylYzE17qm07eZjYkJdAivejogXrfLc2txE6sFWVpmVfayp3xiktXYL8lm3HGDu-TzskC2wxpqhDB2Rx0j27T6t7q7TPyGAEF7zW_-9mDaKHHKTnmkc-LE0ac3Yl20HcTAl0xKEoAGyjpZHEypcfY2LCdZZjSyo3JYeGRczI-g", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114507703847101021290\">Bondi Backpackers Nhatrang</a>"] }
+        ],
+        summary: "훌륭한 위치와 친절한 직원들 덕분에 추천할 만한 사교적인 호스텔입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["루프탑 바에서의 사교 활동", "훌륭한 위치와 친절한 직원"],
+        tips: ["루프탑 바에서 전 세계 여행객들과 교류해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "35/91 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 650000 베트남" }],
+        location: { landmark: "35/91 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 650000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10973673780132120245", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Bondi+Backpackers+Nhatrang+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스타 라이트": {
+        photos: [],
+        placeId: "ChIJvxIc56hncDERyk3bNNqps8o",
+        placePhotos: [
+            { photoReference: "AWCwydi9JBu8ZJ2xcdP-totT5rUzUenGB1jKBHzyC3wpbGry2Mqc-k7fSfyKlpXw3KVFHTrM2Cu8GqXVn49MmoulZpkJZ6CDUnJTKR_g970Gi09oAIJBMTdmTsHEFbtTfClsNMeO9bhfQm9j4k2Bn5FcR1yl783zoouJj9R3JuJh7m2fQjjZie0QwHJY_YeYe6v0PP9qN0nOpWTRCvu9RKPEBeeaCMSAYtNPxDjWDDzCYi17B9PQSGajgybO9uf2ZBE9Wrs5wGUcr0Y0ZncJFbfh11TZvINtkEYP-slzYuy-Pbd5z2xCbSZjiDzNAHzMskmG1AjAOKfMzCMB7nlX1SGiIvJn2FbN4boNusVwp-pFVpJxaXwXpszBCa4Dt1-2gcQmCCVSX7aSChscbatth77qM9BfHGkujVThXdgnbNAk_b4", width: 4167, height: 4798, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108887658138536848354\">StarLight Hotel</a>"] },
+            { photoReference: "AWCwydiE9Oe2rrccOD70EDFm1EpdisvtCc4lv7xwRQC4_wdGAfzlr0MLJzvExH9yj2ff68YwYB6RdF7oh7U41qOgKOz8Reat6xIbG4G8vwavxpZ9Qv7y9XBzomJObg1qcSmCW5T2VjGfsjqOsxmDeH6IM-YH7Ajw9tuZuzUQ5OTc53-b_Gm5M8xeP68yFqKm6c3F08nUcqO8cUBK3vwRFvEkfkHrljAdsWGw6-8eD1oR92xyGWYgtk9PqllXM2HhH2965w95UISU2h1QMTq5z6j-vVjx89NuGDTq3HDnYKV6sZzGcxlXX8XifdeOH9cf90o7V6QowKWs-txopgVDlWVjXrlUtXUEcjuSe4Xcv5jmSN2cUI-6cUJBCJtFQtSnjqwjCKBa3IhvVElbEhGs3wYcTAG0NLeJsotswK_XZZbXeU-RVIyZ", width: 4800, height: 3198, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108887658138536848354\">StarLight Hotel</a>"] },
+            { photoReference: "AWCwydgZpPV2bYdG5u37s6uzmB27Ftqg9yNOrNq-RTLG6_3MaW-GVh1p3DwL9LPvOei_9UCH8OW0SaqzXvALFiOlKHAUEOIZydYfBtuuLOopEW4tnFkoa4e0XQMaWlUyufM5InruFolY_Rx4dJk6Src_iOlEY3Vi6BErVxALQOg_juYx7pYklynWtnvMLWWCIa2RPccGzhZsSb1ESithVj-Qp17npVP-OpIiu4BIax9zhEZhrTurdozyngBffezPrJaxGrWEYpUjUlboGOgwuGTdKPrLTjfVTfUiRmjIPjSiNIPb9qAY80QxTPAV9xgvQXCVHbmc6vYHnMxPgW2yVIyG4CpY_L4NwTvpINOaq0LYg4saJXUjcEwNprI1zkA1FDeza8_wKs8DWaHghDSTKEC_Uy-gndF8x0U8_LvqnOEPxQftog", width: 4800, height: 3367, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108887658138536848354\">StarLight Hotel</a>"] },
+            { photoReference: "AWCwydjt35Q39gAKwF-CUmUpNVj0uwoaF7PBo72fo1Z38Z_i4-_3GWCeceTxLWnL2ac4JOZmpS62CODbQ7A0Yvmg7uXTYysyRYAjyQmW7MF_x6_DUD57fTfmujlBpOR56v2RuFupoeNpXhMldVcrTY5MMVxMTKbM6u5qJPBlzFMSQxWxr4rX0W1QxCkbIBZqOXoTq-oYbQV-qQ16fdE01dkfIp7YVfuRORJTFACQ2DE-zE7Lk9R9xxL2U37FyC1iaGX6tlnB4a9BW9jiXNrUr11jZt3GgK1LdiCRiaEIsmbUN1VfDAzx5WbdeskL5Gm9HprGWE-4C8Bajr8ZGh_5EVBPGq0_LH8GmNQynxmFj2cmaogsvX8QAYOZO0lSfo7hrC1UR2D3rx1im0y-4i3W0WdTth9Nx7ibUPhxpSKVvcJcjn2lS5e9", width: 4800, height: 3152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108887658138536848354\">StarLight Hotel</a>"] },
+            { photoReference: "AWCwydgGTvG3mOnAkb4iBr68YCPjdiVveZN_c5-7YzUgisHWunecCtxmyey5ro7rOaBP_kGK8DHYKf0bWxN_NX4qQPfTMJWvMzRos1tWVoOAIbGjn9Wc5mu7xwDSC_NQFkzVyBekOetGwF4dGL8aMRG8hft4tb15JA6UnGPsSmHelN7X7TSBSvOTDjT_JUlmqhSd3hVbkL2BHYqfdz-ORhKnvcr50phUu_-ZxZLsDxdbFrCcC_9MNNOaXaQBnj9vih7GwYH5yBeyzAQ89seZBXMxNwACEx4nqeaBICFc45etlQM9thREui5kOxsKRgWEEHKbjV4Nq4itPBnhrkRMqQF-rbTNiA-klVg7m0Vruvm3GNs--8CmfTXr6lbos8dexCZ3iOxvHAyEplaL2_d14nvgCRysyrVfuI-7ToTfv_1r5z6PxrE", width: 4800, height: 3475, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108887658138536848354\">StarLight Hotel</a>"] }
+        ],
+        summary: "친절하고 열정적인 서비스를 제공하는 중심가 위치의 호스텔입니다.",
+        updatedAt: "2026-08-12",
+        highlights: ["중심가 위치", "해변 도보 10분", "친절한 직원"],
+        tips: ["주변이 매우 번화하여 이동이 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "34 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 57000 베트남" }],
+        location: { landmark: "34 Nguyễn Thiện Thuật, Nha Trang, Khánh Hòa 57000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://starlighthotel.com.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14606204771147402698", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%83%80+%EB%9D%BC%EC%9D%B4%ED%8A%B8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 
