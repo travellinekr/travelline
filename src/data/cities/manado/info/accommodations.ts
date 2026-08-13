@@ -360,6 +360,249 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%EC%8B%9D+%EB%A6%AC%EC%95%84+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%A7%88%EB%82%98%EB%8F%84+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "이스타나쿠 호텔": {
+        photos: [],
+        placeId: "ChIJ0cNsb0J1hzIR8cDUYWXqoa4",
+        placePhotos: [
+            { photoReference: "AWCwydiPSqmyd-jG902vtCIp_Yt81XCBRX9DoMlCC-ZfVu-OSxZhaGdP7NFYw1fIO8spqML42_MMtkgSJt0svkotA1CrAmZp_KBAWLG-ayR_cBdMwgJSjjHF-6VRZBuA3zLfxZv5aZeH-sPwf7W8OJcRfwYFbwxzuOhkzcwI5fJ2u_FJ9KOshBa0oE52q5QCqjgLNO9N5f3NYTEFtLG3RdChuDqENlPUmgaOQ8xAH36xBFn7qfYdRrQyWEwyNPcFE4aBWXMMVAB2F05Uc4pbLUjW3cZHHRvsG-ywGXwfzcN8-buOi2BqLnk0pEAyeGlrYQFXdns8qNlFwzl6QzJVC-eRmr6XvZB7j5wVw9NMfSCyhD2Jwo4i-vcpRiC-SqeuDIv_O9MJ4yyJL_rQkOYqgIP6u6oC4_sFlISK-B29Wuz5yNEt1g", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109644532005653556782\">Istanaku Hotel</a>"] },
+            { photoReference: "AWCwydj-tTWh35BfqfeqmLEqAGO100DKbPiRCiQu95vGwPtZUCey_w9uyekNJLQHH0SMTJbakwjP6SJyFzUtyGFDbULGYLsSD-Tjj_UpbnV9VzlYl2e6pg_ksQXaQvG1nAWL9sqgyRufgBUHrIk_3rr_8PZiuOeZ5QibL5fy9ALrVAFXe0Ah6KCBNYnX3r2drJrALJSv-tN8zaTg75GTHAsmHT5rkuRYMEAWi5SkXAjoVuwSUH5y_H320hC7A1Mcmu4iSS_NL26ChPodsvJZcX2tRrmEpGWqXsRVE4TmvBDQGQFa2Dr0ry0CgzuGzIZaQoP28m2yXZED46fc6mCKyVzr2KRHTP-sYikMw6D4CJMH4rRDSzclDoJ9NKZe9cKKdQf4dFirvmEONDBx2TfYK5jlfUzgqPK1mbJfeH5RVulRldl1TrM", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109644532005653556782\">Istanaku Hotel</a>"] },
+            { photoReference: "AWCwydj4Emdt1ymWYI1sbMrNOAATTbLjH5RVzXcA31ZdRfMtGo-OQJj16YmWrM0NSQbAaPg51SzASI5IfN9krzz6Xf5y5B3FjSqC5seckI923tD7u5qkCJCFa8BEy2vhNIcZg-cwTnCsR18SAtK11eouR0dTHRHoL0_fx9PD7HqdN-nf0thTDJw9xWSKLcFzfhYpaYMYJFYECK1IfGHbotkTGynX-wo6AyX6TOD7mNvEqAkBzSdzc181aYOwNTTHGTrmTHfDh6pOZmUuvSGJovGk3WUzt2zCOva3A1R423ChReCECFQ1EkBeGWdgf0bq5fumfKSRbZBvhGRJwo2TuqkoE71N-UCwtiBjj0KHqmfUpfTZHpLFWilo7cVmsw3kicPUS4nSnCajnsqOKXS4k_hb97Wrfkbd6vUSvDBc23cNIxRjhg", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109644532005653556782\">Istanaku Hotel</a>"] },
+            { photoReference: "AWCwydhWlxQ6VfHE4prpgvb6Kv_8GklzrB7kl0jB7Y6_4WVQ-8CTUqnra2vsrZYMOHJDYFhMNXysG2L2SuynkUfbKZ4lZcqxqQr0TQmkDwKYhHNRY-MLCQVp4qusxLHt17SiPVkSzpIomZj9u0T1ZylMKZWRzRN6wJpi-XpWKyeQFSU6LzqeWRYxo-xCZsoQ1xxJl99eKgAeWwAHHa7vyez1KJ7W8FdLjcs4OFvhn9fVD4AZ2ItS7RPWXHOCXW5nTEHaka0r0TSJYPatzI3xXx4hmG6hSLQZ846__xFc4lsaMorJl64TzhFjIwLGCydb81_4wLykEKFR1yEwHwrWQ3-kD8kovogbCB4ahzgWvQ9TgRVkGgO_NC-3B_5yqIqRTE9LGmWg8BKyk8K1iAYGT66likZhNKuaZqPsPp7-u6SdwTLwF26E", width: 2500, height: 1667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109644532005653556782\">Istanaku Hotel</a>"] },
+            { photoReference: "AWCwydg8mBBn_4u0CAKB71QHlf1saAn4lESbczvW2agfOyZ1QjjHwwSzZ5InEct9EVzlDkfBxHGwULUGeBGFcuRybhnecz5NiUmVejkz8CehDpqLes4f4z0o5uCeq8WCSRVGArNa-NIo3nmNk3QRJ2srdrwSGrPV3mwlcwjyg6vxiJSv2UOOoj8cFIzIYmrv0WlTRl4HoLIt_E6UvsUN5HhwrfTXUSijuAofxE5AUL4gy39Ob0O7HhkkgvfhVlhEKxpVU27GNJlbI_RSaHZZ3b_X9kgeZlzZqyCBHV_AUw1Yw0xmBGLYFdNq_6VB-CpjgObkjkTExCPmU2PgdYI7LtNuA6kIDPbUTKJkbnGpjy3wcha5mFCWuALj0hGd8eMUfmKSvl8vKSkGGiFH7c4sfevc2gfMh27nBHyqOAth3nrz0RQoKZw", width: 2500, height: 1667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109644532005653556782\">Istanaku Hotel</a>"] }
+        ],
+        summary: "높은 평점과 친절한 서비스로 호평받는 위치 좋은 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 배려심 넘치는 스태프", "우수한 서비스와 위치"],
+        tips: ["상황에 따른 체크아웃 시간 조율 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No.6, Jl. W.R. Supratman, Lawangirung, Kec. Wenang, Sulawesi Utara, 95123 인도네시아" }],
+        location: { landmark: "No.6, Jl. W.R. Supratman, Lawangirung, Kec. Wenang, Sulawesi Utara, 95123 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://book-directonline.com/properties/istanakumanadodirect", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12583596555003805937", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Istanaku+Hotel+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호텔 O 95063 아피파 샤리아 게스트하우스 마나도": {
+        photos: [],
+        placeId: "ChIJ3yZFIPZ1hzIRBcWVkFBTK-k",
+        placePhotos: [
+            { photoReference: "AWCwydjuiw9ThhK3zIBOc-_83C-7ydmQtSvOJGMj7jF-e1jJOqCl_m2ykDPDlEc2ZUfWrKFf4TAHBDpzTFQYXJYb9jG8cw0ZLK_GRH-LDiVMv0oCQboHBVZ98ANR9F4-RSvt1oSp5DAC-Qboqt-P1LZ1wPgB96CM5URe0KTUCeJpaQ4GxTuvdXh6cE9MuXTyxGhRHtlLBTjQGVsfRQ3oSSUcH1YP6UH5ZedWsvIT7qeNlGwaKrEkH5WkfLQSp8GNoSCJfPgXxKu3ONKrqSv8PRe0Uj--_9pbtnj9oNXjw9mH6jNT77jOiCXtMImeRDAxUT3pynG_gW7azzMHcwG7u8y1lh6AgeekZV8UMy8aFPCgkiUwkhbAsktlaLiEJJYaEi1qPGF2hHRYo_RLvD5lIeMH3PBWSAfkb04nqM7lp62Z8T_M-PbXUXG0y0R0qiNhdL3C", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112794317560972109114\">Hotel O 95063 Afifah Syariah Guest House Manado</a>"] },
+            { photoReference: "AWCwydjGxmmlEqqWbnAABM958RlkzP_khOG0AYoCqLoB2PgMJ-2eBkqiFTl-tNc-lcy7Fm1bKiBSkorQEIeqD-hIkJIeMvwI-oSqp1DolQxkCpi9HS_oQm6UVXf7UJ03n6tGMpTUVzsHwh1Nvag7cMYBzR9Bk2gVrCVQaQFBP1-bw367YgWozsUmKhCyYFypSc0FRZDMqUFb-GhDDO04PW3KXlG4KQvCWHcswIDusgcwFCBmrTCpX4p7CyOaH1tx_AR026yUcws9YSxHwgZSZuPMVCzYPbexIbnaAcG4HgeOExJQ5kszHF98iE3sUMnk_cz0leGo-7EMgc4F58pgUSmofFZ0yTx8aybgfaa0VfNLsfLH5Cq14rw__F7DvPhcux8Ls-zPwqdR2kSk670bkHQ3CO98ORh5yGSQOW6_Np5JMYIRYFAYHU739irf7qB6JRCl", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112794317560972109114\">Hotel O 95063 Afifah Syariah Guest House Manado</a>"] },
+            { photoReference: "AWCwydh9aims2uXj1oLQblY9l6fWBXvYeOMOFAgcm7hVDrPmEVil1Dmyuc411_4xExQSlvdDmqsIEUZBtgPoqdXmR7aPlreSqXF0JEwyK7TModctl1I6hS3sasD6no7bppIZuE-1vPrLfwr9h2-bloxek58BoNk67efEkW4BOt1l1tbsrZpo1ovcE4Ud_wI4jHxQb-05kI-6jcAYwXcaCX4AYT8eszkjGSf25P06doPMRxyWWQBbjB-ZiLcYPDXLzEO2uJC8oibWOWUnrzdyV9pMgXG2wFJooZ0KbFCyhUEE6MbJqhg9SW7X8EzHWGCeddUiqPP4MT790xcBEsXJg18_ZFw3iz61VKO9b0t903VGRPfaiuEuJ-0PAlx6YvG2b9wyy_cnyq-7QK1z63DY8bLv9o4Z-Fok7LjrimPyAGRrMvAH8bNG9rouNT7TTAlczuS8", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112794317560972109114\">Hotel O 95063 Afifah Syariah Guest House Manado</a>"] },
+            { photoReference: "AWCwydjWYgiW5mbHP5BoVQmNKIXsyhAfkLVaJAZPPa45Snvnpilal2hBtMVfBMt9frOM31ZmgAhfpTek-v3No8z5ciMZBEVltt692C158LtJbDGDPR-12vhu7tXFlNjqyJCMYU_QuPChUyqXi8KB45gUrCD_LBh5JH3lSBmz4kG6-Sbx8KReE9J9j6ScNephMiRsHKy1dVy_ojJtdqabjlgG5i12-9m9Cpv_N3a1IE1XnNCVwAeUWlV0hsM9vmX6jhqHs4xKONEmlPozFXyagfSZL2yW3jfnJaLUzDLhJ9e_znN6mtNPnIpXk04XUysTEp9d2oPmkkD-mjlrv99jQvDPMXVGuIFvnnUDr8NPh7okhEkIZwbMQY73a0cEM1bausiIdt-rNZq2uYEqCdTksXqFCnWs90leJZpnHmW2l_epE3uehuaXUuXCsHUF5jLT2q48", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112794317560972109114\">Hotel O 95063 Afifah Syariah Guest House Manado</a>"] },
+            { photoReference: "AWCwydg2eE6jW88VUq72LRwkbhj5j0A0ufLE97cpYtgMzBIo8bquf6NmGHA9FkkSeXk22lQkjfcfP3cAZ0EGBcfDPAt9nP9mDIui6C4XRLIY0YayRKMfpr_mAzlNGOe3CsWAnIAWg1BKSpcoD33SCRuiHuuAVtaR9MiHix8RvajZfRP0uBDsL8r07SoeBO57UcnBVgJYC4xXloQtZtTa904zKX2xps_61NArw6Hv6YXk43IHOPelkTjZ0MB_QGwOps76Dcl98gUuJIZGVFVyTciT94bMFE3Y3JMU_sl7ZD39tk6SOEDYGs458CdBRtqSXzQEeMhIRxo6QNsRGJgDz_sJyHMRysYd5FVcrV3OrZC6ctPN9Xxgszq3c7bskTgntBVmMuS9Fgyxb8C9_t_FysDtYC5y5rsd_lgomDBlfECCosDOV42E3rpg0cL7Ah-11r_f", width: 3120, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112794317560972109114\">Hotel O 95063 Afifah Syariah Guest House Manado</a>"] }
+        ],
+        summary: "4.9점의 매우 높은 평점을 보유한 신뢰할 수 있는 게스트하우스입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.9점의 높은 평점", "신속한 응대"],
+        tips: ["온라인 객실 예약 서비스를 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Bengawan Solo No.12A, Singkil Dua, Kec. Singkil, Kota Manado, Sulawesi Utara 95234 인도네시아" }],
+        location: { landmark: "Jl. Bengawan Solo No.12A, Singkil Dua, Kec. Singkil, Kota Manado, Sulawesi Utara 95234 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.oyorooms.com/id/353047/?utm_source=webShare&utm_medium=dp", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16801614440323990789", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hotel+O+95063+Afifah+Syariah+Guest+House+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마이 플레이스 코스트 & 게스트하우스 마나도": {
+        photos: [],
+        placeId: "ChIJo6ZC7Ip0hzIR-3Zt9re03Lk",
+        placePhotos: [
+            { photoReference: "AWCwydh-s3mXO7Y_cI4KZXNSuRdhL0Nw_gNL0TJmUD3ml_HREBUW9gDsjkVvjgl6G4mDFNK7p_ua_zhkwAGhp5hofRTG6q_UQAcgZDOJoI-qtCGFPlrBZ9OpxU9824v49mHaAqRH-68t9FfaC3uozgqDQ2qXahdRhyOYeIoM-FetPqVEWpp7p8OHtMXxK0tLKy-13Ulwm8qVZ47sfJvHyw5sNmdSc0Vguzf0gO1PgCRsISYRBcDLORSnBov5nc6XWsT6AaDqKCrISsC6_eHkKomP3Z9po41YgQHtclvqAaWXMbQG_eVuuASaFWqExSsyUODkROlzlW7AQ4pGOK5cXiTPPwHYnehWwvWTdIHCQm7ZfTxyyc2YbCIeMr2Is8i531jq6wjL5k8OoP4F-gDfqarv0eTT2a15sYaIa-NukJxkz4aRM08j", width: 1280, height: 1033, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103929705452321068934\">MY PLACE MALALAYANG MANADO</a>"] },
+            { photoReference: "AWCwydjaZyHrRPQWHoX5x9aoWTunOLon7UqKQlxKsUWXHqnS_X7IOnvWiF0IEfxXszonDTRGS0SGOqr0J_U3DcUoc3YXp_opFdcv6KiscxHkB-DLuA1qHnyiMe-CMfcOYHdIdhXi8Hz407Yeql5tm6fyMpLW87VPPFx5s7aoEKC2vz-dmA3535k6qE3ZB5-tDGTBXqVFw3mT9f1SJ57LrR-5-EMXdySgPL9gfqhFneCvGgo7hKWGdYebu7RUK4KQ83ViiPAtcL24xaxGFBoxU8iDg2lspS9N8gk7j402Lmby_LC5vSCC5MQKu8atqKQgQC-iGhu7VJDnJ0Tdr52wZPUW_ZxIgbcYVMDpL6rvlZuDAfPu1-d574lOxElsRo8NYgeRhf013i_kJDLNeMXcEdmU6opUL8mBvQj3oD08kDgNCzlRB_h-Ix-KpSni5ODljz50", width: 3375, height: 2531, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103929705452321068934\">MY PLACE MALALAYANG MANADO</a>"] },
+            { photoReference: "AWCwydiEeD_tyXNnOn1-RHyjjo41rmILOZXjZAnoUpS6Lb24_KtUISv5QXPeKVos0LXfCCkXpa2_-WQppLAvlqGbrvyMfuGOt3WoUzq2JFkx1p9vK7_Cme8VyRj0Kssn1vDaII1uwmmtxQrZaU1-QgeunKrkEgdMgILvfyPF0acRKuuVXY3wLdvKNHMHpRWN3pGU4L-nM8Tr7thxfYnoSepDnMZI8v0-TI24U7DUcHu6u6gUWjmzNtKcHm61d8IXg6twxhF4ZwdES6HC8FbilVar13-cuApwC2OTxmKtZUXO4domTTwsVx04z70IdMzvnTUGtTaHXqEg0ajycJBpblhsOgYCOrviaT8uCGdfZtlO5MqcTvGq_7RHqtaoGQxqaU0kER0xt5pIFuwFHw_AeehGJ2VDhOXEfrTHzjTPo7K8h9Ns7JdQvKRq5tmk4mwaZls4", width: 985, height: 745, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103929705452321068934\">MY PLACE MALALAYANG MANADO</a>"] },
+            { photoReference: "AWCwydgyrs3q5Ll-MN5Pp4wBjZIDu6PlgvCrBCX2OZo2C4z6PUz7yjNZl_E_1L4-HZpjUKAt2gnSxQ50MfE3qXrKygbWE9x0kWOeGF-DgXu6samH7Ebq6rsZ3_qihp3kLMgRxt7Nh9eQKpP_Hgr7gh6KVceHaL_9Qf-p1fJiiMzwDH1e-C4CupVj3XjzdLu4L278uGcaEzI3ofQ6g7CfXJWPn9J5a3ZJgv4ONbx1VxG48v32AHCx-WJNkv9yB0aQ_qc7yRI2PjPqE_XoXt7ollo59_wq16Rg0hYJ9iKjFD8fLg9UeT5r-32tWUwfOD_T6MZXjpSyMn0bRkxiFcdikI-Z24PymkXo79Wlab-H6N4yFnc0CSn-s9Zctdpbsz-eigeK1uFQILPYkBvUH5XAKxbG0Vlga3qandVNaeVGdJ44O8iyHYgOCiwGufSAXh8MKtma", width: 985, height: 1313, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103929705452321068934\">MY PLACE MALALAYANG MANADO</a>"] },
+            { photoReference: "AWCwydh4Wec26Om8kOYHDABfMQgyFJC02cUd0RBwPxw_lFbKcrmn_SSnwjOkKU8n5GNdonR7ibl-6r1l9q1ps6k5sFeWkIK_Nh9WTLlTwpaHN0DcNk0xmmI47cFXMqV6LkFoeV6S9FgymBzAFiXST_UgsIMCZRMDcdm7UhsswgG5g-IxR_Y45Mpo2vBEdTgSnZYtvNAn7RfdmB2RhiUqcmJt0znvW78v21MMu8v1TJWwDPST7QSIjUvOxPBjfh1W5ZEaFy4JPlnm5XhYGVOS9KtIFU5al5oBv8WTd_fVE06csY4GLJvoiMREqDlkmzZmnoaDsi1Nc7iDGak2t2p77x8zkLmCvBBKu5bGGe1LpH6HDNp1njBgq_P9NvqUpcDbfvlUj983irDZbpXKILvUlmowr_5u0fAgoDsxdujWFE0Ip4pDG9OB", width: 864, height: 1152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103929705452321068934\">MY PLACE MALALAYANG MANADO</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 쾌적한 게스트하우스입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["청결하고 넓은 객실", "친절한 스태프", "온수 및 에어컨 완비"],
+        tips: ["객실 내 온수 사용 가능", "에어컨 냉방 시설 구비"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Parigi 7 No.15, Malalayang Satu, Kec. Malalayang, Kota Manado, Sulawesi Utara 95162 인도네시아" }],
+        location: { landmark: "Jl. Parigi 7 No.15, Malalayang Satu, Kec. Malalayang, Kota Manado, Sulawesi Utara 95162 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://book-directonline.com/properties/myplaceguesthousedirect", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13392778094099396347", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=MY+PLACE+Kost+%26+Guest+House+-+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "피오 레지던스": {
+        photos: [],
+        placeId: "ChIJdwqgJgB1hzIR87Gyanz_iLk",
+        placePhotos: [
+            { photoReference: "AWCwydgCwjXYtkVnOx6Ysszx9gXeNqabxCM69WT6w2-LVo7BVQ5NCT7R3o8eDXT-719nPd2lRhgE2QBwwxlm1azAuSS-_dtXFtLjryY8npH7mZ5-IAitZyYBUreSYNoNOptZGc5KTei94WiUO6qUSk1Dumvlfx9mfOa5pHPhKNFqUrXwr9AwnP9nksBZUNfHgXOIWTuF-vtXTpkEQVTLSWxX81gATo5Nb1PgDsLe7rlUk6fUY9iqUszcLxxS96WC4xTDEwUNqrqr7a8IHra3pbQoF-y4Xsb_UiI5TdnYOR1wdzWPju6vhvhXj-qaHKEzlmMeV1buZWMZ0nTirb2RxqlxntN1nLWo2qiMbOG1deBT9pn70YI3w0_NCirTSeqFlvhwjCggh9a7BoeR_iXTsHLOpb3CxgskTGbDUFt8-7IFhnkhtFUh3wVNcBc3dpoxTn-b", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113705249744342472110\">Gregorius Mugi</a>"] },
+            { photoReference: "AWCwydhb3bo1z0yMNq3WE2Cup91WNqUQBfdirsqv5Ut6TBoGa8qy264v4el54Bh1edT8MmgzNevFmYxltYcTrm58CJThfACJ-3mOKXmHlKvwqLOB22itMyNuAPNUOC7KFP0BE_Z5GT0lIGdiA0O_qBoRcWuHcqhKonYQyIzCc7kYGiS-rbm32lGBMGr5SYXUeOkVHZvtS8wjXv76vkJruDtaxSsekeLuwQpFnWu92Ld5kuVt7Iq1rNF9s4Jmhg9Q7mr6X3vdaul11mDc1jvqAxVs0rbaZ59V6Jsclo5_gBNT24mWXfgxX4T37w4c0oFPGInTPBML_K17MLQzJnvVOgy61YiCi7BiYx6Aml06fXbnXH7O-LBlQxtnSvNcB1e2SrSck9pK5EO5P3PreuG7h0dlwCdDqeg1Vuf-KYCsle7aeoMYA08ISSdtLOn32UgNDA", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114485997924866412477\">Steffi Manuahe</a>"] },
+            { photoReference: "AWCwydip6KTkK88Iwx928cumN_rg5ARUVKLumsx8r0JW08d6pOhgP3GAY7KsuSKVnWLwJuRhb__EbiZF9-mVGg2Su0VNatYZGNCwjp9qp-K6V0WFZLFo2Bcv7WxHiXmHFA_4um54uGz_w7aDe9-Mk8C-9f5g488SnLw53eL0TxSDbS-qQ0FdVWNV3Ii0V6ZVtZGjyErv8yhLUEAXwuqsyGf9oguPTmpU-TtzR-rBWLHxf3PKkbyjg7F-NIUYrMNHd1qj6So8A8BjYMhJHP5ilX8jSBquS_hn4Cb1iEW3C8xqwBlVMy91eLSi--KLg_6AaFsBxQhcY0_TuH8afIDaHIuQaxemM9ZQFZsO818MwYw2A3vCUXsVpWybfuwJ9eoflnKlOULQJ7zoI79-TK_jnXiGEf8RKjnvV81TAYxZEMVr6qlpqnGZGlxO91s57uvj3A", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113705249744342472110\">Gregorius Mugi</a>"] },
+            { photoReference: "AWCwydip637kJcz35wT5MxtZlIu1LInIO7uFFJYGQy-YcztNsICB6skFx_1uJy-qsoGf2xoUKnsJu7j9BrjKSB0YLZxGmOilXv-4b9gzvRgQzW2A1zXhHM6GS51qVBjthM_xMhiyDx7c5VJfjjKzseRyietK1ILJ7X0Y7vsv58t1N8pHGqsH305Vc17-OS9q_GP_CucxP2WLEZH2K0gnrCsXMwkzvYmxIj-fOrWRiPFM_Z-Bgw8AixVGFdA8Y3dt9ollhM3B7fOH0hZ6ZCO5BaJhSzBhqbZdxentzFLtvXKLn4kjT_oamCQ_yxC8fEJD247Axq0K-jtff7JPwBQr2c5EElTMyPB5rFLdJlF5_SuTP-JzTjd2Cvms2L-vUYmJZ3l9PQFpK0oaqgtI-LHkjPrw2Ev1-AdWfvsPXBvXhS43H29oa0d4r3tF9DAvAyNC8w5p", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114485997924866412477\">Steffi Manuahe</a>"] },
+            { photoReference: "AWCwydjA54ndP9JX3QGB6GIs6LeuxRSPBxqSUFOMYh_QKzWUMWzQOsS8gAt1RgNvjF_SgO4N0A-1FIqYnjZ4trbhuqi3pX-6TfogHib3pedxFWKzOqeICSgl8HJGlSbx0qt7zjwytxRd3s8m7j60Z0pm0r53XC_yzBDCyF_Xb9qLXve9iHDVfjiRjE0jeSpGf6vT6p0j2t8LF1kjsZtkCI-xkPI61l5oZJfLiLKmj7YQptUmQ96xfXxF5uv1eX-cy7wPVRg27D-hc09KX2dTteezsbqSkCZQU_1Y2q6d8pPGX58Dh4ek7ia6AvN2KlaRiuHC9KDHT6y1THRbbD4Wrr0IXrjH5gPXvmQueuKthrrlWA4Dm5JXIFF_TTQYdFrZtUkd0EgqlR7j0fC39Sw1MhtXx__4OettfEOfhdMPmDLxp8Zh9bx3ZrqtANIh559MbTEH", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114485997924866412477\">Steffi Manuahe</a>"] }
+        ],
+        summary: "만점 평점을 기록한 청결하고 안락한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗한 시설", "편안한 분위기"],
+        tips: ["청결 상태를 중요하게 생각하는 여행객에게 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "FR5J+X5G, Jl. P. Likri, Kleak, Kec. Malalayang, Kota Manado, Sulawesi Utara, 인도네시아" }],
+        location: { landmark: "FR5J+X5G, Jl. P. Likri, Kleak, Kec. Malalayang, Kota Manado, Sulawesi Utara, 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13369216403680440819", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Fio+RESIDENCE+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마나도 포드 하우스": {
+        photos: [],
+        placeId: "ChIJ7Szl9ZB0hzIR5sShofRuWmA",
+        placePhotos: [
+            { photoReference: "AWCwydgv6U9YwGvICUsLSGn8IvxGsGHrh9TqmJY_4QYAtX0om7zdCYOn32JdrxtLLhk4fePDKZlllZhF21VWhD0r_hmQuqHIC76opjU8fmPwT_Y_ukFDT8rI3uKGbEyVpMgLAGywINMxc41T-hoCtlg8MYujf003r6rawqrN6mgFHLHaUxzPTgU9SGrJj2Ys5KBvK8GDRff6F5LqH-dachAYAgDf8v2kPtGXqSQeshxfOyhcw2t4Ei1GL_G_3vRlQQu6uGFuBCFE04rU4yAlOIu-EeID3AcvWf-OxJ-Klz1ewOc5MNSiOkpMTMS98_Gn8V2wRxo92bX-ZlCu3nO8dS_PY6Q9JE4KzZ6If4aOolfMxDEaAVYWeBdcg7NG8XuBJ9PtsVvJQ0YjmtzTWHC2aas9SWQEwtKHLuNTcDZa8S_3r4LsSmco", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117510931941162127673\">Tember Susena</a>"] },
+            { photoReference: "AWCwydj9mwhMgB069G8uk6aNfIrNmDGBfeVlcsMfoqGNX9SdiJIKc7-5FAFzep0-VqRMzyJGL1p_R9tPFXU4e6hszrhLAqQh1aW3dql7TfRCZy5faSSPC95jSRQ7L2GWdLNgSQa81CnGpVZiC490jdHqba5nGW7-V7f6psG9rqK_WT9anzecQ1JlY-b6aAyOGd35LMjL-tqkIVYBLeU3OLdeJdfdpfeBmQ2kWr8XQa3kHjmuTQAAe_ZhQXPUKK12lvUUxtv0s9IgMBC1IYpurF3pl4YcOiaxgM_LVE_xvtxK9HSCMj7yfT0QOnCD_oZWXr0HiRbwfngB11xcc9yTZtkPiZka-cPwI8_tdPz1A6BSroU7IK2Gdu43Fsh8TyUM3AJs2_1vuDBuWWPfVHMb-lmzbhEm9YEQeOrnb9eONPoblkGF_Fxm", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110514596000151447811\">Feldy Freediving and spearfishing</a>"] },
+            { photoReference: "AWCwydh9XCGz0S1XkmGrPwqimm8lrGKu8Qy-X5EesiDcoqizoWvsb4mEOqNwgDbtkFuBp_GML_AWemgsUkZDTQuom8qUHunuVSLOOC9zcHM9I7y9tUb2TyxZNuf2rLUjlRtNW7RhWXqabnWnt25lfqCgKs3pP82_XSi66LQVIDv19wVE8a8JrPp1HRjr8ewBsEp3wQomALEE7GIa01ciQyBzwZuW_P-TSwXCirpQTkZAjDw3_rNWDbk6sWfeyXi7Dn6dtLqZXLAMPA5xDrQ2Af-I65zLTSu3M1_77ToYGjQb5s55F483qRN8NlV-rOUEK0x-GJT-sZO1HdYM0JqwY9T7okuSntBmOtiwe00NQt3aTaZRwIBqyylSJflwy0eak582PRYcutoVo1CdWAqulQoXavxA6JKpeEyoiOH5VZFJE8YNYSSi", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110514596000151447811\">Feldy Freediving and spearfishing</a>"] },
+            { photoReference: "AWCwydh3mQTdDYbs-Gss3kjeNX3xbUgn6k10uS68YNkcro9rLqv5Ih6aXefdiaTud_1tCIiDoiWtvXpqnxRA4ZakLk5wWTFs9Pe33Jc6gBZfl6MvVjBB6r2gAoqP2XL6wj_MBiS3Jaf5kW2NqOj3ReeFtuI8zNIEOsS04W8_OBFWWgLISRzf_pTnxYhKuLCvCe9bEe0Hc_ZWrTAPve_8dLoJW4-mTfo3UTfIWjqaSHexXD9QgXP6epqcwX2n6uw-YA9_vZY4GtIN2eiOIbYY53FaxcOpev4JS1yOP3CkYVfinSGXRPOnAN3XQLPR_H6nS1-WPf4Cly8h28mDYLGf4kcdvBYvaBT372Jq9ViLqR3OXjwHIrdo8WgtK1wt0nCL2IWXLe_hewQJk3ziMAUy-JfMlllB3iR6MMYTK9-XAjr3iKw", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110514596000151447811\">Feldy Freediving and spearfishing</a>"] },
+            { photoReference: "AWCwydipnnN22SUkmFEfZqTAAmS1xzKTnRG0c5PXBcLqv41AHG6_E4dQgfqQccovM_0ZSRS2wJM-iPaHXEpUhvZHZT1m8e0rpNETl58-PHnr-Ct9VS2H2RfKQS31fd8FmLzlg16rIZFIRAZUBLQKVSKPGJ1HfY0mJfBVKBwi5Vizu3-acIsSsa4x04QHiIwkG9laXVr5YfibFG-rn9XtwhOq5AoujLEez9-GApf80rN24uz72Xwv7FHvEhahW9YIGhjkB3o5mpuyUwzIUHIZLULR6NWzSZ22WLgqvQC9zK3sGeMdzeVis9kd8QMj6U2v1_MEZJvxiGSGmT_Qxh0xg3R84OFm1s-Cw4msLfZSMtKeUh2wxxqLZR88lSheSNIWADz-j0150QXOMyYI5HhZj15GCC0Ikwh4Nwmmspj5rLr3vIYV1M41", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117510931941162127673\">Tember Susena</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 Manado Pod House 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.6점의 높은 평점", "24시간 영업"],
+        tips: ["연중무휴 24시간 운영되어 언제든 이용 가능합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Temboan No.11, Winangun Dua, Kec. Malalayang, Kota Manado, Sulawesi Utara 95115 인도네시아" }],
+        location: { landmark: "Jl. Temboan No.11, Winangun Dua, Kec. Malalayang, Kota Manado, Sulawesi Utara 95115 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6942983772507849958", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Manado+Pod+House+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타만사리 라군 아파트먼트 앤 콘도텔": {
+        photos: [],
+        placeId: "ChIJf2T9Ovd0hzIRSfMnMp_n9Ag",
+        placePhotos: [
+            { photoReference: "AWCwydgXFshadsGiXb_7w89HMomkR-EdbXxfTj8ZrWrlLGi-hD-i30Hpr05n3VhkMWWGaL8kLc8acm6bx5Svg3u5ZASzxgZZDvuCvTf5gtj5da6hyzsrKOHs_CCqZB_2HGq9vkByrLdJSe7GSz-lz_QumcMBfp4bJJgF5c-wlQr5gRvxNST7K0twckePJOoVOQ8n6Rm4wGC_MTHH_zYRU5NLpXG6nqGHmgueOaTwl66_HHe5Ig9ARHyIfHekGZY9LihUCOWP_33Lj1RyhgO-Sjzyf4IPmhZ1ZFMprWQHTfMnY76QOx-0wpdxVtpRK_4YSVbkPbXqI7nvi5eulJ9lcavAC176tENizI5CI4T1bf9Nt94XqZ9ANJLwWlY9FtugxwkFOuE0Bj1Gd2ntfSUD-KQWsX0Hgk2zR7E8sNYApLqak7NkxAJh", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100661301915276973469\">Christo Mautofani</a>"] },
+            { photoReference: "AWCwydj-VLVWm7cEuqH0zWB8A8bXlapqoKvBXOXfL9lg_L7-zL8iawdDI-qdg0hydltn3UwgHKOI81QR9AIM9Bz0UPEpaziwfKTOtYmIypOyTr73NxeOJmbGMxMrQJZTT_pJCP6DeO2y50xZhCbR6ZihJ65tYQXIhh_s2__rB5bjYIwYMyTFIc1bLkWwbGZ_Os3tX2_udVlZDtLmEUYuev4hKSRXnKFHpNIpY9N6h3FQfe6rNvtyc6DKb42hmimBubDp9nzEKBW1IJtUxIPjqymzewauhjY-Rj-tFUO4JseT7FsSsfBB37tX70DtqkSG_Zp7EmOnSBR2Mc0suUKwL6rMMc81QAblE8NZxtBfb31DR2FvyQv1J05fTS3dY_BnzTlGOYWvkfG2pgs9fS7KOAub3sBP7Ewct1-RGmDJ3uIr4nEg7g", width: 1520, height: 576, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103356394926491757969\">meidey rembet</a>"] },
+            { photoReference: "AWCwydiY80gn5l8AvP_hjfVK3RMNYTiiT2S2YYh8CJaDYruWTMLTLkHh45F2BYIpShWaPlhVHA1EOz7bDRnCKAzIbt0cNoSVZ9WzQJXkRILoo30DSauXXZ9jeJEnM-5-2RjmMqt9ubv_KemTXVMQLUOMtwTha_POms9R9OqJxlFs8glYREt7WHsNcGJLnNK4ZBk2qYpuDknQ4f0LKBDH9z58lIWmaxbX6Pfcsl-AZjR7rMJDbqBm5BOsoGoT_bGcBZQbi9-6fe9uDEmdoVFusGxg8LNQYbY5TVJzkQIP9RBtQpFXpeeefnx1IgfJbJ0D1ok4MBJB1EA2mfMHo8AqpTyGId4lDTEvj-q4QDRU9KFxzce0awlmuYnGNPwqmabPNeFN8zRXqUtnX9j0d8TQl47td8OQLwdXmv8zrKkS0clZa482bgI6", width: 3096, height: 4128, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110279567604957637156\">Tomat Asrm</a>"] },
+            { photoReference: "AWCwydhIlGp9Pfby7qZWD21GykUMK0MmrR9yP4Yx1rtIFAabjdLRv4eDT-VRisym46F8sOO2JnnU89o6H28K9hKlmHz_BnEpv_g30YoXu6aFe7ISwVLYirFsZoluTWkkxSnq8AbteCwhPPb6hV52wUYYDnWycxX1tw4lrHqU0m987evOF6EpsNc4D8nwgtjtUaz6cr-mBhQDxGTVdipcRTmovNk450FS3PxEZ9sGnare0PpLHhRy-6zRjSKDCziUc2pq_9Wuaqq_g5lFZNnCduKXPBioFDuCjlCzbebzvOeYDBJ7gLqF3RQFxBBA_xh5WBazWeKz1BUf1mYyfKu_TYDX_aPCSeFOFNOs5yo-olRuFV9jI-6uvXtGiEiMFen0bqMnClqZKGcOhYgI6Mi1uvPlU34DiyQ4ZxNcxSXPX2KaMnvOTA", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115630436802578337099\">Alit Pradipta</a>"] },
+            { photoReference: "AWCwydhUHaL555i3S7fi678V-d70jyaDhYOIPhiqb96V7rdbiuXkB1VwV1QHYwF2BBWmEFEWiPfxwdMfWvx2mgbUzpUrLOGh_2aXLhW01K8Krw32kUYftWPKUQP27-3cVILtAfX7AIyU5-qGpXhowb8vDh3Sj8jggxA2jfJ6njkB2VvgrEKsGFRV88p0720JzgzFN-P3XP5Ye0tLB8xZQYClfNAik0slWw3V0Uu89wF9aMuVFRqg7nYjiose3A8SOFyq_f1XXYpadjBdFsICrlCLwkgLUnMLtJtVre8ENteXCwyv7r2n3eZpLx2lAASOL1vpbO-d4GGj6G5KYk9ntbFalwJd7kfBEyKAoI1r9MDP30X-hoz70HwAxVJvue1NSxc4BxAktRwkSGQuNqX_MIZedMgirebPymohCVqRGkz-tui9Ig", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100661301915276973469\">Christo Mautofani</a>"] }
+        ],
+        summary: "Manado 지역의 Airbnb 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["타만사리 라군 아파트먼트 앤 콘도텔", "Manado 지역 위치"],
+        tips: ["Airbnb 숙소로 검색 결과에 포함됨"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Komp. Bahu Mal Blok A3, Sulawesi Utara, 인도네시아" }],
+        location: { landmark: "Jl. Komp. Bahu Mal Blok A3, Sulawesi Utara, 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=645395317548118857", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%80%EB%A7%8C%EC%82%AC%EB%A6%AC+%EB%9D%BC%EA%B5%B0+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%95%A4+%EC%BD%98%EB%8F%84%ED%85%94+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "핑크스 아파트먼트": {
+        photos: [],
+        placeId: "ChIJ07F8Mp11hzIRZ77j832m7EA",
+        placePhotos: [
+            { photoReference: "AWCwydgmsadrLDQ8Y2uiK-f12EpnWzAjP2tba9oasto4GkKf3hCoZxEKJAKYr3TtpFOFcFRAUNG0jit9Fod9w6Zik5OnZ_0oyDZS6OjAVg_kew1G6_B1JMs9zkGrwCqbqbvM5G2Tnw1vepWQYW2ihcp7E6UE1bgYOoU2psmzXnmaEUjAsiRuJ7nc_KEMrvTGBWYPF8rT00_kXd-Xs1ia5dxQ0-lgBNp7rfZgxG1YtjSunAYasnF_3fZoMexta7ZA4mWuUf7W9HV1WIf4uFoO8Z3Ru1KlcSE2l4C6g4XE41Se-76m6M-YSu3GoKpXAIDQVRaMLXZlnCRGaN-mRq6bRFKY7bGF1C48e9CfSycqn7G6iRKc8IsbGUKjl9ec_LsSl--zH8hyBVWqefpAT6a0SEUu8AKGp4N-mX6IQq385CfUF3k", width: 3264, height: 2181, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105092319807119733335\">Pink&#39;s Apartment</a>"] },
+            { photoReference: "AWCwydhAGItya3ztf7IHjlzsoRPUqM7lOzfKNrzs9o0K_JBnY5GNhpUBVZte8hYSpqMpXXoMMrATzepdoFr4HpBUrTCw4PwIWNXp1g8ZOhWgNI0mNydq9Om2es8nQ0wetqlcUI6qHZwwN6pgMgbygoaaQJcgowA3hY3BWuXDLSUDXbPPyhCEnD1EjlgDSuvAec72A9FcSskeiltIctqorbIQMj43ubyqRkwkS59DK_i5TDkIV2r8GzO1YHxEQLxlOJv48c1PM6VpKD-qhSXW4XJdlsjco6cHcJj6dt9nZVNeAwVqQVl6HSOJzInzbtb-LerD_fHa7CDk4YKPEaFUvHUb_VUB1-id0taKaohhP2W2rU3-SDXhAdoSsAtN1Hfr3_Q9Vvd_WcTbdNYb5tOhKRhyz6UDb9daHB2o7uDmykAnyeXEtZc", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105092319807119733335\">Pink&#39;s Apartment</a>"] },
+            { photoReference: "AWCwydgcd17w7knxLCgIUfEGpOJAPIx7lWVXllBG-TBoTNBEUMTNLDDbIslcwNH6mfKtcqnrI128HD8MsfeKqRmintRtwiB5nUnDLSD-_a3E1bV8zAEGevpYtc4cAI-cC0ZPm8ES5IBXEHxkHOm-bLiNJWzN0HzmyaleFnNDqmSLVPulZo0ugD9mdPwFiIPvvaEXsT0CKtvwtYO9W18mNt75D2CgZOvLE-uLCNNdKP2QzzdNBJfCf6YjAu9QCNeCNTb2T_UL3w1xmKLzgveUSQ9pKR-js3_h3dZxAfTExt4TjWhkmWiF9inNn1le9K0R3j2RcQjdoyktYqWzI9c_z6A1AftybhxtNPTceBHk_0SoPSjrrnprUv8XeWsiFHi_GiBcJlm1VidnlBi6CKKyp7uEI9LELPk5IrBbP2cSTvrRb3s9LQ", width: 1080, height: 1447, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105092319807119733335\">Pink&#39;s Apartment</a>"] },
+            { photoReference: "AWCwydjacCM-E4WPBms7U68GSVPRC208etVsf0xmVQHgsu2jighZXKbN2yacCLssZqZ9v4M23HARO19dJPqxTW-pOa5NwZouUCDWX2O_ZUu8b1sTjsIJBDRzlJmhqizet53GTSQSNFJevhnEx3EFLlJl2cbftcLSw8pA1ylh_3_Nes70bTFdz1crwzY8wCEvtXvPTYPyozQw6A3Lf53fzmdMVFcijS1cuTQqVka_EmLLBTnNE8e4zFp-RYpswu1Hl5xM1qRJcPmXg7mppCwwXXF9jSuSKSYA4J_k95O4XoewEvxgyrH0p22ppKey4vDNPj7GPzEDnmyTRBJjkn8p6S0Y6HoBvCZyTNB-vMahwvs8bsgrccbuihRyM6pIvzqoLaZMHg2TN4tBwUabDAtZsf9-8A55_3Sp7Nza0tCm26WQSCsCqbM", width: 3144, height: 4192, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105092319807119733335\">Pink&#39;s Apartment</a>"] },
+            { photoReference: "AWCwydiRqF2oK9SPrnsmpqPQwiEMWcMRZo8iRr8MM-uAvgo1Tde1H6S99bJR1Cj6Lesg54J8TG2N910LjYKEJPF_7ZEg4-ykQG4viesmyG3pkyPNj3O43vPO2awZRggCQReyQYwgvP-h9KMGDC4Gy3JbiDH2nBrJ-HbpGBtGbABg1TjqaiWlVoVUxDWvF4Gv0DlC5yb-ZJREFWJYRCk63TQ54iLtSpwSt064tETjk83e_GQK0LAOSFIEGyxELdCzJWBwUrliviZh6OTDP4w8J9XGKyYBNrdgVMa1r3UpgjZMroGiLeWH4r_oZRH54wDP9Y1I2CY7JeZwPNjx2HyC0xmfjg9byKy7HsMvKX8hu1G1GoWmCRuQZNinFBeHYOEUcOz3rhOYYD1s_Q0QmuitBoigN-9-RiEVXDKhIHrHt9oSDWBfgekJ", width: 4624, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105092319807119733335\">Pink&#39;s Apartment</a>"] }
+        ],
+        summary: "Manado에서 만날 수 있는 평점 4.9점의 우수한 Airbnb 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.9점의 높은 사용자 평점", "27개의 사용자 리뷰 보유"],
+        tips: ["Manado 여행 시 숙소로 고려하기 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Anugerah No 41, Jalan Sea Malalayang Satu Kecamatan Malalayang 100 m dalam, kiri jalan, Lorong Anugerah, Malalayang Satu, Kec. Malalayang, Kota Manado, Sulawesi Utara, 인도네시아" }],
+        location: { landmark: "Jl. Anugerah No 41, Jalan Sea Malalayang Satu Kecamatan Malalayang 100 m dalam, kiri jalan, Lorong Anugerah, Malalayang Satu, Kec. Malalayang, Kota Manado, Sulawesi Utara, 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4678297172824014439", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Pink%27s+Apartment+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "M1 레지던스 마나도": {
+        photos: [],
+        placeId: "ChIJ4bxhUhJ1hzIRbollXsvT9zo",
+        placePhotos: [
+            { photoReference: "AWCwydgkIgqwpjTuKAZPkOe2DYxHrnsLPczpT455Stl8ZfcY2LxxbutSr2TEujMDNqEKWWhsZNHO-ibKerzolXncSipJcMO2AP3jpo78lRAgO13WFKIf--5h6yzw4sNudOJjC1D3qfexYu2IC_o5-l1RmJ35h2vPmrVD5i4BCFMxnU-B-JAM0c8-90q3JL9ofFMCvOmUG4gHjqWQPLJui8D0Z-Cqx-UOfCBc5IL3BLPEVSP1qwSxLni6KeRZk9SD3vZu5yoTJoLAaSzsxX6T6m48Itfl52nBgKTBo7VlgPV1F1imFikeerXuJfXWzh8sscsUgu3Fvp3NF1NLy_Le66QpQBMImCDbmDosvFaxgpRB6cvS8D9mTacwwx_fUgGFf3zNYrOqxtfJcCMGUFMafVAMnsYs13B1VR-f70Vt3BqkjeYXTg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101450184626715704711\">M1 RESIDENCE MANADO</a>"] },
+            { photoReference: "AWCwydhZHS6mC_3L0l2Edsiv3zE-xeZq1zK7orEtcTiQP9PxId-eIJhEFrMfp7jQ6_lUNMJerOs7xaGIkx0RqDErfeC47UsQ4RlQrALEm_22h6eB-1nanDUylZxZn9oWhixgfpsA8IHXp3qmr7coCGbMNBrFQPATHJO1qXP7XzRfN8cgu2SMo4SaV36z5me-mnTnwyze_oUHeYz6cjSwsMgAzgnSlHMJWC2Tc0JdZXhEtyN9igPlMCK0SxeYlDfuxPKPLUVVdbw-EHO-_dDNmKgX2G2EEB4iq_t9ynqF9xEVi1EfRSbHIPK8rZnzob4KoylHgFG6eZ4u5CtQb_T60HrZMSmwkaHr5skvAQIdITXOk3v0c6r0I4HgZmvLqD1rCu4GJ49Fjdd8NSlVVsUybsflNLW13xqVwmD3gtCSiW2sp_6QYm0", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101450184626715704711\">M1 RESIDENCE MANADO</a>"] },
+            { photoReference: "AWCwydjaM6SUdCMP2262_uokBX9jAadFN7WDIWPaWd73d0z9-wv71snYemMvmVtPGgZxjONnvpbjByDOJShRpjgHEy8yUztHp4DcZy0OAWRCTNW9dNXpQOngzqCm760a45htMF7PmYBRShOHFPntjc7WAHaKFhIlW1L-Lo3AGrtaTZeHbVnNxdFnqvYMYEkzf7Wm1sWXIMpH0Vkxl1osS96zIWwqkJhK4eDl88trKFJhyjiSo3j38fDy_0i-oYSO8GynhxcP8yFn-8QIJp7J375f_97oo22O83eFV1CsOVZM-9RUJMbzcQaL5FhhUtqYuNY3IhPLDZgcHfVOTua-RI4vADcgndNzdgBp3oi5osO7WYTqubN2DCyWUMJrs2B_FLl90BcQQe0mgBfaXhXRdXd3icJeZAYCIgcNZtEN9hFsUc6acKo", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101450184626715704711\">M1 RESIDENCE MANADO</a>"] },
+            { photoReference: "AWCwydhvTUbg5PGc7UTLTCNuEiO0lx4IAUnUhJ2eznIcStc-oHrPxvFRGcnfz4LPTmdPeeoTjGwA4iZByKHJ5na5y-Y7d1fvPdMrKb8w1dAW9nYzI-5SOh7QK_Q-ZkJ0iBrNDBrV2wkpK3W5vbJu1_Hex1fsbNenWx1sXn8W9WfsYIOFwUY8wVFnrnYqDbX19x3HXPXgU7_zIPuLRe3x4UB6I_zkPOJD0fs1QuQs8RGDQ5cucVELvDDPGS-NWrZwbt1om2OJhv_Fi0XNGAVb5PgwpHQKf66e-7BIdAadWb2CCVjlGaSOo8sybSBlPGMzt3LOD8xctNuGYyCYSB_9-rrd2qY4n9B2TUCV0RSVrJDkYSjiCuVlWD1AWgPBzR-2CDKb4em58CeN-S6KyX1HyML3DFCxQ8ZgbnppI7IkuPdNurc", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101450184626715704711\">M1 RESIDENCE MANADO</a>"] },
+            { photoReference: "AWCwydi0XOGeOZ-AIcNYvf_VPuffO7TYf6v0wSUzvFHLEOvtNobhw6JjAWu_Jzz_x9yflfSULQ0BLj2NcBZCDeRtFdeyz8INVYIlcjC2DtjoNMmIC69sFGCF6isWWLcDot5AyTLIgbot7j4CbWufGKhUDWIubcFWBkDWtyYOnTRC928yGV1Yt9bf0cuLPSU-Rkn8jA6O3iJtWZiMlX-Q24OLwmOXeapiuawcFlvZ3ayZ5_Zzn62LGhWpO-TZzb45ZSZumJHpqusCL1wJMAjD5xc1ku-YW07SHRTb1xu0u1DekApDN97U8k-mrKI8jYDUNItgA7cl85oYgBoCCTNaNcexAMOC8n8pIeEJADHFktQ8h9C-k2o1Gc4JhhER5ufB69tgvQ_VbqfWt86dMWap0FCgphEX5rDkMvEqHHY3hpNLsVyzUY6D", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101450184626715704711\">M1 RESIDENCE MANADO</a>"] }
+        ],
+        summary: "청결하고 안락한 마나도 M1 레지던스입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗하고 편안한 객실", "빠른 고객 응답"],
+        tips: ["WhatsApp을 통해 간편하게 예약 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jalan Daan Mogot, Lingkungan Lrg. Pemadam No.1, Tikala Baru, Kec. Tikala, Kota Manado, Sulawesi Utara 95126 인도네시아" }],
+        location: { landmark: "Jalan Daan Mogot, Lingkungan Lrg. Pemadam No.1, Tikala Baru, Kec. Tikala, Kota Manado, Sulawesi Utara 95126 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4249097643862886766", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=M1+RESIDENCE+MANADO+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우마 빌라 마나도": {
+        photos: [],
+        placeId: "ChIJCzJs2QsLhzIRZiI6X0-KwtI",
+        placePhotos: [
+            { photoReference: "AWCwydjKWU_yZIMUksyubm5lwTY3OfO1CTANkVyCgHeyB4ByiJ2C1fjA_gojhDq5DKkHXJe7edyZMa-a7uOE9ymQeRsB7jgQKCzFo4kYDN2YXl16bVO-jO2ar_W7IqzFTsbhkC4oVTzJ0ETdL5pVARAquiLnFseibExsxvqcO6HYZaqa7GEeXmvqXhGsWcDY8exiu7L-XwTo96yzfIH8ey9UscDIodpgNuhbodqTN-UXTDlfb_6-Ks4pQK18BnejCD-iKU6t_eDbDkqiShj8ZO8FcCj_deuPxGO_tunVx_uzfDE4xqckm0WmWkpp7jmaod17Uo6USDa5YPbvPEMZZpKnv85ZyxWsbFMSLOjaK6qHVoRkIO-w_8SQHnZc_PP5d0BwNzQa1NKWVw9FxkrgQFIqXzGc1RsrVLZkWfiow4Rle7SBug", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114855764256922014639\">Nafakiyah Family</a>"] },
+            { photoReference: "AWCwydgR_HMbSxupZMX7FHujV3rMd-sawUDP08JU3E3JYgMg0vqI3g5-eZ01D7dzuavQXYebrf3uJO6LJmJTbWzLz38BU5ofZBkRJSWS-yMKNGxf4YeZbL-Nkbb3ozbin6AfPxPfJjxN3y5TY2pTVLzXX4c9h1Yk7KxtaVRTbtFPWHD4cCIYlCogADXOHpc5fvCfL8hO94gkDC53noqEGFGM63Lrq9aHpTlP5ZQDHMoEeNWnkaTCzMIhDjmmEiaupTh6S5dSv10aiCsp8LF5zJGuUxsZc3vSkf1PABNqe6cxnHVD2u8X7DYMyArV1IytlR6NiydPJs82XYsBF9-GHf2MYsdL41Cj_SWQKsUKX1AaN4cAYwvUOTObPGLiPw7U39SM-9UGTtOktgMHIg3zWY3nccdJ3b_8QZdr5Lz0cZ-4h5vlUsI", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112840108005870119495\">Nadia Irbah</a>"] },
+            { photoReference: "AWCwydhbVrmlWOsmU2SMzAX3MW9DfGew37SclVbNdGKvRGBrPwvQehAxL8FqFDaIgEc6yhKmuc1MfvCFpzWW9H7az_Ypdwe8jcWJIy1_cvy5AYlgZd-OSm5QnF4IS-Vct8XVgYb-_z9XaAwja8s1dlF3-ao_v6b0cslZAm1Coabq2pc3zIX-otlzhP0Ubsum5O7IPau85j72vLMC5uT331S-gFGwE636R_qgn8p7nbAncIUhBphMo0rrrh4Hn1HhZsq89sGxFoPf3LgdzajaFFICvh6IWFi82wboXuW5z7p2kO67K_mQMl2k73PSyDRPosBaTbtXXPxPefIan7DEUQmaHT0ePlyhcEQjGWtJi6trhMCAIBLAKxUQR_lcCPuyo4zyS7u6PrCSOEMMmbf7rx9M4eOzaEpeiCFd22LB0SNPsTo", width: 1024, height: 458, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105959870759682305432\">Uma Villa Manado</a>"] },
+            { photoReference: "AWCwydhG68AOI8QBzj--nMIEZI-Kxhwz2FXnj-YLxtMg9klOdR2ssnfwQZb4T0K-e0jIVaBcazUef7DqDOkJY7Ydg_hmsywrR1J0vjMECdUeZZpCaX7ezJ-s0Pm-OfXy2DVIm7Y-Ump0Ojk_SeUQtWvCPxVidGdbAQ2EkoSVyXu7svJshGXPPsWtvafz7I6GvJy6e9EP0VDGubk-mHD5DrWR2kOrtKHxSkLWt9WDNatBgmFsCHdXSNjUkLi_7lXzgTPw-1U5MAD_BC4eyx02paAtgeJlUIt9rl_LGQpts6h00I4yjTDfazrINpHY-6xFzCdxwRbfC3xpV-6bxlC0UuzSdY58nQPYilQhddOAHR4wR7YlajvsaohiPkw-a2zFi0Y9o5e1cKbKGI6PZOQrd0lisSL5f83jOSZIfGfkY1En1VhBKXvV", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112840108005870119495\">Nadia Irbah</a>"] },
+            { photoReference: "AWCwydi279g1w5DKpaZHl20T2zkCxRdjm2aK6FP3ewn-amc2f4mA4qbuXaXU6UWjKnbA3Iirckm4nJymc6BdnpgaZjCeb7kVcAp2TEa3DZ-b-lcaD3KQD3naGT68e77ms0hKkuMH1IdbnXvBV6rNQmL_0X1xKtgfgEVYtJx-L6wnBr10Te23BmFFzxDzEDqxvJ-455RULrC_f1-cBE1_HGPHKv5FNKYsHKWtx0B2fGCT9TZULJqGy6_H2Pw7MLLNumZlChti7czLsoMjKuFUAO5KcXHa07Li-vnGUWm8HJEiIG7u5ILRjNuMvfaEc5RsSroTeYrwhT_NFXvWgqRHroVDAAD-Iht7xRYLjhhnCgE5DJDfS7gl78eeuhUdECEAiiwp1ma89eJRaXS8dMDzupd-dcSUK54a-O2gfLH0tnuiXfZd3680eKMOs8SJQeiG1v2g", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107037731111718380907\">yana si pelangi putih</a>"] }
+        ],
+        summary: "마나도 지역의 평점 4.5점 Airbnb 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["빠른 응답", "온라인 객실 예약 가능"],
+        tips: ["온라인을 통해 간편하게 예약할 수 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Jl. Ring Road Jaga IX No.KM1, Maumbi, Minahasa Utara, Kairagi Weru, Kec. Paal Dua, Kota Manado, Sulawesi Utara 95129 인도네시아" }],
+        location: { landmark: "Jl. Ring Road Jaga IX No.KM1, Maumbi, Minahasa Utara, Kairagi Weru, Kec. Paal Dua, Kota Manado, Sulawesi Utara 95129 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15186852966951428710", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A7%88+%EB%B9%8C%EB%9D%BC+%EB%A7%88%EB%82%98%EB%8F%84+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빌라 로버트": {
+        photos: [],
+        placeId: "ChIJK3HLCqF0hzIRrqQ9l8ePO-g",
+        placePhotos: [
+            { photoReference: "AWCwydilv16ZdMsuxh5LjQwrM4RxiS2sCq_NfNCs_4yOVzgmUpdvYaYdUi_acf_dtMGbLj0QwEodk8YYYhQ11QCtoYhYCPVmwifhHbBN_B4kZs9ChKLtTOTjBFzFPrNF7G0GzOg5j5o30KnVhlUcQJsNmx4A0sGOOkBHAP53_P6SSIuTKwEcNDu5eHev0OftqSJC0ylPLgGVzuBzBh2SbR8gjrP_S-jnIB31N6L7Pg1Swn1vUkvJFrqu_rasBlknKAHQsnbY_F_q5VUaXFDJ0uMWmkRJXxyIo7-1xZxjMgNXTsv3qSMihDbS0XP4pZlABgLR_S6wk0-LyqjJKSj5-Yl_iSztbF0C_BFNdZcHqYbcDqyP3WOKTPb8v5nCgT0Pe0n2JB2Hd6_tdkPQqTKJGzbbMMycjRrd-n0WRjd7cMdYfTZ0q15MfjsRRAr9fXCkAg6S", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110766363139223689668\">Villa Robert</a>"] },
+            { photoReference: "AWCwydi9DB-cpcOIyaToSgDKewX3vA-8IxH7Sn6D9zbo0kyv40IGzdr5iPTDEw9YSp9m8n5gsv4B0K94sZf8cxc6ESTyyoTSW6LZ2O-twuTfMIbOZOWW2UruAjydjTbx2LkS_sSCKPvlNegFYnRtpSotyxugkw-vcKBd0gGHPA4lZGlltD2ZAnJTWHTb7q6Cxa__G_qv7e8XUmU__SqArJsQHwGHFxo5suNtLCvLIzmFAjME8Se0dzPAaxfCiTfpG-EgGyFWKaklKTHlWcabrKzuW9EwKYgxltBlkaLq-TaIdKD38-zmBbcYPPq20h0IgyG_NKKGucq0EdNTG-NT4YBICZvKJtJT2j6_yHRtzTgGuAKkce718TfLeaFZmcK3y33VIf8oZn00RCTD3KOnhbuWdL19RNPtlaE877A8cU4U_LNHHoso", width: 2880, height: 1919, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110766363139223689668\">Villa Robert</a>"] },
+            { photoReference: "AWCwydgIQtmm-maEtiaPqwe00TPGvoKf0FqdESw9S-RlNjPWHk2aPGEfIAIXIUR9_Ft5RpW5_kmvQT_XQbARDd9s8yThJMLeMO7wAqSKMruVf9_dmTgjlBWZtHgndbIRSIupN_mwyXbjEay_8ba0fN0fl9nduusHPvS-IP5eQfMMHqwDpUJ57ES53peBv3Fqw3UWwmf9xPQxv7-9pZb9_oyeni_NKo4IbaxiBM0QTZ0sYjPisiXp7NC-Fyah2qjGgpwiQfsVrlly9AZnLKWreiyDoAcyVyz0GFSYMyaARM_80tDXBPBlzzPVNDWBYw20PURiFrN0ZH-eaAIGQ_lSx8ENOGM5ZvThpMxFCW96Yl7YKRMN99szb0ZVdqmum8-FEZxjxQbhYPdqmLgikvVkvr14xlcFME_beSAcPVK4MeFW_Vh8EA", width: 2880, height: 1919, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110766363139223689668\">Villa Robert</a>"] },
+            { photoReference: "AWCwydiMiLd3N5wdHQ5kkqEfOriZ2ei_gqc93AkZl2P52Q8JOFXyVeHnADhWRzNkyeyJyhSSeDcwPPRIOWPhkA_y_osVv2qimJmJjWTAyBPkutfFV-F90EFLnZHAglV7-IGbUxpGYvftvUmbion8vCySVzUAWTYn4fSxyXHgXIbIFcJaJ4mfZVkCoMYagxZvPqJgDNbfxK5j3Rhvo7_9sPwAjQJWJlMzr_MJhkb4NsQtli4oOiEMQgH87jWdPbnHy_1nS7Gk9Sxql_dTB-lWrKPl4WNCeJ9X9BUmCQMa6eMUlx3aXrbSkeSuKAhCNy83yScpiNuLCkjIw-O8RGTv6IOrI0VsfiO3Pk4QlP-daoG1E0xilBJlUZ1G_gUTli80uNUfjsG5pLgt5LMg9-KKVm0WJPOVa-xmYVXUPSKbo1G30nvu_Q", width: 2880, height: 1919, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110766363139223689668\">Villa Robert</a>"] },
+            { photoReference: "AWCwydhXprS1J6BJjcMau6QOdcjJ6Buznf1Awx-sDPdGa1lr_z4EdEf8yAIt77vwBcy0Frq2BpWZngX5ZLNZFGIjBwCW53pyeoDpZ0bVFd603kvtTDRe1c2D1McCaJ9DdviWKo_MARlr0gbczM8baezaoZbwdSAYA2AaOirYgzWOrV_sShigQviTLKgyJ1i7LwuSzBpppW6SOmDPo6nf_PAGhnihp79oklFwaLEBzq5SisKdScZguXERpznJ8MvcyGHnmSoV2b_Yl7K1vzc3WQxjbwrtIYT6_U_jE2IyVpmU3pc_MOyCUdiw2nyl7BHn2Mbn5bfwweINDsepJSFOZ8waSKVr8wtR7pXmST9rNMucATfn3skOCkJzvfX2kTqhqM1v6L7MLxdPz9GLbEEFD3toQIHjA3GExbEBD-V5mBYkHrjvUw", width: 2880, height: 1919, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110766363139223689668\">Villa Robert</a>"] }
+        ],
+        summary: "분위기 좋은 레스토랑을 함께 이용할 수 있는 매력적인 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗한 시설", "좋은 분위기"],
+        tips: ["숙박 외에 레스토랑만 별도로 이용 가능합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Winangun Satu, Malalayang, Manado City, North Sulawesi, 인도네시아" }],
+        location: { landmark: "Winangun Satu, Malalayang, Manado City, North Sulawesi, 인도네시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16734126927823873198", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Villa+Robert+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

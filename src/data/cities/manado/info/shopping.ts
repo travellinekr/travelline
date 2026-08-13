@@ -336,6 +336,116 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B8%EB%8F%84%EB%A7%88%EB%A0%9B+%EB%A7%88%EB%82%98%EB%8F%84+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "미엔스 기념품점": {
+        photos: [],
+        placeId: "ChIJL8sumzh1hzIRMGSb03lN6yw",
+        placePhotos: [
+            { photoReference: "AWCwydhoIX_bzWm8-ny8Bc2ZoeF21d1y1SAez_CJji9MrFqlOF8Y7X_jStWpV5XeSgpLGmmWYYlEDVKp5wy8Ral1ITzMb69yPn_KQFh4QEi_ybg8itpetmFpLaJooI2O0tiV-ojFv1nf8MXXAUkPTqgc2iZx5T9rUW-3GrSC4zYEH79t_0uKW6qrpZEIWETFHJnNSlSwL6-9B2vJO3QBiqsBPgnHIgANhmqj2TguFz6zJW6ydmyFsxFnT4Q8cSe6lukL5j2iugFFxBRW5HZmnI8LAfyKN9whTOhOuL8UjgEqaz7IWz-ZmknijCD9shDtW4iRI94brQ50MNCiTdb6v-Ryx0m6sg9IlRnewz6vnXTD86E0igTCRI7064QTFYJxm7ah6ByYx_I0BjzhvFmDd8_Jv6cJp8QZSmp1LvZq_KoF-WWUBfdf", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112300802283560000498\">Yudi Makka</a>"] },
+            { photoReference: "AWCwydgsoPMl11fYZOWjs6yzndidXTmPrp3dH-BDc1u6-GswYG-iikMaonRyb6xYYxjZZosiaNazeS4QqprLFsmmPeqDUnXKJGPBAL__7kHQcQGKXyDTDbmuU6pfKWWLFWGDHb-p0srWoRNm6DhnmE4u0jwaynLygTuiDoHc16bbLgp09xlAoumS4yPIF09oGJvxyxZFFek4m_1bLThfQvjaQWeR0Wnfkc5ncskfHcl6A_4YCo0ntuRIkpXKPWo6Alv1Xk2jdoLhSi7GgNYEKj4Tt-Abo8A27GA5il1DZsFEdys-HyRknarA_IqXfoE3lHG5vOvf-ZW3bhyGS2u0i0sitxvph-gh6zY2FBPLUVNrpKrH13NefVEVgIjaQMmKOp8ahgT5Yivx8LznFo9sciTuS1q8fmCP-D_ZMcsv76WWqe-nGCoaruQr5m26V21ZBkQi", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113828222971985523410\">TTHP</a>"] },
+            { photoReference: "AWCwydgUBtBkzJez2uB6I3uFn9zlTFSBEoaCpMX_MfFWJjcRV1xkWHkqDvG_4XjAt9C0q6X4JJlhsDwz9Yc2nZi2hRK7R8rN5Jkol7A8ianu-F4oNHhsMQ8dt1AFGfODQbz9BhCEKkwk-HhnngolGgrv_lVrp2eX-knRogRcri1eshWbNUZwpsUF-okV-QOeXAfgio5Norhfdrp01ewnPdKIVdCIyca6AEMP6HEYMwFUsW9FfbK3yJnMXw-7xGhUBcZ5v1VHgnlE5dU-6N1gs6m-qlGE3aQYIk4dqcBfcQrfR9fLm_qSRKm5wVUAXNtSGyY5UBpdD98gYlqWvtFc166IDFpRSFTgRc46nvGeooyAow8AQT5-MWpPWu4_A1Adq0tLHXakxnjzbOeJ43_A7jBv1nbHmmn18JHLdMneFZrNUwV2vTtQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100081822704273152881\">Mama KK</a>"] },
+            { photoReference: "AWCwydgJb3_HFXJkFucI3YbV_-PCYJB687Q9s540JeG-XnMvN41UbkD4MlHOS0HVkRXeL_Ae6z4I-H_N8jjNRwuD6udFvHxGuMmhij0y3lwf4GrKTebzBNnHtVno04QYEGhkUCPBVQZx4uC9MNKh_d2gGAwZtjSIG6GEryjtXnRiWs87brZNZ4WPR8e6zmNXzyUePl3X7FedNL594R0YuwkJCI0FHiXH82EUcOQ14krOCQAhMIEZRKkACTko1A3amH5rlgdaFv2VW4OLGmNv1StHWS2V-1fIhhSBhu_G5DWjNJHaEgItsyzW5qXUxCAVuoOc_XLJhf23LWfnptCQfn8bC5pQs2Sa-UzajbOf9qFI8BTXoi_cd_l5aSmMnDd2QB6pi9K8F2IfBr-dhd57d-CYS7XJmJS6IUV2DVvnlDCX4EIy1rP1", width: 2592, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112055709300810274970\">Devi Octaria</a>"] },
+            { photoReference: "AWCwydhjqO4CMqBqzU3fMUqE3lhMsk67Da3Jp9gHgKGFp4dp5Ijt7rKbqk2xiTkJfWRgO93hKmAu1D6UPfHNkLXdZwrQhEAMvuNflaAgDsr4NdpnWrWIQ1dB0_RTYvkwxzZHAVHfoPFztWtGCWHM8HaRk1J4AQu3pKjcI5B2Tjk5H-J6NAd6xC7nZ6BcdsMMDMCAk83XPLTAM8147osnEm3DkYub89-vA5CJT63W2iTeWW9hmGvAlG4FhAtxbefJRwihm25d8Kl9TgMVLdL8NbNlJngDlviOM-VxMqHFnKmEjsZoaoqeUSGmLmFp8CNQX4JNwvmDSWbbbUWu3pFKQMzdTc7iOYC_FuDdgoypl96fvT6IGdlw5GEnBgIlb9J4pYTKDJCLqPQq2azVbRn5Zt99zTNWtAYIsnPVWEf8Y2GifuyjVg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108309475808465011742\">Sugeng Ramina Putra</a>"] }
+        ],
+        summary: "검색 순위가 높은 신뢰할 수 있는 기념품 전문점입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.7점의 높은 평점", "많은 사용자 리뷰 보유"],
+        tips: ["매일 오전 7시부터 오후 10시까지 운영하여 방문이 편리합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3236765942832391216", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Miens+Souvenir+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜드 머시풀 빌딩": {
+        photos: [],
+        placeId: "ChIJ1zd4f9l0hzIR6VYRuExin1A",
+        placePhotos: [
+            { photoReference: "AWCwydgMOKkhCikYAVypFRjVaBZmnlNuQMreP8wY9BWfRAU0kIJVQ-S5mO_TJ9wHB5KgBFMU7CyIA7odyjwMGewF-yLZKeaLGOZG4JxhKgqOxMLB_Wc3X24DS5sGyb-xAP3Iq2zAHxgnZ2wO2PEwkqGyR71AfWbvMlPF1BqyMvy7YtUahIsM-E4XQ0yTP7V6rfUUPbah347SOFtnLWGfDn3mc1ueHCNwEitsjQNbfikr9X2_ndNQr5mUEZcaACKRTfsyNIgLU4W2tOGDqibvsrIkfOxubmn28KDAY1MCOdS_vRE3w86V8gwdA5AuLKgtLnRA8L1eKxZWLRzsibCsSDJ8bc1kLMTQkLcda2zEuZLwEEWlmfj2IyV8txKnB8o66dpqhyF4C4_lzZM9m7YwnWBHX7Rx1cZ7MHTb8l6KafTWF23CWtw", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111870222564237387448\">Novita Sundalangi</a>"] },
+            { photoReference: "AWCwydjtwRJPwm8D8EhGGygapmWuKJB0uOUhszxq8EpK___GZnwvfj4Tq3ch_Wfx3QPDwj2ZBc-43hSb57S9ro_yO5VI2TIYu2KA2ut9K1SpiIDOoVVx9sQAG2U5Q2PqaBmbEzwECwEGmgy-LyOAWsg6CMD4ETfEQUS_1aZ6-pnotvXRn8c5swEdiFlW3HbcOytY4X4SgVxgl9NfwfiR9zOSeUE0c9ZgmNDDGVWYpWdioJmasJmsZl0M03DoWDTEE3KHlUiCHDPdhhnoQq6w-IGn3I4uoNDDsATS7up24gnug5MaTb8L6ciExooOJNjs8Ut3S4pTlflfhvLys1lVnFlwaCrmC17feNICAaT8x4nQSEN70mktXNDliGkyK9Rc_AxRyFcbpVqgBp9eqloGPrMfKJuNSXKXLkeuCAYOv_iss3HoJg", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105336972817909805175\">Karlina Rinda P</a>"] },
+            { photoReference: "AWCwydjhDGjgvhR12j0f1wFLy9yiANykKcyAHhP8_J60IK4_BvN-Yw5hAkqPEdDcedsH1bfkSuZvmbFgJQ_OsQWbwCyq_fpBQniC-PMoWkIYNc3CVxueMS5HpIybtcqyNsG6-gUocsbvekD15m6wOHhNRDin9sYMJlV2VZdlZrERn_13pJHlbWF-SaMDpxEcOiXA4yJ3Iwf8C-Wb7_rZVMmf5lI5QgR3li3GyKIGUdl7IZ-nQhIGDUwnMOlnE62sKQ89UMk2Mf-92isOeipaesH0z2Co3vx_I7nrbgwSkyasR5kkgOTmR5c_fAcE23H3_Bv4aMGprnkFKrJJ8sctsB-2UZ0xtyY-dDWIHVJPzeepKQedpF53nUuvQTy-zJXu9upg4tq0h-QJxTp5vGcW0xcAZ1mlPgl9Iauxi8MX4lzPNihNkXt4", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105336972817909805175\">Karlina Rinda P</a>"] },
+            { photoReference: "AWCwydj4LoUAg2aecLIs58T7qp2CkJba4kH2Pou5SAa45km44c9hJZ-SHhUNBSBEx4PDomyajqlFhH9mqY80umWk1ogMcRpFhHYfvVXniif3s2DHrqEL0TGqUnLBDdTtUA_xEqllrXJNCVQ5pZuwVtelIPHNdeKj-xSSy_RPGIX0LDgGKJFk0S0dxk2WXHyL5L0U_a0XAFeiX4-ZIzr9s01GskOYcJVTxe3XFCWDP3aLDA9Kb_GzDV5Nh3WRdz3LQpns9dwH-6TELQJGigfE7Ok8Enr14DBiWNHi_kXvCUmZOMLFyxruiB9owrxXcJfnat15G6EpXJ6YXY5UpCgHHnupHmmNyBVHJToBwd_CZ5G8ZxWdaHlus38eEOXo2BvwCwcuY8N7XlMXg-iEQX3ok3O1RRwCuwbM2LdQ6XPiiG-6LHlkxA", width: 1840, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106451165387640711030\">Warno Brebes</a>"] },
+            { photoReference: "AWCwydj3AqNMDswEwlIgao0RjFFHka93XrIN3UQH3E0fEdtnLhhGKjQV8gkHFuUAVkFYWIrkUERx5lPYH5gT2Ovr3pG_eLan-L9AABRhhF96jMP3IezCW_K9ecZmvt5O163M82h7Fc4NUEbbN7eBD_fMQeVtY9VxTj2jloUQsZIjxq1sZh9wAtctoSqO5qAELpmyJs4fHwWzMmhkAEwXkJEeVdg5lKK-X4ukxenLvdaiQBiDPMrJZSCFLvqvfPcMvsLFJvoRmGI8gJ__Xl_H93el89qYaZ173lOFhZg030449AHyAtCEvYSyo1NgOkzDjr3opgfVoFhxiAhrfeK1VxxHgXZpROsbVB_HrpQKV0NetGSbzGyqqy4-53olaYet7UC3ZhZORFpRsFii3XpfoJR2ElZKWNYlghGtpYXr9rxmG1XFdkFI", width: 2304, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110451046118967815953\">christine kilapong</a>"] }
+        ],
+        summary: "친절한 서비스와 잘 갖춰진 시설을 자랑하는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 서비스", "우수한 시설", "2,000건 이상의 리뷰 보유"],
+        tips: ["대로변에서 찾아올 때 길 안내가 부족할 수 있으니 주의하세요."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5809470125976409833", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Grand+Merciful+Building+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "숍 바이 - 오마 율리": {
+        photos: [],
+        placeId: "ChIJSdNyhu6ghzIRwwMkVcalaxU",
+        placePhotos: [
+            { photoReference: "AWCwydjIiRcuNQ3YA83CaLRwwqC85iFBMsbXS_sM1qzfEyAlelJhvrYgtWxYPPaKIeYnlYiJObeJwSUFo8Yh8CyxDIz0k3KfeZf5eaA8h6gC7rGMloYqQMCFDYeEp6GtUx12CR_IfUEszbTU8_cSTWakQzfsTB_fAMcT-6pYwzQukYpLxvi2oyi-DcGACI-du_CEh5ZTv_X1ulEcVqRIA-LVatJdwpCYx2rOdFa2jKoV-F_NrSQParlscHrJZNOgKxI4UT1LyTZwhYGk0TbGlbWKReVre1qplQmfBSB6hX5eQy5qBqFVSuuvypao48M7IktX5O0KePXwaikMbWl9uSaW1-2s076PBtkbqeNDk9_i9OAcHX4pbNrL8yLtQ5XuWrdCoOpSC4jBRGnkdCgS29jA4itybDpTQZywBrxPW715-ixdjhet", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109770102603244572399\">KKT 129 UNSRAT 6</a>"] },
+            { photoReference: "AWCwyditfz5rHfEywWJumB54J-tUAj6UukLMonsRshAYoWDB-pKJZ9GKkeFQ-mZ94hftcEyzpUGqk5h48xZ_zaVj5eoegZXpYMHiuogx75FPCRPQ8f0b6E5sxRHhGCLuDcBQ1aSAihNEJYBLCYgKy4sRlYZegWmnGS5IgstCC9bWDhQXMTh-oILiYJOofESzRuvGxsQTQoVlMEvr6EzVaQXkr1NbSbIlrRIq6hDqjZ-vOg00vHV8er8diZ3OAnr53gJ72xZSQ1xH5z2vYZxnxTZFE6sd2H1eogLasL7cqlUW9Hhcrhh8d-tulZg-BP1FPBoL2sszLo5Ks63IrCL_4m58LGGjxgKgsLoZ8tOOcyU3QX5po-vgPGNCYYp76azPv066-HAhIMYSzJOsvkGCSvnL2OOb8hDbYf3yO43Y9FNjcFfssHiF", width: 700, height: 393, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111916425231097405272\">Oleh oleh khas Manado Oma Yuli</a>"] },
+            { photoReference: "AWCwydiP3FkZE_NUqj0F_glvC-eFok6yoZa2EidtxWacjkaKJydnDf-HMvRgImfQpuJYGVO-_Qbys3b6gZXp2izfQ2A2GPvPBv3HGhnGbWZBAdMLbZu8aVSpJ4E5G2AjFT7Z6JRRRBXOMS001R-Haewi8BWJWuFCyTmLd4ImNmSAV5VuInr8M-6Yu9Dvq5wg6noSpAWtDhKCN9Aq40FcQ3xuJ6x2vBzFE8MEgz-HdhWgrMxZ7bzeMf0T4pobV06MULpUG_H39dKB2magb_pbPMFBDRKiTYzaYFoRJaA5kht-Qx_qcVcrET1jcdb3UPT_kn536f9NYChJWR5_DjZ4SwDf4jGD2d4Mg5CarI2dosVwiFC-8oP3a20bHbtzVCuOjUv-SwmnEMin9eMgoTxg7YLMszzWTBQ2Tj7uns6jlRYtbfInQg", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103126758233692648782\">Mickey Net</a>"] },
+            { photoReference: "AWCwydgcC7lpVYBPQUYY81eqMKLsUKLIjtGdn-C4NvsHpAjEz3yhoc8TgLxgs0s8VHkiJE5mJ0yVOWYK3j1CWIQWfflPxQzkzJ7wOlPsAD5J2hT757zRPsatt8HDvQbo80qEDEFniMZaQnre5zlbciOlOmJ611KOohG1jUdLLhEQFQGJ5SnBfN5Sid9_yKqlKewyx98sgDKCyEbbcO38MyMVukyYG9MnmdSfn7dOS3Pejk69H8qqBsvWLEJwn-4nqNDO-ZFA359A7OM9QQMmggoLRmM81Izjz0NrSUYLBFrf_ZiBkdlhkRB311hBo7AMD11GbdBOOTQmHKDLCe0AjuFy7Lyffx4LZBFd9O4xd-mvuwfXqqdjrO6Qupi3PnIuV4RdfBjRlwycGON3b6K3TzEILmSYiguZ0tQ_O15JNCori2ZwGg", width: 1600, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111916425231097405272\">Oleh oleh khas Manado Oma Yuli</a>"] },
+            { photoReference: "AWCwydhtOjzGAlEQegRdnlib4GfFhUEvztbELBEIa3r-uucJ7litpTrCfOweVKMzbTG-TmBXhNdTEOd5U2lkiAQV7Z_47fD4kUeys7qbTtRdNyqNqCGDbuJZvx1PA3lf6UVo6nr4x-nwSrsG2KBG-hzzFluOI8Ar-43kghn49jBHkQTMgW8LADpGdyKI0Gbz7OZ7KmWKz9nDamrhh54TGRI8_afhhtpUubhJLUMRrwDE6_DgBO4_RdkuvtljXQKMFRahdDurnSDAqjh39HU0g15aeIht3Xfr5IFizpNN_ebVMbBhXEGQhiuVmJXThnGZbUM0dvMa4PjDmRbIHcd0WqcKKOdCJmXo0IPglw4Dn2C81pIoWfwR-fGS5G4tKlFJc4cnBJv0l6wRFF_2FTUs9JqBGFljf6_BIm4UyeGI3teJXUFM-g", width: 2448, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102411753457656679983\">Roni Oroh</a>"] }
+        ],
+        summary: "공항 인근에서 적절한 가격대의 기념품을 구매할 수 있는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["공항 인근의 편리한 위치", "합리적인 가격대"],
+        tips: ["공항 이동 전 방문하기 좋습니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 6:30 ~ 오후 10:00; 화요일: 오전 6:30 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1543509568555058115", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Shop+By+-+by+Oma+Yuli+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파사르 페룸 파니키 시장": {
+        photos: [],
+        placeId: "ChIJybImTpCghzIRpsiBN15HfP0",
+        placePhotos: [
+            { photoReference: "AWCwydg971Pn93rGs4We7y97PvibMD4_tLqhO2TbHK-iDSp2RFh5YvCHcuuonfZBhdhrVs3DWDYUZ5J1lyKXVZa-nLGlkJjFNN8ONVhEFuPqoO6-yYIC68ho0V_VwapLa6ueEdnVa3RHpbQ0UK_Iwa0ZatNCwqDXXZ9gwH8Tzdl23WmTn1pKFmUGgveausTU3RtM4wN52_2Q2jF9_dCDpOi-pdEl8Y9d8Kxsy3dJIpIsq5ciFw0KCjkO26FFPcui1spU6DOD2C2K5U137FkubRtJXnEzNx23G9qa2e8l8JioUB1BEhEJ_tba8Evcr4ia1dUqEfX8LKi7CMOI0zOWxwjJSanLc5S56JOl7y4p6E5Nuj3oZao5M6pBI0uauS8PZ04Aqc_R0DK1_iIQ-IAeqVKzNCmEwHfGARlzBDdmiq0PZOBodA", width: 4128, height: 3096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101660993013585949523\">Marcelino “elvis” Turang</a>"] },
+            { photoReference: "AWCwydiNq0kJ-F0RWkCvdREnuUBA96iOYhDG4s3iCGp6k40sSmcUp6PukIz6Xaocj867K1asMwYHtvO9_VAYxWzERYGnogRsNP4J4kClADoidQdWrkH6bkpNWSwncQbAzZwLvVFZEV-BcTuMHXhYZeYV0EE7jIoq61pP7wYNHO4_w3gbKsdPUKmv22pYDJCPUQqbLrxdK3_7oODT9f4fWSvBPRUM6qxEgmmp__2UpWlUYgHqxZM7iY1ro57cDHmP71f3PbhPzwV0okczzNVQuwI_TSvz__ZTFvqm6mNruAtm-ODt-iris3mM4w9Vaxi73q7w2Ul89uKVxUDj-2fAJBV7FskZFV6QyW1NRtT1SEMP3WWx2AtipHZ2v9jc2Jz1IW4poCJATtLk4wewoACttsRsT8gutobId6mNzM_7HxoBSugYYg", width: 4608, height: 2126, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111941406489942550902\">Kotekaz</a>"] },
+            { photoReference: "AWCwydgCPmSmBbDsnb_NeguXGmWnTsNDXk2Bd8RfHbVGdCzsYsxhtWBEcLh_EzT9cQzguewED6yuERIP0KjfaAx-W7uha1McTeBifyUfh01SASk9vGNBl4URf1nvXdEYYNgZIY5viPVyluKiXokbCmVB2PKL6Htm9XqVIb_C9MHTSaNMGkpPi5I9BT0OV7AU_qO7rq76lsghgxkS_c8aVEa1knouChLyQRWhwRkLnPSFBpwU8-PaZgWaAagnsBjhygXNpLr_m1PswvKgxP_fbyGqm8kBAun2RONkOEh2Z7xMXDY1cbwvf4ck5oyvxBXQV0PbmqrQkY53b-g8QG4QCAVbjqwWECji4wmRlKDXVofyH-C7Bx7Ug37YDSRlhqgUQ77axE3ret_9UXEV03dPosgijmMtpgGb_naFKz0O-B6fk78", width: 2126, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111941406489942550902\">Kotekaz</a>"] },
+            { photoReference: "AWCwydh8PuB9s8p_4TRcPYKRVsnlFfkSQKd3YYPLB-hw6CJoV2TcDmCn699vxPpmg8scJIZW-iuJlzUOW41XPkbLhb__yQ-RvMzH5ix29nVjq9g61RxZQudeBUwTMCODFRuZoZc0yqwScuk0EUd4_N_nRPcSbc5QrPOxnw3RNXEmT1EMH56evubaCI4Sx0HUyJG9vHpfph1lJrlea058BIxDSRXU0apm29T6Ibfi5N8a_IisEg3Djx3lB_OYIwm1z4Sco23jQuhKHwKQSMKlDdV_R8ghXUFaS4SJzrVoTFDSORejls6nATxrcarCw8sEYjcpyjEXmwnsqcmzSXk0eE54pmgBzbB2O5sdKHJh69WI0uCVWo_OO5kANa0qflzlo31g7AtHBvhelNU0M7cizJnTwkoSTNdnmb9bsQG-_Xo7PiRdnyXI", width: 4608, height: 2126, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111941406489942550902\">Kotekaz</a>"] },
+            { photoReference: "AWCwydhfBZPmlLzaenXmKHShbb1uYNjxklho5KC7hr4vcNCZh9YgVmyHx1s9aLJMr4l8YkSiqfKEoQxr4Sc4obQjHAG1GcfmUSp9wm3-mXNV2bQajSJdPA3dEufDiFvl9gOktKPSRbfaG6cvrcpY-UNvxcLM1hA1YxBlVuU4XTaqBEpTPsbFVS6dctaebXrbyQ6kePp0SZP20Z6AGvfRCZ_E4euRd5L5LsjiKsoMQO41ylRD8NZ65N3xRqK58pr_1fvLZ-W7YV9V5nN9uEY7t896794pJYcXIfqzGfbQ3DUwtQQRHOtEMkYqEUre1971vVO2Z_29jyuqYdZjQ1O-Lpj6DDoBMd78ze9SzlxgUJoJGIp5f8h2bsQ8gb1E1nJj6eliQdYMReVGo6tea0IYJWpork-fRLE12MiX5FsULYfe4cQ", width: 4608, height: 2126, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111941406489942550902\">Kotekaz</a>"] }
+        ],
+        summary: "매일 운영되는 마나도의 활기찬 전통 시장입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["매일 오전 5시부터 운영", "현지 분위기를 느낄 수 있는 시장"],
+        tips: ["새벽 일찍 방문하여 활기찬 시장 분위기를 느껴보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 5:00 ~ 오후 12:00; 화요일: 오전 5:00 ~ 오후 12:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18265552658691639462", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=PASAR+PERUM+PANIKI+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파사르 테마틱 마나도 시장": {
+        photos: [],
+        placeId: "ChIJnTyu-KiZhzIR6MedlZ8y7fg",
+        placePhotos: [
+            { photoReference: "AWCwydh4YVD5kJULfmp6UYtDteEOcrlMabjuF_WZnGDeecASOrRTOhn07dh_QRtaA-uz2bnAW9JYHYLJznOOV1xebHaKVVm2AcoQEG_kAy_ilwsYKtTLwLUcqhXUPU0VilfEsPny_fjQpzF257mOrFdnCtl_jQt28M1k2ySMjucZKcaqyKPj7OKuOVO9DYsQC6os-UjmTbk099bsAIgHzIrYRn8Hx7P09P7Q-tVfFZv28xn0437eWOn5TmWXZzQalh9BEG-rrxoRszNl9lEH4kw5ac-geyhSWgs3FrCGhc2_Hsl0AU4IqNUwKgh1g5hCTpPhorcyiIW_V4wE2v4HWVFuXjaazedTbfIsnBOfsEP-J3WRV8J12E9ZaVegQC2lsJcfGmipL3LCNHxfR8KSwAQumegfuB1zg2wTsZN49xQXzdcdQQfm816G_KMJU4uBEch1", width: 3264, height: 1836, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100404569461527555105\">Tatian Ken</a>"] },
+            { photoReference: "AWCwydgTcky0TEfdQ91azkUxgdb6flLNu3MNpeRtBDLtNeq3BixxUszLhexgEJLAHgUjL_rJBus7dQBKXenu5uxxuMOrF5HgZKQBERRJLLU77x1EQlubxYQgimd8yPdYqHHCD9bUEiFi-2_UVxldXeCmdlUuvTx5iedJTaWie3C2F3E8_RnxgAaF8OHNTepCVW9DIEJnHZ6IVbp59uNq1yFLm99CN93fmqVEC-HlIFYA2N_IL4KQSQPzpJmtcOYNH_782KzC_4fpgHS_TFbd-JUW3N-yl0rQxRDwRN84cRyfFnrYYBtCvrW9qGjJ2HDDquCj3jdLu1irbvTz4wumnvM6WdwTF0jZmqjJUvCSenk6EO6mhILyzynj2HZIJwTAzfy-SX9nfQqU8YVMgVGHyH0TItIxxZx6q7grSpUuQN58x9Huxw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113080354554085393180\">Sitty Hartina Pulu Raga</a>"] },
+            { photoReference: "AWCwydiEllgmbgj8SEOdJKLGWWlOr3Gw4Eq6NTx6n0unF2wZr2ek_UBBEN4_Myki8oti_xQTAquudllv6UxjSBf4bFi0zZlsPetVstR0qVM7AuY05rmy2zqCdM9rSdZg3o9T9DlTXyMb0YKSw0QOaCc8sbs749CD4dobTrL-q68PG-4ulYyEuWRu9ko_SQURi19t6eX4yS1sOjU4TR7p8tVHQdXTSXP9yN12WIgIEauVrF2-z2zPQYDrkOeCdrSYvMwuVvU-9Rm9Q4nVQHa1f3GfT5LYfy41EZotm6BlBjAp0wGW_PIe_idbRVi5MFJLwk8M1JY3E02-371KbISA7MWcijaSAXlykhJ0d8OeM7TdQzw_7SCj_gc9ENiMh37ABSbtd2zjyZVocN34mzxg4aEZvApdyTrnrD86fqfgJwcq4b9dxQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113080354554085393180\">Sitty Hartina Pulu Raga</a>"] },
+            { photoReference: "AWCwydgRAvNdJm0c12Vbikz5_tFM6N4ntp8YC-_QcJ0brcyhq4lmFbnd-Rk3dhTzFzheTQrm0ooGN7cXVzHm-ZB2R3Z8wIu6bUjnq8EoJhoculqiCRQjgfd6kAzA-1aVMfm21GH4UgRxzP6JHQiH14BXipQezm7ZYu-4SXM4e7Yor_D40vlJmOpZD_neSICNdwdjyce3GikOW5IA-WO72kiJZldEMhFTo0HkUFMkQnP0xAFirY7Ny8kAFY4Mrt4ou-CcMq7yQ26aj1qwk61bIyh_iZ4LnNm_vBcSvZSXehJBd3dUyr32kfFhn2MVYIYibuF3Z5wAQACxqOF-GMK1tq8hf-8rWsSDxTs97QJ0nf0dWoyIyQFN7LlHSpedZMo6RYYtrFUWSQfJ3Lla7TFhrWtDQHsLSsWXvMtfgcqSqxf2K7mhBMbG", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113080354554085393180\">Sitty Hartina Pulu Raga</a>"] },
+            { photoReference: "AWCwydjWqjkiqDkL1pgH6ylbc29jJn1DAn42eCXYHQ9HbO4LYZx0LFp4HcZIovh1lvhkeOprVyzE6TXUyY4vp4T8Ewjr-F-jEnvHW3saBDIr_FBYuMvjO11pVDIZQG699vPM-ws-s5JUMsiH74kKdw-NV46QLN9bpQADlkIHK2xgMoYuYx8ftpza9rRxGnzbQP1Jlf_mwa-2kXX84SlBIPyMtf_Jrw-dS7N3dadU7lB4xO5ujKynRlNY5l4ROVbIbquNCReik1nAnh6GCQpreIhnMR7sxteSqgtwUZDJqzRW4H7kz4JpYcWtbHHWhv_HMfhitCpeNkLB0ln5IB1KsqeFCy0eekREdo9v3m3QVAFqLsiuliHsj5a6FPxJfcKGsM1KZkBQsFaXxDYA6Rd_5SNrG-ZRjcLgweWAbgnOtpXdx8c", width: 2340, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107336226124831818350\">Muhammad Haeral</a>"] }
+        ],
+        summary: "현지 분위기를 느낄 수 있는 마나도의 시장입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["현지 시장의 활기", "다양한 상품"],
+        tips: ["현지 분위기를 만끽해보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17937048551877887976", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Pasar+Tematik+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

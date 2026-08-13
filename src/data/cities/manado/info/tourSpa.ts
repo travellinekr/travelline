@@ -334,6 +334,338 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%88%AC+%ED%94%BC%EC%8B%9C+%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%8A%A4+%EB%B6%80%EB%82%98%EC%BC%84+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "루마 알람 마나도 어드벤처 파크": {
+        photos: [],
+        placeId: "ChIJ_ecsA-YKhzIR9SpspkYq9lg",
+        placePhotos: [
+            { photoReference: "AWCwydgOnJ7npg1WIzbuNVk6sOcHsguXFZUl6NKyHlg07ErvN4_dNhR4Imj8fr0MDtgbjthdPRTrj4LQwGtuV-zcDS-ff58RA5MzAqMGWSDihGE3qAwAzlriVZi8pinLICzBewq6eOIUym88-ejvN06KEM0BM_H-rlCQQwN2BsaUxsoEi3YcfTSfrvW3ehnbsJUyNnLv-1jt1Bt8cop7dHI1XVEBDm1vhB3OIIwDl9Cr-Bn4GX5ioaWUiEd-cT82uYjmv3t9N7lPm-gYKTIT8fd8PVmrJZyILdsbW9tW7V9_ge0mTINKmatimnJckIKQL-DlX0ZsrnnYOiSIbP0_SNG5hxaJ6sNP0Uw3MQwatyrB8k__8HZk3Ip-AR9-UNKMXrmJrIWUnq-fGgaxgFghNJlH1RAfyP3sFZS2PUVHF9aglELHzw", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110919956219768286687\">Frisilia Wala</a>"] },
+            { photoReference: "AWCwydjSzxCaXiBbHtj7SA61bq8Aduos3EaHO9Rg-KjywTm0UAgNzUKzM1JI2U-qgy_21HBEJZ4vbEY0ZzrbdyBgYkFvOZ2dje-fk5KAhQ59MzIhplhBfe0dBGx_HdckD3fhf11gubb71cACSypcB-vXSefEkPYhlrC3ryefLXENNSP68ElQcwgYb7aEW_nUe0kHPvxnr_E9hiCX4LQJI3t4gD3aIwkFiTKbb-ySOgX2PTDobbWiWG56309hvnyhHY_QfscQwulcq5M0MKQlW1Nto6UlkAap-fEpcjymWwyeZ8R0sTBoo23POo2h3ZfV6_gIbc9v2iROPWFrxTOeK_uZGHNkQ6Si1qjsA2hSmXL0Y2wE3ogmPfLN1IPz8w7iRWFLQl3oYEL2Q8QoDe0Yj1wIGOmBNyoXX1YyRrQsiU8rAxJmz5A", width: 2048, height: 1368, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109376945104604358598\">Salvador Heydemans</a>"] },
+            { photoReference: "AWCwydj1nwoc79KGbo0FD6psjlay8bO_vY_QfJNMSg9oU6ZWQUEc8Jgw_l3IQzOdXOo8SzSwH1lCOlcBM112ddJBI7jJo1e3Zr7fETA7VD9ky42pWiy_JtW1uTlY42Bp9z5Yar37vgNDkBAJX6kXTQ9iWYOqalUOE9SbnAbAnPFmYpBHutTT4FcIvYfP-53Uty8HjDmmZv10rDMFfnEd32btyiViDR7wnOwl_X_uF_zGhO_ijcQNzfg9d7HZQetNF9BLOB1gzZ53Xgf-UWUh36DCUXcoHSlIC940pSGZ_LaZrjfBpgOgHZB-npKB5aiuD56qIZc1OWSTvPwHPj4v8_oF-5AW5KgLTzLsOnOKJammx9JZprlfbb_2YNphHFsDXuenHi9NjCtnAa6cP8eSFpbpFK1Mm1WfKDXlAdd88DVhFhCu9w", width: 1960, height: 2773, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111474500159861288195\">art merung</a>"] },
+            { photoReference: "AWCwydjWOCeARiM1ui61eNz8WX1yWHzW3QnKpP3ZCD22BU9otMPDKoRCxp9PiXyPqJkbV01V12x1ubq8Bu-7bCE7X0Cj-vEcE1I_JVB5-h4QrDQZL7KDNel0602rCbxb6IzaOtcp4Pknjo32H-1ny3fK1q3gqRAT4148XkKbqoo084aVgYUkCCvS5HkpLzNOzjJukaZUVDuBp7W9_sWyWo8OUiovp9XQTrhEEegFnHzr_KM4RWsrPvxdHt7Q-PFrOM-ope6Rm8NHA0F6jCnCtMAFsiJptElArhMiFXmiXzf7t6O_dl8vZbDOf6V3VjByaURqkE1jY3ohcAc1vLSB0aipBh2aC5JxIK92WDFQ8kam57Y0rjW5L992aqq-bj1IcaPmojkKHmnndTWtiZG4fjmhe-Nw4r7TYSXPPiJCDysNIvE", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107381697941312290467\">Reza Worotitjan</a>"] },
+            { photoReference: "AWCwydha-cf_TUJKOkk0RiH0cegCZlkZ10PFo9_ABsfy7m7CoU68pFT5QhWdP38lwKnIUSJUjgRZqFdTjkUDMvEM2M3fqb3jn8rL68G8PbaMvn1LZfJx2bB5wX9ghAKWVgbW2k8-_9ABAZz1xtJGPFiwJ9DaTlN_faLSOT-itlDbdj3M_RHAF9zsri989gVTq5QRbVKqHk0xkpEcHFk7rIHu6OGwCZbg4dZV1h4gyLrGXhZceZ8K4jBbMp_GIA9F12ldZ6D6xk6oR31BkL7q14SJVIJY0QICeHSyoh2LptoT9tAb_pG9sTmjXsdJcm43vPsrcyCvrGJA67l1XqinIoRC9n75Lmar-QYvw2lx-33pzgLI5fbfqx-_utaN_47HvNrSiuFFDVqmjZYhwVeNKlgQnXjVK0D_EmhDBvFV8xqNeGYuXQ", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189404681929119303\">Mentari sibarani</a>"] }
+        ],
+        summary: "모험과 즐거움이 가득한 어드벤처 파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["다양한 액티비티", "문화 체험"],
+        tips: ["방문 전 운영 시간 확인", "현지 분위기 만끽"],
+        hours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Ring Road Jaga IX No.Km, RW.1, Maumbi, Kec. Kalawat, Kabupaten Minahasa Utara, Sulawesi Utara, 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://rumah-alam.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6410357602536663797", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Rumah+Alam+Manado+Adventure+Park+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "저스트 릴랙스 패밀리 마사지 & 리플렉솔로지 마나도": {
+        photos: [],
+        placeId: "ChIJOaWTBk91hzIRxnz0MEw7O3k",
+        placePhotos: [
+            { photoReference: "AWCwydhQJn3Qmwo2qZJdbd8ZtgCioNPh3W3fJzb6QKUrskIvzastLX_A9QbfZ1c15A70ZBSBx04HUqITILL4-DTFjIpd2YPkwyBOeGhd_h8CT3aWLyMnnNkb4Dxnog87WI2SQvnEierTUUQE-WqYouBS-2llZo7PLTKGz5TP9bRf6Voy4Asr62HG21Jt0EdywPXc9VPyUBGstuEasf4yjcqxnbVzlO-dVhCs8fumkFNvE_RN-u1fGwGBwLHjDlMH1zOVx6OF4HWAxleLNX_ZrT-Loy-2UEDRWONLqjCMEK2hkeJbK4HveQiQ7yZxa9pTVZX3UqKfYoL4hAKikx3joDwVePlwWcAQ5HxQT4gAqOODxdY_OEJHhnTMJOKZpBOhtx2GIHZj-J7isgGec_I6QxrmHGMTeGY4O7SWIZOzpBLMHhL5OHo", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107430405675062696912\">Just Relax Family Massage &amp; Reflexology Manado</a>"] },
+            { photoReference: "AWCwydgj5k5o3tAKw9qna9TvDuFjv0MtYySypMJ32W-MiWv0UyGUh-lsiAeKdpyHdqSEjXkYDS6Q5V2dgDw0gj4QthvFh1v8teTnVRLX9zKsCd8YegLyXtJhl-bSj8656Xy5_mKOwpBNv2gIdfeLp0R-GEoPiOfyndHR6KzKgbLZi7EA_0XYfOBP9PktX0tPg6hlhBifxevTSTiTvVkUUa9YxDtPPbjl8gWaRAQQtXTN7KmlUUgU5tPKmGBXhQG1yX9oUhdMHHuShnN1RS2Axb07sjluVrHxkAKrY_64kUQVolLzC3Yb37cUPwj-_soMaIBYHPYaMuEt9csrPneRBnjs4sa1ZV9eYsYbKjd4XlGUAByBEoBPgLzxI5pucnPlVfeL_wtpQrgyHAoUZiRdfaxTykTGD-AUpzPxg7pQc6e2VB4g5dYaEb3US_vGbmzcpMd1", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106382633988584581511\">Jamie Chan</a>"] },
+            { photoReference: "AWCwydiRhepORoZitzs-aq9K5wK1zVbnpSV3PwPHo9nvVva7tHbZzS1ai7WoM6t8vlrNt1mJ-n34MnNkeXb6rHJ4FID9qAvz0sKrkPszVfeCKeIrkYZnNGjiWn3fK5JpkIeU550IAPmakhzqdo8uRGzC0ClbV4y0cHaDeGfwfDWbBDv-1XMpP-kHdy9y2tYHSSjWaDScX1fCyuzkqpsLjCOU93oA7YmL5l-Hj3SSAQqfOsryJxFtfEcQj7NXsWY8aqQYYdAYdpMlnj6BlOctaqO0-DN2eLv71Xbqv2Tmn-Vfqf_MwQUZ13vdkMf0BVPrPBIV6_PRPKxQfw9cft7kq8QJt9UTVfeVILF-TWHNB-ulMISJ1TWkE3EaF3lwLZOWrHFCzvwAglAaL3Pf2K5rNkrQXLhfVNwLaYpAzTHWpNgtDxd7ZzTO", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107702342013922297817\">engelin kalesaran</a>"] },
+            { photoReference: "AWCwydjwpoEOKKWzKYZcs5OsMA3_EKIhA8RkKWAYjJQScMj0UQl1bXTd54tnMvR_o-Fko-ZnZjXyNjGCsu4MVWxwL-s7kvSCO2ZHMaH8yDuUTmIi-3II1qvfmNt_3fwS20W613tbWWsI_RxbfV_UYyLPajpGxrKM5cjN1X1K5mwijRcE2t5uqHKwPMTC9UaufuBwdDguykPGNcUWRGwNP4BfotD7eae1xDfQDm3nbSyMrsNtTM1O0ionAcowRka0-pva0H7vlj1H0sxWNpMMrKeH-MdW7Rt8chi-E_wvWK7OYzP9DV8YH_FsxDSUaFXsR6xqXgc946sZLhNpSrudgWe54xIESCAmobj_IBi6iO0iMorGUUceDJLJRN1otL4nZ2kqTtbjVpACCkPdnim38PAzkNlvb_RJJLQMhU49-yxsTwIPU8XYMzh33JvW8k8txA", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100973311578397145457\">Indah Lestari</a>"] },
+            { photoReference: "AWCwydhKQ05nwnGKe_o5jGro1OJLf_U-815w_6yKuguXEptH9m5PTWInkr1fj02sEov12o5Vhl_iqP5mebMujjn-PCBHZC3IZizT4AM1Js58Yj1yHlEZBV8SOT61IWth9qszbBJbbueCQq5YFff_Igt_0O5hD3IhHAEd4vKMNuJkZ3cMVLAx_4wR1NF2LNyJ0WwHeesGKNXGqs5AeXrQ0w-vXwhZWCRDNeWViE5MyJEQnZU2kQctE8KJlht94H-GQYsYM0C2m-b-6DJDW1XcUvVDQlWLFgOvSZHftZ1dRtbQvcddGRV_HBfIRcv_ScXKC5KpdZihC4s6-WMISBBksMOnKPCBtllkndW17Yf5YDRngstVytKviBk9q0c6vjaJYVBwBf-k8fw3PTltEKj8e-ucKQoDawjhhmrqBTc7ZqQSZSxcbMsR", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117477291176151104812\">MARY JENNIFER DINGAL</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 전문 스파 시설입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적인 팀원", "훌륭한 시설"],
+        tips: ["60분 아로마 오일 테라피를 추천합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Sam Ratulangi No.85, Tj. Batu, Kec. Wanea, Kota Manado, Sulawesi Utara 95117 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8735641100640091334", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Just+Relax+Family+Massage+%26+Reflexology+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 올리브 마사지 & 리플렉솔로지 메가몰 마나도": {
+        photos: [],
+        placeId: "ChIJOetx1gN1hzIRuw6z-FGdf2A",
+        placePhotos: [
+            { photoReference: "AWCwydhr1_6kPOeSlZlh5vXdpklx4lYtOhAz8WpeXbeS2JNy-_KyZUZgZ5ZzJNAfHinDw8_EF0A51VvBcXEwI99wDiq1bT-frJfiU2_Dy3lP_Kb1w6uDg2IjtWLGHyNuDHiteRRi2Kfp8C-daR5mHslG3JC0Jx8_fY2dKJrmwxrc0Njm2HjMtL2rVnTVs7_7ApdeiF6hO9DTiqllAmXX47z3ozy7GKPXj3L1Q4zOIV0W6yMLMAKQbKwoofdcHUq65LDKHlKVy6zr1KHL2Cj_b1-_ncFVuUO1d9XclRrtACtSfc2co4wI4d46HoN0fcZ3eqTwv51jkpONsbjddesCtmmhanL5JsdOcAI1HOg4mJcW_u2-3X8zfEkNxMaGclwBzUdy-8uFdo6InJDByf4e3vRI1c3TKdmtKiMsR77kr0Y1fno", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106273852325895924970\">The Olive Massage &amp; Reflexology Megamall Manado</a>"] },
+            { photoReference: "AWCwydil0VVsH0kiWIvdZNQsyU2sTsqaF-HZ1ihrKGRdeSKZksKMamrlQmXPEazscmAKO22jVVR2xsGwX4k-lDsa99bYDx6BFwtlRiApSSa6AbiMNW9S4sqE5P5V1jeO0KzTqnDUQEni-oxBWr2ji_JgAXtSOZMVG8Yn32KX-FDwS9EuhkznDWV8bTN6WGxXyK2jzF5OnSwrnfZsOK8FPedt_tZdWHw2EGcJcEyO2lFHEi3yrylXLPicZZBmy5iHZpPfiRqw2hb70wvxjs5iMjR5m1d_40reGnhiaowTUX5x61drcR3ka7Nddx2hbFCB3Uzasoq0FkpceOuN89STnEff9TxmnN68dRcN-eaXFxxHfRf112yA5vCOw-e17mK-_8TOKcmxoljEND32aYXKwfQmWionsZCLEljcmraV5H9hDPZmMQ", width: 4800, height: 3315, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101901822309155744251\">Donal Pangihutan</a>"] },
+            { photoReference: "AWCwydjfXhPmZ_V5r1jTTqxRd9zFMBWHc3Vh__aV9iUk3qEGsBkUhJ9ox11sYSDOyTUWA6MpJCuzBOErP4kuTwFv_Q2XhxqDbEt2jBoqKqdGaMMp93rgp6UfM0tU4aoXt6L2efq1_Orzq4Injx0mEeQJ37xh1rV2L3JvRfNPnNN7GcCB_giqTD0h5z2I8oFToEdxVDWaE9OjdU52royNbcrBynrPCuchgnbm9jAjprL3cCigiOcBuTyYSx1XfQL_myXiXZMnXUs1W2NNMZuTDk4YMIfynj88FffeuYVYJRo-JMLKWr2HgYHxRDBpyMgKchfvxRDJubCGosu_ep-BTCQN-Vo39CBvAs0XaWOPZ7WfZTfV0HEv51ZOdy8r3uzGG2M5fwgRCfLBvSVSu35YWDAVgBowX2YKaQNv_IV0Y4aTAMLZOOgg", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112957601701376521273\">Kris Laurika</a>"] },
+            { photoReference: "AWCwydiIlV2Vx1j0Gl15QMbqgkpyf8KAAjw9pINora2rdvDsnT3uVlFWR54KSuEl4nUm58mnH2XseYp2lI328lwmhlHh7xzrr8YNUX0BL3tCpx5U54IYo2sUtlf8Nc5BRxNHgn0EB5BVrQfz1QmOJX3dn5mralsgJc4PtljjTNEZLazzY8iApBLOiS2fQki3VJ7dc_luJuCHrmlHvvInw-wXsD5yMbUKkUZaUausYsUbPgucKi5aY0RPYZjLrSZ-I3vHTd89Xwzxl2G_GEiHmBaZXwN6lalLx1KqegxUVMqfvUE0Bdmsi9OjOxQDy7IoIxLZIhAA7ZBZsQmRG7XsbIZlntxEsAgNMWsaaOwwhddFcnV-75h-aZwE3t1jr7Rxy3o-G2tMLGQpHx59NLQkMCYlD0mfEDO27eFe8TyYzY0SGBcZU8WZ", width: 3468, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102530604986597817511\">Octovella Suak</a>"] },
+            { photoReference: "AWCwydhMW0lGQfxJH1emXukoshc-ahXDrRBlUCWZRmNpigkv5iW7CsOH0fiBJSkH6fz73hkVUL9mK0XZhMasU5SFcHFFCF9gDsHeorXCdP7wyAMpSjdr96BV3-zyMrjE98p5Cj8vMzxPvO3ETzCh8weiT6CxrSEC8brtoPm6ieBBHE900jHYhY6-tUkhfIBcGkKBEaJO6EEW_D_2hAHiTKwVn5ASH1QCjO3uf56jq__U-Y-PAgoPnZu3SPvAqMJWYM_d-iHHo7EekjELDgcbRhp28epSse10g9Fxk8-jbx1mvm40L4IieytT4IL2d2UfgawQMWqSLpRwjaPZsW6Qy8Juq2NKhhNIph3BU3MJjMRqhM6wLhQjOoOMA6Q7oc4S5RPgN0Rljk1WEtB3QhVlZnVUloR7rEQMnasNJHNK7rQhB0fg_WnWRURaXho5uMbYYg", width: 2256, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116848588577559167991\">Ricky Hontong</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 자랑하는 스파입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["5점 만점의 높은 평점", "2,632개의 방대한 리뷰"],
+        tips: ["리브카(Ribka)를 추천합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Kawasan Megamas, Jl. K.H. Abdurrahman Wahid, South Wenang, Wenang, Manado City, North Sulawesi 95111 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://theolive.id/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6953449325073731259", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Olive+Massage+%26+Reflexology+Megamall+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앰버 웰니스 & 스파": {
+        photos: [],
+        placeId: "ChIJV_kC5HF1hzIRwpAyCfBk1No",
+        placePhotos: [
+            { photoReference: "AWCwydh0RwEuwE5n0iFTy2NE8xL9SV2L7rUUqWLFcnYutg30RwMp5qUqBC078q4nD9u27vIlLF-e7zWzvfgCJ6OrT9QzBn2Dvmwb6Y_KIACY3CmFoPkfFIuPSZp177xFg92J2xpTR70-zgP9dWdzvElZ-8jcZBXrtIwVyzZJmpcas8zm7XLHZrG92wsjRfWuwud3b1vyIvHPrZcU8r804azlW7oU6eHXjP-h8aMWsr1CgKWo0AZ_HBy1PTAAv9L1PouJSgY_4zyZ_h4j40WQdej5KHN1Ef8QwB717_dLpWdRIUh7rRu3p__1-ib-HpJGVBk4pzqBtqGxNCMWUzwCDJVccTmi6Hpx9RH9WFBdezgmNeO07XGNfiLe9cYsURI04u-Rn8Te2f__cZlQukcUbxPDiIWWgwcvi1FaFVWL8g", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107282108393309559448\">R Halim</a>"] },
+            { photoReference: "AWCwydjOnDZB8tJD3q2aGk5jiHw0Nn_uMgOqyPBOteyXTo1y7PXts3QDB8y1M_qhzhDYO9cgywwH7XalrrPv5WmIIEqKggASYfOC73sH6S2fEVj7owwbNUTSD8n7AHtCp91xol1Vz4ld_cdrpJTvaL9YWzavI2_NwyzXf44sbvHfUu6kMc1d9PoRwrZP_-CK8-iFcoG88h0Hhdl8pe8Wb2jsEiKCnqEgi6N2WDgfLaC4TEtHE2nw0fgAnmhbbdfU7VjIT4bkfpRbFYV6kqTAnswNVRegQtRStZD5vn4_GV43XmisCK3PMoqr5iahy0zMH1L60x7unp9S0XOsLQxo-ZIka6eYYDvV-eTrO8zJt6cOxhB8U3wwOusR-mcz_Iu1WC4S7RumPC1mqmf-wb_Ko0NCNvuTnZujmKtddKeCj2mP5ss", width: 3750, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117840984048810887042\">Amber Wellness &amp; Spa</a>"] },
+            { photoReference: "AWCwydgeVEiAHm515QY7vQE5PPkS8_Z4AOTsDO3FMIp2biaTcUPQnJSq4eTiRVBSvV9oBnP1UzWK7g6JxwGH7WaWHHqk6b8Wi670-lND_8ZSQUS6ANKEt3xz-DATqpYWyyYNB06EweeVrtvPEp82Q6mOum-1l0MvpYucH3G4Tl3BH5PriMEZ3B6klgSTWSr8QigejEJGEGD99YGGARHozpOekospJoKRVRxKoK1xcibNxU-OU32da7qU40Ct4w5PV274BeDDVfvb8P06OnlcGHcH-rPOPcqlksV8Gfshi6-ZoGycjN0xeAAx42NDZImDuEzCXNBEe9YjiThC_dWSZrYI35yFBVBnW1Bf-RR5oT_ezc3PJcEGUrmO0QRzITdjB7dv-U7-HjDwedb2YmKeGgnuPPw3SS4qWtYe9svptm9l-kk", width: 3500, height: 2800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103098522705831149576\">Amber Wellness &amp; Spa</a>"] },
+            { photoReference: "AWCwydhxjThok4BshUZQBaLYtIBHFOnYEFe8wCS4WiwxpAi_XgOUVr0cEQgcNJV_XYwAWMP8mDH8bB2lcoXq36uCO3xj-cFUPG1K3ZAdmcgpHgXRe7qdBMGGO9zwbD6EsFY1V8s5vWcIEEeaDoL5lUrFSepms2nEs3f9hxlm8qzK5LmT9tsaS-odKB-1Zrn7E_Z9bCAtwY0NDtuiNquyd0Z0p-H6sh7B2Rzsoa0pxE6m3h51kuishRr_rdvRIw156ct8fMEJ0kSbJooxh0VL2R7Q7OrngK0dcvkP-PZr8RTP6fT6XQV4EPQTndpXjDnQZGZ-t8s4pvLllLzOyAgFJBTgcBtEYKDY4p5bEY2tEnEd8StI91DH3itvavTaTUygadlrZi1D6UoBZ_aTRuLMfvVaENSPOp0bhkFr9YQQfniEt-AAE7fc0yZIa-JqaDO8Zm2T", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108063621222377658436\">Ega Pratiwi</a>"] },
+            { photoReference: "AWCwydhI5h5MxQUFHUB1N7Vpente7hXmDK9LiKcr0dOzVlJmq2J3iKf4_ywIt9U-kh3D4sYPoxaPW_UUg7uKEu-MJKEyf3Py80Z0TQ6RZmROTintudDSonfzqwPHvkVNLPOk0hyZMAb6nMHjY51SqlykbEV4COndGIr6HKc3D8Uqz-uWHR8AHZSKysvtRySWfYJ4sylAgicQqAl9c6FA-nQPGYt3_wVCQeNHTmpkmPQfIfa8GZOWMi9JNEpru6UF92vldPaEj73dTS2Ygea-pyOstAYudgGQnVoKT5vXf4rgT_9uIuqTZyTVfxFCuAlLAYLFXe60KsRPYaJqcdJGTSuqB6gMKTZ01z8hZarqEDFQfgfSmS-QPPfnrsaY1elZiN_uF5cWst97-iuwGhvzE1rU39NzOpmkTkZHJBroP7O5781uzZdz", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727096453577818166\">Go Dive Indonesia</a>"] }
+        ],
+        summary: "다양한 패키지와 편리한 위치를 갖춘 시내 중심가 스파",
+        updatedAt: "2026-08-13",
+        highlights: ["시내 중심가 위치", "다양한 스파 패키지", "청결한 시설"],
+        tips: ["시그니처 스파 이용 시 헤어 스파 포함 여부 확인", "해피아워 프로모션 활용"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. 17 Agustus, Teling Atas, Kec. Wanea, Kota Manado, Sulawesi Utara 95119 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15768339177440186562", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Amber+Wellness+%26+Spa+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "나카무라 마나도": {
+        photos: [],
+        placeId: "ChIJmaESqSihhzIRIIqSznPVxA4",
+        placePhotos: [
+            { photoReference: "AWCwydgrfdnzK8rJSzP2gw400DhuTH5GykN-4dS1SobhQGofsye4SWGyMY1VTwSNxCSOm95wdplD75aHoxhYjqY3jK5OyKxigIeyKUTLshSgl1BF5KUTIKoc-FH3AfonXxM9ksi6muCEW6CfPyE6UF8CRBF_h1h5ftLcCh8B1UIxDfj3T7J87W55_Gzust5rS3oDQOz-GWH5ddlpkxRMivq9YO5YhRm7xSWFuAnyrqhqK5mBPuV-GbE-lV6jaEzD93-QMCidQGFPBs-YO72obs6h9MXlQ9HrKoOMkQAfpqu6u6JeF9GPqkU_EYUyJUhCHNiyt2Gw6FoOW1TEdn3Ehgw88OhvDvYxvrNp1b4CRTy-O5TSd9-40uFs7cPiyb6CgCI5WeJ7S4EK8axwQpxe8TJ9aDRazer3kBZf9ju3UB5ME_nrrODQwK82Nm6c0h5PIg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103256883944514733199\">Yuvita Goni</a>"] },
+            { photoReference: "AWCwydjcAWmucbwNpOLRH4WIon4vd9f2PEdaWISCuJkSf_Aj-6wkiBAMUvWkNgd6xC47ulH_iO0pDy2R6j_66GsvdbPTpYbGU1oh1LZz6olU53GP0qKtuqzU5UOf0WlVLawg9di2xYOVN6-OK7e44615tbHkq_4vOJv2HJh9d4i0_GGODxvU8WxR6F3pbIGu7RXAaegblWeC8aS16FFiJ7LcqmlRzExLwZVJfR8hAjEwtCLYrEc-2AvhBKCE1Ts55_8Fu-KlYuvrUSk_Rp4zBAChp6NdJZVYB2RAhYHAPKRSJ8rhEsBeusoXpLF9Rosy41OrtOmWJMp-tCGf6u7QRjAOP0GzgJD54cyRXQ-bE4nRYifsWY_QAKhCrYMmM_pM30_cdACsM951h2ajd10rC01BilzyPu4rirOJBrC8IMudo7fX3frYX_I_r3bsduAWBn__", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105168204529274391865\">Austin Tjong</a>"] },
+            { photoReference: "AWCwydj4bu0vJ4eOwtnbA65ylRHKoxRR-mtj0toq78PAPCSPZqkM0YwvIH_SIq-0K4I_FT7kBE8ix5pI-WUVhkaBHt5TyQ-4WcCUAOdlc7ayUM_Aur_90Btp9OL3hhA3mmG3zomUBIxKiLMfEL10ak1ZVp2tBRIXkhQHTnFIGFtxhce1xLQm7qI5eTV0O_u0CSKGpsFRMhc2VTgCpfiggZBta9yPIPsSl6o33DAXsPdIjtpeRApmaez_exEY7wZhCV722AaKEMiSZIuMcfewEhT4lgV4MsZQ9URhnTkGfveEUuoaoFBcTx1TAvnDAXBCG0hODenCAwt1BKHil_d0yhieoAFhG3J6_g5oVZ2J5B6wx_ZHXDKlY4ofyOGYoSsQNIzOswjnjYfYbIGfSQb0AqipLEi38z14ygp2dyyLHGAMS2a6pFbP", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103628187452055133763\">Julio Bernadus</a>"] },
+            { photoReference: "AWCwydipI_wzfR34s36IcgidJPLqHPi7ix1yTyceMzq5FQYKhbl9do66MVm1H0jxtfIRVGAozow6GFEJnZmx8HKqHre6aApVK5hnus_Dm0qDLY-zJH6ZMAdjxcQnr8U6Ftqc76WTJ-oH1LQlucq6dJv3IfJbAwYHKm2xqy_5qSyxYSIGIPXlk1CjfdGFZhRtFgJ6lo1luQbWH9ITiyyrww8xI_mqtff_V8kSYVVyquH1DqFuFGmNuAijlQeREbWVdnItWWyDTn1meUKih7hXo6ZU3XRXJtf4WU00jS5--FU672C0wvqdLTTtoR6qhXJhGDn13dLRSrlKoVDrO790YqCXc97kg_yKN-559tGf1_iiuDpxmMgQUFSaKU82n6MgtbQ4aXHpZ54Cvhrc-nxMphkh4MjayQqqkp0EpEv4Jqvre0LoU1pbu4HBPglVL-xXbOh2", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117658640363435513924\">Andrie Andrie</a>"] },
+            { photoReference: "AWCwydhK31aj5BWlSp3LYcQdj_1dE_meIpBALRV_A-3nTAl_2mgD9YZAY5e1L2BtwpAv0mvPAXka7f4cBYCtu9t_JjYYNh0fXGxSARgwmg8G4qQevW8dW3L5IV5YlHDxU1I_CbfRFRPxpLlDphc-xSijojEO4coDRq0yukSuIIwaKOqCSOnzG0JzucIeK13JapkhNN6Xd0bwV6Sm17ZqHwUUQUdLdd9tmXC0b4PAA0L_wTEBgat8Y99P5VAX6Pp2RMFGbaIi6udcqZInQNgWbC4FJrkygi8qV9c66EVivXDuJCSx_QAD2V4a55rRRklt6tk0XJBJnBR_V74n2Fj59MepfCZ8bN39OH8MrI1Hs1Yn5rji4sd_q3MlPQduTHAhSK0MKMAvgIeL5oUGHj4zT2JJafZSDUAvnmNqhBIlgA-DmOM4qrl7FcEH4M7Lw8gL-7UT", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110386106037484257315\">Ireyne Dumanauw</a>"] }
+        ],
+        summary: "현지인들이 추천하는 마나도 최고의 마사지 명소",
+        updatedAt: "2026-08-13",
+        highlights: ["현지인 선호도 1위", "높은 고객 만족도"],
+        tips: ["마사지 예약 시 현지인 추천 여부를 확인하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Ruko Golden B/02, Grand Kawanua City Walk, Paniki Bawah, Kec. Mapanget, Kota Manado, Sulawesi Utara 95256 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.nakamura.co.id/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1064210105329945120", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Nakamura+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "옥시 리플렉시 & 페이셜 만토스 마나도": {
+        photos: [],
+        placeId: "ChIJabmGz2R1hzIRBvXfFJRCbK0",
+        placePhotos: [
+            { photoReference: "AWCwydi_54jg3K-KMpD68VWbdSxDeV0qbJm549iMVs7bGHUD9A4wOo51U7Jh8UltJskqhA9GkCdHMpHwsiSW6VQ2reAfjlxEze7kmUMBVJ5AdUiuKn3sV22ij71rnfW4uNB5MuX87WK0eVHCCGxRU5keYqKpOD_9faLsF8eCJOd8PoOebHmGFhuFdooJivIQxvh4g9aRvZmk-YeBMJM3_QgDVRo49CA-QVlgiiblkRSU_cS_7U3Za9bb655So7UkCaDaWBMicN7bx029NsARPUATc8Jnu761JIgTVqI3WCwdMPkmTobQv9rpm0w9pg9qJ3ir-MAGYkJErEK_ATQx9jJvVOKg1WY1uXsZXHbD7pDx35fn8eGIDBYEprT61sXL6lp-JZPnaxijwAjOOviyV_zXlactME_bFpZRV3Npm7T8sB7BQSxUzeUOFvGIJAqM6YyE", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117360783031463573400\">Shoshana</a>"] },
+            { photoReference: "AWCwydjKVeo7FCi2z2FteaTAVcKi2FjccCCgW_Bolv81wFRUvBhGjmV4whPWrRnMx7SZ4rWoMvchgMmU6h1l2m8VhIuUxe-ffKyMK4WhHmQP3sVLB7JfzEI5NnKk6GP3XbtkhOZmNwSmY1vE0ievcQqUeWXmLzwoL2YFR3mH3SSf9WEyzmuU8dwfk-zPzZxaC14KR9-xmEAm_9GiL5DmD2adfsqy1Kaf_2uwqc-_wMU7S7LZQ7el8Z73YfudTglpurNkS-ryo47Ei9_rsIBCjltVTmlwKRyxRBS56oJ6QbkxSgazcJD21xDOylitqzIuTYFLqWdR27yIbYfPgcJP0JuR5lEoZZh90b4Ko6oMQO_c4jiW7BgV24BD98EpHgFg6CwANqwIi3lclgLUt9DtUwLSPMbfvHFmseB2pvqQkCX2YIyeaAZcXeCCWxU_wxKq2_Oq", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118085132329322025917\">Inayah Tania Ahmad</a>"] },
+            { photoReference: "AWCwydgwRc9ocRiv4RqewXJHYmHmLCd-BkAQhdoQzZCcsVc3UUK1FITZK7fQseoXSOpeT7Q3nq5vFWOlTROC0GF3yY2WnASLg3DX7Bi17JZG4iYx0TR0_NpH5HSt9k8HrZ5gyNny7V8lcBDxAZnSyUfP9vmwoPybhRsjRotk9wLAnOzh5ihWIIF_R7ZVTKit8PxVvv4NjixcFi_SfB7s1Cb66tylTO0CpNStBGzlGBU1AqfX-Kkaf6FkdsfVjOEQrTCtFF5S0S1Vf03lu9E7vUh8DK6V4h4F-RqSnHH0tw2O90INwepdQvH0gWqqPUkzh_RvJVYW-p2-IxohHidNH-Y6DRXbzz0B-q3G4tgcHXzgM_D2VLTsSWb9_3n08ra6abhb9aRvr5WRDofAkvDviQlQXWe2E2NOvdtb9F9z5HMrTZHuTpcLQYUZgy_bZxA0MVHO", width: 2304, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572470979155893545\">arip saepudin</a>"] },
+            { photoReference: "AWCwydjm5iScCn6GahamCsDxWItKhFnpogxPmPsuhAuwvGkVWqip5JO-QlIU7u4aMVT-RxX8ziVfIJ96FZIypA5WBo6uF6cTzZfjtdcu8KqD9PWvPVfjT78mx8fZZ1RJr5HWiEIpqfp_vKlUSIeFEMrzqhgWB58wYwEVdVFQrZugM2mBU_001o_i8Qm2HiFe-4xHAInhkVnfW5frXbIR33dWVtaAG2dd8xqZT84rM6cqBFFFxPYJquLf26ioSHHNmQpYY3vbvJZVFmcg_p5ohrBD1Pjh8PRFdJmi4AA8usmDZzSpjXlc9vCzHVQVpoE1Mh9bpqTRExig4zKqIFMUeWogPpIf2sPwWcJatr7e3rO1FG9GUd85fKZXP9jEc58ipIK_GMxGMj--RgiSoa1BIFk645ePrcM1QlZpvyv6iCX8kNMw3j1l", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113597958519380700775\">Aris Lase</a>"] },
+            { photoReference: "AWCwydjvb7Yu5BTb_SSU_Nz9jBQROczbJ0Glb2mAl0LJDq2NM6Wl3ORj9XaBnoIN0czQZ9s2iSieKXJiTH3w_qwRZ8t1IMbr-sbElRUWI20ETsnhuP4A0JlkANWsgiekeyiYBkuKoAaoBjifvgVetxmle2SSs1U_xiONMz92bgYFDwbGa3n7M51IycoSvmsRAQEdjzc9aNsWs3QRIxBUhu-p7qgnQa-eXQ-N0ci1BZVwkRLWPWIMgy8y3ri2C6Zw2--1YOK3u9-SgNDmlIO26o-tyIYBGIdmhLgS8KQR5daloKZN4LBOKdPqryZ6VY5Hoa7WUvvVIVCqlPvMAVsM8w3EPstuCC-vNE8g7fo3HQItzExK12kJJH1h5WJJb05IaI5BsiWK2TXSt6B2ucXnm-yJTiMPqXCk5xrXA1Q9e6wIFVuBAw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105980438904275879553\">Debby Thio</a>"] }
+        ],
+        summary: "친절한 서비스와 수준 높은 마사지를 경험할 수 있는 인기 스파입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 서비스", "만족스러운 마사지"],
+        tips: ["마사지 후 제공되는 따뜻한 생강차를 즐겨보세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Ruko Mantos, Jl. Piere Tendean No.9 Blk A, Kota Manado, Sulawesi Utara 95115 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12496436269819098374", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Oxy+Reflexy+%26+Facial+Mantos+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 나이스 플레이랜드 마나도": {
+        photos: [],
+        placeId: "ChIJb2YYHgALhzIR2qP7htQX5wg",
+        placePhotos: [
+            { photoReference: "AWCwydjlfxw73aP3Vn6FJdmHKtRQFMcbOKgT0zOWaYhbXBAqK6wAD0hX1cKwGUdx2HitojsM8T55GTsXb8zpW4E2dOz_5HpBEFuTCiBALmPZQ8YpGVozGIAWoYXUHmuWL-XboJZOcGAyYmFsVbsPAphag99utXh3Iyj6bYL_vU6oAc1vOQ4eFQg8M63Lpk3hwx8HttupMzZDDI1TW4fMax-hfZ9r9TXHeZJ_TKoHbJBKYD_Eg1XRDFh4wwqAVWCJuI3TiIfOKjOjYS46hyomldmwQo3Sxx6rFikSwtxCyIGEsJWo0x-1P7Jr7FGNA3Yx8YGuHzbYi6M2b4UCfbP9ezYNo_V-3Ghfw8xsY-tmEeFUWuH1DEv_FRLI6SiqgamqpFD2Cokbi6TDRDs4AZmkoAIvt475CRjZkE3I7fsq4FC-wK8ve-JAWnf3d7mlJ5rxKJIx", width: 1080, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115068794714764032581\">Andy Wong</a>"] },
+            { photoReference: "AWCwydhE-2-YgnuBf8pSqSQ5wE-_T4YBHfGgOWaeTWVmG1YwT-Vm50KSI_3RrnHhNv9mMnOcFDjsvj5CLmr-XMNnBYMKczXTVFxGc8j7QqVAtMVd8FZt_ToNdw7vgJnu4UOq-NXVa3x3zaOyUb4TOdtLXPlThDN_eIKT7ZzmfeoHtGx3LRoP9ykHKwDPlw3NoTx8cGeiiQJrVv9WAIM_qNcz_EOrlqLFKhQ13nLLz9B5f7yZ7tZ6qfObtHgFwFGJDynIdhIJdJrtDUy-20osAgMuNpaZYg76vbnNkiF0YsxK7t6QscUYHGluwkBiiUBrT1NHVrpBqno0YKrUyYVOT79DUH-ZLIteolt2NsPIBmRr7A-wLCyfgZPEYJokOOLNvI7U96C1aX0tWFoAIgHvtWPdErp8LQOZGw0pQ1ZXDiWhlkAHaFRjhuCD_BJ6vA_b6cGD", width: 2160, height: 3840, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102729169369388541837\">dinaa fadlila</a>"] },
+            { photoReference: "AWCwydhZQmaKTti8kOGGOGQaj4g8NFoRBqB4XSFf5NQYKIGwF1U0LTYlxB_-Ot7y9oEeGtCr031bWEo0QDnThSp1fFg1nT50swUnXgQ4vpVTHwjtEPpPnPws7y199oAK7Kwv68obppzk7xu7a5aFV1d32RvZWF3ku4RZUvamNr5E5ZjcU4H9etopuH1Hz8F5c_1borGN8o8_aZGt_MoKw8xgO7ZW7FWgZYv13qWwto1vjPEP5lorT4klwOWw-4ePtRsLfIhQ7pzUyVru_Y6WkbQ3UmOUFesdVLJpqF8scfrdh97ifG4GFRpXIx6v5PiwMnLtjSeMG1rRJsVQpSXfcbp8XZeeZfiCqnD-UJEC4vJcA5Zge5-C-hWesnN2lF4QKsgkgNz73jgNzw7hLf4CnUgGFKtpJxanPdGNEsAGPDwp7jOfthkQ0liVGEOtrJAF5epo", width: 1080, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108351037417997448049\">Elsa Mutiara</a>"] },
+            { photoReference: "AWCwydjM1jsJf-giW4NSI6kzJLt2HEu8dAWwuIy106pTTjOK_V4X8HoZUfB3HEKYppyIl1rT6ngELk4b8DzsszFR1BBOab8NKf2PQXYotOychFBC2v1Qdld4JCnsQMyF6sahyrauWI0IVHzxsdVLnSlScGvH3IBVRp0n81ZVc1eAITR2GUA-Er2Ed8PG4cdgZ2k98C4OBa54UlY_8x7vpiDWGlvWTSZo5YPJjifPWFQbeK-Kmtx9ypm9QDw8YnmICUHq1j_jEm0Ac5n0CQMiXakyaMA5LLoNn0apBgdJSfhYYzn8dgQXIw6xodjFLMNhSARbcFT_RX45zoOAxfBvrHftxLCGuHlx3IzH1XeUBqeKAYCD0TC1rzVjz9eBAXP2wk6YZyV_089-xXkC-xkZCxY-12WNpDnG3dX7R_5Erqfo3U98bYFEu2oyWCV9NwKKJw", width: 940, height: 1176, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118374556681838727204\">M Akbar Pora</a>"] },
+            { photoReference: "AWCwydgAgXX1mM2343gATIPfQUSKIdDG6rKBFwduIakkN12HTm7LdubCwzINq9gtrZPKSdK88ljllgUQt-8poJSNlLScMDH2Q5eX3kVcUqmfY0GGarz5Y_8IoaVjKgvblBlw8UWKvOuFzro6V3KcRt4fcXFv_KmjrCI9VuTMV3K5cbHgWjWy8TS2fFwUzxiPD7mBtclbsnB5-m2Tfr8p7u9eFDUSFcolehiP8PIZdjuXhw460kDw7s7YD4kaz114ptot_ceB1npvy0q5drjh8upW9Fiiwvj5jHnsO6ygLP_OXAo60f69l20jSSL0LxN7dp00Rgg6vuiZw4HaDgjey9xkwxG-P2dv_aMIMMNpLBlLkRRXf1YeeAmh9l6yWfkX9pvdhv2MMYl8b0nGQP6wtivtpK0BvzNScMnwmOfVVPbpQW8qcklm7G1GHRyVCSwvxo0n", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105654740533632041225\">Beverly Aprilia</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 마나도의 대표적인 놀이 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 쾌적한 공간", "다양하고 완벽한 놀이 시설"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "FV3M+32M, Sawangan, Tombulu, Minahasa Regency, North Sulawesi, 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=641507673488729050", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=THE+NICE+PLAYLAND+MANADO+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시트라랜드 워터파크 마나도": {
+        photos: [],
+        placeId: "ChIJ91z60qd0hzIRBwNdza95res",
+        placePhotos: [
+            { photoReference: "AWCwydhseqTtP1K4hUTCZsynoa7OLuuDE1XmTaNKj2qNMAtI7rr7lYs_tZzXClTLoPMRvRobFVFaXtWtX826cfFpvOUWNFmf4Hs9kte9SGpdz0Qa9bpaZkEYd0lK_cH1OYXN2y-aNVeOubxvIjVRKZ_LiRy-96hchjfBefXDjn6bu1YCAzB2xW9q8FnRKSokwyl49KFQqyA2S2ONsjj5khx9brRjf_oJGS9XEhT3Co6lgRcNNMBI9KboLx0eL23uFyLLnYCDePKKV1jN7RJTate_60MtkCmJHAbeCzFYaKwRGB5Z8scqMYwEXe96u03dG4kAovHOrIAULaMf81ZJOMpxbK-ufcsPRzlgoN4sZ9Di0x_bqiI9ma4SxhjzdTlX11eZ8naYNChcZ197wZbX1TDX-ppT7kb6M--jdR9FcX5LG-1XOOA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113445051886067594731\">CitraLand WaterPark Manado</a>"] },
+            { photoReference: "AWCwydgkWQhvxhz3fRsBp_zDjwLME_h1tqvl7JdmFv37JcAxArLZYOuYxkWqe_5yNk_Wdasgv5jhgMJ9DyVTgJ_3uVkCarlRoLwuBt5n0xMbdM9Ojq9HcqUqaV4tcrt4-yYKw-ZFkO6xY_5ODobIPl_VXaK8Id8yIo7q9HJ73vTsP9vJdhzBG_dLaeHnao-xUXniHq-ghiLYRE_DkvdMQGBYjhph9_zpvCPJ8i0BmBYiDql5zNoIWA7BN2gLYqRimUfi4qdH2Bzjl3YUBmD2AGMKv0Wah6R8aZ9BTKgH1lgzqgOci8ERwVFQnEtH72kezUq-AnO-KFsT2YyRpTEUUdgWDVUWVbgfaxQ14GIfKJk8uY6PV8p3CXiHGVqyrCKZmralZSNpepObq5qGGSTTcyYLkMMKbCBKRsriaGDwJn-vhPrYw_vS", width: 960, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116288506379000655393\">Nathaniel Roby</a>"] },
+            { photoReference: "AWCwydihOBamycOBaV0zu7CIql8QIy9avkklrgNozaUOVE1qKSthc9PmzWNM0FFj-AnhEPjcrUpEmQFUbzl49Ovf1RlgoGsJPnJq8m3IqJcj_85ODBJy5apLIL99BWIR8GimmtZIRjRlER9bhBgB2erzUK_Goi-y9oaQ4_AzHzt3vZL_e_6XtFJsB4iycxVkULYt_hk5jZIlP2lYZvkM5XchDd_vDUTQGpSeGebb_Fx_TDW0hnO0H3Da4-a8A5EI8njofmLPAHsNIgyPmjUFv1zira0e1Ogdr1uJjPayCgvZOKz9dEPENW5q1-fSsOL6iC_uTRtQvl2AaJalstMWcdiq-TxMBP1iDKtdHPAvUwq4YDrTPOCZWfhF8QBkT4UiZsoaFDF2CkTbilchUyin63X-3gcHQXHLRjpFxumDtz9V2fAF0lxmOdYV-8j0XywPfXRr", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109924620763001415502\">Jimmy Rembet</a>"] },
+            { photoReference: "AWCwydi72lxnnhqzQDDmisUrGSOm9ACGrtxYjR_CAufZ642Olwl1UY4TWaqtVafbcuVhldrq_hzWnBNdaoXzB-_6LagAb9tXCTkr6s8CM12TiaQgK2yt6UoVd3zJIrUrZ1C4r2HpP6XV2hOiuRjxRiYr2Q6CiKphUf7k1jPTB-SPabi3BHba2z-ODC4Aq4IXead5EYKhFnwcOekUqNK3T8NReG5cyDH9soLnhqXbkLu4RtqvlrUnfoK5hsRxbpIN20MEi2x2U2L7KTva_fZuCTUQjweWG_e7TaWrkhUpgmN860O6i0tKnxV75tNJXrol6KpqT6gUnJJFNxWQrkMgRCzmbV1V8U6IMqVnZsZE4KlnsxGwe5nRHv6R3foqTW5xvohk4zIhkRnlOXHxDlPShGAWv-Lo94tZGb7XopmaAQnqYvVD71Hp", width: 2700, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109668999656306215653\">ari ghufroni</a>"] },
+            { photoReference: "AWCwydi5o4C8gWg55z4QXsJ2AyjwVTJwq9cgjzIkGbA3vdYXH71h-naAcdhO1r_65sBEIiFPRW529bgsQpKoAgo5-vWRtp2IJLSIPGULoe3UX7YAAngcx89CslZWDrvUsHMc-ty9gbqI0WOWtu9cGGAVakrtc_m6clz_nycL1UXH2-kRY4GgfBgHyW2yRXIIOPVyNFn1SI9LUar-inHdS81KvCprGSg4rt0vVqa6Y0KtB3MNL1sng5BSfALnCD1DtusPBZpkMHOJyZCrMukOhEmnq4qmYswFQyZ1Gk-g7-MaykIcOlJUp2iqvK_qrJUwZ8Zu2pIe0jasfl0V1kxYhEOsIcQ8Q6YC24GAkd-hi2rIEERvOC1imTX5iDGiW7i3iY_9xn5y1k8k7Z5V9wb_isTv0evkK58Me4ODwtncfwMlQQUB3-1J", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113610320748812450006\">Tommy Bangsuil</a>"] }
+        ],
+        summary: "많은 리뷰가 증명하는 가족 친화적 테마파크",
+        updatedAt: "2026-08-13",
+        highlights: ["가족 단위 방문객에게 적합", "편안한 분위기"],
+        tips: ["주말 운영 시간을 확인하세요"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "CitraLand City of Blessings, Jl. Royal Mansion 2, Winangun Satu, Kec. Malalayang, Kota Manado, Sulawesi Utara, 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.citralandwinangunmanado.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16982363565855671047", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=CitraLand+WaterPark+Manado+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마나도 트리탑 짚라인 파크": {
+        photos: [],
+        placeId: "ChIJi-ZOmHqZhzIRX79MsByGcBI",
+        placePhotos: [
+            { photoReference: "AWCwydiogHFlWD4U5NDemkCiC-fSfA1-JRMOshEgRSKVKjya3q2XEcH6h3hNHnfgH_NO0zP_YrbJE469nMe6mNwjt4zlOf35750jtnbWPj5MAp6L70aCiTlqnlL-2EC2fdqzvKqF9KsPPOYTAfgd-vsMTKG0G-OCdMiEcfI3JwkoicHd5I3XGAxF7JD1g6Z58TBQFXRl1X1koPPowhZoo5GZVEW4V9g4yCWe5OZi0N-_09Mkkbv2sDhpj0Vae1zs_OfPPQxGkSbnoaP5sSh8LfhmSdFkNCPWWzTVyidoDvskG8yb7lNpPTYjvvXievE09ndu-HMol9RUzLYILJ2U60E6QUWwk0R472Al42Kc0mQnTCvAwziEuH8OZVac7wCIGTtZffNcinTG1DjGdLIX5L2LmVWT-DA7CamMMHzEBUfNCYMYrrNZ", width: 3614, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111860996723248285458\">Irsky</a>"] },
+            { photoReference: "AWCwydgFCumcU5GjOC8nAp6Ky-oS5liBedgqYkivO2cyGn4gNBnoH6_i2ovciEYrIO0WMDVttPDCyiHIgT3w5qF6X_mRnAvsr0-j9eSngSeJXehPJA78_QvvGeWRA7UlwvZxJ5db8OtB_l6GuaU94Vykw1vzbCzUfYJH34f4MPfy-w1Bu97_GGZLCZEzxZ_pLnSb4YY_4RMQNqQItpdRcktOwcoR9xxk3UmJlZcSRH6emi_eJVEPlUSCs9gZkq8W2gHNtS-gH_yz9gqVYOQSC6BORGQ6csBNe0AGAUNYTelfMyDm1K0Fqd9Gm37k7R-4C7PiySw09_I5MKvKFN3pqiz_T1TYXHr7IM73v3o5M4srlLV3VW1RJpK_FmG6KR0vw7ongpSb1cDres6r_N6AsbM-EMIUOBAaPjwdMRe8Epxlcow", width: 4624, height: 2604, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115708649317110120590\">suhandri lariwu</a>"] },
+            { photoReference: "AWCwydjIuzqFDzFNXkU5agzEUj0KbRG_SqwGe-QXyOaASvc5_xfX5DMrtz_nxXEox3KHYVNCXijFva3kU7jfVN6_1j4RQjhx3SJmFq1ufZGS2avJZMPuvoU2hHEj32E13chWzfssdZm39Oj3YxMiMriPqKI0w-GxesctWa0aUMjUMDfKL3OxuCZkYvtvQHcE0fnd5OqaZOe10P_h2NwxM-ZkBpog-w0u3FK-v3FAWQGwp-xV8FxrJKpy5I3tP5nOf5ec4UJov0ovwq6gjshVYXzRq2TbTAHt5OdzTMv-0djXlUOxz1_NKbJCH_gxdpmOS5EUUasxIlpLzTJgouA4vs4w-5_Q2XFqj6DFeHYGr1GfFwnBxdP0WFTYp8KHaULl1RYhjOhCPuD4vl_82GFg1Oj9XK27B2j59UvkRR7RNdrN6wkKZg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110881567374966484584\">sintia prasetio</a>"] },
+            { photoReference: "AWCwydjH0myUETLVSg01Dg2D1ihDX5GSHXM5M5g_0i1_dplGcWzFduxq8ZoI5n-AOlACZ4NOx9tG5dEae9XSpyDjsWBdRS0b2fCFwrf43Jy1x10GGVnh_bu0eBi6-gPEDJwfoq3qA36i81QyG_1EnBeQJ7zkcIA5SwicfEtZvg7oiWxr1Mx3yGouMWuHPBEUvJSIhkQNq9uzTuDpKmO5RIx1ELT62A-_Z4P4zVcUdrVz0r-apADRSoRgIUYNGtrx_dGI8nDaWvFKTNixWWnoNbRK_8eRcMIva-9QZ7ceqFWaXVi-Yf14GmaM6Wabfb4_vmCQScYm4rj--1lgQq-uuP8mpZJsOXT2VtSsJFgCR1zxT2NJWfIZD92xOuhyyus9ZV2rO638c0dELl48fwnmduaQPWCvTaOdevvCpKtq0K_l3mpj1Q", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116548736395043564387\">Ratna Andita</a>"] },
+            { photoReference: "AWCwydivUFejm9drUaGfc93D7zPoDCoy2SsRNls3Vu8Oix7pFDBjZsinFNhZxc83_OS1f1fY5I-mxoIeQG3vcwzMR1-dG1CaSiYW0oHL5savkEkIaPKpQYS91ud8hRu1NhP6waWJkxxHCTrjJLg7ScVpQm9IAJ6q3lB2jHRRe0nQ7qRXb6kv-lxpk9bVfoJ5N5DxiPmAV356vcTs5zmprNEtv3IdvBveOBBTEKL_aF1LrAo0uKyvlPvBpKBjitv7kfLLatgkDigSdTMdijuBQtkg4lC_lxFi1eemSBVNO6ZglIBLYx8B8I_9evdlcKaffb0yaeAltsIg0bii6ldpJO0vNYDdaen_pekstxXdgf3YHGPTbDL2cMHfrVP35UwssqP7COqrfDUQ81_F15INfNERAqCLWzmnO4HuyFBgyOz-ZEHZPA", width: 4160, height: 2340, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118189469605680085253\">Marcelo Donny</a>"] }
+        ],
+        summary: "짚라인과 캠핑을 즐길 수 있는 액티비티 중심의 테마파크",
+        updatedAt: "2026-08-13",
+        highlights: ["스릴 넘치는 긴 짚라인", "캠핑 가능", "그랜드 룰리 해변 이용 가능"],
+        tips: ["짚라인은 매우 길고 재미있으니 꼭 체험해보세요", "캠핑과 해변 이용을 함께 즐기기에 좋습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 4:00; 화요일: 오전 9:00 ~ 오후 4:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Tongkeina, Tongkeina, Kec. Bunaken, Kota Manado, Sulawesi Utara, 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.manadotreetop.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1328709347849322335", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Manado+Treetop+Zipline+Park+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "머시 워터 파크": {
+        photos: [],
+        placeId: "ChIJzX5ggKx2hzIRifs0AisEuwU",
+        placePhotos: [
+            { photoReference: "AWCwydhAb-5N5hbunPwwM5B31NL2Q-sscMCAz922k_vUUD68-BjCjpSfHLDmW0eKHB_0SDgoBd2ivBLJrL7b4EyCs4AMfdFml__-_6DwXVQ9Wxf7qrW0imi3ddAHHWoEFB_7aOro-UNVYkq-OucLtZjaE0wSXdJHUW4PY_GCYgUJZBWEzuh5hrYnLxOCGypR72s7a1HuJyPq-_TQGizavtop3khW75dcSH7noL15Qb0apgfF27Vi4cQap4O39a4fxyh594x4poeE2VsjygI4dDBJpHwphKfIYEN-QW6zUNrLBhZFyCcPH8CGA4Nc3QK3oF3_X_-Z8CaFnp7i2EOMhzQ5VMBMrkgA3ih-cYINIhg9rlbHSwK2wZ64jM0nyo8RQ0VysRi9NSiSgOak03ZXuukadW_TcocSO57oPT5fTY8Xs969Og", width: 3631, height: 2823, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108601187772774828825\">Ferry Hardjakusuma</a>"] },
+            { photoReference: "AWCwydj2xC8BQBlXE1Up4OSHaw8f6j03GMAsGoXHw4LkE6GqDMFXCGxGfcVqRZ3VNjOfeFOV8PAlCI7CKLOcUsljzdFjRQivD6O0xtm5kbw17W6VQDr7tJc97QyCbgvr23xJuVSluP3MiiyMjcUKL12qtijrt19UI1FGvBhOeE0umvrOtEOU9malvALlz8hfe7eGLX3di1ofg0I0lu6FR5YZKNvkyTcTiaKKFeaNaGGNl6o7c-fzij6LAAacbHvmrloz6zQFoyHCUFAyIqgDRPDsdPVn8p_IDUFDj2XIP7EUpK1EnMJDZ7shQIxW3Nv37wGEhZORAekXdxwwJcamqgDBJng8_Lk-C1YjGI6jhbyPKH0m-NX89zeEI4o1ZPdyLpPEE4S776ZrUjpv3n0oYvyfsJw1kdQFvTWMT4Rrd2Xu7vOjQEtV", width: 3120, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109320297176789228110\">Andro Polii</a>"] },
+            { photoReference: "AWCwydjKs0_Tkx5IcJtd5hU6fAZKs9P53bNTCbBJtnSmj2fdwZavd5y1DDhUo0j8h_AUpVimtCVoDa-eBa7RdGpzznZOJKYiWb1f4-daoXFPSQP-GtTfNYdhZsQrCi5VbytbQ-yuJyW517gfZjLSIUOAhrh2C21YfVO4YfqpMgTSX8nBxZxoJP_yq2mGSfYUh8pfftuWQJasp8pil_rDbp7zIqW3kmo0riotF5bvfhCcnSjP4o2U_L8vIB4NWP5qShGcyv47msNT4hEqYpSCQVAiUPhP_wgcH6dSauhRK_j4yx2P3WOEzO7C25d6LEND39X2ZLblKEqRtRybzZcMzDE5jQB9bMN2wSW5S7jA-pvybiYfnDDvm56XIJJHr30mEqZVKSrQ8oSF1wseYOU-ZI5kpcPx4zjDIDvjiDGYupOtLV6lFi-5", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114959628256606475790\">Gloria Innocentxia</a>"] },
+            { photoReference: "AWCwydifvktpLcAr03FOEXSOCzDj94bauDVPlJPZvObmvoBTEFv-B3TA_3IHFNLCLMaJdK_H8QP-wZ4tNOlEHUwvKuvgBMaGXzry-Qgl35nR-agMZRswCGOk29x1F3L4XLo1c69CCEMgG2_Y7ikb5QE9NQwFnl8O_WhcExOqw6elQ5CK2U-SRtupsv1hxbgZNzSC4yt1jKwfbKfqgJX21mzVLIwyc1d2JjsosH-eWN3fSDyQOW8WX4kJNMQhOSk5UDYMHUBjQ1jENeWIps3PUc8DydidqYtM_v5kN4MIG2kk7QD43ITBXZRHl-bh1oDUfqGVImykn4iMvhng4ojrYPTyLpb3e24DiHCWnnzeW6-JVAujbUycHm8OB9YQjEuFBL0g8xifICkCgGJmLbjtpxFjkIOYT3zra40RcPNm8qp_YWSBCVQR", width: 4800, height: 3085, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107496205695253439857\">Oktafian Jacob</a>"] },
+            { photoReference: "AWCwydguRrxqCGV5HGuqq_pp2rufqUdeN5OxEOF8_JfbFDKuoG7zv1rIL8fr2rnTbPLVYIwPHMMwkRrnhMg8nItD03wQGUUs0yRtdUpbj61gxg8QM_GkXBExAasX55ACvK1fiyi-izCLohwLLkTlgRkckHQxXTnJjhDiv2olSubR_HzbrVAAHyv8tAy5zIBsVRU7g1PNv3Of1rhfq_kwA7H8rg-hg7idHGgke6TA9N3-7Nm6fv_CJnhxtnDh063NWpw9Bdvh9iiP5XNOfRgFw8FNZ156Au2sjEuoTebwhP0PYso_cd9XZBKXo86WaRcmU9SXbVVx5JWeXbK51aWkRl4E7jgGsYZJhAdkVxfyrIqO-SXl3Jl6Mq8v822OwsCnZsY62RlfKNrTTSxGh9ikkWGCFw_lREmMvZzV3w8dRcKSre8", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109924620763001415502\">Jimmy Rembet</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 인기 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.5점의 높은 평점", "1,100개 이상의 풍부한 리뷰"],
+        tips: ["매일 오전 7시에 오픈합니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 5:00; 화요일: 오전 7:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Bougainville, Tateli Satu, Kec. Mandolang, Kabupaten Minahasa, Sulawesi Utara 95661 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=412928373601663881", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Mercy+Water+Park+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마나도 다이브 클럽": {
+        photos: [],
+        placeId: "ChIJYfJVTz90hzIRygCVfj5DGtg",
+        placePhotos: [
+            { photoReference: "AWCwydhRUKqUGpAsQJqisDM_lEOwEZsCCnZrK0CWbJ0QWshLL5CihJoK8QiTa9lYOWPgK5jSNXl_D9maOHJ2QdzvjznPjMsJ6Kux8NfSQMeWvAVfVobRWpMze9KSFmmLn2xrHs2Xt4MgS9XHsaGg8tU8ak989T30jVDGFDbbKwqXgrlnUrHEFh44K9M1re0z44vM6iNXQGuk5wXICrNgSDAXe1MelFzafxXBQ8rCZ7e-STE2hq1KDtqHxjiMzrD0acSBwTg2gJvKYQWlv13KLQ6dK5JEBpkmPbMiCg1HIzkUa2kdIKZMamS716qGJHfJlh8qXut4Lyeru8lExKoPX1sqgwghkWaNcg8vSkg3KXX076a-oQqPCoJEE6GOIbvL9fO5QFoKVxNjDdDdvWWFjrfEDjH0w3zpf1bE9W0_VHXG8sf9-A", width: 828, height: 552, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102591676387119623889\">Manado Dive Club</a>"] },
+            { photoReference: "AWCwydi3hSDeJb5iIobPPyo6IVqGgZ44llOGibh9pFpq8YfykI1D91y27TLA_9DZeIIvbHYvPl5mTuE1bmsy8EnzbjtIrx-Mzi1xWtdM8UCfL0lAcmuQ1N_-2h7RCpfbvqUhzY28PYMv_DUxAhN8pQadWx8vP5kWLrSQY5xoqTfAPDrxtpz9q5hdMXBVo27teibWSM-Nu7V7q5hNR-9h7z6HLR3T6ygeC7kU-xnnX8ShX4iBSSmFfZ-0gKJQdmuxo2C0Cah1_EpD7Qq6pYE1p-192KvQbEMXuGRdlcZCgVh2e91SNNMfFNat4rUUmG_Y-S_NapBN3Bma1Lu8h1dmI_UmZcUI6MVJTBwVivZoze804Wuj9CYoKzsVvzELvtWYuRZ5k9kBTYSoY_GdpQT6SJd195KoL4bzueIB7CCFiXNMHjPE_b1aR_PpdgFSkMfOTYg6", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102591676387119623889\">Manado Dive Club</a>"] },
+            { photoReference: "AWCwydiJe7rY7_qy6cZjukJI2u1bUyjHBTMjH0mgFtOcnquEp2DE5wJu-wncc1JCk3vkS8sA4lrHFClCKMYy9LbvBRZfsUCF5cVAPNOXLM6KEADrJInSp2vIoUdILkovo1qS8-Yem8s1XmbleH3ivdidjZ-0sccYIQ0UtQ2Befgav73lC62djR6PBPh76gqIkT6mSg8mGyk3xlEKI0z0_BYynuqx7ljbaXkGICyUzuJpFFNzDuMjDrMDgNKk48FYQOdWhJunRaQNq4uiPhILrcW8mgWRrXQKPo0xlg6Kg9QoIus92pZFvwyo9kDZouZUs9pZoudDIBCuOLYVx4-qVkCrIOG91T6pk9UzJyIBmodK3SER-vqvO8lEdUvOsZkCWcLWcRH_MAsUMnxQsQ6OXv9yD_mJxsYt1g3eKG-LuMcQH5wj3IiSw8Jik_VTpzPvcg", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115806733761320429911\">Hana Jo</a>"] },
+            { photoReference: "AWCwydjG5-18NM-955QWTe_7n4uZN5FIl4cBWI34h62Rku0MehJ8m4ECTPvSSRoXbT-mGV6RU6XidSLF53C-RaDEiE1sSRFlU3A6PJEsFbBXhlmfN8njrlXGDoJJMg9dFw0ylGZeupLeel1aykHZwStnFVP9CkvcekgIWkoLt80K3HYXUo727pOqxBvS3BVO5LPFXygExMt8M74BcKvYhrGkKLpw_cW_M2CCRcydjfLrSSL_rwlYljIy00TwIMP2jdBX5d8CirTb7-EzfuV4s-f7_l4b_TDCjY8gB1YNep2UrhcgcKVPzD9eYERL89X6lb9iCXkYdxBGEtV7_q3GLRG9DCZSgD8FDcRSxLSIXJX_-qOG17hubhvhtRCuVic3suu8ZpuiQsPVfhfr9Yxby4H8cRq-0oU2bWbW3yBImMDZ8UdiD3umiCOjU-k2JfkoLZ71", width: 1290, height: 2293, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117786729478661648877\">It’s Alexies</a>"] },
+            { photoReference: "AWCwydgwK_w_khWC1vkQGEzYD2eHAGL-oiy8IvoeugOk5otUVpA1dz2op1TcGK19rnpjp0kOcojjVlwVfq7AxjT2exjDX4kAt_BI81USf9yssIx4Q1PuOCCilnhNzLkckmkXXpULrXmkZJov_OXLgVgg1MQozBVV3I_OVDlim_F2Jnvv_RJjC8oWdpZnOY7IyELAMoN5F7ozZFS7-nQKSsaPRZS5iujtCw8XvqeYmZ0zLU11QZnlCoKRm1Afa3XKS9c9UcAJbjgMlq5wh5a_rEQKUglqPL6LTmvYNvV8ruNVtcG4NtujuvMgH-ixKZ33fTzxPgnL040U5pTDBx6SNfusW0XJMWzN6vyyVptV2apTMqRPa6vnqAebyYol9L_ynKLXsIPLjRvOUqrsE6BUBoSeaMI-yfc7-lVThcSuvWd4PCeRMg", width: 4800, height: 4200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114639952927311357812\">Pedro Ramires</a>"] }
+        ],
+        summary: "높은 평점과 풍부한 경험을 바탕으로 안전하고 즐거운 다이빙 및 스노클링 경험을 선사합니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적인 다이빙 교육 및 가이드", "부나켄 및 렘베 해협 투어 제공", "친절하고 숙련된 강사진"],
+        tips: ["대기 시간 동안 스노클링을 즐길 수 있습니다", "WhatsApp을 통해 간편하게 예약 및 상담이 가능합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Santo Joseph 2 No.98, Ranotana, Kec. Sario, Kota Manado, Sulawesi Utara, 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://manadodiveclub.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15571832597277638858", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Manado+Dive+Club+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타가로아 다이브 센터": {
+        photos: [],
+        placeId: "ChIJF48Jgz51hzIR67vcuyCNIyM",
+        placePhotos: [
+            { photoReference: "AWCwydi_JcNTciQQ0Fa5xqlJKA0I11JvB3zESt46Axl5O2NkHo1YPLtqP_JYjXWk_oZmFoDvlu23cLwH_a6oZcqQn4ZrTRYGniiOK6bP0-dgQ_81QrXm372aZJvaLHren071fn1UVX0FpKVE947Oc4MJk7f5IcRmsGLN9m93nCP-t2ZQ4cRg9k2tzgakkl2EJcwFlIkVQKHxRi8w96P0jJQNe4TumawEDdt8xmhPxJh4y9JY8nXq0Ry9RrT0F2h7GBoML2HMECfZzO6QiIix9IKAXVFWOpVKlNf1s3v3GUSKALCSRoYsJAu0YF59VBTtfqkP3jmOpZ1Dgojfjpd_3cPNMbcr5Kx4-Faixx1nl81MHUkQ_tUzUI68OiClfBw-uCZTjqfb1xczR8ZbbbejGUoud1kxS4PQth6Irp53ur8OoNkUKnVi", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117215636770866317669\">AS Ayu Kusumonegoro</a>"] },
+            { photoReference: "AWCwydh0PBpkN8yDmVn21-zpaB-gS0yof7kDAjaG5sWzdyDsUI82KtToYntzWsRS1PmO2apQpluboFgMwYetzKT0woL0Ii9Z5jb3Wz3YkuSbcGnn6tL4bWvK_lIuE0l5iBEA4YRl2NV18MzYtmqfm8VmLmGUzocb3qsSN6s5PHxx5XDIG-x6EyTzZupWwlW1MKWBzhfRv4b95JzI67GAZPxB4IRNP5X-wJ_hlYnTL7TYqqza4k31xijVJBd4hHq7eI1kaZmv7ehlVDLG8PvZLBsczIc--G0a_ZeyXlXil8z59DKrbQegG5QbI8jEjmGqg210NebEBE7DpgHf9BsWYRO9KHeTU-sDUTW7F9Da5a29VP-YeJ_Or951ghpFpT6egd94E4TcSh0szxLbt4k9csv4rq4d2xgjD_dFEhaqAWjas8Y9fg", width: 1440, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109981923322619618671\">Joseph Simka Ginting</a>"] },
+            { photoReference: "AWCwydgdKBxu6o23M-p_XNjMmMCAim9YD2H1bwIKad5CNF3CN8GbOe54Bl3F-gBDZyKG_e8qDnJYDXdZNE1ugFHIaWVEGdRLqAFQLHyLzlk2LT4DIgiHf2HmxCb2COucgxIfiRsJNPCvF78fLWO-2jG3QsZVAwdBFwlP0CVVHIwCEieauNhI5e0doSqIlb7p_JNoVnhOJFKOBU3bHSUO_tV4v0_tJAaAyNAcs0Z6qGZ0B7_v8teXaSqruEpW0u9aUZp3-qg00B5sufOYmYw4gVjra3ly7PU9CKIIqgLcqLEOmLcoYFT5EvuqEBDpn5DW5QxgweLHfgd8tzN8UcqGiyRCMTXErgaArs94eqQPP5yMqdnZ3ckpvs7Sd1hhNVY0sQyrd2NR_ApqXvzLMBPOqWy--SdMhCXSaTNUKew3CQ", width: 1836, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106443713112485850446\">Muhamad Anggraito</a>"] },
+            { photoReference: "AWCwydgcFR-wQuwinIXT-1o7FqaR7Qf8Y6d8wjMU96vMkHcvMIqGLSTc_OpezvxRZHKIJ6QyphLtaB7qAl9q3GtiaaiEQk9JpY4f6f4OK8hntO1yzDeX3cz9CI3YwdzuvBZBboj08cV2K8n23S6PBDHgphCwXdxM2rVetzRVQBMsc-qfGKJORukMUXXL_iv-a6L5Z81kTjenCoNjFPzrx6sa9RExl-CHDsg1XaD5uUZlYhlzNhXPI5hzJis5Y3SZbObYnCToGTvdwZc-JjWB35sx2WOQUUFdrEoLxIhAB7CXCWqPIhlxWivB0g9eE6JH8wc2KdudgTGRI7fTFlgx7ZRAPLF_tXSZuCUacR1YVqR0RLV05B1B3zcgBYwvJPLaoZP3-L1X1RtDTxzBVgHYJUBhxWh62brjsMoykmCko2hDB1rlFuhBLuPwmuQchsD2Ag", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116562165585624591537\">margareta nina</a>"] },
+            { photoReference: "AWCwydjO6nxk52sXqJQ5j05_Qoh129o2E9DvANpNL6WU4mWHa9bT7bA765ZWCDGQbH_Dog-nCeAS7qfFcsKzezgZalAsZkOU0dDheqqYoY9Us7xEk_7FS-oTKTRGui5cJAsRBbS_jWsqHzGR2f4T3SGdcq-hgl-rPAEeab4Lfwu6vd35GthYfJXMI02C1iTC0dh6yO-2wWA6H9MtKqmWSyPFpuBYx1NjDKjorl-si_n8DiSfzGIEPBfV0AeEtl20FgP16B0-VcCfWLmlG9BOMSSvauvDXiYFktO976sRUkOVuN20RG_ZtQY769uuTrPOIAuvIiH-hgiEggul0aSx00ShW3yoP3caYEb8CAQ28L1nGl2tiV_hpE_gLaVVVOQZOUq5t6k2KSE9NT52_BVucNRuoTUR5G8UJ_CwJtKF-o-gh9Lkias", width: 3023, height: 4031, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100713464209666167929\">Carolina Vega Recalde</a>"] }
+        ],
+        summary: "소규모 그룹으로 운영되어 초보자부터 숙련자까지 맞춤형 다이빙 교육과 투어를 제공합니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["소규모 그룹 중심의 밀착 지도", "희귀 해양 생물 및 난파선 관찰 가능", "전문적이고 유쾌한 강사진"],
+        tips: ["초보자나 주니어 다이버를 위한 세심한 케어 서비스", "다양한 다이빙 기술과 팁 습득 가능"],
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Jl. Hasanuddin 6 No.234, RW.LINGKUNGAN 2, Sindulang Satu, Kec. Tuminting, Kota Manado, Sulawesi Utara 95239 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.tagaroadive.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2532022587242626027", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=TAGAROA+DIVE+CENTER+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "퍼니펀! 마나도 타운 스퀘어": {
+        photos: [],
+        placeId: "ChIJTxyuJwB1hzIRviWp5mDv7ic",
+        placePhotos: [
+            { photoReference: "AWCwydgyyCJ7ULDdqaNRpBLhpj7PZcctxj5NrY_E4qmgEh3069FevrKUszVtibrtAYslaeeTUx2nwCaKk4_SPfTyrdewtpevFVzuiPsZNQlKU4anArla66S-3XLbmAVCegZgWdabbndTkNluBEjDv5Bu12mb_pJJ-OTMRbUWX_abucGSXDBlFlfrlPhKhgQHxsTfx3Yf17zx4LuaXcFLVWvNBwWtlNkF_dRQ8u9fyw6nQPvysWdv1_an4uOsThChKFZcLeblpQ5XqL3LmRZkZYaf_15GiBLetmuKtEzXmwATE_gF7Hk2Rg2NTWNl3R7ebFoEoD2bxICJ4e5ujAP2IsW6SOzB5uQZlEIfZYM_HiNF4AaUm1IKcFKUkT83PvtKxoNKlEyKXtlP9SoiqTuiO7_BgZdKImUfKCLpJ7jnA8ST9DA4yANtry1H3bKLUh7tjVX0", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100044086975123139465\">FUNIFUN! Manado Town Square</a>"] },
+            { photoReference: "AWCwydgiKnzV4xsTlhfwBfAjuBQgBInVIeT_UiFOQr4Uiv8lacw_5kWtBdrcfA8i0sfkKGAeizWkH17p_Cj1UY8ODKG5SVA-9uLtEBXs8i55je4170CXkVXWZTMk34SQBTTpwM0BEKAXfhUsWUvqWr2gz7jh7ufBqP-wlI9gGlAWSZOrRJKEXcLkDyecywp5cf71iOJV0rFzB_N1J33X02_P29qb8QgwFPrhswYGSElt-8CBwZYyqhzix7csP4YU1TrAIfDE06cqD_gHD-04P0nbSpkJgsXOtmWaFTMa_OaicffDvjfOUjARdF_JTtI2uefkeJhGWOREPYphWkd6l8zLU0VyUnMokYl994QG4HS7-G-okDseqO9LaB_Dh60mSBM0ghEu74rE5pytBUZS5EQJCScLQNmOHBGku2CjC2tQBbwQQ4yGwIrQi9MLlGH53BE3", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100404569461527555105\">Tatian Ken</a>"] },
+            { photoReference: "AWCwydgrAJbSpD9Jt_1mGSpjBLnCQQx5Evrd-PpXlhKL90JSvV_Ctah31jYhSgBmFqKOGlePxmO9D3mVX1nEkmDQ31vMpuTKMua4-c0NNkMK3JUCANfR__wWjUQs6GwL2mGhG-_Pmo8qgJeEpUg0ciPQC2My4BgthPPOvUB8_OOyyYBQebtSIL3nNOF5FbhMf9YVJHtd9yO5ZXv9Da04kJYGgyX0mPcEGNhAxcLEpkMIn9vEH3MQuvSI_A0DPbx3IC45zWdjsAL4yAXjs9pj4b8hIQdZEkZfnsY_TrPDSkK_eH2r5HlXwawXO6bHD8j2mob9LU0XGOQNYdT4JnkvNGBaDL7ZGuGhnhuu--J2UicW6ha9ecpNaiXB0_OQCV6Z1D8-AYxzt01NaK0ahfjmH-u1rJBLHLQVCd_65OpsFXF03DB5LlVdfAJIakdSowrQYlg6", width: 4080, height: 2296, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100404569461527555105\">Tatian Ken</a>"] },
+            { photoReference: "AWCwydhZXkVayePh8JWniVCLomf_ecpmZLFTrUBfqdpX8uqFYd7YtvwLjmayMJqcK-cIUXVzylkFBEfdNKpFeT-GEMZkVmmeLNLp6HR0qq4ACyYsTYmYqKNeD01R_5Wm2vuwEimtsKkkwbMFa9dDivgJJzkkK9bio41zaDuHmsaeHyFqV6nzDvxo_icYlgpOH7k5-itsbbCSXoly6S7zLgvYSl8Z792T1vECv5hVnTJIV5UQUz5S2h85UX8mwGLntSexkOue-_BDqoZXn6NFa_IF-6fBpFqpQ0iqQGsNORxHzIyq-eRqxb1uSGdUy0NLKwpenwfBaVdf3_fWCAU-AqIQ5wTqZJFHSl4ECZlSKLOqCUbHYfVwleVAoCBbDSrzSZjLiONyJ0q-VFwBBBrzOZIsRH4TpjyxWOy-BqYJf0qsAxiviwvPN_wVaqSol-MYbg", width: 2364, height: 1612, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100044086975123139465\">FUNIFUN! Manado Town Square</a>"] },
+            { photoReference: "AWCwydgzI2jebEs_FCA4Sg7siRYZNpvVZhaCiWqTecsOmIwFTz_1leXvFnhQVkVd8ofRaYfNOB2Q7SXh_POmEnA6kc-1ZkvxBnoPMDddWmxZPoMf6aFAhlMYc9FVfvPuCm8KUArXKJI53iB5X10mNs99iXQgqwjD1xQTeG5dke4yc7VgDdKXHHLzKzEEBtug9LS2Q8vEwz5Mall7IuaKzIgg7b6fnTfGn8LJ770XtWvs1ayo5cddDOkTnUyAId44-ZHGhB2wVePPJlkDClFNA96-RbnAjIhe0lP9FqoDLY9vnr_DPri-CuxbVYya_YGXC2gkOly1LSTA82bc1tgG3IaBSZOfm0jJZjtkjBlg2E5G-73YewGMKgZodfUeXV00k5MswPTO0nYjT8TIQwblJic6tVGp469sfG6aOQZ9rO-2aQJV84_sCzrTNFk7ifnDS2aI", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100044086975123139465\">FUNIFUN! Manado Town Square</a>"] }
+        ],
+        summary: "친절한 서비스와 귀여운 인형들이 가득한 분위기 좋은 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["귀여운 인형들", "친절하고 빠른 서비스", "좋은 분위기"],
+        tips: ["귀여운 인형들을 찾아보세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "mall, Town Square, Jl. Piere Tendean, Kota Manado, Sulawesi Utara 95114 인도네시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2877500411402069438", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=FUNIFUN%21+Manado+Town+Square+%EB%A7%88%EB%82%98%EB%8F%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

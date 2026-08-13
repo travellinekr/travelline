@@ -227,6 +227,81 @@ const shopping: ShoppingData[] = [
         features: ["다양한 스낵과 음료 구비", "현지 식료품 구매 가능"],
         icon: "🏪"
     },
+    {
+        name: "미엔스 기념품점",
+        showInInbox: true,
+        hasInfo: true,
+        type: "souvenir",
+        city: "Manado",
+        coordinates: { lat: 1.487084, lng: 124.8479503 },
+        category: "기념품",
+        specialItems: "기념품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["4.7점의 높은 평점", "많은 사용자 리뷰 보유"],
+        icon: "🧸"
+    },
+    {
+        name: "그랜드 머시풀 빌딩",
+        showInInbox: true,
+        hasInfo: true,
+        type: "souvenir",
+        city: "Manado",
+        coordinates: { lat: 1.4637428, lng: 124.8408876 },
+        category: "기념품",
+        specialItems: "기념품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        taxRefund: false,
+        features: ["친절한 서비스", "우수한 시설", "2,000건 이상의 리뷰 보유"],
+        icon: "🧸"
+    },
+    {
+        name: "숍 바이 - 오마 율리",
+        showInInbox: true,
+        hasInfo: true,
+        type: "souvenir",
+        city: "Manado",
+        coordinates: { lat: 1.5217901, lng: 124.9206889 },
+        category: "기념품",
+        specialItems: "기념품",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 6:30 ~ 오후 10:00; 화요일: 오전 6:30 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["공항 인근의 편리한 위치", "합리적인 가격대"],
+        icon: "🧸"
+    },
+    {
+        name: "파사르 페룸 파니키 시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Manado",
+        coordinates: { lat: 1.5120903, lng: 124.9194106 },
+        category: "전통 시장",
+        specialItems: "전통 시장",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 5:00 ~ 오후 12:00; 화요일: 오전 5:00 ~ 오후 12:00",
+        taxRefund: false,
+        features: ["매일 오전 5시부터 운영", "현지 분위기를 느낄 수 있는 시장"],
+        icon: "🛒"
+    },
+    {
+        name: "파사르 테마틱 마나도 시장",
+        showInInbox: true,
+        hasInfo: true,
+        type: "market",
+        city: "Manado",
+        coordinates: { lat: 1.5751008, lng: 124.8205383 },
+        category: "시장",
+        specialItems: "시장",
+        priceRange: "현지 가격 확인",
+        openingHours: "방문 전 확인 권장",
+        taxRefund: false,
+        features: ["현지 시장의 활기", "다양한 상품"],
+        icon: "🛒"
+    }
 ];
 
 export default shopping;
