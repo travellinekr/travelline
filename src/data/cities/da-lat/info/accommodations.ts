@@ -376,6 +376,254 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%98+%EB%9A%9C%EC%98%8C%EB%9F%BC+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "펠리즈 달랏 홈스테이": {
+        photos: [],
+        placeId: "ChIJRXooay4TcTERNdsNPe98gjQ",
+        placePhotos: [
+            { photoReference: "AWCwydiU1Rw5rNO227Rp9EgDP8IAvy0k00U-ewdt2QHFSKOZmFxZaM4BNEYKnakF5TWrYOkBuNSAhc3b5o2DoanqfNXklLPpY7u2j4GLbKW3t0PKQmJdnouVVsL9z0W0v7sUpy1ywgZPQbUhnu_1CBuF6nFNm6M-bNjC8hjoHbLtoYWlks5I7hpuORT2O_7K3B-Ga7S9lsXW5qp1x8F2nAH-lCMFtNsMRvbEyDc6qz4tdyzJ-wyYaAHbjRWdFgq-uZs9kqzJZLSuAeREEQwnwjasL6MB65RgWVP9ShyVZHIha9MKmrgerwXo3DdczY8UKHXt83RK6AKoarRoXgZQ1A8dr9-DCljcwAaHOGcZ3PupF9hdI-i-2DjVsJBX3ZZrhNzKP_OPiFIc2ncBZgXt9q6BahYu7PUSLs8SaJzuJcWI1hMcwg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106998651746696731777\">Feliz Dalat Homestay</a>"] },
+            { photoReference: "AWCwydgzkMQcz1h5bk9uYGdAU04ktguj0Q_dvNSRWhrdSjD4IYVXvz-xMrO4rpGtuFdqaZAI2JV14zj7icCrnGPuSN_f8w0duJcJ9_fpXlDMl_WSogYK5f5rZCywS60MJDgKs_y_sX8r5kCs5Zt_L0ird0BILtRMr4mRkZildWDRxwF9y7v2_EGiSXh2xNZj0JZuJp76V8Es2uxPFKl44af5wsUHKo0hTlaV-zt15HDGb-JTK1OjwSr7GTsk5DUV7KVztKiOQT8Un3xS4MonZE-CtxjG1Lhn9hnrQT5o5JMGYtRLYKN4DSbs9UIuVOV4aLPZkTymZ76VUJAxxfV2t4f7BJ-KCkkbgZg9_1ItPCQdslVJQp8MzjLA4hhrO21NNtm1ynNddkGYkJbnX_21jSumvDKa1TCiUX31seCt4VK_BP1nrR8", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114397565350679258402\">Mari</a>"] },
+            { photoReference: "AWCwydjc00CY2iyQhPlNoZVfWUog1lJirGV98mtflLBfqXOl5DY9pOe6Gf803KifR8LSVeN2oSBG5cUfO2gnviC9HmilF1CxHtYA322XzoGv1OuDUt5a5KP_DhBI__NRhKutR8Du92gC1FmddkqkJ5X0jgxFk0-wE8SuYPmyxKh1oQ6wG0rYJxQLxq_neMO1O5PUfhMZBo00VAIwsgDf-BmANuPs9_1T33lWf9uU87i9C2DVBXjzlpBPqXFVWv1mSlnSDYMDIsm3GngiQJSR48uKdNf1uZKnHhUbEO0tL--M2scf_LQJRZl0yaqhZwC3643ThH3_dWFfVIcNFh-oZjN5Ygi6SxRLy9L6_sEGQsMYOH3ElwNjj88IOKJJKvCPuh6Vj0vdG7g0yQ7vA-HfgBPIPN9IKwfG_GdhmDvE-kfNXyVNXw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106998651746696731777\">Feliz Dalat Homestay</a>"] },
+            { photoReference: "AWCwydgBwWS0b1VLz-yrXxE1EZ8QtiIuG0MXYdr2BiU5uNsrFxMi5hw41xsgaoxx2lc7B6KM_mkLawWlpSbi5ImRjolPGtIlkOf2b_sRgRPtyn9e806YBKXvUFdYSjmC7i6OJUIL7kXpR7_vUOu28d56kucRjhe36gMf4ZtoRni7qIwxOzGWojy1jh-HQ5-FzJSGCuRLpqZvN2kmy5bc1J6kexGS_I2FFlu9o5x5SyTbIvasXpj9ZsUjB8UATqcxgT5TpalZqD0cQB7icdXisuEgJPmXBc1TtB-qYlA-vUE_sVdmSXlzkFnn2aTq47uozPCeByNhfpOtkF5bKtFr9VyHXb5Y6omi1uwko_fSz8e_61Yppsmer0zxzDTkr1tJqR4f7ZmHQhg8iqHjA6mZWalv25A9S-6CjTbOykrjYwMwsMf8sQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106998651746696731777\">Feliz Dalat Homestay</a>"] },
+            { photoReference: "AWCwydht7OdsMZ_DiLv8m3IeSVJnJO7_PupreIft_pRE5Fm2eFRYuFHKT-jPVf5VmVR0GT1PDnTDml9zjI_dBq7zRo3pWYspVFrLUS9cxrRdEbAvcERehms0lldEMm1Uvu3q4gcIypA98-FQ_Uy7C_c5T2A2Ry5lUH1T1b6v1Q8Yg5Fhxz_qRtG98gUus8Y9w9gxpZmpaY65bVRoY4dSf1Knd4C80nFfgm7SdyZjb3WgV9qaXm2SS7QI9L73s3BGrGKVQETg8rQCEcVWc8GlVg92KJ9wrpNxUthVEzY-BLoIq4DM0jekbxyXRsYlJQrc66niwUjYet1G11gZ69N2jC-5124F4pWXi7jak9GIny-mULvXZz2zCndqS1Qp0VLS_vFWg8bKcK6yzZKaKtVtWfWtyPiVSGSk5cyhZ6JpvNZUZoRy5Q", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106998651746696731777\">Feliz Dalat Homestay</a>"] }
+        ],
+        summary: "높은 평점과 친절한 서비스, 야시장 인근의 편리한 위치를 갖춘 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["신축 건물의 깨끗한 시설", "시내 중심가 및 야시장 인근 위치", "고객 문제에 대응하는 친절한 서비스"],
+        tips: ["시내 중심가에 위치하여 이동이 매우 편리합니다", "야시장과 가까워 먹거리 탐방에 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "54 54/13, Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남" }],
+        location: { landmark: "54 54/13, Phan Đình Phùng, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.felizdalathomestay.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3783724003907984181", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8E%A0%EB%A6%AC%EC%A6%88+%EB%8B%AC%EB%9E%8F+%ED%99%88%EC%8A%A4%ED%85%8C%EC%9D%B4+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빌라 비스타 - 하이랜드 홈": {
+        photos: [],
+        placeId: "ChIJDf5IwMtscTERT3gMccM9T-4",
+        placePhotos: [
+            { photoReference: "AWCwydhgOw9rxFDhhFEcCyQwDv-z8_87p6ZK7jGOiKJCZQavRADeNMPH9Co43T9HX-Jl9Nbi9-gAIE2aRDIHR-m7qq8PR7Mn6jt-Cmlhr35ZQ_63zQ4i3DViJBqdiPwFEJIrg5edMlNikUWAZdkBuMKegz-eT30SC4vCDZZ9O2mKrQDGDnH4wSQ5Ra-ZRzpDSArIaTT8p3uGj7biyfW3HcR2yS5FTAFY8Dngn8e5mv85gEZD-Mqkm64MT5Q0BKW9nhqv9y7kack01EzC4clLaOR_GgGKrfzCTmISVfcL_tz2PgYVpL78erDPLjsuFCAVZWBYfxNFoysrCeUkBAQADZyRQKzG_vlbHCMWZrBeRSkEFV7rw1HZVMyNUrmKKB5n0A3APu6-MaDNDC1vx8Wu0NEbX0DevaYVnhgimHcDUS3weyxm_g", width: 2731, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106237407316452128880\">The Manor Villas Đống Đa</a>"] },
+            { photoReference: "AWCwydiS0lgjIFNk0_7WGUj6GQ5rIWz770-M97p6Q1oKSwLkP4GFiljQ2TWBvm0yNf6zgEfE4v07apfrfwfFAgd406h9ZDlIwVhWRr2PzeJlycup3BSK9NNoDyw8_pz-V9r3GERJ4GBcmXeD02jYv9bxwyzHwLljxG-5uhogdN_wcDtPjt3kw4To5sMmPQJEK60zz8dYKbemOOF4ni_0KXEFuQ0Lo_v_yZ6TynPG_FBTqTMx9jmzEQ4mUUfJhOsPgi1hoQ3-1JgBQUGJQW5H-G84dz0GSRZNi6H2_hid576xyEaQWtwSBr7fgFThExXgB3uExn-7Dj8uCgPp8tfIl_nH5I4S28jjXsVeOKGR5yvA1kYOqF6JdoQZmDH5976AjJYeAQWUT-PHdg1-_RcaCz3VUBgNO9b8IMpPz2wZ0k4QqcDFjQ", width: 4800, height: 3150, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106237407316452128880\">The Manor Villas Đống Đa</a>"] },
+            { photoReference: "AWCwydgyq09l4kcQyEC-S1bhpbS1EjALocHT9kjJLLklHBgwiuJRh7QNqnwtAou-yPgEL9bgmE0l1UIGgoR14LP-PZgZ8iwEKidUlqXQhgGjK8GyTTg7LR2tnibN3XpxhlZ6qHKmNyGOOvLsmDWRyhgc2VJmauvkUOOcakcKC17j3MslUj6jqWILjRSWf-3gYR700_hv8cMCPO_QuMGb_l_IMasNME9Cn0NGDSW42HbeyGJ3Bag8GxyIkcClzVrrcYZRxQvGbsHZqwfAg4PyBZbhQFXXk1BmzZzzwSRJEvmiIsvF9Ccv2wQibQJxOn_Iy8Op-5oYxx65-g97u72JyXCX-55qFBltURLChfok-ycxawvVe3WkC2s_RALkBKcyf_xjDUBCWPdHHQUSg3fi0qV3ZtFiDy03AO5Uc2RyVA_6aYY", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116386271638730067764\">Keny MiLo Tận Hưởng Cuộc Sống</a>"] },
+            { photoReference: "AWCwydj3VVTJZSARkGywfgTmGudyYmfp81591C7dXyU4MkBkMMhWA3pQTVg33A-H-ARbLdI01oPOEB2DlaNNEatjla-KvkfrLcmmw5SVW1QvA14Rb-uWUwXGEZ7W0CtcJKSne0qDFwUapwgr9uxB8qTa3zyOqH3J1XMabA3nUdjMj84QOZ00Yfq1qYsOJnnW1ACOOjJFItxerket9EiNOxcYi-PYWbHjhtwnB8gjI46D9DtUavMV-l0HCkzqWCd5rrS80mGi3wPJKJfKpq9T23iaTVqKeQ6pKD6LZnyPnnP1B2Sp1U1fFqo2G36SbblWRHCpJJLcXEPXUSQlBpkUK5D3-onu_Ay7UAiCQHglqHSP341xjKV7v7VvSvKxQ5gLgpsIbaM-Cge3FYin0NKCikW2sXAkLfQA2p92ZChdZO97lZWs2g", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106237407316452128880\">The Manor Villas Đống Đa</a>"] },
+            { photoReference: "AWCwydh-qTS8U4pO0VpSZIQntuEXop-CFM7bDGqN9TSG9yfXYYvDdvZf2XGIwyxQXPlS3ZqIzrh2-Gti1M_rh7OLA1cG2ySumw96L17il5ED8yhY2M2DKmfm7E81bUu-n0k0sVurCuZ_LrV5SzO7lO65FUWBJm7wMD__L6URaAHq9MVeCj-_FAVVqtSYYK_rzoSYmS4-UTKc1BeHdEC3dNtP1KCMKI3InrpNAqdiw_UmvS3vKeY1dZ3ODKzDnNxnFkogkMSeaadpBpPcOu6VViRrmqdlEXnKr056ouj_gNS3ZRSreLu5H-Hm3W6UlzNoe3tL_kpuV5MMKwy1EWN97145q3fuVP9w7EM_8z4QUW8OozymKM_3AkMRUYK_1Eq500_mPie-N7gNCgUHJ1uuVtj4N5haP6OoPbdm-r6uyIvH_QWOyw", width: 4096, height: 2731, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106237407316452128880\">The Manor Villas Đống Đa</a>"] }
+        ],
+        summary: "훌륭한 서비스와 친절한 직원들이 있는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["열정적인 직원", "친절한 서비스"],
+        tips: ["직원들의 친절함을 경험해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "6B Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남" }],
+        location: { landmark: "6B Đường Đống Đa, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/TheManorVillasDaLat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17172011813811550287", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%8C%EB%9D%BC+%EB%B9%84%EC%8A%A4%ED%83%80+-+%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C+%ED%99%88+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "조디 달랏 빌라": {
+        photos: [],
+        placeId: "ChIJT5qtk0gTcTERWMXv9VTve2g",
+        placePhotos: [
+            { photoReference: "AWCwydgsz8sIqPcepd2CTLXfZ3d4cYzxsEx_vKRy-3Ugr0ItVEXTeh2OKk7D9lJ1fv_nbr5JV4Y9UzPV1IOluuHFl30s9tLzpQHQQQvFDXx6UXgdYI7R-26fbJ_OwKITveTWZqIMRVhpAcPo0z6EqZ9lk2WUEIcZY_AUaRrFs3UNFyfNU6J3wielOn7tXmUU3aZlp5IxWCUTlqqVxET5CEnEJdWZxul2SIwBlA231Q5tdsbS-XtDZq4s5UhyZ4G3h7OJuvXCWxSfOKorfsNIuv2POqieZhIoNPzvM_UMssEPhEKgW2x8zHg3KPtC1aGHzP1u76P390ipXvwhhIprtUwGma0P9lLf9AYtTZduG-A1h7kZYQTKhPJRpF3zRhr6ZcEVDOYeq73pqDeeoWFjXRPGOjDqQUdvzwKyzr7amm8sdVUPfA", width: 940, height: 788, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107078391520411917945\">Jodi Dalat Villa</a>"] },
+            { photoReference: "AWCwydgTm80Wn4Ww12xXrcY8GMiCzBbYumK5ioi9NuF3guxxZYAX0t3MEOSDjzuELODDLFa91-iPgrgnG9R5Rub3DNDbv2vl6VNeBHa0lNv5DJ9v3sDHnwIxxfhLoEU3NCnKG-qaEbflJgVETWV1-PZcrI7yx_uNcWdstxdoCiHbVz_IrJkDqdJb-k9FAXARaDLZlvzFycCw_URrdYhQpDi3-F8XTqUjr74SkIVCrlDL2AMvE8LSxMTKq2745jX35qqQsCaxFI_6Mk9iUEBIbBjp5Abd8kjdfBNSFEi1VMufeO9X-iBJJLzTniwpsPZci6fe-r9rak0mE6k7fen3rSRvpSVKzAvTIiv8eUfv1gYqn494M8oDjDeBqVDtMPjMjfkDfGVUbykf3UbU8_5NBV-Zi8NOtMiWDrmq7oUJD40-uhCkvvW1c-RvudfSyx_dPgkx", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106468615166579617673\">T Minh</a>"] },
+            { photoReference: "AWCwydiqkrThHEa7QiPXIsNO1MUsQQm7GJCNrMmLY4dHYb3VPzzG74-IQ2BFdrXlzvh7UT8ELlNYaXEQffHcDfxLUmNacxsIbvZqiSIpaZ7pfaRAORFCO3tH_cJ-Ioa5SsD7LJ4C-GoeJp5ZOrbljpWzzJJ5FDYdSkddlx0d6el9DbcqwA28tHO-IHssZ8vjG3lMu04D91kxgS-WQkx-oBWHmpouWOA2RQx0mSFVtzvHI662ZVlqlG03ZLT7iD7SQduewOviSTEIIJZu3eH3m5rZPBshKUonmtHoZSpYAnNWENSAqt0W_GVg3QCvMzGg-ZMznyC8jD0xdljiEI2W_KYccJc8O1cTPvHJBlqFBwEykDg-1ZPdl0BORd40Rjg0ahN3l_epg_T0yAe1ncAeOrta9B5CgX4NVbOjI7l94HAIfB_ZHw", width: 940, height: 788, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107078391520411917945\">Jodi Dalat Villa</a>"] },
+            { photoReference: "AWCwydhPNAVqhI5WZRdoR_bCpNTF3PuMnJkJNzStKpoz0ImBQF_gs85bE0Euf0bQFPRIT128UAcQyruuBWyqGOyBCJqq1q4wR-9dgc34Q0eUsSLilnFqPSDDXJFm_cd4V4gicsyjgvE4Fnx8wZciC9WayovJPBJu-0tfFTHP7f8PZx6gL_8Jx3AAFJrf0ClUk7t3l1B5kxU91SIek2C0-v7wjvvz5OIF3iaVv3h20RtYYmQtvzcSUhIB0BGkkT5fLARZO0QHccX8HEPSiD4drpBOziwXxvZypazrHAB89nDV3tcYQ93p9mecQWlYW6lgnuLSDaUKbZuuSTv3jE6AHEGj8W1ykSFY_bTFMes55Fz-47SzPzB1H2k0nOUl4rNQ_2w-BBsyEEloGzpA60tjDXBCJnJUHQCFRMF4VXbDvisI53QnGxGg", width: 940, height: 788, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107078391520411917945\">Jodi Dalat Villa</a>"] },
+            { photoReference: "AWCwydgAZbRr8nAtNxbEQrQ7jtYCJ9KszHq7tqOxorK_HUqpxNSJEYerFMVCVJYgYU2b7UJtMxttmsW-mqkW2pXKkXm5dBI31qwDEmQiVMh-zaI_vahT5B9gbo9MhTKkPVqilofX4mJO-43i8h7-mUgVSieEQGlqKRofF97PQGBSsk4J-oL54ftLOjWTRFSPoC6E6UzYFR33T5KQhMHE9PMFUDMvjC-cjIECJ03_YatmxLeUBY2Lle8Q-mgNaiEKG_AVrAbN5htYD7Avo1Erv3GULFmVMGOiwZyIbA24jitwIPVAUtV-V1Y4CgA0ZNPm6qQfxvsk6-PYxdkqEEEEEV7LPnGyxHxV9f9A1EO5Xl-siLNzFfboNnmeylAjMynrOKKeZh0mpRr-peJtB4RdoIr-uEcqYJsByPj60aCtd3xCfzXeWWrd", width: 940, height: 788, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107078391520411917945\">Jodi Dalat Villa</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰가 증명하는 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["적당한 가격", "훌륭한 서비스", "괜찮은 객실 상태"],
+        tips: ["가성비를 중시하는 여행객에게 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "6D/18 Hồ Xuân Hương, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남" }],
+        location: { landmark: "6D/18 Hồ Xuân Hương, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/profile.php?id=61552968731082&mibextid=LQQJ4d", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7528874350262338904", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A1%B0%EB%94%94+%EB%8B%AC%EB%9E%8F+%EB%B9%8C%EB%9D%BC+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "데라솔 빌라 달랏": {
+        photos: [],
+        placeId: "ChIJAaCCNFcTcTERVPfPvq_1gAg",
+        placePhotos: [
+            { photoReference: "AWCwydhaPpTTYPjv1Whe4QogoyHImYjue47CbKWp-N0taPY1sQCX6s3s8o7zZTYcZWqYfSSeCObXzq2bv2y8jhWjeXlMzNxq3nELNNEQ5T-j5JJDi3F0YMaXJ_F76LEclmANncQLSzB1qXZ1bACjLsH_Uxs6xtknnjPGKNJZXazDO1YqC4VkAPvqH-WNQdCpABYqcJh3Be5GJ_cuvxIoY7Bp3vFh9BfJHPNE7nZ_JWMllBLd5WFHVO13TAUXJha8y085r5pT3H-LaButwMhXXFtssim3LvdIlxR0RZN0UlXMvjSPXwic6QQq_IlgggEiv9HDqGocIoiCIawqp9Qoq2n6ITkInrw28_yYXaqw4w6nhoz760nsETqLWAgye2He25ZcM5_qfMcVriy_wBZvN4I3-sDT0fduJX2H2lwLWecZ0M28vLrf", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108457964010703998360\">DeLaSol Villa Đà Lạt</a>"] },
+            { photoReference: "AWCwydi0KyUbOo5hyJjLDbdEmRlRnAJnzJRdZ5sk4rqDlSaNG4dDI0PLNwpeee4-0e0bZ8g-ipq9vC_P2OqSwboSgaA-a0YUE0Wc-3T3aqr0WXqZvV3_9KgONYopGakywZMiBfwLDyWJ3WctKpiiNwrJ3KsQjOcLGp8dHIcBTHrZaJVjT4RnmrzuF0OM69rQqWTbdhnrLmfQDKiQXxWZyLeQ3pvXPvRllSw7-Ed6y4xbT-2agdxYOLF4ihWI8UXV3zd7DvVfhhlM7GWAeAlb5vbEiMIcMKrYZO_K8YmPE4tCL7pRAet1SyadZn78RtYlpeU14t3ZvJ8VpPVU31G7OwIBgnIGImOCO_FrM_NLB2CE6rSBa9Gj8CWMu8XJAUy-vO3Bf6MQ9b9FxfwYw4dpMbvr_KMQnDorM8Z8WF8gYr0OHF0fZ89X", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108247185173045302030\">Huy Tạ Quang</a>"] },
+            { photoReference: "AWCwydhSyeRGtCet0306F8dz9yXB0z2wU-l847W0SwsHvxIxbEaD9RQg9JlB7VsYhgFfJJ8HQ0fCNQWNqpBYxQMjiePNmOtTdozGmsZ6oB9J6aASRizHQY_8hVKL-96AE7JK3Y9DeESIkW_FCvPrfjZnif7PlSUY5WCME6rWBb250ZoqG9slYvSthwaGoB-r5h8FczxXROMUQXgV7u1Iq6mI-Z4sVw2lJc5FQix0YG4e8wUirZK6MEk9t-RG9ZZu60OVgrZr1K8VElyA0DSlstN5QAwN9sjR6Bz9V5sfiMTMP0Mv0n3jtSzVWNhPRPCSlVSiC-Djvfs9Enock1evrjEV1Bg5mNTlRQ7V-Q7-v1QcWE93h-VurH5hkIzDyckLFynJKlyHRpwg5STuO45wxpGFYaXro1JdoUPF-ZgBJexGIbZBXg", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108247185173045302030\">Huy Tạ Quang</a>"] },
+            { photoReference: "AWCwydg9YLWX_DZbE3kVxkwzc8SseCbsMr7wYlRMOfXoZIOCsjv38CPIFqhmHc7O1AvJa7xld_s1gPT2fUesxJzIDYAgIPG2pwZ2dh0aON3emsuvcf8ZSb1cEcDjx6Eo3IRfMO5ZHuF29T2tnWBJcP42j6zN7vkvamKNXfpOG1SoCmqoU___eZY-CFQIjnmLWFGijTmTYBLnO2wM-herNUAM3Jg19INwsZZu4woBoWIkgTe_EsgRx2iHCkjT4QR7vZF85E1gzWLJNOAuPUOR_xWo-wjfeJpc-6dhrBAz4mo68QrFlAWi5eSqYMi_CSfYwv9OSMDN4VnfMPEB1SKml9FCmqlf3rU_9RWvgApCdu9CYQK5p-YOTWzSbqdTCiZLeJUZ8RHaCqmle-nfAi3DFqYG8jZdiTtVQn0xgueginNPvUiMdQ", width: 1366, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108457964010703998360\">DeLaSol Villa Đà Lạt</a>"] },
+            { photoReference: "AWCwydhXU-53f0kcieA5-lKabMMoukpbnBOSDWCt6wYuYPF11YvQZ2W8eaeKWUf-41LzvQRumzoKruu3dwrsY_XziVZR7lV916KQdKaPiXvAT2ViTMGPhF7_F6vXOvkiEiJJ0pCElxPlDBbke-6wBB93Qx69ekDX0p1RBl6CZPnCIhWUoHTHurN_Rjlvw9_siZWVVWdP1lMKm8RF-mbrnQhiL1gUFhfbZFwoz4OjiLE-TAtoH9m3lFtnrEdvS6Z3njUBkJgBys-7K7hHb96Q3Q-BZ1KTP3IljZ5yU4t-9gJDPojOghIlco59OU7tLVZ3MDoGcU30XysRlWJ2FTfNCVIN6BPh3enCM7nKG_J5gm4LB_DxsjDedWFWT--7JbSRRvPw0pkkPTX52rj319I2VBbME1AHUAb2G-si_gQYYnQkjQRCbuU", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108457964010703998360\">DeLaSol Villa Đà Lạt</a>"] }
+        ],
+        summary: "안락한 숙면이 가능한 조용하고 녹지가 풍부한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["편안한 침구", "아름다운 전망", "친절한 직원"],
+        tips: ["신용카드 결제가 불가하므로 계좌 이체 등을 준비하세요", "일부 저가 객실은 창문이 벽으로 막혀 있을 수 있으니 확인이 필요합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "91 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng 66100 베트남" }],
+        location: { landmark: "91 Đ. Hùng Vương, Xuân Trường - Đà Lạt, Lâm Đồng 66100 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/delasoldalat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=612759684491769684", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%B0%EB%9D%BC%EC%86%94+%EB%B9%8C%EB%9D%BC+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "루카스 힐 달랏": {
+        photos: [],
+        placeId: "ChIJbyZIhRgTcTERRTeK4GasCHs",
+        placePhotos: [
+            { photoReference: "AWCwydiRGhTTPZ2AiAL6hqdwHxFtXqcxd42I5D37M6HZxCaHP8SkPaovh7iRWO0WG3rA1Spp_xyG-SwyuFaOSh5eIeqhEzIBNYWYbt9mvIlkctvIxOpHChWsnNwNoJcRNvvGmu76L7IELy2LFkE7KlqzLChtZqt7smcx3Q1fmxFKVM_pj1hO0f9BST_KW1bdq0HOUqTugmpua7fquiMhoX52dbAfqGF_RQ5cZxsNS7w4ZwosfuM0e6Zu-DANA-kvOSdQr5xjLuO2Di95ZgTlqLRoJh-WBrjTD6qlbAcZDYj3rIgWRRB1wksH7MB-0loEoFNV3FvPXoZwQOQ2MRJdUfKPnXadxJkuH6OFarCoFrGGuLNJkZ1t84S4bITv1G3k2ykOQRfB8pdKM0jcX0HVnJWbrRfDSqfbvy2SjpwpX_XEs2hA-fPb", width: 1592, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114433317417433819296\">LUCAS HILL ĐÀ LẠT</a>"] },
+            { photoReference: "AWCwydhmSGeGdvAU8Z5Gu71M-kduC6Pb0yUpThTf93QNSRZBpjJ1d1g2jdc_R6GWJXLzQgf-oLAlHOI7Vp9pzmjI4IVvo9aw6WsuR0MP5nVctlUoVHptkmnnvYRjaqRSWcTBoesQ0w778jbVK0KljHAeRGp_N0kG3nsOw-5Q0PhjtXAWhojbQ2TdR3cOMH2S1Bmv_qw77-Q-zQgPiiCzWFEUiFPz60bpFLGSCP2jCfj_E71mqjZ_3yDoqWAdAnrD_8FJnrnjSWS995_VW7uNJrWv_gls6Ivn-6EpCS6L_85vhCdKHcdtotNL2vr0wYTfLyKNsnDdvQwi2y11lBPis7Xs9-CvwG2ymlkFyRhhtKwGCNYoqaQuDtBdHiSbtOf9DN59dwNlABZl15qgy3Te3L3fYcaOIjPZ6BGquiglqGoQVqqiXhyQ", width: 1376, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114433317417433819296\">LUCAS HILL ĐÀ LẠT</a>"] },
+            { photoReference: "AWCwydikhtDtxsWCli-f-0Mv2KppfOtX2IgZWALY4LSpFWYApbKmiNg2g_1Pisg9a46p2ZZNXtLKwVXijI4bLJaDXcWkmufFzhYLANc1dOWIfVdlKjgh6UFcJytl6sfn7GMENm6MuS7dKmXY0Z-RFZMXKGeKnzmaMhbAGjKLGg9TuKxP31wWHZgBFNdPpGaJ_hsGpMJdRLuJNZtzrhIdN-y3e7ek_N-kHDN9uv8oiPzsLQLgNTs5H_uQT7vx52oC7-41j0b5pS-LPiYwNzYJaqGkPeutBzxjptqo4Wj1ScXpU_M3fsOGT6eBNKvNbAjFv0d2vs1PNjWpnGg3WsO4CwbqoIdivYVIxV_AuxeF6NVrK4GlCaf2sjUBvfIKVC-GNRGOAn3UnuRCX2Uon9QFnK_dSHpyuOfGzLPcl-OJZbaNOArlqKM", width: 1440, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114433317417433819296\">LUCAS HILL ĐÀ LẠT</a>"] },
+            { photoReference: "AWCwydjSNJEniDE_Nijn6ppJ7fW9ZA-F08lAqtfmp62RiGfBrGqVAYoP61wAFJAYmC-tbmDSvBPB9qFo24q-jQZ25_3qZS6uRYbm_hJXjZ3q9ZD5Jpea_NH7C_fGOTMn7EzBn-vLbHg0H69bH8uhYtd4qGX9GRJU9Z5Gk6xIKDon3d25hh5ZSWCRb3rUHVGkcxvIiwYnMsE5eiLujVLszFgSaz55KZVhjnn7Y6T7uUzxge5Z8CmzuOgDmKJacOLhrxu6ctZ2kneslPcQ5BvvB7-HKzTLW6DVtIOOK6135Oo4qnETyZ2yYkEO7YY8WnKYx4cxp9KsklUYzJIS3Syx7KBZSGussoFR8pwYvmNsQK8vwViTWGLAbFg7idwpuQz_14Y4-dkPGtnLb_ApS_ivzKtEpsJDNIE70--64Ha8gwnn5Gw", width: 960, height: 574, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114433317417433819296\">LUCAS HILL ĐÀ LẠT</a>"] },
+            { photoReference: "AWCwydicKB1HaruAxdWOrnOhAwZ_MySDKjictSTnEjKoFGI8846J8VrgN0GCSgIFy85TR1wEls08hZG614Jj2PapHsOm2M2fE8tjWL6RY1f-tfEvn-xs34u8CS74kIkQ0ouTiFChdDPzKKpuJVPdJrE39SvUUC2zIff3bnJed2PtfFguOCt36dzLrwRWirrK9qBwfyZB7IaSpr3u-bDey4CTj56AHmsfESpHMZWn1QbJ-mAfzXfA8GgdaoMg7SdSU5iWfC8zydRp64tjSeWXGH6itvf0BF2IrmJaHs4rNz1ZEsi3aQxu4SPbuz3sqxvStPwWVLlhZvlJ0SrRmmXvGfVbO025zFyYu3qcHCCboV3ynjhh0k8RMX7W5zvWATZABlfkNCDkjCbr8A_rcZVlQ22R2hW_waTg6cfoxuw0Vb5T3lM", width: 1500, height: 1500, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114433317417433819296\">LUCAS HILL ĐÀ LẠT</a>"] }
+        ],
+        summary: "합리적인 가격에 쾌적한 시설을 갖춘 재방문 의사가 높은 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗하고 예쁜 객실", "친절한 호스트", "합리적인 가격"],
+        tips: ["여러 번 방문할 만큼 만족도가 높습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "128C Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng 66100 베트남" }],
+        location: { landmark: "128C Đường An Dương Vương, Xuân Hương - Đà Lạt, Lâm Đồng 66100 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://facebook.com/LucasHillDaLat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8865525424332617541", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A3%A8%EC%B9%B4%EC%8A%A4+%ED%9E%90+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "달랏 패밀리 호스텔": {
+        photos: [],
+        placeId: "ChIJxddxq9cScTERZ8fsEJQSHVQ",
+        placePhotos: [
+            { photoReference: "AWCwydg45TD_jgny4neTxq4Wa-okXrHQ1b7j-fvs4VoL0NaLaiR73wHK3JMgK5WJakoCuwwAkbdYWQtdIpwVaUaxF6rxFzZbZ6e10QFXgGSRnx_dSLyeJ7epGWOSLMLEcn30uvjEXeg3R1cEpq7LDhsEuZZsqHfE1eBZSCK2BpofZgF38sJwkKmbKx5Px64Bt-bQ-vd2qEr2yBL7GrnvjpRrz2WXyMoxXdyuFTwFb2q5CdGz4yNeewE85fo6YsFKBjlcwmyl_WuHekCrTpQWqLOiCppI9uNVSFYKsl3x8a5mpirVxp628dihcywqYwTUqmAozhEuaXQkX7fjA8d1RcKDCjNUHhgGy2RK9cXPt8mEFt2dIyM2yNeRnbA5pWcwccjdkk9F8xwPaPscBtuZzgdAFbriSzlvsREzJ3zB-ZNsjxZcS8vFgw5aelMPPRE_gU5v", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100124576263860567717\">Dalat Family Hostel</a>"] },
+            { photoReference: "AWCwydg5FYClwd693Z9B_kKuHnWKPxuMWQr5TuqARhZd22Lqztft5UzC7qxqCAzEIY6wPBArfR-s13yrucHftNiECzsBkVEWN65PVjpdSAXD3se3dEY9geRe1HRXq0VOPz7yugC_FK5PbIo4JQFNmf1RTraX5bMqDxdxy5aIEoKgz4tqwTYLHtYc6ThPmNPRSrAuqFJ8mNoT2lrPGB3zaAQXNc3QL7A_41gUA5cblvJIxTuHJVqRGneKIKI5iOgyu9OmgW3ED-s8x9Zyw7so8ZdUVQDmsNWwDBWdxA1nDZSxEFPvKCYjaL7GZBIZIywN7eF4YHQTB6bl2bE8tFAGz-3cHvdKvl-B8NgUWlrm7mXsRdlPYgw_6RRlINiLZcx5ld8HSGgv-HTf7GzQSDPQRzEzGatQBt05BQrJ1QX7fESB6K1KlxjONR6dmuiS93cdQA", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100124576263860567717\">Dalat Family Hostel</a>"] },
+            { photoReference: "AWCwydhW0arxg69ybim3gGMK8MQO_zwUVQHazQBR9jTnD_vReX_s2ULrK9qGZoFaA9oT_A52o9AEMgR5lGMBzW2BvkRXQK7DFHT576hJY5CAWVaGyS-LuJ-_G8vUJfWNBKnDNrWttxtaJH3ANzVo_EPmYfAA-0i5-9J4bguPOplVhzclnMNDyFCZKNm0FQRDXkBdZCgxqvwY0laLX9TMwNXm2Z-YPjYTv8iOtTEAIDTR8Dy7G--3Px8xLECvhZcyrM8gkyHTA-ptVJ4eJH79wkvDm66Pyuih_O6q536oUlOHfGs8XoGTF6VsuZVswJk4QBgjsQQTBLP0hFNHIcVVdvfamtwYNlxrZjorhNboRkbrjXrPJUfc6GahaOn0xg8O_1InfBfbtr1UFcxXgESBges7P6P_xL-43HNJ26V_0_G0ALXwl8DB0CUbxQpm3C5AgzJ2", width: 1599, height: 899, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100124576263860567717\">Dalat Family Hostel</a>"] },
+            { photoReference: "AWCwyditiy76G8PAy2u_RBas2iMBlKYX7Itw-ZG6RYo6obE4E_G_KGqiLuD_J1rMbfQFB1nQW-A9GbOkmHCBMHMEvQvqhsaT6qApCILmLlBxYbq4tAOAXNUM7TGd4xcoxUK-5Vk5UO1j0LjmqUYrMUHpsEaiy4koGxaB5x8Sg4NZkz4cEMGlB47qmbd0xJ2CAiKc3aM5r0xkavzxdL_s39l3D1Xak9N4Kse1p_hv7mug2ov3EgDnbnAI5UqQSBm_Evxs8NYu1EGah2BeBTJbHsPua5TprNmkOSCSW6Z9tB9_nK60HY7PAi-pB-Dt991G6gz3uOyHAi7Bq5AJhyW-ZlnuW4NyLhiJEjViKhPzyEQ77eWQGzBJnBkAnzIiqgnXLmdSv78UZSdX0coN62nz7jlPc6qveSGpdqRlsRO14aqODi3J2Vh_YBjbQNEXUrKpHA", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100124576263860567717\">Dalat Family Hostel</a>"] },
+            { photoReference: "AWCwydi2ZkecSSw6uEiFCawYfb-XpI6XFk1JE3u1c7zgn66cVnG2nJvJnlZBb69FLDKAQg5U343mWBwLqcSLIYouuePlnz-krzzx9keq4LlRDrNPAc3xkRuX7UBGocj4d1wrslKIY0iSSK6wfe3zc7CdIP6kneXnIvwdovZNegF4eV9w6ESWrAz3C5h_YX41rv0c5kD6ztMU2G4F3pPbTFYwuAmvmkIEDDNyTyNQdSUk36fUw1666iAfwj6Yr1kevapEuzcudOg5jwf1SetcFbPnEQMIFoHAzO1dSg4Nxbxjb3hsd80Bd9ZdyMOc07HXoBuK1HXazSVw1Z7-7kAIQDB7URgk_Qcf21Embc0R7r8xVhKm5TO9ji1jjA6PInh0XSTeGjUqPgnoVI8m5_fMwEL-uvwCcPh0Mjtz6owvSTDiZl65qC263eqFH84_OxyS-w", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100124576263860567717\">Dalat Family Hostel</a>"] }
+        ],
+        summary: "맛있는 음식과 저렴한 가격, 활기찬 분위기를 자랑하는 추천 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["맛있는 음식", "훌륭한 서비스", "최고의 분위기", "뛰어난 가성비"],
+        tips: ["호스텔에서 주최하는 저녁 식사에 참여하여 다른 여행자들과 교류해보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "3/4, Ngô Quyền, st, Ward 6, Lâm Đồng 670000 베트남" }],
+        location: { landmark: "3/4, Ngô Quyền, st, Ward 6, Lâm Đồng 670000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hostelworld.com/hostels/p/302311/dalat-family-hostel/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6061021100658968423", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F+%ED%8C%A8%EB%B0%80%EB%A6%AC+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "무카스 홈 - 달랏 백패커스 호스텔": {
+        photos: [],
+        placeId: "ChIJZawUmNYScTERy31nCN2F6MQ",
+        placePhotos: [
+            { photoReference: "AWCwydib2Rcl5vfoualhp4PK9P97OICb4PmE-3NBAh5HUy1LpAlvBhGvP2pszWJ3muMN-1LDKYhdVS3xOUO-b05tMrb0ullb6ot-w1d2tDw320D8DZtoWf4XyoNsW7ec5HOcoqJzxaEyDzuZAxsdrJKqO684obnLm9Wl_xvIHf42o-PAAhAJtlE97S4B2ZK15HmSYbRoiMKd5cBQG19rmWyfSQeqaKzqVTF62ekTE1IBtaIV695DCewk8o3wUZO3EOqC4EFWp9Vc3oa1ungCrClwmnfAbHsAJHpeNu8XIm0zO-GMqUiY_CMljYW2nX_Gty427KVLSowehmRZuynqTB21FrzJnpNnCofgvQhZvmB7uyv9jMBGJ7LBBiujUttrF3o3S3pPFsLJ95tfPmU0_rbN0RrmBxVi7bK9zoCjFWv9IdFbiPHs", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105434781209414115200\">Mooka’s Home - Dalat Backpackers Hostel</a>"] },
+            { photoReference: "AWCwydg34JwG5AT6MtiktAijDwPy5dGIzQEYoTMPVN6baaFIxQ6EQhlK-3accVLXYecoLuCMxjc2zknD6Ei-M-OEukRGAH-2e9GdAJiLdQy1w9JVPG2kd_WnV8KbUQEohKMxLuhBxgnGfvwvU5TDFfW5-nsHb4z8cipyP5u9Y6AVmdDsmFXOeRnVnx_Q9PA3lI-I6gCpW88vZbBggcTLQGLS0U9Jjztk2W4-jLzSmdjaMcp6dnJUx-tMpl9B3GGBHIak1clVKtQymVoZYxf2dhaZ9U1vP2E2QcZzEY-BtQMH6AM8N4Gdhm-1jbCWSDRBB0ul51RTk-78UszH1mDN44Yi6Ok1KNdiXHjBBNwTvhywphCGm9fhGKdLczShbrbY2IHWPp4h4K0YMbiI-Abm67dOXm_DITQZA1KuehXMVw1DL1VuhA", width: 4208, height: 2368, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104040097607633910429\">Fabian</a>"] },
+            { photoReference: "AWCwydgQcbEGXlR6_wsNm5MKXHGAfCx5m9WSy26et6hN-NDj2JexiUxKExnTufjWB5TfOJUV8rkvjCjdus2gpRNUcjQDNlNe9hhcV3FLHy8QSmMyD5BNXV-vjVCD3cMHNW_FI-NVDRFIOfqxHKPai7p9ehqlmvMLF_NUBRsPsl1PR5PTzCS69BzKKiC4Yqkdq2ytu3906Qjr_P34u4f-KERTfzM5N0lDj0cjjukWexqmY7e43Lig1yVNQheWc8TkGOrrcUX9DX4Or8uCXzngCUYX6ZvLlXY_zwN0rc4ZW2rNxig2KdXKKc4lHzkEgWCxnyXdCkYmAdJi4YcaOi66gnhFHaTf4GCx63jUZ9HHrdVe4ZggTvcTKRt1NQFkysyZowRjzifUnF8-yoRijt-Xk2MU7FUPrt13ZMrt5eQ2VgknNtsENQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105434781209414115200\">Mooka’s Home - Dalat Backpackers Hostel</a>"] },
+            { photoReference: "AWCwydi52beRQlzMev9VgxmORzcx2oMLcS6OmSLR01zzSV8YApAxQCxCkCVCPYkXbkjjjmqwNCIbvep-jzZ1lQReviTLavFo6Ce-1WeQwG7dRD2Kc4rwVHWuhv-UfNkibvJ3_goKlr3FZGZzMaKBH-xf1r9Fiabrig-0l38WeBJ8wMPDZpZZKPFoXr3OiTkIdX85zBEWkGQpF0vtR3dARRaiUjeQa2_r7U9DrYhPqeXT1R4I39jJdQ319OF9qcxiDs9JKyANk_qRaUadT4qID2oH37q9oIHLMX8a0-GsEyrcADWZoDh5ZQn3qoTyOYLOgHeaayrcgQYaAB-S9-92gTv9koMa6uiNB8XZuKtdAlf-AdmbX0mZBI1XvIdAwq73Btcd_SBvcfkMeLFUTpHCaXI8V2-3iEzpXAH6-94pMqnxNSrxzA", width: 1246, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105434781209414115200\">Mooka’s Home - Dalat Backpackers Hostel</a>"] },
+            { photoReference: "AWCwydjqtObVaErV0RUWUi8WNJEEEHS22GkDNO_atU63pTSTU3ASmCC75WfhKLpHajC1uL3Ffh5AYEBcxyprt37UoiiHYEr3SSzJ_NNYO3k-sxI33lWcT7RPcQM4UHaAyuyFoBbf_k2hcBAABeUOEQ0GoNX1WjFS1AHSHWaUzU8PmppfgIwPUIOPpda1dD3r63Spg3zUE5cJ_ZhdbfNi3HFYePFeQ5kQIoXFV-Ruiz3tE4tE3wTI2-bgtNjdXyj63JnA1B_T2m202dAdAPdaYbXjtzCPh9agPjqP0JzPLa7GfG1YT5dUJRuzq2R2k08zmKsQ9sxadwi_Cb_FeN4-02gpvnjvy3TUVNu3jUflN0TmETN_C0JCudLca8bjo1B8SjHjIf82seEza-d0NeRJB3wa-UTNUhuAY0qiCvquKfe9bHh2quI", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105434781209414115200\">Mooka’s Home - Dalat Backpackers Hostel</a>"] }
+        ],
+        summary: "친절한 호스트와 깨끗한 시설을 갖춘 가성비 최고의 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 세심한 호스트", "청결하고 아늑한 공용 공간", "다양한 음식 메뉴", "정기적인 그룹 BBQ"],
+        tips: ["호스트의 추천을 통해 다양한 투어를 예약할 수 있습니다.", "식사 메뉴가 다양하여 숙소 내에서 식사가 가능합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "02 Đ. Cổ Loa, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남" }],
+        location: { landmark: "02 Đ. Cổ Loa, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mookahome.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14188737810406014411", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%B9%B4%EC%8A%A4+%ED%99%88+-+%EB%8B%AC%EB%9E%8F+%EB%B0%B1%ED%8C%A8%EC%BB%A4%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "티곤 달랏 호스텔": {
+        photos: [],
+        placeId: "ChIJV1fiXD0TcTERGgllBx4Wq9g",
+        placePhotos: [
+            { photoReference: "AWCwydg6hkH8H_w6ioKGJo2xCULOZHkNuye4lC1KrhRGzeM49VI99xBeJNGvHAGj7jHeFgL1AGOwcptUG0XJyZfO_TbFvHcymsp4NqecUIi7LxjyTlqriGAz6SySk_NezpGGXhz3vXgGUFn_IsiSPYEpdPjED1hsUQf2BgmZx0WYaDEjfTehm51qbtNAUrLmVDFdLRhtNfGcdhbptyOtBPYMfTozK_XJZrd2x9RffW180PDzXCp1QT1YaCpdSz1HtHKjwizhrd1q-XLQYy0X_YmMRIzLGEc0Vkf7L0Lu2xTwmdVFv_KqDkJl6yx-7YN8vGH_YmNRI_iyHvu1_FXylehhSZRD1N47YpTdRn8NQLhNm_TiP-P3J1r-bVah4GPJc4QfSl-TOxFXBh8M4fsN5a80UVS1GLrNPyztJOKjJs5cb7h2cMMs", width: 960, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101200504082439140258\">Quynh Anh</a>"] },
+            { photoReference: "AWCwydiKBEbAQAOB1b-WjGQERaaD7f3slWgXcLRlidizT8Qu0RchYqkmCfLDRl1p4_Ohoua1uGyeBdZn3jzhlfPAJVwlsPDT_Zr7JszMh6wYEerOxplE-s0cSKdn1TT5xan_zgk2SZR06dh0bPwXmNK3XpS5CDcITkVS87NbrlNN0MHtvjKbMha_vEdz4zWsjmc8rhZmozU0547WdWSl0BNIxsuvnRbMCiwhpg5wCJONnkPh88IwPxAiYm1HfZVYtXuPzqKn2WSQMHKrmExDY6SeXgGqoIu6tUR7oqMycBaceWeVxjXnb2CG1tHWtCviivL0ZGGQONoYX0CxtlhhvmSBcYNUvFLE4erAiPqtTgJq5h0K6cwEKFjavduIx3ODlhyWrTRO8fi0N8EyF9LwxVfrgdRi69opITTe0aXguCSDlJHWaOxJ", width: 4800, height: 3142, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115189254674865056186\">Trần Hoàng</a>"] },
+            { photoReference: "AWCwydgyOWJwuVLfY7Slmh3J00-lUpk5d_4ohrc7rMpaS3bTjC92DjAqjNyghJ5k4rUjAwPV_sGKWV64UVDlqc_eroT01Xh1gWAL2OEfdtZe0dvLM_ItAz87FvtPRP2J9c--lWbNBJFd43h65jJXj5IJ8o_rEC1QN6Tdk9ui6TVbFSN2kOl0kdnfP3fjLi5zbOAakXLbiWVd8_JaoHk7-klPInBAMLHZ-fr13WLpZOqUeL2-YHBQn1Zu6D5eYy83N6SpfuNjGtNuIRHHYFHQ2DkU3l5z2aWbrcv8TLH80fBy-nQTempD3cCfUNBhgv3DceM3ux_gw9eEVFL1NHY1_pqyepEWAGkzb6EozalFBetxERubg6UkyaNAfLruYHiWjsHCuhyUQ3Vi0zPfgoBVXK1J_LL7aZHHA5VZjC49pTUD7lM", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112031912733180484962\">TIGON DALAT HOSTEL</a>"] },
+            { photoReference: "AWCwydgynOChJTCMyn-euVF3qbw5NIz_K7erORtO31Taq7oNzpmqTcZTeaX2olg7ZvCnm9TcrWIrTONG0FX42NQVyechJRzwxl3MijAvTVcV-dNlmTqGAjP3ykpQG2fwRnONnSBrHyndvseHoJlwLIeqt_GVUrXfHdm_E3_IFTW1uu2tpW0znBYbEkeSoD44I_bKBlO32uiZLPNnbzpmXrCMhvGmHNYwiD_w5V-CkL9IyUs06cHT11idfJ5Sk4QPfaS6esh7adA50TFZ_4zr4AMfI1qMiJceanchH_JN2u_728QD1FFpSsPk0bE2cTg4d9KZwt8rmoWszHk-hsYWbBNnABojexN0llq2q5w_fB_Wd_F1B93Trl8dNBUnVBBzLnf6hTSLv-pNFeK3tUZWsq2qpvE10XxWDABg3BowhutGpEMHZss", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112031912733180484962\">TIGON DALAT HOSTEL</a>"] },
+            { photoReference: "AWCwydg-7eMimV7TIuS2DFkAkGbpqU4IoZ-75IYLqF4ol5xSZ7BTsEqluW7MgGNNN5PHbYf_lwRXKczd7W9VzBUvkR0HwfvXp5fFFzptapNgjPT6zmmAdMxv_DcU_8hJJBYg76MnWZQMwgPEKwmj2vxziBaX9ZOGyHGuf2Br6xbtQMWBhXp9Oge6rU4Zrq_1Nl0rRDeYRjg1jpUbND1h7pW2AuZtizdKwCxSSXS28XuQxd0jRXn5fZL3ghVW25RlhtcIdrZlfd_quGVEag28wK22fJoIXVcThZB9rPR1F31OiC6ItDnOiRyWx9QAPbzSXhcVmeTHJ9Q_Be9S1N5kSVK3iDIc2vzbO6xwtC-nZIJj0DPSK70mWiNURUWyJK1-2kJ-eUMNnbzDYJ2DmPv9uq1wZbsJGMnG5Z0c6QYPgyoUmQSdPw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100820460789166255787\">Dafydd Hughes</a>"] }
+        ],
+        summary: "높은 평점과 훌륭한 위치를 자랑하는 친절한 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 직원", "깨끗한 시설", "편리한 위치"],
+        tips: ["시내 이동 시 셔틀 이용 가능", "도보로 주요 명소 이동 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "13 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남" }],
+        location: { landmark: "13 Đường Khởi Nghĩa Bắc Sơn, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/tigondalat86/?ref=bookmarks", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15612596851438848282", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8B%B0%EA%B3%A4+%EB%8B%AC%EB%9E%8F+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "킹콩 호스텔 달랏": {
+        photos: [],
+        placeId: "ChIJ02phf9cScTER2q37IgViF2I",
+        placePhotos: [
+            { photoReference: "AWCwydiwHYuPDEX6lkx-zzEp8w_TlBjVsalYrFhUpPuGvPYrkD1NvdyRulsWHh5VXCEq5_d4ccKPaymsVofbVPw93f_WSq14NUAS-C75DPtnWJBrBGo16G7keqnqkPdmLc2ipZQZZA7nEAMoHkMmwwROvyJJbUtNTuYQ4jdst7vWVyEaHHH_E5k-hl4jn5IDkywUtssgwA3SUKQvs_xCInprZQqy-1KjKShalN5sK76MXj3ow5YOrvwRp-dVe6Jf57F3WC5RApWpYusxAl78jLf4QMJ50ehOvXZ-6AnR95dS1Q_-Lh6A5yNoRkah9R39zYleIP3IIjx061265LjifJOwEWJ6YITx23_USIjaota2PY7S_PWE8MI72-xPLHunAckC9MeAjQEDA8ARU2gsU6lkVgt08uTy5y0uZJF70PpbKIb_s_2j", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110465255429559729265\">Jos Aguiar</a>"] },
+            { photoReference: "AWCwydhNyrybg9Ow72ofsZpMvwpf6sDL0VWXCFRnP6yUICJiUixNU_CcLIy9uCDeTxSu7vmceqZsnGRZNwVqTooFdYNHjJRIWwT95dqc33YRx2zsRnggpnU5_uMu2-SRHtEsFSl_zGGuY5iYaAH0ExXfwlACuiLmjOxygzxsdJbUW0rUMEte9S0W-bvWd94VsxCNK9axDiie-Sgg4oruCZOKY1GPnaNBjktuq8D-R2iUFHxsJQ5KekIc8qWXkom_6EJ2gyv-gHNJO95LFSKlUPsO9SVmEdB99XmDTJRvFjcHOhpZjd32CYXU9SdiDmGvPWUf5dSQQ57RrH-K6CqEsz_1aR3NUjP4pazT8onLSTtFsVJJ8w8kBsTZCZPOG7qGEwKv2mrEuRtv2pmXe2DKfbkFjspZRjcnWsHdLZhtVvyuZbgKUIDU8H6w_lDXyn8vuie3", width: 1024, height: 683, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116406131541635904199\">King Kong Hostel Da Lat</a>"] },
+            { photoReference: "AWCwydjOVQLC5CUPNPwH5VUAVrg7lzb_dr0nZ2aPp8J7QQ2NQr9mRrhTJ3ZvClo9PlJnhNaJChfTLkx_v-mkPZDH059Vkg8mNbAx6h_ldTQptSXC6ZW__7jUARuLMYgzc4S20cLOMXSuHmbEBBrCp8ARqwNI_db1Y6TPJifYFS-N3xrZr-1gUa4F0Q9KEQNfde84tYhdUgqgrKpLDvM4tlK29KyawaFBTvcTdKsX_maZXBlfP2BLjiDwL2SBHNHAY8KWLZQCGSJdDOWOxm_lgXQQ9Rus0qBipfBQkvZmrkYhqlFd1ouOUIKXqYdjWuDQ0kFm5tI9xdBptsGyj2FzEWw18fRMOyQyzlImWnmbfyOXFJKwYwHwl4gnY0z9tXLCgvTkzCf-nNAR8WODjIWl2Y2x7Yh1HfGtSgobMpMy5__AbMRycf3qEqyMrEKXGAgeK7du", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116406131541635904199\">King Kong Hostel Da Lat</a>"] },
+            { photoReference: "AWCwydiO6iv7-56DkNuGB2LfeoQy693x2rXwoO6E5dQJCq8-nNSc4d7EU-Pv1Z6axAm3uet3BpLBsxZ4ypjc7DsPiwIZ98P9Fx4jv24USNhGDur2kG2Jh65ddZq7SQrg7l-m4Sg_ig_NCSq9hQ7KtD8pDgJmOqZpwPKZ-Xqj-H4oCtNhX6h2ZPpVQnd9DjaX4bqRox_l2zSA4mNPYYxjVbUv9_GK4OFDMe9w5BKah21Max54SgBK8qEm6uIFhUIEwBh-D-8pJxxRn57EzbEYJxWEMKMyRCGNjpc_rZoPgzXrprPvAB6iFYv3045Dfse4HZ0RR3fQIeHy3KXpAv0v_TcNK6dONnjuMSvKKdMrjFEqykus9gNNM2W4tx-Njz127kprmkYw2a8GwXccOSgOMOm9IUZPyp10TChitV-eYbEGCZxCfRJa_GwgxOyNmm07Pw", width: 1024, height: 560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116406131541635904199\">King Kong Hostel Da Lat</a>"] },
+            { photoReference: "AWCwydg3XyDJTmEff3LLjlU5BWs0AP1LbuJSkjxvVMtTeHRYJJFLZiDsObrV8nG3CtaE09B7wv5mx-CU1VAqMoMoChR4fYQDEDX9S2zI1H9DvArLbZNmGuVmyxqrS3BcEwE1nKb9Cx6cBFZ9SD3V0F7J16j3K8z23NZAQ5wxRKNVGEpx2cjwa1ByJRFWmRvPXppe6A9rN5rZZzDrDI8cOHpz7MjI-g1IROw1F_-_3l3FSW_YCrX9SW89SRso7ueJF1XgHABlJzzK6SDt8mpJRn4OsEHGkq7DyhNdkOGDZQyJqipu0odFw2B_hGSOJjY2pXvUIgv2K41RYmwL7AT6bNNXTI8Ivw3YQIHKzRsIpuZYEwVjdapxYi_p3UN95x8FLrDQzciAl7yRgVSjbpCgoGsuYu6E59m9WRUkCEcJtj_KOv8", width: 1080, height: 811, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116406131541635904199\">King Kong Hostel Da Lat</a>"] }
+        ],
+        summary: "투어부터 식사까지 기대 이상의 경험을 제공하는 추천할 만한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 서비스", "활기찬 분위기", "합리적인 객실 요금"],
+        tips: ["투어 프로그램 참여", "가족 식사 이용"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "191 Đường Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남" }],
+        location: { landmark: "191 Đường Bùi Thị Xuân, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7068225914382560730", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%B9%EC%BD%A9+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "달랏 스카이 호스텔": {
+        photos: [],
+        placeId: "ChIJ21pUFygTcTER8qvRy2I5Cqw",
+        placePhotos: [
+            { photoReference: "AWCwydgEcR2SzZLPIH81udrDv4x3D2C281H5qCVRH1cP11-874aIq4_-tqHpwqAFWjwJ81Q-v3UkQgl75jWvQ149wfLpsuGEMT8co9Q01qn3fik-7pJUnK0CcdGba2ue6Krtzyp628RuU-FVbL3vxF7ESkiLtalKTpGy7nHl9Ic7Rg-xy4Ynte-gWLLzZkb6mmiR4M2opu-00Xy9LUdvZyWh_97fzwW1M0XnNJtAyUDRFbmHL186Oc44hqU5Vf9HHkD_XQm7Rd8vDyKpsoA90QHxs5_2f0bk26kOFTHoGt-t3OyyK_E-7GWhwnuzWOwjSEC6i_xuJ9h84k9Njgp92voNiQkXxkGCkmmBjSnoOng214ILqugygaxMC8zs0s6wBKEswKvTVAkt5lX0asTF0Mc-GBqZ3iVCqzZW-XS4ktZtlvPPcg", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103926787948440607881\">Kevin Drenthe</a>"] },
+            { photoReference: "AWCwydjKJeUsrV_ZO8vko619ylP3nFZUnQDLsHYZzdZt8jMWaA5nqbMrUmWGEWyed1iZ2Cfm9YzbW1815wOzzAQTtyQmkBhhENn8g_cNl0SgKxF5txN3a_XR882p5Q6Db-sPslWs89k7KmvUvorHnDOBm_-dCWb5fCmLdBHjEKm_pWZcXZdy4GZhaQ6ll_OPfwI6suQlEuO8EZsUYDtjPnIclxZnajYVcUBzwUcPOuy_7HYZiLEQHdtQSzRUxSdyEYV73S-GjjP-6hcwsPl7DhP3U7o-Qobo-AecvN-iNZGzuDY2MUMoY4aJOXRtPXEoj29CxmXdruJ9NfLTwpaPOw2ExudfDe9hJR3PjUYSu6Twbp9LMJmLnra4Ikd685B3T9q_ObJar0O1vX6-0wdSHl_fl7tsSZZcIIjc6x_sYU1-nc-DmQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110258820881682643763\">Nhà nghỉ DaLat Sky</a>"] },
+            { photoReference: "AWCwydiIVobnADLYPka4ww8y2BbZ6io7DL-Pyrxl_NS-TY287mWdtpt9AYYBMkohaBJc4KH81_6SL1q_CuvlprN_GEh3RNaJdi7Mb8zvcUgeD1F82VeEDBR5pkDxcwM7KCnDMQTgk07SNB5Y7Wdxp_35piNRim-sWUn_-vPDhyylMVFW3BSKFPDWg-LH8dJyDeRkcu55MItZxjLx3V5VuB1JIaWnca5jc3Ykt01KYmSir1Aqm1p9la0fTVDEFEZCFUi3KFMtmcMB0_o8z_kBQ-3NU279MqsdJrjwbsOT763NpPRH4hkzGiaplSgMZeX_2AeGaVM_suWTrUTV0YruQ5QZGFSevQ-amR1le9f1ObrSAKSx_Y6CcY-SZrJ2AXJSwG_HBYuNZkl0zC3tk6be0tQdvzwmW5un3qVHlLumEblJlX9ynA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110258820881682643763\">Nhà nghỉ DaLat Sky</a>"] },
+            { photoReference: "AWCwydjHiK7pMF4vWyfKnJNnTwoIynfNg4iUA0qDxujwXMIl3AklS2MhXyf2r1BYKcTvDEphs7D3kJp5nLeCR6yp99ShazM01RjlvVhXBCMAKWcymCmKeE_8BefYFDEOVcv8vXloPaGjIy7oBX1n4bkw4K4VYfgi_NX9INGMtLPWAt2hvVPF2b-EC05vm3EqGCDEuDCZTa2x7QjIy28eRw2dsGu6RM9-wjSQhzwkcsuoAP6HTYdYQFQktobfMhk6G_ycccwO2XWU2PtMa2BSktGDod7O-2bswnAPWrcxJ3EZRj9N7gARk9aPa_ACWmhsoEZ7FWfLUJ0fhLRZBZjuF9K-VMIkHPvJZ6Bje2tON6LY0oOPezub1ZR5QtsjteSYFQdsGgGK18W3SKMkws6gGPmdgO6wbTRPf38XY2CQZ2i_eFZIK1Zb", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110258820881682643763\">Nhà nghỉ DaLat Sky</a>"] },
+            { photoReference: "AWCwydhYlGxkmuRJbw-RJInS5LfqB68fykZ3BPRipnaKGH-bfcq31ywt5aqFVGEP1jVKI9QjoQb2sZMKeubBjkvgcXXfEtFuEPk_fC2y40vwPxThzaPMPfzq2U27WKN_SSrs8zuP_NGeQGzWns35zLRVtmVLlrWCDD9l537XkZUOQR0ce-QvwVSImphxBH3ZMsEsaia6zmJeNkzZjvZvxapA-j8-A-SfID1uxKmXams5PPs3CI5BwCMlkYw01HCR-8l7Ebu7PgBrCO5y8OK3y5JTaKigGbo0rDCXhrA00ppHbaSozobSkDhkqiy73rRvQQlGJ5IY9YA5YI44qMOBiFN9Sx43ht1h7oTjnQgKwpOUrhhJHFthKB32avMnVtXKsKExhgf1vla9QQkhTa9uPJ7HpNcuTriQQ18IOTKYoFREy1E", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110258820881682643763\">Nhà nghỉ DaLat Sky</a>"] }
+        ],
+        summary: "친절한 서비스와 편리한 주변 환경을 갖춘 가성비 좋은 숙소",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 쾌활한 호스트", "합리적인 숙박 가격", "다양한 주변 식당", "24시간 운영"],
+        tips: ["주변 식당 이용이 편리합니다", "가성비를 중시하는 여행객에게 적합합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "27 Đường Võ Thị Sáu, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남" }],
+        location: { landmark: "27 Đường Võ Thị Sáu, Xuân Hương - Đà Lạt, Lâm Đồng 670000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12396784020779805682", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F+%EC%8A%A4%EC%B9%B4%EC%9D%B4+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

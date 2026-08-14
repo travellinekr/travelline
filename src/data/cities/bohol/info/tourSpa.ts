@@ -447,6 +447,288 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EB%8F%84+%EC%8A%A4%ED%8C%8C+%EB%B3%B4%ED%99%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "더타이보홀": {
+        photos: [],
+        placeId: "ChIJ91RdBACtqzMRcAtaDAGPyyI",
+        placePhotos: [
+            { photoReference: "AWCwydjx3Kk7aIlxfqjpn8iYO6jV4tLTQfOxlRH11Q5-Sz4U6y0VWbjFi3Yzj56g6-FP7hU6STP1KtViROihZPgiZwpsY56zmpRrVBDMpRnP_715QrpjJZegmKakxIrXDLXO1SdqxjHu8-AcVewb47tKi6gRrCnHl_eRbvNavvpILVQwGPGTbJ1uaPXBGIPk8BFcKd9mKQTiH_e8c-d2_uqXh5nWVxN_1vkdLzwpYOH67BwARNeZoJncjFhO_NfWjUiPYh2C6FiP0uFd1t4drmnFm3VAjoT7YlUxDjle75oNIUI_Z67SLyokfU1awmvhFWz8AorGwchq-XwX1rEQZWpPJewMOiS21N-7Ql75AxU9jFQAlj150Ob_9RVH-PIQPnQw3IULTyMvvbnbFfKv2IZpXbt41emrzbNhJSIFAwwdrBQD_Bz0ve4Z1nGReRC_lFT8", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104303807164739262631\">D L</a>"] },
+            { photoReference: "AWCwydjOSltjtrCr5y-eK_sYz0bFXJwbj3V_dkaxjTM-TkXY9XwwLQKCa1LvVEsYOV6m13r7NreWNO2ynyItwHPHWzhkbpJucfRFn8pK97MVKCxRi0Hkv_Frq-n9tGwLnuCfkHY-gN8T5TfpNFtUfQ-AW4RdkPQ1Vnynxf-vC-gAucK8vWIMpt-dEwYr2fydOgMiuUnpi3gGAKQYoNHChsGc-D6AoD_4iC-ubfQ9s1TUCM5HlS2kt4PSXhHQBq8MvfH8Fgwy5VjYm6I704J9G1gLw1zLbhA6-oGhGtmp_4Ycq6_BSdkWyHOPhrWib8xXTMDq3i8Olxln6tGOo2mU0DfXLCtSFSSPnsEX_l6LyqCmuHpNPFK9TnF-rJy6QHgTqnc-PcutmeHKP-BwxUb7sQGYOHQvMpQakuwxYk_XopZdOxiKNmqlfChmfFSR6NnvuzXC", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101444139909296106031\">Christine Div Barcelona</a>"] },
+            { photoReference: "AWCwydjd-HzrS8kB9xeN0SUW2cjLRl2JMX6mUSlipKf4Ot1B1CPIoqc7EjF5Hu7w-rtuacCXRePP_luZxAeaLl7eYDBAOz1vCBovLpieugTjKYaRP3qglP58SG2k8pu2esRS8nxdFHuU0dJcPVPoGmIVGDplNrnznj_kURY2ctzybfhPQaoIcVU8bQRROKaXXva1IAA0ibUlBpMqOrm2OdCzwX_B00waZVedrTdFt5-yZb_Tp-70fVE2PWYcr1whzQVZFehNAQoLGO0-PwVnzuej9Do3otDegZ_FRCovQx7BxJj108iYuh5yqL2zJnzcJ_jHTC-BFqxGSV73w-OvRj0xrefncOuCiQWhTmJnrakq07En2vAdkE4mlU45rU_4g_NWup-oXCervWaOVmsuxFLJt_EdMegICdqaGAZjYLZCBrsmnw6if7xGwCz9Qt9IRoBj", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113383251602554583621\">파일럿파일럿</a>"] },
+            { photoReference: "AWCwydgS5jbjD_okvyvjl1qnoZ3X65nPL-aRP59vMNoUotJm3XkNHHEf8tO1JUkNX8rBaNKghJEcBJiZBSDB0U0AcQ2EPi_T9bUNxd9sUZ2tyIzrCuNSbswKbE5jvcllQdXFW78qUeHFxWin109qb0hSmIlj1C1N2GucBO2zSD7iejh8csYjQHupBG7wChtA0ZVuWIaseaqxExAgvCfG6ZI-xsx8XSqhbZ7h0a-9NX6HDMuy5r7J47IyttzwT9h7Pl-SsGaYnHjBFD5NJmZOWLcz-oB25avuFZa_OCYhMaUT0eZZteCzaC7OxVX4T451aWN4bLKMDjkOYpCv8_sseLZGA94hjZ0Y-sGD-yoqfMHiiBa3AlrlAsKmdEPhaJzeaXsjWVhScFRVhwMEgq9E3pLJBXrQ8kGquwLlSxYKYVsLaGEgBcZqEAz2EK-YeI7hiA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108649587097862409770\">Kyle Elfa</a>"] },
+            { photoReference: "AWCwydiI_fwEdlHgp_rovNcHWJLOXThQh_4HIaYO7qt1IDQfk4elQJv6ZshGZksULyP0PwguWWfu72vIxr5YM7rD_ut6Vdz2nHFypWcEWFcY1Cy4ROgMAn79Ydf0NGTS16LVkgU2mEztgvk2kZWczh0lUCoViHOJjHdZ2H6eKYUgsq8e8p5bzzfaGOYwRmOZbhgPh39qQ8OcPFwm3butrLCWy3AeZDHxwN-0N5B-VFWviufrlETdETlwc_z1I487BIMhGpQDJ2aT0Zk0Ia9IM3wICKuUEvnm0ZJ_moPl0VbFlDu3Ax6ZCqUrpQTADltS6Shiml5eMJcYL8iCqKBoRmoUNNFiU5KGOVEorRTy1SyuHNpk8abVkp0J1hMFA8UEd8JwQS6bK7MQg2uuud3qJmCDP4Sb8vaztMRRGcFPudn_FBKPK8VK2UmyJCqqg4E0e_jH", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103311147680321007160\">Sehee Song</a>"] }
+        ],
+        summary: "높은 평점과 만족도를 자랑하는 보홀의 프리미엄 마사지 샵입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["프라이빗한 개별 룸 및 샤워 시설 완비", "해피아워 및 커플 할인 혜택 제공", "전문적인 압 조절 서비스"],
+        tips: ["호핑투어 후 샤워와 함께 이용하면 더욱 좋습니다", "해피아워 시간을 활용해 합리적인 가격으로 이용하세요"],
+        hours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 보홀 팽글라오", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2507254852226780016", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94%ED%83%80%EC%9D%B4%EB%B3%B4%ED%99%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "루나 타이거 스파 & 마사지": {
+        photos: [],
+        placeId: "ChIJxxBOu_WtqzMR0cuceEVWT0E",
+        placePhotos: [
+            { photoReference: "AWCwydgFc2hpKxKibmQdRmXNHkYQvwjo6XFMA8v3GeV8nW38quecqbRQ65jqAvf9-rBbpXuKhdRSRZZTeIK90T14c6qtTlPzfxPmzrLGoVUbxJOQHK9WWXnYj7tT_UZWImLoYFhgCxTDkY4MMGIezqdnZLh7r1nfwxhUGNCTVs9RQYwWt4nau7nj8Ovrv4joLiI-IHlfrbqifYj7eIFxHZHLaRF4NDPTa76kcIKswXETJqwhycVXbIwAkVcyaeVLuFS4_I1dqXQ_V3IXYHnKKqlCXXovSO4Jntge2Z4T_-r3bYRqLl8uhg6XfNEaorPOYzMkYtrHy0e3973Fh0W0xBT8Jv42ASo8PLtwbtilcm1un44eBhPLXsceWasuVk9jM3zylnPzbe84Jr4Q-f5iZpXef_TQ3saXtGVxsxVOM_0-3G4cpw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103559205100356193938\">Cait Dai</a>"] },
+            { photoReference: "AWCwydiGuQ4_TKsC1tc08LuUcv4BZWtdUlUlngJHx1c5qaQep0kClPWc6vh-Ye1bp9hyyBYbM1jBewSF2F9gzMCg5VKLUTJSyBANpRx9KxbgGkljzsCRV9kNsf-n4MLDEpFC0pBU3s9QJv29Oy7AJSZZwc5czwo2Tr_ZtRSxM6MnZnUuUkuJiEiX6DcW9y123gG1Yl8fVbHXJW7nYWbvoqfFVTSQnDYsGluG_M_0E0sJhk_kkzSZS7D-8hc6A-LMY3XCXuh7E74GIg3IZy1vf2xpKC0tjH8Q61_1Zfo4GJFcwjYe1yR7RI9e6ZELFAE-xMsrf8ny6cG7Jy0h_xymK1vK3wZhf7qhu5d-ZOyJssx_XRWEeboPWUfKnmNwRC5yszwKkXuoxCCWcQ9QHhHqGsBxAV8WHD5Sev-47VzE5VG_Dvs", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101672568937176977768\">Sisi Yu</a>"] },
+            { photoReference: "AWCwydhl5c2rDYTZaL2ENph9DUTyGsiNImqk_bBi6B0FjkYxpL7rsMMFu_yVq69DtAdZYWqbDnHfO__9CLRIkz8uX9jq45pbaj4L-QAOZQbGXoCBgqza_DIqM-yA2Ntg2M10YPbtlsG0MMZXt3E_NnAZD0ij1hL4LtPzUSP9nTQEx2g3BkSmgzOFXwjR0kfliwL5V1tsB8a8jyX1m9kUCIuj5GS61bSLwh3djb7HTwvNhHmpLg5WatYk-qHIXK96HGoA8CChHd8Q6WM8T0RUYmBjyi2S6pYIBDRQAoUfNFGmqZNfegVMFlV94mLYHKuh2aMb9nPBh3R33UbAoj6-2ITkzZ2mdYmm-mACc6KV8Km-IztSERH_AgtkEQviZkVtEWvLwgtrOt5PLdLrFZIoleOlRtQsEfeL37rhOK-OkkRqg4bpx_UE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111855601523338440491\">Mi Ram</a>"] },
+            { photoReference: "AWCwydjZhDKBJLs7CPMTlCho4WUOBCFCqKQF6PRG3PU7IcRXnnM3HP5rxW2GFaTSwMMtQFHROD0V6myb_fJD8qCX85G1_DUzKtPzcCbQkowsJBwYzsKuMFjN3EBJm0Ri_mTfZIzaE-MixOSbvVJnzal-HVXHqwHgQek9F_i0rqvAEExBZe8IldK2ZxZlLRfND15273LpIDdDpxTsLBI0F8CBvDL72oD_pCvW8Hcss1bZ8igtBPWlQVlsSb2z-RPb7-W2gBIS5CkYxY9asRkms_keFUlg0GGXIbxfFqkYbvy54YJeRZuZgP-hFNwXntozBOWWVKn0hMdcSKMqmuosC7883xXPJ4F3g0hdqJtZeOLipYKIcgYWhzeTXkYkp93v0HUjGMhQ7ffaQk-ElgfCZWUMplJoEz1mEVY1KdN-LWz43Zt5RV9bZj6xdgDTIf-jBA", width: 3478, height: 2478, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100933951562153691400\">ALBERT TEY</a>"] },
+            { photoReference: "AWCwydhMTaSvYyXH46TKzRccq8KKLCof1bt3NlWG9nrX-qvMlcvo1JItm4Q2IdCPv37CzWfi2Gl30go2Qm7JsXze_eO0c1Akbm6lUKjdB6WQJ-zyP_eR-TOyw2o1lhZuC69hUfj8MCqg_SxO6BE9fjHLQt1PwLbMvoZvgjhaJsl0aYrBwyLbnE8RY40_b4lY4zYKgpoG6HNsdwce9dtakqs-3uOeKy9xQsH8mEK1N3N546BLxFYmgQQuMhUwLIu78UNpzmFp_LSK9tobFsQln1IsVuWBSL3WyGlsVR8xV0jtr5PiKVRJQmbL3P_dNu1C_cSIec3rXql2qnGG51gog5LzWG9Vm2is4A0UUMzMJWiD9vec1jEGZDkaljgf3c1_H56cVSE7d8BYEUeQ62wgtG5eGnvhzU1iFQh93tGRnTQGbvFffsP26aUTnNfpXZIweg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101704863466327225889\">해골국수</a>"] }
+        ],
+        summary: "고객 맞춤형 압력 조절이 가능한 쾌적하고 전문적인 마사지 샵입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["압력(약/중/강) 선택 가능", "청결하고 쾌적한 시설", "전문적인 마사지사"],
+        tips: ["강한 압력을 원할 경우 강으로 선택하세요", "호핑 투어 후 방문하면 더욱 시원합니다"],
+        hours: "월요일: 오후 1:00~11:00; 화요일: 오후 1:00~11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Panglao Island Circumferential Rd, Purok 5, Panglao, 6340 Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/lunatigerspa_bohol/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4706074992001731537", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A3%A8%EB%82%98+%ED%83%80%EC%9D%B4%EA%B1%B0+%EC%8A%A4%ED%8C%8C+%26+%EB%A7%88%EC%82%AC%EC%A7%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "올래 마사지 & 스파": {
+        photos: [],
+        placeId: "ChIJv8NUHEStqzMRpSGy2prM7B8",
+        placePhotos: [
+            { photoReference: "AWCwydi7wTZsOkcPTdg3rj-fIgnDJi2nhJ8t1fDFwDrPgoy6Zw-BOVYgyadrczbohLVEmIcDapFcynBlU1WqR7JeN3QqxmTuqYppL1vIb9X2sfYkzg051cnJoFhmVdhjwwtZcyq2O4Fzj3sJbqIyGdxMm6klSJXeRuU01yo0Z0BbaaNTUhXiP_RtFkk9iyAP1ZHilocB8AE8B670mVaRTNQcF1stmfby-xU91L2th9ExBiURTvso2BH_OvgDnIuOStZK27qWMYtQj8SUm_n1oUN4R70tAMNC9wCWawKcDtlp3y0hwcme9afunePmDWD3v0VRWVLPeyve5TQmSE2IlewSVe236waiJjVu9G8nevrt2TpGyYtFKIepJ3TuAWlVe4V-Gl4geFJFYfyMagOldK-FbPAk9maPzVse9yCa87oOtNPDPnfE", width: 821, height: 820, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112849129517425378016\">올래 massage &amp; spa</a>"] },
+            { photoReference: "AWCwydhw4ObmEMuEdy3ktvFXyVEkv2Fyu8rfT3rDqQ2dZ03n-z5PaSnQFFGFcAC34HLftKmot9tCcKxo6dihGIVO8BlNDcLfytFRarJAxBQhJNfDLVu3d5CbUDHvMS-aCAxXUTqRxjKFX7nscEpEjDMJuz9dxNYWraRIaE0qvSIhe9bF3nUzP3_TIDe2707ZrJf-YGYJ-4-bTXlyg_-kLfNyeEGrqNUrAqRGKqSYMa3PkNn_aOFLZRNr92uFCqZS7zYMNdBphfyJejDqyDh9BzKr5dK7SdEWhkor-SEAfP08KQdvvo2HEGAa37NRmSsfnN4Qbm5tFJ0srJa-bzVmifPSr5N0bYZCcxl9f2vFRo70vYMEMarW2mt1OY79pZEnhnVLsqb85T7YbkkGAYqrkcuBz_lHP93DMhQGSJsXwd6-wdUR_0MnXBg-HyzysuYLGrD8", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104237167949387792683\">MR Won</a>"] },
+            { photoReference: "AWCwydgzCMi4R4F0LjD7-Bh1B8c-i_87az1mvG7hwidTPThb87PX2asA1U_QKNG1cV5K30ipMw1KF-9Z4rvsjhleBFROfEfO1G_eZAqvRLtJgGARGfNFSiViHWqhCmtYvhlcAkO9yAYPwb-dHAvHa4EIYGfOqD_R_dPVKy_EwS2JIQMxVc1uUaLVUNAnz6BB084JVinjxXv6IQ_O3WlAGMuxpP2B8QS4jO5N0v3QC1xUOpK_5BotH7olXwVSzRcHgrCT5MCuSE4BwzWcm6scCS2UkehMIgjwdvF677dCzrsVI0qdjYBBIV1uuSka6tQRkRbWpa10Lp4QDvhytYcdPW7P7YxxdrdusQ2AVUFHlN9wxQfj1BEsl22PnZkpN7cMWOBGyo2raDMcugcurM_s3lkL8KSwCoyUxx9V2_Q_m8TYJf5NYghz", width: 1229, height: 820, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112849129517425378016\">올래 massage &amp; spa</a>"] },
+            { photoReference: "AWCwydiiORSGJVRIq7JM1NeX4Vgl71U4KuK7WhLMdS8ZpLrtWFZGInPiRfCrqeoMdurBW9rG1aleNNrR5bqjVreWhkXHRo8FpaAtZbrnBlqOJvd0r0ISgF_nFb4D7d-67KwPUfWuih1lSsRa9zEaulPEdGLhXS1UZ3m1D69aqwmnyOe3Aq0TKZS5P046cw8Ko34NIN_x4uR8V-OI-dzBYggAF_a7Scx-qYKtGrMYqHjUN_v9DHJsETmxi-UOGg-TRM-bGBul-Pr7Y5Lcvn3B5ZslYPwFN3NOCVNA_a6OVeoJ8Bc86nVwkEP9M1DS54w78kxqDHjV3FjtiwzOI8A6kyTVJVaYH6rlHatZaMBNb9BNzQ1vxmY6UJozbBq_dR7-_fyZNC8pByRM_gk9HQYZPP9elPzkI80SLH89Gq0HtbgOSduz6oYprpOWtLS0_lw-SesI", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106035646216444140203\">최예나</a>"] },
+            { photoReference: "AWCwydjIkqsZvYmVk1t_hYjqZKzayBYeqDPXxziY3hQG72oCKl6LqocY26Nwt6bjmjHZn5-5l_cH2MU0ZvBL58hq8wZ8Hwl1U_XmnZDjngCDk73W_DEUv81QhUsUifiYOZxYnxqNSYFs8cl3Pc7dEsL_YLfxKKshoEsOvU_arOWXLjjCTBW6vf3MDPJ4vHEgleHE0Vvsfelnw3PC-BX3dUWlYkBHfaBD3_Zeykek2L8DB7LFCKsmInG2DbpsA6pIMdau8RJHuRUmWHOOLLDH1ZxM62beA8i-Ee0ROiLcs_3KjzKovLm5l4HEmjPJF_Qqd_wMTr9s6W3-0V3QpD1LIdqgwuw77TD1neoDMcUIG2wbr5ksDDdJYesWvUfpfGIbEysEG04FJ3xtalFIfqYfbwvLmuEPiqxEboP7dcBcxNUFsxggcjM", width: 1080, height: 767, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112849129517425378016\">올래 massage &amp; spa</a>"] }
+        ],
+        summary: "강한 압력을 선호하는 분들을 위한 딥티슈 및 스포츠 마사지와 세심한 서비스를 갖춘 스파입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["시그니처 마사지 및 스톤 케어", "강한 압력의 딥티슈 및 스포츠 마사지", "오이 팩 서비스"],
+        tips: ["강한 압력을 원하시면 딥티슈나 스포츠 마사지를 선택하세요"],
+        hours: "월요일: 오전 11:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오전 12:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Allre restaurant 2nd floor, Purok5, Danao, Panglao, Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://pf.kakao.com/_FMJdn/chat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2300438475145617829", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%AC%EB%9E%98+%EB%A7%88%EC%82%AC%EC%A7%80+%26+%EC%8A%A4%ED%8C%8C+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "로복 에코투어리즘 어드벤처 파크": {
+        photos: [],
+        placeId: "ChIJ0cDKVzFEqjMRrTcGYTsx9nQ",
+        placePhotos: [
+            { photoReference: "AWCwydgGM_SBzuwvriEEvuh8bEzD-sdhULfw_xAss6YURYlb0pOQDefxwPJwVGuR-oW0pJNy1Y7z3wuWbBYyAnwnh3lxXHKffNraFS9drttBAYlXR6PO_wjNV7ZMcoDWJaLLjkZiZqlnAlMUyFej2qYbSgBA-f1ajNT7lqptgnWLCuEs_a3MwdHtwz-V7_6HPg3up2wUrVEpTrvgVpJlMtGQGA5iLx9I3ys2PqnSUy2-v8UDrlPN_degB9Wdgix4AMgTDLoAmnuBUKXFPVJDPux02Eb4ckk88vkX9-DQGOPJYKYoT4MpPuPLgu99zNrET62ro1BgisW7iZvAiDHK4mZEW-DtEcCGkycReM5Gm-cyQZomuz-ohEFYVRtJyH2mRqiIqNhZlgbVoSmiTrqaxOeQOGZw_mzFSj7EQ-hwimIDJ1ywMwqS", width: 701, height: 438, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111942607152428714095\">Zosimo Gonzaga</a>"] },
+            { photoReference: "AWCwydhNBU4NQ2u2HARrJJVnkB-xOt6a2M_s2CA3cN8VpbHa1Ur4u0MCTaFXw9TU_IoNRuteL-sFGBh2vQEP-E_y7Qz5iBCOWM21M-ZtdoBWsUkaSszKfmV59xZwTVx78jPPhScWXKthdiecm2jc56HmFt2EQ1h6X0_lw-oiwiq3C5jMA2tU9-XcCmBzjPHlyCtYHzDxz3zc787YIPa1ZO4wQ1POVGkaWzZBClv8ldcwdegHykMGjLn2Wcpz6QSfk2tOZsiZF3N8hU-GWQmI3pauKhJBen5Lhmt-cOIQ68OWpZovvpxiZwvzrQCpSdkcJQl1J2Kt7v60s4ZJfL6FUOVK6hTzfAaZmE8_vVPD_NmurldfRHS2YrMy9rW2yaDlVfYl8DawalygAe1mec_lT1Zh-_wHcKNxjrtGnUYOw3_mIGuNY8hf", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107154181439315872203\">Camair Kenig (Camair39)</a>"] },
+            { photoReference: "AWCwydg-YAHm_1Jmns8jccBNKjPNi8yDsX4CAanS-jmW7F5CyUQq6Z8tj21TsQuOnjaTKqVoGpCSAzyPU3z6QI5HBcAxHS3Tvko4clTPOtQ4sKtUym1vO6PxoPyQSC5XzqwiAFuZ1UKWgphlGFqvQtM1Fq-H7UDt8qKF1DVMOpHxfBhklr5-lxfu2IJ42BF4rh5TzbgVi2rAGO1P3Ei8Ka3nvybEr9_2G6cCjHugIuYjGpfWsxnBZqxXFr-OWCAMdvYfaavS8q205k1wmIPB9IRFzfS6XNfRiY2CfErSf7FCIJgQByJWXJjvImheouznZsT0Spe9CW_t6LZI9uG123lnnNhWy1DR8K7LCEofyHrgXQ3djN1zh-whoJnvmFNezNXhgIq2749InLxdI2RFHIuwbVf-MAQm3giabXbloTlJTgwK4io", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107515023947112009130\">Игорь Бушин</a>"] },
+            { photoReference: "AWCwydikwYITQasskvPSZpxLsmrKx_JOQjve99o5RcsZiUKrmpognSnKA8A9zdV170xujlBU45uPPwX0MQcAjAAs38b0gp9RUxkicOjgYaXFgBTEGtgi4hCm58LATL8dm21Q9HgWiRNC2RgBdFoUKQUx7Otsxf_mZOw4V0KoNCd4Cw_UGEWmCgBybcfpnLjMxCXh2ksa_Qz7AWPgymKrYZf640JYU6zG7sMFfdcM01C_hhYYmuvf2YEqPpb2pPL7oBop9ViMgkdMWupaGS0l-saAWwnh_WINcZPFBinT5dbXkNWpmSeyHsCvm55EWocV4dloBGZhe1Dmm0RpjrHEN_pMjH5VXshCpDnpFigO4Scwc3BH9Y8O62i6PGD6-TM-GK6xj0ZkYFdolEyHxOJxkInIm3AwsLUJiq1HgM8yygwCJjj9ug", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107154181439315872203\">Camair Kenig (Camair39)</a>"] },
+            { photoReference: "AWCwydi-y6LicdaeLM2dYpR_qRV0sTBFvX6egFRw0Um1ZiEyDPNs8_LzwIdBp7ggnN8dBe7z1or7ggwjfqo0s5YDSiZK1JZwVQi_yfD3DdZjidqoOBJU1IflGvpwIqQoUKNO7YWDgg4S4GpS3LPnPIrldlqoqQ3TYE80uQohsOErmxRZWLkxcDVR9BsYjZy-lPm1EsZObzjh7kKcd99g24QS-H9YNFBI2ymY3f0GELol9_E363ACTM7G8mtyy1k6lsKNFIM2vq5aKFBzuleCX9NBgVyB1AdouyZ9HxljJvkeVGY5lAM2lNiDvixE5o2iyaySrnhN-3a-lubA6ute2nsTkkioU6505HT8OusHqRFf8K68yl6DVbKS5mNB0AxHQuyeH0uZZ1Rh98W8O9DLu8462TrrG2a3HDhNf01IRW0huZSigQ", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102531179916084128269\">Roc</a>"] }
+        ],
+        summary: "아이들과 함께 방문하여 다양한 놀거리를 즐길 수 있는 가족 맞춤형 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["케이블카 이용 가능", "짚라인 체험 가능"],
+        tips: ["일찍 도착하면 더욱 여유롭고 조용하게 즐길 수 있습니다."],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 보홀 로복 M24F+CG3", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8427977883771090861", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EB%B3%B5+%EC%97%90%EC%BD%94%ED%88%AC%EC%96%B4%EB%A6%AC%EC%A6%98+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%8C%8C%ED%81%AC+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시카투나 미러 오브 더 월드": {
+        photos: [],
+        placeId: "ChIJey_2vdlHqjMRuTPDbgu_JFs",
+        placePhotos: [
+            { photoReference: "AWCwydjcjmGIzQlwIN8PyPPaHF1c70SZnUKqDu9E5h5qILY5dZ82JGlRUnNAU4zgxH4nbiZAm9LhvOEgOpDDMpcBO2IjapoFsm27c5ksa5VL8sMbu6kyekDzKf1VyoDW0HA9y9rixgjXsWvw3Pj3pu6Ta_wYDk5CYSi-86YgT5uCOAxOFBNqsLXJeG-Bk6ueru2sRMnEtJ4y4EbUo9CqLM1AifO8l6fXCAMShhO7eHdXw7dCLQPE6Dk14VXe41XTtCjJ4HnfaiO2KxQeKAoPXTPhHSweBolHkJYJtOw4jMWbVwvo2yuxapzDOFf-a1qmi01nN0E7wztrM9dO5c9g_N9t-KbFjL_khpIo2Mmu840Q6XlF4zUk9FI2lJV9P-FTLomjQrUW97AUfMcGiDOy_iIvgxUB8eCVHMb2p_P1qU7hMctDn3nY", width: 720, height: 480, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110864679579687652747\">Misc &amp; Extras</a>"] },
+            { photoReference: "AWCwydjunlwQZJyxsKyRnxT99TY-08LDh9qd9WAc-PbZqxgh-EI_WRVLzmfuhcai-BR8oMyS4tBTvG0tzOT1v3K73J_AHhFbLbeHrOTbuWVOWEda71B5vcSPopgSmNLupF_5Hgz-k7T0mArgIzL1aitRLsDA0Penh8xje5LO3JdXRn4JaZshw5ncAFcb6J-hDHYp0nDNgDBGV7hf6IKYjtTv8-cv-Z-y3sqq5S9yog59b2KqXLKIiBZfEljka4d_M2Z1LgM2YROCvRECGYUX5w7qI1f76F2RlyCDyh7AetCB_FGf_m_Vh8phJlv3eLRRGz9pIkRmncxVzFx-TQUTunrFexGAg4__9qKYmEgWHhdbwtdVTEyFph18d2cWBT0qUGcv1vmPlYllHoU6p2ARr11cGWX66cfKNtJ4KFeohf6ELy2s2Q", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114733844244559735520\">Edwin Galang</a>"] },
+            { photoReference: "AWCwydgiEDzTZ4JNloGgsByyyAFzUuPVIGRG1EtWIdIxHmwjczPtOOMbuaupIo1jvfWiByNHOl2SXuYqVD7KPBSC560LXM9Q8OB0efGY9yuX6Cpxyo3JnRRKhcbMnNyxtLkYzppaTamjgLVaxZFXFcRC5oYQLBUaFqYrsqECMgceoNpfbG9LhEjCJUHLkZCeBcbVFQRAGdsjaM2ZvQZolPspnKMMKdzQjBeHQ04iG3oB4JqgEarM0dIdB30qr01kKyBOsGaVPXoPQ4nGHilbOHpvLaIktDCii7UmSVZQEMGQTuzmFIU0yRwpTFC-NfVHbL3INQjEAyBsek6C9bdYWbTArHk7VNMDdW7cab6IUqgWTOz9VBIZSBwXF7Ynw3xGcJXCW-2sv3YmjKiVZgQ7eTvvSyku1OFAgcT9lWBV9JLwcJ90U1s", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105878243752286333644\">Emery Eata</a>"] },
+            { photoReference: "AWCwydhmWlYPkjCxpcYx9HYMVN8gFASoH0UXWT9yguoloTK8BqR7jdMyYrqCn8tgYq_05_VyflZF50fRkzGPYWghbgoLQ5H0aBqt0OUMK_U5_B861vvBCIoDmqEP617T5SSBdk8GPzd8lmbpF2iLajf4QN7Pzm-USPciMQ8rwd-tG9bWqEm7EUxV-FVfO4ATcMCFiCDOqvrxwZtJ8moSC2Ny3DbDnVMiRugquEhroaYEotmX3b-QC0qPZCFaSUDX1C6JOa8oYeLip5HyBRC5ajdSBGE5axQdY2JGCTajkmcbLF77rkmFretNMzTmqeatjss4Yn0tvoHoMx74DusD8uVCHjOsW3eXnqtLbnHQihH3XrUakacZxPQF4wJbmoA1YpBbb6zZFceUCgn-0u6GtG7Y13ZrydF0aM7F_gkFg__gJ30qlvCtmdSAVw8KLeKNrS0u", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113440780875804995485\">Reyjie Logroño</a>"] },
+            { photoReference: "AWCwydhWtTOwfkdQY1BYN_FRHTFoXpLJlaZebrNaB4TwZv43q2gGNV8jVr7dRsgGx6_iZohIEjlTYc_VUe9pqVKpqLeMAXuYfYGP3LKVNRYSWUZMk6LSrBIXR1_18UErtv9QfVbvvYfqFSfg_BoTBcHUMnO6g_wAzO_2eXn24HMQQCrmmOt3VRKFgL2HjSUlJy4y9Lzpc7dsc-Y1EJ518tC2xPDA0h0MgIJd5tEDHs3lktD6-z-W-LoUn1uQcLGhWC5lisqeX5O7arqTZHstR4gM_L_2vaws5VUDOz3PmA_d53U81x-AT53iafn7iI-5ON9YnccQxPL2El_O_X1X63AJIQ8wkNdiYw37s9gxOhW-BRuLFMGwZ3AwVxBZmsiLNiW5YgFPIkRCDAnlafXTajRZbOzHDlmu9GJ7fLCcFQK_yaRukAhA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111218814228936240587\">Jan Yngvar Kolstø</a>"] }
+        ],
+        summary: "세계의 경이로움을 한자리에서 체험할 수 있는 특별한 명소",
+        updatedAt: "2026-08-13",
+        highlights: ["세계 유명 기념물 재현", "독특한 테마 컨셉"],
+        tips: ["오후 5시쯤 방문하는 것을 추천합니다", "저녁 6시부터는 야간 요금이 적용됩니다", "무료 사진 인쇄 서비스를 챙기세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 9:00; 화요일: 오전 7:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 보홀 시카투나 MXCG+76J", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6567584212436857785", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EC%B9%B4%ED%88%AC%EB%82%98+%EB%AF%B8%EB%9F%AC+%EC%98%A4%EB%B8%8C+%EB%8D%94+%EC%9B%94%EB%93%9C+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하카 다이브 센터": {
+        photos: [],
+        placeId: "ChIJwdanV0WtqzMR2HR4EVK5A7c",
+        placePhotos: [
+            { photoReference: "AWCwydi75FR4HGKFXhQOPIdoCJspU3ZaGFDgBgfV5l9_tCZb8pHD28Y80KbPF6IYwFbKr4qFTSvNqAxKl96rpGdCQONjo7MI2OO8QcvWSir9io6j2eI9tjKqTU6o5U0VXJsGr7p64_rV8NefZPGh1EUCbQI2QGYATNBQACbZjeoq3jzRwLA0C5zv_o8ezKyKpjbIUuIpvtQni1xVNGDjF-bPC1objP39txScA2dRcxvBWevowqchYdxTidvqgnY6J8AklUzLyOTq9ay7aukEoTQEXun0G7qW6Xbj23byaUg4ugS76L-1NJIjjTHNTMPM3N7h6rGugBXecQHsP-xBdeL0WmRW6eri2uYbDV60y05EFNozU3Nq3UYKa0S03TLvvvsHLw5SVP42YJ98X1qEE17Z_JgE7ktLd6Z8sC5GNzr6lgRZ8Sf_", width: 1868, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100676739834761575575\">Tulio Avolio dos Santos</a>"] },
+            { photoReference: "AWCwydjeCrdm_lBZYXVYBjpmopQyIH907-9RWTVL8nb5YsTYElR3GmmrqK2rC3kLE5vSjxGXOqVjrapU6D667q7LxiTDPp5KHlxCoCy8xCTEmS0igntlhi1yw3QbL5zmBb4FvQijAAAAcLi5ZBM20M3wTBSM8pIZQ9p7pdEMhn4Mxix2SSWe3yM-wseW0hRQqYke2mgZ_o3mQdYXE4Z9VJYmhMuA5QD9B1TwRAAff_mzWcUARCEMXpcXDaaiXfbQI-VjjStosIteDhQ34tpDDMT9_rUvGLwYwMuOXNw2RSVed7JVU-RT22ObaGTxBRr2Q21ET8KGd0JlHH-1szHK3vfU1CwfskkyYb0xvoNc2Oph-MNhW_IlqcmCLxiTppzGY3X-89nvJFTOvuXgf1THlUdCgo6KhQFlbptYaoa00E-GXiCI9Ftpjm38dw755E2brAyI", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113163637159888289049\">L H</a>"] },
+            { photoReference: "AWCwydim2mU0JPCVSHxOFq9i6b-3hP36wlsMPOHZA6s4a7zAxzINFBZJAT7rFUPPK66FQBWxmaUyWJVDem14X4-OBaJKJ5-WU5Rl0Mo72eai-c6Aau04705GWylDXYplAkmAk8TarvPYz2bl55Y32_VRpNMFUahYoK534UJvLmT0_KfHimPXOcSS2U9j_KMH5hoRfInVPqGXmnFSWQ4zLAxuHvVRr0DIS1T054gMxFmBp1GsjaMubd23qA_ASoWnWVf5YBwfm8JYgTjc0S7eHdCyKM8fbFb5w1CMlQLIT3nuI5DEfww2aAYgYVwlm3_mnED1zZoOays3ORODZ9YEDYY-GO9Ve0E37v-6WA1klLu_QNUsmYTE3c_soQ309qBq_LJyEgOCuQnLApFSAzwpLT84O0QbxR4cRV-NkMQTtZsP2Y8", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109872683224382086456\">MattpackCa HK</a>"] },
+            { photoReference: "AWCwydi3vfS_TSFymXH8wjQL6INdrBj5vHZD1B0O9WA1EOZ6WvcR27E4xjSAAm9y1-ue3FDAfrK0YE-O1Z3i7OWtbpQfI81PPFiVVJPbYHVzEpQ8MhEfNFO7AGAA70oipQ2HwyJkoXu9-89qtLQsr0Z3-gCLLLx_Trt-w6HKYf1LeNS5zqSVbrNPYrpFBUsTK_YnjdVTVG1GAYQp7zA6G-fH25qDWJ38Jg0fQTHVVsW4CZF9310hUcMWMvVaL0_EaUG3ws8Xk1ACdfBAXnNUCHHFnB3ceTqb5z9oKA4Zl7ZMUMjWHMChMAjeOPYQ0afVp3fARS3stUEuELDTMCwOH4E-tus7Tf8eYz5Rpl4-_ACCgOwMq0QGyLTvpS15qcy_2LKVwogcvfB0Qo3BX4-Wm2hRFa3DNJX7siQ21O-sjKGRLma9Vw", width: 4160, height: 2774, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114872529704231177598\">Haka Dive Center</a>"] },
+            { photoReference: "AWCwydh-CC7bgtZjHCG7kM7TJQAog-4sQxN3a8Ta_I9uxF2TXGDcQjwHGwr0WPWHj-e9ZNJeLMdIdOqISuaUBt01ToYX4MCAPoErGZPGvG0uHdcFxms9UeLSPRciJ4zo-lh3uLAl-ZId2A4fkHVTRPFz7HjUKUsP_XXGjyJ0KhGUtx_Udpde8RHVlOH4j4MVkQfGnYFmwdt3gpi0G8u1Zjw8RA9um6PEcysvdNey6VjGBjpjrQs7ahdD5QRRKAVzJ92GgxPq50truXBPTq8l6sK8CxaXTtlasP-LxvXeiW8elv6msUWr5aEBLkMwh_5Rx3cKaLx3fHWIh2_YbKwweuUR3rvryg2SDCt75zgPEhjC97JMOHrtpuqcUCH4i-DdGRNBhx0Wo5n5yf9xIh07zU49Z0VambiddyPCRPUHVg_q1qnSeg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101334518497168742495\">Mo Khan</a>"] }
+        ],
+        summary: "전문 다이브 마스터의 지도 아래 안전하고 즐거운 다이빙과 교육을 제공합니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적인 다이브 마스터의 지도", "오픈워터 코스 운영", "고화질 다이빙 영상 서비스"],
+        tips: ["다이빙 과정을 촬영하여 다음 날 HD 화질로 제공받을 수 있습니다."],
+        hours: "월요일: 오전 7:00 ~ 오후 8:00; 화요일: 오전 7:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Danao beach, Daorong, Panglao, Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.hakadivecenter.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13187587896002507992", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%B9%B4+%EB%8B%A4%EC%9D%B4%EB%B8%8C+%EC%84%BC%ED%84%B0+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "프렌치 터치 다이빙": {
+        photos: [],
+        placeId: "ChIJwzeX5zmtqzMRCOm0eh8jCzM",
+        placePhotos: [
+            { photoReference: "AWCwydjNxScZRAj5VPb5nnjXxKh49InasabuoHab_RqPLlXfMAKnMm4clg50GHnbraGt6ljwpGNMmKliAUrLfxzY0EjIyXAfyLy3Q0B2B4ofnMIcwIBBcjcQ8S4uPspFMywa6cXRb5uiUs4PEZc5XEkediqGrrmWmQp3_u-FiMqv1af1p6QmDdzdzFlQEh4mbLTyRmAzIStptMITfhc8YNgxA_JajzG4svzExOfdraDSlyOoIgW4ttOENXDstqbc6t7IjTaYU2hX-zmVU9geSzoVmaiyr2oLOpwnvOhfKCgVcB9ZrTlJsLsYmAIO0a5i4W_9e25P_TnfknwdCxy2vRsi1OfOWec-piKd-imwRDrGsiFAZcOFRW-Po_XRQkgkXdS2ZV0BnpDLlrREegdediotPGiEN0X_nRgDb2ybTvzL9WSdGNPGJchWqJynuXzp5nr6", width: 1218, height: 1392, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103209032294029188526\">Charlotte</a>"] },
+            { photoReference: "AWCwydiQtgjQ3xys1QXhPl3B8wnbDcimJ46AnoTIjE7-9HLzCkwb8WvBNBce5t48FXeXEcx-jvm6vhtaQ-V6UHHmXZ6dWSs1-z5xO_L_oxDShBMeE1cfxXNTk7jHPMKWHxTfHLajlb_eQP3yRa1gg4Xn6PynAteC4clrfDJY16l_OuPt73ENPc_u9iR6hSZduWIcyxdjEJz4f0CofPa0C0cN4geiHuf6Vn4Eo95TOv9GQbpRrp3iM4vbdSoqxX8Qi3pcg78TUycEzwQ2gR9-fNfjqzEFbOrZKXQ5QZRJ9K_ylWIyfzAcrof1-IGbgVvixhGHj1TVQn7534wCUntc4-377iJIt-lU5AyXe-b-oj1yLVU-8QuPa6J3AYL6T9cM9CdchsctTZG770OpfgmBsJ9H_1_6MlLE5g3SckZoWMU8ht0", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100965142969785019975\">Baptiste Brr</a>"] },
+            { photoReference: "AWCwydgf6uhxhnqbAJRCfG1kBFU2UxCSBul6_x9c-WOV-4GPueFB0bamez6hJ13VUtWoTQcgyzdeSaJ3D2zLwe_dEF9j9JEe0RMG8G06e2i1-gMFLYCuWn2vD51cC6k6hdoC4AMiQCzWMaoRgttOvqFTjER6hHTZS2Yh0XigLWi1Ib1zup5l0n75-xpQQW1SpZUWhnq4CRboISUCLuWyY3fjcniUHteBsTwZeeqFUDYIe4krQ7_YtmI3tiZioSkph9QXjx_4qOW-VNXqzTIFoCIbgexGBxQ7QDjKsANauqS1-I43U4AmitADYnZC_JoMGz6MThEaQaOyjOr2rzsrcWi9ODjEK_0p9euuBiUIUuiNN-_Mtt5XkJii8Yvv00HayrvXLNJ0qlmJ1Py7o-IouG14CE3cRLUPlYu9YPcY3k1fNJUhnPw", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117262753196625820171\">Martial CPK</a>"] },
+            { photoReference: "AWCwydi11snrn3aUWYtm8AmPCbzd_R0KWZq_rFg9yMgQa_YxyZ23mDFOzeyYtioMC4AIj2AK-Yjjgi6xpK80r5OOPHWad8w-Y-HlUgo7s8nnc1lANxH4uw_5VaE-h7gH5LYtfpasG8o8dl4TyYSuKVm07kqvIRm08YrvOrzJjuR0ZsLZWlQ2R4MIxJ1e1Bo71BQeg_d-L5Pxpx2hWwYaoS2GK87bShiI75jrHh86C3mR9kBtv7FolgoyYe0TB_pYrskOrbSUwjBtoMLyB2xan2jOi0XupWP7-h6IgnqkQDAHy3FTnpD7BSQehWMPP9DuHHWL3D1Z1EhJ_dK8c9nxkQ5Yh4KYe-G0w4Lqu2rbB1EETffRxpoddGxu0wB1ASL_JtWFYscKCriNIQLVgCmGnitT-crVYqY1xBKLjw651M_SXYEdsQ", width: 2000, height: 1500, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110251779277112476295\">Camille Retailleau</a>"] },
+            { photoReference: "AWCwydgOtgrUbQMxzTybj32GzM6VwjDX2o2QSPPyIoMBpNhMO8b-CPA9cLiIvWtV7kizbbPqpi8GhptHke63tVORV6agRU4qf8CX5FEN15oKdy4SeNJfOo75kSwNxmkPWYBZo4qtoiD6R9yTyZ20E73nWlcclyIrv2SehrS6sygIyMFqgcUGjjIwx-Q5g2VQVq8R_-Jais4bsYQS0uID2cIcX092CB9tKAuf8HzjcWDxlxhBe99cQord34bD8Z-Q61se2j_SdQ8Pl3NQbqqnRPnFer2BQmxQYjqxF-93TZBJfGReN6b1dusneZE8m8RS4e64G9fiMZFDmSvvL1_dRd2ouZ3_SXzsIZE0XVqPxhwBzb3z5Ni0_Se2msE7HUiiCQ78umeWfNv8J-4Two3DRFO6AYYWYuNUVB36IajS_r9ceZ3Uwg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108087705667672632375\">Johan Piéto</a>"] }
+        ],
+        summary: "높은 평점과 만족스러운 서비스를 제공하는 스쿠버 다이빙 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 세심한 가이드 서비스", "환상적인 다이빙 경험"],
+        tips: ["가이드의 세심한 안내를 통해 안전하고 즐거운 다이빙이 가능합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:30; 화요일: 오전 8:00 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Panglao island, Purok 6, circumferential rd, Panglao, Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.french-touch-diving.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3678072138787776776", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%A0%8C%EC%B9%98+%ED%84%B0%EC%B9%98+%EB%8B%A4%EC%9D%B4%EB%B9%99+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보홀 다이버스 클럽 다이브 센터": {
+        photos: [],
+        placeId: "ChIJg_a6156sqzMRaW-eku3ImMU",
+        placePhotos: [
+            { photoReference: "AWCwydj4KXuBAWtVT9DkKZmJ4G6crY4YdfAhK20snasE8Rt-KwSQbP4TnaMHF1dsXaTHa1MPvlPtxL9mtyxcsIOz_6hZVveUsliPc4OnrmMH6iDehc6AKRuBfn02XbkDrJO4WyXd12SAI8XXWsY9CqXedfNoQ2bLKrjYuFz6H63xs1twUMAHQlTZConCHoRqG_b-eKWD6eyF4bRPlfR6z1DNrBxaWXN9623HPu0oXAmfrKHOBpk9V1Ac9SPB_gc1s0LAMUFlbuoIr59qUGt8I-h7ThXQt_Fx8vmRKrfXjKF6dmOIUnhfQhb4OGrjx6BGTvIEWC3UJpju5RENrMpVN3_dwkid7r5-ItfaiwJVwjRZZtUw9g844GyCJTMGcSvQgQCATbEOgnG9MKSKEXm0miErBSDxqOHQVjOUTCB3F3xkc5I", width: 4056, height: 2282, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110727312196468062294\">Bohol Divers Club Dive Center</a>"] },
+            { photoReference: "AWCwydiR4WZ5ALY17f8QFDuTchqtkAtTMLm2kQzO0itDtTAAKMWlrNXQfT9DsEwJJiUq-FgO0tmYyOu3hbK7IirVi61nB-52Pp2sL1DIoiP2qVFyUbSHTtx4TMWrjtWeFB2x2A0owmG49s7TmnjZOfPQH_rwtCNg-3-DsmjQ278b4c-8A7tzPH-B6j9oz9WeXzRfFBgSek0pfESyXYeITkF3Fzb4w1V-0TsIuJDyd7ngwiHpiIFkeV3B_CILIt392a8h16Ii8WNqE7xqH3hoy2xzujG0yHcMl3HYKly85n6fuaM-2Ws9DNVU2DMjYYUf6676JV7KXGcaaI_RzeEXtHRmrm7Ye-Aorx7M9TycMZv18RYQvR2h-Nd17u66ZCkExgWhAteWeU1P0nqEaFyG8zSC1bVfoW7ttFIvwo3YprWWVkq8EpS6fa6s78Ex31AU5_Sq", width: 1159, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109700283918581990631\">Maiurriza</a>"] },
+            { photoReference: "AWCwydiCpWxEkYUbWZi9SwxDQCoeEuSR2Xb10tlTc0kU0d-RslXrYZgt82tkklUAsYV45tcNStX1xVbaqKlTzWBQXmnzgp19ip82f2mpvO4xbyx1LLaXunmmLSJt4SsXjbwgyVW7z4rKPyvim7ElHuZMfvuIKFPUKUahiF5K8dPbPRrDZf9xmDDaEuJqQPAQnLn1IMSDE2Hp7s2FfsQhvb5hMfeW_nWljSOOu1T5CmhHv6Ojg1NsUIMBeIums_dhu8AE7zoAFKPTUs2h92Jm6P_1y_GlBZTq4zs8pQ4qUyKQ8P33jdCnt_6lH7AxfMhkYYwh8NACAYUhLMgWk1NHa5VqFlUjydSfhiXepq6Cd35XHz8n7fPVNuLf40GnoQSTdy5N-yRJ2SgSJ3vstmklCYxvFpwy00oDeQn1o5L82lNDjfwCG4_dMfH0BcbbLzWCoelT", width: 1239, height: 1084, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112487573870965157635\">Zaira Pabon</a>"] },
+            { photoReference: "AWCwydhNnqyb0145ZSQK5ecXydpQFz1RGyojFxGJbUZOzFLKAmZJZ_2JtlW88r6mGTDnXNUUnUuCtqQvNZo7jGJpNuQ5x5wvTZCUAHC2RzYv91sJso5XYQ5gEqnyy0kJ3p27EhwsedGilVqoZYJCSoiDfa_1bgFAl2Xo3l3cSS4U6nJgt3Q2gPyfDOC4tJPztu6-DDqzuj8AYUqCkiBQaF7d__mgjICEPc9cFkc-NsOo8aYfxadDB3osjqY6eA9yBbvQBcnI1FS9ZPm49ly-9vc1IOevQ3DwWgpw7wPtd2cxQJOFOiP9mmQq-2mGHq5jSThs0KAF9J56lZzN039ZpmMhZLy1Eb-Z0kyevGKXLiJbTepxFTHQL5q3HdRh5vD_sDJMQz66WDnMEtW9PNl8kygcNwyeJkpNT9LmqCXGP2l_Yc70J7nqrulFHL1aBOHd5j-g", width: 4800, height: 4200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108455645180787619868\">Rodrigo Souza</a>"] },
+            { photoReference: "AWCwydiA3N102PEu0s0r-0kgfbiYxxBlvnokMXLmaB8MLKwxhs33slqT7cO88A8tYvdBcpX9Pwx4NSKTyIJ4zn7WQr-QeKI6UWn5YEi7gbymLNxHVDj_Qizci2EN7BSkLXcsTxbwjm4TI6Lgq0NCn-GK9_SwBgmkXzBmW4qvMGWOIaXQ_9g5egLCIDTKO8mr4CTxrYtopW-5iXLB_RC4faErXvaZhD5EQiOtpT7btfgK_ROHl2OSAv_sjsk-rwZs3bI3ttHDehGfyd59RUZLH2HFd47xLbkeQ008J84NM130Yh3DTva2Vp_Ns3CzYaW1xkYcUYo-YrVa__PHoh4CpSTnfnsYSWvqTO5tYGlrQQ8uAN04nrWnX1vkXTUc97xNqCaJPConaI5Ts8kobW_o3yCUA2p27vBR82NVAxE-0XQv-7tc5TUQ-5CWPyj0nz_qBG_y", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109060729786065303033\">Scott Richards</a>"] }
+        ],
+        summary: "오픈 워터 코스부터 현지 다이빙 포인트 투어까지 전문 강사진과 함께 안전하게 즐길 수 있습니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적인 오픈 워터 코스", "파밀라칸 및 발리카삭 투어", "숙련된 마스터 다이버의 지도"],
+        tips: ["강사진의 세심한 지도를 통해 다이빙 자신감을 높여보세요", "수중 사진 및 영상 촬영 서비스를 활용해보세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Alona Beach Rd, Danao, Panglao, Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.boholdivers.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14238351144624484201", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%99%80+%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%8A%A4+%ED%81%B4%EB%9F%BD+%EB%8B%A4%EC%9D%B4%EB%B8%8C+%EC%84%BC%ED%84%B0+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "JAQPOT 쿡스! 보홀": {
+        photos: [],
+        placeId: "ChIJRx-64VdFqjMR67a4u7kK7TY",
+        placePhotos: [
+            { photoReference: "AWCwydjKbzJCZzJ6K01L1ZT1UBZhCZESLFssbff60fL0De_NC_T5-KKWbnxmO8X1jlh2h-HepOlH9a389yGlNxYy4ttDR_fbGEJmMGd8FRtBTEfOJUt2Oyudru0dIOUDS17xgfxd22UdXju-iHugmxi0Z4JL4eYL0dCVefmWW4fUwa4NZnpIv3Wnnf1ljEli2Lkk8Eju7EJiEQasya69WgvIcNIqQVtQDLylN-71PP2N74SDnSFPdoCbs8WNOr6nJpk-8ICqQ717z_EFT6r7HwKGBz6su_-iq2dKDT9YPNEXqVw60hd2b38Fw8GD3cmDY7b2VJtCAXWhomu_cvYusdQVlOaHGk4QFW-XFENCYCQgXJ8Ol_dkBXzV1Ms1NEWcMDmbVPzCUrpzI1VcorZdyB_GsZ9XDfEVgXRzEjcrMzasOKntCA", width: 2592, height: 1944, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111211108102712116766\">JAQPOT COOKS! BOHOL --Filipino Cooking Classes</a>"] },
+            { photoReference: "AWCwydjl6aL9LvSvBaeKMvnZTUiGABH4WQ11ctXGWYgMtKTSGmC0ZrDS9vff0Fz1fk2hWiD2NogPUEb_ozMKZRbxIz1CLJCouFZkv2xXcg_3OQjuVgc1AE4i0wfKKK4RwBsfZJaFW-XX2X-WGNwWOH5fjhvEHgSToXcCQd8xKf6WTqJ-fIOT06Hhr3aj903qzMX4zAEcgkM7VoB6tNAyHxJGrTGoQuvHYqF-tP2Efop3lscVjcd_MpgjMfmHtElXfpu8x2IYNWZ20HY86wu1R-j8BXAoknrflLAloQ5ZSFao8SgpF0e0h3Jn6xh_ieDsxxNQow8jcTwE-9FQ7rHsAJbJuS79puAADG1cYH3SWcWfKLVWati9hpWzYkKdnDUAtI33ZWyCULGEAHq7L8ZerjdNW_y74RawcjkqTzMFU9bIHdW0cynW-IrkunokEfaaIKsM", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111211108102712116766\">JAQPOT COOKS! BOHOL --Filipino Cooking Classes</a>"] },
+            { photoReference: "AWCwydhAIvGH-5SWdeWLeYcZZTag7l6cF54lYSZCAPPiHaq_JnANi0mBDCcugkahnHrFzlQg0Kvii_Pz9zpG5hR8HLsVFvmvRIASLOJUZCvL0OemWi0LbwnP7wbTMR7uSyide3Z1WYa69LTPuhZ5cJXjBLn3nVwvNLBCsb6KFQaecesm1Gia89me9XLPz9LyIKq3g0dqq0xHX_VCd0MRWZt2SC-yrL6CAvHj0xUZFDlKU_WIK2DTZWDe1BmH_OlVPY55aZXXklSENavLhNeWkzSw2HkJtPg2Dk-xJC2qXlpg1O8KXmnv6swFFAhOkM_sciSdZjp_T5tUm4hjX23w-M0p518PhUsijg55IFhvJsVG24wlLiP30tFU6PXkeP9s2iVonElBD61KqsDKSwCW7vINznJTc0NI6hfLNDyWXccijGA-bNtPfsjFc3bTPeSPVQ", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118080901209012228839\">Bo Lin</a>"] },
+            { photoReference: "AWCwydgWPybwnAki6QV9C2X3bbLoPyDQ9v3vP0yGRtWdzobYKhJyWWH2VpOseHPXt7wqdvtVY9pwZfc5AcXUN3DP9UUMvHNxRTxbzCA2fMawNx0oOjZvL6w9CQsN1JzgR383AIwB1u5-k7RmERkin2Q2sv41Lpos365hJSp6WBvljrRdusUQG7_rkmb18YNBLK3buC5NX7eYxboB2_2pHtMwFt367GaE11VT1NCfc3vbkdvxh2efzCuoDhcODt7fdadFHfghmT1q-bNY-hVKSDcZyP3J_wITFcoVTmyN_K7pIrETrKmhsWgozUSSy8X94rUAOYibDO6EMQcJXbiT-fPb5VjOzB4wEjadpwWXKlay9IyAb2L1Fi3B-4VG_pm_s3mhXrIW2M1BdJ43U9SGHgDfMSyxKAgqyhf8GtMCBvTjHc5lnQ", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111211108102712116766\">JAQPOT COOKS! BOHOL --Filipino Cooking Classes</a>"] },
+            { photoReference: "AWCwydjRgRUFG7rDOrNUwNbbTh9FqMHa8NlI47k4MJTjZ8_I_In4gdrBnkxqBUWjZ1KXO4JlvkkvmiFXlIIBW9ewLcnQyYbeTl0rEjFEtZogHkGBQjYHSh2JT2XD6xMf1SKRT-pd2kWqQd3-BI2lh7U_fS168cGCxIq8BSSfU_xZC5IOLE9bHAt8AZ8MLmSEt7Hmr_yVVpLtaE0RscL2LYDgHGoeM1jYyEgOayer--zAePBEIuKtmtIu7sHglCo5XjQmQuJ5RkDEfs9Mc5e7kMMgd-a_564Cl37c0CmbHHH3N_PdtoJb7dUqXxeqCfOeD6u5Sc8Js1L-KQ-W8RlWG7cIbPFBSzpj6PEtMZL11ySafcUmzzjxiSjvkgX1Pd3YbdCZdjrZ0zBBpZKFrXQdVD6y_zcTlWkWyNA-9UcXSg5wqk90y5o1OANsyWSKkOFNkiH_", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111211108102712116766\">JAQPOT COOKS! BOHOL --Filipino Cooking Classes</a>"] }
+        ],
+        summary: "개인별 취향과 알레르기를 고려한 맞춤형 필리핀 요리 체험",
+        updatedAt: "2026-08-13",
+        highlights: ["셰프 Jaq의 전문적인 지도", "전통 필리핀 요리법 학습", "가족 단위 참여 가능", "평화롭고 아름다운 환경"],
+        tips: ["개인별 식단 맞춤 제작 가능", "아이들을 위한 재미있는 요리 활동 포함"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "PUROK LOMBOY, INSIDE OM HORIZON ECORESORT, Loay, 6339 Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3957831440363206379", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=JAQPOT+%EC%BF%A1%EC%8A%A4%21+%EB%B3%B4%ED%99%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "트라디시온 필리핀 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJaxWkSgCtqzMRl0uHscRboOA",
+        placePhotos: [
+            { photoReference: "AWCwydg6wYQX2mwfI3zIVYQ8maBn-zQnO73fZCjUqKACQyBW6-b7-DY-Fs96RAE-yCV72zkh7OihPnypuNg45RDmsE8esULiDB9qrFyWDFbyrRjlwzrXhNTiRtdx5jqOUzTlXUsbFxHHhacFWnrc0TPUHZQRpfqysDCYXjccbaEns-g9Vt1j-sJq1yOvgeJlQibLvpTTUDh-zHcq3LpEG36bj-G2JJrIzUmLrF9SIeYE7sHS9XOyalwtJR0V_dkw0gaC02eKrxEyazRXOg02sVc2gv-Hcdyrjqtzg4YzdgS6p9Vpwkg3fYHkil4g6c3hZhiE06CtVlBeedUSUFp5Ekia2-yQw8m3cPHxbdG6SW2u5BiLm3JxhbVadj_l7r6-zEBLXbJkDSNpiDYhZM4zaK7ItPAdcVpXDa7iZs2qh-uMEbxgDnwqhHTGs4SHaRAujzYM", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103566084530412475783\">Tradisyon Filipino Cooking Class</a>"] },
+            { photoReference: "AWCwydg8Wk4xcfFpPf27gIeXu8YWI2KP5gtzjQho2H0rFcXEwO5_aXZt5DWATizIm9f9YVBvvYxQVITPQ5R4Xy_OYm6K9dt3UZUdpw15usP3eD9W_xjHO6FFJaocWaphciIm4RrjH1oTCnVuxinzehitwRhsKQWMOQN5PJRmJyzdnhTmGbjJydLwG32nDm1HQfx6hknt6oCD8IFZk2FW3sZYBz0hzeNWmoiigwunU6Gkc4KR5hWqSwHMer9HnnGljLbqXY-DRSbNGgbfzIGcA1eQGGuzkQjJcOPe3t_QERpPnXvcg-O_toIJAiN93HtKCOK9DG8h42eh5ZPo3jwTAsadjHnyUdREVSs272sESJmDVzFMTAMbLWti4I1crnQnM02b09jdE0I2gdPMz_xSLJMs1Vdc_qwyjF4q6j0tuxJb2WZb5fschxwYNardYUUasf0U", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103566084530412475783\">Tradisyon Filipino Cooking Class</a>"] },
+            { photoReference: "AWCwydg5oU6JjNZxnwvh1IsQJyXBO2DvWqqLnfUatl0RIy7wdOygE44ogvH8MduZEfEq1M8hsPAUiVRuw6Jvax_2szNkURdi4alRcIZp5vl0dj8a4qSq3A162yGeLr5VaC1yvEY_iPZ8ic500I6tMPAeV77ffPeVyRHxAc2vg5H8jusLZhF90983ycG4bIorWO4pucFsEwmIjejF-05jQzh_Wtit2D9jiyASMB07jbpHF79YVCZIqC9n08QJZWvKM8pZnp7GPl12l8PJUt9SrcjfZzwK_zqElpwpR5MKxMhos8I3kCfayT4O9xH-sEsqAo7zL5aw6KVZYOYlBtuo7YH6_CoZLoO0VO_ZgHHdNnfgtMRkD9HZA397uaWGW5sWd3IVLFE2HBuQBZG5ka_aGjx1UQ87ND4H385dBPKid4qMoY0tTc1GJjp6JBe7msrrTPhh", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103566084530412475783\">Tradisyon Filipino Cooking Class</a>"] },
+            { photoReference: "AWCwydgMA9A5bOEG9ebIx666QRVQo2OTv1yAfklvi5AZHkciNXFsmYyYJDETPRedlX2S7DX8u2JGCy2mny09G3lO-Jb_Y3KFkhNhiTYbG80vDPoMprqDdl61pJbETrfX21_q-B_pLhwr7G-rF95fputV5mCbFthQNL8h-uQdzEPROeQDPB_uFhQOVKiNVqbWtxJlPCj7sA01RAitptl2LYn116fg7QAtfwO8RkLP4tGNGpXTaEMOyovVaAji5YLT2AYCTwuv7KzdUEy3SkaT_ZJbDkiEUikC33zMEl0g3lUitYjaahoePLDeD-pakjc63RgEL_Wx0rXK5rTWJ87ENHsXqrAqNpGD9dD4V5xbudU8A3JrsVdlnytTnijw7dq0V0TOfQdmqGzLGNusAY_ta3VI2ER7Jd_sZe0cfNaLpKJbSUx_sHLB8jpvdPTf6e4wQQEp", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103566084530412475783\">Tradisyon Filipino Cooking Class</a>"] },
+            { photoReference: "AWCwydi1GwiJDBIxiesvalxfZcS_AI8cbVIMbnPwsiNFNh4_FjiPvld5AmU6CUz3dBf1nV4XFuYACopOHLBWtG_EGO7PWwrgKOfthUc4ayZRx_ntsQcKRvGZ8vMZ71NstqnIG30vurhiXIW5oS7L_S3t2NYSu_TwiVaRD0ac0xKte5jtN4N11dWEJMxv9QoQCnnVnA8-PKC4HEX6dRS8sslcWjJEpLLZUqQgAOOtLOJAO_Lj1WcEDFUZkIbZPynJFhy4biBO_vmzfT9TekBQVuxTLUzjqYxleHVBVP46FwMuWdoa1UP_w8TP5jLkdFBGOSJQKgJBOwPhfDt-8Irz3_p6JthDyZfVilgxiGtWGL_vG7YNZAscEQ5TJiAbMhH6frDZUhB6wSo4pYLuZPSd1sl8Ej9c3WaqaK6qFYUHRWGnS_ymejfvQZ58J9hOeAY7rFsE", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108376988039973013688\">WANCHNE</a>"] }
+        ],
+        summary: "직접 요리하며 지역의 맛을 체험하는 특별한 요리 워크숍",
+        updatedAt: "2026-08-13",
+        highlights: ["세 가지 요리 직접 만들기", "지역 음식 문화 체험", "직접 만든 요리 시식"],
+        tips: ["처음부터 끝까지 직접 만드는 과정을 통해 요리를 배울 수 있습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 1:00; 화요일: 오전 9:00 ~ 오후 1:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Purok 4 Bolotaolo St, Poblacion, Panglao, Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://forms.gle/NjkYf3wVwrp4wTwC9", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16186037961119714199", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%9D%BC%EB%94%94%EC%8B%9C%EC%98%A8+%ED%95%84%EB%A6%AC%ED%95%80+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "팹랩 보홀 필리핀": {
+        photos: [],
+        placeId: "ChIJU5V5CLNNqjMRI_iHIAkhHMY",
+        placePhotos: [
+            { photoReference: "AWCwydjt60QQFhb5hpR40iDJZtCD_uqVKgMBvXak1evME-dJg_-FBr9NXnKsGhCePBj8PkbFkf550RsV2H8hj6MQBg2yLxs83GsUuG76qg5HmUUpXUZvCyoaaGRTw560pSZTNRPytnFCVuX311Qn0kcHDqJSMOmlZfwBS3e4O5wyk0Jd0hFxqwwCI_bsmG4VfzNzGRnMN1xVjoZNltRuzPhezUh4_GledOVVMQncXah9QQgW2PpTWog3rB0xsChxgvADoSzKmUW66m2_0tWYvlzkSzNCzXWEPBGjuSmGX0bhLYzTSvsl4j6zhKYZbT3aPC-FNC_G8H5Qb7eKF6lkY56qNyE_kXeFsyJIuxmkAXqRkn9eMocv34WGiiWaT6PtEYkK7xiJAmhR6dJNKv8fFTnmsfRoFLq7O75H1xJQI3qtsMQswQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101892740710722120832\">Fablab Bohol Philippines</a>"] },
+            { photoReference: "AWCwydiz6ZMrdGImQQpmclMstnFHnUlMerIHuYv6XsenpoIF8Pthzcw-362YWz3ZDQGrHaPSLxL-9HHv40UVA4HIlBIaOe2djxyJKuXj9XoL5iIYj5Gg96FHa2zCNzWPqxEz7jD1bd4XsbvLr4-Rjp3C-6x2k6eE98YwdhpDjCFFxgmT2AHWpCbvhXHh4V6wFpeJ0wRiobycnFIgsYdpaGoK4K3fE1RuAqMChJpIfbu0jpnOzuAxKI7j1vZe89ZuHl-aKovxcoLHqWpZSCVV0SGx7Sa0r7SLgYidUADkzBV6SmUUutU-OGP5jCiqFM-LNfL57vn92F1QyCKLczqDaQnNM41-IGcl5k3rfYJ-mLvbt276uvmofuWC6_jlY1WUf2V7MV8jbo8qGWE4vL2WWUvx0tfrYeW2O67uHPEN4kKryqYuyYrPLUpr1AuGz5TQFir3", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116093676512048007701\">KATHLEEN GRACE DAGUPLO</a>"] },
+            { photoReference: "AWCwydj3W-v9BsDZrWebzjgcXhCQY20Ejr1HEBzlNPNJfNarZzUpK_ScyCYpD7T1UfkhMoBHNP1YK7WugaaMJdQUUcRQsL7JFbhRXEe2LL_R3A-3-D_o7FUA3PE8FDlMPOgpcRsXzFJZggplTG1vtuOYDEZueUMS-XU1zQ1-7IJci4jC-5zov96BkyNth9eVhz5nnnLAHtEsM4kVczaYkz-lAMrG9tAnIASeyvhTGBreFF6Hm5G3n7QFpmcAKFJdqAogYyMcKyYmPosKky8lu3o2mzFPwT5gQsXoGXLpauh5BrsXvwPZAuDmFvQZy_2Inl11KUi4DLr3yYCXcconwM3GXv_mybHo-G1IYmYbG5XMDTrjJdyDwfFSirBKIajqtk0cSHvNJdIA4mhBvVWDyxEFLMRYQOxFR1Ws9XInt4z4KhUMg7M", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100925654484708814196\">RADZ LEE CANDONTOL</a>"] },
+            { photoReference: "AWCwydiPol0svJNr-EKTWNytfMp4lPPrarRCPSIo2Qev9yZGWoZa4MvkvwBkNAJeS4_PES210OdaOTOCgbbU5GZFT0RAZO6CA8ydBoMPkCZD5qu8k2jgWoeUuqhr7Vu9SlU_2F3Ln0lkyM0byNdJ2lbJynbiMsJnBtZ0CzKavdpex7-Wsp7qcHtgCV3Fp2P1DOyTiYNGpaztdUtWiiSuVGR_agS-Tu-FDWus4ljJZEBZ3BkVtVa_YHpVgtSSb2ovlnz9SZhJ7z_BbgqW_63Q4F4DosX8Zv3qjZD_9Z4IvPiJ0_LG434B-c_kfCfe_wnU-nbif1XNblnsOOEiw9MdYUmPpfUUW21iwYUbfjpX1TE-HZag_qIaq5-QKqZurpcAaHQKp-YeLPjn6UPdAZk9X2h9JzEyzyywtJr3QK7EnKosUrj5iQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105042018658472843402\">Charles Vincent Barrete</a>"] },
+            { photoReference: "AWCwydgTkf64eMm2P_Fz34W_wknWlF5vULLYOCev8NsYjs0m-zo99tYoCRqA-0rlHJxvLYbo9vn98AGUdzMjTsaTnELhsB43XKnQDvUEAB7AqIJAX1fdPCDYgTE4rr5KXrOQb7YATKGihEll4eRpvVEy6m57cilhvRft7l0teicWi9vfFDfkpsz1Wvf4lvTsL3JV_oQujIcrA8K-lWKXi3tiEJ0tDOLvD655lOlUQ_Qot-WRQc24pUENCCIYUweoPlWqfNP3UW4mT6fXvXDwYLQQ7h_wqIQdoDKJY3bPfNSQCblOA1bmFM-rus1IWppBV2JSByd9wRRmbPVXnLIHHoXlBIjSbeKgXpS_ftbMqQB8cIFdFo32YqWyMvRxNVzLbWki2QAOrPxwdTCJNaNrNa12h9gTLKmzE51K8cDb1iHzwODnUbWf", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101892740710722120832\">Fablab Bohol Philippines</a>"] }
+        ],
+        summary: "다양한 장비를 직접 사용하며 아이디어를 현실로 구현하는 기술 교육 워크숍입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["3D 모델링, 스캐닝 및 프린팅 워크숍", "다양한 전문 장비 및 도구 이용 가능"],
+        tips: ["직접 장비를 조작하며 프로젝트를 제작해 보세요", "강사 및 직원에게 기술 지원을 요청할 수 있습니다"],
+        hours: "월요일: 오전 8:30 ~ 오후 4:30; 화요일: 오전 8:30 ~ 오후 8:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Carlos P. Garcia Ave, Tagbilaran City, 6300 Bohol, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://fb.com/fablabbohol", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14275321241941833763", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%B9%EB%9E%A9+%EB%B3%B4%ED%99%80+%ED%95%84%EB%A6%AC%ED%95%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;

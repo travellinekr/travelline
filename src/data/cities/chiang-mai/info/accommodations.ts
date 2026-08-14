@@ -373,6 +373,330 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B0%B0%EB%9D%BC+%EB%84%98%EB%B2%84+6+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "베란다 하이 리조트 치앙마이": {
+        photos: [],
+        placeId: "ChIJdX1FUQM32jARvsGTL03nVF4",
+        placePhotos: [
+            { photoReference: "AWCwydiFeHqRI2KXo_lNCLXLYzxNGv6wyv9qtD9X2aIsVEU2NyTYgcJpN02c3SufyVf56TqDlpO7d6zTUezzvNpLfucmyHFEJZRfnSmGUE9L2zEwR5LecdCidFr2KPdNkWCM74iMjwU_KRVJVIBIDAt9fgbhppyMS5EBc7j61LIytOPtSmD0ID2jGieInh0kiU75LTOWsdGR9cgLll8xTfiWBQyQGyr9T5a8VaNVGx2J6IS6Y9cQ9K02BBiLheB-VB7zQ8F2AS7l9QmAmZdelLVu6wWiy0DPFb9y9LK74xFE8qtkR-FTGK-7Mp70n5NlhwmKaB0y4zZw5s3XsSrHFZJ-24wLySv5ZbZ8Up2YQQIvBw7pn6kfW8KWafhoia3eSRGpOO3E2100drHu48y64uNpr56y0t32WCY-Yp6dCbXjT5SLVSecuFv0QcDkpgXwKv94", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109337849147620971405\">Veranda High Resort Chiang Mai - MGallery Collection</a>"] },
+            { photoReference: "AWCwydhQ-aa59rUP1zeUK5ZE2frG9crNtdoDC98HwTzDpG1b4SiHXySeBFy8XrMT4CmBRJ2N2RTt-7fECQ254pYLawPntClEt7djDafuKxvjLEut_S5EQchHqVNu3qmbs6y0m0O8LTH03ggoCIFDK5METDAZ6E__8A17aFQSnnShjX11qAjCOhFryxFqKUlTIFTZtBbYCRwZv6WpEUADFFNpuSoqpEdSXIQ5MHqoWunfFXB4ChMPyRXREj7vIHPI6u21-MVCsmEi401sFijvXml3KgrTP4QI9b1KGiSz8_82xy3pYvf97E32tggAzGRz75lvpVds0roHy1V0zzpODClpfXL4fkw-ZznsynBWw8i2a6ZnyT6zW-OCC5WuBrjmF_f8944DncaN62sLRoMFVALMTe8nETD8vO3jlxef7OKLkBkEVVXKbHzxqRiRk9RjCw", width: 2250, height: 1500, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109337849147620971405\">Veranda High Resort Chiang Mai - MGallery Collection</a>"] },
+            { photoReference: "AWCwydjSMPZXTWFzAE_CHk74XRAogC5tYMy6akZk6Dh6RK0ii5A7BlV-sJtQHLT8C6_Cp6mgOHxQrzTgVVREK1pyPQBkL67ZzqJsR5KFuJDsUYHqOclHCUmH5jUSS4HYvuLDSkbW-KORe5RuMi0je7_8JSaR8Mvb-X6YtZT1qaS0cRALiNYBGeDxbzztEOIrHOdPn3cdoPp_VjXwFhy2FuYVgLGsCxHEERnRx4LSow0S6qt5iMX8EvSmjiVr0TLknK1NyZyUK-TI_fPcjdoW0v-kR3kYqwEjVLlgkFRGMefBozk1cmGYtYRCCvjT7DnxL9DFFV98NckUydqR1EeJ5WsgWzvy4Dyy7w3fRuBGad8zX9jUs87q3rXYeUAfhzGwEqKUBQEHaEVJpPvzeNXM7ST5JzLDcpuNaNQDWS42kYNoueA", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107247942085970958322\">Wasina S.</a>"] },
+            { photoReference: "AWCwydi5OcAFJW363vT-jFrolo9bv42QntwkZBDd_VKWx7fwSYSvQhzPTHZQzlcmnTjpsr74yGgDAu8nalV3nvq8JwDtcNPz_aRXsVYq6L_zzIGc38hjfM5xL9XuwxPdldBS1wvcZW7eYw0yQkdO5bE0aK8PiClJ3001Cntz0_3mmv_HFr6rMiWZVKilZXHV7YdL5gMdswRWsvMLS6hzu7IfBQ-gg1T8YqrapmZU9QQoPNA_13IUFJSsQfdAO3NJJpHCiRHdaa1_ZMZULKUxDdml9gL4_p93IrS0v4M_-sHU24V2gDnyH31JNjfuDmsZgcEn3JsUcQ6ytysaYrrbNMfsQLdvpNnVoYASCYntjBzJidkIwPoIZSisx8IZ4gx-MYGZa00ORvRIKYrotvIpbrlAOcMsew1AQEmbwb7A6Fqi_dg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107734502227146860879\">Sirirat 1407</a>"] },
+            { photoReference: "AWCwydhfyPsJH-1mYfLmSiXsIzZu5xdQrOmCaqTw1BhQVcmpzzWrNwxaRsaHMgxNHJxaYO_ohr8sMDN6C1t4psVGOiZVuE-IQMwJSIoc6wgdFqTUE-yqv71uMCSgWE_esBZsiCE8XxVmq4Twp2wOJbxbcKSVU6c0pus9wKpup2ewZ1mn4Oov9bXBgwDGDoPOux4jzBouU5uyqg4qwsZ_gPipMykMC4fg0I17iCWwubGTbsGzcnOld7p0BsDP0mkD6J-GBtXryeXmSr3MkqrpRhptyGl0h8Y62xsA53A1eOlfBkt8plj4m8svyTJt2fEtcj-c5Inpi8xlGs2AJgIkRNqVb6IOmT20c-0tV_c6ZQgK-CUEAb47_0HamvIhJugg12L_90Q4GvmRJI05GnhAeNEdLdJy1X4p9if35TiIowgnjIDSf3u0_kDBDRQ1YN1rMQ", width: 4800, height: 3280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109337849147620971405\">Veranda High Resort Chiang Mai - MGallery Collection</a>"] }
+        ],
+        summary: "아름다운 수영장 뷰와 훌륭한 조식을 갖춘 평화로운 휴식처입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["세심하고 솔선수범하는 직원 서비스", "아름다운 수영장 전망", "훌륭한 조식 품질"],
+        tips: ["룸서비스보다는 식당 이용을 추천합니다", "호텔 정문 근처 식료품점에서 간식 구매가 가능합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "192, Tambon Ban Pong, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50230 태국" }],
+        location: { landmark: "192, Tambon Ban Pong, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50230 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mgallery.accor.com/hotels/8154?merchantid=seo-maps-TH-8154&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6797312056305631678", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EB%9E%80%EB%8B%A4+%ED%95%98%EC%9D%B4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "크로스 치앙마이 리버사이드": {
+        photos: [],
+        placeId: "ChIJR42yT7Y62jARIp1AgGzLgic",
+        placePhotos: [
+            { photoReference: "AWCwydjFbeonn8LT3i7YW2KKpUBbslTgln6KZs4NApg3UdFgZsOYgFzZJF9g1w_avRRtlMqF0s-ZhpwsKKkNKHiMxqsfyJinheSy0NrYoCv0AxQ45Leczxajh7WXk_tgKn_KaFCAeIgbLrDwMSoEw9ORc03W_SqsLI0f-MUA5yjeI9eezQwz8FW4Orhy4MuOe5xKFDyXAqAdf9HZgbhxP78aB_qpe3lCg2oui_AmF93xgkL4zi-PfjGg4no3simTq8exNrHm-MXkRyzqJkTxqW-SOKnGNh8q9y-Qj3JQYMDymsViBQszAJgA3tjgtBceHNOQdBUV1ccQJqPlSU3ykW39x0_WHTc6DmvMbrLG6oO6NZpXcwMTckLEZFg8-5-phVua3V0LSzus47rWwNuDMzIAil4QyZJnM56VlKbg0Gv4X5o", width: 1860, height: 1046, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107340551512159506886\">X2 Chiang Mai Riverside Resort ครอสทูเชียงใหม่ริเวอร์ไซด์รีสอร์ต</a>"] },
+            { photoReference: "AWCwydiOUmzg3IsB4Zy4MPCF57r_k9ST5VkIYtFUzzLKOmjUMkNE_gqSziCj2gNvxOK_Xlboe0l4l3-6opB58bvdODy5qQ4Xw1WFplU_d1VGHkyjeMA_U8rxQJaMsSCmoGhd8Mm_9C0lU9oFSVnOTz-KGiNt-SjHGKpIJNfK6WtjyL6EGSYrjcFX0F7dFuw97bLhZ1AT_VgS6neYmyhHiZHrrytGG7SXJ0OdeCAR39kUPXFzQ345jkHItc7DbGxIFPaRQ5RAa1yAAJvR1zQZfUpGwxl7nsvM21U_GVWRPoo02FjhRTVWxZ6lZ_6PX32RLwZhpcJZHhLqnGvJgJeBN2BbZkNb9pJtzkzR5YdO6vxkC-3E0wN1-TEaom7htXXphu8lN2cpJsXfGjglddgL9kTIwe6U6WhihF4JPCkjHTmqZfwqgCzb", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117264601068450533645\">LocaList</a>"] },
+            { photoReference: "AWCwydiI9oHQodsDCxhykmqdn460hRk5L5UTx_hHEVbG_LdvRPC5ufDVJ7Niow5qTaRmBcu4oud2wGSglcOG2JLS2ianLPN46Rg2AyaFmaO-o8JoDmUarjJrhokvqYMunI2-PjyOeG2UT6sVDbrKoVV0kb5_2i_b5CV5MwscUnIi2sjqQB3aACElATgPnbRC8rA37NDFX_V-y1zBcqNaRtUASjiHU1diHn2JA3a8WeNnbi2xq34FFsrj3UfShRllQiTZwwdpLu8X6REZ2A4otOSKhQdznxBfJyEi2NRks-SRDUXsIVM02SEebSJBAKDntwR9Z6m17M-U020KkI2nSuxMCXBb9loIIUPToYqic0EbfrpMRPXfq_AQdZv2Fq6dvvUoouSmmdX8Itzm7GmqmY7W91mFVX_9R2_vo0irpTaQIYBDR3ry", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107486853559331816776\">S piglet R</a>"] },
+            { photoReference: "AWCwydjr3Y7UI6QQ_KyR4Fsw9W7zyyfwuw8suACVJssz8I_MArwGvVW8MH0fk9jgC5Jp_qPb0D-85ywd5caR2ojOLueifivgy7rag8Kq13cTaE3Ow0DGaF9M2IKkLAytKCY9ZNz-7LHqiMXbXsruUNSt0pBU5N3mFTpok43U4xgefWKgM4VrF0itzTlEkdsd7v0ojyXEsqfkwg3xm88GKcJvRJ7tEO59Oh5oR2vltcx4t25msGyelrCDowsaZeCh2lmsRfvfylScnO_x0ZMjA9BVeuEXoxWazJwq8WT3pzs-sxzfyakQ3nJpsn5ZmoGUGtWlObBRaZYd2iN6k0t-1VPpKsPEPRSQm79F4vkQieyMDKkgSCthPNXynSdJmZXq3zw7BdYUixNpr5tmfUrYlGQOj9ZRMmD5JnoyQYhuOAYkV2JWFsc", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103780646772269041380\">แบดบอย น่ารักมาก</a>"] },
+            { photoReference: "AWCwydjIaZHQvR7TKr7nRTLCdhuI4tkznvUViygK8HgXlyArUfQf1-oloUSKW6sfwDGJb6wN5Wekux160v4_OtTDLGy0cGh5XERYuIM9WwbYwbJrX4hvt7iB1hg9HTVCbZzYoyf9Mf5-kTfNN5skmvPd9SmhYaOXWKdAtihHRRzOR9eTLQUdBWmdCRk-wv5P5f6y75mYc3-xD4ILBUaMETvBoVbZiguew4ywZ4vAqnYCtNDPknqm7gqD6flcZu1QiAbo0603Ho3ixHJ_bXhmcOb622NtULDZPmQ_BfLCnlS0VrS_BAi6wUfAC7Aujwk2nRGhnmYhE5zBr9AY7z1lERw164hkhCsNex915GsuWxjgembQtpT21D5GSlitI3vJ-77iGSLdRmxrxPypM6YB9RFc4nCyejTxLu2hluiy7pN6TMU", width: 2506, height: 1411, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115164751383818455781\">ครอสเชียงใหม่ริเวอร์ไซด์รีสอร์ต</a>"] }
+        ],
+        summary: "셰프의 예술성이 돋보이는 태국 퓨전 요리와 아름다운 강변 전망을 제공하는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["핑강 변의 평온한 분위기", "현대적인 태국 요리", "셰프의 예술적인 코스 요리"],
+        tips: ["A Lunch of Chef Artistry 코스를 추천합니다", "강변의 유리 온실 분위기를 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "369/1 Thanon Charoenrajd, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000 태국" }],
+        location: { landmark: "369/1 Thanon Charoenrajd, Tambon Wat Ket, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.crosschiangmairiverside.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2847061581320199458", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%81%AC%EB%A1%9C%EC%8A%A4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EB%A6%AC%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "센타라 쿰 파야 리조트 앤드 스파": {
+        photos: [],
+        placeId: "ChIJBaGg5UIl2jARBfFC3e0Cugc",
+        placePhotos: [
+            { photoReference: "AWCwydhiwFAMr0ZNhlnX0GDh14wbUz3Qy0rlsMpcpIDVdsZpzZklagd_ZxS-HBQ50Lsd4OchX5Y3neu7SvTPdM8RoBqrHhYmOcgL4VhNTSAWWHpoVjjVpLB1P2OF8BX6PkPnPOr_-yF4-alXOBy5HF46WxnORpneVAdoilXVYA0Gm9arPX7piDc5RurVZDl-xfmr1hZaGzw-V9H0XG_uzVRrxR7tV-JINIpQQnMzhHykpXOlcQBIYemICce0V3ipx8Jk88asVQ7qBgIhBx49mJ7mMEC9HR1nLoO5MM9jYA9bzyNzoRDEcXD0995T0Y3Y8yf6uzCVFaJI78sTtNu7iupWhoGGqezCqxVkgwb_HXacXGg9YMAWEbifRCytuJPe9R9WyDLEMDVjSqPU2O0n5gcikybkeRBMVLO7a9FipxSeDlFA6WfG", width: 4368, height: 2697, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117710191817552453802\">Khum Phaya Resort &amp; Spa Boutique Collection</a>"] },
+            { photoReference: "AWCwydjOWpxxglpPUtF51j8D3mLUpiTa6tZtQoqePyBiWfh-zq3J_0ltoi2EF7xmdtyAxrlEaeDYBQZ0cAYenGZrjyGydJLRVHBjVlmjSJMXPWGe6J-yXJXbQ_F9OH3mUMvFYQ0e5AQjt1VEQdPGez5rVNk-3sckj5aMK67km4O7v_4EAwrN4ENM_vonEjAg7W9dYxCkYrlHKI1cIVKbdD4Zyv6-yUkfNmrliX3mC_sGQVMpAz6AUh1jBOl9nvFaj6yAUZgT0ZFVtuXVaXgpzQFhNwoGXN3smsd_RanocEfclH4nhp-Um8fxE1OIoIjVJZVb5eaSBA1lAuuMCQRGUlwLQKn2ByfhXSO-tPGkHGtgLUJcb6TljK-hYVKg5ovCUatwh9_7amTESqY0670EPlb1lNfz99-sTZlk2cZiYxI3iWtYbQ", width: 1400, height: 934, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117710191817552453802\">Khum Phaya Resort &amp; Spa Boutique Collection</a>"] },
+            { photoReference: "AWCwydhbyJ4aj7WrhvOuBUq3sO7gwyMmzFrLV092fe7hduUO2S0hBnnj8YY6dqRAupZ368NyGTEfzf4DxQFsDKtNOPotPyBjb7MfqBO2n6Z4A0aaqKXHaUT733XmsNEqijVVj0QchPyxURrz_NXLygjh4FvwqrD1r0XeiT2ciaQ3ZhqdYEa1z7QEtAyiRckbypDQyhegzvtb7js7lF4Bc3iMkWgLPfDVatIc_HdkDWfO8k6LZ2B4367LY-wq1q1f6W22OoRI5aiRdgYWrsdZp6dJHiItaHprvAvgx2gc2GFzpSECqq0WLgwgpZ_8hQhTGGJfRcQzuXBgaxlibRYcWGIbjubObjMvRlOs40JIs7nv_WzrdoSiP9Yeutw5IVpZUv29RL3LoTtUCB1BcI-GpJ10TLFYn1YyC79BBJq_ICGyOmo", width: 4368, height: 2912, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117710191817552453802\">Khum Phaya Resort &amp; Spa Boutique Collection</a>"] },
+            { photoReference: "AWCwydgDyUJE7JEZi3xMJjfqRtcGTrTGlTpX6TSLEuiRDpxSpFXsQ2So4oSHdypRxgL5wfPUDwuKZOeHYZXRbXMTJuxotYMM3aM_WeEOVE32G-JByJmDrQIRVVU0nNl3To8l0C6utRCm3pnFaQ1lwXKqzFUYwinHRBTM3HYMhEMCNIRzKs4nT6sFVruhe-tQ3D7inOnuQnVvp-zZkmUIn-7kUN4Eh-j9MJQSPyjz8VfuZuQ4F4pAF5qNL_YYMdsHBIJ3PJJtHGys2YS77IF2VQkF0cW2E4B4SJQ23ntuQkgHaGwU2hkYRRYvNlpFjk7I42WVWD_Te7oIGOuNh1tEATpiolRsL3w_RqOQghQIIm3uZGur4LszDnt2nNxOZusEyNGv2eRyzwho0FSl_xikGxHOGfkOUZD6_RsWeDpNsxLj2G0OVA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104010399352672683587\">Kirana Noradechanon</a>"] },
+            { photoReference: "AWCwydj23L8xkwfooHPFB27yencw6ZYY1aAAUxeVg83dqGJ_TKlaiQP4R13AJavLsihOkMwmbQN3dwIytl8JtNwEYHzRkqxRoHSZdMlnibwKg_FsSpdV993XWtE-J7-tz1-DsyDlwqehSwVJTfXfGce7FQESxhwqHz-LDpPpbGoeQ5xaXVE3VxTtOa94Ot0XwnBqWsh3U2W80BHtsG8VmSlcleBuIHQQ60RMb93fD7gy4fdH7GAHI-nPx-iZs-tbNUg-VCoJ3XPbeHxmMxpv9F-KNBOpTk3JUVDiNLpDIr9AWGCAxspx2x4iJ4T2en1uajXQJCpyFmFh-wsB9snH6_3kS46Js50XhpG9aesdkGLOUK_OcULr-CKn0AGC1cREU4wPs3BTzO59AsPo3awV1dKmathRIhlCd6yCUdxkHjES8niUEQ", width: 1400, height: 934, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117710191817552453802\">Khum Phaya Resort &amp; Spa Boutique Collection</a>"] }
+        ],
+        summary: "아름다운 자연 속에서 여유로운 휴식을 선사하는 고품격 리조트입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 쾌적한 객실 공간", "훌륭한 구내 레스토랑", "대규모 수영장 시설"],
+        tips: ["모기가 있을 수 있으니 주의가 필요합니다", "수영장 물 온도가 다소 낮을 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "137, Tambon Nong Pa Khrang, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000 태국" }],
+        location: { landmark: "137, Tambon Nong Pa Khrang, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.khumphayachiangmai.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=556760724576334085", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%BC%ED%83%80%EB%9D%BC+%EC%BF%B0+%ED%8C%8C%EC%95%BC+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%95%A4%EB%93%9C+%EC%8A%A4%ED%8C%8C+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스튜디오 365": {
+        photos: [],
+        placeId: "ChIJz_6Ml7Y72jARrc1TvwW-2o8",
+        placePhotos: [
+            { photoReference: "AWCwydhPUdfW7qSpwW-lFJk626OsnBY9_fiipT2Lk1EPQSQbu17KH4Cap9RgWWHCyS0tEtNTLZ7SZ_yoTcmw8nAIuwDVHWIUNVvl0_jTtgb9MG6guKBq_R1--D7f5V5lP770sA1Z6ZaV4PmVc5g9v-QEJGEdaOT75o-BZy9fFrJYE8BTQxtuKTXp5QLOzioNY7J0lZjEfBehxylNv-559nOgWIV4011p-jSunR21J_XThs5IqsXYTlEHHlY1Yidgf88aSUUZvp7tvBzmNhQG6-McSniakvRAvqNVQ6KYr7uip_qbSxgGa-E0cMfhNglzd1OcU1dcwdfacphRlK3zhc3UGDBtfFvaRqa9GGKnHkNLGzgrOWkV7IHsdZRDjBDfh6BCA5nCvgAeOzjF6Mgb6XajkgTyjKPiOmx7uYKKSrwyUj1s2g", width: 1304, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115528098912308736277\">สตูดิโอ 365</a>"] },
+            { photoReference: "AWCwydghD0MGjJqWGecSEFeGY7nA3OCoyipLreUeY-T-NjGr33fnaZsuYepVeC7eh8IL22na3MXV0naATKWj7GWcz1JAsTR3g_qIkwIBIk5hggGaUQJTMo5jQi9Faa6qj0hrbsmaLtBgT1-q6Q5O6nSAa3f6MObIzSPzrdinlASOtoXSJyJf7H-vR7T_tHhXkiWMb5Zk-aSz-RhUdACs-0ODEGpOlwh-mokJJwNiasmwWmkOcGH6HxP-0an-fyxqcUGvvHYluUh-DUT-uPKXYvk9umvFEki--5wqTD_dGym1A0IyZZM9uiQk6r_3-9_DN2Iw7oZM6kHVG3beFXVNJrN1TJ-VyjjZGaocbZqwQPvXlFFrLfwuSU--JWAskTimTDSbW98fIGIksv8bGx0zEX9HoPIB1GMUKwEP874FHpI_bIXLvNye", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115528098912308736277\">สตูดิโอ 365</a>"] },
+            { photoReference: "AWCwydhgsnn0A5lsdnNuyx3ttgpzv53aAQa1p8uwCrGD6yZBj0l7bkahyV8p7SmI6NXZvg6Vv0gtkNOqrInkfhYtjajBmgO_OFraNJg4tYEdwphfe55IfUPvIbG4GlI6iFZ67wXz2M4TAUDRtOQek_fxyTVSrK1RBkvauxyDTutmf9A9tskqqHTc9IiOHHwJ7ApcvjCZ9gCBrzTHgHWdxNA_HiYOm8dGnvFucHE7qELDvfMF_J19XFsTR7XH0OayLc3aC1MTKhHe9ta5g_tlIaMNWXUQebJQna6SxOjLhUq_kyHAwsfiO3YiiY_NjCY7utdOXdL-knl5EFVblo5p-pujDZsPxpnATAmgHwivlZiqXox9_nZutzZ2ImMKRUWtmHSPVVMww21Au8WXHdHiOmdXC97hNVzFWLIh8ej98dnraKSTrMGN", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115528098912308736277\">สตูดิโอ 365</a>"] },
+            { photoReference: "AWCwydjgqfztEUaB2A2iilJCJhuDen35H-LDgBxpQwq60WYmK3rnRHWFvDVVXV6r9ld-vCFv0wPZVXO89yjqSBYB8YHMYsgohMqdvSsficXcGtdLBoUL8W_N49tTlVUHcmoKfMhXNxHzitWPcmG8BLGMRtBipX3zhSVq4pda27IqmGEGBI1XKM6mkVDbK1_FWmGuAqLosovZBOza7SBBvoCYI4AopJH6jQ_f8RB-ZekejUmkT43rMxhsGDpJZZauklEkqpXJVR94JQsyqo9iyEtfC9f0LpvJ8YYKh46p0K3qUd0vMCKcPyswrUeAKOasjhERHH9U1TVoFB4il-imN0Ranl-vvAAPSFI31_nsRLAdroZ6EksER7UII6cscR-mTNhEJeinA1aEsnORYE8tU-9BuiCUnIG5SF_kADAN6-yOD_w", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115528098912308736277\">สตูดิโอ 365</a>"] },
+            { photoReference: "AWCwydictnDaokgFH_rwhm9pb1LBPGboppl7UwXGBawM4BHzeKWL4sFpSNfwFl0E_fLBXkdF56Tw3k0wJelBnoD7WGC1RkznGVyP3gDHqTAhX7XWAhX6E-lL6gN_nBuJtQ00T-81Ib43M26oMfd4pBerKAxfYtxPy42zVnKuaXMJoFBnqP59GdiROmjGZ-TmBe1WZwdiuvx7doQScCsz27sRdlQhB7YnVoE2p8-e8kn2s9r7Wcu4MgdM08G96CngZ5lzO2SXx0X_kXWQ89AMHE6W8e5C9jVAuordFOllzlFTUMIKUKr73SfR0OWmB0Va4tOQfzVvuVpq3PNna0n3MjuROezjIIBmDuSmyPWa-TOZJlFqul2c0iCbQ8iRGw4cBXyRVoDDdVv3EGe7Z5-jsHS3jochc34lQ-XGWzYAaQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115528098912308736277\">สตูดิโอ 365</a>"] }
+        ],
+        summary: "친절한 서비스와 깨끗하고 넓은 객실을 제공하는 가성비 높은 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["우종슝 환전소 인근의 편리한 위치", "1층의 고요하고 편안한 정원", "친절하고 세심한 직원 서비스", "주방 시설 완비 및 안정적인 수압"],
+        tips: ["1층 정원에서 휴식을 취해보세요", "주방에 필요한 조리 도구가 갖춰져 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Thapae Rd Soi 3, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100 태국" }],
+        location: { landmark: "Thapae Rd Soi 3, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.chiangmaiservicedapartments.com/en/home", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10365806424240672173", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4+365+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "C-one 호텔 앤 서비스 아파트먼트": {
+        photos: [],
+        placeId: "ChIJww3_w4A62jARsR-OE37O0hU",
+        placePhotos: [
+            { photoReference: "AWCwydhvTNR8B4dc5Hi9ZkTghvCurU2B7mku66XeSRXSkmDSWvv5Lfa6l0XaQSQ3Lz9RDLCh7vpwo3zeMKujsm7-sG-z3CYiM6vhzfbigfqIk0jYMAk2Ya51otrJo7c-E2MJ9tLVISl-IUTw9i7RinSMoxoh1OvwY7YbhUNK5DoUu2eGjfPbuIp9CindmQ0O5YgPTmrgfnE2DZJkTrYyw-WOyGRHjFRvjTj2F8Y8xnp5J4enzMtLKbY0xcd0QdlzFHP1b0hieXiv0-n3UTrjCdr2_Ky_2LF7m9l-XbR5CKspXMgc3CK6_uWsRd9-JMTsijAjRNLryy1AYRpgwgOV6M4WUd8uYIwwOaiGwUH8dSDANeGURAbY06GAOk3shL21pVo2gyZSN7oXpt0ue7Q2oVCFjamRwE2au0xiJUNa9xiR3xXHYcgj", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101867274569356789465\">Dino Yantra</a>"] },
+            { photoReference: "AWCwydiQO1xPK_ms1h37T2LpfyGF6S7wEAKNe5NINGt2d0eFUuCuWRzpSqgHxZ8UNwBLS_FRhSIwwiTCjw7u5Q-lb8hpQdqRTXLvXFKijyn995wnapPfOfZr9nueifTzmC0e0bogdiPKSu1wstDODgpln8KwaWjpGaVLO0xN2sbWhNfGktFrPnlNOWvEiBPmHydJcHkCEIK-rOS9d0lucKB7nexm47_ve5tMb-PVoNfxD0s79nkpiikHzVwwJyLpEzvVJPftCROKcGCZFykU0F4j2EzbiHV4jEKnmq3MyodeRpwY-sTzboA2s-UxeAbT9RvtcF2mkn3wu6t6NOK1A82YqZUmCCPQLkgM4M7KYLOf_yUbyEI-clYQrmcVA-RphP6ny7wSIuUr47PYXgVQMed1qQ0xI06h3-KNEo72LfQKfEc2qb1X", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105622759578445621596\">nan mallika</a>"] },
+            { photoReference: "AWCwydgV1SRhDfdj0hsX7iTrns6sDHX59Uk100ZR2g2WUytR9049ZkJb4F_lq-kkw-qyAPMf2ImnTsohyWWUic7t6ohssQmCu62Qq_kjmaoyIOgkE9Y5h4agKejBixEycLMdaAI40tmOb1_yuFUNmy5hK8a30CVP6On1jOl_dDRkYynRrT7q17wT2Quzc9kxbzeqACg-zq9roRl9Zhm0-mHm5N1YseOKcEd8txkvYvamRR94FQMD0E78FQYXMmyvhVOJzrA9PxqC-Aio_Cf52f3CeRQZuLaVKFkVIFlhQn6Ilf_cGOV6w-lT55wOwoSwag2-JPrW2wNWbozjM_p7aorKlb0rKTjC326ul94k9YotJmrcO04Ins9cDvup2_ybFbc5ECw9X_d-oUyuuAKvSxzGjxHL8og2lZTNqyNL6ZM3tT5V5jRH", width: 1468, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117635072162441647309\">JYP</a>"] },
+            { photoReference: "AWCwydj13bZ2Iys5jWybVVShchk1T3Pa24gN6yLiI3-IuOPhKaxIyS-8CnaAbxCPuzBVGoOvqBhON3NvGlYjgj9YUWgSKdOuseSZ2G4ivNXH6PI02bab6LyY29mJ49q0nfVi1spkq4jXNIZPETcNlMI7oiPJCVImnNq8hmL5EKxuhFJEvzIrObnEt_a_EiUIjhpFVWPt237HcEazZBOtykfkeF-PVbSb67szFvMc7uIckJJx1jJGnryZSyp8STjM7xwh718hDKlyc5HLcCLccD5tcLNSoXl_IdRUGBN_Y5yCvi8a5g2E0f_aJlK5BM9rzWQEL2WwVm6wq6iaS4983W5v-FSBroOcdR_7sS9amNK9XW8qiIe0eP4fYxHDg0ihj3YlBmP7GINTJI0rVknlG-mdoka8qRWoXi_RsKO-PRiiyOTNOg4", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109121449110803570143\">CM นวดนอกสถานที่เชียงใหม่</a>"] },
+            { photoReference: "AWCwydgRiOdQFzuYIkk7IWbx6XJFuovmaAyjZwCdnpm3rGx5YhuuucgmQxYW0VnvD5S_lKOtGajiGBzskXIokvVGXXWd-JEfS5X6YGWNT8fuRjQ5OI0XNGqVmwFefOllKB3gFftIfV5ZTlgDC_2fN-NgVp4uQZldDHDXvZgnnG1MzEr9GNEPbZhRH-PJ-27ZwxBaBL7ghcuc36Z3pRrTBS10lsj5nvh-XP_XhHcoYPvsCTU5e5XCB_TPz26NC2VH4AQc98wtmktmarSeW412OXPL3bBsJboOt2q6UNZ1WfdBdu_q9um_Iqm366IGgtRlEfVluCprq7yd8hk_ZjNRvltJZ1KBmG0GpAO69xPgdV2O7mB8UevfZgOqHKRTIYrOC0QaT8oLhN-R8dlIH5idcBsEbwa0jEGc-oJ9ZUxCtat6B3Y", width: 2448, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111042141174208077050\">pe sabaitae</a>"] }
+        ],
+        summary: "청결한 객실과 친절한 서비스가 인상적인 치앙마이 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 깨끗한 객실", "편리한 위치", "친절한 직원"],
+        tips: ["의과대학 인근 방문 시 이용하기 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "7, 1 Sirorot Rd, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국" }],
+        location: { landmark: "7, 1 Sirorot Rd, Tambon Su Thep, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.c-oneservicedapartments.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1572546260795006897", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=C-one+%ED%98%B8%ED%85%94+%EC%95%A4+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아난타라 치앙마이 서비스 스위트": {
+        photos: [],
+        placeId: "ChIJZSrIP6g62jAR4C2ZfZ-JJxc",
+        placePhotos: [
+            { photoReference: "AWCwydgCF1ToqR7a4-eHrvnn8FlNJOgTlF6DaA0TCOox23b5MsnRALsx2KpiX__mv1eN9O4gmOCmKwrQUH9VqAQ3UQaHgp9U5Cipt5OCUWe-Vy-pJO4mtUCIp-A-P1Jv8fnUtRV0WV0Rsv_K-o0i_yS60gOCgNBTWlBryi3-I2X-sDq2NjRhFta76i4bFtgg3aVtiwsG8JCI_KuUHDXev1p83PxTbZv0njWPQoJ-ruspqrBRho7yy7HjTfEtAw-Iy8Qa3LPXq-f8W_wgkM_-P_P5bL2FY32EdqKD_Jgi7ilig6waAhqTzSpWBvBP_nJXckfeYJhCeZLiLi_b27fUB5czS3oo2dSWg-XZ-YA_1rMYmPt2O3hptYgdoU19475QNYnoC1ALR1pSmxmrd8c_FWr5qNqntwdvrb5xQCiQT4vwZe2wTbAm", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116092570195255178907\">Anantara Chiang Mai Serviced Suites</a>"] },
+            { photoReference: "AWCwydhq7n_TqacQDOIXwGrUXz6ypVTPcbZSyZDbJdaBrSgBJL5OZkye6mqh1M1HrpI3-i89KTHx81PLHoX14Dc_bu7PnoQrFC4Or5DGMRcLD2fLfOOSV7dW4ELVO_QrdXfIeKZyCkyb-jAJt79nTLPPm15ur8csITE1dSFzMpvv3xRDoIeCIEIXN8HSchZLf3vFfEX4aAkPhZSEcdUth7eNRiJa6rpaqF9H8z9UKDveQgUVB4r1hSgVPcBIbXKvaQREh5imyTqnZ-4m85wkTKeheYJW_eNTE2RB49dRQ3oeDOHYQDkN3I6d_Iq_2ZOiq3TTQXKzwKFNPSf_z7t7W7T1nos7g_KHNI9AZFDAiQ9tsw2P-6tZmbbx1HzC_6GXh_2y3QG4EDSwWB6MxzDCdTBFKjQ5TVbz2Ncc9z6GRwM6kLKwwuZa", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116092570195255178907\">Anantara Chiang Mai Serviced Suites</a>"] },
+            { photoReference: "AWCwydj3VAndLIvAFAyf7p2shJqZ9H9mBRoLjkSCZ0W2_9GDtZ4iUSPJLuT3oqAneY_QSkYn8Ihog99RgRpzbkrYjpEib2xPDdNnVspgs3WMc1v2xD1RcnfxvItZIYGtGI5Soaa6lf0FBxm7xHzOA9NMskOQSSK37XKdnx8KT5XMTFsqhM1iQ1Cfti5w7Mfo1nG0zZS96SBYwtq-P1e4cPeK5BrsyG2R7ELg3hiuCufAJf67RkFJ21Gma5L50N8odUXD3JTC5xlSB9cNBHimwRhBJbXoEB6KEqARGDy26mJtzUXBZXyY2LhjJBk9Mp-3dharga_X5u-nalyiwyHh2y4GiMsbnO3Akqe_onA5iZcDDsb7mDJcGu_S0-EUotcwv1erT3wsJIWkLpRLR_KQl5kuvjvcDCgp2E10ndclHpvyw_U", width: 3838, height: 2879, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111481767422904414828\">Kim JY</a>"] },
+            { photoReference: "AWCwydhp6Ye-w5l3K6jm9bOjIAgcZPXuHig4VBVekiE8qSscQZU5zLcsfmRC-O33Cw0pq1r81IOQor2G8a8VGij-4hPqet5XWKcg9sAq2t_B9CKAsiefkWRI5tMIvK4UZST1pAlW20EGRaTRtU1BtY3NsfzSBS05oTyg-jXQEHF_XYJraHptkeHIHq4JZAOb-CfveFGwiBb7orA6TbwVY-cUhgBBDwWUJZz8_csDBVw9-ZffkA3pPSS11NBjEJWJvEJb9TTkNHCFb7crn-A6LyCzg1rdY6An7JAVn0vGV4EotAASrXFRCb8Y3Qi0T3fWvzOT-MoyenNjlihS-DHOWFnw3OnGXCYAMTTm9iIkdxm18DjITmefQLtnY6DBlEMe9bKrgPh2vuw1bDaoPao_z700XXSBDMTSuH3qeB0xfVJirDbWP9k_", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106462056904919316208\">이보슬</a>"] },
+            { photoReference: "AWCwydhMy0NoYHCfqMx3MnqkPwZlN5JhCM93EMU9Ar-lQ5KxGuiqF9RkO1ggKLP3hMe3VHC2y6bSJnOc_3jeB3S_XsQvBpQHIdOcGXggtltEpQE3z_FAFNckM-YqlwwqKtLhSPzQpN0_oqrZswTVJDwanmoPdqLdziLzeV_XwN99EsfqDjNmBEpU0JPKDAEDmHpkDlcp8ceYHWFLmp6WK46sz2HAatUOK_wP-I7kiLd72HfcYVy7zJ9wc87HM5plBlTN2B8S-PFTZwrAfI9sfplKyXbOkoGI0Dsok34NMWwj_jCCgkcZpSUu7RAx-zZZ4c89oG9slsfuPMnQLcEW6rBBdmpnqPpIVQS15xSAxn2V6GkQZ8FGDsrb7fEyoXMaOwMha5wM-iGA6lNcmnLo9CU-HN6IqnT462-uwHI-RcBFrwc", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116092570195255178907\">Anantara Chiang Mai Serviced Suites</a>"] }
+        ],
+        summary: "우수한 서비스와 높은 평점을 자랑하는 편안한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 평점 4.7", "우수한 서비스 품질"],
+        tips: ["에어컨 소음에 민감하다면 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "122 Charoen Prathet Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100 태국" }],
+        location: { landmark: "122 Charoen Prathet Rd, Tambon Chang Khlan, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.anantara.com/chiang-mai-serviced-suites/?utm_source=GoogleMyBusiness&utm_medium=GMB&utm_term=ChiangMaiServicedSuites&utm_content=Home&utm_campaign=Google_GMB", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1668453505064054240", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%82%9C%ED%83%80%EB%9D%BC+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%8A%A4%EC%9C%84%ED%8A%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "써니 스위트 치앙마이": {
+        photos: [],
+        placeId: "ChIJWaToMJc62jAR_cPu-uBVjTA",
+        placePhotos: [
+            { photoReference: "AWCwydj8nAGhsJdUrdgufGS6nQ6qR54M4S2-jIfVXOzD71DNcrC1bjAs5lnSL1h8BXSC-BJrBt0xktmsAVRqhwCamFWp_qNBUXJUuNrh8Ca02agaHBuIPdoA3g37z9-nYaWfZbuV-l23aGg5HECqC2rQTSDAWpEq5cl-jVncN3qpFzKQo5v5SRI7TJi9KAj2Ti-ksWy3rjCmw2i2bdETdCVxl7CXu6t01OnaV-DbpXRaDGKeDBE8o2OTLt-yNDDlgxkGkJ5xLsfu6EUjRze5qMSpndzVhmYCskAh98Rp_Oph7Kazb_qkGcf3wOTm4eYUJO7YmYcgNkAn4Km5x3rYlymFIn9zjDqzwudo75XXfrV7iRbB14wb5RnskOknQ_zhh2g9Lu2GVJH4s3kP_EUCqLMiqNjSIB1suwext71wMt6cIy-2fQ", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189355891726267280\">Ananya Muangdee</a>"] },
+            { photoReference: "AWCwydhPP2CFowVMQsozhdgzcRGUIPK4eonENcRqRWHIzb_TYWBIQDTzmYxN3j_b4qkq32g89hLiAAMSb90vJ08_AZNX3dYq4dVeYvv_upbfUMlodSNLQpfCMK7tUMhd9m_Mj44WasbrAypGVKz3sdn7nAEojqWz44UFO7r9r0PCIOZ9iFwGalvyynoMM8RcbvunDxCOglFE1_vT-Iw5gMfOvNx2IoIknCciItRjC8BrpqvP4B3rC3UB1K8XCoUyegH0OAbWRyStRfDkXC0EvxgL1h6YIQgt2KHRf0TEnlPhcCMUaa4iJtI6IhnUwcw2j_MAqQ-YOAZES50wkWxvstUesikDX9XkZtc2jaO6imBwh6pp0Q7ON27RN18IuM9XODSZftTpiwkbmd1vuvwUJhqC44W-V1h4POwO1iAkgd5aW08x6mWE", width: 1080, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189355891726267280\">Ananya Muangdee</a>"] },
+            { photoReference: "AWCwydgSr368cWLsrAcu3-9UwI4dKmsOjGcmGZ4u74wJ8D1WMfosrbc2k_pv8AFN4uLF3ms_U-oydtiaJdsBM2-cS6pEx6iujMj5aHzqV2uT7g6lMu2IIAzBFLe6SAY5RYTIxZoU-_Pk4Xd27ujk7kwNbJ9q4e_C5tkxyBWHFxS2EJoOOQjtdpw5RHqScKfuOE9Jb3O6EqLmh8B7t3sj8_VwfVkxkAr_YBIDqhO470nd8-vuz2dczrQaNVHbyy509yxpydhTW96ObUCbvZym01gbU23JbS6JOTX5F8XNQ-rGv9b1H47DkkT5nYMCY9ATy3yLQvnm0ULIejiGhaW_WH_JJkqHi9eLkCSFBnnZmJSH2Fy_iTHrFlvJTDhY6SxMMKH816728i2pLZGZDuCoPOEpTgxIU7PU5Zs74m_xd8jTfqYG6gi-", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189355891726267280\">Ananya Muangdee</a>"] },
+            { photoReference: "AWCwydh1y6uAS-OR1NbaCoJgZ4rp8-HTMwYDiPr3bZo1VvLX3NpEKNcKE3ruE0UgdsX0U-IqQ-ArIZ9R6yp_834zqsMMM6n08D_DCc3dmh4tyGP70R2TOkHDvrDcSIVM4rL-MNTYuVEWTRgGTUPZIkRta2ZTK_G-p8T2dT57tWeNQaJqeLjLBUTlnr0ha0FgDVX171Si9fJ-yzW1cgYwC8CBvInebMGNkQ4J8XBJYaAFJuc3SKkp_ujLqAlOU1Dg7X2AnIRZ2U_FAp-2hOllOsr2VlpunhxjKd4rNQTlPgrn2W-tWNzbfg2iRdvPOdcrHKADp6Y2_MZHQs3BCtK-rA7vc3FqSF5_NsChi9A3fCm0QEjYcHUPYQDzrHcTSbpgfmXYuH5Ei-noWLftB2D3ckgwc36A_cR0xqoMnuz8Ee2Op3X8I0IS", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189355891726267280\">Ananya Muangdee</a>"] },
+            { photoReference: "AWCwydjEAy8h1NWJaQSNHxXshuWuy1E7SuZyLH5QzQ8lfO93uZnst3eEQHOTAb7CYQ-v3K9ESTde-HOdRlJ8VzPMXLrp7KLa1jW7fZCXis6uli6k0DmSP8MM3tAifDI1PsNPeb2xaDuD8KlI3gnwflmx_1D4w8smSI4LARl2dUtofVNIK5-IKjLaj29Kmtt9sqPXxHRcQH9hZDA-vEUgahlnWHX5DoKczS3rp6mNGoeuZDcgapbV28I_QtWijOTuv8kSl0Vm5Wfg_zzbwvjHsj2j0pVjVO2OzeJoVGRmUZqMCYYlvhzxig6XTFqFN-7e04DsJjGmFje5w86w3qSy9yc5KCtTNI9q9I-jGDbJegKxkQjhYQXwIqtv9GG1mKWITfeDCnjyN39RIceGSR9uYjWzzmS7vw_mX_GRIl38karXova5Dw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117189355891726267280\">Ananya Muangdee</a>"] }
+        ],
+        summary: "올드타운의 완벽한 위치와 합리적인 가격을 갖춘 장기 숙박 최적화 숙소",
+        updatedAt: "2026-08-13",
+        highlights: ["올드타운 내 최적의 위치", "장기 숙박에 최적화된 체계적 관리", "편안한 침구와 완비된 주방 도구", "조용하고 편리한 주변 환경"],
+        tips: ["북문 시장까지 도보 이동 가능", "사원과 맛집이 인근에 위치"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "3 Sriphum Chang Phuak Soi 5 Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국" }],
+        location: { landmark: "3 Sriphum Chang Phuak Soi 5 Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://sunnysuiteshotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3498546910307730429", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8D%A8%EB%8B%88+%EC%8A%A4%EC%9C%84%ED%8A%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "VC@수안팍 부티크 호텔 & 서비스 아파트": {
+        photos: [],
+        placeId: "ChIJF-VFq3ww2jARlJFb0DHplTA",
+        placePhotos: [
+            { photoReference: "AWCwydj-9T6dcO1IqrhpFkFnld5iO0mpC6kPZvdawoNcnI-XC66WdtjkAO08TUYQdMEl-U0kircizhsBSYclz1e2m42QHZ_sTi4ly2qB1ZN9tlRlcemFtFLCvGZ2mrS7rL0mdVcvnAXsjl38VvwbWDsne-h-blmSwFnkPzuDUWqbaju6VyM8xXgkUtbS8t_bWMY4DjAHaQNfgQs3A0s1gM2Zk0DBJox2PegPG5hjygjs9ohYXvyVRaoYuKUxx_nlWEU4jfHKT00TqSiI06EszmEVf6AjF-pzwwMeErIyEECiihM33us3XVYNZXw_mKefwJKCLB5eL0Nc-jrrjPKZ_oIe7zGZlCo_Rqjcr4BAKreSOyINxXXHeXXSYL0Ztw3H44EBRgz6KRF0jBNCE4Gx8HMM6IhvbNP1SCN3vu359z0m3Ag", width: 800, height: 600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114370465563852497480\">วีซี แอ๊ด สวนผัก โฮเต็ล</a>"] },
+            { photoReference: "AWCwydiNq1vHju9zfqAX-OucTwIpuaLf8U_dVTJgkvJLyDU9oZyoJdqtjBPY96B1KCUtK8fxz0a0M_J1EKBLJBX_eQSgMabAup3nmRy9Xxwd3tm9C7mlDEESHxl5vfsMKG45Pa-3LGqauiVNct7tPsiTJELuvcfHT2QHE3d9hyzFVzJNAGb9oJxVYd1NUT_hUaMjvpVAJcHsLafoZCJP3NtafWnCZVEVMg2hR6ymFSXU2IFPXOleiZmLfD9oUZJ6krxsptA1K7qkmRMYd4zSoWXv8by8uz6LoyTVcoI93W6llqJcqnnLVVF4oK0SzmPVYbdEilKDMyYzdggUBKgKccoJK8RWbISaqaTY4djsygHwyS4ddbvVlLRYbIttx6Un1s0yYr3uYRD7-BbE0kD4gNz6JEpK475glQnRsx0cAIQ4QAoED4jGo3NxS77IVLtWaAmp", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107444364834152296562\">Wei Hung</a>"] },
+            { photoReference: "AWCwydgk9kSJiWahQ3n68DZHgvPABiX3-yCy_qTaBy5_RN1mhjgRedJX9jUdF2IVS0f09erOjDEEw73vw0Z7tDGjuGRzdx89XHMztye4fPoIMeOnTRKWE_YPNC4qw0S_O5IAbLuon-97JXB4Ea5GWGRO0J2w-2WfgIXluif5i3liV9UR2oSyaGR3HisMB-cnV7iWN5jll03NFWDswfCHBzHaqw_sjAy2P1CtVR4H1abe7izoMoNF5lB1Ss6l576TsyigaQBNAswjEikG_ScvV4TqZWCpUnVgyQHIj6UkJ8Vp4M0RGMkD-I5m_bXlLPI36SeRm4aEIXxaK_3a-GX0iPJX0zj391oKxSx8WUAkKB_3hLo-uEg9DdVfW_z9ArjsTbnq7UVneiDQhYUMqg6iFZrjG6H6l991RScNrgafRM2nh0QA1OlPZrQ2nVEetLsY1aZD", width: 2252, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105767704851667651503\">우종규</a>"] },
+            { photoReference: "AWCwydhS-rTgBAxmW-KJ52LOW2_6LC4PjvWdB5gJv656TtbvED3dQj8fTLnA4pDnKyumskO6_P3vy6EsdSiju53BXAQJiZDB003vuqUUVn5ggGrxfawHEAULx_AmHj5i_uYsuJo0h0FgJaZ1imhp9-h7M_XIJzPPWXj862sXQ9-PjZPHsDwIYevIFHMn03sCy-OcNeHbs2T1vGE0ZbxoUrxFR_3h3yWwJ5FkulCXzs8i3cAyxh8tYTzzegmA_3_PpsOq5So-IqrIvr0ePMEXJZ0u60h1Pe3453D8crP-szaegWfNcXMNAFqfn86o4dO54tHlgPN6bpLN1A9MIq3vSCJYg4keLRha9YL5B_DIdOPPPI7MvW5WWrYtFoSWnTsaHBVL0Y9BVey1X1QSXjr3RVEQha9k2P8H0aNZ2iD3BByfNQr4SVE", width: 800, height: 600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114370465563852497480\">วีซี แอ๊ด สวนผัก โฮเต็ล</a>"] },
+            { photoReference: "AWCwydgf8F40JwwSDMSNg9_fUyJXMWnXXSBGpPbNApHVg0T408QdD7qUByuDDyP_nlTP0sSfyF81we-ge6zf-V5wcK9o4Hvu8g-XkeYFeVDGBe77XT6pdpAVlUL4d84ziqvGUo3TWbh6tNLWMErkbZDcC0ud5kyis9EaX5M1R6sqoA07sb0v8siDwQMgxdFbCOPiITs0z4dPG73kC5uDMymBqBtsGTyn5QDg2WpHJaQ8NTG6_HfEb1LEP8NacSuYOQO-4JS2QvJHI3XKPdL8M7oYdbPbw6HcNCLywffMxF4cYI-sMciBD1MCdRqC6y9tMwunp17fk0bTfKQfmIyz2ivKLYnxxU0eqIJmEyInk1UA_RscmWV2XofIe2NPOtIQ8rfOffyFAl2LHv65Fp6rms6-mqTM8HfEtkKZeLgi1oyNx3A", width: 800, height: 600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114370465563852497480\">วีซี แอ๊ด สวนผัก โฮเต็ล</a>"] }
+        ],
+        summary: "공항 인근의 편리한 위치와 친절한 서비스로 좋은 평점을 유지하고 있습니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["공항 인근의 편리한 위치", "친절한 직원 서비스", "넓고 편안한 객실"],
+        tips: ["모기가 있을 수 있으니 주의하세요", "주변 쇼핑몰을 이용하기 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "61 หมู่ 3 ถนนสนามบิน Tambon Pa Daet, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국" }],
+        location: { landmark: "61 หมู่ 3 ถนนสนามบิน Tambon Pa Daet, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.vcsuanpaak.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3500960685508759956", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=VC%40%EC%88%98%EC%95%88%ED%8C%8D+%EB%B6%80%ED%8B%B0%ED%81%AC+%ED%98%B8%ED%85%94+%26+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 커먼 호스텔": {
+        photos: [],
+        placeId: "ChIJySOke5A62jAR3DgjbEcQIiE",
+        placePhotos: [
+            { photoReference: "AWCwydjZ8xARRyT9Bqi2LrjJrjqkFHkxo-DI8tCsgVqtGPPiOoZTuXOIpZpZg7PRK8U5U9CffIg32xLTWoldHZW5kwYVfmv-wujVmnb54zn7GtCqmjPQSz08IFTuvN6lZHLFXv-qLVWAC2V6dkdpSPOcf2gJue1phqc6uORP4H8oPVq5mVByMIPW5pMYajG16mmvJ6bx82U0y7S1m8p2h4WQ3gm1_1HyBvgLhFBMuAAtSQDbVupj0ISv1seUUVqfwTR0D8P6hphWFRPwECbKUfBs7K_NP1P-JjhyFhxlmTy4GDRN-zwA0rzCJZ5hl8JjLE5GqqCfcGmX6gDKxeFQPwCzPU_enpexI17KKlt-5zgfS5xWVBvBrdciC99Dwz68NNnZZc9GTPxKYvwD6NamTASg-l3JBgYhVbin1gYjb_QsrZKQ2LY", width: 1241, height: 841, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103627832936239389127\">The Common Hostel</a>"] },
+            { photoReference: "AWCwydgM_vbjCTy-yjngaK8lF1SKufqTwYrTqr_dWAxoiqD_OuxrmhHK4v3ixC_tct7mdzNiZEbx-EW_mWrhb7k61jlZRlOep6_ujBIl9aeLpB6A1UsrZnrZbJuhQVj9Mn0L7epkDLHdej0CCG9Rzr0iSwks3wdJcgsBYIMpKPHDy7uYMCecEqjYp5UCDkw_WnUerdwVfDkFrNRlYhsZiZg7Fo-9HYUFmtTMWuf251MfgqYaSXRlDfV0jxRRk4iin7Yh-cS1y0U1w52wg3zpz-wqRaDndDCm5pAbu-iyugaZDUQE1SS57otvG0cO1N8Bu0WqIiAhevu7D5G1TRf0vi7EP3neA1BimfxuyScNRBpLQSm9Cx4T-nAQImWuXL8XlWak7naatYos9Fhft_YfI5O2XeDRt0m8roxJPOrpP7Ai5ydZhQ", width: 1964, height: 1306, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103627832936239389127\">The Common Hostel</a>"] },
+            { photoReference: "AWCwydiF_CYh11Jym0wERe05IXSqWMMwWVkh1RITrULF25LcXo352V-ikLEVKugXvQmt0YazO5-2P_tH1TpZb6rnzwqNjfC373zlYugB73iET4VZxqxgrsRUaA6tU-9NhleEpW9JvAFCWC3A8asfDIoIEkd0OZLjHlVu9Hqtw2b2WwzV-6lEIpYhl3Bb4smE7HathiEnCZXpALoQONwB20oDSJ5nHBtFnNbXPWGwcu7qqxKvf1FhR0PcCYJUjsa2AipXwQHSJEjr-qXT6luT_QHLuPXfHFwJ2arOLY5fP201iFRS5gZZc47d7FpbV_RDZP03dz4YA-WoR-JbHC3NwGvwTvoRf8dUjzBxar4X6T_1gdJh9FIAByT2YiB7pLd7zhIMlpl-hXgzI2vevqYV6C6TVx9EG3q_Xjx0AQ4Bl9iogbdg75Df", width: 1906, height: 1267, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103627832936239389127\">The Common Hostel</a>"] },
+            { photoReference: "AWCwydjvCLHP6tKRWK8X1tj-0m8QPcXOvYSL5wn74aCR7z2ClST8V-fD8-g0hi3NSCRwoZkVQwm2t2-R7PpHc-JARSsQ3UcJ3pvuurFup47otu6gteIi788NS10Elhoeo_XzDVqwxXcIFiOxybcdS0ttF5g50tHgR85_QLIrJ2D58ze6dRjFZEZCUzSAwjiPMEe3HTWnJ-d3rbFBlU4qAhNmQNYJXYOxut37KBUEMAqI9tclOquLhTjXMq_DixfKnetzNTy7n_OR59wlnzKyrhR0nyFj1snZIQOx24-us3PAX0b5lI7QV1Nr9CGYhCzIiyGu9hmhTx0TLgVfjJBFYkjNT68HhAjVpb7TbUELjw0B_QbW1uhDdJfk44g41go5kxV9tgXnPynQNy_bhkHsVDWOSy_iIuHdabyFOkMShCVzk0qtnA", width: 2119, height: 1409, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103627832936239389127\">The Common Hostel</a>"] },
+            { photoReference: "AWCwydhJ3Ed8qllVWaKFLgl3qpLQFSwcKZa1WRD8B7x8gd4y2tO2UzyJKyhkbdjK1AQepmHPKqqAvrvvSiqaU4e-hUwSNYcp0j1xdvzpmMpNROYnGlDA2vQvs-_WRF_2jTrSSjN4ZSCpf0A01_d7VvcoMCZXvPmpUwrvoM32am-Kcr0hKw4l27fFQmKsmra-e55gajz_KNGiw-KKWhBf_ZuxdKJbcH67qDsAY-pPwfaJAb8DnHWDzvrIXQ3DCaeaiZBTjYZCTbs-fUXTD_kaaoa2I_B_ZuIPBP0fcWg-NzYRFMkTqId2DnmViNQBFnDTaeLWzlA3D5Vg2oRdXM96XOwyiH7Tg8duMWceaOkGNJIUqaTY5Fl8CAF3Wxm2EyKDYF9PvDf7FHgDMSTL7N5Uz7SjS1h1WJnqZZr3I5efcts1-QGMLz7n", width: 1200, height: 750, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103627832936239389127\">The Common Hostel</a>"] }
+        ],
+        summary: "사용자 리뷰가 활발한 치앙마이의 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.6점의 높은 평점", "751개의 사용자 리뷰"],
+        tips: ["체크인 시 디파짓 비용을 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "54/2-4 Singharat Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국" }],
+        location: { landmark: "54/2-4 Singharat Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.thecommonhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2387488651402754268", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%BB%A4%EB%A8%BC+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "수네타 호스텔 치앙마이": {
+        photos: [],
+        placeId: "ChIJEwWDp6M62jARuE_KQQwswyA",
+        placePhotos: [
+            { photoReference: "AWCwydhntBbpBSECLxB0iydtTw4Hmic0lZL8aZPhlC_akHeSwo2WsGKuuGKWQ6tGbWduHD-2-23T4hkcaEBvc8M97AGZC_R5DHe215ZhBMjZrwk3n1J8U_NSeFOwrJ3dS5CzD741dqfNVtxY3Cv7UpegCcATqn3Sif_DXcZMf6JeYS6VuaCEz3cTfm8HknQ-z5jIGp0TIcu44bQlMmoAIxAdHFOOSTkas8wjUuwa41Mnf5RtJCEI3u3hVJ4MsuSlNlNAwMHptgiyYTjgVdMynGu8tMbG-ME3eeRBsD8TfjiIxz-sPsXVmYV6cfEfJNP-JYA6XfpxXwHOKTcRPhIzLM3JeLMcwzfNiF_PLH2MhY6Zyuxyn0HV-RdpBe_x9mW6K0yl3T_K74bYnJF_pTLUFxaNz1eM5a6L0FE9W6SpMN2jfIeyovY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113717265337241227391\">Deedar</a>"] },
+            { photoReference: "AWCwydjK7Q_sgfVSCJzGfVXP3lQjA8XlkW6TjFME_7VAWu3PvzNbWRDpQqyIxObTJwdakYTYPWFr3AQN6jmS0X_3uxiVCCpk2BR-mGOJB0zw5EJ86fQHRGl2pQSmngb3wROBMSATZxTH_UQLflBVRduQFb1ZLLMKgvVhLylUaWcDPmU8iVXXhggWeI0LWZx1jbOG-fBTsTK7K0URfheVf2KgzGP3cYukiEbz8-6tUX2n5Im_W-bl7ApkW_ULNOe1C74D43lkrZlFlbD62-w7IUVo4PTsUAqc9B2WXPslSENtKVEA4mrteTaM-9UNFczmG3zTBvGNUb8DuTRVV87vIrmf2kpOYRkz57Vk2PP7nCR9eEMHUPuF-p-CBytZTJQgZnYhOYNiP30c40p3DGM4jenGImq5NdUMiouusImd9-nFJ-I", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101711245374062491523\">Atcha “Alice” Y.</a>"] },
+            { photoReference: "AWCwydii1OvKNLd2JAvyu5mxH0TVerlx-oWglZ3SVzYrmNtwJ65203MGAS0K5oWCFZitgqx5kIpYvlzuqTqbOXmhJq4tTgjmWCDefIKsxqZv2nHthtcJnJ1G6y8L0eJeSWJsLGnhDzGy1Hj_VL9UV0CSFOVBHlBQl8MpXFqS26wea4xUyeYED4zLDDe8Q-QBQ1_BPCodre6-aHRq3UIITsCjUwkX9gW4RtdKq-gXSU6tfoCAAEymVDhJ33k9lqVj0Mk4xF_ChAwqDforeqgdywT9b6Nj5lAbYCTgMH5z_hpBK0pfAa082fwgHPfeu0QzB5IpOhVg3yYfxEKmBsgpA_-AlgyTk7PuFRyufmsrU-8JZ850BiDoP9QShm1iJw-alNaquSQe0ZbWn1NNO2UYZI9-ETYMrSq6SzJChbLcShDyq1bc4Q", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116378812870982730345\">geetika rajani</a>"] },
+            { photoReference: "AWCwydjratpeEGuGWB6k_94FikS_xJ6x6rZju96fz398KH9Zgy68fvVzFqjAjSLZh99WFvWeP7PpYjD9y81iYmfaNQN5NA_17B5ujaLfqB7lyIKCFwgZkKEbasc78OgPkWZmVQYsWCMFJEFw6F0o7dfGP2HLu3ldc0hiF-zJIXrWraRyW3zr6ST4FVY-zbA-vTufab2ZCgFNgZbISZlRKrCGB1Vd7A_SFmVzF07YGWWcW9kNWQzaPh5tzXf4xLYO9YsyVpn_FY5BndoqOy4sZczI5CGTm-cVJqbBSy-HM195lfOXurdVUc3T2M6Q-aZ7aKrGEgvAD9XysKikUysO-8G_xDeqFGkMIH7cD9199jyvCgek-RZdYEtju7OYu9_ElUS3DQLZrJaPnwoWNxZYGv_Kg1IPN2sIxdo21Oarw3-7Oc9yEJ3c", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100054438095614068923\">フェスタ瀬沢 義人</a>"] },
+            { photoReference: "AWCwydj-RrLVEZM5pMs0sYhDPzpG46N3GG9yHFBMxvTONOJo50kGn4AhyMgKG9RjdDd7EM8LCZ8MPnKYBSRkfUNtPv6q0QmZmot5wAIoKTISykNrccA1kgtJxzoPZsPsIywCJZQ3BVpg76vj1-V8WSA-AM2L41fkdU7exOpn9Eb2DEXFlGzOc4BbJ-LrJs6wVdmD5bYAkTbcmnapTgng9Tf5fdoss7ApeXBuKFZ9JhC091yKo-5mi4UUlxBVHFWH9NdOBIDzCT02wABNmc3j5IvbyD3TMJr8kyDYeLtwCqerhDIIBvJesIU3i9YdXPGubgHSBCZQaMx_VjYt8Uv9ipU3FbxvpvAGXN5F_WGmtODyV16i940wy7AH1sNLVnAub_y1lqKKoaTIbHq2695uIhmsbgwnm33dgo0lZBO_JyoS2keV-umH", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109992658655939295772\">Kenza Kung</a>"] }
+        ],
+        summary: "편안한 침구와 뛰어난 접근성을 자랑하는 치앙마이 인기 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["타패문 및 창모이 거리 인근", "부드럽고 편안한 침구", "도보 2분 거리 세븐일레븐", "귀여운 호스텔 고양이"],
+        tips: ["계단 마지막 칸의 높이가 다를 수 있으니 주의하세요", "주변에 다양한 카페와 식당이 많습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "20, 20/1 Chang Moi Kao Rd, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300 태국" }],
+        location: { landmark: "20, 20/1 Chang Moi Kao Rd, Tambon Chang Moi, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2360779060827279288", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%88%98%EB%84%A4%ED%83%80+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 야드 호스텔 치앙마이": {
+        photos: [],
+        placeId: "ChIJdVEBnm072jARXsPunpSm9EU",
+        placePhotos: [
+            { photoReference: "AWCwydjCp3b-wYjO9KwscL8m-6EOEh1jDeQUTA7uSIjdW0Yp7d1sYfX9TKWfqoiv9zk3tiLAH-J8YDUb1AyxylockZG1bfOyBo2eVWny_m9D5YGv2msBNLiMratenTndV4Xx72GfN0OL7cPbg09NG8rlOZ2Sg28JMM3xuzdpr4VwVBqyYwbu-OdumOKplnyXZx8V8cXCelBF8qrF9sXjspIqls2kBoNsdKXNQpX8TVjt8WAc8DZwLQzHsBanH_QysSJkIY3BD9JGvCi8m1W2VzPyqfCTg45u5b13s-lFU7uNUqFytVymc3Uc0xGIwNHsOdflxmngBH-EI-AaNZBBFQicuA7L9peM9oVQucNXMKT091N-K58Sp08AsB_f2Bhq2AoGQoHbbs6cL__knWLmXZ2-BoUhgDiMITi3Woeon-4Jw8pVwUlz2NvNIxFi3YVja-EE", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108980441171467099621\">The Yard Hostel Chiang mai</a>"] },
+            { photoReference: "AWCwydht6z9PmjWjghZw-G7FZzadIoC7Skf9EAb-StieMB3ND3dHcUwvGgLRM0JCDr51B7Ihl6ltnObkeIJ2F2KNCprLYS3OHT5BHF_0hRiHNSFT-7QXSE8FGPGts2UjtPaQKbfx1Z-UV6OJKjlIyIy1-WuUSHebi7ihX6TzuOFpC49LSErtkW_rms9wp-1jG_fSgltWaVf4sSL5GViJCIVWOMCHGHTyYsop2PULwQEaulhfPhx_E3cwEM7BTepN5THK0a5_OPl_yV1rBDV4Pn8CYZd415Q5lEnXo5FBjWuw8tVvailYkQoJctDGVZIlhtK2LOmo34jtZDxlgax5nhN8R4O_0Z0UabKI6pbSfMmCOUBCUuOnKUdyXMcxi0FR8oXYVSjQQpLwlXOPtkOI86EIYHqAzu-0Jf-ewiiBRM6RBQpuxu131LKp2pKcTS66jQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112377234141097302969\">Caleb Jacobus</a>"] },
+            { photoReference: "AWCwydhuu7P66p2r0BWxSBJxIacV618NwgfMFZqv4Jo-bd2duM6sssDI1eJVYgbn-fkov2xH-Gv1El1i-L6n21F0pBi9lhRBVp51mqYLhYIqicDik93Gp3oWmEClArOUCYVKckGEme9BWaxDzdrq03fkfvuxuPO9NxEcQQnhic3MDsdXws5tHNKDNZ7PGQaXCFfXv46R2CqG49crTjXAjygaInqt5IZoDBpllLY8muXBecouQ83Iy0LA3jSWXkoVyfLweDxaBMAj0hpvb8EhiVGFGcR9Ozd5wJtLUa9HK0jKNS-T_06Dtlzk7c8uuAdqbUmvktkQN8Njtz6NliUy1Pclrx2NoN6ANJpfkgpj3_ryETSBlNa6oYwjxY2I97TVlXiBGSPKbLhevT3G02jtQOfpdbpYpqSw1n6Ho66rMAImrNXT4o1o", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108980441171467099621\">The Yard Hostel Chiang mai</a>"] },
+            { photoReference: "AWCwydg3O2sb4XyaDt3CBmD4d7rsVxKia7JcOxv2OiH3emgzcb_lQ8Us9SV63Px_kQuzxmNgr9oo9t5aKy34266w5ET0rxv-SNDIpjcF6hMNEbfpC2qW5MQeT1AkpbCKDokxzBj7Njf66weBF7XBe_Uq2ftC-YNBxKqZTooysfmOWJ4_Rg9QFSbBkmTPPHWxzFghOTNKnfYeXP0rgOxEHEOAo-3q0KXqWzK5JmN6gkd-xqHQf4AAulZuP27vsXBnuWxwP96sOXn8pIUYNFyR2r_DnVbry0GGZK8KjDmnUrumRNqiTzDMn3QH_Bct0IhtzoBrHbBeI01zutrD8Ni0Jr_cRrkP4J5zCxzjjjMsSqH48RXchqBSYJRhjCoi2-z21pi8124pYfCC4GW24y4bDDNeDNE8h56dlGPqJQprlUNifDJArQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108980441171467099621\">The Yard Hostel Chiang mai</a>"] },
+            { photoReference: "AWCwydhltu46T3rH0rZ4xhpXVKRXGrAiXnPDd0sUAE_qBVjnN9Pl66yl9rZE70iv_7q9FGJWEOucMgmg8EusDM1z-pxr5DXOmI4rV-t3TVR5giTBdiRD1_QKxoyeV1ru8KVlpJdYtnjwwPT6xVxSJlcOvI6mt1zYtM4aR3Lz9a0-JBcFH51GW1ZFRQRNqQoS7IPhsWb9rD9wHTMWixTfK7w96PfYpWcXQAUbQeBBXWd8gPJ2ip17on5jocE7lOhZPeEw-_OwtHt7y-Icik3QD1XYsKhQlVUKX9dAzN17Mj-3EsXZJIHeXk6j9o3IYbdCnjiKJcTJxDyNSmSL8Lb8jPbZmOYBoJ-z6Kg7Jnuu8x4ym1vzyS-IaTuAhjkXeb4pdIsRvAAmkGn7J1B730dhsmDkZ0sfPEMcCQu6uhdcRncwbzI51AtB", width: 4720, height: 2656, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108980441171467099621\">The Yard Hostel Chiang mai</a>"] }
+        ],
+        summary: "요가 클래스와 맛있는 조식을 즐길 수 있는 치앙마이의 매력적인 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["아름다운 안뜰", "매일 진행되는 요가 프로그램", "친절한 직원 서비스"],
+        tips: ["수제 요거트와 망고 잼 조합을 꼭 드셔보세요", "여성 혼자 여행하는 여행객에게도 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "27, 1 Prapokklao Road Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국" }],
+        location: { landmark: "27, 1 Prapokklao Road Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.theyardhostels.com/cnx", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5040837040186245982", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%95%BC%EB%93%9C+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 캐빈 백패커스 호스텔 & 바": {
+        photos: [],
+        placeId: "ChIJTZLlzLw62jARkESzlZwVCX0",
+        placePhotos: [
+            { photoReference: "AWCwydiDZbiRGb71VhVWFIH-S8LUyyhZrCO8nh2JjUUZo6yP3wnTaJFtmLSG8vfc5P4g4n00JRUTScbHVDWwnKBxFNn_TCF-Pc5o8QKxejwJ47ewl05excj0wl1Vd2OwgyV_Bh1A7p3J_RNx3F1y_As9W30UtOX1hAyMNCREyrOjMNgilu7xJaE7T4xkyIgusXtQxRULHXRMVBJS50661sMuO3_40Wsg7Wvy6vsQteoeAXD_3SueGVfmP5NxHeq5V8RUrhe7cEIzWwwGxmmdBTMpe2DKPtRbgPjyLqHQPcIbKNr0r_OBdMi1QKTRPCpR-b0WAXUQPiiznxBnLVj16GVuvPCc_WIUhDQ4V22wNMn4ebnXdFE-OeAZuBDhwX0dNRE5us11w63WYexCxMAFM11ABhzK9SBvp_Sb5cnk-ioCq_XO3GzjpKsl7xJiGAjNmg", width: 4096, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111504805381542261346\">The Cabin Backpackers Hostel &amp; Bar</a>"] },
+            { photoReference: "AWCwydieJBxuob08TqeD5OMif1-glD11wS6XAFsGmG6FIZz7KvOqEJzUm_WDjgLqy701KtgzSKNyejYssx_WLdBKYx6VxvhRR_Oo5778hOFRLvwn7oz07pDSa2EmNl_1vLMLjD0wtKjm0MuKhKwHeEJyymSHm-V1Jx8c2DNI_PX0V18MLnA-S7B6UpO0Al_Ttt8VALz8HgkbbNyzOSreDuNzyprIUSA-ySr7cKyifIJZdOFh_nFen-toEloG44JEcSsRiX7LDzvO0rL2ZYBrisEzsJmLE3WjoB-Vb12NjuKQ_K6nD5W81QxpMFwpD9eYYdD2yZ7NxoQpJaoVEg-1CxshnYAtR1IPyvjvEZ518FbRoN_YT_4__ewkkU-zAOX5ftZy1q-33B5qiv7mM2ffUw3GRgLjT-QR8zfyPRo_-Zj7Js8", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111504805381542261346\">The Cabin Backpackers Hostel &amp; Bar</a>"] },
+            { photoReference: "AWCwydh3HJPRLj3o85aSH7v8GHFWnkcAgYzWnXlv8VD2I5KvtGT8ZC0kS0AFjOAteSXeD6-cBnRFhgpCci7TiEkLKhbCa44bAteXu73Z_Ekfeo87e2Hjtr2Hj1BbKyPLNBRel54pjZwU9sGCDc-QFqY6kAnPL2nGryGynoFfCjvZgoauaCbbXrp5mLrrxftIiEytHvP4Ryf7_a7Q-futwBe4l5JMVpWLkE9FmU5Mm2-dwh4WVqKjHDz18hRZ1QgZnYUf5CZZmAgPgxaDacQdj5ogYWegC51LrxjzLLKE3jEUdoegT8b94P25nIMgkCRlD-_2eSlX-xYTXI-CYEUgRzi7DBOha8RAnOKAfKB63trDPXuQLydEB0JDzz0pm-NiQhfIjd90Pj7qhfQe8riC60_JMomzRFZaVFfs6ualcwD22J4", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111504805381542261346\">The Cabin Backpackers Hostel &amp; Bar</a>"] },
+            { photoReference: "AWCwydjS8IJLlSM_Z-1F6An0w59n2FemCkIefCMtRPlnPrGXjCNyqikrgEBXHpkbnpTNXmve6agYa8FXniM6CzlXgHqgEJaBEVeCEiKZrf3iTStHTwLvEJsbREszhdMG3FOdXE9hHKvV4WjUIwkFTd9_ODZiiLZ1KWIwrEy1gdax4VVd-c9rGdwpcfHDS1Py2lIomBdX4G9ilYVOxhq4W8oNiI-YAzTliDvKSJcqlU2hv9DNy-zm4AWtX7Kr5lMCCstP8iZ7sqyC_3QjWD59Z_NYGu0zQjDdnus266T4UJD1Lsiqta9w2FNpGT_ytjEJwiEIZErXCdSOkwOMk_G8jK9UmFEUMbxNiSK6_xPfKP_glLM3-YNDTecHeO2CbjEFF2p6Tn41XGRRk83HmyDpBrG78o-MThoz4quG6pnIkrn8kVHRhFbS", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111504805381542261346\">The Cabin Backpackers Hostel &amp; Bar</a>"] },
+            { photoReference: "AWCwydhDt8IRgOJzzBDuR8aXXE22Fr3UkdRN4wUQ2MAVpTGgghHcR0xrOG-TB7ZiZ0x4sACOpqW2EfjtN32Hv2xVzRLi5oC_FQrN6Ek7kk_GLhiMGRZpbY-qTfdNhBcItSbk16h5jFaVdCYULUmYfGhPWwmUY4rIYAnpbRbjPjVYdVsASMdFUJcVMFPGyOOneuyJAzwAPIkYWrw9CoGOAeDQr6nm2q0Ad9LMn8GIuTbVTBn0JSD8uaR6MzVAv9DK0eRfZDLCDi-JUGBinAAWItLfVGutz5Shh-OVSeLdhcBQm1yHuRnLrjCLCNdIBvV925PRePN5cU6-Gvm1A_dZ9wncOVeWXGYVrF2noHlc1NnS8QJaRapYj_Vi_EzRZCyRzYpzyfg_zb-QkmYbhPhov7C0lLTtBnaE2eawD2hbl2kWSVcT30sbRvsnzaU3JDoOFtMV", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111504805381542261346\">The Cabin Backpackers Hostel &amp; Bar</a>"] }
+        ],
+        summary: "청결한 객실과 친절한 직원 덕분에 장기 투숙객에게도 만족도가 높은 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 깨끗한 객실", "객실 내 개별 화장실 및 샤워실 완비", "직원들의 친절하고 훌륭한 서비스"],
+        tips: ["장기 투숙 시 더욱 만족스러운 경험을 할 수 있습니다", "음향 시설과 휴식 공간이 잘 갖춰져 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1, 15 Chaiyapoom Soi 1, Tambon Si Phum, Muang, Chang Wat Chiang Mai 50300 태국" }],
+        location: { landmark: "1, 15 Chaiyapoom Soi 1, Tambon Si Phum, Muang, Chang Wat Chiang Mai 50300 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.thecabinbackpackershostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9009756291802023056", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%BA%90%EB%B9%88+%EB%B0%B1%ED%8C%A8%EC%BB%A4%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%26+%EB%B0%94+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그린 슬립 호스텔": {
+        photos: [],
+        placeId: "ChIJIeSb25s62jARqk8jiQEMsBI",
+        placePhotos: [
+            { photoReference: "AWCwydic0Thcl7NtEnm-AnrP--M5IvlffuL1S3gK1TVJGBLNZ3qNgqWTsqE_SDeaVliLJs7UycDV10ipbIDV0H3c_d0QxlaJFZXGkWlZ6NM3H8eLzIM9jB0rVDSP1b7DDXJ7dcYjqj-o_OZ8-jcwgbBCyigbwMSXHOHpKaDHHLU4vKKtmH2z3z_87ndwCD2lMolPKaYlle_ZxFpWJVUynPNgjK9YQXzrNw31beFR_iSI3UiQ68yTa2JQvrDKG3zXN7uRW4VTR533fBoNYUrcKsSa4BxfeOajjXT47n6yNAFVsThO6Szg9lHLCcMTt966xwyV_E2Mgua86uCgHoLkWNXpNxP3PMl4CJmf7H7s9YZ25N_YMZtt0H0DdxvyCshX_9OYKGK2MP4w3j4svYUwhirYmAKlkYmaAmAN1OMDzMHS9RS2s9-g", width: 1440, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222116090957149133\">Green Sleep Hostel</a>"] },
+            { photoReference: "AWCwydghlytefIei1DGQ8y721LNLA3Q6xPJMPMmdmoZ5rBcfxqvj6cmWFZNxRieGhDErQR5JDMJ7rzwzdkoD7EmNR_O-9Lf4JptpjA4aLFzgZOjc1gtHkLeUKvrdmUrMEQHJzgoanxi6kTWG1XuRpdRVPmYpIkD_Wd3xV2O13vsNWGBDdOwxAX3j9NzLmqTt05OA0yYeoRr9m7qBQg_P2OIcG3SVq0hXx2Ko14nOnwS0MLGgTmjToDQWAfGcUzPLSK3tZUMuNT1j5mFgw3xX9ZGe60RMQvNIIqkz5efStcMmM4hwgiDX6a6UafBGHxN7liMpjG4V7S2HnNfBEMV9p0p6ZmsTaOQUjrHr5nk2DlaW7sAb8QermtORcN0_0R2cTmAJDMwNLWuwZ72XtMD7u3pqLsVXIBcl5xdKFJmQFFvM_7lxHOC2", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222116090957149133\">Green Sleep Hostel</a>"] },
+            { photoReference: "AWCwydiCk2dX2KrH3Nfno4SzoO3BWegZwdZPnBdVjzTBzJXGC-5Q2G8dJa-1kBB2905h9IehBFRlWq3XsNf1eKaRF-WBab_9qpTk7R7bLHmT_wtbmKxXkYmZDBTa6NU3swaW3OY73XFvz6HlvmrSbEKiZAGqPqfUoEex5kNoj1yIlSCTl2IfL7wHiUCnko9zF_Jb0Ec7LbS58pJEgNdnCcoi1TbTlN2t4PYh4S8bDF0Xv68sch0oa9pH1bqiloaub5BxulE5KxAUvGJz9NZP39ZBWiCom1tbuwxdclnPCxClz4GobsRMBtOc9u3l5OhI5HlDyGopZbpvcCcIF0BND_ir63RXOTHmwF5CZbbPojKhrAEIXqFU4ZHMPTyb91kw6o9l1sSCxWCEvOmu8jDU3nSExdz0xYLjEzVyFe986aWqkdg", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222116090957149133\">Green Sleep Hostel</a>"] },
+            { photoReference: "AWCwydj8xhtnwwEuKFEFcKZj52-vlADsw2t-mWalKg7JD6FMQtRVySTwo0_hUFWK5uNBwNk1-8pYFUnguOjD5V7mTSRii1dF1RjMzT7WSYdk3kRB5LV-NWkp2Xuc4VVpcTMLgXtKBOT-NFm5gsqwSnhuVlRBvgToMchOa0irZCZgILlUIjbxfAq2LTO0QNrX08Nsl41KOpRZSDIFOTuWPMHAJqnwZ60uPXd9GUsHVXf6JR2UzDShVzHdpIhFBnx1Mmja302AdibfCRYGkPrIxEsIIK0rIRNisXFk6PibTAy_FwsOOF3iuVVG0H8IU2B38dmwnbOwMlHaFEHvveGZJLbGD1t2D14r1EG5zeMERFHZQNF6zvvSlm9fTL6x32JuS5eTOD1a3UAlXoXRi13oGmyUqz-MWsWCBX_P6HPcbPzSpMBzPg", width: 1286, height: 964, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222116090957149133\">Green Sleep Hostel</a>"] },
+            { photoReference: "AWCwydgRAwbkBs_aTNEbEMUJaP2atVoCAQA_zHPnN2_7blG2xChx3rAtvMV2eFUDsXKpN4ZtL6zAV5GTuZztDWvkLV8A6kna_7qvJfiu8wriJ2Hi57b2nCrP-iuFPuoGv3JqL29ah-qWz_jXKVCPwvHD0Pg6Rm5NE7nn0aNfolKsfwhhIbl9gyCOb4IUzt6-MU08yZlt5fHfh7Rw3SMvhwkBr15JNdTse1b27u1-JAvA0eojbyz2UTQmiradRzB9mzieiXEOknkI1BCZjln8NUQi-O2JSZSCf21jZQP_Z1dRLqWbDyzlRtzOBPFfOBm77qs6FpNgPbgp-IF21RU4jfupbPRQ7iAX4jUvjvFiGgXiqbmVTdPLQ-oL1zNqHxsZfmG2LFXXqTJwjbE-DtoQVlO5THcenhXV_uSYdx00AkDKeAczF0HQ", width: 1198, height: 1672, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222116090957149133\">Green Sleep Hostel</a>"] }
+        ],
+        summary: "치앙마이에서 저렴하면서도 최고의 편안함과 서비스를 경험할 수 있는 추천 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 쾌적한 객실", "친절하고 세심한 직원 서비스", "치앙마이 중심가 위치"],
+        tips: ["리셉션 직원의 세심한 도움을 받을 수 있습니다", "장기 투숙 시에도 매우 편안합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "5/10 Soi 7, ถนน ราชดำเนิน Old City ตำบลศรีภูมิ Muang, เชียงใหม่ 50200 태국" }],
+        location: { landmark: "5/10 Soi 7, ถนน ราชดำเนิน Old City ตำบลศรีภูมิ Muang, เชียงใหม่ 50200 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.greensleephostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1346589489319071658", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%B0+%EC%8A%AC%EB%A6%BD+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

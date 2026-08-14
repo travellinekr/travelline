@@ -357,6 +357,376 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EB%82%98%ED%85%94%EB%9D%BC+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%95%A4+%EC%83%9D%EC%B6%94%EC%96%B4%EB%A6%AC+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "보홀 트로픽스 리조트": {
+        photos: [],
+        placeId: "ChIJW5bl6lNMqjMRgfy8phcSPPU",
+        placePhotos: [
+            { photoReference: "AWCwydizMHk0HlXPHPzBn3FWI2TyZJCOGJ9pZMww45QU2ZCS_qPXVlKJ9iXHrrY1kkj_biRJzw1BZh4C7m8VNp10Y9hcugDdDY9hMEdmYnvXx265wMR_eR2R3M5mqy6-C1-xCe_kF40nfDnyGirRZtvLf5J2QTXc1Z1gr5dQD9wXsK6ui63i-cNYm3Zq2Usbtr4_fnY32WKCRBff1lTJVuYgwsuc3Mrasqqs2qFDFvKhGDLZMsh9vhkzJX1yj8nUBUFO3rgZjfSouPvgVeKDl6gLbToEArlvlG3v1x0ewzQezlXz0Lz1q951YxAvp2qzUxtGz7Qpq6ttMmTL9bkiQPFGEtyMl9u4h7HZX_ydbmMBiKN9Oge5Sc2rT4_VCitErN9dtejKimbDtyT0zZ8y3ZH6juN5BQ9leJINWtGXLbIRTg5wwcoX-YjN3XlUICDk8ylc", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110423815106663353646\">Maricel Tan</a>"] },
+            { photoReference: "AWCwydj9i94W965x7D5UeIBb1dbCFrVElVKe18eVkbklZI9InVHQ2APfWtL1sEyguXfb1cuekETvO3peJwNukI_iF7j7TKbei6RLUk0eQ288ztvpMyNgSuO950UoFGCsi_L12n59kXpp6mnuioUkyGmMhM1-x8bmeg-qjWyIuN0tSyuZiQcTTchp4OIWrYjf8FEJnjf0EJqJouPkqMdaqPbFNcLlHg75FwSNr9cIP1h3tP6XAXV0tWSFI_DfwVjvYIZlQf0z2Zd_mUhIGcv-80HB1-XU7RipcDPKZ3tdNPCn5RfraqteffTJ7ECcHefKHStR-i8Bb5bL8JjlcN13r4xeIN_OY0PIVhYPMGqb4RHp1bwpfFo9RJbx6jHbtg5Qv9x1turg0Oe4aDT5DsWwEmLgG7ViDCEE3ynKwzcy1xlQiCqLYpY0", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100043845963006242082\">360 Tour Philippines</a>"] },
+            { photoReference: "AWCwydhMVjXwZVmaPVRDIeRo28ISHnPyhekO6M1tNcqR8sxuirvumHrjbXlfwrZEFVY8PXkrtXCUVoPdSsdfAC2urQVH0vbrHOTlAF79dqsDQ1gzY6IIbMZERDsCOPAkmfkjWA-1oRxousj88XO54c09GjDaNIXvkdTFTlDTPJ4f6a3xPAfY1P6o0_v76w_N3SWRANDg-5V-vST-qwYM02YovKF2AVTCSCbSB_O_KXi-HlkmAX9MmgGgigOIF7c8HHAlz5xki_q3oNJ_P_HNOgHQ7Q3DLPPVxMOSQ9Jz88t0Q7CpkFkoVnO4oDaeGrmbHr6-DeGQ627NFmaugOXRooRm1J6Nkux-VEFIGC9eKyo7URaaBrGyGxqEps0-d0-KnJD9X90D1vEJ1-wIXx-m3X_oJJgAzwQ95vgLiMXJBoTnxqd2uRgC_NlAH0xZY0daSML8", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108438222400346467152\">Andreas Lenz</a>"] },
+            { photoReference: "AWCwydhKTJDzXItIfJ4zTRma1MblMu58A3IWIHp5xhAr7IgEMBiHQOjl-x6lzLBvgBtRA96iHjMEnjZbMkeV0kFHr5vR5NtpRhlj01lPFtqoA2KnDT1SrQPjLMWq-8nKGSmLXDDU8tZPpc49OvzF9B1QBRBBVBD8Yr4tEBjy58vmpDdN7eCFGJhG1oGEreVTgNSkbRrTyHDdLYdgjX2xT6QlR61cSKLLPiAoLENZZzYlXE6jDfJv3ztbH9n4BQcmYB4sVERO83vtVx2FyUUtmlUaN53FsgQ_bMNprs58cqboKqRJjxeHM1SAZWICeMqW04Be5Q5B3Gg77vCk_JDeLuDsr95jip0BA7NmY1G2rH4fo1i8wH-qNOIN1JyD2AuamhfVYC7td1HuBeU-00Odfy__k58MGHetrt5gmBDcSda7MeaK4y1U", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104129971827745292849\">John Patrick Esquejo</a>"] },
+            { photoReference: "AWCwydj8r9w-rAFuEtFM0RrrT8Fe_eky-zJNr6MqlGIqBOppceDA4_Ixp01740B7jC3ad1_XAtlirDs85BNrE5LUunKOW7I6FZFrV6TnFAiy5QdkfhnPOyUkFCJ68gThpB1j7XLSeILbAgNQDX9iZ7r6B4xrxXtOj9652EaeTZu5mkpnOeI8SYARoatC3vQ3b-YsSSKnSvKwtx3e8V6jCqxx51o56VXyCmhxzKiAZPh9p8pRuSV4V2RRgMmh6NXV3CpNEiTYBEenQB69Z_Ww6JTXYc1jk7_NTuNkFQkMo_LT8v5SgdRZ3eUKeSMHSjquYot_G-SrvVVfE82ZSA1oX2WbF-TGusc3gRpxJB8EvrgvwdtwMoFeuGkaWLpJD_xR0XisN0XoU9i36UpSbkWwHgSiajRHQzrrwo9az5K-GDnlk2XSAA", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104175184235035224102\">Melvin Salinasal</a>"] }
+        ],
+        summary: "좋은 위치와 친절한 서비스가 돋보이는 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 직원", "편리한 위치", "괜찮은 조식"],
+        tips: ["객실 내 욕실 상태를 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Graham Ave, Tagbilaran City, Bohol, 필리핀" }],
+        location: { landmark: "Graham Ave, Tagbilaran City, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17671018930685934721", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%99%80+%ED%8A%B8%EB%A1%9C%ED%94%BD%EC%8A%A4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보홀 에코텔": {
+        photos: [],
+        placeId: "ChIJydN2S-tNqjMRvMBwOA4gV9E",
+        placePhotos: [
+            { photoReference: "AWCwydjfn_eNwMENiPuZNe2CiZdHG7IEnj7Qaak6J0epl0Ry6VcPwB42jsUw78KwbTIXb3Vmp47LFnS4z5KmEdMFsU00z4XaVRY0TPzE3q25Asgqp4W6BrkKvc_bR4DIKwEXGONmCdyCPkircHbgzzYCM4e6oreVnzZWsBRuIUwfozgp1sCkBBXh07XCS9AzNeski5uFt_p-cFDZWyHOurphraANugDmbipa3mKwLtnbD66amfSBCzJUmUcLmr5Gcc5EaLdw8GzHNPdAWG55y8GukjgO5drh1J-KoUmXcVTK1zRdm08ZkSVvPlrXJcfKRg10yDdOyWO93IcOuPKbATy7H7VgCCwIq6UiUJO5JXS_R_Yr-b_wlAoupUUMU_sg4QW1bzCJ2RWICtLCXuw_bNgx_HGsVpwPLXdJCD2aI5VmurHVUQ", width: 960, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111706790662647721982\">Bohol Ecotel</a>"] },
+            { photoReference: "AWCwydiH-PhPDer2fUa6MUaFBg6_ujMy9Z6Wxo9m_zmvHvaW1tnxq7vDjBYgy4059uXKF2faleDVc3dcb63zCbH7Bfg1f6LB-4jTpYHGr_SiWecm8y3X0vUv_NJvKit-vj1tNRypG0u4ef2NEPvP1ajv5cANnsQMm9_I1tHBWBgTqk_pEl1nbheglNo92Pk9FngoJF9PpcrEm4bLZWBvF1EqlilpCmruGaPj0thLFTI-DuQqKvcFQlWvQX7LpKZ9z1egpSfrF1nNfY0YfySi9OZVciYaO2lvgUcz7rqq8Y2NHZAgSsacuovXGe_uZ1u6BMcWgMdF5EN6ucbvif4z53YrsNUQXXyhDJFAok_E_2TrYEtLH7fPS8UWKigxXx_-tuZ4lCpQ_2zNCHT-CPzxjbtpC8W0LLHy7skGqYoAxiaQMg-pwA", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111706790662647721982\">Bohol Ecotel</a>"] },
+            { photoReference: "AWCwydghDeAMFqr7PaLAzig-LX_hmN_aYIDN8OLCeL9ELWhGalwBMcEKl05V4LxE6clKTQn9dYb8SqCPLzNBXqX2THvJr4HJUYOF576yE4dQ3aO-9mKeWX4blmsSYgrx888UqA7DXt0XwgrblvOZwJ1mmyLkDntiwXPa2SDpeTF0crQsOFqgaYpTcYKjonjqYXdqQ7oo1y46Rd-zBnzf1jXIe9S1PELYtItyG9Q1JvuwY0evTuw7KuytdN9GQFrq-P1dNbB8TUB7UAG69PLwdolXLOJte6ZVwyHXRK8GbZvOrLhl4D4cs1YVaVJkP_ODJHc0NUp69_SFXWj_OmQG_mNCEG_W5Gy046Yu7x-4PuoCwjm-7yuskWBs5uMVdAsAeCcCtlZKWYJwcGko9x05gN7E_C3gmTzfkxd5xkeE3yuEoOag1Q", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111706790662647721982\">Bohol Ecotel</a>"] },
+            { photoReference: "AWCwydhYM8P6IIRcgQzfbKhRKx57J6IGfXKM7dwYwMKctWCEb6Ta7vxgNxc1EiaSgh3eJ596PYNNADCyZ5LaVQBGDD5AgytEP2yIWvbVFIkXHijth-oxFelJDxefq7hvT_-kIE_0tSxP5u5oGAIt3nUXhCsh_sZIWdobiXhZi0dvzlURTbaua22P1IsdxlQ0RSurMqFdxaacpyiVgCPCQDG5bWLmJJbI9Ak0NXl9GwxKEt1Q4hKh_FxJy6DxaZwqION4QWG1EbVFnfaA6nRkP2GuO9aolHBJkiBQdVlCKXHgKpwF2EYgKNYuyuWeZXRf6NdGc8qSUF7qT9T4KSTsYzAtWjCzUa4CZ-jTQ-wkd9YwfV22s-Ty19z8-ypJqT_Ts3PvIYqgNyEk47m7L5S27u-9RTrsn92vGcUSeO8f-1iIiJs", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111706790662647721982\">Bohol Ecotel</a>"] },
+            { photoReference: "AWCwydgDFiBKok2VpRI9MKuI8cR95Xl0AjCzRLHJ0T4mNBLbZlI3CpUZVRST3_WGw7ETBmOtjRAbrCtfsxGMRdHp7I0-p6TAMp4Bewn6z-zqPC6-jLxAHFQx3lL6AvVLk-JGkwnYEQJZxhSjIaNeFv02zI2EmKm5uADKNWp2-hgDQGPv6DBIWKiIRwwR9tkMgPWx35GveoRf8GwzaNCK_ZgulkM3qL4aDdxwo8N9r9eE0vdTIPV0kLlTKz00aoxAOLy4LZyoLLot9Q9QQcCUmW_G-esq5TsCBKBL3-dHhyuH-1yjVbtE-QGWGI5DKyFFJEDpwbqvzWOIyJVgVJCxGv9BynAf0iFxpbDuxkV90TqskWV9ttSFlyJeU9eyO00TYeu_5zcMF7c2rmIiT2WHV0wRguek94QcRVvk3FKU6zYt1sgIvYXv", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111706790662647721982\">Bohol Ecotel</a>"] }
+        ],
+        summary: "친절한 서비스와 안전하고 평온한 환경을 제공하는 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 직원", "평화로운 주변 환경", "현지 이동 팁 제공"],
+        tips: ["직원에게 툭툭 배차 앱 정보를 문의해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Hontanosas St, Extension, Tagbilaran City, 6300 Bohol, 필리핀" }],
+        location: { landmark: "Hontanosas St, Extension, Tagbilaran City, 6300 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.boholecotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15084560722349310140", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%99%80+%EC%97%90%EC%BD%94%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "GV 호텔 타그빌라란": {
+        photos: [],
+        placeId: "ChIJ01x5pbNNqjMRteQnJWodRNE",
+        placePhotos: [
+            { photoReference: "AWCwydjlOe9MVgUo5HBqrmURePRSQqdJHhqofPsU5UzQGovpi5LnBInL35nTahxl8kz1xsbF832wuKDLEs5Y5sicRkz-2UQdAuC_jafUQp7az8yxjzUnqbxJqDejUCAw-NdvHGLvzOYHTlNjs6OCtJ63Z8XZaB7lfURBEEGBatph8beWM2LNZE7_o22nZLRtMkoLZAf1436Zy7tGudoCRArWiLRMd6kWZtwVnOp0vflJYsrCqkZbJMwJ51DUpXwld8JG5r0bSQ9Oqi5ss4oTSLohArixsrhuOYvJqtA1aaKdQzySDKtLTVRQ7VkQiDf1KXObFBd0A4sxDKEe6EMeBW0Jw-NmBWB2VbMlPQ-auV8rbpYc1P416RO8zevxrY1P7uG09bLaDrtZbBEK5oPHSewAogbgZSFag-lw7WnLDush1QSofsEOOQg9skMAiZDjfg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112489447350542989510\">Mary Deee</a>"] },
+            { photoReference: "AWCwydgp8yHvqkPx4r0I5jCdWhe5yER2HUnspB7jMmqftnewl3uILL2W5sosZvBfAvf5Ks4bCuCIMiq8LMsSTsglGYfnv5T9hxN8H6sPhe1hCzAFUUUAifKQ5JtTcvc3iybkPhm6Mn0slI3TI8QMdo0rUcMEpRmx_Ht98liXcISChawOgOUeqcQrmwoSZ5Z0TVyu1pVnA2xUDGMvfcqiHLRgTSY8pnw9eKjoWfPbDViYptV9mq7IUqt5egp6PeIqGHKoxN7NTUHqVxGijTTlLmJtis1h9CUKf4Y2WIaa_tVDXfOwp4dvZQgXVF_JEnCiVPXEBn7jBDE0SlI3uDjUmQ4GGVAe-4IGJgZ68HoxPln4rBHGw3IiIAaBoWz4uYaxOf1yI1k4UjkxGmRHaWhbv3268oj_Amm_FdVcFVaUBdcB_pQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116098684394422967578\">chihwei</a>"] },
+            { photoReference: "AWCwydiptcSY6PuVw2MsIc8jSOLs9l9YvdDspEG2x6b-q3W3kjMd-kc_Zv_1fFBKtQMZHF6uaBTPmNl3yixx_5P3bUTrtJDkEVKpwzTBcedNTxoiuwnx3yhFHhYx6o-8n-ofNmR91yqbUrML2wwz0jkL714NDjK2Tv7zJ2-k0aj6B1-vb-jSAC6O_aLH38FF0zjnlso0RGP-OH2T2U3BdBxgDRI4W7kfEzUG2_9FqhxNJKwSg3DU7BBgZA1atmdegOHDrXVGzsY19C_8DMGa1YHgoOjkRjuLrSXjqKhD5Aw6qEQavLhC3YH7utlrAOClh1HbTXZnS7LYUAQUpnwJmMxOVvAxtYUl52AxJrczIVlAA5V2HLCVH_xxcKNfKMqEb7Zg_q5LIpifWzulcKG4uZhKfo2EkJKOtSxSMqa27bFBwT7DLg", width: 2048, height: 755, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109281314587877581264\">GV Hotel Tagbilaran</a>"] },
+            { photoReference: "AWCwydh5d6fC1YG13ziu1s8GX6cB6ebgu5jYfcRWmCIvaFQ-N_ga6mFZA4yjDCLsIVsbNOe7zs2Fn0-P517hxwZXC-Tef_vfxCf0lLonGvhaVOOKWa1EZStkvLMKqL0gg0_J57ICO2YnGtSZmupKC4W0VgWItdRN5JLcnmKYol3cf8fBAQGARp-mQhQ7GpX5Zu95HMIrYAD-PTwYTFTm1C_L-YapFgdnTKjLt-AOEyhWUgCzDhObGZbrot5qPvNDfdUv0BUZWLsRHG9fU4W2e3fKMvSd7uDWe_b45gO0U-rVxRlZH6hOx6e90B1_xHrCxIMSzScZJh2PdQ6t59Zb32jGBPOYXECNPK2ViUIrV_ivgYPSw2Ty9pSdunabp4MpJKSy5zR2pUMPbg0ZZUztfqdb8tqvTfrF0j9dfupi0xj1ahcxyds", width: 851, height: 315, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109281314587877581264\">GV Hotel Tagbilaran</a>"] },
+            { photoReference: "AWCwydg20OdiINUHXcF_3au7prSCbjowtjb-vYMHOQSaie4Mg5Q8ymlzjthlLyHETBMOQNzdm9gU16uGBjoOapDdfvFb4OsvEnjABT3LlYQKt1hAnTOkJFiFwj1zySWmaHPCwrouYbXfMQ4qYFCBOCWBZBkHfNRCzRPUOOlkmEXOrr4nlSZY7RxFXHYUYhrulfCmWfTcvbOsUdPxqf3F7vTkN3UgH9MMg8b5Q4Y0ZxWfy0ZyfSfae_sfJEGKH2VehLzc1m3j76tgkcaYezAIdCcdb51YCUatLF2sFJsDc8WqoenR5PhYpm1ABB9UDb72CbiHLsnKF-7cKZVXHnlsDlhliPRQYVh66T9OTdbgVHZGrk22KMAKCMKCUgSMZ0JfVJ1vS6HENf6tsPgKNGp7zoFmRyUN5oJSisx_Dvb7jSAr14QKv9DZ5cXRAEZhvUIiaFNf", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114725468725519169937\">JUHYUNG YOON</a>"] }
+        ],
+        summary: "Tagbilaran City의 편리한 위치를 자랑하는 24시간 운영 호텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["Tagbilaran City 위치", "24시간 영업"],
+        tips: ["연중무휴로 언제든 이용 가능합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "J. Borja St., Tagbilaran City, 6300 Bohol, 필리핀" }],
+        location: { landmark: "J. Borja St., Tagbilaran City, 6300 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.gvhotels.com.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15079209794070373557", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=GV+%ED%98%B8%ED%85%94+%ED%83%80%EA%B7%B8%EB%B9%8C%EB%9D%BC%EB%9E%80+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "매직 오션 다이브 리조트": {
+        photos: [],
+        placeId: "ChIJf3VHCWOgADMRPSwVbiNJPv8",
+        placePhotos: [
+            { photoReference: "AWCwydisK9w1wRdICdRVR5O26-i4-Jzb-EplMyVszxSLTqMWyAvLUk6E_SR6uVFLY3v-uH_BKnl0W2TKp_2iemuMv-14iJqJNDbXaGV-AGCSZ8kGuPCkBZ_qYTzI_F7SYz0hAPtNPkutS9NrP4GbjJp7EHkZY-w_EBV2heVEQzhWvFHxeJgLY-g2RSdJFjU6GN4g_foCKrup6lEUUQIpCaeWkF-v8RtKHBM8QyA9la0OQtPVYBC4gmYDmjNKnlEeax1d4Ew2XFpGmw4xcDWumoFd8RB4nXVAJFf4QNPFTEk0OPsJ10sd19IyHU8I2dCj2FBa7qV_Oawz__FD4wrWn0RhL95-I3_ZdP3j7L5Y8RajBqrHUrPc425eYjJdFoG3epvfKljLa75__EjEQbIRhbDGkmd_-BTaNwru9qCEsyG_noLRBoc", width: 1999, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110981140296380110559\">Magic Oceans Dive Resort</a>"] },
+            { photoReference: "AWCwydihbqFv7zTOp8UHJBE7VbtwC_bNqR55_10bpWkvIJBI7DZqfE9WtsUJNHUG8HOi4frv6GAmjgp7Ec6zxJdLqyee-I5qTOougUEKhci8i7GW7X5WPTiXCjuS1vuwqYt1h9k3B8lU16CfRm10NA6TXfdkxid1HB8qlpKnMtvPEAx8IEZJacJfkEYZ422vpaH4AhWnkclUJ8uFrXu0FWtFo_PUNUNdWiJ5xLBihdTQ61l59vCQCaBfkP1FN_8y0Fls0yP2dlgHgLDdBiRsieYVM7TDx68tqZ_EpaMeo__a3gWXqA-xehPuMmxH0FmZXLeyHcTCiaWhX8BB4J_dvGXQqu38c-ZbUdgxoV6OgGZtLkphBfXolkPw0XAVpqaCNdxxT5KUbwloQsgcCdt9UmbYCA4pLKY4DVuLCtU1tvEDNi5_eQ", width: 1999, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110981140296380110559\">Magic Oceans Dive Resort</a>"] },
+            { photoReference: "AWCwydh0j4vAyU9nP5MYOPp8nE2AOYdLF2iHQS2RJtZh8wyyWid10mfpkYCjXDbOEUBI64CMP5ercIyaUyFyuJHKLxGYLAm1jljI-NCXOa8II_9zfNQ7LbWvxSVGHVu3xpzPvZwH7barAXFn7FSyg-I7AdxqfvL6yGcINUTiUxv2VutfXA5KcnzswDywUDp60ii3tWIJnXbO3xsO_i5advsPxJ68u5vjAWC61QMUZkcAyZJpyI9afWaI2k9tpeKLLA7qjbXCZwycrZW1IWvBUmZaHSI_PYDwuGwrxyMorSaUPHTQ6zg4y_R52soQYzoxNRCghRLg0SP-iKpEpdLxzIJWqIdC8sj6sJP15UwvjcfjBSgmsOuBAoaYy-gVMBFYa5neAEun3b-AncuyFSMvWvxVXtjfanrAWua0CVfJqVkgpGQ", width: 1999, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110981140296380110559\">Magic Oceans Dive Resort</a>"] },
+            { photoReference: "AWCwydjQrQAajm7_QPAQrd-idEYCjj37B8CADku3xWCirJINsCDbcwJR_EIGGbtoyjlBq8q8fNON0-JWPZM04ax_w1IpVu-KTKZDOVoIYNqW8eBWRvDgCjO95XT1OIykN2CW4kBMsSO_c8MyefHicP-g4AefEnJjxleZxv6FYfxk9CtSKmJpWr93KSaFBrMJzv5JRdstJnKeOtWMNVt50bcf3pIwinD7I0Kg16MQHB9uAEj2MV-3EOLboEO5ijQlKPpdh-DL-mlfZgqJJxHU0uS9FR9eN6sUx17Y9T6fb520WngACvW6nR9FCM6t8TcgVm-63P1RaytVMdD1e3BwgOau_mYG45o6Ib0esUx7veEAmI1DGMXVkgHegBnYoauQ2rXxZ9R7RWMfAp0MfjekkCUMd1gmNCBcGF_HYMuQq1JCOuUQfQ", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110981140296380110559\">Magic Oceans Dive Resort</a>"] },
+            { photoReference: "AWCwydjt-S9XNHehLTgBaXFOB3OTHWA7fQ5VxI72R1NmBBcPzCyUA9MzvsVEKfxrcPTy6c5x9lszo1fTd2g1Pimg8_WLbQXD8a1z_ONsNGPTgxtTVWm8kNeVoEVK5BPuU1jOnPmPUUR3z5tEhC7QU__NlL2BYkJpcP8EvJXcC5Ql8ECVqL-F3cDYpI-_2-WFEzItYBLP4ifB0a0zkt8NUiJv653Un5J1qnNtUY1hjG7heRCT0ksmEwCPcOP4_KS5zNgvhnzJkj3mHJfRA-ecgcoXqRtQz2CBzcb32Abi2XeTbyqnCj0cBKF4d1Dvb7y1nTCLs-becVAp7WXAcu6gR6Lft_ahzbmzYPriNmQSUgAONPweiTjBKK_EPZZJ-7haGupwYtt3EA_j7neGUFrQJNGL2igQHkdsOr0eiot-DDF87vT2aCw", width: 588, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110981140296380110559\">Magic Oceans Dive Resort</a>"] }
+        ],
+        summary: "목가적인 자연 경관 속에서 최고의 다이빙 경험을 선사하는 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 유능한 직원", "편안한 방갈로", "목가적인 자연 경관", "철저한 다이빙 안전 관리"],
+        tips: ["다이빙 휴식을 위해 방문하는 것을 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Ipo, Candabong, Anda, 6311 Bohol, 필리핀" }],
+        location: { landmark: "Ipo, Candabong, Anda, 6311 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://magicoceans.online/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18392218344747248701", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A4%EC%A7%81+%EC%98%A4%EC%85%98+%EB%8B%A4%EC%9D%B4%EB%B8%8C+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보홀 사우스 비치 호텔": {
+        photos: [],
+        placeId: "ChIJ5eF0uYGsqzMR1p_-FAnTPAE",
+        placePhotos: [
+            { photoReference: "AWCwydix51vBWNt14qOSBzOst9PvUMCJpc0jPK-35UfGQ_MqWZ3vTLxhgMwk0bFQaid67Haf1Itcxnk170BkSCVfUPesnP4Mi7JHNaG9oaIctaT-owv_vTh3xsE0Aja1p4I_3QcCpGGnhoWOoKKz0MddKKsswM4zMp_zWPhwPFi2Wl4bq-p6mf20npUKXqCbCB23Nq55dqtx-K08tcrPg5vMzZLhF-7f5yMT7xz-VVqeieyEWWDsHVACKr9EAyx4mDsXUhU2r-Yu2iUA9b3vMy9SqvGcJMvdVCsFTeUD_w-xbpeo_I5hq89T0aLeGFbv_z4PjGyJEBuZOv2iSTL5wTZzmJYp2cyYwtfItr2wxyNEsi_9jPZz_R7d_sTB-3HdoWIwSIe1FOdS4f3aPWskwMoj7hUvVDeDOCr9UPNFYSIEpCAFFcjJ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114135141881564770645\">Bohol South Beach Hotel</a>"] },
+            { photoReference: "AWCwydgm_w--Rmav79ErrjQTbo_6cM0_Dp60eQcMIC-zRQvqykGfi3Y-LXLerD-KtNBikC5HLEXmv2dwv2OoQVY9Ni5CtxmneC2aSSLMBPWIP3eD4gCmtfxzg8N9hjIJ91UUGm_m5Y9-reejE9EetZxo20b1beAfFP63PFfl9ZPEdAoGoJHp-y8JImZ6hYPe4rW4LbYPpGCKySQT4WJN4KcesbmwxGZIjuhZiDZehPkGsL6XJo-lgqvxq5N6k1feDOrMnDpqkZp7JlIiB3sEiKg8rqh4vSo6zY3a4ZFII6951DMw_YYIte7r2pl5qMtXiBCu8jwIxKX1uQG3qc7CuSfbGbmz36RB4uD0m35uTzc-NrNEULKCyGFkTvSQk4CsO2-a_vuVdVJSCXTQMtNfJxekIj3hBjbIgrLZ3he624lFZX0bxA", width: 3648, height: 2736, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100262447565941596237\">Leszek Kozłowski</a>"] },
+            { photoReference: "AWCwydgd0ZKg3ugyUF4CtJtrfaG5E5T4FXxfH1CM7jzZ-JUev7BJ5Shnv1OVdbtzoEleCgGswT3Ecg4lU3RfpfWWxDuGRht4yUz2WklqBNakNXV4QP4pRg0GrRI-X6Ft2x1ZTpPNRiPP2WvGGyxM4xDd5ofJ7iCksx9vAwUOjPx8PDHKgbfdKrA0rxCCUrFJcUuHIByfN-1zxqgGkhQ7kc4Q9dgIHW9Z1p75gJ5O6PMjczp4UyxA6_NWubo2SEZVUdnXIdtVFWtgORpWx4PpO0McMY0tscIKx2mM5uwd65X-IDM0Q77eu35Qafvdlcx_ulMPnP-J6Z1IVeAD_8aba63TbMGIIP7NwKvQ_Nd3Wf9JdiEdbcfk0neYP1ZXXCHd6NByaTk3I0rheBoec46W2a-RwPg1tlLQKVEcuQBFCZmVtl1dNYMDKTvP3BWo72necn1b", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114040679990005451580\">KX L (初衷之心)</a>"] },
+            { photoReference: "AWCwydiFUT1raVOHXOvgcu9xsyK-DVrtt9SIw9FBePqKgSubaLfAIZM_kQx7hGDq4dIopH4p-asph3uIVdQkvIrjp7z86eK1dMvpPdjcW9tRp8AVQlO_Zu3IQ88O04Fl2TChyxgOpLAbVhTXrZuPsHBi1PtThbDVgoiV05Mze3le5sazwz3mry5sbOKn2b0s-MqZZsVUN2H0xGjazdStA0GznMwxV_uXvFfKt9c-b02hFG7moAtIWE1Uxv3rQ7XBwWWCZyZHJmnbFCG0oPsyEQyYJe8V6Snw-sFvQ29hehkMDRuWFNLYdELBaSY6zxSfBuP7qOb4j_JQ20rt1WiUN7pe6bDqeiwsVmO0Po2k95twikV98X8Ef2l7065560Vip96dTduLkc4FIO_ZOgjocebuKSQIiP5kLeq6rb7ApMXonxs", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114586859672909380748\">Milai Legaspi</a>"] },
+            { photoReference: "AWCwydji8tRvO8cIB4wyYr0VEAC4rq1NEcdWpqYiRc0yQlYkTMeJAUI_JQqv7r5CI6bQ0rjpHGEgBSHXKfzUigqnIkL48SGyUyQjnmOQDETSaC6FKGwX5_MAgXY5iBrJz4lTMYz8fY6PuFR62_dygOE8UBs95rAfUvgjNEACnat7Z-VxoOnvAK1XVHSRkjxs8xNsnZNPtYjTmQkCN6deK4373CLqTTVK7t3SnOH6fWwYucF3tHOnMXlUe7nKOQ6SBWNIJM4jdJWB7cSGCgY5dGrsOdBr3PL4VqwMkQ8IV2dg4uYRneFBvxKUw0wVMQZgnoGOp_mICYcJybrWHOegThD8AwOvy2JBTdb2nBuIake0Ag3s2_grMbJ9JYQnBUz2luyGV-tuf4m3DIc95q21MD-Dke-qBAxsC556DEWb2FlocrWUvQ", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114586859672909380748\">Milai Legaspi</a>"] }
+        ],
+        summary: "친절한 서비스와 아쉬운 시설을 갖춘 호텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 프런트 직원", "수상 스포츠 활동 가능"],
+        tips: ["위치가 외진 곳에 있으니 이동 시 주의하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Danao Beach, Panglao, 6300 Bohol, 필리핀" }],
+        location: { landmark: "Danao Beach, Panglao, 6300 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://boholsouthbeach.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=89178128600965078", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%99%80+%EC%82%AC%EC%9A%B0%EC%8A%A4+%EB%B9%84%EC%B9%98+%ED%98%B8%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "팡글라오 로프트": {
+        photos: [],
+        placeId: "ChIJj1EQ-LmtqzMRpAhKT_V0oRU",
+        placePhotos: [
+            { photoReference: "AWCwydglLDw5OIQGUhCjCi0howQwDVBFOii3FaQe0hFYXlFTnz7_qM-5rr9BVKsVF75dOLK4b7yAYn0Q3BqtsUCHeJzMs-vUovABPCP-dcGpkVXVbxZ9Qlf7KuyYYxlBnklg1WvVLlqPLvOaZVK5DlU5JvovDvSwu7JOJdwAMoLSnl1Z-YrlhIsWiCdFd_3miSZT4yf8OchEHWWsy4tAgWK2O3t2937xjsZ8ZSfnoxVQlExiKykwfnxSXn3ztdwBRbdQL5MmHgZYI4DeAQhqAw9kb56WDCe5uvV-14nX0fd8Ln2EzSacVbhhyKX5KaeT5Q7cFAB5uVX0kb2x_kvEHcN25PGJNbdYsDEmH5IibrtSOKbOhSaGpBZ_MNZ-kYWl5NU-yGq_bTgThK7PAJKIBluBqqVrbgHr5Hrrlzm0QrUiV15Nyw", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443667578300094024\">Panglao Lofts</a>"] },
+            { photoReference: "AWCwydg3G9jAlm4EYgon4eEjUl8Fx7XQr1--MgDEmY1K-O9G8BKXUv1KIgewlnzXXHwN1oF3UT3mGzn0K9rSibwsft7-4a49gLTkZ5Q3XPdagk3Ok8tY70eAApwGOQrkNkIhOWlZK2LSvZ9gWkJuOkVryPW_jMHsfxXPbdkxKkDzV3lMN_JwhhhrpseO2kUk_ACYpDqoSdB873QprTh2PNn_MrOSluYvSbhlFK-NPxuAjQ9gBOz4gJ3VdP3BWNjzZdeJlhoNmgBpw11ZAXuUF6bA5-3FVJa3wrREPDLzdR9CS4gwUSezojdS90Cmmhh-ejjElh8l2HbPONN5XJe8-w8blm7i3JfTDwTb2_Bwoi2Fsn5sDW4GxIqyitFhTXQG-H-slKFlZBF76clNB0g76yaP_DZw1C_uetmJ2fUI1svQM9ZyRe8", width: 4800, height: 3398, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443667578300094024\">Panglao Lofts</a>"] },
+            { photoReference: "AWCwydh3jDGIfBJPuxWOvha-Nx1XoX86qLxeW6ddboH0I_6MVAA8a5fh-RdGai279dQR8HeSPSNNhiQucLp22mRXR5BwCnMVpXBnClXzLU5aP6_T97NV4N9UsOXEGwcZ4HLPaN44sQ7LK2mlSe6ZViBBKZkv56aBj32c7jcgD3NJUJNjPdosmDK4L9pbXswAK3kb2IKR4jZDTv4jJshBwLAadFJSFv8HSNA2sufnCvcsRyAQQmBVrJCPIl8Fq6QMN1Jijwkbral2VBglZqZKfDYABCKG03QLKtiO3CZ-N65aumIGzaf7lqGBdiw_wLk1HEdCatHmb7hCEy2kElAUBoLSJpgGudZKyazk5nymSnZ9w0xqlOKSsg65E5kBPui3Wlj8FMElGd0v1oJTcoRE3IgsrlE4mr-quXbdm8yMqatVzvKfGw", width: 1600, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108947622683690755347\">Jo</a>"] },
+            { photoReference: "AWCwydgQvPbK5DQQ0B2VO0xtkfLpxB_MLBkfZaWt6_iCZuEygwdeUkU9mmJiM_GIFx9D-P0qwexyuAV1ittkLn07e5nEGvfHWPn_mhlONND6U8fLB31ciAXJbvCxaUMktvMu_uBTZz3x9AFlDBo4ApuUwtnzcEiEPA5qPm3anbqdSkhIH426a1tbM9eQPZ6g71uNbZfcHRISAcE6ZGI3XCFnIbhhxGhaj8jXa1IvxEmsvz0vyqyGLzZ1gjMJEimZXBRTn7kJQDkh6smHCbdr81Jgg5LVC81_9qRnKA55Ty5tEtdVJOvD03ID403qoTGN465sYAjrDIdRNmfZvScpuhptAGCzg9IJ57HHDYiapCDN3ifY0lriqy8CjPUVZNJQ804-ShIlKuEb0Q9TItqwm57x2wpuxL4qv99KRGWlY_Timki-FQ", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443667578300094024\">Panglao Lofts</a>"] },
+            { photoReference: "AWCwydiA0uGWbHiystOuiVQaEM6pNn0ZeSe94GCpMNa9wnVQ9dA8Ose7SJwpZGyzjGadR99kXl5jf9-HbZHq1t0y9gafkfanWV4Jw8_lSRjr1YVnQhO12e-qRtVhqsK21JNm8sM87X7BwmzcccJwTkQcAtiGxwlz0QJc9EL2vRkLUJTtP3CPx1fnBvA-LcjpdTwofLsrWLA-usr-WU5EWZUD3ZTI1EwFfiXe0qwRCHBTaSdLv1Rlcxgk_YCzHlsuELx6P7E7WiEq8T2VT6NJ4IWM4Ie_FsJPjEzMkUkgJi4t8rNfiKvg2n0MrDJqLlmYzI8bPxOTmf8kz6OSzLgDKRp2aDhI4aYwp_v3BdajQjjUxf2_QG0IkMq6_f_mbVJWOev3Z3ik8qiJD-h5-MpkUtutEFPA5NYbN-O1sLC-0x_UmzBqB5V5", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443667578300094024\">Panglao Lofts</a>"] }
+        ],
+        summary: "친절한 서비스와 깨끗한 시설, 멋진 수영장을 갖춘 보홀 팡라오의 보석 같은 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["멋진 수영장", "정성스럽게 가꿔진 잔디밭", "훌륭한 객실 디자인", "친절한 서비스"],
+        tips: ["이동 편의를 위해 스쿠터나 차량 렌트를 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Purok 4, Barangay, Bolod, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Purok 4, Barangay, Bolod, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://hotels.cloudbeds.com/reservation/kcomNj", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1558655542992963748", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%A1%EA%B8%80%EB%9D%BC%EC%98%A4+%EB%A1%9C%ED%94%84%ED%8A%B8+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "퀘스트 빌라": {
+        photos: [],
+        placeId: "ChIJQXreovmtqzMRJBCPMBcEt4I",
+        placePhotos: [
+            { photoReference: "AWCwydgkhRIumk88J1sByO2jodXhRwQasm94C3ko5NcG48dKBBFKA7aZ1T2BpihBVBVzUb35GH_3cukNM7s5EDGDAlaKfMf0dfYEb2OhLMhjyR1IO2w1WN5eyCfctUeE3RyTE-xdTa0XOMFF5JSADj4Ip09fJ2UFDitMCB0kz2Bsv2SD8NONPZHYSgBGV5jP59S0WtYLTl3ssnMLW6gBoUfw6irvAg82H6LPFVAKmDo6fkLN7FrWMQT6t8LJsxWvMr3EKdiULpqHwBN8TV9P88e2SD0XdbMtGMnZmFXwhb7cagyfVJhRIwxgLTmKi07bBIO_TP6LdRFZuBr4WP4x0ns5G_uuGa1gsruQkanRRIJ7UjyPWX-mJTitZP1MqzBrtaT2oqXiilcGrhrpq8qxqS0tnUsDYvWxIwa2NTwcbMg5K9xDHKll", width: 1125, height: 633, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473203910262847828\">Quest Villa</a>"] },
+            { photoReference: "AWCwydjXFINBB20ZNx3VlX0O_S72pwWbJ75jAvg5zD9QjaG0LDrtGaXxQU33-qpKSeSMXai7KOGxyNCMC8Xy9NVARYA7jZ9yup4LLdbeFbkGFfnTO5_hP3q9PuzTyacTpYQOSuhUIzztzOdAKpVVSQg8nxHF7JM7mIKRbsuK7HwYeAMKhg87Uf97xUT44OysC2NZinjhzlEGPxP3Ung9nhYhRd6z3z1Y5Qt_va_RPRDOk__mufMoslqDxD_O-RC9r_dHaeD2qbAwUtEVXlCT5-jGuVCA2T4NVkWSCY0pHxXDu5I9pJIwvHyZx8N8Dyv3owxJqRl7cboJ3LQKsUy7tDZJiKWQOcTkYvs4oJOzQ3RHaYDW3JHfq_26j5ozvU3g7eenDAh2e9Xf5CEoR1DK02nrifyknN8gCdEMQj_j3J_VAsCczg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473203910262847828\">Quest Villa</a>"] },
+            { photoReference: "AWCwydjSvTIorLoYHBsJlLakJ0em_odHSmW4xGcgni3n1yUSgRTDosSEhmUJRVSc-Qpty9vYYFyUGx0Fz1hbLjFZwt_a94TmAPLVWvlM-zPbRXN7G5wUaVl3wpH6Eu0VHGMIIQ356RvVXoDPL_NQeNx4OrUNkqRiDep3WIKYxegd2-tY5tWdU2tkzuguMOt673hUWXLjBFdAervCBUgO8ZVtlwtbfv-kjtC2enfiwB0OKJ8mOgYeCvHlBzhmMDBkyN3zWnh3FL2rK6P1r0K1EJOd8kYv8Im2VmicmY7eUjzFYdMMV_By4j4EDzd9qKAFBvshtYruV7qHaKVGjhd-QzUHN-YxthUZul7enwZyxanb9tN9KmkrDcZIYWAksOSCtxDsjk43k7_vX40loeFJu1HnM3DHc5QoNT0KeD4QvXP85amhpZcBRgIh29WOIWKV4Q", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113680066095281592825\">Jungwon HAN</a>"] },
+            { photoReference: "AWCwydh9a9yZ_rHWnzPbEG-39slLur7jd6rGnPlbXdJCowa3byXXeYMmweSC62oHcp0RE0u99a8o87yUwYJ6EM6OJaqpL4ZkhSIEsllfFXEBSp5XHjzlRCrJkSnaJt16zF6mszMjgzmab2edXxZg23NEAicvPVQK_MLhtxckgvt3JKwG9k5R0YPxAddyNlExTEM2l_kvCLsKs7r9Mu5chneWOQa8cGbmzfdTsN30as780dGR-7u6lQz2uDGpA6h7RbL-ELtaQsijgAuQHsWrTq6Y_tMCqN_vh5a7IAAuYE_jnUZmSSCG9HG4plwfyFdV8oQGQks1wVB-PO_DLMmSCb4ufunE4pKK2mXqowtgu2bZuEUXSKWWf-FNQDsZ2jWKBRBjOS5HjzY0VLgPOSNZWRzm40eAR6FppA7DT_h5FNBP1XVFkoBv", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473203910262847828\">Quest Villa</a>"] },
+            { photoReference: "AWCwydgU2IXH9h78lceaNtHwDQ5ZCKUKhMRnrGNNm-l1JhjP4sP9IcA7cqxrClaatSARJXJzX2v6QI9ZS9qhUh_yD-R8tXU3vHxG_lXdIFC_e6wxwA5hhnP7eJYt-RajGeCL1F6WTq4XWZZjRPgY0L1g7JAto-N40Zq2tIRZOzCx0iVr3Evw73UIlTcoJdTtnPrZY-c7VUcuEuQCYK3q_K23I6vmbbl570z89LkIbtYAcXu1dcOd0IZ7qFe1UDgx0_h75wenfjKGDQoZscn5B_AT7-gz7tyGk-5vqMsNXAK1wsEWdeu5sl5xeQB-HLG-YSoOwUjDdugpQaWWWI2YlSLh_0-jJ9lGdUFA-sbCHKNp6wXaC6b4wGkRzTc1JZsGVGaZh_TDqUxfWxlAfFb3qHpghizuTEaIBbFfzBaW6TPfV7L8Tw", width: 4000, height: 2666, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473203910262847828\">Quest Villa</a>"] }
+        ],
+        summary: "가성비 좋은 가격에 안정적인 와이파이와 24시간 수영장을 갖춘 편안한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["안정적인 와이파이", "24시간 운영 수영장", "친절한 직원 서비스"],
+        tips: ["오전 10시부터 주방 이용 가능", "알로나 비치 인근 위치"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Barangay, Tawala, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Barangay, Tawala, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.questvilla.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9419001643314122788", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%80%98%EC%8A%A4%ED%8A%B8+%EB%B9%8C%EB%9D%BC+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빌라 카사디아": {
+        photos: [],
+        placeId: "ChIJya1sbJmsqzMRzxr_sQY6vwc",
+        placePhotos: [
+            { photoReference: "AWCwydiCzlUVB9qJ6QsqrepfXEO-N0A9dimFE7sJN-timpzkdm0_9M0s1EAiWpLlf54r9EzZX3lbn1qtNxSFztoqoCZJiujt9rcIVH-Tfk__gxlwfCvYDfB_m6YZw1S25DzaSBbUiKrh23jgIGJ7hEjCfQ3SqQRAm719PwQr9MwQhqMCNzcCI-yq67Ix4Jr8bYLVsInVbVMfMPRlJYQUH2EUbNRIwBSzWs6pwEX42rM6UaxO_bF1YQxLDAhEVv-lrBTNJqV6Zslh0GSIW6ldDfQcPRmtDIyc0R9t67YG-d0w4UH8H1Cb7JeQzccs3JJO7jnLi25HLBdRBz9oW4cNEBRhOQ35xd1lCQzlBZoldF4CsZEIEfnelS-oqjK8giRn0SdwkvKeb1WRerVIetbXEeiW3KjSNLPcvDrsVe_eOrvo0saf7ece", width: 1562, height: 1250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100372012315955140767\">Villa Kasadya</a>"] },
+            { photoReference: "AWCwydj7sX-vmCdk-W8f4dHR1vBpONQjBHSTa1hOSlUUTcbwe2Kf7qsMV97m4RUxD_m9f93qXa5x1OYqyugb1RH-yfkfRe7s9NwktEaz6i2GSFUMkoUtvEvAodCit8EBzQO04hPrHXDjpPc4D7NmQjK7Y6bklISOZf0RzDQCaXcEmSkaFrARaj7va1zHu1oCssHNukOASL5W_ktA9YfyomiiYHi3-Syzf5y0QhUx41I5R5hAovFIoxHOh29uEMbR0Ka09Hr9A42OczNQ1ohmnUHkGDy58PaF5sjtBoXJvq4Pse26Sz4T-H_EuOv-eceTOIn9LBfvgUXLTTEI_Rjz3lP1R4kAgDagxuQSzrKHQYOLJAae7v3ZUBJ-aWfdB-6efR4dJ-Y2DGcZv6Tpi0IzeD1SodfyRVpd0c6xy81FhMcPel_krQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100372012315955140767\">Villa Kasadya</a>"] },
+            { photoReference: "AWCwydj-0VDOXSFpkzNfQCIETi8JniM9_V3M8b7IEuduYxCT_f74KnHVrfvcNc4m4CCO3XNXTzKp8IPdxqSTyV0q9jt3CAcIYO99HijeEIUEAHhSKHVb51ZKWW55sVOHlfaIKWYzhQ3uTC9WxXvanOAuG18IhMcSek-gDMWC2PpfAZN1fa4Pu6V1aO8Q8_ILvgkl_YeoxbhJUe5eBsBNlR69u2hXAOlijjmLm8S04IlcLrnbgd2LnisCQqDEyggEp7jpFpZFL4zPBpV_mZjO5yxszhqR_hgXkcXgsWs8CakErPFGV_GyyMA9B4dJb7t3PlTBa6lViljMbADpjO-IqjXNcTfZGhNr_Mmqg-3AaCi5VpXBuIaPnhpcal50qskUgVeh1H2sEWc2k60ZijR5aeC0kPSWq2BLx2VYzPa_k-x-uLDZhoM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100372012315955140767\">Villa Kasadya</a>"] },
+            { photoReference: "AWCwydhzMAp_8k7zu67rOFyc7s9o1UlMEIy9_soAPqu8WIxziNSGsswLr7uDy5I5V3ksCoXNbbKXOEFGco_z66Z6-IfnWYsadY-mhyAkDbelR1xEpipmloUxQluQUdHEnRZorKrDoRckUjTk7Sp7EBirBDw3KJu_-BWX7ZQa9qgkqj-ABFDaThnFgbznoLyjA3gYW7QsjbCSAY-9YrLVmwLk7fbi9shEcZhZTc9n1bc29OImSVMOJHU1xz5FZtnjMZPkX1JrbWgDWe3vl4CpCIdGaL5dNIG-ZRGlngdi_5Hw2fpVXoSXnKCsZR1KBGEh5iF-nDn4J6c9oU5a2qWth65LPuzh0nNatWsgVR3-zTqYrB8xilQGCPlZmvtcuPGelVOoLkiqyMfWLd7QGkTeK2VD1jfwAOnOmpljPPddZiPmDDvhpm9o", width: 2925, height: 3656, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100372012315955140767\">Villa Kasadya</a>"] },
+            { photoReference: "AWCwydhDPPVowun-PacCnLu7ky-Z25BLsj47aH0xcGkDkEoEV1yAVuhNOB9qccPgZrEMvtsSPIFuNGr8Y7jw0aLr_qs_lkk5l7HMslq032M2Icg9rUPtJhT1oq1Ngs589ePiDRZ-TViJ4kR3Zyaxd1CkM7VbRQ7fvELXg9JA0igrXmYN1kMEgn1Gn-l1_IENIpjMA9RPCZuVG_U_CtsJ-8t_3MwA7itu5p84_zHzTIP5iZlWh49_ty3As7Vd65XGM21urTHfqYMwSEBf28crNxwVW6fxFl272qUb1VtTSRtc7Y03nSEzkyz2ZRDC8F-igr2h0Dt8ncLFdT7tLhBGjirRrDl9QQP2iiGM3RFepihuSB9puvNyXNsYpvT6ibLUsYInqNU7CF_D7KsTna4arjEMXlXIAnwAnjewQpxYHqpcLAV6PQM", width: 1728, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100372012315955140767\">Villa Kasadya</a>"] }
+        ],
+        summary: "쾌적한 객실과 아름다운 정원을 보유한 편안한 분위기의 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 깨끗한 객실", "잘 가꿔진 아름다운 정원", "친절한 직원"],
+        tips: ["주변에 도보로 이동 가능한 식당이 많습니다", "새벽에 닭 울음소리가 들릴 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Purok 5, Danao, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Purok 5, Danao, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.villakasadya.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=558228679247731407", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%8C%EB%9D%BC+%EC%B9%B4%EC%82%AC%EB%94%94%EC%95%84+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 마야나 리조트": {
+        photos: [],
+        placeId: "ChIJMdfWpyZTqjMRSDuy_mxEeA8",
+        placePhotos: [
+            { photoReference: "AWCwydgqGwmMbnucrAWbScBKSl8sw0xCalp9HW_cCE7lS2j_fVxf2UK7IysgmpTrK3lwtuvuHJEj3MoolViOSxCilSB8uX5uQ-h6H4e-R0aRAw9SjWmfJaN2Xmq3qBvxv_ZjA-DotaFr5XO89_zz7RtIBe_jnfVv0IPuWSKCULTIuSf59hWjbYd9ZQ9GfFm5qtSW-L2YX_nB0un1BTRgRzWpVNc-fMkwWhNP7c_P-gOMmE33eKriQ5bfHK2dlOYbz9MqoCbdr6ytTnLsEN0Bl3AMwRL26LyXdyUBCmaW03Yh4WkaY00UBp8i10fn-dxRL11nbJEoFS1oTJpSz5IcPN6lmZf6Rtb-Y3ggaYXjDcgLFkBSyoZfx39T0ALO1Zgi7j60oyHkX7nrahrNXf0-JEIXoFnE8wnkquaKfcoYiJATUKz4n5wV1q5zNXZDeN4HWj0G", width: 2560, height: 1184, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110323188361724369826\">The Mayana Resort</a>"] },
+            { photoReference: "AWCwydhghXmCWGPQ0Hi51ahqJSbu4CwYA_OoXnBmRb-gXO5nxAi-riZElFWjOPaOzQCnnaAnQ4JrsLG4xiLkb730hS1EJj765kvyFvt9v5pVP6l2e0inJjeu5URlCZFlGylBEj0sQfDp7G3dAc7Ueqi1npJVWvG_z6FRPEnhYyc9DYrZKHmcfdMy8R7qURvOS0TdX9Kek9_a9f-ZTNQULDovafdAH4mRvABuHt31mYlTPZkefAXhSAnZFmIMW9bn9mWyOCkMXtZPRSBhZi9OZoRlUesO1QJbeKmqAbqTmCA3T8l4SyCHOJF7nlpSjbcxwB_zfTVIF9WHo9pXfc41hASwMm7ks6qxA6As9UgeioYkD4JNfmfroi_ivsvRXEtQ9WYbjVrt_sJcdKtFjRQmw0U2nsn0aSVAMUFU-R1Si0VAL7vWm9hB", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107580930114584508709\">Maik Kruesi</a>"] },
+            { photoReference: "AWCwydgx8dPn2CFzbYhA7grTfBfRkf9s9ldlx5MApkScNWiFWdHM1FeH3-3r37WylgD8gAYB_bUVjPojVLdaTn0tAjN5esxpbHX55zWEisDHWSYE5i-MlngUCAA7aBLVlKFVn1Nrdtbn9tV9K-kNL5fd7q3LIWJAL39kiisCzUAedwm2pW0NvGMfCBDiqmrTRxnxVmf6lhwe2vJw0_O05e5vy3oCU7qa3iJULlqnYNwoO84M0SjVZZN9EYV4v03nBLtisUkEXPxCMa-w_Zu8n3bR5w-mBo0jPD0qpZwwYsa-nZM4wK_QQOU6L9qBCN19NOaFMLEz7U6Y4rpyRJCOv4s4XbVwiw7wk2gGEgHLTuQF1P5gP4ZRLtWtBGZnPTfc8tfJBUREYaUDql2vQooPqlq0v6Iq3Y24w7JwuqujU7NN5c9x1MutE40p1QDOIUU1X2Mg", width: 3472, height: 1900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106307334584716915497\">Retired At 55 On The Flipside</a>"] },
+            { photoReference: "AWCwydgrjrRyIxNyraACxYzYOpyd0ENrieJV8NOqmJC9ozoKJ2z3VRc9T2UBMaYBbeERYi6K4dvPV8AEYPXnod3Eia_whRZZOa_a0efC3PS_zaIkh6CEk_Xnd3odwB8kSWz7QIsBSESo3DwFIsqjvLjXGXHvUSQegMY09x647l6pTcct5zV9rz7851e5eyDEI2VJ4QJCv155xkrn0cmnHtm-jHf3T8IEi8N2ceHJr7uOblm4ZinPl29Hbd7-xkFldNghfkwGlD4rNmHAXW4z10l2B41uIWey7czxJpJzAMIkWAaCfKS7R-J7orYA5PaGMMvnZa4wiVDZbEo6hguxq0j7TdUsMh6wJWM5jJLmi3NoQkdmjheuMbwGZjjSBV_e4f9KtFbJg-qhxcHUj3O4pwTMYqvGZ7pQ0MDzBl7Vwb85WMYXTRTa", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107580930114584508709\">Maik Kruesi</a>"] },
+            { photoReference: "AWCwydgaiKEbAbi4-TCpoPpZK_pa6UynsNy0L-GRuc9ykp6Tg85oPD80ZbTphxVdq93R24blUlcjNAngy0Od6SV4UJjDI2dqu5J_vsQmfm5hE_lJOtBw-cl06OhHEc8AJWI3MBPPw0gFFXj1bbHOsWL7Pa7TbTk-Z0mcXz9DT8Gl8d-oJk1n2PEOvUpa73KHLJq7VBOOtltvi2OqJjCcd7VHXl6ZX3VsQv4EV7EtVlkQf6waHbxKV5A0tsWXxujJlxPy7Bsg_xzgkC3LEGgIu9KyuXMZYn6F1fKlDXcKCuc90ivPE00g21CCjcqsnGophXm6VmhfA_-WYshSB14_ABNUNIBLgYzMT1ulwxmmCdS1KmHtccazcs9GTt1MIPrM23HHEuIekGqmJrG836VU5AeVpg5b9OQTfrcIKEqz0fqYFIEwK_pz2B3bm3rLY9n0Dzp6", width: 1171, height: 659, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110323188361724369826\">The Mayana Resort</a>"] }
+        ],
+        summary: "넓고 깨끗한 객실과 세심한 서비스가 돋보이는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 직원", "넓고 깨끗한 객실", "필요한 편의시설 완비"],
+        tips: ["자가용 이용 권장", "조식 외 이른 체크아웃 시 샌드위치 제공"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "필리핀 보홀 다우이스" }],
+        location: { landmark: "필리핀 보홀 다우이스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1114716142694447944", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%A7%88%EC%95%BC%EB%82%98+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "알로나 벨 콘도텔": {
+        photos: [],
+        placeId: "ChIJk1GtH9atqzMRmQiPRusKddQ",
+        placePhotos: [
+            { photoReference: "AWCwydhNCaWJPNj-USd-8e1cCoTgK4REFb3DHKWDgnIt79tvuIPu2iGiQPWZ2P9Aret1-MxROdl2zJCfFQ1LO9-AyfcRqQ2PODOqBPVd1cK15evwF02SgOxqoPCBcmmoMC7w7leQWd7IavdAHERkpOh8tzrbeqywGkLUeuMnbZb2Whf-LROY_WyjvcMV5PGMf2EVblodSohE0RK_jVZEmGHWOuaEynANYLDbqGwDqcJR6iL9wXWPrAM_XPJ7O7SY0dpt7CYZEzG74SvO-69cKjL3mCEGClZXeCYDKC-t6p7Z32K7KARAK9u1tMH8x0TvyaCA01u-FOc28O2rObK3fltm9_yzk2FEtDtxxGOet1kpq9kLgUCjGi3zOllXQZmYPCk9yZ7S5GxIYqYZo3ey41rvWlfRCipqKhRDGXUAdQ0YWDWPtA", width: 960, height: 639, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111223151826023506635\">Alona Vel Condotels</a>"] },
+            { photoReference: "AWCwydjmiYxJOuqg9SzAYbnR3uDDjFSARYKaLzFbkbrUVDwxYlkhxRCtLup31gqQmys1WwPQnrPeXnowLsmB0kzHzD-deWYGsW16uAy8VPRI1Ey2Tg24_kzRmoost41Ki1xfY6-XVBiGi42kRjqejTARz0_YRMboIWLnStiox_RHQM-Y3fMMFIL727OPD2QrNVXw2JSdCr5TZdx6ly87T5YSbRSOL9aMj9M4d9mVwFPoYpshfEpstLSKlOeCO52bbXI1YR8Hb2hiIryXdhW7h9mn0JsETJIiXcwusW22y7v-AKiPKb3yAy7dAjNtgZ4iOBAcpUE2KFzB11ba9Kk2NJGFqBEalu_7PDyfjWR3EWaMMVCxtH50nQInYqyELCUyKjzFmKbnBaGUMBlbaparEyMdGS9wyv2sdlKuORKLl6H_pJROQA", width: 960, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111223151826023506635\">Alona Vel Condotels</a>"] },
+            { photoReference: "AWCwydiq-T-Kg_Gs4gX-YtJyKXKiM5NZNFVtE5ZD2z7UI36thvOF0J7gQeA_w5fZbw-VLIE91mSKujCcOLcOCqGLyfP3mJCGYUXcV16Lxb6pzx7hGo03uUqALPVk3HM_LBiRTFpl_LRk2B2IDyIRZ1KpjR5d5nB2Ieyo13ctq25zHDxEjznLPd2Oi5S2ucaNFR4c86Sk93VoeLPsVI6TkJJ6qDRJ4x5HbruGXbXVlgFgTIQVsIbSZZGdDbxnkaSI3h5WfqBxlpnCnKrVDoHLSSHFm15CL3q1acaBGtgt2KY0Q4pOoO1O6FA6yzW0wGy2mni6Nekra2Y-7KYUe24vY_6gIC2ymHf4dpYq6BYJ9j-qfvQtrr4A-W1mbMce6jFR6wslrJmvvs8qlU1BXogoNozfeX--v09Ml3BpAnmtl7Ivs4Ts2gXV", width: 640, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111223151826023506635\">Alona Vel Condotels</a>"] },
+            { photoReference: "AWCwyditQ20H49FlMUlG3kHhBm0Xlmq-JTUhHB4OeaLefdPoGgzmpkKyCJRaRBJqtY2kt0UTzInVah7yLM1CacHLWNiELJAAoYFmSMfdnJvwLG_mkIHwnPaJRqiV2PPhGfnEBUuy2cIt3T4XzOTBrE7BPHapOu3nFFb0PHBoVEuyXlhSgc28zUPzBRZT4GTNo2orQaXP0Dnye-KU9KwpdQcfxYzgRVIDQBqeh5n2Yt1R27It2TXNFNDzkp2BGcYbVhPX61j-A_Hi5759tV11mwAhNgYUVpjWDmcvSP1Kmnog8G5_SdYCfe7sF_XPwpU-D1On8zi6NdzCJ-1LMzlsX-4u4Kwo8vjRy13AkoV37dnDDNWkfVfzH3osSiQ8m3HfcO3Qm2HaFXT-xAxBoeiG47orvfY4WSqKB31smnAGhIW9Tnkbre26", width: 960, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111223151826023506635\">Alona Vel Condotels</a>"] },
+            { photoReference: "AWCwydhvEGNCMJSs5OgHT16Jk2oytYul27Qz6A91GMLDFYEeju808F2BR4MT3FLcLKOInfiK49adH_xLYwKT_8Qi1aiW-ixx1el11fui1yuMVYchrAiCI5FK4J9VfBdQojil-Dl0wZ41DBm8avSvT5vRiGQnLRRMAvKfL0Vp9_NXlseLzxCWUoQ6A8CAiFmcwxgqboYx8rYmg5d_32U_L_BuCb9VXi-b5nVcHIsvbKt0d1wYr5bUsGPNBXKd74ph_eZD-9S9w25RI596kxSQZXbyi7f_FdVM0fiX5OvxbC_Au6o2Et-YLIsi3YVL9TXrxQsBL_yPwl3I7MfHTrBu_bRWK9Tngd49gnxPuOUbsHcTFjI12zLEz81I2e09eDqZIwejVqLXj6L5sFliCosmIsuby6kqW_bFF3vZ9YGOpN6myDkn_Q", width: 960, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111223151826023506635\">Alona Vel Condotels</a>"] }
+        ],
+        summary: "이른 아침 조식 제공과 친절한 서비스로 여행객의 편의를 높인 안성맞춤 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["이른 아침부터 제공되는 실용적인 조식", "알로나 비치로 바로 연결되는 편리한 경로", "친절하고 세심한 직원들의 서비스"],
+        tips: ["이른 아침 섬 투어 시 조식을 활용하세요", "체크아웃 후 짐 보관 서비스를 이용할 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Purok 5, Danao, Panglao, 6300 Bohol, 필리핀" }],
+        location: { landmark: "Purok 5, Danao, Panglao, 6300 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15309154513933240473", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%8C%EB%A1%9C%EB%82%98+%EB%B2%A8+%EC%BD%98%EB%8F%84%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "매드 몽키 팡라오": {
+        photos: [],
+        placeId: "ChIJQ1gM77-tqzMRUy2WTo3UUeM",
+        placePhotos: [
+            { photoReference: "AWCwydjMMLhSi0-mY7qWFHr9QqG8OYbqPuCNgVVGQTG3HIDE18xcUtUZ59CNM_EUmX5_JMccHCuQ_VqZUTp4VKTQJ74zSaNUAHItACLmKv00GgDg6WX-lg4NieaB1rX8swcJx5IUEKA8ALZWsAwLHdX3uZlG7Nf-Xk41OIx-IfFG75I7O5xlDxud2JYon5JU1d7WKkdwmlKj5lGOvboMAIigAxlSrYiWUNqolVegnAU_wGPGEcroEYM3qH9NOvI_gaACFUQESY86Io6E5vn-VoP12crV9Ix-63GUnE-g7fMrxLbsIWe16ryUbhriBa24SBNsOm97f1M0pakJSqTRvOq5CpqNjQOO4-jEEE0sdUm9thdADGO6ugkTFB8tQdD8WB0NAe7NKRi-2GQHx40RbYW0q81Dn7cMFdjmV_vcLj5pI7v9Po0wBkRtPRIvIka54nGw", width: 4800, height: 3020, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200702949733819852\">Mad Monkey Panglao</a>"] },
+            { photoReference: "AWCwydjhu3GQymlmcawxwo4a8VW6PXZSO4VnPUhZ3q9dbgVBTPFZEc3MBoX85ntCH28etDn_SSe4AXnvt2sd-0cBHv5tSOQ981KxhK1xGFnsRykQjIAxKuKnuR-se0SHDCGqkhvy8q_vU6RuOmUFWEAW4zliefFL9CLU2COazn-WuAbUzbSxdqiX-imux4fJ_AJzl8w_9CVnpA64iwjdATWeqQJCb0myY3UIkiaVJJ6xQi-DrHYadOD_UBE2Ugfv1_yCMyFrHKp8dLs8Vuz_uxvJZs3z7k1eFH0_Qsx2fLF3b8htmzP8wb-ffH3DO8-9F6TgnK0cypADYbtUPXJ-umWg8ijLkwfUsJqEUBO_ukVd-duQyBD9iYBxcIPT15rDT5ZX5Od-5OuF77tWsh8ghkSk2KdiGUtOHg6Y1CYv6NtHD1OwtojaO48YeMnB-lZZJ7Y6", width: 4800, height: 2038, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200702949733819852\">Mad Monkey Panglao</a>"] },
+            { photoReference: "AWCwydj3ZiCYnuwl2liZNgwuMYTtDtFvrZZD8ix2EEBR-IOeHtoE9HFBOp2HseoMehFd7tUcloYRxYMefQb0NOHhyKqID6oOQivuv-k3Sz_xPTDkTkBdN1FCGwW-NnAdDIq5kJO2lQVs5fkHVQhKSCOh8jtC-zJdqzlilLFyL0YXaCK-Wjmf615AhmuxvVhvdFT5okHYFpYCqeqoCNuWwbIkTO8sdgSp74jvHxkFnJfoydZkudyq4HbFlTBQ_3anbkEpbWLHvjtm__YNaitlvJ1a3tUM150f1VvnlIciONeqSbgl01cGfGwPSoBPdEaiirG-pxj9AQD1iswSwaaR4QroVQN_ci9LAx7HHJblE1I4l7VHKz3l2KejiDdh0LHS2eY4uALWzB0OAYK-sj6wqXYFJcYhBn0T2agutUgUNDXqc07qDJg", width: 2252, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113195700225378090457\">Keyvan Azimi</a>"] },
+            { photoReference: "AWCwydhKEODFuEfLirHfTvgA0FOQHzKM45cIUJfX4rrf4w3KpofyBsrkcmMrnVsUmY0abnJHXJ3M8OPMJaCW0VcFh_slFDXT3Z-HbEJhlhjpj9yLyALoTIw5mN1trxtV3HPT0_p81470-DHkcVSHubafdHK_7hm0PPQpgpZpKbvj7rV35ElYtnmtP4jBFuZzsQnbhlHXdiyXMLNmFHG2MJ1c6PMWRyvaIseabywvV1yGiItgT77qo3Cu56U9XbFUMDiS4PNVNGTO-dXL92oIoGilTPkCbHcAQ8gSgLPZA7TuIxtBS4u0_HielzisxrWXTC2dgcfml8r-mnKyUf8QfbRSEUTTmHchYneeZwPlv5L7puOvz3zOha0YeN3ZhRdiEtf4ja9NzVQimG2AGTqn7D7w3cfw-QSXoHrIJSt4SMdsTdIl-ojhHb836LQN9zm-tLYP", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200702949733819852\">Mad Monkey Panglao</a>"] },
+            { photoReference: "AWCwydhOZ5-zkV_BQNFenHSTNI9KLV0rBsrryaX6Ddmv5WdS-mQgmg4mGqtL7FJZnYUN8P4G9eX1fhogopGjE47Wlrt77aowUx3HC2avGSFp9kG_QxpSzf7y9tk_a_J9YjCSLqNbFZTqvP2y30wWjQ9gzhqRBRa8UXIHgd4Dquq7C1gMPNIb0fi6SBQrMrCDOXVgpMcw811AaotqXxZh8a_NUkT3Wr_DcO00-UERIo-dYDXD6esoaRR5KZBmMvprpJPkumgwn9I5aXj5bLdl1jYeiat2kPnotmb-r1WKSlQv9Gt7YIsivp6HTDW2WQ9PjgnHzPigNMmZqRyCRQQZy44IK-yPGRxWVeZbtXjWOjm106hdnpb4n1DxMxMfROfIhMDOKV4-7reBO1_-i-3cuVT36haVW_n6rI83Xjmf2Ypaas9zVf2WQiE0VXsC7x1vkQ", width: 4800, height: 2518, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200702949733819852\">Mad Monkey Panglao</a>"] }
+        ],
+        summary: "친절한 직원과 쾌적한 시설, 활기찬 분위기를 갖춘 완벽한 여행지입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["매우 친절한 직원", "뛰어난 커뮤니티 분위기", "쾌적한 객실과 수영장", "빠른 와이파이"],
+        tips: ["오토바이를 이용하면 해변까지 빠르게 이동 가능합니다.", "노래방 시설을 즐겨보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Bgy, Sitio Daorong Blvd, Danao, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Bgy, Sitio Daorong Blvd, Danao, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://madmonkeyhostels.com/destination/panglao", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16380107023097146707", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A4%EB%93%9C+%EB%AA%BD%ED%82%A4+%ED%8C%A1%EB%9D%BC%EC%98%A4+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보홀 코코 팜": {
+        photos: [],
+        placeId: "ChIJiy1DyihTqjMRw_DBwbu1Gx4",
+        placePhotos: [
+            { photoReference: "AWCwydhFWDH4FMhbMqlv1nBG__niyIt_EgZmvGYVqX08Xx4320glf19DSawnjhcyp882SzwQPxKN7xTSXjM5QcTatN_aUVscsRi3bk96jrSYqmWUskBlIWE5ve1MUYojrY_dlFvwWQnkKHibipSrhIJmmczH4fn6Qw69TF_ObKv5jEz2tmXIde0_gwiqfUjf9hWbdExE5CMANjsWk-f5G06vz3cjU0hBN97bDoUSaPPin4ibpI2IJOpr5nAoC3ZePEa_bBaSUaX5S6UIPuJUnT8_ptw64gIz_AP6POyOMPx08qyMJSiIOn63yxd1kPfPzYnAZQ7DTeR5h2a2V0yrnaFSbWv_8w-j8ZFJXe4470FLq-ksGKHTPptqzjXwnp8j9U0CJ6kQKiUanA5o-ugGeWry8ECfwP3YB2ZCOQU0PVFG3iBtUw", width: 4240, height: 2832, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102599698520856629687\">Bohol Coco Farm Hostel</a>"] },
+            { photoReference: "AWCwydgw_8HAQB2ByhdYa6Mrb2vF2x8GjYGCkVBWo39g_LFiYfNP-KvRewzJih-xO5s2GjwRN-OPFxT4PM14snfhPwlc6xnVNh5ZtBY4zj9-1hR5LfyHyqRNJcyLMjpI2LJXNUZW9MeucmX_ifhMHCx-apUsm9EXOMx706zX4PTBlDwKDtfbT3gY6YWseSwwUBLSpQ-VNiFxXeb7OrXPc7w2ZUl5GTLbT4ad7ssdX33eGwLBuOgRNBsHaIImg8XqojlpjBrK3-KMzY2vaTP2Ylvu3LnodKuD9uj7NDsWN0UvbouA5CqsMmO8_HjEV3G-asMjBMVEewckeONziIjROFcK6QlzFLEnG7K8bE_jatLN5Zy1V_kkTVPrZx65CS9c8qH8pZDSSmHY6ohDNNt6NrhAA6rY7QhMJXzV5Gj3aBSINuN9oA", width: 4240, height: 2832, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102599698520856629687\">Bohol Coco Farm Hostel</a>"] },
+            { photoReference: "AWCwydgzyiEK2BqDP4dquUcL63QkPSNu30QzxkD-mpd6y-H0uYiL5WKqkm8OPHFkSLPj25d3X-P987CJE3RLDZXIOMeJfJv1Z1gYKqIa2LABkFtjlMR8QUiih1J2ugHI7KYZpSYedLLHLpTw6rWDTjSGERaMptsQaUF2CkhrImPFgOICEOKTOeVx7V48SgPfYZn9raRo3nwIUTcj_P9EfocWKt_jzB2HFVouw6xgj_AQVyenSbFOwClY45YGfZJJjjAS9T7cjqGjGC3ZFsQ3K2nE_Bg441tryDdj24XfkX1lZ1AMNAGdGJPvyahtSbaUICgQbyzv-zyYPN99K0f0RXcSB5vn65muU4MCuU35j9d2bL9UotUkpJ_JHzQOBEWQZt7vGYwZfi7twA7fIu_1-AmnIA3dfT1XQd2X8voTRjsIYOE", width: 4143, height: 2767, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102599698520856629687\">Bohol Coco Farm Hostel</a>"] },
+            { photoReference: "AWCwydjg0nXvUqUKX5vm4Mdgo4QjUEaPkcIQFe1Z7bSYHydn0W-XQk1VAK1eoa0dtdFKbip4D0lAqI2vTg1rj0be1DBjnM6BuYSRZzVjcpBFG85qmaq_AuoovJpEyIRVhzOhR-trBPfPn9-lmIWjJ1_4u0Q_OgJpW191OFAcjpKB-5c4yZcaxAo8IKQHM_7tn-dFpGotXTA_D_WNQrJUheM50fpGKo1PWJsNJzHwvWM8uDYiDY0TDePSxjiqi8Fy04d7uadr49McvxJYm4N-niaK3aH19rcLn9uz2xJLTfiWmp9h46zPTMxnpvjuePFWRibx5R_C24EmMh8__1tzr9EqUuyx4LcNlkZHKd2NOWB70gudrLMlOFnRBPSzUcI1LOCNk3PiSvTTR_jquvH3hhbEKabJfEQBFMvZx33irNw1AJPb0w", width: 1034, height: 886, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102599698520856629687\">Bohol Coco Farm Hostel</a>"] },
+            { photoReference: "AWCwydjtQc5PI_A1n7vmQ5ruS6gdEILU8Dp3MsCesxjXIpmeNC8h9e2WTFCU3ZG5h-VOhIQBd2G5vwf4paAclkjbz_13x0QCX43j86kzNJjLUxLUGBq3IzOCfe3XsODHjm2mWsYZZTZseVxuVBYiNlKnE_6uwCAOGpVQV_T52njX4b5Sx0hZ-2UVYtQKIM_x9TH_GSDFxKVggIH-mgdXAF2iUE5aos4YoiH80LOogi2GcN38duFVoQEzq-qbnAfM045Mm_Qn-QdZ8g76d-gEJBrVGXQz5u0XeSV3I9E_AHrk-DMF37W8JAfd_CsnKzmV_tNdnV71GeBTU5dkpBFgP1e4bLTSMKRtLbxa1qahxdZFM9V9c7Uco0TT0H8DExYv__rW12sptLadhLooylegExEYOh3a-COM4tDyyGYFt4Hna32_8OdT", width: 3541, height: 2365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102599698520856629687\">Bohol Coco Farm Hostel</a>"] }
+        ],
+        summary: "친절한 호스트와 다양한 액티비티, 맛있는 조식이 매력적인 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["자연 친화적이고 아늑한 분위기", "현대적이고 넓은 객실", "매일 아침 제공되는 수제 팬케이크", "다양한 액티비티와 사교적인 분위기"],
+        tips: ["직접 만든 현지 재료로 만든 팬케이크를 꼭 드셔보세요", "저녁 식사 시간을 활용해 새로운 친구들을 사귀어 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Coco Farm, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Coco Farm, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://bit.ly/boholcocofarmhostel", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2169527463523250371", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%99%80+%EC%BD%94%EC%BD%94+%ED%8C%9C+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레드 피크닉 호스텔": {
+        photos: [],
+        placeId: "ChIJHf5wdJdTqjMRQjG6su5IaqQ",
+        placePhotos: [
+            { photoReference: "AWCwydiU4-I7YtMfcSORqHJ34EZOBcTC_Zq7hoUcyRa4bfs8ZEkT_5vEIAyhzAsvLuXTjtF6Po8IVfckHAvb_yySqbQ3-psW2mKsUAYYFgOcssU_zgd8J1kDqVMukj8LJHm9pndgCMmevh6xKCzpPwn1b9zAkFVfvvVqU3SrjeMLSoNXhiZq2amOFRfP9uwU_2Jd1SCtgrICT18KOYTU5kzqhsC2a_Y8DkDv3rW3bU823nGw0sxJg1QkjYQRhYoXY6FLzqfn1RpAAUoNlPZrez_CXJUKoHyiVgfBPMa3Lcw7RmoffHA_e5ZKXYxVdo84598ehPEgFDzUAMtls9oQX5SILuwikFRQBV1MzDzg1KkN00pXu2jEprQ6IW8vpotdAtFSlGs_97aBfhWJ2DISYhxLWheUY4bZbrmF9P5_1liwi8foDg", width: 4032, height: 2269, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111930077344143601398\">Red picnic hostel</a>"] },
+            { photoReference: "AWCwydhsy0xQmdFiR2_qrJJzswF3EWs3WxftQl6hXpTa1R4ZHW3iLUjzAHxdTUX-JBq2v4CFaIIvzwJYTRQd_XYg73wytNeNBLdT2Igtuo0onxSH28szo7fNdTtYGM2tYnaGZuC-seUHRIuFiQ3lhUc8lMlMG4g8Va0Q5FTVobLcR3EJX6yQNtWxaxXiGkUTcevmi3IgM_qCrFsPe1tcpB0qYjit0vw0UmqMTgDRDLcBEEyywyr3d8tZTp1GPErOMJYYDOUN1cPgX8wN3rfAJXJ_XztWtB4lO9XfhouQJ4lQA_pn2tSUZUHFx-4k297j-SQa-nZqF5JL30TTMH1U8OH9UC_AMMHttpMO3JcXZ9_kx8aRPIkhy4GNGuCiwcmqxOhy5kfgFeeSkZ0jeI4Lh22IKtKAgZ-cpl9iQ5GJc6Dq8sLM2w", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111930077344143601398\">Red picnic hostel</a>"] },
+            { photoReference: "AWCwydhhv9eJy6UzTlrpqtUrsDiw9uvH7LiffANIRGeNQb2uVjJeEsIRu6OPTd1GbvA6q3_ISFfYge1bOfP-uqOYA4DPwRh94r9icWZ1fJBVLK_mOYOfXSE-bk87ErxmS8HrXTVnfmRNwrRKLpyvfWcMM4E62-hrpsiZ5SUAorCujn72On67dUlpT1I7wOmUEKHID6eiSgL6f28llAYFtec5ww12AB9Z3q5ZSVAe6SC9ifr-8PykPR5neZWeUqMPymH_3KxzaOET3eLWCYjox2ajcN-ZQB0xysC4lEEB-3ETwnMBJu4ZfLARXQ5GZyv1LEt0kdTb93thMk4DTB15lNCqP3-Dey49UcktIdmzUWEpSJDHiThnO5L_MWfyCgz9ThOrFYWN4WGg1GQaO0ZuuyRKKXgtS-8x4pC41tdTZ8vyGcU8FP1OAeOwmFrRMbO9T8UQ", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109017943325876323883\">Jos van Maanen</a>"] },
+            { photoReference: "AWCwydh3ypxOqOE2HVhC6XU7yC8fXStrXvcvLoadydCAVrNC3ItAjaSqhXRmjhBSNIW7FYtEKcWxhr_w4As9NyRJsan1T5NIi5jYiJG0jNW0ZfbCscCdSnSF7WgNM_Z1CPek7gzPQGVn-jmPA8FOK9F33W2nB3O1nwJKt6k1ok_tJSRkcadI0QsTjWjcARiPbc_zdMos5Uj87hk-lPSJVPzwqaPticRoGSDpGrpMUPUG6QaLeAVQQ7XgsvHRmd5H6P6lRqTVzafrkVD8njCYkkGqFckHTc4lZtyrRNIXD0JJjbdJVCGQpGjbXeOjCkwpluKOrpzBPzlnNKmyT2yUA8GFoQKMyH0-hdz3_x7ZgPJy7HmI3pUadhRiAbkZG7l-h42UMxS4Xh6AvbnYXRjWhdbA9S0X4BmHUmtPZXMru-lNJJ9KpdZM", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111268422403214905292\">Maurice Schramm</a>"] },
+            { photoReference: "AWCwydhtTbB6hp_5gQEkOgE6zV3dS8GT9yMnHFHOsWwDj1LojsVbjICFr6Fw9VMOglD7IWLIAEReb8gKAsDOVh_WuZG-DgllDDsTB6iFCosyuAiGhUU0xjTuCMly4NxgvOuysZpXIwg1VkeOHebvY1BpbA-qSOze5TyGme15T6kX6fzMEBtoQCoXuWrAvGDddRVs7zKLfzg4iWnDstLwhaCAoCpK0MVeoJ8LzGpmCGxBzfe8sl8SQByzgEXa77alDwSJo2vtbhU6g7Cu_NXB1ESXZQuN5DY3YyoO5CTBPEmLeAr3MVNPhaj58BiqPFTnXAgsIFWWMyJSs23huh4_ZhWb2ciCU9EXPsAxtXCF06bV5HqWN3Dv2w5CYTitpycGwx4R9_PE-zjQRzhum3lpORbtSUU-mQCYA_di-7t6QDZnvv_cRqgtnXvP7ezp1-zQDWe-", width: 2700, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111930077344143601398\">Red picnic hostel</a>"] }
+        ],
+        summary: "합리적인 가격에 수영장과 공용 공간을 갖춘 쾌적한 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗한 객실과 에어컨 시설", "잘 관리된 수영장", "아늑한 공용 공간과 당구대", "친절한 직원 서비스"],
+        tips: ["리셉션 근처 공용 공간에서 다른 여행객들과 어울리기 좋습니다.", "수영장에서 시원한 물놀이를 즐겨보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Lourdes-Libaong Brgy. road, Panglao, Bohol, 필리핀" }],
+        location: { landmark: "Lourdes-Libaong Brgy. road, Panglao, Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://redpicnichostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11847361959789474114", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EB%93%9C+%ED%94%BC%ED%81%AC%EB%8B%89+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비 마이 게스트 호스텔": {
+        photos: [],
+        placeId: "ChIJvcdDKQCtqzMRISUtjpbyj_Y",
+        placePhotos: [
+            { photoReference: "AWCwydiRJOomQdGd82VnyT3E8yPNLBCrZ3fhTM0yLFHYDNJCUZjDo5TrwpFsrrZmypGoDYjPPd9ORHxNQGkT65aIWqgxXlRd52A3nAbd4eO1LkFQsrhDFKVrKrdZ8nhI5q5b5uzyUkKQUvhaWLVDiXql5nSsKAzVzy-fRYlfNpF8mZpByPMwl6CsaHijVVTdfLg0qyyje8MaMGls_5pG0K6ikJsIlUvj2cfWppoTZsiDmrO8R3CJWet0xV4WCj7laeTS5RPc-wz-wZjPlZLLZeZVGR6WgTFA5XtUnNopV5MQbAH915RgsCnW9MkBd6fgJW1x9xzJB8ppN_kcQ8OZaSCTP6pEe29yj99yiIBWVrU2KwZlnDEAU0_R0swqJBSmseFbOn87grWCgQSWApAIyeM0LqwW4L6AbyKh9yeso7PoB6kg3sj9", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108726544168119990671\">KAi AveRy</a>"] },
+            { photoReference: "AWCwydjXKMYc4UQ9lyaeet_uczCakvJKORZVkVRZPcbAm9xT-OsMz0dPuAFv4xPJl1yoXXHnsba2zFp21P4Cht_dMaXCZhVWcVFFv-eakLiGJ1m5jRLab0bCIg4riUa9kylulHK9mCTQ9VBuaXPH_Y_e4W0Iqmd7_ivyzl0tYAh5UPFJjFCzrzLQg7ulB6r_iX3DpO22Opr49gMW3U76K-1xkZAcjfYIT1xwMpfykTuip9PwdUF7AtCNoc7qhYRarLsjadS5Ok1Xh8dtIKxjXAomefJenWjp8JF8T5KeAjUFYZwK62koKhP4WCp-NGgA-Tv-hHPpamTs-DIcpVVMQOrs3w1WqoSCc8BNX0wT47OGUwbpq1fNWaT3qz7OcniKZA-rMjx5lgCz0OSsW_WdrmeqRWOcEEnbb6g9WeLRJHyBWPAF2NsfF1ZfzUhi1SgK0A", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100051159191998905443\">Гузель Хисамова</a>"] },
+            { photoReference: "AWCwydjyV_gMxott1uY0xP334qQgEI0I3or63YLKE5ql1AYV5lhwjELLtcjcpAG-WI8jqNX3kTNjr--nP4jaxYbgxlQn1snFnDXSR1ZlgG4faNTVjlOhJsnBR4HCS0fZKtVVPaSe5CBkohZYtKAI0b3qXb8Ix03X1NIRfGDyBO1DGIwuLmmQgKZy8842E2RZr1adjSKwWaodomnN9hHxWn1Lq7Cjr5TP3SkAImKEb-MAn61qYa1LWhdKDDv9e93dmsi-8hay4W_MuGyruPBDaOs09gxEOn7M4v3hQEA5SBB3ov6nqZvqJkwtcv-N4_q5Oe8bUehSD_Sa1kdrjnPu4cEuQlB-g78upI1ig9KIXuG7hW6ivzttUeXghPVWoAntDsowVFr2fLup0QJdfgKWRJBRvjL5tzAtBD8TqRx3O_z1NzA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103124543878272975420\">Be My Guest</a>"] },
+            { photoReference: "AWCwydgQrQVpkCb1Q1ip6zDhuPm6HA63MML0c7G3pKe9_0hSrDqzxJby2mdPW17dMgib0SXhv5MfAdXcCUdIvfaOcnhEAKc97BAzoxntIRBX3iJcN0ISW81_E3hfogXmGpVzU5lo_l9em4l7ofxghcJFS-a1xooN8BwqtAjKdIlZTmWRbkiHFDvfVBcjxnei3jp1Y5wVTAtLOVyZN_21Y0jTj_DOSrCRmjQHCUn4g8gwDrOnRViT14_1UdLzDSv2OeSGQhF7aicDTTBLQ8BEWax9U0YVZXtoz9ExXN7KUGMKZRGZGzXyhXcK2Kl3nr3cyQ2eDSTmMyrUooFUMqjrxSrec3eZtSoWWjk-e7llMO4w6T7mAfyhqCCBFofa9j9zzKzUhdRELKKHbR0GnTat9ZDR3DnbbyksMoIfkYMieEbbP7nqMzQq", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108726544168119990671\">KAi AveRy</a>"] },
+            { photoReference: "AWCwydhDpqK98bnwuyEfWcrmnEA-rClWFa73Al3AqRgTu_DJiFnEBn267QqlR64HxYwAlMSapoHOTYnwt_GlrVZ6TvHkmE_uOXpHVVRi0SlfYeVbHFTaZ9PLx1zzEB5hwTzYqzFCF_k3jEYlWbJDQg6Y4pM3kymPBVNB34LvoXFcEm5Yb9E3eROf1xoUuJwNtzYGy5_Ni3oJPGonq0nNYYKXo0Vvs2p_3yrWuAtddtd8uJKXMb0mIbrYDrdZzI2a58osaGEbCj1fP7uURhHo9i0mSbr0OrRuoepfuN6Odj_4lN4YNfqgDoMcvRMaiYL69g_wNcP6g8Ok3j2FF5ONs3-2VwBAfxGUICehXWWOszE6ZHgvvOVOHHNXonwDtraWRLDuAi3uVZ1hsenFDwUSNNbfBM91dIgmlPDUR_np2bFi4Fr4Ew", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103124543878272975420\">Be My Guest</a>"] }
+        ],
+        summary: "친절한 호스트와 깨끗한 도미토리를 갖춘 팡라오의 안식처 같은 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["집처럼 편안한 분위기", "팡라오 중심부 위치", "청결한 도미토리"],
+        tips: ["스쿠터 렌트 가능", "호스트의 친절한 서비스"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Purok 1, Brgy, Panglao, 6340 Bohol, 필리핀" }],
+        location: { landmark: "Purok 1, Brgy, Panglao, 6340 Bohol, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17766685783444235553", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84+%EB%A7%88%EC%9D%B4+%EA%B2%8C%EC%8A%A4%ED%8A%B8+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "LHOYJEAN 가든 호스텔": {
+        photos: [],
+        placeId: "ChIJsXuAQ_Y_qjMRmhAEx_prezY",
+        placePhotos: [
+            { photoReference: "AWCwydh0ZyGdzMJm_wvAG3kKN0I7_uLhP4mo8P6dmVD2BO_3RNTmPBUYr1WAxbozegTojPLT9uXxiyWzjiCSY-EPRe0e2d7SE63IdPJJ15qVpciGSxMbGXHoytyoZg-TrfoeQqYh6uRoOq5spb9cnjbt5mmqOMcPOkg-JUYSOoPKWG1WrW4PpFh3BhNAzMBb2b8H0pE3ajrOTm2wwfvbcSiWEBHQUmXzi9-XG_NMGbFQsC8BUK26pJxXsU6Lzu-sVBsje6ky7cwdzBMoozsm-YVNLuwk0wqU8SDmMTlgMDJCKmBAWToXK_486S2O2-LdxHDxPXQNoyrcPSN4dRmyMfMuJtxbEH-f2MK0uvmzYkHZZAIIvEciYm4uooqgK-d7ragUDPNsiyU9fpOCG5pfzLM5GUpRx6JXVY0hbDjZC9vnb9SwLEgx", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111703517119833090224\">Melody obadia</a>"] },
+            { photoReference: "AWCwydg1LtA5pUhCqy4hOS__kQ0Uqs1jna0ksu49_nYVG_8A_aygn90otufDKQhcWcVhkI0_Xy3uu5Yui5A8NONCEq-QUf0r_zLJvxQaJvqHsu50uH9wrpQfxAuTF63MCEkuKeI_YKrSI9kV0uz1DwqIO7hWnWck4pbAat6easqdWP6Q5GlkVh4NmhTcbu8QI87Ua5OkPEDnNX-fno9cwjz-abBmXC9INXK0bXuuRN2V8nch9GjOorMmJIb_nNygsqW_lG42Ip8k1531b05mIDsOXAzqXB2fwOQLYQdTtSGTLmtnAfajTPs1JLgt9y8vo8GlVB4NbhYR8FgnpH52Hpw4R5FxYGSnXlS5H0t_fcDgP4-oc_bPl7hWF41BjqF1bbyiEggnQmjtnm8OS1phJPjrnZlsbiJ8NbdtDBRwyET6bX1hWDIb", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104045959380537044400\">Esra Aktas</a>"] },
+            { photoReference: "AWCwydimW6Oz-kh0BaFrZIXyy_DEdv7hr8Ah3HBpsQVpEdhLZWl1IWkbcfgZCsJnvLfNjfNPWN20weO-YoNy-OlAoRcgmPfY454T-3Fc3CVQTlbnRAPqIrw33F-RTiVF4q1cGCz5DkQ6H_jqPsqiWRVCYjTpw-flMj5Rra5yY5JLXjEbn9Kts2mSvYD5uzP_N8mr312JnoJ7B6pMsVHaCDphtJ2RIkowPnJXdVFdtNy9W04vF5OYczC7fl_KeVgClLIMZYhHCa0SBEKV292JW-WWK7XHXfghh491iXyZ1IXFq_0LxCIwz-XmFqXo8RZpdW5JKNSNKVTy1Tt5Pe907m50ltWF5lxyyxpK055HPWpln2H7TCUGWuRoIWrIVSR-eue1GszTY7a92WMwGfcl-d0oYUJ0psffCAD2_2GHqE7YfNkgjA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103740286056394963896\">Alexa</a>"] },
+            { photoReference: "AWCwydiTYINAW35IhuZpUxbAKEDE1BjYqKqz6vHcUnufkhERj8uFhahXRxAycmRk9y4gojiz3KX4_dcAKzKwgkfrl0AdKqutZ1Zx2MheMNaDz8sN2vwvgRWj_0lzW_nzp7uG8ZN3vnencjfzn8rm3l66HVgrRHvmSX5iq3KwgwPwo5mbcDKv4h76eDslNSpYm1uyixJLr4I8NP7aX2pQGsJwB0rrKEI22rbL4oyZ5nIvpz51H6UAmy9eR540z8dP6Svgmx0LQo1SqGPMXTWPtNeqVsyGYutS2HRC3zHfyzpA6gPO0LMD4aBWZ_87C_J1Rdz1r--yZC5p-Tbue_aB7LxrRTUTPI2z8HLfGw9WhGKpmDRi75lqNPiaQK-rel3TzDjo1gDay9v0wDgRCe10WJ1IgoEQkl5d15zcXD5TaWyhb9SAvg", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113850894968202833636\">Emma Withers</a>"] },
+            { photoReference: "AWCwydhRc5_srHTI0GfcdeYpNn85bM5GkapgBYZ8kzCSzYk_9F0FRqjCePpbUJF8Ca9KtM2KNXuiWK6Jp2lj5B3mysY0PYb6CnDIJDKEH_zQHiWT6QH40WXBzv32MYxGnlUa77r8PmK6vFyRJp3gbMu6DFR3cfK1kbY0wLGwOpydp82lUJjhPCZoC_0KtMdX900dnEy1bnJJYJiMOSsyxCnv4D6r_5KiUPpu0B8XD9TjrFZfNe0ggNtbdj1scqdYZUPq6-bXuzJvP_XXKY6JMW0_wUlPvlFYszAgxPKvyxMCY9rz8oCbmYm-e_TewJlRyOP3gd7gX8GuKLzg8IlVJyUkHdotoMl8ErSQHvZYMpP0SC9xvaamXkAOpXPLOkeKAlsasGiAm9_U9yAx01FBwnyIH5Py54yqYRGD_DNWqsJfy47f4w", width: 900, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110667147707729244339\">Jacob Goldman</a>"] }
+        ],
+        summary: "친절한 서비스와 안락한 휴식을 제공하는 평점 높은 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 주인과 환대", "조용한 분위기", "훌륭한 인터넷 환경"],
+        tips: ["현장에서 스쿠터 대여 가능", "조식 및 석식 예약 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "필리핀 보홀 바투안" }],
+        location: { landmark: "필리핀 보홀 바투안", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3925850225008447642", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=LHOYJEAN+%EA%B0%80%EB%93%A0+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B3%B4%ED%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

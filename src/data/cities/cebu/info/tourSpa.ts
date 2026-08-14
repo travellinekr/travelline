@@ -411,7 +411,392 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Cielo%20Spa&query_place_id=ChIJZV1eJgCXqTMRMWQEZHU8y70", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%94%A8%EC%97%98%EB%A1%9C%20%EC%8A%A4%ED%8C%8C%20%EC%84%B8%EB%B6%80%20%EB%A7%88%EC%82%AC%EC%A7%80%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
-    }
+    },
+    "레아 신전": {
+        photos: [],
+        placeId: "ChIJPwVVvlqfqTMR8k8YW0-7Luo",
+        placePhotos: [
+            { photoReference: "AWCwydgjxe2ZabuTaj1tMyeeZIvgjMa8FBvq9wvNsIsFPkK9pn88ZHr5NDLeIkY1Iv55HiZzT4XfB1hMNpQFCKKDUjOdWZCejiZ55wk-iLZUV47e7BQfqpgL4CssS0wpZRD_4BDAhUhu0GTN2NPF2L1Aj13gDDIbNGC-O4cL2kAKb18TT5oYpfGr46fhCvmv3lqmbscJaWaZ1s6ntU6h8-2Q_GZ1ah1rOjc1-_ZkGSgBnviq9d2GNwBKaVUvj-EBHcg-SpGPce647vbv5cn9FZ4PS0MGAWdwmQPKOd-utjalyJNDe9ye9lzbeNlzKRbLiJ814xU_bdwPEntuxrrzJ9MmuYxAtw-OuIRP-qflbRvYway9xSnk4y05oNUFOa4DvFTLI6epI7LYoBidwLLCHBtPFsZRBdAYwPmgj5Ly2Q_RoHSq6Hw", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106858064326823892626\">Michelle “Mich” Esteban</a>"] },
+            { photoReference: "AWCwydjfKb0BtDiksEbTbEl5uz0186837Qm4kVg0BZ0-xqEf2z9M8P0kDFhgRn7OtaHijkXhdgkZhqsJc4XQGVBHJYGv7cuWOvkDgJViiTFtHIPp6bYEanrEEx5i9cZCvVfsS5rQgW-8qgfp09uvWGexum4fGHjjF0FgvnzqCVMZEQwQZ7NTvEMvVs4JU4b2HV8NJyl4Nb-6gg8799Pmy7EmQEkykhhhH4ppY2rolATeWLYQsj_1XarArpuQWUVltJNybosjtQrWVd348H5jA8aCvfK2xbkiWCm55G92YUujm0TDWnS1DKf5L4r3vYQdc2UetJTFVUJOVQ5t5aL50mvPxA4z82GkxDtoWRx0LLorTCPCKsZXPghi5nXIsLkSNuNcM5fY9CWzRX7DTh1IDr8rCLzQnzQ13Q4VzaEO-jeDiCr7fU_PwND_L-Nyx21jc7yG", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106869106693472134864\">Devasiri Fernando</a>"] },
+            { photoReference: "AWCwydir-Bmb92PhBt0aK5GciYQ2akUJEPVJCTL7-eH-WvxRfkDGu_-ehfbeyUo91LIe1N4mhUeC_8XIIuvTVhvzGpr1DBB8DmTvPD0lQg7TkidwEfB8RcqZaKToDC9H8K0BGkCfLoeqiUnybPmKyNvxEiyaHrSa8eHwutLTqYZCDh-g6LqMg-mLFfWfRYkyzviiXrO1sED8k1YaUHTrpVkJEo57jaTvfANI6wfa60pTU1FZW5ffmRXgoAZxzgnlE5fz6HmrDquMjZB3WD4Rvua-JVr5QsAJoWSzPOpggL8dvTf7_IOVJBnIQKdcDDnL2gAH-wT5pVDOz_ZldK0Z_fc3DZlLuflF8ZZopODWK6wTdCNMEJCvnaRZ-4AizJ69Bz3dBZVDsTUu6kEe-GIqa9Fs6bxA_4KsczA86YHNKfjdtRF31Q", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109371041063491896441\">Marc Liberts</a>"] },
+            { photoReference: "AWCwydj9ys91DSx5s8fvzuIPuAQL-Ay7KfaTCP_Lp782vP3cRxYXsNQFGixWLp0AggHKYYwL_MM3ONLS_GjuBWOFrcp_VD10_mijJAAduzk45tCucqBHlvD0SjPneR3JWL4Rq-iL1iiqQxmcXEZpGVEc0bIyh4RKy0yjatA5M1rIOLWqdUwqX_Y98BMwCTbiVtDW1j2rkhZL3f9WlTNOJT0BNXVFDin5xOtCTnbL0v3BWzDRPG6Ms72PtRteIOSrhftYInj-J0N8_DRmZlTitNT4eBP9qPTzmqilJQj7DEUK0bSnjGUgSoJoKhK8OuMNiDrTjRmiZdl6_4dvKM0aZN208uYFPGbY0gR6QphI459nrYdm9CfBFrxQXWbjY08H-8J2KIUQ0-pYFcYWb-IB5NkIG0kxDRxx-20nf7E1NKcW8qrl-g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116742459129699508227\">MaeRachiel Gabato</a>"] },
+            { photoReference: "AWCwydiEbP_4Wi1ju3TCvlo4kKPFbLVKjddBUm8rgUp1FTR-Y9mm5kXRwGsYMWbhUTCWwt_hKFqeppBSmyXGyymEZqUBlzB8yJviQewrkZsESvI5VBX9k5JnFxPAHH8cLWwfzt-r1TDf9EuwPkoUkmqdlOFmwYGaaQyDRQoWbfVTpT9AHHRXeK7GO6lrDARsGPBUNfW7X0dKNC5FwSh0xZWZEak1xzK_qFfMgD4MAbzl_N7k2DUi22etKydUDIeE5L5Qsn87Wxuc6UoDfF7hAvRcfx6cFUdK8Fb11lTp5bAaQwz9PQx21aCqIh1sHjZ5h2ciES7jHirP_uo_t6jKuJU0T9CZBUqVFmq3vDEK0W1oOzpeYt-uIalJDiDUuKLl3Rvpi1LynKMgIQIg0x_VIlWi9mFp83kMYxDtbIenUH2fqyt4QQ", width: 3935, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110804059554024352797\">Rub Valdez</a>"] }
+        ],
+        summary: "세부 시티의 전경을 감상하며 다양한 수집품을 관람할 수 있는 로맨틱한 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["세부 시티를 조망할 수 있는 멋진 전망", "다양한 여행 컬렉션 전시"],
+        tips: ["차량 없이 방문할 경우 하산 시 이동이 어려울 수 있으니 차량 이용을 권장합니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "9V9F+G8R, Cebu Transcentral Hwy, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/TempleOfLeah/?ref=page_internal", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16874630803308957682", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EC%95%84+%EC%8B%A0%EC%A0%84+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마젤란의 십자가": {
+        photos: [],
+        placeId: "ChIJQVwA2-ObqTMR--ZXFjrCXiQ",
+        placePhotos: [
+            { photoReference: "AWCwydiCad9UGOi81PMTV0m0L9KPDYz7pd04V8-Sg-bKIqhwc_mcI3ZOaJiqXw5HGhA2z-f4lS6lO8vCc9CXmln3FBIt74zXae9ShYXo5ebchZ4d0BxV9Q9qqY1CVLfwJF-PGoVTvbYjfjRzoL8Oggxk7tBfgMFxe6Zm5W023ZBeXZ5DSBX2AtdYu5AMep3ZTnJZbkXgdxjEUTO9Vq6lOW5pXm2s8F96hlErAoPUH8jXVBF3M4WzzpC7srefJH_2Q-HEEd05v_e5ayQFq34UmWa9vbmROmbhEYkvdLvJ6Q8U1jmR63CcTWDrdho0P7zheueTjtMf8tLeIX-z4wiR0AGEjBvDelw7mzE6qfWcfzFjL_s73PUnuugIDvrTkFixPIbyRNMb847ZpHVl4FkxVySmupcfnrRYXmdjYpF9u12yMnbyiXcRO1AHV3uefErVCmtI", width: 1024, height: 683, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113287654117929011114\">Dr Dhelz Salburo</a>"] },
+            { photoReference: "AWCwydhfmT7Dk1gnLXPvYT4vo81fPa-t3o5KAxzPAXzWU7S0wczDxLGzQS_CYMfQsVbADnaQO5bkzf1mOP-bbr6cUv4fBTCuARGVsvM0jDdV67IZIYSHxFt4o1dMi6cDYihveOWcnbeXW9sEzQgJDaI-WlSQE_V2j0nFIvJTYVJa-WGeVb3QH5o1IDnk7hynJNKPiVMu5lnI7xrAd786ms2OkSVynRJcl4u8vl6dG1PNh0FMSqJJ1XTJAQe_sDNz4ShyUEEOh3xIWBVmPtkRZw9iSULjle22P2sanKaa7D26eCUJVz1lTm-7FctjisWWn4B5_LdLve5YYS732hLnSVuhvDmnOuzeAKj6_IsFmvemKMeSGOogVsIUkngPThRNEX-LB2iMvOPOF5qHGa5_3PVKOiI-h_urZgW4eOyKTcLsXpA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101926516343744679780\">Edyta Morawska</a>"] },
+            { photoReference: "AWCwydjyr_5zwTMaastvIYd-2NQi774SJOifqBODJdtFIVBFsxL_meIy_iKZA1_rF_qg2pFlD1GMgonKPgQhB-rrSfAo4GYcxWB9TGwxGEoamAiIKtx32Vn935OaYJa0bwYX3zj4_uaWDjBs98mTRo86Bow8loA0a-TwW1564chhGNm92YRD_l6sYHeTm20Sc4faZKmrgKFe_PJFkeliO1keJR-zMDAEeWTDYRiRt-0AKYiqN_AaGerFvppCL6EtY8benrmezp8QUY8vkOA_jzNoOJjqfJ9jtsWWHoLd3EQrvD61Z9uJEQA24GWz73kVasuRH6drBcMirbus1bcB5Kml9c6F7DkqYb-cJUNqrL8DPULMbfnh3m-PfZ9AfFH__Mb0wqnQWYN89cwUNbMD-P3Of2tPml0HGNz1zCWoAidjSSWX5ewKf3nIuJLqB1hNeQ", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110038883903204269236\">Gorj Supleo</a>"] },
+            { photoReference: "AWCwydjJhthxyj2n3bZMI-tHFHCUwdZFEjdBIenLhJJwp_H7ZxgfpKsjv2LieVVcefGHR_3Bc0Ge4fp_93sJAExbhvhZhIiR8uHlt6CLKkIAVP02GSvRmafg8hoSRunb2LkExTZCg-AocfSrMuxja4KXMsgMKK5cxCEz5wRWm8pGsbkV_SsgErPDu1PGd2ehmjJ7J_2j7mqqr9Ia2qrLlzBOSM28UwMOThkIKAZvwI7cMW1LO5BvU3qmsupbLXdszVf1swqD4ntKA1Z8bcoFKoyT9592l2CVgsIhlJs0TqsbZpZ1hZcSisL1qJwHsKKSR0WNBoGlHMBVa-dUjIN0A94HJ4mThHZOZQUTZNw40aKlMS1ZIBVqMYL5KIvvKwYew_vx8NQk5usw_STj7TNd-eHTpM2lW_IaOZuWiLbE06sju5g", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100429448709315690326\">葡萄</a>"] },
+            { photoReference: "AWCwydj3LcaLItJ3i7hxpwEX-Ah4eXYopVgeRL1xEcRD4MQPCvsOvUTx3xAmpGMHIXNmpiEJdHUKBudlzC_ciAq6v-UHvxN3MTxfmTJsHlmlojlLUBnVTwZ9KQq6vDdSiMJ1kSOsaw8WfOgxFQcgShsXjvYwz79zVqMajVyIxHqYQIePWbKCyfH9BoTvOubym9M2HrwsJFrw6AqQAN0DJ4Ejoc15Q-tRbx2-pc-ftpj2JBn1-dxQqx8PgtBWOE8F4RCo691oOLG-Zu8MKGn0B2WIYzh2PYegHLoXLOjWX0owk9BpGr0ATpPQlBCjT-EtT9WMH5yk5H4c2U1govwrV13lJYAUzGMFvX3AlkBajpUekIhNpgbz4GB8brPdszEeqwVKiGO-yFKSt0N6VmdoX9IUm7A0YxE8lcxp1nnyV3dGLnQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114235074148257803307\">byron Cheong</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 보유한 세부의 주요 문화 유적지입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["도시 탐방의 중심지", "편리한 접근성"],
+        tips: ["주말에는 광장이 붐빌 수 있으니 참고하세요", "근처 기념품 가게를 함께 둘러보기에 좋습니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7WV2+CQG, P. Burgos St, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://santoninodecebubasilica.org/basilica-minore-del-santo-nino/magellans-cross/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2620745587914958587", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%A0%A4%EB%9E%80%EC%9D%98+%EC%8B%AD%EC%9E%90%EA%B0%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세부 투어": {
+        photos: [],
+        placeId: "ChIJw8t7qCWaqTMR_FwZ_qpG-Ig",
+        placePhotos: [
+            { photoReference: "AWCwydgMt651o6s-QzGQqYdiRZmW5aT1pP-8Qhg_7XjMIH2yZvnqm6HRzcW9-61_MyYcFREMHmoLNLg67pRV2hjIDw_h4dQsi8sWyJ_IG_YbJcQ9GNwBBIdSEIj83r-XY70sFAjG4WWoEHGhAEp_npsaWLvEz1O74u4ZFnOJiRfF2Qn3skJlHydpa2bRAtTOak-s8qqtQfkkj4-J8hih772wYuGNww0wySbOMmDRi0crlNjX9H9t5P2UYhxouxeGVsyiguXwAsDPT09fDgro3s_Q2e0D-8YxcoO5Zil7k1Q2fjXb6PwHSzUqaSnLNuPOe_P218r_3vlk2CIHHWbunq1r73tS83iDq5YQ7HjUHmAvUNH381FwGH4Bxu52Mbcdr1yKHzvetvrLbPp7urYFcefry3BeWH_Tw1Yeg69rdZaMQit1UPtG", width: 2048, height: 1317, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115247084850400872383\">Cebu Tours</a>"] },
+            { photoReference: "AWCwydh7LdhREs6NLuNKKQs_m9HGolsRbPPd1OnlT8ygcyi6CR0Yt0xB4pgMk4Q1dxA1CQXjzT6S4LRg_sy2SQgP_MiBbLCW8tpzJYG907I6VCzlJcNIde4n9YmOHbi8oNulMk8heCRb1N6GXUpGkFsyS_O2OldfZQBMtZMQz8P67r40gGtuF8UAf5ecz7rhFQDRaYEpRytRExeb731pjaQPcrJnDeZjU2aCSSY6o5KFVpJL5HXIJ-Acs3vsrBdrZiNEVv_Xo_U1-8JPCFuG_k9MFE59N4bgdUV82vj5wGtsd-mOpgGJHv7gnNm4SLlLzAtcdytLo-rr5HkvG2kddYVQR3Ai6muRao9es_he46izU2y3FQ9XFsPmo0sQB6vxaPCjXNMpHFfXZtMRdAAIb9OosaUn-L0qG38pXlrGUiB9J3vGr5oHrtviLB9cYYmDNi69", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114079465939480915964\">Alex</a>"] },
+            { photoReference: "AWCwydgz52BdTlkyCs2bpP2cr8UN9EHW3BhcMmdSAxLEcPlmhcVEtYzxtWJk7VSMvmAwaDI4ZEDT8uqEDEvokcat4Jq-pNkp-VsmO8RPCCtjENVxqTyRAV8vY3R7mfNP2_FrogOSYHqIKnDe1x-jVQBJOeOKoKMRoqBYyzy4pj4QRju8lB1M51iltmJnCvYC4rPeRU_p-tz1jZeXyt_n93y3stBdnfUJGB18je0SO8meN-Nowal8waeE0Wd9nNZVHegQ4sG43pg4klbB-Ryd1DfGZ79L1-4hqoEYFZTY6vYtBKOdRvNL17E5THwurJOUUgPRy0WYs7tT6YlrBRsO1_yiJ5Zxhl53EIV_66lH1JDzMqIuDl-HX3KLXz5DnvZXLPb43v55oOqr5WjvVvZAJkotXMaf4dl_g1bq79dFI6HKPfmhKxtIE9XN4ApKQakNT1HY", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110974783435841613273\">Leah</a>"] },
+            { photoReference: "AWCwydhxXbVqghKPNL9k54GT_u7cGyzIJgUeLH6JktYoiyPkgoxaoTi5R9vlhlRhoDDXETGVrOJxJaJ8wTxnCzHlPTZNeTRQMB2otawlnpwe9N5zoPNTBd9Wgy1QUtoWKOvX12wbUojIW_Th9Ao85JgzwAkcPyrCUGTwoqr8yTU1_8Fxnf9bGV0-QKPlD3uA3GktsEdpfu0sa-VM0kejXvLrVDsn3DMNV9NhKl-WU3-nQT3cX_e6xIbT7ag7VuUmTctkYlxOeiXLYZsu5ku8UjhWQXNUnFCWrNzv3wI3aZTkn3Ha1jnfBZuViTXhuytrSzRjhCuBPuuxEZVo6_xLgqSEykJWLgDdd-fzD-w92yaVyOmoPVmVG0RD6iEAL5B4L0PdmcT8mHVCTfapQOeTRSLMlpbInrLKEcI3RLuC-1wsWuDuSobBQPSnkDtGJK2aNQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110974783435841613273\">Leah</a>"] },
+            { photoReference: "AWCwydhrH3911jLuMaQ2NNftIHpDgd0xMWwl6xGq7n_d6oeIG1OECT32IYjmPHQp8Gx_FHqi8Pmkzp4tbBdiBR1zKV-x1qnSAmZ1V-H8HmfiPqYVyBLHQntXmV4lo_V0Twc-CMVPYX8Lqvwhah9EKJeOkoF2q6ozNj1BisoKKRY4Eb40P2fa_SRTpuOswSze2tYpTWlKdOiy0cPn8-5QXIHcq_WH-cotlKbesfGjMXrp-T_-pIx0Cb__FAcv0TMOcNlou91iVz-VqY0PSvYKJtsdM6lwuQYEYYNavDPrGZeBrCb3wggvnikPmfuJFuyBxZdFjLgDezjptj8CqwjsPvDCyDF9leBUmoVJUnU1haBUg_zaBZ-q2g-Bj1TRxH7191qXwUnkotwZwpZqq4MIfnpfsllX64tcF9TTP65X17BMfq5pNXtIyDwnBvSFbPVQVDCo", width: 1284, height: 715, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101843526961056890591\">Marija</a>"] }
+        ],
+        summary: "친절한 가이드와 함께하는 즐거운 호핑 투어 및 세부 투어",
+        updatedAt: "2026-08-13",
+        highlights: ["스노클링과 예쁜 물고기 관찰", "친절한 가이드 서비스", "맛있는 바비큐 제공"],
+        tips: ["고프로 대여 시 배터리 상태를 미리 확인하세요", "이동 수단 크기를 미리 체크하면 좋습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "across Agus Hotel, Ibabao - Gisi - Agus Rd, Lapu-Lapu, 6015 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.cebutours.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9869716283603901692", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%B6%80+%ED%88%AC%EC%96%B4+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "트래블 세부": {
+        photos: [],
+        placeId: "ChIJ7824xPiYqTMRguMBAR543Co",
+        placePhotos: [
+            { photoReference: "AWCwydiJPfC2D3raw-MTUIUzIIpCvUjv6iy1UC04s_P7HoovxRYNvULdExv4HzXwDgT0PHLGOgCNE4kNZdTlnxt5Yx1gdAncVhMPS4nuHj4PIv8-JcBSOpoRl7XQtSCTLbhdc24Bd27aOtyqXIqnHBjNTPmhlQnZ_qBhuj8CcfbMzN9Oyf-py7slzw4ijl0LnaMzlJ6ES4bSSYNjXHy0nLbZ4FZjVZQm9_0VKTcnPbB1Iv3aFGDgFFr0KcXSjcw6UysT-NiI1H-536CNLNg189kfpnLIvVkEsW4DscQ6G23kG3djkjjt8ODvja2CgR4jpMoncIM5k5HuYBSr42spYihldYGwd5S9dyA-exPP9S2SMWN40Ro39ZUuFDS8sCPp3kBvOx9xF9SEQr9XIcwyC8KtcLi9WlLY2zNyfZwSGR-YG3WVfayl", width: 4800, height: 2030, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111832551854862730305\">Travel Cebu</a>"] },
+            { photoReference: "AWCwydhfnKfPd5N_iEmicSS3AkYQKLUkfmbP1f3oApPkoyNkxQeaBI9pJl6ooMx4ZMfrPsTGnSsh0LARRTlZ7X-GOk51Jhlzd87kdyh7SRwPArBgNFUCwpvfzF47jk2lfavI9OZB8zSWN2xpT8mlXSRFWKA44d5bSN4isZ-zYdhn3Xz_86uH40FIZTt15HMv5rM6rmmokfRAco17plXBcoMPUifqhYpK34CzZWqa4eQJItoX9Qi7O0l7nk_eGQoDMOaTVwIOif5BYgpLJ2EvtlYqNh3UJgwqI5XEUzrAsn8Yc7EGK9auENsDXqHO7tbGCa-kxuf4a4nyDK3UtcRhcDwjpNCxLk1ClDiqF8QrIu4ItSXlMZ3j63Q7BrvT-ZQN71naRVzVTIOfZhfxMM-HqJXNM3vos-CMByv4Gqo5oCfvEpVuj-6HoZJM6axhJZKtui8f", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111832551854862730305\">Travel Cebu</a>"] },
+            { photoReference: "AWCwydirLbPTvDnV7T1gYnUTNk1G9Bl24TaBp2vke7uxQ2h1k4o4uVlPYcVMc3jefLyuG1RTr4ssihVACMZGnCuqfgTS_yMh-xC8QnV2FX-Ud_7Z5kaoOucrYTTTedU0LBUgLV8Zd0DsRcg-dFrgNd9F5fgY-IEH-XYdwCDmdd6kmWpr9j5KW72rhsAWqlllqThHE1tcwuyeh22KETEIIO3Gnfuxsk6CT2oI51EP6b4Swd_stEVUNAveOnBoZwXK99IsmwMw_sBnSU_r6E_eushVGw_4tK4JUx1qlYt_m76_xlr8GeZFpLTEU-w6HBCkqIPgkXCUuD4-SV54H4PQb-gAUp-Zgkas6XPTsVQAKohTQqn69LzEpnhn9vAExuv9nVbv0x006U5JdAhrICvH75En65C2RDDT_oToUxYMEC-xSv6eW9bEs5ODQ6xQuRxHm85L", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111832551854862730305\">Travel Cebu</a>"] },
+            { photoReference: "AWCwydi-bghU2kKoKMkIkcYtO2Ldx8rSTvBSTb7JQ_jHMnO6Q5zTFfLNzZubqwUpo561ZGjYolxoguck-DYYnBuarnYHyEKoThZ17TVX_yMLtC1jcUSYhY8VIUUnmSZatym49Wjv9ORaMiH565zhDBG9GS3-xo6oC4YpW1FtEoV4jjVFN_ydoBCqtl_qYYUyajjZulOn703ZLK9kwrsXFtdSD7JSXXa8sJmiaxjeXeERxv0anmUzBZSKbXgpBdoIeZ4GWJALyFOC2zT-02Vy1egFPYTBWRD71DkKd5X9ManPuIeJi-sqqOwXUJerc7cNAllU3d52zaYfvfEMCfJ072kL6sQ_9Nv4XMAgGdtotgG1K8i42hIVW1pCMw0AeE7vpH1weftYXNv638yuDvfDQdK6csFjOptfH6d61ej3j2DULJ9Yz-7Igku2vkRD3n2lqg", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111832551854862730305\">Travel Cebu</a>"] },
+            { photoReference: "AWCwydiPlwmiwDs499US1pbWIl6JGXdVRqGEKnSl4eShClz6dTu1tbso41vCIMShlQwMctDf2I5EQD1IrRR6OqOoFDSyDY7u5aaXoVV_c_fNZan1tqiHFfPWcLYnpvUUEoipnaJrjoc0fvs7_mppv59PVFdUYTv05lnLpodqvWMBPpHle7iIidN3bbSw-Sa5BD6Ig6MHefKmBz3ZVduFSoP_tT_LfVtkdClfZWoVeI9TQH9IOlkaJ_IL9oNtwCwKgAMCugIAwwQNXVC5m2C7GB1wcJnMZ1Hc7Qc9M1a1geHA1OYt6h7iDViYW1ZXiQcHILpJgH8uzeHk5iA933ydM_V6e3LRmEzACEi9sfMUEVl_Mer975HkwoNzH01yRbAYHETPK3eCNLHCMVUPRvNKgEalI24iJ_5dLr0MGMy_DhHqZpzrJeEzpRxlypWbM4WQIOh0", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111832551854862730305\">Travel Cebu</a>"] }
+        ],
+        summary: "개별 맞춤형 투어 서비스를 제공하는 신뢰할 수 있는 여행사입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["고객 맞춤형 일정 설계", "세부 및 보홀 투어 전문", "친절한 가이드 서비스"],
+        tips: ["오슬롭 1박 포함 일정 가능", "사전 문의를 통한 맞춤형 계획 수립"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Rm 208, Tan Bldg, A. S. Fortuna St, Mandaue, 6014 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.travelcebu.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3088475514730570626", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%9E%98%EB%B8%94+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세부 오션파크": {
+        photos: [],
+        placeId: "ChIJS5JJOgadqTMRUJqM5_VlPyo",
+        placePhotos: [
+            { photoReference: "AWCwydiOtDUf8NzBR7MtdjJFDjRhvdoqt9RoyJXW_ChlpVOzGsB3vgBYvYT_ylurs3rC20toNpjfbO1fVTG2tJBdou4MAHxBdFNyZ2Rk0AIZOijONEUl1wO8PF6hqpk9VSD80LpdxxUgfhKK2U0J60TGk2Bbp4sxebS39e5Gh0ehZDn26-wfWms81x9nxCOFVpr5q65vsVOC27cS80DAwD9pKLiR7Wr_--MrxbPyrihsfkktxrcKKNvSxAVUMbg_WM3BRK8TivK4EN-KoOjw_wDclmorGLYLFYPZB81EJBMRonIJfB-Brr8SmgSrDJ8oN-qCVbzNvrWLNzPwMG9EakTvBxpj27HzZLulp68HF1RKnRvwkhahrHVvRBXn8yh2LIhWRgdkoHj_BTKe-Odu5Mz7h-1xum9qFp3olZZLErp6f4-Tmg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101691083004237216509\">Cebu Ocean Park</a>"] },
+            { photoReference: "AWCwydhIr4R8HcEzPIDc_pyCXU9DWC1mJ4EEECjZVdBl5Zh-OujpZhmGxZrEiNyL65mKlLgtQZ2zITUiqNrOg6Lraln224X_W-yeZDsMCR84BlGY5N8Hlo6C2nXStSY9sMt1B55aqQw_CDzqwdMAR3MctvS_dGiSYKnc-btrf619IluGpkKrFTGyD8mP29fIVMPvYsGXA5LUHzPOIpeb2UjdrSLuAVTiAuSBQP68-mK8_UKBwKscE2tQVzklnrpN9QFTFS3C6V8v0fvD4_mhviChLoQtTv-VgPzPjVT5R5x0Cd_dtFFm-E38mU8GFxbmZ5pTgd9-vMqnuzaH8jwlIVD2vPfQCiTmrGwLTKY-zWTnQLxDJRjYzqdzeqFll4x6Ei5nK5mhz-gQ-pStPMa6nSMJXj9w8HivW2mnts47jK0VHAeUd3NI", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116792473839804636102\">Michael Kint Alope</a>"] },
+            { photoReference: "AWCwydiW_CL4MYp1fwKUN241QgzLuFo5ODXTRNK_ojo7S6hdNL61mNVaE4P5yHtWV8uVFjwHtM8sSw8RrnZ1T2pyVSot4gy9hNu9nHbBke_2y6Vt-wQRsnkpS9UEo-vIwZQdlFFQUUJKCCUZJngWyzbJrKCaiJrzcyTZHiq9Uw-A8jMxvEa9y1qI77dtvl_q2i5wzU756Mf-3U0X4_SofElK6m5upEfmBJaeDjbQIC3FpZX4ur14unkErLUBu8L7iGgwLnJI7qKTZQnKyiXE6lR37K-R5-83-C-zDwjT1UwXfrJe9Rx4rEhdfft2bCBckfKmNMyztDj77DhAyp-GsGTWPSYJfbhimm7vuHLpYWVrZx95UV0QHipJsC-pqZrEbm1DeYcGksG_nh-Gr4Np8PV7oDd6Nzmfcpaxqxj65XtbgwItFS9fL-ylPY7xuEP0TAIz", width: 2048, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116728427836977663652\">李子健</a>"] },
+            { photoReference: "AWCwydh-GXAyeyeqNja7oTPG8DOwssHDHzVuBY9sGyLSEbwNcHaSY3vyTVOaIM2ThXDO2eZzVVALTnT9jwr4mF1TzHJULse4qz0mc90Tc_5wVEd2j35h8t833s03krpJG76wk2Y5-hbm-gKrNmtxqVcTkbyWcbXrMb_g99iABedK4YR4faCkYTFwCoAvQ9GsT89Nl-QPuzEDsN5fUrNRG1pRt6IaOhZTHUQIhdGD8EvQVGmKQKElYB9MGIkF8fIEB3qm3VII1SH32UXB6Qta_mlnIPvMquNJ0Yr6X2iY2tuGdi2eBL7JOs0ZixTtjFem-rObdsYeo-v7XarBakfBlDUI36FxWebylzvTpsWphnGP0p5Ypz9A7nmdDp6tmDJJeuNvG0DX5Ao-_KviWcUlQff8m0D8DHkB-VvDo7sucsCqp6k", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103514065269889903861\">金 Kim</a>"] },
+            { photoReference: "AWCwydh1TfZmRLVJMzaLnPb352i-ytwufbisEL8SWZjeBvcOBNIeEh8izNq1hDhk2yVKryBZdN9KTAPnTf4JqgNmq5-qq4uiZXfSc0SFdqRlIkmZU6M68rROH8QnoPUy4kRO_ChNmSnxybnMNvsmC5_0gIlHRy_YL41ARcXoL-wQXarZy19akHUjzcvv64nFpS0v0EXzAIby6F8xDU0CBmLjtQroKTv5PelSz_U91IYRT4wWdYMaB4XVpSq7nEM7SX7tb2XPPOAa3ps16aVgKhOhhXUM6JafleyhHUTX_cHcLG1LhUjeQwJ2cRYr5hgujAmgm9hdM3ml1VRChFNOzc4V3xZ6aOsbjMiwsHRyRPBX5CgQp9JgFyilTuEwOSrm-sVkSgZEKvMA0TgFu8RcaC9D42QNgsnk8_B2CKyaAFF02cA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116040906724864641713\">Kuan-Ju Chen</a>"] }
+        ],
+        summary: "가족 단위 방문객에게 최적화된 환상적인 경험을 선사하는 세부의 대표적인 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["거대한 수족관", "화려한 새 쇼"],
+        tips: ["아이와 함께 방문하는 가족 여행객에게 강력 추천합니다."],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7VJH+97X SM Seaside Complex, F. Vestil St, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.cebuoceanpark.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3044263979951888976", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%B6%80+%EC%98%A4%EC%85%98+%EA%B3%B5%EC%9B%90+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "안조 월드 테마파크": {
+        photos: [],
+        placeId: "ChIJ_y9nBv6dqTMRNSihzGB6L8k",
+        placePhotos: [
+            { photoReference: "AWCwydj2yIAl3S_cpRh4E82S9LU0pPpL9yI7DtqvBKtWyBKOtN7wMZNJiOxpFFr66fwBZlOPKkWiX3s7g5BZyuQTcXi9vSmIIcYvJaUIf1GUMKQFssF2fJgcyTOrnJJQ9hCxIlo6hTI1Y9s7MSW6TOEiLxZS1SxfM8rUjVIZzNzAqdDuNWDNrAfK3rX2sOpMiDLQjNjQTJ5EI7UUhUvkQHkI6k93LGB2uydrcozFK5wkC9lF2rpHzpb5yryLVeEur1ezftbRrgXw-m2Cmr_QU-e0owSw8ml6T05Nytnua6nt5yMj3ekYt2wdLFAiR2jZ6AU04ZYFA4GlvdPJeyFC9TpCGR-8FWK0FJFZVUOprdQVqT3QeFxfrcu7WKNYI13EWZoBPtuV8ro9yTVwxDYq90WR2uKphsx4JyM59JouVjdQ3pYNGw", width: 1462, height: 823, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116030677203413145914\">Anjo World Theme Park</a>"] },
+            { photoReference: "AWCwydgoNBgdmEU2NdVBc3P_nMUDxSUPnxRiAoTDzfAAAf6WOUR3bKQSHQtBrA88NT-VM0ihN3UCkQTzx7R6uog6lkCIFdNsmysTOP4deu-D0UEBoibWVTNXcIuPeSrbSSZKoQ6pMtcF4ricX8cR665JqC6SxVMoFgWGz0-B3ACoWk3RadQhVVhasjGG_yOrqxgAxHb-XBzZVh_a8O_xbRR2C9klPJYTZr3NY9vRYeRpp8-Mx0ghoy8sc10hJ8wPVDBpdn5j9Sc7obiZcvqv0-dtY0b84entFHHdT-Lis1YSePmNu4uPEm5hcysf_t8lPekoh_B5boJ5YcjafjBSByC7WUQ7C0Cuww_6nXee36xnGax5gCMcC8TrZncvlpRIAt913xeRyJNiiPtzquiYXxUF7AHut-dpj-RYicAdHiIEROU", width: 1080, height: 735, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105348237984960177704\">James Carredo</a>"] },
+            { photoReference: "AWCwydhFzeA6SqVhwFkNi4_0b4gGzA0QIUW9R7ZDQi0EDrRik4H6y7LlKLG2UK2xF0Zi68Zw-hkdSTI8gKvkNXiA37gJdpWf--RqxkihPVf6kS99VGoGnsSyJPcNmviGuuyOA1m0zmZgmH_fLd6GUkkwwvtA12QQkmerKeH_7tXz_g57xT2dhORMeIJrSv704eA0QjZjPB0Y1cmAsFg1dccXUCguTgNHHstH0YkGd1JaI2AaNBSLMaQF09PlAvPprTL7c_G1jBXS3Il1Zj6xB0vkbT0YXSa7RxBB5Vqsn7f2Tr8XPopDpfIjtVCBEnboDdzYUQ2UDKUgV2DQUQ_wYbf8M4uuyTDkVixdX4EcY4WK9rMzzrqXg5qd7VfRqwp-twlDDlpu-J3o_KdhOY67MHnFODZeUEww4wz8TdXEwmAJsskxIM-p", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109099552277809381528\">Lou Ser</a>"] },
+            { photoReference: "AWCwydjz5YzdfoEsBkbBvKDAUAs8tjl4q2889AaEI8ubzc8ozCjF0zjL_Uujvn5RdmLB8CmsHzBlXzStMcoaXSVXN0up4JYYZDgxHQJy-T1ulZOTt7Hm1KG1J8zCYuYwek-oWlqTaNh2PF8ArBsoEvEp1FmqxiQoq7Ipa2srsdfXQxnpCuTXbQgjcm7Cptn33NntauArzZOsCnE5iMe9XEmhUyvyQM2w3wpoE0Hjb3tiPhlyUYsev3LDY0-6q-qng7pE5rgmEucPHsMewcn_rNWfJIKaNP1YThAEzdb-jVB_VReGCjAlyEsqxyy8kiWLJdNSvGPj1DGLnQPUJ6HVuLHvPskOQsOUP6jvj7f-T1jam7TLPmAi-tQeYv3k_5ETMVHlqkyGn9jCpIFBoDnGc95LlXqmyi0hBoxgwILI4CvisbZOR78S", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117952618324573478646\">Maistrang Laagan</a>"] },
+            { photoReference: "AWCwydhzxtHsHIQ9ejglm7Q2pCaDhm7TCtrRqUBmFnNQIFLjiN-bzUJoo6RCaYwwttTQee3qo1r4l87YeXmHG-xRjrv01CKDOWgJMmujxkqqyrtVUXy0MtXq7-gUJiJmCNBVRtcVial6YXOihwAjNw-tVNDm-7nRtXNIGY5JR5pNA9Dhd170ttKR9xKsVg3XznmYCsZWO1CLTdhKbFseIiKpnYPiBeLtk0H63F0_pBMk8SobRkbazS1UxbzpX4YCDe12yCVKJPgGjZJr-gbYOKMaZP98T8VQWKwgydtOYTBc2Fm42eKDkz_xKVGLOhIF-KXMxptfmZpYh2A8BKc8iBXlAYZaZnbdQ4Mb10OqubDvfx_bJcV5m0t9lU1YRjztzTgTkXQAjSBOXxOOGBcAks8RmhSmEHPPTBkgkf62imhyB0Xqw74", width: 744, height: 744, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105756648896574922360\">Al Bañel</a>"] }
+        ],
+        summary: "많은 방문객이 검증한 인기 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.4점의 높은 평점", "1,970개의 풍부한 리뷰"],
+        tips: ["목요일부터 일요일까지 오후 12시부터 오후 8시까지 운영합니다.", "월요일부터 수요일까지는 휴무입니다."],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Upper, Belmont One, South Road, Minglanilla, 6046 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.anjoworld.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14496940281697478709", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%88%EC%A1%B0+%EC%9B%94%EB%93%9C+%EB%9D%B0+%EA%B3%B5%EC%9B%90+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세부 펀 파크": {
+        photos: [],
+        placeId: "ChIJvTvYdACdqTMR0P8I6SJaXi4",
+        placePhotos: [
+            { photoReference: "AWCwydghPvJhKRuKAuBWMLUF6MDNZuZ3kC7y5AGrkfJBDrWwAntMZ-pHWX3aeu3EV9CtL2zvBlWKBR_pOA07GSri2PwHs-J-GH3i622G0JEV-Gm7nhJ9TUuUTPPFI7FHplO6m4h4zcDzAf3hC-Xn3sYfjfhvBY8SfdBJenwu4XnW3fA-G-BlR1mSeFoNkiOHGAMsWzGKmeb1P5dIIA5Aej_LmWvP4H9dU5qEHRHPNfQdVpnXXobgu4ZQxBP_A6xX5Vi5u1x3XRlwILBjz5vY-5eCyuopABBdfEehyNMfhbVvcxlMgKwAuPANeROmlfOPFIi-SOtnW-LqDuKwWql0K6CMchPd8YzMTCBXbIIF2ckow4JIbR455zrtAC5ohKLXgMAT8DVPlGRJ_cmhTKD57g9LRh_356ZxCqlHPGOgiUpSmxXvN47nklW1CtJtnOlK4Ne-", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107217441750072069140\">Mary Jane Alburo</a>"] },
+            { photoReference: "AWCwydiuu9XPJceBK2iQEkHi7tkc5W7floEMFfDIILqv5fNwMMtdNyl49krF5j1WTQcBwxZLlCAYEKx7XGGZzwDEgdI5DWBegYsOPnIQpTerD7FhBETN3x1ray6mQZoG0QflK2NfZb5ATwInVr4gC7DwoOp_edgvY_lTA_p_ywtgOTDHG5wEC_ShtBfEb689zR56C4f9A06teaE8CZfU46RQ-r7OQtJJT4bRqeKdDrM4Y5BmpCAFq5-MyE1LI6atkCCd-HHQwOow0Fwyxg7n3vFkawab36Dh-3QsCEK1bNSbbRdeMWa7LyKsjAzivmBCckeP7CYFla1ApT47Pt-1xH8V-t1jXgq8GdsYN0RZqc5NKVG9yteu6O0F25gVpV7KPPxrjzwVHQy-tN84jKuwV6NpaCaMO1U8jKhxlVxg27XH-nebGfA2TeSXITN3HCzBc0A4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112538226108434976416\">Reymart La Cara Inot</a>"] },
+            { photoReference: "AWCwydh7226_NKtBeSrE0GMpu1Ne316RY1FiOmwAO5AA1AOotB4hirR2bkHZw8_smLKkLHY2EyF6vVQRYW7wksGoKgH8CsZ_ObEmeu3ZX2r4H8odo3p0IGGjLywAXh6Bhqsl2TjnApAOl2t-VwHvrZyBMQXNKWxur1oUDUbG22p_V811uRv5Yc7HTzT3q0jxxu5teC3lp2jjVE1zbrjpIYR1YKTBXGfyrYQ6Lol3DIKe6lsx4hXmpGmKxEc9sfojMffVL5dOK256mXmcTlLACkc-pAxWJOL2cSG7_nHvt2QsalgNSgQ5mZDjtSZLHgGNWQzeGe1nxlOrYuRJCtPhUOHd-R2gWUpLis7Z-cl_VetWqGlgqkEWVnQe-ZvXFurBhDqb69GAT43NvCJ_Qx2_jiN2GUnOVBsggFbdAS2FP17ecYfWjVV1CqLwLMK3Lt4wADkW", width: 1920, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104752602255257817479\">Jacob Ong</a>"] },
+            { photoReference: "AWCwydiw0Ysf0LQ-U26j0V0la9XcSc2DkKLUkDGZ6kHy1MME4EsfHgkwHsFKKT0p46Qm0qp27xeU67PjAlVPIGhndXK5Oi1kteAANOBOHANajDC8pDqjNdZQw-inoLngQrDZmDKpP8-MEtfOwGUYLvqEkQEL2RSeyI69t956XPPbeWW0irgAntk7Um621xSy4nTGelE4WebGD6KEkCLags7TaQmfxBkXD0zeHxZXeaqGbQyN3597UrqwsfumlA87mOC0W0ZGCzQgecVaas6Un2klBlv9wPgByUSKeL7Uv7Gvh__geuPf01jwuuJfEUm-2B3i-NCPRslDJXBPLRS3B8ebUOagP0imHhpUET8FtpSGQdVNXqTqucGlmMDAbODEQjvtR_-6boli6D_cEIK5YCB9neDI-oLpXLv4jfXQNznTdeTTg8HnLTXIEQktt-1_jA", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104038621379263121165\">Gary “Phil Tex”</a>"] },
+            { photoReference: "AWCwydiO9rkpXza6M-SDhTBBWvgTSdZHhm27SFZMFdQx2xBUngRDXF0bABQWHsRSQjsFKlgKu4dHQgGMMOgXvvTtZWyG2EB2JF-HTFAAS6C7JL2e6Pz8A5nSH39PQ1y5bwPjJtYj0lRwuLPOCZMzz0KVQsfdpPs6EQ0eHhqsiKGD6mF-6S0OEYFtf-3c0Rq5dUvRVhALH4TSpD7V3FkiGd96YQW2Q-a7putg2LHEcgpUiYm47GS6l2nyVGbWfjgwO5LAdV6RH49V1bXOtkBPRpRa14hf-Lu_4IgIzY5lqUMf1v6o0zeHX5Fpfcv-qNkQEYfQ5rMqY22-PplUvG3rwEZaHRppA16Ikk8WTD-sPfVOm-OKK5Tp_zYYWXroSCGYX-3QOig501JXBP4-s_pTv6UkCsKdT_0JQ89935tiJmX2_-GaCNLoGfMalxXCUtYEBF1L", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104038621379263121165\">Gary “Phil Tex”</a>"] }
+        ],
+        summary: "가족 단위 방문객에게 적합한 어트랙션이 있는 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["가족 친화적 어트랙션", "다양한 즐길 거리"],
+        tips: ["가족과 함께 방문하기 좋습니다"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7VHJ+R64, Seaside Ave, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3341207079540555728", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%B6%80+%ED%8E%80+%ED%8C%8C%ED%81%AC+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "크로콜란디아": {
+        photos: [],
+        placeId: "ChIJ2fq8nRidqTMRt671KgbUT8A",
+        placePhotos: [
+            { photoReference: "AWCwydhP_RxzW7ZnAAmdvmpwfFYGGZwCkB_daFXNl7ZO-apnAwi0e6P7q0xRPMSzFICFNppWjRK-jqCtPOiZzFXgSdZrFOhzYTaqREwRUwN9a_zLR6_bs9PPssfqrGdaoNIrZJpHNYT6rboUjmqo72cstClaH6mUnFKS74tQH-TguakzWWIs7Z3I67d0T1kIRh7ZZ1QHm-SP6DvzUiDZOp97eGwa9jgYxQFnnPDMl4F81tDByMblFsCxP4UEcLTXYP9jiXxw9YyeTnly9frNnZGaGdo5WivMvK7RB9_oQDjbqSm9FuIQKWxyyzQzNQeUXoJqClSsTZe-TDXziFJDT72RpNcZmcatlv-Tfx2OyQilqSCV8nBFdJuzcngHEoLBMQX9Lmd5EL4oORrbZuedA-4QGnjBX-yHYrJMTRqHOHIrPb0tYLN-9dclYfiFqMqgOB1K", width: 3060, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111589594673647677887\">Juny Flores</a>"] },
+            { photoReference: "AWCwydiD35KOAoCyUv1L-KPafOSg5vOxFH3Nhi2OT4QplKXsgWVZo_uwT5tFMeVX3zvVgmaRwNA1eKpGStDTyOmEAAzfzyKfD8ch7L3WDyu-tHJuRQSTowpWmTiTov2q75hvcCXke9RsaJNQ7LScqPar_SLykug4tUQrDrXVBpY2R2BBinSX16Cp7rKUtj8ukxIx3u1N2Qc2onSCTlUZNTtRqYLbce4ifX1AUtGvL9uuTuFARMGQNXW9W5mch5V0pmCW7CYje04WuDNMegmEYJ6LiFo_lUM-8kpNvu4coRioY8PBpPZ1ez24YJIrQtQPavh9q-wzX07oAv24k4ZMa4diLqJQbWFVA-YmM-dHTNrHjS2nKq8Yz2Mbp_nCTDTlIS4fuWaEhvAb5vt9gHglVWyNpGGMNfbKRC2DfVRl-V0G1jkTE6s", width: 4160, height: 2340, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108615133633393047486\">Cho Diego</a>"] },
+            { photoReference: "AWCwydjR4KN7_cAWCBvmz9tsQ5-AL7hoCyQcAOaaoL3PF1Ml8JbgPCR0bCtB2_etXnHMiFndTPYwkpzb8NbqduzNHC-GIe9Nbh3zMho2l5SPLE3-kbvmP7Fo-qGvpOWdlsPco35siUEc6frhQIMvI9TMxLYWT552m93_J4fEnVvnOWlm0lsZMtpu9wepAeC9X3ZLul1MzZo4B3m7__tAywfQ4VJMt9ampN9KNV61nqWJ05iJaSdjID1-U7TanxNA7Y49-Ou36tLNK6TdwTMdrmIN_FDHb5_nHFsei-lRVMgDC7d_bNKQ_-KUZICHM_3lqdNZYcC9lqPVpcbeRlrny7HwAKvlu4AubwPvRxYZzUb1AVxpvS6BralNPtBbhZYEE1ExP4WJ5Djdx9KDPvbuRhTfbdOnOKpDqY9lFObI4XFQgXfs9en5", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110023040758700060300\">BoH Noname</a>"] },
+            { photoReference: "AWCwydiYUdb6ura8JAo6hB8Ik0mhmlkMvf_RJHKdWxoPhKlx8EfcV57hVmdAvdaOeG5h_5DNMLFy7DSh47tq0t4pwGFxiZty_4oDQ6M0IpH81oGLkRzOcESUoe47A-Hn0pefAFMkvU19_QzfvoVeOK4Q-MqumhZ2InIUYyDHwTObF4qYZCrxXfxc2I6DLUEl7cSfvaFk7tV0RrjGx8202O7BRisNiVDnA8We8uJZR5bQkoLCiFtL47ac_X7mTXo_qb154WTbrDr7OXTBPYFR_J2cGV5RPaenlKRXjkCvomLSlXoj3qqdUQ75GHX0uncBW8VXGDC6nrs4-IBYZk-lRQpqPBfRudspBxhHRjnOq5QF92vbSL4XjcVAbw6lL5ueW9VGW--c8gS3NoLbb2N799mQyw8DtjgWb5aKqEW0XJ3rFB1TDQ", width: 2576, height: 1932, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114848565678401354645\">Jonathan Rodrigue</a>"] },
+            { photoReference: "AWCwydgnUH56yzQeaKNTTMB33D-Ax-v04Lk0zTLmhxzNjtNuCp2EKRk-HpUcVLNvEcu4-I2uNKW7T-CnXJvLQUdB0g6yQDKdZjxgDH66C_Qbb8OX2maxYA7N6kXMN8y_FqdTM7BaRE0aERmXnnd0mj9Q4EcyrRiGrs3sWO0cfDnB5sa4zjvHc-6nzSPKzD652HkxyuQa3J5J2_QVlJ9ctvW4WI04kdnl4a1HnMZtElrxhWlszxnsFCT_aIOC7nJxX5s7_CdTD5jAZkW1g1w7uz_V-_zUnQAN5crWp98A52jjw0FJ8jWpXjfJyunE1cgeuKzJ4p8bVOHE7qr-_RyH8E_5E5FehvO9wj_VmNxUop01nCFGHOUEHQjIzy7HLRTjmKuXdM4Ob4fclPszug1mjFH5MOW66azZyKDJurNIiG-CGT8ik4GO8B5Y0q9AHll4eqld", width: 2252, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103915715686180050002\">Justin Dupuis</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["4.3점의 높은 평점", "매일 오전 8시부터 운영"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Burgos St, Talisay, 6045 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://crocolandia.areafish.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13857527701397941943", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%81%AC%EB%A1%9C%EC%BD%9C%EB%9E%80%EB%94%94%EC%95%84+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코랄 씨 다이브 세부": {
+        photos: [],
+        placeId: "ChIJxX43_m-aqTMRtWkYiPZcWgk",
+        placePhotos: [
+            { photoReference: "AWCwydieYMcSJHVQzlH5nF4wyO850z7SWuJQ3hSId2zf8iJsRGTK76Bj7675Dk0b1e1VXFtNsb5mrnCGWzjfSN6482LHpRopgcwgtJixefYk13qmoHtZWg--GENhss2F9ta7MQfYskrmD8f8oN2HxP_v6PVCQBQ8NGTLjZfJTvDnsRqmxO-gsZctJnn-n6Dnu-wJZbtsX4TQT43g1_aIao3YIZymuoTSwhWszecMNDMHO67G4CWeF9utI6OyWd12YW1rVn5lLsj97GRC93vY3dHDEMoryK9i9tnlGWMYkwJGCNPeoRq_oxhsfygxfk9NX356ututpHN34fnUXyrDFOhV9VA86hM5NjRX2ieqUL3qTvEXxoJNmmQkCve38Id9zYPDK15boinnFTia7BzYuZsjsIPVV299RR0HBkLy5JGWh5g1", width: 1080, height: 608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103575636540499326232\">Coral Sea Dive Cebu</a>"] },
+            { photoReference: "AWCwydgP9JjpALxDcW2oDDHVdczn2ONDPfzAjZn-F8MN2XCYiI9J0SbUVzB9hURlbIymlXsghXOYGaxyV1aOQ1IhlkP7Di5NfJElEOtzrx9NeCzytXJ6mF8l2FnZIpNc7NGtVxF1jG0wZ5XaB8Vir3heOJs5rV5tbU19HIHbaiDsLOJudNMP68jF8Kt-i8Jvs3QVSkKv9iNCdsh7ey4I7pH1PCUGydDP3OBNp1tOLZysHiNErpGPeovZ2TvCoLqhEUBb5VaRbDU6WmheyWyCNxtIm_K9vB-idhNpAQXq8w44MAz_tsUGA89C2i8INWfNkxQGnELBWK-gS9dWAkdo3couyjP8ASQpC9GHsVUG3BVkbrAgUNhbIi-fGzaruwuEBEs14JP0D6HXiGq6pUEonoHwYDehBMvGFQM9p0y_Mxt3poojLFrv", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107001411169728627188\">Jayla Binolo-ac</a>"] },
+            { photoReference: "AWCwydiY4vGrnHfW6eJKNdVlPRfc84vMV-ly8v5vn9UI7DNsotsoVQxDawImTnsEXaVUOK6v3wvlUt_ahPHJcyD-hZafzcUCU3Eb25Of8Fj1aYJST1QZ1315md4rRXQZX0Lt10D3ntDEMBFIFq_4pLd1KwGuMSOmudsTgB0QUk2eTQsWDgeP_abujQEFWwBh3SUwN0h22Hazd7S-XQO0n6LO5jXJeCmrLIpjTakpsl_vdFtk3neacDxxyZ-q2ruI3RHg3RvhbErA3RmtWMCW-zQDrxjOmvahFGqJXo_fP-zDYDNeRmsdYe61eIfKMyxsiWPInp05UIYRHdbiuaZ4E2aDhoDQfb7lLzPu24irrZ26Z2f2Z9vEVjsoVYuV-vksZKJS22RRbaiacES0NZpn6bWN8s2K-nLMA57oH2BZUCWuzhhXKpI", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113714893690994967595\">Love Mangila</a>"] },
+            { photoReference: "AWCwydhDlk2bXj4zy-qEKmgWLwmYyVtJP2W7hViah3RxJcJ8zk81EwJmtj5VnJU4l2zi5vCqVTS90R9YupzZn9E9gYNUWJC1otcULZRLi4wujiZ4Zp3lo9i3y_0vfiKokDh96vBUg381p8LMXxGLVAL_sK9hjYzgSmUYiqSQNXEfZq0fqK6zqKWk1pV7NmZY8LQOFuTSSqZK8YcblX5A23XaVNap_jvgshA355xCqqvXlMZFzfJyJxT6nAtbLVfwT5wPs334XkLZOczCIRrUUI23KlY7_EbfYXYuEZld37VGGugPFWcG5MRWjgubNdcsBzRZ2pcRsFrDlw_3PY6pK__TuN85VCGvYgMTrbUPRSX0N1Z3sK_VeUB6lv5LxH8CUrNQhKO05UFYFzyn9Zs-4_58Ftyq5EDOjX_girrZrjQRNIB4dY7W", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105834296339151054100\">Cathy Brown</a>"] },
+            { photoReference: "AWCwydjst4iSraFhbLMKK_xYkOtPTLte3tmjvYrVYGyVhnQk9YsNQWg1zml8QPZwUCZBNUrAiG4H99RHj12x2GdzWsPb7sPZrYgSl_d4yIS_PyMIcFEf-aqeNpeZ3P2ovKJ62glM-OKDjRWWV14oGCmH2VZsJ8LtvOCV76-e32U7UByKFPUejieFdwv7SeziaXvjrpGuzEnWwLptyGa_WeeESiH150uik86Ugj_oY2EHuqCJsOz4YxRJGRvJgFtuiemXW_lgl2AUQy8hfEtIgMEXP690WZJluAV3ybhZdMjv6T-AJR12_L6joRBufQn3-V-L7FKO5kX5OQKYsFuKkwzyUNvuuXI27o24xJcvWhmnHDlSwym89PUlHAQWP-fdNVJV2ZyLr7TbOwVX0831kBpGz5HjrXqzKE8LGxwppsP6V7yyuPLY", width: 4352, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109568532123951070139\">Matt Reynolds</a>"] }
+        ],
+        summary: "친절한 팀과 함께 아름다운 산호 군락을 탐험할 수 있는 신뢰할 수 있는 다이빙 업체입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["다양한 다이빙 포인트", "보트 다이빙 시 점심 식사 제공", "자격증 강습 및 나이트록스 이용 가능"],
+        tips: ["다이빙 전 탱크를 보트로 요청 가능", "다이빙 미참여 시 보트 주변 스노클링 가능"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Barangay Alergia Rd, Gabi, Cordova, 6017 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.coralseadivecenter.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=673953308160321973", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%94%EB%9E%84+%EC%94%A8+%EB%8B%A4%EC%9D%B4%EB%B8%8C+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스카티 액션 스포츠": {
+        photos: [],
+        placeId: "ChIJpaYu7OGWqTMRBsDZk0L0U4w",
+        placePhotos: [
+            { photoReference: "AWCwydh__7nrQbP1e0nibLxcftPRnt-_cEYI8_uw3panJXANk8eEREBMNSU9AdceqbftAjr5CvV4LzYlFxAi8ycTjh-MvWrInxX5-oZZ3eRX6vCKB8Kjla3g5zoDD-Epb8B9b88PR9OW3VdRyhkspL_dM5ScWnuOBQ-4kYDbtuTMOIhb-LrKw7Ej75RMIJBMgbIdaeOxjHYbbtNmOKkiYpBX7Se0j3Vo4ty8Lx3OfnL2IY2gTONSUJVuShbUgLuEwOMpLM0BBnYnaklC4BSPGS_3kFpdAiLiuhpnZPZwAIUYbgLMzYls9PAiVKIUdj2bFR911InXVrzzAzfSw-0PpOevnGBGJmy4N2piMrF0T-MwFb3XJJBnIu7eVwVJxwMKNOX9hF9rEeFYOiJyhseCdiD4YmXTZrkrTRTOz6g-M6Hy9u9rog", width: 1440, height: 868, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102304771744887830965\">Scotty&#39;s Action Sports Network Inc.</a>"] },
+            { photoReference: "AWCwydjo7EiPT89gUhq3x7utHUJBwwbyqo5JqBvpy2lU_Zubqvx4ZxPvBryW4DTx_6sYKI2cptPHOlHaY6xyajXckv4nHUvJ7HiVUwU96wArGdu85kHonIr1AHewLcwGQo71EL7hpDzGgVbxGtWy4lSkSFNtjdjSncolXaZMvMKNJJ3ctKD04ZGT_V64bQDUYuJqjSF7ViJFBNdOCxWJ6rTCUGGakO6JUKten45n95F-6ddliVEXP6umPzJOsdeLeyNnwyPAve8GDmzKMH5iqFE7hnmkMOO5waI2hXcfCT5h-rB-tuCzA1VjhMidu02EmrpMqtt5YT4g4oEMHkFzV3jMGH5p1e5gbhSkckPMssA26cxzews0gQzj4p3a5qtn9JZeJwlG-eez1VLOuzj5YZpVfU6tgklGPboC7Jp8Gq_lbvpfCOTPRm4J-kv8MxMGxfno", width: 1599, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112501287855449057953\">Timothy Kirby</a>"] },
+            { photoReference: "AWCwydgy_cPVZPHlf3SWgLtoTaHoO9GkYIO_YZ4kLY4UobvMfXAu5LQ9FwCrvlW_C_h3fQktv8k9JuoiSFWj4msyUha14G65EVd_gTUEA9k4BwwxYaUJQBAzJZOWYjbbUH_pGgWc-IO7krK9aJykp1WDzTSYRdcOqzZe5Jn1KToq0zE-kictxnfqAuhyQdYbeJrgLG_jUqdpr6Cm-5No95Bad4612-nRsq01tzyFGk9Lrnh7m8hRHK-SIIQY0nsD1-l3spWGFHtow7scaYFEke8MeTW-6UCAPTDj-rmOCH5VWRVg-DpTKPoWXtTzJtie70pNv8vyVvl-TL2qhrw6u2U-6LTzXwfQwZJcOaxc2eEQX1cMiEB21Qha-aNtL60OLZJ9JoRaMpZDiXk2H0cUUQYxADjQTP4KSm4gsA8RqVd859ht6A", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102304771744887830965\">Scotty&#39;s Action Sports Network Inc.</a>"] },
+            { photoReference: "AWCwydjQsDNX98wFofUTd0Jlkz0DtmXqsszra02QWCe2e_BadtmLsjW9Ij9EKHP0FQVPg4or_IJy0UnyDRErhn6DYXRCSp1oLlE6fInKINtMA5Jt3wwkJbNrYVzZbGQ3FqJamEum9gu5284IvlRfWe-pQBgd4a0wC0wSxX-yvngpTGS4qoF0fZJZlnKqa1QEjBLjplOck0zGIzyxrRuxFlSQ01CIZq9aC6_edS2y14Cnz5IVg6tyVbcz6qcYFnMEfvctMrGcTrVAdKyK4gpxHxQCe-msQo-1HHzU8IzjX2-M7YEvrqTHYL0-T12p70RyKOrn5ljrQY65hvDPdBz_g8YX5oM_K4rvrzjQOLIf_jhwjNTxMFCG2tmjRVbllGBiYHeyvtkwIm1iJVMV7drkXLaoCrtrCWTirlcGrdzKvxYrvCmzgg", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102304771744887830965\">Scotty&#39;s Action Sports Network Inc.</a>"] },
+            { photoReference: "AWCwydj0IN1rm43a30qJ3IEWK3tYZVCfjuU9zFr25_Zuc8gBmQlVkbV9nVlmf3j7FwPlen7WlS8orYQee_-SnhBkFcnI9KVg0jIQHLj4xV8kSc9yw_WZjWOkUIBpgqUi7s0JoqDmCIulVhYhssFxHYKXLeRLc6PqAhOE43MVo1RvF5hOL8aPzE86KGwZzgvuxWslCiLnboMLEXjXspeqTVe9g0TqByS-1r0wSVE4AeTcu3huCY86s3XLeR8ZbFXRriPG1BCueM0jpk79SwbPR52uqSZVCeERKhA8dCkFN_bRHfpPQXsNyf8F-4LaW5OLzoSs-eYSD9jmTVC_UFV7Rai80sSM-4WzOHDkNCZdjEBp6STJloxtcsAK2ZQLJhoFcvbQf8ajorw6x2GnU3jXl5RhVcryEu8XEzyB3zomW2VEnmBmUEk", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117557173698018713502\">Marco Finlay</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 전문적인 다이빙 체험 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 상세한 단계별 교육", "다양하고 흥미로운 해양 생물 관찰", "안전하고 편안한 다이빙 환경"],
+        tips: ["강사 미칼의 전문적인 가이드를 경험해보세요", "다이빙 후 다리가 후들거릴 정도의 짜릿한 즐거움을 느껴보세요"],
+        hours: "월요일: 오전 7:30 ~ 오후 6:00; 화요일: 오전 7:30 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "c/o Shangri-La's Resort and Spa, Punta Engaño Rd, Mactan island, Lapu-Lapu, 6015 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.divescotty.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10111694155162435590", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%B9%B4%ED%8B%B0+%EC%95%A1%EC%85%98+%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시다이브 다이빙 센터": {
+        photos: [],
+        placeId: "ChIJeWwyaMqQqTMRUdk8sc5g0N4",
+        placePhotos: [
+            { photoReference: "AWCwydjBDwOl6GTUHVxKIwwVx57_4osNXUDSG5SvYmU7RhvvbkT8M0Ef7L11lWkAATYF5hrKV64TrOVHJeSw_R1zARray9JgkEVh4QAFmdzwhEliZbCLai3FWfF97XUPkGt2_0ULiAJMBxEw6LMwM17hKd7cDkM4NKuZe0PRfF6YRWy99-itc9sQMU3A_8Lk8Bq8JfYuvBKORY_ylKM8QmO6y3Vkd9oiqKVykgng_HAXRSOnwFz9Lm2KG7i9Xjp8L3iI1nFM6VpHDnIR2zF_gBUeOOZUkZ0V1qDaW53cF1bXORQrRMA0dqq0iUK-wpLTYTnrL_eFS7Sm__-rLkwK1VrruPDCC_P8t0UY6aAGVM-B7xcZakS-YHpICpB9RBp0mqxjEPR83tKu6OeXof7vJOvTjaAbXtIOHgpqmyskuFt_bWU", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115591393554805664456\">Cheng Yu Yu</a>"] },
+            { photoReference: "AWCwydh2Zi9awZ1gkcE_-pwDmh9BK3qsGWjZXAqgbqk_HjnWu7Uqf3z9_IV_k6jU4HyW-KgY6SKo92OlobDU_GJJUgtwr5hP-ck-QH4eYBTaG3ZGeX0AqRaVvaoyhUUfEKg6qdBpxjrYzGgyh92H1wQhQoaKydNcJrdmKbS-167ZiBM88AiaP20YyiWqz2KJdX6m9kHbIMCq2yxYluw-q3Wlf9QyB280ytGtGItfLMbFHMtSI91oOsHBZ2-hHMMGYAJehGZ9e1ypC2EbCk2s4DhR--4ggHaeg_T067Zph_-ErBv_QQYbnsqFDc524FZfRxYXLiJO-Y5qCOyadhj-JsNT83sWi8l1JAvF0jjoCUMqAVwuMAqv-niL-Y-VDbKl48eKuHpRXvaMLCaZr0vuyZbq-avUevCpoGMFVYOsZhj_meaMeHI", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109061289009393632502\">Sidive Diving Centre</a>"] },
+            { photoReference: "AWCwydjK2CHxnE1931-lkbjxNadDJBVAfENnuvsSgmbL6PPR-WWgc1IgviEPRm_uQ9UhBA-C6upjCyxgwjR0rH728mXKvj0jsjV3D5hAKhgDW4F7T0ZwGy7cv8-DNbdMU-GR8XqAnFMz4pzB_x4s7BFDhTif-QbDT9U-gVzdm36L9SbRZ2XFWk1clWPzipy3u1tBa4ePfmz4cpibBsWR7dXoiQT9B_cWBhEGEc2BSn9Y2XSC6DHsQYU__VY1e9hqI4VUpIiqMKsuWSWDVz-A4ciF9CYZ4MHvkaiuoaEqi8mhinc9OAO2wcqMgz0kuM2ZUEk30gGeIYBKheOmU9dMLUZvSyjY9KQtgP8YLalpGWXWiS6_h9STD3EHwlTuuwWLTEON3-QgDN9jwngRt2QgikuNqUpRrTl0V2Shmc5Qd645TOJu7zzf", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109061289009393632502\">Sidive Diving Centre</a>"] },
+            { photoReference: "AWCwydiLjpJ_LxH1q82zsoLA5eWQj-KzXDAG5JBvxcKkoVbjTLubvBuYNIkMT8H-7G80D7THshbVek1R_UkTSg69ioqWP7mXnrfi8ZNTkn1pGJtqZlgNFZX7GD4gU5zaAKrFvlJcFw9jV104uOJbBzBMuqEsppJsAUJZPphG41wfRWU1dTuyJRnsHexgWcwH7qTqsrKjwraScOYKpNbLX3bBSlkX9Ex3qB-u-G_DQoqstR9oHyMFN2EIaNYDmo0gP98GFXWreTZ3mUUdU3KauD5Mxws63vsDIqAN65-bc8UIF-BjRaTffPHa1hqFx8vlko3mdjzc3bpcMzJ4P23Mj0XdkePPlpaatj8LwKCPgAkLfhGQ4tQ9Pzr0IrwdaHOeA3CfB74IfszZ59qzP9heXyRyKmnUCLKO-Olrp4y_TZvjyz5nMQ", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109061289009393632502\">Sidive Diving Centre</a>"] },
+            { photoReference: "AWCwydhSuhnB2Ol53nLG5-sRuvtFh7fJg75XGQZ1vRWGxQTFWDyINv500xMWBZwHYssiqdtHo72MmPgwHKqZYWZGJ0z3TicILMu3GzyUkBFlKWjfHzjuh3pcFzAWKgVHHCDrwAt7O8gSQddGL7lctB_KaEPIrAw6IcrvEopQg8HSw15FLL0dPcwd_7_SptDoEjLC37wGhauaW_y-5vcKgE2hO_13iy8cgEKeYxZiHSEUap-wD17k5YN2rM3nqZt_deliBEUjKB8_RR9oRRirvhdvi7T0-Wh9-cscKuZmAlxmXGJJb84TeDUBQlBxOmyOX05kx57OmXLDVeXK1HxxerRmwxuMV3LhnLa8Cxyv7ShQY0lzhrjRJ-fs2IiW7aFJBHves2XZ4gRKg7yI5s4YOxw63sme853zwdUPXMIXrzvaS8nwg_OT", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110271550735212910303\">Sandy Bauman</a>"] }
+        ],
+        summary: "높은 평점과 전문적인 교육 프로그램을 갖춘 다이빙 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적인 오픈 워터 자격증 코스", "숙련된 강사진의 세심한 지도"],
+        tips: ["강사와의 원활한 소통을 통해 안전하게 다이빙을 즐기세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Club Kontiki Diving Resort Corp., Pajac-Maribago Rd, Maribago, Lapu-Lapu, Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://sidive.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16055439112428902737", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EB%8B%A4%EC%9D%B4%EB%B8%8C+%EB%8B%A4%EC%9D%B4%EB%B9%99+%EC%84%BC%ED%84%B0+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아쿠아레이서 세부": {
+        photos: [],
+        placeId: "ChIJi13xkvyWqTMRgNbEpVjq7v0",
+        placePhotos: [
+            { photoReference: "AWCwydjwdHX8Ycg5JWSG8f3xq8pYMpTRb3xApXC-vB-kO6B4jeeVcAox3No7LreeB-eYk_YqfGr-A5nABoZ6Bl_ApZkpWlLEDyhpDAJVZu5QxQPoscm31vjL3_0ywL24e8m7JjlanBOwzDXbHu4-ZhcKUNLhTai4GP61xztjpzh_pXl43R-68PgJI4JeeTLmDx4DVHtxQyp8RQCXM08qs-tgeq0nCojmYLEFu7OHgPjzGMwS1zGmNvNSS_gOhihx37jSNd43GylrfETmETVgQ7SQSOjiqqQJMGXwhTthd4ylMnOiAEYkyUZJ7tv9TLrDqbn0MKW5un-KNnKR5CVRt--7-BgSjQoSmLp2s_jfvHpp4NWc5Y-oXWMKW5giFKQ713gSTLh9nE7WX5wsnXt3lM5ik931AhiWXksJ-d6GR9YOid-pucRL-k1Fo0KfnmBeV7XK", width: 1284, height: 1807, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109369066933407745677\">Aquaracer Corp. Watersports Mactan セブウォータースポーツ 세부 수상 스포츠. 水上运动. водные виды спорта الرياضات المائية (NTJ Watersports Cebu)</a>"] },
+            { photoReference: "AWCwydhZLQFoeKtdw7EMhIzyZ7IuWROOcEjt2ZuCQLP6d3Q4Ov--BXtdB-LYIwpcFGifUaPUsKGRDtqloUup2KZshYhEGSbmQAe7eiV9A2H07hzL3TpN1_GGOR1WVpMZNSVuLxdO7g4wIIoTvso1wmkJkumIh0hvLBK6McBiYC1aY0S7WRnA2oD3LE83meHQf9tKO5wArePj6Gk6tMlUsbyGfezO8CZsj4sU31QJmtp8nxi38HJ9cAgjBeLex03dA7cwOv0UlZjRj8GwQGlwwkxDYj2rj-AjdVPWGSppCQP0JRJlVq3133roiElyj9BFZIbYxgzW8scPbR9dn3SNd4voyU_8C_3gXeS42Hhu_UhrNRbITY1ySui4D6aK4HlmMwwKznyvAkrjTQGXlbTmvQHgnWaoIiYmUsnAvYLp_6b4KRa719L6d_cDKB5-En-wRPmT", width: 1950, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109369066933407745677\">Aquaracer Corp. Watersports Mactan セブウォータースポーツ 세부 수상 스포츠. 水上运动. водные виды спорта الرياضات المائية (NTJ Watersports Cebu)</a>"] },
+            { photoReference: "AWCwydhn27_Tmp1g3ZmtqI7HDLCIs8SCVpO1ZMJ5bZDldnS1ZdH607GRlRq_tAwUZ6aFkmdIzLSl9TmxtB8mL6SVsv2UMv7erQb9uQh4lWvAZyWKSi-mCyucthL8IPjrCDKFFb9JxnxrujoTQZwI9OsqWXHOTyR8VKEszIIFhuEt0RgHDoGqv0tq9nh7OkI-6tNMtZc6StLr7Tb36vxJhq-0df95hjHRXKsZyGc2RjvaAhnxNDVATRe11LIBxL1u99wIx0gxFfole1jhKtFD0FeYBMmCd8iVr3yXY8iImGbePQXJSAX_JiqhfiR2Sa2SxLWl2bIrRGtQneSJF5kO2GQamMfQPs8oFRwSmbMpX_Hru2aZ1w0IHeRE7zD6PTDPLsLnl9xzImRiDmPAFxJhJthsTCanqwKpLnqg3xH_pwx2gxZe9g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113442471598560208076\">Vyacheslav Em</a>"] },
+            { photoReference: "AWCwydgT-7qPuqlmmq4dA_0jtcewKWz2AI6Y7BWaU2FxXnSYO19Afz_jYPODPcu9dvS-SP-3oHp5YxQPuwI7FaLHBpvVlPQycOZ9iF-Z6NWv9L0AKNvZ3_IGKQ8LD3SMpO1HbzKGVjMxgcCi9dGLtZQYyhNVyScc3BmlJ97Pa7-dVinbp8K1Jktj85jbtUzbqB6mgoD896EZ2nuB_kNRo-9QZvpqKT0qRpIpDpe_cwDP2pSdmTeDo0lH3iLiZL7Lf6DGUvHXVZ4YRtgxb2KtbQeJ4olScHET8Xou4eSMGcQs2MrC0v5_n22UA9fQ9W2aP-YnOkYiVov0YE2oxlclj6EFm6x_cSVcST97cYHxwWEk3IKWuR-Euh0S5PtdT55R6YO8z8tnwIPagE6-Etwvh4YA9hQ-DK4LFS_6dvLo4mvjHRoLEL-MCYwazBMQh9DG_zVt", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109369066933407745677\">Aquaracer Corp. Watersports Mactan セブウォータースポーツ 세부 수상 스포츠. 水上运动. водные виды спорта الرياضات المائية (NTJ Watersports Cebu)</a>"] },
+            { photoReference: "AWCwydhYDJbAV1S5RpNJPwpJjUVduAX2lhpnT5bZzIxeIERSZBbi_LPVq7WizsB90kRDJLuOntQsq41KbpxcuUFJ8vfa9a0_eJRSsKjaPjTzhsAM1L2em2KwawJgRDpbpJ2p5fL1aGbcaGQ-xkNWProWf5ZxO7RrxumMxpCfqjDxrOrDGwAHvDTIKBvYADqlao74kGRNX6EyZOGvpK4vq0e1TWhm0eDU16OJmG3CBa8NCBHz5ezW7HSgcnMUt_npM9jCOr5eZMbyTnnFmxbUOOUQzd-W6u5nLLTdP8E5ZBqVyv88kxrkd1JCrHN3-hCJ9nv4yzoQISK2MPaZTTJj9o9mlNIkYxorabXB80vTCULRWVJX7wL-mcPCzSEAiAls4eZMIY15R_0YFPEiN1fRpaJS6Zm0oqUD4sjHlIeeuz2C20ElobHSSsPlBIW3KE-SfGH6", width: 777, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109369066933407745677\">Aquaracer Corp. Watersports Mactan セブウォータースポーツ 세부 수상 스포츠. 水上运动. водные виды спорта الرياضات المائية (NTJ Watersports Cebu)</a>"] }
+        ],
+        summary: "친절한 강사진과 철저한 안전 교육을 통해 초보자도 안심하고 즐길 수 있는 수상 스포츠 체험장입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문 강사의 친절한 지도", "다양한 수상 레저 활동", "철저한 안전 관리"],
+        tips: ["제트스키 초보자라면 라푸라푸 강사를 찾아보세요", "여러 활동을 함께 즐기기에 좋습니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "NTJ watersports Cebu dock, 6015 Punta Engaño Rd, Lapu-Lapu, Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.ntjwatersportscebu.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18297820002512066176", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%BF%A0%EC%95%84%EB%A0%88%EC%9D%B4%EC%84%9C+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세부 메이킹 스페이스": {
+        photos: [],
+        placeId: "ChIJtyNJOgCZqTMRIMy2ODwJyms",
+        placePhotos: [
+            { photoReference: "AWCwydjnfXyfItKUQ51gS-c4yffw3QmN0O2oReYR5I4oH4uLy8XfhAHmqm2ZKYTb-998zfHyzTDr00v5aH4-mhJLmZ7m4hjwZkjj0Jd_iQO1grb0fGd95iDrWqrjExLREDfiVC1zqMG1-vJoqeX3MTKQdxBDCkDoX5HuTAqEmr-CqjClPFL_lHv_cwM8Rr_ASD61-yM_5RSrR7WpdOK6zu3Sw5w5mkP9CWsOdGWTJ4mTpho5h9FRQgxGZ7BkIr8QHXejrNcR689wu6OuzIpy0z2Dtzy3Wqrvz4sixupz0RUTjzWbph8FNHhwdjPuLKceeJRql-2v_wW-c5P3talv0gSoHIng5vdQ4HMVz-PCg6f3iDGZ8gthkjRHDx1SSdLYueMAZZBkolbtYKu0jLZMATcNixWQP9FOFzKdPKZwvxYhzm9tIyYF", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112045338555219076869\">Ashley Maraya (Aya)</a>"] },
+            { photoReference: "AWCwydgVe1Bpy5N3La8HdZoMstFuypJwWizL1OJJf_0P8DCudOrES64jK7pSDc-nSf3uDD-LLtBEn2JtLMjgaNJUujdFDPyDSgntOI-2DAY2sRge0XJeEbCtGFdgrBbkBZXerWjreYR4kR5WJNIhMzhbWQa_Y9jeibgzk-M16Ibc6OgNzthbjoMTfQaTYPE9Fyy1F1mlHJgqR01lkZW3pI36vyckForzFBv8l9_nAg109G-lvwvrEWY6i-4v38VTrQnN-Rk_k3cp1e32z_GOvMDp7B-oMY6HzhlliuLLU2nGryc_wYpgkizMonos1gj3ZVY2adb96h5cd-g4V-givCkGYPxasCayPd11380Z-ZTEet2boMsr3x3D-r0F5b1F1mf5HGEGKojryHZXpguYjgctSOYhW6bFbK1NPqLbc1EcLATPxe4nuckH1S9uR90z8n5T", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103870558959801843526\">Winillo de la Calzada</a>"] }
+        ],
+        summary: "문화적 의미와 역사를 함께 배우는 유익하고 즐거운 푸소 직조 체험 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["체계적인 푸소 직조 수업", "문화적 맥락과 역사 교육", "친절한 스태프의 안내"],
+        tips: ["워크숍 예약 후 방문을 권장합니다", "현장에서 무료 음료가 제공됩니다"],
+        hours: "월요일: 휴무일; 화요일: 오전 10:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "3F, Mango Square Mall, General Maxilom Ave, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.cebumakingspace.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7767030661608033312", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%B6%80+%EB%A9%94%EC%9D%B4%ED%82%B9+%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "러브얀 공방": {
+        photos: [],
+        placeId: "ChIJJYJprz-ZqTMRsV1ferQdJoo",
+        placePhotos: [
+            { photoReference: "AWCwydhpJy56LpXyMmaGoDGYDM5yUgUhx9xJ3oRXCSi363pjE2Z6vuV7GnZQYwkw4qLHBOMFi-0CJ6kkPQ98zWpe-Rifzh2I5fDXwgaopAfD585zMOVky0MyYRmElXGGLqg9OyF9VVcQb-_FifQYGMLvzjy_zZxD4w4_I9iPbYXCWHg-_boGd3mdN4xmQx9nRHU26jw7XvAuGWavR7m_g6apWKh0a_r_DnhHeWB8NX-VJJFQkL6dRibCKsFD4BazPfkd8ARynGWjAqgMeC5P7nYGWMy5ZPAyjElvTtqjgBXF4Kv3SIf7IfzNxrYV9o3h5qwQBTCf4nhOGMR-W-PykYisKbWtt5FsMEc9aqBxe-siWg3M-rCzuWEgMctMuqwBxGAQALoiXNCd2vapU6xrlAeViu1kc9vkwNkUw0DhqfKIcQPrcqm3dOYk3USA_pms8i-5", width: 4000, height: 1868, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101369877381471178563\">문정선</a>"] },
+            { photoReference: "AWCwydjFp3yKAdZ6g-V_vxUFSahZJQx6FR23afnnMlBOVTqsHCfvdq-XhP96I76Ufdb1N0OJJQJbsoM-jt9YQHRyk7PAxSKiVKr2jGR3SQV2gNAgtoP0JDguUK5HcoZ_qbCckvbw6cAMM00j2-UbCH74Bh4kgTW5h134pbd3TclAxOTXCN1In1ZCXz5NVwDdf9S7lKBHy3hQQ2jzmZtS8AfdIew61AYDjKnl6bJaQEANm-8DtLTt_6ZXxDdbFdNbyBmakc0j_YIIMsyuIJA2FErPrSlLp7VraWenKKp_WnBS5vMT0WtcrAm4m4rYCgiY1wrhqlsAoe2J8lPiEVGfD-Te2yubZDQ3XRVFBGhkxNixBAOkp4YyWl5cb-wr5-XcS7gbDmAJN8k5e-5c6tjRYCzujHFp7ONRygQVCWCji1NQKJZvJ28UcpPDD38p8KgKpa5z", width: 900, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114774074804625905087\">김희섭</a>"] },
+            { photoReference: "AWCwydgalc9-FObKqYp24pAFIarHCO4pkA6pGaneg5O989Stl7w5RtmWfGTMGXZVtcg2Bxaswkunb6Pq1Shz2W7kGrLSyAlq9JDARokRPAjpiiAd6l59c3Mv7QzftCu2CzOFLvz10o_-IkIqJziiEZ86vQ2bmcLBExMXhLGsvDQhKKUMQUg2hsv_LbqXLbCxKCq97OC_TiedtrTm-IatGL5ywDVVkZXna3Uy16Qs6kALkSwnhtOOdxIZN7daVlCqHn2up6tBE7EQUZ1ku7466suYmwYtnVNxhQAwMXEQ-trmdIBWTi1jvclhv0xhncm5J4UeHGV52pQG7joePqfjwjs_14Ypj6ibazzuiRlaLAvFSilkLX0GXK0rwJSuidKgAHBydbbXlyUZlEAHQ4NY2DpHFO3g1GCBgtna0JQIbfuOr8AIG-S-MWMKMiI5a2Fd9g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114721773007295304158\">김미진</a>"] },
+            { photoReference: "AWCwydhuBmHyFt25kO5FNetphP3Zk00xrzDZ3E_7qNXFOvE-uHBlAaXineuWEP6hVVBtyYP91fTumyHr-g3Zbg6GDRcayQd6xwAMD6dHrSQv1EkbSAaKRwpY1cTVuf6oFJYjd7Gki80O3Vewh2u5em8BOz_IG6_c-rhIH5dMH40sTKNnWBD8l8RjEqkkcr7ECgN73QRC3IzOxxa_s4re6QFF8QWiMQittfHUvKcG-8ki00_hmmdNHC8LClFJn94ci6-nLiheqjVmScISS_uhh0OLcZdCSyDRXjM5y9bZ4GhUcHBeozbpErjDoWmnqzl2ZPSAuynIZvT4vjmh-1cYMOoSiA2NuhDLKOMp97aHx_tIn0BJvkPGm7vqxmJedUrgyr786RmMf0Nn7IShsd4nQiXBjReNue2OBjvBeXf1MoE3JX06Eq3LO2uPVVFKtenqS7hY", width: 1868, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101369877381471178563\">문정선</a>"] },
+            { photoReference: "AWCwydizdMC3neh1xKoacBqDqc1toZy_QNNl8NUdmnXdZN4COWTOtqjIAX4iMrpGJ6hNY7noX7SNk5tVfwWeMf0fMrLz3k95LM3N0Q4zquoVITk0gHaAX0WfKjOkyLI3UMt7GucbYQQ7Tu9PKb_SdmxUEvHAOaDGpPtcsm1ghOEioRvuyEI4OLtvTvbJGwg_5kCcqBmllm9jh7RDK7bD86CysyF0_o5EY51nQZCJFWDG09B5ferjnKuqJwC7IETAPjYZFXVfTCj65UznxB-5ZK33xW0l2gYzehAo3wtxkJsN8Psyt26BcvvTXwBdoz6_ltM6SuxQmmbhjX6Y8vipLUcSOfbFqQ4-oRhD4kn50d955xsIKgvDUs5Pu7oAJk4sBpLGiX5YdD8whEAScN8ZdZfgN3yBHLN4_k1Zh0mC0sowoztsEGPCerKw60O_2B4E6A", width: 1868, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101369877381471178563\">문정선</a>"] }
+        ],
+        summary: "초보자도 쉽게 따라 할 수 있는 친절한 뜨개공방 원데이 클래스입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["아이와 함께하는 즐거운 만들기 체험", "초보자도 쉽게 배우는 친절한 지도"],
+        tips: ["원데이 클래스로 인형이나 폰가방 제작 가능", "아이와 함께 방문하기 좋은 장소"],
+        hours: "월요일: 오전 10:00 ~ 오후 6:30; 화요일: 오전 10:00 ~ 오후 6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2nd Floor, Gaisano Country Mall, Cebu City, 6000 Cebu, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9954676687333449137", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9F%AC%EB%B8%8C%EC%96%80+%EA%B3%B5%EB%B0%A9+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "화이트 노트 파빌리온": {
+        photos: [],
+        placeId: "ChIJDc7Nic6XqTMR1FAMsqVCNtk",
+        placePhotos: [
+            { photoReference: "AWCwydh-_xgeK1EKAt70CE_btI8h6gkOiTG0E5IM3qrDwNh4UaJGnPPlimbeheUujGrN_WajIij_7gka-ywt-3tG2LFdFrhI_pp82Q6ByvsgNxWO8s5wii9yqqfBqMhsoQrHWDLWT51B4tKteqENKo_m_oPD9dipFavEqUoG4F4VM_9FXdZXDaPWrDmE3zc2BuCM41Ir4RwtJwsIFkCUN5Nvxe0OUew0SF-sI8npLqnUpuRK-9RA-aGoYPjW4GGi54pU7vcnDM7EldlJO7VjGQZkOM-zQUSGMfMtvRlm5WyVtIsDWJlFlTo9wk27qHCgvJsVzIpx6H1C2VC8P_cmz1APLaEztvZSsMxNR2cIBOREPPrZbMlOTQqpeqlOZzwYVGb0LKt_heodO3HNkBg6c6t1_1_Uto6qVTaDJsSf-jlWWqfGzlpPWfHHjfXEuCYG1A", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114382396462408727866\">H K</a>"] },
+            { photoReference: "AWCwydi_5kQ6-yWGFkf139Q_OLk62eKOfM0eATonelnSCu_uzQbrcrlth2k92n6FYuAMHJdQpQiNkcerqKBg5FH-BOxjugOs4xz58KJPpfLsAqmQZzRCV8cAo8Zpq0ua12xQhXw_2Hx3ncJ4772-5hY-0lWeOvLoo3BuhRem0761YG2CCYx-lggpfQDpbxkYiIsgk1CGicu0yQDSEfAgIufhArH2dHt0n6IJhlFoT9S9Vvcnt8kUV-LDBjh04DVcrLXOsiU61gYLmKv6DplxZi_46XzIPQ1Se2MxGrzSfuOdVwIbevNvU7NnBFkiL5LdwVQAybHQu9iL6QU-pbBdC2AJDnqod9a7CRULeeDSLa3lDDuEV_N7JOaIIu23DU7YfnzU9pAcBYKTa12TyKYigEuWGlteoqBpQ_l2BV9neIacDf03n1IKkrvDnNgvurhFmOpN", width: 1179, height: 1572, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107508256451261457594\">Yummydonuts</a>"] },
+            { photoReference: "AWCwydi_vvLT0uZOL1vN6sN-uZ8U7nXGbsvJshVIDL0b1mAKPByz9KyyZJ22OiUlkV0-Y_PGLKxzPws6ZxOVvZW6IFTsFu0hJjsqju3YG1kfKTQWHYWQLMKbxpvhlw-PMbgI4FIRwxoW1uiRDiEsWRQekp7IAbGyCukkI5XrBzhC9Yc6BMv0l51b8vJJjylEV9ejf2F4Gvm7xmZUh_Ql0VoSl2UCs7E49O_yXhFflxOLq5aJCpdfAF_PRNjrI1RBFjip6Ce-qdp3O7v1zd0a-d7e3VcmuNFyS1NO9IVHwd5ETUWREOQwAKPVErshvV0p-lqOgy-v4XZgVtfUgPELT1FqLTmLvijRJLRHsphczCeI2_3rV03Msf0Plp7hMhCDgUt4HGLNuZd7HffrKdBZNdKqiCsu4sPvmLQLi43BHghxf4YYZ2FQcF9rpAswsFAXAWHe", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104085527718809151680\">悠太郎</a>"] },
+            { photoReference: "AWCwydhA8egdmevcTLk-LYRzlJT6lgVKmadELWHFqaVDoK5Sr4LUxud26yp_uEiJ3C46iPtTOdkeZl9BHBOjC8ZBNSAsbzLqc_EHI4N0AGhVeuhJ-VU4pjN2VuKNe5CF9cUP6ZrzG9R6Hnw8N3XtM1gyQqi6BX1aMfibzPa_hFJNDJxixS8J2smloMukZUPyV6WITW0nGG8wYJEza5cMNPoAS6VZsWoBOJo1Dd49AzKWFlWfN3UEr2XrRiT5rAS0gwr3rennbSRyja3kI3X4bi7hNjNEH3NSB3Xm_QIyF9MPjwllKkB2J9TOHrsgbCHzZN0AK9zkMXySvD21DunRppamKoNlwdeNW6ysGwW9ENgll4XWZJpwluS_aZo4PqcVC1de7AEm60ZTbzpULicKD9jFUUk2JdY79oPu3TbDUpHBl-j86uX_1YDXEgaYgapZPg", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114382396462408727866\">H K</a>"] },
+            { photoReference: "AWCwydg_ptpmfhrJr688WrTHhmLf9HJsERR1XmKg7dT3gTyNcGdH8wr1O4AiYmodL4trtfJmT5osC8suZ-xMy2mSqE4jx6BxLJ4hh2cO7OIpbbQHw3ISGF_bni863kGPjKqzHQpGRD5E2_AvTPEVs1ex4TV9UKvDRfRXV22aypIni9LYEy5MHaGchw4aqYMIbn73ZkJdpzhGOCSW-uhIwS3_-G_LIirgEFQvwDEMqyYmKyCrlzIhmzZEOniB5qHQSdYnKWjtlJj7y7SE8wEgV5HaPimaBw8eLz8RDftyLOXFRy983WNRi_vTImh0i9ZKos_uJx6UUMZIvzhM3x2d9yGULOc3uEGBMVMBN3ELT_fcBvXbCJayDFQB5dYIztYd_y0Og-jFkfryNVf614nKHWMfKl7PByXEfCK_W05lX--UxwVc3vAqj9oTRCQ_3GKyz8VJ", width: 1108, height: 1477, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114547042396260908197\">Kano</a>"] }
+        ],
+        summary: "화려한 퍼포먼스와 친절한 서비스가 돋보이는 공연장입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["수준 높은 댄스 퍼포먼스", "친절하고 세심한 스태프 서비스"],
+        tips: ["아이와 함께 방문하기 좋습니다"],
+        hours: "월요일: 오후 8:00~10:00; 화요일: 오후 8:00~10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 Cebu, Lapu-Lapu, Seabreeze Home", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://whitenotepavilion.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15651770834396926164", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%94%EC%9D%B4%ED%8A%B8+%EB%85%B8%ED%8A%B8+%ED%8C%8C%EB%B9%8C%EB%A6%AC%EC%98%A8+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;
