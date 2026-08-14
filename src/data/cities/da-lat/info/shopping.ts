@@ -225,6 +225,95 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F+%EA%B8%B0%EB%85%90%ED%92%88%EC%88%8D+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "유스 마켓 달랏": {
+        photos: [],
+        placeId: "ChIJOYzx6NkScTERom2di40O6fc",
+        placePhotos: [
+            { photoReference: "AWCwydhRncTN0GuKlT-VsgjJ5Iewj4lH7F84h9WJOzpVSyalIe-DMOZZENAR-d0n86ewvk628q0TlKu9tFwveXiVBjE98od8NfRFe9p8QEz3t7MKrQrB2xAOo9szeOaDGxQhPE41ttNziED9MB9THOwe3uu8_iKiCmOti8zq9d0ojEvomlOBN5dWtqJRoR3aoJ3lYG_QrNf2riI_KPDRWWk6BKDZZbU8If7DdPwSt8xcISlj0CIzQ5t5aOK84pwBed60_5Wf4WYrOCAQ-sdXbUeuXxvpVhk5ZpepVSKDXzfHqPit91VDEyVv7JqapoWt67BLRsZ0AwEmvyDbARBCSK3J8OGoPuoHB9tlX5XyHpX0LZ1QBsCnqr1tHIVCiFDcO3yGHiS_YeVz-_GlOd38uQJQalKeDVbjTAoXsk6OewxO3nbjIdmS", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107277887084392830533\">난별이될거야</a>"] },
+            { photoReference: "AWCwydjtU41C4cQWrLcmIzqJ99dRYuGVXSJ0nDKUmBMm-hI_aOAJzNe3z-YwverDOEgUDn75G4sdGAWEMrOINqychBTpiQxUWitmWY8PG3rfwUu9Cl_9s-7H8uiV0-wPYBIpE0ix0K8PdbDMQEjx1_Zw8GvP2xm-i6SDBZnTvx-HCFxHoxbjSbVkKDiBcUmki8-iffXZyu78Xw75hse8stwIDYUsul5oh-mhmdHrYJX_zO7GELCvQBbltE2wQWUsdMWnw1p1icie72JlIuHmTcipE7gXzRzTMQJLB38ReTI4qflGcoiep5_Cs3vYCxhx4oXm8ECQjkcmSbhB5hbn8oBxs-sxWZP2PMkMHb0KGd83B07tZd5FSSX5ByLX1nA-6DmlhimIHFzftsof0H405hypIvsqWe3I1WVCq14oVPI_MVr1GBHfj1eA_B1HJOgpbg", width: 1440, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111333167295979705715\">Vân Anh Phan</a>"] },
+            { photoReference: "AWCwydgNSXfEcEhaGZ6ffGxqMjTffO-5im7vpP1nkaxzP6xcewoGxEn_30fh_x1d1N7098KjHjUkCC6UOGV5FE8vtrUm4qcaHjgk-nyqpo5BLsiL-bUGvfW2vw12CKDemRakhaRJCx6BI3zvSdqU5eKfj0wi4avDNdAO_Y2E5ze7lEab0m-oiXH2b1MEZNzIpz557UgMe2PoI_tu5bKaB55VxkL-KXJ32Qay0Ac-EYpbdbBCgc6L_fZh8M_AxU2WiA7doDQzMRobXLNoxnA0x2kL80tjgBiY3WMc4OQxUqjfcUdQ7cKXatsphXU4V-M0KbZ6QYmGdT0yY5wRB5dIu9_l2XqSP9ym4Wk7mKAeeVeISSv1Phj2JNlHLbLfJqja_WSksRbnar0D6TJ-R-GjIqWtqH--ERpv48RpXh_nsW7C5bioxQ", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107277887084392830533\">난별이될거야</a>"] },
+            { photoReference: "AWCwydjBB67PbOfNQzTVdtJuOr-ReqlBaPrTLjFO7O2o879iLmLQOiQ-Iybh8vc0mD9-7xptXrlvEWoSJsICeBkOu4iLoPPFBiL_6tgkQZpO5eVQWSgs-Jm3XryIlxodErLgfBD5lSFadZZ7pfhw0d982UH8uqHmoZymCfWedz641fMdUbR6kjM74B5vxbJcDaHYPCTjR4gR-oBR8r_bovgLnOWg4uVqiy3rRNG0lcCxzQdRZkxXoohoPr6GJmvFmdDH25ebjF1lqU3AVWv1R4opUzGHzwdubtIqRTC3Fbka--AJ94eCtxSEFycQGUvbWMIYX5hFbGaUvo0J38E5B-fPho7lvcweigwrGLWrEXQJ12S41uLrLiJ-n9_ia6fshZBD4iTOhokege716zVOOu6PtlVqvQuWCXS2SCbyIKwyEXVRVQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104934642221962553830\">Trâm Quỳnh</a>"] },
+            { photoReference: "AWCwydimSM42giYAY_S0BIdJNiJB3D0PUtq9Dq7TGjqhR4aRszhyMVRwrb6XibwY5zSSAcqhZLgWeNoBAN9xjq1qSbebczj_VP5-scAVZf65xm5w22YMjZSLDrXRg503pny5VBbalYiDIFGJvqsQlcejT66sjgcnS2z1RQAVOTH7OMKZWxRY2SveMMnH2LKnjbSrxt7LAgRNWgCLe0mVEJkgbbzuNQzO2GGNTdrKs6mRjd3muWG86QMV8sDCFERkGDJxDsKz8S00G_5vDfuvhMTNsGvmr3aVf5aqj-uHWuWwH2c6VDadyf3c-2tJKFZ2F7Ss2XGm3GQ01tPdUTz_HsJwYVJJnkxzmqdlVRBpFbIMaZP4e7Wy8jU01zgwGmwdgW50aZraoZakB7gCZq7iTgmQfm4rwqH04TlOr41tA2x0mCSRWA7L", width: 1440, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115006590904725852177\">Diễm Đinh</a>"] }
+        ],
+        summary: "맛있는 음식과 한국 편의 제품을 함께 만날 수 있는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["다양한 면 요리", "닭고기 요리", "한국 편의 제품"],
+        tips: ["주먹밥 종류를 시도해보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17863825398037310882", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9C%A0%EC%8A%A4+%EB%A7%88%EC%BC%93+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "K-마켓 달랏": {
+        photos: [],
+        placeId: "ChIJKYGiagATcTERbHAD5UvBws4",
+        placePhotos: [
+            { photoReference: "AWCwydjhwQcwLXHRGYwVN7fBitnrkeNCRKFTCs1sXpdm6xfBcE4qR8M1R2HqXgUCXGa354YFl4e6rSNyOlFxt_P6NTiymENtZz7cvTMKndMXS9bvJPAATBfDcLiB5z1Ny97bSETWQ5wfrY9pd8qDP8WFJ_7SHhkhLvw_AC-GM9g6rdcugzDDa80wsYs9jo3r8O8sf7xr81NR9ap642mwJ-9dLcC9f055NNWRf5a6VR94hrBaTUCcaChPMMGUt4xvrqnbExu3xIVnQPuJprBN810FkrZwUR3nq5A2SyfCMk_U-g2bNA4nBqClfdejFQh8bfNQMmWNUQ0JIpST2ACcJXeRZZGREMXOFajS3tli3dXICnJkf6m5ycq2c8GdGyI4l7-FaVaVxZBZtm6DWArIeGxpBn2fhwSEpSAaqOVBLxOvI7C-ch6dX5POf19Wu1mzf5eq", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108668574989341515060\">XUAN ZHAO</a>"] },
+            { photoReference: "AWCwydg3Za-J8LZ4XvB2saT-i7n6mYSrInA74z3BCinN_uTFa4siAxCGs8Uk7Ii4LDi8lP6jJQWW8QKZBvAfv1Is9-OXQ4HGnM_2xXIUjfdvinlcA5Vfzmg_cnDwSb7psh07ELUYZ5TbEq0J_qp23MMj3nEw3HKYugsTKqhPPVBp8al8Vf-kcnn_JDKqUhqTsX48tbyTVlOrUAfIqmVoYCZMRdKTsx8E9-OMXANbDIZIiEMHt0e_-LNT49BW4sPyRR_3nNOjW3MvhSVaVkruCXshppOKKhqO5nQr9TheH23dZoIVvXv7ZeU1Lp7Cj8CAc8RZMAczVrNM1j1K7MVzUA-LZ0rp83qnHEJiJDY4vgY-jgzLVsq1f9YwUQiJY51NdOedfCFrL8nCjLxqk9u071MQWMKMd11l6QThYzgmZeZjnHc_F1YInEKIKPFzfHbAsggh", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104781587116661487410\">Villa Villa</a>"] },
+            { photoReference: "AWCwydglo_-zBBdC-wM9z4FVVwb-dRudcs9NN3jREJLw18hjcn7iGHIpN90Iy8wvnA7U-wJ7Up7qauB-GW9cvLWTSlHzUr0GH6-VCYOKZIHO9wyQtyPRKtwASK-dzsr77KWZJjV1cbk6-B10kefHhcL7w2vUT00kncjNlQUMHBj_GP_mcKepi7MFs9760P1sL4QS9xAf4kRohddggOJ86a9XgzNXg738U4sXyXNTtX7nV768F1lrpNb0HW6VrnyD3g3lfa7n0MrVgctERxKDL-cy2PcKJu1sRw_TXU2Jw7HOdiFen-YZOPbLZJtbA-5CITexAfRRgWWZ-ii3o9u-hEtqkHbUN1N3sEQbUtltsqWtKxjLs6vufZ5VX-xM6OAv1buEmLPT2MBlIU8U4VGLSUoaSuWjPG2hWS_X5EGxh01wF65pm8W-fgdyjeWFK22fqf6d", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105343229590966791238\">admen Lim</a>"] },
+            { photoReference: "AWCwydhJSH6pGIgjOkV2lhyuOCPv9Zn2pxh_5_9AqRjVTEZAsrUbdc3tdhqKS5FfoQ0RwCC8Vea4MrLsC-REf5ZDb-QqWz7QsYKZsIKtDiiE3cSNFdLZf8rE82nQY8dLqZnlpeQ8vKb4knyZgBfii4cXOTXY_3CKhMpvZLmlM68frg3LD6VVWUbnB1iqoA1Oa8-Vps3yZzs2rbp68OCbOE4bFsP5GXT_9oHPl6g_4MHlvCLFU3frfMZ2nVbeRwjHrUHwa3tqvKcMPE37DhelEDyvICkk0j5dziIJ8l8opdoV8-sPepM99nhiH1fHOS5JdVVckMoKZUO7snyzjWIsY5UNWUzc-Z-9t3hwcBORzCIrg_p5ig1qveY-hgxte-kU7gOlybzbRxYMjGS_Wf2QBwXvS0nsQc35_zFL2lfkMfVZqItByZ6ezlcZE7Gc35tgeOdR", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105343229590966791238\">admen Lim</a>"] },
+            { photoReference: "AWCwydjGK2D8LgCi0BHr6ScmGuGGETkojy8TY40afHFGt9qdn7OrSTP3meSbmB0cRikl2-FMZEsiD9Lb1_fmpr7V6oCcCuyuj2wsrR46_1MrwA1wv0lPKNRMdSufPaJhS6a33SMi3JFaVm1LbrETpnCS34jIdsqT-Esq0xRwa33EbUf8yxFE4rUy4df85bfEFIEAKQimoVw5F7Blxg85HBl3_0xULTnD3BDJci-DqL2j76nsrQyd-gmIHNJgHZ5QX9wpKeeum_1N7ZNn6NZSgSMy85jX12D0QCMSkaIYTMp5yBAKLdDq6FN4bskJjj0tl877lL6_o8aF3cwzWtUVlfMfrbsu57GNNJLQirnYBBgZPUjfx6msz7-GFGMJ8RNJuLDiCDMGbayAnCVnQQjX4AdrLpFYpHsnOgmWpLzM_cZU1H9Z3erMw-BYTiI5ki5sTbOB", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105405777585664613488\">Nguyen Dan</a>"] }
+        ],
+        summary: "달랏의 인기 슈퍼마켓",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 평점", "달랏 인기 장소"],
+        tips: ["방문 전 가격 확인 권장"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 6:00 ~ 오전 12:00; 화요일: 오전 6:00 ~ 오전 12:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14898683049003937900", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=K-%EB%A7%88%EC%BC%93+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "슈퍼마켓 달랏": {
+        photos: [],
+        placeId: "ChIJ55YfNLkScTERUEy2k33dDNs",
+        placePhotos: [
+            { photoReference: "AWCwydgQsyWo9cB0GjrelxI3LMND4TZauVVtMwZ-K-RYafSM6OQ-9KpOUeuMntelrQI0y7lnScveSu3Fw7pWk3Z7AaW3M3Rxipgs6xXhPNjKU28HK3cG9DVq3a8cuBEneFc1Su3SN7YHmy9_jAWh2XGBf5RRuxQs734w1SHCdUaCjzr0DXdqwjK9J4suHJuhSchkg_RybzdHY6wL3Ur1zMVRDdUsHEAF77P07lqzV_d3nDZ3iJ_MWtuyYWJeh3Lt6ZeF5Bw8gnatkWirOIPKDckeyTh1wziuUiGfgBT6kySHn153q9YBgBWxAatgmT9hiWSa-zhy-Q-2CVEGxM32dlvuc7yIdMM-FeBgTVbVEHxUWqIk7tx4RL3uUSikxXPW53u5ayrAyuC1LewPOgVTK92tHRtiYb8yL2mU6okgL49Hyq0", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105524860801467947304\">Siêu Thị Đà Lạt</a>"] },
+            { photoReference: "AWCwydhqzoSgB8PJfeX6iUXZDz7tZbTbOjjKgJHVqNQ8aNmVdBxOYotTpEXovnDWklp9rGdkDfVFkV1-dme88h27WOlCY1xPy9YKehiqJjzeR4pNRGNg_erzng1HUbQtVV3QZFW_AnnIdwCk08TKOO9PcKrBEso2hNJSQbR6Zz4nhO56sq23sUVovp5fmj9akXqUW0yrbChmOl5iWRaeeJ65P_Id-dgl1Ohf0y1smeR5ca0speIeeXMQUF--9WgxuMHuAFF3zw9vayL4UVH4z89_jIqI4ClDN6dbfdJg93WSGXEaYR1ON2UmFFTJ4A1y5yY7BIYrNV_no4DMa67o3KCxafmDLvWZNGAQ1uERtMd6mBnZp2iwWqdVlavxk1rMua7MErQpU15O2B0qU4iEGosvBb4vDUClug-7BbkOb-ITeJE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106862368425609992357\">Nghia Tran</a>"] },
+            { photoReference: "AWCwydjKPRNFfL97wv1lrJVhOSFC1A5K9JPd6rwYfgD3Xnm-H7fSo-cXqs0wD1Q2B0oIpklYmnReiCCnGUfd5GujUMFvAqC--JVFGAd7hNzSOCE-sCfIeaSzHi0hnu4cKyNfHwUf6y9Qc_5fOxVcjysPmft8OChuv1aLpKjbhn2gmJHhb6gJmzOTf2rVM3L8X8o43t__WiXy2LFmHolcXlvSLfxpZbrHnpOBxXKONPBbyjl8RwkEYxxKVRrIAPsdc9pDDgF2EczELIU87fgBt5jkXt7FChvry6vob_QmMymZfzHluss4--zZiENrAHlZzYtM0Vto8IqBo8TXU71aSwT1pLsxsyA0_9En8LHyZuY9zSzKzzc3T3wC6SqCHDvFyv3Y1HvxVrAXUPSm0gjuR30VyiCCmxldGkNKwe5UnEezjiZrHQ", width: 960, height: 560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102660447265341542253\">Siêu Thị Đà Lạt</a>"] },
+            { photoReference: "AWCwydj2j8RuVRtwC7WMsn7B-QeUOxH8SVPlbG5gtQBuTfgj1Wq_diS5LyDId2OCCSRwqB_Ur1mMHuJEim-fETD4haFj8WlLVFp95TULD8dXEfX6hCtYd7Dz2HVe0Z3CUBLaWxHsJqwnsDP0ShEwpjl-yje-T7fy8CLRIGCJ5NsrugdopZ78P0mYlf4u7BES9R7Qyfr74CkBtSHZoOQ8ZGFZa-uQ5AHpAuhRQnK3MaD3R_RW9TfUK0tQehmW8ak3TyVYZh6h9jL417YrsQC3g1yLdKuIHHedEvpbj9KqenGKbxClMJmqR3Nh7aKafhKVf6pGFLWSz7AVDf8qQILwWmte1CH4UBizwPZDqOd0NhA_q3rH5LUMa0oJKCvRqEGjtrxshJrgjDfFHWcpWmOmoTL6P7hOCsCJjthTdDOZgaJmEuVXCDZt", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105524860801467947304\">Siêu Thị Đà Lạt</a>"] },
+            { photoReference: "AWCwydj0ds6Jy84iH6FdoS1V6HeUOIRZKkvHaENxnl4eLFnZKu8msvsT57dQUyuTrlQiofhwJY6g7ztZ_MpS2eIPQTgFDTdAkqoNDsnlQFXSF2-G9-T3DWg55d5D9jvFJv5--HAtNopKjmUhXqBhvLiuHKzNAarCbDcgocPX00y5YitqcGYzDSw8B_ecay_UYPE77loObpZf_QUFsXQhiFyBBujZ-RGUafffxdoBRgtP6uVCprWIjzjaV1zbebvBvQHx9cRVr_6HRI5h6GjC7oFxCl5HX8qo7ejsjW5GHmuCqU0jKNCC9Y8nz20AFZX7MVQBNN_jvx46ioihgzxr4QGiz2JJOjP1G0M8LMmVb5QLkxi-CxO-29lKOhsEJMjLOaM4X0qD-0b7QQ4UfIdYTzDWK3u4wydsQy_UZkMyTn07v50", width: 1080, height: 794, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102660447265341542253\">Siêu Thị Đà Lạt</a>"] }
+        ],
+        summary: "사용자들에게 좋은 평가를 받는 품질 좋은 슈퍼마켓입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 평점", "긍정적인 사용자 리뷰"],
+        tips: ["매일 오전 8시부터 오후 5시 30분까지 운영됩니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 5:30; 화요일: 오전 8:00 ~ 오후 5:30",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://tranmao.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15784234325445594192", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%88%ED%8D%BC%EB%A7%88%EC%BC%93+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스카이 골프 아울렛": {
+        photos: [],
+        placeId: "ChIJkWyCF2QTcTERjxqvVlD9Mek",
+        placePhotos: [
+            { photoReference: "AWCwydge41eQde7bAWQdVBMWGax4m5xnHak-knMyvWwCjxMKqBMKHCz72JEo0Zfk8Qn594Xr0OTrtMYJQm5YEpVHpYqGOX_QJDVJcyTkkiAezthx2_862186Da0x6pZmlpWsyq5PbaTeaVsguZfaO9r7dGyAwarA7YL3MwZom0oT_vrEW_anBo8nz0S9h1AU8-FBjV6aqBrj36grlw3kHI-lWbAY8YC-Lf8wf68WyKZ0AD-FMusE6N_bhEFadXZy7K1ACeCAw2yLHeiEg191pOTGNCeajYocU444l2bAEk2Ok9MJhhYPAFA6DZDYoxuQ0Kf1N9UVg07M67ey1N2T5JRsjgzzQoewAjU04_j0s08ffdRA0w98va90DwilPgVc2JqvACfvr1RMfilVuVEEORTRpg6xCsRmVs-dxOBKesg8__Rpgw", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109040714468366801092\">SKY GOLF OUTLET-LUXURY</a>"] },
+            { photoReference: "AWCwydjXXGYjMF2gTG98Fy-K51yd1hF_CyN8vlenZDuMk6Xen6_GKlDUSJKuPixIiympLfFRNw_XLX5r5cl11u-cwzDIMMuuRuOx2abtTeCq12tNpM32aEYOZ4LKzvshSiPreZbeRjsd7TPKIBfHx73cpeuK-oEioIlA3EHOKNpO8W5sn-bgfrovmrCMKPRcw2WbRISoXWKLABQcNQQ_hBbu8W37KvW-a106KqvmSFZerQNA-d_TyJetnSoyio5sjBq20FAJlyiRFK3BntqD5-vRGDrdcH98Bc6OMwm7Yojiy-4B7CwIQPEINdHPiRHOtyvnGPMyIvRCeA8eznKQz8Ag8NlQ2rrKovr4x18I1jM_UHusCHJcgnhq1_aoq_758A63fyEQmQkMZpxAlWWup5SZ7lou8UBT6Y8hvG-_Z-02ROg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115338318414773908313\">정세환</a>"] },
+            { photoReference: "AWCwydjml6Z2ai9VItLuIm3RHZooLt5o1J3-VQdcAjfby1ONXEz3bqME79L18--ueO75YlsKP2wRdZD6lOaW-UTz-HZMeI_ZkuubstbKauyaOeUtBvbXEK5sFmCfj43hKRka4IqaND3wlDjRnsu5gTwtAZG_AE5qrCX7c_g9EbM9LfzrzeVxo9Xd5iOVlxEmuBahCm5QveoHKEVUAK_dSnykzy0XOG65J-NkdvoCLRBe5kxcWTe67UyVVhTSMlXO-WWjJWWRIN9JR7NvfDFsOW1tjdeTJtclTI29gESWj5J-SIbOCdLYrm2N4zy7Ih8G-wxaKrBnoWYXrHe2J3tTg_2h9bH7XbZkkGqq-Ru_MWj8tY7bkdTUluJasQIh6EtGZMAAUIs4GfV2HFpfIE5hnfTdWGdQL2dFEx1zf6POelZDUDtstg", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104743423382629358035\">Hà Lê</a>"] },
+            { photoReference: "AWCwydjrAGxAwE9I0G72P3wO-bw_cYiZz7jlR7CvCfN-umSsnkiwoxR73AOR-W16H5pzlbne-bcZU9R2WmXtx_UhsNiH4_Dpu0-e8erJRf6e24BY7Rz-y9MJw5tRXgdpEm-MqViSjMB1f9Uizasv4BRPaHdlilw_7ctfWw_2Ig2RDRmx-TlPf5pHUMr0uo6HynNtAjs4fMwOVJL2Ymoc7LsK7-Ol3WEIRna6OMKqUn4DgwX8r4LV2KgaG0JQBkzc1WdL7yAt0fU1x8GEuLW8UxJHhJjyu_CEvNwjrtxBDCWWsGCvm6kG4O4OtEauk57ecRrGG0Tc5xw2eIQ03BzTNSh4JbTHL2z8E0ELZwc3Wdg363ODPOxIsrtQxIU_l_Ct9rzHi9RHB2015iieuKw3BVDw-1sdA4GhF-Wi_hVoVd4VODE8Bg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101815651394024294925\">선미숙</a>"] },
+            { photoReference: "AWCwydhROtb7z0QezjeWR6mY1YAhHeWv0OslPhTwcyeMO_z1mWfsWPsaD1syPvdRMYLt5B-U2qONJpWmaxN4Av7pyotnB8cZT0dug16dwyHhGOW0K-TdK55dpBVTU4K8HjYZMmWR7iVWGRiEyXBiZuSkXVix9sSt9GzEx2AVczpKTMKQI9fhcMCw-Qpxn414noi2sh2GtL8dm0_fTkK4DrVFhffZS5Zhr6i2Hxy9vja2h8jmd31lr6FGNqRUaIc_Ywe8qm6gGRELowgeGGpp5Qs9-rzBelGQVc7vGPyPW5t6O_G5aIbyxQLBneMgF5sVvDzu8vfKydaZXZJM2qc-Oi3ZtoRzzg3ctfQNQ0778LX6dpYIMujEvmJMBtjkPYb62bg-Moc0GbeLg8H3bHNWHTlee0luZx1XYsYq7GPT04QpemMU530", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104743423382629358035\">Hà Lê</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 아울렛입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 평점", "검색 결과 유일한 아울렛"],
+        tips: ["매일 오전 10시부터 오후 10시까지 운영합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16803490206189558415", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%B9%B4%EC%9D%B4+%EA%B3%A8%ED%94%84+%EC%95%84%EC%9A%B8%EB%A0%9B+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

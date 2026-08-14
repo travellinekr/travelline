@@ -455,6 +455,368 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/search/?api=1&query=Baan%20Kang%20Wat&query_place_id=ChIJdxPPqzUx2jARn86GcuRsD1s", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%EC%BA%89%EC%99%93%20%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
+    },
+    "8어드벤처 ATV, 래프팅 & 트레킹": {
+        photos: [],
+        placeId: "ChIJzchS7F862jARW7PcJgfbotY",
+        placePhotos: [
+            { photoReference: "AWCwydh7BD3XkFXPE3lmDZYmrKrWSBamw5dVsSduiW0KN1UbYjYJaGPe-5Y15ZMRlNIJYnM__YTRjxWZJ8bVxMcE_9Yc0M3mlxvG2JRDiUWJI69vP4d8dfP2XOGbBtKcZc6JvKxv2Kn2YyeZQ5DFQ-ixoy-LKxWvhzIekEJtbDeAQMH6pTUopweTuaLpqMVkkcMCv3crj5H4_p0u3T3dDLY5Vp6M_QPp3Kh81SMAKMWeF9S2Uo8YuL2XfQ2cKY4Q1liYowUvQNg9DvVj-i5EBbC6elkVwcZHPcYRfb5Xx3cSR09Orw4_QflYB9WZMa_JaNB7wbk3ekWFJntB3LL8ZY8InkiQ0KW2q-XLXZ0hfZyFkpexHcc1ewGyiYUXKOs8H4TOHGQqUo6WXZldLOMufacKCFt6bjmbdTV5vug60infq8b75vZAZBLCyKsXDv9gUca5", width: 1920, height: 700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113313287307941227401\">8Adventures ATV, Rafting &amp; Trekking</a>"] },
+            { photoReference: "AWCwydi1vPsGzhDG1kpmqY5Rj51Xt9dp5NsRFnoMxyaJD08hCI-LPUBMBO998Pr3AomiTE0hjHgwTAzKneVanku0vDi7fiLrOCUxkPjjAIP-E1AL0PE3bY1KpB9aQGG1PwqayuWJ59Q6xJ3otR0ZhOGUoxpbzC0PNt7Yi5XQW7YlAJfslA1L1LcyCDfo7dX84lWv9kUK34fZKMlym24ChTlpf9dcVK1fupKsTHSgbMXnA5XU_pLnIZABW2QyuN1VchPU03gYW6G3lo5XBfgeA6W-A6f4CygTOU5T_F_FZFW7LpdbVr_2I3PYIcIy-4EXha9fm_h9bpG6dFiKZr1FNOiP1XrfaSlRbVuHTCbDKWMnUu1RubPtMNgdUhp7wma_ffUMOGWvIvPnhyIyhk3lGgkh07kSCReVglnTIth53doi45wr5_f6-kCD0rILpwKuHnTi", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101843804714174761510\">ดวงคํา อาระยะ</a>"] },
+            { photoReference: "AWCwydhjTN0Q4488Iwly2A_OdDY2jm985ipU79Eqbdon8_13VcppJwqeTC73582JI-pbpo4pLfez_rKhHOchCjEc2dXu6b82hXu_eY6Eeg-QrAG6xeN1Fgq0GPKjnMV_BUGO3QAQJEThuNmDDdRCmpIWOD2A2Drr4DWHrMqCvx6ESeXNO9coUxc5U9PV_ZmPUcUbYPStbMJt9YxqUC7xcxkYYrLg_sqsRw8qH-gJdVvPKBC1Lsd0FqQFFtib7Nl4hLxhZ8qp5_t7qC2ix-gxZXPC9wlsIrjG9NHx9-DcKmqbR4hTytWAHCQqK9I1iav-gnIMXNBFHBjGTy3ZobmUMX9oc2vAOzIAeqEn84oH4ZXtlxTiR2XVD3KS7jXRdyqUFBMQwNwvINFvuGDAS2gJeIoL1k0UkS8gcKIJRtSqVpQ3ME2ewSHT6KZQj8oAB7F76wHZ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117431336474235161584\">dace “DVD” DVD</a>"] },
+            { photoReference: "AWCwydjAJ7etf3yqanq5T62oh8pO7eg7o_chQpUX4_PCzi2USt7MNB3FxQ9CRlhIQ4H2r5yeSHaciLgGuY8IONtlSS3aRo-63_6DUnM2D6-B7cflXc9Roq2k2GCmqYg75gqpnXkxnX2A5tbLGOTJGV6QTdl0EkCAXPcLrl0KrL75cFUhp8Iq9vk61onr8TEX1-ISByc9I_Ys5rzSzZg1INn8CWfVkg7YDITfunNzlC8OpmUInfNrpIW221N3EVFNz_N1J1PHCUKRIddI1eAH2S9tciwHWPM8RRcG8WYWwOnMIXvE1tNJL-LlAu3Y_XRJ9S4-sObKQv3Kup7qFZ8AEngI1s8CwzzxBZorq6P5StBwbBSMQqFvmwXqs3t4iV3VPj7mqegosFPWdYrKxZ5T_RpDzYdDY1A5HXS1T2I6f5C5fTRu0XcnwZD-GGex95y82A", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106326313179104249009\">marlieke Driessen</a>"] },
+            { photoReference: "AWCwydiZc1pHmVv6rb_FKgLe5LrRpH8Phfmosd_32ydGcoc6tBwlvrGUGRciba_IF9bSVny-7S24WKrGaGX16dx0jY4x977Z22PnFhrm-URJxG_AhZqkNZfi9-75Bh5et7RZgesmhlHy334TWWSvYS25TOdCXXsxJ34jPBDWlGxAxk3FOFHwAZyj2Y0LN-Xb0yE0kVLOP2KL0BwyNZPrZCUbYGqURJbOq71_ZHos13IEAxhBjZWZfPDG0yXHtEsFooJyuMj1PwMv1lKQnKcBuj7JZkjC9Cms-HODxeM6rpNekS0YdUN7gkHe39kZXNsIMWa3znXYWlbo--6lsGlg3On5EMgsFCm3RuCTSYSrq_kIT8j3AeBdIYZ4BgNX5hPaVyeCnUWueDTQS7M3z4HpaRVtcCMV69OSUqFDoz1C5IYYBnG3KqUqxX_vCrZ1B6CGEg", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105680499043210852048\">Yaniv Samuel Abrahami</a>"] }
+        ],
+        summary: "전문적인 가이드와 함께 즐기는 짜릿한 정글 어드벤처와 래프팅 체험",
+        updatedAt: "2026-08-13",
+        highlights: ["정글 어드벤처", "래프팅", "ATV 체험", "훌륭한 음식"],
+        tips: ["가이드의 상세한 설명을 들으며 안전하게 체험하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 8:30; 화요일: 오전 8:00 ~ 오후 8:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "21/22 Soi 2 Thorakamanakom Muang Chiang Mai Chiang Mai, ตำบลช้างเผือก อำเภอเมืองเชียงใหม่ Chiang Mai 50300 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://8adventures.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15466164894106956635", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=8%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+ATV%2C+%EB%9E%98%ED%94%84%ED%8C%85+%26+%ED%8A%B8%EB%A0%88%ED%82%B9+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "치앙마이 스마일리 투어": {
+        photos: [],
+        placeId: "ChIJqSGYeJk72jARMzt2t4hnerg",
+        placePhotos: [
+            { photoReference: "AWCwydgycuJpui8DuU8o06aA_cjMaI0xZn8D2yvUduNQsb1tV9HAGmfNdGf5aD2Fsdmmy9hKp8tFqkMBDEbsfyf5oe54rJ-6hDLZOUmuCdiPVO8muvSjdOK_pMrDTJpsEtgZrK_QefhMprbWQPpYF5O4tiojKq6IeZSHX2ysKZ851g9kf4vfQlEtGqTgTxUijBLQ_Y-jkiD2AK8gm2EEFyDxi1wYpjTUigiqWMP6CZbEknWAXWFVqzx9DD3XfrXJdEpTaJE_Ho79gnFYfRmd2SYfrnpzcsIp_Dfq4ipnlGuO-Qfb7zw8ffNN18IPwL0ckjzDk0Zi0pfyK438e1ZDNnec3L6_Etc8lQeOZgZHqbCzsYbR2dieshGCln7FH0YPYEui6F0hkVn1W51C0scLzcEVAuGRgvYf9HqLWdy-SbgFRGmreOa7PWdwhtMSVzzt", width: 3467, height: 2604, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115700305637226133391\">Sara Fletcher</a>"] },
+            { photoReference: "AWCwydi5wMukI2SL2EU0xwAOh5O-Rr9Z-0yBCxx4NNynsD2wj0PcNTSiLqJNHgEIWqS1Ce4VyExXj4__D9gw9-pzAuIOCtAD-TThuDszuMX4Ray1RrnZk77p9veUcddJZ-7FVfsvBa8coTzewivJOL2PzQcub0bxLfihRV72tJ5_qN2cuKgD2UhF_NIY4nBkf0HGDCeKtb2OKAZnY4m9_rf4ReofqymvhvTelcuL90mEqKTJSFRkiAje8DV9mBMklYyPR20cYbEk3kX6XednD4ewo9iJbmwrxAHKpyA6XkPEjsygDkuoP-zX7W_Sp87CQNtIiMh4gLT7UXeTyNKO8PWXSe7DK3sdP1ti0r6y_hmZzrzahf3Mc7LIimDsXOU6I7hcEtchpDyF2kEUAjewNpsnE5MOyeILZ44VSJ8XV8Qj9bXr59DzPLdU-L9yxGcg3g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105219230594492463171\">Chiangmai Smiley Tour</a>"] },
+            { photoReference: "AWCwydh5tWavwYlNbHwFs8GqNI1PxrFcEAMBIVVy-TnKnS_rmL7YB61P-7KsTC7cnfCWX9cHCGFH9oHwYkj52Z8IPogUVmw9vdiigw29hRbNUTI3oM0JdSTTRlV3wUxFxw8Ti_-x3gDzzJf1yzUtKoFnjZaZ0--qPxVucSGLAal0hbqIkvrP48CnQ4CjzQiNm9NQPVzm3JaTeTDa_MhU57bVEybJ_WNMEwc9pvDKMoBj1JdXtD3cNRlEXyl7HeTO49wThRZRgMleHLTrH1zQEonNXmTBb4kTvh3iiPgojWsjYHipyslKp-Sr6WNC2LCN8WHXAO5kwB3pe_lnOtQ8QozpOT82ZiFXSolfMQzhK6dX2geSOKaTVS-uM0myP8IZflAVDQhOoEmto_NmHipCScLuk5uoq-XlVN9chNo8onMO8jiHUA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105219230594492463171\">Chiangmai Smiley Tour</a>"] },
+            { photoReference: "AWCwydgdnzftiOeG-98z_jvPPw6qTW5qyAZNj9GLASaUahBzNn-pkRlgz-uaeYURDX_N2fYzD5Dy3KRfOpvDCAlLrU7zFwBP8k6C-hBJVooh0CdwAyIZigajCeU-QC63K7-r133RwI6xmvBidwhvP6MYJ9QUqTxEqcvaS076gjbzV6Ewr2dk3TIQpa5895PzUL2mft-_salmd26Ur2N1c8VHdVT-Z4MJcjKLSO7pgs2XgYYiQGKKwuf4AgbOJavaerLqNgt47N3q-6LPFLbYgXXqE4FGzvKgPNrddzrxhcsKI8MNzM2P5mkgopIjuk1S7Ln00eVh89ESPo8VfQOJEe0B0la7AW1d9cog4NjKWCidVWJ7tYk-hJnriyQqspu5p7jRI-yDDZC9lQHr61eazWpOcw-KDFurSKFZ6roJFwZ1Goo9E1Nu", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110314906067737399822\">Ohora H</a>"] },
+            { photoReference: "AWCwydigfUAW7aIkKWj40hOmDgi2FU5EtUXBVN5TrQ7AaytBSLaEoHTqgjRwzxIcF81OTpQpBxim5wq2g5boT2bqH8Gj_7Ow2MEczZrwcAgPgw0_z5B4m8Yj59_yAy4RCRk2d5rxavhuzyQu8gTFYmkFiUpDiNvXlnhf0rVfBZUQALSPy0sUdU2ttF80y17Ekht5wIis_VlORQzAKihjdCpjQZAOKCBi6SI4nr-OQfvLEpuH1Pr8sqT59edJ2iTrY5u0GhuujZ7WiwBTu37_xTZt3Zxy0_xcpNNL_y4s66pObH8xHn1BytV4G4XF70iA2YXd3DxvmsSnPB1uXxhM5r3S_DI92tm6QuGlgTF5JPRqqPIscP6YuAyXf0QPPmegjKqUABlo4NLG6y0IkPSwxXDskoBZcahnyt4pi_aXpzN19yUn5dXJj6Sf2YVQ8P14w0Lx", width: 1706, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118184838431450403627\">Antonio de Luca</a>"] }
+        ],
+        summary: "합리적인 가격과 맞춤형 개인 투어 서비스로 높은 만족도를 제공하는 치앙마이 최고의 투어 업체입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["도이 인타논 하이킹", "킹콩 짚라인", "치앙라이 당일치기 투어"],
+        tips: ["WhatsApp을 통해 빠르게 문의하고 예약할 수 있습니다", "개인 차량 투어를 통해 맞춤형 일정을 구성할 수 있습니다"],
+        hours: "월요일: 오전 9:30 ~ 오후 10:30; 화요일: 오전 9:30 ~ 오후 10:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "56 1 Rachadamnoen Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13293051087028632371", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EC%8A%A4%EB%A7%88%EC%9D%BC%EB%A6%AC+%ED%88%AC%EC%96%B4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "조이 유어 트립 ATV & 래프팅": {
+        photos: [],
+        placeId: "ChIJS4tBTII72jARA_uRcwv1rWM",
+        placePhotos: [
+            { photoReference: "AWCwydj2a3nJXklKTwLcE0ptCY14N0EbJ95RMvPW4BL2ZXNtFFBz-2h0bjwCiE1gnmLpq-hslO7wkIsT8RlSJiJPbNH8dC8IyWw8TJAT2bDfrp7Z3QQtZs_TPa8ldJJ9KAoCjsEtYDE1bA0DqLikS-uo0jfiAiPpQcKTzO2A6WoSpQ0UG-e_tjkVDQ0QONjy6KaLTP8_sk_zeC_88Tntn4f4ixfKGFmP14EYVCvEJXkR36fMsumnz2oiPF-DmNQesFZF_CgpvPf2qe7xRHXa33Y9MNj5vKOB9z9MLfq3gM1EeqIgPAiqjxFfBgBhBaiyngQZbkZexgBX0ZWF5c1ApPofDCc2rl8EQbWI4uxZIxwWIH7Hn0276qRtKyCKmEwb-3rvzMw4Rd63cRqolczad2i4Bp9lUdqzlwRhcZbZxh9ZIEa_x1IqvXa80QJCshOPtbZu", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102044650676057811819\">Vanessa Moench</a>"] },
+            { photoReference: "AWCwydjiabORyS9rIHaBXLa2jrGXu_M9rlxHuadsIGJW9gAay09H_enEDaYUbNmzMVLydRWQfO5yf82ygjUXUklzw6JL6WhzIeAs1ufHd78n6Gbj7QeFTkhhx5nUgxnkAGPa7KB4wiP4qmHnvuPP2LxI6pebvaI-zT4D8qKCQf119DeUSQJHnkdqtCHvVd4igUGNIRjwxBlcS4Eb9yc0kL00wR2blxqpVN2somlNYpSWaPbB4GrVN8YGQ5HnHHw-tKtH6nOPtrwjN6dFc37n70XN69Gz3AIxYzA5xhczx47Yn2io3byEhrM2vALSKiPwQE9xxQj_f7jB9eNQ8d4e3P6-Ede_1KUwDPhSkPH9_77QPMhW9sz86JnpRgfGNr_blVKSeI5KnoMUo84vNYxV3u0MD4sBVQcpQ6Lxg4CzyC3IastLLpSl2cr1OaaN_geK7AKX", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104187498520126914340\">Elena lol</a>"] },
+            { photoReference: "AWCwydi08CEvkV5xO9mKYMVXo6Db9-PNI8STmNweFVJd1u5dmWN4pX3OEzEJl5WMH0AoIcZ8xAGkeLZZZ0IRItILAJziz7yJ6asuqmY7FMYjj1oCTz8USoOsKu_ICyRazHPxijGSCcH1saIjLpnaePOPlGzlEcMWi9wyWC-W9qcto-1GBcG4QjNcQ_bWsXjGueqp8sbwkvBxGgMoVPcRO2aDNXhBrMvyDvDNTNDEt9d7ICnZrY5AlQaWdAWA2rlHXToJCOyIqnSmRgRdtuUDPIaafUUAHe8MJpLs6-XWl-cU2Z1bZhEuD2J8sgKxqcn-D1-kA7alxtXGFmgEhR51P7YWITZlPmrhW5Pd2nHUU9OxxkC0eJxu9p6oZO9HjH0s7n6mJDnjXSzAlVxmcKRFTyahLn03UD0TKCkKb9OZbi5gfhs6tuw_i13ETaP-OeR6NvYu", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116220599153336156257\">Grupo RVC</a>"] },
+            { photoReference: "AWCwydiP18C-Q2GcT1EwQQbjJ2Qtwqj6gtapoq2Rs0Na8-lS9p9KgZMbrGTzzej4A8IBDylc6STlLTatsdTAu4IlDBM-h1VgHb87LMWV5iudIVcehKK73BcldbRlSwa8p1pm_c_4VfhK2UL2JadpsE22pW4SGcdCtA_2An5LIj7flrlFdrlnhx4NUMgev-pilDeYkgUHr9lbWAngAlJ4wEtG6DxT_s6Gfz9Iufjz3qE-g0AoEyqKpLNTgwPq_C_UtFOCFSYYWrB8Gnyf_HBgJd4ODCITWl5fa4_GKornl8_W9QEdFerx-lfTkHOp9ItsKnX1l8QCu9hUphhjt3lfmK493KcvY2iSzlfzNwpof9pykh1kmb3kLdY3zYlIIy1uV2zsfa0jh-WWtE18u6S7xrEHj0BLu9oOIxZSb9cifV9kaS6TCFFVeLj7NuXFgAoJng", width: 4000, height: 1868, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115628437882798836711\">James Briddon</a>"] },
+            { photoReference: "AWCwydhSpASQiBFhWBqxbmm2fDSy6QRHg_qBkR4xw2doCr_lLb_lBH3bRaR0K_xWqgIUsxTrqiYX7q6mJxF3S0sEAv9rMV2TUIanLRHzXANmYDCz3mwne4Tsq8oi89CY4KyN7aQ3dzEDflAbRq1onX7wWK3jOvgm9tw5P2tlezeX57Q-Nm4IwvuBWA3R9fQyUu6c_pZrqD9TLGLgOnX4wzFe-74COaWsaF4I_oUUfG3cn3uTivuqhTOzruJJDVWnWDx4YiDV4RYCZsCKnbxyecdycHtTDiKPw6qj8S5Ipaxkt0FCqFKHPsOQBexU1nCd-PuEzEJ7slB_m8_pDz3WqJZB2eg5UcPO-dG5Ut67rHl7BBEgPRv9tLL7x3xEDqMQ4VRp6pSe_MHnX_T6axOerQKOvgn1cC8bPbeeVsqocPsQrDnq4NVTZ4OkgBZHRCjnbbbh", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115436901075924920968\">Safira</a>"] }
+        ],
+        summary: "야생 코끼리를 관찰하며 자연의 아름다움을 만끽하는 친환경 어드벤처",
+        updatedAt: "2026-08-13",
+        highlights: ["야생 코끼리 관찰", "아름다운 산책로", "친절하고 유쾌한 가이드"],
+        tips: ["자연 그대로의 코끼리를 관찰하며 마음의 평온을 느껴보세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 9:00; 화요일: 오전 7:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1, Sripoom, 1 Rachadamnoen Rd Soi 5 Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://joyyourtrip.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7182666410258201347", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A1%B0%EC%9D%B4+%EC%9C%A0%EC%96%B4+%ED%8A%B8%EB%A6%BD+ATV+%26+%EB%9E%98%ED%94%84%ED%8C%85+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "튜브 트렉 워터파크": {
+        photos: [],
+        placeId: "ChIJyRBZfFwv2jAREdTel4JxNTU",
+        placePhotos: [
+            { photoReference: "AWCwydiJgLcGK-CG28tEg4s27nhyYSlXYghFlOIxEzx2raeN_p5AeVi4hmaZ6d1pbYQOS10Dk54usGWdxDngO9h9demhoGhEBg8LrqoRquQxMxMU7G8WdVC2GXlfP1WdhKZeKl6XnRzpyxSr3wZkWeDNsTpZ8ZLGsQCpPRAa_ANlcqAJCxpg3v7SXARipkQ0VNPfG7RiJcGSmf6iI54rSF7svNntoAeZG731Te25KY0u2kSpCE7FDIHYKn9iTFbjXibHiQxnVlBoeyJeD-yEriUFFmo4Cd_7pDboUyoTYy_WiahVAV6SFw7RaafrXYJIC3aB03QikK_K2JnDEEEWwqn-HACV9TKxoWViJCkzLIDlD-OJQwLaySSISTNX2vECKM1kR25zEJKTHm7bqFZ4YNODW2ePnq4JIZ3TlxFH12-I0e81zek", width: 902, height: 600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117589214298690899426\">Aakash Sharma</a>"] },
+            { photoReference: "AWCwydipqjjTsrzmPEGawhSgjsTQVYSCaO2VdqXN2kT10TA77AmcfUr6S7nYuBg5TeiDD8jV-WfzK-8X4S9xzlDeB1NQfmSrlNhPARNefRTAo3jPhTspF38iLzLjRyhQKe8jOfOw1L0mkqrthcgchSK2fVpvET0hPyCh16PqNt7osZ1-_7PP8C_HrRgMmxGFmBjwu1pFg54UyShLy6wXqAIRzGJgJJqgtn6ucOpDi6xn3AIVAKeRYZiLMXvvZV_vyclUlwchFlu4PVMbti8xuFcddTCqJkBarh9sbyfAfKkHr6ZOR-52PTDMuCn4gZEnXHkkDEDrBo9xqSyiqi0QX-pCkTU-sLo_29g2liEZb0TjMKaKFjv6cTJDPVQMkPSyHk1aNQhqTSPgAghorNKC6g5nPRliPOB6PAKOty82g-i6_669mg", width: 2560, height: 1706, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102236639697588627443\">Tube Trek สวนน้ําเชียงใหม่</a>"] },
+            { photoReference: "AWCwydgbm3W6uV1mulsAAed7c3GStNzWhbt711tRda7ZTCsknafKE7oNPoIKkHHYRiv2pODJJDWWNX6jDY8JjdAaHbKKHBGXnbJegUILfExnQnXW9C5Unwewu6FKNSE5qEHBr9zgdTBJNYhAK2cl14qk7y3v1_r-7fIohjzIEWUkH9wLIkIVv0t-bg8kQ3e4MEwNjtuuL3UAb02TvryWEZDFKsJUKEHeGmkznW7cRm_2XQjOmVWViChrJL8lczTdhg1W578vz6uwAYCG8488_Cbto2Z77maguVlc9EW9IsvQlJDsif_418SyIxn_oAJPGz9Jgtxb9lNI2r0JMAzV86jjZrSBy7kKdeSXZKUGwdH1Dy8LDwfagXgSRZisJD3sos9n8Byax-RKEvbjyvvCvB0KJ6lrMS6I-FAHSz4j1P63cKQeAtm3", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102618126965049878535\">แอดรัน</a>"] },
+            { photoReference: "AWCwydhGgWTEexgEPVMGtpzqo8LeFc_LAVYQF6CigODlc3j7vBXVCnB04ZBDMgtd18r58bHQmkzBSu5t7xOcXQ1R_wJwAH6Dhl8itMB-ewbMIMbUxE6FoqnOd8OkiPxUIjEjhhcRoo3Ck2vJpjuL4kggcMftdAcQPq6Rml9qKwLXu6gp3k23djX5CmyDfhDrPLCaf6K48ijUQGLvPvPwS3OLc2lFvxtHSW953T6RaMO6d-wH0DWvR1uzBNpBaXC05wKtNg5u-AsBlfhyNFGTr4qvCeoIqXoMDNVkTR8HzzgqG5EpN6j9UnM8fMSLtVZhTSx-QDdlnq3to5-LNRKsjxb8llJ2lJx7BGC8DoB3-Bq5DHZhrsXQ8gSioqKrhYi-uOW6wvYntezxz89lZhWkfuWXxh2yQ1TK8CrO3ydLuJK1GzfOI7Va", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108608244032849470852\">Perfect Homes</a>"] },
+            { photoReference: "AWCwydg0dJD0eXa4vijptAEEhuWyCPC-rcDA19QfiiokkvQfVCCapZfMzr9MgzZlGUenPvVOtEmPyDdMp2bDJpnp3GQ4IVM8knoJqIhksCSKCSio3bP0p-AmvO7dPvpO3FIRAQIPxwv0bwtsGi9D2boevdVgGUdZVryY1fGtBaBTC0l6JIbkOzmGZtW-oO1y_iP5rewcx-zCbSY5HgIsuAZ2ItRlgeLW-ONoXnoj81UBwpWWESKnhjMw_R7sY7HlpxnmJQ9YJ1qpYLMleVGTyLTEd8cozHpUyzhokqqyJy5FDRcXarxc-niPxIjYl18McvC8JJG9hyc9DCGjxlDSzpUN31azpDYAJhCGZi4CARmcDLG3DqcrqeCuwMmyZ5rwBRIhFEPme7QkKgVmRQjSV53XXZFnCWDJojMnfI9RiS13b7oB3eE4", width: 4624, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104875906231411563526\">Le Soleil 7896</a>"] }
+        ],
+        summary: "다양한 슬라이드와 편안한 레이지 리버를 갖춘 워터파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["다양한 종류의 슬라이드", "여유로운 레이지 리버"],
+        tips: ["손목 밴드에 금액을 충전하여 사물함과 음식 결제 가능", "사용하지 않은 잔액은 환불 가능"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "ถนน, Tambon Ton Pao, Amphoe San Kamphaeng, Chang Wat Chiang Mai 50130 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.facebook.com/tubetrekwaterpark", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3834095463483495441", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8A%9C%EB%B8%8C+%ED%8A%B8%EB%A0%89+%EC%9B%8C%ED%84%B0%ED%8C%8C%ED%81%AC+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "50플라이! 패밀리 엔터테인먼트 센터": {
+        photos: [],
+        placeId: "ChIJoZABgsJL2jARwhxDAc2opQk",
+        placePhotos: [
+            { photoReference: "AWCwydhNZfJEZGNIbFTRTVlqLLWXCNWMpz3STv6IHP7kCFCOnMrxRZU5Te7Wajs5HYTXrIFDLq_PpKQc455oOQ8VMmBqqYxq83YWi32jqsVFTKOd8SjGf71yX70vdqbYfHw92_-_qH5Und74QqMFFAekfj8NLkS4CCypsJPiKn8JlghcwQAjcJY3zCXfXn3qmhnQXd1RKOnw1dgIsy_6p6xkSyREcUtUPZjNpVPC9UQFspUNzeRKDUGM7MnoPxBgAn6zPvRiGgjSRm8kNS-GgrUgWFJo23TTK9qtH4sfzSyJ1S5UfljEGOrt0jXsVDy-Fie3Fe1NJKcX1qheLMgn0_qzSkI1URcXksmSB4X2RaYhlmaYemZVSMRG5mvdhfsl0a-vTrlAOYm_8aSmpmeOUwE1x3QsdygvD4KySqBgYsgvqeLMxg8yLEJQ18iHi0JZYSL8", width: 1201, height: 1510, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105108072685589939947\">50FLY!® Family Entertainment Center Chiang Mai</a>"] },
+            { photoReference: "AWCwydjL3qOyNlBKeTacUFLs1suCmKdeUztO2B-EseybsRvSBpr-32NoZxVrIksoNlzO-TcirQ-wvLs6idq6mhi03_SnRKvXQAJ0tt5SMmJmQ7Fbhmx208iKE40yVt-BmhlOxlb1PjWxgqq7E_y0Ocg6wJwvhtbfIzMKBnemYelOuz-tXhCx9CQ_CeBdfyqvrRw-B8AtaEU7hqEgZFhpHU1wC8kMVrOEOStfWaHzlYbePhuOmqnBsevB00y-nrq-geqSCNceefjD3FVGFECGBxW8NFGpCbgpttgMfimdf8QwPS-xysCncwm3M01gC9hnlokyOli1a-NlpyKUaeETDGP17NHwQwksWzYw7iLSQEynmj_CInq9FKwtNDUIZeCwLIu9VSdGmSAc39IgrshvlvS50xp_cfXMceEdt9oUK_DjA8fevHk", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496080024326350529\">Alex Harris</a>"] },
+            { photoReference: "AWCwydjMVZJtlROGf0_nni_OmUr9rO0rF8WBkZIpU12vUeU7IvSfHWfdOPGIKdpBLnS3PtgLrlrdVWiOrBV_3U9bSWqxU4EmyEwQ__nYC1yBXxREpFtSrL1vBacYcIMLgL6S9MkFfF1QCM7J0Vr7V7DJm9S5xIkj0obT_wjDbaJDqIzCcBVEl9YsMA_wA_6CH52164uFw1bHRdn2bw9xqPXrYLMRRbhRg-L6MgMxg8lLZ0v7IiGAV2rjQHUv29z3FFuYVdopscxvABKnN5iwQ911wQzlCPT6YvZLFDy78zmpR37pNbo6n1Q3BymVyxgdGZIfDZxgLZkyAgaHiip86MmUV8P0O6qLgYrlEa23X9PKgMQHcIDyP-AwRalRTv_p5Zy7gh6_65xsH8WRNtsMgzfJGdcaNudmx8SR01pMRgmSvcxczA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105108072685589939947\">50FLY!® Family Entertainment Center Chiang Mai</a>"] },
+            { photoReference: "AWCwydg-89IyNwpmUMXiDrYe3H19DcJQNIqSMtlwnLmBpJvVg8UzG8lWD5kfLsQnX8ruEm7ghKZXU-8eUaD6Z0pRtofdeIPUQhUT2YQ4Eg31lDm2IVuju0eJlJbrxmNiq0N9tC6ERKBZdwQ8GgOnhMBCZ5jy0tMWnz2_Tilnpi8bLa8RteGbJrV-coluYrdT5ODFoc7EDAPpqVFaibnIYJMoiTyMBuI0fejFkDmSWq5oWHcnfY_dHPm-EBLz7o66HU8-cjVs-g4Zc0gTbQxlSAfLavo1lKea_OCevLTFEjx6FQ_O5iq-qdVXW1gv8Xu9OhDwB-YyV_JIrk1IPpzlxxk3k1SUjmyRWTqFR-mLRDn4devK0VPV-ykvfLGIfSU3DSvIBIWyAkNH0UXxqBRrQYEcaGh3zOcI-OEFtEstw6OEHzxFFQ", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105108072685589939947\">50FLY!® Family Entertainment Center Chiang Mai</a>"] },
+            { photoReference: "AWCwydjM4X6-b9f1GBdUuI5gRnhA8J2llvQLG-NSX95sXqxnVcr-fuKG3D6644m6blGXjae9zX-1tD3-uZq88ADqb89pqi02zjYIDbeouXVRh_ovCbd1qeJJhM42pg26L0IKQ2iWzlTvTgVmENjEW7wSiEI0JsM56BAeCPf3UwhX9uRq3ZpwBSxcO9IR6B78Ky_BUia6AFVeEP8lD0bZlaqU2wLOHgiw3-a-gfs5bfG2Pj2Hcmnfl-RgU51A5rLPhzF_lzBnYVSDDoxob5LalQfv688vZuoyYTeWkdy_yUC2winV3nRzRD3sc-dvj_JBAKUGKLLrXRTlqIeSahrebLskpiCivdAIngA5JkzP3e0cJjNztI52t0FSq0nXVuNZ4NDUZhh2UXTZJ1PiHRdZj6TREH0WXmmimqmSpl7AJW3JeNI", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105108072685589939947\">50FLY!® Family Entertainment Center Chiang Mai</a>"] }
+        ],
+        summary: "친절한 서비스와 청결한 환경을 갖춘 가족 친화적 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 직원 서비스", "청결한 시설", "아이들이 놀기 좋은 환경"],
+        tips: ["아이들이 금방 적응할 수 있는 환경입니다", "매점의 햄버거가 맛있습니다"],
+        hours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "132 หมู่ที่ 10 Chiang Mai, Tambon Pa Daet, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50100 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://50flyfec.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=695147315941547202", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=50%ED%94%8C%EB%9D%BC%EC%9D%B4%21+%ED%8C%A8%EB%B0%80%EB%A6%AC+%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8+%EC%84%BC%ED%84%B0+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "치앙마이 나이트 사파리": {
+        photos: [],
+        placeId: "ChIJvzLCOik32jARGvij4r7Ar8o",
+        placePhotos: [
+            { photoReference: "AWCwydjtpuPGbNXfcNKSxksV0XUI9UwnWMCchhrZavPB6lNDn-94ZLxpbE11tmBRz9qyxLmrM-dxapg5Hufxv2lCd3Z8_t77OdZT19wJedfKANZ4PWRTI68auhMrUYLAIt2vH4ac9qs3rwoJWe-1sXqtOHuI9dH2JtaDQx1Ln8JG73b5XGa5HG2pEK-2v7s2QwfkCTu70wqWVot2bSqgvnQl0FzA8cIlt-FoIbZaoRMRv8GQnVmN493v4jyazbHym1bwwDKHrdm5-m5Js1aD2GdZVoy2QYOk58k-rcncQGP1TFferAUhJPc9Yisncj3bzpQB90STZ-KNazqWkpHKca39tZlw5735hB_PkLAFCdyOevEGZWMExaZWmV-XNfKirCUaln5RA-3xA9Mo75nUC8chi1hX3arAAV5Ca0xYxsk4Br4", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100991859092679131586\">COBY</a>"] },
+            { photoReference: "AWCwydik_brt8nm9fWysrc1i0Y-BAc3q7bBZ2MJ2Oo4DeSumW3oWtB8emu6fwssVZ15pVKXMbhjyL437K2TwLSDHVWcRiUXhy-QQoXkZSDrxJ3TJ8MZLg8CbJL8ny1D_71shnveTDjTB9z2zhs8wUGgQzwzPUUN0jO8sJlJcNqByNmu8mqUx0yol784QYsl_dsBftfUFj1v47H6b0rS3vqOR5GJXItR65rh5jcNfYzWUSfsiYStmU4QrFnwRb3pbJGXKRGKhJJF39j1lcQ2XRseSQHaFwBmnDSZ9q4oVNlSsftt4Tn4R9Rq5X15dQ4kUHzNF6Oc87RXXyR6cREut2REd_nLw5aWJuH6633DyPG0fQ80T5XfG1XQ7KKxPQHSA_UZNkKkMBgyTM4cG610mAJ1PqcH-x139ZHwxqoGaP_tFrNd3mKQu", width: 3680, height: 2629, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111245658215777977641\">chung-te chen</a>"] },
+            { photoReference: "AWCwydiM2-9HE838FgWBzG0Cwn_HfEyU4z3s2OhzyYvjoD5CVh52FaIn_rw5UgS7nnEEyyC7WtYtwmN-vn8QLc1wW3axm6w6H8PyKaeihdlkVY746QqD6r5RfO41WmEIuzXxsOm0hHWxfVXOOH5NM19XZCUBg-9lLK5EH5QYcCUONHKc7E5NIydmn8gMgadNpb_irJBVu5M39ckJfyJS9UuJRQKcz0y6pyiMraRRad7QP2sWlrvG561wuHILyBxE1GoxmBTMXVSMf7YX2jUahXq17Ra7C31oGxHmwK50NWXOw5Z5pi-tLnwf8_hJFvDuOxzAD8D_7clNcHW5CmYUphnZWcYw10_5RBu1WuWfdDlfZkFsojBKfhByz96SxAJY24punwaBjIVEgZ6fTAQzQGpnymq1GkPuKEXrum8_V3-6PBP9j_rxRa9gL3wgbgBa2jzD", width: 4624, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113768712784919325032\">Little Monkey</a>"] },
+            { photoReference: "AWCwydhi1sAK5FWxobtI-LdrS4Nuu1DznPFwyob1_8NC1Yd5onKarpu4Mp9oaTliz6exQ80egpk4LrJjMWxTKh9OHCc82vT-SXVviJoXBzMYrQaevmT9wzUHTBvtkRbS8oDbZ90nN-U9C-_Klrc0NJ3wJk8mbaZfvor-Ri3b8e40iIS6YULu4aQzrbcHp7IpGm6_Zz0cos77QN4VpDDfeaUXgV5Ad3o4rD-wCTwjn0IysSIVyQMwY7pJABqJcZYRieflKHIbBvYmMRFGAUrM4DqBZaiqt1usszNfkzl_Pthxd9a8MZvsrq2CqqFH7SAjQEzwnQ_-6odnlbGVhrcIqCW4IoiPUa-VAaDNPoB4S7Q9BOHaOwF18V5JkpgARHNEkBuKS8wxTVhLpJfS8i5c4THf-rtKuGSD8GqghT7jM0CHrufAyQ", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115169007418180003094\">黃亮亮</a>"] },
+            { photoReference: "AWCwydjqCavL6MPQVI2KrkZur4h9ViP21RICbPYtgeilKourFb73ViWaA52JrfanL4_WM_mPyVkBKONbwF7ExN7sLfwOUbPK3lzHA4jPawK6DDp2r8R8HC-4ozU2ny9bUfOHSQUE8SVuGpu0FbW7_WJT9sxfC8G_tdKFP6wmVxHf7k5lmZZGC8uHgYXbIvYsH7tRONlf5g5XxX4qL6CUMzvfrmucv_TjlTS0xE3BUDCWjFfYwfgUyZj7lJYm-Wjp5iFDJGyMO9i3G46eXOsilTXlQ0jcbKScU0vB582rwI7qQnJuIj0fdP2ziaNITOwGNAFbF839IcwGUtJScnhqxGJGqp0CDRkNFNpaao3DKFZgc0Yt9Pm0nzUUzJFe4v7SKBfufGIFN0_uTigTNKHhGwnpV9bRInD-0sY4Lp2VwXR9S2yYYg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100007956991412443186\">G. Marisa</a>"] }
+        ],
+        summary: "다양한 동물 먹이주기와 트램 체험을 즐길 수 있는 가족 친화적 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["동물 먹이주기 체험", "트램 탑승"],
+        tips: ["일몰 2시간 전에 도착하여 자연 경관을 감상하세요", "일몰 후 트램을 타고 야간 숲 투어를 즐겨보세요"],
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "33, Tambon Nong Kwai, Amphoe Hang Dong, Chang Wat Chiang Mai 50230 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://chiangmainightsafari.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14605104042664523802", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%EB%82%98%EC%9D%B4%ED%8A%B8+%EC%82%AC%ED%8C%8C%EB%A6%AC+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "정글 어드벤처 파크": {
+        photos: [],
+        placeId: "ChIJI-dWmkwz2jARj69R8D_wUw4",
+        placePhotos: [
+            { photoReference: "AWCwydjLhCxAmBOeFmgU6qc-ODb6r2NONtRwGSPSHZg0IKvset3VOB2fkQSBOMtmVsMaVzUlttnSGscHIZnXCb_B6QQpYmDYtbA35Pgfn725rxom_Kp0ZN5JgUy3A9TQ8btnT4XRA4jvCAQCUGPN0QmWAU83rDLEMUcSfLUkngpGxo9c1q9YO2rvAsEP2-S-v9qnQknZ-b_FVm0JL3asMe2eh6DCRnsfzQICi18GUce1JAiPQkIHQ7FFhqrWpkTCiAUAbzhXgA6gyOMkfTkS_k_UfVLuGN-Obj1t426yp5ciwsa8H6vAN9edjIvnMoUgUfB8RA4jQedzG3LUxbNsSF_7zIk0oMH0T53dS4zXYU8RD5bBhTfGrCHSu-7t1ggWetbdUzUJAUEzav1Rm-yLJPUVc1lyv4wjlaimylIq5LGneoQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107918443984474569301\">Sukawat Keratimanoch</a>"] },
+            { photoReference: "AWCwydgb6I5Qsh37yIqmecY7jpBV0rZEEaSlJKHCKoW4qSIwpmFEApKQJuTLS2WFiogFC0T5GfXcSUcshXnKbUYkPnP0OZDL8zehCcucY6c9m4gTsebIviRJD8o3oLO1OcLdA6kbJ-fvsalBbtJUU6_JVqEuB1HJb1EaJURpC6S78OTgJqxbUyw3eoFTbe2C8Ugdj7Pmzx3l6ZxCm8SviXp4dqJebyMJ_m49mzwbpksjW5xhhQ0ksXFWevIl6An56_Z8opnarKaVnCxcgtBSeM13dDoRcxVfTwlmjLlE0fyHATdJW1wjoeW8E3RPug2bufFtMIizdbxmBhKElnbBJREA3hUxb-whwlYXNs36v7_hUceOrn-HOYNO8V7Q0rhOMEn2LHVzDg9oHzv21QErFNlonzsZR4Rdn3ampVmPsHaNM1jiyssf", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114468675016989836852\">Nebo (Nebo)</a>"] },
+            { photoReference: "AWCwydiBiNOVZOg6JA7RzfvKg_oH39NA1FKq_953qSTJ2e4Pr92bfrwwzKsL9MkqNNq0sjfWpINB0hqknhMvQDZl3FTprL66RyWl3geJCj1oDMYEWGYywQvMaFE1imROelLXhYL6gvHrHizh6u8VUWgoSeTpMq7Y8CdUSsk_dYPdpg8af0QBEC0G2Mz1mqBG-Eemjb9lQP7TLCM9DHxZp8rJjSzdW33JOVP0R7Xp3QlklHN5PQUxVvf9UI76TZGDoB4AktGm6ZEWY0v3ZmKGnMfuEWOZXMzLR7JPoYFNvL6EEgAdTl74MReEu_5yQd07NVlFcgksvoGck53yl_xW5d1CCRKnQ46GV9Dh7sgZOyg5LdKZBv_FUeUyO0Br8-z1B6ZQToaI6OhApZOOPa4TKjtnWb3FtFY9wouxuKiBColsZs7NiA", width: 3672, height: 2066, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111777830152626310849\">จังเกิ้ล แอดเวนเจอร์ พาร์ค</a>"] },
+            { photoReference: "AWCwydixnr95dvBYCAqu0TveMdlXgkngqYvs42NYpq7qPT1ah1GcvO5QAiLHzRbQCyHjLIYjMICoLH9OLMJ6TELPoq_HjwTBloWFQuFzTF9CRNUvMpFGGr8T5U-4FNvwpDstBVN6mA-uwuV2kYENMOJBOh6CODg11_E73OOqCmkAuE1hHw-sp7md8r8grdyW99kbAL597vi8mmuYVCrd42auM0_4erQcEGgYdFFQ9OQjehXk7_sU2KBiNd6wUql3sZAMXKEgxV9cQ9bATyjFIP5CwMib1IfMYo8wiOEMNYy9G4U-ZTwzFtuz6ZYrBK4IdAnwRvZW7nFFx2OJOsBFwKJ3eRZRXEad-IV3CDXSPTK3iMr3k9EeNKWzcvuK-kxvqVRprgcabN7AkQtoXTPOOa_BmwhnkL7B7dKUnvYZSlnPXOLyoA", width: 2250, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117090090457773263933\">Pun Pun</a>"] },
+            { photoReference: "AWCwydjVvrVbTcGn5dn2U0OpAbHMyjWupU5y26mbvy1Eg9PWyT7dSWsJ2SCFy_BUjg_cwySPfsZVY2Gc8ogXznyhqXTetvGZVR3giVeQej8upu2u6F6pIduFaKn_71gNqEbmuCGA8qNkBF-CfUE_XiQyIl3cUisuCs9V_vbECRZpv0SPwdIP0ed1C9KBBvRqChjfFmMmyuhMOkxRFqdF6HfTObWOlWoq7c7DxGyhBOEjo6L4MXEvHN5-bc1ko0nB4EhsRuR1T1h7D_DA_XE7IG5E9a3waEiXwCP0zFrpLdL1a1ap6Jszmq3dqol1k9F1l7mGdK581YKivLF0SJo4Jgawk287DlUUo2wvtNItmqdPAK1KkSvPvSwO-tRQ2IGLkQHuyUzfjVjlkyGfh3QzPtk5oek_sR_7mCE6Lg2oZ5PtpJRnV6O0", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100243644154053105168\">t-rawat wangmanee</a>"] }
+        ],
+        summary: "다양한 놀이기구와 편안한 휴식 공간을 제공하는 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["아이들이 좋아하는 놀이기구", "편안한 분위기"],
+        tips: ["더위를 피할 수 있는 휴식 공간을 활용하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "202 หมู่ 9 Tambon Khun Khong, Amphoe Hang Dong, Chang Wat Chiang Mai 50230 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1032432897003466639", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A0%95%EA%B8%80+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%8C%8C%ED%81%AC+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스카이라인 어드벤처": {
+        photos: [],
+        placeId: "ChIJV5QbWc3y2TARBTyiHcYRW_w",
+        placePhotos: [
+            { photoReference: "AWCwydjcCnRTYiywDADHUXrjJeAtwKV-tDtYetOzd0XbkGCuIfcaK0wCEZ5dZ-oNqoh2rLOVpWhc6xzw_0_P1yMtlZ_w_EgaYjxzW011Wnm2zpVycV45lAEX8KhRd9IQ3BwQyxhDol9XJP38FV2yeBdbIFHEZ8Ou1iHdNWnU22yQq20Qry-wGwuXcejcCJORUwE3HbDlT8MOHghKFQmVg0jq_rOIsc8nXH6B1wYJq4EhQQIiZYU45XZZMQcbahhZ5DLwzNpDcz6VOca_jdOBwNfh7uWgiWY6Ik6F4lXzq9e-T466_VBmvDg-A_DR1H5VSSaEg-m4SEPEXNmHrpR--TpFOWZgqRH_T9JqyjbQ84hGQept8-DdwVNCEKKg_1KJOCgB1UxdLLu-RvB9OwN3XOhItl_YOiqSMQRrkuA83LvoCXM", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104721899225371068369\">Skyline Adventure (Skyline Jungle Luge ดอยสะเก็ด)</a>"] },
+            { photoReference: "AWCwydhMVUlVpD4jCFUAwKYhThErZdgbtpPeh4N3SF5OyLiB22Wrvtb0_iriqy29c7qCKLyY-4rBoD08cZUhdt82BatU9cbBt0Xh6DIPU5PXNTIGPLiAkGOXJaKhYOWaId3-wmFx2BB6xB3kdR9oDlOEf9Iyum4NuZLxG-fH08dNIka7xe0rJ-tbjVtDfholMg4bCjI1efNFW95eNVGezyNIhQm8HQTjNVtpDmqUnqwc5KuL7iFQm3MtRlbTLU2guS-2bGKMiRf1skeLOxE5CKzvdQ8wUdHvl6Avyx4_wTSiFoHWQgW5-HFmWV86_km4HYtP1SyhE06D1ZLOB00jocgnVctg0OE7WN5Avt80YNNQDW_rjMMOVlSfJnb0UBrG0hZ3-Pi0wzhrJbzKvM0g9OnsMmajvSizdM5uRn3Gt59iBQqfXA", width: 1179, height: 1632, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115353818573092374125\">Barry Lo</a>"] },
+            { photoReference: "AWCwydj6zmjCtD2e5lGrWWRcOmpcUAxYtqGojyBPaNy4ek2Fr2pZ6Mt5ZBcKBjnLp46iv7yYAugsoNRBGwgJB98wf7v0L0MyCsQJDKKgKn5iU5Knxz5KBIeohrCbLLJbu-BHd0ypKwr6tmRY3RkPknWm_cfi0wmXyl5EP3Fi5PRTZ4yk0eyUFEon5hiZd7wOHvOWjsVEOS-tY5oABzdyXmzkR61cl60TlGeLBW2Jw4-jqGvJQoy1vgKPWn2EHrm27RSb-f-8G3VWCC0K3crKXqkbIY7lqZ_sFPkI0xVP4cbEDoF4bHo4SpNOC4ZAXE3ff6iIVmzr2cspxNwIH9WDfpj2kJkFJjb5ft-DDH0rs8bDjqCcbQh4DTS1lPaOxyXDhaMeQJqBTRKixz0Hvjj5a0BDVpN2oIws97aQbwdR3SoCS9c", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112241794814257290033\">Tim Tsai (北科大 蔡承洋)</a>"] },
+            { photoReference: "AWCwydhtkx4Mo2dtWD-6VFcUUmqyIeEtv_3dF7PWNx5wCd1W3PUNlaJ7PP0-ZPAjqdwkNRZHKdSrf-5cOsOibASRDiCo7UxeJUH0-ShtHT9Fhyp3QPv7DZiR5L4ht-l3yWZyTTRZGUP9eeutfJxVbz1rYBS4aOIokN64sMIUgff8vLUw5CP-ttG-qKB0dJr4yMPgYDEdGBdLksmyQH-Cv9ELkuJccghoDGj0bfkm1gmhhyBx37qtvn4AAggemiifyLYgwgtttyFlOumub8jNFKSmOM0cj7zP9YrUMLo5U5GKhVQSX_Z7_tNE4css0i0-exA2BwCcaCgglrYKyHln0k97y9BOp_laJWRmD-WyXX15Re5nJ5ERDdRYHhfv-hpkRuDiLqt1d9K_KB1pgqAmi2-dvajcCSPg0JI7ZbH1S-bnuTAAxKaf", width: 4800, height: 3614, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114932279069110540779\">gera verbun</a>"] },
+            { photoReference: "AWCwydjlkYvXpRzMtES8sN9waCCeqRP1o9m2RaynaYGBSIdcjTkqW44_ivoofnQN3Q_gGEujK1i6DSOBFLLdR5Sacb7qJbELaYA15mfPxzD62tLmq3y89l1LxGaiPmH6eODfeR4BTmGe80fczMmYiQoSQxl9fES1AG8ToKtaNf3dD6YiFxjGCPMpTRhJtQs0_4-F5Mj7USwkmzwwAxxR8d-t0IV7v-6XGZ-lLyLk5oxMV9MrlhZxX4I5FpmjGir1UqowdKYuokWsyHr7iolnrBPjy2e25KNCjDRZXzx9Mql0AP4AXzr-QlUx0hWe5i0MWlogHnN7EvRwUM0u5rUKYj3sN3AR6e_FnxHzJZz9yUiDZtWeCb8fuN2aWCsg07UyEAzA4HexYJCv9DiZtcdMy-F0HGf759Jh4jQ9z6eFatQQKZUgMu39kPz09Aj8MbRVJpyv", width: 4800, height: 3846, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101452223464391747535\">กรรณิกา ลีตานา</a>"] }
+        ],
+        summary: "체계적인 운영과 높은 만족도를 자랑하는 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 사용자 평점", "체계적인 운영"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "29 ม.3, Tambon Thep Sadet, Amphoe Doi Saket, Chang Wat Chiang Mai 50220 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://skylinejungleluge.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18184147463036877829", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EC%B9%B4%EC%9D%B4%EB%9D%BC%EC%9D%B8+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "사이암 리버 어드벤처": {
+        photos: [],
+        placeId: "ChIJayAGkqI62jARDjyIYXujSQA",
+        placePhotos: [
+            { photoReference: "AWCwydiS_MrY5xEa0xBcRDyXpRjt3SWhBJZXnhcissXPziQ9cnZuD6XEOPVzOkaa7YxZYQzHwfJrC74g63a36iT-j_lmBA50Jl8hYlbGrFQUATJR5uiqHt0WmXKnacw8O6IE5CGPFTfTac2m8c-tG6zibdFbLSysoyVPymCaC-2H58d-AKhtKpgM4qGcGU5vpbm6hA4j9-LgOC1JeMLur5Gx3HjhperBBBJ2W8GF6Hy6PPeiwhQ52tIoEwlKDRC3tX_9yDI7gPEUA65289uPD42Z2t3Psbe5npKXBUDTqNAkc6KraC-cC4beOZ0t0py11lvoHErsqg8ymsbMFZ3uk1KF4QLq-xQLSjr0KF3T1jcKEr1qC3tqrTUvh2CLIFiH5drwjFyztu5pV8mCimE18vvjgsFEYZq-ZE5Des-yfbnexnCsmQ", width: 2560, height: 1706, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116728528075272147173\">Siam River Adventures – Whitewater Rafting &amp; Kayaking</a>"] },
+            { photoReference: "AWCwydgwyY_lIl6RBHshdM1iinzhEPmyQbvlCcv40yokTNUnJuv5FI-Frr2tgLndsnTdMBiFqGQVbBWnodG7e0haIo9eijYJjb32EjWlNJ1zoSNkNrjVLl02IwNaFfgmMJaYXciRNKGzsRMPbVMqphkK9juvWDHEfMbKSRwrXR0uAxeg9ZoAtC9QAD6mgGDQusHqNVIuXO6VopHRndtVVNGUrxRpLuSb_IuMadDggiaeNZ7aAwYK3We1AOkUbmvVYoxb26T_n7HuXa9Z3XNLOD_dZR6Y8_lfE0bgKqILwlig0vjbBFbygD01YU8NctKMduD8GwWrlgaUkr1kJfvZDGc602cKcI-N5cVHV3y0LPwUPxR7XW1gXefMqTxUIf18-tXz3JqV5wm2iu-lvHPivaic9WrTEvCjeyu_l3ekzQ-xaVwJcCYIQN_18EGBxl6qMQ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110757263861282441458\">Marina Nigrowics</a>"] },
+            { photoReference: "AWCwydjvY8d8U1Mwkt0eKHE6fGZX4eoLcHBxH4tmEiCexd93HOO1MYEcO07tu8l9ujnC4b1juurdThim-Pd0gJfjumvfGQEpNvMiD2EQJ9Ifo41SLBsuCvCiP6XfJ0CmCRRbscCWASRmVPvBI4MRfh_TFKeaf5kqNYU5kMvmtbzuRzHQqsX3RL4oPQszlGnmLqwqRe9zTQehBUwcIyXdTaLovmtWZfaz_V0SUwrCDmpv8of8Fx47Qd2LpAgqK8Pg5vTpPHieTXfuGwO7oMkDUmZ-jn7r3lKI2mkIoEBBZF3H5CtJmQo3-F2WT4eWeGeUAD-zOjxecqzIinLxNazd1O4c5NYa6yfn1and1R1yYO1-F2ifyvkNlORDDBIL2IEwQA2o1Bk0w0pb19lOc5z91dcKRw15e_D7Q3PAbWyrYwINScQUWCCtp8CXeybJa2pnRQ", width: 1600, height: 1066, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107983558984156075705\">Paige Luff</a>"] },
+            { photoReference: "AWCwydhc4KRYmbpeD10QRhJqJ8s1AJZY-3JqPqvXJ6cdlJJsDZEGq78Njbwnk6K76eszSyW_ri09Admps1UbvEi0dZdIWo0EhJMBYEFFEcTI3wjJUH-Up4Y5oDdqQHHVGI2tZAINOC--CUHuhYUX47y1zv23GrPlnVt6Eo_h6XPh0Rn3_ZnUdGM_SVV-4VixZUZ5mOwCKKpikk_h6QXF3QnHcRyElfAPsvxpET1v814AhEcAK_GOlNiFGPtdKJos3sS7d7GCY-fGLZRIYWR-vqiUs9EdTasyn8NJWIIbgQhSsKALBpeQ4P-BoB8fW2hV8s0axgL_Dt2BH8_eYyS2MCoubgL6wZteg-78ymC_yi4D1oGRprcyhiaeoJFwWpOVuObnST1AqO_KPWATwFLGkB53gkHP306pDrpKR_TqGFnbwICUycNg", width: 2592, height: 1728, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103590931001694155208\">cristine tay</a>"] },
+            { photoReference: "AWCwydhQFJful2OxeIWTpCM4MV-IE71QhdQaSqF04Jq9w6i-zBRunjyAR9K7LTXjEQfmKv48wrrbeTU50rUOaG_TiDTcOof2wLoL5HCAQDGvpMixRbcXD2EdlmwXA8-rwTVkPPcAGwZr3m_tqOaaojh7X7hVPnmhTb9SDpu3bbvU5ZaadjVTknQpr2ydDu109JpBfSNVqYdtvAzdTRc4TS8BMwM3KIfOtda0jLOi6g5zQf8G3dvxKL6j5pFltD-w0Sf2Xf78jTQvbfbXGAQ79oQBNo7YERYRnDR9qxcSY87efeaR4wJdQ6lt3L_MSkilorBdL_pJQZn-WNxvPxpp3AYu0RhY9MpS0PMH5SU2QRxM9_PGVuRlXH3H0CpvfyZkBj-ZqOwNWPn7fyBcWGtxEbvk7RV7s__FsyY6eY8XtSauJc4", width: 2048, height: 1364, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115069153298270500761\">Amoe Chekoe</a>"] }
+        ],
+        summary: "전문 가이드와 함께 안전하고 즐거운 정글 모험을 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["스릴 넘치는 급류와 폭포", "코끼리 먹이 주기 체험", "전문적이고 친절한 가이드", "체계적인 서비스와 장비"],
+        tips: ["코끼리 돌보기와 래프팅 패키지를 선택해 보세요", "가이드의 안전 설명을 주의 깊게 들으세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 8:00; 화요일: 오전 8:30 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "17 Ratvithi Rd Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.siamrivers.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=20727423612501006", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EC%9D%B4%EC%95%94+%EB%A6%AC%EB%B2%84+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마마 노이 타이 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJqVC2efAv2jARATxAf_J6KRM",
+        placePhotos: [
+            { photoReference: "AWCwydi213ILxpfKv6ufoBtP44aKcZyDY92naSgaDZqOziyvI_Uzm7CqETY7hJQt6lcwl1CKrM03lApdyxdl6NtBJqfwvCKBCvC1HH0JRWdUJFS4f4CJe2x0DcA7p3ATzylbkXthvpN8LVRH8tAluSIL3oIQ-JFXMEOCRvNOFbJRyOmBOolS9TlJkDlRg887MEMeENRNfL2D5zTkCTuS4PB0afaSX95RTNQObCa4teMGpGoOjOpg0KXbgwokSoo03Hh9tR80JdTjRUGCVlWN6RoBQYjBhfBknpNtpQBwSx_oVS8x6fuVtnGzZMvBfT2cLG7EHnefRbySKahNGJhVffdrNUrrUQmy7XfJHiJ1K7TtmqP7dcvtppLaW-H7g8H5gMm8J9qbU7AFYeEeffoS2_HwuaZ7lMELRyr9DlpBLQ3_Gj6yLg", width: 2000, height: 1414, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102744743050171912249\">Mama noi Thai Cookery School</a>"] },
+            { photoReference: "AWCwydgsWJ8yHV8Y_RGWszmLxSalLXRCSBPK1xvhRTNBFX9_X2mYUpn-cCZmU6jKYOzIcVWhIx0V2VHD3VWfPjsWRhCFgBx9bmMKGkcEWfOkRM8VViswTHnPHNFxI_adOH5JmrA1tv08HD9Zgz16Oke0Trf_jeoBv8vWsV_zDEy83GFx9Hf-o1oy_qEA7h0zy2kze6CJK9wiUY9To74OAYaAAH-f71ykQw3ysO6sqar0KHeLm4iZEDOWgCX0FPMLLCOP_wJyzhg6O5A_D4YWayhpPZ2mbp5QdZ33JIB5tMFiuUCtIkO8DkgGpcZ2NLe8pRuWuzU_SJp34vF8erSQ3SJsPJZifyKtBmEFGE_aad1IB4gfMteq31tPTROyAVR1ycOwW6CD39-S1jEQsbue1N499tMGtkNatuFffbdffgA5sLjG_icQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105201736693683911908\">張語桐</a>"] },
+            { photoReference: "AWCwydimm6MuHQHV3ocUEfPxfDhVDLSc1WOck44ra7PvMlA5UK6Ssj3OxSJnBIJ1ZAnZh7KSQd5wxy15S7qjhLVUlo9Qy2-OhrZk6OgnAg_iImueyUtMXF2oGuGeZ_M7fWA1m84jk2pKrSCGOkV7m3qLkaNinG6yPTibBYnzlHry6JjlwA05vrsoxm0CwoxLt0O5FKtXd0s2aalvuGuwo6RgdKvp4kdg9x7JTgt56wJTWTo0BX91IynBKJ4t3dXG26UTnX19r6TUVEsECMahZffvPcchGZD2VbMNi6z22h6ZYBZl41gxPKfW7n56inPNtsRQiAZFontN0MO6iTBmtjd-ymAMNSsPx63gQyTVdJ1a1AC026Eq0oEue7qOsS2WN_wydOIzpq7TAnw3_kk0f0DVVecwy-jVxwPO4a9iBjG1Ip-uCFTPAjxyMamgyyj0UIw9", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105896475320113535911\">GYEONGWON PARK</a>"] },
+            { photoReference: "AWCwydiU13hmuFotnIJEPxInp-va_uNfXoQncxMssKcWsrCpI26osL3CnnR8CAYa3W20JRdUTImgJSU91ze9bvc9Xnduu9aEbxdJQsNOqFjmSKPepplTTYQqwWY8PH6y3FjySVpytlYyR42gupwv8qxJ-b6tFtE5LPbwAxR3sgKndOl2h-uROKdOzvL_qaXoM-qwpyRk8ZuFTu3-_geMCuZsmJc-gf4vOwrzZ8ze6G7rmprZu9lLAgHjHHM6Fgqatz2ds4IgzilqgkKalpHyuy5E9TToz9m1TzvQ9HVlAdDJoE8ea1LiAXzJe36-GSive7wH7mOhsjrK7HSh-_Ix_VCLouCa5SwyUD9JWFar2fXRLUbtQjggx1WdPkoAkA6socRjCHZ2W6lgGnpAvoCx6lXVXCSbBl8zFQn46r7zSeYJJ1xVWg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100032623709574896466\">Melody Lee</a>"] },
+            { photoReference: "AWCwydhALyQFAfekCoi_0_nTlm4qTjoldYmU0Uq1vWxkyZa4cPJkiKyI2aAVUfK_JGLzTPrzksqwFbNDKW0sTsuY4FvpfjMaNtLkFhrd1HmxFA_Iy3NZx_rWFgfo1A0hDfwJvcggj9AArATcG36dEft6HfPPpz2BpciImwWvdf1Uj1qVq8gAhDLMFJgPtBaHEc_viYflkImBwm5roVY_Xr29S4m8FfGWNOFUa46TO3ecbKkpesOORQr_KdKMa8ArYb9ObVFDYs7WPnRieBTWjhq0rhvGSlZU5VhN6dtgGKKe2R1ciQvBDpJ3Q-oXENsJ70bu2FGAP7tanOk5BH8RpEgB_4oPzkM8ZqvjKpuqfN7MwhlpZeKnkWyZvVHjZKZI492h8hSstiqZAH0NOjPCI73dsnKasDxvD1pUTVIudayImZVJP8E", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111722995013061130947\">mark rijsdijk</a>"] }
+        ],
+        summary: "한국어 레시피 북을 제공하며 가성비 좋은 요리 체험을 즐길 수 있는 워크숍입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 활기찬 강사의 지도", "한국어 번역 레시피 북 제공", "모든 재료가 준비된 편리한 수업 구성"],
+        tips: ["아이와 함께 방문할 경우 다소 분주할 수 있습니다", "여름철에는 실내 온도를 고려하여 방문하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 오전 9:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "45, 41 Tonkham, Soi 2, ตำบล ท่าศาลา อำเภอเมืองเชียงใหม่ เชียงใหม่ 50000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.mamanoicookeryschool.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1380769942701358081", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A7%88+%EB%85%B8%EC%9D%B4+%ED%83%80%EC%9D%B4+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "반팜 타이 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJm-Iz02Yl2jARvezQ4603my8",
+        placePhotos: [
+            { photoReference: "AWCwydjX3zSvXFYnYqGkMTZjB7TGh2ArE3ZKOhgDuwo1OsLiP9LygRHcbJ3c2ZAt19IjCnSQSt8WkPSMulCY7HMX63Smqc60d4irjzTKVS7kqMqhZaXGMvZ6l5Ajo-U-jdfJEhvu-CitrGMIMtNQkIBVlvDD4CNyImvcfBpWyD5fId1sDMi77YFH_mc34Cc97chFSXSj2u4mX95pLhgY0hzkoHQd2bXohmTj2ksQeWu8d9BvAOhyy3iApLNjXCl7INzakQbPueFw0-bkTJI73JlXQNVOvpj4TThDVj-RWoZTUZ-Da-glaWGz6r-lDKljYCqdlOpEr-fczMApI4EHqQ2xks_uko6JKz2B3M5mwgvPuG_QwQHgCoHKykOIPG3sKsCub5j0un0r56VJcFWlv7ZlO0pEEXF4tu0NI0Uwqfyrzl4ZLw", width: 504, height: 332, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116959823853544902241\">Baan Farm Thai Cooking School</a>"] },
+            { photoReference: "AWCwydjJ6O9UcbBXRgM73bBVXSxxNNSd1QpAU-5C2L1fstXkiteet3txczBqt5TaGjQY0TU_OkTTHAqSYWgYZyyAE5bI0jJKJQqM9vZD_Nmp2e-fJEswPE80ajH5mMdli1juKjHhYFv4GHZVn7ttflf5FljwjoRYlLzSK_d73ZocISezvarxKWFkFIuzkyhv-3EE5Aal4deWi8HA0v4lp5EHDWquxucCx6FttyKqiL9_YPbkdEYHgNua_9IVd2BxI24d46GDXax0Vsp7-Sa35N8wUxYB0pgT-Ol6m9mkrBZNRLgP9A0dEl7qHi0gL_3Yx1oCacOSmf6HGPGys3q3-KjqboqieRgPvfwsqgo2Od9UMP_baYf-pQhA_Ci3y3XrpJgpZL8UFd1Ppoa9keSUY4EA0Znnhoguua0Ocm-9Up7boX74sQ", width: 1440, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116959823853544902241\">Baan Farm Thai Cooking School</a>"] },
+            { photoReference: "AWCwydgGdn9VkjPEcbkE9BV4RwCrhVcCbp8wwlNGY5vx0cf1MafRAjBr4IcgHLN-Xyjdvce-JZ2RC0b_3RtNZ-4schek6fHzlAr2ekyhcKqwPc1_ZAWaHs6DDhrociDLhk4Ti1pX8zsit6d6SX1wR_GKA6qd73BVtFunB9b9N5hdV-MREt7BngxTNg0hzNcEezXJJB_ZE1M_URxyCPWkK6LdujvRwCGLl1jUXVolSz_XSAZyWEiKNjNW1c0JkvMYWyoEx34HzPzo0o5lUk4d3pXQT-9P_aCIc5_9fDB1BYbZ3QENoAyCqqmKPj194ZzIYeY2foVevF1igSxMx72YPNS7gK1ppTyGJkLPGe3-ktMi4pr_KGgwmNHrFqFWDrRYJcF88laXMIeSqZJUm0E3Ffx_z7fQrK7cLC4pCRoL6KVKnfCLP4wz", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116959823853544902241\">Baan Farm Thai Cooking School</a>"] },
+            { photoReference: "AWCwydgwb6n8qwPwjNcGbzQnqGYwxEZ-8c3Vkczqw-wn31WSV3kBZLviNHpjOSz15jJ9UsKXiDH0obEoM8LVf54Mo3_0MSpM2YWQv1s8Co91nWN2y1S33uDg9v5dYx9klc7oLLOLEasdNoQvJl9xaNrcstfiYd0koQ3yZL64m959eRVgj5MCBP_7OEc7AP-Ev2ETGUTBuLnXzQJoGdSYWV6MjKEsTAc8m6VC_I9wRDpzIJfuohcaYnr4QNzdHcLkhAHa1tKuvs9wDoUeGYUvyzxh8jt2sAa4yD6zyEGQO2OyfvXreNLgX7ZG4DxNcDUMvAu4iA7mrPEg8QL0dXCx7n9fORF8aV4YcHiljI_p6HttYaDyYcxNyJeIQ1dUf1vwPB1XqMqoUkFFIJysfmSqNEByvNQTmXni-lakZYL5nuoV0tlcJ0UBx_wRGxLmiTbwHuAz", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112128348720843555062\">Sohyun Kim</a>"] },
+            { photoReference: "AWCwydjRlptcTH1DQqhSbsndXvzVhOn2wCOA8hy5WSi7ciqgpXZQUQMj6wnxoxcoG2JsmOM136hCT2kcUFLzeBYkgwe1qlMMsyPFSIaE_pkihvQECiqnsMtwRLdXVEf9FSV4w1v65sD9BvC_p1BWihXWJTVVo80A_WDWRIaOoAw1dMLK8nRgcdaQY0_fLJ3eq2epK9Bi1Q-UwIT9aK2zedOiCAzl3j8lKba9TmCASUvUxwxHhS97aTU6FxeEmF7oTy5-vPGjJlpET79iraEdh12ZpRUFKgdTQWli8XGiaYaWcQk14kI4Uqlo8dM7CWSb1REfso7bZxqJJ12cVRlCXm9ApjyI2adDAv0RsFKf4ZLjvfY5MkgyJFSAIeUQYelnyqWweNIzaV8FFbqKXuqGAlo7ACgZvm2WbZVu7Xpw40EJkXj3qnc5ur3Lmb7zUI3ntg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101591172390036346612\">Cernily San Diego</a>"] }
+        ],
+        summary: "친절한 셰프와 함께 전통 북부식 레시피를 배우고 직접 만든 음식을 즐길 수 있는 최고의 요리 체험 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전통 북부식 요리 레시피 학습", "시장과 정원이 어우러진 아름다운 분위기", "친절하고 전문적인 셰프의 지도"],
+        tips: ["전통 음식의 역사까지 함께 배울 수 있습니다", "가족과 함께 방문하기에 매우 좋습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "150, Nong jom, Amphoe San Sai, Chang Wat Chiang Mai 50210 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/baanfarmthaicookingschool", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3430396761163754685", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%ED%8C%9C+%ED%83%80%EC%9D%B4+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜마스 홈 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJ3X8Cf9Mt2jARn1qSIzL3E6g",
+        placePhotos: [
+            { photoReference: "AWCwydhvSz43Nhi92QQQswqivEEq5-2dfsdEf9MB-XxKzI9GzvnPgzvpb9U90vSt_rcdCmS8Bz5ZHeDzKPBN6qvLfAdF4LkXKtQiucNJqiFDWg8q2RSecMZ0foIANdAt8i0ie-01cfelFO4WMho50q6n1Nb1WnToaQ-fuxe96WDuXTQRbOTHvRzBvAuKZLjlsEorQ9Qy1SBVuIJ3mUKak9SMOV8p8eWofQ7EXEyYP2fcNN7Na_NVX7AOv3S3bk4443gfCnH-FmkrVheDxBLdJh4GY1BkChMh6XR4eV1Mm92iqT9_XvIpT0i7dM0x1qhopQb9VzDcYawruW4vc0oPVShjuriTZY-6q56WnSazjOhaA8ZXTsricJ4oWhvyP_-UKcoW6JFxvGCnYZ_Ddlh8N2VJZQYzkzcQDErgkYEuVkpnnWvDmK3gbAJbQQ6QSAHWAfOH", width: 1950, height: 1097, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112740750159146616218\">Grandma&#39;s Home Cooking School</a>"] },
+            { photoReference: "AWCwydiPuyEcex4wWK0Pz1cUHMcQjCbPm7yVAwFHATSiZkdhuzuz6S3jGfB7JOLrHfGwOTrr5FUxqe4pU4QNRcAmr7UwtPoUlaXWZitupfezHezf8rwIhZ4lGeOAmIWSWjPSIWHDjSrXF1CpMrENd_QmVRkD6pYsd2anJO5388hK-p7QNUmXjlWUcgK7e7QvjtO7JVt8mWrAHDlN7mEd3Q7FfoITOy9Pm9O64WyWVyxXopS4xV3qWzF15ggdDbH0ZQiF2pGCelcNvKYumUqLwoQoQTO_5lqaZxu47HXn-Q6sUvxQKX9DJtJjH5EWBv7C6NsypJxy_pVj74y5Vy2WggFmoZZcxQlWqZ0A7l5FocGhrsetGvGtVvQwOBg-NypCzF_w7eKInMAtjGhAXZZWV1xsJi9GGHvn72ZHXrh792Wkd7MNEw", width: 1500, height: 1125, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100339303934284354400\">Hwyl</a>"] },
+            { photoReference: "AWCwydi8f6Pr4vcU2tebZC0l-Jc7caAL-9kNOo-kOGJGw8uV5E2BV-p8T73xynfcPuXLmPu3tFo7UWDu4yOVdW9Cp6-so0mXaX1UCI0HScQB-xDqcmXrCWnin1vkzlb9UCUh9Z1MUK3hUwaNZNKDROP3nuaSGocF3Gpd-3lXF6cvXa4KbMN_wYQXGG736LonpIIfGBMVLufYQaYUDj7_ioEI6ZYR8bVTsSB4ze8JSVcldYr_ZtCAX-XDuBG3gXEngtuVU8rlp60hB-KMUux_F4pM93TPUbdo3MX0s0BDZLNENKL3KlSxqyUaT6As6hdzq0ijkI5LZeVBblaQI6GG1WefQS3G3uNY8I51Zx3-sPmiHnx1AA2OSNispHNNsjMc2U1G4T-QN6fE5Wy9FQducZhzOlEYbU3xU7y_QWFjhQiiyAk", width: 730, height: 1095, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112740750159146616218\">Grandma&#39;s Home Cooking School</a>"] },
+            { photoReference: "AWCwydh4GqNdCgGurBS9sXc2LM7oom5GVy46jX1NcwgCodGGxPQaSywdfdZSuBZUmnOUJDAUpSEgGaeA8fq1HhGlK0YLfzUnfRIGCaWnE9oPhNubL1ECl-YwhORUGoEBjrWtbOD38eBcIdHXoYnqQkUA1pFUc6vaZb2iqQHkYrSH4OKfJEwYema823wdhNaNn9B7f5S8iD50rITY7dswvnIhno19WFPf9udEpXMUV4z8eEvMlt5ia4I7eK7vQ5CnRoQFT0VYiYnOK3Sen1iHLSjzOwELJt6YJQQfTYxU2fpMtbye2TqXWHkAzh1oVKHEhgzT8dPjvL7-sIrZoLfIYZaUuP0U3GlYJwSAlA4zo3kj4nu_36RwEGodcRkzXqYI5nSFwJ6_FlNEpeDDGqwQFT5t8jXV01jpIuN6iJUgGc_A6lo", width: 1080, height: 1774, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103330459045917109463\">22 Sseong</a>"] },
+            { photoReference: "AWCwydhHPySmNerP3FNNd5gGoq14pq9JoRVdmwtFuMB58FJ7wJQYt0rhXSTckW03wFhT3yQEmIhPGQUxTUvuNhQ17o_2d1MWTcTeDVv63zLHS0HPVlnHMfheN-fAdyBDrpyw3ZSmFuAncyxGwCFoQIHbILwZWcj5yeccj-VSHeWWVmg0waxtBAZA0QviAK4bQ1ARuSKbk5eKQWz4GsbfzqRjKvs3VsGr68jjDFhg18y8dqFw-ijl-PbwiP1CmExGsBIvGLXa2w-TEVccsq8qPtQGTwUW06ANowdB8MAcgvHIyKg6O2Yt-YPWzUp4vWbvZh7kUOTYLFney5pb1D_pPXhLmS8e-i0nTn0rHSb4IRF56Qph0pZgg4IVMar112w1h00pKkE2JoIkmZI4WeFOXq0VTT_1uZ5opg4mrFgwAY71-JruI2Xw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104577965172340517672\">Alexandra Boboc</a>"] }
+        ],
+        summary: "시장 구경부터 요리 실습까지 이어지는 특별한 태국 요리 체험입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["정통 태국 요리 레시피 학습", "현지 시장 투어 포함"],
+        tips: ["시장 물가가 일반 상점보다 높을 수 있으니 참고하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "172 7 Moo.8 Tambon Khua Mung, Saraphi Chang Wat Chiang Mai 50140 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.grandmascookingschool.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12111295617646615199", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%9E%9C%EB%A7%88%EC%8A%A4+%ED%99%88+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아시아 씨닉 타이 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJx00YgaI62jARiP_kVGvSCqE",
+        placePhotos: [
+            { photoReference: "AWCwydhMMCR4SCJLb2rigQzhKoyIQqUB14mWQVdiaeNxoHeOwjqZrjcNXAOS2tYntXr-_9654L4nArbk32-l5TMJHD2rKwlAg_nJp5Dh0YZWKCxwo7uNv5KrfYep5uhmbIkRMZnXo7d6NDkRTdtCwDLmu7wZOD-1Elx2aG7O-oGUQGdOrwAKfdnEj4aKy9vlz6UjLy_866uEmEWW7OLCRJ5aLRLdbcVg2t5PXYQiVWBdrUCUYbvqKa0sAA7vCM65iKP3Cpy8MJIQKcKl7hWlZZFCuDuFemKo9Bwv_vnIEm8OTUbmziSwCXB-MP_QtBWwErioyXIFRsqu67yXXuEi01zbf66hHkzslmMKQIdwpZAGYXXt32L1cTjc5LhfxaMPnaRAEghjNt0_ykAave7LHt0-26zZHTP50_4JujliuJAFpcBMciabdPY47sCnB-1QkW6Y", width: 4608, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113793252316741429423\">Asia Scenic Thai Cooking School</a>"] },
+            { photoReference: "AWCwydgDTKw4T8UybD-Kjkuq69OrL_3dBDRxJFPb9wlp8JdmC1B0xauXuKYiSLkQCeJNjbNeMnFsbIwYAP_ePRAX4wUDfmPW0WWvQWWTgefExLJmkUmGv6CefNw2UJFW0hJ-fu-9iErglPE0-clAcyZhliPW5Dy9ff7ZT3kHdti6hHMLCVGE0AHQo8tchlqhMm9cpauqMX_QSTCck92-5TsJBLXgiBucluyIkJpb-urNYTh7chpr5wnXMQoGszBrWBhWHsWt24oav--0ObT-j4h0Y-ansQAiskYyYBbDKNXL6rcA6ipNODHGtcEy9hyBjzAPl221hxrWBPFANCYftVNwMLlw2JLzFHML4JYrKX41B0jHhhDRs5YtasDx-aj8wvd2I1Lk-ffCgpBVpy-S5FHTHRPPvwdZQ8X3sn-w-LkHsfqwizYcUmPZ-AMzDQQo8Q", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108641223084083545613\">Leilani M Cruz Espinoza</a>"] },
+            { photoReference: "AWCwydjHfqzm3hqkZVLf5YwGgOlVsbDt7bysl-dxGhbJvQpENl2qOVvzTCxSrRYRpdKaeqs-b6M09DwZEVmpBaihEK0dd0YRh9BHzjTtYUEDfkWj6VCu6Eg4PeLKWaNwbPqeW6zE0imNRNPV9qORucQcGTaIxfscZk2aYZ7wgA6dB9L9uHyZaCdWATh8dC37lsy6nX3E1TAIqHNr_7bw3GH2LD88jevXWo1FM1ZNNkkRacK_5urIHvNFFR0E2e5a_n4bymuK8P31yBDy_S94BBchz3kU63LUuUzOTM1pv0QA5OIc_a4fkWjz04tu2vskvJl7AbjE2_35Q9EIRwOy7ew596LZodjmlXDJLIIw_ueseBoZQsQLhXyMX_BVQYz6DmQIVuDXeDVq6MGEV193y5AsRVThwJ6aQp28090qLJADAr_5DA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110454417250977119823\">Aleksandra Szymus</a>"] },
+            { photoReference: "AWCwydhbgUrJ4hFRWYTLaGZnhfnuovEVR0W5XS8wwhgHx2Wo-DdvNZTV2-KWVWth4Hfw7DWD4yw7WMnCuds2EgWEruxIt-kGT0zJB2qC85GKILv3pj5IpR0q0QxWoN7QNXZfF3Kh4VW3sJrNQEjuQESkO198CeUBF0oBmPyRScGsd8LgPiVHpDLz-gUFxrrgqJ8ttwbm8fl6L4PE36FAF6C8MBS8PCki6YTHd5aPJUe1QRZO3B5EdqetZ--LJI3uDr_XouJ3hWK23m3B_bOXwhvOP-HuTP24koKPvkpuOvlGmZ5857-NCNTLBAJHNz4ELgXvW4sQ0xZQQu0izOElRFEth-lFwE0-KZ6h5rVw3vef1fcQno0GPK1yz6sNcgUj9gP5QjXfQXus_2RqxB7wTvU6dJwzuyBNjbqbVVAuXxKbMRjj9wryvA8gb2f_gu8DsALx", width: 3689, height: 2767, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112361328957986588030\">Jeroen S</a>"] },
+            { photoReference: "AWCwydgj92r9sPLqASrt2lu8cgDThH-ass94hsEHpi9zd5S1MbOzg0g7zleLciJt-kSiPtbrqP7GZobZQbLLgpluGKhST7Wy3_MTznxV-pYu6x-uqP514rKqAajASOby88ejri5KFz4e1-8KAuVCpXxuDzeqBFiSjf-PP9yhcugmmtHqkbz5VVwkszQExz1mbgMOai00cWCYd400mTXnTCvnldd8PWKakGMkKN_nAwjtSs_8MEP9lKDKC0o-nGoXiHLlA22WQVezRBOUoGLuj4gJvH0zXvfBpgNBOL6cM2HwTgwLAMb1nTWcBOWvACQRp_iQdVAYuAdvhr6HHZu6FBS4Yx_osDLntAroKHc0496Kl4wPYhRu9CJrOTYka6vhIRHy460WPLYMQfMINlSvND0H3v25f6VNd4Q9-RYxg1QmTlAnt0eZbsJ3NfUOl8Pr9g", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117575699955635461495\">Laurie Périssé</a>"] }
+        ],
+        summary: "전문 강사의 세심한 지도 아래 다양한 태국 요리를 실습하는 인기 요리 클래스입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전통 태국 요리 실습", "전문 강사의 맞춤형 지도", "풍성한 음식 제공"],
+        tips: ["배운 요리를 직접 맛볼 수 있습니다", "질문을 통해 요리법을 자세히 배울 수 있습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 8:30; 화요일: 오전 9:00 ~ 오후 8:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "31 Rachadamnoen Rd Soi 5 Old City Tambon Si Phum, Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.asiascenic.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11604318748301131656", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%8B%9C%EC%95%84+%EC%94%A8%EB%8B%89+%ED%83%80%EC%9D%B4+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "소울하우스": {
+        photos: [],
+        placeId: "ChIJGQrUvSYx2jAR5X-L4wEaJ-Q",
+        placePhotos: [
+            { photoReference: "AWCwydgAOYGvrTK7onoZTxw8PeUTFssGV-fFWR-g2slhmuULCVjqRU_jT4maEjmts0Nhg1sW8LlaTxLVHmr2CcEt2SOI_hfK6AkjwGv9onk00YqbwDAaHZ_iX-LgBu_f5Cj2I7ggivClEP0KpPwrbXUhLLBQC876LE4M0eru0GK6QgLYlc3j86yni1mkw9z2Sp9LGCPfNb4RqJFNV5Vm4aJs1o7c1XUqxhhfUmXTQuwH1z1iABg3E3rYTeBfkc2qxbwVJ1058x8lNaptU9IKrPwm2cDcuHZosiJZniNzrY-qdHkAKatdEcUmR7Hbtu_jwACuPNCRjpRJ8bJ0t79mQorNbYqxo4vZp1wg-lUKUaNIwuLcwubAS1NK7pwaA1-9La4byF08Ls-M9KFpL_2C5yMMlsAT55dSdk8vJE5yK8L_iw05EmCNEnnT5024bZ0wAu-E", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106390641631753856856\">Paris Chiang</a>"] },
+            { photoReference: "AWCwydi6xUYSrW_NIHfBvKVElONMJPexDT_GQAx81kF6rk1Bvj1HkGPPP99IrAOjmOs3zTU5VnyrrzFUdK1U2XYBZK7qLtcmdVfAcJKltWaS7hk7j-MjCrWhi7rxDQetAsYD2TcLRuWecxp5YWQROD826TZ6eVGR7tQoXciOP6igxiIDLkw77lDUvHuZsEbYFbzEy-iUjZrWcZljXGM-bYFTH1I-NMR9fTcFX_DmlkqRCREZGlOtONrDRAy28JfSwMEJFWo7K9ns_IAFy2ftK1KwHRQmGgp_iHBZbs_7qMhg_ouKExERhWW1X1Ex5MgH2T_OGetmAcx9JHvkVTlXwHJ07vfwGvQGqBfnaUig8Ec8FSUcH6QpVRKfsYnU3xmlc2d7tasEdN6mwYR5xQUBpkh980ozQjSZewauPmDjpa4kgzQPAt7wCm_hDfwOTJ3mQKml", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108794012281645031486\">SoulHouse — Self-Discovery Playground</a>"] },
+            { photoReference: "AWCwydiv1Ba_fwUJyVBByC0TGoW1o0lUy_Hmg8ejqHqDISKC9gYI3l-xSoM_bbKEry82BRVpeu0hsPq1X_-DB8WMX0fW1U0bY0J_ZblfdgR5RqhR7tY7VZSRuOAgbZWeSWSoPlEEUZe8kacFUoUo1mKARzdpa6XfmBWxXvMFZcQ5zu2MZ5bpt48FUeLe3SHlLl3R85zYh9w9ygFelwId3tgcjN93oH8CwWqrtINegh3YEwyTyPU1XjSUGdbTk7rwztQDaiM25IGrBVW2J1kt3EKwhlKfnOPejINTGKbEEI1oMUl_NHy9QXxUGocGsFU3OFsfJOpxG8Dos26dPIBebp7dHuGby0PKk69xJ1n9xliGB9URb3IQaYLLSOmDNi_x5_43bc8Ai4gDIHjBZlALJf51JhKc4DLwpCKuW0Nlvlb_udGX4ykTp8sgH0ckjIkKNg", width: 1774, height: 2364, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108794012281645031486\">SoulHouse — Self-Discovery Playground</a>"] },
+            { photoReference: "AWCwydjB7tZhm06jMW9I45ZHMvDrCXHukm0enzNl4gEMjXI5or-ePLr53te9qivQ2CETiv0qiDJh_wQwQJTmP_-d9A12erLJlXr4NqYDOMHij7hcpgrIqUx_bovFjOIVASQnI3Jkfu9DU7ZJwDIe_7jbKOtJp1zjt7Tu_y5Ke-Tc-zARN6RICTTMyB7lHUQmewiIMEi_znabj5BFaisLdOb1MVFpPzDBH0pODA1eQvuTOc054TOQ4q7eYAwAnuE9BCIMCtiHRZFi3FH9EoBi3QutHJlKWWrSEbj-Kux0Q1B4Ng1v9Xf4noINg-yHHRNmyB1RYfs4lG32DAKVLshPOU6EFi2mFpTi8NScrSl5m7e_hZHW1AJ1d6BmU-qsM0ycl77r4Oodpc5C3fdfM1e5Xu1Ea4D2MONM-rtHXps6TFRcfUTII1wbtRjV3oLQYlXKVXH_", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108794012281645031486\">SoulHouse — Self-Discovery Playground</a>"] },
+            { photoReference: "AWCwydhH1i5L8T8xoHnBqCxqgmDucJ2xhLVrotJjh1JK5Lan9OmRHBZvFZCnuttuqNqjzerwq2u0JvVlvah8DumdR6bhXZSwTDdXVZr4PR6F3T3ImgI9TlQbtAG3jSV0RO0PXmy4g_ofBXPG1CUln1Re4qzJUWUKBn0kgqQ9CNjY395WwwAQRE2BDWoOasCaPdIyDFpKAQZp1QIYufLNAFhDaeXtRjZhxXSimrDZ8ui0u0PDz8P2Am_rm9OmGwoLRlxbKWDW9MZmmXXdIU2MnYA1RDKjVvcUbedC7UmHghTTnZaII1v-O5NZqq_6-fjtaEQzXQxT4mijP-RJADn-fKXeqqFBIjIB9HlfR9LZdJFLqWAdKjQXHRY8Lce7Ae7yBGOlfNF47lRl2EmI-BjxPHoRBODjxxTvun0Hoy4zOz5gVcF1KhfT99MpDBhsMK6555T2", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117793070424183587899\">Yossaya Aisiri</a>"] }
+        ],
+        summary: "합리적인 가격으로 예술 활동을 즐길 수 있는 편안한 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절한 서비스", "아늑한 분위기", "다양한 예술 활동"],
+        tips: ["그림 그리기나 점토 조각을 하며 휴식을 취해보세요", "방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "34/17-18 Moo 5 Baan Ram Poeng Road Tambon Sutep Ampher Meuang, ตำบลสุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/soulhouse.cnx/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16440137560154144741", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%8C%EC%9A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

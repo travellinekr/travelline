@@ -417,6 +417,253 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%8B%A4+%EC%95%84%EC%96%84%EB%9D%BC+%EC%84%BC%ED%84%B0+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%EC%88%99%EC%86%8C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 1년 후보 산정 참고 검색" }
         ]
     },
+    "누스타르 호텔 세부": {
+        photos: [],
+        placeId: "ChIJx5HWdwCdqTMRX0QY5qe7tcU",
+        placePhotos: [
+            { photoReference: "AWCwydiJnhpun6AA3PTqteZdFhMcOeW4HFFKRU77uA5ULyP8sYXTrX8tMrvQ2k1jEef-DNnG1ZNRIlWXlMrpVgsb-9hIrUSKzYqrPBy7yZZqq_9S2hGFGY60it69utuyZXYikOz5VZ_XJ41T-6ooSmM4PVAZFp4XHMKJwXv7jmRW5RLUS6DmaVKso9RksszmxDBq_yt2iADuQhLqq7LGcSbLNmbCoOnOHb10WAnNw10gx3z7LWSvRcQGnYnsNInCBIMICihT0kZ5QxkPCoblHgI52CeL8lnFcWIc7_oadhbtceNXBvIuAzsBr7UbjfWuYMIclcvyEOA4xh10ZMOKAZ83L95WSR9xJIRU435xkEteK5Rs58UR3kNr-eSV9mlM-ckTPJ2AhVF2_PRP01HU8m9rUYHOVmX65BT-P5-ymY3A-4UOPHQRlu2C6mBiAO3-AakK", width: 4800, height: 2696, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117484745042578908931\">NUSTAR Hotel Cebu</a>"] },
+            { photoReference: "AWCwydjsFJJykF2D7Sk-fchpGHc8zArNmODWOiyYDZQyd0wZiJdJDNuNhg8HCnBd39jF0VfKNJWEEgB3tQD93-0ML3UTQ67DevQ7UEfooveZSrThCKyvt0kcmScKjy3PS8yV3nQVictBkRFs14vgSM9CTxbF8pnlrRpr0HbBU4VUXwEp_dJ5iEKTrwrvimZObSpQMXK0loAL7uP2VVQAa-4NfhfFAADStgOjIOSiBaLQQy2u3PKMJWEsbEM34tnCJSOTr9h-cjAiiWNUCqMwBSO4eXtqCLLjoQI7zfj4_MWncuWfSH6P5ipEMp76FvIOvo7XkRcoDRS9Hqg5A9ciA5CDf5NIEMQWlWUHnWDwKBF9mgBKsl--4onOe4Gnp5OgzesJsePTuiIWpK4wPiGKO6bVtKTwhCkG78NO96yu4QjGBxUMKJl09mXDkqawVh-GYUMS", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104488263896925944394\">Tonny M.</a>"] },
+            { photoReference: "AWCwydiQbg8GyC22w-pcTtoA9nhE24LMOAgX_jGt9SzV2WR35rLjb-EPKbKwbkL66JqwHCsBGfMZnBFLSv7D_GHWAtmrOcqif34AFqEBN8NYe96AfeUS5dVBDXOiDTFJXOKY9kx_WWjhJ94IevPS_Nv7iU76p3Lk1AOqhQybL4Qrqa-Td0n85vKihtlmsDBpXqMM8KAR784duT00vunj0FOOt_oLFoZ0LyI8bbkGTZx4uIcOEtrIpiEnRaENBWzDN4NNRAKdfTrsITOALbENI4qAU2AvQgtr6n0KK5iuqzBCbf8jFQwlif0GDiToSmWTaV1ihl-796qw15lY7SEXjJkniRQPwADZ58lBpi69cd5Nyb6_Zr5dX8DrYAc73Vkrnq01gzLX1X3Ni9U6UPFwo84wpsT_v0r4vGU3bBWXzkFPwuWROpelTs3Ln-5YTTZQ2g3P", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107929937610072808802\">Maxwell Jimenez</a>"] },
+            { photoReference: "AWCwydjVFSspcA0LgLCNKA6JOHppQ1wu_wC9Igx9QDIWHsrSfadrli0ucEGXxbXk0TdAuRKCZBEACt1YPlfWwsd4tKNLlsrWqakLPUX306hUnuody5dwTh0zIH1ObeoANQetveGcykvc0jydrhXtt0J38waZoFJXXlW6jGn-EG-HlgXNPEgWXuXubiXKKvQXnY07YRG9TTq18ptBgug-K8VJmwOvFxKPT20AOrTIDFdkozYIZ2zU1mUy33qV297ejR6LM1VabnBLaZZ9uD9HhZF_2aquoNA3tmaCtNtieOEaeIU-_03l537h6xbi1n-ICOdYB7OPIuyVJq1bundL9EO8TWyFiItyxpr8ieKh2QT-ds_pKh-_Q6vA7bouZ_luIekLRzIa6iWZWOzcvA_AxGEyQB4yREmK2dtnBd___Ez7zjtyspZgrLLQipIq9fltQmQM", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102297185431696537141\">To To</a>"] },
+            { photoReference: "AWCwydjOZp17Lg7vhqUuupOa9TLbm7W5uZyYEeggc77EM4YEhV8KLZDH7p0ZEYJtrKkSD0ME0HUOW8U8xilSIPn8WUphiGdmVhHl4c6taXVzY1i6gHOgAaFcd4NddOea-4D0ws_oKznqqFpsUW5QMNnZA5ody0Puq8Mn6VeX5LoErcXwYVzRC2RcKUmcYYFxG70R69VZVb-xgLnLZRRuTcOVK4n91pEE4EAw2hLLNNnmJwD_azDI8QCuBzhVutwZMZHdSEkQ-BAx8bq2YbWjkh6oLBTSXnFLDMIq6bPbfK5OOxTr1i6mHXQHrWsiC_-MUCpCWIo7TesWcgQKsSTz98CuefythrkimhWPNtvX80sdccPFfZVWFXo3vNQZ9_Wj4X0MIn3okpFrol1uf0mJk9e1oZlgOhD4R1Q3mEfo9iVDDITuCeSwybyIAaqqPpHP-vxM", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117484745042578908931\">NUSTAR Hotel Cebu</a>"] }
+        ],
+        summary: "최근 리뷰가 꾸준히 올라오는 인기 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["높은 사용자 평점", "최근 리뷰 보유"],
+        tips: ["실제 이용객의 리뷰를 확인해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Tower 2, NUSTAR Resort and Casino, Kawit Island, Cebu South Coastal Rd, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "Tower 2, NUSTAR Resort and Casino, Kawit Island, Cebu South Coastal Rd, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://nustar.ph/nustar-hotel/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14246499326050714719", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%88%84%EC%8A%A4%ED%83%80%EB%A5%B4+%ED%98%B8%ED%85%94+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "문스타 세부": {
+        photos: [],
+        placeId: "ChIJ3624yy2dqTMRvuZiJaQ8tYc",
+        placePhotos: [
+            { photoReference: "AWCwydgV4mg2cyqaaVvfcCaFOG8EjwHgudF6xtlZxpCaV0VaZyZhp0LlrSRZowAbemhgW8mwzkXwYPRfS5mbC05EZuu9ToAl2tk_CLEpzwo_Ogvfvg-hEWSvKvsEa5JVNNYlKAPPFzRLpDYNDB6Mh_JBC_9uhaqPWWOPEEksnhvTfP74trxC0sE4V9U8gZQUTwuzvpAM_74sD2PR__z6iBWrPZGeM-Yix5xitLG4v09X2jKqMDjboHtY8YJX9zgwKe6pKZSxBvAvtoUoo8LTWoeaNqb5y6_UoWmc7tDsJmi3YbjcRZcLW81QU4HvumxpsJ58a852TQjpRcxNvT9QQyPu5o9vuq_whZwM_lWUCMAB58sSEcXbfIv7tJ30fl9Q4MAiXncYcGwgap0N_rjTyDOsADp4_OjmPMN-BHGvZXmM9cXQlg", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105550353072606700531\">Noah Levin</a>"] },
+            { photoReference: "AWCwydiNtz787EVvDb6gVIbDik3V8HIgeZQsHLk1BDa6-up3P0cixcXi61erg1V5X0zA4mYYgzJAL1nRduFvX7oba78ph_JnFWPWdy2jcj4idfjtk97PkqogfMMH_S1m0TCgyk0XXtNRKOLB_xmVwjidimssFI05MRPbf7p2WOF0IqmEeprfGZSIpd4IUV9JMjoTShKQdB8XEz2at5AlLczr6ErbMRhJ7piNlj3nD-StUm372CYitkvFIIfO85tQy-NYuYq61LG62Co42WnxNCQwoRD5-JT6TeNoALoohWJITv5hN-0lSCtATNFgTamMjmxC4rT7Cvoh_iuaYY5SISSZhf2qAAF8sj68UgTMJEsTdFQmwl5Pdg3PYRb3Ebl8Cf-4wm3TIC2Nf6KbejCoOC8H66VDgNdKbZLyIKfavA6Qaqk", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105550353072606700531\">Noah Levin</a>"] },
+            { photoReference: "AWCwydg_5T9ioU3q4SYI2Jw8jy0lUZOvT2pDiZ2aBYoL6aSsmC9bsF6E1p6uiakwduvf1sZ-yMgui5GkYBryiMFortkFTlJ1LE0cl1UIXL_z8lwb9uxzOhaEp5MIkJPeHVoAksR33wKhwhvejqXQCg0SvbM9bhwHAl9C-TPSLZyTu4ZKcJJKe7-yk1djx5gzFRrHP7yQLHMSt6kRiUupX9vOwnDzxVcqgSNkI4QDNUiZgzspxTPbInr3kaULTyUrNfcVCRXPPyj1QaJLABd6uiIv4iO_mUssbzQcR8894yIqcu7vafUh_736T-NK-eYOJlk9THD1DAdOTe5KUqVPSGFovfhhVSBcErEhJqR0f2o7kFUMfAy9HnSRfoheKS3j4lv3eyieQay46GjC8BIAJez76ShfYA3Ujf9H6nZ_LKhAcbzDKxkoO1QfzMOFnbNpRg", width: 720, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110962856317756791711\">Moonstar Cebu</a>"] },
+            { photoReference: "AWCwydjiI1rZ2DFnnriG9avfpoYgdlsVAzmK9KEm7KGce7CRLDgGg7j95AH8WJ64haLthPZ9RHVfgZlM2BL2Af41kaipGNSzxUjT64aSYomkX1b8TBWYli4lkNFpcbengLhlVsV4BZ6L9sScTIZbh9Z-0mvVNr0Rj06BoH5FKQBNVot6-Vd-nEhQ9vH5fCf8fD1WlYekuixALQLqhn1wwTDU1c0P9KVKKQRRb87D37xUlZqIJKQjpVOfY-zO3Da0Mx3ZyRHeAfrzryAjb8TidVQ9rCVYZjE-oxL7DYg0QWxG3TQQ873mB7C2UppwgHpV1alrZtP3zfbi0MDdUWFTlX-w7yw2yxduldJZOzmyBNwqjZXQW4GzUG-MY6AMoAHpJymw4nHtff-LIUOD0lnKeyQtOAY102CbcP18Ic5-OCFlDZn2gA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109949655807909332745\">Enrique Baluntac</a>"] },
+            { photoReference: "AWCwydgbbDcKBMwz_nTdgGzRlkYrny-Dg4DlbG3259oEAxINPXhLEL8tUNuJvyoCVi4ZSK002Z4qvObvSlo6UEnzJOCDtAyBum9x_b5yjUCffiRALmMaKuP1vg-L69myp5C70RWkLV83vO_ki9kW-THH16-se1W9udDueOhbxcs5zXXvCrulSiUqNULDUGi72aX8kaapv9KtK_1Jx000WivQ61voHK8bUpduSToyiw4D3-qvZ3494wDiMIOROs_t5xlqL6xx8bTN1HMJeKzMSzv2ULowMYwTVLI1pp6X-NnkEgJTPai4llC3zHqjwpewH2598NFOnC3HWAfL59N28iPJ99-55WuanbC1b6swh49e-xoeZ5S1fLyt7pk86hLCGvVpnPMMbKY8DW0JAlP4QUsyvUGsM1jFnFz7FBl6CinRtNla1oGUbsck2BoJbAcF9fFe", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109489055523564000848\">CB</a>"] }
+        ],
+        summary: "청결한 객실과 친절한 서비스 그리고 편리한 위치를 갖춘 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["깨끗하고 편안한 객실", "친절한 직원 서비스", "SM Seaside 인근의 편리한 위치", "맛있는 레스토랑 음식"],
+        tips: ["SM Seaside와의 접근성을 활용해 이동하세요", "레스토랑의 음식을 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "100b Mariano Abella St, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "100b Mariano Abella St, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.moonstarcebu.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9778788841604441790", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AC%B8%EC%8A%A4%ED%83%80+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "울로": {
+        photos: [],
+        placeId: "ChIJsa14kSmjqTMRdPJps62vUmQ",
+        placePhotos: [
+            { photoReference: "AWCwydhmft_ygFoe_TQCsnSkN7wZVjybOG1HhYTY5t1OISM2-VhC_6_Swayvwx0MwwKqYUt6pGHjQkjVJJztdwio3Tk4vf8w3vdp4ABufhlxW4rDAhx6fCfyXxEQV-LJnknynhmF2gljfphSfVh-yjJjHlUgle8QCoauKQgkl4q-dmD0rqH0xd-rI183HDb2SYG18GYLQlypgTSn9L0a-4M1-f8AKP9g6nRUhDlSrCWZehjIYf5XkrRzbfageDx6wUbrmldT9_V-d2Dqnu0FhlB80-E-aZq6efALUDlyNGnnBIoi2GXPGc-S1IZxYHJGrk6aXMR819_MeHf1ECQzWHFE6fmL-5HVCOnAK-ZaGnrcdn1qy0bDrV4KMqhSrmbHvpGnSCCFksPyty_m60uKOXuoS2__Tfz8VePjhuWU1M0qolFoxyde", width: 1280, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117037859086418212192\">Andy Lee “Andy” Berdin</a>"] },
+            { photoReference: "AWCwydj-4qREDt50U_CwblCAP6iz0u-OIRcpk9mRpLBs1HAHIhihkpLl_kpJ__INSX1VANOAtJF9J6jlHzxlxlKAiMef5-IntUjdLU3IiCLG8mPCSmFcARuCxb3n0nIcvfTQsX0tJ2FAEnmUlgfc8Y7uCV9kisLFr9rzBBBxZWEs080l3D9lfqmhQWFjjykiNRP2QjZ5HKJxOfUg4PMjlBXaFerxXbNlPvhTVUY1GpBreYxi-DgcGstK7wQnPq6PRrZE4KXlugKs-QhSEvC-CxG7S2xuTKvHP3u8nkdgvTLmOV6MQuR3aA20L7lKkOeSM4zYGs2zCd3jp1cX1o9FjridNCqUpVLyX5n97qPmioyYN8-T-pld1_z1THcVcvgE5pk27uBX9q3Hp8QZBxkzKRYrKoIlwSLTURc3BEj030SpJf9mVJBI", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223634782513378210\">Wandercrick</a>"] },
+            { photoReference: "AWCwydiuM5UgsOqnxTQDVajBWYEmd7py_ejtb3zg-ncE-qQsnvd_EpbVQPLt_hjEaxmQHrkDqZLq-LwsSg0IlWqKQgzV2rcG5OngVLVvd7wBk7KBnL-QDAeHoV_prXTOJ3ZbhAr9YwDamFQfPfxmRJvki1o60TeU4b4g6ZAeHRFDP02FnvxuOVfsDclTpVYuWzRSJQYl7slICAyqmaLZmx0E767vVLwVfvzPO1LpFZGetp8GUsuJuu-8dc5mkYco48D5UPJBED5QnsN9mP3Zl7MWpTjCDqB0zEgZLHVDaEpPWOEP71FPbzN0_zFYwLdnvcWlBOpsFE4WdFSHbGqs1nbvZ1tBY1rIwaLlgqVgftqTIFAHlI9mzGayELmlIIC5ViJw8ndAwL5z0h5e17cbtODpSqq16TaILb1IY0QhzJZNYWYy_w", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107262767825256800865\">elisa ng</a>"] },
+            { photoReference: "AWCwydiLrt7naQAgMLuKhtcdnd46b-FJDn64F5GuEWK676MExImhmWM23aVqodR2coK8ixWR4QUduPTFuXHJY4vjjtbCR5MhGL37poLwvSavf_Av3P1NP5Vhl9uO3WprLf-85WzRbGYYvnEDpj-AQqvwIwvle0AskzbJ2BPmZs8rhZ31JyU7oN9SV17qPN4jGqlu0PNYaEs7u9NVuOGFaLy0_4gToK6yC_bBZWN3MJsx0BBoo3ik3oqAzMRhBZiM679yGpPO1FLHoq10EHThiJ9Hb_TbdydB82A1QNGSf-Nubt0X7ruiSo9GOtySFNDT1DXt_fPZLJAE1MckaqDECOlwWMrKee3v3XTFscUOuhNY5nRAgytUnVusDpoHc3ppIHYoDXvMSXO2oN9rsrHS8ZbC-CE89UOMAbLtK0c5PP9VmiLU9w", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102116905504394588754\">Jürg Schudel</a>"] },
+            { photoReference: "AWCwydjO7xvS056sqpVq2sSbln7XEheGZdVOkhi-MahyvTTeFbzSBQreHtE31VHhtAlHCYesDY-H2S26ulmrYvJ0WroDjGaTodxg5yj4TUBG24mtcVjhmI_pPwrhKfOFKVHDfLNEggDgjU1duI5oDzHcuxr-gcpdklTl4VrHNm7YTN3yOKe0y-lqqoBnWhsMKhXxtB6wGJqEOqLEtiAkljaIS0qM0hHLPKLxLqarkQFrdgfqyFD2g0gjtSQgpmeXQ5V_Bb_yuIOwcCk3xpKGeLbdBIFjTWdZAFNX4TLkmFu2PqGd4iAn77oJfm_JncUbqZsa9ac9jQ4C-9MhhPcTFgTgtZCNYMzyfKK2qLg1xZpm86Cif9QqWNAxZU0n723_TTAAvOVoLJ9yuRrcmMbr8onQCrXXXXtUXmggZ43LFGWa0ftCExgq", width: 1080, height: 810, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104781131301120228577\">Mylene Grace Ynclino</a>"] }
+        ],
+        summary: "바쁜 일상에서 벗어나 고요한 휴식과 재충전을 즐기기에 완벽한 프라이빗 공간입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["넓고 깨끗한 객실", "탁 트인 전망", "자연 친화적 디자인", "평화롭고 조용한 분위기"],
+        tips: ["전망을 즐기며 온전한 휴식을 취해보세요", "일행과 함께 아늑한 공간을 만끽하기 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "필리핀 세부 컨솔라시온 CWGR+M7C" }],
+        location: { landmark: "필리핀 세부 컨솔라시온 CWGR+M7C", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/wooloophilippines", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7229033512457335412", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B8%EB%A1%9C+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 캠프 세부": {
+        photos: [],
+        placeId: "ChIJefeURNefqTMRz-RDEsypySY",
+        placePhotos: [
+            { photoReference: "AWCwydiO7q6FEBV_zJtJ5JWbdBhc0W0SDeSRfs3hdZcTzoSzTmb0FwS4q9XPYucdhXvCTsMfo1x_TMNX4w4Z98Qh9gW4rxomCakIsaF8aij1wbGF08Ww4AMFiuvOOc6oDgMkrPB2Xf10ZlUQEmdnUyJAEab1aFaeSByGDuRWHYTSj5wwemaOWlltemcJvnB3QfmpP_gYt6oq4w6poZEiYkRLat9YtNETrUKgmT5OqkftNfHdDn3snq6UX6HMJziZQjBj3v2z4IKqZPbTBqFPjhTSPTXW-a6l-o3dtjblrLUbB1Auho3WD65-i4sYeSLQ0WI1-_2_4Jl05YKWuEnyEbSjdiDkOyuMZ9CNe-7hlt39IshlsRAGIljhJ0IFwVBEr22aTjbd7LGU8AzLQ9S6N7TgLThM7s5zcWStYp3lC0jeAgxOmQ", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112456338630396963606\">Eugene Faelnar</a>"] },
+            { photoReference: "AWCwydgGV-2nAJyt5RcFn1kv8bm-8aG1fcwsY8c3YZ-3wjARosFnFZvze-0yarFGG4m_UoJVLT3BjjoXDpUDBZtRYUD0t04mVgQE_FnB_XjKd4I8YsFYI_WPRQYA4betMST1odbiM4o82R2dwUKktTNPrw-_53j23qkRX36s9fJSTNChb-7uKNLNUVHINOqNa8F53cEDb47PjK-TPxk0Q_x9tzCJ6gBf1LY_bW19VOxC__bHrIH8Q8NmnF2FjbqAes37TX9HQqSikRLX8P-dUuHG5TKmfh7NF_J-LvT2MrVe-iviLXbv4FpE4rSKa2QophP-N_NFyRsiyp3DtnkEV96nNjRrUuHRuYmUqW9ndNhq-UfAAsQHw-liTDVE6EweJ8OXc519d9sJqbrrZQH2gzUwhDqchRO3PJctNRvwCL3_bpdJcTpc", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112456338630396963606\">Eugene Faelnar</a>"] },
+            { photoReference: "AWCwydiy4E6BPxYyrAPAfUhvjDdbNSVPP1ZR0oM4gtYyR2poMxBmndEmaWW-kzzqIrVz6nioIqgsLZfJhh4ygaNqrziGs9aYlbRwa7CyX-LvXUi3YL1pp7nHoPlIX5Pu36aYtbpf56BsMAQEwaCreMKh-wnMRDvgMmY-jl24rwZh7OyEWJKnKiYv-pu4tDBwEADFhfrzpok5E7MM-efJuOdT58t2OD__Dh-b4iKJlwq7elVJdFWchNMmkjb37xQNM75XMkzW6r7Shwvfv5JozTtHljUzk_V8T9AEkmuJa3_J6E-UraKcSjT9kAfzoxImv-I5ZVUg6GEGJXI5MYNPhE3GS8ArNenRmOaQbevDHqiRDqqdgAMObztmE8Za14KQ0JdtYPAldFjTttPRfy7MnJKdK8MYIBWx9L7tY4hTV9f8XoPy6A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100766566923699150101\">Claire Honculada</a>"] },
+            { photoReference: "AWCwydgu4Py7a5IreVtEBnYRCb5JX1dw36Il2lNm3jyBe2sBKV1I0dOlIZPcxeXFqN_OExAwcdJiGNzNpP7F9yPQsseogXltMPQ2aBKODaewtNoM13dZrZVV5PY4W-YTuGKD4EwB_8F-BBz7SRHHpKn5mB7xgQsF2Usv5Wt5LDwc0_eIya7ncj28HKVfeCFSymRIPRBVSf8Cq9g9TamzjPCDWLZTkqLUwd-9zyVTZbSzORfr4kpiRvATHqCVkyOzYwlnBo9vACO9M37i6pW-ae4TkBwFOifgI5yRsaI6QmX2R7jLfHlvBZm-UaeYN0-qmsga4yrVJpAfJfplXU6ioJoNq__iTCrvb1_QBdvQ-Vaykmgjg3ihSdyHbX_0ns27uYojNuVAkzuM8WCblvYzhG1zedzzbgCnsXKf5ejPn_W7bK_igYid", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112456338630396963606\">Eugene Faelnar</a>"] },
+            { photoReference: "AWCwydhbYnChpvy-Q3UJkZoRYhc2hCv7uZuu1tRdNLlKpbPdJJdukSdKFRIyvwX5EDCUqnLJkXu3vuYFafrOEF588MD_iOu8XHpM4ZycpsPqGWba6uiCfJwGLxEyoHOiTM_aTRp5IBvl3kLdijEo7k1EqbiTkao2PurcyY1FpGBJYZTKF3tQR0hmmMj1fC1aUJZQHlANf4fNqocn1oi7snflwbdIlDylYOE082kwoq-F8imWAOnOfEprBRdislBIW4nkUGMTpAhEVZAdchDg2xZ-IQ13PgcSoXXh2C8Gcr97k3PUxCx33gko22xKAnKWx9319eV6zGDErBew1lQeIyj1vvYmMJZB0sIz5uJ9Dp-y30zk1CVckR3yyxdBkoSwF03MJHFUg4uw7sUqWOASStg1eqHHjhroupD98KE-v7oermIk6e_U", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112456338630396963606\">Eugene Faelnar</a>"] }
+        ],
+        summary: "긍정적인 리뷰를 보유한 매력적인 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["프라이빗한 공간", "멋진 분위기"],
+        tips: ["리뷰를 통해 만족도를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "필리핀 6000 세부 세부 시티 9RGP+35X" }],
+        location: { landmark: "필리핀 6000 세부 세부 시티 9RGP+35X", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2794951737704965327", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%BA%A0%ED%94%84+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라바 마운틴 리버 팜": {
+        photos: [],
+        placeId: "ChIJveOEGpufqTMRyDXa2bA5myU",
+        placePhotos: [
+            { photoReference: "AWCwydixrNGf---Hbc9HKoc4t10I_J_ntdPn0UcQqej1-DILgYSoyyyDBadA_j5WTCs3i9toByR2BuPMOgED0_26hakGaxocrnFdTZsZ-t6kemz_yDGUj77nIKzZXm94gM5TLB-PI8SWFfmM7t-4NMo50Mwf_Pbb-13WZd96Q_SKdt64upvUuLbTBXnIbebzNm_hugIkBp3jo6jbXAPdR3fRxb0rbvwWEY1uQrB1zcTs-3woNXsPQ40oV5P3tuGXEh411-zNEAvrp3fpNBZndHsHQ439FnXNoHaGlicUYSpN2hOEEuXR4yzXJFTz-rvx7idUYndPXgUPIoPn184Y6ENgaLKZzeC3IKQqqR2ylKQZZ__KJ-uE7suzPoxBW78u_czTYHad6ZWJ-lv2xjinStkD0SvVCg3_HwugD9p-M17EFnfe8A", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101116777600693457580\">Lava Mountain River Farm</a>"] },
+            { photoReference: "AWCwydgh-xR_fuBMK2XcOx6HvogxfrWa-n_MgZIv5N03zSrHRGZ5DyS6prBPx6I_TtD77VFaKi0PlmTq1ekwY6ZkhboqTGyooZMcVLzxoTm0mHe6VBXUpW8uEPzqOxt1me5_2NC94kO_SaT3rvAmeJD4A3NRm9FJRC6A4hMP3ndi8t45EQ2jR9cHr2uT0LxVqnqY8FFA12pxEATK-pEfDIR8OHNMx2LxsEjzxw-WEZTsuBqNY6HlbBWFtcFmd5WfuR3im2FyJcf88bxu4u2lfO4M8xh2stC1mSvixkiIITH1isM0nJIw_7xXoEtbmNPvPD4oX0RgHoFrt6x8v-ccWRKCrsBmcG_G_-J6RsjK42HeW-Uo2CQu-QcLd8IFb1Hf70JXwAFiy5yaRxAwRrLqblveq5OswVwBaJlQOLxkysqHU-KL3blT", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105582082455628023197\">Dave Anajao</a>"] },
+            { photoReference: "AWCwydgS8ia7k5xnrUdyq4BFusAEE7bzBypLbzPqgMJdwzgrB96xsDceVrZeR6zuB0UwNbfCWIGDCKwoay-GN1J1lwM3cbtItCzWwOZhqbB7XHcCx4kmn6fIXzF-O4PRXtgQIAB29GMuECILUrcOD8wssafBKm3mP56ru6mHEYdcEu__eucr4-n8vvvM9VLCYAsEKyCcSoG7UK7p0VmaIRjxU9AZsE5mcQRcaDhhH418dS2_P60cox4PUal7fuAZoQNRskF5sDX2mfNgCnCDHUntYB7QpKJ4JEvxk_xfYtNsK_3N0mC6cmtpBkC6pL2v8swbXEoBmJ9IiBxSREGj3GrA6LfjVnEoJe-yeMMXYlYSV4UYBaTMlqizNaY6E8l4ocTz17Sblt92o-_NgzPtyQoKTMEkSQzx82V7n2ZVbxqdlLnC51CzuMCIc1hAAR9YO1ef", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117245159528525151406\">Timothée Pahud</a>"] },
+            { photoReference: "AWCwyditQPRFdulaD0Tj0gwzAfLy5sk9aXj4v2xlj282aPxx8oNL9xCi05B6Xg8AxLqHcufMjJ_5dUetSDY2dKCKyvT_JnH1lMMVNrL8nmj4bxo-g5UyXs5OJPKMfopPKqFr1vBPPeC1MmgYfdc9MayjazjBxtQSnxoNQtZj2fvdLn9NHIh1Lym2ftEgIhD0lJgN8vbpqzhP0DWrCaDxi7Z-e0Hmj-EWUISiw0QwrqNlxkyh1N2qb1FqLDkeKFIkzaG8yuMrQXgzqJ8MmEqXNFX-WWQRHCqVByreRJkOHCnB2KWJzeTrkXXGZtgvZFOpliwisvuAOBPSHTqRaT4DvdSrvZtbwkJ5xYb4cKPR7g2T7DFHdrlCQ9NbrWJhdaSSyFUTw-JvDYp5VzzLzG36ISh9ovbaIYcTFtMvYS4TbqcDzYIVjArF", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101116777600693457580\">Lava Mountain River Farm</a>"] },
+            { photoReference: "AWCwydiGQ26CfN16CUYmK6fYUVJMHctN6ji_S1gtayO4oyy36r6jbLHMycvlthjmWXTfFcuzaBn4KmP_oOPglS3ebh5QinApgLiq7epR6bNkZ-iPtCzq-JBSDIFsM4lBE-3hKaKMTUlxAARGgNT-wy5Ck9GDb8aDOl3Urx_1zXJ4rok6osCs2eS_O1XX1Rf5cVmFTQTH40v-8RpyuRt1HE_DdOgu0OmPi6qvww6N7wV52ghTlHftqjFEBBBu8nKUgCirR4oK--_RmJY-df8T6kcZDikkD_KZzn50tlBngrWJw_SxHknjeC7yYQbf6UZfF3XbUvNmZpNrZ8QcIAOM7sViIHmt0QSu68IlvBgeld3UZ1seIPhcOtagJ4IytYXWM25bT5VY2ipeEhNMh-rptr7TtpdTy2hgHDpCwjtqOf_DoCIZbOSjUJuUiWo01FmZ6ezD", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106407052551053848656\">Rory Rivera</a>"] }
+        ],
+        summary: "높은 리뷰 수를 보유한 인기 프라이빗 빌라입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["프라이빗한 공간", "많은 이용 후기"],
+        tips: ["수건과 세면도구를 직접 챙겨오시기 바랍니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Sitio Biasong, Bonbon, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "Sitio Biasong, Bonbon, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.lavamountainriverfarm.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2709823032525469128", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%B0%94+%EB%A7%88%EC%9A%B4%ED%8B%B4+%EB%A6%AC%EB%B2%84+%ED%8C%9C+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쉐조제 포쉬텔 호스텔": {
+        photos: [],
+        placeId: "ChIJmWpTJ1uZqTMRtrfyet0Poxo",
+        placePhotos: [
+            { photoReference: "AWCwydi8G35KIfktjjUz1SfTQzgkmOtuzUXXM47F47_LLrCJm8N4-on_usuujLgU8nrHOZfLrH5YzQe_Ty_RjQdiR2cnApLD20CAuexglgs-r4ty82NAjfpchK9MJNoowjEwiWTe0SigsHsfUvE1CSCT2R3MNxg27XT2c7f7fUDQcF0kxpbB4Fo4HIoThzlEmwvvZorVTCqbISVjfveoPJbFIcIV8gryiBxeJtfT8Gi7CWy-XfPfZPmTxnNeBzrbORND6ZeaTbydUuSjsm6CAGa5dG8-HSMk61wNFLQ2vpEueM4lORDWtjduvnBcfnhR2OsO6Gj2H3BjI40guEKaKacHEYkN7Wzh5WRflfhpKSU2vtfC-EgB8AQub1lDr-qiZ0n03GZyFsy5cCETVvuFp8OTDphAqfDB5OGeBMTNRCrDZQSW7w", width: 2304, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118219605947185953774\">Fern Salvador</a>"] },
+            { photoReference: "AWCwydj7nAtM3lRwjjTw8s8WhQG6e1k7Dbh1Q8X_K1OJvplpw6EriZwIAUqNZl9Jl01l57kfRKtCC2p-nDLYacgYfeNOuIZK-nExTIuHCPqoHBckzQhwULT5Cy0hmBGc404zFH-MzelH-6OkJzF1A_FQM9qonpyuCOcN9DBaEJRRa1QLQeh8FHjxpZgB_EEwkAZ6ws0qw2t664cTYVktKSZcsVfj_g4gGarBmYRGMsufc-8ZBikM7fxRGAk_YCGfsKQeyPMC6HBVMLhxGqKU53R9N5GxovPqc4GnOHxjFdSfg0huiUd0J-UAks5kZFsGWK843gacxcSZ_NF2AywNq9d9Flv9dwUWvKxVXszLagxohRW6J_ku1qF5-AtPzotXkvGzVQ-KWq3LMOIs528b4c8Gu8PGSH1ImgDbvLk5uRlwTffGuw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107358994427855314181\">YI-LE LIU</a>"] },
+            { photoReference: "AWCwydhrsaaHtT-E-wiODA5iUv-BuRm5iGwrGeTJrUx_bQHdZd37-CymldX2Z3JV4Oa-JA6N7I0nr1yPmbss-c0cv767bWhuJxOTzgOXhRcjLbd5I-Ec2Sg8aj_Gaitz19JnS-1TVuwnWevUDRyOrGN1vAnea4vlxrxlVuIz7PYuyM7nvQ5MX3KQBptQxMWDajTkvTxSvJCj0TV8zzbGFLTtcXURbzYvopsShsGjtKb5Z5Ou0neMoN286sX022g-9vopcHo6UfzzDRIidp17s6kze56Natl-s7eCctSpAnGA8Fh1mLN3icMR7QW0KwYLnHTJox1IYHxTiDAuWEPNhLEQ3vOPn4KqiW6BjA5TihhLatrFiDbeY3ycXukCxnqK5cFiY_v0PYogBoDzHCKuekrvNBV4t6nLTxyZnuYLk4BeYzE", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101840836518467173947\">Arnaud Titoy</a>"] },
+            { photoReference: "AWCwydjkoy7ELdNOCV-trUP3UteXvlQnXCYpsjFLioET7DQrBW1GtNNkFI_LpfslxhkblEPXIlyOUoLSOWTRkWW8O62lMbXkamUasP3LbITlHBrA2GTOo1kMZtmUxnbvnGeQ4rVSITwUukctH3bIDDJ3rhFu32O1Xw1iVX5Ut7HN2DPZty9jaYsokl3LqRPQRRWMImOX53jxyOv9pcRFN5rIX4dSzRW1m8kiUHQVum2LmrSx3unjqREXwM7aNyqTij29bVYT9DnjVbkAa8DH3Vl-fOUtaHVL57-dgFxpnCaEfNoFxrcgzpuii98l_5ZH3iFuj6hZLHjDcLye-yiqBHapGDjt8wK2pyOX9sbT2uROP6JEdm4A3t4WH6WzD-3GMy2uQCpjHSUNN-qptBnDh9ZWuACdEOfke1D145cadluGT00YcoNd", width: 3604, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113082290115473330645\">Deniega Nick</a>"] },
+            { photoReference: "AWCwydjw03mB7R1lkQLt5wbC8Qtk3Nc3sx_eu8L43Z0TOy7pSz8zBossOr5MQO_GY48LKIa7_q2aG_nRVKAcqaRiiIVxY4eKWczKeY2lMW78-w4NPbi0eDRbBacNwYXhxv_GmZd1GlvjqjrHKj6aNewDxjb5a2WWQl0Epb1rQ8d18ubP5ZH6qYrWBTiYvBk8cuzWDXKPyt8ZMIVslhvcU95Gu4OqKwznLn_YC3Wt_Ccsj4B500iX7ix4kggRp86-gkoJrha_YFcJnP8TVN0lZxyORw0kPsCx8rGSmGE3D5vFOoT72VAaja9fM3PMvZQQdJ6X0F9AhIHj47mHEvSKkhMkrGCD6tOZ4kC0wBNm1T0KvSic0BR7B9CuXKVmM8A_V3J1PC2f8eZa4ylu7k0rnXtHTUOXBHP5ax7aZhEPEni53hk", width: 2448, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101840836518467173947\">Arnaud Titoy</a>"] }
+        ],
+        summary: "따뜻한 환영과 청결함이 돋보이는 인기 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 배려심 깊은 서비스", "깨끗하고 저렴한 캡슐 호텔"],
+        tips: ["이스라엘 등 다양한 국적의 여행객들이 방문하는 곳입니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Dionisio Jakosalem St, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "Dionisio Jakosalem St, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1919395310114879414", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%89%90%EC%A1%B0%EC%A0%9C+%ED%8F%AC%EC%89%AC%ED%85%94+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "옐로우 엄브렐라": {
+        photos: [],
+        placeId: "ChIJX-z4ak2ZqTMRkReeMqhdH2A",
+        placePhotos: [
+            { photoReference: "AWCwydhO3ke6r2iIrJBQw5ppaLNQZ-lksyouM9mqIRBUfEzHS5r9axhAA7s1_6PcV3FLHETVrbURnrlzacNOi2HJMx4mHyIdVBBXwfWpu06HN-UyO7L52bv-6nDjJ2TqAcDEnmWGDWjdkhEJGAfpoJ4C7-5i_yoE6AWI0IiscjvlQSjNTAoD6U9bp1NYHWjxnjw4LBX6LYM2GwSYNJpJ_gO4z7DhGhzeeIKBZugTX8wUzv2putQO3pwZQN87LaVXvqx4s9tLQ_Pb-YptBVWoO0PAI08nZvMP6c9WrRr6tqMqVPKseP62jIILi3j4Ow8PmCpLXwBRlvVpa_x9REG835IXkpDxXZT2-ViHRV-i9c08dxdb7UQZkc7XptZ_iB2ZCBA7arX5eUgEn6Ujp68hg6r6rn8hIsD2ZFCtdk8F5aGb76NxW2A30w2ohFkk1IPwHwKZ", width: 2480, height: 3307, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110982273950094166959\">Yellow Umbrella</a>"] },
+            { photoReference: "AWCwydgSzZSb_ZqXKJWprB_ngUHAr_8tFGz3zNq0Fl1qZSTlMFgwZKCUHJnjNqqqQPcucyA0bmXOYP3O2L0-fvgBDvrE7_kTDu6E5KQowF9BQeTLIGiQ9Ex4SfrswJ76twiIXmJoK8Qq394ekpInXg2yFE6fXiha76kKj1aNqAgibns5wVBUHgm3clWGN_pQ-9E_iCvCx9rBMFWYMd6TTSBBQMrpP2_8gBW6gnDacRZ5ABgKEAgqIqKQXDSY6P1M7OPH3FXNllDAwyd_avzbheWvtbZLJLMYofgvSMhQ-RQSM0u3HyyMxdO9_3EfLR4SKPoNZxZgGjSOF0kVqDJzdaeiTHi4hG0Tsgd2ykIoIds1ig18RAtYeATzsjTXt8C0p7DIk6PB-cPrkZHLZR5SDByyh-B0wIymaQJz1BdYjfZLU7NUnQvy-QUEKEisbkR0czND", width: 2480, height: 3307, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110982273950094166959\">Yellow Umbrella</a>"] },
+            { photoReference: "AWCwydhKYOD429T5r6PvgDAgh1H8XiUi0U-7ZobyPgY7TlSxFb0tum8zS5fmDb2bc7M3eKqlE8kBqSBCNi8rw9oNZM0ULg3L5qqI3ctI6RUc6ORl5SIs9X3ENhg34ud2-2VaQp800uwsxBTJ7Vpv_fuR4jw1rePNbN_QFWA4ahPFzree8t79gaDdOP-NhPQwc3c5LsXVYWhX6uE6Zk4WnHw2Q142wMF4bCnL-DJ23DYg3PrwM9UUF7yXkz7NjFd78WviTZz8WFjKTnPZS2p8tGw0vOH5Hq-K7aNYftRXEtHEfNirVJcpWpo8DT9wbdcb4lQ88ywc4zGCaGZsqnHMBIIT6m6qOBiOGdD-BjcmdbBEsGiTbhScwJHpnYtAH0Xaum7AuE1NTT2waNWoaRyNngj0DT6C2yOGSFH0H6qioxWOpP60JffkANZTENNKvgO9RwLP", width: 2480, height: 3307, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110982273950094166959\">Yellow Umbrella</a>"] },
+            { photoReference: "AWCwydhZF_c0wWzujo4uMhDFjSOKInFArm2NtQ7mvJVWAAQUWMFcFgzXiPZIVzsQ_GcjByW6gXfC5COpCe20ElfZJ_QBerbH810qqz9L6orsGW9oSfL_kdwbHdiCdVaz-ceVnuiLyRIwaEWbHwjYPuZt_VBd2hzDc7YwRn7LQRiVQ1efL7iGZ2LrP4YLkRb3g5Z715UkXdZxNPPKxqwCE1X_6aYw-nACgEf_P9oiGmkztsD5E9jpdiHofxI996uycAguo4_vY6c2NlA1Wq5gjVVPwYpU520wiMTGEZoaz2lBuE46kp1MqMJs66S9h1ecxvav_igJbNh31kiV6aHQHqPQTAiGSgpgECmQvwsRwHJknvKKnz6lYvforAo7c4XFw278XymlZ3xqfUj1GWQWDQlPoecjzP8r4KNqW8z_LQaiCoZ9vM6nCutqknltry6QKfId", width: 2480, height: 3307, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110982273950094166959\">Yellow Umbrella</a>"] },
+            { photoReference: "AWCwydh6pLn1G6YQGM8Fwd2nN9T3hsnwEDdfQvqqum-QoHlDmx-7bOdUwVn7gCI21CpYAknq7dWNc9n1ZAyhJp6kgdMSBMFINH6LYTDlXcrBhI7BsHfhsPyPxiBWT7TgacVQGQa6HmZKAwUgLtlqMkvM0c7CA8BCimF2ZKGAQIoIpm8kid2FiQpkC8aEA0yuoYScz6kv8aYdjCCPLdeEwBSHkySuWrdkjZLN4u2OCNRW7jVkXXiqtRzwGCATLsIR1sBb5FkTWJSMoeYYjnTIUSbPhABtZmS3CyRlN7lHqgyut4cIPcAp12QFqRbwvayBKdr2yXSdk09z5UrQuEgZnPTFtLsaucwHvEuQvqh6YqJLxNSFqW4ibVrOCKf8ggep-LjmJtkXSEjNvvRgiBIJ0SMpc6RVTlY_W3ftmUwnklj0oL-ONMMJ8q63PAkzmr-qzw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110982273950094166959\">Yellow Umbrella</a>"] }
+        ],
+        summary: "친절한 서비스가 돋보이는 세부 시티의 인기 호스텔입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["매우 친절한 직원 서비스", "따뜻한 환대"],
+        tips: ["매니저와 프런트 데스크 직원의 세심한 배려를 경험해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "101 Ramon, Eduardo Aboitiz St, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "101 Ramon, Eduardo Aboitiz St, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://yellowumbrellahostels.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6926357728904222609", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%90%EB%A1%9C%EC%9A%B0+%EC%97%84%EB%B8%8C%EB%A0%90%EB%9D%BC+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "나초 호스텔 세부": {
+        photos: [],
+        placeId: "ChIJ4RSZuNqdqTMRKaGv-Aim1RI",
+        placePhotos: [
+            { photoReference: "AWCwydhbHm6K-OJACGjUD18BvFdIQct1cKER7aWOBaALpsNpP5lmim1e45brrBNt0BjwBGR7EYr0LJD1676Zw5roaPVfwsUEsj6ZHfxC6SqAqNLO3c3IzUeMqXZrR-f-f7j8l6DCtAFjkG6e0ORxgUZlnzOLWiu0g0NqTaKe4ZysHQVgIRH-ts39nApF_K1UN3Sdg_L3-JbS2hDYnKq7gJ_7AlyH8OCvYfjYv9LWpeSEo0-ptTUnpg7logZs1XKCa2Lx9cmOqtU-4kZxM26tTo2-xINl0Kr1uvzffcSEmvC_QL3-o-37zImnJuA5bUpwQwMbO3ItMhHEfRPjpqeow4AZv8PJaCwuLiToD0irE3SQqrFKuDcQvoGnLZPI5d3A07B8SYMyM01zuikyqWygZkx3Lg34Rd7wFqplaX1u0Bv_Q6DCAw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104234665847860721964\">JN. Vianney Dagandan</a>"] },
+            { photoReference: "AWCwyditIl9Bd66JGqCzfrNiyaYpzHvbZH2pFaAVQHTk53gc6V-RSWzkLhGwuAWHn_7HMx6BPJFJLdxDN3L05mw8AW3x-2eOiDjuGRVsJ5MbqTjm-crIT-fruM6rh1WnxxNL-18IbnDd4RVUkVBsJFJr3DqHpr1rGl9u4XPWgdjXRNo_TnURI5iUqJ75BSrGmm32Gz0A4mrPjQwHA2cqj-AMh50CwyP3ThEe7YKGfH_BMPHNc3WL7el3jG1fYIUzD1flkyo24Nat353k8qY7EyJW9C1HqOU1KCd5B6zmRw9HE5DuoBIu-ql5nLuVSxp59CQJzEDyc1IH320ay9osarW-AKYzTv_J1brh1sodPaukirtCVleMNDcF189_uLzzDoMGvPFTErbpBafO2kn4CKa_E4uZNii5M_OB8sJV9rQHG_DoGAXM", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105290177832690172613\">Aleks Wataridori</a>"] },
+            { photoReference: "AWCwydgwMG-SnkTS9Pya_D5uoqz_NnECGHBLNOxg-4xxAAdyzcMxRk7XZeLplriPOMXONpThNr4IZX4ngCjvsLrVQuo9X9hRa4BAZZadjPqzA666i5H09ahpZUSbtkJXg5ZPaBK9TfGamPaUZkx0oNu1nvYawPbX5k2v7B2zy5ATTWkJ2XB683bv_O1mElYbNPOyITTiauO1ZYGKguSOZh8dlhCwVcAP_18JJ19jGiPqmWWc0ctwSkABRIG_qd_W30cGtVsX8i8WZ6y-_KW2jHWor1zQDxAVR7hUmeMJ62vdbaK6NryHI8vaPNQNxSRCTQFrOJvJb7woX9EztMJx-mjjY91Vll3Dqoq1Tpnsbsw7KE6vxiLX39PFiJq2SMJeyW_cwSqHQgZDYDDx30dBJaEZJWBDEjhTRR3iELsNMC6f0zRuwJc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113043435666168677144\">Nacho Hostel Cebu</a>"] },
+            { photoReference: "AWCwydhUFZXICQYfpXoiIzUzJps9QjNpf5DH1fvchKl5MoupWlXCKSCv_O-7B7inuLEsyrEdtdmdGA_kGO7S1HZO06TitcNyWqZF-atn6eCHF3l_1Dd0VjzeDft3FUC-nTBSpbHKfFM-kXxOY5yVhw03x9u8UGUH4EQK3aoyRCioxfDaSnLZ45WuwEW-h6wScDUmx3tCCn4BRLiVQDKw8ugyBGpuSKQB5aHQV5JUM21YVeLGBIL2iWLd1uE4QCYkMy2bv1Ub-7hN57Qm3po-63p8-1VRikokk7H61SdbzJRqoyEj4wQ6fs4iftE6kBr9Mk4qCeLtH6H793MOkTBT__M5-EhEcYaPLwUdA-bJR2uEP3wxpaPp7x0labdx9fquTCthGGMd67p3I6YnVq6qqCOphojiK3y2n6zRntjSzla5k-sCv4ko", width: 1280, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113043435666168677144\">Nacho Hostel Cebu</a>"] },
+            { photoReference: "AWCwydgp4PfG5semMiFUIUi_c9AJ4EAmo1bzuYmBy7ZKN3weoBlbZ5o2UMVDCI_rtGCFEcMsrzrGDyh-EqienG0pZqnARyAQQo-viQLHKlIzZpmjFKaeSjVKjy5ulok-hJvRVLb1xgCLyd_0uuiu8MvE6t9_CRxaYdvj3bs_-H8-X5jcelWzi6rIWF8iZUaI2AqgKbZM00uRGkQKgRLU6urHmUCc6bH7PqVMSm5wweSzF2RCfJhkEgS0MT-h0uLLnJXzIvOFAv3w4lwqONr4JVismODJZYqhj4lzZp3jEXLp2yl8_Y5e2wJD_bUU-sHyDlffJKXxUGqvyAI7XcjO245QBtcNWn8ydYi5LEEfsIZPKN1gfUm63ytOtWHh8I4XvcLrhXbxgjR_mrF6qqvccGMKwvDUwKHLkoein39TLH-IT240IWU", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102291596555909839396\">Cham Grumo</a>"] }
+        ],
+        summary: "수영장과 게임 시설을 갖춘 활기차고 경제적인 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["수영장 및 농구장 보유", "넷플릭스 및 당구 시설", "다양한 국적의 여행객과 교류 가능"],
+        tips: ["다양한 레저 시설을 활용해 보세요", "장기 투숙 시에도 지루할 틈이 없습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Sandy Drive, Talisay, Cebu, 필리핀" }],
+        location: { landmark: "Sandy Drive, Talisay, Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1357173420184281385", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%82%98%EC%B4%88+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "발라이 발라이 캡슐 호텔 세부": {
+        photos: [],
+        placeId: "ChIJrb9VxpibqTMREtoNmHe936I",
+        placePhotos: [
+            { photoReference: "AWCwydgDpHmpojJid1fvbKmN0W1JAD1m4B5oCMR1qHK1p3ixB_oOxZqN2QqjarsSxhdsk7Jn9XwhHPuzrrw4LWtR7AXHlbEmcNJGeS7-pJ3xuDqV5ltE0waHm5Nak6Ft2BdAQt49AgYpdObbAyPUj0rLQ3GSca3AtnNDiHcUDHY-ED_MfvvaKh-s2aoc3kclAaH_J7KOxL4Ld5JqgESFHIO3lSABUoHuC3-6TCVWyqmAA2D7p-xJNJ-vRzjvtYm8FzPeH8MxV53zo6nu0ey-9vVOCHKcdDTyfMdHK-gc_6yCMDtOg-HowjCgMsOf8VxNPyxQn_L7ySUw545Rv2M8FWyVioHI5D_7e7F1U3wVQJI7SCikcYU6yLVvMHTdkSaCpvpqjTK54DcNmY9nVlvQM4ecL--cU5imLCLwjS8PD_QVxlKJjg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105096048379803002515\">Manicel Pesons</a>"] },
+            { photoReference: "AWCwydj7K4o9p9x-mi1R3Sg8PrthMp0ILyxag4edkm8-vIJc_umRzIefljIdP9c5JerdrLSBZvO0ncoTVQr2Dnu2HxXSzJKLheD7jfeEf4fpp2tI1xpLBqosvANH6eaQewrtlqAi70p__k3YhMLpMjtQ9gUGFE8swcMQiQqOrXt1bswcFZtRiiyt_AqKTnbpFaIUfTsipeY15tZqsMwBRe9iwTCFBOyaIgYs0QzL-9o97GSSLjshhuT6Qmhz5WE_gdu6v0PBkPYLokZfr80XPob2LKZSLwJqin-hNfBRrm1fxzqyWgUjvMD42H8xVm3FdqM67wOY5sUwIDEOSe3l5e37QMa0_UAEbOX9N-RXIJRtWL8VGaFg22gW5kmetzLqduYPFJff0OM-YYd1NdphLFC32fnPCTqaMg9eZmKy0C6IrawbwTHfT4qBI8nheLg7G9f-", width: 3832, height: 2874, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105383266394622684406\">Anna</a>"] },
+            { photoReference: "AWCwydgufjtvA6LzbX_ABZqhQoQyaG8jWqdOLzQpxHzCiMoaW9-uIfSKjoxHhFIrJwC_GKOOepxwimxjEB36h3AWE31NmqlIpqecWTcoV5FP4DfwdsxvhjJYb1eb4ysFBipJSq2pyDrXPkKpdihet6bqhXOyIUAjiSQFLDkGjMJ9LQXdVmUonhu0Rol1Y3DOtw93TzGMcM6HRlgLpXGqueCS77aoW4nOmnskas_Y8bcHVXcAC8XWoOTaI2Ey-PcqTJjqCHykyLD_QrM-SVYdVuF4sbH0gmcwKuEyXjWnQkPlUvHvZR8BYHHzMSsd0ABduIJxEtwijvwqKqH4nHeCVSR3za_5wQfnl9IaVmVjfg_kQcMibf-IUZh7zKN6QjG4ytYnGW3l6xEh2EPdpy-tTi8jQxlyFCVUazo1IRRT-AbtQ-r4jKI", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106782754339497514208\">Balai Balai Capsule Hotel Cebu</a>"] },
+            { photoReference: "AWCwydjPd-1A4Afg8QtUP2VW1grsiP0WsPyrdCh2bRfS4-RkTysKZcsVO1hO1wWQXG_FxEfWk-mxSKNTJata1MIRk8ih5Pq707bXV3npvfDstruydzP8rEFTUuxXXhxrz_cPpGN40VzFejBXJiDHj66nJUS8PKHh9TjJpcIzMjvH65FNnA82OsP4VXsHvLjwqjEq0SfhlRYc7wnAmrwVhNBfj78rUEpvY9P_H6Xvt-kMDy4wLyAgWJFs5WSOtWzxOlgnImIofzEQud6VjbK0fEG2pQiZ5yYvlRTEoVcQmUllrGX1pGxraBWt3ZwAnmD1A_seqhMN7uBbzRQXyFCo2I4iqP5gCejkwJHcmbrjSyzue9RJujnHwYk78PIAeJtjjQIfuv-Q_JvHUWa-6fpDNMaM7R2Ok2m1hkJvlTHUtHJGDUzHWksz", width: 1440, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106782754339497514208\">Balai Balai Capsule Hotel Cebu</a>"] },
+            { photoReference: "AWCwydglA3unRerjbznkwiFzFuudOMs_K-hrsiDqBjALp2Yi2rOZ51ZdY65jmMcDYUlezJ1_WWY9EomsJUTe6R4E8yJmMJ60oi6yPbmRKt2GwOC-daWGE_co7NzTFV7TlYvSjILnawzfkGol68GDuNmyf6ca-gjPw74eycyBiqckLbykWJl2HTOv57biNGHkg9_IGOztB8b7Ukc0AENAg-WW_HWgY5ViJslagcpJJPs837qMEpVitjfPhDMnEYswM9rZ81Jro-unhiWv8c6plWJivmJpgU02oN6grFeC2eu1KTSoC5A5ayKAKtdqOlC1qIegt4hz2u427JW9s5_GbQW-CG2Yte7ys8UD_RknuBl2hZ_8sjsV9qz7iNYL1DgREd1dQKjmJvPAZAPka7XXofN1BnHxZMy9CgPkbfgqkP3Y1bq_dEeSl_mKItG2LXo7052u", width: 900, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106782754339497514208\">Balai Balai Capsule Hotel Cebu</a>"] }
+        ],
+        summary: "합리적인 가격대의 캡슐형 숙소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["캡슐형 숙소", "세부 시티 위치"],
+        tips: ["체크인 시간 및 추가 요금 규정을 미리 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "V Guillas, 02 Manalili St, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "V Guillas, 02 Manalili St, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/profile.php?id=61566527623824", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11736307475300604434", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%9C%EB%9D%BC%EC%9D%B4+%EB%B0%9C%EB%9D%BC%EC%9D%B4+%EC%BA%A1%EC%8A%90+%ED%98%B8%ED%85%94+%EC%84%B8%EB%B6%80+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호스텔 허니콤": {
+        photos: [],
+        placeId: "ChIJs8MwXwCfqTMRsdus5B2XWrk",
+        placePhotos: [
+            { photoReference: "AWCwydhtwoEXD7nc9ASrGpbvTP8GKNFADmY3YsG5P8nyxsfeV26aVctmJIxLTrjM_fKR0D6Rbhe4KLSQbZ74aY2vf-pGgIM_8cnPF-ZgK3XYwIML7AzWfrEy9TdgmAy7jrKJUQMlQuZ9H7R7fSITHKnoa8s5f7yD07tpW4u4zZ_JkKj84gCo-H2TRfK5GjdWCvxqusJQgmAFpAVol_tBVOiyiIYRso15EEsPhWuURZapyIRPkcOo5uHW47JpcxOtdBvEeClHLjk9iJmLzH_vrwsX_L8tRR6FJEpaPas7MGQkWBgAgrtlGHH8LUCj_teAR2Xan821KrT-esJHFq0uH4vk8qyraonG9XnUcir3VDnDg295lk5JZ8ae_1LL2FoV5RKGUzq6bxhMcXwnBpmsZwb0Ac8RIFq9bl7NACbSr3X-TrzU5icXx8u052YM4QFIBQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113859784905664336365\">Junix Arcega-Salinas</a>"] },
+            { photoReference: "AWCwydg-YHHRA246pnzjRwOmmSfsYUJE1Gg_xuhqJE_urZLtLWWbR6r56qoedAxOthBzKKvy0EY5Zfx36NkKKh-GNkwiy0TsK6Af32e1RzrraWjlmxNOHWzKM_b2g0RSZaiZws4GMgXDkWlmip1HNyoT9YKWzYOwDxkvPYTmkSoqWt4nD8Tcu6hwYdR3rep2g2P8Pyt61yd4h3pkapb7-_tgpyMfwI6ez2kyNH1NCPMKr3-U5CzeMlNGqN9DWGNfOUgcNyPaCT8hJzSV9gBXWFFIZo59AiLWc6VNHXFJpS7-uMWjMVp0lq0C3K2goLAVfvpwzfNWgQ4fGfUhZfVSR_oZFiTFm1DKN7L2be_cbzG9r4hvj5zqT1FoQ-JjFuNJ69hVh5qNqAvSthoY87bU7hkYPiV3ntERO-PyMvq3ijQtux4pLgMh", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117917921697418169173\">A.E.Tolentino</a>"] },
+            { photoReference: "AWCwyditSTRdiasvbnS2Ne513Q_vw02lEReumY17cahfURDuyh2ukPrKuR3e77IjzkTDbKa_yqXO4qD0SfFBjko92g8UyMgxTJ41KYqYItZVJhdMQrbS7Dr8CRSNG3XCuokquraiBs7YCLGHQZsjmSwlK5NpWCmIiv1xaElQwe_DA3O6l90JZLbICLOmQC5b1JVoaueKEqPUK-iYSyXmqZ3K7iwvjYMWM5SL_Wcow79vAXRgGYTPocc33PW4XUuzRA2UUxmK_6vhiijU5wUQcRMrX9XPk4xVTYtPaB7R8P-gLtWk_dNk4qx-AYl_ovRFgukXdnvYIyC4zob1IQQozhJmz2rMCOsbomW90QsqBtFd-D-NwpYCbYFZPvgDrM8IELnpF3IV73foGCivtUAY1k-V8wzCU0vs04ushp8ab9Liofxcay3MJoR8Mo0CfoITbi2k", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110308793116163278426\">Haven Arriesgado</a>"] },
+            { photoReference: "AWCwydhKWx4JwaOPOuHbzVt1nSSc3Pv-89vzwO1yN7DJiquqQ_BFTlGmJnFiPi5qMMULZkhR-KbFWvHAW3cA92ewm9jGUTddWw_C_B0nd5Cdw9w46mukcbHbZWPgPc3Ex7Zh_dgTo4lbmNJa1vQ0FEPYw6iDz_SUgT6WhKhhcoVAX9XYeQ7Cvd6GJj_WHqBVHWovZSieQ5DtlRr-EVcrkvBu1k8bFudaKUJsxMmmsd6xAydYeTl1-Hyu2jjK1gtM3pndjQr3Rms9QhHXQpMpXBwIvcte8bUZV_fN1CsMVJBE_TIQne2zvO3tyTe6GT8hJadak0TOxrlMHWASMfy8ZLb7a9fRkaTdmukVLDmr5pv-yHLy0N_jsuAtT9YLcm_3l1aQoVtWACvMZf05oUhh9cM25bEsZx9KHccxMeBy76SSfUWyo7-tqK69fI-z-4B4Z1Dl", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101702444741024346910\">Gabriel Angelo Alcala</a>"] },
+            { photoReference: "AWCwydgZL77nRGgUVkD-Gob6fWQs--lZtE1iGwR9vm150hoQg76zX8xJe5LW-o-8yOx-NtqBWtb4wYh_TJMhMAy3AbizsSGT8K89tH2HlMvxG4f17gV7g4UonmJ0ouHHbsg017N-hScW1-jPbCFHIbsIJRKDkssB0RD0l0h2f50zTeP-ros_lX7Jx57diLehExB0i3fKber-YGV7qXa1vWYqAmhLTCOKR5ZP7Sdo8BX9JJ1MnyULvqqeqfWdTS-stXSiUrUsJaZEyT7AKLgc8pVvwsgShxSC98MoaNpEC2OViQyNGLFt51Q3vDjhW0wZ50xD2i7f8Sxs9i5HZuWYsPzzATyvQ3ZcGdgL4U58llLVUUoSPDVSo4q2JXxXgxFRWa3iKSyod0QpuXFNnMxEAuRWgFt56JR2R6at_lcMNxwS837vZ8xGtnwAlUc7sD9Ir4nF", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115226332255396403595\">Darin Monleon</a>"] }
+        ],
+        summary: "편리한 위치와 멋진 수영장 전망을 제공하는 친절한 호스텔",
+        updatedAt: "2026-08-13",
+        highlights: ["탑스 전망대 인근의 편리한 위치", "수영장에서 바라보는 환상적인 경치", "친절한 직원과 간편한 체크인", "조용하고 한적한 분위기"],
+        tips: ["조용한 휴식을 원하는 여행객에게 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "9VCC+68X, Cebu Tops Rd, Cebu City, 6000 Cebu, 필리핀" }],
+        location: { landmark: "9VCC+68X, Cebu Tops Rd, Cebu City, 6000 Cebu, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/hostelhoneycomb", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13356153799567006641", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%8A%A4%ED%85%94+%ED%97%88%EB%8B%88%EC%BD%A4+%EC%84%B8%EB%B6%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

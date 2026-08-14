@@ -152,6 +152,66 @@ const shopping: ShoppingData[] = [
         features: ["로컬 기념품, 간식", "평점 5", "달랏 여행 동선에 넣기 좋음"],
         icon: "🎁"
     },
+    {
+        name: "유스 마켓 달랏",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Da Lat",
+        coordinates: { lat: 11.9523209, lng: 108.4393267 },
+        category: "면 요리 및 닭고기 요리",
+        specialItems: "면 요리 및 닭고기 요리",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        taxRefund: false,
+        features: ["다양한 면 요리", "닭고기 요리", "한국 편의 제품"],
+        icon: "🥫"
+    },
+    {
+        name: "K-마켓 달랏",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Da Lat",
+        coordinates: { lat: 11.9466512, lng: 108.4406854 },
+        category: "슈퍼마켓",
+        specialItems: "슈퍼마켓",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 6:00 ~ 오전 12:00; 화요일: 오전 6:00 ~ 오전 12:00",
+        taxRefund: false,
+        features: ["높은 평점", "달랏 인기 장소"],
+        icon: "🥫"
+    },
+    {
+        name: "슈퍼마켓 달랏",
+        showInInbox: true,
+        hasInfo: true,
+        type: "supermarket",
+        city: "Da Lat",
+        coordinates: { lat: 11.9760335, lng: 108.4454012 },
+        category: "슈퍼마켓",
+        specialItems: "슈퍼마켓",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 8:00 ~ 오후 5:30; 화요일: 오전 8:00 ~ 오후 5:30",
+        taxRefund: false,
+        features: ["높은 평점", "긍정적인 사용자 리뷰"],
+        icon: "🥫"
+    },
+    {
+        name: "스카이 골프 아울렛",
+        showInInbox: true,
+        hasInfo: true,
+        type: "outlet",
+        city: "Da Lat",
+        coordinates: { lat: 11.943595, lng: 108.4369351 },
+        category: "아울렛",
+        specialItems: "아울렛",
+        priceRange: "현지 가격 확인",
+        openingHours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        taxRefund: false,
+        features: ["높은 평점", "검색 결과 유일한 아울렛"],
+        icon: "🏷️"
+    }
 ];
 
 export default shopping;

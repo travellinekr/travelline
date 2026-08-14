@@ -605,7 +605,316 @@ const info: Record<string, TourSpaInfo> = {
             { label: "Google Maps", url: "https://www.google.com/maps/place/?q=place_id:ChIJD6_GOjUTcTERT0qgP1esodo", type: "guide", description: "지도에서 위치 보기" },
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EC%98%A4%EB%8B%A4%EC%9D%B4%20%EC%97%AC%EB%A6%84%EA%B6%81%EC%A0%84%20%EB%8B%AC%EB%9E%8F%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
-    }
+    },
+    "하이랜드 어드벤처 트래블 달랏 캐녀닝 투어": {
+        photos: [],
+        placeId: "ChIJkd0BOskTcTERP5_WHUmafc4",
+        placePhotos: [
+            { photoReference: "AWCwydgL6YT1Tzsqwn37QlntpuXKN5hcuw4pxJsdB5kphqFYrg65KL_VL4XVAiDbYMBOTO7l4JmGD_FG3WS4JzKbxU74UDMmmBjpa59bNCWCZrK9bi4rptyVS1I7H_YoGuffK6550le0URADj5N9bqdV34KPpGusGR4AdESoH3PufsF-teSqBe3Fc3HG517HYADt1ncxbTGWeQ7zqIIXEd2aYZscA3Sag48KDoLzlKSoUW4reV-culSk2FZly7DmLFgT0zU2MoTY1tXK5ecw8L_tG7CAQ7_QxyXhWcneSGUAclmJCdrf7msb4J6fJu5iVgoBbAAufxPsL7EPXyy8BjotFPFhAZEUtgJPani9QZP402aEvvqh94Pga_raMjY18W8-wk-lKG7nev2U_rJ_2RJmQU5tUiLitcmMKsO7yojvs4NbDrMs", width: 3060, height: 1722, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109153719267495716136\">Highland Adventure Travel Da Lat Canyoning Tour - Da Lat Sightseeing Countryside Tour</a>"] },
+            { photoReference: "AWCwydjU1SDw2ophZiQfNNiawLGkX5ghykYtNnWfDcQoxRVfgCgkNjVaVcAALOYxD-vmAqHL7c3_Rif73QyT350v9BOIyBZIc0Zo3PmDZjWGDim57HmuzlvQlOJzvrBXFzkll4Bj8b2zEItyDN-wMn55cOmsS-gFbstI_zC84E-U0abJDG8nGgcs1FYJLXbLn-Q3yTLZhUrwkdlc-XkpD48kcLL4znkf5VLiCjTtLWpIddBY1tWuHh1U1W-BOien5EkK96ycRbQwgqpcmntdene_xkH0V8VrUn-Qpi8haTx59scKIsUc72MKeLZKOf98iaiDSflPT7jwZHWi66MrZQZTqrfkMqmKNBm2xRSZoOXQXsBHa4F1_ixOVpZw0BNtA2j6VzQhSioQBblkZg0kznI_3ieDucs2fgL4Oy7Qv0hgI1tXWh0m6usQPqlI2oeKaQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105488593268326931780\">Lagan Gupta</a>"] },
+            { photoReference: "AWCwydigO1KGy_XxYeZW5ACI8cKF2iDIcGF-M5ZbPg027D6IYsLyZS7hXiKClYwKAkkajaqqR563-onSzc2xJCtDAGN0rmoplEOO3DcbPmSAr-1ZfduYbAnzzQ5hcsPmPHvPckj_NvKnyjUERqMQb910vB2IFhxsRaRgS-JJTGIBJstYappOTJWCVCgIWndqSV4w7BAqOOJIjK6G654adWdxCWS_4IL3K7dEP1ilkPV1INE8YQdShM6pbV55pwuvC7gIYy3AFP91o30H8IIpetGG1wUs4UzSzp6ebOdf2A6XIwcyxpJCWRM6Xim3w-z-JbirbmFl6kc1gbn3b0qkC-pRG9XVhYCFiOYByil6sr9TnsZDEH-PKFTDR3G67ZpbEH00avpDT3i7BeHtlfD2uvcCvpNj-NlLnQpPkc1ZtzNEBGJlVVQH41FrAZ0-1vee4Il-", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105488593268326931780\">Lagan Gupta</a>"] },
+            { photoReference: "AWCwydi9RUj_jXgsedPxYgXoO5iQl8xItUyR7p6UVBZa2gsBq-8yFzYwp0AO0jbJNaHABcY128GPDAcefr69sg_X6LKblfbFqkrArkjQZszEKfPPVuPeQ_uSkPQMRVGhg7fk-O1Lqe_GHhJCoWOLcykNzeg4Cs3W4zke9VgLyckeoWljpfSlmzKF9TQGUZa0SacoVyCdXFgloPlbE_QWUrSti-HYSBxpo4gTUX8M4lS8hVNz8SXIaT3G8st1u7X9GG43nYB5hDGM3lvj9jdE--tpwZhDPbshcBG18u7Rp0TwNYRK6XLEKRLDuf215t9cvX0n5zlpE8_qhhBHGJJ9Dwio59X3jzQXXI0E7Sqju_1jZDBeFz-O6EgoEX5avEKsSX2aqxNbQyl8O-1DYp30biPlcZGhAAZFgfWlnoJhFGTV_7YbRrZgPhTyvDMWLbNeXw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111099459555677212850\">J Ping</a>"] },
+            { photoReference: "AWCwydhdPlZmzPKPiP43l3PagJlyxawVsDza6YVzs37clDYZO8H_xlKuHuCjGehTtsH1StRzPr-J60qW6IlV3MU4HB77DbK1G5YvWpGYCBiF-f8_ZiH7WNEh7NyVvk7EvK3uOoXX4M_4DyuOtacIGMr6aY5OKq_OI5QboCJaioqb0BcD80v_F4Tr66T3VK4cXEpw8cezV92gK0jXWfAr2ALAmh8VP11RsPH1WRYYjC9TcuKxYlA477lpKZUI9wkTe2rVSbnMsFFb81YThVaElgbPtQeh-sHaKrwkXP7f9cURGikVeBJHvAowSYwVv3etl3o3NZLjq4ZkoIA_oYtiStvOleM2o4W2aY-ePX7cyVOJUzzjJShlmRNdomhOM1cyH0Yie4XvqXiQY5zVBvu9RnO0Ef_Fv8zAIFbQcVF6AN92tumz9WZsYtQw6bLAhjeZuS6o", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113765753708812626217\">김재민</a>"] }
+        ],
+        summary: "훌륭한 가이드와 함께 즐기는 특별한 캐녀닝 투어",
+        updatedAt: "2026-08-13",
+        highlights: ["짜릿한 캐녀닝 경험", "전문적인 가이드 서비스"],
+        tips: ["가이드의 안내를 잘 따라주세요"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "B15 Đường Nguyễn Trung Trực, Xuân Hương - Đà Lạt, Lâm Đồng 66000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://highlandadventuretravel.com/tour/dalat-canyoning-15.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14879218382725881663", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%8A%B8%EB%9E%98%EB%B8%94+%EB%8B%AC%EB%9E%8F+%EC%BA%90%EB%85%80%EB%8B%9D+%ED%88%AC%EC%96%B4+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하이랜드 스포츠 트래블 - 어드벤처 투어 달랏": {
+        photos: [],
+        placeId: "ChIJ61j0gC4TcTERahPdwdGQccw",
+        placePhotos: [
+            { photoReference: "AWCwydhiUoCwB2jGWzMHSB-hrCNoTZknE_An6StfTyII-q97darSvMD-h6lA1tawKzIYM3ZuzeVFfJ1-6IAEgwzjibNH4_l9bdo6A5tE8KRT7xs-u7lzoanrMXcpqMhBJLoQByFvHPbptwPOYuhYLZNN41nlv9bpkEUeDG47LZZy1sPF3srmGMptYC8Wg8PM2Ir5IaPIbGewNJnxfdVgftdXsd7EPxMkx57C02LLwsAlyUvFpTy0xtPDuaqT8JqWDcNqmQj5IaiNmSRiO0zi2kuSkFX0KR3cfFLpJVNTpBJBrvuzPhL-9-WRp62lU0VA4tkr0v1a7y0RXXvzgTjxs2Oia7s8kXNWTIclcVcwZdjXCxqXL24jTeZdDrTZ9DfAdl9FpwvTUjRjNsHvHYnjRhr7TzYZPV3PFPu9QvkZQJNGwmiD8A", width: 1118, height: 750, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108371903593261635843\">Highland Sport Travel - Adventure Tours Dalat, Viet Nam</a>"] },
+            { photoReference: "AWCwydh1qBSpdEEMfe57nLzzolCrDS2I7_fq7-msE1HDE_bzkVcpfDQTHD7P4MzMXUyPWzHkTgJ_L3Mn9Bl39c7NIJnPTudFtiiV5u1fQY-tl9w4l8Ta9l366fumvh0N63paPDG-L8LZiTG-QgMYAAktlhzq7hYb3P0I642x8VCRrYOLde5N2JmIwruArj3v5SWPXf0gayeOsAIlHMnUEN-2t3LYuJDDLBcwaiy8kiV3MqChUlD1wBCMm1J1eLhNgJrAEC5puh1s0JrW_w4rVXyI1wkKwssmBk1qoDcrlifbr9qFBbxBrCzdD8FjCZUBtyTNXGhNSkmgS3fU9uDGSF6RI-W1Sl1dULs1ev7-ofAY-IOuPRm1LdUKcb5AnubXaErYxBx0HXZgmUBX1HdVyhdx6qZuDV7VeEF3AUAzf_TEPum5V-mMlrw8EB5AnUCqEOE-", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101415621002666549744\">Dao Phan</a>"] },
+            { photoReference: "AWCwydjNm5lZB68_YC5XB7OpfblrgvkaD7pglW-84m0UTohdxUPwrO7reGHnu7ATSfNzSJxt3qxyURvWwWz0N-oQAdb3fpdUREgURVCP4B5YIgzYbX5x2ljDJJI590p7rwY1x5J1mF8Hj4iT_yq3GH2HiuZ932ueHJhZVupVT1-k50USehr9zlkH8A8JzHnAAo2782q68kv_neIVWvYBs6yoVIy0jGvdeKhHq7Y883L6jRgYhKWI2o4Qo5u2QfOI12VNspDMTWZSlSqzD_IGrMeVRdzjhacnuic8pWwZYJDCZkqSJBEMCxMgU-UptB4lkWmpoNHkArxV6P7Y14abi7u27DdjOATsWiTNCLaefedSYBMAjk9sF8dj-xmyiTYVn7HRHXBUvBG4w6hYmpYJWybpj-GTeg9J-9QP_9c24qzEkBaUdDDet1i_t8BNP0cmNw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102747522379812671743\">Mỹ Ngôn Nguyễn</a>"] },
+            { photoReference: "AWCwydiWbHBLrnevDEO_jSK62RB6U8teDCrpxBk1sHCUg14d6c1k8KZgXjDRJhaNIDtnV_BPyf4t35cx0OLMcGzGQydg6pQMmqklgj1cl6h_wUk_FYnzeyoLkS2146TyH113irZMTZllxx9mKQxlxVZCwYtwl-L0_HUBL0SeK4hDOV1-js4geFo-wTBrg8kiGzVU5csUhKjXuXll00m1OMpz9U4l-dQFy5Nkkf3rK29bZhSwglJGCQRSQ8pScdXh18B7vSQFXTEXJTYARXRhi_4_953HYHVvP3Sgcc2zI0zDRfqtLdoz9bC6aVODXAEzKELFYs2hlNUXhIOUGEkSnPBbcPIN7dp6opELuB_il7djKkWf6H-rBeEeT-eLHt21ne8ZOrlpLmMhDOzWzyK8UJN_Evr1ym_39SogeFPq1XY5gVIhJwV4nvH3eqnxRciadGnR", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110285494892411706199\">Phuong Trinh Tran</a>"] },
+            { photoReference: "AWCwydj93RaoctVAgz_oafwUNCyjS9gFOpBE8EsF1Fo8Y7JjKPDPd7116heL8G-5qQrRcgsKd_3-AFAxRwxwG4lGZs8aBmI12DyhCG9xYOCF8HGZ7DqxqipSvBTpwyjPJd4njbdLUE5bHRJo7TD-u4Q56p5XNJmZ6qKqZxWVHa38UrTXpek9o-QGiRoBtt0v3Gy5P0CO1SXpvqVvpUOTWXTIOxy3KhkWoa3Sie2C6Ga68sujOHYVBOFs_dvJKyortf-KPu8coGze8GjgtmBoiIBmlWyHS_DV1O5KGJZuuuPzbFumuXK5NZa2CkA3w6EbWlWXKnvbyYHXvRN71P4axcQKqctSibcjrSTeXA7P_wrQ1_xfp6z_dZL_onIWY-QeNPY8SZhRvlhlTU9Gsp_n89s2wUEFUU8S8JhUidQ3KtvjTgiFzJk9fTZ3lQy_E11AIC7S", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106788120693565444627\">Sai Shwe Toe</a>"] }
+        ],
+        summary: "최고의 가이드 서비스와 철저한 안전 절차를 갖춘 어드벤처 투어입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["전문 가이드의 세심한 안내", "철저한 안전 관리 시스템", "스릴 넘치는 경험"],
+        tips: ["겁이 많은 분들에게는 다소 도전적일 수 있습니다", "가이드의 안내를 잘 따르는 것이 중요합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "W8, KQH Đường Phù Đổng Thiên Vương, Lâm Viên - Đà Lạt, Lâm Đồng 67000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://highlandsporttravel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14731715086680658794", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C+%EC%8A%A4%ED%8F%AC%EC%B8%A0+%ED%8A%B8%EB%9E%98%EB%B8%94+-+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%88%AC%EC%96%B4+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "달랏 오픈 투어": {
+        photos: [],
+        placeId: "ChIJocXDNCwTcTER-FPe71C8IYA",
+        placePhotos: [
+            { photoReference: "AWCwydjTZLffajrg3Xw8XYOp3e7OCSd6BDu9hlCUtuU2UaYE6LjWmZeY1LNEdPt2osBhKN13EoFGXhuohLQ9F1plDqzKHgcFAwQu38FphzD8B9Hx5NC148r1lp9K809S1d8mkr2MkpR_AtFLUq3ywWDvPIxN-fSTm-P9X2ES-V37huN05gOwsESHt7L7wqS0nQNP8lWAspjevo27yAfSTH6dXqCvEQyWCwSV4ealPfeC4Vs44w4tJ9eUTt0vYOowbeCWaRRaUrWetSR9wv49kiGuh0V1iw38RgLjdXkEUyU-xEcOGil1j3mTLOOaPCBPqS1GY2nDfPA5FRzXz_B32ytFaSmcV6YpfL68h2fV1Yz5htTBoSQz3ee0N-QlSWo80T2uU6KGuEM42yDZZew4T68wN5MNm2iviLF2Hz0hHtanaTgDMX4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113991515562431020261\">Chai Wei</a>"] },
+            { photoReference: "AWCwydi4VZtS2pU7UIF_gkP1kEKHihWhuRK2M8hRL6tkN-oxi8XjkwaNAaaOhlf8WXsg_0TUkXnom8zUWdJDvD17OfJtOWwUJ-XUbNwLQE7ItAAfR4U92nz5L0wKEPiye9gxB0ozX3ENjRODLs42D7uq7irhTVhIOjx6zUT09mzTXOI4qQpkX3LbjZZBrDY7HKpTGMigbIcWN6QoytVto3lmzpX4CZ07_gXN_usoQ4II5CK5EhfwxnhRM9j-HhAFohcpTSEkJBejOCXtk8GZJWlw89-VK12MCHhneKpBfk1aK3YH7jeGOaSX_SF1ajqTu3TDdZgZGF629EfU5x-EGYxQb-OOMk8ffG0jyzmtY3vAKyrp-v5iKgx_ntkXI2QqMyAQp_tbijMWCyyNXzji2JSCW1TCqSaf9nKLt5qzSbpQjJkLBdZ7Sdpj3ZAbKKajhQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103112243639084440688\">Maria Bulilan</a>"] },
+            { photoReference: "AWCwydgcEdUKyfOTY_oh9vM3s5pQpzqXBsFgBIrnCeocoJDAVUxbPgDGxc8yfPG04x7oRFhV6U40HD1thHpQQvPBO1R1zgYIqU_lwlICRFtlYjCpIXFGXoRLjsXUiyfkhn35VpA_ZwVLKFHx-894m4APj8WyQVLVPuOA2axQ3XTQqObw7oVr3EfpfO6EU8Q7ngMkg1two776aRZlB4PJM8XQetggPxTbn7EYdUGIFEoJwhqcmjd3Fb9gegWj8ohRPwyU8YFZ6E39oz4amiy6VDvadbsiRg_b_daGCa5jfJHQoBRAW7qU_ptEzUWVfNZZebiUO5LpUSQ9yaBfb6xPuDmBFy-_AW1yeZRSxgJBO43Ej4uQNv8bMW0dwL8T-N5CerxBHcbCtmhllHp9pmS_4mj4OvM-ClXVz6pdgM6syzofXje0LA", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115255558556099577678\">Phu Duong Minh</a>"] },
+            { photoReference: "AWCwydh5k3IMCIxYpLBvOQ3d2_5eQDpG0cz6P5_VH---sfM6PMTi_xWSa9YjFQVnQfTwAfD2aXGrPe7n67fEUJHNFCs-0dKTV5QcAX165yvzahipE07DliY7JWHPeNTXbKCV5qW9nlD7pUrMmmMlPPnJoF6SUWjgATNkTjcTPipRRqUgnNIKz7DBtSEF1oPl_BDvLkxF1pgpFRHrlcTSfcro4JOnOYfWhRxnU2IoUXd48wF0cpLQVtFvtYRuPwT_Y_8cLslawwtqglMYV0IzlUG0WAi0BfL6qUWrvSBihy3lkfbgjn-3z4bGwFzrgGFnT-pJNl_M-OOB6NmKwjjqRyLe0z0m_QLx31cm641M2ZvbhAQqvVoMYWeEBo9HXgKiRz3oSgudj76gHrempwnEAfOT25Da8YR7i3YBW7MBnprzQUP93A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100828460697376825825\">Jacob Chacko</a>"] },
+            { photoReference: "AWCwydgP8FCHHIhEEB-77KlpQKF-Yt-0y1f5gWY8NPqUlyuYYSQ-3GfgCYElfIFdyNojG6zoW0nzQu043vLdOFIAk2A1Pe_Lm5dd1l3-Kt8V9_llpv_Ja4Swl5x_BWntGV8T2etS5aT8Zf1-or8_K3XvGcqtdrSDe34iTJhKEfeJUgk5R7-7b1yh--3awc6Ln5OxsXCaMJyHUIoYQxxxZxwrsieqCKGIemVoTLY37k-5T-ulyJXPy7XYoaiNPsCdwzl0-0HOflPEX-UPvwaNPUELrhbQZm6cztoM62dfGqaHcbmLSZEODei1cQ5FAGjsXjAdxskO-I1ntRxn786ItkBAfnC5OjQNiRpx5rshOBYenbE3WCXPYj_HijXz9hv8m6SH8V_Cv4XCNBOi0FEg8ziSfr48tWWeE1iT2yMQE1vZGsnOjanE", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110383519941963796067\">ming fu Yang</a>"] }
+        ],
+        summary: "폭포와 짚라인 등 다채로운 액티비티를 즐길 수 있는 달랏 캐녀닝 투어입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["폭포와 슬라이드 및 짚라인 코스", "현지 맛집 반미와 과일 점심 식사"],
+        tips: ["온라인 예약이 가능하며 정시 픽업 서비스를 제공합니다", "가이드와 소통을 위해 영어가 가능한 인원이 포함되면 좋습니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "27/5 Đường Thiện Ý, Xuân Hương - Đà Lạt, Lâm Đồng 67000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://dalatopentours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9232867766893958136", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F+%EC%98%A4%ED%94%88+%ED%88%AC%EC%96%B4+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "딜라이트 파크 달랏": {
+        photos: [],
+        placeId: "ChIJg8vJa9UTcTER5OVTIDW4c8c",
+        placePhotos: [
+            { photoReference: "AWCwydjYutN2pbdOnMZIVS3PgbW96CN8WyqUBbXE0bpJs56AJSVoQQ9hGGX9NZNDbgehbZKoNr5x6Czk3_hmxlvzeGfaO2onLp_NsdPXuY7E1TEWMF-l-oNAuCrt9ckwDgUSqm9FGQR3Qi7-_995OZx51DeV6r5cVn6xPZet85deokP7NKRV9KFzkASHAo0HtARvfO9P6T0PaITlmcl4_4E4qSR5WvifkWaHvpbTguCAKZ0dauU-IS79nanXo3zNzUV2aW6_Zxao4Q76FI1vw6fdoqrRYtmW7cLmu3X6Gupyt6yjvd0YFjAZvxmmRl2i1YfAwJFCnyhAKnd5CHHRdZa-qoZNTBiEPtw89zqa4l4RWnuWzTGp0e1-DKVM9syt_bRZrjRY7bj4F8H5d73xcyXPwpG7k-t7QiUgAq6LId74FSSWfcUlhHXe0Ka2e-k4DYw4", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117990575373639224460\">Hang Le</a>"] },
+            { photoReference: "AWCwydgxCk4Wc1yJoRuwthMFpkEeaRwzKUe2rsdBhd0pq6_LtMOrrIV7hG-PzUk1Z3sMySpwC1TeZZVgAhJh6itsyGT3Qj9jXLKMffpC9_FTp1wjKXXuOz8FG-WPUuv2Ur7jwH3ppHLeT6VMDTpGRU-rnpqDMeezfIwA5nz9Fk68enDj_IbCImraEPr0njrklLFUnqAC4LmykdLCDySC6BHVfGWpLS3XZWwodCbxryi-WM9KtqIoKsom1nMO6FKG0rWhsKhlvMwNEY6qsIx1LeFHGi4oxGOqBDl6L0lTzt_uN1qkvsYuf7fJRiiVXiQdPXUCSki-Wio6wczuibhHKYbCYOqlWORuBdbgSJKZLmS0R-2tCbP85PY3THVHarPULnS4Rv1cpGftD9QHjKiKN5_Pv32AuGUiGhhSTxI8vZai2LCMZ1I8NEFdA5rzhdYMqNtg", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114298680008702243276\">Winewalk le</a>"] },
+            { photoReference: "AWCwydiY2SiDgoJO7DJSwa-BcgZbW3yOSarGUiTn4aKxPI34QG4S1KKiTmJ0AZacczUBH0Fd-_7O94W9t8v8BYj9iXtCBthP7t5yfl08XVzKFJTQYkBhT8SEypl-boro64eVew8tKctcq7UBYQegbZ-0x8FRNQs-jjQfJ3Wh6mrPjN2d6jj7AjHr2iCXVf4zRagEwEqW1ic7nQBwEXnDSC8WcSwlRAtTtuEf9MgYRyCFhcZM-eomzS1RKJjRLJRWDhmH-5u_ud8i8HCXHBSFFwj9aWJlUuUphV7NKOgptbtR3yz_csl74tAU9_-umRA7S9Jxx_P3IyP7i1-RFWgQ74vPbY2zd6T1GEv-074LNx4ktU4Kcvwqt1AmDoYbLPap9l-j_Kt7iwoKzCVkP-9ObJPfBabh8eR-PYfrE9j1ybONbAskju72N3kq1w2zXv6dpyEY", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103506259292677751863\">Thích đủ thứ htv Nguyễn</a>"] },
+            { photoReference: "AWCwydg0TNZn8t578bnylHRJAteGN_dmOT3YJl_6msKmOGtc7zlT2S5vj73pLjgKTBEJwSAUGArQOWkeGYOK_wOXrzBD4IgzI0d4EPQuIN_pmXGqYu5H3_TyT9Pu7LC004UpkMZ21fhc4cX-71ptEBVV9qbnc1HwLTiL5CMi2IauQ66QTIlaLNLpidoccpQsCVHiaJMjIzP0VCjVtiroBbwGAv1_Zaq4B2rWf0IKzgHG_V85XVxHhPl4QX5JFy22QWMx-TR5pVU7zcYriWZuJu24_mYA3TqxsQEl62iiagGcF-FBl9LrEKER7zFJbWp-bePVUNvOHs9GTGuzEdRQ0Bwr7cgzwA6zP8yPSj_cI0qplpBoKOB_hyxiyu15277nHMB0KI9IQBwE0VRO0MMLtBCaiT3DLpP_aJzi0BMUIaHjHXnwYpKIjWOaR1x_XeF6Le0z", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103117166819344200515\">Lệ Phương</a>"] },
+            { photoReference: "AWCwydj-Xl7uNWax21H_3wyzu9Dl7jTkDVxYCWPuCfboyinKW2Cd3oULQsbaCTmduteF65SPA8sGYRbAsIdxf6BCtsCrWv7zp-gBN6h46vqk3FCTH_ZBWLyE36u2GJxCEIvUKadZchhfCaeoyzsbZZIiYjxw2hcZsUIKqB5QB4x2hHmG0-NB956sFxxdP-dKLENpTOMJdIwRKnz3R_bmn3JBTmJ2o4d_swji-4eCqcpE7OWCxPLdALaOM1LdbPRfTvNlZVxaGYdnMHJwjSQRArjkSRdMdIeKu5wWdCKhIWNRySiG6v8mdVYGeS9ifuq-7QaotWiYvvXZNYAClWwNiw3lpu1dgBz0p5y3Ti_CCKY7ExQ7TTd_PfMHPs4K7UlrRN1lLYDMphDKIztmPWJOk2A57rPm2sG2hk_0iLCk39irwH5O4khH3yLb_AvGMO5y6p_6", width: 3008, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102487100793184401615\">ducthinh le</a>"] }
+        ],
+        summary: "마법 같은 조명 쇼와 친절한 가이드 투어를 제공하는 매력적인 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["소나무 숲 사이의 화려한 조명 쇼", "열정적이고 세심한 가이드 투어"],
+        tips: ["어른과 아이 모두 함께 즐기기 좋습니다", "직원들의 친절한 서비스와 해설을 경험해보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "113 Hồ Xuân Hương, Ward 9, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://delightparkdalat.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14372033374184531428", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%9C%EB%9D%BC%EC%9D%B4%ED%8A%B8+%ED%8C%8C%ED%81%AC+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "몽고 랜드 달랏": {
+        photos: [],
+        placeId: "ChIJ5T-k5YBtcTERonwbdDhPzUg",
+        placePhotos: [
+            { photoReference: "AWCwydgzO4w7Cqlpao9rQke4HAYyw4Vw89lLo4rhuN2nZ1_gVFLxIScWuBwo_cMB6xdx28Re17KcWa1AWeKWXEXd-4p0w-tUmkw-EO1v37O9ePFpLq5Nz18R-sEBM_g5rLk2_rkIqWLfeWVk7hSvkcyUazEoVdNwm4op5hebgRvN493JlzWbCC7xUKRdtQzy_LPXMVk8RKrf-AuD6iX1paKgadyVqO5l-afByuDHQMEInKhelShcsctcDPtA7nAUdLhU0PmKYUgoTeBJ6QmOxmj7YE_VRrg8TCnR_3I1Hpz9HSAHUNXyPlbOXCp4VacOaXxy68tnAGb7v2odwERwO9oWkRD6RqpuyEiHRofZ1yMnzFxCPdm2Dau0BaN5icDnJ3W_G-q6XYODUkwoxuP8tH0QCnAX_W2qEbRnub0eIvHxiB5Hx2c", width: 4444, height: 2963, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103850536898257931460\">Mongo Land Dalat</a>"] },
+            { photoReference: "AWCwydhHw7Xi0veSF0yKre7o0411_qNSu5FmDwZg9PFGaqWKX_UTfG4-lSWq_d_0fzGKBOcGWVaau0AwEvk23notqmm1E9Lq1Gmfpn-RUgvXe0Ow29Ed0f2WXNPEjjqxAeVc7E3bxAEu1wSGJnHUypD-_77A7SQ7ablTlVy-kLmR60NBH26NwqxwwpsBxjWnAbkWCXWtqxOTqVAqI0P7RVncI0V5VZG8YfMk_jXvLcCZai-O4xYNUkIzfZDy-BYFQDJjZQf3G7lovWexFW8r_dd1qDqyXH6lHuMheEcvjb2tAmbSF4d6YwVbhBFkH6keMPWebTxnJlZFTbsoUxViwBmQgC4Zp0RJdrMOwyO4aSwXsIqkhJBRGLIF2xj6JEsqioCHy1E3PzzWfYOUgGTavdAILRWobi9cPm9MzBHpeYiHiu_DKg", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104668795534679253289\">Thùy Dương</a>"] },
+            { photoReference: "AWCwydgyMcOkag5VrfPYq1y_CJ7pphyh9GnhbpBfSfkjG-ImboUiNVdiL9nHUUbTY5l7IjdaUvnKRlWe6OJiNYIzXNY3R9oP3l4GfJUqqft8xC200PWLGNxUdvBI8DSVeCbxl84929Gd6aDLbMx_mC2ecHLBGj9fT5HruOGxclbMCSM7Y4PdfeYuH_YGIO1DFDHjFp4koFl87fvZXel4KuDnaeV8-tEOYIw2CXmw-tbCJquPvHvvfUWXdveDhIVbURXEh1ukt5y3P5eqCCgxrTq_JBw4AaDpG-89pCyLlOwt7I7Hw8UNPOiIShj9IFWC5cfJ95_d4o2mzAxoo-cxYXx8Ck1AdvK5nregeYCWiQIMrV7ZgF2NjWwAE5UbjuGd9kpxf0OJd1J1br-TdHQQZOZnZeyT6cGFBwAi7N1yF0VOqB55iQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102671135877232501705\">Thomas Li</a>"] },
+            { photoReference: "AWCwydiOUOtyrl8u3Hf2blabZaPfTThIkNILn7jBfE45ygWxT-C4HvX7Mk1trqxr6KIqPwcsQGHZFToot0nGNuzis-HxPyBs1qhF0sJIoFlatmRUwusFB7SrWr1YBj18cbiDMlkPQ2fNS-DvZjAINRWDPqkYVzNs46ss5XQt9ymaEt0veXu9e4St47dJ9Z6_q1X16-Rl7Mn19KC91Tjf_dXaMr_tBqFbHwvKfD492Dl17hq3c4A-Rq6IUo6ShIqs4Ff_iLCU0wNohGm2MUtcVrOdqKeyA7xYyl_8mLhkxUcXgdlk5PWuGCmAIdK4zuleLV5KaicUBNqCVfEhT8efjFAx6Z_TZZjJcQVdg0wqI8qJfiPSGHfEDY1OVFQsuTCqIzrCTZeEFc667tRN2rvJ7JigP6qyoRrjuPvYTeniTf1ypYU", width: 3060, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106289984591275289784\">Phương Đằng</a>"] },
+            { photoReference: "AWCwydiaFRXU9fTzcaCWoW5fsV6WhEaeeP_K7hp7V5DWK6TYJhznYpTHXKWDfGHgs3NzN5Jj231drxLFGHnhxFl4HBvBhMSp7UA46S5d1WxqIqR-4ui8a-EUTe9-WVA8U-Qr6fn-i_EzIT9eKD9-DiC7rv6fAaixu9M-vOZB-fSQjGWW_URL0CGnpxo2Y_Rk9b4kcga-BV8-R8tjRFOOD4IU59oygIMQd8qsZxl9HCfUgcwo7tMxTJMBq08C9zdDF_9pErcIODdWgEJ_etAy1IiVOmXRVGYUiBe14qYfv6FIs6BvaHR89eDm_ouEg-riuJTzkjGhTwv0dY46mHsXP8SxGGnLGuZ9233Fohfa6mucJBYAd_g742G_01y27xiPnFTrXIrrg1cXf2vJH3baeO6d-24Q77JPE9y4YbfqLvapUqj_7U5-KmsKKG0zw-fx3zyR", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112662795071668032262\">Viet Tran</a>"] }
+        ],
+        summary: "높은 평점과 많은 방문객을 보유한 즐거운 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["게임 시설 이용 포함", "시내 중심에서 35분 거리"],
+        tips: ["입장료는 성인 1인당 120,000 VND입니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 5:30; 화요일: 오전 7:00 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Tổ 16 thôn 1, Tà Nung, Cam Ly - Đà Lạt, Lâm Đồng 670000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5245936244841217186", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AA%BD%EA%B3%A0+%EB%9E%9C%EB%93%9C+%EB%8B%AC%EB%9E%8F+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "달랏 동화나라": {
+        photos: [],
+        placeId: "ChIJd2u7ksZtcTER2a_b5rgPO_E",
+        placePhotos: [
+            { photoReference: "AWCwydjzIoW4NUQOgmHTtWeAMoExmxvntPT1UIvW25HAYs2e29kUOjbbP1c04rPe9YFErw7TFWvz_M-aWGtNOdI67jT3_TV28jGVhSfbdqP-RiWXvXNMFWE7amVwK_wn1NYCHWK8XUXnV4bSdb182wIC3JUMuhljb3lF2W4j_JuGH7onaRR1ue4-pYybzyLorSSaR7SLARNz2Hvr7wzpYPN0aMdTRAQJ_1TudlxWTWtIn1FYDv3V0NurSrFETBq-MPX50IILuumq7tWZ-SXdy6T2hHBz-6-0bvjKKuhL96WCl1gVHwbPWxZBgxHnoyjSUCIHHFUVBkgA-NwlXfqr8p3831YBCoUBOye4cCKWUtXYMK_wwekuvg04Z8m0RtstmpbC2PLn6uLzX0XOOADCBxBEkvyUA5-OGBdgAItXNLXnOLSoN-yI", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114292675658191021193\">kang yijin</a>"] },
+            { photoReference: "AWCwydiLI_1WlPrfhSJZ3iB9aC58OrzxYTXLyoB_RtCcnx_V5WBQNxtbr6YEvF7_KRY7F3cASqhHOqoNIByznqLGhnGmBdJo0AghDUV-9d4GUreqvc0LXQcRemUnZ-zva0g0sxGVVddz_vYYrjdd936HLCQxm5eU5jn62XPRQ6VP4GeePFeU-sfnHT6TwUSFp8Nb3ux_55pWjnpFxDxVhjXdiC4GAAMxep2ISCRFp4eyd1zldviDGG34uwqKCpg2FCJEVEdYczE2H24lYbSLB-A3vmvOyxQvpR76gBGi-uDHoKhg0Kib1Ko3fTQhGBaKBH84uCMEONdFA5qeOjQI61IhMpt27FWJFoSyjRKctaILsbvD9WBNv4pH7eQbzRQho0gZon1tisoq_pHMhxvnGTG_o9r5nTgYAjMY-F4A36kG5N8749eU", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114770001945695490851\">HS Yun</a>"] },
+            { photoReference: "AWCwydj0bDm-CA352fnMXVh-z2lQScOvrM5CAU7ZkK7Q7dFMDLaI-XeKQRByAurJt6VwMfmnwOQl1VdIa7VMba27x0s-NZW238z5liSXPs0Jb1cWgNHzoBsqk0pBAHr-tKwkImP3wKxDcjLay8fjlo7EyvMNrC59Wg8AUT8e5c4SJyOq9Qf-cv4_4QIbRS_5oryhJBBNdbYiuPjwvkv0xlhpV16qGrePEUzPC2LjSewWcKfs222U9ru-B_sZb1ZDYP3CCMWzst0ccuFfdsrWU2k9N1hndkGx_IS7uiWTwdLiLfil79tJkVOP5WqVaoKxzx-1m4tWeHcVRFwBBQqEb_Ph3jh4LEf2wGO1JYhBo51Kz1-n-eW1uAJOEEm5SsX9ZsnFZqYzr9qRTvWahtor_mdNvY-PmV5XJvEOOVoFMRrufMjls1AS", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108389649088362462423\">Gyu sik Jo</a>"] },
+            { photoReference: "AWCwydic-kdcPoByfkc3L60GYq0jdkQ5zoic8VLWqvFcepoeu7A6G2BZjFxTRrfegXCVJ_Y28hlAZ9tBJwk7YJa7kMO7WAdH5jKSZSF9yc9-MJk8RFG3RcQGwFBW9w0Wpa-Wd6aYRkDPui3CPVqtYz7vY54eaJ-J2HpRlLEDXB0Ph1iF_Vk52uPAcML1CmGeym5UMjwKWpicSrwMD99n_jmaJtPPWHuBTjgbpcybNV3qP96Y5ZpNiryMPovIamdT9dg-6WjSC6rQ0l3XmDVNGF9xkidnkEQ2bLg_4NL2B0W7_D5FekIaZWDtAEF5WkA3gOKZN5h2TdwyS_5s5o110kPOBsSy9w1_T10o6ntzIhqzjyUf-K4FxKpzPPWQmN9vy8Mi_BuIJtlwHtjYvWl5kMS6etFTSApsBkU1552bRBZwSm0fDw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108389649088362462423\">Gyu sik Jo</a>"] },
+            { photoReference: "AWCwydhUn9iRvs6fUPhaer-HW-eU5aORC18jm4F6WVJE0S-W8f17E-oEdJWYIkclhbQ3BHzAt_Z5Ye0vCUcD8kNjRxtQFZ1YuDf6Qpf_y0-MBksBBAmg6zE1ofDXtAP8TT8d-905csfQKT8Xrs0Tec6TDVLrI4p8VvYTqKR4sSWmv4itQ8_bxiXQrJe7U7rwxG1IRD_Oa5XIdz6jkEzhs4GJd5QQ1V4TqgOHMCa-k9PcLyQIc0eJXh_RtFIr0sf0r9p60eob6qg4P5S7LIJ9uW-yHBuYV21zdAtoXlk75fSa5M-DzkDIWGA2WUT25pQ29crTd4IR1PbzFc4lJGporD7aZeBbkMgKAg1y7VWKkcBFvjCFHYNCTp3nY_tPY_q3xnTi-kk7jY1uEmj5tJmIqHgoiambI83_Wv24ZnR719Up5vlvPw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117353411386710275015\">1214 snoopy (‪라떼라떼‬)</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 테마파크입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["테마파크 카테고리", "높은 사용자 평점"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Vạn Thành/Đường Hoàng Văn Thụ/81D Cam Ly, Cam Ly - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17382504473588117465", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%AC%EB%9E%8F+%EB%8F%99%ED%99%94%EB%82%98%EB%9D%BC+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "랑 코이 틱": {
+        photos: [],
+        placeId: "ChIJixBW3dVtcTER6wwCoeHTCVs",
+        placePhotos: [
+            { photoReference: "AWCwydhlXZB4g-Oyk1_Uh2qMDIP09YeY3k_Q_hnS2C1TJFn7CkILxQKUURkQH5Oa3SpCCxFtP3aJ2DfmP_NQiZL3Gsp05tQdGuccEZ0_j5wHIEQK75K1c938AEuX0OMfMYVGHk48hQKQmbspXtU4G2ONCQryBEHbFc-0_btv0sPM0jb0qbDsgN9YWFxnfZJ7oeMuvg8dU_EMq-SO668X8Y1cNzFaTFfMgTNwiUZGiKk0HOeq5IXLznTcTNtfdfRx3pL4np1RcuBpwZPG-msMWz3w7q3ocCHLwniur5-eoDOfTUqYwTiNKhKW1k5JHqpGLiexciJr-wCRpEDZs8QXtPrfV6VKa3QuPv8n8Dz1c0uSFGtabuiR2ax3IyHo9sNlbL6MatY-y_juIpEiPKpz0q0Sby0JABD7Bw3Nx312oAKhQ1KOlQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112392797516966526969\">Làng Cổ Tích</a>"] },
+            { photoReference: "AWCwydgxdX8GU0ZCv-wVyvvXBNaE2FQjljoFVN8ZtL2elEM_Qrm2zX_fqu1v0Ir3cvtfjHEmeqQ4Danvnn3RR0hGUVAu71VNzlHx8hvE4aC1t9WshOry_FSHYGWVdBVKNvIb2OKbtH5ejLkorxqyBiIfYdhwQvY9Li-yTI-cmF2QjHDMOCB8roWR1XUbBFWUXQrK_7yYBC5H3txj3e2SveNno40featAvRBPaUl9QQhhEvlO4DHHOO3rdguclP92mjW7dj8kBx-YgFU2BSDKPbzmG56KRID2Zrts3WkAj5KO4KJmX5KtporgN_C0z5wWoEhLLp-J9MT17qE8KfZ_zulkLpoQrxjtIJXY3uOZwkMyXf_u563upVJnjPyix2nGBihsrQ4GRB69_IzolSHOlpWhdWpb-LkL7mZ_yRzuG0C-UytIjUg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100025587744205410640\">Quoc Nam Alex</a>"] },
+            { photoReference: "AWCwydjVOoIHfkGPp0D53r3nVVxtqIVa0Vg2atq1EoaUZosVJLlTkL8OnTVbHXwT1ARgxMsfN0zDka6lwYGuiqRpClu3TABvznjge-DITSFwp-y5nCVxHZ6q8SN2j02QVI5CxlhrMvZCzWXwAWjjQbGJw2vheoLE3NK0_6kMNuBsjoF5Rb73-dBIKgYMbGAJ2A4RFjftL2FnI8IPhWVVg_t9moH3NuK1KTO7bcRHsQf9daSKqsA5XiGdu_AAOWde_Zk0V3ngBR9NZ3TgvWz7vSbzu20hrR5Rh3BomWFW9NQbholg0pkabSpopN5cq8pAqiuscx_pj93XxJ421qzdrWgRYrmJa0PhBqknpRVEKcNjVSzYKwzu5HklY-YEOn1KjX2zs0G7alTh2LJzG20qWO0EpifuBnCHt8tb59eRZXegxRB3bmgnAPe6hrf-c9EBkQ", width: 600, height: 400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112025118905476671096\">Tàn Kiếm</a>"] },
+            { photoReference: "AWCwydgKXLTun6clFTtcbUSAKi192gzGspKHStABdlW5qPjjKhAcbTcdzgH8FXl978TCfPr5KeO8_N6FHRH3U2y3bCwKuhMh59qYrNGBc8TguNre91-Nmt8cjCIhVv8i2_b8PBzqCAL04wC1OkxoSNqEmI8rvZPikuPmGAtJbT0U7k-Yp_4TEGjDNU0TUwRRUsn-uT9i9IQxqCm_WYg7Jhi0Vq-CxFzDtzrOmhHDNHSuuZm4pTrRbiOqcSoVvUj2gJHd6gbHa0o72sd-JKB8As5pKbObrCK8GPlKSR8RNDACiC9uCJbbIFzl0C9CYltIqf57M63OWFVVTtFsznmSY1JAiLES_c-S2f2xwJCcC9vfxsPBF8RWcfmaRABTl9GuMWQAtWpoKOIDzQMOHofIS8zcYoStJd6LO4_xpP19WvAdIfFkJfsa", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118428530480216369415\">Tâm Nguyễn</a>"] },
+            { photoReference: "AWCwydgSeYclIf-5rWewMjtJuh0F1U4OIBU15mhsDB6pSa59kpJ2-J3WMWDsduLnDIzYNkAXiwqjIWi1AyLyppZP7UPU8uSTxYQfaceBOMYsBPuGuXZrR3hwKqHtJeuJBhYRnaQEpknYlwwGXpiH_9nnqd6Wq5cJ-Y7mfaeiMwDvCJg2czDpRoZbwero5tAhmKkn8mF9Bxq7xton62Htyur_5gSow_OeWtWh4mOYTMV6imMG-vBZHRiWdmBVE3_NO9Wn4GQ9lUaD-JMLMUT32HTxKtvhqjS71IbC9SEehAoxU4_ty7os00uWV4kKOQjlJ-5v0OXVegTN4MdX3s13_eFxnHpU7pCpvDcRfynspQrTeCvdfsbKWyOWJCWvtGxbBaLIT0CYzid7xgsFmCa6twFo0Ep1Ht2hM_6HxwRS15RV9iYlDFk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100025587744205410640\">Quoc Nam Alex</a>"] }
+        ],
+        summary: "아름다운 풍경과 귀여운 동물들이 있는 동화 같은 명소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["고풍스럽고 아름다운 풍경", "다양한 포토존", "귀여운 고양이"],
+        tips: ["사진 촬영을 위해 오전 8-9시 또는 오후 4-5시 방문을 추천합니다."],
+        hours: "월요일: 오전 7:30 ~ 오후 5:00; 화요일: 오전 7:30 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Vạn Thành, Làng Hoa, Cam Ly - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://langcotich.com.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6560007298264206571", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9E%91+%EC%BD%94%EC%9D%B4+%ED%8B%B1+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "캐녀닝 달랏 투어": {
+        photos: [],
+        placeId: "ChIJcX3ftC4TcTER2WpqUvaHam0",
+        placePhotos: [
+            { photoReference: "AWCwydjrtAcQ-zVb1XYmWO7_G4hKTKo5p0RxZyZFmqxno-pyFrN7T7TDCHBsreGTwkvQJJvxSRogPJolpQIHGwEYDbTDi3Pdszhy5BJv0u-YfTSInutXe8sktctYkWWyEOFtkNCndFmWNdc6Ws0nm8Jz5oh4WZAGSPm7sg4TOS8NsqevoALBGpYMpk9fS-JY_69tZ5BckRJSMK4-KPW_YVhS7DfB3oMzhacuHPaIQNX5Fw0VEAJ227RZdkTDDYtOS2GQNyrhtyKgRjtpCpF2wo-oErzQdlCyEmmiIGuXiekUu4WMHjW8G3D5DeVWxhagMETiL5YqzTUxvNt4StGjcO2TjnaDw0qQjsdvPUuSzAp49wHmMPbai_HbFXWiic9pEFmJRRX_euJEOIzxeZFDuCkOQgF4kT07bBIA49HINh-8Z8R6J0-I", width: 504, height: 401, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110305507772599843115\">Dalat Canyoning Tours</a>"] },
+            { photoReference: "AWCwydhXFu5o3IC9OGoXTZTYM2blmZYMSEXDPQ6nbe4_O3S3efZRdGBQh7qnKQ4iu3d63HIcOntPNuI3HZVTZZXHuP3EJaRcH79510HvxuD1FVYEbfP0vgbX46CHtdH-ucEE1wqvEOAaouGvnqRT-qlM1zxXYY38QU8iJXzNO9a41qq-XrAlxrvKEOAaiwBBsmTOIFwG-91OFREwjcQ7GpQA8Zucu8R1A73FGkjxorJyyy0Ypz4O6D78KQ-guwudJ_jy5HueG_XVC-niyB_kuMZYrM8CUjmOWDsh_OCfd27giLVtaSExqppyP1zU59idHzF2OXQKMtuMblT0A1GvNX6AkLN3Ff_1hUa31uKIy_1bVF6M0mM-ytM0-oxBfiG7HbtEYNdi1rrvejuGiRgm0epkncQT62fmB9NHaDxQjTBE8sfiJow7", width: 1080, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100496345652046722401\">Kaitlin Brown</a>"] },
+            { photoReference: "AWCwydjjpkFSo6V9-KztZoxnguaCJ9Mz9k_VxVMDOTymzu-7WEfcLinY0YgzYlW4IkPbDSeqKBYIhPnH46aVEXx2xZiJK4FxVFvEjcY4K_2VjGb6VkgGTzjAqnDXGgX8DK53h_7KmT1cBDk_7iXrIC5NysEOOs2tHHN4CdoUazBoXXKeBjYSNJIdVkAkE31jsGi8bzrmXDhp9HEtJuAuixN0t5SBfwtTrQFdEA2Ld5xJGilkm0R37dbR8Uqw_hkLi6hxfR1PlJk80LufPjpx2HifpeQDQJV5REWFBV2PsHGrXdJEHua_vTFpj_EFoRLNfn0hpnRgMsivOVDtHfTBBPkS2W-8A6LKCa7WsD26FZYjvXM5t22dhJZ2CtzNbWAVDcwnnAVLyY9TEHNnagp-Yh-PoRK1IknzkEFs_U5rWqxNuECrNzJXzOIUx1HsMRzSB82n", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112246857573888593901\">chloé t-b</a>"] },
+            { photoReference: "AWCwydj7rBCPjtGdr_MWajn2_DaVaGhbhkmKI6tPu-tzEpaZQxzoDYEBVXwmKISFpm3tJeLP3hXMrp184yD_feL1DihiZbp-DepVa1FpEyeVWp9JMmWGpSPFxSEfH3aG1NLG4mqa-LRHZpBSofESj734icBCqd1e5jU5zOq4B8LKcV2fNXSXI10lBQS1oC-cCnDdlXvRCtUF-Y61SCNRFjz4M8eZgMBicCXeV9Er16B3diUfvkopIKI0gyBOdpTdWrjLxsbOh7JMLhMD-asWaJFgXbBCWcgtUnFUj-OVfFGXK_AcYCEk42gvil6NPvV-MxCOWPAghtRLlTOkq1kNcBmzuCO2uZkE9rYkQYc_w8CwHSpNISX3SHNhyK2WMeeUKjs0GQ31vP5XDFJs05ZPCUD_fVbgRoOjs7GS5pzo4qxfJBos2Q", width: 720, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110305507772599843115\">Dalat Canyoning Tours</a>"] },
+            { photoReference: "AWCwydgFsPW0g6cBbyRT5SpUdMeB0NvrEF4S7eweetX8KO7wWhGxJqXRcTRTeSdXyjeG2eVvC6WaUyhdAghLIY-Fykp3FcOJQRHlyg64hYonMg_NbiVi5rl18go-HgdyI-gpnR7f2JbcBGHfDVXUTyPr0K82rrvIqwxhOq1ZaJfWULkZORpJ-qMxrB8iLMdNjWT22cwFJY_wab3L684CEYeOZi5sjEQcCyhOV-iariwI9y1qwh1ATzew4-DkzpNK0NkHrzSOfLzkuLyfKzLAWGMc3tRYodz0gOJ7KD_xt4j2FzUGelCVW0NpNH7gJe4ZzJ2mjgQN6p0Pn4iAvabbQDFm7xEq3yRKQDqVzjC5J4BTWOJ8fjMXV6r-bsXhEH0_D1xgfcvQAcsXlnmzQJqjoJ_mCoZXbCpXj_jr7pU2aVMES8CZsCY", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114947320218214538008\">Ben Hitchman</a>"] }
+        ],
+        summary: "친절한 가이드와 멋진 사진 촬영 서비스를 제공하는 달랏 캐녀닝 전문 업체입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 재미있는 가이드", "멋진 영상 및 사진 촬영 서비스"],
+        tips: ["가이드에게 사진 촬영을 요청해보세요"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "6A Trần Khánh Dư, Lâm Viên - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.dalat-canyoning.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7884263589679885017", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BA%90%EB%85%80%EB%8B%9D+%EB%8B%AC%EB%9E%8F+%ED%88%AC%EC%96%B4+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쪼 수프 투옌람 호수": {
+        photos: [],
+        placeId: "ChIJl0fxDV0VcTERuv-Q9I9xa3I",
+        placePhotos: [
+            { photoReference: "AWCwydjY-VGH0lszHzRVVcwoPgFtQfOaSrqfZohrmyA3Hf-FcXyDmzljV0vs17CM2vRCHHs6Cfi2xq2gJkARFqyIRllewcpJj1wRzfsQnZTsJTfQRb7tQrjelErdQO3a8vkKik_sL39zO3rYg-rRADKrpLqbPgXsqniKKjzQvYwlKbuTILEzIXWI2u5JNEMwFVt9aNkn-6nN9aSNVSR7mXu4R82m_RQP7J_3nFBNLPISdQEQZnRQHOENz48i0PXZS_hQRJiIgHWmgG9kTQ81_yOOmiaF34YORw2Ctf4luEvsguPSaw0_WjO8g3viyo3AIqSPy_HxTLoSgj68-jGyyWFPL0-5H7jYGCZkZw7A1sQZ48lich4JOJEMjOG8DeILxlHabsRL-cQWpXOQaYxZ6wQBSnJ-jodOMx8Sn3nkRrHkIviNdg", width: 2560, height: 1715, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100830831282635009443\">Chèo Sup Hồ Tuyền Lâm</a>"] },
+            { photoReference: "AWCwydgGFuOsAZqxdzNJuYtHkHU8CGn7h4iLscOvpGGP_tAcAbmWMLp1U6LwpO87lSeKWKVWBCe7FP42MXiTZjfhrbfFjgCBtDulRZS3-yXPO9dybPC8JzpzMm_ex5rprrBN82ypTu9QvAqjAg3a-9SDdBt-MNpBeAj4UjROAtZBokyRrVPNJqZ4zCpkr8bIfMYRepwXJOjvROKvp-JlPnUDZMrHpYZ2nZDRt9uH3fh_a_GHYi4ATMKDw-RlEcsR8iCJyafR45YGjV0Ll_BRS1K068jqqETqSAtdKmpyKmS5CcxF94WZQiSJDrEacBRaX4EVQ4xn02jR75bc6xmmEPicsPiAPIM9i8rbB6u5snvLnsUt_ClfJf054u68OFH4W9Vi08nQaTFzc8PJFvTwkH3Al0oD_ZnXJ27LZxxU04rYoJ1Anw", width: 2560, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100830831282635009443\">Chèo Sup Hồ Tuyền Lâm</a>"] },
+            { photoReference: "AWCwydishPvH5U30BYuyTXzHhF7V33_bXjC9HGYa7zm9ir8tcYQeA6BfChwqV5QV4jRFPh0rkIE6AYvfJUcE88GFTIsP0QyojiSM-Tkdvr1x4DsC4ON0iqx3x0dg_EMoLknPVuZdYEDmnmXuIKJTahHSugqeVAesIHb35RQZW9qj4s4WtjlJ4dQ3WQV_b4aiV9Np3ceVlV7aP1ILO7eNrb4v91wQBNEmRxYLJqIAKggU6f0igpv3Ki4GVbYf0geH6346TqJMwdmgf3dE0fIbmTXzB4EdQK_7X9pV9WoXyXxMUmkyzNOs_AEY-VBnKGzPuL7u3X83Nf5SSIumnOeqVczOduExmffr8-qKc9WZik_4eHF3oWAeEpqKWTfkzqY1V-rYDTscG9W3LwTS2QY9wQbdch4c9MmwZfVe5GHUSYqiDtRkJg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107935879141825269179\">Trí Phạm</a>"] },
+            { photoReference: "AWCwydimcZg4_gY2TD6jLsqyY8fecG-pNaB4js268UWQMjOqZdAtEQPgfH8ZyLw5Qss67nG3WjhMEkzOd655wLUZ-ZFWRRrji02bSVtuZ0WHIBulCAIH4NrYfyIxwZAZ0tUxrU89QiujUxthPKnSHzJsFJs8Vwd00r4b9LpvNT0xBeZ-4no5l4K98VEbNqzAy5vLLy-N_NyvZ55QL0JKpE0vUBUkoAJl-TCHCmjdllDKFuNlAOv9ZaYqwnUlasYUPlysKnR1pnRvdE0jz0nCmjxH7Ooz4pDkwJjImjbNw4Zm_KUH90CcJZoG00Vcre3YkykaA631K6YPRLUklStIsT1QaTCB9j35IpNNJQWmBW-dgZfP5Xi5mj8p9Oe-WjrZl-ITPiAa45YX5h7twB_BOk2UuVqfuGRoruvB8iB2ybDQx4A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115980112777086394969\">boo huy</a>"] },
+            { photoReference: "AWCwydgWYWJwQvxgt9yu-CBWvdHuddCty7qz_h0I549XtHLHmnahVX_1_HygsKnOxOW1oDxXFGq0y5MdfYH-RWl0YqKCVezQFAE0r2XKiavtymuRNhWGQWOXeM5rUYKpsoUu1YtQBMLATFYl-BODvAyLC0BPhMZedmjd4CgGtMeGrytpUw4t-d1G6ZSlLXim7pZhNdRYOD7jXAFwF-hBg7GUa9Qmf4ezCNwYicAAPVomZ5bgCQE6Qf61QdDctKH0kD4mziONzkMT0lomCHW0ZgL8tSxqEvHaUvvoo7IpeNSOllMhla-8hqLU_xzhcErZ3NXzSVWZOmvibJZ21NCNf4xSYKJKZJgFvQp7ZNUn2x3j5Y1GMv_ng9v1-evnuEiz1w-2-w2HShLUEE9LL_c5ElyStv0RTp0htNeVNO4l4G7TB9jA14ng", width: 2560, height: 1568, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100830831282635009443\">Chèo Sup Hồ Tuyền Lâm</a>"] }
+        ],
+        summary: "맑은 호수와 안개 낀 풍경을 배경으로 전문 가이드와 함께하는 패들보드 활동입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["투옌람 호수의 아름다운 자연경관", "전문적이고 친절한 가이드 서비스"],
+        tips: ["아침 시간대의 호수 풍경을 감상해보세요", "구명조끼 착용을 잊지 마세요"],
+        hours: "월요일: 오전 5:00 ~ 오후 5:00; 화요일: 오전 5:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Hoa Cẩm Tú Cầu, Xuân Hương - Đà Lạt, Lâm Đồng 66115 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://vi.vietchallenge.com/tour/tour-cheo-sup-ho-tuyen-lam-da-lat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8244808405929230266", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%AA%BC+%EC%88%98%ED%94%84+%ED%88%AC%EC%98%8C%EB%9E%8C+%ED%98%B8%EC%88%98+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비엣 챌린지 투어": {
+        photos: [],
+        placeId: "ChIJnTeNtC4TcTERXB91hXZz4lA",
+        placePhotos: [
+            { photoReference: "AWCwydgRNh_V3r5a5b1s_T6_7wd_rEcyZsxTFav6nIXTLeZrkjWiJE4h6Jv3W30kkuQA_qqIJXpBPdPT1cbG2zVf8fCscn6fLAaZWsa1EhnihhqG5s32GwCK9xxzLk0IuOPFcPfhY9NNR_vBhJnNqtBv5GF1_N5-cfOhyQywggAaMBp0y8hCf2F3OEr6n2QC4uDQTLTGkpxfN2UgHJp3WFya8dbtOHAMQ-wqRWbZgUxnludftqKVozbhAn9KNG1qi7NZPt4z80_-ds4xDbzuPCq1GXjnvKpxOwhhMGudsUMPJcaaIo-xcyuZhvqnrjbB_yVi8rZ9b8MA8NO0trMQ6W_XIGDYhGIU0xnvbkfr1NjUUhHo114ELc1T833hc8CHUNWy_1MeT3Fq2lz9NPZmh2vs1jHsigVgfy4rCVgyj5HIVuFP_imI", width: 2595, height: 1211, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102623339890664830069\">Viet Challenge Tours</a>"] },
+            { photoReference: "AWCwydhcVeHXvQefkFQCvBnJZa_AbBaU9hgyK26LpOfnxmt2aGEuy4ihm1T0SBjljEirS2fVem-LYR5tRf_2F13vdnwJUAn80YYt0uRHDYATMpeYc90kpGw4u4s7by0ZlWiSwSorIeuVbt5xxZSzVFJ5DSg_RNmcsjJOfbjKFv0ZThCkk-iFToiW7le4-OenZGun5GLEE0St5EcxTag0lmalFYas0JFyhblIIgDgOjrCcs9BpxdTF3pagjMrHtGurjX8Qmow4-fGU1NFJmhGK93m_03uja0KBZYV724jL6YVpRge3PfzKtH3_--6VHsdq0vjIcl60lUVaDEhMkpRxjXwrD6uNAsKocGGNuTZYqxT9Ggnug8UVQ6Wdtb8WPywhkT0PAgb8adjxrRWEPYsfsbT0quNKKi8HYx6C9I986F6Z86AYAbbQpCdr4OhgpzEwbAr", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117393662247425421934\">Georgina Pringle</a>"] },
+            { photoReference: "AWCwydhKQMi-IVRpURBDUZGAPxM2rzP2oegnrO3DvKITDZwX7s2TY0vLn97CVBRuelpXPa5f87OkUf4Boe3Ft8LU3fcKWUVgbydmmCWo4hUWNkEZ9x1klhF8G5vIwCIhEwp4XgU9f3bF94WaG4C0HgJaYVVwBQExIyN6NY_XpCRMWlC0sOu5WqYbYW_WYiFDulb-GbFWMJ1eYEHkBzh3lYxIPAXpQfdGemvM-oqne7eBGDm5nku2whdcO8FLFYWkwD9BXAl0r7UmqZ8lKpeGQA-39FhZBXqLKXcOs5ZTP4ifQeI_GpLeQrDNRPflcndRkVQIc3YDBDoI5BBzwJ7Yayf0Nmrpszw4rdDDD5aT0Ge5WjR7z4MIUjIx3QYnm42rwalUeRRGj8xgdxp1F255ZpVX1lwbtjCMgdldDQvc9nsJCDk0XA", width: 2560, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102623339890664830069\">Viet Challenge Tours</a>"] },
+            { photoReference: "AWCwydgTAIJr0DeXkldSoICbcPdI03p3wQn2IuMjNu4MXl-KKveQNNPC24iDrZedyl_5KaBj0FthMo1xwLF4ZER9ySNyLP_Dwb1EB8rVyY5xIaa3ObevMGodfqtbJP_wJTldlkjN6pF2PruV85jz0Z8ciHmw2cupJ28AzIDATe_XguGj5eynh4zaPM2UH3wxNtevN_SV20LQiuySlb3Ecj8XK-ilFUw1NV2BPfCQFQi7AazamvHwOiqMdzPufa0SrsvPIFdBG9wVp-YLI_MxSotQ1KYys1BBdCLzKnZdHegfYTwNI6hKaMFXrok4jhUKdEXYiMdFfaY82B-5qfrgUQYJjVbE2NK_sZAE85PheJRC32Yv5mIWKMy8foEfjYSimpOQgnMXAKV0hTEARanb2UFpZBA_Cknc4f-0c_Rrp-2MCSuYcbg", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102623339890664830069\">Viet Challenge Tours</a>"] },
+            { photoReference: "AWCwydgaS5zgh5pP2JaFlNuJDPYeU84ixxR7uu4fD2sehkzzfzEHjpne1z_vQTBx8NtcSVGgpTu4QEGo0HBTnLBoKbe9vFgqOGzxYeQb-fboyxyYKX9RoJmbZlIXFBR5Sz-XwnON3juMWq54ybaH9Odyb8avyxm5rrHPZqNzSFiraFdJACRwpKsd0GJactZX6BNNkHR0kBqPUM9uaxpQRqe384IxmG3Kde92ODmjsbexJg2QccUFDBGMj7YS4sdKhTbbe26oTZoHRaivHB39JMDbF819U6A9xGd2lDfiLWHIoNcq1haoPN25mLzltQbzjHEfx69_-9-VXYXhFoNChSXcHWbwkCgU6iHSf5XGxbCl3EZkfXr2T4cdOXLmDl4TJIk6x-o1CkmuH4auRnStxksoE6MremlStVmQIoIgusi07WtgvxFce1y_YPYS054xRiX9", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107630549960015235820\">Trần Minh Tâm</a>"] }
+        ],
+        summary: "안전하고 즐거운 액티비티를 제공하는 전문 투어 서비스",
+        updatedAt: "2026-08-13",
+        highlights: ["전문적이고 친절한 스태프", "자연 경관을 즐기는 캐녀닝", "다양한 관광지 포함 투어"],
+        tips: ["가이드의 안내에 따라 안전하게 활동하세요", "가족 단위 여행객에게 추천합니다"],
+        hours: "월요일: 오전 7:30 ~ 오후 9:00; 화요일: 오전 7:30 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "38 Đường Tăng Bạt Hổ, Xuân Hương - Đà Lạt, Lâm Đồng 67000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://vietchallenge.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5828347820653223772", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84%EC%97%A3+%EC%B1%8C%EB%A6%B0%EC%A7%80+%ED%88%AC%EC%96%B4+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "KG.art 워크숍": {
+        photos: [],
+        placeId: "ChIJfRA_bwATcTER8n6f5rg-nMg",
+        placePhotos: [
+            { photoReference: "AWCwydgX1b5tyNU45p-KXY4AHkMSwD3EOiGg0lHrVGvGySAb5dvoLrX9FG5SiWxars0clc2tNfuK9dYqmnVHqucetZw5AAFxt2ewxOz2UbWs76jOT4NXD4K1f9Wv52EP_IhPjkZzAN2JymNoKTXrHibHsE0MmQEsKGCfzmhhEBR97fVJE7rALaeiaoUuXFMBBm3GcU2Ztlo_fyZ_ljvYI4pQHzxIEshowjoVDjt9BbylORxOjGSftYeG2huvnJDNx0yd5QTYiby3-VVNYoHX7S4RY2tXJYA5mcUbm28ewZVlIyGMQo8vFlwAEz731WwahxZYrJA7hCOK0FyNvkdgN3TvcRwg68ng6IfRB4xvrzE7c-hJenCvQeeDUt3kfASQK0voIPzAPbE8OUOclMzKGfDzkVs4WvCbYUy5Rxluxm6Vyi-tZHJfLRJkBI_RYBIplun0", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115777209124134322923\">KG.art - Workshop vẽ tranh Đà Lạt</a>"] },
+            { photoReference: "AWCwydh1JndIPYp7W7BZf-xZQx7KLLKCwPhBuX6qGEnUVtXPUFdujo8Cp2q5IBg8OfjD_bvc8nci7dUkrWYpJMPQzHhQGqeBej5gWYi8t64Efy02Xfgybv329vToA8g7jXgOs9Z7KLaBFtdQWdqxGJOHxh3LapO2rksInpYMdfWVDnd3qsSjBQ0B2Kbqf-aofpN74r1i-8CJh9LwcBGMhCCXOHXeThyqnlBh7wU4yLzuXaQRv7xRt1YY-ix4gJtNkAZZf98bXXxd0qgaK2ilJ0KU8atR9jEvdXc1cFRaMW8eXMLrx9DOwTrPHWIlS625IcDvA7Gfz5UN06HHNqMW4ouxPQA0sQnn_CNBzrx_NcOf1qfbHOCeR2DoVJXu_HiGl0OE4n0eK7vXkvdDtoUUObqmzxYJnWdITN1f8eYvAiurVE0", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117551178252981183647\">G K</a>"] },
+            { photoReference: "AWCwydhkYO03tOdIlbMEaW8gk-rFXNMY0TEMsYv-hhDUN_CiiEu0uJtYGsdskntRiTsKIeoSOv2FQm05XKrPmBqnDQBOWUBAWwrnJgvTdpBQIy3-B92sT8V9gjMijEVA6hN5CM366JQZHAYn9XfZ-J7GxCTr7533i2aWyb5ewSlJTtgkC4f788JBVqBVgmWoW-AwtUqdSGzr8nXfx1_TUhHRoEdEj6u3pxUry7fQdqjFcICWDPNO9fYgOLK5ZLR-OEm87KUL2lNvu0eX2klcWLgO_Htjd9RghMH1fSn1eTpSap_bcm8QLqm1TjAdW3g_3TyNIqFGQ6zFtUZUKo41hQ7dBaw5iCRjAPSXDfO7ohloZ-ps85P0zL4js9n-0CoQnV0Z57JBZE8IoHIli-BNAAYE3EtTEth2469lVEenG0HlzoN1waPhKHMK6bRD80_HOx3R", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115777209124134322923\">KG.art - Workshop vẽ tranh Đà Lạt</a>"] },
+            { photoReference: "AWCwydhTr_DKM1S09w_ux3DQDtGLkn0MVPv20u4CS960cFWkPv3v36ig4mnsQPhM7J8L0ktUAqmrlc5_2CqnT1tIud5m4AauApGuml_Sn09A9jbC2bAf1xS5Z4_oVCLGoQ13gzAgwdBeGZJjDUSPlK_GPj0sACQCigZPqv2azSwBCZsNOOWP_ib8NzjQCMtelQQgns7hNMqitHKNW4wswvdM_RCfolOUpOO7NlRL1N6E5xDG-QbGCJ0E1B982rAqWbgOhZOkq1ZGDvaZCi21MhKyg_Vot8tGtDg9MdQRXhp2_nWBSjg0BkAX5XZb5E9AS2a57d7mHi2bh-_fIWBnPbTlq1IQItPxouqdwpxbuzeyycrbQo2z7IeiakwECiXMf3tIhX8Op0eVTptJjLhUHkkgOM-3PvFLniKrb7dIdbKZZGMJjn25Moy7-sVSw7KUVg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115777209124134322923\">KG.art - Workshop vẽ tranh Đà Lạt</a>"] },
+            { photoReference: "AWCwydjQCQrtQDyVXS6TllH1ZLEU5_2FkcQSD3w9NgdVkRNdU0l5AWmYBtuulCa4jLzxpobrt-oTbnlspypYn9PNIK5ZEbGP5uQj_-fam7BRJ6Pkp4aP4yZQkmN8ere3qbzIeGGfTwNIlZ8oKYWra2lrPzng3kUCKomVhBRIyR4Jhgs6BkwsPjLemCWYgsXALjUjMOWFnNC-LaYrHe30ymDKqYPNSvT0qPaWWOMSGWs7ZgiQnGJsPanimaIA4RJVo8wgasNN1dbNoonIbGUG181AGFAvglL8JRF6BPftHTU0sotJF2U-uzyzXW2vujXhksdWa9ilSxJ-TmpQQM3AjZP-p57a9jPLo18hpWeDcPG5meF66WZECMkmaSFLtQHyx9sDcWC8bDGSqiO0gGopaZrO4G3u1EuFZ0uHuV-K4400qOueVcbU_yvpW6txsfncl9--", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115777209124134322923\">KG.art - Workshop vẽ tranh Đà Lạt</a>"] }
+        ],
+        summary: "달랏에서 즐길 수 있는 평화로운 분위기의 그림 그리기 워크숍 스튜디오입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["친절하고 열정적인 강사의 지도", "창의적인 분위기의 아늑한 스튜디오", "직접 완성한 작품을 가져갈 수 있음"],
+        tips: ["원활한 이용을 위해 미리 예약하는 것을 권장합니다."],
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "4a1 Đ. Đào Duy Từ, Xuân Hương - Đà Lạt, Lâm Đồng 66000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/profile.php?id=100095204058953&locale=vi_VN", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14455497867816566514", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=KG.art+%EC%9B%8C%ED%81%AC%EC%88%8D+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "룰룰롤라": {
+        photos: [],
+        placeId: "ChIJX3Kz7EkTcTERFLUQaEgAj3s",
+        placePhotos: [
+            { photoReference: "AWCwydhDS5WTRqDjwtT40tt3j01jlP_8HgCWS5lwJL9qJ9gkN4KCkTZeViJNbt2uxhdDGeHRoytzMC1-7w8JAc_8hLxxuTmaHi31Ts1istTGfBSuqRGoBDbch-h1QguVQ-gKSbSeHTwbO1wtUG3tk0QaWYtHOWawaMOxIIFnid69hx2Q76u5PA3oaIR_jOFc4xXte596uEig0rlDfSUBfxoNQvXpUENC8pxEv7kJbpL7Q9ogIHOB-ssvTSk36DOYzYVFR3pPo99H5nOh6bSfe4Y7rQEjybthrVjKKPlh8xp5Xs8IjdLZZsJG3b6t7eA1i0YWMhMikLIdNy9O-tm9svQDDvsa0UKJVqrvv6QxY5Pxb3GhvnEpZK3peXz9CUWk5tABn7tUljPWiuU2OTcV6Aza5HDyLNmJMdHTGeRkUCmngE7wbg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105413921798553945345\">Lululola</a>"] },
+            { photoReference: "AWCwydiDWtDu0vJrD83jjHR3W46egDsSrjec38CLvkXs-BV09DPljCiu-11a9MJ9usNJOHj6_bAYHYya5pViIdeKlgV9ctX8QHu53-ZtxdOb6pjLAc4BqFJbfCqlTyPkAv-BZnQteJYDViTIx6Q28ID-ykX3O5NPy9hWc0gtHMn-JvZtSMZEzq44n4wP2PLXX0dyr6puGIu_aGuRF1prDEdF0KAoOz1yec7oYcH56HichuuMNjSDQmDnT6Q0GQXDJ1kGTEMR8jH6wuavUvIQG3O_1k2x9_s6GrZfRdX56cLTw8VYHSPriS17SGRckWsP9P6QKcTjnChuTy7Jq1_4MVoPtIDLR3iNVjX_rqb1XS4OfyOZlileou4vMXCH-OeN3ddTi3I6Q7bpiPudWX0ylZ_kJX_9H9guF8p1HKkBF2NpZwOs9zw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100992756915367680786\">Tran Loc</a>"] },
+            { photoReference: "AWCwydhG3sQoMjYjQ_xScUG7UQP9XkByScsFgPkeNAP5Su1qafmS-VFivx3L5OYfZXd4-tADkSousNPDzrMziYqjgPAo8YG5eBRqHG7loE-m9jLP0zmMw5SPuXpz32zEQcdJ0NLWSfoSXnTa9ojTLhs5L7SzS0XWXrKS4Ql_PEAgOSiw02bJ9KWo0YIqZKWa7jiijH84jAqqr8byUlGXUIG38Eixu-ZEZ5ZJzdM9U2UrnDbI_NRuxJqmogo5ufYgejutpuV1dlMFzhw2VOTPE_U-2LvipwFgPkZ4i_oKCNGWomfGgu0Y-W40VjUaS3kL_AJY0And_KJfzxdAgmZ4O-hoimk1gvfcb_6JRTlzNtmOCWv4ZgVl08EyQsnOh5Y7FAf7oglcB4AahmSpZmIa8RUGwtKrx-UnGWNueif0hQ", width: 2048, height: 1262, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114419718651076500192\">tuananh nguyen</a>"] },
+            { photoReference: "AWCwydgv6-oz6K30dy1bFlzPtKXbeHSNrX27k5zT3u-jF8sI_exEBWWLdeYhOI-GpAE_m4FlYfU1E57cArgJyQzVfPP-fMHP4IfgPBbR2Dq91Jyh7mAQkGGhM2E-SfUEfruLDxai8rbiK9TNXR4T5as6tRX-qlphJieOMCOueab0l08QE4_PN9X9-7VZOiR1EgdD6zxbsscHvTOtR_oLI5amyRsUw6eXRlHFp0DqKnPSeRxdxnyRmphCU7NazaWbk80DsMYODNdwznsHhdCM6KiSvYQ8-B1AWlZ_DpnvGNBSQeXvqx7AgcdP2pst8MubtH0szl8XuWdg621O3oUwtKHl7ujOSMXzcxUi499tWtxukF4XO7B2DJeBguJs7GLKCEC3oto4r3bJBbgdsemvn_aUkRkvQ2v1WOgxoBJ6tR3TP7RHUP-f", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101577428985488052625\">Dang Nguyen</a>"] },
+            { photoReference: "AWCwydjzx8x1czPuH3MsAo1jGyTqAfbtaPUk47_9nUxjKPh4qKJCH2bSqJoHcLawsBxwU1fKSA0zxR2Tp5HYb7VrPOaFQDVD9W_it0NDtfCuSX5gKzSfBxNSh6zQW9mpZeliS3Lxfy6x6waPNS1XnPa_Yvc-d2Lo_a5heApvNDBE-V5DaEpCu0U4AWq0riEk8lzkcNqcTY9NUqEHIGmEP58VKw6bRq3BxQna4gdngpnk_W7iVCR7wy6DKFDL0fVNlJ317KV698fy5iw-NIL1hXoMMcKHpsJpmOM2MWQa9_5xOayalzX1K748Ke8opwz2s3E7nHOpUZhAOgj5cDk7MIBTVBNGWsCc2e-WSwoKKFlJ6bCTqyP45rOcrJzBc8eTMut5SuqoS1b6Jt0Z2kQxVMgd2S5YTNapQer2B5xR5v0_SqvGVA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107393198631672610556\">danangking</a>"] }
+        ],
+        summary: "다양한 공연과 함께 차를 마시며 휴식하기 좋은 장소입니다.",
+        updatedAt: "2026-08-13",
+        highlights: ["문화 공연 관람", "여유로운 분위기"],
+        tips: ["공연 일정 확인 후 방문", "저녁 시간대 방문 추천"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Đường 3/4, Xuân Hương - Đà Lạt, Lâm Đồng, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8903335299318330644", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A3%B0%EB%A3%B0%EB%A1%A4%EB%9D%BC+%EB%8B%AC%EB%9E%8F+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;
