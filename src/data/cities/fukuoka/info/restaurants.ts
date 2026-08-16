@@ -749,6 +749,679 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%8C%EC%A6%88+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "칸비 하카타": {
+        photos: [],
+        placeId: "ChIJ1Ss_W42RQTURE5m2J_hjdbo",
+        placePhotos: [
+            { photoReference: "AWCwydgKOlycMrQUMlohdfJylgLQ3gD_qtA1KwSdJRAN5WlAPBTofYPO3JSoJ99kp0EKxoglfn_8FZp8oy-8lPw7KYY7rtspZg4q-0d82LPisvk_AHwwqGUkk6EAwtZaCHZPvNru_Ozc3mFyZ4uSuKAAvGXmiq3nDj3m8Q_gXsqX42XSB-sUEOpiOzMceD4UxKPzNIbmb7_Q-AutUqmBTQpdc4peQkV9u075Hh4jDz-Kq45IYLNGLk_b5yU3IhJrP-SDql1ZXw6raj8AKRvQuyBth1wXm3d78kSp1xGvEqMZNfcCkBg2b8vWU7IJaed66mryRIDl0VCppRnJpsAejh0qOGn3xu7uHMcTYBnT6-ZlWu4oga9P5_WgRn-67izySMd4oEg9JmBjwwV7DgPbSmeD09aEm2qv9rhGHsdJ0XucwfHCcrotBSEkyOZSSghgdA", width: 1280, height: 854, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443093251151609852\">韓美 博多</a>"] },
+            { photoReference: "AWCwydiPxTp2_iuxEFAZ3PHlHIsZu-skldAFT2AOVS9sBEiyE759Pnkf3XSi2Z5RRJX55e2qbeSrRY1BtaTBacgGXG_Ejsp5cKGBMJsvmV_dxvOAMeyLgAIDque-GrEo3NhIo926QEMbdjKm31U6AULsiGGRSCT0_D4Rddmwndb1zL2JjCNVRjb3ncr5yB-IRu88rwKtponZRYgNTI3KCXeJds5mqs4y8LSPJtQ9Zc0Qot2TiSCJznPdvWkpcUgIsWMpCrOn0ZLbVo4zE9VVWQoSZMSLYXlrUkThSolj514z-mpqqifHX8lyhf4Qzbl8r0gklln41qAHMznPePgj7kupQwrebseXLOSeDF31QZPIX4AEBeJA0lBAJs7rWn2UgtX1pPmAW6Vkav0osTvbFc4tL5tbzJYpgwhZDpCdMoZIn1zhS3AuGT1HN_a0pqHLnWoq", width: 1278, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102443093251151609852\">韓美 博多</a>"] },
+            { photoReference: "AWCwydi2HeGPWAjoYRqIganBKQd1T1RLIqQ9olD5xz8Sg6Dg65D-AfF2pcHSh-wXeAye54Uskhjj2xAiXf5s4fk4eXzp42aU4LuTmT0D85osMPgT5qN7NnEH-Sansh79CapUsGBP-nXxQ5iWZmRqrPiKFkOtkGC9W78fVZUqT0snp75myd353iMN17U15e9QO2C3BzwgS9U9ZZtCy79uIbj5f9CiVrbJwIlkwTLDv_PH7Ufgy2jocPbNSJX-xCd5ZaMoGQSFjtSDV4prMPSG2jJhnwr2QHTlj12WJkYuHhbJgUTIXOo6fC7ErtQzQWAzaFA_ApjXCjXhF2lfEdno5E_qXY46vJz33-45_r0rUfVjDt8MRg3oTXdAtEU2VUcil5UFmlDBmIdyZ_0jNd3-BpY5tYlzhG3HFl8J7VRSA6pf63xDG0VToXqI4maK46tjOxex", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111242809036854972985\">しみきち</a>"] },
+            { photoReference: "AWCwydgkuYYnOffFVISVhL92SKlhGBozCBL6dunZL7EtXwWYycFVvLx4G2UsByYuHFsYeK2vEmn-SaNyto1-2hT3K4_wHbaXw7sFDGpKQExvRgiQqvNW141-buSl_zehZOcDcrvm9KIcdD1rADKhAgm8C26l0jFZF7U_E1TSQ2AJ0MxRTs6LcXHFmVFWzo7TvGi5fRdsBE2yuowIY-rnk9sJihkk3Z8FLhQjaMfsvzWeb5m-9JNVKedISKZiRS8be0mPTnkxb5dBioxfGt_scvxPrBICL_ZTjcR0S4ghAQyzIGxodT90foMhxqf73bUY7B19PGnvjj4Mg9rIRN15REwrLzFQGLep6HZL5c4v0Ge5e6VdLwAg2dmFYYpIRqx8Qoqd59WVUWkbs1Sb18amuFmEHJ0NQNU34G3SN9Odyqh9sTTwryCPN5iqmS-SoUnmrBCm", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103808454021983630645\">よっぴーぴな</a>"] },
+            { photoReference: "AWCwydg9xXFz69NuIPktJN4w_wyMbzaOKQBSeDdFfXhpW-Qm_8KgYZeUayD_AAZRk51Y7KXPYTAfHnNtQ0OLIBlKiUiFqa72gyOjASDFF221qOm7zobFjE4P56k65inmhwg5Ktd1HBWYRO0wBkjsfoUdQ5O0oUIOmL1_uNVtveMmL9NvIi3a8njJ3qKXK1rrgQy_w3ilbWiZpHn-LTVmIMkY3b5oBl1bwgbRsq84URBYA0jdiQeatptJROyWcjnIuT0h8xwiwaVkZoEMUM7vcbxJdyTBSk7aRW98F-Ptw74SAb6AQKso96V100PIyvf9LXNDLKE-eLepGHA_8fO39BdhkmxfpfyPoVqqjQZ9xC9bSC7M4DF-1ThPs-f7c70F9ZdVXVT-TSPYDvcL0aa81bCu76UklToEDJPjoufSPMCjc0Hs2rA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100628499024806279437\">チサ</a>"] }
+        ],
+        summary: "맛있는 요리가 가득한 한국 음식점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["매우 맛있는 요리", "높은 사용자 평점"],
+        tips: ["방문 전 영업시간을 확인하세요."],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한국 음식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 4:00 ~ 오전 1:00; 화요일: 오후 4:00 ~ 오전 1:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://kanbihakata.owst.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13435754980799060243", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Kanbi+Hakata+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "한미": {
+        photos: [],
+        placeId: "ChIJz5pI7jGRQTURfQwOKe8jhLo",
+        placePhotos: [
+            { photoReference: "AWCwydgn0BkygCVB19UQicyHbXzctOqKzfc4JpQzAM6DkCz9H3trsQ-vj19XMhTl_VtEl_AjIaNm2w20f7ja0dubZwtPLXsUOXu_vZM-GaZl6g3I-zFv8bezCVG6RFgQYwc2TTfrnhkOXZjlf9SktaDeqS9s1rgwAPVdGUJ2poB1r1Nn-WP4Q270hXbSgxWzUt80hqZYhP5_O40Rue_ElOMQG2FennInp9e0TAc8u-wz6z3qeYNnJ6R6dBaZjzXyX0HIvFiSQ9_O13EnTFl4Xn46fjX0JLP-KasflnFKPvmibQcJuefT63QP9Hy6mQMBvqMzt1xLqgeyQYNGf8qxr7xuc3Dv50gRMGb8IBJIg-tp-0DYdzpLaa1snOsfoT7N6UmvXSJxlIy2D0Y_PcPcFBYMpnDGZkSf8oFkHc5Ki_ZnbHjmguxUsau8cx-Bwx2JnA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103869367950502572693\">韓美</a>"] },
+            { photoReference: "AWCwydg8PntNEJB9KMiKCbjJy0Rf2yKODG1399ZbdYfB9wpwGAvMv0BxFmGPyw4gKG1soZSXZWbFJRl6voQQwPA_jiQNNpSfkE3o8_BbFFaBKFsemU3J9O-9rAWmklReHZURW6Zqu1qnkCwlf_2YiQCT62c4o3KfUv4xid_lWdg6Fm_Fx836tEXR153wY97Ris0aritQTSsMLV9Iy5V7516JL_E-Pc8B2FaQ3gLygDVb05Si33-0NZRY7mpoHsv-Blt_x06wHHGCWVzIrvQbwHbeaKxfVuxn4yEjafP4AspF_zzo3HqDLoQ1JBkfN6NrFrB4IhYv72-r3AJjS9VvSpNWRHFNGwa2BabiWcgUqs6VAECKoxyojJtz9N2vzw8r_8gwSRZAY8qrnFb3b237vVza-o8mzalZfByQI34iUlTVwwm_YY_ZlXFWGfa7uZ4dDQ", width: 1057, height: 1057, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103869367950502572693\">韓美</a>"] },
+            { photoReference: "AWCwydg1MK4sQWlEODiUJ8X0evwqkcPkYwWokSoagLsRq--42LHIy4-ZNoUICvdgiuGRYMFrNGswEOEE-vtpCZRPeO3KGFO4hZTyetKcRxfY-YykINdQJf4dujVqjhbT-hPPzeWCkwWUjNslhwHwlkUvcucQngJZrGX92B_JjCdo7O0MMU4E2LHYisrRGV1DHNTrI18uIW7Ul6RPLttt3UzuzuRr49YXYuGJKQ_K_0WuASGtPn-Bx-EuvI6x5P2-gvrqFhS5zJrZM_wLta1UIxKHDV43RCsiRU6a3bNI1-mA-3m0tgwjmdmpz1aVM1hjNyg4WNsOH2ssZZHZgr0RtCiu4ds01vyFQJftOJOlIZnV-PN8nj1rp6-c5OfdfSjgWN07J2vilmLWpd3bQfzIMQ2LyfjoTYdCaplMsmD-wgBM7mdigbCz_q24ToI5YBqZBaNu", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107509001784164975001\">AMA</a>"] },
+            { photoReference: "AWCwydiKnH82lE4LGY-65gwwhRuq1LFR4P4tEN8Rbripzi_ipDPMGe46TQYU9rWqzXzzhwTh5tL5eHkI6FNQPj3YTuzz4edMTEE4kn6OucXn1FYOVw1h-eCAz4Q42kuUQaiq3jhlsPVSG0GZch1jQ1EuF5jMzu1GF65B8POO_8SYVtA5sRoRZqF_E8spcGtaTkAUCXrGa1L4PATpJBD-RAwki4yPVR7vkByJyuwHYnveR2TVl27bvXWBfjQHtOVJMgmePVjUGjSWitLso5MkqRx_q59qmWdtBnJsWPPRXLcJ8yr5jARK60KeJaYNirP8ZljQk3pJjG_obEbtrBJeJy5pANlnuDJCkzETCCxXSe7V6BG7IRLso5jyROwM-edltzNsaxx9MeX0KmFgZhC1SBWd--46zdaC8DrKKM1FL5iKCfWEKy0oXg5rj8OBZX4gu7-a", width: 4032, height: 3016, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110120444977308182268\">Forza Tourer</a>"] },
+            { photoReference: "AWCwydjXxOoSQDX7RfeDxUllpZ-Q8JFQ1uyY6ynStyv98jahtVq8tOyRX0c9kPfekJtD2A_gMsYNDRHYFN3nLnZF5nccF-hNzYRbZo41UbnRE9BVcss3S5B69m2skeYd2iJbqXURRbsC5Dl9m5-4UEq35I4Gan3rPgNdQDVTjIzUXx05NJLel2MkM1GiV7W37z986ueSJxw-JwTDwIobQmrmqPK-fS2o9UtE2PBhVhci_BoNPQoKFG8_TYj8EWBIKvd4CyGhlZRu5BAOIBzfFnMAACjCh-utdrtfR4SxKIx5PQD1l09Cw6gOv8xuXQtq5rj_Zhr7fqnWkRJq5diUI5oTnYz2hPH76VnGFB7yIn4LmfascVN1xQ1HRs4g7imLQOEVITdsKCGXm-78V_8IPs5is7RdHrHCnQmbQny40RqY5UhfJI2pXy3rU5WGOh-QEpPe", width: 4284, height: 4284, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108752601406621007985\">N</a>"] }
+        ],
+        summary: "검색 쿼리에서 높은 순위를 기록하는 맛집입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "많은 리뷰 수"],
+        tips: ["영업시간을 미리 확인하고 방문하세요."],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한국 음식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 4:00 ~ 오전 12:00; 화요일: 오전 11:30 ~ 오후 2:30, 오후 4:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://kanbitenjin.owst.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13439906698073345149", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E9%9F%93%E7%BE%8E+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코리아 레스토랑 한우리": {
+        photos: [],
+        placeId: "ChIJcfdIyYWRQTURmQaXepGIbPE",
+        placePhotos: [
+            { photoReference: "AWCwydhl3B8YlhVBtBO0sdpMQcfFGgdIdunfdIy_ZB3pfIER2s_GMDqHNuUx8cOqcPYGsk9qKUlmsgljAJwYeNGUAOEfpJp2zkMd9J9Eh_7CRf_Bsw0pB_dItM4WnijtU7NDYWp6Zq0x1_hs0wZMHVZEDU9LUzvdmJ062X-LxSfSGOPwa6sdR489njxaoO4E0o7uquQ7lTS-gPQOBMptI7wq2e26Dv38Y1HKlh4vUW74lle_nd-lbyRIb5kdlTt6OH8OwRE2fsEQQrHbN0iV59x0uHLrWZVmbaLDFcyMZZaX698hSLje3A9J4TAw_WXn-DUZ1scBs73gZh3R3IVngqiL9P-eWO_Er3xiHNJJcvcDVLJo2e63FlU98KdoN1hhiKQLJz1ByDmKDsgu3GvIcxL4jheqm5XifyU0yefp5efqMY-bBWc", width: 1536, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117302714371391816048\">韓国料理ハンウリ</a>"] },
+            { photoReference: "AWCwydhR0MKYQznwLADN3GhdHLC919Yu7SDJsmCRVM-yg8mpT0gWNJvacSOR4R37FKjs5g3Swog7FrCz9y2eK6oPx3-XeCo3vrKB7i4aEdJiigz-Ifz35Kb-XtpvbgqLf6V7NbUmh6MJOqDSQggDvOztOMNmlR6u48yc7obtIfyRZEi3coyItOm0ES_cDUwAANfXNvC8MMe_Os6VULcD81WMNAcBXpw-psIMrDuz9PNc3RrAa6saaTSDU6-PAD3ofAfXeZL5vHiIDNvVhVZmlJ2KkB8Fic5HV6R4XTkdxZ4CQObJsEZeeyYXcYlTVF_9K9hC9vW1KJwk5kzLvAdqjtA2TnUKgTRbnFe35mVtxfDH_aMvJHF_QVQwLLKw_neyVjpG3pUE6M2uHU0JDfNSOfJnPEAaSORqbXF4FCKzXOv_omw", width: 1555, height: 1037, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117302714371391816048\">韓国料理ハンウリ</a>"] },
+            { photoReference: "AWCwyditpya3eQvaplUE857Jswmr9EKBO3crRhTip2mAVGrs0yGuNbtILkwDWvtAP7GkIGcWgLrKfrViGGbUOmx_dSXx-qfMAhN9nVSg037XerTRf-WDlS9n2EJm2eV-yRm1L9zCHN2LySwbH9bhR-wfNmkPcp1coHU3lnvYODr4WLSQLPPXSWkAlXWNJiek2eGozkcca2M_rjWGH5Ce4qzf2v5vLIxIEUBQhwR8dvkr9qEm2Rv1CtZwDtD3E99dLoENOdz_LNwcMxjTsIOHk4Pqe_wkaPKhsvMzSLI2vfQgU4KoScfUapTgbJFZWlY7tNqfPqGvSTPfsdUzBsmPvB-wN-sKgUrthQkCRVuB1CZchk3VYAmMf4zF3AN1X65ZCjvUXjm-XUt58Nt6Fvsxlg4bHK6Yr366AGmdMWKAm8rpi5wUn8UxJgycmb9blsV6BXhz", width: 1206, height: 1187, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113036103151105815088\">JK Koo</a>"] },
+            { photoReference: "AWCwydjGuViPvz-iyarqDUkZdM744Ol5kYF1bN1PlfXsZd9bap688NrM6SzW_ts6TvmKQLHbHdgmUzSnGjY5VYvnSir1Mj1w0rwhboKXdEdLmf0nc7PyQCCtvc56jxVD8M88qrZNX5pfHo6GKNmh9Xfu_V_wgorGbqcit-o6Fy-axbBOFj0AhIPXJYt9uOpuepG8sC9uUBHtXcvApNMXA5nHnDAn2THndbKumgojzGg-dhdQPXTn_ufHxQxC-9nubCuBVArqmJrvjY1OAo1cKyrTMBZf7i73wTjbkEwcYqXlrqekf0p6EvBVzo2HsVjBCHAgMWQPLLTKtJLI-tB_sYLOs1eyssXOpHI-RMpBIzBbvOGs7i8PFGOGGvixnLtAdCM2NaDd6aDT9wd7YJOgnJusM7VQp9U4GZjMzdgI7nKFhB1LoDP8", width: 2479, height: 3508, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117302714371391816048\">韓国料理ハンウリ</a>"] },
+            { photoReference: "AWCwydhfrWBlznY_Eqp-E7vK3vkAK1U6384odptaBeMJgQRvCKlqhEH9fQuTFx1XYvkZBBzI8Eon5ra6iIFKjud4G_fHh3UknuLGfVQIXMN23989pYZ9vJ8udyyJoQ8hxQO9euMcRCmuL2f_5D6q7LzZl9HwTctZiok9zIgnrxdz-dmJYRGrzfrm_ffOgUmEGAMS5gapWL8XsoCYOl8VCFi1-PZCA4DlY2-DwdVoLcRxpWLNB9I_2Zo1OmVEVZW3OQpScxfWbYCrhsDRUq4Nr_BiHbQoKvz2X773sNL2nkwGFoaPizRcyg6S4XxHjCoVAcBlPiXyAqKMRlnrH4eCXXjNwhQy2MkQVP35f97AyI2hT7tq31cmvJsmFzepf2NCKWslOyvHIcwplfy1DpD-_igpFeZ5degrwXRZ0Pir-mdyWK-CaXfkCQyDrr8v5leFpEq8", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114448088030383221939\">한글미음</a>"] }
+        ],
+        summary: "순두부찌개와 고봉밥이 유명한 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 순두부찌개", "푸짐한 고봉밥", "친절한 서비스"],
+        tips: ["돈키호테 텐진 니시도리 근처에 위치"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "순두부찌개", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 4:00 ~ 오전 1:00; 화요일: 오후 4:00 ~ 오전 1:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17396429619033736857", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Korea+Restaurant+Hanwoori+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코리안 다이닝 차유": {
+        photos: [],
+        placeId: "ChIJ2SskgVqRQTURWmXDxYP8SMU",
+        placePhotos: [
+            { photoReference: "AWCwydgRTwoZLyityy3JKo0sjWLafAtXkfckBlkLcawajTBWBE9yjG7B1ynBYy4rg9rer2JJNGcBK3_XyGHYnwdW4K53QGze8ybAjJ1b1-qMqplcacT5xiy1a8Od3svqyMp8YkQkFy_gUmpdScitz48LPJaCzxq4wPOnRvg7zJNpxJNQQp2y9LJ_Z4rLz1I67_rFRv25fglu2JnZn9ZEWn23rBfUsQqipKeKcFTHlocpVNqk7hSSbeluKmvotehetCmqd3GvxHcFB3jJXIqlRx4o0Ot1LAovjDJtpqCyZ6zVeXGbB7ekQlhTDxjOhJZEDN63W2mbKO2Ax7z198mBRgCJ7uX-Bhyv9nU_dDJhpAQUOp2PxdJYjBJCZh6no_iwxhH-iG_0393Ik9hNUBZQ-1Vb0G6Al3nlfPVjIGXS5ov_YSvwZg", width: 416, height: 423, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109884938294073790022\">KOREAN DINING CHAYU</a>"] },
+            { photoReference: "AWCwydgRjjpVlowzT3LWcKYA0bHXFvcZli7oPk2Jl9rapO1CI4PdLfvI9l5KL6sKBEJuPChYOaAjuVhq-wX1PYcBgt4vBBvM8AB2g4tWtLEkbajAwTFG_DyVW7BPUlqu6C7xJff9HsUnMGWj7tXo7khZMrYbblTVTTrSk425ZLuPxSQ9I_grKNykNvhdp6-ocMql49j9Z2dyMe6f5dJZzZN0zyGThj9iqcIrNy73YzBWQ9Xf1obkrCsZcqP0kj4Wtg5Pqc9Wb9n3gm3U_DnWfModdpoUIP3gWT7URu8JItyAZ56uQch4urFt9O2OfIHXwoEDm6Dwd-B_8bmKjUwb_IWWQgPN5YziWfojVcQUof1pnDmAZTDt8-I52Lvo5LwTXIBuyrDZ_VRQc5W6_rIvsifl7DQF34EIxQcF5y_i1xACH6FlYQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109884938294073790022\">KOREAN DINING CHAYU</a>"] },
+            { photoReference: "AWCwydhQQ6lFHhfnhiuDrHPuzKSvE7Nm1WxVcqMzFx2eTgt7N6Taxx4o7ZHpwkak5FPVoKfQuH1x7fNybjC_xT9zXsRsgYXgdBubJmctoxuQ-5TfwZHXie-GPPRwkMTaUOGD-HTGG6IZspzeLQ6lefg5A4UJ-EE_vTpqAKiZG1P4_nvkI1k_6ku_LNOgpH2c-uhjfG1xgM__Hf0m8A_oyqOyXVvhMw8RstxZfM4VWZObbRduhNQwtJ5ErXeCUJUZd9fqMvjj6tncPKIwva-IZGML9DxgVE6ighDy5YYwlper6ITbg4pMXmTfYlFu0l2qjA_eACyRNTVFTa8hCt51gk9SE4sHyJZKF6jrNLg7KXiLwbB8wWokBTZcUWi7OuKRVhjticH7aNFGewKGOZ0xPSTtYrrXpvX2FKOu6mUSLx-yofrv_u3pa9hjo1-OyfkqNQ0P", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105420919852295045627\">Keiji Kimura</a>"] },
+            { photoReference: "AWCwydgSoTFvG-OivvILRaMseH80trIxZ2c4sAb5eqofUvJDOTl8k7oJEveSQqEaB3QfXCcv5qI_IoZ6iWBks1kYUwTohWXsQvnJnxZvC1z4TZPofBOtJWOn6mMb58xJ9_MA-pY288KUTKyL7ja5J__43RFrDcUj8Np6BPE_OE_uyLQmsmzMV1Hm5MGGbVa722sNBszdGbLhMTb_xJAcye6UAqxTuMdOrueUu9dzJQSaMvZz2HqIO8SQNkVcHB97V6UNsEkcKGNcaeT8np5q_-xWQcjfMAj2Td4sC6dLeGdZ0M6xdUTGVh4ZUg-UvnE27e4znQXEHskKSRTnGd5C9rlMfVlaLFaBqjtRI1BiRDkb4okBUA0108UfbqXFLF6rMN_mTfAvJLCj_gYDj5vbr988flj2kJ_R95VYFCOkd-TZu886xQqLZYen55iaEV-exA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106225140097565556003\">長野一翔</a>"] },
+            { photoReference: "AWCwydhBjw6BxMAAWW7odW7YLI0yabyXNm8-RK4_5sMAW6ZNKeV3JyJ3SohFDQJdibmz_ej2RJSEIFpFH_sKBpuxyvtiRRd5hgNvgDXSaeaJ3wo9o5IdnI-hC48LN7Ru5zrdJcYjuzy58o6qsoeLvvM1whd1mnlvaLZEFdx5yMoaND-cmTVeAOqmD3LtoERNvhqFvrvBBP847kOuVbuZHIByhT32uqCbpPDBtAYbxqkL8Zt1y2OFreiQbWU4GdrW9yQXPfhia5gL_gt-AGMP1EQNdOR6BchgxvFpInAxT1yQIi4mpyVvd4JUYZXtJARHnPut75oMbDOxsxDxVPppViagkQ3R0ARqpc0C3bKDkS4XTIkO9SiMn62V4tqSumpKv6RlSnugM7v9fXoEWboheG5eaB1_Njg16DNmIE9UYTiAWAc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102558254616321939133\">Violet Sparks</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 맛집",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 서비스", "맛있는 음식"],
+        tips: ["방문 전 영업시간 확인 권장"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "한국 요리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 12:00~3:00, 오후 5:00~11:00; 화요일: 오후 12:00~3:00, 오후 5:00~11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/stories/chayu_daimyo/2804472198300243541/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14215889866683802970", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=KOREAN+DINING+CHAYU+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "무겐": {
+        photos: [],
+        placeId: "ChIJvwGPCQiRQTUR1ph3sTAE5xM",
+        placePhotos: [
+            { photoReference: "AWCwydghoAuTd7JmfdnzOUpgBbpyvUkuAUbMzaaeRSw7Sw6FgT9ozQ19HnkfOsObrPPi-dFRzk4s8EFV5fL850LvcCQZnOsk7UNql2YcO4p1WNhn76dRnLrSOIABP6cDxugh1FItxfnr-WsXZ_Pxk4KsUItfCoWIKlkJbsXKA_RFuqmHU000VDIq5nc4xzxrQwU4V-s2jZJrn3YAYwJkutG-C3DPVyvUK4hY8dqJpE-tA05FdhVaaIc4B0k_UJ6qc2ROLak3XixI3vf4xjK1JGQ17DTT12tOBccCvVouwdj-NGRnIbHsnQ-J-zdOBbQ5i73d3IGRS45bKoXhYtiDHObGvbkBgoYOOueBs2mIczCBI2YNfWhUAD3STdlPUsin2ccJ6c8CkkJEApJgRG30oBw-mMyIi5W5ImKzqoLd9KKQ-xdqYw", width: 1479, height: 1109, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117711703498186369855\">韓国料理 MUGEN</a>"] },
+            { photoReference: "AWCwydiJD0lhknclouqrCnS53y8bd_fG0wkUSWBq0i5svg1IAnd0S_8vlFlSkO8CSnvPjZplRjaLVt1Ygbes6BCAYcB1j3CcmyNVRXoErlwPV7wAWbFfI5NohjY5qHscqPLeumsbedxl45MBNd9undUq96mxLlv3qIMkiyivKPh7QyRaWv7XqTFfPJqBr4rkT7eqUjVhFOLdql0pAnanMuA3co2BHOlg4S8I3ZUsG4ta9xR6IPXIginzOjf4Wwo_lZPRX4YPdrOahd4x2TowPNrjVbiIAnWG_mzti21RgIqUHZSQq350wJgVot2OUys486_QDnBkfDY8dycnongJPJ_fwfQG1lEbtZhlFVNx8KLFQIusD9MO7C9osJYSJN6FOlcQoVHNUXsLnGnsecgZw3p23lzeTNYzRuozAXC3nbO3rtSo12257BMATptQLUq6ig", width: 1567, height: 1045, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117711703498186369855\">韓国料理 MUGEN</a>"] },
+            { photoReference: "AWCwydiqsWG4cqAdLdPDYzH2mZkuaSq463C687vQA5snPFdNNbVA_G3pk4-_r6nRjfGUpWsorNKuII1V7nk4Q8FsQYzmnDPGjqZo2e_W5OYJ0hl_QsPc26fGKS86bWnrBOCo85YYuV2xsvbEhgQchNlKkw4M3mu7to2vnsnXYLAQ7GczhApdR5RhDsP4PJgBg5Rlb3Di1LIj2gbepk0xBu3wMjhxFfredKXubZ7t2YqpoVPU50zsZ3IRPTfm7AOEJ3v7_z61Kh653xyFxJd2UPEyjYCQZd83n7qj_7hDXirc8HKA2lPriu4OBswW8TzhtzzLsiNhAVnlF20LkF3JNVp6q8jCruJdo3ANriv-I63S0dHnTGjXo-BvSGxLIhB-0wkLbBN6LRCw4GgWYAouC_3HKsRFbDRu-EFabaRDS6Jy-Umibg", width: 768, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108655222572950209505\">笹木ハル</a>"] },
+            { photoReference: "AWCwydjOuswfRV_7UaS6zhKgzU-kYUsY40wCwJ7SKXgAmJnruewL9eyImqwIueWRcMXTBWOjQyTh3vubAqkrba85V-5zBgVvudy3-KN9DDYkgb-YHrXimXk_uWWAOpcLTq4q4C6PpT1tiEj4gem8vhZCR27677xbIt1JMQJN7kIgjcqZDUpZJIjUwumQ6v7UAuuAPeaY2NlhxIm4A0i89kn3FUDFf3eWH2GsBTUFNTinXGprZLXuWdx2tbrHdcHucKrWq1R7VnusckmcxU8RoSjgMuzJZLcnQ0DBWR2En_QT_0tqGF7cBAXar3GFml6YSPKNjv9b31lRLQfY3_NVKnHXJtaVr_9xg2OP2ev6S3PC5SiR9CTiai3FT9gsOKt4oFR-YwOq1Z2v0bgZq25QZRwQAT4BOjT5BvmhRbGdDCImp5TDtw", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101376505530359980070\">taewon Park</a>"] },
+            { photoReference: "AWCwydisgN-VVSNkQyr8bogtuPxwVBGhRo99f7VDc5ZPTwaJnojvkfi_llgZYOg6Fe-FMfbKbs7D5Z1GNyYSTLhAcFaPJ4LNEsjCuqCrlwLYtSWL3jyzArfTtP48L9XXuIZnQeRLceUE-CP8_lQgzTiLKDIJswi3BCtf28VZJGR4az3iW4Yg8o198HV8zv58Nfduqcp1tzUqSan48gVfCay-MfhPyDa-VdoyXTNGsU43KuQwzJFiLWcD2HzcLdsLdI-D7qFpk0cnea-1vGUdQdzpHplHNACQ_Qdk1AlqzIhU_8HgC3NipBaU38ZwfKkmRzuZKhCpxYeqge5gUTN-WDAu_sobdrqmgAgAgS25RMsORw5B4Tpl4VToV-8hulpfVhLene6jhexy8XYc9zDCZgVjceDQJKhEVN2KyG8UI0-4RnScxFw8stMFzOV5PJSlBw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114305919330802333455\">猫先生</a>"] }
+        ],
+        summary: "세리 삼겹살 코스가 유명한 한국 요리점",
+        updatedAt: "2026-08-16",
+        highlights: ["세리 삼겹살 코스", "친절한 서비스"],
+        tips: ["아이용 식기가 구비되어 있음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "세리 삼겹살", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:30 ~ 오후 2:00, 오후 5:00 ~ 오전 12:00; 화요일: 오전 11:30 ~ 오후 2:00, 오후 5:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://mugen1688.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1434119613523138774", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AC%B4%EA%B2%90+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코리안 다이닝 리": {
+        photos: [],
+        placeId: "ChIJzQxvqIiRQTURD6z1VmD_M9I",
+        placePhotos: [
+            { photoReference: "AWCwydhbiMZ7FkOwTX4_RSi3iSr_k5_6MhN09I6Y_pvOP88sojlGui7cl9zuKivCNl_X7DAIJgbbtl8JTgUuRSwUUxtVGsVhp_Nq8rppuGELR3YH2BJS7cAiFTAmcmR6A85N37MfPOA6a1NlGgg9FeK-H9HW7UEakC41IFfK7UShajKKQB9D42FZRKd5ckJQmYXaBtUAI9YCXl4fOWrOJ0SNwGS5KJdncZKQIPaOGIgYNrl_C-CtbNl989Gtm9DiskgT_wRtwwbXcKdwIdYWW5DS_mE2SoLTehWNPEl2dbG4SYiSjTI_bl4hZZONoI_AwS7Wwu3z1R5mGSSZ9ilhrNbVHriSssQkNcelS8o0E_2zrgCtXGVA7GrqlbSzQNbATOZF1jYH74gadOFSXelk91tqSiYlC7OUDXfHi8lrycR4C8umu1kdBtys35mId2K1dw", width: 636, height: 352, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102962939495376101209\">KOREAN DINING LEE</a>"] },
+            { photoReference: "AWCwydh10x1wSV07peRCHWz0X0eJE7DRrx78_-_EIK9bmYjp5Ygk6KOJ0RqmDGAeXsQmV03eThjHAw0LrkWcbUNbmRnWvTq0UKA3U6iTjeQV6xLUYmRtcw8wCenroOlNjujeMoB-gPqmho5Ez1iwH-fbMtfnriOAD6g2vQwUk9J5vmumNxpCA8iLUxcJuvWXb46H4UkP77k-uBwdXA6rtVInb6EbxLgebTGt8Z0kHcFJzU28LO-zFHp8iY4U-k0FiFuDauLv16ITi6tr9vlIz3PkqPreHV50PUoUm4HfIe8y-F_L9vmu684v3eVXMB6nAOxcsbHCDk4WN5nyDt3Xzxcr0akfUrUAAA9kJ-5vDYv5byE0Jp4MLf3DVSDIyTjhBi9v83rl4wsvNfwkNt-Z8SuSbZ3jjvCrnKqyabE4yxAZJU66Vhl7XcAckTHDQXkOhbSz", width: 632, height: 354, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102962939495376101209\">KOREAN DINING LEE</a>"] },
+            { photoReference: "AWCwydgZgapS6QykoIUv949lIs4ZPTrK73CwCHjq992CZV6opUGTsozKRq30i9fy-oRxxWNvX08-TyZTd1hztqwQtC15VXEA_mbAlIGpqR7RTCXmWg8YHSUONpoxBHhBLuu80ZkeRQtK55aPz_ld2GkodaU1dlAEcbnePvb-CHH_piuW5lcxLPZC--6TZCQowuHsPBTaJnKXrkYt3HyRCzqefKGkuHbbzDPHVuz0lOItH8TR_RUc0dpJgvnpBc3JAgUb8_Hnz2t87UggivJ5_Pz8BerGorWHQArSXxMikPM0whBl6SdOkQubVLuXTajgbQsHnxTj-gIlM_NkT_5E4uLeOdtwyfvd2wRi_Js8t01k1_V7OyyjDdZ_4ncebXSTLr4X-IYRtJLW_NqWY8jSzBUmgkT_sq1_Hz1iWCX2IBMF0oUA-A3TKMRBOKYl6DGucTIO", width: 4080, height: 1840, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108634501674980789276\">M Hiro</a>"] },
+            { photoReference: "AWCwydgzQYJN0tp0TmBxJjWtBKGMgj-hy1FQE73Rwsyl9li_B-VyrLJRZ1hSwR7_r4H7syxNt4dZNIX62hrMm2JsmZ287KORu0O7qCxshXLOa50-kbd7wm74X_dVyz3el2oVXCUur06MbVHUex_nwTF5HjSJAUCQsWB1YDWDNyDumDYwZiOgA7RWygDv2pWXUwBUx8a2f6BHTdwOF6HwtZ-WpQTn3spAHNiiDcQKtkDQ7Vtut7GkbaDgGGZE7nH30pYazbrHk9irvxh14x02RzBS4Iw2Exxg1IIVlrG3CibRK8i3VgJ1JPZxpE7OSjTYXN7lfiLORlZmg_Csw510-fM7IWFDdfTmEpK6VGhywA1rgZ5glpxMVw4SBoL5DCdKYbEVO8i6_lvb1hi1HHhmPewfpQgB_VjGh9GSr_l3YcGQ13fiI8V3kpHPbQKa0nDMHEEO", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440875198852567986\">Papiconext</a>"] },
+            { photoReference: "AWCwydgAaQbsN7yQWtFyRSEnLkh9L0Q7uAgzwANk3Z_8jOo2rStHJOwsOrktIgsqohIOM4dVWJPP6ujsbLyN8GrFNOJliW6Ic7eV1fnLYlyy6flhjCroihX0e_UMao-Lg7BEAImCwfsk2VYY5Ijd_RATIWgmKFKjKDw8fPJsWo27ZUqVxzImaQj4p5Kh9z6BOvluBZR2-BTlrUv-G9spaMJAbXwTKP-LAm450iwyYqO1qcgLfbWmpmOhynBJSBegrWECtB2-v0PNswFHvP0g_QLS8yTf2OBA86TCfPuqHItqjAZr7B_KBJ2X2bOxMlIUTPPywtpiMrFeg3xC11F5YnfPUrSBckbxmE2SOs_0lIZkTC1Ny3Y9lcD6EfLZKlQcQ7y_ERL8VLDqBTZ7nvkiLTZmaJicTpCAsbaT7y7PxTKJUqpG3RFXBiJ8AGMusKf-6pXt", width: 1108, height: 1477, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116383834268693572008\">ナパキャットワンチャイマックス</a>"] }
+        ],
+        summary: "가성비 최고의 코스 요리를 제공하는 식당",
+        updatedAt: "2026-08-16",
+        highlights: ["뛰어난 맛", "친절한 직원"],
+        tips: ["코스 요리 추천"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "코스 요리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~10:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00~10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://tabelog.com/fukuoka/A4001/A400106/40063196/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15146730761017994255", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Korean+Dining+Lee+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앞으로 니시진점": {
+        photos: [],
+        placeId: "ChIJVyoVyKSTQTURzH-QFCXLjZg",
+        placePhotos: [
+            { photoReference: "AWCwydiGbENzRF9cdVyxS28EqQgwCwy8N3xNFhQ74RWKMHXLhjqMgEw4tA1jX-rWiEHHrdNqxwfDfRGVkb_8x1qtr6h95DPshAIOcJXmoMuirwsXyq27XI5Vlqo4b9WkFPik4yIwLKhbROtkQXCQzjs5XZysjj3LHDktP7oGDfjnop00HlC1vaclwNGKCh8G1Q02CXuimA_XAU8br3rd2yhnjuaemvQsOqK78u57I-vshaATIutFnB95-8xtT-H-BlqkoH62Txfl-vhsBQ7MQU2o7dZP3Yrcz1xKs3PoeDvJek24lU0EGbRkNwS6Wuh31sP2zmTI6xQEMytEau_veoPd0Btz0KxG4QJpjdQpm3V1yECiwFkEA3t0kmIndLp7mAvrqc1gQs9NmvdyqdztcCFRKmG5ixCcsQy7-_7ZSlRHGhbJ70vFt_ITLw61OJ-uUQ2m", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104190277081354747720\">小さな韓国 あぷろ西新店</a>"] },
+            { photoReference: "AWCwydjhMFSejPrrMEIEwRmT2g74a0jFtpsnOaKhPx50Xv2bNDoICVdWJhgvJNGXaXoMGBWLSJFP3D1vslmq9DgxySrgSOahJvBWz5ApAA-VFnmkb-RfMLrLzQ988yUWHA5oG23hkqKZS_xR1uGvNO1vKGFyuF3t-3YM7Ov0Necc0qDnKM5AlUjMcPODOu2kBPOD-GH4LINbLgNvA4NnG8CGHbr9wXUxvUtUz4Nn4pHAYQcO738BkFY4ciNhFyVITWAXrOo0ekvyunYMydZkGjJAuBTdm6FbmahvNMQ3pvjaX7YCy2bmcHMLdyBe2L-WaHXatrXvoRrcpmw7Rbaa73taHRznHdpsG6mQWXatd9zvo67N5R28whn2TnJl-YfLPa6ElNIH9FWhOQ8c9ssRQ8oguarTdR3PMQ45jtGmurMcL3g9eT-WMdk4CAxKusUb3Y7W", width: 543, height: 679, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104190277081354747720\">小さな韓国 あぷろ西新店</a>"] },
+            { photoReference: "AWCwydhfyMMAUDLgY16-1yFFd_GJcQ1Y-sWr5EyY4tPgPjotMVk-wDkzwlBEa7F0_trnU3gf2ED7ECTrKu5ZAMIuMASLVj9S05Jqx6I6sAHeaJ9JWYawWHiabnditBKHeaXQXTIg4STXUaGwdYV3sfnnTRSVsqk90HH9A4kE-RFWfvxJ9sICZW_0z4UKD9EDleOWh80gTyqwgjOeqPkwFr-mUSW_O-WdmsDHYBlg1iNI77J7-k0y96GpSJoO277t3tZLJPXzFasZ_LLhktaJCZ7voeI7Zaa6MPbjsS225ochU4lcAaT-haq0Nm-NfeAaaRLYxI82xAKz3_LPTL3yd1V11Xz2KhTDEkR_kGVCFX2do6qyToVqc_s8RCte96VSMXWldgX9mkfFljoXaSKkWjLqQOg95Y0fnI_DuK_S1q350zpSLBeQMBzfJxJcn_OdWEVd", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117327216474407964123\">M “A” A</a>"] },
+            { photoReference: "AWCwydiTs2LxdOsEurHLA8J_IXbczfOAlPDSAs0KSAw91A1BHhSgCMwwlLmvQYc3nAVNFsCRLo-1oU1HqDWwil6zDRvwNikV7G-b4nKzonKTCKQ-8i7bADaZmLZTDwJFLpRYAT7EmmDm-ATnAzJiHQqxsLgo627teU0DLrrMBEWt_iFj6gVVWmPV70YP3rwHKb0hJlfXzpJQCWH1V0KekAA3rxRtXjdU6D2azgP0J4wqustd1oNFr47W5ZwN47Q4SkUlnQIiAxYgaKOAsUF59S6ETUiIRjfGAst4EolbHfa2ltvazPMoeAG-C_2S0uOMfDeI1wntgMPfwc991W5AddzWFh5S3dkKORbk9FB-QDoygaMFBrgVFiQvn3rDJJiiGZAOOXPfeZi0VTnZpuvceHCKMmRsg1EzDxaE_FK8vbrS7P22YA", width: 4100, height: 2310, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108869038364133616516\">小さな韓国 あぷろ西新店</a>"] },
+            { photoReference: "AWCwydg4rZEVA4jMH3ECab0So7_5rhCyq_FLLyo5jM0-f8GvddLY9zb4BLgRGNCqOnm7gQuxP73LcDHIRQG4_sAStye9sP43YBRrfJiDnmTZZwsWQeZvbsH1XdlUilfjZ8BkbFpXFO1O5c3jWFdRQDucH0sZi7mQTzOab4qgnSyVWOpUmb_G_Z8Kbmhe2jaMg4jiyAkvFSpTfW_LgGK747lKcOWwoxX33No4YoQOi74EXmfZnrHDrfkdo9Kvn9FymHdA4BExLLm8bjhwMZGajc0QSz_o-sKtM6NVt_HSRRJNdPA1j1t4iOiK0a30sRc6NdPR8I36nrI2NvfmHsf7TWlb1xamUah1KZtbQtb15IGIE25EkNtLTh_VLLKxk3xsqaA9w-4cwIfkdWuPD8_GmXxbw7ZxnbKxDMX0BWyOyxC3D8iu2Gzb0uW4rgjGgQnKBs6d", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102407127095841663896\">紗凪</a>"] }
+        ],
+        summary: "다양한 메뉴와 친절한 서비스가 돋보이는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["매운 음식과 안 매운 메뉴의 조화", "무제한 음료 서비스"],
+        tips: ["삼겹살과 야채를 함께 드셔보세요"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "삼겹살과 치즈미", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 5:00~11:00; 화요일: 오후 5:00~11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://korean-apuro.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10992665625600491468", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%9E%EC%9C%BC%EB%A1%9C+%EB%8B%88%EC%8B%9C%EC%A7%84%EC%A0%90+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아프로 식당": {
+        photos: [],
+        placeId: "ChIJ0VNph5KRQTURkg3tiWT2BME",
+        placePhotos: [
+            { photoReference: "AWCwydgmHQj91Ab4fMKX4lZ898q3ruv8UL9ZtT6QHLIGb_udVbo7jczPbfJ1cj4Xs1bONQkUQGNigFOjT267VeC4RcP80CJUsfwJz_O16UlqdoBe2HS1E82iH4P47KaOVS7sBeyIEwqu0BjlF2drx5XvWjWMPQ493gpc5e5JZPz81_uZ_0Gm6QbqrESi4piuND7JVBLwIPcfX3SFVmgFL1cBGFOHWipq3qdQbPOdtq-YjMlv70VFlFS3jmqt7N-M8Gu7sIuXifEtgLstUwesi2kUbsgSkBo64uKdHV9-1qBB0m9gIAS8c3dEAUXo3e2eXH7J7xSNjiKS98yYJql3MuAVj29SbSmXZUH4BYfsjUW_CXE0438ID5BKMcFzL4vcfsZxFsD-GpoC_HQZ-IdaW3BrRh_pCw58gH0gHu5V1YkpWEe1KM7jZjXeuhPjRFVXxqdz", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111755542479336450513\">Apuro Shokudō</a>"] },
+            { photoReference: "AWCwydilw-M7M_OhnXqNXeGlfmnVunVTJxdxN3-sutO-jGDUL2tNHIEYKKXyaqKM4krm6Ks6v8TlSEhB6qaJIYCJRvVykxq2jICTyflRIrOclwo0-VTUicD24KRSoiNEM4kHokP_t4RkfdaDTDPRCIFKNAQhoiRXmPeRo_UQa0vmY5A9Mj95a9sXhC4YQDkYgq7h7uDsi0ccQAE0NtFazvBisLdqJVF0mAmnB65rGF-y5lZ7PRC9gSmQegejOhhYm227-nAD-2RQx94tfeo6G7X9IYYuLIwAkX7m1XlxSfpKGXQBQxkmDx_oYu2Lh578CqH4oZg4tP9oJ0newsFXLHtSGNJSOYxs5Zo-wrcSVF5IyH0qyyLMBKq276xDOW61oZXC2BY0IWKIes33wh4D3kFUFdObGXCYzTjl_J2YDuAAoY4j_g", width: 2048, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111755542479336450513\">Apuro Shokudō</a>"] },
+            { photoReference: "AWCwydjwPUgCYU601eUVDBVhBd-MepZgajSGzwwNA9YUYrNNzFYCwx_9Hl-WL7evDD6DnSLMfxi0oQ3vPq9bzAdCaI-nkcl5l0_egYcLT75wJfo9pUjkFsLkEnAs-uqZ7pEZLFnvvLSp7EtLHFHl0a_Vm-wi5PngS3aqidD_hy8d9zWMn2i87mog95GufcQu47sbvdo070FhRMkmTHE06R5hgxiw1LzUij3iDIJ7vKmVig9pWMzsxzdXi6A-G_9YjpuoXz2gHzLfVbKsTJCLxhhcMJxH504ERPHImRKvZniIF6xFs2TCBQFKAuBr9NJLPSJ5Kof_m-okdgBZ2CEdSH-NN-Do0BT1kW3cwdTvC5I8q6hZkN0Wsq9K_t55uTsjUSxXYM39EgCqmhYOZlTMDn8kPYgEVIM0eMD1qin--n7isk0B9wTvO-TqCaHntpqB0iH7", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111755542479336450513\">Apuro Shokudō</a>"] },
+            { photoReference: "AWCwydgz3hNI6ee5PYHzVcwyk2x4gdqI4h2HbVFs0dnFN4PX-yIe9Z3fyxPjs6yDZ6uGTBkfPkpxVswzBjBTyrEHePOyWMkH5pE7TJ3aQWq4vz74AhsU62iv04NEJeiPmp7aemco2wwPxC3H-5AeJEm6EKMyUm6IK4hEV0CgyrZJBzxNZdqNnuFtFyWHKU-iOTpDzTWjhxQ1x8OVzSnOJer81-th8YvFiMGAOdS1MkpKIKHtYRiOGvcqNw6TIdN18BeQHgLM_BYZbA_YeOdgqkaCa6rJcztYDI_2CMeeSvcdaXsC7dgGoGamsH9zvpyn9P-n-nMRumgK8STnasiPUHZgUeYDyp_l_Fcc4phJh8sa5iceIkUK1KlVia9AHvu3D7gnd0MxeLrQyaF2zi284Y3qGlBeJeFX-PxLg51sNGYFEBhiqVxtpJICAKMkrsOG7w", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107227708518208251978\">田中</a>"] },
+            { photoReference: "AWCwydiy9sMeEg7tIJjKyr8CDcH1q6ZmsfNr2-AzQtvrW7BhVZGPzl6XF_t4N4UoNphYcTF3xyfd3fPqdulWGo6lrRIUS5IpglC8ZvkTZ06M9jJ1Uwn2KHBxkLlqGnUsUTqDKqy-Dsxd0ucimsxcIxiOlQhzfV337WyQ0zOYjJGn4wFA1YX2rZQShK_TsuHCevlIaGQYhNa7MrLRwFMjJFYqqZTZ5J5XCLHdzpPG-iFHv_qgkfNLp0-bEpYMbC0cFywpuaVBuqFP-kXyhfr-ymthsCnsH8mkBNr77uPiQ57R1w7pG4rnf85_hqWus7xNTorjrw9PHyaNZz0g5-Tnc1z5xPjflR23QJ8qAH-aNBQ9PCZUv8lrNRW_LwEwd9GJpevvwRoqjdZ1wpQfIQjRBQ9q00jrz_hh_XE1DwPKImHWLBuGDvelwPFaJBOr_ztbQK7s", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111755542479336450513\">Apuro Shokudō</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 보유한 맛집",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "좋은 매장 분위기"],
+        tips: ["직원들이 친절하여 방문하기 좋음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "맛있는 음식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 11:00; 화요일: 오전 11:00 ~ 오후 11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/apuroshokudo_official/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13908512460898110866", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Apuro+Shokud%C5%8D+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "한국관": {
+        photos: [],
+        placeId: "ChIJM5vnLwCRQTURGw5O7RLp_vA",
+        placePhotos: [
+            { photoReference: "AWCwydjz3umFN7kmCBg74zUtTkJhEsEvYNnvs-9MZmudpWcsY5NjSxOytP_K2ZMMeVP4QF9XZLt6TVgWxVxuur5Gfrd6quknTFJecvn9MIC1xnspJrer37WRhEX8lihaWevvNeix_QOhPsA4ZOkLqnwYsKzFtuMqDSlMVNNcMd18VSV6ZGxTm0CMpj1SIg43l7hSurit0caKUCc7W1tL5spOb1Y1P-xKSnMokiFsotcZ1XnTz9potPczsxALhBviZCQc7f2IYr4wmCSMQVIDNu4LdlzJPC4MqTn2-rl7OUoP_mb-cgCDdVBZqrwiQ4gDBfd4g1exYE1HReP9ETRQeQkAVTAwfuyuCYzTOydPEPcU083fxc7I-_q95jbUsUL4y_KLSIwhiB7uKyuVPo0UsobEn4vqFOSsM9wx9bnhjdv-J5eXE8ny", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105771902829518773054\">焼肉 韓国館_炭火と佐賀牛専門店</a>"] },
+            { photoReference: "AWCwydhLSitgfEbpApTC3fNFdk7Rc6mLw_k8YaeZECjrCgUCebfGkZFNNJqbAXfwfJ059FqbakTBSBF1zaxJEmU-ILnjWkW86NdmZtLxFnRGJ4YG6-A42mlPbXkWDgRwX6JmqVmJy6FhEbgHwx4ma90MhyDch1HqeBJo6LsjpN4rCrxJ0dM909JnXcd_L8kIul5tMFSA1pc0XYKyR8U1dX7W8VvC9JtdfDz5m6K-LKNIYZFj6ah4L7cbkNVQlV_0CxZBjJIZD_FfcPPuhPWN4IKpiRdkJ24tj5POmYLSKDtQJdjd6YSucyAlHJUUPU5VKbZEgZSPgrRTDw8T5373A6SfUlcFto_PCwGow1Y7EUuRaPf_OdeV89b1G77a4rx9F9lgr4rKmBW1euJEuwgzl9-3IL0TwQblbdDNNDpapYgrmXxek4SmPzGZ-Ae9A4jhiw", width: 758, height: 552, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105771902829518773054\">焼肉 韓国館_炭火と佐賀牛専門店</a>"] },
+            { photoReference: "AWCwydhv4cgeQk1gkd0RceTvM1gceIyjM5_iTkwVPwn2R-xHr22NAzd8grECauIYN7iLQZWFdJylWgoI8C8reqviNpc1ixNDBS998PlA_3O7wdX6R7qXXV53uI-lCdlO2_y5IsvQ7y3AKpWIBdHEJKAliYhzTBinYnFdKyT73iuFNsxdAgenNw5j7AbQgYjuev8z4bWSieFcohX0EUhyZtfCnfv4hftZhhDlULWe5pq__KVAK6vHNAtGBNN8db_sGTwvJo-DjEkADnuR4fgkpa3pS6XBPc4_HSyO8WVce2q9P6TC-ZKiPyS_K5GNSgjZpUw9IWt123OjzxiC26s8vh_UwTQnFY0ApWmrvl81rGk82CmhAYy25st_xls_MZEW0fjD-svpICG1Pb5vU7EYtpvOG3ut3IMXkmNSO6QjO9eKHoyOYHv7t21S2Tpkcq_zaLs4", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107076754394546377792\">朱豔強Duncan</a>"] },
+            { photoReference: "AWCwydhoIp7POn8pmcSuhGigQqt9ZRy51RjCdVxgFGciiVs52JzHWGaw49TTQUplQZOe46PBDyND8pCbQQ8oPCs-bI1exSrjKFrk2U41wajE-S1CX9yf68fDiogiG4K0tiYCE_sEL2QvZ1kgfbyo0swmgYuzfy05cRrTsyvkXnXRsEw5G8va9Y_cm4nXBTXX_dIzKYMbTfdFlO1DV_9y4h-8EMq8iLoT_kDS-hQHj_-sJ9J55dHY80H5n1xgwAyFFzXR-0jCQocqdKuFb1ax9uiqXUYUnqACZ-4nc9MTC7FLQsmZB3GYn-VchmVWaeNn8I-NbCuoXxc-Blazev-jjahXiCxavNLXZP5KbBSPmeFpo2SDZoEDMAIRW87gcQf243BiwQlIzkt3sECkVWyCCqN4mkP1V8ImQWqKQgaDmotvGJFqabxrmIY5uP9p9ifrMuNV", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107259940356863488892\">정하영</a>"] },
+            { photoReference: "AWCwydjVrmbaK7VCYCgvCgQ1J-sqtiXJEQlvjlwg2mIsZDSlvOTagwkvspt2uGhS8gu_6IKjsuDHp0iWGw5i_72acPDN88zFr0fY3BUpY8n5iVYnWGx-wnMPySj1lszp0L4vmwppOJoLdXMaCaaPi9UdIak8G5nRpzc7Nn6gtqDS0C93pbUXKhkOeajJPqoiE_AfLIUdxp1oWzSWY-ZBhRDLR70j8R5zgnNjw-NGZPj6ytAhM30DAp7zxGt9tSA6-OU56YqcJjUsowlM6dXnXXHXQ7fne55C4ypyN5c7LyMTgZXyiFiakVdaiyqTWlJZX7v2gv3g6sfPTLOIrKbHsnlpZ_mBr2yfADcRwN1XTmdpmRQKIR0btcYA89tzgje3SV81tNmGQoC7ctkJhuaH_8q1QkgbdScntemD7qEbB2YSyYlqG7z-cDBF_zAsnZxtRRtj", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102788352301949590862\">隈部博之</a>"] }
+        ],
+        summary: "친절한 사장님과 맛있는 김치찌개가 특징인 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 고기 품질", "맛있는 김치찌개"],
+        tips: ["김치찌개와 밥을 함께 드셔보세요"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "고기 요리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 5:00 ~ 오전 1:00; 화요일: 오후 5:00 ~ 오전 1:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://fu-kankokukan.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17365573480687210011", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%9C%EA%B5%AD%EA%B4%80+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 라이블리 키친 후쿠오카 하카타": {
+        photos: [],
+        placeId: "ChIJfQax9dyRQTURQnKOI_ZraPw",
+        placePhotos: [
+            { photoReference: "AWCwyditFn_TJ9eEYAAvnaf8NVNJOzkAoujgWd6b9cmereCScXGWruMpeQMBfYjODDPSrT5MqFaXAU0PRHmjqc8mLiOjzpn9QYHsfeRxPvVEZd1CIn7TKeZ3cn0LDDrlpF-rCjLWoAQiXG9yQaFQKKfPjFEdetzhkGtVemVuCdWOTe-VjwP3UyQbc71fxkNPkJGU18VXaf9NWrD69_mjNRpWfl5rkmZDGuqliWESEhysM5tQ2l4LOk9lYIgg6zAQ39oiATv7K2Agn52a9TZ7JHxS_Sh9Fv4a-bgOw5LOKCYIq6hHzk6DWpUxDIhaYtCKt6azzBDq0LWke7yx32LzcempZvdL7KBNwM_eVyUIQJqmRkj6iFAm2Jk1k5jrkQSSHNJmNZTiX3cLK8BXc_7M4YcC7UJJ4IzNjlgdrIxom9d9GLIGAQ", width: 594, height: 446, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108042832725089195291\">ザ・ライブリーキッチン</a>"] },
+            { photoReference: "AWCwydgCDGzXXqPPAWmsQOFAemPjd8Th7-UxbMjKoCEckxYFrTXP2t135u-CjFcsK7rn4oMR5ZGu87hprpTTCN0fwtrk-7Kd8Ub269-4Fbv-OLZeazkxm7RRqo-MyhIYbS8qAtznaLBQJPyVqu21ne0kAUdmFWGcMq01hnzcm9UO4gfoDqwB3hIf_HVT7R7Tjy_ybbHd7pEIMPF2-7iAiv5tWsjSgwzZF61mDu6SeGF234I3Mb1G8HaPaZPVdCTGahW9pIvuBqmVlBwtmV9Is9cXmtz0kAo_xeEAEnaPw-J7qxcJWGh9qEIoxjkuJwBnzqPqIkBkTjlKjRRAf6K9QUJ4QIt8HvXriyPJzfrH9P8Vg7k_IldmRXciSXToa3HbWhWC2mueQi0B-w1kTJfttI0_5Lyi--cMRCjhC5N2yA_1fg37NHFVT3-Ooh4QKo4-UXh9", width: 2276, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107846733311758425176\">HL liu</a>"] },
+            { photoReference: "AWCwydiH_vo-wb_-Qx7DKemKVxEi570tIsdmxOupXqsfS3X7v86uDIXZuJ1trnqvlVgA1T3EbRjxoLbR-O8S2mfU0Fid4VQ21RV2mQ29WlcWTM8pJPYLKeSUYaqrsM2MDYUuguJ5SKyuwOn56a0d_BqOKMSEsz9aDPiurMddGrYkFFZrIraQBBgmCWUZ935DNW4iClY4UfPmzLyG_7NEYVGxLxy9Ow7NJn7mTJsercFueN3IUNswRuBFcf_23LiOjLh0NvkF8KFB9LmZ5U-fTRysu9rjywu4xfrXRqGOpJbrfMwgzeD8FLrE6aDW4nWzkhoqvHzUA5N7dLCe_iYUu626e_fp03LELXLT2LJVhIVf6GAsBkKsPLvHP1eQcAmexpM_As6ex_4EviFGGp1C6HgM6JSVSwi_FJ2iD4mzOrlWS6tpsQDb", width: 963, height: 963, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108042832725089195291\">ザ・ライブリーキッチン</a>"] },
+            { photoReference: "AWCwydjb8auA2irp49LNWsypp0rGCckNsYcHm8DVC6ILg5pd5YbUXShNrN451yIZWorUbP_9kYISCZBfd8c7dFJEmLr5F1PTPVxt4GjwTsmNC8qsLaX3IPqCZnyq_DEezKtUbRqNK7GhSnxge6fF-XWdXGGpMfRMTYHSobnMWi6S9QFVo0p6hXy-WGWYrxCA3FhkazxtbTIx5LAMHzZP3yiHT22yHcVRcGB0ZO_v40SDB2TjtdvmWBdgRSz7ri5jwdRZnDlxu6cKY1it4MGHUWwtlXQmjMk6aipL1mcxdvSeWQYPkdswviv8Lk2FkGEgLyYVl7mAuJKWCuBGu3oVRFrqVBlSUYDuUMWhE9t3_I6Uyo6DWqRGgHUEUMmDcY-jMGhIPXyUl5luUMpM-B5oby6acCYJ2hGBfE8KcN8E39Ku-a3JhIMMbRFEtxKkm6dkfQ3C", width: 2276, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107846733311758425176\">HL liu</a>"] },
+            { photoReference: "AWCwydg4mv1v-GXep7fWqwz3J2FHaJWuOW0V4kLZty-0-8P3ByPaUssPkLkj6o90legNOK-i0_AgZwhWVol3ixiBOsBG-6ss826XtGCo6eX6Rldj14pNAq5fZm9T8CxeWQ7uf32lD5pLxeAx5piQvBKpLR5msenTZTXpC6IHTLMP_dLSYs7wGMJPwhEOCgB1UswMXtRbNvpV5SwcEjMOR85FHUiGYZE7PuIP2uLr6IOmnhShYcni-bsojzSaI2Nv2HEQrEnALGyDSE5q11OASLqfQBJh8qaUjtsKvI6f9sCakyFQpYGhJMPuxOFMjchtpT5APK-G6r3vs8mZjDZz-fEctu7MyLPW9aldAMVy4owKItBqVwsATRU3f5QmML0UX0snHB91SMHzHyH7UD7robsBKuk4d_p59IZG0n-E8UrPSTF5CbFOSp1vp5ePmD6_TDwI", width: 1440, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104622540404277957627\">S T</a>"] }
+        ],
+        summary: "인테리어와 조명이 아름다운 식사 공간",
+        updatedAt: "2026-08-16",
+        highlights: ["감각적인 인테리어", "아늑한 조명과 그림"],
+        tips: ["기념일에 방문하기 좋음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "이탈리안 프렌치 요리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 휴무일; 화요일: 오전 11:30 ~ 오후 2:30, 오후 5:30~9:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.livelyhotels.com/ja/thelivelyfukuoka/thelivelykitchen/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18187905800038412866", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%9D%BC%EC%9D%B4%EB%B8%94%EB%A6%AC+%ED%82%A4%EC%B9%9C+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%95%98%EC%B9%B4%ED%83%80+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "써니 사이드 FUK": {
+        photos: [],
+        placeId: "ChIJmZoJaRyRQTURvY__KNTBJvs",
+        placePhotos: [
+            { photoReference: "AWCwydiobO_I12G_hWEJuoeWGiUUoyqZCN70mW6bZeh1x5T3O9LvTfCSn509FNGYpWkgKYjtVqOI1nc9g9Y6P-4ghEmtPvg27fLMpKHeS5-b9jRMamaoVLw8eBhQcpgxOwbm9ko4fKVS0spgU6AEnpIqatQMDnWxBpRl7aRRdrCSFzO9MHxweqlqoeOniVdmWzzw_jL8wEKIywC8D2V_3QtLcmaDu0z5APYqBM1310R99uOa4ERnTuWbQZ_zXFIHQyVateNGtUnhAAes-MeHctzQwMbYvxIgRGVA8qoah7cEue3DD5q-XmDdPo-2OSD-NPZizlRxn-ojIi8knd4m6b3aNFUz7prRc2NATA8J15wPWOXJHkJXUG5crPecuJgcvdpIHip2miQ-Wrf14gF5x-iY-ZfWtbluwTak8IPlxGjXjJm5ayMdHumzdMi44jbVmoxf", width: 1365, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115694343699812444053\">Sunny Side FUK</a>"] },
+            { photoReference: "AWCwydhoBJ1_zH2MnV8Rg2qApW9X_kFTlV-T__UBEMYNZCioVU90OlsACfvFIA6kno0_nHi5rRVImnzTEV9zOXF5aNHPU-XtoR_JsgUugC8YmgvIpoY5iZrlREFUptZ7EiH-c-fz4u_p9Xq2QKdrq7falMc8ujd7gWQhaxn9l0Vt185S9rgj0CUtDUy6Uc5Yvx8y8in3DloO_ecaJAm3Tv49R0PmUoZqEbTWiXQG4kPNnZ0gsSHwSGlsCd9oPdE2WzdETmt6abxU2IzHFaEFiC_2oHGcKvuCehVJOjMtUrdlWm5I1ZV9b1WS6aTJLVDmEDiFdnMHaqLJS-ONxaCnqJOAKgZTaWtVO49tsZub8uidVZYI-KsPpnIvAdQmhHJGphSXMlVj6K4PR9Fd9O6DBoeK6tyOjUfi7EyEvWKe-uFTs-B4A5V8-52cbWza6bhGLWsa", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115694343699812444053\">Sunny Side FUK</a>"] },
+            { photoReference: "AWCwydh_fNlyV0bD0drDP1ZerLg_YEnxzJNXj-nAC1wFzGX8ty6XlG_EULMx3ZsEz1oVlCy2KED_vanFziIlglZ07b6utrn4ZcEobf9MLpO-6HBJeYFaKsLOqJgy0fuK8ikauFvdC31vsLahGez1jM-F7Z1kHSLJ9k5Cd0dPO41PlYM9CPchMbcWuKtkqQp8pRTYn_J6dBD1ZOWFtvGlMsSbivmlj5mivfn2EBKnsYoz0mGNM990q_Fs2wyzcnG2i5zMeS5VSUUmYbCn1tIFvGxoN4QcaqNDoLX4DetSYGShG0SJU2XM67r3f_MEi9b6y15pRA8jhqqtNkM7ur4GPzIU9Tfkxl3QB0_476YE_Jmtw029uU_qwRRBNPHuDW5fCWG6NQZZwDnSHy2oGFWhrDzzQFsjkALwajS2CSn3OlCr73pHpSuAOJ90-DJq6bm_vw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101307587568077633961\">규린 (Kyurindate)</a>"] },
+            { photoReference: "AWCwydhVlBikhyHSpGdbW16ExksZO6iY7Tj_bvsLyAdj0ejbANWEeAOglX58XWNo2mzyntXxqRO3OqnQvGa1ua4jKdPtf2sNqAvx-HynZDedLx2lKuCem_k_GTgCjxsHP4RcZyoIoU64SYVL2WIlMjMdC97xL0PTe2qoSAHHiySNY57LAojOsITmAF7PPGizrJNA2kfJGib2PcThQX_X4cdQnrGWDXJ9iRxurupfrFabD1mJasZgLNsWnzqIkXwW1CBIvT1lf0_l-Al21O_o_S_DmP6OuJWlPhm0380gs0ZbXUAkG88CabS_26SkaXHG73S_Vy_RvLTMQZFvH9GjuzGfoId9-cYh6vpoty8YF_4uZGIKbgms95QmZqcpZEcEUd5pJN74U1RQBEKCQV4z0omJb5HuLgIhFXVQIKivfyhGV--wFZ7h8VQjDMXEv5TVDw", width: 1024, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115694343699812444053\">Sunny Side FUK</a>"] },
+            { photoReference: "AWCwydiXSNKA6_gMWwu1xLV_BTyVScXcv8InXoVWNWh0nlOrtl1qjFhhEJkTIMJ7qTku8k1cWRODD9omtRwvXKEF29hUOrmjDpY19SmuNP0qCfKP7Xsw8HlOjs-UDvfza0IVGsh8FjQf-L-fcyBRhFv4KBnvn_3Bg8mW7PRk9S7tyb-M8aLmZWJxgCKEHtSWjYORYMxAtZrJz11rYObsqjLt2LdsNiX_nhTT4bW6ZgZyGrOsjqjb2Du40z0-uSoKRlxICO93ISYvdb_LQXECHsZ3YGpFM3EMWrF9GoXyOxDONNqZylWvZslxNHMFW1QIwEil7Drxb4MSURCSMLnBMrhY6gYSkpbo0KgQ4KdLRkm4fwpuM4mStLl5yBm76aMqTEzxJKRYcX0XN5IKL4ts2liHlOUZyUUGRG0u40HVHcwTX7W3arn0scMPo71btTHbQsEg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110757658069401230797\">한호남</a>"] }
+        ],
+        summary: "부드러운 계란의 오무라이스와 육즙 가득한 함바그가 특징",
+        updatedAt: "2026-08-16",
+        highlights: ["촉촉한 오무라이스", "육즙 가득한 함바그", "바삭한 새우튀김"],
+        tips: ["검은 소스 오무라이스를 추천합니다"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "오무라이스", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:30 ~ 오후 3:00, 오후 5:30~11:00; 화요일: 오전 11:30 ~ 오후 3:00, 오후 5:30~11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18097365269599981501", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Sunny+Side+FUK+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "올 데이 다이닝 코튼": {
+        photos: [],
+        placeId: "ChIJI4rGZ7eRQTUR7O75i1cTPgE",
+        placePhotos: [
+            { photoReference: "AWCwydhMneI7zQ2C5erac2jgeUt0uUtvXw-GZfnnsAhN9UbjKr6A7dR7t7vkgEOe7R2NP3bcxhZSDSXx4V6c_81JC6BqjkVGN0lCjqbfzXYb5ciILmKRKbPPn3WNm78NsMZdOVuVc7BvOaW8zGbyQhWGVRAJ-KikvPPKbgULZnwEJVKcLnFxjECKNl6Y_7z1PuUvlnJv7PxvRqxCVzt5Di8V9D9GxulJdCFk80roK1td3IEdmmWB1JLCLTx2GfbS0tXJoPxSbOdzNiHnB5H-iX6rTkWEzO7n3CjYKK_zsPh38oaNXiuARnQYNmCMZ8dyJuLt8OM6SItb-QHy2j7u5aRZHasq_ZBfFaDLJ8kpu-IiLyW-5nJ_D508EArGF2KMwyQFreIJ7a57ssJpbhzwavvQea9HnW6bGwlfcZhjhdI7_L5SlXw", width: 2128, height: 1418, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103102557150066422139\">ALL DAY DINING cotton.</a>"] },
+            { photoReference: "AWCwydi49PCvVW4kiqdGYWVyrwGwt-0MyGc4IjqJ8xyNc0_BD7-wrnEOR7gLb0sKF_75_fmXRQAtThIE3vpXvMgoiWj8ddxcFUd2-SVIuS2ofm9pQGzxScgKFn_wtOFoGFQSC5yRxbZ0TCl9dDyVb_K6Ny5LIWEV2kREK8DXV6I18A_9QXtQHG6irwR9DdS8wNyX03iiromOSvWu_WEIkqgC_41RdW9P1adwhAX9Yh-VA9fwhfwuZxKjtMwcxVA0t8IDv4dSzxjeJE-eRltwNLGPrTZQ8qUtEW6IiZWvX5I8Na-__yHFfGTJ7R7BH4KP_w-gCE5F7MRQV_7GpZBX2nZLvhaM32EFtDIbj6ahtDwUoJDA6y_H3PjGvMECFganVMIE7m0nXB4z9gNnFqqYJi-A5u9FivhaQR9PMPdfo_aTeRQFinyGrnd3pfcjCPvGOg", width: 2160, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117224909027932621679\">オールデイダイニング コットン</a>"] },
+            { photoReference: "AWCwydh_xxmKVbDs0bDTmuwPIZoF3CIB_z7gXGhcBLdoM-Uja8lDc1yGgSAVb2WvMdcIo-_AFSHcXyE7oZ3di6m9oBH9db4-gVqbTvvFFSXmNLR5DJaptluTOpGKmv5IhfHUAiO3gbaPjAAy0MIUwRAOPrgHgnuqosRLXXH1Myl6vHJf59xvxImc3bpr92TGqSL69RsykbJewYcEJaq-CaocQxrGMHioIdMlKkj74elc1J8oj8fYPiGOx7UdQ4XJPrFHgkmtxTDCJIeeHGA8AlMgSP84PoKxi9wzOIRexQjR524PAXSrsEYKOkG6lm1DG1GxHhi2EquJSLBbabtWPlAcKDfQE3mEeXqEE5MNJlt6zwamL7PsDBkSA2mvQ4IXJ7Zjt_KyuVwlnmzk56RMgvGYSHp_hgnG9V3jAZc6ig5B5CU-WTRhxq-lAAvPM-sl0BaX", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117224909027932621679\">オールデイダイニング コットン</a>"] },
+            { photoReference: "AWCwydiU6ocjRSFNbRrjUExG2YxgKoSN39YXNAo2OJmddkh53F8rW23JG39oko_rAhNTfIq59x7Hclb3fdsukcuuXeFijicyYDZtBcHo55sAbs-zFM4Ih64gmCDc9Qq34s8XCQjOEo0FPXvz8dEHtbijztc65YcGfF-2jW82MlVpomKFWkZabRtet-SdOVFux96jPMaJCQJ26ycvPNp1jh90kXIcXKezXgDFQfhsiCB8v5pWSb9RUwgASdJOKcU1tMuqYzwI-A7lVesIhQRqla1mEWTrgEAcZ1vT6NpMON7OWGhsriK2O4xf94K7rYUBIf66XwFKJcoNpi5XS5JeFkvgH3h33o4f8G8leEgogZolCw0Y9AYT0j1v2a81TMCSO0twY-GVERaiWztPMPd0X9B7NpgL6kJB1n4cevS3KCyKAclEVSfktUeboany859RdyN1", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100801354677539657543\">柚巴</a>"] },
+            { photoReference: "AWCwydgGxEZV2NSvA856a0hOpXgg1LbmafQMCcYiDLnLtpFwfirzdCmWH6Mdbx54kkfOB-qOBFC4XGv-WxC8uumySrTN2hcTIGe97Cxh5gXHVH9zTeHkoKtELYjEasu8jXJmODUT13zCfBGG_dtA8skmrZUzfTk7OdUtuiif0hNURJ8LQ07yetxFsm2yKw0ghuJkT1IeJdhkf4CvNFYSGH43jBJMZEgE5dLDWpz3-0K8dog0xVUQnhwvLjbxf5IfqOnnNRc6yYH2NMA0LhIdmStmyn3N27NtGvJa9GYYFjCbx-Cuqro3ayse3S7_ShkHMuRW0YOC27KiMPQkb13NYAJLjo6pTGSWboDOIMo1pDOaFTV8q-Yevpj3lV79Rplt8fUGoljgZ4hNsfKSmYFEYtCG-DGPLRa7c9QA0ihU5Uj3sOEA1b3nxXmB9nMCzGUa447b", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103261655143298695186\">Martijn van der Sluis</a>"] }
+        ],
+        summary: "친절한 서비스와 리프레시되는 분위기의 레스토랑",
+        updatedAt: "2026-08-16",
+        highlights: ["이국적인 분위기", "친절한 스태프"],
+        tips: ["맛있는 요리와 함께 여유로운 식사 즐기기"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "서양식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:30 ~ 오후 11:00; 화요일: 오전 11:30 ~ 오후 11:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.withthestyle.com/restaurant/maindining/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=89530309325483756", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%AC+%EB%8D%B0%EC%9D%B4+%EB%8B%A4%EC%9D%B4%EB%8B%9D+%EC%BD%94%ED%8A%BC+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이쿠라 하카타점": {
+        photos: [],
+        placeId: "ChIJ_QTFQXqRQTURvX2aemXQ24M",
+        placePhotos: [
+            { photoReference: "AWCwydhUU-hMGfkGBZ6bkd4BgtrstJyx-maFIylufMXWl7toKlfGdwrgbmAhI56hIzf5j4ZexDf2luUCul6ihBbYzBSoO4Wewa4nEP1y7FZH4T5EOLH_TXDOog7fBPp62a7D2OwaKtMznrqfL75wWa0PAqTliXCp_62BVkMXaI2DRpeelSD2gt5lwypZOxpnPqqkquZ_CgcIdxMS7o2AhHPkPqvdCJx_QYiS4jXUPpCWNHkDzFzHE5C1_p1y0PNl9tqem3XP6fIpEF8Elv9yK55uZV5ZOo6lEjGn2W8EuJfQGaXCpP-aaixzVyK2tMGKWTBduMN8nsP6SLQ33tj7o0mrf__NN8__BIVlBK2h0S7qJdsYxx5ipJpdOX82J2R1mZuGYROT1sveWH5fp30O81I40wJbqZMG0RwlNHrXF1PGfbfgPHs1_hb6FTXHXf8sbU-I", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106634796954428331699\">j sky</a>"] },
+            { photoReference: "AWCwydgkrcY9Vh0hyh4NCjCvGF8oGpzffDZBG3CVmnBKbKZT3ZhBZp71rQjVPUR3t1c5PVsBNYleV8E9cWozijuLJeock9u3xA61H20F5wR74nukY9KunDkwhY7jrqBB4PUT77gdTR87YzS6IkGAuDYjJg14_eOa3i1YN80-PLa2ab5sowIkekY5o9zz4mIEwd36p7aLcD8-T6udRh6yE6Z50f-_Idl9icuLXhRPm_6seTA9tHegijnH-uNRWuYLM30r65aJLynEjNMEa5kC4cPpT_ldZmUTpNy2xgc4lIquunktcNictGpkOcsoJuLVkeryj9Vs6UchEdmq2e8fOAZnE_uk4liqxCDyMV4npqtAoVuUcumj3GYR0_joAhrgAXRTb8JJN-vlV0GZJPuCU5aKamqVTYNp-jrPQa1gIrxlLX4", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110596255554899458409\">いくら博多店 はんばーぐとおむらいすのお店</a>"] },
+            { photoReference: "AWCwydhxCi_e0icP9uQ2aX03OHuVGHedLEGSUDkfXpAeD3e205otx8mZs4D8t0zBXPOWM0M45Gyv_m6D7jTWbQosvH0LHf_ojjM7denlKnojFs-4N6LN6WcvarJeV63XUjusGBkCWLr7YUJDhsPHNbED8kBcruWuY6_wxkpX1kk3aqK9kl-IoNRcIBQSXoAzfDqmT8SZBHGKuHYyFoXlVGqwZXVNiw62WF9ssQR6yCZ-g-n8XSclPPONLu_-Z76UV4fFr9LPFcYMi_-MYTL-rdEsoP1bMRdUyuBkIZaWt0fwiyzDMauvI3ez5jir0xlrz6fNs48QdHgV5-qHpcTf_4EYKTJtkNu36104XinPSrwVVEyLYqxwmg1ZOwCZnUtqM9_SeSUDTf54tzWi31Qduj1lF-MrhBinQjrJ7NdTnyttszawsDJeb1ZomWVrlWOhkTNC", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102214867438488445368\">陳美霞</a>"] },
+            { photoReference: "AWCwydichCovnjQqMJ6Z7sE-m8xjI_axCTUFWHisKQSlET_32h_TyLeLt-t2tQRtSfq7JlVJFjHMTQuleA8nzMnPtCbshemqTuOQ5XxHjQD0mb5e_lCf3eXI8M28OYgqbGqKAxQGIG-xuob9sw0h9GCdvlH033AlfqYw5OuQHDenJlMPrnlRqPlTs7ZfKi5nXGWJ-lPSWfWQrr4V8rikdwQC9PwXG5lZNbMJ4VbzjZ5g1Tqv-aX_NdZZcgNxeaPigNiBXpwOpMBRT7y53meLdvH4c7mH_nB5EokARj1j0vkuYlN8WqSz2h-9WkfMfERKyaHCwMC4gFrFebq7gYdnYtBuizcm25XYd7x3G1Xs5FcWBHlJQZRcm0PCkbedlUmOtmr2-gyNQC2aeAX7sbAwmZKbQ4jkoI8qbNrPoDrTzYPzhSoYfuL1MrgjNxE2o9KL5g", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114468551026269359173\">박지호</a>"] },
+            { photoReference: "AWCwydjFVm70hOl-jKJ-DQwV3v-ksagxOE_ceGCgGS-8KXZ9wnSNM1i_i_eKZon3sQURwEC-nvnJJVehOKOP1v9nWggmnESFZs8QxEvHd3BO6YH_LeXd8CgcgYDkz4vuB2mxoIOudwRyN-ZXxA0OvvmDFSx9HfN_YcJQlPkANtGrDf99qCd_-X9jGaxV_eKWrwNlWeOCgIsJdWJtkAWmD_U0xmLQ8NY7nLWZIOzwO_9dB7vPElZdraYxod994kGErx8iGBAL-Dd8eVSiTacHDUZA5jPu16fRtkoV_csCW3i0H06QQQIPI7WvIj7fB4U4tZ_n2FZneg6Z3WmElSdtizLXvjHHtNO7RNFq7DNKvYGf01Cii9JjX2WMB6KJUV2PJTPUniiqtR_1J8baeMkWIJjbOeHfXzus-LsIWEKvt92AyP7R0gclKnLY7E_nQ6MDNw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101307587568077633961\">규린 (Kyurindate)</a>"] }
+        ],
+        summary: "친절한 서비스와 뛰어난 음식 맛을 자랑하는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 메인 메뉴", "친절한 직원들"],
+        tips: ["치즈를 꼭 추가해서 드세요"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "서양식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:30 ~ 오후 2:30, 오후 5:00~8:30; 화요일: 오전 11:30 ~ 오후 2:30, 오후 5:00~8:30",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/omurice_ikura_official?igsh=enNkN2VlMXN3NnRi", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9501416973135412669", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%BF%A0%EB%9D%BC+%ED%95%98%EC%B9%B4%ED%83%80%EC%A0%90+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우오덴": {
+        photos: [],
+        placeId: "ChIJRWtUuzuRQTURz4Y11F-39kk",
+        placePhotos: [
+            { photoReference: "AWCwydjU6wmb-arE5jtMn0pK_aBrFuFZRefLyg2_841kZZcRsDlPHfPqiXgWfAXAF6EnuAAz5RYWCP-F8btyhVObUakKGXxUgXoq7lU4iVXNrQ-5y641LG3Ti6eJCewuAsJgPIuKJHYWXjHiKw3HFlEWqTPp0XY-wmVgd6Q8AZ5aa7sJQCQBpUIe6YjLIh5RZYLlnVf8Zl4RRhdiJFS0A6ehpOT3BHHbxkh1zxVG4Td8v01jPZA5VNrlDfTbXW-oDxhkxBOyOpge8XhXrQoUIBMzNzXj8hAJaOjqd4iqn6LnEwV6S6jyGPtLsV7f2Kp00Gitk3JLf1D61W9kwEMn8pN7vLb3t31JlyEuozMc926RS59hnkN7N4yDWNiWT9MoyWe_I9GTY8qPPx_WXRPACMyrCqJkYk0SLcfZ-MwHbo31JGSWdWHDClRg1Ispt3hZ0ggX", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117920890578440678834\">博多シーフードうお田</a>"] },
+            { photoReference: "AWCwydiXSXvCuL1l3m1ZslgSV0d0MHcTUWLPgfvZCzfG9gv7F3YrJD6KEDxgkUqSRF1oEaQDItclI3_3DqvDp-DYrdV_HVpy0moxGTKo_W40OfYEhNVcbgOCroXcz5O6HOVYNAknk6ctj1HVEoBplNYpXst7c8bB6xebAvmzyHJgne3JpE0eBHOs5DbOxWm2AoYeU65Bf0EaLiktMRl9YE9VKReSKtD67zFmNwZVY1HnbBk0RlxALuDUdo8cnLqnl8GXEteo7VGnPQ7XK6bnWv4iH89NgpoUGsQ0797XlbSipNl267IajH4CwJyhvkw7jWRwVsc_DPaXkoVdWbWIaJMak1nvS7c7AxvoNOpPpP7nRkjoJzm51BsRQ8rsBCU854ybyp_SIPRhman_33JLtZok_VogJt_W_TEeoq9xnp2Zz1lO5BP-qHstmQfGbCdImw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105521036104195720628\">장교서</a>"] },
+            { photoReference: "AWCwydglku1lIzOA-c9DrtKlrzkyvKtrzM6YSThuPFLG4-pxjZwESXTBQ9Ml6kxyYRxyhbxbxQtYThlaEpIbSuhKpSQfXF_9KfzQYRSGHLR7wdrt8rWSZOMJpFxr-yC5bQKzs3ye9WOiNf_Tqcc3N3b4jfKHzI8gR9iH6N0wFL8dgdjoUj0tFFY1c3nGDjMKng8RAZvBtp_yFMMSYifxQcCkMwPqfvrxI9OiXxCUUUo5JlVboIFoczKtkJxqzUtxNOzTKOqDNXtcEkRVWNjfms8j_UWw9YMIcqgSmdCy7IAQNGtvCUbt1C0HDenJDCRwGgDSdl2OfovpuF3kmKDBicS0JRG9tLxfgv62sSOO-Ow2Q6rFf8iZTxsPVAiu5Qq-XaG_jAHwdHNKwfrF180wkqIy4HjzxtN4z_muel2nR_SIzaHjsovoWkWaAcmCz_hX3qPM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117920890578440678834\">博多シーフードうお田</a>"] },
+            { photoReference: "AWCwydhvStO6tPgdEfyQmfOzt64NXR_HEWbeYs2F_1ytX4D03McCEFvB2_onyV-4ur6T-apCf_Emcqjaxr6gTG6ssl37LAv-qIjM9FPpZYFpqocuxtR5XXGGurn-hQzTfyelJqBeNofFrq1kfSNVKsHrFY9K_zSM_hrYHvlmQS9XFnOLRw893ow92pSFJ6Y2Eh3-kQiSTbtQ-Hwo-MPcDVuT-cnQasibCd9xO5Ot4t86sjqk6t0kp70DekjEZMaaFv1CAx4m7TlC3xtpgRZjuWYwqr-NswF00oWubxxT9-2qt6VNz0dh_uabkQfnjQbT-L-9f9EoqXAXIEq8QkpwaWoE_bcm-GCMsMKq6lfL4DqlYSqsw2w72g484VnN2IupTZcjBOcaZuxkIpy06PIRX-TBvSSVg5P61OXNJxetLf2CG1jDXPiyVVUl5EUNfdSz1y_s", width: 1177, height: 884, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105156955150099668431\">k m</a>"] },
+            { photoReference: "AWCwydgSaj5qmsVIlcJsDLK1Y7X6xJdM5mpi0YHpN-P5KjgPxDK0DbX_ckwTGn0tIapNgGekaa4gbuXIQya7RsR4rwrjn1b5iuxIRme8CNanqBCkLG1m0k0dbDPu6YA7VCgKV_6F02Hxn8TgR-jRZAOFe7d--ZUlC_pye4mUrzRhRQuSirxnue5sXDwOMkCo2aycTpbIpcAanLzM4rOzEWpDiWHxiSvI29j2QJHojPuQQoGiE8rQ_29jI6eDJS0jme6ekfn5M8H3q_OGaP84pgS6LzxR-9y_7ln4Tzp9JcZBaR4QkINcRXubw2YDcr9azhX7k8OQk_JHsr9RlkaAFIDnDjeH0DeblazD1q3m4pXmAZJuqu6CKB6rJju1eGNwH1z8oRBPqvMTob3AE0nYroy0nx3OpAwjasS7Yml083UAwPX5OASzZd4qGSyyKJ0kBg", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115763310095171702700\">박새연</a>"] }
+        ],
+        summary: "강변 뷰와 고등어구이가 특징인 식당",
+        updatedAt: "2026-08-16",
+        highlights: ["나카스강 조망", "맛있는 고등어구이"],
+        tips: ["대기 시간이 길 수 있으니 주의하세요"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "해산물 요리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 4:00, 오후 5:00~10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://uoden092.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5329648831249614543", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%98%A4%EB%8D%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시후도": {
+        photos: [],
+        placeId: "ChIJh8_VLMiRQTURBtjJnCdOdz0",
+        placePhotos: [
+            { photoReference: "AWCwydjNN1PWKTDku7mu80b6nlODNMUPAmn945LwX6DPa6J_TxOp7JmQzM-pGBNSMVdTtLUGffV2fHXZiFP6-Hse3YIyjZxxyPS8AQ_6m4fDEnPofbuDj3A3XIQE3RMG96npeBKOppyMT0Vw5-WPSoL-tiz7uCvQ4FmgR4cAsMolBFo_v1edYDnp1Afh2R-bkHxzC3htQqBmd4nz6Xlq8UW5sWQK9qIOPdBdqZ0X8CWi2-CSRaUjiVEfMD-x62DCPzHvGT4miL0eAE5N0kEasA20vCdP2clQeNqJwTbP-aSMrFoXBCATDGyKBJj5i3LX0Tp9UlEKLftFtKpSVgvjqq_T_1J0ZAupaCsEtreV82nE9pbhNMkGrlcjHtJvfZsQneYrYMfMGx7VoKTGPUxTM1Brn97QE1l3YzHR8zwG0gfS6vGJQQpw", width: 1000, height: 667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115230948775811321553\">しーふーど</a>"] },
+            { photoReference: "AWCwydjnVINuMZ37HJ_XYZV1jYEspG1RTPIt2TyE55ibLRhcG-5JkjV_CPA9R35OSIdCnlr9aEvAa__k9GT0fZTQLFWB6aFO3BljqvUKzi0Bv15IJZlYLuLvPjsnPPb4HOJMIUGizsKWK-uhY3YdkM7N534oJ-jvPm-tB06Aq4Xz5q67tURzyiXQZd6GT4dtA7s6sUqltTYOAiICtd9G3filK8BmYRmTBuw7So-fJEpOovO9AChlHQLP4RzY5yNUTkgIfYdmyJVBeulw_GpJz-j5pEUfKhtNWOhd1gQGp3oIsV4unuVIS5amebRmTWaXSdP_6tstA-KTkq5de5rpYUFsKMOggauZykV9poZb7swupHXx5biA59lSE0cS7gmKA26Tv9e1ZSgBDkETvPnvArt3W2f55LXWCbngQnM4b2NooUnnO3GqBi9K_tbdvYEvL126", width: 660, height: 370, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115230948775811321553\">しーふーど</a>"] },
+            { photoReference: "AWCwydhJsGXr0lc5YY_GYTRfmKqsA7lrLyhG6cHI2bvhoemjpeKnCqCgbfArQNOYcT8MWgAnwhyOP0xYBNX0b4PxjCZy9RsUy1Z9un1Gyg-t393viJbrl_uIelFELWC1w9F8uxxK8Lk5EGY6h_TH_yVYvH5m7dfl2twGG4h-yjfXI6h0H1mY5hsP8GNYQeMPKpEo9y7CpeARbF3WoONpBqpSsUUWRHiGVROUrOBJne5h7zMYY6eHu2-FGTkCZDXyV2hBxy7XS8FMrADMfQQOp7SrkQgOPgd8zHNwkrLcQncd-WvnrYu_YcZejXsidRqaVKmqyC7pIyQaM7_2iFEGfWvVBZ2BRKAOBDsoplDNdUtIyUUmceR1xSGF0m3FNdIl-A-btI0StyEE_PY6E83bCPAIONZKVoHdb3idhWZ6AEBkr7qWwWmBZIv0-JMZE6CCaUrS", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102716745447080210294\">서예진</a>"] },
+            { photoReference: "AWCwydirAGTyca4N2myBI7Pb0kOUDaqqbl64sWj8bvJjyd0YiipOFf2XYfwcOzF-McdZFatdK81rN40jeHACmMpfrpGgUEhBC29HdMByFyJFgB4rSg-FxO_uhgQdKvRPwNN9bSaKGFcT-hifrAx7g1rtJFqbewqGOkpvKvbKhfDo5cM_cB82ILxIXcJt0eMLTE7ly4YsDsnKOZEE3x5CdiryzuExAkC9TcafftfUP-OG6ebHjnc92nOrpC4voYaKt941v8vvXj7CbbtdFzNW8-37i8QKWt5qrJPJdQiO8QSyxYe-9oy5GLV7Husp81wpihm6fH-bOYPo5PTSTZD7uocwbMilEiRx0jXz-nfgXbfKqeOMbhqGcmcLZkEFBZocvlGa0Yxn9ANvDngAY5J8LLZTgf7T6po4DWrXgx4XbCw1npS3qI8VlZEW6x17f4bYj-3K", width: 640, height: 479, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355731111916114753\">悪魔の抱擁</a>"] },
+            { photoReference: "AWCwydhnwxByILgCzs7tGh7Vp5A4Nh0OYgBCUupRE5nLykbZOnIWa8bPSVA4oVi7ghTMJWk4aU3A2RFyQwSlkM3bfQhEPPhfnxcfkXbH1U9tkuF6YoeAxc4jq_Zq-UaVyfxMk6eLv_9l7NulmA70AcBOTFP1cfnFdPr4E7y3s1nrQ7Fx2M6KlwwNa5xQayHNGeQsKiwBtnoB4u0abl4O4AZ1B3v5GS2pzyFXi63-kks14oE7ame1Ul5cF_pfvWhVIlTJQzDnon3s5y7V9OwoLWHstk8ZH2o9QAbI0uss6YjN38neGi8cxXFjBAoyDPeillRNEyUPCrtDqPlrMp60IG8veSpL3ScUfJy3a-Erg4WEjzRIR_sviM9B554RDHshmGp3q6NazH6qePgvykTuPgae6jkl_5m3QZwjf5OILBteXr4yjmTkuq3yQKoAJp2BCg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107753408027304227948\">暉寶哥哥</a>"] }
+        ],
+        summary: "친절한 직원과 활기찬 로컬 분위기가 특징인 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["현지 분위기", "친절한 직원"],
+        tips: ["휠체어 접근이 가능한 입구"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "해산물", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 5:00 ~ 오전 12:00; 화요일: 오후 5:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://seafood.owst.jp/?utm_source=google&utm_medium=organic&utm_campaign=gbp_MSUPHONX414455", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4429094690583336966", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%ED%9B%84%EB%8F%84+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이케다 센교": {
+        photos: [],
+        placeId: "ChIJlevCsbmRQTUR5AUNb5437UA",
+        placePhotos: [
+            { photoReference: "AWCwydhmlC_ku_pwmB10ep2h5Ai9RL4siXuDR6PVngXp0jl1GbhN3Au9DjEhhWqSkmPL0eBLiDG7nwdNgFoUzFSZOr4RjTexNDV957DQq30mI0Xtfniza8THrjCVTN6RKPOEN9HcYHY9AzRRNE3REGLKxfa_J_36fnVqpO5ncXZWZ21K2iIYrTFQPfxAqi10u6ssRH0BrEGffs7sLTMHtTZhJ1QfIowbBSLhlgUVMX5hf7nGvS8OAM_HtBh_w2V4B7GzLPiAZueEHnu7GgyQUZufZn3ABC2c9Ym57Lp0MxB2ibZUaUMW7gS-Lfv5g40G8wdSyktA966k-_b5XOegacobwLJbhTdsLc28zHNp229hMNJXhAYxGgeEGaO5AKGtbf0mjXM1ZLfyuiY4vPGVMC0V2gzxdvuVnqkYamCWokkf4jnWQ5TJIJ_X04MoTkDrnR83", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117121374378218434718\">(鮨)池田鮮魚</a>"] },
+            { photoReference: "AWCwydhntLoBZPP227azMg8Vel2tAry-NL60Eag6tqtAKChamTdW8u4g2m483PTOOxsrUsURcWVEwWX8uNo7PytjXI2P_OJ5ujfw0tHjUuMiodaEsVEz45_L3FGmAHgBcDcbAzF-L0uRfF1DPRjDsTDbXZYWF48eLojbD8iXo50QTMTWdlEpGRsBto2vF2_B9dFj0rV1wzWSXdSopg9BbqqsUl38cdP_OExORMygvc6yHCt8DIXsTTQF3-jYjvxIMk52B1gEV_-ML08RM034aIF0WFys1LdhPHr3APFmTL00jrC7smA_CpaBDTCqI3_CwKY2RSW2ZwgWwP4gXoutgd82q9Y-u11wtDLq55erwvFrPYrQxIiPz3gGi3pKoxCOh7YVH3pYpNxoqZq8bSNuoMEw9xD0P38W5Oh1BtcJAuD8ZA_dq8sIUgIKMNRzsylxixIQ", width: 1566, height: 1044, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117121374378218434718\">(鮨)池田鮮魚</a>"] },
+            { photoReference: "AWCwydg8vx2b7KlcshlbPuNZKJ8z5B9jiG_z-XzzI9HxeQqZqX7hhv9U10VRqymg4zKpxRO6ZkueLeK4djkFiMr1XFggCehH4rT8vuO9n8q0yT-1yUdiplLwvS5i-CBqQFSHbi0cjvu_a0g9xDx-gi6cPO0gxPIjSz8GGSuayLW8sB2x5xvILMhvjiPFJ2Cr6-dsDFn9OvUEuGAEMPo3PSCdthttYRwxiWqpGbPDFpvEEAG4W6tnVUxO7qzvuN-Gguu3IeAT1GnS5gmevF-uwy4ISKQcntu_RDRhfufuNI3cXMt4UTYbHW7xKfoKPQHgU-Bc89eUJGdL9seipIvfJ-lqnD0GwOvegmsZk7IwkJo2TKrMKkqJWuuN1pwL6kYdQ58J5aTsb9hsr2SsVDe3SDzQItqZLDj6d90gOL4GBCh0-icszmgBgi3OnskZOfxc3g", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106462440904239489688\">アヲログ</a>"] },
+            { photoReference: "AWCwydhHBHrrnGl70vO71LRQ40BsbtHMGUYTDKBE2VtyvapEVmwHu25cyOL0DgBQRrAeOoi8-KlFAd0pkSRWwkt6ifrgTtwqw8ML5MkJuTfdKO0lBhysBEZQbHAeZpqv2eTL_DBPMlaj44l_mmpzN9XSl15DkU6k85swS0n-AwDPvF0WxpNbFq7zJKX_T44Qq1RkVtGM1LsxlCkd_ZJ8InghszG3VJOVoKCAXec2rq8HaiPO10fL2WAWmhAmtV_ejvwYSWXvOzo0JIaFaY3cc9gJLWz05VhCRpHSyH1XhOR4WB_SgMAw1Z3lCnDFCfcrU90SvDxoYOZL2bbGJa_DbVfIjJm1fngN_qu5Po5_vmKHeUO9df553fe5IIvHYgf9pl6NloJJ3_CMogBtPRZ1hv0EZiGPEpdZ27la5VrbnbGm5joXVxTwqNBpaDpqX9oZfER-", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112238264699151041054\">CHO</a>"] },
+            { photoReference: "AWCwydg7FVnNj-A3bOIrSocJAeZDuae90EAbznhRKJF-mGzbVBevZpowT1a6mtsxQvLsGypxcNCCmyBiwoV4YC2C90m7Nb8DIOdZZ5y0LCAS_aM9peqImTnhmBp7-u3yig17We4BJfFvvdfbkMOmKQ9XjAnLt35kCtPG_7km5aotFC6OA8xH88luZ6MDSO1FXTsjZFkp5xO8y6oSqcX7fdTvMV_UxL9g7ECu8mK5wzz3hic1BW5EZutU680TGDJHj53CIQzCFdLI2GrCYA4x18BQq_AVOmu73aSeePpNF2Ve9qxDYh_bJpvmPeQqEUfIGbdpIUKAALswLoPVksGml1cMyrLEOe7ZvvYzt4iQ_YovCF64H0MVo5cgp7OdvFS0Mww8j-Dxz7DqNQl-xr6Xc-3Z2OF3Ifj4NK6iJqA6pdg3pwN8pZe_dGDvUi0SF8yaKA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110983169068623003503\">Mj</a>"] }
+        ],
+        summary: "다찌석이 있는 신선한 스시 맛집",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 스시", "다찌 형식 좌석"],
+        tips: ["밥과 국 무한리필 이용 가능"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "초밥", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 2:00, 오후 5:00 ~ 오전 12:00; 화요일: 오전 11:00 ~ 오후 2:00, 오후 5:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/ikeda_sengyo_fuk?igsh=MWtjemZ3MnZ4dWJ0ZA%3D%3D&utm_source=qr", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4678456741515298276", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%BC%80%EB%8B%A4+%EC%84%BC%EA%B5%90+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우미노쇼쿠도": {
+        photos: [],
+        placeId: "ChIJHezoso-RQTURZvJutbhyBFc",
+        placePhotos: [
+            { photoReference: "AWCwydiDKHCo3kjn9MfA1bmqc0FuEEZtmPWKtXfQuL9vyiow8JtLWF5Rwu9TMTLgzSAVsfO-xwY5Vem4vOsp0-lRJBUKg4KIAyxYVYYzasNAiLsSZDXoD64p2vp0oD75xvvYhGogbQwzRww-tJkyIIBbTytZ4frVq9nxXPt-HXvpwWpICpG4z_k4QI3tReoLj1eTrZEXqW9roa2uQTYl67UkyiP-oOJC0rktb0ABhGrh0tzYDseiYJ5DTGRHhbr0qPIsnTN80JJ6CySnl0VvhQ6k3W4mE9hEukoZ36CT_7doVWeYUdxzVzgD_aKzLcIsHPwGnKQWxldfDtr_6qNPTf9Jclbq_eeZYC_J4kSmLYNU54shEOVKD5bStlBpYdxQ9xoTpaVnH_gHBONJL_dK0WeQbjxkmcUDfWRA5XTt--2Bai9oNL_0GfdX11Zhs8eUpA", width: 3840, height: 2880, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111542849006215103269\">うみの食堂</a>"] },
+            { photoReference: "AWCwydge-rjW44_hcBVUNXqv47DyIpZXmOBilXSjS0AyktI9xHB5DuGoBGeBM8sSprsszi3JiejWR2lNAbXhY2lBIujfAXpn-8BBoQ5pzM0wWVd4gg_pzd1MZf0FRltu-1DKLDRwfiSXxy139U36lenhhPWBl8isOSwVg_qJYuWY34uBnpdWYl4bDtA7XJzvmgXU82E4FcHRjM87HlIDOpa_wNuQs4RHYbeB-PeHq_prGsNsxDiq2HwVQhv6DuFWoHqzJo2vQIWloj-Jn4W79HfVuCfBX74aczHLkTPD5PZUmxRL7D4tmKjG97f50EwgFpwYRwstPXpD3taEVHoldA8URVVjZHRGX5gJn9qjq1u7bUsxLSLI3YXOjOWVLAkEV23ySPd-lXKZQT7yvTYQRSPBteRWZXGc472gTx2y_2XZqMv6-w", width: 2051, height: 1153, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111542849006215103269\">うみの食堂</a>"] },
+            { photoReference: "AWCwydgCAzxakGqGWfH5kCbHoIqpsBUuv0RtDqtw4fpgK_yGtiRHVsBT7NiNy0Mt8_sU1ARxzUhj7NNQ0SL0iHomRttYPaYozCDSEeJDs6vPfXTHDUCxvyZR7cP1ahaEazYHjW1YmbD2SieBBT10sIgJB-gV-GeEUvQMzGUmGqdW7DkimcAy0NIrnJ59zDtvRI9PHQgO0Q9SFSkht5ksIC76A1inRDx5wrVVyVUXdYldkz-QXBwUhRmQi84pU38iozKT59jvolWtr5N6m7RlIttIRbgwPjAmUN3HxiWZrhSI_-34IDNORyzz5NaUe9IgKrDNeM31I3U3HW2oov06fS9TAb-IpqTJt5sFekiJ2EOmfNWFVR9OOXsSqbnWLe0nrizPIeg3Fn7eqH8d_lbgcx25WlA7FDxLSWwkjRelAfN_LUn7lcBFBfVe9G5dtybQbkng", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110309379614265792220\">hana Q</a>"] },
+            { photoReference: "AWCwydgBxTS9vVhrihAUgbFZ2eh_9Gapsld14YJN7cNPFm7DMmkEaVePRP4UQZfbjDvGtJAF9bIhoineGBbKKGjnKQP0rF1rZRmhg4Eu1m40tUevLOPQ-MeqXTrU_UoIrbX7hRcdUDi4kpE8G7fBSDI8bi6_Q9COoAYl9_XEAOXnmHZEF88YmZKUTPvizgLpdCUmSNNh20Kw7hJIVSZjWtxeF8B7EZ_g7d8ewXevO1EJ0p2X94Da3_A_YpsMVC6w8r1sHnUYd5gCCqbwno9hZLP-EGni0TE0bTcGRpdaWmMrjyCfCCJzvybmIy8wO-bq1dYBbTGbuj1pwiENGdTP9-1Of0_ZpIi2gjQWxJSLOKB6JV13XC5JbJnWhkjsXrI-ziSQ5zyQpIVd0lhoCnRSVLZtoOFIBaNasj-Ai7VZuD8MDHvWesVho_z-NO437iTYss_i", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100073853839159336790\">ハマチ</a>"] },
+            { photoReference: "AWCwyditkTlJjRj5yRbeTNhvdV5FfdHIJxDiuUIC7S9faPTafevg16ePEpCIXuuRjYeC_XCSZMcSWTNJWj3pN2UN5CuH9gIAffzo30KFNp7hAVANJa100Tv2RfiN7H2E9B9o1gk6QAsCA8hKoaxUd_mIthCyV3azft7sHRloyKA59_d8pfnCVAmVUCXtWNpWu-GwF-gQqfOL3qzhmlGA9aR9ig3Z1yOwgywKA8GRsHTZgkXvMWOBlRVjXLMWaeew-pnrADkoDa-liv8brp-goROeutg2hZ0lCHa1snnEl5DW0UmbLgEKThsu9DeSC1iD_soM8IPFupPoTGyyzxHztYPgD4jVfRNJz-wdZO9R-nShYRuySOdHBEPPoskPRK1WqxXz1t7bL1cnRW7_AAfO3NGYIep-DpFY0hCAAap83CB9y9IgXxekCCxjOlrECR8Fixs0", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110309379614265792220\">hana Q</a>"] }
+        ],
+        summary: "메인 메뉴와 함께 여러 반찬을 골라 먹는 일본식 가정식",
+        updatedAt: "2026-08-16",
+        highlights: ["메인 메뉴와 다양한 반찬 선택 가능", "부드러운 계란말이와 명란 조합"],
+        tips: ["점심시간을 피해서 방문하는 것을 추천"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "일본식 가정식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://umino-shokudo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6270262718850069094", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%AF%B8%EB%85%B8%EC%87%BC%EC%BF%A0%EB%8F%84+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우미노미치": {
+        photos: [],
+        placeId: "ChIJBV1vFI6RQTURABGh_vH0e1o",
+        placePhotos: [
+            { photoReference: "AWCwydgo4p9Mt4Ja8Oggmqt2UaH2NvXfIDlstNiJCxNoCfaQDWCxICZa65PHeWxODm5qjDdUDKfZKGMXo63ZSwHPAKC1AUIzHvjJzlV_fBoVOVGishcITo2ZzzxnS4N4B37oP5dZO6uTMC8KM-YCYQAZEDz33Zvf4Z_WDeq52prr8wsdPtCmCFOQRrrMMll8IzeRV9Wkz0VrB6doNy6c3MDVVGkLRxnmw3MzSZB2xyohOKDibBWBmv_5h-QhRzUUqtgMU93dcw1tirP1KKOaTRTCvmMH0cfqGrNYgIPsy2gT42jXA6VA1ZEARrLlAnlIzmx_HyhgiymcwjNaYgKD9mhtbIDjJbsCL6U5dkcPce5bpZ4WpueGwbiZyJZJeOv7wfIuuwQsMa-Ieev24WGN7BfQZ-6wvdwU6oFRbsAAXJZYzVSLjcBJ", width: 3072, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107410148112271820028\">博多魚がし 海の路</a>"] },
+            { photoReference: "AWCwydjc6cLyyzWfa5E3iEe3P64Q-Z9uwRI3txc6xGTFITIdxMWPZQR5ZIrbjsboHIM7XsPEdp_wZ4M27Bzfzhk1nq0u7EVunk4GHIajRx5g5A16KFgC3JospMN3x9aNuWMso9qtnVawCBPE9436SKA2obAgOspcUv6YNcUHAWc1n4KcXjdTDdklPndSeQIaKgO9Oiam8f1nI4KDWSvaBecAOdTyJenz8fBlsiMC1mkuNp7oJN-1Ei_eN-eoAwFKnMYmxWhWWatW2YFbp3ST68VbMBEtnU7EDsyv7tFH4RHxpmZH0YtFAs-0pEiRnnmmWu-68t8-T_zHoxDbY4flL7O0CtIC4MfisqWOM4CBtLCkA_fNXAqX0m6DoeEcbtRnCh-CYCTzo0mmSkFK559radds4N7NdHYnqnRj1i60T4wnqnvOCHH_", width: 2574, height: 3307, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107410148112271820028\">博多魚がし 海の路</a>"] },
+            { photoReference: "AWCwydieKEyq1OI4uwwzG5XjShRvClqKUldRCM5reiN-xGeLkvhPmTixBZkc-_4RicmWjLLj8nbiFo0emL0AnIjpBsDL-YvD1NIxwmgCvhmfhqjvowNlwYxK66dysg2z-iBs5z6DcCw3fbjSBm-BE6PcosxWl2sz2YAJMeNrCYYwREjU0QFb-x9RwIcosJQOYJqcDSSjzg36bmx4zK7Zn-GfuJr8QHgegxUkF2uQg2sbygvzIDuK7zQEGEZNEqZ-UCYii6LtzKNR-8bBtC13Yu-uIiypoN6nsG9YM5smPkq0F07k2pSLa7ZEDPaGJ23cl-aCBsQRQeMgmYN0sJ-49sbqJV8r8Otyil9dA1SuprREpuu8Y5R0Hpok_YgiGofAq5PNqTThiv6-vCDPE5XC5kLDE1O01jCBQn9aqOOQsKeGfJE32ucLgQxubhJEfy6zaiOZ", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118331460021984151711\">Joe Jollyjoe</a>"] },
+            { photoReference: "AWCwydjoc-CWEtufMCa85Iq8hRcWz3aaPx13biUViJKoZG1L2h-MqukF-go6BUFF135UVMylw_YHEZNsaLBZtr8xJRC9KAQoHomEJpU2rf3lcCeK_m40PWOmb7kFw3kzEf7YI7mHDAzmVTOGMi1Bymy-rv9KvrFzvbXyvwfRdMzUBjvAtuD_-H2ah3o4veVPiajop_YCQR568c1rYDOH24wdkfVgAynhb_cNfLJRxeZbqWQmkop930wQ1O15tEhBY7KS1zRMO-9C0wlUPv-kGVoyLi3FG3KmSMufoVG7EOT2y1HxZhbtBb0dVPu_DYKXL8S9JnIwsKbKwx3wsYUHTzGeSispwk0-HBVfCmzhyTXMKuCuhO1nUkBYu313GW0UYUKuhLXR-B7Dq3yJgRHtNKNaHHG5-2WTalmU9Kr023Q3j9lqY94g", width: 599, height: 338, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107410148112271820028\">博多魚がし 海の路</a>"] },
+            { photoReference: "AWCwydjj5xC-QJVkJDYihhzZVMArVrq5EWlM4bDLePFSRc5G7iB0UNC4v7y7pMRfnMi_t3PfTkhkJ93eaHcFKJklVaaF8vhDP_AAI-pMk-81znj2ZDk9VTUVFd1uB5r7nqMsSNhXpPygAxVQ_n3uIrgHzuXFUJmhYHo1DLLcwD2AcwL82l3I2uY0OblYT9cRGY9iN1BpwQbB3fFTPwTbnn5wrplW1o2or5hKIrviUFxGXQFQzZfVIq7FuAkWNhODzwtf3PKC68JdTV5b96XXNctXYCxYxoNLkVIJYDpQCk6LvycltvTgBJBbPdKrVext9RFctMBnY5tzd_pLDUudDrir4Oqg5Lgfoo2qCFgTeMkuHZPMNlTby5hlk3gudWC8yo74DM54a35UWCcHekdO0PVYsFVDFW390yYw4BEjolI7kQxuHAQtNPS7QUGmfjjmOw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100802129854131713954\">あらやん</a>"] }
+        ],
+        summary: "신선한 해산물을 제공하는 맛집입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 해산물", "높은 사용자 리뷰"],
+        tips: ["방문 전 영업시간을 확인하세요."],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "해산물", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 5:00 ~ 오전 12:00; 화요일: 오후 5:00 ~ 오전 12:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://uminomichi.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6520074205745189120", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%AF%B8%EB%85%B8%EB%AF%B8%EC%B9%98+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "우오키치": {
+        photos: [],
+        placeId: "ChIJM7ESsI-RQTURBvDZtmcUCUg",
+        placePhotos: [
+            { photoReference: "AWCwydiIyWBc5y9lWAzcLtLxFm-VtstaSqDN7W4Tk3yf24B609tmmvVm4opQ06vyq1fj2v7Vot0PvXt2cxrlPihgQ1UmrrLiHpfMfXNlfpe1oOOD5zQfj_WSZL1B6wfSOAP4ZmLDvnzJ75ej6mEbtd5oc0wvnJq_JCbm3DDtyOH8bkR_asfukYEEq8lbZplpAyH8qYJ6fZZKs9nw-ofugnzdnJ8CRu2wK4t7kCcBUY2YHSAHsmYOLpn731nyWyEtkjTqB_Zq3jro4-EQYBl9PCCIQXPXHo5E1B0sSzXnQiAIOJDztR-pGCR19pvDXLHVgqweH8R5IQV2w1PqPgEcjJ72WiPVM__MXRi8Vwo_N7gC2dwZU3UL59muTLec2-TGQHbw9v9eL9N1U1mnQTtw8JHDSL6dvOYJtLyZRTFNi1o", width: 3859, height: 3858, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100990600533249348619\">博多海鮮食堂 魚吉</a>"] },
+            { photoReference: "AWCwydgN1ivIiXHe4XhQqCY54Ktw8G9EY8QbzuLmQHggMe8utqpDcPY0zK-V8bL30sRKWLts5zULgEpNosBDy33DglaWD38Eql8vC2yZF9IdmWEsue931Qx8brAIZJUosFs01W_bFbARYde-mXEOJpcWH-Mn6Adrmbxx_UnYMflGyFs3q062pWzCDDGG14X8GOl4K-fI0flVOs2xgJ_9byJc7uXIhV3WO02iuWTLI8vjSTxFKDez6e8mY1Ewj6Im4uVcMCX8HH-COtifhcOmZcGrIzdbxWX_3XqeHaYJrFNg22BRwlLMoXnQ64A_QNStYT9g5atXudyEQp-sNT80Ghdeb5el20eyBIv9hK-ce6DFceuz43oRfsJhUK7MNBsrAX-HEeuVjxU_Yw0ikv1yXJtMfs_rNeccc2duYeApFLAAvwwZw_GDUqkpcWHzj5MJVg", width: 768, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100990600533249348619\">博多海鮮食堂 魚吉</a>"] },
+            { photoReference: "AWCwydhziMw5hOSSysyQHhuZ9vlw4DkqYLUEQO5vqqVUrAliXXv7b_N1T7ZoTDH8I5mU_tMhvjxiykE4yuyemGVmZNqy8M50nrjmoG_JbU1mAwlqlh-Y3e6gdixeDh14d512AnTkCFOg99Gq8DsY-ee-NCNEzyaMIIuAfCHUzzXxYTOhds3zdo-won11RzDfSFxa0_m6ceIvrZ97C_TnYXN4E0Ag_-_-l1EFi1w9F4Lsw-XKUZ0IgoRkjZRTxk8O8InzJINArdn3EpHyK83eJ6j0QeA-y-ZB25rt4YAXTwIbT26VS_rTBgQ-1js0gX1-awZLMrx0l-vmlJVc36CV1edrplXmhHkeI14D7Ls5NsFCwINz38f7EwGr0lJ8QE3UTsyKfriWW1WcNmyN48lVIx9BiQX5mvY5MrtK3irxIiBsERQEWbFTiovXarq9tnE8mduh", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112238264699151041054\">CHO</a>"] },
+            { photoReference: "AWCwydi2S3lFb3MOZymsyNYoHQBxv5Dmexe3AH0gp7xNHWLvefpX2HnpJ2T6jpRVA0YyfrxwRsv1NgylyDdAbnDxQTgo_n-2dhe6LmyySC7WwyuKpMFTUEG8iHKtrVHFc7q5QeB3hKBEK7M56UcI7HE7ShNOWQlga-btKhAATdFCClk-YbFD4tqGfKOyuSyNinPyfng0v1uUU8jY6OgHGSdXsTi5y3gTC1JX4IWE3goaGuYnW5jNBuxkPixWcBHD1F48vozDbcWdUW9CFKcguc0rxkYGvyh0TIJXC_Zslh53h7WmDIujG8tkCChjjw0z4Tf_vYmH4Ek_y_e-7xufgJQphJmgKO4OBOlaFyU-2RYC8305f0-IuW2552MDfa-rSKwOd0CIAcKFCBw7o5NuQmU7SilETjBI-tW6WavHA4QAiYaayIo", width: 1125, height: 634, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100990600533249348619\">博多海鮮食堂 魚吉</a>"] },
+            { photoReference: "AWCwydhmJYvvMH4YcXveGlxHSVLcT9SC5mKPraWqQV81QraqlRcQcaJyj_X-qUpmWlIhnpafkZpyCDpO9cpjCNZWebdC8jApWmEVcKiI6k4TOhvkNUILqyi81FrOqSCPRS7XzMcT6ENopAILJ5bW2dcu3i_cWVwBbW2Bj4LyhUVQQU-OJ5eGLQYIIZYkP-2b9Kp-A7K7Lj4clwdqWIHfazQuaKiuP2pZ9MVmZav7yBMuZUZfyQ02xy2E38HlqVPaMXldZAMlhOs-80GdRTCvz_ERFCtMCIPmV6aFAxV16XrMNkmqe_461O6hvLYpmUsJulzk7wELhKfxfG5W4-T0dbnB4f_9AfBITcY00m6JaUbv4MHIMEUhCFNhaToWTe7EdS7nvWKi3I7E9CflQR5pqjNm5f4ICO6SFc3P1JgbOuHo9eKLZwtnOYK2E89tcoChQw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116720571758972053066\">VLADY</a>"] }
+        ],
+        summary: "가성비 좋은 해산물 조식 전문점",
+        updatedAt: "2026-08-16",
+        highlights: ["해산물 조식 정식", "명란젓 무한리필"],
+        tips: ["조식 세트는 오전 10시 30분까지 주문 가능"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "해산물 조식", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 7:30~10:30, 오전 11:00 ~ 오후 10:00; 화요일: 오전 7:30~10:30, 오전 11:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://tabelog.com/fukuoka/A4001/A400103/40043030/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5190702481203130374", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%98%A4%ED%82%A4%EC%B9%98+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마구로토 고항 쿠로다한": {
+        photos: [],
+        placeId: "ChIJ9Z6V8R-RQTURPpWlHgwtCX8",
+        placePhotos: [
+            { photoReference: "AWCwydjoKlrBp2DamJ_dfSt2eQgNBxVX_PLFaxeG-ZkDSFv5cd2gQAazfeVjtNNifp0PZYMwhRZ5G9Nla89uaoMHIZUkENvXRi9MjXqYDWheKhVKZQbFvzg1Nwf8kXeboXxH9cSqfhlWvv6NEhucQ94z6DMkSy9w3Xw1-F3tEPfB4QqT4Ie22cQ2B-I1x1T_Uvo6bgpC2XnzuWaRstXzgFYw2FH3o58cMD7KjCF6anXCO-ZGTYr4ILF0G_a9XmB4IPwuQ808O15RykyFGGGw9QCjouEuH-tnqr4tr6il79DOcdJG5O-lvAD8C3VFXdrcOIIkLe1xIn7wuolSPxKHKYn5O6yOA_6YDvj45dGgMbEFaDioVAYtu45ZNxfzr7yMBWllkwP1Y38_1ffx0prjxATix6gD99BDzkkiRGnN4AyZr5aRUqgSTe3toONzlMG_bcd3", width: 1080, height: 1619, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117835889470423257385\">マグロとご飯 黒田飯【福岡本店】</a>"] },
+            { photoReference: "AWCwydiGPWD5EXxjMRPdcOToBOA5dTM5PvelUidxSjo1Sm1tu0mX8f5Gu3oIao5RkgqsmeR4T_i7hhaMxoQa19WJh_RE5nvKMG15c2tXBXCzcraPJvJxectiP-6qbVTfYlLzQpAClLDUBBX6knMIUdFMjda75I5zJFMCc4ElZ-u4CMimK5wk48JV9jH7mZPVLTobQJzzbcDPV3jguLOH4B_2ozN4E3g-EoCcV9aGCaIgu4wPCnep_7cAKWeD_JAqF9CI6Ycwch4_ZX56eQivMRXLrUSSMcWg9Xoa9fak_lMY9-qG7GY3uD1RkdoNNPoE5r8dbszjjw5TyKhMyDj15yjOr8tnBIlhS-A1U-nQuZSa3q9xoJtHdvSaIZdSYIwpdHREPdEuzPy8Ev4XENc88AEGDIyiN1Pf2ENUJYVspZLqcvo0Fg", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117835889470423257385\">マグロとご飯 黒田飯【福岡本店】</a>"] },
+            { photoReference: "AWCwydih04UFnRNlwruytHQLe1JQ7lm1czxQm6pdYU8bpnP6lw4GYPzqKRRh1AUcLhSikjHZfca5Loe_xrGZD7qFUOE9LzuieX3WlMqeIKT88Q9tcCt6ciMqN1gmCetIbi_NtjNVV6PhX-pbdxNC1HQaAyXWCQWMikzGnPjdgfsGXTqd_sLa__1FtAKGziSRHztCfTCiuVnJoaTtLb3y7Ctl1qLXjEQ1YiYXNBepsxT9NegbNAsY0a31WzLtl6F9TbZFIyMXQBgwVD44lqj6IBFs3JU6YNx-5sbhp9pKlTFPo0CoxMciRf_S_mi1YB8hpCUZYOyVADVvCj7ChSdNx-rMWhzgDtWuJaxRv3WTlVDWf3ZMmBg22POw_cROxQz1nXWERjgTb37Xa4ehp8w4oia2Jg-66BTYq8w-GGQ9hjoBHuFm4FflTTuku2IsuYkQHG13", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101599254525244053159\">Richy</a>"] },
+            { photoReference: "AWCwydjLr7J-tn2MR3dT9Lar0S5bEtRia5tchox8C0wAlDZj4qv5OwLLbWd3Pv5NN-bj2kCrxwEhzJsp7s2G8o6Urj7DPeINbW8qaniqWDFGNmtaZtnOKay7ASLuUnYVDgyy16fivw2VOrOsNKC5xvCdtMCykDaaZmsYw2rNR3icMHhHcjmMgb0cS0ZTfGXGBnly7ZjtRMu4Yf2HzzKNNF3vU-V8KIDqKs4OA1pmorwhAKsfQdCG-K4--oCAHXmTBSueN8rtzx2QeL6b8oRFCDBdJ3yKqexgVd8iA7-qPOYbCKdADoQ7KU6He8VFYqT4QYLcqA_WlGAn1Ue1KA3ei6r58Tvs5XCdct2Tn80dynEA7dn3J4Mt5XEdTZlXLWviPdDLA7dhz233WXhLQd8OKioHNVrSg3R30TZ8Z8AYnxBvZu8unULdHNkO_Fclf9U4Cr3c", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113287109326916664819\">K “かつ” K</a>"] },
+            { photoReference: "AWCwydibdxHodS2itnGWTDWsw9Qf0VE7c7MheGkSxdFUX7_wAqEJVIF5BVfFmrNhPhkmXReDQAMZjZQjnv1UZQnNu0_1m7eJwr8stXJzEEKB1LIDqTpr59SA06zQ3ISZKTj0OZ_X5HIm85wBDhnQFdNYZcdRab85hcmoRusgU5Z-poy_O1W7V_7ty-VngFvPZ0_k6LtSGkiLULgL5dhn1RjKLvUvhabpMYAV2hKSpoahdhikG4XXhdyGbCH9Q7brLokOWGfqPx0H2qdF2VqgB9GCt-0EHCrr4X0kpru3mlZDGWw5QbZ_sqZHj6mjSv_Rn-KbbZYGBmFfrYMX0_Cdt8g4uLq51t40IfJ6RMArLNvU0ntXkNIVOYparzjmwj6Axh0HyQgmxQShX0R4NNzgfSI9AmBDJ-dVTm4OnOI18KaumRPiN9q9m_RBHirrULRosvj-", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107797238072183459067\">근당</a>"] }
+        ],
+        summary: "높은 평점을 보유한 참치 전문점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 참치 요리", "높은 고객 만족도"],
+        tips: ["참치 맛을 즐겨보세요"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "참치", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 8:30; 화요일: 오전 11:00 ~ 오후 8:30",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.hotpepper.jp/strJ003716044/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9153897247684269374", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EA%B5%AC%EB%A1%9C%ED%86%A0+%EA%B3%A0%ED%95%AD+%EC%BF%A0%EB%A1%9C%EB%8B%A4%ED%95%9C+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하카타 토요이치": {
+        photos: [],
+        placeId: "ChIJm3cMlvGRQTURjBegg6-RAVc",
+        placePhotos: [
+            { photoReference: "AWCwydgGPMd_DKKPtdPgevEri5gWQZyHZjUJFP_-j7CjaMVmwyx4hIOrcpEvqdGPI8Bu8CspTiHPSeArDMLezbDH2-KyiPzlC5r2ORS5lZogyPxLdRaSiKAgDmzuq33GQN3c2QqA_T-7vXuqWxkRKKViFpHm1mF8HsMAsY_N1hhzB_VUNB3TpmaYuBjnC_WJuUHY-kJtO6MiU7THMKtS-RqXG7lCxwLSNCMJmg3jnGZraAm4KNeH0SFRArTNU7Tx-5vwU3lI2P8PiC-WOp8Ed_95VYBf-6asOo75u_1N3xwnc95meZrxOyonyh71TrlAKHT4NQoAGdNv_7rTMJ4FZcypUM-UlmyNBr7bQTxV_1L_ONMd-S8WCkeSpTGVZjtX3EVrAz45z9fRcPwSjFfc0uRPa8c9frto6K3GC3exB7OWvXSXeAezsbSKdAXldgkhzr9e", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118046975855484051890\">さかうえひとし</a>"] },
+            { photoReference: "AWCwydgC_ho66T6-eElvep2fEyDKHGI1deR1CTRrGvNwAzujqH0_7xX3pUvULQXOg7RFEd2_axgeRHHwe8-eUGzHCYcpWMKkuXhu61-1GqAN0S4n_gyQWQ3hFGtfnHZd-o9R8z-qeK5dG8Ndc0w-LH6e8T1v5iNb0gVCKoT64AzOPRcmIxumgKfGWeLSm15aw_2j5B55cy79I_dtRsTbAAWZeTzh2sju1qEJeVUh-1bIXrqgOZwklJ1T3bzm83eXFKfBLpMniManB4TfyavMY_K5sg8nIl42XQbxah1lDBuapza0i_o4mpCftDxjtghxNdusoLrPD7Ru-F0fB6v-yzEkqoOCuzONtBJiFVR_gP5ktbMNBQYT5cHguZfWyvxxwsk32EEmvKtFWoM1nAnKzVGKAfy-2sPAuCpnPJvylESK5GXTVozx0SKgi3NVA-bRrCS9", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102922959593574827877\">Gosa Lee</a>"] },
+            { photoReference: "AWCwydggQm_dmGXXl6vp8xxhzzhoW_AKJ0vd2kQS30_ZToP_CQpTHncE9WSGC4tN4YcekE6EDijzRd7fwZJ7MjZEYKJoGAi-OzHv5SwdU9eohSui3eOTCNWp2VWhQZQFky9tEA9-UeN5KA-_bCQNacfTAudFiZGo_g5f-PhCVPptxCZvPlzHaH6kriFBA1tjl8EQf4hEv69FnCR98m-T91gZ9qd3dQ5WJn5ItqZGgPQZgOuUpbZCpTjJPKTZAIgzNlXbF-7e-QVh51vHy3_VFa4yLznCo0wXJsK9IGfFNcBPMjBbXl5wNH94c3zchVdgzv_v73lW-Yaa6FtD0iyob6yJ2P7UT8aqvaxZqp5SJas4VYC0JLSerU2gPtY_010WBZ0A7FNE3dRSRWSj-asO8VsC6Qxbzac0RxwPuUTclZ0ALbd72w", width: 1378, height: 1083, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108352230323975446868\">博多豊一 ベイサイドプレイス博多</a>"] },
+            { photoReference: "AWCwydgyHZEaG1QIY8MfqLBzHiiohPalrMMVSqMDWNAlGWLpJdU12SZ5XgM6mQ9TfXD5BQNedM30EUlmEsBdg_HppVQzvOjesLWb_prmkd2K6p2SiQxluEF41xa9IpWhq9c2ZcgBrEswviEBlfEu-2ohrpTdiZuPY34JKFHf1HEflqFBazQnKc1JhI-4HKbRWCIaZu1vVv0z2l0yh4TABCkAohDG9e-Eyj8rm61RgaE_odMZJ2HtdY6bQPK3miGc3I7k7b0crKF5tln92ujgzODbKqZVEDkN3DM-KzxROf40LHfyiRJrIh0kT_I47mdemv5O4aDU2MVqEvLe6dvY--PIkyeQNDxsOh1RukK4MqLfU704x80OcLiZhhXNCxdyK3mmBNpYY-K3C6qYB3WL2UfyAMG-1l2CCNF6YLwV9vDl8UAPTDFaw6-HiXYXtUJXu7CW", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109471463902183018640\">Hyen Jin</a>"] },
+            { photoReference: "AWCwydgSrx88DMaZMBgT6LwYTzYMW8AZ65WOCAUCTlmK8W3SGo8_1LhsuFv_4fdU3Blwt4e1whq3Ip0T7saJswaTqswA-39E1TFXTnSP-_6pPeQsYOAL3CURix4WnKcVAVvePnDY-PyMxylJBWDZnByTTKOLWf14vhqa_Gs_gqWUMB5kvH5sRljebIL6sjQbSfR_dNmWwEJOujOAcXimwh_K8l_d-Pj2iHfDYLkt5jZTy7jgd-ut7utq7xRNxp8c_Ml7mBw4zPCJeRKxK99c6BzxLhMC2EaGodvEoZphsPzsDgOa6rS9jB9_AepER_YXH_KdkdWn3_f1BwRWV5YWWb2jcIq93Aj__VvOiepYLgA_kNUh1ewwHEzze2ZRQpYGHBrtRvvKSn4SWtQQFSRaGF-YVjj9zyAg0bqjSIPyS8KhSdkWewuw_l7QKvlXoq7j_Lfb", width: 4800, height: 2701, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101209228204590024672\">Traveler Cho</a>"] }
+        ],
+        summary: "합리적인 가격에 맛있는 초밥을 즐길 수 있는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["뛰어난 가성비", "맛있는 초밥"],
+        tips: ["인기 메뉴는 미리 골라두는 것이 좋음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "초밥", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.baysideplace.jp/restaurant/restaurant_toyoichi/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6269452339290052492", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%B9%B4%ED%83%80+%ED%86%A0%EC%9A%94%EC%9D%B4%EC%B9%98+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쿄가센교. 야나기바시": {
+        photos: [],
+        placeId: "ChIJc9UeTJiRQTURUZqZ_69UP1U",
+        placePhotos: [
+            { photoReference: "AWCwydjhkqFmhjqTScggzmv5QVmyh3iUXfVTYZ0EOf4a5fRYFsRyH5uckLf6o5XlOkhFfj_zSBvXEPm8b-GUuIY0a25rcFRzhkVyd5NLXqFtAbz6E3Xb4mve0jYFzf_JyPAgmE1a5bvrRPDuii31CiXqdqW7mjs9EOv3H-_EL8vaDi6BgA3Thxg4dUtc9OeDdOOKFVApt-rbBIxmMOTMM-TCFtuT-S6EYwnlBIQJ_zdaWasHnVWHjPr_DKhUu3oFClfT_CtzoiUkXuWI6bZKXJP8Basy4WE_nISp1H5X5kKXilRjnH1hEFFTPl3ZgnwKYRzR41OaioYtVzTk9tYCv0OfO8mf-rU7E1dZo5wod9ydWjqXfs0CGEUuO2cFIzigf_hTpPndxavPVywdtNnxdfBHUzy__-m-yuAc4sKJLBqGOacZ-TlrNyQUN7A8tu-aCc0M", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103709109896833839593\">B H</a>"] },
+            { photoReference: "AWCwydiyq7qBTSs-BfKs3JIG0nkRrDgXnbTF6XPlHbbLcW5PnRJAeIwsLYm9vIKvmPqZoL0FsXkzy-3-P_9_Mv8HrCEBjRuL8MTXAOrqrKV3UASPFKpEN0Iu02PbR1pz4xM-mVYpouZpdhoGqBtqCdM7q5ttjgp4cItIo7jq7qlvDlMPA0OJmnJJdyXZIjvQkvPznyDfwfql9GgBROMYWtQfPtEMfBjyqSe2rl4T7eIqskf9IBjBwIfcXxrwQRsSJWuWPQ-2T-lXWK60Bk5-4Nt0Tfl7Hfs3T2LV7SAKi0aHKi3aP7EWlkOdikBJoyFd8hERYs2P0sqMUjJRAtp1qXfxE7jt6_WIgpnq2Xp-5D30nT465B0BNgyK5fTTouMAzCuLKOEMXzgh-3zVEbA4AVb8NqsrjOUQhrJ3Y_t6I2nRq49WBxriADgfODP9opiKG4iq", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106061387136457950815\">Rex Tan</a>"] },
+            { photoReference: "AWCwydiw0lHM8vf3QlYMlU9c23j-UebcRI-DKTuROqMGjFKFGyX4_iSgwEvYTA6MZcSfv8pwdLsV17enzNKLjctTa4hznB81MlKfzkJaHMyLN7axyK71XCeMixEJ01hihynViX5yU3RRNJ_fy0gY3iIcpBanCuAGnZp--b1nsCxH7itG-Q03lv3e_2lVbVMJ3J3YRP22CYMLb9QvP8gP3Toqj7b__qe8P-XNLbkrSxKLC2Pqbx6lfMY3DpEzxCLfXZS7xMNEGr_IfON8qpgO7h1iRvrS277HTRpOI4uAl7r5Wu4Q4GyJQekFvHVjCDahqRBduSx3o1lP4g8Zb2gc8qz3k0DIZjyyUkLQC7NLn_7eQcTEJvSdPmOtYSodyR8TomgGFzR3zjgvFbliiQ9mgBGuJw4QL4LHPEXahspUyLodORw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108023094412059054252\">Tadao Takeuchi</a>"] },
+            { photoReference: "AWCwydgG2UhksdYH2wAHgFQHKLazLXfJjxbSa4VrAVqFHOUS4eKjlEXqM84uBJOqajqDNSMN1mPMpGEMJ9pwkemVehkjZLA2bTQ_rMDDREhu7bdfV1LSDY5RNylvVpTo_jUT5mrfO4u3XV9sqLhzNuLTqbZi-8WY9pv3aiDR1a2pzEgAhxBVU3Je3ZPjm6PuSaUsD4V6jC9p_A5XxgseQYfs1UKmWI69-htlxKbcy7SgifjTCzIQgln-Tn_kc73nadrfRXd-XiLgPVwLUk_v6Lrk6j7T3Y_iDZXiAB0uYrhPY932BjPPVnnApKB104Wv-61Pevp39fUXhJmbSZ_yRAvxybTGi-vWw7ismNoHanMS4l_XuPBMzNvDWZP-6xH4QEI42X-neozzwmf9ImZUcIfl1baM4JVSa4rlLKb-KgY7_wbOig", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100178836333366849641\">DR DAVY GOH</a>"] },
+            { photoReference: "AWCwydj3uQGRJKqJBOrtCJut7bVjZoUfDhq-EjyrRQMP23HaSS16nVIQwjfPTHA2DjQrL9v9S1r5SHZ8feFOcKhTWtEep2fqR085Gxr2fvcTp3IBVH60Q_skXNvSPaCavziiy38GUbMQz5Xxj3vRZXBTNij3V1TUecDAIuZRBA6gXKDrRvRpA4_X-Ak64fNgCXLQ6zTkluYRT-Uu_TQwgDj1UlBL7xGYGO96umdQzwnoaN7ntEMlyrb28-7lLAsa4c_fsqwJ4w4icVFMUqNSSzYUHjF2u0HXbCNRjTYXsr5vtkH43HOMdBsTImraxCEWySDxKgLqowJ3CEuJ3VJORkcKXh0e6nOnqwV2qQo3jyDGcuKNYU24mEHgTBtpzLZNib5rs7IyDrXzLPjtz1iP_ONXRtiTDhHEccZ0rHAjWWH5iqzp0jAxtTFKTXdJQZVb-5rs", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105015925046928910269\">Christopher Calara</a>"] }
+        ],
+        summary: "신선한 카이센동과 우니 이쿠라 조합이 뛰어난 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 카이센동", "우니와 이쿠라의 조화"],
+        tips: ["우니 토로 이쿠라 조합을 추천합니다"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "해산물 덮밥", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 10:00 ~ 오후 3:00; 화요일: 오전 10:00 ~ 오후 3:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/koga_sengyo", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6142721531640912465", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BF%84%EA%B0%80%EC%84%BC%EA%B5%90.+%EC%95%BC%EB%82%98%EA%B8%B0%EB%B0%94%EC%8B%9C+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "블루보틀 후쿠오카 텐진점": {
+        photos: [],
+        placeId: "ChIJkxg5WGKRQTUR6ajIGgYhE_w",
+        placePhotos: [
+            { photoReference: "AWCwydjA2FyTjedYGlt0fjckiL4i0jiwwr5jXUPKlpN_2aRyzt1webHsKe6-1lacYvp26PtfeouJdd0lU6r5w4wk6IfdfFCNMQHtvZcQ8gPukE_Gt71Enw-hAIkDizuLJKrYg43jvF9nY7wLgAZa7vzbGUeeXpiO1bESvckP9J-zZwGSSxrr48vShhOJLWRsyOSI7WR-Fnrzdi7XhwLh4yiwtN9H9MUEz9JoANC7-e2p8dBgUt6KwU-njvodk2l8aEUBVBVTB1WobNRY6zoX4gyL6dhL-yWJf550sh8DaUri_lhyds_rhLuJZFCCmI3rPuRhwqapRC6gt-S5bZe-pC4vdUnaftUY6fu9VMk17p9HOsm9gkOB_XPXGc8Venuay577NwQ8Ov1CR1E8bpSb9Vw-3q_pEGvhG-Of6hjb2MsDRPsFg2e5N80wSl3XNkvNoydz", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111782445405217884808\">ブルーボトルコーヒー福岡天神カフェ</a>"] },
+            { photoReference: "AWCwydg-JhRG-F5nL-om9n9yDlWeYhwbGO1HgaQ-zhDhrdwkTWgCyld8E_llKq03riooA2d-ipzQgdIfUSth_gFA_RPCIzNVArZxYFkafHYG0rOvHiT0AftHUORCXdNij73YmTWUmIwhlIuXemoVFYdEhUgSTOJ-PAKynTfcw7RgPG3dOBDyB9z_eAgITk0C1cAzlXaRhW83JzzKXfESeUD6phaJ0MzrttS7IQHbADZiz4HbEqn53kVTZbJQLOyIoOWVZP1N4SCqxnzl5gZHa-Zy0yylcwEobRvXrXTlaI5IhyY730dH0RKYzVdKYaNLSKjiBdM8z9cP-QwGvf45C0PoBFALI9WqEIOgGuEDlGjTZ5CDNHDuS8jcjLr7NfcIQp5T_zZSCoC6bBc1xn07fPgju3ijexbLJbRd5oUrcVw9_ytF-B6iro21NKRM6PzA74Yu", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116951845923189518251\">CINDY魔法ABC教室</a>"] },
+            { photoReference: "AWCwydhX3ST38ka2Hwaati-W3SdBU0d_dO-q_v6L6uw5fci_A2-zh4BO3Skvh2898aPqDTa_PQ_Yt2Mm4K6eLQnm-POzjNGF1MXey3CA5dyp3QLIE-ikXTwW9_zfdXQr1x_QE2rz2HeXtsIXhtXH7Dt8HuBqgMuTZEKEt5eEFXWvn2x4kNzQ8tcXjB0j-4mNdQ5bC9AF9HMkkXOQCMgEG5LbhnI0JaTJbYJlUhIJ7PY39EaH8pnUzG9v9Gu8GhliX9fWTgDrGfDNCut3X6KfoDkqeFVhy0f_AoVgJcXRrgSbWVU8p3MzxsbcVxLQivr1pLFR_5szlBWwM0GGOLeGUdsN-fJloESLsVRASXM8YV-S-rXj7adowUMTuw04L5m0dg-P4KedOnbiX6_uNoamVTVjYNuueEcSWwaq22dAiJ1XjuGvI0KWPKC8n5BOvTXRcCYK", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111782445405217884808\">ブルーボトルコーヒー福岡天神カフェ</a>"] },
+            { photoReference: "AWCwydgmKmf0UgfUPq59vvijEoq3Y1otLbIJaGy4WVW8sW1lVdewtbEz-YjFrMXJi2HhcuJWNAI-J2Nb1JADKe8nWu9a1fdfUWeVuGR3IYocbdfXuIlKLSKMl8hxf_-Oy35baWuoEj5_PVkvjanIKOEFQTsCd15I5mxaJO4u3oCuWC0XySMbWl54F_xits5XWG6iaV7oLChkGTTspZ89kge0TMnNcFQJ0ZLV-9woIJN7EA0FPYBr9aTgKizuKQMljWc3kXf3U-fwBRVIID9W5BruMXRV6Y2lUcL37IWOnuTl0OCUSkpF_t2T6NGAFI9N6ANANr2dtgcs1T6UrAf-X8LHre3p0z0gT5tlm6jInUoRNwS_vgDi7WQ0lghvyI1su1RM3zNtyebwk_aWrFWs03WNeY3uEqeCFcEUDlD8N60gS0vDIw", width: 4000, height: 2250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111782445405217884808\">ブルーボトルコーヒー福岡天神カフェ</a>"] },
+            { photoReference: "AWCwydiWnlkuYQAcQU9WoFGcvHeLgoBQLLKMyoSaY0ZjerBTXurFZ9RBmRQJYU4mgwggPPJ0Rz_FA6fotYFr4uxwwy5CQVUXrCxU0iIyp373OxuoJ7buFPaL2j3ZEp0uubilb0IPhKA5HWc650dVgyFSDdJzZLO3CBASBGc4eqJz_Q73Wl5weXwYBP0lGY1WbUDnJGit7nfdASV98girDINdbtMlZGZ-7iVC8upqdUujWRsVC4sutYfaRFqEbx6hUgnPDjJx_P4mJc8ksFzRo9udBQK7HYzo5xzxPeeNL3stbpOpmc_QX13ngU0KDC9IiS_CqgDcjo3_fHJTJhTd8pDPjxxw1QQlA0Yg-uOZ1rK_htWIjAvUbmKT6lunngkeM58Yl63C3rmrLfShJnOFwyzCKBany3lS26WkOiFF4qfGDutJ_hZnB88cAwqjXdJ_t4Pl", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114603218332603727599\">Danny Lin</a>"] }
+        ],
+        summary: "쾌적한 분위기에서 휴식을 취하기 좋은 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["시원한 Nola 음료", "친절한 직원"],
+        tips: ["더위를 피할 때 방문하기 좋습니다"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "Nola", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://store.bluebottlecoffee.jp/pages/fukuoka_tenjin#utm_source=maps&utm_medium=my_business&utm_campaign=top&utm_id=C030FukuokaTenjin", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18163898032218220777", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B8%94%EB%A3%A8%EB%B3%B4%ED%8B%80+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%85%90%EC%A7%84%EC%A0%90+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "렉커피 텐진미나미": {
+        photos: [],
+        placeId: "ChIJ10_grKuRQTUR_AblIf2lRIk",
+        placePhotos: [
+            { photoReference: "AWCwydi-ia8zX_XMJNT7S4MVH-OuvFjK2UBXVnbpql7daf2T5dTBBLyCddWbCkv8gQMn9PRGmtQ5oGPHoJvEzIx8zmzDw_4dyLtprne9eTBo4i3NVyD5vzvPQqlVKKZwy88FR5HmYwrIqXL2IGVIjpgCTPvK7dlO5qJhTA-XwTBWmatrhL6gvXglwdm81FlHrdfwkp4Z1KvEYcnjCF_NHxWTwqwA9UYZ6_O-PvKssRccwCJ8Tl26qV3sYJFxTGJBF504ru239dpt2yhVUAj5axUHUQxOPdscG0ZKeghw1uBV72lBgFB4vMvHhMOhKoqJWztGQVuXAMqI_e1VCqQcLPctl6s5e4QEQ-YoF0kFuKpWbVtF5r3MNO-tAJZjfIzsAA_ua1MjOq9z-8JnpXXIyW952eQvXl6qc49KBJIo74tYb_WX87mK", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108606149492311115310\">REC COFFEE 天神南店</a>"] },
+            { photoReference: "AWCwydh0xgqcQ-J97L2wi5Vly5eXqKXYbxCx9bWz5U96GZUDvb3gYPN8Zl9st18VJVtgCmWe6F5o0gW_vaBXdOC1L651ZR0iNjbOr4HzSiC5OTfmNA9FidYkEUgmmnlkzdoK_LgrxCgJZsjfKJ_WpjNZu5vX7jA-bNPJIdcN2STpvWaY08D1w0Ai0rVyhXG4PbuZrcV-fwjj7c_otUYzgpM1BFIyNn0QpNmzhFzLmk5BwIb7zhlSbuNYfkASpoQ5g0nDuzwb5rWNVHKWlzg4oRlIXYuuCIZ0lhGnvSNMNtDQqd-lGUmPVWumopBd6zglWCSX9Qd8XfbWEF7bhnKrWoo8Z6CvqDw3EvyIsFfC5bdegqT5_TsmRnHBfqEnm18gQwOMKE8Peq4fjb9ocpFnKPTGjXHchqCBNfKAyvZcbrkhiE28iUs0", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117182654369717165308\">Robert Sun</a>"] },
+            { photoReference: "AWCwydjm7NosK9Qda3zhn5HgHsDh6HevyXKEb5P7AZHUXP_oKs1cOmuBd1-3qvJPTAUVpF37ubcb7J_zigS2WeGPJndCEUqv-rLkHp76amhuzsL2i5Lsus11plQqqiwmZ8jhchPS-hEuEkK_a-h6d5jx7zxOExxhIpJlZUiIE_xyeuqjh8JXiwv2sEdn7i5MFHheP5DpO6Yji5dOFWwO2TPwY8hhHTtPqmgr0I3E1UlIxoQ2FZDlvBRDSfzYfv6qbyU2PYWDaLMsCWoKRnht7cKGb1xceGPgoWw-78AVajJLXRjj8IG7_m7XAzThRwhjg_KO-4jpzZp38OMwi0Hct-s8VKMbcLdudCYA8qPpuGYMbK-4TB6pKEAtHeGuqRCwgPT-hJ3JTDRcMKxLpkySXlmmirUygWjZz5iZ44yRj5nmXtddzxMqu2h5Zq_VEjROK1-f", width: 2256, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116463282113946104865\">Katsuyoshi Uchiyama</a>"] },
+            { photoReference: "AWCwydjUDMgndTON7fE9sOipuU6vb22BYh8ola2HpBSQ18XPK10leaWBj46-DnCRaMWrJaK_xPtBqO7jitd6pyXzZl_ZtYQP0x4SAhBBNvPRl-7iwMVhA0Ddro4ETNu3fcw06_moD475nxNl0ewcbG310RH56EqvDBjEovRI1wVcg7K_RJtKvWGrO4IndI-1SfA1bTc3W6otnMLth1HtKKOnhOQty-s2NxvW_VJ_BnGEp_x9e6Ru6cTtuu5DKNJSDcn7lx9qrM0QCwZV5NHePjiqETNjnpRw8iiRJaVz6jTqLtaOYqBKyf3AG4IL2tcOX_4D8gqr8eBDuiHcpmgkx_qmG8s6rOYfJhTcm5u5G_UqlCnrIVpG1tI5Dp89imDs1VqMjMQ12MF42K0XXYCRJmyssr6uw0BMxFIpRKDJCPfY7arnmTI2gSTn2IYlbK-dUw", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100518801162284042514\">Howard Ma</a>"] },
+            { photoReference: "AWCwydiVo8G1_XqAIPGzcCcO_-kN99Gbi8S8cq1tW7j-G7-dlYGWG2DrFlEkTxIcEmVTxIbJWKYVJhlz-O-nHaqg6QCieETvBC4W11_Cq1L_9c1gLPrRjgcs1VIjnHb1z6yUqLRweaF5ZgLPz16qvTsX2qFkW8SkdTEUiaK5djcK4I1pqOzkBWx9heWZqsZJadCWUVq0YIFeUPLX60zbjm8gh_vUZTSeT7gJZvUL2hjZKWSz-kVqJLIvRa0IaZAeb8CfXy_92bhWQ5BFf8YqBnUQep-mQuW16tYv5WlfwKgWvipHK0cGUEaXHIX4x3EjFkxtxY0XBQTaLO3GLqtwlN_RIYTQ5b6bRsAWy_MdHBRW_AlClF93EHhGcZAx-V7uAFBdmwiPYoE--B09F_FEsQp9UM6KRHcEcGF5a91nxJkdu3StU5tTiimTASuO8AuKjQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117736779362636391971\">海大豹</a>"] }
+        ],
+        summary: "넓고 쾌적한 공간에서 맛있는 라떼와 디저트를 즐길 수 있는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["정교한 라떼 아트", "여유로운 좌석 공간"],
+        tips: ["주말 코메다 커피가 붐빌 때 방문하기 좋습니다"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "라떼 아트와 디저트", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://rec-coffee.com/pages/coffee-shop-tenjinminami", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9891213188226418428", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%89%EC%BB%A4%ED%94%BC+%ED%85%90%EC%A7%84%EB%AF%B8%EB%82%98%EB%AF%B8+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 로컬 커피 스탠드 후쿠오카": {
+        photos: [],
+        placeId: "ChIJg-5w6j2RQTURNk_WVMkDJZM",
+        placePhotos: [
+            { photoReference: "AWCwydgD05U_uKKL9LZf7T3Ra9_hBXscqaBYqZgLBGw3dfz97AfVpC3oZmXTGNLfe3NN7MjpaVozboaSomwk_-ke_I0mJn4RYWC1ur0ZaxFJHLO8bvnVbFtYUi2zxNcMaABOGBXMAq0HyGtFzJGb4cq0QHoTL2JheRxMxHuzq_d76N-v2dy54q5UGZmbN2r-8ggPnDMdhC5nXo4MSPDCz3LZWZZ8fZc8CDBRTDseiGd7URu4er-QDGq8KZjvYhctks2Rgay3fnnSdImN3NAXT8bpIMLZr-4Xi_CcKS-jAXzcj9g7mvf2BJAEdhs31ECDCX9lyEnRQ_HwZtsx06EpXv040wA7loFgIoibZ6e__9RI-uk8MzKLiRVp_p9TRcXfGWmxwgOYBSNQ_b9VcWPwgwotN96ldLYh6hNPBozd4UPjzkWFxA", width: 2714, height: 1528, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116408800207816127240\">THE LOCAL COFFEE STAND Fukuoka</a>"] },
+            { photoReference: "AWCwydjWWhL3CzaR24lcIRbwouaD1Mg0ltjMs9f4eTpQUkZvo89eNfV-kg_SOKJUtcZo7zQiis76D0cPpmqgfxiU1tSjVhM5j1-5OW0od6wewB2XhCSypWjd4iA7Rt7R6Me1SCxq-0_2FAcq_V5WhnnRWG3a89xxNmJ_UOcFKYEvEfDdjXBLp0PLU_esyfq3tUt6yirOHA9Z_rmbPmV37Yasuzoa3SCnfNWI7LvPmpHwQBaZQYhGzFbQxf2rv9HG5cwRzkw3VqFQ7ulSihMpY2T7p27s-_1Jrid4srr0oSIrVVcgdlVRpfP7pP1gtrSJ4m_VArSJRW2XxiDQfxBeR6xlkV7_BzAn4sJqlKgzwVeQLqmBGIgmGwO2t9xdDDpK1QtLMvFE0iXSCH1cVVh8awdCfHUWKz4IFx937M4tUvUpcLAyliUlSMSHwiUE2AuPoreC", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116408800207816127240\">THE LOCAL COFFEE STAND Fukuoka</a>"] },
+            { photoReference: "AWCwydhvNuMpSqYSg8UoKtqsPv2p9eg7N3MJu7mud2G0YhSA5oF6BHW4hVgBnty3K7qgz1BVkGqxAEjHo9CQ3B8ZzUT9XKqkkYjrnc0G4KvtxG-mEyx4n6QkTkp7-LxhxJwqJnYtyagc_ufhn9RRuO2QadD-yPvxDv9i39hwkSwgtQVGX-E0xpTxxApfdLr7gX0Oebk506HbaCPOSsdg8aUO8JIEg1tyOOtqA_dtm6mIt-9lyFZj6ZLsSvR6HLqDQJRVwyGAH0xm8CQWMt8CR-p6BGhbm2PgzebFApQC7ErofKnClJsATjjY-eydD4Qyn_1Oivdb46KvvPL9Fg1GgyByRXDoZBdS1SF9OI8QeaD-mDDjDmBfwYIjGL-PgJNgqdFXS3-Yodfwq1ctd1QXp7xNUSdAGC38btrGsQOcvwI2kgAmaH-y20K3H2nqzS2F-jpH", width: 1170, height: 1127, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111840680321519702909\">ハングリー・ダンプティー</a>"] },
+            { photoReference: "AWCwydikjLz5YgTCGKOHW4oBncakBvAYS2yvaCCPaFTeCS9Re86PbpAONxlHEG7M4kuQQrpmHm7xF0yam_PZ5M9PJNwfDx5j9Oly2LXoI-JoLC68rTvAMFtj-ytWGnX-mE1o6TUlTJvSX7ekU-kpLBELv-Hz7xAA7UDPTdk677te62jKL6a6znRKu6bnaWHnbJZXfcBY-JGlLgOk_zgu9_D8RTh2aEOROwpyz2s8PgUOM-st9lTjGW86NhEsBEcq8vc_2qGCpT9kwH9JySbpI90MFQaDjOZr0W0X_4GEXYVzp1Yn3Bhi6ZeH7Dka8TmJhSkB--DVbL-PO8_gPuv9ElJ5THSkpp4Bf_rlOu6ov9VmnmoMVcNIyAPLFMG3yFM4SDTkWXyWqhn4BwABnvKpiKxpdk72HXQiz46B3qQBOkp2md2DMc5oo-_gmfQemzx0sFk0", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116408800207816127240\">THE LOCAL COFFEE STAND Fukuoka</a>"] },
+            { photoReference: "AWCwydhGix_WnJDhKqObr7S4ZsPrJ0_CiPG0xIgADBp_-C3zXdzigumkwPXMEOtMeV43scPMpPuxMW3-bcsoB15QzaP1vf_geW1EnNdaZAhU1h4DBzEnaFrtktdsfCBDqW3RywlH0MfqAT-nd1j1Tf0iXDelcv_LBqV51VBraOHR7okCIo7fPB0nLyBJYdXWUd7aNNgSg0j_J7oEpfHldU2g27qj8hDzwTsQEQ1yheOU-7Phxix6EbRVNHA_ath1z9g8YBIe8zMRFpV7U39HqXDgDkEuw--4M4TjdQxgzY2RPZZQma80rl_NnLtMdf0JyKzynhRTwpplt7U7XC3S3UccMEDyFvgq7R07Be1M7IiE8XuydjFjCxJWHFC3PrdgY8sUC_UOneHoYtOD7bZejfzU9lFwR7Hznc1fk_tFUBib93ON9wxUJWDqZGBtSPsqfA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116387069477911611305\">周慢</a>"] }
+        ],
+        summary: "커피와 디저트가 조화로운 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 천장의 개방감", "세련된 인테리어"],
+        tips: ["커피 원두를 직접 선택할 수 있음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "커피 및 로스터리", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/thelocalfukuoka/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10602885060960341814", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%A1%9C%EC%BB%AC+%EC%BB%A4%ED%94%BC+%EC%8A%A4%ED%83%A0%EB%93%9C+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "노이스 텐진": {
+        photos: [],
+        placeId: "ChIJCWYLG3CRQTURuMjJK-ARkrE",
+        placePhotos: [
+            { photoReference: "AWCwydjVwgJGds18s17pkZjN3XLhJcQs9OY9e63kJgPNWsnuWcLuJoDx_tBTT84v_UzeaGprU90usa_mddVl4_UpsYjiIAGvCLoBJDOsPjP_8YDkUtxLyPNR0MJeqROaKvcZByigM1J9He2lls0afAchcos5VVzF9u1azsDfSMMs5Nx6pjOqUkBYwGRLBnbv3OY1eyzZ4IyKxZolVukkEzV_-lhnvv5vDV98Gk9sWOQbkzjFAZrYJP0vJHW1izrVvZHfaQBaje29TJE4Bl4tLMqfsPJPjCNPk37iEMcs-k2yzAxSzWxDhz7dRMHBWt67eqAWHZe9wzaVCdnJfdDGh2kb0eOHxAbnmUOPYQ5hJd7eYoyhGdlP2IYr8hu2ZbwJwa9VzNIp2YZMH-e36Mcl0CjABINzphkoF2iHhugW6kvFPNdqFg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116575546266131525686\">NOOICE tenjin（ノイス天神）</a>"] },
+            { photoReference: "AWCwydi31zkLr-0D62VlMlbg6buMjjwtTywH3Z3vMSqakObuNdqIiTmGiZP6L1v0jKKxGSwjpNijvt2YAFm8Zd592et46BgUwFQhh2Z3Btiby0m6WHfanrBFCmQXztdeicxqQv20_p9Yl10CTUmGuYPVa6AF0ZGbwVimrVp7V0iiao9zgye--nn3-BOM4ptr_jOECI_OGH0h2pgMabbJO_Mk8EVasFY8OkJ6RHLqCVRbogpy7HdCWjCx1EmuXSxYMLKmkFHPBT4XnnuqiSg0lsz1HwzDcVumS8BrYfS_1jUA0RpOc_xQ1PtGmlCyOiLyrRdjGiofqC0alplgH6HLY0KmbmD3iOkIAKOchFiWexzO34Ois9UwEIXvic9ArL3OA9_Byg6PIav8DZwyiIr1kj7cWKtvh-NbM9uHeE3m1ywcO7aEKSQl01M6pqC5llJrNYka", width: 3306, height: 3306, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116575546266131525686\">NOOICE tenjin（ノイス天神）</a>"] },
+            { photoReference: "AWCwydh68VHMlXGHA3-Co8xF7mTXZGtJTWEnSWy8LJBMJXtbNDUYcacZM25Mkh-H9AJN_m_3GohHQfNLMFoo98ZDT23o4f5EyvBD3spigmv2I-DbEOrOkQXVmMTN9rGgpG4aNles2QoFLsKC2wC5WHhMf1n7iCveLymd4ExOb-o2jzE8i0QwtT6RdBXCPS-h4QhmotmKMMOOEGJVW_bUr7IZ9OrtWobhquqLIrwmSZ-BBegCQv_6sf8EEEKC9I8FZTC8W00r-Rf6hNBRP-nMRTCkuDuZOS-q16j88XjdMFltC2xizyfR1nCM8vcTRZqc23FVOgOg0cRXkniPUcnCGi0kOl0ncejLJBaycSnOG8hIhcRiqWFvkMyvKWCf5Rz4O68cr8WTe85DQ5nPJPMZsxPQz3FCO9omUYqeHnC6Vyu7woGzTXIxv4_nxI8GHoj0Su9N", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112353503787772753706\">Agnes G (Travelersky)</a>"] },
+            { photoReference: "AWCwydgEXl8DneIMHpp8OOKU4dcaUvze5wyY67uDTJE4iJUSXQ_bw-dpOhvYZ3HfY46Q8fqWtBXYxaJQlRK9IshiPKP9tzJKtbNi9l7UuTh-LafD1F0pN-Xb6bFaW3NA8gMidGrBIxFiDXCiM1khC32YSJTCo_kHVjInICuaNspo5_Dd9jYMiiiWi5MGA6y1VC_wGTXRha5rZ7XVcSxc_qJRsmivmijRVBYvi1f-p1gNdeocx7AQQk9DR8AbqaSSviwOtM6bt-xxq8H7Jp4OrbX3SqJXx5j2bRCUlERzj8kf9MXB9h6hFO2qobQ9tYne9bCrGZWAZbXWKid74yoI1yN5muBLbOujXO4jV4cALczy6KXFV4rQOwKmW4QiAxxHu6j_4-6SB9pGU0mTSgKIDupWkPAV4V9IGftw9Z63FoI80Po", width: 1302, height: 1172, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116575546266131525686\">NOOICE tenjin（ノイス天神）</a>"] },
+            { photoReference: "AWCwydgWZ4mK0OLK40sQpa9qLtSqWDGwKHqabScgzCfpkmiDU0LPc-OXBQXaDi2g2MHmiZ1Ld8CxuB5XqUNC7oFJODEarFFZwr44_I1st1oBCIORjAReBiozFCfjZZx3Sy8zHiILcl-cHMut1G47tyqomxbRmF9uQYmxq7eEU8krM0gMFeKv-UR3pFKo2CSP4GzyMoA9HH88Wu9lMRonG0DgXjlZR7NmlWvLXvF3iOrCHlZkFwJe2C7L858vhVVXF3la-IO-BgTCSsK_kss6oc_7QiU1b5eFOUbgU0B0K7x-KTv-2WdGMtXrErlyZ7dVCdti3uWaOxlfexgzNemtLdoWnoKbyGjniBk4I1UrylNgdiQoHDNtZOpb26s65FesZ9wabthv7yIFzwUcTPLC8EEBrUWxEnbBeT-WRRAzioISwM7rIs7i7YykxA13NjOEs62g", width: 1952, height: 1354, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100189780407712859608\">-艾彌-エル</a>"] }
+        ],
+        summary: "세련된 비주얼과 맛을 자랑하는 디저트 카페",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 수플레 팬케이크", "친절한 직원 서비스"],
+        tips: ["음료 주문이 필수인 원드링크 시스템"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "수플레 팬케이크", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.nooice-cafe.com/nooice-tenjin/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12795309145817991352", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=NOOICE+Tenjin+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "커넥트 커피": {
+        photos: [],
+        placeId: "ChIJ3Vs9rY2RQTURcvudCc-bUm4",
+        placePhotos: [
+            { photoReference: "AWCwydi_NqNOXJxdEuE-nKfpFnRubmGy5wviERebnb54ihFbufv3jQNxC0L9A2YGCK21aLoDY9sX77mm3p1n74dG8An54vN60fvL0qpRPzyKiMZ7So-ZELffiz-RlXzVVHCuFm_CGeOIyX-_SYBbefir6R5u5ZxaZZwlWl0w2bJcBpGzh42GaLJPS-UzsJPCP5QzKETSjNULtH6cNwbkFXyP8Eel16p-Dn4N3HOqjDI2PWlA9Vo7VAICsbiQclakBJf-o9shYXbK2MS20ux70YVRYk2fEHZ9jYbauChUAlZajMJRzVGG6aPRnRCNFheIDrgM-eYu9q7f2Pgh_iQrU9UzVFpTfYFwTlPzOgLXdW7AqJxzETG1ibdBQRUxcT9ZJ4xVbQuoKhNpT90NSrGkcNej2SaGQU4v-ECFFjkQpiT1ItO6NCD_", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104984006965383050783\">DY A</a>"] },
+            { photoReference: "AWCwydjk0Yvc-G8srsciAaiLY3ql0Hte9f2bk87WWoJM0QV4whtGWM9DfpCFKSLppzjNqspWzkJt1iiGik-WC5jQlVJan9-M9Jgqe8XePAC5OB7C61xhSUKa2w9Db1gc5cjBxLfQ3dXjxYp5fRFtn3MyXSOVtoQ3XuCAQ38KKLvrXvYJXbuIQg50pk_2FifFWosRlISWhmFdiWQ8SQU6deKwemutGBweUF7tXn4mzguUvaZUg9TOETi5YZCisuR41CwZKBc11KPhCnwiceDxLujiJTZcvv3CF4oigXl9jV7Qer9ZwAie4mcBL_Bylj8puffbqzm9ui7Fd_TScUCIIeHbgdt7hjwzm-Gqw_Labogp3X6YqQu3D-NJLY9a69KIT6B8vtGEGLs6VdB-PVfpNh8BUEX6Di9AMuqCqnL-DNhJbg-p8g", width: 3984, height: 2656, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115443844165884722051\">コネクトコーヒー</a>"] },
+            { photoReference: "AWCwydg4PiT74b37H1Lc7SN3X7wsxFV1udIMynBo10LUpB96wXpYFhpzFVZx7kYqLxQRfB0fx4iXy_9nY16Ez4L0sWq75eAQlDZOyVvKNtJZuPthWp7JxDbYXyGz9wqxI24Y28CXCqeOV-NF7GqDFDzFvMYwIQTKUQfrOJIU_8UTTx-MyC3B-G5Lsahngkx7XgRFSLP6wbUWolrLtjjz1ilepzyhPUMYhEQL9IpXuUxGNq8Mzk_6x-pwe6JwChYsXCsUNdnGKIINRFVQEoYepUgQkd0YLnxkMx5P2DBjaFXsS-49azz1Y8IItVo7GlboVRolh5VcKQPEkwykWkX3hT3ylb8nvcc-dvbz8qgXuF0zoTChuO85MRcBcwrNZqMg0Q3Ixzlb1EnNBHrcZg_zuxmRhLxQJqFwD1spW2lSxqjL4jTOFyyM9I06ItGqq3egxkbf", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113701607727627385941\">末松希祥</a>"] },
+            { photoReference: "AWCwydi06v9jFQ0TbK_lmDWpGE7PYzWaR2iWhI3pZ8K-85kcXSQ4X8I604YbrrP6YCe7uaWqNsZEgHY0xO2g1MJTRzJrQGx3211vokYPv9SoDapEZ8e736ctUi_pVczzSuD8sqtxghSep5riuBCmP34Z6IyxrmmsDvbZr0OnfP02bPMymm7roshFFD1jt419hWtFLOxDX6hngj8LtqC1ez3VoBP7wikhJZfWxOUlyP3IiurraTh7_ymWGA3v4anH10r5aM1Bk1fmxQZH_boQmmdavDp7IfRa43B3c14L8JoR86eU1o40-_W13sA5y3GsUx4RfMy1h6kQJwcI08ywsICWfsZ9ZVIQFblrL17Z6T3CXTISDFRfqxgvFBOvVyPEfFjNhZIor9wliifCgTnNiqviZ1fnUq7oYOBYG65JINOV-1x7mFfdFHAvK7s9YjaLfA", width: 2772, height: 3696, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102768023158089177659\">Jenny tseng</a>"] },
+            { photoReference: "AWCwydgFVL-YQk5Y0Ob6aSHuQygMoesxiP_Hxgczg3f6v5uIck8gTkQYAsl1Bg_J6yi881baF0qihGEzhrmbOByX8-qmnhPcPWZ1f0bLZGLz3-fQjhoL--AXz5O_JbuxMNWJQ1jujXDFhXLJbgMmKbVJvR8TWH2TXfekaIcjMmu0Fqs4NBWt475eVirpXnchNZViZvX3-m5RUmuzfkuNan4ih2l7wk3s3yGl9QrOy3_tmXPLhZZM99whBwapxtjlycw35aILu0lpH597hkc7JD3MjVM5cLIokoPrg_ayZ-qhgxrb7bi9tTYm3JlepFuQgFvzK7mFB2XFDlc4v5R_PaS15B3xtXpE6bWQp51cpORoCZ2wk7AHW1yDtEP5Ujoc616aNcA9G_WAUQoHVygSkQpxzoo7V-rBsNfeS0UbpxxONajctuiNxiabrslBkWYGH3rp", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111878718363906442825\">Noor Qodri</a>"] }
+        ],
+        summary: "핸드드립 커피와 디저트가 맛있는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["풍부한 향의 커피 원두", "맛있는 디저트"],
+        tips: ["여유로운 시간을 보내기에 좋음"],
+        reservation: { required: true, method: "인기 시간대는 사전 확인 권장" },
+        menu: { signature: "핸드드립 커피", items: [{ name: "대표 메뉴", price: "현지 가격 확인", note: "메뉴와 가격은 방문 시점에 확인" }] },
+        hours: "월요일: 오후 12:00~8:00; 화요일: 휴무일",
+        waitTime: "피크타임 대기 가능",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://instagram.com/connectcoffee.co?igshid=YmMyMTA2M2Y=", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7949587605784230770", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BB%A4%EB%84%A5%ED%8A%B8+%EC%BB%A4%ED%94%BC+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

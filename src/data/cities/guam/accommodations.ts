@@ -142,6 +142,34 @@ const accommodations: AccommodationData[] = [
         tags: ["라군", "휴양"],
         icon: "🏖️"
     },
+    {
+        name: "호텔 타노 괌",
+        showInInbox: true,
+        hasInfo: true,
+        type: "hotel",
+        priceTier: "value",
+        city: "Guam",
+        coordinates: { lat: 13.5072809, lng: 144.8039738 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "투몬 지역의 편리한 위치를 자랑하는 호텔입니다.",
+        tags: ["괌호텔", "투몬숙소"],
+        icon: "📍"
+    },
+    {
+        name: "피아 리조트 호텔 앤 콘도미니엄",
+        showInInbox: true,
+        hasInfo: true,
+        type: "airbnb",
+        priceTier: "value",
+        city: "Guam",
+        coordinates: { lat: 13.5116898, lng: 144.8081869 },
+        checkInTime: "15:00",
+        checkOutTime: "12:00",
+        description: "세련된 인테리어와 차분한 분위기를 갖춘 숙소입니다.",
+        tags: ["괌숙소", "투몬지역"],
+        icon: "📍"
+    },
 ];
 
 export default accommodations;

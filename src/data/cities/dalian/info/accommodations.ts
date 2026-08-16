@@ -249,6 +249,144 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%9C%EB%A8%B8%EC%85%8B+%EA%B7%B8%EB%9E%9C%EB%93%9C+%EC%84%BC%ED%8A%B8%EB%9F%B4+%EB%8B%A4%EB%A1%84+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "홀리데이 인 다롄 핫스프링": {
+        photos: [],
+        placeId: "ChIJBcPz79TfhTURPeShFF9Jtro",
+        placePhotos: [
+            { photoReference: "AWCwydidclbYC9jfejGWxQK0Yk7E_iwtl1YGtqS0qq8oZpwBnI94j7UxMEEmINlrNBynhvbNFR-yEsggofyHPHKRBerw_K-OPD4F2NqiZMcpPLTTc4T7jCx6AoQ6PuK3DDQK15j8fU9u0CcNz5UTzWo4ZvV7bwJMc4ioBZIqq2tbNqe7ICU-0Gce7iOD3CzOZ4UAzRbBINx0XbJ2QJpt1YIZHYSkFpRfsm-i3343V-wce4yhZna-XXyasUXM0iJbhCx5sTjQQMI45fOBUuhcvrSl--jqB7Xog1ZvRsXX7CdTCgeX8y5g6xi9nZSi2gdfY6y3qLUEqiQimVhs5KomBrDY2aIJLlm1jzekJb8h1gR6lqS67juEzVoV1OE8I8KPrVGCI1Z4cHrUqMkiGO8opB3irBXlR3zxnLxx5N0ZkVI9ZSdD7lPn", width: 4000, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108178656276997719386\">Pang</a>"] },
+            { photoReference: "AWCwydjfmQwx7Km34tfkI38njZLZ7EHIylyFsOnsukHeX8L85BOmAvqbmy_4-aW7JDKsaD1vWH6-z-zbDhFNB7diiZjlJa3FpymJCr0ItiNHYHOv0VtL1rh9h6SVMhOvctLljqB4EHRoO6ZDJ2UVoYmrYUCttOOJcQyHtwQ1uE3i7LyedqWpedfH3VSxLautUZwQze224zOta_526EtZO0EYPmyGsiBUi2Y_fJZS-F4xEuX7qf24gkYS1A3rppED4nWvD8tt05Gvcudzw4jAiHnmSOVb9MNP3RdyruOE-MGKZb4DVOwiwPkIUeSWpuod8uO0Jd7A5q-KKdq0uogkE8l7oUCKckK8JUJRz37wUjlhjBV06qWh9xigEU7Lg-aQgdyDme_m34zMSYJrtZhrEi33JDbzfcFLQ-7RZriRyTqh08qxWg", width: 4000, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108178656276997719386\">Pang</a>"] },
+            { photoReference: "AWCwydjbhnJazHIwVPd2B0AJRKjfDaGQwH6gcZZhzvWODQWYkMV9ckyr3dU2tQi6hZgGupYOZm895xoWncPXUArotTHdHl2rS7mf9AxpwTEVhqQoYRRjaDezWxJCN3VKggfHEvcwFbPZvwXmnq33slrujMlcwtMxPFLjS7y5F5CrIHepZzsU4xvE9nPQf6HSwKyV4AhcFoLTYJnjlLlXcKb_T56gEhmchZ20qGu0vP_tS8dQaRWE2bn6z_kNt25499Hcxy_U9z0sm5CMOLe7rXBaflKGYHK7Juy3U5wAdwnj3rrX5JA3QK2gwc8n87CrC6E9_lEVeavOuJljJ5654hC6OtdqJiILKqIgnpNaj6ghk_WcpInZeuRfu457vFAXeDrS2cpS6PvThS2J-mO_4Y_-GW0RY19Ezs2lTrd4OaFbJ2I6-9Pc", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104229150447773661302\">Yj Oh</a>"] },
+            { photoReference: "AWCwydjywsmoWkBpQfLssInFsFfKiaWhGzL-khTcscOZN0fEKmXQFr2_dI_72EKsfGoBti1oNOOW0HKPhK9tvvnpZE-BWuLG67OLZPK-GRDK2nNJaELRk4KX2WCkHIM8qSp7lF0Rs9S_nVmj3yOVngTA4GRUBluN5XhtH1Ngc8tnXuBJ8z8kyaKg0FUHWlseDqZbj0ADZFJ2iNaUbhdbi_cLuWn_9KAoRUfrIL5XUo37HU9-abTkjq-UhYhCnzGNDzvWzjpmhfnek7L4P97xjgJeTrARsHcdXikAQ4dDUN0kqcezW27h_4CraGc-V51sKl2HsKsalspJlby29e4b5fL6ozjCmpKYAqB_UYY41Cn2cVA6kfC89Nb6960iVRY5xRBwoP2BeZWa6tZDDbUZ4ufrftKc1WF-pm72aAlZyi35DURt8g", width: 1800, height: 3622, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108178656276997719386\">Pang</a>"] },
+            { photoReference: "AWCwydhojKrYITfXNm841BGQf9gq-T3sTcBwv6VgArehFxsSPQI-h--rUoCShpbC8UE0TAG7HXE3M-cO3kRsT7p-0_ynyirUnQepAGJNjdsUTNxX5xxWgp7n5kCUMneiEw2mTwob_U041Glz9IYOsO_tZu0JesmSclF4tRVGi2Ek1pcO0Q7rXRZcvt8EABw5CFbnA6PCRsn5jLM_gN-XLbWB0_44s6Tu9R-M17tfujYXloOsf-Zg9b9GttZJ1F8hrRjDxa6nlprGwfmVrQdgfq-JfQXoAArZPbkbpDlbcbsoX5TS0BARtXefbaXunWapVXpk1jtva8zJU8DZj38sTVam1B080RmW65c9ErnkBJ72PG99qoNa9BOGc4z_psURyh3qPLPYuyZ-uGpEdbPMPHf8UepLVdg3RDYfRvhuyNa_XXZ4Bg", width: 1170, height: 531, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101937734357112854736\">Monqiqi</a>"] }
+        ],
+        summary: "높은 평점과 친절한 영어 소통이 가능한 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원 서비스", "영어 소통 가능"],
+        tips: ["직원에게 위챗 아이디를 요청해 도움을 받으세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "A-1, Hot Sping Resort, 金州区大连市辽宁省 중국 116650" }],
+        location: { landmark: "A-1, Hot Sping Resort, 金州区大连市辽宁省 중국 116650", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13454021609532810301", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Holiday+Inn+Dalian+Hot+Spring+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "힐튼 다롄 골든 페블 비치 리조트": {
+        photos: [],
+        placeId: "ChIJa4_0pCrehTURDppwkX3PcmQ",
+        placePhotos: [
+            { photoReference: "AWCwydhF0LfOxvesDfAGLyp1zu4lbxWBq44RxYHQmMqNxpaDDo92o8qFvZo9ncOMMEV1QZwV7BnsimasbYGTkDfXqkfqnmWfki5DpQCc-Suoc1iXccdfOBwIgYJp7BEr4f9Ezhttg9uTryiJydAwFsO5MTJ2IDclc8fC8-6MzkQttOMIWr1er0FqD4krhOjzijydTAiJHats3Nd3DP-BleAhNaZDcwANVwDBl8WaqLYjhux9J3J_ESQYjkQJabI4qejigS5cJyT8zKNsDfjx0Yp9aYDEx8Ngs_D6utViD6gLRm-mlvw5rNfyQPewfM0aA3UjlzqnrkqyO-MVHBUV54M3WokTCiBNbS3fzP0zidaE8J9qcYs_MF5-_ec1jDSSCfVatDlpcp5EoUHiIr_1Zkd6w-dUGOf5EC1K_4K91IWKuxA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103926914632469811153\">문동일</a>"] },
+            { photoReference: "AWCwydhQT1TUfdLz7wHejM1SdClw9LiWY5MnLlXjMYq7OxxzPyOeA8PWT1YZ6XsT-itp3xWMAkGubNMFxFgsO2Z9RpkIR2_-EMdScZiks_SGbYZEZn1GgV9plNkvsmJ57-OnGqwD3zhXzw9-qe_P0tB7j2xsCUMTbAJmJRLdyBGXygYpkIrstCmEC5QMOkQUrYO6BvOnppb9RbdVlEzLhCV8BIEf2rCCyfrLY2akq2-HnUVj1Z2762YVok_rIA91x58MfWYlQtDyLdcVU6s01d6xJlJS1iEBtSICidPKh4_RIBrOuqUQMuNaG66PV0Ga62jVYU24CIFsMR-30yOkWOzDzrHy5CWZ-Y8SinBIar7m7UuXAgDvxvB2phETpfx5FMsIAm55NG9qpiLLQ_2T8evZbKRrGw0-QBdDdELsCQPlxpw2osIf", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110324386562426948424\">박명화</a>"] },
+            { photoReference: "AWCwydhK-pl4WWei5MsiZkf-fkBylBZ7Qm0DvEGlUwFYIM1O4-BgaNw9ofYxYIIe1inbsS7hjreSE2UCpMx4qfa6uGqYh9RshciQV0T_2we0XvIAGxyHlrEZbri9bh2ZqlIR2Z-wUpm8nWP0b0-44sg2PbIInaHGn1ilb_UBNY28j3Kj3db2fAJheVq6FYV3OEB8bbTxd-6kapxLj1DunhxA6G7heZjYbFfIalO-XfAuD_dswuQYqyxswzOUX-Cauh2N0CKOuRbhEMJkcHNjoXYsXEP25ffsyRAV1HGkd1TCAhpF1PWfhltd2btKoaWem7KWas6bTKKE9JAzgwQ05ZotKrioiOYYBvqCVAdRQ84cR5bHQxb83V1oiv54RGYK-d5F3MniiU1YNmAGOsbrEmBGb9rz3LKhd9JIaoRWmaYlnyiRj9sG", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110941417475783067546\">Piano Lovely</a>"] },
+            { photoReference: "AWCwydiwP1GUzKc8TYVMdfrRd8cHEofh8YapWkjqiltneVDJ9_Y_XvieR5RRlVH21Au1aCkxLiKW4sLJPtBjb4KoFuzcsGWkQ_ohVMOgVbDZhgoHRro7D_x2S4DXLGaMoA2BcY12Qw1Th_c4tx1l6L40id_B8WS_oOT_D4yzRewrkirDPuBDgQWciMHTD0P5Zje3uJCdoLawUjiFvgg_humuGa_nj5C3cU1fDYcIfpwu4BvgeUhvy3VjJ5HOJLD6SsN-4T_shzNxoZps801vEjZ-8uYqlIIBJXrHClQn5ZMfu4irt41OonceRnavoqY9oI4lGS5VoSZJSTr0uclDHkomMNJDPjBFFD7FQhopvoAdPhZK5ibk3te_uGorYaa1JPD7zkduCG8_p4KkDyZ0iaFp0GcmQJM0FEcHxKBbQlb-bAFA0Gfx_IvMD3CFEu38Zw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103902740562115525439\">H.Y. Lee</a>"] },
+            { photoReference: "AWCwydg4ME3QwvQtVmuNc88a0L6FZzLKSUVyIhTyHTdqZLMLilEcCDsXD_f3CoUJWyGKVPJP3ADNGcxCgDoN4AcEULNTdQzLhDDHBuVFlhVYhgkW3LRf0R15qC96wJcWFc92VJuwCinY_WXmvsoL589dJjfM0eTFhROMKNozzVFmjaCjBFCs7QjisVO66dmvmIyNNM2J0prZNtne-GzvxMSrRu91zOlW_YOiNbj0WwBlhDehZULLYBM9w259eiA4xw3jyYdGRmEfXkU2n7aHa4KTX6atlFYpKIa8yuesbRxr3OOweemtJbdL63IOX_9Eg9a7o9KwV9SSTwIppjeze6cqnIGCkaLRK3BMyz-7jMELLdY7nzIEVvlEfn1oLWNiMfCa4B2mCeSrn4620W-i5Yq8P6tlmSysj5cEi3LyJlraDIkWAw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116382548499243796477\">MrSmithc01</a>"] }
+        ],
+        summary: "객실에서 보이는 바다 풍경이 매우 멋진 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 바다 전망", "멋진 리조트 시설"],
+        tips: ["겨울철에는 기온이 낮을 수 있으니 주의하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No 57 Hai Bin West Road Economic, 金州区 Dalian City, Liaoning Province, 중국 116600" }],
+        location: { landmark: "No 57 Hai Bin West Road Economic, 金州区 Dalian City, Liaoning Province, 중국 116600", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hilton.com.cn/zh-cn/hotel/Dalian/hilton-dalian-golden-pebble-beach-resort-DLCDCHI/index.html?_gl=1*zzbrsh*_gcl_aw*R0NMLjE3MjIzMjk4NDAuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3MjIzMjk4NDAuQ2p3S0NBanducUsxQmhCdkVpd0FpN28wWDJ4ay1DaTM3bGg1US1wdjVHMkZ4d3VkWHppbzd4V2dPSlRlaGFwS3JkWng2Sm5pWkhSNnVob0MydkVRQXZEX0J3RQ..*_gcl_au*MjAxMzYwMjcyOC4xNzIxOTgxOTY4", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7238075689355745806", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hilton+Dalian+Golden+Pebble+Beach+Resort+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다롄 서머셋 하버 서비스 아파트": {
+        photos: [],
+        placeId: "ChIJgZw6hzf1hTURtBkX0RYPKYA",
+        placePhotos: [
+            { photoReference: "AWCwydh3glw05TjkTZdH4BGC1ed5yrdanjm08Cb67eUnAbmWp7hIWQ94o9vkwUN_oDTKDEzMnQ92cQTh22lbYYaUxnEeeAOp1cK9Mt5RpNIbXecRtrRedyfN6ku_x1yDKXqi78H9iPBX7ns7ACayqpbD1-5ui0rqi-2LZHy9J_TpN0hKesyhyFl6-Ryj_y7ZwYC-UKEcOiEhApG-vLfQc_q_cExlwPjQrNu0c3_CCXbfZwNukY1w38SDB_eBvxM7MdQndmh26DyxgYfvBTCKJRs-Oc42Sip9KRJECHiG7rEJRLGAvMZuolVCiNExKhyW1t0O4VvlI7Kq-b3ZEbIYTAN4tSzB0DzXEgGgdIeY6EGRKVHGOsQrbPYArpmzR4dShIQSXXBs22QMxJJ_L6j1FrzB6jgJhyIdv2aj6HmETedhPR4", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114216265751611459271\">JAY CHO</a>"] },
+            { photoReference: "AWCwydh_zP_OyGvc7dFAMNLKsHfl120M0wPry6hFbz78NMyxMmCpV-5-kYfElk8_qpWIYYiwYLGlraSAWUYP-S1YanC1rY7TyImpM2eFToBVN2q3rIVR8NOEo_QLp-yyoSW1Adst3CxhCtMOXYYJ7FANCMpTYKszN-T8UE94Eupw177mYIBwNF-FyvMBbiN5oWOnw7Mkmc_7H1vUGIjzpT0sE6IMKpbc0eQKJ0258WAj6TiUgBI4L5x58yNJft0ZYmcnDC63PV51IGV1iUSjPoIUdS3wDJeNDcHq830852mIaMwdtQMsKmfWdtN_trP9JF3BGQEizLLVAIf9Dh_YPw9bN7GLfC7q3HqU47P1k7kfe4JSmXRqikOQOerCTNT3uKQSbWwtauPgZfxPpwZOG5ps9Rakinn_pDRRZQ5A4sex156RWw", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115348815745085455303\">Teketeke Teketeke (Teketeketeketeketeke)</a>"] },
+            { photoReference: "AWCwydifwgikLXHWiA5oGAKXWLyVFv9vDV4x4P48fcG-f_I0NfNQpYw1HW8WfLQS5C6IIfQMUXgBctdjqhlK6tfxBfv731ILVvvqtqrEAhO-_PvS5Co1nvoMhU11726oFf47jeZ-LKz6aQiSSHYRI1I69Um4zpS-SWInGQyGLvGSagFDhqeWUig-w5K_qDasOG-3shUO1aKcRma-fKekw8g2O9r8t83qZyMyI_GckvM-f5EXaLfy17K3-xpB6ojlaL-UiclvBTsTRevfD8znWCYbX7MF1Ciej2XNtCf30GoZV6kBSC4mH6noUKKIe9DyNQj8S3oklU9xsWFSbXJlvMzrTj4kEFzXb--njgxLj9mQhaeN8HvRk5Mc20PduRF67iNTvidAy-HeSe9hrjnFMCEudWy5toYTGi9INWLv-xvPElbNbQ", width: 2304, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104638645848516474110\">vaalle vaalle</a>"] },
+            { photoReference: "AWCwydjJxIFPG9K4VAQLHjY_BiTsXnWXfpXRVAX-G7e0k_s4ZWT-tQJBhH7r39buckqnIEKlfTZLjbR1pWpIV_9Q86qH_OyX2owxBwvtkaoJixrDmiBZbWZrnucbMSCBk3eyMdZTDEIB7GnEx49ew0xmQuPXjLf03008_Im5LsxmxFdR_9nmaqSlwmysFbWtHwkInvuEMpyPlG3uGvIW-iygdilsZP-aPwvGXC8YFtUog6taoK_knOilN5hdrk_0AR6-h0VyxAnPiWz8nVbJsB-repXZ2XPCX41ZPUOV_0AdyAnhZfImvg5tma5t7KAwgI7J5x6TVOcRMuP1tl08foabgC81MMM17AXrCmP0o8ixnY0eRFhvdQTOTfwNQTwigKW0sFlyZRkRvDo3Y-2FTNEW8kw9uX_efupriQsFeakKcBkhzA", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115348815745085455303\">Teketeke Teketeke (Teketeketeketeketeke)</a>"] },
+            { photoReference: "AWCwydgKORsKeb3iVJZsU_Zxe4q1MPRaHojyDKXwxSSDKbQpvGXMbUYdtKxjCBRhkSNdb6qZWJIrejbwdM8e0EHOBW7CDkNTVdTkOg-8BjMRuyWMhAMlrNuyndo-WniG29C-WbEblqlVjLtMNd6viZXGbXfPBAtlzy5yHjA_lf4CAO_5FcoTLqwA31FcVF_vknpZyJE018rd9fEifuNynhynZ4axs_vlPdd6A9-MEWC1Ejb6U-d_QcXXSAvNZyBBKL-pEN76GRDwkj6v7EDGY3HXMz0uQvgqWekDPI_vymqlXkBBRa7dMnXnnzpzv8u_o5yGb_bwOeBsT7DvTzD4J0dLxYIw58U02GPyz0Zm4I98RSduDs6QzgnnT-L6jROlfvab5oKfFaYXtpqRrGtdbxoJQRrqvNeR_ISPBzmQcOJ7ItkZHBcm", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114216265751611459271\">JAY CHO</a>"] }
+        ],
+        summary: "편리한 위치와 넓은 공간이 특징인 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["넓은 방", "주방 시설", "편리한 위치"],
+        tips: ["주변 이동이 매우 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "55 Ren Min Lu, Zhong Shan Qu, Da Lian Shi, Liao Ning Sheng, 중국 116001" }],
+        location: { landmark: "55 Ren Min Lu, Zhong Shan Qu, Da Lian Shi, Liao Ning Sheng, 중국 116001", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9234929101571561908", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E5%A4%A7%E8%BF%9E%E7%9B%9B%E6%8D%B7%E6%B8%AF%E6%B9%BE%E6%9C%8D%E5%8A%A1%E5%85%AC%E5%AF%93+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "훙시위안 아파트 호텔 완다 플라자": {
+        photos: [],
+        placeId: "ChIJSWm5DwxkjzUR7KTH4enfhqA",
+        placePhotos: [
+            { photoReference: "AWCwydh4psbserJrwIuQUXiE8PJpJri9Xc5S0zUxDK3UgnSBIC-4L7IwvTDWrFmtu4P-GjOAxSw-KkatjotcXixFAeevApm_DUoIRuHW4VKVcsU4IgfBlqwa2129XGjaCdpdcrK1oJkki-iTZnUr9OqBJZjW-2S6ft8Mvk84o8dYWhIk3y_hyPSSbYuLFbH2U_YnTRmD-gmamMNEWlNyKBfOzUymG-SX2XYV09CsQ8FU1sgG5YDKSy8_t0Wyp62-bsacm_mfb2Zk0mP0phYOTQRIUxf9gf2l4ptqmA9ql9TgkhyFaFjh9xBFvy6K-TvDriP2hCrCHufKMt8xG2CJhks3gCHEbv8QupNGW2Y93wY_GHJiznL9tzLz1CAb63y6yY4WguWUAqX8HG575bbS-zHXChgyF_tMJ13KMD3xW_rOEAao0SVtlSTXjSy3wPudBNl5", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111019708887357396702\">ひろとも</a>"] },
+            { photoReference: "AWCwydj8WvQJpnJSgNNdkI2IE-81PgVYEIKevDUyT80EJDfnGqVhVhcrBVxRK6FNoNMIOIGXWkpTNUXOJHsfgbdkCUnoUyEjtczxTFYIGO6BUAeca74F_LdRYgmRfdxjaO9LQJaIEWBuvAzonEx6Mhdq69Pql4uJNNP99fl6kWqA39A3mhblQmH40i8qP3bK0iDdHoQc1O3twU5CpCo4sq8pPTAXhQKj3Vt6a9loj4S9uO10DHfL77EWlZm0dcrAnbFt2CaZFm1RyKWEv8mf7H9d352VuhKSGQ3kwhEbywldsUa8-2hr1cwMoOmVRBEhHPD6YJci4C6hh4Fp0GLivzXZ75MDEHOL5C1GekplArdaUnSqayn1aj_z_2uaW_sMUabRZvdx3eshtqD-CF-QXSezbt28Bfp3DDgjbjeFHw5cjHKuQA-U7PR3DcAKso6OtlzY", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111019708887357396702\">ひろとも</a>"] }
+        ],
+        summary: "공간이 넓고 디자인이 아름다운 에어비앤비입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["넓은 공간", "예쁜 인테리어"],
+        tips: ["공간 활용도가 높습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Room 1511m Building 3, Gan Jing Zi, 甘井子区大连市辽宁省 중국 116023" }],
+        location: { landmark: "Room 1511m Building 3, Gan Jing Zi, 甘井子区大连市辽宁省 중국 116023", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11567178888556029164", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hong+Xiyuan+Apartment+Hotel+Wada+Plaza+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "프레이저 스위트 다롄": {
+        photos: [],
+        placeId: "ChIJxxVSB9_0hTURMaVJj5dw67I",
+        placePhotos: [
+            { photoReference: "AWCwydgMIKsUyev5LfGIVZ8K3C9j3SaLoGcTUTXUIzRaSP_PujjL5HVt-gkCphIllnJoGHqrphTyIkym0AcIUpgCl4lTVqe31CQKZuEndQ6J_jLJQIDlaOrTcctNQY1S9383bm6oGnIgrATtgSNpD6Jzg269JyQpL29dbtjVX5jvBtvAMDTGjg5M3uYXER6_lyR-SN8bQ6dqiAQ5RcDCF_es6s3LYYkjLjZSdq9crjIPQ5yOr4idhTAaSIIWt7aKnui7FW2FcCmwaU5If0719n65hcXcg5i7siLmWSwkqrwMpsC3-ahjYA0B1SmVelxba4YmO4Et5Ukk9sLg54W9TA6TckDyvz8DI9D1xQQZtrtBTbE2t1vhaBx73svCx4vyY4tSDHty6GCUX_wBQW69wG8aeBSpfpm1H9B5JUP4zkBmQAzkcg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103782130873937138196\">Alex Fung</a>"] },
+            { photoReference: "AWCwydhG3ixgov1OVXRp5iWHD5qpEniFOGS5E44DAJv_dIc6V0cL7xuRjG-TCww9XkBpUr8Lsfrg9nKE7YOlgx9UOhDKtM9AvDnzPOc1MwVDiq4YL5N0n6wIlN-5VQ-VOk_su1auIKKt8LhwVQjwRVsex3F7px6S7CxEIZqZlsV0999ERz1aJLT3OLv3GY5NwIF33NvCUf_NMbPjzwXZRr5YScy6scwtEQPsG6bstlHKZV3gchmZPtD6gu00xIfLtlzhYC8fn5n41sgYj4nQMqoz8mF7AzKvgLRIlCW_wYJbT2IOZkOMch96yUzbwGh2-Cx9U2esgW5mM1vWnFOlnwTcmTW24nXc-0bCSze8X4VrelrC-guHcd3_uxljEvx1DpU-Atb8PGtjlVE87qhpXD07FPuPXJllXQAQtHqahPvZowi2Yg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103782130873937138196\">Alex Fung</a>"] },
+            { photoReference: "AWCwydgRi0rms8TNHfQKmAVGp-ycnnnKO-ZU8D2NRqrZU1PbB_PfgKjqPibrIH1oaxJATPK4l4XOQ0iYJ5N-UI7awFDDUPEo1pvLzFIYGn9UObpN5PnEp-Zssv1_dVCssYDR7g5WvG3aCDFqZqD-xwfq-ZcfoEVwk0ajcZQK0XobNSDIjNpV056iPhOzZ5qqHkGyocRcVib8I8th0bLTuK3NTXlztvJDmC13LwzhfdafB1_y4euwbOGRCPesRdmJjKXIL_H2j56aelGqDqo5dPPCzsP6pUR3P9Pj7ynuLVsjMqTpxJ9mEz1gY8orP4fh8yHk2L0CuZYSC0AccXJpcZWWuzHWygjhU-M-mztb2ZPyf7DzeHatGirLadPGqwEXFhmGyRm0RmQM4YbRn37E3CanWYSsdpk3MzFPan3ArTS8Kl85Ow", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103782130873937138196\">Alex Fung</a>"] },
+            { photoReference: "AWCwydhwNO-l4A1wa-PEU0pKKd4RowmSmx5INXaZ4a0Z0TKxmzlEQ-1xkqWo1O2vithXzIq89VDuqJ2Bru_V6zPiDNP0s10BCA-4npOK__wuODjgEqU3AojesdgM6MelRjI0WzPIeAQq7OMYISaeyV_zMaE5lT-cf_aRrdRfaNj9EA1XbRk37FaWIQp4ooKxDFvWYsrqFrv-98OU3r_DJW9aW35P-gqToEHVE4hRRSwaOvra7SvCdvCkkvD5P2A3zVc1NW-ReDMbyWlttW9S2mpxAR-o7Y66d-OXjd6z4oKqXf_NKUm5vT40_JlxCuj9o2FXBd_dSq6x4rytiYksmlF7RCYr1z94C6pACNyUGvFMolSSJwPfJmVDGPlg_NnLRpC0Al_nlb2Cla_Dyq-Ys9oacruWiXzXDnkgMFVyVCLr893TPg", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108971842018666654477\">CS P</a>"] },
+            { photoReference: "AWCwydhK6kMuedvLDoJ6S50yy4ilO93S2h_IOIRkCVONbp3AKMU2MJmys4thOEwi1Ho7Uk5yrj2DdifRDbW3EEyJGgXXI6etTtoOPgRHjn3XnOELd-p1yGlLxozQPqAsHWyw2Z4wVIUphXN33h3kMlIQb-Ro7THALHfGnBhKpFnJNNoO0rph3TBPdBi-biggM2cq5nU-gVU4_z7qvNegMnSkkFa9lNvyQHO9pBL3t1szaM_5unKZODgvq4QOmCJH7sEfplw1MI6-QK3vORRNtpzOMy4h9XyaZ0qTDHLlG5AfE0xznt7KbW3ZzOiVePlDoJONQeVslBzKO9CzItV611jxf5OmzD77TtUyAAQ3HLRqsKwTJgLfw1Hz_-v33zfXy7E5VIMstFlmbbHFmigDqSmPp_0Se6AIqcMfiOTzoGOmxpymZg", width: 3372, height: 2532, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105171131947914205376\">Shafiq Chowdhury</a>"] }
+        ],
+        summary: "친절한 서비스와 우수한 편의시설을 갖춘 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["쇼핑센터 인접", "친절한 직원"],
+        tips: ["4층 출구를 이용하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No.30 Ganglong Road, Zhongshan District, 中山区大连市辽宁省 중국 116001" }],
+        location: { landmark: "No.30 Ganglong Road, Zhongshan District, 中山区大连市辽宁省 중국 116001", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12892522154524517681", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Fraser+Suites+Dalian+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다롄 진천 인터내셔널 호텔 아파트": {
+        photos: [],
+        placeId: "ChIJk0ijYg9gjzUR2Yy7hfpE8e8",
+        placePhotos: [
+            { photoReference: "AWCwydgK_yx7YRyLBqUEz2Qn5fAo3GB1_mPt_0Gc59FxuJJR92NqN6SNKHMGXAvITW7eaT3A3l18o8PUy1iSKfBS9kf9013ZNHZcYrJv9BjxPhs4SLK57oLM8o6bwCB02-o-SPWtqfIITlgZlboDY48jBT8_IEA1xPN60iYeDe-Q2YCy5-rB3utbIVBpbebHAQQLg07nPr8st_FeW0ojVrJjNMmFVNQzKEVyM6A90cunAM_U_xRe-kT0E5sRKtIS7YByJnPY7tD8p0pN1rhBdlLHofRAS0pytPY6scCKLy386nUTmo_EPiXUlqkXi04l_WRs9vS65ZbPn4sjzk-7MCnpyMzhiATESq4y7YsjxUf2lsWRbnHe750nOOxG9d53DGrsthv8xQt217ODaa9pGfLQRkniBBREVY-t5ArWVe_4luWyrXukzKQnoR0qQwDNbcB3", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116743819498746814703\">shahzaib awan</a>"] }
+        ],
+        summary: "훌륭한 전망과 좋은 위치를 자랑하는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["좋은 위치", "멋진 전망"],
+        tips: ["주차 공간이 협소할 수 있으니 주의하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "570 Chang Jiang Lu, Xi Gang Qu, Da Lian Shi, Liao Ning Sheng, 중국 116011" }],
+        location: { landmark: "570 Chang Jiang Lu, Xi Gang Qu, Da Lian Shi, Liao Ning Sheng, 중국 116011", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17289676287228218585", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Dalian+Jinchen+International+Hotel+Apartment+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;

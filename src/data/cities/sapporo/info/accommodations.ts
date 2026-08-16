@@ -501,6 +501,429 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A8%EC%84%BC+%EB%A3%8C%EC%B9%B8+%EC%9C%A0%EC%97%94+%EC%82%BF%ED%8F%AC%EB%A1%9C+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "조잔케이 뷰 호텔": {
+        photos: [],
+        placeId: "ChIJLU2qoybSCl8RF5dYvy3qdbw",
+        placePhotos: [
+            { photoReference: "AWCwydgUlT4MboO1qKwkgd-gKOJJsQh5hRLHwSKi-RBB2AqqNEdIBUO6Z0Pd7bbumm6VkJwEH-xiah5kGOTN9DcT-Hpmr7e-R9sICw9RPreXEIjFb0CJ8M3jmvf6fk_9fmHQncY1RA8NV1Uc2fysZHqX18dorkre888aT7_Und0pXIBOMQeyFH0LZnwFE7dDaUwaLPg3xhhFDZCrNTjHLKd4CXF58G6S6uRDdi6RlzbliaKp7wvRcWUoOVPXXkvENs623EzcUFTAWzuV8HsHHyqAsdknwMLzj1U4VaOV7X8ek0DiA564VUlotEEF43CU5Ma66FT5pJViBr233w9hK36kkZfCCycsLkFxgEhvB-T4YJPMTmgPGZ4PeDMT2l_E9EPzsklEuDsxegQb-vokOvrHE32ZvDsa7-GO71Zld-Pwt26KNAJMlBcbuq2Us2mqX5Jd", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107566440880003020686\">定山渓ビューホテル</a>"] },
+            { photoReference: "AWCwydgv6LCWzSkKoLqm4R6Q0mJkEiMIabpR4RZUvb7rSxcLsRERpispZWVMveIwJ4RhuL1B_tvOCgjGTaQNozTHSRSHB4IIowMqcnoLFAfZpk1ruHRfDKISMqjoHFWioWVXc0i2jUaOoqiNNlr91sQANFA-FJ3BYitbOICFu30oCGzsAbqEZMcJVZUUQMvLFyzMFSGfdcC1bZd5tGicCCMiOR1088LrYJzZqx0AxdYqfW6X8jPeHGWT-vWphdAUbHWwkCb9ODuo0lZ8Y6MBhr2KeSZwoo9-GWuMBknLUBGRFABa99bi2fA-0xkDowqSduObpEE_rLOOYPYbeoeqC4QBybwAzpZ8_zvBnJ2G5nVZlMK7BnioI5HiRgiE2CmcxvSEYqq9nefzcu5FIjoGSrmE0adrm4RnVQaQfWYZ9P1iEY4ObQ", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107566440880003020686\">定山渓ビューホテル</a>"] },
+            { photoReference: "AWCwydheJ3csQDkL7TrkqAXf6v2Dem3UB44QInoXfy2hoIJ5JzfXbL8XXHAKVvYT1Pm-E-MOKMGo8NeTg16oC2VPOFlV0hvbGY4DRljsxFj41V5P18k0GQ1qdJc1bxIyEw65C1kDhlSxCj20ZEN4nl5A4a08dKgfhGOrcTe6bmDw9RyKXMVw0WBKX_ggJMLGQoHFj9NHqfWYDVuB4DzUxT6-Glxlhhacrf75OH6Ez_FGXEgwkpphT-8EH-TgEK5rYxUSUgH8WNl9CJN-v3DlcdNkUs6E_-N7NWFvpbVOp3gCY9wvmy_AecOoqBYOqi8IYRkxuTz61ydiIafpll1RFWQTR0rOdm1Yk_8Sj-t8uCmcJPQW7Yn9dcQVA8oo5sMUqY0ds4QLE1LidGMhFk9qXGu6ljtgAuOd4OXHTsbplPMWKFcBiQ", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107566440880003020686\">定山渓ビューホテル</a>"] },
+            { photoReference: "AWCwydibLtpRSC-wQyB8mjqKmkZSFEstq5u5MDEC7hrMn1J0HkYdVFAWCnx3jhR48erzFjkQ-x_ywVEP5v5DmeXi2q0r08y_HUUvBX-g-SjXA8Zex7upLTkMRvUJGTxTmWkJrs9lpZ9KbwLohRX5abq4aYhexECzbTTt_eJETUzM5h3tD1yTIinq29u1dJXryjs0T0KlA9suUhd8XgrnrFOoxcqJ8YlALS0ziqiUz2n_nDk5KQaKNW2eFnPHWAS0ELm8BBHZqT-INcmYETxqi6dfJrEEJKNd_Rm6bC6LvOMXUqvpaNSIfqlT1dWTVnxKeWanhoo7Isj63xprYHgJy3wqFu-Rk_iaBCESnk23Ql0CIqnZJUuLG0Vj-FPVgXzcMWU058Ws274NNBnDq0YSoppk2832dBGmNDJ8Apdc82ImcK3mlw", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107566440880003020686\">定山渓ビューホテル</a>"] },
+            { photoReference: "AWCwydjqiHuBwKj32kJFVOoXUn-ZEbA9bPlsJKEQRnIvunzMawDCJHcRuPEzQRNCuJYVvvh5mk6PtEBXFR-FWgfZ5zLDr-u6goQhdyZMFjdruwoHlNOPfMsbLnE0c8Tf2Pij_cPe_7Ipy4ZCLtzijJXIDVvV7B31q2OlSUY_6EKo20YWTEaHEZQJmaHTM_EHjGxLR58UXpZlspB9sDHmSygLGCdq0AB6eRyTg27WGYNo15LLnAvMSa_PhLGzW-wRYDhwGBb2hsTPaDP10PxCTc_vfK8h9ihBgYSc6uQUIYTQFmufW1ggdNvAH9oSipIMLrPlt7hqR5x6j77xUZk9haVSyg5ljtIJjCaY7Peptdb6OM_21Z3lkg11KKFdHAvvCwEnTENbMX9s88t179S3er4Cx_mT9z_-AKq7tcVDY4r3mRxZl5au", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107566440880003020686\">定山渓ビューホテル</a>"] }
+        ],
+        summary: "실내 스파 시설을 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["실내 스파", "조잔케이 위치"],
+        tips: ["스파 시설을 이용해 보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-111 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본" }],
+        location: { landmark: "2-chōme-111 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.jozankeiview.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13580017733610280727", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A1%B0%EC%9E%94%EC%BC%80%EC%9D%B4+%EB%B7%B0+%ED%98%B8%ED%85%94+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "조잔케이 유라쿠소안": {
+        photos: [],
+        placeId: "ChIJ0cls-V3TCl8RxgHC-tZK164",
+        placePhotos: [
+            { photoReference: "AWCwydi_fie-IbXu9bZDRp1KteijKreIsEBUK83tRntN9VvUOWihvevpHpfXQPhDo5FWFPvlsOmVUd26LDiAKMJw_2J6Q44zvqknE8XfROW4u3NTlaPxd1wRsGIDEUq67yHDD0kX4-ta3xTyXdJxPjwXl8elCx3K0O_rFQjuMeSgE_gIieV4Mmu4-1G51lwv0x_bHUzo3yJxs_SQdk1HjpDohNiUS1mTZ8ZEsjps2gfOPoPbvm8Xq4OzmWuregK6eKGuIgTKi_iaUY7mrDRJjadADBZlZLWNc_br0aJqFozk8CKF_xL--FKJaShOIsx_bCWmJml_iEyt8GCg1HXKv3WX6PBUWmhsQfXwYqM7hDhV6YWh-xG7ZRpMfHs8c9UL7ymomnl7vs06m-vRUEakN9hDZGD4EqIPZLmJRXSnW85p2zHFbtpR-ZOiAujrkWnqNfsp", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105767361889882306120\">ゆらく草庵</a>"] },
+            { photoReference: "AWCwydh4HOCSu8sESeVymiTHAgT91THWLkKoMdLsuXwf8SHwl8CrkaRkbkurpggqJjxxGBHdKhHo1I9yRXdIImsNV57-oaze-WxKaWQLSaadr5oD0Eud2_PQ4HOxwWmndjjUObS18ffQYAYTZHLe5unFgRznK5Iek5vXvrbuZCv4VVZpGXTZcXap4fzjVIJwKCvkwH3N1lyAqedgA125PKgnOHfNuP2FeIRi1-cZM6rsPGbP8_RuzgrP5nIDI76UVU_uhFfDALlOdAMKfPs54NB6GQByFFiU-mN3c1CwhZ1z39YAy557v30C5E1BVrwTZcvHU3xRdZSYMud7ayqtpGvfBLNkLY7wNBzDZqlYX44Q-IRXEMeyc1QLE_tZ2GLocBVMNoLmwMiwhFKuaZy8jn3XJL62spwip2vwtPPIHN4k2SPn_wUhBoATpDqfHIKDgizI", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105767361889882306120\">ゆらく草庵</a>"] },
+            { photoReference: "AWCwydhRJSU-zb8rQqMlEZavqJxpdFRXP25bRM8CqnMjUQvcpgc4dkxbraVyw_PDuD0DqE0SwkHuTbJP5N84QLbj4lKRLXaaCb8su9caO37FB2suzPThA-dKWBhlMXYJj5aHQ1h1JBnt10c28uRpwQlERYhfUfB1SSeS2Cc6MpWZDrybje-lbYc03yTRCBc1ZK65D3GaNuphgQZpZlGgO9evs8YT_38lmSQrw37w0NrABH1ZTbvK6d4bMGChwM57oa50Flp4Fe5xnI1yflwLSE93R45S3JcqVishNkGwTxARF6nHvScv3BJP_i3dfODBP0h1A30XctZXXn2tuk0v7k_bNy3qLze2qqJAtIDAxugAHwigGkS5DkvEFvHDoJD6LA73cwdwLEC7WYTTa5saCBOFYgtJlbmdKZajjz1bx5Fv94gUUuCbyymGk66mJ4VhQw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105767361889882306120\">ゆらく草庵</a>"] },
+            { photoReference: "AWCwydikN2PJdQ9XIaG3LLHtdyOb05-sNxnR1r5uEsRN5l-jZE8W4CffmI9j93W8ZWhR1E3sXPk9vHlAoEOW82Y9Y9vwGV6T6JfzUVyLrbO2Ti5zj6kWeVw_UjgL_CQ9H1PPnsR9MntmlVoXDDVzXDpU12r_bJ5-5nmZgkxeQVGqmEw2Rv92JwbWbMQvP-JBXiDQONdESclqJF5nyUCQWQ_S4WSgmaGaFeWJk5pJRhmckKioKnClt0UGsAK_fQ-K2wbhMaWfR6CaesV8E3Or0dv_SgaN6hkMwwm7efLH1XguXBi5NyXPDBZBiIOcRNG9xouxKruj0LIRDZgPTWdKPiRRBtQwysfJX0hkUAI8VJOjzNJIMJPSqTAIYGzUyLIT26eP708NEqb_VE7zSwWb7Y8MajoXPUi4AODLwiUSG7r4jhjafS2d", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108411655958681181852\">林檎の食べ歩き</a>"] },
+            { photoReference: "AWCwydghMufNtaxh9EpIVcti2JT1y-ZvIJwqBKss5XlLMwxaoKzWss7lLsgJwfY5-RfC56yFUcJ-XnfoIPQGncfYUm86pleGR-hZR8-gIMQjZ_HtL30wOedacU95GMPYwQO2da-GhqdZ6M5f9NSAtZ3omy1N_KBtr9rLerwhU81v_56b1_nWbd-n_iK2W7DB4dyStx0EaQBj3xBAIjVi2mhq-YwXHK4LBEpaxoOygVxjmH6p8xPimKRudkCqhaYAkDzIfbliJVDjR3fPKlni_XSMgobWm0MMHPnQHsKItxG67D7GYn4uZMH87YvNAjsWoJG2VfDdqkfwELueSLB0JDcnM_48HEbcTRvFVCk_QyqWWDygePQ9qP2b1Fe2XqyhQRAe7mFW2mKGXRKX43h4Jb8EyY8dBHjxbwLyghf200onILp8wJ8YY5vQA5kz8gjMfg", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105767361889882306120\">ゆらく草庵</a>"] }
+        ],
+        summary: "훌륭한 서비스와 맛있는 식사를 즐길 수 있는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["정중한 환대", "창작 가이세키 요리"],
+        tips: ["가족 단위 방문객에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "3-chōme-228-1 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2301 일본" }],
+        location: { landmark: "3-chōme-228-1 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2301 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://dormy-hotels.com/resort/hotels/yurakusoan/?utm_source=google&utm_medium=gbp&utm_campaign=gbpurl", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12598620769782727110", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A1%B0%EC%9E%94%EC%BC%80%EC%9D%B4+%EC%9C%A0%EB%9D%BC%EC%BF%A0%EC%86%8C%EC%95%88+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "조잔케이 쓰루가 리조트 스파 모리노우타": {
+        photos: [],
+        placeId: "ChIJhX1BaCPSCl8R-_R8ADVCTBk",
+        placePhotos: [
+            { photoReference: "AWCwydh-qWR4HXTCMt504XuvO582Vna4ckH5QcHl1ZiPvdONzOMAcNxLkSUnAu4TUmVejul_3PfI2GzFsA4fBhm2NYoogZj6bPoNjaVTVgk0yT_Ai_Y7HExg07NL48b1gX_t7eWyLjXASugRmzOW4SlYJyozAridSNu5JJXk4sM-P5j_TbU3oVrLxJlIWIkzFSdxvSj602cbNeG5cmIsuzz-kepaG62FyvejxUHEc7604rpPaOSFAGn5G8yNnck_5pVtK8-cLz-AfRgkA4HJpbQ-_WqVtnp9jrhgaoxHzIf6toF0x4T4hjnEnOvD4lJrMbJ9YyW4NLkh_RrRkkrTAA30gSAl-bjmrDG5ETdeVhEKXcZm7mu-Eb77HVmXe_T-g19nS7F5_vpif3X5iyoN3dwo-eoTwNSFz3Hy1Gq-IoKDQuBFlKmu4hURdIKLBL6kVCnW", width: 3000, height: 1993, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109237981589715881460\">定山渓 鶴雅リゾートスパ 森の謌</a>"] },
+            { photoReference: "AWCwydjgwDZ3Bgt8MSoA2HjnzSK5EVq8bElQlthg3-qa0DwiBDdZwo9PQjqVWIfLnviD9SGFc80j7OKCX5jW-aMupii4DLDU09gxAAC42BwMnNGYwc5Q9W2D8s0xO_CKgA_nB0wD-NiZYPrvF8CL1cox3_dSsydDAax5C9E6suUpr1rPxqFohmWFDKppHf_WEbie6XncfTwqOV4w1GCLr3fMn4V_joDVNWc2tx6AnLwaeAsc4-dx26wp0kO0aLGb6UhiTaTypkmJzzzCTjTOsPRPz_3f4eiqi7Gm-FKZGubqqEFp2LA6OBFND_IHuoEKRvqe3iYuW9KpDcaviSNarUjW8EH1hk7JoWijk1dPK5BuW-FL3yp6ze9ylu_e3Et2igYHdnIWZPBLXFgFl9TshikB7jbayt4em8wJ005GwAUJoeKO7TRZ", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108312226518290355511\">遊々亭遊民</a>"] },
+            { photoReference: "AWCwydjwlpLVTKvOQXj2Sxu1vhYFST7pmxYsC42OfIK3QXLsFZcUMc0nqTL0zizZgVT883wFn1pUf54P-m2DpkKgHQdZvikpwOT66cSqJe0IoAt4uy2feZ3ED3Ui87VY2shix1X3PIcLboIKR_4l0T5C0GwblaqEiGJpGkZXjm6UA4wI0zX2kl4ziWReK-WmAhnaS0PzBeyJ9A_j3CJPWgp22pKQ2sDKJJcL_suOTBkijs5okiKoEc0vqBw1VhwaGeWCP36M1abqIIgeq0rN8MN_qAJZHy1YrACUGfakoxFP2Uant1hcQDXET3ntnXyI_Mkxvr7hwDLqyeYvNnzbz9zL9e8MGsvJSttyb2QGHL3hk4COByB5KIp08iBPBqwoo8h-FpWcVNTIZraZ41iBUyxnlFSIUtjKR2ysNRl1JYB16cZSG-g", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108337320672530444759\">近藤まりお</a>"] },
+            { photoReference: "AWCwydgo0CMnQ6gX_zuMCwky6zxEXrt-80rCdkSRMEYtEnQXmnmed5RHDukeCWQsmCOd0yQQ2h3vr2wyj4KYMrIH_733PLA6stwuxCxpcQZgbt18HdE2cpQ_aL9wXJ-i1KfhgePq6fLwprM1Yoo15ly3blmRNG9vN-DM8s7kS8u57nQIcUct07KIAT49l6RBM7C2tGqOYiPwJO7E4DnUYHc57kpiqfWEgzWS4oTazYcj4ERtWwfo22NGbU-9XvZS02p-gGSo7D2fijqTnp113ui_SEBPAAFEquJM-opgvmyNd5pmetWe8TF1aoutX36JI3l5UWXdDUdOof7r6zebo255dk0MnJFlJLFRMotf5MiOzSyRh6nDc7bBLEDZ11C64qXMt6LJuZusQxI0p0VhKucelOLQsrZJL14SaSyPoShuIAXFo-6K", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109237981589715881460\">定山渓 鶴雅リゾートスパ 森の謌</a>"] },
+            { photoReference: "AWCwydjhSg6P9NnPQ7WFaqYJZg_28tfMTLyDD19t25J-OoCn2vzDBsElhaDrUA1Dwz3kwaA6IAXZ8QyueSsx9EgZ6mD1TRRvs5gPCbhaZpRGSu88GNLY0uetLhLo0iqrGtoptPy8NEDckMIMrFtqKxceHZhCqt2JnH62P8Ycj6oNNiQNjrJxUquoQKyQo5WEAGBd8DvXR6qT-ZMbVo32fjfvG9drPtW8MZBINMP4RZ5U1viN1-g-TNYQLmJ0FmdAQq4YQgQQ5rnnlF6H1WsU9nJIvOHGM4d9rmlawa5NMVNsXslLTwiTJBh_1E3gTnfOLRnuW3aIfbhJ378wsXgp68KSzAllJEw_eqOU5IVwUsu7Za4IEvioGFQgWGf5gYTxg78JBzV6j-RxYfulERIWcye-HdY-ytPj3eGLqneT_cBVK5E", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109237981589715881460\">定山渓 鶴雅リゾートスパ 森の謌</a>"] }
+        ],
+        summary: "식사가 맛있고 마사지 의자가 있는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 식사", "객실 내 마사지 의자"],
+        tips: ["기념품 코너의 마카롱을 추천합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "3-chōme-192番地 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본" }],
+        location: { landmark: "3-chōme-192番地 Jōzankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.morino-uta.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1822904744587097339", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Jozankei+Tsuruga+Resort+Spa+MORI+no+UTA+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "샤토레제 가토 킹덤 삿포로": {
+        photos: [],
+        placeId: "ChIJU_N0yhwlC18RoQwgjwJIJ_U",
+        placePhotos: [
+            { photoReference: "AWCwydiQ1Bj6h9PWDKgmlsuqGCPN8RsMotuAnQstmu9rn4j2HAEd8-5V8WEcS-ssn5gvq27jwEp-DZkVke6jF2gXZhdLCkXal-FBU_DvHe7UShTFwQwN3ZNoWvJzU76jVReZepl-MUJPJDh1gerMRtzs_nooFd9d2wsgadwQ9EDJyIYL0LtnXCP33ci00a9dYLAYKI7HQvndJ0wzYpK1gl-eEbHlai4e6LRypHZT9maTPgfPyj58HhqqTmONCb567VUovfMQhiC1_S3svy84HlE9tWHhkagtActdtlcdz1QwOVJPhjTtp7lXDj9pQLJX6zfbdr383vY4o4D9lbeMshqmaT8i0ZMWWEkbxV2B8KjSHzjR-YR4c27OHvJT5JJdCrwdQ3X199oGdDFGUuJSOKrP9rr_Y7WcCYBN74h821VFO0wttg", width: 3372, height: 2247, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113254615091141715502\">シャトレーゼ ガトーキングダム サッポロ</a>"] },
+            { photoReference: "AWCwydg_An0Dh5bazskUXqq38ri4SIBjPJ3jTIayORFJaeuioQGQ6BereUBZhq1MAznGSJ9sc8yEi-5auqVjHJxAYV0qr1lAWdr2UuWzGAxhreGKQbLDODnuozBCIEjVa4L5D5EOgpvrDmC0WuvLtzHe162McXuJ6i2VDOOgSEEE4V7fbg8375wvyeRCYW5OhNxnXV8Fz680kfrLxRXDVaRGBJjQxGRhYBhpSNZo5z5rmTZZO9m2J55-KA-mOwhM-OgolmjAgudxcvnuuKUA_SspYoIDASIen9TQ6ECc0yI1j2WAEeitYbmRhwjLEH06-58JXumxz7p8pwoHW79iDho6BDW1zt6f-6FE5uV_M2nqX5BWWmjZkWfLcBc4JXBc7QLBHXSgMGLJsCjn_BRDD14YMvtsxCWdjkVqcul8WqKUmyRrACMZGKrhACao-kuQZQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103679390244935686728\">J J</a>"] },
+            { photoReference: "AWCwydgSDObqWW8Qrh_u909R1HTB_vaGT8y_ibSqMXtX3U61vYqbhecnG8wnkyjb7rjXxlRr5nf8fznXKzgiKnQcVxcf2k5JF7rkAKasvx4BvSjcnEszDjQQv5i4lJ9vBZtPa9JckimJWrZnYL4P2Y4c5Xq45lXGwfW5rnwh304wPNVN928y-glxKABNT3IgGmkGenc4nXSh-LXZewRbDlgyEJKL_7v95vqPwrSGGvjjK1hMoPw5MLxuQsTtAKtNOv_5UWDwsueeGQfJYWwB9Lf2MMaKf6DVVldTy_Kz5337FTQimMVzEQjJs36LucSa--aIjZo6DIUgUsQCQwsOG2fWixJtlsu1W0W9veNiSJAqF9u0kPYev8PUFpXW9XAmsXIt5-ZkvnWWQlUyftGXe-vgd64da6k-eFhK-8DqvA0m92Hg3qOa", width: 3963, height: 2972, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112179802346957187588\">Ritsuko</a>"] },
+            { photoReference: "AWCwydiLorQmCxruFzQNNVDvKCfPkJgNFqOqQSvhlGzRVgTrN-_K-e-8yR_XV8sOo0pks75RZG2ytBt33Zv4rHG-sSClD_-1VAtjVKmzMduzXK7kzRMWu9DuLTp7-iVct0GVYr0IZvmGkYYx5ydgtS6WjkOhG0rW4cwtgJzhJ8tO_Gd-An_OU-eDik4Tc-2NMfyKxwZKf8uG1AAmWM4RK4X-w8aCOrTiAyMFtm-TziC1ok4xzBeQgYlTKEyxsieQLL9doEPDiWi6dOekHoIKNPATiYLJO9zmzBIqDqEQi3ahp2h5S4gRPhrcZP2ouL6rdV9c5KLg0oqKkpHgc-bWdu6N2UcdXARpt59EPil7n7p_I8BxdZ5AagFqxVgjd-2GzxEjGEQVoeQKBOrwpZAWUjYiImZU3J5HKhS_eZ69_V--NJjb99iM", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109311745637491317927\">PJ Mak</a>"] },
+            { photoReference: "AWCwydi2Ml1LFluKglq0MSB829itgZdov5bGvttE3kO4ze_BHQGiLzAfXGmz0EB6pmcoIUF6LFE9C-m3Yt_5LzjrgaK3vsOeOWETrtbhOTn_kq1VP4WGmLBZiA9yUdfXKVqe4VOdJyPe-Gvz5dTNvXkk-oJbiVcVlsqu9u_caPtRBM0T5a9nNwMv7lfZtm9oqAgiUKm5PrCYbCmQsWxyF_mrGdKin3ogf_xm-5ArN4i55jrXpYxmIr1omJn3XpB101YVC-chIsD2PGKrsMRZwKrkirFpiiDFSeY_v3PMRvOlvPcZ-dVFWR8Y6_yUxfRi-RRTgB0wDDnGKf5SbM27euadkRMmwEc-MVAiAhfD0fraHr7gR6yBIevY7XJHIPKFqLYN8_J9wdQtFc1BvwimETcm01xNad0JH1Hl832m73inVlv84J5n", width: 4064, height: 2709, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113254615091141715502\">シャトレーゼ ガトーキングダム サッポロ</a>"] }
+        ],
+        summary: "홋카이도 향토 요리와 디저트 뷔페를 즐길 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["홋카이도 향토 요리 조식 및 석식", "샤르테제 디저트 무한 리필"],
+        tips: ["숙박 시 수영장과 온천 이용료가 포함되어 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Shinoro-132 Higashibarato, Kita Ward, Sapporo, Hokkaido 002-8043 일본" }],
+        location: { landmark: "Shinoro-132 Higashibarato, Kita Ward, Sapporo, Hokkaido 002-8043 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.gateauxkingdom.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17665167239212436641", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Chateraise+Gateaux+Kingdom+Sapporo+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오쿠조잔케이 온천 가마쓰 교엔 (카쇼교엔)": {
+        photos: [],
+        placeId: "ChIJjXSpv-vNCl8RgrDJGsBN3ng",
+        placePhotos: [
+            { photoReference: "AWCwydgoy_pCkVw5YU2c-lykxE4NRAk0EwV2Ja9thFJI_jxtvEhsDETI3UNHwhta1UGS_D4imu5CFOeGbpR9bAmGZX1Pse-IjD9ipa4535SJmmTRXprGxQuukP__qv0BwZibrHP4MbGKQz7IjbCj_6uOfs9jcd9D-Q06RVHq9KGf_zFoI5w2IJbiJn8n_K0C9NmTEWtqHEHti-66XPR7Zal2ufOy7hzAeXtUShYoovWmrncz7Q7_UKojRgzKOZRFfXslL1AWKgB4YQf5HyVto6pDm8_6CvTmiI1gcGtrAZCmlY3cR7E8WlkFW6ESt6DuTmKxI4bl7AU2ZI2dYZMoL2riMk4DhS-CI8GQf_MfYjaYjxH8Q7Nt2HQJ6KCmOsgFHpM2luUDYLPNsoey7dqimkDB-8avb2tlJslWNVOd2CaTfR_0RQ", width: 1900, height: 1250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108911636887693608133\">奥定山渓温泉 佳松御苑 (カショウギョエン)</a>"] },
+            { photoReference: "AWCwydh0Kd6-q47gFnJysob8n6oZWsGUMk_tb7xrixReVH0eC_oswWZkas3qkCUfs6mq7nMkbF1PxfxYxwRPl4zS5L6IvyX99kTiWGQb9A1U7HfbDPtlRtlryniIPzesX36X-f61FqbJho0YGbQ-kqDmVYKWc87V4K7RGqoJ6zoNimxVs1Fow5pMr6No3GSJ8bpH1_tCAS7Wir4Fc-qfyj18VNUsO8Hehq_cc8Mg_NTrNYEQARUJ9GAVddpUMgQ44MMCfz4Nnrmm3RKQbwI7tqUqmsjWjjLcPVvozwioOANPiTrEoyK6iepuJcFf4HSiqf3R_Ne67dv0KdXvxX40WisFwYrSlqmrABmG8CJMYVCZe_BgpMjqLIZuqCzLjrBhO88miOrH_tZx6Tbb2A_dGh3RuI3ic43eSHv4h0PAqRidPtdTfctQ", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108911636887693608133\">奥定山渓温泉 佳松御苑 (カショウギョエン)</a>"] },
+            { photoReference: "AWCwydjC9go5vXJ7laGVSK6c7aaZgDtFchDazj1l9ZQkfiw16AKFwPUCaQXyd5pnuC7fQ2SX0EzTfMGiyjSLj_FlcV7_I9CBKyy3yin3eIwF6b_nX-jHkOSeVMuwd9EcafvTrQBVuovweJkf2XA0XmOo4_mYyzr5mb7fp7A1V4dXEcj2dh-HK6jd4kAH2m-PghUvDcbhKNXzq3YtJMUZBw8fnh5XTqpk6t9Abo8X5OdPpvpTGNn4CySIh43nrVjuQQu3pO4_bUNIxL8ZwIf4M_Y5NfNw0EFGxNuFU4PmJel2FCJd-MGJazWLsV4jLmWg6O2jxSe9gDczz-vPdG6aTRuoMv6ACxiHMxus7qf9AXLQ30Okna2GIZcQGjBEPd1K3e83jpuvzIyyLu1-aD1_9ra4-Vx3viyBRyJLrVbcdjydi_9BQzY", width: 4800, height: 3411, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108911636887693608133\">奥定山渓温泉 佳松御苑 (カショウギョエン)</a>"] },
+            { photoReference: "AWCwydhY9dxn_vcFWE2RzfsIpbobITaL73ZeOyVYmvxIzcyDmNAijjjkz_cRkC6hWaL48_FzB-tU6tC80bV5VeoZuvwIxxsKaDGSBuFXL4RyRAyvOaeSA62Q_P3A_CnzH2CTX6VltWIluYelLAdjSGmMcDJNER9wQO6iVkqQ2153YMFZhrbG8CrFkE-wcpcxHz86uWLbaprvbEKQIYfXQChSb6e3gprFd079vQ0u12tl6B-FWEnwoQYW6mHBvAovH2Jw58csVlLOMhkLX9B6ntKLzzOKjOiVK-iioOdFq0hAAIjbEeeeE8QpaQzdie0ajt4gGiZwXNBU8bufxIf07rAztcOmk34r25KZ-OzvawA3bBlBGN93g6e__XXnFW2NNMEOnrwYHxbotYvTOdUZ5ZfRC-uLmSSOxRwgD0_sOKmiN7yl_82d", width: 1208, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108911636887693608133\">奥定山渓温泉 佳松御苑 (カショウギョエン)</a>"] },
+            { photoReference: "AWCwydjqZlBXDDzW5BmDTdLtjDhPsINqAuE9nzDaIE9Y32lCNtQ-4xvKicwgq4-jSmxIuMQImJK4MOvqlHhEAmgpsRBZrs4IXJtN_U3HREyPawt65NuZajAsnGl6F4BSc74_RXUKJxhSaWuXPfPvvrUTFAlZq6IyXFcvfqLg1MnOic1lVjVO9R1xhYaWzX1zTy_Z4zkMpFkdYiUlTXaKCCY36Gdj5o076W6L0vXJFfYOpzeZ80fIBvxJdOwjaDQV96fx0s_6_-vvQXZxYw7bWNVUX6GQ_0jOJx4JTU58Vi-rU9BDLVkFAY3eRT0VtTz7tQRVOl-48r_07QLQOx-RwHJkfku86nPAsJniJ4fJCk16iwvRIh41G5OTizOR8fy3A0c8RsAPuwbAbAKVgMbgmbsYdUReSzRThVopwnqTbR6EB--4xw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108911636887693608133\">奥定山渓温泉 佳松御苑 (カショウギョエン)</a>"] }
+        ],
+        summary: "자작나무 숲과 온천을 즐길 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["자작나무 숲 전망", "객실 내 온천"],
+        tips: ["드라이브 여행지로 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "857 Jōzankei, Minami Ward, Sapporo, Hokkaido 061-2301 일본" }],
+        location: { landmark: "857 Jōzankei, Minami Ward, Sapporo, Hokkaido 061-2301 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://kashogyoen.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8709484216859603074", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%BF%A0%EC%A1%B0%EC%9E%94%EC%BC%80%EC%9D%B4+%EC%98%A8%EC%B2%9C+%EA%B0%80%EB%A7%88%EC%93%B0+%EA%B5%90%EC%97%94+%28%EC%B9%B4%EC%87%BC%EA%B5%90%EC%97%94%29+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "41피시즈 삿포로": {
+        photos: [],
+        placeId: "ChIJ8zn6epcpC18RsmlCM4Z2ejA",
+        placePhotos: [
+            { photoReference: "AWCwydiqlqEYaGOw_o64XB5v79mDBVu8H_4dF7H0IThTQzqoD0KYbBJCKtkkR3H4weElYeanqS3fUGuqo98_7bbbgZT8kkJv2u69AHlcveA8C3ziYv7H_Onoq4T80io4yxcx-Q1TO8gI2mhjEquAHqqhMRYwUASuJXM65be1bG8DPbAXJakiXWhskwC9-MH3zgg-qkmK_WhymQnIRYxWKQARvo2D-hINfLJ7_o-6xpemWe7fXBwRIiJhvMIDaf-N51CnVBgnVghMiPAhyXP6c_WR1wp8nKMeLF7KAIPZit3EYimoP1l3lYgGguKwOo5xlvIrxz1Rj9fAjpW-XnFB558KnD5trGM5McXsCc7jA_AQpbPDCyDNZg2lCQ4fBfG9Dsc7SULZ11hoUhk0WBm7paHW_a7P0BoiGll4aTuuCngHDLWWk8NIbWMwv92LkBOAWKXi", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101918958650302356842\">41PIECES SAPPORO</a>"] },
+            { photoReference: "AWCwydhhlxxnEBmTcUr4u2Yfdn9DYuabfG-Xtqt8-Avzhkbbafe_1ZE01Yj2fCy3R7dd3VJZV17alozdvyi3M0Jh5b8cRj3hDHvMOFkIavH2Tre2Bb3DfsN76QtsKLzOvznR_R0jM6eXhw9DrJTXu9j6CezF7LCgK_VnO_jqu0mPL8EqiLmMDIomHH2B7LG41tiDmWhnzYV_A1FOGeN5M_-jPuKrgimTmOdNTW07-VTe2eb6raLJDiBuSnWz-ZeO_xiQrttfyVSDWVw4jjrn0ZdOTvxIy6HPwAjOKPCZ8ikaX-5QT7Ipmm--EEqplHbxPzcqa3gauE1jilXEWc37WlJ-bmPiOIyODQnQ31052cp_ff1obZuk2WirHIdj8O2McBqFS6q9sJwPD0rWmaVlFWEosL9CrX2oSg5pHiRfI2LJ-RhdDlKaO_Z3YWSc2S8_nUDu", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101918958650302356842\">41PIECES SAPPORO</a>"] },
+            { photoReference: "AWCwydjYXqxKvGOb1beWN52pMI0rMOBkMuEvr4t4coPXrQ85ayE_wizurvoFFABYqRCH9Ufk9TZQFVlwwwszyQL8BHw0O3JjIBr14ve-W1G6uvoa_iLhAx1G2TCwoalqFgS3qXhljJY9Fc-w8RndRzQCjIpGckFLgTv_OpvO_0VvADXdfASVxX8lQnCel6gCI8lP15TzVbRkL6cMI4H2VXbonJ-U-LpcePGfM4w4h8olntQsBu6khJ89oIPW9vBWUH6jY0InZN4YZmKQG6Wz9XgGYZHv3LLnds-KHTeSBCxgMQdNn6UEEr_GaAZ5-GvV2XKN880GCISdX0qm6U9rxQcEQiILBYA3GN2mTvraZxEOvTXqjH67YdxhfU8zn6yumxo4TcJGrQSdZPhYFyFO8EZrE42C43QL4YAskemhcXWrPtCBKL8a1LArPFsp32ZbqJCI", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112645946350423118006\">Harkel Kao</a>"] },
+            { photoReference: "AWCwydgVednShlweoyE9sfXm3TleGTRC-95pIM4oy7ME_tAxAvzmsfTva_6wQ5l8zih8zK4IPctgFtRmDeGQQd6QeGNiMV2VzKnuarKKh15oAY7EWpGm0jEhzg7mEftr_jr2Cg-_tq43uFp1zFFLqauPPlZJ24UBxs7JthkMr45tKkSbQPSgCS4Kd5B9uH-8oYh9AmeNc-Ocn8xvmwM72RNgfBG98XrQzTJmr5xZ8_EtGM4b9m_my1tDwZgwtmBthIvR0m2_vuH4HjtPmmSLOfOqAvSF6iznbmE9nIz60KgbLvPg2dMBTBeLVN2sUUXyxUc8MLiC4duuBZPWBAaaXnEQDQHQvCQAzBwI1JCSxIDrZwn8Ht1VubhqdvPff0r1MyGZ2MIY9uGswIj1X2yo8qPCG-wwDg2gb3Gl1IR79D_cVZ5yFZOBZ2bIrLLns9fYA-NN", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101918958650302356842\">41PIECES SAPPORO</a>"] },
+            { photoReference: "AWCwydj6bRKqSSIuE4W8up6gl6XCZk9SvHjBjjjN950Sqw6UMVn-d2WiDoR6SYAnB0cA-ZBPC6XZJcDxXRPUo7D9pIWVVvY6axlEqfiCA7n8xClg75eD6f0FR2nxBKcohGXyJ2CtYz1Vv4iovFTnhynBEF_NsQ0jT55hLZhKWuWO2TIUL9i_k87iExsGIlxvhPtAP6ZTBMRNa5Atwj92TA5d6PLHq9K3eZXoQ9m4H8YDG2aWwwcJYqJ-4VfdajijIQihBAPNNQfxXmSZWcGMBi9VRlgn0yY7jg3XC4mJowCp1RZ7FSFI7eaTAk_HQZJe68-08BGIhLr8UF3otbyyGb_peAjovN69pvjDturC_8gZyDLh0x48p7PKKgdcA5l2lDl6Dr4rRsk7IDUxQ4vNUJDmcnfKy7hdweYXg_GwWiRHD4U", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101918958650302356842\">41PIECES SAPPORO</a>"] }
+        ],
+        summary: "위치가 좋고 시설이 청결하며 만족도가 높음",
+        updatedAt: "2026-08-16",
+        highlights: ["스스키노 인근 위치", "청결한 화장실과 다이슨 드라이기"],
+        tips: ["커튼이 짧아 빛 차단이 완벽하지 않을 수 있음"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "5-chōme-29-2 Minami 2 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0062 일본" }],
+        location: { landmark: "5-chōme-29-2 Minami 2 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0062 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://piecehotel.com/41pieces/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3493234779736926642", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=41PIECES+SAPPORO+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 베이스 삿포로 스스키노": {
+        photos: [],
+        placeId: "ChIJX8C_Io8pC18RjMTKOQ_Lzy4",
+        placePhotos: [
+            { photoReference: "AWCwydj3JYz2jvyltgwSmQjjk8eHeDL4ObHjg_ha6Yi3tyLOKhnsimNVyEF8LeH0Q3M-sDOlnmpmhnDBJUQPt5j0rqoXeAOCiqo9jmKG6MnyOb6lvOB8DIv6oBDiryiox9RHN4V-D86gIccclb5xlI1wughXLVYlH-awc4ENmJuMiIQkhCZ8Jm_JqZj7qf7-4ryZSF58maREcR2helmO5LHar87sZDO6QFLaSuDb4oNJjSfVaxcb9HoFddhtEUCJ5O86NAUneX3zUtrp_hgfcilcrZuxH5K0GxcswYwW9p_kmgMSpv51O5QCiIfSAhwRcg-_2GW6yfz1wquClIgNVw2upBHR8eBOyfP0oZT4NHYGFNqgPLlv517QLjocRN6ApUFbEFYvKpJt1TgwoDRNL0nTp1_wBeR0EKVZIhPKo_yL962bJw", width: 640, height: 480, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727553756442990824\">ザベイスサッポロススキノTHE BASE SAPPORO SUSUKINO HOTEL</a>"] },
+            { photoReference: "AWCwydjGj-7zPMtWRQ1hzx7ZG-hF8TVBTIolhI5DN8Gkkx8Wa2RPL04fr2P3SC4fCIbsmONVwNA7wZJ1XcHkLkMV-on0gZw57oqhuw6-GpwKNcDchEPP_-3uvQ6Y1TaEHyrWMeG2dIq_8N-5KvofRLyjlJR8ws-hoC-93LhwR3e1rLpO3DwBPXX7gs2cNoM-tVnmVr5WMQG-Lg_7hwRXP6dKPwOCQdhXYYhk6wTT9WG1v3rGOniWJhroraX09StK56A3m3VTn_n_Fcv5DZY2hmaIkyPzynBXFQvYaaFW10UkerECqsKdCw1KPWM3aR4-kxUd-N9bw3y4u30UN8E1b3tr47So__9lPyvES1JvRL4FlnWmh9-oDkNZYXgin1Wy_B__yGsfkvXhEX9s5Bo5gr15tqdimdZOZ6KGx6AJ5HIA1bRoog", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727553756442990824\">ザベイスサッポロススキノTHE BASE SAPPORO SUSUKINO HOTEL</a>"] },
+            { photoReference: "AWCwydj4cLuu2Gl34oEm0Puhr3BWquLtpAMhfFJwIiif4hsWYkjHA50jGXufLsbAJiBBNGx2EGB6hvKxGINNl25XBjXU4DOSsuNmC249nuWnYNppLS0T9Cjssd8A_YIS_QSSyVrisEjTjm1fvsity70-vDMZT8vjQussVYxCzHnkoRlX0nPz28zqktDBitNAUP5DUrnWN6zme6P87eDuoQPz391a67Wo4IGHoURX-7qsg0Xx4osnOjdAsM2H6Bdr4bT2FLVFOgf4rN9aqiYv5DByK4KludNtqRve6ze2dDUKZ46A79irvaqRobXWB-G081l_ZoDoSqqT1Vzglsdjs-PJykBtFyozeVY4yI7WvPzszXxYRYpKMml9M2ZzUa2UbnzZbyYjCCSN8hKyWe2oVFk6OuUcZhFpUjaiO0jFKVhKjm9a3Q", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727553756442990824\">ザベイスサッポロススキノTHE BASE SAPPORO SUSUKINO HOTEL</a>"] },
+            { photoReference: "AWCwydgrSZ2jtNmO3sx_INALf_ui9RzejE5lwq3q4nPOepDkVo8Q2iMA-qagGMJVS97CFux2pXUg4tOJA8o4jnoX6qvLag9oNsTyOWWPgMkVc3vGxoQsE7pvQWdpDabCFD_MRVo5hSNg17j7Hr3cuagUwmrCvsunYWLZP8rhp5AAMwZniUQdGNkW_hi4A_2cMKDbx5kDF4z3VPZ89JEUoDo9FBt8hkrPHp5TRCT3ml2zrwpzW4A7PWn8GWfklLEXThYluPYA6b4Zjreo7sgGOAnbaitm-RLQhaNwAPSOmG1yO9nqU-1kYsStLVyPdI7efTxgk8YBV97JZNadoMtB_4XbIWa21Ubdinr-e84Cv8dzoxkbNbOMkcIcWI2HotBumBqRr8bw0YGHw_6P36tn9dPJSJKPI6xVpXpAPqpJedzwk-nRdw", width: 4192, height: 2359, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727553756442990824\">ザベイスサッポロススキノTHE BASE SAPPORO SUSUKINO HOTEL</a>"] },
+            { photoReference: "AWCwydhdS1iZVZzgXPNmh4iaRe0v6PgfDLLL8O60ptbIVNgpavwyYdC6RgprEEnl6uP1UHtM-pB9aO0N8Xx-s6K7bLcfO6_X7KXda8qB-5tVkRHy6izaRkF0x9kLZ6XAfXMLegfLT8_Bdoh3O9_fRNhsAxIH-hOSZwPcSp4TwZxVHXoSEME4Joj7ZslcWm6YH-CbUmVmge4npr7qmKCBOxKlv36T72ZHl5PLmfVO-TBivNOCcx5-EDOh-2TScuR54vpXyz73m-niGU2HVI0muRzsBw4AYr6lWBxYT4jCtQWx11sRzFMNAGq0IPYP1YwSjMqqJy47Yymy2gEta5p88Mni1svOnYjfdAfZANCrD7SdBHEGltXcTzh7VBGLoJq5S7qVXSgFfTP0rwNgs5EndejkBN8M_FPyD93ucaAWIGuH1F6Eow", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103727553756442990824\">ザベイスサッポロススキノTHE BASE SAPPORO SUSUKINO HOTEL</a>"] }
+        ],
+        summary: "셀프 서비스 중심의 아파트형 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["태블릿 체크인", "객실 내 세탁기 구비"],
+        tips: ["화장지나 수건은 미리 준비하는 것이 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8-chōme-2-2 Minami 6 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0806 일본" }],
+        location: { landmark: "8-chōme-2-2 Minami 6 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0806 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3373137912178328716", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=THE+BASE+SAPPORO+SUSUKINO+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호텔 원스 레지던스": {
+        photos: [],
+        placeId: "ChIJ-9Iw94cpC18RVg7BQ6zCAcg",
+        placePhotos: [
+            { photoReference: "AWCwydgnaVixi1CjDbqOjezRr__AHZY1jDYcnTVtF_VM9ofXE6RcACzlRtM4u-cusnn0DkZlKrnctv9sHJVoO6cUkWGk1jhZJKA39w_1MhBvHGTCztgRziz5K5UFxcmY6LlQsQ8gDdQxy2R4ed6vPe9m50aKgVLiVPYs_4AfkNUbEPKbmGxpE3hqHuXHSHRDKHuRgeyshUMvRtbbUqUDVqeZXE3F0zXZqnqHsQ9AmhRH5kZbbmlTvAJzftLTEnVr02he0Gb0Fo0lqSXNa3xVYj2DWf-hwEY0ZHWxI7fFvRHUk2ofhZVEjDb040vOGesMu-eGPe7GvORqJW_egDw45suJFCl9ObvQJX7E-I70NN3PO9RZPVRC96L_5YgzT5N2Fn4ehNmUur5arHgSuuo-MtIA9mUb5s5091kLz4Z0mXoKCjJuGVOLKAkwC8IB7jBMQQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117674556258943628478\">WEERA PONG</a>"] },
+            { photoReference: "AWCwydhfCr0tzQ0-RUMXxNU2RALdth9QFQODWyRtxZ-1WVAdbm9dTDEZjJdbhBvmgmliy6C2yykh_8TK5fHV0pLdnLGX0gCVCYqYmyaMEONbNrX-c9y_oJlCgIMvQIOVpYCKoujvYUTBxleoxkraAwK2fjimg_0hummf1NWOs60Bx4SWUvv8SuBdshvxPMv1KY5rQKceyw6sIfDdIEfwf3moFlmxTS7fyOql9-M63NkSvwVh_ciJP2f6kOm2DvokwKam6L_eduUOEJwydCH51fMs-BEo6i1RFdg8ImLPKSjTZ_pr9uPLSemqnidfIKGXnGXzK8v5dPsHScu3bPV4Y-XS1OkvJkCbz59womNXKnEi7WnjVCXMrIbrPDBr-7Pv15u6sRIDfBPXBq4ODeXMLUMo2qsTAJ1_7tEqicyvY9Vq9wpByLG_k-BeqSmqSTXzmkKH", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117674556258943628478\">WEERA PONG</a>"] },
+            { photoReference: "AWCwydhly4daeZLqwpC9lyNMfS5ONcT5fF3A3X1CxQZI9pMWlH6Wdg5S5WL4XuxIWqBtbfPiNCDyC8L-MapkgGrDWzO6X2FzFCxJR3PhCouR5oJz_LeBtof4wI9VHMGMazQnz7eObyAfxolIhu3DBCIuAWN8rDfINoH1zF1rNPUbQiviwa8IkcpX-sjrZipVTCFOAveK4abQAEwU727BxMUuhkWF12C6l82nqAgmLLkjR72zqKXkTwroTpvuUTdzIfip7TJaso__OYGxTt3wcM8xfiX21tZs5Y_Pg-k1i5eFASrqOKKIpcf0idjANyWLKe9RKBoRuIPZukPNIAPLWZktGWAXLXiAOF_mDriaJm3niVJ71w7l_zBORDRLFDmtjs2JoInesz_9qrEkDmnmQVAALflfLmhic1Ht0_McQ98rdL38nBCe", width: 1944, height: 2592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106960733464325291124\">Akshay Kulkarni</a>"] },
+            { photoReference: "AWCwydjXU6RjT_rtt6kEiBSkSb3YgL_KeMzAiNleAGEvcpqFCLQpLz2NhcdFQybdV0cvNC_4hOBDNKUxVaQW7UApPlYjd_UAfL4o-Sav6DkdFD2YA05Q7lsKUhwDLo1q86qi9BwzMmOgYa6B2o5MtmWo5S5nXwLWmgfpR9DeFPjyTvCw8qO9bf7JhbN14ix2EPNak3hmZ6HW5F0YxHnsIq7PxfUz2gp_qYxpbpEE42Z1J3NKultA_6sXNwBQ3xa1h2FO4l27osJbOgmpRJ9wxWFcuCir2RsqlIvMiKe3dAqY2ZiSWDlivJohnhcarjtUj-GicqdUreuleuhQygwE69Jzg89-7ih7F_3pWiAU3uyrD7QXSXap4xTw4F893BzuONSKvXN-F2KYxpugNxPIdXgYKGeQ0KTwzb2QJ9lp3lpTI23B3fiInDJ9DHdAmTZjbEtV", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117674556258943628478\">WEERA PONG</a>"] },
+            { photoReference: "AWCwydhrmzw9x59jhjMwNF6uZeUUs5siw7NXDOTG1WqkzWg4p0Z_iC1L91nFhJPt_vV_YdXrgKi0xURjJCVqhbnaw1Nd0cVh5jGMHM1Z48NKNAbeHq0_0HN8ZGgWpMVaCwp-O37LkD53rvCcb5QR36MImX1-Ofp-tjnEh7vS84-ZPJOw2Jw-lkK8eZ54AvJ4-81boj7UkTCxoxj5XYk478P_4NfiWQhktjmgF0kubuKR9ifgvU86W3zHDSylYDUJnfM1z2yeLuNksXcxQSQbyI08wPYo_heZ1eZ-HNBWl7-2vpq0UKhc9AZbJgW82ap_1jjO2gejK0Iaw7pBX1q4OcG597PmlsRq0FImBqnhqFBKp4mbJF_E3I2OyZIngRJKfo4oZoV8TSp_bPwxhlgbBzE_2GyUQiws12LZ_lsqhmTdLz7U2vN2o94cY4AlLfUlhZ1U", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106770483971910238154\">Sandra Chan</a>"] }
+        ],
+        summary: "지하철역과 공원이 가까워 접근성이 좋습니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["나카지마 공원역 인근", "공원 인접"],
+        tips: ["치토세 공항에서 이동하기 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-5-67 Minami 8 jo nishi, Chuo Ward, Sapporo, Hokkaido 064-0808 일본" }],
+        location: { landmark: "2-chōme-5-67 Minami 8 jo nishi, Chuo Ward, Sapporo, Hokkaido 064-0808 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hotelonesresidence.top/ja/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14412014327689186902", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hotel+ONE%27S+RESIDENCE+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "리츠 인 삿포로": {
+        photos: [],
+        placeId: "ChIJLY0Y0-IpC18RX6TMf26NeBk",
+        placePhotos: [
+            { photoReference: "AWCwydh5shr3VJBlXUiBGCQLIHC5j7G9JAOSq7OKmzKfnVC6DO0hxu5DCj-nWG7YoVR44AcT4t_gddoQoFofQbPOmtazynh-l6ugVJq37gv9L1f6lsDvNLcM9FOE82pHmhqwFkEkdVWXMWz6kswEWDkETqEyvWfevXv5w4JgxY8s4Pf6mZGm8KMjvq2BEXgPjW08zUHpDUhrjfcOo7XSXWxIrHlvoR7zVxHGmG91b2OUg-CrQaADybmi6XRSRMiGR3Lzk-xoGMw2Ikd3_N8C_A6JZppJ4iJxn_1MndU3WDt6YPPSDg20uunLocFNwHy40u_73vj60cjIM1OeRnkuQ5s8-GbTJy0EtzHljwrpqGuGDnAS3wu5HQYUbFojsmbelVaXunb3mJ-GlSdmRJNYckk2J-dIy947s8Ga_p5pBhun4Kxy5g", width: 1108, height: 1478, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118343775981116850622\">LIT&#39;S INN Sapporo</a>"] },
+            { photoReference: "AWCwydgu7HlJQLuXg3uf5sndgJ23YFu9zqmvisGXn2yhlTBQ0FC5MR1NyUa6BIyIJBB8N26Gn7DzYWOMDDRUjB3g4zd62pKoSZsUYqdzvML-KzSiNxjsLe7ylDv8CJALL83fGhfiUHZbK-74p125-wwC5VqbjeOK-CS9KrzqMUJO-wfZQxi6WPJY7kboiFv1Cm6b11PNUQYSXgUXi3AHSaRWw3BcvIUkpOB6XWeIGtpGhOZdpf1bfFRZMTkJShB1DnnFOh18sby_rHkGIVwvzYmOLxNmn7USzctqlQ5q8t8UE1Xg5lpjnnZp0qXw2VyLdohuoKmiwUfkN1OWg1S7SitwXF0Z6X7_Llo8TQesANLIKqTY5Aq0Z4g7IwIoiNA_SjkH6jPK5NIF6U-ABu472fFG9Xyeid_qIFHhqse_YgcpbdGAzYkI", width: 1478, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118343775981116850622\">LIT&#39;S INN Sapporo</a>"] },
+            { photoReference: "AWCwydjKEcis14_XbrkC4Ngql5_ZtO8wBJyJUN2nf7XKQh-rn2-6dYsQOH3lgNshO8_ucAtBKTv2aTWtBm2hmqVL5arwbmp7_uhBmYXBhKgzFGt0u85Jb9TFdpCBRqveP1IyMzZWhvoym2Drk2wKHJWYY9fYlvZzNIbUMmrqzGg7QBmooX_EOR-7qfgdhEghHm24IwabdKjR7WizDQyD-AlIFkiFIPK85KgPq9I0CbjHudtRHWlLF7E46iI_XDKCOF3tmH2O18LIpAb4O13TGrsHcanwxoWpunworb7_Q8GBbfHGHXzk32wnPKAbgxi4iXe4JCM4NTeADWH9Uxzo_dzP7yaiqSbUsNBQa5_dSaX5QYmJRE74crlNbQBm8FVdm3bxYXTe3m1KTRQrBGWZz28l9Wasd7yPAcbyw8kPSMuUgwS1A2A", width: 1478, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118343775981116850622\">LIT&#39;S INN Sapporo</a>"] },
+            { photoReference: "AWCwydjDbQln-z-jeTJjqT6sDf1Bnw9mFXTQ4mygzjhh1T3phqLDJYhtUoSgNT8hkf66iaLn2sDdMbNcV_3wY4-pFDFOa4zhnGT9Tj7V4-T_pI7mA60Af7HCCnezM0KRozcP7WWeAnDU0LT4IHovqM9Xnn_OTHwNT7KiuWImHsvSdiOOLalXCPemPZi7Yp_g200EK_qt0Q5F6-LEyTT6w0ivpdwiQn2BupAQA0u2nCb4mzml68hBz_5X-8Df1QSswoM3ZuDi1QYJ43niRFagg143vA6qTTptRb6A5ehOoSZg9o_xIRFozkI92TN9Kw6ATVSjjnyMJwV07zvRySmRXyVux31NDhue_CKfsLvQLCbUstCLI3be4QRe5Pwh0uBhaz1VBlfraF8khFG9LAZA8NoHojXw56oQWDNCoBuUSYwGwqTlRA", width: 1108, height: 1478, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118343775981116850622\">LIT&#39;S INN Sapporo</a>"] },
+            { photoReference: "AWCwydiCKH1Txh0JZrTnPkHWc3KBEjMmdpLLJoSs43vAcBYyG_PnKp44C8ZW8Ntx-rzDVbZSLIQhi4zuGxC3AYhT9kC415dZcXFOREzhRTnETj3ADMzcFdYVn_FWN2xv7NgPpRWadOzpa-TVIYSCLSX1JaWWY0OuSf5OyyG-0BAJ2gKgI1Lp7G3pcZ0sw9i3GQF5Q-_ZyuYecOW7ucs3tC7s44aA6DrWBeRvgKJS0Jq1nCmzB3Sr7wJeQ7RSP2DVMWtqiUUSO2To6IHWS0qWilwnolkieidiId5K1TU8-HfIxudM0W_uDWGiljnlyq4s_Etc74NaPJxtPiENlTlf2d-SuUQTuz_4CWiOpsBkPn--9KJGIYYTKwjuaa72Fpz2qDSI8eUyNWE1Uh-URDYWM2Lr0pZQ6hIgmyTjzcJPh-hKuB5SwYbUXm0FK_R1YAUfkUS4", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118196616957400598418\">Eric Zheng</a>"] }
+        ],
+        summary: "넓은 공간과 훌륭한 가성비를 갖춘 아늑한 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["넓고 쾌적한 객실", "빠른 호스트 응답"],
+        tips: ["단체 여행 시 파티하기에 안성맞춤"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒064-0805 Hokkaido, Sapporo, Chuo Ward, Minami 5 Jōnishi, 9-chōme−１０１４−４ カサローゼ札幌 LIT’S INN Sapporo" }],
+        location: { landmark: "일본 〒064-0805 Hokkaido, Sapporo, Chuo Ward, Minami 5 Jōnishi, 9-chōme−１０１４−４ カサローゼ札幌 LIT’S INN Sapporo", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1835372353883513951", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=LIT%27S+INN+Sapporo+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "알파베드 인 삿포로 오도리공원": {
+        photos: [],
+        placeId: "ChIJhRNSWrEpC18RkBs4X3vpnqg",
+        placePhotos: [
+            { photoReference: "AWCwydggBgTwXZ7BcIfPHFZcHAHvuc-CVN44AAW2g2oRRprxv_m6XOb1fBfJMgKpiOZVNuK24a-6S34O9tzX7nd6xua_5fA7QrECiqg0lBHZBYBdvqKD8I-wd59y5Nq0ahb8FeTz0jVTPxPVJ9Z4cTg0hs7uQ97Qy19FQ7JcuWUh2ChWUffG7quikgBGir6cVLLNwMZsFOVmo11HAdi3I34RVLiIKz-lCpV0icnD4_DqeYxGWVxRDu0pod75Bqn7ZvFOs4-D1C1SPZt-wpkUBUqJMmErLv8oVvQIiGkBiJrCqWZymPDuDiqb_LKyewlHbkWvWXG4rZuaPtmjB50UizvPBHu-jQM7VZD1z7PGw79T-aA9CrkeWDGf9cMNPOlpQc94NDhkJks-cHzLFzpe3tppDZfAdrzCc0WxOpqYwJs92F8MVw", width: 1280, height: 1188, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117261242966535063207\">ALPHABED INN 札幌大通公園</a>"] },
+            { photoReference: "AWCwydiuBLVTeT5tc8NSkhxfjd943RMgBNUezj-540yywbIdxzgfEtIFGO3tXQCGIdswtahMoh8RrP1pzfwgePxiDfgxBJOphDo62sF-DtMLS6AEcbjyrDFLwhYad18XeK1aOWIw4JQ90pRmbgrr7tNh_K7hGokj7GzMVNGPZuxc0jcDUwj0OdOEK7tbxkbkOhYQYTcj2zTOh3FBZEyO3aZYwosorwdB8d1Z-foPGQ-3s2-sLnsrhOr17RMBmjQWRZ2WRsyaH3__229i36KwThuWMzjqItVJoks9Q0-ORqxhn78iNwGvusAWi_ds9VSepnVeRcfKgXRaI_tZWB_uVHJ1eco3XuU4wpeShdWCbUlgHobPjcBcjj3fn4SUJkeLus-KbgGW4U4AVSxShmd-squvI6F5lHFcBCNeDrKsJSh8TDaQToI", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117261242966535063207\">ALPHABED INN 札幌大通公園</a>"] },
+            { photoReference: "AWCwydipAz5VGYNE1maI2_PlCjuvVVGXqEsILLMDDC_di88mt3tqkQ-vXf7REFulOPjl6qV7CMgouIhrBA_ZjNGXM9MAxvsIAtDZ9SrGmNHMm_GbZ-PIfgf_O3wJ6BT3qBSKMx2LiNxOYIyEi90tPpdO4fRm-lAl-M0YbabojBruKaYUqHsy97CY9m8GmlPL-cREZnLjOOonbzqNh7AnTrCMuUyTkHY5vMRvXApyzYOscr4kXtFA97DiBiP1CTA9wlV-6Ahd06wQjZim_6bIHx5ZycPJ3Ej_VoIrKCb8xkzeKr1wmrPX_gg3HrlEvYZtu7bn4fiNUqbHNYDaaQeqoIybcYEdnr-_hrLOtam78viyempaITmSfEvo4edmkyv5loC-2Gjmy7AMwqLhz78YwfMOe3KwZ3L6F1dD8R_j5QNIzNF36w", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117261242966535063207\">ALPHABED INN 札幌大通公園</a>"] },
+            { photoReference: "AWCwydiO6NR9LvNg3CqknwZlVj0N5MFnN_-uhxLyt6MrQDqP8EeoPazLcZLoUuem0zkr6D6AoHDo9Gq6A1ij-Apkdju5Zq_uMku3o9jlyeQk3huZ6tVHJcPg5ehcqfCR5x_xhbuYb0bShKtOF1hbjSnCAdh0qUJqEw3dGIyj82q9PWMThoYwsWKdsjvnazC5eC9UII3ZewJY4jksfIhtuTtQgj9AsrJWGlZcOMZBGdmdTRqiSF30pwDg6XrJzAkzLg908vsWQ1IQAoZpAhNce9AbWgjbQDVtuiDrR2ZPdnVGL_TdWGAAFo7FOOHEU60mBVzQ9Pcydku7U4BVW8vnnp5HqUKmPkBmxFVfApwT0Yr2qNkL0MBluPh5kZ1_B7N0h6u1TAC9D1wadWV3925HWk2dlyzNy9wZ8ejDcZ4fD_cPOuFL5A", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117261242966535063207\">ALPHABED INN 札幌大通公園</a>"] },
+            { photoReference: "AWCwydhTf2fFjHub-obU1DO5uIONdxMhzX4Sosay49apdZSbZxJ3LUSDLXSA_eUqN_BsdWaHw5crEgNmS2qTy4VZWRRtmMRVo4k1Y6wxkYz_ply901ieXoowHE04HV7qusoeJN8Nh42FnspQbFhtyljx1rTSX5voIAoZAJTy8MXat30dCy0Bnocrj-05nEPGNJQh5u8EWTl4CLCYFS1yMGiecLEMYRMTIwma0hh39VfoSSQhFqAfYu3x4SlLr4fz4SlxPs9B4CFLvUoORn9somfwlnOPR_W13QNMNLfo9CNRMyJDY8s4wmdGJiLELtGBc1au0Birf8YKHlh3oskHKfYa0ZSEJk2TxnH7Xy_maxfjU6SyS_DV-EuWGg42hmjFAaV87QZzzkjO55mal5UoA_Fv9YX0cylBW1iR_xOoP-1viic", width: 853, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117261242966535063207\">ALPHABED INN 札幌大通公園</a>"] }
+        ],
+        summary: "넓고 깨끗하며 조용한 객실을 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["넓고 깨끗한 객실", "조용한 환경"],
+        tips: ["시전 및 지하철역과 가까워 이동이 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "7-chōme-20-2 Minami 1 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0061 일본" }],
+        location: { landmark: "7-chōme-20-2 Minami 1 Jōnishi, Chuo Ward, Sapporo, Hokkaido 060-0061 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://alphabed.airhost.co/ja/houses/206930", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12150405560779938704", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=ALPHABED+INN+%E6%9C%AD%E5%B9%8C%E5%A4%A7%E9%80%9A%E5%85%AC%E5%9C%92+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "텐 투 텐 삿포로 스테이션": {
+        photos: [],
+        placeId: "ChIJd4o3XKApC18RpDPeoXkUSeo",
+        placePhotos: [
+            { photoReference: "AWCwydjYuFu2ZQhbvwsCyfHAnL_tKt5Tgc9cLm5Gqkxjl_mTE_RsWR9tSIrXySG1gCr7fJN-vdu3VwEHfeJ55W7eiU8pt4WWR1t3WsBaPi-R1X6HzDK3JBsOHB_ILogqj6msyFcXiSTKjkesMELSar78rSXXm4WHIgziNRt87i5l1Yo1P1EtAdsrrucYyBXRnLInzyjvXjMAH2b7mMCuCfBnBY6ZytHDl0W3zwKraC38CNrSDf1q2Vzxm4PpS2lf_rSpPlmHcu3cBENeldUMI_Rq6zSbtyHndmufaaTCFA-qG-HSMhEn6m8bSiTdacdtRpIiTMEgNgxyJWHuuRP5utxPD5yh0Q1Fd2YrdQd4iJREwgEhRr6KTWlhXokUftkMNuriB8z5ggjVRP_m0bV7OAn8_pownEFaB6cdK3z2iM_vrah1H1f8", width: 1024, height: 683, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114706330734711693135\">Ten to Ten Hostel</a>"] },
+            { photoReference: "AWCwydhHZNY-PE8CEnFFZk6aD5hasAZiQiZxsxnJ9Ic86JhVB7ZXVydZX5-07B-UsBYEKC9ym-Q1MLtF8c4CzOeI9HKPLT4erzDF25ai9HS-F7414ylagzwoieAfXKxJyPLsPaoUuxbLJeNjL0ZQKdDEg_amhbousiMLvc0ErWCajQhaOCFstUu-ySClXHrV09zYQDRwQz3Suu3zqrD9_UJ8PRriabI94EC--MeqVlt8Mwe49H-FrkCRypJB305160Up8OvxuRio7hR1OJbgQ5W5ta_9Mo0M-mgEiXnvT7Rm72rFDhwGN7rwmZ88C0WVMcKCkk1e3Tbd8WHL1o-7COZMSW95xlPqn1KjNQJkYcSU67I9vZL7RAZvLLt8DN-23dgDVTwxKGBSC66whj8wimDwsZEKVpPd-ePA1x0YVoJOfGPkTQ", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114706330734711693135\">Ten to Ten Hostel</a>"] },
+            { photoReference: "AWCwydiP4xT0zkcrJFEMY4umSOf-Hzn-mOOrMmFyApdH5ZCBYZhrxjrDa9zJyJzOq3aqO7FrsXQaQDxM74cmT9IVwkaoVOi2OxXOaGaaiNJoL_5vAlVr4EO-uNRnvkj10lvKM_JsOHM1QyqXw0lybm1kIbqqfkE_ZBE8v-Tp2RZiitkQFc2dmHZzqNdpNeGGAybelLuzjN2pwsnIBBnok75GmAKeYuTXkFq4HUsLxLDEzKHeF8e7sQUza_aXlayFIJbi5hcibr5FkamcVw_14lMx5MmWMwLJ8NPG9SDJxbc4Y9x6Pu0tnT2yzXzrGNzw3vdmJtkgcAarfwevzeHp4zkJaILdeJ-E7swupftq-4szg4b-nk3sFtwriwoceGozFuXBrksYj67FZOThF8kYBmfPyxTTsTIoglfhT5i5dZDZh0g", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114706330734711693135\">Ten to Ten Hostel</a>"] },
+            { photoReference: "AWCwydgsy1lzm2e6uHKpzLgRm9xtuh9x_JTx_bcyVhnsKwM-mtbfn06i4RekvjHXyG7jw1P-JlZ3Ix0ilvhbZXa6mYLWm3mUyBZs2Fjd_-WNxZqbjm8glW3wUYax6ZWQ3BzzdHQO8wn88ws7Emq5l0PnovFeN1xpysXxleYSRY7Dee30Vvb6HaIxrFa2tljCHNkEuesgMUTWR6PRPsiSvsQrC0UhZtt5P2s_nO7GYGrAQEVHlIatDVZ6c779cmEbYwwofhyHMPOeg5AUGa6l4bGke1wyAQlqGLqTPFNEyGuCbvfBm-XIA1UFeVsdxr562tOtO4J25uKVEoN7e0rKxr3eB_NHyZN7m0H2xfDx-EweHODx4poGMHk-D7iqLpvfY-J0e_FPs3W6DDPAWzFAihgLGpNiI9MfVcY0GC1WGnXkHrjuNG2T", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114706330734711693135\">Ten to Ten Hostel</a>"] },
+            { photoReference: "AWCwydiP_EFh3nKf_vIz2fV9WVzco5PC7HYmqByMr7zW_32gpahOh8MABXVtjQiMqHqwHxUoFuOsHLQoYOfbaNbghfbfSqq1F_eVBvaAurtyicLhNYRz_yXZbeMLAUJ6Ii2-CmX3FN7qCmChazBXgBTciKH-JTNc3q5RS0X-4TAgVaQcPSePNQtoHIyc4K8XlG5tci0rQJPr8fTnFTmAC4HVuOO8fASqZTXU7mcR3cXosvUI7AYQQFmq3q_f95ZXQRHtvsoB9WhLXoms2CnE2GhzU20MOhx51iefdk9sSIc5teNWd-zua6CgTv8IeURLjgKoJdMS2qwr-m5UEm1JXlkjaHVDKF2qJRXcdf0qd1uw9OVbzR3MeeJrn-2fCJwArFTg9h07DIZpcjSuko4Yhi7tabdhj8THyOBvbdfL0P_Us6yRLQ", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114706330734711693135\">Ten to Ten Hostel</a>"] }
+        ],
+        summary: "배낭여행객에게 적합한 가성비 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["저렴한 숙박 비용", "편안한 침구류"],
+        tips: ["1층 카레 가게 레지에서 프런트 운영"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8-chōme-3-12 Kita 7 Jōnishi, Kita Ward, Sapporo, Hokkaido 060-0807 일본" }],
+        location: { landmark: "8-chōme-3-12 Kita 7 Jōnishi, Kita Ward, Sapporo, Hokkaido 060-0807 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://tentotentoten.com/hostel/sapporostation/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16882047190814307236", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%85%90+%ED%88%AC+%ED%85%90+%EC%82%BF%ED%8F%AC%EB%A1%9C+%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "삿포롯지 게스트하우스 앤 바": {
+        photos: [],
+        placeId: "ChIJA62eaoEpC18RjeUg_tUf-Ao",
+        placePhotos: [
+            { photoReference: "AWCwydgAlx5jgmLAPDLy-MLaAikowNenfEK8xZSvtzN5qWn-G44RK6PBzu24RFXFR9s5FfOv2fi_nkur4cv_ItjFBhMxNkz-cyZVuB-xgA9GxOAMw4Q56CXwD3O1puHQB3IBpZ0qQTq3DxkD0Hxcq5pbkEzUjytCpCGBzK46eIigrrPik1x8DW4ABgw6xAyCecxUNzetoJY7CNMbHBulYM1wQHcJbudxlUJVvbG_RhMlo1AEcu-2kC_Slsy6R8fM7sMS33jWiJxQoVWd6dCZGf7OMasQ9k7lndUHDzJHMERIWckE_K2YCALGwy8DK3j6h3J3jXpVrWZvJ0FwJF0UPASHY55gQfJ8D1pX8bAflJijPt-B73kjsUShkl6tNAxUD4NrNtTM-btI3hqv2-34CdEjgiCbUHqnecIgZqmQ6OL1BknxsoXc5IvAG9aKY14Z00xF", width: 1108, height: 1477, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112574560463418775325\">SappoLodge Guesthouse &amp; Bar</a>"] },
+            { photoReference: "AWCwydh_ByNbSFweAf_MaCafTD276sTUJg8qz-8rXoX7xpu135V78LzzGjf0zdy0tfMqdpAMSRlGpqZnZcfTpAKYiOz-96p8EqLmeV9C9wilJL_g0yQWNFPI1b7xlfehRjoVjF3fIG55ZuBu3xeyfoF5L6nelVKPQdIozJh8AMXOrDQIjj-YRClAct-rKkBSPFRR7ZrQx3iL0ggyRQKWraGVOoCz5h8jWo_Im70HcCqXwOxJajYN_qUmr4FV9WsTW4GwPHitfecZX88HG1oTH0U-woMqZK5-WMs3YwfyUh0LYjEB2_kYJHdogt4OkhLINHito0otftsSE4wDspEWnF3Y1PqfFLzrdaJJezXgoG1mPpv3KLpQPlzUa-QNeAaW9O1ze69iONWi1RY5Iwzcxk2M00OCGK_yYbI3eivv5zDj9Es", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112574560463418775325\">SappoLodge Guesthouse &amp; Bar</a>"] },
+            { photoReference: "AWCwydh-oHHMMMdjnDGXiYKhVn-5JRigivlAAYgaKRbLMIxXGPSjqWe7Hq6BhAy_TuaIKW7MLwhBcPVwD_0CTkr8tlH2vG-G7No1MSf99OwRNGB4yfhR9K0BxZxiR05cqwaYWVLu6uichGHY9STsXDpijjMnQ8HJ5qA6P9Bt4LlLLtvZ2E80LS_dHCR8CTicVpm6jZ-x0uli9o1k2E_HM51QsbhlaoLuFWpNxG_w1YjKOOYbUKTwgEyvv-F131IV3eMOxhus64o3hzaTmeMcj3zyjljiv6h3INF2HUc0qmgurOSiURgCt5Ae45NpgW1MVGdODJd_aL54dLNvfXbgEizbTmNUc8R--xAodgFQZjWGAgByTn9ylldaVo-ut7Oubatdw4zBnU68oT937vEQXhc8-61PmfEEO8vpDJjT9LHR8OLLHWXF", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112574560463418775325\">SappoLodge Guesthouse &amp; Bar</a>"] },
+            { photoReference: "AWCwydh25OaUuXNKYtyhA-FAHGTV7lwpOl2q8r6HAWExlPHHbei7yQovk6a0exFMF1gPN73Aa5XFy7Eay40XnzCzB7Hc15Ev4dV_Z_GkUyCh67TEm4kNsBffexq8O7YeOMripAIKFUGAUGBsA1IOw3mUdaXCw_IWm8EL9WlCOcRJWfQBBaIaD6LFqhXIlV927eWUHIe2M-IT0lH7d8mg81XsviGxFtXBanjES5EwAaEys61K15uSrmd1TJqG_kz9KFwRKKwYDsYpGuW_4xg9TZ6vFpFwZlQZgwqlJYk2s-qA5rP1ga0A-IC_2NvlhiQvlEU8ZNuOwg7iji7P19NI1r2j60xBxkOv-jh_pYivKIMaLBndtY_DLI9oxJVb2bWdewsDT0jt5tGEcHsojHSyNdlAA0q2fHIHxeZf7nJJwMxXmcyaR6I", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112574560463418775325\">SappoLodge Guesthouse &amp; Bar</a>"] },
+            { photoReference: "AWCwydioqYYaDJNscT_g-D7PrAi9wHD-rK_urib9xcMiafwzOtlqylTN9cbVncGybLl-zyxxRnbrpqH8kgKlbDHcDUNZxW_1JY6HjxsDXwFDHvWXJIS-2NBg9y0pDvo5xSk7DO8PhHTXx8K58r--yXyJZ-lZl5dFgkxmHwa1r7eSGGns2AlB6q_0oUkJ7knGPM9-ay69Lsd_6btImz1YvX0SztWUq-85_w-bdzMZbehTY1iBoWbzCHV8Gh3liyafoWTIsKASHKAmDrdd8Z3jnH9SVP5NSKj4GFeQaRjI7RNQ7ElsAfuAQY6y4HUKoZY5nJhzlHovqrHjakgDIbaapkfkF-nHtyWJqJQ7X-7q9e1KqYS2tOJesF4ApZr1R-M1saKAB1VmE-dbKEfPFLsjfQHGh8JyGz6pfy85hUoHyb-Y725dBQ", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112574560463418775325\">SappoLodge Guesthouse &amp; Bar</a>"] }
+        ],
+        summary: "게스트하우스 내에 위치한 식당 겸 바입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["활기찬 분위기", "식당 겸 바"],
+        tips: ["음료 주문을 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-1-4 Minami 5 Jōhigashi, Chuo Ward, Sapporo, Hokkaido 060-0055 일본" }],
+        location: { landmark: "1-chōme-1-4 Minami 5 Jōhigashi, Chuo Ward, Sapporo, Hokkaido 060-0055 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://sappolodge.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=790416738555585933", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=SappoLodge+Guesthouse+%26+Bar+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아루라 삿포로": {
+        photos: [],
+        placeId: "ChIJ1zDrX0ErC18RMWTkPslKhAk",
+        placePhotos: [
+            { photoReference: "AWCwydisW8sI-7GVOPkt2v0jmV8HG_0ShZLu5x-fLAw-58kyTAEVRvq9Dc7VM7n8gt4OCFR4KTPskEbKT6UAkD2qLoRZeR9cOcMElqaEBwxUM42iHLXda9CmHV_ZRSdPXJT8LufJSy_7yfSgvearG1ew2o6gYZzr5Zkkiy4dSNvZlun7lMLbc5FPFg9Fvgmu1rNoW500_gvli6GWsrNKPq3kGW1c8cn8SfYdFqxUbc-ZIp3IHUtJkFCH3Jnhd650dFrh0lPg-VzQ6lgKkYrRhhbgYwSZfTKaBz6VBw7xcQ3Je4WTHYwPO32PJOWwC5lqrJWVki3cIHWRFGgBE3ZAAczwcHHUULb2M35lhNyDqvyfJd9T-4-zP9i_Y8W3sR6RAxBV5e_NJmrRraDlUmuaa__7EWw8_Lp1No_L7JxFxKMfWXIexXbW", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114061995609887179522\">Arura Sapporo</a>"] },
+            { photoReference: "AWCwydgBO1lyUjAS2OuCy2IjVmS61UWu1sPPvkMGV734sfk-8iHMNdcmQww-Ezj4FO38zsSvjmEzMlU7MYBcM3RnnC2wXC8dwkIsnU0QGKNCO_pfgULIu3h-Roe5KbY_s78btGMOgARaauIuuvNmkaAcOtP89P1vIgd_LwKP5b1aAX5oKftLjfxhXnNxpjX37316ExLjgCD8lalhT5HKeXk2dGQ1mKqRud2FSA7k3uAWisnYaWN33CHnZ-KBiPAt11oNHn1-uCKrTMZR3b6IV5EStx_dHnFc5nhYxkT20kms3n_uZkn9e4_-t7kH5sFqghrd9eQxvanSFk2SIqVwZiteLQ8A3bWJ7Fq3UkK7JjL2nCobinDNh6SvvNBOxhq6Uz7y4Ea2vPVSgeiKwhZg3ZJmVQFr7hHWf8VXYq_OTbtJ6ifR2Q", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114061995609887179522\">Arura Sapporo</a>"] },
+            { photoReference: "AWCwydiQH5jFgP7yc2E_j8se_aPayNV5wlNX6295tP6NeNGP4ujRWrwmqtt4EUWy0XNGsa7O_JC9pW2FERvrWK1O7Y7Z-lEZVu1LEEa4jNK8NSI8sRF7iWlNV8caJSPyIDQWodKBnv4XnFZL4JiXQbDO_iXDZSvHbHy-JmHx5vmDL4bR0iOUGvmY3w6X__ftseAKewTxcj6g_RxpjsSkmjVjdA5ZwfKmIKuYkMtlopYwpQjsCq65SOTFX1rLHAA-vluPPSpqWuNsT-ZbftvfakJs5juX22Vrl2LnCC35oHt7yy4NXuSU7KtYDvb0O2mpXygZDJ16pEjINeALZoS4Zs7TmoATIKGQFyZR3pDSMJTmN5DqPQqIUc4xjv-D5aHz9XYbhB3_OmU_vW7a0VzseWoKdnwBw9hgS9ZnQYP-pIXzMwspqbbw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114061995609887179522\">Arura Sapporo</a>"] },
+            { photoReference: "AWCwydj80aQVg-prGjeotBe9eTT_DDhM0sX7SOBgGSSS4dyJwvYicux1t3emya6ILU8OfI-GIJRC2xHZXIRgPR4ta4qU4X9dax_0GbyvwdjALIORrotOnoiXCysZd9_VLrJXfkw_rGGcOLhUzhy0mMbzFTwGHuXxOM_pgtHUFUyE2JMxemV2BhGZljs2lyATPR-zDd7C52YGtdhXIXM_m7Yw55A_HH0JVDTz4lvt9Q0DtkBnGVKVnuO34QbtdzhCqUq4Zwh9lc89EbcOOKtQnqB1J5pd69m2A-rRNiE7wy37iSV6F5cT15ebgwCP6aRfjO9G2BkAUEWuO82mcOR0i2NMC4AvCylcL0tRxbl54MCwlGLk7Kg6Ga_6zpb1YnHIbAEFyd19RySSMK2DfiXs-dvEzEToZHD85FpwzSjVI6eYG_wq23ry", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114061995609887179522\">Arura Sapporo</a>"] },
+            { photoReference: "AWCwydgRR_B4bmBkouRMW0ts828_poRTP1PPtaDvIduA5UVb_JtiWybJf3K-nTpgo-V3OOzUHWeyYfIr_FMyBA-M6QPIJYPFu2L-Q4txdd2KkNPyckTNDk61NxnJnPop6lhO4XQ6PuX9DAsu8a7dM0aXMmDqblRzbleo3cSO-HzXgnaIs5xVWYIzB25NbthwN-piyj7YK9LSZgACkFBNMt6I26c4p5wOdXBa_goVSRw4CWPrHSdZF9KtpkG_peWDP7Z1Vb_tWvj2hAKVGnOv3Y35IYyaRohqE3Z9mZ6CytZrshKyX9GBhAIq3F4uKvOdXSn--mDbenCcOsqxiId_JqSFHLip9LccLcyr6f_DPnV6F7pTJVTU-arwbkq-MJ3dCpwm6H0YEd2YsItUXyOSTH8CZaEVX-zi-errbie5wkYVl8hCav4f", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114061995609887179522\">Arura Sapporo</a>"] }
+        ],
+        summary: "친절한 사장님과 편안한 분위기를 갖춘 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["편안한 침구류", "친절한 서비스"],
+        tips: ["매트리스와 이불의 안락함을 경험해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "5-chōme-2-3 Minami 15 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0915 일본" }],
+        location: { landmark: "5-chōme-2-3 Minami 15 Jōnishi, Chuo Ward, Sapporo, Hokkaido 064-0915 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://arurasapporo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=685755271471195185", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Arura+Sapporo+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "언탭드 호스텔": {
+        photos: [],
+        placeId: "ChIJ__-vnxwpC18RsURokxOx84k",
+        placePhotos: [
+            { photoReference: "AWCwydi1Ni8zVkInww2L7Ax9ZnFm5PbGdCytxXLRaNVOe88kYN5cI-bga2usLsdjXIkqlV6F2sK7XNQ2Eob5JWuCUm7ZaHS--2HE1K4PFVlG6vhe9v_CQ-PW1AjOVB4obt_7Y2jO_s33koFtkh5yCFY_FhhQa-vspfkmqeQhb0OsVhA4vNRQtPJKA3jx_V712dATru9zFqNo0Eq9MWBCm86i-BwQ92PjjIKqH7-ielor4AzEhuyBZHbRfeEnHhh1nFlcqUZZY0XvgFmnur5JHrkkocbcNigX3nAnGbZjFnAdktZGzRf01Txd8Gz989V5NL0ioN0hYZ7BWNpOjoCv3JUHnsDx-swMVNediL2gyDeKjRcsJDfIs77ZxZaFJwOSpoRnFeXnpK26dnYVyQgc8VDwid0OELJ7Qln9IbtRHJvCJwmAuJ0", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102635909604301171376\">アンタップトホステル</a>"] },
+            { photoReference: "AWCwydjNZcQCBDrOLHvSWNDnnVhDFoj9MhWN9QJqNO6lOKGxz3I2lKR1TeVoJHlWCbara8OHdJmkFctUxs_z4QIv2RcLpdH52AYL5GyXIX5C16EFUqnyNoMZ6iv8kZVWrRCANItsdVSpZeZtgKnPtrkETmdt-h1OKa-l3ZlHT91RWxh_JlpD2RHZ8DJqvyRzjA_hrOEBqr-dXEVmEBja16RoIMB1czvRJj88egIAzATqNwJGf5ZsgvMwdyfzmBV-G3S2YdQuTCx7Yed0zpL6pUTp8-toBuJMDDejJ098zdOTr2rbAwd-kl0lv6XGgXbSSGy6JBEDvqR9K4m3h6Yk0FL3L-IElDPa4hBUvs9ecNLj7kKSx39KehmGn8hcLtxfp23i4-ABrK37MmXysTcNA9NHWMwPDNoHSTCogbAA40VylwY", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102635909604301171376\">アンタップトホステル</a>"] },
+            { photoReference: "AWCwydjLwGKEu5i81VNrvQMy-lSoSU3BQPXuB0ODts7ABYylxhu2FRteK1mEK0PyF2Eurug0ZOtfrZ9P0W8rj7JECNpiw701RCtZXsY1BSbZV7NCPtDYq6GpRZttOgd3QswIADOUD3cNd-zKjLeDjCN_-1B1AX3_hRLDwU8T7ahY24jh6bQcZbxAaMVrlC0dHwrTcvK8xtUXYN2bGt8vZcXXdwRN7GFVA_AwVzvalTqKlfs0TlWR0VgQy_6lKaILedBEjeoonx8x7SnqNIvzISRyo-dypnDjxHRoSTpniW30qqmdskETSa3_poj5zHil-K--Lcvqh5rTUJHktD6OU_P44vSJYeoivqc1dnowa2KukBDJN9J4kgJ_D86p_NJE_EUt-q9B1tB4NIz5E6Hky-3pwClFCRaq3SSb1ED1XWiXNrAGIKuOKbCg-DfXCWIMRA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113725696934989680601\">zp hoult</a>"] },
+            { photoReference: "AWCwydjwaUcdFlla9W0OhyU4ArgyI13CZ9oGtsrF6pOzXi1r3fdfrLTfOvaZtSxuL0SOqow5O6erUlz3knd5y7vAa-4brEpEQExrAP2RCVMQlPQUqICsY9v-NTs-liXd3HfFcZrL81yh1dnIE2ycw5rlYmkZ20pYuxQB6XLYJj2BX3etKTUQH4lN59B-yyOwSFJtxgf6dqONBEoYQcsWcmAorub0lZ2IslN7SB92yI5Ykl95LDRRM126tqQ9rF5L2HPceNUvBnQVoywsA2qhXspztgVmal0mKsnefzLXySLnxXwkYqm0hRufBcnC7_Dz9WN6YMd8-WHdEJ0Hh6MUAejmEI-fXepyo_JljRCtYJWlrBQct_af9FhcTnZps-02TAXZnuNuYvPqfVmYSVFEu01JZK33tMfLmU2P_D388ivO_4NpLw", width: 4000, height: 2667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102635909604301171376\">アンタップトホステル</a>"] },
+            { photoReference: "AWCwydjc7T_6H09_G_2pUvseRE2_uKS-FoJRDHTdu09j9ZM9hwe23AZ-LQ7KVLpE8iaXl7C9nLOkd3pG8QF964C3OGmgPj2XZIkkdhfd11q5eWjjVN17pwCISGxjBbHYmGlHzzOvor7ZhCOMzJujMZUSUcA2M_bi2hc9nKwOawtBALq41SIlnHSd4YcODdLJS_ufvQZVjnFDLEeCp-ipd7EnNQjJ2PVgNFgoXzrv_LeAZXYXvNB-8tWp0BGpKgPCjB6ZbAGc7pYsnQZnY_mDzryz80UV7D8LZH1DfyH9XqvJjyzhROwHxw7bXuuqiwUgLlQk-itI94WAKwDfen6b8ucGEp0qUxbFORaNCipXpX-ymcoD2S2XkfYF0dLI5AXkveDJlpQdoKyOXmrpVOQQ93dtTxDf8K99phhrgXnt9ow2WLg5tY0_NJKV5_TiN09lSj0Y", width: 591, height: 886, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102635909604301171376\">アンタップトホステル</a>"] }
+        ],
+        summary: "편안한 침대와 훌륭한 카페를 제공하는 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "맛있는 카페 디저트"],
+        tips: ["1층 카페의 케이크와 커피를 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒001-0018 Hokkaido, Sapporo, Kita Ward, Kita 18 Jōnishi, 4-chōme−1−８ 永木ビル" }],
+        location: { landmark: "일본 〒001-0018 Hokkaido, Sapporo, Kita Ward, Kita 18 Jōnishi, 4-chōme−1−８ 永木ビル", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://untappedhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9940483500172395697", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Untapped+Hostel+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "플랫 호스텔 게이큐 삿포로 이치바": {
+        photos: [],
+        placeId: "ChIJAQBccIIpC18RQs-74mzy7ok",
+        placePhotos: [
+            { photoReference: "AWCwydidKUwBzr89gfZXHy7b_LtHFCTRice8_yrzDCdYB17NucxYJQQHspyI76RAA8rPtmmaVusIRzxrnPOQWFASillPnQswehGCt7uv5vgjboxT4OLlbdbR1yxccFQQOttgDPykbtA-nJ_kcAuiG6AcRpGXgYtkEJA43AL8KQfS9twcT20Hh2R_BO6A0THi_PHqAVNXqJfC6cBfAvjLLoybgns-obvY_Nba5PGB7oF7D-JbVFokzZHP3kh_rvLzvvBEcrhdCZ6zG--Wu6BVKQrQMYfGL3msWQAzrkULV9YkQ27upy_75pjM6hK2m6onQE3gLODbiTbd0eWNV7WnANFQ04HDGOitG7iX9wnbBHk-yOlilZSRdhBMSm-rqTA2bZGq7zlWGWcs0IR1i9CxL6C5VFawVNBpQQz67LIyya96X04QFMjk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110080504370213873731\">수경모</a>"] },
+            { photoReference: "AWCwydjfmkZT4AxyJa6Hc0y9hAoszHMKQKWgeuTUEP0Rw2aiyy8eCdFs5POtM76WyhU-C-lGd-6T4FLZAVl82oLnyKHkehPWZvxG3gD1G86g_QvVuJMhmeO-JU16_b2WyYiJ1BcASevnAre__XCq8rJyUBnC9m0Qow6S4EW_zJCKTOe8WSwuwhr7SGyXuwgmNUD725lY-wcriz1-ygYc03i-UX2kXrtfybC1YdmRd1nZ_CBipYOP3IY8TbOU20sdQm1FvvfhNgvzfUnq4XtvnZm6LItK1C1zvIohSUWOY5g6LCLDgF9jtyLqjnf_vk0OPzkdSE4HoN9BAbB9egFpYTXbPBSWMG_fa3OpLAn852uTGgX06LXm5S45V6KBdgGffFw8oEdymJeMfV_x1TIhrEl1pRZ1sRZUu-KvcOdEBaMfKUnphmRou0y93se8a5UWGlBz", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106424659397377037596\">クロコルカ</a>"] },
+            { photoReference: "AWCwydhX7reMLqwGnHlmr61YpWR3vZpHHyCLvSeD3EajU98-dHgLR_HHW4gd-CakufrzNKRSdPvVxb5pyLIEQY1ISf0qU6BsuWYg3iolHc5QjFhb83quWIsWaBuSH0f0V4GQ6JCUSoiETESmZUo9Z39R0I-d2yw91F4mhFKQNNQTqT7id8EYShEAbPadC1aQjWqOIx6-EsM4jacJl_Ep2ahWqBDsjV7Nnk0LIUzD0l9taY9fkXVkeiMnCyloYMAIt3PEdi_iqDHM2T37wSBIoTJ1nBuOMGhUQBxpo6blgMBQ5McCtn3QlSEZexGkghfm99s6fav0DOTMoOZtiT1Un7ejNDruh_MsMPl-9pmOuppA8mWfyCj5UwGL63TsrtMPU0M8C7BVrlX78dR9uPKA9b_ilTYeqGpYBrb9sR6QJYkTezggpG7WdqLNcscfDk-XPg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111347167017183189674\">Googleさん</a>"] },
+            { photoReference: "AWCwydjZ73HnY-ml1kDtVrK6bYWh7Da8HmBPcJkvydZtMZVxFN_GXkT4iyBoMMIWdl5fZyD_daj0Mif5Usin6pHCju-WqwW6aq_UICP4Vey_KLoMKlPh-dOdeaXuU4V5WjZ3WNM7EjkxlRoDaYb52S-QAvNNq3VAekJbxi_qjURD_XhsjVtaikL22rXH0FwLLCB5y4s9HxvZpjUUfJydOLzk-poJ9RPtLhsW1GyDnPbVA-HvR1RQ_PIB1DoWrgFpVHQ9bpA1wsTHisUTXUNTaPqUm6f3v8mDTljx5Cj_WpfWH0fNCPq8QuDiK0M0dSGa114EYpoNQZxxIKrTDebaM3L1CoOE_b9_4rNOTMRxzHdAE9meoqvCZIi7K65BSMTlNpOWcMQ9lsM9uY77v98vOIeeS8axLsf2EkBOKXK1bVsVo56uOvHFDwNluuocSCYP_-LJ", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101589403918048598214\">Jude จู๊ด</a>"] },
+            { photoReference: "AWCwydgnHS5gVnrgrypt-deRsjMFSR57NMQppxyrkpQiVyysoGjtmk14B5Q5d6hqvD068mkaECzZcTHO7JIhw83xNvbhKzAnRcFSlK0_S-l-LNL0wWUxG49ZSY8oH4jAf0n8h3_XlKXfjIz8dNDBsCw_7Bl54-cbtC4tbphPfl90u7V_qG5FqfwnmC43rUTZjgf58RkVNnxx9wpUEIJN-80IcJAcwLh753_pjjl3vqkRW6xTPwv_XVjBwVQfqbqIxhepKTSdwUBZhtGjrQaxEf7POnRJzzm43yEqkx-XRNOvzuU1w1hMh5JCKQyhDD9Ng16vtMNhLNBFcsZQx0WGN3oxivUemFvIZYFByweLSLo6yIbpDV9IXrrG8jaCJuR9fuYst3kgR4vdBlo4sDM5J9zdgcjfx1fWZcOcadRv7nCP_6sP3weX", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115913557207088443531\">서현주</a>"] }
+        ],
+        summary: "접근성이 뛰어나 전반적으로 만족스러운 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["쇼핑가 인접", "식당가 인접"],
+        tips: ["주변 식당가 이용이 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-18-1 Minami 3 Jōhigashi, Chuo Ward, Sapporo, Hokkaido 060-0053 일본" }],
+        location: { landmark: "2-chōme-18-1 Minami 3 Jōhigashi, Chuo Ward, Sapporo, Hokkaido 060-0053 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://plat-hostel-keikyu.com/hostel/sapporo-ichiba/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9939147977127612226", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=plat+hostel+keikyu+sapporo+ichiba+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "게스트 하우스 와야": {
+        photos: [],
+        placeId: "ChIJC2DmJ9UrC18R2NZR4xozvxg",
+        placePhotos: [
+            { photoReference: "AWCwydgTeK8p3lKSoZctJX7LhXUvW811SjFj5VME206oKNc5MIlAjrZnYaU-rRSyOEV_JH_h7ueElRvZE_7jAmfeptWYyXgNe0aP8Xb3wAb1fpP1ET0H9TM45P721ElZCjr91hBaFrTsKMFdRiaY27Fm30t5p0qchGU2b51jux0iaIWKNaOjBrYAtElhuZfZB-aUJcNA5dLJG5kAdfc8fcQxPaNFya-pDBrPHYfKI-uggVJCUS4GvRKYNlbWVRVA2gvdK-k6ysySwtlvb5eQPQTq6y4SX4liFyEBRJwTbSaBm3Bu8zoeKqvA68vZbryy-0YSdnjPxoKzbqVMIq8hlNuSmOKxSBWAmLGGC-oV1a0DIgaDtsKA_ilOg-lsN4XR6Y4VPyrYDP7WYEivOWvtndfspWYbFAPT8jVaRdQ4Xfx1of1UD4M", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104153684003690761077\">waya guest house&amp;bar</a>"] },
+            { photoReference: "AWCwydj-RoWP8Rgj62ke-jnhOkjIFeklhoTShdxD4mT0yW-m3ZvpqLEI4PRx94ymGrmz6V1CooxaWQxovFt_vS_hEHDJi-LbUNFOc_Ep5-BQat8wgRRIoJC3PZzJ6SDJ866imTXV1Kf7mLJ_FADG_dtzrCAwO-abTCRhRscVDcBsLLKlvnnE2_nI3_3Q_3Cv2y_5o81_pnm4uXAJOcXa2TBOSeS7T8R0Zv1yHUwvDrSeGjoIPP6wUuX8i9rYjYMQOl8sRTX9pVd0LvUKbSLJyn2C0MbvBfP-agC_3BB1oqvEjgmOnbq_-gNEQc6p5f7tiLq4X-qeuF74QHRlUvmDq4K-6Y8c1GfcOhcS7EL9zYN2gKp1zgrOW13UtKJw40F5TUXDqmOGuouJLor96es7T48hdaHyDC_nsd2CcuNxCWI1difNpwLS", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104153684003690761077\">waya guest house&amp;bar</a>"] },
+            { photoReference: "AWCwydjbcXNCqauDXAuFakY_FjacSNgGQ3sfxp5GNCZyqpAYA91kTP8ee_f2ftGfW93CNPqrJtd7MV0C-L5kEX_eqKYL5vQVgQJibVZCOJQDtCm3huLgIdORXJ81ctZpOQRLGpzBAsZdCaWjImZNEasbGxRnO_3wq9hk2mLBwrIlg_R-zNg1twlwGY-Yy9kiuiJtIs-r0pbiNy1t2njvPMynT2hNS5DAW7pvUjRNroLIzwWHZF7u2jK40Uq4xWUXqi7CyC7T1gCroIKyelBF6Q9ijmjHclnsGbNkXWxSvvh9yT5Vel3WfdE8d4inA-3oEvc6fT_n77-lyssDEzN01_ottT30SFx_gGmxVtkhA_o9-NfI-9NHOP1GBGQVtfcziPeh_h7qVy0XdjgrQ0fbIpCEkC-RnwXxbycq8O_uOme_nqk3cuAF", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104153684003690761077\">waya guest house&amp;bar</a>"] },
+            { photoReference: "AWCwydiccVF6Vtq6ZeNmouF4s-Fgm8N3GmXX73fd3kTwYMYgolBwooQeRXowyRSdtM8JxLRUa-fj6lp2p711CRceqIfxC3opBdOifXwszZZUkPBirhVZcs4S5YqbwkC05uGd5__4sp7XyChkQXqFYZpgggCrLoev6fxYZEmM6RLvNW9P39dUv9y0vrS_Gs2uM4EJJnqn52uLQulJ-D2f_cvXamjODB_reIW45JcAPLq37zh4ROmUjwplpUtqt0xBIwcG_IyvVnXliB4OPnLr90BBHkV0c5Pc5LGCO0lKW7UdjCWo0YZl5NGqrS2XFKVpxN0pKG67xrJxIRx41kAZJSo55dRL58a7QvyNvQ2Chl8UaRbS-Gxl-di5hkX5xU_16Y9YbL8asTovrAJtG7PxNNIauzhemOq9SbYfx8Il3tzalH-g6EY", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104153684003690761077\">waya guest house&amp;bar</a>"] },
+            { photoReference: "AWCwydjO_e49dJmbw5EX_kBivJ1EoFpL4izrgKCcWWCAOQUmLamUHzYFrSsjx1gFjc7BxbIkFv_DbfkXIgODq2lvaYTaUTfWH2aL83HSaFOfgl4Pebqcy81SVyKFAmMiTsjgdxhCnMSIozmytaC4iqN_EnvACR300lVhvdFaLx1P-7v9uzd5Y8o6h-FY18zHZk6FX-G0oquT-Qguyz1EnD3Uuy9-mJMXlScSS6wcIECkLVC4J2i8nFgeo7XrKP4orffS4bnTAKXWGdAJSv9LQ4nx9w5om-XdTxWeaUwuIgW5kmbqVWj8vM37dn956iV46DcAZ5d0Wfk1LcVBIHvnkM3-Bt3JA8e5xm2hRXzcXhp4V03TU1wbTTUuEFnvNOZ5TOsqkn39bIzD2tUlVMAbPDO1wfLVcQuF1aqCU_vLhFkX1npynQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104153684003690761077\">waya guest house&amp;bar</a>"] }
+        ],
+        summary: "훌륭한 서비스와 넓고 편안한 침대를 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "편안한 침대", "좋은 공용 공간"],
+        tips: ["귀중품 보관용 작은 사물함이 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-chōme-1-43 Toyohira 2 Jō, Toyohira Ward, Sapporo, Hokkaido 062-0902 일본" }],
+        location: { landmark: "4-chōme-1-43 Toyohira 2 Jō, Toyohira Ward, Sapporo, Hokkaido 062-0902 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://waya-gh.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1783200168037963480", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B2%8C%EC%8A%A4%ED%8A%B8+%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%99%80%EC%95%BC+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜드 호스텔 LDK 삿포로": {
+        photos: [],
+        placeId: "ChIJMWTwro8pC18Rdz9BDE3RHhQ",
+        placePhotos: [
+            { photoReference: "AWCwydhXCFn2l18iaBFGd2l9alihHY95bInLAkY-_8Hh26VkWxgVhA-EkUDRiCvgpkr_bGOTCeG2Jx1IQAkthfFYDg01-PKeJ7EP_Nd7JuvahLQCGT0Aon0qzytshKibWW8rk1y9EQsWVYxOyfCKmuLFbTNb4mPdO8jPrYwyyXRTEIN-HQlP_5PXJR7br20p6a5cX4b_tFPVTsKxAX9qgc40JoTO4xoJlTbO2Lybz6SrBGtXD-OG0RGMia8dDn5Z73hbhFJO0bQX1EwgRTf9jcPxokXyTma2s2rxK5iXJwsenIiZTZ3lEtWFA0Q1NEKUwsEgzURBRUIAeV6Tuu8H95rHEVTtuQVIFq6PA3HL9hCTHqVdHjAdYDXlJ4Y8oSWh25lBTlCcGr9qPTbisTf_MQBrsqO2VRKU9RqSfRpO28DtBfLW6Ut4zi-cK3GrqAmzRIFj", width: 4350, height: 2900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110834045141666148920\">GRAND HOSTEL LDK 札幌</a>"] },
+            { photoReference: "AWCwydgYJFEHnYfwppq9f_W9WdERdq8Y4Pz2d3ycqYvKAvxPR_w0goR0OvW8jTpBJPa4d_o7v8ouuMBoPFC9-_AANZ7qSV-VnDz4a0W_xWPgR8Ko5PJj9MkFpPOPiEvMvHAvm1X3xSGd9ptrb8uIWl3s7iieWR5XnG3bvREVCgLlxEAk_B6JmOUmcCmIA8Y5nuQxDtiRSsFKCaOZYidoZj3TzxsY088Q-mJ8I064lN73rngN9sb8n_SnIe3kYej8TEhDAE5PoUcpIu1IwruTDiPKzJQB_Y9hCTUr8H3e5MfwmP5YMgIxIcQlv6sTFrLaYdNTvbEIy_1mD_vFOARgmN5ybo1ghYq6qKa2ZPxP1TOL7GebGbGtOx-pasS0Xudb6g_EiKsG4a82nfvE6ULA2LnbGnNNCKeF8EmeV5ydP6t2wZd7RBoVqTiEar9uHwdXm1Sg", width: 4350, height: 2900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110834045141666148920\">GRAND HOSTEL LDK 札幌</a>"] },
+            { photoReference: "AWCwydjf-93U-WUN-udTaU12a527crMJSpfRHV5D6CgjrSE2yXepWxPXzab82Ku5eukB1NlENV4OXxzH9gTcXt7Lxds-aveMIWqB4-prryoIqBIpm8jrsYskQj8Zxzl12ICwWvp4EKA0Hc9HvZ1Q5c0L-wpyIDaE1b0efI1_0Rf9BNVOpEjkAjySE73e2gOxcPE7omfj5FcmPFMzrmW4vZSFPqucianOOm9QKvmz71KFt60TWNQ4nvRaM5Fpilc9ZND9lxwwKiRtxmMVgaMQ9Mu-Kl3e5wj8A4ll78s9a9eZOWbD8gjiD7H18W8KzjAfoarh0ZV4_4TAxaIGo40qutJ27Kvl3U8F8DCDcu2ZG7kJnc2e6gK93YBG0MsgSUHCMyzl5OmW5T4b6yVh-HZ73N3DRr08h2cuds4W0R0NCEYlSTyEOw", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109538440258255908439\">Kaoru S</a>"] },
+            { photoReference: "AWCwydgKFgJxBpq20eIhrbhhLiK0CRXYzVRv1NeQdD4743Axw5w6vEVo9BNCWKmg3JN5nRDTF_QXGGnCp_Okys_dBVZhzuGmepIGA0HO_2YcYOyBAgwc-ceEd9b9SmUqmhhdlrhu0jRBo7GUK8jXosRvc-gML0EBMvdzUP8x91vXBF_nvGTg6kEOzY0s68Vq_X0TU9ho6jBBGUxLVXUxaiuhI_5LZUyjsNTxl1ZhUtzKn4qaoMAOJG8EHiXhSWRdBUy9uzDMDAqrnUEVKEyvqsF_A7rD4ulgBBWMnJgUzD99XIz-j0D63x8GauK3acu9-hLjgt4iiO2bLCOQWJpyb_mvDm7x6ZVZJFjhi9VzcZKpENH1_n2kcph1B-LGnXGYf9A0_lUsTFvD1zP3GrTp4k5kRbDImbKjSG5Tl7PuEzbXmlHmLv_ZBxsX-3ZIdDo6MNJs", width: 720, height: 480, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110834045141666148920\">GRAND HOSTEL LDK 札幌</a>"] },
+            { photoReference: "AWCwydhK42by9bZjYlRKqHeyiMZnpzPYcBG8I-6LeuE9EEZ759dr30-540I69JU0Fj1X8Sq40JJ1KAeyDvGka2u_3t0NCZTu2cEhtxadhix7CALAS54OkFRZBKIyd3tc66E9Vz79ymerUgY_JUsyFzMIXpFGjk1d6e2cq4dVyDaHehwW1VClEtxPOoSuiLZ99cYMa6kI4QNxDevm8ZZQ8a2kGI_Uivndbfd8DANsRQz_hWYw-3O1dyT7HS5jXMA_lzR5dSoFxuaBlBQU4Y0yLYa-nI8Injkiae4Jp_loNQdjIfiYCeDq5AbrbJxDNZbKgpyWygqLKw66WxBSrKXLAxhqRlHmeQgqJ_4dI2LERCd_SiuP7txRPkpZzhKwRGf33FwkCPjEs3CuYCIh98K8ONHIPk9YySTgNP_Vu7nl_zs8y6BQ6sx-DARJEZGnT1voU4Wl", width: 4350, height: 2900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110834045141666148920\">GRAND HOSTEL LDK 札幌</a>"] }
+        ],
+        summary: "서비스가 친절하고 위치가 좋은 호스텔입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["넓은 라운지 공간", "좋은 위치"],
+        tips: ["카드 키를 항상 휴대해야 합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒064-0805 Hokkaido, Sapporo, Chuo Ward, Minami 5 Jōnishi, 9-chōme−１００８−１０ GRAND HOSTEL LDK 札幌" }],
+        location: { landmark: "일본 〒064-0805 Hokkaido, Sapporo, Chuo Ward, Minami 5 Jōnishi, 9-chōme−１００８−１０ GRAND HOSTEL LDK 札幌", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://gh-ldk.jp/sapporo/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1449826258908168055", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=GRAND+HOSTEL+LDK+SAPPORO+%EC%82%BF%ED%8F%AC%EB%A1%9C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

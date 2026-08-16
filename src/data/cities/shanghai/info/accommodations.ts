@@ -246,6 +246,276 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%81%ED%95%98%EC%9D%B4+%EB%A9%94%EB%A6%AC%EC%96%B4%ED%8A%B8+%EB%A7%88%EB%A5%B4%ED%80%B4%EC%8A%A4+%EC%8B%9C%ED%8B%B0+%EC%84%BC%ED%84%B0+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "상하이 디즈니랜드 호텔": {
+        photos: [],
+        placeId: "ChIJ3U5KsbmHrTURZoXWKuqcrjk",
+        placePhotos: [
+            { photoReference: "AWCwydjEcMFg9gPSB3KWoBqKyqRjGPGLqtfHvMU2P-AgTzzhQ5VZB4wOIWU3O_TQ8hUABTjVELmMZNVLnAeaK0A0Qpg24VD0ktqSO0JWzGAgWfoPEnBWyzFt9lruUdzoW5gqWWGYNZx2UThPEiAZdQF0Y9U7bd24AJ7NMb_WGXWxkw40gD5tVunEIAzLVLakpfaigpfwVSSRAwaFicjVuF9tqVvBrYE7Ie5-NNtQZSotdusK72sj7f_h_5IvwjHIXicBssI0MUqGdNHZd1fWTPGwQe97w70Pw48v2tMmn9vKOEJV-sOd6qOHPPfNkB4pPyU9WdRd_5exRRbHc9lID4TKmLxbTM2JRihI3acA1PUNlOLQdsAGTfnp1iQH1uZ7kKbf5JBtg5OYvYXyTLYZ1SBuRkDaD2LaUVHQDrzqmq7eew", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107130514047878370206\">麥樹翔</a>"] },
+            { photoReference: "AWCwydj42fTUZjwwr3c9SpfDAIfLz0hIpMA2XFX4wLjTr2slAOJdycrjKfUdL3OkKSkKDef6ZB2KrUSyXNVvjoCkVJzcaPJuFFAKXo7UbaZa07ddiGWhCV9mjL8QaZK5fGPCKMS7haLEwUbEdRwgnw-UY2rvFeW7IrxkHLOQAitSBR_iIYxav1gwFcouSibBPL0maH9CiUCTHyl38OjELVWaAUaeiU5_ryoY09s4S8XvzS76E1HwrkiFpOkqlpf8MhXytfbQVgNvqVM-WgW2knBRUE8f72l1aNDqvgqZBIwJ7t4z1pLb51vHCDM0ivTO5--B9wdr2bmcADoHdR89hAKPKPSusNsUl8ACFUcgFt2VqkS50AQLdXCrKJvKjCv9bf4ug_TefC6kWnZrYtbeK_EartlT9wiS9Vbvik7XFKert0xP6JRbgGN2dw2FvwOp25fK", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117077477828362194711\">MAKOTO MR.</a>"] },
+            { photoReference: "AWCwydiTIdvYJm4lUnTmhyVxFTc-Ku2lFnK4fPWinJmQVrhJvqbbZA-H_bSemyyfjHaeCV5k_WKN8jCW5FZsxJ4hzflF5IK1zIQxJJxU-QQedmEFnZGdoxtXMJvsj2RFDC-LFjYODiRARONQ5xbqJ4ax996m4KK20NLP9zuwySTTwjyFwSfioL2AWP-JrUIJktdr7ol4t86MxIll8RwaewW6HwHlQDJRPTUmLl9GUpRUC7o7AC77cLSiZ_ExuGXt7j7V64wbJd_TNdTkqTsI16MOEMvwP_3dtJzuBG8O6Cp0gJXtmmzifKb6Y28ssNK5jdrvt70hTStx835B71L_64lcbxJ124dk9Iy5qs9uIuk_5yns0zN4P1p0O-FE37FS2VZllnnG_58iEo7bIO9pi2w2HQjgoRGXNZyEg4OAH7idr9VsfA", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107130514047878370206\">麥樹翔</a>"] },
+            { photoReference: "AWCwydhBfS0mSSzWeAJQP3JZaAE4Abl_clP6XHIkiCH4nEKGpgTKTmA0wn_TdCx3sleQ5Ew7-CvaMhkRSIVviswpKN3hhDrcqYlIKtwtwjHGpJeRu9f9fXEZQyzMkf9cRs6o4Gi-BdWrXajMhqcucjfqUtxZcdDcKKgJqpTRDfy2HKPo4fi1RvY1HSAH_uqk7cRs0E56DQBcNhDwVssps20vqtOGpSHdA0z8La5Q5hcghaYbKndjViLYQxTMhMnWrLDRSZAFiGqxiugJeAiTFHhtLwCAKT0l1e0Z8HCjEIYro3S4vWVTETxRkgIPz8Uth00VL2-R3rr_vs7s9EfwqFhekV_2rq_cHXG2vdMH04W8Yb0i6JbFSnc7oZDnLrJ_HbgZ1cC7BqTfPng76G8wOMPm0SH6tz3KNb44gicj6erpSfVxYf8", width: 1776, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101645258696196775727\">M.U</a>"] },
+            { photoReference: "AWCwydiTSZ_kVJ_VhY-Yn4fu7_MIW5_D0jUCM3pRYjWJH8a15TbG6BqEHnQ55RZ--FbOddMoFIstQd-EpUZmPyzhEOGvjPPAe3t4J1Uac5omngSscirKrCSWt2nBwopgPBawEwurFA16bE7sxdikCknfQvCMZNL-Pha0IRzyo7TF2HSZLECQAFC--UN7othbOycuhDxzNSoY3hC0_QJZVq8vd1kVW_NDIcabh3Mq054dF_oUcqMhwlkyA1tD5XipCR4P1x3HNOsqTJ6P8dBLDxQJNbRKLlLJSsa2SRHZfWbAxzCLq3O2kct8vpqbrYsuwk1bhWsTot385BxZqRiU2B90LUdbpKwjvBTZ8ukSHJbpvu30f8NE4Q0FmWFTdMrPRNOLKC9DY-5xgoGaHOfXxCYFeegMRtMQ_z7Bn_4T35jksPBaZYcs", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101174132369898790523\">James Yu</a>"] }
+        ],
+        summary: "디즈니 캐릭터와 함께하는 특별한 숙박 경험",
+        updatedAt: "2026-08-16",
+        highlights: ["디즈니 캐릭터 방문", "우수한 서비스와 청결도"],
+        tips: ["수영장 이용 시 수영모 지참 필요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1009 Shen Di Xi Lu, Pu Dong Xin Qu, 중국 201205" }],
+        location: { landmark: "1009 Shen Di Xi Lu, Pu Dong Xin Qu, 중국 201205", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4156432035664528742", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Disneyland+Hotel+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그린 코트 서비스드 아파트먼트": {
+        photos: [],
+        placeId: "ChIJ-bszrDhwsjURyNCEhc02W-o",
+        placePhotos: [
+            { photoReference: "AWCwydhi6YX65f1Ehy03PPG9-mSudcmwA8k1rANU0LYLh4tjkusUwW70-wl1Pf8BznqczqXf5oa5nUALnSoRZC5aLEAxsFgyb8gozAO5CePAYo7tMJV2vQ0tMEpAHd_1lNDXiyjVUusxufrNFwhFQ6FR3XO6o2Mx_yQAA6t556WMHIAPF5DHd8YkDyh6-QUoDvYwKuJPMQOwqcK2k0CKdfWfZuKcP5O25HU8UBO8vkJnqMzNN7IKPiRvXhUEeyZZKSkDqSARiPLURuekNtyNUdlWOe694yk3TRC9rKyVXp-lVjhrFEIkJ8obWrqvvOqIu3Yno8qQOh3mW3JzYuP7YyG8-5M3Yo4nmv9fRDeRwvo_zRr_emelYz0zkG86MMlYO5WedfAtLReLJ8uc5iDbqrijjTMiyGmCkNZ-ATYVd8PS4x8LEt_5", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118248885801578963958\">Masa Choya</a>"] },
+            { photoReference: "AWCwydj4aAZMFsN87oFUs5IB5XKIZnG5pZ6AoOkZXP-d7Um3FTPIfEFky3meTO9ZiGtxAJgqEjVk05UzgjycVP9GjLDv6E1MqjfQCVnVGTifUf7C6C_zkLUvtOXoqdMBx35-_taI4Un704OVOD0p8qrkuoG1uBbC1Kx1MvVyvnz8SXD49EZOGtGbAk0wMwGQecUVk2kdAAMOkzWhJnm5PiV67E-d31vD7Zdu-TA-lkMVkD9WV190gitwOrzvDxEMRpSGxGXuNz5nksdqGVHdMZ00qWK-ygP0HG440SIa1sr5TB29KrgYB1xFWuMUPUF-ciER32EyDCa2Y8Ue-r16nUt0k83Egh0GlCqiXAeYyvz20X4KXI9pYL_lumcsQKeZRBeyLwgos6tdc5jUyqh5zzmoUVeAvdlhU7KODpTTUMDtjwERZ1w", width: 4192, height: 2553, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115916376800863402911\">Shanghai Shane</a>"] },
+            { photoReference: "AWCwydiTXRtELzllIhr4ahWYViig1oD5KD6CuKiEaFvneUc-Sr3gND80L0Xx0rU4zNJKd7rUqFHox97vYYQ0GMnehd4v4uCEoxubcyviXI83qaAd01CUwISEtEa0lVVyFCxAq61XeuGcGt40QLF4Kg2PqPMSl8PHCfcbuEJB5N65NANf_rZQSQFZenZPkgjdAx6vROH8B8-Tv4Bgig0A6DkQRHIXR00IQXXBrRZ0WJl-MxwtMTcsr7RIt2tYMrKlJCXXtwSHC8Mg7hYOowwXJtjSKNOcRtXCbmwx30LcVPQVvrNs9IDvAsAhbiHtkdppYba-HfHL6q4OvCcrcjVU-A8gIQ5mnU4sW7dEI1oGSC6FCZMmWWVvKJsXfdJfknukMmTcNp9TCDi6rtKIKwLy6Yugq6vFWm89Dg9GNwDW0rooaYICNQ", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109564761285963641669\">Alice Olmi</a>"] },
+            { photoReference: "AWCwydiQK-GQ0R-dC3MUkpt9WkZ9NtD0hGTCYktj0UtZUbMDGP6Fpu9p0Z67xlne7ImIzX7lIQf_WrShZYdd_RXxOlNJbXFSfuX76oi8iIQqr5McfuWMKE7YKOfolzcCDbuZ0xpwpVqOlcJdXiGtYtgBl-DGTJPgQcR7kzMgwVr8lO-R8ZKF-nmQalVKkC5ui6QvUfwiGLYqRalFGJoWeQKyAKdhkHlh7mofWqAOBgrZyPZENJjjl2XFiMtbbL3kocQJEFT7zxb4bYBlnUMZ1_PXsvm6RKIMJ4ksF8EnoftYl3fdnbVsT9ndH5FEm0cQywragpR0hAvHtCxx8UUXXg7Erhjtvay-85M8PwyLp6zj4GkYJyFKsBq48Z0YZu7OsAFJrmX6FOGs6BmyBSogID8s3gH2TPCcTjAD8Uf5XgV4kDhDlg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109854554772238393492\">댕댕</a>"] },
+            { photoReference: "AWCwydiz_W4xsEuMNzhDyR61eVgtuAHwcXzI_mo44HMY-kiSNhs-ESLBr3VtfQeRtauVwXo2-E3eZuhGIeMtbGqb4boAblt3cMloSE5w5OBZrZEFfIIJc4tDrkZ_zBxj19aW1SLxJLbRK3KZwaWWJS1oUe4WMpsmn7AlvO5iSwYLnGLpIUzUpFHj8bVg2jQPqOnjXdKnooKbiAzLl29K9Ds8GPL3ovTAa2NteuRKpXb42ZGRXACHUHDUI1jPnZR1v9-XB0C9dSPDdi1lqLspH-jN899Gb4lchkFiZ0aqB4ISGzrfmIBCLvLLCx1jDC-zoo2FcegmxYlAcA2i0X2UXZayiNKSGRi3TnbR6C4CChDiJJRdciUNu0yVBEakb9DBDlJm8WZg-J_SQRrr6P9qJoIWm3vYt2YNte2xPQRZfIK77Mw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103017418887524721181\">Ws Chan</a>"] }
+        ],
+        summary: "가족 단위 여행객에게 적합한 아파트형 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["편안한 가족용 객실", "친절한 직원과 하우스키퍼"],
+        tips: ["난징로드까지 도보 이동이 가능합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "55 Bei Jing Xi Lu, People's Square, Huang Pu Qu, Shang Hai Shi, 중국 200003" }],
+        location: { landmark: "55 Bei Jing Xi Lu, People's Square, Huang Pu Qu, Shang Hai Shi, 중국 200003", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.greencourtapartment.com/cn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16887151484092076232", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Green+Court+Serviced+Apartment+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시타딘 훙차오 센터 상하이": {
+        photos: [],
+        placeId: "ChIJ68-9hWpksjURsNLMZ-SXTkg",
+        placePhotos: [
+            { photoReference: "AWCwydiVJSB3grrXWOQzX5lyx3BYzyNiIzC7GYtrYCqT7kOg2Uo7dQxrJ_MS7nC8dP6uIyGNLpU3lGAIMcyeFXSdbCeA7BzOdch8UZLgXGSZhmr0XKD6JJCmvDzBw7Y6AMddygIMG8Dq3AyxLcPgl-LaCTWBNJfKk4r36_cG38Lh_uoBI7ieS46H6RzujDC8BHK6hnFpU3GfTUGKllFdFt_ENSLcLQCXrtS7k-R0kHX9lX9r9v5x4kUIMzI3VpTOymZlfT9aCXiq3C3fdewB_VLj-pXgJFKjeLWHZUW_BlufO3bRSd7ieOfGiqHo1NiS3SNVLCfktBGR0ibhSXQvDZ92uoCwU1THFMyFzkoItIjoeDdFuKdc6fLqj7NFHFXR6nyCQ0lG1Gcdedgdl39wHIqsrBAUc6Ba9zR9bQtJ_-_K91s", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115423466356931250335\">wonki kim</a>"] },
+            { photoReference: "AWCwydh8FGHhHqZbnBuGQlh6g-YNo7G48pZ_4y2z3pR0inAOZ3BiqZ3qX90gsygaEBxouoG_tuOVvQ7HitpYbN3LFlOUHgptRfMMbhGZWCSW5wIVEL13ogOmMhjKeEt4DSbrXFiEcVmVyWNvA-L1hHnws2eFF1Cbc-ZbAOKnAn1GLI9beh61a5dT43QzHBpAmaGzOrGFl2VAHvZqMatfMiFIJASB8BZrNStJYJQDoCN_HuarAMMtwfoCNGPPnbQxnTcxbcQJ-GGODfj7D1_z_ipDafV9oJu9bRsf6hAM_OHc79etNrSvx39VSZ-kXDRSHyvzjpqXLR288rypWAiCJb57KYseXnktyH2ubDy_xvo2847cO1zoWaDuSENM5KzPrh4eDNU3313aaWh73dxlzMbToUlDsrU5uY-3tNKpilcMn0Pi7gkc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104229150447773661302\">Yj Oh</a>"] },
+            { photoReference: "AWCwydhZGDe5s4lVOYJ2j0LJr-i6u6JC7sPr6ROnfV4rffOkUTj77PIiaUDGxm1zNAssDSss7sXBPRtKu3L2wLME_XbgnUKSYFr8PZPsKApiI1qEMqOXvJbHbs5t8XCC56TOnJ2bnFsofJLAqBA6R4ehYXHl453Eem5J5iXWeyByRFNDZsQ5OLdFhz0wPPw84Q-bjSyGrczWuP-atRWoH2vcdG6_eKlTy3S22yvItGljstkeDBNS87q98NdoXOkHchCNSSejmsVoiWX5wgfTse7wStfpKh6GoHnJp2h6zckZC0wVGyBZZW1DipFKNVyInNKPj7qvFvZIfADfJymDzUksO0i21bzShBGch6D87V0E2wTRXgQfvFWyKRXEb88lsjtbwM6Eh8ypiD2niGqq2kDfvNIbXo0CAI2nzOSSy9Ai_iA_YAMe", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115423466356931250335\">wonki kim</a>"] },
+            { photoReference: "AWCwydhauEJkovt6VNaepEU6gg11Uphv5pBbO-UX5SYL8MbofUr567vnj5qU2LK3otHRuwMyIkvpxl8uzfihORtQrYrhwdEe7cqsVJ46c7ttpwXA7sFLSA9KCaZbnSm2q7avAWIF6OWGv-WCEAqx1y1uKaMz0buIqAeBTR5SYs8O5N4rbFChVVopgpbZxIds4rspiSyf3qHXN803mK7tE0MGpwdhogODUufE0hsXbQ0G0ZVSUmLcQVi1DpzPxkFLS5C7F7Iaacp8gEQt_lGKMy1FKrrIBMgKHcTtxO9IlrGMbA-YWg1m6r-3Coz_wY0MSrcQmQ4U3MIPBh30TD3b25vrRNX2cGWU6YEKI1C40Gj-CwPqJ5HF_ebOGUbTP2cE6BVOA2HwTiBgtrmbYbBr9aD6JPgs1cB1LtBQldyxAbobAlLNcZ39", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104229150447773661302\">Yj Oh</a>"] },
+            { photoReference: "AWCwydiTQRef5a6WiQXq1AcXHJUGH5wyRCAKOJi5HAsxxlHvXQ-Pr9AION_LsZdWioIhlDXBlPZrccOAj_ck6F-768TbK8D8niN-xtH6SlAhrHhomez8LxXbA-lpos-nj2FnkxIEfjnTniKO8q0se1WTeNl16B90tSsWhDuTamV4qu9yhvKwA6GTJli_gjh0KzvobMUYi39Vu4zAuW22-khgtoMw15oz4IYDu-Y_loekF8Xoh9KOx6Yec7TPm90fkKS7Wb_OgD2C1EPDqqsCWRmYXD3qHst8ET8EGeRb4sOPkQPEB4Vs14w7FFkowMU9c8TcXqrpbPuwoXvj_ykHATMk1sdM3fyPRqEg04KFFtZoEW5SiPcBN1JOGZmnPN_x_2PFpvj_5cGYRhgMeNb_lR1eVlSCmP4ZNLPN8SEB6Q9sCQyuLQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104229150447773661302\">Yj Oh</a>"] }
+        ],
+        summary: "71번 버스로 주요 관광지 이동이 편리합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["71번 버스 이용 가능", "맛있는 조식 제공"],
+        tips: ["대중교통을 이용해 관광지를 방문하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "중국 Shang Hai Shi, Min Hang Qu, Hong Quan Lu, 1101弄号3号 邮政编码: 201103" }],
+        location: { landmark: "중국 Shang Hai Shi, Min Hang Qu, Hong Quan Lu, 1101弄号3号 邮政编码: 201103", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.discoverasr.com.cn/citadines/china/citadines-hongqiao-center-shanghai/location", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5210268826164056752", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Citadines+Hongqiao+Center+Shanghai+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "애스콧 화이하이 로드 상하이": {
+        photos: [],
+        placeId: "ChIJLcdLcW5wsjURC3nb3o_UpvU",
+        placePhotos: [
+            { photoReference: "AWCwydh-nqnp4h0CD-3bZ_AN2x0ZR-f3TfqbiAi4tROsMkQs9Lz5l1Vw278eP-tbvYtPLq3ZeKt4HSn2Esp2EMeX3rXfCphip1txlktl6JsRoX8K-8WJh2wIBVQee25rs0ET_Q2q9XRDIezY5LT0tpEPvTqBgoqZe0-KuThfDMSEI3hID7vxhjx5ZMMgeWHSZE7xLoWNV-HGuYF-kEK0gHthfUUEl38KG8biT5LOrBAEYH7c2U64-7LHl15P1wOszJ9uKfFrsPtdAWu2GX4sO4_g61m3e039uMKo2IhI42VTiquJ9Q_nYGsJN8PhU2vweZ33NEyABadGOKhqAe-HtjnGPHHDPx4Y34BRrgdjpWLXS6YitaMbLSpLPK0i9l8m4ZqQbRQHeOahdvPEHbc95wuAztAu0UM0gFQlHGhTn7y6eApIPHv4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104112183855554343160\">Wayne Lu</a>"] },
+            { photoReference: "AWCwydhLTCi8lwot2CuXDz4m1OrjtMc0uKJ6MVVwEC3cHWS5LcZmHH8V8GGncLG3miAEifkmTC1PAEnpTVAbGCcF8y7icUgj4U0lELu9rMStfkmKNpZByxu7eepbdIqu2LSeKO1z3SC30UbCVjsMrm6ERcqk03jXiU87xL5PhSbBVrMMt4nx85dFePJLake-gs9fUHaJapjTwZGU3pfzqwR3S31Ez_ssWuMluMS5Hlx9yhoRCpe5xR7H0mYS0DdILyy1p0Bqi8u_YXg5Gs7Y9zG4-CIFyZKmtoHnsZTtTJ5kxpWSJlg2Gbl5sGZ-V73umvfAqnnq7OVmuesO08NtxI0a-1fsRxojBem1ehGXzxZ9nCP0xLE-cNobchhDsK2hYyGOcoWxY_xBGnIHaaaTNI0joM6_SBFtyxuy82SMcvn8ln4", width: 2736, height: 3648, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100785584978569087146\">几米林Jimmy</a>"] },
+            { photoReference: "AWCwydiSFtTX6dZvdcMpmDc4B1ugGI1AbULihQEHWP8qshmo333W2ClsPcNoQfrhDgXKA3OQ_I5x4d86qIeRelrRPtQuKRQTMuUly_hhgg_aWInRQ7megKe0sdJSU3TPD7jR46ob7kqvbrbmJXcHvv-p916WBQK62ZpeWrU6aUNvZ4QzGbFoXrWAQAPQNIgAoKvK5VkmL66G4x8cu1GeXxRFhvi0XIEALDO6dPQk9oUOAu96z16TmCyNI6mw8jCU0ZdbxzXsOYdlaPm4rtkkkd4FmrTxK9cYAzZgNeqx-bf_DwJ6p8Esq8g5JS55Ao7NQvGTNlJtsTU3Qs0a-0xxmpon2U06vK3Nw-0w9ByDJjP3R1eGpIO9KelHNi1gDYsDB2DbrlZlV3Z-AxfDEUr49KiCPbALsAczUSZvWcLXbQTKzwA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113903968544091369109\">Hiroshi M</a>"] },
+            { photoReference: "AWCwydjTAo2trCy8izegHwylnuG1vDr9-eaIHvGND0RoUL1jXr28U3ogUromAFlHOnu-Y1e-zLT2jMg9SvUz2zDP7CdhciquBgbByvFVz6G-VX8owWA228t8DSMRFtINg-v8VHhZnBxuxxTJRuoLUYfEB_yCyjdkbjOpDMszJNvDVGRAiZK1_yJ3K3leDnsq6NpVmhNVkNjZFRoFnL5CkIeCzN1J3wvcbAdmgEo4TQw0M4p_skoRfWcaZrsoUoL6lROUC4t-MxoPRkTv7XIaD13zB3JmJnEQozHMy6q0EkNMXe2ziLgaP2DAOupvJHlucusqFK9KJ381Z1UO4tSKn-VUv6OR_jeKii9ceoqLhDxGe1OjDL7EoZQjSvDNsLTFIhaowIwZdxmD23HEeiAB7BCr-SjOoG1ow-y44SLlaR3-ZMc2uw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100177758945901398441\">Christian Halim</a>"] },
+            { photoReference: "AWCwydj5Xdjv0ZLijxVBpI-tq4AmCT60gT9CvNY0uFaibvG07Db21Qury2jZSBgaeRlCxXAMfvnZ-nDjGN8b2d0Q6dzPbopXf7MWYLgasAQIB4kjdzzBXc8fsBu9dL3UcuF3b0piv6nhzmjewSb-Z_jY8CpuUgiwYVnavCVFIdpD67TPXNmUk3SAcNUzsZwVDUdK15k0KP_XNktPtdXG1douO_7l_Q7kEi_4Xcduw7tUtQTGS9Br8REtxfcU2hLOb9R7BUm8KXD9CaFDKonSPyiU7Gu1_8DSvfM6BxztLLPYDBY5uagZKRXAgK_GRjXRpR_ed0SINiOsVFifF_6unq0NvZyPy_rcae9_5Cj1CgOX8cbz-MSwm2VJxI8r2EdmzEzaQmzRsGXyVKMdMwtfcxdxoSIvTrIP8g8cgLKbBoo7uHTxYHI", width: 2688, height: 1520, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112107066449937205300\">Bhimrao Ambedkar</a>"] }
+        ],
+        summary: "위치가 좋고 직원들이 정직하며 신속하게 응대함",
+        updatedAt: "2026-08-16",
+        highlights: ["우수한 위치", "친절하고 정직한 직원"],
+        tips: ["분실물 발생 시 빠른 연락 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "282 Huai Hai Zhong Lu, Huang Pu Qu, Shang Hai Shi, 중국 200021" }],
+        location: { landmark: "282 Huai Hai Zhong Lu, Huang Pu Qu, Shang Hai Shi, 중국 200021", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.discoverasr.com.cn/ascott-the-residence/china/ascott-huai-hai-road-shanghai", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17701069099810650379", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%A0%EC%8A%A4%EC%BD%A7+%ED%99%94%EC%9D%B4%ED%95%98%EC%9D%B4+%EB%A1%9C%EB%93%9C+%EC%83%81%ED%95%98%EC%9D%B4+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "애스콧 헝산 상하이": {
+        photos: [],
+        placeId: "ChIJqTDsqU1lsjURS7rCCPAn6D0",
+        placePhotos: [
+            { photoReference: "AWCwydirZ-AK5GyBpyrff3OGpFS-dxCSS34SW5PLP3uC16fZLpZEwDLm8WA5nURQN621MGrp5xqGzTzW7mbozakTwwha0gr-oY9j933pDcDZSiUxZK03IXc5xnCQKr30qM1vnNf14sPO0ct_3l56JxuqcEjl4BYET126layxix5ghp1Zo7Z4koTM-bIbqb6NYHzrB6Yf3F4ubwGh7FQhZVfOQTV2KRSvzrnUT9bx1yWzAVIXw_9jmLLl32pYlBSWNAi6N6Ig_XeUySKdRFiFdHNmJWpWlEfcfFRhifVikLvPsjzlnA7YAxWbBkdsIz67TdgSB76gCK9veFp5hTsBZWqHTUDGAeuuSOu5BpgspRmM4X6vZfaaZohgBdpbTE4C85Iru-KDFaFAEmjhGRp2E_FcDsy4zhZV-257T4LzpkiIy2SURuLR35lmbT0lAimucWQl", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110890758623745396663\">John kim</a>"] },
+            { photoReference: "AWCwydh1vXJ0padEWU1L_Qov169PUxMz1QFtIHhEJV70lb8ur2dfTB4NsVsAq4Zwp7SZR_tw6lXEyR93GWRrglpQmMB256cIbi7kSQ5QM5ptf9EW9HL8A-2KTc2tYldhr2rRZfe6ZODAkCMmR2rzdPlDqIfvjTihN2vLJwQVIE7cMeBAG5C8yNGydbrG7oqaVBqfAJ9EVibv1ju5xilbOS5HrAsT3kEna4snd6SCINrUPvV5DbRje26igxGzg-RIKdE3meknix7uTa0Z_b6ZeF9Kb39kZd-oR1WFAcVCT4xurVsFGHp82zgy2j6-lrIEo8hG7wGb6Jf1qaHkGBSn2pVPqwmnf-mgpBvg5cbzWcNwIsxXBosPa1JsTq81bkqwO-Wo13oESfTC1nIfRFw05AQLbhGhK4yXoTjZVfbL14-Lu2OitlPO7BJ7_TXgBS6l6Gxz", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113570640676512995650\">HM Song</a>"] },
+            { photoReference: "AWCwydgJGT1RUtVBrrDa6-lbzcV4plUrkmyLGtO4I75qjO4VA1l8B_WRjeFehvtnuFgND9t-DYfNd-hZtKeh_rUdkJVXVDGzDyXztEjPZh4LZuYR9nKYuDJkvdqZLfwvgQq57MYeDP9v8QPFf0hAJ7X65LADH3MoS7KrqslNW3EBstBqWP9vdH8TrMzKThpfao8BaHpQOve8S04Rjq4tHu_uO2PxSpWrcWK-IKn3m1t85ju5UHur6kLz_m2msEz0rl-ROXwEzG5IEQFUGjE4uI5uNX8oj2kQ3Ml48-_MRMwQSi8eh32cUdVylpH9B0auLSqoptX6Q3DoUGk7DdLjJrhnRWxrYye4KrBe8h0h99QbRIW1qEH08F5AerI4QYVmqV5MnTYTIyJZfZzPMjoRAICdBktg5AZjgGvxM6rMVA3jxOxUGehh0oC6TB-EPzKmyPWs", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113570640676512995650\">HM Song</a>"] },
+            { photoReference: "AWCwydjLyr3p_dis8Kwg2L9L1Gqdgyat3sDl32YRAE1HGYaPgZmBRL_IMkOTHQu1dawbgaKHPme0JAKBHcuAbkmLobs2L47lrZeThTNZ6y263Qd2x3H9EWhX1zxq_O9HZog2MIZVf70vqNWveUDSwdXR-I-I0w1gle92D-qcsKehliFAwgcO9vVqFfDxFUI607p64YyHLx4lyMdBeF0aYDmbzOjeNx_LdWD3BP8tuGR5-nKiSUN9zkau-TC1utCbhGN3QuOpDR8p5GmD2mUouu_3wCzFT900ESCAiNxyipJeAzFo0WIXAIjCRVe8gQpqPh3C41wZFawQj71y2liM6hihlMF5d6pKJdPiawyKNs2QyNLAfGS8xH4fQ_xpNTLzxZT1Ph_UbA-fs3vKkZHNyFr_yk7nb-iTineXoppHRHfd32Up8OBITuhMvzE1GjQIAxGM", width: 3638, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113570640676512995650\">HM Song</a>"] },
+            { photoReference: "AWCwydjaG-SDABfcIcMR-ub8YQy3lof3jEzSIKeT9_aV-5s4Ho1UFhrN2RZRgZJAcusUsGGTbtrJpVysmeHlZ9HSUH0cN77Y_2s65P2o0W6Vg-09aOr5U3x9XmXn-PRzZKKE2j1KFIrsqsSjosk26WvsCoX7WQjKIIi3z5OhbKKSdPtqlaUV05ToJZrUN5i2ZRimpAQwH61eMkXh1ogxYnb7Y3Ph3z2XCaqTz4z3To5TsQnVQaxw4qJgwIu7WseldgLt6-t8CBOwOYAxRax2b5uoZ3zfyhWTzppDx8aV1QNbjk0ZT68-hGTpjnV0aZm9YCE5hebytx1iT88akHfvATedC-ssk1BI7-EYSxMF9sm2lCD6XYECuPgELpyaSsGSaOZLw0C2xfWY-6o5dGT09SIQBJk8wB5QT5nQFxjhkFoOgn8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109161260680421757323\">Percy Chiu</a>"] }
+        ],
+        summary: "훌륭한 위치와 브랜드 신뢰도를 갖춘 장기 투숙용 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["시내 중심의 최적화된 위치", "아스코트 브랜드의 신뢰도"],
+        tips: ["장기 투숙 시 서비스 아파트 형태로 적합합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "99 Heng Shan Lu, Xu Hui Qu, Shang Hai Shi, 중국 200031" }],
+        location: { landmark: "99 Heng Shan Lu, Xu Hui Qu, Shang Hai Shi, 중국 200031", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.discoverasr.com.cn/ascott-the-residence/china/ascott-heng-shan-shanghai", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4460859342803089995", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Ascott+Heng+Shan+Shanghai+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "상하이 블루 마운틴 번드 유스 호스텔": {
+        photos: [],
+        placeId: "ChIJ7d43llpwsjURDDKGMvUyd24",
+        placePhotos: [
+            { photoReference: "AWCwydhIEZ6JjU0X4fDPInbY35YBoKJjhAWxmy8Qjbeie0hQ_nCkFZQ0rq9pi1PCHGqIBQb22IsgjfssezNDataPkVvQKXadxkAgY96gdS96408fOKsFcPUEHaH9j5mwe1we1JhdHpAORYsQQqC0QbVghWJ-Up3HZjdPVqzUOQBPWGmQsVRIJBQ6Tm3TUrgZXGgm70R7r5_Yeme_GqoytH-9TXNqqYLtu8x7w6Grb31pO9RJ4eBPLVZUIQlzlOM0yFLJ4_at57ZCaXBG6ktsJv3UQZEpXmYZx2VrlV7esJwg6xUGmy_qBNZd0CwfdLzECvqfhaEnNfoN6PIxGBFl5azjI5jaqbKRMswg-FKfg7aRjNrEAiHampHPuXJXbE4zubYTDWquQ_AOAwDn2SfAc5ALrV6Ef0aFv9eXDPdbsnAWTTeOaZos", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108388616417397725419\">Guillermo Doste</a>"] },
+            { photoReference: "AWCwydiPOv_y8Qhof4wy4cweUwhjx3MPRQAQJ_RkjlwEdKSJEtID9JZkI4a8U0dkjFLfhEwCp5lElTv8SmeYfdzIPmUeDXrMgW2ugO7HS58HtFTdK3Nbq8L5ESVstLmQ479uvkzwfvKaS7IC8JPisNzRI-ErdSHI6QTBfZjK43F-AoxWcVKN9tODYJdF6Lk0AXMyY9SXIIo0zcamWubRGXD-G-Qxy1qQI44rEnmk2OJoBKMqy6YePttuvH-ZXtFpJjjCioe-AAZu2bnZ0SdMYSR26MuXZpRC1niuYLjRudMz50adAoyOWfJbhuAdvKyeAKYkvgnAizDL7s2RX4X_jTfdIdQts4jqtY1WfIegrKLsfDEajIf1BjXxAOcf3y5OIUpQABvp7bVxuSpfjKKeMhblUeqpwOjeTAQlgmpYj_eqK4K4tZw", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116660999574054119495\">不明</a>"] },
+            { photoReference: "AWCwydit3PBFvuSAKwzPuDBnRpW0P9OJPqP4nCql6GMyHblt77i41TCbqvPGsAkSQ_FEkCs5HOgBm5iz-Ytu3vrKEZUgcSz209fEDACXbejlIh7x-9qjjgF6gsJxSwArIPrjQiFuil6PrkYH0HktKWX98KJXGtQbsKO60o19QDRS49V3RdlNCrfs22qfPBU2ydKuWmDcS1kcjoP9QO0k675ARAQQtnS0w2ocoAT4yDkw3-H9Ki_Xeecq4VnVHXXXrQXhEb-VqwPjZuGbonh7Ut0Say4L1vMfCLfGbhXmRtPIUe6GN3Trgu_6Ow26tWEYv8FFEV4b80kBbCszZPL8PqphyqGmX7UyyTicG5VMr2M2FuqHfbc7BJ8eqv376iIPrxXltnAl9mi8DXcwOaxXzFVCCoPoEIV1Y_MlvwDF_r-8uXIgvZQE", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107831196666539254981\">Delphine D</a>"] },
+            { photoReference: "AWCwydjmXTOYpmL1jJqE3O-Gk7WbJoGTOnfFGMiyUQ6Se-zeY6_OcLeW94I3fYekaEcwDAKwVAOAU9-YmVKm37u0kc8u51eXF99LDEKH5HN9i9Ka1LosOK1uG7P_D6Ya2DLFkDgW6CWhCoYi1QgbYB_e9Ouu_gpnpvWKhTsAuYVWy2OmfLppsMo-Y3XR2b5xDcGgRPTiTiLYX2EQjKWezN-XnZljtrklT5SQtI567Cea5ahNtPxPgzhV2xgPEGVEX57Blm_lRi3e8U8unlziRSLTrcid8-9jq4LFl_rIE6fPPUDpHYijM_Y_Pe7_yR3IUfbj3Q--gpOKg1mC2OBD6FnnA2h18NDX4zphfX0gVmrL8qWirbNnIJQbSIUmS50yxjO0zflYRy3-05d-dD4QFVtYeVK102V4bZIvk0Zvgw-AlCCycw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112684477477247630248\">TingCa</a>"] },
+            { photoReference: "AWCwydiXkTJZkl64d8eveqyZdrdqiJNTBfdd8J21X11ztwq-jUCisH_Aw2zjGmQ2atjfp5WBtQ2t9CoE9gGWIBe_ncFs9OTEZeX6PQFcEAZZVcF124w4Kq62Eu8W769a6tOVuocBIKNCuUscF-RkyD_yxvXP-gr76Yu_fP1BKDigLqJ4XF4yqAXpBiss-cq0a0BA7t8L35Vf_MbZy57xtvV24xcBVURrB0UZkz-h2DzFew9m4lYwlP2UhOZOGMJqcF8fNjfhjjeuCJou6mVqT8ucdo_PJLFw9cbVbvr_2odPjeapb18p4mg9ec8dzIgSaWjuuvpzPQkHKtN0HVSNDbAc0bRADfvneTx_ehw0zf8vncwGs6iC3YlrNIWM-X3A5eiMP5oXkfeDnoikeuk7shtcg4bZ3SkrbIaERw9F3hRcxKhN2w", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102527570631361761704\">Ahmed Amin</a>"] }
+        ],
+        summary: "4.2점의 높은 평점을 가진 인기 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "많은 리뷰 수"],
+        tips: ["리뷰를 확인하고 예약하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "350 Shan Xi Nan Lu, Huang Pu Qu, 중국 200001" }],
+        location: { landmark: "350 Shan Xi Nan Lu, Huang Pu Qu, 중국 200001", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7959886895096672780", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%81%ED%95%98%EC%9D%B4+%EB%B8%94%EB%A3%A8+%EB%A7%88%EC%9A%B4%ED%8B%B4+%EB%B2%88%EB%93%9C+%EC%9C%A0%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하이 코지 유스 호스텔 이스트 난징 로드 앤 더 번드": {
+        photos: [],
+        placeId: "ChIJHZkvl1pwsjURnj5bbPMLU4I",
+        placePhotos: [
+            { photoReference: "AWCwydjbGb5u7LfBrgag-V83VHlScalGFdimHk_lo69ICPmbLzibRmqQA1AnM-yJCim7WHi_OBvjDiWoowBGzZ2AAQYHORtjs-DDLI6fbM2qV48to2by-5Y3grDjKwOAqIa6pCfSLWq4oN2_0rNSSr79ZndNVhw9GJ83FuhKN5LCdAANqZB-0DJpfR15iccTk8GD-EkVGEN8Se1dp4FxjA7U6gdc5Wvn00HXvclTAx-vIV56CnqAtexlNqkEcMTn13OALUfe99t-FTldluR6IkUYAQtlKHN6iau4tfb2gZ7YaMXoNLYQ6aYD6IK_7kbfoPozw-iyTmxW9wUxTy13hAF-9WBwZ7iGD_uTikE5yKCi3IaCqD34UnV7nO37YO8fwGDq0tXAcjm_Kd_jHQfnXP3jVPMga05TEzolu5KQqvu1v2pcv2XuHl6WhQiBZm04U5oW", width: 3783, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116832528564066744568\">Daniil Malikov</a>"] },
+            { photoReference: "AWCwydhwFz-IUO5tREDb8Oq1Uz5GSYVPOJqG-nKIXijHSJEyUbe3hBLWCI7archUOS1GQKFTIKUHXuI3ri2msXUV3-eyIEkUFM171gvfUJbpQr42Z5NsciAp4ignNLTCuia3MhSYvFsp9vvcOCH0PG_qMj00SwjaedgGVerR_bu7K5zgDPL2SAR3xZcSNcCeZCfe2GRExCgEEZjyJ6DW5y_qU1TNv3vXEcjC2PD-D8jZi9XiBSPIAw5paF4QRALgcxXpkMofOgZwp6pQ4XStO7bXQhhUt5Hi-lkj9xFhn_WVL-SigaPyKHkZ3lVYD-NasOyE9tV2fg9VxrcF7R1TMfGV9KjhsLwuKifvQeX4bZT1SWAJwoHKbtm8kupklo_MwtwMAc3MZ2OMkNNNb7xvnM_U-XLAkvpuV8rnDzArXBRyVJM1FPupjA5LVzjLbvfjTtKV", width: 4000, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103946540282080860861\">Chan Shiny</a>"] },
+            { photoReference: "AWCwydiGvUdCtuzI6ZRv2vh9c0hwzE5jSdob30DzB48vUBTB8V7yh-HSMhxKVAJgN38rtKUkI-MbN_b1hL_xXmQx09yQGGb4j4naiYloFuDOHV9uHFl7MIHeGjFgM5CWXlnNasGhrdvUGk3_AVwme5N8wc1pamUGG59vzzA1U73qL9a16GGhWHQeFXel9LxgsudCmogPkO3FZb3XGts51IAxhS6rUWfpBWZTLwqAn70vZDrr2DSD7jXDx4aGG9n3hh-EmnBUc96b-lN4f0lIxx1z-r_2Q1GkpTB-U5x-pn22Fg__ox3TTiArZ-ertxrolC2nkdYuqB81k7VB6_tnZ43etH-3i-uxy8vkblo5AsK1J7cLbLW6ov5UT4itWXkGtByq-PX1MtBaN8__oRuUz4cOIx0k5iZSA-GwBQC4-87LdUR-uFqoOFS1kJatyXW1gAWH", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109905094251997638017\">Léontine Bourbon</a>"] },
+            { photoReference: "AWCwydgp028nGvFiem_P9mXFBRYWiYuDRS-hKIqEWpK10s4AXMpyyqGcTBXk8sqijyNDktKiPKAAUVoBcViy_88xMIjZfAx-wvcdlva8XDZkMeam7symup_Np-RM68h7yL7rgBkjcaoUq0eFPPwN6gDPI9eZ9InuGWpdUYFsn3mQhMf7pmFxu44vyvF26n5ZL5H6CUuCYXIgucWnE5uHGkdj8MpIJ5BMemnmQ9SM9IhDy4eJdnYSvpQVGOYpqyEt1n16GuK5bcaoIPNI8pTesT50Hb22e5M-CxTES7ZaOrkC-ubmIAYaGKPqQgQcTh-DRXv-Qza_YaHdt0xeslenJzBL_9XBapGg-jF8cAoEoPCAJTMaM3XIYo7l4ZZsA0ndvW0aOu8imZieLIqPSG3U_2VmXPrRBJ-o6jTB48OM5PuZXS4cdXiqIn67DKmCZLxz_z1X", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112232354275760110263\">zoo</a>"] },
+            { photoReference: "AWCwydiT2pGo6iuQtVx5RhGKI0BqtPcIX9MYlTQ64FRn8sedw00waMHvOMKvDe_bmMIro0IDUNfF1hw2Nw0hmeg4DiUWJNZPYo7HYpWjukgt0QivTV0KwI5vHS2phB3_H7i7lne1HVcJBj-JbNOg1iF_eAPUI812C8UWy9fsTxBGnsaRW3az0YCCfNm0Yf18WoMBIfQQRDdj0Rn8dH5hhZFSc02sPYbjv81ZAWwjS6KJMj2e8AxrohqMEZr7UuufA0xXpDFuewQ6MVHJzXqGpA-B2tRhAN-aYtsww5Ny_yZOVvvQJ6v5-yG2U5l9D5_tPrgWv_d_wZpY1uDdlJpMxhqfDUry_j3czbTJcMJ88FY_xyH5IgNxny7sq3gOj0N53D5952oomVe3vuFCDl7Eh16XxMwV-BSzpdTn9BP8dD6dIrCpfQ8o5ZrQQDVZtuUWQnlB", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115620237864654321807\">Deen Rouven</a>"] }
+        ],
+        summary: "청결한 객실과 더 번드 인근의 우수한 위치",
+        updatedAt: "2026-08-16",
+        highlights: ["아늑한 공용 공간", "친절한 직원", "더 번드 도보 이동 가능"],
+        tips: ["주변에 지하철역과 편의시설이 가까움"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "중국 Shang Hai Shi, Huang Pu Qu, Shan Xi Nan Lu, 350号6层601室 邮政编码: 200001" }],
+        location: { landmark: "중국 Shang Hai Shi, Huang Pu Qu, Shan Xi Nan Lu, 350号6层601室 邮政编码: 200001", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9390862788120493726", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9D%B4+%EC%BD%94%EC%A7%80+%EC%9C%A0%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%9D%B4%EC%8A%A4%ED%8A%B8+%EB%82%9C%EC%A7%95+%EB%A1%9C%EB%93%9C+%EC%95%A4+%EB%8D%94+%EB%B2%88%EB%93%9C+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다인 인터내셔널 유스 호스텔": {
+        photos: [],
+        placeId: "ChIJz5MJ-kNwsjURMFsqIBqrK34",
+        placePhotos: [
+            { photoReference: "AWCwydhYYbC6mwonXs0gXfFmnZ4OthxXCl2fJcnX7CSpA59c1mqGOr0UialTv1v0-jM31LeH3IyHfMPDPmLUcbRQc2TI7oDEuaAGZcqOQtonPxAbEa0n4lmZZFH8x6-fZvGgB7NYWC_kfSiMXhUvyhhdUHaJMDRc16b7nwBx3XLcPA_M6WP3JNx38hX6aUNDNH5F7tMzNI4rLe0RVM8hhn1XZ7TcO0FRSlvmg36lVvnnkYDDvSZw5u6v0zNWojBu3_Ia26z32CwtVLl0EoX9bS1EQ6FV90t-kA58S90C7z9JdMpT--N8o_G-jYfo5gswRZs7kiwnx5bU3MkUs0HaGPByeEu2xD_pyPQgJL7veS-zMPRbiIS_WhP7s-CkU4tK-2j5C7QRFBa_N5Vm5WE6I0YgyMeiK35zGJIZr10QMIhYkGShIURfBc19PzYPq5vWP7zy", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115061827519674254100\">Mihaela Raduica</a>"] },
+            { photoReference: "AWCwydiLs0HfMztAVZKoGxLnxKSbg63_J2APpHg926_WskQj6KND20X2wqF9g84cu_s4PkBaEkE56EN5tkm3AdyvCdjSRPVZS-dwRH1a75AZpgvH8NUe_MX5XJsWvOY06R_b3LBBH5w4_ePneyoJDPo6OHvylyzufj4HAsm5AnQJ9XdSQS3Ia9Xq4Tg6h4BjpaoBqynWYgFAbCM-TU85kDm48O0p_YGgVh2YcoC5rQJhboATAKeq4r6qVscQp5emDtmDQlCH02ojg0oG_Mf46CGEaQzYQceY6_YMWxl3E95ORHeTXx_m6ILz-8R5568_rSMCwCXTD6HVwmiduvHnca_rARmEFNUtqGn-gScO5X3I46XShwwWE94DcmOW7PYY_wkwPJmUS0rYc-hkd3NoFuAM3FBG4xJCYrTtSWZvcH1Pk5dwKFKwLvIEqdQDPWJi0mQ-", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114054502349151146299\">M L</a>"] },
+            { photoReference: "AWCwydg78-nDIB-aRE35jepg-NeumA2GswZOQIw3g-58HMeudVM7bomu-nhNpxtbI9LsutVsLJpXsnvUo_dCB7_4U2EwsjO1JdDhjTj0Kw9tttzoLKD-2xKfVJSvvbN2p8Fy2vS0zxcFK5WWOrtZSGNj5WNdXOSh0Zv5ZJC7kxonN-TAil50JF7h9SCTjhX0ymsd0UFAI3sJ4SPE4eXrueMD8RcNUhhTzlnbhBZPvG4a_tjCHNsgcM5z7CzWAeZfxnswTLncbQq2Q_dHHxuwE8ZUT-aued_VEtJXJavVESAOn0AH4gasqpmXbps13nLcxcXizMDZc4OOYA0apf1pGfR5dj1I9U3HwvjsLx35wcHsFUm7FHT5fjuoGp28dhAJoFnvBaU2a6jyEVW7n0gRKvUQZuWd7Y_HKk_QnmvQxzbvm2kSkQ", width: 2804, height: 3505, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117054312484791429801\">B B</a>"] },
+            { photoReference: "AWCwydgDVNvZUZIy3YS1_39J8dvD7cyFqxyUFGTgo3ICfWYHt_ffYJLtN_D6m4nKsgKTWsBH10AMWt5aPZ9isGT9rzy6-Zi4FdJrR48A5zerBszNNo4h3VQlEKE5uXH51ZtcTmhRqJzLng3rYF2hUJBCmmEZ6XcahmA7vP07qqwIdAWz-8mwWddANPfWwYuSdt6EeeNEPzKA1vg6DqOEUntZ3rtKs8VRcZQPTHdbebw2smhXcoAJkyjQqzFPBbQ89QHz95ay8kYWWnyAllqpbumzrt4lLRnUHEOfmIOHBOL-JIu3DNOM-u05J01Yj5SuhFms_wbNWW9UN3B7UOs5ge8K6GMAaAF2RmSq_hh_zWp9Zj2QnC218gt1DFggbNUThuZVAPhwA-CjtzTJ3qfqD_sC5xY1FgAssxnFCm4K6MGfsRO-bsAt", width: 4800, height: 3194, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117054312484791429801\">B B</a>"] },
+            { photoReference: "AWCwydh_GsaAW9aZp6rJVpsrZmjFvb1xd5WgTgOyMVvjMtZQxksbc7xcsyk7rz_1vaU9K0Cwh-qiVTEqbupB7w4sqULJc9Qd5kWkbKMCtsJbkikL5rDVkAdXVlvNIsd8fyWATH0pLPNwUyTwa_hiMgYMBfbORCVm1VUarrCQDZLU2knaG-8PeLZM7lHl9v2ph65q828HG2cUM7Mtr9Ac4fgP0oBcue3heJU0S4ah5AapeyvWYuTyzN4Fbqo-loqkHFDZr_284Q4ING4xElgAQr-LHgPOpb4CzLCil-vJFG4G3cKwbH__dbfv7cJQ1rGcILJ3HJFslWvyUFNK5msQkA9zEJHychLCGhNhtUcbBFdF0MGvseAV0sNkOPZYI6y9XvHZJbIsgiFh5NR4X5ysaufF_JrYoNqg3gFacIiwVvZ25UxlahGa", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109256111592479995069\">Eddie Kk</a>"] }
+        ],
+        summary: "친절한 직원과 접근성 좋은 위치가 장점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["저렴한 객실 가격", "편리한 위치", "친절한 직원"],
+        tips: ["객실 문제 발생 시 직원에게 도움을 요청하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "중국 Shang Hai Shi, Huang Pu Qu, Lu He Lu, 98号CN Shanghai Area 邮政编码: 200000" }],
+        location: { landmark: "중국 Shang Hai Shi, Huang Pu Qu, Lu He Lu, 98号CN Shanghai Area 邮政编码: 200000", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9091548401474624304", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Dayin+International+Youth+Hostel+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "상하이 록 & 우드 인터내셔털 유스 호스텔": {
+        photos: [],
+        placeId: "ChIJxdXgfGllsjURzE2ANTExEQY",
+        placePhotos: [
+            { photoReference: "AWCwydgdPDKDlSop8NsdrTb9JLv0klCh5f4JI4URTc6ACBsPOeBRyHLjZMpEDma5Cy7WbuwudKtEEydW5U0BjfN-1WkjDAaSUjoVV9aYzCTEx406Uex_QPPTOqIQrq15b_sx7kPouJSsPvsCAfhRY5Y2uGCtrCyrTHD8apqik3WcbwwN9LaS59UfWg6TyqoXI7g9DwpIHU4zceA5nbjgeuR5VLw4JrXTKFqbp2TregJwbbgQ4Pom9RiF9YWnVl-5oa9nHG6sxyzDJJQaKkbEp42bghdYxhKQQtQIp8ryS1fVd1r7rR6B4WoGW_t-vUfVw5YGEzeepbhYVo7NY_0Oh61fuEBdFKiBRjxi0jtGeWSzSGHVwdwgjCA80y-83jKfjUPrcK-OxIgTWtpfcvcV_HgzdVjqweY1zcDMfonWY2MhdSCwOWe9", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112502065099103647308\">Poshu Wu</a>"] },
+            { photoReference: "AWCwydiUJg1shzKcKaLyLnHK12sEG0NCGvRXpeN8qjl0PQQpB04i77ZCyJN3PABcBf5q8ovqemryGcGbHrgA6UXf3AlR1F5JL2cWnZb5AM8raquMFKydsq1EOL2tkI45ZJFHFeAc0iQhBt8XzRbVIbfNROphSZCQ_9C6Y7qeEAo8ZCkRZDhhQr3W771YkxqQfrUDq6cq8PPPhphgDeGoHN22e1IWvj3Vova-Td8UAZAuda_ZJTo1y4l-iJR1Y2hfD7Gn3LVR8XaZ80omnuU5KzpvXLEbzYcGSBPl_Fwmq6EPo5PZHF5RbhoozQcUpGWjDTRNkqzIsQKtzLKfIY7Q7AtewG1kUl7sO1iJMxDm_2GbnDHhtXfIkYEpj8mwGw-LJz0BchXcoSexKtOXb1KhDkccCEXVDuIu9clLxuvmGszTV920Gw", width: 3968, height: 2240, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107159388992327666874\">Mai Supnithi</a>"] },
+            { photoReference: "AWCwydiK-rhK-K9lQfqUD6klMywgRfXHWgYE_Yo3DluJSSsiLg-cISMrDjnuiyLHUAW8Gx03JW5h-AUi_6OQFQHdFM9tPoQE9DGPc0g8NoMxN0_lWLAeACN8IgAoLyhtUmw3SVXwysn12VHwq-Xaio7r2f5XyFb5cuj33GyeRKhDLS1_XNSlw-UwRvMllpMWIpOaTpbyeVu-52gyNnrTnDvNzbW4CifaiO6oGlvccV0zvi9F10686WrCW-Hs0y7gPwsUdSM6BuWLOVtIvEgfizTYKYIucW8eCVnvjOgo6PyUcXpDvZb8z2JHxZb5xfbabN_GuEg1t_ydmtqqZagmOBXBKhsUBighd43qpnUIEa4SwhROHX1g80_n0PcPFMiYP68w1WPVaWfy_zELukCLdVf2GxQu_2MhGrZji2P-xtCKaLYoXw", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116192903893281182037\">Jimeet</a>"] },
+            { photoReference: "AWCwydgz_eiLzvX-cghorQLkFG273hjVDlJHSMC5bccUOn0rISbpfULaOpXkde1NQaLvxWlV-xy4Kveuyor7qjqdPfMjOhprlpR0_i5_1SLUXEhAO57lzCIqI1N4GbPA57ayBc-KGki1th69ngR27J3W1eOHc66rUGYNdJdPa0s0Yu74gWBG-2niSwIKQ9WBNqbEEWWymfJbooSKr5CARHzcRKhz_MwTiaMpXRBJZcAc3Gqvy5cQgwNz1CY5Bb01Vj6_K9GVJAKWw1miCKlUTi1s6dZ-VP38ixj1AT3kAKFCHxvwrwrz13v0NCt8QAGoKktNL5jWxpkW2aaP5u2xBfSKnN7bMJikW08zj49BOUQK2uvai9Gbccd8NGqrbwfngdcCbrRCTkq2TH_L_-EPFVXPnzWK4dRxD43Qe2MdrbaGBdOLUknd", width: 1265, height: 949, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113244550522741156546\">Stan Huang</a>"] },
+            { photoReference: "AWCwydg1cmJ__orRtsg9wWbU0LnzS43iIGesSLZDfsO1umysTWKFxjzp4dFkDk60Fc_f2EHx40icdlJfczRzd6SFgUTjj4kob7qhUq8CM9iNX3JDeDo0Ujt_o5ysBsURnS1z-I3u1Dvah9VZFs4F_X0s9BfwAgeJu1J3S6N9FJ1JiIEtrs0MFRpiXjsjBqXEzwFYFA-J4SAlSIOZE4RIKgbPAjtQqPLeYNaIIZCEiKGNIM4QGcKl_VewfVPnW96lEb8mumWpU46x500GnA4E0P3Q1byoXD-br9jXMAJ7OsHz-At1V1Dn2gyMPWLbd6JwKeA_5nYnZkGPN_gFmP1H2-3u7oW4ZBkd7fxFek5-p8hVMN45SzuLYQoId2J2fvCHU9kPc2rbRCJFxosCV-CIGJ4KW3ZX9IEoGczPbyl7FIWixQDVq9br", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110040172793495320262\">kairi cloud</a>"] }
+        ],
+        summary: "4.3점의 높은 평점을 가진 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "긍정적인 리뷰"],
+        tips: ["리뷰를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No.278, Lane.615, Zhaohua Road, 200050 Shanghai, 长宁区 중국 200050" }],
+        location: { landmark: "No.278, Lane.615, Zhaohua Road, 200050 Shanghai, 长宁区 중국 200050", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.rockwood.hostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=437184726252408268", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%81%ED%95%98%EC%9D%B4+%EB%A1%9D+%26+%EC%9A%B0%EB%93%9C+%EC%9D%B8%ED%84%B0%EB%82%B4%EC%85%94%ED%84%B8+%EC%9C%A0%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "상하이 소호 인터내셔널 유스 호스텔": {
+        photos: [],
+        placeId: "ChIJ130rpDtwsjUR4NjxiIouGs0",
+        placePhotos: [
+            { photoReference: "AWCwydhvMyCqeS7OhFwVOOzEJzVSc2rNFFp1jBxedcAeleQznZxaQ_8LVQcjL4qQPLikxxubUdoWh2YcepV4r2M8wI5xqI-SC4pXjf9SbOb2aiRExeaORa6zAV9SVHTDjisiO0Hsg3a45X5-FR2JMdp-Um1M0kwdI8PSPzYruAN-7trG-L4_Ij1nlW7S9CbmeB9z_nITv_-soiaZ7oAkXPRKTZTE4_3Qk4S9rZvU9tkmabLlT6hmEycaylimhmh2ih2fZIjJE1uA2grTUr0xJRCAf1yVoEB2EoFuxh58DGO76mz0WZgQwqUE014DbaSumv-Q38ED9Px2cz48IsdAjGgt69XO6C6BffrLEp5KEvoQeYyjS8Yb2GPAIiRvUdOKGcIN1WduiWpkCCO1HuIakZgTA9bKr_uYBjl3Cp0dF6o6iylcYV-XMDWkDa3FJH_aXA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115237866258913060723\">Alessandro Sanvito</a>"] },
+            { photoReference: "AWCwydjvr4-9kn5bevNdv8tAVx7IbezLlZuUwPP9WXPsOH7OouqCT1uuJIe-fPB4t9T5xNvzNhjkk_waTxfy6N-h_n0voXRJOp-DxulUR4ByKxtbNW5TlcOu7LBgrUOfvhNtaRTZmWV0zfwPrdeMaBV8Zkq2bS9BYoTNGM0OccGuYOpzzM6R2POxxkWYdPO70-g_YYVKhU4_VsUR9hhx7LtLUrp6xw__EOyDHI_04h23FK6m3ehMzpGvatH0NKs4G9JuQZ2qfXDzG_6yNhBBw2cSqpDjHfHiEq3DT-mEI6YR7lDjSswOkPy8Kx0WyFEm80ezj5VoW94nh0zO4Dtj9GQlZzGo3MJHFzg1P_SR_L3qhh8vrSu9MU8H6J_ixH9RXFcZMCytJQ6H4dn3mqwDiGmCLXyvuGWuGWbLi64qnttBXVuWE-_PzFBdqoZZgCSLbQNa", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115237866258913060723\">Alessandro Sanvito</a>"] },
+            { photoReference: "AWCwydjVKgxYlmgLsvewvvHcNO8w4D6UVDN7LqlFBmyy36YmLguiPkdS7f2ZCBUXRYCQhvWOx4m8nktn4WTn0s4jOftWmu023K_3rXvi7oLA_QqSvput8nkjftikIZ994VAkmX19whvpuKBw0VrGY3ZntpFWmYmtxCfsCle_kgyQA-bj08ekII1XWp2h7cnNYxijSgsetBr0GiNzLvKF2uTifjV0NunY2P4RV2KsOD788pyGvWMZ0KfynHrwM5Rzl2Ok5l5B7Up_84I2jyoCMoHBpRu0UCTxEcfOG-Q6lkFVyr42PNbZIzdejST3IGs0C5nNZ2rUo2fOBeurh62Yu-_cuBNmtSmLDBH_wEWKpepm2Tz8gaf4DZBbqVLzybVHX_WGxKH242uqFCtDjnNS7ycNg2EK6NNB7UtidqSybs7G-i0", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111199640032837061778\">Joaquín Archivaldo Guzmán Loera</a>"] },
+            { photoReference: "AWCwydgv0AYzotW2jFbeJeGU400ww0y9eCwYPACV1IYhjIeN7ck7USpPi84yYdjZqUZ6iS4hafgipN-HSiR1Waiu7aAn7orJpkgLkHP8vMRcdviAW_4WLwg7_TRaa4Bfkx13KbZkGoAqpI1WTDLj6TxFH9BitDNkdG5vgImtFf1kpLlz14nBWP2w7TlKgM_uCJjkwsEyYqNZyVv92Vrg0ThbRw03XDYeFsG_qpxfdOzyC1UPsT7sVh3dGqgU3w4hyuuF5cleWVMsruG5owtW6dUFmRVm6Ys076jVm67lna21U17afifrQYBumeBrZD2a5cXMmsAc06xFNaRMVvq33ybgPaUziyfKzNYNn1nPicz3Q9wVZ1mfoiSUE7VLwwzGnA7w4Cn6n5p06N0THjyKJvrt64qa7GV5Q02OOQ4IPqCD-8hHKu7m", width: 1600, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113650315917136968781\">Davi Tsa</a>"] },
+            { photoReference: "AWCwydgdWnO5itCT_mxInpbqkLBqpGqgKvRZrPTCskXk5koh6UkLXD1qC-PptzMADXdIj-VCzEqUwBdvHJw1Kqd3CPAj3YdQzMi4zaXz6xvneE19ImkFjq76i12r3KEpdNWnmPlW7n_5LIVYn0oVN8nUpkp5PBsCrq0dyNhXqRPRWh0AcoMuFU3COPKw8kou6qw5B9nMTPYoioMJ87t6W-JqWv3vEND4wliHXyrl0fZ6SNyH8kBDUYkVcwLAXL48Cu17QquzUr0Up9DZ1W7PK-j2R1AGz3De9xm8cNS0TPB31iDawtDPO8j_q6JuvFcMDi5-WmRJY04Ql37NHMdpP-hsZfQoBJafPx4OcEZWhQUpir9Mywxm41kYP30S5rQJhWekaFj32D2wT1_rfNCSf7ezOnqH0xgFaYjMPXfsnCc56OzQ4g", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117116184734304189420\">Kumo</a>"] }
+        ],
+        summary: "주요 검색어에 자주 등장하는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "검색 빈도 높음"],
+        tips: ["맛있는 음식을 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1307 Nan Su Zhou Lu, Huang Pu Qu, 중국 200071" }],
+        location: { landmark: "1307 Nan Su Zhou Lu, Huang Pu Qu, 중국 200071", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14779176299707619552", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Shanghai+SOHO+International+Youth+Hostel+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그린 코트 레지던스 진차오 다이아몬드 상하이": {
+        photos: [],
+        placeId: "ChIJeZIZIF52sjUR3D36YL__3i4",
+        placePhotos: [
+            { photoReference: "AWCwydhjNBAR22IZOuKGxo1w4UTfzxOLUzwjkDeDhybvjy8Ov4pGodttTevrcCqs7WrxUiDpsAI93ed1RMF7MraN7Im1XI1tEOdFcrSN_O6rDlFpfjrLgj0opqRezEGlvF2O_01JkZ_utceuYPClkAqQ9Sr80XmtjnrvTy1NQifOMk7PeIoepCe2kO3v8R-wEzsdUZsYnw54MwvYaQUrYpcUst8zZw0QRqvQBfAy7H5_vwN8pttmVC6juKPqTjc8wPcFLLljMpzKV5V974nvIpiAeKq7_bp7S6mkzYqBNzFs7QQ8H1sFcF8wgdZuYab12vYowaUmQvqTBGyYEwA8Nz6phQ_5NURVyTX8OkulqzhYcS36d9rHdWA-C5FLXwDKsddI6_MPXL9U6fu3dQYlhVwTfqrYN1O-rJBWxgcglfEAepBFOA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117993694951634097504\">TZ Cheng</a>"] },
+            { photoReference: "AWCwydgrWbxlie44Wi876N_aH6b5ZMYSWOaCxTKBGB-cVIGz_l54AqLrouDA_7GU56IeAlRCjHvcymf1ppCLDbZhwE_BvK8euCLLPT9RmIZd5jxunesjpUuOKJxAXDdmRmav2l1v6-pKpUmMgl9OT_0qEMxukqYGZI7H4ld6QNmzDCwX0YzBIy0yCO64_TuyDfA_sWhF3pwds1ETpo3Ukm4GE_98RXXOI_On6D04o2SdVUAdfgoecoYE9fj3tRhMkEPE_9P2o6dMKs1smP0D-gt9uJrGxORoorwGNmLS40J0tP1JVYNdmjtxe-83SDGzxQMj6nOjHY_IO6bD8zXEXk5ttNKDrFkM-7oREPdWkUow0vEZ4fbXSK24kHYpHnJxJ_X633YaeAnUHuriF1LOvmUwxPJHTEnotKS-J27SKIkgO7gnCv8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109849091761689170836\">WILBECK CO</a>"] },
+            { photoReference: "AWCwydgS00g8lm4HWigficPfam_WgHcr3gm3PqD57KxGOIpSw7bH3BQmI75oL0cmT15nKygGtXap3C_a3z50sk-CpULk_1xqk1t9cvGYtnRf_o8QTAEpg2GwXgWKRqImx8O_uZ02h5bmOlTY7F-c_qZzeeXVUY58dbxf-Nsgdkr_-OWli4z56jQw2PfZMouLzobu0Yop1b7cYI50X8IwSgVy_z58IDGDCD7SS6CYJDAFJkq5UO4JETIAZTip3jfDP3jmTWm8oLYI7o_pv8YLe05bW606UEpK3qbIQMMdu6ozNXYoUPnVxGQ3jxWKDMlD54dUq7Q9x97TeRrf6p8yXMqv0txpLPeM1SX2wCETlwqiI8ikPi7TU-dRTtIpYro_xd8zW1VXBIXICaFA7gffsnu1PcOMTW6-nFCkoDWuIR0rg9eRvQ", width: 1440, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117846112809978250555\">Rolly Maiquez</a>"] },
+            { photoReference: "AWCwydhysEF9wPmWzQiOk5cqZtQiSIH1QgKP6mSGuevXP2jaf5apXBvq7_gbxWUA6JOVE4Ux2qa9drFcLvEOEHD8yeg-F6qonS6D0sFAaBJ7ZfztsirMRNOQdpLCiW1roUvZVcsCAkKkjTPdWa-lXxpCAtH9DnVBUpDcXaYCyP0whdyTX3B1bm5F-c9lL-n_Gs9i4D7rs1pr0m6DbWhXofocOj0ZHZo7F5la9LYjBZpWmgiEhJqqHmhgnYbzdRggcw18BXjcOblYBAb183kLmvOfD0arpfSqqCyvxocOUw1aoficmh6WXQzquTTexUA1FTTGS3-Lv19jnJZSMwGL6Lpwn1t1myPTD3sifTnOnOKOLWcUp1Yz_yPMKiHF8JiKsWKh-utf-YpbuubZzrf3tmeMaGr0JEbjYNYDwo-YWWpZ9QNrzQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112414945394966590513\">박희규</a>"] },
+            { photoReference: "AWCwydh-osphv040QY0KQWDF_UhaNLJfaNb2y8lW5L26zMKgx3y5nNc5cWFqYMu5f0OK6OR7zWx-yAxeC3gRQDoHdE2IMRHXvVv-AQHueC_nris_OO3VOuKt-TT10hzYd7HzKoTcFRXg3N_g7MHda11Q45vtKKmanvBB7LtaLaKArK3E8zx-TJbDVx2w1igVFZd7Cy8PmxAyXJ0eFTDOYkGPLLajk4ujVtAgTZ7ykZHp_MEW8ZZsPkrvA5W07IoTrjoP9GMQo541zjFNpkpLvUcIfDRj_GFBOVsPUXDRuCPFuNiIM6RPYfPx1u7ZlVH4CraDiX00xFBJ7pJzv3Br1stTUUjcYwVJQNbsP3sWxzphR9-DVm_7R4RrqEMlApVE12Iui6jDpZQvDuidB7CvsK6nh9vFgVE8g1JzGCEodauvuic", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109849091761689170836\">WILBECK CO</a>"] }
+        ],
+        summary: "사용자 평점이 높은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["훌륭한 시설", "높은 평점"],
+        tips: ["리뷰를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "65 Huang Yang Lu, Pu Dong Xin Qu, Shang Hai Shi, 중국 201203" }],
+        location: { landmark: "65 Huang Yang Lu, Pu Dong Xin Qu, Shang Hai Shi, 중국 201203", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://greencityinternational.greencourtapartment.com/big5/contact_us/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3377417968005299676", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%B0+%EC%BD%94%ED%8A%B8+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EC%A7%84%EC%B0%A8%EC%98%A4+%EB%8B%A4%EC%9D%B4%EC%95%84%EB%AA%AC%EB%93%9C+%EC%83%81%ED%95%98%EC%9D%B4+%EC%83%81%ED%95%98%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

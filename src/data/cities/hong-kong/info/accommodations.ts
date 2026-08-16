@@ -496,6 +496,405 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EB%A5%B4%EC%85%8B+%EB%AA%BD%EC%BD%95+%ED%99%8D%EC%BD%A9+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "씨뷰 홀리데이 리조트": {
+        photos: [],
+        placeId: "ChIJ30EepH_9AzQRMorC_zaOAGY",
+        placePhotos: [
+            { photoReference: "AWCwydhSakdMmBadd_xSh8TJpVwDy87BZS4cdJYx37oBj7usa-5bCt_jAaL4Ks00hl7SxROn1L9BUKAmbY1qtnMkw9zcX9C6mB5inPKQw5gHdoJpzWfQzK7LEFPIEOlCcwLd-_-EJ67yBV5hE28n-zDS_HLgNz1nfn3wuV6vqRqDCAfmLmQpBpSh_OzPXK7_UDUsEazKKLzm2R6htPP5K_QQpBehMeqwqKthZ-nNg6MapVm9szYzmNuBsOMhDr72oaEN1YxiPoOmzcKGEvDDyy2pkU5QhEHb0e7iCp9fErXa8H7KqrCJMWTguf8K-Qlc6wvzvwHTMqA4VV6yNWIigv-4KS8l5KAG69huhsfDDdoiiL1OCXI415g4C7z6zBEQlbOeeSRj6YcA7PUXv1ouN9jw_NmA2bqjU_Iaa1t2ojDXCEAqz_2qgJmZqN9gsAIt0wp9", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114016445568919017610\">妤妤</a>"] },
+            { photoReference: "AWCwydgOZr_zNvQeZ6e71MX1i1zVHhdTSvRNZwk30AsGBlvP3OPuWY1CjfrZd4uNyY2OHZtRL33UwmeUeqcS6ZK1EyYCcw1YA7E5p_cbZh0YwSYki4LdTqnPwlQ8_wXc1e_xhooZq7DGHT0aAtC4BBm6Db6WDu_XIswSXXd2Xs0hVB_d6kuD-me374zpFFVKNO1bMdTEcf7xaOd4b_3pPktzCZVse7KARpWI1e-wngs7Avm3fgpAUI6BMg-NZr1Hn5aF3usfY1cRgymz8v08zta9U6UXn6ezIU9OvSz-DlIcBLeU2hObB3nG5AakbuXY8uCOHcJK1SNdRupqH5xalsAID7Gm1DyAH-EUn0o1AjVQviHTBG0e_kW78azsBtpFLA3A9cETcoNXiaV9VW1vr2ZU4sKX9lQpo6Lqvb0ENrxAShBCWDo", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100282422140110570223\">Corina LabelPlus</a>"] },
+            { photoReference: "AWCwydh8Ol5M3fRQEms98WEAkFTZZ0EyMthXd8JSJSXxzvJL3SstKdlWK4BOpEmu4GVBoTCDyy8nnBVaFMvO8EhKdj-aVNwrzkmMOVQ_Uabs-pNgUp7W9BQokFKiwwn2g3VcK3B9ariRlO9QY5rskaVEblOWp9X-ATewqT_iJjM9BofwPK8VCUvbXNTvx0kEHX2I5Xyn1NaJo_WG5hOFk6yu53NaOVm4h5D0dDBDynPgMr-GwKhgKGri66KzJUIQLcbOKmRbyGdgWUvu1ae6YPlSRB-dC3TjgP1cRTWdCrogPtlMVM32BmyELeDFdS_eBb9FJaLqmkDAtQL-IzhNKaUmQxISI37WhC8AEyewGTxFxcyiZLlSyv_uuOQPS0yECs_rVS_9vKKUm27chdqH8rqJSspa2zTBiCMIKZeKRaXId-0", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112391884281700017058\">Tung Cheung</a>"] },
+            { photoReference: "AWCwydjSB6PPvNa3AYJEd2Oy42dQuP8qzGxbauRd4ceYL4eSYOGqHpIkSdE-OA_carK2QFP9cwNq8ps52MYs1sJtrwcmQpNtb8L8cIokUO0ALF8Ua9npWgY0FNL3hN_IICcqE9mh2IZGKGhAG8DqGQO3FGLNmnHQe1PhGPfvxtTBDejqXr_N7cB-Ntl98WI_Eclcrqgo2Mi7RM3WG0OgIvfEjK0nFORUEWGDTdRdMvKyMZfYtxMr6_AoHZ6sVIttNsnVRhM94rNNxwSSQqr6bCO3DiLblDDciH6NspfbIrfLlBQHJX8yf6zm5ym_hfp_OleEDO1VCFk9HiEznDs6KqcKIVrMzdJM8hYOUT4IGAmNpyjFV9BrU4qe4uHIH7jvsSHHtP76ZXMh-LgpQ2wwocLDsZvWmq-ES-AHtZaIff4iXF0LZCZX", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103175900035196999498\">Alex Ho</a>"] },
+            { photoReference: "AWCwydh8vVwFXpZMMWTnWaJtDAauozPNopwmu05-6TJZ5KNIdeHfSsC5FOht97csKERTIdhymBCfI4FNc0QwKfqUA_5fqwKOcRrjhUDEP8OYvFjGpKv2ZAQ5k6nKIw8qpOeemJQc5H7Y47bYSOHau9rETa-i3wFz29Qeo0eHp93t9lLv5csPN1rY8RIHGmVl_uUJ8arDJ6Sf_GZtsN8jAr892JFP4IkVUaOBqTJ8qO6XhcsLbDAEYpgL31u7pHL7CDttpvlkdBFPuZicL6hDGYMvS7FhJ-R5wIXMJqLKM6J2ULaNSEunjdVO_TzDvSP1yX-wl6XWwgFHiJCHcoq6B0gJecmuZeUZePGuJVW8a3LfGFaxclz83PSltXEfqIkFT-vPWhzpY-iKTOoqGZiKhl59oB4rmtgpd4MPm6o6EThM06HaVC4", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104727296179799134994\">iam Raza</a>"] }
+        ],
+        summary: "친절한 서비스와 편리한 시설을 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["깨끗한 객실", "좋은 수압의 샤워기", "무료 간식 제공"],
+        tips: ["보증금은 현금이나 카드로 500홍콩달러가 필요합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "11 Tung Wan Tau Road Mui Wo, Lantau Island, 홍콩" }],
+        location: { landmark: "11 Tung Wan Tau Road Mui Wo, Lantau Island, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.seaviewholidayresort.hk/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7350030958738967090", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%94%A8%EB%B7%B0+%ED%99%80%EB%A6%AC%EB%8D%B0%EC%9D%B4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오베르주 디스커버리 베이 홍콩": {
+        photos: [],
+        placeId: "ChIJCfYBALP9AzQRd6JFZ7kZs_k",
+        placePhotos: [
+            { photoReference: "AWCwydio39qhY9neSgLxrD5QRGqTMzWE4FAj6eJLyxZXJ07M9eZQK4yuVWzcXZdigv3fisOF996VYv72_Bp7h9iKA_PJRPWEiUwnQ0Q7NqnQFCIDqANJaG674pcT5aTfSMCTR9ofqIYTNo-teowMnNf56_ROfFH4Ukl4QkaMIT3c-CpZZdvnlgghR6IEAL6PUR8KAyrfWHRHaf6YsSP-YbygvJjJj8MpPxfRAqTP93qgI75p5Kp6bpIttGNr0M3mkPirQiutcuvy2Ab1uxYXFB0mNjfzitej4Qs3cMrzxwQOSvp5X7QBZdaM7FOINaT9u1ehU2CP5GVNr0Vk_RrQAfNeOHe-iXhhpNhZSvABMfKvkfgcbHvYHT1n1oWCx_fudHWsyJHiGiYW5CpT01Cc357C6vzoyWZtTohGZunkAeXCmj6mXh8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106793003969467660758\">Seafood</a>"] },
+            { photoReference: "AWCwydjqg0vWVJfnpGKZ177N62zzDilmAct8duHJchcS4uGT78RnOH7ib6OY5R17zO9l5dBI0X7c1FaXkM2gHnqaF2nkaRDFIK8OdlagGFRpUWFShmKxOOfHO-UwAVCpHu8CG308EaWOAS0SWmEUNKukYT9wZxTL9he0VM9F1iiRWTPtO0InpVE2V0Pd36oYYStq0nhxO6CzZCSIYrbz6wThIvDyqLrnP2_gyzUqH1DuslEIIjRMAG4C_ANZfdJmFr-YY2Ya27eF8nDImwHGorPu4XuNsiG127VrJgyAA8kVY3vJrNlGGMtPqEl0jCDuO6sxH_eALDoWrz1wZZayIGlVTqbfO49x8WNnFbqhCh44F0iJ3UzbrEBZ6my8aLoc5u2H_kgooJWlURTVqjpr0EC_TUzijaJ8iCbMHUMfeynW_GV18w", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113855742657947779102\">K K</a>"] },
+            { photoReference: "AWCwydhkifFcct4qAUYgj2OisIr2XyeKo7PDrNXYthBFBWpuQ9SlrUBEU-f9oGpr0H38en_IKXigQ67MSoFLJRGapHetjMzi7GA7lJGcjZErwBdVHREQZoYSo0w40Skv-GE4cxdL9loGNlMbLeuY-q_uYQ7KHVyPepr8m6Q1L6I9jD4f7d8cRwtpy7TKEvFfxsJHnTzVrBpv0Yocb3vFJd70DArxYlczCSLFkGyDj-jLRpN_ZtU4PWjbgEyk92ObwOBJRXFLPPNhJLcR9zldnGk6FiC6Qm1yb4LMOr_2MVst4PRb7Ox1ulJc1KCSF1EHA8LvMzMNHKHVdlj61JFOW7GAtrkfxxNf37DWqvBRpsZkEukZkiNSVCWeZXW6tF1i5hKGAXreE4E3_GMW1ziNz-Chphj0NLncxOr4CoOIovDuwUjuCRg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113367506715049746377\">Paul mok</a>"] },
+            { photoReference: "AWCwydi9xziws2qJ5H6MXyXmFMeVNh6aQp1Whw0T_aykTFigBx-hV69UtDhnthbmm3UQo3DyvzzXGx6_mB-US-tAjX6hNwbqo-2qn9_NBd84-w4-ZrfRLq4y2pRgrzqvYnwpG8Yy-ZNcxhleIMPP5OeWubJlFziLLIqpUjys72ryL92DLUngoVXQvaIINLv-20hRgcs0CMm0a_7aF2N5QUTDDuF9WyT3Ii9Do_11DIp14nmo8Eg_Xn10QScznk4GwcGC-YgL1-af7hZGOs2oAXmjW5CMimQjPHUYwWX-Lu68RgyaE59jk6fYgCGaYdFg-4xtdfVD-Ow65XmrLlHSc339juNRTR6CbNI4lbgyuhCQHmysDIcILZow0bote2w9P4-TuyHNn0x-hAgHyI0hGSEP8Qe5rKq2t30XcOY08tOUgU9Ujg", width: 4608, height: 2128, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112043794700153658486\">Maurice Tsang</a>"] },
+            { photoReference: "AWCwydgfOZJAjSQOcRHaGDieAzvFjtlhPdYSPZe4RoJ5EcbWx81gjrdyL6eS6K_FWvywAFD0pPsyfdyTMEcdQkdUy7E_PnVkjwzgPni5Ov4C3gHEdD-M16OaCBWfA1fEQikEieLte6LT9PhItfZO8wFcQ7h11c7fXbK9HLRx4cgw8yNLZhCF54eV8w4EHsjnn22RF3BbeaI_8wjlYlt2PE_T_OHLdbdQZTczw9Eyn4i81XX4SpGE_wyQb0CanZA8YAW8d-uGoJQZQ6JCyIlxVadhFj-hrMrZ3242naxwvZkw_zd26XU_cqYHALVBh9e5BITXJsUExSx5HCWMC5UVChjSrEW-qj94vDHQB-N42aHTRH2c5miTVbeACHp9CIOi_uii-XYf3hWzD_jyBYVhxOFj2_fpYRVKxJaxCHwRxKQuFWNhoIFe2IS7xhFLV_ZGb_pV", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116412268042919395403\">Lai Samuel</a>"] }
+        ],
+        summary: "업그레이드된 객실이 매력적인 리조트",
+        updatedAt: "2026-08-16",
+        highlights: ["환상적인 객실", "가족 친화적 서비스"],
+        tips: ["객실 업그레이드를 문의해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Lantau Island, 88 Siena Ave, Discovery Bay, 홍콩" }],
+        location: { landmark: "Lantau Island, 88 Siena Ave, Discovery Bay, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.aubergediscoverybay.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17992753220367524471", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%B2%A0%EB%A5%B4%EC%A3%BC+%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC+%EB%B2%A0%EC%9D%B4+%ED%99%8D%EC%BD%A9+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "실버마인 비치 리조트": {
+        photos: [],
+        placeId: "ChIJs44EndVXATQRh2RZ3Th-CA4",
+        placePhotos: [
+            { photoReference: "AWCwydg8vSkER5ipOp7bigGpxVQfKWXR_2-GRvzqXdRcChpDkLohyjoMIUWgKIQErXk2dNCNmf5cs9Pr5GIEaGvHnddTbnrYdNSAKlZ-lU5LonKGqAEH4IcxCsn7Vfy0vzJZpHBHOCY6D_QgrThseHdGEtH7chipUi5x3No2dObOSn5pR-lVOs96QpifL8NeQ7U05xioX5N2Kt5sJeh3NpYIDgOgWK-Sosv5DzYtsT7T6IH17gPyWiLAQm0nKQVxmVAWF44wkAcHJmzrYjzGjAcCPmD1Zh3TlOMQ6YeMGpkRxLP4c_1jIOR3inlvvn_V8ACbfRHq8t2CVi2zXI2-fjkRaWQ5MxdOz8Ul6fijej-leNMLc8oVDjzyr_RZ0jYjyLHMz9a2ND0J95NMKm2YRxX5R-EOMKl54O2guGWwuTwkOcgjn7WG", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118434354591297372681\">Silvermine Beach Resort</a>"] },
+            { photoReference: "AWCwydiGdcBGMmTfj6lsUwWApSxHUHjFRUxDF6n5GdBLvDFcV662GA-AOd-3b9-rSjYyb6rFTqC8es7NsrXtZo-ZC-A73ObzZcvOvT1i4XKLwHv4QrEJ1azMrCUDsasVhnZzv1xU4LkqHpfEa95jshIbtUCZlMbq5Ec7tNWKLYsg7BBeLdWzmgfuRGK8U_sccMNqWFrUaAp6cRbNPEjZCH_qWQz2oJWTE6aOTqjua3zX4LaIuR8rDP1AcmYAprjVp010ldPgIz0mOwjr0PjSoPS0DtRsPyVgu6d8j7ZL0_fIX8vlUgei9TQCxhV2A1y1pIwvu3btue6jXOECImwXhz_bcrllPLmApzyl7PxWGO1Q48tPpYFmUNzXLXJ-sGf4NRMfdk1e4lvI90kt2561P3um9SxXivTJvSEvEBIbFsrIlZI9Dg", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118434354591297372681\">Silvermine Beach Resort</a>"] },
+            { photoReference: "AWCwydi1SaXzmEWCDQFW6pEJ4C78XiXcFQW4adQCDFDUWOLHkWe7PLuQgynY4ckT3PBcpS2x3fOSz_MH4DnDCOIYUmlv4S0CJUjxg6a7gKm3W3q5Kwym1hr3LeMbsoUZqfaQpO4-6Ms8mGm6v3pmuEqRBIMfCSbg1E6vEFvM61eQ1kiUbDhBmnt4pGXJzX78sbvIm7hcaYx9ftpjuQ56Q_85-rvVv8xX0W3vo5fGayBVl_28S_Pt3JK08K6sPvA6gdJFEnhwuAxI2jEkZBBb_kiGASy7s_yYh46WlIrEBAOMjLtlCPIVDPfaWLBM1-VlK08Fr6koDhB8KMWWVZhKiTLNolH-I7T6cdE65A2bedTHKe4ET_F7onYcnXVdzFZQxuXiqp2-H8rMA8nmc5dL0S6NN__nKazDvnTIJH2TTO3aNgWIPRbly_mViuT8Cv28D2_X", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102699905697734421774\">Jenna McAlister</a>"] },
+            { photoReference: "AWCwydgbK-fcxY3FADEUy0FOhOzgzFqAANNuSxrfhnjh3DjU6lOA7ZJihTV4IVSbXUE0PBrLLWTa-PZxqpsMNC2TJDkjbMxauhmENsi3Yr3WLTPpLf491LTeunpiVvSrA1YGMx2-jvB_5-gMl6Tf1s0Mo_D5Jx4koLKSHtZle7JFJF63TTJacCJDeI4Tsqcfolc63dfsCS5GlGJE-hEtOrvd2cblEEbjYFH4qtJClGSpYOy1BrVr0NTdr0ruvCG6Fn4QLOym8J2HGCoADa68wHn5cPMu6lHB4QDgoLS1Sq6WqUUejrovHLgv41x_atRSMQH53vI3ozdXlFTU335izf4TPln2YWPM4ys4qUrBpzC1-XTb1R_kzf_8T6fIaEBW15jJ77SqfhGrMjAyWAZCEoe7IAurX6IEBJHw9y0UHZgx-mtspg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118434354591297372681\">Silvermine Beach Resort</a>"] },
+            { photoReference: "AWCwydiCbC4WuwnZB4e44Hv3fdoiR29XNPLTDuPrrFdSEsA3PBMpdvhYwqTWggujrllvfsjcH7ToS1b4xNhcT3ZAyXhZe3vSfD-940k0JXFcbvzo8qlqjYBH7EyKI0Bb7BoA7dN0Elewwx-3utN8tyBZ75rG-AK3e7ZXvXGR2CLjWzNybK-FCQmGb3KW1n0dXtqNESnBcah0sBz1lQLYK1Cs8GDwW_Q-OT0TkraRS25QXhCMT_Zo3pP27Rg9LMX1hEvqcKLHVCnRfWghPdojVRhfwO7S6xjKY337nNK07J4DdZMQGtnkWHMFteCb8mQolEuRZSDQQe1463gD6E_CyQCkTOSEmuXpgOOswclSNWsUYMOp3ZDo07Td0QjwtX0i9X2lAFt_6YZuun4ygBtbkvnQZ-kopSHZeypqIrooBVh5dMTPMwceiS5TKUJUbtIgoCqy", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104335009251394099134\">Eric Tsun</a>"] }
+        ],
+        summary: "저렴한 가격과 수영장이 특징인 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["가성비 좋은 가격", "수영장 시설 보유"],
+        tips: ["해변보다는 수영장 이용을 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "D.D.2 Lot 648, Silvermine Bay, Mui Wo, Lantau Island, Hong Kong, Mui Wo Lantau Island, 홍콩" }],
+        location: { landmark: "D.D.2 Lot 648, Silvermine Bay, Mui Wo, Lantau Island, Hong Kong, Mui Wo Lantau Island, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.silvermineresort.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1011196899041567879", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Silvermine+Beach+Resort+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "노아의 방주 호텔 앤 리조트": {
+        photos: [],
+        placeId: "ChIJH-zDTE35AzQR_EdXO9wXeRw",
+        placePhotos: [
+            { photoReference: "AWCwydg0kQBIOdrYvYifTtRpE96v04tqjI3NzAQ_01U4eeDPluhpaNk4yIXE6tiVXX6Tuv9tKMHtTnaLrENuwh34wJ8n7Zj3ofkYseKqaUJolnYNLXtAc5OLIzHkY0IHOyNIOMsywFt3APxu_iSMx_EQnkanlJikOt_gLzqKaoImnLVtUACn_n6DY63Ynk2ZwVnZ-PdjOU9D3aEbojssfUrbWNNHFmnOnkWvk454MpQ5zyb9xyeJEzeT5UYBdwKFlwY3x-OOVXEj2ubR2T91da7qNXCpQzg4vzBRLagtlztWX_SApRcWZA_DMt7EObdY75vxRX9N5ASw2LylFPAYReklaZRI8WdaR7Fiuw0eOf_YGBoN-P4uIQ5_YUtzoeOtYUcHf5h03n1RWwJD1nqGwfBnhT8Wnuyjfy3FyhZf26Dnlu0", width: 4090, height: 2022, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101722998406048015814\">Noah&#39;s Ark Hotel and Resort</a>"] },
+            { photoReference: "AWCwydjatYTvVvgl5VsCB0Yhtfqtv8hQfbOcrxz-x7Mr5SJFIRQAYLGF320uG9lG6dAj5OQkvsNG_F0eOOr-kOAdNAmt2NiUJZV5Thx8gISaJDrrnziqa1nd6uCOUEUQ-i3bsoee46QFxMWLwaaMGjvIMv7VNriqtYCXEl6BUJjEURTzsjIJdrAH-t-wDUtS5TMFUsufFL3HBJLulxHZQmye5oId5F-gvaKlsOSaZv-qTUlVLOgiycbElA4clZ2ENloT4AmH4yAuve43IVZW9LNrfjQFa_lA2ceOH40V5mtKkVsgfAtwzx78bLT-PQrNrMXPUCCYkz22neNYGM8-sfjnlnn-781OQwi9TfhtG2TvqTVF0-UTK_LuxrTVh-MSlLRS7yKggEaZj0DU1a0SLCHyd_JHtffuQWQbdOiJRrc08paf7g-k", width: 4032, height: 1816, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110486273629233292836\">Roger CPA</a>"] },
+            { photoReference: "AWCwydjLtMTXJ2YvNjrWwI-8WXQ1e-4Y4f3ow9z4yyGPjJSUjd7uSupqXDAatpducP-T8ymrbRqz9KtvVePk5YYqP4Klk4fIc4PeadFes0NnPuaGl9_Z2_M5S8hUZtxNb1-BbNTuTN3cdWyKRM0XzPCwmhCxJt_oQacQiRpc2HFmSo9SIGJ_BMeZEyFm0lDGiyck1nEdm00s6LuMVaGr2kJS-eplwV9N-A0vH6WzwXTmuuzZhblGcdumT1UM5q0o_qof6cp6Yzpxdda45DPAPrzwDWAoTvJ2D0exFr2KHNICxqBY5yngt8JlKN0Hwbey7BbjcIKuRZ1IuFCEyoyHIKWgfe3k94er0eNSdUb3wWAbL0sUBnUMF_0xXVZb2pOctTllU6Z1Kf0xSkb6_bvAV6FwY2qj5oWFCnAtrRH2VF5I9KtYA9Tc", width: 3920, height: 2208, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116540763479320023912\">Кадзуо Ямамото</a>"] },
+            { photoReference: "AWCwydgWH0UilKXQJA7TBv2JTdWalnB7FoI3lrZmLsCcBEqb59qRuZHVqamAiX7_ApooQm2t7HckFgt-ffCuYM1KOcqUOhwjikEMJJuMqGjE0UVsOi5pKRV2d7o3ApQ_ZBlEebEuyieCv1zRCHA2fpDgzLx37YmHX_7yXqxlUl_vi1tZWNuRaNMtyQlnrL8iR_1KDetCp0_ZomRf_0o0VIID-MJQlQqGPEfPs9BGxzj9XKc_etq17-BkcNeMZQb7mbrpnKmvaYKjeqb7a5IMfRKOwkjcJFztfYzjhfhURCPLsyYDNyjbec_xXAo3S75A_KzbOh0vFgBGrQgOPNFJaQQm07luEhGtT9sRKo0ZDVKV1EmIQ2XhgHtEFL5IahoYsoXOuwrJY2OaRCMeQZi9J0GHO4eyd9FbssauqfDP3qI", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101890232031788984420\">Hiu Fung Kwok</a>"] },
+            { photoReference: "AWCwydiEO17HAI51cDOMC6GiNVm5AP2gGu8l9ujFleDOxVUZkmp8lWhzymEoBRm8NUYdfXHxUQ07gstZXWYzaldUnJftzm7vVvtVE2RXzGyK40fX3x-rdyryD0MnSHF-W6qpSyOBYVacLQVRPIO8Wst6UXOoz8UG7MTl-jBo0VIw4EL7eFtx52JBnyCObgGxlcO1J2Q3UUkMInbwyKxc7pDdOCDgBzjZR0zA8bnXUl4bwhQvid0dMVgito63mXHyHcOjLSzlGHndlCKaWKvTAGHtYkuZuLVtIYWrtLDg-p8oTcrhIwKP9Bw2AiCPMXOehlUmGg_hBOzSgS0fvyGxR0RoiSFU3392M3zVijP3fes3_KbKUD5wqlvImTq3rExdEINEpZ4EuvPsGl-Qa4phJZDkvDaIYujnEXiCnj4azaT0JnVOyNm8", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114625744510512733781\">Tonio Ferritto</a>"] }
+        ],
+        summary: "전망이 훌륭하지만 밤늦게 대중교통 이용이 어렵습니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["멋진 전망", "해변 인근"],
+        tips: ["밤 9시 이후에는 대중교통 이용에 주의하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "33 Pak Yan Rd, Ma Wan, 홍콩" }],
+        location: { landmark: "33 Pak Yan Rd, Ma Wan, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.noahsarkhotel.com.hk/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2051697339899791356", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Noah%27s+Ark+Hotel+and+Resort+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "예스인스페이스 몽콕 서비스 아파트": {
+        photos: [],
+        placeId: "ChIJvzCsz7kABDQRF84GxBc8Y5M",
+        placePhotos: [
+            { photoReference: "AWCwydgMMWUGk7wnKTpL5pOrue7QeYqSfazx_-z8sp6h5C50wnxviRrsG14Hb2RXOtYqVfnjiqqbicMWfCV7roLKj1xX_PSjb9npwrl42WK6fFuaLTk5N6j04gr6fn7A6GCjp9FSFzo3CyeRd7UEcuZxLbtI7St8OTLNx5_GLMYNorA-9MIcgWkqHV5fPrn1mRisAJCgNIBb6_kIzhy6b3s0egMgsJdA5vlDyLycQUmqlrimHL8TiUAIQtKv2p67nWzmrYTK7mxYlxNI8IfFoChqoTz6GnV60OAGj9yexMnP-4EcwMriGUroIz3zWMTZMt94OdtROWbBmMDzLWOjs3l1wq9iSU7hK0CTogghH3m7sb2WOkB3QiCyAXs0laCA0zKOhsDMgVQLXZfG83sfB8za9ITnKImsfcglY3y1_JkU7Fiejg", width: 1920, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114020539216600760550\">YESInSPACE Serviced Apartment 香港旺角悅思公寓</a>"] },
+            { photoReference: "AWCwydhYy9pwbMCEDCOAMoaCFt_Z3gpp96GyWZFQ44BVVxiP7uftMRWCryeE3meULREb09Q3XmSxKiJwvCF2CoULq-wSeGOvWehoNf0uFGGs2k0Q7rK0IEV2yoHzDELjiv7hh-2nTKQBKskhTYJIFgabyEVE_aBmK9dXq45fhHbE8HX6z8fXp4Yjg7K00CJett4ZipRS2v4_t8JUu7N8GnvipyuE_1SiDpUrRwju2LTVryzWCCt0FaXeM-0j7t-QJ1nGmVZ4bVYYRYgvu6GuXCO80pg2SdIdfGzaiqbE5eMweC402TNaHp6Bqt3N255GsQLGZFY6Hhe-Tx2jlA10hQhYGY1YwEJlDboxauXWpgPJnUz3NvpWtX0mdrrcBr0xkHrWioTHBglpqQDk9vLQNBH3XbKGow6XMf-htYw0GZmqd1caMae3", width: 4800, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114020539216600760550\">YESInSPACE Serviced Apartment 香港旺角悅思公寓</a>"] },
+            { photoReference: "AWCwydgQUEN-_UWcSxEmWEljDTm-Y-8KQYL1gmmSnsH9gbTDEyV7QZfeU4_uE2prqRXb71mqsLsBcq9KZW2wc4bqjgO732F2Hq4UmWiZry_bssQln2oTzPdAW8ATa8CpwxJo0ZsH_FdPOgfx3o9LeHZAVBlmP86IE7yad0lQaT7IKuO1fbBJBfIzuCDuzGaxMXutc91DKvk1Xk_iW-yxAyQN5bs4dEKvAddehRRNtVcKKCMiU4F7q9bnrlVDzf9kGlbpz6Ivvol1pweDVV6QI86xwunzWURcUit1Q0vbiKwFKnZAv_4FKa0Rh4pruJqs75LV0KO4Tjdc6lw1SYDZayg3UwE6TfyvQi8FPEKFI1Fd83_2dzTjonDt1gRsTZdDxgHM7fn2NyHo3id9dhXfTTG8R3DkOgOo63hb_ZqTiBY_6rkL9g", width: 2457, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114020539216600760550\">YESInSPACE Serviced Apartment 香港旺角悅思公寓</a>"] },
+            { photoReference: "AWCwydhJaQExeONcrJZ9kJ6RhW-N1vWSt2qKEruH-mbyFRNnpLjxGBHskTNfM9V_OYeVamudIU88eLmH7hU0PjgzLnZSLHCGEntvMGxAppuaXdGfbiTqDgnqWTXAdlktO1SSwXarobYY3h_niXcokshkXVcM7NVC1ST_aNhNBPKyn2htS3wh_WtuR-nMkZ1OGJuDm094x30seojjTdBnWondkk6YobCLzAQffl14WMqD7mwMg_BLsMllGc9dqtzNdGgGSuebeRxz--G8vFnpCoUYCESX9g8GbX2eV91lnHKMRvgO4967TXydiWPjvVILxFh8MmSUg7vSvttU82_KDRKECTqdA9BLgaXfnDiltA9kccCiqc5K2rBMZZH0ds5DUClrRTf30yqYAuSD0EkmCQl5ZprHOXIsUa5Wbq3GMG7HxbMNzxay", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114020539216600760550\">YESInSPACE Serviced Apartment 香港旺角悅思公寓</a>"] },
+            { photoReference: "AWCwydjvRSUgkROGlqBydIQTbovdfbIGu6WIVEgXU0TPaDYnO7FiXUFbBFj0EWd4LkyZr2fm9sfXtDF6UCKI75-g5mpoan1o38Wln5Zv0AM-kelF6FFGbh2OZAqlYLVEG46_Yoao4UFf1-BcB_GKHXsn-wEuvSNFWtFnWQN_0siEBS25peA3gkO3vz6UAI-GIKpqYT5t-NzJFgiHiDYjp5MVQpTVoDq9lrYSKMD_PX2sM6swdqi_H4H2yxrcggn4AwCZ5S0SNe-bkqzKdXlPKqVzrjRb4ydhTCHpRRV0KNm7Q532QaWRpDPqcokeRoSsGtwN4oz539ZxXigiig868iXm7pNYlAsfeLy-4EWSsH2tt4SM8z25aR1QqA20IsR9owrxO8I0uVdhQantfzBIDNAPmN60qn94oB5m9vwW6JEURnY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114020539216600760550\">YESInSPACE Serviced Apartment 香港旺角悅思公寓</a>"] }
+        ],
+        summary: "장기 투숙객에게 만족도가 높은 에어비앤비",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "최고의 위치"],
+        tips: ["장기 투숙 시 매우 유용함"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4/F, 10 Anchor St, Tai Kok Tsui, 홍콩" }],
+        location: { landmark: "4/F, 10 Anchor St, Tai Kok Tsui, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.yesinspace.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10620398419040456215", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=YESInSPACE+Serviced+Apartment+%E9%A6%99%E6%B8%AF%E6%97%BA%E8%A7%92%E6%82%85%E6%80%9D%E5%85%AC%E5%AF%93+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타운플레이스 소호": {
+        photos: [],
+        placeId: "ChIJ3dDmSwgBBDQR1-3Eu43jHKk",
+        placePhotos: [
+            { photoReference: "AWCwydiv4wM8g272GcVvINF7BM-PUpt-4XxmgblZWhtNDPnaYi9d9Vr7dARfawt1f_niNnS0HYxmtj1BZ8-dfD_cNu676RNlDd8N27m5ExtKwesmCwdyluzlbJ67qrDqM7uLYx9voltDv2ZMBEXRiRQ8d6Uo3XpDSQzEW1NtkziUc77waoi2Y3YFn2BHnCtwfyXsGEkBM11mZvUWFUO9zzkMqv_E4JxmqZwrSbWkyqynGpN2DruC2rIqaXjePDCK_9jRSaVNZldmHJ8-RuNW2wdISBHOpzp6kWSrjpPifQhKNWka0KvX7CBQki_ncgGl0M-YUqM5My0eSaaergGwEochVyp5ytcjTX1SRx59BWLRnSVqnMHu0-H2StmCeVYaV53DTjf_B5K8lRdAlNe_zgbwlotIY3ffLKWct6vjTqesArjwLZuNfiL21aaiVgmMSsK-", width: 4800, height: 2652, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108029277725548994127\">TOWNPLACE SOHO</a>"] },
+            { photoReference: "AWCwydgjYwkNMw4IXC64grypauUIc4QzGztTtDOFOkQlGSGFHsUU8uReCIslkjzk_iUoW95sL3p2LA-737-zgCRRs8WQe8FX-PHEmMVUYpHynSHL59L3xEM8IgNZW_NDTnAwdXUgLFLKhlnZGX3nLeN0hxoi54JKXHVZ3y_521IANegLHMZGfqsFzRTYXXmXH2oOvphIeW7KDY3vFKIcSdJ-eh6fp-u26m-mUxZ5u5Qk6_ZwS4fk3PGgmFX5ajHh2Kd6nlUuHOwkHYzwHwbJdKyALU5xoaxOxXSp0yOTLl4DL5bR_RfWzkAOH1fWsGqXzyroF69g3f_UKkzS06uf2nKOJLbYyj59aJS__8ZF2pG8Sih-ac2HUmcoOjb4yMnB4Rk91gIvpI9rhBhpFz5VGd9SkmSMQLNafrlsUvAhlGSBtjw", width: 1600, height: 1426, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108029277725548994127\">TOWNPLACE SOHO</a>"] },
+            { photoReference: "AWCwydi7bSzbHHxnb65GQW2ORSBgbYFDCf66oqebffauHcMRZzKy_KNJN_kQp-R-IpU9gNrDcspzQuX5qD9dpJo-QDdQNJv8ZepoIjMv_5YTb_rOYzrEJcfs9as1HAuXRBRwEWM8YWDd1COLBrYX1k8VaByLManjgIF_ADDfQ-p7Srbti_gmSp5PYQmSaFmwHHD_UnwS5aAUuITyB2KS4Vu7yc48HOv3Xsj1cYaN9StLr2sHgBP-2iYeXLvIiV7kFHnkzAS2LvfUVOZBh8hsTYPlMwAWTYU5UjlgXBUVLI3GkwP8q_P1eZjrAV5O7yCmGqJ8ul6W-P6gQdgzmAoyPl8Q5lLtt2uBF8FqgAmYucwupINmLgRxxssmWX3mZTggMAn-m4-meFsi2--umJmOaUGzEiiTkfhF1tXMZGQxBouqr3zSfpyH", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108029277725548994127\">TOWNPLACE SOHO</a>"] },
+            { photoReference: "AWCwydhX0Htu34UMwZTtLaeOSefVtmy2mHZ783yGlxPJLoAR0SwWl1saCJCvwiIGcqBGnyhpYIqtRpH73RmZRK2Qrk8uIU7E_1mJou5FbOBxYJ7-VYsF5bIaLoizWjXvcjcRiv8kN1AU_b5Ke76O3LcS6-PJLw6aLuPoFu2F7jY2kM0lT_8hgoSq1iADvinr3jxqauX-BM32-xCauGaawzPopjQ3Xb_ZWE1xmWKjwHa1i6lpMiVhURDPMFVQZ2pOuAt6SQPiGrRABXUF66cyoNoQdCM8IkkUN9y-0-GOVY31YGnWpa0-nuyQjBx9-WSc9SWItm8lhLhD60Txe-h-zpb52Gsubwi0CtzMPtZ_Vd5Zj-iUmMzM_M1N-zFBxzWdEtA3QHFuFLXs6y09mApkYM3-WG5h7BW1x0p3V2K85AQWYvc", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108029277725548994127\">TOWNPLACE SOHO</a>"] },
+            { photoReference: "AWCwydhCy1mbpL3RfrT4t4vi_HbRkwOc7rns4QbjRD5Nkda7wVkZPC-czT-6CjbBXX_nd0LTe_CM5sG3xbNeZcveCL3ZiLSAQESRrmCNV3UzbnMnohyG8nAwBcLtKuTCLufCF886KFu6Ww1QBC4V43apbP4L4LvhT-iVsYs6J5c52JMnh7Vt9tU8ret4MzT6-EoyiY4KimSbDF3byRbvFjL3ONDHYKdVKBIXLacH8qFmpE0NMAdNIVAh2u6fc-DjHphFIOTZVkxgeTqOoTybfkfTxMlbg9mdr3oOLUQe5LpqmpjaNDrdGlwQe2CBbl9S23zTWWkC9GdYKcX-QWzz7D9gsht9Gb78mYwEDkoldMeZul-HrIdE8felATiGU4X6XiYZr3-02h6dIn9TS99oN66MWLVq-KHrwjbACJaDhMIlPxXaDPa_", width: 1600, height: 990, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108029277725548994127\">TOWNPLACE SOHO</a>"] }
+        ],
+        summary: "직원들이 매우 친절하며 거주 만족도가 높음",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원 서비스", "장기 거주에 적합"],
+        tips: ["직장인이나 가족 단위 거주자에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "18 Caine Rd, Central, 홍콩" }],
+        location: { landmark: "18 Caine Rd, Central, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.townplace.com.hk/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12185864889637858775", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=TOWNPLACE+SOHO+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "예스인스페이스 홍콩섬 서비스 아파트": {
+        photos: [],
+        placeId: "ChIJa3WWuQMBBDQRGwmkO0WFrwQ",
+        placePhotos: [
+            { photoReference: "AWCwydi_wF3NF8n3AYrOw1hf_2VCHrJzUuCkCmmTUnYeWyNq2oF98rDR5Hf66HdjclvrIUJieRKygzu--IAGu8x1OQByPVtPsZTQxdsIlVt7r0JFHFw089iesDunL5zqHY0LKi1UcwaVMMTIZCLKKI3a9yi4JtLMhs4mZz6LxWaBVUy9qp3z7-0WxjroJi0eKp5LFyLAo9S-OZdyabb_LULErzFvRuROXZVCyW7rguGrJg5uOrZmtWWZdZ5W9AZjBLsiVm5In2msR_aTXL65MoSpvHjhre5ZgXkb9ZMY_YRhNqf_MfY3f5eRTvV8TJSAXj-qKw7k2u9UZHlVHo9R5X9U912267Sch_ZyrYfd39J0r6J2fBdWylHyUSWYqs-L2OGpNFGVSPXNWGci1p0W8SCI9FBJbeT0ebHyc299Hc1l0KCTyQ", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102573558156895947050\">Yesinspace Service Apartment 港島悦思服務式公寓</a>"] },
+            { photoReference: "AWCwydgyA_eXVzbNTeNzcB9txELtYdWRgkHdpA9Irba_DhtxjMZGieHdzNqiLiwh5PU-ZrgvGaxuYq_sTaOhy1q1WcNHToSJmHxs86kHiZqwjuSSo9fi1z_rvEMp8Q3RAo4v1-8SSR22T6lRltLnVKJyxR581AZ5sBMN7cxVeFOyW3Gx2EpKYqsiDpC2hC6EXMvmt8l0_TffvK4Q9E0VJe1RBmDaZz1hPGamJ_Fk9QoMqJt9k6O1SAdQD8NwIGSaxeVWW9Ky92TTArXPtw2MxKxKanNMItOWREbceameU-mSl20NOEcKtikZahJE8Q7ZvwoxOmGBDF0_rapFSTiEpcisfe2gja6jZClAecM1Myufh7AUXmo1ty2STfupFz4EfYGE8WPXo43JN49bWkBy_4CCrlcdNvOYZPH9As8FQ-rZIZFpAIfO", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102573558156895947050\">Yesinspace Service Apartment 港島悦思服務式公寓</a>"] },
+            { photoReference: "AWCwydjof59cNSBUO6tmC3WPd_aj7w3HaGQqfdLVXf3EUoG2NKIcTzg3XEk9WUTjjYTbNJW7Sql_DdMdEO9Eo1riJyadpqwuCwdfQtbESaVC6tkpeVbIxgzx36KRyoEsHtBvmc2y7DKEj6DSxl4ol81x5uZZ-HJyn4XL3C0QOF2hDbixLaEurCPcx4SzxSyleO6ZBmlRu8bHz_PpnrC81j4knb0T4c3vGatR42Qau0EvKQju41ZcqSSgifGt9iEBiCMZlPyFLH7clnLuttWfxHKxofMUOtvFCQUZvsCnk2IWEOEU8kwtjgmxs7wW2WCKBTWR8s5VpP29zGdW0pKTUhcN5okpInUNlmdfB3p4NKs1sOjVnJbjQU_JwWlw2J9qxpy5wsvdFd7IM37RIdXE9FBffYqt9baNZjqw98YMDrAhxd5Ldw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102573558156895947050\">Yesinspace Service Apartment 港島悦思服務式公寓</a>"] },
+            { photoReference: "AWCwydg7inVkLJscRUR1H0ij4eFH6m2ZsUJc9ZddHzrSvQayLBBaqZIzAZ8t_bom3dsyph-ZHP3elI9o5ar8qgh3AdXfQR4Fgd-K76J5yoVVLbnyMYuhLjqGhUmJmtwP9K31MUrp80KGTibjab8MZ-4fqyGMbt-uabAiatzJupwwc_a0pFVlq4gFNSSpgKUWCTKl8f3mmsroDWfF2tX1SkoUvjR6hwEHj2l502g5m_J2DHCngFQfQcl-oUkbtSBsD9t7H43UhT5XSGstZvCvjx03PnA42IWeEwRgdjgfpUNtmZlkGckv-JtisHk2W4pqWUEeUoaszY0xbtZfd_y9x1q5mGHlfXlfMRFpyeca_-aBDP78Pgt3YW_ih3cyEWVGSxC0V5XouK5QpzNn3COA-Hk1bCukZMqBHxLhYxHDp8vc1-EsKA", width: 1600, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102573558156895947050\">Yesinspace Service Apartment 港島悦思服務式公寓</a>"] },
+            { photoReference: "AWCwydiFbnouTzE7Vfv9KL7oc-k9w8dK3hNRt0gLdoxzcTSTB_LBrmvqnstjCtKz8uPZebRpdmxpDG3JpMPRVwF0U4ZCpHN3yr7lJH0VgJcL-zvfNlJkrkd9M7TXWO59VbSGNeGVF0usXrq5eSPlAnG6cIFti6k0YPamVX6lMDI-DazZO9kCUgf8mVtVFM4k72U0mGBZGiFPDcwaTYh5xVaFpQfDnD49rARIvzL1jNGMXH6QacPnEgON0mFagNJQ_U6-pbz8BVD8rGVG2L3DskzCsWcHZPlFClC49UTq-VsXbwufeC11W_8_E6w1avX-3sxJ8YIcAQRIy3uYxDGZfTg85mN2PVp5BBgGis5HsefdD2evKL6b7lC5QSaHe1hlh6ETYvo9xb5O9RejQ2mUCJN5IBbjArn6_fmql4CJjdfvAqsUag", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102573558156895947050\">Yesinspace Service Apartment 港島悦思服務式公寓</a>"] }
+        ],
+        summary: "장기 거주자도 만족하는 청결하고 편리한 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["정기적인 객실 및 공용 공간 청소", "친절하고 열정적인 직원 서비스"],
+        tips: ["택배 수령 및 음식 배달 서비스 이용 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Continental Mansion, 294 Kings Rd, Fortress Hill, North Point, 홍콩" }],
+        location: { landmark: "Continental Mansion, 294 Kings Rd, Fortress Hill, North Point, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://yesinspace.com/en/hong-kong/hk-serviced-apartments/yesinspace-fortress-hill.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=337635029475920155", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Yesinspace+Service+Apartment+%E6%B8%AF%E5%B3%B6%E6%82%A6%E6%80%9D%E6%9C%8D%E5%8B%99%E5%BC%8F%E5%85%AC%E5%AF%93+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 하버뷰 플레이스": {
+        photos: [],
+        placeId: "ChIJyY-otJYABDQRjfUy7nuR9fw",
+        placePhotos: [
+            { photoReference: "AWCwydgeJ72xhb5aWB_SvpJ4YrxH6YGhQ1rprZfPI0DjcnFQNFul_bGBw7PmjNIPQ0V2RghMTg4la2NnRDDeiBYUziseF0maZXPtE8M78LKlYoyCbMJJTKg_mdAxxpasTIgw13vPIdL-4f_886rm-YqSWTAvMGCNbRu7JA2Ic4MmGPbokaBAVdLWGvIFVo0xHYSlfVt42WJzRrOYHP12aXugtFkhG2mvPPrugUQTzV8GiHIYLTieSN0Nq2zJD3YQ6nhQFLn4KJtleFPckZnylzwF2Y4hxnCoVtfHNPzoqWGXZ5YYKb2r1_iHwy8yOjg4gYfzCukZLfugf4PjrJ2hPkERCtZmSTyNNP2X8UaX2u3IgSSH9vXwpPOXWjd8P_jgvQdWIhpCHsyqN3d0QcgOZuDBQc2zrM5NUuDlI2ZGhiV8LUSuO8E4", width: 2048, height: 1447, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355205883517042272\">The Harbourview Place</a>"] },
+            { photoReference: "AWCwydigiCBE7BMjLqNw4k9BcyKE5zMBP0I8tY432Vp3B012Enz9H_YKEUYxXo8o9Q6GVEi_m7KUCATZ9alPkWwE1AUtnmZ6qvtA060nni1LK6j3yZ350p__nmyFllJpjIhZfV89_YFGuWy4xAAMxh_jL5IYFoLKoU9mmysKnM1cAQ4XYFvUWQT6QOzkt0Gnl_O51s9MpVPK1oTLLw4ksBYZGlkZSTdTD2x6QvyjgwltSCaJMXmrsuCZmbplGgqnEISLo-sGVNBJA6UgoCY9sP0pbDtyjaddmKHGdp51XM2du9YKweVRxqsSJI7ZJ0kYSZRR8pFGSKPVwPsQmxK-pgDBqk2TA8Etny95xHTbvGDWeqMrr2CHoOVHUt2pu8jmjidj38BSCnkc242qsMtOWEzrc6jaxuFaioaaovXbCaHfn9cXnN4T", width: 3000, height: 2042, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355205883517042272\">The Harbourview Place</a>"] },
+            { photoReference: "AWCwydhcCeuqhPv_qKK83qWIKppqvQYTWG_E0mwHOFEdIgpZpRxc-F5ezmOVyjbiAl4Bs3Nfv9V62Ai95QAIfB2b8PJ17i4xU3D1ibVz_4PHuZWI59cqwMOARAD0M2b-WZ-KPCrkjNQG_G8j_rObteHSJvpoFqrBTzjWd6P1zL6CvBh66gW7EIdeC-IkrTyy0l_WDKP3jhaFCZk5Nd21lAPabWIQljjEQY7QBoBhopUkaSxSmF5odbmW7jvx2H1l-s346ob1Lc8a18X6uL7KvCWndQ_VuQpRx6RRMsIVrajJuqqRaEvN_hqYDi2ZGRNp55YTPxM2LLdu_tOAemdR2_IjJnb-cERNLsahobHIEwVN3AMFIaMeYtUqvhaOvkXCuIfZYEKzEWBcbr2GsLJHgw0IxGzSsF0RodQGQptNKG64BQviqA", width: 4800, height: 2629, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355205883517042272\">The Harbourview Place</a>"] },
+            { photoReference: "AWCwydiqY3_gy3I933bf78Y0-w4rL4saZLLIkke6cqMt6_KKYO2Dyde_qEuRLdnG6r2mnaePEFrS7uD2M7w7DK0rI4oAWMfONLoRV-9_iz9PInQ5SqM0E2uq7jI_4uknt101hS4f_grz5QUnwOkU4PWzPrA7G3a28Pn0ywpHVNoof9NKtRgUeCM0X3vaC_aCwSifduCesn9eU3zC9nbC2ZPKna6UJP0RVGh6ZnmIcWakkt0Sz_fvq9u2RlB24UiX4ppraCqoiI5LTZTTgxwkGyTeLTZhccPXYcrGFRfuJ1PXo75uTuISf-pMz5oOAgT_X6y7F5sOBioTmknpMtYFA8SEXXWl5JmD21pIpcjIgBAqpTiUuR5NEkbCUaIFhY019YSLCdSXK12NEnl67BfmgvHt-CUWojQhZwSMLE--Wd9b6C8", width: 4288, height: 2588, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355205883517042272\">The Harbourview Place</a>"] },
+            { photoReference: "AWCwydjhmvMYE0QjFdJ3BzLsTgS1BBLVfja84G7IXRuS26q9br-oR78wQUu0fhQjUdBYevpv1hna_E_9XnkGbqlQeJW8VQhIhUytVtMdZILZ9cwTYp5L3XgOBl8VEicQ3c2J86EdRHlj5n2-SQ77TC53ds_De_weyeoiBna3E8a1mQDpIljqVGrsHdJAJ3rQJI6AzvcDCjmG1n6G7lCaf1lxvtkhofDtLAcAuLlyNv7UQvFX8bA9ywjLDPVSvBwg-Z5FmKm1LiGKNM1vS72vh7NJiaR4TADkP8bsCuCmhuohNGhwLbTmZnIwE79FKvx4Mge2c1TIVR92AICjrx0aboEINJPZFZW6AQJihD9jdNB23q19I-lL84uR_HyWwuKceJmWxfkP7P_mfmIy81TgwVT-JJM5nmxZt_StisxGWHtmllNXvi5X", width: 3000, height: 1993, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104355205883517042272\">The Harbourview Place</a>"] }
+        ],
+        summary: "가족 여행 및 장기 체류에 최적화된 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 항구 전망", "주방 및 세탁 시설 완비"],
+        tips: ["공항 이동이 편리한 엘리먼츠 몰 내 위치"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1 Austin Rd W, West Kowloon, 홍콩" }],
+        location: { landmark: "1 Austin Rd W, West Kowloon, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.harbourviewplace.com/tc/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18227635028315272589", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+HarbourView+Place+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타운플레이스 케네디 타운": {
+        photos: [],
+        placeId: "ChIJq0wbZ5r_AzQRxmCoAY63Low",
+        placePhotos: [
+            { photoReference: "AWCwydiwgtHwk-7gZc5LXAa1_fq6eYFT6jmJceSXTfu_-AeXZEkoysX32_rRpIdN_M-jNHfhxvcA4hKfIgjW8ZDnZan7HlmSHJE8dL7Nkbfalzmy8eY8Ha1ZRrbXiRTKm_ajljcCJzCzt-RFDpmcfPI4Q6vB-NZUOkBpa5MSVVrBcaOHb9vD3XXJGgGDGkNP4lt0fohKNnKVt-E0b3SbqcdQcehAehIRW5N2IXHS0zmU4Rmuead0DcVFUP2BgZFgZNn-NsiuohRM0vwwXALss6BSLIXev740H4a86CiY6jBVMSwQ9obiXEJdtTxL3UqJZE85FWFhNbeg5mu3nyPvsRCQofTXBETI08F7aaU9X91WIPUjs5HzYkL22ShFxcaOJnHQ71C-HPMHbALVZikBXlRq_3_3t6KW51k0--f7Uee5ao5T_KY", width: 4025, height: 2684, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066640915811012100\">TOWNPLACE KENNEDY TOWN</a>"] },
+            { photoReference: "AWCwydh8TtPlu7E6DQpwyr82QD74C1f6-b_5FTqkNtBmHKM-hBAUhJplRrtsqmAOYszkNXUJI0o0Ln5GpKWUBJ8nxcvJzBhNhIZS9l6l0CZAp6WWUNlgNmVOC4mNzmoVflUZH8TIL1NqaisugCJPBZM7tK201QMxemXRwKLPbFnmA_TnrNJk9wYX5FADXgsRhBRq6loi9oztUJlCRc1zgXJfcAe5_ExICzf65Sb5D5g6ThV3OLLW5G6yXVD3lalMFrzbnpC9YAU4LaFJGhIXyAGPGTFs6tYW5NKcFS3l2PyNiIDl8kYWGnHXE6M35U6M96GJ1QeTx2OzV4D2MkjGWvP6QOdhqbpajRIUBb-1JdmdhNluGk23-z-Kcwy30qPpedc3Yn6elfM99-sGlcG4wwPolZlLLIk4YlX7WN2RiR6UBjEd7V0", width: 4800, height: 3081, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066640915811012100\">TOWNPLACE KENNEDY TOWN</a>"] },
+            { photoReference: "AWCwydgy8ofSEVVwqkjVmwHXAHmDKeY2isEoqB7odSpOuxv33pabo5yR42a_mgtrm0mfY_sfGLg0-kX3sFmTQ-xT8tHBP9-uogyLaYiWhtB1IJzQT_f6wNclRP-kxbIP6CiEfZXiyzvTNbfVOf2m7jOz16XVk9eW5vf5lKfXkqAqS-FiJ_h71UZc562f3ikAwmbroKP79stGumPe7geipvypUcN70h7Tf4K8dN4tJF0fZ96n220JcNN1GOKwlF-bnp1QHgeeB6g6QKNQSjTxxuIMX_DuG4K-8GPcwnRm5jGn84mw7MEL5my4BzWqeqcPNvQikJKLS4jJc0nM3HZoaVPBlUCMgXxwOmqCB4vZqiBgrgP47xAPQR03TVbOD-dYaQ3p1PiBsht14zPIRB-K2nkLmJanBUmZ2J-KLkEzstUYjDoRNw", width: 2850, height: 3842, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066640915811012100\">TOWNPLACE KENNEDY TOWN</a>"] },
+            { photoReference: "AWCwydj70227pPvo1OhSlOmfw0YhTwFM6clbZqfSWq2eWASODzN6mASexTq0IRzPHmghpKAEGvrkExHSSEUerWaJkzjmdL2ZwiB1wJfCLgizToK_p-qVNx8_6xpOp3fBEBmF8JjxFxYXPMO_3ZP_ehzH8gRtFxJ0pDSHBEf0LIe9N6s6MCrjKHXLo_e6JlUiton0N4GemdvKpr3Bt3hi5KwdK5h7iHWJgIIBcE1DmZ0Rx0iOLWMyZhWUTlM1xkdkK4nNRHPD6_HCl71Sq32A3rXWcpSaTaOSs7WKG4Sf2veBiGg-MU6QLb3YkJ-phY0klkqnZAVBeAzvExCyXOI3xtzzTaT3RCnwjBkm36gSt5yD_TcBEV4dH56WaGurG6gQX8VOCt43bnBkg8k1LRVrUcNlf0S6z6bjaEZkM2RdxA9QjRkoiw", width: 3968, height: 2430, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066640915811012100\">TOWNPLACE KENNEDY TOWN</a>"] },
+            { photoReference: "AWCwydh906XJi5BpTG1ZxXDO3Zp_3Rf1CDKCzV6Q6HQtllZtGjNniufMz9RGQU0dHWPkU9siSmzc1ISL_Ba9Yd0CjnOCv-PYkpRPkwv-4hJL3SQRU5mrHfVxosFY7kst0pZ8V5yIpyR1uBamxzAjD3_57lINcZCbE6_nmS1MQ5HxhfOpLTOjor_oVVb0TFj-yMMZapG2DhRa3ZAfCOQLY3thQGZKxrKJos0kv4Sc2LUeuReGpcNdSr2Fnbs2qXMXYYAPu1Fw4JZrsXQXLfZeLHy091Pd3-3ksi1glKI_2nT9r35k3o1DghBnvCXiwE6lbIbbp38JddJwsOZG471Y7JfO85EYVrdh2H-TlfQAMaHPYJIOKrD64NRUmfr6bIhLOQp2F1o-CXeCvWb-ZZVqY0ZDpUdR33dfaQWJcV5ObNrYpUQ", width: 1968, height: 1254, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066640915811012100\">TOWNPLACE KENNEDY TOWN</a>"] }
+        ],
+        summary: "사용자 만족도가 높은 숙박 시설입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "검색 상위권"],
+        tips: ["예약 전 리뷰를 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "97 Belcher's St, Kennedy Town, 홍콩" }],
+        location: { landmark: "97 Belcher's St, Kennedy Town, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.townplace.com.hk/en/home", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10101212834779652294", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=TOWNPLACE+KENNEDY+TOWN+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "모데나 바이 프레이저 홍콩": {
+        photos: [],
+        placeId: "ChIJ1YHHh_IABDQRvmGxQBTci-M",
+        placePhotos: [
+            { photoReference: "AWCwydiNRn4ydIAvYFVVZjgi_13VxAUyLZNsxW92LlzDyftUtQzg6U0GjYHdG2U74RH3tC3ORTDHPhwxzKYBDAJ9w_tMwm-Gflfh9Lnn4fDKF9_UIdThaULFXXt6rd7zFHJN0jcE7jhlT6nPryQKyPFZTyDLoAt6w-ytUnDMouQ3NZWN8oEbbZL9TD0qySBNRgmw_94FDPnsFPaWErYKSCGgTYIH_4Io20KrENs5P4vZ4zmZSJobm1wcvYpionfyBuU3tDxs1ktBrchO-bf7Juz9a0Uj-IrDuQkQRTjQCo5At90fnQPjtr8fq_yRaCy8rC5a-ADGUT7DGGdTT2EYD1QxHQlZzIa3Lwce016Hgg8W3sbpb1Xpk8UBPesyYenxUuZkHITaK2icqJd49SVZE0FELB0MTTNl4dTOQC6cVvru9rQqOzY", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114544671396162571597\">Toby Lo</a>"] },
+            { photoReference: "AWCwydhhxx6Efyi_d-wCXmzNqhxp5X9R07UBACmkaXgNF9ll1nIHWZTfvjtB1Hs2sldx0uM_hlLCZcmx9-mOZ9L7H7GgByKZvPT8MCNoFbYVheAcOqc5KMqLyh7eaROQLvYMct6nf5GY1dr49e8dF8ktOfzhNEeZkZYtzRzDmTtILgMdq5VZFjOQyt1LWysxVdhtkjuPHdoh-QW98mAdru9OiUMgsb6UDPH4yfkscjWuqk9bWPRXBg7TjyXZeSfCT3hHSttf1Oaw0n0ZUgVOxEONROrVA1cOZNJJW6Gct-uEXcvf-APu6SIpgFz82qszxrxKYsAbM1snH4bOqA-jEIZ-H841WiSchWyY5jBDTOo4mHtThxCFnVidJWZ7crA8yoGK8YoBRlZQxhkrD9S13UFhzJYsD_469h46ksK4IojSWZrLjUtIgGpaSPGRuyXUk1UX", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101827749623521059365\">羽田典久</a>"] },
+            { photoReference: "AWCwydgrM7eRd7IoUc0QLIMdN4c-wSkVRGfAVNSt-2O5FZllfqlrqlkbO9oq2CHct2P1ZmB-AHG41rigxGQQ-J2aYfNdMOb5dz5Xtip0m7VsMFnnlw4ZItVzOpp_Go8SI_Zlbgqx8KlwXa7r5RxJekpEwYwYEFRoP1Cx45wCvOAl2cScHusRpgDiGM0yoEhi1hMb6E07orn8gSVJXhsBWnuaRuLKTCTy0JUeg6zhP_Hjto7HGEV61sYUq9ermc0YDax7Yi4yzrUsX41Em7qeQzBJJPzn1jWtxq5KeoXLJL_rKEeKN8p-qubVaKDmeDWWPu6JpF24JIXHh5FbKb-dKnhptMaftI-63o41gvof-s_BrCSQlDhfz2w9rbOPloTlpU_mO0eFHlnAmcpGcI0hVqnRbAv-ikCXs7tyjdZCmWuo9oGg9C0h", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106981415118804669753\">Phill Smissen</a>"] },
+            { photoReference: "AWCwydj53YsNxPwqURI91ZsuPHsJk6BmCluPc7-xqS0JeOOglREraeIWddhJrE0fhhuwjFqHG_M1WLg8tp8YfeZpuGhXG4vXp_Z9EUCf4hGYWdrgPndpme33XDnHrbBVE-YckGNJ-BqQnohsAroecrtnhwGGnoefILJSPGz2uDkg_FcmzZelJL6wbF3TMdeSdkEUJOQczDpFZdI7imyiK68zg9C7nG0Jh4hSqqcbwcU8wJ7gjt4abvBUy1AikqEO4b5ot2uL13cYb6cFf5WQlffYNcgJkdXEqLBsM_UvQVgaVYUvnGpO0Up7q37ozDOo5aXRX2-vj8jYNvHS0ATvGRJkJ8SUlD1p7rp7F2Gv8TfMW9U2uC4HPZEhFDsc9A_LxyTYuWLwDErTtzmSIZQWSZWiftAGwasVDPqZDKdzh0SYmFNSplw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115757903290306503916\">Savan</a>"] },
+            { photoReference: "AWCwydiv_IVAWEzmfKuzYOAT6Tkf02UtY-VBylUDQluKf46ZIjuqLBnWl6VRk2OKIlAI71q-yjOHn-N_ZNyGnBF0yA-eDhwxhg9-yw_V0c220uSKY9SYSYr7W8i2cy3vqKF4FPAqcGgPkdcnI8MIxLdG0LIE2LMiEQl-BlU1hxXFqUnh9AUnJdVe-N0nzU8EZw4_YeLepZ120_CTPK7HfoLdXIEJ6cJDTcYEyN2U7DebPcQ0GEO97OLPPXXXmWV6LIbKPVzEGxaWeltG2U4yBuJv3wVBilwmv9AcptkGdNeNrZYO-N5cne1-Aj_faszDYjXoSXbeskMS_9q2j6NXIAseQYzrPuOHvblQ6fQz0jwKQHmzGmxJvjGafHCPhHJLe0amOUhbW-na2p_ii3srrbbUoTsLBkrWPOfGVmJQ5vi2wL8jcMn4WEaZeHdF8GStJ3SM", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109155506319598166496\">สิทธิชัย กลิ่นแย้ม</a>"] }
+        ],
+        summary: "우수한 위치와 청결도를 갖춘 에어비앤비입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["편리한 위치", "훌륭한 청결 상태"],
+        tips: ["에어컨 소음이 있을 수 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "18 Ashley Rd, Tsim Sha Tsui, 홍콩" }],
+        location: { landmark: "18 Ashley Rd, Tsim Sha Tsui, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.frasershospitality.com/en/china/hong-kong/modena-by-fraser-hong-kong/?utm_source=google&utm_medium=organic", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16396440847915246014", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Modena+by+Fraser+Hong+Kong+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 바우히니아 서비스 아파트먼트 - 센트럴": {
+        photos: [],
+        placeId: "ChIJ0z6Vq30ABDQRE4BckDJcUNM",
+        placePhotos: [
+            { photoReference: "AWCwydjp5cotJ8Ke-MetQR-LyJIIARQEaZOViBN5SJnEC_HDTNVng_ylm91Ecpfu_LCXLngyDa7BkGhrbAzHV_rN85_M0YaAnRj6iFR0gC7Sirz2lmE4_aQCobsLb4001E6QeaaIYCtWXr_jXJ8-axOnP6GgjIfEUnf9mkDckPXb5gAYHJNaT2GO7rjcImCL6FSDmGxchh0xrSNGuTKxQTPh4yEnIy1L9WJBNXUCKa9m4mGTKYbmH2aZDIMBA_OjXc5rYPg2fRsRQ_emaSSazyS0bJ-lOJc6UgjOaNXfFSx8jvxZFd-nmrF9ndFdq69gb7YqrImeavo8-mC0OSBkI0WeA2k-zF39PEhFTuBsUaq4nZztuNohBQwRHpr2oMaD4y4FEnaEkLse_dUI9YUHzR_Zd1vaix21lN8OMqsfP9cL6tlBShivjI-WodPJVlVGGw", width: 3000, height: 2045, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103213405744934526830\">The Bauhinia Serviced Apartments - Central</a>"] },
+            { photoReference: "AWCwydhVAuxNuLuVgAekYK4qybkIo6_YpkqhgOddHDBkoxFnkKmnaHhoBsH3-kpVyfAiAZzcHYak-LfsTBD_IffmRhxnQicJxaTLFWgviNK3a_16jI7SM8j3lQn6NCWe3g8p02J_g9QfSiiXwm7O9OKMe6opuvNO9IesR6ZxjtrJ13l0jx5K32DkUkOkgK5sG4vqHLNTRylX9RrnmbQRkqT8yDpnXlgb-3x8IRqbAUyI5B4vRxE-9d451RLOcwi1iDpMmJ0OI2mBxB9u-4Cc1xIXcFVz6TzI1BrMzEdInnUwFYrwOynOEZXx6FvQ9yFUNc72Y2VrbTigikR2vMnwdzb29k_pRDHt5vNvI9ajIMf1Fa4sEctZI5yB4A_xLzU78pGktxTiMdPr45ghICgXRtpxf4hVaQsrdUacmHfhIPvmSeQyhfWIbcLHUStNiDzWc5sW", width: 1997, height: 1110, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103213405744934526830\">The Bauhinia Serviced Apartments - Central</a>"] },
+            { photoReference: "AWCwydjfOUSD09QGnzQOq4r_vCZuzHQEEA5OfbVGwhoPVOvflQ280kniv5p2Exu9r6q0gB_izY5Xs23_QptUWQ45TbMfdN_k6CjyjWa-PCeXPLW4GsyO29yrtCGDnY_axhQ8vv91DViKQiM5LulksFQbAiDgKP66wNQwg3Y7FuhaT7B4o-h1CIE_JYPgheK630HfOrkg4fucy8LgvdwKZ7cgFzyV0MdTONEmIxdb9KO7UwHijpINk7wrFz72-8Yv9RxRzj3vNYkwMg0RMtmCGNKqZEzhWlSNIMwk3AbFZVQuNBEo35xzQEYqd8AmWufByQHFnhBQhAaKSB8pVv8kI9TAO8msx6ojltw7xbaJQsZbe_75p2HDBKa6lpSZTuSyil0I7UaQ4UhsKE28ak2IElHMyCOK6fY3bxZV4CPDXKY3_j1WvmPTZ8UwoTYgMSOT0Q", width: 1997, height: 1109, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103213405744934526830\">The Bauhinia Serviced Apartments - Central</a>"] },
+            { photoReference: "AWCwydh1fl5gM6YT5_0BZbd3_9CY_N-gLdG5jsgS5Q089hQyPsY-ybLbicBgHc2t25Aw3O8axLJ3_EBVKPj8wvm4lTqewxB4IgXllyl5PAb-3MB43mI_61AprQIwB1__Zo4bMmlKgbYHbwavwJfFyhoY7c7xzGG3gCEItm2SlS9XNg-KHHE9PK9XoDo2H9AiA-gR6FBB1uJv7-7yWbLHwifxFFL0UG4b4C0MbqfYqK9rL2j4_NKW9mOHa4muk_Vrkaeq4SkPASYHlYjeB4oBZ1iFILiUPT5-Qif4XK3NzvvOApWC7YogNlGRvmz87jo1awDSbEq3f6BrWT0zwGXepvfeoQQFhoSEW18vYRCjIcGqYFBhMqOBYZP-h2s1YkFJYwc11ttXxnaW9gtqa6oWKmUPbsGqu5Gw-tc1jHBXeXNhbT9zy5TvfOFW5ygusKiFdhPg", width: 1997, height: 1110, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103213405744934526830\">The Bauhinia Serviced Apartments - Central</a>"] },
+            { photoReference: "AWCwydh3Z2_rtHjscWmploXQVfMAxgKo2Um-pMIiexNTDfd7Tcg8Ytl9ivtaS5zRC8Jl1CxD6z_2uS8lYNvIRB_bwD2oB4XAkaD2ULQvFvur7sZMl45FjUEbghygqPZ78EEJkbg01jY2x5Aq9u1e-w8UAOh7-JdU_ueVjUDmGrO67K1aWO_tRrB1PPMxmmDcKZU-OXDClpPAPbKUSc7ezxdmdyBPwgbEAoZqm1fgUSKMSmvZk2tQO0fjqegf98FylmmbyjNx4VYqxcDpiR8z_j30MJS0qb0-AaPxXk5TNhO9i5quvI25tJlsEl6YgA6LPD8Bexd4rUTQAUJtJOdASBpK3WrA8qLk3zzzB0gYfXNRmGoevJ-cKFbwzX-UWGs6M1sedUAMzDpBxoRhs8HkGjdO0_Lxvo9HjmRwIysebaVQhbIAXp_iBRIAmyqRkkkU2i1i", width: 1799, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103213405744934526830\">The Bauhinia Serviced Apartments - Central</a>"] }
+        ],
+        summary: "교통이 편리하고 리모델링된 넓은 객실을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["셩완 MTR역 인근", "순탁센터 마카오 페리 터미널 인근"],
+        tips: ["방음이 다소 취약할 수 있으니 참고하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Connaught Rd Central, Sheung Wan, 홍콩" }],
+        location: { landmark: "Connaught Rd Central, Sheung Wan, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.thebauhinia.com.hk/en/the-bauhinia-apartments-central/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15226771712379748371", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%B0%94%EC%9A%B0%ED%9E%88%EB%8B%88%EC%95%84+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+-+%EC%84%BC%ED%8A%B8%EB%9F%B4+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "YHA 메이호 하우스 유스호스텔": {
+        photos: [],
+        placeId: "ChIJS2OQ7EoHBDQRbec75jRUX6A",
+        placePhotos: [
+            { photoReference: "AWCwydgg_NuFhhDBQnfzbUZ7t0G8lnirD_kA6tzIqWQuweqHhTkumyIVO_tzbF0o9OT-6puqq-15kkBi5ajvEJd6vXePfZ6BtSV2cl55fprigU_DhZY0X2TdE6UuMu960pfYZF_xNBuf8vDTtM6YRcuHnNCYkiUkX71hQuo3WKscRHU3XDtIhPetDAJO3tlB--Pt_CEIDppEcyeH6H-O3mdYi2DHLZ9EupTfE_7YxCzBL4UXlmeHUiidQoRbNtENO8Qcy6nAm-LeQTo8rQHeFosFD4eaxnNBqoF4w-jiPYNZfZ2MXoUhwho-806P3TW87cjrA9aUSrjkO7nIkZfP-wVlQvEU7nUIskrLtRtmOIvTgJAKNhQQprdQ9jZi_seGIUhGGBmNph08lnc-dNIR5K4FoyWrOgLOgOggNJiIa2RiCEe6SEs", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108611828419734039492\">S Yip</a>"] },
+            { photoReference: "AWCwydiziUjLHOSj5mc1kaPXixY84EraG7l-9L7as5Q5-1Fr9NoHWP3XB4uT4VT4mwFlhM0TgPeZn9ytCBV0vIxdDqw8U-_443_8qVt7bhqbnNWoXMTSuJHD8VccuujKahq3ijUBSOvG7Y-pemAsFcoMnyZAhHf_JKqZcB2BV9vM_buKmLsHhfyalKVKYU3gLyPwJnUzjInS6_lTqr7-jq3MlfUC_j-8zJB6xbC7U8S2T3Y85HHk3xGgVRp6bE05LS5uMkAUCiSD6ExKAFUf6HbVTEWBMMunmGkmcZznDlhrAjvknhnwB89vEfOirhsInDlQs4z9EBTAXwPqVYiKY3pRStyPFvpcekP_JSmHw-lY6WqXUgw6HBdCvtXaYnaqFo4NTfK16z4GKue4d_CT5GVF_EZ2QJFdV_1pEabZA2R3qv0Lwxgx4fvYwlUY21BlaPWu", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110319873287158340776\">hanahubuki</a>"] },
+            { photoReference: "AWCwydiOzunUDFUuZPxL38w_xWflDm9RDPkVjSJ_Fvv83lV_C3NvXSATsXGJaMnIZpkkub1feSuj2VxnFIrhavRY-xAaaVJ_EvUsDQN0bj2gkCcl48-z4qeGgJlujEDEQMgctIHdihVXXa3P-cNc8-nq-QOfHp5hekTueAofZIj2bAWBX2vIgxZCp5OHXd9ixMpAgpCnsvT2dAPZ50zAq799D_i5AGWZxc3pJYF_I8Sul2zwe_jT50gyxoPqyqP_g-CyBTwDQo7JDV4aGXkYwyl1O68kT8D0nQDhnr8ETHN0JJRAw4q5Wsfol_wL8QAIo4QXwidBuafdz82ZW36nBJ9V6SQmsQVNKO5R6nTThOXXKe4uxWlABE3Rdd3Q4FfwJLUtNFjnlHV1HCeCIoy3UIWnD-aSRrljyxkfqNrO-Ulmhrgtcd7e", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113561051762777986415\">Chris Lo</a>"] },
+            { photoReference: "AWCwydjmPtwTbJ0NdnpsBD8gbKx6ntxqSHE971GdPTtlD-z16UQ9OQFwlfA1YOvw7xqW4IIbScaMa0vuuU1Mmt_C-P9DQABI887ZMr-uU-UOMatbDbajyQSulAKE9aXga7JVfJRBwC-TdDfoVL8scfRK4MnNtaj4ik53gN49QKJMqTdLPwULym8ZYYGI8hDReyaHZDVkVuLThaHwPygi1YgSVfHDLhuCbh-tdNfD2ZX_wUyK0H3ObAcFwaHsm1ZyvL4IinPhf8FvJKyLqk3lHiXIPzlIGCGz6YEfcABbpBAzyLVvgKJ8ib716rzntyV7ttOZV4U0fmSTTSNZAJwHS6KKEflgQ4QiuV_Q-XKetq75M11G4www0WTZQc_xy5J96lAqh0hH7t2A8nPAKDc2KqR_nxLXgt7s5IcAXBUPKHKikwcJrQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100568030987190747833\">Lung Henry</a>"] },
+            { photoReference: "AWCwydjrWqkK4y_RP9vytGhFV4t7fuIQD_LAsoJL_GrnuTCmw3vz5qMPVLngSPBTpDC3wvFMvhnujj5oTHCFXoe7-E05DgBl3T7QcNK1IffpzgG7iH3T19wF-j-566H_87gfvoKE093vblORzwDMevIxqGyUd77g-s83DwARnfSi5tUWQie-oJz7hl05oznCndmGU7PIeH5ssTCMrX5URGP9AmoIETgg5Gd-j2-7k_HgQ1vuhPxnHcs4IJwBYPYt7Jr-XNS89iiXIpwWK_4KqghQlNe9TOQ9VGbvwpI1P97btL4hyTcsr8iFIq9QY0CrzJN6G_Dc8pggTM_H54u-GcSjK_TONW0vr5BoQpqYYZx7qfu_IWlSp0vFsvVz58lh0qpS-aRQUDvtBDCRk2JpaT3Wgb8EihMaMjAXucK5ACDSE8noWA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112780811493355663260\">韩恺璠（Han）</a>"] }
+        ],
+        summary: "청결하고 편의시설이 잘 갖춰진 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["세탁 및 건조 시설", "구내식당 운영"],
+        tips: ["지하철역에서 언덕길을 걸어 올라가야 합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "41, 70 Berwick St, Shek Kip Mei, 홍콩" }],
+        location: { landmark: "41, 70 Berwick St, Shek Kip Mei, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.yha.org.hk/en/hostel/yha-mei-ho-house-youth-hostel/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11556047755033700205", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=YHA+Mei+Ho+House+Youth+Hostel+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "예스인 - YMT": {
+        photos: [],
+        placeId: "ChIJHyZLTsAABDQRViOs6U1DxEw",
+        placePhotos: [
+            { photoReference: "AWCwydhpBC8d_K2CMdsVQkKFlX5e8OQUx52zjxpqoHJg9SlpRYZ7diV3Xr3AzIsloTXQwoIE8WnSz_I2fMsYMsf6HrW3hAG-g-0ZWlPenGF_yLE87EBsWH8_zm4y0f92lGwwpr3vXmXIHuWAukiy9VD2N4YejGFmfqEr1ZMX2vW5FpfTbdHNP1w9uAalaSeKer4zAvbnte6i7jws2QMrOnPfm2Yw7ZIi8LgshS_6uxnU5lZb4gwSUSYmKKgTZshKkG63nTYUGfQFozWKYJyrhqnJL8TqVy9aj-1DDOpyQC0biWbsUG9zlKHbDnXkE8f3epnTYdUj-dOR6UA5XddIEGG9G-9cge2g2LQlYYhSVSt5ott--7imGhcX4rguCzenGXjRrLv-lZCG9dkWDdiTMN_WZFqZv5g2HWesHlithp_Cqbwwa6w", width: 1920, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496835044636878317\">Yesinn Hotel &amp; Youth Hostel 悦思酒店&amp;青年旅舍</a>"] },
+            { photoReference: "AWCwydhZXGUKHpyUGPM6RDavIXSIQy8rgR7K1e3nrSXLinwZTzJ5vhJWr-IkRAEBthPp3W3LzzmsIQKfKGE8AosghJ01-nZBUONho_xDsKZpi2EnXiI7qeZd9TWVCKaE5gJ0T2mxOR92DFNd6R5cAyEqCTxXAjce1Z5O-06Xm0OOtpXp5eLHLYu_yeq-eKn3Zuh_4gQNC9HnRLnT66_umO_sGoXW_Eu2hnPe2W7VF0ga5NJX5tOiqqwRaja0fNp_ZVDo0rfkgKoHN1tRR9M8kwyChZEEMZYkZKKE0PvjNTBvuVHHrskA__-joNbcIK_4R5NcBVKlJzkcR37eM6nXe7we3fxtAqL-GvDJuOY9ExDh0eQ8aYPUijwBdOzsXRPw21bRYVRSPwzHE4TKsmDqrH-Q2iqVV4lEszG3QwqtL8hR5nP_q_k", width: 1024, height: 682, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496835044636878317\">Yesinn Hotel &amp; Youth Hostel 悦思酒店&amp;青年旅舍</a>"] },
+            { photoReference: "AWCwydixaDJh8A9qiiIJEmf-9TILFoDfQ-qOOHp4aNvnXkjMppFgZPvemJHYydJVXLHZ6y3Ry9U90zgqBgHfohSZeiiO5zpLvY7CKsdYYWaW2hCACEIBL9WVOpEUX_1o0Qu53zJTK12SE6ZoF9fABMrbA8S3n59-S02elAsztmQuDxxocNz7xV9SlIjtknufF9psEfcExE-1egwz0elNkI06jqM2onHyTxAwpeiX2to7OWU2u-MoYLtZsCpkixVpxseWvPSK_xxPbuhCXN014VGO2kJqLRQ6PSbR9IT6nFhOW5bBcYxIIWBoK9bUCfacUaLGZgQpxiXK232GsJy3MAkxE1TCzAAi2EZHfjVwH-2YFAMMwyh6pfR-shsKDuDG1YuPXWd8xQ4o9S3LYZBnkyyvfwiiK62zX9KtebjX8xUOToMRLA", width: 1555, height: 1037, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496835044636878317\">Yesinn Hotel &amp; Youth Hostel 悦思酒店&amp;青年旅舍</a>"] },
+            { photoReference: "AWCwydhGjR1imFBXjFhU-JAuy0MllWQ6BHqIatQtvI6RnypwdDmHanV6qkxlLlXt1D2jVNg63eSUsjFqwEkzEKe_bJd6JQ2N0MMIx1ONIU-vf61GSxXpvMKipM7ZVsgf13gZy93wwxsoKTZQS5SH1Uqnh7CiiV2JlwM6W1eMW0Cgivxv_T1mkb6kfyuJtzCL90aredetAPkbOnYu7nR97DX-hS9U8p3GTQ1q2biDE-4z2jA9OBxBqEU08P4_eFG0j88MkgcZNeiOBlR_BgXzWxZhASrpahLbGlIgFUd8kzYoF_DKvwf2Mmlz7QFTT-PsyCy073EsE3ROujF9ZERbLgh_LAYVQ40yuCdAwJPzVEb2KEdmkglw9naQexLzV8JkR7vGdrBYIMTaMhqRpEmmyfsX21GQk8xyXWfbkaYobie7rgCopZY4", width: 1200, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496835044636878317\">Yesinn Hotel &amp; Youth Hostel 悦思酒店&amp;青年旅舍</a>"] },
+            { photoReference: "AWCwydhYFAufNGjjEito3bAcnyVBAxq_lM-Q5R0_q85A8K7lZd6TyUvkrE_405Zq4UQSn4B8fsb6gb57lIVL7TqCh77UYIo3_ACHVcXQ1tNik_BTIC_MTjTXa2LgekJurmqBpPARpM-XLPiQxO3jfpNMz9i9NWZnCpdTlBstgMlOY-HLgHi8zC3YUdtFGE8JUS0RNCbABZxHJaEecaH7H34-uiFegTdcwC-5R1eEZ6Lt4bkuV2CjiMiXRPGblunErmRORgrTwSJIfwmEOZvq_KAv5dUH3UVyYnplW9MiXBydXCJ60WnmS1GxydzxJSQ80eSFLF1IHIs_Fdpt6Cwa-ycWTFI-N6JrpcuhJP8mizP_0IF0zkEMtkdh_Z4t9WcRFEoVRwtfFiEIxGc52KiX_4Oq0kroxwdGVX0EnZCq8__ItG7h2CCV", width: 1920, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101496835044636878317\">Yesinn Hotel &amp; Youth Hostel 悦思酒店&amp;青年旅舍</a>"] }
+        ],
+        summary: "사용자들에게 홍콩 최고의 호스텔로 평가받는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원 서비스", "훌륭한 숙소 환경"],
+        tips: ["직원들의 친절한 서비스를 경험해보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2/F, King Star Commercial Centre, 1B Wing Sing Ln, Yau Ma Tei, 홍콩" }],
+        location: { landmark: "2/F, King Star Commercial Centre, 1B Wing Sing Ln, Yau Ma Tei, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.yesinn.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5531620244229727062", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%88%EC%8A%A4%EC%9D%B8+-+YMT+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "체크 인 홍콩": {
+        photos: [],
+        placeId: "ChIJsyDhS1oABDQRvCH6d434dXQ",
+        placePhotos: [
+            { photoReference: "AWCwydhP73d5XepcWO-dujI7KZtlZfvR4nSkbtMhp2gopAV4CPprWfRqX79JfKq7ER5cezyrW8MsPw2k7MO5E7D7XuzSHdoQuKBZspEXRlH0YH9QUm7OXaMSahw5kBSzaNg1ZHHi6kO4UmBmanZzArd-KqG_kjq21zZPdCIHEQES13h9-gYNb-k_t5X-77mlbPnHogoIS0iD9u6erLH_5G42ZpUYVZCZZ3SdBnhqgmYkErwQWaeXMhb0EvBHqqOp8TyR5qM-14XZw07LCWu9059IVszEctqWBGNymdAYwyRxD3E-O1cqDE4Yie6SV-zus2ch7j8jgF3HIRklLsYR1iApcaYkEkiJ1VjdCdedYnIi_A-FG2YOx6h0Rim3iaztnXfw-lMs8BtVxcaKhXu2MxtspPvBXb8VKbiPyWqBFfmrDrg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113698092027551905323\">Check Inn HK</a>"] },
+            { photoReference: "AWCwydhhrbzvdWSjYE_AQ6hOgbyUtX40laB3ZvgCDSOl4oSTjQ1DNlbo5JwfgTuEPHg7PZseK6DvnmPXY-QLmyhnSxSumamFJDtcI4cAwsPnV4uhlh8A64Rk75un5GQJvbTThxzHTl3fL4pAZY7SNbIly5qJDMxqvrzipzE_9_iAQFlwyW6ZF61nDSslwC2JZqfXmrDPGFjBGuUqkJj69Tun5gChF1M6i_l6CN9bsz3_Jh3eK4rHpjIRzbEAWSywPDDDld5E22B1YCneosWDfqbM_wpsCqvLIvhhoKCAAqabkGka1JZOEA1XclysCjKftm1uEKWEo_ZomEMO1l_YHnqTkOnxeX1l2l8YN4lIA70AjX7eQu-i52UyZUDyFQ1i19Tig4yYqOIKt9sVTC_4Pxiopf-LYzJ6Us6JWErgH8QrrD33wDVK", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113698092027551905323\">Check Inn HK</a>"] },
+            { photoReference: "AWCwydiI_kCuBBu1sf_LdJqybTBJqi-D8owGotgtvyGp6Yx-9P1AR3rMXKlcJ0GS70Jdl-ApLMtyU02lWfR459ozU26zNBfunL5dXV7E1P2xhyvbmqQgzw_ACslFC5kbZIk96VW3vQMw4ua-1E8QgXtq_gOYsH5OeA9CDRYk5u5RaVkvgC-_JwPbgmwHXZxkUTQnKZo-CZKyOg7iUdwfWMi3-5XCyKhOCWRk1bBvwp5RwXNHNGstPlnGbgAR_7dbfqMZxPaGno_8vPTTQYGCBlgEsJXVPjnPzD4SXqH4sE7mlLGwLMXg_sj0dAfzrNFcdDWZl3ucDjIO2DO4N6D8csoKVXWqvBc25FJ3yf1ysYCK4HwUcyNyAiS9qXo7V5TPt0CJMveKrFazLcB79DjCJm0vtBf1WPTws3NZE2qbC02JDccWCqRtpJw_IamgnHPI8LUw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113103494016220493882\">伊藤佑斗</a>"] },
+            { photoReference: "AWCwydhNGWBzeNNw7mD2e5piKsinGEMsZzxaklLKUoMjW8ozMjiscaClmt2763jseY9Xz-xwBy97vLRtmqntk6LTXdcm515N9oyZNBs11CE-2-XDgjAafl9AzvvjvUDdqLT7_y8XDPgv6PqJbF5maEWTw3qDiG_6vB7JCVvVWXWNIpfQpMKLPn2uqU6J6QjM46S9maGvYSvDaDW_XbGcDoxP23ViCr7JIFqq-82t0QLuUhhMR-cHoIxEq2dbfesyzoMpP6mRyQsA-KgqyA8KXUUTtHV8TENjg3SE9C4nr6zr7UhRH24r5nT1UX5QVzwutsi5G3cWJSL5Q9PqtR5Y_f136AzBZAnPEiABJAVzcGSxCt0CfAeTkP8jm0x0mTLxoeraPtcwn0rzE4XLvX3kYpPDne9AK5jZIYOOIT9bSeckEy5snRs", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113698092027551905323\">Check Inn HK</a>"] },
+            { photoReference: "AWCwydhwlYbRxSDdX4qbdktdzxL5XVT7NiU9cGDnxcT99sPG4w9vuRv_bb24JHhIxq2GFy_xbwTEQnzH7v1_oxf62k0bSrh10lglGvDNJNXlyeRgHyv3Jxxjla5fdbK2H11CFm-bTIV7wdCwLxcGeMLkiVCRco9OJjCcP4pGg71rh6UlvG2BzfHeysokz8aN-HY1DMeGakhsLkke3Xv3z7DNnRC572qQFLIvGGGJ77kqjqQSlpUSCQahbfKfiKTNQAExP2pl9ZjzoQ3NhSpCy-ts9v43D7kzx7O2KxyUqdoBbxSqEQRC8EEtaAikwex7Ue6vkPoIAGyGLg77G4cBnEcupWG7p8cK-UWnvum3_z0N2h4OA2XGq3616fiw9TMfjtJ0R-HmDz-AkPzL6T5OVvGgPr7B_u1RnN8FsQrV6GKmF89RUg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113698092027551905323\">Check Inn HK</a>"] }
+        ],
+        summary: "친절한 서비스와 긍정적인 리뷰를 보유한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["훌륭한 서비스", "높은 고객 만족도"],
+        tips: ["서비스 품질을 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "홍콩 Wan Chai, Hennessy Rd, 269號, Kwong Wah Mansion, 2/F" }],
+        location: { landmark: "홍콩 Wan Chai, Hennessy Rd, 269號, Kwong Wah Mansion, 2/F", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.checkinnhk.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8391886767161745852", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Check+Inn+HK+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "168 유스 코리빙": {
+        photos: [],
+        placeId: "ChIJ6cGRC_IABDQRMGpm9BoZjNU",
+        placePhotos: [
+            { photoReference: "AWCwydhOUVedShM41Gs00E8ru285y8Vb0A2MYtPohBKZo6lWWrNm7kUnjCc2ceOUQibSL39Tn1Esj6e2GmBsBzNlE4WjnyylV1gV8Vp_xnybfygcO0SrikWc7gZ0PSE0n026soBI4iT4r0XueV09T4TP5T7j1kqWpDDpqIcDw_L65wCSCvrfikHWD_3JoasVvAwdN3pPUIXDgbM-yp0JnvAIw5agus7cbYp3I4YeQQtskCzH40PwavaB89vkzAd2QDp_2fQs-athytZmjlKctVm8AgfeIgJVjk6W4B_5v_mC7tM8FsOoxi_uzZw5GGPsdA2CVvPYqhyPGBYxVNGVHf0ayQdN_rg4rcCunnH8jflxdMbc8BWx-wCnDKYS2GR-C3RzSXxiiH_qnNhadrijR5DdYQamSAQd-qmPWBR4NH5vkRfOrw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109208035463810976380\">kanon summer</a>"] },
+            { photoReference: "AWCwydhwKx6JM3CgeRvB4JYKNKeC7tFR90c3RBHuEFUauZoa9q805A0kED0xY31XP6DOCc31keWamW_C3OdCb5YwrMnjCd8wLffvaXIg0-z38Ddppn_uI0lTHlwog0LunlvK4qc-vg97xT2uSTIHS85esArXr2xKW0hxdbqKkT0ZIlRrP_Lm79zb5kT1eIbkUpj3wU4IjQBCYsJe4n516-bRONg2rsSzG76sacbZgzOmIqItUTXxHDRQSZWwPGa-9l5XJDlUPsWylopm21naHZkqc0Ypscg-I4_zdDnIY5L8Vk9KH2Oln7hPmvSJ5ZN1JKoaYf6wAH29R-_hDQpLvW_USaUCOoHzP-fZk-l5_6BWa9VSGrnQ-2ahtHgH4DamrjGjhShtPZRVjJg8qOhA1R5jvysvrr7KJXXVzO0_8zsuQFcxJxDhwjjL-THp6ZLPE6M9", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103445943702650066715\">latipes Oryzias</a>"] },
+            { photoReference: "AWCwydhbiiUIkb3BumEf7Edxm9lepaDjCi_zhKBwmgMY1BMNYi6JuCWgsTm-uv-oGvw4GcdWfUXvtOnRVHR8tr5jOWin727VAah8K2CDja1Bi7uKQ9IU12BfQ_yIkufXR6SuxEHI5PJkbOQBIBb-nx8PpSALrM9riPplDhz0TdfH1VlQp2eTeHKoH6_i_iij14k3-as3ex0E4Q846jaql-k8Dq1EGgIDQy4yYEdVqdvkSoUwqaIlMkO82-ow_uNzppKvIWKUbCp3ITxDZmEhZrR9lY6tbfGObRzgSXdpW1b6j-MM-sq27eeU6Gef91f23FJn7zA6uqoy95sLnGzE03jRBSKUr81hPiogPbtecUSEix5xyq07lBjwYxaaR6BK-B7LSXmdaemkv-7lAN9oZ8N1jlKu7jMb1fgwWa9A4nA8OKBX9MmTtZ5MLsqMMjo4Gf45", width: 2048, height: 1537, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113837389380612710773\">Pui Sze L (Buding)</a>"] },
+            { photoReference: "AWCwydjKLsa_92bNPUOwnW9Yi2pd9EyKa1LfBwR0_nki-bjpj8q_eLjZX0Wsr-5h7JZ6SqWnf4Qxa3R2soPN5bpW9-kO7n6iz4iYI90-cUeY_iuoEK1RSa2HMCJw0pF7OmR987vQyIeG6n9wUr37DHGrE_gvCmNh7AOqNXFuwhzXCLZnTEtU53hVSbVEMSTmE_2jOkLw5-AANKgAg7UvNMJSlSdhYy2YScy3pUD08OqoQzDfwN-MqS92EU7zFU71nx8BLPyNbSCFuddf2sEFtKWjq1gRMAP0DF0JhuwgYt11Wtzxu9L8blsNYEMFXIAN5rESXZhxNgAYsQ02QyF_H6Dqvlm2EudP6zdEpd47xesyh7mbq4_2Q_Obtcx2HYpyid10gFXDMfD3SYbt4L7vxHocBR_5P9ZRBsuw2W9ETNLIBmnXbEy2JPFpUzpOvWXgZ8iz", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103445943702650066715\">latipes Oryzias</a>"] },
+            { photoReference: "AWCwydjkUpO2BcywSWdm4dXx8-GDaddwDr3d2QitxVGgHMOZItqrL68SmRd2JY7AOcVTbw8A-lcy5eupQADNEnVsp9wR3gowvbi2V6kLyq5NOqYxZFs0KvN39r4KvZiChZlgx6JmipIy4udLB_xB9Yy34YMOjj7t4zypbRVjZ-P7G4Hz-r-PxjCbjPpmULXNdR7kLH-xsys2u5Vf8q3Us81xVNnC8gBSFkNbxdDDGfR4YO7rBeUaA47dRUijPd-LOLP4rU9D4zhSrd8RXAmNinuGDoSl2HyFQuFC76WnWUQTo8Qk9rIHCPFZblObaU_312AggwpdxZReRoieT4ptv5aOPGNsMK1mulXLm7w4oEJxLAPG2CRLdJloHl0EmD3jkhb97vJu8Ek4piQhiidgBQbcNr5ADRhKU7TPI3GibpArndfS0w", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106031212310866905137\">烏達咪</a>"] }
+        ],
+        summary: "높은 평점을 보유한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "좋은 위치"],
+        tips: ["업그레이드 룸 확인"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "홍콩 Tsim Sha Tsui, Nathan Rd, 58號13字樓C座C1室& F座F1室" }],
+        location: { landmark: "홍콩 Tsim Sha Tsui, Nathan Rd, 58號13字樓C座C1室& F座F1室", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15387701630378338864", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=168+YOUTH+CO+LIVING+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아틀라스 호스텔 & 백패커스": {
+        photos: [],
+        placeId: "ChIJ05T3wO0ABDQR1B4aS2HL6S8",
+        placePhotos: [
+            { photoReference: "AWCwydhc_D9atlmYXbt1w12V1lt_jcWbrzC7wzhdnuggPU1fKykPbvAF9AaAOyjcAWczdDZLDfi5vDX19X-3mAp-aEd4WeTap0O8Tn3nN-SdIEKmPXU2Sz-APG9bPmg5EPrvLve4ys3TuBPN9WQkNrsRkULLUZ3SgTa4RksOB5J2vSJhv7RY8AIJeDspRgPBXSZy3A4rSnCTmlLlasv3_qtaQXVfifymE93ugSFizwXfmlPFqIulgH6Te5DTuW4U2yOFD1aVrO55MnHXzK2fF7gqDBAemkLAkLloOwDue05rE6jYy_KBsz9DfxR0ZAPfACRb4Y_vQD--TJ4ZNafocEA-2sf9Y2uoIO_9bPvMd34X6XNYcaReShactFk03JpNId4DNgsHVHucfKeYI8UHwuYhX-GYLn-aVPpV1f5fNwB9Uj-cedc", width: 2048, height: 1367, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113653111528756966531\">Atlas Guest House &amp; Backpackers</a>"] },
+            { photoReference: "AWCwydinJcE4Tz150dIV9TPPF297rYzwFXFksOjldfOA2A-c9GKqLbaN9Zmk_uxaFFqMvuv4z9p3b1W--aFMMQyvhCZeG_R8m_CXGq8k3kAQJmrfhAtK4Ovk-R-9uMgEzWEEOsbWYcQSFAZMS9U1CCOVDwqOvhXohQ7TPe6QEseJ-kq3Y2fCv7RVVpdR2aYcPcyUXLBQ2-8Ys786Y6f-PwHvUeTm-veCT_OUP9yg4JBWrCk5e6WGMrmR1drBPuAZ7Podq8tEnNYfa3Iy-iOimkjuEVQ-5nN4EIrwNsS3rngLP9wnSOO3qlvv0XC25waOr5hF1f0PAObwH8SoHjZiM3P0UaaSPu3tBT5Opcc2cvJJ21Dk9LaxW17tZc2NqQyWAicsmN871vOdhchL6tBOSVLcO0oZUO53Z8oWo-u3qdi84CYz6iktalMY-wUg3qUPiSCN", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113653111528756966531\">Atlas Guest House &amp; Backpackers</a>"] },
+            { photoReference: "AWCwydjXsLj1Y5_1QBVNPGJoofdFlEMy6QrxfyZ2V1pdjv4Pb5AcizJ7zz7xVMmDpsHfV8_x8nDHL32OXbwjnUKXoLCrdRwztq62_-twfeTStNN60wGOUsX-WZSCsorCTTOkOTO5KPfa7UhxnNgtXKmKhQefnJ2q_CX3a7B6ZSCzpiY78P8xt9hth8ZgHnttudyMKxVOxmSP9p0V0XxQUcQ_0n72W4mnVNnk-2hCtoX9sIH-y10PeQK2c2oCqrf57j8cKPQDqQS7mdHQzxawzFjRqIKf3ayO6PLvgpKx31ioQVDxLSKkbSU1Iy4OGeoOFyt-BFyrUa0MIUmOn42fvYtaWmN27RrNlhrOsZteCFjeX97q2i9MdcTIvObOcz3GclctqewqZbsSj-MmgaAE2Aau9fj1DZUf-4sX2giJ2pKGp0e36MV8UEZv61POqu-8vx-n", width: 2732, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113653111528756966531\">Atlas Guest House &amp; Backpackers</a>"] },
+            { photoReference: "AWCwydgtwHIJYolmj94MEhzT21UzZ_iW9XYYFw2jvxoBdqz5uPxz0xOiNxJTq7TdmgRVD-4vbHTOgb6gaUcSASUVLDxuGK5-ekFiFiJId9uPFHd9k_DKY0VaWVv2-zbP0BwF_F9gATL7TDIQLlluneN4KYTTysAA-f_F19teIYyjbVmW9X1wxu2DeJ6865caDa4cqHJsZzDFvcd9oEh0OO0NgezLKp1qN9Lw1P57P7kol2J-NNmaWwEV6uaKIkGKWhztgBuXNHx9eRsxzSs656WarNlCQ5JL-oPmtLQsRoEMxa73Rw66mzI7alRf7hjIW11ChyRM5-E_LVJBBtDHst5G0hecUZbCrnAWCN4v4-QKcUBpXr6zt8_b6y8SCH2QJTggKHBaGRHLczOY4kBWhazprvzJ789rEylZyVUHH6m78GYzlN7tkagKXcZDDEG4wA", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113653111528756966531\">Atlas Guest House &amp; Backpackers</a>"] },
+            { photoReference: "AWCwydgLr9I3bSVz5u-e40GyvIT9Y9LNzLbrbOp22Z2f39BywNM5lk6ESY-jZn7xiuBDCCtmHEEtEt50mJ6QH5tXQWf9Bb-npc2l6KbEZhOYMtlH2ibPfKB3nxzSpRA1xbRz4jL8rrBzX-xr4-OTwMGGRY2XDMmUIPhffedJVHdKyVZZCiKrSFGR7gS_qISM1HJSZ0DC7sQiR5JIEQUwXuYei9NMAzm4nMmzaa_f1fKmw8ZrJzcXUIqGJsa9S-wOVvdqva76ri_x-e1_g8YT3MrhFgzMFNJRLoLQgGURT49MgaPKKr_SYA3Hd-IpVeiG6Iyds2YMFP08q0Mns_tXJtvXBcVgujcxUvQk5RYFviijsjVcbIhlJC1Wox4LzGfkwAxsqalh04rxLM2NWVN7nwXFuHS-fO7j-KQQ09p6niM-sNjsFA", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113653111528756966531\">Atlas Guest House &amp; Backpackers</a>"] }
+        ],
+        summary: "가성비가 뛰어나 강력 추천하는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["환상적인 숙박 경험", "높은 가성비"],
+        tips: ["가성비를 중시하는 여행객에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "7th Floor, Unit AB, 86-88 Nathan Rd, Tsim Sha Tsui, 홍콩" }],
+        location: { landmark: "7th Floor, Unit AB, 86-88 Nathan Rd, Tsim Sha Tsui, 홍콩", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.stayatlas.asia/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3452514208088465108", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%ED%8B%80%EB%9D%BC%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%26+%EB%B0%B1%ED%8C%A8%EC%BB%A4%EC%8A%A4+%ED%99%8D%EC%BD%A9+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

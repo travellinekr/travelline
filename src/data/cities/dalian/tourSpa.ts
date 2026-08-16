@@ -188,6 +188,23 @@ const tourSpa: TourSpaData[] = [
         features: ["탁 트인 전망", "해안 산책로 연결", "사진 촬영 명소"],
         rating: 4.7,
         icon: "L"
+    },
+    {
+        name: "다롄 디스커버리 킹덤",
+        showInInbox: true,
+        hasInfo: true,
+        type: "theme-park",
+        city: "Dalian",
+        description: "퍼레이드와 불꽃놀이가 환상적인 테마파크",
+        duration: "1~3시간",
+        priceRange: "현지 가격 확인",
+        pickupAvailable: false,
+        coordinates: { lat: 39.081913, lng: 122.000064 },
+        reservationRequired: true,
+        openingHours: "방문 전 확인 권장",
+        features: ["화려한 퍼레이드", "환상적인 불꽃놀이"],
+        rating: 4.3,
+        icon: "📍"
     }
 ];
 

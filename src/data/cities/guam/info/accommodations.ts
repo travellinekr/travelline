@@ -248,6 +248,56 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A6%AC%EA%B0%80+%EB%A1%9C%EC%96%84+%EB%9D%BC%EA%B5%AC%EB%82%98+%EA%B4%8C+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EA%B4%8C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "호텔 타노 괌": {
+        photos: [],
+        placeId: "ChIJZ0bAYPaDH2cRbQqT0UHVfYU",
+        placePhotos: [
+            { photoReference: "AWCwydjNQEJ0pRZ_yo3SIg_LVGmld_rVkkuZB3hMXLvSX842cdbpznE5QgJ3A6A0YQJgB7vYx1rQOLOdY5GKJSm3RG7ocWsaRMcLGTdW_Jcqfsw0erIrKg3CL2G9jq2zquCfEdZBbQjaNc1Wn_vZDFWzcwn10CndL4eaWYwe69Ol6wZ-BCuwUUj44_BrA4rXaA3jsAMVIfxR5VLvIUYjhFeXCwhS-zkGaeht3EeiW_tMiKAxESAEv1zh5gv_bB6J8DqQK4rL6uigiVDXnbWQjLp694f5De7i0wvjn38CvALteSsA9naCerP5KNmjmrxuVVnt1JzrSx_Sf7iHnybdBGzpmNWIqr447YoSj2t9G5BO2oE7atyzxCRUk1xSryuehbgZrQzye3F7rWeS55VjE-aluOYCXk-6X4O9dusgnEdnA2Lw_ZM", width: 4800, height: 3594, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115932995603958910921\">Hotel Tano Guam</a>"] },
+            { photoReference: "AWCwydjnalZo-PsQCYz3lH_bVXUxLlRQuMXle3GAWd47f6YBgcXPJBDcL8qxsWke1tcU4xaMKR0lf7z2603TI1Ji7Cds2k12okkIq92ghimbgeV7kGkKj-rVJnuBTfNHqSCSwYM9sJUn2Es9bQumll0BP79Og_xQzz_xYb-xmxLuo0yhnRGOaA0G793-d_eQz454hvByBZk7MnX_lWbiZ0zcllJjn7h62vySaotkRNk76w2-bFcxUJERCJuN_ZQrAD0Lmn5dbrwLpbxtsfOSQK5G80NS95edR_fsNKkFLBASglVZ6ueWu7KYMvKqTh2LY9CDL7UW7JyvO483X-t8ZIWA0V9773_IM7uLlRpWmm7pEfWDbU3BQxl5Mixi82q4t8K9QYoZITQFT29XItAqbrwLX0d04tszT0CZkmAboWK9yte84w", width: 4800, height: 3197, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115932995603958910921\">Hotel Tano Guam</a>"] },
+            { photoReference: "AWCwydguAVFbz354vFI-7ZlViNu5kIVWCQLA1kUqmo_Q0vtR24u0CPcTN2zycQb-h7tiVqqFnlBkTTBT_-GVjUPzRN8a6Quuq3LiG6vX5e3o1Io_i2hHVo6ehYl7hPEi8-6SvkONJWtIt7mZuqrK-jKFopVzYtYBiE1JiaoNkT21LeENseojtgfR_s0q2W2nrgnHHMt3kR4ENZJ505RI1xZNkRqoKCxznCyAnl1sBLBxItV0KsXV6sA8aklYTN7oWkNQ5BjsiPdHDfxgFA8gGniVflYqSEqJvPHP3YXC8OBzQ7muwnXshwFTznl6JB82zgvAmQIqktZMNXPHIaQVOTFHcn3w6kQjrLU8eOVsR8dcf72FJkCh4Uadrwobg9aT32QMe5TrL_3JZxFmwDW9J4CLDyQ9wjGQR2LIyDCMRKnOWnzI-VmYtSb9hAOxspZTtg3T", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104341212388707558697\">Denis Richter</a>"] },
+            { photoReference: "AWCwydiV4hdgfPjug3lOZS0E3_NiS0ZEmBfx2t-KjgWyHlrK11RvijbWlwkQCJA2kgz17LLfpDKmZ1xMgkA_Yl1Sxry9RNJvjFi2a-ZDuYM_H1gyOvmexztC3NwM-FXlSsmj361NDtZRpH1mvB-GG1sQ6vpmNA9fzIM56zkWnJQHiV1eXMXRwBrc5ZgkdM8Rk7iVe3Vz6j0_-uNj3whvIEp2Z4w5LBESBf3gskmXAp8aQqSt3-mL1gWj9kUVWaCygxkquzZCeSjOf9XHjlBvXHG61HUhjfA5ro_bqx_lfzDsko3NTP1H6Zx3NC6Xbjn9KoHtIDpKHI6Wj4qhWP1o_2mPIJurwuNTyaPq2P-ZVNAMCDvgFzM2urVz4sIJUlBMXL7H-gdL20rvI4ez1qQpiNSXkn8YiniFLiBOQKwO61PA580", width: 4800, height: 3197, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115932995603958910921\">Hotel Tano Guam</a>"] },
+            { photoReference: "AWCwydjG5tT_gwyUBFy5YJOfFeqPtJbIB2T-VQsZiD77o6lEEVTXFbL06C3GjJFz02jsa_dY5pUI4uG8IFdhqiSHKXWN1Ba386EOVwBot9_DQqLQ59FL8IKTlOESMkgZ59LXBZJjTnoXhc4YAIMJ7dovAdq1Qe_Ajbyb8Xikw6E4DtMxiX9Shd6Uuo7QrBcIzN4CNJmx15qwbwOWvxMfa_Tycp6aUwXXYQzhyQy-uuTgEBzUhQNm-hXeHwH8_aTX7CTovdNQkSR6GeZ868y_IxTcMRnMiQvcvcYob88JCFmkYSwRsFhxJSB03gX9D_PY68Zp527MY0XBEQ0xIKY1pDohh0dV2339UkB0GUUawlDzaIgikScs6CMmBVf_3gnTdhqukuKfPzd22zvojlORlNd7j4LvBX95s-gVD2ETlgN3H5Fodw", width: 4800, height: 3603, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115932995603958910921\">Hotel Tano Guam</a>"] }
+        ],
+        summary: "편안한 객실과 뛰어난 접근성을 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["최적의 위치", "편안한 객실"],
+        tips: ["주변에 레스토랑과 상점이 많아 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1000 Pale San Vitores Rd, Tumon, 96913 괌" }],
+        location: { landmark: "1000 Pale San Vitores Rd, Tumon, 96913 괌", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hoteltano.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9619078857798912621", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hotel+Tano+Guam+%EA%B4%8C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "피아 리조트 호텔 앤 콘도미니엄": {
+        photos: [],
+        placeId: "ChIJv0CVI_OCH2cR4CLRNcKTtLs",
+        placePhotos: [
+            { photoReference: "AWCwydixhPGYNAoQv6cBHLOEzfFrPiBStVoz4LVoWMaVgy_HqR6HFYEOMs4mZiwB8PVLwBHu8xA5EdzsVGgxZtINVxQ0iKGGxsW02RyonR87H4lRjLpcArb8peZfKrqu34xYtmKvvPYPKkkZmvMiW5WbbnXVKZ54D08apfnDvvRrHVaSMd-Lk999IqiQQc7ni_4Z4KXz_rTyOzQbgdjXEoG9yvVucQu57KMik2QxBy954DBxAYDzkYQLu9ZRdcPe4TeN2_OYNWrievrJBHPTSTw_fsaVMlWwzIilfjAXNQF4th8I5RicTlJCiLrndMK48nQjNsRdq_2zMF0hO8eUKEWErXo7ex22kdgmUGP2yTLe-GT-A_rWXo3HMmbHIRUeeLOFeWJLHRnWbKS-Jl9XqQOlCFAgs9msgWcMjMblvCJSI-eqszt9oR9yxYbYz92B8cYz", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109613806993781190193\">kaori sagawa</a>"] },
+            { photoReference: "AWCwydh0Gx3CLpB48vxiiUb983eOd2D4JGY8N0rExdC_TcfWxG_kZKe3IDrskQxM_Tf23ZfUCdeEtpDbCoZV7kwjKAdUVq7p5VB9mSQpSgK8Kn-ncqoaFELvGrP5sK3_WNdhadJhmScK4tdMNthpZmWgAxYuGoJKiK4l8XimAyzm0xLnLvYJC0j-ODF00wcv47SGQ-EZqonjNmLv25g1CMsQxY58uXN957guFSnXEH6cxpeEcye_g4DSAo7hux9fa8l9tNaCkWaCh4wtkBsvies5Q413nJRXoA-Rbb5Nd6VCuzQBvIbJaFua1Sm4dk4OmN_-KNHhdOGtktbNUJte5MiFyoHk85MqNqnrmg6kT7Gsd6UxWqalJuoUGt6NsZuGB-Wa0mXn6_eq-8pwJ4khz2_oPJcwlt7jS7zn-vsD7uvqltYg479t", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105101504505026589734\">C.H.</a>"] },
+            { photoReference: "AWCwydgpC85zSUbLBIXoWQA1BC89E1CGeSLt0Rju_nJZV7OzN1fnrNBtXOFZG0hoEKkscfZW_LcBNf_I9JbaTEWi-MLJKL9Ilco85ntpsls3MLzJutsKkPBPKeD7lcRY6i98ILlQkOWQgXwFOpvmcRIm_tgjrxRRFWRYkHM3mzqsoABSlC0PFLGGXe2r4_xMT5Qu6HuFMkaeiO561Mv8muDUBB3G3HnRQZf6vrWuMbl6VPl2LmicHHEoZAneD90GnvjMeGaIZKbblQGAoRff8f6B_bFzK63N5T8OU1iNYSDzzFeMF2lHdLnNmZPJoR759ssBr4tDAQbFKoOpEvz03bqZ-sEjquu_KLt1EB9ld_OhisoF3G45taB8OoPOah3UY1Xqis6iHTjMUrA2sGaj9L9Rh1QPowIoQfU_33uyQQGZnNJfTxN5", width: 2048, height: 1152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112819230288980274264\">Pia Resort Hotel &amp; Condominium</a>"] },
+            { photoReference: "AWCwydi_HMKgVbdwmzyic7KYjJjJUFcrSWSB6-vGoVzDoFzXfYg82mXMgOjrYrkovORYKMscsxYqpzaeEc3rzm6TakUjVRyAfw_02axBeD7X4JCTkkdm6TbUdw9TvgERsjMzwiqRkhvQij_u4IlhA-GCxmpumtKfzSU_aVSZy-_QJ4pGxP2PirQZOiIxu7DUfiZBxGUjVIaPTuwD59e7gxUR2R0PTeTH9OydoznfqIzj5NpBdBGYzA_4xU4kmy2gba69M5DTRdyPZyAFwu1egCR4EEzRMG0Uclb8xiyAmsKQDKC4_4Q2EKI9ZtZpNRuBGIVdkRvxa9vrFt5ErkuRcdhPYWr900TdkF-eZvlaAXBV2PI5CAPqMFzGOamSj9fB1YcQfLfVuxpFNJm-LiLTmKJ_dsS1nfxswCAdJfzY7CRKyCfPGFvW", width: 2048, height: 1152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112819230288980274264\">Pia Resort Hotel &amp; Condominium</a>"] },
+            { photoReference: "AWCwydia_L53eI5dAhphzM6RuST6U_c1KuP7MIMxwUkLMI-_7F0SpTETLPmQ0ejfPKhqTkuIr36UtC4qclh9vy6RPr0hQmyTR4bnBnjoT6ZLDhrqulXcgC-A8oOL3u6n4lBZhHES-cQqZxXv25Bg2tsmU5Mb8glu-1oIgewlBzFS41iprgHsoVd81Pv-4d26IDJvFOsQSvUzEVGhXq7reFoooi6ePCJhSitE9EA_8d982LB38ZOKERQyHaP1Ljd5TIvRHJzVKJYtlLyhLAHyFUwx_ulstFvwhRFZ5MSWDWTqmK6LLhONkYMKndJdIJWnmH5malxpMQv0CMuhjwVl-DM8shWcvfyFdqQ2ypJZrgbBwGGrP0Vba14DCHBxFr--CC3oryPCGoO-sbGQ9xuRSu6HvdeqkWHdwKRgwnZC8mB2zUbcpkaZZKKdm_mtJw2JlWUL", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109613806993781190193\">kaori sagawa</a>"] }
+        ],
+        summary: "투몬 지역의 우수한 입지와 편리한 시설을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["세련된 인테리어", "투몬 지역의 우수한 입지"],
+        tips: ["도보로 자연과 쇼핑을 즐기기 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "270 Chichirica Street, Tumon, 96931 괌" }],
+        location: { landmark: "270 Chichirica Street, Tumon, 96931 괌", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.piaresort.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13525598043236279008", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Pia+Resort+Hotel+%26+Condominium+%EA%B4%8C+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;

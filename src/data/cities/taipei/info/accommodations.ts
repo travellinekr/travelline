@@ -500,6 +500,481 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%9E%9C%EB%93%9C+%EB%B7%B0+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%B2%A0%EC%9D%B4%ED%84%B0%EC%9A%B0+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "스프링 시티 리조트": {
+        photos: [],
+        placeId: "ChIJFf35ckKuQjQR5sXfjE4S2RI",
+        placePhotos: [
+            { photoReference: "AWCwydhW6BRRtnNH6k8A4VBZw55y_leTcofUf4c4IuHrU3IHi9eDnmHC0gUaW7mxsW1bKUQvx2L3KS7JPPSsyWScE6tnq-ipiTL4z_eeBQpX-7nZ_2Y4qsu7ko5aBZvqOZYHnOmsTcMiFSX2xYsZx6kxOtUKLIrfJbzIE_KvksA9ZS-65OY56WylwGQqP6Y_sosL-fFD1dLaFw2GdylG0vGtzp3EpuZqWF-Rld31cshPknGwdZlb-p8P7D7irAb1E2TM0tFrBo5lXS3-l6HRPktEVo98y_UOGNnL7dRhB_sYqXgBqkloqd5uaI94cNLy3XCW8ZawXVTyLP9dw_GLXFevWsN6BdrCnti1VOPbVQB8YrBrenuSQOMgedA1pJPHygYhfLbJSeNT8rttYmjxIsEEEwuh0JjFj3A2JpsekNysxNc", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104583253988179531127\">Spring City Resort 春天酒店</a>"] },
+            { photoReference: "AWCwydhss7f0lRVSwClmH4wZhgK2BMHV119R_zFr6DqGfUeTUwl8G273UPre27X0bE3p87aonCovF-0aDaLjUCQe_UUYULIMAtme-Bkz6sBy4sujOFWuLJbTFidakwDsFH9aWmUW8VehooM5Nmj2fAIBHmCErnt9waprLLNMI-0Rot0jV1AkON15xdW4J1CCfitqYVdrDnfNlqjwtwJzVu2YiOwSDsdFS42xFhnvqv39Qnx7T7xvc3mvwdkyjMGTbEOb1NnnrUP92ihwbw2g1RgKtdLDPhd3R121j3IL5bAxYrY192Q7kSQR9U-3zc0fMdq3QORr1ODiArjCcrVdCX-br0MAsF1ClEFZD7t9m01fM-jhQiFkFsYIdF_U4aIeZnsXI5h0aEdVLoKvq6R4UASqo8xNq7YU7mSZy8yAXYL3Dl2kSg", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100437393035853958012\">Basel</a>"] },
+            { photoReference: "AWCwydhcdnEdb-saqWnHQ7xGv-sJe8-ufg2e6-geFdtAjv98eZGUqidmut88-Igqhyq91bruQl1Xq5FNaXGfLbR-b-APiXTEPqkDodWhJ-YuEiAFGnG42UEwa_UYB8zXNXRiTP9mLUIw4I_dTG5EoFtV2e6no9wXma0ACwAre_tsEQpMbL5GDUnH1UL9vSQkAwX_pAjbrY3bOZ53ZjdOJ-zZ0_U2Wr0rpAWrs90bi2Wl4HEZ8iJ8QeqFxvgRx_eHZwbUyI0Ked0m3TKxhsvXMk6Ut0FVaEWgRjPX1r4AYrUd6Ws4lk3ix74BjAtoHISaVh3S8ndr_lxdsH0c1dw04BCn-HkSJ_PCfLTfMwcMEDHAhBuSfGsXbRJ8SDtKbx4znzvC2ZXb_HzGgW1bgGvja804ldI90mX078p-c3plmnRSboDWfGIB", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113339884296500061352\">Kay Chiu</a>"] },
+            { photoReference: "AWCwydg6dAk32HArg8AQZy1MqJAn_ST5Vn_iT_cO-LWeXneSdJLyo_pXjwKq_ZYly9FBZ6FioE9s8-0vFqEZ6WL_2KE7HMjhRU_ptv47z3YBly5CA48RLra2Ysc1DNPBVHaYSkaXgJf3pk9jXvrQ-ZmRZ-kYSpnQq2uEzl_0CjBvCogJm3GHbsTGidwGDAqWd7_qa6AX7P7z0_yQJLQaS9unzdnhxB9vOnqRvepJghHmudsqotCllPs_BCCkYzKI1fKHGw2QNQTRaViUlPutwtfz4-ib3_2MPQ1j0kpsjSPPVrexJXqq2QeptZv2JgeilT0frodihc9hxRsQSOUvHIwcRrrxzZ6fBW4BNoVfumQoRI_UC-D_EEubjIo9cYScgiZdXqd8OOuQnSP3GfkQrUwU2Dstfo1OiH2SKg0ISqVixAcytUyk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102295017230436973144\">Katherine626</a>"] },
+            { photoReference: "AWCwydhMmv2hHR4x7jtVrxbmJkJQRZ4HFoQsywjyutlPuu3jp1cFrOcHj9a3jVIZP6cUx4X-WNcFrR5o92isFyK5bjrnOfguK7AhfiGWd-091bQp6eO9CD_oMFJlv8ZkK9-sEjslAQ0W612V7Odr5tdxzDeCVLSNiJkLih9_TfWsiR_UffyyyOXJf4lBIpBmsfVwa_dv4NQpxgn0TCGxspxz7sYicHnOuMzF2e9m0p8Tskxkw-bgjp0X_NHd2fbeDo0euUSxlae8kxuEy1zgYkb4eunoxc71wwNifyCTux5RJSgm24W9naI9BF4nVkgBmjV0MkznCWasV_ZpuCIpNTZEE5BsxP8iBkwBRXpCYRnQwbV-Q-i3i-9NQeLyG_aMeqF8bn-T1JTA4vE5wc8dqdDy6Y5oaCpu43R8C6ktDTKze-jomSA", width: 2048, height: 1405, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104583253988179531127\">Spring City Resort 春天酒店</a>"] }
+        ],
+        summary: "다양한 온천탕을 갖춘 전통적인 리조트",
+        updatedAt: "2026-08-16",
+        highlights: ["남녀 공용 야외 온천", "베이터우 무료 셔틀 운행"],
+        tips: ["수영복을 반드시 지참해야 합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 18號, Youya Rd, Linquan Village, Beitou District, Taipei City, 대만 112" }],
+        location: { landmark: "No. 18號, Youya Rd, Linquan Village, Beitou District, Taipei City, 대만 112", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.springresort.com.tw/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1358136891209139686", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%94%84%EB%A7%81+%EC%8B%9C%ED%8B%B0+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아시아 퍼시픽 호텔 베이터우": {
+        photos: [],
+        placeId: "ChIJzUPpv26vQjQRPOO7iWTzXp8",
+        placePhotos: [
+            { photoReference: "AWCwydgeb_fxOwYPDB9CWQTOTAsCypJIWMhJwIqP_f7JAXGG2s0b9zIqeCiB3VrDs0s-93o8nKN6d9jl1Do4TFgjhhc0AYeBh0Gtij_i608OdgpgJWKfm6Lmi1QEjXlSZWyyBvGMdk7gd63orFrZQNNowm9lf9yawdnTmk3OEx6mq0kqD5I9W2XtlU12pC5vVFCCJcPzd0RJ8gharr5l-26NzYdmoOMlYIoaMohtUET0i58WZkEO5bxXQjrWYcyc9WQdZHxLLojWmdVoh6i9shGl8GO42kyPUZ7lmsO5xCWMnTg7uPS1_xoVwQkbr-4U6XgkGSwgxgH2x3vzs37SUP9xNVJnK5T83MigdDBhTPP7Tb2ZXp0CbzDxPHn5FWX1fhJUKthJrCgDp8zL8x-HfJI0zzz2L5ZLkaCcV6DT2t7VaIBi_A", width: 1200, height: 801, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107297579940701067285\">北投亞太飯店－台北 北投 溫泉飯店｜台北頂級泡湯｜泡湯住宿｜旅遊住宿｜會議場地租借｜北投住房推薦</a>"] },
+            { photoReference: "AWCwydiZSOnZSEA0ZINne07jYTva948TmHw-zWaEyDz5zN5Jnihe-wOK2w2s3b63cz4jxQwsGPrLIAVSCtYkQviCHJwKSlEYkntV6njyjVUz11GqUVxfdIsz0c4pooK_v6x2e3wniRasb7ZpdAHQ7Vv6jc9ZOfl2dE66yzHwSpEeaRm8i2XjyYDV9z4vnl-XES5BFnAC5Xf3E6ySLjptODDZ6PCVuDPboxA0vrjxKqIjCsrXJ04ssvw-RiEaq_6xQzs69pO2YJBZdaVzcvVZttNCjGDRRFhxcFmYUXooP3gwA7uqGrDiIXlTOOnVKBYLY60UU6dkEVeNcXr1D0J921CSHoMgHGpEpRzTNqEGnlVCNpPJjgTuH7ZMaRSYWYoHO-CnalkNTt-vfJOdcKyfm0DSF2CG3kUqNXKx2PZ9BuFXT-MmxpI7", width: 1772, height: 1181, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107297579940701067285\">北投亞太飯店－台北 北投 溫泉飯店｜台北頂級泡湯｜泡湯住宿｜旅遊住宿｜會議場地租借｜北投住房推薦</a>"] },
+            { photoReference: "AWCwydgFmMW8sxi9Skz14Zzjp3DxQZUCctmNbXfxKtINfMj0OnX7kTREi27Fj3iwziObSfOwtgCHToaHHFp95MdT8YVspSHzQVYZrGGmVTW-S9ucgebvSSph-ykl5fshhg6_3FXOBzXZbFrM9pAK-nZtpFt0C-jI4ORStkb6RPWsE9pTFfDhXDfQoyq-QAd4jnMmknRWS9dUm9eu5gtWY9C9_nTuvnAN2bGsbmRpOA8KsOHVI1K8ho6vdviI4K1TgHOZGECNHXDtfo8e0fesgvHl-ZCLI3dukHPl1xq3ModaSc40o_0vDbnqQ20PskIBvw19-bB-qaUL1Na4lqgJ3FpAezVHMcUhFQGkt4K58lFqAYpOofJFGxh_JUveZX8H6UCcwcBJCLyW8C5-vbB8Ur2OFYZBThPTVmnz29Tl4EsuxP6Siwwu", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111640435379194156688\">莫清然</a>"] },
+            { photoReference: "AWCwydh0NRyComHjWQ5YGxnA52Pzn3fr7YTvDJffDXSthAZwpRhPlXudLvMgoa0IvPJadDzSn2K8Ce3u4qa9863TaxzMun7jAbxePx6mkwrBZVAOiipKtiFF2irMIGbGvfmWborL9QhfloUl_AoMQCbo00bCQ8dTGx-NWxkeVWGnpIiix-I40f-vkw8Mr2Ua87J1ej8jRQy_YMzYU-SR4Ffyast7KcPZvZlrjKl3YJ6v3t2pgAKNI_NZnGaari5M3eB7SDYO-wV3Q_yzOmNzHueEJirVj22_Ki6V_lzco3Np1EQISYd54ob8jXWSROYMkYAg4b_4_BaDnAlwnSeyznTpFFnTkW9sifVt4pZxb7IRSt5i7WmHm4JnPLYb25NFHtq2eFTrblgKAILotRHptHvmL2w652NcQWl9T3-TWVI9HwqXUQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111640435379194156688\">莫清然</a>"] },
+            { photoReference: "AWCwydhrRaWFsuZyCgZ2VheSGP0Re4-2R9js4TQE5GJHz0B_OzoHel2sGPkD0JyosN_tZ4xXld0nIlhME0SD1BC6FVdcDE-3vbtUp9MnJSAvMQIpVE63p0QrjZLX-fpqf3brRRN52Uzu3-E5aFEE1BL-wWc3vqEHsD_Emzx3udvscfMb2g3_Z1FJUQYx3yEf6LCwXaTwVr-m_h0bA4EM0vmYlHPAnVIgDJmfiz87eGC4oXQzKbKHyQV2N-lpm6hxuf-6ZnXjXzGXuz_vCqZyBcqLCFT9xZWBVaom8K_2t-woAdzhWvd_tJ3q08sOwn7ZkxOY6kjLfyT8HZDSY2TES6DT8M8nRGasotpJNHqH5hWzGqK_fXnz9G7_O85acQFfm3Nk1ykWuzYqyAXx-8E2rdte4lwqkfZ0WdQXhbyx939k11_NKA", width: 1200, height: 801, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107297579940701067285\">北投亞太飯店－台北 北投 溫泉飯店｜台北頂級泡湯｜泡湯住宿｜旅遊住宿｜會議場地租借｜北投住房推薦</a>"] }
+        ],
+        summary: "객실 내 온천탕과 맛있는 조식을 갖춘 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["객실 내 온천탕 보유", "맛있는 조식"],
+        tips: ["객실 내 온천탕 유무를 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 31號, Youya Rd, Linquan Village, Beitou District, Taipei City, 대만 112" }],
+        location: { landmark: "No. 31號, Youya Rd, Linquan Village, Beitou District, Taipei City, 대만 112", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.apresort.com.tw/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11483883712974414652", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%8B%9C%EC%95%84+%ED%8D%BC%EC%8B%9C%ED%94%BD+%ED%98%B8%ED%85%94+%EB%B2%A0%EC%9D%B4%ED%84%B0%EC%9A%B0+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 데니즌 진위 레지던스": {
+        photos: [],
+        placeId: "ChIJlViyzYqrQjQROnBoAHB6rRg",
+        placePhotos: [
+            { photoReference: "AWCwydjNLh9POjfJDWCav17s6F5CM-2jHRzCTp9cr3T-YAkyeWqmc0g0XHInPoVG7E9Qo_jB9Uq_gnz-wLKo9lHNaYls6-zYTzERypEi_BOcy64dkKR44xlg9KSH5gni8rRMQNyuG2wV6rjz2CJKYNt3xf52CEt4SDH8uT1muLVL2npwG_WnR0y9ESeYdClDMZTOl9Tc8o676P0vgLw1fXVqEdH3dd4tPFfey2X1Zo_Upv6q8VB9jgU3i2W27ssgYEkPHNQD3_C6cFrAIRB8HZSaq3AM6NY92j2X81XC4GRi7u9KpZQ4kTFuzJ-bMznKqpSOgBuQQ7Ag7bd7fyOE189d7z4J7Xqq5SgdgmF6yWtHwLtoJMx4QgjR_h-NcUeIN9JYUm8h23JAeB3Tzg3kz97ztewPn54ImoKmawK5rdkp8IHMvOQ", width: 2048, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109712510328853834804\">The Denizen 真寓 酒店式公寓</a>"] },
+            { photoReference: "AWCwydgdrHBEPrAsEGTInZtwwjV7o2QS0H6bl6BQfX0bSWiANIWwHMAVMU61b9TYtAPX53L1BgxTJJ_V7kM-8ppSYrXPufDnq8e-DSeRowdzUdl4q-cRzLk-sZHJbaiWLhfFxzd7nAKwMItvOk83TR4TsBbJcGwQyxhghKeVoQ68OiUg1wXovRlFV34OE1V0L1LiXqD_YKJZduLLVHmmaelfDapaow4bEn35Rwpv6qFex8WYHcob28AKp99WzgTCv8-MggTBca-a8X8J3_UxsdMHiFKEsNTr7QIiAgU8aeM3tx8tLWwBXcEPdMV8AFUqZ1DqJnJqhlq7j6ZUJLFEt72kMUkKHRb_1tY7XcLtG6Icgmu1p_J23hiFb561HYnyUYbQG6YXEcb8_7SpFY3XwRbUJVQVQw-Tb8K3LdS4kuCAugzNWqRx", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109712510328853834804\">The Denizen 真寓 酒店式公寓</a>"] },
+            { photoReference: "AWCwydieKPYz6gpChS4FXBWl3p-dmaAiTkI90k_38ExCgPWXk8PazfqIFU_X7wot_I0N8I1pdEHLJmW0AjwhuP2956rjaTQ_ef66vmZdHC3KR9g6dVsXvIrlruWf9nlf06vz4CFh_BIY2QJ10s6evdMpztTG5sg6aNATZx8yR2Upu-0W9A24ecHeWUsylZTch3meQj8I8O-iizEVVV6bICbs2gW94b0m-7EUtUhiDxOvT-8ZR_Ge6nHAoEGx4-7n_XCGT0LxpN5k2zktbq3NVRqM3NF-9-urpPnD_caHHnq7QJ9y3qyfiKfy_O8zAk7bY1-u2YJmr0XXtFW_HmK4gUNqjnqOYHFMHZRrzC0pgec_zlkxJZl2snIRxhRjvuaWhEC8gvcAcjtsoXe6wBgpYRz0MALJRgdJDvJRcw9AWrM8AxJy86Yv", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109712510328853834804\">The Denizen 真寓 酒店式公寓</a>"] },
+            { photoReference: "AWCwydj2-w2HSgPJ03YeiIOafxhMAwQfnThzpL5HGuFQlQ8C5yQ4-hWXVITo08nDterLw_ULpnjtZOzeddZFzf0-gsi0lN9A14H78CGDqdotYb-OtgnzOi_1A_LYmP_3FheLCyVUpiKviYEfr7rR1AYizxLX6yz12xnx8PZXmuNlS9BTrgK4U3FwMHH09dyzepKOtyZ6yFSu8cRHO5Ha-SZhRhXo72Qv7AgvdN7QTkAPe-9OdqCxAyqB3q8kvQYeM9F6xf_BPLAIVhN8x4fVpEW8nFd5cHNod_zBrA833yaDa18iFu2uq9WpTCDuQRcAcrv1kXHW8gEvDleN9IU7PTnP-m430-_jh4UXy1W6Mq7v3w33QmcffSDWgvJrVELdLRziQ10J-tP380KwpBUfx26-NYmZNlJQp8JP_wYbjLc", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109712510328853834804\">The Denizen 真寓 酒店式公寓</a>"] },
+            { photoReference: "AWCwydiEiry2sk_w7Ioeqd_mzNQo99ND0akGnYnFIrvMGqapmbYfn9WJcAY2PsYvLTfzWCXF9r762dkIznwWWQnGXEFIrz_Np9I1WFXaTffgKiqKyfrMc1T-MRih2L69R43n3IBd-65pxS-lLlCC4xb_KVK9bCk7IAhO4TIWMcX7ZkTeY4OIEgQNHuwprKCP1x18ZmMwt3nOurjof9S2yMF1DDcxW-gGYoVTurPSaHO876G-3jJxqgtD6huN5L28A4TN4KNkFIEKUKs4OQ7ToHR9iM_8cmm3aWYbXEjlqRFO1CSuB-WYhc7ZhzuDM5RK9i5irixWHWE7aV4YRGrz65WaW6FYVxJouDP_lZqaq2cDJfcPlUwvJUBYi389g-gj7T-fxdDxqVY9iaBlqBVhHcv7KmlETLImmpXZxdtRhGLQ6Xx-eg", width: 1365, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109712510328853834804\">The Denizen 真寓 酒店式公寓</a>"] }
+        ],
+        summary: "최고의 서비스와 따뜻한 환대를 경험할 수 있는 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["친절하고 전문적인 스태프", "세심하고 빠른 서비스"],
+        tips: ["스태프의 따뜻한 환대를 기대하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 18號, Lane 11, Leli Rd, Fazhi Village, Da’an District, Taipei City, 대만 106" }],
+        location: { landmark: "No. 18號, Lane 11, Leli Rd, Fazhi Village, Da’an District, Taipei City, 대만 106", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://thedenizentaipei.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=15479028819004084486", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1778212049342984250", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Denizen+%E7%9C%9F%E5%AF%93+%E9%85%92%E5%BA%97%E5%BC%8F%E5%85%AC%E5%AF%93+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레딘 레지던스": {
+        photos: [],
+        placeId: "ChIJcRA7oy-rQjQRSIsCpXwru74",
+        placePhotos: [
+            { photoReference: "AWCwydgu01SpMn7bIUbS9PahrAuaATjcsCx-uig9PdcQ7hj6_DWg9xt7T-O65mFq1Bn0oCoUFiMHahjpBhGERTG7o7LWfMMWIG4Kz7IBFZr-hcSxF7oj1sP-L57d0XlXrbtxE2PYQdv2JJMcYTsd_l3nLaG29FSLxcgmi-Noe1eGUTP2PJn2S9-qjwlAlHaurXyuxZtS8rbBK3xOywTdC2_fOeoLZzdF6feL05ptSEom5iyO_HKTENVtPjeE-AzAOMoS8s5qAlgSZ_Z__sfn-Sh1w5x0UcchYec5RQYq6xQSi5NX0d79PgyqVf_pIQD2I-sxw5oUKUMMKZthAtFx09bRdznwY_I7YysMTc2EFqB1Efz5FtCwdKACR2P2k_VtFua4kqNpYYZfgo0ZHnmsVSJllKuPUPiJXKvYhhrxY8pv8SCAnDpQVbmlbqgshkLljQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117385707168499040868\">紅典酒店式公寓</a>"] },
+            { photoReference: "AWCwydgIX0Jl4MqCgqGQmE2o7-pAi9KigC5B5EgetQTLwfIRSoa5uNM0WVZEyWhA3nwhkTrLuxLuvO4kTIoh-ZoCbRu7OhskNRzwr9WjycrBAVWlwXeJzn5N7bu2bv8Wtil-cq3QRlBCjHZrBDgV8ZsC3V39aaDNU7mSlUa1IowDFoU8TZji4G1Sepb30smVY-r7_CrkGX8MZ6hE39MmWzhjdbGlt7jFnKuzCwXK7QNd3gbSZ1i3ndtfzJ004pnDvtrRG5oRDIpCitxjg_7Jzhry8g1t4TFctAttroG21S2GbiVW7U7L3zEzVqgpig_HbaExqTwyXmpDdY2NT9j78Ze4XlmorYChP1QNy1J1Xb6CyKFoiYRcn1n8n0YhchseTvYIO9zbXS8rHHSXce6yTGEJwO2rcAljrnRiNJvUi3nttZg", width: 2606, height: 1738, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111756857233982879314\">李育萱</a>"] },
+            { photoReference: "AWCwydiNjkJouGrrlNiDi7ddnL0Y2fxDMogkjKyYWsp9OEPfkWnyVTTOCriQgeUVMJxT24BYinDWkcYlTaKe6hGHgadOdzZHyBH2exxxdu8sY5meaGhfytNPwbJw7VZnvo_4pn053rUw3qjhORxxKMhg8pcXUaErUBO-tvXXWddffLF4cSxoP-1CyTaN3aCibr-IrT7aEoubfO4K_r7f1mkapXMXewV_59i7YFwDx5AxawjPXXsFpUdGKPKYNiBZ7iRV0SZnS4Yfg0PUEdqmvlLUkRZHcg96W4C3_JPeKwWlDf5eeeln7SkgHMvTjOCRYbUsNYzUNQn_vzd4WnOxPcHsfnfczM5qZM1b8cuHRtkJQjIdQt54DRqCDg1t-AHmdMrMwIwOZlru-hRwLAFhJhZExqa_gj5TcdO2E_mppT7KJVVI-qpF", width: 2435, height: 4128, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111328948098261352996\">Tzou Brad</a>"] },
+            { photoReference: "AWCwydj4BTxW4YktjHDO4addiOGX-xltWl9JptX-q5thWGDNTflY0N5gJGqrE_FkaKWoOgLZAvtz1UHUSdfgyao22wGXE2cdqVT1PCkvNZdGL-BEj2monOl6qQX2JlKwLmjUrEvr0VnkZU1M2G4vtuK5j62f7OVBNp-74cL-ieDvrAhkACS2dHKZySP9AQzceiXUJyuChXcpJLCoQdM5xkHk_tHY3ubfwIx-u_KSOsqIp3buO4wW-yRQLieSO1coK0ce6v4XXFBnCJNi4qgB3FRg0TrV7Ua2ghNBX8lnlWWlxv4G4T3tLCM78Zs05heXTHDKhlc8uWOMeafFaBpelHghzrMmd_m8710mnruz-5AJHZJucGl-ZzLwMOVI2gw4V_QvkYfPiEkL37nDkVwI-kqy6RUonjagZumO4taRfxqUztehzQ", width: 2606, height: 1738, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111756857233982879314\">李育萱</a>"] },
+            { photoReference: "AWCwydjHuow_tZn4BD3ZlJ5cNuwKr4L3rDg6eIOao2cK4NwBjYKgGaP3VkHe_Rt-kJPTz0AJNfVU9BR1wHnKoB0qV7foH2V2dwWmHvTcquwzXaEjyTevMbvgRxRP0YAQzpgYpS8AwhYvUCPCrJ710-7oeA0gUbH2ReIYC2q73RfpjV4FmuMgc8W-PNImtVUkWhEmT3o6TLbbpWrTxa_skQPPLexY6Cgg_tB80lQmUXnJoI8JWrx5nsElhW0-w-CPnvVrl6ezcezuuXn0A8OU3z9p1rMx857107gSc7K45QtRfEHwxTP1LWdg7GDPlFi10zeXdcIcdXvGm_0gS0pC40KAOss8oykp-wgtTG-BBM5ECDsMSw3fgbI-J4EzhL6sRvsPIEGQHijvn1l-65YvIGfpZEFnO3oX02M1ZEpDnAOhGYMlGQ", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115232984655262780493\">林政宏</a>"] }
+        ],
+        summary: "시청역 인근의 우수한 지리적 이점을 보유함.",
+        updatedAt: "2026-08-16",
+        highlights: ["시청역 인근 위치", "우수한 지리적 이점"],
+        tips: ["MRT 시청역과 환승역 인근 위치"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 569, Section 4, Zhongxiao E Rd, Xinren Village, Xinyi District, Taipei City, 대만 110" }],
+        location: { landmark: "No. 569, Section 4, Zhongxiao E Rd, Xinren Village, Xinyi District, Taipei City, 대만 110", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://redin.red/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13743626502195546952", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Redin+Residences+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스타 호스텔 타이베이 역": {
+        photos: [],
+        placeId: "ChIJm6cnPG2pQjQRRNWksBUP7_w",
+        placePhotos: [
+            { photoReference: "AWCwydiMWSyUOr4CZbuKCgGRqG6C5XBBkVFEGmEodOJYi1DqPt7d-At1xSIw6v78iLeYeT0f67qxIo7sGMAMg8GwA6WDW9PPHg9sRHpAP00cmQVX5u_q9BfWp6vOBM8J3aHfnkgL8dtm4ouHsRWRzdqoTEA4vgyqVzOa3-6GBDcTQgJzBxy6KyaOx-0SUpN42SIFiL8eODRR_xK547mqL2g0TJQOw1HbwUEhImVPP3M1wqUbXrgJ9ATmqL1wbdMBeuL6O4tfplPKbFT5tMVv2xd1u5PsZWwFDEBwCIN3L1BOSJtnpi7J06m2M_HtINI9EC7w7RU2bagNCl6FEgXJwE9P9B7yD9tng0Px9tQNgKU103MwHy3TuBHtG3BDUnJv3WPhcILD_zBAGzE3kWJiYy8_e1-gVpRKYg1rEcv_EeviePfsLzk_", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102631038159586571020\">208 4p9</a>"] },
+            { photoReference: "AWCwydhErLlVL1EErGAajSrmSvO3v90WptSJgbWkqUG3Pr0NrpfZ2cJ2lOImi7Z3IiZvg_HL5IpJpi03Yrnb1zvVunnTZua7t3mKpxidjfFgQTWcB0HgJ7nOMaTm0CJdWCKfoyS6alajDozzxSEtWFNK1JU2onz_MwR4moJFIG1t7PlJAiqMOlrKWcqMKA8_xzRTZgx_PDwGcinXDH1qzMBMm_x1HBqQj2lizhQguM3NfzbjdOPKFOjcTcBRnkW1QrmlPmHCeG-MZOT925QHqvS7a-iyujXAuHlMiP6r3shvBSBhfxkV7UWdf0wrD0q9nrYYP4XRqSEb7RprtLi3SVMR35qMbPiOJP6bv4ZWvPn-Ldtfh1oDre-kCJqdTybdfOXVpyT3iaDqVAscPKDY42DJ77QGQ6rH_1mWAo3QLT_pOim0FaQL", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101697314105232253624\">LAN LIU</a>"] },
+            { photoReference: "AWCwydhYBbDjHsj1E65yioWi4RKKStVjX_JrfRDjF9iwSPN-f3PeQwmW75YdTA4mU2ZACXdA67FwyWDSZqXUiEl2_VKK0Ug1UtUETC9p2e-g18ayxH1L8sh_RdWn3WDxmhBNlP2sAjbLLhll17Y_2eXIfWx7X7Cfh8RTUH-Cnlro-B6FQFWDwSSjXGWJ4Z4ysIeoeP0YFzP-eXJloO1kppeO3fKefaRIyEjTGDIV0Bmq--MVIXNMJw-nkihfC498TgsJDvdI4QrbFTkxoKBI_xAkax1cJN0lR3O5dnt9Cn9XQvD_xXSP_I5ClpwYlbh7cSnz9-vDoDxUN4zBDha04Z2bKlI-q-eeCLhby_hCPz54xZrgQApMNLGx7g4CIz8HoBtaqNkAgTeCqIfzHeXaMuCRDsMGdH0_3po0HgO1jsJIUsz9fpgFWQlSsOZddsK204P9", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104338716012871578204\">Thressa J</a>"] },
+            { photoReference: "AWCwydjiL-5vjQxGGZTibDHBa6n0ouk325KRxuTekkt0KwFdSvkIwyq-8c86zV8SDaA56wl1NhRgjDY2NpensWIK8bdHg3sFpCt7dKJ7Wu8CDVHUgEG16S_bYBC0lf11J_2uK-Yt93ncASP3A6uUGs8gN696fmbRWM1i_HV72sZlZB4A1l1PAeiqz6TSzXGWDZ4YMDjM78coCfL3TOOa9yzf05_koWMnOQ6kuqEJyrO4qQpt1JBX5BlBuQIxuGKiN5B4_mzvIWMkn532WhBwz9YMA5CdKLYNP4bg0uoiA6afoVOKfT0-yOcIbLE9R0AKaHqxrUrb1dXRk0Fg0UGf3dPQWc4N3G_MktsZeXQ-HJQynHKcVtxEb8ABfLI1HB6LT5LvwkTr6ozq5tLVoYgVlfU8XGlSoyDCtfX3U0j0PchKh190vQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109869780550945110366\">B Chen in Taiwan</a>"] },
+            { photoReference: "AWCwydjnzCXEwMadbJj7x2D31e6Fz_SZZWua1SPnEjhx0aSnv4-pD79SW1gXEP9xSv4bSl56mXSxpzC7ifQk1MU4hLgedSr7COhMjPSFBNSL5JeQxJd3UWD-Nw5FDUIfKyGkZycb7EOiQp1Z1kR2IEuP8-SFAqZTuEi4LesXt-xWeYWHPY7RMINf5ZfeQbayS40L4nY6JefWBHaWNoDUnjEE3NckchNT8i1QUK7duUMg84BVkTiYUVX8WV3cDuasuvepZMOUTst_MMHNlA0eVDLN9Smo_-aAdXVWJzpacgATDVl3uRHH8X8kDGYpZVEmCvlRBN8tnYLeZrJZ0qM0cQQvHi8KkgftvIt8xHuXBzYKP3M6QY2975haTpyFh0cJfwI6X2JRXANLIx9NHDhiSH76nP_ywK-6EoU2LE350xcIV1gj6Q", width: 1280, height: 854, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114451506626728664339\">信星青年旅館 Star Hostel Taipei Main Station</a>"] }
+        ],
+        summary: "높은 평점과 편리한 위치를 자랑합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 조식", "편리한 라운지"],
+        tips: ["주변 편의시설을 활용하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "103 대만 Taipei City, Datong District, Jianming Village, Huayin St, 50號4F" }],
+        location: { landmark: "103 대만 Taipei City, Datong District, Jianming Village, Huayin St, 50號4F", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.starhostel.com.tw/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18225802802824009028", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%83%80+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%EC%97%AD+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스타 호스텔 타이베이 이스트": {
+        photos: [],
+        placeId: "ChIJIclBPsWrQjQRYSTe3UH7fwg",
+        placePhotos: [
+            { photoReference: "AWCwydhHPl7Ut8ClrsZDiRjMX9HSwk6ETTnRFvM6nJFUGvkQmH2ckeuPesmCaJPB8ytwPRh0g8KgTiRyFWNCJxAO6UgyI1HFoQhrf0xoxAO9ieSSb3jOZReA2ibb6QZGwa5yhge1W84zy4SiWqIlIbz9LWoUQuF6brlcHkoP3KW3cdgZi_G5wxg44Zo6mVDF9fdkinr8u8fSol8W9LYdFHYCOlN4jcCv4g9bIbxpPu-FzvuJHbjEQl4Wzvviw5PULXqYuvb2cJX7ekij-ZgbLKMJj9JgOqUcIqPB_hkOd8hu2zfgb3jpOtN3KI7YAXMmnbeB_6XaEK7gD9VMC4ZgBWhlJDRZjfgsb9kBIcl7wpMDNM0fWjxCNd9jgRv-LZb0a18zYJbTHwokIImTm2E-kVG5axW6pAZHToSQ7AhFxxc-xW8VRBM", width: 1920, height: 1278, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108101708959883996466\">Star Hostel Taipei East 合星青年旅館</a>"] },
+            { photoReference: "AWCwydiL5UcfjXDQGNRxe99bgmwp9RiBzNNMVTOdW1HiKxsWaq1YqaMVvrmp8LO0Jhyw7u90Gd1wVstuSKaOy--QuUsnkyZlM6TwQrD_fheBeJIvYNvYtzrnEw_N_JzZwlwQAAs_rsPvdYpUTVRYyCa--9Gk2uKHxn7frfOO_TGxpQiJEIWKkmFwYYY_ZY_5gW7prsvdNJQz-DG_0oxXNqycn3eqN0FfHMBWhYE084893KCfLbPDMGwgnLYhflg0uyzAQFaSVKffzQisxiN0lhtXZUk_qnos0iO19wP0n_wvQXFvkL6G7W6FgH8qZqeE-rmlycD1AifXn8NZgS1IMZ5g2d2-eVSnRqgyCoWN5WCRIFA8qIsCrvjzxb99VJE0zIZVCoC7lm8khd6jiU6l4Y06xolVp0WRoJe45cWJdqW7Cppbow", width: 1920, height: 1278, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108101708959883996466\">Star Hostel Taipei East 合星青年旅館</a>"] },
+            { photoReference: "AWCwydgAp5r_AyCX4hSkAbgEjaBKRb1xRsVk3rO_X3rxOrSxhUD9pB589W4YRvN1rm-SguLxGvJS9eqLw8DYiVHWc-xhf6SZOhQph3H41qVztBnq0OEM5CuF_c9n552RKk6m3wsipcsLmSbhqNJut2R81oNddC9EFF8moY6HG50EFxw3KStTYzGVnFcgLD-sEyTNd7lcz8_yaYZn8RNjp6qPr3VeW5EI_0Vb7fDK29dKvDA8v3jTkFAbRUHwMgk8eBMRe2u5BraV5-pIj2zaQYHnzK-bC4rqKix1AMP4Vj_BeSnGjmVbWMkqxrisBR1YXyd8oGsQCRUalKL2wMmt3-JfGm5iEpSzi63TNAO_xLXVbR4c3SShOgXIay3uyfvG8lbLyP2aalKA5y91KqZGXeOJyz6Kh0_VtEOjtVZD6PT7i2NAWGA", width: 1920, height: 1278, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108101708959883996466\">Star Hostel Taipei East 合星青年旅館</a>"] },
+            { photoReference: "AWCwydjB2H-479PL8DcUv3dn7YjsfcSBrtUP3qVsGk8UioLyMXH2Zq1glV29IDJyX-RN7fEZOnOg0IK4MnLvomMq7-WWk0_qyoR8UYnF8_FtEqkt2xZubyt7EE6GK2jwnXmUzZkyITe3Se7ZYIPaVA1Z9dcaNCGfhsu9d9behpy-IF8awqhNyZ0GBkoWI7NA4aDVLEvmds5Apy3YyEaENh0lL9sDsEog6dE4PAh61AGXZIWarmUux6rNzShxNPlfcQt_PkgFGlTnfk6yPSNu6sqEtFAa_kfqW8qyxShM_GJnXywO3bfw48QpI3WkOSfbAwWaBRoApb6RhAS2AuPghfkllJtb1fHxtYY3smaYkui2TXwknxcLQ5bnMrt0eqBlSEgORJNoBid7WpDdi6K26GjgNLErDHc0Qg0QP4XJO4weRIYyPQ", width: 1920, height: 1278, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108101708959883996466\">Star Hostel Taipei East 合星青年旅館</a>"] },
+            { photoReference: "AWCwydi2oTi6h2O_hnneo3aQVJ6vxcQVF5786Z4Lz_YwczcnW2inAykrafP1xh_fbfazHVGy-OfGg_CmjellboE4OUAB17kVHtaKNXzDcqUO6eMaBvkGpiLYud-T9nPjXk7w2I-Er3d9ASZnbI9I4mXgp8IEmNnkMwuUWM_KEF3Mf0ArkMRaUHKdKJhSs0HdKWe7dBdWfxG_sGzBT30D3l1ktxT-5v3WJRUnn1cZPp1AtAwpWDfHuoIqYt0zyCOuxZoNNMqqH9C72M6HFOqVBPTl28i4SSB0RkZTkwU4R06F3U5JVZkxm53w18L_n3AhWq7qYBK2Yx3m9JK8IeXy7oNA-y3OK4GpfJPabyFj_wnqNubCCJuMSqpWKxmSV2ieQBTHt1Qzye4FR99NYaidNhNnw-pDUVR3-UYBPwBAY389DRhHAf7q", width: 2304, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108101708959883996466\">Star Hostel Taipei East 合星青年旅館</a>"] }
+        ],
+        summary: "높은 평점과 조식을 제공하는 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["합리적인 가격", "조식 제공"],
+        tips: ["가성비가 매우 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "106 대만 Taipei City, Da’an District, Jian'an Village, Lane 147, Section 4, Zhongxiao E Rd, 5號3樓" }],
+        location: { landmark: "106 대만 Taipei City, Da’an District, Jian'an Village, Lane 147, Section 4, Zhongxiao E Rd, 5號3樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.starhosteleast.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=612484334659445857", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Star+Hostel+Taipei+East+%E5%90%88%E6%98%9F%E9%9D%92%E5%B9%B4%E6%97%85%E9%A4%A8+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "선데일리 호스텔": {
+        photos: [],
+        placeId: "ChIJpT986tupQjQRfdEaymIkxzM",
+        placePhotos: [
+            { photoReference: "AWCwydgTQgjHEkIEuTJhYWUnY1Ts-96JvBQbp60s7urngNyLEU-sFbGNkv1lkb1CLQe8kukGWJbkZ33Iz43k_MUHTfjvWRp2PdTAVzrko0CkbulL9SjeKkYQnsu8fU8MFP3Iln_eBEjcmpoyb0xHQj9TMzDbGHk6WoVyMj0dM0GlARaYjbId0GUpPCmZNqefAAe6STYU5SfcyednLYB0Cd5JHKOxAYAhwF5TN0oLlctZHAXlkyjz4T-TzZ8x9ZtwHyzxq0oXlrhPrZAq1TIEePBaXymRFP1wgwiAVMVyNokOcTL0bh_cXreBxDw539JkZpZL7XcY_y-_c9CUegt6KrYHRiU0-dqcmVBr_-iTDzNIIyVuKkcJufkiXtC2qN2RUpOQSk4mZropvqGoHlTN9P9GpFmClebYxXk7uCgxL7Zy4Jv6o5io", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103322450266249318570\">日初青旅 Sundaily Hostel</a>"] },
+            { photoReference: "AWCwydjsqXUZL4_QEQWUxFcqD-dB-mtT7BRyX27B012eKGXDsB0wpRWL2fGYv9rX4v3smrYx1rvmCSwgW8ztgOCL6y3g7cWD4Q3bE9OUEXl6t-jZu8aYDia5c_BZRgz9McoerjFCJ---kYfY51pHovJJLJegqyoSmxtK6nthiumS5RaLwZ-aQk7AStnP_Hgv72QQGrqL3tsPy2MMtcbORvN3yhDkNULVCDIzRw0T1TNKMMbH9naGNQsl2aTB5EtMpXqrA7YMqFvzhrmsvI8aWqjKOLQ57UYAsPguBFMbjj-ij9Y6Nz877CtHG00_tYsLJepCJgK2iWHu2IYGmtccOUZo48BoOuL1M4mGEEmzEU1NeaSMRgJgA7Rwlbw1A4ZTyzDZ7iynJwtLep_DgOUWfYh_76uQsXoafQeVLgszrqj0i4zxug", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103322450266249318570\">日初青旅 Sundaily Hostel</a>"] },
+            { photoReference: "AWCwydhVCXa0Eq1aJKgX3t6lf2JHTGKNpFB82GXCaj8bpusDjdTqipfY1NIEa9Ku9-uidktKcW5G1bJa50-pQu2KWhae8giy_EmY8w_e-7kwbAyMMhwm2EkRnCU_2k0s4NSveKFB6VR-c4U7nNFBV4hCHRv72wFxwwr7qzzTeO7ylU60UI4h7QHIv2VIGV9UukmLB4p9hAkuycG2Hvoqm5yjDPqJQY88An9lqY77X_H6xsxCQaRotJ8GpB8U18I-FNBc9jqIAr0hUjwSgnnTn6IO1vEWCfrsGZg4mARyD_clscHqemKcNqGgrtGDMJruxAf7YZT7IavIhg7iJGKIaVAdMUNvoRiZ6o2TfHwfvHRozq2TLHtYn7KBfg-CUO3pve8BlbKLhJQUOglfX_WORgpt3g2Dimot9PWNWROuEoOEt8E", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103322450266249318570\">日初青旅 Sundaily Hostel</a>"] },
+            { photoReference: "AWCwydjwXOT_58Kf8o3_OIAm8TbBs7M3IRZ52DbBzFAL51-L5qdGTOlUqbtuQFqa1EPg_vBh2-d8xdbgW3f3hV9iaAar02-hvDtAPQKgrd7N_seobTO5MO7Bj-jbooFOJgsoRZppKhr_DeVEPxkcOzwriyuC9n7AtgybV94y903oumwsKk7lefL0-9QchCgZLnJC1OAAaGSvvVBVQ22NFhXZBVblTk6szNy4MWBNH4liJqFGxCgHzruOAISZYhJ1dQCdKxSK_hJwh1W3xwZvTzqCxMAay4hlJxkEyYj4OILohkff-y2S8d6OV700swvXSGvDWWLBVLJKBz78kFKLp1qyz6z1-0CxNH14jWRESG1CkD7XPbcMTr1uhgzEAWsv3WQ9xUvL6S5rcTLknzf0UFEmBxA6e-MnYVrwh7PA1mGX_Zt9YQ", width: 1108, height: 1477, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103322450266249318570\">日初青旅 Sundaily Hostel</a>"] },
+            { photoReference: "AWCwydhzoQwica1ed6yhu_tRiHfto1N1O0M7KA-YVRDb7_3vqD1GSBq01xfbU9SCiPyPc-n27HDjQRjEq8qBAhHFOHL4cO2OETe0HqtGR2ha3aV316qeYVnF_tDO_2vclqW1o6IIQpdek9xK3Hb0O7GDEWOTB9mAGy1LneMs15uAcEXl8OCzR13tHT5AtSz7M-LzsynU_HvBP9ngBQzPDfM9Xidb_GBPjzn2Ha0AFimWaL1dL9Ktq8qy7Tah0Em3kj6k-Ipr8OY4ZK58lEY3UoFM-DnjFNl7r3QjTuG9Rcljj_Dm6RycN8I50voXSuKQWcoPSUtqJO5J9nfWgPDAkuGlyvLJ2FIWi6gL6lhuql0mZ1vlf1yOsZkH9sGL5EtfDOjaaNdufgnDqB-Dc8RbVhDGHyM5ZSpUm9sJ4v9bUS9VdJo", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103322450266249318570\">日初青旅 Sundaily Hostel</a>"] }
+        ],
+        summary: "높은 평점과 쾌적한 침구, 편리한 위치가 특징입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["편안한 침대와 시원한 에어컨", "신콩 미츠코시 백화점 인근 위치"],
+        tips: ["음식물 섭취 시 쓰레기 분리수거 필수"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "100003 대만 Taipei City, Zhongzheng District, Liming Village, Section 1, Chongqing S Rd, 49號9樓" }],
+        location: { landmark: "100003 대만 Taipei City, Zhongzheng District, Liming Village, Section 1, Chongqing S Rd, 49號9樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://booking.owlting.com/sundailyhostel", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3730990823015895421", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E6%97%A5%E5%88%9D%E9%9D%92%E6%97%85+Sundaily+Hostel+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "미팅 메이츠": {
+        photos: [],
+        placeId: "ChIJ4aoS9UipQjQRwpFPTeM7nBI",
+        placePhotos: [
+            { photoReference: "AWCwydgk59uiff1JkR2tyjVBL1GfcolnacLLzCIhISpUFIoPVsx2fNWSzvyb4R5Dfo1SDQ7BbMDZRoKLVITZWKFxSbArK7IA_w3b52DZNAvu_nhWt7zyE5Idcxbal-XeZOzcoufgenCo7F7WYshz4_y7XnuyJZhJ_qwhF6zMHPQBv0mChBOPqoeF3__7SN90qIyaTIV6caYBkHgorTgpWee-wVADKT4D4kYCBC3mugAth8MQykHX3TL1-ZRJw6jPN4qaWSYYZczhxHtUnLzjHQZHu_gmLe-FikUtW5gzy8tVrD3OUa_WW_-59myCvmqZk86UahNqrsOuWCIGKZZpsnrCDUlWyjOi4KS7zG8HpCOokUFDm2T7ZiLORPLF96Zd4EDqoydp66jskyTpf9VJvc8qz81WQdij4Ku4ylNGF9F3r59CZ1f2", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112932202682810260593\">寓見青旅</a>"] },
+            { photoReference: "AWCwydgLDOy_jasRSgnSCG3jxxzK_QbtiE4nkpjgx1KtMfRiVkhHmzI62Wo1k0n63NQzjvKyQXgNMv6Gcedr_HTbgIzufGtLlBvdXsmDT8dl7EF9mhq91HMRgTxSi89tZcTQFu7W6Yt6XVXhwJTfw__4a-AVixAIKDuoy-FVhQRYkkfzTT8VBUZeZG1AouHGp65cIwzvWFasiVL_1P6rFmDhUj-zBerMDD7pAmzGGzCNdc0MPVAXLn6pAQ0TFhonEQUcc5VD1j_l_I4Wn6LQBcOV7gk5Ob-y2SxSwHHoHRP0f6idR_2OWEZVYJADJJdFIxZrP44obx_XHurBxVQurtEZA_a2RtMCGtonp66m6n8yztuQeybYsNIPfKtWQ3UcGF7bU7ful7ovMh8UgHL72UxucuZKvdDgLblfpILA2rEbhQc", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112932202682810260593\">寓見青旅</a>"] },
+            { photoReference: "AWCwydji0lYqdpiRT3dROoYU7J3wSsk3mnpp22UeIURo_8YaQx4V19wXRbmQ2n3gAifz6858x1fiPY7BgRA65qbXmoY4qvd4vjb92vwsabI2e8kJjQP_7duaRX7LRfWszKobCjQ75eAfhXQdiDvDDHSzZ3E3D3Cokhn59cmP8UZmR4_18rO7U5JLFvkOdTO50EO1vsqHwA-i2rDypBrGXlxJkEBoeyDW5m2a4FrMBIacYFyeaZesmuQHBa95VKryNCFjgqMxKeNkKSdMforMdXwxnTEJquRwy9yO0UA0SsoIG_C0EagU_7-QblFKJ43rJMHB57PlXkyr6WHIFjMp_UsGZxrmNL6fAkljArX9YiXjEDklO4adYDZG31mSTv-bZYbDpH1OkzXvKFuuOMzYPy3BjiSdW_abhREX3zjmsFUSQ0yCMg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112932202682810260593\">寓見青旅</a>"] },
+            { photoReference: "AWCwydjaxhmUYPjw0utrvcY44PmRtLIBykXmI7u6Vyqvv9z2fJCGfm3i8T4BhBrOMvvlmM7uTUMjJMAisWIyrRSrGAbIZVf-ZnVgZLbIqqCU-d8LUlZYlJknTx2M3CtJjnTy4yYrTbzJxiFeeLuYoM9_Tkn4exxox9xJupdeHVch5A2HkaUKnf8NmkaNruCn0YX6cLnKBqycCRTEfEIKle7ZDhaM0akFvLVrWSWCmD7sbLuJdcBL0VSLgymA7a81kXAMQi1owSyYpycWYzoDGtyhcoDvCosdGGFDaLDDYjCAjExpgf22zkhoEVC85KoZZSKmv3yo9OY5oB1aMuebIn-MbxEDmeOV1la8ZuVR_bWY99RW_ZEjAt6Fqd4HbJT2BUqUyjOv90Pf4DbckXw-50MMmlBEk5fR5MiX1ArQgjGzaGh4dHfm", width: 1435, height: 1081, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112932202682810260593\">寓見青旅</a>"] },
+            { photoReference: "AWCwydj6rg4N9bdXX7ktWENSnOieItlsT3cYVRSEHHAFxy94kKeYArPp8nX7VsfF0l2oH_Qyd3Fg13BeVw0Wg4dCo--8dfDkugYmDtH8Vffgl5z_mhCalknDsUxLhRyvMVrO0QHLACwpYyDsPFz2Mlxu6M6YqQuLUxK8_7lUBccoOix8IpysYa4i1Cq7RrOZTk0EeEfrgzEkGoE81ka0Oal0mVo5IpNuti4oXzcHFvtRf1vISN_xVkHliZPQF4vb1_gcekhkASRpyoC2BSJL_-fSG2tAnC2_7QDZaGgL1Tk-n90WhA4sget82oUCbpPrOd1E96MfNfaDwQfy9Lb15I3qS-xvyc3-VfD0XpRAKb442NbvsGONK4FqzC523WnlzpssVvfFLs8jQUz-fbPAmTkOqkh2OG4fCfCYZDTDTbGRQwpY-w", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112932202682810260593\">寓見青旅</a>"] }
+        ],
+        summary: "적절한 평점을 유지하는 인기 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 검색 순위", "4.4점의 평점"],
+        tips: ["주요 관광지 접근성을 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 316號, Kunming St, Fuyin Village, Wanhua District, Taipei City, 대만 108014" }],
+        location: { landmark: "No. 316號, Kunming St, Fuyin Village, Wanhua District, Taipei City, 대만 108014", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://reurl.cc/k1273d", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1341012636490240450", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Meeting+Mates+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "워크 인 인터내셔널": {
+        photos: [],
+        placeId: "ChIJVRaGU3KpQjQReWyqMDN7YSU",
+        placePhotos: [
+            { photoReference: "AWCwydg_ailNh7MYT6UmCYvpn9jxRrKvWpsZGjopOjSY7Ug7XfgTHOO7JU7oFW6J7pMjneb-6s9Aoe21EGcJnigdYDUswNi6TdP0uJrZGdo7wWZmt3mln26JJoHUmH5qOWJYdb_4Vzibsf62OkkWhEUYRlxyA2Fv33yxMqIbpZ3Zrg9lboURGGYCiLA1n5IguJvhZ97WX-HolEOL17JluvvQGXXNuPXigcc0YnC9BKlOxjhspxFnSbe-2p1c8WZJJ4Qb9xFyYeUS7N9rdMRZL5SshJBQgGrD49WdFhll67iSy3NzWu7n3Rv7c7fH7N4u4XRPutCaIaWjbVCbav87A5FZmUXLOpcCuBdKaIuXqJZMver9BZd51fa5yAiQZDT4_kwX8eUNEXD-uNI1NmLPW8tPYKHZOvslkmAIFjehyFaROMQYG80Fw1J4bUoaDtIE0w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116486759323300732064\">Lambert Chong</a>"] },
+            { photoReference: "AWCwydjqKONqOgu1cflwwt8tliJQsODCFh1qcI1IBKINXKj-n1Mabb45Fq6GEF7p7dANN_uyvdSlhd4dWEyjotRcjRVNb5VJx8S3jjml22XktbE60VkDDoCdioGf0GRd0g9SqhIMRIwDPL9mp6IUp1UxVS6tSNV0tSakkGK4NW0G6awDriXFDjJo32UxH5TAqZQaS1427sdLzZakPOAtkKFnZjy9EQp3dFLozxq0Aq3nrFd8Aw7v3tGYnVM_N_id7wnOE1UNNJlZH4cvPC8Z4VTzcMNGrr0_xQ8COdyd8gGiSGiLhbg1bjpNfPDmvouSmUDgr6QdFTGOGUZSTX7D9aXgOCZVxR-S4ED7HymsCi1YUELGTTYp3nlYpmyYZ5MomGJPCI46shfeV56PpWEvwkiRp0uCfOqYVQWlVqNY96EGGvFfgDXkNQboMzVtf5DyYw", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115789556725317963247\">黃翠文</a>"] },
+            { photoReference: "AWCwydi792BgR6ULaGd-TtxurYhQAN8x8gdI8dPEG0TxhtjP6qiF2iNqqVu_7qvgiUpqcm91e-b4lcT1sOYkh1fEh4U9SKxt5gpVyAaEJgEMMFGA7d0X4EUk8t0bCjmALY2xF3i0mmG2FEJZ7PRTO4Lja15sJviJ2l4oazr6zeiqEKA0bbVrRuw8wrFvlt2SjgaC7vkAn5CHAiAEi5dAOeDoT21cPteqw4OMBnW_L2_nE2SKSfzfa8Lx1rB_h2O-O38ETzTa9ZCaVu6MlD2yegXV1TcsEly-nzMUiaAO38lB0PAgEo3qUS7eTtR3846JIk6_EOWkJLLdBMbnr2XMlGdZNfRwLXeWM7hNd7iuotuzGBvij4nOmcztoT7SLhAssvtcf5ku5RC980tEJhBgOE22h0AJjiT7o7MhVuLId-5rVZvF7w", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117412267599632412211\">Cyril Lee</a>"] },
+            { photoReference: "AWCwydhTuNFKyuoIujTdWrG3fsgxm8ZZusP_r4uwUpSIeDQg8WHNCLvEiOBDM9TOljm2jRiVoIRlc047AIJuLUkwYSm8X-GZ_wUo4IVCnZMsuQ1eXk6EDDGxbRGEUvPBR7V5OccDbbDNpJYpshAIpzYaWnmwaqgQnItGh-Rb_7WXZdT2dlpujN9Y0WAzaeZiB2nzM-DCYMG5DXzw2n5lSooJGiBY0BEIQmhBtV279g5aRGNq-mVvrghXt1BAILc4nbQv5Js15W0y9-0ujtc3N7YLc46avK_hijO2_7Uc03sEoDs1XqUj4wqwlnhr7TWolHLIISKxlD1Vqpe7IwO6u0pZ8IKPiGUd5q2TP4Wg_euuJT3cPRWJ7mU53zcfHZeO8secFVGV1cvQrPeXamKGwSIscOvYNVC8LNgD7hx_EpYVoRYWXAOY", width: 820, height: 312, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108376209885427391164\">Work Inn at Taipei Main Station 北車館</a>"] },
+            { photoReference: "AWCwydgxQpXPUP_ZqsG9cKqtfJGTWqenvHScDh_xOiJBtcm3X9AYscnRgZw1fEH1Ya2_RXFIwRY2NW30mJTWxBlNoJ7Ph7MriXeVc_Hqq0BDjPdxh95lRHrClH2GKd5SMYWuee9b7mveu9xyrwus5NTNpmtHxr19dvGE9MLBmxxiV13BQfQlcfnbLV9ID2q2EwiewNrHNu9VlS6TImEaVNmZZ5fQC-Zo7jrozsk70zVcxPS-GfyY5T6w1WwB8QmGLuNn3nNPBze6rqLaeH4zt4Qn2slC7diYnK8aF5OAa3UIxWvJKiLv4eYBhg9tL5YrYk8OQlu7LYwEk9wVNVZzFVUnqPt3ydeJKNqCkOucRC2j08b42kM8cfaK_39H_Wkdsu1-8RDGn4d8i5azFXqqaRXz6vWbUXhOnGgJe4eqM0ApNwBR1g", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115770371618168273996\">Charlene Wu</a>"] }
+        ],
+        summary: "높은 리뷰 수를 보유한 인기 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["타이베이 역 인근", "높은 리뷰 수"],
+        tips: ["역 근처 숙소를 찾는 여행객에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "100 대만 Taipei City, Zhongzheng District, 中正區 Gongyuan Rd, 13號9樓" }],
+        location: { landmark: "100 대만 Taipei City, Zhongzheng District, 中正區 Gongyuan Rd, 13號9樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://booking.owlting.com/58fce2a4-da31-4790-baf5-1cfbe513da91?lang=zh_TW&start=2023-12-23&end=2023-12-24&adult=1&child=0&infant=0", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2693569511934291065", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Work+Inn+International+Ltd.%2C+Co.+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "타이베이 디스커버 호스텔": {
+        photos: [],
+        placeId: "ChIJmYAuolupQjQRfxyLl_gKCYk",
+        placePhotos: [
+            { photoReference: "AWCwydi1SV2kmjxGAhs4XIRwGXEQAIqpbLN_PYXuguHo4N2UDL2oiDuAMhpamZsmmkOI-i_RaCXJyonCgGURqen2suYIDawRBZM3XvXWNo-E4NcF4xr1QL99G7TIsWiN_m19GxD6y2nQxwAMNWV15HQYlodMFfPKKSHQyeqVcLtA7XKa8DMj2wbDJyejrk86KtYqJe21kstNGJoDCRfzHFBcJG_9sROt9zVeSbRrr1mtzVKXLif6d2cV3SiOb-PItpObdLIIyX6hPj8rOsF98LDRrvobdEhY1jQus2Aie2JS5_1-_s17F8_iNCfukzl35qLvEtvNyG9Pec15aX5gYN0luM45eYw3k8e3eROz8oXnBcOc8PHoGnEZIoN3PDYK4B5y_327YOHbJA3iFGOuhPVCIUVfjJKzVwGkX0Ftdi1Uk5AcyijD", width: 1024, height: 576, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113189032183549502634\">台北發現青年旅舍(膠囊旅店)</a>"] },
+            { photoReference: "AWCwydjz77P79UY4BZEoRE5c47U17PSxsw8GoMmXpVmwQJH4iI-XvaekYiV2K5aBjAWJ5AE_2F56kTiSiMOBtdJwiV9zQr9HkpxMwLZUO4CIxI0RJfrREN5mBwuvgAGbjhmmvbBeK79U6hMFanhkAj_UkbVtJgLQMZQqOacp1jYg12bFoj5uCif4LByvKrPahvJterB6Ang-HYgM2S7VPicxke6k2S57CJ9z-LDavZucmNZAcWCbmO9hEUSshZazcX-eQLh6reRMyjJ6oQsHkg8Po4uNQlZ9bSAHUOMUAtbfUP26AOf61Ma7nh_frS704B32T_ti6uUKP93RCfc2rzyK2hZQbpQoi4H4KcD8x-mU1rs_py4o37rZ9Y2CyHbRROkHa2VqEvq_7QjMjQTbGjkJFWuysKZjk5z4novfEAXTujCaV0HD", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115843445451726370782\">跟著史丹利去旅行</a>"] },
+            { photoReference: "AWCwydjSkmVEYh3h104A3_eFNdkLfooxI-rt04MP7VOG8qVgDRfCUt76rtFCgsqSRvoUMxvLY-IQwUvy2TW_8Iwl4sGXdiCOrf-AQAp52DhXeyMXRQJZ90YOLKj9qOSIUNRgdmc_ENKBDf1Xj_GUbDrhvrE0AK8Jl_uGA5SYkwislZFvsJFdYQ4D0FPysCpr3sdxCrEa_KVGbggsWpMOGxjd4ZaEpMLbAk8cUdIn3CcTbrfC45GXO27xj3Fzikh8ee8gHjpPUUObgw28Rz2wuwZkwaigKJDLYnygSR7UUaeVDU-E3uFMYJCCf5BVx_tL-8pvNj6Bys5SitwUO6BldTJx5E0YVGgaGgf1T-g-EWJWxzSgG592IjpNsDyLKRlARcsxfjAuF4xzpnLvkaEM3QyaexUk1uqEHMiZ6D-UCz4LQTqFyXoA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105026293638072808396\">HUAI en Li</a>"] },
+            { photoReference: "AWCwydiXcIYzybgkr888eUWiOez_wsIyBytukkcQSqZQzRKhuTUgpGJUBKqC5GN9JjSgsgt9Ov80_7IgZStqydQY_kl7CSpLgXpSO5WIbABgw5qU2gKPzbdq-RAbJ2e3FuW9Iuy8iylmDBTUpbhHxN99Er9-Zj5pXpT-lPijffEw0UxNAjjmC0BlIFGKAXQT3HOmRc3ipVTCfTZMaocgfHjILYRbRi2mVHjH2KPrWjw1L80S_dq8jZueP-K0TS6g4RZOVBCUwQXAdcIhhWBOrjhqb-K7ZqDrWqlrAdSU5g1FtJwySwFcHLmfiu4HCnJtZagdBUzLVmiUVppezle_L8BeUWX4-121Hx1iIh1hy2Ge6u_zPWKZGHsLB4V_Gn0bWJwrU7N0rhig7WJMPpM1w0d1x6lvJK4aR21kDWyrYsEYGMY", width: 1024, height: 684, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113189032183549502634\">台北發現青年旅舍(膠囊旅店)</a>"] },
+            { photoReference: "AWCwydjGJArRqPxF6zFnWW8sG0quSMQF3NK3GVvw9BzS4Swk3oNssJbDMzZcFuGv3zMvNMsqfjfJQoDmFNx-bTZkNXjpk9-XokbKAaz0TzraJLEPFl4W1vkGi9vB94t3heAa7vaJd71411fQy-yI0HOGk1dwCBVlGh2DuhOq44LMC0F24Q3BKSdInSIGL2C1D8fuaTzgB9zPEiMQJGBUZ-yApO_Gn2ObxKAEN3MIjC43BGZKGfUvEbatOEfgmAYFhCgjyDAAbfBygQ4ZmkEx7Cs_viEKu4zhUpklrqP0vn4nb2FYj5gnSOVexd76QZkIPzQblHdjbxvL7-Nw4xzKVahoLAaP3pmrUwgVKKxIiuf4Xiqe6as2NAcRH6Nk1w4Ptx5kucpd5blz19WxNnDzWPcla1MLuRvOABOlPC52LJHmJK5UoA", width: 1024, height: 684, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113189032183549502634\">台北發現青年旅舍(膠囊旅店)</a>"] }
+        ],
+        summary: "저렴한 가격과 효율적인 공간 설계가 특징인 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["합리적인 가격", "효율적인 공간 배치"],
+        tips: ["대중교통 이용 시 거리가 있을 수 있음"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "10491 대만 Taipei City, Zhongshan District, Xinfu Village, Section 2, Minquan E Rd, 21號5樓" }],
+        location: { landmark: "10491 대만 Taipei City, Zhongshan District, Xinfu Village, Section 2, Minquan E Rd, 21號5樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.discoverhostel.com/?", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9874435720797166719", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Taipei+Discover+Hostel+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "109 호스텔 타이베이": {
+        photos: [],
+        placeId: "ChIJm_1sLEOpQjQRCBRW5EoTJis",
+        placePhotos: [
+            { photoReference: "AWCwydjlhlNOSSW5gbBPpRDLNsCQIIIFW0FsYVTW7T0NAtryuP3PdFAa1GcsnWqFScUyBDa62dRerOVBza2K0cjL-UstJ6aUkJfbd0Y1TNj_lzLH0AbdXqnPhFhf0l9n35Pr04Qn9V8kNIbUv1w8L3oexkzFkV28JSWvMruvxrNHoZbNUpf83EnjZnXeS1-XN2JCeQNn8xz_fPeaVP_PsprUkkRosQ0Ut3tLn4zOlEgSjQxkFiJ62Xkwyh-xbEnj76c-X1IQc2WQPOLn3EOOT5uIQrqU_OAXp7Ea4nfoEUwOQYaWzOQbP_HnjQEUUice0XmPEMPhueJ6_59iF1e4H0Sp79UpyOBWIewWAO5PEl5TUGcYkYhYa_em23IXFTas8pjlcM0MrMkzLj97KP6OZQN-29HTdCKXDZU0bIt9KAOVITOO8Q", width: 960, height: 540, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109624945402899445088\">109 Inn Taipei 台北109旅店 @109in 台北住宿首選 人氣情侶房/團體家庭房/包層包棟住宿/雙人房/單人床宿舍背包房/台北車站附近住宿</a>"] },
+            { photoReference: "AWCwydgKInzUIQV3rFuNQBtARBiN6wAP__vL3ocdaon38AlrPxlJ_Lw_vQypzs_775UoddxHv-UbcP4ogxIsIFqXc0T4647t3r52elnF4dlmwSMvTptEeX-0vQ63nZjgh5HK5AWLtid1FraMDWcOSIC99BbcLSC3VO3K_NnZ4lyUX60rgJKTbvfvpPTVMeNA4Z4MQR07v1GvtBGfFTtqUZO4GsKf-0_ErAPsEXaGuKZNWK-hvcqnuWsvqyQUKAijIuP5d4dUOPvAyjMceVvWhluBilYkUlvYo2fePt5AJ3-o7JWmLjQZA8orlmznLiWtQEGq_HnXUmpfpmqFyNfKnW5qWwEr2RKm_aKqqGzHivkI8_TDcTgLbuLf2SujaKp4QECSeWZQoFYlo-ZwprfwKYlBBFTSIiQLRv5o3QUtUjPlzwxoPw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109624945402899445088\">109 Inn Taipei 台北109旅店 @109in 台北住宿首選 人氣情侶房/團體家庭房/包層包棟住宿/雙人房/單人床宿舍背包房/台北車站附近住宿</a>"] },
+            { photoReference: "AWCwydgERjwcjcEzzvdEbeUNRcbMKz7VM3qvAawSbSpL5iqEog92JXNeIoJjxxeWBEsqbZJ-P7Grn4lNkrQmZlS3D0fJPkeoqfC6wfe1VU_M6uvT_hDfQ0xCLdWoeZ9ExBfeF_UR8CVDKLNBVKc3P8SXCBycDjSpA1UiKVBcoCRdU8Gayw3i3ARHloKnj-ARICdtZkWHp1ndex1U_-20IxvHTigGsnLBEsR4cCb9xutamLgXx-bVdV_uVeeZE4vTGCCTi9tN73F5dtcUP49JR6DQZQAb3Jxk3wqTnM6JIM7hBiK7CS2YDzM-FXbzhAfFXKRZW6rthJHtB-KaPq3ErWNypfY0sZhAzOllydwOpj4mNMttoNmkaCIUA808nJDZhG5MqxBieShlxF0Go7AUfKiei5HNnMdMdPCm8T0XrSJCJ56IVQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109624945402899445088\">109 Inn Taipei 台北109旅店 @109in 台北住宿首選 人氣情侶房/團體家庭房/包層包棟住宿/雙人房/單人床宿舍背包房/台北車站附近住宿</a>"] },
+            { photoReference: "AWCwydjOiFca1JRZOJC_EYKb1ZM6i4SsR5zS0YaprHzl6xltyB5RImE1NSz1wE2RlLTvwQ3Y1lWW8YGLfsSZlDyIWD4j_7ih8qxhKffM1FGjs2ZP_y42TkG9IYJF5AA8nyEVWI1u6HdQ0KVbtK97qbOyd9FT9IE2bltaRCON7MwOoRwcHQeACJDdDgxjsoFhwcyt0Qum9N-mHDQTbWNKxGsK7YvwD7c_TbDNUu5NEgZto5EdiRMdF1LYIx6AAvvX_Qjg4V5dBWsLk0P48VarWm1GE8nDfLGQgudY4L_XZqAZFC3QAuByxCn7BDz7zZ85D-xaSkTblDrYwSQw43rcI3Xje9h8Cef-D_XFWF4W9gR1M8BgytyMpIuQOteq4bB0KWazrj4xFxA5k33i8IcngZyUwqKWELqtDNxB55PmfVcPSSL1_Q", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109624945402899445088\">109 Inn Taipei 台北109旅店 @109in 台北住宿首選 人氣情侶房/團體家庭房/包層包棟住宿/雙人房/單人床宿舍背包房/台北車站附近住宿</a>"] },
+            { photoReference: "AWCwydihmwBDsq1PtK_No_-8afGc0FlkZ55Smrw5cuTtML6kZf-j7Lf-aqwHiZ51qQS0VzLZGEZ1FpiC48VTaqMmyqLJNmr2N5F-4uvnXhN9O9bbG5ys47GzlmdLDWCo1k535cmczWftIeSrGsQGE2kHDBBzkG02bYPK62jD8N6LAgXroBOjL-_w6f0gOrBqIe-05cSNCkW9gtH48GwuqEpRClCW4hdjV9zxvcE60SJgZZdLLD5uFbtWDF-m5ruBExJNWJSBgZVm0RlfHtyaHcHPiOGLpNQqz9zQ75tOq2Hmj6ZY_roFHadyUPI_23uu2KheO68J7fbdgCMTFj8mJZ4Oog1uUD0VLJ9X_8WtwOFNga5md6fZHokFzV15no2c-DeCGcwOqfgsy703JDH_zn7I2ZC3KPHCvoBFzaxXjzPcAV6uO1VlD5oWgwnUzJAI3pOp", width: 2500, height: 1667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109624945402899445088\">109 Inn Taipei 台北109旅店 @109in 台北住宿首選 人氣情侶房/團體家庭房/包層包棟住宿/雙人房/單人床宿舍背包房/台北車站附近住宿</a>"] }
+        ],
+        summary: "높은 평점과 편리한 위치를 자랑하는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "역 근처의 편리한 위치"],
+        tips: ["무료 객실 업그레이드 혜택을 확인해보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "100 대만 Taipei City, Zhongzheng District, Guangfu Village, Bo'ai Rd, 36號3樓" }],
+        location: { landmark: "100 대만 Taipei City, Zhongzheng District, Guangfu Village, Bo'ai Rd, 36號3樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://109inn.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3109193805125260296", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=109+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "와우 호스텔": {
+        photos: [],
+        placeId: "ChIJ90uFRgmpQjQRrzrGHbg8AT8",
+        placePhotos: [
+            { photoReference: "AWCwydhVZlk7beM5bpqdMsw930f8CQXGppRWilLvAgXVU9yRb_5t9kzmy0rC1Ls2v_zShz3ZulW0y5aQK77V1Ne8XiT42FJrzclrbP5K1qjMZi40U-5nl2rjrxcibeh4EUtost76kaV8PIQcxdKUGOMzD-hvQylfAQDYXHmIgqqQuCJq46GDeAIa_iDIXpqBtX2NWikNxAJD6AdjPdA4Qrb-a3sfMUzeTAGO_Y2UhdEfbw9HJmAgaVBv7_Um-PSljqb9Oqb6ZtqWjFwRTcGuP6FwUjzc-yceqNRynW0nImYXrQWsUlMWpLWJEM8lZ1UP1_qolinIoDzX3wM55iSSkWQmP6HxwUDIHvHsDoCFnVwXYSeYllnlkA_8AM7U8OcZtB9ysGRkODi3lyiydmfVmapWPAqBwWmlGR-X-2JPIiOGJAFDWZCHkiBYbMN_3lwWVw", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113633009272858860289\">Annie Huang</a>"] },
+            { photoReference: "AWCwydiGjZPTiyHi4gzOYLr7AjmUZt3z4Vvr694YblRjCuoPBllWSbkW17ZhVAm6WhLEb_NDz58383TTBYXjyp1xTgGinnUdnSXOf3Pn-EIIbwQGiXlR7QFYKg-Od7eHPAiTzJ2Z4MTWXzuEpKiWbZHV3rA8wTT6Awr6PCv7OkFBeVrKtpyfqyXCdx8ar9LJKEHh4MN_pD8W6iBmROAb6NFlfezAnG6sTOcWkG783xn1AGLUzhIqMEae4Y56wUKG7OqTsWer49oQ12H2XqGYzBTqUpy79Bup5F6tCMBTMKWKr8pGS1ngjjsMgyHwfMNjLj6O4kBz5mT431JEFzRhCVAm6kSueOjt2PO3H5Ovkz9fZNFEy3wtQ5CpjaxNranFVp67wZFjrW8j8nxyJAB6VfRhKTUXsDm4b-ZFvENWKWpynzQQOw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103770137452828863848\">Hsu少菲</a>"] },
+            { photoReference: "AWCwydiEuvsynR_cf29LKeLmhqWgGOk--WMI51c206vhegVioRjmnw_R5drgUyE7JhSVY6MiAGZIEtR81xbV3n78yKY4UM63ocUjjTAUDH2VPywFC_nFb3B154mDxANO5oRTcDao-2kXdVvghcCUfmo5Iq_QlsVPufIOz5fU6thopueoT8eqNUaIm4eg375W2o88uUKUuFjhYzdwa4wu5JhQ1zZiTmsFCFk0AW4W-PGg8OqOUPUlj2PpcajE9eS0ovu4NutyCsgKN_jKA45zErW0yERxjwrrWAk8ZAMrs_sn7sBs99aKP2WK4xzYlwlkTjiPrx0tXwtNhk0PY2zvNWKTuHvoZxNehPeAecSvutx2ZmRR9O_pVMMv11-BZ3gBBK3Eq0BzXbyVM05lrTykdcgKmuNFLAJESZjCULh1S51PZ8pTMbI", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111763007577261467471\">7fang</a>"] },
+            { photoReference: "AWCwydjcLHgj7pPwqXpsbD7fxqAkreoe87FyDrJcbIJiDAbTh8pLaqrJxAUkStvpkIfgnpGyEWG5uFkQpJycKTrAY-k1_BNbjNCC8wl-G0AHmw1jBxjKDPa-LbYqAseXCbicMzIqcFoc8a7YZwx3hV7WWUpCj2nOxcnITCsFU-egqGffSXcki6ATi4Rkw6-4Xo5KzMHuVHU-Ic6PIurVSRiKZj8fCqBPypM3aLvCE0A4ZmqUTbWoUrE0xm4uNw50dev7Azkdg7kHF16PPbAQkm0LmiluYxv8GEzLyoFplKEziOmFC2fb0oFeDV1T5TBG7kw5Zpl-map-rnFACAqHe-JGci3TobQumE5M8-JilqV0tRQQtgtgzvVtVz-YmG6EyuND8sxMXy7pW8NwaMRbLVvMZSHTDmTN2GQ5Ru_M5PpycmXhytQLn4J4DM92Dns_nw", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113633009272858860289\">Annie Huang</a>"] },
+            { photoReference: "AWCwydihkcRBaZYJSMMPPC8sqiA9no5j39GuA-4ikH6m58edMxCUoZizcoc8Wdp2DrM9W2IJ95DJXHnJgeStGiLrsliV5-XdJTG_F602hLIDPHQ0pgSUU3nW2I7p43KUjFmtxQUgTmdkgJzujCPKJZz-h857LGnmnlYZ7a9DiCyQn0NJRLEouwrAuRWaf74ENIJX0FmTydz6_ofnGA8Rdk6SrTrI-UDJJQKO-LCwuc1PYlZN-bvfU8mYUwJLb3uK-F7dbzoLFkxgoUqIHaiXJzmz8sUFm9DCDvVqG41_lx8MLHEW5QY9r65KBj2BuYcN4pkCG9nWE87ontJuLfBBlc8pyWX2BIOiPLObnJKR6Gm8m1PVwceajmlO87uBOpCzuLjE36dQEUxT_WDptEOGg-2G9kleBSiTe6Ez-vNbUn6LUBH7IQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111763007577261467471\">7fang</a>"] }
+        ],
+        summary: "사람들과 어울리기 좋고 편안하게 쉴 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["깨끗한 시설", "아늑한 분위기"],
+        tips: ["사람들과 쉽게 어울릴 수 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "108 대만 Taipei City, Wanhua District, Hanzhong St, 42號8樓" }],
+        location: { landmark: "108 대만 Taipei City, Wanhua District, Hanzhong St, 42號8樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://book-directonline.com/properties/ximenwowhosteldirect", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4539976660837350063", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=WOW+HOSTEL+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "온 마이 웨이 타이베이 호스텔": {
+        photos: [],
+        placeId: "ChIJb2dz6FCuQjQRtZnsB4QrAL4",
+        placePhotos: [
+            { photoReference: "AWCwydiJEEaE1fu0kML1bPW1Jrg16iNZE0isEhsIBq1Kv33nDtWhTWFaxvpo-YpZDw9WakLyjIjnHcmnLAFD-sYqpSGDw8g_gW9vUbA-VqWYdrPEeqJr55ewDDtQneDeuiaitpZkHZl_ua-Dswths63QFaYzQ5IK9tUVoKUyP-X6wkPTWa0gHoY3o4XhiPYaoCfFmsMD_6K35snr98SFa1PQ2NSAlbaUR9Ylr_-ZKp7SFNm4voMXpmmSEaoJr73zzBxMUQwjmg5KXwvE7nKK-7-bQnYio7CSLO8tBV7m1FtVvsQW5xOTRvUq543zGCr3UxgX6AGdlzYV13-JlA5pZ8D0Y5eTWio3NCwP0DUbtSXaRBcJk5CQUG2HNKnpHPaT_Ug7ibSs9iU6MXc1K3-lsLEXdvNc18WI4N7f9AxZuqmFBQM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118127176627336858246\">途中．台北 國際青年旅舍 背包客 On My Way．Taipei Hostel &amp; Backpacker</a>"] },
+            { photoReference: "AWCwydgOW7TGKgknfwx9rpMFuSAALW_UrAM1uKdeWOHdQxrYHrXTbKJ-jjZk15HE1d10yFnUcEpH0VbgDmKk5nYABHW3pPo7YvMiHEckbBTjU8riRY0prpkZht3BIdVTfJvp_G6HPUVKTa-n65znTKVHl-b-355HojzB-16tr3DhO2dt7el3QiHcqZ-7hQpHRWnvXNY2wBLiYZzSo8olZ_PiXZGExLlAHHrptE-S_QIZsfzQny5xfyKCqXGuFqhorpGbGJRtE6SFoWdE0qAdOOrPL2EhD8zJji3uClw5lICmdthxrQ3_sF4dy1odtHNyqs6Ih-g92JSfFRjZWaM76_PPhzEp-_Aw_rexReR-tNo8OwT1KvWm3zXA7c0MSbqdGPqCl-y-nvgOvhJbLNfOog6bVXFlFm91Plv9H1rQohJUZifNCbg", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118127176627336858246\">途中．台北 國際青年旅舍 背包客 On My Way．Taipei Hostel &amp; Backpacker</a>"] },
+            { photoReference: "AWCwydjFZesIsBnBemaJXLpFYOdDcrlDR9afQlUNK_nqEG7iicd2OJt8CRcFR2Jqxji06W59R2PVRXEMpsmlmiuvrkAx4grz6SZONov9di2raXe-1lNkKPp-NUjsmJpU-PsXsJRv5DiVTvK71jnQUAd5pUHAauNxUtRyUfrPFhfljaY0fMg_mdh6gWxBfnunyoPbX-ynWxp0GT6eWo7eb7ifmBRW7eSEwb4ZCzZYwKQ0APByoIkO2Pd9aNguLnr3FXgJQzpTKJJ9X5HYhMtm4dA5joEylWFeSmYPK0vxBSC3PAaCRmEwJzbgrjn6hrMYq3nLXvYks4x1VZPVbc2YQBq8ajoZr6ErLQdhfeV1ApkjFji70x1ZALDwLClAL8Vo99z4MbGPT-7Mbdlx4HBc8Sw724gwwDhhWBceJLwHOAPDHqoxhg", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108235986300590462011\">M.Y Y</a>"] },
+            { photoReference: "AWCwydhdZIBm2gZ4vBbEHmkMkvtQlUSNTvf4Jekut5HrbfWS8Jod3QCuZ-XOhvnEwrA-dDfhQZqbxhP5uJQKZUECazn1Uyn5UH90eFtS8eSUigcg0M7ZSmsZ9npgA2ITennSLtILeMxC3tZEK-s2eNbldnRdvmLT1D6XcPXYd3-I7-6jdQDqRAj9w7tTh17MnSJuM8NT6b-tpx8k_gvbS4uzrIU6Q74K_7h2dbNncIjeYMjzGaMFOTpgj2_Fy9uxpX2yli8HpnpEzKwnBikVlbu6xjKr8G15pVsRdcumtcMeUaOB7NRwEJGFab6PqCHMZ65iee3ZExJb0uBAUefGmdUIuudBoSb2J4hf165SietiFUr-OC8tF8Wyly6XBwAMtqbOKEUblBJvyEl9VEmj2MmFxJiqfo-BagRJqjrLt6QdwTl6vKYZ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118127176627336858246\">途中．台北 國際青年旅舍 背包客 On My Way．Taipei Hostel &amp; Backpacker</a>"] },
+            { photoReference: "AWCwydgfv5ZQVPkKAyDUR0k1LTmo4rhy6Y1wsUTLURF7fCQsDS5oMbTWBMNooiKotJxqJfKm6fenXbBCmmItaoh5oVhTD5eZKH560-3zbb9BlDiXKANzOKNbsYVMN9QleIto8rVNb9YwS0rdKJh2rRJfQ2Zs4t3dHEIxA5akTxKucyoZlGvGjRvI1mBd2jHeTSP1MRYXWjz_8Z-MzOCiLCN7dTaG_Jv1zRi3aEDOvykZPdBbI9DU-3oUp0WiNRKnTOT26aB_JlQB-S7qU9T0vPgoKCbXById9ZrJlaHkldHUkbwpjZOGisNl6WM-rxKiBiCF9juutFYuu1Tt4kYFR4Z1yQ0UDi2h86YGn-2gcg3Z4t-mkERcuZaT0FkNpW0M9Ukyyx5i1hbjJxEFvvFTNQRkecAI6lJdv8FUsOEnz5sHehYBlg", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118127176627336858246\">途中．台北 國際青年旅舍 背包客 On My Way．Taipei Hostel &amp; Backpacker</a>"] }
+        ],
+        summary: "위치가 매우 뛰어나며 가격 대비 만족도가 높습니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["우수한 위치", "합리적인 가격"],
+        tips: ["알레르기가 있다면 침구류를 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 82號, Guangming Rd, Zhongyang Village, Beitou District, Taipei City, 대만 112" }],
+        location: { landmark: "No. 82號, Guangming Rd, Zhongyang Village, Beitou District, Taipei City, 대만 112", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.onmywayhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13690990713274931637", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=On+My+Way%EF%BC%8ETaipei+Hostel+%26+Backpacker+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "란디스 리조트 양밍산": {
+        photos: [],
+        placeId: "ChIJS7ZwY--tQjQRIPrh-VE8GmU",
+        placePhotos: [
+            { photoReference: "AWCwydjUFuYIWaWyFB95wMZ29k0E9SDnWuz0xtt44RuPGOm2wkkVacSvLfqVd3aNOHrtJj4b6HYYhegQGiSm5rJ4oSTgbS2WcfwvUYS1ZIMVo2Ed5UKDG_PymqeIazlDkLAIg-NyDwQcLq1fBj53EKVbWaGGWJp1bSaHb7zjH3oN-Te1qhKj99lcv0gtMN9CUwVDueq3ITGszDnlJIZmlNGo7lNDFFh74zf_1mA6pfJkqGxoBd84X4CUx-RkdwkhijA5kUmcJua0l8Yqw6tzUd-AWKRj5ty110UggBX8GeZwJZKlpyfKGPPjzmFPsYOcJsKlutTTFXHha6fpR06Dn83hb-AU5EOf70SghlfzLu_uge0_vw1HJhPj8XTAbhYYD5tu79nYTMfD8x-M1iX8Kl-JS64VFj9lTuayGk4-z0Rmxwc1Fw", width: 4528, height: 3016, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109042137830436857180\">雀客藏居 - 台北陽明山溫泉飯店</a>"] },
+            { photoReference: "AWCwydivWXdfXfZZzLGoTbSTPHZrzpzuyxUSjdOancNBCFsDJeqA8_vbTubKV3iZMa1l6r27sWrlsd_867keC39qDR4TKm5i2aSdaaTFsMcuTIo8fug2oLpTh0keXwg-idJgqR9mf5pnNHtHp3qUmsk3wpUduzO6gWwwS90znXNPqAURPqBDbD3YQLmzNTVArRvAaqNi3h4OWGH2yN8expk2mc5KBj6Pm0YaPO-a93JL666I3nOO2zjOpX-xzkRBj6rXdk9GDHcCyl4tZA6Wrrp9mUZF2wKANRjwdT6HLmGF-lnmakLT4mGFLNSfuEj8b4f0sK3P823rUCQfmkyGD71K1_-k3seUVYYR-8sV2DAhdLtQtWu5f5BxmZ_JSG1PFYTnTDVg_lgJAB_8A0_QRctt2gQj4Ac6Vf8-F38vBBRXpas61A", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109042137830436857180\">雀客藏居 - 台北陽明山溫泉飯店</a>"] },
+            { photoReference: "AWCwydh-6MPnXRROXnVzMdjgQF-hYpnaVDG4Z-sN3SZiB4CXOFPvY1UqqIFNV8-o8t2iI5Kkc6ZajepKRnm0e7HP_nLffoypGaqeVDEfSqg3W_YduEfvndHWbMQTm7bkqC_yHAPz5lxm-1ashWS_aAsC1PudJ727seIGT0XR3Yi641ez7O-vZwUg0URFi_cMrPBd6KknuYVtMWIPJlpSBZJ_dQt3OKfkl7bCLq4HQQnLjgxsG9eywyY3bx-r4l54UFrWFo2j13EqTc9ULmKqE8MDhTGuM4AilO_TzJkgMFj4bHRUTwR6RC9bqpfvsQA6xOOm12WgBcbFTy3f_4jayduqpYn2JzfNIqTo5jnxumEqR6vg3y_DKt8Xbhb8by1X11nJaDlTAbtYN9aqS9sgf3V1p6DLul21BmHqUlobELBBf951aQ", width: 3861, height: 2574, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109042137830436857180\">雀客藏居 - 台北陽明山溫泉飯店</a>"] },
+            { photoReference: "AWCwydgcGRzcJP5XN43VtCuGtk6soupDgRbi5hKA47EVD-sZM_iIWFD8r_j7uWfb_73LUAPulg3qIxpN1SdMCecCXpp1v7OkKha4URGwKSBlqAxyL6enuKFjpZ0iZe3-2F_fPpOaizlJOfwQVq_FzUnNwI6L2Q8Janjyu7hdn88dMOIg1YvIAXH0HEuovZ_reYb8BJWR2CBDbPplGuDy5NSf8pOe2MGUNf_-qGB41kuLs4TFUq46mWJ-ylN_clEq87mpycCkXp5xrmqcxvKQSja3gzCxCUyw7HQDxJ8ZXNw6IEswBFEKEfXOOedcURNEsObrMIulWTsroxnJQy0KAdO1Bfpp_ADBdjlI1RqwZ3SFK1yeopJ3FfVlLOILur2DwNnKGNVMDoh5G7CCnjuJH5gZYSIqs6t3JjtKgCtSSRK-eiSYitc", width: 1576, height: 1038, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109042137830436857180\">雀客藏居 - 台北陽明山溫泉飯店</a>"] },
+            { photoReference: "AWCwydhGgP3nlgJXD6X4u2jKUKsv8bVVAFtV1ekaTD4l46To53d8ZnWcRqeKohRoUANsruf4QSq6Jut1dpE23i10NJTm8aLXm7sJ18WUVgfa6bDe1rgYkOzETLoZTNIwdVRo9ndPcEBA6NBWx1JbG0KwvkLHNtJvMQkA4DEQEn5QQxLecMNjUaM2XmS5JDP2SW0x-v9-6f586M2oNOYULLFQMW_HkWqsA5SRmVQeJORNR5sE7BIEhUrrBnLZLFo1hGR651gWk6BNJ4m6Oi69DGdT8kSIB_oy_I3QXTfaHshW0vi3ONfRCeC4w388tAoEkVDnF3xV6ThjnW-PUGOA55AE_H9DE1NI5nNPgcZwCb7CVKLNPk2fR2vYevSHv0qTRy5LBwCLHpYF_0r0sHj-GkVhEZO593Xwy_-W_jNJL5rxeNP_JQ", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109042137830436857180\">雀客藏居 - 台北陽明山溫泉飯店</a>"] }
+        ],
+        summary: "리뷰에 따라 시설 관리가 필요해 보입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["노후된 시설", "다수의 방문객"],
+        tips: ["시설 상태를 미리 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 237, Gezhi Rd, Yangming Village, Shilin District, Taipei City, 대만 111" }],
+        location: { landmark: "No. 237, Gezhi Rd, Yangming Village, Shilin District, Taipei City, 대만 111", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.checkinn.com.tw/?page_id=7527", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7285201670007552544", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9E%80%EB%94%94%EC%8A%A4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%96%91%EB%B0%8D%EC%82%B0+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "진 레지던스": {
+        photos: [],
+        placeId: "ChIJSR5HVy-pQjQROWT0bw0WBxg",
+        placePhotos: [
+            { photoReference: "AWCwydiMkKPAYZWMEreTH_gnMbfEq6tV8laU0EjCcf0-WsBalDPnH--9f0v-0clSrphv__VlcXh4lrY0EaLVJSePq8oNaLFcLKCyQKlnr-Lx9wczh92DmsKxpBDBgV7WH8C5vqKEsJsnHcxIOSFk0_VH1B9p11tr_KuNTJrGJ-PjkWGwKJ14OwgCGsegpj8JwoGPeMRUrcqYT1o5FDRfanV2r2pa0Bd5yHwuj6DhbxW3NS70VCO2y2rT1NnjfvTXqqokyYWIC94CUWDDmkO8XT9Z-bXkbAAt05PTiMLdCZnprA7EOCcGUJ7yBX5bUc4blD6RmN1PhxGhT3kyOwoAlp-gyS8WvWsmNPaa0_clV3C-S9VifPeaJ8Hb2fGTRqw49gKovHQkPyAG5b5I4LyXNQjlZveAN_9XnW3957yvFQ_X5q61Riy_", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108496019161556733956\">新美齊酒店式公寓 PARK 259</a>"] },
+            { photoReference: "AWCwydjlPLFqgDJIY3aquE-kAIg-1EhVl7VnB5jxjlqclHURaQZ_cZxaqJdii84Nb4wZcLXKjZVh0XjrohoQ1e7lKTT3EZNPk2w_7w0yQKY2tCjcxX31QZ2mkIK5MzpL_xO_K98gqlkwMk1zufJ_VLQvOFhfT4CjfLrS0LM9fMf7Q5HaHZA8tjwxYOjGYrTUNrCWy8lL-FbP7706S3ZhsxRw7szi_ayUUHKY7wy5RKwGkpWZSuH-E3Hwvy6wKVLP-cyHJon3ZS0Sa-gRbG8g3kxSFIQaE4pNpk3U80g7OUNo7Z3vp5-S2-XZCP3MPHhSlD-2lHOwedhmaDUneALsuA2LdsnCUBWrMXeMEdw-yiY7UzBgiGCJaRsWu1mGNBFr0CK0viEyhtBrR9_IRamZVc4Ksk5F-iR6R3KUve4jsPfRKq0uNsse", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108496019161556733956\">新美齊酒店式公寓 PARK 259</a>"] },
+            { photoReference: "AWCwydgn7wtVGrRX7jORcqCw9J6OBHVtmndAM0suhcgEkWws4PgLmyXqSaDvoUDH4FcrkcIbh5W4FQbuyIjfvXcF7uuu19cWmMRv-MeSqUQOeWic-MhtwRQ90gaYP3LHmym8cnE-__PdwxLRoNeqQ39PzodEkKsSoYNkYqBFlHnl2afIDW3umVyyW5tURcaqSOd8chUBkIjO8oq83N18jB8vlY08AdK9jMJBVTo0Id_wfhlA5OP6GogJjUz1r-4Y0QNYJcs9x2JelXqNfHp2QFieFjJIJPs2j03kFYLVXocuSy0JSmYRhKTHlTaB3E72h1euMHbM2zUVejN7a6sFtG-DicI75FCAfGQPOMMg_x8RE1e6JOhPdn0jCJPEFLn0y8856wlEddrhEOkzsPnOP4PRwPqE2zqT4SBi6vpKDcWnJo4-2Q", width: 4800, height: 3252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108496019161556733956\">新美齊酒店式公寓 PARK 259</a>"] },
+            { photoReference: "AWCwydj2gmgaoy6Z3DGnAtyYENxEXxLrwYIWXxuTD22UK-Atjw0y0nh9wd9A6VJ1d9IbS9f2ACzRIZKfKkBQtvsI9j1_nOQbv3GGMynwCTxrShBrifnb-2kUSObmBGzw-PSNfwBxoI_e0mtNeQvC_3mP6zzBnN3KKPTLjxGknlaIYq09Th_VFhOAL3y3imGOzE3l-VQyndGt3tnMH4SUcw8GqvkMClxJukUdN9i148g8P735xRgZNl_a0NggWKPgvoNLzpmH7EjiK4Us_T3wakBOR4J7qtxzCVjjN40QqGHOCUSpBLQ0364WNQjYgsNuF5gTIAkSURe-KGRusVU2Wgsc5oKnLtJSDbXL7A2X7I1ujoScfURprARkeOUTqPoXZW-05RxUburZqufNQD_5Nlsd8xjlCk-92j7OFxCS7iFK7yNqmoOM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108496019161556733956\">新美齊酒店式公寓 PARK 259</a>"] },
+            { photoReference: "AWCwydiwS61UwYH7F4aOmVJIpSmadVvUWPVOiufHDkRcf0HnK0_llyur6jBABoJB1qKrZBAfj8IGk4TgnxqLn1BI3oJ5puvsmgkonB6N4mZ1jebPjZvouVeKOeIkGdFt1AyK45wgAYcmgrfpGd3pxkxWN6QwxWwIHZyc2igSd9lTeIqjm6qWj4_wC1h7Ee-zQqTusxH1SgyYW5V3WQpovtX9x9g37VtTOaVESF6yudKsx5ufxovT2dL_jsze-5IHi6x9j4U5EKpl8yWwKkeZ__LRpQwbWaJfrGSBhJzvw4AFPNyvpGW9hBWvyMVTqLQMO2_5PBC8MF3iZvamX1dlwbBolLTU2_PLXMmHy5TqKK-Rac9PWdno8hHXIrKMNXvQObbHC4xr9QkXcQzKIYdqJqQ3k3hyYlYsCIfz5cD6VMZF6qlWZVg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108496019161556733956\">新美齊酒店式公寓 PARK 259</a>"] }
+        ],
+        summary: "우수한 위치와 전문적인 서비스를 제공하는 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["호텔급 객실 편의시설", "친절하고 전문적인 직원"],
+        tips: ["주변 교통과 편의시설이 매우 편리함"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "100 대만 Taipei City, Zhongzheng District, San'ai Village, Section 2, Xinyi Rd, 259號一樓" }],
+        location: { landmark: "100 대만 Taipei City, Zhongzheng District, San'ai Village, Section 2, Xinyi Rd, 259號一樓", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.jeanresidence.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1731376828715918393", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A7%84+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레오푸 레지던스": {
+        photos: [],
+        placeId: "ChIJBfCUy2ipQjQRX3WP85RNBSk",
+        placePhotos: [
+            { photoReference: "AWCwydjXJCIbF7F3Evv6iJItlXJvC8sB1cwZnQd-L5KsbA2itj2N0Y7bTlKQPb_-pl41gbuslWwQRZn-NPUmIllnD2Es4uOAB8jVYLfSWEIP5Qro1aLeXFQr67khtmJ8DSYjNbXxWvZVE42FsEuV1FgB8PsQvDcK0N9E0sznTay2_imd-ICRfLsJg-M8_eQNo3z57X-ZFSBTcgaGx2n1fMyvVCge1C7du58JQoinFYMyTHHvCUfkZTB8nW0RRQVmfx1QMiWRKuFZ7pDp3mCRpyqpMqSeGbuBA8WiKZPYMGZ3fK6rwshjA6vVFtOUy4Z4YfTmG-r28UzxFMoTliCAq3Hb0wIwloEiwinuZWrWavSvEU7tocSt2s4n2aiSCpb4yNrPb8cmBB__sfCroNOCh7b-pkVSD5nhZvldDbx8bErKgB34dbBR-s1QtFIdqwODS_jf", width: 1920, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113030824482984742234\">六福居公寓式酒店</a>"] },
+            { photoReference: "AWCwydjGXfi6c7ftUvVuRscnsJL3_FEiM9tv5AUPKBy_xNMyGOneaNTBc0wWJVzX7msmOrEiPjStyNvXj8vhVamqmHoXQaeJZGg5SUy3NkM-2dlrYsO40fAv8dxYpKnlUKfJ7LcCQv0cdJtM6vfpZmysYg3bwTNZlYjAlRrge4BVeoLAUaCrs5HaKZAnc-KwqFEX72_eILnTfsLSdsTJVhQC_1vtQQFrTkiTLfpNrU-x3fBZ_KwXIek9sH5vNAmvwpmesL_gKW5YN2N-fPshIpf1Otip6cZx97G6US2A8xd1POxgn5EPQEXm-OIvTk1EiFdod1i_Jzol4QoI_w_sw1491Dvo3UZsUd2CJCvEdlUuXxaQUfBxoOLfXmr52KbSMArWRLOjl7En0e1JRsM1GC0H9fQGyA4A7FyLSAtWSomvkQhK-Gnz", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113030824482984742234\">六福居公寓式酒店</a>"] },
+            { photoReference: "AWCwydgoBttN29FKOr45qDcBJld_Dpm0eehkeg9LSSMroVrw6Qg183tAg_41wKhSeVMiqU9BdVGtL9VmMbGBDkWJ41Zgt744rtJ4pKDegFHbP1OyYXLnq1WfkUvsCk9kB85kRy_Nm8Ll5wO90njYegrBMlaHiHXD9kjg-iUOiAEBOm_QfmhqEyKJpFnceoYWjfvki-LW4lpaeEiCDJRQ0uaYf_lBs1JoY4tpd0XXD7REjEVL6Q_-hTr-LQp5BXvuDmz8ybJMf4rdTdLqPbR9FU1dAMsr1eZNqdzwUHDiYlsqY_tI5xNH5h7GNKJLT4p8cZOmYMNXKo207PTnZ9mtDU_v0GOhJUENPrFsOnpoM-E4_SgpFK6lcmlX7Q_dVhQHmDEDd_62r_-icQDZoP5kUC7Z4U9XDNEJKVWmR1s536NWI-IikZ3F", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105409559504083728949\">林秉毅</a>"] },
+            { photoReference: "AWCwydgtYtzl4w7Ulp7uWrPuBDqNQZdVBi8U2H4b37qB_XZk1VWg1K0xQ4i4Pr2XWUi41jsbLdHLqqXjmskkrvFBOF5bUAH5CuncbkMs4aF4WK_8JI6AgzWxkSYtR82jni_G1B6w6685JqMGdAaWcpVxT1kUIbzNvI_Mep_AK35NScaS4DDWNr3X3zaotT0CqAOkLqAx5f127xxlrQFHt2hnLgU_XqPktytzqtrNGGNhoX7wBkErrAxPHeDSdM0cQcToiIwaBXBotJwQ1BBKXsHIM4RsqI8b1iSahjKwUoqSXfuUlq02-dMQAksum2x__7DBtU7n1gyIfdGKoYKxQL6QRbuYSa_UfKRQwYuUeVryJbgdjLz56vcSl5gSdHHIyGFC6zKKcB4owc-5Gf8P5Ty_KICcWB5ytNKqTz_ZYOgK_EM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113030824482984742234\">六福居公寓式酒店</a>"] },
+            { photoReference: "AWCwydhvTzfO9UupJtybxwsvi_9IXeFmIaTG7IVHgm6q7xkinc1Uhe4kjcrVrLe0hR9YsRnXaiMfDAglECmRC_a9gpRa47uHO1ilmW4And7hAlmJ3_jLPes83PHUVvgjUqv2T9dWX6lRAr5fXWdhHTiTRXLrKHFhPnPsvLm2JjLCoku1xdQRCCEJagh3j3vbmmeir5HKHGpGAgv_gy6PMu1upQ5oyZeQmjDwm72bTEk0kdWHX7VrBneWEFQuxLta4bjEplbreRV54lIn7vOfLVIPXaKnE0udLaf18QltobRognwdCVKyiDwvyN6KhVkYNrcLynMDhfKvhY0SyntWQ0MWSvgEGVZqdY-xIqJsRT1nAMO8UZAuXZKNEQiiN4qdJNVfy03DNr7YTZgF7aiTigWh8JaEsDXPGMa6O36peQEbBUcC2K5a", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113030824482984742234\">六福居公寓式酒店</a>"] }
+        ],
+        summary: "편리한 위치를 자랑하는 에어비앤비 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["회사와 인접한 편리한 위치", "접근성이 좋은 입지"],
+        tips: ["주차 시 대기 시간이 길어질 수 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 38號, Section 1, Nanjing E Rd, Zhengde Village, Zhongshan District, Taipei City, 대만 104" }],
+        location: { landmark: "No. 38號, Section 1, Nanjing E Rd, Zhengde Village, Zhongshan District, Taipei City, 대만 104", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.leofooresidences.com.tw/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2955854032575362399", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EC%98%A4%ED%91%B8+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "글로리아 레지던스": {
+        photos: [],
+        placeId: "ChIJ7d_CUl2pQjQR6qzDZLwg8KA",
+        placePhotos: [
+            { photoReference: "AWCwydgwLHM0_FBYv7k6C5Kr5xriD3KvQOUFw9KkS6_LSEMT-Wz9DTeX8Zn3fxAa-zfarfS3j1T4cPMjTCRcvoP_jD6tqzQS1GI-yRf71hO6YD6qGR2IbgQl_Hq1ZI2uoyypoWkwM4DaXgL3FWKr1N5uQbLYfdbAFVWnYg9JdbvoB7sn3_iRdfrFFcdaY-tKzDhgmzxoHSoY5LQOoPkyneqoYy2HMSLyDrH06EygoySjbJCszNVv2nn9_VSs4Rbq5Sr4QSZh-XrLnWa0rZtzvqnEMDHNbC15Jd1tO6F4fqbIxFHWEaCdMh_m2sNQJpRQYb4v6FIZPrZjXS8bY1t4DXjIrKXUTwxQb-__75LlEwcJl8a9Lwpw0ow-5gkc90y_ClEkdj7U1menr5X7DXK7jfNO8h_KvCFyqQSb7ge-Lndp77I", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114747388929050842108\">J C</a>"] },
+            { photoReference: "AWCwydhAr1Odb054zIhkL10yDlYTrofJDkWg9V0bk_UwkpbapW7n8GpD4jomiwzfSO_UUVAtfODqfGCGOLOrn60TCw5FxPfJ4PBlXJpVAVr6cl1N8cpNLdHyoq-Xh-JHn6lJcmy-OZpj3DRnceEIfPHPpYZTApD-7d3d9jAXH0tYdZCHOMX1nFYEzAFHBpG8FvCNtH7UNVEIjMMxWK7TLYByHU3Z6EP4PxwHWunbKrQ6nZn18uE4eMht8sbKDyPCX8LPhMlL6FBoH0f5DvW4BjHiJxBbrdmNnRQ-yphHxVtvposzeJCPlPu-PMAa6X7nG905QstacoGdrGtm92krxBwshkt8hI5w72d8BkbQ-Hg6fn1TmSM_s_cpjPgx20ukparvF91gwpirTP99rMqWdfaJLK5PXeXr3rL7jKqm3OWlQj1H7g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118066936841913289800\">CHEN-YU KUO</a>"] },
+            { photoReference: "AWCwydhFGCujSOj1PNnU9d4_QcbfOz7QkcDc43hIoaQZdtDTmDJRCofPf4XGohNbpuLjG2fEgCeeawn8a3kflIZNtAn2JEx4yL4tpnfVREHiWQ8j7VBdRMS6oq9pGhh5qJ8zr1Pt8EeguMDD3-xcGOJvxEuC7mmhmWvl3BBdAnLE9PXlRB1K-0-HEdkt6m2MBL0a39ooMJ2bVMozuBbKvuKqkzZEZ34oBTWW1sufLlFpPgTy9RKo8yd6Bky8RRkV_iGIAwtyPEgKqZITntENeIZWIEiRFNgAxC6VnFnc6821VdWmJMzS_Rw2vjShE8-R53KQylXrfwT4jAIUny2O6rhOf4-BC-E2Fp3iuxyAPp6LCt0PjnoCUPFC2VPTaIVeHg1RM6wO1aMO70GyikV8PhXsJ4eBWlHCo5zRWTLkvYNdoZfUZaTl", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108065290201013346482\">華泰瑞舍</a>"] },
+            { photoReference: "AWCwydhgY9dJLbfUDUDcYk0ZCrGra03uF2K_Zmbei4UgRabJttV2wFP1FCbrwrGHa--2bkg5p6eJUPHXc0rEa9awQzbjnW2J1Ku-xJ4NXz8Dxt7F8xPwcrYhTuj5DqDsIphxPlM7y_Flw05QBuJt3ViXTNpDZGcPab3BwQr18ksOqhFRZNcZOpUd6aabQgdnh1tCaO_s-fctLMyTa9hT_LxkC_Fmxf3pDXSjIUXvf429Ioayu1TUxzBmBjMWHMoSPBLemEdIgsMhWP3oqvCzQRUDrDN-7tQHXrNEZYypqO52dRzJGiesMlbSRpCEs-TmVl5IcRdW8Rcr24XWDxFN1NR7SAc5OSs4VPg8_hGe3Gxdc6w14LRfdbJnvcuQ67NzS3IYSpRSkgvjad-C39AEWTUbp0-0w_OqBTU10Myz-3WcjxFnqg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114747388929050842108\">J C</a>"] },
+            { photoReference: "AWCwydgeeAhZSPdZm8tIHxuG_ja7Mue9T9r1MLzG8_8uIo-i1sjy50e7p4AW_XOK3sFEZ-R4O21G-FpPHV1gQcqbmKM9OV8F3iJ2_piTeuZhq5zFkkKvuVDBcGgOZrtV55xA92Pa8jg-Uh1vdk3NYFVE1-u6LerDmI_nPjd6ytwU6eeDcjDgFyqUbzYRhau0YNV4pe_Bw-3K0nXHkar1rROBZM_mh1zdLSW4_Xt5Zy55iT7eTZxfbg5m-jnTF-SnZ-yTSSh2307NZAiKd8AQN3nk-0VgRHZW1wzW-jSAQtdW5eojJ43Moi9ZbP3_bw82kQ3I2jxgYPFw9938GGh83sI6jVf5DwmReqC1jT8OgkumOnAAxZEP8kND0CwuBrxS3pomkI6YpSy1AQhuIAcW-ckpD8rnrC7yHGViITlaTj8iVHDGPA", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108065290201013346482\">華泰瑞舍</a>"] }
+        ],
+        summary: "수영장과 체육관 등 다양한 부대시설을 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["수영장 및 체육관 보유", "빠른 엘리베이터", "친절한 직원 서비스"],
+        tips: ["세탁기는 통돌이형이므로 건조 기능은 기대하기 어렵습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 359號, Linsen N Rd, Heng'an Village, Zhongshan District, Taipei City, 대만 10491" }],
+        location: { landmark: "No. 359號, Linsen N Rd, Heng'an Village, Zhongshan District, Taipei City, 대만 10491", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.gloriaresidence.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11596805033995513066", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B8%80%EB%A1%9C%EB%A6%AC%EC%95%84+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "CK 서비스 레지던스": {
+        photos: [],
+        placeId: "ChIJQ25E40SpQjQREvkJeIBxPQM",
+        placePhotos: [
+            { photoReference: "AWCwydg_DFh0q4ho6QldNcsHPqiT-YEwjd7zdG8A132EK_KGYdqhRSCIgUHCLKEUiKlEgqJqXKiT0m3QEdu1dkBQTsdQXMoPyS86rz1a_DFC-AfRQNdAh3nwwE-gHlujbFGoJkpQJr5HpLvHE_hWXzv2qN4DUkB_DWnDOQMHnB3geW3YZXqQYVPHFM0Lp1JSlU4VLpJzE7guwYE0o3mjZo-OOnWaR6pjPAsynDBDfmJiHOxZlZ_9sv2GKB_6y1TpjLOpppcTI7a4kEngblcR3PpQ4LmgFypqHiiiUNxxkuEGsy-t5DNXBKauVdZKQLFmPZOmkzwUfZ15IwyjxDILlqm1YS-Z0h1Q6wc99Y4_XtRb9KP_Ak7N2pYUIik5Og-3tz6fOCzMzV3NYalkVYU1MU8WA9fug845kAuzloBTRbusMnEnfGYR", width: 4800, height: 2891, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108093571996146560630\">謙匯國際酒店式公寓 CH Service Apartment</a>"] },
+            { photoReference: "AWCwydiZtSvhxQWwZFEaFgdhBbQAe3Z_ZzQ8UgNTPx1X9ST28Z57gxBbiNFSjJNoLPJNNMpDK1yizo-_wYRyxRW87xOeOQHnW-oB53ajIQptp6Ua13hqwkVls61Ym5yHar7trympudLBWtOjlBXwj4GTGc8I0CeZXRARh6NsOXwfakoKXm2Nyw7MuRn0Z9eJrbP3kF6zR8wrZxTyGUIjD3TkYjH2V4gfiybA-4MjatzT3Mr3YGWswZwQngdplGYdkymxRgi17IYtyJGCu1QImUjJBn1OeeeTXqeksJopH80qyMjMmtRVWP9tQXSiE_wohujfWuHnw2x9CrnK7VL_YvYx2pg8xTDVm4v7Dw2-DbYS_EVJaFw3cD-hOe9wLmZsWnf9kI0VsFA8g7LXy8LYOp2PK2BgvXPR_PZpQ7ua_WYjUtO2ZQ", width: 4800, height: 3194, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108093571996146560630\">謙匯國際酒店式公寓 CH Service Apartment</a>"] },
+            { photoReference: "AWCwydgcMf84ovVZGuIaMUJKoXJ-COTtYM4mqrfeANYF466sPqqK_MTgQLrnQSDVZVk91GeWwliXRI9c1bHXjFuEr003-zw7Ys2cABIdCcdHOcG1zdPdfqh7icQViQaJqoMqsTp-Zf1wHvd-HdAt-I9UXv2WUBnaQ1jAgAXSLhtaQwsFHXWU5-KaFfCC4O4LWMYFi4ww18Dlszwr0xvJ79FzZAz9uSgg4lMuhz3f5Fgw-RytRu266c7AvlFdpyr_9fKDRRTtsuoaJbCG3kShECHBTRZaoSyClqR_QNbcRX5ZdF1VDagjdmALs_OE73NQpMqfz8Kgut8qY6K5Cq2I8JU36NV_YrxIhkqbaB-bKCPEV8qU7Ep7GGWnWtNyNXjykm4mkJpE2aGRdQcTfX0hKuawxbAflQaG7yyVpnvPKzZRXcDtbN0n", width: 1500, height: 1125, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108093571996146560630\">謙匯國際酒店式公寓 CH Service Apartment</a>"] },
+            { photoReference: "AWCwydhEfdvkvjXK54U0k0dl7yJSGAQ0Q9NQ5JlyVaNRTl7enShXpryvvFb2AyAokP9tTLy49JgtcM0jFoV9z643zG97yAeOmq6NNvKmL7js-CPw-VC881QlwPAkOlrr4lwDD_jiIZrdZu21FT2ivygriQj4a7hrXjngQMVkT5jX-P8KpeqBcbDAsM5g86NtdwAF3wSnDqsCnskfDYQTrA6ct76URAoloKt9_v3KJSUW4uYD2c4IJyXtJT1gRArDry5xR008s36UEsV-iVp-cApXpbSym76Sjo5inkn6SEdn60JQsqmV7V0UmrFduXVK4pbfTKnyDqA8Ga4XMfmDzBO0NNo72yL7Fj1v8WYLGFoSGu-Ac4PG683l_vnnu5TC84B4_reuGrMJYDjeqvkVXzbiDCq6j44s79aoXQeew7JkuThcfA", width: 1500, height: 1125, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108093571996146560630\">謙匯國際酒店式公寓 CH Service Apartment</a>"] },
+            { photoReference: "AWCwydg9Mmit481IKivSaTGuP6bv1G7O45CiqEN20CoSGPiKQLTZ6b-KuXqSbSAfhUYpMWIIux-8EikstrMXDFNa2xMhqm9hn-PE5IL2h7Eouf_uUSpMFYV4pnBJRe-NfcHz2wcv1YKHWOdl0Fw555S-qvNiFAQMJg-C-eNNvVhrE6NX2oYRoaUzoSUWTCW1c-KyQEvn9EhPMhR1XVEEdyG8mJpTBX7OUy5Royf8qRjo_e8pqvLcgxhcQB5Eqps78qL6sEF6C_PloKbmCLuGIjge4ai3_kqZJOOjmzuaidsv72ZZ7GutNqnhxx8m51kllN-HkKxnkuUzjP8vZFq-FzQjKybJuzPE5w_Hyc_Lb1chAxqIwVkBDMeYneZcz-Lz6jIlVR11j88fEFiBXPp97WxluUKpHzRemq_powqBteypZ2n4Fg", width: 1500, height: 1125, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108093571996146560630\">謙匯國際酒店式公寓 CH Service Apartment</a>"] }
+        ],
+        summary: "세심한 서비스와 훌륭한 청결도를 갖춘 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["꼼꼼한 체크인 과정", "우수한 객실 청결도"],
+        tips: ["방을 보러 온 순간부터 세심한 관리가 돋보입니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 6號, Nong'an St, Heng'an Village, Zhongshan District, Taipei City, 대만 104" }],
+        location: { landmark: "No. 6號, Nong'an St, Heng'an Village, Zhongshan District, Taipei City, 대만 104", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://168sirius.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=233467552276805906", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=CK+%EC%84%9C%EB%B9%84%EC%8A%A4+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하이라이 레지던스": {
+        photos: [],
+        placeId: "ChIJn7LXoO6rQjQRu-52BEyoT9w",
+        placePhotos: [
+            { photoReference: "AWCwydglTszmIGheghyivThsPemfbaI6oim1cRRxG5OQ7as7K5tDzkK3zzSz-EPsA5g4AGlmgJhRm_lPwhBNBsWhC35DbObRECZgzEfGH2JfiyAfqT9YemCq3EdaRrRTI5lEm-WPS9lsZge_bfP1JdF4YqfO4AC7bCzh0rrwWSFMcKkx53HXfELkyoZZl11g41A8QUAs1GWQTYuR9GK1yvL80ujSOH2gKr311uDm3CBXnaz9ooxwkidk8JFeBN-BVr3ykyqKReXThiP888bzjuGeKqyq1d6CcNA2xw35o0CHpoftUj5eK1otzx9zdo8_Yz33h2GxWtgujybAIZEXcDmlk--Usgr9YR7CTAp_tLGv4tduUfLhFbbTYqynf0b36Wdk2Chr3sWtq4EAYLVm9HV9-BH7CEkIcEy6SpLVsijCpUaUmA", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111243682475016829734\">林淑真</a>"] },
+            { photoReference: "AWCwydhbXX3VpPbhDtakBJxnetGoXzTJoU01rWwQmJLCyOwKag9OgUSm1d3KpfF9KU_Wgad9oJkB54HxtxVN8sb-bprd3eSJ6zUQBeiI-Hh8HphZEEI6OmCy0UlgjA3079XgOcuegDJ55iGwzUFvpxw_AHOJK7hYjFonz8Eou0mjEm_ZlaW7gMKQe3RzTdiLjpdptKtZksp6K4mh8L1V9LEU1R96oxX5R46HtI17NAsaJXEe5P5FoYxOVD5TRGOVEVE5MsBvRvGEe4KnRMcZVVBmeRGVHt9H7vy6_QbVUeopfikQV1X2K14g3rEduJnP2RFKqatPNScrMszM2Ko9L1ZFu6jaPGNivYHpMkqnvEs6up68FmcGhM-qLVV2y_0Z9woEDXmJV68Mm5RtdwJsf2Oz4rwrJXYDiMIFy5aRF9bIInR2uQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106593129017724916676\">AK</a>"] },
+            { photoReference: "AWCwydgzqKaDWCDo-r0O8TmdxC9QNZ3nHFgEkVTgC-rRoIsdRVtTcMer2lU3XflTO-01uopLup7WGQnh1oD1gq5ebRiFxoZoCI9U-dovZ7ZsZ-k1qWSuoUspTDZzgH7FQtqC0KPYrHihBQ94h6K7M2uQkiBYxQZUxumnE_mYQnPDF1_eMN_wHPhWVclu86DZoe2tIG4ANGr_A64SbFoCijm2WAmuNnmgOtMJcT7-dvkLg5TGWAjO99iveukvs80iOf3HE9RXWi5AR2D2Q5prhGGT2FWI5qAUqCqlauwOdOkrMP-D9c0aeyBNuJnnVJLKVXsChaq55xce912ndEKlQ3csEDHMYyhy-qD3stERhA-ATQP0UQY3qsrG-XtBJpP_ebquZTDD6TYGDTXx0bHfAXcIsNhBdPL0SVGj3SwdXCavOgQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106593129017724916676\">AK</a>"] },
+            { photoReference: "AWCwydh-4HmkjjuYcRdkibBsL4SEwIeGG24a6ClgY6HSG39rUxgXV1oVOGDcEGmm61phqEMvgKUJYgfUE8oX2tQnjNA3zkrCI6qPOGBjl4jLoTh4RADNV49plQz5X4BgfTIe4hN25kPqFiLFBqeeBfktH11DxdHSJQ_R0RrTWHeRxQipTzRQ_NJo72vr80A8-T62vj0tjI1aN-zBGtYhyX6pcXvsyHlNwoPeKO3vrFxL4sD0KQuf8PGJSYOjWOdIyRw3ymKTUKKWWSbWDxnrpvHf89-hli-E4wsRzkgYHJZYNomNHXPYC3fVS2EypdMNdSZftRTzMg5olIGc9DRs4Y-B8PuvOApwLVyUCmNNhM_koR5gsB1RaIYaXS6p4aL3BVNnPsHkfFGWk_TkRppB6Cj9DzEER83LvkVBuE25CkdKss-dDy-F", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116406381503884245781\">Kana Liu</a>"] },
+            { photoReference: "AWCwydjIVJwcrcLBGYACHYZrfqyDITjKy9XzLKnO_b2_om4REwjwUNPBi3sNK4Vcss_8k5ZVko7lWCcU3Ws_Jqus2EDUeWMLqiQuQ2f7CCsjyu7zai1bUPQalvnohpvRbPnU_3IQiJG9HXSDQQ_iP7b4AA7es96dQUhnGnGeg8Bz6BhWeWQGfjTX3_hDYfMzDzh0b2oKEX1lJ54lzpfSjfhspf5wYI5sjQ54D2bTzf-h9oNUbOP5VsedE13HfFFvQndHov_7V_wNWbnttDvfyZ67YH-S1dyfMF1pybMR2lOjYfSYlbgqa8ngyvIJh_jstPuaz8Mj1m8JLSV20Kv_vBkM9l7uxOOb8xR8Y-ROvghDO8txCG-2fWkkW24hfEwMvK2I5oTvgyQl8OOn0t4LwO77A1ntdCDHSB2_2NK_S7FAe0gcUK4S", width: 2304, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114752030915928953288\">Jason Kao</a>"] }
+        ],
+        summary: "필요한 시설이 잘 갖춰진 친절한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["사무실 인근 위치", "친절한 직원 서비스"],
+        tips: ["업무 목적으로 방문 시 매우 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 9, Alley 15, Lane 80, Section 4, Minsheng E Rd, Dongchang Village, Songshan District, Taipei City, 대만 105" }],
+        location: { landmark: "No. 9, Alley 15, Lane 80, Section 4, Minsheng E Rd, Dongchang Village, Songshan District, Taipei City, 대만 105", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://hilairesidence.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15875092255950171835", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;
