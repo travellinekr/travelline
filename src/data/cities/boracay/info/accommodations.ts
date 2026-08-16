@@ -373,6 +373,205 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EB%8B%A4%EB%A6%B0+%EB%B2%A0%EC%9D%B4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%95%A4+%EC%8A%A4%ED%8C%8C+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "사보이 호텔 보라카이": {
+        photos: [],
+        placeId: "ChIJFTs2j2g8pTMRyGq2yQrXz04",
+        placePhotos: [
+            { photoReference: "AWCwydj8r5x1aGQR9TtLRpu8fyJH4j5XJy3o_KGKkXoePp7P3W7ge1Y_BPBA3LB-LpXDENSqKABRG_NzYJferGXRJUjcoSoeQK9GYqKVvXOGtyq3WCW-NcAcDHOGPZKritfjGFmQ-yy7-1SS_cxQkWWSA6gLVyw8wE6c4K3I9ukuHz1oAfqj6Zr7SLNlMGNboGL5VSjxUmNss-iM0nmDvUQdXPOLOArMu630CjL0InA8seyokO0aw8i3oTLYfjMt8lihyDV1cYJt5mL2lyn7_YRgJBph5wFKFiFmS3XiGYwADL93b4FbVL0gwRv4qSW5wHqL2jsUQPMgD8xGg7lQhusuae033hR0B22wPFasEeRq1728FMzMuOmBFW7vJES0x7N9FfaSNky7Ev5oJnE-gFVZkp0oDsLK9n7W_AYhsmP0xxuj5g", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116859051254698943654\">Savoy Hotel Boracay</a>"] },
+            { photoReference: "AWCwydjRlj0ZU0gLB-KNYCGgHokvMpat35eS-s-DcMoBxru4fEG1CaiIO21sfQw4tmH-IyvtsYBfq2atnjcYHmpECmN4_4Dpdd9Vhpa3eRtgozw6E9xora4jJkkNykxqFHJlgZtgh8uPWTTpGA5IzTW41t7Kc9umDh_i9VWX76gmZ8SSzEGoP024cG88IWle_wLMb9D32D44XmgJAA7sS4-Bq2vW3GKmj_w0zyaMJUABIIBEjIOtUM9u0H0ot4NiPhf8QUumUvRP9iwCE0617kEzSm5lyU1eslT0ShVrG45RRd8MEhwOOmjyRmR15ncZ5mIo9vB9-fy6ObkIuJCBjV-z-eBRswv1lJ80kIoLWmp4P2BlkXA51RFDX0th-6BtQ6yYPnXk3p_T9qZF5DRgf3KW33Ym1CpVGv_vrpQ9FxkY3xZAnMJX", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116859051254698943654\">Savoy Hotel Boracay</a>"] },
+            { photoReference: "AWCwydgfPmLpwO8bt6oYIweMilmkfHxUmLulHTxCFL7wxljo4ckMfX130btl7wZ4LLlbFkkuppn4e2gfXTsvS9ZsjFlWG08p6-pbi13yQ2M5h4Xb3HMbRdB5boYNNdz912fhgtq2c0FcW7QbqeK2WRfkUq2R2wtHE81fmLTmQGZcA8sm-XbdF64Z1zJMUdsv-rkdfNnFJYQD_OdBQX1oJYXtmpCScqhxpBDPcylUUOv6F8DQ62QULQYi_89GuBGtp3LJk_o0Sa0-4jMxX3hbbcr-AXkJMkfaDb7o9Rx8kPevGIK4q6KQIN0U50BHn5q14fSagOHomPNaZgbWd6BDihw9VlZlYFCGdPDNe1XX84UjtDWe1bV9w-cVNBPqEJwVZdxVRqfDt65bDM2dn6UI7cWckxwLzz_x8L2AFklsHFgAeOY", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102536880321073305234\">Stan</a>"] },
+            { photoReference: "AWCwydhCanVENQfNK35Z14SXO8R_MG5RUtekxyljs_hYukh60OarXdX4J7-viALV_KapBJwTwx3wb-4pxSEWY-lCWRJdHzyOEK7x40h9Mv6o6sUQoTPDyELETzNhx7lGQesyHuou-TxWTkgi7qjlZ6tO2OxuEz1-TTMzDkvfcqS26gChRoVNiV6nUb1A73MfOyHswzWtsZE4ncpWYSgiN0yuxfG2-clwiOaTiOVPy6VevmNNzINGt3HeD0JdNdXYInF9KfNXcBcej4TZqJpya4DlS5lgzGaKycFCZf0p1jqtEUVszHnXxWSWIC1VJoQ4_9KG_IBtA8of35Wu_Nmx6lKkQYzA7rt0V1k3CCMiROz9Gj7YltQzQmpQhrkP-SjIry1HAVm4hPYo6zhqT8PtA7zHiEP-k3scsQXGw29XXiPb3PI", width: 4800, height: 3301, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116859051254698943654\">Savoy Hotel Boracay</a>"] },
+            { photoReference: "AWCwydjoVymwzqycocIidobjdJB4M-RK0Txi32M-A0nmRcLZOabHG0KmL1VnfzcRzU7zZUccSG1CoCuJ0Aq3ZrCpvFFYc9JMcoCn--pEJfbMw3qGiDI3NW0V5uZgkohE2tLqx6iqFW6y_j7f3nBcY5eX4d-QPNngv0KLuJJHdhJ4dfnqj44h04BPyBV3pMeFQl6M6KWno5u3c_zxtKua-YcNlJMLYneYqUYoLZONMGtzBujwuUBzKMb8nqFl27YHHAmHCIah1f8ImciOc8C7jEXOjT07e94v_2Gnztspo0NZVXrGIt47r1UhQ8z_-BSGb6QS53_OHrLj6TZ6BV7U7TdyFog3ZZzlQ02_JrQueZaOyxwJH0ACDJ1_JAQ2bHokaMAYY-UY80jdu5teXY6MuM0yDTc4JlZvkbFZqroI0l6t4ydzuzA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116859051254698943654\">Savoy Hotel Boracay</a>"] }
+        ],
+        summary: "할랄 음식을 제공하여 무슬림 여행객에게도 최적화된 편의를 제공하는 보라카이의 매력적인 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["할랄 인증 주방 및 할랄 음식 제공", "해변 왕복 셔틀 서비스 운영", "수영장 및 헬스장 시설 완비"],
+        tips: ["기도 매트와 키블라 방향 표시가 있는 객실 요청 가능", "유료 스파 서비스를 통해 휴식 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Newcoast Dr, Boracay Newcoast, Boracay Island, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Newcoast Dr, Boracay Newcoast, Boracay Island, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.savoyhotelboracay.com.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5678994096471304904", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EB%B3%B4%EC%9D%B4+%ED%98%B8%ED%85%94+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아스토리아 보라카이": {
+        photos: [],
+        placeId: "ChIJLXwWmhc8pTMR01_fX-02M9Y",
+        placePhotos: [
+            { photoReference: "AWCwydj7ye9e1rTfHmb0rhWJJFZr0GYSYWVW2uRCYl8AQn-sA9_ErRtTkWnoSn1Led-ua6KOOtNc3zgh9ngTdNcQAnEisUCqZGHcx43j9Keclh9gVcx4WSBedViThGj3Iq6Snv00sUtrPXFPfIjb7MiG1umaXyMAi_7QFfnYhuZdoPV-vWB-06p_odg6XlkBIhiYQhUKEWrmPM35WjB6DpIPszuoArZcfPbHFTdt3CovZMmenNaeysBXNJYMybTqF-i7R4-5zS6_ZopW4d8-wjG596XJopu-4Gdas-xKDNmT8Ldn8khVTwwjcdXHnyKXEgyhbFpOkM5VoyN0h5q5IiidRV2mpUUiA-ZDJ_wbjhk6gxGgxgwmlzG6x7soD_7U3fqUsCztPa2pEFCURTsCOs6HrhLTKnZuNTpmXA3d9G5IbHS4eA", width: 1889, height: 1260, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114744978945274983079\">Astoria Boracay</a>"] },
+            { photoReference: "AWCwydh3hGkfIWOi_E3x81k6whOmtXGa0_4xl_EoqiFFb1idYCyGaNfUS9ySewfWQYjJ5CO4H0uXpmoMavVJYksPEBD67sHRNRB07STBEOJXJP_bWHbfpY1XIFMO7MQUhbqJ62wfwOYS7N-_12QPMrYIOAJIvelIJbFpzUue24YAeYJMlAyZ4WUClC4psMy3lLi5Sr--4IuuP51t1tYmqAT5WQyQQeNJ8HX9147ULDUUmbaYILBfY2CqPVksZBwUvjqLO9OdYNXT4fpQuqDziHAb2ZoO6kwihPUuS0AJOfdYKIQfvoxl8clTfI_T4Btt5yb28DXCkE8Xlby_bANScHVEZN5FkyH5fTC4XTVEQss6ljKupbDLFxHbQKfPnHvDt6afb7FZywOXamxanI60QHoK1eicsdWg-Eq0J8mTMX542QedsYQ", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112487041539278658012\">Jennifer</a>"] },
+            { photoReference: "AWCwydiz7VEXdad9sqSYl1igyGRb3oI0bGeURZsD91GSNcIT7yWDmxcyaPtD79Qk4idbd_FFBzn6wB7QvHTkj1yOt2cpiqfgj1u65-0K9LfePwIwbJu-ORTVTq3RP-5ncUxiaFkYYeO2BwDFkvB8zWiWun5MB9IbPrSNookMt4fn5jglUg8lo38CMkW5jP6ZPPDwQ58V8eiprTfvYDsW78iD1ENk5kLNA9DBWhOqtwmToOmNu6lNehiSDIMPVjVtSrVZphzyTKkJ_q6GoSoO12FGIreJ_uHR9egS1_dXFOhdnFw2g_hJ1Jt4W_KOAQDZS8cY3eyk-n8d9koBy-UO0DcK9K8ZgqOyc7aFA_UwHLaW9SeNhsOu94QOqyh8uIAIUA8541mi9rSrRdaCd7lSKe8ye3lFDqoN5UqOOutcYqq-Nl3Rrx6u", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108308895964695268735\">楊宗翰</a>"] },
+            { photoReference: "AWCwydjiz3tol3lTm2eeumcPkSCE4qVju68DMw83x8YDFYxFtZhc5odK3dnXcEXbFOGCxESI9g74DVKGCKDg9jgeVv8kQknIhFZttHtvTucy2mKvxeHiQDytSk9ysOoQaGicICWP6PxHPygISCXt6w9c_vB51eRs2_P2eXtXGlG5DtPlck3A9qV7if8eIruIBWKmiIHUylWfU3QQlvr4ZzqQOf2KnzffGcq2Sr8fgw2JOjr46pTVxQ6acYXTtA_ECHnJh2rByF6SZtfxHqUKNmnYqtF8o8CuTdchC1vVBZUs4TbBtmb-dgt7aqN128cQoB4b0a9dveCFKc588ozfe8AR3-2O1iNKrPBSY90u6gGuhxXJ17G1KX2wLbGsBF54-xbs9DUtJCVPmnk1uTMWyz3n0sVMNUbS322EDdlYi-ZN3o4-erGeGKaACq2tNyu8fg", width: 2560, height: 1709, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101003702194375672831\">Astoria Boracay</a>"] },
+            { photoReference: "AWCwydga5DwWqyF3RgK0Djbr2J7fsglFoxqaJXTLOd2wqGYCAJd2oQ6yndG-I4Jsmr8EOVsSiiCL7NLjN4dqbe30V9MRqYvUEMQBnbB7OutUun-WG5JozBhYWM57gyShn_7Dw-ClFDIgtDPWriWDRQQ78Xc5m5UTEMBvGhj4oiw2dNpO0ZQw7dfjSd0Ge01LuD_BJ9ntDH5ZRP_mI3QvHkbINIKvTQWz5Qr8aEWhv5gRxqXBX5eAiqsArU7QbmR47_F6xvA8GnKQNq25kXzQt6s1byDtHA5y_56dns9LUSaOu_5pWZsUBYuJy40VyjiwZ4QrwgP0zyEe4gbPfHCsRlCveS-FsraXbsjCC41fBmokuoTA8rUIpqoiHyqXB79pPPNb0o4gCFZLAZQP4xNPtY918U-GHuz64mDyZ8kZkUIwGs4wviMF6CL69BgUY4ELOg", width: 2560, height: 1709, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101003702194375672831\">Astoria Boracay</a>"] }
+        ],
+        summary: "다양한 고객 리뷰를 보유한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["2,000개 이상의 사용자 리뷰", "24시간 운영"],
+        tips: ["직원의 서비스에 대한 긍정적인 평가가 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Boat Station 1 Boracay Island, Brgy. Balabag, Malay, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Boat Station 1 Boracay Island, Brgy. Balabag, Malay, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.astoriaboracay.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15434740741072445395", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%95%84+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "만다린 화이트 샌드 보라카이": {
+        photos: [],
+        placeId: "ChIJzYp2OWU_pTMRPZWNBC-EsJY",
+        placePhotos: [
+            { photoReference: "AWCwydj2-fkQT9wbnj8eZPjOFkN4qx4N8ZWPYLClrtlOvSPwOWe1a4KIJYx5Hpl87MqSKJ0QWRJBDxgFsX-qT-1ayKKjau8JmiU-rgVX7_uJERnQHbMcl-qPqQ_4_UhiRMmkh64lV-sdN3KyAk6JaSpmpikwDYQL6wRQNEDgEtn8bRkzRQWi6fX9cqOerPj8vZf8EILZ2mji7LScfFRla6GOYJlR1eeyTl8EIy-yFygor57MhpqNRn_zrbrQ9rwRQouS-to2TzsB6gdvCIXAEAtuGMqFZ52YkrRTFE-JHUNVoZym76-HWLysHhFZR8XYKvajt9vWOx7M4z9wazCJBplJ3JC1z3MiuaUmVKVRDS0QZR54dnpZXQXCrT_yjBQaGU4-ZrjER58N9IkRDiC8-7FM-aNDXCOnvjU1HMMz2n0PHrMlEw5r", width: 2304, height: 1510, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104552051414554375847\">Mandarin White Sand Boracay</a>"] },
+            { photoReference: "AWCwydgMCSJkV5kJ9HSOJJrkVkzFWF8UZZmIprm9j5QskJtILhZR_vL2lHMXcfAUJ1GNC4Odnc2O-rHXny8tq3yRNJYKAaE3FAKzbX9hrnsPejgUsaFuBjdcb7paQRB_ItJvfuK7k8c1gGYeWAfAUufqFqdBAigYmPUmtljKGDUKRX0aO5z-NlOImqbHgD4nKQpbsCgn0GWKbyd-a8w-ZZqc5Nw6XV3O4scYEDKrdkMLT5mhQmH8O9993Dlzq5w6iKdZhoXPvkBZDGjA-dN6zXV1ZHSvuZ_aqk_CY88JAne2AJoZfFwqgPLioLzMBkv2bCUAnrxQH4JaKXepnCE56jYbo9K37YJXmiSdlsroYFoEfSfWTztIDBpUM8KLJlDQvMKOt01lrE-L9WNY8SzeP5M_VoFLdqih5yOzmewZjx1qgiARSw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104552051414554375847\">Mandarin White Sand Boracay</a>"] },
+            { photoReference: "AWCwydiNIr4sd6x7b1-sOrPO3mM4r-RARNBXyERjhS3ZrKb2Y4Kuw-Igo5HjMM7poJD7s3gfPtnMU_9HgH86rrDYxCw42IMLQPqH0DizH9bd2yblepeSeJkXO3Hf8nXSxGq7znyu7dw0QS7SlWYwM39b4xWD7s8Xabfd3rhYAy9rswHOiLvl1YxKiVS-H0641RnyVxbAPMJla7HaToT7kohznJ0gfopeqOfW0ClRHTEmtgfyP-XyH48W4W0qASSb0Ci3jseSxUtHqzZfssFJYUKuL6BnhOfCrnEvz98l5uheO06E-J0mHxgrG26RRcBWOGmPR1VDczA6cWUzSe5SN59v9q3KdSdhA4Oscfdjy17JX7rDylwu7w_tIu64VS3fAY9fDXaAeA9J96u-y7ZD4SJK7d0o0g8Jkc9n4VcOvNXIUjoGlw", width: 1290, height: 1694, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104082440125911486439\">Marie</a>"] },
+            { photoReference: "AWCwydjKj-H12KSOasfMAdkCbjMHuqK1zOLabVpiafZ-tk4BauBqOadCvt3kWXIQ01tZ7PNjv0YZKRO5YqhVpeMgLlezAXvls-tHDS8hejuQBcd9ARIC3GWlg0eKKE0WiplGFynn3iiUO6zrtCPFjH5sgJsUmOEbCxmgrqnt1TviuiNnhX13iTV4RLibFtPLvnar6iOen95t9q8Dbr2600LtJveMt5_hFyAvFax248yzUg3OuS_TSCCm3YU9VbUhX_ILhhcl_-Z4jYE4pADhs66WjaqiZD4-zHvCJ6V1orZ8sTBL8KwsRYTU92seBbLrDcvhmWb-ysddsokdfb_OgFjvWPfUI78-P6wV6_A2fwUYcDRJ6FHuO52kTFmOhU6o5d5VHeUDhnyvt8iVtFGjya0XyBk6Jj96bkSSuvQsQI-bzehyFg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104552051414554375847\">Mandarin White Sand Boracay</a>"] },
+            { photoReference: "AWCwydg1OhV8H_er7HIed5wQYLz-f2tKydncBMhYBtbVH2WQF-nDINILqDKJ-aUx_Qc9VfwxC3cJ8HrNsbt0SfccaXelkX50_DUjRkfhpmT0kUw1P-QLzujHsUzrDp_b1ile5JWH-o0rTXS-EZIC5yj7GoHOcDVcxkiG2USMjZL_rgtK0rVL9_XTXziXbfMqlia55PJrSEtzhdlR6-viCwDvJlmqtciOyiqxuOMdBbrYUz7tAxT741roiuagUnCEeKw4Z780xwzwEpnn4VLwHEF-JiziEtjUKGllQ2wfqNLop1o106NmZ2ev1bbRUsSD4lJOy6E9C0aGbYAm0CSDTOO7RY-58FtR0AHt7hQpVYdpDm1hfDMHpaa4CJcHQkki6u6jg-Fz82IEuDqmh6KaIr1A-BIyy8E3_iSVyUaRBtdhN9Q8GQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103612192685509272066\">賴柏劭</a>"] }
+        ],
+        summary: "훌륭한 서비스와 가성비를 갖춘 조용한 럭셔리 호텔입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절하고 세심한 직원 서비스", "합리적인 가격의 럭셔리한 분위기"],
+        tips: ["가족이나 친구와 함께 방문하기 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Station 3, boracay Island, Boracay, Balabag, Boracay, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Station 3, boracay Island, Boracay, Balabag, Boracay, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mandarinpremier.com/mandarin-whitesand-boracay/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10858324039064982845", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%8C%EB%8B%A4%EB%A6%B0+%ED%99%94%EC%9D%B4%ED%8A%B8+%EC%83%8C%EB%93%9C+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "모나코 스위트 드 보라카이": {
+        photos: [],
+        placeId: "ChIJhVTY1ys8pTMRvN46a07mKO8",
+        placePhotos: [
+            { photoReference: "AWCwydi41Ehrw4i1cIAeQTX5lGeHXz48BIn57CCaecbitXJvokO-Zk45jII83GiOXw5h_xbsbrAm3v8cLvbfU03zVI2br8bGmo-djxN06UaEcyuj3WNxP13A7DGUl0l3XAdIkWY2Szl8RzHYKj6P8YtGLSux4IfYGt7Ls60TRfb_ywf7QEIU2nt1bUV5Ub1TEVGiZ0OTUwU9FSnYYcRrsvoni7JlR1lBbwzETyBZmmoh3eQi_XZO2zMGJprway6oH_zmpTOEQdyTi77m2o0DQfT2WpJdxJMvBFSdOhDgu4K0AShFJtAVjM6H1sj1A_5Ber6kgS1GvrTmpW9IsEuf1gvDtnPBXh7DVeN1uLBBce7KI96iGzn3FT5YesA5df6WVLG8OTTzraNYhc9xz99bsgWi0Z8iW-4YLjfswRHFfH7ZTC8TF0c4", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109795508480894796968\">邱钰静</a>"] },
+            { photoReference: "AWCwydgR8bl9WG9Up15woYY8_lw6chgA25cFhJO12oEaVuqCwM1PmURKUGD6lDE4G7jupX16Ldch-KSUkcIgDoyFWpV9cz8nqXlD_b9LpjeBOGLvx_hKa4FIjkSsPAJ1RlzNJmCvVEVpt5DBNNY-AroWc6IPb_81RHHmd6GvH4KDhyFyv67a6YdofxfX3HD9D4dY17pgOCcGA8zF5PvwEzbIOdiXzv87nTt54R4nnlU5lm_bJprssqdd08v7O12lY1k7XmGiFM6y9vPMYPuYLGHT_a61KWVhTkOSsiW42puH-xGbR9IJ1sK28pYxoOkzwsmBZVg0LVIf2syqUTnF_n_ilwehVtEFD4jr8Yke-Ue5GjDjn-AmIrS73wSFVAjt3JTkMPrCBX-l3OPE5eoMFEHbwVQeL_ImRkU4L58mDXTUGVID_w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112666601370545136473\">andy de lima</a>"] },
+            { photoReference: "AWCwydguw-jEG2--JD0sJlnKuNYnLRv033LFOGAN8VxevyCw2xkAd9uQOA5GrBhRpq2P7Hh3ZK3qOsGsfybkMlguC1SYd5oQ4u44uK4t6BHUgkIRs6yWtTVtc78phGEdMCTGU4Bp9gaia1_83sL-_jV2E0R74eqhUgnwdB3R9NFYtmZze7ZUgNzN6qFzw-xqPPd-_lPw4pCpWfE3jEHqfnEqJErPg7tQXLRdkf-8iuZD1i8BfdRswquWT6H8QPIZCZBmrr9A1cShGGhncp0tPkfcrzLC4OIkft7oztSLvf-q02vQZOFKuAdkrPZ87YYwMU_LUfkavOpBd9Un2sEUxeIYDROqKO7hNH89xM8wIl_B938rUiH9zH8eDJ9wCvhnr_c2wsgnybHAhcD7ngOubFsXrtxvHVcq781s1CAk0CijXhVM7Nv5", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108172277232154521000\">Nick Swenson</a>"] },
+            { photoReference: "AWCwydjD0CsYyUqSxU2e2qkl_cyaTBfmXbadn1ZGCTrj_yd5FVvy6XgvWl0aUDvg2uyvx0yW68JfmOFLBRmirQWVd5QYpDSBs_kzwzs2kjlSvEqPnjW_C57t1JmG-FBFwD0M_AZu06wKsa5n08VMQGzJQbCSTrDTJ71A7SAXTbyR02LldQjbVcE-e44KmqvgW7f7vtwAaQba1Luvee8G6q6CQEmDF3X3NDbUOnIjjfy1B5SyJ556hAScCGeufS5CUbJ5zmHksJRKaIkLJo52rxi8bgzEjemwmOb0HbHzxj02vMLK0CBj4w4xe1_tjJ2fW4_yVbgfhcO1Zm9J--vN08RZZveyjdePWkjlGNwVxnL5QE4TkXKq42Lwhh-6oCYwCIgK55KcAem3ELrUAKu8gs8Wk9XZGKr5OvMQY_0HOQciJIPsa7rygzhxgq5qvhSamsX1", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106663009916121967363\">Troy Church</a>"] },
+            { photoReference: "AWCwydisrYfetAW0i9SgX3XC78sHxQDhRxQJlR5iPsmjOfOXa8PjbiMsLQ_Z9JG96n7_NbBMrnFQ6uYGUTFAoqirKAyQ0Q77MiM7s4CXjMzeyJQKYpsK9OBZ3s_QLXvnXsYQPPnznvDtdKNDzaPBGZ10im2wMxyFzjAWSRev02LaS4ys8NtkxcVaPnvJPRbJ6WYgG9Y0eQF7ELeoay_e0ktr9kcJXTlfmRebxM_EoO8OMEfVgXUShCQX84hkRNsFB-P5HL5I0XU49gLcY365dOiBYyJWQHL7jyMPC4RW9nAuTH-ORt5Bos4rAt9feFt606j0mGMVhHGqz4TyOvaG1JxZJq0JjCDgOagH6aImp6og0krw3o9ZyzZbRp3NB4v4AFOWmL_cjy9YjNxguMB-5Qd16FIX4xEx3lro7-vsojRC4d2VSUjp", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109795508480894796968\">邱钰静</a>"] }
+        ],
+        summary: "깨끗한 수영장과 푸짐한 조식을 갖춘 조용한 휴식처입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원 서비스", "아름다운 전망", "깨끗한 수영장", "프라이빗한 객실"],
+        tips: ["섬을 둘러보려면 스쿠터 렌트를 추천합니다", "언덕과 계단이 있으니 이동 시 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Tulubhan, Manoc-Manoc, Boracay Island, Boracay, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Tulubhan, Manoc-Manoc, Boracay Island, Boracay, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.monaco.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17233277198614060732", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AA%A8%EB%82%98%EC%BD%94+%EC%8A%A4%EC%9C%84%ED%8A%B8+%EB%93%9C+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레지덴시아 보라카이": {
+        photos: [],
+        placeId: "ChIJRRJuNW08pTMR5uoRnBMkv6Y",
+        placePhotos: [
+            { photoReference: "AWCwydgRePQG5Vwo8gXM3XVOQep36nCJL1c-UpquheDPDPV9kQV3dbESVO1zc6Xmijt-WXIAP1e6s6Qnb9D8dFX7C-VijS9uitPO4RVmeNmF7yzJ3v5W62nEFN7Hut6Uqx3QnsDmkOOuIr7vXwynZRODpaxNIqPjlNWcNupIvHiiFwnmmYwJWHzjDU0WoMAjzs2N_OWR341VAb9WVO43D4nNbVL7BsEBUH9PNO5qk15B7pdVB6CqFWnZyb8SGA8P_fuwdSDQ3MlvisXHbDT9Ipcg_rIZPzn4k3hI0UVhaFvFn0UsxJNpNQu1mZNN9w_A81bB8zQmxHBl4i5fa4eufVFwctaZxWhHZXg-4E8SzQUsl5XJZaBJMeGogVJlZNk3WwU1VH7-pOeVbFnV5-iAntSMF5loKdyWl22MEUcpKHNu-7VFeA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113762231566704435770\">Boracay Amor Apartments</a>"] },
+            { photoReference: "AWCwydhkqkBOrytoJ3_VnuJn14DwmibvPzNVgnsMYNcvnfkx1lga0V5WkBP_MlhGlK8IP2j7THNqPRHpHdPTkMXyQal5xSlDXIhYkj5P92aAC_HYwvh8Pbgy-niao0ro-rA13vrBm9OOXbtHk5Vq0YclC549dRISOhbd3Y-20YD7kCbfWcMOD46Ral3dncRsalS6VC78t0R8wqSQ9TZLvD8kHL3bfMwZHkiEWX1Dg80AU8cvJvK7zzgZrziVkGuHK7hNXeBGyLU917e6ferQ_hzb2yoGcafZ8SPqA75kwWGOMc9-hNBCrTHqzvdX8ITUXjTX6ALftOkm6ResyzwHIlCvvP0UpUas1DxNHkLTifjP1MWSTKwt7bWm7xJAI_ThKbzrD7kK4cu5wVU3NmhSRW2sKmtBCtdiK6RjzYyK_whTb_0tLg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113762231566704435770\">Boracay Amor Apartments</a>"] },
+            { photoReference: "AWCwydimUAiG4j3K0I9JYTYvCgaPqayNRIRVfXn4dKrRqCEPAXSAW99cj98PDZqSsSZGRo8RjP91SJKY4Ghfteprjwgsm1IHFtU1v-NlhUE3Y6LlbFcT_RzQyQMiDSOv7k2f-NGRfMyPp51sqGs_0rjQuP472YIRHiWdWtAMjAlyolf1sl1nX0Ser6xZqqyGRcoC1fRRCBISNLn4q6F8nyk-CVLFUKrGXmcbVX4HI7gFMheNKirOzr3D1smQXKHO_L4lfTt9mleSFev2s1Ve5_r2bsx4HmYpuvlplbsjazFjkCKotqJY_MlE2LkP2shP6-3ertqPUG4sKUH9da7pvDUtqnDY0f27kcCCoyRppiyDjvrEC3uC2d3uBwKayS-oq2dSWnhW2l3blKiOFJ-05srnCo67WyeCL0TsYU1KvzU0qaB26CXC", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113762231566704435770\">Boracay Amor Apartments</a>"] },
+            { photoReference: "AWCwydjTzcGAw31wF-GYJXmsz_rgXuaw0j7fZymiwzp4-gNw4kfOF2bJVgaDg5dBNi6KY8ctoeAxUeavtOLWRhcn_NOwRbbagaiaYC1TNdM0Oko9jsTs0_NcWKDmU7TwLVOX77WWt5ZTePNPtrvt0HbMxR1l5JjbK6yHZvEyLHkxdyQFuglsoUnv1OO7EWpeQDQJVbun0a2B5bB0SnU7-af_lqHiNZtS_Onu8y3_e5flBXyHRA7s2_4idyCxvkaHpqn14RdzF1Ugk7O0RaFKnKybDdr2v94CKBFfm91t0mK7NPmKTFD_N8r_bA3HMrhf-02mquide2k9iqlY9kdCG-UVKM0mWoUAzc32BbjMItCHS937Kv22RF-T9-L1XvlFe6wINm4eueG9nWinDj4mKr5JizU2Np6ILW5PAosJPTl-9XA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113762231566704435770\">Boracay Amor Apartments</a>"] },
+            { photoReference: "AWCwydhh1apg1gXK86M8YUxgBJv2JCmXMqqUyGVL_3oXuzusSiAoGybXeffv2SfwIA9Q8mWH2ntxa2X5ETi7Q7MGtHxwJ4J69gCqdOJiLMSsG7VLZSXqToVQZuUTFIKaGgw6vXOa2O4CGcZVKcllHUxrPPwPkaeR8IuE_lqy62AxksqoTXDw_ToYAlBoH12oe0Ujkl3ReKdMINmbgCEusY7Gp65plQKLHxAlWfX4_ds9zO0J6S-2Zzz-Xv_uNvck0JpPgzRKWi51GnI4-zrRax4QIan7lbKNsd-YxtidZA4NG7BCKkqfwdeJ-vs30XUQIuxtSZmKZGLP6yR0lDvNhkdbXD3ZneKZErBSGOF9qz7E0lb3yrs284pSbea5OdOkCM_3EuTQAB5Ont1FPWVsRmx4wy5J2fggHm9JKBqQtN_dh3P6y2Lb", width: 4288, height: 2858, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113762231566704435770\">Boracay Amor Apartments</a>"] }
+        ],
+        summary: "시내 인근의 조용한 위치와 친절한 서비스가 돋보이는 아파트형 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["시내와 가까운 편리한 위치", "조용하고 아늑한 분위기", "친절한 직원 서비스"],
+        tips: ["높은 지대에 위치하여 물가 걱정 없이 머물기 좋습니다.", "발코니에서 아름다운 전망을 즐기며 휴식하기 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Diniwid, Boracay, Malay, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Diniwid, Boracay, Malay, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.boracayamor.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12015361997489171174", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EC%A7%80%EB%8D%B4%EC%8B%9C%EC%95%84+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "프렌즈 리조트 앤 호스텔 보라카이": {
+        photos: [],
+        placeId: "ChIJrdStGhg8pTMRYzSkyyceYuA",
+        placePhotos: [
+            { photoReference: "AWCwydhxsubk04aZq1XnNDS4xw8Caji-aOG70hG8YuF5Jvk0E0FswbuMsdjbmQ0Hr4yw3G1LKKWJTnJTQO9S6ICXI2tUIGmoH1k4bDqvcPJh7lJpf-3q-c8AKUpiG9LlcO4LrQa2AeTmMa9nZeiCAJZJfuKTKFzZ7XVWBe4e41dXJfLSX6FyGeclIv38hRiS0U91pxtjwOWEs-zUUd9xaSXUmagTN2eFoyy_PI1ypKdD233ylrDwZ2ez7Ss0pN5_Y0uPhv2nsqKTC43RenE_42c7YVUdo2FxFJkUJi5TGXgG_is-fHKC-xBCR5egt2bZWUyAn_5kokTG0NUZx5Xar5RSIH8GHlvGW2QFGs67jEHsCk52Pf6AKe5Rhw5whUz2vQiokA8adcL7l31t4hOZEPpiaDyOlsekpTSoScQ2rSbMhA8", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100352845631825571286\">Gerard Lawless</a>"] },
+            { photoReference: "AWCwydjvwjST_bgXpGh_MfMtr4SFW48sAn0_rGBBJV9uDznWFlaPhKTKOWEODK3xvVjnevsHkrFCDvlRr6CCzi1K7RmaCWRcOk9tBKBBhe65S2NLZhBMFBNZRvK5-BHKTavT_Vc5CVUAkfOS7VVFpqaUjiO4IIR5qr_HxgcyebsBm_QcQQYZBTjtuWx86-9_on_IjdNPVNCKoWDGWDt4epo1qxq8ArTvvFIYz-i60whOUfq7HC4jhqZQpM0a69bgoTyRh_ahGLPDaNoqB7Tv7V1oQMyt9Tp-zhWnn9_8KTOslrcHEDAdtQmtAaeBLNZkBF98E1v6crGTGaNPQ4nYOT2DfKatMgBjAHAxdEdl2H1xYZ7KAL2qZWzJcRBPvHCTj-cMbfI5fpwXOHFl3L57rGwWTP3Rx6a5EPwPoH3fnBSYfFUQeKTy", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118247178600247461012\">MIHWA HER</a>"] },
+            { photoReference: "AWCwydhGySPyGTMBC1DuNVlRJH8_6Yz0N3f2s-C36eC74WJcySzeZjmG80RXQNHBnEV3Rp9qSl6MpgohKbSqB4PH_tw_9FyGWv0zWIfZxTyrE_E4LhmuTJfTWctx0PC2yPfKhLRMNQwaZnmKjwQcZcJZSFWOImfkoIsqGHqy1Xl92MYsfpOeZLnIiROnZDO1e20guNKa-I9kvrlIeidyZVe_IRVURZnLUb8xlPGnGzhz3VUPD9oXz7Yvp9qCNW5PtkgCo3FqNV83TbK3lhIx0_pIiHz25BUaPDmACWB3hMjmmcjCzIvtlkA6kNUDtl5Pyo4Ql-fmt889FhJzy72eydXOnKXcLXqxXPcE7ouDeFbMKgTF4RycYtNFfC_Kx8YP7XFINPo-kToWeR_3ERuGvMzA3jNZ_GuLKkkwN6LwiqHBXKg", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111002442118934180152\">Eric Martinez PH</a>"] },
+            { photoReference: "AWCwydhz33sOAsDwrNqdcAUMS_cO7xNrw--UyL-KYwQ6N7HrwrSr5Ri0S6tusG_CirA4EbPgI1mT5CgF6gh_5lYerWqzwO4nN3KVW6arLdpAsj01OG-YOZIZM2O6mcGFpHButflhu0YnX419XSZBe49ciSlqZ1Xc1jjxYYEfd85ObzZmZEFcKYV8K1EH4ykS5-i4CLvefwZgikPsD8k19ZKitywtd0ZE_6Uwqglis6c6-KLpqKr2gr2xtHazV3z4VonKapjTj5JBoeoYiY2OuEfQECa7JVZ2wndHqrHOBsuvW-_anp_I66Yd6eLadXqSoTQ4XZbVe7tk4trwCBXnmVIHfY1o4NV_4qcuQa7Xf3XSac4KU7iYBAkyX68ja9hCAhfQu8inOWdP2ZDK8QBLbilSh2C56-X2P2KvNlWdJSAzyF0THg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101223366715239076691\">Frendz Resort &amp; Hostel Boracay</a>"] },
+            { photoReference: "AWCwydh6_3EfDad9Jr_IueovloRKku-qH9xYzeG8y-fUe16qAdHp6U8IjfkuQDqiroBeG_cxhLbyr0Qbfz_-SAjKIqaK2vBfeFaUHbOYlPcupzib5GR1jCIMSstl5bSbkJ87Su4NKjpcF512Qxa-wtcuzu0yVVTbaI4BsnEtvMgjEz22jfIsK-V5r4CtoMxltnw1X7jnwvZbI69-2ANpVj52zOVfiRtoSpLUHJ7fO3CoqHfyPaOlrxop4Y57IKj9A111ldJcGSL3sYOJzFYt8zqevVyf_fDGXdCr7y-RkLLNbxA0FqNnFwYQGFroie0ABdkuiYa0_iB7Mh1o-cw3VPOW_1w-FZ0ep5KiaRf7n-m3b1VQlCF6bsq8pH07QLEmrLdihKaa1TD40AJOYcVj8BZtCjMZv-xxjK8rC_CzBxU-_To", width: 1900, height: 1057, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101223366715239076691\">Frendz Resort &amp; Hostel Boracay</a>"] }
+        ],
+        summary: "친절한 서비스와 매일 밤 열리는 파티가 매력적인 활기찬 호스텔",
+        updatedAt: "2026-08-16",
+        highlights: ["친절하고 유쾌한 직원", "매일 밤 열리는 테마 파티", "게임 및 노래방 시설 보유"],
+        tips: ["2층 도미토리 침대가 매우 만족스럽습니다", "파티 분위기를 즐기기에 완벽한 장소입니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Near Boat Station 1 Balabag main Beach, White Beach Path, Boracay (Aklan), 2002 Aklan, 필리핀" }],
+        location: { landmark: "Near Boat Station 1 Balabag main Beach, White Beach Path, Boracay (Aklan), 2002 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.frendzresorthostels.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16168518768482595939", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%A0%8C%EC%A6%88+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%95%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "칠 아웃 호스텔 보라카이": {
+        photos: [],
+        placeId: "ChIJu5NDEj08pTMROOEhs8p3h_0",
+        placePhotos: [
+            { photoReference: "AWCwydjLjxc_UeF1T76ISMw_Epu4mLtM5tOX_y0YHHYuMRLkfK1-beh2N0bv5Het22AQSvYRuWlg1_gYeIMgwR4HBmWP7B8HYB6hFhqdXzz40rFprFGKu-x1Sib5VrYT6vxseS2Cz78M5qaXZBsv_-SY_IbOLY_rx8Bl_GfDba9_Lq25IhrHvoe55Sa4NdJSW6DkHUWYVW3KYep97GouI3nS1Kd7tSqXxJqmM29HDIiCzd0YyBJfD5TTJ2MMSa5PMJan_L1I57L6lNAq6DJepvVNylP6cYa94DacNOnWpS61SSzgD9O11iPToWEz347_zzCzPd9hXKIslrhQ_BUEUOxVp7h5ZCB5uAB2ToRk8-9b8kSSqPrRJv1byXLyx5vV7XlCwKSucfznQs-BigQFT4e_ZkkF7kYaIwUi4MScESROMs0wRNBt", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105679974197292561862\">Hans Hoyer</a>"] },
+            { photoReference: "AWCwydh_udXDQoeP0VCYhV-by0-doCNMWe8W0KkTtklIVa1S22xDmvyBy4lV4yecUQ18xLc8x_kxc3Z07XS2jRmRktqDVi8w35ySrRseFvgnZyM2-VFiTwtSg3veEaIgRoom1rMhvFdiNOYJBQ1potCkMCP9hyuFypeF3WzEiOpo2Zbd3FCBto9RMvYHuQUhkHCpqRuRwqZI0jWTD2xfwHnNYrN8QCrTumAeJniRLdXhIGnmoKEo661Oj9l4txVVWyqgE2tzalft_tuznoUCKyagtNylZeIvacjlsqqWHsePx9iIZjj5nTxXAv4qXfFdL8PSKOoDtSZRFrhZTr6kXHETO0hxZSlEBF-a2_7RYIwZe2p7i_YE2-YWpa1c6okcbMjBF54fteuAsjinxfZTR60uQwR4Lt_qp4qPGEmLcOAk4qIvHy49Y3WSIwvYY5kwwQ", width: 1600, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102044267817147362246\">Chill Out Hostel Boracay</a>"] },
+            { photoReference: "AWCwydg22LgipcCQboJDq4eLwJbN2nREdSvVkZk-dQ-hxePjfuSzDaHV1Hp1HtPrudtSwnVGi69fG2xgNg9HfeQBbFzqJDScPO0TckXzA66ozZZ5t7VgpHPC_ebu_n5CrtP3gOzNq11R1iBsD7T3jZSflJqWTWhq0yTKoZhp0TFaEF5I0Nv7VwqHjHjAwvjsycY7LqImvNpYOD9s973RmctrnFCtE27RYLEdyKWEKbEDF6FvbI12k2HKcdgoKzZT6xxSGLVK3F4k3ZN8lswWR5GKjwWB50qLeVtz0KnTCRArOJ90dYvq6kNoTG-McXE0b1yacYWh0vL_uRx85iDCH7dT5enWgKLoT2ktu9PWe6iFgvg9JUxK_TSFlV-eQ7N2sPH_ToIdyVIm2EsOwgV10USnghX63EYgFM_PMTdNp4PaUr01l--D", width: 3120, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116749531814642828295\">Vladimirs Zelenkevics</a>"] },
+            { photoReference: "AWCwydg6yX7nMm6WCAQP8D8zlh1hxnFHQcr28m-0rQ09G6GeUfvsLjfCrKS0n0AC0W-obEbj86rTkF9-b5hM-QybL30Vtwj582y21tV9rPmHX_Jq_LcAZNaxM7bNsbGM0vCIrhNiGS0IsCC-YW-badMLoGncjJNsPc5x0GQPEfMrCzMCUdKKXcrV4Jw4G5Ck3fQr5326ysnjQpnTJoeA_1tsDp5vc7_6My4hWLhneQ0alItbaOBQkr8Vb8DF2imSe12XwgMxs0jkuXIcFnIwH-n5paXjUrhadAcnBsz4UuJ4gAa14orqyLnCrIzZvg-mnB5QDKf5fbi3VbaAYUk9niyiomCOcgv1R6berr573a6jycOn4orzIUPz4u3fSXn9SZZRpwV06SbWxCz0I9NzA90HZHUd7HU8lgaqN9t4a9-6tuifVMSs9HgI_Yfz0RL0tLkP", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102044267817147362246\">Chill Out Hostel Boracay</a>"] },
+            { photoReference: "AWCwydiXr-O8Is3ko-qlnNmbds4Z5ZXrWd_JhRdD7Tic6KGfx2zuIuuHgJXecaCQsqfnzKwPOXcBtYHGe-AYP5k70nKJuEAEqZUzhJ0XLWEh1DXdQbOkWeS9Y_m8PedwXI237BPPoGGI5iMyX7k1s77K1U4gJuEYLBwOyMQQZkRV6CI55GvxFsbDz9Yv-qtC_G2sW2t---BQlqO158p2lgZ6BUxb7alkiWSjLE6pf8NYrQxMjv3Tbvzk6oFjuM0RrmOFrGwP97qePUCq_WrI38ZOEOab9vGEmRVsVb0c0iMam8L-UxTt6mGMrNrmI9XefZBbU-cFbYvRW7tKSsKnnR1LAVBrK7aaVAybWw3HFUwWhYCqf54DLZuTh7FHADmNWEmxS8EUyI1jp9IuIwGOXa36tpjYJt5KoXKSH55kG6wQwErD1B9y5BvDjJxGybt7QyXP", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102044267817147362246\">Chill Out Hostel Boracay</a>"] }
+        ],
+        summary: "안정적인 인터넷 환경과 편리한 위치를 갖춘 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["디몰까지 도보 5분", "안정적인 5G 및 와이파이", "해변 인근의 편리한 위치"],
+        tips: ["도미토리 객실 이용 시 엄격한 규칙이 적용되어 조용한 숙박이 가능합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Zone 5A, Bulabog Rd (Next to Cool Stay Inn), Boracay, Malay, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Zone 5A, Bulabog Rd (Next to Cool Stay Inn), Boracay, Malay, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://chillouthostelboracay.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18268702125924147512", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%A0+%EC%95%84%EC%9B%83+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스테이히어 보라카이": {
+        photos: [],
+        placeId: "ChIJK035GQA9pTMR18X1DAps8Qk",
+        placePhotos: [
+            { photoReference: "AWCwydiX_CeR33nr6eldEki_jvbnzq7nQ_W3MG85Y9P5qcqB_jzVnFEMxETmKxSrt9ieghPD2-cKGgg7L_BOAAt2tuRnOAURDO7NtABW92WoiwO82H6tkQpiyDIp4Fo4Ev21plwCDpf_hmOFLtR_qvXgBZTDd6LPx-d9gmF7gnKqlROM0qpF8PLnqj8EOGeJTkBj_O80rJt0tLSMDNBAuK7TcwAsj1HRyIcqyjURnUScFmwr32zpaW3EwGeig-b098TMF-es1vKcaPV_JI3zWc8MvrUKoE_XS8nRKChG_GiLnBRPTnLG5Jl2WqKYd-zvxuhx_qZg_nctEPaPmaydhXotY8GE0zZrz1BJxG4XGMRO27MYL8CcGT1s4gum9XsfTQIZr_xZ5tmWc3ZOXGVxcxQ6e7by0BTBMMTpc37A90tgGywt3uWVy1raM-0LFDRXSg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117455841288296103027\">MARY ROSE BORBE</a>"] },
+            { photoReference: "AWCwydhBCk92u9f72ZaO3YNcRq6xBK3tqLw1dIsSp82Iq4cUTmYzuWAh21StAgwof3rK2ox0tiT-ZLem91jhPr653eeUK91Kc_oCbOI7CQXOQPakk_D-8_RCfA69iD-uu_sdOHpd-gLc2U7Dw1MiX6Dn9G9XnoNsfp00VAtwCDAuqIFpFYLH2neJXfYLIBVt9kcIA0dhuh5y1FuDOF6Uv28y7YqmvAT27TlaW3UBfIj6jmnhHEYgn5Z0E6DlY_GDM9wZANaQfYcuN0A-uEXsa4UEcEExs1iahmuEsEJLqHAd8ZmdekIVe83VUuYkW7WEzOGToZA27J1TiPuKLRlNv3whlVrn30fKsHPKMdp46poq1J3PGl8PB94Yxok5XkotPM3EJULrKxgetaTMwQEeeQ4cA3Mt-2W2uGnxq1gxSKlwR8-bSTEyjUUonytK3LgefQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117455841288296103027\">MARY ROSE BORBE</a>"] },
+            { photoReference: "AWCwydgTq0EmTF3cXuFYU-RnRA-Pc8wNkfcWiX2mSCOJ33ZNarEv3mRZxiwXMOYvg9F27X_Wpokvr-B5ZfeUPEgGYHYeS370fqphxsAcbpkSXps_Vlm_ZLxjUwkJUOXQ_G2JLLaMrndVF7WdxuQFdcdw5RGsW2X2Axejka5OdKraQOc-HV52uYlWz2uwGj4yp2dTWFwsQjJuvRpUuQcLfSt4Awt-PHDRBdiFLN0bUPbfoxO3kBwWRvEbTa5haKK7t2IFEjGxDvv4B_lHXMgn5o7dNL8v-Shjkjb9z1e-m0ElNhBR0DX_iYuLgFqMJh111xbrLKHslZMx--ilBLOkGIDnWDpxoP_K1QG0bi2CxjrMrRqR4X0i8PMi5uWtZbpDdlqBQFzqs4SqucM_LElDcGVfe478B-HvVKprKKpoB2NpLGUIlL6XfW4KEe7TqjtSEqQh", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117455841288296103027\">MARY ROSE BORBE</a>"] },
+            { photoReference: "AWCwydjP8rgJc8Kbz-C3ZW-IAbU8s8ICuZlzSdoVGRBsVIpUJ4GvR7SDh8sSmCkMRfU3lrceqECcpa18P6nl-A27gJwnOmeTgwwgCzFCBq8ewJ51Opkyjsci678AgZ9Ax4cd79_29aygCJ1Uh3KKEgO-RC59-yNiP3m5u1X3iop2dW68RsTUnHmgvI294ofm9S3PjjD06MLPuKAw-wC9AsYUqK8mEM7pPSyVWQiKhG3ViIDAy60oXyQV5b72CeWfpdPmfWEgxOW0QLiqKXmmfRIkXf0NuI9_IYysy4ucyBRU-6nOaruWSc1ksehiUGUj4z3jjqnl050OISXVJQ1U6qHqAz4iLy2zE7saCDJ74SvEyycy6Vp-Zhpp8wvMW9KG3slGZZFfelSheqTHw_eqbVmGbUiUVS0ozyfs4wyI7kjo9Ax-K5Wk7XLaUqj0Nyo8JzKE", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117455841288296103027\">MARY ROSE BORBE</a>"] },
+            { photoReference: "AWCwydiFTUxdNUaEAWR5-_Ivfd3AZqErvtWVx0gsD2CXPaR_px0qGnWwDEzoA9tOnvZDY1dVnryGRpn_PZFCcGLQAs8DPnhT575jAItBUAeMINLpU9gkIGqD9wkPmgloQNpNyi2cen3DV_anhnWDVImYRNfwtcmkXgymqS-6wIh9doIsioqrxD16xzZBgBagPJvr6nUeHbjkcaKNP-oxh69Rhbnmpw_Auv7uwCB4fgSjoZr1FsGN3tnac2R31gcAuWN9xLjHwINtV05o1P9VFHzE-LYo8o3NlpKVucT3vy5EQVLnOogAyse7a8aOKMY-I6nquYf7fdFnDXzB3FoPP2Hz8e916KPHciwZoRTmKbctrs_MiSMPbI74kh73iB4yNbztAbGtxREyuoD5xlui5nL31Bk1XJHyrtOqMTezt5SNK8rLxx6BTNRjmQrVhsqDDySr", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117455841288296103027\">MARY ROSE BORBE</a>"] }
+        ],
+        summary: "친절한 서비스와 훌륭한 위치를 자랑하는 가성비 최고의 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["해변 바로 앞 및 디몰 인근의 최적의 위치", "청결하고 쾌적한 숙소 상태", "직원들의 빠르고 친절한 응답", "합리적인 가격과 편안한 분위기"],
+        tips: ["단기 및 장기 숙박 모두 적합합니다", "반려동물 동반이 가능합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Laketown, LCS Building, Balabag, Boracay Island, 5608 Aklan, 필리핀" }],
+        location: { landmark: "Laketown, LCS Building, Balabag, Boracay Island, 5608 Aklan, 필리핀", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=716472606151525847", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%9E%88%EC%96%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

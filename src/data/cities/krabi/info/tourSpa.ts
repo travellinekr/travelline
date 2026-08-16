@@ -472,6 +472,239 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%98%A4%EB%82%AD%20%EB%B9%84%EC%B9%98%20%EB%81%84%EB%9D%BC%EB%B9%84%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "카오 카납 남": {
+        photos: [],
+        placeId: "ChIJdxGKmLqVUTARYt_dicLeoE0",
+        placePhotos: [
+            { photoReference: "AWCwydg0LlCdEkS0NpqYNLpZ624l6zbhaybtXSrUY9Df-B6OGRrBf_tEpQuTPlB6tZwojdEjsPpgfZ0VaLnkUBMuCcCSJp_8mds7T_uOjqQkCr6pzGwYydRfoPYcAViG6Le8v_IsuyqviKVFXDJ249FbLWyZHoAz5h-RXHwUgwj7qo1g0nnKAdFy01Nax1g5vhuXXaNmI7DkZ-SVN5NprTHa0LwSi1FWfRPTMlFTep_Ukb-fCx_ReicMPX1dLKiZncS1BnO1jyH1fQrEIPY8T1gHnobYogsG2nV4A5cj5r3zkW5-VdWkWQsb9xwYPDEj2waPJ61W4JqBXJQjVlNlnB4Lv25N5zGVTS9cvNxO0ZGYBYom-qZPFr_d91vKsa0oKgLFWiKA5sMkgfDLwrgDe0DcBGl2xs7pO0txsJHQRs5VJ8A", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104374094691658687342\">Arthit Pintakume</a>"] },
+            { photoReference: "AWCwydhjLBj7azLUROkXbk-NlDnjY0KNLOu_dSSkHqZPnGPXidDLx8QiEJ4q2FR6kBao-ZrVeHCUhZHF_MHuLRuA4D6uBJfZhta9y70OD6W2-iv7s--9yLbgTllsgjbBLraVqTaT5oGI6eZbBTibOIunxQsjjyDAb3SewzOpsQ_n3-hBo_2jrE0flDUWJs-QZI0XdjVS-uduVLNt4H_1pCR_GL5auX7WUh0oBWJ2D4hGtId-q6Lp6uxF2IqN2lWm59qfhLkeyRmkVWV-b53eCvqM1tALfoNUv2p7SFpZFrioJkRqPw2_4TFC_6MqjtUMTwtuLkWoVeu4G7KMazjVXowihRhoZytaTGxmTHkuEM647N3b8i7T0EzKmcJwuFzUVtQfD0gAZlCd0qOY1YilBOC3r1ii1lkyV5LiQZymwXoR9AP0-1nBlhwjzdrm-80fjbiB", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101580397061353351328\">Vladimír Vítek</a>"] },
+            { photoReference: "AWCwydgnQCWDJ-mNcH9uRr7GBoMl2rUYwU0UKMuUtnwACE5ggoek-GD9YIPj22TpNjScQnp3_qPDj3MkqjTsOM2PQKrHB_2nQ88RFDnfB9mqvBYJUNTNhowCMbLFWcG_bsCzFDwz3FSmXTQSn50wxKiEkb2V5kzMvDYUE5usFnlAqb04e3oUtpqNo0jWk9cZpiZJmlJtYEJGdYvreffs54UKskjapg2yvVJ1g7u_s9jDwkGvtDEuawRhJrSbMmgl40JleqgNcNk1hT23L0CzDFzv0IC7Oc1UBDUexUcWprmeTX84ItXZzqRgFT9r9CtsNivkS3ROEtRGLwNUEiL8_ze4L-JhbbNmwr1_6PWFQH01_rSXtPd81aGNQw3QE-b13ot1gNl5wKphvODraoT15_BC_2P_ldqy4JeKBRdNlYio_6JlclY", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106640803735315855381\">Dylan Polin</a>"] },
+            { photoReference: "AWCwydjYAr7CgJiRGiNOQDEAZj_ZDFJ1vyyLaicxg1qseDiM7MfGMaZL0iuGax7c3GigSI8VUzqTcxZrCiH86lOaOTRcwjpeYIkNHTWwd0-5yNdPFln0nkN9lha5QQW9N08C7K9lUebA6cYD7fZDlPbLSAqpnkesu1VrjlztO5d3Aes4M34KVDfM7EXimlyssSq9Wwf_L-OsgmoJ34ssGdghSY6XN346x_KFsacIaBlpgrIAMa5LAOV0md78enGPPNffF_ki1VFt3BT2yoBWbW_WxjRAbMPoafdwXx0S3GdDpnGUam3VeN3DXhaEYw4oIp3qD4gSvLbTgj2rin6A3uo5ZXRaXKrlEhQm7bWS5WpV4teLsD08aK6g_p0r7VAVaIMYZbC9GZ6Xyam0cQptyQXUzrhxYCkQBku8tBYtlBX1iUHRvH45", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117901895772332046614\">Sunset Roadster</a>"] },
+            { photoReference: "AWCwydj3HqC00EGXPTq0PnZORJ3xwZaImKn9tUpRVcuGsULVO0u7YDCcIJ_9zTUw5p_pZW1hbt2MA8VCBWyC5ckNgjgOoTOJ7ucoeDyTfcfoTsMhnchmvKs3sAkU8cTQ6QrVByInctUz9uq7bjRofN41EvlhsnFN1QahnZpKM2sS33vzkhzwLr8Xmbc7URayIpLAY9xi28v17cO_tPiN3rby-kCfM_aP0NsAaWnAXjyU7ouLioJEI8-5RTxinWR9F7AyXYoZd7YEK9K9cK9ldvVzj1wRMUZR1dncsCiXvvGNyaUMIQtmgbaVleW4G29pEdHT-l9OPDq296Zfnh8po7OBS5IGp_Dw38cK71OLMbyF6cZMKKs4Ej2cKmzj3CflvSRBMvb6yL5aP-6o7-5u4GThuqOKzxScEzBgeZHx1Mjsz2-d-Iig", width: 1478, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107246218160018088046\">Fokke Akker</a>"] }
+        ],
+        summary: "강을 따라 펼쳐진 맹그로브 숲과 신비로운 동굴이 있는 크라비의 랜드마크입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["맹그로브 숲 탐험", "석회암 산과 강의 조화", "신비로운 동굴 탐험"],
+        tips: ["뱃사공을 타고 맹그로브 숲과 강을 따라 이동해보세요", "아이들과 함께 방문하기 좋습니다"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Krabi, Pak Nam, Mueang Krabi District, Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://gobuyticket.com/the-mangrove-boat-tour-in-krabi", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5593715664312196962", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%98%A4+%EC%B9%B4%EB%82%A9+%EB%82%A8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 펀 가든": {
+        photos: [],
+        placeId: "ChIJfzBlSoiVUTAROT2bA0tnnvQ",
+        placePhotos: [
+            { photoReference: "AWCwydgD5VUs7dX3rN6UaAdK7hC7Rj4_W7XIyOmZSnEkuTxP6YGnRJjcPdMHqjl6v-0xUNRLbK_VvpzwudU-f3Ec0ZXZU1aAlxKUFW-WZD5PhKOIgvN6rJ8hU5DVlyQjEj4obA-SNI0vRusYEYKkcD9HDvsM35yUYbne1Aw88ueX19qUss_ayL4LNhjhOl5St0johHR4TgV2zMQLoz6rbyhkkATWRFD-QAvYK6OfI0X8BjckY72K99mg6HhmiCSr-E1TwSsnjh4JSp7_1xtih9tFtVQDjbk8zsolBGu-H0YZ9yoO9Sz3VNlBhOoECvJ5KIpdgNbDbll4j1gwTqlpfExmTquNElyEx9T95XIHbSUDOuXuu2BFLFSIT-7mQ64Y1wFefTuKPF1DARKbkDAuIFMMW-l0qk6kiptHQPeq459S8qo", width: 1440, height: 1799, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114782935476995302101\">The Fun Garden - Guinguette - Krabi</a>"] },
+            { photoReference: "AWCwydiUASZx-FXfT5A-GgIq8rA4MZ3UD512_pqrsihAHmwQMHVcUJBsiZ7ckw8Yyds8bfvWDa_lHkhKs_WoDgVZnUJ06nxUBq4POF6EvfIKzRB1a5KocZq_ShKnmIumJB_fZPZkAn5iUERS1y6ohKlDsMYKRcVEf8jgyW4LCwENQZf5uJI1AxbihCCRB25-Fh_obw_xnHLj5TaI3M55kqqvIGfO8y-Mr_JiU5VRdRos-HfEhrsLgnA-UPxtDN9MPjNhJ3fHDY6JZLEovU9_CrIvLSHcQ3hTJP3rKpQ1hKPjOyRNILA7yHdZyLGoOQ1G0iQ8QZcbHkCt8Tv9ZweVWsu2Yx8uDmolKP3j6ImxssG4y6HJxjHU4wYjK2oCZ9IsjLCdvPNkKY1VlidtRx53hsKPzHu8qTbzbAKdoRtKzKjyZwFExNdrr-LHGlivOiI5HnV5", width: 1440, height: 1795, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114782935476995302101\">The Fun Garden - Guinguette - Krabi</a>"] },
+            { photoReference: "AWCwydgDMvRFBs-jLJS_UyGruE9-WSD3n8-3zY3h4UidFb3B5ov-gglFdpm_9b_ak3XkAoE_UByMp8F-VX3gsC_gHvdk8FclxKBM56L2rLM84-6Y8Ooiii4VUcw2XTTzLeJUf8IiLWYdxShv2wfREny7y9n3UBsRa2o-B7s3bjIyqIbmmHgtgL4JF8p9_88clxu6Gu2KjlQrTA-TTDjr4McmSRVQ5KaK3nuu1r559urcIgNVDHePtnfbgUSFZDmKmUGTm_4zqm9coe1fbbe0Zs2DOcNgI-sc_GSDXtd5DhIvL0BSfu4CjRjvxXN7Mm_FXfQd68ly1LE44rfYxb7GgsvBt6C3deY44xxFqc1SD3dPlN-VwgJqAd34EN_2WF_AttR1kZSrMkVYrYSiyApGcvbbUdbIJh5pkRIlnU779o0dSWnDomcc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114782935476995302101\">The Fun Garden - Guinguette - Krabi</a>"] },
+            { photoReference: "AWCwydhS4kNKGzZo6_wIQfrB5D4yN-HtZE78rlItAOfSbWdCon9fDL_Jk9RxIW0L55fIVKgF1grNGdVHcrAwozysNAKPyoSpjv2MkLVoUFalvOo7B12yzjOZ_v7PFFO-974dzpO04IwsoV8WIXxOp9-AJyko0sF9AkOcC1Iczzmw_fd-IkcC99tcZ7f6JXSp6pmvLUj7YA1-KVLI3GLDtjp_pjSBgvdiyCl3LY_Ls5uDf_OKRTTWgijmOKFEu8tKGr3bnBGI0Tv7_mBZeS-ZVUwoDwSXeSuPVL_m2ea6IjJHaRWsM0ZPvTtQSLJzV_bnoklCDtYle8f9ax4x9EmuiRO6Am-DnMH50nwMwuCn4_zi86chbxZyDJndZTuRjoup4cGRhnf9_2pBB7XdMCCGaoiKnDqu0NhEE2-RF00GLS2FYv8WEcx_tO4PRmBnf9prUcfD", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117810901200465522498\">Melissa Choice</a>"] },
+            { photoReference: "AWCwydiDDv_ui2KqFi4X7S7-Vk4lYWzHYCbugRIReIYDcHZFin_kjSH3me4kDVTfkX-Bs4M1_YaHbWsDcG6AHq0SjMmlmjPiUclEFzHfQoq75srSVyxphr99jEmAoQ-9R2JXsgtZB8LqIvhF2vLe86-XR9UbAFSfngfUUOwfImPbkoNYJhQzN-04mWkbEYHP4RQguPfFrY81q20duGhhV0QXt3tMh11rZ3Wk0e7u_fMrD_jhzaZGKC9iQck_QbNVpXwzvie-b5I7dVEf6dnJYGkJkCEAXQCJQtBt0Qcnn48Tm1K7tw1qZFdAvP6wwChzgMRFuzx40JlFZeAuBxy5GBQsVbmsqnWJxVza37UojAdYFDEZA0EkJMla8rr0nY5IpgJIIAegC5qV0BPiLdRlnTNOHXEbcwJPzonSpRGsDNdKFMNHyn1WbHD8U7lb5fOH6c8J", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114269522571961413256\">Abhiraj Gupta</a>"] }
+        ],
+        summary: "다양한 놀이 시설과 맛있는 음식, 쾌적한 환경을 제공하는 숨은 보석 같은 장소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["물놀이장 및 장애물 코스", "실내 놀이터 보유", "풍부한 나무 그늘", "맛있는 음식"],
+        tips: ["비가 오는 날에는 실내 놀이터를 이용하세요", "아이들과 함께 방문하기에 매우 적합합니다"],
+        hours: "월요일: 휴무일; 화요일: 오전 9:30 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "46 1, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17626639563455413561", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%ED%8E%80+%EA%B0%80%EB%93%A0+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오후 끄라비 스노클링 투어": {
+        photos: [],
+        placeId: "ChIJiwVG3OGVUTARPPsyuCIHS64",
+        placePhotos: [
+            { photoReference: "AWCwydhKuzZHn-KaUwzLLIUsV2RpKv0a0mBnvGifHe8T9GZqxa7uTysOC2dBktg8s4ErPNPsiI5rKJ9YYggLJ6IPm-gpkQH-4LgPXIbnjQjDb_cOU46l-keDH2Cf6uz3l6r7NM7R68f14-QrGoAU3qhyMRlzJbl9-EFGtsMSsH4AjdIgGH4Lk1awla77BnWn9ZkCZ_vNsfUIpjXdK4fb6zhydAwMsGq7Pw4XjlM6rJqi7xTwpciuSYf7rBycH-iZ3XfTCbPLrpmZ7i-2l5yDIllaHAP5g6MLalSpfCMdzRMW6poJPYiWbZyYy-KMatIumo4YqdSRZw6yY-omoZ1xE-mjYslbLbXlTNFDg2i2wjEw8J7ST8bXhxPHWIdeefjF59e3hbpRAj0GMhsJOcpJH2buzs7NMWhEgdF-KHWta-mhgAgDIaaLy0w0QZXVv2PoJg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101545314760731561328\">Oh-Hoo</a>"] },
+            { photoReference: "AWCwydjWmRsdRIOyUoObrmFgu9AOrPBNfW-9TAJZHKfljHIyBSSeUyFRJTP1A5odQuSECY_0K93tJrEsLtPU1XLcpHzkrfR7n82IotSXutYzp0j0gzAz9oVmWdj4kg42bBqRKR4pxbm5RQ7s7IvlaDhaj9KoRq4zAGXxoYCrRLOQgXU1PWhdgcriLm6-rj32VgGCVjcvX4EsOwP_V5sa3oGxxdgNDmus22fryFLxG5ZzwVKfvXa0FnmRoMcaJncH9Fs8zKAzIowCwRLhWn65ICyx-VGFWXFVbEBeIKk8QGoScY2XabfS472C20B3IW9YdWpeKLD552S9FlIiu6Jy1ZyyNY95XFi9SgPXj9WNIMdLMnKJYa5wH-JmPqyOMGTHikgsCXwzMJe_S2RLFbLkBV_z10XsxkO7AfgaNnb1ztLKT3VJtYSCL69hQBuqq4rlXksA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116282448338216385916\">Beth dela Rosa-Surban</a>"] },
+            { photoReference: "AWCwydjDKykQY7YUCSdNe4DMl8TLcDtltv9VLlhM_7L3OxGzIAu9pNEW6gPcIVt_MCFPrgtx-2kyIIKnz8YoSzqjSq63w0Ie1QpUtmCAgXadrix6lR_-duxEStCqSLGDWsZlP2hR-dsoRlhOVHQvkcykWoZaYUndHOJ7C_H4xpTtkux-or95ZhVxs1rQnUBbV5fQc5Cptbws_mGXEJphkJ_sE0Q-jgqWbeTU-t9fTZUv7lCNAQHtLKkgEVXYfKj1qZ7m74iDILaynwFivyqUErRBmlLl7_wZ2lErpdTKAZlaMaDknaE4VWP-HxY6Qu5rKZVp7Y1Wp6tLauZ0EZOO5ePeAY9g0zH6ae9Y08sROjib2FIT52sBCEbmnR3Wnn7_06yBRoUB1l9Ivg9z6objYsI0dR7wGUBr5s2WAD-lAyWkBOM1zoWH4MGN3wf1Qa3VNWfJ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116282448338216385916\">Beth dela Rosa-Surban</a>"] },
+            { photoReference: "AWCwydhlic-PHShucMHzQZiM6RtfEZW_GKT8gOkLlOljW07UWKbRhCBYSlGErvS5p_6vswk31gAJODzzGuInzZjtkJbX8rXVUgXeq0LRndqgakLn-6Mu8gPUefgCDzjY2-dyvq-EMPwUf_vDIJV-YX1yx0a1SQ-Fxehj56YIH9FHcJr0pMQBsMZ65Ds3RBoZ6081rjtN4SfoggBaFIoyQVlEyxdxN40QOu7i0uBfD0AWk55H0f3ciKgUkYXXZ_iyPH2gNDKwDbAr3lEC3C2h3gzx4io003KCy_rbKomO6_8nZaWOIv5JuHTlKZlcHJgE1YgFEWpxo_aER5wX_nhNxBsvcYk9FW6_4OC4Osr8d5V7QwOLqVyjb7F_K1iA1U_bKHmWllBBYg2z-T9eRURAIlQgHeAAuLD6CkpU-n12Nf4QUWGkTeTaCgjTB6VYRkyxKw", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100396900952602585448\">Gurucharan B Padki</a>"] },
+            { photoReference: "AWCwydgUyI8y3iV7bCdHmH1Dqx7xvyYhyLLqaE0u52Xv8XqpyS8Z8enxzJNvXx7rCqkeACWot-86aA9o6q18Fx25x10-NELWiEKsUdIdDmvtntgvjZa_xkV-UvtxstapDXlKMSE8VqtX-t4y3rrQTwzPxQh3SStKB2XIhGlJpTStefrWc2lYiXTX8nAOQrcE3EA-OiCqVS2JwNxjkBThSF_P8pqDlFfcfSI8JklONw1VEi2PHe9_IVZG1Ajjdh3wDVBW7o9VpMm6OdBYJcpztSNoRRucQsqCHg0BnK87hGzU21KCqaxJ8-PNK6uvyRShnjqq4xMrZgOgSgzgvOs3WBfOv7En0AlJGfpPtYG5c3aaXD9xO06-2zGL6GwflV3b8H43LqM8ssGx32a0Xm5FrDorHn31bC2C5yFtgJ1fs1FKnLt_a_29c3Ig6l3OC2SHoWX_", width: 3472, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117783839258918686509\">Nina K</a>"] }
+        ],
+        summary: "가족 단위 여행객에게 추천하는 환상적인 해양 생물 관찰 투어",
+        updatedAt: "2026-08-15",
+        highlights: ["클라운 피쉬와 상어 관찰 가능", "숙련된 가이드의 전문적인 안내", "맛있는 식사 제공"],
+        tips: ["가족과 함께 소규모로 즐기기 좋습니다", "다양한 열대어를 관찰하기에 최적입니다"],
+        hours: "월요일: 오전 6:30 ~ 오후 10:00; 화요일: 오전 6:30 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "8 33 ถนนศฤงคารพัฒนา Krabi, Paknam Subdistrict Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.oh-hoo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12559139831553391420", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%ED%9B%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "끄라비 보트 하이어": {
+        photos: [],
+        placeId: "ChIJ8RQ5muGVUTARTILDFNyJTVU",
+        placePhotos: [
+            { photoReference: "AWCwydhU3J5qW0wY_t9I9Giubdql4T_9UYw1DYDzF6_V0oGT-9H0uLNTwsC4tZ5cPPVLdr3fxK6-1-IuiP5keq1yQDq83eAmTKYDROfOJSbqr0uQr38gDiNRjxwpcC4BPc95HwaYHPl2Sobmw1oKKM3VPtdhjbymjcpTWyWpKzzxwxUa9cPRk5YQerj0VY06Bdf-tEe8693JIQRPGdUZQypG5EMZPg4hI5IV0JAsOPeVvW_9JnNIW_-5IqCMjGvF7rqwzHrRmBcWnYTuSuomQyXLR3Lt48Rv_v7fKBacqHu8eLnooMwrsPn9_Msm4ogKVsPjpKuw55UNIohW-kTp5NFN2cSmcTrl77NcrXQXwMP1XfQaKcQeB6GGThiWBcxWk7Fd-svIIDgyv57T2iq4DR-006pdKlumT7pm-n-hpUIuyxgTT4m1", width: 960, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104682025497848666651\">Krabi Boat Hire</a>"] },
+            { photoReference: "AWCwydid9c9krGwP_Tz5AQM0MmPzBkzuoV-HQ8fd8QxT7HtZ40I3JNFQeRmlhnOyySzmDn1nOaLnL1WJgPoM_WKyfypKBxW4OrLEU4qzN8B64nFaS-Rzz4AM-frP21Z4X2KXJzm-IObgNAIY9YQgIon9XzuAznfrlbgg0T7ernGLgAEuT2GjVxPL1v9QBCnaV78ZD5vpr4RLBNaB42JgTiOdLob0vq8ktvmDVZl3i_LBJduRI-yzfA55tq2A4fQSgofgdSQ-dFfFfOUR5cG1m72sB3Mqf-aWkFbeZ_oBx6loKaFAWX4BcC2Q2HbCrPFNxBCtHOgOT1Mp4n_J9_AqLiTqoDsJojrT7dZWVUVVnlUZFPnRHQoQbj0zhjifiYD3PUyj64MLAEeknNQ1iHo82tJpXYTtdKSV5JnhkRiJQsM5D2SrSQ", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113310038394825217465\">Fadil Bootgrim</a>"] },
+            { photoReference: "AWCwydhME3lk9JyPvVW-ReNq-B6YTnywyw8zdYMLFrsF5TAs0IvIQA6ac-vYYIs0Ky8USu0mandOH-8QC5L4khdp7Kh9LzHpix_qEx6JGYjH9vZEToyLaDHgQjVSFOLJMVTZ8Re-HBXR9G1llzydYHnFjzsZKhdlIPnJiegOgJUxO6bsYJYUcIYRgsfBfarrt2XkN4WoHmuVYEQBSIqIUnCXj7VkOBxmYwgAsJa5T50v0esJi7VSA5moWn6oiTZ2B75Kt_bn1dbsm4t_bxJq1VOB21xd2wqMrA2yBx1Ffl_D31mBb-H_S-ChI0A639GlfLVtcSgl3-JHO1nESz0IR6O_gqo61AWoa7f8a3dLLO-xybCDGUtQ4bK_fqkXuUB4hkD8R1nxj_FyKy9BACR4bgL1tmJfqOYV5wjq4w6f5LbNv2n-ZQBKWVOWYz9DurB_KIZp", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117018726244276031917\">Zoltan G</a>"] },
+            { photoReference: "AWCwydiYR6zebMAwmC7R4j8PQwGXBVydvMNawLN2eB7ZiI-2fdD7O_FGsW0vmxyHRkqR98-5Wx2Aq8zXaOGbl0Y7L8NUASiF3zci_e6GRpMWf_uVlgAMQmzvpT69vq0G8lOX8GKolwBuSzyiujKCnsJxyUlPYd4iZgJg4CqwJZAXuAHxlXYll1wovXTwFV7F_GkhsDq2PRGAu9aLw6KbA0cVP_rp8EdnsUj1WWodEPvrKANgN0DSwJ0tx2oPvqADXfYRJpdEaR4kHAASsnFQkSQ5To0V_LtmJDkqA9GQd8ofScvAQAnQqUCUfVYsewlMF6V0vXPAgPos3IpTpHbs6YBVErUMAnEYkRd006oJ3r0b7wuC0Mlu6iQCql5yFQID3YiOkejcHxAwxlSxYBjJW4YOa-AEA4KDYjXCMl0v3Fk1NxUJGXoEJn-L1gxQx1wmYwgH", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106049426950280476543\">Katie Smith</a>"] },
+            { photoReference: "AWCwydjHOothNtOSZZZhMfS8cdodxT4lIzooMPISZFQ90lJnzWTWigku63y4i8VpRkdb7psXFvZ4LHT6YrUk8Zxe0IiAosEH8lWV9dET7NbkcpqePPvkpNnnm8U2pEJNKjN8XBkN65147L5w5uSXRuuVAmg58BxN-285x0ceAVqAnnmHKyK-f3B7rgEkM-2-owYowy34Un3caqGHmlU0XwU6vb51pTiGXbzmxy77anjw19JaYUP5DqmVxUzyUHAMbEECrcNBl8Udo3gAqWz0XTFdN8F7giTh7o28CNAdFcCwKo6yQdgflHuIjmvPup1UkDmgZ8Ou7HrjLfJfga28tzOzrwPJzeBciE_T9XT3OGMYVWvhQC1jCf1cN5j0vFjlRFnO1jTal_0apMvOQfgxJ9MWYf3U2HSZP1MJbquYzgdu6vnTogMp6NqxmH9Sy1nvYg9x", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106049426950280476543\">Katie Smith</a>"] }
+        ],
+        summary: "스피드보트를 타고 섬들을 둘러보며 잊지 못할 아름다운 풍경을 경험할 수 있는 투어입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["개인 가이드 서비스", "아름다운 섬 경치", "스피드보트 이용"],
+        tips: ["가이드의 세심한 서비스를 통해 더욱 편안한 여행이 가능합니다."],
+        hours: "월요일: 오전 9:00 ~ 오후 11:00; 화요일: 오전 9:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "5 1 Tambon Sai Thai, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://krabitravelthesea.com/index.php/booking/travel_boat", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6146720644764762700", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%81%84%EB%9D%BC%EB%B9%84+%EB%B3%B4%ED%8A%B8+%ED%95%98%EC%9D%B4%EC%96%B4+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "왕사이 스피드 보트, 아오낭 끄라비": {
+        photos: [],
+        placeId: "ChIJA9goNZu_UTARCZyY3Wm_CVQ",
+        placePhotos: [
+            { photoReference: "AWCwydjaE7-TZyC6dMwZRHepPXws1W0WEAl4fzttMRrVlTohojw6sUt6I9gKfzgWq5SmCKQgO45hNR1vHM9aiU1dGe7SWuGNBY07wwfICMymZCVloBmVGpvmyYAYrJPQujMjNtBbbfaJtFipN2ZcxXOPDqt_w0_36P02fTQMTQTKWnxeSZJryhToBhE609Y6U_DMlb8MRhDxUEyT0oxw-wD_HggUKN_930eOmyEL35qXhrEC0K0Yp4_zvdGsYC6wpcuF_adqjMZpK9jrRxDevq9SXyEOkkJg3UeTU0zU3T9wreFjMzAdgLxVQU-n6qyXE1ZCIt-4cVSYPGVJDglAMPRJy4GJySQidNJSIZ4Eh6Q--r3Tb2LowHmOk_nroS54-6t3l9cUIUAR08jpsA7aZn6DRlLIqWrqWkorlNmJs64OvD-pfqn0", width: 820, height: 312, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110516688407054286184\">WangSai SpeedBoat : Tourkrabi</a>"] },
+            { photoReference: "AWCwydiHyhzSnLRIuDlg_SN92qaU-0MUl85kmo6topfoG_gartpoufijp_XCgA9Rt2WxTI8xYcOJQhlUpqiD9-jTFvs-BvJBxmETdg2VtO5sCq3WNXw3I_D4LCc6Z4QKETKwExt2Prux6MGMAcpnHOmrSSHFuTZJCZ3GND-LVGllTroJu_YqionrrDSH3p_JmJuZaVQRjrkAYH__UkSU5v8PZdYGMYGWSLB-a_F99es7ZQoLmg-9zpFRR6izA_JyohY06L_g1tlwLSCf-fjqaOpWIoFFZruIff0lZtid6rGHrRj-aDcefgWz2bNHUetF7geO4F3ahjQJjZeDiDbsN0i97iYlnrWy1YhHO6_-zoPOobF0h7wvJJKAN3YLGlXlBl3mAjiPTkqmPWkn4iaxVFqxQJpdGJlYQ4O759vL_VF8GMpfxOVRx0gLf-u1NjFYRrIw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104028675244124871617\">rrroy</a>"] },
+            { photoReference: "AWCwydjdzYiaTLirkxLU-I6ds20rBUhSKm2kcwRPN4Q2NKWh2VRLZw3m8TqxDdkMNDtVw_D1whZcEyZ5RdONmajH_V8C-xGhMsAOxp0sNfsVNXM6Gl4Nw-1GYmb5vBm-gWVempDNDOw4zjIqZXbp35N_rVBtMZXXQCEOS_Qir-ZllMqPddtQxd4zZ4ucaOsRh-IPMoWYLMzVyaP9ULEiExKqqia-lLLJGx9Jvlu-3WGCIdjgZPIU_2mWUvgkZ2Xb5Q8MR0wg178u-JDubDiOO99HvQxyrwGhj1k2QbQ3iaBuBV6wUMAXTXguqD8ZoZOyGySpTi5u8cru5cUpcDZJwgPOTeFeU54tc1QyxQjyQvaEu1EPZRweeFycEqHlvs0kTDnvSR4IgRdgeesOQ-ZS9IS4lZnS9kfH5rFGM94SAN5uFDmDS7mnHpkSbmfR6wdjuASZ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117483360564442009340\">Piotr Szczypek</a>"] },
+            { photoReference: "AWCwydilzsBXxrgZtm9-Y9YA_oIeR1iiJnQoQouczMgh8fu18wSXzYRmh6pFHJ5bUjDEsNMOd3JiKxOyklImdKK7sxlshNasMCJYand3GWeucwY-i0vL7dukKASGt6PQIQnNyXsR3VhNAqen30XjzJKJ6kABDwnxoq0U9MlRKvlYsqThatAD0hbRHcJYr-0oxgEb3bXFh69KfoYIb1KCh41FQPIPBqHXLNKrbhhn103X0XG0oRh3I6w5Nxm4QVIBWoSlMKDbBa9d_cG_o4dAoDvSCOZCXrfYkf9Sig2nRoFaHPNe5QO5cueWeWHD2pYssjrO5USR5Z9EttZtyGhougEXltmbI8ynG6AiMrB20jg03EkY7oDn-DXSdCr1d479jzN3cJCQhKnamBVtYLULIDkBcbYb5ZTTnTihuIVFEnU_t72ZrAH_hjkoA-4IHNW6VpJK", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109971659017534513313\">Sunny Van Der Zijde</a>"] },
+            { photoReference: "AWCwydj9ITmPu_w86uQx2duDC9zoc7okrXitj2UxSL-XjfoOJ6F6-LfkILjn82j7mlWN8_daWKGGkTTwcJYstIJfGYjrPwWNzrBLmsNe7tOCOA3efEumswsJgrFYmi_cBZV1vksM9MfIF6VzRgp6lK2y4DDPbD2fn1rC5vKvy2oUss7q3vBRpPKUpV_KXFifFRE-Jn3qE-pYjYsjMaZLzLxxcmiPZKYNpu0VEUy0tgOl1-40zr6er83FZ9wiUrm1Qf23cSz_89pTVykJtg185qZA7ruezRPibDrDKVZyIVySzPWS0PII7JpRQ64aIC63r9NPt6aQA6W5-wgaIakND-enGEqAQDV7T6P9WwdmC1NCzJWR95gHZp2trtkRjt8Q7sMbxvaMztRGR1efw_FDf-0691XmdsuomPgKILg2orpYwSGBtus8_mwBybckX1nWWlYr", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100602907833379418087\">Leah L</a>"] }
+        ],
+        summary: "수상 스포츠를 즐길 수 있는 곳입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["훌륭한 관리"],
+        tips: ["방문 전 운영시간을 확인하세요.", "성수기에는 사전 예약을 권장합니다."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "323, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.wangsaispeedboat.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6055581635386579977", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%99%95%EC%82%AC%EC%9D%B4+%EC%8A%A4%ED%94%BC%EB%93%9C+%EB%B3%B4%ED%8A%B8%2C+%EC%95%84%EC%98%A4%EB%82%AD+%EB%81%84%EB%9D%BC%EB%B9%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스마트 쿡 타이 쿠커리 스쿨": {
+        photos: [],
+        placeId: "ChIJK4UASf-_UTARqEy_0EPnEB4",
+        placePhotos: [
+            { photoReference: "AWCwydgh6N0DRJr-U4WM9zETPdEKArYLL1lDQ1KUE52m3lOJwUkV_Xa0qeeZ-7aqjUT0Vibu6AFpfNHC1d6l2vF2HOXjoEbc4N5GU23WiVv_OV9V8IxgMhXjzuLluT-ex3d1Tb7Npd86gTZFnaFO1BXhI1N3BU7w9wkHp29DguzyzWMsCIiuZdFvCokgUybTd4yvrOuRmKqlBH6ug8ZwLfV_nxbLvhB15psqhgSHTCxNOHM3yVS8rrzL-Hi-Ugmy5WVuAa_u7g1Izv-4pOL9lvE4ksBs5iTWztlDS1SGMDECD92WvTXQMfbCmfUsLP71FANdqbAcNrK3VXyidqHh9Jkq92Ys1DUjEiW28aD8nm7UPUutCPDFfOIXBH1BXMRSkXVV7BjtS3SxdJFli3-r0dGnLjyHrjAZj8vygZl4WUtNb7OjsQ", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110365737759675092382\">Smart Cook Thai Cookery School : Krabi cooking class</a>"] },
+            { photoReference: "AWCwydjVzP1QfntCQvigwqM0SCCBshI3mnu4fbGOZD8pany9ZW3i6MPk0Da6jSGDMgtl4CWBrrtcNsG6kUZz3B6t3uy-fDtJU0_CoRazhMudzBgyo1VGNtO0vqWFbZ72_UZMr7MzeodU8ToJoJDsgUGOL--mlQRADslFWntIzI9UgnT68vLCUAOqHEuQgmB6f8zIByEb0sSzjfFNbU8rpRglRo2rfE-EORQh45WZZAPg_HpYVCKh2XfVhBdLA8DLXSUupBH6sJb_I6eEpMtqVW32IxAyidbkKLwfQBdMVIL7Prw8ZeTNiokrK5BnqIk2S7TDE75aEiXrANFoJIIDTZ6fs5QysC0_AtF_LO__rsagovxY2BYJ7Q-b7es08Fnkw2G4NbFir5Lle_bjdOwT8OUNZM1eZuRZFMy8Iqf4cDUPjMaAsg", width: 3391, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114626279937943931506\">Tia Berry</a>"] },
+            { photoReference: "AWCwydjn_5PjEBJiFAF1haEsOk9JbpemIU_rjnlQRYB1Pjafec48b9Y_SohS_aeP5efKxBswZ7Seh6HfAJ04unAxCoGvQ8y0D9yMCTU9Jtho6fKngmKc6g8qtQGxI6G6DexMhAk8o4ag-VjyeoHpUP4PSteqfymjDJtPMQ3rmflHs6Cn42fMaa4hiVeaQJ8G7XQYeiEeOJ6d4rSH4vYILG7Lbp8zNYq-H2M5wKZAyWb_CGDL_mMfJWiddYWOVkglfmap2n8DZWwkwcnDh6iBz7M6Z-pBqiIDmlKnCIify75ZQyK01KDc6XHp_iS7F_z5wX0YP6g-zCNqTX-0E5x6s5TWNxuv8m__w5BxsEr0sBvHlkqg3O7CpldAaNXOjHbZAGOuryOOqqWcC4C9Y0ojBVDb26ZtGH-8zS42Q7SNiem6NBq_Mgrq20GSh4NSyfKlvc0v", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107179287765735004953\">Travel Girl</a>"] },
+            { photoReference: "AWCwydjRxZ1wXpn8NOPKOWhkts7WIPc42AgAm8mC9x93-trb3WNaqi1XrxD-YzFpXAoh0S5D4XnuuVqD3brFRXeXZcIGOvN_IyYKgdWwyOe95PjfYyMbLGROwFbghKa-LBGO5PB6qFiLX33K56tSPayyLAu8d327QP3rFHG4zBsGQB4F5WcTx13NwvMTPSccn1v3BwTZS5wFIiLI9dzKHBWqG3-fgVmNDaBhBX03o4xiCh4GXLQU2lSrlt-Yjuwnfx9DJhqgfyR1AKh36WWbZ9V12N0kVF3xK2okFYClYt9M34XIobgJsu5seTE2Y2G00wqqm8gQHcY0FqDCyQT8tYEXoIfR4w2BlD1ygi6d_kBVPjY9AAmWFFnjxyFs7tLZAmroFxVuvmYA9rKVtu5nHagjUhSW8suHqWu60jYX7dTUo3s", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111104192475169487217\">Brigitta Budavári</a>"] },
+            { photoReference: "AWCwydgEiBudkgxGZZXSkf6Qw8bCLmIpiUkU1sLZlgC-VhNKAkRo-6s0Ub1-CwvWHpxmz6_KCvlONcS1z-ZrY0NN26E-SHXwjoNP5h0BFMBq3BtZStjAt-SxUg4VLRf_AyTk_ZGL_MnaxDBPlZk5uw1Z_ocll3tBBWPhJLWTIaUlvilDnKKZ4yia2jjzc0xeW7t2b8a1vj6VvLu429GZEewYqB2vhdpbpJOd0xA69C5P5TvPvKYgXEBBxisITBr8GoetM8f7nN3pLhqwq0ThZ94YZGh5pC3Snz1YXq1evLpmm4fEzLfKrjdj4GL4VRB_PI964go9vqQ9S_Spz-nYrRj5tux-rVLnIIy7xnzEFOnkx_nBWP0Sm5pErNWoT5VUnVYNZg4_YGlfQQlF1j4VL-ZMzEzpEgv1FFOzGLAc2-u5j-1VhA", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115245068757805996109\">Smart Cook Chiangmai</a>"] }
+        ],
+        summary: "다양한 허브와 향신료를 활용해 다섯 가지 코스 요리를 직접 만드는 즐거운 문화 체험입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["전문적인 강사진의 상세한 식재료 설명", "다양한 태국 요리 레시피 습득", "호텔 픽업 및 드롭오프 서비스 제공"],
+        tips: ["밀폐용기를 지참하면 음식을 담아가기 좋습니다", "야외 주방 이용 시 모기 퇴치제를 준비하세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "15 Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.fb.com/SmartCookKrabi", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2166485699216231592", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%EB%A7%88%ED%8A%B8+%EC%BF%A1+%ED%83%80%EC%9D%B4+%EC%BF%A0%EC%BB%A4%EB%A6%AC+%EC%8A%A4%EC%BF%A8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "페니 타이 쿠커리 스쿨": {
+        photos: [],
+        placeId: "ChIJqSAbYziVUTARc-xv5QrgARo",
+        placePhotos: [
+            { photoReference: "AWCwydhgByRWKoP7Nz5JSErf0mHQwM_x9vt3E6-sH6dL5gq_2H0M_uDXTcIGkbIzHVnImaFzSfjcvmA4KwUtaiFYjwIHfSUq-zGl6B4sOQj3Td-QlqWXh2xkxk4c0-atJZ3KTxYLdZrQjKD9g0DjqULpm9bbkI2esn9VTVOSjS9eOCuT2x2xWwoAO_hiouprLSmIQGZ5Tg-uIDKLFfTd10XXIXMdVjQydy-y53yoFy8p_C2yBsFJdMcDSoOUm-ppImj726FUqC7Vc03LodDuKhTwFNFmDY5KLGPF_l5HsSBRAvSyec20cq9i3Sdxy9uwOwW2VcbhX7mDf1xEh6ZeM89aiQJJZwErWlMKVfNv6T4UVjhYNH9hX-8C4OM8Kly-A4sK062a-XUkHQop-Jl18PEreVuoELFXGMPdgt2Cl6OjqxEoQd8", width: 694, height: 694, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112769989177516331270\">KRABI BEST THAI CHARMING COOKING SCHOOL KRABI</a>"] },
+            { photoReference: "AWCwydh6xga_MdpypwMqCwlJfJWO4rp3b4_gdHGy6O95_wNEGOK2Z_CkyMwcoMKg8M1yXVAf37wtM7lQp-OCjhZNynNDp4UnvuvrtUuGxH6gUlCh5elGB9W4d7sghq3yckwlITuliFHO-wruWRFQuSno4GcA2p0-rVZHOrU050UuGehqpWjM6qNtJSLKdAADn3xb8veVWmhd9yGUG7QxfLYKuSUAmlfncR7kmtw6LBBHdKEcvjQBkBxIVPCLupVk93qv5CtnH_5U9EmUZVVMLp2QIfgWi9DZkcHYr-kNkv4eUDptbhBkK0JquGL2ZC0AyWWyuHUXTL_e7Yb0XB8-x-0ejqUZPSCAnieA57zR8UT9yz_HO5qSS7VPCEtFQfgb9wujGvaHQlei6B5c5Xdl04f5Sjnp3Zy9kIJ2_NKrJKOQh8pdfQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116656853745084906200\">込山立人</a>"] },
+            { photoReference: "AWCwydh8ZIZFlNVr24M-enGKrObDyyeZYUCg7jb_sCSuZAzWsytMZvdUIsmrY5lYTWs18ELVK0x9bM1Za1yev9CIDIsyCuhpmg-noFPwWKD9RhLPSTMIMNv37T1_MaYUgfbW7RoBBY63JGJsOP-mKiS5fd-6TL5XQCs5l0Iqi8pKuEDmwFgSUzpJDktR0BJ_YdpLzFGHMDrWWIF0N3ggybayd4gXZ8LeDQ-Dsefdh0zHRsU5j9saE_Ao2PveSjrbdXJ8doMHEnw71jTHV0tpazrWuy6XL6ifn8zoUoib3YkGT4_8VSQWEtgtcZnkswHSx2iFkFMQkTFwipPXCwKITR3xS9GT28NbCy3u-kf1QzOa2e6a9CCVAHF_5El5dtBpGZ_VILJ1Vi_GjmdNlUkdfsGl8q9R3DKR1hhsgBfVHCVRvlYSocwJ", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104233671861836682583\">Itamar Schreier</a>"] },
+            { photoReference: "AWCwydhpUfxIDNFaWdYX2EBFVYL9ZnlvUPugfZP4V8-ijxzwLLneMjDKaTxZjYqV8DFGdnZ9canzi0IX1FtWC5VmXAz3S29E_KmE1Juz5hwcv70pPRFArRZPk2u7pdCW9w03l08wIyC0L-Zch-8XoGrE3-9RPS0BA9bgKrL-vXso6XI5CmjWOPcF3EFxwledBRFhQl36D0v6dEb9nEzeDGyL0Ojuvw7phHUwrfbcOtwTsxWncD5burzsZD2mxbRT38BoMpi6tJB71szVYg_XXvmFYjyH3xwpuVsDlwF3kLxUJ3v3NHh96FJTrmtMCLNKZMvLLKVVeJ6Jh-_B_yP93xSaUpeN1ovapDT_OoJEZTjBIQ4JOzgbuQt6QP_pd5dITjP0jgYsXGUkBJbnV_JUgjcD_fIJhuG-GKRpV6-yCK6o_BD7nw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109223914989315526544\">Peke Okkema</a>"] },
+            { photoReference: "AWCwydgvEr7v00isOaRP0gkNjx5pgGmmnC7V73RkuyFb40y1qhB0xKGlIRkYdtKqfev3SrsLYYGy4V9PqeR1xbtO_l0f1g0k0kBJKHyhFK6jp9qxdz4m4MT0kd2fbJKBiMfW7_eBi1n_rmWxxbKX-ms6PkFQlSw-Z_q9ghExJsmFQy7QSZx772WFCgKsnkEDVGSKlU9wMXpxi2t-2-Bz0oLmMUP09mb9I6-bB_BvQ4eg2glio_RgTHJvXT_OH8GxfjnwYqgYp1yX8ASep5O-OAGvmHDIurJoOboKiBJEkkaO_sKxt9N9UfKzWytCfXffJNED-2bZfWDfp-ZfkhdJbAWJt1h6sxlDJyncKcoC3qeb3WI873gHE87hQ9AVDw0fuXI1drg9H-TjpPpLNDw3iqcoJ2D1umxl0pzzyV41BWFxbvBLwtt8", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107641361164306359411\">Julia</a>"] }
+        ],
+        summary: "전문적인 가이드와 함께하는 즐거운 태국 음식 만들기 체험입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["친절하고 유창한 영어 소통이 가능한 호스트", "호텔 무료 픽업 서비스 제공", "알레르기 및 식단 선호도 맞춤형 대응 가능"],
+        tips: ["음식이 푸짐하므로 배가 고프지 않은 상태로 방문하는 것을 추천합니다", "현금 결제만 가능하니 미리 준비하세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:30; 화요일: 오전 8:00 ~ 오후 9:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "312 Soi Khlongiladpattana 1 Krabi, Tambon Sai Thai, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.thaicharmcookingkrabiaonang.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1874025257366449267", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8E%98%EB%8B%88+%ED%83%80%EC%9D%B4+%EC%BF%A0%EC%BB%A4%EB%A6%AC+%EC%8A%A4%EC%BF%A8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쿠킹 위드 다오": {
+        photos: [],
+        placeId: "ChIJT8FcPaztUTAR7j7v3QfT7VU",
+        placePhotos: [
+            { photoReference: "AWCwydg18IucZ7vJwTnVSHLKYDd9ygE3we4s4cyCfWRjuBnio41M0V4TQoXFluI8oq36gtJyycg_RdA3lzQa0WGgNM-gk0NzORozK_aa_UA7RnIa4jXWw54nfH_vu9CTH8LHZVdzLWfxkXg3PmLWK5NsKf3gltSHSIi2WlKLBk9dmZF_ITi3uTwz6dzBovKz4OIWKdAVoXdFAcgWxirIWoQJyiDtof6-zT_cjzW5v2-xW0AM1EHkiMI-H24a9XvNOpdc0HHBY65cIozaJ2z4KRp-R1DRyrwumIAw3ZR71dQ7Qrw8wSle0ZOvdsKmXikGy1B-TKawi8b83U3J7iJK6GV65uDUeP_6WdhWUQllNRmHuStlEwMwby6-8BP5lWmyiWZ4-J3xiuNgfiGkSja9ntNAplIDU_KwzVlaG29A8nvrdDKmKQ", width: 858, height: 1907, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116584954296308500677\">Cooking with Dao</a>"] },
+            { photoReference: "AWCwydiWe5k6So79Djvp2RhtZNz3S4dg0e16vL1eXVyQgQ3jRPnmytLShXP3W3kDl3Vgsn4e1FzBf6kRe10h1mhXzhzIuJ4IQKluh9ITtDRuBral0ZJzAz-AhsmSyp00GIfTUwGlBiQArBwkLBCUj1_Y-A4fNqXHWbu4t0KDxf8Q61siCA_7MmnuTlAraalyP9GSIdc3Nb7A3ITrD6ZI2ROwcXCeG1xgnpX4EMotNlhQELGpDt9CbsXI0Lx5OIo9DRt_mahAtQ7JffTBDJaUTOUu27Yr4KQmelaWuu3swcnBE0IWS5kaEPoypgFwcIZDNlnMG-nekzB2nf4wnxdrYDibZGfArzlOkxdKgDzVzs6ar3uSB0KRal_fjQ6QzgCXfrooT6vTncdK2GuTf6-nWO2D10K-Jf_f2R6dLIa2ZzkPS3IH-cj4DLLez7hJofbtwyTo", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103337125153115920751\">B Craddy</a>"] },
+            { photoReference: "AWCwydj8fbLTbHMEZr0UMrPEx8MsiaGrq0yzZKcmmy0XOJXWYSVdvk8_sLjQtjSpKge92wfVbc6VWRl3jPjslg8Ui1sCow_Jf4yPop6ocv4l2teUtuZ7ya6jj3gnhq6sj4ZftTjlalxGVuOUghFpq-qaOQORAFsuDChR1vR5u81-48zhnrzQSAhwDKqJjpWTxvR9rsm9ToC7IbKDVvqXhXO-ax6fOOVZhsVgTql_9vJX7vlm8NiqP4qZkYi3xnTJ7wiYmMY6Tvb9_jz6Drph6eevnHgSH4T4jaeT-kiCAAvlWGNiFTHm23vyso8Bpwsvl1gpcZbShK7OGq2wuEO15uQkPuYTF_JgYbL4Gn4pMqnqevCHx7j3q7yFqoBc1_fMRWDn5XPEWgQRN05f5F0dHgGHN96R-ro3pTQOUJmc32YrR4bR1Dkh", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109283377023743692544\">Julia Shew</a>"] },
+            { photoReference: "AWCwydjwJghGuacdvnEND5O7mlQY6-dXM4ssZVx0YnLp0MQflNzwC3br6RdsWKrVh9icoiwx_ru_RkuCJ7iBZEoC4UTO46B_OSnCRyan_D6LU8MKQsnrr5Qxnso6ydUXYRZXRyOXATXtpQWV5suNaDej_WR4_UzXitOfFxXeblDdg2rwFdRL1mejJuZtbG9sHrwgnvNMlrVk4rDI0QQtkEnT3r4kYcijP0_WXNlIAaQbhLElrnaVNwfhawZLs_GncRR3bZs-ItGcJHGXL5WJrJniFOieWLZH1nh0-SomoZiai1PXUDJCGpBq6wbpApnABC5rBVJeQtPRGZY3ZTI5kP8QGfLIUaxf92walmtOYENKkagoyKszLZjf3-XDHbhhW544XwxVIGF71xsyE93rdUMxL13rrUIwE8AXTlB2hrCJs70Kxg", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113036425364955492649\">Lalala Lilili</a>"] },
+            { photoReference: "AWCwydgEmS5nNFt6XSV7PI2rU7lqmnFEsF03BzIvUofDj432mD_kukrWWjUgELq-7nUpPSWElb2zDKMw_I4WdhQwW7zKX-MgqMpav9perrZv_f9ZI7phxLlcpnfe3dq1cFClXm5hweyftR7NFF553WV8NZmoS3m5J3HzSxR9-nTq7aIATKKYVcHo0bxBbFfClvDOyFpF2fou3cObfQA_zPoslokD5YfzWU3wB3wIi7r1-7al71sZSbd2lcCdMoqnb5iCJTGGFPdxMzcJTPFkjXc9DQgY7f0DCTrF-nkZAECUIG5Dv0vy1eLpdQ9owxNBKTUCd-jbND9JCPJAwnZg4fGDSqefvV875QqyutZLAoPZp8b4uNLqEEBPPrzcHLtMeEdNu3z2EKLdpdCQywetaYaPqolmFKcM5LxDMXc0B53E_GZw2u3i96yLdYtlg9x72KwH", width: 2048, height: 2731, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115925343793569606282\">Piotr Plewko</a>"] }
+        ],
+        summary: "현지 시장 장보기부터 요리까지 즐길 수 있는 최고의 요리 워크숍입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["현지 시장 장보기 체험", "다오와 존의 친절한 지도", "개인 맞춤형 수업 가능"],
+        tips: ["남은 음식은 포장해줍니다", "망고 스티키 라이스를 꼭 만들어보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Aonang, Soi Kon Dee 5, Tambon Ao Nang, Krabi, Chang Wat Krabi 81180 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://wa.me/qr/7NWQL3RFULRPB1", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6191837093445975790", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BF%A0%ED%82%B9+%EC%9C%84%EB%93%9C+%EB%8B%A4%EC%98%A4+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라일레이 타이 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJXafbQ2DrUTAR8JARX0DYfdQ",
+        placePhotos: [
+            { photoReference: "AWCwydhqNQnvoRlVfzXHR1cf_x_2hTvorKloAY6SkZiFJK-Sfc2sgecx1m7aPunffN5sHbpPttMhYDyvs7ebrKf8SM8y_J1tQ2YSMp-TFiTuO5AB4m0nyeSg0r1bZb4hTJOEBDdbFA764E30MwxRdU-SY-S390n3IxCDgdP3avW8BU8NSa8ELlv0jHGytDsbkyrnIRWlN4ZAt9Pc0AUD2jHXnwJoeGkuZWa_OvstJ7XESXssSEZt9mDGzhzYb0Km2V24LHet3aAAPLBim5FXpabiRbtEOcfQyfLCiPYmq2i_iaWg3gyOBoR3N9ZrfKd54ohxbSN2CrAzvaVf6iEJsC-fP0P8SJWmyUwCH725NTPI957htE_xRaBsxAkWzwoy4q9tJMohr3ea7vKiU4FHbg2MZ_OHryh5Mz-rNmnrujxtM3Hy7g", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111046829934990501249\">Amy Horn</a>"] },
+            { photoReference: "AWCwydj4LzC1rnZ5wK2tShhN6rzuZQwcKrY4SaxaVcmZohxhmN77StbSi0LpbSGqeFnz6TohXK3uOsc5GRWciKkRl3Jdftio97J52bQZOT0fKOJCDIpNHKnOs630PISiG5gRrkk1H2BedLb-QmtCCPVS2b-XG_uGE4nT5IUrt4gDN9DFpgxp1cOrlSx48ta2QH238tKPS_RcbKxK2dsEYYzDAo9P7nKFgrc1SDwwa7bJ0evI2wA0m5tLyHdVpSEDnOGeHnu6fXLHmPyiOisklRrwWpnEYmKACBRFdBtKWqAZYS12eGQu7dypVxn5YBOx_Wib0cu2jxBmlGi0sQ5QYEonKj6mMicFd13XrXCjJiT7G0JcuswkN_Ert75aOBuyEY5adHOc13rMrBJvUsewCTKIDeTyrMkhqcLn8GzsyhpGzeyKu5COSoXSq0j-pZ8pcg", width: 1720, height: 1290, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100014928619507418814\">Rachel McLean</a>"] },
+            { photoReference: "AWCwydhtzYbxEKaT0VufWK9v0OMEZDHVGLMD3gvPJWuHU-Ss_wvyFLLF-sCrbMXPZpvRTOyEzXHgjfX5YNeBI27E_weDVmR4-oFPmMDhn2T15SSEcwscDjSd2WJNSQ7hRIL-U4ZwXtjTsU727Ov5MB6cQqYmzMARJ-wUrVmS1ywCHvW5tqtERSETBVzFJfZkUGRa_F4sLoujJomDDJ1wzQnt_g6eViGPzFN43bB4EYo_sqzDes8Qg_M6o03TOA17p2p18QEX_eMGT7yABJq3ZJoWhss5N4gLQBuG9AdJFp_HfPBi2IIV9Bqqtp8m1XDptN5k70PqSbx4YhJ2Wo7NAsLRJx1Hw8654LoXjCjSt4GhqWoyIXUypC4U5Gx5SaFAESUqv9Dv32rmI65tbScnyFkOSNLczTlMJ2IEGM1uwoSqb9BZSwQ", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100045911989222368416\">Elizabeth Endicott</a>"] },
+            { photoReference: "AWCwydhQqpSFjh45h3AcTCAkhl7sRCU4K7ZquoGzyZsmrR211bu0mOSEJQoa7WKg2kY_76Qds6eFtv5R_3EqoF8ADP42vc45T5a6uk_1I2OcJJJPoi3fhGTgA8IHJd_-EbPJ0YmMYWnVUm65EST6aoTrNizS6y2YMtFvLve4WqQszuzC-7OyO4ZS3uoDOO_qbR3ys26xO6VVIvn7e_eQxESFVNyYepNXapIpb-EnfTn1MMBTA8QMJLjgAQptsOY_cnkftTtglchsJxjENPL5Oozuk3Hk3VmghIXdS9YkAFv3GgPiu0C8Vy198F2_Nk8hUjT3y8xzP2fQvicydvkKlOZSC9Bt9Sv-rgufp81f92l4xnots7_27iGgy4NOy22-vKEl06OV4GxMG-MNzVW4FyHSNs_tO2GtwYlAZTz6WgidAscXB8WP", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104470167657396164375\">Line Moseby</a>"] },
+            { photoReference: "AWCwydh-HoYPvpP9LQP3rLoFJRrp-Xgmh9lGmctYp-AzOPbp9_2EknJEZZvWrSnl_kkCL0nc-tsN-9lD0qll6KdPGpDF0L8Kqsk68pQul-pWBGEtTTEG1n65-rSadkKF5au3g0OEqtMb0KVo-ObWeLT9sO7TFy1tMsDMWPn67RBkuSoRJ1SmJK11VYVsF4GXSfyU8HCXw3Oc9mI_2sT0KD9QtwQ-vqMIT-vX_tAOi_j7oyXu8kQ2VSsFzYxvjZX60OK8h5hnBGAmhL4PGtE_IYoBZURX_mEalN2ajAPS_NmYWV8BTJJHCkkZHAUSiyAk0-klE4FCZ-FGbgbnIDHHBGzb-_fOEGdVQZlkNBswBMJcUoqSY4h6a_sPRY72_gu3ILX20RTO5E8ZONjheT3gQTp7BKU_v7eGODwU8sDgCE-2B5buUa7e", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109715918360224205511\">CE H</a>"] }
+        ],
+        summary: "직접 만든 맛있는 태국 요리와 레시피북을 제공하는 만족도 높은 요리 워크숍입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["셰프의 세심하고 친절한 지도", "직접 만든 음식 시식 및 레시피북 제공"],
+        tips: ["태국 요리에 대해 궁금한 점을 자유롭게 질문해보세요", "초보자도 쉽게 따라 할 수 있는 레시피를 배울 수 있습니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "560, เมือง, Moo 2, Tambon Ao Nang, เมือง, Chang Wat Krabi 81180 태국", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.railaythaicookingschool.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15311632079114047728", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9D%BC%EB%A0%88%EC%9D%B4+%ED%83%80%EC%9D%B4+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

@@ -371,6 +371,379 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9D%B4%ED%94%84+%ED%91%B8%EB%82%9C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "샹그릴라 라사 센토사 리조트 & 스파": {
+        photos: [],
+        placeId: "ChIJ7aFemPAb2jERQTmgdV0wbLM",
+        placePhotos: [
+            { photoReference: "AWCwydhO5j8mmR3x9oD_Hrp0JQkamyAH6H9LME_xRP2uOGC1dGiGpio7ATSc5fgE6osdfv_562r5ugNy1Ctf-4atormz_6H_Tp8tO3kwrL_QTAYz_DgtLRO2uIezAQ588_jvbg0pdqA_hi-F_tX2Zc-2_OWdnycedRu9X4JeVujjR9SgONtBAaiX0Ub0rrmXSIrUpioFHuQWqi7cWzqX4iBaqNkdqhPpE47hOXPYzWQTqZVey0pslRbEEcd-hJPfN3Xk-Tb9a1C6I8qsh_RIBiyBTKb-wGR2H_ldHsNgRGCif90N0K1Wurgkrc__fXN4NlX__3clRE7_yzacoTMLbU2W0xoOho1Sl1BsWT2xGPkhOFgMubsTj6QkYQxjVybupcZon09W1ecqX5Y21m3ety-nCORCV-JnzbvEKJ4u6N1nXSr987ua", width: 1500, height: 1223, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109070859335388799096\">Shangri-La Rasa Sentosa, Singapore - Mastercard Pitstop</a>"] },
+            { photoReference: "AWCwydjWzVTT8_BW0RhFxbqO5K_QFkyv-Lx_7ISdvcgETqyUN_mw-ROg4jzNAXqJJsBAq6efIf-rPC0YFCZuePfe3tj3j53LnFP_NpOsa8m0K1Iz2BPjvsQEGcT_V0QwQlM_GeGi35Qwc7-ooY3KOhqvA1Othuv68mBFPIZ0_uTZbiqsWui7OwENJjoWjX7TO7dtRuvObLngL-Y_b25aot8880XqBcvxVHkApnFRQbeRS_MYl4OCyJa0VQqa2N9ycL7G8GXvhskCi8LcVTE-cxtNOYYG8F7mdp5A2E8GksbNMkKkKVZCwOM5Pa8aW8hrSugUaQyohtcW3NgSYLDtNSOu7PI6S4FmINRqvNx2A8RWUG2-CXQm6TTuoLc945_URodgJ_AqA7VgKXeOJWrMl4uzownjzNQB9_1eyajKFRvn8WsI2g8", width: 4241, height: 2829, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109070859335388799096\">Shangri-La Rasa Sentosa, Singapore - Mastercard Pitstop</a>"] },
+            { photoReference: "AWCwydiaArNzMQB4tYy0PN2RIYIYw-AD_hgnDsa4jsf8m8NSsXQZwCO5bL7R4PFDN5flm6JtiIsWkKPzuC-2neBwNhFznQsgHPIEI_4vzWq85EwdhG-k5vtyQd4vzfnE784KIcQc41f3el6x5auuaPmKYPwy0QWL3yenjaIVB7PMM11y0ijTwp9HDXI3lA6soVnbGeWPPfzW0KLiYC_SH1iUXOeToXT3vLmXXQpQaih5rNX3LI8kkhrj1dJTBdRJiYPQcPiQO4I2iZ6vctfuTnvaRqKIuNz35StoAUOqxDjf-BC2pXRaj7lqUV8j0nEIxXPyf1iqjYl51pTnRItCSOAdJdrN7rJAn0IJg0uIyxNK11EodF-_QibxNB3yThHRrWUyniUVr82I7RT8GC-LvsTgNl9A-FKz4Z6ezbu9vbBmrOGmbjQK", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101608344196697132449\">Derek Pun</a>"] },
+            { photoReference: "AWCwydjYzAB2Kx39sKwNcEPlj-azMfIMFCd-wyJ-024k8hZYdx0Zey5mHDZRJojm6uAzb4RysXdTbRbefd-EpDZVKY1axXhBeml4lB2rv1-sHGxdDzO9vAdZA4ZKS-k6O-dZnHdJorCM_Q-DaSWnpZM-nIINJdhznC8gUu9yz3_kZmbRiEPV7-bCQs8dGiGkgiyZ9wlTbugG-mUdXeryjAZ9mn3pV1z-RQnrX8eyZh8PoqJj9rj-m-IX0NTzkECy5m5z_wOxnpzyp-mVLeSnZoM568X2WbZsr0yBAtfZ07_8nVvNO0OnmY506muMeJFhoFi0gZRVKDZD2B208VHilq51Q0frV0_RA2vNd3wmtZz7lmjGgbU8k_RgSysAV72PCpS-w5rj4ddpA-m9sFNwwzdfgS8FEq86tQUG1vGUbjTlqLCpMPYP", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115238512080256285576\">Seok Ling</a>"] },
+            { photoReference: "AWCwydhqw7SotP-PlFEmsdIGGAiO5F8qREEgJhmFXiZU4-VsBExarlo_sv5uhqFh6sjc6pR3Zw2z20fx_HlkXfaX7fqNiEaMLuSDiwQPWcGC7AyYnDeS-Iy1_7x07vwE6O-zyEL5HIVzBaiHGfeQg8mjgA2CLiEtmarDO-t687HyDCfZ7JNwtU4LEs-INoKOdFyIHj6VJiHgndN8PRStYvwiFEDVeCq5TTw7m9BCRmeM1OuCKaAQdBzZG_Mbmqpk-2ztbxJ6B0CIzD6-yJcypPLRm4feTjDVhe9zjZfLqN24r9FK6ltN6WEjgS8gkqgzCVu1zByokvhLMVPVhv-TkJ92XEMBWtAydcJi-lQW-Y9ETqHjfxSf6AH8NWHEAOamA5ZmkkGdFluMkXEa-1CmvINVzLPbPfC5zygHNEAsc3Tk6YmpGhF8", width: 4241, height: 2829, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109070859335388799096\">Shangri-La Rasa Sentosa, Singapore - Mastercard Pitstop</a>"] }
+        ],
+        summary: "센토사 섬의 인기 리조트",
+        updatedAt: "2026-08-14",
+        highlights: ["높은 평점", "많은 리뷰 수"],
+        tips: ["객실 상태와 매트리스 경도를 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "101 Siloso Rd, 싱가포르 098970" }],
+        location: { landmark: "101 Siloso Rd, 싱가포르 098970", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.shangri-la.com/singapore/rasasentosaresort/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12928761808237377857", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%B9%EA%B7%B8%EB%A6%B4%EB%9D%BC+%EB%9D%BC%EC%82%AC+%EC%84%BC%ED%86%A0%EC%82%AC+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%26+%EC%8A%A4%ED%8C%8C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "리조츠 월드 센토사섬": {
+        photos: [],
+        placeId: "ChIJLR75v_0b2jERJrR28stYwMU",
+        placePhotos: [
+            { photoReference: "AWCwydh5ecxER_4Oe5lK5fbObHSS_Th-KxVeo4UToi1eWvvj8nW_o5mZKh2l0ToxEhOUiQdOcJ0WdhP4g8Zt9YZKY1x-LfqhUpdKit_HjbLHYxuHHzPoocd1uRap-72b_f1q5VtAeNah15F8bvXZyxnpMumdzsTlPoa2J77x3OQGdzRed50mdVClFNQsfS7bIwi9VVNu-KeXHqEJMBAMZR5OonedeWeATQ2kqs0404mSJpENW60V419XBIZKc429oOsAshxfQ8NjEem5c68YzXQJaZyYQPaF6_93e90MbHa_nGl2fREO7OcGZNtRMl5Of_9_r0rGIB3StFe_OaTGSzsbnxksiC6Mbu8b7TrMWBLOnImWCKSuszgKn426bRMlXuhRvdbxuQaUtk4Nmzzfld8MMwwHIpc5aISLA-TSCfwCPUQSVw3C423BNFxhBF2Q0RBy", width: 4029, height: 2159, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101509657682002588113\">Resorts World Sentosa</a>"] },
+            { photoReference: "AWCwydjXm1BDYb5uRtS47AKVbl5RqRJVSJYXlTZ5IIM5RSw8FXIfU52d7c7_uC22e-raEEnrCA8llKgSVLn1uEf8FJuvj4HP_9K92DA3tlJUeyoYqKwaK0mBo7746AZSKQ-vGL6BSi9UDogHLogHUGGpqRsxfGrZJiWJpAd2fhIIsnDyUToS5t99UX12FSS9E0vQM8ZFg82g03T7kdteTTr6bOz9yyqZ4qXNrRn04yY9vT2rnYeKxCVgwENdazxd9QJdxzQpL7Zi-dZ1V4E5dgC10DMDypIqqJD53HIKYC10SpAzABruqXBTfTB8huqOSy4ms5KIOsY-4KF97lJ5JbOWASmwbXJQXG6RrumDGvFuAWystL-Jn5LHn1lJLRSmJSLQOLanSCwUUxNOOfBfsFaVTRXVztqFrKDNpfD6XitRib6MZQ", width: 4160, height: 2340, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109921329639805351131\">Haryudi Haryudi</a>"] },
+            { photoReference: "AWCwydgGh7f2iCHJFIOh5Bc7pQweW1U49Sz0RsGj9MUKASX_m69rP-uKzIbNOgQURSePogYLmdrsm5ZMdrj2bC44ASt9z8UKpV0mKSNRqAhTxqAtYLCMksOnxel3E4iehViMlfqEBE1yA1EmX-xpvXM0q69jQQYCHsgHmQTDoyxm4BczRWX1tOllsp5VzC07E6x3oM4abzjxPJgLoieqiE3sLPlTO07aAE1Cx32V_74qy-SbD48-pcBKVoVA0lZYluma1ubX0ijoyZMaL7elkJJRzCudwtDEkHpc2-9qs4fVo3gqs9HLuhKQE2AONXtT0iGg-PUtXKghj2JC9j7DP06OjUF1S-_MnSVj2BKoUhAOoHMd1X82wxdQ-CIEdbqU9qAZrhBJFNmRWot9LRmfzg2xL72Cj0R-unpS-ts1cyyV1lL00w", width: 900, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105329817328115017366\">Ah chia hui</a>"] },
+            { photoReference: "AWCwydjaS3VHsbfU0Ae16vAqcVoTId3aj7Op20F9vVEfUIq9EKy8NNT8eTyRZNnZi1WgsOiQdnLIZrsn2MKiMPUVMXsSOQ1wuitysmiPv9qHdG4Rh5mpGu3dDGja9gSyl2ML-i46StYxmvU6fHML-iwCcwjvqGSkA-Ax7LaYE14popo159YLxBjsZiDo4JYUpt4bku7fCAA1wS6DI-gqocw0JBSo83TdSTPGYnCv2SmEa_E4Y87PmE8zY9tUSZzNWtZB8GNRka1lH4XpSxdUl94f6bvzWPmjYe1xCKfdq5s_HK6ALRCQHJi5rh2d6CSp2dSQZd9jrSdPzpGbD0NY-fq1VHmWeNdmSl0l-t1HomNr3YYgyOIZXbH2vYSPbvG1apLPrnLHlEW0a6PpWS3YiG3IaNV40Ye66H_PLoXqyVj6Zf0", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103508452521814830021\">Lee Tze Boon</a>"] },
+            { photoReference: "AWCwydgXXuebZELBfR8n5bRPQUCJiCEsO4NJx9EUKLPUS9inIN78pogsy51_3gzi4-2uXLIM7wJApnM6E9x3mlBgz4adBm0MEP3i0Ahy7vOS8FtBkkrl3P-jUkfE0O9UtcF_YDsDyjx0NnHVZQLa_AXQ4g3vHCYUx7Kn-UDC21oSDId-hXgL-jqgOQvB0jzj2ZceCcSodarD9m105Vs0K_GG9F0nqDImC2Bemc9dDV0QrABh2IOEJGQvUMla2rN49VTvzC5MCztryhRZK6OkfIPoyFBo3m2RqJ7Vyf28P8YoOugGCR0hTmtumOEEv_dCuTAfh5Z30naL3mqF9U4s3yXPgpTYncBk7Tbxt2QvY5XjlUhk-RHKmNrXZxDaI3fDkvHmYx_BDgonlovvKGeI507IK-cFcihQ_eCmq-gMUgHfBF9Ujg", width: 2614, height: 1203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101509657682002588113\">Resorts World Sentosa</a>"] }
+        ],
+        summary: "센토사 섬에서 많은 여행객이 선택하는 검증된 리조트입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["압도적인 리뷰 수", "센토사 섬 위치"],
+        tips: ["음식 가격을 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8 Sentosa Gateway, 싱가포르 098269" }],
+        location: { landmark: "8 Sentosa Gateway, 싱가포르 098269", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.rwsentosa.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14249486853969720358", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%A1%B0%EC%B8%A0+%EC%9B%94%EB%93%9C+%EC%84%BC%ED%86%A0%EC%82%AC%EC%84%AC+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아마라 상투아리 센토사섬": {
+        photos: [],
+        placeId: "ChIJ7xZ3TVUZ2jERfjDHnlIvir8",
+        placePhotos: [
+            { photoReference: "AWCwydjJI45HACn4gStJusRNZCy8mcsRrhUH1Q2K9KW0IL4lZ3eYUuoMHMhYaKEG5XTBcL85yEZGmQj9QEVSesC4-p6Bp4e1XOZMFsQTJhZZm14P0lb1gZInVOHyRafO-MaY36cyqhfuhFYWUYhcLyq3-S8xZVJ974vATBGkWOqy712T67ouJr19N-Rblv6Hwc2hM8e39qvSWsuCZEJp63S2Kj7kXMh6KPmqlLgDROep1zJtUWwmGzlD7TKl0iXB0GSttitzTezK-YnuoFTDkwwP0oQ-MIVPptLbqQBNYFoN5zd0L7WHUP3pB-bDOwMctLiNBr6w0su8x7EpoNazWR6cJBf-uvSqIpLKmpdGzRNOSBYBGmTZcBcoSER-sVWAuCI0uMirw3Ct20r9cFBmTUwVwzzoIl-UReQA2NVNJnlORTI", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110738197411799108079\">Amara Sanctuary Sentosa</a>"] },
+            { photoReference: "AWCwydj9qb3QyfCa4Q_ki6YkbH82RDGbO_ckucUX4tKAJRRjYODvNDQEBV7vAvu8XGa1PWFWIgIldtQpUBC5mCHXrSLPdsfOsmSZGFYwKHNKj5ks8DF-zouc6QK6EahbfQhhwpHbWVTEltJ-bxW2eA27K0vVEOSWK4qduoIJjVyCFbEy89P5OHz6f3Skrdgs-VjR483sOBHC8SmkXQObuih5K4QQti5gN3QQxBgVw6uW7djAa847BiwzOqih-Bl3JBwz8dxCMRDr8ysIy536YrmzDEwRgfFJPMhlr6nJXYygsjHzC7TOHSia8wnwt53c1-pf8DTojaOXCOPkwmwxWgYhZdri3KRj8maw792QYLBXtfMPlITgw83WpUCpxnGAgGZWGrbLCISpgYiT3L3hqgYNjZv639PA7UhMFlSg6A", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110738197411799108079\">Amara Sanctuary Sentosa</a>"] },
+            { photoReference: "AWCwydhx1DU_O5zydtGRsiXeyyZoXgAP2WBmBDOjvIyU016fZId_ITGnXM1V7tLmnJjMPT0RC-mjn7Ryw3S5X-O3PN6FsKgQDq3EMjXWtG7Xd6VcTaLyXNqo_AiwIqM00yIDrshkFj4WWDY9ymReB3rSpW66_ORigdT5S5YZ7702fk4E8H-yPS8XQR28Xb5Gz5mH2cRB9xLwIVaDNf-ykUl5mZA6RW4VayG_8a5Cku-WG5f6NT73ymVGd_5K7UNEaFA08uVl-W3bHMQdmLfBnc_g2uwD-TecJTKHFyZuRweNLtYX9dBnDVjuWcKWMAEe1IZB_8Zx_2O4MNqXEiJR-uixFqNpGp0wPT46SMlPBptCo5MJpzh3A16yOr52xXbGWlllj1zDA3vIFzRkA3Mhe2GiuWuajj2VGJN9odsif7kXf37vEuw", width: 2048, height: 1408, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112258401334454327962\">Erica Huyn</a>"] },
+            { photoReference: "AWCwydjnSfk_i6gcQgZ6onG0nLBVO94bE_KimWKhd8Rv0YpyVgSMK1Z9N2BfXIov11y8QhNvBmXDcw32OsDiJXSyZXJDFQJt-mU7BZi4n7zUe1jcxOia57ZeEwI_MKcLXGlORb0nhLOOLk_XpGr3annVE5K8JGl0q17m83DeHZTYwrzwxxbwA3lxP-CqftMHwMzB2XzARIL6Oz0qSrihjHTCxiZHJu4Rbif6CaUpQELdYrrdmM2ZuRhIaAfKXr_BwiaxcjGh_7uH08JLW7cwSun2LjB-05QqmEbymhHQS2VoSACoW5vB1gySoma21qJp02YeVpGONdlTDMyD6T7_Tk4iC60lV4ZaRGFF-UZY2a9B5duUHIJ9dvr0ETP-ccyo2PN1kfIi9yLyyz8Me8dhK3nqkbjnalHVS78VS6H-gvDtEjRAnNak", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114942045014266315595\">Avery Ng</a>"] },
+            { photoReference: "AWCwydhij1MvxuqC_Ez34U81iwkyj8AUfFHM_DlJt9ayyUQKaUupfljF-Pk8fJuCw7QM-jRXAvJxA8VyyVhFdicrp4Rq06rn2KlyE2HfF3vIWdnyMRXT8Jp0q2-Lrg8K-Qehmdtq5XyppfQ7-qXdUcxE0rZWTqifAtpOrXOXQ40ok6Vh1SU51of9NAjVgPH3UYOZwh8664ijyzv65q1YBwEaoDmogM-Ovzbg7_e0OH18ntZQJPsh3nj_13vYp0SMMo5QCKpl9ConuA_0pKepIwH9DyrtoLOm8t8Y_PfZyHuohjlRkwMosx7AAFlGsEUm6-iRVIUTWQmlX-MeYiD7MqkmrIP6HpXKWd0ftycHjpNtrCXWSu21s6VaBBcjJhMmVSLpnhnhliozK7GexnClBnGzNpuCedaRKtmnXRHxbQwEWpbqZw", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110738197411799108079\">Amara Sanctuary Sentosa</a>"] }
+        ],
+        summary: "자연의 여유와 편리한 위치를 동시에 갖춘 센토사 섬의 매력적인 휴양지입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["울창한 녹음과 평온한 분위기", "팔라완 비치 인접", "유니버설 스튜디오 싱가포르 인근"],
+        tips: ["팔라완 비치까지 도보로 이동하여 해변 산책을 즐기세요", "가족 여행객에게 최적화된 위치입니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Sentosa Island, 1 Larkhill Rd, 싱가포르 099394" }],
+        location: { landmark: "Sentosa Island, 1 Larkhill Rd, 싱가포르 099394", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://sentosa.amarahotels.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13801896039927984254", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EB%A7%88%EB%9D%BC+%EC%83%81%ED%88%AC%EC%95%84%EB%A6%AC+%EC%84%BC%ED%86%A0%EC%82%AC%EC%84%AC+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라플스 센토사 싱가포르": {
+        photos: [],
+        placeId: "ChIJ0cGco1Qf2jERVBqlD7ZvNQ0",
+        placePhotos: [
+            { photoReference: "AWCwydifVCRF63UWQxxmrPfFmU6E5GTB627CUUL4_TSdUlRBJNDXjJ9TIvg8j6ZpIGFmKHrZxTPTQVkpdL_llaohZZuDeA22fu4vfKrffp8s6PHLHZu_XMKTWT2ZHS86uRr_fdHFNBR74xGw4d2te7Ye5FdgD6csSteOXWOAMFaAsP2fGl72360XHbujRxQEK2uRU2YiNWD9UZVsIF2koYdXvl03huekzDTkHdfQi5QH4eXNm4EI-GOpVtst3HxSdYcn9XqvOP5YZunFheJehnAWAMFTgFBXCgD2DcazivGbd9kKvy6aVzfXW0wYadmA9lZK1OHeybiO0njQjPS01itKqURUROf0lFtppIhhovvJ34UgTR9pTNhfiZ4nNdUH6qi2GV7oaBB00Kj2k0lPgL0YYCMth9HSI_rFkFbaUx8w6njJLZqGXLOWqxvOWtU2CA", width: 1440, height: 1439, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103497134910071451233\">Sun Rei</a>"] },
+            { photoReference: "AWCwydjCgv7uCcbPTyPdtYjlYPeI3nZuM6K6PkXrhbudvXcdvZe4tZ8JSkio13Wcegv6CQQAFAeRg3dW84HxBZdatmnaqk5f0xbyxtsdJRKpRlaXv-2jbVDDoAoXMv1SSEDPymZiO_XH56e04dt-DSPQIjYwFvZMsVuh0mWcC_EUerSB9iO111ghq0pHHjgdx6niJb46hLFZp1DbdwK-_5MDBFYqWNYGXMvXFeY87UEnj5RoJ6PBgJRnkqYCbaGc8OjmO_nHib4KPlnKpAB1qa-A-6QXQQWV8BjayIOvZtAo7KBy84c6nGsPXC_C4INc2VBOdR9PrUIZ0LioNv49jvdavPv-NMafYt5bqe_yex1d1fh5ks6v-WkA3Y3Mw1br7mtzu8exQko6r9TSW9zoTjMWV91_HqGYikK2ASPnHuSPaiuEJtxT_5VbMrDKNVeebZRh", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108380554760370023025\">C Crumbs</a>"] },
+            { photoReference: "AWCwydiCQFlJ6HR6Bh_T1P4rn0m2UrpczxGgpZHX9ebxoijen-6wWKzRgSuc1fu3giqd9s3oXMvA4kMx1wnB9ITBzxc9TC08I87FRxR1MBWHBDCsaOcGJ1Bb5s2M2QZAHVRI3tJYwpzQ_TfWf_f7GBA87cQFQUBjh1SJ7t6qp9ktYzCxVO96JvPnTo9Dp6G1A-XJGw6J86jV442DM4DdiKUPmVaSnMUNDE5pxeg5Te9rb7H6qt4C7Z1SAz-HvumJaPDR8_v2lG4bUcWzhtTmDhSnEeOnYZdbSQlEe0A2f0gZEkFJARphPwhW9oN9DbSDUoD77LcoPj5AH-Z_GwQ6WuPloX1K6NjqsFj15JFC2ZQQMAjuD3J1P5Q2DH2brpdrnK2XnfIxb3-G_ctfL8c_f2SO_BCgtxeFUvhzzztnxw4qXRXYuq9dNVmG7e7dTw973F_V", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101241570179176751442\">Geraldine Walther</a>"] },
+            { photoReference: "AWCwydjB6Xz26X3u4uPvNj-muFCBtuzckBIh3fed0pkisGu7piO-H-lMh-4yQAf38sng-cwWz7P42rHmZHI8ttQT8-f1atQsi6Fa7tqi1_FTaUKnm2oOqNwufGg8_dQBWfqB61wB7f69eqkJKkU65Ua9mpPS8l7i65b4r-ro4aUioxM1LTxA0b1THwo9R9CtJc2WrxHHZEuFmunLwNSGHslYWqqzpbPXkX2ktfGitlmFKYae12kVLkOsEwsU7LyKhSSaoP0-41QeCUaxICwvwPBYNOG7WlhMcwjYeb3cpw4_zmNS1jyVydWh3M3G0CIdg_uWMgYyaBsPrr5MLKAVkK2MRRfz_lqCr9qEZAk9NsMiNZdK2Z65uaBKX4k03ITKkDONvGf5oJP_iwhbkkXVLyW8mByxhcswdlL2xFS7BihBtE_yDnabWsIv9H9om-w8sQa-", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100210658477133062347\">Shyane Chong</a>"] },
+            { photoReference: "AWCwydiP7ZmPWimDjzkKr7hXorn9g9ZMAq-n-oBSd_rP_etdmh-TOLuA5hWeB0Ohww3oSRvZO3K8sNE9du0evKZaUn3MWUgtQB5XAp8Fc_r-zYD-GCQQgYsqjh5NkqR67YnT2A7kBTjXsD4p5EmcgGFPadtD96uezyZGftzOZZBP2MEfJ69hA7g6x6tjXX0g9CAhfaC7WBDjF1J_gl9dpqMiN-Vdh5zraWMdRDFvlmKL5EznE4v3Jjj-adrajo4_ueKxU0kWr1mYJu66Mu4pfFg3xSwjmxrP-z2Isics496e_giCoZtrjTxKOUSFHlg2fJOVuO5d_mVA7FDhOxkB1HykXXcDlOEgJ2fZuxku0vAptYnS3SZB9wJKP1rt1thi8PQQGaepm8bbqpGt48dKRUIaRVU2guRvd1IehveSF91CNjeAMg", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110536139580956336538\">Raffles Sentosa Singapore</a>"] }
+        ],
+        summary: "아름다운 주변 환경과 넓고 고급스러운 전용 수영장 빌라를 갖춘 평화로운 휴양지입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전용 수영장이 있는 넓은 빌라", "뛰어난 방음 시설", "친절하고 정중한 서비스"],
+        tips: ["도시의 번잡함에서 벗어나 완벽한 휴식을 취하고 싶을 때 방문하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4 Bukit Manis Rd, Sentosa, 싱가포르 099947" }],
+        location: { landmark: "4 Bukit Manis Rd, Sentosa, 싱가포르 099947", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.raffles.com/sentosa/?goto=fiche_hotel&code_hotel=B5Q2&merchantid=seo-maps-Singapore-B5Q2&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=951789723995937364", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%ED%94%8C%EC%8A%A4+%EC%84%BC%ED%86%A0%EC%82%AC+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "D'리조트 @다운타운 이스트": {
+        photos: [],
+        placeId: "ChIJHeeu2LU92jER_BzfOqfIE0w",
+        placePhotos: [
+            { photoReference: "AWCwydgPlwZ4wwA4FpvO5g9tVugRswa47rzxzXRCQPUtK_rxOkcIc3QaF-a_9GhVYtFlGBIC7jmJTqJu3Nyvoh2IhHuqUPy_7W-F4YApmZAZWabJEiNVBoQyjuEGfhUNJmOL-_ThY6ANVO15JoNDQYhe9a-nlwaBa6hSGjRccULxfsjSqkNmTEUR-M1IBXt8P52_MKVQdkVDS0i9DIkMdjn5jvf-SHuIEJBc0GsDxqKiCkTQOrbiPRFcRFfTl7rwNPcvM28igWtQUpdkqUmwn-iT-rhnbnmAnNjKtRbW288XOuKy1H4ukidpOq67bnDnwHoVakiBLsJao1Ko0gLxWK_tVrbHCPoQAgNkHq6ALQ-6D27E2XzLvPuvJz31Nr--OS0PndUKZnrmfJfmD0dYjyxamEmNAfVUfJnyeqqPeYhRTPrXmNAy", width: 2048, height: 1342, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105304512211576997978\">D&#39;Resort @ Downtown East</a>"] },
+            { photoReference: "AWCwydi7HuudIUp8du_vD0zCauQI0TiDwBzFue-oZNA7xATTGIs2wyj8aY-zmSQzy4Ajr2GJt-dl1i6lefRUbDca4wFo2ssxOHW77f0mth4qD5dMYwkrv0I7IGSKdZXHhUFXVKIB0HbTWIYTFgNC_CTLc_mCOM49R6HrSGNcWi_ypEEEIb-2jH8ctvSuYo3fLuRnjNQvvhEgEYCV8G_Erm1YY_uQJInLVHDg5vOz6APL5ULXW3UgKPbEhpqP4oeAHN8tro5kjAivJ_5gjtL5-eZ0PwXH_fsuDLeq9GobkAa-NExuGBkRET3B6I5cfKa4p6qKuI2Bb-kVLUGtbpgpwNGtrtjS4T3VlZ5ShIIijTBRM0cCCtRNrunMlkXLzgVKqZsxprXpFAG4Z1cSm0LV-mMZzcAmfyrph-BmBznuK_-neWeWXfg", width: 1580, height: 696, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105304512211576997978\">D&#39;Resort @ Downtown East</a>"] },
+            { photoReference: "AWCwydgwnUw9SxePjfgdYlfeW5HKt2huBKA-9i9t5GEOmwUmxFnAOOWa1mW0_gb1PRAOwM-QzNOQEgPjfBRP5Zx7BIGaIEqkUtWWJEuXQiGG2MhS7TT9jWzp0Xgkw2pWX3CLlTd7eM1De-JZzJe3E2QteK-1aEbrZZeVnalWMqWTvdElrQ0o4HbXwequVb0fWrl7xPy9IJ3S7vAtJySC4wSlz91mt8e1q4A0tPEQ1G8Q1ainmB9V66hkR2zUYaj1t9JycEqn_Kv43PacJvKJ7qDj3RKbgVHtOHZVleIw-4CdhNsUXa3n1hvG5d15Tj3jOgkV-CS5_USjHt0p8RjVhrMuEfUJxGypImhCREsERE_8NNdw0wsfidlr2D8pX1Cez1uKEFw1jjak9hbhykRI6CqaNUbiqrvohiuDczLqXLdaVDPM4g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108501248087305781317\">Wenliang Ooi</a>"] },
+            { photoReference: "AWCwydjfq1eNuc2ANycQlNgDqrlX_emYP5WbnMGIiaH9KYYM1CbCtKBMU_MAnZTKmeyVbQVTHdJ3kn5FyL6AeyegBCz3gXrCzDzD54bCMe5-XOXS_ZBF41t4z-wqNClLgwUh9XHfpw56HjNRRX8tt-RogfURK5FmBQndbi4cCuJEQYvly2t419ddalG2H0C-UeD29CR0Ij_R3JKInb_V_BdH7ezwAJamMJhZ0qFuLlISpHomno-bYupy8rnE3dp7CHb2BIEqW5BiO06gE9dQqGJMDySkMxTtcREJJ037L9lDMjl32OZIyHIpK9Xm7PRzbP_TUEYRQhbbW-gwHCH0Qh8xjCgchJALAqM1pbyZDISIs1wNwivuGmA5RmYxL_Wk_dFQJ2nPml8MchiD8XMVzNkHQD4rZy2MoBziu4bU9Adr9Uc4GA", width: 1440, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108819707988282300317\">javert jean</a>"] },
+            { photoReference: "AWCwydhBNrxGwCnorE0byCV-iWtL4MtDeISxi7a9rq9D0rbuBk7yb7W2nEgKh1iU5-95gMzENBpfnhWhhERPOUxEdoh2rSVtcF4_xK9KVnczd3hE-VgDMEBwmqtUcmBkAJg08NpYNFYvOnoK7gq7LB0W9M0QTTIeJ74fZHO9LuSS1vXL1CdK0h13VCEtb2NxoJzTV3FAkvPKNu-aMuQzNtReJZF6gkgGkxdKl5okiPMXLteQoGYnir6RFK4ZY3WqWSV7mEZKYDicp2EhdcyY7EZKKMIo7OFKvXV3WEpnw2MGZCj9FL6EKWpx7xGDhC1fiJGLSCli3bx5Gv15ckJ_dcju5hisO3CoA0sh_sqHgqLp5FJpjH5Vyb8EIJDuPp5f1-wn5PlUVJbDARqv-8KFx8_7z0pEQSGwLZnB_oa9ZMOyCKIUVg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105304512211576997978\">D&#39;Resort @ Downtown East</a>"] }
+        ],
+        summary: "다양한 편의시설과 서비스를 제공하는 싱가포르의 인기 리조트입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["많은 리뷰 보유", "싱가포르 인기 검색어 상위권"],
+        tips: ["객실 내 시설 상태를 미리 확인하는 것이 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1 Pasir Ris Cl, 싱가포르 519599" }],
+        location: { landmark: "1 Pasir Ris Cl, 싱가포르 519599", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.dresort.com.sg/?utm_source=google&utm_medium=organic&utm_campaign=gbp", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5481945792012819708", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=D%27%EB%A6%AC%EC%A1%B0%ED%8A%B8+%40%EB%8B%A4%EC%9A%B4%ED%83%80%EC%9A%B4+%EC%9D%B4%EC%8A%A4%ED%8A%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "르 그루브 서비스 레지던스": {
+        photos: [],
+        placeId: "ChIJ0Y7I6vYZ2jERUzycjQt7foE",
+        placePhotos: [
+            { photoReference: "AWCwydjgzWY7UGPxXDa0ij8AqU8dUAYnP1G_hC0BNJ4D6_d3YNuNNhnI9bmehzQOGLu8lNWQokAIjVb2lqnnrKR1GLvcBoOW3-5O6kX0rQCHDOJx7diD6_1qX2j4kQHJ34EIAa4kmCOEATRjVWO65A5NvgKk7Uctdip30kKkQOtWlrW3UWvJtdgrjvHlqzGgKrFVbSmCVRpZAherZaOfv1XllwIkBJJoU97eIrwJqWq56s97OkmAVlLzTfZf9TclijfJ_pPnP_ZZ6hacgr0Se2bQ019JWR_iP5o6zH3Us_9d9DsTvYd291q8brUPrnLZUwuRsVw8XFhDfEP7u6FpXCw2a-rm7cFLiK5RqLqdf7pE4K9MQmP9zDMs-pObYlP1s8VUazUIfYYELBuEJdIUghPYO3iCytpnqITAMeh6RGBLgsHZLQ", width: 4800, height: 3351, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108621574521689972478\">Le Grove Serviced Residences</a>"] },
+            { photoReference: "AWCwydjy0rkAthioW_uJCjyfcXLovyhFGD-yuw_zM4K98Qs1qBq7DRcluA-VTgzGfNHUxkvkbVZP_Gle4kxLnl8EDjVTudES2P2TN7Wl9p2pOKHbCzhsPgak76qvFCKecBCSwqJs9XFvRoxMzKC6BmdM3oxTGjRrYI-WsUQHdm3PDopalEsl6Gb_WOtJocGRkJ3ryEXaNYt5ANZVRaOQiwBjgc3s8nlDlmPMnkzDFwYejYBYr6qMT1ipqE8n2qpVk-GSVfcXKgOqo8LJKq-xQMX--uVxBevxoxsW5ZnodSJVSB9_JqB-WnDiqP0WRRdJLsuh5MucqhyfeNAAxSgIZA3kQo_ZyxqSj0qnfKM78qpthCCwHwxB6Rtd2kqMkVittJc-9CRbiGeSu0nqvWM52ZH3Xre2MnqRtsvuTbqexX6uH7uYYXVGnWWzV-gCfJHB39N1", width: 3120, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106290138585320142096\">Sagar Shah</a>"] },
+            { photoReference: "AWCwydiOPEw8RxfOMkD6EFE7f1hrV49A49Cfi9hzO7SBiaS8-ao9cdV4fu3eiuijkM9Cr6du9jfKgTw7jDM8-6Yc7K9RC7DKdLHrBoVyx9193_oV6FRPerCU4m045hNtbxgK-hz8FH3chWlghI-aOQ9Vmnl6ELeKrxyGBtp1qdHUQWTeSTJJYMcneq_deDtghcOOTwRPjwZkcS2FLxHfbo9gzaIhahKdD7faYg9MahOQPpTs709Fc8H-7w0aETu1J0SF8M6jD-UYNRqca8Lf5UPS6MUjTUnnml8QP7tLaEWjc3Ya4VZZ690e2gkxOz13dAzVJ3HivbuutvYCQHoZ2h7kQfsr_kve_KU52v5zVn0EMjOoKb3PpQlW59yH9HJYTVMqwOzaCMenYDYafhwvkyU-eCLbsNipsToRXP818Ew1IES-WQ", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102835515389204157682\">Andrew Baudinette</a>"] },
+            { photoReference: "AWCwydiMqV83zbpU8CqBZQH61jEW-LF2B5JhhTlmV9Xpi6E3J2-RmtI75xfXRnP41WHVBivRarVpSTeR4jALD8dyX-PsymxzvLHCKps35ljbGNBKVkJ5ZQueW35CCjBwUU_bGOCAleJm7YYsrXxMIBwUmw58k5Yxv_MyKYunRyuSalePyxYlYfHc9rIbrtckblou5EwnWIexQD04R0wcOUViaW0crlPk-nvsZIl6LkOImhOlyp5Vsx-NLkJ6BOj03smlcDMl908gq5-OtcSS0PfZc_EdwuAWek7DKo2B5iPOtOPuRng3FydZnNhrQL-R5Kg6NXlLkhb05pmUdt2r_9o6SsTf3DBQuBjhEGg1qAeS06AoSb6xcLIZ9iDVVWhXc6tfelBrZBG32yi1Ue_D22dtDTUdJpm0ey6oa9rfh-z-627WZaGlBDvYRmTfyRpQQ887", width: 3120, height: 4160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106290138585320142096\">Sagar Shah</a>"] },
+            { photoReference: "AWCwydjoFHhly46mVirWJxf8tSGpWO_h_FAEdDPjWRNC3fFCOJISfR0DJTKP1KrJcIif6H43heSPYR1G0evn_lFSPSaDZFfw5hFPOxbluWKK6SljHO1nJRdbf91LqjSNJMrlSmNsPji1PbSMZqFFZDoOwRQwmbip83uDFPjCP_4Kr3QoIMw5LmkjGxzvvGW7RZmTUrpc_uI74jlRLvg57fVXaRjiIlgNXZ1k0peWTgzIc0Y_mmxHpO85D-V_XjnyVwVT9ju2lZKMqxnjPW1jOwm7c_-N1ccrcoUdgkVd2IifG3gQCPS3FrK1ifAnX5HKOqSafcE7sKLoErTdl7iJAApIkdpo9GupzA87uK8zVxam3DAyp9whk0dhQdnJT2dEHu_2pbrV0Y-vAxee6AuydacIgbb53Fhl25wI-wsab21zeEHWaw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112417476676347056445\">BardZ</a>"] }
+        ],
+        summary: "쾌적한 시설과 셔틀 서비스를 제공하는 싱가포르의 조용한 장기 숙박 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["조용하고 평화로운 휴식 공간", "헬스장, 수영장, 자쿠지 완비", "오차드행 정기 셔틀버스 운행"],
+        tips: ["단백질 위주의 식사를 원한다면 조식 구성을 확인하세요", "MRT 역까지 도보 10분 거리이나 셔틀 이용이 편리합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "32 Orange Grove Rd, 싱가포르 258354" }],
+        location: { landmark: "32 Orange Grove Rd, 싱가포르 258354", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.legrove.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9331030767508929619", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A5%B4+%EA%B7%B8%EB%A3%A8%EB%B8%8C+%EC%84%9C%EB%B9%84%EC%8A%A4+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아우렐리스 서비스 레지던스 마리나 베이": {
+        photos: [],
+        placeId: "ChIJl48VRQ4Z2jER8BcCpeEhkwg",
+        placePhotos: [
+            { photoReference: "AWCwydg10006ZHfcZ6z7g4kEJzDf23v-E3PHWtgDZr6m1woSee_t4apwAru1WND_A9kjeqjKfzQbFNkIGkfwd3wIC4iOGGrtHEo0SDUJARUIdttVBrMP3ddGAuJC_Z1Z_uttq4FJRGzoJbQuoYirEHqAf2OFiPa0xoC0XaoQ4zT_WVinXP8OAd5_N00cESmL34OgI-QeV8pb8jPkOPKPol7L4i9rC8fV8Fb9RrYX4b1trPXdqWnrmeC0ZaPzLfws30YrXQrXOc_MPcVtnIuPEdaXMJtpDz3L96aMStTCU6gPjJ4eJYGDfV8ml1gnMtQoz4OE_8zbtX7GX_t1UN1UjjB44S3xtPcdCiBwPVGXXqDYRb1BASGsTxcKfZPE2VgxbuRf7y3k3fA5OwcUolLhIrUweuIhgoXEx6d4NZz1rMJavmLhDcop", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112014048208092459925\">Aurealis Serviced Residence at Marina Bay</a>"] },
+            { photoReference: "AWCwydjStQB5Dk-iRrKvvrz-t4_QzzAO5hi09Up9_OgjgEjXI685LlaMHte2kULu1xk0KWszrH9dWzGG2MkEG8cYKG3M4_h0usw9GfL3t7pYIwavjvKMib1XdAAVhAt2bcEeWTmZYI-E-b05IlnrkOOdfFBR59qn_oltB6nK-jJybrby6x-J57r4gGh4vKb6qi9W4FH52zyl-YtmVG95dWeaENDdHjgDTRAwHGxrsd0PvgxCxGjQNNour9HOhqe-a0Tfgp6fKIp1VN2RKxD737v_29AgNLkxJrhMPChCqmaXy3ofIFzeXBVZk2wP6JDVfq8CXFsxxqAFGKQRTNd3VapaJUvkeDqLEvjl-mJoHijy7HXCM8AhJWlRALt3F5lCgYEDycVCsYm12VXW1TMEC0TmT9h2md3zAlNMOJqxINFSL6lWMg", width: 2880, height: 1620, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112014048208092459925\">Aurealis Serviced Residence at Marina Bay</a>"] },
+            { photoReference: "AWCwydhFG1_d3eXdJgoyELz4TEdJog5-ONftfhqu0Y3GCkU7F0ePRVj6-EgHZOB8wnktCGGc2bCS-p_LjZUZHmV2n-S-LtWeWSsobbuY6yFQ4Hk6tQJ9W0R9D16_CbMPsn985QnyoesggYCDWaQw3XQPQM6Gbanyy7ivUiD9hDCk6uwttrVs1bQQvTBZ3P1U30xh3IqKcS5jJc9AXbAylrewQiEqejpMZ04S1MZTtechP23eoDpB-6EHGK1Dir2DJ85dQdXCjJcHytIrAYWk4egedPJzkpMEEldnIjKHpg1Vap8Cm6qrxfEG0mUFmXVGWPlN1IrsMPOJgHtbijACUhAZylNisalzGufJnarJ-9u3zwuAVGP967nPXeorUTDw1DES1dhMuIlanDyATC3lTqtaIpURCg2NbuHIWOIkC-oMqTFVeg", width: 2880, height: 1620, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112014048208092459925\">Aurealis Serviced Residence at Marina Bay</a>"] },
+            { photoReference: "AWCwydhqXJ0vonooY5lExYU1F3kbuLSv9MbJpZ24mtb3xkLXH8DhrmCJ4wIOBZnnRaijB378umoJJx2XVGxmIQvtpK7V1CBa6i6frAKOJIuWhtItgHOQss63tK2geLwSbRTXOD5MuGDKZmOaOjsC4hYdRQXS8Cz9Ep9YZlnT5200o4lYfqNJP8p_PZaUSCM570rRzDiczkLCa05z0QcQBDsLGGEiXUz-POb0ht1h1hjhe68YI_YoR79gUVBRymi144VG_mTKGKO440S2D1feDgTYXYvY0JpgvKELfyzer8CEChkjEC9pj2Bp0mrkzruiYwvrgI5sQ-x5KkcjUmpZyvB7GpjBRUrU7ocUC8W-BtDqe6jEm1PSzcisUqfXYe2cvJNyt9o2bp2I66Se5E5u_uDxBDoIojR2T7hGedJb45bteCgE2K7i", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112014048208092459925\">Aurealis Serviced Residence at Marina Bay</a>"] },
+            { photoReference: "AWCwydif_CNwnUH-DlHL9ihO1r-LeKCwqe-gOizWGLFCoKwUpVOdWuZOyNn4GOzhDQZqZrhRD-umW6JNPI2d0tX8avoQuMB7IdCBe55gLbiH0yq9bX8DgzE725P6hVhhWT7-CTiaTFdkyaFOxRAfCRFUOk5vmtVuVzN_2Qv97uRkgsdrinisvUrofhtXsttaVKPmu_7LQkVMyP6ofgpYU1kBaw9dTOmsQmR-N6fticb4rfHXp6SxsuulrFvrxld5ZF6tTs_Iw__WvKk44_WBh_6xglggfA7IaLNsugwEku9N0EsBoVNRW7bNcTOLmkWj4WgkM2diYsKxQo2dbKgC1eXdcDowubxMAznV-Y6wCJ3zFNtuRumpwhTzLwQwo64l8yrON1Ip7pyERapLtL9YQ4XYND8A2Og4_HBqJMexytG8fqLpyJU", width: 2016, height: 1512, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112014048208092459925\">Aurealis Serviced Residence at Marina Bay</a>"] }
+        ],
+        summary: "높은 평점과 친절한 서비스로 만족도가 높은 마리나 베이 인근의 서비스 레지던스입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["지하철역과 연결된 편리한 위치", "정기적인 객실 청소 서비스", "마리나 베이 불꽃놀이 조망 가능"],
+        tips: ["지하 연결 통로를 이용하면 햇빛을 피해서 이동할 수 있습니다", "장기 투숙객에게도 적합한 쾌적한 환경을 제공합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2 Marina Blvd, Singapore 018987" }],
+        location: { landmark: "2 Marina Blvd, Singapore 018987", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://aurealisgroup.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=617874826899625968", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%9A%B0%EB%A0%90%EB%A6%AC%EC%8A%A4+%EC%84%9C%EB%B9%84%EC%8A%A4+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EB%A7%88%EB%A6%AC%EB%82%98+%EB%B2%A0%EC%9D%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "포트 780 서비스 아파트먼트": {
+        photos: [],
+        placeId: "ChIJCVz7aUEX2jERaNWWjlXj2mY",
+        placePhotos: [
+            { photoReference: "AWCwydh8nebqSjRXcrNkQxufaSti_sdKGbLXeRwehDfaBZNGhrXxORXcpUjAyvUeOOVPtEdILpGjy7mORHX66vN05f01bmLKQjPgQ-kdJysxsY6z88C_UD_N8oQnuoBve4ig0h8Uu7Kp39TvP7NB0DnRrukFQH0PGUOSI9wnnOGqM2vxNj2Nx_n0upm5U0r3UbMQwjfqJ7_lsej5OJkTyKWMhutbJ66ESZrlFhw138ggGioii0sYJpTtKbiZz-WQwbHE6BEt33biByfhVe8ONM5StlurVx9XdBbEqBabozh4EmC75YwTQYXMba3YQ89ey_FcD9ibET5IiiDHWYEvKW1SUmwJJgGYr4TnX-PoQgBWGJDigCWoc-96rsNbEd-70S2KDVgyC5dxTjxi5nYzaDa7DcqHBCK3UGJG_b5hzF8TzF6Hxg8Vlv7X6BmvZqn6yw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271161449927407767\">Fort 780 Serviced Apartments</a>"] },
+            { photoReference: "AWCwydjA79v8pKUs6RcBl9SvraQinWhPveoO18xKseGEBWMFgtC9A9JEQtp3OjQnVb7PzkROSNyePLJRRywBSjCp6SMjICT42KIVrwHBOIv0OeVQF1lnHCupjH0ylZRhIcm60GkwJjZHNbCJ6Hms_blWzUl-_Syc-8wKSDrVdWCPfTBmJJugERfold_4zDTfT72H9gxzPvI2PV4w02txkDjTLd5ldN1L7QiVu3mRLk0OYwzWL5ILaQVebZDoFG_y2xMgbiIarpNvUwrOjGt1yOR1tMOvHUBotgrQFP_juT5s2-pMhZ9bfFPAvRVfnwYWpT_q1bsrKYeDN0Vw0Q9NT1Muy4gRIa_tCx8edx31xThNQiC8n3a1eE1gKPAtP_zgZ28kkoc4JJmGMDXzektnLhZq4DejONxoAj6pN9gDxNwXid1nS4dJH-7-KPbRMy6OHA", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271161449927407767\">Fort 780 Serviced Apartments</a>"] },
+            { photoReference: "AWCwydgfnhunWdwvgNUdiVO_Vy_i6DAwVQ6UvjG2V7zWtJaJ1dKe1e5Xb1HKtdvYJ7stTRpvfqGqiLdXjEmJzfx_DYCTyEEk7SCDi41RhaS9BERyB1q03kPuqKTUmTyl-G7mlM1VJGWho40A7UuODDcT_xruHDbY9LSZuMhCtsB8V0paCjAEzD0sUxybRvVwIUBYNYqPsyPYswopO6C_pd4-lT9Le_rCJCPnJISxiTfOq7f30ZXqqn4pvlIsiqIpplk5MFq2NhHlRDPrt2p_HguQND4HW65fgk57AQ5F7hFPxtgx0Vcd3ZxpkNxsKqdsA9zeptMRvr38Rc0EEOrnwtWXVjD_Ws5XPxH2csWlVigBcfwm5_H9QHOdSrUVtNlZEKuspIv8DwX6LDi4MKqYx02494IuJYCUIQFthlJaed7DrjE0v8pvgsZRyeKkrSpu-Sex", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271161449927407767\">Fort 780 Serviced Apartments</a>"] },
+            { photoReference: "AWCwydikr8dezNSvF7QwgaDCPea7lADCsyXbRa6cYz6HuHh52Xupk7XOY7-kDhBmoVQWINW0YNpw_yJuHEC1QqobUhBSLYnUwy_fa-FVtaGs7QOo_x-2H4jdH35YMR_Y9E1yEF1Z__AX97_aoigRC93k5R39T3SGlyozEwUWKqRc1GOc5e2Hv-DOtOlt7BpipIVH238_voT9sA7r97b-l3f131gshodj3TWzgTANymqb_JaNzfd-i89hGefzx8DHUjqhNziXHd8gNjhxW5_juMvhbQkbigMxHI37OzUsbWVQz_4Tdr9o6kYT_L5W0Ke93Gyvu7rfQoXEYqbAjAUP_RwChA7aUcufackBn5wKDwB-5JeQYSlSRb-gKg4i03-uCAcbd0RBLb-fkUdaDtlLxktdejwBBtDOiHtYcnIDTpjsAAPbfRYG7EDQwSl0p2Wf0Q", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271161449927407767\">Fort 780 Serviced Apartments</a>"] },
+            { photoReference: "AWCwydjLUuV3BvorebKBYHFcaXYw6q9ovr9kE7S_nwXLWxKsIeJVwRfiTTYMVGMDDkHqXxcHwnGrGz4cdu6OHU9fHlnE6iy7EliwrOlE4PdTjnq9mX_JVzxK_4N2wFEpK2q95WMYyNRquga9gSuuLwXPWlzSSehmd0eRNvo350FbQiSraYwTxRiZbPfGL0PAwfMtykEa3YckOrs0oAVKa26YLUz3jIxiZIj2FCBGYKuEFwk4FM6_cEUHOk4dKkzKmdWFVRQhMN0nQUcDEHlGHTMbPj2gt1_YFyOpUq5VJeIU272vMfmjccWEIIBI9XDHXNDeiLmj86nBU-7JDQ6Y5Ar8yY7KBXyUIBnzk7xyuaQY6_AQOad2Oq1XShI8b00T0WsvK-duNLlWCCciM2k-Bg8mYmQwx3B9XGiZh1IAx-Ri665xZnAwHAW6qrN7XeQ1ewDg", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271161449927407767\">Fort 780 Serviced Apartments</a>"] }
+        ],
+        summary: "깨끗하고 정돈된 시설과 편리한 대중교통 접근성을 갖춘 추천 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["주방 시설 완비", "주변 식당 및 마트 인접", "대중교통 이용 편리"],
+        tips: ["장기 투숙 시 직접 요리가 가능하여 경제적입니다.", "버스 정류장이 가까워 이동이 용이합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "780 Upper Serangoon Rd, Level 3 - 5 USR Junction, 싱가포르 534649" }],
+        location: { landmark: "780 Upper Serangoon Rd, Level 3 - 5 USR Junction, 싱가포르 534649", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://fort780.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7411486093395547496", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8F%AC%ED%8A%B8+780+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오차드 그랜드 코트 서비스 아파트먼트": {
+        photos: [],
+        placeId: "ChIJ47KnHpoZ2jERswAoxZB4xkU",
+        placePhotos: [
+            { photoReference: "AWCwydg1TdOkPYs4MxyU6ZtxJMDAOiYOMCNBikCKxPnaaiAMTm-O2cCjZkSZjyz17QBf3optk36STCyBrt2B8R1mLJ9G-hH9rcl-rP8r0Cg_ZrhByPiSQWhxClCfBmLS5dAaHcWTq0p0lncdWJcfaZ8mN1agM0AUH2iY5WR__akItG-K2SvC-8B6g8DvxGL73UicuWf0r3Gf0G9TulfBk3ePz1-MigLn9cpUKPcSDAwyJgXnTNp9NGhBN5GABr1OIlmoeC7b1l-4PRa0dEUM4YqfY8p_u4GZwxJPuIadeyoosLhmtaFVhm2bDm-hagMCf9HM1YlSBEmJT0pZP0CEpcWqZqzKyA0poFisRTLd9RNIZdWzlUZWlKaKz2Zz8yGs4jhYFeTsRXVXgnDPjq-t9Xe61hsmEhC1D3eWIEsa-PHiU-K2_Q", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105171131947914205376\">Shafiq Chowdhury</a>"] },
+            { photoReference: "AWCwydgm6ECYVxbRPuNJfGVW-h5m82fTwwl0IZRHsaQGAFXtwAauK9E91zKmV99sTDvDedm-QTmOrzquL_B8dw3DfUVxdgZUO0RL4qTWx0HofT23NhiZIx-x3P4IiDw232Ivg8WVUWpO9kfWZwAYI9PqFAvuKVuCsLqyYxxiWZuGLslyEIssoi-V4UfBxWpTGIP4qzAN7CokzLVP05ZDYHL58WdNApqK9O1rwzPOtzP9SRSfGUgDvNRTJk-ETWYpQkKa7cpQ_JSObwIhKPRohCOx3J0N22-HNrPUhUX6WH_-4FbGAD5bRVzPerb7JV1V8biujcz8VVXwOpzQlfM3fX1OpNl8Us56PaeLddOuAbkPkeIyI17IoTcT_6CtfI4oEXVVyfyi5gZgOzDlC7w2nzwV9hMznsfSzwBWdWJrPoSvniyRlw", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100597131912144328959\">Orchard Grand Court Serviced Apartment</a>"] },
+            { photoReference: "AWCwydhn3gwxVRWCOlPsu9oCSZp1KJ4pE9Zy_4zT8tSAUVpNeSpy7ZDRYBoujIWaThyEweCbjcQZBAx3lmBaVYuYBHeMNTDUyviFCysx34lLpr19OwtXkm246hscMPu6sGrbTI4n7FmDh1MCP4BPq812gOHqFuwr0guU7P3Qp40EpAgfyYOVSsriM301Cbm7WAoo5ZC6mkJXubxJyVf5jQ6KFZAvvdlPVnuPgV14lPP-Rsb6TLMUP4bSbRQJAnEzwvZ0nHeUjYB-FXburgbUozuQ_Bzkjv0z-fkFL1wcCrZknH3fsv3opQW3gcgv2RGi54vop9qMXXmP__3Cc39Ob4pezrKFBGTDQ_AdibwiF7bHW-Ogp97wLIDFyQAA9KPmu5fAdaXQAOTbBNOnzfsL8zP2TVY0akglaB0-WLwqGVS4fuz5GA", width: 4608, height: 2240, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104321588148572357645\">Đặng Quốc Trị</a>"] },
+            { photoReference: "AWCwydixDByYH5w1gUybvyjc9GT6WEH562lvVnzxEfMbXAxZ9Xehs3mvOU1-gHztW8_PpTIiNSHQc1RT6KHEYZwl9y_ut6_vdE4sW5Zv3sWfIZhFeMllpElmydT5jyTmZWgo3k5qbx7PoAPnxq1MT9sWkp1DltnvdeSDeB3IbRVg6aqwbd5xQM-6advyT1W2RrUpYHEiGWTtPxLx8dDunKFD1hHQNi1t3eTKjRNbV-Ibo4-PfeM_uZMtNXnNk3rLMUjIi_yQ_MrWyo1Wi4YHRPvG1thtlvbpchanyyyJCATX0v5Xb1ySVOYKbh-hsZZqQswBOddZ2_yRzLLYo603CS7efYY-WdRBKGTQQTLj0cUEER4uIbNcGfqU-ZjNfimvRKgzdaxL_THuvkJdXeZZRV65j5Q5UiQpUskpXpnGSN2gvVHmbQ", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100597131912144328959\">Orchard Grand Court Serviced Apartment</a>"] },
+            { photoReference: "AWCwydi59kaAQGVf1-kLTGg9aFHjR7wVn_T7pfBeXVwu_7uoAsdfQ4I3uRJVOrxTuiEcs4ni2I2r7fkeNTTMdYRNjD7Xvryk5HA79Ho_VlGNNJTTnopZ9E0xD1zigxSs4CGJQ784uv2ygiGDduZNpal0Y2H0JIYqzFTwltlTzleFbBBK8w6y9v4kwZJHJxl8kJZfXcYB_OJCSV86_AFFgwk-ob1E6ZUWfEKjXOXLtvybnj1jycgW2SDjAEAV8zamf5uLKeM6GZBOsFU-kyTA_YbULSNrlzXwq5pz3BktmuwiL8QQSQoiQo5dWy2MpChBbqtk0JfTw1YvkuJIDv7P6OOysEjI7GIKa8nA2CMwfvSFKnaDsQwKYUw5lvieTAypmDNhwrNPlMiSQ8rAj9uEnjR0RVHtQI8LXuEdIcXqgdvU3pc", width: 1200, height: 801, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100597131912144328959\">Orchard Grand Court Serviced Apartment</a>"] }
+        ],
+        summary: "훌륭한 위치와 다양한 조식, 넓은 수영장을 갖춘 가족 및 커플 추천 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["오차드 로드 및 MRT 역 도보 이동 가능", "서양식과 중식이 포함된 다양한 조식", "넓은 야외 수영장 보유"],
+        tips: ["서머셋 MRT역까지 도보 10분 거리", "숙소 인근 1분 거리 미니 슈퍼마켓 이용 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "131 Killiney Rd, Singapore 239571" }],
+        location: { landmark: "131 Killiney Rd, Singapore 239571", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.ogc.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5027838597184094387", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%B0%A8%EB%93%9C+%EA%B7%B8%EB%9E%9C%EB%93%9C+%EC%BD%94%ED%8A%B8+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "샹그릴라 아파트먼트": {
+        photos: [],
+        placeId: "ChIJozSThPQZ2jERswlH9NX6WE4",
+        placePhotos: [
+            { photoReference: "AWCwydi75BH_4MaAIikYOJcNIFl5CaN2wIH_d4iMUZUUc700whCwZAAkUqU6UpzLz0sQpUx7xbzqbP6JWWd5V64JaY6PQrsAgVtcBsB2FtdpUST9cNktb7ynpaX2X3RwLoovsafBeqEmsLURbMLQTorpCEncgw6PNA_i3gI7nUzZABVbwz5agMT-4FWX2gkQe65T7QUDOC0uqtaQJ5QPt0lku_p2rVlSszDXxXIUXseIQyOTYl-PGOCVOU4BQtgHZbPGfBsoQqrAtfrj6qC6WnCgacHiKoMoiV9CBFac8vj_gXyMHW_66VspVXQMfr5OeR6W4DrKXt0meJ727cm-1-nqFcgdsVH3P192DOQiVK_SjIOL_eyWBA2uMmyUBwAuYjAasHlmt82M-XdlLNm7mKkeThjv8qGRE4hJItV7-iQridtnmHw", width: 3021, height: 2764, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113796572659279486041\">Capture Asia Photography</a>"] },
+            { photoReference: "AWCwydgqAmh8lwazfAF-EV5I2En-GNR0RFJTampB3BnnyOsLKjqzKjnPJPRR1ef6zatSIr3LldMszYy5NY-KpKUUgA8RchAbE7BFO8BQKS6PecureKahtI14WNHyLQpKPAH64ywZZsLEwpYzpi81ZE2jai5VRzbbRA5rb6i7lV6zNDO5_NZM2AbD7AQaFhUD92ZCMLcQ7vWCx-YjDrp36MYiFDXratXEP72TIvNSPcxVCpoNNn0eNHo4RnHjc1w3bDOgvYKaYdwDJMKr52ykPWGZc-5OjBVCda4tyZ0K6CYxmHCvo06LoLUjlfQBGeDDtKN5wA6rn1DTEdzMGmzFoPY-qOTbbBbnDX5j9hIhDx9Xx0zpM4gXsGHfQr8Ive9cl2jbbfc9ccqFVO_kCno-zBal3cEmaiph0o8AyBwhoEq5FoU55LhdYDR8GkC72o8RWTgW", width: 4800, height: 1697, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102442160039531143685\">Shinichiro Tatsu_</a>"] },
+            { photoReference: "AWCwydhzQqWgQG02ndsuWUA_v9YKU5JY5T9_kPTm2u5WQqJT-ZTaGoQnYUu5DxMaVzO3BAo23VyC7zgJ6wZx1zrbhILOmVLUPPWfPnw1yBADZj3a8e-wbm78neR0JMsSmfg8UYnPmjdFxteY2oFOKC8IGxwoYqccPBYuOTUUDTo9YLf69WXuveL_IQIGPA6k_zfGgDrqA537j-EotUSWD6p8XmT5Lt3J-fIWsj0JASVP5RbcZetpssKmNyh25mlkeyz87Ac1gKBTY1OamCa9-TYRVCv4-Z4Qv5E5H-PGEav5wtCOUE124wHLwun212OSuU7GjQenbT1yFjXL3Au7DYVV7FieVwNFu0of9Iq4XKQRwXh0_0gWFGsZyYSwgKQft1pB4ZKAFjfsGRbDubbOak9YSxCP8DPiQJ0ccnsBWOd6q6c5qw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111061218921356080186\">Tony Frain</a>"] },
+            { photoReference: "AWCwydhXusfyPp20CtPJdAVmAAA0_Ya4Yy-sm8BTiBQLDFFYsYVuvF3-NSJBGlp95qvDmPKccnBKX2ksMvxuCI4th6Kqr1aLFA5vV5IUOYXuZ1kjm1ZVw9TgyeVoy4f_ehkyN9W6ffKiBa5FsFHfEIRARV1Xs7vEFTUkVrVUe-u_6QEr_TspBSzp-3R2jEq7A6ScnVS6p4pMuN6RwfJXQEvrFxNfUth0jqZ6ud7Nusf7P8GEqWEfiuhamTJzf3sIi4fJaxpMP2IhqJJZ7JjBaXt6X5msNbeE-7z89VgC-KGXqDcdOI3iIf6bK8ngMPQE9WTisc09m3fs766WW4rySD2-f7pTnjOkK6SaXa3qwXH-HwD7M2ARFsxxzth2nK4JM_rEq3W9fZBkShG75ogyxCw0XCVzMjc0Xxgbq7QscARh8Z8wSp69", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114546359316734827435\">Chloe Tess Tan</a>"] },
+            { photoReference: "AWCwydiqblv04_ETPX5OWzbZnFMwPzAt0scDrS5IzLvy-aRayAke6sxrhuwu8jnv5-GGszzIeaFTaS94KqG7pjLPjRPefymCaA40KT1Vo_LOfPZg5kqQjOFPkhDK8wfn59YQxG8qx4etgZDfsvzyXldJAY4VtdKn_JkiNvWBEVwfxwymEcKttn1BN0UNz67Nh1xa6n4eZl3tCS-T5k-j_OreOeKV3wt-EyK7L5nnH9_e4YIr_c0xcZ9HqwsDudDQCwYZJOgDEpZ0tsD6VtBwJlU7WcjySxZfnrjHD6sXJitV7VeKmfUXW92lxHDIagjB0_fx7NYS8bcK0Lf3mjEFLAI6th_AVGDSV-EKQyhX28sI7rqTOD7gj6rpzxgqTVEggK46z-0cSIfrNvGdqjfKEQHHpghL-Kjlx6c54TAjhzC_cCs4Lw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106447991848316227619\">Julien Aaa</a>"] }
+        ],
+        summary: "품격 있는 서비스를 제공하는 샹그릴라 계열의 에어비앤비 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["매우 깨끗한 객실 상태", "샹그릴라 호텔 계열의 서비스"],
+        tips: ["서비스 이용 시 참고하시기 바랍니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1 Anderson Rd, 싱가포르 259983" }],
+        location: { landmark: "1 Anderson Rd, 싱가포르 259983", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.shangri-la.com/singapore/shangrilaapartment/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5645537929742191027", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%83%B9%EA%B7%B8%EB%A6%B4%EB%9D%BC+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비트 캡슐 호스텔 @ 보트 퀘이": {
+        photos: [],
+        placeId: "ChIJ8fCGNgoZ2jERSpwfNFcN85Q",
+        placePhotos: [
+            { photoReference: "AWCwydhWNuHhrBFJdhXqsN-0W6DPDyQOg-fnRE2A9AIr2PDSd8zupX2cY4yhihd4d73PtnjjGQeYlw2-4XMwYuSQkbzUmcM0B99vzgYVzrdMyKCc84VPMpw_cVngX6wEb7NU5npaDJRkpCFmcBgi6e0i2gxwgk7fMyJZySAnlfPm2MwpR-CBviRuNnSWxiGswXO6zEUn7GiXiz4e1ZNyvrNQWGZkiMBTseGzYwVJL6cGVFNjzSOmxMq06NHi6MWH4ZkLqlkR8LZZxxKo59BEZslLmYS3Yw3roXQxPymsMPWdP7Rt7-ONctt5sqmY9ZeFcm9LaM-C8NHDYPkXPzUJY-9pfXf20TwhhHSg9kduaYfHnp2wf7Km-ugp0mkdqupwEKUR6XgleYT8ZMt7u2GrZyA6dsr7tMU_nI8fDFk4BtmlJphoxw", width: 1933, height: 2900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102828210953792398743\">BEAT. Capsule Hostel @ Boat Quay</a>"] },
+            { photoReference: "AWCwydh8bl2_ADhCGLJ_T3d0tqOByblwY_RYCh5hlar3oKPebpfI_cmIngXZffUOMCBojdjrkskUhlBf0m4hbhfLlB-BsTUnMi9zyyTwwj-gI3RIFKGYiAwDTrWBL1hYNw_gQi3g12jCFMri_41hRLxRZeKnWL2VG92xM42xxRQ3kGDBREWeyDZW3wLdanV2nLkyK4R6nsTJxzUwLpm0kcHoesrkQMXoWLxG5-suXsiRz-dZx4DuxGJV3k4YA8JTigfwROrVebjvXY3R7XycsntnC4CQ4WAeb8JTO5Rq_hM_j8nypKm4-NSz08AE4MTf35nCqO_QV5O-MJ0N4qztfNlRkXpTUIOzQOsL_pcVFoTaKHlcb2ZXdiuioO92RuLoZf6i0gdfw4Tp419T_i3RVLob75j3lxeO_FmjXQA4rGKgPt88x1FP", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102828210953792398743\">BEAT. Capsule Hostel @ Boat Quay</a>"] },
+            { photoReference: "AWCwydg7I8xj1eATgnvtqF6CwT_QlNcFkmIB4sGFhR4LvcAZIlxD2-ZS2r9lW_SmgbXM0AvEd-Akz-j-5stiDMhrVCkm-eoFuM6eOw2yVkbLiz4F_wQaGBeXRLxaJvFjZf7ab6q8oOZW9FisSWlDnnPZk3hZN6lbLAFwzdMyECYunmzByhTh5g-YE6Pb5vzyEfUGRlDc9qOc7AOyBu875mFojqugD7En9vnSfLNzxOqLsMtbGdK-sVZUS7nKL2uDQ1pphj02FA4YsYpxWreOB-Gz6D9CjP3fEs5cbqhjTsBOVwTA180Ro-2GhlLEiyngxgiXkx1fVo7jtXCbh5QJDhk5-SbBfdBXS4s0QYERSN6Xxy-a9TGGcy6X2sS9yBftayXbD5lO45n6ATUvInVGP4nfw1n6Ii-KUSLVUopJorffFL3QTP0", width: 4608, height: 2592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103782314644118141752\">Nguon Sominea (Lux)</a>"] },
+            { photoReference: "AWCwydi0Hf1OkoKLNstN2Z_yppwNzz7FNHUQnfXObYVenmBIHoAobkwZfl0X-iMgPmSlDfDJhi5WYztTnM_3pkZeZbhEIz1tv0W7XgZuaVAlepa_eH7TNPqYD3gumOWL_Wokp5D0V5QbQlLXhkdyRbPYze3wc3Rd0jnex2XRWxbgq8MUEEf6EXykepnBBWr1U3HDe3mSHR4Cuy4qzPlTqkxXByCkHdUt6QA2Bktv1uk50TLSJO_AKeuizqj7QP_ffZl5PkWJdGTwvb60NiYwAsIu-E8HOotU1kdakvTeXnuYnFIGeIvnjktx6U3RCuPa-3ya6YrWuz3l7ZCJ12S9Afb3iFnctguThZQf6hO9L7JNHpDou8zVRPjz9rSr280E6p9MZQaqA9J3yURFplrTPUV30IjxFlpkNA37zczYA1fdZJskhw", width: 3500, height: 2334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102828210953792398743\">BEAT. Capsule Hostel @ Boat Quay</a>"] },
+            { photoReference: "AWCwydglfEu2_CUHvjLW6_ugiPGnqGBqOR4Lpld2vzhgYXMTqHjZ6hFNXLf01zjY-fUIQVMGaIRv7Bfkzc9DaprjOhUyKWK4M51UdBPwMR9V5nQOsdcZhmUBVOsOT4cTDNUCaE8UF0w-kdhzTLjaMNTpKfPSDHaZj0sZNH-rIESoje_f1lxnYD63NWseGalYs2p__J6ToAvGwrVCp-BPftdAZ9bFIywgqk77un2a7M7aNZPLvDqKC2CcKEo6HUj9jHC_RvgzPKCpLb6i8D--hBVxOtvlaiDg-pJeBWXhVAoAnmfGh9Bl-0xNz_bJO05yXSq6Q7H6l-5EC-J8oFnraCDYbiHr0g7SgQqiHCWhVcHNFTPUSterK9lNBPW28KzQnVCbxR7PUF4weONAfuE3QDaKXLthuk4UreELNnyKV649J5WeicYK", width: 3000, height: 2001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102828210953792398743\">BEAT. Capsule Hostel @ Boat Quay</a>"] }
+        ],
+        summary: "머라이언 파크에서 도보 5분 거리인 보트 퀘이의 최적의 위치를 자랑하는 청결한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["보트 퀘이의 환상적인 위치", "머라이언 파크 도보 5분", "매우 깨끗한 시설"],
+        tips: ["계단 이용 시 주의가 필요합니다", "짐 이동 시 계단이 있을 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "50 Boat Quay, 싱가포르 049839" }],
+        location: { landmark: "50 Boat Quay, 싱가포르 049839", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.beathostel.co/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10732937005141826634", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84%ED%8A%B8+%EC%BA%A1%EC%8A%90+%ED%98%B8%EC%8A%A4%ED%85%94+%40+%EB%B3%B4%ED%8A%B8+%ED%80%98%EC%9D%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하이브 @ 버기스": {
+        photos: [],
+        placeId: "ChIJL7NlRFwZ2jER27-DKoduHwc",
+        placePhotos: [
+            { photoReference: "AWCwydjjD6KwvuNUIMGeMlVr2SGUDVKsW_9Ace54FrUkTSDUN-ayLZmu0YQqwOpwkAW1PEvq9ci33EOm_XLUPkQSwE7D9n9CxBvv7ulhmgjkTwmdqxrLsRlK17FEhynaFxJoe3PoV-mF4eesDBWNXPF1rweKyFgUHrLRZL2Ir6Yz7mTmbT5Rrj_VA3ZyCGFAlGianjZL9-YywyeCRyB_1DvSDPbIIDxZStxTIbC5y6BJmZ-O_kNJLl1hkJfoo3YD_yOe8Tk4ea6a_4dLMbGO0algoLv1ZN7dyv2R55ke73vZ-1KB0DYThalJC_NOxL_ZlL0gNTrOPARdphGaP8pKwX40PVLsPsFcpqR9pUafKuUihEdV9o-nY45zAFhwENOAO9VrSAwmQHlMh_Eyiz8ObyrN7G44as2OJotcocug9XBNOGR_78oY", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114630409240959361020\">supria ingole</a>"] },
+            { photoReference: "AWCwydiQXowQdn5LGRLzUzULjwKvhfe3i7GD8GdW77v8H27OyTkwj6J6PlCBN34w5KS5Hxfty9nWQ_TCF_JkftDw53y4OI40SlN1FT6u_sihAIIe_gjk8rIP_6NIijJr7P8TShncotYwFYYj07N9bF3NhN0irprtIGnuSo0T10h-tAj8zGYYXg59jW2AHDChCO6yVWKp9FziDbD8FHs8ctTrnXXyPtFux8eu0pMjoodAZJny_ic9qi-Uti-iMMmyxC3KhqFMEDzzQHw7mkXCMhtUjPV85YIxrot1M3cNb2GI20bTy27WOvr7F-O2YjZogARSdzvxqzzCqKdbMNZh32_eXl2NZaWcp7UmYaT0KUdJf3rGl_Vmgr0ysWMshbDP7WAHjN_pVe0cOEl_C_lmM6Yk7M44Tk6WUJfgm0kgVVaL-7Y8yg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117870658377783377278\">E. Atay Tirta</a>"] },
+            { photoReference: "AWCwydiGS2TC2APrGLP_CaGA3cXSYGJ6f8W0PNAnQdfltr6hZUH8f4Za4r3-D__CMCupghVhA7R3HaTKCTpiniAdljWbDiREl6mdkiddMBez2wkltfI_y1khFz9QP5cI_qfWAhxiwnIKr1dp-SuAiGXDzn8w_3ABr79N7dp6yLzVUw4h3y4kOuTC366kegcE3kqMMpGoHV5N6Q1sTzGISCFRm9wMmVcRVHlnX3C2ShuhC80MO-QiZlps2qtJghG6lDBs3ozVZQXGUwgiQvaPa3IK0MmUpSyMK-VKqK2vnBZ8nI9caZln2DqQebGn1JeIWgCD_rr0V9gpk3jH8EUlZDMtFYIhpz1xrKfrfCETD0njxsPMMqWZhT6CTX8iYmuuCrVm5yhXNkYF_xhrSFZPfR-L_K2OGoEKKduMOqwzaEfYjwErJvU", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100904106037844640293\">YOSHIHISA SATO</a>"] },
+            { photoReference: "AWCwydhsvitUl-1MZA8Saayp5wWG22GCFMufdcRLIgx3I5Qhih3SZfTZ5rSMpC2_AaalZnwZUYcdvdlyuXN4Qn4nXsqxHVVvFWEBHtaydOtK2ymTgJybW5QKhf-6juxAbemRld-VVNaD1nJS63al4flzn80RxLyqIapmd45oF8rgLsZGtjgeWIhApU2IcDL7N9VZ3w0_svJHBSDXoxL873zE03YHLJIyOjVYnbx4_ECiEsL84LnuWBPJABJcu2WUqNtB_k_nlGBY_vdMcl51A_VX3Dg2Q5MGwEiCxssTUlXKpmMp598DnhvGuYzd31SlJqxYB3Xp3oRii2OIrgUh-9U3iUHsgjiImzkDnIsFzqwU6uA0vYDrYaukC-MjngyilV8Q7FnIcLNNNVHOU1-n3kw3rlejjVb83oZ8usHzy7Rx5UiiSVp1", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111623928885190124026\">H KNJ</a>"] },
+            { photoReference: "AWCwydgJBlfq-oWfQMY3YR6IkbwNE5FEozYjSqS9xvXiBfGsaXJs_u8_VhWSJMYTFeFve47sXtnhZb9Sx-LYnjGiD5aCV7jyC4nOWuzVpqFsBk1KgPmc_goKa491gCGgFxsWrskYUs5RgEneb9dBF88e06K7fJ4DmZUoR-v_QHvmxKrgUiVTIWVHyf3tIxEOpMOcoa2oW8vhyBTPRYk2oV2_RZRy127JfKfGv3YBzKFUdTW20YBrJbtP5oHnLu00aEf5dN4HUVN0Sv2HjmBG4flZzhxoQe0KOFXxhJnC-eNCqas1Im027z6435QvdNLA_bLIFCK_WR0rp4IHjtDfjFRMmZ_gM4I45eeyamUVy9haW_JacWtiuP-l6sedF5Jqxk5f2-QPEgopvbYjfz6g_4Zo4uIniubyhJDq-sX22h7SGFxxHA", width: 4608, height: 2592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104376997712637000762\">Nicole Yeung</a>"] }
+        ],
+        summary: "높은 가성비를 자랑하는 싱가포르의 인기 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["뛰어난 가성비", "높은 사용자 만족도"],
+        tips: ["가성비 좋은 숙소를 찾는 여행객에게 적합합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "5 Jln Pinang, 싱가포르 199137" }],
+        location: { landmark: "5 Jln Pinang, 싱가포르 199137", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://capsulehive-bugis.sgstayhub.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=513250409356443611", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9D%B4%EB%B8%8C+%40+%EB%B2%84%EA%B8%B0%EC%8A%A4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베텔 박스 백패커스 호스텔": {
+        photos: [],
+        placeId: "ChIJP4omoGUZ2jERrvHfYcgNp60",
+        placePhotos: [
+            { photoReference: "AWCwydj_lC5dRZYh_1lYi71OpZSLrBXfluwANYLoPSUPmzE0B59vksxjPduAYSqRKQ-BPaLur8PzJ8xwQVZU-5F_wzJMyw6QrOC6l0JMED7Sv23JCTI4HZxF4hjf9dX1AvCvuk9hVgg9AzmwjNsguNHf82_ejYmu4EcM1uupoADTfSyHkeW8PoQjAStBORTtP9qZA9nsSu96qSUkGSvQtrxFvnzHWkQ4OBtcN9ln7t6L0O_jwOwkN_GQKEEgYKP2bgjlD-qyGBmav6RUuB6ZvQJrpA-zalQsxHiY3OnyZjuC6HeuSb17tbE80aPFLGmwJGeeAGioAeTmGl5_wAWhD6QJk3luJ6juSOEyQwIpHDbnfCGEO7aIp5GqaqSeuVqB1QyzKQVxn6nJqHpxc4b4miW57pL7chSS5wxMDu3FKmnrdlmT_qU", width: 776, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110272201740859523364\">Betel Box Asia Pte. Ltd.</a>"] },
+            { photoReference: "AWCwydgCYlAUB1bnqR42XU0jsGcKyOZrKeUz4ri2T0Mpp0yD-yQC9V8CdpRPVY-QQElBga5s5TmletKxkK_LiImEDOQc4-TrpomfaYwN2wGsKJ_JFdH8jZi7Sawdg4u9XM7UxZuUka7M_mPjYt2yajHjtSW81XeJt9wuKDcMw-Nh7knmNd-nScHIqsH57jfMsDzT8x3fhhvhJjWSH55XwGagQcY_fWfV00xrkLpuX02qBKa94bcJPTU7jpk20ZADVgz6cqhMKEkIWSPdz-bGpyJvIx2BIje-pzBx6iBix7pBAstklnF2IGCgbMWvaXZyxs1VvLVcsUqJLzXlKXZMA31_PAoGJGfAh8J198cfEsaUasNnU8GP-A6lOT4vm5iWMkLw9QlBD-r9mwntEdxg1MqL3KpYBqX6roUri33XO0vrurVKED_0", width: 4608, height: 2592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110272201740859523364\">Betel Box Asia Pte. Ltd.</a>"] },
+            { photoReference: "AWCwydgIFcHdIo2aT-KHHyZznVdmk0Zx2Sn10g-7EhV-JIcC-SDt4oW8X0hbCbGU_P-E4C1lWOP1tqdxUC8H27svUmLViB4jMcW5Bo4yqrZdfYly5UaD3ShscvkMPuTEzLntId6n5377Gb8xzRwpezFXmxaw4QV-_114Xt-KhCqRi1H-oo-3M62j0kyKoSGHwMwSr3a9lLlS-Dhly1KXJlifzlDremstKeRNDk-pj1m1fiHzf7_y_ZYAjADkAltgq5_kKJlYhBG7IBrcGO_rYqeyVDidwH_xhSe4ZgayPMlYX-cumAtKuBSLT6LXmD6m5JAt1S-MHs9Ge-aWXNRpPZpVPOHRL2x5mMCjqZzRNEzVUOP3BM_P1t1JXXs1QBLguK0SWmsINMqFxTrYYOxkdLbI3-_LTGQw56Pocex0o7xjYns", width: 1638, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110272201740859523364\">Betel Box Asia Pte. Ltd.</a>"] },
+            { photoReference: "AWCwydijXCLXgc41H4LMrm1cK8wzG23TpsV3RNz-cVb-FrXQw0ihIMudUmzHpP1MyQ1D6rr-o1aClJjRtMqG1UIouhkFfBU8Sx8ikFPRS8aTpWe9YAN7KYIkjX3i1Aaayai5Nn0Ln-EX-gyuboDSMavf6Ma40rsyZ_DtXOK46faiBgdXvncNP_hFqK_xYoyP89ymiN8z98PsYx0ZGhKpGdR9ZcGJCNNLIleSuUP_y8Ox5YgUbOfkAW7BsSUBH8daNRPSDccEiRfptlrem8hieUpH7mztLXn5ARr9oeKsB3h02n1j6Owqq2oEb2tECF3f-Rbssg4qhJhQgDokMYa_ir3yMriSiNElkNTBpWcyoOZHO-RMFivAH8-cFXKRy9KurNiWCjbGtbpW8emHa6ygtK9xMzvKG2HXL_Q7Saa8w81Hqhbqog", width: 1600, height: 1093, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110272201740859523364\">Betel Box Asia Pte. Ltd.</a>"] },
+            { photoReference: "AWCwydjRmj7niIiyuL8MLHAURILacfXcs4ti7hpwzb3cCyd_H4os05PqVbJ72ShysO1FCGNWMjmmXSW5mEsX-edwCyQTGWOK7ZCSg7xpVSleEbR-lBHm_9L0Nq4Nf_VbtOl-2zyX9b6gVvFn9jbNwUgwzQ5l7eSoTZtDtWF6nEiSF_efzv60pNBkddH_YJFpZXKkzUq1nBs3HjZYx3WTfjtt2VAvAyWAvcyEKA7BDbUdPV2GUx4LJYV-x5M0gPNXyAuHR8ULYdNbty__RDoQO5AkUwKVbGG3dviRF-shpe3dx1KIYaRYMdRf8_R95BvlbEiMVSUk2E444hKoR0mKEDQn1katiidxOKA2CfigcuJTYsEGkVdCXMo2vTGZ8siNVAW_RXGUkpQ0uYrE_u47HeIRABdWBwvAZByhgkooo2IU6UXNfNo", width: 2592, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110272201740859523364\">Betel Box Asia Pte. Ltd.</a>"] }
+        ],
+        summary: "MRT 역까지 도보 20분 거리에 위치한 청결한 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 직원", "매일 진행되는 청소", "합리적인 가격"],
+        tips: ["주변에 저렴한 식당이 많습니다", "아침 식사가 제공됩니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "200 Joo Chiat Rd, #02-02, 싱가포르 427471" }],
+        location: { landmark: "200 Joo Chiat Rd, #02-02, 싱가포르 427471", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.betelbox.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12512985243958899118", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%ED%85%94+%EB%B0%95%EC%8A%A4+%EB%B0%B1%ED%8C%A8%EC%BB%A4%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스페이스포드": {
+        photos: [],
+        placeId: "ChIJ_-A6FjQY2jERnvzDEXW7hlM",
+        placePhotos: [
+            { photoReference: "AWCwydjCTAZgkg_MVMZMqO3qVIuNvKhmbjfv_2qCQNp-WX_nQvoDOt-hxYIidy8qbvnxBsLOsCSqOmIVBQRBvYCGP2NPchxUMhDawDt2dQ4uiTEkPKRPyfrSizm8yfylS7zXi2cq_o2XRkoc4OXBNzDSp7B_DoVmsSRUA8X3UEQiPrz3rquwpLkZdn-E0kpAT-w5IEkcv0bwUIhxCWlahzC5gReocbSBoACkD524MMFiPMPAiWkKdjfT74envdQyHyQW8R1F65qE7TBOOxlLfYoVAhDjrYZLwkLDdebfXBK5HLHM7oi6RMqP-EQoodZUBB2tHg04hoWaA_zbpmVlx-ThYbp_KiA4YNuQG36bJjEhw_h2lK-rIsaXlq59mravJJbKlIB6rBGAaTfI_jsoQ6GvR-Eq8kSTg4NRz71oN_3aW5I", width: 4000, height: 2250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106976621613437674265\">Mark Windsor</a>"] },
+            { photoReference: "AWCwydice7yC1ZuLQzGo6m68wOCjoptdf6GDIx1uIuFxYZhiIzCbw1occxjVuCmcP8pOFWuwCbVhTeb-u2r8G-0b8pJkHcpMLFrEKDnRwY0Uqm__GFELU3Nd0SWeoDlp74TGNXU_fZUGMpDr3txyI034LAVreOZguUN15HjhU5Dzu41ArqFyf6_ftRgiONfpOWQG3FCPoyjZT-CB5fb4-C-bzgS-z6XSNeTlu96Ty-dPNlbCEH6ieMVshWzoIuWJSUZFSufAa6opz2j01u8dQJHQ97geCAg_ZUIL-aa8k3fihwEJYW5QkZZdrCUJK_gi_tV-IfkkgJDt-t95awnGTvE3BcYaAq8jcWjjCMWx0OpvUgsvYxaIwH1STkDj3c00_dSLpCxDDA9fK7pfeFJ6YuYulXzXBx-iLuCMbHdslWg1aR8", width: 4632, height: 3474, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109441034333131831761\">André Gonçalves</a>"] },
+            { photoReference: "AWCwydiuNpTaPvtQjaQ5eiawdi5HromHBAlAVJebikZsOnkfRTysw2BwADW-1eopWIWtGl2n2_m9ZjIMPnf427zXnnVGACRxxOpW_tGfz_pMYtcXGQ-w1VZxfsxCf4b8Aq7OjfE5DkkSoGonXOZwsra6a9-qTJQHK2ZUMXdRTsKl4QA4eCgnXZl8EMHvQkNhQwtShcczQT-Njhaky_mK0XPk_i7Kdt5UsCeyXIegi-vm3qfMdoh93d6802VVPWoxIWxARziyGkwfte964gRwYHE4RKxN8NK-2ixc1nAKsIuu9wXykjru3gpHOomKQ7hzzUkNDviMkuyUqYLFnLkDxsY-UUYVmh8BHjtCb7j6oJIk6n-pc180yRTcxOI_lmpK_MObgsc5VrvE0ZSozTHkjxGqtiLaYMpwJnL26jjjjuDGpF8", width: 4800, height: 2699, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116398413352538417931\">Spacepod@com</a>"] },
+            { photoReference: "AWCwydi7qsrQvYhFofR6afZpZLKcKAeGwafYfS3bHQ3Y_1-0YsxuLSeem6F5yL95bouF-sF3y8eO5VPMr1DnE11s6T0uJNMrVorlp1vL1qgf3l6oPxy8_vykUeJ3yZZ62ml6bpHJNZ-bZT2U6SUFGb0eHoU_djiUkQVCWKxscPWzb1mJo_8C5E5A1CPyBUmkDauHKgdSmJxokWJRLwZ__5d__LwYUO0bRVJe_TyS-jXj7UP_5ra2VJ5ICCRNQOsOHLEbGPkjsVxTJmZsRtjVaWqIlrd9swge4ZraZ8jI6YcsfEcCju3heAfgBacwIcJBmhfoMICYSRXE3QPT2YXyuXD-UunMUkcttp1xcDyJzLdQzkYJEhYITSwsFr0NmZJU3TOlqn55SOzMQgchgUwkoQy83tPAXjEulxEkdE8ykN2V8H2l2HHC", width: 4800, height: 2699, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116398413352538417931\">Spacepod@com</a>"] },
+            { photoReference: "AWCwydghCC93X-OzE9JTbsreWtw0QtJNuD1iCzz31YoA8KCpquz7bWrDDLxpYiCPDS_FNRZezggrIYYeNqSvx0qg2n7RP5YUrIxrHaowxDhh61dHhF4XnXQPGVsnU8fDv8dVajy01h4tXpREQzfat8Nsh3i-St5mBg7MCl2sVvh-ARsnwRTh-gkkqAQ8yWEnH6oqzMi_-M8amT5xhPaq20uEEfcy-nRk2lB0dstoFzR-t61sRF3ccUGHwpSHK2bn6ankR9M-SXwxc7cBfLFV2wdkfZZvNyPdD4P2G9rAFQL7EZp6Ns5WoL4BpreQ5BLlVttD1Tw1PZy8zxYb9KwIB4ymw4eDdzUlOmeOq82IWAioJEeqoCCGtF6RR_etNVqTChdbnDo-uIPgcSc8xAFZQxrkSeS58piIdSTF0tNWEPCLWqE", width: 4800, height: 2699, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116398413352538417931\">Spacepod@com</a>"] }
+        ],
+        summary: "배낭여행객과 저예산 여행객에게 최적화된 깨끗하고 친절한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["칼랑역 인근의 뛰어난 접근성", "청결한 침실과 욕실", "친절하고 열정적인 직원 서비스"],
+        tips: ["체크인 전 리셉션에 도착 메시지를 보내면 조기 체크인 가능 여부를 확인할 수 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "6 Jln. Ayer, 싱가포르 389143" }],
+        location: { landmark: "6 Jln. Ayer, 싱가포르 389143", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6018704063510871198", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4%ED%8F%AC%EB%93%9C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 하이브 싱가포르 호스텔": {
+        photos: [],
+        placeId: "ChIJwUZKyM8Z2jERxHcfGkuJ2EQ",
+        placePhotos: [
+            { photoReference: "AWCwydhs-xFAhBztgDMda7ZSHtJwEGvIiFC_fQOfW7EzSJmEQ4cXzQmHWQJ-rqBgKz5xWOJluEcz-Ua1koxH2C-TWecqDqIusGBPSIZ4_Q7JUHAdR_F7K7yIHyE3Ko0uac5j_KBIC5vyOU4fUZ59ptyJFUt0WW8tSSlrElIWCKUPqkxaeY1jHhPSpnlXCVxCtnMhCDzZr4mClq1vhWIdEwZCB7TdbJfJL_y_cVg9z_LQxHcN08-riS7WMdyartbh-eHlSdoeDdzNDju2ere-4ChwJpNjo0XVUpxuY3pyoBcwFPadFMdrAjUMNnYl9aG4C4kwD4QkTrniaqsV3hTNT3IqlUDTQaqexD9kHqeA61D5199Z2nHAOr5LrC5ifBFuZWvbFzAD7wZGJGaN2DFwMMKmx2u27D5zmA21-j6DKZQ8XOw2-5dy", width: 668, height: 375, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100407582010392296876\">The Hive Singapore Hostel</a>"] },
+            { photoReference: "AWCwydil_sbufQYiYuWJzMvw33yqKymLaOI9xHlSr6aUR15lEpsN8q_WD5fAN28C1tuVfeu4aOA4DeZjtGQrrwWYpukgGbkkJyAOOgPZ-lRLuJjeT4O2UJEVc5gMbZhPm0zAQKDt4AiblpRk63AeDJAZqDH85GY3d64Q-kB_yk1UnPCeKh_PIgyhSN6TgM27xuFiVDZwKGNHAbA7qBMJQClN8cr6waGAfHs5xFU5QOx5sXrr_CNK6fjTwOmzAN5RvyBTJMIK1GG-6B_wJTVDkTUEzUe4WCZ33vF3K0tsU1kgCgb7po31VIgcjO16_vdHIy0zYSb--talblEHRSqbrZecOwBxWwXj-k9cXS3dFevtksv-oRf7npO_wInV4F2Ocw8nm3IbKKnU5fCqPn6GzC5yEXoEjFfvxoqwSaCU8yvFyPMKDjVZ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115673351152822460639\">Tongji Yan</a>"] },
+            { photoReference: "AWCwydjIG9G7nR8KTMoNKdmsAOrDocqbI1NWXVlJBLLd3X4NAbBatUSCRnLV-CClrUO022JZ8N2V16wZZDNXkb0sBo8EGcQeMC2AjescjCJDuyOxeV7YYoaWMQn6hBxeVNt5ZJP33-g8L4vU_M9WFUMic8NtxYXqsvKmeZbIAOth9-9ehVZkvXLHYxIx0BLwU6cYuBHOF9jZ8ZJ4h7HCU_TI1aiAthL0YGdBbvQjqxLL5Jd_ByVaMTzIrcBzjYnJms-bpPcHjTzOf5pQQZz-3_h3PP5Wch4Gk2jMFaZiKmhIipV7J_EScBk8LVle0Y-RxSzjW9XlE-mUBtxVyBFGFF0TsC6-GLhW9JP0eS-1BIPBF71g44R2s0wAHOAFPVkfUsPmhAwEYNf1qjhQrjBc9wZZ-QbRpISH2yED7Qu7_K8xuypzZP4", width: 4800, height: 2579, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115673351152822460639\">Tongji Yan</a>"] },
+            { photoReference: "AWCwydgogAm-8kS4wmww7xElec0TLpnlL_qPaMmxoWuzHnYojfu0v7LNNBvqIFwiX3Gie3w8IDzphcTGnFQFF3LjU5UwTUhJQaZ-I7dQ3NaVUjZ2-4hmSwbhMl8qgzKUAEkpc33GeywVNli49ArApU8tnr1vndRt6adrmSHIvd9RtyWwpu6XsIQCnAYfJadLbX4FcgW_0IkOyyxdEN05F9kRMbXAn5vSF-XbpWXaAa9pLtH8FViY26Wcs2wdrf8den_98WJtVD38dASHMZCZOeJQCxL00e8dnBu-S_ARfm4k5alSpGLw5O56oQE4VeAzEYLtqe7iaEZITTgaDXGg7wtruye9ZS-dpkhrt_p-N6zLFl7g5pc1e9p7GZWyUHpU7syxemO1NHVeP-xZUXoaOZ1FLXHlwK0ZteDt44hMYOcc-a9q6zQA", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105157820954605224495\">Hong Heee Tan (Jim)</a>"] },
+            { photoReference: "AWCwydgYMI-M-N1C7dEREQK8AyO4lQfnr5XoVsO5sPaQwfiYd2-z0bY2Mj4-F_HILWd7aiItkIaKGF_2TiVjmJPA5OpplsWkuOIkYTaGSLA0W0J4oobCJYi3mMCafAlf_rcCe5W_OknkqSuKWahDHCgWfXrnwzcytTuutwcwruHZ4_cqtfZNcZVz1vI4pZzoAHRq6gPah1pKx3UZo2gjw4Gh_RYLNn6q4FoM_pGmOpJdEHBK8qIn38bigQ8vGeZYgzszml15UZWpPCDUebvpWrl785oZSnMZ4OSoNPCk2-EFDGqF2xhdmU0lBEi-7saQJEoC0IASCQhLfIWriaAm8UUqQqiFWNV11WAgYV-pbzPfM334-SHUQavJdLTd1bem8Bd8Pm1QsqP-Gqhk3BLcU6aSavoeBSY-F8pXgPopuRV0KQ7iIQ", width: 4352, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104001548260440716860\">G ROMAN</a>"] }
+        ],
+        summary: "검증된 리뷰를 보유한 싱가포르의 인기 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["한국어 리뷰 존재", "높은 검색 순위"],
+        tips: ["24시간 영업으로 언제든 이용 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "624A Serangoon Rd, 싱가포르 218223" }],
+        location: { landmark: "624A Serangoon Rd, 싱가포르 218223", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4960865945202423748", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%ED%95%98%EC%9D%B4%EB%B8%8C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

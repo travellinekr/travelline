@@ -398,6 +398,356 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%85%B8%EB%B3%B4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "로마 호텔 푸꾸옥": {
+        photos: [],
+        placeId: "ChIJjwfWKIqXpzERYsn-qQI_59o",
+        placePhotos: [
+            { photoReference: "AWCwydjgvbZKODjswn-DZBAR1LQC31D6shNItTyUskTAahWXUHBOolhio0SuoQKw7ZwE2MCsKQ899OlaldsHu6kfLKPJORKEgVDGn-ayKeCSql5OxOOSKdSxf-tAKRLQyOOJ6RhEyMxRYhXogECUQDSSC5K-1FB_rPHbgDzSCvM5xumevv1ySb5-C_8pYvcrGQgIi69VT2MxMNdycvhJNk8kXZIOl4TXdQ7TpsmYCIveTHx1Mq-d-Hhe3k6Tj3QXD2VcNyXIOIc9j3-lvVcJ1Zda--wVDNaBCZ64IbFlRAfDZpQaIJMiEwKfjGQWdrVgDBWvCTTvO1G_GqeiS9LGYKB02-kcttWL3f0D0-4ZCLtLPO7ptmywzjAR7d4xUfI9SaxxKIb713P54Z2TRBrwcWy_l0c-rXZRHhwAvR_CiJIij5l5n7HXTWWSLOSJaMikSiiX", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102268148465269495042\">Dan Phan</a>"] },
+            { photoReference: "AWCwydhhlICJ7WQGOfukGFEVR_Xpsrsf39dd5jEGbCsKMWSthEjGSDWIMh3qe4Ujof8-f3MSy7k-bzRvKtssNaU-6u6VvcBo1q7m-IE_-BafjgtGypfHnc8RJC0Dy3O1Z8kswDEah73cE6DpQUZq3LBXNoDkRs3AVsHFGpEC4lVypG-rVKqqJVWpMrPiVNgvTgAW2kafC6frr1swiHq-Ts6dHxcWNfoYJtKkbxyQeSMRHjSI4NK0qhTiqG-y7tcovKhLNdBfBHpx7JzGlA8mVM-HdbDRopGNAaeNgk8S1eTCn7l55pNRClUFJoHPgSimR3cFnB8-knWeSrBdHPWHG6Oik_1nj1YuRpGF3QoEVuPYs9v9tHVSPNnMo1_QH6kNlReGMX_074mOAPHbwRE2xZ8blTzFTvlxfW_kCNlIRDcfQawxrg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115152650804724745048\">Luke Phạm</a>"] },
+            { photoReference: "AWCwydglrkY-a09BIvDlOnjVri6JPjl0t3nn_ThdZ8WXZ9qML3J8U_rW4mhlAu_hew5I_3UPuNfqZzgRNliJG9Ac0VIb3BgH2GmNd0kbsQh_M16Yti8KAbBx9UNVaTtjGeoP88qaSXGZ8zTgqVysgx8dBt5IaanbzioFTwdKX7fAqbstdCjzV49vxH41BqPyGQwVhwyH_g5qAFXM1Bk870nl39LyIJG3zJ0m3I-TWXFMhMCCf4cOaK5FI8DgKTfvqg7oinmcY3dbTES_z80P6PBTmLBMBoC6krvVnuxubVZFwTQjlAC1aC3TbJrgECOp8YHP2ReRRkALfrDtfPuIs8Wxr4-wWjgXVMwNeQ_jg8es_pXucmb5IOBsKQvChK839Ln-CXg6gN6Kc1NaGgtYruVJBDvWryhWxy9wb61JXwFvwPyEn_FdgWnwUke-htIyUGIb", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109868760637070769066\">Arin Myerod</a>"] },
+            { photoReference: "AWCwydhFLIhhVjJBVvTtMlKCe5gWYYJ8rQfZ0_XO7MunpEuDs8QAynQvPQBOgt7jclf-8DQquLxrgz0g4uutLlMiUh-oQnQWksgIEn-7F1sKTd0iQUBNmouNL00rO-Yt7wVaMwCzOm1Ph9f84eflSygJ2ksjslWxVE6QD9w4GP3t17Noxg8JDADyhgfMWCTDQpp3q0og-4bnbr6pHq3tfThZudrXmEP1JRytac_DlSxA1U6eIFHE7GoCBqB7HytED8Rx1MT1C9Q8qJgxmHAVp2j1LEBElgx4butDMnQID2eSAI9iS9neeId1coRh-HIVP8HeNJiSOx9RZKcGNuUspBmOoWMxeNNR7MlMf59u5qHJRPF2cp3_eyPINLSInYU418ZFvPxHbq1CuShyZ0g-KbSUDbLDBP34jIi15tXz5eCDR44iwT4TzRsMgrK-j4uteg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107167215125553522241\">阮金惠</a>"] },
+            { photoReference: "AWCwydgaS01Gn2FIONMWECKd5GtEiALZWLer69fN61jep_ioAnOAuRf_z1IsgzT6SdZwFYXJ4spbo_ypu4mN5PsjNodt2cP7MyNYQKgWQ7MRkCRrFpnqwf24x-EJ4Gcvo_vVYeYau_hyJ_bHiOtlC8u6zvYCsU1630x_r5TjQ83aRe8asbeIMBIMxZUHgc_AK1AcF-CjdcpgYNOzN8XeS3Gf-YGUNR1T9fzqXCBJVjGbAD1ZPYXWFmnHQhMScm49_wj4c_TGlq7Detrs0whWQ8cLmP59az-oLViphYFPNUDVjDaRhjoTlJUmwD3_0cZUlR6plwvBMRGoQ8NAM3y8y8fdjljcmEAiCsk5Q8t2u7rzqoSEGhWOyEIS6FEKz64WEfyaQOoYY8AvutZsU0S71oGVTXhW6NMvoHgks87uS9GMguJZsIqx", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109058831710835647864\">오정출</a>"] }
+        ],
+        summary: "훌륭한 서비스와 편리한 위치를 자랑하는 고평점 호텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 예의 바른 직원", "주요 명소와 인접한 위치"],
+        tips: ["행사 장소 및 공항 무료 셔틀 이용", "무료 지역 관광 투어 참여"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Phu Quoc, An Giang, 베트남" }],
+        location: { landmark: "Phu Quoc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://romahotelphuquoc.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15773645500562983266", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EB%A7%88+%ED%98%B8%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베스트 웨스턴 프리미어 소나시 푸꾸옥": {
+        photos: [],
+        placeId: "ChIJH58ibXKSpzERN59OMqttOUY",
+        placePhotos: [
+            { photoReference: "AWCwydh03xHInWGmVYdqayWihK_uvMNJb8Da50KKXqk-YP8T8zvEEk0oQWu8nCtqwqS-AaITCh2mA1-kkHTeRWE07XAnTMR7jGGuXzCsXyYamdbw4XDA4LNEPAmM42QcQo0LXyYmROeuyTqlfqbLrBlxxcvwoKxN1Y4vzKZ9Aa6DmmA28yzxbnxHlo1qwepMKsJimGA7gxcAJKtCodactfqsLV9nbv-_ES6pnOj9mBHpmwuSrGXWIK0IIbDOLRYcsfDIKYYTRtk3NzLn2WppGoH3a3FNYZ7-qNAQDxCTV-_GF1-sqtj5I9ilVhIBcXeskjuFybdN84vXoLd3VzusdZZncMMVU_2ob0epWF6XwFZafn-sqyVbBsFg4AqzUV5Hz-X7fgMK2swb70iJNAxr8mlor-kUSep2GER9VbtATFB-PBwbE2Ls", width: 4344, height: 2896, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104618840341867042660\">Best Western Premier Sonasea Phu Quoc</a>"] },
+            { photoReference: "AWCwydgwBi0yg7O6YZE9OW7hqHpgAO-MM815vfl973GsTiZJm-DrbJCcnngG2ZgcRoMXQOuKWGtljsQSWQ2d542X-5rFiYraAL0k3kFiUC69p50xvpkQ8p2qtex6KUvy26BD8LGRZMqhEmXEGUmhsAXcjK2Kv3pJuWGmvjCbLChqrNY4E1mh76Ccdy8O-D2HM-89bctCumwFxBV20yJLaAIBhm8ttncrcFOIuwKhSKJ_sGhucpGbfuczPt0in9VPnKZVdZB6RcaMdT1fGU5NyE5Zd3gmEYpsIwl-EREeImWCaikNmyi1iqMZtCaVbX0HYjfIoQ_07BHrNGAQixpcbtYhtIuag31vNItoFlBZnKeeKDbdLbdWB9rEqHx4NyFC71rEzdSoLdU6ZWlhB1xZpRamaomx6-hKHIe2D6E0-RW_ztH8dA", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104618840341867042660\">Best Western Premier Sonasea Phu Quoc</a>"] },
+            { photoReference: "AWCwydjzxOsJtjdpdsBu36kyFtv1E7rhCU_MoHzWzw-An409GUsZ6W8SPXUv2h2cc0MqfMlO5EQ_0_8ttcHMtKVGlEwCZgL_SFghLwhy7CRtQQto4vmCE6tQ-hdQABswWFs9pUbpaObxYuVHS6pqkjlgpNYpKC3zZ1-gmE6hC0eUaXdnuj24RZvur3VMlYsdZXNzNTPbBcvvqy6Hs3uhIDu37z9wfpfDQJ8BtxgqjiFlQd9xmb0yRE4rN8BlonaQ0ndM69iF5ei5uTeOt1cZVmzMkvp2FC9Eitqtpnp1CmCofzyA6EUejn30VorpfTtPv7lzsr74zJ_2geE9ZrvYS-JjCO7Jr9FTqW3FeOKOj8eesaZzUrp-5EVs62dbVTCsZXdJ5dvjvt6byo7wa-6qhpGz1cxmAYLR04eT4C_6Ofj28lpORA", width: 1951, height: 1301, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104618840341867042660\">Best Western Premier Sonasea Phu Quoc</a>"] },
+            { photoReference: "AWCwydhk5zEnS9tXK3LxrJBch4Z3xSM9TboB2flhFeZqPlL2JPI1ebKtYcpSdaAl0NR49mZJfA1B82YWeBu6uUN01vnj7QqAhFi1T78h9UuziCP_HaeeLtEGRliAMPGyZcN8z_prVdDW_W_KCEaWZ066lfoEoOJR24s0NY5BOyDKnd5PpCbNG76bfKL2Wphh6u0ZSidRNhPw_RfeBunEReigX8brmLiJhHt4mdDPPr-nGx4bke5Kpz5Q_Ac3scBWum45DLe1HyKULWPxV-JVV3zC-rTkpOHKUlTpUDis93c175-B6eIJpJUVI29xuiW7ujVhliXY9BOiS-TDl9Vat441_iwUJrcpaA8vexXvNs_pVTV_Wjljdhptyy_-k5GdbPsZEjcVk3XMWpwkYQ-4SMzCmMNCBugWS_flJJyEFUQrbb0OaePi", width: 4032, height: 1960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102130996433300301653\">박상목</a>"] },
+            { photoReference: "AWCwydjHvvp7AUkVuxpHXrSDI8veooaapDoVhpwaSjcmCT6Jxte2dfGVDn2Bma_R99Web4szIAgTeeS6k6fLuPYHTgFQZY3dcAAOel7kthC_TJbymPR2XV4Qu_VW8tPP3FSpki-poT72qfxxKZVBCr_vs1GLvGRI533673udx7VDHn_5McpOz7jgsKfTKm0slidsZqVKoHxZNixFDhzYj7tdUA6-wB-6cL7fbBv94lCnVyAzcsFtqSHJPn6Kk96LA0gtgv-Zsn3W3e-ICTxgcTiL3AVqh2fOzkdp5Rx7-Y4lMttYV4v8jQhfg5rpuHn9jcJu6hJfig8v1F-sgi4shD-UzgRMIVEEIwAgJxmaTMH4HW-SkMRdVSU9WXwjcvbO-uOFbcOiqj_s5YUntl8n0ql-srW7wfKu7ynftMIxoRy-svgBVg", width: 4800, height: 3169, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104618840341867042660\">Best Western Premier Sonasea Phu Quoc</a>"] }
+        ],
+        summary: "높은 평점과 방대한 리뷰를 보유한 검증된 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["청결하고 깔끔한 객실", "대형 수영장 보유"],
+        tips: ["젖은 옷을 걸 수 있는 옷걸이가 구비되어 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4XJJ+45G, Đường Bào, Phú Quốc, An Giang 920000 베트남" }],
+        location: { landmark: "4XJJ+45G, Đường Bào, Phú Quốc, An Giang 920000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.bwpremier-sonaseaphuquoc.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5060196238378311479", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%8A%A4%ED%8A%B8+%EC%9B%A8%EC%8A%A4%ED%84%B4+%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4+%EC%86%8C%EB%82%98%EC%8B%9C+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "솔 비치 하우스 푸꾸옥 바이 멜리아 호텔스 인터내셔널": {
+        photos: [],
+        placeId: "ChIJX5g8DI6NpzERD3kfpnZmESY",
+        placePhotos: [
+            { photoReference: "AWCwydhDXD_am-3G8b59l96M2V4J4FURqNQwVMTo4nWrISipXNsCB2putKUwSxVEpHD20C-rUlewz93mNqztFkZLLrHndCnphK-hizDFM2sslHkMvaLEeOyTLm1jCgcpSeIEQS0-TIyu34266xhJ8XbFaQIFBJZlSruNjTzc0lHO6tCcmzD3iv4QS9yrZdibrVIQNx4e1-1PBw0PajZPLMTAwAbhAfH-xAnQwQF530khVpuCUOpVe4Ulh-_-XGmmYyP7yPDTTk4g3-_gbGYJ_tuK58OfwWMmZUzV1gxQ_HpA0vfwIVKo128Ri_TR8oIhtRbp7TBWmV4jJR9Iqtm7fnrlSzaTwqmXAMC4zXdIlrFtZncmrJmyC-9SkM7AOqSA-a8UD8uXLRsGDUUEFZMA_tBxFRW_NguFYCWvNGGYRa5XTmK3tA", width: 3543, height: 1990, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100646312054364528035\">Sol Phu Quoc</a>"] },
+            { photoReference: "AWCwydhCaQOb9eaFi5VBqAUIINvezwH7S3B8d-V3sYo_c_bdwalXvttSuF4Cqo1FLoEBvIz0Vox9_vOOSP5ZanGzLvmexgr53GNJRM7iQedendKv4iB9XS2q_Z323CBlvX9CSoryY72RGofCAl86FVlfgaDDHP9kyOKKQzf_vB5qAAs5pienmtXVQRMOOakWKg_QblNXxagwJbjG0tWaiaUHVzAE_ydmxePWdwMGi5VdgHgeJeqEFMVCy2bs40wHdGW6_XaN0BvBpJyofr3tVEr2A2AwWnQOJVqt5N64Oea9Qt78lwUCRx2N3ibVmQKGTC3DQX7767VNkl9XgDWviZHiBVeGizCS10RUkVWKmIIlq9teUD83YNJ8jfysgmwSur7oXTW-OnmF5TAMWYA7wekkYzsNHFvmStTyK6uSKnIHChvl2Dc2", width: 1178, height: 785, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100646312054364528035\">Sol Phu Quoc</a>"] },
+            { photoReference: "AWCwydjkpOLTMtvqwDEdzCgLDUNy3s7GiOpg75jnQ2es5_o-1OVZDYYOUBSwYkb0-tZd361hPg20LbhvY1xyCpNWjXLcYUAS81o8HOD0j6uY9dESXNK-TWFeNiRcSSYPbWOl1B6FgynFF23Du4hG__8kWX_n2DdXp9L2Tryu3RtpkgIPQk6var-vfQx4J-lxH98YkJ23lL53jFnAomMfQ4JqdeIhlZiWvr3prWQPznHd2ds-p11ExLaoL3fBvaVuAR-pY3o9SUjL__x4a2nYKyoxB6EVb_wHwWhum2xtJDzDHugUcgKvVs0Xg6GCbyMShmQkLf6nlYl16OMxIl2BM6nqt9EB_PDoV7VH511ID9lrLKj2W1Ah4rysiiYawAw-vgQ1m2Uhe-vZ36X1VI_nzPDVUWfGfZOL_pMyzEpQsUs9b7fX5Q", width: 1177, height: 785, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100646312054364528035\">Sol Phu Quoc</a>"] },
+            { photoReference: "AWCwydiORh5QBa8fLkb0K7lCa6ZXKfBx_YtQVS-ezpYLfYrdI8Ep4Nl41rPMQKzwus2xL6DHKGLD68FPeFEWn0RnspwPhP1Svah0RxRIZWGDvjEP6SYwyEq7FANS8bY2pulZ0Wa7fHqetst-ewJ481Lb_s8F6Sv-V_H6vZxReJRSmxBkd3hsASyWnGexWEKAhBV7bdVlEy7oRnvlwItp7eKGp-msAUnPJjh0RyZOACupqMqjtrQOE3EsfysgSdfKS6YDo5K3nZTge4yiBWG3z-rJKMiTXxAJyb8mFm4BJqi_WLpQc-iXUqwEHyeduf-DfniNk8JoIyDj02RARWOlMtn2bLDP9SMeBtR0yKLhg6SJ6kh5Q9BQl3hnAcxo9a9LZ5zeAH6LGMeIEKt-BAf6QeNXQBcdv0waYD2QPCu8psQC6HMZUg", width: 1177, height: 785, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100646312054364528035\">Sol Phu Quoc</a>"] },
+            { photoReference: "AWCwydgCjjkqllKsV-MwwR-MaLaqB1XxIfQupAV_2-I7R1yGtxljJ_krPz7MnKAhE3In_KGy_QXTYKRS1oeGxhcokNr44HfET6kJec-gPX8QFkDz9_6cBJQElzlTzJjEJ4X9H1eolssr8GqP8zedF6NaLML9tq7h_rM82X7E2AY5-AaFeFqVZLkHo98xLEc4IqhoR0qry-_HFGCC12eU6-fshFwHm4xig7ClFVhoWT8o1V0e6lmbXiL4nNZDxaqgyf4b4IRExoSqdKZ7ANuSYSMRQKJR-mO0uFuSRb5c263k07FueRZqQlDVpZRgdGuPQkojKigJDrPi0u-poQqn6rh1kD3RJr1-ogSxKecm0xITS12DTUcr0mbgZ7ZM5jIIVx5AaeM9nzkv4NTZhIHnv5JtleKEDaefx-NEjQnmkwyFejIfU78", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100646312054364528035\">Sol Phu Quoc</a>"] }
+        ],
+        summary: "우수한 서비스와 조식, 다양한 부대시설을 갖춘 푸꾸옥의 인기 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 직원 서비스", "맛있는 조식", "전용 해변 보유", "넓은 수영장"],
+        tips: ["체크아웃 이후에도 부대시설 이용이 가능합니다", "해변의 선베드와 해먹을 이용해 휴식을 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4XWG+GPF Island, Commune, ĐT 975, Đường Bào, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "4XWG+GPF Island, Commune, ĐT 975, Đường Bào, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.melia.com/en/hotels/vietnam/phu-quoc/sol-phu-quoc?utm_campaign=google&utm_content=5753&utm_medium=organic&utm_source=directories", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2743086307824597263", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%86%94+%EB%B9%84%EC%B9%98+%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%91%B8%EA%BE%B8%EC%98%A5+%EB%B0%94%EC%9D%B4+%EB%A9%9C%EB%A6%AC%EC%95%84+%ED%98%B8%ED%85%94%EC%8A%A4+%EC%9D%B8%ED%84%B0%EB%82%B4%EC%85%94%EB%84%90+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베이기 호텔 푸꾸옥 선셋 타운": {
+        photos: [],
+        placeId: "ChIJMyqQKR2VpzERXLYlE4YjtZ0",
+        placePhotos: [
+            { photoReference: "AWCwydi_Bt6yZ8DqJv4WMlaQoNJzTfKTl_UjDIwvAalODz7YRTRVHvctaGTfSostk3TXr5Zy_QynYUcP7Hhj5JIMKvvvJZjeQ2FASNqLK7tQWDKgruRsoSngsbdmZPPRGrPw0bFvBdksWc4t7_5XGZ3gSnzk-31D8HxViaqm81sqekmOSk8PxZf-B-SUnM_-ms1W5FmlP4wVTx6Im9rNWGQ84bCIP7im_V2TQzs4R9AKl504NS9RxwSkwfZKaykeX6EUc4to3WSxyq6qYvroKV-45FemYKp7xiBdUg1tinMou4L4xWZ2UzgihmXZwkDovdN1DtMQlT0zFbPMqQq_o7bWX_B0WE5dsoRSnlNOEDeUenIxkYsAbVr6H6U7wRlEWkv8KTxySBejz4LPYz4HxFQLvW61YHFX26lprnSnx0EIznmY28Lwq08nbrB0ecYMPh37", width: 2560, height: 1704, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100225058551490320916\">BayGi Hotel Phu Quoc Sunset Town</a>"] },
+            { photoReference: "AWCwydgv6O9yLbIAE7LnYAfK7JhchOLhRfIRhS09yJFQP97JZ0JkXf76w9lJXLr0ZrLakvGpWiczwswn3eogmDGbP9WX0w35hC8KXZJYl0bZ5Be09yGVJ_4zGXslguzcV-G6qJJuyE4aQxJi5Dja7Nvz3g4mCHTtpIwHH1hE_HGtwTugpFdxiJBl1IeSkE7jvVJ7w3OPQ4S2dP_2kS0pt89Ku7Tp-a_7Yq0KPwvFlEAOKkzppqzTBU6FyE8ehCRXnDkcL8CBu-CZToCx9hwBR6fvsf7nRf8Sfen2TEZe1wryMIG5DWcWNi6k33kbay3iHiF-nt_jJqkd7D7Xb-TMb3P3P9kEhU5o5jYwCaxKet6h6E6h9eveYOIwSyKclxI_73b08CEod7D4NTH8cciBYKWaqxyh9zkvRORJm4HE95YuFMcCGMNwxFi4FejpD_9WZ6SY", width: 2560, height: 1703, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100225058551490320916\">BayGi Hotel Phu Quoc Sunset Town</a>"] },
+            { photoReference: "AWCwydgrxh0Ow5GBWYW9i6-dIEfFRYuEIZ4zvkfbD0eQDP1l-whlB3VHIs2Gd2ZcyT8BkPPPhhTE80qB1GP3r8paeUag5LH5YZtRJIm9JMQ2wI86pDmWDT4rBvaMtzHBrBvM8MBnG1K7ryaFuZVnL6Ljr9KZKfBsBxu6y5r39q6GSzaGzTLJ1l7Jo2xmXwoxuuwXKSrhZUoIigXpHqaKszfMtyGNmVlUfZ5GtplvTkGxbPVZpMC_l4jRo3eA3LHDgCNXExHSqZg8gS_F7zPqOXEQTYyHOS30VYMscmeLKjb0b_axIlR7IL_A4HaX4D-A_BHMl0HWyk93UIvansTt8iggJl4pYNkZ9x-rD0T3nGl3m8jSaEVShcy7vIV2Urzk56E0q8Oam7dyDd-L-gLwabd0Y453RUOtgDCobuTfV8eNy0sb7o73ij3BUxCz95-fucSc", width: 2560, height: 1703, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100225058551490320916\">BayGi Hotel Phu Quoc Sunset Town</a>"] },
+            { photoReference: "AWCwydjuiMV6l3u0SSu2LtsHNju7eJ0n9_HeHAcBeqXfF-Q9o4NLLgTxWL2TwNu4girqYhhJM3LDlRgskTFmRmRNIHb98shdtwxUNM8-hYrJzoWEL_FQFnwUIlTFCnzARW9SDx-ljXLJPYiAzsk33rkIbn-Iu7mo6i8eomG3ysVrcHgWBsHjMgYNWYYW6o4_Ie7WJwWD9332PWHiDJLGYm7Smk4obHyLgZcWKdxHSH2cA55lg13mBt_V3WH7fvk0c0txGUB86VoVCCmSeLbzGjz1DjzNSWFuWS_zd89Vws_oRl9rKi5BH3T9c89I9V1pHv9skRyARoJqarD5ORvXcHV332SolTmpvCRdhZbukpB0w81iWCYHeLYFHQfBIGl0T5S0OxTar-pxhbLVlqpzkx9fCYFpn9g-mYQAXYr4Kng6LhRzhXm9V5TcOCztGxnI118Y", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100225058551490320916\">BayGi Hotel Phu Quoc Sunset Town</a>"] },
+            { photoReference: "AWCwydgsk2E7gooYMgy0NXYUJn5BvwCUIN841WTRlLngQXhf-pV0cFSiMM1GPj0bHd1HpEay2UO3zRitc8nINRvjbqgOUKqP3yNt3bc_PeYAF5r-UaHvxnxq_ow9PcFHUiUXuMV53G36AYMPHPFtJCU8a5istk9EYfwlezGNNMDpIDVLqjnOOY2y8513No8L3NOL1oW-QKphR7u8B4F4ws3m0eOf-sBl3Ix5mSA4sEVX7ESIvrT6eUbY7XDs22vFwfkhmvnzBp7DQsOgx7jwuN2pVNdpflCRHB87dvSXTqlTXMoyLDeHBnpcEaV6H4W929sqmPAEQJXwxhw9SAwL-csv5lW-sv_wMBuCwmOh9mDdhtfFF7PLnUJb7Zfy1p4aQMjzdg8Ik-gfYu69pA13NTvdx4AroXmgP4Gan-vdBk5VRSbWUK-_1VYGoRp3w6ShSg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100225058551490320916\">BayGi Hotel Phu Quoc Sunset Town</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 친절한 서비스의 사진 명소 인근 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["훌륭한 서비스와 친절한 직원", "관광 명소와의 뛰어난 접근성"],
+        tips: ["주변 사진 명소를 방문하기에 매우 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Đặc khu, Số 46 Đ.Positano, khu Địa Trung Hải, Phú Quốc, An Giang 92513 베트남" }],
+        location: { landmark: "Đặc khu, Số 46 Đ.Positano, khu Địa Trung Hải, Phú Quốc, An Giang 92513 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://baygihotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11364028293493143132", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EA%B8%B0+%ED%98%B8%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%EC%84%A0%EC%85%8B+%ED%83%80%EC%9A%B4+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그린 베이 푸 꾸옥 리조트 & 스파": {
+        photos: [],
+        placeId: "ChIJbWwp_zj1pzERg-_J_57c0UA",
+        placePhotos: [
+            { photoReference: "AWCwydiXQ9yB7VX2osI_02iuL-Oms5daZYLLIsgkmOiIc0RF6gSYEPAgjMakCciGS0glU1Oqfk-Nab8Fov1VtsI9UdSVkJNTVT5e8A-PGv3X5RZANIixMRWQd9fQQK1tmeetvZ8zDLGzPDEjiGEax5O2QF1Qv2GvkEapwrOIKw6cM9CZ3dDwdYpEkQmY3O8uGp_SihzYOtIe2vN2Hwh127UZLxAmK5g5KO-qXIPOvyHQpOF50NuceA8c0T3jVcrp2j3mNOIsAmd88pV_blz3IggKzAGbKeytococPmo0-846lUHnh_l9Zv9kjvpjC-WZvKz5xuTm7UxzlK_nvOZZoTX0KY87OtZr2VGJerZa-3CvddliyzwT1xVUDyhv6EZlfVC35n_F1bt8iPG7LKEcUZMouKZv4stJ7kCf1v_DYxjAdEQbiNszhT4Aabi1lU7lbw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117314179568331579440\">Green Bay Phu Quoc Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydifCOi4azeV7H_cfvzSWPDT_yML8DLAAPER95ebs0oaGGJyLr2qii7LmpCHGg9NO4uApwN-W20mPD91dyg0GmRO1DHPN-EkhlUIDOOXl1yy9F9Ui1ITc-nZtTggWnvf-hZ8sLmdBOaGSVOnCTeGWIxmsj6__gjBDHZ0XugpPYerFrSTHEzvJeE37kwKmHksnXvelvS_1DnWxGhNUwI5IomRbKiGAfVaCpupvZcY5QoVm4N03ug_t58W8y-015JM69RAz-3Jy7EMCGx7bqTKOck8A_2ToKKl4XBitO5HIUurcFuEqYJbQlOTqGr2p854NcFPaAdHfAMRFNd3zcieG5dbnuqdLizvGtzpCiDvpISt9h6EJsJhjp-GPDqlTrzvaFTMRoZc4-raYfqRKzfGuYNwWan75Lq1Eqs0inlTpU8QN2Q", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108830863690889429428\">Werner Grohmann</a>"] },
+            { photoReference: "AWCwydhaaDVOmoi5x7d04QkFXu7rxx3k-v8GZiwwemDfzZxzdPAa1UdlHhc0bGQQXznDgMw0AqNRz4DJn-JEoyocOQXxmiddSfe5Xwpj_uwgRXAd9vo2qe6nABF24IOlSIw5d5qtnQuI1-gsNNOjXFADnTHD1sFkyhvho18slI3MUTSPs940uZhXU7zs-lXZ8WbRSE3SBxrnimVTxC_BRTu-h8PCG7mFSzWw-q_9etATt6-0LJ9lsxNXjZtBj2FQiJcVTpFZEpoEAcgnBDa6df7tYWl-2Xg0_rahzySuRvPmGIvEqxtyrQIERFr1FpvkB_9EB_a6HrYmUeK7U4HS4R9PEF32wOj3Jujt_etyUVprQvk2Va5Jnu4kOlPl5kRYMENS4yyhz3khhS8zMlsiRjAdRF_O9-rcgaOnjU9FuNTZWbfJOHkVdCc8uNzfZZrY1w", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117314179568331579440\">Green Bay Phu Quoc Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydgkvCw_Czfud0F1i5VRRS0AVUY5WfW3N7-vHD4LQXhrgDKvxQ4J3Tuse-ez7nmIHH-LNwktiadZszS-KTySW8vkR7KBWGV3HHDTXZ7AV1m77QK_dZtNMOYXxM4RfLehqZfbmnMYi17mNPjzX4FsuJTDxgB80Sey_HPkF-VZp8Rf6i_akg6jqORCjzNLKmI7KYhRWm7EpVhShdEH0pUlaD-LQdWoNOV4VdDL6QgN_H7CXinxJGGA6fozp_VNMeNNc7yQ2o0lI_OtkYO2wFwPztN02cLJ97ZJfsIiMqf7j-hd71khLm7swAdQQa8toyE2vRwySdRjHddyA43nzIpJO5CxH2Z4lIB-jvwRm-ouCtxFGbpgeOrLUtP6yAxftFXjnNEiG_JbzKOpMWCJEyN0aRMZtoGPTooNfwgsEav2nFoy6-CzdCncybr5E-Nm3A", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117314179568331579440\">Green Bay Phu Quoc Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydhdX_WzSiiSh3IzYEw_hZaVFuOfz-4PEaUaqWLKS8PgDsWbysb9qpTebjN9fWfRFkXpNaXBz1B1UYG_-8Zz2datBP3yDCNMyyNRwqFl7oPNE2OZdG2zZNDVta6dMELfCRE0v5-u7VBfJiel3doPPgPBQZt6LhJ2YoCuP64cN0QRvgH5yvuRcM3Cr-ZLs7QfV4TXNkh3lcsdd_OTLRX1NNnRHQk96nkeKc_xNyB5hJYlwFRQ0ulbdZy36iXWQ8-dMl1-uwPlFD6bwGMphlvQpE5KsBGic1tLJGaPg1zEGqBCoXxbDZYbQ7LNFUtg6qSMNNmzxd-CaL6opZOnWNZZNgzSTliWhUvlle0uqgbfbNVkant_QWtlnjk_wcZgUerg7GaNYdrQ4U8e5SCCXtimgc23WSa9T5-QF0KdMJmJRhZmTwP1OcyM8A5vT03NE9bV", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117314179568331579440\">Green Bay Phu Quoc Resort &amp; Spa</a>"] }
+        ],
+        summary: "정글 속에서 즐기는 힐링과 최상의 서비스를 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["정글 속 아름다운 뷰와 넓은 실내외 공간", "직원들의 따뜻하고 세심한 서비스", "무료 요가 클래스 운영"],
+        tips: ["오전 8시에 진행되는 무료 요가 클래스를 이용해보세요", "자연 친화적인 환경임에도 벌레가 적어 쾌적합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Tổ 1 ấp 4, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "Tổ 1 ấp 4, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.greenbayphuquocresort.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4670756864014282627", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%A6%B0+%EB%B2%A0%EC%9D%B4+%ED%91%B8+%EA%BE%B8%EC%98%A5+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%26+%EC%8A%A4%ED%8C%8C+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "프리미어 레지던스 푸꾸옥 에메랄드 베이": {
+        photos: [],
+        placeId: "ChIJn6kim_SXpzERd6rlRMQmpZc",
+        placePhotos: [
+            { photoReference: "AWCwydgTlUcbMMdD7lHIXxWFPKneoxo33Imeqskj5qle_E3xYac2fnXLM6sDAzC_9ih9DMy-8hKJyAxc0tscF2RFpu4p6aYhJDpt_XOdqvr5NwPlcJ5pIdh3Nr7U3tkeWPj99Vdu-euTtKcQ9aNMiMW9cyqg05Ukwv1mLV1gFHznjBKMK0Kyu-nlUcBH3MDab-V1bIAgUrNek1rLBLTWl23b6YO6RZk_Ue5uR-jVM_6VdXdd5vJ5ktAb7UEdCc1Ar0NOzeQMuhlhI7OmpmtLUwVjXZeRR04uQeLTTAbOUMTxUny_FmDWt2isHKjhHEwvgxKBU4IIiBWEC_tkZWPxNYNAE4mvRAS47rie0Y2wJa7QL6OXhseukUscZOx_JSOI9V_FLd33hkCuoZygSwc6oqB6nTKlxrIDcHQZptw3084tS5UQSA", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103408004239303040558\">Premier Residences Phu Quoc Emerald Bay Managed by Accor</a>"] },
+            { photoReference: "AWCwydjiZrxx8YcuyDa4UxiBvEzWSynYK9F7CoKA99zxHdjDfQ_yt-otXLGzWDS_F8nwefcqVabps8gqTcDLQlbuXMGGZ8D0n7wTzigMF1FZ24k4zZS2B_rWP2X5EUxbkruGGf0-Zs36e5xJXvX-upwCR32HTDh60V-HnEgbvFL7Ns4iCx8IM9WTqU_NB14FBiDo7jFG9F9FS0pdn2qe0gTQvg7JmLD8J6vMYezwXR3U9sXkDecGGK8lR4JdiC40NpwksWn1dehZlQc8aNlPwHVbjtmOzBahY1NK-pgCiRQodlo_hOkWEe7CkLabm1dFQna-JlWMzSTcihDT_F4KtzyZJz_yWvQsWEN0vvI4LzSohvhPerpHXaStIRTK32JnEzPqMEjENOQHijjJ2TyC3Xj9IfxjEo_wLYaIC8koChTrxCnNf0wH", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113008579654710453113\">Eunjung Sim</a>"] },
+            { photoReference: "AWCwydgJOGSuaG5ACMz03JF2WlkqHT48528VGibN29ybZje7irXJhKjDov9uIKvn_RrZHPx_s2xi46nY9Ktlw6Lfd9chkbl9SP4wCHuyIbIIcdIEre9DY5VzIMkXCV5yGDN93aB7ab53E6nAAoMsms1ZzFt-4NZm4LD0L9RmPRpdDBSkSDfxpLxrBBkwCsLO1FJM64EWHT2Z0lBwpAmYilGi0hPt279i_YEIOBQY36JwJBYgmUYo8cZhz3t621U63uqDzTHIbtxUhz7LL4adUjZrWHLiEsi0RouPMR75-TPOEEW1BPC19-Yz3VJyl40QFQSoKsdRAM-w6POvdunqkQ9e8uSPbLkCGhTJ2PAt4bf-i5wBgUGGoijEO2IBx6DY6o8mgoreAfJnjpFqkXWlOAYEdjmfzlzGkf4SSayob6-kCttkzfHdX8YbNFRTAEe0w-Nf", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118254112159984010942\">蕭延霖</a>"] },
+            { photoReference: "AWCwydgrwCdm4IeynlZcKxa6ID5nQP46pnc8iZMyccl_xrc8ukM_oKMKhf-IXQHePeI4etQmIAcG-1ObLLRZWyyV6UoCZ7vo9ZrGlIg2WRi_yhv94QX3FVlchLxDjU6nOl55UedqwvEWqVhIMLLh6oYOyIXPT3QtOB-6vqWlyNAe9-lKHNknd8PL0S94LVK7JITkpobbGf2SqdkYx6kQQLMV0hRsBb9rjNhFcw4jYhiW9ug4i_-cP0_Td_94taQASFlRJUTMPjyeT3Z9OwPbeXmk3qM3pwpoElz2k09xeXhA4lZdVn6Vh2c6kZ_7EDu6XPXqje-8vzDLSAlCgtC9gK4E4y_8ue1qe5u0nlhKsUpq0abPfeL50cBVjiwbf3kMs9RQOO7OizWsGXoRYaBC5d8-Dnv2ajru37qULk3AoUx_SfOGJHc", width: 4775, height: 3581, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103408004239303040558\">Premier Residences Phu Quoc Emerald Bay Managed by Accor</a>"] },
+            { photoReference: "AWCwydhQTntvGb_cPhEDZDi65xMeIyZv05KZeH3--MTFEuvs8BRtllfUpKxCs69tx4YEJ0SQ7onfB1jEX0IPDUaNlef41xfebvVmF5cwfyhmcq_WIsFw4Kf2_zARlPtlLrjt4hhdfscvtSbpV94-9INMCbVMlD131OlmZsyt81WVoLipSvGxitZKlVGH5tAWyOZDi-9oxZa456xPJwNpqfzOE26vGapfhzZNAgRGrISf3jAG3cWMFkDZFqpPvjphuZYScT7Ui1Chm13MIICogxOJn40wvxi07jLSygQSoR4q7I2d9XZqOmP3CLx59unjuHKx7TbpRGnjhUGYN75o-GNFbtxJcldQNbhU_Ct2DkfMlntiU7JFqtMYpPBIdZTVUPx1x-d-Bzc7gqPs_h_rXKEKcPqPK24nH2xQL_jFEo7fCumvyg", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103408004239303040558\">Premier Residences Phu Quoc Emerald Bay Managed by Accor</a>"] }
+        ],
+        summary: "높은 평점과 수많은 리뷰가 증명하는 검증된 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["아름다운 해변 뷰", "훌륭한 조식", "친절한 직원 서비스", "편리한 셔틀 정거장 인접"],
+        tips: ["에어컨 제습 기능을 활용해 실내 습도를 조절하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Bãi Khem, Phu Quoc, An Giang, 베트남" }],
+        location: { landmark: "Bãi Khem, Phu Quoc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=B2Q9&merchantid=seo-maps-VN-B2Q9&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10927182695295724151", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%91%B8%EA%BE%B8%EC%98%A5+%EC%97%90%EB%A9%94%EB%9E%84%EB%93%9C+%EB%B2%A0%EC%9D%B4+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "코지 방갈로": {
+        photos: [],
+        placeId: "ChIJlSp1jmGMpzERIOX4LfnV9ZA",
+        placePhotos: [
+            { photoReference: "AWCwydifzXAGYpMgVRlJZ4J0OA-aVYlgJCgxyjPUb0CrMjRrqLhEAe7yTKoupAS_ATfW6NtbGKdfhhR7OSUxYocZ6EIICfrG9Lr_XaHyjx_wKJfmEBnPAhwd1EHw5O9rAcFqV4qYl097cw2JU_wAMBl72yd6byR4403rC-6uF6HwqWo3kV0UO0GMO7XyIUh1lUL6Q3EJ5egjjWlnDfjjy3PE6vZ2lb16FPrFX4l8QXxzXH62-lPb8wBajPjXPMshfB5INOCKr4F7aTCf47VLGz0ZHIBPcS4eYbFrdwOs4bzB1tsR2EKx449UW-vLxzMKjQo_MeEiEtaQygHU7eK3-cnM5f1xYSYFIkXfecEFsahaYBwN96C0FcWCeFFVZ17CSSDLPHagD6RO9T9wZPRTHx0XzhxMHWWeZ5B8H8931vvtjvRa_egX", width: 2220, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101382636795241863099\">유영현</a>"] },
+            { photoReference: "AWCwydh2ClJ8G1dJhu-kIuBlJAezprqYIsoJPpb94eihMxNcKId_9la6TaASqCID7H-vLaBrrsENBJi9-RcMVTg_bMW6HRzxCciOcIWunP850QR9WBWCX0NGxjPaxACi2mM2tI-tQgTFwf65v_m0qI5_5tBJVhflqMZT7FLMOYta5ELax0twvCKrNF96FVKCCwe6EyIIOOEDJBHM_2AU7p0OVRYJ7XYI7VMbDfnn5NfWNAzDU47vO2Fr3J5JmHlr1jYoCk80nYmOOro7jXglu5rlAC9w24SSallW995WVJXOeJUNQ5aouDWJOZxo8jk_srDcsShNiNY-YwU-rObxhj1gW7aWvgXy6OzJkGqIq0ADwLMFHx8EshZhXlzQsOj2Je3H4Hcn2csRV5Sp5_zdeVG-CasP7s9fyhzwzALiqxHeeqbdXg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106128749300766270015\">KOKO K</a>"] },
+            { photoReference: "AWCwydhqKccU-1-mbdMcRft8WK_pYtfFR6KAoYQtSjS7hp9Zgdaz24GDwEqSz6aoQt6RbE5TpF8f34IfK5hUMwQ3QfyxZuJ82T7FlKR6prjkfENL_q_P5qnH-t4g39ttSD-n60OGDG8lnuyjdOeZLdbNl0VwolCE3wN1Tgk6Wycn2MDJSplTUzDJOJdi_mTn6saRQEgycWK9W-1o-V_YCAJ04DeT1-_CUW4YHrZ_KkgSI47iw8wEjYvV5bkwbVDfPDpGbZM6Ge7hPZABxYBWaGezsxpNhMjaIMih0g0M5kmZ9ZtNVDthMRakyCPoYEfvOOes8ol7-HP9G7K8MZ4XDQJGGbTOZ_WbGtb73daQ0Uy4BRDYnSLMB9D6RUAF4JW-5ByGKwNL82GTw9eteXjXDdCGo6bYGl57lJKUpiLMsWfcaX0V_w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105601382587949228653\">許武德</a>"] },
+            { photoReference: "AWCwydgYEAeuOLoQuOvGZu5Rz_Bca-XTgXe5kmZRgBS_r3XdmowC_jgq7iD0JOwzAgBWI31l9Mjj9BYhabIX_fNPYfIm5rQFedssAmaQxWnW3x5hTAgjRLfjMKAlLk7Ps0xrGD8gIHV9yx0VZYZt_lHQGhZSPNjuq_KvgKeyVGoSSRHlGmYq7n4yx6aIUxxAlTfa9yGLZ47taB2TQYyukpSkzz3JgI3blbio65E5l-yYRlJqsrkSitF8uPi8osJTWfJC9Q8gdbDRPkL8EQIGSuwKXkOLenKk5eu2b4XNwhTlpcFYXtb27Pr7F0W9rrl_VtFuPkqFXKYH-5y_VrW11vg6nyPManQHnxUCHolApWIXEy1iLNg1lxOttcx-aigk1NpWM3Y1ceiH8tvy24TM-Av1hHkuk69EPb3PUm8LHKREpFM6vlXX", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327600490984358924\">주허</a>"] },
+            { photoReference: "AWCwydgEcLyJRtZMP998oZdHJWS8fkxm-_Od0pQUQZCjUan7jmXKRQ_CjOZ0dCJr9bItq7ug7Uv3oi_HKVEeOKCOZA864p_nx8QPwkhADJZauhw-J2WQ8fFO89nFORmEvgX50XvOBf3acZz1TLUz8pqkrKCV1IY5RnX6EhUtiiHAvrjcmdGqxnu_NI70lb4z_g-wUmGm9BBX91eAgpE1hevTHp5L3s2Yx1C7hH5Rpf-Qs-OtpaA2t1Fo1RAyHImWm23R_SO81HtWcxfAXlqx1ZV52flfvB2PVlN0RyMolQIt7L3pAoBXMQbiCJB_H7FUPKY2eNlGLV3Feq04VO38TiYJqamp3HxUHSj-YQqc0uHhUlkaq0PqGzEKGQBRNY7D1nvGJsk1Ehro3lGIgyQ-4QChojZZkqigs0vXXAyKr9ULWN5mjw", width: 4640, height: 3472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107371339053845462609\">Tran Minh</a>"] }
+        ],
+        summary: "높은 평점과 상위 검색 랭킹을 자랑하는 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["4.7점의 높은 평점", "상위 검색 랭킹"],
+        tips: ["실제 이용객들의 높은 만족도를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Cổng chào, Đường Trần Hưng Đạo, Khu 7, Phú Quốc, An Giang 92000 베트남" }],
+        location: { landmark: "Cổng chào, Đường Trần Hưng Đạo, Khu 7, Phú Quốc, An Giang 92000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.phuquoccosybungalow.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10445490176950592800", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%94%EC%A7%80+%EB%B0%A9%EA%B0%88%EB%A1%9C+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "퍼시픽 아파트먼트 푸꾸옥": {
+        photos: [],
+        placeId: "ChIJp9cPmTeTpzERSpgYyix_Sv4",
+        placePhotos: [
+            { photoReference: "AWCwydiTKloYqJRhszgK0W8JHBmnsb4SKBmGNiPaMdxYWR5VFmjoam_IBhC3-OrJnUqEaamsB6xoXs5SGVoHqL4BIGfxV22lJR0PC6i9PpUloANIONU-zsSanBdpwb9JRZiRsBv6nqIceUga_pVqROaf0SU8RGkmGoKm9Ey8B07nv8ZRRIwKLKFKn_PYGkhugPhtr7tMt8XwOmW3ZtUYFhaVwdAWDncmwNsS-IV1jn9abSs0XESfLC7eO1iGUeHuEHVc6xd6kCOou5cAIJICjst-CMIe_Gk-Zi4cDUe-V7v0RqDrKNX4RTn42pLjjXukE7eSKvmTfVKbZJS5lYlsJpPJTbVFmlutfoi63iXW0lBdmW6rTckSF-1s8Xmda88ZIvT0-S8HTmIdyV-UrHvtBgdTQrZNylJox6-xXo6HqozNCjTm9s4Z", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109657526394103009634\">Pacific Apartment Phu Quoc</a>"] },
+            { photoReference: "AWCwydid78Hwocqjezt2G8FAi9Ekz6Xy9Y16Q5DXUYo6wSqk-yTPvwK5ppbmnn6HbxbZHlovF0QKVYlAW-mOtrIsdbeKs-jM7OUASO4mo2P79FP8a6XQdzIJyR60wKjO6zMD_12K9TXcY1N9B-nfaWrNX9JYMKMu2AMyHrjDlTcdfrx_Lzm95YOTWBWwkXNMNp6OMoMLeXvZcC_2rQn8-Nzf6a4jQehEg_lafkBKhMe2ekfYMbo6UPuzXhNoXm9CvI_s2RWuHk0q4CDDz4AoKaDN9Uph1QwelvfXUT4ogvm2dccPtkY9ak9EcanrQB8So8L0gAkbYrTVLLT8BTlMyJRUGZaf_UYuIM0FppnaFlzGJeczYPdrPkb5PhWZHBlHkBl9nTUZfVQbJnkrJ0abRi4Poczv2IU38xlRClX2bUgtmQaoiaMG0B62ly3hAoNATQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109657526394103009634\">Pacific Apartment Phu Quoc</a>"] },
+            { photoReference: "AWCwydg1J0uGhvpzXNWqqd4Rr-QxDCrRASKLRnmkDE0p-frBq3XQR30vniJgHoCRsHaZNDAikjBHVKV8eCrm7fUDeddT-ntIW9O2ucbHt3YexCbFYTswT3oUJ_aUXf1lB7GlxWYCzr7pMcmMXo5LLq2D5q88uFAfMPRyR6rH6I7wjkpshfvPWdf9y84hX3eKgYrCdDkzduEtYHy6_pkcLBRzNkx94uDd8yEfB7p7o4WHQvwXx4SvBGVubdo5V1TrrqrFjC40azNLWbANav_nTyw-cyb_IrHXTjEflj5upmJ1Ck5IfCBwTTYZXLYXpih3DpaElSeQj2i92vl-rxuHJxaVMzPljVoKNrgxosPHizhuuh0nKttkNmGygyZo96Q5XBqBNu1iT0V2RPj0UytHtsVWpzjevzyWmThaOomqgVTA8rKSqg", width: 1997, height: 3551, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103037137126461655768\">Татьяна Скляр</a>"] },
+            { photoReference: "AWCwydiVEWGp8uuJ59WOngl9jY_dotvBj2pm233sGUjfzXHTdpTQWsVUoG13uDy_cO5vBTNB3pq6itw_f6i00a5y8neg2trkLlaRlO910t2OH_w4Ma5q0U5QOSMPIZ4zA4jibmLv0vipknf7xPmVCHc61k6bMFRxCU1LQoQXPXskXfkYLSy29df_0QS1bkawWEQnrsWvjPlLZBMbmyj3n42R6amGGQAlBJWww7bbNYwNVfKMIMgdKLfl1DaOj3SJMsJ4kIvNbLyAo8B0lBuvz1bMLMx_SX76BX6OWZ_17f4MPHRue7WdJK4qluH_VGywxzJeUSMTulTwhuLYEisgEHonPFjUatJYLhzMdQdMwUu51OXnuUFH-7uV5eqEqJfq7gxM-pSUvK52uTS2Nx2NwFDW9XHbDFCOCneAyv1mymckSJw", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109657526394103009634\">Pacific Apartment Phu Quoc</a>"] },
+            { photoReference: "AWCwydjLvJxBjWrxG17PFkHW6Muyn_zXXJn4GcIz2v0FQaTohXEn4Uq60uc3FPoKY_JhH5lYbWKbwcSizjAzf30SbS74-FFkUgIlidqXs28DXs1cEsa7FB4lnImSh9J2vPJ6TT06pHUocwRV1vR-O5I4jEjdddS6WcAD5IHamTztTOuv-HmaqoUY8-P9G4cahnrUuXv6QekMJPzqWpFdMdVNJflDhnocac58ZPNLdOrfO2YuEBUthD5zoYiF0YkszMRyADurdalI03BVYfTlVEf-xEblJOZtoqB_8Y-pP-1y1605BpKJq7367yrioE35p8fk-Qcz2ttTMMKGKKPuDKihVUhQPnziQ_SxuRvfzpfc_OiUyGoXLljd4lnv5A6369fRvWhBKiyvDd6kdr8hT-cM5hscP_Rso1jvPSRz4E74wZcOfX8WAe8JuqdF3YmOgiUl", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109657526394103009634\">Pacific Apartment Phu Quoc</a>"] }
+        ],
+        summary: "장기 투숙에 최적화된 깨끗하고 친절한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["청결한 객실", "훌륭한 서비스", "장기 투숙 적합"],
+        tips: ["연휴 기간에는 예약이 어려울 수 있으니 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Marina Square, Tổ 4/30- 31 Trần Hưng Đạo, Ấp Đường Bào, Phú Quốc, An Giang 920000 베트남" }],
+        location: { landmark: "Marina Square, Tổ 4/30- 31 Trần Hưng Đạo, Ấp Đường Bào, Phú Quốc, An Giang 920000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://antaresphuquoc.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18323597864256182346", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8D%BC%EC%8B%9C%ED%94%BD+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보히니아 리조트 & 스파": {
+        photos: [],
+        placeId: "ChIJXz1rKmGMpzER04eizL6p4Rc",
+        placePhotos: [
+            { photoReference: "AWCwydgYaE7L_QzNtm2iN4VIf4kxUx-FbmZ4tfREa1G_3M0UM81N7hCNKCxX9FT5G6m6yrsu5zzJa6ChZU00xGQQTiRDxVaynD0ysPFqHGjKmpEWDX-gxlyMdQMun4roOmEwAlA8_PvrY0_iW-loIQdyyGu6FV9aucYnkAtYjZebZ8aQrTBeNc7u9HSOFFC2UwAukcxOACpsilL7PKDlGXL4_7QopFTbPjvz6YqM2IisbbXeA31ozqBjYKDymjROMN3D7YuOMxqGCEhyuAwfkGXxbNOvq8OFGKJD-1EYM-YDtdzM2xo7av6IkBqNFtUsA03k0RPU7rp8EMVFzpBUgIcrCquFHulNls0EanLEBc4TjB4PdQwUbZylxd4-28YXU8VApyIwq9WbUgwkDCgv-qHmw57bFiXR_u65mRmDtrd0zlULVL-z", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107724742851186962035\">Bauhinia Resort &amp; Spa Phú Quốc</a>"] },
+            { photoReference: "AWCwydgXRg1VVPBXSOcPIKY_bX8nhABqb2U4UxmY3eIjUiGuG-2aGA1I8VPbiblXaM79mwnsE03yJJ13SHKl87x4p1Rx5KnHlOvAyjWtD5afNQXOsy1ShGXI3FVHOWBfb-ayHOh7Ipl4vu0ZlR1bs1tfYmDIenl3i1nh7Hs63it9LHEk_JRa3_r94OXqij9ABx1XhDFX-pblVRGdfETNwNkhXLKZUwA5mKUoUvrhbC7K6uBiqOO1d_nseeYu3m5nQgDD0VWV3xn5JLo9XrDbfqxAk-QrcizSBiM6PZ8PpRV-CZYR2ral02LgF9aRcHPfIUxKyJaHj2q7tVApi8CSq2YCBt2Lpy3_oB6_QH5MahO7ovhk6LvgdaMWVR4kuViZErxpm8uAtF1z9MfljRta34qi3yKZ_mAp6yX8XJJsw06Hxc-Ljg", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108069558178841566130\">- Sales Bauhinia Resort</a>"] },
+            { photoReference: "AWCwydilH3jaAl6ZItyVk5FcaiuUVzsfkEv-5ctbBy8cYsOw613c36b2yrvyG66qhGOuNLumAhHkfMfnfkbHVNQQ88N8B2pZNgmDqA2zi2Z8jBV9zimgOzXx4r1wtYFyxXieFX3yVf3hshuo2ygRbAQFTspTuD6ffyiph5ikeU-kWQFVTbs-03HTZcvHLHanxCOWxRJ68BXeDe_gajomahU5knvWZrY9JMHkmBETUrKiaYJUMkLJlpn2HbG0uhIyX7PkOQK6mZqzHQPqeY3IxXf_zcgR8OJK4HeWaO0rbXINq3hcW96wjVLk-F-Bge_-UJXxNJAN3Cw_AhWBwk9RbCgRSyuT0vagN-Z9ClZQqxTjG-yfi1SrZQcqsVau-D6M_XOrqSUZyAmCr2ZXwghtVcNvI1Ax6ibfYrXdYnMW2pDAcWE6JBM", width: 4800, height: 2216, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104038130316139725369\">Kati</a>"] },
+            { photoReference: "AWCwydj-NzqrofEHXqh0bPt1GWK6Grwre_rYbDxYWagEuCmeexHO7tqrQDMzaFUySTO55tTIDokCWb_svDGVPHEIICcq8QnQSBu1hqzGi8N09fzO0NXSPFOz6lJOcHx8DyxYdE_xy8_6MIIVtsag6EHMlDYGT5ex3mO0W_2e48po3qS6KDYnulsSao1Dmz-2vq4q4TOHZ4EKmQAzCy6IV_WWsxD-596XjUnugT0PIr_glV7cMQHOrgB5PrCTnhhKpSqCyazodl714SEJcxo3Okj7CLGEvvvaegpTQaASiKePbgNBNeDN0wlp_vM7AU12bqzPmGmVKXRFSFDhJGfbmidnK31WpyWDrw-V8EvICHLjJ4y6T_D5eqe9iUapre3h4UK9FsYZ8tgTXV0bpCuNo7brlMKVeHqUbl1KXLWOQuiU94V-LDEJ", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108069558178841566130\">- Sales Bauhinia Resort</a>"] },
+            { photoReference: "AWCwydhKbd134kCOGnJHyoyKYwQy5vMsnuSYYFr3KBsYYwEYbflK28m645vanxCF9FpGsEQQ1OD12eGasdviIvEVo0BHlQfztYkS0zIn8i4gw0-4BmH5Gmdysrka4k6243_-oyyISTfXPviMyMTyi50U-EQHAX4EaoC3HOe6SURIG-zaKApUaeV3sGmF8RkKjhQb370gmXNpnZ8-_XKjQ0OBUuBOTSkKJyIDqoFk3rHOpTumoRQ3Ia-GS5m3PcK-0dTtMsP6yCDZJTVmAA0kvPlHA_jljcYTpGYaCrvj09ZCzlXCSl2jHXVz5PLdxF-iOYWHSKoyZa3O6S47CpgFo7IWtKSfJe5_oa0pbRyhsHObYnjiX1rpFcAF3PKsnIgFTrT4LjoJMhIiFb-pl49g4jDu8Bz4A4zBT3kS93LyR4qZJXPzbw", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107724742851186962035\">Bauhinia Resort &amp; Spa Phú Quốc</a>"] }
+        ],
+        summary: "깨끗하고 넓은 객실과 친절한 서비스를 갖춘 푸꾸옥의 편안한 휴식처입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["울창한 정원과 그늘진 나무가 있는 아늑한 공간", "모든 객실에 야외 휴식 공간 마련", "청결하게 관리되는 수영장"],
+        tips: ["리셉션 직원의 친절한 안내를 통해 현지 정보를 얻으세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Alley 91 Đường Trần Hưng Đạo, Street, Phú Quốc, An Giang 92000 베트남" }],
+        location: { landmark: "Alley 91 Đường Trần Hưng Đạo, Street, Phú Quốc, An Giang 92000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.bauhiniaresort.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1720843169574324179", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%ED%9E%88%EB%8B%88%EC%95%84+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%26+%EC%8A%A4%ED%8C%8C+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "9 스테이션 호스텔": {
+        photos: [],
+        placeId: "ChIJz-lnxFOMpzERK1CaB4b8BW8",
+        placePhotos: [
+            { photoReference: "AWCwydi64489wbKCWq9n73U3pkP3iJUddXFzKX4q3jDOZ4UFgxZriSqyYcwjm_lbK1X-Rv4mUTl57QFGjLsrZp4MPPrC1uM42SHXiaHLt9vZWXDe4nO2oZ4gF91fr7-kRxGFeUdlE5kZYYOG4x_DXM4TEbBfT5FASt4nslBbt7NpzSrNpZfpUYtJwf67f3Z4Bs7TAMomHzoDNMJmFTy20qaH1Ca9GNCao828aZtgDAdKQy_DOF8VAk1jLzs8BKgaCC-snte-G2I27USXKD9oBblBg0NBiuquvypk-xnfFfOU7an_iYkuegnDFjnN_x3ofI349AAl2kwvGiuQb-wtIOgNQbbQsRAJnvdJc0ohZn7pbU6O3v7SXWjf0I3a7LEcVS5G1Rp8D1enieJlSU1aquItxyRFbXzj_FQhWzA-ERarKGX31g", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107019478589418620117\">9Station Hostel &amp; Bar Phu Quoc</a>"] },
+            { photoReference: "AWCwydhFUohNKirohJSYkaPEHApm3eqmQo59rj395o4jFZVYn1xkU4dQolGA_o4zd0qYr1ePsWz5COhfdA42nDnl6kEtTKdCsR-sdCCOFia46gZDF2MKY_z8LX8zjdtdWBwjosEa0j2pBa99arIS3UJ0fppFo-tjCgY_Kjx0HTl5o2wB-3hbcrGyCNSVPUYL3UKD02UdRra2IuefwZzYCyNBK5QpVAROA47dIEHg9i3-qtG-5N4PCh9u0MHxc107VDNISrXS-BX6esixboxiwvpxD7TXZoLARyyAwWrBrN2x9JMgr8ODMbqmavn3umRFt0ViEC1gZ3N-lS5bNTPH_eXBAWKroGP_EOm7Zwe7HyNcfTNo5AU6gD4gDt_QtFZOsNlqcyP2LZogqIXNKSM_4WqW4rhxir6hb9y4i72iCMg0hTNAXYdu", width: 4800, height: 3135, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112362228996168196315\">Tien Nguyen</a>"] },
+            { photoReference: "AWCwydg5myorJ5CTwhVNMqOtUHntoUdG6C2rEghKaz0lNNw4LmSG1jJaFhsRsukqn9q6OIbQkHjbAs0V9JlL_pPbXkVml_0Ndo02Cd79um4zNG84syvWtf03b6RUku1xTsfkoLBS07fQbAnjklQVIB_7cTWUGIOYwAZ5o3QDUT-gcBe0VTppb0avN8zNhRHbtAkub0O5apXIuO11btHCZ8y4OecEfxXB9qsDnkTr3M8avriJI_EpJPUh-6V6fPa5ukO5TKFEzObs_A1ypOjF5TLAqF6T71-SiaUmBiTEtNy-eG4KGITvlK77NnUstu4WsdlIeiKtg5rs4fFRcwo1bRNwxuyxH1VY0KyjWL_qxbSt0jxfdWzy15J1xIM2Cp6V10m5UE2AARpXlnQewQLNuemy8nMVrh4r8oVfVPPCgvafQZYvqpCMOsUBh6-rPooTIA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113155970138643147970\">Maria Fernandes</a>"] },
+            { photoReference: "AWCwydhTe-iPWXTkC2kU7sU4lLlnPEiwESTFAwiA6MFF-qQ-p8JGsvX3ssN8qZ93qp2HfRrylUqZ4KDr8o-uYei6tgbuIZ0CtLUSrUtv7xL9CamzgMl9i99O9UapRnAQydkY2vlFh7L6uyyXNwzq7f2wN2Vj4xIXl7LcPfdJZQmNF4f2BGcFCH3tzG-mK6JVbBAuflaTRo6P9DFPd8bAxI96kyXntm0WjoF4sbWu0ILbgtQ9vGyF4HiN8K3Jh-KOa5V4FTmefOyuTU6-OmHZyQj8VTtmySd2TooRqJQO6hnc-34cny3O2oxwR6SPUanSTVCHzbKSiqqV1pZFJ6DGxeUqBZ6k1Rh2nFwYSXPyPZXsH54-EN5pWUbFM8zW7vcMR7ysNa0WpMcEfSVkOzs_9Ad62l8r4Rb-RUHl3Fc7dTmK3hcGJuM", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108021578129211817906\">Mai Lê Thanh Lịch</a>"] },
+            { photoReference: "AWCwydgF55IJGrkBL4Lc-tMwKf-BZyg2lfS6lTpH8OAuJD4D4zD6UMd4QUe0EMVmvrLd9Dy1D8LskTUzI_6IEZe4qcU9qpEPMlrFuGva2O_bxKz9pDth30-JSkHmTnO3LSh6_ZAKgb1elUHVRRd3e3zKRqR1lQBEsS9CEbXxWCy1rMn-OsgC3DuWT-OcyfKl8R-cSLMatCL6RRKTn_hLY7Vuw_FCGlNcyA9Mh0cZz4pz-X7KmIZdsOKmzIQk3cqU502ST9cvNwHgW-nzYTzD1VmRv55YidLLZYwYkMe9-K2dAT9cdNzp8zkXui408iSsjVBGjuv8u7nErhxRhafOycwJMuIznGJAHJ-9eb12Mx7Lo5d1OcJG1K5tF9U96BNwjXCxmOmPyNTCxiPxQmtj1iozgu6AOO5j8JKzi7c3MN-uztE", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107019478589418620117\">9Station Hostel &amp; Bar Phu Quoc</a>"] }
+        ],
+        summary: "수영장과 다양한 오락 시설을 갖춘 청결하고 활기찬 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["무료 당구 및 테이블 축구", "멋진 수영장 보유", "친절하고 도움을 주는 직원"],
+        tips: ["무료 세탁 서비스 이용 가능", "다양한 아침 식사 제공"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "91/3 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "91/3 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.9stationhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8000077965676924971", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=9+%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸 하우스 호스텔": {
+        photos: [],
+        placeId: "ChIJN3kMIlqMpzERNXLfedJSsDI",
+        placePhotos: [
+            { photoReference: "AWCwydiTlj6o0aYvqAg-LVT6njROa6GnMbII_pCxkhxy5RY3wxwWXi-Z26V3Dw3oCEu_M6sUny3SYUbN4EVsIBpTm9jlRA-JdePkOgvYoeUJbSiBclmlEt_keNNOssFpOXC0_kZIjUPaLkkxHWzThbO46fp4EtwX61J5k0x0lg17Pf4dsOzpHrw88-T54of73b-pcnHYeMwll2npcwtbZ-R9DcxiciPYTd1l1cnMUqrDo39WDTzzarQnj8ucYe0wmorIJ4zYH8OXEsaXeWkWn304oW0PpBp4X5G9trQPSAE-H2r2h1XR7U--wkvftN0HKZ5MSsyVljrzBPdINdOEwfTuSaON3PI_pnjTxf2LYj50-8m0ztmYw0jz4tzrFlBVJ1fPjEtwiMx_eMJHMZyxbPXlHqKYyXEpWp1YWGTaYbIya09Z2cNk", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100976001533517943883\">Phu House Hostel</a>"] },
+            { photoReference: "AWCwydis78EHDs09vqopdS-2TERUhSXYqALiULNdMStJ5tFsx4kSUoBX6309AGCekzfgzHYhd5swyct9wzlLYA9oe8QEUAL_18x6MDrHS_j7tfiq2eQY2TMY4JByi_tosTeCiADrZlqLD25NPcHxytIK3QzKkejpDzs2xFcGPMSbKttUZ7RKXr8hV-7mVKkZFEocmy0JHfejaMNhUzwyMDcs--qxtGymztNH-9jJiQrWrKtNgVxtX2DGZvtGvBt7HSekA0fPbKy0zfTECovGSo8Gj9wOycAoX1uLZmg5zgc5UvLj7eZuFym9eYfzaPO2jFQIA7pR_rVVh57Nf-1jdzLm17CYl4klmGb4YP6h5Y_RjwX-vhpb84X6QbSitFZDNNGjU0w17Fcm-KL22BpPrpxCFa4J-R0ghrlpSl5x2psldYyW_JVc", width: 1024, height: 682, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101550356333271139085\">Quỳnh Như</a>"] },
+            { photoReference: "AWCwydiX2ru5PyRDKqJ0J5jkhxeqf9uAIR2E6hRb6EUeqdqNJF6kULlKLCf_mxjKW5sdGO2exIcYt5Upz0pPrun20teOEzMXa5DbqOFpwsUz2vBzWISIcPGcWfSOYXr_Hj4FciakuUfME2iqf_4QNsLfwpFuU_ypaiA12ZkD8iniFui1xx-3lb55m2t3Vo1pyvT2scyjM9CaWxV2p3WUV_bHCT3vWMlaqj2cmixwCbm5lVLutZyF-Wtl1wTdnIt0dhQ7jtlm2I_f2WnQx6-2JJhY6537iwFwWlqvRVfIz6v5J_a0DvA898CPgaXEly4chcL7X8tFasPxHxY6lf5r0N9h16jdJb0xV9xcDLqGpOa15CaFk2GpKG2ia1xyGpuX-OTee7dO9bhziuYf3BuUdk566Mj8gv3FHidKh5guf_j3feNemA", width: 1444, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100976001533517943883\">Phu House Hostel</a>"] },
+            { photoReference: "AWCwydgm6GHLO2uLh8k6FljN1cTdGWXsKHGD6mLfnNGyLpjQs2KifUGfoOh5ENyutsS7Om86OHx27N3R7so7y_F3keT2PyNp2wsNQAr9TWv-wS4QZ2rv0QM2u-zXDJTzW08i9O_HoOlXOxNKUeIiU22Ek_wboBjkRK6_6NAMN30f6lN0128KDNqB1faISeRG0YZDKSipLwm6iftpwERO6ObueLXUdb9p7lqR25Zp53Ig5YHTXAIN0vPtp68s5Y8vtrJDXZ5I6ifiaktU8NYconOFtJ-lzVBjdWXEZ-j8jE4dP-xAEXI_LveqTTv86GUfCq-qGF5YcoC2NKKXeZDKL1iQaMUVLWbuXOTI00rQZico3F9Z1Ken510aEtye0iuI15X2zf74LQir7trb2-sl7EvQo26JzT1AfBklXsINdgpJ2K8QZlP0", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100976001533517943883\">Phu House Hostel</a>"] },
+            { photoReference: "AWCwydieLy9rg9p4CSd-_ZyEbE_uGPOXaE4W34yahlPFP18FGEIAkinqc0EpYjWQjj8PREuTValn2VjW4K9nsZhjvQPdqi7YpY8gqR5WBBHM3i3ggHq_oh3SEUSGElUJFE7AYxjnRjmxo3swlTYJvhR6iFdE896zh1vhlDNg33vDo3qwlY5Mwsb5ZgMxWrqZ31HsgddP8b4mJcpYI_DjFLnXmNZ-CN4W5ZBE5LukSDxEgsuXK93YGm1d8ArdoXM0_o9LbU34EErgesbt29172oeBo0SCbgGVgAID7_V_N2s_gxVDxMEWMQ_K_oUdITPyPd6sEYSq1SzytPZKKR8inRjNDBz6jCf7fRnkE_tqzxC8UU3GKGfpwnnnyN90buhiUmZlcDreIlD_ChKSLexGkbjaiwtAsbGSZOmeWmCBxgRLIoFYtNCF", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100976001533517943883\">Phu House Hostel</a>"] }
+        ],
+        summary: "가성비 좋은 위치 중심의 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["우수한 위치", "저렴한 가격"],
+        tips: ["수건은 유료로 대여해야 합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "122 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "122 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://phuhousehostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3652510361738768949", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%91%B8+%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "리오 게스트 하우스 푸꾸옥": {
+        photos: [],
+        placeId: "ChIJhQUq0LqNpzERcxqcF_DDsfE",
+        placePhotos: [
+            { photoReference: "AWCwydhA4KgmPzO4PL2ZEJv5gsIJGnD446RcnVJyBu5sT0pTL5L67fYEC69US8gTBjmg1B-0rnl9qafUdKwj-jnjoytqYMjwJsMXoOUfwbOVpbpPxldgnyJIYhzBCcZ6KJPng91J562-uVPU80Sz5R0ER0I4DxwIcMh62daYARcGYzwTFoaqKJIUatvKw4LZyqDJ7ovsbqflV3cIZDGD8j_24WeRAd_KayxlvIWsQgG1eHYqaUcGg8mFwXtsgDweRlBeYnOxi_cfWWkv4o1JJLRBEyy_cauSaSO6A7uywvL59cud15z91O7YlEQmjVAz0zbCMWuBElFXlcWkfLVcF53C3-7DnGywO22W4gsf_8buM02kxCJIjQvXtPXf3vNlCjzs2m_NTnOIw5b2q9gHxN5KwRp9yXgj9Pzl_lIxEFP_05FxKAg0", width: 3957, height: 2709, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105585800324982138591\">Rio Guest House Phú Quốc</a>"] },
+            { photoReference: "AWCwydjJlkxsFWa6ECRjipKKu0dd28BpO8mYnAKVTsT2Auep5tmgJkZPFBwOSdgc5GbpHKxq19umX2uqCKf8uOiHntS0XNXgjbk6LtH9oIqZ59PdYeOo7yOsU_5BMdmhpAvN8TIzSGZPPizQexA3jlXknC4N-oo-Jr97vZ427mU372DfzTgrIaezwZZUpYrOyCqoL27cs5aO85c38nhdHbCPXexsCjnze5eJgIbeMre0NXIunDgaMl43smOcgJU9QqU679ezhkhy15NgvQZVf_xrhWfYegzi0HKABiRsFAxZ1rMTQ4qHwTKP_mp_3J_0hQpCss4w9a5W2aieoRnlPeXt880eAzv3BMzFrKMMF4dAQpwoJSwBwnccbh3EcsRyrCdeZSCWSaFo1wGokcAjTrWAY0rHnFIPHCKv7nRfxKuH3J8yIDoC", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105585800324982138591\">Rio Guest House Phú Quốc</a>"] },
+            { photoReference: "AWCwydgWU5tVW7RTFZa-TuHzjiZlXXoqxJIVvhslfkMNtRlvv0xAcMlPzqrvIqQjjOE3QotnlA0UNi33lWQFNVTPSEEkm4taL4fJKbw12VMStHIoGInqGHP8KQnu3jIGFr_zt9sEseUqgMILkFElLnswKbutkXa_bfCRQkZLOHBWzgRkEvLTqyEIlGR9iqjyOl5I6x1pCrpyKncR-A0x_fopulkS7g8o-xEyHtP_-r5nv-2LoGtCwYviAg9nc0WnKsVfjRFJKBFTWMsRBQyNA7HL9YEVMz4pg9mERjPBkQiMqpqlh9Qf_lFlKFKSKxG2ITur5bFCl1IK7zVGx0Gb5PPxAM3Ol_T7lWZkkf5IUwyS6CqfuU4YwBtiHth42yL3ChsEUcZEyXtBDAC6mSB04O5YYYcOyzsxQ97lZDEH_-sGaZ5z3oyi", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105585800324982138591\">Rio Guest House Phú Quốc</a>"] },
+            { photoReference: "AWCwydiSGkpqVTcyxDANxD-UTJxuQrr10yEon3ATt1Rj5Qx2VYGpCfMUOXn--wP4lF5xyVQlt3ilcm2ro_ETOYXLqf-FslWbd5Nnxa6O0sXXFlhavqJ_m7xQjC6wVuflKScuwNQGJsCxsuvfM-vkKF9xe7WKX1GTI-jvvKdE_pImePFzOmzk0t08iZXr_jRpvIi_OUj1OGcvta10HDppYzv6aM5X1LF8Fs_kcRmPwbhL7VpUB8vOhjSaDGHusm-nxH9Obeb2mLmDltF5PuBH9oWOlDv8JkmrtWiQ6Op7ZDFm0-dq9d7ddBGGSkxJ7uXTp1hCkpVOK-mj68vVQEfhn9GQsrEFRjDMSjvJarsazodnCqUAcaQieID918GkWD61syZuup1E933l8thlNoTWXOZ5cZ7R0s6bHVovPtjugiAS8nXlq_RYKMvDakRAz6ufMw", width: 1086, height: 1448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105585800324982138591\">Rio Guest House Phú Quốc</a>"] },
+            { photoReference: "AWCwydjX_m-iUppWU5PPtcgtIprKQSEMco5d5TDq_4lAGS12CFmuWVtALedoqOCDrX-9WRJutLWuMTxIIvVPM_NoK_m_g7sDSn2NaNiSTgzauXpIUAfwEvZZWEReuAGggNzLZPUv38lH1odA9YNt4Qbv_wTJrohb8dmxb5ThiAfNHibBJz4nvX4d5kro9J_1DiLXUX2ou4QQ7KHfkDMRTo_ivqiTC9HPRQZPfXuC6OilWns0HZ8M_pI9qQcm8O_kuigQUX7EtzwDnvYZZHkvSt4STsewQM3s3vvu4OofLI7eS0lfuNQOnmXx3Ed8TqtpTDNOh4LwAcTNhoUHtucRK_lDuNk9O4mNn54Os-FhuvSkcPFo-Uv-om_C3lIU5kI7oP0s9P-b29mbw9rihEcp2p1pI8cFzMh8bripaGz4hyVlHrz_3A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105585800324982138591\">Rio Guest House Phú Quốc</a>"] }
+        ],
+        summary: "친절한 주인과 예쁜 객실을 갖춘 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["편리한 교통", "깨끗한 객실", "친절한 서비스"],
+        tips: ["충동적으로 예약해도 만족할 만큼 서비스가 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "88/2 Đ. 30 Tháng 4, Khu 1, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "88/2 Đ. 30 Tháng 4, Khu 1, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/profile.php?id=61555723817180&mibextid=LQQJ4d", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17415916669974092403", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%98%A4+%EA%B2%8C%EC%8A%A4%ED%8A%B8+%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "해피 베어 호스텔": {
+        photos: [],
+        placeId: "ChIJddlGPACNpzER1wjiUNKQjHo",
+        placePhotos: [
+            { photoReference: "AWCwydh6OUUNdYu62XxPYLy_TnwmHgflfBMivgEZButm7KNTOWJhh0gGKkjKxjPADtgHK0yI6r1ChJfteJFX3fbMsz0a0eK64xI51hcSk81RStNLx4jbcLKr8ujVIsh3o0joKzmN54cWgHM0077LPXo3kx1hm0AE2NKR4gDW5xMqBH2RemXmiQlbnMVgjrGYsgeLQBXYk0_ThHrI5J7JgPcWrX9fnzjeL6r0KmvWX1xZYJHay14i8gCq-Ma_UA5czFjHjU8VXNXLVNzlzX9VTNAmhnVO6FUWSy1T7GUCnJx6vgAIkHf2tnZTJMkH0zI8KMBSz413gCcr_b7xJTdqvQgY8Gdt9vyqwFJIPDxYzGzeLnrew_rJRPRJhkaY-uE802XvPinJ-mckYdEEr8zAxLj0GqvF881n72GSM_jOBeQIYmLmGQyT8ZpvCqypiag8W46p", width: 1000, height: 667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108743345315168798649\">HAPPY BEAR Hostel</a>"] },
+            { photoReference: "AWCwydgirOe_Df1wWVd9pZqvFXriZDFRlgt3hMtflexzDaqix5NIgaGKJ_xxV9ih2tplofkdrTygVOkHbH8yktERKSeBHCI88-ypcJcQsmtpo2atLhDGTQxM-_9oUK9vj--Eic2EZQAKMtnOfSTW1ZlL8zEn6-6Ml5ABEytA3xURmx07qqiOtNt807UbpIpGNMbsu1DmMQ4gtjaLfPk13em-FPiYK7p42kQEWcybZsK21SMpu0Rk8rZVxBdiYV-2nwzxL-jlub8fc4UGIIx0BCUumQGnNISfxnSWtWKTcy5RJT-TJzhPKTqornSmcfF49GEM7GEdnY17klhF-kzw85lgZL5mnafhbvKEuLeF9BuqtFz1eTE8aDrzZuMdAfbZkH06tcSCayKc_LXREG9LQWWydo4bI-vofun0KvQNTZzOtIAS7Xb43tGURj_YrO_4vpcT", width: 1199, height: 1312, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108743345315168798649\">HAPPY BEAR Hostel</a>"] },
+            { photoReference: "AWCwydj-Bc7VVck5tcCU57_qjrZL31HHzrvrAiAGw-hizgmDAn8xfC6ZusHoafk40hOMCeGDp8zT5vbDTE2yCvPEcFXQ4FwH-Alw7Qy5nJWPDHWq0SES7fes4cpV5pB6yHlagsCpT_9fnQ0-4LOckj7DDhbGRR0rCiHqUTjEtyvLel9crngmylRxSZydZrV0Z_au4IpE7k1rHq0xoqWP7IhSgwNVrhextzSldZZayHTR8vUIXoqHEjMkxh6g0JirX_RaP56ug3CbuMCD-8AF-JeH8410pVRy0M9Nl8BEYRp5xXDEWqK5tOJZQ5v7slDA8iHi3Nyx_iZsRfA-uT8erppS2SJqHwI5P_dCgcXmay67LYdwE3J4DKBcgrNY_wPNQxB3KX3OkksdIY8tZXkgZydt4nymC7hXoviXkiZGWWBzh5eJa-2kao2kB18zMvuu6Q", width: 1086, height: 1448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108743345315168798649\">HAPPY BEAR Hostel</a>"] },
+            { photoReference: "AWCwydg5aVqE7RqPkGLY0alIjr5Z1YuL1YVc2_DKiEKnyQ5O_xhmjICtpCI-p8vwTmH0D54Y4yhOywxx7B0WwA8gq4o3tgjuQ6ifyh6RGg7O32GBJZO-tPiAJ8ndZ7UQzzlUJPrmXM5kgQdJL6Sh9NlBp_rA0EVQV4bg2cvvvV9DV2TiwDSkkptMuubPCRFW2FTb7tpkziiqXWHpQmuGayhblddTLyRzfyfaF4IM3-vTw8MRQWJ38V2wf4xzdptXcVoTwmEFIWRoHEFCKAFCkym8ArYSIpLGXiKqea7ZxoshK59JYtRC8ErirW1bt_1J-uDTGZYrJ5X1qNXfMVqjWlZH8kkXHexWJ9pvExrsm5YfmQstletVFaQDTqdDowzxBqozVCVd-oGkKrp-ZtA0bPn3ntYvLNktlnLtoQtreH0axKH2nbGa8h2XntTn0ozDUYtE", width: 1280, height: 854, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108743345315168798649\">HAPPY BEAR Hostel</a>"] },
+            { photoReference: "AWCwydgsn_sx1FKIo4s06sbPs0Z1F-e3i17Jch4NP98G4jrSitZBvnEaIpgPumfyEdIK4OYrtmqHiqt186fsEEeXaJFtjpnpu1kzOAWtXETuMwLi3brWTMrjyvEwBVrFHVqDNYzf65tWvbNUfgJr8hkumq-ezQPkOUvUxPJn3a2RmDtLJtHxcsIKw8tfMJkegOAr9ze8diTpHmrsFPPuH6Mz5LmDWajtEd_FUHq_Pro3RhaGhIGMFcnCu0FmFF5v42yTJZ-8LgCKJwvUgJdG7g2Hh58HbHkwf4lly_dW_mdquecGIOwA_Nz_PvhDHoIlRNm1mppaurSzi2GyhdwfdJLJjogdGMVgxHEbsh-HA9WGxI5XjuBTJArAaioRcehsPwXjFceClRnjh0_sGhFYApX0d_nJ4J6ap7UKuYmY6o_sJH_hqHXkvUaJtKeYCtY5Kg", width: 1280, height: 854, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108743345315168798649\">HAPPY BEAR Hostel</a>"] }
+        ],
+        summary: "높은 평점과 편리한 위치를 자랑하는 배낭여행객 맞춤형 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["넓고 쾌적한 마당", "친절하고 열정적인 직원", "야시장 인근의 편리한 위치"],
+        tips: ["혼자 여행하는 여행객에게 추천합니다", "식당과 룸서비스 이용이 가능합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "179 30/4 street, Khu 1, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "179 30/4 street, Khu 1, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://happybearhostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8830592202341222615", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%B4%ED%94%BC+%EB%B2%A0%EC%96%B4+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파인9 호스텔": {
+        photos: [],
+        placeId: "ChIJT-0aaSKNpzERPM6mBI8ybAk",
+        placePhotos: [
+            { photoReference: "AWCwydjVSnx__CvY0RCYUky_1aoEkDUNoY440HmzH7FlrLvbHKxc7TEWo0CIGREjw2BGRw-bLXwd2ve0C8hp26lt1AsTYw4ozSfI1WXFlP5fHTyzj4BWONPTzT6n0fm9wCa8qCx6FZFcm4Kq9X6cJfT3_8Q01FsjtR1YY2KMagjcDNZSkC6N11pLOxQP3r9em3jOq3oGpl7iyvWKEKCS4bEh-Q-bRKUDrDPmEtBQaA0RKPI1ret_OBdPjdNpeCiRfi84_TnVXZGA_xQT8Vnj8KY1P03AyKPHEn9lQnE4dgUx6knhAfyzT-K9U0iR_ciwz8awggEL_Fdi3QqOcsdxfY7oBGRVNyl1s8qH5DA47IjGq4tQlgW0DKakjfUgcvOYn07DFDyR7arZkvCCSAn3DM9kB-rGb6o42aueC68IFcHTyVWt3w", width: 2180, height: 2182, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113344299783311893568\">Fine9 Hostel</a>"] },
+            { photoReference: "AWCwydhQorSrFNN2mA6m0uqMmxP8ie4utWEm6EqzV9_7hbpujTdwCNP8XlEMMvMY2DGZ09kM1T3mHqY8q_6dai2HmTUc4Eeb1gvo8BO3DDx5IJlajBbuhBYtpaPum_7K9bJPGbX8MTb6BOqo5_rGMC9T8euy5_xtiMjM8qTU0zLvGajsk0yr7irV9MQu_3jWlodVWD-ZDGVu4hx-RCoQ0DJKumNZWkA5YWJty6DR28asfuhNPyMhh8dnMnpOBbns9Os-5QC7dqrPOn-ffw_itilJuIneim4LCwOoODWAsqc9qw7_H1n-QqH1MLxAWpILQfyH_cBy36ZOsH9AgL99VOzkHoQlIrsT-mBLyM4Zq4qQD3evAgFr82tmekeRo9XLDKM_dGWStz3nd5I0Dpa6_61jGHMa-iyymdaCbZ3u79Nj4RUTmBk", width: 2048, height: 1190, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113344299783311893568\">Fine9 Hostel</a>"] },
+            { photoReference: "AWCwydinJTuFSm6410pOdCf8p9c0Xz_1934K2Nbddl5dX3wdfaDQyjE7qDpdJVTegnrM5I1i_GPWCKoy0k5lkIgD7_vD5DS0P1xrB7pYqVGiUE-tYOv976AcMtbBirpDZWAcoKmC-dXI6w7dbLnX38DqaGjF-Dbo-wqT9lCq6nG9p-Rb-Gbw2iDlKDDXjUFOogjyiFVZAn5o1EShZfN2xfZiMccXQlTckMxbfpGj43cTjiZEdAi0GOpZjmtVvT7wkGq-BhIbtF0sl0crY3Z_cSyen_wyMOjFO-9Us0s5icHMqMO2MtA3Ld5TSxLI1kHOiL3fb9soCq0AXyLu71TtTaixfS_aySP_QVixrga17GN6ai8hUz34z9_VdsjrUxDP4DLtA_wX2HSH8NintUZtG2lyulMrU3Hm5kD_Hbar80KPfas", width: 2640, height: 4028, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113344299783311893568\">Fine9 Hostel</a>"] },
+            { photoReference: "AWCwydjxAecklJaBl5CRV_2QcODVqxbCLwQLOu1O1kIF9RPcgF1dX1QonKJNkHvrYkCgy9nBhGEqINTaCh-l1uK0ph5gQnenkTlnSfjtKvnKQDB2vMxGAnfFU0VY7pNm5lly5mXCaA8wpXTrn0L8TJxjePeSNvAUqx52VvjQRBA_jsWd7INN3XbdCwqxDPzPH3X9dsDQMaa2ZOuLMjcyOBA6_wsAYPUCLn4-LocqP9L6YDguVCxZAB4vZ6p0VkTNTzjtc6FEedoEUIrv_6-iD05DO4h4tbSd-9h8iV3yAES8rmJa5OPMyF-cnU3HhUlmjUQKxs9GPByGV2xkfxpgMbSOydUTp0hn33my-I4Cs77kiZ_2KtxE4mEIWxcxzU-IKdgB8A7-PBKn8FfaQA4zZpyw4caADRRoCcwZ8PmuRjnyG7kuYQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113344299783311893568\">Fine9 Hostel</a>"] },
+            { photoReference: "AWCwydh2Fq5OIgPLyUqNfGkirS49cz7__ntkiIPI0OwY8mkNh8O6bk4gUS5Lk7KirXouArD8BZck8Rs-1xYZI7IqCOgXg6GRjajRoiuAm17-R1Ra6LjLkB8VrwbJj-Py27CD9DqLIntCxc914-OPSJn7ut6zlj6KSxBsVB6Hv1dq6dbmbjYkW10PD2V--J2co7BxOMpKMQ3iTnbJuvGpWKq1yclESs-lGzvNT0MqTkGobsSMlOUH0IQAovaDzoUVqaHqlVgRSnSYqMFJJXmLajEyisagxvi-sv05R3p0sB1oEwzhCpFzKDaiCfVj5Hj27p3BmfddSIDy9mJ3a9jpkFxT1C2emtUBL-8YRUxS4QuuJrfB3LwhCOA_Pa04kiVanPy-3dLJqi5gy2X7LRi8p3wiFZN0k7Qxfr-GerX4ooaG4RPJtA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113344299783311893568\">Fine9 Hostel</a>"] }
+        ],
+        summary: "야시장 근처의 접근성 좋은 실속형 호스텔",
+        updatedAt: "2026-08-14",
+        highlights: ["야시장 중심지 위치", "소박하고 기본적인 시설"],
+        tips: ["야시장 이용 시 매우 편리함"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "12 Đường Nguyễn An Ninh, KP2, Phú Quốc, An Giang, 베트남" }],
+        location: { landmark: "12 Đường Nguyễn An Ninh, KP2, Phú Quốc, An Giang, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://fine9hostel.blogspot.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=678973233665855036", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EC%9D%B89+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%91%B8%EA%BE%B8%EC%98%A5+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

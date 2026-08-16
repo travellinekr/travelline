@@ -373,6 +373,377 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4+%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%82%AC%EC%9D%B4%EA%B3%B5+%ED%98%B8%ED%85%94+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "치부 리버사이드": {
+        photos: [],
+        placeId: "ChIJhX6v4_09dTERR-kLMIPd19o",
+        placePhotos: [
+            { photoReference: "AWCwydg98HUW9uhdcmvfyzHEeTZdblSyXVzoemoKuC2xbn_ez7Pm0NgaXvSN3-VMctlsjYHpI7bshuyfE7hO4X6srnMoUbc4pW0xOGp2MdN5xbSZNanJhTJQcau8VWRqBZsYzTibDmtkFfOebUpk33QemCz-p0PflQPs5Q_oD7tKdKUDoRULY964gUtjA_BMfS_f3Rc_AEHEgb_X-dPmn6t4NUFNR-sAXYSt1yvZosYFCjlDA6v4y0tmSRl6jiEIdebfaMrpRUJ8Zxb1hXz178qZ3Fc7Kw-mxh2wSdCUkJbwD-wW7KcNy_Ke_2dYSJXve9INDkl9cmAIdxPIf2JGFq-PGFBwUhzGNcqpHW5_rUhwFIkjmCPHJWw6Hn8JHo2CpwoTW-Ja32FPZDHPxj6iG7-ffid20-xCBaHOYHwW-1BgMY0F_PrO", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110942052005852943049\">Chi-Bu Riverside</a>"] },
+            { photoReference: "AWCwydjO9l1aZ3EojFJWSD2XP1XqOWrZpudfgVjVHaqfMJCtMPI9avK8jLTM3mlVuQjErrsoXLT_29Lo_l9humFOeEZ3im10sS79VP7OCJxu-5KUAl7MWzNWDFp941123r1KMXurNrzFOWtWXwnxtHraOC9cQUbCrZLT-_3T2ElDq1bZjMvADrPSypDCJGiJnoYpIV1KqqlZj4tf-WBbW6iIxZ1ctY4wSbR3EaAldTcQC4cVnRnce-xF6B0VfsFphxnmq8uC1yXkHgndnI8LkJpI_FaZdslOgZpmRKbaGDY7tUOdZ81zmdmQpFQgsUPEjo5a_o_I90KrbF5ufhklHPRohVuytVUPYcebf_VzZZWhSou4VH2ICesJn-3GJxsfzc6xk7RJed-c17dfPXiMCk2JdPLnQETJ-pfgKkTLxuBH9F8xvw", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110942052005852943049\">Chi-Bu Riverside</a>"] },
+            { photoReference: "AWCwydiKGfNeFP81PLTXge_X6dyGv_-Z_dbXzNgo7YHpPBQNI1E4aEYOZnPb0_UMhqn0N4iY6g5XhBgMPLdVvb_BiA9TLBrm86WJ-BkjSVbAXLKy2NCCav7X4Qu0hmPhtvK_zS0YFihnxpxQyv19B9YuOwGQcAfW5KaRfZelSrp5PSOfyT2PCm1VLzixTvyXpCDjqCSrgDRAJFHh9-5FB5II--XGV3_ZW9emtyeVwyj2r4SC4CLnYI6oBRysaSI034pBFFrDjw1Suz2YncU9vSId-oYQPrebkij_exRu0Pe_p8Gi073v4PODh7Q6stMfCqF6SEr2R3JKsgTvSPjEDoYzVoDElXuWRdYUSuGnwPoFOxq8bxIVj5TFSR1OvihJd1YEIFD-M9F0N5moRU-hwxsU5eF8Ux-XgKCmXRFoFOltPKpRlg", width: 4624, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114440582672790839718\">Laura H</a>"] },
+            { photoReference: "AWCwydigwakeP6649CKwa359Q8UF3IYReWVf4YSRL9_a8jLJtPZoQypYKqi296Y6cfUJTuusAwE1kYWTd7xNMZLtiYC3Yc-DkWMpccNHpoPh63vgyBhJnq_IcGqpXxooxoFWkfCPH0UE3RQpMXsOWaLKz0dJOr6K6NFyBMdPQMlS6rLtJrnK0JeTs1UE4dYd6Nt3ECx11LmG1Mn47XQbcj9rvEjX9wldhtcveK_9P9i0lJ47oqrnwgLYT33ymmTp8nH2E25omsL37ASKDD9tYlS_3dB1Oojb0SZfxTeOksLyDDt8_sZw32TDkCw6RH7N9bJJt7SiOxzDZ90pAsQS9i786QGFgFIRmGIMFJa0L3iBVG_bGvf3SL6WWZ7mxJhdJHVMiFn6gyLoKJHIN-B7SX91oTN9RKpF2RycFB6Ebo8FuI_3Nd0", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117676570715627591309\">Dimitri Ketakov</a>"] },
+            { photoReference: "AWCwydgWbOFJN0T0Tp4Kn3wzc5yFeosDftplMZNKdN0jeZi_pTQ9woCdmJDSCvQtaYBTJWg62ybPs9e2lMNwP41BU7lzYGuJ48963PlvqkqVeEut7XIAlZ_u7iybu4t-fgq8jEYf0uwdPB6BGTFBlzI2rKNHPPwQenS5EaahH24NBJIaXHRIT-oC_S-zy219DEz5EOy1fD69LsVtANOty2eQBwzzXyc2_mpXRBQdp49pH_Ho12_Lxd8cKTrYVZxb5oIxk-LXXBkNOxgNBbwZ_MCJSX3jtHqr4T5YEvFRQ8S_Z47kE_KN_AZmDgIFduvgGfMc4ZpvmLbvG5Skcrj8_zFoNCIdD3v4XCPacREt_SCG_qcjv3QhLlFcuoiXzITEeAqCt32rZFnkYWHZrXH3pb1HvK85GR4McxDC4zdt9Ym54eeMJg", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110942052005852943049\">Chi-Bu Riverside</a>"] }
+        ],
+        summary: "반려동물 동반이 가능하고 직원들의 세심한 배려와 정성스러운 요리를 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["반려동물 동반 가능", "친절한 직원 서비스", "신선한 재료의 요리", "평화롭고 조용한 분위기"],
+        tips: ["반려견 및 반려묘와 함께 방문하기 좋습니다.", "직원들이 영어를 구사하여 소통이 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "12/6/8 Chính Nghĩa, Phước An, Đồng Nai, 베트남" }],
+        location: { landmark: "12/6/8 Chính Nghĩa, Phước An, Đồng Nai, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://chibuvietnam.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15769316175777622343", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%98%EB%B6%80+%EB%A6%AC%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마리나 베이 리조트 & 스파": {
+        photos: [],
+        placeId: "ChIJTeTCIz1vdTERn4NjFyTrmA0",
+        placePhotos: [
+            { photoReference: "AWCwydibIl3MAdqylNRu8XzUleNHa3qpgcBgXYsczhrNSAVkMhl12GquRj18GqKXK3fU6pa8rMB_RjyTuXCxoUhirqnLjsbYyfg7pDy8Dmpq2RcunvFH5SLfjjB6oUEP2rHOQcdspLc4rVg2pRIqMQhhSOacIqrEbaKk_9U5YF9dBZWn07d6yQkCU9qGcQ8fczQxDr7em1iI0jSRyVCM8cdO511W0Ot-IMSB4dcWQcaysmKprxf7KpinxuiRPu6zOjv-UH8bYzdojaFGJz8ZOYZYtm-S2FytH5-PYxJLZyJy5qE_aPo9P2DFQ4CsASD_9llDYmZDYKp1dxVTVw_aXCZKzs0RF0f8Uqnhm4qbBgP5rB2vCKF0wr4EKaL98AtOKTs2y7rucGbIRLiisrGK7MBK_Ij8HtmryehgekqGmI5CNcVyIA", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110010621883083055993\">Marina Bay Vung Tau Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydgxx8mSFMSs1OCXRYygNVsXxq-0kRtPi_lPRHo1977exSqn2K9dwdgdrv0PQUVyhB1d7DKj_34YYXIbOtb8MOJEojdQv8bGjfTF6gAebyaYnXV4KH0yUX48IFJtXSsSO5odUf6FSI77g51ST_jhDseQdodtzuAKIsu5mTdgvpRRDBtxuBED4qI27IMpg6w6FnUnFmiG4TZLS0NyXankkSjWsgPOI0wxb0ZzNE8wQRfWtNcKSu06KaPyb0zqMoj6SlEL2bcReOVLo4OJ2-388z51XGrSPUda98tX5-3-BFpRY_sf8p8B5XuxiiBh7bC35DJo7Yvj0ENlgBPlNyBPfgs_OSejSJUgpDDzDwi2ZIPmWxWkILIATiGipRFhp3_vRYV2RIvEIAh4s8hWOVpTITZoJKlxkqaXxuZ6tGAiwt9ePQ", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110010621883083055993\">Marina Bay Vung Tau Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydiHouy4j4no0sw4xCRq4maOOxYbpCiIwJ3lfoGQHj4H8s7QVHjUo4Qe3XF8Zo1sNKJ-5am67-5fraFclJnXCBJV9u6znmc-vWMj1j2uCkdG4Jl7SOUWm9CxpSnabYi7A_GyulPo57nvOLF-ZAgqNtvvBII49PItUsbirOUs3nGMZPqHpvKk-jDH1BZMRE8uWYhoGbxTkvOP_XGerB1t0YUhScXZn2uOUQRydgFXO9H6jg1O6uzm-gthCxIAjRVkTHHULpURKvlVnrZU6K1mrjZiaaNamjrLdMFpj4zDKrkYqG0WaanuNU6dhIygTbWpDB0xm0qQOIXL8OGsWFQkU-AEy1K9tVnMlVPvPYN1Ilsnsmh6muOWUTgvPbshRed-mefqmUx-KAfOM85opsz7I3p7o366nKF2pdertIkUOfNmt3vrGsmq6qUCUCcVm1Nw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111122186471084352250\">Pikablu</a>"] },
+            { photoReference: "AWCwydjlL4gyxghonsDJcLH4DbqHkLgHg6e9Y8B4lOO0a8IzX3SKm-iLbMlNubbzakT2JwFacBenc43A3byOaqi7U2dlMLP_OrCg_vZV6zBtNnqKvGI8yLsa28QiuXweA4nvkxtSUkF4407TKB17Nk6OI47roe6ubUUY_pGJDTgcD7Cx3faQO8vK8osJfIzORWccJ6ENgGIaJLaUqtXxbzWM3mOKHF8acVjkh71RaGVr25t_eJjp4c0W6naaeuarX3oCGzre60CBGnO2pvs8oZkJhNKFSHhdPA6k9NYGfw_G8_H5AMEbdhBxUwe5oeANBZCvQ_HNzDvEWbmIvFp_h5t_Nujj6DU-Xe7LX2v7nD0_-WkRidUPQyjhoSajoViTUdluIIv8MDzs7M7dW7RGGeIAVNpOwWYilpbiiPAF7xpRjhtHEdvR", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110010621883083055993\">Marina Bay Vung Tau Resort &amp; Spa</a>"] },
+            { photoReference: "AWCwydhPHusyKKDI-hYCocLmxRTTTTtYqackAjyHky4UQUV0C0dnjHQwBaA7c6loUT_up_VKP378m-9u6zNCkOa6IDv2MtN3fP_QrOE9Yau6Tfp53wu42gl7CZHriCOXLjvmtyk4b-jj25cH_naxWdtmJM6oN3ILVebwN2BdtZVm9RJ0hRMpuj-T0iog7B_uO9sj4OqvTcWG3-ADa0Ei7uGDQlydSlegQw3Brp0IwvftSTPkR0Znz6mw4BdclMGP9PLXirGz2cMzzB-TpLSv7QxjB9vDWgBthRrvNG7AU6sBxQRmBKlBAByQun2t_J9owdmxT75rc9cpLtMQshOgg-qtijcB_n4J-oNSm5mmMLIQ2tVK0bRFBcDbHPuNhRDpMruaQgiyzw9PdkXbbx4-QdYPk-qszlu_WSDExcFnzVajGsBYbg", width: 3992, height: 2242, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110010621883083055993\">Marina Bay Vung Tau Resort &amp; Spa</a>"] }
+        ],
+        summary: "모든 객실에서 아름다운 바다 전망과 환상적인 일몰을 감상할 수 있는 곳입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전 객실 오션뷰", "인피니티 풀", "해변 인접"],
+        tips: ["일몰 감상하기에 가장 낭만적인 장소입니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "115 Trần Phú, Phường, Vũng Tàu, Hồ Chí Minh 790000 베트남" }],
+        location: { landmark: "115 Trần Phú, Phường, Vũng Tàu, Hồ Chí Minh 790000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://marinabayvungtau.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=979791459196830623", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A6%AC%EB%82%98+%EB%B2%A0%EC%9D%B4+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%26+%EC%8A%A4%ED%8C%8C+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더깝 호텔 붕따우": {
+        photos: [],
+        placeId: "ChIJHwEGnuFvdTERtmt8itXAyq4",
+        placePhotos: [
+            { photoReference: "AWCwydiqa1ImM0kbo-tlpmtiZCvZVfVL-wd3rVgXCzIvnbw1UKIhrqRzgUe99qLUQvRN7tXdZDy_r9otGsaPh2Ql_ui5YQ_gA7Zk_axljzSAF6Dc1L8bphKLifJ5oRCC-K7AA_MNhfTmmtpw3x58bijVWzJBy641Ndy_gJweVGhMl41qjt9tsVsyqZSJ6F1Ns_84-9KmXUTFsrSqv1_aQD9uJ_g71CxytzqHsA2rWR7P4kzyimGsdzs_1dNZsOCrbXAv3DggautMJpi2bg1pZkswxUurFcAmEcuTCw95qpbzY28N3Tt87A6x7p4mNHnKshidJzqu99RCMbj29NzeKCrbUkctrsIqOIqEfDer2jxiFQm-Lq_A4Nm8AzX2XuIC3Tm0iI4OZOYSdlXpTWDKGFodWg9-IWBihAO6GagRv9tS1n2GiXbM_SAN62MxfHDGuXcE", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116070322303312534973\">The Cap Hotel Vung Tau</a>"] },
+            { photoReference: "AWCwydjOAojOay9cSg7o_fDP6Q3kK7Phs_Pfq9IRNStWsnkkUYCEbuonCBvPb9ygQzsrKFrq1OW-weT7s3YFFayCDduQYQIs6NWRmGAYYyiXhLrRDeSXjOBXwUWLVLEWggXbiD_S3lY-KZ25NRYNYr2nv9FniXi28LqGGVV4GVmeNTYT1k4NgBcih5MpGsyWOYlANvl3OqiP6_xHJlS7ZrKRSkKlDXx7xFSzULFLizSZQzVS6Ojz18aNmCzJPOWW5xEI38Uj_oWx3lZbFgwHT_bEd6VrmwI-ZZJPH2yquLpomKfYgqzSbcYVsVv4uXinsBZyunGkN9qEXBFPHB_F81Fb1haYLYIjsdbvndL5X5_pHgcHQDA2oESdl3Tr-2MIfRc1BTZzIDIwWpTSG8Hgc1DWrINtVRBk92FBG68JFFgBWetNld7y", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101309462774578321227\">Toan Pham</a>"] },
+            { photoReference: "AWCwydixaKEHkRN3hMnjy85zMI2nBBKq3JCl-GwjbQSnQFA2SL8N131p3Jp-O78CNkHA6XZPTgMguxH5VyBEEalI-A8VK12L9LW7pr2saOq-8AuQIxvL75d1BU6uXOF8F2J08iy-7dpbskgmPJLtOB7fs6iMUQ2RQYnKJQ9dFhweL0RD2XhdipdrcFyg_9UnEia4akXR2G6IaEqI5gAqg81AJBQ_3nggqRMAQbLBjBRU-kSF_YZFDCIh_YP0lwE8FnOQlDNLOUXV9BfZgh3370elC2lD-HW9Uq8ZMc2hf2a1zEM19uj7Oz8xgqP3mcPXlaPLzYI4s4iojpIcXDIh3n7lfZS6zBTGwQrHVibHKbmz3x6B00uGAkgUdttU34ab7U_esbik1tRT42e-u5FaysNSH9ifBG7FYDyokVnPzqSH-ZQ", width: 1276, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100566022775986460490\">DIỆU THÚY NGUYỄN</a>"] },
+            { photoReference: "AWCwydgO-nFf2H3HM0F9-tAYlAcPnCINZb74Ve_9DCV9mqZ37dHxZj-sW-eWADLy05ITs85t8FsFOWEp4e0g5wJAj2jO1go0zWgT9TltTOCmAOYShRnoT49TX689QhL-cGe_mBJXEfPprJSmLr1IONTvICJ7-yFslfVu9j3bqCuLqzf-aP00laJSJEVPAah0BjDib8L076zXpMOeDv9dyrPssO3f_GO4OmCY5YGGdPLQAm5bnWUCWzNZDN78TKZl69xNCr4ed4rdxOl7KhZFqoOBZvnvNXO3Avu6QEUUN0fsAqn7rI4Mx7lF5AclY8izxHVlbrA2tUAhUjGQFAd215suyDFHt9WnXsrt9-btumyC1zOz9I7G3IlutpHz3g5CLb3PT-yMfk-wgvfix1Z77fwaKFPKjtTAME3V03BKX2_AObFXmA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101309462774578321227\">Toan Pham</a>"] },
+            { photoReference: "AWCwydiBGuIjcOPvzts2vIDtiZydLqXV5w390zLxU9y8kcHWfJ2IHWMgxnwOxL8qdmM-5t8ar45n82XrK2sZmYxZIH6LkKcOPVP2NwMk1jedSPvUf90cTvlY5_mG0npXranzy8YAxJfd6Bn6Fji5KHEfkvZ0BybkLUao84JzRu7zQkT1VmLhkXqCwN1lzyZ0s2LYlvcfzWRc_eKLbt25VfK4Q0Trp4Kv95Hc0CdLUNkcoBWbLST_UTj7lvViuNxEMf3D9_1Sl_FsMIuX5q8QHybbZRlgmaClIgYu1R3Nz98WChlV5Kuve4PJo3EhDH8ZXbQvQDN69P51E0Ox85XnO9mAxzRlejnx6YNhNtxbZCrfhJ8LGhxV0_PpC6-EJbizMPBiWP3aFY6z0y1JpCJMhfV_-uKF2Zs-d0IUmndSjvrL4FzVoWK3", width: 1093, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102518062714901185740\">The Cap Hotel</a>"] }
+        ],
+        summary: "환상적인 오션뷰와 친절한 서비스를 제공하는 매력적인 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["멋진 바다 전망", "청결하고 아름다운 객실", "열정적이고 친절한 직원"],
+        tips: ["객실에서 바다 경치를 감상하며 휴식을 취해보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "01 Thi Sách, Vũng Tàu, Hồ Chí Minh 78000 베트남" }],
+        location: { landmark: "01 Thi Sách, Vũng Tàu, Hồ Chí Minh 78000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://thecaphotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12595091331278990262", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94%EA%B9%9D+%ED%98%B8%ED%85%94+%EB%B6%95%EB%94%B0%EC%9A%B0+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "바빌론 미니 리조트": {
+        photos: [],
+        placeId: "ChIJzcXsSXpvdTER3WS4cHsXeew",
+        placePhotos: [
+            { photoReference: "AWCwydiU9BLldAaXV7s2YAvIPwpLke5Ho-PUMWz-L1GRF8qH86X1q_P5jGfBZZBStEiW5gmlbLU0hb3qS2YQdDhVXeMSt7KVP2xR8mfJgBi9UDBXAGOvi_LhNijCoMiGxmGdekHzUb-Dl6V9gigdY4LxG6EqYnav-dhzzYwe4bT1aWCorSs_RheSy8AovxRo9gZDngvBQvN0NNrNrvH85NXOwMHaryqDYKpO8A9lmaoTgItEi5sSHqwakY2LV31man2zJ4dQfV57lF6wHgUJPSk14HyuRCk-5MIRCEao7MPmeYzPgRA9AoZcy9ieerAI5jFlA4YfBKGAd8dn2kLLhcDMFDbQh0V_4CLi7rP5pPlICbUalKyt_ciufC3tSB3oBUIKxPeiBCYmdFakQKjR9dITicDy5emsJml6R1VfT_EPZ-HXL0o", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103085818435452800777\">Babylon Mini Resort</a>"] },
+            { photoReference: "AWCwydhFUmoR_gjTULLNdgnuUJXR41TcYm7YzOb4Fc2iTgRzRF2p94cgZTA4fpTyjhLZBB6mWbTvA0PTcGMYIMuZpMQsfWBHEPw14vj1xIO8RMHCKiC78X6Fgipb7HlO-wzIb_AxiUdEN1Ze6AiDDCiOpmSUpiSPpT3uRdatIYT4BAlFMmFFfMhczKQuDf5XbU82pkfqqPaIeDpEz4coUNh6fL-Y-D2s67h-LXFdGiG4EcHuRFcnkeCIa02RTJfnsfH8aZ3R3BKR8mQzWfPnLyFNFu4GYLBS3V-5cH4o4E4zbgZr3fm2n2UD9kSQsulE-J1BH9m_X-nkrRSnvRhGBICfL86ybBMA1UuZIQfeXSDmA6cejJ4uq1ZKk-5iqmwUMoZbEjoXO75q96jQRMo7DfPIW0HJUF-5fcH_6QVefF-lmtG-7Eu4178tPVYojkDyvw", width: 2560, height: 1707, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113787401184255970767\">Mr Doom</a>"] },
+            { photoReference: "AWCwydgPw7LXHrsL3oouT5twC2vuQBEYIjdKTthTOPSjU2nD_ttgC3P8D8yzqbh0IwUz4I4Dlh4ZGK81ysfrDKaKK9XjrbffTL6rFtdL8KmT8Py0WIUlqhIlAe5_CX9vTevYl9eop6a11rvYVBGvzNuh4k3JDeKtCGy2MXO35SsxSukkl9qjpwZc_840tS1yVHn7Tf2y6EjEkMPtgdf5wHQrEQME2IABQMXeOGSbDZ7p-2NenVJwLQJjRKw74McIO3FjaXLz1q7p8TbWaw-T6w12YEHT6iGkaNf-w7uhe-xoYMlNMC9zHZNWqyo3oBjGAkprKQRaNL5LAPVPfx9qFF3aSJs5sIfgDQoVAhqqrtzyMEQi_WzedC938BJKeW8Jzb9cH366kC4mjP1yt_kZLmSybaktBJ7kTV4jS4OGYHqrR9F78h4", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116018279503626074278\">Ta Hong Ha</a>"] },
+            { photoReference: "AWCwydh3iaUUrt_TWfiRbWdZiMidqZJbFw7YgXVu7g3GRLSPY9UHU1Jio6hjHCKto2iUFDcr-Wl8QgP0tS-xoJ-1xP5VB8g3jUPDoQlup3PY5ksk0FCkmTB8QnVFFTnsczll0Vow9d-T6GuOvYdgqoP_MqocJ-Mo9M9o3lOtRyycgXGUttMb_SFwI2Ny0Lebw6pgNoKkgzXtHrsXrH6-q2TKg2ON-1efXgmag79vP-i2YLTdTOF3tKlacTY35TzU2jrHk0sWegmJktxTOOD5RjMbyL5dM2dqX06Ch2Ceg1F7CxiegkbfytgcsvK2llSODw2CR5kVGXeYeVrZq63SsyWVoAbFCw8O580RSGNRRcE2HC3e5GgWq5kkh0qEhfHKIVeuMhuE2deOhssnDGJfZ_k-vhGOcuHCsHlty6svYU8TsOGHORZ8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101466893637727690556\">Vittoria V.</a>"] },
+            { photoReference: "AWCwydiC7sRRPLiVBcM01YL4oI_JlIzSyysJ_ctJ52PtePXcK7CrstFxQ059rzOu9ifT65B_1SBxYg9LKhGwHomipdqaAB_K5VPk-_Y96uj8tHUU13zjFcmLv3c48Dyl7NwFoEHIhunE0vlQreek6rDE3Cl3RgAlCQaepEltTyo202yWB1cy9JqOgqz0bjBvQUiqOWAlLA6lA_lHl0fM4wlUTIbjjA-sFaDG784mWJD2-p2uMEnbkKJ0yNR-LGFlZguwZkohM_rHsDMdaLaudIyASwOs0Eb4TYY-ZU3O6w_RiKnTTmetb6O_-xfo9HqKzDKM931ieroKwIHMU5m0XlpQ3SJBsNKTFzWR1T9R-1DyU-34OCdCazHc4nZYR0kQSAgdzoC6iR9vzpHmDVgG3IhjO0HeBFFzyBWMDZnCdSOYBq0", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103085818435452800777\">Babylon Mini Resort</a>"] }
+        ],
+        summary: "다시 방문하고 싶은 최고의 경험을 선사하는 힐링 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 서비스", "힐링되는 분위기"],
+        tips: ["그랩 이용 시 위치 확인에 유의하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "14/19/8, Vi Ba, Vũng Tàu, Hồ Chí Minh, 베트남" }],
+        location: { landmark: "14/19/8, Vi Ba, Vũng Tàu, Hồ Chí Minh, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://babylonresort.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17039676484072531165", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EB%B9%8C%EB%A1%A0+%EB%AF%B8%EB%8B%88+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레 아무드 로리안트": {
+        photos: [],
+        placeId: "ChIJlTUiCdgtCzERKAUzxOjHJ1w",
+        placePhotos: [
+            { photoReference: "AWCwydjK4t9uKQpnQGjMcyZRI4Pi0diEqWIcxUSslPnZOpfEYPD17gtGyFB1XuUoPV0fa3dPt5oWkbKf1MJGykZA7u_jbfLevU2ja2pKPh0i4EmQyvOfnObkz_bNkdnyzP5wDOWimljKCp008vXK7xosxw2w_lee8zSUGIlNUES3zgfzJZMP5f3MvMxDAl2ODpgiV89fVlGv_vXUEA7O96jEaa7zYW3uQ6Cpr7meSgjZACQb0aCDBqZhbw9qGZam7Eqzl3qSFUtSNyjI4nU4BXlWBsQgOcMOSeuit-eYk_00AoTDhmZgDSnrh68SMR14wGJY-fDLZmxFMdM22WMAovgkrsQS5mRimUXpq43rW1SLZkY58M4nCW2G-K3am1E7ApSUL27_QH4tBoIxPEXG4HUOzj2-vm0l4GD4yFUCk5q0zcJ0Gy4WBga9eRctGZYagfwH", width: 1536, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113949115896031322197\">Les Hameaux de l&#39;Orient</a>"] },
+            { photoReference: "AWCwydjFz7URgBmf68k96_afa5MGxFXZJsFcQGBNBFSgwVFgE6uHD1mUcnYG3h18N1HGBxaLLOU_U_mQlPnJV3rcN5TYI86JXatiFH7M2jca75YWp6G2-y_3pTuOnKjFQ_HVf8HKGn2B55-1uYY35M5UEZl_hcQiet-Gr8t8w9xHTZ_WD29tXrv_3Qgg1UJ8UGNc9Fd0y-jqABRm68cijlOJrgCUVQp79BXLK8DoA-am1hbD_m3H6T_WoEjMoBi-w6QIrgnIOh2ow3_G4NvOSTLzJ58qPQWhCfqWrkW6Vdc4BjPquRmzHdUJFezDV2gRtDO-9HKirQ0UUQtSQizORxPYEqBjtVdw1v6bppVkzjuMmmNdkTSHT_DBeA23Ter-yN_T7OhAZ14yQw4HH2XRzd_NS2WbVr82DC9xSdw0HHfScl_WlLTquzBcAdjkm_ufj4to", width: 678, height: 452, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100591469190375232862\">Phát Tân Đại</a>"] },
+            { photoReference: "AWCwydjmSkNJSFC76Q9KSLL-h_1YxOJWUe8Xj-GUB6zMQFjxdvGqkFTrVaTd-CStpuvuBaiPHrzQjZ1zE1lVQIzbRkYzFHe_REKc01z8uSoh1JE8-hKwTCyCKn6AG3piqD0SBAaxsc1GcIA0JAQYu0ESMl5GNor17xfQXjj_mL2Rffcioxro4F2Ow96PoqaJBPCBYAXo0cD87xG4OB1NNVzvkRqFYf1fNJfFl658A_EESlMwvW35n-fKvKk84-QAEc-Vb2RMnQzJ2N7bVXkiuk_xle_yDw7DeUM6ZRAGTnatRzZITKWZjl81eD-BhWr-5sP5WACiUMSCmZLX1LjXMlVW1euyCY6oNJ6KR0bVlXrxU61JCX7xpa-IQWBpmTW6OjpfVMrPPI8hbwGbPyMiXOV9aaV_y8Z3C6_3fBlh5y_GWOiLkw", width: 4000, height: 1844, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113657083486153798535\">André Querment</a>"] },
+            { photoReference: "AWCwydghxT6ARFB_K-YEmum0PSQocsS5pEBwb0JvvmGN48cbVbDkX_JqtxaBP7g780W4ikQ7ui4XMjfBuXr956axGLhUmV3CAT9OaQL-bYcuVcj0XRV8P2im9JoQ5Of-cYqHDh4xUUDDufvF_augWo8Cker8VhgSL1ml0YaUEEvyf2d5piocoiLvRhTX6DtCBIEVj2afDDIoJtr2UszwjqouNciEZ_chDWJInSqChf_w1FKotdixJIaAMaW2yt4HorY7CgRTcPCAZLF1TuS4g1RJkqMBPOsxegiUXCFFyZJg_ykGLm2dsb6lpBvTe5YxEclfhPNmk0yNWKQ4DnYbd1ttSA7PwgIalN90Av21OQmN4ww605OsvbRbqBqhlSB_JnClTbSgLbLpFitKgfHQ-4BJIV0-qAv9d0dijw4P3GWv9jilqr5g5y7dP9Ag3JSi1g", width: 1160, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113949115896031322197\">Les Hameaux de l&#39;Orient</a>"] },
+            { photoReference: "AWCwydhKFqhZ7eAYBvcVWHmqG4ly_ZWClbIjjPLWW673EGqvbY9_b7O3fwDO1FAzpfYUWl3vLhD0WKs7_p0flpsLHjo2Znv9ZmxIkYpRaqM6j9TJlVHVygGm6e9ns5Ne38RANpwAnmBgaC4xwfSu51dRlTaWqPdI1j2OG0KiIbCk4JikJNfZOTNmyPUaLzhyCeD3oWKtQ2_pR2boqYOuTDe86HKYICYbBgou1uCcwYam5UJQuzJFn1DEAaU9yIAOPm5Mr3Upo5DH1Fw7WY4c9O1kKGS_Y50fKE_7NdiMPInLFnhMNU13OFDox9v5qV6Z6varLTyYXVyf5qxCrO6htgLSPuDL_nwoq6YAO1uEFbFaJdruBLuJawGyC4JWLDJ9do-axqxM9q0UGFM3cR3eJGYN0_K_wT8WPiWonoahnjqPNxR89HhBftBPC4XzI1Xb2NBm", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116957512962832153374\">Võ Nguyễn Phi Ngân</a>"] }
+        ],
+        summary: "평화로운 환경과 친절한 직원 그리고 맛있는 음식을 갖춘 휴식처입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 직원 서비스", "맛있는 음식", "넓은 해수 수영장", "아름다운 풍경"],
+        tips: ["할랄 메뉴 요청 가능", "꾸찌 터널까지 차로 15분 거리"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Số 29 Đường Phan Thị Mọn, Ấp Ràng, Thái Mỹ, Hồ Chí Minh, 베트남" }],
+        location: { landmark: "Số 29 Đường Phan Thị Mọn, Ấp Ràng, Thái Mỹ, Hồ Chí Minh, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.hameauxorient.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6640495978119103784", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88+%EC%95%84%EB%AC%B4%EB%93%9C+%EB%A1%9C%EB%A6%AC%EC%95%88%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "서머셋 호치민 시티": {
+        photos: [],
+        placeId: "ChIJjcFsvLQodTER1NOL5Iaxeok",
+        placePhotos: [
+            { photoReference: "AWCwydggy05jb0OnsuEPKPFoOEBqqrVn06Y8aWv2CPmuMtkCsOvESnnCZjrRHNt9076Qij268zVXlVrsDz_tV2GS2rHQjuyZwDqCNThCBTWu7QgMMJw82MjSLiK3QeHUemaoVDF3J9lXbyBM9LHr3bdtBKYeChv5EdZztNphEeSmfGeQBqpzfPXZpJZvSQsDuJqZivcg04N_fkWnWcblxYI5QKtiyPWL-XEG1g8vudDEpsY6B8KBDIFDQuJCeJsQptvVb4-VbQCOymh33IOhVE9DzonIuigE_49xI0d6JmEqIppwgY-daVEf1P0J95Dc0M9txIrGHCGOEc7urRzKH-BLwNO1dkpdv2UqGE3l6duvCkNceA7XW_0xqc6_rBEHo0HrEyeZ0qVopXevyC8S0xIuxwsbsts1G-DvM2xvItlHHgG-MjIq", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101528601106711888011\">Somerset Ho Chi Minh City</a>"] },
+            { photoReference: "AWCwydjhbb2zGVqgioCNPmACGG9ZK8PFDcXjx4m3xzhFFTsWZQhLQPHR_baDaO6ksy-DF1UZHphSAmtKIrQS9iHJNXBz7Fk-YiZ_XcTDz1B_mbXxZD_C5v_udRz-0sojfrBG166t3MzZDFcrnWz4wGrEGfjb48YGb1iqHwpV0zEBD4bBxndiiIc_lxMxrK9VUOgscj0ZsATyBJXte5O7CnFSh5X74oXt8lf77Sv9R-J9IxOQ6InKaWRIYJO2DjxZNbjR-8QcqgXa56MJdrBkYY_QIjmXu23cb5Lsg7Wu-34YHOXmww51oP8m37gSgYoxY9Al-3JdulgT6k-5zJ7OmQdA9Af_U_X9joTMoyIUTe4QcWf1pKbZS-75Ho90mNT9F6XVJVUdRWzF2VxZr96iLpxMHHFXYqAf9qHWy30m1xlytc4", width: 1919, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101528601106711888011\">Somerset Ho Chi Minh City</a>"] },
+            { photoReference: "AWCwydjyrA5ZR4ZT9r4I5GwNn41fManPH-pPn3a17KGLpXUIbwfK9SZ6-9byVH26YY-HluiCZnfr49m-XWjNZH_h5VPqEG3Z28Hmu0QKLyanMbPt4kFDvOkBYlf_SRYUdTaBkUIXzDps-PdME4UHsj1AqKPjOBc_Rm-o2Y8-oQXrc8zYKBXAeDIRHXfgY2eSwM2vZRFws1H_6L4cO5zkpk4RoQyXKgsVM6xyvhR7sgrc6DZzI9VyVVyuods3FM7Gh-kK3CI_0Zd6Qihhe5pbkldl4DyVf1RxguU3W9HIAV1-k91ai-LBtkEWUNx8C9oIiCMFJcnn9QSImIZPvapCsxZV5_2T9PIvijx2JYhRsGrsUfltF29DG1XPCyDSBwWqBsOfJgds9r91jtbuMy-HNVltu3sssJQz1tdEjc1qFVd3OC2_wxjt", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115822860160311261950\">andy Kim</a>"] },
+            { photoReference: "AWCwydi2OdVxTrtaz-qH-EXzaeQf9_rHCkcbdiVPC06EJY5ZT1sCGLhN3GHJrZqnydsMVnae8zULYfyXS4r656ENr8oFTaxKYWX0tWQ7qI_ikgaxrAcSXv2gmxtA1r4enCblXn1jgIlfA-yGqbworO6wQMbUa-lK-Nk9zyYFsxc47u3oLcg7OduAxuTyf4ZeUN6MXwijR_DaTg93SxO8IbwuET1Y-7kvUIADEBlkjpYpPFMum0yteQmbVPEWtgiI28RnxDvvyzkoNuMmY21kyV_humF5Ot24FDg1yDuNbI5icXVBglCL99prxv0GdeYw_Yi_mZWFvQQGk3o5jIAEFDO-bD5Nr480xlrETH6gzuA5LAGoWJQW1cn2uN6OU1sFpuU9TWxjPwVbXZlEC0HZL66LLr_20YluSKv5XbHgxn5VqNXnhwzn", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101528601106711888011\">Somerset Ho Chi Minh City</a>"] },
+            { photoReference: "AWCwydg7WY3l75_6kpORNlFBmNDlxF7LiBTO8QpVKXMQ3910h1ViTTyF5kP4fmQLPBPJVZf_IzuSTC0ww8U_T1h2r-2fW2C8oaBztVYGu96YPVClbeJDSLJ_AGB0gdVUsGjJH4rGl-qHSGIuhKyXCHxIYRJ5wFFl6fcsqY23SDcztrsEj7RF5n58DM1hiaDsKZ6fP_8zgvRKrSK7_Gzcl-Pz0iw3kEP7SHSfqlxtq8KU5HvSFOfeG3fXH3Aye9G0etbmDxLRwxTWjE-FUajPm_1-rOY8iEwlHWYDq-8xStjNExpsk8Mnqe7fdA7KkHmaT8eeXu8mH1YUyKrOxoPuVZrGPrRguczzdR7be84DxtNI1OEyimNXwyMsWEQUVr8bxt93cR8zX8uXp2YZs9CQn1XRtFuYNxNBCMTXvzCyq0J7a_Ph3Q", width: 2000, height: 1334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101528601106711888011\">Somerset Ho Chi Minh City</a>"] }
+        ],
+        summary: "울창한 나무 그늘 아래 야외 수영장과 어린이 놀이터를 갖춘 가족 친화적 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["야외 수영장", "어린이 놀이터"],
+        tips: ["친환경적이고 상쾌한 가족 휴가를 즐기기에 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8A Nguyễn Bỉnh Khiêm, Sài Gòn, Hồ Chí Minh 71007 베트남" }],
+        location: { landmark: "8A Nguyễn Bỉnh Khiêm, Sài Gòn, Hồ Chí Minh 71007 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.discoverasr.com/en/somerset-serviced-residence/vietnam/somerset-ho-chi-minh-city?utm_source=google&utm_medium=maps&utm_campaign=hq-google-maps-alwayson--all-en-vn-vn-somersethochiminhcity--gbp&--&cid=map::gg::hq:ind:::all:en:vn:vn:somersethochiminhcity:0:gbp:0:::", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9906425523272930260", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%9C%EB%A8%B8%EC%85%8B+%ED%98%B8%EC%B9%98%EB%AF%BC+%EC%8B%9C%ED%8B%B0+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "T-Ritz 사이공 호텔 & 아파트먼트": {
+        photos: [],
+        placeId: "ChIJgWFjWLMvdTERWOC-i6Kh91o",
+        placePhotos: [
+            { photoReference: "AWCwydj1szmZf50bNaG7FRdli-n06nrqq-UvnULmIcS59GRqf5uATAVK3rxx4IoC2URQqD7XdWmipL55cYMTS2cCFEj7-TjEXjjdH2W8Aqfr0SiCRFxh9Amvr27jqlSxAud_zBXkAZkQGBemRskyzbIS5u-yZGJhL0mj4nOoEX-GF8ICZs7hgBNSVJygETqiVrDmkBtWe-AH-tkffuFecGqFmVrSA88lUGSi_H0YP_AGty_kWaQKTcqTCy7WibSGRq5GjD0m9SaiDDuhfJ526QEoMb9Je-hOVdP6XVJTu64CJLHArQzsYw73LrSxdpSV4oBR3n8uHX4lE54-UqJz9xG7KiNB8Hhw7Ca_YnEFswL0B9WCaIUJymAiEfba0GdJ6GzvmLwpw1ajzBTk5dkg8Vsm0dZIkW8Y4KZxs_QiKrgIdiooCaIH", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117898432569336321716\">T-Ritz Saigon Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydjhBSixH7q-8oJ5aWSKlNa1WuoD82U9BPO_PzU4lMCtR_9N6ZVCZ4-58vdJpwmaiB-uBGbfcaHC0dYTVEfrRTi7Lgzr2s7kBa6o5S28yRUOFlAUY-9Q2xH0CxIs-4iXFOtM6OIfUuWnudfLDIZzPaNfywbPruQ06teQe8EdueZNuwYw5nKYzk4fU5sSC8FTHfNk6QOc0446Eo2AWdBSqZSrhDafAH6-aRPkPgzElzrzDAmTMe8A3DIZ9aSIHXgzB1ypTAMUli7ctF1TjjHq8HRuORdayjeUk3BLMOXmVQc2Qi4WCCLQDRvUsslx0qScHuY4TvkArXlTz8a5iWwkryh2PIKYIZkv4k-z5oGguJVq91n1qOiEGVEMDCo3SuEc8X0Tm1sLA1sRUYNxHCfpBdeU3s17BAfzM7MKr6xZfsuWaqfS-xLRNkMVdtWirPTL", width: 3840, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117898432569336321716\">T-Ritz Saigon Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydh7UbXyw1rbEfVQuRXW5tPAjqzg3wbdjKepXH1n2_HcR4hTAYmhPuTE11yIrWYDDp3WOv40pFEjicg_MMrKNKKsRYppvInFXciy-CzyTKQxN31R-4HLMd0TwkOabW68E_d5NPFldtoK6vyOScicp0fwx1M5iM0hHbhIu0QIDDjd-r2SboHI_AHvUytyvIiNNTm-Bw-Wv5P26J8YZQ8MDCPBtAnRyyO3JphzteCBmbYyEVcIZkv5lP2xeSAjyL_HAlocjqOYn2NEtKpeqm1e95ieESTSIoIKZYyHeSXiRY9rGfm7LbWTDgQ3Z4VWv_GyDUaUZ_-hFJ3FHQFBBPHa4cfL6lMxt3wQhXUl912uHHcd8kzWG-9Q-LiKmFtFbS5-FNSJ1NYLXoD8DWjMP-NtkPeKZGuSXwNESUAAVrdXGz5mgro", width: 3840, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117898432569336321716\">T-Ritz Saigon Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydjsdzw-nkGZzcUGptWByVYtaE_NFiPlsdiZuBdTN17JDVNk37kEP7asYF0X1946iZBylPO34MHWJXcoEVujIuT-GyLcVuV2u2KF-YyM1r7rfk9HwZ0ag1sPeYKHZ8UqwUOP3qqPUnSt8k6PRRRmpFj7wbLRDN-dVN8g6PZ7kafbypNrcZrhJk-XMB74WWsgy9oxe29pNIYMG6sssC52sVHAB_ztv60Cer_dRN-62ORoY4qL0J2DeM3_0grmZa4tgOYl7Gs4aU-nlW84_dBASPSHstEIzlqQd8tTKDqC3u0zk0lZ6FpkH1zxvU_5t9OHphA1l6JEtQIaMFgjN3j6hlDuG9HjF9EWH6c6YyrS78CMvcLaIE8VgbhApHQ6mDf_JAtvwi33IviuedhCj0UDza5eWGe0HLwod48nwqtcw0Un_ICtQhGxFPHzg_ci1gbw", width: 3840, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117898432569336321716\">T-Ritz Saigon Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydgUHASC0424IgBws6qHUisgL15DF743dEEExkLCT6quJ6uctzqnOUNTXOIOSMY8kMgHp1xncCS1_HW8dKycM3K7KrWl6t-_zAaP6ZmJrZcb0w3hTqKF5K7plHWEP_X2z80nXLNlUZ1c2BDXH5EVx0ITej4ZW1JtH9AI15LoG_NT_j2VQQJWfmcO81gJbdOsHc3YgbG-czuqdI7mLjuwGz_JMMGBZ0p279LJxa00Q78K33E6pQG2epRD6xzqxXclUVG1XWcGSvfjjgL0sjJfS-yg9xEoGX-f7jI_h2tT3z97gpmHj0lxzZOid7J63P2OCAnz0H1ZUoXPtql6dyVdbcXY05Xpr88cehM_YwTTxVgemrLi2Yuw9pWrKBg3f9jqVlkMSggQW4MZM4U8_D070mGQSmQ3jlDjlfIghIpKYJcO4g", width: 4800, height: 4225, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117898432569336321716\">T-Ritz Saigon Hotel &amp; Apartment</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰가 증명하는 친절한 서비스의 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 환대하는 서비스", "쾌적하고 편안한 객실"],
+        tips: ["호스트의 세심한 배려를 기대할 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "20-22 Phạm Ngọc Thạch, Xuân Hòa, Hồ Chí Minh 700000 베트남" }],
+        location: { landmark: "20-22 Phạm Ngọc Thạch, Xuân Hòa, Hồ Chí Minh 700000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://t-ritz.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6554885502162362456", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=T-Ritz+%EC%82%AC%EC%9D%B4%EA%B3%B5+%ED%98%B8%ED%85%94+%26+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마이 스테이 호텔 & 아파트먼트": {
+        photos: [],
+        placeId: "ChIJvdfq-7YvdTERqhIvYBzBLOM",
+        placePhotos: [
+            { photoReference: "AWCwydhFlurnPgPX7Bo2JqUFPpns4g8dDEozGaSguJl-gGLMiTf6iUuh9sor8d0s8lHZbeRcPqJsWu_hLF91xJcI5IKizY7rEHqMc5LRcPbZloRWbFSdtCnCNh7X8D2sCU0oOIVF6YoFK_rEboVzl-wRoksZ17HH7hEZtPFNozPGt2FUVEBGOlSf8XOBnuKpCBimwwFmXqdfiqJAfWKlZjeuLu4x1vCbjgKO5sNPA7U_PKNrRq18I5QASkxMPch_rrMAx5zQ1AGXV0XIHWTy4ZhsDkkwCi7eK76n8VMuwC3RZX0WRnGc9ULo5_iPBsucy5lg40tumlNbYuOJw2i_gOE34R-NwlF51m6oaOOKvBPwrBhSIGCs-ii-9zuQPqJofwt94AIc3T7qkPCxuldAIRSRJvicPidnWI-WgJSAKXGcCCkUuALkmJT_KRoUnqN7xQ", width: 764, height: 878, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104022291825239571797\">My Stay Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydhzxh3BSjPh6M2SpXn6i5By71o_s6P2tWLHPuVwKgPHjrMbaYGYamf-FggB3kQMNKBdyOdwwo6g6Nnh7VD2rAm6lAkG7ThFQiHDwkJ65HomenRSzgPoNSikilAZkV5AgdEfPr97ZCqhTGPL8yYe5_fnw1xxtub0dwluL1Qzpiw3-lu9VxhZdwIq6hP85z23vDfeZOw_bfB_DQ1CzcXXwC8eQIiQb1PhzPDCSjqrSQ-4q8ckcp6v7MBLAF8W9B_cukH8Nm0xvOZE4IsI6Jo3RjLvUbqmjbOLWTCxkV9k3Z6dfMJyHCl5wlopPBIfevL1iEwmni19pMHz-4KNFFxgUaxgpl6-cW2DhzZxErIM4rltR2wt7fLJWn6zI0wEdA4ge0sViH9TviTvPAuRxxy7ng4wzGeFcSMpP62VOaYhl5StAw", width: 1276, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101008181871946358268\">Panha Lim - AsiaTravelogue.com</a>"] },
+            { photoReference: "AWCwydjJB9r9Tmdms89u-spX9S3LUAaLcLbN0mej1gZadUDED8FKe0eNqipy2WUXT9gnZJBG_8Nt2lO55l2tthQ-7QnNxm3YCmj-GROBmPQoK87CfjywisyFECA7_i-zh6XK2uDGf0KAli-5KXBIXw3InuY2YoIPzlGxIg8wOJ7vzP3nvaaH_k3AUqt5mUn2e_RS9lXYw6NQvYYxCaZskkCWGBNHr-jUGwFadrUReDqA_rNdvWoEXs9dKco0dNgICpjCUjiRFRcw-ZLXhOF5KIZHAX_hYcyoDGBnwAyD8rsQyTa47thYa16kZWYBqmW1K9SvX22NyprO1bO9E6By7KAJT9PWNSNNJjro5lXFh56-JXjxXnoqUrf-bdP2Iq_Q_zeiYyspDh7BJR5c5XqdV4wDRee3DcGKu1DxvKv73qGAyf99Sw", width: 1276, height: 956, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104022291825239571797\">My Stay Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydhs6HwUA_HtYCsM7SjkQDtY7OLOHqQ-lWaPd5Voozwfxcqbwz3qAdgCKHxBlbUuRTKYKmwkwyk20n26mFMRLteOKUU-ZZU_pEWhXB7I4ZVCYWb519pozFPTSR6b4cqZIIzNRVJZCRAd3b0DBx-xQqPhEJdZzRAKAqdi9QtwKEUn7U7lgT8ZlAj7UG81es25yS-IEah2zQ3iSnuiIz3ojezygUgo7RqGqVoLI3OEzmR7RidEkYes0LLN5iQiYHoTtsHcmCkPeoiSCNUJuRsxL-d0jC_twlP96gItUO9ENmcR97Nmf30cnZFLsnZ9qOtUsMx9yjfZivncl38eUdLV89ZfU6gNEzxYF68biUh8iF0tS--Qit_rw994yu-7o4YwkF9WweODt5fYZ77h4AkLKQvBOXhLYfZ9wC3aJ7EuBOx1SMa-", width: 1215, height: 814, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104022291825239571797\">My Stay Hotel &amp; Apartment</a>"] },
+            { photoReference: "AWCwydg1cb124GpIDTeaklkJ99sEMJ0WsP1LtlAgZPFoqzLU42aB0COvg7IJAN90vKE3M-iYJ0RzMv0_NiCdG58tLdrk1pAfTVi-eiveND4cwUM1vZOV8S4tIMKD7JADgfnV50dLgmVQUWHQBXgLuiNg1-sH7aNoYiG8zDPiRlX-woHX_7gnD5_fNZIrrDNWWzj7jdCFGBJAdDhwar-Hl3xoYJA0eFPa8DwjVr4EjIIJYp8tlmy5KjbB5Zv_WjxfBVdYVHxQHW19FqVqPL2mGCh2g4QMvvWBByO-gyeGH_wpVJKpO_jPCrjc_SbCZ8CTkKcMOA_JS7Nw5iO_hHZ47mRo2VjhEYmfYt1LlStUci8vB-S4q8soz8sj1UpBfwD5KCnW9lpyUSYXAnk1ZVFIJ3KRJq38td7s_Awk9n_tpIDwkKVFELIG", width: 2568, height: 1926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105843501275123416503\">Chi Dang Thi Tung</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 쾌적한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["매우 깨끗한 환경", "조용한 분위기"],
+        tips: ["필요한 모든 시설이 완비되어 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "139/5 Nguyễn Cư Trinh, Street, Cầu Ông Lãnh, Hồ Chí Minh 70000 베트남" }],
+        location: { landmark: "139/5 Nguyễn Cư Trinh, Street, Cầu Ông Lãnh, Hồ Chí Minh 70000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mystay.mywaytravel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16369671073201853098", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4+%EC%8A%A4%ED%85%8C%EC%9D%B4+%ED%98%B8%ED%85%94+%26+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "셔우드 레지던스": {
+        photos: [],
+        placeId: "ChIJ_XgLOTEvdTERVgs7aSdoyDk",
+        placePhotos: [
+            { photoReference: "AWCwydh-yGXXB62GxZux16lrpF0ps6jdO5zo6clGdOOIuaXe4Ef0PhhfsDkM40QgBGLVGOXMtXlDzGVF6SQeM1Xa17YemkscbOyad3grV7rBalyEMMGLx_IdHFzkGfLtQ84ZJS-OsXT6xEw1j3hiNTgtVvy2_IWkyUlesh5_md6DCpg3s9XQfsgO6GoOUgK-Qq43V0cPNgAbCK_2BQbkTV5Ff97dqj3YcFloliHKQwZE3BptCsBlWEJ3r9RAwdR1aO4C5spGSmNqsOrsd-CfRRTuvbofR6KD7KVfBsoBYritwbw0JHgg0w0uq5J6OMLrwLX9eBRM8sQbipbg2iJOiIP84uy96_htCiBlW2YATwqqRakircP7_-iI3XtkWr7-1_Cl-JmjCOrlfLsnenVM7isAzv6qnoh5Rkt1KrNBW0TSrcc", width: 654, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100285675715656663038\">Sherwood Residence</a>"] },
+            { photoReference: "AWCwydigaQt4Vo8bFu6RpXv0ikse4GNFL80RGZmsEK_7dNjm6J5NHcLQGHbLneaniPTGMsvciqRhs-sztRwKTC6BAojnkSb3wfJ3BppRTUysfBNJBF0-yJpOHaXfRJr-3Ttzjso6L8mw2-ceH9JCQ7fuhMwn2u5lcalPRv9FDJbLY2UUxEW5hZdkE9FIyzg-Q6a-IZ4LItjzxLWlrf6Qz8ZXcwA7yn1l-Ol81LKXtlSJfL7dIP8zo08oBN8J1pXu_j0XBkbJzGsoZBiJ0goI2PvoSGX_UODK-_-cncVtUng64Zuk1cKWgJA6kx3zCalHhynE_YZgO6NAHF0GVUlSsVheXuuji2PpMW8YtaG171rqK3gFrdzFRYbRcoV8u23xTUFPB2eZrnQgcz3NhlkW4Kzt2ogr0MZvTC2PdOjc6jy_R9f1_bM6", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100285675715656663038\">Sherwood Residence</a>"] },
+            { photoReference: "AWCwydiHabPPiZ4a0u3ASyQYBDZRR4FkFxUYzR3HXngkQGRxbZOix_ZBvdquIBUKh2_XMgU1yZLAMsszgXT7nEIxiHWDVILQwlE2DwJyGHV2XcPbvXCGH9I6pezAlMkv4MK3vYID6abE_HRWg74G6xx0TtpYW9fUrJxztXgGp0qUwlEJ_wWkmFJtJ7HWzrKjSJzsrs9PMY0FKRV9E2WzqahMIJS-xWchvGMegTh6ZrxLn4PUYicN_mzHtsDZ35XAa3SjaP-8ilostpU1DATymvQApJiWYjTq6EU0nnkvGgp7wa05ZhiBp-TRUncg7wvasKmgftgM-m8wHNYhOrGFNSH1YDSItex8R74b-GmvGc9FnMmKh_LTyFdN4WbBZD3jRIwUg4Q5ChuL56qJNJyozC-wzvF-sifpTgsSEQfnCqjTnKSwsuAQaxbGeHAc0QayfA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100285675715656663038\">Sherwood Residence</a>"] },
+            { photoReference: "AWCwydjA4exIJrZHojYf895vhfPoRsMOzIfnmNGqGvT729P0KtZ8z6Kguxx6iFIb9ItUFBQin_UR8GDGFEEUNOQ17dsSOB0wQ32YNyyOGC96zofSVyMnQfWEGMFg_cPyz61od_3mrGKrSfKpkaRnRB2xKrf3pFOZhXxSevqdP3gk3xNFW0dPGXUuf3xxRL-dKawWTls_CJhsORji7OUDun8o_tWKFvn-5UCYr4WjJEIDAln0LMe82VVLj1gc4lVlXuT5euMmh-YeI9KM7y_sLVtjGtjc0c4E6ANperaeykbmxpbuXxJwtlVT_vzhgsUI5MfQ4tJRj3Awps0IiTSHlTTAoKtO-gXDXFRjaOSXkNOubqW_hiYQCyp9qPLtkMM5BIyVOnpXk-iXmk1tZxFuTanmk7LcnJ2MToJDtDSTvqtmagDg8g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113953942841038759320\">Ian</a>"] },
+            { photoReference: "AWCwydjnq695Di-928_3SKzPx7Z3-TBTvqcjB6e-F6jBbPkxSfUo2aLB8aifTPRQKDdfP1KMnNjfxdVHAffu9Et9wvGokHPKOe5aUBU-m3w_HwHrhSKNhZPMWMHjd2PSDlbYJsO4o52BbY3mVwOC3b37irO2k_ODEjrTlua4SoGcX-Q5JFfjHltgSopiSa59W8MdKeRvp9y5ncSaIVwJ9s-vkwpEpD1WSRpnAT_QbT9RrwfwUfa9Da_f5xKr9ZmspTk1FeyzrRdnzwJf4OXNPf1O--PYuIrBY_Kz6XxnW6nA-4K6itfyp5VQjkq-dBGjLOxFFdkRCzsl0cL0HEFu6k6XEljoIPkx7Gc7kgU1hi8Qank0-SYCuhhu90OImks_MjeVZG4pdLy-he9qvtuJddyRV3hcHcFzpB-a6jRzcYsmv_vJuOhKOxt6O2oT3m5TAyoB", width: 3200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100285675715656663038\">Sherwood Residence</a>"] }
+        ],
+        summary: "장기 숙박에 최적화된 주방 및 세탁 시설을 갖춘 쾌적한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["넓고 깨끗한 객실", "주방 및 세탁 시설 완비"],
+        tips: ["세탁기와 건조기를 활용해 장기 여행 시 편리하게 이용하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "127 Pasteur, Xuân Hòa, Hồ Chí Minh 700000 베트남" }],
+        location: { landmark: "127 Pasteur, Xuân Hòa, Hồ Chí Minh 700000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.sherwoodresidence.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4163692373982514006", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%85%94%EC%9A%B0%EB%93%9C+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세도나 스위트 호치민 시티": {
+        photos: [],
+        placeId: "ChIJdRwXXUcvdTER_epqc3PGm_s",
+        placePhotos: [
+            { photoReference: "AWCwydhLEfLQo9xh_UxzkSpYB18yEWQNH7-rsqY_J0DQ03n5QWpNeqY51yEJnfUb0XMZI5eRcS93OhfATR81-rTD_UPNwDg6OqSc5hJbk52xY6T9iH3lqENarmSlKusB21uwFbJECedKiRmQ0EdzgObFlOisuU3i1GUiZn9Y3MzpavksqcQFfQwgJuqT0phj7vGbg-IAhKbkxm7sbMp1LsYAy-yVA_qS6KQevBsXJVVMMxGSRgji_EmwyTSn1YUeVDTlXHIt3iel7HoHbn_JjWpKVEZs5rOsNevQ9M9CveJbzY6QR7gd_Fkyw-VRk4qEEYSAlG51b2jA0qe7RB5wDBS6w1AOxdOakIGlTeYELT1Hc5N9s6GVUbNDYRClxZ085gGR5JLvjArPvvyYGK-iDkMC48XZXKZxbhCQg3gIogw8AnQgxw", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100917496262645434749\">Sedona Suites Ho Chi Minh City</a>"] },
+            { photoReference: "AWCwydijpZJoWxMnxNpjmB5o4O1NPCUXGR_bsJ0d4NIA7lBZFQEeBWll_fPPRsZtvIyvt4qYDh7xdPEd1AdKVmJvH3IF79fDDS020auljJl4cCRg8lL_tE7Qc9MV3Gbabyg6XghzLy5sOFZyXHjW9urErFduf-DVe_xPZZe3flLwOHGfmKd-yfnACaNKaOo2PIZIMfBkb-8lUgWm4xav44MVycO9lLRkCXkizoSW8Z26o-IRcwDNKWPZG9sXmBRBMC4TD-KXUoqrHJRSkPC_--N4u6mH4PFSoTT_m8purOz-nxshzOihkuTr4FkuUE9l7v-3708aKzyDlEifDgu97Y3XWCqEkksx3QBb-GsrO9_PKmDWrQdUgbiX-DTycIIpT4-ZyO5Nfd81OogEZBtxVEwKArDGQ7hxxnVKkdt9YwG03Xk", width: 4800, height: 3205, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100917496262645434749\">Sedona Suites Ho Chi Minh City</a>"] },
+            { photoReference: "AWCwydjEg0Jw71SqzG1ioeW3MaPUiDkoYGU9327ZFnBttKAfPiiJwnlcf-ohgqXek6UIVAPelzWfOKtppBKHsndunHqAIaSmVTTkZCs3U-N8Q19kP0ETXxy8KLfdn71g898WEADZbY1EQ7B2VQWH8FvLnwbIdLs6wxffqnrPVwykeNPwBaL-hOviZeAHP1xVM-EEUuKkfFdAlqLpG-xnXt6A1jhoi5CkrKBpbkV1atN8vfJS7IuQdaMOZ7JStLl361D847ZHIj3Npx6MmyBC3bZANoJk9U4Te8e0BojXYUyPeOvHsnNa2nHFmlu_egr1zP4KeKr9wMIKiQCtjuLP0c27D2FIFeSI1d7WlZJmt96xA4NPJ39HLO2MlRBnZnoPmvzUX5Z2u3tXaNU-QK4VydB66t4hpeDtLXlErqxBxJuPurpO2iiE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104129734595298249992\">SOO</a>"] },
+            { photoReference: "AWCwydglf5BZ8K3iCKm4daiK8G3a04F0cvAR7dpSbXwLPtij9-9wuf4TA0eiuY78EWhrVfN_zFqtWeajOO6BKHksh45mQNvkK5TA-R6iapYF-QVhMnr5wz7Dq9pLZcv2T4jRqVO_tXOSJX3nCwE2hD7bxr11j-tK9kVg6xL6Rsslb8IoDiQ7XP-gW91W7jmZlP9xMF-uY3ntmQoItU0XQcZLI1M-tKr307MiPK-CQ8JzY_XjiuwQABMB6p2jfHQpzaGtDm4DfMLpo1dOpJInTt77XdwW54F37FJF06OjQdsyjZien0E0BvNrAOKIyex_yKhQvEMWlBiD5xKk39yv6avGK2O3l2OD6V4v95ENnS_5vacZPgb90FcJkKj3rJ9BJSjNg71RJXQAzue0Ytlg5-VPFHUGkaFIR7EW1ixzT2BEMIk5hA", width: 3510, height: 2238, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111942819204118967959\">GetUsThereAlready</a>"] },
+            { photoReference: "AWCwydh-jbK60WYNhLZ6NL2snvECb7L0mkIfi9CpPBZ263y8w7akOsOCXz8CIzgeTNStJ-yS5FRnCyuUON6HBpkjIkDfnv_1bhvR-pafU8Op2C_ijGSQp4YeUerdJSjNNsK1yFKX5WbfMlHu8ZNbyiGSU_k_Bmobd-sEvhLIfaYeOlGF557tpfiN8G9o0wCKGQCu5Cg_kFDHhiI5FcfFc_Sg3_D-bWk4W1IO2QrqwqTzp9HvcWpdmXkYAUTvu15CqvyZw8wcp5sEUc2fz4jTy-0Q3GPzzzklUIZOGFNEvxREHwekDc0hvnLOdHqlbDRoK5Xrj1RLLavgu9JtBuE3DpeIwM0LWQuQPA8pKQ_rFvc_lohs6J-BRQunGyC3QMf1okC3rm5FOMUfo5B7T-NwE0mZCA80TYzlITakdFxtWBMJLTdrsw", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100917496262645434749\">Sedona Suites Ho Chi Minh City</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰가 증명하는 서비스와 시설이 완벽한 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["환상적인 서비스와 시설", "집처럼 편안한 분위기"],
+        tips: ["비행기 대기 시 머물기 좋습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "67 Lê Lợi, Sài Gòn, Hồ Chí Minh, 베트남" }],
+        location: { landmark: "67 Lê Lợi, Sài Gòn, Hồ Chí Minh, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.sedonavietnam.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18130302924069989117", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%B8%EB%8F%84%EB%82%98+%EC%8A%A4%EC%9C%84%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%EC%8B%9C%ED%8B%B0+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "사이공 칠 호스텔": {
+        photos: [],
+        placeId: "ChIJk1rgBD4vdTERbnpIhtpyyVI",
+        placePhotos: [
+            { photoReference: "AWCwydgc9mXXyUU68fZmGX127OPpH9YRJV5KZ2jdYXZl1_ZmFtivy9np4-rbkS96LHZAjkwPpAjUppDNvXYTIzR0O1_wkSmKtI7FhDIcKbMdpwJ8vBgtwOBX2805H3_UWJXFShYobsmx4xKAdcW7jxRsVaj1Af5l8P9Ui-CnqaFGvrZnzWFUI4FYkyHOP7DHYRbQHHKwz27pgsYXadv-br38XpsbrD0RDPa56xNNK83YRBytI46R-RAqSw9wyUwbmcOiLwK1FLLurO1cElZl461rsFW56vMzh0nok8Pa4A1j6Fv61Jf7hunXWycZ55DzVwppk_5V4JLjLqlQG8QBNNajyXWWTE1e0gkiDXPzXNJGcoK6ogIySyaDX0jZ83naRs3ltq5ysVo1WQSbOA0C7QTlhTV-wLSvru8w36zTypOTKy4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105675334661758816562\">Abhishek Singh</a>"] },
+            { photoReference: "AWCwydiMkNrKpS2OsVL2iIpO8K_yqX4PmEu1DJp2UMqd7jlqCr74MaNBGn0FbXj2Z3FHO2PQZ6FtvMQvP7AYkG4fU8UEzT4nCcq91GLMx177azWfmBZqZ7tGK8Kfgkmjf00W-AuDScESuXErgQk0EW0bmEp7kfZ3NzFUJyUY6vF7KJOePjjCuRDkwFi4DmqIC5X9KmK21OMvWkPfjQqT6Syy8fUzj8xVCL1kU0ZE_dW7r0Y8Pzr1wyUTRNuxCtyB9Brfg_UWRWtjtaQVsXh0PEnHBrll_aiZ5R_c46KWBTa7355Nq7jIJtw1owFVCw3wYhzFWaIl-Wyx_cnABEMuJBrGZtt_tgDXLu_yAI-guLPrd8f344D3e1Kcu37Yd1wC8vEmqbph0GNppW-ld6XYhXS9LMfCvzGwFfLSypWKdktS971X_w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106202824302429962554\">명관MK</a>"] },
+            { photoReference: "AWCwydgRO5D4IV6rQpOBVFwUCYkjrXQRbnjRwpIL1PxAN8a4SIyPvs_gSdFLw-cYe3GMKpdbVIB6Y9IhqTB2QuSkgESGg7keTSQbeIUILfuBsuzgNoo9NUIA4i6mJTo2e1XXWx6iSGmO092dZdnIRj03j-8ldmWavOmIROKYMQxgddUjvwWd3M8hjj4DTHfXANh4C1euBfRgfxGtSSubL8YfCMo5tY4FeGaVbeRPYNnzDjCSr55JNyWQJSTjkYFibpNd1ZJswRFkLb94WgyVCV0Vpef1xOYAnXq5q90CDvIjCESJO9cEB1w6NHTCHa1AYmFxzQFNhYXDF0hSBourkcVI2pSnaID9IYB1JFMCnyU0GV9oZOSmI4cWK5XuHz23MbYtpJQHxzfbRPWQi6NjmOYBE9ipvmsVEQHaBmosaWhuRVHjzu1Qghp6VlDDQJUnOeUD", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108578748559920405707\">Callum Williams</a>"] },
+            { photoReference: "AWCwydipuh3jV5SzUY9dctAUyG5jWHCjeh-lkg4L2FqnsQf4f9HHIArdmsKIxy_15Lb98bPrbfKavBOzns2_GmKRssSg4FqX93rRGqWyPyWRVb3xZIC706DYRWCta-HwJszvJYehps5_TpZNUevQ7Yo1On7lgeu6nG00om440UGj0SCaA6gu9e3QlAJVWYyyTKXcq9ThKp1D8Cq_GBdWiqrQqzMBhkASJwt2_5Z3c5voATuWQGj3932kfP6LWrBQwROPnLl1oj_FCaT0wvMRjiIErE3CPfUlVheY0oKx38e3sx4rd_6c9NjQM0Sk6qEZVnHSQok1G7j3ObveWuUz9LYOI_xD1lQfDeN6JmsaG6RF1T9ZkPhQwdhgXGl9YLdHFFlWdvhig_D-hNOydRTGgv2v9WInBYQvISLQdsNP1aPbvoOGow", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109159968161133597150\">Lê Thanh Tần</a>"] },
+            { photoReference: "AWCwydhcYT5poLxetWv_QKH0UNchkU3LrKQiEbenm7RbOxasJtTAkXtJXUvkc2SBiHD2A1p2M-XpwXlNk4MzLXVA2I3AXvsdgTMCKF3cnXLCCUNDQ258gc1hfqEmTbyKxnvbt54nn1ftGcowKjM8QDqAnDb-i18CfJan38EUr0jrGLkz-kduNAkZoDoiszqT9pwqCr80YsbDy6mQm4ffrZ7-CEueNrckDLxaEC5X2JtoIHOtb9UwKn2JKuTgtI_7RlBrmnyqVpxGXm1jWLHowMToDXcN-6RjVOP_z1vy1Vt8SM_R86JrUFb5g2pze-RmPeLyhX7r4fffjEJl8zanTz4OXJVGN5J2uEngrdHm04Qe6JWrsVvcbSXOXROLHFV1vxXhJf5x8OdJ1YZT9ZZqvon52t_Dn6Q0TfirHBTZVD5bw9Q", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104288149429639581498\">Trân</a>"] }
+        ],
+        summary: "청결한 객실과 훌륭한 조식, 그리고 친절한 서비스가 돋보이는 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["워킹 스트리트 인근의 최적의 위치", "신선한 과일과 음료를 포함한 조식", "직원들의 친절하고 세심한 서비스"],
+        tips: ["직원과 푸스볼 게임을 하면 무료 맥주를 받을 수도 있습니다", "프런트 데스크에 직원이 상주하여 편리합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "28/10 Bùi Viện, Bến Thành, Hồ Chí Minh 700000 베트남" }],
+        location: { landmark: "28/10 Bùi Viện, Bến Thành, Hồ Chí Minh 700000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5965425464310266478", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EC%9D%B4%EA%B3%B5+%EC%B9%A0+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "비 칸 게스트하우스": {
+        photos: [],
+        placeId: "ChIJt7jj_xUvdTERSjaKsug841Y",
+        placePhotos: [
+            { photoReference: "AWCwydjQTFNhoWgGa3v2s-KsRYdgT-3LLrLuNdh8zLi97KqicCmnruS4fAHQxeO2FqaKloFCQ3qeoLgIQ7IpGzpfqZ8kSvcLoVfVN5rBHUljYNvmDXWimIH9gX2ceeVDEXM_9WNvM6vj5ygJeyk7LqPWBy9gtLaXwkG1neHYWvwplndABaNVu5-T9Bkkvidob1TLsfIqCofnKdjCc9TTkwTE08OqKzviD0W15IIGqOgKbzrq8LmIM_0l_splL1gfZzn6MFgC-ML8f_OQlWWrHneRSRKwAmBQxD44nvFvKgHm27_rinNImHeGPA-4TEYv7dRizo24tI2nyFPrbELaKYcO1QMoiKytNpqbmJT2VqBDewNa3PTsCKd5jEwzhEazB0HTWt6iIIbQd-p0ReLRjk0EmZjdiqt-DAC6YgEj87D6vZWKyQU", width: 4000, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101203939698743797600\">Vy Khanh Guesthouse</a>"] },
+            { photoReference: "AWCwydisOyXrV5IDvWuTV2m1iSn_J84Cf2srrsF4iY5aYSEoJEY5iQZq2x3uYzLBpcTsUR5AC3ANGqaCXc_jWyAIe-3vc52lQndy2op1wRAUuewL8WdQTm1CY2vbLE3jT3Dg2OPiClU7XqH7dPEMUu16saprSpm2fj2RT7XyfkWXyAHmXfak51fgRfmbERo5o7NVGN4OJrFsijhXFhDG2se-331xU2YGewXFpYZtwhOPdcPhasCd-034BcBJrUjh4Mh44-3Io0QYa6BWJxP4cn18oKoReEY5g7hnkXtMJr68bC9O0lzpQUh5HUvuBvQBdedEqPEhrIerP--v87siPlVhgsGWGjOzYQEvPFoRE7_w5GAMRyLC_TrN0j8YSbZyC_ktnO7nbWNyNcbDz5YmSY4kQpfEi44ioiOyiIdKZzeemnOkGw", width: 1472, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101203939698743797600\">Vy Khanh Guesthouse</a>"] },
+            { photoReference: "AWCwydgbaf4-IjnHqDCoiZ7Ov4lZ3lIHMJfKBhvyeXqIeUEm0z1ePpzCI-REjWc2300KETcDnr8XmzAjbr3TxiiRCRjoW-qOx0PsAT2lPReCAxRjvIOsgehuXDUEQzdGhxm8X2ke-MjRhAvTes3o_74e0D80MqQmg2pfakhFzSZZEr078d3o9GNeOEM4ZFH-giP2PEd-Qb2HzV7irfi_v8n9cQcp6hSOji0xDFwa_gc5TGhI0sP02vRtls0drSVCNfGGgHsz6zqQIqdJrwHEXEI_dd9kT4rhF0HIPxOGmL4L8rOkTEOPCEy-AHrI9Wz-ly3D4FVNs_iLNKpQ0msO8iyfbHINCnG9to_q4vaOu7KJGNib3oDLMvmWkAHyWxSlw4O9t2Qxx6o4r-dfEcQlRgZJCJE5wIqcOVCZWDBxQWpgi5kho3q7", width: 1793, height: 1732, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101203939698743797600\">Vy Khanh Guesthouse</a>"] },
+            { photoReference: "AWCwydh11icJi2RIiyQM56gKFBtR9ppcnDb2DGO2gtoG0yCZ4n0ax83Pw_kyl-TPpvIdL03Gz7sZTfoIMED6ZdVEYAopbSInzaav7j21PoajLPniYWnfALC3TNaJocyiNzwQoVDgJlC-Ph9DdYGOyNyyLekNmbnqYss9Sg7y5Yyniv4hpnFcQlCYZOi230pRN7WxRbQGY2x0EUdGmAUcdUx82R3tqqRbQS_2sLw7ej_gI5H1zNw1Y_GoKlBiReOicGZGzWNgm7Zc05bKEHCATJqEgPim7kRveaXgQMyX2fzoaNf7Kvj0_fTtSIcH5JK1SMDb7cjWu7lp3GCjVME4AHRJHeQnRFBjf0nMPd0IzKtVo-pRyxwVNgUSK53xzBQSJfwVgB8GyZiCrVc0bHqFY5EXXIPsYnpSQxCKZKOaQF2NEX4", width: 1800, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101203939698743797600\">Vy Khanh Guesthouse</a>"] },
+            { photoReference: "AWCwydhNWvnS-GHHPV4bC1zE-MoEUO1J_vB2fgvaKvhfMMZB2N60O4jqfaKri3mIKUb-73sqqkFHozST4BgivDHlLQFQR-e-Wta14LGEcFFUTYvcsCPaOm5-xh-Bgn466aTNlpc-_RnEZFk0dbYHd1zS1_ohMj7vM6bm3SAq4plQoJUt53NxHric6NLvhjw1ttTwYVGPhrYTio7FKm_FJYb1GsZ0jJN5MrIrHBQXoo62oUfjRVfGWCS8xkbIZvNYVsXQRDzxsSHiM61X4YVriXdjdCDw7h2_suqHWeC9uy2pwwTAxpzHEjWgzcDpcEMuOu4lNbp2_1aafXjiThghVeIDVRvCR7yw1JSKDmIRDJytMIrqhD0rlpV3Ym6bZNpjT6uNhr3XaHRhDx-e0oMLo97ELcB_zI5CyOhci3_0NPO5-iqadg", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101203939698743797600\">Vy Khanh Guesthouse</a>"] }
+        ],
+        summary: "관광지와 버스 정류장이 가까운 위치에 있는 친절한 호스트의 깨끗한 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["조용하고 깨끗한 객실", "관광지 및 버스 정류장 인근", "친절하고 세심한 호스트"],
+        tips: ["사이공 관광 명소 추천을 받아보세요", "숙소 근처의 다양한 식당을 이용하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "241/11/6 Phạm Ngũ Lão, Bến Thành, Hồ Chí Minh 70000 베트남" }],
+        location: { landmark: "241/11/6 Phạm Ngũ Lão, Bến Thành, Hồ Chí Minh 70000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6260914877100602954", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84+%EC%B9%B8+%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 커먼 룸 프로젝트": {
+        photos: [],
+        placeId: "ChIJw8VB5UUvdTEREzkmVsLe5To",
+        placePhotos: [
+            { photoReference: "AWCwydjtLlerouUKLXzjV-OzIz5hTFC2Fn_9lWH05KYD2PDcpnSFwa_eM_3SldlybJUjtON8tC3SQahuuJ3lVJTtTbAnjs48OcJ0v0haNWZTM8bce4CagmkPo9O5VhqAMisdE8kOERqi795EY3RtdZo1iilU_EhKzEAgBEChQMf2UKPX0MZUXeu-T29bS6_2w8-PhxImWVSM56S7Z7SpiWut0ChwqTxtgwEIrQ9MPM9pMsqLY7C77Oe9WIWgorRuWLaEGw_bMusk3_0OKYAOyIPpZJBRkR6lZg93UyHNS4hDnd5SHMbdXQufJzyxXInlVm1G2c8oipp4ZtZDeeql_xLjicAoZxxyOoE-ldk_vtw6jDo3b95H3EPeDzFk6MbKdqB2KKC0YIr3cpUjgm76gPcf-of6xOJzkHxhDZKdRZbtKM8Xomo", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572210508180821303\">The Common Room Project</a>"] },
+            { photoReference: "AWCwydhQ9TyN5Ha5wvkIz4ATGplhwieYZ8f8xCgndLIvDYKjm7HXcbPyXwePSWzxOfsrFah5Bwn9Yc0KyJN6uUDj9RhhjtHmnjGeh9psHQm3gysr20xp_CygHGFqX6HL9sYoWyAK8-A0G3Dz9i3Rsne77DF8o75sTiieo4NNpnE2dFEcDKIamBEiPFnx21y0qMfzZSI7rBHjJbZtTIOOpgMcfLihfSI-4ccb5U_jJ7JDbUnMWLtTdDdGYMBRuUx8BY3AiBdVKeiB9axeHlfolxexR2ZUhPnj4_twhdogMMtc_wDBpwkB_Se7IULrSh_UnG6wjazt7XYeNOCDh1AifXGwSQEcfPqMO95Mn-RDZT5X11rpOVnzDPq2jYtrR91fba6qrsjxazVPwsiZOBEM5-aIeA2zuxUFQMcMRw7oMWxIGRX2pg", width: 1500, height: 1001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572210508180821303\">The Common Room Project</a>"] },
+            { photoReference: "AWCwydjUpwTt04IJtSJruniSMu6_Oj8EMDl2dufGbzf4kGCuVzdybHpZeAeGNonWXrVxk_9uX0c5f8Z1887djAGL-FypuC3HiauOSdZjwFYxclm5JwVjkqiceV9xA5nlnyveNWUr56gp-scG0nUezkxp5OYsVoIJ_BCyBJTGCjTJ5WgsV-4gCZcGcqeEHw6CTYQJ5ju9Zds52GpB6hwelHnYYqAW_7U2Otp5eHXqobAwY0smmbJLVaruTcxfdxhv9YVnB9W9X8b_QwKBNmxGL7uvdZawtUUyjSOMSeiuUcglyZ0Z9hRo074x0LYk2lJZ8DRGiirFA1l3Noz7bcman56F_0ITqkg07mxu1TUwiuiDqnvJog8zwRLEYGD3CKt2GuYmvmqm13QvYA0ncwjKRcOV8YmqTJ6BFWHlgGEIS1Ul1ESDLg", width: 1500, height: 1001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572210508180821303\">The Common Room Project</a>"] },
+            { photoReference: "AWCwydi21IbNk9ABDXvqgnkTteF7-96sFpUtGKGoBKCSwCesqEy5ceo2M4qRxK1eouvrwg5IAyvUuC0j1xVIGcQi1AekuxQyrz1NMgIfjFmuDY-RD-JnasscaBwKI8v0BFZT7utzmd83-kUZdM0WojI6S7xaL18WfMu2ar1c6ifIaByn1tQJQkMclFYc7upDbMRdJcB2A_7nzIUQ7wwx7fohjhdnnLnL_zTPMgJQmWrkabV1ZiA6o1m6a2wDeacWhNnB57qyalekm9nYVt5vURKVLlc3cWuhrj46ToFvPp5v7AkFmIo5ICjDbhsUbfxEHqSMoQa9fEe0Tzaj0vAgjtM7qFhy6ikaIGTQcQUWWZUYy7_cFqh_VYlqDNJ-EWnx9zJ1OixQVw2vsvR_GxchDt8jdm-k7gSjPa5S280rB7F4GK3DQqcC", width: 1500, height: 1001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572210508180821303\">The Common Room Project</a>"] },
+            { photoReference: "AWCwyditYRRth81qNTR7XUWWqepb-VQhj6UzXnW6zarEDbSZbaytAi9aVg5NrvAnbBYtIZMel7FY8gPVZonWGXLo4KTaQ9X12dSRwzTP6GN_uEH9-0ccAdavBi5cSSeF4QxAsexvbIF6psMeWOusQwUJWDdCzwiO-LfEBA_7RDtnFKnqcmTTId7i03DSTrE7uXux7sk4NEyTCzIPw9jGDlHdvRnM0vWdE045z53xnge9i4SwK1hyRrv_x0zIW8hXLcXHUHtJ1_segY7Gb8yga3P9FecpO7z5FpVGZ3W3Y2wqKmWui4xZfXSDhkQFrUs202a1wc4Y5MJ9VzTXD6tLMwYMfFxEOufhG_U4xmcIIy3Uv5AKQ81A25rI54zSeXcDDyCeCYVLrJUDgTW1VaTZdnv908fF6V87y4dOqQVi5ieVB6dtDw", width: 1500, height: 1001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113572210508180821303\">The Common Room Project</a>"] }
+        ],
+        summary: "친절한 직원과 맛있는 저녁 식사가 제공되는 인기 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 유머러스한 직원", "청결한 시설", "아침 등록 시 맛있는 저녁 식사 포함"],
+        tips: ["아침에 등록하면 숙박에 포함된 저녁 식사를 즐길 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "250 Bùi Viện, Bến Thành, Hồ Chí Minh 700000 베트남" }],
+        location: { landmark: "250 Bùi Viện, Bến Thành, Hồ Chí Minh 700000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://thecommonroomproject.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4244043150116927763", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%BB%A4%EB%A8%BC+%EB%A3%B8+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 루프 타일 호스텔": {
+        photos: [],
+        placeId: "ChIJ_bMX4M4pdTERCNIX0Fu1FtI",
+        placePhotos: [
+            { photoReference: "AWCwydgAn-VALTsPae9U4JwxO1SeyKb-8FxlAWrkZFVRFMfSENf6_hLcPOu84Lr1MUHdNSPC-sn16uwoIPwNjsFzq-BdAvabs6lh8o7zszXDM15z4f_AYLbcN2kEzRt_iD9jA9Xs3a8G2EtzZC8SRMjlIRBO9v55iNYKhb839z3Y28TUq5OaYkwGIz9L54W9hjCjkeuOH-RRh6f3hyBf_0vDaWiX_vXb8AkhdZ3-wujLxgErm-ZG3jEQ1ayhrQTs-Kj0xzVzbyParhKoh2YcKi-4IuzHSrGK9XOQ_DJJvXdGSHCAnYqTIM7rYF4wk1w437m64HrzZYQzqhVkcirNG3fW3oP5ZSS6Yv2bmnhGLkgj5dRPMcAk_dgAHKF37K1YHda5VW8tW2OprRdNEQA8ub8Yp-6--pFIoUiIlYhgJVucZY4", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103914752203823758097\">Tường Vy</a>"] },
+            { photoReference: "AWCwydi2lDkPRmymmjrMdItSCk2w0qo-lISnnp7KcxyHtnQJKDl4vqWwyHUvpWZ5nX6-iwI1PRGysEbRGuv-8h8CE6GLuOWlAqcgsoZOanlw5T3LAVd4ZqCdb8qcrRXBQgWUhoE7MrS0FaoJAt79mIGTsAneoiU_uXoEAhA0OGzZ53BHOEDIzAAqM81NPsKesFkMG2DX3aDUC8AHg-qw688KIttoPD3v74X4Kqjr1LJResgZfzo8uCEQFN49bs6WsJ7nlLYE4DPwMTmZAYVXj84-6AeVtD-gqkLrqTxpRhq9ODk6S3GqRk0tmEM6TKWcxXROYw6ZmkwfqXeJ0rGUF4SKtkfKy9UV8_pjYGcaXGCKlUfeFkCgzcD57ssWXEikoGVI6S8aw68O2LsVTdvL6KC4i5MVMr7OPv3uxKIXA4uDzgIx85ncsGol32UrKmbhdXnf", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112709885241005085524\">황뽀</a>"] },
+            { photoReference: "AWCwydjKaCePOK3WaUEInHlkakaLHdqPhUFSM-5tEAmMK1_lM4_DoPq2BhdWbwQkHMCObdIAcG1HAcx96l11O0rM5rEJ2BU5YnrUrVTFJTcYYmNG3EcyZ74dgYION6wuQ2f_qCOPu7jKY9J1CLChcKclZy76DEP_IQTkUpdmbkRXQSrOgzE0v5O2WTL6a587mXlRAV6JUVcp1hjhKMTag3ckauCy2g_AQvfnuhEaKG7SoZjV_ZTRC7-8GjOlKQmw-rX9VvI7qu2fZYiDXajR76LHh5ZRaZcHAodrzsSMTmpdDjmuC0dyK4zHIE0hgS-eu9ObQrAShY3xESRM4WSmKmhoSAu4qXKLEmBvzweHxLxtEPY9_s1zxJCIPcHH4-KiZgHrUqAZNDR3M9GK7KG2tO3sASKlIZbCVr82nBQY2v7ttL8DEgY", width: 2200, height: 2200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102772908949439021961\">The Ngói Brew Lodge</a>"] },
+            { photoReference: "AWCwydgsVajscL7cAs18AVEIzNfgxDTEMr6_T56hzYuRZgeqMrqR9wEd1-wKAgiH63iB9ENGHjp9fqKJutAL9Sjh-pfoBDc5ZWyAqVxwqQRApbNy8AEhh3N0D4iVXR-kpbCMbMc7CWM-Xay29Dl9bgRxk4C2JnF8nzKgSRCWoBfLmFT9z3lVP_ab7TAyZnIFJgQ2epfZlrWuud8uLOQY8eeYT3wdFBbknVIyI32qDnNC455dZZHE405l79qbedm4FMlhj5mdJu2MGFvrgMWhPA7yQpGPuHXrbe30yvT3eTp64opw7v6PF3ZYOG227xCfGXQ2_51fVAwCQsgB3vIxhBzwDSon3s3nfr2l9jX5-tq4JDdshV9pK4csqICnB6M117UPdHdRNKCMigjVJHKdNhX9a8ydSQI_Rn2T_Upunl9HE3oP6w", width: 2400, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102772908949439021961\">The Ngói Brew Lodge</a>"] },
+            { photoReference: "AWCwydih998uG2xRLNuhMHKofralkQB5F-4Eft7IECx_mtkNvFzyFI4fjZqXZB4pZOZplkmSTxuC8Mq_uADjbek0ZV0t6QYVNUhyUOreKFhKsQKjXxlFraBMmY4ijgihIgIUWNSecABDaaSPKaNvJwDGqPvqFMcCx-q5JAkwIgOwSLOl6WvVTJrUefX9kUlItroDJmm8lGm9v8QrrZp2qr-kOU1FiFYr_r95Y5ryxQ_yRCG1gt08sfoqChpx0s8Y7piUpXKPM4wg1YDyiemyhfyWCO2VqjvlCmJNH0TKjiotES1IQ5R-ZvU7DxHdZPxdP8oEfE5f1_5jmgMKOGjfYYUqG0wyFMW-Yx3XabgPkCZgm9ZSqk_L1X3ACwiVtdmQ_Z7lx3DCR0Vm4rUqaPjuq4Xjlxnw6wUaQxb-OnstKJgmvhSipQ", width: 2200, height: 1650, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102772908949439021961\">The Ngói Brew Lodge</a>"] }
+        ],
+        summary: "혼자 여행하는 사람에게 추천하는 안전하고 친절한 호스텔",
+        updatedAt: "2026-08-14",
+        highlights: ["혼자 여행하는 여행객에게 적합", "친절하고 세심한 직원 서비스", "조용하고 쾌적한 공용 공간"],
+        tips: ["Xanh SM 또는 Grab Bike를 이용해 공항과 시내로 저렴하게 이동하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "10k Tran Huu Trang, W.11, Phu Nhuan Dist, Phú Nhuận, Hồ Chí Minh, 베트남" }],
+        location: { landmark: "10k Tran Huu Trang, W.11, Phu Nhuan Dist, Phú Nhuận, Hồ Chí Minh, 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15138486603390374408", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%A3%A8%ED%94%84+%ED%83%80%EC%9D%BC+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시티 백패커스 호스텔": {
+        photos: [],
+        placeId: "ChIJx2QVwNEvdTERZyANfRCm4Hc",
+        placePhotos: [
+            { photoReference: "AWCwydixX-KpyL9cD5rf0IZ5FpFiXi-sDAYLMXE_3NTrcyBQr40sR72JfOXvBgtjNBKYHK5rn52CQV1vF32L2yDpFx_YFS3QOH2AZp4WTSpEteMsgSyH2w5vePsV3FgYU64Cam9efjawzhS5i8c441IGBIWGyraCqPvPtoR0rzoHVjv6yIHAo8IUJgo21HkmKaNTUOE6h2CrDroWQQN85WyuJ8tfjW1KGB1f4M0MxXRxOiLRoHj163uxisu7ICsNgoOCmsKCXIzdpLYvcoe5x6ycEl9k35IUPf_vMfwHYhDwSgNF-pANdV6SdOmV98SRCl4A5cdhaI_8xChC8aL7KoipbVKwkxAgqQeKi_2ZDVWhpX2mF_ito9DHcZxLlec8aQXzR9Cp_AwR6Ek_uTuPXUrQjDowXdeImy8EMDfyBOQN6BLsDea6PAnotwuzWxEmfEBa", width: 2560, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116262161658225665945\">City Backpackers Hostel</a>"] },
+            { photoReference: "AWCwydhN9In9d21NuNV6L7c2Ci5ijt9Be63FXSAJZYRtG6SvWSFavbQyPQv4V_w_C4F4a6dl-MXAuy6aHfTqnIRdtFCB21AwF6rmh9TxhR4jkwk-ywJ740enX0qpYjVD8wm0PgnFMEupYNxFRrTfCNwV6GaBQlSC8O_vQwo8pZ37Rgc-6x0B2lUVLxbs2vDn9XMBNzWHXH7ivWB-DpghIzVOasazSS2lSb-IibXhfYZM5Ng3QWphRjZgb56qjrecFrNZKYi1HQAvcgHeHpaIfEA9TzoRcmFOHoMVp-naq9sZP0TPHUvUFBdZiVIMGc0nGQ9zTAuZe_CcDTuSpYaAtnwWUbcT7H-raWWgDH_YhgF0QY-6hL4gmz5rD6UNGRfxc5rsmjdjQnEiCCDf-3AoEZtC53h8nY7x5om99vcM9jw7qFD5vw", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102736457441182371642\">Hoang Võ</a>"] },
+            { photoReference: "AWCwydhZyGzBt9yndnK6Qbfb4QH_J9yZl4f-rY0uMIVUqDFbon8hJoGDHpMQyWn-yjqCccbERORZFGTpkzd--MQz2xhwJqf21JflVqQFl0IQCqQ7m-TgSB7aF_IaEc7GFSSfvTZUIBeYOBNpQLgUq0QaQ_KKBWJ5RVFWfJg-OzHtY3LF2z9yovVrbbXuITwFsFAfpSOa_GQOl3IiCsB40zjpkm98cgnHSJg8qLqM8mZ34EmZVUgctMhUpSPWiXbgY4aMViItFrGCl4p6Kgz2cqUPwrj5SyXn2ziugwNaWUuZqobApAE3Zumb_r-ArjbIz67AGBPkeeNRFSFdglU41kWj6LakxtPkFhgG63F8hk0yX2N4J6y3S3BvxVAI-Uqdf806Gui3VuqYBJQI-Fnxd5OcLMUwu98RBo5VQRfgWHVysa8xs-iQ", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116809497400021080044\">陳珍惠</a>"] },
+            { photoReference: "AWCwydgurY8IU1xXy4-ulxyxcy66KkZM4gQPrXRx51a8AfKSkkOydRg_CTIaZ82JQFnvMno69nq8r-mD2htHhJQCVeLXNBjx3oZKaYHUM11M3FE78hS0Ul982xxamDizML3IKSncBLBeqr7Do3CA-7JlxP89fSU2i6xtgQ-HlLLhxaUcNZ8ege29QAlV3f-vrHeTaMfB_3Xu5EodiQj9OKO3xVJwHREl-rP_FClFH3mwtuSAHsk_qeKLZSOneZCYKCAgyAQYFmOjHgq0mExZQ33hpeksb8zFAu0czMU3-zVPLz6DBYfNv9gIkYzu-sp-MkbOG4OVvwDe78NBBqjZNohgEZaIHRrUYR7Hv3ajPGKkeL4465Sky5ZkJVGdL-5NqiAJhaCED-oSNwn5M117UjX_eEctmKDwuos-OXxn4GXRs_cv2g39jei7Vph-wzkjWmXq", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116262161658225665945\">City Backpackers Hostel</a>"] },
+            { photoReference: "AWCwydgjUfrN84dg08bv7kfprnb3MGHkHFh9YoShkoQ1dLq_nQnBwp9nydU4C1Tkypf3OTa6Sb3b5OHqv5vMWtzYCbMgzGPiQC2d25OUyjq9LFSsYAg43934_1moYZ4lUVAo4oIa0qfyqzG4-1GJRZVTXoQBa6kMUyWll4IMPKMF5QKLsewWwmqhjUvz8a50qQ4Ui-jXYdp1lJFKV2TD3Gfvd9NeODXP63jkvvhq-ALogbl6g1ASyZfo5cMrmza0VgBe7-NP8GCDdf62tGGILKrmUX6EuoXzSd9Gb36vFxTbb94tktGgetqva0rJPXZ3Bizn630S2i5OM6n6pXqJKZEelslhtnQqFFalt0UxIzvxNV35A2-yTCsxsdh-c8R_jJ1M7pnlfsrqvAsxol9DmxaoZFc-8ZO0PYFURy2Zf8MFq30v9js", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116262161658225665945\">City Backpackers Hostel</a>"] }
+        ],
+        summary: "높은 평점과 검색 순위를 기록 중인 인기 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["4.7점의 높은 평점", "검색 쿼리 내 높은 순위"],
+        tips: ["높은 평점을 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "7/1 Nguyễn Trãi, Bến Thành, Hồ Chí Minh 70000 베트남" }],
+        location: { landmark: "7/1 Nguyễn Trãi, Bến Thành, Hồ Chí Minh 70000 베트남", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8638086675044311143", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%ED%8B%B0+%EB%B0%B1%ED%8C%A8%EC%BB%A4%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%98%B8%EC%B9%98%EB%AF%BC+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

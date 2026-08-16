@@ -475,6 +475,421 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A9%94%EB%A5%B4%EB%8D%B0%EC%B9%B4%20%EA%B4%91%EC%9E%A5%20%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "쿠알라룸푸르 투어": {
+        photos: [],
+        placeId: "ChIJ_8vrTBY2zDERLXw_LCLcqZY",
+        placePhotos: [
+            { photoReference: "AWCwydjo-Y7jZeEyT462-bWA75DTyJC0qAhtjxAi7E1-wNP1FxzFWrvxtNrfyDVednENdI64_Su64Lun3Dfg97eCNgcBuE5QggskudrlI-j6e2lyS1MjdNz17pHckVpaxgeTgatCmL0mD0hE3-NnUfA-QDRVuw1SHImwjlw_7IwwQIWfA7iNRU_qn0huJ9T_omRGe0kyaUiL_ddns_km1IwajhNlyinx3KNL-lB4xe4-C0TOgbzV_2LWsQoitQ-KTF9mUhv67hp2PtDmsPnmJDlusKG-tJ7XnULnx16Smpwrmn1JyZDSR_MlP64Oj-y4Bd12auzo9EOm0-czyzOcuYgIPhtA2VdwnzA1zuIk1e_5Kvffc7Ps1oDfUzKW90scA_bVoBcFkScjypcxCBOO5FWqMH5FqmBwYGIc-gcOa4cc7WHjig", width: 900, height: 583, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109227585352426931325\">Kuala Lumpur Tours</a>"] },
+            { photoReference: "AWCwydiIzuFQ-F_WphQxN3XXRgIry00EGQuEUXojTJ_orqE_b3-68VusVum7ArHUVJysa1hyupMyNfDPuzZVbH9a0co1OKfK4VdV4-9F1G_Y8OIATpcn4vQERnUIbH_4Xi9arB9opWnCSZ0zH2zotrfXOgT8uvye_ZYEwEYRrDnyBlVzIv-OGJs4McgM6-B0bAnvjEiG_6v7a-GBvxsqIpsqqCoNQ7NdO5LZMZf9I2kIpScP-1v14SLuzcgDJnF945VFnRqge6PUQZoQrll2dMSTWUs9nM37D5q3nTMaT2YPbnii6VXIH-EpdKBZQBMAYGsW_7fKilpedh_xRYC2KoaCNooCD4u0xJw6_7C5hOJiBEj15Xbd1HiwjWepDwyR0kZyXu1a4E3GUPDwV5oXtLyehceikF3wKEUh7uizJNWjSqoQeex_vhS3wgFNwCuzC5OF", width: 960, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109227585352426931325\">Kuala Lumpur Tours</a>"] },
+            { photoReference: "AWCwydgAbA4E1hNoDje6wv2no-YfEGaKAFbneIBAn6ydhamsdkCfyD4ZfFo5OiAoIziMV3buT3dH0gCyBuYaGv_do8N_6OcYq63V3uc_PfF_7-zJf5fiVPmXCe3w2qMPcZVjJ5fUFRbJ2Uz00T6466P-cVua-8-KlW5l6s9M0wS3QL18geTrvAVD9QEkvjSKouwjVsV-GWjPHCo3U_9QMX2dZyKgAZhp29uLRR6e6aAdIT5if0PFYuJaT_Bk0bP2FBMgM-OJrS0goXAtbrypCiKseBeonObjpVaJ70ezgF4gJYPE0H_nPJwvmcVmNymx0Wu-RSex8WBoLmAAfNrgt9wonBC184evImNlPi70x9BdL_EGj6LUB7h5JEipxSvBleZ-dvmE9ir3BLC-PYAkKtzSiOISw-T4YhJ4RCaef2F8qDbd-iIGdQAkxTOnKAMyKA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104744047251766126645\">UNYONG LEE</a>"] },
+            { photoReference: "AWCwydjA1jNRPsDxgUdEJeClQsOfGf0-x5LS0dmUCjJ43W-Ds6PcAtFE2sObB8HR7CDFsN8UUpFWmHTyEqq4YTMT13abr4vyuwZP3UG5dH_oEqwdQSGlgUdC8nQvT0IlVXVqH5_OkKfCMVovU6WaevapqV4h0deDGp8W6M61SJdV15PcIf4vyT7HCF35R9Fa-0WnVOLWSyXUM4kmQMX7dX-mGN2KHsfbEaScjn2LGB8myxlnwMw41Zwbg3mVOtTgnUvTYE3xdkYbCpmrAjwiQZezMGkQiWjJ4WDNkECEmz1WGIRhF8BU4r8Z3eKMigGnbqJRQCgmdhnOlVy8NRpKxyB5M3jrc6LPvKBboCajOH0VNT3SnuWAyUlCsHjmkmfL4RLB6IM1AZXUp9FUNvsrerBIsMXMy6vX965zfBsA1AJP8W9q0VaXd-2AWqesDDctDHKo", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107586772046782002185\">Petr Kysela</a>"] },
+            { photoReference: "AWCwydiA3jb5-7b_HEPLhklUJbY12VCX03tln-Be93tnpaNfLKFpnWOaBv4Montrs7ELifRSdxAXpA2_qIgoQCtSIh8R8SGUYvud_MFIRpKi01vlg_fkvpUodMANZInefwJdAKinQXXVEZEXi8g8d05MtpgHE0FsPNCnVHHX9iDfVubgARkulZgqoo8yqNoXGuX7-vbnVsNWLm_1djmCg2oG3tiMbxjEa5DT91QeVh2yBs_u2T5pFbAvxyX2DFOBlcBUYkf5_-cB4R1quEOtl3SHrrnCyMFXlILijCTOBBncdBzgru-_T_ECjQE_QhOyCiwwJ5tALwJ_1YK9xQNfrNDSGhusxM0q5DFu67njEP5RIA53B5csSRT4QRQbLSiE-bSHVkHyotok34xUIohzSkjE2iqoEj_KYGLNm78wE6fz7smgcjsbXNlr3fdBq6k1w1Q2", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114746697271009122423\">wendy lefevre</a>"] }
+        ],
+        summary: "높은 평점과 풍부한 리뷰를 보유한 신뢰할 수 있는 어드벤처 투어입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 가이드 서비스", "말레이시아 역사와 문화 학습"],
+        tips: ["가이드의 친절함과 인내심을 경험해보세요", "현지 문화에 대한 설명을 들으며 여행하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 11:00; 화요일: 오전 9:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "10-1, 1, Jalan Bayam, Maluri, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.kualalumpurtours.com.my/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10856450416082648109", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%88%AC%EC%96%B4+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쿠알라룸푸르 시티 투어": {
+        photos: [],
+        placeId: "ChIJq6rqgNQ3zDERbmjM3WKfuAk",
+        placePhotos: [
+            { photoReference: "AWCwydh6mO4QLnL1B7CDC51kihxygoK1wZ1kCA19EJlh4GHWO6U6YU-yHETfHa-VawIimsbvtmjQNHexjF6WUzo8azTPOefyJEnje5s23A6s0tt3fEIsD1of2LLHeJhjaEi1C8FG6cpOICcpyhkhEOu799WnVHH0zYyxbnoviUP_ovD4_HaDYKCf8xt_XY4TAEbKqy3siqj80fctiO9n-o65fwiYlgJRmSBlOzi9MhXMfjHwouwG_z6ayPY2FsTjdhaLlZq86NCoZqgHXRh7SvNCrANV08LvHRxu5cEBPVUU1wkbdxGoItHvx5Aj6zHh3fzRm6jEZ1VFoMBJ9mxsoXOQ89OXdCBWjjmjtxA_kIKMsKwp8O6F0li_TsUAHeOCN6dO-iYhN-xAddEqTAvY0C81eB55s-SsJ87EA07QbwF1nrFIdQ", width: 512, height: 288, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113211331279036189769\">Kuala Lumpur City Tour</a>"] },
+            { photoReference: "AWCwydgIoVz08VKdDaL8QXEXaD7DlRCLd5UbaUV4DjjZmIOefbMeym9mRN0Hh0ZmfMc4a4QjZRnbLEHJsvzqmEktr5uuMpQLHZ4e3RvVfB7Jw8PoMHV4EVi4FOHG-EQCnUj34ilIm7aXZqhGAPqm_C9nI7Xpa2e3THbs514vX40zLScUuFmQZsCrub8o3brFLFYe5oYXfZgr_SGaBhEF7uI2eMpzfYwpHqGuX3WmX55Q8nwoasycuZknGL_xlKQdeDb-g-nmZJ5MzflKHvTB0zps0pYDtXHqXZHPbQ0KqQMR3x5wDOvzgqA2W957AvYW6zkV5dAHpetVPa3THRrD5Ds7hw9YT6whiSBmYGTh8bm5XN5LP09EaE7LMPwEwKy0J1pM3u68mk-fIyf1OaoCtqjMAAdrj1DP39p3Pltrub-mkcwu7juofu24aTbAGWn-W-5I", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106890200729758661977\">Donna Borg</a>"] },
+            { photoReference: "AWCwydhL3SWcTaO4GuDqmpSJqlW875V1Div6VFuWuIsi3FDwbk_GvHDPziNvTP_si7VQmwwl4ruSsr0SGnXnTFiTVy3QBHRZJDH4KBgEOxHoc483hL0nCTEauaFUyA5AFB1pK4sWqJpzqX0IZ94zjYvp76EwYga33gJLwn6Qjuka7ic6fTNU9KEcbgeKJOQVE4nWMk2FUBf6ohLpZP0q8LuuakUMOjFB2gjC1r9aTUcMyss55LGjDy8XfNKngy28BkbV3YGCph21rl7504KA01RZlMNAiAs3F4qJ_KMGmjiU-fWQKpIhHqe7Yyw6HC2IvSrmcFtHC9q0NnfWnjJxeRDi3pxVL1D1rSADcnpTjrI_XYx67g2rToqdmG9sPSbx5XPRmxQNUmy5ui3WIcRflh6m6eG4jOOHNoDngoItOvxLxxP14eAG", width: 1200, height: 675, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113211331279036189769\">Kuala Lumpur City Tour</a>"] },
+            { photoReference: "AWCwydhEJh7vUOwqxeCDXirn2ccmIvGYURT_CUXOapyI-Y-9p8tQ7Fmq64iolreLGDKgwATMzow4B30pRhvTpMIebvhE1-VlCh3MVhqDatLgr7Gckr9AABp9gcwKhZIVmfbnLj1X1o2eh1hI5Q32L5vW8r47ienwah-eCNYf2v0zs2S55RObSrHr9E7tS7JqXxGW337Nxd324X8S09S9JZhJz4lFY_3IzTaX75hYv1-CYt9pV0KdQZ6WexHHYYOnXxLyU8UaD1zc4ecljRR52Yt2jed-x9-oN-fATD5WksNREeRExis2uEb9OjvAdd7oh0ngdIMijEbDXKUbAKd-fZTXtziprYa5KjLXEwrZg3c5IRLMj1HEZhAv6KXINNFMTIzH86lPSqK6GEeX0cK-9mgY9tBG3xABHp99EI-L3ztPsWHPYg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109740515398923870135\">Alinda Tian</a>"] },
+            { photoReference: "AWCwydgMASXPjCTEmXJeuDSHxiu6mUwT49lj3t1oiJW8FnZ-oB56cc6MIv4n1CImuvvx56JfL5IfxLY8VCdXnpnH9X52a_MCYxGCRjj15F3SJrvJHd4o3A3aOnfWExxyRtXcnwkKaqPINwAkpjmg1l-23uBzW1QbRO7sAdf5nT6R1Ivjr3tjwJm8y7bksnioQOMPV1JbSRQjP6Txi9RUPcRkkNDzBhq71WxQTJIor719yt9kRxU1QN5lNnNOEhne3KqSvPHlu4z0ePp3sCKyFyGDAjAqIktwafBOSLa0VZlF56lCdD0wSfAbz6wThDGwLKJo2V9-_9_zBlP0IlZsPkMy9sBJEFpT7HQ3kqvik69d5VnmQF-BY-KN1hJ5f78OO93wpp3sCtsQct2-2CtHBUrl1cQR9PAzFTv_yuDfP6siQ8I-fcK01QQZd8Bsd6XlGvk7", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107981270137122368324\">Sandy Can</a>"] }
+        ],
+        summary: "바투 동굴, 사원, 센트럴 마켓 등 쿠알라룸푸르의 매력을 깊이 있게 체험할 수 있는 투어입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["바투 동굴 및 사원 방문", "리틀 인디아 및 차이나타운 탐방", "현지 맛집 음식 시식"],
+        tips: ["가이드가 추천하는 현지 맛집을 방문해보세요", "반나절 투어로 쿠알라룸푸르를 효율적으로 둘러보세요"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Convention Center, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://wa.me/+60122666006", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=700484989032884334", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%EC%8B%9C%ED%8B%B0+%ED%88%AC%EC%96%B4+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마이 트래블 레인 - 쿠알라룸푸르 시티 투어": {
+        photos: [],
+        placeId: "ChIJP4UfMBY2zDER7tpWDKIOfmo",
+        placePhotos: [
+            { photoReference: "AWCwydgMK-nbOpiiF60lXROmq5vnXnCNG2cDTNt_n0u3wIfSZ9X2h4gLSei-GtD0_FpgETrMgnx9kyDmjVGDWaBwJpbMGq6tsR1Xh_GRTmTXXoB4x73yJHM2lAHP80Mji9yTHG5ZeTvBYwAIvSQSETlspCFsajIttPCA9hdtF_02FGaBaL91UDb0nd9qZfenxiJIQKYR4HES0YlSCgnoBmoBr3ArNy1yjUMP34vuBDTCFBgndZEfYfCQvJ03hCqyYT38dVa1Fjq7SFVHBfynxBLqZqk36LzzfNwwEquE2fFy4vPEDJjH_SOyFhO2JspK_JiW8GIxkxX3t2UJM9YFcYAHPrOj__ABlOngcjKyYjAWLZZW0M3NKfTcYj97V1dJFMSM0jYh6tOdv7G6J8By342qY30ZJ-fNufTYHB2ZAfAnSAPj9pVdy8lVyg0Bui36dw", width: 1024, height: 576, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100282511556593531504\">MyTravelLane - Kuala Lumpur City Tour</a>"] },
+            { photoReference: "AWCwydh-Yb7Dz8dWMqKV6drgHMBWMMfOC_5_SIdMbgU0KH4_IsKXaqD1Xhj3y2FEL6dBxizv9b40M-D2voyery7qogzWSw-QfbQe5HAQn5WO4akQR3_qOTZl_CFK6y0XfYy_NTmOL2bCNXjiyWXaldBrqlytfwamEjw1oJnsAQK5_JFmLfaza1xWOd_UxcjRhD7jvy3iD8BR1Ya0_fM7WxChWm2zk7xBL8klTyuz2reQkxpL51n1KEpHh86gUZtlHQkNjL4wtj3NvP98X3KHuWVYHpTdcWUWsm2e3CNeScWmc3MtgMVYhQFOADhBRdKwjYlKdFgWsOENcg-XUI1kv_sY75huLDw1LV6xEKgD85hnF4j9oLCvq1v2yTRsAQWmBib2O1ecavNsFu0ZryHj6b2BhMJjSR3gSWTAyf58-RFtUW25GXSND6VwrVpAjCyh_g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101235553251039747884\">Carmie Azcueta</a>"] },
+            { photoReference: "AWCwydgzY2S-Wp5lEPWRwEziol9uXt_wHMk_BvNoNSXvTWGSY3lJm_8NIoC06j_vSCkBcLlxYXfuaLDEhmFE2kehSTAzJo2H34OojIJSuZQ5z0L19MteOxEbiM8n31_qjCkNfOiZuW7D4hFo6-vr3nSzpPwaPMbSMoHXtaOZU21BQGMHHdmAifyml03Zi_dh0MZH8J7b1XrtXswiLpPnjenTpLtc5vhMGCmw2olcpHdbivELxdoLjetKB6MCM7pwFEDwXxu6OjAwJ8OCKct-xPuIdLCGMip-7VOGVJuOGL3glUXxhI2Aw1kWQhpoXUdhYM7g0PLeRyZgsVAuWAwINARsOmF5Od821Z2j8q32M_OCeGvkYg3J8AoSFwG_dGytyfDCxBdqgjluY-XH9ulW_DOCivhhbc17r9nC-Fp-T24gDLoQuruBlD5FbCWy-HmH7H_e", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113681455501891114439\">Lynda Cronin</a>"] },
+            { photoReference: "AWCwydg6OMpuAeaZ4uGOx8FfTC8rhHMiOctntODJ7ZHj0wSDltN4tz3tOpjP5v5cVpl9V2shDT9oRrazz32gfYAv7l01sATq7me4WvDoJh8XdbK6ZzjEI5EtnCIamJc4_jts_thRQzUKhMTifmZ-6juroJxDoKXUoJSHovjtmM81CYy-xHWm-F1C4ABTM-M1wwkSvDwKJe_8mDslMLPXncImd5v9B_CyY5iW35NGNsi4pbWG7z9HA-NKAJLzKuOJDgr1Dcu5wv_LaFxaq4JUuj0BVSMYGvyrFlQav7uQsCkXufC4qH6H4lsomfmaq7xKylKaxVdNpsjlk4zT8FVIrZnAcUKkTSVUS3MvnAhx6UyKemJxfiVd3xmbv5LbE6QZSJdd-tFpb9G0t-8z7h1X7jVGPZ6xVVaSPobMDLmt_7BYBLfCZgFISbOXRHX298xiIKpe", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103054849505567609675\">Michał Stęplewski</a>"] },
+            { photoReference: "AWCwydidET-9EusqDkHThC48B_N6XtjpT8EpGoTJI0aAq7dg8rJLHH0s0FN125Tc247Ab7yI7NCY5ketwO_Q8hWY3WizZ9vCk6BPzMCfB6SqsF7ax1SynVVj2nX4rm6-eFe8BxCAJLAt6PsF53lFssOaAorfqFjtSnTLk0DiQsmud8r6atL5v1-XxH5sNJ2LQywIzwsKV-FV7vFoZDweUApOfFhh8xKonXv8vIwFl0ljGzwSev19CQs-eqeFI5Pm3lKbeDWIRhrwS6UqajtMhoGyjodmZIkpI9kwtdbFU567uzi68_bxVbQxOhKRvE-jRdkCMRrIA7Xzq2LzONXNP6ynjScZt32S0XfE_Bsp1bT7iUjUd_-wbpN1mOx1CgBjqMMhA84W6iHPdFBT0qogk4l37afcwm9tp4LsHVdtV9zqyEfu5MmJ16rMg1eQLPLa23cJ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109974008166932302751\">いしれれ</a>"] }
+        ],
+        summary: "높은 평점과 친절한 가이드 서비스를 자랑하는 매력적인 투어 프로그램입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문 가이드의 유익한 역사 설명", "친절하고 숙련된 드라이버 서비스"],
+        tips: ["가이드의 열정적인 설명을 통해 깊이 있는 역사 체험 가능", "전문 가이드의 맞춤형 투어 서비스 이용"],
+        hours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "No. 10-1-1, Queens Avenue, Jalan Bayam, Maluri, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.mytravellane.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7673586904240413422", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4+%ED%8A%B8%EB%9E%98%EB%B8%94+%EB%A0%88%EC%9D%B8+-+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%EC%8B%9C%ED%8B%B0+%ED%88%AC%EC%96%B4+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "UR 스파": {
+        photos: [],
+        placeId: "ChIJGXX9NkU3zDERltL7NIZXMmc",
+        placePhotos: [
+            { photoReference: "AWCwydhAMtA14p5xvMAgacUFEy3KeCxblNDcOaNc3iL_-bNCUkCs0E3iHNiVhQpTl_cLKwp_JlxXFbz7Nmu-xYORbitg9ehbIrRg53znAEcU1_VBdvyn7QEPWqMshqDXTuJ7vfJAK3N-wDXVI1Mp47aNNSRipmoWnjPiMiF1xv5Bs5Fwxhw_T4jhMYoFz-Qshdtq2j4L2Irxlwn69la7hz8LlZAMh7rpt8dCRvsL21ScV8U-oVnmDQJfLs7LO4Btwiysu4SKACLRpzfIpOSTSjseo77g5H804pNDsKE_VeJO1viBmLQ0gX8WtKid09zZwOFEEuagki8Eq4VNoAh8RXfBw4srsslLk7q8Yelvd8pYKE0NHzepJY99LDtb7uqMAVsKvvFG9BRRsaS5ur7VWpMYWvPD5ANqPGTa3kn4ZWuY07mdK7af", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100986149687653784807\">Izzati Liyana</a>"] },
+            { photoReference: "AWCwydgCfmdsYgbC8UHzEKvJBmA3vk770rCEFimspo9j-bx3Od65EXkQAz2KCwyppZE5cJfPLXinx1FVJgshq_cMUKCFIsGQ3eyyPMWcGGA0ZUjXExQcPp7lBFUNC3PLyO3TaL7K80iwVuSvMvrizLOo781TvTuLPxUnxFk7UVfsNd-rp7pc2TPyv7f1tGvHae-LlztMWKP_ykIxj9nDmutm71N3ZqcD_QT8_1vMbxIy0qw9ED6JfihKDsVMQoBt6tRffHHjpgBbNzcIa5gHXWWr6Up9lHbdOk7ybhHnnzqJvepsf8TqWqRH-2K_B6BJyGcZBV4pLxHCSuaiwsGGrJ3EYqOlBqk_i3qWOQlaXyuaOXjKU6eou4R722xeYMdx9V8-i5Vfr6j0hqcC9GQOQZp5T92GGfi9FA4-6N0Lsf1l_UAuSbn6", width: 3301, height: 2201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105147372489769959420\">UR SPA</a>"] },
+            { photoReference: "AWCwydiXtOggrDtnxusQ4pZo162bnx-KxVRpx8qBbIHjYNu_f01tQxOyeC6CGI17upnwfGvHKgfpYZlNLVcgViBpWX1PwAqkjxBRK5hTJVms0tJjoByiftWtQXVL7N4lkJ9-ttbcJuSTSw5ZcpUcfSVijFVOw6fmBZpTp4teOr_tyqfC356xBrE8ZLgmSj3y3AfWRoULUAukdKq_6Dx7CAfxZigPJgkNSqovqaBvFZR2yFR3y8GvjdFY6-WYnTVprnSJN-ZezcGWOhpLrhKPObYMI_knR8fTixeLELDlSYa5dy0Gxa-DgWIU4YbQWVjxl5OpdzjvzIayTvebKQHFJqn3BptaQtDGAY7KnHarHQBYoWlwbY73JHi2O0LNHKJepdMNGv65RDtP5VQoCQD6wwRAgJl_W3Uqum9TDU9Fb6fo0nqp2sDStMhv4f_2A1D9AGy1", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117362728504279499841\">Clara</a>"] },
+            { photoReference: "AWCwydhO6nTWOR0Vr9pTSL-WU_ZPXOYgbyW7gfCi8nS32HoUXby93fAFcgCYNUaGaGFLcvrx1fKMN6Jl4hg4Eg8tL8D7bxNfVMBTQZSfqPjnkYtD3C7k3HcHHCylguvDt1kgpq9CGwFTSXuq4K50ROU5Vve3NedxSUj9t3oUdGoQf_uQIiO-w24fRvAZc7Yzsla3CMxGuRqZlrjzsbymrhfjri5y57p6A1dNYHgmV2ZJbFMRhaZHObASR3Y3Ifb91A-uGldSw8zFyHkjNX-g5fvKvQGzGMaOZSmQkkpAKjI1a7HzcgUW4sP3gm38clzRC9rEkGpVi16caXYm_2uHQAou7gDb5z6oZkzsWgVK7Z--3jk5HHVF4IZ_cuwNTLm3MEginz1OD0-2Zx52MiR8t5SFBtS-OIkAHpeNkSjlfKbte6u1e4-i", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110122460360960994897\">sunny晴天的小日子</a>"] },
+            { photoReference: "AWCwydhJlivJK8z7alaw2DFFAudYocg1-Rnw6djEImSkOoZ8DJoou4m3040TmNzW7JeIyZelWYkI8I10XbKlh1Hfodwz_ja7D7-50IU6a2QcuAB-MjI1FQlHDpgfCQGpgWIVjb4Ebb5BM-5K1NV5CUzN26tf5gn6PpoGAaplw43mbTEMLFHGwAv-G-hSEi4t9FQFBzHwvJxkhpcXm-xu1f2PDYCsTZ00uATGP90170li7JOIhMcUUmlABAHantippASSg6w3xEhdbGT2KLXCzAQ4GKGCNoVkOvzTWGg0doDKjRDay6o9j_3t9ad1397gbhIf-iCr3CpcH5-23zBiwifKKTUsvQBwu3Y7GHZGxtUTSYXZo-FNLE7A4ojON7VSGc4E0lsxM0j6ix0kVoRQEDol7DeCJFQEB7k668IbplNt2Nj-Mg", width: 1170, height: 2080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111640546761718068772\">Fiona Lee</a>"] }
+        ],
+        summary: "높은 평점과 전문성을 자랑하는 맞춤형 마사지 전문 스파입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 테라피스트의 서비스", "개인별 맞춤형 마사지", "아늑하고 편안한 분위기"],
+        tips: ["비행 후 피로 해소를 위한 90분 마사지 추천", "Ur a Warrior 패키지 이용 권장"],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7, Jalan Kia Peng, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://theruma.com/en/ur-spa/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7436102168668263062", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=UR+%EC%8A%A4%ED%8C%8C+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빌리언 온센 앤 스파": {
+        photos: [],
+        placeId: "ChIJ6dE_-Z03zDERd-EOuZEsQVk",
+        placePhotos: [
+            { photoReference: "AWCwydhsLW3eTexmKn117MRl2LAjzJmO9pYFzIsyPOdVsVaBm_55JRng_S1kV-YFn6YEouqtdsYa-Px88oi6CkY2JE8eMKbi2iQo0oHxvl7ZgBRJ6LqZ10X93LvDgF_yoWPKNZg6Ke9Ep1SqMUYK_p9Dxo1gP_vmj7aYEnHOvidLglQFsFKiLGpavLpvm23P6ukAFWv0L9TmyHN-mDt-MuxC58QnjFvLI5N12mLJoUnWF_hb8-5z-hX4ghqSp_pcG5Bw8jxwDRx7Zc0LLvnx2w_tGtTt6g_IprMLpUmvXvq0TWXSe2a-dVFNa8iMusnK184h0p_ctWCjWQCWZ29XQi0357PHYFURl1_0LMwAckYqJgNZ-5gAYtIgVDN6KWM4iza2PjsxtgR2pETQXhL4hnJ6Y2KxYS-yhWWKq7jdQ9V72_-OQQQ", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115961728367138632820\">Billion Onsen and Spa</a>"] },
+            { photoReference: "AWCwydj0qCPMi5oFPwGZlQzgLkjuG51RHjw-YDEvBZZMFhpjKaZH9plkgS6leTEx1WinY57SLA_obk8MFWWBRoQ-YDwQoWBIBPoio8BSSyIUh0Oh7k1Gdp7NuzXcZiiuOmBLzuboIyu30_u6RqeCnobk7uxr_-l2asy2O44gXh_m-xQcWKYwBNrImMtKYt4sTTEp1T-MylorPypiIG3IC7juVzsTUBmDiwbFZysIv_N-_1_59ORZLClvwKp5PQ5tTy53ZphsNq4ZUTKFSJNl6DQQP_GthEGKaJl3Wa2R5aq0dG-IwW4dEjO6OjfdfcXpLV5MAr-4ygisBBMhUgxGhKiQGJrSXPjkZzhM7KSJGIEj52zeIiwnR-w_tjdVYrCrX-ExDWgTTfWmL9bbElq9TxoxpuEP9EDGnzVGZtBGXAom-iDCV6RBy6U6kmA0Mbx2RQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114342274075409601398\">Vivien Teo</a>"] },
+            { photoReference: "AWCwydgdCzTqx5JLO7JXVSfwxZvRJ3qopr_aFcGSNKGGVS2Mp7Mh4WVXDuQpX_TCQSbF0BdJzW-NQ8Al5Om4BVPx06xkyF08B1dlXhIzReExynfg4ZMstcDKbVh_vtmyw6lpCz7ov5MDFAsiJ86daZf8S7eho9CUGKHzrc9YVz4IttgX73guQzThnEgWJIvXKMpJcc9qN729mWZiX0wHQaQxzZStDSjiJjqrt_nUDIJxdHe7gGWDj140WaNKnd-Dih5HO_rL1PwvSNgV7odegW7cPN9yqnjJHydP2wjmY9IPe8A-XU5vuDqhVfA_Xec23Cz_LRaPNQl3rQ9m9deTZE0hnNkOkIKlmZ4syc2CnGn8u47uUoSnxwFjKdo8Q9-ywdmeHtXpHAlU9rl_Sbw6tFZwSlVkrl6Q4iTvpayYhjZ0vz-Agc8xVCWo1NK_R8z7aE5u", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113340653064813268443\">Juliette Lamoine</a>"] },
+            { photoReference: "AWCwydhnNkLyZeFtZz2_kMx3t0hs4jRW_9s0N0Zbib5Zz8EytnkqtElv5J9FYLPd941rVs2syNLI8hpBnNE4iYDxGn5FxU-7_ay9fCoQPbSjmXnZuz6N2-JZYJ36CN4sCEYhK-xmAYchUnhN25lzfxSnGHqoWNtWb1B37QdT9Em_X8_lUNqPg6GRof0_U3kYOxpIzOs-qV6K5naNnnN0HC5CY6tTrFOP88ajGqtrcMCI_W7fmtDCiazSEUuiysqqpcG11eC781cYXefJ4lAXgj0dldF-Z0W2Zm5IFb6Zr8WtPTcYYuCnH2xmnbxzjShHE96oo_7Me-QNL63DPdq3839w4IuZYn5cgZNaX_1QowsBX7TTkErROgtNysW2CXdG0SQMTWqghlnjYwLS8oJrs8fSF5MfDmZ7e6J1akkqmGKV8R_70_Em", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115781662298736219937\">Constance Liu</a>"] },
+            { photoReference: "AWCwydgQzM5sZGLm3L43n6hHPQ0tRXFFORShZy3xeL5wxxaurSvO24eTkEmIxfVwLa4pzcVoDdpuEI8qQHIDHDxxAeVZP471nHcEajdCqt82WkbRgRtibGfhDnPJCunPkcoKoFTkzSwu6HQl8sJXy8tH1m88KrqtR8DKQ4_YIjMQflsDCHTLm01SvGYKUOTRZmTC0sWAgHl6tWgvHjzVyakx1bbrlouuSNxDOgZ-FLU1fDGrJDC9Uv8djSxj_eglzlzSFe9_M5Jrk2O2H4rn3NKOzu2Wxz1pUgMi_NrGcUJZNhMjs2FZuMqCiU0nJYhIXzUXk4FY00xbJQkN8KslF8fmiOQkQbxJQAGz89PsEJAaf77I6-xotlwAyJTg5FZuikP3KbXI8ves3s9oxEPBXH4zHU8AnRYDYNkHj0l4Oi66KbKrBOs", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109779531883517562670\">俞蘭（Lani）</a>"] }
+        ],
+        summary: "높은 평점과 수많은 리뷰가 증명하는 프리미엄 스파 서비스",
+        updatedAt: "2026-08-16",
+        highlights: ["친절하고 다정한 서비스", "잊지 못할 특별한 경험", "24시간 운영"],
+        tips: ["캐롤 같은 숙련된 전문가를 추천합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1st Floor, 33, Jalan Yap Kwan Seng, Kampung Baru, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.billionoac.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6431470747248419191", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%8C%EB%A6%AC%EC%96%B8+%EC%98%A8%EC%84%BC+%EC%95%A4+%EC%8A%A4%ED%8C%8C+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "어반 리트리트 온센 스파": {
+        photos: [],
+        placeId: "ChIJc-2xFidJzDERpVJF8DxD0Rw",
+        placePhotos: [
+            { photoReference: "AWCwydj4zHd8yNelWmBHcJEZ9i8prXFxUdY0Q8uEbKV7fIn6stioejntrj_CwJIvfc64rAN6BuxaBsBl8I90Py8jGb8vLjrhFpr_jf8ZRMN64zfZig6KSIz98AfLrmJ6G6Zyo_gQ2WfJUJJde45WM313LpL_QlHEGD1pUAJeXsJl-imWRr7xDbHu4LXQi-1h_1kGB6F5aJXNyJhg7w4SEOtKIVAcmXD5-8bsbbkiFAEA6Ztx-Y2UBKJVOhhCONs0fwWx6uYeH-YwXjzewQoPZt-D3rRonuctJe3YANpFlTOHB5V__HJQ4I8gYHjaf5EF-NDxbFPQPL_pEg6pJOc5Mn2ewqmH4NlAQ9f8EcT5H6-ot4Un6eVQ4gAUQZqf0NXiDnH3VNZfe--Rr9D-xRgCTxSrjWOi_Ni5SFQKOJYiqQn3KsU", width: 1414, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106961690429489307787\">Urban Retreat Onsen Spa</a>"] },
+            { photoReference: "AWCwydh3mNOTxkpuAuZiT4jsqjwFcuHq6_6uYNdLFets3GLbQzqaEK0Z9vE5OKX5vWklybfkQ5GrTmNaG0mNRO77JF_UBXTYfozkCrsuQN8ujpP7rj0gUAPvvGqs1PAlQXco4nSYVre6sk8lzt2rf9-QacB3FS0bkETgdNc_OPEfQAXtk64JYPg7ADZvdwCqHNmnrqnMlMz6YHIru0oOPqkf95edhCi5Ui64qc_V8hAuvTOJmzqczU8yAIAY-Y2oc3r9QqOIwM4yqzMJo7d-9HvOQsVoWRRvD80GUCAMto4AuRD2gVfcqXSm2yxggFPGcT-eHsYj2BpTL26FTB9OJVPqnVWiWNx2_o1wcWXcv7aQ_QSwuitbOq-I42hIiNCD-BP2mRlZ_3je844G7O49vkAXgKnvtzX4D6hfpHY2d7J-uQxkJ9lAiFYKjZhZWIwJVkRm", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103928160730631824910\">povani mahendran</a>"] },
+            { photoReference: "AWCwydij3943xOu7gQ0uw6UJYEA4DKYvkTNRD06IbtoV9mYnHZruyiuwj8scI2vq_Xc9BUA3aiBWuLPkFm-QUSO3LkSdypaB-sJ2g0Rs2JkeNmbF2b8sdeXPe3jEvZg9B5FV4_sYM3XvXXiyI6MkXrZqL_y8L1kN805Zjq1uepXplxMxuwDXAZZobn6bpe6ithgp0Lj3YQ3RQqX5Hhq0ZnXaiv9gKGrioSrpC-9uG4ZQopqQo4ZBAFnXM7BBCrmZlurmyq7oye5ZoqLbZNZW9_B05FvX5abbxVnqaQ23krR5UwsgKGWBeY5PCZkD8gF_aAiWTdDCfanm_iwY_dpKQnZCrNkjs6KNCOp7HRweJPf07X9rU74l5UZwXfUGnqfoUf94OvrpUA004V0qsMIG8fjlLdcReXoMS3RJM1DCUKGfPL-UyQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114576118717748937877\">azlin ali</a>"] },
+            { photoReference: "AWCwydjNZ8Qc1AeeoER2s_Om0Mii8pXvEFm6jOfVpPFzl9F4uL_sCm6PQgDG8YDsxXAcCu3yq4aegLoxsjhrHBQRIgd1jV-9FGgBQUzMujWejdx9wnWe30qkwtEqeWc9zuW6O77AJ0NmsFiiy0m0ld3XtQc_lnTJTzgaEQoyAbvgjXpewsWfhEdZLBiZVKXUBI717S5gC-BIaFrbIpyOnIYybxwcV6n3G0J_4xwJn230JWDP-D1hK1d6WjpHGSUE-ErfUzsMBLmvTXNflwyjh-65xT7ADDnO87-Xaz4KtXmuNKoH8tVxUEfGcL__eVTRFsXdMLw19rQgdDNmWC018AfLPOh5jj6VX-5x8lGX_a-5gUjSpeGKJpp3boemjNoJJSvNRTcaMx8untWkXfM7j1d8nqnEqWERBjc2gmXAjLy9iB64Cl2t", width: 1772, height: 1181, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106961690429489307787\">Urban Retreat Onsen Spa</a>"] },
+            { photoReference: "AWCwydgMrbxSZruCRrCdtx46RM4F9eAfluPMeXdQIf-sp_UKf5sQQ3n3v45ztoUI6lat9DBl_MXZIZdxMFmKKAK2IZNtMlBvO1ONd3PPcYtJrhjMvZM5QrG1Tilo5LDWDHfgCwSbWcSjGR4SgYe-vYjZM7s87LMSWFdUXSGb_5yOGWLTcdlsO9jxuuh9m0yaHizt-dhnWDChiXSAFo8KcxOoq04Qetd7aLT1UJ5xkKOD6w2Zll520OrKiV661AZQ_Z7ZRHF87JnCaDwWtda9eaPbM4IeY1FAwDXAgPNAlgCQdn6jzrv2d6mfxnsPu6paJCO2naI_asCd_mkMjveOnURc_3BplRI2bByil7BJxjXkDUQLip_XwWtgwwOVbjYkooX5FjJ3TCRq_MNNIcYAwV_1Hwd6oD3D5_vz-Ut73CSjHSfwuaJ9", width: 640, height: 480, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100271972123142240349\">Salviana Mohd</a>"] }
+        ],
+        summary: "훌륭한 서비스와 마사지를 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 마사지 서비스", "친절하고 세심한 고객 응대"],
+        tips: ["온센(온천) 체험을 추천합니다", "전문 테라피스트의 안내를 받아보세요"],
+        hours: "월요일: 오전 11:00 ~ 오후 10:00; 화요일: 오전 11:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Lot 2F - 02, 8, Jalan Kiara, Mont Kiara, 50480 Kuala Lumpur, Federal Territory of Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.urbanretreatspa.my/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2076514832202683045", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%96%B4%EB%B0%98+%EB%A6%AC%ED%8A%B8%EB%A6%AC%ED%8A%B8+%EC%98%A8%EC%84%BC+%EC%8A%A4%ED%8C%8C+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베르자야 타임스 스퀘어 테마파크": {
+        photos: [],
+        placeId: "ChIJE5JTkCg2zDERhiN5NLiq2R8",
+        placePhotos: [
+            { photoReference: "AWCwydgYVvwDEnHpCTIjNYFx8zwwZY_6IU7egG_JRk_5JE5dOzYKcAaK83WkvG7NS4-3qZaiYnNBTHiwwjOTm-YUvM07xUmnDKdh8z7aCkNmNzax8iwBmLzwrOlNRRtce4kAfwWotZSY_HJ3-No1TahCtloCEMyGDc0MtUP_1bFcmLpYb3iAw9YAOdvE0k9cnhCa0nveZjejq04-WE9wKH9oygua85jQeuvgFjyeu4wOHx8CpTuhiodF9Lv4G8Jis7YBDE_nxtQYhSKLFpk1YtlJulHkaAtndPFQauegykZG98CyXFDuzZEtvgWnHWDj_Eio9Ikhn6vTSpQZzcdl4QQMBz7k-oNMDuzjZ_wZiH0WuNeumYuCN1R7QT3dERGdru_LCIRTTw9dAcTwjRlM6yrkeLghv_wf8VovW3p5uPmrBSBBFT2y", width: 1440, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113499353187856476016\">Berjaya Times Square Theme Park</a>"] },
+            { photoReference: "AWCwydjRGefVvi1WqCszGzlF3_-nwMjbRK6dPZvvStDpyzPcduaY86J5cs4LDfuH36UMgwPS_AsoqlSdFCobToDLt_nOQDzHPBnlXtLcH8HcRXOgBnzpe6KgoTLn1qaMgkbdPqd59beyEqcgn8dAmzPX6H51W3u4xFF6yoxvDTU7xSDzDMFmoHyXgobDXdQ9hYqNxNJ9Ta1Y4BJJZIbVn5BNJjMcaPXIiFqi9lmAPDN6m8iGGJ5lsluo2Wc0gmQht2sYlQWS-zK6JHVTAVMqUsZowKs3QZlCrK7dTE20Xv8SLUxUishn1IinUbsyuzpr79Rbc_hAGeKaizVpa8OZ6nHlN5I_YzqLWEvdNKXqjBXknJWRujKHaUZusThcc4bRVLisqXjagGho_8NFGcAtW0u2ildYCGZGA-y4nVbRfJtdcow", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111014008509393285013\">Nancy</a>"] },
+            { photoReference: "AWCwydhPA41497FVXwdbnYcyH14G6WcYLjnMPDF5aHn75zHVppp9poOsZQnenakhi3WOAnaknW9f7Bq-Xi0nRaFk5vRA0CJtKsdzFwu-w0rpnyTZ3va5JOD_z3uKA9AMWjsB55b24Mn5yG9zooUl6aMLka1LAwd4rnseVkSxr-E8lgJHAyhouyhAS0ZUBQdVb5dvRpENGbZoYwEuHmfifLSaAZchw2O2ywi4uiUNXIoU2sys8sdGT2rR-LiqoLG0XuhVTufNLZrHKsVLrbQE5X91PKMGiAbQzJ8x3LwrIvbZ0Hka-lZZJYFYulGA1Bb9MTgqD8KnzjSpQxek8E-NISZ9Z0ze7_cDagxeu1Y0QGKIuBd50l1pI9PJETN7rbRbCpCVDroqmeoiC_5Ow-9xrS37ds5J6JURfVqjYaU0z05ApYP4-m-JrAQKtaenwTQ7YRg7", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104876450851790221381\">Agen Permall</a>"] },
+            { photoReference: "AWCwydgH82_JRiuLKDsudbwCKleMc7H7gVRivu86X-l8O83EetfBY6hWBo_NFBFSrVvCtQM8zOv_T9M2PDI8FkPDzoTxzAmZcU8BOFJ270fZrvUn2puWnfW5tv7v0W-wAvla7DpV7eJsD_4WVQEWyIOkKiaUN75wTM1foU7DEQ-ourFTgkei63JsvS734fyDsACMXSlAYkONlJn43q5FB8--2jcUkRYJVkRExUZd43uZktongOnJfm99z8jRWQtHfzsLQ3l7iPKIvtZt3puzKIwD5BczcAHEzNLGMYURGt5uW_5YhV21gElu8LxRFi_9NC31UjI5pnpdGdXM2ca6yfo1ZWMk8XCw3hogtWa1XvEcDPtxd5EKNa9-E-gM8gw19JHwi3X9Cva8F1lTuYDxSqGggLyTELLa_LhzWmvyxNgpAM0bCg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107750431833158551172\">Joseph Almutawa</a>"] },
+            { photoReference: "AWCwydgo2NgRF2xvpz-3fIT_I-P-qoVk73q1TwxwkB2H3_meC1gS_3z33maIH_AlnzMRBRqLxbmzO_7cy68fX436w6rzyIUbgBoZE5yPm4HE8aeEqwlYQ5IbqwkzFaUiMVIcZtrTJS7zH_7d7bwG1-N9Yn44nwx37GoUvrHU81wCu2gYZMJ8BGSVPkM-JiHI129yg7ab450k3lMk3b-PnZDHc7xcxNRtZJ2NBmfsdFZgyPrx-vF1fIQM_SyCNTyWaHlxGzILiSH3DeAjG4SfkK1L-igyAGJHMv_SLKJR7I5nqprNouDQUMERFlr1BVa4inxj_12CmgIAngfZW2McMfeLy8j5UAUSSeMYsO2xPsoCEmRd862y5UdsdYTUPW1D11_qn-cW16VdTCfjECHUmKd3vHzW-fOCi8dkW2JINv0uvWYpmUhVLpdMsi_DOR6anUwK", width: 1472, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117456386117009498307\">Nuwan Wickramasinghe</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 가족 맞춤형 테마파크입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["가족 나들이 명소", "워터파크 시설 보유"],
+        tips: ["주말에는 오전 11시부터 운영하니 참고하세요"],
+        hours: "월요일: 오후 12:00~9:00; 화요일: 오후 12:00~9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Level 5, Berjaya Times Square, 1, Jln Imbi, Imbi, 55100 Kuala Lumpur, Federal Territory of Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.berjayatimessquarethemeparkkl.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2295053193253036934", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EB%A5%B4%EC%9E%90%EC%95%BC+%ED%83%80%EC%9E%84%EC%8A%A4+%EC%8A%A4%ED%80%98%EC%96%B4+%ED%85%8C%EB%A7%88%ED%8C%8C%ED%81%AC+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "화이트 앤 블랙 아쿠아스포츠": {
+        photos: [],
+        placeId: "ChIJhbaIktJJzDER-7kwsm6lmiA",
+        placePhotos: [
+            { photoReference: "AWCwydizSXPZmApThjh9_Hxu51uUnz6N-DJKvMQaovXC5HfhSasWKHbpEv5npDOqDdyjazzvH2D_eHBR38ZQAW6HQApdli4zv442KHTlurp2EvqCAW7h7Yd1FtJUiNLE1ni_OzJSl3BIAsV0XlWk-1KDUNUFzXFUiStmdbstLPU7CTaJUi8K-k2W8FRtfB9r6PkxlHXCpUVAtl_8b9Rt02cEWab5kNrgdNvck4u2i6VRxgszOlT4jFKWPWA9PD5908IUhQkEIAtrG2T7VcIL0BIZFit96eQEwSEUgsQYiOFZb0uwEjA-BH2oEq7dX26RXE7uOEs7HkH9xdGYinq4PrfNIxJPasawaz3gqxyJEY0J1ezvxjm9TKVf-YG8g-nTFmUwf7k4A9hFJJX8r7Pr1iZm1qjjyYBF4In4Xca4lkWY4HSL42hKSN7ys_31dJDovNBF", width: 2943, height: 1631, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107478881854444463668\">timeworx</a>"] },
+            { photoReference: "AWCwydizgOoV8x5X2Dwt_NN3HAPDaRDYucmunA9rww7l-0yYmObhlPKYarE5v27EkFGuuUeFARJnFihqTzk1_j6D1WVZUFiIsmdNRY_zbCaLSdqclXg1RLKUjp2ZxIrqo8sdrieHvwQEfF-g6nC563Y1CC9RsLnIkQnhbPHYyJTXTu2ODvP8NEauynPistKdufq07Pi-5LVcnkBbpXfgd9VhkeUWIXo13MQ2U4HU4GuKs4d3_fJilSVP6_pEp2XqjJMvjE4yaHrVjD6mRN-JYUr1rrLiVD1xYZFIfE4iO7laG3pMwDdp1c6L7_xFtDRVtN9eT4QD7gSoKjvvz7AxtDIsIpPl0K9xz6G8t-SjeCE3Pi5Ex_uL9P74XfLxcA_0hMrcOpWosmj4zWZ1HcLQg0yJi333P_PRRpLU-71etZFkmRdz9YxelRb0Io2M_Z0eB9xD", width: 4624, height: 3472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112457312754008869345\">catty forest</a>"] },
+            { photoReference: "AWCwydggQOQiCGKkDBSFjT-MqgYoKnDtNeccRbnT32_wGqtUmnpwY0myyWEUdvGNxE5ZHHNQwaU1rI9HSzrWhHYWWjMHwPDWeM_ZU_Y5RKt1dbvvj1TAUSsbs9TFieqrSOdXMdUiY41a2lYlQv2CxKBM1HHIj8V12tQU_LDSPqBtgF4b7OKezSu86v3hxHWI7uCddbxS3YLCfBpq_VnWaq_kDl3PbrKJ3GJRuNmDQ8EArx3bfWsgzDHQfJzyCH5bk9qdWdEgBW6m3tI1vqbsik7A1EY4-FUSnSBDeQjM5HS-_d2U64aJSG7Nh5J1zjPdHzM8qHt_2oW_IaR3oezXQQbQ1oJsUPTfgq7q1YuUxrwy8dT9VErUClT3BDP3QiUKzGkTd878bD_GSbKzQ9Umx2NrpWtSDBGvQBhb3OvmWdjT0uG2hMcED4Y1tvceU78HFaVq", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116553481899913323520\">Dalily Nabihah</a>"] },
+            { photoReference: "AWCwydjJLh9H2dfa1NxDedCdTV5LarOeYsICo7ZFY2d6TRPMmJE6D56douwopTFNa3G6xk-6xWeU65ye2SlamvnaWgY94lOGyNRLMWl408aaeZI4gTPdsv4IS1A1yu04DUz_X81MYZEYcKehnRo5Ravdg2i2pGqGKmgnukmtjpCoGM25UNWoHOc666AojmpnMKuT8LEjqRrbXAFhRGzl3yKY1v9xWS1HcJ1INP7QonN-hqigUh_yB4rlrNTnQgtscoVWK7Bvg3qsnpTrTvVs3Lvx9tIGwmxxLj45L8lBaUIx15r6XCD_JZpUdx2umuv5aHNiSLabqCHEbRaYq7a2itgzCrvbbMkT9QduJukIn3ezvR21Ykjw_n3x6WrKx2jdwnTFwSNJK3CoQJGd-NnM2nY5VwDfKD67b8AahG41WUe1ThqN3tLBFhypwMkoIc6IAA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112610901665831418645\">洪胤齐Branson Ung Yin Chi</a>"] },
+            { photoReference: "AWCwydimKtlnrdqXbhkIXwQtSNeJUacEECEPqWbZMI7tORcEXmAs71AGLJV5zeF_-CPl-zUC1iHQyR6oHQZtBaStWR46txGXvkZ0j1gK21-3GJaIVG8kKboeCJJ9FuVQ_ge-fc4KKtp1qDArjW7Bhxh8QiFhgaM5wp444hkjsBAT4gIWb6AgV9_5z5fEoJk79-Iwc_MUQ0fCuHjbvXsApnAlrd0c-YRBcHCp0hxgNbH1lyupiGLDtJ7gliJFylwSFpbZmzAEsj3OH-1gCHvokJha_TWEXcOeJXC6yb7bTgK9L73gpCmus4-HJI-yBKqMRMgxsXH07ZRp9SenowZQw4w_d3boHKUJXYxtm9zlRzv_uHZ6T2DXnUdzvhmBsDA1xexFfpWTUF1j-X1XSvrRkGEZN0ISf4wrad9WicjZ38WOwLY3tA7-Hc4VbqiwYeA-kQ", width: 1179, height: 1148, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113073121207603527811\">Droid Mt09</a>"] }
+        ],
+        summary: "최고의 전망을 자랑하는 수상 스포츠 업체입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["4.9점의 높은 평점", "압도적인 전망"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 휴무일; 화요일: 오전 10:00 ~ 오후 1:00, 오후 3:00~7:15",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "3°10'36.0\"N 101°42'21.6\"E, Jalan Tembeling, Taman Tasik, Titiwangsa, 53200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2349372050481658363", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%94%EC%9D%B4%ED%8A%B8+%EC%95%A4+%EB%B8%94%EB%9E%99+%EC%95%84%EC%BF%A0%EC%95%84%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아고고 어드벤처 스포츠": {
+        photos: [],
+        placeId: "ChIJ2SijJvNJzDERILlwwYtNotc",
+        placePhotos: [
+            { photoReference: "AWCwydhhOf-5qIWP69odRdOiUGgO4newK82exVHX39zpqVdq_VKk4MW4-zfBNMZn-O1eg0LmnXRhHB9-XmGfVWXiRglpWaVqYlbsP99-Q5B2bJi7vZrjo_JAb0vEIyhh0nrhqZxIn75C7eCnt4Xjf_k1lH6M9yVrb-Yxs400NXIXQiYixaaUGsyB5IyauQ9CU7p6j_BM9d0srodtqiNfCfBAA1EEgYvLhcDLUDg2Tyvu_KYHwGnYPgH2T_cgDefyjfB_sbhneboc53jI-uGU-eu081L6NEjexgLNMnNltqy-kps6ykpuK2D8dKwPvZt8F5rYmLqhrsxtE2mmgBt-Vv0g77VBTWyNH_Fv0W9lawFm9-lhZ-FN9S87CpAVYbzH3HZycQgb7wcnoDOZ0m5bFj4B7WGxdP1kwOmDNiI17fHuMtqUZhrvLGaNG_rdzO_Whg", width: 1179, height: 664, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107670637401015693369\">Agogo Adventure Sports Sdn Bhd</a>"] },
+            { photoReference: "AWCwydgVNZ9f9WhdgX32i5c-YBWelSVrfxUFQZnfPWMtMzcyJUvE740lwm1e0eazm7bpN7yaoafir0vTAnSQikCD3RRxUztDUxEDeQEq6t5lpCxT6mixO6AAeHiKlfj2NpOAUwBwZ_s1IvUPYCjyWmOhI_PWnTpV7-70b2bp2-O9hdm60LEPqRvYKvFUak27h02rJGQDe1Rk5M7937EXZGnS36t9yFj7bKrA67t24sX2rvYWncKPoXBRcTlHdYo98r4QwsHAMxuRd1Z6RCyFzs39VVjeJ1ajqBVt4i4F5ydhSO9XHa_cxLkYa-Hc6gof0c4GIwNhJ-ocmw88yVJZTOasAt1hZgm9FAr2ICo5FGqkNXCDKDmNuSKOOEPDFspgUUIqPB11UDQTm9NSQIQgEqAVOr_exvBhTwULPfpy-3zleF14iOwD21Deu-iV-LbWeQ", width: 2304, height: 2880, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107670637401015693369\">Agogo Adventure Sports Sdn Bhd</a>"] },
+            { photoReference: "AWCwydjpoDTUKq7tFArjHGRBBYcycJbrpY8gy6OJOYcMoWzn9cuueujG6No6swlbdQ61PRo2ljW291JeeIBtQDvH6ueE0gBW-IXO-fDkv5mVgDf_npQGHDCHrFvussJ7LCKg3y2SLo4FYcUjNI-CgyfOS_RDKT_2ng9u-oCpYKezOBmtlAGbUIlu5QH84NAr-cSXoznP3FVaCnUx7LarK2NZ8f9FG75JRwnNjiIhOPZVsiFH4Bsv_pBBNvITnoMF6vpBdECPtWPjjgacwh2vvFEhqBKLt9eQek7Nd0BGDTRRO2CK6gG34teXfMZJzMqYgwqr0pCfeAJoZciYUxZrK9F8_yY4nBo-_JBdmA4zMQmfumBInJvnC6MEidUWZhREqKFvqPmGPWn1UUk3MypGWJ34NetkxV0WOcQT2pnR0EVSzwmDuP0ot9k5VhuY59C3dqSj", width: 3735, height: 2801, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107670637401015693369\">Agogo Adventure Sports Sdn Bhd</a>"] },
+            { photoReference: "AWCwydh1ggbVUvdQXXEloYqYAOBAJdcw4QM1-dXTjV2LmqXAQNXf4U2tO28BdJ1nDpW5DEeZ7pylnxjXRKfnXeiW3ZLkl6U0B-xh40Z8Zm-Hy4rQ-E_KT31WxsXC8xEwy2AVKJl4DNhmDdVQIG1hrLtwRDMNu630I9Qzs3KryeAJ_U3Ylw6buOgiHlnGIk2fdSLGMcDoW-glNWAYvngRs_trU25XjowS3Z1R3O8QS37CUUY7SoFDECDG398xDG2ndlzG6EpEWl1a3JXftP-IbKtss0VZBaY7VS_D9NdlgrKwfhYLbaI77bBnddUhh2txpI_w4N3sxDWaw8OGVr4I1X9EG1WalqE7OkR3R07vM9VvvUW5Obz6sYPtYT6qguH9qmDZTcjH54hLFt92fQV7S9O4WMvuePbiX1qGaYc22w79qFg", width: 2048, height: 1152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107670637401015693369\">Agogo Adventure Sports Sdn Bhd</a>"] },
+            { photoReference: "AWCwydiH5IDrxVJMcNoD23bO6psaMA_vJpGaNRys-ydMeGFhqpI04ZRacVPrnTKCNSbAIpxirBn8vXxYuE9N81dzOQMT5og2wtk2r1kstchS4xQlolsnqkv0i1S085X3abEmgRrnax5v8zI5n2NE72LTrpF8tvZCWRlNoQMGKPxf4pc4NkKJ0vnU1cew64R1HPaAAeu-QGrfT8ISB2plniSFLmvmcWx1rmYQQfdUVXDAwcrAko4iIk7CrgFc5nZ5eS9g631gwspkARNm-x0rsWsh1rarjlGaql93FfRLfxn2hFE_T813ur5MAkFbBQhqbT8-j_pJoYh2GRqOKsDrOIsYfi0uElkQ-WuQ_5Rq6-DxAbPnYay4vrCCtmvn2ybnvuMh5VYA1pdrgLapvBcSTuTWmEWmrkojy1CxIyuAx8MUm_l7-C7Tqk9pnyJiIqdYcA", width: 2204, height: 2755, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107670637401015693369\">Agogo Adventure Sports Sdn Bhd</a>"] }
+        ],
+        summary: "풍부한 지식을 갖춘 강사진의 체계적이고 즐거운 다이빙 강습",
+        updatedAt: "2026-08-16",
+        highlights: ["명확하고 정확한 수업 방식", "강사진의 풍부한 지식과 경험", "개별 요구사항에 귀 기울이는 인내심 있는 교육"],
+        tips: ["부력 조절 세션 등을 통해 다이빙 기술에 대한 자신감을 높여보세요"],
+        hours: "월요일: 오전 11:00 ~ 오후 7:00; 화요일: 오전 11:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1312, Lobby 3, Block A, Damansara Intan, No.1, Jalan SS20/27, Ss 20, 47400 Petaling Jaya, Selangor, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://agogoadventure.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15538066927022815520", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EA%B3%A0%EA%B3%A0+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "플라이보드 말레이시아": {
+        photos: [],
+        placeId: "ChIJsXVuoqS3zTEREU9m1ohIyiY",
+        placePhotos: [
+            { photoReference: "AWCwydgOa4S_oF20_BkmfWFS16VkS7fgR8vQm25T4n71fSUvq1LvX9KJuls4bOVHOhCuuHvdXoysttBID0LsTbNABJafjn_kedbJEcY8j-hbkp4zROvaO9X331kOEGN9ahdoOQqj4CrmrdUMCGrQJbEamA_AnWWiQdRKs1TwKXlpUbAnBVMADvg09zsieXDY_dkplQeh6JjLhf2d2QtAnXD37_ZB08Xr0qujzyubGCrZf1SB9iAomGoU875repO_48YJEfUif0xVjKh-1PYaocjqjUU3dj3y0uLaHEjQGQc1KXCdh8E3g2liYhA6fRIebROb5bWblkS5pCCtAQgyA8rKwcAeH2z5Xk7cgOC50AbIh2_OXsHEIB5XozgBF3zZzxsbA6DIwY4t0UCmvJExL19rQF3pIGFoDk-8P9zgC09i3C4NNF4", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117767999737159000378\">Flyboard Malaysia</a>"] },
+            { photoReference: "AWCwydjsjxu3WidAuXEZw035hOvikqqVng9e3UTM8RUJisIYsCIBkEhIJQZq1C1FnapFSAC7fMaV4IBkyYF8YoI58NYv0Yg-C7GxyadI9oirGo86jmWmsLE2E2ckdTnPHGTBaQRbLhqD7B0Mam4x86JPgnX5SzAYAU82naJCEiwfGuvTaaHQbm-mHtJytCeB5aFM9XcxXlk9e803T18YL_WRFLED9AolXt3IhJNsTkk5opovve8GVTt60PjHi8yyY_bw02TwKJMx3To2_Dqq4LkSyXS3ZmjRfn9aN9nbY3sFIEg0PqD3BS6XoNyAgA2OaDGFDgTmDQG40Lcyb_VSi60m1JSNVcep_7xtfWpqlR3cLLGTdpFhrt7SHpQctKd6mH2GHLs9kseDCtN6HZT42L28SZEejnAKw0JQQ-Vicv-TylsL9aPy", width: 2618, height: 3491, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106321074855017947458\">Raja Aris Dzulkifli</a>"] },
+            { photoReference: "AWCwydgXXZZuDobG13V5mc0SLR0otQZGPioE9A5R6pI8mtoDxwmsQg9yG81YZHP7stI4aMRzm5aoCNyLnIJUuMo73rnLfO_WZHuzMsHJFSRxoESZcC56UuFNbhTbxkYxjwAc6FdHjpivbV0GEn3CXEkhraUenHh1Tar5KAfvEEIGRD49ZdPwnLbiUoGXs30a_D6NTQ7robx81iGreLmE01aN81jRY3K6hg67kibEjdRi59qKVFLeRASGWwAfgEwntOPqg1fejsIOlajTs1w-0ibGP9DQRUJ3s7vjQbolH5kojuoHev8M06kSEi-OWbd0NKCQoOwT1L4uoSL3m2Ux-7_ooLcvO4nkwW-eYZW4X8J0TPtbsXSRvAiCRf-KYdtJFO3h1KlQEaG3p5oxxcX0wuzUtsy8afxMvuPOA_qhE_E6B7m5Eap5", width: 4624, height: 2600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117767999737159000378\">Flyboard Malaysia</a>"] },
+            { photoReference: "AWCwydgd-QKgrTcKQQ1TX-pnfu5ukJJGvje0QMhL85vK47znlcWGP8iK4N_Es9yFgU-5FF607-D-STM_6Ch7VvNzNZVoQCP3QbTKlE0Cr6fp-6RJbA7SlRBAOdYnfDaNRc2zu1i15psttV7VoDB0F-NYORwxoXxulsFEns6rxcCZJND_FgCOoEzwKhvQ0xwgiS7yGE_r9bY-HZ8969G_kLKuOzXw7GCis3qgX7TGHz9-1DDHnvzLiopTYx7IZ8tWSRCaOl5Ah5Duad5p1HQ4YLL3ldNwATVQtkW4xyvRPIBwEDTVX62bpfKUJSmgJhq0Lc9cZ98cS9n4pwP8YjWiU5mC7vKK6mKvSUs8GeZ3GjPa4QZqKeiKFnx9IuJwOB8v-ym84elhDzNFdBu-BjLCXadlRApi-nXbXifKecJaiKqI9dYvI61BSUJzJQttyJmaaXin", width: 2296, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109637242832521097385\">SERGEI SV</a>"] },
+            { photoReference: "AWCwydjD4D7yukFh_InUDwhXJug-S6Hqt3QAIUFAV51kPR2E7-6vw27dDkAzzd5Qb0b6X-U5CrczFQXx42hOS592U-qtCCpX--uWTHxv59cyXSUVJkpHr62jx00kDSIOFNmRuxDDKL2qwU_0A3_bC07iYHtNTAilpHZV5FbVT8AQINt0bF8aBpRZQaT7C28wYFvrpiv8ncWPar6V2kWASpyjvjpaiadvVw8J0KR_Euvn73LYq-WsMUUzUS6P7V7oo6oTnz3s9gIQm8HZHpQLYRgHPHUr8BCPGpOaQpzvqgjhgCILD47awQLn7Hp1300AjZ1_NeIpNkusf3GriQCaT6mg6I9R6vXq5QQlDOZ1V4t_Wh4rBduVsFrAec-bz41JhQDKOgstMjnYv3ROQYXlhlSNsVOjlLb3Vvt4lX7zMfu7cGSkR2Vh", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117767999737159000378\">Flyboard Malaysia</a>"] }
+        ],
+        summary: "친절한 직원들과 함께하는 멋진 수상 스포츠 경험을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["평화로운 산책로", "친절한 강사진"],
+        tips: ["주말에 방문하는 것을 추천합니다"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Marina Putrajaya Sdn. Bhd., 1, Jalan P5/5, Presint 5, 62200 Putrajaya, Wilayah Persekutuan Putrajaya, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.flyboardmy.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2795126271286595345", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%8C%EB%9D%BC%EC%9D%B4%EB%B3%B4%EB%93%9C+%EB%A7%90%EB%A0%88%EC%9D%B4%EC%8B%9C%EC%95%84+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "디스커버 스쿠버": {
+        photos: [],
+        placeId: "ChIJVVUVHBNGzDERb-jt-whL4LY",
+        placePhotos: [
+            { photoReference: "AWCwydhm17T-Ox3FGcNj-CJ-vmaU3QGWk0FNYXh3AGLFZtVf0-Ja5Nngqb0i714Qo8BTOB5ki0Zr3ux4K_QGnA8xp1JaPvKiwc6dRSMbYlExQOP2EU0pDZV7KYMb3P8S9dokZ0dtHqJiLLzsiEo-4E8--dPojoy22o1V2-OQgSWN5k79fk1RIjLlWWv6t_iOcc0JZ1Oo3k6pK0cthk8VQxMNVjrerGDQkm0OfuX6rCdW6uWiMdwqJ5WuFLLktkmaMz6UboO_nAFCdg9bFbunnXqNU-2TjEGFGgALgxp9-FWI_YkZWG9vM-5eE7NIZ7nDpDiaOCrtdL4h-lD5vkD__0RkjluGenSI8aVFDAd_ngiQCmfG8M_OeEU2TMTqd8CYVrFIEpaRNhwsYqKhIZRej9taeE1w4nSUzO2yMYosfWsHe0n68eA", width: 1040, height: 585, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108401839752327856930\">Discover Scuba Sdn Bhd</a>"] },
+            { photoReference: "AWCwydhNC-aFHHPhZC7Y5tFmIQE3cZt6XzYcA9FPBWsTeIsrhib9TdhS6DFKU52jnQDv0nfc6K2IigOupIaPPTDTL-6tihRNoS0ciCgqZsoG53bGbnK9PoPUmBGHQuCrAuWK0mmezJe7CQpob9tdPaBrDj_zc0ignZSeeMHvynQ5yBKc7yexzh-nDu65h60EgPy7M4vzaW3eQWNfPhpRi_DTChaSWqowK7bOqg4Ssf3R6hAtQsNUbUw8TMvfSXvGf7RuG40R_5Zdy1TF-zS8Mdfn5k-wPa_iqPFCXsbjaHvvky49sQaBwXGZVaQx1Cs2JuTib_-8wAR3zcseqx2Y92oT6JqsBQn9X3LGVewC4eO1MN8I8tHy9KsDElaga5h2h-wzeK-mKCn0zwsNIRI3hbxPQV-E3Klb5btalVelygii22qgnAmLmopLrw7M5eRFggUJ", width: 2256, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100517703567104228982\">Bong Chung Chok</a>"] },
+            { photoReference: "AWCwydjC9GATkm03h4WyzUdMtfYsFZnlqPjEyRhAXWHg5rcnTh2w5XqwtwnttHJjF--Ldnr2XQWiShFyIc7AU2TVD64O3_Sa7OP3S6ZMDrYkJ3AFr2qLoOU8ATy59pwOiwgg94_5vBAIbsvK1obyGN6Wi0mg8N_C3QvEzI_A8QYTf30Oy1Bx_bkuQZKCUlhpHVAuP83yql9fdpO7a3QQpsk7C88zjPtvAVKSXB0bFvxPu6zOLEgoEhTchtKQnBMxoojR_voh4cH-1LM8DRIir2VrarP95uw8AxQVkJnsaNppaqUDjcVi66wYhldfBgPGYWh5dmxsb4P7R_Y3hrFJN_ZtryranbplZSe8B-o-_Eo3IKRMGZyoRvO9JFfBKl5JKLOs_UIVUzeiFcohhOzUXvbNREOtUCRTRQ4xpUTTMm6i49Ox_tot", width: 4160, height: 2340, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112976347201666358132\">Wong ZeiShin (Sarin)</a>"] },
+            { photoReference: "AWCwydi_OntdmaE1tv2Z4vQgS2AgtcndwieNJeRA7xvgsw0966JYGoKjFh_uBl74tGv2kUSjS8J7r-RUloIwZN2UE1eBICXcx3NO3v_gg3Ia6IIKixP1Th-csSGBbzkFGd564zxw1ohSRmM93QICyUu-2B6--SlnwcMrOwi2Q71qHclpxaphIKn5M9EaADZWNwIQk1MrIeygKPLGIIaw2qD9_zOWbxgFbHNQNPvPFUQ2p3r1f3oLvr9in3Zm-rrH9lIu1iO05UaHBG1wpfI_EjOUDnJGnbsfZvjquSqVS3TSnPZP0OhYn0TUnGe6qaK35LH7u9RwXVsP-dMG3wZ2d3Y7ScUWsnDjSZaqJO0b-pdyXDmUoH6Y4bdsqFH2GZ-_HBrSRkDUZBBOfOm86bU4idHVBI2mlUatXzZ2tl5ykhxCWPrPUfD_W9QKYxY2uKiAOMtq", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101447955365173980210\">Siew Peng Fook</a>"] },
+            { photoReference: "AWCwydjc1J-m75czQt0R8spZ1N_X_p9mrFkQlSsPLEMOBfaY0UYit2OglrsguragUf-cibRRu3bt6a1s4YsIHKAMjvLKZhULc57kqja2hJFNwScR8l5RKDoN5tVHSP8KT271jsU32BXZ0s9hiBG-fodfiobe8n60AN2grxfTibzrxNgIrWppojL43-BJqIJiSOxSXDb-OVVh0J_afuXxriGzZb9DrS164CKU6y893xA4c781bKySc_R1osbbaKNRiZwbfer-4MEs-WLmPTO8q922jXqI1FlZiubgnkMblOppDwjA7TnB6twjpMaqhXrDwJcBcIKkZ49M2LTsBdCkd4WVwmk3kbuha86_IJ1cGDGSeAQSnmnN7ZSP-G6PSHQa-AfE0_CmOWI2aoupiXqr3Wj-XRFWcisnwXNNJoj9mYeqybWYM_1g0tnBcy4Sk94hWXE9", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116614245615733711250\">JELLY NG</a>"] }
+        ],
+        summary: "인내심 있고 전문적인 교육을 통해 다이빙 자격증 취득과 잊지 못할 추억을 선사합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 강사진의 맞춤형 지도", "자신감을 높여주는 체계적인 교육"],
+        tips: ["사린 강사에게 수업을 받는 것을 추천합니다", "다이빙 자격증 취득을 계획 중이라면 방문해 보세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 5:00; 화요일: 오전 10:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Lot 2-51, Level 2, Kompleks Desa, Jln Kepong, Kepong, 52100 Kuala Lumpur, Selangor, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://discoverscuba.com.my/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13177615011644565615", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84+%EC%8A%A4%EC%BF%A0%EB%B2%84+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "키친 쇼다운 말레이시아": {
+        photos: [],
+        placeId: "ChIJb0rFBMJLzDER3_ozCZRQ9IU",
+        placePhotos: [
+            { photoReference: "AWCwydgZB5vFE7bfRnpcMn0tfk8tuiBSy9uWqsrtMi1r_3x_2x8oBPolnHWLdfa7X0PUgMAlmbwbYxZoEXpY845giCqXhbf0aU3Uh5pQm3n4_A5rS9ZnmbF2JFy-DMa_AMHtc3lfnaWNz9YvvGw7IC9BKR8qjuzEJUB3wk3XyimLYq03fit8hM1iE32al9X2zvvC5_6mJiilKA_IM4dEM4s_aVHhweUJ2vbqljNz1LL77eLk_Iv8xsAjcUuLKH8a1hulM5nLyhsliv7SX7mMFc1fVbsGl1GusncQHOGUxXlicMfXQP0T9AVIa3ZuwA6ASlq2VQB_fWs9W0FifLbPFcDDgHvfGGfNyrQGm7bpj_9kWO7ehDHUYl8CANh9GHNETTkEb1d79KqAQcPK73zsEkeMZzG078cr0ifoX95aGRWJsCCL1w", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473219778106112961\">Kitchen Showdown Malaysia</a>"] },
+            { photoReference: "AWCwydhrFwpCGp3Jyr_Xza4ZSsZNPuYW16rsIsF6-Y9BsgHacL1iph_yrblH3PmgtxxjhSruhGvmGdjeW3wR0smGxBH0nYeui28t8fer3hXu7YXhp5O_NsFnTIY8tElAho1BCBFaAXO-RekSmAxvLocka7QywPJMVAEa5Ew0JV3-wA2MYQcEJVX1ML6D1g5NfoJWZKejtzsryxOiTZooazC2AGw19mhvpGaTmERiGIvi8_rBxoMXM6LtgdcLBu6aIbwZS8wI0WiSAF8vux0Nq3un5xkV7bKAuCKmWnZ5oOCBhp9HkYh0Z8gTIwH8Ue38nrPpk22IKTA5wK6y_z6kyO5BY9pch5fo6yA0oji_Wa-R6ilk_iq15fVVfxF30LXnedGzk8aUe5qf8sHccBBbHnP9eqLIe12_oR9e9lhT1Nk30NurZsplc4clFat9sBDrGiBs", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110809469059514075243\">caroline ai wei</a>"] },
+            { photoReference: "AWCwydjgCkW5XCRsqiwKnc3qby584_7scRzM_6kWKzGR70m1Y7ccivMY0voxY-MhS8YN7xMO-FpUk-sLjiqS-vvwkoAxsscGkpDsPDcvLYGv0N1xho_Duk1S-USEpRL26tpqEFqknjmyBanWh5L9_5RQqJP_FEvdcN0_h34Oi3Jn3ayMLwA_qTY82u68WLhLBeVphm6bwNv_zHIUtVCxZJMRAW6DSfmm6GWDZExR7es8hYFLuUeiyp6S5v6js43bJOr8-4QY8BqA2mLrgLE0nej2ftu-YTLzSEgcMOUL0JOYeMrOCvkRn-4G5wj_MkiO3hhSuZNnADpegRfQs9U_EAKBWaydXuTdE93YrybDpxZcyypLfz9MZy6LNGQpNxzOPy9sf11nw3Ys7rnJfbRKBG2qZ93JMHUZDApuypOEeXCI4F6tUg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112602253433490280135\">Cherolyn Ann Lumba</a>"] },
+            { photoReference: "AWCwydjgDTW3wF680HifIfonef_M3RXWIuCUB0VygA6DhEW9ZgozLIhXnax2N9SwuGOzjP9PETJu1lnZYCIa6AaJgRVKlq3kG3dA1y-P5qSrzy4JJsS7v-UwxSu99maizTofaceWvCv0-ON0JlqsHnAhfawwpMOU6ldkX8_ofPldwewY8WhRiOgUHjJMMLHNLMvGLRBuLS_T917nRokWNvzCGAEAddUM4OPR7OpX1MaejvPTCzAA1nAcNIoPEstnuD9hGh_P0sommkwIO_JwhNnhOQJf9G8TKTfnNkpPK0UnPc9d_UWe6jyX5OPx2ui7tHtG9uFSiZXoCxI9mKIOtGrdXR0PpVl3toNi-WJrcv5XxTKcwju54nZc-eS3kbUlFeHGIvaL8NYi0uZDNTtPglOtY0JJf14GnmqSf5r_aUypd3giDQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110473219778106112961\">Kitchen Showdown Malaysia</a>"] },
+            { photoReference: "AWCwydjDWsRHAEesjI8ExKR_mdBkABvGeF0YZ4vn6FzLpV7BH1cu8Ni0aqKQocjveAywzAEk2_kdSepfoTnAY-7uQKyzc3_kq4XpbH-8vTZ3GuUPD8A3-xEaF9ARn9GiaU8L9EiVI_nLYI0Y1XtxipCqw7UVmlEmoiVSx_WZ4JePtb8bW2LphZ2ciVvCw7tPgPanXdxZsiO-2RezNYw02mvZ65pARbPIiqkZjzloQXsX4E7zv3bg6Z2I9_A1nvUiCXo5hC_76PIV8E9sjGsW0I8JQW8BNBT_vt0HGcFBld9NQx73fqMdYNLDHREAVCDkon7PmZdy6yBhPrOakJOgCPogGTrRYhtUaY6l0JNf4oA7gJI18kkqxO30h2aJELcgs5n9asR0eDYIWZ2_llL6hIur9J_VjFGYJuOU1WT97ZpuW1kuVEEJsDZihjBTEJ5K-S2k", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102555976881188970523\">Chai Hui Ing</a>"] }
+        ],
+        summary: "따뜻한 환대와 전문적인 가이드가 있는 요리 클래스입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["Chef Dong의 전문적인 지도", "즐겁고 화기애애한 분위기"],
+        tips: ["팀 결속력을 위한 워크숍 장소로 추천"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "N-09-01, Pusat Perdagangan, Persiaran Jalil 3, Bandar Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://kitchenshowdown.com.my/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9652428498101598943", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%B9%9C+%EC%87%BC%EB%8B%A4%EC%9A%B4+%EB%A7%90%EB%A0%88%EC%9D%B4%EC%8B%9C%EC%95%84+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 위켄드 워크숍": {
+        photos: [],
+        placeId: "ChIJNag7-nBLzDERaEGkOKfh6_s",
+        placePhotos: [
+            { photoReference: "AWCwydh8BETRfiYCm7v46KKOcoXnns1-7KiROPbgfrqJe1pMLhXkjbFyRQF3ksLy49pzKy5QGomg_YWkLzjEUDPLkwBE4gtHFHPjaoWWHhAA8TF0AGemYQ3iL710vkpj05-cm1_z1k09I5mOdEFDffqe-Plyit3_pMrmjgGUf-oRX1JdVG8t0tOpmx1MeVXYa5p535p0LNSg0K13GNeX4pc9ManWp90Sgp2XVeFuGp80rjx2IFnYGyWvZSuezKxk658BI7c2qEAv3XKpEcQDbyNUP9HDnhn-jNh2D8hD7IoIdYSzxma_N80Rz2dceYrYsX4shf0mGKk5L5B6kJCsOczy6oGuPf3j8A2zNwBi78TWSOaXp_hoSzf0og0gcWkZgvcCgHsbeq7GrCRZ1c62sl8RnI_F4jEBv_3XyPRc-O5S3T7VBMs", width: 1170, height: 2080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114118483971622035414\">The Weekend Workshop</a>"] },
+            { photoReference: "AWCwydjfUHokqWVnk5TFYRyRjdRCOt9WElsbOFTT7fndMyjaGCcEV7KYeSMYUFo_JsOr-KFIYETvq_MIT4z_PwEggkwqpaKQly6hPwlLe99vo22MQQok_77Br9fvYYA8RwDsWhDVI3j3RG6kTvCMVtoB5FifMpL5b5CWzVtMEpDMxe36w-8Y4jB3R_lwAmLq-PyJT0WqULKc6op-Gd169WOEPGvVHjnr63AERiIk3v9Sr_0uFfffeapkpCPxjFUJ9Q0LNy5pFaHiktyCzCgyqy7oMxTXr1XGy0tqLhAZW7gvRPLTdrY0kxR471l46FK1SZlDkmfzOfp9a5gmOz9q9bJ9U5Q2RyDed3VMMOn2Uzmg8iXWJPh2r6pmP7cHOJUzxj1uu_KjfPRu9SpI_9le_r7m7t1VOvF9DOt8Kbbxyo6o0sO02q3UYT89H3xkkuRKzC2x", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105329498363279449471\">Puvana Ramachandran</a>"] },
+            { photoReference: "AWCwydhDnA-6Pd9umGOJiT81iYFzAGfGhO19e1Fawkng9Xs0k73CLjzIUvSHzgdlB4ExYM1XVL_dB3BW4I086ILwYurRX17eUZj3PRuYUqsaBwAjGkehfAmMXGR8sK38IYv9J_W-Pf7rTIRJR5nB0uqe6mX9kiohsFq8yw3CCh2hjptlnG9uM48qHu7IycOMTz1OA3GmMxCHste1gD1FkDwdccT06RZ_8AMGcxH9msdbMemG3CuPIQ7OmwCdLxtApBQlw4bEtOB-d7LNDqnNd5ns_HbojDZ0B6TSbmVn4s54od6zexVpYh1pVBm-sKM9nGwwpw8hEBusZPT1jCXZZVddN_5_t959f2ofedMgdVmNiPPT-NpNoY9nErcwjmgGOKvA1kwdaB0Xk2UBNU-7Jku7r_SROcHyovxT6NlfmHjIvjO5ke_Eucyk432XmOVerw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109689868823164604625\">Jela</a>"] },
+            { photoReference: "AWCwydh_UcqpoiGB_bvp-e3AcU93d2Nkuq16ey6L2_cgWBkFSZB01YQv5gkYfKUoQPT_QIsNPLU0biTuYzt_9B6hirjVR8H7CwD-YUK3myo4wrfiVzTs1bJlxaLkACUH7SDVCLR9GUBZwUmSvL9h_cozm7WDiSG0nNF2xNXggyXLWDyQlFPHyCk5uwS30FFVSXsZWeAmeEufY5JJqHc33XfMv1ohyvPPRTMgcxaUzUXr-D9h92fGLSE5o8jHwDp8VxbACx5XgiZbB7Uc-2Mz3YuZlw08yJu2LZ1Z2Mf05teyU2Swk-kro3tehdKOmKtXPaK0frcYLfEk9iaFvs-th234E_-CWkmI1jLxWk52RzFxMUGELvrU3_YRh6n6bFk3dAclS5cgC-GYBlKzUJVgvk110jSlUc81IYPKMibNEP4K17W8xX62SpA4sMcQYoUOKQlV", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106277608373553762031\">Izyan</a>"] },
+            { photoReference: "AWCwydgd50avndctrybPDDN2IjZP8qOeyzRDw9nYfe4Ip8JuzZ7Zo9A49ttQBYCcxHkPBHoXc3ZRPmQP7_pCR1IqD0cQqYJ3eX0jDtXnhKYrfqSUBhZupWPT6uKE-W47MmgODuAwXxS8Qihv9DufXvTXYNUcj1fKMdGgTAv3F_qxTU4dW31n5vUBjhSdEKYy5hcJVbUD5J5P_4JQ_yoUgDE1cuO2aJwNspVbb9Ap5Y7ThbzksRXsHKyEXueLBVeONut-MF3rdCqmw41l0JKBTvrsse5Kfhru2MiVmOHKcCx9BklSVGUFrO433SEscwTErZ3vJ_rCCvad0gcQicGKBk_i5aTcDjDGI4l5--zQApip0ExgCTu4TxniSb9VTogTzZyTFlhRFlcjr0jK8Z1JYoEz5E3PWsEiUgLL01uTcemfL9C6FrPGnQucVBx2Vmv2tw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109792577209941694661\">Fiona Lee</a>"] }
+        ],
+        summary: "커플이 함께 즐기기 좋은 재미있고 편안한 워크숍 경험을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["재미있고 마음이 편안해지는 활동", "커플에게 추천하는 즐거운 경험"],
+        tips: ["주말에는 오후 10시까지 운영하므로 여유롭게 방문하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "9, Jalan 21/12, Sea Park, 46300 Petaling Jaya, Selangor, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://theweekendworkshop.com.my/location/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18152850831372992872", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%9C%84%EC%BC%84%EB%93%9C+%EC%9B%8C%ED%81%AC%EC%88%8D+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라자트 쿠킹 스쿨": {
+        photos: [],
+        placeId: "ChIJgXyhnM5IzDER8f05U5zEyPM",
+        placePhotos: [
+            { photoReference: "AWCwydg6hHXfaYZQjxUovvS5xoPLUBTiE8eyz3iFnmJ4XhwemxZk1RSIGTpnyyuZfyVR19ubW--SJkA4Iv80BQTU88mp50XCP2_AFSJ5RXBv2O7J0yeHGHGby3U-sCSaveM6P7KjUAd9u9p4ddPM20LfzBFStkPwHBcOPYOvxyKBj3V8Pn9Hpl9qg7riiDNF17ASh2QhjHyTmJQC01ZYVEVi4t5sEkutClXht7jRdjNjJhCi3xQqPli5Hx48TJF2ZlQ_2IghB0ogVmI0BD2AA18lcvro4-gNodMWpPNbxuv0K9DUerV9lokLn082vIoLQj92aPu-BHX9bwQN2tvOJid7nC17vpBHij7SEV-Rh9TApDDS1sF5iURY7XtWvFg1zjAFiVp3c2_TQoXWTC6FkbQwGlozeruBL5j_TdHEdFxNSLmHryGl", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106504895984733886070\">LaZat Cooking School</a>"] },
+            { photoReference: "AWCwydhoRD0pAMER01LkJDE2wQ7gtvXLJe068elXPXazvKTNhZOi44mAkDs5gZzqH_u6QdqmYhxCkLDLjmHRP0RIjnpxkVYmZv4hKfYEqPsWYuB-iCs6mp2yxZc0Ln3q7SiTTeay23tmygN7BaVQvXOLUe5iBezMvTJXE6fDOxMb3S9117Lefp7-dm3OrKlAv6CxXlGYyJTu3WVo-dNtnQtXwRtQKoNiUrvfxN0PSTXBCFD33eOBhpUHjFD2kmLS-roWS80PhSx9HI6YOYzilWvC76wFxuKGny7SBb7fk9PN4cLbRHUYspteeijaTA18F8AcAuZGyjKG7t869EiCXy_h1H3EF76BF7PDVtkYzJuu1fSdvofg1FYPxkoE389z4A93rUSP2ydZa39LFWuLvbYmGk_N8D8EuCO01um0UmeGZqGMHA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101995533169997091671\">M E</a>"] },
+            { photoReference: "AWCwydjyIUYt3iOZoMVI7Y7yqINGVXPnoUEMZsp2cLRCyTYxuo2at75_SDKZU9jG3VDPTk4ia-Sc2x6ZofoikOdVlAen1DLAAVLxNACkVbhMXSkdMcGEXENACBByZnyZFc1hpCVviIjr9V28bvDy3WptRyLQGQPfuZgfk5kRTgEyR8ZUyWE-14c31HYVYW3A9dbT1Mvr707-m2dpB8DyF9UN7KR4BTKwyq1-6YsbO-Zm5ZM8QB6YZg4YscqC34jfGP2Cbuhkaazt-KnwmYC0YknasbIeS8-WUc9dqTzxxg27pTLj6UKIRY5eVjyffYGh5OtDH6D361HMc1976IXRhx_AqaEMxK7AvWza7laW6Sge0qkS09UIHByHZ9h-Yl-eIlMfsHx84Ed7IpU_2IcJxSfURLoXu6Ges5_ccfLfiCuMVxLEhQ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116164315561087947470\">Carl Roos Bierman</a>"] },
+            { photoReference: "AWCwydi-84ZYdRKBXLpkMADdu4j6P8GPW3BjFyUz6xUJ77Mu4bPuaHNgYSy56Ryz5_ythWiXweUJdGFEpAbocH_VyJKhr3_3nEaE3pwTPB_QY1dgAG_5gD72GtpvivY2SrhY_RPgD6eWt0TFiohF-nYwpFEn1SFj7wUlEc41m_xTQCNs6Tg5oYDkWcr_F2BbsNEDme8Eus4rxLh9ceTbz9OCwH2CklNNPqtEmKAgu_m896pzk1z__DIQc0qCnm8TkkDWDqZTbQz5hh7VV7EuLVCixGUnZAIaugAQ0H1hv1GRQ4rTKi-AB1QVz7Kwx3TlN90gSha_Rt6W9_XSVVNr9HdtLR8l-g5WUmqypXkzYPRXMUdOyobxdIIpwHMzNBAJ3emhbyov_Z4ICVhm504bgbVdAmEl7BHbnzKqLeUn8Z3SLbYbQ8ErK58qwCYTS1aBCJJy", width: 1512, height: 2016, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102287143034987307697\">Brie Kedwell</a>"] },
+            { photoReference: "AWCwydjc5zb4pAtCLQDTeIbUzpv7ZPlT-rYSQy4nCDSsFsmoaT69JbR2XoLbyiYlO-EKY5zbaLYnqFbYHPoFC4BFNEk_K3_68N_gPyUGl-xhFuw-7gfxsENnQsgeULgpHSOwo-T6xwejU7c3U80eK9bGJC068Si0wQdVPrruSrYYL1qLDmPeauJ33QR4kzuep0jKk4gNWeoxAfdHtuIjcGD-ZrfJM8yYVm-iWS1pge8-okL3sJLIEIp8izJCx5Td4cMII6rT9R_0LO7795I3IX9M3sitXI1oZ6Mzs68Wr1di6SaA8Wy6kiC3Aiv0s2_U12mxHQaO9iWkhtkdUvacDAv9V5wa3egXPNy2PkdD9GKPa4UPbOBWP5YNzkv2HUt4hpQKjt0xKf0mGGL_zXdh0HGOBPGlYQ5LbkULjKMREWDsoCbLqRr86Nag24ES8ltmeYx4", width: 1512, height: 2016, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102287143034987307697\">Brie Kedwell</a>"] }
+        ],
+        summary: "시장 투어부터 요리 실습까지 말레이시아의 맛과 문화를 동시에 경험하는 특별한 클래스입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["현지 시장 투어를 통한 식재료 학습", "간식, 메인 요리, 디저트 등 다양한 메뉴 구성", "친절하고 세심한 강사진의 맞춤형 지도"],
+        tips: ["직접 만든 음식은 남을 경우 포장이 가능합니다", "선호하지 않는 재료는 대체 재료로 변경 요청할 수 있습니다"],
+        hours: "월요일: 오전 9:30 ~ 오후 1:00; 화요일: 오전 9:30 ~ 오후 1:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Menara Bangsar, 297, Jalan Maarof, Bangsar, 59000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.lazatcooking.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17566506522248871409", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9E%90%ED%8A%B8+%EC%BF%A0%ED%82%B9+%EC%8A%A4%EC%BF%A8+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "말레이시아 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJYZxt-XY1zDERAUnJsAX1MDE",
+        placePhotos: [
+            { photoReference: "AWCwydgZsF6vWCW0g6gnASvNDe-ZVilpAvzoFmqFnji1NhUho91leUp69AnfTR7pYWVXHo_cG4a36PRJay0_QDfCOl1dPXo8hw8RsZH9JbxFhh3vVktE4XSwnig6wXOtI-yl_pmOTiakVRZ0fV6XQrUvtVk6yvkbljnh-Onfypb08LuWQKPtbrcyPWqNctqgn39sutTBXcowYeHxKz5QdsXkkBL1j3phPNcHGse-EflEidK7diSquGfn4wzmMiUyp8QB5haENk44O6E26AT0qGfGQ0UuEm1ooU9G7fnXALyZfx1sKw05MrlewvJlnjH4TZgH5TVL2cP04IE5kRIiwgqjdsJjTiF8Xd8szLCXG5AA6fzVaQuqFc5DW08AHS9MUKmliBTnBz-DY-xMxBPQfAD6SY0pXBffqAXdaflX62DCJLpk1jlR", width: 828, height: 466, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117866561887254482639\">Malaysia Cooking Class</a>"] },
+            { photoReference: "AWCwydglrjEKvWAy2wISXqfn4313I6csMPCOnC4QruAA8D5u4MTPrHV5ygk6q94g5zbLHTkoG-gd7lC1u2-jwecNA7Q2SP6zdcUSkN8q1wJZpO2W0eN4GallfrykU3Z-VWSZr0XSy3wl2jb_iV8uid6c-2HoybYHFUB9c3K1vHJZnNE_4KlraU9fuDIDw1TNfcMT-sea4Q_OWZ69mCCdCpjQXcNbMMZSUZlUFjr7JtxLhW1zFdm2pakA8QOCT6Ng8KQ-Kfi-6WWLCT5M32PYa9P8kDIcbnaJ--T48sWAAQNIF_Bmbzm9I2_ekdp83TxRNp1qS-Ez0KMHAprjQrDKbyZbyI3JPNF-Q6Oo9XBdf8t10e642t0QqKQ0CO1SfLFVT1t0LJjyWM3bK9EPwfA9J9cXljRNd5r80v6PMpV-DWWrdbHqZYL0RjmO457SFOGh6WV0", width: 2000, height: 1500, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105252560273750637467\">Sophie K</a>"] },
+            { photoReference: "AWCwydjAorcyOIO6-1EBNAcHHomlhLeRr2nCY1h_XACFVwmIQheSbz2hRr6XHADYGTt2riXvCitqZDXhIMSWZrGNAyZ5I99vS37T3_WooSWeSPSJan-gk7TXJT9soH-Pf4EZgL6Lq75iYUbbNmuJUJKJDdyuDMgyVZ4WoNK1dWNp56b-KFqfnh8uEIJZlzTXAwZs71sUDCHjJXTYxXetT2dogvSB_0EgqII0ki8RRzpTDVMFnP5FRIVyk8vFOYNrTpAZDRthS_gJrfRcleUqD_2rBM85f94YLJY9XysY3j5f-z8pBD33F7bwA5UIrNQQk6xoSdo3nYfinT7wWr510tdntUDAEvmMxpjEwGkEsb7BbYP3EINrqLuFi-JMDt7OnilS2a3NFTrnlzva6D8SKJ5uZcP57_IDXKmZOq9cDXS8o1wMQIAQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117461144075887989671\">Antonella El hourany</a>"] },
+            { photoReference: "AWCwydiF35grsmke70Dut9Nu9p3WeZe-qhSjtVTW7oF0f6cHN3vgJScRNzSc65mR48rTnzfP21xiQ4jN-6YtojiosBGeHryYjmfZ-ylSImUB8xw1-grxuKjpmczgyGGqmVZMKyZ9klefSArQLAoAGO52F5AvbdITWpPA7sUeDG3uhZivFIGaQTMcleMapeDhNBinU0TfYdjaEF0gNs0QVNDwv9LvyqmuFeJ-T7_QtTVB_O5I0UU3knVIuxTkKmGaRGvozCyIjOtVKY7uSLKo8-s_Ehi8oGkE0lsh1zM7KXt-jcUt68CdK9cFJUiH00xuHUUbyt1vD89nKhv_8HLHbsQaNCIdeHuWaPps5_h9h2w0C1_huYxqk8tcBXDEaTkMunIDeyQIPoD3RcUECnSB-nVHKVK_5FDkJ88TuDqbW6bepfZsMnONozeZgpq1xlh5F6t_", width: 608, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109553455289402395751\">Katriin Reedo</a>"] },
+            { photoReference: "AWCwydjGrQVeV9dYMtvUlpNKrGz7jDZ8WbgHCyoP3MTicMr6Mlm-UfuG_5PKlsu0vBxk0-ltzbDThJYU9TXiTRM4UrzNQDBX0akqXM1VU2y99tsmo3XXmdy6tjjcppL5yZ0nlQv6XoyoOJBh2AglYzfxVenuMJAV2XkIMV8NfSOW2p7_iEb1o0zUi25dTZl6LDd-wRCdJFaIn8Y4ZErmSzuWWhnG1zckjsJ0tbBoSV-8mheY3hnDqZneypVqxB5co4bCNjl_AaeI-L689JHCG6oNZj_Y2QQ32pY2BN5HKOM-3a-XxUGCvgxdJb4azwWNOJ3GhYEkegi9WYUqRnXlJGO69XvEJfIyu9mqRz7WdQYjduTCcEApefxeHA65Q8E_ZBn8QmK15XHkwxs7l7Gmy2M8tBLR_OzBWbiJ0uttllaQrQdRjTZB", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117630809111927366848\">david ng</a>"] }
+        ],
+        summary: "전문적인 강사의 지도 아래 커리 락사와 전통 디저트를 직접 만들어 보는 특별한 경험을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["정통 말레이시아 요리 제조", "전문 강사의 친절한 지도", "대중교통으로 편리한 접근성"],
+        tips: ["커리 락사와 쿠이 케타얍 만들기를 추천합니다", "수업 전 예약과 소통이 원활합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 11:30; 화요일: 오전 8:00 ~ 오후 11:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Awana Puri Condo, jalan, Taman Mutiara Barat, 56000 cheras, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.malaysiacookingclass.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3544602311530203393", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%90%EB%A0%88%EC%9D%B4%EC%8B%9C%EC%95%84+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "사랑 쿠커리": {
+        photos: [],
+        placeId: "ChIJDQFNx9dJzDERKIbtae-Hc_4",
+        placePhotos: [
+            { photoReference: "AWCwydhJ0cWj6NgiZ_6MYrhbY1A25ouYz_XxrSGV2V2t257YCrzJX8KrkebrH_lsCJ99pphjBjboVKYme4vUcm37qnrvNk4nQfIxEDJLkqQWGQagkG_yzSJVU6gAVmBoVgotln-r1fpAUCjmYBDBf4nkBEw9dLIkT829L-wuvmO_2E8GgeJRuOdL2m4qpw6t28zIxwvafUq0rsRuO2m4U55T9_SB2kqKfY1Gz6_LzFCWki1OhI102Hlz30mD5X4Os5faffhEPHrI49eXo_Cia6KmZjKQLBWQgrIhHRhxgohdwKqm052GgglfEVJEojPYT3P_r5fL-3IznodlTPytpoXz6H43qZjCDsXYY4ImW0iLxSRI1AlDwjrxTy9o9fz4_r83D_ADK2huDyauEc5H4vnv5n0G5R2qNSjB5plCiqnyCUU", width: 2976, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101229624967463674668\">shinolisa zhang</a>"] },
+            { photoReference: "AWCwydiW7-7Qc8rmkcMeYJEHERcip_KSHOzI4W4ydLNjbRm-slM3dBHjzpTfin7axC3c3LIiSbfv8fCVo3LYvMpYjvT413IM4MZ_WmaMTYVAtz3Ow_k2qdihZ5By_rPIVRqlnc0ksydwb0FMI9Ag_0K696vTV9GpWKti1izDvHPrJfcEqNDk3qsET-7zrBtQOYxuCiPL_pNQTnaJGk3ogXkWlhXuos7s1BPY-h7KHOW-89L3szhiuCz4McUvF3JJrkFlqWMdRowJ9RjVVDsKOjB8l_peWehk2y5kxz4EhX1FlOU7eYuD2NRQ5FDpu7xbbAL3yK10Bmmoy82t41a6OhjwRj41OHof31Vs5y0oAr0Mw4DHUU9oR63IJBbnzTYACAA9aEj6T0RfZJAEMTMoD2C8v1TdsvKuCwr-0a4MgLgNmGCPyGHT", width: 3024, height: 3675, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114377558909185967236\">zes</a>"] },
+            { photoReference: "AWCwydiOCEQdHCu9yLpfgYjHHx57B5TRgHXDtGbBUfsH-N3vcomQ_eUUsYc_5Tm6VjS9AoW0z3ZPp_4I3PG7R-1XoS-DThZ9LuStVy9sdJ4kGC6Y2lbTPy7HFYyJXBJvNrTILk3OqxNLPnw3WDGerr0kvginOfW4_KaaT-h9y_h9yZ68296TYOmKS4HGnWeSHCBWVzrNHpTabnDgjg4KO2UynbWU6jAnKfbWYJN36y-rDSgBIPBEhU42robFj-_uTX6UanZ8_3l7fKG7MkY0peTO2PPMTTZPp817LgIGj3fUe4FhFw6E8BBmzTdXsWN2fTdAP5PvHukSdcUFO66PtSUCnEZTnEgBTAI_lTXNm260WJ7l6z6yN9wjsRJEAqdjx5_ZIEChngtMBNnfigxmZrXpI9bS5eah5jgeHM7ZtfCil2bHrw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112742715026419703158\">Jason YJ</a>"] },
+            { photoReference: "AWCwydiarXZRNmT22szGB0Mwh9UB93Afi8CAdlSLnQHYGyogHjZQW8DvNtRbByBVYVt2_vOnpXHJpdJ1ptDDEZWVmKc2yVZD9ceOwYNh3g-bmjIN6IbyOX-GRyxaZP0jvLboX5-8HNr9eouD6WZvd_dJi2PxCjat3om84MYQbyXFejSHgLcpUiEao8N41M_iFOK80yR9MEr0yhUtogIqZ1eYru3Tp-pnXxl4oUa48-ytFoxOYogKDcrAXL00zz15K7zWy0LO_LHjUwFZcdxdfkSVKYIDoEKvKk__LzC_cba8rUf6nUK8VU9YSWobJsYXC_7rNlolRVWkv-69UzhArZRd655Qatb8JsKaBZ4KDB7uchfX8J3HarkWF0In_AGUEuwPVNoGSkClTgg6J7sf_pLvJ6HPB0M80NFpP-Yr5-pY7gc", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114806297649849022412\">C. N.</a>"] },
+            { photoReference: "AWCwydjWFun7YRix2hJysaaI0KGm1P4962Xc30PFZyOrWKReRWBhN5sQnOmI2TAJ3SDL-Xljzk3lzTmgUNJVfXKPjanCzzc9Wc59dGL0doATHIwg1PQxRcwLLbT4-rjePAMT_WUAC_y1eurInI2jcETT7W47r22Jfk3Mk8owRS8pv-gJ0ENZQzUZfb6EyWJSexFGeFPronrLeIuez4yZv7ow6YhSP_qYSfrUoh3tyZw8mX3TbIXy2hZ7r69Bd4Z_NN_3BCkdcgnyDTl4Ob9OkcorHupvxyasHpybs2wByDPu-r6bBKrfnlsBX5qMuvZ-fiuTSLJGGr0wjCGrNyAnonNG2MHHwR9uzc_cKr4ADWldBO47Py-uLA9K8E2aAya5xXxUDZxPQiifpHvvkFYtsix2JT5VHbjQZSSHbuIK7P-p_irRhatz", width: 810, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105605013323054543464\">Koon Miin Ng</a>"] }
+        ],
+        summary: "말레이시아 전통 논야 요리를 직접 배우고 즐기는 문화 체험형 쿠킹 워크숍입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["논야 요리 역사 교육", "전문 강사의 열정적인 강의", "함께 요리하며 즐기는 소중한 시간"],
+        tips: ["3주간의 휴가 중 최고의 하이라이트로 꼽히는 경험", "사랑하는 사람들과 함께 참여하기를 추천"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "8, Jalan Galloway, Bukit Bintang, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, 말레이시아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.sarangcookery.com.my/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18335147970299528744", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EB%9E%91+%EC%BF%A0%EC%BB%A4%EB%A6%AC+%EC%BF%A0%EC%95%8C%EB%9D%BC%EB%A3%B8%ED%91%B8%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

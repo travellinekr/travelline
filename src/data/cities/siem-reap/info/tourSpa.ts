@@ -410,6 +410,291 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%86%88%20%EB%B0%94%EC%BC%95%20%EC%94%A8%EC%97%A0%EB%A6%BD%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "시엠립 셔틀 투어": {
+        photos: [],
+        placeId: "ChIJ4fQdRG4XEDERRHGHElR6Cu8",
+        placePhotos: [
+            { photoReference: "AWCwydiFsljwj_EdBaYt2ZWfVDJ6MGzfFaDi0UyJAdIWo13lzYKbvvQ5oSbespQuZfJ7ZBhJ7hEkbgsBV_qTnKUMsBSNvfa5dP85jkbAkC0tOXajiop0CLj0llpxQiE-pBg9cijaJVxk5cvp6AK9GOTuyyqc1qRdG2yR1mcQpXcYHe51-uw5AWuhPIzSN7sjSKCzaxMt_ZPv4nXDayiFvKlyvriNLnh7rQJoIEVewUnc2QneaZNLkrWVXvlcS126TaKQgJE3E96TRzmapILQ1s-5jBs0stX-gzJy_UX_eNJXT7LeuAYr4lUF_wRi4L0e4tQ-bXjkBxSfoSsy5HB5ytBhINbk7su2frVKFYI7g4sje7_0qUpfUlPRV17FunQs_0uwg9Jvezv8bRAuwDa1PFrrnLA8s2PJ8vTNUplahH_5fTQNCBg7_hf3d4GXKE6OTQua", width: 1080, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105701151260549012098\">Siem Reap Shuttle Tours</a>"] },
+            { photoReference: "AWCwydiRiSaAUdhQmYz-QDtqhIfDViZl6NfZLcdmE8nII6Pf_ThDKfnThryY86Y7u1nIv-psDzRGwOT7E_iqkbIv_sQ-fkwLIg9hKdoTwR4_ZaEfZWyI6qSlYCmqAMZF4fDljUccrJ5JLJw7NteiVNQO1SpqMdCteXJcfavgAqDxTxZ3n7f3hEAtmGwcAePG4uTOWUZIymEmyWgmeCsAVUvG576-Oe_9n4nXcM7gcpXS57ZxeDJXyErX3ceTZjJxVP_mT3XBKtmCFdep_FvmIjl6imdWwAjy59LCdB9YdICFutExdmzYDTKmtIX76yu2csUWhGADzNtUjKuxjG3vBSFBDEhMK24_5dbKXMAxHwHkLwkSDAec3LvH53FZHjIDwsEh1niawClzBh_GypbSfyAOHjLgHJJnbxpLMHQWvTOyREERphTAgO_xvcNP-2AsGrzM", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105701151260549012098\">Siem Reap Shuttle Tours</a>"] },
+            { photoReference: "AWCwydi2NGYuiGWb7qtQ_hlpQIhbQ-vFDq118nujv3ZTqUtG5E1j9qmTcJc8Nga7AAbKikKkSaF1xqvMgUcgBuSiabMNkpVKRcy2HzPdMlQVqn90YfOmjqebd53rk4ECEuhDNeck-L3I6uZ_0XXh9Xl8yV1KDO7zkhSSAO1sABDMVwmJzhQgH73c-LD8wcwlexfjDrwZFcafQjC9420CFJOLWJ7g3SpkZpM2b8W3GfK8GJh7-3nbBzIGD2y0e6c1eTDfBjJcK9FvWsWSAfs5aOyZ4a6j3TLsdHQvYJiiEdAa45Wcm3EzJe1kxYPeH6vURDhCDgpU6dTnoH5whBslg0C40sT0-u8s2hqpz4k6HkkBfGT7JLIopB9ul8pUT2z4myIgMGY2Ku3o0PUVYH1544njpRLk93by1HNgOJqEpQzvwj4lKlLzk07XHWasIItkfCox", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104714615263197213159\">Hanoé Cnt</a>"] },
+            { photoReference: "AWCwydim-qtO1aiOVLvfDHgiaCJ5oCDkXPV3MaqZjP1n5u4Q-evpFSZlpF0A5sFURMjZ1uh1SB0w-CrGeXFt1QiCc50eWYBI0duXs93P9zNVFTW5-iK9v3V4PRCxWjiCLEQLiKETHMqZ4bnZOdVGk9j-8Iy4Tx3R-UXJmqtALt26ojAL1UQQT3HKTmKC9oUrgtkbUhsP9P5IroIFfY1vej5q0KKdxTpGcfxpYu0DIk0w74AZ1ToJPsDdOWQQHkc5511Hf_Ljjmul2UonF2b3xlm5ThZ0u1edinePmy1cm2ptPIzvwtaq7lqvbtL6XS4kfJFnZbxcDr62O1DT-VrcObCHsTZcRagvNyHccOsd4PiFoqVSqhxMpn5st0-3wlWaZyvatVSXVrmqZzEFRwl0LiU3mvEmBbuEkA-Z7R85LYgQKkw45tj3yJwnQBY5WagHFw", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106436553380521769548\">Axel</a>"] },
+            { photoReference: "AWCwydj984xowy_2ZN75nXHEaBuC4y0smLUU_acLylKHR4yTtLNvMwN41MckMCl0ZWpeC4DhZdOpVCxoUsJy8cJDKjTovLgHJiEzS8VCAwbBV1vBcDbDqyfTHtFS13q5zVqzaW8JXUtQV5oQCoehuEWxeOu8hYC05oBLSVJlmR0OhwdpLqG_sFCA2s2lP0zXCQlyGPsZTOGv8jg_28R407pAzEiEzkT-fWVp3Zn6576FByrYoPJarpUdm35xpogLaDpcMh-sXRliN1GaxvXDL7B4CmNIssgxWhd3u0oFqXGHdblanOTD4J-4EEqyc2vRavC2OQThigdnLR3zJ69Eu0h2ONhm7o6I6bZXrJkHAdjeq9-9G9khMSYMPR29KCbX1GqJt0JKggvlzkuYK4iqy76ZQaJMxTAh4xYnlDyDvo_KfofVQKfZqi9RaB58Om36QFhh", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105701151260549012098\">Siem Reap Shuttle Tours</a>"] }
+        ],
+        summary: "전문 가이드의 친절한 안내와 함께 즐기는 시엠립 수상 마을 및 쿨렌 폭포 투어",
+        updatedAt: "2026-08-14",
+        highlights: ["박식하고 친절한 가이드", "수상 마을 및 쿨렌 폭포 탐험"],
+        tips: ["쿨렌 폭포와 쿨렌 대불에서 나비를 구경해보세요"],
+        hours: "월요일: 오전 6:00 ~ 오후 10:00; 화요일: 오전 6:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Sivutha Blvd, Krong Siem Reap, 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.siemreapshuttle.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17224714226338591044", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EC%97%A0%EB%A6%BD+%EC%85%94%ED%8B%80+%ED%88%AC%EC%96%B4+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "저니 캄보디아": {
+        photos: [],
+        placeId: "ChIJ8c2tcy8ZEDERgm3Q_bpaiDY",
+        placePhotos: [
+            { photoReference: "AWCwydj3M-8DfA_54Xenm-iwRynYu-GkQvnq2tnUIhYTh_wVvKqeHNzdkrqZpq1Xz72rThcQ_UYng_94MNic2rslgWXwRlRGBGaPjwIHqmMYKc7Oh2aMdNSP-lm3WQzW3GlR1i3uVPy0ILh6h6BhAPcsNnoekTyrLrataNWsNAmrY0mu3Y3bxMCsyb0vsQekPt0ZblitItTVfupiRff9_e3AJm7-aDhhYUPSGp7sqD3k4whpqY3jaF6Xzr9XVCuyAEK1Y48R2dGIdjx3HzxMJW0wgb2QKNcjWFsnr_8kvHp-a5lveqF_-6siKeRSvcvmdRzYSHMMnh6P4ejZe3GYuXr4bXp0WWmdU8VragCxsuMOnkeriyd9-_y1XJEdf1rz3zJo_fMGSC5ByXdwa_faEnY3cPzioZk5NXtgqKptg_3UcLfDqiMM-4wv__yQ0lzRq1am", width: 1920, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113332889029365801375\">JOURNEY CAMBODIA</a>"] },
+            { photoReference: "AWCwydiZ0W1zxZS58VPcY4doAAgpYlXx3ojYiNRO449IksA1H0Rau8ifyMRL14sNm1xq8QhWnvDKtQUBpYrSVECOILyhzdDiju3QQB4M4H_cWwM09m3xt2mKeCizzDNeFY58zc64cSbthWvpQIs9gLZ-GYElQO3KQLLqN3uqg5HdBFf208Xf-QeHV7nnYPHZv_pmcqZkiEMUyS-_ZwVyhOkuosp7PoDLIh3EPXi99D-TJWyY7LzH9I1mS1ART5ZGO9kjBA2qTnwnA3JWcouCEi-EzpzgibhyFQAAmb0W2UCTJZEzvFIlo7fg9E-YRxsEnPUl4Vlg5GcSUuKQgvgqJyowX8vHGsMtHL1U6IUySPxIoZp6G0b1KxJ1K577WcX1bXsY53QHIvVDQvHdgq69kgLgc936JjcBgEwAFbfGchRS7RqWvN5_cADUcthspwuICU-d", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107521474839354041537\">Yipeng HAN</a>"] },
+            { photoReference: "AWCwydg38-jtzhwnxLaX_0R_5syX3MXNsz2PM8MZNDY5ucOWIjAJPPQtFQalnRmuzX42TX8AJCtos7ycNZsVV7_jcQaxjFdYa5sVYXH5S6DegIrWk3u4ugnt4n7LUUhWLSmMNcVunIo70-CfEs9HGRJvvFT2xlQa2KYfxFy_oPohkj_pxPPwzPoAVB94ypQfuoqiG2Gi7sctubPsz1xAPXzLqdvMJs45d5jr1hUGhlcl_g6ff7Fl74laNNL9gTwU-tho_fNbqfpZRWbNyZQxC3IGZuTqoOZHCAuYAoAI6XKOI4o7Vl1PGeMKipZW0raD4g6LKyNtvNd39a-w1wgBukWvKzgS5KVOoE3eFw6M-DcdxypHkgWWkiFNetpKuGOBRE8EknrsDAi8kHIZPT3S6vwG_wbD-nl6bWKv7oWyfXecXtleJcEk_aGC5pv0RPz8mA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105663191522377915262\">Christian Roefke</a>"] },
+            { photoReference: "AWCwydjM_sNpn-ejUbjWsCIvQWLPQkU-hFAGlto8jeQkFUVh7cvFiKK6W21PDzYG8B62yXS8HdR7oLwR-T5s504LMZAgSPxENMXVuCATtaNlGXEr7GCJ4Zp81AVGKszUnMoOcMxLhqZYF6xNPjzX605Jq7AOUmpBUb4e2SDWp5rWtRXtvGfEDjTmta-7YCOXZE49LSLd6jhbPfUCFJJqwJX1gAviZqFKrrXBxDnaMSis_PQ6RboyflcWRcW0uy3wPJrfKCF7RfVZ-PjBzM9u-O699VZPxjP3FNTWauUzNHuMDx3xfAQte2TVsXfn4VHIfr_M-W8BcL2LxRIt5sLfGvS9641PdpYHxQBQvSq1ui0YfO40_CwVk-29uPGeKECXJknn9KnkKAgvdm8maqSJ-zJPuRxhAr1h4TyQnVbv-CW_PEY4lbymIWJ93ITdJMuISERh", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101695005981647911854\">Ana Liard</a>"] },
+            { photoReference: "AWCwydhgTSsYTquBQgRme36kYi3l5xKJ_3K0Cl2B3kTF1BrEjEEBs7__sGlwWa742HHuDoAQkQFkuhBbbutELoFh8YPnArsrANSEsbZL99QAINVbmA3GRaGBb5hMwbQRWaUeyqmB9hc_B8Fcl0R4qTnwKHh7ZbAjM_oFRhrFe5HyognR-SP2V6GHMlkLCaccclrAOMsdX79SqvM7ICieoQ2vz1MKBI2N2ax-uLkKJBUBg-Zvnw7Nij0stNWiuUAoVIVUSg-FHppcEzk9AopC_FVHsUy7JA6KccAhkwUhCpIGocTxY11r9jtsyp-B_FjWuD1owO6VregQqyTncyQ0YFfRnEP_PXSFXtS__njk7Uy4HuOsx9CiHDl8SF849SXTuIRiUCone6MZHPZD8-jiXpS8AnG6K1biXTxsYLYdnVn0rELUNSeMdJFCFAqDWXxjqg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108359026653021483650\">富田</a>"] }
+        ],
+        summary: "현지 가이드의 전문적인 안내와 열정적인 설명이 돋보이는 어드벤처 투어입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전문 가이드의 깊이 있는 지식", "숨겨진 명소 탐방", "사진 촬영 명소 추천"],
+        tips: ["가이드 Ask와 Dara에게 조언을 구해보세요", "가이드 Sak의 열정적인 설명을 경청해보세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Village, 0306 Sala Kamreuk Rd, ក្រុងសៀមរាប 171204 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.journeycambodia.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3929490434049469826", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A0%80%EB%8B%88+%EC%BA%84%EB%B3%B4%EB%94%94%EC%95%84+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "히든 캄보디아 어드벤처 투어": {
+        photos: [],
+        placeId: "ChIJTa1jnAgXEDERop3moB5AgPo",
+        placePhotos: [
+            { photoReference: "AWCwydixB7eUkptlkisXGTDOtw-A2tbRJWCK85aMu5i9j19c78Vk0A3nThyp2H9Yt7k9H45ouIweE0nhQ3xY1117Rsm-qV_pkHuR10epdWwo9ZJh2EHaEZdE1-YycNViPFKjH85YFW-PQaJ__d3Bk73JZbQBA5FPCBTAKanZvHQfYoBQX2g80n8VIC08T4SVMjawfpskxZh46qZErAqC1ltayfN8bIAhsnO8pfR8nMKB-ahT1_eqXaFLXb-SPoABJmisORvF_n0QqJ91n6wAcIyk2e3Om9LIkW_7UHj4oXwi2buf19Dd6rQynsF2Le6BCYumb1-Qmm1WcDEB-V0T4V2VWr0_u5oK94p7LhaE8RE2PbcbtAKHMNkxuSSzAanmhKoey_3PTor4lng6MisrtSg4KMt43ZW9_vshbkPdCWlUcVORnk4", width: 960, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111325223022395260497\">Hidden Cambodia Adventure Tours Office</a>"] },
+            { photoReference: "AWCwydgaI8DMAdAW79xoZWjaN3P4D4xNqD905GeE0qGeFdLIvF-_SaBBn5eHtOO_UEG5COdBZ3C3xd8WzbGC92Sf-23T3vpi113fmN5m-y0TDVqX3WxVdjGegeN0x0A4U92SI9C0eBqYMPHhYwH2-zd4tN8JRDtP24aCa_svt-9j2mbQgvwS5-P6eNlycpMldINvgKpl47Z6CTLu3c6c5D4mEAZkfvkWQSepPVANHM6AJ31nEp7sgUrNPimDPPHHRxtt6242Bz6l08-pOqfIoC4u6LILyHFZKOemdFMEk7gXaRcvzU2hBZ1XhiLY6rCbXzuE3il5nu92Mkz1CkU8lkfg-WAHu5peWsu0NVMonklDTbuODtfajwjCd8CgY-UyILMfUaaubRoIHrFM5u5Zq5iezafaPwozABWHgdUZ9hcIST7vNBs", width: 2016, height: 1227, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111325223022395260497\">Hidden Cambodia Adventure Tours Office</a>"] },
+            { photoReference: "AWCwydgKN__sKh-F0NCAo0BN2KJdY6NXJyB0PEKkxfuXHZxBIu8PC8eVk56RCgT8R7KklDdvIh4PL5S0Okji1tgvhhzzYeKMcTDYr4u4OK54p83qBdo_fAeGBhkivhIuJQZ1H8t9E1SIATASEjshC79iqd7kT3F9hZyjpY0dT3S7kS9VRiPfJeRAly-n5fMbng3Oe0LtwvCYxXaFxG3KWz5YUR7v9gZL_he0f4jVXU81oVhvu2Ct64TR9mQxYH4xOEhegu2axUrakrtmZoWhyOqKa9kPoXqVqzjbZ44HnmaWVV9QXYRYB0aikSulncUxviaqJ98MfxFetLu_cD4eu5A-toj_O82M6ed9cWVIMQlZL-nqe8jXxnvXN7I4SrPNOikk08sLDCBs_krUh3sujkFrUF82yc1MhlGxlThaL5ljux8", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100250660416778834145\">Matt Glue</a>"] },
+            { photoReference: "AWCwydjNUhv8djIReacoue08VL1V9C7SWWAaSpxTtvQnREbccoY-CanRWmszmW_eDW396F9_dPIyV_3mH4TFadue4G_AKW-UIGj7btveALAXRjlaSLmGA1W6xOLYTuEXBP0ekldd_M1XTNSSDKab_AkJzyNfE36aWWCfjqkaVMJ7GMXD-7Q7OKVHNOEVjb-zxdCgvxtutSHBC-riw8uyUzLYcVC1ky84DcLqQCVUaagCOQ-ZCmfIVDzbhX5bfxuYNvNq_NCT8zyvnUIfXeEYO_UTzeewEO5_QhYvwdu7J5X7ByHIgyTQy1jZEtpUhclAhUpozefA8YLIUJKA-RJfpOVUGAX43GrGe0cIqIGNwDeu_uggFlkrNe7IQMywK_29k2RNplodrW_-vZ8lTocgyjRq7kJ6OoqvUSSm2JjDxMuSvn_4MsOs", width: 1118, height: 741, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106492130072308928478\">Graham Scott</a>"] },
+            { photoReference: "AWCwydhzhHIonC2kz1I4cjgJ87FPRHHBJ9rXtXnJnwaijRUbCq6Ts-Bf7MZMg6hlam4yf1oarMC65mcwPV_1WmMtVNMOWbzNiJgiX60QvTSc9xjtNClVNPuR9l2X16b79TqRRAN_evwO0rrf64GRchjHXu3k-O8kDjoJA0YjQFbtH1O7C9b6uvlDjZ-Gs39NAL5EkM-VclEd7pQ0QBA_k0VCS0yeJwiSaaLu2a5cZAkG5fsISnJ7AiVy-j0FJHRa1tT28CAEo9GEZePwS1LVR25xgYpuZXa2zs1Nn7437kWsFJwyyDwksoLUZgutMfQiFm5zH6HtfDadBYeFelfJObbEBjV7GTg-xie15r6AlEglXnTFI-uffZQ5JD17Xii5FVw17AsKvuLybXq_-0kWHgYspELomltWSePczKoFpo4jdIpOt8_OPzmUjb4QWCNg-A", width: 1600, height: 1204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111325223022395260497\">Hidden Cambodia Adventure Tours Office</a>"] }
+        ],
+        summary: "맞춤형 일정과 현지 홈스테이를 통해 캄보디아 시골의 진면목을 발견할 수 있는 아웃도어 투어입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["프놈 쿨렌 및 벵 멜레아 오프로드 바이크 여행", "현지 마을 홈스테이 및 전통 크메르 음식 체험", "전문 가이드의 깊이 있는 역사 설명"],
+        tips: ["개인 일정과 예산에 맞춘 맞춤형 여행 설계 가능", "현지인 가이드와 함께하는 트레킹 추천"],
+        hours: "월요일: 오전 6:00 ~ 오후 7:30; 화요일: 오전 6:00 ~ 오후 7:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Cheas Rd, Krong Siem Reap, 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.hiddencambodia.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18050497806793612706", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9E%88%EB%93%A0+%EC%BA%84%EB%B3%B4%EB%94%94%EC%95%84+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%ED%88%AC%EC%96%B4+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "웨이크 파크 캄보디아": {
+        photos: [],
+        placeId: "ChIJC1gXOpYXEDER12uwzCyFDJk",
+        placePhotos: [
+            { photoReference: "AWCwydhxzNkLgvFf8SRuRm_4cNkF_bwZod12Z7DsFP3tNdFrmp1LI91o6j5RKdlm8UBJ3l4zZnJcL3BUu15SCNtmaN31tXguRxujqBCCD1-oK9dvNSoWs8myaXHjIf1vn_M6Cfun8ynnv8wIErXec8ON6bYmqe6xuRGV7Nnoaeodd1ilfSZUGeUXNxsZcgnBvlZ_UTHuGn0Adgc4pAzn0OOZ0xOSEzFVavxFrRa0lHSwXr1YHhRXjeHBkXwIMB9X9zEiN0MG7pI-YqP1GgSMrJw4TLhs5yRBAKjO9-G-I4eVdeiwtlwHN9FSYp_K5QKHNxrKVKIMxSxqwRHD_bf0jCIGV10NqJmRAM4Ppf061sIDSKqYgp1rzHcp9J9iO3xsLup11kmiULk3v1-RifBY1mVnFgIxOVPSYHsPCLBT0iSAaDVPNKo", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102311395249336496185\">Wake Park Cambodia</a>"] },
+            { photoReference: "AWCwydjCc7vx1sGexBQOmYLxCqb0l9DkKvSiJCyqNp9gFwjfEz6TZ4RsGGhMqh6nNEeGsLFce30224XUGbiNxxetPph13yXJPrmOzICvuKuDlOgr4C5gUKvamN8NPMMJkhJPFLstKjbnZ7DRtVl2uRzW4ZiasakZAaTS4Tr2izknDsiYWqLIh2tqVQ3IDBOmXPkZPhIXMWmL_WBoLeJ_KVqGJEEdEk4yUtuMI6ORhoUG2SCTycd_FqkXgFyHBFdp0tiCJtrNw9YHYEy5Q78TWzL2R9GKnkvCKA7Io262FBVf3P3s8F9m0SLveurjZcmpyTAtaeOOX1WQpc_YxcLc-gXJGy-BCPKrSCrZ-Ly7T6xHeFPUSD7WvQ_0Xj18uUWLbA5bUcdaNzJceeVkZy8c0HwuOI-1qDh79hb3_Q0UaVHweGOoX34V", width: 4624, height: 3472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102308260676570099914\">Anne Laure BARTENAY</a>"] },
+            { photoReference: "AWCwydhpVW4YpmIDMgn7WztDdVQ4JBaHC5covZxu60qQcztI05KOLTBF7hbliZdtNIiAuXnnD88DEOciPo5HGxQsPuIXBQwdUqGnPYV4TnqP59URKTqoVblPg9xIBfb4AChJA7EiN6pLevKrOcsaDYc4siZre7XrV25IJjBfgrYkmt0szIHo4LOB8OTmcb4wblTqio1xu9YV2GgO-_l9xpgHHKczumu5J8VO3QKevC0pO4-BQi0boSwKVwFgwqmHj72qPToSzFVpcVhJvVZ1GgvYNbgnjjfc2iBNdsCVjOwj2ifADZy6e8314NR3ToLBFkHIAPljbv9lv7Ee9bnhFdL8HB7-fxHd94ITAX-39vZP3Cade9s6eKcP5UvalDhu_lUR00IjFAoRknjU8CZ8zluOVP8Quqo_2nxJ0VFTXApgzzMZrhgZFzhoLSbpQ1wanlxS", width: 3584, height: 2004, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116379602473059133463\">joty mousar</a>"] },
+            { photoReference: "AWCwydiqR1vE7OPQ92wHGbquFOcNLYANt_Bs45w2MFe-w2li9K1TCwDFXeh89RG07HubaI7-qhXePnZfDxAFnji38Z3l2Ov-Aifzz8jfuasajQuW6Gx4YEZvEgBaQxmMv0KRNys7cMGmqPeXY5X8RgYgi_rvm2E1vp3l9sMAnxNzwh--VKWeVNWaVTNzvj3IAArl1rIx1Lx4euCO-fzwW6KgOJ70_tAYaruSNWe8P8rlwH9X7QC2DlQzxw86z9yXy21i_8Y0UVfwxx21BGKqi66cSDkg8nmU_b5gLywHqWZPjiolzwjl-oLbYGU8GwfXGKdvuB-2epNIDjuOeMJv9XNfqlGs5O50kY_dKQI50H7ateK6iO5VF0d0ALAmwfsostqLlCaukJ02yy0QcFslP4dtHs5L6gJW3WO1xdN8LzpTbjCl4w", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104728587593424857805\">Ju Dith</a>"] },
+            { photoReference: "AWCwydhJRxOFTQQw4SVXxc_ZyoPtxBZCI9fM-6DQP9uqFPY9n9lKI7gxdygHeuyhui_OlzRkKY86nT6fnfX-Uk2kbNtUJjeJcqpiPifVLfOWPCISpqzGsbkg3ae-ywUskDamUd_3e64NqOsSCaZ2MEK9e86K3mBGnaDa-lrbUwqsXr0wB_pOHvoF5Y-VLixUipdhB9F8g_a_VzkJunKSH-0BcTiX72zRG_ANDUJVKMLKXmP6y2WYqitZ4Ggl4vYUX_PmDYkuPOaMU4u14JfYrGh_3f3IY9UCwACcLp8Rvw1ZwNTIFQxdrft7kjbaHTiKPOdPvl2hOFHP8nFEtgB7UpZr2OtEwfTcxo4JqnTg7lykGRxMmlGodaAOUJbwf0kJvRCDZi30cYIQC3jXo6dBcLiII5IkwHckBmj-lUGAMCa52LHfDw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105302430277184142311\">Tessa Joliena</a>"] }
+        ],
+        summary: "초보자부터 숙련자까지 모두 즐길 수 있는 매력적인 워터 스포츠 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["그림 같은 아름다운 시설", "친절하고 전문적인 스태프", "일몰을 감상하기 좋은 라운지"],
+        tips: ["스태프의 팁을 활용하면 실력을 빠르게 키울 수 있습니다", "라운지 구역에서 휴식을 취하며 일몰을 감상해 보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "ICF Campus Road, Siem, Reap 17252 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.wakeparkcambodia.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11028336014982671319", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%A8%EC%9D%B4%ED%81%AC+%ED%8C%8C%ED%81%AC+%EC%BA%84%EB%B3%B4%EB%94%94%EC%95%84+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앙코르 야생동물 & 아쿠아리움": {
+        photos: [],
+        placeId: "ChIJX4GNZfQlEDERacq7p5VEzJ8",
+        placePhotos: [
+            { photoReference: "AWCwydhMWowWQ5pCXgj9VObQlsBL3xQMjwLhc_9xoV53Hh-dA_3NbmKVWcpXoh5iudAaHcgtUmXsA8ZiPhnGNFYDYAGW9mMggLYo6GtiOFn5aIutn0mxti2yfstgwLwrF_UIxJ5-CK_0NSdlNA0CbSpE9-fYxiBdIAexEgiw4951ns9TV2EuZvn-jtd7oXCO3r3WGhuNNz2LWURJ_hnKhQnxdQ74gjlsICWjcMRQdBDMCeukLuRCYInbOlr1v8O0tnR6woocrKaoQtKed-w08jRQ-adRlXk0eH_i1eZC_7aklIpkr4FyZ9nZsYpYSL_CY36AhKAfMYZFK6UrmQtD5Uabtf5ej3B_Eq4c_5PnuDTfVOD0kycZMc7y7OXF6VTz_N6keLDBBEUOzw_LzhYAdARZm71_eJWr1RXW_VtdHp6dWAE8QEVjmjszzEAyjInOFmo8", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118420468402259025668\">Angkor Wildlife &amp; Aquarium</a>"] },
+            { photoReference: "AWCwydi7UC_KZfH2QI_IzxoyVnO-CUJPubgNdVGa1UQQ_AWdpPystmZAwWw4W7nvwahZzSSIY9AlObBKPNoec2D7_-iU0f4coHANwerNbMjccwi5RncpnDZIrpk689o4NgomLGE4xCzPkoZcwFLq6ZhWQv3GZ0RzOMEz1HVv-8mnTQsugjVFuM0v7VMQGIiarP2LnjkCegcLikqRc3mg62TlNkjSDQ81YYMgq0TAfeRVh01mJTSpMBOdRxjv4SRI9yfprctzX0puHr1CB4CeAJWGw0KDaQf5cC_eHbc5gIJULkpH7ujqeiYxgAUoDTFnuepB5kLnyutRfLd-MCbTqK2EUYg-MyPh9HG8_wtEXzzuIiequZEoW-AStrrWC6BFfhmR1dXrbW2OvYLTBgb3R0PzkVY4GpB3fFKJAYHtWIkBD4tSRAp41roYOrPRdjzFnjiL", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111169942511717080729\">Rebeccah Powell</a>"] },
+            { photoReference: "AWCwydhFBvdGAJU6p-1YHEE9pv3bkoX5q1Fab30p4AUSLtutYZrRmJC7Y4pL3oadQq9A6kDQPLl-VaRv7x3-fvOudLPY9Y-r9zlS8FEDWw8oetDC95Gk6TuclddMhDEhFn5mj3wo0-uDREQ_dgUJqX3xC9d00-WWYUVwxOOcqudfnbNZtL5T2hNLBF-jAJBBFk_fRUKZf7Gu-ZjFLjqOP_zCOlmiwfd9OxAiVvGxfmeN6ACeaWB1SgvYPUT3rQGY9g6eKJHvPoilw_g_loxnZh6MxlPOX7346ZfOQxxK9tXnRVPKfQq2hEi36ozHYU3eZmZH90JHxqyWvrTUwiMG4BP16VxmGmMmfjjdC6-LomWZpp8JfDElpe810uorgcsSeEXqeKjYD7NsW0tALnPOMA6qHA_LssESePXI9SA_ArZDcRK9mg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109771791510159323468\">បង ផ្កាយធំ -Bong Pkhay Thom</a>"] },
+            { photoReference: "AWCwydg2zYM7SuElj902Mr7smPBZqzvWH7iNn9x-Q-BFRV2t3MFB0vVbbfQBatN-BlRy9OVJuT1ygeLIjEYhfkHRNKHpasCekgYqU0Eo3YVUrGGehhPPh6Gug3HiFAgjlK_JZpNQRd_Pi3R6Fi0g5-zgWLiy-ViKRW4KcKL79PPw0kinqeNP3lHxm6H7JifBLnUlDE_qH0K5dMOPLjvwC9_epKmsLdpyZcqL3pTybzkmh1CCCnJ_QpO9w_QQ7ByRtu_q0rI0b-01O9eeg-g5Emg4HIcszu231yB5t_e2KMufJv89rnzDtDKTOI5xnZBSDH56xkvK9n6wICprOkgvJzePToEfV20pN-NighHSMcUZJ2A9TNXEAteeSjqkmGV9k1cNnL1T5JzNDwYOHzt3g43bdAUdRoqyxKE8S0MLUvvf_SnKLQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118133969424059187873\">an sophea</a>"] },
+            { photoReference: "AWCwydhr6TGZrbsJ0TNJcyJJ4iGSIGi1AFXeOjleJyRH_mtHcnCUOYF1gVYnlp4Of3S8KoQVteLWe6vVHHy3yjpl_phCKj8VCo0otY05HaxSDPlY_qx6voqlDzSG3p37kz8Tj37F7DqfHDto7CTmWwIjNikmdsGwI13v66e-htQj4YKrsToNVZkkoSXGkLsDNk1ZM4ivTTeGY1wSH9XTJ0D0NCiTaHgundA2Q42jPR2I_Sds7Id2jGi5oAT67xpHF3hU-_VUoP0VFfJHCVhB-ktbGwaAh77KO5kOqR88aB-mlhB1j12hJF1YUKzD4_8UzCm1dRzlJazrsDfy9ItX2QBgjAx9ycp0UH3enbPpzz75bKSRfrazDiXuJebUQGjjMBmtetpClpUFnzdT_0n5D3xOsxPaGgvco0_ClIRs7JYMN_uBsoE", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118133969424059187873\">an sophea</a>"] }
+        ],
+        summary: "동물과 함께하는 특별한 경험을 제공하는 주요 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["동물 관련 체험", "가족 방문 최적화"],
+        tips: ["주말에는 운영 시간이 연장됩니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 5:00; 화요일: 오전 8:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "NR No. 6 Phum Kboun, Khet 17206 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://angkorwildlife.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11514653756834433641", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%99%EC%BD%94%EB%A5%B4+%EC%95%BC%EC%83%9D%EB%8F%99%EB%AC%BC+%26+%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앙코르 왓 퍼트": {
+        photos: [],
+        placeId: "ChIJ_3O86ocXEDERQCmwqp-W5ic",
+        placePhotos: [
+            { photoReference: "AWCwydhqSLgk2bQgGMIGFSK7DxXZXvq5RjRf759oQz8cHLNqqL9LS_QfY4IH78cRra5cBFpFQ3a2DcLs7468xaYqqMMI5fkthCyb0fZblmu8GrGsEBGmCmHNsMnqRi40q-AYZOz71d-eP072jVXZCRZcmSNJAT9W9YkVbUGGmBPdcF7YlruQRz9wbFu8GMCsQfo7N-1SqBW9CoeiJYJYSAPK9jx88CjBEIZXfg61_R-3li2_D84bKYAR_9ObU5leDtrVawB6taShL7aD5DzJo8WpDAW7lqlVh03d9FlniRQ7HdORHXbQ52IZPXKPwrlJ09tUj7YdLgsyFQAZgyEBT5NZHsfOa-smnXlOJG8rpsBO0TtYI5imRwz8Ep42L6PDwzU28OCAzsC9Bj3tjqceV_iuww9ylguvGMdN8O62qLbxudQ", width: 960, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100720697233508814922\">Angkor Wat Putt</a>"] },
+            { photoReference: "AWCwydhDogxBk09OKBijfeXTR4wEHJJlmWTzMkczW6gZqD_Q1LsRcnZUmmjhoC123KDYHgN-Jtpfw-MEKFKvSbvzDua1exxsE8IwcPlI5tbg4ESnb1SGLseLMAGnAr_r4jJd5a3kaqGUbiqGmTYgqrZaux7-CkVGI5E7_2digOyJZPR0aFUZzsqOnxp3fJlEBsUI271dI74ebbKy3fuQ-amnd8TYSgD89Ef9omVsXUJC-GsEDN0QtvZSSmBYMcpLs0jWd4blv940faNA16v-_vNd34VUyP_rQEVRqrPuIRQbKRP9CINQ_HSQIlkhVNOts0BLux55unOfjTfinfHYefgZ8WJaD4HV_JdjRxnbxxhk1VYFqYyGr2-3QrUonI4rndAsm6xWMSPXWXWQRSePTL9h_AJBFbscld00uJFdV4BnbLw", width: 1440, height: 809, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100720697233508814922\">Angkor Wat Putt</a>"] },
+            { photoReference: "AWCwydjuF0kJlm2HAqF9crbPVdU9tH-xEwy43ajQcDcuKHjR0wGBKdYxtXA0tikkUJ5KXfEsZJVvdEWAF6SQo_asi5SuLBnsSppr9ZAuzjhYdFIlKBZhBk8KFSUuqIDpurVZrvfIIlBcVh-jxCLbtEMZr4dI30CGNI29tH0fd4mhmCLZ9yiFEQyMQriLcWnyEebxf3STYOPn_uZ_hhcQDth7LgBwxaNyao4KAM30ndHUNhOV-C14Ba4xWqPJFfuahfcS1PHZvTFCFYyghLbJOs-xSIfYkj7VWP-HFDuxLcYBSFiyN6mDSaxIyM-33YD0qgjOqlpqBCFOndUJwVcPG1wtlPrV5KJNWHzn8pFQejJ2Xsnv3LY1-KsIMAL5LWHvqHxkIhkB6unTuHa4P9mU8ub2M1WuOluG1kZdx72Ee9oDzg_RnnU", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110124567848353362222\">Ruby Burnell</a>"] },
+            { photoReference: "AWCwydhVgHX9zCIMJKofAxDPkLSQiU9qCpUHtmcWFV-75VEXee9Hk6ciyw6ilAyxb-9py9rYGVGeFU55DY1boC2iiwrxLo-tlYFr2ENQ8eQ0Q4p6rS9-3Uw3qD7hMFD67I9oOtNY9QfeG1SbWdIU0f9qp9Lnhz2OGJ_m5-IT3qMs6IpAclwY6pm2omyNDgNP0e0R56YLJLiI2INC0gRFtECD0FWY905nXQqN-2TY_6ihYJ88MuXWQH3r7FwKA3sP6ucwDyJdm7eBwLveVnyZ0eHTX7Khv230tAb2UWUNS2XiIlRhRmZQmHZVTxYOnoQnbD4MlJXYZttBvNhyB6XzvVSFjkt5sSMi29SqAS8JJ0pEoaS1NL117x4bbBlMG9LQidl7q_dpPvIsj8QNyXUMvNxuCHLOboUdWqaKeczNw7bY4W7xNno", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110561557133911182544\">jamesshogg</a>"] },
+            { photoReference: "AWCwydjYlYGmSIqh4p4jYrYq4ALxd0xhYzDaVgX9A48RQopMjVc12ngkgwFmbWC8WgEwSmwgpxTtS1vDi_jMOYhPL1NE8W3KnAG8tgx4Xk53D5jUwiLnRHpEJ671YZCQ4KUTYcRI-j6Sy6Lb_pLmP7JCdMF910aHKJu59Zrnimo1AvTwD2MBFvKN4vI6mZMMWjoC5OkQUjJEdfaHM62U73owhp5gxJUmMD66wzS0Eiv92KPe9yRLOD_hbsD01EDeWSO11F-3MoPr40bqzJ4F3zSW1dNEVygVd00bM16nJSb4VLa6ayNAs6fP2CznJixWrP3fDv9wbBo6w6a6azjUyuydJJmjgrD5dBpOF1NTkUhTvDdITWhq_8mFY4F9s0Lo0YRNjt1Mf0uaLqV7eL0U_c1anFdL3HKbdxhvuN71S5S_kk0KdRGg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110854380566859087314\">K T</a>"] }
+        ],
+        summary: "홀인원 시 무료 음료를 제공하는 매력적인 미니 골프장입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["홀인원 시 무료 음료 제공", "현지 분위기를 느낄 수 있는 위치"],
+        tips: ["홀인원을 노려보세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "캄보디아 시엠레아프", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.angkorwatputt.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2875151024630278464", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%99%EC%BD%94%EB%A5%B4+%EC%99%93+%ED%8D%BC%ED%8A%B8+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "워터 파크 칸 나르 시엠립": {
+        photos: [],
+        placeId: "ChIJObrjgfMXEDERqknv-opLaAE",
+        placePhotos: [
+            { photoReference: "AWCwydh40D-9vu5UwaYLaLK6MadFvWnkXliv_txqzfjSN0xQs1fuZsuiDCkQNK9FuEjrP5MwRxYTtIPfVH8WWsOujMWawcpXBWoDOe7b1tSJBy5oe6xkYurcaDJPpmRRKpzTgt_LKlpNaq3amjJ9mkCiGSFiobhK8WnPA6udsd3W1FhsPI0f1V68YzvTvGKZNRemdUzJQ033dNJt_lRm1x2nuO9X0TXb_PYx7YDEYoNbmT-_CBCzyuec3wb3UE0EoBjO_Mm1dcyLjWRLq8EkuG7qySA2TM5nh2HwLGfjcvMjU8ZG2dq0zMVTeiVQX3SNE-l6vGa0HjwTbpse2hZda3EKr_RAWBDKnq2GRah2yDfi7slWvQ3GhNT756aBcq6a-EEjEIg9zzAE9XjrAW6el2F-Xsstq9KlSjIHxMZFQiKnwsAM7bVG", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106208350892181925401\">Water Park Khnar Siem Reap</a>"] },
+            { photoReference: "AWCwydgPqpfGarrJvtEx1XDItvZIGtw8Ianz7CMMlJFWO04_gnD9bdCufZkvKWpSYOuaoyrpixOXFsJZAEjoZikABZPjrJA6QYI4-AgX4mMMD7q7Ar0IQCZvslW8fGqVIuwKdAL6PIPEvNgdifWdxQaHSUTC2wPSHGT0M_X21ISLp1mhnA_zFmkMcI1N1we_BJoOror9K5MKAPvhTeTfklJugXL7qt7u188W-OdZIdaiud8-VFXHADKQiZpU9EfsyaUnRG6xam0E5QlVBbb_ajDTNkKR6vG8QdnM3zOk8Emfl1K6Cb7ex2Cu3i8BKHZnwLd-ssTJNlAf2JOX7tNLTrPsf3rA9VjSZJtImJrY8TPoeFuWiM4AQHqBD6Fy02A0-zpf_g49EQVTd14FBylNMB6HjvDZurZmkuBy4rurwi3GJ3hA2A", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100025673138636899321\">Seng khoy</a>"] },
+            { photoReference: "AWCwydieiAYT712VdN_xzAE3PeU2UI_Z-oC7FLISOombVOqRvUcWL_-5Oecyqrh-hR8TTt6A20La2Gk5cJ7v0l_bw5aOdweV1_MN1BZLFFfaktGhcAmBLv_4tWAO1j43SWE_lBFeZ1EsK-4eRrHrW7u7roFbs_OsVX_CKYQNbLQ4dgoozYBLwrQXu-A8GLe100NIpMb38AZxcyU_oXDFY27Q3-avJWTyjvzK-FEuWiG7g2kfdHybugo00B4pI5AESLuL6EykAO2eJQmjSUOySgvrFojp0EJf6RSTWDIOwICPC_uq9J-1ZI6El88aQnITYor97ZizdnYSdfcAs8Y0gCxZ2Gzhy5caEqN4Q95sL2M2RM3CRsdvQ_lQbjS4k0PWcsE-kEJg1HV3crdwjMkT0iJCjcE7vB7DXcOLkxxgUlGuLgBjl2M", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100025673138636899321\">Seng khoy</a>"] },
+            { photoReference: "AWCwydj8SSEEHILGLLOMRbJbLNL9u3oZ1jutgCGm5U5wT3vrVFf91-G_s5ouPmyirzvunYtWBCIDd0thLCCLqe5TE0HWxG6DV6S_FTCpLDAoUpiXas2hV8XTe_gMyEbB7IWK8w9l0Iw_XnLbks3tKD7u2rOqL2P9baUyPSYC0D3LTUyR-W8el9ppP_VMENxMbxQSoDz6o4aLbsn60VAXwLuNZswbmEtxtua8-FFzw0qofmp6Jq3xF4b33jbgsGJZTUfKs26q72CmYS62iEPFpsD0DEWYG_IB5rFb5CE-OqYki1X1F7XFDRTxrgx-0l5Ts_dkCxepB6Ei3YGUQBKVpX-IKrT4xns62T6ErTJv-cz-JjbiWaRmyS08hm8lTAB1GApCTsRj8x9qztObhO2j9dq3fvHJT67GUcfZN1OnGk3UZ6c", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106208350892181925401\">Water Park Khnar Siem Reap</a>"] },
+            { photoReference: "AWCwydimgj3eWtIP0SBRMvHIX17jYMOk7vEtmmqKhQ_jwRwFzpn7mUEn4CrjoBJ4t1eiYBR4UqMrsZGUXLaHAeDcAv1rsv9xBdmOIaAJLVDtD_Ic2uqQB1pWsMHlURR-UfZh2zb8fQu31B0mQZrGmHNy7MtLDWP16ePx9B2fPbbXPqoPCFmifnpGH7U6Wv8vsxV3XKzaZD3C00o58_6935JGzEgFeEM_gD1bfNwpvzccgNNcrB-DF03tYtOD2CaML-JVaFivzitHEvowN4xTzbmtNlYMd_O19iTFbT7g28w0B4b8WgBC4mUkKDyfXbsf6hU0zrynO7eVtmyalNkktalRM4Xkx25bRC3xCc3QQdem7YZuU18Mmc8LiHGrEyq-sWbd65L3jav9Pi14tCumJyFHEzHwnl22-DkMvTfOJ-Ial6MY1w", width: 4624, height: 2608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106208350892181925401\">Water Park Khnar Siem Reap</a>"] }
+        ],
+        summary: "전통 가옥과 해먹이 어우러진 평화로운 분위기 속에서 수영과 식사를 즐길 수 있는 가족 나들이 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["넓은 수영장과 유아용 물놀이장", "전통 가옥과 해먹이 있는 편안한 휴식 공간", "현지 음식을 맛볼 수 있는 식사 시설"],
+        tips: ["유아용 슬라이드가 있는 물놀이장이 있어 아이들에게 좋습니다", "구글 번역기를 활용하면 현지 직원과 소통이 가능합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Street Plov Lum, ក្រុងសៀមរាប 17256 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=101414051903392170", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%8C%ED%84%B0+%ED%8C%8C%ED%81%AC+%EC%B9%B8+%EB%82%98%EB%A5%B4+%EC%8B%9C%EC%97%A0%EB%A6%BD+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "센투어 앙코르 워크숍 & 가든": {
+        photos: [],
+        placeId: "ChIJtx8vvC0REDERs7R3V3JVuNE",
+        placePhotos: [
+            { photoReference: "AWCwydh3AsMikJ3H-21YOcy0uPtbMseEWxxRJswfOgBzAYd2-vxbA4twUPctfOoVokvoXSoCj2WPBXbjTPKu7z9K3MegoPwU2jvQl1-SG1njlI_A5ct5Bi-CPLaKsgeZ6w-qmWhzSdcrNDQ7eHwyAJFU_YvCtT-zZurPcXUgev7TOp_TR7151YuNhsdevjhllnLKpPcO5t7HelxmHAhM-V8KfMKpxO5auSWWK7MVYSFCxUu2_zBSgEoGGpue1wd-SPRlaiTtbU-wXfMrD4vmIQFoCcXUzpefDZrLztu2A7s_d1lEBkNGSlQpVvEWJCdKLLUS34n1UJDnfQjxD7YoSrBk0QtueTORyn5r0NPETxoLbwMb-bqdIzebwtmVSHzT6tew8SxfW87g03NrMfpJxhywZkdbF4g7BPBd0mDOXstHSO3ZaU0", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102070455361310764075\">Bun Chhoeun</a>"] },
+            { photoReference: "AWCwydgK24-LUgYH361yuwm0LyKlfhsHz2mPwzdKRdA2QckUgUBT1k5gKWn6fycuM1i0kUGo2PEtJXURRQ16_gHeDk3mHVLRZ5JHq5XBg-8zFGTSnjmrTKIHv7r7cvmwITC20nxHAvgBTQ_LBLV0Um7DBwP7pqKEIyeEj0RrT7cyqnNeza7uPbUFE9Jh01zsTR0deOm1JOSBYWcD7taZwV3V4E62FCgknkQZWFS8GvhcyWoU8TCIbrcR6iQrqqecPPcS2-MzbkcH61YpvuspvFDo9uUCkErxzu7I0pcYMVBdnk1FY2zY858CavnGemb2pkAKaaru9oeD7OCQ3FO1rmFDOamxQIMENYyaLfutQkjd0kHr1XpOAYtgv7CkMCV3JjmmjVbO4fEzU7AYtKbjOEm6J5u2_TswLe6DEGVbij4-dEFhltS00pjnr3i9ivdRf_Dh", width: 3448, height: 4592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111731453045376804042\">Senteurs d&#39;Angkor Workshop and Garden</a>"] },
+            { photoReference: "AWCwydjFwKJpta2LZdJ68M5xnIXFloyLyTKlNpS4Do51kg8AYI0vOP5IiWR49zxuwMcJEwOyTEK0xAcwX8XF-RlJ4RL54sfQNW_ps_625rvKRNSxyQrG4CNEy1TemsD69P5PVf8MzlV4j3ZYeHVFXmTU6bIAQNxuo8okiWV7F5Y1u9wJJmj1BnQe8Q1zSl7AMy9nPUbXbePTLDEMZ9iJfzs-Gytt8KPEl_cJze9e-0u2SwUEKajwdTSHyLZ3PPyWms77gYi2C6bN7t_bMik5h-uyn9j-ZT1sPu97s1r_Tq_1-BbQJutTSZfs5CS0k5gmUhfpeNdraA3vouH_d9z9RzZ-uTCzn53kwCZ0t1qACcbEuHCZnF6pCeElxw5jmbNEn888v4nZDuF7zqMLc1gDOyA5u8Jh7U2PdPHMlXUDyEnAp89jRdwtMzlW_pMyyW4eZO3I", width: 3546, height: 2364, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111731453045376804042\">Senteurs d&#39;Angkor Workshop and Garden</a>"] },
+            { photoReference: "AWCwydiSVei3JGVktws2PtYAUCf3_koSynLr6eClkTJaVc9LhWHt7gOuslA6JtkaLbX86mkc4Jqg4SObJ8giwgidawNHSLTo69j2naaPX2mRv9RgSdR9hB5eJ8uGDC2eBrs-xPIrpKdt1A4A3OUoFBHkdUzeHMDHC6OEUM-QdfMPz1aF3NmiH-YN9qjPeachpwFlkgnoyDWh3tZfaC1-K1Q68Sd1fNf24vMlrNGZq2Fo1nCleN03bNXkVmmogNV7aSs-PyxI0XZyGyTGoCpPosmQ-UcQ2bhpf9ZwAH5nfF8AqOzsOfjGFIn8iwa9rA8QvHTnKJEiz_mTqeHd7XjKkwloHl4IiYsrWM89QnbDPCO9i0GVzSKRpE7vIE4EXBEqXNmxcr9PZYNGiu3w-IVRs3dltqEgCyo2tdSUoDomxIBYpy63vWeEy3aZaP1XuRfjwvmz", width: 2268, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118379854811883966553\">Мария Миронова</a>"] },
+            { photoReference: "AWCwydhC7OtqZH5ppF1X-1vnrVX2kw9DF7S_WQxel56f4Oeri-sDTOD-f82PaeJ95_i7fVMVIxu3WJV_bR5rl4Dx4J8cIHI0vXZEI6RIgSY3ZlWbqyWgGaQJg6k7g1l52Ju4qp0aLVfC35L6EqT4OtQGUtt6yqabzWK9htv7H2eJmjMU9gNQWkJX2DaDUal8w08q1SDQPYUGJbWT2QrRSU0rKXEowftGVMaiK45fBMpEKgvM_tTNRrl8Esv8mwBWhtiaEucTKHxVqo94x2kPPrgrNk-SalRC96QLoDCk3DVPcwyCQdwqNrNROUcwNh-guDXI8WQFtHIglk3I3iDbOKaye2HQ28DHTFZtYJuzRifQ_bHP6SK50qSVW39zZ_NFDjHW6N7QQj25Otlam3VXrGJTQD0ElEh1-UN1RNBzJ7--GS8HiKAR", width: 4437, height: 3331, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111731453045376804042\">Senteurs d&#39;Angkor Workshop and Garden</a>"] }
+        ],
+        summary: "자연 친화적인 환경에서 즐기는 완벽한 수공예 체험",
+        updatedAt: "2026-08-14",
+        highlights: ["유기농 및 천연 재료 사용", "사탕 만들기 체험 가능", "아름다운 장소", "차 마시는 시간 제공"],
+        tips: ["방문 전 운영 시간 확인 필수", "직접 만든 사탕 만들기 체험 추천"],
+        hours: "월요일: 오전 8:30 ~ 오후 5:30; 화요일: 오전 8:30 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Senteurs d'Angkor Workshop ដង់គរ វើកសប, ផ្លូវ សង់ទ័រ, Krong Siem Reap, 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.senteursdangkor.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15111922499223794867", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%BC%ED%88%AC%EC%96%B4+%EC%95%99%EC%BD%94%EB%A5%B4+%EC%9B%8C%ED%81%AC%EC%88%8D+%26+%EA%B0%80%EB%93%A0+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "카넬 디너 쇼": {
+        photos: [],
+        placeId: "ChIJNei4xnsXEDERg3898M3UbT8",
+        placePhotos: [
+            { photoReference: "AWCwydjN2JzcQ7_eURNfs7qmXtOPcWx0ETiukQEcs7JpiHqgHpyG3eTu0nytyjtB9NtWIne1DlNvShf5rCPV0NOnuAQvUb77nwKE_k6gCUsaOe1g34aQsEx9-_mn_Wa3x-5BfpCp37fxMl25pbalLWW8HoILIymPmMIUch4L2tZBTWhY_jX7pmmcrOeQophiMwQGf-C5Lv900xj1Z_0opJTWq1Hi5JQ3ek7CvKA1AF_IJ8HqwSXo4j3PfI6Rh2ZLKFlxw6er9FB43bLQq6QEzxQIwrP1KpIB0PaAlabvv0boCPiz3KlH-MvSUeGKla6aKbov-hWuVCe1KtpzOJksnyZehe-j2iY5ecyMKQDy6t-eH3Zg5zPauUE6LLDIJpb1uGUOfUL3c228hBJavhoFWtEQ3NdBS792nzj8XN8tPf1qsUbltR7XacugTsxQw5xb-8wj", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108879344141267266608\">Silvia Mariela Juni</a>"] },
+            { photoReference: "AWCwydjXpU20xuTG9KKM9QYN5vcgtmS9uZDbW2lUgcLkTtozZlkcdY7Tt_jM-gettEUav5Hj37INUg1FOhAg8SVJNszsJEoXxRuqTWBa1g-ezJGnNeEa4G83yrtR-Hdzpj0rHkMp8ixWf0X6u3ZqTsym9ncnuBBBXhRNVp3q3XiAR8DWPFQWsvP8rnHjhqw2sl1YL6oexmex_INcsOJaWHjcTLDjT2DdGoDt68PYLRsKWTZ6giJ06hvui7qahqjPoDrBJ45Qf7MnKj-7Ewv9A9nyywCT6tl-vAOpXJC78mLmlIvP1DUT_rzbckwu9ccwGXB91zobD7TCseaSnxH23uDgtPaJDWyvemlkwHW_E0OnSAS29dWu0IKDQ1fUKYHNNXDEZKQZafZpJeVLWLyOMhQ81R0UMBkvTmJS6-WhjosvCVFm4nIabNLuO-nxXbwXMg", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113221528004721249128\">Kanell Dinner Show</a>"] },
+            { photoReference: "AWCwydhe2CA58L6RTRWymLHrMtY_HWubRFswNC6AHEY3zPqWvzIEjHna9n5d4--JofUY7q3RBMK2p1dMhUAbw9WzfqYGhpt4Wzx6yyNyijUTowQ1dgX661UeWaIfsOOEOk8uf2S014lr3Vr3SASBOcVqizkfYPsiuXplnshnqZZH_EEUgnAluj0ZpX9k2X98dc6AtT43lX0zyUVktAo-LswENT1IaLN3sHPphPf_GH7NbhP2kczMpcAW4P8dnsfxs-jfr-Z_wzV5E44L3mmmngmUgSZq8jisU7g1MYTl19j5RiJbtgJ4p3tldRuCBit2tHkOJBDnqVWUNs5t9R5z-IJZZdzBBcR8vTdj83EOSxyFC_agu4iXe6CvBS-We_gSK22tIvYqDVBEiMoIS8sXxd9QBOXAlP1wgoGNf7yWmEbqHyTpw5eKkw7GJmFvpGCVCDqh", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113221528004721249128\">Kanell Dinner Show</a>"] },
+            { photoReference: "AWCwydiZbuijokOeJquPceNQWI3tLCqH4OYLaUtWenxmDin178P_lzuJlwGbj2-OLmz3bWrSy91bgENmdCQ8OkVOprYBHHgrNgA5CBcU96IVDWvAApjOvu8kKjpyMuHtFC2jqGNqQ0JuwGMeV0fF7Lnr0Qs8MU0A21VIGsD7CltAaIWlvp5UsNI9e58PcAacIP_YQXBbvCmBKdEgVYFdqv9ae1Hih0fACvXomwpyf800KaEun-EhY8Ibm6_S9SxMGZH51uop99W8LoULuOHXBgKvVvorp_F1DeoJlf5K2Egyzdi-taHowsumiPPl8r3R2T_tme5O8d4Yc_46M1qnn0uVIU1MQLXEKC2r2BsuOkRlyV6Vtq3la8N8pkFHdeG7GJwbZomGUIlpuJ1EbIsbDSWZx5Ke12wVB5DV5_ogFUnkYsiOb2MSOUzDR7aD229MZxw8", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113221528004721249128\">Kanell Dinner Show</a>"] },
+            { photoReference: "AWCwydjPo50fF6c9dFcpCuIaTpzuSzVBXiRtT2etthrCzbXgD4jHuMHRL55ct1ZI4kWQYaVlwvt6oukWwQoHV7iuXip0C0TgJGZGjVwhWfkfAy4lyEZ8yytjPU94d3QvTEj8DiOWKJyU0aTg5WfZ9Nz5LVxxQrkVGF0xNNanIMvVv-uAlbjcD0FyOyAIMvcD6wwinPqKEo8q8Q1qtt85NnBGsRM8iD59Wfen51klDRESS2OzNXVlYDimdxZNaZOCGgT2HVET_l54Le5Dg09xLutDmJAfg1wcLIFLvmTJhjc5NSREXR3K1vr-CEFbmLbIXGz3m0u0hwCNVGlI2j4cpBiFUsNVsGCXp2Q1059vNIzpVKZX6pqy6IcnBIiZr7EJ6sfFL3K6FSeM6Uh7q9-JES9G5mOrO0V1zQWIjk1bTx9xubWqERFNryhrKtRE6-KOxETt", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108879344141267266608\">Silvia Mariela Juni</a>"] }
+        ],
+        summary: "품질 높은 크메르 요리와 아름다운 쇼를 합리적인 가격에 제공하는 문화 체험 공간입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["다채롭고 아름다운 이야기의 공연", "최고의 품질을 자랑하는 크메르 음식", "아이들도 즐길 수 있는 프로그램"],
+        tips: ["식사 전후로 물수건이 제공됩니다", "코스 요리를 통해 다양한 메뉴를 경험해보세요"],
+        hours: "월요일: 오후 7:00~9:30; 화요일: 오후 7:00~9:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "High School Road, ក្រុងសៀមរាប, 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://kanell-siemreap.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4570543177814867843", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EB%84%AC+%EB%94%94%EB%84%88+%EC%87%BC+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "현지인 집에서의 크메르 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJVUxBpaYZEDERzcgde2uYD8I",
+        placePhotos: [
+            { photoReference: "AWCwydjIv5trdHUJjL86sXyBJZFDtH0YYnqZzHbVvz8uzhrCcui4ymDRBG_R4MByHyy2K1fY6SsfJIo_ez95oO3MmA9zEzMtQK_4kPxCYoFEgxqCdnwYX3LpHu1yaH52CCqNQ1h1gcDPs7dPbcAC3BU6dBqkz5sky6FUP8Byim_dTaNMM9Hm7zVwn6Q0sfxplexDd5_uYLNJFTR5URv4ZYIzgnu_89ex1FQF0-RH-nqk3x9CPMEXO5nvo-ZEYUSdQhRGVnsCJPE1GC4M1DPrn9t0l5bP4tHsV47JlLfeNYl6Vdik7oJxNDazt9IvnCQ4oaRB5AMg8wtvsbvY-JtxcXSSlVXLUItNJwzKsBaBVzgNodsVkRSX9hXJeM7XaXcXWetSGiZmjtai94xPKdEUUO3Dgl__7xbchbrOGgo0rUZqHk2PFps", width: 3024, height: 1702, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103115444372626411467\">Khmer Cooking Class at a Local&#39;s Home</a>"] },
+            { photoReference: "AWCwydgBQWtenu-P4OeGavmO3evgbBZ_BTNA2m9aGFU0YZ9UY3cSknvTOcTKKTzBTXdlr3W4QmI1_QQ2PLVb3GPoZFt5NaO7ehKE9GhX_kETEzmuHiB8wQwWeVG8ZaYKIhWgyoWZH5STAg0EeLvMg_WX0Soiw8c7-2nGgx9CjRDJA5JfwQDPVuX67wOdPTGBMGJQiAOns-wPzaUdjKmRy8T_xWFXh1k6cThIIlfM5lPGJ60k2WCdaAzZg8KFkckOU2ZkOEX8acGRIZcLgoKJ3AMoHxo89t8WBbgTz-jjeQaSTF2ckwKKsr2-HN24CQBcqM9Q_EfaWFBMXp6VgsUVmdTlOzf8ppgZtY5F4ZYynDUYsehil5355sxDJMghLq4pyhNISoYy9Q_n_9UfuZBUJXhwFAY7DbpsmmcGKgLiYGQtx-YXaLlr", width: 1600, height: 1204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105817266210889028220\">Yuval Hayam</a>"] },
+            { photoReference: "AWCwydiJ1jWXnUW8orIkilz0iN3qagas6UnWqwO7VoonpxtxeZD0awOppiRHH4cXbt2US52jGu5k0eAJXb-0B8HyKLEsGpRWSAiqAg3mS9jAX4TFsSVYpGnweWwqcKY66FLH9fAGaDe46DbOzYHQbirLEW1jUzHXeHCv4eVkD0FuA6jTZ4zRwDWM7Rc5DDVkIRdFOlEeK4obdW8StMAsUvR1xZASpcGRRmzF0zZqI5JfMmhGbDTCs60Q8uAmKkX2MGQSU96EQkvs8eFREmSQdKpkqLqjvlXwwF1PnMsXpuvlrD7oMDtTWKUixQ8xwDDc8v1OJAxRwW6bZcUC3LVfl3kca0TOnPqPaAsmnpkAuY8DbAtJeuj6cEHftSvaAFCMwXlP3gco_jeR_mgWOX0mWoGdW2uIkoCCFpQhknEZ0c3pe9D2jg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115376880249780209123\">S</a>"] },
+            { photoReference: "AWCwydgsfB7tlfpnTYk8pjP9UaG_0W-0DIhzmRnxSCT7nqsx5aHRL7BTCMPe1JZoIwNgwUzx_ntQB6LrMPHbeDfwdE6wQATg7M6otX2WLDbdvC_zUWL8KFm0VJ_M7qkSZJBk60Rwn-K0NBCyNL3C7V0Zp6-ybtzRdH1TioKswBRx9x5XTMrdJqyuz9M6N_7LoWTFwMi7oTmK3Rr4W32hGZg_J7111xm8Pp37YkSCIsyo6CFjsxo4kmgqZgJbxWwLzfNheP-EGofzVb0rAHLY90FXFmvCqjjynmF863RP6w0qR2NugZ6IZ1aD7XLqsctlt-XmmDYkdqmA7Mx1NTM3mN3EHRjCet9rwiwFousZ_jiESpWQI8o5QRrne5hQ8WPFvmMl_PpyEFJrwa6tnK59-m9rI2Axb1n0bt4nJ8mctUrTDcd8Xw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110149248540950632679\">Mario “majo_picchu” Lagaly</a>"] },
+            { photoReference: "AWCwydgkCnSVq-oVrxZiVheesiFeFOK6e2a9u-VHumbtYH76nqXNWxlWSEPxwDMvw4qE7aRjq_CY9hYYMf5n9D4cBx8ys99FURL-JbDeRDjGp48yJeHk3i-lM8nUf1fJdqKgmIozpiWA9qzKQP0Q0CzzX5mKh7vWrkTQ6RqUYPqaEdPlo4ocWSZpb5BUBckVjtEd0Yebr2PLvQQTDWqmsG7T06__AL24WfaAsYxk2dTqNerAL3qmVgo4yJTGIsOPD1jMtX1He-YzK-z9DEmCzYIl4q99I_6jCNdACtUCOacpRDQESwHVaIsNVG2vN37FomqEahGsZIlz99960eylwbjz0_mYIQc3yi73cNrBeArfkWFDDTrhFhzBCraEVDeLbB8-0VNcwbls0mccE5HRLKZOjj-COiPMTDtOKVJzJkRq-o-3yw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117732487339651456104\">Julian Schedel</a>"] }
+        ],
+        summary: "소규모 그룹으로 진행되어 세심한 지도를 받을 수 있는 고품질 요리 체험입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["현지 시장 방문", "소규모 밀착 교육", "다양한 현지 요리 실습"],
+        tips: ["직접 재배한 채소 정원 관람 가능", "배운 레시피를 집에서도 쉽게 재현 가능"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Wat Po BantearyChey Road ក្រុងសៀមរាប, Krong Siem Reap 17259 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://angkorwattraveltour.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13983562955403151565", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%84%EC%A7%80%EC%9D%B8+%EC%A7%91%EC%97%90%EC%84%9C%EC%9D%98+%ED%81%AC%EB%A9%94%EB%A5%B4+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "압사라 씨어터": {
+        photos: [],
+        placeId: "ChIJt0UVinoXEDERu6gyjLilrVg",
+        placePhotos: [
+            { photoReference: "AWCwydh54vZ4Z8VjWz_U-MeuLXIQkGwwD7Pwxmynvhe-5rWVIT9RCk_OCy721IQ1wVF9_w1LisVtgpFxufwr-dvyCSnK9E34FJM81I-z78cchMEFXLZBhpO7KnOqR-Iz_kxsB4JUnjdrfVLiG1oekawMuN6CH_ePIRzwv0HmpiAwTIJuJXZdT3hjFjAw9g06YXi8cxOPesMlfY__dIx4oSgyeZpnn164dlhHTw0oI_QbCEx_N9UdgAFXtwkmUOOX8TKeD3_IPfMiqZMdDgf_Ng_HKdD9Oal1nVDOKa3QOps9p1fV8f6cuMERYPkfVMC-pbQ94HaB_TsgK-K0LK5R_qg0vXoKDZ1RPxxXAATjsSPxxRTZSAoE663dCc8mkKgh974whmbMTnBJX2OiG3d68T6Nu-BhgJw_89dp38ieGA7mAsxMUA", width: 3000, height: 1688, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104009729632955133330\">Apsara Theatre</a>"] },
+            { photoReference: "AWCwydgm547EQXn5zOmg6kZp_VMP2cfhSLMBSh3Q3tEGAWQJDsK_RhYQtQcOXesHWHH9IAsL2b90RTKRZZUY13d23o0RMYp-llLRC1WCNFru8DRfbD9bQHBflpHREEKHglAE8vvAg-KAGh9rZbdVhzhDpNAW3iAo5M_pY38FRA9csduJDoTrbRKu5yFb5_rjHvpxb0urdM85gArIrUH47Ejklid5QmvsoMN0RoHuSajYeN903bF57rRqapL0pz0lOsWRwixuLHNL295QvMFiUBmYiAGnsM3j1aE_e5Z6APKmeiFdnC4oRvj2HWhrr9Zbq4tZCQwyQBSxq_dDww3Qv_AK87u7_pEcwHzRoXnoaFabLWcEM6aWDtJixWoO2gPU9LqQ3sq6bf6H7aPi0zco-8wOEZ_LSZcrZaKAs9lzkDpcLMWUqL3RvET5kyc4mNSh_Q", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108673661127663691457\">Emilia</a>"] },
+            { photoReference: "AWCwyditi5GAv6zRKJ2vXA0Vplfv12qbo0BWRAmTuVSZAJhr2d_KfnQsvd2fgrzU4cGTxdDb199mM75BVBsBb_LVp_v-OXSySiqtZ2Al2HIwshmr9SuBdtZsRZbHiQqj-eCoD6eQIxzJlJunEiLqNYn9gCAIJSLcXT5ZWmQFmHVqEtM596OyqMi3iiGnZNjkj_Mus4RhxCpaJr8ciLxSC2C4CeH0LYhPrxL7cHtI62_-SEhoYv_W_7FKchX4DIjB57WI4LCJbiXjheVtcI1Anbc_DGE3JKD4v-YyDaF1mfUKBKYF33XOuG9J3mWX6UNrTuvY93XW0gDEm9hWLwQjeh2i9uHxogHygROall2KMoQu9jrbv7umVihSeXXjqifomYRKUk7ojP76j4eWkPQuhy5wVU_PI1WxDf9x-Fv1dB5yeiQ", width: 1296, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116909203705080103378\">Yvonne Wang</a>"] },
+            { photoReference: "AWCwydhNcyFLuS560jYDinwkREACYwwaJSUPkv5hlmAhW7XjBN7pkaEcriiVxCdVJI_xSRkBNcIcoHi5XPBeTa38QmORVYQFZNLMpQz7k3LrNhyw3SY_fn4rv4T69Esu8iH_ppyWEZQ5xP_07wyJlOEjq4qI_83RGdNSsSC0lrAmmeN1KpXR4fwGjHsXtctGBx57pXiqL7MvkgW186KHSybHZwWi9RalqMAhfcfvwtPM2XoxnkYBJq7CuMQBeEWRRmpmoDRxNdwa7k61mn76zUCmAl8QDVU1ic4nmoiJsaK3rxm-q0oOUahgBa-9jgbxoqbvr7aCRVamAjvFCfM5WK3ar4M6LuMI5BFMs6QB9McHQndq1tcFRq98qHgbE_YOCM_ZoDeYpBdj4dbXqjPYbluSaOh81J7X0OIQqDyxWdfrnSbKlriK", width: 1920, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104009729632955133330\">Apsara Theatre</a>"] },
+            { photoReference: "AWCwydjOTNUUqzuw6xozzK91BAFGQ80x3Z_fdnUa_IYG8pKE1kJalkKOEDDXcnE_SOAZKmcDK0drIo7TqXRLQVLTaBQ19Tc6KPBirV_C4pfsBXY23vmwBziwt720gIlPrwN-nz6Dbc5YMcyZBgn15Qa0oiEmEBGYde1IaTRwqyrD9Bs-e0Pul8pbiRab2ugzZAQxp3tVI3LJlZS7Xd8oObttxmPTLjP6fWB7AQ-hBNXSL1eG9ZOvPrey1Raag5rdankvXWLR2Sd1heWQioBTL7W8_c3pWoHSZYXz7ZOFdB4jwdo9U66o2BQnjnxWa2CP9RA7CRaHHe4N2AHqIsnLieQiojvJ-iQdYP7xRsk69LtF3WYq-UEa9sYhJvofQM2tPGQuaLh7ovpqu6fJbkJAlH6bciGVt04Xz_esJUMSXVLgGLUl8A", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104127855716949303349\">Cabinet</a>"] }
+        ],
+        summary: "아름다운 의상과 춤이 돋보이는 고품격 문화 공연입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["화려한 의상과 춤", "성공적인 미식 경험"],
+        tips: ["공연 관람과 함께 식사를 즐겨보세요"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Street 26, Krong Siem Reap, 캄보디아", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://apsaratheatre.asia/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6389945658353297595", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%95%EC%82%AC%EB%9D%BC+%EC%94%A8%EC%96%B4%ED%84%B0+%EC%94%A8%EC%97%A0%EB%A6%BD+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

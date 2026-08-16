@@ -143,7 +143,7 @@ const accommodations: AccommodationData[] = [
         icon: "🏖️"
     },
     {
-        name: "Kaiza",
+        name: "카이자",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
@@ -171,7 +171,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "abundance okinawa",
+        name: "어번던스 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
@@ -199,7 +199,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "MB Gallery Chatan by The Terrace Hotels",
+        name: "MB 갤러리 차탄 바이 더 테라스 호텔스",
         showInInbox: true,
         hasInfo: true,
         type: "hotel",
@@ -227,7 +227,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "Glamday Villa Okinawa",
+        name: "글램데이 빌라 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "airbnb",
@@ -241,7 +241,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "The Villas Machidoya",
+        name: "더 빌라스 마치도야",
         showInInbox: true,
         hasInfo: true,
         type: "airbnb",
@@ -269,7 +269,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "Ocean View Villa Fuchaku Okinawa",
+        name: "오션 뷰 빌라 후차쿠 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "airbnb",
@@ -283,7 +283,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "Private Pool Villa Amaha",
+        name: "프라이빗 풀 빌라 아마하",
         showInInbox: true,
         hasInfo: true,
         type: "airbnb",
@@ -339,7 +339,7 @@ const accommodations: AccommodationData[] = [
         icon: "📍"
     },
     {
-        name: "Akachichi Guesthouse",
+        name: "아카치치 게스트하우스",
         showInInbox: true,
         hasInfo: true,
         type: "hostel",

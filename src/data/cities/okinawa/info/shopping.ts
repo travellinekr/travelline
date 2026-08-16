@@ -24,7 +24,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B5%AD%EC%A0%9C%EA%B1%B0%EB%A6%AC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
-    "T 갤러리아 오키나와 by DFS": {
+    "T 갤러리아 오키나와 바이 DFS": {
         photos: ["/images/okinawa/info/shopping/dfs-t-galleria-okinawa.jpg"],
         placeId: "ChIJM39Jsthr5TQRv8Bcs2MMgaQ",
         placePhotos: [
@@ -114,7 +114,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%AF%B8%EC%B9%B4%EC%A7%80+%ED%85%8C%EB%9D%BC%EC%8A%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
-    "AEON STYLE Rycom": {
+    "이온 스타일 라이컴": {
         photos: [],
         placeId: "ChIJz-l6_p1p5TQR0jy2DsR7QRA",
         placePhotos: [
@@ -137,7 +137,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=AEON+STYLE+Rycom+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "San-A Chatan Hamagawa": {
+    "산에이 차탄 하마가와": {
         photos: [],
         placeId: "ChIJTXyIngkT5TQRu2P5ro_xYRM",
         placePhotos: [
@@ -183,7 +183,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A5%EC%8A%A4%EB%B2%A8%EB%A5%98+%EC%99%80%EC%B9%B4%EC%82%AC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "San-A V 21 Jougaku-shokuhinkan": {
+    "산에이 V21 조가쿠 식품관": {
         photos: [],
         placeId: "ChIJtbeQwHRp5TQRktM9mgcVAxk",
         placePhotos: [
@@ -206,7 +206,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=San-A+V+21+Jougaku-shokuhinkan+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Union Sukara Kozabo": {
+    "유니온 스카라 코자보": {
         photos: [],
         placeId: "ChIJdcR-dl0T5TQRYSbK-r76f6I",
         placePhotos: [
@@ -229,7 +229,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Union+Sukara+Kozabo+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Town Plaza Kanehide Yogi Park Market": {
+    "타운 플라자 카네히데 요기 파크 마켓": {
         photos: [],
         placeId: "ChIJkyR_am5p5TQRvCO7HPyppuA",
         placePhotos: [
@@ -252,7 +252,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Town+Plaza+Kanehide+Yogi+Park+Market+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Chuo Mart": {
+    "주오 마트": {
         photos: [],
         placeId: "ChIJAXWZFQ4S5TQRjhEdadAiXGw",
         placePhotos: [
@@ -297,7 +297,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%A5%EC%8A%A4%EB%B0%B8%EB%A5%98%EC%9D%B4%EC%8B%9C%EC%B9%B4%EC%99%80%EC%A0%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Gyomu Super Koza": {
+    "교무 슈퍼 코자": {
         photos: [],
         placeId: "ChIJbdQfKAgS5TQRmnG0i3eoHJA",
         placePhotos: [
@@ -320,7 +320,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Gyomu+Super+Koza+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "MIYAGEYA-那覇本店-": {
+    "미야게야 나하 본점": {
         photos: [],
         placeId: "ChIJl-MIQ8Np5TQRVxMMcqYcJhg",
         placePhotos: [
@@ -366,7 +366,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%B9%B4%EC%8B%9C%EA%B3%A0%ED%85%90+%EA%B5%AD%EC%A0%9C%EA%B1%B0%EB%A6%AC+%EB%A7%88%EC%B8%A0%EC%98%A4%EC%A0%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Omiyageya Showroom & Ryutsu Center": {
+    "오미야게야 쇼룸 앤 유통센터": {
         photos: [],
         placeId: "ChIJYebx30do5TQRfx9lTaciDGc",
         placePhotos: [
@@ -389,7 +389,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Omiyageya+Showroom+%26+Ryutsu+Center+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Ryukyu Glass Village": {
+    "류큐 글라스 빌리지": {
         photos: [],
         placeId: "ChIJqwNytRxn5TQRfL7OFx6hlYk",
         placePhotos: [
@@ -665,7 +665,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EB%A8%B8%EC%8A%A4+%EB%A7%88%EC%BC%93+%EC%9D%B4%ED%86%A0%EB%A7%8C+%EC%9A%B0%EB%A7%8C%EC%B6%94+%EC%8B%9C%EC%9E%A5+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Public Market Alley": {
+    "퍼블릭 마켓 앨리": {
         photos: [],
         placeId: "ChIJDbAHnXBp5TQRravILqFwLgE",
         placePhotos: [
@@ -688,7 +688,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Public+Market+Alley+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Itoman fishing cooperative Fish Center": {
+    "이토만 어업협동조합 피시센터": {
         photos: [],
         placeId: "ChIJnfH0IcJn5TQRFTMsWWcjFlg",
         placePhotos: [
@@ -734,7 +734,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EC%B9%B4%EC%97%90%EC%B9%98+%EC%8B%9C%EC%9E%A5+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Motobu Town Market": {
+    "모토부 타운 마켓": {
         photos: [],
         placeId: "ChIJ-Vi0CV_55DQRz6dK7KiNy7s",
         placePhotos: [
@@ -757,7 +757,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Motobu+Town+Market+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Uru Marche": {
+    "우루 마르셰": {
         photos: [],
         placeId: "ChIJa5d5VXwP5TQRQURcm7f1LqU",
         placePhotos: [
@@ -780,7 +780,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Uru+Marche+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "DFS 沖縄那覇空港店（国内線ターミナル）": {
+    "DFS 오키나와 나하공항 국내선점": {
         photos: [],
         placeId: "ChIJ2f9vYMVp5TQRXPSL4X-4iVM",
         placePhotos: [
@@ -803,7 +803,7 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=DFS+%E6%B2%96%E7%B8%84%E9%82%A3%E8%A6%87%E7%A9%BA%E6%B8%AF%E5%BA%97%EF%BC%88%E5%9B%BD%E5%86%85%E7%B7%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%EF%BC%89+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "免税店 DUTY FREE DFS": {
+    "DFS 면세점": {
         photos: [],
         placeId: "ChIJz-oSog5p5TQRyt7DJ2VE5_4",
         placePhotos: [

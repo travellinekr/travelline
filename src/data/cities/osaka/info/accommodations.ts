@@ -500,6 +500,304 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%84%EB%A0%88%EC%9D%B4%EC%A0%80+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EB%82%9C%EC%B9%B4%EC%9D%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "그랜드 프린스 호텔 오사카베이": {
+        photos: [],
+        placeId: "ChIJiSPkGVLoAGARuXKZ53oDqok",
+        placePhotos: [
+            { photoReference: "AWCwydgjeQ-Eabco-MYUVu1E72j4844ieu6Nw_0P8H-JCTbMl5FseOmPNickFjU12jbDAcvfnYkkBWpYGy4bspcvGK31jh91vP7KN8S3xUkIcNN1Zv3GK828f2_mhaueSRvIl_rBZ6O_QkyqDSYrtPAF9TnavCF5LShrFbydgrwa7JIjzCuKpoZHuKsgPetuSRNzktCJ2OWftoYuk_svnv85p6sAYdv1C6o30XNN2R_kK8nf0a9DmG_bpsUY4I51vbTrJz4hyO3DwFzoGSGPXxqaTbj00om6SLqJrj5EcrXqWjkVK47xyT_KzombSW_q_uDP7I7yacZp5CnpqUVR2YCiJpZDNNttGxjK40XsZfOcXB5wSAVHg7sXNdCLO92xAtBWHBcVQDVPYyhoGbiTW4YAkvq4xgaq72D3Yq_fSz65EjPXaT8LfL8tndDHhdYjXrDn", width: 1787, height: 1005, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107146902449080680108\">Grand Prince Hotel Osaka Bay</a>"] },
+            { photoReference: "AWCwydiCg_hyZZbczFg1SePvOAk7Txpnha4jFuV7FJD_N2lCGS-ORox3jCQ8dbS4CgHiT-Ht2SQMf0Pxi7kdBTxWz6ui4J6ik_0TjUskPVXFAVY7qXcuyqU9oISuVtvHq_62rq2b2oMLtRAIAPmyyd_v8DqXy4Rbx4vv7Ywmw7ZHzlHf5dkFbBEmkXzzT5UQ5ftt3cGL8GQ7bLcE1DHrrVSriPdQWCu51sG3S9RP2i-bXUlWcOyffCnETFv0YconrmZVcP7bmjWMEKx4wqBsWX2u9YU3ay10qzG5e-9w89s4GP685OIOVD60tIYTK7QaP8WP2OLkikkJyNt_7YPhEQqXXnzUhs7-N1vZVNkHFZCMmT_wgOw2x63WH3W0sXMyfysTv7mE_WCqFmvVpUizL2Gzsz_nvh6Cb5mYVUVbsqa4osU", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109238178190079517392\">Nob Ikeda</a>"] },
+            { photoReference: "AWCwydilGGC4Ghx3rPfgBpEc3_TZ_7NqvE3XXzAHnXFa2K_tDBYDGYW-W11_j-AUBl6BTgMntUObi-y0ixYDTm0CZ1vZknBtfzvni3NpDOnZKMLQfomC1Nr_JPshxaJ3eBNsgI743P0ZxRQgvTYy2feCpL0ThUAR1tuUk04_a8Hgf8xUhHYQPqMHdENyF8uiOopOP3TQO7fU8JfX2-8chqUTemFOhk8AXk8ySFq-vbuOsMlTeTLBmPIsDpg3ZusTRfW0o9ZhehWyMp3hdT2Abu_st_V5P7cabfKpmRz-uRGu6uVN0VQ_DQbMAkhS747W_jrf_ygt9Rt33QOMbeno-gw2LucHzcBK6oau3qIusgPhpjVRMHWA9uHBqbCXqeL-zx5_ELfoGbM1G1bG89oW22gBv7ynTXjw1PQsNN-YvekyUaF3qMA", width: 4800, height: 2394, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107503393180090223753\">Uwem Inyang</a>"] },
+            { photoReference: "AWCwydh54PYQn5DFAan14KS2fZ1G3MIBcwbpui9Zg06Xfng5dp7oTFTBP30vSaRq_L56iPm18b7H0FiLUuVpxubYxt7mO3jwBpbKjkVLT-ky-lLCL68-vtl3To9MH4Rlqstg52Db9BAg5496cp6deMzGzA_gKqZZjacjY2bOmamL4VRGdWub89_DT4qnXWdjcJ8TM8hUCb-nfJAawKfoGAnObZt_pwN43JXnqYDJu4MdDz36R9MZBBAFEZqT0izW24_Z8CKXJMp71tiFZc3XUSyOOlre7tcIPOcKHBbUwI16rKn6mM44OY1n8N3xtsOxd8evWvw3TP0zaE8q7JTAEy3YFfV7U1NaiHK8OmiWLQmQX-o3yHNP20JXPeS9dy5E1MCqWcGfdi_GJNpCJsbCih7Li3Gc6TbRSUvbVeTG41C0zxo", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103206648225568668201\">岡﨑 大蔵 /【おかざき だいぞう】</a>"] },
+            { photoReference: "AWCwydjgIod9GZGRVQgE5-YxIv1V-gVENnyoYovcyG31RA-PYoMZn92OKocj1Gi6ImAzSEsZQiRrQb_HIldUsZbUI9lzvcBsnAULu-OWh9CqAo9owDR5gwFYqlsmar9rxpEc-tEJQ9-204qZOK-MVD1aeySGp0T-g8OQUBPNY4cRp-WXrdS8oUWeRuhKPA4gzwTM85plZELXpamMm70X_sBDEgMKhYtNmRw_RSHyBt04HHsIzbRVhpAb1zjSi3FJ8YydeRb0MFN5J4Aktl20_7CiqIUVPLLfVsVPwscIe8jWzXRqEast4jFTipcg8RtJdD9hiolkCD4bnQs_yExr_pSM_dThpCtSTKX6Y7Qg12KXTWLaSLV1meP3afzb9GjPuffdZk9Wm_Ins0Y9rS27OnIHLKW74CZDQbpT0b7SPCgjduVXD4FnJWtKYyEQ3nHupQ", width: 720, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107146902449080680108\">Grand Prince Hotel Osaka Bay</a>"] }
+        ],
+        summary: "도심 속에서 여유로운 휴식을 즐길 수 있는 다채로운 시설을 갖춘 리조트입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["실내 및 루프탑 수영장", "다양한 식사 및 애프터눈 티"],
+        tips: ["수영장 이용 시 사전 예약 여부를 확인하세요", "신오사카나 우메다 방면 송영 버스를 활용하면 이동이 편리합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-13-11 Nankōkita, Suminoe Ward, Osaka, 559-0034 일본" }],
+        location: { landmark: "1-chōme-13-11 Nankōkita, Suminoe Ward, Osaka, 559-0034 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.princehotels.co.jp/osakabay/?s_mc=prop_osakabay_lclb_gbp_seo_20230701?utm_source=gbp&utm_medium=organic&utm_campaign=grand_prince_hotel_osakabay", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9919744955643425465", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%9E%9C%EB%93%9C+%ED%94%84%EB%A6%B0%EC%8A%A4+%ED%98%B8%ED%85%94+%EC%98%A4%EC%82%AC%EC%B9%B4%EB%B2%A0%EC%9D%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "8b 호텔 오사카 니시쿠조 아파트먼트": {
+        photos: [],
+        placeId: "ChIJmQx9HnXnAGARWXVL9_5xemI",
+        placePhotos: [
+            { photoReference: "AWCwydhBT1Z_fG_WisAoB4dSpV79sbq5lKQpvxAhFBpQoyfgt3d8Sgd7BwbgdHmugI2yH79JLNeRl1zUwqfXpXtbWjehgiNXq--26SX4weToeTx0MYB4KZOTRAlRkme2aL6dRNig_cvYLf7i95Vz4-1CEUuulSsyLrZgdrqUAGO2HVBWIQnWwdfcipIRorOXP1FCscrkzdu_zOh-LVZSWoxQEE4NzqMTW1Bjj8lMh5cZqJJJtwXU-cIU_l5i9CX9DZTqkapeIR0k7svuJNP65tpaWvmmXBgZjRY-AM5rprujrfHFPBMZkznr2Kwa32bxD2mB0xZrYLlXeMm0edZ3LlUMaMjPKHje3IiXWGOiAhNL_c1gCKic_qRnwwcKhrNQvHtdxBqWTi-CpQvwKOEK560pT6EY4XmV0nVxBtGlVAMpKEk", width: 2044, height: 1264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108746167382943901759\">8b hotel -Osaka Nishikujo APARTMENT-</a>"] },
+            { photoReference: "AWCwydiaLToxi4x7rMEe_DauWxWmiPlmERAQmwnLBFcuAHIR1Ymya7Lz8CkTBTveVOCbQgYMX3urDo15HegkYLjgukmVPelY6c-WweepmB3Sbo6D2IJOKCnCVqI_KFYZhq2BwZrASnYP0SqPCgfV9CNm5wS_4ZcKgzzuPafEPllE13B5EfYNHysDLh4VY85GCiltDo9sc5ajVhMheZsZ0zeK2hY0hpVnqK2si4T3HCv92SXBmPYwElThS52S-S0UzFwafQlsyrah32km_zl2We0Aqrsxi8EekhSMGm8Dkvu2l-pGhZpBbw1w3BjOLK0Cpz6rxzcCC96fkvTAnxz61vjA63EoEpdDPvVm3Gp4P3fHGJnUDCq1GMaduqsyy2uQn7IHD2gflfyT7CXEhfcbfRb2M7r11hCeejrLq_sg8NVmtSNt6CHz", width: 2364, height: 1578, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108746167382943901759\">8b hotel -Osaka Nishikujo APARTMENT-</a>"] },
+            { photoReference: "AWCwydiAwbJ29u7nBCxS5cxHT3jiYEbojoS_hSg5ezZzxAqk0d_tjpD3zccP5ZbtP1v0mF5nknvfwAqCcCKCchfJrsK_ClqvTEkd4h5vJk8MqVtV673A3Iy7_Z2h9ngdkXXxxyc9y79u3tt3bXpkGshLmvZd8JbuWSKf9MJRhwSuH194uU0BM5o7eHKbLc67p2xPkga0m3DrwcH7Yq1_hj_OTpLKP1tH4Z51RuKtiAMwDG6ywReDpZf4Vais4zHN8GJ-yRsBHL9Za9E141WMy-qetgKQaNDnFYjwxXKMMHayBf9iISplMIDUyL4hGwaVdcTJskj4TUVO9ViekKFfm9xaSqXqF0bXr0Qlx07FyRda_XYJWApsK-woQ8Qs_aAivpZhHNafj-Xpk0PSwirjjKoKewyhyE3W6dUY5ybf0BfFnZZGTw", width: 2364, height: 1578, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108746167382943901759\">8b hotel -Osaka Nishikujo APARTMENT-</a>"] },
+            { photoReference: "AWCwydj6jM2gwjDIVMbhVARJjVwgsU2zOvzf57YxUujYexPkRIa-NcIIp-PYlID9zSpxKxLOM_LQmo5WXg3CglvM21g7R_wFEuKPb-bPBKyyoOcwKu4Z18-6X1aMcgEKoNVOOPMlo1pneNJp9NzAKh_V3bQ5wiB3z7f3BgpcW495MeQnEQVCeEJoKitVdHD9W_V7Xq4wpdF7updWuxTyNxBLNqZDhHrFSYtVl17WUULWD0SJ4h481LJqc_2jULxFUBSryif0L6vxj3hnkVCOeHCBilqowNaJLGsUE8kfNxWwplmjH2ZJqJvWWcVnNcY-gddKduaHYgzQyPRzohTQYwXNJJmHjyZcOHuEeRD0Iul4S5xo_uZeUsBm6NKYqGK1t0oDNqjFnM-NfcuaCzfOPYCOss-qXJAie4mfHaFgv8vlaN5c1QCK", width: 2039, height: 1148, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108746167382943901759\">8b hotel -Osaka Nishikujo APARTMENT-</a>"] },
+            { photoReference: "AWCwydj6TDfwtFcl1RXd4w1lrtIKxY6TK3avxwmyZ7FWz_y8uUSbJKI6eGzK6r2JoTHcy4zu4VoQnYdn_PtAaqSKf6Fv0m27XyEI0MBBxHAbC6SPomhYLnao4fu7eTQsJU8VABzCdHc8tfppzWL9cQee4b_ypcxMp7e3EeG6i8r2ItriCPCYP9zP7y-lpHWVhsQ3T0qa9oJlfnDJldipS2SDkb-mdWmZPmJ_xuh7VyFPclSRQU297JoaSs6DvPIKN3bn5FuWZuJSWisz9f633xT7mXU7j1LsrcEhLlhmHzAiZqtj6vYSGEzIyM5j9YOxzmxFMrzwfCp8Urw6yjpNCBseKYc0uDDKSZPXl4tWPzvRin0njOWFYPB_gx2f325Wn3FjFcq5iTM-7Kl0N2JGilAVa-b_zAhcR3EQbF2Z5msWUpgrSdaN", width: 2364, height: 1578, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108746167382943901759\">8b hotel -Osaka Nishikujo APARTMENT-</a>"] }
+        ],
+        summary: "사용자 리뷰를 통해 검증된 평점 4.8의 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 사용자 평점", "긍정적인 이용 후기"],
+        tips: ["체크인 전 호스트와 연락을 유지하세요", "도로 인접 객실 이용 시 소음이나 보안을 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "3-chōme-5-27 Nishikujō, Konohana Ward, Osaka, 554-0012 일본" }],
+        location: { landmark: "3-chōme-5-27 Nishikujō, Konohana Ward, Osaka, 554-0012 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7096109502760187225", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=8b+hotel+-Osaka+Nishikujo+APARTMENT-+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "체크인 오사카 신이마미야": {
+        photos: [],
+        placeId: "ChIJywujRejnAGARFrnvOGA8Exk",
+        placePhotos: [
+            { photoReference: "AWCwydjR7sPRgXAllqQz5v1XiZO1VjcAfmTpoQBC84Jq9IblfzxRBT6ZzuooQkXnhf1xfE0RZVrYqElDm7qpzfTNcgrJY8NOh37UPnb5B0m_e1weGnQ2TpyjuGyuAs5Q1j-ipNTe6-olbgwwIAHUGCGBq_53gd7c_QiUhy0bfK9f4_d9dnrBZd-kGJgoxsglzruoNI7nk5dJC9wkLYSp9_IZbhotprMoUmLK-iHtmeKoYAX9omc1ibbTZUSxlcz3F-0viz23Ri3ydk-GXqWeUpIyAgT2QqQ5WEjafgFSghidnft-AmwxNrKUCasQ1P8A38DnTgvD_ZNl2rR6WtkMv9sEF_meYh8CGi5GUCtXafkqifP-_92vcKwa2kJbClO9fFocp9cXmRu44_yEyG_NTi_osYu9h7ha6T8baagNvL9hpy0wvg", width: 2050, height: 1153, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115412296747611156292\">CHECK inn Osaka Shin-Imamiya CHECK inn 大阪新今宮</a>"] },
+            { photoReference: "AWCwydjQo0is7OBO0vDc6GSfJQQgebH13TCUuNFXVALebgt2SthnvbgDdI28bR-kmkXRcfMOsjBuFmTdMO7Hlo2Wqzskcl9iE0tuEA1ZdJH2q8ENrVZe0JJV0GuigkxUNGHwkIxIOaMXQ6IzoH3zhf2qfzKe9nUVdh4oEB5NLA7lDTZ1j_ompRzvfCUiGhwVHSqg7YxLG-mPS3f8o-WSW00oT5ynV_nd7ZlUe8kviJ6goyIlxxfnM9WibEf6-cw6_b9FQlV8L80E8E3FAOJeuH3UYVZkaBnA2s4mixnIuTQ3AmjJ7AsQhxj5MlbkiGlnIwdcezlJsIO8ImaxKF_GRveZ2b-a0JnerHsiBUgjuLXze7tremhjirN61cZ1zjVHtHU76tGyeMeJFAzGVk7deIbexSxZIV3iEneRSMNEIPinCqTtyw", width: 1890, height: 1417, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115412296747611156292\">CHECK inn Osaka Shin-Imamiya CHECK inn 大阪新今宮</a>"] },
+            { photoReference: "AWCwydhtc1vTOJ4eePwd86KSzGA0X_Z8p-u0OYfzm7KYIPMBXQUBHBqi9oKnmhHWEW0r_MIh1QGIGc934TIFoVCt6TAMqi5CULRsj4Yg26TAlrMceI0r-WiDlJdaPxqydIh0Ek8mGvYdH9WeR-SHCdazjK6H8KIhie-ugwD-MJaQVa2ryGj7w2ZyejS-FWl_-inbUY9QYOhnnq1XvG_3b4KhI_8l4mQoenp0VIABksKW4McgJHky-EE1YuXBqJ0-fHGYAcBavoQPgPGUOWAigRLXQypfJjTg4iVokP1dfUtDjCdScCOu8JeSM3p-UM84SAQPUWhkzA1PNK1THbFfEJoIWzOdCbf5wWo-qa3150_KHWmwiataGxZ-4KMcRigzh1Xv5rPA_XA4OqUjSAis5PF9eybfBMs-kRGUqN-3b9vmkfZ0uQ", width: 1680, height: 1260, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115412296747611156292\">CHECK inn Osaka Shin-Imamiya CHECK inn 大阪新今宮</a>"] },
+            { photoReference: "AWCwydiAMjnaPrN4-WNBj_KFFWJLruz2lj3TYVVhdmsD7FAdzaY55iu_R8VIaIRdGyXKvzjDlPRA-G7t6kprEBuQ9VqIKP288LiZcEalhqVLHeUMRpJdF1yFRYM8eWlNHwJVwWCipt9eZ-gJse5n4iYaVd559l6F9v6ayA_gMpzxP_rvfGD1IaFQd51Me3FfoQG0vASJM_EXWIDXwXGakFKTJhwdeginOBkyGk92FRTAfZRPHltzhGIizCAR1rlOXBtmSGwKtTMO37tcRBXp43ZvQ_PxHy8PFJLxxJ3u5677GGqLVWfwnKkAlqGQMzl1naI_o4UN5wjsbvBPC_gTURCrox-NtLW3EvHYjoRzRu-Of39AtuFmIYbv4-FiJF1uSKwlfu2UIkzmp2UNB9CxCVSEjYJQyX4yCFSl-9abKDB5sCWXRZRT", width: 1681, height: 1260, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115412296747611156292\">CHECK inn Osaka Shin-Imamiya CHECK inn 大阪新今宮</a>"] },
+            { photoReference: "AWCwydjozLLbBPCalNSWHg-UDAsSHJ4YvRwyIW4X7sr38v7mis_OpSsR03MRQl3zZc88gsOi--6ETaqVMaFRrmICKoPzGDusM07-Fk8bsVNHoqLtEDYBCoXqOpO3Fw7x8Nnoc3iDThB0o8mj7A9KeGzAdero5UQ37o5Kmvk79GgHVpJI4MfLBaGvytF3N9ZCH6OS95NqK6xv40ruk1ii4u7yxCPk0DTSg3mRqH-QiKVEvvek4UjfjEo94ZUWWTAiv4bhu7-7TZTKQtn3xSfQ5sXZNXjwv64jYfWbIABK2f5eUF73AVEQAyhlv0DueFEVg853BCalrOaczgIznnToo1CZRtn253fCvezJBH4PnhjJDM-l_NILKTIEBSAe3RoP_wNHpygX9n29hmZ6n1WUnQZqwcjrglb4aBh25ljCIIUiBZgLnVXq", width: 4032, height: 2688, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115412296747611156292\">CHECK inn Osaka Shin-Imamiya CHECK inn 大阪新今宮</a>"] }
+        ],
+        summary: "편리한 주변 시설과 친절한 서비스가 돋보이는 쾌적한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["주변 편의시설 풍부", "청결한 객실 상태", "친절한 직원 서비스"],
+        tips: ["가장 가까운 역에서 도보 이동 시간이 필요합니다.", "세탁기 사용 가능 시간이 제한되어 있으니 확인이 필요합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-14-2 Ebisunishi, Naniwa Ward, Osaka, 556-0003 일본" }],
+        location: { landmark: "2-chōme-14-2 Ebisunishi, Naniwa Ward, Osaka, 556-0003 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://checkinn.co.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1806854259475462422", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=CHECK+inn+%E5%A4%A7%E9%98%AA%E6%96%B0%E4%BB%8A%E5%AE%AE+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스테이 오사카": {
+        photos: [],
+        placeId: "ChIJL4BUGGrnAGARRJ12ytHSMKA",
+        placePhotos: [
+            { photoReference: "AWCwydgVD7yuWsBBdkIkJQH52B6oJtMYX98c3zvLp7wkklyxjueu3AM_jcOe55rBQxdqYHt3ctF6zyGda3pgYURaZmM-ghApAxSURXGYs1TYxn5qefwEad4x_S9DCFrl1ZRkzxcLWZJKeRwKVwLQMsaVJr04lU2AFNuiG5RIu1BXRFlH_3PcKaNpSKJoT3FG9MKaBmT9nilv8LNQ5gc5UnXgfDjjrlDEocB-q5YncqB5v_wwvuuTrTnEx08aMIq30hG4VYjZyHSz6mT2UnWveWxleRk0fZcpG7cTpQ3bgRfErwiva2PpJ6Kl_F5PwjDDg3EenZPdqqP8Y_00Bzxwuq-ZgPoRwcWwoikOOGq2M1jaM87GmDH1gX2D2s0UR2j3JNsOdfNNsQomQCpfJTNObCqnvBtmCyl-74eSOkcifvJNNjbZChhS", width: 1811, height: 1357, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109732473395753742465\">jie shen</a>"] },
+            { photoReference: "AWCwydjSnK_2QQzUvtYELART3EnpK3t7rvtbeszZ2K7f8iCMdnBna8XRn7KYml5oXODZCSEDrJwFBNj9RFtysOZBH-WsE_3RB4klrCQkvmZIMp7oZUg3gOUdeBiBtHKs9gofhVXgLmNMFwpQzX5fRqVjxkUH6tCBfa3RDNChArRBFIQ5CZ_UgaaiUTL2D-amsNX7GhNMCJ_rha5ZZa1X6WE1vp6Oo83gkziXb2qTXaFeFdy5AUnzt63D6PHzUgz0aQ8J3csiLoP4E4q4SJs3-xcMjt9kibCObYWz_Q4ssVWQbDNgeowG27JncFwy9cv4m7DITkhesjmPbd4JVNsMiZOzRzB6QQOSeactEyJ3cl77MA6ogMTfC5vCaDlng9pvlml_U2cGJQPnoj0yy0vpUjEgaVy9XH5YgavR1-82KDHsHJc6-QJm", width: 4128, height: 3096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112661470355367496938\">OSAKA STAY</a>"] },
+            { photoReference: "AWCwydia2spz5QB8Mof1RdbfXuY-1Q2A52mCF7ATc1HuOZQH3ZamAD6Q7HaZo1om3gWfOUqRfqaTzpGFJp7g8TtZnc_wzWctdm2ZwkoEa7DWHA6oovixswUj6mssTfBCBG1ic-X_eXX4P5vKewuwNkFWXFhddpajoDTi6zf3cv7zTvEcUuBDprNM6nIuKOcqzbliNrOz3V_2SkdNo6vKGAwzuKxX5nWMH_VgGR3GBzb7xYCMv2wvPVLGIIU-YsZ3aJ5s8lk1AJthGgzI79Pl1SFqvJOPdb4MrMuDpB_PK0YmYZmg-yzC1KMDsuEBfA9y6yegga0_9o-k6aw4gPQcnbEtZ4ZjU9-sWuck1t7l3H91SzxTth1IR1DqpFcFi8P1NADQ4f2SFhDg2Iwa2D_hO3xfnhsOHdMFG6AH4nW8F6xZlc07bP8S", width: 4128, height: 3096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112661470355367496938\">OSAKA STAY</a>"] },
+            { photoReference: "AWCwydhHUGGDfYemZQRelsXKJkkA9tnJx8e5fHA_pHng66cUtRIJHL3gziQIJRNoX6cm4vRHaog-9tX54zZTbw0RruL8p_kN8NcMNkx83trZNft9Hk7QjuGhIUzAfv97i2EU3RGg8azaT2RK3buXp5_MoXqxXStdTCM5XnAtecias3FVTOvO52hlptLUpIA4aX7crrOqQnqqU6HI0SEonEhrPE0w6z9hGzjIm0XONbKorbD4Gko3E0QTDrfVeF5sCLMCksmya_gt1p10ExK_3JGocjjeSAemlYwtTOc03FCxDgnhl9kHHGgD7yTZJ4VSq4LMiONZsjO876aqks8dwUXXAhdp7MehynDYpUcCbFHkwNlmJBHoaWYok5J_yoxPe-mZ7ki8viDnZTXT2L-61VneznRfpREB1lTY8cPCKOt0pv_4ug", width: 4128, height: 3096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112661470355367496938\">OSAKA STAY</a>"] },
+            { photoReference: "AWCwydggb-GDARl4_Xq6514jg9iAOHJQhBtj_Fopj7bRvec8xSjIHqJorz97my5PBVA1_DPNTZ7XF0yY_59iz_f6Ha8-jEoVm9l5WyjsTlIAvKt9LZEr2QwkmG5jSZX4sBnwtTtgxY70koHTe2JAqDmFVd5FtuZVM6NGeJSYCxk_OA2R2N983fvPzmBmQiGTpl0y4tDvCh-qw0S8sv5XEUT5Yv8MK4Qqnnl8j6pkE1c363HLMtTqdYPq8WHPUXDHb6wfTpucwubj5L_yRtGE7NtAB4VXpskDVRdtMdtTIML1wdRoglOuyeI3HB8ISGpTQW4ykkkvHRL1TIlpIWhe2EPHDLE0Q-84sfQY_wLJQeXfcYA4V_twQwgi5F_B4FwU6jXvT8iMZEGGJTco9kthMqrL0Tp9UgzM4uWdehKY88HVQRMDjA", width: 4128, height: 3096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112661470355367496938\">OSAKA STAY</a>"] }
+        ],
+        summary: "주요 관광지와 맛집이 인접한 편리한 위치의 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["도톤보리 및 덴덴타운 인접", "주변 맛집 밀집", "매우 깨끗한 시설"],
+        tips: ["1층 오코노미야키 가게 이용", "도보로 주요 명소 이동 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒542-0075 Osaka, Chuo Ward, Nanbasennichimae, 4−５ あすか旬菜館 ２階" }],
+        location: { landmark: "일본 〒542-0075 Osaka, Chuo Ward, Nanbasennichimae, 4−５ あすか旬菜館 ２階", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11542957643437350212", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%85%8C%EC%9D%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에스리드 호텔 난바 사우스 3": {
+        photos: [],
+        placeId: "ChIJ_4AIjDbnAGARV489qXmh8vE",
+        placePhotos: [
+            { photoReference: "AWCwydjE1nGrLiM2aTlG3JR3kuzlUyiSMpDgT3OPcsv3zfGElswLbfxbN30OvynZnsHKrz3n64S_l7QXbxvecLSKdYf3sCDcn-RGS_FpuOzmGlU22Xa0NKpniyjXqcfrRtHCL_65uQ6ug8PzoMeBjdNQpQKdDRuC1BcAwiuy6GOkb2TcyDh0mVAM_FUBLxGxn4ib1bzv1DktCB08UaqV84FMnRgsoKUN_-IUfzCYPIPAOgc20kXY2DRYGYelSqJ7-yr82J2WanfSPMWlYU18Znm_x5bJXQsPz1Oa16cisyva-KekhbvSdZ0ikWe_UOAInaJXAXOx6oDfGZXEMjmY3Q0GUC2wGFTmv5fcGAl0WGI7477P--mtf-Li5xbsvVrpFDzOBw2K2G-8emDYI-DC5fwtKgsqA0qOnKZ-OdhqaTOlWPK8IV0", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104404004957041958627\">エスリードホテル難波サウスⅢ</a>"] },
+            { photoReference: "AWCwydiaC6S1nviN8RaQZiKmFDqd0Tx8Fh0d9-0kTeJ_KhPkM1SkCcUGP_mXJFD2HGIHjBk__tN_n73j2tKMFob4hq7oHVQndkF6wunzR17J7UCOoUKulgFFRJE8qd3J7dcIv6ov52rgM6FsUPyH7CuyUT6LSKxVE-CLXH4U9WiNhp6EyfGONKXKoC4J9tCHVZK2aWEbNyBMQGnahyGXW3aOnuPv1x9XV8JefmTtcvf2gOUdiD2pD9JzLlbxjaEP_PQiD6kQbcylcLxJ2FBRAD6NDV_MDmd4Pa9dvCcWIIvpawxdNQ7TApmXkxc55zYdS2KcHv4fDjjok_-gHGnrVWNR1qa3LzOP2q_uDNbzuLqFxWyWjPIl3Qv63MUsXjajTrgS43tpyuw74zPXguUmktNTX1CfglDwmCMRRFjUl4-8M8NG_Q", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104404004957041958627\">エスリードホテル難波サウスⅢ</a>"] },
+            { photoReference: "AWCwydgFFlI4agoLN_mBk59l6liYhCYVnxnMzJB3gqALdLEwgdEpv5saAKiJWb13lw3XOSOSARN7XnuD4ZyTq_h53Sk4xhtKGgchJ4PtmWBNRzqygsjLNHcPkbxZG0Bv9NyKXmAjEGImkno-VWKaJsBnNB5J5YQ-1R9T5M212Tv9d1hcLX7lRnOhv6V33Cf-nD743Tw48XhfvOdrWEFQcEzxE3DG1Au33GsZY4izGAURXIAhJ2wtRHNi76naB8cKiJxV_9lVRChckQOAWHJeKXP_8dMYkOhh12HJTikrrzy2LhzXNVd68P0WHgJ0x9c5wr0fn46apfsk1baGfMBlbHMVVkJSRcfYWphZAOEKQp9BWqYustKNi5-JkB9HHErv--LSAtRfhdj-BFDLm1E48eXwhVcdSN9mDJPh5JOVFuK068mwlBx5", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104404004957041958627\">エスリードホテル難波サウスⅢ</a>"] },
+            { photoReference: "AWCwydho-k422g_60kCRGO57VXBfxqttO6ShBzoj0OCohV76-yaChMZ9SGoF8TEl_EI_8nhlEkStFuhU8W-6QAd0A9upMhhpE34vQFlEAxHHJSPAfkP6S1et313iz2xY-wmRvUGmSU_V2_0wAbPmRWiyldOeSngUPc8wUJu9F6Axue9XYBBiCK52IopQBSlJuxWnuHutgHagRpK5iw1JQVZtFj-NPqYueHFefnAkhCfRXT0MlSPxjk0oSdPPhGcHmhxX1PjXbltnr8SLjl42cn734eyJNZDg2Yx5pZP8UBN0t03TS3v70_7w5RrVfVlaV744nk-CX_wLxwVa_lcXaHeTljkKXNU01h8K1LxLu0X16O52z9I8JTeefJcdHxz-egFoCE_QKyIpWuzYBCqSNfxz2bwpWTmc4F-tfboT8-f5eePyl5jB_gePTzmS2Jrq5g", width: 667, height: 498, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104404004957041958627\">エスリードホテル難波サウスⅢ</a>"] },
+            { photoReference: "AWCwydhx7F1l5FMog0_QGVvtR455ehCGpAfI4NRaQNL8u548lKAJ_WukGsyKeDz-7pYcNcddMcNJbHOggGbt3UGCPr7tRFeD8W3POoBbZIZZqPVnmq3vi_Nm3Ny-USgSA6pJtKAAPx6b4LlSA2MCxvPSTua4gTOwiDjUQ1p71NBa0ugLTbnpY2DySMEDjI0u3xN87ljbRqTqxHsGuHfONKZZlLEPU08zgsGffj4R-cy-yIKaH6YZYnkNCqTmSnYXL09lrDkpT6Lt7WRvqIzziA5s-lRHdigtbuf8gJ3PEjc1dYGROv0y9YJWezpE47qBzztlC0TOBnw5CwCIKOo0Q9VQ3tcgMrTPZWIpnUvQtXimAhMgTuI_GMB-0Xxx1rWgX1giS276-eNUFfSMyNh7eJzV4qLiXaFCuu46oAl-AIOuRggbeCuNX9AaVHrioI8-c6wO", width: 746, height: 498, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104404004957041958627\">エスリードホテル難波サウスⅢ</a>"] }
+        ],
+        summary: "편리한 시설과 세심한 서비스를 갖춘 넓은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["지하철역 및 편의점 인접", "주방 및 세탁 시설 완비"],
+        tips: ["날씨 예보 및 교통 정보를 제공하는 세심한 서비스를 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-8-6 Ebisunishi, Naniwa Ward, Osaka, 556-0003 일본" }],
+        location: { landmark: "2-chōme-8-6 Ebisunishi, Naniwa Ward, Osaka, 556-0003 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.eslead-hotel.com/namba-3/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17434174651407109975", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%8A%A4%EB%A6%AC%EB%93%9C+%ED%98%B8%ED%85%94+%EB%82%9C%EB%B0%94+%EC%82%AC%EC%9A%B0%EC%8A%A4+3+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에스리드호텔 오사카 츠루하시": {
+        photos: [],
+        placeId: "ChIJTXYJiqvgAGARK2bl46Kkij8",
+        placePhotos: [
+            { photoReference: "AWCwydhVeC5FUnkFKcu0CVWdGzAqiM7lPUr_wspu2A6MR69FvAcU8caMSOrEr0nLCCOiMd3Xigp0bHBhinp-btfv0mRk1NW-Dm1nd1hwo88ul2c9eGv3Wgv1U01NeXOvxh5W09Tp3htP-GGJpA27jUt2aS7OLhUZf_nBCRVqS64KLtpWaDWYIieEu01uenEQt2Tj_4V7qcWMb-57TIBbapdNRIs-WsaEsdQv_RLc5mjAOocEs-Bkq5bZ_1AR5SF6wxUvH7CChjRSd6atauIHYDlyZrLq5napIfIGJ8mMYydVk_7Nwx1ZOINRi3teUkIH7iZ23CNSti40ubJZVzCPrv0Q7etLNSLbNfa9dazyCQWqGBP68yo2QEeU8aabfLJlZF-NRLUA242BqaPcR6BD-aTV9OsA5nNMn17H8Z0fp51k6tjIjQ33fJGTqYxw5xLjLffH", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105775537140596468659\">エスリードホテル大阪鶴橋</a>"] },
+            { photoReference: "AWCwydjQhMEkFukeEludXdOQAA7LFkkM7OsGyaHMDcY8MUg2SwkEQ_jeb4dxncB0-Egig_PwL9R3zd3oS6RGjghaxhpQ6-cALR18eY4kmTT3gWGDmBRvhEWZDlSphroQDlhxNXOxkBTr1ycGgSpFpokPDS7b__6Txc1PtIoXrzekZubu2loUFnzguJ1HCWy45xLeXtgagbNGRJdo_9N-tYuZHBNwfbofpfMbrdOWXnfwcBdtqm300fE-gLjQu7Wfs7JCeItfbkYIEihl6B0EhYgp8Qe-qMnzPb9i8P1ZFI0VLRiJPbugcmhn1QY9ATmvdtbMSF2osVgvJZV4CqA6rME_30K7Eh1bTuic85OqvRonfwu2wHtGSCm1GPmuX8TZDKxYmUNqn-Og0XB-vnvREsc3nIKCF-WRznYcjVXJXGozoyCTII-aq_S4Q4aqpCM34JU_", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105775537140596468659\">エスリードホテル大阪鶴橋</a>"] },
+            { photoReference: "AWCwydhnrpe9jNFKwO6vaPxtsxgoP67pzJO5E3kdQvgwB2-YNNLCyWdpB6F7m9lDEuvQsNscyvldoI5RT9oYreAGqKqHmzbObJouLc2vgqlbGQbLSD6lHc619rtI15-vV2gGjE6kT_RAQCUNZlMp__gNRv6zGPyRFrmw89jSgRqyqz6xM3SB0G43qfRd3PY_P2xUF1HY-7obvgkjeUacb635wQHx2H1pizZlCSMxNZWAfW1fYLJLS9kI-aRKyjbh3dWXLrcwBAghVbHiI6ijpF3aWJaMH1fMrQwixeHWHLUtK00Q874ZUTiwqGTWbEZU-VELazpJbztQCddI7WliKeol_o3txmYO-gwZLoGjKLfVAzGPs88FYINvA1B68qGOc53-L4M8fwyd6tp8wqeoacZRxX-doECut0g7w5tV7NczGzPtHC8", width: 2592, height: 1937, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105775537140596468659\">エスリードホテル大阪鶴橋</a>"] },
+            { photoReference: "AWCwydidIku0ObZQOpiuxQR_fOZ3gGsv1sJxhFrINj4IJJA0VWj1QDykZiPIGnXoZideYboKnxYbm4xqxGDhLArDOefK12FeL-s44Vutk2lX63ptLdJJ996mN2Wa-KpRwJAWDPozh9h6rDDUgXQFesTZEquUV5oekUgu8CcF2ykpfYLxnByKgRASOdSMS8C2A2mkM8mQiBJXOtfr2m1TbMcu6eTbY7nHD2zW0DPSZhaaDcTyrUNFVS6ZOZgGBbLyGtdfoxYQ1JA6nyJ1Lj2Hi0VLAvb4m8Tv9HkwKhPmh2yShJLsBkkyPBBX8aJaAtBuz9fHpSVaNRZ5-DChEVPXeprEH6K8sIKRJM0K7C4wstPc3Hug_Iwnpjmy_cX_ZPsmwgWlQ5ZbNVrFnJM9vlsokrqTPe06IX-e6JwjczvIb2TeDSc15A", width: 4032, height: 3009, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105775537140596468659\">エスリードホテル大阪鶴橋</a>"] },
+            { photoReference: "AWCwydh8LufttUq50S5733uOP2HVpHLmQb-STL5SQ_UN5z5Ua_Nrt0usAPMf1rjKOjjwBrv-Jzv1GrTiElUACViFVnkVtxgw86bdCv6W6BdPZ3dHH--DO20UeJL-3OFHObQ1CwaL_ECCVuTpoUbqL8Cppi6l3yJX8qJ2mv1cyWV-Vij21AIb3SeYjuInN4Y1o0-PTVNZP-t-HlhDesxgxNnRa2okBIa3y3NnKl3nFQNhBzqOlyLpEITpRIiVsFZYbGtSLWJLUwtGSPSWLgedIzrSJS7mA1xbYsmcngA-H_12C6fY_HKciMFzTGy-GJYlupgxzZ3z_xBQ9EUHN-aBnw1ODjyJbgjt3JMQUJA2kEV5aH0XBvoo2gVQ8_MDnn8nZHcgPA1JtEtwRJ9vZN6jJEK855zgUO817qMFL8A2eIexxWhYWQ", width: 4032, height: 3005, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105775537140596468659\">エスリードホテル大阪鶴橋</a>"] }
+        ],
+        summary: "편리한 위치와 완벽한 편의시설을 갖춘 청결한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["지하철역 및 JR역 인근의 편리한 교통", "세탁기와 주방 시설 완비", "다양한 베개가 구비된 편안한 침대", "칫솔, 빗, 잠옷 등 세심한 어메니티 제공"],
+        tips: ["주방과 세탁기가 있어 장기 숙박에 유용합니다", "다양한 종류의 베개가 준비되어 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "16-3 Ajiharachō, Tennoji Ward, Osaka, 543-0023 일본" }],
+        location: { landmark: "16-3 Ajiharachō, Tennoji Ward, Osaka, 543-0023 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.eslead-hotel.com/tsuruhashi/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4578652990690649643", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%8A%A4%EB%A6%AC%EB%93%9C%ED%98%B8%ED%85%94+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%B8%A0%EB%A3%A8%ED%95%98%EC%8B%9C+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호스텔 미츠와야 오사카": {
+        photos: [],
+        placeId: "ChIJ01Nfp0fnAGARytwHWPHUAeo",
+        placePhotos: [
+            { photoReference: "AWCwydjO8Tl2zseo7za-f77PFUp1L_5fP0jn7jEcVvPD-JOCRlvuu2phtirYa6mOQytr7diJfinWZMYTUPFp9QL-E1IBtvLHSNshtgNq4jzBH0y7m7lx6EUOxBXTljkCVfD7CnPJSPJsw0LyO-fUgyEdoXRbCI5Mx_bWD-OLO8ZSNeY_j1M1WFnbYHBcqJZXWHcu2bw5gtMZgkIOZD5FId3-JJjiTQhpvwejv8F0RmPomrGNwdIcgXbwM4jztUT7RQlt6jiPw0mJMqMOnAgHNesJjU-h-yrKVoRSZlIjINoh4eTgmN85AAjnpzGVP4QxOhzM36XeaqmaSHXVG5BllCxC5sKn88POH2VA5VnHMuUs44MrpkoEHJu58nsFBSO7Yz1Tw75ixOOP8UxA52AO_fTM-_JqmDr8btRv8zfLPpSP87OSQzSm", width: 2880, height: 1923, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106701961708914527930\">みつわ屋</a>"] },
+            { photoReference: "AWCwydj-nvtHbjJRavRcaNfPsBAurXsmaHvE0FsvBOWY0hUXpRvHN4MGiwj2PN6QPmazS2PgBl_CkxGCrCnPbEVSMZZp99_M0EEvMgDmSPHVGezWXJcs0jRJjMXwtKkQeqzBFImFuCfMwBk0BNt128929OayjUAKksvJJG5YslmH003GQMldRGLnsES89fsgWH30zrllVS5QsoCRKvy5ST-n-FRItoYwQfb9DqPffvR7VuWYe0kGpBVsEyNvO-6MAbq1iY1e30hNlkjNqkwkFDdllJloFh5mcrDemaQuNImpK35tHdyoSRrkYJcjxM4JdOC2Q_PJYgoTwANH62NU1m-6wsTy7YpQRS3FRRkazkSwXl7kcKxTrx9e0A41Jm5dB2pyI0n81P0epB7z8sIVL8AqGmlCQ8gYpcyxliSz2-CwMNVFMSg", width: 2880, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106701961708914527930\">みつわ屋</a>"] },
+            { photoReference: "AWCwydjy3a4vv_nn7OkYHvKNsFKtmyU80dZGz0iaWZgWoi472paGrQeE09yb-OhfAkFlKgDxBYGlPbj0xPyJktR0CzHu4og0rhjBKequRwZnYJ7LmiJSj1FD4w-yhLpyyr_PE20SBc-dNkqn_2gRZXAenTNKs1aAI5fCzf8R3gPGAjBIts54ohIglVdsThQznQL5_XrmWTs85LFoSVXaToulli6twQbUWZ97iCq2EkVI3_7F3-g8F6JL57hTjUHfYBLgfBZyEokREdeNhs0wAtY1qwN6BmS0SPa0s-l_0A6Nkjc0XVsmOxA-cdRk2NsQ3lw5QtmINfbUyzr79-K6Dp2N0ZEyGWjmqVtruqgRnm4luB37rfYVqJpvF1lDi-FQ5VD4Lva04020gqV_jEVYaRCRXghCwzf2TyuS7MmNgAsc_COp4In5", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113721395108335842125\">nomfundo zondi</a>"] },
+            { photoReference: "AWCwydjNacRaIPcWt59HK1OJGFy9R0QDtGJuXz3qchI_kM5NNpp0Smux2U75Hk1yCRtGAQirVJkmlvl83TaCGkY2Sb-Rjr7z2JRfdcA3NK9EyBUNpHyuYXY5CsxpQq4QC7iG2l9SgdwSdFHfGMnCIQ2tcToss8Uywlf0Gcg53Sx5S_fwmeDqyPuDOmVgJw0KJRii-4eRwNcBh3noZhvHWTrDxmKQMujdYFDxXu2KIAF3ZdW7Onmb0Rgow5cwLMeqLOuspkXubWIHMNyTEgQjFr_KX2WTw2hVQcoW4LAXn4PyBI-96M7BasRpmtsu46OdLg-vS88yDrZzcYehLtS-HxB3UtdT4uLlwJ-BO8fwcpYJ2l_rYf1nwmx9X-nD08-vODCd_efNM-TRKbpXipdKzW568ulxDUp97e7LND0DvNJp4x9y-w", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106701961708914527930\">みつわ屋</a>"] },
+            { photoReference: "AWCwydiAMYyvTUC1CPqgBPJY0OH2WvH4LZqEW-7LeSO8kYOnWHWz7fFQb8pYhRpDpetvJUtY73JTuYDdLiIsWlxsZKI1kjfc6wKdBGmIGyymFLudq7ZuBW5C-emK-cdqCb0DAO9tY6OgwaGvI1je18Y-jPc27HXaCMGkdARTgFBKxoqtdwLmjoPU9hIOYvwE1OIjENIuipvACdQt60eC-SGuw8PAEgIb_eqCPZoAvTYMyyHY1SlRG93Jr9EyZXudwW_6Rq_3we2RQ4X0eBfvXwSpxW7NxWdu6hYnAxFiXlxWVeFfSwHei61R7duHQeG0Z46GwFaTTPaSwEsTFLuVkuroF7nqHyYuy8HsyyweIDRLKWsVHEM0nPDhBcHKzpI-YwK2TLdJ1gP_Lscr8mDSYCwVdQc8mZ6ghTWaR-gei_BOxA1EpI5q", width: 2880, height: 1923, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106701961708914527930\">みつわ屋</a>"] }
+        ],
+        summary: "무료 조식과 자전거 대여 서비스를 제공하는 만족도 높은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["무료 조식 제공", "자전거 대여 가능", "깨끗하고 아늑한 분위기"],
+        tips: ["수건 이용 시 추가 요금이 발생할 수 있으니 확인이 필요합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-5-15 Kawarayamachi, Chuo Ward, Osaka, 542-0066 일본" }],
+        location: { landmark: "2-chōme-5-15 Kawarayamachi, Chuo Ward, Osaka, 542-0066 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://mitsuwaya.tesen.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16861992612880964810", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%8A%A4%ED%85%94+%EB%AF%B8%EC%B8%A0%EC%99%80%EC%95%BC+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앤드 호스텔 혼마치 이스트": {
+        photos: [],
+        placeId: "ChIJwzyLpgjnAGARqQPGEwmFm_c",
+        placePhotos: [
+            { photoReference: "AWCwydhoBwWkcOaNVMKTuv2g2vLwvUoqfmAxMNNXjKGaHgxlSZiDOHkNkhzTmtkR2lLe7llwJMUeoJXU8_Pa-T8ADTFHGr097rp2tgDYlDWteS2NVbZIKmOg9hk0z19pNRV4XKpsoPKCnTfCEk1kLo9N8NmyB6BlFtjpvQyphzoXHax-uEQPZxQArPHc1KzdmWE59qYoJVQk9bFAdifWuUkCA0Cxo8wtIDa6Sk8g4AnHhkRV1SCC2tGAh2prDcd2ECoNa4rxsx4fG2OIsk_gwsyMrlbOybKRl3hqolFkCRVc9ePutaQWOo3B5NUOI0ZTaaCAFtAiwwxBwvToYM0vkQQY4_QskKYQQpsyDNnRV-3tJlFdC5xgPQIEzMZgGGrB6kO01yXd-Pwv0GlHcWmFMqD1DTQhimyydoUtdRBjwlizt516rQ", width: 2560, height: 1708, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115037549556580565016\">＆AND HOSTEL HOMMACHI EAST</a>"] },
+            { photoReference: "AWCwydh1nDl7jKAWE_GASmYWNtrf_CGlNEkvrA4eNHK5gj4Vh0ys0t7S-xRFJ2uejjdwhUJjpDwlsc5cdTAe0tP7vvXfdDA6OmxtP_0AgWa226DrZUsyn23bm3kq2jCGdMm5VZGKUDlnem5cWH-YoHpDRcmDaxoy6mA26gHuAh3wYjaWMkKZcEH2FK1oDYngaoW60hT-JJGwEmRfp6ge51IrbIOsv-3aqFK2LnURw30rMDGUuEi4OmiVtbOcKKdf9Y8JeIPzHKdXoSVgMA0ncNgh4gBfzYxSZnff5luL7At8lw4kfpX2tmK_sdnFr_dqkFwIdYTNr3WbCks0UnkFSbrQZ_9od1htCc9ZhyITeoIH9t5Oizl1xWHzmAe1SLbHHe-aQ7RDFUuR3dxPPxaRBrerAilyC8ljK5hYHLRvmUueY725Gg", width: 2560, height: 1708, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115037549556580565016\">＆AND HOSTEL HOMMACHI EAST</a>"] },
+            { photoReference: "AWCwydhTAyRrxRBTDKH1Awz8eZmth7A6AEB6uRa41Y1Dj9va5HpKtHtA_HCmEa5fS2kKzzAwsVNfT7a5DOnutcXzmm3f_zK7al1byuTjL6awhxpEx9rJvOVvSrEvU3_JHD51vK1YNN6mhvzCqtpkv7XFnrNDS-tO513NgIj0JuamzMoFt-6KuZlN0_RkBm_jLwICnTVKQuOHYu7BAxGe_Jqnvt-ikcugwevIDqXmXLdRrFGwmhmNUfaWZ6MMPRAKxCDfaEd_OCYwo3D0WNuVTSEguHfnh06vtOD-Zfk-NxL4d1GXeQTrXw8v0RavU4cYlBFG763vAlTd7OqqgxZKFrpRnK3wEfc5I_0CZy37UiKQYCOmOKYpkqy59IXsq8UVk9nCZPq7_zlYjCaPhyYhpBkDH34yhecURPTvvN1cViRsjelDXZYK", width: 2560, height: 1708, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115037549556580565016\">＆AND HOSTEL HOMMACHI EAST</a>"] },
+            { photoReference: "AWCwydiTIWblL5QkLoHlXf9NyfwXvBdeVhPuBkvSoAduISnmb-YPN0EKLiw7VsH8Yva6A17v7K3CJ5SGd26SjHmEmAKuyD9rDJUDxUvZmUyQwt6_ltHfp75kkPZXRJjjhyXodnBSE_CwH-L2LpRItmBEnCdBsk3ZnFvm9R9uQ3kxhZ5TmyRyJ7hz0LOBcUi4vAKg4D4qF5w4YbYJ-24JwNEupgEnNHtHs2_yo2V8rPob6YrvvcXIYKMgMwNEajuv128nVtZ3oxgZOKW5muYDQGPfNYUU5QAhX7lJUPupXdYK3VmSATCGxhtnYeyBYUzaVvQ3Ec9GJ4TbzqMtZ3BBjNuKPyMFNJbW2B5mBEyPyuOniHrQKFjIJfX0lX6VFKb9UGJtV1piKZqd20z3qw4QieDrxOjPScX89T3NdKSgncWjpzE00A", width: 2560, height: 1708, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115037549556580565016\">＆AND HOSTEL HOMMACHI EAST</a>"] },
+            { photoReference: "AWCwydhW3sIqy2An1UfjjDnaTVl6Vs1M8GWoNpuZlH0lfy1tN2E_AG_HdC8lVm3jrKKUAtxceFP9c1HJvEurJTNDVgSi9A6isYTB40kV3RteyNLbQmsypAOWBHR4hQ649L4ZJA-L57-AHLWM73ZpGOQI33nFf9u_vs5BTODk3kNwLT6sKtqXf0j2tDjmnBeBORJx3GcflejF6IGuhVUMRmGSCEM1tLVJOkX92mQg17Cg3R0OnHmTDultSANLlt0cBtm-zrhKYCrMgTTZhxOuaAdHuwSi8rLuYryg6RleiMlZAhxpEJD5XAAYk1zBf6rtGxzvfueWRK1qfm9j5ChyJJeHJwGhCkKJE7wmy6yuSO8MSmME6w6eQxwk8Bb3OkB2uTaPEpHBQyZCKrIqDc462GPM3JPUxuQy54Y-dZm01wY_a--_mA", width: 2539, height: 1693, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115037549556580565016\">＆AND HOSTEL HOMMACHI EAST</a>"] }
+        ],
+        summary: "높은 가성비와 청결함을 갖춘 조용한 호스텔",
+        updatedAt: "2026-08-16",
+        highlights: ["뛰어난 가성비", "청결한 객실", "조용한 주변 환경"],
+        tips: ["객실이 좁을 수 있으니 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-3-14 Tokiwamachi, Chuo Ward, Osaka, 540-0028 일본" }],
+        location: { landmark: "2-chōme-3-14 Tokiwamachi, Chuo Ward, Osaka, 540-0028 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://andhostel.jp/hommachieast/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17842000622791295913", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%26And+Hostel+Hommachi+East+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오사카 게스트하우스 네스트": {
+        photos: [],
+        placeId: "ChIJbU1O0OLdAGARcpVIGASRRek",
+        placePhotos: [
+            { photoReference: "AWCwydgMvmCI1lUoYHuPKJYqmi1ByvPswJh0Vw7qBrbEEq7_NmKxkBWpBepngb0_VA6HNILsH6NGiCFw4LPjL9tVayqze6VCuVRCT22T375GgtiFJkgq_ECiiuhhMRSomi0SG-DgrZd4S3GNEAkSxxUy4cf7lAYGgeJzAlEids7NAe6qaDXhncktnJchcRR6FTkMf0_N5dhnHBDVCpsk66bD4j7Z7Y8m0Ihhjtr6sGo7xZbG2wY-D9V-DuFQMRbBdoXvdiVL18KFy1pIPvWjaIWdw4JYbluYaRFphHl1nhlqxP2yAJVPmbNDNYFIUEjuJnP30Mbd9Hj9GYa-lfv1GBh9geT8oHrTd5mTSAQ7K_6oNuwRyPFcoUVP0PWJqYjP55h2iFoXdOaNX8A4KLxFArQaNzJJIX8YxVXHOKWLtIxC_-LtM0o", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102430247069787681808\">Osaka Guesthouse Nest</a>"] },
+            { photoReference: "AWCwydi6Pm40PqA7X78P3zJcI6zRcmX5iSwBp6M61bdZfNoYGRJMfVZEoCM3sVM7jg9bZPgPPAVoUZ-kIVQJtkmirGEM0ZkAa-KjMo-M0iSFnR-nIdt212z-Dyqgvf-M1DL6OoxsfzUMYVSxaemggjnjnPCAZ3r_ghrG2IhuuKxRHmXSxT4oxDEsG5aNDuJxAT37RWCwI0iF2-TB7HUXReJYlTmLMq4jCUK8rQDtDmMmok1YeWtltR7iQxZCym1OVAtQXWy9-4wRWXT73QnWSntvG6N0G_9vJwgX9J19jLoebw3akJWLacAe0aUmoJHHxqdtvIiShbn2YQUdglRok-elY9QqykXJN7twrs8EU2GBo1lZjnXcei_-eW3yllJd4ADmsa8G7a7Qe2navAL0019AeuMnCTYY8QOrpP_LBZlxhlM62CrW", width: 3504, height: 2336, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102430247069787681808\">Osaka Guesthouse Nest</a>"] },
+            { photoReference: "AWCwydgfM5xHICqiKgaF7GZYrjTiJsujI2LZjlC_esGMLa2H7rJCeaKGQLtnfVSzskxMZKvkIag07Cs5Y4MEUuIw19UF_t1Sux_mUO3BcaxYVCyf1Q_wWiWFxOIM2WpocpJSnvF4Dm0kPdoAqxDKEqFA2CH6IHFr9ihMB1z9pdnekNm6Sr-it-gyd1PXxCYTl-hOfd36gttButaBPq0HFwSDi5AV0cJ18q4cAtPIleS4asRsqUZq-pOsipZXZS93z_1wYuBzx1lc85Z3eu6NlT5eI5PAefSNJQclWAG-KIqK8wUmHZ15fEWi5R53k2gk7pHG8-lEIzhbzQBLkj5f6Sn071pTLzuaLkcwZULnbX8Qi0gnEz8IpV5RIBfrDXSdvrwypMAvS60PdMHywEnkeMjO3hLKNNMtYOsM_dpLSaNyWjcUQt5-", width: 2400, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102430247069787681808\">Osaka Guesthouse Nest</a>"] },
+            { photoReference: "AWCwydiwkMNf6Hio_KcDRzkpbGl98TijbWsQeav4ilT5dXY7gNtZD9sBUHvyH_XZ02lgsznc0-gBGEvwQRl0BwlxDNVDKDeDr6qleIKK5sJPypnFKuw7gcaYM1CJyfe7qPa36S1AQxTyLzJDOalnYPCD2ZFjBkcfmAIqvI3WlLI9SueLWJHgqDzIBUhgx-IcDfVvgKtE7oreJ5dKiQ9HEDZN-woG7vwvHVgZ6GP1f4ZfCUF0lt9oC3voEl8uYtnGEcgmJ1yhZkq4_vxejUj4jANZSGHQN8Ar2plT50m29xBQaOS2ZSKqGhhQVoTF6ccKukROQvkZQc7RlE9zwOHVjMSJVwvBpIUSOsC4B3wpvYjPvYZrzYY5n42YpTiCm3xQ334dGffjj8GRqKx1WTk6iui6Po0Y24x92jNIFHAkUIskbudKP3c", width: 3464, height: 2309, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102430247069787681808\">Osaka Guesthouse Nest</a>"] },
+            { photoReference: "AWCwydj4xF14N8Hmvp0vcVZnX96T2sEoY9VFYSjNIdtcrk9zDhsHBnQ5z_fxjFTjHc_fNwTs6uIGK00NXuG9Ts7OpCTzr3hBMmV0rbTPxzQ-6oFeAXd_nc3FM2RibUgLlMnLGeuOSM4rT7bU3QcpuWQZ_GAK1oub1VJzOmmgIaf39zbqrePzKsm6AT7PEm63vpc2C5hptDpYVrF4QFQAdC84WKyA6XZY5mCGSlHiDWHcknZTIstJPR6Am5f36A5YaeG8RrEVTutdztY-86StlqKX9tiw82A9uAJwT9lkH9JWYsBVXO8dRY4KHyi5wHzBlLw7tDxleEl_7HFAUcPgtdn860xl48HByUsGnmeKmrtkFoznoFn0E8Uyct3uJSikhzAckEJkg-w8AxEMdoHrwvYmkTgTRkt55DUs0_SyRfvaLwSCqhwR", width: 1478, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102430247069787681808\">Osaka Guesthouse Nest</a>"] }
+        ],
+        summary: "취사가 가능하여 식비를 절약할 수 있으며 청결도가 우수한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["지하철역 인근의 편리한 위치", "취사 가능 시설 보유", "친절한 직원 서비스", "청결한 시설 상태"],
+        tips: ["취사 시설을 활용해 식비를 절약해보세요", "화장실은 다른 층에 위치해 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-4-14 Teradachō, Tennoji Ward, Osaka, 543-0045 일본" }],
+        location: { landmark: "2-chōme-4-14 Teradachō, Tennoji Ward, Osaka, 543-0045 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://osaka-guesthouse-nest.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16809000631003551090", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EC%82%AC%EC%B9%B4+%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%EB%84%A4%EC%8A%A4%ED%8A%B8+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "매드 캣 호스텔 오사카 앤 바": {
+        photos: [],
+        placeId: "ChIJb_yrpAjdAGARinx6u3xrGPs",
+        placePhotos: [
+            { photoReference: "AWCwydiCn23w3btafSjTNOa4AhNj6sjFQnO_wJyN9AmblOjViEjLQKa2nIAK9s_Eove6wET7E9usg2dNkMGYkqHIe83-aLVnvGyz-m5lh_S5k4T5uboDTPnFTZWl6bKevaSCrAcEG1eHN6v52_s21q4VYWKIHlS8evYimVRpo_PGg5zA12ztqrU1iWNhXYxlDH4drUUJSRXLVzJ3SBkPvx_0IdA43FbVszqYKCsl9YrwTsUqIO4X2MQ87tTrpZsWO_Y5xJzMrIQp8qFTwGCNCuWmyCgvafMviwcIhCyuivkyuUBQ4-GlQYNmFYPi6Z83qjqwIGm7nPQs45Niusw6AQ2Z-cS7pM-Y5qmZK-bkKk75JLvTKR6FLk9fTzO-69baAZJby1KaaWUMFnnR899-Wfh-DyNF86hq7yIJSt3TBfezIKnb4MI", width: 2448, height: 1834, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112469266690056847915\">Mad Cat Hostel Osaka &amp; Bar</a>"] },
+            { photoReference: "AWCwydg0_jfg67WdIUhQGQOJCXHocNPzZxwAKPzwoPbijSGagN0b2Mu7elDBVjyrjzubA642a4TqDcjR7xmHkDB7asBU4PmgTEo2F_v1z-BFhVk04rDGbbzgFCTt6u9FD8SQqZiau24gkYI0dDgv1m6jLBcnxf37H8drGit6xjN5VNRD9kSQSnyQpXvol60J0SYBI_gFby3hcPzK-6hunsIV7MumwpWY_g6AlrlFuSA2bHHj0AfOZst8j7NK7zTqedl5ENykOAJGILeZvQkCBRZKRFma6IiJRg3_ct9e1oCeRrvH_SElysXLI1QP_7GwfIyxalNp91aCsX_qmnhPjo5SbMBWpmKAW9ijEjomEVvfV0hDelVhRKPSKvccfk8GkrzRNGJfQyG5K4aU3U7BbCQM-CuzzADWVZCUSbnnf5DPKFg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101998845292818582788\">吉田勇輝</a>"] },
+            { photoReference: "AWCwydjJLmEqJWd6nvb1MllOOVplhtyOkZwR1OnaZh9UE9G6m6p-_V26by-XEot1dx3DSaog-Qp58ojCVUO9s1osoXwnoawkfQc-vWlsAdrTjSuD6mK8ibH_4xiZBIFbOuolhq-XaVYCcNEsT2uFIgvKPhSqzwF81g-fs8hQkxhSETth9yiEQO1O9dY53GndoaopnhMHhD3ziv-uQNbYyAr0tHSkNGi_tIGoG7xQ6CLPgwdwVHdylNgb9rMgRY_KZ6wwPtdPKZVsT2eevd1v-KI-kLOWC_r0fsRzXMrLsWgGuOc8kFmatbSPgqar0Bo7jpWoGx9x6JiUGv866fE8yWhcuItlu2NMhNmq6vDPM0gUJD2YeGsM504YGapMDcYH6QU3ZopHUoclLxkKyzOKlpsjl2OXQ2bc5zTTrOwVERVMEsPINUwk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112469266690056847915\">Mad Cat Hostel Osaka &amp; Bar</a>"] },
+            { photoReference: "AWCwydjSyMuSN6c09nKp0yi7iBHcRQfOw8ebK0NmYEU8akukcYY4ymUJlunztRaECmq3icMFselciC44J05H_Clwihb-IVDUE-UgL77ri-OjlRrQCNnLqAyTKZtCyYf8cr3wvxHe87tBS8p8DWP9UyCCAeQT2g5vGW4rEoPaNAU1xqAykHWGawSEehD4tfFAH_DvKDiMGkxsQubmrow2zO94hM6szTC34is0BHr2UeH3EqHvAqD7hyGDkYOgYR5bYExzWf39kINehbtZZ9SKHABryvOjesvwnxxru2Qr-6YztXdeNpQ_b3xngP-V00LH3iLCJKtUf_4J3dS8JHx3_lGpJyCPYUupKLjjhkHYTvffWsCgfxDhInjlveeJmiv78YbVn9wG3MqU4kVaP3HnE9v_sqm88hR5iAZ80xk3c9zp-6ew7vc", width: 2448, height: 1836, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112469266690056847915\">Mad Cat Hostel Osaka &amp; Bar</a>"] },
+            { photoReference: "AWCwydgqb5yiNzM90fPa5ErihMwj1la1mo7YxjNszw--mdM9hmGEtLqBo7wnnaeT-UtIcG_u86AqWa89JJIFEZ9fkMHbm7KPJ8GyaG7h1ee4sSsknWz9yLJqTPekGh3nEFGw7BYNE_0alPjmOdYaVpMZvM054nOHufO_TFStvxqkimn1zySnJV0QaAkOR2i5Cnq-ZWcRKvz3svZKm8BITpS56-L72kE9CF6Umg_oQ_q1AiQyqam6glSTxWOK5WGHoSGnANwqjfdKthLgRCJ74JEnTlEJb5Yd0Df9ANVsMUvdmBtE5b6tgYMqUt4bPpPNz6wgm86mUYLfXrn3JTiuQFvEa5if5uFJKHX1VfAuQen9esPmk98b6WkethX5kTKsm_G9GZKffXAssVxqRhpujWgUx7OI9-uR6yGTkMxuz778vp_av_JT", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112469266690056847915\">Mad Cat Hostel Osaka &amp; Bar</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 매력적인 호스텔로, 사교적인 분위기와 쾌적한 시설을 갖추고 있습니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["웰컴 드링크를 통한 자연스러운 소통", "소음 걱정 없는 효율적인 층별 구조", "친절하고 세심한 직원 서비스"],
+        tips: ["지하철역에서 거리가 있으니 이동 시간을 고려하세요", "와이파이가 불안정할 수 있으니 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-11-24 Ōjichō, Abeno Ward, Osaka, 545-0023 일본" }],
+        location: { landmark: "1-chōme-11-24 Ōjichō, Abeno Ward, Osaka, 545-0023 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://instagram.com/madcathostelosaka/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18093329686426451082", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Mad+Cat+Hostel+Osaka+%26+Bar+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜드 호스텔 LDK 오사카 신사이바시": {
+        photos: [],
+        placeId: "ChIJ1w6Iff7nAGARekkC6fhcgUA",
+        placePhotos: [
+            { photoReference: "AWCwydjAMv_jCEAOKVc_z4pHkBgDquRI9NmWc3KKCPmk8afRUdhETWNhmLF3_ri89m4CGh9hcZcsZSI6jkqK3a02gVEZEGG4lgk5HbsZDGpfI02v7aWTXhPt8rxETqpPxeYNIFwQQGmca4TCYAUdcxDdsor3R_Dv_yIw-MGWTXSqJvm-VvCf-UTnplFUNTGVSRbEi2uPnqlsX14f4VhEs690Uqa3KUtZKI28BRQZ4wzrwt3fAwsx4RCoJo87GGLc_XJ4BXYdMEUJc7ee_cD9MVatQm_AojfqB1fsjKM751BmKv1swNt-u1WVoPQwnLFLtnxxlrlJXYCIp_gq4uvqMjG6s3RLiSmrD4RVNmPRZVTTCjKhPWGW5WTQQtU-SjVaU_y562Kj9cw6jrRtcG4cS0BM54E9d_Rh7TeDsG0Dk2mKoiFXGN7zOPhzEGhId4dbow", width: 4800, height: 3334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103890024570982731062\">GRAND HOSTEL LDK 大阪心斎橋（旧：THE STAY OSAKA心斎橋）</a>"] },
+            { photoReference: "AWCwydiS-XpoxP5Y7qOO5pgLWMhTW0ud2olSIWX7DUACVSKbSQajRm8EAf53QSLPOwet10EBNrFS-J0_uFryUZiEjLJP5uIrwkAcd2vrhUX1KC_jamNjaMQTvCuK-A_rbeBlujpwEIWjVUvMUEHXmQOEDVvzwbp59XM2_h4mm-JK1Rg_xUBvycgRR07DnzT1Rud2C3h4CPJIlsmonK6mWJH2XG75JlS-zM3Lcn3eJlLfu2WaUQ49t05nGmS7sGN7lp3IRqE2ZOwsHHzTRYTVnlxrBVRyoAT9DQyceWKs6raBxOhMc-iBvHSiMmvOhzSor7rCpnSFwjCjXPAf_j-RjLACch6H3P9vvWcaGndI9JXbOwnMmyWhL6dAwiz5PcfgQZ0VaAryl_OR3czZGj8K4BUXCn6STmjw57mNi1KelqZecR4zJze2", width: 3680, height: 2456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103890024570982731062\">GRAND HOSTEL LDK 大阪心斎橋（旧：THE STAY OSAKA心斎橋）</a>"] },
+            { photoReference: "AWCwydiTW0Bx1mLeclABoAhP-qAZLJTf7TB4C87FxLpgxp75TN2pg3eZWKtK2ekjnXuH-OD2twTL5lkT9xBzOWukzjqx8xd1vRb1K8muPiBd2Ngnurxhp1kKJZ4ijl4nNlWf6ljajmE2D3sAbKaoCZtCIMxRrV3VczaVidvteDvU42jEEZ7gkcdhcpNxx_d40Jud2l78y0lZPCkP4ShioOeV4eAOmpJ4kS9EicEQhdriwjveKKAOf10F2IBIBWWS9j4y64xHErSy6f_87xdFf_EdYne4MZrc5sP9zpZnLWsq0jG9s66vqnsCwZ8uqiz4rkPoRfxbOI7PICgVmKuZmFRWUabcmGRPcLgsHwPpgzcP-TL1oUPq5Tm1BeMkPm10LWV2HyATQaOlKfRS4nfBQ4b84lij65_I7J9CLHiYO5ZkNc7Jvl36", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103890024570982731062\">GRAND HOSTEL LDK 大阪心斎橋（旧：THE STAY OSAKA心斎橋）</a>"] },
+            { photoReference: "AWCwydgVMEPUrc5MQPoHqnDM7TiP4i-GbRRRH9Z20oc4RYRUduYsj7g0BB2soVe34teDSryzjKCAxo932FbYERfmtkT_6TToQrhkFzFPeMcGArEhWIzT6DsBA-yy-8zIZJfDYIEgN5pQYPKdRCxYNh5jrv3OBd-QZ91napcI9JPe_SRsaqLD-6fbbhURUkcjzQsgrJwAz-D_co_6ATL2vaHJmXWDxo_iOVU3A88JmQzh-d7INjNsxZEa66iH_DGVI58jDie_DWyxKkKY4SUKYaMi-15TWfvQMpBDVIqrZY5XP_5EAA9xRcLwUlvSZk68tRJatvicO43MiU5ffdkz0MPYVFqHtrehG8M83TyFYGYeWdXM_vnXYAlGpQ7RVvShcH9tPcPOwjJxHg8aT2qt8yGfSjxkYVQFBl3gvsn3mu1yTYG2XQku", width: 3680, height: 2456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103890024570982731062\">GRAND HOSTEL LDK 大阪心斎橋（旧：THE STAY OSAKA心斎橋）</a>"] },
+            { photoReference: "AWCwydjKP29Vz4_ov91w_id7RkowJXENCu8RK-ANb2yBiVs-k_snteflQP2biIqRVbZsvTn2JGXpNmwjEyj23Z7pedflEfwzany6HVMQtwR_pb97bnX2sm_5C7h8aWgpnjxEwEsz75edZBnRzBtrFZoDxtx8amvq62HLty_JYBcZeuMEfrdgcb-krbYeIvEaNfOYpy6GQWWcFttuDcmeCV4RksNpDsZP7J9r0D0D1jeYqgicMK3gRCpnk9f0TZXCKPH1g5c8771HGYlLR6bj22mHoXAo9oNrMGnA3KUivXrdL2vwouDWFFafAwu8gfdu9k_KS9qT8H-DdLUStxwWnW4hZxWftRBZ7MUWTePhcKJM7n0zoZIQcOD3vbZV5hnQszAtU62b9UMM-GTwWlV56b3e-6sW3EHy3ovXCIXojTlq4rZp1jU6", width: 3680, height: 2451, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103890024570982731062\">GRAND HOSTEL LDK 大阪心斎橋（旧：THE STAY OSAKA心斎橋）</a>"] }
+        ],
+        summary: "합리적인 가격과 편리한 위치를 갖춘 청결한 신축 호스텔입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신축 시설의 깨끗하고 쾌적한 객실", "대형 기차역 인근의 뛰어난 접근성", "주변 맛집 및 편의시설 밀집", "넓은 공용 주방 및 라운지 공간"],
+        tips: ["샤워실이 남녀 공용일 수 있으니 확인이 필요합니다", "수건이나 슬리퍼 등 일부 품목은 유료 렌탈로 운영됩니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒542-0082 Osaka, Chuo Ward, Shimanouchi, 1-chōme−14−２９ GRAND HOSTEL LDK 大阪心斎橋" }],
+        location: { landmark: "일본 〒542-0082 Osaka, Chuo Ward, Shimanouchi, 1-chōme−14−２９ GRAND HOSTEL LDK 大阪心斎橋", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://gh-ldk.jp/osakashinsaibashi/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4648098514553948538", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=GRAND+HOSTEL+LDK+OSAKA+SHINSAIBASHI+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "앤드 호스텔 신사이바시 이스트": {
+        photos: [],
+        placeId: "ChIJTxRd6grnAGAR-DOW2yw68I0",
+        placePhotos: [
+            { photoReference: "AWCwydiVgknmHzEs5Zy7msy0l29uaEV_NpmJN6xHrqkB3kiNZo126sKk9LFbexPkSbY7J3tCDrII7xHET6EMywGovGcPB8m4jsiEAZTWbj7CQCJrBgGHyo-uoHS5SEjUXwEvI6_iTJrv1e8E7cUSePcRHF7FFJkjpZqHL0L9Vf9-T0VPR9UIp6oMOGv41PxuakvqlLJNEpCapGhuCumqRiLq5zMpYNbWgWo2kc1FsWfFy0zJQ8R4P-zXWoTSFoLOvaORhR69hxm1ZnDvprK00yGiRpE8UBNv0oUIRKUCpjdLaitxVgMCj6mBZZDtuNybVlohTh00bQ77wFJVkqfJ3Y5mtnPAf4-Grg_1Jv4Od43x6WTeJnQi4Q8GjJt0g6rsqnHPJvVFOqiIImEbffT0SVmC5bpsyoMUTgj-fGbyHxkCItRnNiI", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116739928721041621093\">&amp;AND HOSTEL SHINSAIBASHI EAST</a>"] },
+            { photoReference: "AWCwydgewWjovlx3F10VT45zEQw0dToSzM_0XtHfEuiHVoYaykpAM5nRq3jguPoMXR1G_6nowGqaTif-UEGMEzSPsBwG0I-Yf-ryYfRBlIkwMHHL1mXVJJslEVZc0OwttP2nBZ0yEu0leUy8pwIUTfRFQvinmH1cDQ_SuEyxJiQ0gLcl1nAZfEfzmFzD7XGzEusc-XKAjoqzCe4KhPMnZzAwZVxTQia5P8uC49BZc_v1h6kxqmt9OOwaJ5WADMVWUG_UAduzhFh2bsUjLgoSWWgqLJ0Oe4J3h4Sv0ATyEPJB_SWfwPTlI5nbukFW-65z4iajgFE37LLC7z5j2wEX-n0mmjoXrNzIyfrHyfToYntmTl_CHbqs91GvTjh0uVqMZF-m0Wq7anbX6BQvma-jcHAkh-VvyXSPPuLTVO53k8UzlWaUPQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111746295533600221482\">鄭俊憲</a>"] },
+            { photoReference: "AWCwydh_zZKTIjT3R08lfu81_w9fBUVIYb-iY9_ThVKH3gN8e3dMAku1XlHEwyq8RaSYeBINyffr7IQk-WsUmnm3jPV6CR1rT41H9-wcDU-85lo1BPSpQdtx4nRR9wipvSnVVDDUKJfZue2WeUoHJkptb6mLSMtxNuI84dGecH-LmScAEklY9eDJrF2ITILkTq-GDZigJL2scoCwUCAEDP2IJc1owLGslHMvYCWFCvik9FpXlWeyQRmuIDvaTHD8oSwb_CBL-UF4ZejLy_hZtA9ouT3ZzZH8QEdAfa79nR4ujlqGZyFN0sZWm0_dXazQzoX2z-ccHhuBqDVzJq5CpV9QSLEl_yqlhWB1XfchS1epyqaLxcrUSoMqQjZ3qS5BnSVh2441a4F8ytsosXmVoM3hS-nNVqT-HYHGvxfGLWgYlpuxg6-L", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116739928721041621093\">&amp;AND HOSTEL SHINSAIBASHI EAST</a>"] },
+            { photoReference: "AWCwydhh3bYQgG9_mJtviKwyOubDK2lOhngnJsRg78du3yIrNlv509k-Nwww1_GLmYfIOfRx8w8vs83AR1AK3RBB0JT9eZ2xEur2lBHp8lQ3bnN4fqRMlKPbkn8CqwiMCtiCvCJuRaB1ePag33CpmAaHr8gz19dJ8mqRTo6OV5pBEm1MBC55DcNMNvGtMiIzJs3lkQRyjyOyWE_SGHQUbK-T5xIQ339R78JvoEzcXgclqlwxsX9ClUfelYaasHb_GxIXo3u8iY8nFiUshAxm5sSGqShMYPyoGJhoMKMkSgRzaXiGqJb-KjRxXDNQkcYl_ebealRa-a6iQpFtI3-AsaZrDg72edp5kgtpMlGsQESytPjCniez__xuz2ydIRI9S7M8fA48--MQI3ADomjtp2-yBZQen4jy2kji8rsaKXmEQ_1TGw", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116739928721041621093\">&amp;AND HOSTEL SHINSAIBASHI EAST</a>"] },
+            { photoReference: "AWCwydjsL4wKP2rVewA7APND6KtyvD3G7RBLWVLd6uxmY_EvaXKZgPXCrseuvalu5SS9IsCzSeFGnCXZ7z-FcbU4rKjvrzzG63IAc9U6wlt9JgA5NKpNoj9PBCIiQ9XhC1p80EgUmZQ_ThGju4W7umfmFh5ANlw0JBNe26c55A_P4p7LnOMOxMWqkfdNPpk18pEiGrdzFzm9e7vcuDJeeJqAd2zymw5OPtsPeVShkxYmHnYL8b1tRYe7Z2BF01WI97TnhcFlrf58EmdHKgONv42MfM-amnX2LoUquuuvyzImkXHbzHKHkOHN54OqmtW0j3lZPf2jNa7YHegVAni5zojXeSxuyFcveu2Zi_0kmkoINxqIWE9nL57cejbo8StwUtTv6SdvSOLOtbv6E2PFs1JzHN7n5NAyx3O8ou-pJtx50YJ0mA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113285136105731846025\">Anna Phoenix</a>"] }
+        ],
+        summary: "합리적인 가격과 친절한 서비스, 뛰어난 위치를 자랑하는 오사카 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신사이바시 및 도톤보리 도보 이동 가능", "청결하고 관리가 잘 된 객실", "친절한 직원 서비스"],
+        tips: ["주변 풍경을 즐기며 산책하기 좋습니다", "밤에는 조용한 환경에서 휴식할 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-chōme-3-6 Uchikyūhōjimachi, Chuo Ward, Osaka, 540-0013 일본" }],
+        location: { landmark: "4-chōme-3-6 Uchikyūhōjimachi, Chuo Ward, Osaka, 540-0013 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://andhostel.jp/shinsaibashieast/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10227738718095422456", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%A4%EB%93%9C+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%8B%A0%EC%82%AC%EC%9D%B4%EB%B0%94%EC%8B%9C+%EC%9D%B4%EC%8A%A4%ED%8A%B8+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

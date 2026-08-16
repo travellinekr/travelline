@@ -481,6 +481,421 @@ const info: Record<string, ShoppingInfo> = {
             { label: "Google Maps", url: "https://maps.google.com/?cid=7087755665176380195", type: "guide", description: "지도에서 위치 보기" }
         ]
     }
+    ,
+    "신세카이 시장": {
+        photos: [],
+        placeId: "ChIJx6sIjmDnAGAR6MZeGdLQCi0",
+        placePhotos: [
+            { photoReference: "AWCwydgtfJrYpEoLY6-D4Rbs2T1f7VmRTGaLIiKYkS5a8_UbtN11FFbsKUeB6y0Cz9oP13wn6XShkjUAnPeBmyNw2wGb_qQhR6hXhruUZRditQmSUT0Z1RymqreWfrzWainbWwbIk9kCRALVBb7bNMqaXYNu86DReMNUreN8PGNyGns35KRhgaGXOSZit2wtLan5aQxyVZ5dqKhf3c421vMsJVSLjM003B0RcCNLIj0pD9e2HeK_8kx-seM_LEntUwR3LCcwzIYFiZyobUATo-vuX2BSZfkNTMZakzo9Np4sIL432HW1VgcM3tAr94v93jS4OdLrCUgdCzIBUZExlU7ATd5-2-Tk5-yUX6Lki7yM3YemRZ-OXC1Z6QlTcfrzGmv9piA17gwk_8ly7gFexk8lmD_nQM3UNd5y0RBUmu9yuaseo0EQ", width: 4800, height: 3614, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101095644616576349135\">Fennie Leong</a>"] },
+            { photoReference: "AWCwydjXGzmDl1KKappHbsbvl-UighdhnlT1DKmauZB-TYHgOGxI5T5s-vCTVDPJ0eYOJjSX8-v5yh9aS7P6YW--tGlfjQF4Y4iXakFzvSt2_bUM44PcKJOkddAsFFXFrk19u4D3hzW7yhUhU3yO_5ous8sm8ITbmOTo908RESzZRRzP6VVIKhgp3bjIFXX4aEkRIiu5qBWSSl8K4se_z53JXafVZD1wN0gCYT_2plTPJD97IJ-0TAWnm9W3VJJmJofmj9HE4ggFEFmt-b4-JXNEw1eLZmhlh5OEeSGITLrZqP0SM34gYh_3bIOrGCfWBMyAnUdlGrSEQVWdLRku8iYc8XVrdAxDfpVsHPkbnet08jLf4YZgxFEgvpytDgtGYuze4YDnDWJ6JeI8JPEjgAb9VTJyv1VsYzmJtEmDsB6WSyea-Q", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107216194717376568469\">Meir Sadras</a>"] },
+            { photoReference: "AWCwydgnE6zXIEdqy2nW_F5lyy8blzfOFHncio_j5DjngrBOArJVugzYSn9AZ9QMCR5_KJUndN8yDUEfEQqEYDNSCb0frMs6fLpM5kDZE1xqBJfTXxJjIcbfoqmlWmlYPIAubjrHxbT6ux88uv0fdQ5Az1211NjhXaTp6jL3sYzrMrGS6z53TM9oDgsLDge9gJ78L33sS-RW9zd9jnNjlYh03RkwgyF9PID16LHPHxCEhIWi42nhYTuN4AO51z1CXF3s4U484SC7AQ8WzDqVii5xvkS9kruI7c3uqKkXr18gn3VOFQZOuV9HSaH0MjBh05dbxxsAqXoGYuMhHdPIR5He8Cguct-AQc2w7sFK4T6Wys3v2-NXTcYBfVMHqJSxRJYAWyIKHWKe7OFw1_MaP4X-KvnD2dLuF_QMkCSLkVglteDNGQ", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107629135706508217703\">sato</a>"] },
+            { photoReference: "AWCwydgGDtJMmLfEpQK83V3FYTmrAXhRwPj9xQmpoaonnwnu56H7Zml95DaLMmXRkdrs-yfHtfXxm43NTFQqLEG4dTNRNA37fZ_h2nBTbKTf63ATHnJpk77QNqcXLk0HOSMChsNH4Q6d2DsiGoF4bT7iNrNvrQlMqOl9KVXyAzsnMvIkF2CxUeYUtsQ_MiQZ4u7xzjmgC31WtBU5ymFQpDQ4fukJHmK0WIS-NvUXcWx93IVg4YlYgC8QNUxYO5t80FCNOejfLWotnG9amL3EP_BCAw3cHG8_9_tDPmfc2-wGQ0DB1VcWcsnOcfoszd2NUtttjOMLjnjSwaj6B96mV815-r_axsGFEMHQDwydHVY-ElnPMyxrSyDIEGs9ek-Hjw-7gR4VVTFiwMNYx1c7PfHn_RTu3cyjC2SN6hvN__nYIZ8ZS-NDxZ3Dz2_Pockfng", width: 3614, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111203230084365417659\">Valentino Drago</a>"] },
+            { photoReference: "AWCwydg8IHE5Us2GhkMuHRy_NbvPia4dMuvTEBSbYr_bMJhmB2GWKsS30NEn0jnawsfQ3J6TndRuYSROZIv7FQ5vfZ2XFeOca_Brqvpnf8HY3oKVBGKlh_93xI8uYeEHUhfyv3yErY-uUJxJNdkwHc1hSwE3F-ROZoypmeLT8OxVxOUGCdMCx26FnGOQ4rLOwyzUnYV7E2tsKPKMc31iT_BGR69rgr7uuRLRVGctUeyRWvkeXSlVuvdhyacpktQ9C4Nx2xIhwsuJR_RTUT3HUjmx5LcXPGTbWemkKZPELwEwjlTnEdAJz9CxGuXeFAjFSw45J8sv0NvUdXLrLXfsbt8-PFSOPVDEO-fdshnY6C-zRm7aOmYBIbO00izaJiXLSVRDtg3IqQqfyS3vBmcA2YFvwLLhdJw2oM3Q_sny79AqFFuQBw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107515925831550241068\">traveller DEEP</a>"] }
+        ],
+        summary: "다양한 상점과 식당이 모여 있는 활기찬 시장입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["관광객과 현지인 모두에게 인기", "다양한 레스토랑과 상점 보유"],
+        tips: ["다양한 식당이 많으니 식사하기 좋습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.shinsekai-ichiba.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3245636082261214952", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%A0%EC%84%B8%EC%B9%B4%EC%9D%B4+%EC%8B%9C%EC%9E%A5+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸랄라 덴마·덴마 M": {
+        photos: [],
+        placeId: "ChIJ5akwcMfmAGARY8QyhVBB8wU",
+        placePhotos: [
+            { photoReference: "AWCwydgiQ-qRK9e-3XFMp39lWqsz6KpKCSmtMVX4JZ-tSU02EnVlbfo9ZgSsL7r8da1TeVLzvvlpSMo3Z60T5GBhKxoIpgqm5SbxkAa2i8xbdbvFOkpWIra_xeKxu2IgeMisWtm5RC7NsxYjTOCXoh4jCwYrlQzE15VQTULpdkZ6EjNnJQWtKQ05eaao-lCkIf4YXKJdMxQ5PkpkBmRFpHNMvcX15Wfp-qTOCxwONFh4a3WjsCb-eL3BK4Oeq2WH0qhn5K36TEClbB-1czbhYLk9s1dMTzxzBxJ0DceDWb5O1zti9qsYqG1cbvObdgogNTdxS_k3psHw0ANJbDPf4KxSAL0iF6h9pWV8wGEuiq5YTei2uCJt5EP2z0LvMEAlXLg7i-ccHz4CYl8GvbEMKL_DssVmdJFRISw_WxIisdIzswMiqnRW", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108771793904511724112\">南岡寛充（みっちゃん3）</a>"] },
+            { photoReference: "AWCwydhA93HNHzt1c9siWky15m2JtF7tO04hpZ-15LkLhNNvuPa_lEDuiqXoRo3aMUxpxz8KHPAbRaLejGLAfTDSw746U8UVEo4de1sm8TELvnBc2NhfAJsCjFqsEh1jClCJ6vc-xhLVx1HT3MswpP43SbfHLpL14Z1m1TN4Vf68XhokDaWRk3g4qxYbf9zazv6kPGid360DZ-3DaH_PYUf9spL1-3aRisdGh6iX44GHGJYQ-iTX_Uc3aZGR6Y30-GOQru1NV33Q8HpkiMMpRacxtjbGTdQqkEYkP3K3vi4iDQzJEzGLgSUFKi9PW-cD3dkDxI6W-6CPRqApE6V3v4wb2TS7CSVTMyPWk1dqP5HKN_8tOMUgu3Cp842S88FuiYM0mR-IzoxcbI7uBkr9wzMZWbFiyIKV3NBE9Kc0umQzfTzee0aVWJmaVZXy_UqcGBe2", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110832945885871844905\">H Hao</a>"] },
+            { photoReference: "AWCwydgK3ozj5bfeso1fX8YbvQcBzl6FLhEZPB868EQnMeIwlGpEEipYQTO5zGpekEtAnsBNVvqymjrA_J7eL1sgGudJ4TIbigHpf7hjyySAXg6TY4brolcfaaDS0zeH-AiHKwUflmSNofjhIILqbZq0ti53nG68otz_2fwypwzMjnMBjuuDxObkQj6FCmzxgTgWABEcUBNUdxC9IN_LBg7QFC_7Rilp4FhjQzu6IyEFSW407yLmeTmQP56wRa-MqaNTwhSSmQzEP4m4KZPwrUV6cLhD99j0kfMBDv1_4zADpk-40wv5s4d5gRdDoH0cFLcQMfFs3SSfbxjtG2LO2JsZVyr76YqBJe7yhXgVN69XKr-nZsCqF4GyElBeAjzmG1V3-neZsupjJEVdeuMDiUYrxSYtARbkZ_nqKgVdmu97Da_DIJ8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105856541327388343043\">うどん</a>"] },
+            { photoReference: "AWCwydinF6AxnpBMzmrYxSaLyb7b3DquM3lRCq0MCxalZ6jw-vPFwlwGJHpQAN1K993NobhWbyMenXNNpYDyl30BX4LiybjgjbhnnnP9cJeuLvUZj6b3-NhBjzkldA4q-fO_8Zl3tpj5DSOkagxO7rV430IEL96zGgWl2Ax139acHzPypI3aGEiTIQIisoHD49YcfNytYvQxhkOFRVfugUUUIs-PsJuDNqggOUx-yDA3QG8LaBcTkVRUq0GD3kWnCjlzZ0zKGlWBpNGOoovthbf6zVn5J3t7d5GkSjVkCpBy9xHEfPa4hM6vf_qOE2atM5nJfi2eKZ9AMSIpZl80TBeCE3WYgAxuQlagB8urFBXiobxMOLHWhXitaaAVQxlN_Pwys2WrE6VyKApuoMu5GqFoBv7bO7AVcmjVtETNCNPB-XbQ0w", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105026020016069991292\">AL HUDA</a>"] },
+            { photoReference: "AWCwydioMtHg1gtaoYZKcOgvIK-BofBAtLemBJWtkdl_UO--bGxrH47gyXY_fmZOcDUYF8Coap_zt-M15vcOftZ2f4bEErj9STU3JzXLA73MKkj6Wo875S2a5rEIC0m2DuLE1UGVtXPO9t00eLB2q5fDXdLsqM-V4NPHynwXdog7g808cBV0LhCXtxGJONk6mR_hZbAZPHI5fQqP-bb9ghiHPYx_aqM_8gm07ERptoYr6sT_lYzDw3YouP040lrRQz9WP-cgBs9t99FWW5mqxLoeQdvXxjs78w0et3zxlL_xqjlqRMXGdgR73kXVDftMRSlBGJ8d0edd04EU_AEnhJ2yhm99QIeAfzdAQh3uZuUYPdeSTRKmbhDWonkeIsHZHjxDM_zO3trnqnTK23rJ463hsUZjKyZckkPi4QWzDHM8Y0QNt1Dm", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114397614035104373490\">days sunny</a>"] }
+        ],
+        summary: "쇼핑과 식사를 동시에 즐길 수 있는 활기찬 시장입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 과일과 채소", "저렴한 고품질 와규 소고기", "쇼핑과 식사를 동시에 즐길 수 있는 환경"],
+        tips: ["와규 소고기를 저렴하게 구입해보세요", "쇼핑 후 시장 내에서 식사도 즐겨보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 7:30; 화요일: 오전 8:00 ~ 오후 7:30",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://pulalatenma.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=428758203618215011", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Pulala+Tenma+%2F+Tenma+M+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "덴마 시장 상업협동조합": {
+        photos: [],
+        placeId: "ChIJc-YOj83nAGARGCciQwYYPZk",
+        placePhotos: [
+            { photoReference: "AWCwydiH6b9Q7sCk7S03mwZi_5A8FHE8PS-5YEB6WxAts0sObVX5iUdUKFqFXMt4XERrjKFfXMi2CYH1CuJ8xCm2vrZ3--U9OvXEvRQvmmchu5b3h6-Ts8zqt7ChSURI7Py0q2oeKGdWO9je1V6D8JXclDd0v7d5NDj4gYQAptm7rfZOteSwF3JspHJgV0aX_drf4nD0d1LkDWLFI6ADguuiS7X9DMVnKxdllDu2F-0ckenKiuVRl_QCPNX7cNnmELoC6qEhd-wLWrvCxYy58M2E0oHoCOB9-hhj6ZNMceTkyjioObjqio1giSv1gYig3TPryq_fnnajmiLu2anMGXsn7vZyUihevQZBK4zNj-0T7f1ZTrndALo6xcv4FTcGd7mWF52HsE9BH4Tzr5f5ouKwuDxBbYTEcF2NzgnjOpeHBa72kg", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115983758253416652147\">Xin</a>"] },
+            { photoReference: "AWCwydgrpxs4g2mnCGTNEAPVxtcR97E4LA8LRwkrF8KyTzTsGPPruWlCPBeJWdlLXfZy8v2Vwq818GRMOgQE5dhnRTxRXl9_e_D8UZGixLz46ovSiTchgN64KmpH6XE-EEtTtoiQc4xH3ccFOpOlbcN66dtz3UtGoh_2YqQ-gx6kv7Uzo5yqGeG41cTe240p6Oz_JDc4IvcooeKHVRCV-mrkDAXRs26uZOQ-hTmJqNFuHFqN0z24x2dp7dl2av0bFDsLeZSF84iOH-CTb4vjWtStmawnA4qGQqG57gXtasiiqaiivJLJ-lQGpFgheNhSbrQQs5_wpQ4jQ-tx-gpshIsVe1kWA1_S5BH6Qyu-zRyBsQ0zkk2IOrpuo8cAT1ehuTRozXY4JVJrG2wzsAb50-ZUO9mhOJbdX-Vf5_mEbRgjTM9afOB3", width: 4624, height: 3472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105709009377769047019\">miya215 chihiro</a>"] },
+            { photoReference: "AWCwydh5jzXABOqGQpARE2DAN1sEdocRg3N5Rahgg7sq36wqFG2GL4vNiBh7dszvQCJPS_MpuoybDhIN75AUaJVccr93qsuy1-c8wa_67BIDM6EP0FacJFfAR3oS4dLRnamJKg3jTZ74czEiRNTONS3a-T0PDZX1qyqXoAZqutLrZ6lNozjCwVrItFx0rF5O7R_WR8A2ZkGc9AQ2-X_4KbtKsmi9FkFFrmxb9oKs0dqbGuBUdth01tg3QaqpBoTxx5dlDwvl3v7k6USCfUrELuxpUp1g6QryWg4MhkNOq1r4mkGmzogE-yyb2wAoOXwRn8wQkktKWrnAC3r_DpT9ekWCvgAa6H6lywQZOV9GfG0_3WMagwnBAousIeFtkVDlLxyIzt3hH-vhnlwgrBFM8INTKOgEtoQsGmiuGQ5qrfUL-J4w9zPznijxPG8d7PkRd24q", width: 3586, height: 2017, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111906427571581210503\">森本嘉樹</a>"] },
+            { photoReference: "AWCwydgSpKni9sAfXhKeBQlLC_gvwcM1unX9TYU6e81hZYyN936GQnGKKTOOmxtytM-0eeuoweNihVePD1KTyxIiti-rPh5qdqxn8oO6mucepREB3MsdJT2XjcRbyLUQ-YIIChpWZH30-bIQ3KEz9fbjYOCtqXnCBxRK7gqgs-2ZvqqScdxiMe1h6zW2B6F7U2jILwcuwiK7Z3gB5Q916HhRwGjBjZj7GPruw4K0U0m_PVHEZDAtdosgu8K3I2_S_28cmNPyfX3cTY3OQYJdoEczeFHKN6sNLmePuCz60YRorYXKZPOxDgDi4ayrYjT4Xc0AEq6ATI34aKz2IzSjZ0NJohAmHnysQoqLWtSvgyCphGfeEF8c7w0UAINiEfvFxWDMXZtH1d4nrEcbQ-cCFkb7t3RLdL90xohOBzMa4y-cAWJNKW-RIUm5W4PzP568u9r_", width: 2048, height: 924, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106092825534660249743\">Rainbow Leung</a>"] },
+            { photoReference: "AWCwydiOmxw5_e9NDRF3DuI8gi76UC_hKX1CZRzUxMSokM0tTZfrmbSymQgzIUgD21PGmBfvaBD2C7fDq1dYYoXRlZA_f7ZdFwnrSGBNdhKHPlXP9snH8I2B86U46qtEwAg4nzfn9uRVWnTFXuoTMydibLHQopG95soniI3EpXcAlZj32NX7rlw99bv8G-KRViTQo0UluwBzaeMlPGAJzcqEwBdK0TOiqykbcoxKUoum3NGbB88qbRvKx5Mhq9dR8BSW_ITHMgWPtykk3hOZ9fJjs_nYl8KzVbAImQSm2NTm5Ayo29s_Dlj99kmnCuUh1j70IwVSnhz60m7Leg3SLNcWy5wVogyHr9_9QC_P9ZtSE4wmAls8sg8xpZLOR0016IBNoclfRP-Xg9WpyUQcf69p6sGFZ6xEhx4ilOFchE1SwLsHjw", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108978657719749208820\">ジジイ</a>"] }
+        ],
+        summary: "오랜 시간 변화를 지켜봐 온 지역 사회의 역사적인 장소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["지역 사회의 역사 체감", "변화하는 지역 모습 관찰"],
+        tips: ["지역의 역사적 흐름을 느껴보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "방문 전 확인 권장",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.tenmaichiba.com/index.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11042008276557506328", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tenma+Ichiba+%28+Tenma+Market+commercial+cooperative+%29+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "쓰루하시 수산시장": {
+        photos: [],
+        placeId: "ChIJQ7K8Y6jgAGARINvjq-TC-c0",
+        placePhotos: [
+            { photoReference: "AWCwydgahFhh6pKyTB7xMPe89mAq7gWDSJ6QT-QfDM53YUSCWfAcUOvY-ZW8QG8SUSBeqH5sB9otRL2lbrAv1ZCtW6QmL_wjRyg6GXRCZzFOFUF4fv-TDgFfb_YOR49IvfGZt4WRcSuByTCsUmRDqEvMuBDN2irxtW1mf9IjIfum9cV8SQaYnNrKZ0dLvrEp9CpH58UghShopoP9RUiT7QCWtWj44TE1uu77OMKQ4jVlXbrsK2kfBs_sDmcbL5XIghGGCYd2XJbiTZz6GDKo3ifMju9ljSSBiE4l8QxGtQUmnd5KxuNExe1bz2uR6vOZfnRXfHKfpAqSF2CmsxRvVlsAmJrVHRQPpOqIDTDVzkEPXgFAC0wql4a9U9Pfu5yKE_TsEoNYuTlZMqyWPzIVqFy2EdxTeBcJqgvrgc8g6QFArO96hqo9eYZSvt0RZhU0nvkv", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103252966489816805057\">鶴橋鮮魚市場</a>"] },
+            { photoReference: "AWCwydiHgvoJIlybzzZWXYjdu2VQ9dq9viFEsiWWH99Qk-utD2Y06NyCPdn06hnFY6R2xDFdspUFd7qZFj1iPR6atr3tinqz2WlwkxO9tWx26gnYWTbXsCoOtyjCg9edNh1Z_BSozec1ykDxiCns4mDHbZQQ1hCQAfSgtQkDXFfhgH79fwpcozHQItZ5wC57z-PtPNGFdTi1q2JPsWNTdb1qheoWfSEik-0ZShfMGZr1AQPcXLVkaAG7V1xH_BOml7KeVx9z0YFcHD3ClloFwMxZ4kkuHvmjro0oymhdbt8nJbXVZLIXjozGtXkLJ9TxJ2dJQ8DtdXTVwFquRX46OXobbaK0IQjuoaa0vJUmw--eyQ0EGCSyagi82_xaIINb_5JZ7PQpgPGk4NoC2Jy5ClzbKCnkz4bczQ7-mdmIxjOHHQcj4w", width: 2976, height: 3968, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113546806354655678990\">野村聡</a>"] },
+            { photoReference: "AWCwydibkKAyJz4yWDR6lyunJQRtOEkzgF-mGNNsdooFiGxsUUQX4c7tC6UQ3xWaAKrVgfY2n_kDIIKiBY7YBg5RDyQSkk0EqSJcupwdN0rwQujrMalYaubcC0Zy0sgaaGaG9iAEUg3giIj848XxBln-8xPGX3MDOcGTsaA_jd4ZDfMMqe6QF8Vu4smfip4I5L0JWmnT6dBNXefgQYnpyfHMdRZsmSNbqw3K-ZBd_QrX2lzZexVsejg7DrhINq-nJe2yrP4w_QwKrQTUgSdy3I-2q_ysJp8uegHY31hgdbmHs4XGQxfNixXbg1USqwaMx7fx7IexzKHDcErdCldNIkpHmO3OgQ-3bmKlsRmdE5Jk4-7iTscNpF_H4y0iWlcKh-mK84G_gpAw4eLvF3dW5aH0D_7ajTPiAx0m3IO4QbnaUtQjOZl5nP7fj0lKWlq9GA", width: 1061, height: 352, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103252966489816805057\">鶴橋鮮魚市場</a>"] },
+            { photoReference: "AWCwydhyMgoVbENbTEuFih2QvnqX788mUSbJEB0nbx--qyowN7NTl53gVNpUv5VN2sjdTskgLaf9ISnxfe3gPbEDt3EDvszaFgzXDqlOoC5JuSTxESAY2xAAq09mJVJ9NqxzeMcLXyWmIXMijEQ2yk1MUVTz0umjhYcjKUt74f-ZRqvljmv8xG6hW_HhgekZCLsLeiMYrX1rLSazrjS2elZD10NuhFRLT6WggEnl_09xKCaa4aH_NVMKykPZ_FmYr9hpDaDMix5iMaJ0_2ezbb50kqXmyvcFGgwC0ffIqM1fcckTv48UaG3A98ifN3hO-TzFbEFN2nazA1yTq3n5GMs-Twf3QJwRPyJ5ElNypa5dXQMAdBzxmqFliovBYtYWpnAt0DGBB40GDw9tvhR4Y2McYjHHWZ2SzAyfGtCn_6kHnheG25kpvsNuUCz86-zDlg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103252966489816805057\">鶴橋鮮魚市場</a>"] },
+            { photoReference: "AWCwydjlY97SOc8AfbobyvW4nje1UtZYkdgVRCbNjwFlmmZUqvCfEbNw-qSE9XCh97WPiZVX9GK_kj9NQDS_zDWQEVjOBr6aMaAO_NwUSzHfnLCGP3-tbc2oxcyZQi_164wQDGeqyb8xImlQ5X9yvODDRmQba9mgnu3_9o1Km9HOBK4seYONtf5nO26nNss59W35UesFo6-Yp4cDlFSzlTUiQENQuazOllmsi9wAnDDriPOammMVVu1NasSHSJh2crMzlEG_ce0pzsfWUHTmZblrKGCN4yIOQBW5Xi-K9FTs7_uYlOSAvMS47eVjyyLZxj9j2_5pCkJx5AjP9jq0uZ_u3NTLUemSRsl6t9sTDZBgtmuevTdlOew-sVRu5z9d6ETcfzilsV1_v5_4cP6gBegeC5PDoN244oy62EELcCCqERKyjpN-", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103042115207990787177\">เชฟบุ๊ค บุญสมิทธิ์</a>"] }
+        ],
+        summary: "다양한 식재료를 판매하며 신선도가 뛰어난 시장입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 참치와 생선", "장어 및 야채 판매"],
+        tips: ["오전 영업만 하므로 방문 시 주의가 필요합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 5:00~11:00; 화요일: 오전 5:00~11:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://shikatokinoko.co.jp/memorial/advertising/13436/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14842108334368348960", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tsuruhashi+Fish+Market+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라이프 센트럴 스퀘어 난바점": {
+        photos: [],
+        placeId: "ChIJfXPqjw3nAGARhca3Vf52P8s",
+        placePhotos: [
+            { photoReference: "AWCwydiSRhrkZYsH-0CtoSACv8i7Hr_-kaLRH7DyaYE3YxFOVGHWKrRI6SVQoVKxFYUYcfuDEOqLnzWoJLqa4TWh8efbo9y7hIq3p87numlJ8UXXoU6XDjcM1PgJWWs9k3aX95BsHpuZkTiBuw9pnPnWHPtiKEzGWF0ewF94J2SOnt5qQNex5QIXsFCuL-zD-2AjxtEtJjbNFJuHsC1Ft-mzzgZvFQwPPZcjskVGH68nb1iBGgOlWCZqkgGBSDWiYkBNvBp4P08IZIHQQc4o0ch1T8MuWhjTwU6-b4vpY1gEnrICrghwdWUFUwIZssAzXmLXqgVKiUv7JKHWvaR04NsKlfvUvNOtV_ZCcEv9lFu7G5TQSonUxiBEyTLJ1Z2vV4Yk4VFEWo-n1NXE3Nt0jFD-VbAgx942r7nFP3YXvIJJV7ofIZM", width: 4030, height: 2687, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112228717848982338439\">t s</a>"] },
+            { photoReference: "AWCwydi4NW2gGc26IUByTzUZlHp1VIpLzl89HozaKAEzUIXMWI4duLkXSxKwloQQQWCMaQW52T0eL8JdvsOfFzV0zTHb0qa_eoBQSeMVn11x0c-DB2MSipnNNUKTvs3v2g_lMSUJlVVHQoL2ryyUDrl1jVKPXR3vIl_c9IhJxBet44FcqcgPaV00gcnuRoBt5Xn2SxOklIluc9s4TCGI7QFCXiwCn7Lz-r6Qr3Q2ahpF6XKDavmJIrR6NQxMSUOnJd3RcJqJmOL4239zdf4fCqHix4ufQGfLMr8Qg8OcNCJBFnR-rr92jAUDHW3ns1k9YJtBv74tNRsD-ouBQthtjIhQKb0lkV9BIdWUqX3LIPFCYd_Cn2hukXhieerKZiikkV2bhHUamIc_TRnPxDUUaWwUz00wrUIoIjH7wWx6kgBPhfN8fQ_c", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109918762269162887282\">woong jeon</a>"] },
+            { photoReference: "AWCwydgSgKsf1V9T-IVeonoI79luKBCryWTgsWNO5KHNcO688YIzogP6jqvAqNpobUnHMTd901wGCq4H9XQEqNNx79Bn5jQ4kedMCcEXMlajZ-Os5LxHon5Lp5y6iQNdRx6Xtk2y2EzcY7vcLDOnqVnMh9MqIILORHxx3qVfvlE1xlpN0NApinfQGfHVbCk5AG2b1rtq0eY-lTxdtarg8iCZcktZCjBtUHjbEw6lz8wmiNieCGM2rZsO9TeZRWM8CrCK-Y3QHFTu8oAxNp92FZZJRoOejRJa-Bx-tEEpO0mm4W3NfCFgV-JDdXZX2BD8Jgvl7ciciQCMVMPFW5U1ZCmoIorUKPaKDmFsXrZcvekAexkCZf4_QFQpa1M02Z-IzTWMvXFVNA8bXR0pNQK5nnWlJqRxhJL-nS3F1TG5IbriYiLFtA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106926633961151496563\">萬金千金</a>"] },
+            { photoReference: "AWCwydixy-YTlRAWRfl5v1wiD__N3bBAV0y7CPRiI3rb-VQ_bnE2iJNCr2l3hu-PA1U7tN58HMTQCL4YmtYrdMmVRqX3daq-vchwUYFJHRuYwKjSq_4j4D820ati2V7ViFdVyEkGFpEvXax223D5peRlMAY7MrlVg_VjlS81fxzz8Z_BkV3Fq-sJqkhX3jTmjlmdUKxpud_s8tcLqLAmR_QMqnlGV6Eau7F4aDzwBVdKH3NTd2CDyZp2HpO-dxrKN3xqQ-Y33UPTgFy5HfAHCoaP9zN4lHjkZppvyqb5GUYIFH_0GY2P1qSBWqOMMcfacL6xVKrTVwOxkSvfqm0C3KTsGgH9pWFdy-iHlM_mHZQs_COLITsEnn7tvoATrWqOXo6cOfqUeR005M6zeypOQ8NikpDUtu_Z8sqF7OlDi-DlrrIU4g", width: 3872, height: 2576, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101900328988692368672\">Piotr M.</a>"] },
+            { photoReference: "AWCwydi8qemoI-xEEyR8VMrnp-gB-UpaUrarexlXKqWG8YRkJoQ_TmGF3k9TUukGsFdabkU-y7C1fIyn_S1X6bkli0EeKUbZL8sHR80xBpad1TWKuc9mzxsSD2UEVO14J2VIBbKNDw2d8bD2vOROp8QjUpWTvcka4F7SsvoqkbdT2w0ZdvhP-LzXspVmgsZZLtJasdh03QdZIeQzINGvkuMqETehR7huR2RuLvhnQWc5x4zwOokhDttBG4MKUBGenY_8NWlK1UXJVZLMvWrvtQ79vCqu3hN2t2OS2mQqGjpjsZVFroG5Za2V_vEEs10Xj_59ZWfatWUIzPO214jzDO0Twpy2bMfBeDfLqDoC1N48tDdJKUa7F3XAuilrk1xqGfRiCI7TCMbt385d1gfGaCPjvaVt2lkKoKYBo4Wa3DCH7bP8-w", width: 3581, height: 2686, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106217676530332144177\">hiroshi itaya</a>"] }
+        ],
+        summary: "난바 지역에서 이용 가능한 대형 식료품점 프랜차이즈입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["일본 최고의 식료품점 프랜차이즈", "다양한 상품 구비"],
+        tips: ["면세 혜택 적용 가능 여부를 확인하세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오전 12:00; 화요일: 오전 9:00 ~ 오전 12:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://store.lifecorp.jp/detail/west219/?utm_source=google&utm_medium=gbp&utm_campaign=map", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14645555347964020357", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9D%B4%ED%94%84+%EC%84%BC%ED%8A%B8%EB%9F%B4+%EC%8A%A4%ED%80%98%EC%96%B4+%EB%82%9C%EB%B0%94%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이카리 슈퍼": {
+        photos: [],
+        placeId: "ChIJPSttl43mAGARt1buWry1y9E",
+        placePhotos: [
+            { photoReference: "AWCwydjUXD29b7-jZShcLLW8i6AZFdO3bBVf8xPaqccwsgg-llo1hVC5qaP9kVEZ3AxQGAA5s-YK-Q0hnG1ZoZB5KZU1XF_34mpPIQyWKhZ71MMlTvm_9lIm5BsuPfiOuHRyxIaR229WZvzzSOtNWIaCsumsywH6G5NZlTaBg7TnwkzGwu4ySH55EYLUEQHfbsPUYnT08QZE9YAv6CfUE0AKaDE7rVUcePv4HjVVnTru9xB37QVqwEZ6z6wc91T1iOWJxDN5vqW1gTej1JrZy6X4xczrcVNq8av6XOJHrOyHyePVwythylO7u3YT9bhyhRWuNtj8EXKNW3I3zrBJ5TurR4tLDiKOhfhCzW8L9MLZEfJMefqbDFmurmk5n5Z9W2nFJ6qc3D7KyAugqv72NojQjyfqURPvmZE5Ax6GH079-W1tqrzO", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110287694403061300637\">Geta Chada</a>"] },
+            { photoReference: "AWCwydhRS0jOFK9aW-2NvU059TcvbAxEgfj8znS6dPBsjaVkeacYjHauJhm0Teva5oAYiPkb_otup_ZXTIduGH4qaxUaRzMa2H76H7D06lWzzyc2aKdBJBXtunpE9bhVeMPAJjIDWJw4cDJB77DHr6iS9b7Fy3GQ4iJPUJGOfXYpX5A97H5SL7QojYot7s-qh1OhzC1L-KQuUDt1mbwJNpIr8ZkgyBSlJE1lDR5FI4iIb4AvNlTvoAOnmZlaBaqgYaUNUvx-xgICIWGT5wbSFzqBIzLkAl19fvPp7AjVmmMZG2VK0sbs_pdSGnbciBAbUg1TV5ZEFOOipWhuPfQeqE7nMzd_fG0DOLcQfgU4BkGrGj_OqBKvkqUpMuaGaiS2dwuTsjGL15yuhtqgA6pznGxl01Hp9rnt_Sz2kqLp0xABCfTA4g", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117323333459697605332\">DS Han</a>"] },
+            { photoReference: "AWCwydi_8L_9h5Ey3pZXRPKZEIn3ylc-BGWMLUMUc-RGLMUTuSNfYDx8aNAMPnFUz2499CqfAGuRYEbZI0qqeWJnM4P5Tpwln-axtkkFvd4rV5K9GN-IcA0vMp3lYtgIVEu3spXWJsXzca7qlyTLvCa7Lhj4VqvrhIz-ahgF5zD4ZiOymh8RCfGPTFEXinSudkpbWrpQUS0iKJrWSRGgKYYqEBYgM51heecJbD25y8_-bzgGfVc4y7cpRADEppbOxGFbg0AI9iPWQ4-8XE9069fR3mZs7lCMGE_Ne6DuAm2Zf4HM0TwJynaDnniMtJyEFTFkUJA0svS1TKTXwh0xewMVDdfD7efonSrGkjIIeC5h3gFCk9TZ_8qYq0a3e_J0zqDupwBtV6Z4DpLzC6Bo6yWQlrdF4yArhNwrx-8fQHEaAOM", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114765326816667984172\">私の足跡</a>"] },
+            { photoReference: "AWCwydjpYUvhURM3hgR9cTJruNA7fAhOIBh7izcsEZ4XVAFykI_hcgVFeMo1GDUI0RfWY-d8ThApS062q_6W7sJj2bMMqTlJrdqSIuA5OSjNpSaahNh3m9_tbgQBuK090v-Lm2ApkCP27WGLSNwomHiB1IwzIdKH7ZqowofXJmm-OzL3vj3TCnN77HLuhQ-24RQG6TgEfIPRva2-BBHRDauz6q3qS3M9NBXYgx0ri39_sQ-DmiPsA-urmCybaLRwgOYJy3tJufHv1YtNdPezPpO8UXr9JhKBogK4op3r8o-08ghhVhzPlPitljMBvbpJuVJu5jJBlz0HasL3iWpXlIgkJ20aZO6I21ClaNnAMGbkrPsNpGVIghDnJMs0wmPB794imyFb_9vxIdwiDGNNmKBd45FUjZMwXXg2DIwmnlB62IupUJCd_eb5FAN7MD_mcoKc", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101395813188199744850\">おけいはん</a>"] },
+            { photoReference: "AWCwydgftjjE0YRsDVqGWuq1sLl0oU6H3_3ZkUt4kRM1V4hkQcJHSJCDZ_jdPM6mE8mzEXvHqbiaoVZN4q4spO1wBI3t5VGpbxxaT5T23s5KZl6QooeUsqcP5_KrDX5n1B8iyBom6hUBQdjeVr1syiEtR1sPNGg5qHivZAL_Jl5qqEDoGa0bWIur8bXB1k4ht_Q2J7wxhcm_5uthPfl8rkrl6sHcECPYXktBG3rYe6NOizvvQycHvyixwpajsoCH5RdAIWBa4R1GPqrp9_J-rQPWSvYCH4R-TISMljjQROSO9WLTbvczxbaflAh3621FCtF_mftsvK4S00fPv6MqDAyQjO0qjQMLg9Q6Iw_CMXJ3j3DO0NbmF9_E-Rfjhf3JSKFCYbOHouoBh0hjS_NsLa0XpeaNL6LR5WArN6Vb-gG00QuvnrY", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115006887905628035002\">空とこの道出逢う場所へ</a>"] }
+        ],
+        summary: "우메다 지역에서 이용하기 편리한 주요 슈퍼마켓입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["우메다 지역 주요 슈퍼마켓", "매일 오전 7:30부터 오후 10:30까지 운영"],
+        tips: ["오전 7:30부터 오후 10:30까지 운영 시간을 확인하세요."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 7:30 ~ 오후 10:30; 화요일: 오전 7:30 ~ 오후 10:30",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://www.ikarisuper.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15117376394783250103", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%B9%B4%EB%A6%AC+%EC%8A%88%ED%8D%BC+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "로피아 오사카베이타워점": {
+        photos: [],
+        placeId: "ChIJd6zh8fDnAGARcLSPtZL_rOY",
+        placePhotos: [
+            { photoReference: "AWCwydhW2bxl3L0sggvR_emdLf3MY_i8GyceNf8VyhbNnkAMpuMz9b_hBZF9bmUuXUF7mWcmcVCO0WBdudfZGS-gV5Nx-vFLoN5iD-2biMuIkS32DodDti6QpfW0sqZkU6PkiwN_mONJNt5-w5n_SSzgMAx2f9ZovMD23o1zF_zwKejyDPFNK0dm709gM3vQXs2lCTbhMzxlUR1FOoB3aViZLHldS0mW_lDAA-WLp7a3mnGgGFGyOQekoxeOjShR6eVarPvWcv-_u-xsgczzlzfMok7hKC2iFtcX0_AHBaRXlRTfhSPzc8dR63p9sxxCZRQC0qCGoVRYIOjoFXINlgXiy9JhhRAF40JItIdPjvQ_VDAgTkcYt9IfjKa_sdO6zEEDPFFOhgIATKfVVaju-u2gq7qfn6jyp1jj6ag0KfOdap66Zw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103125462168316429196\">a a</a>"] },
+            { photoReference: "AWCwydgg1ggMLixCeTCkTGhM8cEn0wOMNzjwRpLIUTC1tjkcEqBw9db07nApUqf3ag312nCiqwFSkYhCYH7VnAPlZwi_U1IwPvsYpn0gzO7Gl8RJmEc2Hbih7kh4pWb5jGOVag7EDbb-OJvzU-CVJsQumOTCh8_XmGUY_mDB8JI-uOTGL7gBTfDTRZdB5E8cO3HSqnEs3D6PVSoZPyeYL27xUHc8LFtH1d90CjDAwnn7JVK-GxHWuTfmgO_m6AMRVDIePoOqZ-Gr5V65Pt0Vz_5fdnAxEMfAV9wFgeAT-DTn5F93IIKXkQZDyoPcp3cSfF1uNkgqb0gMAykCfZbN-tp9ToNtO-DL7UVKbqpYFQ7UfD94lOEsNXyWmj7eCbSZNl0bFsFAEcnjalbUqETFbNzQ0siqETyHZJMPpjhe2sURIrpXJUYq", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103669917595575547689\">ban ben</a>"] },
+            { photoReference: "AWCwydiVuRCqtKTY_WC1bdhx-1jhqhBrEaF3j7ZR0pQmQLxKY3o_wTNaENC9MFkQOhFIBOzjUo50h6OXY3BuOAwgZ9tZGEkODWN3PduqClQ7fffujjB7JvTpXjQE7Oug2UFR-M68aUCOTagXze9cxOXkD9uPUCeVIJvilJWzyfCSycVHa-phpSNbbjxbno-P0Vg5CKjqJKiTefWcnXxgEfxrIqm2kD42o2SYpe66XdcOYhT0ueEL_NXCJ7m0hpU-GBw2iD4a4d7_ZEDoBjiNB5Qi2fK2rS9aj39DgIJ1hiencm-SDJVUBoShDROsmoZCsaBQ8TCDIstWiLR-QcAc25rKMlpEMihTUTDx6O1TNZ09--EXUaCAL8nb3jM1QUA9h01k9SoU1HzGYt-BU4ELu_F06Meu3r_DSGXwrm2Miw9xNpu-QDY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104830618853863883280\">M OK</a>"] },
+            { photoReference: "AWCwydgHQNuyoo73UGPUvxE0e6fjN2S17ZHK0tf9a4qAs06tBmaotHoaUjkgZJp0Er5Hci6BvtfrPP-xnW0v6tG7pg2HD43EwiuWNZvaUvsSxCLmxhnq4Qm6b7A_B8GDfztganwk6bP8N5GLAowH-7gaG-ZkYhtXCCXAQLZo_Pl3w46pVg3MjgYUwwc4tXAWGhw-5TDvJkaeqe1UPvMeJy2IQlRfeTNNMX2wSmpyaD5TtxnbB0eZ9unP1D4Yyx6k9nYFqkAnuZuZ8kHOFCvu57pzpSEGtRgrnjqS1mjqJosivXsYyA2inonNffcEsMC2JQtlaFo2W_edLlYspwVTPy2u0py5MVUVuWXSzzudx12zZUTai52MdsXCQ-313n3OhS3_mjDYl4ilMGaQGMDPej84jgmaMmyjqyhf5N2f12c7KZigbw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103125462168316429196\">a a</a>"] },
+            { photoReference: "AWCwydjkX2ywS8k9rti9UCEYa2lxcMzx5mO3rb2ugrzHYJ1RxP7OUKM5-ynJZ1UcIuQyE4szyrtkb-Q-yOeaZKnf2IrjTRlUjR2PX-yLW3E6Gml6_9txqOlYzaVeM2HqGdpeBlTA3MM53otRO579tZ_bimrSJSmXIw25wTV8vEjBrQlnNB-neHlvycUhJN45rQtnsz2zpbeG2_AdnItovPV-IQ7Ih-DYG8g2ujzf10gfw4HZuuIHSR14YBdcK45k08W4tC5iaeGy34y5F1_z_3rfa2Db2ASUamG83YcO7zfCp6Uh-a3KY-Z4QSaAOza_lGBMhYGPWToXcmT2sCuZr_TEV-e-S0l8LaTQ4tf_BlU0SqWTNAAgEnhenj8rh916cmdTlJ0Iw8qGuZgryzplDTtyC8DQlhNC1Gxl6QExF5mKTWw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103125462168316429196\">a a</a>"] }
+        ],
+        summary: "현금 및 앱 결제만 가능한 지역 밀착형 슈퍼마켓입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["고기가 메인 상품", "휠체어 이용 가능"],
+        tips: ["카드 결제가 불가하므로 현금이나 앱 결제 수단을 준비하세요", "일요일에는 자전거 주차장이 매우 혼잡할 수 있습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 오전 9:00 ~ 오후 8:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://lopia.jp/shops/osakabaytower", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16621941330294060144", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%ED%94%BC%EC%95%84+%EC%98%A4%EC%82%AC%EC%B9%B4%EB%B2%A0%EC%9D%B4%ED%83%80%EC%9B%8C%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하베스 LINKS UMEDA점": {
+        photos: [],
+        placeId: "ChIJdfhqFY_nAGARqMmsCLMxRCQ",
+        placePhotos: [
+            { photoReference: "AWCwydhE02k2YfMQpvX1xPnw3aYO8bbvb_eusulrl8mwxwrKQUNGz-jgKWu6ctiTZJYwbjLeXQ39eAn_iUSvT3miYhzMQ4U01uhjPd54RNsNy4-FLlXE_ob51TpAcJoeltQYjvxpHhYZw8L66z0-41oP9e1FQKowhVZV0Fe-YCS8ZsnL_b1Y-otuwNZR4v3d0HzCk_tcezgVDWIpUIbMrZ_ugXIdqWTQoaKMj2PGCBtKR_HZ-gG6OKD-_YG1KcetdjjQmqWVCfkHU7J6sL8_PyCR1zEv2jRvV2KG4LU3-j34SK53HCiGaKWhLBOY7VP1Q2xTnWNaoyTk-Wus4TB_DKLEIMp5OmfcjUq754jrb8qJU-Iu---ckUkyFn2P4bjkmsybbnTW9FPkx92ep8ImCzrH_23BKbCAWuzRiJNSuYlp9bGiTvoW", width: 497, height: 279, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107341149719360387635\">ハーベスLINKS UMEDA店</a>"] },
+            { photoReference: "AWCwydjSZz7m8qxqu0irdvnQBCIBeh4Z0kjECIIPLO0-suc1WEwpn8Q8-hxwK6BPQT_AWAoOYph2KWEg06ooiEghgzXZ8jMSVA314xqgSEiM-JmR0exygYqDuL4l1SkuIAxSX9trBxaabuCiSEf60ynGVjhEKnE2izynf-QP1OytnRkCN-x2TDJ48zTQUTaK1YdH9j3_AvrugX7nLNvwg1KweMpxyvbAfmK4wxgcPb2NqbF_j6cwjY4Lh2U2z2FwxZ7xgzsUbdDh3smCnyCNxnGTa460HPQ37is6kGD4FhQ4JFKges4S4x50ehSug7hWuwgSzrl_DVTUOrjSKMKN_A2u1bQGVpDQiPtyMLfk901QFtuUCIpbl7-HgodtA9BWVxS3_l7lExSNoW-G1ZBZBo63ZK5JElQel1t-VLKIvQ7jKX3i6oXOrLwWTFJFHuw6Ylzr", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107341149719360387635\">ハーベスLINKS UMEDA店</a>"] },
+            { photoReference: "AWCwydijU_OvuJRWwLzOPyaNjbQk4LQ2GcmqZKgutODMaj1gtiUcpoecILTInbiv3ljOLKPnjPaIZ561xtCZtYqFRyk5kPM97kToKp5JxuhMjfnuhugPdWJlQl4GKZ3ZjHzGclHyTALQnhsFfhgCw99mTgLc2_GtzlCa2LLsPqB0PZGSZuvoe_mm64fsCgNB8dBjgsVOznIvHq4TFQoS5mlswFOYNedGKjnfzzEzYsinyrDXPViQB_0cchaWAwuNf_IrxYJApGZ06Y7st7pyvHDcPJvUpvUIhMYeRH-WG03sAe6o813_GlKYTfu7V5ZIOIsyje8w6lU3y81UBoXANrwAWa87VNqVTkguHKkR80AGUsz1hCnC-070dlXb9KaqUl1Q7jQi4Qq_4i6V6ehhxnP1965VMKJR5jpPqaopgqetT9Hyupyx-I50COZKcG2FKg7-", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107341149719360387635\">ハーベスLINKS UMEDA店</a>"] },
+            { photoReference: "AWCwydhY5lIQARP7LaazpSmMHX2b9QphDsL0W-tDtrx181EZNNb5WB4M3zyUUoTBFbmtAF57qxitV1sxmncGertPFo2dEisF50hF0dWD5WNFXEhKtKCVI33CntQAOfKAsxl2X1-dP755TlgbzTDNUq2lvi_PlKV3kIpHxTM2vcG51gCv95GeF-KH08tUiFR6NfaUZ1Cpd9MoKLTJxKZ-9djaCmlb5E98dcLCPyqRsBNIvHditK_AXkOCOMbw5XpYC_Z5L5J4yqbOo2c5WryNLcvxUCJ4WpzNj7iATpdZ-uUSM1ugFdWHfOys3O1q6laYGzAKo_WUhn5zDgoMsV83uf8ki1ZfeT1Gj3C3DkhJpOXyy8Gd79-5i5E8U5PvOZw8prkKUCuxmR52cQQROoLYl5N6GYzyJoQnfWFvuNfvSt34yucLSKhyPzRO6HFXUTl-LuVR", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107341149719360387635\">ハーベスLINKS UMEDA店</a>"] },
+            { photoReference: "AWCwydjqTr0tHNWJRe2uO5uJxpJe41nXw1RmO7qeHEK2ZPCPa7HZOTdtfIne2h2eV_ocrVtsQj1pz-UeUmSkKR3FQNeds15ycgUxk7fLXdVNPaRfiUfkgexeuAF8wBXEQWyAM57i-0jY16D9PDMKUdhyOxmfQZEjgsbITaP3iDQ4E7OgKxixqxbSGVtee-DfF6dNwg07mHrSTq2Mapgd0ailYdra2-FDpi4IWdguHviUU_bUvgFaVXelpeWJdvclf7OEX-gguhxYfiVNB2THeBpNTiVOrl9JjUV0GMG0SZq8PwYnn40eORv3JHdYnCcEVPzr5ULPFTPiKVuMo-7g6xrP8psDeO0VgUnxsluE37dNRKv1ZTWqtSPgoj0tGpl_CDHzho4aGbr-LuZUJowUgl88Dqzvxz-LB6d83vdlvduOv6361LL3NnyfV-994k5jJA", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107341149719360387635\">ハーベスLINKS UMEDA店</a>"] }
+        ],
+        summary: "다양한 일본 사탕 DIY 재료와 우수한 품질의 식품을 갖춘 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["오사카역 지하 통로 연결", "저녁 시간대 할인 상품 판매"],
+        tips: ["저녁 8시 이후 할인 상품을 노려보세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:30 ~ 오후 10:00; 화요일: 오전 9:30 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.kinshostore.co.jp/store/umeda/?utm_source=google&utm_medium=maps&utm_campaign=gbp-web", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2613268328796178856", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%B2%A0%EC%8A%A4+LINKS+UMEDA%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라이프 사카이스지 혼마치점": {
+        photos: [],
+        placeId: "ChIJ0eNu9iLnAGARjB2JvPcvDRc",
+        placePhotos: [
+            { photoReference: "AWCwydg2X4tux3b_1noVN1i_mnGJx51RGhuYuG7BlOyfO1bA1KEVdgnLzRo2QNDq9BZdA6dvEO9yYBC-n3uZS7fGlCCvU-gAA64Zz_8ubmt5ybDsFDCaY3iEA6XMhOOPtFgOdNB6HUqzGij_lKN-5eJSs2PhHf6pCaJfeu-C7RAO_HzCCLzTYCZzXERJPxbtOhyOuhZZTk6UV6DmS7QZDU_EzZse5Df0VQxm24BoIfK6OW2WJaubS8uGcsZL4YVIkE2shODLJEkuheeDZkvRcgZlVW_G-nUt2FrB2FISs-9R7m6r0KgEt8r0jJGnmIzG3HbOu3xCvy-xM73L9I8V5yhjMZhP6TpNzmuJ7p2lYdo9j1NkSkFbHbhGtuCUAoL68N403fjjsuJFthKCSphVN6KINihibFnIG3jjBzz9BNS82YLU0wQf", width: 3916, height: 2936, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103797631139469336775\">KINO</a>"] },
+            { photoReference: "AWCwydiL5DRC9KO5NQDUd2RheCjRl3g96ZyfGHfAPyEqxCPYQXfoWn_aut4xK-58wOK3VsHg3cjNqZsfTTlMRJ0JK-QiS9gXMTnjgyJxgVrllboYhm9yFdIP4Z7XHJRiJTc48qbnStabGDZK2GKGtFXtRevKhGI-Wq65Ftg7BGdNuaWc4uGaog14YvNvVylMeDEHhDq9Vm3sPniP34bFdHLKOzBOYa7iZD37C0hyCUOwTLv6yhRGStVYRttldNV8soyXMy1ywydj63-3f7iaswHWQM980TI06GNRWljO19Xb5Pw3Yh92uHeMVZvpQyej5ttgRWEHQBcMK_RLwNHQRdBA8DlHTAzw8c4L6UcCZOPlhB_2XQ5J_heSgSkJFOsG_Ldiwd6u0yg13V-YnxlivkeBAvE_JQ_Fa5jciGWGmi2w4OhUpg", width: 4096, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115562465486108406192\">謝俊彥</a>"] },
+            { photoReference: "AWCwydgLXD2dH4q8UTaki1vS05XY6UXWx8FsIthn5faKiy0sBVzHOR5NUQaQ9bdXsdwZJbkpp3qsmRRQLcZFNAJcoXg1sGnuOTHX-dX0LUT8hFiI0_d9SvL2C4G41jSpeilgW1lyvJ9T55HLFAbCXCEd51BqvayVeFEVd7GxDl7bnJV2cT_1xTc2t-Y7q0vWic0SY-lCfrnYAOxsr0Bxd9LKTSxDJT-HkdAy34EcOPda5tr6v9POiPTNN95v8Irl1njOBYrCs-RF6IxdT0xuj8zaFJZdtYeExE0JfF-H0HBsYiBmbSNGPLr-BXttOsGh6rOHjIAEmKYSE97ZFUpI_nOIdTm0HcVmb6zh1cavNSMqVbbTI78gKK9YiCfW4nENlW8u_6X5Oz8ePUQbpdcdjZE2rvw7uemRSRMDGHrBLRp7oSaFngI", width: 1440, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113726047551623889872\">Alfie Who</a>"] },
+            { photoReference: "AWCwydjgRTzv9gDM1BCPihDPmE17xQ6ky7Qn-32_vKcpzQebz83hyULQdkSBxD9UCQiEgtJuPA31-_bsBmkSXm2dvREsl_l30dLmyDLV1hGm7MCuCd3A-bTxYhc2kL8IS3af6cqXMbpTVPa2wnr6wzz0GqlmADMw8pfX435eKhBNfj0KXN7IclRP1tbPsZaBYdl9C33rGMfogGEPGVM2uv9gpS1yEmVPepqPPzeldLd8NQ-D14-pSCOdL9WOIehn3TXjiOkplKrkOgl-g7XqKWHxBVanpQ1Sr7QH5-TmE6ZuiwlYELinnm7NgCIslpYQLzcAUaz1lzqTvoAO8nBnFCyQ8l-E9RAJ2CNJbLw-kknvvMJAojW2dNX45Heh9LCvDUPIrKfK-y0BhvR2MSyBC7YplES-eHVdfveGKD52XxVE9uI", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112049955971247572199\">maruyo japan</a>"] },
+            { photoReference: "AWCwydiXQn-GSzXeQW-Ie5-hAqCufljr5LGewmaTGtXy2M7ecr55OMB81aiHjXEp4Jguyy-7WJAHx2vLbwQv37MjvclxEcdEFUT_OylAtPJQarOSZchg0S4Mu9s5C4Qa2XxelrQUhryQXcUrM5T7snduIXeg_xVYqkUR401zzR3cV6XLRcz7umkUjqAtUXJyyhiph4m-PVfC3Di8oqjzv_gTt03jP5-rqhnapzuJvxu14KDu-SGjE79U-2VU4AAQX4n6wBQuI2y7VJLBOnNogMgoNWcXgMxfQPbCUY_IRvP6RJKysB9F8CWbDSOl6cPPtZyCDny2nhbrrTMP-i1gz36HY3mdczvEzgKFtmw4yI1Xj0r_poQBiFbZEf6VBKnSqY-1GIg9C5SUcN6fY4NIctIf0Vun9R3HWj-UgOQeT4h5FFRLk7SS", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114397614035104373490\">days sunny</a>"] }
+        ],
+        summary: "신선 식품부터 일용품까지 갖춘 2층 규모의 대형 마트입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["2층 규모의 넓은 매장", "신선 식품 및 조리 식품 완비", "2층 내 소규모 화장품 코너 운영"],
+        tips: ["저녁 20시 이후 조리 식품 할인 혜택을 확인하세요", "다양한 샐러드와 채소로 신선한 식단을 준비할 수 있습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오전 12:00; 화요일: 오전 9:00 ~ 오전 12:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://store.lifecorp.jp/detail/west408?utm_source=google&utm_medium=gbp&utm_campaign=map", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1661036578636111244", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=LIFE+Sakaisuji+Hommachi+Store+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "슈퍼 타마데 에비스점": {
+        photos: [],
+        placeId: "ChIJuwgXL2fnAGARIOBjQNRYbfA",
+        placePhotos: [
+            { photoReference: "AWCwydhmY3bexUxY8yAOiQ0lX4EFU7Aly1gyYLErRx1e14203jNxjIiLYtGWKHYrsXApcqWNt47VFVHu2VmLhe7ZfMX5qdJlZYtJfkCkYVrvXdjrZnPbVFsCgwn1vQaNl_nT2EIwc41908G7ch3YGBS7qt430wVKuIcyeus5Zf404vrBOcsGUBFR4ZyvLm52e-Uh6Y-L78EsxCrhPyfgZnfCJDduxfd7-qZUONvLTGRl9cgPUTxmh_h68KXbaLemXrF-Nf0JLZV3nDi375zINIASwKhgBjNHKCLFnfUtiM63YVyEqc_Ja_QH1uEF217P06HP0MPKJ0l7-HY7sovCEesmaS6V_gCuIiaIq_6151xhVZPVTb1XRNTF25anGtMBBpWPKdw_rpvyAR9U1lnF6Y5Tv3L59eN_RqV9uIoXjYbT6XgKGi4p", width: 4656, height: 3492, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116829173672494269939\">pei-chun chi</a>"] },
+            { photoReference: "AWCwydiINzV1vuQGl28GGbht-BxKygVz3uJYZdKmFnLfcve-e9lVYXsX8hcQZF3NQtny2U580hADKwduS2ftP68Bvqc8vN7MPvIhZCvpxWxOyhx88FysKde9EpkhFyeq6b-KxuOXV8wUqVXLlTx7QIeUHiKqAfQ_KKaDsUdBpNqKrJSmRIdYdSqcE9ZtQ8S7acrw1wMAG_nxd7j9nscEVJ_vjHd_q5j26qoCxZl6cZpNzOQv_FAzjkqptDjCGzGU_nm_-VznkYYr1MoTO_oOKjfPFxVyIt68vqwi25tUVplrrdwSD4lvY96A1-Wqfe9CpN6DVNrjyAZCo-NJ1o6CrkjeTePFZOX9ZmdtQArXbQYBnIGH3fQ0S_xeAmDu9cchwI-2sQMtGfLk5o6VHfyl9KE7Jp2UQ-_tZCNDcbyXEk1bDCqx0gml", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105186953904806263681\">Jameson Lee</a>"] },
+            { photoReference: "AWCwydjdOy8eRZlu4T9BsipHoaUdyb5-rKI3V1NIOdXmbEDmj72fQDhX6QIb94STyEDTWZd4o6fwCIQCUoCgMAU4ZiSEvlk45m5Jhae4fXJ_N1LstSxtSRR7mkZLPO4gQm6hrHjaWm2BODKMJbUucDTPQqJZWXPFlrgnVHi9-Ws5ySZgns5ZlrSU9UzHmhIlcqrqU1dVTuUUN3xluKri0fGsxlpdFxPgMLMlMs51vCPH-hRx3MxwjBmUAXcmtDleou4lMNtKL5zO40hhlr_kdjUETFDK_HQ5bImtxIvpEdbmPq74AVDGBeqALcEXZSeL58nMmpV-DvZhbaPyXPtkO64XPoOuA59fwU3mvjbhEIzOTnEStWlPjmFtfp5tIYXsd9ljsGP4hcpF2So5X2XXQ9Tn8kKVLN7p27vBFJ_T9Fw6_wn8ZAAM", width: 4160, height: 2340, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104902397387255123838\">Wee Kheon Loh</a>"] },
+            { photoReference: "AWCwydjN-RXOj91tfmGJm0gXG9a_3uFyPPVhLMjM3Rk84wpwNvvWY11WIoM1v2CmjtTiJheBAYDe2qFzybaLZgF7KIVTyVTZXF7veCmu4GQGzaSIbHtx8MV_jHKfDrl5zOmEZQfvWk7wl3HZkgI9gkeeUZe7k7zsnCAmiIgB3f8J7LZUkbcy1gnwOkll6v37_DXn1uxdz0zXaYiNCnNXREcPmfkZ35np7XEB4Kad_Tyr4E1cCCDL4NoIAvfNAapCVfoZs7nJmzixMo6OaqyKhTA8TUYu2A3mG-WR5jU4P5rYHqVqz9XitJ4M19-SO5vsusMnq5fTfB1_YFmPyXAtqRG65yyMQhUdUlL-dZh_ocl4O-PnZAADrKNbr6lKbEeZegod5jHerhrvbtW51VYIZKVx_QQtJ_QAVw4mKx3NWQVYyug", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117231515147783865868\">H N</a>"] },
+            { photoReference: "AWCwydhHIJxmv4MG5s70W86HJKZG1z8thE1lH5v5WwXciizmOMcTeHOOltNer-G_kvTmrBHxcfBvoD5rqe2IHqiFYyxc3afXGZI0o49RWgmsBqJFMOw-K-ow_o57QDXW0wDHHCe_icoSLYp13fN0XhkhYdM1hoyz6U026vQiFMPA4HEwqEnYxTlkaTx_bihYI7aAeq_Yvfovr4H2yj-gimJzrSXefe6wNkGYxFI7ic7_7anz8DmiIqQSREp4-T9VIz_kCrnpcl0r01TrLgmZMOkC0Ru5-4jvtQNR_TONPmizB-YG_E1qL8tbQ7cq9LuWmvWCRrt746hcZO3fIsqAbkbSqalReSkRNJ4WelRY26QOTmML8AJNfyqYi36t6eb7VEu5W4XgAoxwRHsSZ5spM0HL4ueFl2MG7vaKc7fdw3s003nJJd9Q", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109135427967229601236\">BEN tw</a>"] }
+        ],
+        summary: "언제든 방문 가능한 24시간 운영 슈퍼마켓입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["24시간 영업", "연중무휴"],
+        tips: ["늦은 시간에도 언제든 쇼핑이 가능합니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://supertamade.co.jp/store-detail/?id=950&utm_source=google&utm_medium=maps&utm_campaign=profile", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17324601010200764448", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%88%ED%8D%BC+%ED%83%80%EB%A7%88%EB%8D%B0+%EC%97%90%EB%B9%84%EC%8A%A4%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라이프 다이코쿠초점": {
+        photos: [],
+        placeId: "ChIJ13Hz0HHnAGAREXzi5KPwaW4",
+        placePhotos: [
+            { photoReference: "AWCwydjbjVt3V2riukfiRIZC76qKXuD1uzzuahIbFIfI_XAXcYs8cQsD8wpvp0EKzegFBwbweQUAXSi50iMcD6cNi2JCAYybbVuPg3PI6wGJevT_8WBacpAc-8KRjrn7VP3wdWl4O4avsNR6VWshiP_F_KoP_K-XlRxNC0QsKsscMBbH3oxkFeUsBqADfZtZC184M0e3oR8WdrVdZxahbZElM1GnyC_Q81T9anW_djGJdy_r3nD-oE75mgAtA8DN67SVVet0ZIsRah6lCGP9XN9pGddzeZ9fihehOXblo6yhSPv1HTZFAC5UjstmuXhYOa3Zlipxtp8d9fXO1yzFsWBDK4D79Ilm-LS2Qd0mB6Xf-QG4Hx8F8gKOru2vBo_tVeP-M_YyigZm3Jw3dz7sPIfDGs0b8uy-Wb-6MrLSuKicfrBfPtox", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102032425048414120522\">Takahiro “ﾜｲﾙﾄﾞﾌｧｸﾄﾘｰ” S.</a>"] },
+            { photoReference: "AWCwydh-xnyqVGZpfnoFFh97U_fvt8cFU27SfojpjQRcv8vdt5xECO2J_1Ga-U2Ctgq-VFXnYJMWChpFI9PDrtS2X9AWYLhNEwVd_IdfGzIRkdI-_Cqtc8QjYo75v6rpWx6zoQjlWEeEl9CzCCMV_7Hd0cpsbimv6Xj7ua_qAf95pnzbiE3IO1q-13liLD2iHxQx8dA_JBl--lMe8GK5pY6VQOtn0BF6hR67KVAyFdbB_P182VmT5sHQF2JcZKXlsyyhOK1o7L8idOgRNR3i6Qj0AsM1crEI0z7ZyfcGBXixe7CyQc1j0lPJNObiK-Touz87XxpspeSc12XmhCWWeKBAwvzoiutk_j5ShnZUUU2075N9Hik27tF2qGlWFSIqURNGi6MkbTXIqf3BNbAov5UYpSi8qRXEBpAwNYYJiVP2onOWXH_tLdn44BcH5_hM6JFo", width: 3200, height: 1800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117008767795652171040\">遇見尼二人</a>"] },
+            { photoReference: "AWCwydhVUXI_zf9YY5TmxvCCWnxnZh_S2fMvu1jHQadwKh04zf16BVkumoPX3y9tidPxhKLUPBXP8fLzWfNa8DzCnw_yHOWCkdC3COhxN9xTvk_-Wsio0IcVsWriF0A2JfQidkQ8LXYrtyY1vCgCO6Mz9_JfyDqJTrp-OkafDneQGDRzmYV8JBcWxwowezFbSA1Gm69zMprGaM1JL0MxLI48Z2FNHxch78jnIsLTcfsnj6IDfd8VgCacycQ2jqnrloMNbsZPaGVt6Tm-YBILN3sXAEV19gBjfRjazPoa3dRrdTVRlQlVF4VAUeZCgAmZ0Uo9PqiDWid9FQvjcSI87krnHLEFP8Z7P1LND3arJgiRU_ph3oCUKwJtpQq7GN-SQT2zUZtkQhgyUqDVLKPKmbF0-B8-k4hGrNnWw9YHWlnGUWOgRQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117750918962219489906\">Kim Jason</a>"] },
+            { photoReference: "AWCwydjSByaDFHOY0bbYnujpjFTSQN2QbVOKpt3hW6zGu1gcH0oCrJuZSshQF1knNO6_r0J3H0-6EDvCZ8WbRh6rMRwKE2CQ3p9WRcVvTXhuRLYtDHlIR4rQqQXnNfmKN302HCyR4UODWbY8iM5Z7yNfkTLK1rvBN1oU_LfSerhhzCq25JTKVmDdsXIuK3jfRDc9Kl0TXSC0_K3NM5GBiNa9Q2acHT1o1N6pSi85rJZNQE-jvXCLWLWkVhh59lnQFmPQHNa7rx_RrGnVOx5WIk8qYDayM_inkoblngqmpDqxcBEoXdSdHwwHptKGNsWJWQ0OKWQn6Pc5QUgfLowWZJk4FWoAjHGKGeELc1vFpu7rIM9Pxc-tChEyNYC8xare39iK5jNakkgblGXnmzvNifh_9HP-bcPL6p59SM9UcudGKEPk7A", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116580884909302297599\">DANIEL HUANG</a>"] },
+            { photoReference: "AWCwydgOVOQq2QvGHTR7k1nyhlP8seNaYP0WOP4UKby75cIh3DsJk9AqbkLyaB-4pOOFwjeGdkBQVzhbBrAKSm9uzeooHsz2XL9J7_bB751jdNNjmwjZuABblLVrmC-V8cSI4rLfs5ipONEQHFK-UEYXiGuIk8RolQLBGAED-i8niXUOsIApLvuGRPuXV9iDlwXaBHEDbKBXsFQmUtppsMiyadcnX3kNXeoQ4SlCw73RFmOjgtE3UI566o4CilwvtQiVjOMyQBwYxLMqf7u8NKse4NzIBleKDi0ROSn6yelJLYahwMJyBENBo9fYUI7-dzPDP0tlQir-L76P7L04_rA4fGHE2u2TqaDAD9Wa3Kn1prrvhg7RU9mZ1umiMy4mdrhzewy_ST8q_MJots2wK98m0u3FQhSwmjV7HmHNdx9I9K6ObEKbGq--NCo3Y8Dp4wtV", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102742645926548889828\">Monkey Gee (AsiaRoadTrek)</a>"] }
+        ],
+        summary: "다양한 품목을 갖춘 편리한 체인 슈퍼마켓입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 상품 진열", "합리적인 가격의 자체 브랜드 제품"],
+        tips: ["500위안 이상 구매 시 90분 무료 주차 가능", "주차장 맞은편에 다양한 식당 체인점 위치"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:30 ~ 오전 12:00; 화요일: 오전 9:30 ~ 오전 12:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://store.lifecorp.jp/detail/west215/?utm_source=google&utm_medium=gbp&utm_campaign=map", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7956154803437075473", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=LIFE+Daikokucho+Store+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이온 푸드 스타일 히가시신사이바시점": {
+        photos: [],
+        placeId: "ChIJL8G48xXnAGARtxe_Nyjjvw8",
+        placePhotos: [
+            { photoReference: "AWCwydjKsNQmNQZCw8YxzCFaKoAAJsW6E3mvmIknQF7kWY7QS5OemfBu4ef1V7g3-ukxFT5OEp7fMldy7jnvNzTHlNN-OEy7TqjvIJXFv3nBejwnqFrN6Gg4gI6mZp9o9cY1c1JG_TVQX4ACzOdtHMeqPckvzlf6Ngx2aJDjJSLRV1GL71uULGrw-V0dkNZh9hccp5oVKYn20CP19_kjsUoDefonZK0bj1jwyTrzSt_cJontVb1z-vWR8ov5XpbJHqzEJlYZADzYgma5jDdOZ3w_urtMl9ac_rVXdtMBReZQ-hYmNI4mmdX_TWTctVG1jJDde6y_9NM2UgKNKQzT9u_4lmDFGoQ3stiICH7SiMK0SgaYcRzZ4x-F_31d3aWzfYVI8Vm0MUx9oiTuEKzdy7whv4Mn60pjAKBg6NOC9w", width: 721, height: 721, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117799356036544424596\">イオンフードスタイル 東心斎橋店</a>"] },
+            { photoReference: "AWCwydg_89NB1Dmovoy45oML4r3b_korNxKosyxveT0twgksFB9CmLS_6ICnK8qCOnMcnz3Zz7mAcnLoy9QQZ7Xi01ieVufY4kS9urbQORab_rbdFCe60A0lX722CTXD56eqFULZ-gWvrBRUy1Z0FW6pddNA39cIDuDXkEaZPILsmvsXb7FJJ2BGaJIXS0N6PGKGMG-KbGEdlXAnOa3XucBcsjNOk3bJc5bzjwFlerjY_OqbN4aBdbkpPqZqwJDVDpjp5e3ulaAY6O8ILomLvnaFVTIzGduSvsMzE3dnVek1KQDRIBgNxfKv7KbIbkE4v0k3HuLgkjb9TzbCERtesqnxJzh922GOU81pxyhw5o_Ov4EKMuCZutDnKBc2xNFu0XdRkbIjOHUsbMVEc2a3aQ1bndcMEW6V-KjbvHft9zjxZOW6_HjgDnWmk7PTxNMr9g", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106767594099503866178\">정다노</a>"] },
+            { photoReference: "AWCwydif9yZeQ0MUbVHacIWeHTeR040C9Bg5y-McXPF-FqP1OA2bemeE5QitK7vIDTw_-nLQxV1d2NESYQFwyZJrYQTNkfGg9av_VT0KnXGH88mOH07pxHoldB-8yx5zdzfIFSy9v88wpfmc7UzvTy-Y4wzYmVm6dSu92RPKuEx1j8GvY1fFV7QQn02eFIrD2UfaX7oY3MutWZ_pY33v_xI85Jm40c6IwLfw-GbJndHk27seVGXnd-nu7NegeQN_u8AQdsYgwZcPCyB0Q3u2v_IuEvLqSsXALslUNAAxbkAZzkaLMoJMnGmL_e87W94Vn9-ElsP17j30AFu9DeEhuZPnmmdeLktgIWgCsn_CZ5deja3vTbs_i29m4UMY1ME0NNXZIW-KO6yZLMIwiMrtN_BkYvmnbEM8Po_rHcbiwSN6q0XOJpbz", width: 1674, height: 1245, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111037386708270906686\">Peter Yeung</a>"] },
+            { photoReference: "AWCwydhEUI-N2hxunLpT9tjnQanibixg12NcYXwKQc6K-ihP5m1nQ4mXxw5AZLDz1mt1rvAqk_KlGCt_krBJslMIIHmjHCUM1VXEEx0El4ecH4aC8R79381XQuwaOSnCVagdV23AOrsfDAA83vAeXgfkF0XuF4Awmm_XYf3clq4ux4X2v_fVg8k70qzPdcLqUtt72WnFaCTumAAsb9fkPPo95QIzZIqdatXCoHC9dIUgDM7a4IE4So9yALg8Wtj0p1q9de21DF3CHet7geIAzyOyZZRISqqkrAPbw73HMWzF42LXrvlNfc7U9-qUC6vSvhiX7nB4yl-NU12XiU-feTNJkRCRF0fgU4hmdYQZFBZttf_u61DKluVIbkcy2kNXWCi0HiHpY3UdmpezOdIrxo_eiYhXjcF9RK2eN5ahslEp3r2s2w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106266446640024977074\">bernie tzeng</a>"] },
+            { photoReference: "AWCwydhc8yjXVGelL4Q0eRNgzlIt5S7vAC2Zy-F3EJzQBgKYcrT-KzJc4vHvScIHrNNWKuCiTYGu1sMKXenaWglkYnA5tGzkibKPWMdDeAFB-U8VUEdpsZqF2DlG5o2jxTZIUEFylIPHjZPCFi8EzlU3b_ZdBkNStAozcO4Oy81u9nz6x-SspNjNdJsQ16ngeVU0ydhBcB3kL65Wqn3u_B--s6g-F2lT_pCBgJP7PkD5CKwtXI5Cht1bPGgoum7-6SiqQ3evlGOSvIWi3Lzx6Yy2oKvwVRmv25ZpVx3B_kokf6j95tq_rIDoKAEui-5vYHo5s-kcXytnb8H9FMnD_ig29PoOTvdE3Lu0HQPU8ag47bGrc6zp7Q-RGZBAJoVWObsMjume7zf3j8hMqmcWZZrdxFJJtrYTqRRh7RVJx4OhhTQ", width: 4608, height: 2592, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107117455219717999628\">Chan Francis</a>"] }
+        ],
+        summary: "신사이바시 지역의 다양한 식재료와 생필품을 갖춘 24시간 영업 슈퍼마켓입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["24시간 영업", "신선한 과일과 생선", "층별로 구분된 다양한 품목"],
+        tips: ["면세 혜택은 오후 7시까지만 가능합니다", "매장이 다소 좁고 동선이 복잡할 수 있습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.daiei.co.jp/stores/d0820/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1134875392994121655", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%98%A8+%ED%91%B8%EB%93%9C+%EC%8A%A4%ED%83%80%EC%9D%BC+%ED%9E%88%EA%B0%80%EC%8B%9C%EC%8B%A0%EC%82%AC%EC%9D%B4%EB%B0%94%EC%8B%9C%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이온몰 오사카 돔 시티점": {
+        photos: [],
+        placeId: "ChIJKbtifLLnAGARqn3ClkB0fRI",
+        placePhotos: [
+            { photoReference: "AWCwydiSicEtShqHL0wZ8babAAOh_BbvR9TLbenVjiENbxDpB1j23K-rGODvLIdqQZllGF1bfUIzg9JKCI6wabO8CmG_xRID5jl_psybEwYNw0m2w76SowXQqMaYAMJkpBg7hZ2PGnnzUEKRapbDIQJJpktJgNO19w_TuxyPyenVP6YPZLtIdZBmCYMb6TlfpqH77gk3k-w5ID1Blm47AiXmdWI7xQArbi5VGEPZJpjwAuyH6iSuA3bHt2gxU5XPYDe8jGBoQ8OlSArQM32zevzpkDjlgXDnfBjoiQ1eBi6WQRjqTdGK9-4t-MdJU-1RlG3-VC7vZgZ12JBd_NONrWiJdVOilDwMyaoO2G6pBwugi4KC6wdpEO2xiLi8c9WK5YYK2R42iiwtb_QJSjDPqje4mAyvyAJCwBpNW2QJzdja4b6YTf8Z", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110189924069853726362\">yan kazukin</a>"] },
+            { photoReference: "AWCwydj9qznDLfvRlDaPo_rfs_xJ3JhjpcCZ1sRiFCTuRF7S7I15N5B28aS-rcCJWeHTF-Q7A--_UahnkbTWUcBK9lxuO4Tb-ZwysTZwSZPoVNhXsSQVlpi_PYB_tavZyR3GgleZ9ZMXX_BTg7F4oaCPrVAmq7U3Kv9Y5svd-bjulPjvaA61aLtgB4-A9w-XyQilf3NOugAgm9og2ffBqAAyK6bBbcMX-CKZ0FDLv54wrySkoZsGuLnvSH_GmntzU2SVYV6aDwOjoBxbsP3HihTC1ZZy8MVPWQNj-K2E-yKXTPR2qyZ5X3voPPMtpm-BTxoQ3utznP3bdWM1wgS6ykWu_PwnvV0ge3aciA38zgZ4F5X-lIOOAn1q1WaLNijMIFAIfdkL2FfZr5Fu0Fl7bJGCtH4Qx0EbeWmUlAax2jJqlrrd0g", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104236501826168968049\">リショウ</a>"] },
+            { photoReference: "AWCwydiwodkZLEyaAQb3m4jj4X_mzSyk9FY0tDUifv1t4PrA8gjMT6t8Zm39ynRCiQJD9R4Yq9QfBnknezqRQHanWqYr0onZHb2OuA6nFTLHTHF0-NFjfa_VKVlY8KKC0b8DYtHEAWQEoYi5cQZ4T_EcLm8D62n3cgVjvp1iY9LnmGOCk07ULOChjAVX3XgcXG2QylvbTEdvsLdB8fuuET1AWwNsXg1OQehEeHlcpXcD4hSmo5qXxvd_V5YDjx83j-dX9IhWkNwdO6X9gEapnck2EgvCYNXMoEJOm9WnaWrEh6VtVuyGfMzcAB3bHm4eSdmwtgLD46SkP1gwTbKpRvDhtumpPoqFTC9etIE9yYgQljXobfyqGp8FUkG7cUCUF3gqpyi2JQOPnl1Q_6-uXW-k7knOVkFb67OiCsxexVKIme2nh3yp", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107461179858819857251\">toshie i</a>"] },
+            { photoReference: "AWCwydjQW9ollKIXEXqLi4TqcOtz24cFrn9ts5Gqv_mihGysFoQdjipdOdLYSPvRLWyz4euEXn4HTUV4mdUhYono9ETqPPgfNrkTHvEhZwLgJnPbFaLsCgeub39BOeTyg1ui5bm06eLkML056TiTaWuYfBWpRliuGjDLBZSxt1M9Hhb5t_YsKJmIKdr2jo8wnGoR92kBVLMl6rg-G2bkRgZ5mabO9hoJynEr7zC8IC9gcnRnva5QfxvzJOdh31l6AvUo8956LYeFAJdTRyUvQ9HkltNLhSgcRnsE3Y_KQnIb_5RMbO8TtlBI49VaIQ-fvEaxbmNhQxWj3vqUTiPkOlga9gA9FEQruK9tYYe6ey0L1U-5jThViAEHRkF1PtY-XBOn__VBCFQmHPyI4yLNP1CEltwFXOqM7EFL1sqEh9YbEbawDItg", width: 2133, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117441394115230943519\">Lun Jung Chang</a>"] },
+            { photoReference: "AWCwydhVwtBLacdEs70oo5tqPdbR5YCg6TZlVc9yF1CzYE3THrpOCBi04fJgs6pyFpu3AVUXeX9wDGSDWnn41nXH3cbWHfIVwOQ9ZebEFcC_LYtViFWJGTgythsr79bFScBTfWIFy8kpw4Q175C2QcPLtKesiYn8OP__1SikSw8ez3phkQW-zXwamQIEBYqIo5c-u6CGmfG2B7trXe1bnTqUuT35eSZ2ADoQ9vpwRnMZlnsBiNBnvr8Qv6sBlZ_wQ_xu9oWXat_GDxdVlUALhlZzpZrrInUkq_3BRrERVRAqbLVWYKdeY4Et4JRECUy1ECP-P_mfiJg8O8_WhG_-HgIGWVkuvMJgRblCt0by4_BI7S3qDuzegDk-99pEUyq9m95ULBOlniuFCyu2D069YyUA_eVP4Xt_0IovDP5SbhQUXtCIWnlw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117323333459697605332\">DS Han</a>"] }
+        ],
+        summary: "쇼핑몰 근처에서 편리하게 이용할 수 있는 마트입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["쇼핑몰 인근 위치", "편리한 접근성"],
+        tips: ["쇼핑몰 방문 시 함께 이용하기 좋습니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 11:00; 화요일: 오전 8:00 ~ 오후 11:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E5%A4%A7%E9%98%AA%E3%83%89%E3%83%BC%E3%83%A0%E3%82%B7%E3%83%86%E3%82%A3%E5%BA%97/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1332348885527592362", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%98%A8%EB%AA%B0+%EC%98%A4%EC%82%AC%EC%B9%B4+%EB%8F%94+%EC%8B%9C%ED%8B%B0%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라라포트 카도마 미츠이 아울렛 파크 오사카 카도마": {
+        photos: [],
+        placeId: "ChIJKd-I_i3hAGAR-_k7_4bZJUI",
+        placePhotos: [
+            { photoReference: "AWCwydjwEGOEZKatmZ8FNBBZcldXSPQBCDJXjZL3x5h5ta4fNEr6_8Nwv2YEjwoT0oWG3YqEg4wjqM2otjjh4ggyvBK5_8PDNmJyOhqZ_oA9ESl0SmWxvZ0CVtmx0BJ5tG027n7QFwVl7nbyCmtB-4wsB35WWxz4cEiWiQgBOt_sxR-6uc15h45FyNxZ-Q7JMqd7GJYxVzodBW0qDE6_OAFj-RKh9o2ttfD-kva03izXgNJ4rOgE6qptgNlxCASc3l-oNUOsWDZ1zVVVONb1wGm7rXrJcyrFjhMb-nNIf3FwOIdp2fXZZNzhvMF33W7Ye6TsMRpS8sq5wC3WsHi8EW4IHlL9-v_sCXJmnOoIze-I8RSAMKoRwu8id3YWMqPWSnFBa3v3NyaRw-MS71pTcrLS7OrI7cLTARSCAJjQuzawsU56DA", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101681164755352778011\">Masahiro YAMATO</a>"] },
+            { photoReference: "AWCwydihudLXUgwvycgQBPYnor9awPVUJlzSvWSa5Nx89Gfpimra477UXSQZMzfnEqc5_evQo7FCJNjeL-fWCkLRtjZhkuUsWJkBT2_wN-6qOXqNvbNed8VPu4buZhQ-K0B7zDhHeRCKFoDBx_aSfnXpiwEeB0_h3kKm-Uhhx7JLKHTnyJA2HJkjadZxJPdt23b2AMO_UEGF96ICnaSEwbLobnbZyaHt1_nSayJYxjFQndr2y-04lerG2Jl0NPt9u16DXHYpoSPQS9dDld4ixcm3u1V30pWbZmmwRP1THkFGYZ_Au17twHIVitVgEeHw1rzzBT3cfJYnvgvrPo3vH3hkoJlGnBQBEoIejTajPMmeGmmPQM9idRNX6250HoyeeypkPW1QNl76icq-dKoRdtd2l4H0f-3m6YrKrZrmA3ck32jAJQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102229219166326801006\">小早川健一</a>"] },
+            { photoReference: "AWCwydhlaHwSPrk9N1DfPC1CIOp_AQFwHGKpZ-0fEgXgFLtf2LM8FTUwVEAaj2VI6EOp7RN58WGLaBGsh4d8hizmb7url3qmxywFKTtQ728myfymZixQKYltwZBVXNwL1XpASMY9ZKW4hbmD1edbZvAe1J86ODpdeK40a51fJHR_ZfrSor338qWwsQ0X0-NbgnijJ5WIgwTWBQBWUmQNV-J63BqSk9jWf16l6JT_TNfDJCaAk_5TUeMcARBMQzZNDgPFifnxXOSKKNhNEQ2cRo4sEmO3W10joaY2O5nT1JoJ4BMvM1J2wg19EkThMrKWAfRdGf0H-DouBdgEkq4UiKocNklhgwxXfbcDo5yAvhG_B4u3MC1sH_-UuDLw7zkv1IEhX7zbEa_BAh9-ep98Pvg6dlH1hZ6sq_8f9QyHz71iyy8", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111982965585695421662\">どんぐりころんころん</a>"] },
+            { photoReference: "AWCwydib-t2COr0APQB6wUzGg7EBwFj7xkLiGtq8WXqX3wcyGND0-ib5MXSaYRo89cYbGJEsRnViP12e2qdbb6kePQRGhVsUS-jCm1WckCAR7FRGirAFzfxQdExdb0qluA_c2-6ucoiz4KH7zGzANjFk-qsMAy7CoX_Xydsb576krQcW9SC3e2B9dwpo51mQJ8RS3IaoSYLLDLJ9BmdM3L3RozCKLjDSYA5ECvEI1ljd1ITbjlcdc5C2f3MXOfY0g8pTlZhBICTza2beEPzdBmpW0muUe8R1XMYSE1x7vhg63DSq2Vii2NiOc2e1F7wloXDQLrthgcmsd7k69CBQRn3-GtoRhtS8M6OAaVydOhA1iFcDP9LDwrb32p-rUW50jKA-kxJ3gfgVQYqqAWc1cBZUxeUws3GtiEiFSMnTXGaojiORJKg", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106514613063507516045\">joe ngai (Jnstudio)</a>"] },
+            { photoReference: "AWCwydi0W0nmTxtlNucgOksXIFHoQcyuqWsB4jYM9Tf6DOpXvoc4pDkhKGvKMI9GcHaRb2nGbRKR4DVjnRjVgzIXOGxy_a85kil1ieZzbQkND9RTmkeqp9RWF5qpl13KqidjVNkLf6zraGlnWYnV7PVRGRVc7vVtoMHjZKp3CQdb5wPCC8w5JX9LzhNKwC4-xUg1SNBEU5djBhGoZoUaplMGY8YNBm03_ccedECQgW01uMybLUVwmk7LOgOiT0i-GlkF0FAw5mzx3dBn5QuymH2vAz5a93P2LDrV0PFvz-Qm2w-47y63ZKiPPfs99s1NkKaMAuPD8P3vHY6kPrBRxn5VOg4FrPkbjEq_1jJuySYWIOnqFBTb2L9giNy263I-I7qPZ9KfRRCFRa7e_Gvbl1Tj2CUvdxnqcmR3tntm2Jv39zCEcTk1", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103125462168316429196\">a a</a>"] }
+        ],
+        summary: "많은 리뷰가 증명하는 인기 쇼핑 아울렛입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 브랜드 입점", "높은 리뷰 수"],
+        tips: ["매일 오전 10시부터 오후 9시까지 운영됩니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://mitsui-shopping-park.com/lalaport-mop-kadoma/teaser/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4766454954472503803", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%9D%BC%ED%8F%AC%ED%8A%B8+%EC%B9%B4%EB%8F%84%EB%A7%88+%EB%AF%B8%EC%B8%A0%EC%9D%B4+%EC%95%84%EC%9A%B8%EB%A0%9B+%ED%8C%8C%ED%81%AC+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%B9%B4%EB%8F%84%EB%A7%88+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "KIX 면세점": {
+        photos: [],
+        placeId: "ChIJ48LvUhK5AGARngVdDTUAdOA",
+        placePhotos: [
+            { photoReference: "AWCwydhlbfgRkkXBAqz7Nd6D77RRVRvg9SqTznTPv0BygIHHiKGjn7fcdzt7tXQfw-TtP6baWWpIXZR5poeSkAoSwiq4SaMfUYc1yOjGwpDxtUzm5-yasrot6UjI2eSqC7iMzEfngzBYsHizlfDzapKRQ1I9AdJTQQxeL1C7JhgzSai7c94VMojtg63WW8V3Esg8sxWVrGI6YJl8Ykv6gsqWSREbv87VDRpeULDOUCWV2ol2xgO25FE-PVXRg4GqZzCKyma2jCivS8FlOUNQBZQivX5My9rrOPCwSxjd7ZfKcRq9IJaquSh2WVEQWy3TmKn8fwa7iYgy_04RO6Ytlv1Lgrox0HhcjG88JrLYVyB_dW4lfXXi8jr4rtVejmCdJUYf1Y_ZVkHOw_gh-Rl7PG8jZEOtTW6EnC6icHl8An4YwVhC9fMn", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114222122076872669000\">許小咕</a>"] },
+            { photoReference: "AWCwydimnDd_XVPwcnFfm8JwiySL31m_RQ1tubzIaGvpA_Vdu81llt9H96PGjS5OobPLwlMyIbpZntJ52qEd3IBfXvhuuLk4KQgTv1EcVTXLHSFXEVWtnELMIzkz_ZGaJx2Ta_1AHaEzTrYNZUYOt9PM3FaK2Op0FZcHBEweDWDW2_pEWJ6kBB9rWzDIIajwWCH7RYLm1cE9SCNlcH5gaSteDeHNnLj-a3pvq0_K0HWelneguDWMvQ7TDAZNkkS0akBb9ggUhIEi-2FjzvgEnQbT7oFrNApodncntjRDbgX2EFyEPjrmCXdE_hIElQgZCj5_2qTUMltJ-7nQLMGvBeGlaOy-vJzuFlYSY6aHZM4E0EgjtR8JFpnl6zi2kMig2ZqaEo86m_El5Ok6fRgxjsEIfVAjZ5cLZ7RHZwTdjzUwaFml2w", width: 4800, height: 3417, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109981564513159621683\">KIX DUTY FREE</a>"] },
+            { photoReference: "AWCwydivjdu7eKmRqSbRMeb6kKmAxwFg4fHrwZp8alGf2qKa5LXlvAwmbW1_QHRszDkGkZweesl-BkP1e0o87xV0KGlLFcVv-dZgxJeVgWQfRPpsNo2zztPhZbUR8N2y4fHuYyHfnYh_H9EMaXUbk1mVyfDgwdV1XuvDfZU7WkRiAqMJyXX9TZMd7vivE_eqRIHrKGkf4EWkhUkcnjl2TQN3zOUZ4X7VNkl4mepxRWyGEwTBZ0SOoNjP1ePccriZ5nqEKUudqpuzjHS09QqKm_pcjN_Hv4CCrsfeE3KjQYJCehSjptC5n7TP8tlPRIOJxKK_PIznmg6JoXbQtRMNoGJIprnPzYQiFwnJFzEjYOXTUjxpnSdeqnUdV9YDLYzi24OFV6kPEWtnJc1_dtrR687FR1SrNZzldc13tXgoWsbuB5pD4x5wc7cUPoPxwXTkkJSl", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114222122076872669000\">許小咕</a>"] },
+            { photoReference: "AWCwydjV5rvJp9DbSO-rMspiDrri00adojy0z7s1DuiKMc5Lss0E_UTEN3AF62yAEOyjstVzgBAVPSlbnx3e_Z7_EGunJLyBBT3rn1-9b1Ak7mliMsqRxoBj8qjZyySG3rN9y1CmMO4ymlbgJwbRCKELMrlx9mikA8CBPi22jQjua5YlI8TIp_nhSKOUCHIJ8iMMqQrTcOvmXzMK--aG-JrWIhDFp1l8H2va3FlIIR0XsYt3Xuu9ZrJzs9fCLWKm1iIT28mpubm9JIrhX8uvmdl1xkJ3Ddc6bEM4Xpcxjq3ROLgAgrhSEFhH30Ggw-tzA5O8nCH1uKadIEX5Lv3bnru_MXmUyXKDxMX9uVg7p5mOmuzWSUn752C0qpXlcb6D_D0v2cChVapsZyh4CWMp0zB-k5D_qZc0QXNjXJ1V9j96w5xryFvK", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114222122076872669000\">許小咕</a>"] },
+            { photoReference: "AWCwydiA6IbboS_PwZbi8t2OMow97TsJkiUGskNm51PR-Jzv1KbujZ8rPZQXWmfRykpJt9Q1_PPW77z0kqt6QKoxSy3tp4MSB2uzMciIb3zQBXC3Yps5D3IhmcrjocdkHtX0EjmUTRGxlMxOesstmF0hoPBD9q0rBeAjAC3a9OkbvGRxsFqBzdn8aAI-wu8NJRnX-Rf6_fiN8zzLw1kjiTQ_TDEOHGAl9x0g5sovs09eMTiemVrCE6jGPDnJ9-CtNW7MC4T9XR9xJLkwzpF4V_EaLZv3ujLthOWrgwQ9q62kGgxH6v0V6l8DQ6kd1EV5PmVH56jyg1qo1UKv7Su4CnQNH4fVf3HpTVIceIGLcqREDGT9KaAk55xjZwFOBPdrsJpnxqj3IAUPKSF0DOWZOzePWaan6j31vr5Zxvn-Gqh5lalmohHOMumEyS2w3qrfFXv_", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103992850125891523108\">Notorious Nuke</a>"] }
+        ],
+        summary: "쾌적하게 리모델링된 넓은 공간의 면세점",
+        updatedAt: "2026-08-16",
+        highlights: ["리모델링 후 넓어진 공간", "아름다운 인테리어"],
+        tips: ["리모델링된 매장 환경을 경험해보세요"],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 6:00 ~ 오전 2:00; 화요일: 오전 6:00 ~ 오전 2:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://bit.ly/4oonvBu", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16173552389651760542", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=KIX+DUTY+FREE+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도톤 플라자 오사카": {
+        photos: [],
+        placeId: "ChIJHcI54j_nAGAROikjNXbfwMk",
+        placePhotos: [
+            { photoReference: "AWCwydhtqc0VbYO0Czu8bMlsCrXj-sz9hLskuE6dTpblrIv3SuZeCsHIL48QSqXyWcHlshWJVPwcBa4A-KRagD7tVbo0ofOKqD7IKDGg7JSuVAnE2WWD0PgEPVHHp3HXuHJYemxkrH88fC1z8s2zBhX5JCPFMLuj_ljZ11BrNYle7zUQs7ba0BSQt3sTIQcpPTRvFE0yXC6rGsY6X5rsI7gSKGdNmXAGQHOBSdAqYluBnChQ77H2d40emlh6R4vfkdYLyjm3mRzVBBCRba3Aag9Xoq5TzLWZ0BXHA1IonRpq4WAAmawHbHXgVho0iH7aV2LmV9Jv4ZMWZs9M9h2L6b-b3eC6YHwe4Xb4vpmDXwSDFhlBJwWa3IaVRirBYbERqaoS-FqWDeg-OFKQ3vg21JnyFhiMS2MzyeGFn0zMuaIbWrWHpb_i", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102425185990427806682\">DOTON PLAZA 大阪</a>"] },
+            { photoReference: "AWCwydg6NiDU9bzUMIZ0g8g8xPXgFu9pyJ7yijXpfS1rLJYG6Gv1f10hfnwNmCAfFAl3seNy0wjDhoWobmjNGj9G3qMQnqORoztJ-Cc3VoF668G623-73-i06VPmHC-MsW_90otSf0AvaryoChN01DyqWzc1n9B-XwvROnxd7C359HnnteuxQYmRT2SXSDcxQRkH7wzflhHZslUWgi2KGSPkv9hHske7RxZlHvzvir63nzJH1H2tP-K8_OdEc1QTpvjXbfqrbIZETCYH6wSZl2K9sQoSNzcH0gEA8F0c6c6IW6-BAnbrRehEP4DAkKOx9IwNONzvPZEO1okrQdbPgXeQqsNaXxr1rd8SKGj7FFkHqOlYlYfpJDkqzYd0b5xR7QbhcdtxGc7rIbnv367CkdItO9RNMybGJo556i-9YtDDIDukqQ", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115482299405389289620\">リンダリン</a>"] },
+            { photoReference: "AWCwydiP8NcFB2ULqqoHoIedUIQBBrFDfu_geWo9NjAJId05TpzuNIqD5jU_UWQfZtZqb5s2J7pOa7NkC9rDHckg5vksBqKF-cdfQ5wjz8jP0JlmJU5s4YV9l9RScWi4KWOOhkixjXrTJKWhZbJvdbm6pD7is5Ivl_QgVUhc-8tRi4Sp0ypEzFeUIlUq-uDKQSOg3omNImIFiFPZJzzf4LA1DectvujeWnQrP9B0Q0QKrnXw-AliVfKZ_bsSyNhU-ONFn2AE5ZsSWM2iypWOCfpdomFzLiP-kGqfhbN23TvAyyvwqDndYgssG02qlZYANqrZJaXNLckNbrG3R1kJFJ4HXyQnRBe01N900CtBeAtVr1FXISgGejYhHRayiTt2P24Nh28WmxnVsyvmyfznTSMZ9jehUu-AMu28VNbAytMCg3H4jQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102066320491835176511\">Sally Y</a>"] },
+            { photoReference: "AWCwydjEOD6DdtoplEav4v0M2oFfr4nuU0Qzk2t2HKkW03CvhgMySR313SRKMiZnLVChraRaePgsZH7BL4E8gp46PhdcpRqMdHv6nX_md9tkzlqR6BvoXX-9gIkFkpXQVLSdDsW-wihKzsCc6NkEZqFWUQvlEs3s-uoqN1B6mdOnQXn21WG45Rxc4WeeXcXikFhT52vRBDS73V17nhFYUyTM5TNDt9PpKKc_3Vw7NRDKnSs1a573R-Gc4Gpfrde76GEEgjzsCE8Vb-qWQDzJeNBKxOpuW8OO60AaLAQ7kC7yDeUBAjVTXPNgqzi04Nush9s-0W5lTl--MMnHR50X-r1uOUos9ImOgAf8aZDlr-PzVyz_IYaVCMMzGZmyrDIE1mG1niuj87Dq5M8WbN0BXKH6Wi8Vro_c1AuMeLsRtBsb4tk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101328457240186240468\">June K K</a>"] },
+            { photoReference: "AWCwydh-JF4agyWsBZ6xp9SMVS3qNaQnYu3kIJb4csxnf-b3-uJNpQW8S2M4XKaZF9OHJmTg1whc3tYpiD1VtnXksDK_Szl4jfFcleadO0lsA1umVABh8B8XWcXZbFYnlnUoJfXCldF7l6bG3YSco1qPOOuILH7dPZN8zVsfGABmEuwn2MLYUvm18o34G6JmUzEbV7thprnhfp9YLF1vUo9h4lvmcrPmv8rNPkrdLVMJIT3skVtJUjfd3nt_L3G7HkejNUwCsoGsXdMOEsMTfTLnNuiFMSFPoIxNTClXp2P8eSgN5OA40OBci5tCahTddjChuTWJVBJSSs_x6Ik-N5-PmuewPd8Ey9qXLBPIwhCJReOkCW46iqs9YIRog0oq421tUEZCatRjkFhERWI9daZFiUEEDYyiBvLjmqtM0aERFNI", width: 1000, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102425185990427806682\">DOTON PLAZA 大阪</a>"] }
+        ],
+        summary: "공항 이동이 편리한 위치에 있는 면세점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["공항 리무진 탑승장 인근 위치", "우수한 접근성"],
+        tips: ["짐 보관 시 별도의 요금이 발생할 수 있습니다."],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://www.dotonplaza.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14537865295942592826", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%ED%86%A4+%ED%94%8C%EB%9D%BC%EC%9E%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "KIX Duty Free(남쪽 윙 선단점)": {
+        photos: [],
+        placeId: "ChIJJw6t_W25AGARP79bIr5VLFI",
+        placePhotos: [
+            { photoReference: "AWCwydheX2O6O_9moPoG1LCUYm4W8azwqsqpo1G0iealBVG6444MSMeW9wAkocZ4z0Afc5ooyhh6-4KCoVbzNGHMu7oj5qlDkmpGsHkA5LRxcBIi6q03Gj3YYUUaA64pcK_1If1VimaJmsCSPeX4diMoqMNbXOINH2NUXGk9sKON4ghBXOMxMbFoqhtfAQEU1xJG85up6LLNYG6Kb-u_1rB3LWM3mrMbNEpArO2ev3vrn5FzBzG2JfaQ66_4bRC5VQQ8W2U_IRHdOgzFqgBJjiAlGQ-KNUaCELabFIOy61ClNLhntJdf0O4DAuL0vZ_1559-jTWRIO1q7ADvKQSVcR-7Q7ttj8SGLRJ2vC0dGKvm6tk1GznP3HhiWC9UiuyDs3aGjenFsUqZiOdZ3vlBVEUpDNs5M2Aq15Tp9VicZxlscFbNark", width: 3916, height: 2204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114244647435480931071\">paul hsieh</a>"] },
+            { photoReference: "AWCwydg5ePsLCt-FcJ8xmQzZ6e-I8P6TZYo5AtDS_A6Eg0WHJAls_onQLk43irKadb1KIfLMSV9D3VbUzswhtoEeImPKF8P-xrZI30M4ywA6a3dNrdNmokSyMiKgXDUQlxinkUaCzyfjiMEQ5hgWxSxQiQryPBhA9LL8sGeMO3riFxA2A49ZWir9tx2_3zdcBW3SBwwVqJJa0KMBry6K9IgNU7Cx5-iJhK2jjtdVxXGiEsfGP9aYTy72v2q5I42o9rnxZh9WthBmM0aurD6qeNv4eclLBeO6hXFV3YM7pQRLJBdBN1xNeY0ZaXAI6rI-Hm2pu0WuZva0UuWWH9KJWkBFZgrXYguBglZ1lfAitX1NgGS5IQbMX9iVSXGwYy8TNq1E9f4VjPZ-f5l3xHHZtjePya9X_7stp_qxpaHHEmK8PeVlpj7E", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100506616126015146082\">Mark Caval</a>"] },
+            { photoReference: "AWCwydjUqPZ2Njbm1uCoMrCGhpzNsAYunsCy7CQPcJB8PF5jkjQmNDBoNkb72Ylgl5Ze-N1R1f4M4TQxQk_6td-zmZT0IEpugD1Ck5MuvsDU-q7E5W-AHDdFVIOzjey9mTO99EKg3_EF4oRgQvV8dZLfJJeAEweHlk03A1tsP68Sct-0Wvh5Qv3LcMmPIdyltZwOfWUotbmPMA3mpKwmrV2NygdsJ2a9uxrSG_RkiKef0RpcS3d1bUiYoJmOe0S6UWygUPDGHajGFY0NHMxAapKqi59byQEeY9GvMzUbVjYHeCa1_1DJebIokma0-w57vLglt6QwU61VZaZ0ll0_Q9ZuGGpjdA3dV6cGjwP3Mw_FXQSAQ3DzhJd0rsJ5n6CaMYPaFAPSQ5P9Muqx43drC-oMykXKxKCXY9lqCUdSAviQMHFmPQfH", width: 4624, height: 2608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115966563386505338765\">dr ken chao</a>"] },
+            { photoReference: "AWCwydhSUIbDyXRoHeHFYPlZJq6Sp-qDtuCEIHtMkZQ6J4vY2b0I85YBSf7PAytrdaFAOFRXGXARmdEBBqhBbL_lzxKCoz8CHUxeTj3cCuhxcesIKNkXwc7Zn1mY2k6COUpsrkYJxqzXbxTQGB0zzEgBq8zdE4N5JhsedsSX5mb2RcMOgFrlKjY6G9LcCO0UiqCar7XSLgIzMtrtdjmOL4sb5_POE_RRDwdQYOKT0iVvQOwuC9i9PLvJ_OcPVrH2OwlgQL_Yr-d6QW48S9RVjR2CQ4uvtBlIaNbjMckmJubSc68U1TBS7zNIXcYOyqTyJcCai4ed9KcVCPldDuyOAD6WvAHKWqbKv6S5tZF_Aq1ZzcGsVHgkFH1VuDfR0Iwtv2E_yvG4Wk76sYBIVxU1UZAF3AaHQyoDMqrzH-rv2tPWJRv-grs", width: 980, height: 980, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101873236303181091046\">Jt___01 Y</a>"] },
+            { photoReference: "AWCwydi_cUVnWCwjFkkAeOMGQUYTb6NJ1iB1U93qmNplHPe6bJ9mDfFaPtVvCvli_lyCWdq7K0aVaic8kNFzCHeks2VvEidunvMbOEaLwBMC0Q6EoJZPl25bl-Bx6QsiGQJ6K4NZLnSN2en63xELr3mgwCz201m2q07Ofu7D3ggtpaeBSR7SDqBIPglBOmdA8lgdBmES1LkLW5GbHqVehMUKV1ofwmr3UkUFbIsmpQKexyB1AzOVnqUA3CFJN97gi5lZQ6acYFArXHG0VlHxWLS7PpC0gDqLiOuVHjuc4hcgWG81EYtyHQn0OSn7RKYqlv1sRkgdk5wofewwkeflgkx_4P1xmW_Tpe_vCZn2R_mDSmTXv5naUjLSX8eCVN-Z-pNStlAMQYHPt2GHYK5fRk3TJSfBiHSFjDWkdP2912D0rew2Cw", width: 4128, height: 2322, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109798252390671936673\">문인석</a>"] }
+        ],
+        summary: "다양한 상품을 갖춘 면세 쇼핑 공간입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["매일 오전 8시부터 오후 10시까지 운영", "다양한 쇼핑 아이템 제공"],
+        tips: ["영업시간을 확인하여 방문하세요"],
+        taxRefund: { available: true, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://bit.ly/3J95RCO", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5921201885193944895", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=KIX+Duty+Free%28%EB%82%A8%EC%AA%BD+%EC%9C%99+%EC%84%A0%EB%8B%A8%EC%A0%90%29+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "이치비리안 난바점": {
+        photos: [],
+        placeId: "ChIJY1Oq6RTnAGARuvmAxMG_KVU",
+        placePhotos: [
+            { photoReference: "AWCwydh2bCT82KCATjDDfRE3E1k8GyEB5dprZyF33u32N3Val9lB2S4x-JGEsq1h8Va00AfIqclMseOXD26fSM73SZ7U9rYoW_HVqm3NSHYskz7QTl0QDVedo6765pZtl64Pr1OEkqHrG65gKBuMMxb6RkIOKUWdxPVNy4RxqIBHipSiWaGIeuRccGq1o5dbDggEuTCqa4PIUXhkB9zwXz4ejKbJ1QUk4wPNZYaMetmADAbgk3A0bkVZ16texU7hpC04MlCpLaE0wOviFdZu51ajpfBp406ZdjebACDM-Tqh2Pe-MsMbxINsNyJE8oC5bmyej0PSEW50k8Gqpqyb-VgDDf3ZlVIgYlCkoo3gBAIrQ3kQ7J5euyMeQeLpm-4xVmsR7QlKSY0g1TxeChIZaWNMlSbR_2bWNLiPsT1xcf8ckPo_3fGi", width: 2227, height: 1484, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112228717848982338439\">t s</a>"] },
+            { photoReference: "AWCwydiGAJw1KpwFxlWkWcJ6ViFs88HLvHpNRsLPE0jJNjR77FFZTVqVi89TGuPIWV6GZDTxVmEjCzdl__vioq7jzLczEwVAYRG8_S_fD0p4K-2L8hr6rvMwuWR3q0AtplbHnOFkdpdV2GeQ78bKkb1FOKbNT1jA8ZorfqMKZnYfcmYt_lu8ylEl2t3JDFyC7wr34YT6QwN_ueJp2Eh8jk2F49zGvMNiys2WagqTEmEdBFeEyt1Y7k4jfDXIdw07MB6Rt3_IEwghEz0CVs1VfO1orGC1U9aySe0vUtUHR0jlStlN44Kwx5T9Iy6XMojOei5-dS4Y_iuL1wtIZ4hYkZvDhs72vuSe1hSAXBy-LGoEKlElQYt38qFPjbM7HartkI4VaqnvtCcXgPVbrRPis1a3H-7IYwYYN6v256vNyQybmxA1Ng", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105260753470010098955\">ラムタル</a>"] },
+            { photoReference: "AWCwydiGRb0Cj-AAnlNxvVA14jyO_z4BrHPYlxjqH37e8e0BhQw6EdZqKBDgp2OkdV1C9Pv-Ctq21Nz-tEIzs1rPZC-tVN_O9lh8YedNIQEfdBQ0qxlx7oUeRp2Mr67L2kR2ptdyWNZ9mUdieMmVGoNp_fAbH4fuZ2zIfvBmq6ZAlPAQZZyx8ITId9IPB797hCslyu4OX8a1wOt6N1pgO6Qc_m6f4CsHFZ_1tXydzwQmFOJGJdIhdCSp6xGbFetbSrkGl2MQDVYXEPI5j5ic8zGOBheW1Cl6LwMxvLn6AOOJfh7_FIiRuFF0vO_aAqcfnxgaufpjqGiQBuQWqz7QRvd9fqCxieScisjgUcGvQJYAJbV6SgibtUpgUMpjch7hEtQIV-9gf6gJwuFZQaOYF84_9dZzekK1wItjYbK-F7ZbCNg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116951845923189518251\">CINDY魔法ABC教室</a>"] },
+            { photoReference: "AWCwydhVP54Pv7UcbQjgr9YaKsn-3jstlpqknoFN3sDU2scQ2aY3qnDfjIDvkqC1Rhwj1rfVS20tHI1WJxX11OXCNoGmhZIOzVLD6aWjBbTPXKy-Upj7lSofyU_XZ0JKcHD9BEhMQlPNGvhRUprhlq8CfWzfmeWVN7upOnSewBq-xcIIDBjxRHE_DlfveKKzPfXFGKPDy910mI8ubBgdX60P0Znow1l_pQi50jpQav9zJHgGVUs1rcX2w9AGXdIetTyp-9gGe8sTd37r0ytyf6PSYcg39hUunNdL77ZA8LqWbczs3lsGlY9P8pVN4zEOHQIU2FFSXc-z7M45PtGyT4MX4s0ZXv8mP4Pkdq2dMkUQK1ezbDYd3LbkOmXPEdeGjdUZBr-plCTvXnXiWSbbqXKAFfWmCHYA9w4hEZDdTbPYo4MWRw", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111995705591411713584\">Wai Kin Lam</a>"] },
+            { photoReference: "AWCwydi5d_PAKWeZeiav-uku3DE6QSurnCQKNMGZ4oMdsbFU6uAryQaeK17vdg0snY2rqQvoWAfIHQv64eMbAvCRYv4yvSGcvVlUswhcLSpULB79CEhg2skAMlvtCO7ZGtC07yZea29yDS3wSD-2gpKCXce2tImSEBYYDZgaF9r7XpReQX-E3ez5n59v-a4Hwg9YxtATg6Cli9alH33k1EnY2LXpq4jAW1yEqpu6Au4zA7Q-PjSRak0-GpjTnOrl7Q8oOrvIH7o9t66iFlXUEJv7XkAIfu_8da2LlkOEOlavjTx2nDWX6iNPiD_IGfLoEZ3i7onsNc_xqXhFsjI9yq-6HPp-Cfso7S56P5M5aumugymeKqiVBTcsycXY_vM7DUBolwkNdvPNTWjR0jWihOEpyDedeyBmqeOTQiTR09w7-WpgU7Q", width: 2604, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116448683495138452734\">bob D</a>"] }
+        ],
+        summary: "다양한 오사카 기념품을 만날 수 있는 친절한 기념품 전문점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 기념품 종류", "친절한 직원 서비스", "꼼꼼하고 정중한 포장"],
+        tips: ["택배 서비스를 이용해 편리하게 기념품을 보낼 수 있습니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 11:00 ~ 오후 8:00; 화요일: 오전 11:00 ~ 오후 8:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://www.ichibirian.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6136646806215391674", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%B9%98%EB%B9%84%EB%A6%AC%EC%95%88+%EB%82%9C%EB%B0%94%EC%A0%90+%EC%98%A4%EC%82%AC%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;

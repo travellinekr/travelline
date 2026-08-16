@@ -239,6 +239,280 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%84%EC%9A%98%EB%93%9C+%EB%81%84%EB%9D%BC%EB%B9%84+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "오터 하우스 아오낭 소이 13": {
+        photos: [],
+        placeId: "ChIJSXx8ejHBUTARaNblzFTVqow",
+        placePhotos: [
+            { photoReference: "AWCwydhXxUXY9yZBrMNwTH_Si0nw8Rzvr0AKu52qSGtO_vBiUZItejgeOrTmIcak8ptOI-8Wn0N5HZxcOZSrzewIRlzkcZT6MGC4ktWGr9XgfRLzPZpk6N23hlcYT4EekK00d-ysGka3YwjhFo3aT_Be6KCzfWNpdqZmhz0Q_zDsFrAjuqo-2NZRvL4MmUDYqjLWelLQajJMC9HfbFbu8TeFjrF5Q21ULROSkm86ZJUb6yJ89qI6eu7hEEjmo95_TsctewF3nXrZB3JXoXS-eLdCAt-3N16d28IQIx0J_qf8qCgOXjmzA4RnK5Bo8WaK85fRyKUgVGSyXYFyiOxMpI49HRKe-WsyqqNfnAGpxAdC91zlM81HdhdQmUgKMLMEy6Dbc_ARX3YI9ad1Al9W3vv1Ih5dlGn-1XIdBS9H2PZN6YpxEg", width: 4717, height: 3140, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107181136320217178624\">Otter House Aonang Soi 13</a>"] },
+            { photoReference: "AWCwydiNGyy_PucS5Duc_Vioz9ulOto-kHQ-49H8B8nd1RXSKppMt_Sm0JkIDTAUhw50lJs_G9o1QHB6ZxmbUWNBvPdzaYxniEBsb69978XOzQfGRIugpYEOCe_r5Dlj2sXYNInKjw5nRJW-4nlxW9mwcdnYe_Xx6tYmhX4xdA0mSolcCou1z4DTwj0zoq4tzt5rVh-M5E872Xr75bef4ayrdN9jCFcGMd-1xoFdiE49o6Jx5p0w-Zl1bBHqkOTzzMrNhMDrEB2s8fE4jEXzXlysZptBfFa0Rz9n0J-Ko4GEVshGaBdaYusqyJJ-Jz8Rkw_5OqjogLrEiJFJ9eJ4iwgtZChCcUigs2ZddlDLLFkWc9LG0Y0FZxo_AiqD9lz26AXlBZu0qwv0MgrREbZ2NC305LofgkCd_oUxgLaaxsBKpwB8nIA", width: 4800, height: 3195, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107181136320217178624\">Otter House Aonang Soi 13</a>"] },
+            { photoReference: "AWCwydhHUAqliHm39V1CM_z-AHncdMCsD-9BJK7TJHSntO0E_ANA9DqwO6tjYdNts3LwLiHpya3F21v9fg7eWbTPTTAhgt_szWEi-RYlaNjQwP29egE-8K-39pqx7XRSNgD4rRdvTpqkauejE7S7mtgrvjwLR6rtKQkk6XxGUfOdVaHD11PgBH2KnvwbnQoUgCMN0VorH39DWk8nNIZGJleQmVAcWwBm2iV-l6GUikBtA252rkWOOyZIwYTNAWeItMX4F4bJdCu2LYqDi8Xvg0F1jcBYLYsZYjcO6GCgH-9UvlVNc4uQkMI4hdwB1xICx861JYKj0p3U9vWwosrZm6n96jkidcn-CINj_CGc0-fy59B9S5gex0LMJcvn8DoZwxa9LFcQpiNZGNzSIfLno6wMyHFMdaACucKNsHd_jolcTnA", width: 1671, height: 2510, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107181136320217178624\">Otter House Aonang Soi 13</a>"] },
+            { photoReference: "AWCwydiFj7WJcP2sdtzPoZgTouo1euo0y58meljenCCz6hu5egpWGP-gNPh9tmKcYelJjXNH-8sBX9UFEv3j6lCcA96ZCu2AJ65A3Rg-4yef2SV1izxM2UOrDaEmWA4umTSJPaHWdey7BhSgJJTodSdmS0dZ1sxmAv93UkbmI5_R8BGsHrLUtDeovTrZqddRjpeowr_fix9C1YoQrdNeVhw_gYTXPyfcFxjs-nb4ihfqS6XUZQKhCGV8aOV4uoJ8Bed7tNefkaOcQGRavzpZXZkVQUVAZ86izImCx0_vNv9nP7jWnFA3S-8MVUi0QpfmuWkGfP8yGwk3wMq6S-msICwNkuw5sR_AIxug3_U6xCHT4UoS4d72VBnK85Lv3foAK2U7dAxGk_oCO-e891Mhh4zM1Rmi1zud2FMSdOu24Ab2xlw-YfjF", width: 2048, height: 1363, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107181136320217178624\">Otter House Aonang Soi 13</a>"] },
+            { photoReference: "AWCwydhqNOc2jUR0lxP-NewU40Zxhbg3CADjAZtp4Kbf1dQkfXLVaA7jnzXDJ9bD7MgLlWxjlHCuAHaSk43w1FgoNFpGrkCRCkX1RJRyHiBotMU4LKFC2tJZCErpCI3WNrcvodnH3LJv48pS-DdBFde5TV16MB6s9XWlEVuotfnNZDfzhfpVXfo3GlzExTi5dCTGVqN-00u4qh7ypzpdTieLNGKU4O2Yu0BOsc8o4RuAINswWoufDX7TAsmR5xgJuq7QJZzeZQepMML_GBIMJAc9tHWXxfjDlKLRRi61lzYQME3fSSfpAfxZvYIC7_u63oU5WviMhfwzKK-zEZxVBn18uHrXVTOHBLlo9EVaOPiQg5_my3gtA4tZ2vymO1R7SuGSdxFutdYJbDb0_nrLNkK9kBa3bLA8uQ0YUFGUYAjy4uc", width: 2509, height: 1670, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107181136320217178624\">Otter House Aonang Soi 13</a>"] }
+        ],
+        summary: "가족 여행에 완벽하며 주변 편의시설과 세탁 서비스가 매우 뛰어난 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["주방 및 가전제품 완비", "매우 청결한 시설", "주변 맛집 및 상점 인접", "우수한 세탁 서비스"],
+        tips: ["선착장과 가까워 이동이 편리합니다", "건물 아래 세탁 서비스를 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "420 420 1 Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "420 420 1 Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hotelskrabi.com/otter-house-aonang-soi-13/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10136148471542306408", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%ED%84%B0+%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%95%84%EC%98%A4%EB%82%AD+%EC%86%8C%EC%9D%B4+13+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아오낭 마운틴 뷰 크라비": {
+        photos: [],
+        placeId: "ChIJH9jHNPmVUTAR3WfaCW3s80Q",
+        placePhotos: [
+            { photoReference: "AWCwydiczk7WjYyPL-ejhyddKYvzTqgNM0LjcjpEKDnHgAZLwPQRkXtQEW1Kocd5iueGOmPNHTRwqgdfuFLvZHv4J-f5FyPk8yF3E4gAUPT02twvnuj8QkDqDie002qmyEKYCfbSQjYtRWzW533qxTf4QmsTUoIa4EM8Gxn1kcYr9BNMLa0rdM3FRWGmzfe7LlGn2_3f7b4cYT4G3N8tI2ixbke1IR6Csp1buJFHpuOLWATl1mfqwxDT6k2Z0mcUt_g7ouHIMaU_flqL0a8HIW-wiEMq3-Rd4vdJMnPuHTD97TUiACTjtufPusmHd2ZzQ4dBZ3rf6DsjTIvWobDi06z-CljWHTFFmYLUBiWC8PS_dBZ7L3b-3dBJWfLuhZYHNqMKAoh_XQdQAOM3YRcwwJWysLzheu5bdpRszRM5R4wV4ws", width: 3746, height: 2568, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111441435475437310466\">Aonang Mountain View Krabi อ่าวนางเม้าเท่นวิวกระบี่</a>"] },
+            { photoReference: "AWCwydhFRLpv4xYlT_MCH8kNgbRlUWwRu7B3f2UN6a-LDzM5VJRNId9yXWzEsoFTIjzPrW0PsT71f0pP_81FxImuQeMvoaoQG5A6lBZySCTKBhLLUcPs21g4nCKN6xOKlPfxCdr3JCgpS7AQbQ-gBuHxKq3KMT2Sd0OAdMq-NTPQOt8nDQ9rZ2U9sSsFaKUx7kqi4DrS8VEvBTsq_Kz9upfhsqSPXcHz8zP-qhe84CctdkGOe5Tyrf7y7JvSKRLfFCG367IK_Tk-nEgU8jAjObsLpKGip1mgSzCoO4dtRT5GuUSuh0lUSIbdEO4qXMWBQ3au_6BcXEPJippPjw6rdFi5AYhT6j10MRivPDubg_nB3G9dfGLBqLzM--yE0ETB4SfE1-xXa3eVM5yMzefk7-5gRYUBVH7udvS6mfMhnJnDYtWlfbeDTuJ2akuTQ51lsg", width: 1536, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111441435475437310466\">Aonang Mountain View Krabi อ่าวนางเม้าเท่นวิวกระบี่</a>"] },
+            { photoReference: "AWCwydjd9Q9zITxyfrXFwnpPJIxwNNMgrn05Q4rlo7-hXVmZqTyVhX9RtgbFuKVfYTjI8vVx_rG76y5lJ2bfUEd6AcbheUE68h5vBNtrp0Vy6sMPRFr_0u0BfI4fJzILjtRJJbsXCLX0r7dnlW32YbuFvereinDuM0dkB1rHnbYUS3-6pBf4QogaKJX4mw_7nrYuBQIVEQdAmQiwWElPhA8HeVZfKNNRUl9-lv_xRwDqqv5FocE1prFaKOpuufS5_SQl_KLlN48scgoqvOneYEfdHeg4D29e2PBagCFUnaFeDSU31iTkaE8AgidDaAjiUmQv27-0Rk8v9RvFimP-v3MK19G36O5U7zl9FXXwibx7X8Si_HDhAUIC-Em2gGDR6QB-sZI9I1Qg2LjyeOQmyvy3bHLzBfcsd3uslyx4IotafKB1MyGQtG4PkIPEFSM-_w", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100573899048590401463\">Mateusz Dee</a>"] },
+            { photoReference: "AWCwydidMZ06Gh7Xf6xKcSpXlK_JSUC7fB-vUs4MTY7PJB1tL4NAMLRqj6FvKIXnAXpq6zrzZl7ZZzwMnslbcnLI-GYXO0-GmsGb45j8QFxljmxmBJ-Y_R7dRJmJyVEBZgma77c8hoVjD0kPfHK6IiKgAUmQgyyE6saUgbxP_e2tBhrxBFRLWd94mm-_R82IuBagBsoxrD4Wv-HJgRIL1Hqvd0tnFmqXOs-m6oeUPMCzUz1XrXI-MiB8wT7w1O1KISkI6kvUSU8j7kUAG7uLiFPsHPDiUi3f-mxbe8ZwxPQU-xMc41Zkm_53Jn0sEJOs9V5q0a0AdWXv0P8UNqGUakW9yDqVxonpqw-nwjLRizEYqecC3w5GLFi1q6cqcycKkDaHY2H6O-ef1BkTvoUvYybseXnP9UFwlbwfgsesHnCfM7cad2la7r5fRylkC5Lhz1d3", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111441435475437310466\">Aonang Mountain View Krabi อ่าวนางเม้าเท่นวิวกระบี่</a>"] },
+            { photoReference: "AWCwydgB650d_FOlQb0bXnDbdgBv7AMntiSqBYXkiSnS_5bbynL2Tx1_cZlpauv4lq_f_tfUsGe9S3GRrOeI5TyA68Dj-m_lj4CjIkcffufOaBuwKUREfGWcyEqzqhgjrpObUMv7Qk9_V9HpzkTQEtS2KTbE2CN2fSaTnPf7OUh4twfmrGjrDa9a1NhpD4sEcubfHjhEhUydZHakglLS2bpLxDdP2ifXjMo2O_IdeeXLN8T5FBv3PcvlSN8z9AJJFZmsF9spTpNGT3S9Wji4qZ5cmMJn2U6w-g6_qYU6ABr6f3WSRc2xq_Gm2QHjxKWFWObfkk52GFmXcy3coPYLFjrqMhrOC1kKg0fLXZnNuVXOM0hx873O-KzvoYwMi6UbQ5CyhPBUQILBEJSA7baucQZ1V3pcurqRgowu_DMwZX28WyH6nUGauaAA8K_tWKt6h1Gy", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111441435475437310466\">Aonang Mountain View Krabi อ่าวนางเม้าเท่นวิวกระบี่</a>"] }
+        ],
+        summary: "최대 7명까지 숙박 가능한 넓고 깨끗한 아파트로 탁 트인 전망을 자랑합니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["아오낭 시내를 조망할 수 있는 테라스", "수영장과 4개의 욕실을 갖춘 넓은 공간"],
+        tips: ["테라스에서 아오낭 시내 전체를 조망해 보세요", "언덕길이 있으니 도보 이동 시 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "537, Soi 11/1, Tambon Ao Nang, Aonang, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "537, Soi 11/1, Tambon Ao Nang, Aonang, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4968574766980687837", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%98%A4%EB%82%AD+%EB%A7%88%EC%9A%B4%ED%8B%B4+%EB%B7%B0+%ED%81%AC%EB%9D%BC%EB%B9%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "JS 레지던스 크라비": {
+        photos: [],
+        placeId: "ChIJMzXft5OUUTARMVEJpxexSjc",
+        placePhotos: [
+            { photoReference: "AWCwydgV90txd1EdQy0aWPDn2nZkyrkTGzaygq_7HtlToApHoQ3Kg7hsu50jKYkZGAvYKd6WucFRVN-Ow4y_b7XfOt3CJz51wD9R5lMuHz4N6BQFOZmDbfu04J6QIXHXgJ2--LIsxtsrr0sXHD9aGHdM9c_R89u-x_-nRbeZN1VSRfiZgtecbHElNLm2WKOCqZg27taOf8USnuprn0-OotH9kWJL0vbqqkWR84DvEl8bQ_FYhrtS-gnsdyAvtikDwHDHSMQiyx63BXlKrfuYIVmArkXYlBGYzvoE3qGZJEtFOhgGX-7PHf-IQ7zcqggh3y5c4EpceR_WW2VeOM2I99UGLs4yTVSpkAM03-J6K8Lix7e3p583U_OPECr-eVY-C_9O3z4mmffiNdKl6pibMB52_ajVYvcqeIZ4IuLPGwmTvdV5w9E_", width: 1242, height: 700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100637770031828462693\">JS Residence Krabi (เจเอส เรสซิเดนซ์)</a>"] },
+            { photoReference: "AWCwydgN48EHcrOkzPxcInodee3QSY3vmg67yLWqjpRFDIfMoc_h_gP-ggIAizILjXWxSCcirlajAmszN9Lc1F7a7mJllO1ndlWu4xAkkCITPLQcgW2GZYSVjCmnBCbgFhJK5jy6-kARhAV975EBooCOXGXsT7zdjxqZ7k8hJ2Sk0b6ZqMAtukEHoQnoaIXHsMYgs0gNfZJdAnTvjKgb5FTA2nzwegTqCzYMSLow4660gGDxCtXHVsEbsWvRZoPQnf7QpOiMEBWl-P5PlYboZUn_kWFoMW1xWR4eUwnRtd5DrTUWUlwu5dwuYnZ1kOKM1QT4eRZofDVffyRhxBAisZAajTTARywj-9uDmO0NRqYzkFmWFK3q8xhXQh7VQxPXQKIMlq6i_yO7qJMtSovlEObAHx_a-uwRLjhx7DGTbSdRqqNEXA", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108786560180052105203\">Vit Su</a>"] },
+            { photoReference: "AWCwydjOVCax7k9I5KTVrFEV5NrPiY-NLnWm7D569xTvp359wC2usXKxa_bxbiPpAWhN7dEDzhebysCLeaeW0GMlD7jUKWYQ4A_zYGfFbzPv6idV2Cmo-qldkRdXTndrMnXyykKrxvFCD1_McUSWG77CoGXxbrYsSoK2WM7epLtgdcxqvHlm-Yw_Y7Ssl8DE8ucDHk9wn2UfV-K6avcYEn4IttVIdSLmkmjkfCskF7Q_aPKpaRbnekqsY1GnfILv-_yIy3FG5DuaZ54U4AGHjc9YgufNZ6t0xiWt1qqH1uajyTdyqcmYSOokJUBIm3Cl2Lm240RmZ0qKP7GBAeN0YB19CFM6EIUc7R8GBgv_m315DfZLbJ4luLtU-0Bikt32SLBn2FveuGIJvE0A1Dk-P1aSuQ8l6tXzB811Mz_x6maTl0u9DEXt9brgXOn0bWn1FbRv", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107933472970972393322\">Kai Huang</a>"] },
+            { photoReference: "AWCwydg_vyNpTmnHuIiAJUVk4oz7linw4z2aUZx9YxsreGghW_FQlhb-Q0VDa5JeSPib5uw4FKDqFWVZzQAa2XBQMHLPJ3hjaI2LvbNjPAB4ZE14SaQYZ86d90m666QRnLfhqcndCy570oVO4VeZ5kFDScUNyzqsP9IIF_BfAJbNuDxbp4-l1JU_2Kv6r9_CtRJczkz81sq9anwrC0WsUcI1zt8LB0T6cxnCu-E3QGPTEQlduBjTIAjBAgW6nrW4URy7ykVZjTSVB9RLWfzPXUfpKmUJjOSkAgFPUAuis17YT5B5YCKE23v5JKMF4SUnVb0I21zP7TG21s9h-CLVKro0APnKDIvdqvngdHGhWAjLMJTABkjd9-20JStjP2zL6TbNHRwnxnINyfaUW4lM7JIYb5J9n4BXzusxluu43_3BPALQXg", width: 3540, height: 4716, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108428639000559603545\">imochi</a>"] },
+            { photoReference: "AWCwydjGXPvpFU9DML9-MIKlYoIawrzk24LC9zfW2ybKy0XJJkdk-_Wg0r8ue-duocZHwYbja81cFv1Q5O5nvZjpKuXPdZJnTuRfVKAue_sgEYFFwHemvOgjcSQo_sHNoCXxBuHN_dTqncMeZfHzCbUfNtbgNrThTCAR9HqfAbyYgrVug9DX_MG2NU8bxcaOyewzW7lD04-7vNZ-m0xwH-n4qMcH8UuI42_qh5IdKSEHQ2tgf8mw-7F3NHK29DnZ9fdhiF1KRYW_08cdpHYvktROPbzWb-Hhn1Ze3zkXQNEk_CWGXcjH5MJ5bRD2zuOQLgXIujbhRRZo4LEN7DBndKy3-OMCbEq946ighYeVAOIJ01xTjLAe1SBfgAPpWwozYtvjWLRhl_6aI31uwCvLBvPIddlfwq4_pd97yWZ5__cAj3e5PfRStLdSWgFOMLd8ZKeh", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102051741264968177943\">Khun yok</a>"] }
+        ],
+        summary: "청결한 객실과 시원한 에어컨, 합리적인 가격을 갖춘 조용한 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["조용한 동네 위치", "깨끗한 객실 상태", "친절한 프런트 서비스", "시원한 에어컨 시설"],
+        tips: ["오전 6시부터 10시까지 커피 이용 가능", "자차 이용 시 주변 관광지 이동 편리"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "143 ถนน กระบี่ เขา ทอง ซอย กระบี่ 23 หรือ ซอย ระหว่าง โรงแรม เพชร ไพลิน กับ ร้าน คู ล เม ต Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "143 ถนน กระบี่ เขา ทอง ซอย กระบี่ 23 หรือ ซอย ระหว่าง โรงแรม เพชร ไพลิน กับ ร้าน คู ล เม ต Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/JS.Residence.Hotel", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3984191535507394865", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=JS+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%ED%81%AC%EB%9D%BC%EB%B9%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "노마드 크라비 아오낭": {
+        photos: [],
+        placeId: "ChIJczjYqcm_UTARTx8DS1aQSDM",
+        placePhotos: [
+            { photoReference: "AWCwydgx_Cpa_rQd15X0857WXb_6ge0jF6Lh4DcCPU6LibhJTpaFJNyLUzjLbGJ3PXJsnC-7e-U4hu9n7bSvwRYU1CagxZHnn4lqeESyzSmyOCWxPd3Fw8ET1EVoSHNSYcpSdg7pFLT1mtFTc0mBo7lSxtlCvnSSLHCwH2j05M7DDuZFbLycsEBQrezz-K28ibT9HyUOIVzOOCM_qopSHKHrJ5bplJ9EadBZ794aNmH4o1Ev3vbAHF2L4QroUasONHl-J3ZXIMryj9gVyydH3AuOMKBjfxCJlfD_4UZaXNyg7o_6ysTQSZ3kTR-hkNafaeI_8_4Ygz3sl8mmqeao5kZ9E9ALQXl1q5-Jzaff4XFK25U-FX32OA3c3znm9YIb7I1hjblFMnVCm2XMrkaT2x02byZhp3O8VyBUNJJQS8CFo5Fvx8SC", width: 4800, height: 3201, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113378255888062142769\">Nomads Ao Nang</a>"] },
+            { photoReference: "AWCwydiLbbOad5KVipCiLh8HWfay2Z-oEG5W7OCdgCUDx7A1nRAUjsfq3gCe1x0U3sGQTWWmCO4ghnuZplCibgG-bmJuQV3r7stt9eWkSP3cmwbgQm6FGWyMaOQYEhK5xqFvuXqLnE0iJ9iG1EQez2VCqktsm6kHSh48ls8QhXnwPPAr6qLD0fiJaPDz8s8GhMZMXmTaHMoF9EVgRTN_Fa5q5gFcnobTGIrKlfKTl_ZZFPW_RFVZneEGMDVvHl2_T1Pfr-Ulc-tqZAXbGH-ROQaHTwaJEjCcF77rcY3L5jSJVG-_Q2jsIuMNClg1gPWnP54GJyg6vhR142dgGuQY7RGWY2uKSsOUdMnzNe65kCsJwyQcFacWf_UEeDkFPeb9oe7WDd7Pi5_qmXnCGGXuJU6Oy_OcDoi8bosH5Ew8BYPZXx12eQ", width: 1920, height: 1282, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113378255888062142769\">Nomads Ao Nang</a>"] },
+            { photoReference: "AWCwydhUwev5GySpb5v1oCvx8U9PdIq-sLHV3bUHc1RKU1uvCIE0-7rbcuICEFxuseWza-EpOdlLPo6rABethAbF3_aG-iD0l1NUdM0KBwbXoUjrkhVs0SZYN5TI-zYefQx0G40gO3QUrAeUS7hSUjqzsl6jgzHedZot_K3PXU-vbucHnz0YRRlX94nB4jFUY6rqj5oLwGD-8VQQosL6MT7ZYMJdmg5Hl-0LYHXV3foTsanVFLb-1tDzlK6qYEYZKcCcVUAnHMv8Uve1-5CD7YRDq7DE3zvFImd_xNNa0AqGwcujb7plLPeo2Gj_JbM6F-O5zKYwshQ57Z1Yo1982KQH1DKdB7wCkNBYPQowJN430l4dtFKXPiTYa5qMLil7KNQkIJGNM9wa-3bUGIGEU0IcJNB-BLyUMI_yP-sOZClCnYM7-Q", width: 4386, height: 2926, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113378255888062142769\">Nomads Ao Nang</a>"] },
+            { photoReference: "AWCwydg16UDJ-7sGkr4WQZRe7cYT9NoXeaXrwoBWxeHFEYs84XwuRKhS2Dkm2JD8GOYczgzNdMqNJ-fTsKO5bMn6QYLFRZAND-ggwVsH85sah0tGgN1Wrg29Ns1NlL3sKqv0bswRwrK2-51M8cRMUdbpxDe8BOfovjJCrEBjAGEUUS02F3JFO63cWfm9mh4mlAqObM4WGXkDSVfgza1MmUI0CSBA_GfcZVbJYC7Jm7CCEuPhRDUhNj8Ug4P_BuFmkQ-R0SA4CeFi1rUuNEEItUjL4w3Hzq9uqbg9MoiGV7_JVV81SjSCLh_GZUSZwqs5wMhHz-eL9ep0XN4_WTKQnGtcn5MFDuALYIa7HeEO0Dk2xt1npap17YivGXLgtlFu5TJpbgrgFg-uxb3ZBvxl7muGNGENOWHEFljEeKAcAw8EN6oyBwkc", width: 1920, height: 1282, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113378255888062142769\">Nomads Ao Nang</a>"] },
+            { photoReference: "AWCwydijbeLxQG8jJhZzsCynydjl5bbdgB7-7M2hihbV6CPr3-_zrQO3NPM5Ik1uLdaUL1yApaEa0-FY0VsvPK-8fv8Y6s5rhkzpkUqx3ZNmaTVY1X6qXXK1jZA_3OO6Yh3UsxtTqlwA5SGxALOGkF_O5-wEWLsQK3tcaOkEXWGIrAdwJppYEN8cV429WAaY0lBuBq6Cv_jZucYiq8p5IWN_lFrXWOsDdoKXiEg_n_6azbYlxP2bD1TnT0OB6OUN0L0deHqfCtZmRChCcPvpL5wA6-lbbUHIK5MOVCBSHWfUoDvPOWuQjB-udTxMX9SYFK2EEVJ9abJfkA2SANa9BWnVylxbvFTJ3HgHXPkjCcyfTiVUuvJ0_ym6kXe2rNfw-hEHyCeL1XnEcxBth4yhM2oXpcRIZlZsNeOFEOQTb8iGAj9bAA", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113378255888062142769\">Nomads Ao Nang</a>"] }
+        ],
+        summary: "최고의 서비스와 활기찬 분위기를 자랑하는 고평점 호스텔입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["친절하고 세심한 고객 서비스", "청결한 객실과 맛있는 음식", "편안한 침대와 활기찬 분위기"],
+        tips: ["혼자 여행하는 여행객에게 추천합니다", "활기찬 파티 분위기를 즐길 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "152, Tambon Ao Nang, Krabi, Chang Wat Krabi 81180 태국" }],
+        location: { landmark: "152, Tambon Ao Nang, Krabi, Chang Wat Krabi 81180 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://nomadsworld.com/thailand/nomads-backpackers-krabi/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3695362194557574991", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%85%B8%EB%A7%88%EB%93%9C+%ED%81%AC%EB%9D%BC%EB%B9%84+%EC%95%84%EC%98%A4%EB%82%AD+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "베이스 아오낭 비치프론트 호스텔 바이 노마드": {
+        photos: [],
+        placeId: "ChIJqVdFJjbBUTARq9s1nP-V6Ms",
+        placePhotos: [
+            { photoReference: "AWCwydgLTpFKaRhXcSUzD2KDxDXFpV0GLddoYnRC_QP9r_FjWavxqVPzWBCKjZWWAQyTGl7hqm-bm5qag2Wt40R9Q7TSNZ4IDCD8klcBymkLoMQ0QYv9_KOQXpNN2_M8BfjaLOw9Ikv9Oll8VGYIbGqIzl0ef1vBuoorycwc6nLZnE8y_zgVXMtwgbI_TWn_zzztnuKWl3WyPtZMhfH-8axdi7Wb1MAIsUJP1hy7VprG1bMsQsqPRcQMabwJp6UWQXLKJF6xHrIYslZu-7C0MyV_CnMkXHcUb-iNBuDnwjL1Ca_6e_vL993NcAr77O9f9v-Zqa5W-dRwcoPOkZJpc9baCNEY1euhz-Iom4zDDjJ7ER1XiJ9CIAe5QpA7h9ndXz9vJVaJ7zvQelOLStEy3fNDjTIRFJm1ySKnxUnnfqPvACuaQQ", width: 2000, height: 1334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115900819395566168407\">Base Ao Nang Beachfront Hostel by Nomads</a>"] },
+            { photoReference: "AWCwydgyrI9TTGsRDHGbhmPbBu4yJwuGU2UKILY2UN-Fp-xpHp1HUsQXFj2QAlbg-CCjEH8IlexnFMYAd_HZRoXHQhMFNI_AYhoAXAqLRPUJnkZCSAGChQ_BZcZheAtR4xf2YdQ-xEkOaxeTYbq5iuZCJWaz6UE3NWU0VClKjJuwVGOxAzQyFAZHPe6c-4x-eWiROan7eWCyCaoSknNcfEbOkYg_7NIvMe89cBLK71BpyZeh_sO5Nae0BERLegXgNhYAl6P0G3l6KWhGtIsK0TExVun3dwhs7j4jKyXlr5AmN9GRVcOOL_9nmH0Ufo5Id1dOtMvZeCzJxZM-_m8sIgcaD6zgUnD0C0BLyZ9sMeuzAMBoYWrjtYuebdoSu-ncyF2pUiCJZ1PouC5En5Y4-yI58ivV2KXAjaE2yu5f8zS-lmk", width: 2000, height: 1334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115900819395566168407\">Base Ao Nang Beachfront Hostel by Nomads</a>"] },
+            { photoReference: "AWCwydguufsn42vuki5ccwsbASUQLM9IYccKe96Cmytp7NNPjzwYSKYuFATHnDRJnAmMPY667UGjTSY92Tgfoe_oAVY9YQo-JnDeYLXqIEpzeielJdfYv-w3CMYinoXGvmppMwmOvYmko3DYG_2bSh34d4wnRNEOpWhiOQGvVIBvu_NT0KHbmVGe3GTDHiHAhDYU9GOaXl2w20JhE8c6noh7fN-cjwvmN6-lM0KlDpKkueRj4OajbIGLiHdAZcZaJ-ntlv6GQRib_WedBJn1uQ7ppyGlCl-gjZhC-TESMIw2jj55kAzFLJ5O6lCxRh-7qfbqveKpIXMEbE6PxEkAcrRx9-DIfg3JQ3cHj174g0F_n_4b5BJEQ5NDsfjqPK2c662kWnGMn3ZeSTxv_7qSweKrVbipuzxnlch33NMBcSaDCnsxnzgH", width: 4800, height: 2882, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115900819395566168407\">Base Ao Nang Beachfront Hostel by Nomads</a>"] },
+            { photoReference: "AWCwydhG_gimyFD0s8pPIQBnnU_mSMEPKXlGHabpuj7wstUgn4dClwQhz4AgEbiRngH82E9KW6iww_rn_gxlVDw6W68_UJo3X0kxoVligH3sHlzVbopFbOlRYlEXwTZXDY_tiwAvGQ4H82aZruy197W6j8Hmn-6R9ZRgP6y2uz5Vvax1ZwR2wkX6Mdi0D5QgCdn4UicOv0_qX0YoIT72c74kOyj2KZEtcXif5HKOi3u80sbySo6hfUr2DrLwPf7llJxh8WivcxnacKeUaXc7oUYxlVHM4sYI-guCVAZxcvbIYldydLFZq7hVv0lXQVurzcUWZOIDiNpxHxzJMUKIB2EueABM3_kExVLqCYB3YgFeTEfyl6vunocBf4v_rm1kCTe2jJ39mjaaYhgo9a6uYmKOLzlBpaMAQGVRszcmCpndAx8", width: 2000, height: 1334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115900819395566168407\">Base Ao Nang Beachfront Hostel by Nomads</a>"] },
+            { photoReference: "AWCwydin1XRBJ-H9kzpe5EpB4STbm8bc_r0Mi4zetj-2ZLizZZjMov7uskTt0w2YIEi2DPTCAor_B0VRkiGHSBm-k0WSXCjcqDvul2v2_vRchGKQUMS-8q-Jm6DjN_HUnFmKh78Fvm07wc6LkAvPtwaCdVeuTcp98IyPNRUyNKEW2RXv_s0VAF7inpgQUbgLAwZwnabgIzNNHT5rMvwiv3-SzEIlwHLqzDPsbfZYAFNlekUxDaE4JyrJPZU6lxJjnyayPqiiwa2bVi9ToMaBSVJ1I36jWOX0IX4eiZFGw7KUeDgYNtBdYK0w1gVUxThtiCB47F-xXTdft8y1FU3YSMWbnCozjh45DM0C2AZb04b1J2KuFF5M-fRzKp4un6eilryU9M8wngDur9-SEG72Z9EcZQb_5ngn36XuFIK57WEuWAaMgg", width: 3000, height: 2001, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115900819395566168407\">Base Ao Nang Beachfront Hostel by Nomads</a>"] }
+        ],
+        summary: "높은 평점과 따뜻한 환대로 만족도가 매우 높은 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["친절하고 환대하는 직원", "완벽한 위치", "깨끗하고 안전한 환경"],
+        tips: ["나나(Nana) 직원을 포함한 스태프들이 매우 친절합니다.", "주요 명소와 가까워 이동이 편리합니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "142, Tambon Ao Nang, Krabi, Chang Wat Krabi 81180 태국" }],
+        location: { landmark: "142, Tambon Ao Nang, Krabi, Chang Wat Krabi 81180 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://nomadsworld.com/thailand/base-ao-nang-beachfront-hostel/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14693158709366217643", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%8A%A4+%EC%95%84%EC%98%A4%EB%82%AD+%EB%B9%84%EC%B9%98%ED%94%84%EB%A1%A0%ED%8A%B8+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B0%94%EC%9D%B4+%EB%85%B8%EB%A7%88%EB%93%9C+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "탄 호스텔 x 카페, 아오낭 비치": {
+        photos: [],
+        placeId: "ChIJtcmOhQbAUTARll8NVZUIxgY",
+        placePhotos: [
+            { photoReference: "AWCwydgC2U4GqRQ3TJwk1CvKmLGCld8AomM_clknZvIJiC5yl0_aE9BSUJyuimjRt5LzYhs-rhXYFi1mS1xg-TCgKh7wfjvzqIzTxC3ygMN71yrQLod6Lt5_0ZAldiaRIqjC9AxUHsW7DlY7WTqEblFytiKYAaOdhxg1PqU8WIdTNYEpyovS0hQsx-zq43NiWCXJvv8md7AXnDOEV7YuxT35CRIJG1j917KRjVqhasrGjGtVBEEUtIdyEv2OEd9T3bLE6-3CXrc9crIt90ZCuRNFR1_WzWsRrb614gKlK6AGZRPjpzowP5XMiEhvlTnsXLf6uFbeCiMoKn_QrkYHDI1-574qAdTVEgiteBe4NFx-_aiLPShV5rd_w-3OH7FM3NSOLaPmR23OtrKJmLtY38nqds4JL7srlVBveKosVajqH6-2WDeE", width: 1706, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111938499093073651889\">TAN Hostel x Cafe, Aonang Beach</a>"] },
+            { photoReference: "AWCwydiBJfEczs6_1cYq3RBf1y3zsxGTs0Dzg2NguHpEvUCgw_chABK6DaWaVbsbZ8ISleV7YjLJck57RcZiI0OAr6diumHLDd3Zx-loS7LVfHrG6zKH5KbAa3rx9Eg9biZn9W5BQ4g6ONgbC5r1s7wbTnDtlBKEkO2hhrZb1XyVSN27FGfCchpZY0SRgVALM2C3o5PcsZG3VDZMkQsVQn2tC_CVxts2FP1lGIFdQoN-meeAAC-021WbO26Be6KFI0qo6uR6gqjdyMLrvBvT900qtR8GrVcTO1vXgw6WXyv3VV2SijnNFLe4jeIGg5CCqsgY0oFcjTc8K2c8cIULVkcMwJeGhqrb76LfQDPaERtwlhMud93vLxIqncxxcfrGZitip1_gPtqoXc31LV_uA6dEJ32xShfT5sgBD72E8OQtK-L9gQ", width: 1535, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111938499093073651889\">TAN Hostel x Cafe, Aonang Beach</a>"] },
+            { photoReference: "AWCwydj_LcFIiiXgTGnTuoZrrrXzlji68nEtyw7oId_lBN33dvP-ZkBFVNR6aq8E_m9AzWkCtisNKf82g2SMdW5nFB6vZLT2yBpGBLsY_C_--Wucmk5TZNUTtji_8vEzWtSmDduETYNvefVLQjurBGwbioxghKhp20l3_j0S7U72LJOuwgcWK6l-TQ45W2j2UuoGbQYbspRgbI-QNb4yqXU-lzyRTRrUOEmbU4xH_sXxpIl-8-4FklO3Vk56TRyYzB5l5xZVBdUBcdViUWdSv4HRWUKDLtOBnYIKqVjEeTrJuCc8kTZyAnHDrz8EGBQh4lmYp0-hy5kE7LF7JwRPuA2Rc9ZZGI6EqxJZt8K9OWV6dhZ4NBMGIcgBqqboXb1YFyiWlGBaDlh213CQQc-EOxdBoCsFXO7PFX0N0KNQZaFstK-zPWSbalymESAggi7c3g", width: 1241, height: 1754, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111938499093073651889\">TAN Hostel x Cafe, Aonang Beach</a>"] },
+            { photoReference: "AWCwydigNXkJZwqYQfrihG46pLbrfGYRXmHfxyNSPtY6obq4aa_EbREnm77LC9qPIS855VNW_RUGuElDsI7S1A-qeiVje34W_Gefp8qS1h7jfLoLpObDs8ybYNI1glthkIGMbXdn7OqJY2Q8PjbFfZGXpXNfqs79kOk6g6d9rR6UpoUBiHyC8d8fNAaIsAm5ZbpfVw42PrQfI3BqW7vgcNyqg5JtgTgIlG0lfIsDW74OsNRjHfwJsh8rdpcKajeBkqS1jP6twukRaCaM6HAF2bUh5I10AtpV5OMzmrJwJqD9iuWqYFAryTHFILB6jf1Hzwbu8F4hg-F9WFeNJbDIr1L-xvNJYKZBERFI4NDWbBPqGIw5cjwsf3aipd5fK3rk8qpEMcwIMFZnnaEkSx7gXDA3V3Ji1Lx93tMWW74Sd4PXBqv8eKPpT0v9tZU7VMJaryoc", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110322501676965018585\">Buzza</a>"] },
+            { photoReference: "AWCwydifiBKAdeP9Mv9bE3FlcQOhm_R6HxqBr5JX4VX_zttrL9aegqg1t7rDQZ5GaAIy_6ucI28MQEKodEjO_fC56xnnkqt_dqRxoRTVbB7F0O_JhvySaDTw0yq9JMUmQYqQSmKeesUoPbLebTGQ3sJC0dXnhHN1CMRDaOquD4LWdY0I-eI1DoqpFhH4NgP1zEIdWceKR6pzqzYHCvmqIhyNPCoxvLHbv_CqK2NZugF4rOWHp8c4gSV3YwYzwk_3rY6KkFkgOtQewcq8VRVEzd30gE_-rMPGao7miCm6RwiYelOwIUA85FPsJYy3wlv-vxHtih8PoZb-7TLL8xh5TULbO80qDNSWImhcNLIffTQ4RO5b8Kp81D3UFXjsXHdDY6Npdj-9EhO6oHJW2fxbVNUu5eDsgrtjpwiFaaxKTFU_VLg-xWDgcAYzS-VZjhE5Ueb-", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100184612636935868905\">T E ARON</a>"] }
+        ],
+        summary: "친근한 서비스와 훌륭한 음식을 갖춘 매력적인 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["새로운 친구를 사귀기 좋은 분위기", "훌륭한 맛의 식사 제공"],
+        tips: ["식당의 아사이 볼과 포크 버거를 추천합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "249/2 4 5, Tambon Ao Nang, Muang Chang Wat Krabi 81180 태국" }],
+        location: { landmark: "249/2 4 5, Tambon Ao Nang, Muang Chang Wat Krabi 81180 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://linktr.ee/tan59/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=488087047086366614", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%84+%ED%98%B8%EC%8A%A4%ED%85%94+x+%EC%B9%B4%ED%8E%98%2C+%EC%95%84%EC%98%A4%EB%82%AD+%EB%B9%84%EC%B9%98+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "팩업 호스텔": {
+        photos: [],
+        placeId: "ChIJJ9MSXZmUUTARU4LjeXi9ExE",
+        placePhotos: [
+            { photoReference: "AWCwydjBjeUFFtF07t-Jqsj49OQB49Myt79wXQg4-njGx9CEeyQ5uE2MPTDVjktVSUNPKS7YyMX-oXBUXNnxFMVg13-twKMpdmO2Ol4F2SC8RyGo_IsHG90S415U2cjy8F_Zprfs9GW2vQ-0Y_fvrwMWkIc-yFOGrtCO8DFzYVveclb-5hJ4EcQ3nYvuokecofeUb8KmswIDQLDKi9wnKHnWtJuRhhtTTeWSacDZakdbBTSBFgW9jl5B6do5n2Yn5XV_bJ1FOHBqT7XXjWuFmSFPAIR-thBYQ2gOM5_SbSjGHiBxJVgvGOOIq00G0HuxpPjSs2XkIwB38fB809_iVhbkh7CPPA0ffzn9sOZVkfHP3YOCIWyFAyKVVWsmppIAbv4PXWJT7QOfxoRFqv2oPDZ_hTK5wArmW0CDn-zY-AKr0tveWA", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117204915204362174318\">Pak-Up Hostel แพ็คอัพ โฮสเทล</a>"] },
+            { photoReference: "AWCwydhuzXN4tYFm219l97KCLwjkdtuhbYZvAEsEXqStsRjfc5TeQ-vm3-P4LiYEJE4yWhUPQIVQQVE-lnseUAqKax75z97-HsR2HrUN2V5Vaz9znx1VB_uBYELr5dVJ-kW_dC3uvoXXGtNrsDFdnyeQfMHize_qlvGxOi3S35mA8A3rlH00xWfKlftFA1NEGZyNPEyLU_7R3u1ZdpNecAJGK-_vxK8FNkydABQlliu7S-Stp6SY5QobDj3wkttFE9J1NFU48N_lFLpsnpH0MK3Gn0OAbwsS2xpt17FCSr6JkBNL9iDJXKybiktkBPObkwZzgpzBHa3uqBoPTXZdfGu4brCINDU8S4yyUhL6OkO6XMPSYVYCjSFpSbSDvqAOP80cCQKweUy3U4g2YydLX_LCRMyuLy_ghNdJwnE_ykQXuMzMmakizAuYNo-1ooUgiwtE", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117204915204362174318\">Pak-Up Hostel แพ็คอัพ โฮสเทล</a>"] },
+            { photoReference: "AWCwydhdKbeBzA6lDNCi3zezUwfdCGkhgrLLJqKN18wNtBU-_Erj2dpN5CPfjvvH1C3iWSUxQu2wScq6POa1_vku7H-VAM3wDz2SadeUN32AvWQD0CFuKfWOvTw7698y57Y2TtFQKvdql3qrd426jv-zs3HiUUoP0svddT1OR6G5Yu-qIy9P32N4TKX87oG-IDuBYT6oYkik83akZovXtsh330_hQAv6vyKkvHFVSYyJofWK2F9h3MnIVnqGVYHogl4eGGN5FFSHishHGIoufW_fXuoNPkzwFlSkPSN2ewEDKNFhRrWdaNMBFMH-976DyxCh93yQjJUbQekIr8KVpJmxkST8LE_IpteeqpuNJglUymk6o3gwNC_cyY5kOKlbk0iV9th75eRSw0rF_abux2CE2ig4wN-ck9ze29YKpI4C5xMLzY8On2iq9iX64rezBt62", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118201109014442648081\">Siddharth</a>"] },
+            { photoReference: "AWCwydg9r8jglQDk1V3_GCoSmHbEitIZJckPMTNdxBTuC6xOmehiO74OPE8SD9syGfUggb_2sw9qwNo8b2wvyE9pte9upHVJETSGH7wpHKGnstTA4hPDj1yhd9hsdt8nRzG7DdBQhOLHxcSJNwdWIVCs7iEfPqgdRoGnNvUlnDWR1TKQAvDpkbFa6sY7kRyAh-2IqLQqUmtPc1Z9sC2be0crNKeJx9KVA3KjDvno5rARxR3OrPTckeJYhNhI3o1czP-TB1p5RHQQ8nQADFFU1YrrXrgG9YtnrtSuGPuxDUTY4CuikCD-Y0lAbBMw09jetyoujz1QsgHVy6xgG060sKUTF2cI1zg067q4WVFdfHP8aTmYeSU9qAt3ypBiJnC_Wmwjg9ZFCvA0hg5EIWPQ3vouOCFgPp1JTrJZBULASqCKs3s5MwEA", width: 692, height: 1037, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117204915204362174318\">Pak-Up Hostel แพ็คอัพ โฮสเทล</a>"] },
+            { photoReference: "AWCwydiJxJPZIj6llRzOF87amrHtx1hY-_NwWK4EUBoVugE40gQ7u88F1G0fgK7H6PA2fHxDMAh5uC83worY4sj9GnmK4HMaOsHrjjqqbmRKUfxQg_Y8NlWpoMXKfZaUmsrmPahYWgefeA04Wv98oTUPL_V8p9Sa13AMAiJKMcA6_L2A7BAtGOgRUf-7HC0YptIzHCvpHJUWRZzzvV51mExOlSmdU99gZ7rBSV9HaSM4hoSa5LHhcZzLYdo-1cvMAgsvAlNArmNuoW5_iRyIzo1GAja67vB1TcVw5Qq4id4D53KlGvPF_Uhiw5X4R0OsdQntr8CfUVqZA0IaEIBqnxjO1i6AUgygQAylG4I-0UqCHPszCx0L9zcJNfJVHodEfaIa9BNES5J3V3ygTPWqO3t_T29vM_BVONL8fRMRMPmR1MiPJ8CN", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117204915204362174318\">Pak-Up Hostel แพ็คอัพ โฮสเทล</a>"] }
+        ],
+        summary: "높은 평점과 훌륭한 서비스, 편리한 위치를 갖춘 완벽한 호스텔입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["청결하고 넓은 객실", "전문적인 서비스", "맛있는 아침 식사", "여행 및 티켓 예매 지원"],
+        tips: ["무료 음료 쿠폰을 활용하세요", "편안한 숙면을 위해 제공되는 큰 베개를 이용하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "87 Thanon Utarakit Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "87 Thanon Utarakit Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.pakuphostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1230535448340955731", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%A9%EC%97%85+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "글로벌 비치 호스텔 - 아오낭": {
+        photos: [],
+        placeId: "ChIJFWAJGqm_UTAR0DuXcQ09LTg",
+        placePhotos: [
+            { photoReference: "AWCwydji4yOcxS6_E3wplt9OnaZdq-baHxqf7WbDuAWmmpjBgMx2q6X6nyVT_sv5k9DWilQfXPnc9DoG0COSlNnb1_pTU5T6gEyWYUl-RxeYelzB1vqhrxcFdVAEc2XDd6Q6J2fTfX0hM5jg2ggKuiwsSoYMxIDLiST1d5zLCUXj1hcqEvsAmjnm2oQoqSxSqDiPF3wFSYsLrIW_QKJ8QkdhKfdqWjWLG5w_Qo5iFVElvx2VPm2vS3PZwkzmmx-LkhOGJSeL7mo_6dI1nDdfOYL026qw_Ly-uz32gYU56a7vmhjy-SB1kkfgINwVUOIZGxdxDi6ysLjIbsvkzFQd-CD5OJncRCnw25SnDG7fGHbCOb7-5o__EIOwT4POzY9pppYcWhLfa7-X8E-QvRxFkwfJpCrGKbYQVBkQOWAcSMSObgU_cmp89BSfsvMb2iM70AgN", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117978867250093886160\">Global Beach Hostel - Ao Nang</a>"] },
+            { photoReference: "AWCwydhbWL9WH8Cf8HSN0J-sLTtJMXCXR7zrEqPTCz3In4W65hk8ChDzV00chVpJrhwLgL1Hl_53krA2WB7QJFtTmJUm6k_oHeICi_-Q7HLNyDmYkgnqkNY9xuJSiOJtk8NXno6aVvce2Ig859yaFA_pk5CBemguAFJ8dhpi1uTDYFu6UzOGBbGf7VH_sK29wwuOGrz-LgkwVp_G5hiq6tp4C5oQz4nPtX6CaHIhwjPG-sOMUYPfqL96nWIaicAchgcs5JKehEuaoEkOVFS-dEmqxgWk-ToEqa1Q7ZzZxezlF-rNFINVnj9iBzc8W2Dm3jZACnlnbLk0JWZd-bE8-G3WBOyzPkkOyx2QGm3qrkWJqUUYe7V0qcmvXd26rgzbZnwTJxAM5kcAPhb1vF8B99cl6i2EQnMyDOavRQIZ5gv1jhjL3gNzIdxv034o-JAXally", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117978867250093886160\">Global Beach Hostel - Ao Nang</a>"] },
+            { photoReference: "AWCwydgpt3_0HcRLMwPZNlI0rX_9LXPFITeYAE6AXbIwTCKcKr1hQk6Z9SlvFSL7jTz5pMiKoI8rU7ptq4go5jZ8sYNhYNRkavfxvsxaZ560jM-MunODVkFXp6ShpV3j1GMSfhXDYNXw5d-BH9vUNE2_wlCKJC0GqNuyISzmKEtRBTXpvT0Ju_jMhynh9bp5FO-un-jjJ8p36nPQNJB41dmjZUjS-gIDzq47IToBgkod8_VhbpI1y8F03x-aAgs4etTHezelZY85pFap0-yCIygiDm_1u48tHtACxCfDxuAn_9KTy5MeHj5eCPlXoK8Botxj1434N8Ru3B-xNh2X82z88tlwQEd6As8ulYyNJB6pyenW9-jJ_IBz1V6DHVXRNdcgKcYzdgjBpF-88Hwo2DjBhGL6Tws66lqYfD3G3am9q1nRVYTI9k5-OfcGoUNuVA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117978867250093886160\">Global Beach Hostel - Ao Nang</a>"] },
+            { photoReference: "AWCwydjSwtZxHp5vxmT5MHVdEDnp1cfeMVXS33jgVg17Mgh8Oayn0v0qFs7SkeemOcOQgjplmC7zOWjR3CqxGacpD4vdGmQ4-3vEHHbOkhyDU8SYbvi-rALLnaiwC8N70vsS_5lIk9CLJOz0tnq8Sg_U2CMS4rJDjdHceKPbMGvArmBCttUgNsAUHMq8Y6sZSyVHk4b7UGch0e0BzZtEnBlI15g3snOVx2DyGNpp6aTxentAZnB6vr0NpIT7DpLqJino92fa252eG_mkm9PsTbvXPw1mORNFocYcTzOJ2OwsDFUaW8uIE9KIo-hkj2I-uaY92ecEDf-kJcfLS5Qo7Bkq6Y3Sr602MrkVZzDbxhL9U_mSI0jOH4rV2lnzMMQWHrM-A0XP12jZxyOthW6NtT_j57nkD_Lw7HfGm5cDcUiM9gyPyvY43cTxSZMuctU5NvSO", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117978867250093886160\">Global Beach Hostel - Ao Nang</a>"] },
+            { photoReference: "AWCwyditg3L39FmCSmDmcbZ7xtq20aHGcRdVkd9uq3Z8ccG0WNIlV4qIyboYJ9MhXNWWU_Z_S5z8OCUvvWYJmRLXgeTlekWw6xRK5AJ6FhFQPfq9pZStKc87lUZ7-SBa73X05rr8P5XvxpMEbaWDPJTgc6qkLBMD_2YlipkDu0EW2g7O4MpdYDF4HZgWaiUV30tCO4PaKiezkpgNKhh7hfL9kiVf7aIDwn1DkDfSi6kTXUJQG-QP37ZscppFiqi_SFco_sjtLYDPQje3Ew5CdE-r_WE0VQcB_9aAVSl2Cm6ig-bgqKHFsAxHEskCZJ_hv4kuyaU6Y6h2UAayQpUH9JN8Euyf7PDgW09N26GE0vegFrujdDua-PasttyPhV_gSSWAhDU1T5TTehzUh2H-3fbvoFS44vFDb5vyU5bSNyGvE_a1ZMnHSj-X6CHOeXziFg", width: 1536, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117978867250093886160\">Global Beach Hostel - Ao Nang</a>"] }
+        ],
+        summary: "편안한 침대와 강력한 에어컨을 갖추고 있으며 야시장과 세븐일레븐이 가까워 위치가 매우 좋습니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["친절한 직원 서비스", "뛰어난 가성비", "편안한 침대와 에어컨", "주변 편의시설 인접"],
+        tips: ["호스텔을 통해 홍섬 투어를 예약하면 저렴하게 이용 가능합니다.", "주변 호스텔의 풀 파티나 카약 활동을 즐겨보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "259/46-48, Aonang Landmark Project, ตำบล อ่าวนาง อำเภอเมืองกระบี่ กระบี่ 81180 태국" }],
+        location: { landmark: "259/46-48, Aonang Landmark Project, ตำบล อ่าวนาง อำเภอเมืองกระบี่ กระบี่ 81180 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/globalbeachhostel?igsh=MWJkdWloanJtMXN0eQ%3D%3D&utm_source=qr", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4047958768025549776", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B8%80%EB%A1%9C%EB%B2%8C+%EB%B9%84%EC%B9%98+%ED%98%B8%EC%8A%A4%ED%85%94+-+%EC%95%84%EC%98%A4%EB%82%AD+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "KT8 호텔 끄라비": {
+        photos: [],
+        placeId: "ChIJGf7e4e-VUTARyJBY4YsbgOw",
+        placePhotos: [
+            { photoReference: "AWCwydiEx__H4RxIjdj33x1sppfhAAPpmZ7n30IQ2DmzkHjcY_8k3qUnEhAyrcbYFDRRTUNZHjUTIF_6cwOzTQ-73T78O8MGqPlriSAVcrTOCgfrawxKuxfVnMPAiHLBi7yTmggRvZGE9JvnLI27wDhbTnvb0p_ES7YcXBcTrhPoAWNn_tDT_qRQclpzHYm7DYQL4NRVQW03SxyeM-sH0a1hbZxE3UYl94Pcy8qqU86aiDgu2wLApBWU4lEeQx58oVjkZrveGfNAEQDUQlAlTmzbHsPU6L17MQM7VZi0u0DBmrJOGstdCNRurVfO76F-ZozYlNzyT8QnZI9hBfXb9ub4DWCySBHGKeBdc5Y8awvosHYQM4lPj2IQfn2wrH6MUTbzfn3fscXC6xpS-c1fVlHq0MHB5Pzq-NGjA5Fx__nmPg9RWUNjvmAzTwyoYF6SyYIy", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101072033127892884505\">Kt8 Hotel</a>"] },
+            { photoReference: "AWCwydgmnZ2Jto_wG1iMvaDTw04NWufJuPc0mVeGonPM32uMiCqzyQOuNSxvlyX5_q0lzv__9l35_OOdypA6hEpabJOAJ9ipgG3KNvNOlnqYIb7plj8vR-TWNVS7PoLGuZmGWW4hMuCW031RYWZ6zq6SYqoaxn6y40bwolXXm8r4TTl7D1OhFWDw2Ij3-JuY3mr4Rtxrjv2p01M1Qbpz6Kl7_AswgmDgCosJWeLjepcGciI2ZY8h3PwXn3dsTkLr0NWMKWeAyDAoDkMEhSYSKQQhX_opEGNqjHtmqq92hh44DQwL9l2UYtBj2VfJGh4jl2PhdnvqClEisA1wiBm5FLGg3mrzo11z0zxq0-Jqyt2KpEl3U2Ao0AYs3AmOvVnABPEnV9UZ1Dc_1XN0UlNJBaqCEQ1_aGpJO9NDe3aWAHjBm-wOi7lCIyic9uewW5XGiSd7", width: 1536, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101072033127892884505\">Kt8 Hotel</a>"] },
+            { photoReference: "AWCwydiFPRcXt_8NmQQSneS8EgHixJNuns67EudIYKDMbcrbZX_wqsF3b0aMlHoa5qhyYxvtgU5L9fVeLdYtlQSVtb3Ey6Z7actNDCBrKfWCvPvrgoIsVecnOygSe9YHrAmww6HAOMr2meZFd3uxHZ0qBWCWKDEYo9RK14DEvd7KCGrl8Dnb7k22KiVruwH6P1TOir7dsGVHVJKTMJKfscj5Cn0o9RHPbu698jWSHK5XmGti5dcwduHtL1GX8_1mr6YLyRJJ2rJ2mAemdE435FQbfRM3c2Ac55chMLOra-T_-zoto58UrQ9kq_aW4UW25vdFT1oBhNEnXM0iUr7cLI_unuhuG02vKIdwLeB_uUfWYrupPsndd0PPV1CcYjBelMl8y4k6YFB8ne24oeSISUb8TttmfAhhF04odC7HW_YWDVrHGAjFEraYX7oULv3gBQ", width: 4299, height: 2420, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101072033127892884505\">Kt8 Hotel</a>"] },
+            { photoReference: "AWCwydgI-I_UB1XYbcmyS8HTQsKcREeuH5PtADElHD3408iYLiqykOjDuix0MQXwRFIzwXTPrhiTX3Lc7Q6F3Pzlz4oilm0qO5ls_A3ZSXvytqG8_Rl9aFa6or2AsvZL6V8Cfh6PSJOaXJB-BvGzyGJN7ue7vFlb-wh0ylggRHRCyimaQqwpVtoK2pbJ7DosTeIPPrpwm-GtPp69IL7CXhdXrTFjDcoS6q9y3a74CqkOTL7MOs-Xy8zVNoPIwCTJJRKTuNGpdpNOmoDRGouWNTNU8KkTBsTeYvtWDVVzAdXvm-PraIRss02hzKfsxCGqWk7RehXm-glBMnm2fcoSE6orQDm42GqLLkNwbSBICjOx_KYT3DQaZ7KrLPvDNOFPoXg8GJO95sLKugnVR_TNAZtRPtQXWeED4E4bHaCUGdWueQsbWH-0_0HMcaXO_e38fcVV", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101072033127892884505\">Kt8 Hotel</a>"] },
+            { photoReference: "AWCwydgQn2PC_j5r59J__WocE5Y1SFI_8SNR0TVwyfqnFJv6OeR34PKekKnykdOFCnJqGH55jrhnrpNK3QpClkK1svMtThLumm8edivNbv2KzsE7MQ1LJkbC6Cm3EJIDSe71m94jesMwT6nWF9tCuzAtM9zx4TPX8V3VG_NSBHSDvGeOVMwV5gktZU0hbnihKg1XdzzivOcfZh40BiKKXmyc9vFM9By7xJN-lDq3bglzbTQriJlqgPw7DroXwWOaVls_7mp_TjV5n2CAoxa7DHfdOQaka7B0PfUEAT30AvgYZPAL1hUVQ1l9bn04wWuo8Jv5UXexXIby21jbLrO9PZyXAGeGka0zKWVKM14Ll1XgCdaqL1zRhY5gvsDsxfr98R5FIBTIpKJeJ61HMsXh9WqELd4Ivk5jLXIL8JdXt-rIhAKPZSSYYeHpRA6eKdUvj_9i", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101072033127892884505\">Kt8 Hotel</a>"] }
+        ],
+        summary: "뛰어난 가성비와 친절한 직원, 편리한 위치를 갖춘 깨끗한 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["넓고 채광이 좋은 객실", "친절한 직원 서비스", "편리한 도보 이동 가능 위치"],
+        tips: ["세탁 및 조식은 유료로 이용 가능합니다", "생수는 무료로 제공됩니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "199, 16 Moo 10, Tambon Ao Nang, Mueang, Chang Wat Krabi 81180 태국" }],
+        location: { landmark: "199, 16 Moo 10, Tambon Ao Nang, Mueang, Chang Wat Krabi 81180 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://kt8hotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17041651277565038792", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BC%80%EC%9D%B4%ED%8B%B0+%ED%8C%A8%EB%93%9C+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "끄라비 씨배스 호텔": {
+        photos: [],
+        placeId: "ChIJn2AS7iGVUTARh21WV5OwtuA",
+        placePhotos: [
+            { photoReference: "AWCwydgHMeygIHQEfjLvGU0aJbWh0GN-eAqSqbEKcO24p4Y2lvb9OQ5NG4FCN2PWkEQtfBrfHISRJ1FPMcYn9vNNfSla-d1eO6PBnCe0pgqfJooRZODZhFxiQmdGIcC3Da8Mm_l50i3aa7l9rA5G54qiY9YUh1Fx7e3F-DTXGW82UQLEjrpW4eX8OPhtPlaA_hGbbBsiF6kXjOoM0wJDpplgCZgW6vsQ3Za3JI7ny8Bj9Tdv-bfTcV69ddJD3xskPzk60V1PQFwHzFhjBCc0p96X--BKiGsAZBtrRmg3jssMMFzKxlUqLuWodIRXFo9dkbpLTlHNzIGyjpJaSIlENtK0WYTmOch6EPP8Mcdr5cl7RTsEd_Od1wnyxrIMr0wZG619CzSzRlCKd-sEjXwa-Qk-qpuB1MBP3YV-5bmT-OIlUf6Ozet2kFngDr_ZpSmGgCqY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108653746296821641790\">C C</a>"] },
+            { photoReference: "AWCwydhlUzhi7DiskX_YSIvpPEi7PMhHNfFnXynYZz41iZ-thA-BeQZfi5h_QszV3oyt__X2WXjUVxeCrfvhMQCWnilQU_wX9CJrt3I6LSj2l05QpIsZmgNos4HzXNI2Jz3owsYO1q6bEJTvvnOEuk6bXBWCZcXohMcoRq1A8abNi-kdSoxPCl4TSEPpZ2iXsMLEz9ywrLQXD5ud-5Y2IyZ3Fzi0eFRTq8MC0UPZ8F5oLp9-Zpw8ffhCIVJwfJhQTbdY508gEawvsrGg1liGaMO1nAIjGFlvrKz5bYM_RIvV7i1OaytWDJBKLUXqffu0gPmHJfhd7r0ZZOX6GmmXU7NS4Rd3Qf6tBYhzVkP8fbC6g-nz2zkGL3oaLK3JBWrqNTBWodYz3kenZdD-ZDFjrokJ30kg4DsFjytDTh2zJ-QpF8SQMitjt1Oap3Q7syD-i9AD", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110331372961448790523\">Krabi Seabass Hotel (โรงแรมกระบี่ซีบาส)</a>"] },
+            { photoReference: "AWCwydjtD89bUk50eMbyJ_hqDBIHhrrt56AUlnoomcEmo6yMkuFJgvQMK_MiL8RZeFDshfddP1TC6v-1eXZJ7Rlvf-sB3v0WrSwtdjPJH-6j3RHavL9VpU0_UGuqJgBKrBkgDf5vrGKhjWt4Mpnfm5j15IbJzlUh4flpOWF5-vH97bDTd9ptpv25_ty5ud3CeRmUNSK5WH9dhMvi2B2X6cHQ4GGfLtgGr34fVR-KFmqS877dNFBu-7g96u1cY8aO12BPg61hqPHXN4M6hXdL_myQ1PCgcWA0ziNxjTfW3_S_EpU_-eDIn78Yr2AIK_V7ZGpEibeYXPq8crkWLWeSXtOcMFFERGq5oG_yjIcX-inR-2ynYNE0Kh_fVvv4pLZLt-Buxc3DW2gSxyL7kv3PJf4TVLfEtWdFvkU_POlkUYL5TuN2sGgU", width: 2048, height: 1153, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110331372961448790523\">Krabi Seabass Hotel (โรงแรมกระบี่ซีบาส)</a>"] },
+            { photoReference: "AWCwydjxINtpXiqGUu8wLq4PCOFCtLSD1ugTQVpWIJn9FE7_vcMS_6ZavKE4QFrjBxgRemeGt8zX6h6DbxHYYuahJAesXOAv_KMZ_JlOqKW3xdqrxH1gOc0kkFMCY3SNDDJZUcaIx7ADZq1PbFWy3D2Uat0k0N-qaQy3bWJEXmkVWBdmn7rMxDpfFIsSK7cj3fq6xJrsf5i-NsxLQRQY2BKfzSEve2j8X1O8mCOnNH5H4oqkL3Ks7M6VcB4h7hjnGQeum3c88tDi9_SN-Z7WagBdpnRjbw6Hhyc3TYsF_EjPcGd844TGo0QIoUxHRiwbX4v-7Ce6wd5oEZSGtdWu1SYyljeILj9Wy84CfbfCokZz3utnOfehfqev7zv3aKS6U889fJAgM8gcVw7wJ0enL7QH_fwwR6FolYNyyAHbVjMndefJhL7fAfrta3xDKKbYIrfU", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110331372961448790523\">Krabi Seabass Hotel (โรงแรมกระบี่ซีบาส)</a>"] },
+            { photoReference: "AWCwydib5Z-ol-63pyCpNd8qco0Ob_yzeQ9RdGeVk9tNK2mPYDRXqqbT-NRSBpWrziG5PZda1S10PRZ8kbk9hvZx3_upABZCEXeJaGOXoBbuuqOmkmR6fEPDVrvKPthDka3mDXiiaXfXim2RCC-DsFarCnJZt1VZnIkEdQtFkM5wE5hXw_jioeOHmxbguxBJBHl7dCrg3XZ1hE98deKpGPSb3RYVzvXmWoGp6yiJVq57k54UY4Bjh8tZ7lk94T2AwZOwb13NNF4idMArBhkc881UnJiwGlaIPIH5GynUiW2sM8KSMBd1EEy9T6wdUkNCyyS7PysPNbskmOGHkgXEsrczzqykAEXzrOTTEcTiG5juC39CMgMao--YahHdpvTQqf9EXF28d3WO5hah1ySKAqFqsJXgkhKfy_e-BLFkCBnDMd54P4pZIFpT8m8pnKWPKkev", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110331372961448790523\">Krabi Seabass Hotel (โรงแรมกระบี่ซีบาส)</a>"] }
+        ],
+        summary: "1,400건 이상의 리뷰가 증명하는 신뢰도 높은 호텔입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["매우 편안한 숙소", "높은 고객 만족도"],
+        tips: ["많은 리뷰를 통해 검증된 곳입니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "273/55 Thanon Utarakit Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "273/55 Thanon Utarakit Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.krabiseabasshotel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16192323657129160071", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%81%84%EB%9D%BC%EB%B9%84+%EC%94%A8%EB%B0%B0%EC%8A%A4+%ED%98%B8%ED%85%94+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "끄라비 리버 호텔": {
+        photos: [],
+        placeId: "ChIJJZufW5-UUTARtqevzsNkzik",
+        placePhotos: [
+            { photoReference: "AWCwydjCfYqW58Fq6uEkncHY2sr6E1XVoaLumyBl6RKRc5dDV0IlBTN3AA7zep2GnqpsnowLEYC3wiMYMt3mQW52L9_ZdE3KOC-seMRXt-66KC4aVFtptU7JGITP9uKc2dQ-3M2H036QrL5NEuIqjt5_YycvRPni3NHLufCJSEbuKmda5vROScGu81sHupGU4iNgNUS3qypDRkMRBpTo1aYHFexCc-ZdKF0NJqFxFIUi1Y8QPzYJXi84UaosBDS_jQyAe4CBPn464x_2JR4Ybl2VjszFutRYpkw1S1ToA1B5DoE7rhYlsFeRKO5AeIWCFCw_t6TZJSuYWGnGMOIXl7kvbk-ghxMnumPYW12Mae7g12SqzNq-D1VVmKl0rh5C9srUXACOKl7tH_HSGJ7q8ZffB4_o4EAdu6nVfE8aeRUnxi43wgQg", width: 3633, height: 2725, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114475886468018877295\">โรงแรมแม่น้ำกระบี่</a>"] },
+            { photoReference: "AWCwydjRtgB2J04QhUkyLFrUcnKEKtzh0BdW-GdkRzS4WBz-x_0jE2zYDBGvez6yB1Hn7I-JdimLJ_j0hjk5SKjX0dyMwM9h_ZhNehp_ya3-cbz-Yq44XlPV_V5LRVLqfVS9k-XujMa2adL9IG8kHFkwxVBnoyerrbKi6bSamoT6XdDNBVym-AR0XIqWyJ-5RU_xFfVaNy5NU9CTGaKvHee-pYOHSBO2nZ7eMO6UWnVo14O54nDzzB78ZQS6m3dv5vj1-G5-W7yRcRMsPln-KjCI4x12DEBcyhLjZiCLafhBX_Wq5jM7AWkOuvoC51v5q_lwUsyFWyCIc22nBNXJCdg5yCT94fgziRQGCyDj6XjMV12fabzKtxXrFGsPXwO4RmFqpYmANpUqvXe-n62AgXC2D8ou9fDS0WkNcMSeweDFkkVeHXXF", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114274220984727907829\">Warit Nopparat</a>"] },
+            { photoReference: "AWCwydjWDdAcE1ZJgnMCHCS_mW0WcoDQ3p380EVLYqr_IXbfsZgpxjPLSLy9xUSnl-9oMvDfd8cGlR9XL6xWbAeR1SmDN3jFpKvJpHa33DRAuagkp8zK4RJo9N8m0kV3gbOTzis3I0pQ9XsuTe-qKB0wPBYZ80xHL34tNALv2OuBguVNJ2J00QzlViXHEngUDwtIXOS2X7-1_JMVC97Q5cbf6lG1yR7_V3Jcfe2yhhzRE2F7f0PhAkV8eWnA_bnTURJVDJORIvcDnrXGzpQoSWst0wLOPGvxFdK17GmQygNx3bbsu-aTjxH6uEeyOMCsnv2jfpoamk4K13q9X2Nb2KjYcgsxgFV6UUK9x5ketDnCs9jxFvwz9nC7KdssuvVUDV2VduLE99BU1Uai4buYllqGKKsqdGdckYW201q9ZKz_mH0", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104957606436838241608\">최호영</a>"] },
+            { photoReference: "AWCwydh5ByccBAiew9HiN4n3CP5ytzJM02z0klvDcZL1filebCrwsZSJG94wW6kDx_MaP1Z3mLIEbZJr3GUgdItcQGwn-VKpgG_XQGM3WaJDlhvl13MOKWWxzOHc1QWf0SkTxLPfmHZYgr7KASouKu2RQcCCBX08Mbo-Fq8QcIXR0nKW-QqDkyd8lSwldczzqEbv0sxhNCCWzax6am4FEd3rgJjEjqo3_IU5f2KkbcI_xUYk0c3GaJaPaFfWiCAXdHwYfp6HWLjrfCgPOaYHNccusMrcEutUvvSxWqIQdiGMY4Rr7R_bLNilfY_gK1n6MidkZm5aiQzBue41R0K1HzPH9_uhfnJ73zJfSDc2rm0l1PE0m6-zQlBUBzSRKXMrNtnr1gQqJ-pySsh-G_SWEKpvHr5OKPy874KgINreSFVWUnU", width: 1800, height: 3999, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114475886468018877295\">โรงแรมแม่น้ำกระบี่</a>"] },
+            { photoReference: "AWCwydjgthNV6PlYq2xFixEj28Id_U4t7DBfA6bgdzXXIiXllSwLLhXzZzufu3UognRXsoa91j5TZQ-3E9H6eJnjG10j-ByR67PRMjFVnFZePBkN054OePQn3UV821K7dKHtltDtdgifFpDlpXyRDgn8RbCa1u6hNFzMjABYYbCbycYCbvOB96FHVJbnThwB4kxlsxFgGZaBX-fv34x4T8LIUVlglER6WvkEKCzn3R2iFX5A_2ibe633D1vK788rodaGJBWmZMZGxNIF1eHXOod4XUBgK6wOpOq_k-6C3a1ih9D1Ib3BcI7dVHw_hZc-qVb49nC2MkxnuxuWvV9muaP4huELZqk2ny8aKry5q3NoQMlZM85kT03PKGkTJPBuUDRRq3qgwNDdQBxzD94EJiES_y3iVovUmBHCIEpwpe-p758XVoOO", width: 1440, height: 1078, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114475886468018877295\">โรงแรมแม่น้ำกระบี่</a>"] }
+        ],
+        summary: "청결한 객실과 편안한 침대, 친절한 직원이 돋보이는 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["청결한 객실 상태", "편안한 침대와 에어컨", "친절한 직원 서비스", "중심가 시장 인근 위치"],
+        tips: ["조식은 제공되지 않으니 참고하세요", "강변을 따라 걸으면 중심가 시장에 도착합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "73/1 Khongkha Rd Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국" }],
+        location: { landmark: "73/1 Khongkha Rd Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000 태국", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://hotels.cloudbeds.com/th/reservation/RNe0JH", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3012455992906459062", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%81%84%EB%9D%BC%EB%B9%84+%EB%A6%AC%EB%B2%84+%ED%98%B8%ED%85%94+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

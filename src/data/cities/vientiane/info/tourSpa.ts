@@ -470,6 +470,161 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%A9%EB%B9%84%EC%97%A5%20%EB%B8%94%EB%A3%A8%EB%9D%BC%EA%B5%B0%20%EB%9D%BC%EC%98%A4%EC%8A%A4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "브라더 투어스 - 라오스 투어 오퍼레이터": {
+        photos: [],
+        placeId: "ChIJB3RCA9tnJDER3NxmD0Y_hLM",
+        placePhotos: [
+            { photoReference: "AWCwydhpkCRm_qi-7q7eXZ9iqFd_ZlHJyAFKy1BUkUvyCUgZ78xIZFpG7V6AAcb0apj0yb2nFmVtvd8GM0kJerdS1zmN6V6AJXI6g1Vm6a6U5bofvlz6l2TGwYqGwdWBJaOzHCzpJq9kt2IYUucZC8GfHlE9qdJMcdyOobLVGmhQzfVndAQ_SXUC77vHhPdiZEH-YUnvbJfQRH5niGyokOCqivkWfc_OWi-53qBr4dBy7HB0Y1g9JHv6VOUrXdwg2uEi4MmFOwMn7SLURynq8i3DdN99ksodq6Ac7dFOmVoUxopFWFG-doNszOmhOp1On0nQ81FZIVUI6m08Kj3ZgAPLbDP6-mR0EL4GCOSa_12GSUS9mbxdCTsxUv1WTTyb_mnWXe9GcsxIdnNG2aBpzLIMghWfho6eoNwZ2eS6C3XzMdveyrw", width: 1410, height: 1182, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116986139546926494077\">Brother Tours - Laos Tour Operator</a>"] },
+            { photoReference: "AWCwydjcjm2p_e7S6CUTYmDvbpZuimc7xQ_9tBCV2wx-vU79_RfIKdVFmpHatgMOlcyyKglJjHCzXtwvl8IqjcP8BgZAdFNJD7XVscrg2TXlfXz0xh7D-hXQbAkK56PXmZ00Uypx6PEP50kxypF1lzjMoY_18XquB2au3synIiYzGnXz8i3BWvrKgdcAnL_HlCeaC1WKUgHasatAUQ_el3DS9plI0nV3ZVPdpgwWbY19z3wC0VD0OLvfhkGpX1WEkM4HVpq0dgV0xfqodQ02oIuloXn6CU9dc-iSHDz0YFQUyc1R6uxI5A8lLHkyyrHzYUTyhnueOp2mDaPQbexjFu7oOYBjIOR4COJnOhhEkmSRgXarEBeaKIRTK7nj2jPs0ktue1R_rPl5HDkxVP7sJs5Inygbr-N44nRj4SeFPsH4LMU", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116986139546926494077\">Brother Tours - Laos Tour Operator</a>"] },
+            { photoReference: "AWCwydg68tGOEYjA0gpVg0qlHN3g0buEDv6bJwrrAUUltEM2jWGKQU0uU7ZSvZqknsNYypuACV43Dk68JLMrNM1xdDxHIV85pTEDljSqKxUqRDZTRmgrRvY7REgcM2SrHTHR-g7nk7xRThdET3U64p5myzlffs4xUoTcI1vlX0P3JtOlc6qVrTkCMXqjMR74ABmdcmBmrb2GbSuUIFtXmcFauiKRjCl_SYFdLYnwj-0LjUCASKH56BS0_dS7dR3NNadnAvaISbZ7MnAio-TezSLl-WhiLTG018OxfhDsqHHA5jrfo3RUl5mC4CzZft95CAX8J9wnPThQEZyaYYuUa04L6gRPi_nU9o8KfpCNE0XT5jRfk17bzIazeuAKFX3nJh6oekxSI0TF0fLWI2rdfRGOabxKvf3g4KgdIYxMmmLm4_2EY5Dew1X6jqqSGoiYhMhX", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107076588054639234622\">Katie Broomfield</a>"] },
+            { photoReference: "AWCwydjBdyP50Aq_KwRSsPcvyVjbdkKfXRAswiP4zEqMewWIXLSXUny1-3TVlymLIgV2sOU8ZKtc0DwTx-ypupJ-hybUJCYRYfsk61m46pPzDcj5GGpJvQC8le6rcFhzYb6QUt6sokoh5kB_RJHBjCZYpbOd9BAa1M3koC5eI56U_TtnTX2uSlXULRSWnS1uDgqyhIbPC3H8IfxgTWZNw8elGkWP8f7qJ54yLlyAo1KsasyORiYUJGpKsP5Xf3yaFxqbPhG2hatTreQY9KokaGuVg0_DzcVoetaiKWfkfg8m_5EPB8SZnft1y9KNUqQW4H3j1Y_IZgcVVuWP3tYiYbyJmlUn7b4AAS4X4vzX6CPxXMvqzvJJ-Pb5P74k4J42R3lWTzfhT8HYPPRzeGV03WpIfrNFZMUr7bx6-BA0hKjb6vf_3g", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110135958507953220861\">charlotte gilson</a>"] },
+            { photoReference: "AWCwydhovgZ7TKLmKNpyyxxv9Xr37q_ALhB8LbaDz_sb27wVcEkxAqwoFV4PjwGm3hAxdON7atCB9THMZFcmZOQ6j6qRo-IgtWxmmBeMCfx_t2irTvpIe_uK2dxBhR7z5HQu1VCe8veWuRcGOcSTt2H0aOiv1b2TqiW6ny6VGmOBTYJ9pbu67f_i4gEwVAeCzqptDj52hMDGBK7t7CxIvaejcux9d2dxa926nV2rHhRTsmnKWXgo2KtDW7UXlF2xAcXRMopT89ni8rAHCavpKasEusKzGUclwNZV-RG6NaEAmOmrpncp2RUu-mooskoHRDx-An33QmLDvGNxlRFLpi1ipJwemqibJS5P6cRzXkxbqPazwiVMjgQzQeqlPHtwdQcWLPm8bn0Tpf7tNfcdLgFef7sVjSuVw5ZJh_gRVhVYk1vf11sMIgh7dfkQBPrSRyqe", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116986139546926494077\">Brother Tours - Laos Tour Operator</a>"] }
+        ],
+        summary: "고객의 필요에 맞춘 유연한 일정과 전문 가이드의 세심한 케어를 통해 잊지 못할 라오스 여행을 선사합니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["맞춤형 일정 조정", "전문 가이드의 사진 및 영상 촬영 서비스", "쾌적한 에어컨 완비 차량 이동"],
+        tips: ["가이드가 직접 운전하며 친절하게 안내하는 투어를 경험해보세요", "비엔티안, 팍세, 루앙프라방 등 라오스 전역을 아우르는 코스를 추천합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Build No: 271 Unit: 16 Sokkham Village, Vientiane 01000 라오스", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.brothertours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12935533599853567196", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B8%8C%EB%9D%BC%EB%8D%94+%ED%88%AC%EC%96%B4%EC%8A%A4+-+%EB%9D%BC%EC%98%A4%EC%8A%A4+%ED%88%AC%EC%96%B4+%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "사릴라 웰니스 스파 @Watchan": {
+        photos: [],
+        placeId: "ChIJTZQML94F70cRbJy_yDnvxqE",
+        placePhotos: [
+            { photoReference: "AWCwydjlaS_lFCkzssOTKQxx8ICIho9LgZi5KueRdUVO0Bxa0nc_6ha_f1zSQWyIPhgKRowvPKaJ49uI_b6ppxHy9GcrGLjb_fwLZCjiOx0idwzwDW6kaC7U_gNqlI5CgJiSNFh45_i2YtaOtaXGp7XPth0Pddd9IonOkHL4D2DAZW5TQOjXewhFanwTzlpA5SR8CbWkDCqTiJX-GWYcfK_axnnYd5dD39QXTMM7RuKscSBX1YqUsZXGCjC1Ser1-x0-61zoNP1NRt7_RsLWU4eCLDFVkjnhyGkBFe38AepCXN2dtbMiBeoRIKcE2r0QoSqf0IukFtlFhbsY2vl210QAe97fRC4p6O3vB81qzm58G6J2Z38X1ououOQOJnCExvCONInItVPEIOqQe17zxl-yWnw-YOjikLGHZK3xj3ZxYVEgt5U", width: 800, height: 533, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115374488222668566482\">Sarila Wellness Spa @Watchan</a>"] },
+            { photoReference: "AWCwydiKISAT5yrXUC1om5csdDtJGu3J24h2yfOUOrbGyGseSLssGgB8-sYwJYIV40IAKzwaxFiGwo1k5wfpxNIa1ecnw2keh9JlwYwM0oA66JvAWSnFsLJykzhC7mvSDzQC4drydRGDLRRPcywRZ8vY7hOg4TGozpupniNSErNarNDbJwquaPKP3dXyySBSBIEndnuTcp3CKQSUpyRP2ExSh48vBYwa4A9YN51U6oliA1nYoGQzway8tUKG2q4xA60FPr8apOFuQsz7dRi-jHIEJbaP39d-6wYiLfaoTD2rPuD-X-CM4D5phV8NtN0hCZ4cjTO9c6yK4AoyPGMdhfAwtZgV8sguDTCh44SqERA5l6868Ep-7mEoLyYvBV3IcGHAKE0RfnSVhdBoJ-saTI7VrDBfLTDz0wKSarFFKboaykjMxg", width: 800, height: 533, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115374488222668566482\">Sarila Wellness Spa @Watchan</a>"] },
+            { photoReference: "AWCwydgDCGzB6O0lk81q6oWmMvzcV88aE5d8TdJf2IKGKa8lQtoxj6yL0vvSfyCeWSBN3QuxZBZqoHU1GMwdacbKhRPvYm1jSj-fA0FAmoDHgWX66eFqCtcGpbqr2pPikXwj9mQXpDVo5SAq6HNixQuHzsxE45XdavnIycj7Gw_7ltpshtHbyFm20080YqqQ-9CE7MGYIkRKRXUHxpuQFS2BeazyJi9oQA3Wg_Cnf9DO-Y23dFnKBwdFpx5OPt0Z33wPMNU3zoqCpkCbS0MyW4FPyjjtwTqs8td_Nfm8rlb5tPZ8JsQAIQHDa4FU30JvdTaNJJDmA0nMlsx3J_NnS95TWmMt1D4PJBDb6RNnGgUHC5IgE8_EBrDzL-TK8MgW_ISvEa7IkEbdoCt8tTqz-ZFMY1GtIt4SM-em6Om078QWjeBO-bM", width: 3096, height: 2064, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115374488222668566482\">Sarila Wellness Spa @Watchan</a>"] },
+            { photoReference: "AWCwydhH6Q1Qcd0pU_gDikZMqX8rlV8sX3GmfnB-5T_I84Rg_8vf2MkH_QaA1ms989_Va4acNdD5VIBqMw5nxVqz1QtgaFeXX_taIt_RqSdoKqAK_Ojmz7N0YAy6Sg2A8EmjGSm50jj5jYU17tZsMaHD6Yjl3NFwnk3Mm3qGKz6iS9Os-nMDJ9RPyZowLb6PTM8TxA1HCCsAn69aP-VWKEuqct6u3C310RhFkoztda67CYmm5a154O7M7bUQdX4XbsOVZ8wtFf2B_n0sVWSjw0Fhmo2hS0XlfQ2FhpAg8Lct95M9FVHkINljvcr4XFxiePwsUREytRo2DgsgVlQXzQyuLCCvWQSm91YqzrbUvSc4EZgSUxDV77xZ25rEb5VI78A_CvSsH9ZCjQskdyiqt3D6dkUrGcY2QWTcLK62PDzQQNkXz84wsvwJqMImgrDj1-0C", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115847896037558197111\">Alice Hand</a>"] },
+            { photoReference: "AWCwydjvhBMX1ASzYYR47jhyRs0uPrSoO7_8_4E-OyDp84-GUC4lb6LjApMa3mVpPgW-iuOzE6GKIOZbsuvBI5aphnBtRkM7G_EJ9JzqyEWV1sY29RdZGsY7O4F0hUSwiuPrJ0dprIRaYdGAz6U--gY6xGLPV58zHb__i5WnPFQ3rLgT9m8bI7zt33TMUQd1fda4TjHM30gSw2ePjQU8LB21dWJCLbEWhX2fpyb0MR-OXZTIuD1brR1efDRprgtsB9YBPyZqyprmBi_22s_267Psdww6zOhEMc4JRg48rVlq9G-iCm7v54gK73hnyiMdS9bALukW9glNzDmGT-KuLkN_1W0wl4U55MG-Xz09hVpcHXCmbfp5DuXnKNGtZVGBSoGk4JoX73Oe-8Y8ZqAiKMgQAEe-8P9PGk72TG9KEkZwQLI46twP", width: 3472, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106830758651716851719\">H.</a>"] }
+        ],
+        summary: "전문적인 기술과 따뜻한 환대로 최고의 휴식을 선사하는 비엔티안의 고급 스파입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["세련되고 우아한 인테리어", "전문적인 마사지 기술", "친절하고 정중한 서비스"],
+        tips: ["여행 중 지친 몸을 위한 보상으로 추천합니다", "전문 테라피스트의 세심한 관리를 경험해보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Chao Anou Road, Vientiane, 라오스", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.salanaboutique.com/wellness.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11657267716955282540", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%AC%EB%A6%B4%EB%9D%BC+%EC%9B%B0%EB%8B%88%EC%8A%A4+%EC%8A%A4%ED%8C%8C+%40Watchan+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "바오똔또 마사지 & 스파": {
+        photos: [],
+        placeId: "ChIJXYXz31RnJDER6PL00z0HdTc",
+        placePhotos: [
+            { photoReference: "AWCwydjf089z1fli_bFJX1RZORr4KqfPEN5TUvyqJM1eQMz9KHJr_wFuaqxk8d-MMcH-7qwU9wVZp9mzsbpxLMmplOHdG0ZiIMiJ58D-fKNH65LMiX951AAHkSjFCXMacm9LbBqL4xhwUuFnlENC5MoDje9yXDHXsdf0BtfDmTiGxcLmULp1T3v5Q7A6j126HYZ_j-7g9NvyeLDdi9n-2f3dVVNQ-0rr4GJKvHHn2Rwmyqg63vtX2hAtRuIH4RIG_vV_EG3FYgeS3uHVb9pbME-QCV1IVPVvu-MvO5wUF2q--EG9dYX8wR8a0UpLMbGGZNLjTMLC5JSCEyTMtaMr6unEDd-0VNQXWGmcSP2SBnBEfUVsfl2YY-rjol6mB-uxy3QhKMEWB7NUaj2xu_p3aKzaRx8mQr7JBBXuYD-CUw9As0bGhnb-gzPVI8RmzXW4aHWp", width: 429, height: 638, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100704642830530137191\">BaoTonTo Massage &amp; Spa, 바오똔또 마사지 &amp; 스파, ເບົາຕົນໂຕ ນວດແລະສະປາ, 万象按摩</a>"] },
+            { photoReference: "AWCwydi8vFARnNUR9j7_Viap-_iItykDdCHp_M7UOQrEchL_sZjnck4O8v4WfX_dANYaGf5GHuM8D2kBzjLLx096KP6TH1GxZKb61K5doDgENbrgXQGJ3gBzBHXZqI9qCuJSyZR5F2Ub934cVVnGQc3rguVp_-p2dUCUksy6QQ5n1byUdagaJYNzbd9ZUaP6yKpdkbi8n_nqGKKT80yRkdK2K-eznq3glIOPpGskxd0jrpakTUjQ2lRD1Onk_z8K6tiG7qkkO7IpqMUc7A6Rk_Mkq--UhPCYLwR0p1SZvMWQMCFtNhNVMH-Qi1ko-IVAW1nuJiERmzTthTyu6kp9f9eVmSAMKQDrCMyKj5LD3WCoS9_jGB2JXhew3yUJKHe3AFMN_zhgvlgGOF0IkJw0GPxNtlxaWwUG-o26cU1dIFaQLkzzgpxanL6povQqgLGxQg", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100704642830530137191\">BaoTonTo Massage &amp; Spa, 바오똔또 마사지 &amp; 스파, ເບົາຕົນໂຕ ນວດແລະສະປາ, 万象按摩</a>"] },
+            { photoReference: "AWCwydhvro5oxVV6aB6CdcUBcfJIqqx8pRH_UEB7cgarVBP_sd3C0LsB_7pbTpNdobTFfsKOgkbJhsM4GIlV8wMmWCb2bhA17oa_fn8wT1G_j_VvgLapPF6Etp6xRVLtgsFpUAaSgLHqPE3i6xsa6ZLSZGsQu7yA_1O6W3Z_v8sn2MkObttSb5a1tiAA10Y4PeJewlD9j750P1gfVXMtyNkdjbhw7pWx0UlRMBspmPHLS8_h-I9QAMlu_AvM_ri3LGcy0E8hZiJuE9bhMMj71KFm5SL0WVEqVQ5VugLKbsHGCk1AbVFzxl7G2FBLnpsrH77-fXW9pqmOnT84ZqfLakPBPau0Sq1UzgQUwjJ9F21VS2IwVCunXKUJKlQtr3tiKRBYK-k1HNuKAjWsGAciX7fGmDVXGsB0UaPS4hozcgKwIC8_1zgIi4O-uX0EUD1DVqsd", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110811791355709523135\">Hpung Rawt Lahtaw</a>"] },
+            { photoReference: "AWCwydi_HYXiBLsdS8B8Y5tbtvxKllVewtzm5KPscm70odI5ZZBgNIdh619SVF2IdnPWTmE1ryroQlskuvQZZaX1FXFvZJo7g8yGOD13E0GNFmvMSO8Vhxkf6IB2icJmMjXXZftkLulHiZYTuGdl6gk7oTLBqff_8luc4yjXyE5GbURsHA4eiQRHYDKHHifRCSYPAGn9CuyENIeGB6LLh7i_he8BveAG1XMiVge3VonLFQpQyJg00d9csDexJLzFHyqrJpV49F7Zrh_qiCR6Bj2nCZsApIsfBDmJI_Zj0xxm9zc75zfvdXzx5MPz0eByXMT22OVQNboQ0VPv0CWxwRX7yoRDsep3I1uaYwXS9IY3hW25-gs_z43X4GrkKItODspGGEV2ejZIaj0x69I_YxqxjYpRedfH5gqkg5hFs_6oWFlnWhBNBIaqYdEc2IfkfUbB", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100704642830530137191\">BaoTonTo Massage &amp; Spa, 바오똔또 마사지 &amp; 스파, ເບົາຕົນໂຕ ນວດແລະສະປາ, 万象按摩</a>"] },
+            { photoReference: "AWCwydgG2xORsoMTwzioka7p6P-XV85eK0owoL5wBxkQlFpKU1HGoB75WE8Xsp7xLEXo3Fv2OFhw-pov7pYlcDsogF7ikNruCS2sKxSzySk_q6J_gsGdks4Ij8j-3D7UJ8X2BNB8uyATzNWT7YlilZqlUio2dQ1LcKOv1bCccQP1pfpi0i8Fxffck3atDLjtnSxVxD27RrKsMiaVl2jwyuMiTHOEm9345_wv58-H7VAbAazNx4ICd71ofvJ292Z0FD813djUVhhXYuPOSM1ypd7B4BpZo6wi_CoqCFW_jU2w2lbUy7V7crDavEBF4ySm0KVwSFiiN4k3P4aV_kjmglvdaeOhP5GeMBbtef2ANLO41_sgdwpwbSx5PB5lGo_PuoV5wneQWxTjEN4lWZBh1C8UFrR3prNoimf4_jl7TW1JymYQgBpnCv1A9jW-UPMeMn6I", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100704642830530137191\">BaoTonTo Massage &amp; Spa, 바오똔또 마사지 &amp; 스파, ເບົາຕົນໂຕ ນວດແລະສະປາ, 万象按摩</a>"] }
+        ],
+        summary: "비엔티안 방문 시 꼭 들러야 할 재방문율 높은 마사지 전문점입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["깔끔하고 쾌적한 매장", "친절한 서비스", "합리적인 가격", "높은 고객 만족도"],
+        tips: ["비엔티안에서 마사지를 원할 때 후회 없는 선택입니다", "여러 곳을 비교해봐도 가장 만족스러운 곳입니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "라오스 01160 ວຽງຈັນ, Vientiane 318 Ban Phonexay", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/share/16whp8dkRz/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3996108206491628264", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%94%EC%98%A4%EB%98%94%EB%98%90+%EB%A7%88%EC%82%AC%EC%A7%80+%26+%EC%8A%A4%ED%8C%8C+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "탓루앙 놀이공원": {
+        photos: [],
+        placeId: "ChIJ_wXmBwBnJDERg4qtwzoA38U",
+        placePhotos: [
+            { photoReference: "AWCwydiDXozDCRI5ER4vMekxedtzayNzu6cGMZtt3O2FKIvqaCh60wbKqEAID38FOOvqP72RL0yOugh1aL-Wh5L5nbYDHV2Wal1zdtuROqWMC5IMLYG1MHJm-UIRJJttKp7uBQ7aJlk6fVe5Bni60IlNZy8gsClKNQDEDtJaBTJTQCc-3Z9LLibgNcadOtA-_nx39kP_mxff2Z4IN1LxuMmdNacZ7HlOqSdRzDzxo_w7ECOEZHG-zOF2w4ONQri1zUJiUuX9i_WKNEycxo_MSk-OrwKOwF00fJmiMtACZqnuPPqDZ2u3mWxuTkgqHsUKpZvmqC_wElu_vmIite64HIpTi9vF4XoZQRoJIFN1_4B3i1TFPXYMBHAwlsd3NQqbK8hTosSfXypsx-p5YeHIz1X6DVjbHvaP_oKQgvzIrjZL-6ob4A16V5t29PXX2q52KJXd", width: 3024, height: 2640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115521313190792836935\">Rkone-Laos</a>"] },
+            { photoReference: "AWCwydg_DCLfvPZSYcl2Hi5POehAaf1EMUBz1_m8q-31Q9D9Jv9eFG-CDTEuTYMUDJ32No5FKTD2yr9I4UVl6PNmWR8fpFoFvKiH_35wDeVFTesNda_MhSxqHauo9XjDp7nB6rksOBn7qxWY-_AjeWcODwnPfYDUoZRzZGcYwhibz6O5KtDv6cofwvNcGUgTAv_4ygd2IuvID-El989SgGMrZooqW52fS0hCBySJqAX3jjQvmsIM3KDTgveJyYlPiPAwonhBREZCMW5oSxKnIPS5Ebts8emharmSgljNt_crdwo0aQW6UyebrmM4aSNaWSV9L0etwuHNCy0wRpxxeCurmqMYwzgzKz_c2vVnvFkw7EE2QaOod7z5w6eSjNiozIPNY83E-JSIjOk9ZStmmo6KcupCVmTtSV6agHR82LR7_3aHQw", width: 4800, height: 3198, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113575431364986180512\">ສວນສະໜຸກ ບຶງທາດຫຼວງ</a>"] },
+            { photoReference: "AWCwydh1Mr0FbtUvaSxt0qw_AaRaIkgYJDaC_xEfE8geWaefowETZgCoxyr6_84pW0Dm0xeo89P5AGDAhHw_tGKrzR56wwzsSlqcWXUTJd-6ilXq4qx75_CrAZUUyXYCSrkZHR2cpjDityKEOuU5y6XS6v3YKTMRNaTxuFHk9gOq1u0A45sau6R2vLymBwKK5rRnbmY4NZHFc-Fn4_9ArCQQkKhkIGvczYqlbOn5hTfrTG-0kh9iP_2HWyfiiaDsFJWCDWJneEkx9n4te7P7olRwUAcuKb33MGC7CuOWLfu01W8mcIX9zshnHLu_459XpDqObOfbQk_-XO0aQMnIUPV9SFf4d7rvWJ8V7CwVmrWGnKGBwQedFlg_ImUjqzhaMX4FVqvQQl42XgVPTtxGltxKcwUQ035P7DVg6kZNgdDR3RbzUHxR", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109730099722701433818\">Arnon Riewraeng</a>"] },
+            { photoReference: "AWCwydgfyQJmeLlaBl2q4cPWrfyWsPkaRFgza-fYnMg7eeXQmVZ8h-MuE_x9o9hnTYidRq7XWy9r01T9oVL_b914IwsI7XNKOpqYO5XMztn_cE_-0-PL_SpndKy1JabKR_KC6ApWEH3Wu2dkBVjR_mjQa7YVBarIsRV4Uivbw2oYWATXrd2-YZBEFRnVd8QtoIpvZBIW4ovdfRnKmAnVXxHuclS9igeYUmm-cJYJstvBNt6Jyg0ycd4gKxg64gsgLFSJ6SzBaI6_3qaQoacyXl17MdK-9a2fonXlniEarvpKJEdKlyiP_Bx_EiNqkvNzoW16sYUHGU1asQ-RzKDHD6Bmn8UXWC35pmb_oZkfc1641L6JNXgFPVy2FgKZoOTgmKF5b7pel8KPhz-zmkli_x_MqMa3o92bZgNBhnK09E-wwpbs7IkVGzSEuaT_6Nu9P5sL", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115521313190792836935\">Rkone-Laos</a>"] },
+            { photoReference: "AWCwydif_8Yx2fjaKWf0YrH_DF1hJu8x7dDzRwC4g9PrpaGB6R4gCHAzvnV06El95w2L3qD5jQtf-ccoc-PoAIBvRhId3jn36teK3DT4h2hF38YNk6-8kaE8dXNQl91Bw_M8_ym3eyrqTtCf08VMRHUqSdBQwKkulRMzgBh8MgoyIcAfufFIstH3PEhU9C8_vcp1oLrlGDiaEOfbu89RuYc7wCa2fHs1cYN_pdivVAtqKIkBO_fZiJPohQpAdCS7rKarIk2pwFttUUiw0Jas0vScdAeuPuV4dBe-3neEZRGLFgo34h5X1nXdK19DdqnlZmVpTdyssFfRiXzyifxGT-EZQ3MHGSsI7zyGYk8ncE7dGraqBGABFYDiWhSPK7KVtajQ0E4tybH3hFemBBLBhp5GVIvqdnamCdjdHsmwlhBRjDcVKTl2vgTxho4G58GTfQow", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104679768057968942853\">오프로더니키</a>"] }
+        ],
+        summary: "오전 10시부터 오후 10시까지 운영되는 테마파크입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["매일 오전 10시부터 오후 10시까지 운영", "다양한 즐길 거리가 있는 테마파크"],
+        tips: ["운영 시간을 확인하고 방문하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 10:00; 화요일: 오전 10:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "라오스 비엔티안 WMX6+R3", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14258115197669313155", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%93%EB%A3%A8%EC%95%99+%EB%86%80%EC%9D%B4%EA%B3%B5%EC%9B%90+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마담 파속 비엔티안 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJn1xGMFZoJDERZZLoqw8IyFo",
+        placePhotos: [
+            { photoReference: "AWCwydi6ytmFxQOW9HUEkliBNUG4h-CyOsOXlLmasSPDUGGDRmnpmlAfA9Ft1V7mw5DCqor36BQk4F9bL5o_njr4dIG-P5zbbOYz5jquhWfX0snR3tpo5h_kTyQNb8QUFoOpSnncfD4GrgrbTilBfwGFz6QNps8ju2e4L61hO5wyTAP2aA2AjOg46JXqk1wVnYBpdHoFZEmWCstJXo0B8gxJu2HjKmaUyXNNrrfVfvaL3W3gxMuT32lqiMdVd4Rsqh-MeRlXWyD7mgcgDDu3SKBc6qXYRQrSJEh0stWuxHaAGOajaShxdcOCG10FUcHTDwrHOUbOcfj6-v6ViY4JEDcHYm8gwWrHV00nyOup-gLUp3K579vg1o4kMZp8QRWNfL5kWoOX0SJADRWivT9Dzxa6U0BzIigvGkIVGx9yyt1gk9o", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112110838326984907145\">Claudia Carpena Höll</a>"] },
+            { photoReference: "AWCwydgbTTV3V3kbLtQj_eSkZAqhHiCMK2BOb_-j_70LjG5aTaELByImBaFbcM1Lti1SXzOTm5zI7Widsz1hoZZgYpNHswKBM9SdNB1Tc6_MQO40AgU30FAG6PRVQ2KQmw4Z398S8FVFEzBDcH_5EmioplORQW-SzKvU95-4u9UcX08X-JX3AdgXSNSxIQA6u-Jvg3bXn2rf4Ve5q5CHn9QNMxbqXnXpa4ykIVOxbL5HzvUua3Hb8IAwD3SQCte_feMp8CMVgH9pZhCiBzh6PS2SBQhkDCXb2kvsewxgqAbqtWWkvSSv7nHEHQFiwFhBns8CrasC13Yd8RD5KHyBarubJzjy6Gnz3YTgl3kHTfshSbDZaxuLqbq84GJsLDhKoEc9e9nrVlWGS56WZMTSbIq61cfH3ZwdcfA0MJmtDuQAEJJeQ24", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102703369098885701953\">Alban Maury</a>"] },
+            { photoReference: "AWCwydiQJOYesuSK_c22zlsNbZr2hkKLRv4jr3HpH60oec7KN2RfbRhTEvewgcSM2bnh45w_sdHYXImiigRHwRMgareB-jVon0kYz1Msqd8kxyIiaRsJ-oO29F13QS50g_KbdqgjGybjgc6gmbzmn8vi5AsueFsnLJtFYuXltaNyBZM7z2W8iw-0iVlxAl9Nd4gDFdVI0_JrcxHt9vAae10kbQYp2oKbyWMo8Civls-DOdz4sDdRHp3EejmXth1xn4KuSpfMb4Ng_3StoJGIu0y8LN3Agg9073Gj67k4B9L_TVNIRxC86u5EnjBd40sG_ve2-Z_pOASWOPqUR4xrrs4Dv8ItRWeOg7XP3opmq9Ef6fsbu6m1-0k3dIN5cZfiGfxmMiei99U8WJ774XfoLdlb5sQ7LXjcs4_riyBfj-cuQ8AGmlPkuZkOfSBJ_9-4aFBU", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106245601425791086830\">D Cody</a>"] },
+            { photoReference: "AWCwydhI63-HQQ6pVxAFSOJP4K3UvgAyCMeuP86w6YYxbDxfI4fWtMlXhEuRdGQVcLPimF2mUOdVod-zWlvFRL44iX0Hv-spq4Rfdo2KLUcu0PQEadodalCW8K1SW6Oqc3LcmB0eXNPaYEVdJYvHt5d7FsezopJIX5QJxp0t3n0hitTuCVLg6XyfDI6DoUpe1LP-fiBlqvBpOAUKmtTFZtZb4em9OBCOO1Vc8nCjcbVuQguVEyMdcx5zurGgp9xZqTeoG703IEY1ovN6XkTGIQIRzgFdvTsThInNZFYzuL9MJvey53FC4Nw2SZ7iJjxloFgnKnfYwOTpZZ8-JKskNzeQya-hSYI6SUuutxKjHtnJJiQirudHj4Y2iV66oNOH8qLHblh6SXO4DIScpq_mP2h9bR_1ws_eyBAKDHBhFFzkpwP7B8hF", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101809262415616538103\">fabian rousseau</a>"] },
+            { photoReference: "AWCwydiGxl5-7t1OrYouKmw7LTco-7_wV63tTmliwqD5sWGJhgO7hihW3rxfJ7eSqhsW2_PIIduvANAuDu1W_ZgpFRFw0oBCLTgxmzzDgBa5JJGtcKJKoNbne267Cmwr9pRmrYF2xi8zx4k93ff271okYOt0nu2qdI9z-NmLN6LtbSh77qwjFBlJJoM9Xv2FSjUSs6TIZvV0YybdJALhz4hP9RYPv1KjnwRQ8H7Q4CKGQKzGt29xwFRmmZov4xqRmMB_v9sO9j8j4Iu9pxr6iKOIQ8_SulphdJzOGiKYd4fsWOb84kJ7bYE4I5tcJit-B3aZiNJ2QeGYMRWy6dif9vLiaF8C3rccRugvrHUBnQ1RVIK71GuhNURnLWAuGzSPt-aYzx-86b5HcJsQa4PJ8xC_04NOvDuqqVtvhgzLPBYflUO7swBn", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115061347377374118464\">Culinary Slut</a>"] }
+        ],
+        summary: "개인별 맞춤 메뉴 선택이 가능한 즐거운 요리 워크숍입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["개인 맞춤형 요리 메뉴 선택 가능", "시장 구경과 간식 시식 포함"],
+        tips: ["배우고 싶은 특별한 요리가 있다면 미리 요청하세요", "수업 후 직접 만든 요리를 여유롭게 즐길 수 있습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 12:30, 오후 3:00~6:30; 화요일: 오전 9:00 ~ 오후 12:30, 오후 3:00~6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "XH9M+75W, Unnamed Road, Vientiane, 라오스", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://m.facebook.com/Madamphasoukvientianecookingclass/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6541487322157322853", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%8B%B4+%ED%8C%8C%EC%86%8D+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "후에이 홍 센터": {
+        photos: [],
+        placeId: "ChIJxy58-LFCJDERnvdWPpFShJk",
+        placePhotos: [
+            { photoReference: "AWCwydjZ54naLHvcPkGI-qs4NnSRJzoo5fh8bVi-elYg0raGesCaIHfC3CTTswOJculiNEhmbSI-1YxUqUMLgEXeltIueydWx-Ql9c93wPZyGQTse7NgCUn9niFiq9tEFh4sjSWt4DmfzAyjeELahcDggldZCi5Zn6gdPQJQBXmaRWTMF_z2bocw_8uMwEUG9VMykAviEzsVZagzEhn44NHS3pwEPW-wmi1vjQdAa2JlCFKlznDtAyFINm6SOvOFG7MITOBBCD5Q3oTutlZKpWCueFAiXzbgyDjwoHZHky3R-7vPgwVfwQQRLgXnKwKjpA3g9yv0HR3fnrb0U5ciB5R5GNWIQa5GHRZ2SfrfrNbw7IK6tNFce-rjwbXmDJgdFITOoCttcD1nmTO43YnzswN3Sh82B4InvTOJro36-dPAS0vuKA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111116314275968886878\">Renusha Parkin</a>"] },
+            { photoReference: "AWCwydgvZ4HF9b32YXS3_nBdoBs_rkeSsO3ShpKZMWp40cjJZH0I0-U8p-BnmQVaW1VJ-n1paC838Len7o9XiHi87Vvn69yBJzpxNSAKjFqwnJZICqoPx5FsgfJEtMRvL2Gqcr5Dw6TE6bGOdgxoJBrfbAWjYZ1ZWy5Q0KP13rUxbRNK4GxKdzwlK7UbhbOag8WEH9cJXTRv7EFdnivzBs3bEbqH4EP6SgUiwURxrk0eYnxxaPlQTJYbp5skiPOJJHdaSJAdUHAjXlKBPlPkXWriB86X1vxcIL4be5-iovOofIo6NM1bH4UuLPoHx4Tg6X7rBS0YLKsqktYivDD4-NXfQTTh1iQMHBxeJ-1XFZhFn2lrd76j1YlhL8iTw_r1l6kGustDDr9zSXs3T2vEeeoC32tPPZgGflmXqzvysETB-4IOP3fckxt5A059X57dsBsx", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106319800586181484689\">岡本就介</a>"] },
+            { photoReference: "AWCwydjb1M1FGoJW2j7ZGnlDyjoU3c33-1Ovs2I2jLZV5flVlRuZXGfAqeB5ZiRAn3EM_9uee_HZ--jk5LsTE_5w9MeZax5rVNNAIK4SBYNnzuIBiyJ7KRDTtBRspC5k8SguszyzQUHoeOxacZ7DbwbUSjH_oXkoGT_lrbX4H1jYpbWvA0NMaRMjyEegLTyy1zpNl1xpjTdIaHs_YFAJ0VBf9AC-5MhB3egyf5RvZwM1-QSFesrQHzp4wYSaGnwEzu8IztZZjm5CtP8x5yQ0fIACvMIWuO7pQknLqDrFopPQLWaPJZOis8MhvE_y2kBSeW_eQy8ROL9sePMIpYj79aeZG4V5oc5MQlpD5aId9QG1xymwBaHSZfd-GBxWiA4mtJ4VB3Ii1CYz6G3JfHsD_o9jQG56GKy_IwxKDDy57x4Em0WuLku3", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111501490700916223614\">Namhom</a>"] },
+            { photoReference: "AWCwydhdpTCSSuZpLeEdaxgn64Iv865T8iwkvaHZ25bvuotXPJbMdNz_RbdGeT5pV7qWmJyKl2osQ1-Y8qGxBOuKI1rAw21hYXwhPCmxa4m3-vINfSAqNQ_sFaRwzbZJ5jX4UzgLAXniINZYcWdCWctpKta9WUFLX5XNBIxwY7sQ7NEad18Uj-eaP45ahElNMYSmP4AXEPcrT-lGDIcdEDuQlP3425NL8myR4C7T64pU39G4AIiBX38Qpr7Ez9bYEc6QLtwsekV1kQX-v9vTKsk0hTD603wLKiYuqfM5x84AdQvW9k_ZhiAweVixPfKr1looglnFtbz-gNoJoYDfMuaQkWPP9legdHEMCAsb9WWSFMxePYx8A_Gh7MAmL7INB1HSn2IWL_ZZ4Lxx4YRlnSovDL0VZmfvNMOT4d1tNi0TnpiPbw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116034965949029638826\">Merinda Hewat-Cameron</a>"] },
+            { photoReference: "AWCwydgJWqWxMxPo5uqw0EuMwtR3W-AcFbzuylOCU7FYWbyZzDlKRy-ULOAmwhcsFN8kSzSFjmHuIHsnNszBfpehubdPQB8_kB5Ckb3G9xS5lUwdEkGP6E4RN9wVO6bxlSLx_e34S33pNpZtXbrF1Z9zYYAjaXsCSTbyqt9UIR0bMBfOHQu3WGg0CZINomkP5jvk1ZzU9b4XxNOYLRsBksMakntOrjdBnnfP9FwR0h5NTa0Tl2m-5B1WmJjOi608OxHRTVExjgEDRH9S15pVfyU74A-hxGp-O9r0gByKcNBzjd62SzDljg2tYH2wEK6Hp-cZZk5w4mSEVXOqMCQKJEmyAeZ1wHJC0zRMi-WwwToRSEIuveVpSsm8eHHWoxqicS0wM30GRY53QXy8XItkmUzZFLxOA0BiSfWM6wbVrFMVBvwMUNcU", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116034965949029638826\">Merinda Hewat-Cameron</a>"] }
+        ],
+        summary: "직조 워크숍과 고품질의 수공예 직물을 경험할 수 있는 곳입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["직조 워크숍 참여 가능", "초목 염색 기술", "고품질 수공예품", "친절한 직원"],
+        tips: ["견학만으로도 충분히 가치가 있습니다", "반나절 워크숍 참여를 추천합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 12:00, 오후 1:30~4:30; 화요일: 오전 9:00 ~ 오후 12:00, 오후 1:30~4:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "라오스 비엔티안", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.houeyhongvientiane.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11062057368498403230", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9B%84%EC%97%90%EC%9D%B4+%ED%99%8D+%EC%84%BC%ED%84%B0+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

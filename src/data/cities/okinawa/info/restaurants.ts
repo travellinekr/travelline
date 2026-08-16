@@ -391,7 +391,7 @@ const info: Record<string, RestaurantInfo> = {
         payment: ["현금", "카드 가능 여부 매장 확인"],
         links: [{ label: "공식/지도", url: "https://kokusaidoori-yataimura.okinawa/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=4055004008214392115", type: "guide", description: "지도에서 위치 보기" }]
     },
-    "왕WANG": {
+    "왕": {
         photos: [],
         placeId: "ChIJFSFuAB8T5TQRrrkbQ3XTOAc",
         placePhotos: [
@@ -441,7 +441,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%8D%EB%8C%80%EC%B9%98%ED%82%A8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "URBAN DELI アーバンデリ": {
+    "어반 델리": {
         photos: [],
         placeId: "ChIJNwLfCvoT5TQRQ8eXxOIe28c",
         placePhotos: [
@@ -613,7 +613,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%9B%EC%9E%88%EC%96%B4%EC%9A%94+%EC%B0%A8%ED%83%84%EC%A0%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Bistro Luire": {
+    "비스트로 루이르": {
         photos: [],
         placeId: "ChIJ228-AMMQ5TQRPQWyBmKpaag",
         placePhotos: [
@@ -688,7 +688,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98+%EC%B0%A8%ED%95%98%EC%95%BC%EB%B6%88%EB%9E%80+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Transit Café.": {
+    "트랜짓 카페": {
         photos: [],
         placeId: "ChIJv11Q6Z8T5TQRqQz9YTY56fE",
         placePhotos: [
@@ -713,7 +713,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Transit+Caf%C3%A9.+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "반타 카페 by 호시노 리조트": {
+    "반타 카페 바이 호시노 리조트": {
         photos: [],
         placeId: "ChIJWwtxRZkX5TQRd_jZvuds3BQ",
         placePhotos: [
@@ -738,7 +738,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B0%98%ED%83%80+%EC%B9%B4%ED%8E%98+by+%ED%98%B8%EC%8B%9C%EB%85%B8+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "89 Coffee": {
+    "89 커피": {
         photos: [],
         placeId: "ChIJX9UIKo0R5TQROwlMl3vkFP8",
         placePhotos: [
@@ -763,7 +763,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=89+Coffee+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "日本料理 行雲 | 沖縄×日本料理": {
+    "일본요리 코운": {
         photos: [],
         placeId: "ChIJm4FbFcVr5TQR8Ka8ln7Yqnc",
         placePhotos: [
@@ -788,7 +788,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86+%E8%A1%8C%E9%9B%B2+%7C+%E6%B2%96%E7%B8%84%C3%97%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Bisen": {
+    "비센": {
         photos: [],
         placeId: "ChIJrZZLCgAB5TQRXcbL1Tf4oOI",
         placePhotos: [
@@ -838,7 +838,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9E%88%ED%86%A0%EC%8B%9C%EC%A6%88%EC%BF%A0+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Takanoha Naha": {
+    "타카노하 나하": {
         photos: [],
         placeId: "ChIJ__9r2n5p5TQRmLnuolsmt3o",
         placePhotos: [
@@ -888,7 +888,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A5%98%ED%81%90%EC%8A%A4%EC%8B%9C+%EC%9A%B0%EB%9D%BC%EC%98%A4%EB%8B%88%EC%B9%B4%EC%9D%B4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Nakadomari Seafood Restaurant": {
+    "나카도마리 해산물 레스토랑": {
         photos: [],
         placeId: "ChIJicItN68a5TQRFHPGJ4amzYA",
         placePhotos: [
@@ -937,7 +937,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%9D%B4%EC%84%BC+%EB%B0%A7%ED%85%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Payao Restaurant": {
+    "파야오 레스토랑": {
         photos: [],
         placeId: "ChIJEzWt4ikN5TQR3xAMWNRLc_c",
         placePhotos: [
@@ -987,7 +987,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%A7%88%EB%85%B8%EC%95%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Oki Seafood Restaurant": {
+    "오키 해산물 레스토랑": {
         photos: [],
         placeId: "ChIJwa94C0IR5TQRyP1WPQL2Fl8",
         placePhotos: [
@@ -1035,7 +1035,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%9D%B4%EC%84%BC+%EC%B0%A8%EC%95%BC+%EC%82%AC%EB%B0%94%EB%8B%88+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Seafood House Pier 54": {
+    "씨푸드 하우스 피어 54": {
         photos: [],
         placeId: "ChIJ6RJBwhkT5TQRFVodFmowUQY",
         placePhotos: [
@@ -1110,7 +1110,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%98%A4%EB%A7%88%EB%A3%A8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "創作沖縄料理 幸 KOU": {
+    "창작 오키나와 요리 코우": {
         photos: [],
         placeId: "ChIJh_WPWtxp5TQR_5Fq2xVT6Ww",
         placePhotos: [
@@ -1135,7 +1135,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E5%89%B5%E4%BD%9C%E6%B2%96%E7%B8%84%E6%96%99%E7%90%86+%E5%B9%B8+KOU+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "waryuuokinawaryouri sarii": {
+    "와류 오키나와 요리 사리": {
         photos: [],
         placeId: "ChIJiQPaI3hp5TQRrikkDLt3BCw",
         placePhotos: [
@@ -1160,7 +1160,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=waryuuokinawaryouri+sarii+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Kamida": {
+    "카미다": {
         photos: [],
         placeId: "ChIJ0e3y4skN5TQRu6qngvM9Lqs",
         placePhotos: [
@@ -1185,7 +1185,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Kamida+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Asian Food Fuuten": {
+    "아시안 푸드 후텐": {
         photos: [],
         placeId: "ChIJS3e37HcS5TQRzC6azPxiSLk",
         placePhotos: [
@@ -1209,7 +1209,7 @@ const info: Record<string, RestaurantInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Asian+Food+Fuuten+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Karen": {
+    "카렌": {
         photos: [],
         placeId: "ChIJBfXuU8US5TQRFsTA2ckKPUw",
         placePhotos: [

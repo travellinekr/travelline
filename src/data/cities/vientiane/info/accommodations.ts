@@ -357,6 +357,200 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%B0%94%EB%9D%BC+%EB%B6%80%ED%8B%B0%ED%81%AC+%ED%98%B8%ED%85%94+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "왕뷰 리조트": {
+        photos: [],
+        placeId: "ChIJZz-wlLFnJDER1QUVObrmNVM",
+        placePhotos: [
+            { photoReference: "AWCwydgzvP0IUzCYKuf4QCOn5U558T4OaEBsCMwky2C0p7E7tXkkFd3aZDQTl-7A3U8m4Juzm73FAgbFehvMqtBySgvYRe9lejsTTxIjerghIf3wcZqRShuaRhetqlD2c4jeCtNBjn3tdR0dpaezKLx-NbPslIfutPeZpZP-vHCxuKGWHKadigYrXPPyf2mFS-3KzbkR21UFUpVFYSl2wtKscVU_EwC4cjaAzHK-8EScW5vj1C0SvOfqj9zx1j9x8CLLK-yqPbHg1Pyi6KWpGg_D1cmH1baL6-7yp1nh_H4O21KIFjh00eDBkPkmpU4OZrt2Ntd-TQOvHAJikVFxsSZZWl2McNg4KshJuAWxzZigNrlauX7f1gGnqvvLkQSSce4FhYpd-qN_k5f8OPMR90ACVJbhruASV8i_KaR2LOWy1_98FA", width: 3599, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110764414431561877853\">Wasana Saelee</a>"] },
+            { photoReference: "AWCwydjLclEaubJoserT_Wa_y_8peVVGRslEqKbX8-hGEvzmWStZZ6mss_VfNqPXTs9Tcob53iwZpp0FnZyhQ_oDHnaH7RKONNaHlwRtdBxiDyM6KvY0rKWuK_p3b9656Ovbmmnxu58cHAL-pzAigmVg4ZNyovRkYp5nVXU_FtbnwDLNva6M5JFZTtZu4BmIV21MqoGxOe36zpbCwN7wbnC5PWqfFU2SVedW3ECBAm4xYYQGurWprK3YrM_j_or34iOGaGyv9pDxYC9kNjglkf4RyWUCX8YQEBpVAiadN9OWl8-hfK8xl9XwLpn0jJMkPgMFcV4ups_fwsuG7FTK-dw0XP_r0qSpW_bGDqWA-WXNtitoifRffBtZbyHUpfR_RaOpmp1aEdTR8W-S7yeOdrUGD-z51LNSA0OsmeR1FCx2g1aydA", width: 1656, height: 1242, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116284559547326078943\">Shangchan Online</a>"] },
+            { photoReference: "AWCwydjR8I0xyQ1-wn4kYHgL1XxFksNq36l3uFLH6_mVBJlbss3_aswX3r_bQNorsKObIF45f5EZK4rQueJG91AwmwXfvTIQPb3z-e1gKdGkiFUZGucQtVqbD8dVZjDinFlMD5ME8doUcVEdn7CoQmAhPuvo2JxxvozSU6JnKMuPc367dutjn5Ywy4Znx_K_IcR-sza6MO-S_lP92yLS4YdMhB1nY_FLxSpSBu6SAvMLfK_Ai2xmg_zw8B8kFtBojfLXbI2kvw0zw3HJSdpfgblRoPo1pYNzWFzru-k90ic_wDEq1HLvXdhdB063VhFU3AhL9D257BUBvCwSPErMOSdy9hKy7-uppmY7AZUh8Hqkoved1-zwjK5vjQt2kpZWDqxCP-VB75w-Aq_jiJWXmn4RsQ90A1y6RKoPI6iGifAEb6yyiec1", width: 4608, height: 2304, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105954907200030288815\">Arwakat Chanphirom</a>"] },
+            { photoReference: "AWCwydjh0FgtMOx27Ys_LOjLe5XqSM2ZiMzwVuKR0RloKT5EM32uRRpWp1JrY831O_SXd2CNg34pP91Y1G0bkGLLGw-_13ZvOF77MzUc4p-jlTttyLLJOd_zQ0TknVkjcYBOTeo7TXInJ_4X5QgENqehDEWVJA2mRQOG6_hcDUAowqCP2h-nG7nv0utvE4B79tQDQzq82NCxX1BFoesohs0py3Po-GYlFvsgYIJj6IuL4PbQiBeqgL-ukjpxQLXOaz1AzLb6dphS6cF_wm6daCTMP2PKhLIX60kmlH2Fw0guf6eziuT3uVLcw2HiV7_IYTnXwnAcu_npxcEqwSvma4-mIyLO_UleN-jXSFJ-YKShKt-Eujzghp1mPnUkvB6pZXwnLxKCydAUAOAuT34VvnMUcYhlMyvT0cGRBGFze1IgysJH0w", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115767485763713009647\">Bandongzki Travels</a>"] },
+            { photoReference: "AWCwydiQwdlDXl3Bd5aI1dFHAZ0pd5KO-YD63A65_b365hakpcuRQdZ4ztqH-0CaJ3NvPImVtIZjQRTBh_m9CCBQLwGT0TlaKQj4A0HHzcsp_OqyWXwfSVv_xR68IR8Deql7QpvJy1GPve5-5RoZdx1zEDfHGUyqenX-xGA6_BmGDjifZk8uRrDljEg7Y8IRShSXS_mSDZ_Nr2vlEt4KlqMWphPzELRgiNJmjT7tXjC_Pb00oULGSSiZ12w4tk01-tPWUTinylN8-tLDDv9g08-qtqTfk6adzJHFvUS2ZMnh4zc_zk5nK1P6wEGEVpfG5Rbf87TjzQm8M6cn_jp2NOjsi8D2ld4jhDprf6fd0I4VEXVMitu3wpECGRIEt-E6Q9sfYOytPP_cebKBQ7-OEVDUGPMcIHPqvTZyH4mdEZ7BUOCwq4jP", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103734845089517673340\">光明正義使者</a>"] }
+        ],
+        summary: "수영장과 가성비 좋은 음식을 갖춘 휴식 공간입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["멋진 수영장", "합리적인 가격의 음식", "신설 기차역 인근"],
+        tips: ["기차역과 가까워 이동이 편리합니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "XM4C+CX3 Baan Noon-wai, Chaichatha district, Vientiane 00010 라오스" }],
+        location: { landmark: "XM4C+CX3 Baan Noon-wai, Chaichatha district, Vientiane 00010 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5995952166409668053", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%99%95%EB%B7%B0+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "페찰런 서비스 아파트": {
+        photos: [],
+        placeId: "ChIJB_FqTQBpJDERPP9orfoUyJo",
+        placePhotos: [
+            { photoReference: "AWCwydjxzMjZCvsF-_PJGMW8khaESML3KhJxnldtvLpOSlibuPgK1NfMtf2Mv5EyPnmaJcroPlZuRLqZnXDAKgOCGJTJd7-Nbhqpf4FW3xQvINMsCY2-h9A8iUC1BJMdwyMN-sExU6pqZX7LLgj-Uq1SMgm9YjzNkSgj99tVq4LPqBbbZEKFGDlwSlGiw-wFrKQ4seI60V4EGZRZyeykqT6grqZJFGVA85gM29DUMmMgk80U75ei7bJQSFDhRGzunFAdV7-YYEJmA62-GdtscZUv7-LImpGTRSq4PJWqyX_OoomRwlK3o3Ig1fdHbIjhkx7osFokBbFQsAVANymuZELPOomin2E3PkPPmzHVM4d5fdjN3GvGvO1YUmnrRG4Kieg_i8iB3iJRF9rldj82aRkb9qie-oKvrwWe9MfAqUBPAX3k3JMaCt5GYZIsp1Tp-G5w", width: 960, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109034114638911472763\">dao isdao</a>"] },
+            { photoReference: "AWCwydhCVAIFzBTQ3bUSDC6IJOOgkOF5uxcE2DNeERIrvZAuMEwV3zDQNm1_pxAMzwbW9E0sM-ehIXxL2a5qjslktshTkIktYr2FeJCidlU9GJIpQJsQDZgqJYe3t2oRciEgXLOJOaNVavYVgX-yFxM6syGIFKLtyjfQNz8_9Wk-xh3ru2YH_sV1m4jALvRD79C2pbLooiF0FadWJoMFdCkXNzEBb6CNLTtJiYIKdP8B1rqUjTw7m7SxfvJ6XSZseauAG60jeSBo0poCQZMw1DT6Zme9yvkddTpJhZnfQtCUXjdFZg-fxMNxR5ofOUEeX3bPIM6luxBDTqwTovEC0AIGLji2516MC1rDAbnTNNOsfIClmkTCwxLNlEw2Kn1W1EXXN8b7gUeiyZ5tOhgBhHKNibpORMgu-opjlNNItmouEiicAVCTIqHrHfteRy5K2QjQ", width: 1536, height: 1022, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101530794711029102820\">Wannapdr NA</a>"] },
+            { photoReference: "AWCwydi5wjzv2KvsXW_JlW5uw2x4z3qvUTVOcAR-DT3EEgexyTBpV-gm7D03POhA5hjyPm9YMMZ-LG8rOVEQKmIQ5HnVCuND0evDDDWvxxOQ5JSouNFy6e4vhQ1DXz2hSmF_4ZXo90o62-Zz60DpmlbMe2-38mYnZLBRAXyvdG_UOIlTRw1y99opt0y8JHlY1gZbP9y4dTinVjzrYdGfVosYX4N3kkJR_3TaD7wbXB5kN4dUyrqmZD7lZgi5K_lELGmfi-gbrzarZ_tFvBY-XvQcj2qVrxsPCkWx9GpRaes4aYGIXTX_EDQct5b7N-k49LkJSXdhVHKvO-oUVCvKIP5Na2DRm13bSByWmWcgOdDKTiLpokieTATJbfKAFbb9EL3cjG6uA0bk3YtJ9dlOoW2oNFE5g5Z7Fo4YhvoK23Zbr_4UJiMbHL1QiH1cDF279ssv", width: 1672, height: 941, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101530794711029102820\">Wannapdr NA</a>"] },
+            { photoReference: "AWCwydgL5ppVfeaSE3peaRUwlk3IRrCeryNyZcillpHfm0KpiXbI1zRAS_T2pb-WhnLC_uDfgCycblTNgiU5nnWzNj3mGPvYba_6rohyKXNSc0z0g9UfCsd1fLzGTvzNLL8wRPjjcswtZXY2xVSJEKpfnTctk6p0UvwFRJGlP7TGwB9hKE88oLimH8KDZJr61pHo8cT4rLgDycrX9fmkXo0TjtWjA74t_p1goIdZkZ8vu9BtRRAXz6FaLd8nO4QnYNceLzgCQfGiy7SNPH4AeAWR6Nv067eXvTobWsy8pDFf0VXHacvR624HcMfzTzryW-2RrJ1KX-sBic9HV_bhXyOynPJCek1HQ7xAFCbHS08HTHDd84YMzOkRpIu1JlCJ17zryzUl10Ym58N6J-EbD6VdOSdzmLOGHREcsyMy5nFkAc8eCjbW-lDYG0x2JBNn9sbG", width: 1067, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109034114638911472763\">dao isdao</a>"] },
+            { photoReference: "AWCwydil-qjWTi_vKgFWMJpryDMDIKfxo_QVrgylc0_rIymwpDuRFUjciwY5m2HkLDT-Is04pAuOYLi6dnDwIbm-LLXjgghHS9ccj4EeDVBQ0Mlg0xtMmA_Qkqatl0wvVIaMdG09lj7RvJet8SPOYnSYBCQPW6kn2uXU8FYaLExBO-b_XayQRn9VKCIF6msSJVK35vYXuQPjoE_wzUXqozO7NJB42r8urQKCT4_52c5MY4C7UBts51bq2xU8rU2RakU7V2UtPOLpJG0QiBm_cyS17zm9agsVG_dl3ZVudK_IPR8-IrvyOPvRtHlsu7zeX4oA3PjffPMWT812LiA84dp12tjUFRbwo2pCNcHthRKEyDWnIPiU12T3ySlWqz9nGyaFz6BarFSfCUW2tZtNe3iZO82ukkmlStzIDGmEheJ9th4XFbGA3ebjHNHh2ldv5KPI", width: 1600, height: 1066, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109034114638911472763\">dao isdao</a>"] }
+        ],
+        summary: "세심한 서비스와 현대적인 편의시설을 갖춘 평온하고 스타일리시한 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["천연 목재 인테리어", "현대적인 편의시설", "완비된 주방", "친절한 직원"],
+        tips: ["빠르고 간편한 체크인", "비즈니스 및 휴가 여행에 적합"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "라오스 비엔티안 XJG6+6GR" }],
+        location: { landmark: "라오스 비엔티안 XJG6+6GR", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11153187544066752316", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8E%98%EC%B0%B0%EB%9F%B0+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%95%84%ED%8C%8C%ED%8A%B8+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "리버프론트 아파트먼트": {
+        photos: [],
+        placeId: "ChIJuc1sM6dpJDERE47MhzGey54",
+        placePhotos: [
+            { photoReference: "AWCwydhleh5RjaEQkqdDu46BpwxHtRxwKOvT7oQMgpUhyNtVg_zuOGyMC7ZcrZ1ovBF4MtA6p-mC-7liPCHBxNWeSo4q6fYo8Ma2O_uLKO1hXSs8ZNPXwt0lfKUuF1I14Ro9fUGqsSpIjlwjKFGNIkeqLhS_apngtEyrT5LjruJjDd7CrmX-smlUgK4zPOxZuePpUQX348O1fm_UMy6QQjrW9FGDQ4FaVdOfdDfKPcQW4pDN6VJH3KKkcpJKPryVD3NT6O6T8j7XQjYbsWtimkkSBnin7FlCNVenCWQYC-4yqK3Mm0rd3JDb4ASFAZj415rk79h9iKQnyJt-CxCCR9c5uaLoiw-11n59STI29cSHiR5Ppo0h0d65qa_uqjTDRp6AcdkrkoboBSRWMuj5ITFBIAj3mKP6wmq-qVbgFC372cqbcfJw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101313641911050913884\">RIVERFRONT APARTMENTS</a>"] },
+            { photoReference: "AWCwydiJcskVDik96BPUcqvDgZZTsP0nqJsuNQgov2KPO9CgpsC7sxp1FYTPKIofrPfQviBYARNnxa2oH0Ih0qWzvue2GrJ_DkKlm8xP6b1bxBQNZAXdfsTJAdtXJ6Gg9eumopQz5F9fFRhqQbeFF5HKir3f1LRAhy3j3YdB1SZB7sY3tjdIRI7lvaxR_F_cm6KEm8Yf2YZHfy-LhJWdEcbeEINuafGeoEi7xONXv3tj4bu4zVQqhb-KITAunuWZVUoJisHnZYRVayKuidPKnqfABBArRxhqdoqC8x-TO1ql6m3ezhP1Ig1auZnTwGqw8iTIpufTtSBWyzS_CsyiEcLsHYXND99J0j43xcZXVsgbWmN3JzRnDqd9PqoQOFlfPczYKXdfTrhPklWBZnAo0-ep22RCOyDk3GhRWSZ1u-_BJOMCIA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101313641911050913884\">RIVERFRONT APARTMENTS</a>"] },
+            { photoReference: "AWCwydiPBsw3CTfiJkZeCcebdnFnZRUvl8mQ7QDd2SVkSheNe1awYA59WlYTlOt2Akhjqzc8gLuvx4N0sVTt53pR8lRwzkf34RTViCpzCmJmSfAFtXiAdpnq-ZJc2xZXMRNWqFzveI38P46h-lGj_Ef4zpaCAkf9HajmPD2E6P9qJeaMRiZgVUwLJBYrV4tziFl8JsRVKkdhrYIS-aWjNdSkdd0UYai9do-yUeQ4LXvvpvaP46NBrDoWjvOmA2uXjIgLvZvw7e2amQiBjETbapK6NWyasqe70gIiyDgxP-FDWcynbME0opYrlQ92S5V_lU3tM4yxMcUpkmDOJrS6uThxy3pE0RUEQjUW6jWehEIrmLURt-TShY78q5jzwaRHZ1AYvs4p8k521nnN34d35noUtY8nltuyTWWDyBRD-xXQkaYGyw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101313641911050913884\">RIVERFRONT APARTMENTS</a>"] },
+            { photoReference: "AWCwydgIlJRBl84HuVG0LnU9ZiY7K6MHWsNd_h123uKr3kROv6IBMYbLDHyqlETkByie840O_EgALh8jMe6tBKpQRwDUywU_WQ1EKzq6ewCouvqU6-kGX9m15QzjXM3wRV1xMpgDlx_ZkjSpSKrTTSyjI0T2FyMvxfZKC_aL-EROFIhAAy-4OplXvyfsnj04j7FOL62weGc6n_SxAPSiv6zyiDfmKSqVTmPGsGoKdOf_o5BahlZul4myX6T_DcNKC15QDfvT9NojVZWmZkXjI57zEgBiIgdogaYFF2zLHeNF2YvIDYH6Uj6IDDxTMqgNqxF9MrPh6eJuP2HnVajf9hKxQwTPQgElBg3UigkYRlBEzJk5XzyxfC6MkX_Vwo0cxI8guAHMb9oUtomN22kdnJ3pqvBtmE7dHE_GnQNlhEA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101313641911050913884\">RIVERFRONT APARTMENTS</a>"] },
+            { photoReference: "AWCwydgfcDvAXNNHNOEbeoC2SWgSrP0Ehb-jGfBJI6mmLQH8_gfQeOOAC4UQBbBSPFMzKkAJvRCR_zXz1FoJIZjkQwqAW0cL2r0fQuMkD-0mJjAOSIt0MqACbNMNgln_VEaf53_o8KLH9JxcDDYVps4FKek2j8-E4MYJs3ZDCiA6H6lazh2Dkuwq8Wa1XWqliqGfGXN6NdAxsfZwzIKjCaX9psJHCGd4U7pnCs7IEhZ6oDpFYt_3woMiRCqxPZ_aVT4VH89T0IRWveBl0Aen2gzxf8rvPksYPECn3KiOH2s80niiUnbKIpML-HsPx1_m_08wIi7XtsvUX4uDfxKc0fmWhkihC1OZSToF-NQQmgrG8wG5LMf-hZHcrT5UBwq1MBjtOSZyRy0DlhbxT5vq2dkOlHqo8mdx8q9f-FGuqqTDJv8HCQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101313641911050913884\">RIVERFRONT APARTMENTS</a>"] }
+        ],
+        summary: "훌륭한 전망과 프라이빗한 옥상 수영장을 갖춘 숙소",
+        updatedAt: "2026-08-15",
+        highlights: ["프라이빗한 옥상 수영장", "훌륭한 전망"],
+        tips: ["옥상 수영장을 꼭 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "thadeua Vientiane, ວຽງຈັນ 10021 라오스" }],
+        location: { landmark: "thadeua Vientiane, ວຽງຈັນ 10021 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.riverfrontapartmentvte.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11442413213833793043", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A6%AC%EB%B2%84%ED%94%84%EB%A1%A0%ED%8A%B8+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "FAA 아파트먼트": {
+        photos: [],
+        placeId: "ChIJq2_ic2JoJDERDDzeRrn3uyk",
+        placePhotos: [
+            { photoReference: "AWCwydg1OdvxZQj5Ad-o1Rxb_PYBJnRxsLcPMdDojeV--zZJV2rTckiNdQ7bLg3yC7TufHYHnjLb97q-TggyBouyJjYJX5foJAu_zdkTGpfS8RMB3d-L9aS2g_KJw7x5yLaaPr7gqJuXscOyooYBygnXjyhkJQYgvdGJSzoDKgLIcqv4MCB8orG35bgbbMZ6TMvMqTKMvAeE84ETuOlkMHWkdtn3miGxN0FG-nXn-Ezro8LX8zg5VLQgBlb-ejBx0DlJn56Qum_7XtObLBTFc2sWYTGx5H0PwBN2IlKfqqyyNyNUTWRornWCRDuYbk_LoeSmxIuQ2KoOkx8xg8Bp-IThPYMsjkEB8ebUEEpMgfUxSfHVvhsVL5LCexHeW8OssuccO2Eu6CXaHc0-Qqy4Mrb7hch8FgtFGreOyKAFylxp99U", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118258804623357491184\">장정익</a>"] },
+            { photoReference: "AWCwydiIhY1ETfP-uLYCO_840Vu1tWibBkElCwinF7GLpL24mHYb48X7lKJYEhkAQ6Ji5tRq1uOWxB7ninx0BzZO7AtI5Cwxecx9GrpMGMR5wfwHoCcLuyj1IEUg2nHMlbwz3vitNc8TktxZ91-qMkEIYEp3FTpbPoMzTNNVper6h0bK6wXF0FVoUBxmUqSvB-I6nyuih35b7Gf05PNk5KtrZSLtz4dSt0mI2-tU22T8HmQhPtMNr1iL7wLQKdbMJOv285HFQpAGk1OlTYd_h_CnOsrksq7ez-VYr8x-IMgOVnYpvD8sNhgzdZP2k9JQVPUyt5Serdyqpg5606cDtMANaCUlpe44HeuIvlmMR0nxenmIhJ76DZ8pQgAyCb-zr_JltdPkMq_0A0UaJVfD7c_iNM_qFpuQMEsqlV_IrkzFJfk-6A", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200586477833965695\">ເເຫວນ ເເສນດີ</a>"] },
+            { photoReference: "AWCwydhaDXmILTZugyArI6-z7kxd0xl1ftccwiwY5v94_aUdF6gOmPRy_XEOIjZvauKjUj8NLLGAwu3CrgkmskOJMrisJZOULAySYN5dBpwL710tShYLkJJ8fWdMaD2GC1dR36J2jdXWaU0sBVq8fo_gDpLtLq7XdHXjuiK3qgxNTeUa5-hUtgCrnjUb7XjKx77ekgMGGq1A02D3jSF7lmF7PFo_OyW6gFPs3ieH22-3XIRdFQVZFx9dI2YJbSnQ-X2QNEqpk-DAUQHQH7JznJkAed_1PJe588cnTe_WKVjBI7vqGWYVmZl1RM8F2Zapu6oFIcZfMrmkUd_BBJxJRdwjhRvkTYtbeeUEkScO9dV1Jx60HmNFtOEMmezfbE5ZphGITNJHmQx3pN8av9-6fUSXz2K0XFgK9_gRULnkAnOOzbGjniWW", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101791745929967881261\">Geerd Philipsen</a>"] },
+            { photoReference: "AWCwydhYxEMVQXn6TNL9PIIM4_OFYulgmMlZRdkmppV3BSA-Hq_7r5qfOY-zDTwURHEEIPZCXvDvsiNbihih7xNdNfEwPzNZkS5KF5OJyORSqqKYTBTonNIgIdEm5xf4hWgCHa1CyygJ7-pnnjqqGmInHCNDhtrSmdPR2saNXedjx7H5RNazA9D2juaXzwKUr2fF7p4xxAKV53XSvhOfnZZRClFOTt2v4O6odV1jOYwLCgSvsRlUqibGb8WejhU8S9VICdEA-3E7OhCiS26z44Q-NOX9QLWfaoFpTES1Jdk1iUGh4nPGbuwi2iYJhfsyA8Ej5ZZrHc2TOrZgm_4PdiClVOsXseESIHSv4B1MXQiCIMQyqMwc5wqVUX6-R6-rXWuFQRLlLXg1qumcgE2-vMI9YTQ1SgoasRtcbWAXNGhN5OV6vw", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110200586477833965695\">ເເຫວນ ເເສນດີ</a>"] },
+            { photoReference: "AWCwydhsmkFD9_rEXNKd1ys6gEMxPjDM66exO084AaRoxxdU1mfv5lj2_rbai6jZ-I6_VGg86bmwxMQoUVtR_piL15NtVSHiDEtRzqXfFMZGgciQbAUn1-vrefMf0yrfL7PtAZIs7LtOTZIOwYIvT3oVuHCfosWhS-vZvPR0kbDQzIQ7vLWq6kmOtG5DbxQohYHbgknmtXjtiM2WoDXQKFVyZaN03z-vtDRNl4GaOQjlFjE2rd2oIjmL7RXBuIyq7eO434R3Z6X_htiZ6UAJYSfpHOnKXVCTnSDPD4fjw6iGmZS1pJqn2lAGCKLQ9EA_BtrGjsWuzVR6f2eFT4eNfABAVE-g38tN7fd6Hn_dWbwBU4Ef2fMe6e-wjzJ14n2-3roZ4-1MD8rXZWbjIQvmcQKRvxqqq70Fd8BzOS4TQTLdzN43Ls-7", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109107339603887536535\">Maрина Башук (Merry)</a>"] }
+        ],
+        summary: "친절한 서비스와 뛰어난 가성비를 자랑하는 쾌적한 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["넓고 깨끗한 객실", "친절한 직원", "합리적인 가격"],
+        tips: ["4층 객실 이용 시 계단을 이용해야 합니다.", "객실 내 싱크대와 식기류가 구비되어 있습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "137 Rue Nokeokoummane, Vientiane, 라오스" }],
+        location: { landmark: "137 Rue Nokeokoummane, Vientiane, 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3007269551329917964", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=FAA+%EC%95%84%ED%8C%8C%ED%8A%B8%EB%A8%BC%ED%8A%B8+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하우스 오브 자르스 호스텔": {
+        photos: [],
+        placeId: "ChIJyVE-xmlpJDERNSuNB1fGUzQ",
+        placePhotos: [
+            { photoReference: "AWCwydim42-WlD7RhQhxGByeiTmLcEWX-B2zuJfkC9iB0TZdLG8FDnSHKMciMEQ7yfbMYi6Z6tG_pOeN8HQNY5X7oBlnjaoIt-lruXdC-8J0i5gx5N_orGfE_7Zs-cXgJYfjLq9Vx1e9YQSXdamzYZvXDlB_rDX0oFZAnsIgAxo4uT8oFBy3U7jzG3vr5q88uH5v4sLQF99U7nD59PvrXnegUlXal4u__4-i_jQibsnMZkCpHsltqefkL1bl0q-PpWyEXQ1LE7kU4Jw5FMwCacRANjPNizVsCgBtytzmLP8RiKs-Eu-mdI9D_GImkP4wewWwNSQGbvvepMcK8ZFiA-GMd2V8e_Cw663KNzE6wrKJopptjlzhCXHMoTWa107Nq9-TbGhD2eG7m95pU5_kODdh-isstssaKCi2dK_RCyWLYglPtQ", width: 1170, height: 775, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116366041359536430303\">House of jars hostel</a>"] },
+            { photoReference: "AWCwydgeTyf7OM3NXfn-TD5gqGJGQrTr0CCkLypu-sfqiR9V7zjvfRQzmlzPUzj1IscKewk9jrRol5gMg1SXMEUvuiJwR2N_N9VAHiUIUhEF7BtIXjSISwHhCRL1EmyGpg2Wx6n_L1062XR6eiTS7A6exZ02jQWpG0bD_FUpKf6Dg9XCF7Vu0_i-W7IaJWLCxYMpeQswHSqSsN57Q6aYkawhVMkJk0OAZe174181XnlYHP5KcV32LTkzP08NTARwC9E-SAI-BQDo5wz_i5FigvvP5cSboRuZqtJ2u5mYu6Z5zzC0RHyyo6Sif5wiZtlgq7NPhEG0sOgD6eQcG33nRoLNWyzATYAAjeuDF-bYuOscLsAyMSGbQUgidHto4IJHmu0sE7tpLYHOFpxgubvELIZEvsD-zPr4wieXrW6ae0aIBCxl3UNF", width: 1286, height: 1286, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116366041359536430303\">House of jars hostel</a>"] },
+            { photoReference: "AWCwydhaaxX9grSZmFJX9PiahN3qFe5uLzKG6TtAGF3lcV86kV0HXi2qTJw2Z0VJicGPIPv4kD1mSSyo3f3eban851pjC8T087j-ntzpsgO81c8j3Q8JnseR1ZTMQ-s0j0GHJlHnYRUh9bfhJB7K1I6uCSODefSaD6bMBLXwzGEt3Cg7zi7wjjO8uadz6r1UJy5f8JkjP52lcsj2Y7MHJoZfgoVlcP_9gL0U63DknAjRFqVUq6eiq40esOjF4JUR9lKMO2GffmLjqg6wzMm4oaZKcHB6ZpMXYlgSC_HYDhAZqSB3SNc5wQCubD_1khZAT_H5zW71aotQrLt78PKunQcNeBvAWzSmvGCgodTYxRzWo4GvLkUaVZjS0KL6KXPvkr-Vpe9iMh-2TWAOd-mKThlL9nqixUoABPzEVQd5JYagNBA", width: 1170, height: 804, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116366041359536430303\">House of jars hostel</a>"] },
+            { photoReference: "AWCwydixPq-chFNHjLToSsRSBLv1XhVxeRzd4PQ65QJTdwFwUYZDn6_KqSI-vB9bCm0p1S2HO_kVgH6Yk5HycqoPSqhR_BR3e3scPJoFp2cKBI4B-wAWiz9_WVsMcvGQU_P-evPd2jzEyuKg243HNFsRO6v3KV0KJ9ne2IABxqrink5v_-_RaevRau_DnDsTfQY3ty1_wG3goB0gowSJRxhJ7sNvzzNBxJMdJ4XgVqO4LvZ5PqwwVE_Z2xgsAq7FrAYE_UqxMcuqpAvom_4LmTYErOOgrehThfPcz7JcWL-7gvNHYebnp7RmwcD6fBUbc1RR8FMOHWTxhrtYaC87qIRLR2hQrbMSjGC7v2CMqft15sPdvHf8BjSyXG39e3j3V1vdehcX3kZbLuQhT75k27HNFwQr3qZqZd_hQGgdvPF2_YY", width: 1286, height: 1286, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116366041359536430303\">House of jars hostel</a>"] },
+            { photoReference: "AWCwydhU4WeMVKkOCwOGczFcKp8Lt5fJxGt3Ui9Ln2NcINf3ew5Q0bELzBFgSYjHOUYkJi0pCcLjtD1eEoW-ABw2OUXXFi5iiQuHq49LgxSnaIV5fwfCtgFq0G2rjsIzMmC0lf7_FPX6uj1nDvzboecVflCsSF6Bv21m4ybIQ4mRCXuud-EYvT7cwtUEQ7YLipE-bBDv-3gxHRnl6DcYFYOL7jNqMH4jgcKucK55UGH0lEdxeCJRj3m2Db3FyTDcuGZ1IJwXtloAx36WfVkVhmDM3j7crFGmesAOvVqeY0IT1AkjMNm7hOBFlD3Jfmal33tZk_oTrIpW8zPteg0jouHAm2JyFZxGrxmIj0SVihlZKEsNO_cakxJjY6vY6mIS8o2JVeq5O5IA3Kr7D1jOwRZoaH-0EWOOUQ_YVNa73toKV_mewQ", width: 1171, height: 1276, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100826826555618948174\">Amy Barnes</a>"] }
+        ],
+        summary: "높은 평점과 만족스러운 서비스 및 위치를 갖춘 가성비 좋은 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["깨끗한 객실과 에어컨 시설", "친절한 직원 서비스", "훌륭한 위치와 저렴한 가격"],
+        tips: ["아침 식사를 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "anou village, Khun Bu Lom Rd, chanthabury 01000 라오스" }],
+        location: { landmark: "anou village, Khun Bu Lom Rd, chanthabury 01000 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/profile.php?id=61553402555538&mibextid=9R9pXO", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3770575390130383669", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%98%A4%EB%B8%8C+%EC%9E%90%EB%A5%B4%EC%8A%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레메디 호스텔": {
+        photos: [],
+        placeId: "ChIJiwS2UQBpJDERiCmFe3vSGjY",
+        placePhotos: [
+            { photoReference: "AWCwydg2jDYrUywc4_dWGUuxyGcO9I2iJ2IQtbxJenBo6Yyx1ZXtapFQAq8JE0tVysSZArP2XOOoC_1UiQHKuFKHhAik_KCvOLsqwaX_qn7a9E6A3St0L0yBM5b-XfmBi39-p2aQ6Lhl6Yvh7XYdPzgdQdUTilAl2O__PYYpWbAu0munyvq6yuCkofl4hrAIqZl8Ehxv2_vvhJfhzL2t_MVm1he6pYoAKg7jSyi8wNDfRCIMc-J4QSDfCyTtn9dFphgFHKVwqHE-NUX3CT9rCM41fNQuUJlJclGeDIqMi5o2l2ZNVVIjNS3mBDaV2dOvtW1-rppZoLrDuOGmrtR4knU9yqvwoylWsssXufW-YbNigYOghSriesA84BhA5LajkiZxFrlX5ESuOQciOrUxsV6VbahHP2N2avZFHL3p9vbLBL6RZ2w", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106807736982726422953\">Remedy hostel</a>"] },
+            { photoReference: "AWCwydiP3RWjukm7P85duGKwYWL3fiJJZfRcG8WtrNCSL2BSucnLcpId4vOTBh0k1ISyWdwkDKrGMIENDMWoBKXPhHpn5xOJNT_7sDs-ge2pAh0QHqPsl_-78WrIUw789IM-IYWj33kSuRwB6iEQ4ICHE894wQoHQgg2R4mD8U8tvb0dnrWlLEwUZt8BQLKW-D_gcFJzf7FiOvLFxTxfInn9-bfjsYhc6eGLryCZ5JmsVxLKRjc9OBMKsUKuKNazvxnsRLGfMtmNqYaQyeHUBNOU0I72aPmPR1tMxDmXmuyeZ8s_dP2SLtC1x53CC78H2K3V5of4ZCKyVGZ6MyOHuCVQNfKedERvaMVFGwmzFrGpTUc83PJmNHdtTy8_JaI4GQfqc_x0DNPS-RaNLIcNF9zp_3qTnCCt9hn9JyaLNEg6MiOJMtw0", width: 3000, height: 1259, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106807736982726422953\">Remedy hostel</a>"] },
+            { photoReference: "AWCwydjZS3udZYguNPUZyEtiTTLK20ddxawF1EyL6OhocxFVXXcBVCumV8mJvwi3qt-blE0q3UHSo_6i_Lvf_gD2RJ50BPwBO72I-TBKrUOVyJQrqj5WQBDBae2jYe_jEI-OiyLHVreBZFIb2sDgn3yxw6JtqQcWQiJ11x8wQ8w9zwLtZagwrFm574B3ITxM7uUF3bA76TOPjxb6mLA-4DxxgEwSL3QF8vqVsMhYXZyLIGxMgwh55wEnDyeSQiIctkuXRY_Mqa9ET9YqLzSBWKVs1f4yFNXsdfpAfUwveH57smJlilCHm8jDQhbRy4cswmKnygf29UzI55raFPLfFbfWjAoy5GpRuRKdBZCGcW5FFQwPAGUGfhA72GyUYicaO_gRuEp8QTeCyR0mQHM5_5osPmLYGSssr1A0TZlc6MKKPDYnvIqk", width: 3000, height: 1790, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106807736982726422953\">Remedy hostel</a>"] },
+            { photoReference: "AWCwydi0PaqPB4KKWN7rvEzbLmK84Dah3OYH-AKTvquRf1uiCeHFZrwD7HFVT7aaTj-vZTCkCTsmKceaHRssd6eDxMaspmknJkL9r7oT_I5NYAtdVv808f4wGjx69iMmt3XT6bHZvRu_zGoZsrvH5pUztAPRF6RKulGzk3ysN_RITdnQcnnOXS02IGWY9YSWnCaa22ArWfFJsynAXlqlpNuHrSeI2OVn2fBMm0oA1pS3PeuZmFdAfgHEh_nLffCRoWqe5jMElhkhByAHNpj-nRnkWEAXvYuSYVe4ySC06O-7FVTaKQoV1-gofNHoxhWVxZO8EPLpkvHTjlEmd5Rn6nEy28cyLhS5CTj-EXHiqBtrrCjQOsLdfuucweGyrVUGwstX9RY9aggtOiPTndU2F7cPd6m1fVqSva93Fc5LwXJElA5nYHBw", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106807736982726422953\">Remedy hostel</a>"] },
+            { photoReference: "AWCwydgpMDplkYzAnXmZpyeg21KRN0Y0o1WJGKBQLXObGh8da7vcTaPegiocskMdtiumxBPHJGtwkuxUkRLgGAkx_ZnuXXFdo4P9SPTIi2FuXcr36MUc_9j9VMxAr9bybWTZbsAJ1f3zXAQzy5jv8gh7-HvaJskhs44KGeKAVByoE2a9AuoYddr2raMcsGqhuVi-KuXwNvZhhf48KJLRd25X6Y3HKTBwPpaIN4aVDG3bN-ROHvAX-6sp50TyOtbV3PwiPQvBrDrTURievjXptFpbC6H-CeN0tlG3xa1f-BTFMEvvhy8FQw4jnzIiPz_1a-R_DWOswOwx0dChGEhGY1Tyv6kuKjS7jYPi5Ck3OB1CvK-LavfPS4kxZ09i9hlocrBI3uiOPxtYI1z4mbjT9t_8Hd-tIqbhv3LOxiPQw2v_r9heHIZN", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106807736982726422953\">Remedy hostel</a>"] }
+        ],
+        summary: "친절한 직원과 높은 평점을 자랑하는 비엔티안의 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["4.7점의 높은 평점", "친절한 직원 서비스"],
+        tips: ["조용한 환경을 원하신다면 위치를 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Chao Anou Road, Vientiane, 라오스" }],
+        location: { landmark: "Chao Anou Road, Vientiane, 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3898659855237720456", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EB%A9%94%EB%94%94+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "폰파수스 게스트하우스": {
+        photos: [],
+        placeId: "ChIJAXM4IohoJDERbw7YELEsuvs",
+        placePhotos: [
+            { photoReference: "AWCwydjFtUD-R-awBbIwefYxEH1_n5VJ6r3QTamck-OwbxpNKxQoccY-zVBoPvZD4YHzxA-CM7sgrwZ2TwPrw3FNILgStdCe-81FQVYadZMl54THFgoC5owEH8jvaGiBQJY07Xs7OCLOz2JS6VXaWwQGnIdtZYPkFWautLg8WpvtC3ALKqGqIZqKeWJam92SRDKRFjytuy8DzojIIsZhzSLOhFLs6MaMfkkL2JI8b0oGwWRPUcmNw_RcVPsphmqXsqqcC7mJdk1IXnA6-lPEuGNfu5vVItE36IWdy3dUn_7bk4aQ4mzstymIeLLMxzyuJzEA58ecsmBvpvXG9YOvIckW2AuxZrwiXwcDvy27uQwXN4v4Koroo9NS4aciNE2mRDvSRIqZlARydheV0Rvg02NJ8hg-IinY-OX4DYfrkIwEwITWEQ", width: 1440, height: 809, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102880994989921563442\">Phonepaseuth guesthouse</a>"] },
+            { photoReference: "AWCwydi32icQF8zJapmLn1vbuhsxIg1eBiF7_oDlPi3aCd_WwL5pKITJooC8ObLLPeNuLtuZHeru7xmn9lGftCL5Q_l0u-JqjI2HqqQYxwBYUXdQ8HSJ69dSvz5dgRhpCiDiZXlzXEyHi0CAg0FqGPosQuOOJq4q8SHNd_pMN7uJr87rFFQZFcZr5wiMRECuwYupQpGUqZzqTaW6qhvpRFKSjQoBYz-mM25P1TxagRW5tpwcNI8AiR2xVQNKfCgC0kWCVsudNGYhHtgIBmPYcXR13ZgUyo6Eh4bPkZES038K5ygmPwHLxu3ela-Z7s62bpkXX08k9Pe9VfCa8GJuqo-7xr0hsA_fe5Oj71XVaw3bPi8pfPUIuR8NY6yJvg-0bqUAldpy1nfgH_ODeFXEEyCkdtPEQIDyYASljK4MGOo7etdrwEI", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110867588503519947150\">sir. siraphob</a>"] },
+            { photoReference: "AWCwydj1GuRuDKXGAgLrqME0w51iw_bgF34KfHupGf8mh9rX82suYbXlZpvs4XX-7_6jfa6msQlCwW7jF2Fzup74A2SuOD5Huw1PYi1oAVP4eaaz3QebJNmPp47j9G4U4RICvxVxlXswWDtFTrYbdHqy80kvW1OEoFrC0uyH6fNV_B3ueQLFRnZlrTjnsbNVBT1veVzMVIgfVwkKOwSsJpbDIwo88kD7l65MwEDT7PiCyvIqnbFyLRsi1GyMSTvVHe2uElj0UjAfXMvVHs3IDnRFbdTGvcGv6vw2IsjXES89zkf6O62Uq1Kpe_WTovoXvvPIU2P7Bsfybr6NrUQVOrkXtPpcHvOqnfwyj1I5HvUXjP5nCVDmsXuJuU23L5NZAB7DFxHRt2HAp1Rl6aIhLTBekgfpxpp3OxSXDT86hvlcb12h9g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102156682630508564747\">Southida Phonepaseuth</a>"] },
+            { photoReference: "AWCwydhh_9lAjAsot6VGQxJXYbVuvjz_pNym9Ip6uAGWJ7QRGGMVpXVVk8IMiYm87HxmYxDk6ioYj6fv42Lf_XEfh9xFIghpLkJnz6xpEo_i_qdwRc5r-I1MArKuzO-JiB6hhEeMsxdx78STd8Kb60XY6FXogqQJz9mPm3sA32xPVHVvKuveXhIKJfFPBOGVitXRbwr8pxWph4iQ41Jj-hTTM1fUyn5QwKQEcyr90PFXrEU-frHRip_ixatcfLtTcsdhc3mcm_U0nviy3LENCRDRFCOuCJD71-amDzVbZKoY_fi5wCNaugBlSpECxTvsz1N4o9mloM0DT8BMVlGq40OeW6vqR1mlpkPw7vqNT1mSU9XCpPD0C5_QRAYNO_3SnlH3Yqx0hdGcOZYs_H3mI3Qq8TQTY2B-2McuxCG0gXJ0gk6sIg", width: 4618, height: 3464, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102671827649082599362\">Ilyaz Nomad</a>"] },
+            { photoReference: "AWCwydj3Ub79pJZSzEANnKJRA9KT4roILQU4yFU0nbMwW6BSb-PMzHL5FBzokU704EPHC0tWyzNX7a4QGAHnlgTfVQcmF1tDGK5AMl75j87N4Gfmfw83T7kKBRlnuku6yLVme2eo7ecDigZDaXXZDjpoUt0cI9A4x6nV_qpA4ZCBA41zeEpFJbP1fEOvrdmrRvEY8WiE7v8lqSWigLdS3bYpH4dFYJr34jbC75PJ4YKVzn2U6ZES0YhcfJyCjGROLLgmbSBalzpRLbgPyc3_Rn4qQbt7044wY-iexo8oJ-7Xu7bCZFmlrgGyksgOmfYlsrS5dg9E133vVBpA5KOfaOUDa6Ed2MfbdjxiDnNF_cCUuEpVVtuNHBw9a4Nj03z1SaKj0wiHdLoMioIRZx8BtJhSXAsPJcUJ-mkOwJUJQqlukB4", width: 2048, height: 1152, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116057648025434926931\">yanxin</a>"] }
+        ],
+        summary: "합리적인 가격과 친절한 서비스가 돋보이는 시내 중심부의 숙소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["친절한 직원 서비스", "맛있는 조식", "편리한 주변 위치"],
+        tips: ["조용한 휴식을 원한다면 창가 방을 요청하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "97 Pangkham Rd, Vientiane, 라오스" }],
+        location: { landmark: "97 Pangkham Rd, Vientiane, 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18138859588191522415", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8F%B0%ED%8C%8C%EC%88%98%EC%8A%A4+%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "무울라오 호스텔": {
+        photos: [],
+        placeId: "ChIJcfZbOQBpJDERcqH4-4hBn5o",
+        placePhotos: [
+            { photoReference: "AWCwydjeM41qCLUP73vmoVt3UqN-i4EU_rCzwMZN5TVjhKjuiDp87VVERNL4bJ-uyqJoEY_RoLkBjQ0jJt6JZc2EuASci0ozwZXacM-KCYYRj_2j71emqGg4BffHUAGw2vndIyipzgmnWp7usk2VYUMaiB2ubJ6AzCCnwWflVpDkJ6NTUvzaMXrIH-kzLPuGWRp9FONBJgBaWDkShY6Ld8TBJqIaVe371jxvf1kUlmC1wUAVlpobqjIJ4_uHia0KrTVCB9gdzVRK-gYcoQbRl-iSjf8oOTFyZ-5fysTVaMEgJBumMty3h5F9vyEU6jL2i-glnpNE-_LYwcbpu3oWF6liLTzBT7XH6CmDDmmNHfjTdd2c4G-kL03Wl2ti1dZeyatHO0QVOonO58B_WnTvMPxjEKS8JkIookGoeswGokittCj-Mg", width: 3352, height: 1886, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223989000506628512\">Muulao Hostel</a>"] },
+            { photoReference: "AWCwydjzaeDydOo3gwvqhnoqhFuRZmb-5Y4QrWYzOZptGRyn0ZKU5JADSe9ZCyvJTcZLxK37DZu2lGEMeO77-ndEDZDwdXPzM88P5Yzmd1ULXGw1CrUl681dDOS5xbaiHptiWejnp_QjlA-FLrCCwdyl_knA1bYs6H93vzDOeQWRmwOYYYCQx2OOFal6v9v4sW8zhk2nK_crWYjeAMapRV1rYiZZ03qsrvYy8eSphUB2dTxEgHQhruVMNd0uAo042TOsp3y5qEl3pRBB0zmnKu6yGP75tgaJT0yGKEHJ7Vd1sRAyL3oiN93UtAH8RxMsS7mxvIS7aq3uZEmD4_QymLDxZl3Hh5dVRub5hYIiblVZ2jyND8kbwWYfD1Yt1kFD4Qcon6CJgmYYC4HU0GFbC0AhKZBQc3xL_my2UbU4WlENU1gDHA", width: 3373, height: 2694, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223989000506628512\">Muulao Hostel</a>"] },
+            { photoReference: "AWCwydj5hZXq1mWMnwUGEswtgrX5sbyhUP9mcFa7RQvJ4y9QAqrDq-_kzAvm1gTrqznmiEEZiD2JxwgVtGYSidkuLoPAM5ZKhTgvqsetYeM9XS9J7mlayB9QwvohZo6egvA6Lj7q4Aaqb5TizHoCQQ-5qIIl3NnTylJZQxuglKU7DrEoeFZrQCkTNYjrt4ZX1-s9mk7kp-KYOjLRsIu44trY1R89M3mHSGTEyuZv8ddQPNeGiXCLOunvS0eO6VfwSaSq-4r2dDpoJ7j0hcr_um1S6PMJ8YTNS02i9MnUNoG6-_hYnD4-47nz1tbITdFpwVmT-ez1ZuKvyWPT59LgttQPwNrZ-xzYdxBoy0m-gRVAhoqW0djBHzicVJ-_LSNBqTd4Ez3_2M4qRMrtYjKOLH6MzW0SJd80NEGlcULFjrv65F9unhU", width: 3532, height: 2890, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223989000506628512\">Muulao Hostel</a>"] },
+            { photoReference: "AWCwydiaZW8gmMUBiU30at6OEN6WWe3zdH5Rw2eBMFUlZ4x8HTdx0GQDnCjg5E4baaNrnm_NqW85M3ewNS-cHToqc4MfJ2-ESLSZKwoycubLw0xDCl0brSCPHbSnzutmLEhDGtjBfBDnvrvK8RMgQifK0bhm4rk6ejV7TdW0eiiXZKqWBQ3Y48I5ZCw1gf28qZL0TKICxcthJoR3Il49eFa7GZiK3Dqcq02ZfWiD2iqaDs1VCb7smqaU2h-l0BfywvjndjgFC1kKiWhK5HhJWCcD8wiVGWAO1Y-n0n8CkC9fQwXS2eEZ5fAfvH7XrgIP21N8xpdr2xSt104yqgM2fu1cNqD6UzSr6ricaAq_MR3iHROeTqrm2kHN7Lhqysz0n8QXU0wqp1VjYTX_1TicKLbOjXWCzzuUbm5LKMVCQaT66GJpvyC3", width: 3889, height: 2944, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223989000506628512\">Muulao Hostel</a>"] },
+            { photoReference: "AWCwydjRzTsPfVyfShX9ofpX32tEAGy52KM_qoJ0Z6unn5ZLJQ0vuew1X-lfEdoIw0jTS_ym0QR7w_seiCZMLaIELEYFsJsSWrVEM2P0SNoPaP_kAW4K5rqJMjhxqHm6Y2BWfav1UNjYDWhMo_MZK_DGeMhFLymRVntdSrJ8Qemk1m9fVt8IQ4V3ggdRC0yZuRYug8EL7D6BnWvLblb0HQvJ3-GNkepU9sriuIrw2Px8jwI5C_obcwsK6zx2MGqvqDduwoasa9P62SdOuk5bNE_gqiZsETHTK_DMCdknHC3Ry5XYKr_-uoFyw7xiM5jqDtPJpB9QMsOTvFmRoGNU6szPNfehOFT1iwLNghaUoF3PDKyYOrW4qQxC1GwE7AhuogZNfIlRd7JunQn-yuvbPHhgdLOovLibxXIw5eA5LJ790AuHQag", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103223989000506628512\">Muulao Hostel</a>"] }
+        ],
+        summary: "비엔티안의 인기 호스텔로 높은 평점을 기록하고 있습니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["비엔티안 인기 호스텔", "높은 사용자 평점"],
+        tips: ["주변 서비스 이용 가능 여부를 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Rue Setthathilath, Vientiane, 라오스" }],
+        location: { landmark: "Rue Setthathilath, Vientiane, 라오스", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11141696059736629618", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AC%B4%EC%9A%B8%EB%9D%BC%EC%98%A4+%ED%98%B8%EC%8A%A4%ED%85%94+%EB%B9%84%EC%97%94%ED%8B%B0%EC%95%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

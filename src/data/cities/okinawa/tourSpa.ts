@@ -139,7 +139,7 @@ const tourSpa: TourSpaData[] = [
         icon: "F"
     },
     {
-        name: "Active Okinawa Tours",
+        name: "액티브 오키나와 투어스",
         showInInbox: true,
         hasInfo: true,
         type: "adventure",
@@ -156,7 +156,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Evertrail Tours",
+        name: "에버트레일 투어스",
         showInInbox: true,
         hasInfo: true,
         type: "adventure",
@@ -173,7 +173,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "HABU ASOBI",
+        name: "하부 아소비",
         showInInbox: true,
         hasInfo: true,
         type: "adventure",
@@ -190,7 +190,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Okinawa Nature Office",
+        name: "오키나와 네이처 오피스",
         showInInbox: true,
         hasInfo: true,
         type: "adventure",
@@ -207,7 +207,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "zzz…suu",
+        name: "지지지…수",
         showInInbox: true,
         hasInfo: true,
         type: "spa",
@@ -241,7 +241,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "CHURASPA inspired by SMART ARYURVEDA ❘ ロワジール スパタワー那覇",
+        name: "츄라스파 나하",
         showInInbox: true,
         hasInfo: true,
         type: "spa",
@@ -275,7 +275,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "ザ・リッツ・カールトン スパ 沖縄",
+        name: "더 리츠칼튼 스파 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "spa",
@@ -309,7 +309,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Massage Salon Life Okinawa",
+        name: "마사지 살롱 라이프 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "spa",
@@ -394,7 +394,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "teamLab Future Park Okinawa チームラボ 学ぶ！未来の遊園地 沖縄",
+        name: "팀랩 퓨처 파크 오키나와",
         showInInbox: true,
         hasInfo: true,
         type: "theme-park",
@@ -445,7 +445,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Okinawa Marine Sports Sururu",
+        name: "오키나와 마린 스포츠 스루루",
         showInInbox: true,
         hasInfo: true,
         type: "water-sports",
@@ -462,7 +462,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Aloha Divers",
+        name: "알로하 다이버스",
         showInInbox: true,
         hasInfo: true,
         type: "water-sports",
@@ -496,7 +496,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Dive Centre Okinawa 39ers",
+        name: "다이브 센터 오키나와 서티나이너스",
         showInInbox: true,
         hasInfo: true,
         type: "water-sports",
@@ -513,7 +513,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "RAiNBOW SOUL OKiNAWA 港川ステイツサイドタウン店",
+        name: "레인보우 소울 오키나와 미나토가와점",
         showInInbox: true,
         hasInfo: true,
         type: "workshop",
@@ -547,7 +547,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Workshop Chura Sea House",
+        name: "워크숍 츄라 씨 하우스",
         showInInbox: true,
         hasInfo: true,
         type: "workshop",
@@ -564,7 +564,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Shisa Pottery Experience workshop Ryukyu kiln",
+        name: "시사 도예 체험 공방 류큐가마",
         showInInbox: true,
         hasInfo: true,
         type: "workshop",
@@ -581,7 +581,7 @@ const tourSpa: TourSpaData[] = [
         icon: "📍"
     },
     {
-        name: "Shisa Art Labo",
+        name: "시사 아트 라보",
         showInInbox: true,
         hasInfo: true,
         type: "workshop",

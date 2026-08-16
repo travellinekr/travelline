@@ -250,7 +250,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%ED%85%94+%EB%8B%9B%EC%BD%94+%EC%95%8C%EB%A6%AC%EB%B9%8C%EB%9D%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
-    "Kaiza": {
+    "카이자": {
         photos: [],
         placeId: "ChIJrT9xx7lv5TQRVPgtjBK-wp8",
         placePhotos: [
@@ -300,7 +300,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%A0%EB%A7%88+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "abundance okinawa": {
+    "어번던스 오키나와": {
         photos: [],
         placeId: "ChIJz9j840hY5DQR0glMfVtElTE",
         placePhotos: [
@@ -350,7 +350,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%ED%85%94+%EC%95%8C%EB%9D%BC%EC%BF%A0%EC%A3%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "MB Gallery Chatan by The Terrace Hotels": {
+    "MB 갤러리 차탄 바이 더 테라스 호텔스": {
         photos: [],
         placeId: "ChIJ8bdKursT5TQRo8Fzcgxmnvw",
         placePhotos: [
@@ -400,7 +400,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%ED%85%94+%26+%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91+%EC%98%A8%EB%8D%94+%EB%B9%84%EC%B9%98+%EB%A3%A8%EC%97%90+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Glamday Villa Okinawa": {
+    "글램데이 빌라 오키나와": {
         photos: [],
         placeId: "ChIJcU1FiCcR5TQRIE_ZmvRtJLA",
         placePhotos: [
@@ -425,7 +425,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Glamday+Villa+Okinawa+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "The Villas Machidoya": {
+    "더 빌라스 마치도야": {
         photos: [],
         placeId: "ChIJj59jCrn75DQRTrVqTWza4YE",
         placePhotos: [
@@ -475,7 +475,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8E%A0%EB%A6%AC%EC%8A%A4+%EB%B9%8C%EB%9D%BC+%EC%8A%A4%EC%9C%84%ED%8A%B8+%EC%BD%94%EC%9A%B0%EB%A6%AC%EC%A7%80%EB%A7%88+%EB%B7%B0+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Ocean View Villa Fuchaku Okinawa": {
+    "오션 뷰 빌라 후차쿠 오키나와": {
         photos: [],
         placeId: "ChIJqS40nU4F5TQRoME7DQVVm_g",
         placePhotos: [
@@ -500,7 +500,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Ocean+View+Villa+Fuchaku+Okinawa+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Private Pool Villa Amaha": {
+    "프라이빗 풀 빌라 아마하": {
         photos: [],
         placeId: "ChIJtZDWXZtX5DQRRXFD5PGZC4E",
         placePhotos: [
@@ -600,7 +600,7 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%9D%B4%EC%97%94+%EC%BB%A4%ED%94%BC+%26+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Akachichi Guesthouse": {
+    "아카치치 게스트하우스": {
         photos: [],
         placeId: "ChIJNz0LHIcQ5TQRHHV-P4cv_6w",
         placePhotos: [
