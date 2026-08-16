@@ -251,6 +251,31 @@ const info: Record<string, TourSpaInfo> = {
         access: { area: "중국 Liao Ning Sheng, Da Lian Shi, Sha He Kou Qu, 60, 白云雁水健身公园 邮政编码: 116023", note: "Google Maps 위치 기준" },
         bestTime: "날씨와 운영 상황 확인 후 방문 권장",
         links: [{ label: "공식/지도", url: "https://maps.google.com/?cid=10050698566546898685", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=10050698566546898685", type: "guide", description: "지도에서 위치 보기" }]
+    },
+    "다롄 디스커버리 킹덤": {
+        photos: [],
+        placeId: "ChIJp8HvftHfhTURfhXNoVxFH7w",
+        placePhotos: [
+            { photoReference: "AWCwydiRZrt0Y8GsURpQLHPkkwryFVT1MY9B1EJloYt8ruBhl5Tv7vf-oyP-FTZEtCJQEhC0cxKijZ1stfXc0cGu0mdN889WrVPn7UHp_-p6k-2IC01VjBikxbL1OvrPp4e6OKYRCsAWleBBR4A_LTmg17FsjRaBRYvi_SjxNJt4-_spmZQur51jDcTGlYpaHQWLO_3LAZUMpEJptblb2n_GzfVwjWfA7Fb2hM38sr3osFQUn8xDcyiCy_5ACJgDURU32CHvhXmEgBENYT1pbQIiAxAGmFulJ1ZcsuYG4-_Z0Hq0ru2_RZlskvo38ExB7vAwbS7ubUR9uzSNHlo0uKDTNGm2X15K_yHklPd1DAB1xAXlTtdh_gN5H6A-r8-OJgNqQuo2oNua0o4Zl28YPlZXIBzRuoCx2Off_jvNiuXq3_TPYw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110243801667167530821\">김정은</a>"] },
+            { photoReference: "AWCwydjKavrT-c5NM6_tQDVZ205dLxEXI7yFY6mNzm0EteWlmXYGq6RCzC7tSZWKdZdDL3pn1qosVl1F4p25qhfoH0D17IlHoisgMUHCT4DHL6d7FjRAV42hxD9pWO1ECtCha1-3qPEJ5gm_CcMt573pl4VnfsT5sRPs_Tpxigyo2rRO5Wd2NWrQQo5YZiXhegvBMaqJDjENk95d14gyD8U2Csf4jJwZMHirFNkFLKgpeBZLulMOkEhI7d4afidXBd32G3Tsf-sKQm2d7eVsFbT8m6KlGuLiTzmqZO-nN-er9U12AO2Tk_rPa9MOk9chdl682GmP8_C-jbDh4tYrDNi-rIELkpnciGdZgCZYmCry0DPXs7br5D8Ty1xWdRFr-e0314W6RZlp4rM5PSddUrHWXvqRVb1mIEgI9N9oLzRDpqEnxk-T", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110243801667167530821\">김정은</a>"] },
+            { photoReference: "AWCwydhgxf5YXnN60enGccVjHpxekUOAmCUReT0-sY9wLGuHy1YwBNpaDn3G3sbznHokG5kpkCXU73MrMNvdcxNT0c1ITWLvZvq_eVt2ISUPBCDXXeIfHIwjFkjsM5YnOFnJteJprzbWy-49rZvQew8fsns76_-OIUp4lEZjhMS0q_iLEh6gCIrs8FujtY6BmHgmppHvNK1usG7aYHxyGHAzpP2uyCMfBnbFSy2m5sV5RATwQpj7nnasnyYo7rTz4GAlVTfsdWyQ5hIT2vbd6NjU6FZQAhhjAKT3z7fXTUExFB3ZosZ8CyUiukRcHk81rNqjX9ma8mFGrQ_Hyr_rAUJRQ9A3w0lOWi_4ElK2hbVcduOE4xTnkRTiXjK5MlSk29frPl5FlSbPPoA-ZvgRTX1uLk1ha9GWjoborWpJHdIrMaBtwGY", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104774846791442991118\">Misha Andrushenko</a>"] },
+            { photoReference: "AWCwydjwIBi_BPfOr6DS44MZu4dCzwPBn5KRwYwsXp7LKL_JjOuQbPp10xYcaYG0cwlQhnrM3QSvw6no4g-vm58CsAuKjyvU8QB5WgnPK_PVdcGa5SOeROrNeKbyQvl6CQ2o16_RJko9z9dLGdSd9jR0XNoBvPPWdkvOynJUSjuPjHmirAxWKaMSPoOsTPAN9iPdsPIWN1xv7RJm-fIA8JR_MOWvWtjMrCrRFVSOMWlttBL2CTDmMvQtvSmQ_sNaCkr60XResiEE4nHZIfb9zZfuezHiH33dK14ninzEIZEyTuNY5lu14xPdcANeo78HuZCpvwgEF69E1mGQaACaJ8d9LTGPqzJjHxBaAwN2S_qNpWdMXRLTbcTGBpDsh8bnvFzIRR6I8Ifs6L2TK1gMICjKtbzLgXEqFAubqV3DHM70qfBvYw", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108932566693769214725\">都博文</a>"] },
+            { photoReference: "AWCwydj-G-Avutozf3DtLGQYPAD4Kz3Xrbq4kzsGM73nXiqcTr32ox3bZg1peGSEcHY9y6q8i-O0ZMTnlHDeaU150tNXJ_RCh3t2eFaINfV-bqvWPCJMsLzZ0bXoCx0uzmcBUNdEreieQvPkhh7HE6qP4vAjt9QBRP-HwW2duzOZ5UVnHYHjUfz5s_1H5V5AV58tpsGBlEmQ1PGeaO7DHT7aJpl_TLEharvI4tlIn9g3U3f23TCQLnQLT-UhqHplAgEthSNzOminiv97gcob8DjWPA_XbxCYj-kNcMl5lewpx-Zm3XM7qn7Q6Hfs1pCh1cef8f1KgaL_E6VxmSHKJfd4oHh3srPCo5NiufpcHFe8J2_1s76ZFDMeLjx6dL1nsX1Rc5OmuSmjOOx4-PzTHdpwyi0TNIpyQVata4ynpUd_TTAqcA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101422730754801505131\">Yingchuan Yu</a>"] }
+        ],
+        summary: "가족과 함께 즐기기 좋은 놀이공원",
+        updatedAt: "2026-08-16",
+        highlights: ["화려한 퍼레이드", "환상적인 불꽃놀이"],
+        tips: ["식사 장소를 미리 확인하세요"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "36 Jin Shi Lu, Jin Zhou Qu, Da Lian Shi, Liao Ning Sheng, 중국 116650", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13555629667562362238", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%EB%A1%84+%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC+%ED%82%B9%EB%8D%A4+%EB%8B%A4%EB%A1%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
     }
 };
 

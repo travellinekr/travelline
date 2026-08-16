@@ -499,6 +499,456 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%ED%85%94+%EC%9D%BC+%ED%8C%94%EB%9D%BC%EC%B4%88+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "더 루이간스 스파 앤 리조트": {
+        photos: [],
+        placeId: "ChIJtacDgKaNQTURE5Nw5RKUhBc",
+        placePhotos: [
+            { photoReference: "AWCwydi0yacNXCySxBrhm-Qn01SdHMs7A2tMVog1CHTR_sW_8OmZLsQ59gIYnphBROVNlCeEtQbIjsx4CtXoMjO8KlHhe6QJ8M0kGV3yEMwrh1JtdPvPh9z7EHIzagedr5A8Kwsco6bWfpQwRdiM7_FI0yaBDpxFbSLfpKUtbXaHrC1RdaeYjHaf1gRUOZ0qk7uBUXJcZU1--6k8Sta-Ca6hTNKWO5i_mGNn29cfWlKpH9m3NjGg5E60Hs7XmSYMNm3PkkHr5Tz-xPDzvGDO8yhQtA_WFdbrzWTOWMMSOevSWK7sFvH-in-6hKIkyM0XjTA6SmbWnAbkv7QUbWjUDlZAPVIdJDsqpHZZsmBtpaheQ5ju53UMGoESI7zmNQif6UHoY4C46EG4Y6v1i7vP-Ij2dvsODYsZPgs4t0KyXghIpnjA2w", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105477613356675743996\">THE LUIGANS Spa＆Resort｜ザ・ルイガンズ．スパ &amp; リゾート</a>"] },
+            { photoReference: "AWCwydgSooffg1rx78Xnnbec-TaFsiaoJSJu1SRV-qMZZAy1VUBmpGLnDoahGLBLO637Z3B0pN52aT7m0GgLm4Tt1H7_wrcQPXlsNpnKGZLtc-8PPqV9rxlWsDVbcNkMN8n_Ova5LXPEtPdhe5KZPLiujW6coCKn_lIvp4RkgcRYAMOU58hXoIRKVUGOqiXrwOSeBO26nIuAWuEA9Kwo0DcxQV7kZqsVxkvQb0MjdsjXD4Fnw7trYJp7Y3RzTWgC8JYZlCjkgLcoAmWIDGihLwnXvjnN-jPOFRLILejIFSEtZTqKbQ2jwPYnk205gD4uipmBh68UiDt85-ZEcQfGKLd4egrh8a7xoi6wQ8YxIESU6ToQhL9rI-HXEf-gbuaoxww2Cb_SQxcZsbtqhGOLbJpQt7aUZnqHYOeAr6LChPO6CF1c5ZFZ", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105477613356675743996\">THE LUIGANS Spa＆Resort｜ザ・ルイガンズ．スパ &amp; リゾート</a>"] },
+            { photoReference: "AWCwydh4HfUC_ZEn83n9wwSpGYHMVfICZwNXc1Nrumi_reN0NKvDidsXBzJkEouN5dsMCwNyJotH57A8hZySD8UK2TXQeeDVxSZcFAV8oO0SFLZ0dObMHmAiCLiipKIGZd957BxsfKOB0a8M5CJ62U07CoSfJWk-skMo9KW0RB7O1H0my1CpS4BWwTQ7x02QALy5Cs3Y82AlBKZzKT6FoJVCK0F1Yv-zF44oNHSGJOSMtMgAbrRrNgEXjqs1ASG6OJ84u85Y0W0Ay0c4hiM62Kg3_ABf5YnPTWIoJ5ZILuV1De9VpbnuG_cGXcbcLHIH3WmnBnVOAJrsLDmWXdTpi5_jMtjFCasFDbrzGQNjq_6YneOtl8t7pgcZIXkKRRv2eoAH2F69qEhnyYqcoyRvUEYU7GJ04I0ECjImeNk3LOI-590ANPXw", width: 1800, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105477613356675743996\">THE LUIGANS Spa＆Resort｜ザ・ルイガンズ．スパ &amp; リゾート</a>"] },
+            { photoReference: "AWCwydik1fC9O8MKCjJCTBIRBKSWUDh25dWD6mW-YRqn2IXPVK8nm1Va-QBrkMnqLpluAVwRzwv4iFtaUTWDGXjkd2pmFeLEDk2dHBWtUyu-N236k_9A0d-KIxoQnws_XCXZACIo_c5I1ZpnE-S4uXbAvGqi9umsZgIGLQR4maRtAxbrAXpcxO2iVxJ9wPLHlNddU5ArkmAQStvHtnMeL1hFg6XIIsvHWljxBlaXeNz3rPhuXoUs9jrSTb-MNrihlCdm5XJerwiQGIpMWJTi9UAwM1fwidjXTB0OuLCh9C_QQm-Q19JZa3jKlJVXpkJr9apd9D1Ta0RjzOVhoLvH2N0NOtza-eEJEO7XwO_F8HPjCeHgyawx2__9hfM9D4FZL4bqm4mvlhm2GmB-8NVRtCkFFGDogrvCbTnn0gdbxM5dpR97ULdvW5qu-zr_J4UvfGuZ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105477613356675743996\">THE LUIGANS Spa＆Resort｜ザ・ルイガンズ．スパ &amp; リゾート</a>"] },
+            { photoReference: "AWCwydj2DBXXsDILu4We2MWlX6th6OSvk6xFVuDAiigyZCh8cT4omn4tbU8LnW_YEDkVN_QML1EcV1CRf7b3MobpPGa-5gPVicz9xCmS56UC6PMFv1E2niP3fW0hm1xmIKE3dJK-bkosoOzQq6xVfVBcW3maxlHcJWcD2W75f_9NPckxXgaFh_JHJ72QqSE4Vn99tTkAhedDhF4_lg4wtxNL-H6p662jomduyB3zlOlblU_yJWPXqpIS68JKdZ0jP1coOlt06eLaLvM-j24vwW2xJbdBGXJGCIIe2LxNzTCHpALRZE3s_nWf46RdN7yI-Uu-RCdd5dvg1732qK8MPFax0A7G2PnjejnI9lZVl1st6UvO_mjduFXWkgItIl7BXgOfLq7S5hahC5M22rklgPeFkaBrTx11dOWuRJQbuEV3meW4oQ", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105477613356675743996\">THE LUIGANS Spa＆Resort｜ザ・ルイガンズ．スパ &amp; リゾート</a>"] }
+        ],
+        summary: "수영장과 BBQ 등 즐길 거리가 풍부한 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["수영장", "BBQ 시설"],
+        tips: ["인근 수족관과 함께 방문하면 좋습니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒811-0321 Fukuoka, Higashi Ward, Saitozaki, １８−２５ ＴＨＥ ＬＵＩＧＡＮＳ Spa＆Resort" }],
+        location: { landmark: "일본 〒811-0321 Fukuoka, Higashi Ward, Saitozaki, １８−２５ ＴＨＥ ＬＵＩＧＡＮＳ Spa＆Resort", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.luigans.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1694642168677831443", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Luigans+Spa%EF%BC%86Resort+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호텔 마리노아 리조트 후쿠오카": {
+        photos: [],
+        placeId: "ChIJn1TykzuTQTURdHnTUOXWZI0",
+        placePhotos: [
+            { photoReference: "AWCwydgvwYyEKjVVkjleaIOH0D4jaL4CoRVZyY6EHjGO--im8ni3549C3q4YJDlttrTgtTO1eFCEefaN4TaXp_vmLpPglGvbFfSLbHAUdZWaSwSYANqNDTCjyL8v1n_Bn_blaWr_tnOd4j5tpecr7SQoOlfsB08YCOLs1oy2cVuJjymHVcqpn3FvovbieI6eQtQOEFlFC12RaTDJv7aA3toEIv_QLDzU1ifDOicnsTzQSKstImsgATt-n-NSRROYX4U8OvvXRfMlcQwgQXVVcVaLVsydVsw4o9VuoQCLxIKrWgJIHro-BPCtWJ3Cf1vb4K3ri8L4BmPTw96fxqrPBtu5_Q2zkTwzYGJuHcWzDIwpWNg3aA0DFEDdE8vPPDwIpXadH8jYCqf5mtOMVHoanCxfG6SXHxhXqrE3MLGdjugyr_K7p9Ox", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105535840156057740947\">ホテルマリノアリゾート福岡</a>"] },
+            { photoReference: "AWCwydia4pL3atbZcPqGpL9Eow5eJqtCTFHBUto_KDeQPQvgvlb9e07cCDXKLlTlubsT3vzMdrzjOi-PTmJMpgZmEvCYs-996sRcTuMUGa5wg_xmCssEswIFmCYSF-HsnbN2cBkqSYZ9dlRSwde_BVG-J6CvshWwcqo1j8U14zeWXZPiAwRd2kYsy_eqhsydnBuFCQuuRGbjAoe4E_Zm18cCOPIa-3rg1HdHh7-LzinmC1ulh3Pzw0fxesYBeYhA6fH-nJEoXIpCf6gg3ERcuYK14HRMMPNsUQsE7YVpQceFIWGWyiiQ-WDwfRD2qxUIyoXgaP-ksiCLXx8zAzSAHMSJyfKUxFkIfL2aEIv-3VprbOexb442h_HBHOQhY21jrzs9e5nuBfQCsbJRt0xvnDC8aA7ycLGTyijzIkcGp4xDx1lkwQ", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111169505876632362138\">Joseph</a>"] },
+            { photoReference: "AWCwydh1Ndc_jStaEmxv5d-beop-emrvVfxPZoSXkK-XNC1w0wh_wzaXRnpe-5ylZ6PiDyJpn1_A081gpoYysSyLAET4PwPiTo04CDTBZK1BZVNjn8EHhrxcHSbhx-svWQrLALUx1cW968uXpPH0p5ameL0Mk3iSMTtstB9WHStPEGBwUVzkeV1oh3e4jC7EgYvgNKAOODPFyiRIDhUyT8nQObzstWmkgC6pVPuONjZU7sJ2LNO8iX722UTGzUbSSt32I-cXazJMBQFp6F09iHmRyGEi5jldqCJtKrk5ODcAy4tbk5Y4RL5AfCjNiXdxGX3NS75Gt25Le8yy4tkLI0JmGECe29HkMkUPghtRuJrqpoI9OfpgKcoZFDq6WGyMtG9ekUlgzZ5pix9FyagsK0z6bq20GaNTcKV_TE2UVmAGCg_Ekg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106051318422277906092\">Kinoko Hinting</a>"] },
+            { photoReference: "AWCwydjJpYcBHiLZFh4goQQuHhSVGvEQl5La0dxkH-rFZ1rnLCpL785OexYS-9UyiaeVQQuQPP-YU5dWaHtaiDf4lzU2lE9W2HVruGz-GJzGFIR0szMtK1GnkWVwIkCLUlgmeorjdQRmfRz0NLIfSyRL22o2gsaTgxxUlwbP3hfvm5RsECpVwSejAeZ-lOQtcktxfmJZfojIrEnQIMhUfx2f_af4QMJasy9VGmL0Xaqx6dDSsI7p0Da_F4Iq6IoWKeR5BoiqkVlFi5JfDG5ZYNHYLwINELe6S4pn_Tn-8cm5cZU0XB8KIHKugellbQ_FDPPa7YSWCrw5bNjDxTGrHlLqo1ktmC8bkxkqKC8QeIyO-JobcFGhGrA3HjBK26w9jW-zHgEkcA91jFGZVgpzhoa3Xzm3oFnhG02LcjebRkcoLtWr4h-U", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118412423547409081724\">鹿島潤司</a>"] },
+            { photoReference: "AWCwydiXIjmZ3t6lev7Q2LFl8_MQEnkUO8xk6WbcwQ1W6xxiGv-bVST4SLMtNU51l1E6vt63f596ytQQwZlq_NatADbgF3fmBAtD36PwX1RWAUxwlDSWzC2pubKPmfOCcJuA6iTW6D7lWtVL5AU16OT3XKF6ROFxJir3LCh_NMiggyCDsTfWW6amsXk5036trt7bh9qP_BOhoZxP2z4EVb-ypIIWd3--PIfgvg6rnrqS-Dh6P92UAM6_sRLVv5Bmn5PoAYdsIHnLokMS_nYserlQ-trLuVvnBhigqBOGUiTV9XnqHqoHC8cuvEkGEYGHOncuQt3yj4XbFu6SnoYpUF7ZGfvt_y2HH8EUY5YvuwiA1_oWKvG_UEGnpBP1qbPrWv29fHhJgTj1Qc4yX732W8ZrLPbJt8gIZnYaE2r2-0zTaEBwnQ", width: 2000, height: 1500, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105535840156057740947\">ホテルマリノアリゾート福岡</a>"] }
+        ],
+        summary: "높은 서비스 만족도와 맛있는 뷔페를 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["훌륭한 서비스", "깨끗한 객실", "맛있는 뷔페"],
+        tips: ["뷔페 식사를 꼭 이용해 보세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-12-43 Odo, Nishi Ward, Fukuoka, 819-0001 일본" }],
+        location: { landmark: "2-chōme-12-43 Odo, Nishi Ward, Fukuoka, 819-0001 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://marinoaresort.co.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10188504537410795892", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%ED%85%94+%EB%A7%88%EB%A6%AC%EB%85%B8%EC%95%84+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "세븐 바이 세븐 이토시마": {
+        photos: [],
+        placeId: "ChIJzY4JSGbvQTURv_RMxEIBVNQ",
+        placePhotos: [
+            { photoReference: "AWCwydh0MzElXjt49nwDN4Q2POjAnTrWZg8KtHGFETiKlMEu7isGBde0ns3xlwVqieyIJDjhi61KY-LxmgW00v5SAjt4U-MbtzfeBfLO95ZVvRQfsctrj_YNoctA8AYscOjC1HN9h7rsYCahipz0VHWUf8t7Y_qyfXdPuf929Q8UImBCuRbhvtkdkv6Ht1QMsCO9rOO1R2kN0oqexboVayaCPjR2jMLQoHiaQIZkxOqoe_CVN2H9TZ4CT7_sRIEFSAupN14iRWESSZ0dKekksvhxt_kmAXXSfutKc43zsIl4sVVCmnrZNQvCnKAmoWYq1DVKNdw53qkzyTjZbr-7zCAknrY6AxiFO30CjXX3ULK7tqcbnGEQU1Ehc17cULLJEK9qO0tGXMdfjlFoZiZSOgLJB0A5y8vgWlaftHKOpSJhL3EtavqT3Dy8fhsKhqzce-M0", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327661568091960118\">seven x seven 糸島</a>"] },
+            { photoReference: "AWCwydjB5xAymr8_WugsTTgndKd6ZAdYCXc2qLFtsU3cJkUZHBsuVORhJ1f_1c67JSuvJnLvIYBMKUay3dcjrO4lm19noiYwV2WPj0amqD9YI4ZNxCyLkk_M9QDCmu7Ru12atIVcfTg6KCX9LCjXaTVJI336NEpBW-Yisnl1OXro09AJLvf70WnmaMiwVbqTJd0luIvx131-hdUueu3Z2nrUfqBgk1dijj_TRkkw2skPaqOI1OvjljKD-ZbW7THVr5R8ZRAp0R4lIcRFxKlgYKLin9w34exofndA29He0m7nekupG5eWhjur6Tq3q50LP8eo09ytIuVEF5Im8_wS0Tn8Z9rdgOoTblfkRXW00Vtwwcyq_TQnAYEALpk6J3NmODoYDA8fcnLea7V9KDZhtT2GFKisjuvKbkDWMQbIIAulUZJE5quhPWmTRO0ydzit4lD2", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327661568091960118\">seven x seven 糸島</a>"] },
+            { photoReference: "AWCwydjPLo-ZEAwK9LEh0itFon0oWuSxHoj-huQN0ccAVp7rSJE9veQL60xq82Ki1cmeOGtIfVrr5DxvqXuU4HQkAB4nmJr31lDcoDMQ0luNbw-0qvHQdwVqE3EC3VjL1pXVifqp0vlKygLZuYU3RpaXEeXDTRPP6VQOO92X6vcEQpXn3Ojgut-36l2Zhpwxp7k7rq3vn7JU9ElKFgEw3m7rE3GlMPh3GiVH59xUysakq4bu2kuyn6Saii9blekGgJXsIJ9EslK28JEaOA_NdufrGELpBX-WpjQ56ZSZZ-SICrVEJKT7KXfzToy6heETJRfwOwVgah1gK2v1QzGD4L1hSkFyQNlTBNHGwiscMusXI3-d4L-qEiC1eVDVpRbv3bbytYefCdgUYK6yYZ76bFgs_cCE_983e5OUCoFWNWQ6IXb4Z4h8S3EDU7_8FXnbqQG2", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327661568091960118\">seven x seven 糸島</a>"] },
+            { photoReference: "AWCwydhZCeX5oPa_GwSCTKUr36IlzcxS_BycCSWFEi6kwUXafmZieAXYXMWjKIZZ0aQo5IKg3kHuD0e1PImpnUjCV5Xy1XN2DdTuHGtYchoEPvX-E06RfawRkCpoK75fFAeEbFhADySM157JzJyyra1NbHeyU5kUibBRKAeGSyDw07Fqn9iweMiqb15hUlrlPBQAMy3CrcMsEoE7yIkQbJqf9QkZ6YcQQfoFOtxy-sd7eJTgsVOuwYmKKCxRTkQbP39mJNcLr4rBcvhQB8-AOWHY08CuVP6OGeMGipMyCvSCOnVVrc1eYtjsd5XyqMVEE1rJCVTLuZB03Mkjj4N3EMcqwRqLrWWgswo_AtVJIUMByGwQ2wRjCVLxqz9u5Tw0lJiN-ANOZ1ZFfAhgvTj_7XZXK8u-SMXZHKoE6BV1kA_8xVT3azgD", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327661568091960118\">seven x seven 糸島</a>"] },
+            { photoReference: "AWCwydiPnZ5gauWzD9Qlxt1SLPVdIxkFYxd2IzmzphLQsKn7gVKwtDS0jHoMwWwW80BaEARBTLGKn-b4xV7vZTRLHDkup-ALs5OO5T2A1Ro0HrywjWlPxFQrv80yocGiClvuEPrjx0N0x65EecW-fwRqGpACLO7m2Q3xgRHjXnn0IdiU9OvgKrOSo8BZcQUkLlPGJRegkNZYsLU7ZzEJNBlHHKODXenckjqnLG48aCNS4T2b2qoJtc49t8XgUtC0Xk3YOqZekZ2FwMk5i9xKhCHuA96ihWxf_K0tAxU4jxdqC5p4NmVc5nYpsQ5WchmtlRnt7edJGCYU1uS2zTiX5uRtWICZTsnxjyKv46zUltRZedPsHNn4Hj14YcHVIY9TDV3Q_GnZlN261hZRwLQo4lJB131bicYCvwvw60YFUtHxMW5CwJv2", width: 2000, height: 1288, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115327661568091960118\">seven x seven 糸島</a>"] }
+        ],
+        summary: "해변 근처의 여유로운 분위기와 편리한 주방 시설이 특징입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["탁 트인 바다 전망", "객실 내 주방 시설 완비"],
+        tips: ["주변에서 식재료를 구매해 직접 요리해 드세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "266番地 Nishinoura, Nishi Ward, Fukuoka, 819-0202 일본" }],
+        location: { landmark: "266番地 Nishinoura, Nishi Ward, Fukuoka, 819-0202 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://sevenxseven.com/hotels/itoshima/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15299855220357264575", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=seven+x+seven+%E7%B3%B8%E5%B3%B6+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "테리하 스파 리조트": {
+        photos: [],
+        placeId: "ChIJTYUQCMKOQTUR4kbENm6GuN4",
+        placePhotos: [
+            { photoReference: "AWCwydh6PcnH80zWdq64fkjQ5YIXwwqUGiPpVIvuRwNCbaQwltryPOuOuUGCdWcl5TFIU949NMjo1BLs4LOsmfxprKDe_6FZXOV_t2TLB29VcBWRC1tdf6P8KeltzggmaxqNF4BKWYrKrOBbLFUnb7duOSXfEU1Zs5g5GREDR7CXuNMT8jKxN3bsgVJRtkCs4WhIOx4XAJgQJucqzAsff-E2GVxgohtcX0Oc3uV7yUTrQ550hMmvPbK8yx5G15kC_9guEIkqQNbRXvusvhqDR98Q8mdjcm8eQV2AdOwh1DA8aG83pTYHMb2pe-FLWapQxScy5eIa5LGA8OdZweMIGsdPCv6IZ1kshXGBvjyPR6G5NAgUxw8lS0I0l8f1f4ThWhP35mBlDcOJPgLPE9Sz9R6kE_ckjqxwLKSUdBroSyVJOvTgRw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114562390763872088354\">裸の大将</a>"] },
+            { photoReference: "AWCwydhn_hcqo9aI4119ralS0oGbhabMKir0OLyXMy2K8Ir4e9vzOJKF-nL0URL_hYHughZ3236eJzn4ZuBTZpXlT23jgUDyDne_uWUa7pco25yY0CzH4cEMBntdOKi94IlOKSKHC--sOJIeMsmLA7Q6AEP5_n0ZRjRLAE4gyeYhewNKF62lxpJb9bxPAW-X-JLGGKZ0GE4FZuZ9KDycAGvaDuoPXC9iNM7sItemasKWcFTwekBQq3tY1Q3R6Dy4wsDQAGLgvOBtQ2lTKUCU50nAtoPo6onJZpMI3vWu9S8kkw3hNUhzMyFrRQIQE2sH-iVUGYIu6bLqQj7Qgd8jgNfcmAaGOlQiCc3zjfFTk7P42eRkUGV4qgDHD_Kx9PV5vohgbVbEXgxb0gBPdkYy1a0lnvAT0iZEIFOBT3dtZFaldScOo--pMqNQq1D7E0E64dFc", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117633005434699214181\">堂林どうりん</a>"] },
+            { photoReference: "AWCwydjFNcOC1mhDBksziN42HUGP6kAF3WrWIFy6KbeTkEVb7dsoazXZvK-yz7vAosGYVxRbiPSSjFi9lkvT_AGTdnKRPjsHrgoruDRRdGdyZGqZeXS_Q1QofpNn6vuCgFyDznGchsdn_rO6Hdob1Y4nzntsQOYMsG60yeFSRsEoosp7tFZDlFrzArKNqQdPy3clz_zJocRv2Ytw2QM9hCIMTtR3Yw0LE7ZvzzoMLmsar4SnwdGwgLiAOZkdD6xaq8ooJd3omGk0r0XiG185CQwdvlSOYp2QdPaDMtFCqg2MFA4itDONoIZvLkOvEih6ciAojVvIFWc_Q4bS5Dku72gr4opLnhc_EMBLSUpHfFgZBx5jNE7OcbdXxPIBIk8D_B6auIlogbborQvQjcP7605rn86LCEfVix82fJfyeKaG0bOQwQ", width: 2160, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107120942891655257633\">a</a>"] },
+            { photoReference: "AWCwydiE4YVdWriy-0GpgSlRC7By7akLlbFzGlGAovGXRmD-mlZ7dN8bxW9tam5DRg7PBXH73MGM81sMvFYlUUEkg36GTZyEsg28O7sOQ3KNnBLzVMGgBFtLKyymXavHflUZgEQ_4H7UNo2XslrgPZ2JeR-g0S7BjlrzaVgQmhYzlRzxy-8lH_4eVFFRuMXZBSudWNuhA3FiAJ0wB-T8OpFWPaPMwSzr_-EVYgoE_beybcOdA1RpCOF4novPTc0wbRWBQrd4KDWtzCEWrkFOFOASVH9YlMTy0RIHHoC5aWuhZxSfnsT5QxyZASCs2eB1Z_JBDnAugEb9ZHIvbwAE-f_htNgKnWIZmOyhy3nNKB614GXulLZ5h3f4UHRYIf4d6kuhfGZ6xUyzU_-vxSTKuvuPSJvLh1o0mAbMxLZCR3AWQhMJ66EzydvVCpLhTt5O-w", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110558104466042321501\">藤波佑輔</a>"] },
+            { photoReference: "AWCwydjsSCzpccafAhYHp0TP1SYNGnE2uF_7b1KCe1iiYILtHxfNRQjVZ_J4nCnMVxfrXgpLya1sjWRIim9Sz_UMrH4f-SwlT5anDJ4jdYWSH9-_IjHOftXpEYCMEeIUbJZMKI_VIGWD2ZS34i6hvLSRxnpKJBqYlz947dS4ByOya4o4wxftkJaBKB_gYZZKncFKzWe9ISmSWANRTOEg-lp-pB-O12DJedaHneI-wKzphhlfJS0muimunyT5cEW_pvfL8dtLMjmCKwa8jEN0Co9iSOSHYvlQNuOuDkVjJ25wnZpnHGT_Cr_sokOD3h7ovnmwxDO2dxeFT1ClZSoVBXeAcVDQBa2IZATY72BfzJTXHsx23X3zAPoDaXg7UU-MT3bdW1jqOm0CIbgWvj-C5fhqSgoCCUEuSYm1Km5pkE4QgTt7u74", width: 3968, height: 2976, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117851254414361270089\">ちゃまランチ</a>"] }
+        ],
+        summary: "높은 평점과 많은 리뷰를 보유한 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "많은 리뷰 수"],
+        tips: ["리조트 시설을 즐겨보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒813-0017 Fukuoka, Higashi Ward, Kashiiteriha, 5-chōme−2−１５ 照葉スパリゾート 本館 1F" }],
+        location: { landmark: "일본 〒813-0017 Fukuoka, Higashi Ward, Kashiiteriha, 5-chōme−2−１５ 照葉スパリゾート 本館 1F", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.terihaspa.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16048725080058119906", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%85%8C%EB%A6%AC%ED%95%98+%EC%8A%A4%ED%8C%8C+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "위드 더 스타일 후쿠오카": {
+        photos: [],
+        placeId: "ChIJI4rGZ7eRQTURCRHpMnRmn5M",
+        placePhotos: [
+            { photoReference: "AWCwydjJzY5TtTzaaivHVoPIf4jS-f18hZnr-ydRULm4T4AEeUCF0WbLoFScuorYNxDB6RosoLGjJoi2L9jQlP9swU5s9fvctoalI9ebTN4B5tHP7fIhPn1ru82cfAncveeCOJX7Yx9m2DIX6Dia-9zuMecN9Iol_YhholB1Lsw-5qqE9h4U1kRSHJnuLj0avjU5lUr9Gfh4axjGkl55vkDo2whZMSRqG0WYPXJUVAbHfMs9oyj0SIoKr0STGFcK18GcjsXq8_1hN9NpadgzcUm7ML_3w-LTIey2vkabauCaANjSj6dJcu_1YlWPPXbInqlyQYHPMs0TYCf6GjIb0NApp4D5-rLafuFo9XcyIOsZo2q6yW_pdtLwR2IFvSIPksRlH317ULwDKnXUR7KAfUrZIp6Dx5x1QmvJDhOKfYQg1uO3e0w", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109224882196205809871\">WITH THE STYLE FUKUOKA</a>"] },
+            { photoReference: "AWCwydgX7CnF0O1OgiFTGKpCHWak0_LN2jxCgzkGBe3aE-3_55QrBqHqnLQa2xSx9sNhoMZUxqAEVkuMREUB-t4elbIuv6NqE_UM0yuSigjIFHLFxd5YF3AklSNhxyXOECeq-oKqpJMtNCkNJNxjQ26XR49tq-W-WkwrPgEbmr8G4CemeA4XyCYPyUc9aJ6YHpcpYED--u4q-ooFY7vcqwnX_EoAd_SaMcfSEPuMBNjgXeXcReDjSgewLrrDlwY1iLgAY8Pot5nK8P-Cq8386GHlTaJryvexghVPA7Bjth4MhQD_EHRo0_khrFbgD3A2t1yO6_3T-Gmb3sHzpwCtNKo4DFfha1j6cPEAT0qeAh7cXBmogS2M45Smj4iJgo0FstlasIFsskV5gUoA6we2aLFyL7VMOSsHNANOxP4D4sSMS4oLR-Uq", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100733557130195632663\">IBM 13MAD</a>"] },
+            { photoReference: "AWCwydjJ-mangWuTE0b0CbM_nPKeeSMPCyCtxFzNyceDgtPANAH8nBoPddwLPHzSI3Gzvm_Lk_WxLrc0_Uglnzio_tPvo6NW0aRbRhFBjfkBuaWblGm4Nlg6WMeKExU7nIqvkw3ePUu9FH-ocIPkzo24_IhNyt0W3CLUnmyvQtVbcEFhVvfrS9L2f9xEnItC2s3VVzGJV0BBMpTGQAi-cC7qy3pa9ldaM__vKc3bMCENKVa-Emhky0TtDFCt8w-c9Ql0sgNI5JAvF-4tGSMbg-TJmG7WP5CeFMjlvNBng64SOy_HLusP1CgDlLH3bJgUWj6o4Kvq2n0cjBtK51stWHSF5ia4UImdIK49gWdzYQ6LkCJ3CS2gMd9pNK2YSn7Ecp0tSQYdnyRz6SsElwAZijTV74uOqOSYwc6sysoMJF1VDbYO7w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108048918099105342796\">市川寛樹</a>"] },
+            { photoReference: "AWCwydjW1zOzt4Z2OVmj_dMMAfGoMf-nBALuIVbKR5Cy2wAt51NZP7X_-UhsdDB0UqwbVP3tRsJQoWw2zEGznRN2idpNjG92kd1yzeod6jWV7KYE9VFQAdlCNz8WdrLhpPKW69cQHoK6fISbzjKcuIWO0WfXMGeYfgNPUyGLsQjukFi0G2BeJCGGk8eTxAI4al4vF2dgybWrjs7DUzD2_-gWSoK4kxJM8_dEa271v6FjDHMVo_LD6tShw-b0RkzM1L0kOcarjZt7orXp8qZvkhS2PANDkd804WXefAAgV5u__cwQ6HYPut8yR0Hwdcv72MLNxr8YZoBFWdHAj9yFz-P1PfJU6pwg8ZpRJkSvu0Jl2IGV7d_0hmJpv8oYPFix0Ml3zt6QSD6A47E4E9p7fGjpWcstrXiuTGX09AFoOt9Gwvx0VA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111364380061476085638\">直子</a>"] },
+            { photoReference: "AWCwydhkMYeWQnIn9jlN1hBVxNxzShbrlxwcKIJ9MrWX_gsZOeuuCTcBiLQo2RqdEXu27Qit1jXWsigio_JCN0WJZh5dKIWpOQYVrAJ-Kx3qSLMugce53vxDuj0p7reI69Vito1o11EYlvBmKtkRnb5aI6xctIusiuhTXC3-VlLIqar_1ydh3LZDm5fPKbgmhDTU6cvVXhiJYjvhwFycEXlQxFPLe6ZoxGjgC6rPd081L3272TVIWg3CWPN-zM6NSo2OF_p68Uy4oRJ3dpTSUTf58A9AOBwvJYCCE6JPb6MDK7pbmKK4gzk30rr2W5BAT-_z3uMhQy0XW_h6PGnz7o_hta_7f1M24fEt4-p6gVixY7QiXxh5JiqzgpC_GnGptxN8Af8CwWC5jdLoIuCjxaIZXUnCSap0ErN-g5iG-zA0GuiwPA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109224882196205809871\">WITH THE STYLE FUKUOKA</a>"] }
+        ],
+        summary: "세심한 접객과 차분한 분위기가 인상적인 곳",
+        updatedAt: "2026-08-16",
+        highlights: ["뛰어난 접객 서비스", "차분하고 품격 있는 분위기"],
+        tips: ["식사 메뉴를 이용해 보세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-9-18 Hakataekiminami, Hakata Ward, Fukuoka, 812-0016 일본" }],
+        location: { landmark: "1-chōme-9-18 Hakataekiminami, Hakata Ward, Fukuoka, 812-0016 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.withthestyle.com/?utm_source=googleMyBusiness&utm_medium=referral", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10637333494128775433", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=WITH+THE+STYLE+FUKUOKA+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜드 인 캐널사이드": {
+        photos: [],
+        placeId: "ChIJpVzajZqRQTURnyxhB0UIdHg",
+        placePhotos: [
+            { photoReference: "AWCwydhB7EB7aMsFFISWDJHr37uxa-Yp5OxbfuMrRMHth6oHt06ZvA0pdfk_NRlXw5UZLfPd6wveNBJE6EPNRZnnaNLL2ZpFla1X2cmQmej_ApCc4xJPAsSy--bWau7Vmph1fR9f1mqRxxfbbqazm1Ed1sclhkgFcwgGDzmy73FcWE9ef1nUWSsprwCfH1mnjZ2PwUIjDDWN2dEWovLI2w5sYLG4Yyvg0WrW-Fp84qPrJUPlXc8kETQmTMUYZQ2TK2I8Dd5Mlnh5PlF_o24iYDIVGUtEspZiS7pqjSGfjpuOcuhWYOUnVsrZlI3SJLoUIGCQFdUguwhGOvkkb8wpCRhFiV1B51aC5k1uU7S2RtAoDjgC9m5i2b7wFdDeJWar3QdMo0Qo39kKDOC_0TsldgVT1PCmQCYTI7943k1VCqowTYvl92qF", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108788971569556762300\">Grand Inn Canalside</a>"] },
+            { photoReference: "AWCwydgJPVdkqmWy9ZWaFT_Ukw8tZN-PkNBmvsEGjOJyjQkczExzm5PI8PdkKRA79RlbPRHC6czXdtfdWfQLMkTJO1ZgfyDP8eRtlXWZkCD7JRlF-5oOy-qdNQryZyqL17yKlBKBIHJMvwENm_EoDAHevdndMyL1-l4OorLpLKlRzhFtjNHntOwnEgTiHrDkFx0g-yzFts-Fw_mv_ikg3_F9N3mR0HsHO95YEjAYPbTeaaq85jIDiVMv5ZHhnRwlXHnpiTrC3FmSCxJhyaQUpGY1OZFhWzBJ8TZhteK4XrxrWR2jSqugPBIVZqmKQLj05CJ3FVLqClLqicsqz7Tgo-Y2LNmF_rurIrQEzt1OMxatH60_r9J3h9I7N5rT-W31Mk3gNRWGcce0SeqpZaJGpmCSQC-zwL0zftYFYfvkcFyULI4", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108788971569556762300\">Grand Inn Canalside</a>"] },
+            { photoReference: "AWCwydi3OK5MBiPeenuObi9-UhQspLCEUhA4wblwIabp37alb-uMPFPefraNRiU9ntOshTu0NMz0-GBr4Y5JeQ9DhQXZOUrJj4nQaohNMnxZYPVU7me3HUBFFQWgHL7f0-lpDM8rtkQGbQHLEHZ0S8nx28ofhy6kU3x6mAREOczeW1gNst3Q_Z75HArZbNTg3PGTTcQN9PgjANlG1z233uMyZutHYi28aRbIUvRQKGTf2U1TmypP8jne7I5Zh1_C-2fwrdim69Khvg-D5AwDmnnPwtsy4F77_BiJfm6-LHyaDjfJCvG2xN2I-kZ8o5Mv81uFFgMcwmwa-MedOE-DPFY12wjnHszxQ6fVN1ay5M4ShbQkC5H7W6IC1EJtQ0dWhmEvgoYsiKpvqxjwKz0GBHuQ43PL92bqbwHBRriB9OvmhTFMoaUS", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108788971569556762300\">Grand Inn Canalside</a>"] },
+            { photoReference: "AWCwydgbTH1PVMJQdGMxfRLiNP__BbTNdhHQuRSwu5r1-cGby51FhrGZKkrIaC2p-sw5oUPtuamy1KXx5yygBCsEM_z7m7WTbX92R2s7PXHP8Dv0dQ-1RQNNoJLdVEmqn8r6knCuoJotPPTqZ2miqg0dJlaLfK9fvyZZnIDMNQxXgrdTgVjvjH5Akax9YMg2NOyCNGyIAuo1Z1CSAg6U1L_V3dGtdD1N5OvVAuAWYtjxUdhMOgOjfJI90u0OQItrAXVkTawcwziIROI6n02LFhXdNQbLMkqxik5cRzfEJLoGjvOvHoPyAJbhoIZgTloI5u8jjpV6HUYQQozR9Fyd8FwITfx3dMW4pNyzyt8B-9hl4GW9-zGiHlPJXbwo5wz1QeOPTJLirYt5zjRe0_T2KIsL8qCSooHchrfRcQuZ8US_v0Am0g", width: 4800, height: 3202, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108788971569556762300\">Grand Inn Canalside</a>"] },
+            { photoReference: "AWCwydhAKcXMBvPXb6yVFGe4sjqNkofX4-Hst7H4zrx9-yNAXtcCfr-x3E-rweS-KxnZwx8y6TCXd051ozIPC_4NsebbZaQQJg-mosvLHGX2aiL44kOEguIIMbDV08odVrqBQM2sLdlmmXCNxMhZrrwV_Q513trAJAnsXYmgWWeb98_5qu7NVRT8RcbPGB8kl-RD4iJ0wrT6Zw4W5VqjQQoRqpafO3UqB1xcUyiWI2_v-MGU1anqnRCT1GKEbKI_C1-MMExehbfPkIG6X5ZtPUWgX0BCj7xu8A7aJuBEyphHdDzAyUj1PZEie96wFNsFE9-_Zld4hjB-17wWT9m6XpucF6oooK9LZhezZKwb3kaFo7aBCpvUVra2QRf07MntYDxmPq5LUS_Ia31xSFOuo8-q0s9FM9RJFuWmzRpbGA17RJyQUg", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108788971569556762300\">Grand Inn Canalside</a>"] }
+        ],
+        summary: "캐널시티 인근의 편리한 위치와 주방 시설을 갖춘 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["캐널시티 인근", "주방 시설 완비"],
+        tips: ["지하철역에서 도보로 약 8~10분 소요됩니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-21-2 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본" }],
+        location: { landmark: "2-chōme-21-2 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.booking.com/hotel/jp/grand-inn-canalside.ja.html?label=metagha-link-MRJP-hotel-6326870_dev-desktop_los-1_bw-1_dow-Wednesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-AGCKVg_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260617_ppt-B&utm_source=metagha&utm_medium=mapresults&utm_term=hotel-6326870&utm_content=dev-desktop_los-1_bw-1_dow-Wednesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-_mcid-50_bc-AGCKVg_ppa-0_clrid-0_ad-0_gstkid-0_checkin-20260617_ppt-B&utm_campaign=JP&aid=2127555&ucfs=1&arphpl=1&checkin=2026-06-17&checkout=2026-06-18&dest_id=6326870&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=ecee12b16c821144&srepoch=1781577618&all_sr_blocks=632687001_392427638_2_0_0&highlighted_blocks=632687001_392427638_2_0_0&matching_block_id=632687001_392427638_2_0_0&sr_pri_blocks=632687001_392427638_2_0_0__842727&from=searchresults", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8679571474419362975", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B7%B8%EB%9E%9C%EB%93%9C+%EC%9D%B8+%EC%BA%90%EB%84%90%EC%82%AC%EC%9D%B4%EB%93%9C+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "알파시오 리버사이드 스테이 하카타": {
+        photos: [],
+        placeId: "ChIJnyNjYWaRQTURjjf6bhZnR2o",
+        placePhotos: [
+            { photoReference: "AWCwydhPhLHy6YI-Pov_t_UpNOQ9PpFLj-HjFHMndxKvn8SjdAl21Qc0_W7zLK_pcAz7Efj6g63nXUSSWtFDV3YQLdHSh1BalZBNk6ORmv8xipidd3eNEUolZfSENCUDoH5o5cZgXMNCEehGlMcpcS2-FmBwN_SrtQwfDp2JCd_xBBn2BUVpqMoqP2oYrqDCZ_DVw0bixDeEN9dZqFyTxj7pKsO_87IJVFwPIQoKNGz_2zq6xop_8BoOyNVsR5SHKZiAQaaSWZUxFpHKUfUnKWwq2Yf4_jqvmDiIuibyI5BM_f9bn0N1_bsJtFibt6vLRxpBYpyO6nUtZIKctavvZ8wxwnE3C5DdHQv5VwWt8VcPymu_XkpOfPpx6RHsoq3iZsz0_wSJt5UtGqV_i0vIbhJrc5xAUuDvU3ZAtAMDF-h4QJ4s4Fw0EWKkpB57qCZN_NDq", width: 4800, height: 3202, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117622791358879597455\">ALFACIO RIVERSIDE STAY HAKATA</a>"] },
+            { photoReference: "AWCwydh3erfhQ_KydPtTNiLecqAeA9erxmRPLyTTXu8eIA29Bida-9t9pIOydUy1KDjeqHf_zaOu2OrvM2nA4uuCBJcDUZiBUTalKofo1WBBLPCOpcsn_CtfCM2Pb32EcDpTa_5onsKg1zzwg0FGqAxw63jnbnBnV0sd6OQ5w_wfsNmpfndYSKcUihYj4pNkL8p5PgaLihWvstC7AeSjqqyffNJeDwPQoTwdHTJLiBxNIK9yHFvbOaTrUgJnXdqW4b9ZwjDME79XhCcE1BMzSt6CGDuwT6nCoYrniFc12R-EKyJZ01M59xA_ZlH5KWdZXBWzvvMtKUhsL04_PFEQIqUFvbor3OrWR_d1S_kK-JS0y0MzzXpdeMNkthcBhsn4SU24KTCGHewGz8z0QRdw_7IkGVbLtEDphFLgWdlyjQbbg-Wt6SgMv04ZXMpZ8AWSaA", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117622791358879597455\">ALFACIO RIVERSIDE STAY HAKATA</a>"] },
+            { photoReference: "AWCwydhGaOB6DBKybmjjMEMs0sSmE1evfNlXeQC4uOhBZQIwA91nC1G_u61eqH78oSr1Iz_yitIEd0HskMW-xTABqDyTKJhopsy6upBHlSSaltwFzb5Sd6vonmzBhj9wkH-whmsI3rHEiW0jvyqMCkLM5d33VhHgKCY0kfGn7l15KplY7LeU1xNsVPEH3PrJyHjYQoHODFjFg2HKuDVv9AcLkpyO8r1h4zD_wYII9-oDvENwJ4E2Q2aPoltpQzhbT2rDPricN-4Y_8Hn3BD_mm2IdhJr-2GBpVDiZAVFuyIxB0Kon9U-vbgpwBNUgOL53R1i6Z4boLt-s0xryKXXyg_5CaU4I3X9uhGWiMPv26NfJS4Mjawf3KgQjEoWLh-g0G3yctAZalMC35337gTVJUPMEuwTaRTZe_h18friVMpzH5ujMV5qUm5dZdrnkFfIRRSl", width: 4800, height: 3202, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117622791358879597455\">ALFACIO RIVERSIDE STAY HAKATA</a>"] },
+            { photoReference: "AWCwydg6ijYkxEafMfEBjds74JXy_7g7Lnloq4nmsRrISLhP99hxqk8Fy7jdTX5zGMoh9IRJLta1BO4CgjN3pBOxjNJRt9IJ9Oh5b2Yq-OgneAXRpkgI1zQTn-GT2lSaPBg8C9Wb1MoJQ3ph0rxstEl5H3PXBZjvCVWFto5g76gaPm5bGvMAXN96J7sCANnpEkrjRSkZprCIcEglQ957DnyZprCfXWJYoU9p2rIXSl-mRR8JrsER4lhyC9jzPCWp1nKQlKFu516u5d1A-jFz6c6QpANcfJFFKxNyeh9CuIqny2JWlMRdNhLp5xs6fDFI8UyjspvKt6LKR1jjhf0RyLRExR-es8EnuVuTm_26NORqr5qzaYdBLTbuarfbYhXq9IGkuZX-Z590NE5O4--O64X5tc-RxNTPByf0Yg3GO8z79NY", width: 4000, height: 2668, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117622791358879597455\">ALFACIO RIVERSIDE STAY HAKATA</a>"] },
+            { photoReference: "AWCwydhRBNQuVwu9kXXq0uRwL71h1vDrqDvvPNiKrZGXlWwa5WQk7Tv_6akhKGqDhhMcBHPyDkNdrw7k-DmbpUMYWVaBZjj9F9Us0E4XHhlA_YvpJpqKWw7W0LFyHhgxYahH9WVl3K9ZKFJg1tPVMUFaLKyD6dOqclIaK3_c81SHj6Hz07UboIOw71B9BRXWAGyeGYtH17mrb8tw_5ERB4rMet6k1uufqAUUShGdNT4-CGikmjzVWspisgsTIjNCjUk3es5XAqiiPqcDooU1FXcHjA3sVRcNfJsDb9XU7v65CNrPSEaKsLEwqqahhYgJ_O87TefaZpX1A371Btff5mcNjQ5BkbYqvgG7sdDwCy0jjPrq3JL0Iob4lkyfmuCRg49HwGJNin6JdILCD-Ooh3be8cer4cJIrF-YUQL7t61WlnUjY57znoCMr4y7e1R0NHM5", width: 2668, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117622791358879597455\">ALFACIO RIVERSIDE STAY HAKATA</a>"] }
+        ],
+        summary: "가족 단위 여행객에게 적합한 넓은 공간의 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["침대 3개와 주방 보유", "세탁기 및 공기청정기 구비"],
+        tips: ["쓰레기봉투가 부족할 수 있으니 미리 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "2-chōme-21-15 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본" }],
+        location: { landmark: "2-chōme-21-15 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://bead-hotels.com/alfacio/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7658203037415651214", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=ALFACIO+RIVERSIDE+STAY+HAKATA+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 그랜드 레지던스 호텔 텐진": {
+        photos: [],
+        placeId: "ChIJmevWGu2RQTURHCX71AT7o3A",
+        placePhotos: [
+            { photoReference: "AWCwydjIBnH20d19WSeC5rY24-X8m9K0-apPp2qKDZbAmMd65c1VUp6-xMaBPfHb--4ZaToYpda8MyXLxPDAi1qwb7WdgsK5eXPHhej2aGBTNAbZAmhXpPVA-qyx8S4cShX7fja3tIcE-Z_j5D1frGT99C3lI0Wu1iLpOxP_ED9G6njUHz52KOJrz5T2-ilzUBq0Xtey9C7nj28br9kLE6_JZgs-P7_rV-DcmonfY-rn3uDUmoydywKcf1aXALHQIxiwxzf2pvJ_xuKtmv5Rhxb7hfa51e2xV-WBVjkDEM0cG8qnV5_ZKKZGB58gcJz_dnbxKXBEonfo51_qZ9SERS0u6DE0CvexVgqm0RA76iahTWKWvGAp8lwQ4QreNYCjaRzyzweITJsmqI2apGkqBOEUNIkkaxBR4xVikwcMwEv4vBuwXD6L", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115338107768284538652\">Jeff Teh</a>"] },
+            { photoReference: "AWCwydiJm3xuabscStC9K_f-lM1ekQC3N8YEGzsxW_OjTCQ-LSV6oROl7Raxqb40nEZtCpX67N0XTFmXx7gbCxPSnJjeWlIejlD9T_xWJUIP51uiw8bF4ONPWmGHVTHt9Fmv6JKEv7tTdjyjLO8Bpg_lCOvignzjk_cfrl-PXu4i9Ihj2F5CaXjSvEbcv-U8DyL7aeqJAvyYsA1eY1pn_7G0JFSMjPP4Axr9lU8TA8EOC1TZbr3yja30CEF6CconunqsqRrFmPD6bGGJP1eTQwljmy9MwaCeQb_IiuWDMqiyMLqyRPCHGHOzo7tnD2NExBqNww4nKHbC5wBDXyyD7-Al5yjlHolKnJPJ1BTXABfOZ4iy5uPu3JmCnTxfyWrk3sU6ytx8KTCRWLJKVhtJB_VBMHPqaz8T9dgUM6cbMadoRLxGG8dzNOGfmcy_P9rhFPCY", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108946178481027748810\">MinJi Kim</a>"] },
+            { photoReference: "AWCwydhTmNHiuIIwa3z1hiKKi5Wd7QHxRYkJ02CHiAKGQ5M1Wof-AP4dwKL1aj0SdQBLpS1WHAUxkwixBzUrrZvb-4MHhBr9iZLbfqShjTKYUAl0nn99etDURV8fAoveV10bTICHBilBODVK2IzzvNMprKv4wRD9ytteTd2lesCU4KhlNyozKJ7Y6vP5IOmsk6gtaM3ECMee50jWDJ1ANqpM7La-sjcqtc3lxA8plhEGcqpiaHtacGw0BhayT9STK73iIdh9QlCTdhaSNzlTDxDQlXFR7CNqnKBuUjF5He42PEgntHCCr5DBq8aN-qlQSFNAQgcp7D9EX52L5iV4pggq1ZsPanRp7SWz4vs0BRhlM-_rh14ZWVRurogIPEMnRHm8RYzqBRm7PEJMeAdN9kKtu-J9UKXeM9At8vEzsvT2ZxhMCd8g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104303186963506100618\">gucci kaz</a>"] },
+            { photoReference: "AWCwydgsTS21tGZu_2YYeFoHnf01AUD0q-J43HPNR_eXGrGQsjOU32a8V9XPKNSmfp3QE9bMHAEoXNDSQXfyheY_HuvC_Qw253eepukziPnT5c9MHDIG5EO2q3pu6OGQq497GPUqRSMSvFPixaamLt2C6sXX8Bx3zjMi3MUTsFJoQiWWoHO2D_qEneLbVAJQhqYDcOZs8PpZoNzZGor8wezyKbHDLaRHR3mgTBX3cwszHFQKYfmEEWnFvcGOyZJhipgaQxhSpwIpksklSYzlwifbcbIns9ajYjrd_a_jdZBuCkvYPJdRBOdWHgyXEWon6USesCH1sfMGhP9MfjssjMbvbV2Py38bPt4tyJEe0gUyjxr3c-WZtmIWrfT0yMXjuLH658Cm5nNbXJ0_YfAklvCKZDFWK0Dm0Tn7AZV8bCXg3WPaKA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110143301275728658074\">David choo</a>"] },
+            { photoReference: "AWCwydgKcjjbSMGZpkngAsYdx0esSr1lcNsL-uBf_QV_9RJxc7Ps0qVOdgOKt38d2z2SYuv9OkwdlYTO6kSsAE0pu2ZJNUTH8o_dPSBS4sB1zES9J5TAkrf73CVguKttcQVjdeRF2eYmBvQyCrCKugjUK4wR0sACiV9H5rk7EoYRKwPU-ymmEobJqbGgY6NqZT5QwgJ8IFJF05zZuiOG9pqYVz5daKwEGzaAjgc6K7FCc-grwbH77SHY9ObcSW0HsyiLaAcBNHcDJjwQ5vOihnlSwIOkr-8M7bQCNOV1RuPE4iRAOA9mYG2blI_r7UDf7D9Zo6l9GnH3KIrcd3WD8pR47ao2ANHi11SCKKWJ241s6ya8Lba2F8aoyZvoRIBAtn7ZatF9zdUysyI86TqU8a7U0_hsW08z8_QdC0NrT8wXqgFOqiV64l6-SrI0WrAjQXda", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107145760752435750658\">김무성</a>"] }
+        ],
+        summary: "일반적인 아파트 형태의 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["아파트형 구조", "깔끔한 시설"],
+        tips: ["화재 발생 시 대처 요령을 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8-8 Komondomachi, Hakata Ward, Fukuoka, 812-0029 일본" }],
+        location: { landmark: "8-8 Komondomachi, Hakata Ward, Fukuoka, 812-0029 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.booking.com/hotel/jp/grand-residence-tenjin-fu-gang-shi.ja.html?aid=356980&label=gog235jc-10CAsodUImdGhlLWdyYW5kLXJlc2lkZW5jZS10ZW5qaW4tZnUtZ2FuZy1zaGlIM1gDaHWIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AvbZrNIGwAIB0gIkMWZhNTcxNWUtMDE5NC00ZTJlLWEyZWItNjM0M2ViZjJlMGMx2AIB4AIB&sid=b8e0c4d2e8bed7e091cc60738bc0f979&all_sr_blocks=1623068701_433071424_3_0_0&checkin=2026-08-19&checkout=2026-08-20&dest_id=16230687&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1623068701_433071424_3_0_0&hpos=1&matching_block_id=1623068701_433071424_3_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1623068701_433071424_3_0_0__1747830&srepoch=1785827536&srpvid=c90b32a59bee032e&type=total&ucfs=1&chal_t=1785827553819&force_referer=", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8116606951623435548", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Grand+Residence+Hotel+Tenjin+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "란도오 레지덴셜 호텔 후쿠오카": {
+        photos: [],
+        placeId: "ChIJExIsX5iRQTUR1XTtryImdg4",
+        placePhotos: [
+            { photoReference: "AWCwydgHe8sCTvLppnXZyp0v1Ez9ggh_BPpvOqUpzbXbrj7EcrtJjM8Nq5UnKm-XoCuJMdmxB-EtdugRTFtyxPJl-_2jtxyfxsArfvLIj00R65NHLqWQ-G3PaTSLN1qoAr_hoTMn_F0CUIILQznl0P9BBmRSVTir9V5wjQwymcrhQtF8tozUkz0w5dsJ7_TccvqX7TsfCCtcAImV9xgZp_5yxEJdkMkgD16yE3fGmjJZaZGEru5nBGnzHcNFruTjqQGFsb9jEzZovZSKafK0vA8VSOHTJ_d4826KyQGIO0XtE5PpPAc7VSkTqScJ9qcMe-q7BHDv10ioWmgQij4UI4d6L9BKPhnX__elP5PUM917U7-NqwiKyRNXN-g-Hwg3nE_9E51Fs4s26XcHE4vaki4A_afANy6xn9JK83mYbulcKYjP9OlXgTNqErCxffIUpA", width: 1108, height: 1478, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103799992750583392016\">Randor Hotel Fukuoka</a>"] },
+            { photoReference: "AWCwydiik2QLkwkLgKCjWU3oh2DwtFOO-UKuSCRKWFw5UXr9PKTnttdXAgcMDqCX_Q261rhZSRtIQQxJvsZnVSaGKLMKjy9A54M1RnB6cuE_AQu_dVAYEUmIPJcr0KDY2h5CEhPrlX9jKQJS6uJ2_Al28TzlNe4m5SqdV03PSDIZkAd6HIQ2sOq_FKYO1IJqouaA91kMEDQ_l71F66SK94hIOkcG83aMwYOyzD97PpUXB8Yvi5lDSccY0Lc1RpC1XVpao8dfVCITkd091Eyk33ISaw0KfAG99pj19iUsVRcfMssvsEv3hBm0KwRR5fPIli88gExkksswIIcEFFi55rQM9p71rtquqw54pe_Wosc4ALIkANv1AitUmrmvSeUmppRd2Y30NEt4W73Qzw_zs61UqJnZI70idZIsrLUpvpgKdR9nCg", width: 1920, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111476187121211788069\">Seo Jason</a>"] },
+            { photoReference: "AWCwydi_DbFXme2s9bwnLGJ-At7OutPjo10V3XKjpFFsIkxTJFHCTj0iJqA0RffDNbctVsY6-5fvBz6LQiTiMNN5BkBXgwngycA0mtIRRXML40zY8lAImFWIjZyzIuJ5YZm1Yqs_gkBqpZMhmmyCbvZ7Je6hkTplxqJAbjdC4fIFlpk_Lk76Ak6WtXaAGYomrBzWMz8PHdwPR7aB3VjNNqFM3fDz0A7C9UR7zJ7txHr7UitFQwn2s7uXcVLSfyaDzuWbSHIiq1R6T2b7VXBpcGPUdOxWEZjyPWPNSfyDMAbfZ0_-Xwcy5LqJXUGLW9BOGmZmoX2-K7LuaZBAvdCIc7tNtJoGeXsj8dnboACYi0VzT13FQLSGplXxUVOP1cAK9nYj7PWF8yD_9VfvRS0gO0X3OEjIZJqpfRwskBTAoUXxx7A0FGBe", width: 2448, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108202971856737811435\">김선진</a>"] },
+            { photoReference: "AWCwydhhjo4IpQFUknZoPx7vPa09Bx3gn9O8daFsGGGOnPvKyYqZNAiF1zGW1T03mIV0hYbY3ys0bTqnyLS6EC3975UqVyRsCRM6Vf26meeSV32Avkd2uenuemZfuijke3I1ST4itD8KS3IN3Kqew0x6ZehipmJpGQ_wgON8v0yxRZvEL_ES45qMeQEKvd49bIVG7R0mUX6dhhwH1VKsWYATUNMOuCZEFwUAL_saph7Zt4lQf75zkwix_mAJFuIWOcz6Lsg7y7VpUT0Wxz6HrjodYabI1Cup7yqtpge_1abgE8ht1gsu2Qht7OOAHHmG7o4F3W2djetrJPy19VqUVpUErTp68rcWaTNYeZTrMTd2xfRqWmzM9jwWypA1qHwhhfo8EWz3-ZLkgCDO4ihd9HmJy2J777uCZxwDuQdi1CW5Vh4wdin1", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105937401731978353220\">violet chan</a>"] },
+            { photoReference: "AWCwydhApTHOBPvna5KRxLbey8Kc8KhBFsskebSaZd6B9tc2alGizZ0WTxgrUB6k9qQngMIaGPpYD9SnWNVggQokY6i2bCPFRqaIEdEwtEjRBPRQH07fIWfHOynvV3Ocf1TUiWkyzyAMVwP_UN9S_SCEDkNyoZePVzhWm9Lxm5cJ6B3ZCoVz0sYRaGHhWE8Nq8ZkM-vtHBBJsW03V64NWmOITkIGlK9wrqmdDvVA4C7aK3C8ysp7X9i-2pk3UJ0Il9PGyaq3a33ShaxReH168uZFAniTy8Eg4SslfAMTtctHJFVvy7Dn2sZjgKJuUhnvtrxwVnTTTaKK2u0LMxeLJm169dopOFfTBKa5gx8Zccv732CBwL_lqfNzhcT0QvUBtyN4k2oEXaR4ortdtiOQQF9pbqpUxs1mgGVupasKO1mE_R32kLkE", width: 3640, height: 2730, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105579599375184026332\">budian Lu</a>"] }
+        ],
+        summary: "청결하고 향기로운 객실을 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["우수한 위치", "깨끗한 객실"],
+        tips: ["객실의 청결 상태를 확인하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-2-3 Kiyokawa, Chuo Ward, Fukuoka, 810-0005 일본" }],
+        location: { landmark: "1-chōme-2-3 Kiyokawa, Chuo Ward, Fukuoka, 810-0005 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.randor.asia/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1042062294205166805", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9E%80%EB%8F%84%EC%98%A4+%EB%A0%88%EC%A7%80%EB%8D%B4%EC%85%9C+%ED%98%B8%ED%85%94+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "그랜드 베이스 하카타 프리미엄": {
+        photos: [],
+        placeId: "ChIJFbyBhUyRQTURKJ947varoG0",
+        placePhotos: [
+            { photoReference: "AWCwydhpP2fmsw-G6ebdPLSRO3sU21zn6MwiQxN51sKhQg9B9ZkUivdSDjHusHVUGLgCRjfqWvqioS2bYd00TWivVvbAGZNtjD1xAfFxKV9y4mrE8gr1IyiPUcYnnbHaSPJW7WirsUom64Bf-fr_uVVy9-S6WOcObcbIuReYOoSVWBq_rLIdTZwnlKfEpLwF5jbWhPudWq0YDUYAA2hNUeie1RTjhflAL68y00zaxb4-0rHPllxd1f4wqVui6z3pzjk_Q5L9GqgGde-cEsiywlw_HozMX7hs7pxl7FJ5ZQYtPx29IuHDP2izrWvbnsgtMOcH9Z9bJlPpbpkYPiiomZn8p5vcPlNA70Le7Scd-BV-nIdYUb0RsyfURF7jg4fddZKuC4AGKHDP0jSWQs0eM9VyaATleByR2gZWidtvRv4YfS-sEg", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106817312193149995615\">グランドベース博多プレミアム（無人ホテル）／ Grand Base Hakata Premium (Unmanned Hotel)</a>"] },
+            { photoReference: "AWCwydjszcECaD246e4_E3T9i1yAzMg5WcbLLjWapev0XRLYhe7lRRk4Witwhkdi3ld5FxqPQJdN4C1bOt87TQnLR-NaswMjGpjsD4QC993knSAJlGrdr9EnWrD4-1Zdz4Rm1vTAfCWx39kS0TRdvqFLDS2ChCv2Gc3mV0c5hXtmMyUq7XOHszZGKptmFchUqGR6ev7lo2kKna_l3AE7NN0Xeteqr1Y_KSYqOWiPgsOPLD1j1KtxMi-I-VwKl_Yw29LQHctqM-ekHC7Byz1KbbdNvv2wWDiyIGb8K0dabX77ucJeDUGWifZ9c4sdvifAwW9Bf9HowdiGex9dYt-NV3vzkT9lOfayPGAFzivjOWAzkixfnOsmVTvG6CfFU6_5FjS95Y-LJN8dKTdFtZHw4cBZ41JTlxrdgH6lesLBPlVuy7zI4Bg", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106817312193149995615\">グランドベース博多プレミアム（無人ホテル）／ Grand Base Hakata Premium (Unmanned Hotel)</a>"] },
+            { photoReference: "AWCwydii9yO0AOAPQuT6_MxH7UY9D9i8-QRESs-s0oudnlAuKX0fREX2ucXxBlh5G8MeMDBGUu32ePcoMYYNPf3hUeindIyGtvUcYI0aDM6aESjEfLy8S-FceUo5C2qnXs-WkIA9WTsFmvwk53TRnyOIU4VJ34NXYmQGXOx7MnXOAtOg9yw2ROmrwIqzhW4BpxMAWlvkXW_vxlDW2VHikLy3Wnj-mZk7aQnVCZS_9XR6Ay5iMTyURK116KBDXpil8bodoCLBxUWsWtOhMY2Glmdiv3LKpsSaPxJtvbxMhSl2jgLV1tRNYN1s-jomgYT8x4VDtbMvWPs8tegDa4tZnUqhwNrE8AlqfYFIo0ReVhPf_gbDmcjuRsmvMKyUl8Rnqsc3yhAvh7crbivEEm8GN-apLMOYML-Ok5bDnTQi9sGkdHHV-ho", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106817312193149995615\">グランドベース博多プレミアム（無人ホテル）／ Grand Base Hakata Premium (Unmanned Hotel)</a>"] },
+            { photoReference: "AWCwydgewfvfXsDaAfr2NBsdlcbU8wjU_CR0V_bHXoYQm98RqiG7q6X1oFtlk1JLRpUwxCLI-dd43w3GormJhgIrd0rN2uY32hTk1tzX4X1qVyaIHSOmAskwELdyzF5Kk5-11XbIH7KdrsuE0oYTHl-3ZO7jWNiKKhl_cfL6tN0TuPUdNdODtuYiU1ux6UG7nGWtQZBrvI5OzVIXWMDq15hIgtp1Fn6gSWlCSVcq8cnZdf332JHujGkxKq4WX5TmiJt7vtvdYUvoU7SOJfusfAcr6lvpsAxS1speKRPBZIPPCiel_cPhj7tHIemd9yLfG36A8k5TfZkA-sGH8G5MCPqj-8BjgsHQoPrvxRB8Cr6McsMt6sqn18OAig59Gy10XOXmqlFM6-Rg45TVRVziZIVktJJU4qFjO8Sq6e35sAkN9XksdA", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106817312193149995615\">グランドベース博多プレミアム（無人ホテル）／ Grand Base Hakata Premium (Unmanned Hotel)</a>"] },
+            { photoReference: "AWCwydiXf8f7DOxdtbfpVaUHegUwBjL1Bd3D3oMieL91BG47Z9dQOjmSKu8bLaM3uxz9Ez59p-zhxAeTM3Yiq0NSg1ioDDqfYYqoniLr-zfy0U7sJ09MA-O3DMzdyTxdBXAu3l3jM3PknOyRodUdz_FF5uVUfcy36UipwgQrmzbJ2GNh5Mecbxz9S-wZ6Vni7EdPg1_MSOOuAcbhvSgBin6XlIzUMSWZGlXA2kGSg9IORbAxaYvUDTXiwxdE-9SBOD3HLPF2d84ArHkIXhb36Efn_oz5GXp2HMX-2ov5d7KByinS0-IgwkimfcOKgyRPAtLffyKpq36lIpYrajv6k4lM4LwFZSScaaRre977BbQKFWcLTs1YdLdeol2l7qOGobYA8hBfcyrlXISR152a4gPW-BrbUg33oJNi_dhiI9FXFzkdjmbx", width: 3600, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106817312193149995615\">グランドベース博多プレミアム（無人ホテル）／ Grand Base Hakata Premium (Unmanned Hotel)</a>"] }
+        ],
+        summary: "주방과 세탁 시설을 갖춘 가족 친화적 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["넓은 객실 공간", "취사 및 세탁 가능"],
+        tips: ["욕조 건조 기능을 활용해 빨래 건조 가능"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-chōme-9-12 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본" }],
+        location: { landmark: "4-chōme-9-12 Sumiyoshi, Hakata Ward, Fukuoka, 812-0018 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://bead-hotels.com/grandbase-hakatapremium/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7899502823459036968", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=GRAND+BASE+Hakata+Premium+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "후쿠오카 하나 호스텔": {
+        photos: [],
+        placeId: "ChIJW--KRpWRQTURNf_-R1Xyt0U",
+        placePhotos: [
+            { photoReference: "AWCwydhY0RrLG7dJaQpBXit7DWIgUvmSHbXObC3uFgQ0JZ3nlTegrE9C5j6LnHRxG3Yso3VApydipS4rz6U0v3FrLEyzfiMR0ZC0fTCHMGI1PhMttkUKz5-ke7nqaji3RXUJhIlRE83n6UZHQfnemYBL7nbS76O7Yge_l4q_naiY3czgNAWtugZA2nNhj6tELfN88tfK89Les6vY03eJ00KTSxLnTnHJNFX4bvPD9s5XpY5bzxau07CNF1M1597joOay0ipELMhGseG_KuTEU8BnDpTD3GYJ2qwj8_8XLWhbmR8KqMKqGy5-ew_JiRleRx0IN8nQtlrGYMzWOVRYIHb8XBe1ETIxKuxETTxJdbp6_eipyj6wiUq4EQhx55XRPDaiI8WbCN9ZYTH7Vmw2KjcQZF15xJICqPVDQQJxLPO12Efu3w", width: 4773, height: 3580, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112771409791564661447\">Fukuoka Hana Hostel -福岡花宿-</a>"] },
+            { photoReference: "AWCwydjjnNW2fzkxQSLQ8oH2GHO86tDdEQJOFlyZkuN9oCJUaco2llRuC9bv10F8U69ytmBymjOeeybv-AJOalyk8g6HBSVrIxstrDUTNAZbkvxJotWTGOLWzmMpexn9V7-JVhTUV2dqfc_zuJO90rn6cEzjDH772np8JU145qoQreVK1ci7sFsq1L1M-IIvIDb36COITJObhpFQvlVOBYn-i8I1q6Nl8MLD4NYf4gP9IgYE5tgyS80gvHPC7-tkYUABFYMhu_fO9e82ChY2rdy7sSCmrWu6XkLPfIOvexaqzSab9y5eYnBny7udGFqyvFeUbfyUlcA-TMk6IgmxtQ9LTNZjio411Yx7NCDsWCs7HJj1vtqQ1A0BWjhssY5Q6SH-Ugs7BsumXHE-SzqLTkMtb0elI68KVAvTciHBHx3eeBbwRg", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112771409791564661447\">Fukuoka Hana Hostel -福岡花宿-</a>"] },
+            { photoReference: "AWCwydiSSDDQTfR-wfCda9uR0-qRQtCvrkPow6TxI3l9qGQXRiFDK0bmI7HcTwokgalxBXypGJIkWJC9-WP8NnKGCzZ_CnEm60gKHZMfpvBmHGCtDHTmmwnRRo984HRuVSIrnjvmaFUJrAt968nryLfWiUQGD3A43vkXqBop08X6uIRwWZOXxD7SOJTk249rmK3bd6h6Z48w6DcwGP_kKGrv59k2RgK1QTIu4BojfI66jtmPuiF7FyVy2fWZIDLsqzkSsHIMnL8trIT5M88we7VOeDAkFqYTxgH6uConlwjWZYOQYXtQVA8Pjey_XFjGP5f4lj6W4QziaGeMVBxaI558qTHkN4dPiRUPi0ffrwS8DU8XtOVlc4auAvLGJMkDKFNHn3q2d_CvZSHlkLqbuzVYaTN8Oi07Bbpl0OyrLfOU8pDevw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117576563988943863934\">Marco Lin</a>"] },
+            { photoReference: "AWCwydgI861vv_ZifJNyDBfHoGvGxa64Py8UvyO4bzFZCs56LoxPZkaFd7en-DD7BrKOtZcprZ3pxg54-bYubiaCkqix3RcHCnRTTSRrkfEnHyco2_iI8up8Ur1KQ5rPYh-lM5WkeTENTsfwzuyRAggueSpLd2a0y8a34w_qiJ7UotjI0suFvubJyX9CYKFZNqQsTBQON_DhN_yAS9CdfXHyc2FDwiy3bSJsEJc1e-MY2ImFERRU1KW9COXPmahVD1-UJQSmFWuoy9zN6YXJeG246Iy9hFfzv2Kt2cx2eUokdFNCs47obM41i6bWsr89numcuhbpem7YMXAwOUYivrDnSUS4DwKtWWD_GHx3yGnz2I8DM39O5kMPihn3Bhfw_mmZ3TftWzldgTsMw1p4jgzVckWc3llok2qjVFd4ztIVU35ZDw", width: 4057, height: 3043, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112771409791564661447\">Fukuoka Hana Hostel -福岡花宿-</a>"] },
+            { photoReference: "AWCwydhhOxPgJFgqu7cdQsDmR6QlWpCypTUUjoyXelV-kQtOEWaGcqGib7Wy7mg3qVJpwUJ3pQFAxsqC-mS8UMgsON81vOGKoJ8qt78ZZZLPCctWEH7glfpjurUgSgUlNf-CBqpBdH-uYcTiSz-vldX1_s2CFkAw04kkZRGcaCAiBki0-rqN9Y36-52oIOnagimchQ_S65bJ6DDkMLWTCVGqhzNyinIwT4wPBZf_MivTkUliRFfUu0g3peSLJd3yCUX4KfmYiWa-y3jEpZ-KSUx8-j0h41_-MyZHKG__gCfe69RjLbUjDtghlX6Y0p43VcHeWCT7yAKFmT3yk3rzglld1tIc7D4lFQuEPVJTsqW-OByAJy9yR5o0xDn3Ab8AyExHfSZJXP-q8td1vF6YXRIhx5af0ODpyaJSk9UItY-gfEGHtQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112771409791564661447\">Fukuoka Hana Hostel -福岡花宿-</a>"] }
+        ],
+        summary: "편리한 위치와 수하물 보관 서비스를 제공합니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["좋은 위치", "수하물 보관 가능", "넓은 객실"],
+        tips: ["엘리베이터가 없으니 참고하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-213 Kamikawabatamachi, Hakata Ward, Fukuoka, 812-0026 일본" }],
+        location: { landmark: "4-213 Kamikawabatamachi, Hakata Ward, Fukuoka, 812-0026 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://fukuoka.hanahostel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5023750357449113397", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%95%98%EB%82%98+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호스텔 토키": {
+        photos: [],
+        placeId: "ChIJnRI0K6WRQTURkXooaSPst2s",
+        placePhotos: [
+            { photoReference: "AWCwydgPdqRRPGWitfDrkRdXwnuieQ0JoQ0YFo-dhkZCJnqkqOnhUN5xsHzjKe59O3SmX83JvTBQ40jKWuMEPAgFMCM5eAirUIVR0TvfPXh_1Y91KCuMPXuaAQoQqOSoGWy_QGVH5zWy7-lk_eIVIUnRJkk8Nw6YjRfUtKJjVwp01Hf9QtLvXW36tkrz-CKlrXMB3wNH11pJAKkK4CFrmhqgRrEHRibLJm-MYE0o5vUWmH1zpALtlTCam-d_q7NZIGeJdfpr590M8Iq17EGBY4jqWAoHXQXeZv1AbvxmKTWMo2wFzMT_X6Gh439ejm56ZUd0vAMOPvIXfYy3KcmtgFxPVDmboEu8504KfKSY4b-9Rahmi5VFal93cmXBneNzkPhNzakEa3yoLcw3aaRqPfuPewk9o3J4GJZGObaH1ipo3psJFg", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107343223590003438811\">Hostel TOKI</a>"] },
+            { photoReference: "AWCwydgUQQKfADJRvCeJ46R_twCKwBqlg1k6uaLYLrsOUlOiNxDIBUoea7WgiYGl7Kw_lXGQBSLV1_lSgmf3Nn7oTFW38V0cXQ1T4y0F_V_KloIpr98zjw-IFTaBSaBYeyxx6ivvS5vfEwjat4VKMePowLG87H0Z4cOMtIG1w-A-uLZRHzfA9pczD9xDDauYu62ayV8zPtguWxuKO2OZ_-JJmfn1nrn5pKBs3Iw4ktd971E0XBFtbQD_9jI1PvfMtWyRqar3F_kGUzWPY0lIo9MswbyHEBkym2GCq_SBFP3DqOX8oEU4LBHyOdp4va1ZJ887fVtNr6OyRug6quNKohRDX4U04VGw54ZFYGo1HsUnjgHVy0aPtrAGKnbEjBO-OvN7b0QxMQuno_4TzZuFvFSOnHW8pAlF1KVu0XFOmrNHI5d5xw", width: 1000, height: 667, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107343223590003438811\">Hostel TOKI</a>"] },
+            { photoReference: "AWCwydiN_FnHvbkfC_0m4a7kp3VZ7amPgesVwpT6D8Mhbq8a98nt6RlpyOxte6rIDjMbaHzksdzhP6ZN4nVRiSIeGbOrHmH0W8xKpTqs2JdwAcpyY58mKYxm6HlwHiEl82Dwgu6KlXQE_7CzUHZP9M2FqAwN_eTUJ4EAx0NbhaMi8Dv03NWlk7zJs352fdSy699BH8gZgwJ88BtA3l4BhB2ltU4OYjxJJMZy1YhfZgML86eN2o5eppmAF5HDO8Kk6ok9iiqLobWu6ifptNsuzKWiZMOK48nQhr1MKG76k8EFdjT8z_1OOk0O2PiRIYtLNw89Bj1exe-H9agos5oVgJtFzatCsFn44gvVXlMriL-NmB6nWpAudxQipq2cRHnhN89F6SfnqZad_z5dDuR-s44NUTlHnZhrn0u5_kop0EOcXu3_T3lr", width: 2000, height: 1389, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107343223590003438811\">Hostel TOKI</a>"] },
+            { photoReference: "AWCwydgL99qN9fQBq56TuHHj_vxIvmZ_cJaB2jG6TBvFh0gr5DuRtG_6RLqO21lvOozASDWbEdfpFl8X602r-4X68d_93jUA5x8Gw4AF8v0aVaYSbSUo4NvtjXKuLpq0zo4tXxbZGrhuK4eIE34UhWe-8w6HpFzi-2vqMAW8K9nQndB-xksZmMmPMqVxzawObkMhYf4rGs1WQYmCZyi6mNryvx4Ki18kJjYsVCB97OC0Ygocf5TZLpdJYVh7ju9fGbVz4HGmg2lhutygh8S-NfAJQZHP-SAsVhBIvBUUs8rwNEa8OM8tX_NzAUoxK_Pz7jPWRTc8VaR_vnHxuG57zYZPvIsZ1OIm6F-HnbP8adlR4ZymIMX4ZP8H2ZQzyMLBc9q1kavXPH9F4bfK3yqqjR8BRHXwMxRuU086TCWGjf3EaJqRxPyI", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107343223590003438811\">Hostel TOKI</a>"] },
+            { photoReference: "AWCwydhsqKVtD0USHX4BuL6usTIOt1M_fHaa40JyVNE0SzwC598Nr2m0PFGZD7V6kJ2ZU9vuxgWPOKOKx3JAEsfuLw7u5St1YDFEMxcCB93yfgW4m9qRUZHD-eOuLbOH1VCsxr9DpXI_a0gqSKLXc-MgIiMAnnhhQJLRBQjNX5A0kho0sUs52M-VzbiGlbLi_pyfOt6Rm8W-Iwc9qMHbfMskFw5v917TFPkVxer3NXHyoD6rtke5N4793IH7yn9I3b8uS-59p75RHxnHQUbHWZRcl4Dm4mFV8G3VTniqlwofQBLUu9hQ3oMXsbNsSfIrefDcwIZgWbmwcJ1Yc6DBE7EwrQsJX_l9ivQrrwZ_vFksBWG5hdPs-7kfGQ8Y8oOD09W4vRf6KRWBs9AbATegYgpxiyww8W3-AyZuBxmjm7qqdCKrmQKp", width: 2000, height: 1333, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107343223590003438811\">Hostel TOKI</a>"] }
+        ],
+        summary: "높은 평점과 친절한 직원들이 돋보이는 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 직원", "깨끗하고 편안한 침대"],
+        tips: ["주변에 편의점과 슈퍼마켓이 있어 편리함"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "일본 〒812-0017 Fukuoka, Hakata Ward, Minoshima, 2-chōme−2−２１ 1F" }],
+        location: { landmark: "일본 〒812-0017 Fukuoka, Hakata Ward, Minoshima, 2-chōme−2−２１ 1F", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.hosteltoki.com/jp", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7761932119628610193", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EC%8A%A4%ED%85%94+%ED%86%A0%ED%82%A4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "위베이스 하카다": {
+        photos: [],
+        placeId: "ChIJ70ZJ9eqRQTURugXiF3UZGws",
+        placePhotos: [
+            { photoReference: "AWCwydgg8uuMqg-Gu7tgw7WChdFttIpbcDO0BtN4mspPLKUxB71iNMrHzoC-0P1l2lzPcdddixu8QMIMp4BzQHj-puZZaboVfvykOMYS6-0fOJRZcOP25rUR0VL-c4UpNLQXd1lu2zIorVpgWcUuT17-4hpKaO69H4GOO-aoh2Aw8G8Wkxq57PKMBp6iy831_n2dcI24pZ0rRID3u9jyt7LdVwUs8EkSmdFt71vYRmtcp3K5lV8Javw3H8mPavypogkZLF1R7lArPKYjfGJNK4V1kdw9RpLNUB-tD3M8b1gr__3YF13j_69bqfSbZymVORIwHunRVychJCIe12imlCT-L6Uq6Oem1vj8c42D1PHoTorhifqW9g6IuQQuxW2uBXtwVtwhcvGSc8sZG5rLYTuCAM0nnW5yjvOVh-aoHYX6uso", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118239301195787434708\">WeBase HAKATA Hostel</a>"] },
+            { photoReference: "AWCwydhhuAhyjtGjPG1ZHriSRc_B_JnkPw1mTzwwtj3DFCh0jKg2QMvj_EKDleDHYi3RL7IxY0WjXpknlPZ50k1fpmndKcRt0G1s9GUHTCTDA9PXWMlTFjcsPMQhFeHsFmkAH19Owdu-lElhwyE6DFDLhNZsiGAIfp8htfKB5-_tNwdn0vHq6G8SaKtLp36eSO-Re90Hhdz0ly5EDxJNp4JWN1llXO0d00alBmtcg4ikUGy3Wo0T9IMCFGtK8YaSZ2jcKzkYIU9-YC3DZGPGGbExvGc1kApWNcizLIE--pcswoPJ6F7BmslX-_H5n_1BMEZL88HNA49QKj6Xd5M67AZc7XEmAY0SsQA3EozQ53WfHcqrO5PLxPXeD5Zh7RrQODn7xVc_Km1sOZ3a0TZYIa_SWrcnbHTM8Y5vGvG0KK836MnVhQ", width: 4800, height: 3189, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118239301195787434708\">WeBase HAKATA Hostel</a>"] },
+            { photoReference: "AWCwydhafnQ6dexCCLdl6X_aIltzoqQyaCd4Zjr8Tq3EA_Zr5lr2eLUElpiIdyhDwD07Xl8ZXAf-p0FKWbzrmlchn_bQQxnNI625fJvgTtdRdlOnEwXXTgaOZ3kisJIVDh9t-jGM0Oe-P_F5DSy9AgXYi8MR9GF981dz1oxGdzFEtAtEv3LLsWjpgoHZi63B4Marz814Jd7pwo0G_G8YPbUs8BQ-w_W-RacuKB_qVPRbggDtWH1aDZkmbCiHPTWEs-3h-_PUgFErg5p5J2efXc5HE66m1N3oEX8FtmjVlleoK8rI9BcXXCSlv5fcQKnZLK_j-O3NEQVYdPWd3Q4Je_SjY_hBdpefTqxyKGgp6tDc0P-dJPdZx3jjMIPA1HIS7z0K0VFhgX4yCxIIkfjapTyVi0mXqhHdjMZRAlRcXySh10Cg9m1b2uLgR7LLThUQnu6R", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100363606289413664979\">정재훈</a>"] },
+            { photoReference: "AWCwydifxSq0gy8PzxTMxOFvIZWSrzDp1FPo-89OpBGxXWD5t_taYr-vthZijkv1-j5vG6QWVcAP_4iGRnNP00J-3BVDEChj65pz7TwnCgo8ACdIkQ6G464J3jNY6-jkqT6UUL0QbVX0ecFeXRhNezjnWBJR-uGbNKuBxlYcbA8mb6-_p8Fx1peJI0kHSqQQ519a4vNLb3pxZSSk3CIy9wIwnVtzt5Yl-flYD2QpQvTymzrnwKvebwKDshAluhDUAxKwMGch7XdF8HGIVq7KYgH7xeTWsn6PYbH0FiBnhoEn9tTdSGgF-HaORjwtLXpi4aHHQ0xcWb5gNSCRnuNQEFpYZObI2IY6GfpRQdC5Cr_PiLt-DG2lN5D_gaoJI7DQSx-R8MG7N5zyr4uvna-kS6nWeN4fSxdlaSuKdN-gbFCPBr0arA", width: 4032, height: 1960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108406084500051421924\">Helen Yu</a>"] },
+            { photoReference: "AWCwydjXiDiOkvB48_Fopse_fpLYWV0bBoYzzq7kCZlh9q7RXZJbizE0fWPJt34DIWXormNld-zpA0ei8LffW4nlIp4xGA-d3AJS_FsZiiqq4SXO3yUF9LR-W6c2N-kMvmcI5llIFSL8F9UMJFphq4cOEwRXKDYDhVMN3djyCFnR2OACNEb0UBzabhS5yUjA7qYd6WPr8pUu0T1TR65vS4NWOFnEwIQqIYqQu9uUlHoz5uCaHI8VHpprdM4pMyGnx32-FKIIguzjDAEiV79Mu3dWPFHB2ZceE7k-KDckHKtCPs4Lp9c__0E2J4wNqjwwCOFksBNlkQePZwH_KGf4vYms5PTO7XoqMkfx7htXG3t114UURdfKzefFpT9r7ECRii1z9bPd85XiWsLaJ1XetJyRxhgMLsUAvBBJKs_rKBOaxNPz6kw", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118239301195787434708\">WeBase HAKATA Hostel</a>"] }
+        ],
+        summary: "교통이 편리하고 청결도가 높은 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["역 및 버스 정류장 도보 이동 가능", "청결한 객실 상태"],
+        tips: ["이층 침대 이용 시 공간이 좁을 수 있음"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "5-9 Tenyamachi, Hakata Ward, Fukuoka, 812-0025 일본" }],
+        location: { landmark: "5-9 Tenyamachi, Hakata Ward, Fukuoka, 812-0025 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://we-base.jp/hakata/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=800261349490951610", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9C%84%EB%B2%A0%EC%9D%B4%EC%8A%A4+%ED%95%98%EC%B9%B4%EB%8B%A4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "네코쿠라 호스텔": {
+        photos: [],
+        placeId: "ChIJgyABP9yRQTURv_aT5LgCCDA",
+        placePhotos: [
+            { photoReference: "AWCwydjvADC7HkCdrNFLnwSA54jdI1v66qnlqiQ2r0azj_IoCFkWjeddjRMa8lRL274dKOBHtQTUk9xqZrUf-zs0i_zHrRbH1wsLE5o3DQy1ZE4M3c2zZn4HJCODG3b9GeTva3Y5pVGjY7rR5eB5S1d4oXEMd317XripF1d2Ff4akqjfa2PKI13SYIzEOn73vKztWxFYfTHWg6gNoptO6BcwgiyyV1kyOOJOQBz-JZyiL8jAi1rEr-uV2bzF8A9ioSJVC_kcHaRutOcJHXlrtCc19_TI79xHVoP7udgMNuXxot5K81H7uuAGY-6A3M45ppb2AY34kKifgAFoikmsVr_khS8bKEmQNQin-lDMaupUuxrcNIZL3zruRDXMjB0v6FjAKoKHKis2jiSZYY7PnNCWaoidVyy688fIJwP-MK4qnYPrEg", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101963431156640837908\">朔望</a>"] },
+            { photoReference: "AWCwydhfT7Hbq3o8UsD08RxIuQTVtnTkp3FzvPh-uJZNI5QZSJZj1jYGWJahR74xQT-hxJjtVNBesOuiZclPzd8wP92LYnTDYKsMjdemkuFaf_FzriRdbbSQ02IaGJkWiDbS_y4ctxPuLHgZ6B0qjkLnUcU3rjnwIr-CbvtH9ozH0gD4VqDsYV4mHa_m0BJLYwHYw2x1qMnI1zN84paqjwUn4xIao7p7lVOnqeBJ9wauxWS7eOL5N_OPusP0c0norLxcDSuBVo0DC9UKPCQFyqEoBQQx_Ukg3Zdv2vS1VIBzRczQoGMN7TM9iW055FT6rjJUx8RwzEXseHkmpZQ4tmO_RjMy3LEADErN-cBeY45YaV8SnihZhjRXXaxX_LwWGXP-WimtkmHHYfjyEfQGK6PPmdaEd83nS7PvA7MGbygARA3iNw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116597843170102329352\">Joseph Kim</a>"] },
+            { photoReference: "AWCwydiF9TfKLPdQVcoy8HhpZiVSnHt0UmDqHsZOXyaeCyuNLruuFMqAePN8RiD1bm3uCsly7p_s7wU6LOY42nZDMKLnaTy7AAmkIp7BExL5E55h8wzQVCv2_7iEyollLyCup0ZTLJBviRwRfya8CJMpuN-wLUAVDWfgGp4uQwIKOgMi60kzx1toK78hTXEgGUgYBvAkzeQistF6iMP2q8HANOUtItz8OIKaXf4gf7ZxeU_nQ2nhBbJuw9VEDDCnEnZuk0XM_8oxVwR_EhBsAHA69wlhxZrqoTBZI1IgV3OQgzmcb9dZF0KPWdV5b53CnT0ULglwr3k_G_1nF0gU9PsM9nCaX0ZyJu2zN7qUFHynWnXJmnLGLK-FBVxCwqxzCf0RN4y7iSBmjjsYOrwMOkKQ_RlVeRRWtaQZKcyDyKmu0uDx4daZqBc79nVZW7hjdWul", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112029982050241262387\">Huang Nikolie</a>"] },
+            { photoReference: "AWCwydjS4zNGsZLihGYv-Z2_rpL6dC5adNcPPfZKQmxylnVIbcEpLmzLKV05GCWclb4Mq_rvWFdJBXJ0wxqJXmnBrYsGgp4jS7wv-elAGK3xAx-1kgo0DZPcZzHqwUjFSA1RNpyUVB6mfW8d0JAXlNjumFLsQQV9pO-ugaeN_F5DnfVeeuyAcdU7MCfaIplNfai69T-tvu9GQ71IbsQnNjtpa9ACfIGn2raD6Vv3wrSB2n1WQUGlSpj3eASjkfXvfuYkWf1FbFNNIH0F9InG94UMbzJfeCv2RBp2URA5pudCShrq-yEGKAAhlYvjm3SH3ScNLSYW79S00_WZxI_IoU7G7UEfpHNpm74HKi2k1XERNh6s-St3fPWLSY1nNOotelFkXlWSF40iwdIMgyyht2PJdcxNTP5vx9KDGQKRgz3sZakIaCo", width: 2700, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113563310934297112141\">Victor Cheng</a>"] },
+            { photoReference: "AWCwydhbrUsky5lFhdhGpDY_J1_SApp6f4cyp7h3e-ZbZAf-IL32rSMHjqa9l7o9J4_CRhKmaLrG6ksGSG2E5twua3U_lY4DCDM1Hs6FvDbOdSKImEY_xSLqjCbRj-eEqQz-RTMLnvgetaqgKGrs4UxHc_wb3NZHuD9_uUk3oTZD8wdXEAFESVD7z1kqJoVQTeSmwDx-NV9z0aK7NON_evYhOk_cAGKcb2QzeoFgyGqKVV-YX3x85QpLtincMwB5len7tf_4HanaYWB14B9R56LIiTj-JnrpYRwx_GuhvSwL-CIKT4uZljc2bdzihw2HlINf_591mpt0GRmouQ7_Ue-6ES8l-9O98pc_Oyleeb3JMtsvGlrYfz_o0uXGI9sQiBphr5CnGdXZ3HLAGPXJthjYGJfq8UZOOyV7fSC-HoKF3cODuFtvQEuif1B9H7eOrg", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118110743173366807910\">Ann Diel</a>"] }
+        ],
+        summary: "합리적인 가격의 숙박 시설입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["4.4점의 높은 평점", "161개의 사용자 리뷰"],
+        tips: ["운영 시간을 미리 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-chōme-7-86 Chiyo, Hakata Ward, Fukuoka, 812-0044 일본" }],
+        location: { landmark: "4-chōme-7-86 Chiyo, Hakata Ward, Fukuoka, 812-0044 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.nekokura.co.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3461019306766366399", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%84%A4%EC%BD%94%EC%BF%A0%EB%9D%BC+%ED%98%B8%EC%8A%A4%ED%85%94+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "게스트하우스 나카이마": {
+        photos: [],
+        placeId: "ChIJyydJIsCRQTUR9efPoc8ZTpE",
+        placePhotos: [
+            { photoReference: "AWCwydjioSY4SIpVLoHLpbxlWAFnG5VjA69lIiyOKwycq4RC8V1qumgHbfP5_2QNjam973QxUhFf-2RtqSmD0iaom8ni9aVW3YwkH82WNDTebMdBCYiX-RJsqabvmzweGk8O-twPQZo3REm_W8ZlnTsSEzNuDAPC0thdDdXuBXNyUiTzLEGk8UNHQLVPBV-7lZRy8SUbeXQCEBdjELeD5N8At6Da9wQvVcIDaf1D_UGkB3sS9xfxhwmLofLGqbHJ9gHoPrq1G5MYCFYaWqSYlDo-VEdKny7DbZjQkx3ETvUUIUPJKywm0Emu6BF2EcE4gxrCrmI_xS0vqk_B9KoHymWpx3MRUGDW07xX4xLusEA3NJcr8Q6vGWzbOVIoIkbZTylBquIxdvRqV_6jBVrO3u7bQ8a8wRCs8Db3zSRlhxl-vJhnAiqU", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118117261935719179967\">GuestHouse Nakaima</a>"] },
+            { photoReference: "AWCwydh_8aoCybZiCnuBiyYHGV2wgTM7boCEbobTD_ntdDoTSsnXiG7GkklPXoMFbI61wsTSfw6Jaz_dTVgfouDxR8jFbM5c-HsJaZjjgQI5mntQ2opkGh5ucujBxZBuQgbp-oK_v337P3efeVcPZqEPHWWIAvHgERUSiGfH9cYpYVxPemHxOiDXzc6MEZabHdExYMtyXxz0uwhDTbeOg9XlDvKjIUYycWP9RSbTlUeRzYbuAqXvh89bv9U4H1l3mPAPneOpy0YUsYCI45MjOdupoIzCmJmu27GcOgC2z7P6XUtjoeKgIKDxBRbesboeSbh1N_5em9obpwahNJF0LGd4tLMjThrhrGSVAEZ_WSBKaaStFkq0i6bTfJ0xpA3TRaYuhli2ax8ocj-puTmnb5Hu70JeYP60LEgToIp2cwIBZ0U", width: 960, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110532820923244625471\">Tiffani Chan</a>"] },
+            { photoReference: "AWCwydioxy1ZT4_HB3CqgwhAh95avNaVW90wwiYS2hVqIwfGTvOnPJ2gS2XogpgI9ho6myQGP6Kls8JYi9MladCfyRH-I4naJuF9R_u5N1ucDZum0CENz6rlXZuq7uIv-2_fmKsobYbIGez3_L-nykZHKIwUL2aTKxF1xr-9SHOGa7W-QPOfSt2VX2PrMi89FHbRJTzNgn_QI417Zs-9A8og93U0ddubugeq-rbz9vV9_HSXcewVkVX069wY9xWTSosBGnJSufkAeoibJhNpzE3TaspVIdN3OMAuSe7UKGS0antXfmo7L43xg7Y1lPwYD8bzSalh56hepJfhHu9dHaVqoihX6jOCu90JDMUPD2P-0V8zpwu-r1fTEb2qU3rFewYkC1N3Asr2hLsOrtV3i92G089AxVQd0ceWlaDPX-0tzHg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108771653712414116726\">FIVE- A</a>"] },
+            { photoReference: "AWCwydgp1AKRW7nt9kg4-rU80ns-JAnp1i4RaCm3ozB857U2Z8jUNwVTdifruCYpX8DAmfKG7qdOe6yxE8MN0kxM4KXOL_OdScdqkWtsJr_a5SxR8921kGa4GOGGqd3bZztc3QeCGZP9vKhfW_YrFtskvqBmhq2pce50Q6NOAYj4ELYcTFD5MOsg_zWfUKanftW0aGFRfQ-j4Gfj5lq55a131H08_Zwo1kcAvnLSuWMS0LEcxFsxD_dkHrNK85a5qO1kisrPF1TxX2iDyAMv5t71WUELUuz2GnTIeZRJIvruE_gyMSzNGevCNxJLudrMe_8dNgFXbXXNvJupgL434SUHhM-qiOG6H8U-2LxpjBncVEzVuUAVoRgGNRSiO0yVqIjMgWeCqyZo88dZiilepC7LdaIMewadxmhDViiAuC4OzQI", width: 1616, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114823280977903423730\">劉冠</a>"] },
+            { photoReference: "AWCwydiNa8dCg99GGrOGAzq25pCuCIgZGkTImIe7oIY-YebkWxePNdVOT-X77LuWZ7P8VZpGLRcqZfVnf0Bv4796_5At2mHItC6l1ep-cN7ERfI2nEDwJXDI6f7vz_pWV8sYsJaALLOKhiBpxMQJVWDcLxFCcfZSYLVz7bW-MJNvKY91DdMc9g3wm-_tejuvSUUZHUf_Pz2WFGXGaJY2S-6CTa1oXB-pVdxxzeMCLz9CN4YVqCFsiT6QmottLIFqy35xpWeGEO-jVpFNCyrxXotBQERQx_vaUaPKPaK2Vm4OvMzY5P6xLRpodVH7xbc8WDVmBAMxq5OrQQM7b_h133YOuMle2Gsh5rnb-gJEIIZ_t5pJwJUclOUMMG5KhonNxFARRT9BeL-iEv5LNx9FfXjIQw8dsiSr1vdD7P52n7uMqgEZT7I", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113314978221480458807\">陳鯊鯊游玩</a>"] }
+        ],
+        summary: "합리적인 가격에 깔끔한 시설을 제공하는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["청결한 시설", "친절한 스태프", "기본 어메니티 완비"],
+        tips: ["체크인 전 미리 연락하면 도움이 됩니다."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "6-26 Reisenmachi, Hakata Ward, Fukuoka, 812-0039 일본" }],
+        location: { landmark: "6-26 Reisenmachi, Hakata Ward, Fukuoka, 812-0039 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://guesthousenakaima.wixsite.com/nakaima", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10470334563246663669", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%EB%82%98%EC%B9%B4%EC%9D%B4%EB%A7%88+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "후쿠오카 게스트하우스 하이브": {
+        photos: [],
+        placeId: "ChIJbVOyyqaRQTURnCeTlh4DEQE",
+        placePhotos: [
+            { photoReference: "AWCwydjXJ9lGGy68eWf2pBubPhY2EXBif-ohRtvyYAdcmt-SKmN28BkL6_S3VLAJK_V6JzIqHLaL0uY6Gh9bkv12IhHzvBw9oErbLin7KEw0vQmG73ffWQCqIs3sV3p-xf2VNFaNzy9KLwOSWYzyUH0luy0hQPVGCahEoq-0X2FjPBHDB69tLbeqFJ4Z_V3CNjkgZ2dHVnnpxinjGG_Jnwhf0YQi699ZnCWb40vjuxciDEPYmn4Udc8-7IHgZyh8VIfcxV7H8M5b6BUEIIc4svfuA1I1Fs-FXiaUqIWszrdRtkazrU9w3FN4-nJvh2krixOeAAWy64nIIVPITeTfv-Mo0M23T7m7hK-aR_vxnXfzFT30_o9MtwfPVw8RhLB4W4KdNOGAaeT1LgmByOXAYUS0PXAj66B00zNC9mPHOCBjcCBcW881", width: 1568, height: 1044, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106495197746223258107\">Fukuoka Guesthouse HIVE</a>"] },
+            { photoReference: "AWCwydjyrwtHwPPjtu1CBdhnym_7PlDDRukSQetAS-sx3-25HpXZMr4nfIYNHYZVRPOWTeqVR2s4dASLoM0O5TkgtFh407l5SqTg8QfBdUzznDWZxdSc_3ASQX9aZyRNNbs2eNYbS6mxle72aDzMnzyhx_GcPk_DYO2Dn0iLEW-BUm81XuQS48hkbXTgc9jiXi3vk2h4k1HyXh4zYqbbQVgHqyD9tZNFrfRAYlq72i1uPaGuRNOQ3uNb07wmygS-T2MnGm-fNiEKcB33azpV7b9GbOgn4l9n0ZPprHE13GXBC4kDvpjWvaTIRML8XlZhYB4vk3BNRWkMLAxJrwI2XtG0Jf5GVI5Nch7w5Vatk8iUPsd-e24zTd3Ga16hPezbWIYOQkvodqMy0y6EwPAgyn-OTYPNOLfGJDd63EeSVv20wqEuen64", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106495197746223258107\">Fukuoka Guesthouse HIVE</a>"] },
+            { photoReference: "AWCwydi6kG0YvPLRx56BBpNudgGbnptjimoThMXYmSXYrGC4-JZM7MPJ4j_oAqDYLh4OV5t970b_Or9pNyYkzcyWqAiv8vBBFb6HqaGsgU6cxRe6mR9z3O0rouVPNup1WF9X7I0spttpWa7Z0z12FPPZ2f3BXRSYcLa1X89E10TvfIloO85Bg8aqAme5jQXN9dlYezbUgiPmDBFWfdPenassr9-w5ndP9IbCq4dcOMSlN_VQRQqwKqRu0v7bp6mIbS0IxDyQbdqOb5Sa0ZJ7oW20cNaPZRppATcOQzhmuNk7o5uqKBxZ4lMNHWd4OdEQqAEXpAS6HCaySOG5c7iER7reoxpPjIenkHc4QDEQyfEUoPT-IroFjYqYJm6sc5cI_jQZj7EU2QY-SdP5DNfcgE07P9-QwDAkDu5-vBUn4-Qr9ZDz1wRF", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106495197746223258107\">Fukuoka Guesthouse HIVE</a>"] },
+            { photoReference: "AWCwydiFceIgYdOrw05JQs__v7l-8SQssqRYQVov_b2RlAjD9E8A6pWEqfxm3qBLODbeTlhGrsbjeVBvP6JRcePwQwrW71fUUHvh4viFBLMxu-gfHNmHn17U4bapuxgecIPupsKMlz5Eesh2hndxZc7SF2qe_dlcmUpUGiEw9La3qNJde_TtPTvTq8KjfZWwyiZUEJbGgfADdm93TQ_Fnc0Axdm69h2WGRV9oQQ8Y-5KQdXjMBXouy6zJEHyn3ddqrrtNLU_zAD4eC2rL9kqYFS2F_95ahIhZ2QquTJNSIWDNDHyFm9yLlhrd8GIzch1xQKpRfHkxaRBJe9wOJx0r9m4RGuypl6HF7y2WXGE27Ptfkd2GOboESxRUX7VtoOHN85gEHinQfCArv4E8blGUWfTgSYOoMoHWCIaZVYUljagr1Y", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106495197746223258107\">Fukuoka Guesthouse HIVE</a>"] },
+            { photoReference: "AWCwydgra8vnALlWkSYrPZ5UmzChWceYK94JVCSU6MhlFcmsy5yhPYqlqBfvpeW9rcWaEV0xIFCNvRuGpd-qoO7Sz7xioRGSiqvuMr2CoZDtCN7uxiO6Umvl-qd72CXBcpikk04xGHfwq89VIVBG6sWw1nNzsmkwWgyWH6pJ8mRiV9uFmV-PcYKu1zFU65D8e6k7bhFfOmLau3aKR0CSE1SYIDh2TIBQns-4TzQKFyi0vO2eVRGRhzJYbIZ555INiTxqLLLrSd89oKVMHxUXIvtmnm6r-x8TaLytF9MqshbwnTtyXqqitpQbluK-JoULYxnnojwBeEhQXep30QMETbfQ3-p40Xtr07quJQ_MGPTorEEJ2w5cVHgHpOo1YH2VyzTTX-bdnKdGb-9R4wpAjaMSzguUq6fLNyc5O5eMQwAcKY5M98iI", width: 1500, height: 1000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106495197746223258107\">Fukuoka Guesthouse HIVE</a>"] }
+        ],
+        summary: "시내 위치와 다다미방의 매력이 있는 숙소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["저렴한 숙박 비용", "다다미방 체험 가능"],
+        tips: ["여성 전용 도미토리 이용 시 프라이버시 확인 권장"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "4-3 Kamigofukumachi, Hakata Ward, Fukuoka, 812-0036 일본" }],
+        location: { landmark: "4-3 Kamigofukumachi, Hakata Ward, Fukuoka, 812-0036 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://fgh-hive.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=76846098552137628", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Fukuoka+Guesthouse+HIVE+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "후쿠오카 게스트하우스 지카": {
+        photos: [],
+        placeId: "ChIJPTU6dpeRQTURQRBNvvZNouc",
+        placePhotos: [
+            { photoReference: "AWCwydihSW7Rt3Cnyx1K5lRuiFowweZwQoRpfvwhTviVIef0Fapk9f2WjN2N-zli6cTXXGbBHHCQahnD3C5wx1B4L0iCWK_-UmkU-mryBE24cWD-hL1Tb48ZGbD9GfrhdC-1BP5OzsiEVE6SZJYNQaYIlRFsziX6lDA1fu3E9Zmacrk9Ah7fJmQL6_6hIxStl2HgmYmNEXfbkg3of1INMTAuhwyaWQFni-Xmzt1lzsP45tpVYrEYY5yrhRGe9TL6rFugFCONBr3hmM-JxlDOq8Z3vaKRK-TAS6gd3D_3RsbdH71Gj9sV7V9SO53p8FHC2ZZnQ-7sCBn66fChzhKsy6lpeslnendPFcjBz-NjVZ7pmIhnCX5Ecf51DVz-NxP8Ra-27o3r3sj6YzE_lm2Yuh1tGlB6Thg_q2hYVv0Efvfpe_vul8c", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111216874788421195765\">福岡ゲストハウスJikka</a>"] },
+            { photoReference: "AWCwydjzzTn7ZYV7ch6tZZUs-CzEOLIEpN3olg0Aam9L7JexaAXWb-G1lqfe5xQvb4sL0mZRjfA6WSYk9azqf8ZxoeE8LlC_NsOokewE9N_bW9mdylr1q1YCe5Y76tw9tb8fB1hOK330UbZW4IWnHSgyP4rxcHRxoLSW5PznxuyJS17jeulcv_lnXOqWcfw420AmPivPE5Ix0nG4VHBg71x32t5uVgReEmpoAdp4-MjKFUtmShAaNqeqSc2zH907BEGR-xlcVpwxzUcCjy3QQs_OL9D2ls-8YbIvQxw6lSWSoHiWv9jTIWRmLCR9rIgWrB49A36ZURrMB9xkFcXUwKz1iYcssQkMq-wRw_MfFXuyVAm09nhNR3dtZ5RV--6CUWzLkboIUe4hRnExeV7xVLkWYNPi6u_9mwICB_FDHmuHehP2V2Cq", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103983039804504313221\">supportサポート</a>"] },
+            { photoReference: "AWCwydiGyS2YTxWlFT944E6SnZLW33UJV-grgTbykv79ylN28iokB6EBKKPns8hpaAia8a7nwFTOuCE4NdZQKTbKPchwF58s8cFSy7DTj0HkEFJKw_ucyS06oLwCr1c-qHeH1OEhJuMlp5nli54Cd3i4RQi1KY2T-GjHhuN4BjMjkZGsGtk9XWcOcNxuafjhmxo1eJclbByh_HowNfNbOINxZNrE7-eAlD6M2MQflbSF9Arff_kyRNHhy5F2kxVYncNgoOBXLKCYURA-giHBCDX-6K9QqjDjiJSb1nWUG7YW01uaeSHyYzqXgyi0r-fY0AxFRFxHRqqs_28-RsB8szNXxirC4EovqWgJtkkvwGVou8BO4eRPHxtVrKH1Mij9UqkVsn6aAQ6WxzGdQEbosxiIq0W5O0gVIHSuyoGkwK2pSmQOow", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103983039804504313221\">supportサポート</a>"] },
+            { photoReference: "AWCwydjH0iH9z_C49FMukqHUieqYuS-P_fv5JZoAdirRXPoSeZkEBaEgfHz-p8rgUQQT9sxorD-Xl7MffgPVDFSbkAUeuOuX8ZkPl1HzF1yhItohtWfHb76zq-5trRSybcTMtyi8IO3rT63HmzKcIX0Ed2EkJAVqUTJpS-uhHzOXpDjajKYMkrCAFcGLNCBL6ybGtUArdNuZftNv7LA5Y_bLp_1eMkO-XWuNHw_qNfiCLHgQKaRTB3E94Scih8vRUm4CArFaXDDuY4dKjD5x4_vZDBm3dI2Af8o3XcIoPkC5MotEsjFv0RQ9svbwGHepYNb83KT_Pvd2a14qicLPvVdHIyoezGHQEJ0zPFR7KRvl42ak4S8ivaRQB7viXEmmrYqYd_kaudDww33BcMYU9xWWuWkfcHStL5loF9O4d-ObrEtk2w", width: 2553, height: 1915, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111216874788421195765\">福岡ゲストハウスJikka</a>"] },
+            { photoReference: "AWCwydh7BZxwXg9yr6eIAGaSp19_YNJ6A7dXCVFehBrmPr4I8B-a5hn2Pv-aDuGJZ4e0a-bsoq8Une8KgsBio9tYA-ZVnhU6aWWJeGm6RSYwMJ1UDvdpmKdo4YU7m-icSW3OAIQB5LD0AJ5mLLoQpwSASsyEYEN7LocvNpr9hMSfZJXD0Kbs4lXr8xlYzfAci7SkJ9LTCqjszPnhjoQectzPBPJFRNglqtMqaIYeL2q-KGb0thXaEtP7saLEoe2O59bvLzaiUwDTINQW_y3xAzJdMgLjMS73wUAvI-dKcN0CaX_jNJXE5Azjva313bzbPhHYMLy8ICjpxdHiFizjv3Z3larQYuGo2a4v_Cz5DPsZItQ6xxBeG4LQSGcKWXzT15KyYUIVDeREqUhWjRrahEiCquftq_bZPXXhkqcLWORSEjZwsy4", width: 810, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111216874788421195765\">福岡ゲストハウスJikka</a>"] }
+        ],
+        summary: "합리적인 가격의 숙박 시설입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 평점", "친절한 서비스"],
+        tips: ["체크인 시간을 확인하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "1-chōme-14-25 Haruyoshi, Chuo Ward, Fukuoka, 810-0003 일본" }],
+        location: { landmark: "1-chōme-14-25 Haruyoshi, Chuo Ward, Fukuoka, 810-0003 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://fukuokaguesthousejikka.jphotel.site/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16690988891138494529", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%EA%B2%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4+%EC%A7%80%EC%B9%B4+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "후쿠오카 게스트하우스 쉽": {
+        photos: [],
+        placeId: "ChIJ81EOD0CRQTURrhJ7W2TdsIo",
+        placePhotos: [
+            { photoReference: "AWCwydiU7ElHGmFbopEn4Fm8bF2nPq78Qya1l4xRpCnKYpHRBVijWZQNPzHH1W1FD3O_pOuJCmE6VrH5Rf8kqBjVYHTppRy7Qice15VWhQ1qtjXFW-bPNKNwGGPE3_iL6mOMaZgQ_niJkTkiyTDsshOS4ToNYvrJR4OSZuUyssWoocfF7S5usghKI4moFMVwbwQKBgF83rqRbbSzmfsnH9-4nN8ibBfWwvvHst1k8XgAWHiLdtiNz5X-yQtdUTkN9MrYgqvur7bkbXw-w9he0VHvdvDuJp41HSAf2HRnDW_y_2DrT143O8qfyya2MWabO6vNtC5xszNNJiXC2x32tKfFgNLNvo1rUOEg8oWRYFTEHxR3Nk0wLUbaD3yutHj-4hKa0re5n1wYEJE6FGYX-iX9Pl5dLlPJiwsGmirVpR0jhn8kog", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101868790911381165010\">Fukuoka Guesthouse SHIP</a>"] },
+            { photoReference: "AWCwydjyeexOvtE7GkFXoV9Toe5SYe9b0H9Pwn2E_sv5EI74FqPzRiLGPlCLlhmDVYQmb4XHJvMJvsrQcwoWrP__uSisFAd_67fYjRK5D5zOd4YfjyQ3hjZKcPt-AKtaiBhnLgxPAUtVBeuBRk0y07dBDYq7i1j2UbPL5_139lPpjih039Ht2Q9HQZwUiONpskLHCY2xXtRHZb9xRCf9PDb3sEYR11HrQLsS1qKbVZKXzRaZWPSD5KAuJiKwH_wWLskwWbz-1kxq_UpiIlG1N2nMv2hcZh-dzmgJ-IhoU0FC_X3-agOyHiDwJrYTTrFavLfgf41JuJ_MIzUnZs9Kl8Uk3Vh18QaOp5fAG6QmEdVvRgcWleOJWVLhhfk9mMiQaakixzDvTdad5_DFf7enr3z8yOvb4zqdcpvYHLGJU8kNzw7cDZdA", width: 3684, height: 2456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101868790911381165010\">Fukuoka Guesthouse SHIP</a>"] },
+            { photoReference: "AWCwydjldfcc5oVJuTEp3H8F_iHMvTQAjNRYJ5KURKkoRVwI5qQ1VCXJu9ix1zg_WECboQ5Smk9IZsWZH-3HxzPGeRKKHp7qC7MRtalN2UeeqEOtzO9gSE6YIvGGxivF0MbLZkik85uRBum7BzMM5fMDyKN-C3c1Dj1bi7nCz3x9bashO2lI73oe2y6xyYSkLR59GoftY3FgGEMJ81TmT9EyEdJjkZ-4kSm4K3_stig2Q_h8zLRs2akVQyebEguVWTPABZGq3ImZ0_JLgPaIM_EYclmcHHbL2wkDJiiBXtc00Kmi4EAyqu7MklzFlbt7Sk1TwfAiChcM_WXf38XvjAsMayhLByCX8PjW_9AmRdw2m53W-Iex0Aial4XtD4XE3e1AMe6DekDVsuZLYsKC9lPRGmYX9cAVg8-o2Bpl0zn4nVSMvr0", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101868790911381165010\">Fukuoka Guesthouse SHIP</a>"] },
+            { photoReference: "AWCwydjtHZUxGyMvlR3LJiSXXO28meVfPostCMNIvjOl8zxYdT9vgpcmmQlktQfGmqwDIZBa_aKOiQ_VfHFG0blAArlk7d8YqsCaHiPb5DHGKmvWD0wHwVh4e2Q0x985Rwjs3FSABnrz5GtzlwchCK5KFBYyh0iRAJwEF84wgS6wJc_Py-EJkUV9SxcEhPjxTQyAGDJtyAMk-nNcWkV_nnoTd9wPekEeodlDRiBCJsO2O85960jBHoLFiCKe13NvS0VdEK7jYH02tnOcaCshOXxSf5GqRkEH0UmqNFMpzbmXJAI7DRiIAMuPojgVE0ttLG8ha9xlsVg2eJecZfA-QxGH8IX_TlkM1oIylcouwT2wI1Q7lBJJ7pg-lm-xr01GMcCBTEwjN1EDjDOfhg9DEk18TOzkgDNoZjl4cQZbUcgB-JVaEdc", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101868790911381165010\">Fukuoka Guesthouse SHIP</a>"] },
+            { photoReference: "AWCwydikCDgF0Bye5TT6tazmoH1jveAUoVJauTLyNFgujOp1DqXX_5xCQBgrJ-o3tJry73RJ-bJqbstMvb9Pn_paFvTguIz-pnmPNcfphD1cul9ZNkzIw-H_5XOD6nsKXQSouiMei3-5Mh-G1JH3oKVl-6gaMI_XzaXLb9PgeCjUxgiux7qVFORpj_kBo07uwVE0Ap_F6xG7mLMrDiRm0Ww7GnR6L7TJ8Wzt2_fWx6aN_RAh9iORCHIxHZ6oLcwmisQ9xT1E-OKVdeDz5qoLAoFfe3eb2pfbGiEW-c-mGDmXO8mFByMpN-sFMXkA_Ej43fT0b-y-Hjdl_4glkZKVBltllkAIsUt3Tvrv9Y_C0kVOoTTW1-3xQVT60U9KhVjNikiC-pmJnCMe_xz5Qu29i3GNRNlBxeAiz3evDBAYSnPLn4kZog", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101868790911381165010\">Fukuoka Guesthouse SHIP</a>"] }
+        ],
+        summary: "하카타와 텐진 등 주요 명소와 가까운 숙소",
+        updatedAt: "2026-08-16",
+        highlights: ["편안한 침대와 에어컨", "친절하고 활기찬 직원"],
+        tips: ["저녁 7시 이후 할인 행사 확인"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "8-26 Taihakumachi, Hakata Ward, Fukuoka, 812-0033 일본" }],
+        location: { landmark: "8-26 Taihakumachi, Hakata Ward, Fukuoka, 812-0033 일본", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://fgh-ship.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9993730996236391086", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Fukuoka+Guesthouse+SHIP+%ED%9B%84%EC%BF%A0%EC%98%A4%EC%B9%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;
