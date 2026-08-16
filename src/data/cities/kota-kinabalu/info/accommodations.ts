@@ -371,6 +371,253 @@ const info: Record<string, AccommodationInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%ED%83%80%EB%94%98+%EC%9B%8C%ED%84%B0%ED%94%84%EB%9F%B0%ED%8A%B8+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "AJ 레지던스": {
+        photos: [],
+        placeId: "ChIJYdnYyvNpOzIRA5_OCu9amJY",
+        placePhotos: [
+            { photoReference: "AWCwydhdD2li3zB2RrUGzH7YkOmhp4O5DGWJM5o9eYLTVy3h7xAzRfqg_OCjPcmKxc2lj2Rp43UTzN9u7OaREYQC3z-CelIQMfcgIZoDIK0FE8OqKJFQmjXwAOLbiNixInfiXGKONzFvgedaK11h9Gm4ndJRJRxCBTByWjwY-dSpnIoXEBNT4AgOJGh6aL589BqcphmBQAjc0rhy8E8Wrean32usuqkBXD66QkEbaiN07CckLzEC6SnyeIqiHjnb0OEiKrQfLgVXuNobyzOvAP769wPXrI0PB1WUpSmQAfR8P-F4tIeMNjp5NDJEeOmUMAUjsPVPUJQNdXTFPnNRpVf5mmk3RYTNoGLmDdAU56Lqp5bJMmvMW80g2rPtAqGD_Wxrb9dr5Hp8RgGu8Lbb4LbS9z1GQWqq6G7FJ4GEtW-Tzh4J4ZrxhW7uHYsyL2QUp7sF", width: 3336, height: 2632, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101613906319467347800\">陳宜東</a>"] },
+            { photoReference: "AWCwydiEaO0rC8zVFQNcg58Pbuw94kvjttlme2Wn9rodqma1NBs7A0GXIO67EXk32r-8NVV_a_nruUE6FY5oPpMNlR6i-hfXMTUJUR2mMhImcv2TirsmPZBHZ7RNuszi6qvDuWDAjjMjbwfVYjIcp3L-A8h4rq5D1UUh63nxGxB8C9aBUreyBl0I1xgnhx0AAbvrIBzhsElDJ8dvZsllwHV9z2gKSMYnrn3cBuZqv3Nw3_M1z9IpBLHoqaa1v9mqlxWntCBqn0RwKY683CF1C2m_Xu2XmNFg4-haOjiyWcqWnIiYCPBNVrT9oVwhILUccGY4KouNVc1vmwwsqi_r7jNk1TgsYqRSQRFldSR5s6lYfoHWv_q-DEy7tymwjIOFTuXXskGCMZxf4dhQrdvp2RhP3AcukAEFl5L3ZFq943uOJWv3Cw", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106424523505350887151\">AJ Residence @ Above Peppermint Asia City and Pharmex Asia City</a>"] },
+            { photoReference: "AWCwydjm9f7Yg2GgUaX3qlvyBqWv6xO9AVkKW9XZM8EXTN6fdTSmkEmH87vrvp_m_Eh1bupUMRN65WdUmDUvsauUQ9TeUDprwWTgigy8D0GW3r8XqG8ZU_1fmp1RauiZ1Df_sE52sRMJPA3w9GZkIQan3JhxQ7aIAnyx26Sl3z5Tev_W8XHOEHe_5kdz-vZ0Z2O6pWQICFY1lmWpntEFMidBe4hcBT3R7wCi4A1Xkv5A9avIEL5zJ4jvSswexO22iHWQ12y92wBcKaq-LkLT4TuLcdeIbkwHOU_GhfKabl0JY5DZP7zArAHriqaSYHs9v-_IRW1uotuzMI3Not8xgZTfu61vvW5mreVuVhAkeudMe3GfisvhRPO6fBiKB-OiFmtpE8hwt5wkGTYI0wDzpTscgB5sMb4M_7qUVcefpzwfAWrP5NSx", width: 3204, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106424523505350887151\">AJ Residence @ Above Peppermint Asia City and Pharmex Asia City</a>"] },
+            { photoReference: "AWCwydiWH2kKVeyeNmGvrkolMtIbRPJOsbwlxLqvZabKt5bGkft3QmL-u-3PwNPBFPg5JbbhiEfpLSmqElh7s92nFtEBCZ-L906zuZk9firDCTVn-3rp1ScvLXZUyjxK4DZpfll030m4jBJZSKpgBYPg4tIEVhz-fyTgDNzVR_-fmwjIxqrDKk0DAt2luQ4I2koizI1g0wefZyJgcYl80wYdRcF-2L7ihV_q2rBTArn0k8R9gYYS-_UZCZ4KfhCF0TKFMNo7pfDqtNl2hm2jjCrZamrAzbM_iArBTfSSJcHSPw--7_fYtJqj8tJDo_1wJpHlSpR0Eppu9Lf_HS3C4U7-DZXpQEPO9hC81XGgFpmqwJQb11YfXtgj8VBIMdxbl_1yeCrwiwZiQi7zUuLqd07Gs7vD6FD2VvqmYh8fozi053LKhBSH", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106424523505350887151\">AJ Residence @ Above Peppermint Asia City and Pharmex Asia City</a>"] },
+            { photoReference: "AWCwydhu2cKGVH7Ze2shvUAsMB7vtRyHmYBSI0XfDRhDE_hOYbyHv7rZk_2hp6kH82e6mp1lR-KSBay4-TOPIdJI0LIzic7sH0W1tBkDP53h9ewq3jcaC-__ZwVToyg-LdZUozyn-QheKSGKGWt6anu-iwUZF4ZCeR_Yhf1WhlmC16Xeq2cw2PlY_YLdMk6GrpSAjTB6hI1i_-1DZTjsy0jGl7l1mwHnnCZqHronpaL0zruVjamBA1eMisY_XupfJ-fVt-HpsnBPKfji0BlMfrqzp39eslI6ijsoaEDkYNs_UjbFVBYFP3pBmkX-2rKeA_p97iDjc0ruNFjjt0ItEu81hxhDd3yI0xiT6GTrcEJPRHzfsok0DZMigJdBtjBNJ6KXRTDWZADkNUU4J_-MwIdU8D_m0ANXyQjrU23n5vIsS8o", width: 3204, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106424523505350887151\">AJ Residence @ Above Peppermint Asia City and Pharmex Asia City</a>"] }
+        ],
+        summary: "합리적인 가격에 편안한 숙면과 편리한 위치를 제공하는 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["청결한 객실 상태", "친절하고 빠른 고객 응대", "다이슨 헤어드라이어 등 고급 편의시설"],
+        tips: ["엘리베이터가 없으니 참고하세요", "밤에 밝을 수 있으니 수면 안대를 챙기세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Staircase Between Peppermint Asia City & Pharmex Asia City, Lot 6, Block A, Asia City, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "Staircase Between Peppermint Asia City & Pharmex Asia City, Lot 6, Block A, Asia City, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.booking.com/hotel/my/aj-residence-kota-kinabalu-city-center.en-gb.html?aid=356980&label=gen173nr-1FCAsooQFCJmFqLXJlc2lkZW5jZS1rb3RhLWtpbmFiYWx1LWNpdHktY2VudGVySAlYBGihAYgBAZgBCbgBGMgBDNgBAegBAfgBA4gCAagCBLgCpsmkpAbAAgHSAiQyZTI4ZTA1ZS1mZTMxLTQ1YzktYTBmOC1jZDE2ZWViNzVlY2bYAgXgAgE-Share-viynSlc%401686709799&sid=830bfc3e18365c8b953e5affc925afd1&dest_id=-2404760&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1734228161&srpvid=53960e3e53aa010c&type=total&ucfs=1&", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10851523284874206979", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=AJ+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 로프트 레지던스 @ 이마고 몰": {
+        photos: [],
+        placeId: "ChIJX-X-gJVpOzIRpiMDvaBVNIg",
+        placePhotos: [
+            { photoReference: "AWCwydgw1zmlLX5mJKh-eyNR45uKjLQnSl0qj1oqIMUonKoxMbg6rf_2k9g6JiMyiwrprQxaZlZ_1JJGRU5isCjBWK-Ii3JT5ZM-kEumzS_8Eu4id2HKuleFx02c3oXLb5g_vJhBEEGNl9DdteycWPISHCV-z8diTk0fyqp_bsYUNbL1R5eUAJijgxeVjQ-_2LFlcfYmFvjwfHunG23dnsR-7xUTitZCDhZ3kU0kFEWIQksecarL3Y4fvTOHbbgS_PE5fBWA0B3TzKjO6nfbh-Ub77kAwnaa8RlDX0WwRnY-RFYo2G9Ohu-C0y_ZPWC14t7B4BcptFjm4NEwcS4c-fjGHFvEggUWp3PsgpP9kJQYezwVPYOLAa3k6laPTE91e-LE8Ko6flYVWSt60MrFuEiogyh26EHbyQ1mEaETIQzpz81xSw", width: 680, height: 510, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105967876289333486800\">Imago KK Times Square Loft Residences</a>"] },
+            { photoReference: "AWCwydi7LuGiB8_DFcF4BukVqj2Sj5TAoI107dDCwlvEMRyIdywzyYToRd-qDwtzP0SKmAcuv9VKT96cU0GTYU_FzKTHrjGTBMKCQ3gTpyUwq9TzmvUXzE-iLZm7sm71WeXycfpT0Typ-dsl_r7zjA1Jpk2le4-eDzZ4vnUroXuy-QU8xalln1GlI-anw9p-vGshBmEsQW3MCyhk0YZwc8JN3sel8s-JWp-JUToqPjHtTY1a7xQzUJm7YIZbuOJWRq3Fr7NbkIeo50Y8VeGcPu3sO4sl2b1xxgoh4cKiLq_hPDRPQPYUQVxfHSMyD5Bs727g2oBO8tj5Yki-I5u7hRnx_40rBc1I7mUv8ebtLCSi1yFzhEuaszwjZPBKm9ZvIQse14wYUwCVoCx3AOJOmbsCfyRlkfPQNLut_RKGFN0V8zKjVEpOYG3BTdA_rMRtajaD", width: 1020, height: 765, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105967876289333486800\">Imago KK Times Square Loft Residences</a>"] },
+            { photoReference: "AWCwydgdeVWnb0GY6YdA0nRhVETbP9U24ARHcl-khIRNXAlJLXCLA8hgynS8m3CT5jbZaNsJ_ut466KuCsd6P-A_riCOoCzDGhZzuA7wx0EU_Gw9E-Pj1MNkBT6cjCEq6oHmdf_CxJkxMs0_WJnLtSZIvWwcKJcbXtP9R_ajTLPHVEfM5Ssxs6bQtL0EQtBQPNcOVwuIh8DlR4SWVaf5yzPxhUE7dGeK7BmUh_gojNPHSXrbSBRIwrdK0PLutWVcmszYbG16QPOVPE1obWyTjIItYb4gdxc78Dh07DKQWPjqxEWRBgmA_RCc2jRV5KhklWRhlGgK724-GtJMC-aJOA5gJiHWWf5Wb6gX_livjfjBpeYf8NOkRgGs3eIPXgskcTR1TEPp2rwHF07-IYUmIluORZg9vkPaYCjaFOvuksye94Fgcg", width: 4130, height: 2581, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107270506594308409057\">Adam C</a>"] },
+            { photoReference: "AWCwydheg7SVs_-K0JvnLQ_IHYE7hWUBcYBhwGv4YhJZmpv4B2Y0YlXZOOCDujfUZm4ZdGFt-608XgRdiKYsg0B0MOm0dNjBFmb_LVGaJvPo5CdWvEL3paDpa5a2IvFI2FdZprGozQJzXv714_fwq2fJAWI01HnW_dQiSvMUAT2hR03Lns6yxc-9hIrzQkH6p-BnW_6nZxz59d9-kK0nU0_1azMGhj508ra1XPz6B8eMaj8vuwIrXLR20OQSQlgkbAWDDm4o96kmnqPihRsX1LkJqI2KqTTIrzEzve3-FqbcikHt6DY8fFPGz0ZxadLYyRRXn4gquTAjpWWuTx3ojCJl5SZw07WgPJKdiTivcTM6V7R011rsupkIA_KSkdqdR4S61Udu5OfGvHPGhoJA36ZtGvlTh1WQWZwbQ1eg4q_lkyVClu09vfuDbY8afntMJbJn", width: 765, height: 1020, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105967876289333486800\">Imago KK Times Square Loft Residences</a>"] },
+            { photoReference: "AWCwydj0LOVZgoZSFOte0AiiXE8F-uJni0YbrTmIYodOtkabm9ty9oTmm1WXhSeOM0W_wyEqCcDyCy0tQvqdDy_td-1PpsI3UibE0D3nmSpu7Q2DSp2GkH_5wIybWDgxlr5ln8SzpCSBGGLrhyTUdDZfC1atYfSB9EUJ9TYclZ9vSZAwS_VBNBtrnLJdEgzZsqYcjjpJPDWA2gH2vEa9vBuq2Vl1fuwi3Dux26rJJMtJzVtg_eoyIR9utp6GRWeHnwZFqx8QC247uSaybNsQZMt5AY1noI0VVm61XstFwsX_vvzpZYMZhlxCvnKEIpEoAfSGWxAqvW_jslzbIje5PNMqTOezAN4V6bSdrzaDBPb5b_6EcmpMR6fyPZnVhWce6DEpKJkXunSsCy5_kaVPJwr2swNIeS84lVB9dNHy2pSX8HNov3_xtr6Cw-v79EEO8Nuh", width: 2560, height: 1182, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105967876289333486800\">Imago KK Times Square Loft Residences</a>"] }
+        ],
+        summary: "이마고 몰 인근에 위치한 인기 있는 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["이마고 몰 인근의 우수한 위치", "741개의 많은 리뷰 보유"],
+        tips: ["이마고 몰 인근의 위치를 활용하세요"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "A3-2, 3rd Floor, Loft A Residence Imago, KK Times Square Phase II, Jalan Coastal, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "A3-2, 3rd Floor, Loft A Residence Imago, KK Times Square Phase II, Jalan Coastal, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.booking.com/hotel/my/by-the-pool-at-imago-loft-residences", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9814563636801381286", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EB%A1%9C%ED%94%84%ED%8A%B8+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%40+%EC%9D%B4%EB%A7%88%EA%B3%A0+%EB%AA%B0+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마이 미스토 홈스테이 @ 리버슨 소호": {
+        photos: [],
+        placeId: "ChIJ7Y1fGuZpOzIRCXGoNme4L34",
+        placePhotos: [
+            { photoReference: "AWCwydgci70Z1jMnM7gLaxCd3GqJdcsln9K1qRGQ0Zcx7ZQGMIf7-fYtjwNn-lxtYuj7zS_0wRCfMPMJiY_f5SrZZIFcKd0Ibo5DV1ICrZGydml2bByVp19ONElEHQGBGj62Agm6dQ3DHHdzVTE5AXMe8z7uBuAmZh7V40U1mcL3B753htyl_uDEmW6hHpIZgF-2GeR9tzurHT0pqmwHpeim38shm-gMAUtUoYkS9wZXElosHGy_OKCW0E9KLNb29Xw8DN6NtEMrCrg6Y2Py2ksFk-zLviK8j9Yi8tADbotPT4XSNJALtlqbKxWrhcgCLKTQi47c6cycIuPTmZ-c6QcQdfQJwBAcpLRksD7ChXsbZBqoyuHdnGkh8LLcXrVGU0p1VGBjR4zqIjoeLxsyqvmk7LMmBH06OI23FJQrWEuQGAvU-KCx", width: 1137, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440724508603153086\">My Misto Homestay @ Riverson Soho</a>"] },
+            { photoReference: "AWCwydjWCqfzcSsQ7ALmaFRXJZ0OeB0tMY-1Ax5iEeVsmrvBb-B4MHrsZGg2Rq6GXxxgkkXMipFtdYqFmhZGfsMc-64RXO4J8aQb8v9pb6XIxfBdP4Yp9VLNpnNgspXlmRjMtTbqhMeSc93zcPW9ZfCVP35EVuAzM7JuN9pqNr14FMgtTjZNqWt91VkXsmWGfP0k1TaFzDKlxLTasfgDL36BP-Nfb_62YCTgEUWnSHWrp_1pBD3U6dRLHprFVERqn0MMu7ssVEUzz8tThRq4aWEOmSVQKZDPBKfxsCQ3d_2Oku2aChW9L-6ZQbXdzdmKB7tPyHkAU5nKiqWSSV5HnOrP4gFzAukdolMPnJZDjpM08rlQbSGrxJXUvxTyjzhD2wmqKAku71sC9cD7EHYSGTw1cqJvOArNoYlV-wDa6_QfBIKO5qUz", width: 1080, height: 721, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440724508603153086\">My Misto Homestay @ Riverson Soho</a>"] },
+            { photoReference: "AWCwydi6vpoWm2-CBJE_W0rP4qmkXke6Jz2-Y_D9g_0tgk3P-2IsyFt4ZQUdj9geYxVO2VKNkRqhDM5b2cfMO2oJMBbgUG75HEmChCzPBQrKqOLldTADKC3qq_9ya0RPtrovu2zliRLt3r6HtRvpoyAb2_67WSAl-bZgoOwIed4gAcVqU5M7KQkFXd78QNOs7K2zKaS9g0-EJLCsRZhd0IWMD-OQpour1vN7Ij1f9M2MgJfVksouIoQcU9VaEvg_YmXkZpZfMupkD76U9XfAorE6GEUhx6PfZszg-RsEk6Otu5Jf4swiWUMPQqxCiyTAeAXnWnmVU-wzKPtcDMk5foR6cQtf_03VX07zLmQ_tyyQveCAVQwbDg9px4_gb5NZ8zPPM6yqrMCydpPHFaqTomSNMfaXwEfPGYTa6zNF00Fm0r93086R", width: 4800, height: 2210, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440724508603153086\">My Misto Homestay @ Riverson Soho</a>"] },
+            { photoReference: "AWCwydivgvYJPM_nxTCx_piyMWW_EdCL52YomBNp-VMPgdoSKYke0rXgBb8Y1Jg_mM3KV_iRN_z4y98H2zHC57TQ-uAGeHcbystgZyAZl9ldviRvHA3rAF7RJH6FMlyFXcYbkkByF9qnR--2dK2sMVqVYUclvZJFhp60pM9SsxDtM77tFPtMtjN7Zwuq7ROPsB0As9AiovXF5D6v9KdiHTX0sVa1A6G8bN79iD5omA4JBvOFL0OFNer292DiFmqawFXqyeiNFyjnF_7NtfZxRk8OyaFVZPf6eCB9RWeXIW9VFqmpa3WdSsUqkglixck3c0fYCW1cUmgUPq7Mfbl-L0SDSwgXeMVkhMj03IVAVPTx9St3bvJQsf44NrS2N8-yrWxfhr8XWNZwaHFZXAnTgvwuXFW228yZPnajHSaR9zoubu_LkXnt", width: 3600, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440724508603153086\">My Misto Homestay @ Riverson Soho</a>"] },
+            { photoReference: "AWCwydikgtzeaKNR6FGQ1oRYHgWfyjvgPlw-GqzAKUrtlNsgvCL23DQrlchvjBeYOMS6evvBjfWr1FpSKg-glA3lPYBZ0e5DHUq6NCQSz__mfZFINgceQIXCmqsYUtyqs05foxmrFICwIfXi6MdxRo4RjvJoE7_6_jxpLCDwYaLRVWLNNEIPKhr734P1WlYCrNKKDsr_e6a5OGFZWZbRtJ0sVyeWGIEr5ai_gfap6UAyMnAz681DuUb3rYQ1dGuEGddycVrELjjRucmz6M-SO9H0mjqTYxmp4CXHdD8iaMsAM78QMlyMqsyREh55nAzp98DNxogwkXVGxqExACKZciv0eeoHEHP9tHyAGxIa-O7BivC5erPnlRkGH9Th-Reh0V1FLzdgzmKg6x6EcsukoV1tRVvj6w8pidQyjrYP4VoKGKG6ukiR", width: 3600, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440724508603153086\">My Misto Homestay @ Riverson Soho</a>"] }
+        ],
+        summary: "이마고 몰 인근의 편리한 위치와 높은 만족도를 자랑하는 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["이마고 몰 인근의 편리한 위치", "높은 사용자 평점"],
+        tips: ["이마고 몰 근처 숙소를 찾는 여행객에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "84, Riverson Soho, Kota Kinabalu, 1, Jln Riverson 1, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "84, Riverson Soho, Kota Kinabalu, 1, Jln Riverson 1, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.mymisto.co/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9092688926122471689", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4+%EB%AF%B8%EC%8A%A4%ED%86%A0+%ED%99%88%EC%8A%A4%ED%85%8C%EC%9D%B4+%40+%EB%A6%AC%EB%B2%84%EC%8A%A8+%EC%86%8C%ED%98%B8+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "퀸즈랜드 스위트": {
+        photos: [],
+        placeId: "ChIJh62fzxdpOzIRqQe92jNSF4w",
+        placePhotos: [
+            { photoReference: "AWCwydgLtbOCNCtd02zupliG46p2GccmqDsQukGeNAyb1sN9OeE5LY_xEyuAosdoERzNmDWMQU0BwkzNKhkpG4d1o4HqnX3atZT_5Vs9UKX3Qn9KlsyOZsGgOOcaH8m3CrUyCwVdaP-afpVbYL2C8buRHwH90af5U-hy9GWGY8hwxZpF29-SX1yjqmobh_9wmMgtojYbJwUIv-KG5zGNek7E0AoparbP-HbbRgnXWegJAdYnlHcDhotqsxj8Ds3CTuslhCnU5hT-hSmc3t88C2PhQRbXm9TEHTTx6pnIKde99tWbTuA4tXjn8hYwtQiJkw7U8CrqjTlGVVkkiJRmJeRIaXfr9CR7HSCmJvNtgTZG7Pu65A17-dNVABQYXn_m0ayBH291cfnwz9fNmAnQmVOHtFiIJkp6XcqKeyJuoyFCxNI", width: 2048, height: 1656, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100135732500274037613\">Queensland Suites</a>"] },
+            { photoReference: "AWCwydj30l0e2Z3p61f04Co--wgBWXTiJiKGrdy1SFQX0q1nyRN1f4mzVQab1mimOF_YFiskLs_2AT3CvLwBpQlzftrNkRqD0Wr82cHOG1lG5FbIkLIY0X-7_DFM92nJ-ym0wFV902BaRSqbmuwsJV09f3Y_wY-UXvDNLy_C8VSpEnumTITfPOAvjU1-Z7q_AfGqorNkkZRudaCreLVi0rL5rfEYvtUqyai1qyAzpZgveX58iOJtMs7L-PXHopWzAE0H-qoCo--havPCtC9RlCWNbuJA1Z5Evjmysz_LG2oEQJkSVd50yHyr5wY9goKgcrlvFW7w2ExNnaWuzlV2eWu-_dAzDXKPhAOL5cgKgmwl1_n52eyrucuzv7MLp7r6jeXpYeunIq79UXE-p2D5s1-agq-fEYUWKCQbO3m3kH1WGJ8", width: 949, height: 1135, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100135732500274037613\">Queensland Suites</a>"] },
+            { photoReference: "AWCwydhxzUeLgoKZp0a6o3w2irBROmb6es1zRx4bQYfctWSXFyASUg0G3KVUPQI7Z0mENTZ_zl2CMDHD6YI89-yNwsRjWhIk1uvFMoyuENR7XGFqX4eOTDYKXAS96ujI1mYgGOmHt-b067Lfg80W4o8zqcbtxcR69kybHHZDKxbRBwRO5Trm61nu57KZ3TwctOXxeJuUTSUvmc-3GY0woSK1qnw61vs0LFZ2x883ChSEVtV1i9xvoF4reP_RzDfQIuHKbJDlUy-mH9vZZba9gC339sebVGmMZbyJXyD9wQVfCSM-Fx_m1VnuQvjYvxBPg670Bsu2dBBLNMsYYORNOmfPFl-fucXoGZsBvamiCMiGL62ckDh3inYmBQivfAe2kiI_Oxxm-przTINAeaBJB_rPN1sfvqTrisSnFjVKlYkdGpeECwkEPAikwskRVpfUtPMC", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103870679402056481273\">鄭宏國</a>"] },
+            { photoReference: "AWCwydj5rOUiS9PObbUsQw8CRe-gF1T1DynySi8nOib5uMG4JuR3Ka3HXT9uAR9_Lce3WGitsF9LvINEl8dphwWCinatppXOQ9palAPctrWvI1UXl7K1Yo6tt4AXIRRWARuzQ3qYJwQko56bSi8tTrVJuVgHG5HkQFXT6mHcJ9aBE9efbFUjcM9L9Mus8jCbsLG3IxpfasZ0KcRg_A6_NawEHO-JhYPk0MEN1tpj2E_cDyL5DEgBUNqC3mwS9UnA9jZlyZbvM3s8-EkZbE2JuT9eCu2AtgvlEdfzr6uPMO5DpNWT_I5_-K-BDHXj1d3aFpx-uItIiDimfta3SV-9UdkKl7KSNhfWUbVVGpEBISkzy90fHB2Ev-8ex2n11hnUMY7bSaKAFcseGG2DN1dsV4DWoX5eyzMN5_qGPwC6D9JKfwf_iw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100135732500274037613\">Queensland Suites</a>"] },
+            { photoReference: "AWCwydhLEXzIn7yobEnF985EShTIZVcS9SKYwemX02N-jyOixFvspQqcAaE4vPi9DQpXLVssXf85G3358ABnNASgaEyKyHTZJ29zFr8EuVmqzIIrZ-J8n5I13NjKNMUhSlc24ckOL5saM_QzPWDpn8RTqguFKeXqgCBFMhN6LGKubatISxQDqgGMWRcHbUul0Qj-dQ62j2JvXavZ_vHZas26VlUdGu_wT7xDXozBumwSf6sTmbhtZjwUUW-ce7Fq_94j4ir6ZwdPHQCTevpUIXImcEBxcVz238G2cVBPviItgq7iqXVqodROjtnsQ8DP0Fr4HP4Jw2iyhukrB_xcwGXroPeNfVrT07iDjseW_p1_iT_QX7bmmS7hjML9iE1UqyS1yK1X8M5pWZcUtRx3RbYz1wSFbdFvpkXrJkgqNROpyXnTLA", width: 2560, height: 1706, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100135732500274037613\">Queensland Suites</a>"] }
+        ],
+        summary: "편의시설이 완비된 쾌적한 숙소에서 멋진 석양을 즐겨보세요.",
+        updatedAt: "2026-08-14",
+        highlights: ["넷플릭스 및 세탁기 구비", "옥상 수영장에서 석양 감상", "공항 인근 및 다양한 맛집 인접"],
+        tips: ["셀프 체크인/체크아웃 가능", "그랩(Grab) 이용 시 공항에서 이동 편리"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Aru Suites, Off, Jalan Tanjung Aru, Tanjung Aru, 88100 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "Aru Suites, Off, Jalan Tanjung Aru, Tanjung Aru, 88100 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/QueenslandSuites", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10094627472440887209", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%80%B8%EC%A6%88%EB%9E%9C%EB%93%9C+%EC%8A%A4%EC%9C%84%ED%8A%B8+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "A 레지던스": {
+        photos: [],
+        placeId: "ChIJb27L181pOzIR-XDgT76LEow",
+        placePhotos: [
+            { photoReference: "AWCwydhSq0l2ssCE_y2vx1aMnZkUX-MHfFpLkRgiIw5ltshVdGZ_6BkszRpzKJ9Es4orr5eA9vO8msquY3UEMCHPNYCT3YVOHkRNBPxj9b0wCtPfPXU4yXKf6yPw_KkunnQhMWc3MiMoPY8djWdExrxSzJqvsyvrLIrpGfBvel9FL5ZAYCczmLyvrV4-Vzk7znWXN4wlsCOajAG38qKWtmMKaxGcb7dDNoPK1MmDypd5l5QsR1juEO-3qKAlfL42XkOPvL8CuD7xrnvuXfNoJWS99DF_ateMFk_9yXJ9y-o4xRg248TtL28mDa8KYhcxGZeNK2j9q0_Q6vmNzL2G2Wd0K7Ka1D_3gJJz9wJPnlfaQY4BqX6qmvoXyG89lU_W_KWO7xeg0O7l9jDX62ox35veV8V-mq2zBKNH4TMk1CjFh9UNeA", width: 4800, height: 3204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117384773300621047526\">A Residence @ Between Hilton and Cititel Hotel</a>"] },
+            { photoReference: "AWCwydj5OYkOtn1my8sRonZxecyR1vCYRgdeqse6tbET0MULuQ_gu1mMod5Aybj5VePXxb2LXZxFXL8XyHcGwh6I_9-KLQjTcYN3663uVHsDljP0_ywD8EPxEZ7WXaFcPBFM9VhBhcIo6jvzb_4ApI4s-QwzheKDepJm8hpdTeE-3dwEFLFNhPz6pgwcOehTEQAqnj4NQYrKiV_zNPTXu2Q1Sa8da1sPUPwe55i3DYD14Cz8LFQL2tt_SpDHO3MdNAZjhdSdJceXpXya9qCgXQIZOo_N9pnm6tb-IM0qnVHtUklz6zWEBcqR_OCl6qlaG0-01Yz8BqaHulOdz86MgZGgw47Kaxsq5hUsWmn74zmL1rmOYOgTqNwFy4kG4ncqiizPIXBiMnaJsaazCtyAcyRduMfloz5ZlEI41P2Yd2WK-fELvQ", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117384773300621047526\">A Residence @ Between Hilton and Cititel Hotel</a>"] },
+            { photoReference: "AWCwydjV69Ig02iuRMHdCH9zPEzT-gtjWtQQVg8Tz2ZVcbPCKSQO33dz0VLby0gc1P2h6HpTFwA8peZ98uIxxlSF8R_pWtdQxYmk9NF8UXgDP4kQrOGEpjsnB0_ULxWmR3Ogc1xDa3IJ2Rt6gXD6TLVLeBiZm-rET1cp6JlYJi1ps_j04O5TTXf9O3CMbthscnd0pRBlv0XCGLSBn22VJJdIyAKg3bhvVnP2gs5dYx8ggbLtrwD-7P3pfvzBaK69wryGtUQUXeXCSoOIMI47s4CBb__lAP0KKtAuMuL_CfPQNXrFhT5N33XtQS-DDVFXz4xXo7R2YTGQasV0U8mrYl7Lskq2tVx3yJt-YymUAV4MWVniHY5dHSryguUwEkdcEcYgklN2t37mShhzLPZaVr7I6LHhXAcKQf7r97buYaGG0DIL1w", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117384773300621047526\">A Residence @ Between Hilton and Cititel Hotel</a>"] },
+            { photoReference: "AWCwydhDJaFLS9ByZE-kHc3hX9PK1JodjUHsTErWJHJBSf9ZzdxWnco-Wu16InRBZhu_6PfZx4GR2ECzH6E2p5rniVHtMGtsztsJqISMk3KB5ZmmUl3ukA7EzTW1OinhPLBIxIx9nVQWLldtGIWcI6amPOi6_3rnELeF-KedRj6NHu2T84vJrHlLMMh4ftETzRffyJjpLZ02A7_RwhRdmZKcFBq9lyPxdxs-B_nAOKeiVeULYPajwVr0VJP0MUC7OaAJAUWTuWOVWAEvjDuvNIuXoRj7_2WB9PNh-aUGtRPT0T7GWcLpi5jXh1ILmKNXP75hACEsWjAMQp7Wd8CXTaL1X1_yvWEh3Xz5zzz4Hf7M7YqZ3lRHbxB2F0Tmn7zUa6mzFoFrjd4lJ2jkhV3VntgfV7x0JM79z_b6gH9PnugGSV03VU6j", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117384773300621047526\">A Residence @ Between Hilton and Cititel Hotel</a>"] },
+            { photoReference: "AWCwydjpHU453xUL8AO56OuvSdTj29Kgg48P37JFMnegLoy45zWyt_ge2-b9LPiAotJ2HrcQp6tZdXcuqAPad52QedWsVei1vCIHucvNv2zzi3BvA520TUejDovxCgYQLZUJypcKyT0mV3J9HWVgBA8vSlI1CEGmu3-Q1emGweqoApFM3hmBD6bGj3ZL0AwD5YD0hc1VZYSrmwW7Z3yi_PiRU1NGKIOlWJqgq1-EH0_dMbkO2geNiYdeu9jjW_C9MJSERFD_M_VqC5nv8v7Er_k0LZo2dKMkk7_N3jP_Lq4qJsz0TKf-wPZkBsFEQGclsfbCQ8tWkNMgnmZR-hBLi2X22StGim7UJvIlRvC9JRMBQCylsC6kL4pYBBkERmz7hZ7sKD0pUbou8GmDNlUvQwXqI2QBLwK5Yy6UOhGw6vRn2U8L_w", width: 4800, height: 3193, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117384773300621047526\">A Residence @ Between Hilton and Cititel Hotel</a>"] }
+        ],
+        summary: "높은 평점과 친절한 서비스가 돋보이는 고급스러운 인테리어의 숙소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["호텔급 욕실 시설 및 어메니티", "고급스럽고 아름다운 인테리어", "신속하고 친절한 고객 응대"],
+        tips: ["체크아웃 후 짐 보관 서비스 이용 가능", "혼자 여행하거나 커플 여행객에게 추천"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "Lot No. 28, 2nd Floor, Beside SIB City Church, Entrance from Restoran Happy Muslim 2, Asia City, Block D, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "Lot No. 28, 2nd Floor, Beside SIB City Church, Entrance from Restoran Happy Muslim 2, Asia City, Block D, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/acjresidence", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10093283364390859001", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=A+%EB%A0%88%EC%A7%80%EB%8D%98%EC%8A%A4+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호미 씨프런트 호스텔": {
+        photos: [],
+        placeId: "ChIJqVKT0ZNpOzIRyZ4GSnYNPKI",
+        placePhotos: [
+            { photoReference: "AWCwydi5VntImUdYTWr0zaZyLlTZol3wgD_P4LE5F_-WJRmECFhBMd8QjOE8jl5xQ1Q4Y7Ql8CHiFZMV-Xm5Uvm7r6rN4Yij1PgYDqoAimwvOqnajtxIwiu1tuKv901DqcsgtJyB7ruDCsGqZqsT6li4xbZDYT7Fp3nuhtZuqopRCtWphXtCAcSOTMYidG-kLeRASfIKGvzsGrgvCwMtBIAyVwrrAR7rWQp9rQ5kPRggXk8HteT4vemvhxXRSLyVfzzXJu8UqhIvYScYThMXlY6XuUGjZXtMBrYU6IZybUvN8S6px0T9Dazc7dqnxu8ztfP_q-HIBiBQZ8aa1wsV14RCEO9HHrWdbynL9_AzY7cFQEr0P4Z2Q5Vb9JZRZ5IOGo-rExsxO0KR30RNOV3hQPdg7RgUqneJJMY-CUWQ20yXRsNbmQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101875133554780463731\">상실이집사리나</a>"] },
+            { photoReference: "AWCwydjo7XLl3PJjVnKg8zVsFv9g466QmNb2NKM20ml28gasPYlhJqb16PVlVVzOgEOJKGSn5XdzjsG7SpIr9s50rPkSP1haUZ3Zj1r-E6QDmRMFUgJWBH6WloyP622G4LedQLF3FWBThdX71Re7JdLTsSVx-Wl5StLKEXhEFEcab8f1XOPW2V5qMaqf_aIS1jmI0Ac_GtXUPEC_GdokxeprOYfC-ayb0OwiP2Wsgo3zivwKfYEd9mOM0S_j9xsLglVrvJHNil8pp0UYQNAunoZSmfDhs0eXNOKxE1m53pdCtnr48SdSgg-GRJqOxKhHjkYuXMB91Ckwqb0PnMXa-b6PonwmmoABcyNpBhjiEMI386kgQNWxLiHXmXMPlIjT3vhG4O3Knl6z8I5HMCoOUKfcjEkSr49HrLlti6ym72MzVSiMw-Xb", width: 4000, height: 2250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102511528284037881052\">이성진</a>"] },
+            { photoReference: "AWCwydgGYEz2mr9_jKi0arBz3LJ6oQk93gdO9eLeYrZJ_43ja3Ts__FrZ8GN1DHlLvxOB77lWlTipW9Mqk2rVA4cBoISq_JLBtEwe2CKxHSE6PekG6tAFKi_huRvd5NnrUsGoRuM_ec0YTl6kFCJjdARMWnu0FTBtdGAkIqz2gkYQMfkzYv2dqBa4sLPjSnfTDKFFuaOvYC7uwAGn6iUHZt8vBiJrZF0i52yCN7ZMtcKpwSfjbq4kObCSF8tz_OaK6uo73iiT3AH10xHbJu_ll2jI78C5wIRUofinAHrszPQM8XUv3XRyd1gU6CpEduvcQa3S5yIxDvwH9N0RQveOk7ome9f1xybJaSFn8uGCnpwJzuGrE6CDLK-wJjVIE8EG-RA6ApuQ8mUuc6ytywevuVbPOrrEG_p4L-cq62Ay9qZEIXxrA", width: 1884, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106576997484950527021\">Rachel</a>"] },
+            { photoReference: "AWCwydirIdw1WMtHgXj4mfozTAUwNGQIG3NPsplRP_81VKPNvaHfSKLtri1SC0-f6HloV30qc_Y9ZBzT758c7o8HdCvmGIsrfr23V1JbAfdbmX2XfXjofG91ZkHvnnax1l-tDtFjeXrU5J86ZZ7orS1Bmg9xCvkxlzwcgYaIWGUEcpalUMFaBX2q7JXTa3l4cx_BcEuBC_QlxLbe537XusPWMimrAql2Kdc6I_s91u-NLygSrIsb3BR3K52UmeUR73J1yKdbGiTzXhJe0Iwfmo97QJgB6kzHhXBEMjCMTMUUWV6N9kSBg5j0ZsUMe0GZIbmj2NFBAj-sQc2-GT0FkA10AIQf4gdI9GXF1Ey7u6I1SOjERYhu9wSLlnCZSp8YkxO_uC3yBK_IdQOKipkMlHKyJkO0pIoGaRTNqLs167m548Dk_D1O", width: 1080, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101615105492242298385\">Homy Seafront Hostel</a>"] },
+            { photoReference: "AWCwydjQL7NDA8CZC-4XFFxFumUYb4CRrwYtJNw_UJGfJw-moQQyfSxbJJHqzBNG6od1LLltnVKjGTZEMcP5dC0QFFawMuVPQO9NneZJIJlivMnnj6bV1jscQdlolC-exbmE6TJv2_DG-KFqllYv7DXNKb_GdNXnNaJPYou8ox3EEkar20d0OolrY0WB-Z1_xUb5d96yEx4p76DV8RO6-aqOzIeWVFTSwBFg2M9oG2E1okTfokdJEEArsWGMSBMyiAJVoFlVINDnJ-4wBaLJWBZri0BECfaj84Z07ufyUAh2lZhMzqXCHMPpfyzJVDgOaDP925UzBTXMzwkXOXcafJ_5hjpe9IoFT2yEaTnwhHCBYd3UyKLf507RUitHrKIeobsyoYSFJ_aO3EYER_Jnm1D8-a49G3f9WUqHJT24tisrhjkGYNA", width: 3455, height: 3337, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101615105492242298385\">Homy Seafront Hostel</a>"] }
+        ],
+        summary: "편리한 위치와 청결함을 갖춘 인기 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["청결한 객실 상태", "강한 수압의 샤워 시설", "주변 먹거리 및 기념품점 인접"],
+        tips: ["방음이 다소 취약할 수 있으니 참고하세요", "강변 산책로에서 멋진 풍경을 감상할 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "A-G-18 Jalan Tun Fuad Stephens, A-04-11, 4TH FLOOR, BLOCK A, Warisan Square, Jalan Tun Fuad Stephen, 88000 Kota Kinabalu, 말레이시아" }],
+        location: { landmark: "A-G-18 Jalan Tun Fuad Stephens, A-04-11, 4TH FLOOR, BLOCK A, Warisan Square, Jalan Tun Fuad Stephen, 88000 Kota Kinabalu, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=11690233534446214857", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8%EB%AF%B8+%EC%94%A8%ED%94%84%EB%9F%B0%ED%8A%B8+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "시그넬 호스텔, 신수란": {
+        photos: [],
+        placeId: "ChIJ6WnhElhpOzIRD9AKwPUQQ9Y",
+        placePhotos: [
+            { photoReference: "AWCwydhY8iwRRJdYSzqMO3ZVNJUcMGQ9rHhXl91i43jsTAfwnQx7hrk7SPkcFMxrqkf1sSKqDLDkVjDkrnttwp6PeYI1qAm6VskAkUaQlM8W93QdsX4S_4KOPMN4XRG13XMwfcmb3jNRt69zjTLbYsMcZ5MHjJ7vKcBSjMhhJpn9_wgPH_XzUtJErTWPaTxMwut5AbfKXJwAE1UKfKUm0_7KjcDd1tYyR7zlPCMA_vj3ghdU4xhZ6ss3AOLbRzq054-scyrnYjPncjQrnCGlbFtS7eNzSunn3hIoo9KaOeuGkR9cMRV6jT1xXzKfgI5RLbOgmUHyPbEjVV6pPZcQVdc1BxPv5dfsXh4Wtxjj_7AhMjJC_nrF_dJ2cZly_Y59f-SFE1ROA2werqmiBFTcziHpxlRL4-1bRFYwE2kZC_WeBZRL5xlP", width: 1242, height: 922, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104956793106984726332\">danny tan</a>"] },
+            { photoReference: "AWCwydhuCLCzk_PBRQgq_cvEidsXuzFGqlzPYEt39RSiNVjvZBuaQl3fs1pVzYnY_P4GVCmqCASXLfSUSxl-prYKatu5nJtphFIwDRbr76DJCMdELMX6eSyd--vVH6T4ZNyLxbm6i9zs62VAQhpt0aNRLtUj0ofQ7_DDX1KF-6BNTRdJcMo9jnLCxCDgOid6tQ752Ru2deMHH2QTiagBW0dLCQ6g1pScmnNDrY0posm-Vo5dRU6ypPyr2DHvEVUJKS6ZanpMa5JT-HPH4f7yjbotYLZ_bMf2kK4kjsc2U6HFZoyJGW8WiTvs78hbSZaa_b2YDHwkUQ0UvNGq_q1sSg02-vDJDbXgJEB5rCcz09GrBNQn-So1mS6SpcbNEeDLOYj51wQx7ynfGP13bsJkeOIIit149dkrsozaUxJkPy9R5POgcA", width: 4608, height: 3456, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111750774983787545784\">Ch Chuah</a>"] },
+            { photoReference: "AWCwydj6BVN6RYXetfJZSG8PUs8h4Ap7CLSaECMCbU1kqkGULAzqb1fiNakJ7-g9kJg1LbgJijXqojdC9cQavGihFXwhfcTYj4Rb-F8S-Km_QgLUusTotD_v7yQFKXaa1Q0jmP6epquJv82DJPIDxIjO7s07YThK84y-lWvjNnzzWiU_lllnfhBXsZ0cr2u-c2l6XeYkaVAh3yHK49QM57Q76fKKW39Uk3ZzRAGhOSlC8iyPNkCHG-nATR1eCkwny2thSwbZyyosWJoKAQPJnrnvfG72RNhO_5WeGnHM5IPPc60i7bgqJv44uUrcWba0wvK9y5AfrU_uoFDZL8Mf7osYPvVR1q-WTqeuXjVKSshb8xNw3ouZc2aH0R9r3-OT-uUklBArCPt0fMwFKZvmeB9zTpda-me19mTzs7uOZjGzjvCSaU4w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103531992774813926530\">Signel Hostel</a>"] },
+            { photoReference: "AWCwydggcbf4dxCB-8W2L8ThdOzB5QOmAXYiRU2sE_fGEOklV_VELsj78cpULpjDbk4yiaKHPIxppBmYUzdFeE9JhquTviWqS3jMlCe5ewK8gV7YXa95pDPqGwHkOpDqPrMjDYTEoBUWiEh2CBDEOMORLISvuaG-WJmokXtAaZgRfPa1TKAYZvtPNmcmr-HgjST6RoW6XlwdCCqQCVsFkucVPCVW1z244JoKGzrwFk6xtoGliF3dBS7nSh7zuCEUDPNJX5FDqeTmpO7DVlqczGT6wjXl26n1GM5GCHPLVNUeuoeDEF0wmj_HmcQ-ZpDxOaPEnI5Mw4GUqTq4micwJ-xnLQ0MmLo3Cgo6adTC2DPnuZa_v3pNMrmdFIJSerPShjwvXZ9n294WzpX1dQSEwwWSEt36UEfGkS3KcVuM1dlWfAuVwg", width: 1196, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103531992774813926530\">Signel Hostel</a>"] },
+            { photoReference: "AWCwydjgFdel6-7okmFXMkEfxE6iwYVdRDkkHWTXGWlbFmZAlwXu2z9Tazs7pv-Pjloj-or4HnyGjXy-Vq_falFesjfNNoFTzZIx4xKoZ8qnjzx-1Zy4ePNxlfkLujNenovLtnRbuGiAPll4OE8DYF3eSDk5IvSRha7vi8rmr10fU7yOULSLhcDCAf4r07OFTX0oToLrGAG_e9A_o1xOCwc4-wmIymYB77UxD2_oAOkGWcrSdd5rSrxCrfQK4BeVzTEO7PqhbFAOfkAv1xv0CrDmkAo1A52y3nsu5WtdWbLtvVowC49k5Ze7ssHh5ZWsoAhJ3ZTK7rxNW4KGLRHKcrphnx_E2YWsBp20k0FMb9cbJQHuP8Q2-qocuqva2s-f0cXqOdSHy9qKHZxwlyADgWEvocvwJMqyK-M20tbHPbzcH7ZwFOFE", width: 1196, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103531992774813926530\">Signel Hostel</a>"] }
+        ],
+        summary: "저렴한 가격과 청결함, 세심한 편의시설을 갖춘 가성비 최고의 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["침대별 개인 독서등과 콘센트 구비", "24시간 무료 물과 커피 제공", "매우 친절한 직원 서비스"],
+        tips: ["엘리베이터가 없으므로 무거운 짐은 주의하세요", "샤워실은 남녀 공용으로 운영됩니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "No. 20-1, Lot 1, 1st Floor, Block G, Lorong Sinsuran 3, Sinsuran Complex, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "No. 20-1, Lot 1, 1st Floor, Block G, Lorong Sinsuran 3, Sinsuran Complex, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15439202595231158287", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%9C%EA%B7%B8%EB%84%AC+%ED%98%B8%EC%8A%A4%ED%85%94%2C+%EC%8B%A0%EC%88%98%EB%9E%80+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "팔로 호스텔": {
+        photos: [],
+        placeId: "ChIJB827ncBpOzIRrVoX5_W_GNs",
+        placePhotos: [
+            { photoReference: "AWCwydiVRHNs8oBP6gdDv2bnQvArKJF4IHa15yV8wqvTNheNH-6NzRvU6jP1rVYAvqe81I0CdjRIUv14aNQpp39OjoZRp2rxMz-3CZ9BNK--5VCxe9vcktqHpUsyewL-7tjdtMvga5_MxBvAK9abkyTdaHPvg6IvUGufmh6fHpucZUxHTJjEZ4bw2LFev5vnFaKSfWzMGRUaEGolOB4M6hRdpmLqqUhXom35WencvLc1SmP41oSe9U73OoGS6uP1MhRjLryCpvqtmQFH9JYx2JqxJqDyb65GV9vb5m5QJD3KPUmnsSik4a7RZW2kjCKGfAOjLWq2guEw1_4s_dccQ2Oz8opjNKob0X_sp8MSwZgGVBGRm2FCCjzW1KusXq3JJxFRLwLzSrwZcgjG21XcUiAyxO-KNWWGaEWHHh_TffZF36Hxzy3Fb1aYgccULIQgMrwK", width: 999, height: 685, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112877498564094947899\">Faloe Hostel</a>"] },
+            { photoReference: "AWCwydiUYHfFrrVkwUSBMMBMzO8Tefohb5RXRR0fyEDcXga_CV34vGQ0DzsX2R6ulxaHcFWeSFnv2g52MLPOk7nvUgFWM1DN1fMeLENhogNDBD2-lKDS9Q6gNX8wALfx5Jm3DXCsPFjyFJAgrPc9Zm-u_ABATJOUflGKpu2kWT8nIJ1wP9otnM5fCdZAj7Ts1MOUvwclWv8YgLeSOUyPIauFoqYtJLnVTBNLXYz4qgI1KNOyI3V91eWod7HAY9qssYQQMmER8jQtJrtZhGgmtAwL5tz4METG33B0l-NqVAg0Zesoq15sdtQDvK5r7OqS99oLvHTaM_LKTXms1U-Od1rpxsGJkdGVAoH35Lkqx4_76SeUYVhvHQk_R-jU2AVFveW5Xn_fJRPB54dGwTnZLCNLsrop4ZMDlMrkPXviugKd83LxiUY", width: 3280, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108842848321308838504\">極簡旅行</a>"] },
+            { photoReference: "AWCwydhWqcuxiL1h-dAAoreC2IXfE-RRCA8qXGFT1k_IWEgicmM-ycfZACFwzKdcSkKZoNaX1v1aRWlnJoClAI-tMaHFfXvztFgQWqajkdmfMX4yPZ8jnO5ta_KYpqq9yWVVvxl0ml_II0lsO-eD-Fudu3uTpxFWnqPZksUUE1PF2dI1DSnCtZRTIn3TTN7tWp4oaw1fqXSs0q6fI718oWrFW4qXaz_5R96lx6xtyKhX8O1IddFS586TLoT0Jvyy7_1GMkYiDLEGlqFy7Wx9oR-7loLtRu741BLAqRHIENOAICs0lEL8RsI1XPAeaoFZvKGbyVJhW6HMnpr5xwGy1qfHbcZ-L4xe-5vI__0KuYyOE9yKihi4eOxrvL0xfs3aKLlpB4Xgau7Ds7hCx4kuAmuwfD9IqzaRtS9VrtMn8eBhF3Ltks4S", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112877498564094947899\">Faloe Hostel</a>"] },
+            { photoReference: "AWCwydhqfSoM9zMrIchMEbwI0VnLtr3eRYxxK_g66xnH5K4djctzxANGUb5vwWtiEV6QwnB8dATHKVVPHtolP4IF_cmnqhXwYO2l5p05eEpCskW4EEobwcGXXZ7R4zhfs8pcGtafwr-760Tquxcq3bkWN71Jenlel3giCD6yv0iVAWa0B8Q1NROnVT7O92QeP5HVsEp52FIKvobSCRF5WqSCa3omeegWFCp7vGmaHGOllaTyNMouehuefTg3VHFSDPumB9hxZ4iRA8lE8GR7EfQIMZjv5WTqDMoug9oshbMGQV714xOj2uJPO8UfSbuun-jqdlx1HwfniWOGap1vd2K_sCGkE0Z3jPGB1eBCNGKZepCURceLgrSZUBnFU71Q_opx_qHmQY0vJu84RlmqjKtmhTMbYbZRSkf2boBn4Ws5QL9hD4MH", width: 2667, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112877498564094947899\">Faloe Hostel</a>"] },
+            { photoReference: "AWCwydjwa5Z79s5lD6EVVlsYdW7CIEr8_B6HTsppqmH1fIZrzGDeVBlSTUHL2IDYAhlRHHjgG3oaCylk0hdpEflPeRXoSyKOgnXoiPWHmAcoLk2TpHj2P66xEASjlVJvkdDnlPferwUF-nL26MLq6EQQMXfaTwVgXqmGUSSc5G48qNXs1uCDbMmp5F9ZdPwIKx5_ye-B0vHehdJazxLAKdVTQsvhkfmEqWfaAUwYR_XhHXpNlA3yWQa5G0wqPoEFHPMUf6SsOEnHyXn4KXGVijmnReI0V8W6-0_8ySxgZwlPWHFjQCDRdXkDTNxviqtuL-tII1olLjF87pC59LMiAu8-rOi3pU4xYqYzxZBli-4keELkuKytSDurucD6zEoNvc9hXs6Pz_r7pzHRpZA3w4OP6-XTlxme0Ij-d5O9XvAD14fZyA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112877498564094947899\">Faloe Hostel</a>"] }
+        ],
+        summary: "친절한 직원과 쾌적한 시설을 갖춘 고평점 호스텔",
+        updatedAt: "2026-08-14",
+        highlights: ["매우 친절하고 도움을 주는 직원", "청결한 객실과 시설", "다양한 액티비티 예약 지원"],
+        tips: ["도착 전 구글 드라이브를 통해 지역 추천 정보를 확인하세요", "세탁기와 건조기 시설을 이용할 수 있습니다"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "I-50-3, Block i, No 50, 3rd Floor, KK Times Square, Off Coastal Highway, 88100 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "I-50-3, Block i, No 50, 3rd Floor, KK Times Square, Off Coastal Highway, 88100 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "https://hotels.cloudbeds.com/reservation/sFubIm", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15787579556612233901", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%94%EB%A1%9C+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "콘크리트 정글 캐빈": {
+        photos: [],
+        placeId: "ChIJ1yyYWgBpOzIR38qlnKFBxOQ",
+        placePhotos: [
+            { photoReference: "AWCwydhKoIYG_r25Lbjr4f575T7K3plOGY8kLfEy_a3VJZy3p5EHYHZhLVWkUhT5fyFjwXm_oYradTlDqiq63E-U_CbO_Um_WO_9qvKVdEt5RSBQr-Fj8AVQ0hoNzANJeXOgXoU5XBXrBX3f85up2wdaytgF50MjqAUB5E400DMzaWK6SFjWHLMPSAplHc9SLatLjKMeJj0hkFI-ccwz3h0JEoxdJbEl_CSQYxXNsBK3VNQWSm6vB-t7zjdWBkZTWDnVLnOM_2RxP7Pres6qxf-Y6OnEmoPCDq33-D3c-57-wK35y8LRvNTixrAFP6QR1iZOgVHU_6pZRt6RrnrvLzGf4HSNE-153U8pLrKX223yp33fPdzp1gtW-LhT-IfpvQPLVohrCfpAoXbueyi9Z7kvAVUafQN5xwhTf915BvXEjmc", width: 2448, height: 3264, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102192249819656624262\">Life is a Journey</a>"] },
+            { photoReference: "AWCwydgint-VvIZHiZYj9aPyKnDYtLdvnrNLHZIsYcZ5QgV3KtYLHTawVNiP3PpPFILCgZUgOUTCFwF2M7XWhaahF_cJEb9jDCzuiQVImOt3jpXP_C7QjMTNAJa7TAT5_rGxtYZEsrVsh1u_OQoUYnlfbPM32sYYzteGms9QFAAUUhn3U6NveXRzwOGz-j9kfcC8dNolLs35Kr2Lvd6_EOO2PDY24B6aaKJfFQdE7QTOYPDFIHmtSkMuQpRpiAXrZ5CxQnB7JKzAt-k3oXcmXLEFE30jiDygvjrUr4jjHhaY2lKo7ljv4-HwKvWO_zkfkXSW8Klj4f0L8CaDbIKLu3Ubv1fzwaMrUptN1Y6h7pJsGK_jv_x5eRyecbQDzJKNoA3MxcQRsKSzctFHNCSkdvSaAwmhh2X4CU6jE2iQ0NZ9s0c", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102207242076953530865\">MOHD NAZHAR BIN SAWAL</a>"] },
+            { photoReference: "AWCwydhD3tMjJxP6RX4jJxYwYEx7wTe3hygqvK5cbfhmoXDzTjlNWKLLrueqasc0wJLqsGpYKUMwRQXGEKsYm26zCDOyBxg61_wlIqjWlXg7_KZELuPalaSMrjfzUEKTflSTMxpuTIsPiVPc8KWDabd90YRhGIn-gPRN_LjS9fFASgnH1qvWYD-xlNIIiBXuJec5Hev9rOOGCuwS_u8tCHYdfdyLKJ-jumSzPGobe55XUc-Wbfzv3FbPeNihRC7EsE05fM8Zj-uqggMUUzs0OsAqudJNCWRHn3Ypz8VL3XPuioDlrGH3-2B8kSiDwD6kM3Mtj1JgVwbg7MIq0ezjq4RWbaHCdjzB0ivzKEeDLO16eu2y698JDYfJTfb3hZOaCahqF3hFZQIn6IzRHv-IJBVcLeGVLpaHGN906qjO_cLE7iBk9g", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113168426782237835132\">harby nanad</a>"] },
+            { photoReference: "AWCwydgXreSXDABgWgRURYSzO2TbvokX8ozmkNPRDEvcmz14HshOJqc6OWasaq66MDb8qITEyVoaq4LnM-hNGAztol42qnhq1q9xsJ_-ofJCDrfjO_dJnQVnspCsHzlKrA44QYU2OWKpbq0iAtb95qQyVvmt48JIUqDdbry9plEQYZX48pmJUR5kSDsGGF4XaP-ywcOMCcfYBatSaJHXzIun9VuJs8G34JnKoaSwvXM5lZEcX4oT-1i9g8XQx7j0nrgskQmKVe1w90ejKfPho_-QRsXjR7Zu_1aFnJQ-f6RFnKdAnJdohAQnb1Xs43ACsWLHwA9X7l9vmtN40VUW9PnQBtu7o-dGVD06Y4ANiTurnkoys-4Kp1qVtCHax9r60chcevPMtCYkON6wW4AvATrmvNlV05qNgbSVl-JUaUCv0OgDaw", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112055281938865382217\">柯鴻彬</a>"] },
+            { photoReference: "AWCwydhLYDhAd8ODsuDR8SZ7Ra7n3k4dPKiK_7cZzG3HBUHBsKzCViSdUFLU5rSkxOOtPXeRBmgCut5B4aZ9iXfd4f-M-ypEVQZ1q_m1ofPP-tyUthgY6acJ0ZZILciPqzPP7lp8iQ12nzFb6AtEPyQ9StkJwENQva-P6uHN50QmUGkRe92q33O3ffm6lv-VpgGGtTbyzrsrZDMPJyBjC7QfJi_jkXr-fGZMJzEorNtHFqfpXGMhDJp-aw-IUDNW4z2wrY7NPZeAO4l_EBp5VZmbAkQms1Za0MYvHdJEBY60n1StalfCAC7xoZj_0Z6LPpMGUrti_cvzJ5DdeXwctb11ccbvDzPXLVTjmPgODPfCRhnIQZaJr_Oe4bIJXupHKFCLPQzqbxyT6R81tPlNMlywCsfnUhtlqhGRMt9vSyfgillxiw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106454742231020339213\">Kaubaini</a>"] }
+        ],
+        summary: "합리적인 가격에 조식까지 제공되는 친절한 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 직원 서비스", "청결한 객실 및 욕실", "조식 포함", "우수한 위치"],
+        tips: ["발코니 근처 객실은 흡연 냄새가 유입될 수 있으니 참고하세요."],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "74, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "74, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "공식 사이트", url: "http://www.concretejunglecabin.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16484372698456509151", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BD%98%ED%81%AC%EB%A6%AC%ED%8A%B8+%EC%A0%95%EA%B8%80+%EC%BA%90%EB%B9%88+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "지란 호스텔": {
+        photos: [],
+        placeId: "ChIJySviPs1pOzIRi6eAo5X8Pwc",
+        placePhotos: [
+            { photoReference: "AWCwydj_S65oGjHg16TPACdYfEXJj3darMLiLwcwi5DuT3m25XUvz8ckrGDdf6ietqfGcWxBTBO41SV91pSgeTcErjQyEuNfXXoLCKI2QXH8kFAsDPwwORgp8m30fu3KpGFm5zMEjxfaiAyj9HU9u38LOLzm6CI_MplEtwLK8KneVSGMsyDqSEi9s8bSGbLYMM5DO1CPCCDEXGoWEbFID14gNcdJEcUGxI9dQks_HROjpsiW2N330d-47SoPIkyDMbxMTqaGoAby1ieUd_MYWdaygyijBZT2OlUqcusQwg7E94TJzlDYcPZ8nisdTvUv-kb0ExbezJL3RDLSCEkHXhWevfvL-0Y5Ad06yI7G-3NQ2LeX2rdCdPF1EM-OoeFt0WgZfkFPpZFkd1_ZrIrUvWbklod9NNPSXVeiy_S05TsG4CKHDZY6", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113056243203195122807\">Jiran Hostel</a>"] },
+            { photoReference: "AWCwydgT8U13tLKXZX5b5M_wlFpwQoKpwLqxn4Mi_OL8hqanyUBIExLf9PahpPaOPYKJ4XBMwinAxo9Yytl65F6O7y5xcrNzVQ3wP-g6ycvHg5MNhVuZi8UGBIgSybss8cT-fKgP5C69aMAu6Ae4kAqMNCZU7f53E-UCUaxA5vuRXoxdoxNT6K40P4q9gem_je-94NDMb2aKISaoD4MP3aMhtDSkGaruFUM9QttHNeE1dmU-leyHW7aaY5SxJkHmfz13EizPMxHfbfKy0PZDwo82t-Rq5OOt4mPc5djZPNbH8P8ysASZFZ9HB7TTpgyLgltot_Q31m42XFeK-TkTR-YCj3IaB8iLaPunF6m8TtN3oAEEX6Z6hB4lx68t8xJ5JA7Ds1OEiKvMdHz2CkJNnRW33RuWwiI8ca939PyiRYtYfvYNsQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113056243203195122807\">Jiran Hostel</a>"] },
+            { photoReference: "AWCwydgF1M-XUAQL9Nlsi8vc7fJ6QkX9E_XG1Zk3aId4BEPCbfQjR1THxTiQRbYyEgPEv8BULw-pu8C6KfVAvIPWOvpjlB4IcYnU9oFsIhKsRzywfLy8ivezy0g-4fBMtDNmWPMsmBAYayaq1oox4pXddEvlsbv_N8ufM58T5rhznB_0mKljasaZNndc2J1DfkuGpcFMsXRnSx1XGiw9GmbDPmyZ5TDjviImp8VSRF0rWprrx5aOCXbNUSu2Os0IntDn2KH2A5PfOJfKZmHz58bT3rTELADlG-t8MtJp2KE0o__C1K8HQ8JDXfkaBf18GcLwIju6KPCLgQqOa1MK-zNaH4arLV5j-IOsrnSRqEPKfSTWRq6TzJPwv60wLKAVyyf5Y1FOP2bgusoUWtyOTCpnrD9zS8Zy256y5yXpYmpvak8n5MEu", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113056243203195122807\">Jiran Hostel</a>"] },
+            { photoReference: "AWCwydiL5NsbvqoeR1IkzYBYsqVI__IkMR1IqUzubul2C8T0yhIosn_Kp7hzsg12Puife-cEp1_KZLGEibk58yr0r9BvilqtRGquXYxANCGHtYeOqRvQzkxUeffuatQ1I28ZOFJbT_ido7Ni1VDVOuWm39YcJqbSGsNuYD7q_z5aWuBviJSBbXIE8jbwezGoP2EPlxfGIL08k358M1yi51Z7MzU3sfckO7UtdJ5IXF_G2WmzqbTNsZG8P0m43xT6AqQfxBleLjrfNA1Jq2ftMgyEeepMiVkmojNW-jIGYNlDHZ-tBJi0TFNTob2vpsXM_l-VYnmFg0cESxF0jxgpIcXCIva7Bd8bS_ljZZc9n33VbZjAgDyTkeyDz8TZXjj7a8Oi2m0g3WeYxsnUg1M-mW7kuRoiO93oA2dnkA7Zz7kK5atlTWs-GzOM35bJY5DFsRAW", width: 2751, height: 2208, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113056243203195122807\">Jiran Hostel</a>"] },
+            { photoReference: "AWCwydgvQskxNicym2S5e0G-bgx2cpndDVzjnuKvnguX4e5wafnGboQO9gD8FRUSetyd2rweVGjDV5Lk6dKsz4IzF-OGcS0yaQMXb3fzNNKWBc2z-5KQ-mn8G8I6hFva1PTcVx01oVSh4wdqe6bEn3z5GI2eT4JnX6As-RdMktf5N_Ke207cP5t3Mr2XKtiOTF1ccD1weeKTw8XF2k988fquYDru2g6LBgjyP4MM3VQNLMoqXTiYFB27g4NuigfuliiqR6hCqZiVYITsmtjksTSDoEY1nB3z1fXTJ-lKKysjI1ecxndMNWvYJv5pMppkzu1Yykh4YXPXScANyTJ6NZs6PmcySS-mj1i2gksGjDXnlNdrFxn53mO5fkAmzgub4R5SVegN7Lc0Kbun68lNtCfd5SCZY6bs10Pn-lTlUr9dc_40kdka", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113056243203195122807\">Jiran Hostel</a>"] }
+        ],
+        summary: "청결한 시설과 편리한 위치를 갖춘 혼자 여행하는 사람들에게 추천하는 호스텔입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["매우 깨끗한 화장실과 침구", "수리아 몰 인근의 편리한 위치", "아름다운 녹지 풍경을 볼 수 있는 공용 공간", "친절한 직원 서비스"],
+        tips: ["키나발루 산 등반 예약 문의 가능", "주요 식당과 쇼핑몰이 도보 거리에 있음"],
+        checkIn: { time: "15:00", note: "숙소 정책에 따라 변동 가능" },
+        checkOut: { time: "12:00", note: "레이트 체크아웃은 사전 문의" },
+        breakfast: { included: false, menu: "예약 상품별 포함 여부 확인" },
+        amenities: [{ icon: "🛏️", label: "객실·공용시설", note: "시설별 운영 여부 확인" }, { icon: "📍", label: "위치", note: "50, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아" }],
+        location: { landmark: "50, Jalan Gaya, Pusat Bandar Kota Kinabalu, 88000 Kota Kinabalu, Sabah, 말레이시아", airport: "공항 이동 시간은 교통 상황에 따라 변동" },
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=522413801421711243", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%A7%80%EB%9E%80+%ED%98%B8%EC%8A%A4%ED%85%94+%EC%BD%94%ED%83%80%ED%82%A4%EB%82%98%EB%B0%9C%EB%A3%A8+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

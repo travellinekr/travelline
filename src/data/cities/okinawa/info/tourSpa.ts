@@ -196,7 +196,7 @@ const info: Record<string, TourSpaInfo> = {
         bestTime: "날씨와 운영 상황 확인 후 방문 권장",
         links: [{ label: "공식/지도", url: "https://www.motobu-ka.com/tourist_info/tourist_info-post-687/", type: "official", description: "공식 또는 지도 링크" }, { label: "Google Maps", url: "https://maps.google.com/?cid=11784430391842216502", type: "guide", description: "지도에서 위치 보기" }]
     },
-    "Active Okinawa Tours": {
+    "액티브 오키나와 투어스": {
         photos: [],
         placeId: "ChIJE5uRJM6G3ioRYJbAfk4UDfM",
         placePhotos: [
@@ -222,7 +222,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Active+Okinawa+Tours+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Evertrail Tours": {
+    "에버트레일 투어스": {
         photos: [],
         placeId: "ChIJX0fVwQkP5TQRxNJfMfzV5mI",
         placePhotos: [
@@ -248,7 +248,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Evertrail+Tours+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "HABU ASOBI": {
+    "하부 아소비": {
         photos: [],
         placeId: "ChIJWVybA5wF5TQRgDatwm7WSgE",
         placePhotos: [
@@ -274,7 +274,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=HABU+ASOBI+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Okinawa Nature Office": {
+    "오키나와 네이처 오피스": {
         photos: [],
         placeId: "ChIJEZwGId4G5TQRlTGhI_OY1rg",
         placePhotos: [
@@ -300,7 +300,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Okinawa+Nature+Office+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "zzz…suu": {
+    "지지지…수": {
         photos: [],
         placeId: "ChIJy8Yb_pJp5TQRj5wV7sMOGAU",
         placePhotos: [
@@ -352,7 +352,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A5%98%ED%81%90%EC%98%A8%EC%B2%9C+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "CHURASPA inspired by SMART ARYURVEDA ❘ ロワジール スパタワー那覇": {
+    "츄라스파 나하": {
         photos: [],
         placeId: "ChIJRUzvaJZp5TQRuL9tzIK5dBY",
         placePhotos: [
@@ -404,7 +404,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%EC%B9%B4%EB%A6%AC%EC%9C%A0%EC%8B%9C+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%EC%97%91%EC%8B%9C%EC%A6%88+%EC%98%A8%EB%82%98+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "ザ・リッツ・カールトン スパ 沖縄": {
+    "더 리츠칼튼 스파 오키나와": {
         photos: [],
         placeId: "ChIJfQQgIvYB5TQRRoK78eZBNws",
         placePhotos: [
@@ -456,7 +456,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%EB%A6%AC%EC%97%94%ED%83%88+%ED%98%B8%ED%85%94+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%EB%A6%AC%EC%A1%B0%ED%8A%B8+%26+%EC%8A%A4%ED%8C%8C+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Massage Salon Life Okinawa": {
+    "마사지 살롱 라이프 오키나와": {
         photos: [],
         placeId: "ChIJva03qqET5TQRTAja8o7FFz8",
         placePhotos: [
@@ -586,7 +586,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%EC%96%B4%EB%A6%B0%EC%9D%B4%EB%82%98%EB%9D%BC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "teamLab Future Park Okinawa チームラボ 学ぶ！未来の遊園地 沖縄": {
+    "팀랩 퓨처 파크 오키나와": {
         photos: [],
         placeId: "ChIJ06l5vL1r5TQRCKjKf-MXr2o",
         placePhotos: [
@@ -664,7 +664,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%82%98%EA%B3%A0+%ED%8C%8C%EC%9D%B8%EC%95%A0%ED%94%8C+%ED%8C%8C%ED%81%AC+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Okinawa Marine Sports Sururu": {
+    "오키나와 마린 스포츠 스루루": {
         photos: [],
         placeId: "ChIJscxoxwr85DQRmCrtAfN4PMw",
         placePhotos: [
@@ -690,7 +690,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Okinawa+Marine+Sports+Sururu+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Aloha Divers": {
+    "알로하 다이버스": {
         photos: [],
         placeId: "ChIJq6q6PukT5TQRZ78_oDFR10c",
         placePhotos: [
@@ -742,7 +742,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%A6%B0%ED%81%B4%EB%9F%BD+%EC%9A%B0%EB%AF%B8+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Dive Centre Okinawa 39ers": {
+    "다이브 센터 오키나와 서티나이너스": {
         photos: [],
         placeId: "ChIJORv8w6AT5TQR7qWlbXcxsEw",
         placePhotos: [
@@ -768,7 +768,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Dive+Centre+Okinawa+39ers+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "RAiNBOW SOUL OKiNAWA 港川ステイツサイドタウン店": {
+    "레인보우 소울 오키나와 미나토가와점": {
         photos: [],
         placeId: "ChIJPUzNGTlr5TQRrSzqb0GrGSw",
         placePhotos: [
@@ -820,7 +820,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%9D%B4%EB%A7%88%EC%9D%B4%EC%8B%9C%EC%83%A4+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Workshop Chura Sea House": {
+    "워크숍 츄라 씨 하우스": {
         photos: [],
         placeId: "ChIJKe9tgXBp5TQRoAmecLWBjBs",
         placePhotos: [
@@ -846,7 +846,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Workshop+Chura+Sea+House+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Shisa Pottery Experience workshop Ryukyu kiln": {
+    "시사 도예 체험 공방 류큐가마": {
         photos: [],
         placeId: "ChIJsywY9Vr_5DQRTubEYGQ_jjw",
         placePhotos: [
@@ -872,7 +872,7 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Shisa+Pottery+Experience+workshop+Ryukyu+kiln+%EC%98%A4%ED%82%A4%EB%82%98%EC%99%80+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
         ]
     },
-    "Shisa Art Labo": {
+    "시사 아트 라보": {
         photos: [],
         placeId: "ChIJ8cd8JdQONCURpVnFWocv7Ws",
         placePhotos: [

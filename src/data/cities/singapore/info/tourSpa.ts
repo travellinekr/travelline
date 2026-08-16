@@ -556,6 +556,500 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EB%A6%AC%EB%B2%84+%ED%81%AC%EB%A3%A8%EC%A6%88+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "몬스터 데이 투어": {
+        photos: [],
+        placeId: "ChIJoeScxg0Z2jERUhOkAfrx-mw",
+        placePhotos: [
+            { photoReference: "AWCwydgvD9XNXlhkOoTKsUEIW5lcsim_W-9YZOZ47YlJVqjXDxFgexEfp7RxEG_uBuLX5ooJXKtmzIAyHvfqvZeztr8PhXjRDWGm5kBYj25A5HyNhEaiuXLVW2M1N8YjMCRiEcPjs4_9aJ2DaJ8pGU44veVu4-aaY_Tmb2jA8EkpiAbSd7a6LXG1G3DkxwdBQI5TdSZ8w3sm_R6DZcB7gTCDvxF83Q1my5w8j4APBTEr1A32OIgk0hz8gZ8d_etJA75LVO6l_-fDrDTYql8LNR8u22f-Fp55dBNpIS8AF-QlMM1_FfmVoO-Z24N3Us9bsXovdb-Cp-mkuOUbGgrF2BdQvhNyedtM5ay2UAYFcAAsComAly25YOicbkb5GsRU8ItBphyOCmD45eEDMo3IXtVfwlqsXZdO1upaICQh7gHfjYYOxQ", width: 4800, height: 3599, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103584304335840469235\">How Deborah</a>"] },
+            { photoReference: "AWCwydgYb3bQCQpZhSM5ZFilYR7z6ReuI9HLIQ29yFtL7X78OHpTJO5FST3s0dDQ8DEWJuTOuYQdTQB3LqObvP7efhTcLGtflnY1QGt7dxDllC2Tl3CF7MBuJVYivrza33gR8UtCSI6t_EqvZWqF3cwcq_UDqhXJexSJz5eX_Sv2I_qdKmZ1Ci0Y1kNhRi6EBX74x-53Yw5Htq1MAHsPhJxzyBffcjcoTB5aboQopCc7yEtOByEJcI96rO-HD9U44BQFY_MZ2y86lYliZrrwTthEUWuuEQlarOIQD1APrh4yu7zbamBTMpubfk2fVoGI03Bqk3mtopuLvngQYU4OmkB-pZxVYTVZyrZf2EFnJ5JhFctkF9Pp-lxd141KR38kiHn0uizslSXnIryJ-VOHetyFXUKxb0dBgk_ZI3k4OnS584ZX3r-I", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117425940512621001723\">Jocelyn Loo</a>"] },
+            { photoReference: "AWCwydhSuUIpP6I6RKJNqK76UIMZNQarSuf4BsGe5D36RrQw_8tWnyXCWxMCXwsgUQDN8-BmbHKRFsAD6ETDIBuX5skIFExJ5X9P9UMQwnAeld8TzgjOEPlgojIBRAhjUNg6EauGBhda-ImZV8qEhfAwqVoGt9_sbLZQMtZ3XDzSj3T-zvECnhAx7ssYXuACO81hSgyXt72XqYQJhdurmCX7mA1pz4AQ2UHCHcRB1kCdpTgjjYKHll7xRwBqsJN1_zXmnG7ZwO73sR90ACAclxcbhxULpAHCvmHEnJm-iJjjEPbvQ2MjzzEN8I6On9dsCwe9iMMRP4opOPnrOr1cxvXQg8yL_uspyfpdtoxcZ-83CSvOJFY5WETzPbqV5tjrsA6lnGj_g_gC86pGfl16rvQ7uPgznJPv_2HTN-mipAVvpkB84A", width: 1280, height: 960, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103437736777087877085\">Gerard Lim</a>"] },
+            { photoReference: "AWCwydhi0tA6TtcqcDUUSx1hjMRylh-IBn48vel6xZUGo5PbmTGvw-YCxsmydMC7zWwhfiUhItTnqlW0mR9fsWkhBT3SK24HYwSrDXlJo6icVI5fwAZbTRNXYn4tn-R2h_6iJwKe8G4xs-FI8gKkEJDOOKMcy0-kWc1R5N7ajIh5D0KJyJ4M8cLqfESxFD157Xr_-sTq3Mz7etG1OSLIlsTU-sCoXYGp-wpGCwiQ14cTMo9UxH_pPVukV3_vaL0Y3Nfa3oGL5LZ0apeiQKbRo98ZEC4h0zXg7visnOqfacf49nGPwJcmVbkZjoW3AoypXdskBWU73sWqsFFeMJvPd1EHfWGW00HdxSlszAYqDAJ_XCxL5JISF0C75fgOSAtgbQvq4-AqO4sssOszC2eEZSSoj-bDDYfC1EEMJKh9YHJwzr0NCaYL", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117425940512621001723\">Jocelyn Loo</a>"] },
+            { photoReference: "AWCwydhTxAoqp-YuzvPigyTQ5wsBl4QBnhZLY5gygztChwNAFrbR-wVTE4OjadxEvXB1kC46mbLbtMugmamNvHSoI5oCB8vuVUjLomg_RL3Jxv87aEK9KmdJ1SZRXifp5-BjJtyhf5K0sCHfWqJT0bL7HLTf2cQ9BZaqdTKrgfapE_3CgzkJAsbZIXRE9g2Q0jkfsp8EHvMyJw16whEqGcViZKZoAPce-KCMeYXoLDOWrFf1jQ1tyRpgg6xAanHxRSgPeMu8mFOi__b4tvcB2JpZyl8upbh0EBGXVayGeDO8xP6um6tifbTNmkuDN6gxYkN9zbZORGgz_Twi5MO5TJw-tMgEfrtaAC_4Z7bCp32R0QpcLcfNlTz4XhDoedP26yUexohWH8vpM_xU78uAvVsUjMIBOauY2I4RTnoh5VH6SN9HPLoEr_4c6zW08gMLMt5m", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101787360764086920358\">Patrick Ang</a>"] }
+        ],
+        summary: "전문 가이드와 함께하는 즐거운 싱가포르 문화 역사 투어",
+        updatedAt: "2026-08-14",
+        highlights: ["지식 풍부한 가이드", "즐거운 투어 경험", "역사와 문화 학습"],
+        tips: ["존 또는 리처드 가이드를 추천합니다", "가족 단위 투어로 적합합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "71 Ayer Rajah Cres., #04-01 싱가포르 139951", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.monsterdaytours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7852854956345529170", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AA%AC%EC%8A%A4%ED%84%B0+%EB%8D%B0%EC%9D%B4+%ED%88%AC%EC%96%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "오프비트 싱가포르": {
+        photos: [],
+        placeId: "ChIJqeySWeoZ2jERg9tRyvxx6yE",
+        placePhotos: [
+            { photoReference: "AWCwydgqT3vf4EFApSO3Z550L953eyKiHMYvSMOyz2toh33z5yGN5_vz9ZQ1_QRLEtd6AIAzeYOn8FAmEj-06p0--JO9kM1u-UQU5HDycrpYdOnu4zg8ZNYwAKU1LA6VMYWh0nNbzEtAAIcaIdDYf4x1RE4jNVbt5e9ecWYYaWYXz-g1bfJSd81jm80nwW5erXObpYHt_aIcTKWckiHT8sK94y0STxse5kpm_2uz7St2CpThmnO34Qx6D6x7d_lkRmKg7oonWBgHDGRQki6DxyjNNXFHW4JBrEOFkL8pcCQxNTGvvv7x05zWdQbhqaiuHaNqc4uka4VqbpxyCvnT_QqWGOe1IbimBMePrhDr_-X6bZLUWq_YUmP1gTY_pspyDqG3tpIBom-g4me0rHv_pkZXjlo8f7n04dGPGwwNy7HQ05q-4ICK", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110798763138469431312\">Offbeat Singapore</a>"] },
+            { photoReference: "AWCwydji_MZRgMNZWugb0Qu4AQ97oQnngPB0Vtfo60Glo11Veo0bhAotsqSigRvw4NWrS4NqKcHEJZBJiU5N_WIklby72HIj-AkoVXPiMU7FqjRWzaJ9IUZiS2K8hkeGM0bYK01iwAXaHaZz52cceQSK0KGAa6okzhvPVRk1r_nolvphsaDrgfPkGUA_v3d2gppDsg6DzmoBEfsSF_zjfJfF4OLm3-ktTQ_0hdLGEGw-dvcMowiFQnee5eg2UlsuK6c9XjWvZaYlm7XExRaep90fdFCIavULL1pLAvGN-FYgEKBxgB6G9kew52hENx8sMhBmJg_WJukdp3LsN9IjqKWdKZ6DMQGJ0qU4ktWXj7gmqTOr9DCoOqi4536w_ZsnoFIcqCBhuqPU2ECBf15evv5tU0YPTCevhuQHEx4-q9M93ecArQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110798763138469431312\">Offbeat Singapore</a>"] },
+            { photoReference: "AWCwydiho66-fobypTTXZU4EzkabWJuJLT_KAiqaVRZO7J4kHjcj8JnEwJQCSJM53IFcQSsb8KzJyHwxh7UCS8d-536ZlAlm1i7pxG66GirRZLtmeIFgMI-4fd4KUVdwoNlNBjAlmcqXO-mKndGhQrdYEPO4zHiDUxkSxFr3EGPi8VtA77MDkQZyyxVEjmbA1VLuYHTu_MFfLk7nZCzEy5NOCMVYZB1a_sm-_j8Z0gvOgg70yPQ3ZXJFSBF0X9d3Xe-yXhLttY7vlBbG9HJ0bL2MZ2KN5yR9ca22_bQB-i5NvTzhLMvx5Xr26jDm4MkpRzWF0esp0H4pqhwFcEdc3k5sgHyRhCqQpj4sfvTjxuCDdWht7hyjGDcEED8B9YH9FOgL8u1Gt8X0Y2SgTHldcfOpfl4xUZB_lHNa6aymlwSIjCHMEZFbSRsaOsJdEsY7ks_J", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107124395588784912673\">Marketing Soundbridge</a>"] },
+            { photoReference: "AWCwydjIihsNOCfODrvZF9Ok2xlivzEejDsILXdhTjTtJINwWKRad5bsczp-wQ3imUcskswxwh_ykPzK_Bw7USoYlYDuppzI0_NRjbs0hlKyoWA1rNYbl1PdZsz_snvX22aK4D4cq5NzKDRFjsKeBrlCUwB-1l_XEoMoaLC56a672PbzP9zp9EGZrNUogA9yCvWiOKskY_56Gii0zDNCgHCu-GZ-AQqnAu4yt4S926HiB6xDIoLeqUM1QOl0j8w2KG-7A3DPa7eJzgw79n8lcVqXujGnYdXsPsxKapUAUvgEVsK2H5Jq3kgz6ntKvv323q-piCWOgFHdWFgG1wmSDtYWaeFqHCwo70dPoq8eM3vo7a4BmxdOnOoLYlURU2o6iV5rvCQ3L5oPUtNkqHcdPJ4iuzeRjecvAg929kWZ25bLIkbYog", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103863939956804131638\">rogemar placido</a>"] },
+            { photoReference: "AWCwydgnsXSgKMn3jaLg6gMmKal29oHiCLLxiILm-nG8mMJp0yuZmHLR8fI6hTgrEZMptlTppsEUPaa5iVommJ-yeCvmnLpA1fbhO3p6He2jNNe51EvT1fLdyDqNbRxz3HzzCx_TJk6qMS_LelVICxbomjEZkzR7eTVbb47wrSj-RqYjB5E2CE4EAUPptKZz1L6ec8Wncp-BNzmJ7HyeGH2tAPfrpQPAZCHnKuBP3Bbx3MKkEKaFI5jyXXqWmfBK-kDeDYA6SiZD6MxZJW_CDZ5PFgu-cRz1Brgcl1pk4mt67zigkqKzKg0z35y6_TNYCPcwd_bMFAM8WsgqDrjFzdKuo7VfQkce5bdS_iQC2MkGqATxBD65nYZ6XgIOB8WnIX2yA2iRmZlldPmfNj0A4_-wyV6hxX14JDerhiUUB92mQzNxlYQe", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106333662016415121910\">Francesco Esposito</a>"] }
+        ],
+        summary: "친절한 가이드와 함께하는 훌륭한 투어 경험을 제공합니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절한 가이드 서비스", "높은 고객 만족도"],
+        tips: ["투어 시간이 길 수 있으니 여유를 가지고 참여하세요."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "403A Jln Besar, #02-01 싱가포르 209010", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.offbeat.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2444172553318685571", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%98%A4%ED%94%84%EB%B9%84%ED%8A%B8+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "렛츠 고 투어 싱가포르": {
+        photos: [],
+        placeId: "ChIJgTU9QHMZ2jERhUGs_BvKlKs",
+        placePhotos: [
+            { photoReference: "AWCwydgCQ-R2SgLgm75tpWL2L8PHP_nCuqJsDUvVxOW_AfbPOWpaCZZJosyjJfbfsbk3Vxlit9PugXLDLnQfH50zuzH928SQ8GrCxcaxo1a_XXJJVVGJNH0X51pji8l2cx256JNtXY4necWwVFtGEYq8ktGHKvpBSjrwFrUEJzrx66tAqrkXcEvuaJlrm3qqbVl8k_zerlpvKfeh74-9GCEmT8QgVrEAJugGBxWwHr6NVMUFsVAugZVDSBSzpIfvuW5pB2gKS5U5IWMiOnYaihsrrsvQjJog1BcBij28NmFOYhd0gq4BoHYTEHNKOMZfvNZL0VACdNVCIjtqp0mrkFIl9EFPXLKo72ftRx_fTZWw8KhW0XUO25NPmKEFTmO8smA4KRiTEtXliGpxNQmFJs-aIgbGap8rCqKx3eNGN-WW3324sw", width: 2500, height: 1749, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102822793685074236146\">Let&#39;s Go Tour Singapore</a>"] },
+            { photoReference: "AWCwydhEmxXR3t8NxqZ8g7ddIcbZX6RLk7E1JI_wlUNZcJVU4BzBSsf73ZynRCPGDQ29XS37YEIubL3YtxX1aWf6B4M-DKCT3QGg7HuqQCh8fuDyJ26EVO-aL6mfsEcBvqch-asXWu8kRM4A-X0RS3_QYe05ZQ3zlV1q04vGdGFcqTV8hAky5UIZCTKiqxvx8_Sjp76Jz8FNc1JIY0pylXv5wwsdeGfxqMQ4irVHeBG_579_f4hPilaog0v4-G77OkDWVdutdueKvu_zo1yMc4aIn4VO3VfDZPT957Ux1Zp2ijCcOZozTIcqZcaQPtS3iKFfEfVWJP7QNCBbI6uV45Bd3keawG1uglLzlUB_v3X6Iaj22raoZFieMy3CkXpYvBnMydqpAfrfbfOsf_LuEkajaHU_0xV1kNuNII6b3EL_BAdaHj9lmUI_kKsDEIpvJUjM", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106574338580943562075\">Theo Gudsell</a>"] },
+            { photoReference: "AWCwydg60IngkSHQMUweGQ4LgD3k1W77Qhc_trwdmNzaJAFjTaYqbSWpTEIaXm0bnNAhTD0UN7UyGiZ9enoA5WhIsJxnk06q8JSloTsM5J5C_k7u8ixxiuyjxInCi3zEnxxbAWGOxN_ZC_YIs2WqC8EjUskpUu57bJW9zLU4aJEdq2Nn9Qum52sftThSHtNNRV5UWj4ycA7ENSh5XpmdBdfkFQDHVbihfDr0W_KYaFlvwnnIp1wQ32ZT6jl0OSvDzCuEhoJbONMEM-THVFbuV21wHABo65Grt-F7lHOng__jKb-Di1UkD69tR16owCANAwjXeFpW-YP-PR21RKaCiJdHtf3iAIShx6_NKUoY3GP5sfSWbwihv8_xOyAQl-N_eG2JG2-lZggWW1ZKvdhyFipKOmA4F8XxWkIQiVPD5d-hhe6jG0cDG-1o1_Y4GAe5JH74", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106253635469363444651\">Darci Van Deusen</a>"] },
+            { photoReference: "AWCwydhCbVin_uGc2TMSr83MDP9953Ztuyw03KTRHfpyRfL5Wf8ToSF9D6DcieCh2xF6NyFnc0iL9XvkHhvWvFKafSIe8KIXmJ-leGVjvrIUdeytmkajGR4UsCVIG-JCVmlExXpqyYM8ipjp3wHIDiy4KBHqpdOxTaKA_F93WfLKuoIs-11kUy7BShc3UOs6uh3VH6BW86ncrQIi3tP662vAduAQJdX-Pe20gnfux3F4YWMseWRPglYqhK0YiorrmS3akQ7fiIErHEDG5jNrHurXIfRtkY02p6KyhfqrxYfyKSvEWZQE3amF2atIsZeg4OiDx4XEX2WJ0JMkrYy9stXWMQKr9cVZseWwjQsRnQutaU3TKBs82bVpJb1v8xzcYjSdkyWcGrlRiBZHabvM3ruAipwXSHrDfZ5O0VeX_46ZIo7iK_zQiv6PYp-Z14IAXA", width: 4290, height: 2580, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102822793685074236146\">Let&#39;s Go Tour Singapore</a>"] },
+            { photoReference: "AWCwydj2Zf7EkVDw-gGRMbjnRMje-U_fnDFXEfFoIzs-ERGdGvp0feTnVKZsRDySGP7RoXCLTN6VkYISZn38QoLVgNp8DXk92rrQwxVep-42QBpbSq1QrPUH0Y5QeryQpXEJaPpH_U_gcsoil3KxJw-4d--Jk_xPNFE0vn3x7NJxHXPbUHqOpCYnF6DdJ5XuFKC_G8wmZ1QdiC6B7XpDVYuWoed8GX-NZL-HRkmJ8DEuBwxEgvyaRXCp6ZlMhQxqPx-niAEtAMIpi-TwsNfPvU0_JgOpwDGR_c6OT7FTlkfju-aATzGSgLc-y2lN7duHu7Q3w5dcOhba0RmW-LeuFd0HGUBfQpplhxeC_IWEncW7gslM0NFgVX5lTBQs2Vhh-xd_dt_-IPqazj5yOqfq8BAjhvXm6N3OxUyRHkawnZBMeU8oGPd6KKS6rCRqcRojVfk1", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107149571843299519772\">Pepijn H</a>"] }
+        ],
+        summary: "열정적인 가이드와 함께 도시의 매력을 안전하고 활기차게 느낄 수 있는 자전거 투어입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["도시의 다양한 문화와 역사 체험", "열정적인 가이드의 흥미로운 이야기", "여유롭고 안전한 자전거 주행"],
+        tips: ["활동적인 도시 탐험을 원하는 분들께 추천합니다", "가이드의 열정적인 설명을 통해 깊이 있는 투어가 가능합니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Block 462 Crawford Ln, #01-57, 싱가포르 190462", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.letsgotoursingapore.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12363729098590929285", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%9B%EC%B8%A0+%EA%B3%A0+%ED%88%AC%EC%96%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라이언 하틀랜더스": {
+        photos: [],
+        placeId: "ChIJP4UOilsX2jERc7ORRlyaxAk",
+        placePhotos: [
+            { photoReference: "AWCwydg_KoMOMGBaipqtqCl0B65LhKOxlFTv0tRG92SRWEb6DhLwl2Sc7Cmo9ua1Gwaygsz-nMB-OmJPJw3-ePZWwqdt6Z6U78Avd7A36AY15a2ImrWm1W5hK2gTd7mepmyRh2edMD9MPgXc46Iu5fEipaGOdZ44eauspdwcVsx8pTfOOeuxoh9k7xmRsOU-xH-nu8NsBHxxkw15U5DTIC-BsIGncDbUclXCYdR03kN7xFCwyyDm_-_6wR-Cfq8SeoLw7dDJ_CDIwwk5lKm3NAc17fa8UldpNGQH9-60AxPHKdth_hg_jqJM1l6fHXm3eJ_zuwP5v44D5iGMQeiNer28AxzTnE_kLD560jy8S7M_L1nSoss-cB9pCF8CzzILiEnB3CBeJK1LnHjA85HX7TJRJkdO-NFQU3YICP1Zvn9_8nf_PALiXAUkihoOprwsoraX", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116624519871505110676\">Collin T.</a>"] },
+            { photoReference: "AWCwydiNM8C4NgUdndLfp3iBjytJJsCyubYS-aipxtdprEu-_z5CfUrQi7W30rZht_Nuq6Ky1iidJ9vsSj1_3FRv42NukzjeHp90gUaaqKRSjkefb7nBaIodlj7hOUENt7U9I3216m4QbAzi6uoLJaKhYeLP8oYE9MI7hL7u7s0zU58p0Wbs0Zz8AEmh4XFpW2xL1o5D33EH9uhPWxeT9YGphGfAxj-KcJXDXG2boK69Q-g8vBkYGUL3mbqu7NmHui4VF7-zdm9l7Co8d9-NnAB_fXAFjDj8TEQLEhrwpWo8I_Fhpsi7BBxVLiih2RgXod2pTcCzlqWvcp09IjlhiQjp0JERxzMzSWNVZpU5yzMRWg9OjZlOvdAFcGOkhUpfod4QNub20-aZQaoTwkAJablu3YYHI0TrZnfmcwVtDdL4vhZ5U0UASBMExze40K63hP-T", width: 4624, height: 2608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116556450513402968047\">Kok Leong Goh</a>"] },
+            { photoReference: "AWCwydia12Mgu3Rmi5krcIq_KH7-AZgKyCGg-l3boSIJRIlahobPcptOV3c3RJUK74gvcfl5UhTKsP3dklReNnmxmqq9usKQhjN5_6cktdjdEu9ovItuRGB8GTFaPGIMUnLq8yj0JxPa_BrRe0Td14cRXTSaoo6VgMr3BP4miKIBD7dLAANWLZaqgievBmh97-uxoTI2alVQjKH1DG8CJFFUnyTRQu8Mvuj_fVRApxEwOflFK_mIrEGAidxTwYldIcm8j1FKM72mTCifuaDw974iUdNBRZB2PmCWoW57BaP1W5_P-3nyGnF0kceWArLTOSUTgpVNbDmV6yb1KbgI2vTyfM-OyIsyWje8rhShBn_5WIIA4Fq29H7WhalciC8Njyjnz85FRCCxgV-UG0JtEh-CFU0dlUsdUZzh8lk9iBsIg__QHMV42B1yFpo-yNF1acUw", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106707318182566186403\">Sofia</a>"] },
+            { photoReference: "AWCwydgoD3ljkT3T72ggk5bRUYs7N13Kk54hseGoBDhwLmCGy_rK_2kiy5WNL-1MQ3UdMa1_NagXxR_u-bPc_svjhnFcKElFNr2Tej-l6DCYSVeoqtvWfxBJ4tJHomLVzzVmLEIXo2xaQS105fV3ybpKU6vvFda1_v0pHacEoo-kHDcgaRGJ6cMtAZ1Z2Ik87yoPbpzBuEoGidWJfpYxZ3CF0N1PPUUYJvmpCBG3Daiv9t4WYMwsR_Up3lgoWuhHtFhaNmEPljqAyTnp4mLcKJs7UNzlxbsPQ7x0j0-f0499A3aDmGNmYJJ0xY9CyPdye3AmJC9P_5bFzEAxOqKUwnry02LQtxOgWkN3nN1j5AUQhDYDbyeoCY9Auw-jRvFauDTK0KRbh7F2CRB81mSTIwwzAgQk8pAxIiq1cLVTwV8xXaIfew", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101090473314887455188\">jenmi yee</a>"] },
+            { photoReference: "AWCwydiACl-kIx-JsmLa9tpuHoFjnhcq2tnwW367GDy8MzhLMS81RnvLJEu-hBOewY4uUgFZn-9jrfjGVyBCtB-gcxGJhp1bhwd25dIeRN4K2ZEtmN9c89B1Sy91RWXqrzkAlCA5IMvBvAUBH3cAhuHqLCg9Ashl6srcvYX323x4JHYBrjAnm-aPQEnRyQ9RVJLokmcdm_U5H35a25Z2rejeOrvZXx-LLBFmCHyP_2XCo8UFespHoPA0qBH7OPSQ3OMNwIzENU1LO76Q5A96vnPHrWobhY_iK-y6gmWkXWl_UP1XfScZyv0cQVvWeA5vkxpqMOdM2NzhI4LmT7SU6IUi_Re_vYIzlSXzylTLQTxs_mUeKbyWTCfkJljSDz41fJtYAp33vndoydN4skvHzXCDjqXduqLNY_QSpENKNIW6Tr4RjGfoyGXjrlqtjueV_Q", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112782061028758780196\">Tay Yi Herng</a>"] }
+        ],
+        summary: "압도적인 리뷰 수와 높은 평점을 자랑하는 신뢰할 수 있는 어드벤처 체험지입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["4.9점의 높은 평점", "7,000개 이상의 방대한 리뷰", "검증된 서비스 품질"],
+        tips: ["시민권 프로그램 등 다양한 프로그램 참여 가능", "방문 전 운영 시간 확인 권장"],
+        hours: "월요일: 오전 9:00 ~ 오후 7:00; 화요일: 오전 9:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "71 Ayer Rajah Cres., #04-01 싱가포르 139951", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://lionheartlanders.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=703857162888262515", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9D%B4%EC%96%B8+%ED%95%98%ED%8B%80%EB%9E%9C%EB%8D%94%EC%8A%A4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "어드벤처 코브 워터파크": {
+        photos: [],
+        placeId: "ChIJS0Dhxf0b2jERAuG9YaPrYjA",
+        placePhotos: [
+            { photoReference: "AWCwydhXKc533dx6BbkcnFKk3wsjH73MtUsqc1IN-j8tHzcLyvAekNer91T3G0gk4-MCrWAvdalyVl9z_1bSpjI_ORxi2_LwN8VRnQcU_Ye32UxvTlCJy4PyjhCC7TBBDlSg5AkYb0cl7DZZ6Mi9Y7ISyoW_nBf6ujeb7sOeg96JdPBVXW5uwG6HrgNYOqICWTg3om39rQznSn3_RXOrqsGeTjcnWem70EqwaqKugM0psTt0-niXOdlEuqt-3XoYP6yiSnmmO-gXqdOPCx27SRfyQXwHt4Q-ZPwjDNdxhmxFGTu3XSJ3x-QhX86ds3vMn2N40Mbete6YoAyTo5Me0XlDrsWQ1AGZ25pM4l3vLvX7yGIdcvZaPpTuspcUFdnjBUrgyeOlWT7WrAXSuSTo3JCHQqQg5uAw78xOJGo6Ao5liuParw", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103125165844136164329\">Ganesh D</a>"] },
+            { photoReference: "AWCwydhT9bG2Q-8dS_MxVp4r2m9JPcmzSaKAsRjznuyhdTFKYEKSgTPaqohLEiPuuV8QZOTp-6x7TGoRkx6JQlw3iEyhHeE99KH3eRWnZi03vCJBH1avQY5FHfXoydJf0utNWSRmlQl0UKirOIhXsDpfQfs7am5wbf6XJkt7jyexLr2LFXGzdQjNwQXd6VFT8uDpWZURfnAggbRHNYL9h0stFsIOwmm0IVpJSALhp9mAtR8pQiSopRKcswEjSjurBL93h8jA1N-7S24RVhnl5wg_thzFsCnG4EHCKPhMzp8M3hPNH2g_rh0sMal9J54PRvBChCCDAAMBTobVt3iLV1ZSsTJUPFQSDFJpojxISlihxjCUhKPxjloXeKbBY0q4xrfQsn0oxnyfJ4UTOzBcBE6v10vYEws2h2nhllF_-6vPU140yEfH", width: 2560, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115988323065110786349\">Chee Keong Ang</a>"] },
+            { photoReference: "AWCwydgO8zx1w7p_54_9sK-foCVvLsEguLGDqGNId9ihqrvJfITLZZFlrkuaREJQQLk6hA26ZIpfVr07mHobP6jtVAe8lxi30Qk8EKzaub_EsLT_KKvHvnv2pg4b0nGGVkRTbdOc5dPsFaUUE6I8Idv8zzQaKuSUCbBIjnADu4df0ZXCTqjs36bxTes5NlxCbwlzeD9emYGO4lOWlwplu9V82KyMEv9ChLKC8osrZD7wazg33RnUMUqPIF3A_nuOZ49Z6DEWaxZw3J2L3RkoLXC-0NOPFNJ9cxIELuMp2rCx3CwbLCoTToeotxMoU-1n68SMCZ3lpujNfiwCT2aHAC7BEQyzU3EU39typzK2g-dWVjURb9bwKRU1CFkUYINEqWH8aJTPK19ipcQm9AlFil-t1GzgOSMpaOZugXBCIp4uS1Tnpm8avrgqOIl_H7C_F8qo", width: 1080, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116830165471327910160\">Adventure Cove Waterpark</a>"] },
+            { photoReference: "AWCwydj_bBTrroVOxS0K-wZsjk0cqKv-GGS2Lx_F-bVrKlYC5cjPsvW383YxVfhZbR_Dpty_rmzDRvd6oG7CG9FG-q0zaD68pbbKA8STUbOk8sRDLOEMV0L2iUMkoD1e4q5AChKl4XxXn5MY4ItqZJhol3SM9RNYVAc2LxdhUAJVPKECKjfvmVYmOXLoFUfstfQ1TqyLhIayFAKkrODAPwfuP2Cj0mybNqVmEwPDJq6i9_ygN7wCdJAorUABPQ6PqW9E4NdsHcqarJDYDBuUYQ7B05XRPTimKZIxfdcw6kQu3DYzeK8GQ1sKlHQ8-1Wba_N106HX0Iw-x5sf_HHdrRZpLix6NoWm-IeL2FrOLHDNKsDaGH2neFeGpnHHeNezVi_ACelhO_K0hMWWEVyAC-xsgKbwObTzmTBm_VmOqud1GPO3Cio", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106352079186783919796\">CL Ang</a>"] },
+            { photoReference: "AWCwydj3RMsOkOvJZeePuwQMQ-MsuHolyHnVMhy7nkmsgAZ3Q4FMpf5SYj8ZG5o_hh_ROQSEgrmxsoINuoAhoFQRZ6bilZXDGek08aj9aNDS3-vqRYqN6qAQA1MO1vhmQN87T14D8e372dO8Nfw477QmgKuVYV2NxAF7x7H9WZsIP6I-dg1B1rnd0cd6Xk_zAkZoUrnEs1OYXVdLm_3B6AI3yuDx74PCSlIDWBeFY33WSaJjfYKTVtpkiHRXPF1o7KV50EUGbQHMuLYxaM9cx0px90r99KWThZNuCJ7mr8b_1rw3Cda5UqrY1EGiHjfV3YZteEwmMbkViz3RFjzf6qvjvtlcXg9I2zR-VFO3-ID_Uip-eOJ2YjUWdAgNhMc74b-pK5QJT9RavJOzNgXNYJi3S1cxj1sn-clx_JVrXCw7y6JBgzA", width: 4624, height: 3468, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109944888701944239117\">Sridharan U</a>"] }
+        ],
+        summary: "스노클링과 짜릿한 라이드가 매력적인 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["스노클링 체험", "다양한 라이드 시설"],
+        tips: ["인기 라이드인 티피드 로켓은 개장 직후에 먼저 이용하세요", "평일에도 방문객이 많을 수 있으니 참고하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 5:00; 화요일: 오전 10:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "14 Sentosa Gateway, Sentosa Island, 싱가포르 098132", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.rwsentosa.com/en/play/adventure-cove-waterpark?utm_source=google&utm_medium=serp&utm_placement=website", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3486608148490215682", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%BD%94%EB%B8%8C+%EC%9B%8C%ED%84%B0%ED%8C%8C%ED%81%AC+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "메가어드벤처-싱가포르": {
+        photos: [],
+        placeId: "ChIJpxs67_sb2jER1pJkEAHxc0Q",
+        placePhotos: [
+            { photoReference: "AWCwydhJeU5ccRz3QlEJHUgXxq52QkeSTWbo7UZmqv1AeBvxsDJF-JMkYTlQCuedex9_jcsS-Lag5-jZCUhBK8yV6_FJK6uxxBWlkiK3UXY0BbM3rNg_-BCOMC3s_mBJ9UjEEEDM3N0BfrhM2y6LCpscGpdnnnKO6fDWDMedBWHXssocWS30WqtZmGRjYvaps6RANFfIYr4ODiXvdLlxjHiHV50Gd5x1OxQBFFUYSjpP-wEeOoQQ0E4B1CBCgvJUPmYicZ9V6Bkp1wxYYRjyGexsu1yLr1g2kQlhqMhBIrRQbf2EHTEbSow9_taINo7qjpCyfjcR0oMl2K3tg0_H9t4ZyaWx50YBiHINLMJXgKolWhm-1hHKTdViVP7ddBZOe33RT1sCSgrmgjIv63Gi_XFAhBdM6oB4CzONTOgcE3pen84DVg", width: 3276, height: 2508, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114391224828136407192\">Mega Adventure - Singapore</a>"] },
+            { photoReference: "AWCwydj7XGMXkl4YXfG2zHOKdywhVtXmSasXHnEwL7Yh_PdkPMKLQi479cEsQ-_hcqUSt-gsriR_JOSfeKD7efN7FmeBI35kNFKzreMxtybuns5jjc3oRrrMmCMXXUmI_LKjQskEEK6wtzGj35NYMSZaBn34dvwjfdAHYoC7Kh0sFlFl9QL8y1D1xlAo48nqaVaoAqYFMb5_DXeiLxn9ezOWQu4HUB378knOQX8mGR6DF5xTZsmXvzcOYERRQYBX39nNIdiH_JlyfGbc5oGGGJTtXeaaGKLa12jaIeb_gbcToJGAmW0iY7ozQAV2-RMMoyqgFmagHh0J-z_wU4I4iXvHUX2hFHpLnDVk0R13SFQCAO3-JZFxLSLAywyx4K1yhJIZgmPd23TYCeXdNV0DD2M1NJrOrtVmrB8IekrTVRBOK8id9KVeh-qJprmGNqWOw51d", width: 486, height: 389, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114363129400040495682\">Charles Johnson</a>"] },
+            { photoReference: "AWCwydhUVz5iMODT8wn8Cijfjx4klZnJtOFiI3d-4DANBCH75LB2H86LN7mMsE3bMhGVqbr7OyhRA6DBlP5hVkRmF3h5kb9Q5ZBuXobCoAEbTV6gruvew_llBjCAMY4_UlVax6n0lbIx_jLZ50QyjFVHqyrOEZKKZLPi-SyL1ffwFRZcFuaKPdWABFYaenP6uW6JDQsa88MDdqRYlYCSy2bPA0TUuw7aGUYLczIoe4qPcMNhBXBaffoIuL-vDeUEWYQ1HJUhKQKdeBHHM69sPTSKSXwmwWFBOAq2IGVL-Gb_rNeovNTX5uGZQ_GRMl93AMGfyOGzvWVBs1x2cLbv56BOV51ZTv7VnWf-aEeWa1HiB-saVBDtMHkLMoSWooa1-7MZ0yRhvCWQ17yMohBuFM-seB1snQdCZsXl6SNA2lLahncEt4Zd", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111916002875484558629\">Xin Yi -</a>"] },
+            { photoReference: "AWCwydj-ZSugNHWAv4UtZIwbP4T7n0Lh9lTFIvX06Ag7_QPuV5mcFTf632HQCAGz_uTKPM6ecmH4Y_il_FOu1e9Y4LIUex7LXNoL2XPoIlZSx047s9tOwyaOv-mNl5kjtyqRXcTDYfMEN5VQVTvNRGlzk93l1nLmhwzQ2xKMVb17ng7tzfFz18qNT4W1W_AHP3h8h0oLydOCvzYxUyWsF63BeRDXwLAe29is3tJ1ExdZT7He43axdFDYUH820Leq3beEGk4H2QKvSVkwCgSCaOq5QwYOqc8jP7USwoeREj4OKEofFOS85GObU681ysQkdATPF1QzIXHRo0bk_YyTcCuKO0I8P3VHBhzKwIsA-d5PsKTy1CE8NrGrvLaKwxeW52Ay4NQ_4fxu8NzsI4Hls960ni7ABZbzMphdnGyM4Nl6KKzTgy9h7rpPS81MVWkQdnQR", width: 2048, height: 1366, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101463154181027804003\">J B</a>"] },
+            { photoReference: "AWCwydgbAj17DdImAxw9E2EM0IeNObI7FJt1oV5xHlVpzlju__3a2523DDID8xOwG02JMu7j81Ty5BRYNy9vqtgMLGMO6OUpqSXOQXJrW8_cdoMT7t2Ls484MN08GUxqymEIH34ScZdXPtqiO9viBMZcRybFbj83H86ei5AMFplgY_Z1xYJKjv7G1P5EISvRvAVCHe79Ajzm5ZFVYNcOGHQRqMKMdqUQlqUqeFDKrWbxQmdzpT2BHaaGv1hk27SO0abxiiZjEBa9qFAYHYjVByRFPBv61uv-xDL75_WHgJvCrCIH1_DrlmKNFV2weYzal4dgYaafY1HPpRISEdiipW7bAgaYpj6viBZFpx4_0XS_mtPYC1GG3kUJIkk4tW-snyxpWnLKXigK9tknjy1LZE-xaDGclcWi27-ylCgc0jy4JyFubA", width: 4800, height: 3199, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110768591854763215780\">Ishitsuka Naoyuki</a>"] }
+        ],
+        summary: "높은 평점과 긍정적인 리뷰를 보유한 인기 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 도움을 주는 직원", "즐겁고 재미있는 경험"],
+        tips: ["직원들의 친절한 서비스를 기대할 수 있습니다", "한번쯤 방문해 볼 만한 가치가 있습니다"],
+        hours: "월요일: 오전 11:00 ~ 오후 6:30; 화요일: 오전 11:00 ~ 오후 6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "10A Siloso Bch Walk, 싱가포르 099008", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.sg.megaadventure.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4932551003773113046", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A9%94%EA%B0%80%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98-%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "키자니아 싱가포르": {
+        photos: [],
+        placeId: "ChIJTfijDAAc2jERoK5KlVJtFxg",
+        placePhotos: [
+            { photoReference: "AWCwydi53tHX5oa0OXteq1tVZlOOl22N9UndiDYvA-2cXbn3nnP698MMU-mhAruyufSczMBUiLoA0n52fzWgb8pAwChhP5i8TBMaCbVYnEFFE2ScTYrEQItOO4K55Jh272vIdWa-WuuJFzgqza94WWH8OFnmv67ztYTe2fn-8-Iix06LGZUCMHQsfzeb8HGNg48GiPS-Z71T1Vkt0T2Z6UksgAJVmntWopPDBa5LALBkExOKgARHFjq8FstWw5RVNmFMVjzXLiWQbuUsdz4l56XdW-H11Mr9WJbx4dIsi2NXDMsRvdFhL3SO661jl__6XaMuHNcfQIsgGu4dpt_GQQKeF6mGTplpX7ZshN-zLuubZagJxmQzlu8a5Ty8hk8pnRD3p-isT2kE8Yp9E0Xrv_cgLUTbXcBpL4qcmFTwPUtYSlkGmA", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112514340651353359830\">Tejash Upadhyay</a>"] },
+            { photoReference: "AWCwydhW-D0gO40oYAVk6SLcSrZlo0UHQisElIXfq5zMvZkAfsaWbYkFmV5Zp1fFkqvUSpTELTWEh7y1F2ZWgS55ciD4Ak2-cSy1xMk2JSCzyQpF_EhQ-XwDnqiiCDUBQbLLYRUMZ0O_ex4fQvS3tV3ndGtG5oFtfpydkCbz_AYdncHJYuL-DZaVEDbaDFOsQtsOHVOv92AzaVPI0uMP_yAILGV1PYnmtpW6BATxKpwkN-hfQSgCp5lQmmzeY-qQy9sAuRv4sgaZHC3mB3PFowp0EWV6-9mlxTbiYnL-YT61EhpjP0c9-dqohHydCFPB5284exkNUT74CXk2Dj13tj7g8Je-_vPIy1lH-UxUTxlP1x4YC4nBi5klnYEW6Ez40b0oBPyWJiYqQqoQDWQ2V8YYJOev3Z2Vfk5uMlQ-TbE4TGuh8fk", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103034899222805671102\">Jawad Akram</a>"] },
+            { photoReference: "AWCwydiwn-HBjiuODtz67X02qLWh1wPhm-tlCtwuifxQJoIJyazH8uxeuMcQtXNYcvfAqIeXWQziXazoAfJRSm4_gTjYcFm8ftdB7AdX_yt5FaRI9Fbhr1u24xqXLiUHl7HUmMUg9ipPxVMYkKdVlGRErW1p-enlaYk4AHt7r0PtbLN-FADI9Avz_ent58E2IkKqfhlbpRnoby9IaLk4a1yowaA91CCG2i04suYxhxOSUBWfOKSkKuzUtKfCE4V__KBrSs6t_GfU5BZkLOtsSgOMbG8FpEeOSeIfo_eTH4BBa1IgAzSKk6GVVGdf7gAJQ6tE3v13U7GITLnXcpUtEMM-j5J4WuejtlYsuZRA6RNZ06sC_YQhO22BUB8K026lqHYuez_5pilT5HD0iu8F0AbU9RYkYwIXBfz7q5K5zB9F980tJxjy", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111099982422698135291\">Chetan Kulkarni</a>"] },
+            { photoReference: "AWCwydhiljgAvJZq44-i7PP8rhFgCC1979t54fYM2MLriEUr_6000kL9RTPsRUqedD2LQE-dli1L0Cm7eptWDg_znyRsgih0aNKFyvlYJ1wfzTRR_G6X_RDbC062Ba66e_aiV3NAs--GIJMYfcmCBldcS3-qFEc2TT0YrLJ9xpPsHI4PAAl_Td5BR8DDVI9kBnb029xGY_AtqCIy7g7JUrZ29P-8q7Rw9-O-pchwyzFYtxJlG5yKmFmbLHmlI3nizoqZ_TQwtOKt1d9nyl1vCTZ9SkSdqNOvBB8E04S8IxLgGAnGSkdiRAYMQ6xYsIqnvrv1CTZztm_-DI5EFOO24XFy8scp9i00oFPG6jG5EWVkg1QnY7wK-fGDzd_t4VzenIzE0zMLgNy2qXZ_XRHFMbUJgJTGMMwq0ex7cfii7QPLaJpgqQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118414779972405165627\">Bhaskar Singapore</a>"] },
+            { photoReference: "AWCwydgzKrp8pvGMDX_7tK6-Vpo8oWAuPbG_7ZPS7kr9tmc2_1uo8sMcHyPMg6WaIyJ6f2jnhAClakdHYBMcryr6Avomy1QBb1Zrbl7QlWaQhsM-XAe90-FAmEtpotM09DJkaRgQMqJ-65ME4dkQKLnp3GSPH4oDCDYeaBc1qZXM8pxBpo13ryAF7gPOlMBlbrbQw0Swcxje3b-I9eYc6-OSnoDSGTZRK6gSGVDRNwfI1EJK93SoLYkkwfAuRhTiK1m2Ind48D8fM9bp1JR8WMJpTR9vO0PBGEBbhAhol8aIDuzm3sGZ3KQWGWak_UIvPj5GPcoo18J2C1HD7GsCYpXJwZw-kq0eQmo2EQ1UcrPUByTZENHz-vsAf6HtUVcH8Gy6ByezCsHifs7l-WxBYLs_k2WUqvZBk8aSVbwiDCFtIJKkO-aBPPMbgctFgYyOLj_G", width: 1009, height: 744, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113316208923277227429\">Edwin Li</a>"] }
+        ],
+        summary: "다양한 직업 체험이 가능한 가족 친화적 테마파크",
+        updatedAt: "2026-08-14",
+        highlights: ["다양한 직업 체험 가능", "비교적 여유로운 관람 환경"],
+        tips: ["직원 한 명이 여러 업무를 담당할 수 있어 대기 시간이 발생할 수 있습니다."],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "31 Bch Vw Rd, #01-01/02 Sentosa Island, Singapore 098008", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.kidzania.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1735976382834060960", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%9E%90%EB%8B%88%EC%95%84+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "홈팀NS 아쿠아 어드벤처": {
+        photos: [],
+        placeId: "ChIJF246z5s92jERaMjvEMrNJlA",
+        placePhotos: [
+            { photoReference: "AWCwydhaPagbwNmC-WpEkAdyG-vx8h-ocoIRZ7JHyXe6rgRmgDNhdlzOoLP0Z1xQJvx15pGoaM8FmtP5c2s1up1rnyV7Nevn9s2uEW4_TeVKG9EDeZWNZWNurbyAJ5lACdyrMqjvD9k0TvyMr4tOJKcp_o4Xn-mvL4XGmDV_HBDPENZAau9Y5u0WRdSHgnU0WGsleRNlY4vlDlizq5FEjIR5YKC5ag-qZ1-jY1BNApwHuAmYe_T3lRcxo0tRZvomQdOQ3ZY9zEY--xtQdhNIQOM8UhXPOQ8cqtyEA5IU5gxrl1MLE4PHKhAYaD__1FcLAvd7SFokhp84Y81pbYSaSpLid2aAc5YXg2NShsD8LpwxN5Qcdlrf_UgkawycVHT4ts2_rBe-ftcDcDQ8VsLV4iE1lHbOlInToGQIo8QI8WHhVqvdMSJO", width: 4800, height: 3788, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105085979186338779140\">Joseph Chai</a>"] },
+            { photoReference: "AWCwydjgXSfvnG7W5_g47JjwgQhcVGA0Sy1h0H2itHAouwh_CtLIsXHWb7oQJtdl5e9l96jkzjjq121jF7BnrFG0SmEYoe5PVdEvlGs-TmUyL-_LiqfvmDtffL0CELiSe9UARHUf-QvDLsAUlawtz1UYqe35eHzyMx51wY4ptmHeSMVvyJpdM0mtNLC51hF-RufibtYgc4k_wZi6QrZLoj2a6iLc0QpliXD8whduVl57yXOoyphKBJ1Zu6h0WZAfrOdxD_jpA26B0kV857U4krEiieBrmPoYtgFt9HaUt8C_8cXXur3BB-u0a0EcyiK12o0B83bAaYI-XkmcuTXJfEk1oKL37JENiizP1prTfLlQcAx60tMU9Y5HG2OxeTBWGYPSXwUVgRQDgGD0z3HriubX_ncT6mo6BUBfGsEGTH6EdJD_UCuq", width: 4500, height: 3002, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102811304486149703355\">HomeTeamNS Aqua Adventure</a>"] },
+            { photoReference: "AWCwydi_tVFUs3lTvozUwfVkbNIyYVKINzyvoZQZsVrCLRPVvdWdB4MpT8Vj0M78L2KnTcE5SqpTvCXv13ewQ-WOuyRoRLnjvVabaRnuivb8QQgiVmcMOMc1BrK6RJcrzda4-BwYCb59OgGfPI2d7eYaXiAouLLmEjfP4eANvoj0fbkkayHGSRqMF7KJ6_IBoIkmrp_r8-ZNw97YzOEL8N3nu9PBtK_5k2xj48wRNcznqJVcW1C4te3Q5uPGez4Ls5ign1qPUNIQgDuz_2Zo25H-UYd0CGbUFlqZdPjNMHZydqmrwBbyMXUr9kTN1a1A2XK7AsfiSyGFCCNHM0GSTklnk3pWo3wOGldojkqhxl7siW28qOu_TDjAYrdJZbWrP2bD5mXN5SlSRXrBW5z7Jr616U-ZCjKU8E5nVQ3H2w5UVWiCJw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116421320172580230375\">Instant Ramen</a>"] },
+            { photoReference: "AWCwydjLBaA-N_Rq3i2hSzo-myaRKVd9CGrEIvDEHfaNWKl8lTXYv7NSwDFN9kyExfiP5p0nBkcIqBkJnjwyT0x1iDqlMlHfjexLXrb8eW2CSL8k4hGR9X6bE81gbkN4xTHuuRSvQAJAqowBl0d0uGHrO8-GHoLsikba1s1NmOeUDUTeXHkk9OglWdy7Xi1WSWlZQccEfiBu0tNszFW0A55BJ5sfyPBN_XaeoqszbjjVnP_Qm5q9zSGYKzYimQBNzBEpZbCYPxbw4D25iL6VXnEsV71CtCkmAg4CmQrm97cJ1AbnikSuMSZaZK2DOqoRFhx8EnJZDBCDon29UzkqS5Wcz1BJVHUjmzC9CmZPp6VQ9_NTvPXRM5bCLA5BiGNev6JVEglOhrg5X3jbRIvS8_Ns3qt4JhvcUulQYt4OcM0q5nLMGA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107931475924901231165\">Siti Nur Hanisah Abdul Rahim</a>"] },
+            { photoReference: "AWCwydhB1i0luNHKPpi9etQjLpvBnOI-_j5C2LY9JQyeYDFKozx0yEnAoN1yZjV79I-FHjgga_t-FCnCTwt9d99qP5GDNjOJR2kY02DlgegAkwcrRtYaNVsMDJvpYSzFF-c6wMBqNRpZ69htY57mJnfYGGCYtj-3EGhgWWqXtUYr8YGNkxZoC0VeaoW2MIJYrXQ6rKjiv17zoSKb6Do2--bp4_m9Jiyl72Ak2OqCb6jXEpN_2B5sZH3xinLWw84iVlbfWKfGE9v0bG7CZ_ieX5DtEfbrxitNT_4x9Cwwb_89ovOyebvW0MPS37dln1ZQgtGBYcoimnLzmZO-fpn3raJpHjsl5Ita_eU7TYbuLCTwBNmcWgp2zXFAqA6CCRHQPTaUje1KcHJ6e2XiCbW8vm7LnTXgWcXJ8sQOolr43KsriQeZrSs5", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105534875072206033317\">Jeyanthi Jegathisan</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 재미있는 게임 중심의 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["재미있는 게임 시설", "친절한 전문가 서비스"],
+        tips: ["월요일은 휴무이니 방문 시 주의하세요"],
+        hours: "월요일: 휴무일; 화요일: 오전 10:00 ~ 오후 2:30, 오후 3:00~7:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "900 Bedok North Rd, 싱가포르 479994", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.hometeamns.sg/bedokreservoir/aquaadventure/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5775529839900477544", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%99%88%ED%8C%80NS+%EC%95%84%EC%BF%A0%EC%95%84+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "레인포레스트 와일드 어드밴츄어 EAST": {
+        photos: [],
+        placeId: "ChIJVXvIfP0T2jERic4-tMR0Oj0",
+        placePhotos: [
+            { photoReference: "AWCwydhISDeZjE06hgzRyolCLetJEasQTMZzdE4NsoZW1D2LR07WtIig-iPhid7JJEn9AMSCcPSc84BZy1m8AwPb54K8Hkamg_yF_U-rbN28VnLAKbPOsXpvUtFjBGA93QYsGSeiFa1X5LMhViZv9_2dFDKtSYTwlIqSEpiqev38dpNWO_wOZyI62E5jXAVD1HBreCAOEn2meQcqD7CmghVKwl7wq9tffKniti0GPghbIfk1YPvkaWOkVAPLn028NjTFPFC5ON5777kkbFPQZO-lFPIK-fZGVN3OhgmX5mncvTdIa9f2fa74_udYqG74caqX8taAL-L8AU7h7eSisQkEOaUh_CGQLiwHvRzE2cwKYEyKs0Vo8MuzIOTUTDSa96KY56fNbu6Ow6n_Uoszfp9GaDQqk81dnFy90STFLJTL1XVkXPonXj8wWF8--q5lNg", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111356570966101369460\">Rainforest Wild Adventure EAST</a>"] },
+            { photoReference: "AWCwydjpTPlii71RVM_MkJ9q8BqIXBmAF0w6MjkkVGJ3IEMzCc0EtlNSLNYrwsQu7SZJ0ypGhY1ES_DStMpMwH_AlAEWHVtqQqNssFupvZ3CObuhHJKY_PaCc8jVdHPhiVUiIMTisQPD9m7gZx-5y0zOfIq4sxYiAtEQDuPX3vkrEDCpxQUamxNOmKbWFcEVYjXe5nKXyA26pw3YtVk-3eAfiKEIAKp--0tXE8CQuqTrUX3caDAaeZUZSEWli4iZgY79xy77WSD3_WmCeAooIY1dvX-W97JnFmkZGB_2aSuFtk1Yz3GhJ_5XpaaQ5sVpofccJKZCXdSerwdoZ8fqI6h6q0cECOwgVRFvjKc7Fuc2fEIP8ov5YqdCLUbV1sZ99beRJPzDSceLMcVYs-cvPY24sykOcw8JspJrZJeaQVkdUqbO9qyUsKGxPt06inWK2WE6", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113095709583539593990\">Tan Keng Chew</a>"] },
+            { photoReference: "AWCwydhL077Vvj8GrpfThsYHJozaTm9-4lw8ftqbdfQDIKTFwZZi9eblmUBpboNXBJYa6pxj-1sVtv1JRoOQokBgFD5FHoQvkg3YKn1kJkJb82r69NfYXdWCtr6S_XY1qEdYZoUdWp0xa9uPSThAoGKIzLBzO5_-R0FNmsKyrnwXQZm01AQ9QH4N_e_lD5KrvxbD0JjXTApr6HsHCtaH6VmlgAOXqftWZomZGq6WOA5Yty6PpF6mUogV-mFKL-PAVmHPq5Ut-hl8c76LSgRawM7q98TEV0rCwYYX90kuWFpo2vPXlhjr_tlmCoA9Md_fvBY8uX_aLJnIeauj6CRefTo1FSrz-gWVI8uM5nQLdvVLtghMRmcccgVesUfdta0-MFG7O0z_q_bh0SvDBYeoHKHUm6UdctJwWzK67LTXdA1NFbs2KBtcsR8kfBV5IKs6iv_5", width: 1200, height: 900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111356570966101369460\">Rainforest Wild Adventure EAST</a>"] },
+            { photoReference: "AWCwydi3pBu2j6Fs6fpfpVTSH6Gpdp8HZsZ2a43BV4iGQOYd9B92KSlCnfs86UhdwaGQCX6LoybdeZLvVjQKc8jO2Sxyyvt5EAmIna7IHafi6hyHuJxvpbqVRbzm_75HNAfIEDROBJhjHz-dJN62fTbUhvbIV3_-p5VfQqOjZ8j79nj1zc3uolyU9fXmg-BfPNYd-ZOymmAo7aMG5FgcoL2mb7pGkQVsJRcVG6JhQyOU-3ZGgoFs9UUPgQ7QrjGpxjE1DshAu9abQQkIz2yy-rSKn3mycFZo1-GHylPJ2aGW6DwPBkmDo83e8x3LmvymGewJgJ9OktJSHxgraRywxd7gjJEKWAulPWOgV0bRZ81KvvRc8nNjzRgp8F3lPmhZ1OW6uBxKXS5ZX9vAp2zrCeORwziJW4Cc2ANxDP0ZIxWxymEIom6xD2JkP3hxMf7aXWXm", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101780677852017046028\">Jeane</a>"] },
+            { photoReference: "AWCwydgaWImWCJ2CeaSvkJqvg7FF0flwn-oh21AwuCgS4pGBf7_S7sOeac4Sev0mAoMDgURMDESk_esXNFsLdfjZsKUA6zRwaL__v3AvRpS3wRQIBXaPOO65391bEh-GQ63-1KlZ_rTC5ofovBpGj3zHMH3G1E_5OU6Vi4YATuksAwL4dk1GkVuw2MVAbwluSQo44ue4jhO-zCqK_RrEdPGaXWdhRzzjFkCCkWYTPwV0iaSHbLy6CF769a3smMV8zmCPNr-TU-h__Wf_R-_MgGjXW2-9Xh_2I5D7DgM8pXxq1bxGApIeMep2xlKpkXuHcMPv5C1GMMMe4zc1e3wX2tb7uOpHHyG0i7h3pb_xFf3BdsLH5SG8Sv6fi07nczE8L-DomZhi55DX4DXjOHtBjMcgzcvFpaLbfPBoSoqDXVYF2C43TFL6t_nIM-zLcbEzTg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100871569702329629962\">Rachel Wilson</a>"] }
+        ],
+        summary: "풍부한 그늘과 다양한 즐길 거리가 있는 자연 친화적 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["캐노피 글라이더", "트리탑 트래버스", "레이빈 스윙"],
+        tips: ["공원 내 식당을 이용하면 대기 시간을 줄일 수 있습니다", "서쪽 구역은 상대적으로 덜 붐빕니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "80 Mandai Lake Rd, Mandai Wildlife EAST, 싱가포르 729826", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.mandai.com/en/rainforest-wild-adventure.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4411967173149249161", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A0%88%EC%9D%B8%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%EC%99%80%EC%9D%BC%EB%93%9C+%EC%96%B4%EB%93%9C%EB%B0%B4%EC%B8%84%EC%96%B4+EAST+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "피버 카약 어드벤처": {
+        photos: [],
+        placeId: "ChIJ2eM5mH8R2jER4b6KcIAVT04",
+        placePhotos: [
+            { photoReference: "AWCwydgkONzdvG8Qkq1GIrXY4rZxZ5HqHscFGDuMRgZfW3-HLyM_gv6amrJ2q-W7FlwfoQBhJflkNO-We7-QR722nXKK8Rcm59sjg6PP4EoAYiICwsDkTC-hc5lMwch955jagIMkYPVsyXEnKYp3lM7Ul0phLx1iD-RKIzp96ZT_nbKB52t7ZZKK1Mkwox55oNEtzSaqJlk4BDC6EUduHVTrZaebPIz0TtKvBIqCKqmtM2BrzRKdG0JOoxE11FZP8996-_G12aYvKRTtfmvVHxroLNFVxhE-JeLt8v25YDa4bIOmvjTQ28K71K_ii8OSuqWVWpCYQqLMsUJZAQknoju6P64WZkfjuwP3x_N98r61oXuT6qeTVZYOvbICj6de21bVT2ISzO4CiRjObNSKOrvRG5sjip2vkjbE_xD96msaZWUo3Q", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115912840748667548861\">Fever Kayak Adventures</a>"] },
+            { photoReference: "AWCwydhAJQGTwSrMKD7wwG2nOiiMdxO1lhWbAD78elmlZ2HZsEMsaSDYK7tIchNpXHj4uGouaCSt-_amvLNuKEox0EN1F3vaagM5xGRAok9a4OQlMq_fAs-SB87UHS6BfzQ3_ctl6v2FCTmag5htaRb-IUW2IOwQP_C7Fuggq9NqNQhqWE0w-SxkaijzLQ9vkrJFN6OoClVVIpi5THdkLItlKXz5J8bbwr2IydJ5rGc-Zah3lMYjW93ftJ_vukTjC-qLx75qmxXmQfHovK3lWSn68WeaBroAc0HugcELLjCQLfjzaZBtCRq_w5v63nklb7UE7oxVZwinAl2USIJiZhc8CRvlgzKEJM_6tEo4_RZxqE6h_Xyipd2_6nhDJX6S_8Ant5Xooh0351bcGbjz0DnHaWGtq9NGH_YqOnPNhvoBLTzJIDWUXvwI7HfZaNaJSsqN", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109673013727856704915\">Lin Awr</a>"] },
+            { photoReference: "AWCwydifn1JCBjfkq-DALaXz7SK1M7_5oFoqmj3L5VVt1pUrqyWL71Qe_oogIX0dtDC7blZSmC3Rb7hAce2HzojTmBE6mbr8SaJ4_F3aTkkWs1OZgmpyPVu3SCSbnQcoQAWBZZquS6r2hhyNdLvv8BP-w5Oib41Yo4eBrUkEe6iwXJ4BZufWJyGQ3fPZbnjIbKQTYFHM9TSLIqSrjUym4yROUevwzlzoP2g_-xxG53z88pMXvUzCE08YMLp2GUzqLRyi1dc_xau70kUT-t-VvElWE470KtJlJSrF_vz3P-V-6PBCo3uCTD4lBdA3-zAEA0HCEKeUhx6VwyTypZKkZWF_rdjbC8aNoN3beKIgiyk2Ojz3DJi_0f1uqcTRjFVmhDanfZ982Xz7y7uJMyRrpAv47DC0RvSdPIpZdPHbqi4GMGePqpiZ1EHfGo0N2_lpTA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113213818130265323622\">Crystal Zhao</a>"] },
+            { photoReference: "AWCwydg50KCMRu_p1bEJB4udWzHdSGtP_NiupmU6iRhCrHAQwUu1tNuZ0SjFPxRqFyFDdKk0HuNadHTPmRTPszl3T2k_h4zEqoYOCCkQW3PciAl1L0xIwnx_6TZJd2rnNGFCWNW1vcVkCB5Fwxc4Zs58iWRRxoIg7D5_tMhSr_VQefCdkLen349PiNMw0wwOSCM8714Ah-Lf_dx55d4lk3nQhppQWy_z9HU1k7_vTB8ixIKr9XAC8kI91A5g2RuEkzrIe3BIKHd_Lwzt1XyLkevM4WIFIxY3-9fUXmd7ClXVWezVgSmyDZnlQ4pHFExJDvoszM9UWp6rqhcu1aQGUzepufgWIKw0m7_pJ3ytWegFiS2vKLxgRAlQ8p8iWRgk3s5bX9rPZ6CdO5DSbXmOLbT9e3M1ZVD6oqiD88JbOa85TwIDuXCMCjehXF1T4kCE8uEy", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115113336709065710674\">Ed Hagad</a>"] },
+            { photoReference: "AWCwydjZx85V3qZNd5tlhi1l55j63RUc8lyyOpAPpQhqEgV0g8ZKPSk3BKUWQR1hsdsnaulc14Diy6fHnQSvbA546V0S7F07YKR35ZNjM9qNX52Cs2GeED1uKkDfnCfeoTfSCTWwxxrFq4v26GLHK7WbIvjrYVYgbKfkfrltXQ0nPfRSSAvyYMGkALU6hfOZtsi3nWIkjpGl0FJRwHdMpMFUpSf8u-vhO7OFo7HY3Hds2e-raT3N6nUnv58GbWTZIi0XeQQjuZEs9frRJciusTyc7hD_e4W_1Ujkkpm73fUsAaMQuLTjkupUwTKe4-tKrDouY4oaiQoVZksMIH4FBE04DYHsanwy3c_FFgSSPRI8f3m8p8QxlA4iOEZhF2H6q895GMU2tMpBe1XpThI1uGYDBFzXI_34i5G1W0_PUPEp0cdcY8t3lxcJ0P4BYFh6BVV-", width: 2822, height: 1882, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112212085140371103410\">raymond tan</a>"] }
+        ],
+        summary: "친절한 가이드와 함께하는 풍골 워터웨이 카약 투어입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 전문적인 가이드", "수달 관찰 가능", "물총 놀이 이벤트"],
+        tips: ["무전기를 사용하여 가이드의 설명을 명확하게 들을 수 있습니다", "투어 중 제공되는 코코넛 음료를 즐겨보세요"],
+        hours: "월요일: 오전 7:00 ~ 오후 6:00; 화요일: 오전 7:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Tanjong Beach Walk, Sentosa, 싱가포르 098942", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://fever.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5642752499506659041", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%94%BC%EB%B2%84+%EC%B9%B4%EC%95%BD+%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "카약아시아": {
+        photos: [],
+        placeId: "ChIJgTU9QHMZ2jERneZC64PmSpg",
+        placePhotos: [
+            { photoReference: "AWCwydi8VLvJE_Ju-Y7AkXz4V4NM94HYCHM6EGmI7kCZtnhXxAIc6uQSPH_GMuE5xqs0Q8PpjZC1cBTjiwmut2WfqP3gIwuzJ8Irr1jeXXkSrvL9LoA9mdzVXDBhVCYCgB6jvnSlzXYeX7RzbYnWhugRBalq59DbaNuWuTrTNtt4kyfnwzQz0JaEeLA-vq6B938JA8hdm9mdLvIFLxBVFRoRYOdQLiCmcECTlMNzMcEbTPz_NB4A-_8XjYyH8v173iNNtj-GhtuuyWuU0DdweHkRx5Jo0HSH1mY_pWxyvDkAxifdVAxzyWdCXbrhYrTYenWiWjw1knwoVMKtyROBLCzzRUyTSR25VUPxlh3J5hqBsr3wl9eKG5nbGs73h3oEfJXpQo85ZRHEeG-z4Pygv-zV-hIHME8c2MHqFhkXWxUMVaAqLg", width: 1803, height: 1014, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111979554820781484982\">kayakasia</a>"] },
+            { photoReference: "AWCwydi1Iyn_sLDbCLk3yHAL8L4AUZP3GQsONkUIYHHDV9VObUi2DczorW31MHbugTsmazG7VchKV_TqGMkGMWoVt40li2HCfSs6ProMnJ4jCnLo2OM_krHVepxL1eWbdTf9HDpjkzhq-_7rLBc55JTcCDQlUBeiTozHXAbZsfzg192kyZ7lkbzEr1pVClKPMrugzK3cAGZtBZ72WLa3nZ5dltAt-0zcp-xRSxqnjn42GYW-9Fr0pp0X7lDhNvxwWMHqeDL9gQhHVUgJtBJ5COza4qZ-_8slp7QCMFgMdl4UwBWUaFKfl1joxmDC6OfmUvPv_vn4uMJfFDkscuwqmF5GqJjq3tQ1K--qtWbMmEJWxWwFYgCbJH8Om0pCv0ToLB8QYJ4K2d6rvml_wObuTH3U7VN68UER_-EL0FwrwR1fkUw", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111979554820781484982\">kayakasia</a>"] },
+            { photoReference: "AWCwydh2BFlvcB7m2C7kw8rMW7QGpC29Sn1NLH4V3v_H0wwNSbs2l9ysT1pACb0RXr_2fhIvF1HMRbcAYb3eRglfH4Aw00FxiA5qJZRHyl6ZcGF2IpGeEK9i8__a1XQoiggcqUlk-gPtlG8epHcHm5OAtx6uJTb_KcxvSxnlIjlmyZLz3aIKt73SiDTdANAMqc-xEuE10E0dZSp1aCqJJwzE9D1KKr6xrP9MviIyVH0fjcxz_ceEleW9JykfQ7iDR1C_zIcN9XbE8C1nBVIDp-jtc9OwMMoXlPohe9e4HqIMSSjAguNjE5XLEIBzlIZOeFPla8FtDRH-XTTtGarRxr7T3eHNqR68MZuIz7X622HEsvjFKe0W8b7fTfJmJs_NgvWbo1jxK6dvhEh5wQmg_llUKttXCiKfWGAJUa-TDdU4WKV-E_Ir", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111288605724326575164\">Suhail Ali</a>"] },
+            { photoReference: "AWCwydi5D--ntimwAMJ6vDh3oRN1v-8IUfRO-w7KQr_V9r5KS9cwQyN-70tf-5hhzm4bYwZBkqaRgozGFrxvhJOaXv3wbDzLEshmPJ1sYRLph9zESE-L05mB8JVQCXIT1pd3Y_EdRW3UcSZ71VBtN5N4uAgnZ3FSNnJcN3oIcieeQIvwbyjDbk4CfytoQm9uHH1uYiclENBqt0bLTZHRWd4J4AM-P-j-8p5Gwbq3UuwM6McHUZu-SefEEXV5gF748pQakaxwRdcPq33VqYnaaz8jwMWx4B87mAXgV2YlKfcfo5sILhzTFrpmaaSNLOFueHejqAMwPZMvJh1tMFq_mCd_zMgfWzZdrccRcgrb2GqVWvnKvO5tEaX_wx7ee31FWeA01-T3RupkywSpRlLUDL25I5E4qArMO0uBFBA_Px0FEFHxxQ", width: 2048, height: 397, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111979554820781484982\">kayakasia</a>"] },
+            { photoReference: "AWCwydjnft_gYu_I1VJlat5bhuVD6erd3e-_lokAdZDpBQW9piwvqO-KhtyiqHhfth14J0s4SIFParg-ZdKBn9X6k9Gv2NSDuRpAmhYnMaAdX0Yi01kfyTn1ND0CPlVGUoVRCvDlzxUTisvmnOtisEUIbu9RU9DyzOUKNno6lvt73QEamvvTfXCTBwJOCgL-IEvvc0j28UTPAmXPWVM0w7tENokjK18W_4Z0tg324mI5NVLBncIICTFXe0Uf6LoLt-j6c4gdcbkhle3KXyx-aSgRdvZMHE__hTRTyJvJ8Si2kaSoJKmB818JJuES_JYDLddKBrSWZjmnQPY8er2pamzprgVuTZ5A14e8wZOlb0E6gFKlIumggrby0CXNxdi7HLXZQbfUcLyX_Sujr_4Nu5YY6p0WXP-bbXG_N-PdSB0y69S_jeA", width: 1024, height: 680, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111979554820781484982\">kayakasia</a>"] }
+        ],
+        summary: "전문 가이드와 함께하는 환상적인 맹그로브 숲 카약 투어",
+        updatedAt: "2026-08-14",
+        highlights: ["맹그로브 숲 사이를 지나는 이색적인 카약 경험", "전문적이고 친절한 가이드의 세심한 케어"],
+        tips: ["아이들과 함께 방문하기 좋습니다", "날씨 변화에 대비한 가이드의 전문적인 안내를 신뢰하세요"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "59C Temple St, 싱가포르 058604", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://kayakasia.org/contact-us/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10973836896303769245", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%95%BD%EC%95%84%EC%8B%9C%EC%95%84+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "커들피쉬 다이버스": {
+        photos: [],
+        placeId: "ChIJpYYhpqAZ2jERvsz99dsY3Gk",
+        placePhotos: [
+            { photoReference: "AWCwydhuJWLPqUJWnzy9_wKwF0j3zQaB_I2lqLKIrCR9aNCRwO_2l1VpoeQMTetHJiBWHBYfpSIAyqMftCwXD1YNaHgO6vm37O-JsaM1gBxvUePKvYUMl2H9xQ5fxgZxqtNMacws9YSWnZTJ3bDecZC3YD6xUa2qcZ4S06eXq458NXU5XOhh7dpjbGxFfhJWbAgvq6YvmvbSAvIE0m_GEl8oJOA3RR1awamqaJODWGcCoaxIOgbQyjRrpYGKnrhj-dO6Orrqc5wy9sJNCW1OdKELFEZIcyOci83GHzRUhSx_0VcIXz-TnM7DRt5bbcewbLSnqmjdGwjBuknkBzaSF1UlIIJ0uSh27Cqq4LrNcOUtzcmPiWU6tCkri8CdroYMNKkafCX6wMDQaE7z9Hm1yZGBU56t5Lf8Wrr6k0VmHd8Au-w", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104665383230229291011\">Cuddlefish Divers</a>"] },
+            { photoReference: "AWCwydgkRMHMgEg790kxAY0WSQJQWoex-aU0xWxZoDOCB4jo_qmbJNu4uCADSxO6ehV9y4tWFQGfzZdbAPViWV758djEcbn7bB1Q5AJRShV8cbx0LI1r2w8V1PZkAuhkMt2hwv6DA73wRRxI_Zb-o29Re93_ntsBz7JsCpQ7J_0fSplToMXqCWKlDtXWJlm4ObFlx4h90Ujqc89R2KYi9hpQKgEmK-g0Y23UZoVb29L5SG9NsrjRIF3wzMfyqirgzpGealOAuDW-QDu4rRpow90cIyxXTzADMKAYnwDaaiBxG1hMEU40isWThufgrB1e0DSwfUI7K8bjmyO8tyjAnlCUteNu4p89Nr2HwKAVMsRLlUBFGpUrC4GykhTYvNiSvs-oAdakC97oEtTkWLKcEqAHLI4fkhdgqfadEzLgOsrG-SewYA", width: 1440, height: 810, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104665383230229291011\">Cuddlefish Divers</a>"] },
+            { photoReference: "AWCwydj7wgx0aOHNgajD6vliT-23UxCpPgWYKbo0ifdAlpAzgO6gDiRpq_ZpPy7oKuUWJjwMSEVSXlmBHlj0MaWew6gr3rqccF3ho5GtSjiLzO8Tz7_h6sWBc0zBPweYmphdXTojsbDGZOX_XBCSLUFU3d5N57SBSAQ-el7EFhvUceRraXfSySzfm-GuYhOU8LQ4Prjcq63zThbh7lGuPsDy-WmksP6bOdJlnWmQdoxoroPxBWVhForSo3WdcW_X2qBKG99TtZ3bdY7Y3tnt2Rj8lu1YYBHdpTMhu3SQvfD9PyYQrlVhXu1P3u304WsIos-WtI4SXtaP3DravpDsBu710hDZbZKXi00dV7Lhz3j3xbHmHSRmYQb8Dksc6v4_TaR4Sz4yq81QUwlVxzIrrw4E7sDWGt6gpzL4aiYjDTw8d1P-0A", width: 1964, height: 1472, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104665383230229291011\">Cuddlefish Divers</a>"] },
+            { photoReference: "AWCwydhxr1r6l_HOdUPpXYUZsCH8KRRbgTz09MduQWLxpdj8HLcXCC0W445wGadHEBiZf7y667roJYmddALXaJWZXjB3A1BtmPdiKcTZXGWyreiT6fwotRnkavffrQjIxv-ldWK2yFDkXN_5hBXqWMGAo7XQECus_QzxUbgl-FS-RO6DPEL2DASF1G-6pmac6gmSmCJbbuwhBuKjYuXBq9l_BAffwYz2ceCr357bQ726GnLDOhFzNnqDL2AsFNBxjrXW1cpjtS_vr6Gu1BsKpN_RHPhSq2CxIeNnVNwS3T7UQNbMRmnn3dshIrV_0_Af-E8SqzbH3FtyfOy_gHGTYoFZCEVfwjr3hQ_xtA7pA_UsRMeP4FIf1qRXBvhXqZMpol15wMGxuL9YWL4uguwS0B8FmR2IfWmL3_oJSVAJpzlow0Y", width: 2856, height: 2142, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104665383230229291011\">Cuddlefish Divers</a>"] },
+            { photoReference: "AWCwydgOi03oU3aaF2R22Whiom8IAVU25TuC6KqF9fGjdUkGQF_NMqq7ArQM-WoaSljnKZz_SMVAc3ukGCqh4AhuMOBPkDMO2NMyBFSCxwoJawleXwlM2ew8uNhkpQWVQYtYp_e8vfXjUQv0cfNRLJg7fmSltoki16s3KlCP5eidb9NILxBEMU7mc8jyH1ybqFWdsJgo4AwoFo5sW4D3c-lXqTpnqEje2YHm87J0q_qnL9JvIrnRus1Vmosm1E2cTQVmvbdaUQJNdNbNZlq_VyFQeLAKkWG1lIYakLq93yAQWTdWXikBxlsXVjIKJBuYKVQ8HNjwagtLpt7HFL-pZXk9Udb2Ewvbx1qkeL-btrA6_Pfn-Qi1AVN1HcAGRRRsJjvL3CxtjVjJ3sM1zI4qxLbkuqndS73SU7z1lEe68AZl8LlALQ", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104665383230229291011\">Cuddlefish Divers</a>"] }
+        ],
+        summary: "전문 강사진과 함께하는 안전하고 즐거운 다이빙 및 자격증 과정",
+        updatedAt: "2026-08-14",
+        highlights: ["최신 장비 관리", "전문적인 강사진", "다양한 해양 생물 관찰", "쾌적한 보트 시설"],
+        tips: ["오픈워터 자격증 과정 이수 가능", "다양한 해양 생물 관찰 가능"],
+        hours: "월요일: 휴무일; 화요일: 오후 12:00~8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "39A Jln Pemimpin, #07-08 Halcyon Building, 싱가포르 577183", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.cuddlefishdivers.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7627999201862732990", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%BB%A4%EB%93%A4%ED%94%BC%EC%89%AC+%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%8A%A4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "패션 웨이브 @ 마리나 베이": {
+        photos: [],
+        placeId: "ChIJ0QlpxqwZ2jER_FboWadlmn0",
+        placePhotos: [
+            { photoReference: "AWCwydhOBX2yrz9oJ0EYqHPAdyY1YkV5a0kIFo-E1yHlMWZe47dUKc4BrQ3deCx1weNB7xiUuRpba5qqdV4zhOQUCS-rAT4-_Psdcrop7sWfPW7zRcwVocOfxAX_u2nd0Fl_4nuqge4p5pizz38a6R9BFO0Ww75IVXTLyw-RnTFjLCiC_pFZt0kSHO9ekXNTwEuALGfHjTIZBHXSC1VD4Fl6_uqv1G_2DOeYhthRH53yH0vniEhxL7saN7foVFteMDM0Diz-6zcj5WAixzxvldmsBzbYuBaswl1dnAy073Ai90wF14mzHnZmNiev4QTC45Cn6qPWcBSIbwao5Rw2MKk0rGrPNx-iwP-6K6Ixu5n7pcu3A0A77Ib8X_QkHBPzhnA96VjAw7CINxi9rSw6bZjyBBq8xZUoVw07D0qJPbbunUbjC1hK", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117694321999811982098\">PAssion Wave @ Marina Bay</a>"] },
+            { photoReference: "AWCwydhyiRqiXftawdVfOznUUUUM3AB5qQ_wAAXqo3U0DKGsjWhv6zjT2i22rbwbc3AS_1EX5FMRRdxvW9AUBQdl0vJNVMeDv7MGGFVdPWkrasA4Cl08zh4nF6yvZNFr0t9V70KPjSzv0pGr_NstlO8dxyb8FI6EkCmo_Oo_IVdKKMuOkRrbcnRourACAOvjp3mVqYFdvWaJljhRMOwkqyA4t1-J-41gRRBYVjMYM65-7tQJ7e56MnK3WVky0AsQQ_I6EqyLEfJ1-__Tb2vOR7NM0xq2Bm8itrbqlLFojh3GTXEEDwg-YOpKVU0QlyNSz_TrUikND40i8AiYw2dFhoygpV0QAjFcNlN2OJ8h2xrGBsDLCSkPaIV8fBCCVPv1LYBpnXBA4Sx4cdo_0_B-_gmLap9zP36TxBI-ALchjwtSP1O-nhkYxf_Y14CmImCUMmDY", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102929981247209299741\">Chua Germaine</a>"] },
+            { photoReference: "AWCwydiRrzF2G80w3k-prmDVHv6UXz1t0BTAcyxcjydXUW81KEGi-lKoKEopD4hljrKtI1mGMyznVgmKi-9q0BVdBQ79Qtnok2J44HPuc8JqEZ19365caOsAckALInMWK9WzPBbHIhqnCIYFdaBEowEBfba18rJ2fkAvgzQtleoOEUU-XTA_HdA37GIJThA_MUxuNvNF06DrDzZYEJIsHEUfahag9sgbAuMf5E2BpWbqUl8isK67xfZt3c6dEirN8oqzRs5nhhnjhIMFFLkDF0VKWuVN9bHRufkF0x_gkL357WlsMQCO7JtvYEizjegGxHOxXe-KVON8hSZ4AmZuJ8QtzBdTRauUjZGs5nKpkfwqbcitsbp76QgOQbnBTq-uywj2bgC_FUOuwQDy2N82MAcCqRcg3gSPxjQuG3ISXQ", width: 4618, height: 3464, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116678199091086593394\">pehtitus</a>"] },
+            { photoReference: "AWCwydhvLt-Nq5OMOy1zWRgUUdG3yW0AxnRuLZUpjFzlRYRChxpo_7hOTwCymKS8CYODhCgdeOnwgxgD6BKQUUcgwsZzC473j4te1t4rZo2REQm8hNW1P1NRgaTycvE3353PSHksnxbJvFWdomaaWWBtIm6sbb8i_yJdrrC8_wez6EwAtXJeaNjQUhf8zlZ-cn_Q0uh0PkAOws1tBzBqpjQt2nX_gEB-1gH0cQgsEQxTa9-G8cjMPw0d1FTfBBFbK2_VfTBWfTH8z0jL9awCqBJEKAE37MpSaLvsSnSULymK5UmpFcJmOEf6ZG-c4dqGr7BtUQj6zg1GtZ93iyOgCHz2CbK7KTxAeEnm-8J3Af96Rjk9lJ5DDApcVuGvQPaCqFTwc-7SB0cYQQXBLiCiPtdSqhCxZ4vk6oJgB7sGcCF8NfAwejSClvU0qmySJdOK-wCZ", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117900679284458770313\">R L</a>"] },
+            { photoReference: "AWCwydgfSjY_P_EqE5gs5MlYnAZBa92WZRV-nXXJ9VYp6A95nqCQqkBiZMOSrEtm2nemCOp1uwvfRgPqecpGFzkcXiP-gjY9H_kMhWkNB44PDJv1zMvpwZNbtJbxCFwCnRf4g0MT9I5eiwf3YTt5VU1VzqbEz5RN7x7SuJ27FEwHXjBKRYjWAFaApqRDUVkkskQdQ7CO3NwoXbiSnfpUAjK9rsLtvvinO0u2xC9Pwf2XbQTCnmmk4jKTkiVOx--jCOtDnRDXkYEffo6GHLLumaku3WpiabdjPeJ2JC3PShpVld8YyYHy4Fl3cRIjAiHk1nF4hb_X1oLf5t00a44rCkO2Hpd_4Upyj5v5O1Xy2YxoBeiNenNVhbcv0xbSfDy_Y1wMnnQlR128e--LXVh66iQNUAok7bPWEqp0bBZqPwT6lYPfMf8QjDTMsS5iLW9mcjUV", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113358641978982843425\">Daniel Liu</a>"] }
+        ],
+        summary: "전문적인 리더와 함께하는 안전하고 즐거운 드래곤 보트 체험",
+        updatedAt: "2026-08-14",
+        highlights: ["마리나 베이 명소 조망", "전문적인 운영진", "야광 패들 나이트 투어 가능"],
+        tips: ["패션 웨이브 옆 넉넉한 주차 공간 이용", "야광 패들 나이트 드래곤 보트 투어 참여"],
+        hours: "월요일: 휴무일; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "11 Rhu Cross, #01-01, 싱가포르 437440", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://go.gov.sg/pwmb", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9050658170596775676", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%A8%EC%85%98+%EC%9B%A8%EC%9D%B4%EB%B8%8C+%40+%EB%A7%88%EB%A6%AC%EB%82%98+%EB%B2%A0%EC%9D%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "라자루스 씨 스포츠 센터": {
+        photos: [],
+        placeId: "ChIJgVrZSp4f2jERMPkBp2Mbpu8",
+        placePhotos: [
+            { photoReference: "AWCwydgz7rc5xIt-uFSlnAXGICKFv7V00-oxS5EUt6uWWEpmGcSz7Kzw52Ck3vksyMB_aVnpYDtLzAVO2Y6F17mdA9Ew3CvC-G6Kv8xEzW5nDCuK6P5salMr79lJxPFHDJo1R3y0nOXRbBt3GHh9zAIvm0MNJDvDeu7wRIafPVctE6eMku7jp-zi9g38xiH5cbb9GjFAbjYSTpS8CPnDasYR3jhbp5TXAg51xFGyiG9nnIZ-h-rjkgBkqmpP667e22yotEkD_NmYXuUYprRIOcUAxwi4i9lcSFWjUqeVsqQ3yektdsqw8gPJTUP-y5TLMu-WPvJ2TdxjhxubiVxyTFlA6aXkJ-lcM-mM3qrbNlhlCFYryUII2riN9HACVXm18MTWvleMgM2mDBSgV_tLHj-yUkP-UjXNcdNAcXL_hd5LAaoFBLsB", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107681942187818933054\">Ron Lee</a>"] },
+            { photoReference: "AWCwydiwvZEfuodAtd8nCG6WtU0Y_HpoVrpyhUeSfd9Kg5A0-ZmJ559a9zK0P44ZhOT9pBogK2xTQWvuG0AIT2DmkWPfUtK4iIc68ACmz_4Et3r8z7RVpsMtwwKw6vxNy3zj96DZKLdOr-rpRSw1k3eQ6td0SOZJT2HhXRIB7Bj-bXF8uImhCxfXspMWPkEZXqy7HhepHvFuhNHWLuC_r0MpRMSYqLZbbKRKxs0TixcLQPls7-yxdKy0XuWPibvlhv7ZLHsu0zWAQmhnrhC0ED-71FuXcpNTguiUxaywcEeJj9rdl7aKEx0rbZ3IkoV-AWyAFlDdUOgK-cFB4YqVsmTFtT1T0rkfA1JbaIMbparRgYLZSQhmJOikb6bloIrZyfcuLEwbZTRpOzwVih3sevoAxqMu2BgPxe5C6jCJLBo1sNwrNbMA", width: 1284, height: 702, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108446864556413414105\">alvin leong</a>"] },
+            { photoReference: "AWCwydgDO8VjDw9K6lXuxpLA3QR8WjF6lrDZ-SGb6LF3rb5O-ilq7jgXC8ELdl_4_8TIR9sMlb_OiZ_mLRF7CAhfyCCrgB0Sdhy7usKSmVRcqjwKU2kbI6c_FZzKTzWWS3kqH-u8-M-rh4XWUCoUJG8FUsDmtCWD59zCSdNWV5i7BaOno8dPSbIAA3zbi7tG1MctwQw5fpi49foBosQ4USOkN9BlSc2wbINkGp-rHGv63Nl5Zr68CpveNB7IauGPRe1xkOSN3x487LKuaa2C1t8FC9pZI32UyqhN3SiO9ElpWX_dEUoqX2FaWk_4MIlTTZN4X_fTScmbtMOHbQRuhtJ_yA3qtNny3YQXv4suDFWRF_hMH7GPUZSBvJYINLQIeLzsFcV2oUzooaxTDvz_5cOyUPfWLAUhQLvq92p2vpjiKMEAGN2o", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117015952917937818829\">Mavis Lee</a>"] },
+            { photoReference: "AWCwydj69EWRs5kVts7T4ax4tbWMxUvvPF2T7JarUMRC050J7hTbNw0HNL86KRFzdV0LK6VTbkF-UrdCIhLkv-ZZuJcoMobeJCOuY-GHeRQH02FQk2AdNDvKVpUO5-LqQX-rz1dVWPhpzLLTetCXNxWtdnfwHCRvXBdfd-8RU5sNYuEzsM6g29BhRlpKlLB-Sd4eUbTmtUliOYSeG_5NSWhoLrJf_NR37my1pb4_GfNs6MIvLTctmh_107h8F6pPsd3aFZJGs3Pbi6ZcXQUR00iewzASkcNmdj4U_UW6rdU4Cc4awrZVdxHzx8ES4GTb35gd5iUuAj8f2muLex5WyEYA2rfn5r9uPGH23AULlLRN44QpREYtYGPPxoMf_6GHfT2Vcy9S5V-pacI1FXeK3Mb8dtTuiXiQ0UcTdseonXVJThc", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109384415496435217762\">Charles Yeo</a>"] },
+            { photoReference: "AWCwydiB9L_ib9R03mw9SXhRb3DKg5E9MZOjvagC5Bw8bwqABZyUrLtly2UQXlt7DZmL2CvQnjtPF-kdd-RJGVo_Z81gnhEmUkqUhjt2A5DJ3q-lDaexVX9aI5yVRbwoabBCyZGHGpD51C_QXqdPXNx5ru7D0uaHr5zUqzJf0iZA98bj8VnluRG2Dr8qDOQSfQnR3UOO_yx-ZJh400YX9He3V9ss4S4XXukVOoLYBos5ILS9hFBjRznZcr4lueING_roGka3tytbL8tu6qvTIhkY0P1jFiFR7EQtQ2v6Eio0r-WLejvtXmQMKjvj09bDFzHFurlo9eQnvklByi1zQKQKqSRf8yp3w0FkN4zabxk1RRtyy63HSuRVOdzNmLxXEvSZ7FUkK2lwrpSNJJrUyUQzhUOrCMJh5bf8YR9x0ChoYTdejA", width: 1284, height: 700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108446864556413414105\">alvin leong</a>"] }
+        ],
+        summary: "카약과 SUP 등 다양한 수상 스포츠를 경험할 수 있는 평점 5점의 스포츠 센터입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전문적인 스태프의 친절한 안내", "카약 및 스탠드업 패들보드 체험 가능"],
+        tips: ["방문 전 운영 시간을 반드시 확인하세요"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "21A Pulau Seringat, Lazarus Island, 싱가포르 099555", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.lazarus-seasports.biz/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17268519936016382256", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9E%90%EB%A3%A8%EC%8A%A4+%EC%94%A8+%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EC%84%BC%ED%84%B0+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에픽 워크숍": {
+        photos: [],
+        placeId: "ChIJJf53Pc0X2jERHrmuXI_qf94",
+        placePhotos: [
+            { photoReference: "AWCwydh6HjQpNCX1iee8QQ38cqdld_-6grDIRPdg3v0h_UfXsSJOVccIdK3cRHUf90aB_VlKW99Pg3mjbeRhWoevKmFnmRZMwWqEc-almM7aOBE7udaa5dQk2Nn30nYI8xEsivq1UqHA0xIYw-Vl3NhtvcIJl8vtdb0DZS6nt5JtgExqdONdc-HFT_Wx6Z1TWMEJpOhmDx5M8nEBQHsi1SBC6djTFgVJjnfe3oPotv0L5LTZ_zZIldvs4dJXYP6bSBAPzA9VZ1qLkaoYaD-2JA0A-JN5akPfb70qmGAXiDAOEkIthOeyxtnK9H3CQupnZyZ-54drCefeJXTCp2XSt0-9Vm6TZ_G48JAdEAaXSTAdm6Snme141TK7vF3yzljLBJ5edBrUrWCzGdL0TQ_HxEKfuEFe3XXep_bFeoF32X8QsCz6Bg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102658112446297265953\">Jasmine</a>"] },
+            { photoReference: "AWCwydjxZNFre8siOIF0KW00x9wmyOVbv2QYpCSYwlCtfjn0BxeIzDNXHDUZ7mOGkYlnTzmd-f4XtbpOFBySYrpbWJkvJvGdfTKrvcJK_JZewXvsShbyXTb5TMeJc1shLU8rKa7pHH2AwHSxkZ0CwzgIU9NGhToqWPTzbalGt5vdoVd6_Fwxp3l-s3btosNYh4WSQB9hfOxLvWcbEAFrb01szzAzT8XTyVjrLxJEYcgubDvV67NTmkMk6LXALvzmDlCalm1sjcZ4SEWnwFsQzwYxqJ3Vy1jGmi0SnWKRgEJtcV83iXX-B87f1RzS9XHMoWmK8QMTW7d6MT_F2K_e0SJ8gfD4hms9ZI5BhajEEsaGEp9vQg8KyDWJ5yqfIDsz6KhKyL5ys3tmiK0MjAeF2MTn7yjza1XhY0P4fjRuHPhbbO0", width: 3024, height: 2961, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118426901522818209782\">Glenda Teo Jia Rui</a>"] },
+            { photoReference: "AWCwydgLz6Tf0O3mIKeZr5VgslST_dzDYSiARaSYke8IisjaywOlU0-MHJvFMIv5xYQXj6hJgDZUjWZjhgYkbf_rAL4YqnKgyF7pdiSND0I6q9PJMgLgiYM2v5676sIR8L8ScaO8_1f6qzeBHKkglXiZXZskhPbIKY_M0Ri90FaF9nIwn5pzbx2xeShB02I6eXSOHJxHr22DSGr7K1lVtek-x0fNIKu-UhJq3HE6U4Xqq_fkj97_R9ZYL2IOieduSkaOx9lSl_sQ6PNFO0HDr-8XN5w-RGqhNjYigRjvIEGaV97-YIs17ymOGtXdBV5_bhJYgyInwk3BY5C2Wv0YxlK2l8Yyi33q4BrFPqUskslnemndkhWBdGunRzQ7hBHzWtCdCHjnv0iqm4dWW7yiNp4Vi-Rw0v5sWusRXH4N0baehXI", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117537992069752651413\">Daniel Hernandez</a>"] },
+            { photoReference: "AWCwydg-vDJcmJeTNccbjbi5pGMXNt9oXW3iTfQjiTQxX6T9aASJgN9uVDari7uXU37Z3Xq_FnesJ51KwGBMxfvj6WebmnCVGb4YONoT7PLsfpXkGPmzL5PHAKih6EiSYbYVJMj5Gcfjzl7bDmpRLgfqSenvm6mxWvg2cqul60MNPHWq-9jCX8D6YzF_lmiIEVIW_lKPXcbVolyZVmMWXty5pM8_87kJCqfKjr2lVOVAMfsAXDA7_0mGjKOP1yvYj77j1ilQvIvau6xv7-skgfdfywwzpyNgZ7EP7phAwhNUU_rtykoQuRorLffCvQiXb0RWynZyI9XlzTrR8PKDeofUTAgPmkOuHJtgF-h6EuW3O88_B6AfVTRdcCas_JqOtzDZ7A3IkIu4DVlusTS9mEbzy4-0kSsbDvtx9n1eVbpN9k0ngg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103943798403384585564\">Annie Heng</a>"] },
+            { photoReference: "AWCwydjwnvYr5FJFMWf5TvFrHCI174yG6aw7gjaIA9Jr_jUQr7CAWTno0WKei0sM_Q8aw76rys65iDS7obyjT60miLWL4ryxv9YlKbj3FFdnFADi1YiHSpkt8F7lM4gmNjgPWI4QCwaCN7EfzVPA3FlTW7jh27vHwJBcaAm20fyAfFE3HBsI6VI9aoxydrF1bl-0c9GuCvMAaNG0lTtb0uvcSf6pBlSSWxzEnYWTNamJpUSX4qJ38MXvnU5VkIs6EpzvhtcIEc4K6ap2f72AHEBBeP3dJoqXi5kaDrOBqIgKJlngb_HMGEcl3Pz0WiuWD4n-0NOCV9LuP2izT3FTlD9VSFKba1a47dve4kJYRxBL8gjnOiDwJwCk9_bgmQmBIO1gFYT1-KOtwvqzilQ9ZuOqFADkb1KFU9gIvqUheuN9v-z-UPqWMiDlfsqolGWJtnQJ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109375350060790624061\">Priyah Haritheertham</a>"] }
+        ],
+        summary: "치료 효과가 있는 고품격 워크숍",
+        updatedAt: "2026-08-14",
+        highlights: ["치료 효과가 있는 워크숍", "높은 고객 만족도"],
+        tips: ["워크숍 참여를 통해 힐링을 경험해보세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 6:30; 화요일: 오전 8:30 ~ 오후 6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "37 Jln Pemimpin, #03-10 Mapex Building, 싱가포르 577177", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.epicworkshops.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16032791099918432542", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%ED%94%BD+%EC%9B%8C%ED%81%AC%EC%88%8D+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "디 오픈 키친": {
+        photos: [],
+        placeId: "ChIJf1qEtaQ92jERT_HJ0tWXF3k",
+        placePhotos: [
+            { photoReference: "AWCwydjeW1xC0glkqZ2MMKeidw7NEHkEFZ_Xgk5_24b1uuL1uOVaoXmOoG2lhr_B3_VfRG982vRfThOQQgPt-tuFyOXulf0aLrcL0oUA7jraGiUN-4p1bBXI3AyVWtqMLUmq5XYkKRZMAj-IMQNANUPIdk5Yde7t5x7KT27Jjk4LoBoxqU3uJe-rMKEDOZQ0B4xgisQQ2QILCiUECTdFFYDlC0LUsU4CM1nZM5Vja2L9LIhuU06hnN9RTNo2DRv9XuhRyYJULu3YlHEf3oH9AItWYznJCuihiR6YisYKzBjU67LU6NOevNBFfAup8zazJDJKoMT4SiCNn1ey_mur_Xeq4RiljFpJSPDzKCNGnhS9x17Ts41EXIDHwtVoAfRh2BiCVjIJOTwK9oTsqhTOr2aOFb2JkBFjmO2yL3Gnd871QEribYas", width: 800, height: 450, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102951436847332296981\">D&#39;Open Kitchen - Corporate Culinary Teambuilding Events</a>"] },
+            { photoReference: "AWCwydhebTQha1Gsfeek2j_teTrlxkB-ez0sqGI7d9VakLLfl5laXT61ZwSmZnfMJZ5unkWq6npvhHlbKKFlDfuFfI7Vkoz8ZemPWIL-GLdKxFpCxrHpmn3wZHCNZq5yMsc4zWEkaNtjJH57ovirqpg00i_fVhbhEq3y8glWxh-6C3Bd5sKgbJ4sV3IDtUxYR1v0TkJAt8tdH5ZXSkksrvpW5XANeMOycgwbvX3bcuHxP1kLPMNvsAPy5NsLpJ6DcLBUPDFfp1UAhQrBk-SuLL2ZEXJyUWVAn5dvQKp9UsKRUNRiL4IkUx5meHngdFS515i0IdpMJbfAk92GFIhl7YGSI46rQg8s1FwbRBoYffTrAhm68MJDZOvqMidIhv8Sqek7_6B7i192U2aOh4Iw-uJVKK2mNJWu6cqIuT4ySY2tLSfXcNuZIeGAqZHHjJ5IHIqS", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100286415075345823712\">XI SU</a>"] },
+            { photoReference: "AWCwydiZ7WXe6QcQTwVspuxMzvFqkspq5BKW15w8-zJHegwncHaE5IdrImbNLj_6Hdl3b73hk-K5PYvRP4kirIf5ADchLR8YuI3FSp1uF9Jg5Y6zwnr5JU5EB5ZiWWymL4nQxy6urkRi7RVwQvstevPeJ_-_zVsUqTcgCK71DKNdhxgqUgUQr6xT5Iuv30oe3pvsuqYRvMBc-kXw3EbKu_6WaBSSDIi04tBJZn0fFddzfA_4_BRIPp5TWue2l5EeJDdwnm2oit6-tL6Fm23r4Z6BXjEJB7G4_zW9NvL6cMzcBys7JEhA4DZEyD_1bzBFsuGPrOseQgD1lCtli2JDKBYT7CIGbeYL45YM8VLrq2gDux_RFvJDD2EkyD0Zoo01DEAE3AlIp6N7K1oh_eiFeuuU81Ha6G7MuLkPsXSj8rjejplmFk4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106878831295161756312\">Esther Poh</a>"] },
+            { photoReference: "AWCwydgfYwjod4yuF19q50HJkluD_OqjZ0eztbWk1gcHDKMze9kgi5anyvtcgpoxVgH1UVrJN8eGVGEI55HZJO_0X7meCgAHpW9ROKc31trU5bW3fcVl3AOBUhmMTqkUQV5zOeQwd-EdRgB2Lg80ZsA-07VCG5q4exmvb8_VLyuYKFfH_vuE5FGi_jnrl6UTeg4cBCKVp-bC5FwYwLYnqaqmeYCp3Qpd8uZew6tHfXnb087fdSKG5RaQxBqzn-sW1pu9F52biuOhhDFSoNABrHNY2wbipruxmloEvglLaYc4YY36W7hUH0Y7VwAp_yO6NY83BY2r7Jcff_608CAYTVZQ_yufFj5rx89ZJU_uJiA1TK2D_uivRvfVRXDwe6H25aLpML6bo6SRKzZ0pHDXRewZhAcsaYHe7WK3Rw3hkGre7bQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102958367688752749306\">Collin Low Thiam Leng</a>"] },
+            { photoReference: "AWCwydhK8BS-m656FSLG29LWgp7SFAst28begeYjTLuoBOmb0bzc5arBZLis92GC_77MMrohNs3cEwKY7TMiWk3lkGnAhtjfXXPHqDVtdYqVG9oQw0nXy2lT1O4rb8PwGx5vaXTmI2RZjKbpFPIffucfLzXqIgdGELj8EZ17ZIcedpiRA_Fa3pHtRBbuUNG5uP1MgyNHEztR-6cSEe1jdkTuguPZUo05U26EU1StJJ6s2rWvwjkTPVeMTgsho0nmtO3gtLGQb8GU0vT4h42TsyADTP7wyM-yrKGbUngxYGbQ3CkJ1plfgIUAR7-ZvPjONFRMKQXigK2X0-iQ4SXTSinayJY-w_AKfVNXlamxJD0oZM1viiAWkrWckrmc_kEj1_HEXcXernyQc01djagk1okyz7m1qdf_O5mUFpugBaxLTssvMKsAoDv9csd9v0IkJiru", width: 4000, height: 2252, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110327982324194867931\">Weiwei Loo</a>"] }
+        ],
+        summary: "친절한 직원과 창의적인 분위기를 갖춘 팀 빌딩 이벤트 최적화 장소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["친절하고 도움을 주는 직원", "창의적인 이벤트 분위기"],
+        tips: ["기업 이벤트 및 팀 빌딩 장소로 추천"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "6A Shenton Wy, #B1-07, 싱가포르 068815", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.dopenkitchen.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8725609747673903439", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%94%94+%EC%98%A4%ED%94%88+%ED%82%A4%EC%B9%9C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸드 플레이그라운드": {
+        photos: [],
+        placeId: "ChIJW0vXIG0Z2jERg_ae8DP3ak4",
+        placePhotos: [
+            { photoReference: "AWCwydjVm0JHSrRni-FHEH7AAQfQp2pK-HoN4zEVq4eM4XCHyqkUO6Obr4uCDBVJXhORL9c4zpZELdgYjKC45KV0RCQQVP_2V4BqfCBZqsFJn7iE9ff_fs26EVgOd5Nw1nAbS4K2Qdh4cV7OevoMNzsU1G6UjR095Qtq3QneS0ywcI7_zIHTKC5_HMABI3EJnHYtuPb9pmBO7GLJ9UfKVfVAlhoIli1Gt3aeY3cgcVLVDu9ER7UGg66Ei8Sbmk3MyAYxTXcPvxfrxy5cI0w7wi3eRonch6VSooUUuq8NfpPGfY1Arb6ByC4jfIhiEMNFqkdxvdO3IEFfowhtHGZyvCyArp6IMd_P1nzS5U7Wgph9vIpjZvdtXi9thsI4_Q0VnWNXrnJtkrlVQPcWkeVMs6yl912gpM1UnJznxI48MhBdP-ssY_UvExi0gHVUxwGEPRYu", width: 4000, height: 2664, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106694086400943075397\">Food Playground</a>"] },
+            { photoReference: "AWCwydhqWbOURnKeVKwsDyKyTrATtRdaeGkr6MFbcFS87qgExldB5tOc1X8FqlBaeUGCDq9VZWoVblDFaNGfexTrPH1o0q3t4dJ68idxNzXvufPAVg537aIVNgopEQ4NK6pLEC8pbgK6tGy9zkzot7BYbuSKgq9RTSBBEwzFGUDMxGOrE__9JwN_H4NclyJMFuHsmq_INzCOwzSbjszaJr15YOuh8ai4oOdNjp4MQDpxXFiqqgXKvLUD2dJCBjFmBtFwgZNMv2Ngd0JLP1xnDuWJRCOTZ963NsVuucah8NXljb-Nitxk6WEB0BWJ_F2ar38IrBq0_aiwJWsZMNRSzwN2g5VHpcy3AuXC5XT5bbcC9rUhyS_vaK5DfqNcgmO-w1IGLeHQ30BBuPVtRe9vxRLr7xpeKevo5tI605r2g3iwqhxMBw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118355565691938791237\">쬬로긩</a>"] },
+            { photoReference: "AWCwydhoguKvxpFpJa9Fi22S0Xho9ohOZMwEQVvaZgadWVp93mxcGzJfIEJfzf0QvMEDZxmybJQd2duTW3izo_igJDzEor9Sa9HONxgwa0tch6drxMKQ7JqicLLAnZiRpYhrkULlwmQqSdvDGfaU3qhxxdd-YWOYU0fNrgNlTnONGM26djhFYiNut21MNSkNjkMhPegyzXXQRG4HPmlMduljCs64TiRenqaPIPbmrSIr2J7KOONtJLSFG6GfKl7BzyyTQSDtVcX7R9i9psFR4_0MYGztRUJGKmsMmvKajBiEIpX-1uGncFcmOvr4TQr3Ec0jbeQKeBBGsaY-ZfZcPrYolXEzGHszMHT1b8AD4dOigN7qIXCIGEpPeRHAAOdpyItXmHzRHzV8o3tKs5RcYpU7O8RexjP1EsPy4VIqzhzNZbg", width: 4800, height: 2400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106694086400943075397\">Food Playground</a>"] },
+            { photoReference: "AWCwydhlQnKOtCvr2xiWzFd-0CpqIyU8Z9X93HL2bavoUawqKh1GwIahq5Z3yZ_P5U0J2eC-DSFAEo2yDFRy1DoIUn89KVJ6QaLFbcOovOftt-WuIFsRFTlskpnKv2K6UFztQswKnq4D8yML_BS_8_K7woXjniYwinGRXBjfjV1RU-KvBUcLyjujBlWcF2yhGRZkaW92FNTYokTA9npdtSuBGe_X8KLN2f6tNx1S9qiJ0Zy3ujXYcoWW4TkCxkCkROHiW3j5vgU4axVJHyT7_oduBsvAnICtVT3DyxtvosYSYdklJoys9Q5aOC9QqsziLBVQQXg6dwd0rnzbdXqH6li0kqPyxDhKFvY4Zj8qozLYBufLcdv_JFpddg_wNx-e3uJFXeTwMIQJqpohIlHzQV0fffLCrcxHuaacbon8iaq9SuOnPZs", width: 3048, height: 4064, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112316273815177053310\">ting Saul</a>"] },
+            { photoReference: "AWCwydgBZ3slubmBU5ybWHbtp9pMVgZqUdwSXEiKoasSO1ahGDMv1sR66MJSpIeWgeVR60vfBPAwboGZjNG7CiVtLZycaCIqcu4IX9m7LuSJXBiZI5ho0NIDUZb0dHV6w1-TE_ZmThSisk8ZBTwMyZvvmMx-DrXu-Li9UMtIvhQ3oYYbj3ajX67LIw4HA4UGV6BVoodJ8uygK1Syr1KUCxqQM3JFhwN48qEMIeJ6yrH9KN08OIv8PvB1FoEHNxRD1jt_VOuEPZaNZzralnZh7143cFiwt4g-d1vqROvOyneD-6I3ybbsCTCWKnFuIwaIXkdd8TB-3wlXC-BdLQP1ZDEAlBO2lP9FpiUcCC4F_77b298r0jhyumq2nt0RkveBQYTTUnisGDM_uXVrHMMKfaHrBRXG-MBnYol5XLEofePDnPvmjZM", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102505572814063271056\">candice lee</a>"] }
+        ],
+        summary: "동료들과 함께 맛있는 음식을 만들며 유대감을 쌓을 수 있는 즐거운 요리 체험 공간입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["팀워크 향상에 최적화된 프로그램", "모든 숙련도에 적합한 레시피", "전문 강사진의 친절한 지도"],
+        tips: ["팀 빌딩 활동으로 활용하기 좋습니다", "다양한 현지 음식을 직접 만들어볼 수 있습니다"],
+        hours: "월요일: 오전 9:30 ~ 오후 9:30; 화요일: 오전 9:30 ~ 오후 9:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "24A Sago St, 싱가포르 059020", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.foodplayground.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5650600484942050947", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%91%B8%EB%93%9C+%ED%94%8C%EB%A0%88%EC%9D%B4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "키친 쇼다운 싱가포르": {
+        photos: [],
+        placeId: "ChIJEz01O20Z2jERao-eejDkACs",
+        placePhotos: [
+            { photoReference: "AWCwydhx7kpyQJLYdqR0GGjb--DhfDA0N-tQ2D3oQAB_isCggoZ679-eiRAxb6qQmrdGn2pM_WIoVxG_mntpDram4VRzEJHWXBgKr1YntEBA2-VbZMhFRF7Ol71h88nAvVitaQvGxo84UdFtRcaYx-nRsCRUYGI4mfBS-_B4LD_YVYaAd0ZTtxyd46DUNGh4eWryb5w1w_gItEeRJVIDiSQGdpIlGtkmZyaRaAy5OvT4BPEMDv3X9hCDmB3fWzW3eia0SKxaSZWC31SuWwYvCN9oB4vKD8luQ4bQZT9Y7YJGIdi8FL6BSvESXrZnXWMY2KlzS4odcc3eQjV8V8YQWKjZqaWOPkD1vnWvs9M2MM5iV5KRy1XPVMZHj6vs3jpbFYyaYeeXn73G2YO4zoMEB2uo8yljlovaReM0A4fO1h4QZOYP8YNh8ruDYjBn0Wr44zTJ", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108441167580543821183\">Kitchen Showdown Singapore</a>"] },
+            { photoReference: "AWCwydid6AmIOLt33KycBXAHmhan64jhiX1PhlBkST30UJIAe4-N_PmVmyGmR59fFmsqzgR3E5PkVTDFP1Lyir1RtM8QjcqGUGHKJ4Adlv4uC8vS2HU0M7s3IUPUdLt393r93igadE8a0oh95oMUOz6pDoNK5MV4w36tCPcH7SIRu5Fp5gri9CR0nlLds6YC9jMWkfNwxLoqxlkHD9XAHTrO40AU5vefWFFWU-EZexQa51mEQzp0nxUvL-D1gwRZNZ5XupFTHxV9Qejxtq89knaqvYKJfoq0mkNk0EP56aZrpMwK5qS36nFIDzhpmr7effhbLsjZA8Fx85vBrZvriJcB4Fnir4dIk2YAcWJPBQEwpi94krHwPc5w4cQ6FMYp72bdwnVm8vevtGW6FZZHEghWfTWwKocUWR1LdIxJhDcsR52HTLWH", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109303066553460597739\">Jean S</a>"] },
+            { photoReference: "AWCwydgn4rkMws4lk1j-AuTIl_cDc-Zun0CtMVapsz7hOuIGXBM0ZNAVjmQI3xQiubXrD5qtAyf0xPQ1sdcHShTX6VFeQgU4ztWVUmOyWsZoRSAbRi6ipieDHk9U2DoeUaewC3RUO3y7KlIMv7tbKJbUFhqTp_bPY_apLNetaRwLpmfzOcEgnHp9M8zz0CSU4Gt1l_WeMELOktDZ5PbaUswrO0rvRJvvKk6cJDv8muf_qXv3RnOvtyPVKxZuOujncgCmt3vmpDsSojJ0yNgrXtoLMzIei4d4jbHp1NuZQqVUkZiELI4BTMvu5dtCEPhYt8ZXCTw6rk7I2vKkyd79esqGvHgMcaN-zHjhQHHVADxInLUp_o1A1m85TIl9zZyW9qTOzOpO396W7CPHUUGJR1bSsH8K7zcMX4bgG3Yvd6_uuYtgVQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107956497174517084664\">Jessica Hoang</a>"] },
+            { photoReference: "AWCwydiV2eFw27fFfuv_fr5EUHZqTv7wU3dcaoohW9klG7knaqub1zX2ogqCd6M-OWm7xVcgTDUo0412mMprI7H1bRn-zlFdapX_on05Uobo4XIRo84rAe4Vwn3w1q0q2udbB4ZAc8XkZ7cOH-4aK_Ar1XrIsCLg6DI0EaApyW4hYVR0Hnt65_u58fz7HE_ORt8o6ve1KWWDG2VjRghli4CXEkP1p4pLwQrIJyBPmh359Qb5wJiNQVcehiV3bMVP7ZJ5OWeZLfAvEuqP1uuw7y7BhQvth96gXje9C1oUo82IMQzAjGQFt62VQi9faEYSoFVqm5z8pOHqvjQAxHKNUIQXs-eK6Sty78bLHLfdj6ItqiXkeuK8GDLlKo70f2YUct2jJ0ODJY0LPoo-6HUdURhPJFiq5Pn-7lObOPaXkAyuX-2NBx-F", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103418924376092323276\">Nick Dawes</a>"] },
+            { photoReference: "AWCwydhftWC-8YCsN11Gaieg-C-zZWdaxQa4nxbPYm7WOW3z_HsujWew4_fvB1HK7SADE5L03CgnjthXbvNj7YHRcC3WYiItsPINQQ52vF7UNIhQVzkkLvzRAD55lUxb0eMxDEt1pNDoWDq_dHEuDeRP066xV8IKp0X50p3-ucU-cxOGIBSxepEBg21sxh5j5ke76aofCByGCE9aZKRP4cK3bcfMh-7-4FXKB6VGHIZAMP7P_uCcj2iiMKUNNMLXcWrkpR3wppoA2sR6WTfODt_AYDRAU2eF2P-7VddTJT4A_j0ogODc3OQ80wic8UQnZQuIVQ6G9SrWgYDLEC4EmyTuNj9pfmcnSpGw4v5xpVOLNYMJiBhakYQDUUva7KdLnGX3DffzcaJhOzVftmu5ABy8BehVq5PEVQfDU4Y0eomeyIKIzYc5", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118132169390190939390\">Xavier Wu</a>"] }
+        ],
+        summary: "4,900개 이상의 리뷰가 증명하는 높은 평점의 요리 워크숍입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전문적인 셰프의 지도", "함께 즐기는 요리 경험"],
+        tips: ["일요일은 휴무이니 방문 시 주의하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 10:00; 화요일: 오전 9:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "37A Boat Quay, #02-01, 싱가포르 049826", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://kitchenshowdown.com.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3098727440497676138", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%B9%9C+%EC%87%BC%EB%8B%A4%EC%9A%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 스타 퍼포밍 아츠 센터": {
+        photos: [],
+        placeId: "ChIJd7L66kIa2jERaUxYdmhostU",
+        placePhotos: [
+            { photoReference: "AWCwydi8cGwpacLkfLNd1H_XZrmUTQfM2mtL03fkCLnxl_7f5O9bHfcmEZwDkdhmXx8N-GY2e7El3SKUjxQEpOTSLN19rw43Eua_szmD8iuhr3Zo-zRXcHg4EFwnFDmdmmTaqb8eP-svi73uvKUa8sRDR6w88kgBUy5IRv5Nx8OQOdBc8-ybDWJTwi_0nVYiwM5gWK3DzW10vvOqYLiW-vu-N219k0FqZ21yEKXtrsgoCpzlZYsCcEs7wBLKpT4C1wv6izT2ufwud46DD8jngfFypdVl7Sl8HEucYzATLVe5bZHhLxzIDPN8wl0MEv6GjvNqyRPm8Jzmn7b-9n8RvXB9ZEuFE9r1Fw6EK78j1DScP7VSKfV_qRYZ78hNKXl04P5bKCoJKZjZoL9gy0K0-86EBUM_TXFNvhxPQfnYJQ7NbaqAJw", width: 3680, height: 2070, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103095509685041757153\">The Star Performing Arts Centre</a>"] },
+            { photoReference: "AWCwydhr5PTft0wP8fGAU_OJFlsZ4Kx0DMKHWZZ6oVzhJCi5IVQm3eYX5vpJsUT78ikRTFIlWJ7-ZfAxF1ovr4tnfIGiwlZD2Z4JUjKTt2_UnE6iJIx7gZGPIOKYBRLWwoueDuuPxN_D41fXXMEMoKmtodmCRyqx9Ujzv15CWCpeK34Rbp3mfK0UZg3dTXulrFbHSP35Crwz8em6gmV7ZTFRNZTD_z1fvuKX9bhG1hPk6mxQuS2Ekyy95-tjA4nIbfURS3SCFnK6qHuj2go7d9cEi0qVMOUXM48h02299HfMHNtX7CWWC8CntIJdMPgd8bnlbPNhEWNhFiiQ_aWZB5Jjv9QZo92df0z95YbY3WuCXZK3d0WfNsfnM2y6qJnYq5c9pGJ6QckyxfNRG-yvFYghmV85D1E9jQymVX7qmrFuMqt6Xi8o", width: 600, height: 400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113366603916524646580\">Amritpal singh Sidhu</a>"] },
+            { photoReference: "AWCwydhAO094Z6L0l9AFn9ia2J15jkCy-Fw0dvivtKU7RGteaeyuLT0T4zZH8o1khhQSX3Xdp5tA237osKkloyh1nvA8ick6KWZ-DwNXVV9azKPy13LeqIVTOK5lulF7Hhiq_ycAEL5Z5_btxtb4THTc-XLXNzDenwIBo_SEAFjWmDP5oHI3pfXw_9ujL_vrdAw-F4_rH_g6wP4VHk5qlgjcXfoumzqabuaOYHos7U8ldllq85pjsaQQjMPwapd87wOtRYw6Oa798u-OW3PBEbQgy5WNtoO1wNYtgbRevdM_Hlp76L-8Um1t15hJOjWk7t3BkLE8XETJjAL0yDSmz40pC2adgBUJxLiGv0daQ42qrK_oS8dGuCfMoo6NGmDBvxUbhjiZFezSKnaAormun6FEQyOh0TOdYIkYfnT04tgOsFPfe0A", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111643836648159206574\">Stewart Wang</a>"] },
+            { photoReference: "AWCwydgvtm5NIvvVd2qprXZ_U2sB_vp_dL8Ri96KaMVpkpbYwe_yzNaCPbEPee4XzLwiBSwfwK--kZ7GiyVAd6nIJqxLrvAex6QNaY9iyLR3eRvgqeippO31FPH6quSwa7wGl7T63LnfRYKKvIEXi3FgXFsbMHPvBKORDbRmaaKW8NcRJrrWb62BUHQKh0G-G_UrA94TO_3VaxLKffGmXguDi6etUV1rfa75qL8SntaGyI5KQ13WSytcJLlr9TaIynJGURwpQrx7wUEIOtaH3GUa7rO7zp8pexiR2RRAVyETBszAEBT-R_0_hXDr_P4_WHU-sHfmQTxe6LYkOaBqdCrkadzdjV3MBmEGyoH6eZN2QgaybRjTjB6nNPPhT2SGofrYy7M4KDVUMd1lVeLS8ssMQhtYowaeMcCmtuy0HGPnZso", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116951199293759785218\">Manuel Miunske</a>"] },
+            { photoReference: "AWCwydjbryG4taQCSJR42Zulfl3CbzDLHUdbVj9DloPWjjIsSHE9I3ye70dljKnWTSd9pobw2gDk-D9VzaJjmIeWcr7keTPd6lfvJmgLHKFvgMVOiBD8u51q1vJyC03iE9uT9z4UiCawNN_7sUHVOXdLyuF5n_Ip0HTa-eAtdkBH2iQPH2X0IxCEAxVjwaEpGz0PerFJ_U99GCLk5Fef-eJHmMnARhZqQlKEMHfUkSH4Bwbw2rKMRTXF5gIaeMVA94EDRZpOnRXHgVpKdruC8iwcWp2Kf6pcT0qow4pLqi0uHcUka_n9fXVlTnWV2H7mk9NbEz6pqZHyRPjL_LQrdkENW88RznVKsHPkXxPM5IFnaegAdE3YqKm12o4zynSkeiUi_mz_nSsku3RjtHkITVsRSgzsvSgBxb1-6wD7vAwnVXQc5Q", width: 2296, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109797649602460148372\">Christina Ang</a>"] }
+        ],
+        summary: "3,145개의 리뷰가 증명하는 문화 공연 및 쇼핑 명소",
+        updatedAt: "2026-08-14",
+        highlights: ["조셉 프린스 교회", "흥미로운 쇼핑가"],
+        tips: ["주말은 휴무이므로 평일에 방문하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:00; 화요일: 오전 9:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1 Vista Exchange Grn, #04-01 싱가포르 138617", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.thestar.sg/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15398484873804532841", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%94+%EC%8A%A4%ED%83%80+%ED%8D%BC%ED%8F%AC%EB%B0%8D+%EC%95%84%EC%B8%A0+%EC%84%BC%ED%84%B0+%EC%8B%B1%EA%B0%80%ED%8F%AC%EB%A5%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

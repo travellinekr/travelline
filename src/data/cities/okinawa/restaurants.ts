@@ -243,7 +243,7 @@ const restaurants: RestaurantData[] = [
         icon: "Y"
     },
     {
-        name: "왕WANG",
+        name: "왕",
         showInInbox: true,
         hasInfo: true,
         type: "korean",
@@ -273,7 +273,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "URBAN DELI アーバンデリ",
+        name: "어반 델리",
         showInInbox: true,
         hasInfo: true,
         type: "korean",
@@ -378,7 +378,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Bistro Luire",
+        name: "비스트로 루이르",
         showInInbox: true,
         hasInfo: true,
         type: "western",
@@ -423,7 +423,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Transit Café.",
+        name: "트랜짓 카페",
         showInInbox: true,
         hasInfo: true,
         type: "cafe",
@@ -438,7 +438,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "반타 카페 by 호시노 리조트",
+        name: "반타 카페 바이 호시노 리조트",
         showInInbox: true,
         hasInfo: true,
         type: "cafe",
@@ -453,7 +453,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "89 Coffee",
+        name: "89 커피",
         showInInbox: true,
         hasInfo: true,
         type: "cafe",
@@ -468,7 +468,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "日本料理 行雲 | 沖縄×日本料理",
+        name: "일본요리 코운",
         showInInbox: true,
         hasInfo: true,
         type: "japanese",
@@ -483,7 +483,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Bisen",
+        name: "비센",
         showInInbox: true,
         hasInfo: true,
         type: "japanese",
@@ -513,7 +513,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Takanoha Naha",
+        name: "타카노하 나하",
         showInInbox: true,
         hasInfo: true,
         type: "japanese",
@@ -543,7 +543,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Nakadomari Seafood Restaurant",
+        name: "나카도마리 해산물 레스토랑",
         showInInbox: true,
         hasInfo: true,
         type: "seafood",
@@ -573,7 +573,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Payao Restaurant",
+        name: "파야오 레스토랑",
         showInInbox: true,
         hasInfo: true,
         type: "seafood",
@@ -603,7 +603,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Oki Seafood Restaurant",
+        name: "오키 해산물 레스토랑",
         showInInbox: true,
         hasInfo: true,
         type: "seafood",
@@ -633,7 +633,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Seafood House Pier 54",
+        name: "씨푸드 하우스 피어 54",
         showInInbox: true,
         hasInfo: true,
         type: "seafood",
@@ -678,7 +678,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "創作沖縄料理 幸 KOU",
+        name: "창작 오키나와 요리 코우",
         showInInbox: true,
         hasInfo: true,
         type: "fusion",
@@ -693,7 +693,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "waryuuokinawaryouri sarii",
+        name: "와류 오키나와 요리 사리",
         showInInbox: true,
         hasInfo: true,
         type: "fusion",
@@ -708,7 +708,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Kamida",
+        name: "카미다",
         showInInbox: true,
         hasInfo: true,
         type: "fusion",
@@ -723,7 +723,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Asian Food Fuuten",
+        name: "아시안 푸드 후텐",
         showInInbox: true,
         hasInfo: true,
         type: "fusion",
@@ -738,7 +738,7 @@ const restaurants: RestaurantData[] = [
         icon: "📍"
     },
     {
-        name: "Karen",
+        name: "카렌",
         showInInbox: true,
         hasInfo: true,
         type: "fusion",

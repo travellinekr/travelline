@@ -528,6 +528,235 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%EC%84%A0%EC%85%8B%20%EC%84%B8%EC%9D%BC%EB%A7%81%20%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "탐비산 비치": {
+        photos: [],
+        placeId: "ChIJXeeWURY_pTMRYu__xJYbkow",
+        placePhotos: [
+            { photoReference: "AWCwydhktPqUYs0EfH8CCECTK2EwecT9AR8gmWvD-jFGM0IVEYyDKX9hG47NBsMssDizaraZL5jR8YU4a8dIOsh_lKI3x1XUdAT8s8v2x61vCSMq-H5tG3LvBsGJCbmM7oEPgts1qHXPHxfxiZzyOULK21Sk_t-xbBvQa1UB21GTombonpPz95oPONkxz799do2OYpC5COK-07wbUpqaQBYahAg6ZqKu0frrAJYhMhuuesEoc5qs-HG29MeNeCjNgi5fQgZmAaYDeB4fgIa6-5u2DuxLmWjXB7VzD1g1MJtC4PfyyMuVttM21TUsJ1OEiqMlcCfn9ZuUA7OLy4gs1A8UOmlwA3w66HBQqcVtIg0nE8oy6XJMM7XyJKquCY_RA_DDoLogxLJHPmVkbuGZyWd9zZjRPY1-BVr0JLwofZKRYMa0lu6v", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113549032160220793332\">Maximilian Antonius Kornigge</a>"] },
+            { photoReference: "AWCwydg4FqHPBsGMk3r6SJP9bmfVaIsTfFtuq3W6Yeh2G0A7gm_X_t4j7TDjiDJJsVqGaWQ7HYPJIuVi8_BAq7rYEdllUNatvKCOoYriIqJ8EMpVWZGCm5-GNk_r83lpgaqP6Ry4lnqJpRhUqe4FM7oMxMhbh4zbq2qSIkgRunNtwViFxZstbgqovMOhF5N3K-_Eu7c78fBTldDAn_kIeqpxgUdlTVFMnSiUynE87f8yr6p2RAJdW4gr3oBZ8Uh1f-I4JTDXtBbPA8dCzlWOBlOFfay6OPPjbQ7r4GlIv7j-xThZd8jeVXxTBTi6buSPPOTMKDABWcIyf0T6lK-g6kRKGT9Hu3ATNzhWxoCtOhNnYsC0_75yJKbbg4dcICdyrtmKLOKF6Z-EOHHRVWq-HKx3nG2NBQewxr7H6ie1wqILnpOi3A", width: 1800, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106234132553355210002\">Olga Lipatova</a>"] },
+            { photoReference: "AWCwydgMWVw9quttJ37cfMd5RpZ5GrLfBpKmxtzpaSB5ZH6Z_pRVTZO-z8_m67BkGjYOV7_aiKXg5K84M6dy1nOHu2uPwOkMZ0056jhcCojUAOssv2SbtugI-tsde89BRxcnSjXX01PtVB29_qc6X-Q2IllCnXWHyWNl9C1VH9QvhpnCdZeXJjU77a55381axq6KihAk0r_Qq6g2mJrmn9xzDRZxaY6Q5_q-u9-0DnBgcofHNZfbH4nrVTym6Z8uC-pIyOE4L5CyLWrl3aP3KUizZ-2t-QnJ9PdUJ0fzsFFLIlxFXrRlzCrEwNGZira6G9wOY23uoWyqXB7yB2qKzW8jOX3aWGi1A3OK25WiZThpXp5QSEf3KXN6PbsXME_ADepIMAAEMReWL0bXazxu1SHUMCLARNVPYjIy20MuvMSYjicKVTVL", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103320597168499646654\">HiHi</a>"] },
+            { photoReference: "AWCwydjNnSmxZI0tPV5sM4oQTEzAQ8ba9nLJ-umvWnC_Y2L-LxMoAWdvAd0cvnYziPf64Y3zGdqUiibUgKC1GctzooLzY78s8GdBWp2nnOqbokn4XPw951SeuTayFfMjsXLPW4dJm08YHri5k70TFHXHulFGDv4IYLO_lZbeEd5MPPWusNvZX8tud-629EIgXXilb6X-NiRUslVBkTKJawb-RDYPozriSYZhtaJjySfOaEUOBXuI4FG8A1l6h9IwPI2P1Myx_ZwYHA_8oVz4PlzaUQB92K_0k3loLD_ioL2_6iGurRc3ywGqgvcBw1vABIYIrbGeI55yAOOk8DDTwdQxS3TYrXf8RiNs0XdgPbDyhXHq8KMvk2SzFN8DZOEiEY3I9JO_uEnGUn6QqYza-5Ey4_d8AhlkxUyiyVUgo41IQ2CfzQ", width: 3968, height: 2232, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118289810896760224882\">Claudia Schomberg</a>"] },
+            { photoReference: "AWCwydgIeAmnUVrq928hhd2lh0oJpb0bdb_Gg_iWL0uyU5g_WTivY-92jLPl5A17wK2TYJURIgXlzjql-B2o03FSWVO4EBrkmlpB32l1pfhDD9inmq-ZlundMEg1D2NueVsJUoCqdH9VqychcKzFh-8ppiWAD_M02mNT_9NetpRPj1zU9vFxaiSt-Wzxlt9u5_f_B06S2ts-LbEQQGqLgw-ox8OrDEQHIfXWIkixBTwFE4z7B315OChTLi5z-nCiSewtTFibPrv-7pgy_hiKykjL5-NPH2bkHlR_VlydGBqQFo-uLENjU98Jfc8uSrdseXxbb5QI9MaxHL-dL80pQmbYDMJPYHJfZECcCt2Y724_JDsIzrCKo2x9MqR_eJmj58-jYzulbom2DNfVVECfw9nnJ0T_i3IudLofZCry7EFO-WpETA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101155506119311340559\">T</a>"] }
+        ],
+        summary: "현지 주민들의 생계를 지원하며 아름다운 해변을 즐길 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 해변", "현지 주민들의 진주 팔찌 판매"],
+        tips: ["저렴하고 예쁜 진주 팔찌를 구매해보세요", "현지 주민들을 지원하는 의미 있는 경험"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "XW2W+2P6, Boracay Tambisaan Jetty Port Rd, Malay, Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10129188846273818466", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%83%90%EB%B9%84%EC%82%B0+%EB%B9%84%EC%B9%98+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "모탁 리빙 뮤지엄": {
+        photos: [],
+        placeId: "ChIJKcrNhD0_pTMRT1lHqJ9oy34",
+        placePhotos: [
+            { photoReference: "AWCwydhb464TTuc2uFnsoPJ4uRHt54BBKNA5fXcwEkIOwEIgJz5Cw5kwGcEDbcNPY7peHGoqOgmoP4CRy1kNTqAXmpmtA7w5Rdvg6-v0gw9iWbtav2d44CNEv7lJDI30H5Aw5xw5ZMGx_CrELufpKAT9dPcknIPpVjMA_FVK-EcHPXQkkX8RZm3MWN8uAG1NaBZmgvQZ-7HSCQTikcM6JsPOSHglc1u0upOjpl4rzBPBmCqX9Uraj9aanIsIu8yV0Yx8NJ7clcOJBYKXYefSMNfM1v7wRoLga-mOE0JUrmzQBgq9HTD8hlraJnayl1FxIegsJ25F3Nc8MDP4X4nJGNbA_UnYErLxOWYfxLTaVMQIUwKg2EVYQeGwuQ8yXcADLffXoSyyWyQE7KfHXfdjdEn66VJXyLwQg2ZAPSJ-5ooRPps", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116011129449714401528\">Dmitry I</a>"] },
+            { photoReference: "AWCwydhIGU4kk5fHv4w9VctFYmaBzTyffIBph_rmE4w7W0sZOblq-2uYHFk6UWOkKmGf-VFy9iOwg-PGxJ6haIAn2GKlfN0NDfvX5YFuDRebbgX8UWI2hhrImTnFmWSNGoePa-feBwobXDkzQ5Vw7GlGSsKj5NPqq3xoFxRc9RzKx7A1UXRasJiYhXQM3CyWQw43G5hfYhfj7nIb-0uisxQKivjb6B2wo9QLzfkeOHbvsnRXUr035B_-9XjQLLWLoucLbE9ld4PTehZDSpM3TcQLDRZDEmyOtKuel4FdCIEaAH69D8DSqc_CwwhJzdw2YM3oHpDz8WKZxHJROEp6zIOfiumxr9PIzKo7UdHWByn3vregLwZPdwOnUSS7eNh1AiUaNAUVUyF54GrqRNM9Ari6TYTCCuhk26FBsndYs1faA1hK_ag", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106622110724895580637\">M Hendershot</a>"] },
+            { photoReference: "AWCwydhwqBa5w6ckc82_0eKtg0lGcS4Ff-InuHPfu8jruictpACYmznycANUHazMKRmwbpsz7c6CS1smS09yZKpL6eSWovPahQDyRadsxH5Exo7IzJGpzFHrYt1YmDZXJlFfF3oa6nHBzryrwV1ujqwvFnBFG_ItpifFsxY0DYuVaXARnAnCKgJrZa3ZOZmXoIJaSOCZxsrX1Nf6D-FqzjPPe1pNNK3zlJeqdLDniJBRdAo430KwuCNf0vqiWhRgSWq5PDn-ibek0BPq8ozC6QY0DAXQ4AWhiFsoTExKMvtAr256a8pbDK2-xoZ5HFyyudBq3dTXLq0tk79-Qx9KHLtqLh3nk46aagndtK4QepGgCy3b6JKOXJqL4DXpCi4RoOIAWaITpgqPrv_BhdPPotcUQSK2u0wgSquPn7cHcvgn7dY_S73f", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108165783327574280232\">nikita fong</a>"] },
+            { photoReference: "AWCwydiYquFkdaEzV0tbcDAZQf6N0k6s-kKlJjoEXHKa3NnTIDCpJikDUwPKIGsROYa0FtwVvo5Z7y0OQRU17fVkyBuCMWJK_c95Yl1g1qts1j08JLIYp9Y8_BDEgilpc-Y0Mt8f4TCVrFCYPpuiNR-ZgptxmGsb5WNCliKhc2osFpxkXfIhjJ_SAb1OBBjMYlQAmsImic94FoYOHaAyfGWxZ9hboeUqXyFLftdBlBA_YzWzlWmNe7mJaKSNGtjdbYcbSZjS0qXgyhUnUO0Qa3xiuSNyEPwTnpnrwswDW_pR_bnzzqLQT1dhWPJs4HhnLCKfi3vBVTZ3dqzu7ZY4YdwLvh_TeTEHlDp7s-aNDFsX6QkeCek_H8fxerAawnhuTtCUu07z-tb-SrzFJJPo5qvMR0B9HgE1PQH1dNBkR6bR0Gzpc01VPyQMYwr5mMdn519X", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112771031087719073356\">Kakak&#39;s TV</a>"] },
+            { photoReference: "AWCwydhPzvAKpcvHJlIRrqnMG-YhOuo4jMGB0UXZj-62u4HUcrAhmzseX3wwiwgZ-xQ8fG94WpeAJstRbWEhCncqeAB1tyKeAUBs_2nR7946foG8mxvz9JRs_zv5Dx9We1T0bSCbvChjABRyTKyJt9mOzzFBTGR9wd0enCLqCUUD9GF7emIGH6Lz7xosbMPp_Ps1ZDyxZukYFN1GJS5gx7O6P7RZCLqTWHWnFuFt5kK-NgzliJ6Gmcj3f-eCceJvVjmHOATrSfymXLiNgY1xsWxCRZww3Q8gLLsNQpajy2avgCrzqDHzrOImzEcQYHEh6g96CBRI38M2ZGP4WENICVCRwpLlWX3c3ffEi1ovhBPixcqPYghfMhthjuC124loOJZzyFO5naDkC-rVioqj3AH_rFOERqgd62AoVdb044PBol9_UDw", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108165783327574280232\">nikita fong</a>"] }
+        ],
+        summary: "전통 필리핀 문화를 직접 체험하며 공동체의 일원이 된 듯한 경험을 할 수 있는 곳입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전통 필리핀 활동 체험", "친절한 직원 서비스"],
+        tips: ["벼 심기 및 직조 체험 가능", "옛 농기구 사용법 학습"],
+        hours: "월요일: 휴무일; 화요일: 오전 10:00 ~ 오후 4:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 어클란 말레이 WW2F+QGC", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.facebook.com/motag.livingmuseum", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9136511303983520079", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AA%A8%ED%83%81+%EB%A6%AC%EB%B9%99+%EB%AE%A4%EC%A7%80%EC%97%84+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "뮤지엄 샤인 보라카이": {
+        photos: [],
+        placeId: "ChIJS37jfBs9pTMR1tp-92Lp3y0",
+        placePhotos: [
+            { photoReference: "AWCwydhETYwdISJZzCp9TQruOxvZGG0b4SSdVKDWmdtuopPchwbAWWb5smjP0jjs50CRkJbpyPIVHFRKkivV_89-Ln53zV-QQfo8FK8lK_3ZbdH0eMGbifmGPaPSBursDOgMOAoACOTfs66ae8cOZN34ioRaNkIOs9Fd7Y7l5We-yCBt_HFd0TQWwM8up37DzYATKqGCwFmbwYcKxxS3MJ_YLSDWoAC4mpRhCBenmIeLQtPVuvKpN0WWwJPaVRY5wXf65cxKOK_vLRbk_SthWqq67nBDJEofze3J21iln6AAd0OduYEKj6RZ9G_3qARJkMB7H6Pur8tNOJNyRd2cX4vMrse-IXfImjJ3So9PttsQPzECFei72vgEdecvEDmThFRJncIB53jxuqyKukOQRZl5liRfLC3-6i48vyeZxwnbngZvGMMPBb6o82RkWlkgSA", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114324856806723915570\">Marisa Pelayo</a>"] },
+            { photoReference: "AWCwydgsEVtCr4Um1CxDHGe9j8jUZuE-N8R0FrNkPkV3QLwqf_yEwYyF8XJkn-n-mS57ncvH1MQ6IkiHQ04dYEj257eSXI8nRdLd-SzwYu59GB3gYUWHM4db_705tAPj3ze9R0jFekad-rkOIqDQwoP2Zwblp7HQAKTF3pKipiNisMJV5YwMVsacroWWWVMnvdzWzL08KGXAoG6CT9tiZ5L8fsHgl56hVmhxqwYr7m6znxCy2P4Cix_qKDWw4p0rwfFbYZYIiwuX1GEj4wnra2FBHQRGYCYYok7Uooht10ZeZWmwhkKELdtgZBBzMCvybxk5AQDqie7Bg_PyAi-EqrzXQ4Z1fspeTKAM7sSU8De9mVP7LRhRFqoRTjr-GwIDnjGDLh0VCHjS0JptPRLhCx9M21CRwwVtvqv0NPrEFz_5VMqsrk470y3B2dQ1l_S_iM3T", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109222905494934330104\">sherwin riolo</a>"] },
+            { photoReference: "AWCwydiTyymwF54lHIG5d0q4WE5uVuBMHfNagh7xoMXmKD2hFb2eK1riZgy0HxWTkOPuuLfM_Z5ixA3IZNYek8iZbxEbWN4-o9FRuuZIoGFYHyKlffJMYBZS7T1vnF8mtv0yQnICchOi-WdWK45WuVQALiJldHQGsZWuyGyG6eSOCUozv0O_zcjKZ9mODUBd0hwN86Q1YaS3cIi1VaLTFEZqx3hENSvgdRuRoDkr4mKX8m3-Tv8m9GjkRI_-GOcTCqy3nzeNuDK3bFbrTgqrjJk-iNeJgeH-QROEa5iPA7pqprcE-SVf3SSMMhKPIHH81Bz3NkN7bqcsGP3YeITG0LYMWCatoWU-IODcpiKbTje8t0QhD7RquIFPUvdc05YFP0tlvyDfilY7fVkZ2EZkzW0G7K5ryqx9pRZ8SMIxQ9CtOQEMPaase5RsCvDIL69uYty7", width: 3840, height: 2160, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116918494834969239430\">Museum Shine Boracay</a>"] },
+            { photoReference: "AWCwydhDffua6GxxY1_eTOcaTu7QGMJgaZKzZGqzRjII7ZHcALH6JWl9TD-oul1nlF5ebk8EsmWli_BPx017u-2nQTWNgniAZIhA6LOK76W3rptLRYSBGl_fv__3_3MxLlsc8ddA5JQcHEqV4vV133Zk-YJhw0ZKAG4I8Gc9gOXQi2mWagtVRlhRYy4qqD15qIN5iBLDnU3-qKXv9_wVxgnVZEAB65tthbMzEXzg5GGv7b2PB6A2N6VGTWAay75JG-oJNN2NW4fsZE54jjFgPFTrHKDYOkQfCbwQZqOw7Qix_tD_dqu4mQ-gh2Dher2v_Yzyuv8BJ0RrihoCGzoOKUMbqhEtTYkexBVpDISFOT9FVlDQmY5n01-hC3dBxcgd1l31AOCjA_kRUsff9Q95Q9vxzjrP0B3KoTsDNZA2n8F68VRxq4RRsHkopP1hjRDJFA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117470953696636366972\">lindy chielo</a>"] },
+            { photoReference: "AWCwydgxaGAIRZgKafvYOHtEC2VtMWsfPu_MbKtdVNAsB9Vnm8EinkgZhKT6cDZqHVjzZOp53mQ-Dn4jlB63llNVeVHz75-GE-TeeRS8CgHZuFc6r8u1_O94dFXurueA81m9usWwDtArh8KawyLDsHcMWleVTZa-_Lkl4Y_vTNf2PZ2RfXPi1b4zWxGm0XDA3rK4QMhTd9gADFLISxhB89YBGGE67Ujm9GAkCAGC3L-GzubnpDO6eaJucSSa0IwJTTyDXbx2CFGLK4Z0SDrUZak3EBn3XYRaILiuJfIFPT226kYxFxJv7tHJNo1UYJyhxS9QE7GWrGX4s_l2uh_xBdKFjdY2wxv8r_nhXKB6_ltVOPQ1wLAoYooYTWxIxxN9IrPKNqC64Pa2rSS70ptX8wL5x1rXGiIZVlUt-CqheG37ALvrikPN8Sz9RGeUcDi5GGLh", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106999998985618423129\">Ralf Formula</a>"] }
+        ],
+        summary: "가족과 함께 탐험하며 사진 찍기 좋은 매력적인 장소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 조명", "독특하고 창의적인 전시물", "가족 친화적 환경"],
+        tips: ["구석구석 사진을 찍으며 구경해보세요", "가족 또는 아이들과 함께 방문하는 것을 추천합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Pinaungon Babaw Balabag, Balabag, Malay, 5608 Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3305617262781586134", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%AE%A4%EC%A7%80%EC%97%84+%EC%83%A4%EC%9D%B8+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보라카이 섬": {
+        photos: [],
+        placeId: "ChIJ505LMi88pTMRNtptXh7oOKc",
+        placePhotos: [
+            { photoReference: "AWCwydid-S4gsEd8Hz_W4WJdhBthAybIklAwchjAkbQVtO9B1-82wYbo3ot4oVLvoGs9cDx2NiMkmCEfg73oLOmBu8iBpjs2nZy4_8B_dDt_098sSogfpjsP5khKnWI0ONXecfaPzX2IHPzpJZqncyLNVOkidOn3dtvWVJibsT8hCLLoh6glJWPM8cEc927wYc9Go1by8QtQBOXQ-3bmin3q-4j31RaJAs8sF54xqvx6X6BrBOr57gRabauNT14Eb0poiCAT6onbuTFM0b1rTnnjPu1pxk76KsevdpcPM6daKvErtfm8HTRSRmXcSh8QdjcMSI_abPlupdIzmAmGEJ5B337bwguNznEGWNr1_eq_8jwGT-lfPK1YnJIkQ-QqgRxUFcdVhVZJa71DHeg7VoWMd37xtBIM0o1vcjfLyUwR9jJJtQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108722719036154721392\">Helga Fenske</a>"] },
+            { photoReference: "AWCwydhnswhOlhUdbUBEPaIbNNggXcEqUg3R6rHZ9DSTgeggz0G-YmCqTpI0RDNIeorj3-8mr5CayvhG3p00TFjOoUDlilmT78XVWS20R5p6uQvioF-uPk3IWU550KD6UUgjCNSBHB173Hui7GFFMdEB1NiClBsTO_W2_4NVUm84GCvjHz1J4s1Psi6-ERPWJ59Y77oGPyl7uE-iqLA74W_rADgaUrYWFZb_-aRKZ8RVeG84dGf4lUBqSeQOD9rAdViq0Z_Kp9WWWDDYxHrJ09MZovSPH0lFOdZ6eJcAYXnkGqYPech8-cQmgzjKxQvw51LAYbhrD17J5D1B7rmrq0vKR7euKlJn-Xw_PtZB3SQcyc6NyoP3jsKFY6CrWTAjcKxTuj-5EOVMSwHBhz29N7VGr__Kfe-GNV3cwfCcJJ0FLW0", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109839375175728458797\">Kinga Ludescher</a>"] },
+            { photoReference: "AWCwydheFnKHh_g0LV6PBruRGe7W0rz4rR_vfE8Pjabp2D-VlOAuZclE3pFKQA59C6udo1tOHeVgsOJ8q1vY1vGQYzlbWohqbuMDH6sGrn8k7R4FnMRP3r8IE14lSz6AJvod9PrxnC1KknnrwV1IuTrnwvIhYc9zGXVAEzz44btXoNFzU0fw6dXmboADKJxMcS2dmFGOrztPW7716olnMuj126w0q_pnRTkQDAe_nvs2zLTQmd17gDTzZ-zppLWfpJQIM8VCx40j_KZ2-SsCNqhW2VoZ7f1ag_OG5r5v5AOR41XuOydWRWUxQiEBoSKd5YPo9G3Ta3xs6esykT3Vhu8sprcae6tevdPkOxoUDR8ENsHSo0evgAxaji8OBGs3azCDW8oNmO8IcO6rrZNh92xjvFuuBS6wAqOanEDOuLfAB-kuO6ms81fbxu-IA70HW5mW", width: 1920, height: 1438, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113210597566031687381\">Carlos Alberto do Amaral</a>"] },
+            { photoReference: "AWCwydji_LNYe7qOMrBGZ-lJmUJIXpqMynAmYwBSbqzHV9VnU_XGTt4TMmvzjGzHFsaD1QXoWjmdF1FfRcmpbNTJMuSJWFJeTGMEiTUk2HSixZ6CVj88cFqRUGUYka6DuUOuPsdr17vqZwkvkB3Sg8SRwNXl721gXb9TddPeY-_lTPL01tOP9Cd3tfZ8cGWkMMOxyzuo_2gId3LuxdrtPQaZzPyi4Gl-9rlz_obair2PAt_MiycH_ckK69ja0Mnr3ZZZbuZ9-ABE5tl9vvFnwhfNUsoe3zYGMIeG6aLt2K5IrXF8PyNWL2AiKrD9j3zyp4HUkXdyMO2RoxjNI7lSXMCeyfILoQSKxKqipZk3BzodFbPvGuVEuDLbrOUxz2Txh-usAAapOcFItOOq9sk8xeRqK2AGgf4xGUQiKcSDI7pqIqN5FFIc", width: 1079, height: 889, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102663108446016120287\">J.F. TIRADOR</a>"] },
+            { photoReference: "AWCwydidrF90qyqwn80ssR5ysgki85O9rkv7Oq7mtxz66Mke0Vuu3USA4Etm6QfkwVCJfPtt8is1mKjLVdRPcq5QW0YAMdypLukppO45Z9DzsTDFdHRCY3Gd6Tn-_kVHw_R4kZJudpOUEjRUpaeFhYKSWYz1-pfjPIOwa0gfS1mVFjjrCMKUJOCzVgkY-gX8tZKiv5FPydHlYDXfLD09QJXVD74pmfUiXreJNXUBO2JXYkD2HJq7QqhyIhaPOSk27Fju0uzxGaGpS_A9Rz6a7mT9FrJCWcAqK0uYdfUcblaxUyxjOR8f7ZhqpuzmizD80BCHHQ9Twu2M53r8vJYBojuE041lahi1CFezWGIEznLX5fqiD24AzWCYU_XDwk-YTKYlw4fRnlaVkWHUzmzixtmewfCjDfvAz-wsSaqH7U1baO0ulQ", width: 680, height: 425, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104949121987198987785\">Vladimir Iliev</a>"] }
+        ],
+        summary: "다양한 즐길 거리가 가득한 보라카이의 필수 코스입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["활기찬 피쉬 마켓", "신선한 망고 아이스크림"],
+        tips: ["피쉬 마켓 방문을 추천합니다", "망고 아이스크림을 꼭 드셔보세요"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 어클란 말레이 보라카이 섬", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12049636020160682550", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EC%84%AC+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "푸카 해변": {
+        photos: [],
+        placeId: "ChIJo_qst3I9pTMRWzpWya-egMk",
+        placePhotos: [
+            { photoReference: "AWCwydhlS9s-UbuPePkVi4A-re0psJfD4I3bpeX1B1YCGyGhsAcJ9gkeixbvZwWfsuEGdo8pob5zPw5LEaIT4JevGOBUTfDk24Oo2JqdCNem6ylbHz1ZDy2ZPfbpL9EBBJTqVgxJZ1UPQ8n0gzV-hWmouyz8zq9BM0N4zbZ_7KDsJRa6lIh5T7dK7rotDcLlwh_fYFrxmVRPuKT8e7o-cOKQYRGd3jnP2fngMLXNq6JCM2I9iJ_tki4Z3r48usrhe0OyiLmNu0SAwqaZ06YVTTYhBfOXSMvynT5Bnn0H1LnG69ZOzPEs96C4zkoNmDTxoCfL0DpwZ4ysY-wV3InN7MzizalOf8Vm2tVqEy9qaPVzolDb5-YpbrgGwnwIGMqjhm_bxPiFyURw1rgOdbu3zDNiZw7ZsCh5F9D9g-kMDxtRW4_RpjI", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109211140984761375097\">Joe Razel</a>"] },
+            { photoReference: "AWCwydiwR5Tk7GqX-Fzl6kOfuHEQhDjQmV6IXxLYFeGxQT6fwGqCPw_Ch_zN7fZjA81s-SENUtuqDmBtDPBcKsPD6XAK3-UYj99I_a2vRkVowKx9j499fhildqwGHs0xfpe-cssBbk6ZlrAh-u2kvouzyByD910cDEEhRV9gAou-9HXljKCh4Af0-bhKGUViuFM5_0omX_X6IOMnkTSQC20xGgcwHIGHzRHki6dm99J5NmlCEKNC312X8Zl5T64lVBd6wy9-5mB16XWPeBtXpi-8O-DkLUao9cRHXLka_FMxtXhOlL2L2KlB7xNPJoDU0MVH-UHknRpLifFwk2JotZGi_ppEgzEYIX45IAKpKeK2xT6qQbjWnsp0wCbdJMbnzk9T53acrcWeP1T1jyDFG4d6QWnCbqiQiwjoQbqKgMsEZlBKx4aJ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105840706525403634293\">Chi</a>"] },
+            { photoReference: "AWCwydgmnkAKvO1rJlu33_NTuT3CtcRObTWBbRyKTBZdYCag9bIU4OuLBQbrOG2bHk8xmhAB9X2Tee9Pp8j4kHrzlDRbjYtKirQiczMuISzhVGztX-QBnD8RCjPNPl_ubYww0kge-c11XVgzKlN1VdG1wvhCncV6HIxVk1Y-GC1qZvDS0nurtKdXaa782_qG03bN5tkbJh1JlDrI9wEX7AJ30kC4Bn0CXmLQzE49cvtCiRX2I6dHdnEmVUFaGo4_vp8wc9JLOQ3kDGwj1prL75gR-NuDxQ9PTK1xEjABwOaJkpDzIQ0t1VcukSh7cuGVeV3nufpjiXiPuX4XFVe2UIGz1fQghsd7n4H7Iiv06womvPtl9q5YpLyU8LTdRxlYh64kZaWEngBR0QvoFreFg-UdIcIsvBZ7iXVLtZG_03PZEznKE5c9WVAQ7ncJzv3jba5-", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107583734415638652427\">Julien PÉRÉ-GIROUX</a>"] },
+            { photoReference: "AWCwydiC0i78qAP6kLMt-qVwJldlmmF4LF-2kRStHo_oa4eh0wGDyieTePwrL0JJDBPVjoEngbncIyu_At709H-f2_AZlA4xkwSbjvRnwCC08eTdZwAMOdxPVzgMPsi771OsIU-8V0C9WrmBCfB6PNjPzFYsua3Y5QXXutHUapR_Y_HH2JTh9FIasuw_AAkgSWirE98cr7S9eTtQ3VDF2spgAYLRL4mN4GpvqobNGWGJL93NNOPWxwA8gphyEYs3vhRVEBPdEgOhRKq_D_RkAcu-GvuFxCRXAAscgmMFnRmPiqYWYHa-DiFv9uMTe1ACwqAHHfjBwmW-MN_01m230to1GimpN3a-Us444lPWzXfqzvlg31ktuh3ZWSHvh0sxO5PS6HVHzrjNGWFO4LkO70csfFmGn1aSc6UxE3V9Ez0mtPlcqrQG", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101714485961244081081\">Rae Jhon San Juan</a>"] },
+            { photoReference: "AWCwydiZSJVeWwzkgXeiSmVBq_DeAaXGLUeqRT8lnbKG9ZX4N_fspTlFV_gEQwLpsDxdYF0ubOnU_kp_hs8pIkoEz0DR1mWpfGLMJNhZQGUG73sOO1ulDddXJh82rdJSN46MkdUgWlFlsJpBEKy1aEjw8aAOpVj3-2mbXA88g9qmjgWupW0CWkLrD_9j-JcGAA_RHzmma5R97HB7LVNgEOtnoMlPpnCWPzgQ8QWAulguzrTwhOhiKtVfwpIwKcpsC4cixBfc3TX_FKy6FAxM1bZBI4_Myw4V81KdYHIP2DIsnuwQdwQ8n1NTUAAJZUXSEosNxj3z5Ycb0a2IydtiBB8cJ-Eqwzyo7EaEYz1Q0aHFTIIScAXxr0wj1_9-VOGMCT3-D0Go5pSFS_5FxhbTNA2KVdG3Pg3IrqKmk4SHksTW9vk0xw", width: 4000, height: 2250, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106617661496915074408\">Ulysses Farias</a>"] }
+        ],
+        summary: "아름다운 전망을 자랑하는 해변 투어 명소",
+        updatedAt: "2026-08-16",
+        highlights: ["정상에서 바라보는 탁 트인 전망", "만족스러운 해변 경험"],
+        tips: ["정상까지 올라가는 것을 추천합니다"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "필리핀 어클란 말레이 XWV6+WXR", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14519779676476815963", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%91%B8%EC%B9%B4+%ED%95%B4%EB%B3%80+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "보자무싸": {
+        photos: [],
+        placeId: "ChIJjz6-82o9pTMRzUrDRZoRxno",
+        placePhotos: [
+            { photoReference: "AWCwydhYkJIVRdB7KlX4Fc0wKi2X7pyaBhVQ498tsLVJ_ENP0d15oEONpZ3Wh5QlcBWaI10ESt_U4Qsd73xXh47eeRquLAMBUWxULmDP5O1AdPlkNE8Yx8OFLFRFOCBlRY5PSuGG4oE0AmOTpHVBJ3wbWZAx6-BmZUQfVm4Jyo8juRVFc5QFTKy60mhT7D_oqMalXQTlRuG9zuaB4Ryi4V6wsAVNRpiwVR6taDEYpQfgn75RDce8kdEIvGWeh-UjeNjIKtO-rD7GKWyt_LVqz_dYS5nzYgrgijJM_m4xBDhJDdR_F5743CUU-Ad-gj8Qhy_cOx-7QUaBsdfTwPdRG_OTteGuclXNRbtr2mHlspgAZa4w90Koe90G3cIPFt_eBOsd_bfpExVoUFJX3RSS7sD3YLG35lEvvUPhjbloWN_oiTEgpQ", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117805303112508836585\">보자무싸 BOJAMUSSA TRAVEL &amp; TOURS INC.</a>"] },
+            { photoReference: "AWCwydiYBDiMQo1cKXZck02UFJFD5aiw2WsKr7-UeEDTqc95Nw9T3TIfIj6V9qHAbh1u0NTAQmmQjnlZEEj6yhhu2MVYHjWWrBFjS2969z1Hzlkw2poOlIcTJI-Gr1hX9xrSl3yPxmFnEQbU4VDYW7MsMWVt7ZBhghzKetYbL2V3YM1MdRj_FrXBuZS82I5QlnuN3H6LYZJlrpkLNZL2oP5c2oSj0IvSYg9IH71ZDxdI_rulhcdex8j05Ig40ZlR7Hz1FZcGXKUqpvS8O7DQCOMbqb_tuueCnrYNhY8yhYdu85517gGWF9c_OZ57ZdUAquF5xU9d5Nh2UiLZeMkW9EOC-BmRjRreUDx10L0G0k1LuTyT68LmvZDwPry-Ej54EQ1jYAeBo36fRdPO1kTDpGHu9IspUys83QHY9gIa-ZVeC9FbmPt_UewqMZkk56xRPCqY", width: 1536, height: 2048, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117805303112508836585\">보자무싸 BOJAMUSSA TRAVEL &amp; TOURS INC.</a>"] },
+            { photoReference: "AWCwydgriOEsYXa6H5AId3VjsJO5o69A1iI9AA2jvhGkDHQUUsbSHQE0wOy0hHwmuUE0QcBTcILOi-cJzD4L3RvFvYROPuUYZ4plMrkKFMVVllwz-LI-A_bN8eKQyXlXW9FJZ1o1M3mRGLh0bPS9N1DOcsf3IGqSSQT7f--z3KThYFTsX9fNkRbP4cqRav1HKO4uWug0_9GEzkg0uBZ65FivPws1aEbM66zVV2ZwmEi5IR0Ratk4RYC8bxWVdHjGjry8EkmjmnmKU8C6JXIYX0pQVjeGIGrel863KLbt6Lp2Sgmj0DqijXroIG_6nGeRY_n1RLoX0jSIjV2GtG94sXhuLS6Bpux0jywqrgESeWOUeyRMRoKx_kxliOjbcqJzcaC22WnVgfghuXTDxeqJUQLpUUxrq4gPTg0OpNEiB6n43bldqg", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112542187372957428614\">Cassandra Crisostomo</a>"] },
+            { photoReference: "AWCwydgwMgVadkgrZlt7g9LJyzT9ly4fVFK-9PrP8f2aEmU2rppx1CHWetB50cs7mhaVjP_KRkd6GanJvYPTr3rf80-58pvj3SrDEmsAW5UEcnfeJdWzf8hliFOKIkFezsqVAKTTjjNn1Pr1AYCyYesBWXtt0ot2ft_HtL3xi_rjLwb0Y_13QiHYCpK0V2oiR6xhc5vjkqhBtIu2UB6xchMfmmwW74GguCcr4LXW-fLVnrpOQ4qE9JtKwOiI1U02loQx8xYwHnua9FkzMnkMbtQJSF1xdmZDNWMtC4Mj0xZxEIo2aZvpfZStuhMy4PNl1TrOR-Q7wCST8GJ0KXnqk6scMv9FF0uVnWaeSSiZEf3a-aHO_ya5aORB7ZbzhXNz6zF2QpN2LVp5qJqmVVBgI97ogpnsnTcstTLdUpgK8XyIRspsmtIy", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109265150745270525203\">수원백남봉</a>"] },
+            { photoReference: "AWCwydhFH56stUXT6upYLlQUflS0KQucekB2W-sdqTTC3yWLtKEElUCpfR8dyVQ_kq9CFTaZHCS_at4pAcHI-c9CtGT-52oiZyoRMRW0LOblsKrs3XMFx4kQl2QTqzCY1esCz_v993nR_4rSgQ-Y1Soty1vOzOX8-r-iAZKmAOk9m43jm8toEHyYJjpmheGNSnISRssNkQZIGM5D-vEhOyUY8Y39j-5rpB8aP18zagntRp-ne0emAvrJmJJ81hg1CIdndqwEE1ErOtIknbO1cs9IuI95FL396LI-FeaeAQkI4mQajDtAGk2iPdBsOihn1GY929REs-pS80pxNGQwjDgFnEABaBxT4BhW7owf3xlxILSLsNXky6muo8y0X8borpS9A6m6WiMMZrQmzTCRFVR36k01U9snUZopzgU7AlP58lAU_JnLOstxy8n10joU-2SR", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108614501418955437010\">changdo kim</a>"] }
+        ],
+        summary: "친절한 서비스와 함께 즐기는 스노클링 및 섬 투어",
+        updatedAt: "2026-08-16",
+        highlights: ["호핑 투어 및 스노클링", "픽업 및 샌딩 서비스", "아름다운 해변 휴식"],
+        tips: ["뱃멀미가 있다면 미리 대비하세요", "오전 투어를 추천합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 7:00; 화요일: 오전 10:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Hennan Lagoon Resort Mainroad, Zone 7, Manggadyad, Boracay Island, Malay, 5608 Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://cafe.naver.com/cheepboracay", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8846777872308980429", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B3%B4%EC%9E%90%EB%AC%B4%EC%8B%B8+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "놀라고 보라카이 트래블 에이전시": {
+        photos: [],
+        placeId: "ChIJEZUKjbQ9pTMR-fwruPIpsdo",
+        placePhotos: [
+            { photoReference: "AWCwydjMT1gzkvYxTliCo6HsL-pqSEJZBeWG0t96NJ08cyX3r2Xoqk-nBlm4q95_jZCQbXJgaWCUvRWITqfSpbuImyvF12X9DOXNku587UcUv1WnUzVt5C4wECyuiHOmvUO2u0HKdqoTu2FqcOVLEq-mQ_YZF-o4FLEwNrL3ED2Ibb13VlatP7tqWWxf1goeyn8Ns_McwM94QEGL9AHvKfNh_d77CTXiAjULh-PUMAmpYsSJ7-Zr0x6RKI03CeZ2EFsf2KZLpo77Z0ELxcqGmpNV9VbxYRPmcb4cnaiE4wcVQj8njV4AJXwB0mcTaik5fWHfXi07yulwRWNnVW977VfWMCVWGZCSuXUw3KFpdg0sM3TapQJVn1kY1ffzUtPHYHjuVRTS3VtEUkgXCSp8UMvuxHjePKPEadqex5Kq5XLJsuxLIEr4nOw5SNm3vSPysgH0", width: 4800, height: 4200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107890559461771026917\">Noljago Boracay Travel Agency</a>"] },
+            { photoReference: "AWCwydj6RI-wKBgxAVBMFyc0ZsGU3DLWzkpCEN6A0QPlSbx3JxdqLg7x9lu5PdRhq1My6l0FyWUCs9Za509nDCM6iS4RDHph6t1t2Vu6Fv6MtKjSyoPb84sL9CmViJGl9msG-QYnC3XhEHARTecgKMNXzACiI6Lv0pk2__69VbBRXhA2hV3-9Yr7R7AWpVEWXJOhI3REjzMSlFfg8I-rub4nas-TgCwzc3vdu9bHFY5rKHskgj63x__4_gUOeA53hOAffuy4KzLD7NaaAPPlQQGxGiBgJ8mjP6cIecMQXQAUrj83h_UHLJm-6IeEaEHb5Q3yNgyctaazclNzvKEDpXpp8GrYdutky1pE2EBBf8wjYbjsW4FKL-Ul4mC7BzAN7y52GpZ9k7JVFIUTZ041wedbu4vyFbtZgfyFYetikC1ECcgajK1V", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107890559461771026917\">Noljago Boracay Travel Agency</a>"] },
+            { photoReference: "AWCwydhp8yJX_7nnbYOQL4xioyOT3tekail40vm80g-WXw-iefFXYwknAFp2YmPLg4Ua27-HSkVyfslYIVdBvvO0pPAP2uTwSG6kkeVj-N5QfSfde3O7h-pXPJEEeOTx1vobV_CigiXAPwdN_xNFlyIXFIIXlatKWN0gnc4YjHpewZ1D8Lpg2-gc156oOtx-vg5nA7imfpku2sZZkkVliT-G1Ymr-X1CCBdku25nVRUpACQMLnhR3uCbJgGvwgSkHjvqii6UzvCc1QEO-mfyMWJ2XPJ6_3s3Mt7u8rfF_0kNKxHXmzbhsOA2mk9RTBSTa7oa3FJNgVwprvRmGjh8gK-HzRkXaXdUF4aT_8SPx93c0W7pWocPeTj0J6axr24AeuZACA_OZC3SmX9gMIti1oRtY6yM-2XYvGvXJtCG3RRFwy4Ijq97BzS4Uzd4yEIuIlCK", width: 4200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107890559461771026917\">Noljago Boracay Travel Agency</a>"] },
+            { photoReference: "AWCwydjc34RLfFzJvaTmVveyM3LFTHYO0puMMWLZum1BgKdYiQwxX_MUh1cf687c4mwJ_tSrmm3s6H_g06d_ICPGH_reS5m8X6pU1F0H3yQaAIvSyBLIzV8AG69AIwEs9exglxg9_WYTWCH51epDXA-hewPYDgABRJBZlo6vKWsC721OTXlGluhaUW9JUmnDC_weKuLhUwJ5CszALuRrTOaLHe3WezjTH3s7NgQbf-pOOUKcDUkGG93QPRzUNk0BH_CWOYB6AGETAZgJqeXGAOKalYiSYiv_UDnVcsbYb0NAb5FhvB5mdBd7l4wr7eO9eKcV5rPdhffGFfTMhwAS0FU5wHloZuOlwSEyCi7948QvUQn8oTbhZOcg5niNfP9IF2vnd1MjSsCiQgbg4pDQ6d6aT9_ckpfKOCnvH48GTI8ec8k", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107890559461771026917\">Noljago Boracay Travel Agency</a>"] },
+            { photoReference: "AWCwydgQBwaU3wgiCdHWpBRuaXlq83Lvvdp9I8iPrQcqXxzachDXYyL8-d2FqIc9NPh-p_y0cjwQpeX9FyepD5FZShSm7YEYaT6ogCfNflfdAtr_w32Wq6D26TDZYSLzCcoi-0r7I9L7LmXk7sN8vP30jiuNLDFWwC_PIIa7fM-t5QmXBd2bCRy_6O9ES3JZz1-5O2zRrmMb65kI53syRxGl_y-bDzjjnAfVRBqhNoCzVgWD_dmeQaLBQA6SnIjPGVxoxNUW1C-eG__8hoCeU_rrUHyrRuAGOsdfh8y-TIAtbRgfcEyyqEvA8t8qZKDIsSinO1ix7h5wayMQEscRjAhjA6H_7im31xhK9bFMKT3H0RvwuVSvItsvX9U9o9fTNUZS6WjoeRUD_IcW5gRBIi8aHdb16WkG1WmZFY_F8oywHePP4rmsyx3ibTpW8VjivA", width: 4200, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107890559461771026917\">Noljago Boracay Travel Agency</a>"] }
+        ],
+        summary: "친절한 서비스와 깨끗한 시설을 갖춘 보라카이 프리미엄 호핑 투어입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["환상적인 아일랜드 호핑 투어", "친절하고 배려심 넘치는 직원", "완벽하게 준비된 투어 코스"],
+        tips: ["프리미엄급 경험을 원하는 여행객에게 추천", "깨끗한 배를 이용한 편안한 투어"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Balabag Noljago building, Boracay Island, Malay, 5600 Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.noljago.ph/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15758422693594791161", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%86%80%EB%9D%BC%EA%B3%A0+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%8A%B8%EB%9E%98%EB%B8%94+%EC%97%90%EC%9D%B4%EC%A0%84%EC%8B%9C+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에스보라카이": {
+        photos: [],
+        placeId: "ChIJHd8lm6Y9pTMRN3I4tKmk_Mo",
+        placePhotos: [
+            { photoReference: "AWCwydgotWhXPfd9QVJDemdHU7rqCEGVodwIm844sq9iLmSQsd_GRrWKO_mvz7mzMbEPfaxE8P8ifSL9FLiLdFvcrAGbI6PSZ5nINAhEH6vTGQeUJ6jOSYptLQoX8qb5mfBxiLd1GkDa2NvcZV7HqxCvcYvW44BtAezB19_5ez27rwACIYmZ9idG0-24VczSbUPp9uZYnXVjRYhfNSLW0j1_RXohskB41z8xKuS21tqAp55M4OT46TPjba53ii4peW7jGH2HILhkYEszfwepEHPU_QuXel4-zE_HR0Obp8FfsOts86Y9cC3agIXWXSq4PeGAPqmdmlnHHkmh1qIMmVZeUEbzrRko6SNJ6KTJbGho1HkkpZfIsBYcqNsiQT6ozc6FakkzQhbj-biIxljvN_TqnkhaxkE5zCJ0sRlFGSWlDHwasPDw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100246403130238880022\">한성은</a>"] },
+            { photoReference: "AWCwydjn083ETdc4RIkVJlM10afvMImFy172b0Ma2DOmwVyf4JoGn0cfYeYmI8ULKgU1lt9OY5IaTWHMdjYQYx5ZQ3bIGk-v_tLwcec7QHCIBnBL3Cx_TzNNNiSzlOM2k_E9MiDN7jea72h-PBujJyASaWE4Z8Wkff1cFVcJxFsIQTkJUBuZXrY1usthMF67i8L6qqieR6vLQwc414Z7Wu6Xzper8-tkOi5rsQg5FWY_nRTtawRb-IbZh_ysYdy64l2aYnVrxm3hRstijxBVlxWP_L4dYKhwC1RnRjIBtLVlX7apzpxa1_bXBsnZFx1gCUHdBTAV629ySWp3Pm0d7OVQFFjqYZulvqdlzPmQJV6dMN6jckky0Jvm6fFSdIg_9YkFy-WmkSCHtFCT4d0jZnv2j33s3SZmJfkJrqUzyEctD7-Il7kt", width: 2066, height: 3672, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103335102948425293103\">Soo</a>"] },
+            { photoReference: "AWCwydhhAkwKm2UNVHlbNd0dxaPDVkCnF2nVDYRW6ssZTdjFy-l4DRxYqFVI8dMcfznxxuDJePGVRoGpukvRRIvXg5ICor3RE-XEMe83_VA7r1UpMngtos25obNqR2q04CQi-oaLCeS7OswL4cP2StRvSPsD46I5UJrr2nMrvgwKIbDRU9FTdpPDzWTbe40lGMUpnswDieslD1uLxtxNiWWlggPfA4jKNFPGo_rg2mWxkiiFXBiAhCTjtRfbmr13bKVbnC7J10DByCDiw6t29GPD0C6hDZ0MgoEwqVom_D8mIMmneoILOKhpbwpt1I3cA_TeCLn-rdThS2VV3-n2LTJvCiNcnutxKo8l6I5Ypsq_8UxXwQvUoKPJbd-oxfo_5x_cK8-tnud4g_vBZPnz3vH_HiSBjsjPMpG-uucRTxJTB-AgtA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104298655443054433376\">에스보라카이</a>"] },
+            { photoReference: "AWCwydgiy2eJ-u32SzV0YT9meN3hd9D--evzm2JPkaJ2UBh7js9Y6leVDrpYZUsIr7X4VPA6Yg44PPCIVtIJFQgOTbPjzxf-XTsy2khoJa0Nd_KX1nPXSB7bpgNS_xGvgis0IlV3YB93LdtrKa2-m8FXs_LxZe83PCwDAJ8SMeTyeazCLaLR99ciBQ4f55OhXN4GAdfpgGGaxaOQEa84EsKdE6I8IG990t9WCGp1MXTQ-tZueNsXjSTqtTsO7g9a4wV3I_Y9eNafk2hw6M3hE16hjL2qoMZdqcQj0oq0yT-od4sOiR8svpMHz5YCVv3f43iGHvucZN9ZrUdGdfIxFkGPXOEbU5OZAXzwHAp3gH39mzXSgy3yFMif--UOnVZ4tzVxyk-l1e7ec22cD7ZARgSRhs1ruTzdXB7mdoua9SfisGjuYQ", width: 2066, height: 3672, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103335102948425293103\">Soo</a>"] },
+            { photoReference: "AWCwydjMxsCJhX7VCiRLXM9ZDqoYa8g7QXX4kDFgf4T0tw4QuKElHeOrfWGTyV_G6c0FtMTyCEpEymI3eQ3t463-EQeRWmQ6XxIPKRwE-BdrmszHtCfvJ76ceM2WYIwMzqANwIxqc5y_CzdzwCscDZ4z3OWzw96qRMRmdzJ-5FT0azl35UgTgNFiddD6XT02iAJ2F1vGM82PawenPa1nIGB14G4-okoxfFdd0PPj5muMiGdxTFAzwgEF753wamwEFLfMcTA0eOn08HjecWXhefL78Kx_2_BNoTg5l-bo8IEg8l9n_oddK4hYk9hX-tmM-3qQMskCVh3OYjyHA4dawS0U6I6hcj3s9m2F-v9jOGcIc4OpkBhdAafdc4BR2XS51opox2D106YJkYnUQCGvNfC9shVm4Q5GLfOi9__wmX8dp19T2xA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103335102948425293103\">Soo</a>"] }
+        ],
+        summary: "픽업부터 샌딩, 말룸파티까지 보라카이 여행의 모든 것을 책임집니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["한국인 사장님의 친절한 서비스", "스노클링과 아름다운 산호 관찰", "맛있는 현지 음식 제공"],
+        tips: ["말룸파티 신청 시 픽업과 샌딩 서비스를 함께 이용하세요", "스노클링 시 다양한 물고기를 만날 수 있습니다"],
+        hours: "월요일: 오전 9:00 ~ 오후 8:00; 화요일: 오전 9:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2nd Floor, Laketown building, Boracay, Malay, Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14626746738572554807", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%8A%A4%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "Haqqy Life 보라카이": {
+        photos: [],
+        placeId: "ChIJMbkS-6w9pTMR5lYrnvqEgNw",
+        placePhotos: [
+            { photoReference: "AWCwydj_9WJon6oSaR3HtMkPLUY5awGbxGk2x9apgQ2yj8lrD-Zbjg6xCLAdu7C--kUCUW_LxheVCofjfbQvkBV1kdLblN_aNK-vcJKO8Y2sCWkqnFzLE2C0S4Ooszsq5plLp50PbJzUchE1oNtdbmT27WxTtgKAbOUxGGtiCFoAzhhQbgqz7gYS5i9TRg97CJCEcKya2FyhLFb7lbA4n6pAuH46MCZxmxtlWtFCwG5WSOYHXyazn7rbkF562KUNUkNRJ1KC7cukAKOnafndeEIjJxZNlJiubZkvZ6hHCbn63eG1jHPPGwNzJ4GKuGKFH35Ie4u88MFn8FMoXLrQr_XtYMV8Hwf-IhmVVYbvbe-9i5DqMlbg53bo81EvYrURje0DhhWI9mt-WgLB80h14nY5R8j4Dvv6lTwCuGLLqTXzV5kAIA", width: 1600, height: 1200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105737985815991169323\">Robin Navarro</a>"] },
+            { photoReference: "AWCwydiQQ9kQAgxNhWbxRjN43HiE9UXFo_rRIxUtpPvMT4yQMlYqirDISsazDqNaAjIkvb9D5qWwIcquPTjCZkrKxhx1PrnRuUWlp28Q0k_CjSKZeSgGCmwZQx1OTX--7mqIfVgG-DZXr4RN4Rjnya-XItPdTzA2Oy4f2vsDjghNB-hemOfw6xsUO_EjDMK3EpNJ6zh5Nh3HyPrZgiEBG9-nOle7JwchwoxcvB8yBOPyYTeoGwL3EbE3E88qWox5zH70isQICC4ebFAjUX-dUMZMAJhMZbGY1nsCuylLWJS1VesW8wL2pz1gSdeb3bXOiqfehmmkzqJb843qTVmLrf5jYcdZI50dtae7Igb4_Y8ieiUYUIB02MilUylVWLf3xVOR49WeSV3H7kHzl2wqATSCv25g82YQ2aH_kcAGKjInEDTjkto", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104479929925698702016\">Nikolai Ebbe Gundersen</a>"] },
+            { photoReference: "AWCwydiGGJgK2HcAJOa4D0kp_NkHbmdxJ2hVrQfAYL2d5OgZm5DaA291EgUWy1r-VjYTcZWmsh0AaRcML1JxWL9JQOgdEX8msteGWq_Rk9Jw3rjYrIz6dmT3WSn0SMB7S4gdJxYhj6ZxFuWQh-4eETJf2XlAZlU9HoCF0_aZBGbkNx-zHEDLWq8w38YVGYPwEHZ20Fepx_QDT9M05Vv_02449pKWNLEZANTUTYBLzBDPCKaQnaoiR8HVRoqEwwSaTSN09Ww6ukO5p_pdVCzBeHd7n2m26rRXi1cC6L3BkFWlVCn31r8G_sYWeJEKE6SLUa9Y6c1jxPIaWFaMLq1lSKkZ7Z9TFr6qBwUgQb2QKI8nrztCJ2itXuJH1-sFlke2lob8N8Pq6hJ8miLtPhZKvtSLzvYZz1to305CdnsTGllVw7-sgy4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113608420328444857415\">Marlena Stenstrom</a>"] },
+            { photoReference: "AWCwydjpJ97IhC8Wnw754nmtB13rsw7HakJ0eeiaycnIhudcnPHjfzQqx5T6AW6RBO0KmTQHVPPkSUXLzQ8FwGCYIqMCokp7BVnX6ZfikO1t9zq8b6_Q4DTz8Fwgl6lstxQjuWMpEk_g6li2VPgdQNGTfPf-AEY1LRX8SUq5W4FXJk96Y9ClG1zUeDlUcGXhfaBnH3k4TlLVscjk_msFo6gYFiOBSLcpf-SOPjVbDvnoEhcJiI3_qWy2O528IIp5ur7pqEmd2bs59V7ZAu43toO3KN8vn0igsqojmENwGkahKCacI2jd6CXGImZ7ZYauGzBCe5BNoCY3bZriqFoWSzBusFiPiE2mzjgVvWCOnHs52jJdhstpyfhHdhQ5nk_F_v2iDS5oeot_bkUxWcgWYeJD4pEVdq8rSEZFH37dVHm1WIrJVw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113476354863083339145\">MA Patricia Rueda</a>"] },
+            { photoReference: "AWCwydgCm4HlfeurHwls095FaIVwmRtA5AeP5-nZhOIL84rSqf_k6Fa7eOuEGVNGsFDOT9S48ueEWifpGMhQvKhK-YGeNe7whCxoE8_qxIgZBXEtpJBFgWdK6LBymFNCdm5z3ZR-Y8iqz09Ov3NNF9jUcedDyLHkxu9gQAxRNezGGatkiFLI7lwupyy4wQCZvzz_ATzKjaxH1XqN9xFoyRAl1akLuWYBbzCATTwYPAVliKEqIBh1Kyatre2vP5uif0c_x--kQtJq6FbZDbvZ6Ag7rwMW6MltMC6U5BkDkHroPTiXONmHrceiZw_FuEGUuaiwEre_HvpEnetHsR1F0SMJweWBuPeZIz59V6fGkgXPTrhj2-lMVavpsD4kLPzWE8iHWzhrTRWgAeiya_QccKbvz4Xw3og2vVev0ZZ7210ySfuudw", width: 1240, height: 1653, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116192942987510409055\">Therese Angel Saavedra</a>"] }
+        ],
+        summary: "즐거운 분위기 속에서 안전한 보트를 타고 즐기는 엘니도 최고의 투어입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["유쾌하고 재미있는 가이드", "맛있는 음식", "안전한 보트 투어"],
+        tips: ["가이드와 함께 춤을 추며 즐거운 시간을 보내보세요", "가족이나 혼자 여행하는 여행객 모두에게 적합합니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 11:00; 화요일: 오전 7:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Frendz Resort & Hostel, Balabag, Boracay, Malay, 5608 Aklan, 필리핀", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://haqqy.life/boracay", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15888845697293440742", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Haqqy+Life+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%EB%B3%B4%EB%9D%BC%EC%B9%B4%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
 };
 
 export default info;

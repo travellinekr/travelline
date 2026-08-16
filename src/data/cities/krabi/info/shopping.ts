@@ -205,6 +205,164 @@ const info: Record<string, ShoppingInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%ED%84%B0%EC%8A%A4+%EB%81%84%EB%9D%BC%EB%B9%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "네이버 여행 후기 검색" }
         ]
     },
+    "센트럴 끄라비": {
+        photos: [],
+        placeId: "ChIJa8ePA7mVUTARAx1dPnnLALM",
+        placePhotos: [
+            { photoReference: "AWCwydh0BNbLGVtiobtCh8ndH-RavTshubCyJ_zjSh3iYr6rDvP7h6DicFsVeGUOYgTfDddH7nv3ZEGtuuWet7OCFDZiCkfV249vgRLpdWUCJlr5OnszeFSHdq5GqNd_glY8wKmDFeJs-FFB0RiJcIFSK6-cRElNeef3j3Uugxcenft77IZ9O0C2nyvL9u6K8aX_EUZ17c-JlArqeD7evFDYSeCYs5DvucJY8_f0yhD92fIBO6WXBUN3UyBk76xV-5Ld42ryIx2Yx7dbxHWbTBRU9gYBJxj0gl_MJYy5swY2YaWaQnUiDh0P97PoGSC1npCJyWGrjBE5ewIm9bQtVoTjkHDSd0Ypqn93-ubdb3MEOXR7G-ucRUBFbh6xwsvwTxJPMz96wLc8FQwxjLlFwCJM3gKAymOviB1uFw1Y_MbwUKlSQKfU6LQR_pvJBN6K-Q", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106397733555969364727\">Littlepaw</a>"] },
+            { photoReference: "AWCwydjSjOvQGF6VG089E4BB3kQtGvBrq_qechyOEK4QaIOW5ekFjWatCgke4LpzQ-XOFYDIgUReebLnPd-5Zn9IAviN1oi3WSRpzIPyAEXK-mfNZIaK2szPqrvLrkTlf1XHHjf2qkJQTMg-OFffoJYVPp4jnuPC99zwOLViKC2jeNcjySZfOvBdoot_OgmB90y-7rg8qn63SdPTM21bWH5HfPkyJoA7kBu6PhZxfxJgKlW107Kjhp7qLL8dlpgTpX8JWgO854RsIjdlIyLoCDCVg81prpYfbr_kt7X9HsRE8hq9alT2wbb2unzWTcygZaxoFy9tHBhVFwnGgExOdy6RrGYJlxbFB_eS880PAHgOTvf4INACqLv6wUQtXi-tL3053zDBKdrHXXywh2yGGAh8jw65J-P7qmXy7JcHBVBD7Dg8XPfpjBelUDCmJ7ZfX2MS", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104464598092127345754\">Евгений Хамитов</a>"] },
+            { photoReference: "AWCwydg3joc_Ihn4Y98U_o9NKIeJg6-CU-jNhgHE9_d9xHHw8cPv5DTzb6prabUr9mtm2PJLKzqPb6medzkPxyRIF-zpCPQpUzfFopZurDXpKG_KbfWcfMDwaRFmuyXwdrQwNzzyj9qaoMhNAkuHoyUD8S7usssWuverT29RH_N1WCgktcvShRKEjpk9h38nCRDYQgqqFYlbUJEYapVUWZlh3WnmBJfdbnBfZCtcGhsDejWpTHDD-vYK6-qxH2MxCIq_rcMaGlv4ua276hb9wn4ZOMKlotwLXnfRMi37kVYalWLo6vEI_brrCVCKWSrURuK34P_QNtg4A1xROhkabnF2yKPVeqL61gupaFKB_XPj8zO4lCP3deHHGVha5BUhxa0PADyyfYjEggqkVyWFvy3nKWfsSjg08tFuwA-231dmfsLsBpUT1LrImWBbASLVriJs", width: 3000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102698118667137674348\">Marzia Folli</a>"] },
+            { photoReference: "AWCwydiMzO5TxIuus7L-vQqPX5t3sW04QKuQmZBv3OioA5-SpkI6KxbDDdKzxMF9k7nOrAX7SHE5u0ylO3ifVi8F-XOkUJEFpEptKn1ZKQ9O6Tlz6lNoEZ71di4qR53AaI68dc3hE8sWC1lCW2RL4NGyMUkjeX2GBuZ10jRvAhwg0rx7OB8U9BKY_uuJkI7FTRyCF2hasjAoT0_-AtmBntHhnKoxfnlx9vb4E5NiRWtN1KGTzmg_5WI9WStWZ2Vw4JPrCsoA7HqVWGgbS3E5WRtRxv8is_4dCxyHeThsPTpSrH4clfNBX1wBX4KtFLKAgClp6NPUfflxez2x75acEN8QkOA51DnIJR-KNTmoQAVjSYHR9R7v1Z7Uch9O6id9CbSh9hkRWSHpYw5RjYMe5mWDgR1eyP70yrZWQBnmq1eXko-kbhLvMj2sTn0Ot7uyT5tq", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112943594233555828677\">Sunflower</a>"] },
+            { photoReference: "AWCwydjtB0U6wKFBjHNwDgPIlqUWOz3hTVMmJh7aLqgMnkqlZeKK1P8nYagBhdrnZpLDCU7JPpyKcJOI2BudAHWP0EwnW9G102qH1ydM0kkv5eUVlRwIyEGLxViikI_PbZblfmItcaPa5ErJlMYjK-v3SIYS-2ea20KS3-q1WKKRU3WIbVSD9P_gcwRiJXhFcHgW561CmQQdT9b1YuCTnyyT2AXl_80X88bUbgjEfKvbabM_RL5gxQtPTGx7szpPW_PRqVBpnhrfvig-GInL9r8Qz4SQ5ND0DpNCssFpyJoMoAPka5BcUgg_2D7APznthULPVtIae8qtU5IRahpnuykihWyp1bACNDpvPJ3JVUoPIgirUgd00kiNyPn1kZ4Zhe7cumUq-ToWkjoJbwrZKWc4lsh6JUKAqNqTav2nlPj0D0oraOZ1RcXLRU19l7hK4A", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106087177785479851273\">Kostas Fotopoulos</a>"] }
+        ],
+        summary: "4.7점의 높은 평점을 기록 중인 인기 쇼핑몰입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["높은 평점 4.7", "1647개의 방대한 리뷰"],
+        tips: ["매일 오전 10시부터 오후 9시까지 운영됩니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.centralkrabi.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12898533054386871555", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%84%BC%ED%8A%B8%EB%9F%B4+%EB%81%84%EB%9D%BC%EB%B9%84+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아오낭 로컬 마켓": {
+        photos: [],
+        placeId: "ChIJBX58uVOVUTAR07Bu1ah57M4",
+        placePhotos: [
+            { photoReference: "AWCwydj-P0FxDHKmnqIcI2mH9KpE4pj7Sb0KeAuxIX7Rsos5H0UpprxyaDSRaiz-btePW-kVny4c0GPlIRlTmOCg6lHmWLIWMs6Aj3-x1dCcC5W5MWh4ZzkKkMY3IYORDlvcnjTiPwxsvr2MLF0_TyOT6XQBKVjQp-Ja7A49YjGtUrvsvwZGSk9EMjQPrU-FkLxKRjjQzEjBwwiaK95UXiuajnWrseVDjvbQ72nuf-ekSK3xQgoU3rMbI67wFZkCv9gvf5MyfcUkmnWv8MGYYZV1Xcb0qoCvzMm5p2qCjjeC4LkbyKRaLOnDolvAxbNsWzbrWAAWGdjbOWeQFGTzNWcAHuiLHX7tUET41H8KJoRFXz3c2VKiR85sa0O1tENNIrYcwF7drjUB87JgAQaFNj9HOzTt9iNSNl--Ayrcgd0bMY8", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102177701844843097397\">sv</a>"] },
+            { photoReference: "AWCwydhqi9orpLUnCjUi_Ccrr1ojEtTDhRttUsDJncSd4YZlDIa8t7ms6IYfLZr1WSIdmD9g_SNTxAOkbJQI4HzFVVFB9kvVev6iIZrqD-TLQIg6cMFS1eHGEN2rNpp7ulYBA9Covq3pUUoXnE2r9xplYqD6VsC1g41Ke8uEbyGHuYdIxWM_-EHUIxLtRJSb-8146iFRYhC-s2n79-10EnYOKlFioHR3hEllnTNYdMMBAf4k8_kTSzS9S2SrTEDZUO8JjoXSuShJ5ThnsNHwgpqW_f_LsEGH8jaFfkwGmZzxsVJZMrMUZJXTJXl8gqRanqp1JMh0oeRyCiVu4ojId8xnFNdJ3FluQQKoztSSOehubTGr9HoB-wjRk-qN2folnlJPGl5zXFb_oHENXOxJCfR164z6yIV2tTTZwNqjzDkiRUo68vs8x9a6wf9xJ4vqO2DY", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104464598092127345754\">Евгений Хамитов</a>"] },
+            { photoReference: "AWCwydgqi3e_oT0z4hpR2u2lO972ZBNEzTb-IPGURaGqCyX3C40yDN8xOQhCwCOChh7WR0ozMNN1K-LlPr48iFLAicFnTMpQ3HQ9GQa6p3jAjRKRLXaNmz1wNrnIrouvSBmpvVHI2WmjrI-UP8iLfSyGQOFcMJSKD24wN_ldAPnX1CNMiLideG5mW37xd2j21sn-kX_9t0oNn8DUBGWX8M5i7S-WZvYPHU_YZbJ4qELs520YpdkuOFtdn_TkYe_dgzeB_giguX_8nA2XHk2_j2LkANIE5gH1IaN8z5F3tzTTArzZbXX8TKP0Fzv0jsroVZvXvTTe6Z1AlfL65ZuIYJWGqkUecbgJfrz3OTrOPbayGkNTvrjFCWW0f9Nvqal02NuVbK2Oexg81h6IZZtxvHvyYNfzsurgy7TzOmn1AXHRJo4S8By6", width: 4000, height: 2240, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118126231743926826111\">Ser kan</a>"] },
+            { photoReference: "AWCwydjpCTwGj_sLXmvHMAe78SVVWsNmySAJabEgejT1WKcXX4HbQae-UA13GEZA0L7_64grQFSIJPGSJHvHqCQMlmvC4OoiR2OwSf4AimQOGyvLBi1PTe_eeI6ZLuJpQMxmKsXw0d7qQKPLCmUfrgEQDhDrMAxZMOojtMtp16yUSrt0Vryd2HO3Kav8P_ePI5EcCwkB8ALEn3OPyMl_aiHkPaYdzcrmOWI9ptYbYujuCmeQ6pGto5uYkCkoZXw3Vruq2wE6xkIXK2KQONI97Hb1p0kYt4Yw8LBOow8DFEDVyc-OTJwANF8FwSZFLWDvFVA-XG6oEdNydHPHVbMPeKVar5MfLgy7Vl7P0T3xWqbQPybYIB_BNe5dzVyattd6MmBc1GgzU2gn_C8e_h_a7bTBSsDNDFT5I-T7tPwJPQIim6cn_g", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115521455250063300672\">Ken Liu</a>"] },
+            { photoReference: "AWCwydhqcDklUxMB_rMDt9ESrGDPIPMaj5Xi3CVj1RWgwzLw1XPNGTwRHOOn_pbl5k-M7cDhK9dZ9drIDPQLbauGu_pZfwFhE8aNYOYveDXiPG26V_pWpplMq77q46n_SHo3cpdJZV8MpqLVNZQobbGz49dqr4yqn3FWPy1jVuf5nqIJ-TrDbdCKLm88JKapAmTzCfl4FYq1i_1pNZdfHtpyj98Rz7gq-Dl3wSC4g2mbcqEiHDe6vyIVBvTERBrJj0GsJJNLs9rETQbN5hrkRnwVa9nZ1IrR0wVEA1RlKk0wzrHUoQSjjaOvfXNtQbcQtm57ZvMI5MM3sBTuUGNpqwUOViupqT2HyzgHB8wII6uoSsceW9nMlJj6LEXzxLP-K4WmqPcwB2TC8bNbtIbc0DXR0SK1yxF2knszT1QCIFyiZh_dzyvlqmHPGTTEpimT0hoZ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108406379051088898497\">Alex</a>"] }
+        ],
+        summary: "모든 것을 갖춘 유용한 식품 시장입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["다양한 품목 보유", "높은 평점"],
+        tips: ["방문 전 영업시간 확인 필수"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오후 1:30~7:00; 화요일: 오후 1:30~7:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14910426232359137491", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%98%A4%EB%82%AD+%EB%A1%9C%EC%BB%AC+%EB%A7%88%EC%BC%93+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마더 마르셰 슈퍼마켓 M5": {
+        photos: [],
+        placeId: "ChIJEfA3BorBUTARbdXVvLmShCA",
+        placePhotos: [
+            { photoReference: "AWCwydiBPLWAhzVHoSkv6PY1VNr9zo9j74LjKCKuVgoyOo7l7lOMveCryMXuS1L5GwBsC0WDqcXEFLPMNFvyOMmbydNK-MDFXaO0zAKI5vkS_-0cNpjHVH5r96rQDtexpk8bhGLbVz0HkaSap-YFDL0r9aG9QwAUZzB8zyEOiZd_yHPQ6aEn5BpHUI_x6ygIhU_3yisDRNa6DnxG14HzjsbFoetQsMgbRt6qqHd7GoDxGHUfFOW7Y3sm0T0GONeVrwHyWUUYarIFojmZnU1Iyrteu1HoRZlLe8WaQ9Tc4gcCoVfU3O7SVOLwJSZmJ-x-lZYS8buzFJ-wtjNmSlF-GNykTajHYCaLaAiDjE91LQW-PBgrLYE9pG9CHHK2qzoE0BatIaLgN0ZEMAKygG9JWoiUUZly959BPZ93OO98bnl9vNAjDOnB", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116839214627562929371\">min woo kim</a>"] },
+            { photoReference: "AWCwydiJBvtKh69L6C54-Ffs6HUy-vvpjCZwaJ3hHQVQhYT0AZFTKRgvwh1JgvTAi7DVtjhgnMy1UDqecpwjB8bRiID5NZAhAawNgB0zevoBnvumyX6CwVxGRbsHuPG3dD4ZsHDUz6BJ5LY_aTcj-cGeWBGT_ULAYkt3wYpD0X44jBKhq3qEAn760Lxs9Ho42fcndw81AnUt0szPcmugRFHZ5LRQWBItJj_lc-On4QY3S_2Qh5Cgb-im1sgityQeejINcLMXAYd4soWDwJIxG8AF4AWagPMt2NyyaonWZJvFqRXNstXPaTShCGht64XLr2FRtmnQNxKtXnzD1IXfl5KtATnzHLa96upwQbqRfMeahJTHsiGqmMDd9WbkO0WW3keNcHxECTwRp9BFmAZtJWAjZwsE72D-QqR1a75Kg18ZG2tbzFJe", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111790148171929479667\">Mar Bastidas</a>"] },
+            { photoReference: "AWCwydgtd3emweN-daAc-F7RkqUWWkiuHZeStUi3d0JWVMUyXcwTr4RKBz-bs9EJLyArtUsJsx_M7LifAeKgvZQD50iWyAsA0T1H1kFggVkdrETj5EKESou9VlQwglukxYhuzoWvYr9FEsXjRbIuHvrwcwGQiKFe2m0xTB28TEhhb0YVql8uHHN8yBC_njZ4kAtc05HzccfTq4EbXrmPg1WzHRVa_PKS_LrkWBC9yy6zouDzimyGHZ1y5q-QDfhiKHEHfEdF1e-xcdi_lsapklKktiVDD_UmQHTf8pjvEQJiouFRaJVsY_zsHcBI0wJ3tULD8Zlm0qVUdE52Zv0233tzlvPF27u7YIFaY5ISam3WEhWKXYhJiJ0tDj_KI-bgYfq86dsiuUk70D5mUOkDFc19GIcXR8IhUUpltwAzAV00daw", width: 3456, height: 4608, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114986586807478882232\">Denys Shutka</a>"] },
+            { photoReference: "AWCwydjd9wAQP-4eX1rmbmYOtGeJmeRU3ot1L3kSFcKpmLkOVaypK2DDMyIPs6Y7MMRW-yszrpdTUyHl1hIHOAOYCd-6I_LX7GcoPU2osaIlPrySDt5DLdgdoI1wpo2Nq_SZn7XCt8u-isUTscVvljD57Mj0xJrpRhR6PX4KW-PUlpq4EcUfK9kICCMtIfCAe2FW5H_Bxvb0TTivW_2APyr06gPWNybQ1WxV1P1X227tPB2S0cL-ihKPx0TRmjrvnoBqcnS0sZkv08QBqXDbUZzNOtRbGKFuSNzs5TsMXQZ_3lPppeq4JOObnxM8LkdUsdWUlY-RFfD4Nc1NucIyoIVRoJQaoiFimZh1LY5JlcD11B9ryRXIIxN9gKpTSM9Jz3W9oBbZx_XBoHpVb5F5PACHHkqGtd-ZfUufoqi0y7RP51HPAg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100078917190348305549\">R</a>"] },
+            { photoReference: "AWCwydjV9dsemswCPTv91tlIxQY05b8ux1oVU_z2_fosLn-jzUUXMwsZf85VNSKygHB7WFHvYgr81zq3Pfq2JJzzjmWFqTIDFGrNRbv72aCgI8o6ffeupcYo6B3UrYLqdcDZwDYuBXHAl7Wh4tMyYBBOwztoGvIppPnBofIuhZPUl07jeJvyKLcGg-tlguurlt9NFeprK6BlVYDiU2idcj4-gEXyyGpUeFghs1sKuxV8J_esU7JoqzJSOZRygvNn2sGIrHlDcd5XhK7EUpsMW5vhCbpD0RboFTlH27Jl4ian2kuU6MwFdDLSzbkdXQGB3t73uAHv56GNh6U-cv42hgmGF8kZ1g_yHm1vmlEegIq84-swWTDr11lRgR_mKyukxRtnCy64goYURq_cPIGP3Ckg78jOdbJFN1YIiyoPyxxMLCK1GA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116839214627562929371\">min woo kim</a>"] }
+        ],
+        summary: "다양한 수입 제품을 만날 수 있는 마켓입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["수입 브랜드 보유", "시내 중심가 위치"],
+        tips: ["더 다양한 수입품을 원한다면 시내 중심의 Tops를 방문해보세요."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2343159032574236013", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EB%8D%94+%EB%A7%88%EB%A5%B4%EC%85%B0+%EC%8A%88%ED%8D%BC%EB%A7%88%EC%BC%93+M5+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "슈퍼칩 클롱 행55": {
+        photos: [],
+        placeId: "ChIJP7Q56Om_UTAR_Qb-Jx5UCcU",
+        placePhotos: [
+            { photoReference: "AWCwydjPqKtiBlePkNPvLnJT0Y3M-UjNkzeuUGmYeUpyTEsK45j2kvhDASwfCHQezvQpqz4XSohdA6LMbZulDYOnSOOry0bVykdidEBvZTLPSnmuMx1ap3QsCbs2SoTj209s-eVCRc62qN9e2GkT4mNbR7z_z3b9d1lzTiRw87CKEQGSN5UuDE1_Phzx2IV6MGlvXXx8_LSvePe07Ru-pa_tokLwmD4FAi-RulyAsTPLyIXshDWGQc6MEx-uSwjR5ogj4bZTspx1dlkTugatdpJBVB-tih72w0f_145hQ2J-xeZffVf7SyoAONs0o8lQldSXRxBsgTmv3m6aHh-WmO_5oY6rGRk6ZE3GaHYdkDzJ1YpJ5y35rlb5C2zwPtyHPpkBdxWW_qdjZk7S2auLp5755lvYEfyNWCskMjzqCvsaVTg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112813374568056994238\">Андрей Паламарчук</a>"] },
+            { photoReference: "AWCwydjCVzCRQ4x9ZBjwRqQ3hLpFFWALr2o0p3yTPTDnujVPyourWRWrELUeC94TqD6d4YYMofTiUahu_EGlj1uJl2NSvLD6j-K7igzDmppwfT8_PEXdtmLQh6lz8DzaAqK5iIFiubAop_xZHmn-1-LJAo-TxNpShZbHGDvvGGEf5Vu1Fuyo2cOXwKHAhsKDjyNAWvaWPrvwz4U5DxdQYImmp46tjzq-6qqC0M3NZB2S1L9qUKtHOE_WewS0-z5cis8cyDlcmlt8gEWQLNfpcqpMZf1krmgmB7mrmHp4_a79vUKDAce_csFfBOnl9K2HPmMX7EsSAObitLtZFlZ6KARfRpVMA6duCQJ1c7oRCh-LQSWmxwgbuACAuM9A-TeNG52Lta6440Qfj65IMjB85RHU1FKgbNr3Odd3lKy77KfZCPdFvw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111649443315844129654\">Thomas de Silva</a>"] },
+            { photoReference: "AWCwydhKKtFjVGxcLW78L7nm-1kqL0bJTmYtqRlpTPsw6P1Oca0Z973vFdKQKEwXkpAapExKig_aHnu1341cljdMBkjMs7Wa-vbVwB30iGpWE4Y6aKy2udExN8S1hXf_Rnp4Mpr8GSjQ0K2XXMe7E-f9iIuj31jKvy7btyez0gMS8FI1Ta647F8xs-2FdpckAnTCf_2PTWaVrlO2LWDt4f13D1AT9yX7AWucxSmknbBEorDjKHjMv8n1bPzsP_iNxIRews85RrKoPVsU1_zaC_KHjtUPTCh7i9CV8zOdiUToVQaATWhU4f_lTp37K5yzXT35YfDiw9-EKiIRZ8JrvDj_gcmIxYVn98NGk7Wd9ddt9I0bny4V8e3Kyl0u_G5Ic-ZrMFadZC2I3cH9anlhixoUikLiYDtQbLMvYp-ln0ycvA4xgWIW", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112813374568056994238\">Андрей Паламарчук</a>"] },
+            { photoReference: "AWCwydjurjnmqDcrztAKMs8zLtZBYoSlOrfyNeUCAmH-0_XwrW6ydb97POaXCZySyeZ4MeQLBW0VXXuCNRG-_uyAKfWikikOt5yNjt8D7BNq5Tkl-qEGVaIuejLNZroYqSQ1bkoYtpUTEmPL_enTy1ZqbUh-28V4oxQJdOXQ7UtXkpAk6QY61VWTpNWbYlJGN31ITlfQmy7QWZh3BNhvfAamgp5kQ_KsVHf1juAGvdeNmmVBOnyBAe9k9VSIJWLkscLgzrKfe2xRgN71iuUPBv9jciHp6RdgcnEmrXl1csGBaOfgHRz1mUZv-gG9mxg-hia7m3xYiZR5h19CmBlYOrkjEMkJgOSqnYW2YSuO2V5WJaNjYHDbPbpqp4vsCxQ8tSZ7EcmatQ4TcI2BF-vzB4J9UO2EtCoOtYgURw5r-I85xVEt6Nc", width: 1920, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103773257134796905756\">Azam Shaharom</a>"] },
+            { photoReference: "AWCwydhCtY8S0K9JDBFGs8_vkWFvXvwhlLg-wXp2KG_GozEJvOmGuVjX7ZDpRKn4mwhRAHdKhUKJY7_abVab3dbSaWXW_GSwjW6nljphdPcMKhIpTsmi-dLKQFCkLn7xF1XM79j4QdAZ1k6tPtk6ulUQ7ZV4pd75bElL9EmcO2t9RDFikf6TCsyy4cgbzMv_4Yc1jGUm-AwkaQrII2lk4Kq0vN71oUyzP_w3uKoxVbJETgjUTeXeE55Tea1kynsrhuldJ-8ebfU6CgP7mg8uaDattoxGhU1Q26NaplDqmsZJ_Dq06FbDLkDnUg20UJEfzraHtTLgaD6FgyOdL9kuSbryEu5ibOz0IjdILmtbJ3bFTv37_ji5kxNoOJfX8AA2dC6ZfxhtJ3ZHjqrOqQB1zoHwc5kY3JQ8Vfgds366XMMSmB1vmoRJ", width: 4160, height: 3120, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117440390573769568616\">Žilvinas Gadliauskas</a>"] }
+        ],
+        summary: "24시간 영업하여 언제든 편리하게 이용할 수 있는 장소입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["24시간 연중무휴 영업", "높은 검색 빈도와 양호한 리뷰"],
+        tips: ["언제든 방문 가능한 24시간 운영 매장입니다."],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "http://www.supercheapphuket.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14197971788758910717", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%88%ED%8D%BC%EC%B9%A9+%ED%81%B4%EB%A1%B1+%ED%96%8955+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "로따스": {
+        photos: [],
+        placeId: "ChIJ-5_c6I-UUTARm358mVm8HDc",
+        placePhotos: [
+            { photoReference: "AWCwydhGIa-y2YgEHNVRVONq5Y5rUyc4HTNNEJ5Z4F3B0hNRNhdPVjE0wJIFD6ig7muDpBYSjt7XyZjLsZjOkDWp_CiM-HCDMTLWFiqhVn2yRGxTs_gLIZrytJOW7zLw9vLJZWTbr74Rz7ed3Nbomp_ymHTYhPmz3k1mtALDwbJKlDIChQz-e3SIOAONY-w9y1n4bpeef-V3dkH6p3ZqN8ctygDzhvFwVS4F66GsPPkztthFO21nDfe6kk6_p7pGa4_8I9BPH3rFKtsRIjGiqKrNHzwr2boY37LGc5RrWCW_btcl4aO-XRFuhvjJZMHyBAqvox65ojJYOrGv78OCP-Vq9kqHKoMsfd53DXuzJRVCD8IXml9jjWCGvzLEs3YK3q60jd21w9DZ5Jr3erJ5MGAnk7z2pPkYttk1cDtu1eQ0w3Wi6AoJ", width: 2364, height: 1774, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100246891094707579047\">โลตัส โก เฟรช ซูเปอร์มาร์เก็ต กระบี่ ทาวน์</a>"] },
+            { photoReference: "AWCwydhhgkqDBC6TG0l2K2Qo2oa1lCJIwDbuDGGpLvIqbA-ySu_b2U1qjDpn4bXvpCcNUS5WIyUdJP5Prgcl7WTxqW3duOYh64MjMJu_WHno3tFVSc7GokV55OvU_YxRQzOj0MgAjUTm_CObmDuc3oTpZJjzMlSbRdMd4oNTpZOSS2IdUSGzVZovhT9f0FgZYkx1BqhQ2x_zakR4JzIPU57uTrjXZv6jxEm6LvED5rEmTCTNLyN1YYq1vJRQW9EzGxxEyqUjYQUTo4g28ltsKCtAL3YnTQvpx-tli88stUa7W4zBWCasigRy2uBkF1j6zk1wulsUfdNx4CvPqaaa28ja5CrboDpJfsqp1vfQDUP0MX0Ej3BkXYeetsq3TseL0Uj7UcBF1YJclIYLgI3DtOaZzkewCCcLwcDfzR42aNuh4O0", width: 2324, height: 1804, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100246891094707579047\">โลตัส โก เฟรช ซูเปอร์มาร์เก็ต กระบี่ ทาวน์</a>"] },
+            { photoReference: "AWCwydhOa5-5azT76P3zdNFKC0zWH3yWIYLLVoC5-58tSBn8duilc338-muT9Lsz3G80j561rkRZNqSe6TEIhc_dWHz7z7-oL-5aZK2C4oZ8OkkfP0XgzQYPOwWJz6yuyXl69l4Nip2wXj0UqpFfRim9EJWL1GWjvsqb_8t5BSHDY47TkynSnPNOrX_s-fc5Hw64us-xBJCs2KSsqqKlVW7ejfdaweysFka2c6ZBpMkQpTS0-9YnVJJw2mhR1HppaDP5Hklp0D38Q1jGuTisds13D0wxfztuuMYW-T-rC4IuXEB_G1jow9kp3xQzWemsQjTDP5SUjX5OgX3jZ4F419otfz80_cPPjh2LLROscohPdDoLMoQq7Sl8yVL-9EQdTFe8h2iVqQf5HdUzlgnjNAlTq9Dxx0vAKJO0hd-aCmFJDHSPuOou", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111218989163089821330\">Youngwoo Jeon</a>"] },
+            { photoReference: "AWCwydijK_48sppqnGcSrNi1CC-R59rE92xPSMu73MMA5nJrogU5B4Xu5f24sqxMjHJeyqXYyaZWhmqWu6h8ugwR7vaghPs-bc_UpXLwQ5bVHeP4G_IJGykhV71p3ZTb14DZ0xRQv_ezkeYyq7EhJD0gVtVHngdKLX4wzGtX3cvDGrS0HAuY79jwydK8Zj-u4LVWfVR1bK9Zio1I4If9jxI2krJa9D6NETm56vDuUnT4qLuHIwMFUU7Caq-uK4i4NARbffPtIZdGT5NpFdxoBQDS6XMKOqwRxHAs4w9B82zUP267Iqkx8atwJYc08xDG7p9cXxMh-HQrfYTP8NaucaBsDQHq0fqLTTUayFObIwaudZQZ1aJMiXaiXyeMYM4DAlMYCiczPpzvQxaCDBxAglsO5wZ31IQ5-E9dbv75lhImri32yXUE", width: 2364, height: 1774, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100246891094707579047\">โลตัส โก เฟรช ซูเปอร์มาร์เก็ต กระบี่ ทาวน์</a>"] },
+            { photoReference: "AWCwydiezssoAWn0IndhDOo3Y617LLpu196X3Q_nrctAcWSU9dwSmW3AEFZMYEinnfnU7jPUh1UuRo1uneRE2osjRTBM-zgQeIwY_pAUpCDqXJd9TPyr0ea8IphftW8fzSZLxf74jdWiShDMHv0NP6iP6ZIiVXui0t4VZsTz1MCefyQldE58f5hF2rLlv0HA9XguR7ZjoYVJRZU1bwVBZ0wIAgmWTYqLtK098BrQ47m0FIVQWr3zAMFyETlhnDow2q7GODiEgh6_wVyEJGMFR9bA7c3nwLOJbsn76NxxbTQlzWFj_F0W5Y9Xxi6hz6XpKtMwsm7zBqZT7bNcKyTkabkASp-Rgk2Wbt04d_qMAYW6MyCMpq_-IE_CiOsNuV1SVRgw9m7uNLIeC0T-2XRQdk-Ds9PjiF_gsyfZQwqRo1YFYEg", width: 2019, height: 2077, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100246891094707579047\">โลตัส โก เฟรช ซูเปอร์มาร์เก็ต กระบี่ ทาวน์</a>"] }
+        ],
+        summary: "매일 오전 7시부터 오후 10시까지 운영되는 편리한 슈퍼마켓입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["걸프 지역 스타일 매장", "매일 오전 7시 오픈"],
+        tips: ["오전 7시부터 오후 10시까지 운영 시간을 확인하세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 7:00 ~ 오후 10:00; 화요일: 오전 7:00 ~ 오후 10:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.lotuss.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3971256064447119003", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EB%94%B0%EC%8A%A4+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "파카랑 아트 앤 크래프트": {
+        photos: [],
+        placeId: "ChIJ7X1EWt-VUTARlTvoE00CD90",
+        placePhotos: [
+            { photoReference: "AWCwydhTx2Cy7S9f00O-9iDSKwx7YVL6OfaoRzbObSY0_xjQ3KU9uvVlEbRGa7awijq0Rn5LSkIv7RDqytWAsgIm9SbnEuQw1aIjnbXwDrOHbVV2D1qULs6Se9EMm1YR6Bp7aLeh9Ww840zH09HaPie4wqjOMs1E881rT6w4A8NszmOCQviUGhVNGnPO-a5CpTJ3AiSmKPQLtvlJ5xaBHxW7NNVIFUuy4hmi9QilMFhTnBd9QxGIzu0ae99q3QcXIYIh6XUsrsV4D0X32MIAOnbQlRm3V_H0a1RWxCX2k9IuAwxwTCJXBlePEsRobNwj-JXFfwAo57j7LJPYqhsQimt4U7k7B6CE03gV3oRnzqbk5YzZcAIwTr9OycDXH8gHdtd-GABj0DXDj3EWHj7C3bthcgVdfV8vAiMPDP8OgsleJrjr4uAe", width: 771, height: 1020, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115035211454382215417\">Pakarang Art and Craft</a>"] },
+            { photoReference: "AWCwydiWYZy_Qjv-2CjIJ0nKblvQtjAldjmNWNkmXyz_R2sA4QWjoz0ZkQfxUUiyii4EO4TohKZeFxFVHBaBpG5URBBMl5SK7nfKkRKSSKNEaMAHlV7XtHSPtvToSW4-agpwQWttw49rsRt-jECYS8lkQyMDsX0LIUS3Ujipurl1xKzpwVeFEiLQwoqZLFQzoTmLlmm2L5V23y8gbgJqd-j4W8SJmWZWZkzvEcjGS6_Jac65rfdQgacw0PxehS2qQWmQrrIcmlSr7OmhKozIj35LjPHMYLSI5wEwTFiKNSAWZWIganMf58GtvGyO21tz2U-AZpwqg-rZoL0cBu5ovrUZY0WuFl_ha3DMEkuBp2EYO5nCkGNWOCBUhCB9fzJSsRbzBZeDg7nvzwUUqUpaaCVFouAqfBfwYUSupxi5owgY-3o5uxw8friDwD_bonYhyd44", width: 1170, height: 659, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115035211454382215417\">Pakarang Art and Craft</a>"] },
+            { photoReference: "AWCwydhj-H4ics9xr1P_d8KsuVVf43Ybs2ddsu6umOlzLgpBoUhP1B6g2MTe-YUd3JJ2xk1dblc3ar3j6QfTGq2WiV4NFJu1-AKVEsxcPx1IP9R-Zp8FjFVQkz_HrdQyM3EgyBmNGhCvj1gjbO_pZlrhK6dz0OAaRCX2lEuHCMix-91Jrcx-gn2a3dnywh0IrcC0azYVztt02muaj-9YMMW6szrYRv8HWSCSLoLNajj2VyU2Q-m8WmlFVToCAZH0e5U8EFxXAhSKmiHqyWkQIhofqII3e2l31DtxH4HXHElrtx9QbcMqxI7kYoQ90KtMC-oOljU0m2iyUkBdEqY0TFEH-zn2dAzbxOJ7z-24JZha2EWr-Wcxe2gpXugRn-vOf450IYGBpHe05H32Ve3lBP9HNRvI4qLUI6wBiAu_VVRT1Naoug", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115035211454382215417\">Pakarang Art and Craft</a>"] },
+            { photoReference: "AWCwydi4VAsKg-zTpmGyqa9cU5HIKo6vyZtGmUBJJ6HEM6yZPjCCV93-NoCY7REwSeiQtdyMheb4cRHi8hFvQHU8P6yEnAPEY6-7Rbn2p32Rebc0gwo5WCR4jElHX5lSpY21X30-bFh68bDHydu1u9TfbSBvfwpNPDegPyM_7B5XMFuRuMhXBJBmZh36XwkX8ZRPlSf6fhERwEuOz31TwLvgYnH2v7tQ1aSipthYii9pm6pCPMQehV_MMcApMKfEUPSG1U77CWiUMMu5GzHtPVpE0hXDyJ_TDrX_bW6Gf_tkfsfyR2htrKbFIBISDY9uj4x2y62yICUReZiV2S1Bl44hI7RG7JsoWH7cCVgPFg4LgJVKnXeIU0YYPUm3_Rowd8pnkTJEifsf5RpLxFNwglV1I6BtITfU2IzEpoScgRxQmZEjRFA7", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113500873374459799596\">Harald Stühler</a>"] },
+            { photoReference: "AWCwyditZDbVt56uTlYOty-OWCzrGb2R6JTu9FTvXt_-zUWo0RH83j8CO_bJaml9Tc5iocbMd7mWbGjI8oJZ9I470PoNWCqGTgnyUx8KnPIfud7HTeLxY5NDqciuafw7xI-B-dw3euOnKi_eXSp4cwquMZuJb8BBmCZKvpWBFf98EgTK-XumQY-tdVYeIxe8-ZWJt2iIDrd_d4Q4_RjMuJtm9PofGwkleotOAhtJXrkhUnBN68W5JbnnfuRCxxaLfnMbifBFVo1Gy94MsuGLL4m1z6KPiet_V61E1RKT5IHgvX_rCJkFr-gkPsBLKRkd9W52hmOeKWt0zNAg6obLJ50OIwcdxftSuabt3C3SNt0Ydy5t86EHxWN-3iEhfq7v6gH6XssUA2wd67uoeaG4BAhYVKvtpM-lUfN_7HPov4WufU8n8e4", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116680216655640709443\">teoh jiunhaw</a>"] }
+        ],
+        summary: "다양한 종류의 고품질 기념품과 골동품 스타일 제품을 만날 수 있는 예쁜 가게입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["다양한 제품 선택지", "훌륭한 제품 품질", "골동품 분위기"],
+        tips: ["외부 시장보다 가격이 높을 수 있습니다", "제품의 완성도가 높아 구매 가치가 있습니다"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "공식 사이트", url: "https://www.instagram.com/pakarang.artandcraft?igsh=MWhhb2E5dnBxaWxxZA==", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15928952937102457749", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%8C%EC%B9%B4%EB%9E%91+%EC%95%84%ED%8A%B8+%EC%95%A4+%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "다흘라 바틱": {
+        photos: [],
+        placeId: "ChIJY1RDt1iUUTAR-rOVqgHGWKw",
+        placePhotos: [
+            { photoReference: "AWCwydip657iCZ8SC9mz2Zr4NQXxKO6FoT1n7XkmDdG9mC8-eYrua96z6PgzQdoblLDnNP0PHlMv0NXeih9Rcy4K0LLYLOJq9BXkjX94oxNfXd974QU2CrnXRfoSIbn9GiKXhGd1XRLJbnMQaBfRf7MD7z5dtVhI_aC9q3Px_goZDdnQU1L9Nmho4ZSYfijUQZMs7XhPL25lCUUzKkbkG2yQx83QQZGUUmw11PaNMbQkdknXZLhOiTz_EVg-rmDTmfngg8GRjRYIdO7mki08MPU1Bbz6lrmzwpM85fqt32OACLs7W5U62QDlMSIvKkvJtNrQS0194fOtuvnHJxPwJYsdxGigp5DQxvDbHOjE3qe9NnedFsT6FrDcm8xQuLEH0zt0guOX89lrKf0iWkjryp0pWqZTgUlqLmGZTj7P4LtkC-EHvQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445064594337882614\">Amanda Vashti</a>"] },
+            { photoReference: "AWCwydiVjzxHyqGTtGUnq9kpex2lx9MkWYu2ibFnMlMKV4sREBGn8oImka2-mLB16ngCvpaJcb9wKQSE2cx7ApGTawGZ79oR4x98ZCnE2v5QAUaRd-paGw8TyBXNVAVXzssGJKXvao0e3vTHB7QYJwCRjcbYe_wpGQHQivO_zgZOWgVxvlaJo3wOKD7wfnPxJeCgEPV1n-7HUg7OTjGp10-s0g2TCEzXvDryqHX-6cdCYGooMq2WqIvN1jtxZbiXFLCZys83Qo4r3Kz1WZNDRJFc1YLA25DdxC9JD1qbXiFzJwoltFj7QOde6JhKPmMaWcoldq2-nD6773Na6r12NTOP4iALj-4C9TE4DhOFkZ3zdc9d7cS255qXn1z63JFw6hRQIjW3FV5T5VjCgQ6325cXMl3qKzo-oyJlqU3_Y78ICuLV4qU31mrLqtKBtOmTNVUv", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112337588843130378791\">Nichakarn Ks</a>"] },
+            { photoReference: "AWCwydjXgMELxDFhHwzF-gNBAu6pQLH8S2WTOewOBvm664ZDTENNhoOSRveSwt9DrHtQ2rF4ebVlOJ4cYfGXrvl7OlFiGuxLyadGoxbDRRAFBY2IGevusD8qd7DUMtKn14nB8FyQl8DJAKyqbNIvV5iJz87eGsVCLtxlMGwo4y9do8lickw_jwr3tZe_rRo1SHJVo-XTCGMI3Y8h_e8T7dXgYqbfhdL0pAHr6leH--oarcADEp4i0eTMWO1CyOBjOjrbsRMtbsqa2CrbFyOYSabCcpqoBefFcg_9zv6IVfAsV-mKMuKPvb8bQb39GVOlwGn-U6-4kWvZ1VwL9jiOv_FQcEUNrqn9N83IX6OPTCq6LIFydBqTlIPEoLpieqLW0PazSd9iA3WKJZRz4o_7jr7gZ00zzgBJJfriU7ya48s6qTlm3_FS", width: 4160, height: 1970, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107461073548146286839\">amnatmech “เปา” mema</a>"] },
+            { photoReference: "AWCwydhfxhD9ETtRecxZlX00EoiM04eNcDL57I8xCPSXIIjKG8UQZJWyFOOBA5YTIWB-nz_ZRCDMuH2c7uG5kONPLayDwEU1NWYaUGiwmgHf7A0Qd8zIuN4-4xtL1ExgUzqsC8rGYYjHfAXMWlstawQpujtJDmIaFmkIoH4CIjXcqRlCLh5tjL5E9y9q4Plwaq7PkYDvN_i_GSLTFZslz3GqGqzWwsVV81yYgKor2FooQJbh_lufv1fQkIPEjxPvj54AG3hYNKoLNmkT6bHyLPlMR5kD9x2Ioo_d_xZcV9n4K0UQhQHftoHu4FzKFRmuS6fAl-Y1SBrg4mYDqXhssgZgFBrzoTQ0c02cZwwOnuo4BjW8yATOQoteS3y6IfOVWWM6h1R8FHRrG9ZtNjOfZlWlxVGbiz-CRUtkHD95HgLYSgA_QIA_", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445064594337882614\">Amanda Vashti</a>"] },
+            { photoReference: "AWCwydjlZpIianfqlVCYjgbh4BArPh7OBokxrCSQWiq8zNvoXIyWAttVqlJgxuA1BZSjvSLwJp3LbIh0mmGpmc6fbBrtePPCw932uHlqbpe1wPWlViK6VlKxGW7yTCs4wYe5OkQaPBevAwoSqXPYHOytrtIv7o_sEGD4B1nbSZ8CGDJZZuuEYoyF94y1csPvl3HepSRKdI1uAaKeIPil37ZDwZ-GbgblOKxTpKQi694x82zgyewC2c7miQtXTfN2ZoM71E8mZ4IIlKdAZrwjwH580okKHhACBrq4Zydfsv-HE1h4jpF-jcLSTvnSHQrpD4tBzZm4FM3A62uECKWJlRWx-0JeeJjdRb3fwYB_ahGDCm1qLRXWmG6mJnO5MPfLJYD37Z_4vrZ94lnFEPytfHJ60ZyOfIibAxy1GHzoYCXdP4I", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118057536192108259019\">สุทธารัตน์ บุญเลิศ</a>"] }
+        ],
+        summary: "품질 높은 수작업 바틱 제품을 만날 수 있는 매력적인 기념품 숍입니다.",
+        updatedAt: "2026-08-15",
+        highlights: ["현지 제작 수작업 바틱", "다양한 제품군", "친절한 서비스"],
+        tips: ["영어가 통하여 제품 설명을 듣기 편리합니다", "일요일은 휴무이니 방문 시 참고하세요"],
+        taxRefund: { available: false, note: "매장별 가능 여부 확인 권장" },
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        payment: ["현금", "카드 가능 여부 매장 확인"],
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12418893682933347322", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8B%A4%ED%9D%98%EB%9D%BC+%EB%B0%94%ED%8B%B1+%EB%81%84%EB%9D%BC%EB%B9%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

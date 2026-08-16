@@ -579,6 +579,342 @@ const info: Record<string, TourSpaInfo> = {
             { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%8C%90%EC%8B%9C%ED%8C%90%20%EC%BC%80%EC%9D%B4%EB%B8%94%EC%B9%B4%20%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 여행 후기 검색" }
         ]
     },
+    "크로싱 베트남 투어": {
+        photos: [],
+        placeId: "ChIJzQ9hFp2rNTER4qD3BoCc3PE",
+        placePhotos: [
+            { photoReference: "AWCwydjx7RrCoarVipNj0_bth-hIewP8ZVZdqnpjapnabKwswI77AK9J2BsB1ntR-cLrZVF66LQbH4WmIi42iZ6VK3TDJxAOoIYRutIXMBz0DsNGfchDAcu3p_Xx8lK60Ussjr1s-BQrnhOUdppr3M9stbiFXu-eA_AynEWecmAqZOmrgftv0wnRJ7kgeB6dKiZWUHJIeNzwZ8bwMg_t2Hum2f0f5mLWvLcOrYMtgXL6BgU_m9ounUHbgDW0k0zgHiTGDUFRUmdVeOEbiroQtz0BfHW0lBMwBXmOk23Ctp1L_xdiN9yzq-xao7tzpeqhV1Cse_IZc66x78jnSGgjF9vOpmDeHdG7rX_LZAlrRPmKbMHg5AJzi6RGZUtc3_ElPiBIVl_tYVPLKEl6nMjEDdYpCemgzre5MKNGe9svvHqnNPMP1A", width: 1090, height: 490, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100341811929596632118\">Crossing Vietnam Tour</a>"] },
+            { photoReference: "AWCwydh_RWoj2FzSKgCHxRuRoN0uKocAXmTBUgbtX19sOk2jAP3p4S5ksKpUUct_88_OsK5lvWjVBoAdr7tZVRzyyt9KOpBYEp0v0FVagNbMNrXCVifzPuDmPGFGLlHW1BG9URzMPp40FYML2ue_z5AZgWldR-pGt6VbZyygJpDr3Bcg9lvNLF1qsA2anDdJXYkN-CBWUkbrF2gDY7zENPwWkm6oYeo9814-w3xJn334tLqOUTmW4l-5wjJtelNAwcWHzRdFQ9Qm3pOSJspJh3PZ0A0h6HBylFMF3N7zXrivSMmN3t8CHJNHm1QLi8IYuU0WlnvX_cFtN2Phtq3dFh2q93U1POVSmyCH6SedHEVhB6M-rnYj1wnav1eNPlmUVqyAN8rLZ3EkW4Lv9R9R-xsNCxFcv7lkPTKqWdi60sMyABcPZNO1SPrRq-0nVyQFkahQ", width: 2992, height: 2992, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104067058198503893844\">Kellie Wilhelm</a>"] },
+            { photoReference: "AWCwydjgXnwoUSFJIvm7mHI2m9cpApEfNu__NIESNPzM3yqeCrl_x-K336SebnBECaMU_b2Ukl7JoIAA0_H722EUarFRODNAZ7w9mUYMA2kGLeVl3ts6epY5Po0NXrUuY9Skun6LfgYoXf9r3-ftgpEmbRTQN7Bxy3sz4C2DdwqtSVDe_W5h9bFzEskLwyE0xrwDQzNYfO4qUY5OrJkeiUqKlveUOENj1Mrt0rgJMbwKcawpc0bl7R2dkVRmbeNM0_VdkHlGaWUAzt4ACyDWSvg2GsIk5MAkRzLmhSBgb7J9MLMUXiPBE-N5n3coEu8fCJvoULaOA8cxRrfzafs370_FzpVyQQtvlkhOChaAiP2DzwEtA17GAE6KjlzvWcitVTB76aiShHsZduO8rJR5oB4fXFDeiWD4PbHW_q9iEIHGbkYTI2VEckznxJ9Trz_r_A", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106323854334466508750\">菊地啓介</a>"] },
+            { photoReference: "AWCwydhMag4C2yT9Hw9fdzqpx6InMm_YSg9NlNk-CNgslpYqWCqm9lCpqULcZfPuWs4ZZqAQQOutqkFq1wAKi39JQThOj-kXkOtzl_d__BA5-V9gcUalyOm-PEftLlmqI2Ok9kl2-vHOTtxlByHvV8-ZKBa0TecIaXscv2JHVfjnYRBb4L7FWZ7020Bs1m2epzsS3V0ZMMBn-PIAMnQlwYfwM0UmMy3a4_b3l_H3JLKM2bS5DPndm4TnFQNZPp5tzKCWgHi2EPT0hmwNb2FD0B96ynB6Jki-qfrMfNMZnNDk9s-GhAVal8C029AP9mpICRn0BoYBY3EegF5mQdyy3atwJLkfB8J4ZRjuVuYQHlJcMJX7KMwd5vu_YxpOjXG6win6zQQnuSPs67VVkbdE66lrcUP4JKeL4td0viogDJWufcLuRP41q3gSnK_qOsbJ9nnM", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102593326464874144147\">Chad De Guzman</a>"] },
+            { photoReference: "AWCwydgfQVXZBJgzMsPtzlSvs05SpsJPUvLTMOTsgt66KW9qtmSWBAE7qFRtfOaHTsyfNmMtXU7Pzhil6cfSvDN2EjSt2rNjNhVaaO1nmdGFLJ5Fab4x4ASnnkAqPlqWwvNmc1pR-O5TRY3uDuFhE2ITkB2j2FdG2OBIIaTaM2UwegS5h9Ea2Ene_5iZ2W-_hktL21ds5xWSUwCLLTcqh41tTqnZccLNkTrscDtP7xcmysJ1UmLlTVF_Ida23u2qb7mMtaEyBfhD_OuCHNQzot9cVuhXBQh8h-n4LgQ-1FWdr4MgTpGQac3TZqrov8LGwddXeZsVKPvaB-tcNOCIuCnBrq7vniG4ocljfzL0X3jN_IC5XzNGrhCWVbR2TOU9DhszFVDoQRJzHVPXY4qrqkpDpHt9dFLaANXrX7gjeZIa6waqZjmzpWheOEmrhRhOwNY1", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105522968845416284120\">kenz cul</a>"] }
+        ],
+        summary: "하노이 기차 거리의 맛집과 문화를 탐험하는 인기 미식 투어입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["전문적인 가이드의 유쾌한 진행", "하노이의 흥미로운 역사와 사실 학습", "최적의 식당 및 기차역 좌석 확보"],
+        tips: ["가이드의 영어 실력이 뛰어나 소통이 원활합니다", "가족 단위 여행객에게도 추천하는 투어입니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "12 P. Hàng Vải, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.crossingvietnamtour.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17427976731703615714", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%81%AC%EB%A1%9C%EC%8B%B1+%EB%B2%A0%ED%8A%B8%EB%82%A8+%ED%88%AC%EC%96%B4+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하노이 백스트리트 투어": {
+        photos: [],
+        placeId: "ChIJFytFf8CrNTERuwoeo3gxMog",
+        placePhotos: [
+            { photoReference: "AWCwydgCUAr7VazN4bx49mH9fWf90JiVuXDx1cpYnwFtPt7byNKDZYYZz88-qjpmxE01_Cn_F-eEqtOOjI-2sFpxPDa4jrh98jwnj7bZ6V5oHoDyyiPxSSwK8fyV6yMgD9W_ViZ_Dj7lkbxRrbK8oWIoiVjvAeF8hT3XUYTcHx18Gsg7iYkuE6er5NNkfFt_Z5audTiggFGgWej2u7f_Zut74AfnbjHsOdfD7m9u9g6BAk1HK6h79GnV77pPRiRHrA-WS4ExyBNkp6KLzP0AEDHFkQkcugGSHya2sJuPu5NFvH0F23tG91RrBhKOADbvmoU-7LRBGGf-uZzdz-OLAfiSpSd6O2Mp2-blmngUBGO2vf57ojzKxc-fFt8dxmB7Vqyeg_G9OfzCZX2aasuIpro1RcEJqBZIQc8DoE8w3iC3581RJg", width: 1564, height: 938, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110338243200821172799\">Hanoi Backstreet Tours - Hanoi Jeep Tours - Hanoi Vespa Tours - Hanoi Motorbike Tours</a>"] },
+            { photoReference: "AWCwydgp2kfnSF1A_JB7jKRYd3UBxSOgeQd43xAKWtGDZNwVVkwAJtCF8uJMhMl2H3b1ZyjyMk3Yftvujz9iiLbZtjGWzd02Q9olxWgD7fEx6O-lusKONFGx-NPs7QKJlL1jXt2dJvln_BfPHrEfrWYHDiGv11KiH8gAdRQh9NnSQCMwy31wws0pCaryU-waV33GRyY3toRAKSjOqm47MTeP7JsisSCVfXzjzyCR5DNUNLRBz31Ly1ue2DG4dyClBbuiPbhmgl_U7bJ15N6hPXRXSlTD7aGC7OOx6Gb5BgXSgQnexXaUTW3adEG60VFQ1f3ricVNusiNDlhIu1N90W9TUHnJNJ0A106HsUtVOZmqILQ7Xkn4VPUe7RPFKNDGS7acFGA92sUe-K2SsHjxepDeejEb3bH6thVWrQJZkADXaHI2wFrAiEu0F2XLZ-EVkanU", width: 1920, height: 1281, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110338243200821172799\">Hanoi Backstreet Tours - Hanoi Jeep Tours - Hanoi Vespa Tours - Hanoi Motorbike Tours</a>"] },
+            { photoReference: "AWCwydhs9M_91ZDKEPgOUikgDvabcP-zT1bqKq_tdlEF2dh5RIaDdK68SDGnaytLggIx2eC-ErMFQcqJ8gZI3sgRpNLk5pPXB3jF3v3a511UMK5bg8xAqM_Olb9dVdufNPH5LXYzPGaUJO76jJGbtMOiSkRcEvlUTbZnmSeck0b7aSTrU092WcuJ_jAK2dBZ79uminVouUdvxOi22K8uZdfyQfASTtrM8h9Yr8CiPEgmxk9EdYe7sbByIjgGs61lSAhv_cWHZgYTWAg7xdGR5kSJER0kBe8krdxKHk7ID3cRAmFNrAsk4cYjtFlKCNx12yL8NHeYvC7yw8tyWevk9t2EG2PXzC63Pn6fKivlFQsqdwBgLUsm3rYXS65rVzI7eSGLq6CSZeZc2yWjdlaf14eNV-miUGsAKur0m4GhSDYZ7RdniFzC53Wn5z0vj3xpJJbd", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107154036149622356320\">wendy bell</a>"] },
+            { photoReference: "AWCwydgLVo7--T1oclL0WTEjGnVyUBXeqndx_CDFyxQUSX13fFtRfq4L0M1o66bZGOt9ZzPZvW8SUw3AcGSc77zl39RTAerl66tJyvkty_nhXEUpAJZb9sRG46vY_R3CxTwV22dai_5tqBN1ZCFpW-butAdgYp1uWbqYUv_MUZ-cPy0pS6A-pXVJcyNFpP2MMvE8-Hy_cspXGHsA5zs3TDa6BPfC2qYhB1MZpFOl-69UZx1hbu4TKF4w91OpO5xDI6r-zB4jGryLgjZhzfTjKJdqZ8OisqyGHTMt4BBEmn1AYdSmhsArAnVhJtMf77bDO-ctfisJrhwYbnF7zPK1kJCXwcaSbP6HhpoXCgNJMjXJQ-UKhKypNQ_MljrLhGzQYiWwjdKtGQKVyAee4Vj411jaHUnNW5OdC5wphDPIfnB0-gZjU1ZhGLMDLSdjik3OPFNQ", width: 2560, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110338243200821172799\">Hanoi Backstreet Tours - Hanoi Jeep Tours - Hanoi Vespa Tours - Hanoi Motorbike Tours</a>"] },
+            { photoReference: "AWCwydgTw4xrGGsqHp2Kvlug1vHyvWkuZt84Y6GDft-VpUksQSVqMb4dC3LUA89rcq6EqRJt8M7cAoXCGLfaMHpahpPTQOK-miweaDFyMf3vj474mitUf6UPQNDgveHJfvB3W2omauj4DcxJ1cTKM9Fn9LtNecxWAp7Y5Pq3msVr4lsytqxnCXONLIE4OgDpB9iPthE0FDknt-hJQqm0AxBaMGgBMF8HoXLNQHIM-YV2855_ZJ3mWnRDAcmJSC5PmJ3MJ101OWQc7AMa0ic744yPlCrPfD0SbQ3a8ppsTCC27Q4uJdLhfm3cvmurrnMUAEp5dFN3jDcI0wb0DBX8b-4VR4Dx57UbEu8mB0reIYUVWmIgFR6ZlCh30wwtOCDvvMIxU1PbxkLA9A0p77Ka9MF4k-jaISLq89j6ujtEVqhyzi_nPZ5S7K6QR01QMsXSsSEz", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103538742428322951453\">Londoner</a>"] }
+        ],
+        summary: "전문 가이드와 함께하는 환상적인 지프 투어",
+        updatedAt: "2026-08-14",
+        highlights: ["역사적 건물 및 유적 탐방", "지프차를 이용한 액티비티"],
+        tips: ["가이드의 해박한 지식을 활용해 보세요", "지프 투어의 가성비가 뛰어납니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "3b P. Hàng Tre, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://hanoibackstreettours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9813960932196223675", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%85%B8%EC%9D%B4+%EB%B0%B1%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8+%ED%88%AC%EC%96%B4+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하노이 올드 쿼터 트래블": {
+        photos: [],
+        placeId: "ChIJN-2aJL6rNTERMhHtcP6jyQ4",
+        placePhotos: [
+            { photoReference: "AWCwydh4RP97GFWQs481t-_2w8XmQ23Kr-ogID8lFFIhdHwhffcbi-F1bLrn3uQSrJ7qp8SBKIdVLZ51W2AUaRg4S7l9rA4HBmT9w6cEgC52IslZUrbahoHSYFChvY-jcIMZn0CqsqgUt9pinewzkGDKmPMNhQyKuS8wyIENQzJKSS41j6npi3OmO_vLGfqOSJPTLiWFzTslfwpweMp4_xSC-44Fl01sa00TQJZFU34hVkaF1Ch7FUEGp9nFeIASQKdbKpKnmgoZCLxTLcAgKOwB_thPMzdQQRA5mpsRxVR3LZZORA15cLEViDXLq0SNMJ05lFcFqJtezW_ch5iD41NsIm1iSEoGv6FrMkp0n1cd0c6-EUJfRwTswP_BBnm6eDiQX54tBKzDVimb5kfIXJD2PL0mOEXYWEoWDRG7h6V7sTTSmeo", width: 1106, height: 622, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102942730798082818836\">Hanoi Old Quarter Travel</a>"] },
+            { photoReference: "AWCwydgneHjd0x2jw-W1LPFExkbCuBjXXPfaRwr8_FyGvRHXlrpdVTfIRKMPy-_nqNI-VFpB4DjWIws0TUEPb96pERMPESAOTtZT6zbAFkscvSqGMX_LOZpCqjaFwI0QxzcfTOmAZlzanlvw5kLC4KzaNi4jzgQBel32YO0MOpAs1g5RVOBHBe4T4LKu-LTygQGJBPjj5S6lg8kyzLAw3jjE8X5DkkCnoEMcSj9XKQF3Q5BCdVZvk08YAnMopb_ubg6bAJRWrK0YLl61IxE_I3Cn5gq0gyl1oJ8tITDfeEqqcen9-st3ZxpicJjQAZHAtAz4TvXEmu5LvJ44rHf4RM5-o72GKIGNMI9Y6Y7Cen3eUf9WJXPi9E3J0nHu8uXR5jz5CpiC-PqP8WVqIdwBmq5QLUSBilHdNQeCIJxajm_uDzirRso2iRFY0r1zm7H3o2kl", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108269033662958642677\">MICHEL VEILLEUX</a>"] },
+            { photoReference: "AWCwydjsXjC9UmRlmXb8zA1PcKF_FyT041BSCaXe9d6QwBGh06-ZR1_YykXe9S2HMFlaL6M_O9xOXY_ng_70nDeK4P6Nr7_Hly0nSJWNwhm0VgPpITv9eMX9s92rK8FbUcjsYfPRg-M1bLHF8ITi_LFd2SXOoYn2HsEv65HOhkKrbYkoxTCUpxIgmS6eQQVj6HO8n_dQCYTtnahSta0xLUmmxbZvl71JWCzqThq_HwOmW0h0TUyD3my6_XXptDSCldahw6UzYzEtsr__LQOj-rWqfoWPZGZZ4tWPoWe68cpE0NSUYpAZMQQHoOAPw3Gs0KoZiwOaIPfsj3zn1NAp0xYR4D7CBWfVfVlHOmUAd5wWdRxUViBctLqn-tSv1wDhFjC0nCcCjTns6qAGgTh4FdyobJcrcGZuywC0oW3qnXQj91PSz5ZdjipOwhnF0JkxFJWB", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118139651613238478335\">FALAH ALFALAH</a>"] },
+            { photoReference: "AWCwydi4Be3Dc0a08zRp9HVJMUY4bdHmAJt6Q44TBXEPZxFE4xZera92GIqGVSNaEDyup8m3BoTuAiABmGYR5u3_HiE1phz2i7rRAnflEF4oZIcC8RuZMHub1DFdd5V323YhoVQViYo6Eo4sZyePMd_uCWKcdVnLFhNd9Ub2Wf_iGKPEovM_LqO5GyVHjId1OggPZoiuUa613hU4fbMpXic4D6JT50boO3KQFioXGhLO7_biG-b2YOO4dWYJJd121fos2hfZp7yEw0VcII-ZOHwhFAlu6DFx-K_JIuHcAsP91zuQHSL7ItjOG_FsI2E-5Nik6GqrgUiBHIHDO8TQ84mnorZs2iW3thRV7e-PhVcgAY8XaCv6gPGN7ot_Zg94pYo5fM0pdcDB9ew64q5Auw8eKazOeggexCn7pSASLeMbyK0", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104930723686792480176\">Viktoria</a>"] },
+            { photoReference: "AWCwydgdVI-ZLiiE7MD-a0G6ivPcGoByrZySVqD2OLylVzlJeBlaS6Sn-quVvg-YTfIdF9oY2jUryvk7VMgyt1i0vOjCpKjffUDefVcSWfxkDBDQapsYcAgmJrxyjC_gXOBCdw6lgDWE5tBgFSFGjv9LksRubBBWcOwHRv8HMljeCwuneLXF4MkThkbp7OV5U0Buec-Vh1QtY3cVnVHmnV6_pHyGUgzxyDwYVS4YbTNRwfkgJlkjF9pesBEW77sss4xWNrUOk0T0nTpJhCrHh2jlQk-FOwSrR_cswwGFuNNB3ai8Am2RR5X056DqXr27lXpWqS7Va3Neqg6gDup-g3axNs-chAOg2YayQ7KJ1KMv3t67olmwM_vT0XmyxnRv2Aawtf8vX65nZNXPxBNA240nkVjKILdxT_1MUL4adNkBgZXVveUuL78OKJ3s2gpkd5Lz", width: 1600, height: 902, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106552763548300285309\">Rob C</a>"] }
+        ],
+        summary: "세심하고 친절한 서비스로 신뢰할 수 있는 하노이 전문 투어 업체입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["다양한 도시를 방문하는 액티비티", "항공권 예약 및 일정 관리 서비스", "전문적이고 친절한 고객 응대"],
+        tips: ["하롱베이 투어 예약 시 유용합니다", "맞춤형 투어 구성이 가능합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 9:00; 화요일: 오전 8:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "40c P. Hàng Mành, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.hanoioldquartertravel.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=1065563100061438258", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%85%B8%EC%9D%B4+%EC%98%AC%EB%93%9C+%EC%BF%BC%ED%84%B0+%ED%8A%B8%EB%9E%98%EB%B8%94+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호 타이 워터 파크": {
+        photos: [],
+        placeId: "ChIJ8yTc1xirNTER-6v9RI-w7jQ",
+        placePhotos: [
+            { photoReference: "AWCwydgNRNqbBrQNMzB62HHx-NKxgki6Si33SB2Ox_yWCUx0QkFxXqvK9Zir3y7IVJhnvU2hJIOuPdOfHCHQmm3bY1AMCe7zhfLk2gFxxDeA-8u-5i_IhFqf5cn0lppXRg60bVcYQ44jtO3QP38MoFezuYaf8AWBxP1GKxUHleg2z2aipgW4Jyy03mLyidWsOCIGKDUbkqU39QuzEJgAi57Iy-gVuZkFNSNd2XAiHLa89v-9KEwQw5RnYN228lP8zjTSSCjdLqzre1krynu6ntLVgvHDdXCg2CvTaFmhhUz8BMCPF0UcL-V-8wWF2QHJVhKqQ1O2BzQR2mFqbvRon33G4c52xMv6ETlvA5czGY23wK9lPRwrotqw6kQmc10Qj2Vyp7Z-RnvJCM_tMgaCosCMC7oJEwqKnFV0yYkWzeJL9VRP5A", width: 640, height: 480, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114511230297860891696\">Đức Wolf</a>"] },
+            { photoReference: "AWCwydi7jtMPeRYQBjZbgIBJPC0LuykQnGNZJEZl5BVaCAqrn3UP2VYFPJgvWtPTA-_J_bWwHI0SZiMYeRjrgnOnhEVtCL7fumr3wbEjPrBOD4LDPA6W2SZDKQeaYmOooxzUkuasZHid5MyP0tzQw-Lcb04E65rtTYJ0LAOyibJGS7ehoQX6fPZo27h-MUVyyRgqmJXhK7JfzhQ7vxwEzpozyieCg3ei554jDq2pcDogXnj4aRcwEYkxNMAAsbFIkHBMInl-aTAUbygFdhkilCZK6moCNc0wtyfy_xF8LB8-4kXFpbMW-yXAa_eoRsPc8laV7OduCX6cxlrAIhiOflimjk3SQKKXVmwtgu5bPcEEo20dgHT2tU6LPB_68FX_ATzw8NMOITLHv25VAH2gnev6WSPcRcTc6jSnEcpIPc5FpQhQ8Ayu8Wd4jXLLqbZYwKfF", width: 2048, height: 1534, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103957972921214539070\">MẠNH THẮNG TRẦN</a>"] },
+            { photoReference: "AWCwydgyoSQv5i_PXuiWqhiuW1dZBCmwYwdX8XCzhSXxFiTSRfkKyF7ziv4UjXHiwyIiFD-X5iPfJi4NGVvTrqAamt7Caun4KKL6VoSmh3Z2ROHyGtwmb1HkIrz_Y790JS6KBxmxvrZkasnOibIeAvSM6_z9kGRRiA_UmTs7W8fwItOOpKNzkr-EWbkq7RLjZM9DI-aAz63dhsAVzZaTTOc9w9i8YM_4NLzMIYkh3BUB7CzLNhmoWfoZns9F3JXBrj_OjZKnLynRxd5lQwODXzRyHGN5HlFD13ue1WgJ1S7JC18lXtlzI5qzWrfaaeCxN_LPQheqTdFkBD078Z-TX9NLncB95NXWBk-n7n63d5fk_AQHV-J21Qr8V-NZnjNq0HkQ0-_PizB_s2Vx-h2eiwI2gw9_XmMRvcYK7h3oEvfR4RVW9Q", width: 710, height: 474, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115443106654519508678\">Thảo Nguyễn</a>"] },
+            { photoReference: "AWCwydjX90r8-AoPG2etETiTK7U1vdkcwzRDEKTkC-K4AhwOyftFTreGtfzAmU5atRFaQGhXhi6AoXpEZ-v-HWDeEn39fQhMwW_MITaa0nK0QSh47WNHSvyGIlqEeagsTC4vZ5L4dJv74y0KfNLmlhfpaDceLZOYUCDFRRSWIi7aVGYFEHtw2U--8sdB6P9Ttm-CF7Apl-c-FBQxlnhwLEvHYgjGqlFbSxkKwvbC8uSkgEcVOpJJC2JHhx2poyE61w5ZrrLV7ZkoQX6lC5VC1lAewr0aetHQeoncmu_IjCWIQqDZwHN_uTxAaHyuBQTgoOd14aTSHuy2esW21IkfmkitGhklIZzlu3C7NzpwHPPlwVlt1fBdBQ6kZw3JmJpbW4BWvHMSid5SSvnT42dMUI66MbE7rX1WQgAAaE-3oG2LYU-NmF2a4gZzn4_UEZq4FQ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100388310863923771691\">son pham</a>"] },
+            { photoReference: "AWCwydiCiY4D38rPMTx1SRKbvdVs10gPAiRTHGsT1kFWqDuhTBr6Zif7soo1Jq1NXzb-e28jPvyuyMIkDZuy9oFVKnI-ohonSVBbYtrklU8rSxlz2A954aINHraIigPCn2U5vfkkNl85fR7TTwIJDktC-aaGqrzsIdDvoczQCcaQE-ilcSbyHg_BebHxyly4DBkjn8NY80vc4w546AdmmDRVgEK3j5fJsCCwO_AhyfpFdltpfyIOn6W0wsr4jAoaG6XzdsVnMa3SijyKeFTslikwPuZT1KVi30wgz-OoXJvEz7IoC4UPLjfCSnJgSwJaCZzwW7wwyT4jfA-HD1AXyhYNYhdXDnFVbsJB8IWl227VeWfua6Z3FPZcDOpEBzTIRYFwFgbpne4husovZhhPlpxm4jDS-RDQ-12UTI7ZimH4muxag4kw", width: 800, height: 533, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109134845531681342658\">Quốc Bảo Nguyễn</a>"] }
+        ],
+        summary: "워터파크와 테마파크를 찾는 이들에게 추천하는 인기 명소입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["높은 평점", "많은 리뷰 수"],
+        tips: ["운영 시간 확인 후 방문하세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 8:00; 화요일: 오전 8:30 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "614 Đ. Lạc Long Quân, Tây Hồ, Hà Nội 100000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.congvienhotay.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3814180063813676027", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%98%B8+%ED%83%80%EC%9D%B4+%EC%9B%8C%ED%84%B0+%ED%8C%8C%ED%81%AC+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빈원더스 워터 파크": {
+        photos: [],
+        placeId: "ChIJy4EsFKqlNTERIswjQ6lX6IQ",
+        placePhotos: [
+            { photoReference: "AWCwydhP7qmjKtMPh-5DdKJctw0NfxH--_1yGHvIk-LLJCGVugEMjvUPoZXAXpSMZ8oLbd4tZJ0tYpAVXYpPi10zQyE2K6eGpZ0AA9PlB9Lla9uQ9qbQUssRPDsV6kAhUFqMShlp42kjsxBEqcGqONIecQxz_43dMYlL9pcx0NaSjmmUL6JzWSwAzPNanZfSDPhBbgjmGQP1iVO0D-XcAxp8ZrR3NsPQ6TUm7GLOLONGyHdc2R1JabEq_gHffvBmH_5IiNs4bVitWkOPTdzqZA43MyC3TVwXvdHSTvwOqiy7-_9pn-paEJb1uLlifIJEJg_GVG8N-iohYtngZrtvmcPnshdTi1mzI2SQTXSioR--WQ_v-sRhlKVYNaC_TGhBPA8CpS8DU1Q_dv55OYvuP9dc5-YfUAjAGOMChWuFCh7Crg40N3DgGzM0B3jUyxBt-kG0", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101493521586008253666\">Khoan Lang</a>"] },
+            { photoReference: "AWCwydhJpT4S3uUrtHDp47D0QuYkLmDF5B3MGVra6HwdGjygEDmQvqg2c9N8_OpSxrrbA55KmLEszSKbMQUPMCVGA7mLtTQRYT53IxSpcX3OHQWUGha-CFjdmRxPry4LRl5Jyoo8du0E_n3ja6qP2F6st1yz9fnrFgnVv44FavgBFsTh7L2Weyhyv5ZNIWMbkDJiTLM9t-BqFtByMPraRo2tPQJT5PAlUKeB3PELzW6Sv8BJ8yzQLIY5lB3IUzN4BdVCmMVaVPR318gHLpu8LTybKFJZ8cKzhiNVf2jJRzLb3Pf7dngiTPsOlRdJISsB1Ary8zoILmsKEV3Ny5DjkZAtvihRyYGiGOMa1_O_pN-ZpeQnOI29jQfAw0BOmXgaZn4CI_Ntr760zPacLwyHL3hGnEHXXIO19Fji2Va7ALPttOGrH11Tua7LEXoePvSPSWRC", width: 900, height: 599, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101493521586008253666\">Khoan Lang</a>"] },
+            { photoReference: "AWCwydirnYSosIRoIVK1-PonyB6b-ZxV_IcvOtld5f4sYx5x7M9yAdLLM66g619d5HBXphjziiR-af-Plxu8WBcWk9YKheDPma1FjUCNlMS3VASotEsvQDkYv2uR7Dx7uSb_hk7PiWjfqVGoCrVwyDq_e92gGGyQtokJbwfN4Fe-mEGxQ2QqQtxat7PZZxNkYvfM-ijT6hfhsLVNpU1pdtNDEu1p9bilowGNisN3kE35vRdmZVU5tL5aqMKhA-MApCtiQWtwTtk3zZdLBozkDH6u6aoetrds6VGtQ2_ZMMc5sZtDPtSgAK2zI1fK8TxNW3L-lsLNoVPCAbSymjP1zqDdp0LeRkj0dEQWuInSFdE6ofI9duJmjwgIlTpfZV6h7ycqRrWo5tKPWjDVEpppXoPAgAuIS46jlNok46DeCMWwOxNnTfm3YEZudkk8Zol8fNuM", width: 1200, height: 800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101493521586008253666\">Khoan Lang</a>"] },
+            { photoReference: "AWCwydgfpQ76Z3KoR89xjq7GrbpV9lnv59iQBu5lnC2mi7ZKXK_09eRUP5LOZ1rqO8t1I_x56xR6OnjjryIzU3TRC-cDTAmnJqEAvWXq8G14wr48geW_mW13MKaGMzx1_8MXJ7rwr6rtJXTwuvMdQo6lQGUlP19eU49sgJGRw8HmqpTkBkkMcKlQkrGpmfkteR_M3uzcaZbidZVJPLBzMuKBStZLY6qjMXYB_4avEfV2gYtm8B8asxrXGONEOtWdJRsWGQzwtn7r9UxGfGYE8Jkvh4K4kUQI0MetuSo29jvUISdBXyu8-5P0MGjO1Qs5PCA7xo_NdV_zE5qFENtEhYJ4jo7ToU0s0AEj0gq_BN6hm7wTK_reAcUINayKKW117I-d4zXXONclZHCfQsIaSdm3T-qKNDoWtCa18AvBHjrhyFg_A7TXxKflovV7xf6mgXE3", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100058041593479652014\">hoàng ngọc</a>"] },
+            { photoReference: "AWCwydhgSrLv8i8ujUoxGsPHpE91qIrnBQFHVWWFMwWxRjhij9iLW1NgrkdqcpeTYoKKI4PEeoG4s-4uNxkJl2k-H82JafJL4gxJQFmZuDm9dq5ampmvEAG9pAJjTV3H-rrAdZ6ltprJD0fKh1K2QDfc2XwK-lI_h1tpTXex40yNtyxrOKVWrm79RfmEmv-NI3mLWI1aA4oSLe9lJV07G77MIXgmvtouQPf3YRfMX4x8vdtr1iyHwBLLtShgJrKkg15mjAsF-kYGV9I-RnyN1CNW-HUpHXckBpKGrml7fl6xEM_uCGHrkHHZia_cKD9jlF0fVsFVkl3eO8TSjZbK3VG4dl5eddUf88aQh3q67TXCW8MVgDoy-jIeAJpyvQmwvpep3THe-LyaYj0klr_ptIa_iT22HpodLFQ6zB-ea2uIdnx3Yw", width: 1280, height: 720, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104914864041974069612\">Anverokan</a>"] }
+        ],
+        summary: "높은 평점과 검색 순위를 보유한 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["4.8점의 높은 평점", "높은 검색 순위"],
+        tips: ["운영 시간 확인 후 방문하세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 7:00; 화요일: 오전 8:30 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Đường D25, Vinhomes Ocean Park 3, Nghĩa Trụ, Hưng Yên 17000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://booking.vinwonders.com/vi-VND/search?code=HNVW2&usingDate=31-10-2025&style=b&VinWonderTagGroupCode=Standard?utm_source=GG_Business_SEO&utm_medium=&utm_campaign=Vi__VW_Hanoi__booking_Website_yennt90&utm_id=&utm_content=", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9577000992090868770", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%88%EC%9B%90%EB%8D%94%EC%8A%A4+%EC%9B%8C%ED%84%B0+%ED%8C%8C%ED%81%AC+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "빈원더스 웨이브 파크": {
+        photos: [],
+        placeId: "ChIJuUKZhT2lNTERq0_kdje0r1Q",
+        placePhotos: [
+            { photoReference: "AWCwydhL3q25ONlfbl3M9dWMiMSVeUn2dAnHUsf9I6yGB3cah2t0qSlmpPQol3G8qwGCfvVeGqX2vpKDDmHmURFX0QxfexMcQHiOs_aOeDBOubC6mnubMX09V7PaOUBiam8H7ZCHGVukeLTbSp0N6tJHGcD6monmVjH1u72ogntTbkI4ZKMRR_vW9klVOuTdOoMra0ktfKLUbBIumipkCZ2rB6GoWbu2xFdr3h8OfkgygYEwbR6MpihQ-NjKpTt1IinB1MMv5RPFfc_z79IOJ92Vl67HOnFGY6CF9OzFkCHWplLBmQEtkQ7uD5rhWLAuPrGQS5NkM6pEkO8VSnzDqhiXPVzY6Wy6-Jsj8dMbAHVKmy3Qa6T9dSntFZRnDPBX327M1_IdC6Nn1KY8oyNoGrFnAzjDjl7GANd5vsXV3AP1i4T0Zf2Uht4D6jzRJCEoh4SO", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116767043657323989496\">드문</a>"] },
+            { photoReference: "AWCwydjnqZSUTna_I4q4MXUqxSgGtpQcOiWph8Pq4xyjOGBzoMHGEGbnGitz6-nNggtKTSCsZgruck7VI2fIOnDzacSc4fgFMQvEdwtw8xQTyk9lKz7noczS8xMFNnQoF1lEkcrCHM0C5_IDulmcc1tY0JfoIaEXZ6JnIPVNnBNJSSqf6j7yCAV02SfV6baRNaA0BBoYEj8LSR8lfJS7WG0sCY8ucgFMFd7n7H4IOxeMOw2EymafA1WqJv8sjjGW-FOA1xektXqDaVq13brrh-_fcrBIjqviIppilSHpiM2177X0l7Jft1X6_TRWs_4aejRSO5US3kJoI3oa3182mHpXL6x_zl2b-Sjy14tUMVB68pap6ivf6NHJZGwgt3T9bNZGjJiBJYamRPHFvBiTbP0U_a8_fkFDyyhui6xgTq55ERNVZo5nSzRbv1kFvW71QCU_", width: 2016, height: 1512, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101493521586008253666\">Khoan Lang</a>"] },
+            { photoReference: "AWCwydh8b9Qv7DYmRCpE2S1MmcSr4-hxs_QzDlXNzDsyPs3My5psAMoc7S1UQ3Rc9VI-VThVx5Tm0KQQBtzGgsjizqNdHOJrrLat1h4UVfKof7jt4pAFJGp5Embrqi4C85KKpgBdvoca4vYk99eDrUSqp59ILdacnBOVA-BawZGMl9tRAhUdiaYJiayAS16AHoHiu2VncYApXSwr17fj-3mljQxJWsqmiP0AKvfL729fWYxlBwgHnVjYSjuI5fO0xOIlReS7tjozn4lhn7eXDrWobZZMIZnIsq_oNRKs4dN-CqcyHrvfESS05qquDtSKANxaAdaifEAiGZegio8ILBrqZawzONtDJJo4n90eYQiCVWuQXfkqGNk23k-5_xxlGe3ttGaGT_Jon043G35T7qmFp1zNcT_yYG5-biGjvORlo_bdgQ", width: 1024, height: 682, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112619322402981798354\">HVU Mac Duong</a>"] },
+            { photoReference: "AWCwydhqRsvK0TDn8v6UPnMvXqiDkvM_IauXfUVdRn_TAyfKa0FG-P609qN62tkNhp63dz-FjYXLlKfBtIJ6336ERrS4IsBp_zlwk4YoibSipURrhytxCb-gWajQ_z7sbJK_esAu7dITYEtWj7IAYnClK02s4SBcU2jJGhbIySGfnkK-IY0k-POIoNB9L2OApfja5mge6zYptP-lVl54qRe2hP8JTzuMpY_3m1lxjtCSTW_7TxAdKs06wP4j5vaB-MhuZAt3ybx8p9bawiHJ1aytl9KGPtocVZ8XYExjnpB5qQrwifyOGvs56wY7aVyyqXaEithr1dJdd7IS1sjeZjesT6ncCiXf8tje7TFLP6jsumGEPLeNHe25MO-LsQWvuQWdD_IRKCXaR1nyXsR3wYgllFkYoZrtvBNpxLhdZSVT_sMCYYxFNNOlBrfXTs2av4YQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110786293522536657176\">Sơn Lưu Quang</a>"] },
+            { photoReference: "AWCwydgKX_Qwe0naEc1J_ulkWRUfBu7wX8MTnRrScGJoQAMiiGieGT8DGHduxVztK7b_TM_jfSzKMrNJOP1o2JyoINViBzrDhmJM2jN0GrR1uo08zBmJvMnegOzb9JgeYlInuCiDkrd8CXoSLFJTM3vXv9AQ-BDxvgdG3G3hodyMnPMuXMGIX4gDYqNRUjtfrkvcsepOaq1vjKpUQrLk2KFceBVWx_0J-wEjRXKSIm_CxS02Rg9mGyD0CcDT4bQFR5AlAfqyLAaMDFztttlan1ce6xSpYV57qWzDjPdTV4QpOG3LZEULT_4gb1GzxMbiaLkAPRemgGto9F3vZZrX2hfTpjY3__axdPdTjUbdSv9W0MKb9lAsZJu7nHfYDvehtlLbfmLItbFU5Vuvq0cGCm3_35TLa5bPjC5eSYRfwB40PtcqfSfiRQgVqBekcMF01XDa", width: 1600, height: 1067, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101493521586008253666\">Khoan Lang</a>"] }
+        ],
+        summary: "즐거운 시간을 보낼 수 있는 인기 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["높은 사용자 평점", "다양한 즐길 거리"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 7:00; 화요일: 오전 8:30 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "XX2M+HHX, Nghia Tru, Hung Yen, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://booking.vinwonders.com/vi-VND/search?code=HNVW2&usingDate=31-10-2025&style=b&VinWonderTagGroupCode=Standard?utm_source=GG_Business_SEO&utm_medium=&utm_campaign=Vi__VW_Hanoi__booking_Website_yennt90&utm_id=&utm_content=", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6102294170421186475", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%B9%88%EC%9B%90%EB%8D%94%EC%8A%A4+%EC%9B%A8%EC%9D%B4%EB%B8%8C+%ED%8C%8C%ED%81%AC+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "로열 웨이브 파크": {
+        photos: [],
+        placeId: "ChIJzQ-b242lNTER9Bw-_c3cjGw",
+        placePhotos: [
+            { photoReference: "AWCwydhf_038Xy_w1j1jSlWksjaWkaAYyKUFFt6JQvEXohBwFWXlJvPiyLImA8P5m3rnezxr0eGyN8TiPke8MR9ADcqUDWdLe-uOudj_PXoaaKD7PlgkWQSkdW82oOlt6nvtiyx_jTDywjNTw8hTzL5pNkgi_7cuL5Zi0-S3yuhfKI0NHv1a0asTfHoI5VsrBT-m9AFx-L2Dz78AMZe5HnsAMohzOVrPOrUSKjvhSTiUadO_Nwbzb1TthX2Z8r-lpiEkwYqlracCHQ7nOCKnmqug9mqK1p1o5kxJCdBtNnwPC8i5gU9Fg2pAVROgsRRKf9CgIe40G1TvL677cfupPUNtM9qIevHoMx6U1FKwEclIUBE1ivJ19DYkdRy1NLbaKIo6PbJZ1Sx7IRC0jdGQFfx-ekrgNP5SLtgdzJCAjjol1m4", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100218315546107811104\">Kiên Nguyễn</a>"] },
+            { photoReference: "AWCwydiTQCSPGwsTnoJvt0UuKHs_fEaC5_TyDqafLMB50teuv_zU2GF6LxMe_LFoppwpuMGzcBeaGOlZ2mA_KQvh2siGfXJXbc0QaylrLJKa2quCCsABQ50FWp3qOgUsXe1q7CUcmn4030oGe6K3TnpkRhnae0bO8xiPXRAhxdN2u5J6XyNqTPTT-NutzZNg0hFOntl8DsDPwry2bYXOnT-GitIBfHnIeuX5MlOVjxNNoPOwQPSv1yD31vU4E3y9D-HEC-SSJP_dUBWY4UKN2N7ou2uLzWv8fDe0K31KMB5VmwG5mARLx9cYIRz5jxSk_Pk6eMM0vsidBb0wpntrd6eadteUU6EcEGHKFChJ0uE7uzJwEzwWc4sM6DxA_OyXd9rnS0Y8j2j3G4AmCm2fx0JJILOwcxVD0-hdjlm8Tsgfp07ru3RJ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104149536995545003599\">Huy Vũ</a>"] },
+            { photoReference: "AWCwydjeTbjWOzSccL3jItIzRIE1eUxt5ilX4DfW0FQt0W-5FM64TNciDu7xgDeh08ca2S4kKU1iSeQE1k2WCC_UdFDSDu95CN0EJ7dOammOEQqGhKhQtQ-NeiDMVNjA0lvmdAmhXJNaW5cnXW56D4cqQT5ssiPA7Q5KoYj3SxZd7uwENS5GWIfpK7IiNaGf-BoM-NPIoPUifVtvsyqaCBLUDG8R_AfUqOFkvqR29p_g0kmLgPWtPJXm88LzhjYVOm2JKrJEpN-vFcCyJ0nlAbMPFWdG2PNLMORk4BQP-cEOOOSTIS3-3VvyW2stGGKodYweaHCRwmXuFXATpkymyW2u7pe0bJwcdc7CEbEQjfqZfkBil5GXJwNhXOf2hSWTLlevRD5K6SHaBdawK7qBKhfSJYns1XxYHresSnGI4QeLn8xUhDK3", width: 960, height: 640, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109093473249948724953\">Luân Nguyễn Thế</a>"] },
+            { photoReference: "AWCwydj148oonauN9Dr04kFaA8cYgyw88awNA6ANjx2XaTcfishfUBb_BDzv_UPZVFrYdVshozAtZjm1R2VtBL12lD8NhPHrxNZ-SF0rkHJjbpYUONGxbYecPjfS4r6axk9m8WMJFpIddV2-QbKh4FzH43ICJE2nrmxValA0GQpmVwSgumqGHj6h9knl0ueoDZ0fb4FME7sKYevOKhuK3Q3-MCSATFtZ4hfahk683CwBQbOG-M4drrshupvBYbXwsJDngsnxIGMSENahPAWlBZ66JZOLchfOiav5HU47h8iudiHcmepBOu3pzwnlUsOy9K991YaCTKgiWOYrwk4qMZr6iUnWGoq752VFaQbgROwOwvhoH2rQYZkXOL_bDIBc4nhgbrntnRk04tMaD_0v7GV4pIFObCdbRE_tkH6-f4KsDMR_GA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109833993074860173589\">trần minh tiến</a>"] },
+            { photoReference: "AWCwydjZWEkqMrS9ENTDwOXYGGMWZAfYBbCfIkWOMv7NjNgqRBJyOv-zlxJB6Vu2svvj2uFsEMcRFAZIiel0VO_YsXZuiDQPD8P0PubZOfmPaoDaUVQEfKwGkXNac4g9o7RxrQn7bYwFPVMtyDsBQ88wdqeny4KOpQWXQIJFBl77Yoma31m8UByjq1ttf9n5RQbh2V90I98Yd3srwKEktjhHROyxJ5TfSyey1SLzfu277rqAPQH2PWRhdRxfmGwN78d_FlJJ0JUqlj-D7R13tMGyPcHm3b31G1DRqStqy4hBvGLUx6Kf3Ndfc-Kg0GowMpQhmGWoRikCQCCeBZ5y40nnozdgLFpFJdDEdrDR_q2I1qvCu4b716JHupBGD61XKkRris82PXCKqGjgS11ySsZJhtaZECYyrMSe9PL3EGEIc8aiSA", width: 3011, height: 3999, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109728597366535505519\">pixel vietnam</a>"] }
+        ],
+        summary: "4.6점의 높은 평점을 보유한 인기 테마파크입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["높은 사용자 평점", "다양한 즐길 거리"],
+        tips: ["방문 전 운영 시간을 확인하세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 12:00, 오후 2:00~6:00; 화요일: 오전 9:00 ~ 오후 12:00, 오후 2:00~6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Nghia Tru, Hung Yen, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://vinhomes.vn/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=7821869430110821620", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EC%97%B4+%EC%9B%A8%EC%9D%B4%EB%B8%8C+%ED%8C%8C%ED%81%AC+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하노이 동물원 롤러코스터": {
+        photos: [],
+        placeId: "ChIJMRBjaTqrNTERQVQ-xzYNEPM",
+        placePhotos: [
+            { photoReference: "AWCwydgmDJzswHd3WotrTxLwFgt4BJLP_MlO99AqMZOI3JPNbzKKeMY3GkLxgqjt7mdrS-gQ30R-LYqGh3Ld88LWWD-x8nLDMbRyJkr_o16Tm1NWKK6XjgoMnjTI_Z68KDgNYz-rt1sggQp7Z6ewW0cY5lcJ4N6x3LAah-91jGjDuXCW6jqBgl3ex4Oi2-QAa4fjbsCqUlc9bJl5bDCm_CAo8Y97TLBBnMT462kTTMtI4NxpI36Uf6ra772Hm5gMcIQBzyosDzH-erv8ibi2-NfWmqnlXp8VCO1nbfo1gMNWnfArmPALZX6LaNUmLCaOSzgDSeYeWsrDTgCqoF2L9xzLeV1bFlJAiNhzX4i_Aq2F8Bw2XZt-qzt7G4SyA46j8wJCC6uePF_cIASh8DKON3sOzSLuZPg0_dwLTSAqpFZpru4p3Q", width: 828, height: 624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118205409987553558572\">Tàu lượn siêu tốc vườn thú Hà Nội</a>"] },
+            { photoReference: "AWCwydiqbcygez-vdXO3ZbV9YoDKU4sCcsQIS5iCL14vZRzig57ClolTgS2F0_X6TN8PoVnLvIa8f_y56aqrvciUFcnbdIQuUD6b56WIY_aJQ534ONgHMKHp8Afs1pkJBewzuERHt3L5geWVj_wIRhCne1fYclia_47O-IRAJgTv2aH3I759AtY2RtW64VoIsAsMkySTVV1bZkB9_7b1V-92qqXGK83YJZWq6-vLPrx4cXxzWy2VmKMmfzqDB-2wfuI7AEPNgBWTwsAJ-QjX09W8kQXAsXf8xClAS9ki-WGN8HhKCZPqeHqTnQMTecTMoc5vaiswraa21aIp88afY6VHZteaxkc0TuIniA_SFhd5xkHT1HlTJ2uW51r4gwtZOVbgIgOlDElUmSyS-bjFUXpbmQJ4NCUtBDaHNdXZAcixLwxsFrK5", width: 828, height: 618, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118205409987553558572\">Tàu lượn siêu tốc vườn thú Hà Nội</a>"] },
+            { photoReference: "AWCwydjRQp9itGdKV8cjBX2m4KqmYx9cdp4QnLAp0bsPQ-JHD9-F4vhx3e4AYO0s0SBO7DChIZ_SOgqxC7juYCGDFB0S0e-CSvOtZ7RLA8Ryc0ALdsTbBqiLsAOVYPUieCoiYGHoHZqAVxBmcU1-XmlhnuItjBqt4UTs8lYihlPceh3pmOxUz1Vj0wx68wtwqcr96TcHKGQJqrhoRMkztiEgh9aCzLM42k_rvOTn7VKG_KY8KS6Ns2qVkdk2EeMDl_ssbuQOMOkSu3mHb0RXvnOm2JxY9PzU4CW1mG9NMrWTYesgu52VfKo_PBaUnGNiYhcBtlqtOw0OJ-CkLbkfxTCghb0l8lOw9X9lbdYsuf8JqEzlMtZgMYaDz6_-CGWirv9M9_4NiRCmTXGIVgvL4hbdnAWq5ky2xoxUVVDssM4k2AA", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107001356074111854965\">진두원</a>"] },
+            { photoReference: "AWCwydhBsbmLqQwN5FRgn5yotugpdhRuuUi5eU2GBJ-4jTIizFIRtxJlpYI789UJHXqfVnpkuccobxFgiarDSZ35JM104wmgfgHVeMHiHrUshqzrRPVptQ_0qJu9DTgFotjg4YUnjN1NmyJyWH1fGHezWqhF48NQYs9XxXR4_rrDh91VXoebV-2Civb7uoam2fqLYiciA7DWxv7edyTk3yisx-6KadbEDXV9yA9G2LjoCuYMLhGd7BPctomJe0zCxdGAFwFiD4Q7yGfGtSwsJwUTn3s5v0t_96hw_jaSdcr4ClKmAJuSwYauA8V8Y9lZ54omwLqBpewT66kwwGFKcGr3sXF-xFjBr821qW3gZiHGJ25lWQefbzSJKrA0xvwGQkbEDVgGMIncG4PMreePSqVSQOB3YO39Xn3mJw1jDCj_CfBqnQ", width: 4080, height: 3060, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107001356074111854965\">진두원</a>"] },
+            { photoReference: "AWCwydgzzITiFPctrQVLQ_btTaA4ATYCao-5p6Z2VpiNUSYn99oVYQgpnK_x7YHKXRF85fF9abzpxrSPdQFTNSRz103Ta6YAJjrxCDdst80HZJc3dz94bUG55He0UxXNzY54hqZbS3tO2tCPtdsr2X2nOWwDnw6vsA6HoXgibPlVQ2hA8N1ct0d4CYmfp1LM_UBtI-dFGoV4iq9_I_ANa3BLr9sk-z_LSZmVm0BNXv0p6W4WFtiShMHXEiVgCsD0ayr4PJJAz_nl5vk41ZkdX9O5tdi2U4dmhN45EZzItxFpoSAAhCM9GEhoTIkQexrKIOFRWnZq0WTzawLhTI4PcYV1BP-0cbvrMCethBDAwaVnnEGAAXRo94oRIBxdF4CqZoQ_4vFLlKxc3FWELGX_uHynFwhEMfGlYp4xSw1Oq9AwGzTh-QxPI7iHVsZHQzElwg", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109382462245755991180\">Huyen Chau Nguyen</a>"] }
+        ],
+        summary: "아이들과 함께 방문하기 좋으며 관리가 잘 된 깨끗한 공간입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["청결한 시설과 배", "친절한 서비스"],
+        tips: ["아이들과 함께 정기적으로 방문하기 좋습니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 7:00; 화요일: 오전 7:00 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "Đường Bưởi, Thủ Lệ, Ba Đình, Hà Nội Hà Nội, Giảng Võ, Hà Nội 100000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17514513479766004801", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%95%98%EB%85%B8%EC%9D%B4+%EB%8F%99%EB%AC%BC%EC%9B%90+%EB%A1%A4%EB%9F%AC%EC%BD%94%EC%8A%A4%ED%84%B0+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아즈 하노이 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJlabVIherNTERnDvwrhY2tII",
+        placePhotos: [
+            { photoReference: "AWCwydhOuGga7_HCUx1LIRpVj9ytwmT1gzhk_vaN0plpR4BOeOZR0UpyVFA5LQrcAfKlDTS6FP8QSjoCrh0gS4QBxUFicQbBTmqfkT0X9KZrHcP6e-THyIbQ5o60E7Jmxf3GPWTtQd5_7AO4VpV64-uCfcfY7rUcswmPHDi9tyRopIC10WOcAnBDOUrtn4a6vutP4c1zLmmbMMJqy8I06XgnGAD09s-pQ9rolmoQdUELHH-BKH1epJ3fvAMOTD6iLPTmYNVYLk1n8643huHfx8Tuse9hg0Q_9-FDGF82pmL5DIR7NOmaN7R_RV4a7SNrQK6VrGEASOB3SOz-3erTFaardwTAUL9bEy3Tm08qd8-s9C0LV2o9uZa1IIfXSg0IjQXoFfFb7kzDf8NV3A5cSk8OFYwIOPF1l27mVap0AcuqaXmr5l6g-vr2fx9pZVMDIBM7", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115755778282552272419\">Neal Pressman</a>"] },
+            { photoReference: "AWCwydjXEUPhvcbLbZpWEuGy9KVPNpezPQXVqdi8Bt5eGtKFXAPS9nP7qNHYF2FYxxJ6bvZe-K6RB43TXIqYdSLf8mifwfafD2lovt04FvjAIDyNEbByzr9w6aZHmDnnTZ4JH_7WggDp7VDNS2qtm0qXfwSbBHCyh0ggI9Go08nZxn_AESwAuHqPTjymhuhjNQ1Sl45T6VnyMLrADgP_lZcRtcx-Lqwm6J11-UoeWjK3IwQtI3fW63xmJKEOjg18ohFgKNt7DREveGRWtz_W0kapgjDPvADDAQtgAZTumle2b5Sfs9f-0ZnfAHjCxIiQi4pVvnzLjvSuCh_lGMGdgJj_Gvw7bhZ3kyTcYtSAL5bIMxqhzIMuz0AK_h8FDD4WjGjIxyY03aYlVR7XF2k7gdEJWhZwwLZvKUeBZtOZtRGCfmozvL9qYIhG2djJXgkVZUJ2", width: 2048, height: 1536, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115939591094674556090\">Connie Caligiuri</a>"] },
+            { photoReference: "AWCwydiOcnRmBnZdm1fo4f8RCs0XbGJq12dUvAXK_ZSKiTWlAuuVqrmGlgFejNY7a6N_t-i3o_nj1sJNhDo4biO0XG35zKxyqI18lB9LJdq7Fgp4RU7sX2EvV37FkM5q2c-7b8t0yi1nUGht-EIBZAt64KZLoLoVHliHvLEE1Ewvz6LeN9ZzY_hswU8Tw3VX2WSMCHyQYHFesxJMCg9CoOGW_L_bInpYEQEnT2w1MGNiSbZHJ2v5qphcF-sygRPCU11f4tHLrHULHIrz9GXx7woVl-hfFblL8_NEfKzpt7LULVg5e3cUiX0fDGWS7MVCkv7coRgULQvs2heo9t5_pW-0uopFoBIW5k7KZA0BRx9NauwVJkwG3B9N2JjRKrrgeXwIqBSipzkBqcaR2GBqAQPz_qwAu0kBNqzwraqM05ulvoHszcvu6sFFHzdVDoPf96qH", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109101084014450089736\">Rod Davie</a>"] },
+            { photoReference: "AWCwydgl8anN2UQxmIJiZQSwHnmqG35stvHtNc4Md8kXsEwjfyZD-Tb-EBzH6dAcfePCZZVBq3s57RXWmYdnzmr1X9_tfWPdi_RjLQvLlRzTuA-UwQDvAOwuki0XvxhUo_DHezBlXvXQtWxjGujoCP6ElZXRJtzS8I14c3bEpoSDGp-Xz5RPWvOECHHX7yNQlv_9_WjJEThpOimrFjtgm8DVLertdxJ_VaPmsi2gL9sNYh-UnNs_k4SkWV1mkQN1MSC2jp6J22hcwCUY5naXBE0e2L5KhfDCyfo9WKK6e84IucAqnf9m46i17Amatm8WxLDV_3f_1lNmlkYO6t5DSV5J5BWmK7uVR26QZ-MuhhBCjiUJpvZZg7znLhdAn7zrkm8-Eoah0gVCIWSbQdhC-5bWlkoPlKbxzxPjjE2xF0Qr3VtmOA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111996838700262451215\">Anders Norling</a>"] },
+            { photoReference: "AWCwydiB6bn9KzrLSRCKrbOIB3wAazBrNtq-DUppczhUdInNlwDkKx3l8PAZcuokyGlQgI1yx8C07TNu8p_60zASCfJvYtXb83xzsR9vOG7V2hCusGMWCHm9FshHN6WNsEky6RJigOeZ86p1ttLSQsZ5Vpsn_ChTvuLD05bZJJ3DCdXoVML1S7Myc-Vs84squoXdAZyI1kjN_4a6qwan4uT4xIjV3QzkavesunOEcSe0-5XCGOJ_0Q5sLl0qFP9ic-5wn6BTp1lBbsx5cY5GKHgYW0pCLBhOCobktAuKqdI9BRTEhGR__bbKYlVLudGSqjpHnu-FaqNS89A6hQ9uKsOu5tl2HymiVkGV1ADy2i7gfTQgsrMtGNgwmBLV_LVla50p3VNmpLW71d0pyiUUWMpRcGYa9yDwBWObXlY_t7Wdh9IgMg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109230312274531220421\">Isabel A</a>"] }
+        ],
+        summary: "전문 가이드와 함께 시장 탐방부터 요리까지 즐기는 완벽한 미식 경험을 제공합니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["시장 투어와 요리법 학습", "전문 가이드의 세심한 안내", "최고의 맛을 자랑하는 요리"],
+        tips: ["영어 가능 가이드가 상주합니다", "시장 투어를 포함한 코스를 추천합니다"],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "23 P. Đào Duy Từ, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://azhanoicookingclass.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9418212191790709660", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%95%84%EC%A6%88+%ED%95%98%EB%85%B8%EC%9D%B4+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "로즈 키친 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJW0k6N3OrNTER9N69EM32xis",
+        placePhotos: [
+            { photoReference: "AWCwydjs3aCX-lqlaJd2eu6Zg3q-2oLcM8iLQyFmMNqYsbO1RVKxTuyHoo5lQY3SsOlV8H6LbjwDUlVEeiBF9T1gmkUNBelgQJxru5f_zdQ3gIG720pDUuKc8OkEXvY78DIaQrHpvR4OONq3mlIsk7xKIowVl73WORWhgUykxardcl9R7eb0nYS1p39zx2O8QlSdGBdBZLOijbLmLu9c2PQCvtWXhNtd3xg079rJ_irP--dnwBel_JXAKjcrztAn_krf1wGBmBxZgNyAy2JYhK-gHBVZXa3TFIkn-N5m3M45yqe8aJpbTvB4St9B5Zdu5pQkxe3YuEcwMVspgfHdEqbsSwxnrFOKmf7QnGVUHNKMeLimXQAmEUsEDJT-JSQvyxjkrQQXXalrh7zwD1XPj6RzvFZEGVP1dKbge4pX2Ye9fEvchtkBoie8c7hG_J1Z5jkp", width: 1024, height: 576, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105710950497013750583\">Rose Kitchen Cooking Class</a>"] },
+            { photoReference: "AWCwydgaw-O6cULETkEylBhO4yEPrlXhOvt7aLhBEtx1mjOQzaihi7DwaxqxGJHy8kfZgaxdclk8buKgYZ-Xv6eL9v7WdqZbot4GN5DMmKZMXVKB2CVflicOVO3IXONzGjqNhS_hnUUAYU8BCpExP41Kn5QInDZuQYAwm-bAC7Rasp9LfJHcg7rVKAVYkSG9RVKyIn95Kj9ayn-t8e4Rsz_4wY2RDyqgyZ8G6u0m6IZaSL9PHtN-eHOcafuGuZWuuHqwHGzVqsNS7B-OF-p-mUuhXvfWqHfx5jw1Wa8-qc5JbGCFRqj36BDcoXF-KP5YwfcWO5uvFAet348f2p1qqZbutkrlo6nLwjedM1XAkaBDEG08u8y1T5xQYKRpWBAtJcv68ajIVmZZGi1Zt5XHJoPWkSUChm5uGl-bEE6GEZ3gvnYjAhtknDcMAc09RKqsWA", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107397965028709797726\">Jan</a>"] },
+            { photoReference: "AWCwydiqeu1SGR7yNrVy5OOJwnL5nTOKr2BQ24cDiROqMZIPJxAo5bwL1k6FUVBCJpmBy0ZURMOXsT6rhAb550FJdXgPfPKSopQUnNKrRbEVzbYeNsYxKbM2vTY96glmwz7R_-bPkoYG6XWJNKzYY31he_D0ouvBY6bDZjU1_2tK20rtgBQTu6H-fNmnOfim5cq0amW-d0E1SoMVzALsU-2eXOhOG4fQdjvACnYdisyJf_jvfsbGBw-Du0F0s_HzRMwn6O7cVC2Lmg5Azfcqr60wEfxE4ZBMChTjNbjOPEUs1RWB6BPCt5b4rOn8dAewIVBdVF46Q2Qs6e-S261ZeiEE8YjBFUKYpDdImOtCH7rOikgVsf46mdaPLQJFjwenC8hLkj2HaotZMFWmDudh3YIDHn6D3tQtpm2fru4bN4g353UAqh2OSTRD03gJbyZn5nZS", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113143640858390896979\">Jose Antonio ORTEGA</a>"] },
+            { photoReference: "AWCwydhjGDoWDAY-UinHZRIZRFyR-b1IISxLniuOZyh04KT89eXvzYuz4kmJRRi6hDPQYVSmJHCJaOz9zUsaXd4Rcl4o9X6_ReloOidstJkmrkXusQyu0mXDlZgfwQ62WDU8tbFqrAg-IXvx8_XiLP7XI-BXg-9UxZHec5xpw5wTu_YdcJjc7chSL0qy53VQUz7jNWjLrq75IhCF_NhOpqW6DV7PJH_0h6HO_KgWDFV3uNSeZooQHEyKUMK32DYQ6GUegvc7H0C43gKG84XmfqHEX8qQul4mZP0zTS44jBBbG2Om9dsZZXH5Y5eCaPqxGcCtKndIN0bA4fzbkQyb9EabI62maSw8_B08Gjdkzq0uqlTmpD3ClpxBFpQ8jaqraeMd-kN1USRD5sLhd7MZODQDFt6ogiGhCDK3VM3rMwaexhx2Q1MGEvMBzLgVy3QKj_1W", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107273204422059644595\">Silvia Winkelhuis</a>"] },
+            { photoReference: "AWCwydjH9UduIF7jbfGLV4HXtmTkNS89cuB9QQQzv3P7nPKkUyNE1vNgYyp7w8-XS7uFzK-aRZzj-KYF0MQX_mulQNghsS9TCYIePJvOT3BiVjGey6k5apdb9uPVIsPMQgv98o9K_pofv1Pjv-FV_XL7FS8PpbNHx8Gtd9nZ_suK1iMbH59FyKvP2s7Kyc8i4tSA__ak3Rel3aJhpTWtrg8lgmaAknG1eKrkkfg-oZXuJ8ng3ijx-QdzCNXHAnEC_GHSLi6unZozjBCN23wZ03uaAWB1EjU8aRqYoHo9f0z6HHAToDQwc5hkedo2GeWoSpy8zeCuYqqpKBz7jbom6M7K3lm8nTqpHjaohMAVlDqypU-CcCAsDIrGKsEDA7KyV6XDyAvlX9wdy7PggSvDajI7TMSPr-chIzNl-wLUOmq9kzZeSOnL_3UbcwY-z8ioyCvl", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106194387497764829379\">X Wang</a>"] }
+        ],
+        summary: "현지 시장 투어와 함께 즐기는 고품격 베트남 요리 클래스입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["현지 시장 방문 체험", "전문 가이드의 지도", "정통 베트남 요리 실습"],
+        tips: ["현지 시장 투어 포함 여부를 확인하세요", "영어가 가능한 가이드가 상주합니다"],
+        hours: "월요일: 오전 7:00 ~ 오후 12:00, 오후 1:00~9:00; 화요일: 오전 7:00 ~ 오후 12:00, 오후 1:00~9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7/32, Ngh. 173/75 Đ. Hoàng Hoa Thám, Ngọc Hà, Hà Nội 10000 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://rosekitchen.com.vn/?#/book-now", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=3154479949629218548", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A1%9C%EC%A6%88+%ED%82%A4%EC%B9%9C+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "에이프런 업 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJE-uK8bmrNTERIdbDkYzvS4Q",
+        placePhotos: [
+            { photoReference: "AWCwydjwBZEzsu08Jt3oW2f5W4HImvPPA0ZxOzs_3e7OANplHS_419jH8hzt06Rkrrc3ic2J5OLl1ihT5ftPZui-mrnUmvsZHvDZAhyJHcR2ZEMh4OWeNILfy2BtAWLSS8LW9MPP004ytQl6S7H3PgmN4SmuSV5e5bZ-mMbtxsPWJ6kgulSq_cNOKJu4fJDmr7sLaQVDRmZ15f_Sjab0JFvG04Lz1eZNMAhRYa3JjWdRS0J5zvK_C3g6qeK2kg6Bwx4k80x-Kh1rg1odZvc1IeAWmnWPkrJtvwTW13duGK-2F0u0KrT9CXNWL6cnBoURsFwQe8ktMjSuMTNRY6ao8J86bviPj3jbevhmv8MXg6JoKJg2g_5urXdAC0dZ5IruJKNEzlkavzhaceA8OklQS9O9dEN43uchAL4m1i0Oa_Tg16sTtyHimWJb_erWUxQWyYJL", width: 960, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114128748098885137144\">Apron up cooking class</a>"] },
+            { photoReference: "AWCwydjIqRSqc77jMdNOd5YauHysiGGhFOT5jSl4ZxWrEMnhq_OF73UxvHztnmJhC8PfERxS5qAldNoScI9x7I8G9tg5pqB9_VNyOSU6aRDC9MQfeWh_TsnTj7G0rIi5K8y0ZVkCcoc1Is-_XZN3gdk2hIK5TTdgThbBBa62pe-2nydkrhCCnZVPIpFhDxZ9pxcAGzSqy-dxK3LRZpFnQGZrI7ry_Krc1vyBkg4fojoox25HL7W4gXvDcqYtjWnq7iK3ha4U_le5blyfxI8b2pCH3h9e0msT4nKTCZEPFL_pvzc1tfG3YJidiCSJvAe-SOaCcCrgaAzYYN7LbCraMG8DZ69NWLSm3f1w2V2QtctqxbTIHbh2bndKv3a5xslrDxpF8T3CLhiVVd111uW2MEvjqqtd_014psKaegYKJN2RbVeBA3U", width: 1440, height: 1082, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114128748098885137144\">Apron up cooking class</a>"] },
+            { photoReference: "AWCwydh-4e5t1frh8bY3I7viQS55jHPWEEA3AHAyMiXT8tG8Ged7imeXSlaGifzidU-rZj1VKfbwBoi4Ygjl1LaSt835Vvg_TXDUAMfi45wMyrGEeswRnhj4uGKvwewmw95J-tix2ym9ZMGMdqiAvO3CrkuKDxZS8yOkozpCgNlZgZO6qUAWtECrGJqGvb6LUG9N32uLYgod3y7Gs4mgpYsh9y7qO8y0f6T8nCfLbYP9QVXk-pHV8Y63qhrSzmEzx4bUIAJxUDzFeeSyxC6sHyOFsnSspYLuwI4nMHqcFn5nGbG45VFhVR4E7IouqSjNlwpnY0MF2ZClC1gvmKXJoxbA4PziHtlCY-GgzlqjL3QXDTeF6GrdOKRcxGTyREDveurzW3Odx0ZRz5I1RHzXbV3FaUKinB59yyA5y1bboX0sedZgGeoXvNherpmkKMnc6Q", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114848901761555811945\">sue p</a>"] },
+            { photoReference: "AWCwydi6dUc8oX9QbaDmUzhtP8o91fXI6WS89VCOObF_mKpCve-_ZyNHi3UBoRHmh602S5IwwaLHIiG9tEuhll4Y0m1p5Mn_luHtci80ltjtEA47gQnmm3OQkcMG38u5ompJWiUsmjJSHN8s333FgQASC9E08S_OekUsOqKc1-mYzi18atPLQWk9eYFi1hKQKgGjPzRbdHbljBomw6lSUlctcHNYvnTWsCg_MlKCv8v0QEOEAjmUhW-w3epwjMvtUBWPU3HvPQvA-HXZtGLfps9UFatu9TpgSNcAJ4tANIukFDRGHlbohtHqS8lKJ9UtRmCzsDxro-gK3cxLKLktKMcVL4jtDSDGPoV6mKszrfgB_CBouSVx7jGgn-mchQux1V5N5acO--TYptvbLsjC2Jyx0RBe6RJ__oAPJluIEmKAQBc-1pzCct5o9OSLK99mGToJ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105026824771736473273\">Yajun Tian</a>"] },
+            { photoReference: "AWCwydioVhx2XG-Aj8l_QOSzqeVmOlr68tq65Vp0pBX-fBkB9tNh0ECFoCsVbtb3576TK2ihgwebt-UdZ06q22nP6jiobe3sJLZBBZ8mXrhK0FjkwTnTZWFMOPQjQ7WHzg8h8RGiL-v4D059RLLmnOsyWm1KeIttOtgvtXd2axsciBhI8Ix0eQvG46878y3O1C7kIg3b31TrJEVhmhkMyXTugQQGrdKLWEmclFZwJdadJNhn-KdXzlzoxO-5g1mat4Y1xp9wOJZoQYZrZ2AqdSMBUcPHmPLxvEeXigeBSPE_-GKQB-QyFzD_KcAtKMd0tj71GQsyrGQsdHrTpKaKKr2WMoTbZpA8zaMUClfRvvGOR5WWVG6bvqZFuqglkRvHuUaeqylvDt1jQQ7aGnTQQprXnbNPcfY-6Q7s9pQLuCM_Tsm7uVoiGZEydg4Fxi5d4Q", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111985245850309916903\">Karim Abdelkader</a>"] }
+        ],
+        summary: "전문 강사의 친절한 지도 아래 베트남 전통 음식을 직접 만들어보는 즐거운 경험을 제공합니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["Hailey 강사의 친절하고 명확한 강의", "베트남 요리의 깊은 맛 체험"],
+        tips: ["강사의 세심한 설명과 함께 요리 과정을 즐겨보세요"],
+        hours: "월요일: 오전 8:00 ~ 오후 10:00; 화요일: 오전 8:00 ~ 오후 10:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "8 P. Gia Ngư, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 08404 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.apronupcookingclass.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9532976423279777313", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%97%90%EC%9D%B4%ED%94%84%EB%9F%B0+%EC%97%85+%EC%BF%A0%ED%82%B9+%ED%81%B4%EB%9E%98%EC%8A%A4+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마야 키친": {
+        photos: [],
+        placeId: "ChIJneRETQCrNTER_za90YjYXks",
+        placePhotos: [
+            { photoReference: "AWCwydhfv_qg3hWDgCV06WBqlA2jOB2EXSEwOH-w3drk6jmt_V7amgao0WH-S_Z4lH5XPqPMx4z5mf74FjJ4ziLvlnqpdSD0tuRVwqdEDMDNWTI6UHdLzpJhd3rvYxGa13i0rqpU2WbMASg_cgnqm0zvfaq0iwPfJ52vX12ANHL-j_uWYLwrShkGAPYchmHqA19nm8iqAg4CmUo7k0t9axb7JGh0S04XqXxlfrB3IRFi2UCWFswU1QDq_Nbrf6qOhqoNdRBx_AZkLNQ1SfFs8p_M3291EpwfrHnf2t8vyW6hPrDIPvn_YkHNU0BhPnEAK50Bqdm54xXmUlq2Vxic5eTVIDmfBcEfrFH6FKC0gAAdo1iagLS_7RkyR3wLmUKOen3iw5J4wi6e_-JLnX4HwkTqjCoKdq8T1jD2DJxZlRPysbi0SQ", width: 1920, height: 2560, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101644055071772303919\">Maya Kitchen</a>"] },
+            { photoReference: "AWCwydgieqB7UqxcdbS3vozOE6qOyiiKzyNvP0yoxp2BLfquHqyjYe4UPpdiGqztD_TWAFFYixTR8MgrTRgEP4zRB59k1Ndmm2GsRA_xJlOvzOW1vBCkseb_GJSpfSq2TAkCkl6jXzKK9xYy8zihi6bBO-S6M-IA9wq71zXgjVPyeqSmH7jXAtSegGgAFBelr1H0x0TXBcIogARL469jpuQbLB-2HkOXdjinxD3Hd1gaSgWtqr8NRZ4rYb3CmIluY-Kai28yYv-EdtiduT8yo867xfZ1WuxATjxewUBpFM7UcQCvEzBGOBtE-qqGL5FR6pIpINp4hMEoWF2NShobNn_EYCNCvqMtwoO36tLXfOq9H2MKDXRwdDvH2uZUsLf9t3VecFf9UTR5FVIpUM0bOOKP1oiAgIDnSn6IxnPZ4l9gRno", width: 2604, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110588434117193097254\">Sureya Bühler</a>"] },
+            { photoReference: "AWCwydjfD-i0XP3_COuNXx7bPB38xnmEYFo6l1p9YRfeUU_uReNWXE_AQAqz3z6vx4bvfyxUr1BQvkXkl7j2XP4h830x4vM7I6b6lK9eapg6i0bT4EZceaOyUAOMhv_jdwIDEVhPacxqvR_mCQo0N_1a5-fBOecHO3eV9U5Yoju3buXzho9okPhbT_9oqUk3bMpSo7KmeNDSfzboFqrTKeA8xwChlBs9VZGKG1PyB-ZCaK5xfSaw0WcmYN4wKs2fFrNsmGaKyXHorQL5y1Amz5IKjGHfxBqcyaT_-M9IuH3Jq8gRKidB-BtZAdfP0XsfOWbRyqwg97HCcryIMgkI2vN0NCwkbDEouHmsh_kMcmu916utalQ3sA0L35fKekLPnIZhOEp0XzzLk13kf0lyG70GLx1EcWxYJwSrvzVNGagHicO9zZB_", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105746396285609043393\">Sharlyn Krisna Alcantara</a>"] },
+            { photoReference: "AWCwydi66YIIvjvcamSpjZmw5HvbGVKSPAYRR6ciqAvih6Qu_A0YaJiPCtQKqJDTd0eWRiG7oPJGfWrPycwwe_t2cjyw_gTw0T12ZjXMtEaR0hnxi5SgpaGlBxa147cKesChKj_-PvjhnCTRl7VcN4hRshE6UD0IlT9JLeuCQTquZXCEVln7WfqY5ZTdbclETFoUGeW_ywuuD8cbQ_jmSLljChSErRZcsD4PmP45baoIMH6xHRaTKc1THAsD0gAQr4Pljjp51InvrzgdOWe89PAQyCMfDsbNMaJAFU9GusEAq9BXi_vkxWGnHiorjGM04P69X-jxcFLzh5hU8mOELXfbUoSc33eqdnAvvZ19uJMi5w-1hjuKvv9226FHkKhFK-ZBYQH4hCyIvBk7lAiXI5kvK18i22q_XHD9rqKWUD1TLp13LVi-pl_a7YOdVkFTNA", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118171009772193080013\">Serra</a>"] },
+            { photoReference: "AWCwydjviYqeIXsPFgw5QDwg-Ljp9XCJKlTqqCKLQf-4lKs-v4NMNYR5w5C88QWVmBCxp4vR5RSpvdhslixexpEVg82aYNvL91OHnE9XWvIuXF7GAB-x_RwVPzhW7BlyoHNNlTb7MdNVgui3Qukw_1MPzrbGF1mesgP-9CuLniRyc-3zaOyLZ3erR4mH-e8xnTfJNg_UA2ctg99J7ZvJutkFd-a8rob6i7FnQDeqcZVX9WIpCGjAKxRXrS668bUZkNPNR85ze9P7Rs5DGLUbhLlXV_B0LjU-iClW8AAfm8zKoe2lJjmnjmttYWfMlsPHrL_HwLC-UHkry70Cx3IBp7ivtINPKNq-YwC8SR1AsM00RhHZzJ0uR6AmFYtWnKxL64vMNebeBto4VaWGLXrMqy_zln7Fwf5fWSXnKyx1KD5fHJJ9v39qSpC2db-ghRSLM0aU", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110071443995129318045\">Kimberly Attia</a>"] }
+        ],
+        summary: "베트남 문화와 요리를 동시에 체험할 수 있는 인기 쿠킹 클래스입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["베트남 전통 요리 4종 조리", "에그 커피 만들기 체험", "현지 시장 과일 디저트"],
+        tips: ["망고 스티키 라이스를 꼭 드셔보세요", "현지 시장에서 신선한 과일을 직접 골라보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 9:00; 화요일: 오전 9:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2nd Floor, 36 P. Hàng Gà, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "Google Maps", url: "https://maps.google.com/?cid=5431016282801387263", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%A7%88%EC%95%BC+%ED%82%A4%EC%B9%9C+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "톰 컬리너리": {
+        photos: [],
+        placeId: "ChIJoX8KXbqrNTERkzwniSonaHM",
+        placePhotos: [
+            { photoReference: "AWCwydidFRWSar7zrpD2tI2y1evx_O3mJEjqy7jEyl8rcuwRgaL_MYIZwP5U0v1stxjtJGHzaWuLa_nUHbSZiC6cnyz-4uXpz5MQJrwsQp46G9LDnCuQ6GYxa3ZwWFV8wlDp7qqWZarnfIteDLsMUXEtJqcAI4hz_w5y5vSqz-laSbc6uE93D8PnmwCRBQRZSv-92dfRMD2DTsUV6nJ9P7q8MuvdRx8GzYYovuKxQFXCUF0EHIhKI2lS9usiBwwQtMyushf8PGVRzPMl1aGm5X38Am_hqEzMErNyCs6udj45AVR45R8x5-310bIESYz-4NrFx9A7W_LiW2Qgyrpz7e1urxQ9vaLmZUyaxVb_x8-mOyK4_6_zPlvcbqxRsJsoiKl47KQNitUqgXwLaSgHZ6H7E_1abRhkwQh2Pn1KMRzJ1pgLkQ", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113104533230539503693\">Thơm Culinary - Herb garden oasis cooking class in Hanoi</a>"] },
+            { photoReference: "AWCwydida-RGoFCuFWb1KAEaxPQdhyR0Ks9r2crOKcxTrPA1zJ2pbrF3r3H0i8pUE-fHWk1ezL1QdiokDGC5ktqzqA7fbbYIYIVUGx_vxI3ygh-SD11xEL-UIRXTFNK6pEplyG_hNyV2gR9Y0iRf27R6QvkJXjNnWqcKjaAZW84vPDIh_SoWON5PFqQ0V3mD4SDckRAO7WOb3aRfdCYuXTqEe2tVoLQtM2E_M0jtsutXMgIVyG9oYuC7KFfV6-iPv7fYboPv3EL9uIo34w4URJYGX1QbbdG-A0MAmlnSLP84LfavUXLkWQ1ir_GS5_2t-7F0KTvuebMhjjLzwLWF7Yp0-o60C6tp4DHwR0yr4Gb8loLW9l7loAm3unEYTuZKbharYQWYFt0mZyMghjLsLKqM9ijGyVPgnCTa6nUWm_k8IdKmkQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113332654647168369478\">Orr Zaacks</a>"] },
+            { photoReference: "AWCwydhc9wSpLreKnMaekffKZa5rFFqiU0Nbxqa5DshOfJsOQDXviChu_WNn0cm3I8UUq2naIou45R55ZJwWPd2yrt-jrldC--z8fe8_iZ7QrBrqlKiL7_MDjFOCOwACLnLj6uwjCHrVuxFYAt2j6U9j9i5nl4kNPufycV8Ltmxk5xZ7mLmOUA9bO9-1WNB-VNQ3xPvmcSJBc74zTuATTP7k2rrSGgN4YtepQcpGzVqvwIU-uUegvQ5bWT73tFbYf-q46e59PQ8sNB995DoP2NUzVnoY2DEgJW5xU9Ohr2mMXeY8knqJlACo9HBVArtEMyH3zcBxKl6_r_PZJ6Ii9YJm9Yx2GqnmKIbA-D26Cae3GXB8BS4E06YBfHKlnBLoCi6zdFIB7bChOJ0s1Q_QQaFth8Ln-Y94LFLJQt7togvUqXA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113104533230539503693\">Thơm Culinary - Herb garden oasis cooking class in Hanoi</a>"] },
+            { photoReference: "AWCwydg4dg16Py9b_MC8u2wR66uMCF63NxmgT_TJZRlmVz_YW6plkkIu4u9DCq8IEzbe9PYIM3qyV7I25ADNLsf1FAONDA9DOiewrK1hGgDm_vn1-uALkyEHiyLYnnTrxzIcSgb2cgtfBo_5HDM4PceVDkLcPjDsszmeyl1sPgQv80DwKaESZSddzL7UGstKD63yEpLn1XpqWuY_XkTNQs5wr_z9GDOdcPFrnuqUcy1GccSz-x-lIMpB_DvchSqwJAPWWIgLvaDi3EPVVeFx0hXQVp7fVWXj7U-Axa-4iAL3PNBsPLsiHErFYPppSpwgGV0BRyP1eQ5-1Ah7o4zBqJNxbGXbhrvbQ6q_-LvxStDxcdvt3ql9_s4J_s-DkkVZtx1iafIYVkK8cZbFbjbsMl_eS7lRxmysByOKmDNVYmQFv1MjBA", width: 2142, height: 2856, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107978620402401363158\">Urtė Žitkevičiūtė</a>"] },
+            { photoReference: "AWCwydgY65iLXEzR8fxEA7tGQwMHmlrzUYpe2tZxIjawxAqrXMYk0gP-a7FiTHG1tnwt2uhBCVSL-Ll5E04i0OOolfiRXyYrvJwXfcXnTUjk5JXAoFQnfJ9HirruDvufTtJWuI0DA0MZpnV53crRsAoTrkUcdLEUftcq40a4MnT5D-hf06pa2p0c3o7cLqkQ_771HUWznXdBj90jsNGhfCviHNnqF8HyC6dQ20oisAnlnTdGKfCc0amYnJO4i5C0QudSOS3CpTiASZHcdUodYaQbFQkDQ82lNQM-VVI_GpU1IURzXhV73O7gGqnXMUbpBvvOhjYyDgP8pC-xmL-kw_oULjtUFwb0RYxS523cGjM84VR83_Ta93iDqgm0Vpwyfe3rJiwvruvYlq8hE535M7QJd7XxmI8YMXVoENDIMaxPv39l2fka", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101531821197102977793\">Amanda Chia</a>"] }
+        ],
+        summary: "전문 셰프의 지도 아래 식재료 탐구부터 요리까지 체험하는 매력적인 쿠킹 스쿨입니다.",
+        updatedAt: "2026-08-14",
+        highlights: ["현대적이고 깨끗한 요리 공간", "아름다운 허브 정원", "현지 시장 식재료 탐구", "친절하고 유쾌한 강사진"],
+        tips: ["시장 투어를 통해 베트남 식재료에 대해 배울 수 있습니다", "가족 단위 방문객에게도 매우 적합합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 8:00; 화요일: 오전 8:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "81, hamlet/lane 76 P. An Dương, Hồng Hà, Hà Nội, 베트남", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://thomculinary.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=8315939775582780563", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%86%B0+%EC%BB%AC%EB%A6%AC%EB%84%88%EB%A6%AC+%ED%95%98%EB%85%B8%EC%9D%B4+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

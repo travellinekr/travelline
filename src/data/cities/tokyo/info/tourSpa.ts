@@ -578,6 +578,708 @@ const info: Record<string, TourSpaInfo> = {
         ]
     },
 
+    "닌자 푸드 투어": {
+        photos: [],
+        placeId: "ChIJbXJXkKeMGGARp6EVFMxZR44",
+        placePhotos: [
+            { photoReference: "AWCwydg0S2EZ_Cuy7r9ed2SRer7cbmirxYdpuAnUxCLhwyGZeg_nviefxEv0RWcOWCGv0ufPspZafVCoI67E9N_RGQB931d3QIK_-KndDGTEAiz5ps6XBT4wZm_kyJSozDNSBLzmFfN8uCk852gMAAV0-6Gcmlcs9nz7uAXRurT2jCphTkjuEaYofoZjrVlZcF3tIlny2NFAflx9R99dzf9gzRrpv9E0d1UM9wlG5-hUjp5JR5wcYIa-hMV0mlp40QGz65Ay48BjWpZTrFPxJwccWE1mxrcTeq8Bv2docC4SeDOJ3zvYEg5MoFKqa2BPORDQCQFzqlWgsduW4u9lCsE3MRVfqkdTYFCulPDVIg2wPovO5rGwpO4rHZ9XvGJ5KQjCsXY1JzAkSPAdkj9KQRKDRJTGMFJ6zhpCl-G1QHuOB-G_YCDN", width: 4800, height: 3203, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107721759835717477506\">Ninja Food Tours</a>"] },
+            { photoReference: "AWCwydi-684Uct--pdFrDLJ11A-abktDbZBOek9QvLMFbnrETjepHpDNPY5rexKSgTtWU4Hk-Wkhb2V_jA89kPqS1GpGtq3YkGww_J75ItNhz12csQTnt_PplIjybPQxmq18Ydy7QfdANi5O57bxaM6sDtPsdNsWhBLVPqQXki4lG63IBLxsJ3lIPBB4e8e_a5k9IyqkUPRD5BcS63IFWwBc2PhVAaEx_zR-XG6cMkdy1Bwl_Gb1yEuj0zeclNOUS9nezPlT63Ai4_Gz3_ZLvB76JFblLNziiY47LT6iw0ZrrRlaawVgMz735VglV7_diyK5G5LLdh0xJYc37c0vy4TX-Exs80gF7hn6JN2je8TWcYMOnyvA0BuWg9j9VQFFvwTQrLu1NVs3fAXULOixSglGs0XyFhznxzn-2UyufjW0mq0dmZEb-jrZNpTZ8TVLflaL", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106643269602975488669\">Jihwan Park</a>"] },
+            { photoReference: "AWCwydgpYwOpmT8GMkblwW7hNpNUqY8-f3nPqWc2olaXtzdS43tPgNRQqykJr2OebIbmIqpu-zwgXAKuo67ogonnzICEz00lwxy7jOaV4qt3Mwjokfk_GIs_34yHREdwT8p6winMZ1w62k6OIeUfd04T66D69zkNKhHJY91TQ4lQ18HrN15L1RB_2Slj4DPt7HAXpFvbj5T97Zhgtj4QmQeIjFbY9rwML4sBDIU66bV-bMvTo1L7ZKdmdjNwU6-SAog2oCsLRTR8ZOy1l0jEv5IWwhC8uxqFqzbGW4XHaEkRJgslCtMGl-dNCS7NlawxGiWSytBvBukOx4vxfYnGVOSpti1jy57BN9UP78E3KXHzeNhksetD1tmCJFz45GxU6WIYhhy6Ds0LhI0nhvqfPQjh_lN-FOT1Wjc8oorHRNEXz_P5d7afiLPDzUF3-mhAyyJZ", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109363005942082274224\">Rebecca Perez</a>"] },
+            { photoReference: "AWCwydiE3EBVR4kh0uvBbI8Y50eK6h3pUH0n8CDxDBveV_cQcv_nxgy4Xbnptw3Nw7zO4CryBJd5KUszcP7_rRyTinH6KJhi1V9GG_KzjTlzI3t8W1jGcB8TI_yT2qjeQVzJPWlcJQJmfASse01VJkTEX7xndUoF0MCXG3zNn0ZeuzUMMtWa8QhfgsCU3IF3pJbzXknPjHdBmjxkl8GcdZTuWj8BYoLvtBpeD_szpyzLjKtphSZxTC2RxxYMbM_ATutbzbm6yCBin3a74FAm_IX1iM0CDlrv2BzhVxcefc7OxEqHh5uth49-CNob9P8pzsay32807OUFYgjlw4rCqxOeaDiJqCn184XT81vLitYF-y2j7MDhxjwHkACY3GaKEGz2biegbBfa3aak408jraPYgCQEAOe8uJNZNSNmZ0Rt-bDjetep2LQ-Ze55eH1ysncn", width: 1200, height: 1600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110773815784557033162\">Christine Po</a>"] },
+            { photoReference: "AWCwydj7gxWmKcMWx_axZLaUbLKn99E-O8Rhr7IPs-yZ04ZGlN3rzENVPEAtgLROw5xIozZA_Hte6fCWJSzh0-deNQxRJ5pj7faYhxBE3FFwnDNYIa1N_XXPvlxE0mr9VhvjjEq4RwlaI71lE4WL2rQyKfFOktSdqmBF9V8OzJOmOKIrthDfSa0gxs5eUQ6wHg2vsx0HvkfpJ_nf1uL2zhEo1un2T08RlOrCKyjQBeYDcZjGa9VBs6I7-LxPARquk5uDXh8tlEtUQFCSLvyGBN8F9h5GIUFVnuxwD3Iwlx6y7EfYpTeI_zC0rx9rf92WC0p3exIULIohjOoG-lahb2qC4hguVoh9WQC9qOztW2p8-aP5Gts7n3oQvLraabqSdPsccYF2X-t8iibPLTy61H_kbmvuzZbMwMDv0CYb29LMZwDiT_eF_Oa2laWGB6RNBZZp", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109294403370381789255\">Bianca Pompa</a>"] }
+        ],
+        summary: "친절한 가이드와 훌륭한 맛집을 포함한 투어",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 가이드", "풍부한 문화 지식"],
+        tips: ["가이드의 역사 지식을 활용하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "7-chōme-19-21 Nishishinjuku, Shinjuku City, Tokyo 160-0023 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.ninjafoodtours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10252261809777385895", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Ninja+Food+Tours+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "디그 도쿄 투어": {
+        photos: [],
+        placeId: "ChIJzcMtRYjtGGARDR3n9Bk60H0",
+        placePhotos: [
+            { photoReference: "AWCwydiws69oVKkJHcf5uOqlRBXAzhb8i2tg7E9lqjymds2E4R_np8Besv6b99Q5BWs6mA02EFUK2_Q3lo4DdZ1VMOpxhwHqbruVHXRJlbx7WmPfr8ERgBt8S7VAeE4mRwKJIDEGC2gSPy8KIGlxORKBuuzqCA1ELz1fZy5kUITw4JYsl0zemCU-yg55fTC0D6qCTFb86m6T9IE2VUEXoSGtAjA4ya6ZPTkbxpII6FYQ-HzoBrqZrCDs0QV2q-9OFXhI1rnuBux3LDMarLgLr12vwZxeeEUi7GUG26eYzMgoedUNWQ0DRgsdUDaaONiRBHQPbcaW3LsipbpDc2NmwyalGhPsJjx1cRA7pnO2M5-ys4ZI4xU00TNmC0nf5YtSB9boDB2RS97BGkssCYF68wRc3pc0qyAUPIEy7FND7Vl03aRFKg", width: 1440, height: 808, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108869592776957243097\">DIG Tokyo Tours</a>"] },
+            { photoReference: "AWCwydh64M_YeMr_3-gBNYJneh0YhrHz41ZXCXZsFzbKsbJvac1w-A_F6oINvOQcmltRnJsb274gYC4UbOZXjgkSWhL1OIaoxzutle2p5qBO2n9_62KFeybIrgZLD-Bckqc3AvtN-Zr4YS1YsAjtkCbLx3jalRrxSFQJpliZBzuT7ZTPFyuWVqJehOeuahG8Rptq8ved2k5D8HBlwEi6D41rvZGuLsfBLHRc7-U803zL6yYXufw6M5JHmKz8WPsDJnOseM1xxwU_NK3dFv8fpCHP6d9xm866vxAvmbEzJacfgbUUGEpeXpACFll6EXnZls2EzcUXEeRTA9R_ioSyJ_cLx5GsRDZ6gTPMgZJ_ftatD5ZbIRJzc13DxOye0hj-zXzEVz7Daca6qJMezjbBjabEngpwI9pefRanFgl1Pb5uX8UbKpA90FEEDakMaWPJ5Q", width: 2762, height: 3683, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118140919640811514105\">Lindy</a>"] },
+            { photoReference: "AWCwydiw6R8_aee_HgdnIVumKw5kM0x4HUZAOrfcGyY1ToU6Qnh84amNugxkzG8INjuAAyYUt7TZAF94aNkcykcOGSxpAM1b3jl2sGUL-eQv81iruImd54kC0hyN9mCDlyzaPCw77yVJ52Jr575-KrvoOJXYGaq9pyvHpth0VBu9zRqG-mAyAYHowYYHav4-q3Fkdr-xf__27lvtMDhlfYsNvjCVr1jx5BEk_fs1MPbaIOj5ac6d54pdF6m_GpIxKDaJeSebiJXj7Gl4aHxTnFavhhe8vD5Lq2mxr4MDKIaFcbKQ_ePGuvyJVFz4H3N-3Odph9KbWAXXGUezqg_iaV6Bw9sewWcUrQ_KfBs2essAcufBrtjAOmWpDDlr1TN7iY6E71Sgtr9r_pDv-n_yBQmXh90tFEHBDULa8cvAccmdtjsYCkQ", width: 960, height: 1334, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114701760262270593953\">W Burton</a>"] },
+            { photoReference: "AWCwydjNvUGhvhFcx-gDWdjRRh_DDQ9Am0TQLbWd_V8KkZBTovcw3_cMZ4-sTBszxWs34snCVvScDOOrcEt5D8-AZ0G3dKkNbzupJxLhWEtPq3YXK8DKfwteKuxKGtPscRfba0RnCYYRXVdLusZUwN5G6Q1GM0GUfVZMZkV46tjdUh5v-R4zx4BeqIFOW9klSJHQb8WVhSk8zhHOU-hJtVAFCMw7CAlnx-G1vCPfygQ-aRl4dAW9_Eg9BJ-XxowLMaYdg8De7MbEjuzpPfFhPURLDYmc07TrrfUVHxPIVKj-AFe9GyJJ3f-BoZ2DpTOs_rQH8TOLXOEd1VYtEMp-WJojU7lX4TZ9d82SLAOTM9IrlqjFZfBzED3mVK1-4_EYJIBr1wL9FpMze7dWEXHagS6ep1BAY8S27MRIhr7_jQSZrU8", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109338062760377331297\">Katie Hill</a>"] },
+            { photoReference: "AWCwydg2fp0pyPv65g2mggS--ZhO5NZ3t1n2Z8RANh6PyPBb48XxWmD9gIyz4sg6lrtKYceXcjLAykiSX2CFeJvPQkX7ajl6ekfOKKHEikKi20mDUaMaUpchp6SdH09_TowQI_Mvb9r7h4PFIsbKBo0ET73e9WH2WtpS0SHFL8xRXWohIyiaRFWniI5bvaqJb8wDgT3tWz2CyiZACwlbR7l1FPOIvngsPg01JVxL03TRgNhwhtjU1Y5VLL107U7vNLmy39AK1CNWCOUw3zGDBHjO2tmoC85ic0Aw0liii7jRXljUZ6PjRrNCaa00mfL-iBmkouJklswg922YanRII71sN5zDNyPLeAPtWKy8M7YtKRqSGWxu8kKs_P_gkDk_AHWT-7Qsu6HtBqvauYaNJfqDivJFPHXn-1Gvrqo3QAIuT2Ij-JMXgz-ohM6cP-DhGcTf", width: 4000, height: 1848, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114884940603613751823\">Christian Brandmayr</a>"] }
+        ],
+        summary: "현지 가이드와 함께하는 매력적인 도쿄 자전거 투어",
+        updatedAt: "2026-08-16",
+        highlights: ["현지 가이드의 풍부한 지식", "숨겨진 뒷골목 탐방"],
+        tips: ["가이드 앤디의 투어를 추천합니다"],
+        hours: "월요일: 오전 8:00 ~ 오후 6:00; 화요일: 오전 8:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "3-chōme-9-10 Yamatochō, Nakano City, Tokyo 165-0034 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.digtokyotours.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9065809933054188813", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=DIG+Tokyo+Tours+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도쿄 프리 워킹 투어": {
+        photos: [],
+        placeId: "ChIJT0NgR6eOGGARRQCUEuKhtCc",
+        placePhotos: [
+            { photoReference: "AWCwydhRRFYQKeUUuISP__RCZ_IZprEghn-UfEWOil56woilOSuRcyXd9jgqikeq03BssGZIdp_1EojwEZEsHYJImacsTFH8wKrByAjLbHKuQBoVzTfqlAgjdkr6sLzBuEyMFnWicmsECByOOEFDTTfh3UCA9dzCA0mIe1PAw8Lw_xxV7GxINBTrWu7qwFUyNkFhC36A3nDsZ_vkhbc31xGMXTC8OL4HAOt3mz4raYO2Sc4I1a31osLM5F34uFwEdPrZ4OY2zCmHg3KYV83GvyFrbvoaosD8Co6VZdQgDAOlmlOuUFPTUcUaKhZhOKmCVv48L_fsWe6YOpiHjQL5jaos7cdDvki0kTvCpfrzhGrbq7NAwk0b0lXuIuTMxPYD1hd1FvHzIxq6xgM5WSsYCnAdvhFhn-ay8RFOKez7HI8xbpDK9QBm", width: 1700, height: 630, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108840147056846402855\">Tokyo Free Walking Tour - Tokyo Localized</a>"] },
+            { photoReference: "AWCwydiYg_gowR6Ph2BM9qUoRN56G1Fd7kWfhfva6g5pO3Sg11cawU8t4rqf_f4u5O8SiLayK4KBzfZPuEYCT0PUnXBkk2maze1nQdH2iQAWrRgwkoiuKODrdD8eMzvsZAaiHkh4Ci9zqsKHbntf-io1Y7SdgzVWoCYJDdFatJ7nwkX1t0cGmT0pNkShM9_Q_zYlL1qL1hmVo88BV2839VzVOVGBwKRb9uKJXWxn7sAh5a0_criXF_COBore-HsVmNQbtNhg-IWxWF9q_l-eQIeWAUyV2Tv0RyzlV4e38WQ1UPoCDk-QIv2q1JQb13CQbdQM6cEJDc2FAp-aopOcIQt08HFgQL6AvTBTbR355PjtEWNzgY2TT_jnw2f9ylXQN1XVm3XNRKAMY6wYVFc1UXhwaltp0IH8q4U_jHD_1OQWQKxCOmoakcRAFT8saFdPWTY0", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102519320901423525157\">Sandy Evans</a>"] },
+            { photoReference: "AWCwydjzfggK_WCW9pjavrCnjq_PM-Ax7JYdGaxjfLrmn5IWj3A2--80DLMbFxyh7HObK1aJXGmy9dGZLPx6Ndu26Cv5Xhoy3N5KmrmINEW4CNMTC-aQOhUIjU_r123OPcotl8_ax2xgxUB53o97yPTJSSEn5st6QRtHGx_lE9I5VR4QZjMYZa_djp8QZlq3csnWTJbf7Pw-JKi7SRLO3EXYksw5TavUkBa9H6QEM_-iOhyGFt_l5Bxdks6Bbnqjqcc9UVxJyMKKm9qDdaytI78yyLV_RNtgJOAKySZ3WYR2orVUmmNmoElxJ0OlmO1EyekltLsI5waAHrVAYU7s54cqELZy9QN3sZXyUQNLidj0cy9lZn3MW2R0u580TQC3DyxQTUvKIyXoQLLIh_WGJmEl-nko3PGygPlPisw7cKHum-k", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109150128691572607193\">renee williams</a>"] },
+            { photoReference: "AWCwydhbl8-6GGavXTMlhKtar3pHgAknEx1jrLKl_dfUKTXX8NvUtTj3rf5f4y4V7D_sztZ79yWZ9JTEOD5OyD3qUhpYjVPtd2DSRMfj9B2d3o36XDpjLjs4u35TipPdps9UaXg1gTHfJEsLKagkBZacD2LDWlQ9eR_wMtv8nDO2__I6GrJrDE7_HsRt5AJQ-qRFD-FzHKC81XUZCZMD4Wlm2W1Lq-tSEMu1dCN3eHfU_vShjpqQCuPuqoJI7_hBiePxoGoaeKILUKiXH5xrHVm0gYJY1jeQcF2TYGD2FnhWKcNhkNY7FFkLuD8he8O5x8aBaB7EiBqh9DtugUV4EjKrhp6I3bM1Wkr-t4cq2IRvE51ci_EXRrzYX0KQGfamnGeadsgobBfWagZoPlZMeKxG6PaCmxtU8QMPlVZJ-p8Lrz_-Zq6WIwm_OJEHUdbBK3dp", width: 4032, height: 2268, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105699174042531147516\">Ruby Walker</a>"] },
+            { photoReference: "AWCwydj5u-WwoCbCREMTmfS5NLBUzMVPYmqCFfQv3DOZX8910Qw3C4TyGbD0pu38E3wrAZVMNSWq0vVWEjJ8kBuZuVUzLkf8Wq8E2ICwIIwXTmqcUFsgcu8kPd6QHDVQ1kkHSICqIW8LeLpDixzeFDF1ZGJXcWtFtZ14YZ_67t78wwSalGdl-citqBWKp8xCDXKiFkAlCwOfPUd3QszUdxcsNtQDeIgTPrmhpO3Vt20KacHoKSDVBGTjqZKQQjy0PrO64G3PYrrfDLuErJBpe-8t8ylosdZ6yu0wzNc4ORg0vMnmRU7fXUsYGlFaoZO94on-DZaU4-9sfsMgtuVayRnnVOiPGz4-tEGT-U2ayXXEAdGqzevrloq6JEJW9n_WFisXGuhq5TicLU-aYiA3V9uQC4NXQWAwCv8V0dYbfjjST5lRBA8yC4KlFuNmUJ_69DDM", width: 2252, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105476573832355686972\">Camilo Andres Fetecua Fetecua</a>"] }
+        ],
+        summary: "일본의 역사를 깊이 있게 배울 수 있는 투어입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["일본 역사 학습", "마키 가이드의 전문성"],
+        tips: ["가이드의 설명을 주의 깊게 들으세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒110-0005 Tokyo, Taito City, Ueno, 3-chōme−15−７ UenoYour 510", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.tokyolocalized.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2861089655633477701", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tokyo+Free+Walking+Tour+-+Tokyo+Localized+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "하토 버스 도쿄 영업소": {
+        photos: [],
+        placeId: "ChIJY0b0B_uLGGARom4pqsdlgMM",
+        placePhotos: [
+            { photoReference: "AWCwydjzcWnEP7QGNWLCA_BKJa82riMLUu_XuW4vbmVBbkoY9VQS1Qctd3ASohw9ids6-XPJkDS2DXaHf65NODS1nbcXrfl4l0J0cM8y6igVcgpCZs_Ha-blp5dsrsuIRbm016b-7TOPI8WYl8vgGN-soXsQUWhTl5CA0c1Rak7STAP2smuMtVLpI2CmTVixGhn-URSU1qAVCnrAv-9LN7caQ88RLljlZbB9fNYZu896ducvAtTNIwCMev-8LMuycNuI7UaiyHhmyidBjTLrzgKeoU6E0EGzlj4G-6SICTmNRsWXAz9JN-4FoMYnbJUvY8LyemlqjJ81ZBWbQb2hR4JSUOYF74CWKoGDYDCVbWZ4XgK4m3GQpW9SJuY6DmDs6R7PKfoJ9Xj4RdkHzSA1HUV1idTk0p7I5b3mplKLuSkPhcbbKTQ", width: 2048, height: 1365, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112507582143877955913\">はとバス東京営業所</a>"] },
+            { photoReference: "AWCwydh-eBnqXxEhJMxwtM_j3vMv5_wdfuhNTvhV1B03GvhREI84Wm5s3cpv0ylXXLasDsyHyIajRpgBkNecpvMpt3MAnEA0nKldFhPh_gMW95z7cUOb3w-FhRY7JU3P7CMDk_SyOCCi5sClpvtILNZRPScPj5Ul6lt4MqiTgLqzeRyLsgtabgYhHdQP3L173lPv8C2wk8P9j9EBynw64cEmeM4iD5MFUR6P6dW0KKVDe9lk_rOc7R4HJeyiqChmxE5PXALfw4KC3KioZwiq2XAfmSsyAwFg3ZEI3U5c2OvUg2W4dSPEnlEvlRi4j4kF_eexhx47STfeZ7tSB3qQrA5FK3mcmLU87IguNXkPhZ8CKpbm8qaHL1BIzjoE7qDTUsPaofulmWf0uNuMg94nSteeYr3Om3RVk2zp-MYO4IzqNq7YxL-4u0r1QyoCwQrwv8Pm", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102476906199520122197\">もっちり</a>"] },
+            { photoReference: "AWCwydjau4HT1OGmPI5Cjfa6mj3k8uT7qpcsXRxUXMynSBsao7JYs5-xNmpaN2Jydd_9Wm5WN4Bd3evsYOn2JpZrNuSctCxwH0QG5Hi01m4NNrQ-lfkwwh41EQjKxuX5nsf8Jur7doahQD-YD0--cBdPuYcgXVVFBhB2a6moBd0JfW1jN8uVEOyEBjbQpOlWBQJH2pCx3_EsKoNGuEPEmj7QBL53UaXF95d-gXAHBpeLxh0-GwlDd_dGmKSJdq43K93HRRouLHrH8R0kVasDkf2jm8SXQ3POz_lq3orr6oTqP-YCeMADuW2dxPJMYjFWMxcmE0KlniD-jHTCIw9W08qaEfofP9TLST4J6KYVBGIutqYDdnEUxywJ2WOMMLVRSL6OmpG6JZEJrWwD-Hgda8lnmF6O2X-Eyau1nrHXKwQLO1MFUydMqGAKZmrpf-QW9iFH", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115448165766831726737\">naoki sugawara</a>"] },
+            { photoReference: "AWCwydhmxu2Q1qwi60mU6yLgh4CVseY7RHsMByFFmxJ1GiSP4obEfliTMo9V9vr30ffKwEVxepUGDlbTft-us4ayaECx893Q80zLpjBdix-pDhYuaszl6fCXwuTRTDMoQFJo-1GbB5eONN89BEDYmjdzZ4PhuH7b-eQItzM6kT6a3nq2QhtQdnsQofvLctV7Uq0udO9egFeeWnksIrMcbtLVTYmpx8urxfz4DtV8Or07WK1h3k0HqEGWqSG0jjPLiDSp9dzEFeTRSMBlqL6E9ZkZy_TTYGuticjUaPR4EyY83DOxg6sSBDBEu93GY47aSFatK7fh30dbpI4J_vt8P7To5GdZpzv_x7VYFPxflxLcSQb3V2MCrJI_D5fH8cFUmYAHcFzCCWKd8r4raJqxa8XrugNI_zOME6_houwU9Ppy3hjN9qT5OgqwK5cmvg3wcA", width: 3056, height: 3056, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106185373798859350463\">ピグオン</a>"] },
+            { photoReference: "AWCwydgfQxcvSTUgLFOLxg7T8VZmgiyWKsG0XbvOIAag4gk1sUyr6eimU7k15tu9fgn-4EjpKHWn_xOjS_nDtieM6nTdMLaarK-40I_RxVp_Z6hihbhK58ZGQCi0p4_MsaGZHGSUrboMk_WXjR7VVtXcJ3mWIEqKVQCQnDRYTApzYe6RY67HAapfe4EvPvV5CeUlRX1VtFSDMDva1AzI0Y5qwfKs7atHGVJEY_K6D5sF2sqXcobjXsrMM4hvcCZHnZ7wy72gmdU7QVLgaWej-GuwEIdxhqbcrQ3D6qFfWdBSY8oyqoaVjo6wrWhWxmL7TxYxvTVbS45evUpRyZhw4OcpLOmaSN5FSWTHqx2AiSgPyP8lxI68EHHb_-acWFpdraCfuIpikcW0WAAScsOk0PQoCv265XNGPNuwOBQEd7n7wl6D3PXdM4upwf6kRHesDA", width: 720, height: 1280, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106936512258881391364\">Joseph Loera</a>"] }
+        ],
+        summary: "전문 가이드와 함께하는 도쿄 풍경 투어",
+        updatedAt: "2026-08-16",
+        highlights: ["명확한 가이드 설명", "안정적인 운전 서비스"],
+        tips: ["체크인 시 여유 있게 도착하기"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:30; 화요일: 오전 9:00 ~ 오후 6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1-chōme-10-15 Marunouchi, Chiyoda City, Tokyo 100-0005 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.hatobus.co.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14087371542642650786", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Hato+bus+Tokyo+office+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스파 라쿠아": {
+        photos: [],
+        placeId: "ChIJLbAlbziMGGARS9gqG4EcHJc",
+        placePhotos: [
+            { photoReference: "AWCwydj8YUUIGBecdiZWyOSKqOL9gBUUq2dgcfrgZX6qeGow3HP4PlronRfuQXlXNHIdH5OdqUSObvOUCv6h6WEUrRwSX7ggD_CwnvOOEBlsdyWZJFXP0KEOZl1Ghum3ziNRzhedC21d6x8DY7wMEFdiBkLcvGtwEynYXWMOnRefX8dBUPC0Xw0-QA4zocVXkN1xNWVD2Ll04cEhRa5nK68yb5MVWVgTwZk9goKIxNf_yO3FAhJuy9HnMrqK5eg_Q4G5wnhA1cmWUjoxX1cGyFxADjw10bEDjXz6OsAigPvLdzF_rgT4we-Q_0M0YuEd0fyzpuVctAo6jyd26b2tQnZInbBLB3gp4jfNlKti0jN_lyqpOqqs58mP5dSk3-Bq75lJ8VySu7mM0nteI4SL3pyUoGyDnlGjE2fvSQ4JlfUWEGU", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108509774650163282192\">スパ ラクーア</a>"] },
+            { photoReference: "AWCwydjVks5tYPCHCvXfG_rflK2SxKbyoIh5LaXyudqZ5ajYZw7oC5faCLUaFRga6DCZDNo5slSZ61ezHxaIFN3mBzpIQTL-JsLLflcNDKBkQipK60MYFQyIPr-4Her_SKX1pv8oEBZJievCHEjMJddcwD22Fjj1BITQtUSWCRspnoBdYNm9g7Kt0IOCtYj5x44irkx1T0VrOlwJwVPJR9-BkW8h072d4TwuoM2tsSJpj6MOiw_t4lRYZE3-zV8pnwO_zJEUrhkf4G40MG7AFMNKW7QyJwqSZyCbFJ9ZFYYfVNcj8PRsEHSHSOPyzJzOZg-X5fAvqoDvvfDrR3qNVUh2Qd4WnqEncd0hK-RhZu8MJd3eS6up2QQEBUaNgmcCXv3NnO5l3p3Sry7Ot1L4DA8j0wWQl53PduO78uOgG5BsV7djUCX-", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105439832246778730539\">TSUBASA HUANG</a>"] },
+            { photoReference: "AWCwydgN0jms0xJ2_Azx62dQJOJQ5n7WVkDDs8AYDKe7O1rO9NkE-n6v1S1ZS9GKBQQXWEJgG0aGO5jDrwiO-AG5Od-G-ibH6xPw9Wikm8-X7aMVTcdNQA20YFMbQZ2lQ0Kq2RxghP4sU_Hm9M8OFLGJQdWz0mqGHhI9uOXhxIg4gL74ZAd2mLE2e5PwFZfIx8_xFdjB9XpV0Iw8TAlsRFqHCufPYJ1urjkMkEsctzDBh8Kl4OTE5D8HQbGvCnDFw1mfRmPzbvkmR0eVdhY3tTmIouhFOmurAxoGlhpFgIKIoy-LcMZ56IjXneJGdSGhoBqHx-5KqElS58efkRw6A65669L1lJe224qo-F7ppNl20URkhsX2RsqSjzzSZhrXVuEjH9MpER2LqWphiBIC8QBO6qAHxg48s_TWhANlVJAiyI28DQ", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105580372847180724706\">Hamza Siddiqui</a>"] },
+            { photoReference: "AWCwydjc7GJi4AEPlTS0qLfgctEPWbNlHHpUgk_Tq-RwrObDm3KPNkd5_rwKx-MDMSkj925bx9DC3FDCBEfGILOyBmaiz6O9xMr9i0EX3HJhtCZcujS7z6nF0W4e9i0uQNjjF3INazC6itiDexhby4s7o2EcNWaaWJvhrpJ0QCrcwpQc6XoXsjNwZAVv331KWp32wbICmH70KEJZdPXEyaYMSibl0oSurlNzeGUnaud_Am1CvX_vG9Pz8SU0f6cHIApGkZgT2d3Q3LWGzp8fr-XmRwr7Rz2FhRBUnGyGZLyVkNwNsFR61Fl_c0yC9DshCAT4J6mZ1MrJ5VFeJNtCHcyAjsp0GcbQdUeeBQlvBU4SlbelDisZMEVVAonSGSv6eu2xAIHwoWoD4LoTIjej55aSYA92_xphJLH8AGWxgkWbb-aNcQ", width: 960, height: 752, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111596236788367465043\">ikeda kei</a>"] },
+            { photoReference: "AWCwydi5LWeIEDig-tumMyz4ubZcwk48S92kipVJpO8-fHibaVp_t-ZBFEVoMG-NR7QaPF0N9TDgyHBjXFr7unZB6guJRJMjo0KRBMVZCm_zXwQ0o0FHA7NKGfzbmKrvmmou0A_lfExz36RuqKwYRGoE9S6jszkzL7h31Dkcm409aTXLvjZg0BYXg9ifD_6G5SbPCD1vs_ZME03nxYxkn86fGs58NSd_Trz2ID9OjmBjmZV8kZeVs0d3baKc0yOdi7U65Zq_EgDAfMkT-DkwOwkSwl1MqcTWHU9Jp0cMOA1D-iQW3V5lpAZrSPOf1z5syE6dk5sFYcVahyOfsCm3qRJzvX7Snf-BTkgKTKhx01ikY4YlMdCkPlIf62wsfdDm_dQpYktBpsXy3lCZCRq5Y2YAORFcguLlrF7w2LpsrSP0v0e37j3x4tSRaexozZEeOdIJ", width: 1024, height: 825, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116832356041128034113\">24ever</a>"] }
+        ],
+        summary: "높은 리뷰 수를 보유한 인기 스파입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["높은 검색 랭킹", "많은 리뷰 수"],
+        tips: ["노천탕 이용 시 온도를 확인하세요."],
+        hours: "월요일: 오전 11:00 ~ 오전 9:00; 화요일: 오전 11:00 ~ 오전 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒112-0003 Tokyo, Bunkyo City, Kasuga, 1-chōme−1−１ ラクーアビル 6F", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.laqua.jp/spa/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10888609339907168331", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%8C%8C+%EB%9D%BC%EC%BF%A0%EC%95%84+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "데루마 온천": {
+        photos: [],
+        placeId: "ChIJHyXsZNmMGGARHG4NYfRhgMA",
+        placePhotos: [
+            { photoReference: "AWCwydjMef_-A7nMhjXnMWRTB4EoE6gt55mL2o_aHTH7uqP6LwqUjsZoqqIVPu0OOaYstAGGX1kqVjHHzzA9lC1_EBiXeDwYPxeDBT3bymO5oBA3HHC9laiGAl1eUqYrtIuynnkkyLrv99z3lVDzzhFs4BTf_eE_Yedb4COtFY6JpS4D-qWdocDj_2SCV23JOUyMU5MXFk1tTd4D7STgdypx6A1Y5BQL9ZaxxJ26f6GlN-D4YrJoIKC8BTEWKKDOnHhwZqkUK5E0QQJTJNo_r4wX3GyTVRSbX1ToeaY8FlPkDqa4nBCXJfUv9tdfDWPOABZ0j7XLulCJAQfgWRJaPTzSA8dgPjYFXM3ljvhFBhkBjGTOPIXikZksAKtFhIEHMNuZTp1RL_js9YYSod0QttMlRj-3UJTDXS0exqLAROSARXlbOA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113073399677704443395\">Hayato Onishi</a>"] },
+            { photoReference: "AWCwydisuhKagkWGbzKxafGr2WkdGot0UzBFzsnQ9cw0h02CRpNZOJLCS24R0tB0h_yCvJtH70i5x-920D76-JSC8HavRjQQ1prn3ZiutqqxkafRW8HzcG2NxikItbhJqr5zW-X8_3AcAIuejGj9zGMsD0m5jkG2xXm_c_OmVBAClcO_mGZZ7ombdvJKe0ncaXxsS7u1xFoBUCpYlZON5Z4eSmPkyYgFM3tkF_H3Eo1Ck4zkW8qTxf19C0hh0ay-wVPjbjCITJEiciD-9FRls3WSg1-XpzOa5DEglrI6b1RVNAwRAwSgkrpjtTOFpwieEUYEB8Sw2KUwK5ghZ1qSxJKh_zw7GjdVEGXrVbNUDnPU52AHWciyeutAxsNf1tIYkqcShdezn31OmaThVjc_CUbjeL8W6xRFoKz9EAgokxTuhM0", width: 2129, height: 2661, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109941325884584270538\">Ryo NAGASAWA</a>"] },
+            { photoReference: "AWCwydjfhu2VOE9eB0x2RB50qgfhfrTwl7HLNBJVZuyIR99Xh4TUaqIz6psGqD1QrL_WSxtTghtZDmSiktIzDRXxVibVGSoNenMpdthjuQmFh4UjNo7SrXPJwCngTXi5jX5U14lzt6DKjbHKeUmLChQzf3Ro2Ou2rhxCAlAVjsrSUUPH90_Zz4lTsxcin_eaRqA2klSVXSDKrhoVe7TDHfrG90NDxWyKwKbVyNoKY_HJvGjzhGVKduwKutU84aCDXKCnDhUhvKgJCittDMhmLVKPX2kvYtJUFljSj6xt5gyPXGEj5MnCCwakdWO0h2q6rh9Tn8umIJUpfoTdawsQOF12U1FeqgzHG4RuDWStUW92D5ZGOKGgDSuDc_TLtaRw-9OlnB-GVaELrFZwQ85tP0Tjs8MbJ6DnH_WAR3dOds0JKpQlxRX2", width: 3599, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105368060472422134247\">ねこグルメ</a>"] },
+            { photoReference: "AWCwydipVvQ-yXZ6gol8vW_HOGxzXCjL05XEkgpaSvUXlLS2TlpyFrQKviPFpm9c-USEFtS5Tru7GrQiTwboWjiDYxNYb3J0_SSyfmO-BSAVswh4uA2drKZ4pkRNFvIiB7UzoC4Kq4ef0taM_nTButqRNlxAKFUJ6lqpqeEfSzF0proYLm_pwC_fVNn6jVCdXkiXkGiY16Qk6ih7ad5bOWkPpcQrXZx1NwxXOiqWjL5LN0r3S2QdbVslUhMY0FVFR0L0LNg4yN3ecJkMrc-j-rACuoZV_At_zvQjWtheov6ZeaD0hisdMjpF-nGa2lVftmCZoGN6ZRxaxHcLa4J78-edNLESoc6lMhuvF8Fm4op57Xi7GebKEHyWFaII7x3tSrzKZVS44usxYGld4EjCN-OGM8fuZCCMMEj2gJ1EqVD7b4NzUJVWrosOVGIYI0n08GhZ", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103076754265479499442\">船橋のたっちゃん</a>"] },
+            { photoReference: "AWCwydhSKei3MDsD_cth5PqP0IOqsMlrbuaxmUtzXg5wRpsJO5il3tBZqp7wElSd8cCqT86hCmOTKfNI7l2sQV7mLUwMUSBIBEo8Xi_tPprEh_qL41Har5etXgpCPhr0Rz9xYUiirEvTl-9KdG9D9MCiXJG_dWKzX05dM9ZciVAGryVf0RrWei7TL2unCnmrbbIhY7c3xd9-IpJXZcTyci-fF3WFwqp585AXgkvMCtyyiWVPgr-GMD11QHuyV8WnSPN6Yro_DJW1a9lIbx0hPMMr6DI1sIgrEphFGEpCTqoDVMgtu6bAsKe9BACVesUsO9yeYgNtt4onlolI8p9_iEM-1hbNQfM3OVaPhfrqca5cgNvgH7pKVrNMbqwnnraUm3H0D65dQ57kPkRw4C4gHjFGJN4akQ3dGowsfTHduNcaDt-S_OWrwbYbVeaSk928PiJD", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116227361062745852423\">Kaki Mei</a>"] }
+        ],
+        summary: "24시간 운영되는 도쿄의 유명 온천입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["24시간 영업", "편안한 휴식 공간"],
+        tips: ["아침 일찍 방문하여 여유롭게 이용하세요."],
+        hours: "월요일: 24시간 영업; 화요일: 24시간 영업",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒160-0021 Tokyo, Shinjuku City, Kabukichō, 1-chōme−1−２ テルマー湯内 B1F", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://thermae-yu.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13871194554529312284", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8D%B0%EB%A3%A8%EB%A7%88+%EC%98%A8%EC%B2%9C+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 헤드 스파 도쿄 하라주쿠 별관": {
+        photos: [],
+        placeId: "ChIJJf7Swc-NGGARpRn9fk8UD7o",
+        placePhotos: [
+            { photoReference: "AWCwydgTIZl3OFkvZ6sfCblN0hHiQ1tr5GXq91F97GX10je_284h7L9A7D2CaCOJb1FcbTXxK3Dmrx1Krj-D8ZSWjZfwqQfLMntFy49wP95CXjJGgF-YPShBSptsT3lYw0J_GxrdYuNKxDhKNQKISayL9TvAeRM6QPvTL4QK1biW5a4bFmcvnjPVM8NgwOQ8HSNPm2wE3lMQlDF-z5EiX38h_S8HW2VF2uTIGhId-bkrMRk1hoSeInCE7Y1oeloXYsqtI0yjJSTkHYWDVCeUi9qKLWhHBFlgPB4zvLgTMJOd6lMV1b5T11GoJBR-pvCH6kjkrbvK0xWj84HDkhKi8nCIDvLRfy5RgvxdCPglEFOVV9eoEpUN-6yVFiH9zbApsLgt4xzEEHzgPXvKEYSIVkAVEzpCnns3dLOjXJf7J3Nkvw1WbKf1dd5S6PU1rKAppXyu", width: 1448, height: 1086, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111123324886653246411\">The Head Spa Tokyo Harajuku Annex</a>"] },
+            { photoReference: "AWCwydiTv-6RZ74hKmW3rRbYg2x8rznfK8mZ5Ud1g9rOYj3B1KAEWpUPNDz5fhIFqTHSpEn629SGCc85J39fZgzUAStgvkWK6QonFuQ4mZx2skbl28nxWWd7OGPU_DiknF_xxqU8n0j4LiSdekqGdf8WpXnOspY7ggpCwzWoAE9xrIHeJOV9a2shFIsrHH7J6Trxem0-fPma37Eow_tBTjFc53f406EbPlKmc9dea3zMmMqX5elcuJw7CbxfjytYx6GWkCUAmnNrE3hyqjVbC_Xnu7werXsiD2qNPI0FdtR5_qen-inY23XBD_7c1NdJMoi7yeSpuG2T1RkZW9jUQab5GdgmA7rzO2BMWNveLuDSjzwAqMr4bOzKjM8dZD7rkOPOudr4hFIzm7T7nX354RLeBbOXeZXHYKuAVve54ye1r6YYmBPtNLdKHObGXmtt5Q", width: 1108, height: 1477, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108922123531902982926\">Shiho</a>"] },
+            { photoReference: "AWCwydgjQEZb5buBPSLs0TFwTomVY40H212EYI9c7v5u8-3g2gpBWFCTkJUjCYeFnxtTrzMlluqZ4aZA3I2JCxV-pviMOrOLV7KLwT0k5pkkqAGn4Ev4uwV2PL6Z9sMWEYclKHJYtfr1RybDLEonuTwHhLVOgy61KaB4gJvMqqqRd2wHL3vg3nqnAhkRYH0AgtjOPHGCG-iiS0-1RZjCnQtDnWjhULC6rGnBh_dP7dNIWShuEWMMRKwP-hNyien2-bM-AYnxW25lusfmlRZmWqKY8oiLp1Dz6uJMc7wYQJXAvImRx1V195Esg6LwaStGwki0rcPFGm8YqtigHRroHhCruOP6q9KVlbIsKqZ8GZJ5tAUkARgyHBWXGeNazYazh17BrTQrrMjRepr7ZqXuCw3z2s666afkoh49EWPO4aqE7IAvZIoPTQR4SZcsQz-bcClM", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108890409725436019104\">Casey Matsumura</a>"] },
+            { photoReference: "AWCwydhEWmQula0E8tctvqZKKVxTwxIS0VYzzrZx90WuQA4VgY-eiQzy4l6MU-5QL1Em-e4GVGSbjAZiZsvjQpu7SFiGqSnQaICkW0KGz6ApUdNdzcvnKLaeFamIdPw0hcA_GFA0Zchmt_DVxMsXMqQO0dy7vZl_g4hV0RcMC6B69oZaTsE5kDelcjtWaNEn23VuS9sID8Nc_MvnPLxAbUwHSl37kA36Gb5r_Lxuq5ukkQPp6HVIWt3c4vd-3n9sFwGUQEmLxXSRMi9pKt26KePcBF7J8GCe1z2mh2M7ziHxkhipN2BbMT8ZwgknKZM2h2NufIkwdFaIBzr6p5J9n3Z2D_RAOfMng8SQDmFF1PSbRSLqPI46IhzfZnGi5UxYNnlfQ-nXG5NRDA_Asoer2kGmzJkBy8aqUd4xyk80Rqb68581DSDRjkfDqW8q04XtNmg6", width: 1090, height: 1502, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111123324886653246411\">The Head Spa Tokyo Harajuku Annex</a>"] },
+            { photoReference: "AWCwydjJ8O1iKYacQn3m6H25QcDsWVzGPodpBxEov5kXON_YEgJjpZtrfbRdNZadg1--6mJujaS9bUDEtiY9mHtNPs8iXi2HRquaGkxWzfXv_X1nRC16lLvBBH4f0IZRSU5GNn81lgyd96oEURGost_g6AtnAylzQ_ALlMS7qtIIzemhJW_5CGYQ8S4qFmwoWo1cd63X3uiV2Q80kaYovFu5B6650CB9qmRKtZiWYgZY7EfoiDojT15hWv1s7bIP62ytby4UsAv9UImcqZSos1QjBOiaRzzYNT1YT4pDK5tJlvBvOrYi50Bh65gBzNnIbPfx4RWX15XgstTVrjkVi90Moo6P-VebF_11MXz4OnciH1zCIZ8YrvtF_9FPCEy1rqb924bJMlYiGVptRhtTo2vA6X5e6R3styrPGYGul_I6VKCSRW70FdNIzi5Uz1MtnBom", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106087311199330853667\">Lisa De Rycke</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 두피 케어 전문점입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["머릿결 개선 효과", "편안한 관리"],
+        tips: ["예약 후 방문을 권장합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒150-0001 Tokyo, Shibuya, Jingūmae, 6-chōme−24−２４ ビルディング神宮前 ４W 2F Aroom", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.headspatokyo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13406956947370744229", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Head+Spa+Tokyo+Harajuku+Annex+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "와호안 네이처 도쿄": {
+        photos: [],
+        placeId: "ChIJn2HllUSLGGARARAp87ykNx8",
+        placePhotos: [
+            { photoReference: "AWCwydjvzGIk-kAEiPJSNJEV_tWMKkiGjD3tmxDGaEonnVrYCFjST2zBMzo05QTos2XXwSZfwOocwW4uh23xgFH5KI9jGemhZessP_qcY-9O3FufA1Rq5uwWxIwvSRZzhwXfsthqLRN0MRJ9whsnbAWdPLkvSTKoflzVRjcdB5ddd5eSlsvhbizjOkqCpvIjo1FFIMalp28o_biE9SzmK3hVtcy2Jh61WHteon1LOjtLjE7AGRSGukL7iuUBrZvt7zVknIiizqY4tQKziT7HsSydu_RsS2dWhZc6B2OlYuD5BQIds2XaIsvJ1jk58pz4HmHQcyxGSG7OIo_TWtBfrX6jtDzdjnW0-JpsapLPKyGnlMw6tHDuYIjDQI4kP4bEBtkpc2f5UeCIGSAsmzyJYItRUQNRQO9rAEq87PA-rYES6zM", width: 2100, height: 1400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111745273687822308970\">和方庵 NATURE TOKYO</a>"] },
+            { photoReference: "AWCwydicXXO-PnLxKg1XC5wtYzIZltHtEdAy59Fq4UgD5-O-bwYR6wiVQM3674owDsbDDnUhNpAMV22GZKKoDoXlhqVY0TEnpyNy7CPoGn_zlZ4lYTiqoLRsCxQxKUgm5RQsl5lTNCXjwDzikhQcEfwXUXum3IoPby4HFxvs9hwWSDgtIxpLxRz-bkE8IvwHugxJNNq1WIRqKdOxfZ3PxZ0HWCsIsOUuWic_JHg8gVNMaAcCEHwpBwZhZvNn-VHGdYNIps7FPGGimO6Z8ujKNPfXBzAhgWG2bVMGfR6yks2oYMNqZIkNM8pmpFKz8dwJ4RXJVNtSZmA_MSZrkTEOSv7jo-8Yj5e6ckdzFahckSEZP-rAIAGOQGuRdIZoky2XyOtdOb1FuqwzX7Qsgs0nmIy_7W2z4lYjb31dt_kOZpcnkGw", width: 2100, height: 1400, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111745273687822308970\">和方庵 NATURE TOKYO</a>"] },
+            { photoReference: "AWCwydiCJRraOkHWMmKy0IioDBuePqVx9CWFYreYakVtSJwkhdmpWY_poX34D7bl2CRcg6PfayNVSPJRop4MInOgWt5K1iJufnmqvTuK1uufcEUkUASy5wuup2CQFHydRXU99DnD8SGsfqn2vzOCevWCYOKruXWQEqQxRwaQhYCoOYhJs-N3SbgPRBgkb_OPlbifdpcuaVBYl5vhbbrXkqauGkBwFlaQ676rnMEsIeqkJjtvHPXKBTUVTaFc4y48LEGFnRAyzhJwQLAvpxlvtcn78Y_5_nuM-ZDvcXiMFWRAqy3AEh5DlZAU984PNvCgb-9LZYILs2B3-Yy4DInEX3YcfKzC-E7nlRiT2kyGo1wLGmWGCmZOOm2EYo595sARjXJ0eGL5R25afPGLDOEMKDQgTNUKa9Ywm4FpBLSJYqAoKLmkYg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117836440203548843925\">HYUNJIN PARK</a>"] },
+            { photoReference: "AWCwydgQOhW4t8laUEDfjYdkxAJRIEK2RvLVJvYwpPkkWUUE8nXD9hmdgmiVBAF80SrbYLcitdrtyQ2ltueyBW_a3RRPrDzYHphts0I_ZrvGBJWeRb19u1-nzLzY7DzTEqU1WzMYdPmrPLWRvwkcKd7nUhzRjuznnOyRztBAmod9YfxeI_yGu80hEgqIRSgB8dJZfCjVZ6V9bBaFwER9vudfN-1ZCIApZaOJYRcwDwH1ZQ_Zrc5xDdwn1AAkniRPLNXwTPnOVFUrjtQwXM_tIuOaKaqwNTq0UkhjpHXqJ06oL1bziTFEkmfbdWWLMYhqCIvWLKQBqe0FcCJUyBOCRxRUZ7OG8DnqbPn6dhV2wTxGXa-3xIto1BK12oTA9Y2JW4QcY3QCJ4zQ1BPM2GHMCj7nhcUF31z9aJBFqhrMcERhLgboIVHq", width: 1080, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117386562967163485397\">Sagar Sonawane</a>"] },
+            { photoReference: "AWCwydgbnPyFlfUam6XDQUxpwNz1lU6jJDMu6TSdrqGDsFTp6XKSj-49yvdSkJQf6o7dXBTNM8R3r-Y1HfjTMNmMPsIaWe8QDlm4c8IHYcV0uyPFdFtbTOwVaFlS_-joBALDuKOjJEsamegHUEBZ4803NaAJSUrcuvQWFv7sLnzq9jjfwTc8EpTBYdSoPhxa4Rko_m7seMIUoXSCPJsQJgPeSiOjgyrCPVZa4uUF_TVmjnvlBX06HzwI6Ty7H1R1Wet2i5WSeh6qxPaNNSt3s6N06m2Cm8X_6XV4E-3E4l1bW0mrVvM_VOAnlnoXHvYXJNp88OkCrr3mlTVLCZ4BuYBd1bLYJlHIbMonxI04P9wamCMCocPMN9IOk93yq-epQ0crD-7BlV5KrUtzBH0ox3KXGaWkIcZOfsYPxPDnq0b3h127fQ", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111745273687822308970\">和方庵 NATURE TOKYO</a>"] }
+        ],
+        summary: "높은 평점을 기록한 도쿄의 유명 마사지 샵",
+        updatedAt: "2026-08-16",
+        highlights: ["숙련된 테라피스트의 관리", "통증 완화 및 피로 해소"],
+        tips: ["방문 전 예약 권장"],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1F, 7-8 Daikanyamachō, Shibuya, Tokyo 150-0034 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://www.natura-w.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=2249447670335213569", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Waho-An+Nature+Tokyo+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "소라": {
+        photos: [],
+        placeId: "ChIJ4SQrWeCLGGAReS0C8nOn7vo",
+        placePhotos: [
+            { photoReference: "AWCwydico5hb_Xsdf4zWZUY1g8FXkaWW-MD3b2UKf9PGPfekP3gWnqafdp_BRJyQ-RVv3iKjDgqdnpi4ZhJKJ0lPqmFEtkg3gKMWxP8a_C7BP9SvtiUGcW8_uIQeks9LSHuOvXcgs3FOPn817gkgr4aNX-Zj5idEA4V-kZFfy5OeBvKf-s4JeCN_TtqHJw0pgdMdlB_6UoYQKBolGkz4PBSNcXEVgQ1KuT01f5LyUKfKKv85iuvj84j9JP2coLfJN57TymZsJxL2ZosIeSLD90YphlWvNOY57zVCkWx8pm8x5YxgOg8hugSEo7eJCIi9QSQIgjaH7mUlHjJh-k8ZST_c8qFgATvtsOmWL6iAiyp_bN2eZDmXle3kyYgaPi0aSocA7-2a4oRa5iaNSGMLz1tuehp9GBMd84mud100ucVs8QPhgrB0", width: 3000, height: 2000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105009682881433085193\">BODY SPA SORA 渋谷店</a>"] },
+            { photoReference: "AWCwydgMNrkAr4yOcmrCyi5KSflFWXgzICJ3ns-tHG3hVZNMl2D1gAMfzRIxLexJ2yJMRWKbJeafqXpjZW5LZiAqfTczB5Yg7fi59Qz1RvHCbGzjBoS-XX1BFmv4V6x7fQ8Vr5dMJEippRvdckM_SEBT_LWon6iqcqZy3WcjMky9hxvme-ZZm5KjCYinIXnfnKmezmCaBuX02fg3R1vBdbPxdFXlK3Kcd_m0PIhBfo54AkqnI0zRLrX7uVgUeZIuPvkrqd5UqbNy_3OydL9kGtr_53GN_ji0O6RTFeNNqWEqStnP-YXE3S_Lc6oQxX2QVR9f_AW1TETWYEhwcZv0WmMRck8_IgjqnAUi-6RuZwhRjMotZ6qS3-aWGCkqK3lgEu6z6BOh-WxQhAsNn5SCI59EclNaxKNDkol0WeasPAmpQvhj4bv5", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117262763665165606963\">Michael Luan</a>"] },
+            { photoReference: "AWCwydhcX_k3XmUJQ5RvJNPpX-UbGFd9Ijw6emqZgI69zWomS7ykXqe-NJkmBQSkbDgDX4klyK_jVtMEKYeMTTcJ74U711CfD48Na81iR7blyoXvZdMJQ_hwwFW4T-K4wGuQHA8wvUO5cH_pow4a2eOu6AFNxaGvBac0TiMTtABQU1Pi8X2NUs4Rv1gUwetWdO7Tz3yCDJyBx-5kNPILmboJciAdwWBZ9dpZCha0hqutxL8HwmPEzxBlJME3uiXpUXUIJOr-FiYKbbJnNNnByNg30QW65AYBrPcRWfPYE1wDOA-6zz5De53elixKSKn53pT6eweupSVD9CLIudFMh-0zbKfCLx0pwriuAwwIuSaJWS18lamHnn7FpjgcMImzZ-Em7rm-Vl339lMnJh-5PPUWyIAGGwxG-rFG7qTdEPCfKdd0rgqSWtwosy7oCwvHQatg", width: 1242, height: 2208, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107766965476108765354\">A Y</a>"] },
+            { photoReference: "AWCwydjrnXJ1hoOtOC2GFQyOBOy5UASGZzFCuF6nT7yxKdCuGKxDNW9S03nGu1xeYWRfIBhMDem973pI9VpIZoQespQS0ElMJoIP5n381X9TlnWTNFCC6F5UnPCAln5ToT2PJyVQ932fFSOZcsgMgyQzIBFKgMf7GbB6DZozo57JcDKqVoKJGNAkY4eC0ZCf88rbtvbieNzTyejA5Alq4_BLp4uFvN7HNjSEBJKOwkKbfx6NdhiHDVab2Sdj4g_yIJBfdW-NXjrGRyBB2xBZh3c7xAVn-M2pfLF6nXgpn95Xf-OPzM0CWdwRTmDwsgxHsU_FgQpSJjuw96Ph3nN0ryXvD5cHwVwvEmp7oDe-aRipISAEaE_Qru8AtAgTNXWkMxEdEf-6reDyhX2QJBVZ6a39KzHZl_ZAfbir3A0sxgVsoWoCfbvP_4zcEa9ayhPMcUQI", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105952812738522302518\">Valentina Oliveros</a>"] },
+            { photoReference: "AWCwydhLW0aLs-yGNhsIYH4gxZSDchGkmkRXkk_JTgcAvTBfA_6kPn4tTvxNb_5VwTBUqC_2VYlzSiBHQaPidmHQ0rvXBIstZ-LzHCHZ1sHTmL1j8pfhBvh8LKqPkcjwxQq_VfIgvSLSGd0K8t4XH0HDZLEsqwI9S9rxpNm9gihc7G6zVgxmNqOhFX1oRIkMDgwO7B7QTgASo5IrWefh_yShtwFuQMBekEWZXM9w8PHoQrOZ-yO5_gz73pispKS98CzVgYDJlhojKDOIS3vqpWzajX130thDAvai5zYBm50IyJqYpdpXWRTNu87cGGTDh-D3tpiTUSNbuVgdScDBdqmRYCD695CtTCkC4pbRVG3PAoWNL5US-IdS1uoxR8VvRLZdMxpdldXdHvZOkib1qpfq2ssw51K20nygQxJbcBObJwgLjw", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100038716585566577421\">John Whales</a>"] }
+        ],
+        summary: "고객 만족도가 매우 높은 전문 마사지 샵입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["숙련된 전문가의 서비스", "신체 피로 회복에 탁월"],
+        tips: ["Miri 또는 Morita를 추천합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 11:00; 화요일: 오전 10:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒150-0002 Tokyo, Shibuya, 3-chōme−18−５ 佐藤エステートビル新館 5F", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://sora-massage.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=18081573670362426745", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Sora+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "아로나 스파 하나레": {
+        photos: [],
+        placeId: "ChIJz-fCGtiMGGAR1B_5RK2VT8M",
+        placePhotos: [
+            { photoReference: "AWCwydgkZwHaAvDKRzuyIWXXO9WTEGGf9stkvzyj8eOKiAOW2CA6QsCZLq6ERgQx9Ukc6wNOGXG7dzTDxoKzGpQqGQ4BTPxQEaXwCG3T23fuF30tfhFhXDV5HwOcnJnOfRB7bIxkg6QxjmxFRJXgkF6taNWTX1fZGFFZVuduM8qWJOpNsuS8ilXlTgNAwEqGfF90MprJ3PJ3N-KS9B3gWbzXPK5ii8Q2kd7FYPpvGsfmJ6j-pTt9yuvc7ISMpOL5b7B-2p7o8Cz3LI0LJO89y1k4Xi3GjajGKTdepJG9KQ3J3qMSaqSjiiQDgf030EGC4PoC3JyuEswKPybAYHjuhw1a14E8tJQ4Jmpyh1TGgGxPVcjSD4e1pKs5LjFTTyEzp0BrPCaaCGlzCKIqA06AICNit5f7H_g6BFhyBC_lXFX495hucywPn13kaktpL017aBGG", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117715122953053685972\">Carol Louie</a>"] },
+            { photoReference: "AWCwydi-8yCMatWEGWtcorMYIuZNwnco3h5KMCjFdwMG-7Iy-qb8K_aSHFJeupPXY8Pn27wGfe5mGmaX-s_-7_XQXFbbidUsssqJFFtSme1qWVF4ropzBjpXJmhKFPV598gZBbzqMnDoK-6PUIwHK_v8S8KVx9U9Fp4E7P8H0vtNlLdvyuvBE-u8HGWMmsAnbozu_I6YJ1LJQm31Tdoi76fm4kIijSiEY4GGoYdmN3fCM2tUrYNbGOP1_pGYGRWXxL0r3buV4LTm-Xp_0Lf-m_rboGgKE64QNxAqJneorskxR-LHlFXl_GSyaEzKpp1rvNENSIHa5uyrurEwGrNIT3QvAoIQLnMkneeXZqmxiV4cIBcMNywoY-o0EjIEgUVlvpmKzmQUEuaZZQeOus_MnYkpJMWXeKIerA-H1GGBaXnSPUfmLQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116855103382240885339\">Dav</a>"] },
+            { photoReference: "AWCwydhc1q4UngXCRUE1rP9aQmeSrebuIWpP6o8DVSkIGAqX80f5PYh8TfDbioVGhLzASpjTx9hSY982PfAP2nQSw-O0-0BfU5j9vTP303H9ppE0lckx_nNdLMnvxISuKKkfzKS__zWz9RLvOjzwkvRaGMjZxBY9yX-fe_A96bncN9xWjQLdQS2ph7y18hUtPvSnwXAo6rhNhWI0shYQmKZy7mlfkuFMcgqQWfcgD_FoGs3VLm2FdbD5kdhtCqqfnDsCCEvBBU14aQqbk0PuXGhh-V-FleYSnAkJ8NHXsHrK22iWEWMZlAlE5oum5fJOJ5ddVRM1-tTUiu5lGddz_nVqRu4790DB9Y60WbRV9ckvs87Zhou7fmeyKttj7p5jSuHfVTfdKqrSoCof0jJO5fkAv2ug5SPiMgwz1s6BJ0he5De7RdSwFKqwReUBpjUAfQ", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107861235858800549322\">이승우/학생</a>"] },
+            { photoReference: "AWCwydi--A73hXMTKGlGDJqEghSRxOwKjm6Ahjy1JdGUpOUfpOmFf1QZi_w65751tflk9ItMjb3a3MVIQ0WdoE1HHkr2xtm-oRVvW90fq02mKQ1AKDhBw56yllSCZVk6Iygq83uUEZ-USILn3mSVvBcmnlp1rIOswa37QoFhQ59MsKJsjrZ7r8qrZouFM-PLRzM2bjkgmmrXr7xrNpz5xLITDl6VeRliJLIaMpuCbBgJPTSzMTE-Y3utCRuhkKESI5kFR_jEMLsl9hQ06x21Ec2MP0rtLzzc30Yb7jqRDzKHDP4A7qfAQfXWUo5Q1-kNg-rGEKWSpHbMOFyxJhF3Cm7XjozclSGzKf10VzNsOJIVp4VctQIAtLdOdHm5xqFBKhiW0XDy0jAYWARGAMkRruLEEfQydbISYb-4sRmB23yUwhKAGC8h", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115369159614220172864\">Elaine P</a>"] },
+            { photoReference: "AWCwydi8aVdqbw1CjaAuTweWVFXqQcI9deCjoUoZxyxNtZoSxw4SS78TYcYvFFVI4OLVcDBWInKCkG7BzGD8N4xACDyFtjSAg-b3T0nkY7iIn4pcWig9Ql86Vc2liw6YTg2vjT6h5X7sJp2ai4igBu7GpXQTuA7N1dymnFCoG5eJgg2_ZbxBmPsWJlGHApggNjlf831BWQePAtq9DW7z73kFeFBbJDA2WUautgB1qAVWlF8xiF4Nxb2WBHd4_-D8DlJrLOPn1Hlus8vaMkaokCfPS-zoq4twdFaH7lE__h6g0NC-Z81mDHBPkyGWFuY4wklXQScZfQQbVVHYHIMN7oPilVr0SAwsOO0kW5P2bY4B-w7pyM2MFewpgtwTPPJdooT5BdFTyRwJu9TsNxNIfSS1memAR7Bn2ywk_NiGH9hOtdymedl3E5oYUl8RL_k_rd-s", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102422135295027935934\">Sharon Chuang</a>"] }
+        ],
+        summary: "높은 평점을 자랑하는 전문 마사지 샵입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 테라피스트의 기술", "디톡스 마사지 서비스"],
+        tips: ["유코 선생님의 마사지를 추천합니다"],
+        hours: "월요일: 오후 2:00 ~ 오전 4:00; 화요일: 오후 2:00 ~ 오전 4:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒160-0021 Tokyo, Shinjuku City, Kabukichō, 2-chōme−38−３ K ビル 4階 stella", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.arona-spa-hanare.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=14073631931975147476", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=ARONA+SPA+HANARE%28%E3%82%A2%E3%83%AD%E3%83%8A%E3%82%B9%E3%83%91%E3%83%8F%E3%83%8A%E3%83%AC%29+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "토시마엔 니와노유(목욕탕)": {
+        photos: [],
+        placeId: "ChIJKWj2d6ntGGARv7OJvjYsCNo",
+        placePhotos: [
+            { photoReference: "AWCwydjMMMyoZXCr5PW6s82UWfeO7dw5qs8-YIeYl9Wrf1b0XKV70PlazkruJ_KN-v7i7v04yP2qNoKY-qBR8cVEcsFW2mQtnNHd40ilV_YboptSk1HxS7sdmhei0odpRqopEnBKJBjS4ko6MgdlMSx8NXTPCGQiGfYLKai8saAd0FEglPe_UKhffOX44PF4Z_kjOphpA1MDhQ0Je8ZbedKpZvzewYpjoTNv12WZpnfzAZ8_1rdaWte2eUBNaRop9_vfLAQfxWeNA5ccHlY3H87EvbDBqm0HeQcoZzn3XraDprx9_YULlT3SEKHAOH2vDpp572nO8KO1RuunsijcSscDY9JrpYa3FZtKQ_Ye0AmsgeEWwz01zZ8dkt2RiseyTAz4IS7hrzNu8ynm07q4LED7r0i2dyhL-lgGkB7zRFoy95PpUiIyalDFqvxJ7RuFJjCG", width: 1927, height: 1084, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113497460471406630404\">豊島園 庭の湯</a>"] },
+            { photoReference: "AWCwydjXhard5KI4bD6zJTew-U6JvbX9TyV41TiD28XIgNsmJNjuPFPQsB-z_cvqStfSJNNT0rcOjftyqmfIICVMYvTa2DP8tJOEPH_HrHWIy7Naf2N0l8nyI51y322iJdUqQ5QffnQOz9QUj2qwkfYUurjY1cBlnWbfpJg7DgWGIVMBG5lGuWKhi3Ig8I7du-pdJ1bNiaUpXxvKuw8gcX4GqSQO2m_TDcGtMO2vjZ98jIj2Nt8UneeOfjhu5avq1zEA7774WsBXUg6qTqORRU3WsGgcuMM65Eo0UXPsNMK7fjeyHslNGOZULOjbYGGao7LjkjKMqdLMCcOxlQ92j0T0MoVlPzCAJNvr_JpNbz9WPpefKWvyg1loXj-e4I8IgNZQ6mFe6bfYWuGbIqlydkziqKSddLJWlYm8FUgCcwYiDh3LFdiZtiZwMh6oRgJVHbcm", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107353763243745175822\">PeiMing WU</a>"] },
+            { photoReference: "AWCwydg-gtrxx6Vhml9iQm7OjwvND-ab_85pfAci-dGVi555HqIVcfQ_JnFGTf-2J7bvb2VWj_QdqNsW5JGAgaz7fnfkjs8vahPAR8hXU1jDf2ZOizAFgV6yNkSHx13UA7On4wy10U3JlVq332AXoqkL8vN7UBk7eQLBWYfG5M53U8diygd3K_MVRci7ZMFJIaQJL1WaGALoussE7u8FBWBmK0IFF6RvbmytRf_nnbFs11UjuqSfGwXxE0lNEIXi4z249DKTXHkefe1GLw0-l0UrqmU0Gv4iq8Mz7Fbijurln0nA_IcyR8KwpRTWv_yDL3brSkKfmjXGAFxYcCaxqVPtlmI_z-OQeINW45kHS_zImkQ3AJXhljpYjYIoYzxWvg3F8pZbYzIYU_KQi-vO0RakeOip3n7cwF5qFMXkLGG4pQ8zAgf7", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102360167654614204419\">YS</a>"] },
+            { photoReference: "AWCwydgJWip1S1RtZ-H1462J2vPcgOMPmIfw9LFod4MN_CsxgNibQ5GXs-PkWxPBzEEsuuZIHENKW0hiZ64DHR0imh-UvkbvvLBT8j1AcvMyuH1rTnPSHEiLU2Opeh9XD0-R04bww6BsbtjuWpSpLR0IPktE7_tk9R-8gRcMwiU8f67lk6SER-lq8k8ktiyDVa33ee6Kp4NtytFWVnNGQey-zUMuHbNWB1J4O5yw2be55Q2-GndjM16up8oOAWJZJDtx5VY-PQMEpdXQ3N3BRpgQvxYbFBMmbkskMYcJjYTLs-ybmgNsEDG5Vyz4zCdBi_g8QUJ6WP0K-4mdRK6xiY6LiL4RBCT85d11-zxFOB2zjc7HvbSekq8ULs-wEUy7JRmbg1F3AzPAUnAQLmldkCuhPDmDdwWQI8mzTu3KqCymVgXZnxiA", width: 2752, height: 1929, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113497460471406630404\">豊島園 庭の湯</a>"] },
+            { photoReference: "AWCwydjxOrdnFw7DcZ6kH2w2AqYJZhNcyWRIxAfsEnfOXCRETiwkBUck25gPMrOUTY3q0PRFubnmLjQi2Wj38rRj-Wn3dyB4wNYE9kt2l0qIeuxEfgzrsAokjLu4LovaeOEN33RAhOMHLNc2rp07aaqRi01RgbLFAmHX93bQwttxD82vcTjXWi1RBAupFotfQ1M60qhI9VSvAlHjBDShCSc8GdSVqf3ourwwdqkveV0PAO9xPoJRPPXhhZUJHe0E5Pr0_uWI4sHmsKqRXgR6CZE2JPeSnG1wi1ZB4fr546SNtURTtcOpsMyyhd6rGkCg_fxDgiyQk25QoT_6CXFSd9rQ1oWEXAVxleIu2eWARC8UAVdUuOWidUnzOYdmot4uhq1MRoMMbWGBaHMZucR90EHz9XURBP8_7bulxS90pnHh2PjUemfe", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100508000401017189553\">ぐっどなおぴー</a>"] }
+        ],
+        summary: "신선한 식재료를 제공하는 온천 스파입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["신선한 참치와 연어 덮밥", "사우나와 온천 시설"],
+        tips: ["온천 이용 후 식사를 즐겨보세요."],
+        hours: "월요일: 오전 10:00 ~ 오후 11:00; 화요일: 오전 10:00 ~ 오후 11:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "3-chōme-25-1 Kōyama, Nerima City, Tokyo 176-8531 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.seibu-leisure.co.jp/niwanoyu/index.html?utm_source=google&utm_medium=map&utm_campaign=Google_map_organic", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15710855913718526911", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%86%A0%EC%8B%9C%EB%A7%88%EC%97%94+%EB%8B%88%EC%99%80%EB%85%B8%EC%9C%A0%28%EB%AA%A9%EC%9A%95%ED%83%95%29+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "더 헤드 스파 도쿄 시부야": {
+        photos: [],
+        placeId: "ChIJYe4ANUyLGGARf4HZJEFLFuQ",
+        placePhotos: [
+            { photoReference: "AWCwydhfyhnO0CxDAclyXvctTHrOAEQiH0RWFfxsycEdV4xuU0UeG9qrljuponnd_hkaOpDmPLoYAYrZ20GA95OeXlZM6hkPIiW5aEykry4f37WTVmQeu4gRmgyt14YOU2AmNfhoj2VD5gN6GwLhUUQ7sh6cRBAdfQEy9siF2Gj1z93gtub9tiWCt7kJVsHwNMwHWR8coJiqCVF6HpyY0JmxHp5PpVkvsMxm1JD2FYxYEZbJSl3PxZTTM40HfdMVZIbJLduaFUWODstSFD9_tVJpQIeL5LLNGCqYFRbAPsGZHx4lon7Gs4tFaXMD_ja21JoLqWmhmzmZhXspn3yqS35YVi0SSSjKF7WBsHu4OKFZW2lBSCqltYvajH-FmSRH3JeD3z9Q4iQZ_LDbjjujp98FmYU1tmet6ehqTc-_tdwrD-fkIw_jUS3kg7e7w7Z2oSJU", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102502465166640407587\">Jody Dinh</a>"] },
+            { photoReference: "AWCwydideIW9-mwH4k-3AlfVH8a0hf6ZNG8pRRaTveKlm0izHucQyfIj4z0Xa1N-xz9IG_BurDrXnympOfKPI_jQ-tpgGDE2MHI7fD1C8ec_wi9uxGbaNNZhWjsQu1aD4LG9fR65xxf_d__FVhKDtJR5R_9eWnKkTRKpKP15Y0ts4lFLS81ynm2HTP71cwX8PEq7_ekXL2-3qFPEOMbcTKesC4rmwyPdCz2SwZopDkLB0aCp_zzhAGZIP3JVsQfCPSLAous5ny-Ar7DFNSpHYMgdZRK0_R3jOBv7NJNrzJyKyYxY7htKe9gcw1q5Cywvjaoci_ZbAJ85vHdDYDFsgrYT1SOMit-OF9nRNG_uvq2FeHoY8PdquUoG-gBcJ_DFw7I6MqpgrAskX54Cyw5yMGhrXDvEGqyj1jqoERu4ljAEg35fxtVHubgtWd_TmUkrU23k", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105478913556796100913\">Roxane</a>"] },
+            { photoReference: "AWCwydjU9wZ0yffKsGUpo4mv2hif5fbDeIuhVHEHV1Dbs7lafc5JlP4dHFpB11GnnC3Mm3d_R_m2241F2qZyiClbr05Zqgo5R5Yl9kBXTTtGW8iULY9KTF4HHE8n-qrE9snFtJmmxRSgdaQ6ssgNnurXlQNjVAI40vXuYk3Z1O-Y1nCt-h70aHAqRKRmSxSYKW1PuqoNp1-FXRsnKcq7WyfL93XnDAJe3_YmoL7OOfJ36fIql_JnRE_HbzFPxwRfVarxLHIdjSUWp0HxAhOEqMfzlZEv3BkKcoXpSmjn2HJSGKqERRNaxCZu6euqtEtynDZ6gy5eDf4k0R_0J4_LG5TfT_cpO-RUIOR3lA8UnP9kTH5IU7eJ2TYHm2TqK03ZoTmoEu43JU5zQQ4YsQAlEgGhKnZ6V-eGVSXUQpR1_zmtEMiSXQ", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101208594056316280332\">Marcos C.</a>"] },
+            { photoReference: "AWCwydjZAoEf9RTrKEMUl8J_ltiOOLDHlR_lFd7CuHcyH2A1655AuE-q9miuhfkAg5Cn0NuieJTwaEQYhyu1oXv0xaU7o23G3KfTJgzTjyuvwDPEjqzgevUUsk36RplUd4kT6m14frUCRPaIJYKtl7hLDXxoj1A8WLmbmVXYXxlnrdPmAwl_SRGVuRKSu2-hutlR_uzak15CnkaCwaOpF1bMVs0dU7KKVYcxkYTV7CQ0OQou99YT4QyOwKcXi92qG00AJuEpYblpxF6Fx17VGB1Vign20PtFp2CTwt9_ttCMt6T16uHoEEHezdQ8GOQ7Y4xmVbb0q_01abgkY1JXvPfywXm848T6B8l3J2-qrMLvrhuj7cRZzzV_LlHODt5hLGi7XHgDoh5dMXczBO98rL66aOko4kG94s57rt5rcv0DRInScYxEyzblCATEFcL0nyr4", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104352546423037943352\">Ciao! Guides</a>"] },
+            { photoReference: "AWCwydjcneRFxNds6eCpReiKfyuFIl51UZZZeUVpDOBBC3qyretAluRyz6wu0u-VFjyA0HrqThXXEeHI3dvixmWq-sS08luHK4Z-dCsMrd9_cxgkj7udTEYZvjcItdW9NqW4l0lagtW_QlgGJRrtKqUnQxmrBHOAEzHQTBX5OjQjG665JskBXLjaU6Kq73ZlrZXGNT5AUG-4psCkehrxmbhDAvklxMdsoZZ2FRml06oBDWFanpvGMGor4hF56WhLIDKloLXCkraUWnVoxg6Uo7JO4ildoB0o2-pXl4XU6XnFx_Uf-mo7_dwcuQT3eoCLQWebzyQaOopNdtTfkDqZeNTvFurmYLEakYouOkwFPaPuka6GX7Xbk4eYjQMGpJVdy9c9T5SbTe6Gq76BkKtZijPQYDxvj7VfpKuUOiwcjVpNr95c6bvlq7ejjb999JG29I-7", width: 1206, height: 1327, attributions: ["<a href=\"https://maps.google.com/maps/contrib/118307649272685598041\">Add-xino</a>"] }
+        ],
+        summary: "두피 분석과 트리트먼트를 제공하는 고급 스파입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["전문적인 두피 분석", "환상적인 두피 마사지"],
+        tips: ["시부야 방문 시 꼭 들러보세요"],
+        hours: "월요일: 오전 11:00 ~ 오후 9:00; 화요일: 오전 11:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒150-0002 Tokyo, Shibuya, 3-chōme−18−７ 道玄坂鳴瀬ビル 3階", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.headspatokyo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16435406633298395519", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=The+Head+Spa+Tokyo+Shibuya+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "산리오 퓨로랜드": {
+        photos: [],
+        placeId: "ChIJgdAaIkvjGGARVWgIVEarqvA",
+        placePhotos: [
+            { photoReference: "AWCwydjC29cni6jc6hI9Y7eQ-1piaWgLY1ai2slYqe_HtTJYfphmceiKpqMgXQwTAdXcVIJfjcgwqPnX3lMG0ImZa9csdvu0u7qfL4EPPnCCOHXPCqGoNQ5UQK-sf7C2DNSzJGwNJ0fMukBJkTbSexa6bY-EtJGGdEAFZ7vKs8njySER5oojmUptkTe6x5Q7Ps5Xnh9HSHWforLki8qRJoGsOnohocu1Az0or8LazxvdhmLDuPZx_bzK2bd8urEzSpssJQarPjvaKRgiksq43y_6-3QBD7HTdL8ecLqJED_4E6hcWJR2dqw2XVgtHQzgc7plLNbOKPdOyrhsKN21y8Jn_TAqONgUApEKmQwzQyRDW11BneibZFSh4s6bGCTW6dNFjYU9G0007pELyDU4MyXzZ7VA7UbzAOhJ5bvZBOFzF6bK9A", width: 1439, height: 1074, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102079691874547826934\">‫مروان (سيف)‬‎</a>"] },
+            { photoReference: "AWCwydiB0lFg-YhZ_zs0BEtqeeSPYRXJpUhFBXfL9qROm-mp-1q34XibGqOVYf4UseO_PVjrA-3bCDTdWIfaXwLb51deWhyxQK2DqhqjIoBmjTSpxigAK9z7rw7sVyVJGGLvFkEkgxDAWlIT9aaVfwF-9q6dfvtTE0IBcKskChqnMGTyPATuUbTDe-GrWbrtDjQRZ-9e0E8h4nz1RJoyjo-dpY5nTZ5UE7aReOvQcwcrXpz6L78vy_9WL4g82InuKqnlbkSwmG6a3qPBJV5XcC6Xy8bjXazux8u3H-Q68VWWFn80_eUfB8rNEosUAd8ldpsjb_cTSFw2ELFfwebOxst5pyn8K6ZFlS-Y04TeJrTVl_oz4ZxDNfcJocPiUMvSOfKDZ9sF_YJsfRtvH6AlYekiaXkrhMJ7ePA-gE89ylZwcYDIJfUrkZk7VNKz04gN0OPY", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103822431216588248572\">旅Pomtaちゃんねる</a>"] },
+            { photoReference: "AWCwydgl_mOzXLQjRb2Qm_4Kl_N5u2sGNXj7AlJHt3M2aHqylm2RJyjq4DoYiiT-RthamaurgL0V2z7p-y-eSM-b9AztTXv8F-bcEWwjY_jzz2SCRfpxvgcVXFgc7f6gi_HELXbYvAo2zPnOmJTSEp7x1VheeafwU8rVcHq3X2VPzi6tkSVLibqRqbmN0NQ16MWmrvyhOcSfepnfiOPlVACU7RRgtFHc1AKIqOmbI3T_hBf7-8CHVfEttJNsd2Q7at4INw69AUMAZuSCwxgRQAzmmQvWBkAwxcaRtmgwOfOY3C8OQ6Fzb2H2j6h8cGKJw_XVyNlAxWcBDqAVsKFoS-H3RSPlJRsCOrW-2QMiZlXuteA9_CkNCwXgzSX8PU8dHh6Ggts0gg8G3FAHGYAyCK6HG3TPoohhv9pnHRDLGHVeyvYYi6w", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108923859290431211360\">笑笑</a>"] },
+            { photoReference: "AWCwydi8bjUQg8wpbXJUydfsQ_M9IiCjYj-BE_HCrFnVpt3XtncRRI2HIUb7qtTQvgjbCLueKWAGGu0CmUYRrw4XbcDGq-cWyUyO32NwpHj_SgQu60Nt6WegU2e1AWxoEOvpT-9YHthgVsahB3f8ebaofSK1RNVvvCD-r2wfWtMnx3e2tVE3n7Y0ndIhvym_CuMpaCpSk2fC1SHLNFNyqvdLe6xxfee0qcA-t0ovNibxSwDychZKrZQuehxG4c915niZmNbIOMiRCckz3sur9en6e1MhiKaI3bpCjfHxJsc5HVrRE6IMb_-hF113Um5vkRY_RXdiD8s_jnguyczOFmbK_UkQ_QIv0uPygYNSH23UP5JgobPnlRP9a7oqt7uBUzRm7SojP3vklhPuWenUv9zdhKmFVX2IMcgmCsfyu30", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104203751518294351939\">Mo CHIBA</a>"] },
+            { photoReference: "AWCwydhyVXCfW5p5bJLCyzIBRG5cRDPPPW7aCQOtOiNE4UkV1-ZelkGC2p6hVn3xR2m9Y1Lmcvd4V3Y8JN1xXP848G57lWf7FHFg2kxlTEJHTcmVDbO78IjH9XYUMQFMHy1Hp6oJ8vnHq1DEhfNjAh2_4KJToYu-t8Am_lg71o9WK0EGFfAggmdy6PjCv0JNpUlawwtGLoBx6GLeAHM7X8rFPSDfBXDHrngGs8tUW4UGaGevkRwwGw6L768z9Cef2MDt8KCfh7-iruWUEfod5iI49stpBa3fLCsZKqfz6KXP_TSmLUFhzN6tXi0owlsqKG29fyuciJxPqqme-m67evXs6RW2MHxaypf5o5_I5YHxmkSe42Ee08kzDOW6tycZBYM2lPcyzUSMkjKo2QZLr_5JQywav37vONHSNgNDZt4911pilg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100457932729899496027\">Jacy Hernandez</a>"] }
+        ],
+        summary: "날씨 상관없이 즐길 수 있는 캐릭터 테마파크",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 산리오 캐릭터", "화려한 곡예 쇼"],
+        tips: ["오픈 시간에 맞춰 방문하여 혼잡을 피하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 5:00; 화요일: 오전 10:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1-chōme-31 Ochiai, Tama, Tokyo 206-8588 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.puroland.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=17341861633689413717", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%82%B0%EB%A6%AC%EC%98%A4+%ED%93%A8%EB%A1%9C%EB%9E%9C%EB%93%9C+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "키자니아 도쿄": {
+        photos: [],
+        placeId: "ChIJReWVrZiJGGARpByTvPg66LU",
+        placePhotos: [
+            { photoReference: "AWCwydhHK6f3SUp_S15g951o6SU4NdG-e-IM98FJP1gPCE0EGYWwg0JuKtJENAJ_wwz1ztn3slDQuhomCqQvLL0XxnwQu3FSP_N1VvsGaGR-ZAUYGyn2JvsMK_FUFh1VGP-biD9-Po_A8_IVptq_vPs5zIVuc2K4p_klv4dVzd04AMOia7OmDDFlJZDKTlABzwmgGqgn4AM6O-OQGKuI9xGbB5RerykE8SSRKoxrVBJquryRNfD2cloi8nST2JXy83-nbAwovKUG3ge1ufXy8drFd9MOpxxe20skskS84xTYblLIdhPzDUlRx74yODyKrgL1JZb74-8QN8x_bhiV4_0yLjCwTjyBxb4LRaAjmXKUSgSrKSE-s0G2uH-xOgd7CDGYxPyFs6V2g-byOmdY5tCg1VWbsUsB8ri6ksXZLlZ6o74", width: 1920, height: 1439, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107133450270639670737\">Dr. Mark Yamashita (まぁく)</a>"] },
+            { photoReference: "AWCwydhZ5PULO-C_IXUUbNH7GIClKYcwcMP-W9UJulYZkTe6oNS2WFrMJqa9MwdXXBNT6672KoqCYAcQJIfHCh3iGrS173S4eqAuKNPNo3keoU2z6E8JT5CKLu7l5PXPDyBcm4oPwdqR9mvR6_SFOhfcTZReEfrmOUwy1iJM3GjQVxY_1wwUYDeNXk-LMOYRN58x8xOLj0MUoTHlc_HfrV-7zUuUfa1qMvYotonWRnG4saOP8HSV8R5s-yyJM-ahuN-IdKBdJczfLHO9-AV6tPLhirNq7JJWNWpZD5am63a7iuQsGf_d9AHeqfMuBvdJCe1C_St4fZIWC924KT4FJngeGqNB7TX5pL5FI-W-NF4OEuCBi0WJa5llL4WiH7nvP964sfjOEoGIIG1jsfbd8PXMCLbJq6q8Bf3XPXyw8U4aXeJArII", width: 1440, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115500598394830194986\">廣瀬雅一（Masa Hirose）</a>"] },
+            { photoReference: "AWCwydh5u1gD7tXM80-yMYcSaJjmna364WV8zJb5Iu_Oa9ZQ4ZXd_gytU1IJ0Z9gaxKAjUzOqWVTfk6oUs9Px87-GXeENYIGLtuVC1cwYYeO3r29MWyQgT_zdDL_29k1URm5dQNSHbzlNkwwjpllLJetPnKvjSSzXicqmstwrYxL-SXLJ3m0xZbUTIpwsgwZ2GaBxowe-o-iWvaV_Yjn8p6T8paJOsKvjFqTKlkvZLN-2_saXg43kg3nEZ1-0LoqM0_ev5wa_GxKEDij66YWphpDMVdQNYFsKiKVSHPmPoQtyFPpYF80Upc6o8Nn3eChiIh6eZ5fbkob34cYWG0mVKG6BMWXLeFuKNb14jsPTUohxXhLLYJ7RG7TGTOqvxtC-LFWJuCEfKHEILZWhUinySWDrkh_7dxGT8nOgQKwdv6vLDRrjvMd", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116273792605731670013\">A O</a>"] },
+            { photoReference: "AWCwydh9kQvCl8YsLkCu_FQAe23Z8IhpdqAAOEmBdAFXuXuXbvzHf6yKPpll75vLGWnwJgdTNzqmCqWLzRDra1oiv_X9QlsT6hIGe4hpelmI6SMpsuAkHl9_NORlGJiqb5WxUh3SfxrQFVv8YrcgFz6w9apYyW_fDxzLqVf_34qsDXjCSqTydsOH9fVBlN5fKeCouBeE6JbiJruBHHbWNszbfQ1V8w3_BeQu6TAfFDJRJm0DGNJhcWPJTuLfbowWknWl56bkzDXCzhij-kzqCwEnWJMxK12dJvL7raukDIABpeHdlmOw3dLj2es0PcYkHPCssSQeEf9xdzGK3dUVYQdjtWZkKZcCdfEj3VnnMs22r-qamrr7-0JBNiQtmA2bOhvI_UOQ95KclNHKdicpouTEcqTWjUlayLO8BYAhZPkhVK3abksk8Yaje6xlFbpotQ", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116853518111979240196\">Thang Vu</a>"] },
+            { photoReference: "AWCwydije1VvUtEz_cWUZ9A7J4-VY-zKsJRvKjB3KFhD1x8V2PjWySJ9fa1-vJNdxBVuh1JEIRfCwgj_9n-L4zZBST_12CnyaZxuuRHMCfFy4yA126bfNXMpdWG5_NeNOGnG16Jlx30CZJxO4d5qBUdHvGGLtxghNSRebPM2s-H2g8IdnCRXsIKtthI8kAPlB9hOx04j7mSQbS5VMk1Fn-qiGFKWZiJYzUw_0y6ZETreVAAR300Zalj2di3A4_ktkNHGdWVSuZQTqZ3wLd5-JdT_Vyi3OMqu3FKowKrodv7JphivBi6DLL1WOUNIf5XgVcbS-bakbU228D34TD2TuNFOZrViCz2tTvi7W_E4q80wFWoovZc0iklHA2hiSMIS8zcKXa1a7GXmHnOzTSxN-Rk4FNmYJij_gWFN6rxp_NOTMR_nJPvL42V9J_IWOm3uRw", width: 3072, height: 4080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105663166014438363176\">Darren Poon</a>"] }
+        ],
+        summary: "멋진 풍경과 사진 찍기 좋은 장소입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 자연 경관", "사진 찍기 좋은 명소"],
+        tips: ["편안한 신발 착용", "충분한 물 준비"],
+        hours: "월요일: 오전 9:00 ~ 오후 3:00, 오후 4:00~9:00; 화요일: 오전 9:00 ~ 오후 3:00, 오후 4:00~9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒135-8614 Tokyo, Koto City, Toyosu, 2-chōme−4−９ 3F アーバンドック ららぽーと豊洲1 ノースポート", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.kidzania.jp/lp/tokyo/?utm_source=T_google&utm_medium=tokyo&utm_campaign=T_google_230620_lp", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13107791555451886756", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%ED%82%A4%EC%9E%90%EB%8B%88%EC%95%84+%EB%8F%84%EC%BF%84+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "요미우리랜드": {
+        photos: [],
+        placeId: "ChIJ9_FxdIj6GGARU_kzX6Xrguc",
+        placePhotos: [
+            { photoReference: "AWCwydiv03RFH5A6_7T9uSqNs0uXUapOwBRqQ8Vb21jIQvphWKIoC7sXFi1LCeACvF-37DrCPcj17TFyDCUlx5d1eIF7M4kX73XGtvUnXkuti2HdIrMYidFb9g6AZ_Nj7IXI-0ev0rq_W1WuUVuhwvRpk_WpOHqmuzUP7_ywpRD_e9lRAhwSL5HoJn8riZ1jUw_6fGTATObVSTpYoj9705wqz95SxjGq_rsII07y8ebXZKkvvtL5vBrqIzGF1DN5m3O45iEl1OGCbojwdbY5qxpPFpNdKkaGzSSXXTRrA_jW4911i0PcY7gxiAIV1ddXY-Z5mBjxAX_c1sYSbs2VfIWss5IwOxPRaoYdhtcZVfd6-IEy3E_bT7t_ThntmiQzt9-4KMmKBEb6LctsTAIuwC1qW3YYsFKL9muX1fXX-O2tHEjUiA", width: 4080, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106537676155749141476\">Y T</a>"] },
+            { photoReference: "AWCwydjZuL2uiNd6Kis_sv_-Qp2Kh8Udpjmpw7AYuekApHVrbuFLrc0J2i2DzabVW25wqEdE2nEkl4ZO2amfbnH71OEmdenZ-TmVe-omUxxSYMNCezXZD-uzHlbOKT55Z_1NsHSdUlykhwdoZBHej38TLn84IE2FEqBDDhzZMWctUohJw8ZTMbJbbeGL05WGW3Ad1RQGxkzuGkctM1KAJ5k9XM0UG_bpoWdqsz49xnSYub6HHKgvR4TYzGT2ICL-DAAN9sjmUZkOM4-rPoJFFeV7kC06-Ee_r_fyJvzDjaagCo5Gt-kzVdpDuEIcwx29884SxGZ8hE3taSzcKSnib2W3g3B-IP2woLxC8YqB3hHhY3HrGhQrMrXIJOu8xO7ym2RfFoXtjgZJmyKt6qBv9rVep-ZiMqsfpW_qtcFVqQ_9SBZkSg", width: 1000, height: 666, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117377762110860852590\">SPCA663 Little B</a>"] },
+            { photoReference: "AWCwydi36SaaE_ePtX4RglzRhaYqRwUq8WOFe6g4HTCj9EyQ98iXac1LAE2ndTMt5aZ0xzfzyeAt2Mk6M42MgVcdwbudH5-QOVLLWlXeTSw4dsSBkOs9dpFT_CpIFQ9QPkofHCUGXSsr61r5T9-W6s1hDKRHWXvJstSBCy42oXrXFlhPWmL9eaYxm0Ak3HJ8bjP5eN90KAac0OQVPirEbS4uUgRNr9CbFqzxGefpO6dCUjQIote1q_sd69alOZONJsfM1A6fG6EiyLUZz7hL-vQpr-hW18pZsnci7gtSfhsTFE252hkk3czmlYWt3OpFwaQXBzQ9OJv42b95N1-qZXmuJNV2qY4QAgowiU39LDzmT8Py5YI5aqTu4vi24SB6MU6wKvnf3jcDXLKgJtLCWmb4slXOBLoQPRWSb90_kyrI3z0", width: 4656, height: 3492, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112779808008165213090\">ピカケンタ</a>"] },
+            { photoReference: "AWCwydiUY-X8axkHVQ6aS2udIDQmwfGCmqjSXI5D7toVUUK9ZOjsIFNxQNBeJ-ttT5o-Cjl1pRQDvphff-FP0ipsUEX4rt5kZVk-Hoh-KdnN3PuaozxZ1qnb-UGffBppcNx-nIm_gbYTf9rAudkn4W0q5KBz9ilq8cU207ge329TrNzPjxYR1cUeUAPgwk9GPkeuAumh2QOqc-XQCaq2K9tbiSGYIEL39RmP21wl6easg62JJ3fFaUn6mNxARm7irrK8-AHqpMQbFETNnMLZ2N5SKbrlGNpabBE7WNqsgEkIrCG4ZWRf3lJZkh9wBmFIdmVmiru5MvI-2wZlUjy9NFb3Dr4D6ZivBTjCLcqt3KhOuVy2QwpfpUVluE5AxeaTqYH4H14DQrecw-nRyB6xnIEtuS-8cVtmytrwd-XyhuPYsMoISA", width: 1080, height: 1080, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116164111751536870176\">ゆきまゆ</a>"] },
+            { photoReference: "AWCwydjDeyi4zx-cdDKKqqaLNlVkqpyQoisnBXC7FPJzHQqzKQr-Ku6MMpoUhN07CpTy45kLhthSajoWFK6PVkEWn_vNuc9H3WurpgVgen0B4TYLP-ZTYiTZBEBSmR3vjn3-r7-q4Pn_DC2lRusdPLf2PhKzd52PbsOrzFNt8OrDMXk5FMfcfd4ICz9muT5HTYaaEYItlnD_kNda5Pa8BEdy_JyoAYygjSn3MAx-vLO4kvaInrMkwMyIjtvbIn-WuzgKkXd-XPQb9ExAXvt4MhPXAZ0VH9HIfor6zy_Kl2LZhbPNG35maTXHSDrmdvQaqdpDEks0ZvssUNPZo1OmnHzxQ04Zhn4BTBVq825RwD-FIJe4ilTAN7eegzArgiDXxNQYefaQC7M4elKb1fImsrbSdpO3AD84-rSkD82yY3phEvI", width: 1536, height: 1920, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110748731219984876540\">Key Sun</a>"] }
+        ],
+        summary: "다양한 놀이기구를 즐길 수 있는 인기 테마파크",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 어트랙션", "높은 사용자 만족도"],
+        tips: ["운영 시간을 미리 확인하고 방문하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 8:00; 화요일: 오전 10:00 ~ 오후 8:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "4-chōme-1-4015-1 Yanokuchi, Tama Ward, Inagi, Tokyo 206-8725 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.yomiuriland.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=16682155065233111379", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9A%94%EB%AF%B8%EC%9A%B0%EB%A6%AC%EB%9E%9C%EB%93%9C+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도쿄 조이폴리스": {
+        photos: [],
+        placeId: "ChIJuTdPXvaJGGARJhT_Ai6urFQ",
+        placePhotos: [
+            { photoReference: "AWCwydimRXAqtviu_kYh_2DsrAfYZM-4ESjne_lrkjzaAV7M0nBQG-AGGYhC67htx-IbP6yal_8vh7iLGBNvh0Bf7nLoQGhTVyKErR8UkvOyKmEr7LzGCBLRC__zMfqrKl1vS1G7vNWPPuxAbnj9Wsh15EYH6UN2mDoiZ0Km2PhBk5PksRYlyjgLGrOZfyOQuqEnBtwHqoL0IhsaJISWkX1jbs0fGIHqkNCnMonL9Bx4_ByB_BNuAV6ncfurjVbU5VSnop8JV8gyKAaJj55mUjZNmV2idm3HgoNVLW9nc6380-vFzVlZfQcROXlyWNP4xCZw0y3UNYAA4hwt3WXwgMa_MMG04EqWLg2BX4zJy6_2XE-DJQ811qZPXKQliTfGqi0fKx4iyVR_YMxPjpLGdq43CZj8wxRICtHusLU3taRc7oQuppfd", width: 670, height: 450, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107586524334266788582\">yujin poropiore</a>"] },
+            { photoReference: "AWCwydiZrGrltvcxSjixZe5jC-knmtqxW_EknnZTvpbFmmE04b-or1OSKireQlR3G3i6sWhXJuaQaYdqqy0tU1G7kfD_9BhEP766FIubSiMdsnxSOGXSPH1pRHYSrCICJ3rMgKPUo9sy_mBBiQKMyY4iuHwqRSxG7VFucFBDyG7hVsa8Qsnfux77AoK7bJdVXxx8bBRrbI0dbBp6VxzfGbx_kPqZY5g9rfMP6indrWLtCzZN2RSLgMlXzG4Zr13-7PxzBUih1za4tZ_erfIW7GiUZovzFqRP1heUtWTEK6vQWmjs93Z-_CDaXouDXH1nkbqYA-7QuHZCR72mfdTBjfvc3VBn1N8Ne_3vqW8vbl7tk6S8ycWYaUW6xyXAu8iSuYUY4onFLEDA43UCMSBCarQ7HOlfUC_zYek11UFfBylh74oGRXHT", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104502536836561892710\">やんのかステップ</a>"] },
+            { photoReference: "AWCwydhH5kl57clHsfXu4HLjFO220lD9tjncxrJO4cVmATKISmFfVL8reSccdt5iWo0TutbM79aFbUP-BKg5RVPBAMUyJ10Uh565cWWhi0PeB9ULhLPWysMk2aZJdrmVz9Zvs9iqxxBKGgdP50kyp0ILKLPNaE5kXitsUJhKdTYPHQ6KGhQNPMubeATymjS9T9fTrgtD0vuhVBP6XrOTxo7UWQ0DVN2FwQ5a7HTB739HbzcRXBQ-1DD1Oz4jWh3rKfcoMtr43YbAf6R1-yzh8P61vKEQUXWQaeC1bR3UeufU9v_Zn8Xlsx6uiB-KydRrnXxG63uTmUBdscQAiqdsx0mo408h6aHz-8kNXtOjXiqsEDouxo06F2Rnlk3qrUL77AZcDSZa0aO55jJyhvUG4_O7IRfz3L7TM0pzkLUNZiK9SHm1SK1zOKV7bHDNU5uoXlcK", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106113421318888480203\">Andromeda T</a>"] },
+            { photoReference: "AWCwydhP3IAL9WgQQ4mwWGCRQwhrrWYK-zNNKc4-mbcw2qcAYQoZQvXQu_BE4O7kOpWIiLbyKxbzKokmhSDY2ZRPVlIfFCu-puOuT8p26yGNRVbiKzMfI0GkTsL2QWUnD80_tHhYJ8Nm_h1At5Y8YmqHDkbfIxk-LUr8EkUdwWaAuRacPiOMhfQgQi1Lya6ZuPRLeaOF8fBsHiC-3hotIXi-upyfP-JU2iDPmAuO7d6hzeIu47bM3xk3a_TClEJGEKRs8rv3P_m4QhEIO-IZ1T0PdFoix4F8qzCZ6SNESceWvExzK7t_ib3LEa6VKd8cENE2ZkJ86gAiU1BsH73RuCy3Nti36KmmdF4h9xMYDxmoAJIP6EpnC8jsGKIzUZGkX1YQAnYk_Na0eEIK2174TI6mplYCOXSyGK0mleawgvn1miTn-Q", width: 4800, height: 2700, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113529194135773976695\">Ivanus Manopo</a>"] },
+            { photoReference: "AWCwydiigMh7Ge5LmLXJB6l_6HUVBaT85_zXgoUSHPa6JtzhTPvCz7LWNBHdk0SMNq4owm_4aMZWu3M48VmYBwDkpOd2qF0AVuqBKLQOKKlKAu5c8-332uuVy1MV14RDDSUBins7Dj1hxGQfda16QRbnMshltq6dAs2atngoFrUp3FmvNlWzAkOBheBKawarIO8wUly404aD9aJjUOvrB1L80xq-0F3vVSW7bIO5DT8hpVIqz5YyGMjC7hpejubNNQ08VZOgEzjoiZdv75Wg0g8-MzBgVAoU43RrLFBkQpoHUgn36U7TOruKCJ1jEtwUhPg778Yaa64Y6CwfiPJgTvYCm0pXQMqt7T5m0Hc7pQYbaiSlNpr8zk6YFpoaq0sIZ_9FjOAIMeIdh29BLPWCSAdV5e4cbKeHoKDQrV9CxKK-lTDqoY5z", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108940029653380726877\">Leo Furuyama</a>"] }
+        ],
+        summary: "체험형 시설이 풍부한 도쿄의 주요 테마파크입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["체험형 어트랙션", "격음 라이브 코스터"],
+        tips: ["인기 시설은 패스트 패스 이용을 권장합니다."],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒135-0091 Tokyo, Minato City, Daiba, 1-chōme−6−１ 덱스 도쿄 비치 3F～5F", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://tokyo-joypolis.com/index.html", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=6101443107822179366", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84+%EC%A1%B0%EC%9D%B4%ED%8F%B4%EB%A6%AC%EC%8A%A4+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "워너 브라더스 스튜디오 투어 도쿄 - 메이킹 오브 해리 포터": {
+        photos: [],
+        placeId: "ChIJZzjXkvLtGGARm2YFfi26zoU",
+        placePhotos: [
+            { photoReference: "AWCwydiPNWyOvaNdyjjGxLlQlXy2s25RtNOokKvOJ29PKmPKDFdD3mrIgM5QLncRDZAdIRjTAqtp5VeA05jYIts8GZBYge5mfnA12skhEs9NzfOqYwfLmycVuPvV9oNFqQXm3KrzH5Z-C6Wi2dymONTbCPoCWenSUDh5CIslScL6_rm0Gq-4tSJXNn449J4hXDDRkWYrvIDLGUfPtJXO4SbDhNz9rfh1R9Qf65YAh8beQn5ZGg1aECQVzoXVlKpa_o0-0gS7v83Qwt18801dfQwFRx7mLdpuIxdc_mSfGDQBDHFnAa5QjIEqCdbUpbEoZDl9J6xdAVBIdEr5K0PJy6HUlPq5BelvXo6oXT_qZNS_zXPdrHOK0Q1CyYYFhd6xW96tPvgywzEDZLklMdDo8Tkysb6z2FrkGiTFG9disXAA1pkB06UK0Ra9TRm7bsUD8Rr1", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109024083175898561250\">hatori</a>"] },
+            { photoReference: "AWCwydjHas7VbMEIyGnyTMXPmheh4DNczaxc3TyDh8TiOVsHcob2R7-U2Y3oVl92_yOQ07jI2c6nTmWuvh7Jiebn-aFF070a-VN3McHB81nTwn6bHL4IFJYjcRnnYQJ-AXZ900r6-sIT2RS_pqudoLNwhaLNznJOKaZ-ZXkhbQzGONJa-qTu_PYKCI-eKYB3mzze37ykSuTsTrPwGEsRQMRfg_RVntmen_cyrCUKfd3Zqv3bR17XPRTHRGZxLGb5HpSVdyqAktHCmR2eqoPFoT3k7X2vpWyjnc_0SsgClKULxtRvRVZZgtOm1sB3qZO2UhYa1uj48lPJTY0qFy8-NYrrW8YxAHpSI-OJ4Tgc4GQ2WP8Sgo8LMiI3rSyvUyohUAMfe9lidA920oT8cR92zAQ1AshfUs6VsOgmquuQdZy-dXcv2pGUb0Xgp2HU_r561nNP", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106012248087215167969\">Đạt Vũ</a>"] },
+            { photoReference: "AWCwydg4BL6cFPOHm41pWlUApnQfxHhDaebXZG9Vi6Yh_LuRTBpZ8xa6WiHQJ-NSMmOL8uj7htyO_4kMyUyeSZecpLSDy45FaXSTVyI0YNa61y2wpj26AApU_FbpnNfznGZTdr2nfkGhRcjbDQy2CusDkwZa4iZI-OsbSkOdPMDPffgvu7pUOvABJbyoRd73UxB6U3_UgUg9unOXWBbigQKCQF6SjVwvp0LPYxZXrv_4EkVu8AFKT4cnbd7E0cTi2rteHtXDQ9jg-aROK2tDO2x1DjzpHN6Lc2ZFt4LAEpF21dX1SUjlrBM_q8aETwTIvivqyo1u6-lH6RzkiOsfKiPvvhkmZr2Q49l1XXNcSJyS5MeN6zPA1eGzOixx3wBdQPPNWdSvQD4lxw8Sg1la9-Aw5JZdocEGOpprO2CincJUSegifi7Z5S4o8npwasPiBQ", width: 4096, height: 3072, attributions: ["<a href=\"https://maps.google.com/maps/contrib/114604976872220579818\">Jimmy Ke</a>"] },
+            { photoReference: "AWCwydgjX-77TTfkslYyDtthzV9fM9ElERnTWSrQdm2Ij4HRPG7CU4HjR_pWkkxbn9eYyt9ULFOqXMZfFEW06XimSMOc6T8mQyosMfnYDeugTx6Tr2FQYwPxuCwxjkS9_ozBVR4kffmJLixBb-rk_rD0sO1ZgQNlUY7_-RPNMd5H-ZQZaCfdqgVdsLOZhOU1e_ZjEU3fmSi4zPIw9tf4ilo_G3RIIDjXMAEHRbJitOG3ck6viv6t9tUffoLW0xocl9pLYHQ4PKsHAwfNIuK2C851PvrBh4HbmS2-0xr574vIJVoVpArgAOVNu0FNgmOGFLU2-JtSr3R7--PYL03WX8qzuGm9UzdgDLcuiSJUbH_MnG93YT9qt821tJ18d6HB9rCLDU23ouU6G2XRUvy4hq2KLrG_P7oL3EDLzLa9w4BB9iPaBsFp8pWxCKt803Y3XvsM", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103029378937945840079\">あいう</a>"] },
+            { photoReference: "AWCwydigvV8ZCR-zOPWDrH2zYwAANGfNkNs7RQpsIwzr0FRVkTYwF1-qo1FSf1rGU9LHWud_DAU6UNsYiuLglfVa6F2E4UMuFs92MjhgZWduT3if_YOzsGnvVFKdzTyzWxr3y5XpPQ7ChFb6KrU4oWbXkD-am7ssls7PgVKSZz2l9c30Mf9Np5jLmD__USQovxo5CTHNyXGvMGIsiOKH0E3ZluOHHGAz92bbiNA9RTvPqizf6n6Hs8Q6BUi3vWE4nYBT4s-5Dx-jlkluKuGQvIuxWjL9i3b1AH6-axjBBNQa7RQ21ywGcQOlH_47HKqvj0g7jx0bDouoefMOgcatxoJ0aWBvBUniQG9meH2uLjfCaFERvQHBSadBYSbdu9encAsMj3dOR3aUjxKveRyL2NFX016etEIP23sosehY5gal_aqu_uw6", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116754565787096748284\">Dew Baza</a>"] }
+        ],
+        summary: "영화 속 마법 세계를 그대로 재현한 테마파크입니다.",
+        updatedAt: "2026-08-16",
+        highlights: ["영화 속 장면을 재현한 세트 구경", "의상과 소품 감상"],
+        tips: ["음성 가이드를 대여하여 관람하세요"],
+        hours: "월요일: 오전 8:30 ~ 오후 7:00; 화요일: 오전 8:30 ~ 오후 7:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1-chōme-1-7 Kasugachō, Nerima City, Tokyo 179-0074 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.wbstudiotour.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9641848556797388443", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EC%9B%8C%EB%84%88+%EB%B8%8C%EB%9D%BC%EB%8D%94%EC%8A%A4+%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4+%ED%88%AC%EC%96%B4+%EB%8F%84%EC%BF%84+-+%EB%A9%94%EC%9D%B4%ED%82%B9+%EC%98%A4%EB%B8%8C+%ED%95%B4%EB%A6%AC+%ED%8F%AC%ED%84%B0+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도쿄 돔 시티": {
+        photos: [],
+        placeId: "ChIJCRf6uziMGGARcsRCJYCKKUQ",
+        placePhotos: [
+            { photoReference: "AWCwydjDcroz7oX-gFpHT9EdPD_SIwNXtA2lnCptxxlwPtVoUMfTTfjEsQ5Ov23NMBrghIoO_7anAlRJ4yffmypsnSAlCST3ilKu-KcGuOsrV2SN8PukcfoZ15ckvLLeZOkU6mrvd0TjggtwdVvtgRdCOyLWn7x6Ec1olQDe42VMGbaZwYSXQTPu3RAZqAOZ19CusqIWBk4dfHU8iEu74JMagMWyO7NKYF-BXoREQV-uIx_pCsWGG5oPNH9eNKLQ5yH_SHxu2x1Ek1QH2-ID1tLPHYoYbqwFQUbEAY0Sjp5RICKDI086Es6w3DJuoluTfzHYq0wKEVar6r0DFl0OkygEIxhLQex4AMkFfKcZo8Ti64V7pnDj5hBUTJ0FDzSA6OGDOKsIs_WXDwKOHSWwbQ6m_n-hR7GsceR33Dk00WNTNZ76gA", width: 1164, height: 780, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112668625634779144517\">東京ドームシティ アトラクションズ</a>"] },
+            { photoReference: "AWCwydhzPEkrm2a71aeLkEV9Dcppki1JMvSM417eym40ZFR5DGDcKwQtQXV-Cz8eP2OYRRxqfpTuRt2IDDYaNh1WmSrE4UX2HEefsHMFO84jZJODZxQXQIFfexW3GxF-fCiH6hDbHjVvdbrKT8DDTVJkYLLe88pImDmmG3LJ9X7FKKHWkV7wpy2b90haaf2tLOly_l1wGy5zkOWbkDE5nd_i0r_9SG0JzZisjhz5P2LYbgX1riJh17MFfNdSCGtjjN4-mNSJn_0SiyLxP-9zal9TzExhekmNSQax1RYUBSXiZakQxmnUFdVhsdK-JXT2uxlyxIAAH97k8UCsFz1zBvvOf5TqtmCst3M4dO8EWkuzVPwIlnF8xzXNAA4qwDsWBkRFWR-zd0jWicEY7pP_eSd9kwpwCdSY2AmKDtkocnrPguDIubkUZyh9U_-rJKNZT6bs", width: 1733, height: 1204, attributions: ["<a href=\"https://maps.google.com/maps/contrib/115539543350481341596\">早川琉晟</a>"] },
+            { photoReference: "AWCwydj5BUI0d7FORchkA_sJqyKTRJGb2dOS_uulZzcZ1u5mw2qwr-ltAkLg-0PlE_rjljGfB3p3bOkZoXOQkWWu1Nyz2vF2Sbsp9RKc9TTPsJR-HzHjIT32uxaNCMrjBNRCu6BuDD3X1MPEibuTCewgwImkrFgC_DOjqivJDnoCZ7HR2Q93r2E0eKX6gGt_v92GHKpd5Wto28Jii_dTwd-kXJzTW0TV7KFCH7SCMG7KiT0NkpYr6ykMsxK8PMcnMkNMHYhehKWNh-fpO7HAFIZhmW1l9fcYJjWCgWCRCk5HyWGT3JQhYyNH265ecGfxi9kRdOw3fpHrkvV3mXe96Qetd8bNcgj0UWi4vJ7Zdm47ODO3Z80JW0xWqRHOi9HYk4ebZBLrydcM0ogz1KQLZ6Gp-hmgLSicSxo9woGLzBA4OP1C1A", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108401800797569314860\">ぐるぐる</a>"] },
+            { photoReference: "AWCwydiVM-guFcvu5z7tqm-pNHq6t7_IPCao1ZzT0jU8T0-qlPuN2jGscsujVjXco7Mj4_4TOU_k32fM5eltsgdV-1uh2YCXS-HANjmTlQtTHPvPa9ArJmx0H0MVAg7VtUzsLDjxNF2G5_Kr84WtZrnfrxUOlc9Y4J3fBdRWL5ZV-npQngzta1E3c9ctYsVxSetCbKD5cI7lQh_yifegAEYRfeF67dfzOgXQXo7fMm8xm6Zci7lQ0KuMrl-2xec9_AO8ezrfL_vBkGLEHXsFo5rQ9k1ACfQuWuWZi0_nyHJpA0uIxDjojtyNiG5VlBJwVeXVWSrifdGe-WVW1gu87hR26eJz9TLhVdO6NvPSllkiwoUG-4FtNqJOaSzol6Em8brynISkWXgdxb2l-N1_mOV30dnE4a1WrJ_je8NFQYs8hHMWM_B_", width: 940, height: 580, attributions: ["<a href=\"https://maps.google.com/maps/contrib/106385476390420005970\">Krishna Ghimire</a>"] },
+            { photoReference: "AWCwydijcPDyxetl8WaThIiHXqA52tg3bj-Qj4iFWVLAuDeJKzzMAjxE_SThbjZBguc_mxU5dkvz2Nc7MR24DnvQszi18iYWpljs0AEpr8KKIpjFd0SI8DXlW_m2wxxNXp3ObbBTdMBwaKmpQU5aR2NGuvb73X2eFvPm7b3Sr95xB3Ya5DBYh2axEAQGJ57T90Znrlnd6GFe2_hvr6ZdFsP3pK1KJYntd8yw7jJ8iqoKdR2cajo3tKayiDaMSLcuV3K62KSh3WChSjVfgNEAD2ZRaH-bzCcVwSYYdqT1gLcT1tYMTZxtFTJuX7MB718Q-13z57RI-kTBYYiEB0SNb_Me-JTZFdl2X2JMZUKEqIGkDQ3StY8ik8-SbKkl65VPZnobDwGYCTOw2UtFrOpk7VmAwxHclR7OsISRHxeAZoTBu9a1Jw", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105452752349069912441\">Rei Phan</a>"] }
+        ],
+        summary: "스릴 넘치는 어트랙션이 가득한 놀이공원",
+        updatedAt: "2026-08-16",
+        highlights: ["다양한 놀이기구", "즐거운 분위기"],
+        tips: ["운휴 시설이나 대기시간을 미리 확인하세요."],
+        hours: "월요일: 오전 10:00 ~ 오후 9:00; 화요일: 오전 10:00 ~ 오후 9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "1-chōme-3-61 Kōraku, Bunkyo City, Tokyo 112-8575 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://at-raku.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4911609151609816178", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84+%EB%8F%94+%EC%8B%9C%ED%8B%B0+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도쿄 카약 투어 아웃도어 스포츠 클럽 ZAC": {
+        photos: [],
+        placeId: "ChIJAXb0L3iIGGARHN9WbFwZ-gI",
+        placePhotos: [
+            { photoReference: "AWCwydhwlGST7oGxGL_kKWeVMn-xyIPq9xWRrBF5WBxoa60qGeENiHBkFsHAMEZTLuz-jbpetABdanjoCVeHLF9V_BF6mfIHJgIS86ZAPwYZEE7H22eAo-7gZCk558FOc60eHfARpgBdin-8UAxVMgxAb5dNekwY0PfBjgRiAR9V5-yc39FamIAKy8bTm3XR2RWAoZwtXjCm_aiEGtrpIuJLglkeXainRQiOqMEwH3M95iuHEgjIBjRskMpnpuUMOVgStM2vWGHDmyoCv6EVFXrN8I0qOJBGxqxL9QSvNJJ7QiUUP8UBUmlIR7T0nsuFiIwiS384ug9QTAV80QhGqwJF9wzJGD2o4slRgQo8W9d-fRAeHUotM8sScOn_pAPrcxA0Qw4qGWC4_6jYu4LgOil7ej6xiuHqHitjPyihH1EI0MJtchf-LXaRRPhw20nIPhNg", width: 1536, height: 1024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445311708350393166\">Outdoor Sports Club ZAC | Tokyo kayak Tour</a>"] },
+            { photoReference: "AWCwydj0XWDi9a0g0ZqJjAnKBDoDKA30R44g9c7AID83pvyWuG2S4QkRf2Q5jux0KwPrpuG6UgsRWSooeFNFVDA9_D3LGEUyDZmCOwB7vGxKcjzJjmF7YC9cQLfZVfaWFYDauo9JzfQcHaIrvniMp-t1AgiaCtK_TUxXWgjUFjs38gwBapjvTxujCW79mYsLZmqmuW1QaJbVIQomAZc1NhqrVo2R2167oo0MRhDn1krth1qeKX_AU8imS1hG9k-_w4Hk92mOoOAoX4AOORhODfbvKVHmyfR_kQHqLiNPgf5HGV1JFMDBAbRO8BNsuf00zwO08CtNUufeYwdgSjx97I0rkgh5HS29_ol3tQmjX10vxEGjGjP-V4usgXScf-UjX1SLZanA8lHhPEIdZUS-hwTnHPwYLkLsWBVsCFIIKCTGVN3CqG_KVjsbcO5stZjhRYlP", width: 1448, height: 1086, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445311708350393166\">Outdoor Sports Club ZAC | Tokyo kayak Tour</a>"] },
+            { photoReference: "AWCwydgMFWSgJ1XZiOI_VtDbIGepkZ3JbUT9M9gtebrMo6OQG9cm3ymJp-AmCT8wy1SMqsInMNdB3PdwnU9YSLI7duhgcwqJNsJhxuovGDMAu7VbPEbCEHW3_PHIyYNbupJKMwNdSPwgYAz1cAQYN-tA7g6mcxJQOxErsSk7k-x8qSdTZ80_UEpdN3cbVv8bpcKJAn8vTNMAOdmHSZnQ66ourmaInTqCLT2zmx9TRbxiv1mIombbkYVzyFTZf-cIFOqwU5D6oJFk2KBJyW3O2dldgzSRpLRnUp9R1HZnT_zeOiXtCayApen2tczPox32oTmfOnRva-FjgBJhAWVBpfjcRWcfxCbW61Qyb4OGKYd-trnVMhILoSk9_c5XPkpR1qUN6OJIYgYaYtPhAkY6JsA0TLdPwccag7hyeibrZ4He0mq8JnKBNBlEq9W8ZUdKPg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102959095859750669249\">Eli Roth</a>"] },
+            { photoReference: "AWCwydjRA9U-Op1vep8dMpXOgGxWX9-qh5iO0X25CUXi6rGELjLijcFadlpmtklsW3tPxaK2c1ryyWsmLPzP2qNoCZB8_sDUIfRX5Nj8Rua8PRri496VUsZYjnOMnB--RDV8EwOsxWdXecrVnMHldLlNMFDbsSTDIL3TDqOPDb9YXLnM-a2c1trYsCcUwdl4gIa1e2bUKWaWCzig-W9r1DuyrI20BhmbEc4XrzfpjE0dDC5UavZInxyaL9XlkEm887o8xtr8fw_unngdc4O9xEMSmM2X8lmIKKjhabUYYYHKt5qbj_sMhtDeFIlVM6JjdcskSaSW5FqBMp-5t18-vWVk--g3A3lFXxHigEzC0XMIluOyLXJa0GigUg6VvOl0NuiAmqydf7IobS6PB7GN8WdDmG-1A846dayIfEKONbyZFwfwMfRVsQQ3wfh7_XPavKd6", width: 1024, height: 768, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445311708350393166\">Outdoor Sports Club ZAC | Tokyo kayak Tour</a>"] },
+            { photoReference: "AWCwydga9oyVr8S3yyTkrU2iN1NJXcX6GFGkuVBcc3fhqdeX_abWDLeduqyy-UaGGjW-8uLDQ462K6qrZL14xck6DEoiO5F4xL8ApUUEDJnwIR5o3KpPrQYtrhqJfzmWxE4KvTMYaxigQl4RDn__ucUzHIpMCc_tVpbwQJ5J_0D4vJ_r67Cfn_MUpby2ohXekULqeJmVnU5nwhBiSKNLrzZ3LylW5KBtxawBneAZtZ8ueLzJIhPWeuCVm97sjpFBnS0yfStvbcRph-evkk0ay1HGS89NUEaPh084PlqliosvcpGlKIBah07FLDb3_Ng0Afz6L7zn3X-xbns8GMdclBlYhrxWSt5NaKQdccp_iuNX6fskN22yYuZ95J3IGth02co5Itz4eOyVETaZOzGHlq8ToDSfJrQfBnrVOkSHbDrz_eafoY9Mrl4Swvd-TrkHEA", width: 914, height: 914, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116445311708350393166\">Outdoor Sports Club ZAC | Tokyo kayak Tour</a>"] }
+        ],
+        summary: "높은 평점과 친절한 강사진을 갖춘 수상 스포츠 체험장",
+        updatedAt: "2026-08-16",
+        highlights: ["아름다운 풍경", "전문 강사의 지도"],
+        tips: ["롱 코스에 도전해보세요"],
+        hours: "월요일: 오전 9:00 ~ 오후 6:30; 화요일: 오전 9:00 ~ 오후 6:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2-chōme-1-39 Kitakasai, Edogawa City, Tokyo 134-0081 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.zacsports.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=214511816998838044", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Tokyo+kayak+Tour+%7C+Outdoor+Sports+Club+ZAC+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "호비 베이스 도요스": {
+        photos: [],
+        placeId: "ChIJ2eHFBQCJGGARwWpL2YMBxq4",
+        placePhotos: [
+            { photoReference: "AWCwydik7sX6EY5rq5Gx-FsmXL3YP6WGCfab11YXV2d8Yti-qGwlR6rE6F3dMBg9fcbI56CL-2Y9jMXurc9Ks70mcEnQ-II67rQoSHcM0Vv4phC2ivR4QpBU-kV0MbNPucUfojwlFosdpHwkCBmx8kZd97DBlmhTvnBksSPNR4Vc9wanR5iQd5VmarwS8t-7OQi7vNOb-USTxrc7sWfajBgE4PMI3eOsu18BYJootS4qpLulxc8KymaXVSN7ahYdG9va4Bzkke5ZY3KOB6DyqkH3lYF_wIcSj_lH8PhflSMNQVpc2Yx7oYgAxJ3qAiA14T_rz9DTzukhh-jt1jum0MhJIxuO4EnW6tW3-VAJqSff9MaKg9CjkMi--BkRsIJfCY5NPFFEAjBpi-wxnZbjueEOTU4295vnFq4ZYWK4rvm1bvX-pP82j8DYURwBKpKdCMNJ", width: 2560, height: 1900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107481442893573427554\">HOBIE BASE TOYOSU(ホビーベース豊洲)｜カヤック／セーリング／SUP／ペダルボード</a>"] },
+            { photoReference: "AWCwydjRvdJatUEeEnQkrLwEPW1kies64RFIovA9vGIPQJM1UkQ1_L7Q4fUo-uP2HoqTP9U0G6o-hs7oQa0xaACWLqALT0gtDydi2Am3f5JpRgMBo7mvq0RQ8BOQ1WVlp8BJmHqcP_yoadhM11ChfWUhdLSt8xM7v7hTtzJmro2tVk2YDuI3r9Z59hyHqN0we37IFIgq36gsXWuPIbbdXdoQE1QmbEXuEbBbCB2QCrP6VCHPwFmVJ8ePz17IePsV3by6PZAmZ5snt6qBlww5sxPGqFMNUKBucGbjuzIhIzjagicbEMTOUKT-Rtw-4073pDYM8ly1n0GsX5OK8lz8fB99SZlhS7fXYZivlXpLGqL7aOFFKKuLy1N504U2JdJZaXB9n7u6xm1HYVqqK8UKLqb1OWI_E-fil64Ki4gTd1kNUjgdKCPmMy0mo1_rErTARBJk", width: 768, height: 570, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107481442893573427554\">HOBIE BASE TOYOSU(ホビーベース豊洲)｜カヤック／セーリング／SUP／ペダルボード</a>"] },
+            { photoReference: "AWCwydgVD1k5D8Q3WYqfOG-G1JBkn1tHKD66O0DKpO_c_867g-FmshGeSxOyCgWih35tWWff3RnOlYekYROZkOljOY9aiKgiG2YfNPDLH-DOL0Peki8vrjxkcQCZ3CVdscPAMGl3OJq0Xy8wCP92UH6TIBiGVFae6sdB0u1p0Qno35mRPAZjbSxC8bJ71zPBR9QbAfgjNY1Wslu8BWTovndW0HQIJy4M844yhCmKlKRcqaxD39FZDzK0aUIuLtLm0GYZBhef-yLFkRQkEEPkwWK2p0TcAJwE3B-bw-pSrWdB5wtm5GJAAf6jtZps5p_kF89jDPqyBdtfx083AfSm1SZPxD63Tgo8eaL8GZ2wCA9wGrGHFV65kTWBPteUWyLIg4Wa3RatWvg-1FF0xqMx5tC0m3EmPzNdpNBQlmR9o-DdsmyU_7ftjc-zKKuL_nAuGQvk", width: 2560, height: 1900, attributions: ["<a href=\"https://maps.google.com/maps/contrib/107481442893573427554\">HOBIE BASE TOYOSU(ホビーベース豊洲)｜カヤック／セーリング／SUP／ペダルボード</a>"] },
+            { photoReference: "AWCwydijqmeFQ0q09-G5fT-zyjdbPzEy_jm_jqU0vlJrIlBbFmGNzfCzTl0KQJYyQfGAVS3RjwlwLDmiYnazPpAifbYDPufO57nz0NjvzAT0LRVFDiAZZNbRrzw69RMo1ANLsXAwmTvqdu2GWl8kmzJfHBI72Gkb7Z_tqkA_NGPIzVTku2jGIYyXbf2pMqsI04-N4354csABBbqYm9ORcaYNZFfe0se7o-sXcfH7vOrvbXUB_GNuM_erFHxj2xQcVyr6Mg0OlFHn5lx7oIF3IQkAITFA6Km8qNzm-7-bTln8YmwPywJ-OWVdoxY1P6MJIne3HEc1FO6JWaBwlhs4A7bnr-8U5B4iixH1Rm9_hUBzOmr6D29M5wDg6Bdf3mZWQS0F4NY50yUYjKZVIaw8yqlqcuMLFrw7SMsXXnFCo7LddFKKM_P7QiWktfCu2cMSxg", width: 1080, height: 1440, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111168247802139929767\">Traveler, William Tong</a>"] },
+            { photoReference: "AWCwydgZ3wTEm0rJUo5mZ2A5wo5iJGN58l2jgkAptlMXwTNQRWsdugIY-xaRHhn0rnHGkB4P30mdnRJeLNnyp9ztVgtDQ24JHs59G-W1ZlHiCMwZxMPYt3NHyV_ezmYO7JCdQ9JUtdvHvLOJhGImSCK-29Bwr6Cp22IrEkZnok6Ka_peXgEmb_NqKqCkZcQZgFyaB5EdlVap175cHR-G39HwSnSlNTS2OkbufG4qqBkq6UZwZks8H1_fvqlS6Q2bbS-HARY_Q6uI6gy4q4hPgk_bEoZNZ1iX9TEnGC5_nYqbeOfEM-UzzlwUxvEr9LHm4qYJCBW9au40_BGZAtmJIFnh1F5GRpIrbaoAvm_1s6W1OFh3FPp7-yRUUrr9AjnED4Z9QnF47Hs9TeasIB20S00HBZok7VsM2YNIZPvDsgnuCOBAjudzGbLSyKOPu7Wbvw", width: 3016, height: 3016, attributions: ["<a href=\"https://maps.google.com/maps/contrib/111855202603207702101\">SUEOKA</a>"] }
+        ],
+        summary: "아이와 함께 즐기기 좋은 재미있는 수상 레저 체험",
+        updatedAt: "2026-08-16",
+        highlights: ["쉬운 조작법", "시원한 강물 체험"],
+        tips: ["미리 예약하면 편리합니다"],
+        hours: "월요일: 휴무일; 화요일: 휴무일",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "5-chōme-1-1 Toyosu, Koto City, Tokyo 135-0061 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://hobiejapan.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12593755073786112705", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=HOBIE+BASE+TOYOSU%28%E3%83%9B%E3%83%93%E3%83%BC%E3%83%99%E3%83%BC%E3%82%B9%E8%B1%8A%E6%B4%B2%29%EF%BD%9C%E3%82%AB%E3%83%A4%E3%83%83%E3%82%AF%EF%BC%8F%E3%82%BB%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%8FSUP%EF%BC%8F%E3%83%9A%E3%83%80%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "미오 카약 어드벤처스": {
+        photos: [],
+        placeId: "ChIJtVbN-nL1GGARp8k2E1pdw9U",
+        placePhotos: [
+            { photoReference: "AWCwydjk4Z2nna2wBRO0GzOsHk2Z2V0btkFuF7Mpr48thtU3gG-ltqlC9AVowaqQwZHHsqHsRMNaDMwsqrvha3ELmNOqYpGIG82dv_KGIJuIdocAZIeTeKOr8mg-DuJHFmoRoBkw-nCwMxYVYPF345XU7cIv1p5kyxPD3EdqurEZ8sMy-JoSIqHwWuTwNjPlQmU42pZqNST5ca7pekSYZydbVjt894yiLbOEuwF6aYo-Av5zB_ROxrS3ztZOj238FXS9hjGM6-t5qalA9lV5FCrMIvYNST59BmeVn67VrbbL-w6FWytVD5Meo1uh7LAzOM3iatOwSrc1aDYZTooH5Q-Sh_sR2VaCaBo9dgSgbv1IDu6H8i0-sNi7iXV244xAYVityVtHrm4iKhkoLJwKTlMnyJojaU8P84N6vjeNXGdmc9wHiA", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105398918255938760656\">Mioカヤックアドベンチャーズ</a>"] },
+            { photoReference: "AWCwydjB6w-O1-RfdUtDVmcAR1xfG5B8eQytKU_Qt2W6vQ9UREO82rw8JG5u7yI_tPiKjAo1JMq2Kd9j4DOPzXvoVSpoWn_dAokKavFAEgsHGer-ynzjzD6FBMfpFqyLHf0XbkkXwqhSuXvsG6bpN49yHopmN3BoOrPKCLALXJyo7lPMyvBm0p7rHBbKIiGgf0lyZFMU14CZKdFqO7Q8bHMCXZ6VXrwb1yedEeg9NCQo7dpTBpOKv5VkQU0YbSo2eausC7EG5iZ8xitsI2kQTADwG5ncBQvKOmoPzRBrg9roCVnQSVqu44gurGnSZxNw9a6XWnW_iHky6z3gSRzo8krBPAc33EGbVYUenN7NkIczpkM3a4umZ3IKv6jsiul8WwA9yZ-VZ8Yoo-rMzziUgmIMIG0aJDyutVYuB-e57-QLB4icVUa4xmTFDN5GBEv1rw", width: 3072, height: 4096, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101949111639355744068\">Uso Kawa</a>"] },
+            { photoReference: "AWCwydjCNRzCv3X8jxbgaf7Ju33g_NHX8js_vMTkRW5KFxg-U7op-dXE2dULv3RQlhQpjUaKDla4OaPJAa_HhDJIro8AyvPlbY63GeIFUZwI1hggGvuI2k4rkGQenA2TTq35IJ-RzHvQa545XGoI8zaIFXvvRxXnnKyoHyZVOHvS0Z8KfDQ6raL_MIEz5x564-KUxFipc9QiFW8flrbiTDqD9pgcArSangSKpLN9x9wuTLG-IbeyQkoW9QG0sXUQaM5u1339mnBfXSTr83Y6PJE03Avft4E9KmprEzciKgSssXV8LJQVmlqLHWiXcp5YHDOWmEbox7CElYzmVwLJEjmXYnJzjPEIqlXSw1CZq7rBX7SYhMtCqnp-ov-fd3UplJ-bs18oYrBCGe_MdRuGodYnFPUNFtcz2nLcWAhSyQkzJxh_KQ", width: 4000, height: 3000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110027875194743518238\">とめ</a>"] },
+            { photoReference: "AWCwydj6da8dQwH9ia8gsd-uE0ujzzWGeHqlDJF3JiisVyn7eHIMvdElHre9RMnIbB4nCUcDLwVbQiuW4aRC1lhzu8fOsslgXmZ9ZkGeP2J4Pb1v0MTs0tne4D9TTUJk713np_Liudb8sL92NbA1muZRM5STm1l9SzcKqH9NrOEiZ3N3ZMCo0iKli1Ox0Wdz53Mcjh3g9lfWfifM1o-4kJouSM6YMr8r-JvnTlXTUqAGGomDi9IH1OODxjte9RxoYMCmayZ2cnAwavwA6F7NYCIHLwxgjtHgyy_PY1rtAEVy49xY6FuCZ9Gzpg75h92zDjaJr44lRt9khRxu834sTjIDmbbBM22Gl1hOnjNbjC3ttYTYm3yjBB-K3sNJKnz5uArrW1i-HlpP00Dfi0r8TSrPGuK5vA0BHPcgPxRe11FrvlVKvNpN", width: 3000, height: 4000, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104294645490404227181\">Googlefamily S.A</a>"] },
+            { photoReference: "AWCwydhK3ptm1e8FiBHOIStXV51jtzpH-dKJZ6JvmRkcclAhDI1TOZXbFqfFFbCrNgEpVJF5_lU267oq8kgRfnlNdAlKFhVjRmqOKCxi-PDuGmSwdWHZFPDXpt0mEDvmd9-LjAiPfZYiEqhH6SoTtmIF6XmkPaRzU5FSNjDYnNaTGmRpp9JpNtOtEhSg6sOFRcP3M4aRaz3vagd0-DQlNzuPx2ApcGiRPdu2VIpO7zVhVuDe-qOXq0NFs_GZaDk65p_Y91aw5eQirHLTYmutVQEgFfBNOJUjWiN04Ic7HCqg-J2jjDD7ESh7qbzlPfaJnX5rlIMp4jFcjdftuGDJ-zX2a-vVh1vbQ_Wc8PFo003RXEptaBMI93aQxsTJk8-82AoGx3fZ8yzge1e3C9I2gdj4DKyUChRusix7xw3jtnUcvPhySPvfTxo9UStcXpg5BPIK", width: 3472, height: 4624, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116052612158056723082\">草薙美也子</a>"] }
+        ],
+        summary: "스카이트리까지 이어지는 아름다운 해안 카약 체험",
+        updatedAt: "2026-08-16",
+        highlights: ["초보자 맞춤형 서포트", "스카이트리 조망 루트"],
+        tips: ["2인승 카약을 이용하면 더 편안함"],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2-chōme-3-19-401 Midorigaoka, Meguro City, Tokyo 152-0034 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.miokayakadventures.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15403257791988025767", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Mio+kayak+adventures+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도쿄 올림픽 카누 슬라럼 센터": {
+        photos: [],
+        placeId: "ChIJCQkfcqtiGGAR3RQtF31IJYk",
+        placePhotos: [
+            { photoReference: "AWCwydi4cvxtPVvJs97kvh3tQFVPfCafHHpumd_GXdn_WkpNAYZ1-Oh0SCy_ntOyVriDraC5R6ezMe51SJoAEEHqqredYosD5TrfVrqZ4iM8Mp8rMJAPNDe6y-1crXoYPpJGJzwh66Oinsfa2fvIJWgVX4fyY_UFt6FslOuP86K9aT-sBWegk35JqAIBCpqrzpGrpkNK3TrZjUiYE_RC2qD5bTygSUssfxEuaTpPDb1siE57Bpmk3VjyWgph50XXU2m75oAxss548p2DVcgbjjQ_qqDCiL1MPeuqsl9HQwrn3T_6k6gYy551KgNJScIQ-bMwvs2JAH7F4DTxz3aH6wJ9ScNqq42OcwBM-JHajHwconB7_EyX1WyejefAFDyL0BfCi4bi3ipSptLSKTNYLjjuX3hj1CXBsuGYA0bbkb02TWM", width: 4800, height: 3200, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100948937232362127849\">カヌー・スラロームセンター</a>"] },
+            { photoReference: "AWCwydh_-RYGlP9Mh057M8GyKJ638gEOFOuIbf2D-LqRjmT0wTXfS-rWoWaV_y9uWo9Oa-M1ORlKURxQCG3NqgkcpWKzvEGd_iIpZZZUFdp-NmANUQ9xYj8J0ksrlprnGEyRRgedRhrPUvCNMEdd1DNu4FxXgbR-KeTJqvYeBD-CY1utGH_u_mFHNfinawyn6TWwp6TCsRcyK7e6S1mUT8d0U3c_yAkqJ6EyECQQDXX0n1k0thdTkVx2dLdOTr_fP1UpLk-iD3_0LojFeHCwORlROvIo-EQ7KdNi3ec8arOzZgnDt9Xu0w5CgK4Efzu5DKmqIdcUlTAAwmxPzAT3SUk9Go05ApXjHBW8s6wxd8uPzaqMn0N-0FmngyHH9fW6Jd7DEHzTb8VLudNKPLft5JGRrs6h9wiNAOdk59eK8AQl3NM", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101468648146757867818\">chan ume</a>"] },
+            { photoReference: "AWCwydgPyME2v1AzwjXGe4J97R52uCNFXpDQ1eh1h9Ix86ezKpmyGEmDXgse0fgBH6NSau6g-lQdjRsJkV71c6q6eKccH9d71Ni4MQnXQZEFN4Eo__e3YLgU_HNueepE5wcqXHlYEw8Y-_ZLn-8RcALcj9Xa51-BSBoSf8JHv76afrs49BWN69DSDxkX1CnXxVppT5zkUMMRDD4URlnyIBV--WL5lo-r1mO-vGymn6tw64SbHomR9VIYrzTCTyOtRl7OCvj-86APXwMlzkrYthGGGRQQYlfixRYwkZsZfik_z5zwPLPCqRinJ0Ig-VV73I2fMetPLyS76p6BjCi08XmRaXAAlGddNZryTJDn0j5t2JAbKS29Sq4cJekEpdk8yR2ow_ORebEJTJ8W7_kLMBnRF-zGioe2dlyYxgLWfqpddgA-Hg", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101969631579642059327\">hutoshi koromodani</a>"] },
+            { photoReference: "AWCwydg70ygu9rswemNclB2407icr8ZD_VQopcWsnzB-lt9o7iWjcMhwqK92T7dVWW-ZKiALrIouPOeM6jyPDU251WlQ-t7NQvLIHjCu99s58PI0_fvA-t6Lq2f6fFqLTaNb9eRdTQ9zlCOkhkBS2DJJq0_HMRv0X6ycHcSO6eHDp9F-Khlt0rAuLubzWesnuLIay7D8EMHz1bhFLcMkKT9YC4bjI-T9wz1HeWHu_ttkm6eGv8uM4SZfv7iTZHgl1YRIAq8wEtkXql78daNpoDShD1gdfjbNeEMB-qdrjN69QbU_6j793g3PsyTQi-wbXshJJVj-tfbpf4UqVvKcYYAEsEj7sKhwSbbX8wQCwf4bxs0Px3wo50iNDfDVzF9GNoHHKEX7nXujmz00doIKhwB_rAECv_pag-l_E6BUjWbMLzc", width: 4640, height: 2610, attributions: ["<a href=\"https://maps.google.com/maps/contrib/112963500288080745461\">Jimmy Tuffrey</a>"] },
+            { photoReference: "AWCwydj-6ebJ5gIfzRQ1suTtjQZAMoyv7b9u5uscpvaoLFWNdR9w_yan0dG4KFcT_sQ43YslCR3lTuJ078M4dLQOPT81wK3TpK-KUg-EquIMsT6Klm778yJX3XzRC8w5RNaOGhyE8ftpMBjxMWYQ80hiNz49coHS8_KOE1Ho0POKvAPeFYJlMiP03oQQZkRv8oUJcE3C0F4jyha4E-fx3ViC-Ewz07uhTW4_grqcmBgW9lvv5S2WpoT68zbHG0wXQaYxNFP9SBqKIxu2KXRY98jkXqcPCzdBctWdRXH_XcCRB83Gg9dv6bli0iQOX55oOOeITYX_11n9GR7PHmudYB2-hWEjul-ISnNdmJcACfmCSFXPFt4xjf-KLnfG5JwkcAJ68p3JIcxFUMnRji05EoxrWoLYgogmRcYDz1KF_9Xxr6PuQgY", width: 1707, height: 1367, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110698613949899871925\">Yuji Kitano</a>"] }
+        ],
+        summary: "쾌적한 환경에서 즐기는 수상 스포츠 체험",
+        updatedAt: "2026-08-16",
+        highlights: ["맑은 수질", "친절한 직원"],
+        tips: ["직원에게 시설 이용 방법을 미리 문의하세요."],
+        hours: "월요일: 오전 9:00 ~ 오후 5:00; 화요일: 오전 9:00 ~ 오후 5:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "6-chōme-1-1 Rinkaichō, Edogawa City, Tokyo 134-0086 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://canoe-slalom.tokyo/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=9882384659431363805", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%EB%8F%84%EC%BF%84+%EC%98%AC%EB%A6%BC%ED%94%BD+%EC%B9%B4%EB%88%84+%EC%8A%AC%EB%9D%BC%EB%9F%BC+%EC%84%BC%ED%84%B0+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "말차 메이킹 도쿄 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJ8ekyjFWPGGARaI9kJh9rMLE",
+        placePhotos: [
+            { photoReference: "AWCwydgBfcl2Krax9TSsE-95V3Sc3BN_tfPF-SNMEdcXCrPCW9qXAxQGIY3pv6ClY0FA4fvU6dlrGYoIwUpdPbosZigtqY-uA4mZJMOOKmh8uaGUTf_DLq2FhI0Af3BbZZe5YwWj9xhvMQw74RVFNGLF2gthBeCVY52dMecFWEM3KedrHW88b8axTQ2a0KmGIuA4dG4aIyQu1hSU86JiSsKcf_IptEpkf_SDOtn86UJ5q5R7xRrMUkP_A4Q9v2gddXfLWDecGZIsvzdeHGKH6QE8llm46id2d6srrQPPPnX68wUEErW4tzGzYhL4KZ8IUtYu_3_qbhbLZ2KZMXpzc-0C2mVJ6iadkhBmp7vDJx2zY3nl4r5DQAW9K73kQameGhDBa1RDjfJZ9IRduR5gY33Ik6AIJt0MHgez9I_dzGry4QEnd4zS", width: 2000, height: 1414, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103556985649548584753\">Matcha Making Tokyo | Cooking Class in Japan</a>"] },
+            { photoReference: "AWCwydgMGfbW3kEP0mMqy6z_RL2hs0Yh278boICGO0SA5nhmI4h5jzLMAgASH6GAld1gAEhmmtqwyJQnwfxHspZXHJjo8dkhT1SOj5LX8jkQez6oOMHI74EfBPQHAnp478twmnkigwxrKbMgDbxPHY3WW6oJe1DkU_IuKJk0c04Anb9OxDz30HtO9KpRa2fYhcIAD61jBc8wuudukDZLXVUPl-w0TyZ95d7h6YM2fjDzdRsQfkKJ_5U5L30H1eGV4xhpDqNDEs1MArFOfPgeRuNXV1nM64jnJlYg_pMOFEqRO3rKpb8Nhck7zIWk54REBSbzuN8IwhNEgS1Iod1tezwPSnzj7itqAHw8Nshim8SuiG7_ndBS9VvbJ8ky1oOQuEwDaBzlcUiic8POSxN1QS1PzNmXrt4dawd0lfQUCiOdMabg4_9nktLHMnYT5wZhAg", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110336626473535155979\">Jhorinson Dominguez</a>"] },
+            { photoReference: "AWCwydix2Luf3-pgMF0qxIg5i6kzlrtINTyRAnQQYK9QNBxb-f2uGOxW_UGjR5gU4SdVqQauFuhu6zJawg4Cr9sjlNH8RfHLo6hEpAN6VAAj4rdy0iQhr9_DUVpL_i3cEcqxRrkLFZp3dxJgGsTomY9Jhjx9inbxkhogXP9KrEeYvdTub9BpT15-ymRNVcP5RgUG2cNqde1qPCnenlAHXPx7g1Zo-YaXRYGWrfBjmgcE8kazapI4WMB_O4YOsk869OQzNvkbMxcoFvJY0QqRdIT662KCrvmsSNUw-Au9TuG6acBeKeNsA2KZu5Po09cfr-S5OHtGYdrDkQoR5rROXjYn7yTndfj-KYlFJMm-K6KSM6XbIhBFAVwDmKDwL34-y8qyMk6RrCp30tAYgoLO9Z4ikqwiQanlxRuWLGCtzjJfsR-CwE1oYrWUv095Pn6kaG-c", width: 1080, height: 1350, attributions: ["<a href=\"https://maps.google.com/maps/contrib/103556985649548584753\">Matcha Making Tokyo | Cooking Class in Japan</a>"] },
+            { photoReference: "AWCwydjRhyzb6x2640evf-GsERgb6yThHDLxd0RjrN20uCGn9FfCqGrCQEbh7bryL71eMJv9Yrwg4QxRTcvRKOEw26jJidvblbouTagAX50EZnu_J2OPI3XwsZsGT_BmgEd5uauZfCBzv2SVSG3Ua8C5TzdG8vi8WORrk9yTut3CAkraTi7ByhR_tW5k16ddu-0M-KD6WBwrkon5ECUvhyr9LtgLrjPgSlQBisiJHGHjmOxYhPzNEwPKWgsuTk-wdNLhQQLorv86wUv6X_2EbAT86iZKgenDJtX_NcH6PNoQT6kdRj0t8L41WG2kaVN5D_3UHlcIT2FnGvdI9gAgHczuS4nTWSkX4VwFxLNpTn7YimcMBUl3-nrigak2UbOwOojHfOsJiaRFDHBM0GKbF8j3yfPkroAmCsgwcdU8M1Lb2eHOwJzaIahjs1oyx4oJRwwC", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/116062681522606244534\">Felicia Feng</a>"] },
+            { photoReference: "AWCwydgeJ_OZyRmFrkzNmZx3nPOs2YS_bakD3Q053S4oDiMaeY2cwfOSs9kr4hlN3kzDsDxnQ41zpMSumPNz2iQtRysEuWbovJVg9folI8POcCAuNBVztWREVoAoXKDnsdA8ge5xg4JWwfSU2mvUTos8vDtQPHwFSkjZ0whVb0ZYMdJYHHgzDYALFKT7vgqDcBsu2xge9GjF4h9yY36W8DtDG5wRpFuH56Sj44-gkhOxhyCK1QRZjeDiAYCpcWeun4zlq_gZAspcJ3vyDbLsJN8uXNj7c6hb7lwiPZl3NGuHLJl4_119gBYNHNmUSpxdS_1NwHQuEUgOszbE7JhvXWQ3APmpvd4S5nFeStkAxC9WBsB_gKNNVmyQ9NBY5qx8Dbzb37PiLVNEC790dB-RnMpF51zNEcd2kUtxPf3N8Gnb6MKdBUPaqx_rF4XoN06iZ3ax", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/108222815599538069269\">Fer Jiménez</a>"] }
+        ],
+        summary: "전문가의 도움으로 말차 제조법을 배우는 워크숍",
+        updatedAt: "2026-08-16",
+        highlights: ["말차 제조법 학습", "현지 전문가의 지도"],
+        tips: ["어린아이보다는 성인에게 더 적합할 수 있음"],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2-chōme-17-9 Kaminarimon, Taito City, Tokyo 111-0034 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://matchamakingjapan.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=12767822725127638888", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Matcha+Making+Tokyo+%7C+Cooking+Class+in+Japan+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "스시 메이킹 도쿄 쿠킹 클래스": {
+        photos: [],
+        placeId: "ChIJLYqwJ1KPGGARGW1cGp7piZc",
+        placePhotos: [
+            { photoReference: "AWCwydhcvL5TInfgBsk5n2tLDsnTZ5QgsEg5ljw2d1mUNJwHEdUyudv-ZPkjndeTkRRkn9c-5w59gXK4n1iLuiYZ0YJYkjb9tNKXbCzNux1Dcau87SXTShZj9OCsI8xB7atldIrUJZAEqUgjAndPkt9mx-bqjE-2KoTEBupV_0frV0VvyFDmFNcP9NGfqBTBQyDpmT9MBdcmHYyfdtuUmk_Wy3qr_HL4FacFolN6ViIVnqzamVS1rT12YsOA5E9RVZBKrJnEYWm3RslgQDsvKoHCopmGbpV7_kSTBlh48BtxvcM54PXDvuLvJjhZOh9Ml695_mv8XWpIT1p4ntqOxfJFAKKwPV8j9rgjjT_ZKl-IH3G-8FAFONB-Gi2J870Y54NyZjCYZzBm_sxr_1ZFm2Zf_MAySqyq4YT2vhxjLhkynMZB8Q", width: 1280, height: 853, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104416473873252255718\">Sushi Making Tokyo | No1 Cooking Class in Japan</a>"] },
+            { photoReference: "AWCwydiiXwTPKxjgUhfqK7bB7nUbMNbTiiuHrVXRNAyscsYkEYUjGqf-iZCygoBcnlCXIMio-aDqQueooEjVIraMdrlvP689ZohS1L1ny5czTjESg_mE1cQ3TAs4D3ijynNUVRBT0LC2u-lXgz4a2Mih2wopqcxSLV6Y_1U-rpNyPZIXwyZKG40yVNx1pep_DbLCZiXNpIoYkAmfiFMqGHaCXX_JyshZpiPOB6SsrdezGBkeOyfYaj_JEML04LTx-sQbVYEtbJlZdeMQ1YJDP24J-UmX6iBl_8ATqsZykbMVLj3sVDfEaJAClIljTwGGtOY7SCh6K0QAIm6xU47ru3SPIqhhvyBFGhA-ehKNra51qQ1HBnqI7VIhJQoP_nzrY9SGtB5JGrKVVi7zo7OfV7ZEY0Xv0IoIQqGJ8wXaWvtpT_Y", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113695802211616313776\">Mehmet Celik</a>"] },
+            { photoReference: "AWCwydhH10cKUbcWuqCXDjpu6v_e1VzmwDXR8KgH2CRFSPUSq_ZwRjfY1FN6XU0LdTlHTLkzuw3Ax1Y8M7DJjfIcDBcuLsVBAvTPOGawKlawR3BJBWX1lRQvp68Eex7u6FiJHGQirk47UlPlWTj1mDvwO6m9kjEmIB3zmpclT5aeiGtah0hq5i02z1phHspDPCmRUogFxc-qel_vu1y78qKthIq3XQENAJ3ELc9aHADF0NvBYf60e7CWPfEpS-5r0Zk7fawuygWLoCI4LJOd0Txb0uEnolNN3Vkv2Prb1M2JOX31cUYrXGK98pYrzIyHDhqGq-f6PQZ6CvIZ6_WdQp6lj2dv5qvHh4sK_Q5yAOMzv2HhoEAQ_svOGwezBQb_7xqzzdRAgEObfmAsYFUIAt4qL9CVCsslXkA_5qzM1hhJW1lCVqlS", width: 3264, height: 2448, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104416473873252255718\">Sushi Making Tokyo | No1 Cooking Class in Japan</a>"] },
+            { photoReference: "AWCwydg8eIqN-2k6HP2nRNvbbNqzjUwjgId7jP-7xYVFxPqj94ZIDxJDiwWuf3LyUFacezJUtDRH875Jq93S-sdZ1ocH8MZexDfqLuwZy62ux3qqJEvWkyZkR3WdBIoI7XGc5ZRvyMZh5uhUuUkKPcXSzCQOV0l8-aIXstaFrKHhjWMSZXhbnkNBWjOPz0eU0fS9Ns27uY1sfvEfALMR2IrI2GhccK9tyoSfRj9yrXyTNpe7Dtg7i8ADHCDiKbdzPMgthOKGemVtXKQAJUaaHhPwQJOiW_jG5k05pdgVNrs9WBQdThopobbBnVjT0gWhyQNrhsQm7gsBom3Qd3TQkJLbFToYOzBC8ImpveUYi7wLr1akPbc94d0voSO5Wh2Dsri4hvmhjTVhU95qwL8hMxoRO3UUZiSR6g-Vd_BRNXbsNL5LGw", width: 1477, height: 1108, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104416473873252255718\">Sushi Making Tokyo | No1 Cooking Class in Japan</a>"] },
+            { photoReference: "AWCwydgAGnZFDvuSdntJyBfkyx5E0X1kH9INvG5gK09Q_000feirFWiSSyThIQoAJoFEA7xk_nkIeoyz375zt1xGgYe5pCueLuHrWmAziOu26AFp3ZvDAMqYW_oi2-z6s6azIKMfqGxkOrVN4rfIL74ITAlqXsVgER_HAlHo_YsFVlu6lfXH-JR4JYZivPSWMD9nzNOdvwyuPQvhFOBbzRjrUKAhyIEn2PrETVYnGriS9JTggTv4zcgbK7Go9XTpyyOz_Mougm0S5nz3Enj1kj3t_9ITLbu8pJfdzTCJ3KVl0VFtz-gYkCIOcf7CsBCp__LHbdY61P_Y2Ac_nMNXwrOFV9edW-xfcoskVR7F5VRLHvy-9yWSsUQESNIlkFmIMyS_kpNyrJ39bMdQswYb5t3nAc_2L1sco2OGNbWoQtMi-AVcDUA", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104416473873252255718\">Sushi Making Tokyo | No1 Cooking Class in Japan</a>"] }
+        ],
+        summary: "에너지 넘치는 강사와 함께하는 최고의 요리 경험",
+        updatedAt: "2026-08-16",
+        highlights: ["모모하 선생님의 열정적인 강의", "몰입도 높은 실습 과정"],
+        tips: ["강사의 에너지를 즐기며 참여하세요"],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오전 10:00 ~ 오후 6:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "2-chōme-17-9 Kaminarimon, Taito City, Tokyo 111-0034 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://sushimakingjapan.com/tokyo", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=10919515636792847641", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Sushi+Making+Tokyo%EF%BD%9CNo1+Cooking+Class+in+Japan+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "금속공예 교실 스튜디오 크루시블": {
+        photos: [],
+        placeId: "ChIJx30MlViLGGAReCQmhRAOIEU",
+        placePhotos: [
+            { photoReference: "AWCwydhO81uBVuBdK_PpIo02LP4X-702TmRVJExdEIu-F1rFKPQ2uYR28ndFsyGt16vDB-dCAgUQRT7VZ3XwlZDBJ0kkATD9GcKFz8A9_9OgXLDvbAoFLGoPNA6HbeHYulMsUKlQrtJ_kCRwx92AVpJT2Mb0GNosA32iKVcLxOjYMB_-NUlWPbd9Y9zNM24lgocwiYUJ9rqd3QZM373_9kA9VwlmBPOBjhxkLzIfpquMfXwMGqT-TRAa51GcgbcRmW_yEXAYtBHQWdIEQQ00l_aD2U5AkOGPvGaTcgkk6_iAQSGDswEUgMrtrh7Mz4SPxFgkqo6_T_PrKlOY8S-Cwr-YfsgpTZ7-BII-Iz9ccFr2Fk-Wxql-OhzXwoMwexg-SBfTySG2V_mlgDFtQ-q1mk1ehUn3B9loUqpzMjXyDBkxaRI", width: 2048, height: 1361, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104519958523232805475\">彫金教室 スタジオクルーシブル</a>"] },
+            { photoReference: "AWCwydg09RpH2PdpYcwZSEDE6N0uighjLZkZoE6_PGfUcapfLQGhWiJkuWgtXi3fM61yDOoXC_5acHr_NF-0p8br1t0c49kSwMNlOgphSM6d6qjzxnD9NoIzy6AFFf2ACtQOUOqNJszPsBiLDtjbbrbXq7TjkmwdOi5RSMbkgw8_fn0NtLvKxA21iPcppBCDp3NLbBpL8tuCX0_-D9bB5EeE4mPzdaNvE1XnGNp1I9CY5nPHZ_SVw_LcF2uDOAe6nt2opwCStAFOS9LcuanTeYe3onOtkSszZ2L9c2lBXihlqpwqGqKzPClFOyt8b0tN6XoY8R_MzRD8vn_NhB6OktGQ3Th4P6FBJbG-Ng2JWinwxmc-gJZcSsULELs3fB_Tf66RcLBOy58KDNrgcJZKTimuQ3NNKwb1bSpvS34oZRLql0fQj2id", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104488921280640718457\">IKKI</a>"] },
+            { photoReference: "AWCwydiM8gesFw09J18-_C0oiDr3iDK1l4NpgdVeQ4quKm3upi_R7zG7AzEBpUqC1EIUUYpPSkJuX0RR_061ErCV3-ch-154tc8emybJRdlHL6R-RX9RvGMB-F-rJXx7UETn6eFpmhehAGg1UIiKydmAQhnUiXVgLegjUBZNatV8lOoTh8JI8rtfYKgnaDvdBuRpAObKJKSoI7XbV-6wVV5QyA5kHjGOLa-LziIEghuj9QMiCEgw2bpobwHk0dcFHS3eTonmGPFGs6rAa5L2hofIrT9bF_G8QUoXZWajD9BUFUiTdw7Ik7fSH8X7WliKGihAMbO4eS9vNftardqMU2PKnQ23hvG4MvivkG6mgA_9aBLdiBk-QsGSGmi7ErM4QL_pNa0PmvFJV5tngBEQnsmkiDS0xFAw0XDjvNJja-VjvnECj3_0PS94-fm97WgSJJ1I", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101494048827065190496\">イトウユウト</a>"] },
+            { photoReference: "AWCwydg3qMOtSVE4JX-5j6_dESO0X0GBMTimOabQYz4PFxwaHAJYW3_7rPJXWZjHeWoYRYM3BpfwnnsKvVAPWD50JLPRKTzMIgMJZdYDb6bad5b8VI3noXrvQqlyShBw-eLeZOJ-ltH5mI6z8belqsj_Y_C2uC_5xMe2QYn5udysrxiuBskxaRYvPj59oRitozV7jkzMSV0p6H4IpIEjl26rDg336AtLJesCcE0U_6FvSTl8qq3EeO14VZWCBwoaCFuH0MPLsMYTBImxcFT7g7qpyuGcCkVKDTcZIAWRnuuxPqgg41nWo8usuVCHIqiFgdRQ2Zl10vcs4KqciDYqt2oAM9eXAba7YqB1y6vHuE4SSxVI3KPdX6T791iuM_56J8W_HGItgrYK9eQ7Glc23TCBz6wnUrdSGzVVklULVABLLrrKcQ", width: 3024, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/101058195426121975735\">R Hiro</a>"] },
+            { photoReference: "AWCwydhhwAwGtguOKbL06HCDTPJI8PsNo16zM6pUhkUVPxui8tzdagpsk0tZSeCyTBWDdl565Kbiuq5ef4VE6h24atpRa6yLQvKe3FesJziiIfYk4wa13OUtaKgktQgVsH4EWEFZbEOT0iDy1BQsBD9bmivVn5igfqE1jq6ig22zvZsQR8btuPDRbO14URs6DJo5771q7n6TdaKeMQSBLL3gLxJCziRaJrU7WmqNWm0wjRIdwo99firPhZqnvBhoiECvf2vV-W7_GxQTFFJvNz14KaPyEtjN2n0h3HzMDBPMSI-XXlOfRhniYJKfCd0220OxZya6xYu6ywEvoYICVr9rS9eTztwj3Y89jVI-TG2beILcvicv7KNtidjHcv8aONqS9BHPa40_BV3zWT4dDLXv-D4kYb0GY1ZzsQYCifHglYbouZ1NaIH072wlIEQnRQ_u", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/105106487198855356988\">しのちい。</a>"] }
+        ],
+        summary: "반지나 팔찌 등 나만의 주얼리를 만드는 워크숍",
+        updatedAt: "2026-08-16",
+        highlights: ["전문가의 친절한 상담", "다양한 디자인 제작 가능"],
+        tips: ["사전 예약 후 방문을 권장합니다"],
+        hours: "월요일: 오전 10:00 ~ 오후 6:00; 화요일: 오후 1:00~9:00",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "일본 〒150-0002 Tokyo, Shibuya, 1-chōme−10−６ 2F", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "http://crucible.jp/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=4980996651987903608", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E5%BD%AB%E9%87%91%E6%95%99%E5%AE%A4+%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%96%E3%83%AB+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "도예 교실 치르콜로 고마자와점": {
+        photos: [],
+        placeId: "ChIJ50DcKqf1GGAR3FO0mlljeLs",
+        placePhotos: [
+            { photoReference: "AWCwydheNWMaBjIRRqX2rJOaS3rmLS4fNLGEWsQvdOUOAiTs0fdl4SWqyd7me8FpAJU8XfoDREve9BzNSm9tPeg5bnKmOrUBjRldaqE5vNdKuuG0VtZSW-woIvgkjPCBAKJZfcgKaX-eFT6aifB_M1f60UHbGsuecdnbSLhrgnZu0W5RmYRHj7HJPWPOw7bMzH9u_A0xqtyl-tRk8icPXRAxyrGRdcoauv9pL6ZQ57WISM21WePlu6QJKzYGSt5y8wzdFZWZTgIKtGCKvkHKMGT0NsCpMCj6aQ0VtVja7vNIi19ZaxO4NbLgkOwSv3twngQ6XNByx5rhLRWM5CwOL4-qLUoTWdu4gSrDNuXyx8kit3lEoXEdYfLvUbZF6YJMeBAaNq9qX5lko4WX8ffauIHYLQAO_2I-CBOsyL4ZqTzT8IbLBg", width: 864, height: 864, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117177450009975446742\">陶芸教室チルコロ 駒沢店 / Ceramic Studio CIRCOLO Komazawa</a>"] },
+            { photoReference: "AWCwydhO4aNU0Q4ZDEaDPCmbc9Oq-dqB4JGIkIq84AjMcE3NYavMLE32XBVT5KOvlp9Mkrf2sAsBq1z-oR2YbLrePcOXXBB0OqsOJBGudn9fV6FucewF3Q2zZqUfMjjs8qmuJoX7cVbBgR6zjDn2GzdzRIzBbHFjw6fYcTqwHEjq3_-CP3NUaUq1CFHwZ9xtya0TqXmAdJ-SsNv0TsBhS12XzKjLtmLt9weHn9GS-HesyKhyKUiznoazgTFpInc-xt6gjd3K0o6BBg_v67tX-IRoV6vl6LdZRNqDlHZE6i6Wf_5zEoqVxZrsRdlUfgCVC0NKZJUH4VAz5RdasU8I0OgG_MMq2hx53P96TXrzIZas-5eF5_A4dT-vtuJmTIQgvcdbmYMzcF3sxfNTXC7k8DCwixvEFFZt2lleRWohc68v8-F4yehntfm0_ypMxeYSzA", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/104704407723208235913\">reina</a>"] },
+            { photoReference: "AWCwydghf0ny79NfNfcdA0r9fqTHTQBeZrK0K8_hgUhuaUJr6iZ204NpMbsb3gS6vH1T7wV_emrdthwYl9aaPmZKtTcXZn-vnqWtjIqTIw-XvwG_oEsPD1GXneRB3RpCmUGXYbPoOrjF5AKaTc6Uflm77xSXdsMcv7G42F94rV9GS9H2Q_H2x-0hKjR-wYoNA8ue2jyvrcSz8iHZRfOhGuiAmNmC1oLt_JHJwCAWfGIxV9yigJ9BT2C04oqbMkOqMkr2W7scAMZakcSk5IoJSkOLJSYya3wMBxFbG94Q5LDob1Qa0e9nIycGkMMq1FgWAe7n9cIwjda6pJHlRb6Lp4J5ZjqnNbHeC0lVsTKZCyUL2dam-RvyNf6yJ2hd5qMt_lns_w98tChvm_H_fG6HZCRzYWP55rtaPUyVSjcGOgOxXIcOJw", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/117611176429717921453\">山崎遼介</a>"] },
+            { photoReference: "AWCwydjQe98rdwA5HAPkoNUCYx6iLm5ziK-a3CnPMuP4CHmlJdGCI2KQ48oHiU_29lCRXSxP_P0TzQIT3fVGZr7JCfUBhD-dhlRZjbn9WLgieo-yoPpNobX3iu-n-VH4mY89VvW2c1pLQWtrSuF1Ofdqh-2w2K_NgacfZWQNY0UTerEEWQozKI781UrSKcV1GUgYtAloU1PvyyZLWqn2c9gi6zou3RDNuQ13HwFUk18AGrORp14_Hc11dmfRgePVjky3He9Z-6IFn7Gkq80v4HCM3h8QO_RYvaVbX3LtGzWkE_v_c8pXr9AMIQz-OqsN9nVERamok9pqDnuIc6CqkxzQDDcmnVU05SHBojujr3gaIhAnx4grRYeveZxK8S89PBgnpxf9pTqTSMYGltcNWpR6vSwg_2SrY27_tPOD5rSXDn9BONEB", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/102244287231480143451\">カルボナーラ</a>"] },
+            { photoReference: "AWCwydj1pA58QEaNrwalVvDvRL_St97WuMxru4ZDpKKRTHQiHpulvorb71WeBgliAtZHcO8gtushBcoGTV70CS-KhnqgareWzQJ6vn2PrOJQ90JItPK-MBnfTnV9D7sWR6Cv7w4DbpqqmnFHj54n8lec43OrI7IEKaY-MRjYLBbvLXgbjRnnq3RMoaeBtBz1bXP5JDy2Uo2SWF0tIFMqExD7f1JYmzFJBRX532O8LeUTY6Kqvv9MPr5iBpc1Ky9NJCWV4niQnEa6k2juKWc4n8BJrZvXJhDDZf_wH2wdLkud9MPaOTs7diu-CpAbrCOd9D-Tphp--hAve-vpjbMMy4gT_KqVTuabFDxSPk4bo8MVRdA35Gp9B1mGskAgrLWfko1HByP51rqKZQkjWAc8KRTvboWNHnD06VfPZsEWMXv3mPY3oqDtB_SWq48dCaucVPsj", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/110659338965401980290\">nanami</a>"] }
+        ],
+        summary: "초보자도 즐겁게 즐길 수 있는 도예 워크숍",
+        updatedAt: "2026-08-16",
+        highlights: ["친절한 강사진", "조용하고 멋진 공간"],
+        tips: ["친구와 함께 예약하여 방문하기"],
+        hours: "월요일: 오전 10:00 ~ 오후 5:30; 화요일: 오전 10:00 ~ 오후 5:30",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "101 4-chōme-19-13 Komazawa, Setagaya City, Tokyo 154-0012 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.ceramic-circolo.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=13508656318796551132", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=%E9%99%B6%E8%8A%B8%E6%95%99%E5%AE%A4%E3%83%81%E3%83%AB%E3%82%B3%E3%83%AD+%E9%A7%92%E6%B2%A2%E5%BA%97+%2F+Ceramic+Studio+CIRCOLO+Komazawa+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    },
+    "마유코스 리틀 키친": {
+        photos: [],
+        placeId: "ChIJqwRHycCMGGARjUwX17Nm8NE",
+        placePhotos: [
+            { photoReference: "AWCwydirZsa60Vu8d4vziRBUTr4y4IkrUzKcLHFcUXtx29ZUMk2piW2KQaPB8cQEeWhToeGfB-cPLa286Pu5UHNtmu0RBrpBeXCa1alVETER4Attl8qaHhRNWa0Zynzep5X0qQNzlhkkLdXPvmDMZsGJhVBA-Fwa4A75EWpk9Mlc4MiVI6SD6AOYNaV7UfCJmgxKBwPTeCCF7PA2vvnRTo1994usgDHucTondd2pnjMI57rHAe-kcSwOSia9rxrcxIjmVCJPT1hJSo-Xj144jDpGbdlf6336OvAxeB5kc6aedYN_sCX927axd6FIe6rM1EjT5zP6yK1ANK233SV0hdFRRdSK3gvcg0iQ7dHbPxETWW5TUTtIiXyc6KBVJCgCZA7rU8hZACCt2QHciyspOFaMzqjimmgFzplBwDWHjuQUQl1OiCl81kahS9BG39pKByj_", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/113504618483295896944\">Carolin</a>"] },
+            { photoReference: "AWCwydih655o-t02b6ZAmsT2ucoYUXrQ8rmoMwR3w3QE0j1nmos8ayOnp1Jlrc5njYAd-YLB_n3E_tx8aPO90TQbboC4yVnoARQx6G4HtA9HTyYaNaMwV3KM8CdRuA8dN6HoupTpQMmKV8dW580TrlmVglXnmaSaH63THJNRAy2a2RdN9MD8kIwKtARcBy8QmLsPE_9Jl29gassgbhld6YrBL_cT2g-pZqCrL-EPuZ9T-hPeeqcP5UOCN0_O9RQPHMcOOHxMpkvFoCKsIGeDWxWv6h5-Ha0zS1spibq0PXIP5Y0cm2VSiRmXmUX4ZPsCQ-t1v9K3ooEl74aeg8MOkRStezlIXlltdHTRkpZwhLPYUgsx-OL1fwBJjlQyaNLEdx8vjDvpNUX7ji9pP550VdsDv9TY6pkTaRug5XcdLC-4vkWbatm19BiAzPGaGnF92Q", width: 4800, height: 3600, attributions: ["<a href=\"https://maps.google.com/maps/contrib/100477547271166821610\">Keira Tran</a>"] },
+            { photoReference: "AWCwydj9X95FS0Ehr02FhAA3ptpo5dEizcZkJz1x0cLiXb7BnBNE4xIPe0mmrmb8s51DVS4cVgjxeK1OLg4uFN_ty-oM31hDKw9Xam8asluA1myoZAX-JjAbyhORLS3WxZiFQ_GT27B2GRXmmzRd49rcgr8-yXN7gU1li7BG-HCE-0KG4_hgAknUeRHW-qGvifOtkoj2SsJu23eYmCnLvKWl7GSMSwDtmOklXCF_XERVat9x4DZaOsDNb91ERVWzSyq0NZ9sS_S2xAZyYeFrIfcIB9Vkh4QcTwlp7IEk-21QxvgvQnPZf4O9ONBZNXLq1JqJ4-JIShSP2ShqBj5qTZn3wtcX1PDaQ0yWhgyWRE-VmH9E_TUiEqXn1Wz0km8PCQA3lpgWa4C7Sl5wZxMWJ4WZ4G3q7w16zFg-OxtG_l2kcrPce4pdIaOnYwJKJivsd--P", width: 3024, height: 4032, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109909639475574140022\">Elizabeth and Thomas Breckenridge</a>"] },
+            { photoReference: "AWCwydjxA_BYpHK8snG33RzKh2V1cQ5IFUG3kNg6maQwsoSZQhab3W1iCVjiyQN2t6tp0BZc1KqUnzIKUWPVvF3pgp9DjDZ6eJSPa7vqFw54PxyAokwXIWvZyXha1i9N2czYvHXLV1O4KXiraB4J0eMVl-3fLVSH4iLTFYiixPLQPz5EMBJ3-rZI_jC4T48ADXuXwa_ZCBTZOEpjlPszR4ENfW1QgkFNSfFh_uAZJuDwF7YQT6ZQj-Ah6IcDGZWsKIHEpCqvwLOHrw-0sBI4P29lVqDC8Z2-ushAU6xc__bDmXoleIwkakGxnStSZD-fq8M-u4yFzROB6ukkIrOax6aJtldI-fwQHlmNONWhBUNBCJnT3WZ_vXMAYtmpZIRKgrrlK7nzzLWqGMQr9yT3mF_OtcO_FoLXmYKXPHXNW1Y5MB5DRjFdm_VZ8sJEPL5lRI9X", width: 4032, height: 3024, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109614644843748035883\">kimberly</a>"] },
+            { photoReference: "AWCwydjhY-Xq9KciH6hcMOvq7SIABK7XFIMQbPO4crY_X3EzD2Fh1Q3Vz0Ny34o60ixT7xZKl_uY-tNEM498qO8oNmO9F5GCgtlAq-FquByVMhQljhWRAoqqLwJYiXO_rIWjdCp_BGcV7e79UuUAz8Xv6mJFTskY7WTlfefwKDYfk33njYv8_cJlip8S0ke91SXS6c6GbPTxXa6Ia0exeA87zVXxN5Rwkl18hZzg5r3qwyRFfY2O_hh4P6kKJMkNIg5Eu8oT1U7FgLlNIwuZzR6Ew3Lx_yH7zicXjTSBGhr0Y-ZEy1g8JIoEjtYuNVLM4gdxztJTLXKxSaEg-eEyKrLFwjzRS0V3qV_W92Hi_rlg4D8sB4BJrpTkfv_JjmhJw3u6h2EgBE9flvjXVQ_HLkeNkIW1VLm14B5EKfKeD4a9ZUWGKV0QLwDEcUBaEWsAAAE5", width: 3600, height: 4800, attributions: ["<a href=\"https://maps.google.com/maps/contrib/109030315098498726416\">Dominik Schumann</a>"] }
+        ],
+        summary: "친근한 분위기에서 즐기는 일본 요리 체험 클래스",
+        updatedAt: "2026-08-16",
+        highlights: ["맛있는 일식 요리 만들기", "친근하고 즐거운 분위기"],
+        tips: ["가족과 함께 방문하여 요리 체험을 즐겨보세요."],
+        hours: "방문 전 확인 권장",
+        duration: "1~3시간",
+        price: "현지 가격 확인",
+        reservation: { required: true, method: "인기 일정은 사전 예약 권장" },
+        access: { area: "5-chōme-5-6 Sendagaya, Shibuya, Tokyo 151-0051 일본", note: "Google Maps 위치 기준" },
+        bestTime: "날씨와 운영 상황 확인 후 방문 권장",
+        links: [
+            { label: "공식 사이트", url: "https://www.mayukoslittlekitchen.com/", type: "official", description: "공식/대표 링크" },
+            { label: "Google Maps", url: "https://maps.google.com/?cid=15127704070931303565", type: "guide", description: "지도에서 위치 보기" },
+            { label: "네이버 후기 검색", url: "https://search.naver.com/search.naver?query=Mayuko%27s+Little+Kitchen+%EB%8F%84%EC%BF%84+%ED%9B%84%EA%B8%B0", type: "blog", description: "최근 한국어 후기 검색" }
+        ]
+    }
 };
 
 export default info;

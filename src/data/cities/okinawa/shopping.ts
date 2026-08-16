@@ -18,7 +18,7 @@ const shopping: ShoppingData[] = [
         icon: "🛍️"
     },
     {
-        name: "T 갤러리아 오키나와 by DFS",
+        name: "T 갤러리아 오키나와 바이 DFS",
         showInInbox: true,
         hasInfo: true,
         type: "duty-free",
@@ -78,7 +78,7 @@ const shopping: ShoppingData[] = [
         icon: "🌊"
     },
     {
-        name: "AEON STYLE Rycom",
+        name: "이온 스타일 라이컴",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -93,7 +93,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "San-A Chatan Hamagawa",
+        name: "산에이 차탄 하마가와",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -123,7 +123,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "San-A V 21 Jougaku-shokuhinkan",
+        name: "산에이 V21 조가쿠 식품관",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -138,7 +138,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Union Sukara Kozabo",
+        name: "유니온 스카라 코자보",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -153,7 +153,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Town Plaza Kanehide Yogi Park Market",
+        name: "타운 플라자 카네히데 요기 파크 마켓",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -168,7 +168,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Chuo Mart",
+        name: "주오 마트",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -198,7 +198,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Gyomu Super Koza",
+        name: "교무 슈퍼 코자",
         showInInbox: true,
         hasInfo: true,
         type: "supermarket",
@@ -213,7 +213,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "MIYAGEYA-那覇本店-",
+        name: "미야게야 나하 본점",
         showInInbox: true,
         hasInfo: true,
         type: "souvenir",
@@ -243,7 +243,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Omiyageya Showroom & Ryutsu Center",
+        name: "오미야게야 쇼룸 앤 유통센터",
         showInInbox: true,
         hasInfo: true,
         type: "souvenir",
@@ -258,7 +258,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Ryukyu Glass Village",
+        name: "류큐 글라스 빌리지",
         showInInbox: true,
         hasInfo: true,
         type: "souvenir",
@@ -438,7 +438,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Public Market Alley",
+        name: "퍼블릭 마켓 앨리",
         showInInbox: true,
         hasInfo: true,
         type: "market",
@@ -453,7 +453,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Itoman fishing cooperative Fish Center",
+        name: "이토만 어업협동조합 피시센터",
         showInInbox: true,
         hasInfo: true,
         type: "market",
@@ -483,7 +483,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Motobu Town Market",
+        name: "모토부 타운 마켓",
         showInInbox: true,
         hasInfo: true,
         type: "market",
@@ -498,7 +498,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "Uru Marche",
+        name: "우루 마르셰",
         showInInbox: true,
         hasInfo: true,
         type: "market",
@@ -513,7 +513,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "DFS 沖縄那覇空港店（国内線ターミナル）",
+        name: "DFS 오키나와 나하공항 국내선점",
         showInInbox: true,
         hasInfo: true,
         type: "duty-free",
@@ -528,7 +528,7 @@ const shopping: ShoppingData[] = [
         icon: "📍"
     },
     {
-        name: "免税店 DUTY FREE DFS",
+        name: "DFS 면세점",
         showInInbox: true,
         hasInfo: true,
         type: "duty-free",
