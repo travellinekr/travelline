@@ -2,15 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Users, HelpCircle, Sparkles } from 'lucide-react';
+import { Home, Users, HelpCircle, Wallet, Sparkles } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
 import { findCountryByCity, findCityNameKo } from '@/data/destinations';
 
 // 모바일 하단 탭바 — 삼성 브라우저 톤(반투명·명료).
-// 문의&요청은 로그인 사용자만 활성. AI 는 onAiClick 이 있을 때만 활성.
+// 문의&요청은 로그인 사용자만 활성. 경비/AI 는 각 핸들러(onExpenseClick/onAiClick)가 있을 때만 활성.
 // 여행보드(/room/*)에서는 최종여행지(destinationCity) 등록된 경우에만 활성 + ?from=board&city=... 부착.
 // 여행보드 밖(홈/커뮤니티 등)에서는 로그인만 하면 활성 (도시 필터 없음).
-export default function BottomNav({ onAiClick, destinationCity }: { onAiClick?: () => void; destinationCity?: string | null }) {
+export default function BottomNav({ onAiClick, onExpenseClick, destinationCity }: { onAiClick?: () => void; onExpenseClick?: () => void; destinationCity?: string | null }) {
   const { user } = useAuth();
   const pathname = usePathname();
   const fromBoard = pathname?.startsWith('/room/');
@@ -55,6 +55,18 @@ export default function BottomNav({ onAiClick, destinationCity }: { onAiClick?: 
             <span className="text-[11px] font-medium">문의&요청</span>
           </button>
         )}
+
+        {/* 경비 — 여행보드 전용 기능. 핸들러 없으면(커뮤니티 등) 비활성 */}
+        <button
+          type="button"
+          onClick={onExpenseClick}
+          disabled={!onExpenseClick}
+          className={onExpenseClick ? baseItem : disabledItem}
+          title={!onExpenseClick ? '여행보드 참여자만 이용 가능' : undefined}
+        >
+          <Wallet className="w-6 h-6" strokeWidth={2} />
+          <span className="text-[11px] font-medium">경비</span>
+        </button>
 
         {/* AI 는 사이트 시그니처 기능 — 아이콘만 은은한 오렌지, 라벨은 다른 탭과 동일 회색 */}
         <button

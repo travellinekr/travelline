@@ -5,11 +5,14 @@ export const AnchorContext = createContext<{
     selectedAnchorId: string | null;
     anchorCard: any | null;
     toggleAnchor: (cardId: string, card: any) => void;
+    /** 선택 해제 (경비 등록 후처럼 토글이 아니라 확실히 풀어야 할 때) */
+    clearAnchor: () => void;
     scrollToAnchor: () => void;
 }>({
     selectedAnchorId: null,
     anchorCard: null,
     toggleAnchor: () => {},
+    clearAnchor: () => {},
     scrollToAnchor: () => {},
 });
 

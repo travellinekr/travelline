@@ -118,6 +118,9 @@ type UserMeta = {
     name?: string;
     avatar?: string;
     role?: 'owner' | 'editor' | 'viewer';
+    // project_members 에 없는 방문자(비로그인 익명 · 공유링크로 막 들어온 로그인 사용자).
+    // role 만으로는 "진짜 viewer 멤버"와 구분되지 않아 별도 플래그로 내려준다.
+    isGuest?: boolean;
   };
 };
 

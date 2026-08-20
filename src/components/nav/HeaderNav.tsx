@@ -8,7 +8,8 @@ import { findCountryByCity, findCityNameKo } from '@/data/destinations';
 
 // 데스크톱 헤더 우측 nav — 삼성 브라우저 톤(텍스트만·명료).
 // destinationCity: 여행보드에서 DashboardHeader → HeaderNav 로 전달. 최종여행지 있을 때만 문의&요청 활성.
-function HeaderNavInner({ destinationCity }: { destinationCity?: string | null }) {
+// onExpenseClick: 경비 창 오픈 핸들러. 없으면(여행보드 밖) 비활성 — 문의&요청과 동일한 disabled 패턴.
+function HeaderNavInner({ destinationCity, onExpenseClick }: { destinationCity?: string | null; onExpenseClick?: () => void }) {
   const pathname = usePathname();
   const search = useSearchParams();
   const { user } = useAuth();
@@ -64,14 +65,32 @@ function HeaderNavInner({ destinationCity }: { destinationCity?: string | null }
           문의&요청
         </button>
       )}
+      {onExpenseClick ? (
+        <button
+          type="button"
+          onClick={onExpenseClick}
+          className="transition-colors text-slate-600 hover:text-emerald-600"
+        >
+          경비
+        </button>
+      ) : (
+        <button
+          type="button"
+          disabled
+          className="text-slate-300 cursor-not-allowed"
+          title="여행보드 참여자만 이용 가능"
+        >
+          경비
+        </button>
+      )}
     </nav>
   );
 }
 
-export default function HeaderNav({ destinationCity }: { destinationCity?: string | null } = {}) {
+export default function HeaderNav({ destinationCity, onExpenseClick }: { destinationCity?: string | null; onExpenseClick?: () => void } = {}) {
   return (
     <Suspense fallback={<nav className="hidden md:flex items-center gap-5" />}>
-      <HeaderNavInner destinationCity={destinationCity} />
+      <HeaderNavInner destinationCity={destinationCity} onExpenseClick={onExpenseClick} />
     </Suspense>
   );
 }

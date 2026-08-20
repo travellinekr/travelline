@@ -13,15 +13,26 @@ export function useAnchorLogic({
 }) {
     const [selectedAnchorId, setSelectedAnchorId] = useState<string | null>(null);
 
+    // 좌표 유무와 무관하게 선택 가능. 경비 등록이 교통·여행준비처럼 좌표 없는 카드에도
+    // 붙어야 하기 때문. 좌표가 없으면 거리 정렬만 조용히 비활성된다
+    // (sortByAnchorDistance 는 anchor 가 null 이면 원본을 그대로 반환하고,
+    //  Food/Accommodation Picker 는 anchorCard?.coordinates 가드가 이미 걸려 있음).
     const toggleAnchor = useCallback((cardId: string, card: any) => {
-        if (!card?.coordinates) return; // 좌표 없는 카드는 anchor 불가
+        if (!card) return;
         if (selectedAnchorId === cardId) {
             setSelectedAnchorId(null);
         } else {
             setSelectedAnchorId(cardId);
-            addToast('선택한 카드 기준으로 보관함에서 조회 됩니다.', 'info');
+            addToast(
+                card.coordinates
+                    ? '선택한 카드 기준으로 보관함에서 조회 됩니다.'
+                    : '카드를 선택했어요. 경비를 등록할 수 있어요.',
+                'info',
+            );
         }
     }, [selectedAnchorId, addToast]);
+
+    const clearAnchor = useCallback(() => setSelectedAnchorId(null), []);
 
     // anchor 카드 객체 (cards LiveMap에서 lookup)
     const anchorCard = useMemo(
@@ -46,7 +57,7 @@ export function useAnchorLogic({
     }, [selectedAnchorId, setInboxState]);
 
     return useMemo(
-        () => ({ selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor }),
-        [selectedAnchorId, anchorCard, toggleAnchor, scrollToAnchor]
+        () => ({ selectedAnchorId, anchorCard, toggleAnchor, clearAnchor, scrollToAnchor }),
+        [selectedAnchorId, anchorCard, toggleAnchor, clearAnchor, scrollToAnchor]
     );
 }
