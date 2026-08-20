@@ -20,9 +20,14 @@ interface ToastContainerProps {
 export function ToastContainer({ toasts, onClose, position = 'bottom-center' }: ToastContainerProps) {
     if (toasts.length === 0) return null;
 
+    // 모바일에는 하단 탭바(BottomNav)가 fixed bottom-0 으로 깔려 있어 토스트가 가린다.
+    // 탭바 높이(min-h-48px) + 여백 12px 만큼 띄우고, 홈 인디케이터 영역도 더한다.
+    // 탭바는 md 이상에서 숨겨지므로(md:hidden) 데스크톱은 원래 위치로 되돌린다.
+    const aboveNav = 'bottom-[calc(60px+env(safe-area-inset-bottom))] md:bottom-6';
+
     const posClass = position === 'bottom-center'
-        ? 'fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-[calc(100vw-24px)] md:w-auto flex flex-col-reverse gap-2'
-        : 'fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col-reverse gap-2';
+        ? `fixed ${aboveNav} left-1/2 -translate-x-1/2 z-50 w-[calc(100vw-24px)] md:w-auto flex flex-col-reverse gap-2`
+        : `fixed ${aboveNav} right-4 md:right-6 z-50 flex flex-col-reverse gap-2`;
 
     return (
         <div className={posClass}>

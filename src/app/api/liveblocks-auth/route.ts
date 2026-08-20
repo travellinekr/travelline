@@ -103,6 +103,7 @@ export async function POST(request: NextRequest) {
                     avatar: '',
                     color: `hsl(${Math.floor(Math.random() * 360)}, 60%, 55%)`,
                     role: 'viewer',
+                    isGuest: true,
                 },
             });
             const targetRoom = room || '*';
@@ -135,7 +136,7 @@ export async function POST(request: NextRequest) {
         if (!user) {
             const anonId = `anon_${crypto.randomUUID()}`;
             const session = liveblocks.prepareSession(anonId, {
-                userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8', role: 'viewer' },
+                userInfo: { name: '게스트', email: '', avatar: '', color: '#94a3b8', role: 'viewer', isGuest: true },
             });
             const targetRoom = room || '*';
             session.allow(targetRoom, session.READ_ACCESS);
@@ -195,6 +196,7 @@ export async function POST(request: NextRequest) {
                 avatar: isGuest ? '' : (user.user_metadata?.avatar_url || ''),
                 color: `hsl(${Math.abs(user.id.charCodeAt(0) * 137) % 360}, 70%, 50%)`,
                 role: role as 'owner' | 'editor' | 'viewer',
+                isGuest,
             },
         });
 

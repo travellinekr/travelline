@@ -274,9 +274,17 @@ export function DraggableCard({ card, onRemove, variant, isHeader, canEdit = tru
   // 메모 모달 상태 관리
   const [isNotesOpen, setIsNotesOpen] = useState(false);
 
-  // anchor 후보: 타임라인 변형(compact) + 헤더 아님 + 좌표 보유 (viewer는 선택 불가)
+  // anchor 후보: 타임라인 변형(compact) + 헤더 아님 (viewer는 선택 불가)
   // disablePhoto(확정되지 않은 일정 등 임시 보관 영역)면 클릭 anchor·사진 비활성
-  const isAnchorCandidate = variant === 'compact' && !isHeader && !!card?.coordinates && canEdit && !disablePhoto;
+  // 좌표 조건은 제거됨 — 교통·여행준비처럼 좌표 없는 카드에도 경비를 붙여야 하기 때문.
+  // 좌표가 없으면 거리 정렬만 비활성되고 선택 자체는 정상 동작한다.
+  // 항공 카드는 선택 대상에서 뺀다. 항공편을 등록하면 시스템이 일차에 자동으로 꽂아 넣는
+  // 카드라 사용자가 다루는 일정 카드가 아니고, 항공권 비용은 경비 창의 "+ 항공권" 에서
+  // 가는편/오는편을 한 쌍으로 받는다.
+  // 단 도시간 항공편 메타 카드(intercity-flight-*)는 사용자가 직접 끌어다 놓은 카드이고
+  // 비용을 넣을 다른 자리가 없으므로 선택 가능하게 남겨둔다.
+  const isAutoFlightCard = card.category === 'flight' && !card.id.startsWith('intercity-flight-');
+  const isAnchorCandidate = variant === 'compact' && !isHeader && canEdit && !disablePhoto && !isAutoFlightCard;
   const isAnchor = isAnchorCandidate && selectedAnchorId === card.id;
   const handleAnchorClick = isAnchorCandidate ? () => toggleAnchor(card.id, card) : undefined;
 

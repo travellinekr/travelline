@@ -10,6 +10,10 @@ export function useModalPrefetch() {
         const handle = idle(() => {
             import("@/components/board/IntercityFlightModal");
             import("@/components/board/IntercityMoveModal");
+            // 경비 모달도 dynamic 이라 버튼을 누른 뒤에야 청크를 받아온다.
+            // 유휴 시간에 미리 당겨두면 클릭 → 표시 사이의 대기가 사라진다.
+            import("@/components/board/ExpenseModal");
+            import("@/components/board/CardExpenseModal");
         });
         return () => {
             if (typeof handle === 'number' && win.cancelIdleCallback) win.cancelIdleCallback(handle);

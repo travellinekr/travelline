@@ -21,6 +21,16 @@ const AiAssistantPanel = dynamic(
     () => import("@/components/board/AiAssistant/AiAssistantPanel").then(m => m.AiAssistantPanel),
     { ssr: false, loading: () => null }
 );
+// 경비 창도 버튼 탭 후에만 열림 → 진입 청크에서 분리
+const ExpenseModal = dynamic(
+    () => import("@/components/board/ExpenseModal").then(m => m.ExpenseModal),
+    { ssr: false, loading: () => null }
+);
+
+const CardExpenseModal = dynamic(
+    () => import("@/components/board/CardExpenseModal").then(m => m.CardExpenseModal),
+    { ssr: false, loading: () => null }
+);
 import { ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
 import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
@@ -130,7 +140,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
 
     // 권한 체크
-    const { canEdit, isOwner, loading: roleLoading } = useRole(roomId);
+    const { canEdit, isOwner, isMember, loading: roleLoading } = useRole(roomId);
 
     // 온보딩: "여행 계획을 만든 사람(소유자)이 신규 보드에 처음 들어왔을 때"만 자동 노출.
     //  "한 번 본 사람"은 useOnboarding 내부의 사용자 단위 seen 플래그(Supabase user_metadata)로 관리.
@@ -355,8 +365,23 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     const { toasts, addToast, removeToast } = useToast();
 
+    // 경비 창 — 손님(project_members 미등록)은 undefined 를 넘겨 nav 버튼을 비활성화한다.
+    // 금전 정보라 API(403)와 DB RLS 로도 막혀 있어 UI/서버 이중 차단.
+    const [expenseOpen, setExpenseOpen] = useState(false);
+    const [cardExpenseOpen, setCardExpenseOpen] = useState(false);
+
     // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
     const anchorContextValue = useAnchorLogic({ cards, addToast, setInboxState });
+
+    // 경비 버튼의 두 가지 동작
+    //   카드를 고르지 않았으면 → 여행 전체 경비 창
+    //   카드를 골랐으면        → 그 카드에만 붙는 경비 입력 창
+    // anchorContextValue 를 참조하므로 반드시 위 선언 뒤에 있어야 한다.
+    const handleExpenseClick = useCallback(() => {
+        if (anchorContextValue.anchorCard) setCardExpenseOpen(true);
+        else setExpenseOpen(true);
+    }, [anchorContextValue.anchorCard]);
+    const expenseClickHandler = isMember ? handleExpenseClick : undefined;
 
     const containerRef = useRef<HTMLDivElement>(null);
     const { throttledUpdateMyPresence, handlePointerMove, handlePointerLeave } = usePresenceCursor({
@@ -1156,6 +1181,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 title={projectTitle}
                                 rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />}
                                 destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
+                                onExpenseClick={expenseClickHandler}
                             />
                             <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
                                 <LiveCursors />
@@ -1174,9 +1200,33 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     </Confirm>
                                 )}
 
-                                {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/AI. 문의&요청은 최종여행지 있을 때만 활성. */}
+                                {/* 경비 창 — 열릴 때만 렌더(dynamic 청크가 그때 로드됨) */}
+                                {expenseOpen && (
+                                    <ExpenseModal
+                                        projectId={roomId}
+                                        destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
+                                        onClose={() => setExpenseOpen(false)}
+                                    />
+                                )}
+
+                                {/* 카드별 경비 입력 — 카드를 선택한 상태에서 경비를 눌렀을 때 */}
+                                {cardExpenseOpen && anchorContextValue.anchorCard && (
+                                    <CardExpenseModal
+                                        projectId={roomId}
+                                        card={anchorContextValue.anchorCard as any}
+                                        destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
+                                        onClose={() => {
+                                            setCardExpenseOpen(false);
+                                            // 등록을 마쳤으면 카드 선택도 같이 푼다
+                                            anchorContextValue.clearAnchor();
+                                        }}
+                                    />
+                                )}
+
+                                {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/경비/AI. 문의&요청은 최종여행지 있을 때만 활성. */}
                                 <BottomNav
                                     onAiClick={isTripEnded(flightInfo) ? undefined : () => setAiPanelOpen(true)}
+                                    onExpenseClick={expenseClickHandler}
                                     destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
                                 />
 
