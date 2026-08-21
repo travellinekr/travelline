@@ -246,6 +246,8 @@ export default function Dashboard() {
         supabase.from("projects").select("*").eq("user_id", user.id).order("created_at", { ascending: false }),
         supabase.from("project_members").select("project_id, role, projects(*)").eq("user_id", user.id).neq("role", "owner"),
       ]);
+      // 소유 여부 — 수정·삭제 메뉴 노출 판단에 쓴다.
+      // 초대받은 보드(sharedProjects)도 같은 목록에 섞이므로 구분이 필요하다.
       const myIds = new Set((myProjects || []).map((p: any) => p.id));
       const sharedProjects = (sharedMembers || []).map((m: any) => m.projects).filter((p: any) => p && !myIds.has(p.id));
       const all = [...(myProjects || []), ...sharedProjects].sort(
@@ -258,6 +260,7 @@ export default function Dashboard() {
           type: (item.type as "travel" | "work") || "travel",
           desc: "새로운 계획입니다.",
           date: new Date(item.created_at).toLocaleDateString(),
+          isOwner: myIds.has(item.id),
         }))
       );
       setProjectsLoading(false);
@@ -274,7 +277,8 @@ export default function Dashboard() {
     if (error) { console.error("프로젝트 생성 실패:", error.message); alert(`저장 실패: ${error.message}`); return; }
     if (data && data[0]) {
       setProjects([
-        { id: data[0].id, title: data[0].name, type: "travel", desc: "새로운 계획입니다.", date: new Date(data[0].created_at).toLocaleDateString() },
+        // 내가 방금 만든 보드이므로 소유자
+        { id: data[0].id, title: data[0].name, type: "travel", desc: "새로운 계획입니다.", date: new Date(data[0].created_at).toLocaleDateString(), isOwner: true } as any,
         ...projects,
       ]);
     }
@@ -406,6 +410,7 @@ export default function Dashboard() {
                       key={project.id}
                       project={project}
                       colorIndex={idx}
+                      isOwner={(project as any).isOwner === true}
                       onDelete={(id) => setProjects((prev) => prev.filter((p) => p.id !== id))}
                       onEdit={(id, title) => setEditTarget({ id, title })}
                     />

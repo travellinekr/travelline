@@ -46,14 +46,30 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
 
     // 멤버 목록 재조회 (마운트 시 + 플로팅 메뉴 열릴 때마다)
-    const fetchMembers = useCallback(() => {
+    //
+    // 멤버 전용 API 라 세션 토큰이 필요하다. 비로그인 손님은 토큰이 없어 401 이 나고
+    // 목록이 비는데, 의도된 동작이다(다른 사람 정보를 볼 이유가 없다).
+    // 온라인 참여자 아바타는 Liveblocks presence 라 이것과 무관하게 계속 보인다.
+    //
+    // 공유 링크로 처음 들어온 로그인 사용자는 liveblocks-auth 의 viewer 자동 등록이
+    // fire-and-forget 이라 첫 호출이 403 일 수 있다. 메뉴를 열 때마다 다시 부르므로
+    // 다음 조회에서 정상화된다.
+    const fetchMembers = useCallback(async () => {
         if (!roomId) return;
-        fetch(`/api/projects/${roomId}/members`)
-            .then((res) => res.json())
-            .then(({ members: data }) => {
-                if (data) setMembers(data);
-            })
-            .catch((err) => console.error('[UserAvatarMenu] members fetch error:', err));
+        try {
+            const { data: { session } } = await supabase.auth.getSession();
+            const token = session?.access_token;
+            if (!token) { setMembers([]); return; }
+
+            const res = await fetch(`/api/projects/${roomId}/members`, {
+                headers: { Authorization: `Bearer ${token}` },
+            });
+            if (!res.ok) { setMembers([]); return; }
+            const { members: data } = await res.json();
+            if (data) setMembers(data);
+        } catch (err) {
+            console.error('[UserAvatarMenu] members fetch error:', err);
+        }
     }, [roomId]);
 
     useEffect(() => { fetchMembers(); }, [fetchMembers]);
