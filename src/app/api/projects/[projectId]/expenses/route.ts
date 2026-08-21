@@ -38,7 +38,7 @@ export async function GET(
             .eq('project_id', projectId)
             .order('created_at', { ascending: true }),
         admin.from('trip_expenses')
-            .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, title, payer_id, created_by, created_at')
+            .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, source_asset_id, title, payer_id, created_by, created_at')
             .eq('project_id', projectId)
             .order('created_at', { ascending: true }),
     ]);
@@ -120,11 +120,13 @@ export async function POST(
             payment_type: paymentType,
             amount,
             krw_amount: krwAmount,
+            // 환전으로 자동 생성된 지출만 값이 있다. 자산이 지워지면 FK CASCADE 로 함께 사라진다.
+            source_asset_id: body?.source_asset_id ?? null,
             title: body?.title ?? null,
             payer_id: body?.payer_id ?? null,
             created_by: userId,
         })
-        .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, title, payer_id, created_by, created_at')
+        .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, source_asset_id, title, payer_id, created_by, created_at')
         .single();
 
     if (error) {

@@ -30,6 +30,8 @@ export interface TripExpense {
     amount: number;
     /** 신용카드 외화 결제의 원화 환산액(근사). 그 외 수단은 null */
     krw_amount: number | null;
+    /** 환전으로 자동 생성된 지출의 출처 자산 id. 직접 등록한 지출은 null */
+    source_asset_id: string | null;
     title: string | null;
     created_at: string;
 }
@@ -146,23 +148,38 @@ export function useExpenses(projectId: string, enabled: boolean) {
     }, [enabled, reload]);
 
     // ── 집계 ────────────────────────────────────────────────
-    // 총사용한경비 = 환전·충전에 쓴 원화 + 신용카드 결제액
+    // 총사용한경비 = 환전·충전에 쓴 원화 + "따로 지갑에서 나간" 원화 지출
     //
-    //   현금·트래블카드 지출은 세지 않는다. 환전·충전 시점에 원화가 이미 나갔고
-    //   그 금액이 krw_cost 로 잡혀 있어, 여기서 또 세면 이중 계산이 된다.
-    //   신용카드만 대응하는 자산이 없는 후불이라 지출 자체를 센다.
+    //   기본 원칙은 원화가 실제로 나간 시점을 한 번만 세는 것이다.
     //
-    //   외화 신용카드 결제는 등록 시점에 서버가 환산해 둔 krw_amount 를 쓴다(근사값).
-    //   환율 조회에 실패해 null 인 건은 총액에서 빠지고, 화면에서 따로 알린다.
+    //   ▸ 신용카드 : 대응하는 자산이 없는 후불이라 지출 자체를 센다.
+    //                외화 결제는 등록 시점에 서버가 환산해 둔 krw_amount 를 쓴다(근사값).
+    //                환율 조회 실패로 null 인 건은 빠지고 화면에서 따로 알린다.
+    //
+    //   ▸ 현금·트래블카드 : 환전·충전해 둔 자산에서 나가는 돈이라 원칙적으로 세지 않는다.
+    //                그 원화는 이미 자산의 krw_cost 로 셌기 때문.
+    //                단 대응 자산이 없는 원화 지출(원화 현금으로 항공권 결제 등)은
+    //                어디에도 안 잡혀 그대로 증발한다 → 이 경우에만 지출을 센다.
     const krwFromAssets = useMemo(
         () => assets.reduce((s, a) => s + (a.krw_cost ?? 0), 0),
         [assets],
     );
+
+    // "통화|수단" 조합으로 등록된 자산이 있는지. 있으면 그 지출은 자산에서 빠져나간 것.
+    const assetKeys = useMemo(
+        () => new Set(assets.map((a) => `${a.currency}|${a.asset_type}`)),
+        [assets],
+    );
+
     const krwFromExpenses = useMemo(
         () => expenses
-            .filter((e) => e.payment_type === 'credit_card')
+            .filter((e) =>
+                e.payment_type === 'credit_card'
+                // 대응 자산이 없는 원화 지출만 추가로 센다(이중 계산 방지)
+                || (e.currency === 'KRW' && !assetKeys.has(`KRW|${e.payment_type}`)),
+            )
             .reduce((s, e) => s + (e.currency === 'KRW' ? e.amount : (e.krw_amount ?? 0)), 0),
-        [expenses],
+        [expenses, assetKeys],
     );
     const totalSpentKrw = krwFromAssets + krwFromExpenses;
 
@@ -314,6 +331,9 @@ export function useExpenses(projectId: string, enabled: boolean) {
                     currency: fromCurrency,
                     payment_type: assetType,
                     amount: fromAmount,
+                    // 방금 만든 자산에 묶어 둔다. 그 자산을 지우면 이 지출도 DB 에서 함께 지워져
+                    // 출발 통화 잔액이 깎인 채로 남는 일이 없다.
+                    source_asset_id: asset.id,
                     title: `${CURRENCY_MAP[toCurrency]?.name ?? toCurrency} 환전`,
                 }),
             });
@@ -324,6 +344,9 @@ export function useExpenses(projectId: string, enabled: boolean) {
     const deleteAsset = useCallback(async (id: string) => {
         await authFetch(`/assets/${id}`, { method: 'DELETE' });
         setAssets((prev) => prev.filter((a) => a.id !== id));
+        // 환전 짝 지출은 DB 에서 FK CASCADE 로 이미 지워졌다.
+        // 전체를 다시 불러오면 화면이 깜빡이므로 로컬 state 에서도 같은 기준으로 걷어낸다.
+        setExpenses((prev) => prev.filter((e) => e.source_asset_id !== id));
     }, [authFetch]);
 
     const setBudgetAmount = useCallback(async (amountKrw: number) => {

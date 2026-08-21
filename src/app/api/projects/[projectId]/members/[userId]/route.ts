@@ -105,6 +105,33 @@ export async function PATCH(
                 .eq('user_id', userId);
             return NextResponse.json({ error: '위임 처리에 실패했어요.' }, { status: 500 });
         }
+        // 3) projects.user_id 도 새 소유자로 갱신
+        //
+        // 소유권이 project_members.role 과 projects.user_id 두 곳에 나뉘어 저장돼 있고,
+        // 기능마다 보는 쪽이 다르다(목록은 둘 다, 경비는 user_id, 멤버 관리는 role).
+        // 여기서 role 만 바꾸면 두 값이 어긋나 이런 일이 생긴다.
+        //   - 새 소유자: user_id 갈래에도, members 갈래(.neq('owner'))에도 안 걸려
+        //                메인화면 목록에서 보드가 통째로 사라진다.
+        //   - 이전 소유자: projects.user_id 가 그대로라 경비 기능에서 계속 owner 로 남는다.
+        // 두 값을 반드시 함께 갱신해 어긋날 여지를 없앤다.
+        const { error: e3 } = await admin
+            .from('projects')
+            .update({ user_id: userId })
+            .eq('id', projectId);
+        if (e3) {
+            console.error('[members PATCH] projects.user_id 갱신 실패, 롤백 시도:', e3.message);
+            await admin
+                .from('project_members')
+                .update({ role: target.role })
+                .eq('project_id', projectId)
+                .eq('user_id', userId);
+            await admin
+                .from('project_members')
+                .update({ role: 'owner' })
+                .eq('project_id', projectId)
+                .eq('user_id', requesterId);
+            return NextResponse.json({ error: '위임 처리에 실패했어요.' }, { status: 500 });
+        }
         return NextResponse.json({ success: true, newRole: 'owner', wasTransfer: true });
     }
 

@@ -83,7 +83,7 @@ export async function PATCH(
         .update(patch)
         .eq('id', expenseId)
         .eq('project_id', projectId)
-        .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, title, payer_id, created_by, created_at')
+        .select('id, card_id, card_name, card_category, currency, payment_type, amount, krw_amount, source_asset_id, title, payer_id, created_by, created_at')
         .maybeSingle();
 
     if (error) {
