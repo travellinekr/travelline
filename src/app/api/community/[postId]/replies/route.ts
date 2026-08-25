@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { isAdminEmail } from '@/lib/admin/auth';
+import { withAuthorName } from '@/lib/server/communityAuthor';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -50,7 +51,7 @@ export async function GET(
         .order('created_at', { ascending: true });
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    return NextResponse.json({ replies: data ?? [] });
+    return NextResponse.json({ replies: (data ?? []).map(withAuthorName) });
 }
 
 // POST /api/community/[postId]/replies { content }
@@ -93,5 +94,5 @@ export async function POST(
         .single();
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    return NextResponse.json({ reply: data });
+    return NextResponse.json({ reply: withAuthorName(data) });
 }

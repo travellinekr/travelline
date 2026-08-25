@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { isAdminEmail } from '@/lib/admin/auth';
+import { withAuthorName } from '@/lib/server/communityAuthor';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -65,8 +66,9 @@ export async function GET(request: NextRequest) {
         ? 'private, max-age=0, stale-while-revalidate=30'
         : 'public, max-age=0, stale-while-revalidate=30';
 
+    // 작성자는 표시명만 내보낸다 (이메일 원본은 응답에 싣지 않음)
     return NextResponse.json(
-        { posts: data ?? [], total: count ?? 0, page, limit },
+        { posts: (data ?? []).map(withAuthorName), total: count ?? 0, page, limit },
         { headers: { 'Cache-Control': cacheHeader } }
     );
 }
@@ -115,5 +117,5 @@ export async function POST(request: NextRequest) {
         .single();
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    return NextResponse.json({ post: data });
+    return NextResponse.json({ post: withAuthorName(data) });
 }

@@ -37,7 +37,8 @@ export interface CommunityPost {
     title: string;
     content?: string; // 목록 API 응답에서는 미포함 (상세 API 에서만 반환)
     author_id: string | null;
-    author_email: string;
+    /** 표시명 — 서버가 이메일의 @ 앞부분만 잘라서 내려준다(원본 이메일은 응답에 없음) */
+    author_name: string;
     view_count: number;
     reply_count: number;
     created_at: string;
@@ -49,7 +50,8 @@ export interface CommunityReply {
     post_id: string;
     content: string;
     author_id: string | null;
-    author_email: string;
+    /** 표시명 — 서버가 잘라서 내려준다 */
+    author_name: string;
     created_at: string;
     updated_at: string;
 }
@@ -64,8 +66,8 @@ export function formatDate(iso: string): string {
     return `${y}-${m}-${day}`;
 }
 
-// 이메일에서 표시명 추출 (앞부분만)
-export function shortAuthor(email: string): string {
-    if (!email) return '사용자';
-    return email.split('@')[0];
+// 표시명 폴백 — 서버가 이미 잘라 보내지만 빈 값일 때를 대비한다.
+export function shortAuthor(name: string): string {
+    if (!name) return '사용자';
+    return name;
 }

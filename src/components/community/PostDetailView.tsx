@@ -204,7 +204,7 @@ export default function PostDetailView({ postId, onBack, onDeleted, embedded = f
 
                         <h1 className="text-lg md:text-xl font-bold text-slate-800 mb-2">{post.title}</h1>
                         <div className="text-xs text-slate-400 mb-4 flex flex-wrap items-center gap-x-2 gap-y-0.5">
-                            <span>{shortAuthor(post.author_email)}</span>
+                            <span>{shortAuthor(post.author_name)}</span>
                             <span>·</span>
                             <span>{formatDate(post.created_at)}</span>
                             {post.updated_at !== post.created_at && <span className="text-[10px]">(수정 {formatDate(post.updated_at)})</span>}
@@ -258,7 +258,7 @@ export default function PostDetailView({ postId, onBack, onDeleted, embedded = f
                                             ) : (
                                                 <>
                                                     <div className="flex items-center gap-2 text-[11px] text-slate-400 mb-1">
-                                                        <span className="font-medium text-slate-600">{shortAuthor(reply.author_email)}</span>
+                                                        <span className="font-medium text-slate-600">{shortAuthor(reply.author_name)}</span>
                                                         <span>·</span>
                                                         <span>{formatDate(reply.created_at)}</span>
                                                         {reply.updated_at !== reply.created_at && <span className="text-[10px]">(수정)</span>}

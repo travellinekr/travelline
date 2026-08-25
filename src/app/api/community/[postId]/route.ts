@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { isAdminEmail } from '@/lib/admin/auth';
+import { withAuthorName } from '@/lib/server/communityAuthor';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -54,7 +55,7 @@ export async function GET(
         .eq('id', postId)
         .then(() => {});
 
-    return NextResponse.json({ post });
+    return NextResponse.json({ post: withAuthorName(post) });
 }
 
 // PATCH /api/community/[postId] — 수정. 작성자만
@@ -107,7 +108,7 @@ export async function PATCH(
         .single();
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    return NextResponse.json({ post: data });
+    return NextResponse.json({ post: withAuthorName(data) });
 }
 
 // DELETE /api/community/[postId] — 작성자 또는 관리자
