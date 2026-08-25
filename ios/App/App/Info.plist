@@ -44,11 +44,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<!-- 아이폰: 세로 고정 (가로모드 차단). 아이패드(~ipad)는 멀티태스킹 유지를 위해 4방향 그대로 둔다.
+	     아이패드까지 세로로 막으려면 UIRequiresFullScreen=true 가 함께 필요하고, Split View 가 꺼진다. -->
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
