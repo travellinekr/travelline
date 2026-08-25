@@ -202,7 +202,7 @@ export default function CommunityBrowser({
                     )}
                 </p>
                 <p className="text-[11px] text-slate-400 mt-0.5 md:mt-0 md:shrink-0 md:whitespace-nowrap truncate text-left">
-                    {shortAuthor(post.author_email)}
+                    {shortAuthor(post.author_name)}
                     <span className="ml-2">· {formatDate(post.created_at)}</span>
                     <span className="ml-2">· 조회 {post.view_count}</span>
                 </p>

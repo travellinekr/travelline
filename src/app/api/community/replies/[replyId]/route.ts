@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import { isAdminEmail } from '@/lib/admin/auth';
+import { withAuthorName } from '@/lib/server/communityAuthor';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -53,7 +54,7 @@ export async function PATCH(
         .single();
 
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-    return NextResponse.json({ reply: data });
+    return NextResponse.json({ reply: withAuthorName(data) });
 }
 
 // DELETE /api/community/replies/[replyId] — 작성자 또는 관리자
