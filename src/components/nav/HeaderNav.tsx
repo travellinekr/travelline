@@ -9,7 +9,7 @@ import { findCountryByCity, findCityNameKo } from '@/data/destinations';
 // 데스크톱 헤더 우측 nav — 삼성 브라우저 톤(텍스트만·명료).
 // destinationCity: 여행보드에서 DashboardHeader → HeaderNav 로 전달. 최종여행지 있을 때만 문의&요청 활성.
 // onExpenseClick: 경비 창 오픈 핸들러. 없으면(여행보드 밖) 비활성 — 문의&요청과 동일한 disabled 패턴.
-function HeaderNavInner({ destinationCity, onExpenseClick }: { destinationCity?: string | null; onExpenseClick?: () => void }) {
+function HeaderNavInner({ destinationCity, onExpenseClick, onCommunityClick }: { destinationCity?: string | null; onExpenseClick?: () => void; onCommunityClick?: (tab: 'notice' | 'inquiry') => void }) {
   const pathname = usePathname();
   const search = useSearchParams();
   const { user } = useAuth();
@@ -32,6 +32,11 @@ function HeaderNavInner({ destinationCity, onExpenseClick }: { destinationCity?:
     : '/community?type=inquiry';
   const inquiryEnabled = !!user && !!inquiryHref;
   const inquiryTitle = isBoard && !boardCity ? '최종여행지 등록 후 이용 가능' : (!user ? '로그인 후 이용 가능' : undefined);
+  // 여행보드에서는 커뮤니티를 라우팅 없이 모달로 띄운다(보드 언마운트 방지 → Liveblocks 소켓 유지).
+  // 핸들러가 없으면(보드 밖) 기존처럼 링크로 이동.
+  const asModal = !!onCommunityClick;
+  const linkClass = (active: boolean) =>
+    `transition-colors ${active ? 'text-emerald-600' : 'text-slate-600 hover:text-emerald-600'}`;
 
   return (
     <nav className="hidden md:flex items-center gap-5 text-sm font-medium">
@@ -42,17 +47,21 @@ function HeaderNavInner({ destinationCity, onExpenseClick }: { destinationCity?:
       >
         홈
       </Link>
-      <Link
-        href={communityHref}
-        className={`transition-colors ${isCommunityRoot ? 'text-emerald-600' : 'text-slate-600 hover:text-emerald-600'}`}
-      >
-        커뮤니티
-      </Link>
-      {inquiryEnabled ? (
-        <Link
-          href={inquiryHref!}
-          className={`transition-colors ${isInquiry ? 'text-emerald-600' : 'text-slate-600 hover:text-emerald-600'}`}
-        >
+      {asModal ? (
+        <button type="button" onClick={() => onCommunityClick!('notice')} className={linkClass(isCommunityRoot)}>
+          커뮤니티
+        </button>
+      ) : (
+        <Link href={communityHref} className={linkClass(isCommunityRoot)}>
+          커뮤니티
+        </Link>
+      )}
+      {inquiryEnabled && asModal ? (
+        <button type="button" onClick={() => onCommunityClick!('inquiry')} className={linkClass(isInquiry)}>
+          문의&요청
+        </button>
+      ) : inquiryEnabled ? (
+        <Link href={inquiryHref!} className={linkClass(isInquiry)}>
           문의&요청
         </Link>
       ) : (
@@ -87,10 +96,10 @@ function HeaderNavInner({ destinationCity, onExpenseClick }: { destinationCity?:
   );
 }
 
-export default function HeaderNav({ destinationCity, onExpenseClick }: { destinationCity?: string | null; onExpenseClick?: () => void } = {}) {
+export default function HeaderNav({ destinationCity, onExpenseClick, onCommunityClick }: { destinationCity?: string | null; onExpenseClick?: () => void; onCommunityClick?: (tab: 'notice' | 'inquiry') => void } = {}) {
   return (
     <Suspense fallback={<nav className="hidden md:flex items-center gap-5" />}>
-      <HeaderNavInner destinationCity={destinationCity} onExpenseClick={onExpenseClick} />
+      <HeaderNavInner destinationCity={destinationCity} onExpenseClick={onExpenseClick} onCommunityClick={onCommunityClick} />
     </Suspense>
   );
 }
