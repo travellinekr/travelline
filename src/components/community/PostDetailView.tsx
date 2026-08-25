@@ -9,6 +9,7 @@ import { supabase } from '@/lib/supabaseClient';
 import { Confirm } from '@/components/board/Confirm';
 import { ToastContainer } from '@/components/common/ToastContainer';
 import { useToast } from '@/hooks/useToast';
+import { isClientAdmin } from '@/lib/admin/clientAdmin';
 
 // 게시글 본문 + 답변. 페이지 껍데기가 없는 순수 뷰라 두 곳에서 그대로 쓴다.
 //  - /community/[postId] 페이지 (직접 진입·공유 링크)
@@ -33,8 +34,6 @@ function isBlockJson(text: string): boolean {
     }
 }
 
-const CLIENT_ADMIN_EMAILS = ['hadesdos@gmail.com'];
-
 interface PostDetailViewProps {
     postId: string;
     /** "← 목록" 클릭 */
@@ -47,7 +46,8 @@ interface PostDetailViewProps {
 
 export default function PostDetailView({ postId, onBack, onDeleted, embedded = false }: PostDetailViewProps) {
     const { user } = useAuth();
-    const isAdmin = !!user?.email && CLIENT_ADMIN_EMAILS.includes(user.email.toLowerCase());
+    // 관리자는 신고 대응용으로 남의 글·답변을 삭제할 수 있다(수정은 불가). 서버·RLS 규칙과 동일.
+    const isAdmin = isClientAdmin(user?.email);
 
     const [post, setPost] = useState<CommunityPost | null>(null);
     const [replies, setReplies] = useState<CommunityReply[]>([]);
