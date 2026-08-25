@@ -203,22 +203,24 @@ function Footer() {
           <p className="text-xs text-slate-400">© 2026 YoonTech. All rights reserved.</p>
         </div>
 
-        {/* 약관/방침 팝업 트리거 */}
+        {/* 약관/방침 — 클릭하면 지금처럼 팝업이 뜨지만 마크업은 실제 링크다.
+            구글 OAuth 심사는 홈페이지에 개인정보처리방침 "링크"가 있는지 보고,
+            크롤러에게 <button> 은 링크가 아니다. 새 탭으로 열기·링크 복사도 함께 동작. */}
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-xs font-medium text-slate-400">
-          <button
-            type="button"
-            onClick={() => setLegalOpen('terms')}
+          <a
+            href="/terms"
+            onClick={(e) => { e.preventDefault(); setLegalOpen('terms'); }}
             className="hover:text-slate-600 transition-colors"
           >
             이용약관
-          </button>
-          <button
-            type="button"
-            onClick={() => setLegalOpen('privacy')}
+          </a>
+          <a
+            href="/privacy"
+            onClick={(e) => { e.preventDefault(); setLegalOpen('privacy'); }}
             className="hover:text-slate-600 transition-colors"
           >
             개인정보처리방침
-          </button>
+          </a>
         </div>
       </div>
       {legalOpen && <LegalModal kind={legalOpen} onClose={() => setLegalOpen(null)} />}
@@ -297,9 +299,15 @@ export default function Dashboard() {
   };
 
   if (loading) {
+    // 세션 확인 전에는 푸터까지 렌더되지 않아 방침 링크가 문서에서 사라진다.
+    // 어떤 상태에서든 링크가 존재하도록 여기서도 같은 주소를 노출한다.
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center gap-6">
         <div className="w-8 h-8 border-4 border-orange-400 border-t-transparent rounded-full animate-spin" />
+        <div className="flex items-center gap-4 text-[11px] text-slate-400">
+          <a href="/terms" className="hover:text-slate-600 transition-colors">이용약관</a>
+          <a href="/privacy" className="hover:text-slate-600 transition-colors">개인정보처리방침</a>
+        </div>
       </div>
     );
   }
