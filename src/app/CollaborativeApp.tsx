@@ -31,6 +31,12 @@ const CardExpenseModal = dynamic(
     () => import("@/components/board/CardExpenseModal").then(m => m.CardExpenseModal),
     { ssr: false, loading: () => null }
 );
+
+// 커뮤니티도 보드 안 모달로 연다 — 라우팅을 하면 보드가 언마운트되고 Liveblocks 가 재연결된다.
+const CommunityModal = dynamic(
+    () => import("@/components/community/CommunityModal"),
+    { ssr: false, loading: () => null }
+);
 import { ChevronLeft, ChevronRight, Package, Lock, LockOpen } from "lucide-react";
 import { useIntercityFlightRegistration } from "@/hooks/useIntercityFlightRegistration";
 import { useIntercityMoveRegistration } from "@/hooks/useIntercityMoveRegistration";
@@ -105,7 +111,7 @@ import type { OnboardingStep } from "@/components/onboarding/OnboardingTour";
 // 온보딩 코치마크는 최초 소유자만 봄 → 메인 청크 + 한글 손글씨 폰트 트리거를 지연
 const OnboardingTour = dynamic(() => import("@/components/onboarding/OnboardingTour").then((m) => m.OnboardingTour), { ssr: false, loading: () => null });
 import { useOnboarding } from "@/hooks/useOnboarding";
-import { DESTINATION_DATA, FALLBACK_IMAGES } from "@/data/destinations";
+import { DESTINATION_DATA, FALLBACK_IMAGES, findCityNameKo, findCountryByCity } from "@/data/destinations";
 
 type CategoryType = "destination" | "preparation" | "flight" | "hotel" | "food" | "shopping" | "transport";
 
@@ -369,6 +375,8 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     // 금전 정보라 API(403)와 DB RLS 로도 막혀 있어 UI/서버 이중 차단.
     const [expenseOpen, setExpenseOpen] = useState(false);
     const [cardExpenseOpen, setCardExpenseOpen] = useState(false);
+    // 커뮤니티 모달 — 열려 있으면 그 게시판(notice/inquiry), 닫혀 있으면 null
+    const [communityTab, setCommunityTab] = useState<'notice' | 'inquiry' | null>(null);
 
     // 거리 정렬 기준 카드(anchor) — 타임라인 카드 single-tap으로 활성/해제
     const anchorContextValue = useAnchorLogic({ cards, addToast, setInboxState });
@@ -453,6 +461,17 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
     // AI 플래너 — 대화용 여행지 이름 + 공유 대화 컨트롤러(패널 개폐와 무관하게 대화 유지)
     const aiDestinationName = (destinationCard as any)?.text || (destinationCard as any)?.city || undefined;
+
+    // 커뮤니티 모달의 필터 프리셋. destinationCity 는 영문 slug("osaka") 라 한글로 정규화한다
+    // (게시글의 city 는 한글로 저장되고, 해외안전정보는 나라 단위 필터를 쓴다).
+    const boardCityKo = useMemo(() => {
+        const raw = (destinationCard as any)?.city || (destinationCard as any)?.text || '';
+        return raw ? (findCityNameKo(String(raw).trim()) || '') : '';
+    }, [destinationCard]);
+    const boardCountryKo = useMemo(
+        () => (boardCityKo ? (findCountryByCity(boardCityKo) || '') : ''),
+        [boardCityKo],
+    );
 
     // 현재 보드에 배치된 일정(일차별 카드 name/category) — AI 컨텍스트용(기간 재질문 방지 + 부분수정).
     // day1..연속 일차만(첫 빈 번호에서 중단, Timeline 규칙과 동일).
@@ -1182,6 +1201,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                 rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />}
                                 destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
                                 onExpenseClick={expenseClickHandler}
+                                onCommunityClick={(tab) => setCommunityTab(tab)}
                             />
                             <div ref={containerRef} className="w-full flex-1 min-h-0 max-w-6xl mx-auto bg-white flex flex-col border-x border-gray-100 shadow-xl relative overflow-hidden" onPointerMove={handlePointerMove} onPointerLeave={handlePointerLeave}>
                                 <LiveCursors />
@@ -1223,10 +1243,21 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                                     />
                                 )}
 
+                                {/* 커뮤니티 — 열릴 때만 렌더. 라우팅이 없어 보드와 Liveblocks 연결이 그대로 유지된다 */}
+                                {communityTab && (
+                                    <CommunityModal
+                                        initialTab={communityTab}
+                                        city={boardCityKo}
+                                        country={boardCountryKo}
+                                        onClose={() => setCommunityTab(null)}
+                                    />
+                                )}
+
                                 {/* 모바일 하단 탭바 — 홈/커뮤니티/문의&요청/경비/AI. 문의&요청은 최종여행지 있을 때만 활성. */}
                                 <BottomNav
                                     onAiClick={isTripEnded(flightInfo) ? undefined : () => setAiPanelOpen(true)}
                                     onExpenseClick={expenseClickHandler}
+                                    onCommunityClick={(tab) => setCommunityTab(tab)}
                                     destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
                                 />
 
