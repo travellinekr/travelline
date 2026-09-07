@@ -1198,6 +1198,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
                         <div className="h-dvh w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
                             <DashboardHeader
                                 title={projectTitle}
+                                navAtSplit
                                 rightSlot={<UserAvatarMenu shareUrl={publicUrl} roomId={roomId} addToast={addToast} />}
                                 destinationCity={(destinationCard as any)?.city || (destinationCard as any)?.text || null}
                                 onExpenseClick={expenseClickHandler}
