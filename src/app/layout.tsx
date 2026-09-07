@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Nanum_Pen_Script } from "next/font/google";
 import Script from "next/script";
+import { ADSENSE_CLIENT } from "@/lib/adsense";
 import { Suspense } from "react";
 import { GlobalSessionWatcher } from "@/components/auth/GlobalSessionWatcher";
 import { AppUrlOpenWatcher } from "@/components/AppUrlOpenWatcher";
@@ -61,6 +62,18 @@ export default function RootLayout({
 
         {/* Google Maps 인증 실패 시 에러 억제 (개발 환경 RefererNotAllowedMapError 방지) */}
         <script dangerouslySetInnerHTML={{ __html: 'window.gm_authFailure = function() { console.warn("[Maps] API 키 도메인 설정을 확인하세요."); };' }} />
+
+        {/* AdSense — 게시자 ID 가 설정된 환경에서만 로드한다.
+            승인 전(값 없음)에는 아예 요청하지 않아 로딩에 영향이 없다.
+            주의: 앱(웹뷰)에서는 AdSense 직접 게재가 정책 위반이라,
+            앱 출시 시 WebView API for Ads 로 웹뷰를 GMA SDK 에 등록해야 한다. */}
+        {ADSENSE_CLIENT && (
+          <Script
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+          />
+        )}
 
         {/* Google Maps API */}
         <Script

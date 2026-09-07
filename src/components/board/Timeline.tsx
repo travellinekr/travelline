@@ -11,6 +11,8 @@ import { useStorage } from "@liveblocks/react/suspense";
 // 일차 지도 모달은 지도 버튼 클릭 시에만 열림 → 메인 청크에서 분리 (google.maps 사용부 지연)
 const DayMapModal = dynamic(() => import("./DayMapModal").then((m) => m.DayMapModal), { ssr: false, loading: () => null });
 import { EmptyState } from "./EmptyState";
+import { DayAdSlot } from "./DayAdSlot";
+import { useIsPaidPlan } from "@/contexts/PlanContext";
 import { buildSharedPlanSnapshot, calcDuration } from "@/utils/sharedPlanSnapshot";
 import { useSessionContext, getCachedAccessToken } from "@/contexts/SessionContext";
 import { ShareConfirmModal } from "@/components/modals/ShareConfirmModal";
@@ -212,7 +214,7 @@ function extractIATA(text: string): string | null {
   return null;
 }
 
-const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo, lodgingMarker = null, dataTour }: any) {
+const DaySection = memo(function DaySection({ dayId, title, date, cards, color = "emerald", onMapClick, canEdit = true, flightInfo, lodgingMarker = null, dataTour, showAd = false }: any) {
   const { setNodeRef, isOver } = useDroppable({ id: `${dayId}-timeline` });
   const { active, over } = useDndContext();
 
@@ -471,6 +473,10 @@ const DaySection = memo(function DaySection({ dayId, title, date, cards, color =
             if (!card) return null;
             return <DraggableCard key={card.id} card={card} variant="compact" canEdit={canEdit} isFutureDay={isFutureDay} />;
           })}
+
+          {/* 광고 자리 — 카드가 있을 때만. 드롭존 "안"에 두어야 광고 위에 떨어뜨려도 정상 안착한다.
+              (밖에 두면 시각적으로는 일차의 일부인데 드롭이 안 되는 구역이 생긴다) */}
+          {showAd && cards.length > 0 && <DayAdSlot />}
         </div>
       </SortableContext>
     </div>
@@ -487,6 +493,9 @@ export const Timeline = memo(function Timeline({
   projectTitle,
 }: any) {
   const { active } = useDndContext();
+
+  // 유료 프로젝트면 광고를 숨긴다. 3년이 지나 paid_until 이 만료되면 다시 노출된다.
+  const adsEnabled = !useIsPaidPlan();
 
   // 항공편 정보 가져오기
   const flightInfo = useStorage((root) => root.flightInfo) as any;
@@ -655,7 +664,7 @@ export const Timeline = memo(function Timeline({
                   dataTour="day0"
                 />
 
-                {dayColumns.map(day => (
+                {dayColumns.map((day, idx) => (
                   <DaySection
                     key={day.id}
                     dayId={day.id}
@@ -666,6 +675,9 @@ export const Timeline = memo(function Timeline({
                     onMapClick={handleMapClick}
                     flightInfo={flightInfo}
                     lodgingMarker={lodgingByDay.get(parseInt(day.id.replace('day', ''), 10)) || null}
+                    // 출발일(첫 일차)·도착일(마지막 일차)은 광고 제외.
+                    // day0(준비)·여행지 후보 섹션은 애초에 이 루프 밖이라 해당 없음.
+                    showAd={adsEnabled && idx > 0 && idx < dayColumns.length - 1}
                   />
                 ))}
 

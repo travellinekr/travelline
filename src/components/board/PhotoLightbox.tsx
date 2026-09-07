@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useIsPaidPlan } from "@/contexts/PlanContext";
 import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight, Trash2, Download, Loader2 } from 'lucide-react';
 import { Confirm } from './Confirm';
@@ -16,6 +17,7 @@ interface PhotoLightboxProps {
 }
 
 // 여행 종료 + 14일 지나면 원본이 서버에서 삭제되므로 클라 렌더 시점에도 만료로 판정.
+// 단 유료 프로젝트는 크론이 원본을 지우지 않는다(3년 보관) → 이 판정을 건너뛴다.
 const ORIGINAL_RETENTION_DAYS = 14;
 function isOriginalExpired(tripEndDate?: string | null): boolean {
     if (!tripEndDate) return false;
@@ -27,7 +29,9 @@ function isOriginalExpired(tripEndDate?: string | null): boolean {
 
 // 풀스크린 사진 뷰어 — 원본 이미지 표시, 좌우 탐색, 삭제 확인
 export function PhotoLightbox({ isOpen, photos, initialIndex, canEdit = true, tripEndDate, onClose, onDelete }: PhotoLightboxProps) {
-    const originalExpired = isOriginalExpired(tripEndDate);
+    // 유료 프로젝트는 원본이 살아 있으므로 만료로 표시하거나 다운로드를 막으면 안 된다.
+    const isPaidPlan = useIsPaidPlan();
+    const originalExpired = !isPaidPlan && isOriginalExpired(tripEndDate);
     const [index, setIndex] = useState(initialIndex);
     const [pendingDelete, setPendingDelete] = useState(false);
     const [isDownloading, setIsDownloading] = useState(false);
