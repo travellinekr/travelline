@@ -5,6 +5,7 @@ import { Plus, MapPin, Lightbulb, Plane, Star } from "lucide-react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import { BrandLoader } from "@/components/BrandLoader";
 import ProjectCard from "@/components/dashboard/ProjectCard";
 import CreateProjectModal from "@/components/dashboard/CreateProjectModal";
 import { Project } from "@/types/project";
@@ -303,7 +304,7 @@ export default function Dashboard() {
     // 어떤 상태에서든 링크가 존재하도록 여기서도 같은 주소를 노출한다.
     return (
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center gap-6">
-        <div className="w-8 h-8 border-4 border-orange-400 border-t-transparent rounded-full animate-spin" />
+        <BrandLoader text="불러오고 있습니다" size={64} />
         <div className="flex items-center gap-4 text-[11px] text-slate-400">
           <a href="/terms" className="hover:text-slate-600 transition-colors">이용약관</a>
           <a href="/privacy" className="hover:text-slate-600 transition-colors">개인정보처리방침</a>

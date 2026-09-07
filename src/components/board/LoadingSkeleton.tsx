@@ -1,57 +1,16 @@
 import React from "react";
+import { AssemblingLogo, WavyText, BrandLoaderStyles, TopProgressBar } from "@/components/BrandLoader";
 
-/**
- * 로딩용 Travelline 로고 조립 애니메이션.
- * 주황(T 가로획 + 왼쪽 3줄)은 고정, 초록(틸) 3줄이 오른쪽에서 하나씩 미끄러져 들어와 완성 → 반복.
- * 순수 CSS/SVG (keyframe 은 LoadingSkeleton 하단 <style> 참고). reduced-motion 존중.
- */
-function AssemblingLogo({ size = 60 }: { size?: number }) {
-    const orange = '#FF6B47';
-    const teal = '#5BBFAD';
-    return (
-        <svg width={size} height={Math.round(size * 36 / 40)} viewBox="0 0 40 36" fill="none" aria-hidden="true">
-            {/* 주황 — 고정 */}
-            <rect x="0" y="0" width="40" height="8" rx="2" fill={orange} />
-            <rect x="0" y="12" width="14" height="7" rx="1.5" fill={orange} />
-            <rect x="0" y="21" width="14" height="7" rx="1.5" fill={orange} />
-            <rect x="0" y="30" width="14" height="6" rx="1.5" fill={orange} />
-            {/* 초록(틸) — 오른쪽에서 하나씩 슬라이드-인 */}
-            <rect className="tl-tb tl-tb1" x="16" y="12" width="24" height="7" rx="1.5" fill={teal} />
-            <rect className="tl-tb tl-tb2" x="16" y="21" width="24" height="7" rx="1.5" fill={teal} />
-            <rect className="tl-tb tl-tb3" x="16" y="30" width="24" height="6" rx="1.5" fill={teal} />
-        </svg>
-    );
-}
-
-/**
- * 로딩 문구를 글자 단위로 순차 웨이브(살짝 떠오르며 볼드) 처리.
- * 접근성: 컨테이너 aria-label 로 전체 문구 읽고, 개별 글자 span 은 aria-hidden.
- */
-function WavyText({ text, className = '' }: { text: string; className?: string }) {
-    return (
-        <p className={className} aria-label={text}>
-            {Array.from(text).map((ch, i) => (
-                <span
-                    key={i}
-                    aria-hidden="true"
-                    className="tl-wave"
-                    style={{ animationDelay: `${(i * 0.07).toFixed(2)}s` }}
-                >
-                    {ch === ' ' ? ' ' : ch}
-                </span>
-            ))}
-        </p>
-    );
-}
+// 여행보드 진입 스켈레톤 — 실제 보드 골격(헤더·사이드바·타임라인·인박스)을 그대로 흉내 내
+// 로딩이 끝났을 때 레이아웃 점프를 줄인다.
+// 로고 조립 애니메이션과 keyframe 은 메인 페이지와 공유한다(@/components/BrandLoader).
 
 export function LoadingSkeleton() {
     return (
         <div className="h-dvh w-full flex flex-col bg-white font-sans text-slate-700 overflow-hidden">
 
             {/* 상단 진행 바 */}
-            <div className="fixed top-0 left-0 right-0 z-50 h-0.5 bg-gray-100">
-                <div className="h-full bg-emerald-400 animate-[loading-bar_1.8s_ease-in-out_infinite]" />
-            </div>
+            <TopProgressBar />
 
             {/* 헤더 스켈레톤 — 실제 DashboardHeader 와 동일하게 상단 세이프에어리어(노치/펀치홀) 반영.
                 env 는 데스크톱/비노치 웹에서 0 → 무영향, 앱·노치 기기에서만 헤더가 노치 아래로 내려감. */}
@@ -166,36 +125,7 @@ export function LoadingSkeleton() {
                 </main>
             </div>
 
-            <style>{`
-                @keyframes loading-bar {
-                    0% { width: 0%; margin-left: 0%; }
-                    50% { width: 60%; margin-left: 20%; }
-                    100% { width: 0%; margin-left: 100%; }
-                }
-                /* 로고 조립: 초록(틸) 3줄이 오른쪽에서 하나씩 미끄러져 들어옴 */
-                @keyframes tl-slot {
-                    0%   { transform: translateX(48px); opacity: 0; }
-                    20%  { transform: translateX(-1.5px); opacity: 1; }
-                    26%  { transform: translateX(0); }
-                    76%  { transform: translateX(0); opacity: 1; }
-                    86%  { transform: translateX(0); opacity: 0; }
-                    100% { transform: translateX(48px); opacity: 0; }
-                }
-                .tl-tb  { animation: tl-slot 5.5s cubic-bezier(.22,.9,.3,1) infinite; }
-                .tl-tb1 { animation-delay: 0s; }
-                .tl-tb2 { animation-delay: .5s; }
-                .tl-tb3 { animation-delay: 1s; }
-                /* 로딩 문구: 글자마다 순차로 살짝 떠오르며 볼드 — 웨이브 */
-                @keyframes tl-wave {
-                    0%, 55%, 100% { transform: translateY(0); font-weight: 500; }
-                    18% { transform: translateY(-3px); font-weight: 800; }
-                }
-                .tl-wave { display: inline-block; animation: tl-wave 1.9s ease-in-out infinite; }
-                @media (prefers-reduced-motion: reduce) {
-                    .tl-tb { animation: none; transform: none; opacity: 1; }
-                    .tl-wave { animation: none; }
-                }
-            `}</style>
+            <BrandLoaderStyles />
         </div>
     );
 }

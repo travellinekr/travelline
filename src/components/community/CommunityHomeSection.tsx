@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { BOARD_LABEL, BOARD_BADGE, type CommunityPost } from './types';
+import { BrandLoader } from '@/components/BrandLoader';
 
 // 메인 페이지 커뮤니티 프리뷰 — 여행정보공유(info) · 여행후기(review) 각 최근 1건만 노출 (총 2건).
 export default function CommunityHomeSection() {
@@ -42,7 +43,10 @@ export default function CommunityHomeSection() {
                 </div>
 
                 {loading ? (
-                    <div className="py-6 text-center text-sm text-slate-300">불러오는 중...</div>
+                    <div className="py-6 flex justify-center">
+                        {/* 메인·여행보드와 같은 로딩 표현. 이 구간이 체감상 가장 오래 걸린다. */}
+                        <BrandLoader text="글을 불러오고 있습니다" size={44} topBar={false} />
+                    </div>
                 ) : posts.length === 0 ? (
                     <div className="py-6 text-center text-sm text-slate-400">
                         아직 등록된 글이 없어요. <Link href="/community/new" className="text-emerald-600 hover:underline ml-1">첫 글 쓰기</Link>
