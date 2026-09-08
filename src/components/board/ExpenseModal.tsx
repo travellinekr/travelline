@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import { X, ChevronDown, Plus, Loader2 } from 'lucide-react';
+import { X, ChevronDown, Plus } from 'lucide-react';
 import type { PaymentType } from '@/data/expenseCodes';
 import { useExpenses } from '@/hooks/useExpenses';
 import { ExpenseAssetPanel } from './ExpenseAssetPanel';
@@ -12,6 +12,7 @@ import {
     formatAmount, CURRENCY_MAP, PAYMENT_TYPE_LABEL,
     getCurrencyByCountry, type CurrencyCode,
 } from '@/data/expenseCodes';
+import { BrandLoader } from '@/components/BrandLoader';
 
 // 전체 경비 팝업 — 카드를 선택하지 않고 하단바/헤더의 "경비"를 눌렀을 때.
 // 셸·여백·타이포는 카드 인포팝업(InfoModalShell)과 동일 규격을 따른다.
@@ -99,8 +100,8 @@ export function ExpenseModal({
                 </div>
 
                 {loading && (
-                    <div className="flex-1 flex items-center justify-center text-gray-400">
-                        <Loader2 className="w-6 h-6 animate-spin" />
+                    <div className="flex-1 flex items-center justify-center">
+                        <BrandLoader text="경비를 불러오고 있습니다" size={52} topBar={false} />
                     </div>
                 )}
 

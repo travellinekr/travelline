@@ -11,6 +11,7 @@ import {
     formatAmount, formatNumberInput, parseAmountInput, getCurrencyByCountry,
     type CurrencyCode, type PaymentType,
 } from '@/data/expenseCodes';
+import { BrandLoader } from '@/components/BrandLoader';
 
 // 카드별 경비 입력 — 여행보드에서 카드를 선택한 뒤 "경비"를 눌렀을 때.
 //
@@ -121,8 +122,8 @@ export function CardExpenseModal({ projectId, card, destinationCity, onClose }: 
                 </div>
 
                 {loading ? (
-                    <div className="py-10 flex items-center justify-center text-gray-400">
-                        <Loader2 className="w-6 h-6 animate-spin" />
+                    <div className="py-10 flex items-center justify-center">
+                        <BrandLoader text="경비를 불러오고 있습니다" size={48} topBar={false} />
                     </div>
                 ) : error ? (
                     <div className="py-10 px-6 text-center text-sm text-rose-500">{error}</div>

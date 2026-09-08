@@ -92,7 +92,13 @@ export function useExpenses(projectId: string, enabled: boolean) {
     const [budget, setBudget] = useState<number | null>(null);
     const [assets, setAssets] = useState<TripAsset[]>([]);
     const [expenses, setExpenses] = useState<TripExpense[]>([]);
-    const [loading, setLoading] = useState(false);
+    // enabled 면 처음부터 로딩으로 시작한다.
+    //
+    // false 로 두면 첫 렌더에서 loading=false / 데이터 없음 상태가 되어,
+    // 팝업이 "총 사용 경비 0원" 같은 빈 현황을 한 번 그린 뒤에야 로딩으로 바뀐다.
+    // 사용자에겐 로딩이 없는 것처럼 보이거나, 빈 화면 → 로딩 → 데이터로 두 번 깜빡인다.
+    // reload() 는 마운트 뒤 effect 에서 돌기 때문에 첫 페인트를 잡지 못한다.
+    const [loading, setLoading] = useState(enabled);
     const [error, setError] = useState<string | null>(null);
     const [canWrite, setCanWrite] = useState(false);
 

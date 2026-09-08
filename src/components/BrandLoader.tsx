@@ -122,3 +122,20 @@ export function BrandLoader({
         </div>
     );
 }
+
+/**
+ * 모달 청크를 내려받는 동안 띄우는 껍데기.
+ *
+ * next/dynamic 의 loading 을 null 로 두면, 누른 뒤 청크가 도착할 때까지
+ * 화면에 아무 변화가 없어 "안 눌렸나?" 로 읽힌다.
+ * 실제 모달과 같은 위치·같은 배경으로 미리 자리를 잡아 두면 전환이 끊기지 않는다.
+ */
+export function ModalLoader({ text = '불러오고 있습니다' }: { text?: string }) {
+    return (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 backdrop-blur-sm">
+            <div className="bg-white w-full h-full md:w-[90vw] md:h-[85vh] md:max-w-2xl md:rounded-2xl shadow-2xl flex items-center justify-center">
+                <BrandLoader text={text} size={52} topBar={false} />
+            </div>
+        </div>
+    );
+}

@@ -22,14 +22,16 @@ const AiAssistantPanel = dynamic(
     { ssr: false, loading: () => null }
 );
 // 경비 창도 버튼 탭 후에만 열림 → 진입 청크에서 분리
+// 청크가 도착할 때까지 같은 자리에 로딩 껍데기를 띄운다.
+// loading: () => null 로 두면 누른 뒤 한동안 화면이 그대로라 반응이 없는 것처럼 보인다.
 const ExpenseModal = dynamic(
     () => import("@/components/board/ExpenseModal").then(m => m.ExpenseModal),
-    { ssr: false, loading: () => null }
+    { ssr: false, loading: () => <ModalLoader text="경비를 불러오고 있습니다" /> }
 );
 
 const CardExpenseModal = dynamic(
     () => import("@/components/board/CardExpenseModal").then(m => m.CardExpenseModal),
-    { ssr: false, loading: () => null }
+    { ssr: false, loading: () => <ModalLoader text="경비를 불러오고 있습니다" /> }
 );
 
 // 커뮤니티도 보드 안 모달로 연다 — 라우팅을 하면 보드가 언마운트되고 Liveblocks 가 재연결된다.
@@ -106,6 +108,7 @@ const PICKER_DELETE_ZONES = [
 import { Sidebar } from "@/components/board/Sidebar";
 import { Confirm } from "@/components/board/Confirm";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
+import { ModalLoader } from "@/components/BrandLoader";
 import BottomNav from "@/components/nav/BottomNav";
 import type { OnboardingStep } from "@/components/onboarding/OnboardingTour";
 // 온보딩 코치마크는 최초 소유자만 봄 → 메인 청크 + 한글 손글씨 폰트 트리거를 지연
