@@ -249,7 +249,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     if (authLoading) {
         return (
             <div className="flex items-center gap-1.5" aria-hidden="true">
-                <div className="w-10 h-10 rounded-full bg-slate-200 animate-pulse" />
+                <div className="w-8 h-8 rounded-full bg-slate-200 animate-pulse" />
                 <div className="w-3.5 h-3.5" />
             </div>
         );
@@ -393,7 +393,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             >
                 {/* 내 아바타 - 타인 접속 시 온라인 뱃지 표시 */}
                 <div className="relative">
-                    <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shadow-sm`}>
+                    <div className={`w-8 h-8 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
                         {initials}
                     </div>
                     {otherUserCount > 0 && (

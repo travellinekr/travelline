@@ -97,7 +97,7 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
             // loading 을 안 보면 로그인한 사람도 첫 페인트에서 "시작하기" 가 깜빡인다.
             // 확정 전에는 아바타와 같은 크기의 자리만 잡는다(여행보드 뱃지와 동일).
             authLoading ? (
-              <div className="w-10 h-10 rounded-full bg-slate-200 animate-pulse" aria-hidden="true" />
+              <div className="w-8 h-8 rounded-full bg-slate-200 animate-pulse" aria-hidden="true" />
             ) : (
               <button
                 onClick={() => router.push('/login')}
@@ -134,7 +134,7 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
                 onClick={handleTogglePopup}
                 className="flex items-center gap-2 hover:opacity-80 transition-opacity"
               >
-                <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shadow-sm`}>
+                <div className={`w-8 h-8 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
                   {initials}
                 </div>
                 <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
