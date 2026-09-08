@@ -8,6 +8,7 @@ import { BOARD_TABS, type BoardType, type CommunityPost, formatDate, shortAuthor
 import { useAuth } from '@/hooks/useAuth';
 import { supabase } from '@/lib/supabaseClient';
 import { getAllCityNames, getAllCountryNames } from '@/data/destinations';
+import { BrandLoader } from '@/components/BrandLoader';
 
 // 커뮤니티 목록(탭·필터·검색·더보기·글쓰기). 페이지 껍데기가 없는 순수 뷰라 두 곳에서 그대로 쓴다.
 //  - /community 페이지 : 탭·필터를 URL 로 관리 (뒤로가기·공유 가능)
@@ -356,7 +357,9 @@ export default function CommunityBrowser({
             {/* 목록 — 첫 로드 전에만 스피너, 이후 재조회는 이전 목록 유지 + opacity (SWR 톤) */}
             <div className="bg-white border border-slate-200 rounded-xl overflow-hidden">
                 {loading && !hasFetchedOnce ? (
-                    <div className="p-8 text-center text-sm text-slate-400">불러오는 중...</div>
+                    <div className="p-8 flex justify-center">
+                        <BrandLoader text="글을 불러오고 있습니다" size={48} topBar={false} />
+                    </div>
                 ) : error ? (
                     <div className="p-8 text-center text-sm text-red-500">{error}</div>
                 ) : posts.length === 0 ? (

@@ -8,6 +8,7 @@ import { InfoHighlights } from './InfoHighlights';
 import { InfoTips } from './InfoTips';
 import { InfoLinksList } from './InfoLinksList';
 import { InfoPhotoGallery } from './InfoPhotoGallery';
+import { BrandLoader } from '@/components/BrandLoader';
 
 interface Props {
     card: any;
@@ -25,7 +26,9 @@ export function TransportInfoView({ card, isOpen, onClose }: Props) {
     return (
         <InfoModalShell isOpen={isOpen} title="교통 정보" subtitle={subtitle} onClose={onClose}>
             {loading ? (
-                <p className="text-sm text-gray-400 text-center mt-10">불러오는 중...</p>
+                <div className="mt-10 flex justify-center">
+                    <BrandLoader text="정보를 불러오고 있습니다" size={48} topBar={false} />
+                </div>
             ) : !data ? (
                 <p className="text-sm text-gray-400 text-center mt-10">
                     {name} 의 상세 정보가 아직 등록되지 않았습니다.

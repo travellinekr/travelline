@@ -6,13 +6,14 @@ import dynamic from "next/dynamic";
 import { useAnchor } from "@/contexts/AnchorContext";
 import { EmptyState } from "./EmptyState";
 import { isTripEnded } from "@/utils/timeline";
+import { BrandLoader } from "@/components/BrandLoader";
 // AI 패널은 버튼 클릭 후에만 열림 → 메인 청크에서 분리
 const AiAssistantPanel = dynamic(() => import("./AiAssistant/AiAssistantPanel").then((m) => m.AiAssistantPanel), { ssr: false, loading: () => null });
 
 // 카테고리 탭 클릭 시점에 chunk 로드. 보드 진입 메인 청크에서 picker 코드 + CITY_DATA(~120KB) 분리.
 const PickerLoading = () => (
-    <div className="flex items-center justify-center h-[200px] text-slate-300 text-xs">
-        불러오는 중...
+    <div className="flex items-center justify-center h-[200px]">
+        <BrandLoader text="불러오고 있습니다" size={44} topBar={false} />
     </div>
 );
 const dyn = <T extends Record<string, any>>(loader: () => Promise<T>, key: keyof T) =>
