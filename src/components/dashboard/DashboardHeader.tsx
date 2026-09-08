@@ -7,6 +7,7 @@ import { useState, useRef, useEffect } from 'react';
 import TravellineLogo from '@/components/TravellineLogo';
 import Link from 'next/link';
 import HeaderNav from '@/components/nav/HeaderNav';
+import { getAvatarInitials } from '@/lib/initials';
 
 export default function DashboardHeader({ title, rightSlot, sticky = false, destinationCity, onExpenseClick, onCommunityClick, navAtSplit = false }: { title?: string; rightSlot?: React.ReactNode; sticky?: boolean; destinationCity?: string | null; onExpenseClick?: () => void; onCommunityClick?: (tab: 'notice' | 'inquiry') => void; navAtSplit?: boolean }) {
   // 펀치홀 여백은 sticky 여부와 무관하게 CSS env() 로 통일(iOS 앱/Safari/Android 동일 경로).
@@ -30,7 +31,7 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
     ? 'flex items-center min-w-0 md:w-[calc(50%+40px)] md:shrink-0 md:pr-4'
     : 'flex items-center min-w-0 md:mr-5';
 
-  const { user, signOut } = useAuth();
+  const { user, loading: authLoading, signOut } = useAuth();
   const router = useRouter();
   const [popupOpen, setPopupOpen] = useState(false);
   const [popupPos, setPopupPos] = useState({ top: 0, right: 0 });
@@ -56,16 +57,8 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || '사용자';
   const email = user?.email || '';
 
-  // 이니셜 추출 (최대 2글자)
-  const getInitials = () => {
-    const name = user?.user_metadata?.full_name;
-    if (name) {
-      const parts = name.trim().split(' ');
-      if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
-      return name[0].toUpperCase();
-    }
-    return email ? email[0].toUpperCase() : '?';
-  };
+  // 이니셜 — 규칙은 여행보드 뱃지(UserAvatarMenu)와 같은 곳에 둔다.
+  const initials = getAvatarInitials(user?.user_metadata?.full_name, email);
 
   // 아바타 배경색 (이메일 기반 고정 색상)
   const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500', 'bg-cyan-500'];
@@ -100,12 +93,19 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
 
           {/* 시작하기 버튼 — ml-auto 로 우측 끝에 붙인다(기존 justify-between 과 동일 결과) */}
           <div className="ml-auto pl-4">{rightSlot ?? (
-            <button
-              onClick={() => router.push('/login')}
-              className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
-            >
-              시작하기
-            </button>
+            // useAuth 는 user=null 로 시작하고 세션은 effect 에서 확정된다.
+            // loading 을 안 보면 로그인한 사람도 첫 페인트에서 "시작하기" 가 깜빡인다.
+            // 확정 전에는 아바타와 같은 크기의 자리만 잡는다(여행보드 뱃지와 동일).
+            authLoading ? (
+              <div className="w-10 h-10 rounded-full bg-slate-200 animate-pulse" aria-hidden="true" />
+            ) : (
+              <button
+                onClick={() => router.push('/login')}
+                className="text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors px-4 py-1.5 rounded-lg shadow-sm"
+              >
+                시작하기
+              </button>
+            )
           )}</div>
         </div>
       </header>
@@ -134,8 +134,8 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
                 onClick={handleTogglePopup}
                 className="flex items-center gap-2 hover:opacity-80 transition-opacity"
               >
-                <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm`}>
-                  {getInitials()}
+                <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shadow-sm`}>
+                  {initials}
                 </div>
                 <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${popupOpen ? 'rotate-180' : ''}`} />
               </button>
@@ -154,8 +154,8 @@ export default function DashboardHeader({ title, rightSlot, sticky = false, dest
           {/* 사용자 정보 */}
           <div className="px-4 py-3 border-b border-gray-50">
             <div className="flex items-center gap-4">
-              <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
-                {getInitials()}
+              <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shrink-0`}>
+                {initials}
               </div>
               <div className="min-w-0">
                 <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>

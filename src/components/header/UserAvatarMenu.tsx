@@ -13,6 +13,7 @@ import { supabase } from "@/lib/supabaseClient";
 const ShareModal = dynamic(() => import("@/components/modals/ShareModal").then((m) => m.ShareModal), { ssr: false, loading: () => null });
 import { ConfirmOwnerTransferModal } from "@/components/modals/ConfirmOwnerTransferModal";
 import { useMemberDisplayName } from '@/hooks/useMemberDisplayName';
+import { getAvatarInitials } from '@/lib/initials';
 import { NicknameEditModal } from './NicknameEditModal';
 
 type Role = 'owner' | 'editor' | 'viewer';
@@ -109,16 +110,9 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         return seen.size;
     })();
 
-    // 이니셜 추출
-    const getInitials = () => {
-        const name = memberName?.trim() || user?.user_metadata?.full_name;
-        if (name) {
-            const parts = name.trim().split(' ');
-            if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
-            return name[0].toUpperCase();
-        }
-        return email ? email[0].toUpperCase() : '?';
-    };
+    // 이니셜 — 규칙은 메인 헤더와 같은 곳(lib/initials)에 둔다.
+    // 계정 이름이 아니라 보드 별칭을 먼저 쓴다.
+    const initials = getAvatarInitials(memberName?.trim() || user?.user_metadata?.full_name, email);
 
     // 이메일 기반 고정 색상
     const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500', 'bg-cyan-500'];
@@ -255,7 +249,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     if (authLoading) {
         return (
             <div className="flex items-center gap-1.5" aria-hidden="true">
-                <div className="w-9 h-9 rounded-full bg-slate-200 border-2 border-white animate-pulse" />
+                <div className="w-10 h-10 rounded-full bg-slate-200 animate-pulse" />
                 <div className="w-3.5 h-3.5" />
             </div>
         );
@@ -399,8 +393,8 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
             >
                 {/* 내 아바타 - 타인 접속 시 온라인 뱃지 표시 */}
                 <div className="relative">
-                    <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shadow-sm border-2 border-white`}>
-                        {getInitials()}
+                    <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shadow-sm`}>
+                        {initials}
                     </div>
                     {otherUserCount > 0 && (
                         <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-400 rounded-full border-2 border-white" />
@@ -423,8 +417,8 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     {/* 사용자 정보 */}
                     <div className="px-4 py-3 border-b border-gray-50">
                         <div className="flex items-center gap-3">
-                            <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
-                                {getInitials()}
+                            <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shrink-0`}>
+                                {initials}
                             </div>
                             <div className="min-w-0 flex-1">
                                 <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>
