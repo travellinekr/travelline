@@ -29,6 +29,11 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0,
   const isTravel = project.type === "travel";
   const palette = isTravel ? COLOR_PALETTES[colorIndex % COLOR_PALETTES.length] : { bar: "bg-purple-500", icon: "bg-purple-50 text-purple-600", badge: "bg-purple-100 text-purple-700", hover: "group-hover:text-purple-500" };
   const [menuOpen, setMenuOpen] = useState(false);
+  // 메뉴는 카드 밖(viewport 기준)에 띄운다. 카드가 overflow-hidden 이라
+  // 안에서 absolute 로 띄우면 카드 높이(100~120px)에 잘린다.
+  // 헤더 아바타 팝업과 같은 방식 — 버튼 위치를 재서 fixed 로 배치.
+  const [menuPos, setMenuPos] = useState({ top: 0, right: 0 });
+  const menuBtnRef = useRef<HTMLButtonElement>(null);
   const [showConfirm, setShowConfirm] = useState(false);
   const [deleting, setDeleting] = useState(false);
   // 삭제를 누르기 전에 '실제 삭제'인지 '소유권 위임'인지 알려주기 위한 후계자 이름
@@ -43,7 +48,18 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0,
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+
+    // 메뉴가 fixed 라 스크롤해도 화면에 그대로 붙어 있는다.
+    // 카드만 움직여 메뉴가 엉뚱한 자리에 뜬 것처럼 보이므로 스크롤하면 닫는다.
+    const closeOnScroll = () => setMenuOpen(false);
+    window.addEventListener('scroll', closeOnScroll, true);
+    window.addEventListener('resize', closeOnScroll);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('scroll', closeOnScroll, true);
+      window.removeEventListener('resize', closeOnScroll);
+    };
   }, []);
 
   // 확인창을 띄우기 전에 편집 권한 멤버가 있는지 본다.
@@ -142,7 +158,16 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0,
                   (서버에서도 owner 를 확인하지만, 눌러서 거절당하는 UI 를 만들지 않기 위함) */}
               <div ref={menuRef} className={`relative ${isOwner ? '' : 'invisible pointer-events-none'}`} onClick={e => e.preventDefault()}>
                 <button
-                  onClick={(e) => { e.preventDefault(); e.stopPropagation(); setMenuOpen(!menuOpen); }}
+                  ref={menuBtnRef}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    if (!menuOpen && menuBtnRef.current) {
+                      const rect = menuBtnRef.current.getBoundingClientRect();
+                      setMenuPos({ top: rect.bottom + 6, right: window.innerWidth - rect.right });
+                    }
+                    setMenuOpen(!menuOpen);
+                  }}
                   className="text-slate-300 hover:text-slate-600 p-0.5 rounded-lg hover:bg-slate-50 transition-colors"
                 >
                   <MoreHorizontal className="w-4 h-4" />
@@ -150,7 +175,10 @@ export default function ProjectCard({ project, onDelete, onEdit, colorIndex = 0,
 
                 {/* 드롭다운 메뉴 */}
                 {menuOpen && (
-                  <div className="absolute right-0 top-8 w-36 bg-white rounded-xl shadow-lg border border-gray-100 py-1 z-50">
+                  <div
+                    style={{ top: menuPos.top, right: menuPos.right }}
+                    className="fixed w-36 bg-white rounded-xl shadow-lg border border-gray-100 py-1 z-[9999] animate-in fade-in slide-in-from-top-1 duration-150"
+                  >
                     {/* 수정 버튼 */}
                     <button
                       onClick={(e) => { e.preventDefault(); e.stopPropagation(); setMenuOpen(false); onEdit && onEdit(project.id, project.title); }}
