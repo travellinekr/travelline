@@ -7,6 +7,8 @@ type Props = {
 export function Cursor({ connectionId }: Props) {
   const cursor = useOther(connectionId, (user: any) => user.presence.cursor) as { x: number; y: number } | null;
   const info = useOther(connectionId, (user: any) => user.info) as any;
+  // 보드 별칭. presence 를 먼저 본다 — 별칭을 바꿔도 info.name(세션 토큰)은 즉시 갱신되지 않는다.
+  const presenceName = useOther(connectionId, (user: any) => user.presence?.displayName) as string | undefined;
 
   if (!cursor) {
     return null;
@@ -14,8 +16,8 @@ export function Cursor({ connectionId }: Props) {
 
   const { x, y } = cursor;
 
-  // liveblocks-auth에서 세팅한 name, color 사용
-  const name = info?.name || '게스트';
+  // 이름은 별칭(presence) > 토큰(info.name) 순. color 는 liveblocks-auth 세팅값.
+  const name = (presenceName && presenceName.trim()) || info?.name || '게스트';
   const color = info?.color || '#94a3b8';
 
   return (

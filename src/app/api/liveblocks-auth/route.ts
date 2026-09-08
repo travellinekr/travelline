@@ -122,7 +122,11 @@ export async function POST(request: NextRequest) {
                 ? withTimeout(
                     supabaseAdmin
                         .from('project_members')
-                        .select('role')
+                        // '*' 인 이유: display_name 은 마이그레이션 021 에서 추가된 컬럼이다.
+                        // 컬럼명을 명시하면 미적용 환경에서 쿼리가 통째로 실패하고,
+                        // 이 조회는 .catch(() => null) 로 감싸여 있어 "멤버 아님" 으로 판정된다.
+                        // 즉 전원이 손님(읽기 전용)이 되어 편집 권한을 잃는다.
+                        .select('*')
                         .eq('project_id', room)
                         .eq('user_id', tentativeUserId)
                         .single(),
@@ -145,7 +149,7 @@ export async function POST(request: NextRequest) {
 
         // 3. memberQuery 결과 검증 + 필요 시 재조회
         let role = 'viewer';
-        let memberData: { role: string } | null = null;
+        let memberData: { role: string; display_name?: string | null } | null = null;
 
         if (earlyMemberResult?.data && tentativeUserId === user.id) {
             // JWT sub가 검증된 user.id와 일치 → 병렬 결과 사용 (정상 경로)
@@ -156,7 +160,8 @@ export async function POST(request: NextRequest) {
             const verifiedMemberResult = await withTimeout(
                 supabaseAdmin
                     .from('project_members')
-                    .select('role')
+                    // 위와 같은 이유로 '*'. 컬럼 하나 늘었다고 권한이 날아가면 안 된다.
+                    .select('*')
                     .eq('project_id', room)
                     .eq('user_id', user.id)
                     .single(),
@@ -191,7 +196,14 @@ export async function POST(request: NextRequest) {
         const isGuest = !memberData;
         const session = liveblocks.prepareSession(user.id, {
             userInfo: {
-                name: isGuest ? '손님' : (user.user_metadata?.full_name || user.email || '사용자'),
+                // 보드별 별칭(project_members.display_name) 이 있으면 그것을 쓴다.
+                // 없으면(아직 안 바꾼 멤버) 계정 이름으로 떨어진다.
+                //
+                // 주의: 이 값은 토큰에 박혀서 나가므로 별칭을 바꿔도 즉시 갱신되지 않는다.
+                // 실시간 반영은 presence.displayName 이 맡고, 여기 값은 첫 프레임 폴백이다.
+                name: isGuest
+                    ? '손님'
+                    : (memberData?.display_name?.trim() || user.user_metadata?.full_name || user.email || '사용자'),
                 email: isGuest ? '' : (user.email || ''),
                 avatar: isGuest ? '' : (user.user_metadata?.avatar_url || ''),
                 color: `hsl(${Math.abs(user.id.charCodeAt(0) * 137) % 360}, 70%, 50%)`,

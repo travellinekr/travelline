@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
-import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw } from "lucide-react";
+import { ChevronDown, LogOut, Crown, UserMinus, RefreshCw, Settings } from "lucide-react";
 import { useOthers, useSelf, useBroadcastEvent, useEventListener } from "@/liveblocks.config";
 import { useAuth } from "@/hooks/useAuth";
 import { useRole } from "@/hooks/useRole";
@@ -12,6 +12,8 @@ import { supabase } from "@/lib/supabaseClient";
 // 공유 모달은 공유 클릭 시에만 열림 → 메인 청크에서 분리(카카오/멤버조회 코드 지연)
 const ShareModal = dynamic(() => import("@/components/modals/ShareModal").then((m) => m.ShareModal), { ssr: false, loading: () => null });
 import { ConfirmOwnerTransferModal } from "@/components/modals/ConfirmOwnerTransferModal";
+import { useMemberDisplayName } from '@/hooks/useMemberDisplayName';
+import { NicknameEditModal } from './NicknameEditModal';
 
 type Role = 'owner' | 'editor' | 'viewer';
 
@@ -24,7 +26,10 @@ interface MemberRecord {
 }
 
 export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: string; roomId: string; addToast: (msg: string, type?: 'info' | 'warning') => void }) {
-    const { user, signOut } = useAuth();
+    // 이 보드에서 쓰는 별칭. 계정 이름이 아니라 이 값을 화면에 쓴다.
+    const { name: memberName } = useMemberDisplayName(roomId);
+    const [nicknameOpen, setNicknameOpen] = useState(false);
+    const { user, loading: authLoading, signOut } = useAuth();
     const router = useRouter();
     const others = useOthers();
     const self = useSelf();
@@ -43,7 +48,9 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
     const actionsPopoverRef = useRef<HTMLDivElement>(null);
 
     const email = user?.email || '';
-    const displayName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
+    // 보드 별칭 > 계정 이름 > 이메일 앞부분
+    const accountName = user?.user_metadata?.full_name || email.split('@')[0] || '사용자';
+    const displayName = memberName?.trim() || accountName;
 
     // 멤버 목록 재조회 (마운트 시 + 플로팅 메뉴 열릴 때마다)
     //
@@ -104,7 +111,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
 
     // 이니셜 추출
     const getInitials = () => {
-        const name = user?.user_metadata?.full_name;
+        const name = memberName?.trim() || user?.user_metadata?.full_name;
         if (name) {
             const parts = name.trim().split(' ');
             if (parts.length >= 2) return (parts[0][0] + parts[1][0]).toUpperCase();
@@ -236,6 +243,23 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
         }
         setPendingUserId(null);
     };
+
+    // ─── 세션 확인 중 ───
+    //
+    // useAuth 는 user=null 로 시작하고 세션은 effect 에서 확인된다.
+    // loading 을 안 보고 !user 로 바로 갈라내면, 로그인한 사람도 첫 페인트에서는
+    // 반드시 비로그인으로 판정돼 "참여하기" 가 깜빡였다가 아바타로 바뀐다.
+    // 네트워크가 빨라도 사라지지 않는다 — 확정 전까지는 판정을 미룬다.
+    //
+    // 자리는 아바타와 같은 크기로 잡아 둔다. 비워 두면 확정될 때 헤더가 밀린다.
+    if (authLoading) {
+        return (
+            <div className="flex items-center gap-1.5" aria-hidden="true">
+                <div className="w-9 h-9 rounded-full bg-slate-200 border-2 border-white animate-pulse" />
+                <div className="w-3.5 h-3.5" />
+            </div>
+        );
+    }
 
     // ─── 비로그인 방문자: 단일 "참여하기" 버튼 (앱 컨셉 = 로그인/회원가입 구분 없이 시작) ───
     if (!user) {
@@ -402,10 +426,20 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                             <div className={`w-9 h-9 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
                                 {getInitials()}
                             </div>
-                            <div className="min-w-0">
+                            <div className="min-w-0 flex-1">
                                 <p className="text-sm font-semibold text-slate-800 truncate">{displayName}</p>
                                 <p className="text-xs text-slate-400 truncate">{email}</p>
                             </div>
+                            {/* 별칭 변경 — 이 보드에서만 쓰는 이름이라 보드 안에서 바꾼다 */}
+                            <button
+                                type="button"
+                                onClick={() => setNicknameOpen(true)}
+                                className="shrink-0 p-1.5 text-slate-300 hover:text-emerald-600 hover:bg-slate-50 rounded-lg transition-colors"
+                                title="별칭 변경"
+                                aria-label="별칭 변경"
+                            >
+                                <Settings className="w-4 h-4" />
+                            </button>
                         </div>
                     </div>
                     {/* ── 권한 동기화 배너 (DB role 과 현재 세션 role 이 다르면 표시) ── */}
@@ -464,7 +498,10 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
 
                                     return uniqueOthers.map((other) => {
                                         const info = other.info as any;
-                                        const name = info?.name || '사용자';
+                                        // presence 가 먼저다. 별칭을 바꿔도 토큰(info.name)은 즉시 갱신되지 않는다.
+                                        const livePresenceName = (other.presence as any)?.displayName;
+                                        const name = (typeof livePresenceName === 'string' && livePresenceName.trim())
+                                            || info?.name || '사용자';
                                         const infoEmail = info?.email || '';
                                         const avatar = info?.avatar || '';
                                         const color = info?.color || '#94a3b8';
@@ -509,6 +546,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                                         const mEmail = m.email || '';
                                         const mAvatar = m.avatar || '';
                                         return (
+
                                             <div key={m.user_id} className="flex items-center gap-2.5 px-4 py-2 opacity-60">
                                                 <div className="relative shrink-0">
                                                     {mAvatar ? (
@@ -574,6 +612,15 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     onConfirm={handleOwnerTransfer}
                     onClose={() => setTransferTarget(null)}
                     loading={pendingUserId === transferTarget.user_id}
+                />
+            )}
+
+            {/* 별칭 변경 — 아바타 메뉴 위(z-1000000)에 얹힌다 */}
+            {nicknameOpen && (
+                <NicknameEditModal
+                    roomId={roomId}
+                    onClose={() => setNicknameOpen(false)}
+                    onError={(msg) => addToast(msg, 'warning')}
                 />
             )}
         </>

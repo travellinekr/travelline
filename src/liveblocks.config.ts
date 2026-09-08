@@ -103,7 +103,21 @@ export type Column = {
   cardIds: string[];
 };
 
-type Presence = {};
+type Presence = {
+  /** 커서 좌표 — usePresenceCursor 가 갱신 */
+  cursor?: { x: number; y: number } | null;
+  /**
+   * 이 보드에서 쓰는 별칭 (project_members.display_name).
+   *
+   * 왜 presence 인가: 이름의 원래 출처인 userInfo 는 Liveblocks 세션 토큰에 박혀 나가서,
+   * 별칭을 바꿔도 토큰이 갱신될 때까지(최대 1시간) 남들 화면이 옛 이름 그대로다.
+   * presence 는 실시간으로 흐르므로 바꾸는 즉시 모두에게 전달된다.
+   *
+   * 진실은 DB(project_members.display_name) 에 있고, 이 값은 전달 수단이다.
+   * 표시할 때는 presence.displayName ?? info.name 순으로 쓴다.
+   */
+  displayName?: string | null;
+};
 
 type Storage = {
   cards: LiveMap<string, Card>;

@@ -29,7 +29,9 @@ export async function GET(
     try {
         const { data: members, error: membersError } = await admin
             .from('project_members')
-            .select('user_id, role')
+            // '*' — display_name 은 마이그레이션 021 컬럼이다.
+            // 명시하면 미적용 환경에서 쿼리가 실패해 멤버 목록이 통째로 비어 보인다.
+            .select('*')
             .eq('project_id', projectId);
 
         if (membersError || !members) {
@@ -43,7 +45,11 @@ export async function GET(
                 return {
                     user_id: m.user_id,
                     role: m.role,
-                    name: user?.user_metadata?.full_name || user?.email?.split('@')[0] || '사용자',
+                    // 보드별 별칭이 있으면 그것을 쓴다. 없으면 계정 이름으로 떨어진다.
+                    name: (m as any).display_name?.trim()
+                        || user?.user_metadata?.full_name
+                        || user?.email?.split('@')[0]
+                        || '사용자',
                     email: canSeeEmail ? (user?.email || '') : '',
                     avatar: user?.user_metadata?.avatar_url || '',
                 };

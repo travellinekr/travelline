@@ -40,7 +40,9 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
     useEffect(() => {
         supabase
             .from('project_members')
-            .select('user_id, role, users:user_id(email, raw_user_meta_data)')
+            // '*' — display_name 은 마이그레이션 021 컬럼. 명시하면 미적용 환경에서
+            // 쿼리가 실패해 멤버 목록이 비어 보인다.
+            .select('*, users:user_id(email, raw_user_meta_data)')
             .eq('project_id', roomId)
             .then(({ data }) => {
                 if (data) setMembers(data);
@@ -173,7 +175,10 @@ export function ShareModal({ shareUrl, roomId, onClose, addToast }: { shareUrl: 
                             {members.map((m: any) => {
                                 const isOnline = onlineUserIds.has(m.user_id);
                                 const meta = m.users?.raw_user_meta_data;
-                                const name = meta?.full_name || meta?.name || m.users?.email?.split('@')[0] || '사용자';
+                                // 보드 별칭이 있으면 그것을 쓴다(project_members.display_name).
+                                const name = m.display_name?.trim()
+                                    || meta?.full_name || meta?.name
+                                    || m.users?.email?.split('@')[0] || '사용자';
                                 const avatar = meta?.avatar_url || meta?.picture || '';
                                 const rl = roleLabel(m.role);
                                 const colors = ['bg-violet-500', 'bg-blue-500', 'bg-emerald-500', 'bg-orange-500', 'bg-pink-500'];
