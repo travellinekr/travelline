@@ -417,7 +417,7 @@ export function UserAvatarMenu({ shareUrl, roomId, addToast }: { shareUrl: strin
                     {/* 사용자 정보 */}
                     <div className="px-4 py-3 border-b border-gray-50">
                         <div className="flex items-center gap-3">
-                            <div className={`w-10 h-10 ${avatarColor} rounded-full flex items-center justify-center text-white text-base font-bold shrink-0`}>
+                            <div className={`w-8 h-8 ${avatarColor} rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0`}>
                                 {initials}
                             </div>
                             <div className="min-w-0 flex-1">
