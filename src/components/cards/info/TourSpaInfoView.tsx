@@ -23,10 +23,9 @@ export function TourSpaInfoView({ card, isOpen, onClose }: Props) {
     const { info, loading } = useCardInfo('tourspa', cityEng, name);
     const data = info as TourSpaInfo | null;
     const subtitle = `${name}${cityEng ? ` · ${cityEng}` : ''}`;
-    const placeHero = data?.placePhotos?.[0];
-    const legacyHero = placeHero ? undefined : data?.photos?.[0];
+    const legacyHero = data?.photos?.[0];
     const placeGallery = data?.placePhotos?.slice(1);
-    const legacyGallery = placeHero ? undefined : data?.photos?.slice(1);
+    const legacyGallery = data?.photos?.slice(1);
 
     return (
         <InfoModalShell isOpen={isOpen} title="투어&스파 정보" subtitle={subtitle} onClose={onClose}>
@@ -40,7 +39,7 @@ export function TourSpaInfoView({ card, isOpen, onClose }: Props) {
                 </p>
             ) : (
                 <>
-                    <InfoHeroPhoto name={name} placePhoto={placeHero} legacySrc={legacyHero} />
+                    <InfoHeroPhoto name={name} placeId={data?.placeId} placePhotos={data?.placePhotos} legacySrc={legacyHero} />
 
                     <div className="flex items-start gap-2">
                         <span className="text-base text-gray-800 flex-1">{data.summary}</span>
@@ -103,7 +102,7 @@ export function TourSpaInfoView({ card, isOpen, onClose }: Props) {
                     )}
 
                     <InfoTips tips={data.tips} />
-                    <InfoPhotoGallery photos={legacyGallery} placePhotos={placeGallery} />
+                    <InfoPhotoGallery photos={legacyGallery} placeId={data.placeId} placePhotos={placeGallery} />
                     <InfoLinksList links={data.links} />
                 </>
             )}

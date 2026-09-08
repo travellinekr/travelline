@@ -8,7 +8,7 @@ import { InfoHighlights } from './InfoHighlights';
 import { InfoTips } from './InfoTips';
 import { InfoLinksList } from './InfoLinksList';
 import { InfoPhotoGallery } from './InfoPhotoGallery';
-import { PlacePhoto, PlacePhotoAttribution } from '@/components/places/PlacePhoto';
+import { InfoHeroPhoto } from './InfoHeroPhoto';
 import { BrandLoader } from '@/components/BrandLoader';
 
 interface Props {
@@ -23,11 +23,9 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
     const { info, loading } = useCardInfo('shopping', cityEng, name);
     const data = info as ShoppingInfo | null;
     const subtitle = `${name}${cityEng ? ` · ${cityEng}` : ''}`;
-    const placeHero = data?.placePhotos?.[0];
-    const legacyHero = placeHero ? undefined : data?.photos?.[0];
+    const legacyHero = data?.photos?.[0];
     const placeGallery = data?.placePhotos?.slice(1);
-    const legacyGallery = placeHero ? undefined : data?.photos?.slice(1);
-    const hasHero = !!placeHero || !!legacyHero;
+    const legacyGallery = data?.photos?.slice(1);
 
     return (
         <InfoModalShell isOpen={isOpen} title="쇼핑 정보" subtitle={subtitle} onClose={onClose}>
@@ -41,44 +39,7 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
                 </p>
             ) : (
                 <>
-                    {hasHero && (
-                        <div>
-                            <button
-                                type="button"
-                                onClick={() => {
-                                    if (placeHero) {
-                                        window.open(`/api/places/photo?ref=${encodeURIComponent(placeHero.photoReference)}&w=800`, '_blank', 'noopener,noreferrer');
-                                    } else if (legacyHero) {
-                                        window.open(legacyHero, '_blank', 'noopener,noreferrer');
-                                    }
-                                }}
-                                className="group relative w-full overflow-hidden rounded-2xl border border-gray-100 bg-gray-100 shadow-sm"
-                                aria-label={`${name} 대표 이미지 새 탭에서 보기`}
-                            >
-                                {placeHero ? (
-                                    <PlacePhoto
-                                        photo={placeHero}
-                                        alt={`${name} 대표 이미지`}
-                                        width={400}
-                                        loading="lazy"
-                                        className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-                                    />
-                                ) : (
-                                    /* eslint-disable-next-line @next/next/no-img-element */
-                                    <img
-                                        src={legacyHero}
-                                        alt={`${name} 대표 이미지`}
-                                        className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-                                        loading="lazy"
-                                    />
-                                )}
-                                <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/55 to-transparent px-4 py-3 text-left">
-                                    <span className="text-xs font-semibold text-white/90">대표 이미지</span>
-                                </div>
-                            </button>
-                            {placeHero && <PlacePhotoAttribution attributions={placeHero.attributions} />}
-                        </div>
-                    )}
+                    <InfoHeroPhoto name={name} placeId={data?.placeId} placePhotos={data?.placePhotos} legacySrc={legacyHero} />
 
                     <div className="flex items-start gap-2">
                         <span className="text-base text-gray-800 flex-1">{data.summary}</span>
@@ -145,7 +106,7 @@ export function ShoppingInfoView({ card, isOpen, onClose }: Props) {
                     )}
 
                     <InfoTips tips={data.tips} />
-                    <InfoPhotoGallery photos={legacyGallery} placePhotos={placeGallery} />
+                    <InfoPhotoGallery photos={legacyGallery} placeId={data.placeId} placePhotos={placeGallery} />
                     <InfoLinksList links={data.links} />
                 </>
             )}
