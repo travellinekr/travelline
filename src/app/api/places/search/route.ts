@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { requireUser } from '@/lib/server/requireUser';
 
+// 구글 Places(Text Search) 프록시 — 호출 한 번이 우리 키로 과금된다.
+// 로그인 필수 근거는 places/nearby 와 같다(편집 모달 전용 경로).
 export async function GET(request: NextRequest) {
+    const auth = await requireUser(request, '장소 검색은 로그인 후 이용할 수 있어요.');
+    if (auth instanceof NextResponse) return auth;
+
     try {
         const { searchParams } = new URL(request.url);
         const query = searchParams.get('query');

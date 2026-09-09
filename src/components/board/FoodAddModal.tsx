@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { X, Search, MapPin, Loader2 } from 'lucide-react';
 import type { RestaurantType } from '@/data/cities';
+import { fetchPlaces } from '@/lib/places/client';
 
 interface Place {
     id: string;
@@ -146,9 +147,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
                 const lng = event.latLng.lng();
 
                 try {
-                    const response = await fetch(
-                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=500`
-                    );
+                    const response = await fetchPlaces(`/api/places/nearby?lat=${lat}&lng=${lng}&radius=500`);
                     const data = await response.json();
 
                     if (data.status === 'success' && data.places.length > 0) {
@@ -191,9 +190,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
 
         setIsSearching(true);
         try {
-            const response = await fetch(
-                `/api/places/search?query=${encodeURIComponent(restaurantName)}&city=${destinationCity || ''}`
-            );
+            const response = await fetchPlaces(`/api/places/search?query=${encodeURIComponent(restaurantName)}&city=${destinationCity || ''}`);
 
             const data = await response.json();
 
@@ -265,9 +262,7 @@ export function FoodAddModal({ destinationCity, anchorCoordinates, anchorTitle, 
 
                 try {
                     // 주변 장소 검색
-                    const response = await fetch(
-                        `/api/places/nearby?lat=${lat}&lng=${lng}&radius=50`
-                    );
+                    const response = await fetchPlaces(`/api/places/nearby?lat=${lat}&lng=${lng}&radius=50`);
 
                     const data = await response.json();
 

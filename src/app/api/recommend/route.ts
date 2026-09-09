@@ -20,10 +20,24 @@ const PROMPT_CONFIG: any = {
   },
 };
 
+// ⛔ 폐쇄된 라우트.
+//
+// 앱 안에 호출부가 하나도 없다(월별 여행지 추천 카드는 AI 플래너로 흡수됨).
+// 그런데 라우트는 살아 있고 인증이 없어, 주소를 아는 누구나 우리 GEMINI_API_KEY 로
+// 제미나이를 부를 수 있었다. 쓰지 않는 기능 때문에 크레딧이 새면 안 되므로 막는다.
+//
+// 아래 구현은 나중에 되살릴 때를 위해 남겨 둔다. 되살린다면 이 차단을 지우는 대신
+// requireUser 게이트로 바꿀 것 — 열어 두면 같은 구멍이 다시 생긴다.
+const ROUTE_RETIRED = true;
+
 export async function POST(req: Request) {
+  if (ROUTE_RETIRED) {
+    return NextResponse.json({ error: 'Not found' }, { status: 404 });
+  }
+
   const body = await req.json();
   const { month, locale = "ko" } = body; // locale이 없으면 기본값 'ko'
-  
+
   const apiKey = process.env.GEMINI_API_KEY;
 
   // 선택된 언어 설정 가져오기 (없으면 영어로 폴백)

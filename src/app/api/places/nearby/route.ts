@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { requireUser } from '@/lib/server/requireUser';
 
+// 구글 Places(Nearby Search + Place Details) 프록시 — 호출 한 번이 우리 키로 과금된다.
+//
+// 로그인 필수인 이유: 이 라우트를 부르는 곳은 "직접 추가하기" 모달 네 개
+// (숙소·맛집·쇼핑·투어스파)뿐이고, 그 모달은 편집 권한자만 연다. 즉 손님이
+// 정상적으로 여기 도달할 일이 없다. 그런데 라우트는 열려 있어 주소만 알면
+// 누구나 우리 키로 구글을 부를 수 있었다.
+//
+// 카드 사진(places/photo·photos)은 손님도 봐야 하므로 열어 둔다 — 여기와 다르다.
 export async function GET(request: NextRequest) {
+    const auth = await requireUser(request, '장소 검색은 로그인 후 이용할 수 있어요.');
+    if (auth instanceof NextResponse) return auth;
+
     try {
         const { searchParams } = new URL(request.url);
         const lat = searchParams.get('lat');
