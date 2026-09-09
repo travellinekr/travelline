@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { guardAiRoute } from '@/lib/server/aiRateLimit';
 import { callModel, type ChatMessage } from '@/lib/ai/callModel';
 import { resolveCityKey, buildCatalogListing, findCatalogPlace, placeToCardPayload, listCatalogPlaces, SUBCAT_LABEL } from '@/lib/ai/catalog';
 import type { CardCategory } from '@/lib/ai/catalog';
@@ -859,6 +860,11 @@ async function callModelJson(opts: Parameters<typeof callModel>[0], retries = 1)
 }
 
 export async function POST(req: Request) {
+    // 로그인 확인 + 사용자당 분당 10회. AI 호출은 곧 요금이라 서버에서 막는다.
+    // (UI 게이트는 화면마다 조건이 달라, 주소로 직접 부르면 뚫린다)
+    const guard = await guardAiRoute(req);
+    if (guard instanceof NextResponse) return guard;
+
     let body: any;
     try {
         body = await req.json();

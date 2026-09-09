@@ -77,6 +77,7 @@ import { useEntryCardSync } from "@/hooks/useEntryCardSync";
 import { useDestinationSync } from "@/hooks/useDestinationSync";
 import { useTripStartDateSync } from "@/hooks/useTripStartDateSync";
 import { useAiPlannerChat } from "@/components/ai/useAiPlannerChat";
+import { fetchAiPlanner } from "@/lib/ai/plannerClient";
 import { useApplyAiPlan } from "@/hooks/useApplyAiPlan";
 import { useBoardStorage } from "@/hooks/useBoardStorage";
 import { LiveCursors } from "../components/board/LiveCursors";
@@ -1031,11 +1032,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
             if (fromName && fromExists) {
                 setAiBusy(true);
                 try {
-                    const res = await fetch('/api/ai-planner', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ phase: 'swap', destinationEngName: destEng, destinationName: aiDestinationName, swapTo: req.swapTo, swapCategory: req.swapCategory }),
-                    });
+                    const res = await fetchAiPlanner({ phase: 'swap', destinationEngName: destEng, destinationName: aiDestinationName, swapTo: req.swapTo, swapCategory: req.swapCategory });
                     const data = await res.json();
                     if (!res.ok || data.error || !data.place) {
                         addToast(data.error || '장소 교체에 실패했어요.', 'warning');
@@ -1066,17 +1063,13 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
 
         setAiBusy(true);
         try {
-            const res = await fetch('/api/ai-planner', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
+            const res = await fetchAiPlanner({
                     phase: 'generate',
                     destinationEngName: destEng,
                     destinationName: aiDestinationName,
                     requirements: req,
                     currentPlan: editing ? aiCurrentPlan : undefined,
-                }),
-            });
+                });
             const data = await res.json();
             if (!res.ok || data.error) {
                 addToast(data.error || '배치 생성에 실패했어요.', 'warning');
@@ -1129,11 +1122,7 @@ export function CollaborativeApp({ roomId, initialTitle }: { roomId: string; ini
     const handleAiRecommend = async (req: any) => {
         setAiBusy(true);
         try {
-            const res = await fetch('/api/ai-planner', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ phase: 'recommend-destination', requirements: req }),
-            });
+            const res = await fetchAiPlanner({ phase: 'recommend-destination', requirements: req });
             const data = await res.json();
             if (!res.ok || data.error) {
                 addToast(data.error || '여행지 추천에 실패했어요.', 'warning');

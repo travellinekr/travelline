@@ -27,6 +27,10 @@ export default function BottomNav({ onAiClick, onExpenseClick, onCommunityClick,
     ? (boardCity ? `/community?type=inquiry&${boardQs}` : null)
     : '/community?type=inquiry';
   const inquiryEnabled = !!user && !!inquiryHref;
+  // AI 는 호출 한 번이 요금이라 로그인 사용자만. 데스크톱(Inbox)은 canEdit 로 이미 가려져 있다.
+  // 서버(/api/ai-planner)도 같은 조건으로 막혀 있어, 여기는 "눌러보고 거절당하는" 걸 없애는 용도다.
+  const aiEnabled = !!user && !!onAiClick;
+  const aiTitle = !user ? '로그인 후 이용 가능' : undefined;
   const inquiryTitle = fromBoard && !boardCity ? '최종여행지 등록 후 이용 가능' : (!user ? '로그인 후 이용 가능' : undefined);
   // 여행보드에서는 커뮤니티를 라우팅 없이 모달로 띄운다(보드 언마운트 방지 → Liveblocks 소켓 유지).
   // 핸들러가 없으면(보드 밖) 기존처럼 링크로 이동.
@@ -87,11 +91,12 @@ export default function BottomNav({ onAiClick, onExpenseClick, onCommunityClick,
         <button
           type="button"
           onClick={onAiClick}
-          disabled={!onAiClick}
-          className={`${baseItem} ${!onAiClick ? 'cursor-not-allowed' : ''}`}
+          disabled={!aiEnabled}
+          title={aiTitle}
+          className={`${baseItem} ${!aiEnabled ? 'cursor-not-allowed' : ''}`}
         >
           <Sparkles
-            className={`w-6 h-6 ${onAiClick ? 'text-[#fcaa63]' : ''}`}
+            className={`w-6 h-6 ${aiEnabled ? 'text-[#fcaa63]' : ''}`}
             strokeWidth={1.8}
             fill="currentColor"
             fillOpacity={0.10}

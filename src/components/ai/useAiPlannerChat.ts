@@ -2,6 +2,7 @@
 
 import { useState, useRef, useCallback, useEffect } from 'react';
 import type { AiRequirements } from './AiPlannerForm';
+import { fetchAiPlanner } from '@/lib/ai/plannerClient';
 
 export interface ChatMsg {
     role: 'user' | 'assistant';
@@ -105,18 +106,14 @@ export function useAiPlannerChat({ destinationName, currentPlan }: { destination
         setInput('');
         setLoading(true);
         try {
-            const res = await fetch('/api/ai-planner', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    phase: 'chat',
-                    destinationName: destRef.current,
-                    hasDestination: !!destRef.current,
-                    currentPlan: planRef.current ?? undefined,
-                    messages: next,
-                    // 지금까지 누적한 슬롯을 함께 전송 → 서버가 "확정 항목 재질문 금지"로 주입(모델 누락 보완)
-                    requirements: requirements ?? undefined,
-                }),
+            const res = await fetchAiPlanner({
+                phase: 'chat',
+                destinationName: destRef.current,
+                hasDestination: !!destRef.current,
+                currentPlan: planRef.current ?? undefined,
+                messages: next,
+                // 지금까지 누적한 슬롯을 함께 전송 → 서버가 "확정 항목 재질문 금지"로 주입(모델 누락 보완)
+                requirements: requirements ?? undefined,
             });
             const data = await res.json();
             if (!res.ok || data.error) {
