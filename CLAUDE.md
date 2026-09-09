@@ -488,7 +488,7 @@ Picker 컴포넌트들에서 사용하는 정적 데이터 모음. 모두 순수
 
 | 파일 | export 주요 상수 | 용도 |
 |---|---|---|
-| `colors.ts` | `CURSOR_COLORS` (15색 HEX 배열) | Liveblocks 멀티유저 커서 색상 (`connectionId % length`) |
+| `colors.ts` | `CURSOR_COLORS` (커서 색), `CARD_CATEGORY_COLOR` / `CARD_CATEGORY_LABEL` (카드 카테고리 색·라벨 단일 출처) | 커서 색상 + 디자인 시스템 카테고리 색 |
 | `airlines.ts` | `KOREAN_AIRLINES`, `MAJOR_AIRLINES`, `ALL_AIRLINES` + 헬퍼 함수 | FlightForm 항공사 자동완성. `Airline { name, code, category: FSC\|LCC }` |
 | `airports.ts` | `KOREAN_AIRPORTS`, `MAJOR_AIRPORTS`, `CITY_AIRPORT_GROUPS` | FlightForm 공항 선택. 좌표(lat/lng) 포함. `CITY_AIRPORT_GROUPS`는 도시별 다중 공항 그룹핑 |
 | `destinations.ts` | `DESTINATION_DATA`, `FALLBACK_IMAGES` | DestinationPicker. 4개 지역(`japan`, `china_taiwan`, `se_asia`, `long_haul`), ~19개 도시. Unsplash 실패 시 Wikimedia fallback 이미지 |
@@ -521,6 +521,19 @@ interface CityData {
 - 새 도시 추가 시 `destinations.ts` + 관련 Picker 데이터 파일 동시 업데이트 필요
 - `engName` 이 모든 `Record<string, Data[]>` 의 키로 사용됨 → 철자 일관성 유지 필수
 - `tourSpa.ts`, `foodCardGuide.ts`, `hotelCardGuide.ts`는 미완성 상태
+
+---
+
+## 디자인 시스템
+
+**문서**: `docs/design-system.md` (전체 토큰·프리미티브·적용 가이드)
+
+- **토큰**: `src/app/globals.css` `@theme` 블록 — role 별칭(`--color-primary-*`=emerald, `--color-accent-*`=orange, `--color-danger-*`=red), 브랜드 마크색(`--color-brand-orange/teal`), 카드 카테고리색(`--color-cat-*`), 반경/그림자. **전부 추가만** 했고 기존 유틸 클래스는 그대로.
+- **카테고리 색 단일 출처**: `src/data/colors.ts` `CARD_CATEGORY_COLOR` — 각 카드의 `colorClass="bg-rose-400"` 하드코딩을 대체할 값. `{ bar, text, soft, border, ring, hex }` 제공.
+- **공통 프리미티브**: `src/components/ui/` — `Button`, `Spinner`/`SpinnerBlock`, `Badge`, `Skeleton`/`SkeletonText`. `import { ... } from '@/components/ui'`.
+- **className 병합**: `src/lib/cn.ts` `cn()` (clsx + tailwind-merge).
+- **로딩 표현 구분**: 전체/섹션 로딩 = `@/components/BrandLoader` (`BrandLoader`/`ModalLoader`/`TopProgressBar`), 인라인 로딩 = `@/components/ui` `Spinner`.
+- **원칙**: 기존 컴포넌트 일괄 리팩터링 안 함. 신규 코드부터 점진 적용.
 
 ---
 
