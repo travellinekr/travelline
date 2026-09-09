@@ -10,6 +10,76 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-hand: var(--font-hand);
+}
+
+/* =========================================================================
+   🎨 Travelline 디자인 토큰  (design-system)
+   -------------------------------------------------------------------------
+   전부 "추가"만 한다. 기존 유틸 클래스(bg-emerald-600 등)는 그대로 동작하고,
+   여기서 새로 나오는 것은 role 기반 별칭(bg-primary-600, text-danger-500 …)과
+   카드 카테고리 색(bg-cat-hotel …) 뿐이다. 아직 아무 컴포넌트도 이 별칭을
+   쓰지 않으므로 빌드/런타임에 영향 0. 신규 코드부터 점진 적용한다.
+
+   - primary : 주요 액션 버튼 (코드베이스 관행 = emerald)
+   - accent  : 여행쇼핑 / AI 등 강조 (orange-500)
+   - danger  : 삭제·경고 (red)
+   - brand   : 로고 마크 색 (BrandLoader 의 주황/틸) — 마크 전용, UI 색 아님
+   - cat-*   : 카드 카테고리 식별색 (CardShell 좌측 바 / 아이콘)
+   문서: docs/design-system.md
+   ========================================================================= */
+@theme {
+  /* primary — emerald */
+  --color-primary-50:  #ecfdf5;
+  --color-primary-100: #d1fae5;
+  --color-primary-200: #a7f3d0;
+  --color-primary-300: #6ee7b7;
+  --color-primary-400: #34d399;
+  --color-primary-500: #10b981;
+  --color-primary-600: #059669;
+  --color-primary-700: #047857;
+  --color-primary-800: #065f46;
+  --color-primary-900: #064e3b;
+
+  /* accent — orange */
+  --color-accent-50:  #fff7ed;
+  --color-accent-100: #ffedd5;
+  --color-accent-200: #fed7aa;
+  --color-accent-300: #fdba74;
+  --color-accent-400: #fb923c;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+  --color-accent-700: #c2410c;
+
+  /* danger — red */
+  --color-danger-50:  #fef2f2;
+  --color-danger-100: #fee2e2;
+  --color-danger-500: #ef4444;
+  --color-danger-600: #dc2626;
+  --color-danger-700: #b91c1c;
+
+  /* brand mark (로고 전용) */
+  --color-brand-orange: #ff6b47;
+  --color-brand-teal:   #5bbfad;
+
+  /* 카드 카테고리 식별색 (Tailwind 400 레벨) */
+  --color-cat-destination: #34d399; /* emerald-400 */
+  --color-cat-preparation: #818cf8; /* indigo-400  */
+  --color-cat-hotel:       #fb7185; /* rose-400    */
+  --color-cat-food:        #fb923c; /* orange-400  */
+  --color-cat-shopping:    #c084fc; /* purple-400  */
+  --color-cat-transport:   #60a5fa; /* blue-400    */
+  --color-cat-tourspa:     #22d3ee; /* cyan-400    */
+  --color-cat-other:       #fbbf24; /* amber-400   */
+  --color-cat-flight:      #38bdf8; /* sky-400     */
+
+  /* 반경 스케일 (관행: card=xl, chip/badge=full, panel=2xl) */
+  --radius-card:  0.75rem;  /* 12px — rounded-xl  */
+  --radius-panel: 1rem;     /* 16px — rounded-2xl */
+
+  /* 그림자 (관행) */
+  --shadow-card:  0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-modal: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
 @media (prefers-color-scheme: dark) {
