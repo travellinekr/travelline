@@ -425,7 +425,7 @@ function HomePreview() {
             ))}
 
             {!searching && (
-              <button className="flex min-h-[168px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30">
+              <button className="flex min-h-[220px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30 md:min-h-[236px]">
                 <Plus className="mb-1 h-5 w-5" />
                 <span className="text-xs font-bold">새 여행 만들기</span>
               </button>
@@ -520,7 +520,7 @@ function PreviewTripCard({
       }`}
     >
       {/* 여행지 사진 커버 */}
-      <div className="relative h-24 overflow-hidden rounded-t-2xl bg-slate-100">
+      <div className="relative h-36 overflow-hidden rounded-t-2xl bg-slate-100 md:h-40">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={trip.img} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent" />
