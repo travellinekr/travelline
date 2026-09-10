@@ -86,7 +86,21 @@ export default function DesignSystemPreview() {
     if (process.env.NODE_ENV === "production") notFound();
 
     return (
-        <div className="min-h-dvh bg-slate-50 text-slate-700">
+        <div
+            className="min-h-dvh bg-slate-50 text-slate-700"
+            style={{
+                fontFamily:
+                    "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', system-ui, sans-serif",
+            }}
+        >
+            {/* Pretendard 폰트 프리뷰 — 이 페이지에서만 적용(디자인 시스템 확인용).
+                dynamic-subset: 화면에 실제로 쓰인 글자만 내려받아 용량 부담이 작다.
+                앱 본체(globals.css / layout.tsx)는 그대로 Geist + OS 한글 폰트. */}
+            {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+            <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"
+            />
             <div className="mx-auto max-w-4xl px-5 py-10">
                 <header className="mb-12">
                     <div className="inline-flex items-center gap-2 rounded-full bg-amber-100 px-2.5 py-1 text-[11px] font-bold text-amber-700">
@@ -96,6 +110,9 @@ export default function DesignSystemPreview() {
                     <p className="mt-1 text-sm text-slate-500">
                         실제 <code className="rounded bg-slate-200 px-1">@/components/ui</code> 프리미티브 + 토큰 렌더.
                         상세는 <code className="rounded bg-slate-200 px-1">docs/design-system.md</code>.
+                    </p>
+                    <p className="mt-2 inline-flex items-center gap-1.5 rounded-md bg-indigo-50 px-2 py-1 text-[11px] font-semibold text-indigo-600">
+                        폰트 프리뷰: Pretendard (이 페이지에만 적용 · 앱 본체 미반영)
                     </p>
                 </header>
 
@@ -145,14 +162,20 @@ export default function DesignSystemPreview() {
                 </Section>
 
                 {/* ── 타이포 ── */}
-                <Section title="3. 타이포그래피" note="Geist Sans 기본. 크기는 사용 빈도순.">
+                <Section title="3. 타이포그래피" note="이 프리뷰는 Pretendard로 렌더 중 (앱 본체는 Geist + OS 한글 폰트). 크기는 사용 빈도순.">
                     <div className="space-y-2 rounded-xl border border-gray-100 bg-white p-4 shadow-sm">
                         {TYPE_SCALE.map((t) => (
                             <div key={t.cls} className="flex items-baseline gap-4">
-                                <span className={`${t.cls} font-semibold text-slate-800`}>여행 타임라인 Travelline</span>
+                                <span className={`${t.cls} font-semibold text-slate-800`}>여행 타임라인 Travelline 1,234원</span>
                                 <span className="text-[11px] text-slate-400">{t.label}</span>
                             </div>
                         ))}
+                        <div className="flex flex-wrap items-baseline gap-2 pt-1">
+                            {["font-normal", "font-medium", "font-semibold", "font-bold", "font-extrabold"].map((w) => (
+                                <span key={w} className={`${w} text-base text-slate-800`}>가나다 Aa 123</span>
+                            ))}
+                            <span className="text-[11px] text-slate-400">weight: normal → extrabold</span>
+                        </div>
                         <div className="flex items-baseline gap-4 pt-1">
                             <span className="text-lg text-slate-800" style={{ fontFamily: "var(--font-hand), cursive" }}>여기를 눌러보세요</span>
                             <span className="text-[11px] text-slate-400">font-hand · Nanum Pen · 온보딩 코치마크</span>
