@@ -6,7 +6,8 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 import { BrandLoader } from "@/components/BrandLoader";
-import ProjectCard from "@/components/dashboard/ProjectCard";
+import CanvasProjectCard from "@/components/dashboard/CanvasProjectCard";
+import CreateCanvasStrip from "@/components/dashboard/CreateCanvasStrip";
 import CreateProjectModal from "@/components/dashboard/CreateProjectModal";
 import { Project } from "@/types/project";
 import { supabase } from "@/lib/supabaseClient";
@@ -321,25 +322,34 @@ export default function Dashboard() {
       {/* ① 헤더 (스크롤 시 상단 고정, 펀치홀 여백 유지) */}
       <DashboardHeader sticky />
 
-      {/* ② 광고 / 공유카드 롤링 배너 */}
-      <RollingBanner />
+      {/* ② 새 보드 만들기 (로그인 상태 홈의 첫 화면) */}
+      {user && <CreateCanvasStrip onNew={() => setIsModalOpen(true)} />}
 
-      {/* ③ 커뮤니티 최신글 진입 섹션 */}
-      <CommunityHomeSection />
-
-      {/* ④ 나의 여행 계획 */}
-      <main className="flex-1 max-w-6xl w-full mx-auto pt-3 pb-6 md:pt-4 md:pb-7 px-4 sm:px-6">
+      {/* ③ 내 여행 보드 / 비로그인 히어로 */}
+      <main
+        className="flex-1 max-w-6xl w-full mx-auto pt-4 pb-6 md:pt-6 md:pb-8 px-4 sm:px-6"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, rgba(148,163,184,0.22) 1px, transparent 1px)",
+          backgroundSize: "24px 24px",
+        }}
+      >
         {user && (
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-3">
             <div>
-              <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-0.5">나의 여행 계획</h2>
-              <p className="text-xs md:text-sm text-slate-400">진행 중인 여행 계획을 확인하고 새로운 여행을 시작하세요.</p>
+              <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-0.5 flex items-center gap-2">
+                내 여행 보드
+                {projects.length > 0 && (
+                  <span className="text-sm font-semibold text-slate-400">{projects.length}</span>
+                )}
+              </h2>
+              <p className="text-xs md:text-sm text-slate-400">함께 편집 중인 보드를 열어보거나 새 보드를 시작하세요.</p>
             </div>
             <button
               onClick={() => setIsModalOpen(true)}
               className="bg-slate-800 text-white px-4 py-2 rounded-xl font-bold flex items-center gap-2 hover:bg-slate-900 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:scale-95 text-sm"
             >
-              <Plus className="w-4 h-4" /> 새 여행 계획
+              <Plus className="w-4 h-4" /> 새 보드
             </button>
           </div>
         )}
@@ -405,17 +415,23 @@ export default function Dashboard() {
           </div>
         )}
 
-        {/* 로그인 상태: 프로젝트 목록 */}
+        {/* 로그인 상태: 보드 목록 (피그마 파일 그리드 느낌) */}
         {user && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
             {projectsLoading
-              ? Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="h-[100px] md:h-[120px] bg-white rounded-2xl border border-slate-100 animate-pulse" />
+              ? Array.from({ length: 4 }).map((_, i) => (
+                <div key={i} className="rounded-2xl border border-slate-200 bg-white overflow-hidden animate-pulse">
+                  <div className="h-[104px] md:h-[116px] bg-slate-100" />
+                  <div className="px-3 py-2.5 flex items-center gap-2">
+                    <div className="h-4 w-4 rounded-[5px] bg-slate-200" />
+                    <div className="h-3 flex-1 rounded bg-slate-100" />
+                  </div>
+                </div>
               ))
               : (
                 <>
                   {projects.map((project, idx) => (
-                    <ProjectCard
+                    <CanvasProjectCard
                       key={project.id}
                       project={project}
                       colorIndex={idx}
@@ -426,12 +442,17 @@ export default function Dashboard() {
                   ))}
                   <button
                     onClick={() => setIsModalOpen(true)}
-                    className="group border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-400 hover:border-orange-400 hover:text-orange-500 hover:bg-orange-50/30 transition-all h-[100px] md:h-[120px]"
+                    className="group flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-all hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30 min-h-[160px]"
+                    style={{
+                      backgroundImage:
+                        "radial-gradient(circle, rgba(148,163,184,0.28) 1px, transparent 1px)",
+                      backgroundSize: "14px 14px",
+                    }}
                   >
-                    <div className="w-8 h-8 md:w-10 md:h-10 bg-slate-50 rounded-full flex items-center justify-center mb-1.5 group-hover:bg-white group-hover:scale-110 transition-transform shadow-sm">
-                      <Plus className="w-4 h-4 md:w-5 md:h-5" />
+                    <div className="mb-1.5 flex h-9 w-9 items-center justify-center rounded-full bg-white shadow-sm transition-transform group-hover:scale-110">
+                      <Plus className="h-4 w-4 md:h-5 md:w-5" />
                     </div>
-                    <span className="font-bold text-xs md:text-sm">새로운 계획 만들기</span>
+                    <span className="text-xs font-bold md:text-sm">새 보드 만들기</span>
                   </button>
                 </>
               )}
@@ -439,7 +460,13 @@ export default function Dashboard() {
         )}
       </main>
 
-      {/* ④ 푸터 */}
+      {/* ④ 여행 아이디어 롤링 배너 */}
+      <RollingBanner />
+
+      {/* ⑤ 커뮤니티 최신글 진입 섹션 */}
+      <CommunityHomeSection />
+
+      {/* ⑥ 푸터 */}
       <Footer />
 
       <CreateProjectModal
