@@ -19,7 +19,7 @@ import { notFound } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Plus, Home, MessageSquareText, BookOpen, Folder, FolderPlus,
-  MoreHorizontal, Pencil, Trash2, Users, MousePointer2, Menu, X, GripVertical, Search,
+  MoreHorizontal, Pencil, Trash2, Users, MousePointer2, Menu, X, Search,
 } from "lucide-react";
 
 // ────────────────────────────────────────────────────────────
@@ -528,8 +528,7 @@ function PreviewTripCard({
         <MousePointer2 className="absolute right-2.5 top-2.5 h-4 w-4 fill-white text-slate-700 drop-shadow" aria-hidden="true" />
       </div>
 
-      <div className="flex items-start gap-1.5 px-2.5 py-2.5 sm:gap-2 sm:px-3">
-        <GripVertical className="mt-0.5 hidden h-4 w-4 shrink-0 cursor-grab text-slate-300 group-hover:text-slate-400 sm:block" />
+      <div className="flex items-start gap-2 px-3 py-2.5">
         <span className={`mt-1 h-3 w-3 shrink-0 rounded-[4px] ${bar}`} />
         <div className="min-w-0 flex-1">
           <h3 className="truncate text-sm font-bold text-slate-800">{trip.title}</h3>
