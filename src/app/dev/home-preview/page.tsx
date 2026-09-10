@@ -522,7 +522,7 @@ function PreviewTripCard({
       {/* 여행지 사진 커버 */}
       <div className="relative h-36 overflow-hidden rounded-t-2xl bg-slate-100 md:h-40">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={trip.img} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" />
+        <img src={trip.img} alt="" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent" />
         <span className="absolute bottom-1.5 left-2.5 text-xs font-bold text-white drop-shadow">{trip.city}</span>
         <MousePointer2 className="absolute right-2.5 top-2.5 h-4 w-4 fill-white text-slate-700 drop-shadow" aria-hidden="true" />
