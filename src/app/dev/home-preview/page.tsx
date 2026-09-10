@@ -19,7 +19,7 @@ import { notFound } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Plus, Home, MessageSquareText, BookOpen, Folder, FolderPlus,
-  MoreHorizontal, Pencil, Trash2, Users, MousePointer2, Menu, X, GripVertical,
+  MoreHorizontal, Pencil, Trash2, Users, MousePointer2, Menu, X, GripVertical, Search,
 } from "lucide-react";
 
 // ────────────────────────────────────────────────────────────
@@ -102,6 +102,10 @@ function HomePreview() {
   const [sidebarOpen, setSidebarOpen] = useState(false); // 모바일 드로어
   const [dragTrip, setDragTrip] = useState<string | null>(null);
   const [dropTarget, setDropTarget] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const q = query.trim().toLowerCase();
+  const searching = q.length > 0;
 
   useEffect(() => {
     setStore(loadStore());
@@ -123,10 +127,12 @@ function HomePreview() {
   );
 
   const visibleTrips = useMemo(() => {
+    // 검색 중이면 폴더 필터 무시하고 전체 여행에서 이름/도시로 찾는다.
+    if (q) return TRIPS.filter((t) => t.title.toLowerCase().includes(q) || t.city.toLowerCase().includes(q));
     if (selected === ALL) return TRIPS;
     if (selected === UNFILED) return TRIPS.filter((t) => !store.assign[t.id]);
     return TRIPS.filter((t) => store.assign[t.id] === selected);
-  }, [selected, store.assign]);
+  }, [q, selected, store.assign]);
 
   // 폴더 커버 사진 = 그 폴더에 담긴 첫 여행의 여행지 사진
   const coverFor = useCallback(
@@ -138,9 +144,14 @@ function HomePreview() {
   );
 
   const selectedFolder = store.folders.find((f) => f.id === selected);
-  const selectedCover = selectedFolder ? coverFor(selectedFolder.id) : null;
-  const headerTitle =
-    selected === ALL ? "모든 여행" : selected === UNFILED ? "미분류" : selectedFolder?.name ?? "모든 여행";
+  const selectedCover = !searching && selectedFolder ? coverFor(selectedFolder.id) : null;
+  const headerTitle = searching
+    ? `‘${query.trim()}’ 검색 결과`
+    : selected === ALL
+      ? "모든 여행"
+      : selected === UNFILED
+        ? "미분류"
+        : selectedFolder?.name ?? "모든 여행";
 
   // ── 폴더 조작 ──
   const addFolder = () => {
@@ -303,19 +314,76 @@ function HomePreview() {
         {/* ── 우측 본문 ────────────────────────────────────── */}
         <main className="min-w-0 flex-1">
           {/* 상단 바 */}
-          <div className="sticky top-0 z-20 flex items-center gap-3 border-b border-slate-200 bg-white/90 px-4 py-3 backdrop-blur md:px-6">
-            <button className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 md:hidden" onClick={() => setSidebarOpen(true)}>
-              <Menu className="h-5 w-5" />
-            </button>
-            <div className="min-w-0 flex-1">
-              <h1 className="flex items-center gap-2 truncate text-lg font-bold text-slate-800 md:text-xl">
-                {headerTitle}
-                <span className="text-sm font-semibold text-slate-400">{visibleTrips.length}</span>
-              </h1>
+          <div className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
+            <div className="flex items-center gap-2 px-4 py-3 md:gap-3 md:px-6">
+              <button className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100 md:hidden" onClick={() => setSidebarOpen(true)}>
+                <Menu className="h-5 w-5" />
+              </button>
+              <div className="min-w-0 flex-1">
+                <h1 className="flex items-center gap-2 truncate text-lg font-bold text-slate-800 md:text-xl">
+                  {headerTitle}
+                  <span className="text-sm font-semibold text-slate-400">{visibleTrips.length}</span>
+                </h1>
+              </div>
+
+              {/* 검색 — 데스크톱: 인라인 입력 */}
+              <div className="relative hidden shrink-0 md:block md:w-56 lg:w-72">
+                <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                <input
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="여행 검색"
+                  className="h-9 w-full rounded-lg border border-slate-200 bg-slate-50 pl-9 pr-8 text-sm text-slate-700 placeholder:text-slate-400 focus:border-emerald-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-emerald-400/20"
+                />
+                {query && (
+                  <button
+                    onClick={() => setQuery("")}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 rounded-md p-0.5 text-slate-400 hover:bg-slate-200 hover:text-slate-600"
+                    aria-label="검색어 지우기"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
+                )}
+              </div>
+
+              {/* 검색 — 모바일: 아이콘 토글 */}
+              <button
+                onClick={() => setMobileSearchOpen((v) => !v)}
+                className={`rounded-lg p-1.5 md:hidden ${mobileSearchOpen || searching ? "bg-emerald-50 text-emerald-600" : "text-slate-500 hover:bg-slate-100"}`}
+                aria-label="여행 검색"
+              >
+                <Search className="h-5 w-5" />
+              </button>
+
+              <button className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-lg bg-emerald-500 px-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-600 md:px-4">
+                <Plus className="h-4 w-4" /> <span className="hidden sm:inline">새 여행</span>
+              </button>
             </div>
-            <button className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-lg bg-emerald-500 px-4 text-sm font-semibold text-white transition-colors hover:bg-emerald-600">
-              <Plus className="h-4 w-4" /> 새 여행
-            </button>
+
+            {/* 검색 — 모바일: 펼쳐지는 입력 줄 */}
+            {mobileSearchOpen && (
+              <div className="px-4 pb-3 md:hidden">
+                <div className="relative">
+                  <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                  <input
+                    autoFocus
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder="여행 이름 · 도시로 검색"
+                    className="h-9 w-full rounded-lg border border-slate-200 bg-slate-50 pl-9 pr-8 text-sm text-slate-700 placeholder:text-slate-400 focus:border-emerald-400 focus:bg-white focus:outline-none"
+                  />
+                  {query && (
+                    <button
+                      onClick={() => setQuery("")}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 rounded-md p-0.5 text-slate-400 hover:bg-slate-200"
+                      aria-label="검색어 지우기"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* 폴더 커버 (실제 폴더 선택 시) */}
@@ -333,7 +401,11 @@ function HomePreview() {
 
           {/* 안내 */}
           <p className="px-4 pt-4 text-xs text-slate-400 md:px-6">
-            카드를 왼쪽 폴더로 <span className="font-semibold text-slate-500">드래그</span>하면 정리돼요.
+            {searching ? (
+              <>전체 여행에서 이름·도시로 검색 중이에요.</>
+            ) : (
+              <>카드를 왼쪽 폴더로 <span className="font-semibold text-slate-500">드래그</span>하면 정리돼요.</>
+            )}
           </p>
 
           {/* 카드 그리드 */}
@@ -352,14 +424,18 @@ function HomePreview() {
               />
             ))}
 
-            <button className="flex min-h-[168px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30">
-              <Plus className="mb-1 h-5 w-5" />
-              <span className="text-xs font-bold">새 여행 만들기</span>
-            </button>
+            {!searching && (
+              <button className="flex min-h-[168px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30">
+                <Plus className="mb-1 h-5 w-5" />
+                <span className="text-xs font-bold">새 여행 만들기</span>
+              </button>
+            )}
           </div>
 
           {visibleTrips.length === 0 && (
-            <p className="px-6 pb-10 pt-2 text-center text-sm text-slate-400">이 폴더에 담긴 여행이 없어요. 카드를 드래그해서 넣어보세요.</p>
+            <p className="px-6 pb-10 pt-2 text-center text-sm text-slate-400">
+              {searching ? <>‘{query.trim()}’ 와(과) 일치하는 여행이 없어요.</> : <>이 폴더에 담긴 여행이 없어요. 카드를 드래그해서 넣어보세요.</>}
+            </p>
           )}
         </main>
       </div>
