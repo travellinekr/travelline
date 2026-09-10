@@ -176,13 +176,13 @@ function HomePreview() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-700">
+    <div className="flex min-h-screen flex-col bg-slate-50 font-sans text-slate-700">
       {/* 개발 프리뷰 표시 바 */}
-      <div className="bg-amber-100 border-b border-amber-200 px-4 py-1.5 text-center text-[11px] font-semibold text-amber-800">
+      <div className="shrink-0 bg-amber-100 border-b border-amber-200 px-4 py-1.5 text-center text-[11px] font-semibold text-amber-800">
         개발 프로토타입 · 폴더/분류는 이 브라우저에만 저장돼요 (새로고침해도 유지)
       </div>
 
-      <div className="flex">
+      <div className="flex min-h-0 flex-1 items-stretch">
         {/* ── 좌측 GNB ─────────────────────────────────────── */}
         {/* 모바일 드로어 배경 */}
         {sidebarOpen && (
@@ -192,7 +192,7 @@ function HomePreview() {
           />
         )}
         <aside
-          className={`fixed inset-y-0 left-0 z-40 w-64 shrink-0 border-r border-slate-200 bg-white transition-transform md:static md:z-0 md:translate-x-0 ${
+          className={`fixed inset-y-0 left-0 z-40 w-64 shrink-0 border-r border-slate-200 bg-white transition-transform md:static md:z-0 md:translate-x-0 md:self-stretch ${
             sidebarOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
