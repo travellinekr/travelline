@@ -337,7 +337,7 @@ function HomePreview() {
           </p>
 
           {/* 카드 그리드 */}
-          <div className="grid grid-cols-1 gap-3 p-4 sm:grid-cols-2 lg:grid-cols-3 md:px-6">
+          <div className="grid grid-cols-2 gap-3 p-4 sm:grid-cols-3 lg:grid-cols-4 md:px-6">
             {visibleTrips.map((t, i) => (
               <PreviewTripCard
                 key={t.id}
@@ -452,9 +452,9 @@ function PreviewTripCard({
         <MousePointer2 className="absolute right-2.5 top-2.5 h-4 w-4 fill-white text-slate-700 drop-shadow" aria-hidden="true" />
       </div>
 
-      <div className="flex items-start gap-2 px-3 py-2.5">
-        <GripVertical className="mt-0.5 h-4 w-4 shrink-0 cursor-grab text-slate-300 group-hover:text-slate-400" />
-        <span className={`mt-1 h-3.5 w-3.5 shrink-0 rounded-[4px] ${bar}`} />
+      <div className="flex items-start gap-1.5 px-2.5 py-2.5 sm:gap-2 sm:px-3">
+        <GripVertical className="mt-0.5 hidden h-4 w-4 shrink-0 cursor-grab text-slate-300 group-hover:text-slate-400 sm:block" />
+        <span className={`mt-1 h-3 w-3 shrink-0 rounded-[4px] ${bar}`} />
         <div className="min-w-0 flex-1">
           <h3 className="truncate text-sm font-bold text-slate-800">{trip.title}</h3>
           <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400">
