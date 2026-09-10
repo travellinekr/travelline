@@ -197,11 +197,21 @@ function HomePreview() {
           }`}
         >
           <div className="flex h-full flex-col">
-            {/* 브랜드 */}
-            <div className="flex items-center justify-between px-4 py-4">
-              <span className="text-lg font-extrabold tracking-tight text-slate-800">Travelline</span>
-              <button className="rounded-lg p-1 text-slate-400 hover:bg-slate-100 md:hidden" onClick={() => setSidebarOpen(false)}>
-                <X className="h-5 w-5" />
+            {/* 브랜드 + 계정 (상단) */}
+            <div className="px-3 pt-3">
+              <div className="flex items-center justify-between px-1 pb-2">
+                <span className="text-sm font-extrabold tracking-tight text-slate-400">Travelline</span>
+                <button className="rounded-lg p-1 text-slate-400 hover:bg-slate-100 md:hidden" onClick={() => setSidebarOpen(false)}>
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
+              <button className="flex w-full items-center gap-2.5 rounded-xl border border-slate-200 px-2.5 py-2 text-left transition-colors hover:bg-slate-50">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-violet-500 text-sm font-bold text-white">나</div>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-semibold text-slate-700">여행하는 재용</p>
+                  <p className="truncate text-[11px] text-slate-400">iamjyh99@gmail.com</p>
+                </div>
+                <MoreHorizontal className="h-4 w-4 shrink-0 text-slate-300" />
               </button>
             </div>
 
@@ -271,17 +281,6 @@ function HomePreview() {
                   muted
                 />
               )}
-            </div>
-
-            {/* 하단 계정 */}
-            <div className="border-t border-slate-100 px-3 py-3">
-              <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-sm font-bold text-white">나</div>
-                <div className="min-w-0">
-                  <p className="truncate text-sm font-semibold text-slate-700">여행하는 재용</p>
-                  <p className="truncate text-[11px] text-slate-400">iamjyh99@gmail.com</p>
-                </div>
-              </div>
             </div>
           </div>
         </aside>
