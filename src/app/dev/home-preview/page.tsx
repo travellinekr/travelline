@@ -25,16 +25,19 @@ import {
 // ────────────────────────────────────────────────────────────
 // 목업 여행 목록 (개념상 "서버 데이터" — 프로토타입에서 고정)
 // ────────────────────────────────────────────────────────────
-type Trip = { id: string; title: string; date: string; shared?: boolean };
+// img: 실제 서비스의 여행지 사진과 같은 소스(src/data/destinations.ts FALLBACK_IMAGES, Wikimedia).
+// 프로토타입이라 API 없이 정적 URL 을 그대로 사용.
+type Trip = { id: string; title: string; city: string; date: string; img: string; shared?: boolean };
+const IMG = (file: string) => `https://commons.wikimedia.org/wiki/Special:FilePath/${file}?width=640`;
 const TRIPS: Trip[] = [
-  { id: "t-osaka", title: "2026 오사카 우정여행", date: "2026. 8. 12." },
-  { id: "t-jeju", title: "제주 3박4일 가족여행", date: "2026. 7. 30." },
-  { id: "t-danang", title: "다낭 신혼여행 계획", date: "2026. 9. 1.", shared: true },
-  { id: "t-tokyo", title: "도쿄 벚꽃 시즌 나들이", date: "2026. 3. 20." },
-  { id: "t-bangkok", title: "방콕 미식 투어", date: "2026. 6. 5.", shared: true },
-  { id: "t-bali", title: "발리 워케이션", date: "2026. 10. 2." },
-  { id: "t-fukuoka", title: "후쿠오카 온천 주말", date: "2026. 11. 15." },
-  { id: "t-taipei", title: "타이베이 야시장 투어", date: "2026. 12. 24." },
+  { id: "t-osaka", title: "2026 오사카 우정여행", city: "오사카", date: "2026. 8. 12.", img: IMG("Osaka_Castle_02bs3200.jpg") },
+  { id: "t-sapporo", title: "삿포로 설경 가족여행", city: "삿포로", date: "2026. 7. 30.", img: IMG("Sapporo_clock_tower.JPG") },
+  { id: "t-danang", title: "다낭 신혼여행 계획", city: "다낭", date: "2026. 9. 1.", img: IMG("2020_Da_Nang_Dragon_Bridge_IMG_3897.jpg"), shared: true },
+  { id: "t-tokyo", title: "도쿄 벚꽃 시즌 나들이", city: "도쿄", date: "2026. 3. 20.", img: IMG("Tokyo_Tower_M4854.jpg") },
+  { id: "t-bangkok", title: "방콕 미식 투어", city: "방콕", date: "2026. 6. 5.", img: IMG("Wat_arun_bangkok.jpg"), shared: true },
+  { id: "t-bali", title: "발리 워케이션", city: "발리", date: "2026. 10. 2.", img: IMG("Bali_Pura_Lempuyang_Luhur.jpg") },
+  { id: "t-fukuoka", title: "후쿠오카 온천 주말", city: "후쿠오카", date: "2026. 11. 15.", img: IMG("Canalcity.jpg") },
+  { id: "t-taipei", title: "타이베이 야시장 투어", city: "타이베이", date: "2026. 12. 24.", img: IMG("Taipei_101_from_Xiangshan_20240729.jpg") },
 ];
 
 // 폴더 색상 (리터럴로 나열 — Tailwind JIT 스캔용)
@@ -58,7 +61,7 @@ const DEFAULT_STORE: Store = {
     { id: "f-japan", name: "일본 여행", color: "rose" },
     { id: "f-family", name: "가족 여행", color: "sky" },
   ],
-  assign: { "t-osaka": "f-japan", "t-tokyo": "f-japan", "t-fukuoka": "f-japan", "t-jeju": "f-family" },
+  assign: { "t-osaka": "f-japan", "t-tokyo": "f-japan", "t-fukuoka": "f-japan", "t-sapporo": "f-family" },
 };
 
 function loadStore(): Store {
@@ -125,7 +128,17 @@ function HomePreview() {
     return TRIPS.filter((t) => store.assign[t.id] === selected);
   }, [selected, store.assign]);
 
+  // 폴더 커버 사진 = 그 폴더에 담긴 첫 여행의 여행지 사진
+  const coverFor = useCallback(
+    (folderId: string): string | null => {
+      const first = TRIPS.find((t) => store.assign[t.id] === folderId);
+      return first?.img ?? null;
+    },
+    [store.assign],
+  );
+
   const selectedFolder = store.folders.find((f) => f.id === selected);
+  const selectedCover = selectedFolder ? coverFor(selectedFolder.id) : null;
   const headerTitle =
     selected === ALL ? "모든 여행" : selected === UNFILED ? "미분류" : selectedFolder?.name ?? "모든 여행";
 
@@ -243,6 +256,7 @@ function HomePreview() {
 
               {store.folders.map((f) => {
                 const c = FOLDER_COLORS[f.color] ?? FOLDER_COLORS.slate;
+                const cover = coverFor(f.id);
                 return (
                   <FolderRow
                     key={f.id}
@@ -254,7 +268,14 @@ function HomePreview() {
                     onDragOver={(e) => { e.preventDefault(); setDropTarget(f.id); }}
                     onDragLeave={() => setDropTarget((t) => (t === f.id ? null : t))}
                     onDrop={() => onFolderDrop(f.id)}
-                    icon={<span className={`h-2.5 w-2.5 rounded-full ${c.dot}`} />}
+                    icon={
+                      cover ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={cover} alt="" className={`h-5 w-5 shrink-0 rounded-[6px] object-cover ring-1 ${c.ring}`} />
+                      ) : (
+                        <span className={`h-2.5 w-2.5 rounded-full ${c.dot}`} />
+                      )
+                    }
                     onRename={() => renameFolder(f.id)}
                     onDelete={() => deleteFolder(f.id)}
                   />
@@ -297,6 +318,19 @@ function HomePreview() {
             </button>
           </div>
 
+          {/* 폴더 커버 (실제 폴더 선택 시) */}
+          {selectedCover && (
+            <div className="relative m-4 h-28 overflow-hidden rounded-2xl md:mx-6 md:h-32">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={selectedCover} alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+              <div className="absolute bottom-0 left-0 p-4">
+                <p className="text-lg font-bold text-white drop-shadow md:text-xl">{headerTitle}</p>
+                <p className="text-xs font-medium text-white/80">여행 {visibleTrips.length}개</p>
+              </div>
+            </div>
+          )}
+
           {/* 안내 */}
           <p className="px-4 pt-4 text-xs text-slate-400 md:px-6">
             카드를 왼쪽 폴더로 <span className="font-semibold text-slate-500">드래그</span>하면 정리돼요.
@@ -318,7 +352,7 @@ function HomePreview() {
               />
             ))}
 
-            <button className="flex min-h-[104px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30">
+            <button className="flex min-h-[168px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-slate-200 text-slate-400 transition-colors hover:border-emerald-400 hover:text-emerald-500 hover:bg-emerald-50/30">
               <Plus className="mb-1 h-5 w-5" />
               <span className="text-xs font-bold">새 여행 만들기</span>
             </button>
@@ -409,17 +443,13 @@ function PreviewTripCard({
         dragging ? "opacity-40" : ""
       }`}
     >
-      {/* 미니 캔버스 (얇게) */}
-      <div
-        className="relative h-14 overflow-hidden rounded-t-2xl border-b border-slate-100 bg-slate-50"
-        style={{
-          backgroundImage: "radial-gradient(circle, rgba(148,163,184,0.35) 1px, transparent 1px)",
-          backgroundSize: "13px 13px",
-        }}
-      >
-        <span className="absolute left-3 top-3 h-3 w-24 rounded-full bg-emerald-200/70" />
-        <span className="absolute left-10 top-7 h-3 w-16 rounded-full bg-sky-200/70" />
-        <MousePointer2 className="absolute right-3 top-3 h-4 w-4 fill-rose-400 text-white" aria-hidden="true" />
+      {/* 여행지 사진 커버 */}
+      <div className="relative h-24 overflow-hidden rounded-t-2xl bg-slate-100">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={trip.img} alt="" className="absolute inset-0 h-full w-full object-cover" loading="lazy" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 to-transparent" />
+        <span className="absolute bottom-1.5 left-2.5 text-xs font-bold text-white drop-shadow">{trip.city}</span>
+        <MousePointer2 className="absolute right-2.5 top-2.5 h-4 w-4 fill-white text-slate-700 drop-shadow" aria-hidden="true" />
       </div>
 
       <div className="flex items-start gap-2 px-3 py-2.5">
